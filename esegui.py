@@ -24,6 +24,8 @@ import registro
 ESPERIMENTI = os.path.join(QUI, 'esperimenti')
 RISULTATI = os.path.join(QUI, 'risultati')
 PROVENIENZA = os.path.join(RISULTATI, 'provenienza')
+# variabili d'ambiente che cambiano che cosa fa un esperimento: si registrano nella provenienza
+VARIABILI = ('LINGUE_SOLO', 'PROCESSI', 'RIPARTENZE', 'RIPRENDI', 'NAIBBE', 'BIBLE_CORPUS', 'LATIN_LIBRARY')
 
 
 def ambiente():
@@ -89,6 +91,7 @@ def esegui(nome, argomenti, env):
         uscita = proc.wait()
     durata = time.time() - inizio
     scritti = [p for p in a_lf(inizio - 1, codice) if not p.startswith('risultati/provenienza/')]
+    prov['variabili'] = {k: env[k] for k in VARIABILI if k in env}
     prov.update({'esperimento': codice, 'argomenti': argomenti, 'uscita': uscita,
                  'inizio': time.strftime('%Y-%m-%dT%H:%M:%S', time.localtime(inizio)),
                  'durata_s': round(durata, 1), 'file_scritti': scritti})
