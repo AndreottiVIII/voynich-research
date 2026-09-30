@@ -206,8 +206,9 @@ def main():
     scrivi_tabella(ris)
 
 
-def scrivi_tabella(ris):
-    righe = ['# e36 — In quale posizione della parola sta l\'informazione sulla pagina', '',
+def scrivi_tabella(ris, nome_file='e36_posizione_pagina.md',
+                   titolo="# e36 — In quale posizione della parola sta l'informazione sulla pagina"):
+    righe = [titolo, '',
              'Quota = (informazione mutua pagina/segno − media di 200 rimescolamenti) / entropia del segno. '
              'R = quota al primo segno / media delle quote a penultimo e ultimo. Stabilità: R togliendo '
              'un fascicolo (Voynich) o una pagina su dieci (controlli). Preregistrazione: '
