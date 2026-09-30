@@ -1,0 +1,12 @@
+f 0.2, lambda 0.7    ident x1.23 somigl 1.0%/0.5%/0.2% hapax 0.61 h2 2.47 confine 0.001 
+f 0.2, lambda 1.0    ident x1.09 somigl 0.9%/0.4%/0.1% hapax 0.63 h2 2.49 confine 0.002 
+f 0.2, lambda 1.5    ident x1.14 somigl 1.1%/0.4%/0.0% hapax 0.66 h2 2.52 confine 0.002 
+f 0.4, lambda 0.7    ident x1.25 somigl 2.2%/1.0%/0.3% hapax 0.57 h2 2.55 confine 0.001 
+f 0.4, lambda 1.0    ident x1.30 somigl 2.4%/1.1%/0.3% hapax 0.60 h2 2.60 confine -0.001 
+f 0.4, lambda 1.5    ident x1.34 somigl 2.7%/1.1%/0.0% hapax 0.65 h2 2.66 confine 0.000 
+f 0.6, lambda 0.7    ident x1.29 somigl 4.1%/2.3%/0.3% hapax 0.53 h2 2.69 confine 0.000 
+f 0.6, lambda 1.0    ident x1.30 somigl 4.8%/2.7%/0.6% hapax 0.58 h2 2.77 confine 0.000 
+f 0.6, lambda 1.5    ident x1.31 somigl 4.9%/2.5%/0.4% hapax 0.65 h2 2.85 confine 0.001 
+f 0.8, lambda 0.7    ident x1.25 somigl 8.7%/6.2%/2.2% hapax 0.51 h2 2.88 confine -0.000 
+f 0.8, lambda 1.0    ident x1.29 somigl 9.0%/6.1%/2.0% hapax 0.55 h2 3.00 confine -0.001 
+f 0.8, lambda 1.5    ident x1.33 somigl 8.4%/4.9%/1.3% hapax 0.64 h2 3.09 confine 0.000 
