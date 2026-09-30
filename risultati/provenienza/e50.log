@@ -1,0 +1,19 @@
+validita {'q0 K0 = e23, seme 19': True, 'q0 K0 = e23, seme 1': True, 'q0 K0 = e23, seme 2': True, 'spente = e49 (q 0,3, lambda 0,9, seme 19)': True}
+MEDIA K 0 q 0.20 l 0.75: rip 0.70 somigl 3.9%/3.7% h2 2.47 confine 0.198 uniche 0.76/0.70 | V2 0.019 R 0.79 quota 0.091  V1
+MEDIA K 0 q 0.20 l 0.90: rip 0.77 somigl 4.2%/3.9% h2 2.45 confine 0.183 uniche 0.76/0.70 | V2 0.023 R 0.79 quota 0.100  V1
+MEDIA K 0 q 0.30 l 0.75: rip 0.80 somigl 3.8%/3.5% h2 2.55 confine 0.209 uniche 0.80/0.75 | V2 0.012 R 0.86 quota 0.087  V1
+MEDIA K 0 q 0.30 l 0.90: rip 0.69 somigl 4.8%/4.6% h2 2.49 confine 0.198 uniche 0.80/0.75 | V2 0.010 R 0.81 quota 0.109  V1
+MEDIA K 0 q 0.40 l 0.75: rip 0.67 somigl 3.9%/3.6% h2 2.61 confine 0.222 uniche 0.84/0.78 | V2 0.003 R 0.91 quota 0.089  V1
+MEDIA K 0 q 0.40 l 0.90: rip 0.82 somigl 5.3%/5.1% h2 2.57 confine 0.211 uniche 0.83/0.79 | V2 0.003 R 0.97 quota 0.119  V1
+MEDIA K 2 q 0.20 l 0.75: rip 0.67 somigl 5.3%/5.1% h2 2.50 confine 0.192 uniche 0.75/0.71 | V2 0.024 R 0.80 quota 0.120  V1
+MEDIA K 2 q 0.20 l 0.90: rip 0.70 somigl 6.4%/6.4% h2 2.47 confine 0.184 uniche 0.73/0.71 | V2 0.039 R 0.82 quota 0.145  V1
+MEDIA K 2 q 0.30 l 0.75: rip 0.69 somigl 5.3%/5.2% h2 2.58 confine 0.208 uniche 0.78/0.75 | V2 0.013 R 0.79 quota 0.120  V1
+MEDIA K 2 q 0.30 l 0.90: rip 0.75 somigl 6.6%/6.6% h2 2.55 confine 0.201 uniche 0.78/0.75 | V2 0.029 R 0.85 quota 0.149  V1
+MEDIA K 2 q 0.40 l 0.75: rip 0.65 somigl 5.4%/5.3% h2 2.62 confine 0.222 uniche 0.82/0.78 | V2 0.000 R 0.95 quota 0.117  V1
+MEDIA K 2 q 0.40 l 0.90: rip 0.73 somigl 7.2%/7.2% h2 2.61 confine 0.211 uniche 0.81/0.78 | V2 0.012 R 0.95 quota 0.151  V1
+MEDIA K 5 q 0.20 l 0.75: rip 0.79 somigl 5.0%/4.8% h2 2.51 confine 0.199 uniche 0.74/0.70 | V2 0.036 R 0.81 quota 0.115  V1
+MEDIA K 5 q 0.20 l 0.90: rip 0.69 somigl 5.8%/5.7% h2 2.46 confine 0.176 uniche 0.74/0.70 | V2 0.071 R 0.89 quota 0.133  V1 V2
+MEDIA K 5 q 0.30 l 0.75: rip 0.81 somigl 4.8%/4.6% h2 2.57 confine 0.204 uniche 0.79/0.75 | V2 0.022 R 0.84 quota 0.108  V1
+MEDIA K 5 q 0.30 l 0.90: rip 0.67 somigl 6.1%/6.0% h2 2.54 confine 0.203 uniche 0.78/0.75 | V2 0.057 R 0.91 quota 0.140  V1 V2
+MEDIA K 5 q 0.40 l 0.75: rip 0.73 somigl 4.6%/4.5% h2 2.62 confine 0.220 uniche 0.83/0.79 | V2 0.012 R 0.90 quota 0.108  V1
+MEDIA K 5 q 0.40 l 0.90: rip 0.72 somigl 6.7%/6.6% h2 2.60 confine 0.206 uniche 0.81/0.79 | V2 0.017 R 1.02 quota 0.142  V1
