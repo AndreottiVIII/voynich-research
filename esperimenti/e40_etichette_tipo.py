@@ -134,5 +134,34 @@ def main():
         f.write('\n'.join(righe) + '\n')
 
 
+def per_lunghezza():
+    """Esplorativo (non preregistrato): le etichette dei recipienti sono piu' lunghe; l'effetto
+    sull'ultimo segno resta se il rimescolamento avviene dentro pagina x classe di lunghezza?"""
+    rnd = random.Random(41)
+    ris = {}
+    for nome, tipi in CONFRONTI[:1]:
+        dati = etichette(tipi)
+        for classi in ((2, 5, 7, 99), (2, 4, 5, 6, 7, 8, 99)):
+            def classe(n):
+                return next(i for i, c in enumerate(classi[1:]) if n < c)
+            strati = [('%s|%d' % (pag, classe(len(s))), t, s) for pag, t, s in dati]
+            for pnome, pos in POSIZIONI.items():
+                r = prova(strati, pos, rnd)
+                ris['%s, classi %s, %s' % (nome, classi[1:-1], pnome)] = r
+                print('%-60s eccesso %.4f  z %.1f  p %.3f' % (
+                    '%s, classi di lunghezza %s, %s' % (nome, classi[1:-1], pnome), r['eccesso'], r['z'], r['p']))
+    with open(os.path.join(RISULTATI, 'e40_etichette_tipo_lunghezza.json'), 'w', encoding='utf-8') as f:
+        json.dump(ris, f, ensure_ascii=False, indent=1)
+    righe = ["# e40, esplorativo: l'effetto resta a parità di pagina e di lunghezza?", '',
+             'Rimescolamento dei tipi dentro pagina × classe di lunghezza (in segni). Non preregistrato.', '',
+             '| prova | eccesso (bit) | z | p |', '|---|---|---|---|']
+    righe += ['| %s | %.4f | %.1f | %.3f |' % (k, v['eccesso'], v['z'], v['p']) for k, v in ris.items()]
+    with open(os.path.join(RISULTATI, 'e40_etichette_tipo_lunghezza.md'), 'w', encoding='utf-8') as f:
+        f.write('\n'.join(righe) + '\n')
+
+
 if __name__ == '__main__':
-    main()
+    if '--lunghezza' in sys.argv:
+        per_lunghezza()
+    else:
+        main()
