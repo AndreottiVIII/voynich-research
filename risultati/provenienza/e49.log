@@ -1,0 +1,12 @@
+MEDIA q 0.20 l 0.60: rip 0.74 somigl 2.3%/2.3% h2 2.31 confine 0.211 uniche 0.67/0.58 | V2 0.029 R 0.77 quota 0.066  V1
+MEDIA q 0.20 l 0.75: rip 0.79 somigl 2.7%/2.8% h2 2.28 confine 0.195 uniche 0.66/0.57 | V2 0.025 R 0.74 quota 0.076  V1
+MEDIA q 0.20 l 0.90: rip 0.86 somigl 3.3%/3.3% h2 2.26 confine 0.184 uniche 0.64/0.56 | V2 0.037 R 0.72 quota 0.093  V1
+MEDIA q 0.30 l 0.60: rip 0.81 somigl 2.0%/2.0% h2 2.31 confine 0.219 uniche 0.68/0.59 | V2 0.003 R 0.83 quota 0.059  V1 V3
+MEDIA q 0.30 l 0.75: rip 0.90 somigl 2.7%/2.6% h2 2.33 confine 0.203 uniche 0.67/0.59 | V2 0.017 R 0.79 quota 0.076  V1
+MEDIA q 0.30 l 0.90: rip 0.84 somigl 3.3%/3.3% h2 2.26 confine 0.187 uniche 0.64/0.57 | V2 0.034 R 0.80 quota 0.100  V1
+MEDIA q 0.40 l 0.60: rip 0.90 somigl 1.7%/1.6% h2 2.34 confine 0.233 uniche 0.68/0.60 | V2 0.020 R 0.83 quota 0.056  V1 V3
+MEDIA q 0.40 l 0.75: rip 0.90 somigl 2.4%/2.3% h2 2.34 confine 0.217 uniche 0.67/0.60 | V2 0.008 R 0.85 quota 0.074  V1 V3
+MEDIA q 0.40 l 0.90: rip 0.93 somigl 3.8%/3.8% h2 2.29 confine 0.184 uniche 0.64/0.57 | V2 0.029 R 0.81 quota 0.108  V1
+MEDIA q 0.50 l 0.60: rip 0.85 somigl 1.4%/1.5% h2 2.32 confine 0.237 uniche 0.68/0.62 | V2 0.008 R 0.90 quota 0.051  V1 V3
+MEDIA q 0.50 l 0.75: rip 0.91 somigl 2.1%/2.2% h2 2.34 confine 0.227 uniche 0.66/0.61 | V2 0.018 R 0.90 quota 0.071  V1 V3
+MEDIA q 0.50 l 0.90: rip 0.96 somigl 4.1%/4.1% h2 2.31 confine 0.196 uniche 0.62/0.57 | V2 0.024 R 0.88 quota 0.121  V1
