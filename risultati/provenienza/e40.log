@@ -1,0 +1,6 @@
+farmacia: recipienti / frammenti     primo  eccesso 0.0434  z 2.3  p 0.027  potenza 0.81
+farmacia: recipienti / frammenti     ultimo eccesso 0.0781  z 4.2  p 0.003  potenza 0.74
+biologica: ninfe / vasche            primo  eccesso -0.0009  z -0.0  p 0.475  potenza 0.43
+biologica: ninfe / vasche            ultimo eccesso 0.0096  z 0.4  p 0.269  potenza 0.54
+astronomia: stelle / altre           primo  eccesso 0.0623  z 1.3  p 0.105  potenza 0.17
+astronomia: stelle / altre           ultimo eccesso 0.0117  z 0.3  p 0.356  potenza 0.20
