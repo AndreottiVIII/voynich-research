@@ -539,3 +539,37 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
     modello si concentra in fondo ed è più forte);
   - la **deriva** del vocabolario, senza la recenza;
   - Zipf (di poco).
+
+## 1/10/2026 — e46 ed e52: il codice accorto
+
+- **e46** (12 varianti casuali per parola, scelta per stile). Nessuna combinazione compatibile.
+  h2 2,76–2,88, tipi il doppio del Voynich; l'omogeneità resta locale; con γ = 3 il legame supera
+  il Voynich (0,47–0,55).
+- **e52** (varianti vere del Voynich a distanza 1).
+  - Molto più vicino: h2 2,12–2,30, tipi 0,17–0,20 (Voynich 0,21), ripetizione fino a 0,91.
+  - Somiglianza di pagina locale (fino al 3,4% nella riga, 1,2–1,8% a sei righe) e legame ≤ 0,11:
+    stile e giunture si contendono la stessa scelta.
+  - **L'86–88% delle posizioni è ambiguo.**
+- **Lettura del messaggio conoscendo la chiave** (esplorativo):
+  - parola per parola: 31–38%;
+  - con il contesto addestrato sullo stesso testo: 91–95%, ma è memoria;
+  - con il contesto addestrato su altri libri di Plinio: **32–37%**.
+- **Lettura.** Un codice che ottiene le ripetizioni del Voynich facendo condividere le forme a
+  parole diverse perde circa due terzi del messaggio anche per chi ha la chiave. È un argomento
+  forte contro la variante "codice accorto" dell'ipotesi con contenuto, almeno nella forma provata.
+
+## 1/10/2026 — e54 ed e55: la forma delle parole (V8)
+
+- **e54 (diagnosi esplorativa).** Nel generatore la firma di pagina sta sui segni della seconda e
+  penultima posizione (*e*, *d*, *i*), nel Voynich è distribuita. Ma soprattutto le **forme** sono
+  diverse:
+  - *q-* iniziale: generatore 3%, Voynich 10–18%;
+  - *a-* iniziale: generatore 20%;
+  - *-y* finale: generatore 18%, Voynich 33–46%.
+- **e55, preregistrato.** Distanza di Jensen–Shannon fra le distribuzioni del segno per posizione.
+  - Riferimenti: rumore (pagine pari/dispari) 0,000–0,001; Currier A/B 0,021–0,087.
+  - **Tutti i generatori ad autocitazione, tutti i semi, falliscono V8.**
+  - Naibbe e codice parola per parola la superano, per costruzione.
+- **Lettura.** La somiglianza del generatore alla lista di controllo non si estende alla forma
+  delle parole: scrive parole più lontane dal Voynich di quanto le sue due lingue lo siano fra
+  loro. V8 entra nella lista di controllo per qualunque generatore futuro.
