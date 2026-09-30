@@ -72,6 +72,14 @@ def main():
     # immagini Beinecke e corpora di controllo; lo snapshot e' quello analizzato nell'articolo (MIT)
     fissa('https://github.com/lrozanova/voynich-units',
           os.path.join(lingue.SORGENTI, 'voynich-units'), '66f8adaadc120f93e8a4c906685ba66a9d3ab847')
+    # il gibberish di Gaskell e Bowern (2022), redistribuito nel repository del Naibbe fuori dalle
+    # cartelle scaricate: si estrae lo zip con git show, senza checkout (esperimento 41)
+    gb = os.path.join(lingue.SORGENTI, 'gaskell_bowern')
+    os.makedirs(gb, exist_ok=True)
+    with open(os.path.join(gb, 'gibberish_transcriptions.zip'), 'wb') as f:
+        f.write(subprocess.check_output(
+            ['git', 'show', 'f2675ec5dd275268bc64dd48ea64fc0e0e9827a2:figure_utils/gaskell_bowern_2022/'
+             'data/cleaned/gibberish_transcriptions.zip'], cwd=os.path.join(lingue.SORGENTI, 'naibbe-cipher')))
     indice = lingue.prepara()
     lingue.prepara_pinyin()
     indice = lingue.indice()
