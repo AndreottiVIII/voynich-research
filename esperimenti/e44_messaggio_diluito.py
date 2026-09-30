@@ -163,7 +163,7 @@ def main():
     out = ['# e44 — Un messaggio diluito nel generatore di Timm e Schinner (con le giunture)', '',
            'm = probabilità che un posto di parola vada al messaggio (Plinio, libri 20–27, codice parola per parola '
            'sul vocabolario del Voynich). Medie su tre semi (19, 1, 2); giunture a forza 3. Compatibile = ripetizione '
-           '≥ 0,7, somiglianza nella riga ≥ 3% e calante a 6 righe, h2 ≤ 2,40, legame fine–inizio ≥ 0,15. '
+           '≥ 0,7, somiglianza nella riga ≥ 3%% e calante a 6 righe, h2 ≤ 2,40, legame fine–inizio ≥ 0,15. '
            'Validità: con m = 0 il testo è identico a quello dell\'e23 (%s). Preregistrazione: '
            '`preregistrazioni/e44.md`.' % ('sì' if all(x['uguali'] for x in ris['validita'].values()) else 'NO'), '',
            '| testo | parole del messaggio | h2 | spazio | parole uniche | tipi/parole | ripetizione | somigl. riga | 6 righe | confine | compatibile |',
