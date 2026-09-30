@@ -58,10 +58,14 @@ def main():
     registro['_manifest'] = {'url': MANIFEST_URL, 'sha256': sha256(manifest), 'larghezza': LARGHEZZA}
     richieste = [a for a in sys.argv[1:] if not a.startswith('--')]
     tutte = '--tutte' in sys.argv
+    viste = {}
     for canvas in m['items']:
-        etichetta = list(canvas['label'].values())[0][0]
-        if not tutte and not any(etichetta == r or etichetta.startswith(r + ' ') for r in richieste):
+        base = list(canvas['label'].values())[0][0]
+        if not tutte and not any(base == r or base.startswith(r + ' ') for r in richieste):
             continue
+        # etichette ripetute (due canvas "102v (part)"): la seconda diventa "... #2"
+        viste[base] = viste.get(base, 0) + 1
+        etichetta = base if viste[base] == 1 else '%s #%d' % (base, viste[base])
         servizio = canvas['items'][0]['items'][0]['body']['service'][0]['@id']
         url = '%s/full/%d,/0/default.jpg' % (servizio, LARGHEZZA)
         dest = os.path.join(CACHE, nome_file(etichetta))
