@@ -1,0 +1,52 @@
+# Fonti dei dati
+
+## Trascrizioni del Voynich (in `trascrizioni/`)
+
+Sono le trascrizioni pubblicate da René Zandbergen su
+[voynich.nu](https://www.voynich.nu/transcr.html), nel formato IVTFF. Il sito
+da questo ambiente non si raggiunge: le copie vengono dal repository pubblico
+[Krymorn/The-Voynich-Transliteration-Tool](https://github.com/Krymorn/The-Voynich-Transliteration-Tool)
+(commit `cb2d36894a901b9570dd05e96f309fedf9947c4e`), che le distribuisce con
+le impronte SHA-256 degli originali. Le nostre copie coincidono con quelle
+impronte. Gli autori le rendono liberamente disponibili per la ricerca.
+
+| file | trascrizione | alfabeto | versione | SHA-256 |
+|---|---|---|---|---|
+| `ZL3b-n.txt` | Zandbergen-Landini, la più completa | EVA | 3b del 13/05/2025 | `bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc` |
+| `IT2a-n.txt` | Takahashi, dall'archivio interlineare di Stolfi | EVA di base | 2a, rivista 25/06/2025 | `7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5` |
+| `GC2a-n.txt` | Glen Claston | v101 | 2a, rivista 25/06/2025 | `b09570cb6c993bc2d87134d115e60a978650a8a6495483ddbb1f6005a586096f` |
+
+## Testi di confronto (non nel repository, si rigenerano con `prepara.py`)
+
+- **La Bibbia in 100 lingue**: [christos-c/bible-corpus](https://github.com/christos-c/bible-corpus),
+  commit `44e5fca1bfb369a5da2ee23ebc6f421c88489c5c`, pubblico dominio (CC0).
+  Da qui viene anche il cinese trascritto in pinyin (con la libreria `pypinyin`).
+- **Testi tecnici latini** (ricette, agricoltura, piante, trattati):
+  [cltk/lat_text_latin_library](https://github.com/cltk/lat_text_latin_library),
+  commit `76229acaf02efd1964ac32009408a90b6f279758`, i testi della Latin Library.
+- **Il cifrario Naibbe** (tabelle e Plinio cifrato di esempio):
+  [greshko/naibbe-cipher](https://github.com/greshko/naibbe-cipher), commit
+  `f2675ec5dd275268bc64dd48ea64fc0e0e9827a2`, licenza MIT modificata che chiede di citare
+  Greshko, M. A. (2025), *The Naibbe cipher: a substitution cipher that encrypts Latin and
+  Italian as Voynich Manuscript-like ciphertext*, Cryptologia,
+  [doi:10.1080/01611194.2025.2566408](https://doi.org/10.1080/01611194.2025.2566408).
+- **Il generatore ad autocitazione di Timm e Schinner** (programma Java e parametri pubblicati):
+  [TorstenTimm/SelfCitationTextgenerator](https://github.com/TorstenTimm/SelfCitationTextgenerator),
+  commit `a6ede2202dd7ad6285ce2c007bf22c2a0e7709b7`, licenza MIT. Timm, T. e Schinner, A. (2020),
+  *A possible generating algorithm of the Voynich manuscript*, Cryptologia 44(1),
+  [doi:10.1080/01611194.2019.1596999](https://doi.org/10.1080/01611194.2019.1596999). Serve Java.
+- **Il breviario romano in latino** (litanie, salmi, preci, preghiere):
+  [DivinumOfficium/divinum-officium](https://github.com/DivinumOfficium/divinum-officium), commit
+  `2dbc3c24ea7f96f014060aaa51caeec477f3c578`, licenza MIT; se ne scarica solo la cartella
+  `web/www/horas/Latin`.
+- **La decifrazione latina di Scott Schechter** (glossario EVA → latino e trascrizione usata):
+  [scott-schechter/voynich-decoded](https://github.com/scott-schechter/voynich-decoded), commit
+  `71f2f3c91e9113d285ab21e024f1dd70c1f43c44` (25/03/2026). Il repository non dichiara una licenza:
+  non se ne copia niente qui, si scarica in cache e si legge.
+- **La corrispondenza EVA → ebraico di Antenore Gatta**:
+  [antenore/voynich-toolkit](https://github.com/antenore/voynich-toolkit), commit
+  `cb137630762908517636b7f9ffb98bc5fe0dc05e`, licenza MIT; articolo su Zenodo,
+  [doi:10.5281/zenodo.19226178](https://doi.org/10.5281/zenodo.19226178). L'esperimento 26 ne ricopia
+  la tabella (`full_decode.py`: 17 segni più ii, i e ch, lettura da destra, due regole per l'iniziale);
+  l'esperimento 27 le identificazioni delle piante (`champollion.py`, `FOLIO_PLANTS`: 58 fogli con nome
+  italiano e grado di confidenza), a cui aggiunge i nomi latini.

@@ -1,0 +1,439 @@
+{
+ "confronto": {
+  "righe": 4130,
+  "righe_comuni": 4118,
+  "parole": 34815,
+  "uguali": 30459,
+  "lette diversamente": 1768,
+  "spazi o parole diversi": 2588,
+  "unite": 701,
+  "divise": 344,
+  "righe solo ZL": 12
+ },
+ "distanze": {
+  "1": 1321,
+  "2": 294,
+  "3": 153
+ },
+ "scambi": [
+  [
+   "scambio",
+   "a",
+   "o",
+   257
+  ],
+  [
+   "scambio",
+   "o",
+   "a",
+   126
+  ],
+  [
+   "scambio",
+   "s",
+   "r",
+   90
+  ],
+  [
+   "scambio",
+   "r",
+   "s",
+   86
+  ],
+  [
+   "tolta",
+   "i",
+   null,
+   73
+  ],
+  [
+   "scambio",
+   "k",
+   "t",
+   42
+  ],
+  [
+   "scambio",
+   "y",
+   "o",
+   41
+  ],
+  [
+   "scambio",
+   "t",
+   "k",
+   39
+  ],
+  [
+   "scambio",
+   "g",
+   "m",
+   35
+  ],
+  [
+   "scambio",
+   "ch",
+   "sh",
+   35
+  ],
+  [
+   "aggiunta",
+   null,
+   "i",
+   34
+  ],
+  [
+   "aggiunta",
+   null,
+   "e",
+   32
+  ],
+  [
+   "tolta",
+   "e",
+   null,
+   31
+  ],
+  [
+   "scambio",
+   "sh",
+   "ch",
+   28
+  ],
+  [
+   "scambio",
+   "e",
+   "o",
+   21
+  ],
+  [
+   "scambio",
+   "y",
+   "a",
+   20
+  ],
+  [
+   "scambio",
+   "o",
+   "y",
+   20
+  ],
+  [
+   "scambio",
+   "o",
+   "e",
+   17
+  ],
+  [
+   "scambio",
+   "e",
+   "h",
+   16
+  ],
+  [
+   "scambio",
+   "h",
+   "e",
+   15
+  ]
+ ],
+ "parole_uniche": {
+  "tipi": 6293,
+  "hapax": 0.679485142221516,
+  "uniche_lette_diversamente": 0.15459317585301838,
+  "altre_lette_diversamente": 0.040697917101473476,
+  "uniche_che_diventano_note": 208,
+  "hapax_con_la_lettura_di_takahashi": 0.6613565445886024
+ },
+ "liste": {
+  "Voynich (ZL)": {
+   "parole": 34863,
+   "h2": 2.2361640232559865,
+   "lung_media": 4.460746349998566,
+   "tipi_su_parole": 0.20976666666666666,
+   "hapax": 0.679485142221516,
+   "identiche_immediate": 0.009371034392997754,
+   "identiche_vs_riga": 1.008508949494745,
+   "somiglianza_riga": 0.03845463938289839,
+   "somiglianza_riga_sotto": 0.039866274671841784,
+   "somiglianza_6_righe": 0.03353358262726869,
+   "spazio_spiegato": 0.6636041919558022,
+   "confine": 0.18814378875483317,
+   "unione_attestata": 0.0876582175511665,
+   "unione_caso": 0.044642566622197635,
+   "ordine_rispettato": 0.7846567824551701,
+   "anagrammi": 0.3535209255820597,
+   "regolarita": {
+    "uniche": 3.380200767779365,
+    "ripetute": 2.145348221480099
+   }
+  },
+  "Voynich (Takahashi)": {
+   "parole": 34411,
+   "h2": 2.2384376863506166,
+   "lung_media": 4.527534799918631,
+   "tipi_su_parole": 0.2122,
+   "hapax": 0.675306314797361,
+   "identiche_immediate": 0.009638872383970423,
+   "identiche_vs_riga": 1.0711927372384227,
+   "somiglianza_riga": 0.0400420457669004,
+   "somiglianza_riga_sotto": 0.040700993706077715,
+   "somiglianza_6_righe": 0.03474236266307906,
+   "spazio_spiegato": 0.6698750926804591,
+   "confine": 0.1690629694647793,
+   "unione_attestata": 0.06519442793952598,
+   "unione_caso": 0.03340595497458242,
+   "ordine_rispettato": 0.7856096021566341,
+   "anagrammi": 0.36633101687703873,
+   "regolarita": {
+    "uniche": 3.3849720619346755,
+    "ripetute": 2.1343267388472213
+   }
+  },
+  "generatore, seme 19, errori ×0": {
+   "parole": 35372,
+   "h2": 2.2050617606033756,
+   "lung_media": 4.124222548908741,
+   "tipi_su_parole": 0.13253333333333334,
+   "hapax": 0.49924547283702214,
+   "identiche_immediate": 0.010008925156190233,
+   "identiche_vs_riga": 0.877401211620136,
+   "somiglianza_riga": 0.034186419370735965,
+   "somiglianza_riga_sotto": 0.04034810618695939,
+   "somiglianza_6_righe": 0.03454712808248794,
+   "spazio_spiegato": 0.5978652400734774,
+   "confine": 0.17850069284610176,
+   "unione_attestata": 0.12402779548642101,
+   "unione_caso": 0.09428790003825067,
+   "ordine_rispettato": 0.7472017310907839,
+   "anagrammi": 0.44763628138430217,
+   "dose": 0.0,
+   "seme": 19,
+   "regolarita": {
+    "uniche": 3.0973190362903416,
+    "ripetute": 2.1257831748482587
+   }
+  },
+  "generatore, seme 19, errori ×0.5": {
+   "parole": 35250,
+   "h2": 2.254171322321791,
+   "lung_media": 4.143574468085107,
+   "tipi_su_parole": 0.15286666666666668,
+   "hapax": 0.556694286960314,
+   "identiche_immediate": 0.00928,
+   "identiche_vs_riga": 0.866053702151593,
+   "somiglianza_riga": 0.032287698711423785,
+   "somiglianza_riga_sotto": 0.038360256557335104,
+   "somiglianza_6_righe": 0.03243793258751726,
+   "spazio_spiegato": 0.5745205471362209,
+   "confine": 0.18981210540843066,
+   "unione_attestata": 0.133856,
+   "unione_caso": 0.096032,
+   "ordine_rispettato": 0.7370963884238221,
+   "anagrammi": 0.4318181818181818,
+   "dose": 0.5,
+   "seme": 19,
+   "regolarita": {
+    "uniche": 3.3222398963183633,
+    "ripetute": 2.1512537398928555
+   }
+  },
+  "generatore, seme 19, errori ×1": {
+   "parole": 35130,
+   "h2": 2.295060549852748,
+   "lung_media": 4.160688869911756,
+   "tipi_su_parole": 0.17,
+   "hapax": 0.5964705882352941,
+   "identiche_immediate": 0.008866045615162223,
+   "identiche_vs_riga": 0.8916931870741481,
+   "somiglianza_riga": 0.031570019134672944,
+   "somiglianza_riga_sotto": 0.03807841778285925,
+   "somiglianza_6_righe": 0.03285099069988395,
+   "spazio_spiegato": 0.5541916376056246,
+   "confine": 0.19985616083320484,
+   "unione_attestata": 0.13495020880179892,
+   "unione_caso": 0.09572759396080951,
+   "ordine_rispettato": 0.7295646982197134,
+   "anagrammi": 0.4216254168860804,
+   "dose": 1.0,
+   "seme": 19,
+   "regolarita": {
+    "uniche": 3.3521829560325664,
+    "ripetute": 2.179627421258528
+   }
+  },
+  "generatore, seme 19, errori ×2": {
+   "parole": 34873,
+   "h2": 2.3651061694355198,
+   "lung_media": 4.2003555759470075,
+   "tipi_su_parole": 0.19863333333333333,
+   "hapax": 0.642893102869609,
+   "identiche_immediate": 0.008259644349431543,
+   "identiche_vs_riga": 0.9672445558113482,
+   "somiglianza_riga": 0.030790460928712737,
+   "somiglianza_riga_sotto": 0.037484127081623964,
+   "somiglianza_6_righe": 0.032148229887993485,
+   "spazio_spiegato": 0.5187730160220206,
+   "confine": 0.21427929558026887,
+   "unione_attestata": 0.1428108703397791,
+   "unione_caso": 0.09807922780423023,
+   "ordine_rispettato": 0.7189616491703352,
+   "anagrammi": 0.41209120912091207,
+   "dose": 2.0,
+   "seme": 19,
+   "regolarita": {
+    "uniche": 3.3786074172446665,
+    "ripetute": 2.2301429400385846
+   }
+  },
+  "generatore, seme 19, solo segni ×2": {
+   "parole": 35371,
+   "h2": 2.311959710699568,
+   "lung_media": 4.1404823160215996,
+   "tipi_su_parole": 0.17,
+   "hapax": 0.5837254901960784,
+   "identiche_immediate": 0.008479168658952535,
+   "identiche_vs_riga": 0.8596492769963416,
+   "somiglianza_riga": 0.03208710507767376,
+   "somiglianza_riga_sotto": 0.0384612981823621,
+   "somiglianza_6_righe": 0.03289017315750997,
+   "spazio_spiegato": 0.572445196329437,
+   "confine": 0.1642810254713547,
+   "unione_attestata": 0.10892225303624367,
+   "unione_caso": 0.08635363871091135,
+   "ordine_rispettato": 0.7486507695017857,
+   "anagrammi": 0.4623486045286993,
+   "dose": 2.0,
+   "seme": 19,
+   "regolarita": {
+    "uniche": 3.534053300082629,
+    "ripetute": 2.173559567773946
+   }
+  },
+  "generatore, seme 19, solo segni ×4": {
+   "parole": 35372,
+   "h2": 2.39513514991595,
+   "lung_media": 4.156734139997738,
+   "tipi_su_parole": 0.1987,
+   "hapax": 0.6203657104512665,
+   "identiche_immediate": 0.006853244931786307,
+   "identiche_vs_riga": 0.8256250387357734,
+   "somiglianza_riga": 0.03171540789400962,
+   "somiglianza_riga_sotto": 0.03812000103131663,
+   "somiglianza_6_righe": 0.032077444576738334,
+   "spazio_spiegato": 0.551346592225529,
+   "confine": 0.1504229845634013,
+   "unione_attestata": 0.09642356241234222,
+   "unione_caso": 0.07697947214076246,
+   "ordine_rispettato": 0.7492101596236359,
+   "anagrammi": 0.46233338325595325,
+   "dose": 4.0,
+   "seme": 19,
+   "regolarita": {
+    "uniche": 3.5739320534985337,
+    "ripetute": 2.2236342732939796
+   }
+  },
+  "generatore, seme 1, errori ×0": {
+   "parole": 35334,
+   "h2": 2.286814782265027,
+   "lung_media": 4.097922680704138,
+   "tipi_su_parole": 0.1439,
+   "hapax": 0.5140143618253417,
+   "identiche_immediate": 0.008457266866662412,
+   "identiche_vs_riga": 0.8054151877449128,
+   "somiglianza_riga": 0.03350695081884236,
+   "somiglianza_riga_sotto": 0.03672165416574846,
+   "somiglianza_6_righe": 0.029288374234113568,
+   "spazio_spiegato": 0.5754935777778818,
+   "confine": 0.1805789565023586,
+   "unione_attestata": 0.11393374609050871,
+   "unione_caso": 0.08900874449479798,
+   "ordine_rispettato": 0.7438053979589987,
+   "anagrammi": 0.4665408013425635,
+   "dose": 0.0,
+   "seme": 1,
+   "regolarita": {
+    "uniche": 3.0608013320711387,
+    "ripetute": 2.2121487854682242
+   }
+  },
+  "generatore, seme 1, errori ×0.5": {
+   "parole": 35132,
+   "h2": 2.333067616572887,
+   "lung_media": 4.125014232039167,
+   "tipi_su_parole": 0.1645,
+   "hapax": 0.5689969604863222,
+   "identiche_immediate": 0.007966079917769498,
+   "identiche_vs_riga": 0.8085115044867435,
+   "somiglianza_riga": 0.03263157675783279,
+   "somiglianza_riga_sotto": 0.03626413857295063,
+   "somiglianza_6_righe": 0.029089453147783773,
+   "spazio_spiegato": 0.5543952696808656,
+   "confine": 0.18955274938179123,
+   "unione_attestata": 0.11920210715662341,
+   "unione_caso": 0.09167416163433123,
+   "ordine_rispettato": 0.7315286905779376,
+   "anagrammi": 0.43974358974358974,
+   "dose": 0.5,
+   "seme": 1,
+   "regolarita": {
+    "uniche": 3.2828250649780353,
+    "ripetute": 2.232648740556471
+   }
+  },
+  "generatore, seme 1, errori ×1": {
+   "parole": 35061,
+   "h2": 2.372214226227087,
+   "lung_media": 4.1376743390091555,
+   "tipi_su_parole": 0.1798,
+   "hapax": 0.6077122728958102,
+   "identiche_immediate": 0.007597952416213258,
+   "identiche_vs_riga": 0.8251086166333685,
+   "somiglianza_riga": 0.03226345800663666,
+   "somiglianza_riga_sotto": 0.035664718970120024,
+   "somiglianza_6_righe": 0.02870389538597473,
+   "spazio_spiegato": 0.5333431519779306,
+   "confine": 0.20027250350316947,
+   "unione_attestata": 0.11957116641447474,
+   "unione_caso": 0.0900164193039503,
+   "ordine_rispettato": 0.7238171632618736,
+   "anagrammi": 0.43012008005336894,
+   "dose": 1.0,
+   "seme": 1,
+   "regolarita": {
+    "uniche": 3.3605625658372924,
+    "ripetute": 2.2575669841971804
+   }
+  },
+  "generatore, seme 1, errori ×2": {
+   "parole": 34829,
+   "h2": 2.4455308195093584,
+   "lung_media": 4.175342387091217,
+   "tipi_su_parole": 0.21183333333333335,
+   "hapax": 0.649567269866247,
+   "identiche_immediate": 0.006844205131531999,
+   "identiche_vs_riga": 0.8872178808778772,
+   "somiglianza_riga": 0.029573273645728038,
+   "somiglianza_riga_sotto": 0.03353845937865918,
+   "somiglianza_6_righe": 0.026890010839100253,
+   "spazio_spiegato": 0.49742116336081765,
+   "confine": 0.2054255059083628,
+   "unione_attestata": 0.1214765318369068,
+   "unione_caso": 0.08696357325894451,
+   "ordine_rispettato": 0.712865628380723,
+   "anagrammi": 0.42519908987485777,
+   "dose": 2.0,
+   "seme": 1,
+   "regolarita": {
+    "uniche": 3.420374197241673,
+    "ripetute": 2.30530692101722
+   }
+  }
+ },
+ "tassi": {
+  "lettura": 0.050782708602613816,
+  "unite": 0.020134999281918715,
+  "divise": 0.009880798506390924
+ }
+}

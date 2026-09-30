@@ -1,0 +1,396 @@
+{
+ "copertura": {
+  "voci del glossario": 4063,
+  "significati diversi": 947,
+  "parole del Voynich": 37886,
+  "Voynich": 0.8917542099984163,
+  "parole diverse decifrate": 4445,
+  "di cui compaiono una volta sola": 2067,
+  "glossario qualunque con altrettante voci": 0.9077231695085256,
+  "Timm e Schinner, programma pubblicato": 0.6680244963560285,
+  "Timm e Schinner, con le giunture": 0.7047947529119077
+ },
+ "lasciate_fuori": {
+  "Voynich": {
+   "glossario_su_pari": 0.8087417758963635,
+   "parole_gia_viste_su_pari": 0.8206252868873362,
+   "glossario_su_dispari": 0.8116417747141529,
+   "parole_gia_viste_su_dispari": 0.8269051917500957
+  },
+  "Timm e Schinner, programma pubblicato": {
+   "glossario_su_pari": 0.6485418521816563,
+   "parole_gia_viste_su_pari": 0.8666518254674977,
+   "glossario_su_dispari": 0.6490976323196644,
+   "parole_gia_viste_su_dispari": 0.8541862133671836
+  },
+  "Timm e Schinner, con le giunture": {
+   "glossario_su_pari": 0.6877613289637247,
+   "parole_gia_viste_su_pari": 0.8794214035484236,
+   "glossario_su_dispari": 0.6837161932782618,
+   "parole_gia_viste_su_dispari": 0.8813511372637773
+  }
+ },
+ "ordine_latino": {
+  "Voynich decifrato": {
+   "coppie": 16040,
+   "attestate": 0.08771820448877805,
+   "attestate_rimescolate": 0.08821432328156585,
+   "rapporto": 0.9943759836913982
+  },
+  "Timm e Schinner, programma pubblicato, decifrato": {
+   "coppie": 10153,
+   "attestate": 0.09740963262090023,
+   "attestate_rimescolate": 0.0997231113692682,
+   "rapporto": 0.9768009770593568
+  },
+  "Timm e Schinner, con le giunture, decifrato": {
+   "coppie": 10889,
+   "attestate": 0.07897878593075582,
+   "attestate_rimescolate": 0.0836157767307287,
+   "rapporto": 0.9445440683412465
+  },
+  "latino vero (Apicio, Isidoro XVII)": {
+   "coppie": 9593,
+   "attestate": 0.2986552694673199,
+   "attestate_rimescolate": 0.22358043740362837,
+   "rapporto": 1.3357844404256147
+  },
+  "Voynich, significati rimescolati fra le voci": {
+   "coppie": 11178.6,
+   "attestate": 0.07884677566536076,
+   "attestate_rimescolate": 0.07804617921577364,
+   "rapporto": 1.0081731631261432,
+   "rapporto_max": 1.1027751405276767
+  }
+ },
+ "riferimento_parole": 1367764,
+ "frasi_e_zipf": {
+  "Voynich decifrato": {
+   "frasi": 57,
+   "frasi_rimescolate": 4.0,
+   "zipf": -1.5092410936039495,
+   "parole": 33785
+  },
+  "Voynich non decifrato": {
+   "frasi": 13,
+   "frasi_rimescolate": 0.0,
+   "zipf": -1.0041982220249865,
+   "parole": 37886
+  },
+  "Timm e Schinner, programma pubblicato, decifrato": {
+   "frasi": 77,
+   "frasi_rimescolate": 21.2,
+   "zipf": -1.7046991775227076,
+   "parole": 24107
+  },
+  "Timm e Schinner, programma pubblicato, non decifrato": {
+   "frasi": 21,
+   "frasi_rimescolate": 2.2,
+   "zipf": -0.9896758993059722,
+   "parole": 36087
+  },
+  "Timm e Schinner, con le giunture, decifrato": {
+   "frasi": 112,
+   "frasi_rimescolate": 24.4,
+   "zipf": -1.8112162811322596,
+   "parole": 24930
+  },
+  "Timm e Schinner, con le giunture, non decifrato": {
+   "frasi": 23,
+   "frasi_rimescolate": 1.4,
+   "zipf": -1.0173813783893602,
+   "parole": 35372
+  },
+  "latino vero (Apicio, Isidoro XVII)": {
+   "frasi": 114,
+   "frasi_rimescolate": 0.4,
+   "zipf": -0.8836322615999419,
+   "parole": 17696
+  }
+ },
+ "gatta": {
+  "Voynich": {
+   "3-4": {
+    "sua": 0.35355064027939465,
+    "caso_media": 0.1254222933643771,
+    "caso_sd": 0.051819365148361295,
+    "z": 4.402376336758957,
+    "cercata": 0.529976717112922,
+    "z_cercata": 7.807012351276139,
+    "sua tipi": 278,
+    "sua prime": [
+     [
+      "daiin",
+      "bhyr",
+      906
+     ],
+     [
+      "chey",
+      "Spk",
+      350
+     ],
+     [
+      "dar",
+      "syr",
+      330
+     ]
+    ],
+    "sua quota delle prime due": 0.20678300954889695,
+    "cercata tipi": 387,
+    "cercata prime": [
+     [
+      "chedy",
+      "bbSr",
+      504
+     ],
+     [
+      "aiin",
+      "kpy",
+      495
+     ],
+     [
+      "chol",
+      "Awr",
+      399
+     ]
+    ],
+    "cercata quota delle prime due": 0.10971993410214168
+   },
+   "5+": {
+    "sua": 0.030748983010289544,
+    "caso_media": 0.0017100382866714516,
+    "caso_sd": 0.003370812050157558,
+    "z": 8.61482167843228,
+    "cercata": 0.05599425699928212,
+    "z_cercata": 16.104196230719335,
+    "sua tipi": 28,
+    "sua prime": [
+     [
+      "okaiin",
+      "bhytw",
+      212
+     ],
+     [
+      "okain",
+      "brytw",
+      144
+     ],
+     [
+      "lkaiin",
+      "bhytm",
+      51
+     ]
+    ],
+    "sua quota delle prime due": 0.6926070038910506,
+    "cercata tipi": 47,
+    "cercata prime": [
+     [
+      "shedy",
+      "bbStm",
+      428
+     ],
+     [
+      "otaiin",
+      "kpynw",
+      154
+     ],
+     [
+      "otain",
+      "klynw",
+      96
+     ]
+    ],
+    "cercata quota delle prime due": 0.6217948717948718
+   }
+  },
+  "Timm e Schinner, programma pubblicato": {
+   "3-4": {
+    "sua": 0.2973823724320742,
+    "caso_media": 0.134555445107135,
+    "caso_sd": 0.060085755522860586,
+    "z": 2.7099089610846137,
+    "cercata": 0.4945328031809145,
+    "z_cercata": 5.991059860049864,
+    "sua tipi": 183,
+    "sua prime": [
+     [
+      "daiin",
+      "bhyr",
+      643
+     ],
+     [
+      "ain",
+      "bry",
+      620
+     ],
+     [
+      "dain",
+      "bryr",
+      541
+     ]
+    ],
+    "sua quota delle prime due": 0.23454038997214485,
+    "cercata tipi": 245,
+    "cercata prime": [
+     [
+      "chedy",
+      "mkpr",
+      748
+     ],
+     [
+      "aiin",
+      "Clw",
+      668
+     ],
+     [
+      "chol",
+      "Atr",
+      655
+     ]
+    ],
+    "cercata quota delle prime due": 0.15812395309882746
+   },
+   "5+": {
+    "sua": 0.014098021848243283,
+    "caso_media": 0.0017231325656923522,
+    "caso_sd": 0.0027081797948485782,
+    "z": 4.569448936178495,
+    "cercata": 0.009152642456451136,
+    "z_cercata": 2.7433591761119347,
+    "sua tipi": 19,
+    "sua prime": [
+     [
+      "okaiin",
+      "bhytw",
+      46
+     ],
+     [
+      "chkain",
+      "brytk",
+      36
+     ],
+     [
+      "okain",
+      "brytw",
+      27
+     ]
+    ],
+    "sua quota delle prime due": 0.4293193717277487,
+    "cercata tipi": 27,
+    "cercata prime": [
+     [
+      "oshar",
+      "nwqSt",
+      67
+     ],
+     [
+      "kchedy",
+      "mkpry",
+      21
+     ],
+     [
+      "okchys",
+      "Smryt",
+      3
+     ]
+    ],
+    "cercata quota delle prime due": 0.7096774193548387
+   }
+  },
+  "Timm e Schinner, con le giunture": {
+   "3-4": {
+    "sua": 0.30666742909423605,
+    "caso_media": 0.13686213403476669,
+    "caso_sd": 0.06319059191210681,
+    "z": 2.6871926646241153,
+    "cercata": 0.6055580969807868,
+    "z_cercata": 7.417179500358846,
+    "sua tipi": 148,
+    "sua prime": [
+     [
+      "daiin",
+      "bhyr",
+      851
+     ],
+     [
+      "dain",
+      "bryr",
+      741
+     ],
+     [
+      "chor",
+      "swk",
+      458
+     ]
+    ],
+    "sua quota delle prime due": 0.2968487786686556,
+    "cercata tipi": 190,
+    "cercata prime": [
+     [
+      "daiin",
+      "mEyl",
+      851
+     ],
+     [
+      "chol",
+      "bSn",
+      811
+     ],
+     [
+      "dain",
+      "mXyl",
+      741
+     ]
+    ],
+    "cercata quota delle prime due": 0.15694050991501415
+   },
+   "5+": {
+    "sua": 0.015521701638401839,
+    "caso_media": 0.0016233112963495247,
+    "caso_sd": 0.0027824457548047406,
+    "z": 4.995026522279009,
+    "cercata": 0.013006611095142282,
+    "z_cercata": 4.0911129279469405,
+    "sua tipi": 17,
+    "sua prime": [
+     [
+      "okaiin",
+      "bhytw",
+      58
+     ],
+     [
+      "chkain",
+      "brytk",
+      51
+     ],
+     [
+      "okain",
+      "brytw",
+      43
+     ]
+    ],
+    "sua quota delle prime due": 0.5046296296296297,
+    "cercata tipi": 30,
+    "cercata prime": [
+     [
+      "aiinol",
+      "bSmEy",
+      39
+     ],
+     [
+      "aiinor",
+      "bSmEy",
+      32
+     ],
+     [
+      "charar",
+      "bydyn",
+      29
+     ]
+    ],
+    "cercata quota delle prime due": 0.39226519337016574
+   }
+  }
+ },
+ "lessico_ebraico": 46920
+}

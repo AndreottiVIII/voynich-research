@@ -1,0 +1,2482 @@
+{
+ "latino": {
+  "controllo positivo": {
+   "parole": 35000,
+   "parole_vere": 0.9063428571428571,
+   "parole_vere_diverse": 4266,
+   "quota_tre_piu_frequenti": 0.14686968034802345,
+   "parole_lunghe_vere": 0.8663762994617249,
+   "coppie_attestate": 0.5438059256313382,
+   "coppie_attestate_mescolate": 0.3040332147093713
+  },
+  "controllo negativo": {
+   "parole": 35000,
+   "parole_vere": 0.22917142857142858,
+   "parole_vere_diverse": 43,
+   "quota_tre_piu_frequenti": 0.5842164318663509,
+   "parole_lunghe_vere": 0.025862494447460638,
+   "coppie_attestate": 0.044,
+   "coppie_attestate_mescolate": 0.07123655913978495
+  },
+  "Voynich, glifi": {
+   "parole": 34863,
+   "parole_vere": 0.1582479993115911,
+   "parole_vere_diverse": 63,
+   "quota_tre_piu_frequenti": 0.5764002175095161,
+   "parole_lunghe_vere": 0.06919275123558484,
+   "coppie_attestate": 0.17294117647058824,
+   "coppie_attestate_mescolate": 0.16367980884109917,
+   "punteggio": -2.4151778172418092,
+   "chiave": {
+    "a": "e",
+    "b": "s",
+    "c": "p",
+    "cfh": "t",
+    "ch": "s",
+    "ckh": "t",
+    "cph": "t",
+    "cth": "t",
+    "d": "t",
+    "e": "i",
+    "f": "i",
+    "g": "a",
+    "h": "i",
+    "i": "s",
+    "k": "r",
+    "l": "t",
+    "m": "t",
+    "n": "i",
+    "o": "e",
+    "p": "i",
+    "q": "p",
+    "r": "t",
+    "s": "a",
+    "sh": "s",
+    "t": "r",
+    "u": "e",
+    "y": "a"
+   },
+   "esempio": [
+    "iesaa aret et eressi set seta ttia a ret setta",
+    "aeta tet et a rest sressi set eai tet tet tei",
+    "aaesst sira et aressi set teeta tia tetessi aa",
+    "aessi eriia eriea tetera tset tessi eressi et erei"
+   ],
+   "zodiaco": {
+    "pagine_con_nome_giusto": 0,
+    "nomi_fuori_posto": 2,
+    "pagine": [
+     {
+      "pagina": "f70v2",
+      "trovati": [],
+      "nomi_di_altre_pagine": [
+       "aries"
+      ]
+     },
+     {
+      "pagina": "f70v1",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f71r",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f71v",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72r1",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72r2",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72r3",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72v3",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72v2",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72v1",
+      "trovati": [],
+      "nomi_di_altre_pagine": [
+       "aries"
+      ]
+     },
+     {
+      "pagina": "f73r",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f73v",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     }
+    ]
+   }
+  },
+  "Voynich, glifi e serie di i": {
+   "parole": 34863,
+   "parole_vere": 0.13957490749505205,
+   "parole_vere_diverse": 69,
+   "quota_tre_piu_frequenti": 0.6224825318536786,
+   "parole_lunghe_vere": 0.03673304628632939,
+   "coppie_attestate": 0.23207776427703525,
+   "coppie_attestate_mescolate": 0.27002967359050445,
+   "punteggio": -2.388412886455941,
+   "chiave": {
+    "a": "e",
+    "b": "s",
+    "c": "e",
+    "cfh": "s",
+    "ch": "a",
+    "ckh": "s",
+    "cph": "s",
+    "cth": "s",
+    "d": "s",
+    "e": "i",
+    "f": "r",
+    "g": "a",
+    "h": "i",
+    "i": "n",
+    "iiin": "t",
+    "iin": "t",
+    "iir": "t",
+    "in": "t",
+    "ir": "t",
+    "k": "r",
+    "l": "t",
+    "m": "t",
+    "n": "t",
+    "o": "e",
+    "p": "r",
+    "q": "p",
+    "r": "t",
+    "s": "s",
+    "sh": "d",
+    "t": "r",
+    "u": "i",
+    "y": "t"
+   },
+   "esempio": [
+    "reats tret et eret det dett stis t ret detst",
+    "sett set et t ret aret det esi set set set",
+    "stet dirt et tret des seett sis setet st",
+    "set eriit eries tetert snet set eret et eret"
+   ],
+   "zodiaco": {
+    "pagine_con_nome_giusto": 1,
+    "nomi_fuori_posto": 10,
+    "pagine": [
+     {
+      "pagina": "f70v2",
+      "trovati": [],
+      "nomi_di_altre_pagine": [
+       "aries"
+      ]
+     },
+     {
+      "pagina": "f70v1",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f71r",
+      "trovati": [
+       "aries"
+      ],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f71v",
+      "trovati": [],
+      "nomi_di_altre_pagine": [
+       "aries"
+      ]
+     },
+     {
+      "pagina": "f72r1",
+      "trovati": [],
+      "nomi_di_altre_pagine": [
+       "aries"
+      ]
+     },
+     {
+      "pagina": "f72r2",
+      "trovati": [],
+      "nomi_di_altre_pagine": [
+       "aries"
+      ]
+     },
+     {
+      "pagina": "f72r3",
+      "trovati": [],
+      "nomi_di_altre_pagine": [
+       "aries"
+      ]
+     },
+     {
+      "pagina": "f72v3",
+      "trovati": [],
+      "nomi_di_altre_pagine": [
+       "aries"
+      ]
+     },
+     {
+      "pagina": "f72v2",
+      "trovati": [],
+      "nomi_di_altre_pagine": [
+       "aries"
+      ]
+     },
+     {
+      "pagina": "f72v1",
+      "trovati": [],
+      "nomi_di_altre_pagine": [
+       "aries"
+      ]
+     },
+     {
+      "pagina": "f73r",
+      "trovati": [],
+      "nomi_di_altre_pagine": [
+       "aries"
+      ]
+     },
+     {
+      "pagina": "f73v",
+      "trovati": [],
+      "nomi_di_altre_pagine": [
+       "aries"
+      ]
+     }
+    ]
+   }
+  },
+  "controllo Naibbe (Plinio cifrato)": {
+   "parole": 34764,
+   "parole_vere": 0.0896904844091589,
+   "parole_vere_diverse": 53,
+   "quota_tre_piu_frequenti": 0.7472738935214881,
+   "parole_lunghe_vere": 0.03538060404142826,
+   "coppie_attestate": 0.4230769230769231,
+   "coppie_attestate_mescolate": 0.3686635944700461,
+   "esempio": [
+    "hist",
+    "petrsest siet perait ets et aessi hiet erast",
+    "tiist ant trssi rais aist isii et eret"
+   ]
+  }
+ },
+ "italiano": {
+  "controllo positivo": {
+   "parole": 35000,
+   "parole_vere": 0.9063142857142857,
+   "parole_vere_diverse": 2799,
+   "quota_tre_piu_frequenti": 0.1214022256549289,
+   "parole_lunghe_vere": 0.8398589245553056,
+   "coppie_attestate": 0.7147758097973512,
+   "coppie_attestate_mescolate": 0.3148560521711468
+  },
+  "controllo negativo": {
+   "parole": 35000,
+   "parole_vere": 0.2294857142857143,
+   "parole_vere_diverse": 39,
+   "quota_tre_piu_frequenti": 0.6424302788844621,
+   "parole_lunghe_vere": 0.02764710736981101,
+   "coppie_attestate": 0.12833168805528133,
+   "coppie_attestate_mescolate": 0.05817932922655715
+  },
+  "Voynich, glifi": {
+   "parole": 34863,
+   "parole_vere": 0.21851246306973007,
+   "parole_vere_diverse": 93,
+   "quota_tre_piu_frequenti": 0.31097400892622734,
+   "parole_lunghe_vere": 0.08811829469200788,
+   "coppie_attestate": 0.20060240963855422,
+   "coppie_attestate_mescolate": 0.20804953560371517,
+   "punteggio": -2.4812742343619414,
+   "chiave": {
+    "a": "u",
+    "b": "l",
+    "c": "a",
+    "cfh": "d",
+    "ch": "s",
+    "ckh": "t",
+    "cph": "d",
+    "cth": "d",
+    "d": "t",
+    "e": "a",
+    "f": "n",
+    "g": "a",
+    "h": "e",
+    "i": "t",
+    "k": "n",
+    "l": "o",
+    "m": "o",
+    "n": "o",
+    "o": "i",
+    "p": "n",
+    "q": "m",
+    "r": "o",
+    "s": "l",
+    "sh": "d",
+    "t": "n",
+    "u": "e",
+    "y": "i"
+   },
+   "esempio": [
+    "nusil inuo uo unutto dio dioi doal i nio dioti",
+    "lioi tuo io i nuto snutto duo ula duo duo tuo",
+    "liutto dani io inutto dit diuoi dal tuoutto li",
+    "litto inaai inail oioini dtuo tutto inutto io inuo"
+   ],
+   "zodiaco": {
+    "pagine_con_nome_giusto": 0,
+    "nomi_fuori_posto": 0,
+    "pagine": [
+     {
+      "pagina": "f70v2",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f70v1",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f71r",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f71v",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72r1",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72r2",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72r3",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72v3",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72v2",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72v1",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f73r",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f73v",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     }
+    ]
+   }
+  },
+  "Voynich, glifi e serie di i": {
+   "parole": 34863,
+   "parole_vere": 0.26641425006453834,
+   "parole_vere_diverse": 48,
+   "quota_tre_piu_frequenti": 0.603359173126615,
+   "parole_lunghe_vere": 0.021752780767850737,
+   "coppie_attestate": 0.10730513806361412,
+   "coppie_attestate_mescolate": 0.14232977850697293,
+   "punteggio": -2.571825351758216,
+   "chiave": {
+    "a": "o",
+    "b": "ù",
+    "c": "i",
+    "cfh": "l",
+    "ch": "c",
+    "ckh": "r",
+    "cph": "r",
+    "cth": "r",
+    "d": "n",
+    "e": "i",
+    "f": "s",
+    "g": "i",
+    "h": "i",
+    "i": "r",
+    "iiin": "n",
+    "iin": "n",
+    "iir": "n",
+    "in": "n",
+    "ir": "n",
+    "k": "s",
+    "l": "n",
+    "m": "n",
+    "n": "n",
+    "o": "o",
+    "p": "s",
+    "q": "c",
+    "r": "n",
+    "s": "i",
+    "sh": "d",
+    "t": "s",
+    "u": "o",
+    "y": "o"
+   },
+   "esempio": [
+    "socoi oson on oson don dono rnii o son donno",
+    "iono ron on o son cson don oii ron ron non",
+    "ioon diso on oson don roono rii nonon io",
+    "ion osiio osioi nonoso rron non oson on oson"
+   ],
+   "zodiaco": {
+    "pagine_con_nome_giusto": 0,
+    "nomi_fuori_posto": 0,
+    "pagine": [
+     {
+      "pagina": "f70v2",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f70v1",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f71r",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f71v",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72r1",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72r2",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72r3",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72v3",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72v2",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72v1",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f73r",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f73v",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     }
+    ]
+   }
+  },
+  "controllo Naibbe (Plinio cifrato)": {
+   "parole": 34764,
+   "parole_vere": 0.19042687837993327,
+   "parole_vere_diverse": 42,
+   "quota_tre_piu_frequenti": 0.679607250755287,
+   "parole_lunghe_vere": 0.10512783370753966,
+   "coppie_attestate": 0.05603448275862069,
+   "coppie_attestate_mescolate": 0.07129455909943715,
+   "esempio": [
+    "mani",
+    "caimnati naai cammai ain ai matto maai ammni",
+    "iaani mii imtto iman mani anaa ai amai"
+   ]
+  }
+ },
+ "tedesco": {
+  "controllo positivo": {
+   "parole": 35000,
+   "parole_vere": 0.9385428571428571,
+   "parole_vere_diverse": 2359,
+   "quota_tre_piu_frequenti": 0.13190660294072878,
+   "parole_lunghe_vere": 0.8996473839702659,
+   "coppie_attestate": 0.7127773867298929,
+   "coppie_attestate_mescolate": 0.4265685113939035
+  },
+  "controllo negativo": {
+   "parole": 35000,
+   "parole_vere": 0.12882857142857143,
+   "parole_vere_diverse": 42,
+   "quota_tre_piu_frequenti": 0.3639387890884897,
+   "parole_lunghe_vere": 0.07035569860526533,
+   "coppie_attestate": 0.39630390143737165,
+   "coppie_attestate_mescolate": 0.3301707779886148
+  },
+  "Voynich, glifi": {
+   "parole": 34863,
+   "parole_vere": 0.1143906146917936,
+   "parole_vere_diverse": 52,
+   "quota_tre_piu_frequenti": 0.40722166499498497,
+   "parole_lunghe_vere": 0.07963997267649776,
+   "coppie_attestate": 0.24213075060532688,
+   "coppie_attestate_mescolate": 0.22821576763485477,
+   "punteggio": -2.512616520724709,
+   "chiave": {
+    "a": "e",
+    "b": "n",
+    "c": "p",
+    "cfh": "d",
+    "ch": "e",
+    "ckh": "t",
+    "cph": "d",
+    "cth": "d",
+    "d": "t",
+    "e": "r",
+    "f": "h",
+    "g": "s",
+    "h": "i",
+    "i": "r",
+    "k": "h",
+    "l": "r",
+    "m": "n",
+    "n": "n",
+    "o": "e",
+    "p": "s",
+    "q": "g",
+    "r": "n",
+    "s": "s",
+    "sh": "e",
+    "t": "h",
+    "u": "e",
+    "y": "e"
+   },
+   "esempio": [
+    "heees eher en eherrn eer eene dnrs e hen eerte",
+    "sene ten en e hern eherrn een esr den den ten",
+    "seerrn erhe en eherrn eet deene drs tenerrn se",
+    "serrn ehrre ehres nerehe dren terrn eherrn en ehen"
+   ],
+   "zodiaco": {
+    "pagine_con_nome_giusto": 0,
+    "nomi_fuori_posto": 0,
+    "pagine": [
+     {
+      "pagina": "f70v2",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f70v1",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f71r",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f71v",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72r1",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72r2",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72r3",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72v3",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72v2",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72v1",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f73r",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f73v",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     }
+    ]
+   }
+  },
+  "Voynich, glifi e serie di i": {
+   "parole": 34863,
+   "parole_vere": 0.0980122192582394,
+   "parole_vere_diverse": 38,
+   "quota_tre_piu_frequenti": 0.6991513023119695,
+   "parole_lunghe_vere": 0.07795120200932902,
+   "coppie_attestate": 0.39263803680981596,
+   "coppie_attestate_mescolate": 0.2578616352201258,
+   "punteggio": -2.3738989473428322,
+   "chiave": {
+    "a": "e",
+    "b": "e",
+    "c": "d",
+    "cfh": "s",
+    "ch": "s",
+    "ckh": "i",
+    "cph": "s",
+    "cth": "t",
+    "d": "t",
+    "e": "t",
+    "f": "i",
+    "g": "s",
+    "h": "t",
+    "i": "r",
+    "iiin": "r",
+    "iin": "n",
+    "iir": "r",
+    "in": "n",
+    "ir": "r",
+    "k": "i",
+    "l": "r",
+    "m": "n",
+    "n": "n",
+    "o": "e",
+    "p": "i",
+    "q": "s",
+    "r": "n",
+    "s": "s",
+    "sh": "s",
+    "t": "i",
+    "u": "e",
+    "y": "e"
+   },
+   "esempio": [
+    "ieses eier en eien ser sene tnts e ien serte",
+    "sene ien en e ier sien sen est ten ten ten",
+    "seer stie en eien set teene tts tenen se",
+    "sen eitte eites nereie tren ten eien en eien"
+   ],
+   "zodiaco": {
+    "pagine_con_nome_giusto": 2,
+    "nomi_fuori_posto": 9,
+    "pagine": [
+     {
+      "pagina": "f70v2",
+      "trovati": [],
+      "nomi_di_altre_pagine": [
+       "stier"
+      ]
+     },
+     {
+      "pagina": "f70v1",
+      "trovati": [],
+      "nomi_di_altre_pagine": [
+       "stier"
+      ]
+     },
+     {
+      "pagina": "f71r",
+      "trovati": [],
+      "nomi_di_altre_pagine": [
+       "stier"
+      ]
+     },
+     {
+      "pagina": "f71v",
+      "trovati": [
+       "stier"
+      ],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72r1",
+      "trovati": [
+       "stier"
+      ],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72r2",
+      "trovati": [],
+      "nomi_di_altre_pagine": [
+       "stier"
+      ]
+     },
+     {
+      "pagina": "f72r3",
+      "trovati": [],
+      "nomi_di_altre_pagine": [
+       "stier"
+      ]
+     },
+     {
+      "pagina": "f72v3",
+      "trovati": [],
+      "nomi_di_altre_pagine": [
+       "stier"
+      ]
+     },
+     {
+      "pagina": "f72v2",
+      "trovati": [],
+      "nomi_di_altre_pagine": [
+       "stier"
+      ]
+     },
+     {
+      "pagina": "f72v1",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f73r",
+      "trovati": [],
+      "nomi_di_altre_pagine": [
+       "stier"
+      ]
+     },
+     {
+      "pagina": "f73v",
+      "trovati": [],
+      "nomi_di_altre_pagine": [
+       "stier"
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "inglese": {
+  "controllo positivo": {
+   "parole": 35000,
+   "parole_vere": 0.9780285714285715,
+   "parole_vere_diverse": 1433,
+   "quota_tre_piu_frequenti": 0.23119394700709883,
+   "parole_lunghe_vere": 0.9587958291288261,
+   "coppie_attestate": 0.8200198080666644,
+   "coppie_attestate_mescolate": 0.43725276224253173
+  },
+  "controllo negativo": {
+   "parole": 35000,
+   "parole_vere": 0.022885714285714287,
+   "parole_vere_diverse": 4,
+   "quota_tre_piu_frequenti": 0.9987515605493134,
+   "parole_lunghe_vere": 0.0,
+   "coppie_attestate": 0.0,
+   "coppie_attestate_mescolate": 0.0
+  },
+  "Voynich, glifi": {
+   "parole": 34863,
+   "parole_vere": 0.12623698476895276,
+   "parole_vere_diverse": 46,
+   "quota_tre_piu_frequenti": 0.515791865485117,
+   "parole_lunghe_vere": 0.06509422590107285,
+   "coppie_attestate": 0.13344051446945338,
+   "coppie_attestate_mescolate": 0.11490125673249552,
+   "punteggio": -2.4353488302238433,
+   "chiave": {
+    "a": "a",
+    "b": "e",
+    "c": "l",
+    "cfh": "a",
+    "ch": "a",
+    "ckh": "e",
+    "cph": "a",
+    "cth": "a",
+    "d": "e",
+    "e": "l",
+    "f": "h",
+    "g": "s",
+    "h": "s",
+    "i": "r",
+    "k": "e",
+    "l": "t",
+    "m": "t",
+    "n": "y",
+    "o": "s",
+    "p": "h",
+    "q": "i",
+    "r": "t",
+    "s": "e",
+    "sh": "a",
+    "t": "e",
+    "u": "n",
+    "y": "s"
+   },
+   "esempio": [
+    "haase seat at aearry ast asts atle s est astes",
+    "ests eat st s eart aearry aat ael aat aat eay",
+    "esarrt ales st searry ase asats ale eatarry es",
+    "esrry sells selse tstses arat earry searry st seay"
+   ],
+   "zodiaco": {
+    "pagine_con_nome_giusto": 0,
+    "nomi_fuori_posto": 1,
+    "pagine": [
+     {
+      "pagina": "f70v2",
+      "trovati": [],
+      "nomi_di_altre_pagine": [
+       "aries"
+      ]
+     },
+     {
+      "pagina": "f70v1",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f71r",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f71v",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72r1",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72r2",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72r3",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72v3",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72v2",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72v1",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f73r",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f73v",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     }
+    ]
+   }
+  },
+  "Voynich, glifi e serie di i": {
+   "parole": 34863,
+   "parole_vere": 0.19708573559360926,
+   "parole_vere_diverse": 64,
+   "quota_tre_piu_frequenti": 0.4176975694949789,
+   "parole_lunghe_vere": 0.06570685324721923,
+   "coppie_attestate": 0.13163335630599587,
+   "coppie_attestate_mescolate": 0.13785394932935915,
+   "punteggio": -2.425579098341558,
+   "chiave": {
+    "a": "e",
+    "b": "d",
+    "c": "i",
+    "cfh": "h",
+    "ch": "h",
+    "ckh": "m",
+    "cph": "h",
+    "cth": "m",
+    "d": "r",
+    "e": "e",
+    "f": "t",
+    "g": "s",
+    "h": "s",
+    "i": "a",
+    "iiin": "n",
+    "iin": "d",
+    "iir": "n",
+    "in": "d",
+    "ir": "d",
+    "k": "s",
+    "l": "s",
+    "m": "n",
+    "n": "n",
+    "o": "i",
+    "p": "t",
+    "q": "h",
+    "r": "n",
+    "s": "s",
+    "sh": "h",
+    "t": "s",
+    "u": "e",
+    "y": "e"
+   },
+   "esempio": [
+    "tehes eses en esed his hine mnes e sin hisre",
+    "sine men in e sed hsed hen ese men men ren",
+    "seen hese in esed hir miene mes rened se",
+    "sid iseee iseis nisise maen red ised in isen"
+   ],
+   "zodiaco": {
+    "pagine_con_nome_giusto": 0,
+    "nomi_fuori_posto": 0,
+    "pagine": [
+     {
+      "pagina": "f70v2",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f70v1",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f71r",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f71v",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72r1",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72r2",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72r3",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72v3",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72v2",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72v1",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f73r",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f73v",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     }
+    ]
+   }
+  }
+ },
+ "francese": {
+  "controllo positivo": {
+   "parole": 35000,
+   "parole_vere": 0.9577428571428571,
+   "parole_vere_diverse": 1864,
+   "quota_tre_piu_frequenti": 0.12219205870946571,
+   "parole_lunghe_vere": 0.9179532913438493,
+   "coppie_attestate": 0.7632638517726705,
+   "coppie_attestate_mescolate": 0.3379845513117147
+  },
+  "controllo negativo": {
+   "parole": 35000,
+   "parole_vere": 0.1974,
+   "parole_vere_diverse": 64,
+   "quota_tre_piu_frequenti": 0.6226660877116804,
+   "parole_lunghe_vere": 0.010687463893703062,
+   "coppie_attestate": 0.33976833976833976,
+   "coppie_attestate_mescolate": 0.2884784520668426
+  },
+  "Voynich, glifi": {
+   "parole": 34863,
+   "parole_vere": 0.1452542810429395,
+   "parole_vere_diverse": 55,
+   "quota_tre_piu_frequenti": 0.4113349131121643,
+   "parole_lunghe_vere": 0.06332623458030297,
+   "coppie_attestate": 0.18765432098765433,
+   "coppie_attestate_mescolate": 0.19918144611186903,
+   "punteggio": -2.5888746229324666,
+   "chiave": {
+    "a": "a",
+    "b": "e",
+    "c": "u",
+    "cfh": "r",
+    "ch": "d",
+    "ckh": "r",
+    "cph": "r",
+    "cth": "r",
+    "d": "r",
+    "e": "i",
+    "f": "n",
+    "g": "s",
+    "h": "é",
+    "i": "t",
+    "k": "n",
+    "l": "n",
+    "m": "s",
+    "n": "e",
+    "o": "e",
+    "p": "n",
+    "q": "r",
+    "r": "s",
+    "s": "s",
+    "sh": "d",
+    "t": "n",
+    "u": "e",
+    "y": "e"
+   },
+   "esempio": [
+    "nades enan as anatte den dese rsis e nes denre",
+    "sese ras es e nats dnatte das asi ras ras rae",
+    "seatts dine es enatte der rease ris rasatte se",
+    "sette eniie enies senene rtas ratte enatte es enae"
+   ],
+   "zodiaco": {
+    "pagine_con_nome_giusto": 0,
+    "nomi_fuori_posto": 0,
+    "pagine": [
+     {
+      "pagina": "f70v2",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f70v1",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f71r",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f71v",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72r1",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72r2",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72r3",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72v3",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72v2",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72v1",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f73r",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f73v",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     }
+    ]
+   }
+  },
+  "Voynich, glifi e serie di i": {
+   "parole": 34863,
+   "parole_vere": 0.28250580845021944,
+   "parole_vere_diverse": 52,
+   "quota_tre_piu_frequenti": 0.5491928114529394,
+   "parole_lunghe_vere": 0.14729099390025116,
+   "coppie_attestate": 0.02711223203026482,
+   "coppie_attestate_mescolate": 0.03736263736263736,
+   "punteggio": -2.566741538118297,
+   "chiave": {
+    "a": "e",
+    "b": "e",
+    "c": "é",
+    "cfh": "r",
+    "ch": "t",
+    "ckh": "r",
+    "cph": "r",
+    "cth": "r",
+    "d": "r",
+    "e": "i",
+    "f": "s",
+    "g": "s",
+    "h": "é",
+    "i": "n",
+    "iiin": "s",
+    "iin": "s",
+    "iir": "s",
+    "in": "s",
+    "ir": "s",
+    "k": "t",
+    "l": "s",
+    "m": "s",
+    "n": "s",
+    "o": "e",
+    "p": "s",
+    "q": "c",
+    "r": "s",
+    "s": "l",
+    "sh": "d",
+    "t": "t",
+    "u": "e",
+    "y": "e"
+   },
+   "esempio": [
+    "setel etes es etes des dese rsil e tes desre",
+    "lese res es e tes ttes des eli res res res",
+    "lees dite es etes der reese ril reses le",
+    "les etiie etiel sesete rnes res etes es etes"
+   ],
+   "zodiaco": {
+    "pagine_con_nome_giusto": 0,
+    "nomi_fuori_posto": 0,
+    "pagine": [
+     {
+      "pagina": "f70v2",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f70v1",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f71r",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f71v",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72r1",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72r2",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72r3",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72v3",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72v2",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72v1",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f73r",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f73v",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     }
+    ]
+   }
+  }
+ },
+ "spagnolo": {
+  "controllo positivo": {
+   "parole": 35000,
+   "parole_vere": 0.8203714285714285,
+   "parole_vere_diverse": 1880,
+   "quota_tre_piu_frequenti": 0.18580433949778846,
+   "parole_lunghe_vere": 0.6828986116954144,
+   "coppie_attestate": 0.7677175035656322,
+   "coppie_attestate_mescolate": 0.38769781735469194
+  },
+  "controllo negativo": {
+   "parole": 35000,
+   "parole_vere": 0.2312,
+   "parole_vere_diverse": 43,
+   "quota_tre_piu_frequenti": 0.6919179436480475,
+   "parole_lunghe_vere": 0.06643558636626228,
+   "coppie_attestate": 0.11346765641569459,
+   "coppie_attestate_mescolate": 0.06872370266479663
+  },
+  "Voynich, glifi": {
+   "parole": 34863,
+   "parole_vere": 0.19642601038350113,
+   "parole_vere_diverse": 30,
+   "quota_tre_piu_frequenti": 0.5283294392523364,
+   "parole_lunghe_vere": 0.08068469482058906,
+   "coppie_attestate": 0.07858048162230671,
+   "coppie_attestate_mescolate": 0.08615819209039548,
+   "punteggio": -2.479630730249597,
+   "chiave": {
+    "a": "a",
+    "b": "l",
+    "c": "l",
+    "cfh": "l",
+    "ch": "l",
+    "ckh": "l",
+    "cph": "l",
+    "cth": "l",
+    "d": "s",
+    "e": "e",
+    "f": "l",
+    "g": "a",
+    "h": "e",
+    "i": "r",
+    "k": "l",
+    "l": "s",
+    "m": "s",
+    "n": "a",
+    "o": "a",
+    "p": "l",
+    "q": "s",
+    "r": "s",
+    "s": "s",
+    "sh": "l",
+    "t": "l",
+    "u": "e",
+    "y": "a"
+   },
+   "esempio": [
+    "lalas alas as alarra las lasa lses a las lassa",
+    "sasa las as a lars llarra las ase las las saa",
+    "saarrs lela as alarra las laasa les sasarra sa",
+    "sarra aleea aleas sasala lras sarra alarra as alaa"
+   ],
+   "zodiaco": {
+    "pagine_con_nome_giusto": 0,
+    "nomi_fuori_posto": 0,
+    "pagine": [
+     {
+      "pagina": "f70v2",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f70v1",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f71r",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f71v",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72r1",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72r2",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72r3",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72v3",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72v2",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72v1",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f73r",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f73v",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     }
+    ]
+   }
+  },
+  "Voynich, glifi e serie di i": {
+   "parole": 34863,
+   "parole_vere": 0.2751914637294553,
+   "parole_vere_diverse": 43,
+   "quota_tre_piu_frequenti": 0.6015217844486137,
+   "parole_lunghe_vere": 0.015428776462145676,
+   "coppie_attestate": 0.13044947617438324,
+   "coppie_attestate_mescolate": 0.14970501474926254,
+   "punteggio": -2.3662956116285527,
+   "chiave": {
+    "a": "o",
+    "b": "x",
+    "c": "l",
+    "cfh": "l",
+    "ch": "l",
+    "ckh": "l",
+    "cph": "l",
+    "cth": "l",
+    "d": "l",
+    "e": "i",
+    "f": "l",
+    "g": "a",
+    "h": "l",
+    "i": "e",
+    "iiin": "s",
+    "iin": "s",
+    "iir": "s",
+    "in": "s",
+    "ir": "s",
+    "k": "l",
+    "l": "s",
+    "m": "s",
+    "n": "s",
+    "o": "e",
+    "p": "l",
+    "q": "d",
+    "r": "s",
+    "s": "l",
+    "sh": "l",
+    "t": "l",
+    "u": "a",
+    "y": "a"
+   },
+   "esempio": [
+    "lolal alos os olos les lesa lsil a les lesla",
+    "lesa los es a los llos los oli los los los",
+    "laos lila es alos lel leosa lil losos la",
+    "les eliia eliel sesela leos los elos es elos"
+   ],
+   "zodiaco": {
+    "pagine_con_nome_giusto": 0,
+    "nomi_fuori_posto": 0,
+    "pagine": [
+     {
+      "pagina": "f70v2",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f70v1",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f71r",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f71v",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72r1",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72r2",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72r3",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72v3",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72v2",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f72v1",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f73r",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     },
+     {
+      "pagina": "f73v",
+      "trovati": [],
+      "nomi_di_altre_pagine": []
+     }
+    ]
+   }
+  }
+ },
+ "ceco": {
+  "controllo positivo": {
+   "parole": 35000,
+   "parole_vere": 0.9112857142857143,
+   "parole_vere_diverse": 3986,
+   "quota_tre_piu_frequenti": 0.10945289230286878,
+   "parole_lunghe_vere": 0.8679098005203816,
+   "coppie_attestate": 0.5822749970510753,
+   "coppie_attestate_mescolate": 0.28153894373922583
+  },
+  "controllo negativo": {
+   "parole": 35000,
+   "parole_vere": 0.051057142857142856,
+   "parole_vere_diverse": 18,
+   "quota_tre_piu_frequenti": 0.4745383324006715,
+   "parole_lunghe_vere": 0.020673434018321366,
+   "coppie_attestate": 0.07317073170731707,
+   "coppie_attestate_mescolate": 0.10144927536231885
+  },
+  "Voynich, glifi": {
+   "parole": 34863,
+   "parole_vere": 0.062042853454952245,
+   "parole_vere_diverse": 29,
+   "quota_tre_piu_frequenti": 0.6453999075358299,
+   "parole_lunghe_vere": 0.010768674408325633,
+   "coppie_attestate": 0.22093023255813954,
+   "coppie_attestate_mescolate": 0.21893491124260356,
+   "punteggio": -2.727197627793565,
+   "chiave": {
+    "a": "a",
+    "b": "l",
+    "c": "s",
+    "cfh": "n",
+    "ch": "z",
+    "ckh": "n",
+    "cph": "n",
+    "cth": "n",
+    "d": "n",
+    "e": "e",
+    "f": "v",
+    "g": "i",
+    "h": "i",
+    "i": "s",
+    "k": "l",
+    "l": "l",
+    "m": "l",
+    "n": "e",
+    "o": "a",
+    "p": "v",
+    "q": "z",
+    "r": "l",
+    "s": "z",
+    "sh": "z",
+    "t": "l",
+    "u": "a",
+    "y": "a"
+   },
+   "esempio": [
+    "vazaz alal al alasse zal zala nlez a lal zalna",
+    "zala nal al a lasl zlasse zal aze nal nal nae",
+    "zaassl zela al alasse zan naala nez nalasse za",
+    "zasse aleea aleaz lalala nsal nasse alasse al alae"
+   ]
+  },
+  "Voynich, glifi e serie di i": {
+   "parole": 34863,
+   "parole_vere": 0.06046524969165017,
+   "parole_vere_diverse": 28,
+   "quota_tre_piu_frequenti": 0.6622390891840607,
+   "parole_lunghe_vere": 0.009553283100107642,
+   "coppie_attestate": 0.20588235294117646,
+   "coppie_attestate_mescolate": 0.25,
+   "punteggio": -2.7088097124767527,
+   "chiave": {
+    "a": "a",
+    "b": "l",
+    "c": "s",
+    "cfh": "n",
+    "ch": "z",
+    "ckh": "n",
+    "cph": "n",
+    "cth": "n",
+    "d": "n",
+    "e": "e",
+    "f": "v",
+    "g": "i",
+    "h": "i",
+    "i": "d",
+    "iiin": "l",
+    "iin": "l",
+    "iir": "l",
+    "in": "l",
+    "ir": "l",
+    "k": "l",
+    "l": "l",
+    "m": "l",
+    "n": "l",
+    "o": "a",
+    "p": "v",
+    "q": "z",
+    "r": "l",
+    "s": "z",
+    "sh": "z",
+    "t": "l",
+    "u": "a",
+    "y": "a"
+   },
+   "esempio": [
+    "vazaz alal al alal zal zala nlez a lal zalna",
+    "zala nal al a lal zlal zal aze nal nal nal",
+    "zaal zela al alal zan naala nez nalal za",
+    "zal aleea aleaz lalala ndal nal alal al alal"
+   ]
+  }
+ },
+ "ungherese": {
+  "controllo positivo": {
+   "parole": 35000,
+   "parole_vere": 0.8580857142857143,
+   "parole_vere_diverse": 4112,
+   "quota_tre_piu_frequenti": 0.24259980687909966,
+   "parole_lunghe_vere": 0.7797378803682372,
+   "coppie_attestate": 0.6397211313594846,
+   "coppie_attestate_mescolate": 0.37254729432468103
+  },
+  "controllo negativo": {
+   "parole": 35000,
+   "parole_vere": 0.20374285714285714,
+   "parole_vere_diverse": 19,
+   "quota_tre_piu_frequenti": 0.8683214135464872,
+   "parole_lunghe_vere": 0.0362300899562598,
+   "coppie_attestate": 0.23780487804878048,
+   "coppie_attestate_mescolate": 0.5413005272407733
+  },
+  "Voynich, glifi": {
+   "parole": 34863,
+   "parole_vere": 0.174138771763761,
+   "parole_vere_diverse": 28,
+   "quota_tre_piu_frequenti": 0.4873991105254489,
+   "parole_lunghe_vere": 0.03335074536906819,
+   "coppie_attestate": 0.1344178082191781,
+   "coppie_attestate_mescolate": 0.12737642585551331,
+   "punteggio": -2.6296482465000843,
+   "chiave": {
+    "a": "e",
+    "b": "n",
+    "c": "e",
+    "cfh": "l",
+    "ch": "l",
+    "ckh": "l",
+    "cph": "l",
+    "cth": "l",
+    "d": "v",
+    "e": "e",
+    "f": "l",
+    "g": "a",
+    "h": "j",
+    "i": "l",
+    "k": "l",
+    "l": "l",
+    "m": "n",
+    "n": "a",
+    "o": "e",
+    "p": "l",
+    "q": "f",
+    "r": "l",
+    "s": "s",
+    "sh": "l",
+    "t": "l",
+    "u": "a",
+    "y": "a"
+   },
+   "esempio": [
+    "lelas alel el elella lel lela lles a lel lelva",
+    "sela lel el a lell llella lel ese lel lel vea",
+    "saelll lela el alella lev leela les velella sa",
+    "sella eleea elees lelela llel vella elella el elea"
+   ]
+  },
+  "Voynich, glifi e serie di i": {
+   "parole": 34863,
+   "parole_vere": 0.2785761408943579,
+   "parole_vere_diverse": 54,
+   "quota_tre_piu_frequenti": 0.3350494233937397,
+   "parole_lunghe_vere": 0.12706315034086832,
+   "coppie_attestate": 0.009184033910279053,
+   "coppie_attestate_mescolate": 0.012238452427951046,
+   "punteggio": -2.535987135810231,
+   "chiave": {
+    "a": "e",
+    "b": "n",
+    "c": "e",
+    "cfh": "t",
+    "ch": "l",
+    "ckh": "l",
+    "cph": "l",
+    "cth": "l",
+    "d": "t",
+    "e": "e",
+    "f": "l",
+    "g": "a",
+    "h": "e",
+    "i": "l",
+    "iiin": "n",
+    "iin": "k",
+    "iir": "n",
+    "in": "k",
+    "ir": "k",
+    "k": "l",
+    "l": "l",
+    "m": "k",
+    "n": "k",
+    "o": "e",
+    "p": "l",
+    "q": "f",
+    "r": "n",
+    "s": "s",
+    "sh": "l",
+    "t": "l",
+    "u": "i",
+    "y": "t"
+   },
+   "esempio": [
+    "lelts tlel en elek lel lent lnes t len leltt",
+    "sent len en t lek llek len ese len len tek",
+    "sten lelt en tlek let leent les tenek st",
+    "sek eleet elees nelelt llen tek elek en elek"
+   ]
+  }
+ },
+ "greco": {
+  "controllo positivo": {
+   "parole": 35000,
+   "parole_vere": 0.9212571428571429,
+   "parole_vere_diverse": 2672,
+   "quota_tre_piu_frequenti": 0.13462969854856718,
+   "parole_lunghe_vere": 0.8663718987963646,
+   "coppie_attestate": 0.767300204325533,
+   "coppie_attestate_mescolate": 0.35019978484708775
+  },
+  "controllo negativo": {
+   "parole": 35000,
+   "parole_vere": 0.2170857142857143,
+   "parole_vere_diverse": 21,
+   "quota_tre_piu_frequenti": 0.7449328770729139,
+   "parole_lunghe_vere": 0.006891144672773789,
+   "coppie_attestate": 0.1632016632016632,
+   "coppie_attestate_mescolate": 0.16921898928024504
+  },
+  "Voynich, glifi": {
+   "parole": 34863,
+   "parole_vere": 0.15721538593924791,
+   "parole_vere_diverse": 58,
+   "quota_tre_piu_frequenti": 0.38752052545155996,
+   "parole_lunghe_vere": 0.0319443886366376,
+   "coppie_attestate": 0.06643757159221077,
+   "coppie_attestate_mescolate": 0.07393939393939394,
+   "punteggio": -2.433360139936399,
+   "chiave": {
+    "a": "α",
+    "b": "σ",
+    "c": "π",
+    "cfh": "ν",
+    "ch": "ε",
+    "ckh": "ν",
+    "cph": "κ",
+    "cth": "ν",
+    "d": "ν",
+    "e": "ι",
+    "f": "ν",
+    "g": "ι",
+    "h": "ι",
+    "i": "μ",
+    "k": "λ",
+    "l": "ι",
+    "m": "ι",
+    "n": "α",
+    "o": "α",
+    "p": "λ",
+    "q": "κ",
+    "r": "ν",
+    "s": "σ",
+    "sh": "ε",
+    "t": "λ",
+    "u": "α",
+    "y": "α"
+   },
+   "esempio": [
+    "ναεασ αλαι αν αλαμμα εαι εανα ννισ α λαν εαινα",
+    "σανα ναν αν α λαμν ελαμμα εαν ασι ναν ναν ναα",
+    "σααμμν ειλα αν αλαμμα εαν ναανα νισ ναναμμα σα",
+    "σαμμα αλιια αλιασ ναιαλα νμαν ναμμα αλαμμα αν αλαα"
+   ]
+  },
+  "Voynich, glifi e serie di i": {
+   "parole": 34863,
+   "parole_vere": 0.2266012678197516,
+   "parole_vere_diverse": 43,
+   "quota_tre_piu_frequenti": 0.5831645569620253,
+   "parole_lunghe_vere": 0.03776462145676354,
+   "coppie_attestate": 0.11936193619361936,
+   "coppie_attestate_mescolate": 0.1431980906921241,
+   "punteggio": -2.3450643778700813,
+   "chiave": {
+    "a": "α",
+    "b": "σ",
+    "c": "π",
+    "cfh": "ν",
+    "ch": "ε",
+    "ckh": "ν",
+    "cph": "κ",
+    "cth": "ν",
+    "d": "ν",
+    "e": "ι",
+    "f": "ν",
+    "g": "ι",
+    "h": "ι",
+    "i": "σ",
+    "iiin": "ι",
+    "iin": "ι",
+    "iir": "ι",
+    "in": "ι",
+    "ir": "ι",
+    "k": "λ",
+    "l": "ι",
+    "m": "ι",
+    "n": "ι",
+    "o": "α",
+    "p": "λ",
+    "q": "κ",
+    "r": "ν",
+    "s": "ν",
+    "sh": "ε",
+    "t": "λ",
+    "u": "α",
+    "y": "α"
+   },
+   "esempio": [
+    "ναεαν αλαι αν αλαι εαι εανα ννιν α λαν εαινα",
+    "νανα ναν αν α λαι ελαι εαν ανι ναν ναν ναι",
+    "νααι ειλα αν αλαι εαν ναανα νιν ναναι να",
+    "ναι αλιια αλιαν ναιαλα νσαν ναι αλαι αν αλαι"
+   ]
+  }
+ },
+ "ebraico": {
+  "controllo positivo": {
+   "parole": 35000,
+   "parole_vere": 0.8918571428571429,
+   "parole_vere_diverse": 5188,
+   "quota_tre_piu_frequenti": 0.07393881146884511,
+   "parole_lunghe_vere": 0.8362748611359971,
+   "coppie_attestate": 0.4927760367913394,
+   "coppie_attestate_mescolate": 0.20483351672983657
+  },
+  "controllo negativo": {
+   "parole": 35000,
+   "parole_vere": 0.12494285714285715,
+   "parole_vere_diverse": 18,
+   "quota_tre_piu_frequenti": 0.5314429453464441,
+   "parole_lunghe_vere": 0.05100272344639762,
+   "coppie_attestate": 0.15611814345991562,
+   "coppie_attestate_mescolate": 0.08829174664107485
+  },
+  "Voynich, glifi": {
+   "parole": 34863,
+   "parole_vere": 0.1285890485615122,
+   "parole_vere_diverse": 45,
+   "quota_tre_piu_frequenti": 0.46553647111309393,
+   "parole_lunghe_vere": 0.082934865592478,
+   "coppie_attestate": 0.007736943907156673,
+   "coppie_attestate_mescolate": 0.022146507666098807,
+   "punteggio": -2.213046842835362,
+   "chiave": {
+    "a": "ה",
+    "b": "ו",
+    "c": "ו",
+    "cfh": "י",
+    "ch": "ה",
+    "ckh": "י",
+    "cph": "י",
+    "cth": "י",
+    "d": "י",
+    "e": "נ",
+    "f": "ו",
+    "g": "ו",
+    "h": "נ",
+    "i": "י",
+    "k": "י",
+    "l": "ו",
+    "m": "ם",
+    "n": "ם",
+    "o": "ה",
+    "p": "ו",
+    "q": "י",
+    "r": "ו",
+    "s": "י",
+    "sh": "ה",
+    "t": "י",
+    "u": "ש",
+    "y": "ו"
+   },
+   "esempio": [
+    "וההוי ויהו הו היהיים ההו ההוו יוני ו יהו ההויו",
+    "יהוו יהו הו ו יהיו היהיים ההו הינ יהו יהו יהם",
+    "יוהייו הניו הו ויהיים ההי יההוו יני יהוהיים יו",
+    "יהיים היננו הינהי והוהיו ייהו יהיים היהיים הו היהם"
+   ]
+  },
+  "Voynich, glifi e serie di i": {
+   "parole": 34863,
+   "parole_vere": 0.31144766658061557,
+   "parole_vere_diverse": 56,
+   "quota_tre_piu_frequenti": 0.47144962239823174,
+   "parole_lunghe_vere": 0.11378722640832437,
+   "coppie_attestate": 0.06079545454545455,
+   "coppie_attestate_mescolate": 0.06777572396796057,
+   "punteggio": -2.265472050739438,
+   "chiave": {
+    "a": "י",
+    "b": "ו",
+    "c": "ל",
+    "cfh": "ה",
+    "ch": "ו",
+    "ckh": "ה",
+    "cph": "ה",
+    "cth": "ה",
+    "d": "ה",
+    "e": "ל",
+    "f": "ה",
+    "g": "ה",
+    "h": "נ",
+    "i": "כ",
+    "iiin": "ו",
+    "iin": "ם",
+    "iir": "ו",
+    "in": "ם",
+    "ir": "ה",
+    "k": "ה",
+    "l": "ה",
+    "m": "ם",
+    "n": "ם",
+    "o": "י",
+    "p": "ה",
+    "q": "ו",
+    "r": "ה",
+    "s": "ה",
+    "sh": "ו",
+    "t": "ה",
+    "u": "י",
+    "y": "י"
+   },
+   "esempio": [
+    "היויה יהיה יה יהים ויה ויהי ההלה י היה ויההי",
+    "היהי היה יה י היה והים ויה יהל היה היה הים",
+    "הייו ולהי יה יהים ויה הייהי הלה היהים הי",
+    "הים יהללי יהליה היהיהי הכיה הים יהים יה יהים"
+   ]
+  }
+ },
+ "arabo": {
+  "controllo positivo": {
+   "parole": 35000,
+   "parole_vere": 0.8658857142857143,
+   "parole_vere_diverse": 5445,
+   "quota_tre_piu_frequenti": 0.07302184385930179,
+   "parole_lunghe_vere": 0.8130332632620255,
+   "coppie_attestate": 0.5348546824542518,
+   "coppie_attestate_mescolate": 0.1957690157801952
+  },
+  "controllo negativo": {
+   "parole": 35000,
+   "parole_vere": 0.20891428571428572,
+   "parole_vere_diverse": 86,
+   "quota_tre_piu_frequenti": 0.6196663019693655,
+   "parole_lunghe_vere": 0.048980770817859204,
+   "coppie_attestate": 0.07643312101910828,
+   "coppie_attestate_mescolate": 0.3202293202293202
+  },
+  "Voynich, glifi": {
+   "parole": 34863,
+   "parole_vere": 0.3249003241258641,
+   "parole_vere_diverse": 71,
+   "quota_tre_piu_frequenti": 0.24728524763838616,
+   "parole_lunghe_vere": 0.17109334190541248,
+   "coppie_attestate": 0.066543438077634,
+   "coppie_attestate_mescolate": 0.0630959057767807,
+   "punteggio": -2.1544739077067647,
+   "chiave": {
+    "a": "ا",
+    "b": "ا",
+    "c": "و",
+    "cfh": "ل",
+    "ch": "و",
+    "ckh": "ل",
+    "cph": "ل",
+    "cth": "ل",
+    "d": "ل",
+    "e": "م",
+    "f": "ل",
+    "g": "ن",
+    "h": "ن",
+    "i": "ن",
+    "k": "ل",
+    "l": "م",
+    "m": "ن",
+    "n": "ا",
+    "o": "ا",
+    "p": "ل",
+    "q": "و",
+    "r": "ن",
+    "s": "ل",
+    "sh": "و",
+    "t": "ل",
+    "u": "ا",
+    "y": "ا"
+   },
+   "esempio": [
+    "لاوال الام ان الاننا وام وانا لنمل ا لان واملا",
+    "لانا لان ان ا لانن ولاننا وان الم لان لان لاا",
+    "لااننن وملا ان الاننا وال لاانا لمل لاناننا لا",
+    "لاننا المما المال نامالا لنان لاننا الاننا ان الاا"
+   ]
+  },
+  "Voynich, glifi e serie di i": {
+   "parole": 34863,
+   "parole_vere": 0.3555058371339242,
+   "parole_vere_diverse": 76,
+   "quota_tre_piu_frequenti": 0.39390027432628694,
+   "parole_lunghe_vere": 0.12571761750986724,
+   "coppie_attestate": 0.0503407342273027,
+   "coppie_attestate_mescolate": 0.057323350491343,
+   "punteggio": -2.1082453785099586,
+   "chiave": {
+    "a": "ا",
+    "b": "ا",
+    "c": "و",
+    "cfh": "ل",
+    "ch": "و",
+    "ckh": "ل",
+    "cph": "ل",
+    "cth": "ل",
+    "d": "ل",
+    "e": "م",
+    "f": "ل",
+    "g": "ن",
+    "h": "م",
+    "i": "ك",
+    "iiin": "ن",
+    "iin": "ن",
+    "iir": "ن",
+    "in": "ن",
+    "ir": "ن",
+    "k": "ل",
+    "l": "م",
+    "m": "ن",
+    "n": "ن",
+    "o": "ا",
+    "p": "ل",
+    "q": "و",
+    "r": "ن",
+    "s": "ل",
+    "sh": "و",
+    "t": "ل",
+    "u": "ا",
+    "y": "ا"
+   },
+   "esempio": [
+    "لاوال الام ان الان وام وانا لنمل ا لان واملا",
+    "لانا لان ان ا لان ولان وان الم لان لان لان",
+    "لاان وملا ان الان وال لاانا لمل لانان لا",
+    "لان المما المال نامالا لكان لان الان ان الان"
+   ]
+  }
+ },
+ "turco": {
+  "controllo positivo": {
+   "parole": 35000,
+   "parole_vere": 0.8641428571428571,
+   "parole_vere_diverse": 5669,
+   "quota_tre_piu_frequenti": 0.04685071912712845,
+   "parole_lunghe_vere": 0.8419166131268386,
+   "coppie_attestate": 0.3739096471813566,
+   "coppie_attestate_mescolate": 0.1305497745404093
+  },
+  "controllo negativo": {
+   "parole": 35000,
+   "parole_vere": 0.2676857142857143,
+   "parole_vere_diverse": 54,
+   "quota_tre_piu_frequenti": 0.5876827836482015,
+   "parole_lunghe_vere": 0.07547247668564826,
+   "coppie_attestate": 0.0006402048655569782,
+   "coppie_attestate_mescolate": 0.0004982561036372695
+  },
+  "Voynich, glifi": {
+   "parole": 34863,
+   "parole_vere": 0.27923586610446605,
+   "parole_vere_diverse": 68,
+   "quota_tre_piu_frequenti": 0.4081150487930149,
+   "parole_lunghe_vere": 0.09442680917748222,
+   "coppie_attestate": 0.04805013927576602,
+   "coppie_attestate_mescolate": 0.0398936170212766,
+   "punteggio": -2.6610942066135097,
+   "chiave": {
+    "a": "a",
+    "b": "p",
+    "c": "a",
+    "cfh": "d",
+    "ch": "d",
+    "ckh": "d",
+    "cph": "d",
+    "cth": "d",
+    "d": "y",
+    "e": "u",
+    "f": "y",
+    "g": "n",
+    "h": "u",
+    "i": "n",
+    "k": "d",
+    "l": "n",
+    "m": "n",
+    "n": "e",
+    "o": "a",
+    "p": "y",
+    "q": "k",
+    "r": "n",
+    "s": "t",
+    "sh": "d",
+    "t": "d",
+    "u": "a",
+    "y": "a"
+   },
+   "esempio": [
+    "yadat adan an adanne dan dana dnut a dan danya",
+    "tana dan an a dann ddanne dan atu dan dan yae",
+    "taannn duda an adanne day daana dut yananne ta",
+    "tanne aduua aduat nanada dnan yanne adanne an adae"
+   ]
+  },
+  "Voynich, glifi e serie di i": {
+   "parole": 34863,
+   "parole_vere": 0.2727246651177466,
+   "parole_vere_diverse": 38,
+   "quota_tre_piu_frequenti": 0.6789019772822886,
+   "parole_lunghe_vere": 0.06472012917115177,
+   "coppie_attestate": 0.04871060171919771,
+   "coppie_attestate_mescolate": 0.03942232630757221,
+   "punteggio": -2.6012850646981462,
+   "chiave": {
+    "a": "d",
+    "b": "a",
+    "c": "b",
+    "cfh": "a",
+    "ch": "a",
+    "ckh": "a",
+    "cph": "a",
+    "cth": "a",
+    "d": "a",
+    "e": "l",
+    "f": "a",
+    "g": "a",
+    "h": "l",
+    "i": "u",
+    "iiin": "a",
+    "iin": "a",
+    "iir": "a",
+    "in": "a",
+    "ir": "a",
+    "k": "a",
+    "l": "a",
+    "m": "a",
+    "n": "a",
+    "o": "m",
+    "p": "a",
+    "q": "a",
+    "r": "a",
+    "s": "a",
+    "sh": "a",
+    "t": "a",
+    "u": "n",
+    "y": "k"
+   },
+   "esempio": [
+    "adaka kada da dada ama amak aala k ama amaak",
+    "amak ada ma k ada aada ada dal ada ada ada",
+    "akda alak ma kada ama amdak ala adada ak",
+    "ama mallk malma amamak auda ada mada ma mada"
+   ]
+  }
+ },
+ "malgascio": {
+  "controllo positivo": {
+   "parole": 35000,
+   "parole_vere": 0.6940285714285714,
+   "parole_vere_diverse": 629,
+   "quota_tre_piu_frequenti": 0.3057099337203079,
+   "parole_lunghe_vere": 0.4829119616268612,
+   "coppie_attestate": 0.7217416378316033,
+   "coppie_attestate_mescolate": 0.5415864723673357
+  },
+  "controllo negativo": {
+   "parole": 35000,
+   "parole_vere": 0.24762857142857142,
+   "parole_vere_diverse": 26,
+   "quota_tre_piu_frequenti": 0.6618206992038768,
+   "parole_lunghe_vere": 0.07485351159527937,
+   "coppie_attestate": 0.18116520351157223,
+   "coppie_attestate_mescolate": 0.26365795724465557
+  },
+  "Voynich, glifi": {
+   "parole": 34863,
+   "parole_vere": 0.2563175859794051,
+   "parole_vere_diverse": 88,
+   "quota_tre_piu_frequenti": 0.26175022381378693,
+   "parole_lunghe_vere": 0.12862136858600876,
+   "coppie_attestate": 0.09621380846325167,
+   "coppie_attestate_mescolate": 0.09584664536741214,
+   "punteggio": -2.552021463630576,
+   "chiave": {
+    "a": "a",
+    "b": "y",
+    "c": "i",
+    "cfh": "r",
+    "ch": "t",
+    "ckh": "r",
+    "cph": "r",
+    "cth": "r",
+    "d": "n",
+    "e": "o",
+    "f": "n",
+    "g": "o",
+    "h": "o",
+    "i": "r",
+    "k": "n",
+    "l": "o",
+    "m": "o",
+    "n": "y",
+    "o": "a",
+    "p": "n",
+    "q": "m",
+    "r": "n",
+    "s": "n",
+    "sh": "t",
+    "t": "n",
+    "u": "y",
+    "y": "a"
+   },
+   "esempio": [
+    "natan anao an anarry tao tana rnon a nan taona",
+    "nana ran an a narn tnarry tan ano ran ran nay",
+    "naarrn tona an anarry tan raana ron nanarry na",
+    "narry anooa anoan naoana rran narry anarry an anay"
+   ]
+  },
+  "Voynich, glifi e serie di i": {
+   "parole": 34863,
+   "parole_vere": 0.25089636577460345,
+   "parole_vere_diverse": 52,
+   "quota_tre_piu_frequenti": 0.5263518920772836,
+   "parole_lunghe_vere": 0.06180480803731611,
+   "coppie_attestate": 0.1949607600165221,
+   "coppie_attestate_mescolate": 0.15937356057116536,
+   "punteggio": -2.430007616824495,
+   "chiave": {
+    "a": "n",
+    "b": "y",
+    "c": "d",
+    "cfh": "i",
+    "ch": "a",
+    "ckh": "i",
+    "cph": "i",
+    "cth": "i",
+    "d": "i",
+    "e": "r",
+    "f": "i",
+    "g": "a",
+    "h": "n",
+    "i": "o",
+    "iiin": "y",
+    "iin": "y",
+    "iir": "y",
+    "in": "y",
+    "ir": "a",
+    "k": "i",
+    "l": "a",
+    "m": "y",
+    "n": "y",
+    "o": "n",
+    "p": "i",
+    "q": "a",
+    "r": "a",
+    "s": "i",
+    "sh": "a",
+    "t": "i",
+    "u": "a",
+    "y": "a"
+   },
+   "esempio": [
+    "inaai aina na niny ana anaa iari a ina anaia",
+    "inaa ina na a ina ainy ana nir ina ina iny",
+    "iany aria na ainy ani innaa iri inany ia",
+    "iny nirra nirni anania iona iny niny na niny"
+   ]
+  }
+ },
+ "chinanteco": {
+  "controllo positivo": {
+   "parole": 35000,
+   "parole_vere": 0.9770571428571428,
+   "parole_vere_diverse": 2241,
+   "quota_tre_piu_frequenti": 0.19022136444717372,
+   "parole_lunghe_vere": 0.9671281711159012,
+   "coppie_attestate": 0.8598172422054143,
+   "coppie_attestate_mescolate": 0.517202462380301
+  },
+  "controllo negativo": {
+   "parole": 35000,
+   "parole_vere": 0.1964,
+   "parole_vere_diverse": 8,
+   "quota_tre_piu_frequenti": 0.7465813209194064,
+   "parole_lunghe_vere": 0.022406536271354294,
+   "coppie_attestate": 0.001226993865030675,
+   "coppie_attestate_mescolate": 0.003527336860670194
+  },
+  "Voynich, glifi": {
+   "parole": 34863,
+   "parole_vere": 0.2121446806069472,
+   "parole_vere_diverse": 7,
+   "quota_tre_piu_frequenti": 0.8899405083829097,
+   "parole_lunghe_vere": 0.10475348575561538,
+   "coppie_attestate": 0.014540647719762063,
+   "coppie_attestate_mescolate": 0.012591119946984758,
+   "punteggio": -2.869432245012121,
+   "chiave": {
+    "a": "a",
+    "b": "ˈ",
+    "c": "a",
+    "cfh": "a",
+    "ch": "n",
+    "ckh": "a",
+    "cph": "n",
+    "cth": "a",
+    "d": "a",
+    "e": "a",
+    "f": "a",
+    "g": "ˈ",
+    "h": "a",
+    "i": "ˈ",
+    "k": "n",
+    "l": "ˈ",
+    "m": "ˈ",
+    "n": "ˆ",
+    "o": "a",
+    "p": "a",
+    "q": "c",
+    "r": "ˈ",
+    "s": "n",
+    "sh": "n",
+    "t": "n",
+    "u": "b",
+    "y": "ˈ"
+   },
+   "esempio": [
+    "aanˈn ˈnaˈ aˈ anaˈˈˆ naˈ naˈˈ aˈan ˈ naˈ naˈaˈ",
+    "naˈˈ aaˈ aˈ ˈ naˈˈ nnaˈˈˆ naˈ ana aaˈ aaˈ aaˆ",
+    "nˈaˈˈˈ nanˈ aˈ ˈnaˈˈˆ naa aaaˈˈ aan aaˈaˈˈˆ nˈ",
+    "naˈˈˆ anaaˈ anaan ˈaˈanˈ aˈaˈ aaˈˈˆ anaˈˈˆ aˈ anaˆ"
+   ]
+  },
+  "Voynich, glifi e serie di i": {
+   "parole": 34863,
+   "parole_vere": 0.2135501821415254,
+   "parole_vere_diverse": 7,
+   "quota_tre_piu_frequenti": 0.8995298858294157,
+   "parole_lunghe_vere": 0.043371008252601366,
+   "coppie_attestate": 0.013303769401330377,
+   "coppie_attestate_mescolate": 0.02067777139574957,
+   "punteggio": -2.6413104143623,
+   "chiave": {
+    "a": "a",
+    "b": "ˈ",
+    "c": "a",
+    "cfh": "a",
+    "ch": "a",
+    "ckh": "a",
+    "cph": "n",
+    "cth": "a",
+    "d": "n",
+    "e": "a",
+    "f": "n",
+    "g": "ˈ",
+    "h": "a",
+    "i": "a",
+    "iiin": "ˈ",
+    "iin": "ˈ",
+    "iir": "ˈ",
+    "in": "ˈ",
+    "ir": "ˈ",
+    "k": "n",
+    "l": "ˈ",
+    "m": "ˈ",
+    "n": "ˈ",
+    "o": "a",
+    "p": "n",
+    "q": "c",
+    "r": "ˈ",
+    "s": "n",
+    "sh": "n",
+    "t": "n",
+    "u": "i",
+    "y": "ˈ"
+   },
+   "esempio": [
+    "naaˈn ˈnaˈ aˈ anaˈ naˈ naˈˈ aˈan ˈ naˈ naˈnˈ",
+    "naˈˈ aaˈ aˈ ˈ naˈ anaˈ naˈ ana aaˈ aaˈ naˈ",
+    "nˈaˈ nanˈ aˈ ˈnaˈ nan aaaˈˈ aan naˈaˈ nˈ",
+    "naˈ anaaˈ anaan ˈaˈanˈ aaaˈ naˈ anaˈ aˈ anaˈ"
+   ]
+  }
+ }
+}

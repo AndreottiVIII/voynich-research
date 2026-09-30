@@ -1,0 +1,2453 @@
+{
+ "voynich": {
+  "ZL": {
+   "parole": 34863,
+   "riga": {
+    "coppie": 30675,
+    "identiche_vicine": 0.00938875305623472,
+    "identiche_caso": 0.009309538661940888,
+    "identiche_testo": 0.003444957210440382,
+    "identiche_rapporto": 1.008508949494745,
+    "distanza_rapporto": 0.9931615953565357,
+    "grappolo_identiche": 2.7023669942044983,
+    "grappolo_distanza": 0.959145043034624
+   },
+   "pagina": {
+    "coppie": 34656,
+    "identiche_vicine": 0.008483379501385042,
+    "identiche_caso": 0.00725873298516469,
+    "identiche_testo": 0.003444957210440382,
+    "identiche_rapporto": 1.1687135370213053,
+    "distanza_rapporto": 0.986720696066912,
+    "grappolo_identiche": 2.1070604195506912,
+    "grappolo_distanza": 0.9708329782822555
+   },
+   "blocco_8": {
+    "coppie": 30499,
+    "identiche_vicine": 0.00865602150890193,
+    "identiche_caso": 0.009246204793599791,
+    "identiche_testo": 0.0034451886923125273,
+    "identiche_rapporto": 0.9361702127659574,
+    "distanza_rapporto": 0.9993377181195746,
+    "grappolo_identiche": 2.6838021424578127,
+    "grappolo_distanza": 0.9594696516315898
+   },
+   "blocco_150": {
+    "coppie": 34568,
+    "identiche_vicine": 0.008476047211293683,
+    "identiche_caso": 0.007113322533364193,
+    "identiche_testo": 0.0034459719908717153,
+    "identiche_rapporto": 1.191573582040993,
+    "distanza_rapporto": 0.9858953338652011,
+    "grappolo_identiche": 2.0642427019741274,
+    "grappolo_distanza": 0.9714606012444343
+   }
+  },
+  "IT": {
+   "parole": 34411,
+   "riga": {
+    "coppie": 30236,
+    "identiche_vicine": 0.00965736208493187,
+    "identiche_caso": 0.009015522369792136,
+    "identiche_testo": 0.003344788869485117,
+    "identiche_rapporto": 1.0711927372384227,
+    "distanza_rapporto": 0.9923101357548706,
+    "grappolo_identiche": 2.6953935574354944,
+    "grappolo_distanza": 0.9590649629549766
+   },
+   "pagina": {
+    "coppie": 34205,
+    "identiche_vicine": 0.0087706475661453,
+    "identiche_caso": 0.007224291584241702,
+    "identiche_testo": 0.003344788869485117,
+    "identiche_rapporto": 1.2140494972928078,
+    "distanza_rapporto": 0.987179580329917,
+    "grappolo_identiche": 2.1598647526454426,
+    "grappolo_distanza": 0.9698233380849723
+   },
+   "blocco_8": {
+    "coppie": 30107,
+    "identiche_vicine": 0.008669080280333478,
+    "identiche_caso": 0.00869399143056432,
+    "identiche_testo": 0.0033449430621815025,
+    "identiche_rapporto": 0.9971346704871061,
+    "distanza_rapporto": 0.9989575544861545,
+    "grappolo_identiche": 2.59914481919291,
+    "grappolo_distanza": 0.9578661028437141
+   },
+   "blocco_150": {
+    "coppie": 34121,
+    "identiche_vicine": 0.008704316989537235,
+    "identiche_caso": 0.007088498773971067,
+    "identiche_testo": 0.003346215486612015,
+    "identiche_rapporto": 1.2279492833517083,
+    "distanza_rapporto": 0.9857171228154087,
+    "grappolo_identiche": 2.1183629094813763,
+    "grappolo_distanza": 0.9716362805338855
+   }
+  }
+ },
+ "latino_tecnico": {
+  "Apicio, ricette di cucina": {
+   "parole": 7704,
+   "blocco_8": {
+    "coppie": 6741,
+    "identiche_vicine": 0.0019284972556000593,
+    "identiche_caso": 0.008826583592938734,
+    "identiche_testo": 0.008506921485054776,
+    "identiche_rapporto": 0.21848739495798317,
+    "distanza_rapporto": 1.0005530311629913,
+    "grappolo_identiche": 1.0375767083833498,
+    "grappolo_distanza": 0.9909015714097373
+   },
+   "blocco_150": {
+    "coppie": 7599,
+    "identiche_vicine": 0.0019739439399921043,
+    "identiche_caso": 0.011138307672062114,
+    "identiche_testo": 0.008446402921651512,
+    "identiche_rapporto": 0.1772211720226843,
+    "distanza_rapporto": 0.9939631826601633,
+    "grappolo_identiche": 1.3187042786592826,
+    "grappolo_distanza": 0.9978278543552881
+   }
+  },
+  "Catone, agricoltura e ricette": {
+   "parole": 15673,
+   "blocco_8": {
+    "coppie": 13713,
+    "identiche_vicine": 0.0005833880259607672,
+    "identiche_caso": 0.009899365565521767,
+    "identiche_testo": 0.003444063840932336,
+    "identiche_rapporto": 0.05893186003683242,
+    "distanza_rapporto": 0.9982627773702739,
+    "grappolo_identiche": 2.874326964520474,
+    "grappolo_distanza": 0.9907115601610387
+   },
+   "blocco_150": {
+    "coppie": 15496,
+    "identiche_vicine": 0.0005807950438822922,
+    "identiche_caso": 0.00798399586990191,
+    "identiche_testo": 0.003434605439862187,
+    "identiche_rapporto": 0.07274490785645005,
+    "distanza_rapporto": 0.9923737307954577,
+    "grappolo_identiche": 2.3245743971750845,
+    "grappolo_distanza": 0.9952777901048279
+   }
+  },
+  "Columella XII, conserve e ricette": {
+   "parole": 15727,
+   "blocco_8": {
+    "coppie": 13755,
+    "identiche_vicine": 7.270083605961468e-05,
+    "identiche_caso": 0.0036895674300254453,
+    "identiche_testo": 0.004240593424563424,
+    "identiche_rapporto": 0.019704433497536943,
+    "distanza_rapporto": 0.998127325072215,
+    "grappolo_identiche": 0.8700592253560107,
+    "grappolo_distanza": 0.9971675840372082
+   },
+   "blocco_150": {
+    "coppie": 15496,
+    "identiche_vicine": 0.00012906556530717606,
+    "identiche_caso": 0.005275339872655307,
+    "identiche_testo": 0.004264647142075182,
+    "identiche_rapporto": 0.024465829391616387,
+    "distanza_rapporto": 0.9975708729934197,
+    "grappolo_identiche": 1.2369932838308213,
+    "grappolo_distanza": 0.9986941381556835
+   }
+  },
+  "Varrone, agricoltura": {
+   "parole": 35494,
+   "blocco_8": {
+    "coppie": 31052,
+    "identiche_vicine": 0.0001288161793121216,
+    "identiche_caso": 0.005386126497488084,
+    "identiche_testo": 0.004048152433066905,
+    "identiche_rapporto": 0.02391629297458894,
+    "distanza_rapporto": 1.000995231500374,
+    "grappolo_identiche": 1.3305147438352565,
+    "grappolo_distanza": 0.9948104820511134
+   },
+   "blocco_150": {
+    "coppie": 35164,
+    "identiche_vicine": 0.00014219087703332955,
+    "identiche_caso": 0.005523831190990788,
+    "identiche_testo": 0.004047804982840493,
+    "identiche_rapporto": 0.025741350906095545,
+    "distanza_rapporto": 0.9978567504837753,
+    "grappolo_identiche": 1.364648547646807,
+    "grappolo_distanza": 0.9975744841735635
+   }
+  },
+  "Isidoro XVII, piante": {
+   "parole": 9999,
+   "blocco_8": {
+    "coppie": 8743,
+    "identiche_vicine": 0.00022875443211712226,
+    "identiche_caso": 0.004260551298181402,
+    "identiche_testo": 0.004376516927684876,
+    "identiche_rapporto": 0.05369127516778524,
+    "distanza_rapporto": 1.004658108767318,
+    "grappolo_identiche": 0.9735027576907331,
+    "grappolo_distanza": 0.9961940191157355
+   },
+   "blocco_150": {
+    "coppie": 9834,
+    "identiche_vicine": 0.0002033760423022168,
+    "identiche_caso": 0.005461324655955528,
+    "identiche_testo": 0.004409342439446491,
+    "identiche_rapporto": 0.037239324726911625,
+    "distanza_rapporto": 1.0030790561206484,
+    "grappolo_identiche": 1.238580294217542,
+    "grappolo_distanza": 0.9983841676581163
+   }
+  },
+  "Isidoro XVI, pietre e metalli": {
+   "parole": 9724,
+   "blocco_8": {
+    "coppie": 8505,
+    "identiche_vicine": 0.00023515579071134627,
+    "identiche_caso": 0.004879482657260435,
+    "identiche_testo": 0.004350542423160777,
+    "identiche_rapporto": 0.048192771084337345,
+    "distanza_rapporto": 1.0005857779975182,
+    "grappolo_identiche": 1.1215802956623901,
+    "grappolo_distanza": 0.9958024695962221
+   },
+   "blocco_150": {
+    "coppie": 9536,
+    "identiche_vicine": 0.0,
+    "identiche_caso": 0.005696308724832215,
+    "identiche_testo": 0.004410442059936799,
+    "identiche_rapporto": 0.0,
+    "distanza_rapporto": 0.998426882016729,
+    "grappolo_identiche": 1.2915505174811983,
+    "grappolo_distanza": 0.9988222380957806
+   }
+  },
+  "Vegezio, arte militare": {
+   "parole": 24921,
+   "blocco_8": {
+    "coppie": 21805,
+    "identiche_vicine": 0.00018344416418252695,
+    "identiche_caso": 0.0045746388443017654,
+    "identiche_testo": 0.0028043734895282224,
+    "identiche_rapporto": 0.04010025062656642,
+    "distanza_rapporto": 1.0021413824430816,
+    "grappolo_identiche": 1.6312516365540717,
+    "grappolo_distanza": 0.9998281186566579
+   },
+   "blocco_150": {
+    "coppie": 24734,
+    "identiche_vicine": 0.00016172070833670252,
+    "identiche_caso": 0.003976712217999515,
+    "identiche_testo": 0.002804260941109714,
+    "identiche_rapporto": 0.0406669377795852,
+    "distanza_rapporto": 1.0024095025572433,
+    "grappolo_identiche": 1.4180963546230592,
+    "grappolo_distanza": 0.9990006203943637
+   }
+  },
+  "Vitruvio, architettura": {
+   "parole": 57967,
+   "blocco_8": {
+    "coppie": 50715,
+    "identiche_vicine": 0.0011436458641427586,
+    "identiche_caso": 0.005037957211870256,
+    "identiche_testo": 0.003964600830188723,
+    "identiche_rapporto": 0.22700587084148727,
+    "distanza_rapporto": 1.001071656751886,
+    "grappolo_identiche": 1.2707350443727872,
+    "grappolo_distanza": 0.9962831555022036
+   },
+   "blocco_150": {
+    "coppie": 57514,
+    "identiche_vicine": 0.0010953854713634942,
+    "identiche_caso": 0.005910213165490145,
+    "identiche_testo": 0.003963963093256225,
+    "identiche_rapporto": 0.18533772652388789,
+    "distanza_rapporto": 0.9996449791816191,
+    "grappolo_identiche": 1.4909859215251067,
+    "grappolo_distanza": 0.9972466765382634
+   }
+  }
+ },
+ "lingue": {
+  "Achuar-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.001219047619047619,
+    "identiche_caso": 0.00720952380952381,
+    "identiche_testo": 0.005532117737257909,
+    "identiche_rapporto": 0.16908850726552177,
+    "distanza_rapporto": 1.004222557111532,
+    "grappolo_identiche": 1.3032122872166738,
+    "grappolo_distanza": 0.9954044932881333
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.001174496644295302,
+    "identiche_caso": 0.008464876957494406,
+    "identiche_testo": 0.005532117737257909,
+    "identiche_rapporto": 0.13874940535969132,
+    "distanza_rapporto": 1.0029784889903075,
+    "grappolo_identiche": 1.5301331894086134,
+    "grappolo_distanza": 0.9970559187563118
+   },
+   "lingua": "Achuar-Shiwiar",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Afrikaans": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0019047619047619048,
+    "identiche_caso": 0.01639047619047619,
+    "identiche_testo": 0.0177168350056113,
+    "identiche_rapporto": 0.11621150493898895,
+    "distanza_rapporto": 1.0020026252513816,
+    "grappolo_identiche": 0.9251356794418968,
+    "grappolo_distanza": 0.9994257411005975
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0019798657718120807,
+    "identiche_caso": 0.022050559284116335,
+    "identiche_testo": 0.0177168350056113,
+    "identiche_rapporto": 0.08978755351744008,
+    "distanza_rapporto": 1.0039225398334946,
+    "grappolo_identiche": 1.2446105231059865,
+    "grappolo_distanza": 0.9988414941879978
+   },
+   "lingua": "Afrikaans",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Aguaruna-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.00022857142857142857,
+    "identiche_caso": 0.0030095238095238096,
+    "identiche_testo": 0.0022518839516872786,
+    "identiche_rapporto": 0.0759493670886076,
+    "distanza_rapporto": 1.0058527176967424,
+    "grappolo_identiche": 1.3364471145455123,
+    "grappolo_distanza": 0.9939722322791825
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.00026845637583892615,
+    "identiche_caso": 0.004184787472035795,
+    "identiche_testo": 0.0022518839516872786,
+    "identiche_rapporto": 0.0641505399337111,
+    "distanza_rapporto": 1.00384344317681,
+    "grappolo_identiche": 1.8583495250278068,
+    "grappolo_distanza": 0.9965489452384273
+   },
+   "lingua": "Aguaruna",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Akawaio-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0021714285714285715,
+    "identiche_caso": 0.010038095238095238,
+    "identiche_testo": 0.012220191784170583,
+    "identiche_rapporto": 0.21631878557874765,
+    "distanza_rapporto": 1.003324359976283,
+    "grappolo_identiche": 0.8214351636525115,
+    "grappolo_distanza": 0.9973538172113026
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0022147651006711407,
+    "identiche_caso": 0.015783445190156595,
+    "identiche_testo": 0.012220191784170583,
+    "identiche_rapporto": 0.14032203197641457,
+    "distanza_rapporto": 1.0020138809627352,
+    "grappolo_identiche": 1.2915873554948352,
+    "grappolo_distanza": 0.9982628638384003
+   },
+   "lingua": "Akawaio",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Albanian": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.001142857142857143,
+    "identiche_caso": 0.011666666666666667,
+    "identiche_testo": 0.012955705190173005,
+    "identiche_rapporto": 0.0979591836734694,
+    "distanza_rapporto": 1.0021973696935924,
+    "grappolo_identiche": 0.9005041790790297,
+    "grappolo_distanza": 0.998358498370044
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0011409395973154361,
+    "identiche_caso": 0.01575570469798657,
+    "identiche_testo": 0.012955705190173005,
+    "identiche_rapporto": 0.07241438064406204,
+    "distanza_rapporto": 1.0016485888340185,
+    "grappolo_identiche": 1.2161209649890292,
+    "grappolo_distanza": 0.9990127602763825
+   },
+   "lingua": "Albanian",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Amuzgo-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.005180952380952381,
+    "identiche_caso": 0.01600952380952381,
+    "identiche_testo": 0.020900732246630443,
+    "identiche_rapporto": 0.3236168947055324,
+    "distanza_rapporto": 1.0022706582707237,
+    "grappolo_identiche": 0.7659790872688118,
+    "grappolo_distanza": 0.9968358690510396
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.005302013422818792,
+    "identiche_caso": 0.023258165548098453,
+    "identiche_testo": 0.020900732246630443,
+    "identiche_rapporto": 0.22796352583586607,
+    "distanza_rapporto": 1.0009346895372078,
+    "grappolo_identiche": 1.1127918999990092,
+    "grappolo_distanza": 0.9975885145539538
+   },
+   "lingua": "Amuzgo",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Arabic": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0009142857142857143,
+    "identiche_caso": 0.005914285714285714,
+    "identiche_testo": 0.0026374012467082234,
+    "identiche_rapporto": 0.15458937198067632,
+    "distanza_rapporto": 1.0061253800953511,
+    "grappolo_identiche": 2.2424671716779594,
+    "grappolo_distanza": 0.9950962088148029
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.00087248322147651,
+    "identiche_caso": 0.00545771812080537,
+    "identiche_testo": 0.0026374012467082234,
+    "identiche_rapporto": 0.1598622725036891,
+    "distanza_rapporto": 1.0033650073344271,
+    "grappolo_identiche": 2.0693544934117334,
+    "grappolo_distanza": 0.9983110827145046
+   },
+   "lingua": "Arabic",
+   "tipo_scrittura": "abjad"
+  },
+  "Armenian-PART": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.000419047619047619,
+    "identiche_caso": 0.0074380952380952384,
+    "identiche_testo": 0.007608193606453548,
+    "identiche_rapporto": 0.05633802816901408,
+    "distanza_rapporto": 1.0053618344008675,
+    "grappolo_identiche": 0.9776427392418056,
+    "grappolo_distanza": 0.9973686282832632
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.000436241610738255,
+    "identiche_caso": 0.01033825503355704,
+    "identiche_testo": 0.007608193606453548,
+    "identiche_rapporto": 0.0421968319916905,
+    "distanza_rapporto": 1.0042377169415824,
+    "grappolo_identiche": 1.3588317501263052,
+    "grappolo_distanza": 0.9983761776935728
+   },
+   "lingua": "Armenian",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Ashaninka-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.001980952380952381,
+    "identiche_caso": 0.009866666666666666,
+    "identiche_testo": 0.005023129659877551,
+    "identiche_rapporto": 0.2007722007722008,
+    "distanza_rapporto": 1.0110323715474094,
+    "grappolo_identiche": 1.9642468609713701,
+    "grappolo_distanza": 0.9906414763052486
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0019798657718120807,
+    "identiche_caso": 0.009662639821029082,
+    "identiche_testo": 0.005023129659877551,
+    "identiche_rapporto": 0.20489905538062608,
+    "distanza_rapporto": 1.0057953380487286,
+    "grappolo_identiche": 1.9236293855222977,
+    "grappolo_distanza": 0.995697202856447
+   },
+   "lingua": "Asháninka",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Aukan-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.002819047619047619,
+    "identiche_caso": 0.01537142857142857,
+    "identiche_testo": 0.016229007633587787,
+    "identiche_rapporto": 0.18339529120198267,
+    "distanza_rapporto": 1.0016787477296345,
+    "grappolo_identiche": 0.9471576401021368,
+    "grappolo_distanza": 0.9988963773236628
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0028859060402684563,
+    "identiche_caso": 0.020988366890380295,
+    "identiche_testo": 0.016229007633587787,
+    "identiche_rapporto": 0.13750026647338476,
+    "distanza_rapporto": 1.0016831819580796,
+    "grappolo_identiche": 1.29326249418618,
+    "grappolo_distanza": 0.9992031782944056
+   },
+   "lingua": "Aukan",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Barasana-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.003085714285714286,
+    "identiche_caso": 0.01259047619047619,
+    "identiche_testo": 0.009619869551207262,
+    "identiche_rapporto": 0.24508320726172467,
+    "distanza_rapporto": 1.0077920531407554,
+    "grappolo_identiche": 1.3087990563132041,
+    "grappolo_distanza": 0.9977510457653941
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.002953020134228188,
+    "identiche_caso": 0.014625950782997764,
+    "identiche_testo": 0.009619869551207262,
+    "identiche_rapporto": 0.20190278075193488,
+    "distanza_rapporto": 1.0092239005231438,
+    "grappolo_identiche": 1.5203897209980624,
+    "grappolo_distanza": 0.9960550365953464
+   },
+   "lingua": "Barasana-Eduria",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Basque-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.000419047619047619,
+    "identiche_caso": 0.009066666666666667,
+    "identiche_testo": 0.009469135637854596,
+    "identiche_rapporto": 0.04621848739495798,
+    "distanza_rapporto": 1.0073700189840662,
+    "grappolo_identiche": 0.9574967571930235,
+    "grappolo_distanza": 0.9987395855494106
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0004697986577181208,
+    "identiche_caso": 0.011855928411633104,
+    "identiche_testo": 0.009469135637854596,
+    "identiche_rapporto": 0.03962563212317913,
+    "distanza_rapporto": 1.0072239121007707,
+    "grappolo_identiche": 1.2520602581968379,
+    "grappolo_distanza": 0.9984069082430616
+   },
+   "lingua": "Basque",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Bulgarian": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0005714285714285715,
+    "identiche_caso": 0.009971428571428572,
+    "identiche_testo": 0.010389310754802938,
+    "identiche_rapporto": 0.05730659025787966,
+    "distanza_rapporto": 1.00357037227528,
+    "grappolo_identiche": 0.9597776798445287,
+    "grappolo_distanza": 0.9992542283777345
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0006040268456375838,
+    "identiche_caso": 0.012955704697986573,
+    "identiche_testo": 0.010389310754802938,
+    "identiche_rapporto": 0.04662246166597597,
+    "distanza_rapporto": 1.0040493604828507,
+    "grappolo_identiche": 1.2470225411245113,
+    "grappolo_distanza": 0.998745883664783
+   },
+   "lingua": "Bulgarian",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Cabecar-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0013333333333333333,
+    "identiche_caso": 0.011733333333333333,
+    "identiche_testo": 0.009745284842828094,
+    "identiche_rapporto": 0.11363636363636363,
+    "distanza_rapporto": 1.0043961014144225,
+    "grappolo_identiche": 1.2040010653940316,
+    "grappolo_distanza": 0.9972838383741984
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0014093959731543624,
+    "identiche_caso": 0.013674720357941835,
+    "identiche_testo": 0.009745284842828094,
+    "identiche_rapporto": 0.10306579851454371,
+    "distanza_rapporto": 1.0042613983773976,
+    "grappolo_identiche": 1.4032140238574509,
+    "grappolo_distanza": 0.9986701499021936
+   },
+   "lingua": "Cabécar",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Cakchiquel-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.00022857142857142857,
+    "identiche_caso": 0.02095238095238095,
+    "identiche_testo": 0.027609046968232274,
+    "identiche_rapporto": 0.01090909090909091,
+    "distanza_rapporto": 0.9999171856160987,
+    "grappolo_identiche": 0.758895480039182,
+    "grappolo_distanza": 0.9972340681141398
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.00026845637583892615,
+    "identiche_caso": 0.03050425055928411,
+    "identiche_testo": 0.027609046968232274,
+    "identiche_rapporto": 0.008800621910615019,
+    "distanza_rapporto": 0.9998459999813206,
+    "grappolo_identiche": 1.104864307499753,
+    "grappolo_distanza": 0.997602657628011
+   },
+   "lingua": "Cakchiquel",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Camsa-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.00022857142857142857,
+    "identiche_caso": 0.00841904761904762,
+    "identiche_testo": 0.01009013633787793,
+    "identiche_rapporto": 0.027149321266968323,
+    "distanza_rapporto": 1.0029907547650931,
+    "grappolo_identiche": 0.8343839307148788,
+    "grappolo_distanza": 0.9979239201689242
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.00020134228187919463,
+    "identiche_caso": 0.012624161073825503,
+    "identiche_testo": 0.01009013633787793,
+    "identiche_rapporto": 0.01594896331738437,
+    "distanza_rapporto": 1.0033156091866842,
+    "grappolo_identiche": 1.251138800417885,
+    "grappolo_distanza": 0.9979018226044137
+   },
+   "lingua": "Camsá",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Cebuano": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0004952380952380952,
+    "identiche_caso": 0.017095238095238094,
+    "identiche_testo": 0.021355436292320853,
+    "identiche_rapporto": 0.028969359331476326,
+    "distanza_rapporto": 1.0074188861192175,
+    "grappolo_identiche": 0.800509896460665,
+    "grappolo_distanza": 0.999024708499424
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0005033557046979866,
+    "identiche_caso": 0.024644295302013435,
+    "identiche_testo": 0.021355436292320853,
+    "identiche_rapporto": 0.020424836601307183,
+    "distanza_rapporto": 1.0083008978538837,
+    "grappolo_identiche": 1.1540057044339205,
+    "grappolo_distanza": 0.99884402096969
+   },
+   "lingua": "Cebuano",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Chamorro-PART": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0008,
+    "identiche_caso": 0.01935238095238095,
+    "identiche_testo": 0.020877033678900408,
+    "identiche_rapporto": 0.04133858267716536,
+    "distanza_rapporto": 1.0147111819444241,
+    "grappolo_identiche": 0.9269698583635297,
+    "grappolo_distanza": 1.0028928935909927
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0007046979865771812,
+    "identiche_caso": 0.025135123042505588,
+    "identiche_testo": 0.020877033678900408,
+    "identiche_rapporto": 0.028036384997418878,
+    "distanza_rapporto": 1.018349162971668,
+    "grappolo_identiche": 1.2039604586119275,
+    "grappolo_distanza": 0.999094851776189
+   },
+   "lingua": "Chamorro",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Chinantec-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.003123809523809524,
+    "identiche_caso": 0.014809523809523809,
+    "identiche_testo": 0.01745902863428781,
+    "identiche_rapporto": 0.21093247588424438,
+    "distanza_rapporto": 1.00155345197178,
+    "grappolo_identiche": 0.8482444309896694,
+    "grappolo_distanza": 1.0007554502280973
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0032885906040268456,
+    "identiche_caso": 0.02130246085011186,
+    "identiche_testo": 0.01745902863428781,
+    "identiche_rapporto": 0.15437608955913545,
+    "distanza_rapporto": 1.0026865435824366,
+    "grappolo_identiche": 1.2201400946371053,
+    "grappolo_distanza": 0.9988308050952388
+   },
+   "lingua": "Chinantec (Quiotepec)",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Chinese-pinyin": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0035428571428571427,
+    "identiche_caso": 0.009666666666666667,
+    "identiche_testo": 0.009707348022711868,
+    "identiche_rapporto": 0.36650246305418716,
+    "distanza_rapporto": 1.0014420505599906,
+    "grappolo_identiche": 0.9958092204019038,
+    "grappolo_distanza": 1.0014254309474742
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0034228187919463087,
+    "identiche_caso": 0.013635794183445188,
+    "identiche_testo": 0.009707348022711868,
+    "identiche_rapporto": 0.25101719385746163,
+    "distanza_rapporto": 1.0037320311359588,
+    "grappolo_identiche": 1.4046878871080033,
+    "grappolo_distanza": 1.0002639231679296
+   },
+   "lingua": "Chinese (pinyin, una sillaba per parola)",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Coptic-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.001561904761904762,
+    "identiche_caso": 0.009666666666666667,
+    "identiche_testo": 0.008483522784092803,
+    "identiche_rapporto": 0.16157635467980294,
+    "distanza_rapporto": 1.0091015796792269,
+    "grappolo_identiche": 1.1394637478657264,
+    "grappolo_distanza": 0.994565622314645
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0017114093959731543,
+    "identiche_caso": 0.011540939597315438,
+    "identiche_testo": 0.008483522784092803,
+    "identiche_rapporto": 0.14829030006978364,
+    "distanza_rapporto": 1.0057024199979225,
+    "grappolo_identiche": 1.3603947193912775,
+    "grappolo_distanza": 0.9980389998574646
+   },
+   "lingua": "Coptic",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Creole": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.005295238095238095,
+    "identiche_caso": 0.015171428571428572,
+    "identiche_testo": 0.01269837883485005,
+    "identiche_rapporto": 0.3490269930947897,
+    "distanza_rapporto": 0.9944045048995568,
+    "grappolo_identiche": 1.1947531861147003,
+    "grappolo_distanza": 0.9994693189487326
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.005134228187919463,
+    "identiche_caso": 0.018048322147651,
+    "identiche_testo": 0.01269837883485005,
+    "identiche_rapporto": 0.28447121820615806,
+    "distanza_rapporto": 0.9941292702943073,
+    "grappolo_identiche": 1.4213091594116176,
+    "grappolo_distanza": 0.9994766587420104
+   },
+   "lingua": "Haitian Creole",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Croatian": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.000419047619047619,
+    "identiche_caso": 0.006971428571428571,
+    "identiche_testo": 0.006590817471693501,
+    "identiche_rapporto": 0.060109289617486336,
+    "distanza_rapporto": 0.9971065095828193,
+    "grappolo_identiche": 1.057748693750014,
+    "grappolo_distanza": 0.995813694915234
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0004697986577181208,
+    "identiche_caso": 0.00888590604026846,
+    "identiche_testo": 0.006590817471693501,
+    "identiche_rapporto": 0.05287009063444107,
+    "distanza_rapporto": 0.9944779174943782,
+    "grappolo_identiche": 1.3482251751671162,
+    "grappolo_distanza": 0.9978150670699385
+   },
+   "lingua": "Croatian",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Czech": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.00038095238095238096,
+    "identiche_caso": 0.0067714285714285715,
+    "identiche_testo": 0.006898661066479994,
+    "identiche_rapporto": 0.05625879043600563,
+    "distanza_rapporto": 1.0020468535909948,
+    "grappolo_identiche": 0.981556929116342,
+    "grappolo_distanza": 0.9969851543515175
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0003691275167785235,
+    "identiche_caso": 0.008801789709172263,
+    "identiche_testo": 0.006898661066479994,
+    "identiche_rapporto": 0.04193777958519721,
+    "distanza_rapporto": 1.0018870640343163,
+    "grappolo_identiche": 1.2758692772919964,
+    "grappolo_distanza": 0.9974312487742072
+   },
+   "lingua": "Czech",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Danish": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.00038095238095238096,
+    "identiche_caso": 0.012152380952380953,
+    "identiche_testo": 0.012558945298176605,
+    "identiche_rapporto": 0.03134796238244514,
+    "distanza_rapporto": 1.00416619172753,
+    "grappolo_identiche": 0.9676275088279364,
+    "grappolo_distanza": 0.9994970873706094
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.00040268456375838925,
+    "identiche_caso": 0.0163069351230425,
+    "identiche_testo": 0.012558945298176605,
+    "identiche_rapporto": 0.024694067936124685,
+    "distanza_rapporto": 1.004479432818739,
+    "grappolo_identiche": 1.2984318934337626,
+    "grappolo_distanza": 0.9983719112328931
+   },
+   "lingua": "Danish",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Dinka-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.005714285714285714,
+    "identiche_caso": 0.014961904761904761,
+    "identiche_testo": 0.012311705945753747,
+    "identiche_rapporto": 0.38192234245703377,
+    "distanza_rapporto": 1.0128449063928435,
+    "grappolo_identiche": 1.2152584562876971,
+    "grappolo_distanza": 0.9985223734835801
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.005738255033557047,
+    "identiche_caso": 0.015517225950782998,
+    "identiche_testo": 0.012311705945753747,
+    "identiche_rapporto": 0.3697990254029584,
+    "distanza_rapporto": 1.0127982602458199,
+    "grappolo_identiche": 1.2603635937337199,
+    "grappolo_distanza": 0.998924884772853
+   },
+   "lingua": "Dinka",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Dutch": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0017142857142857142,
+    "identiche_caso": 0.008133333333333333,
+    "identiche_testo": 0.00868289831883285,
+    "identiche_rapporto": 0.2107728337236534,
+    "distanza_rapporto": 1.0069067357233719,
+    "grappolo_identiche": 0.9367071955331396,
+    "grappolo_distanza": 1.000730138506034
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0016442953020134228,
+    "identiche_caso": 0.011852348993288603,
+    "identiche_testo": 0.00868289831883285,
+    "identiche_rapporto": 0.13873159682899192,
+    "distanza_rapporto": 1.008122213366449,
+    "grappolo_identiche": 1.3650222031946804,
+    "grappolo_distanza": 0.9991451427647131
+   },
+   "lingua": "Dutch",
+   "tipo_scrittura": "alfabeto"
+  },
+  "English": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.00038095238095238096,
+    "identiche_caso": 0.012942857142857143,
+    "identiche_testo": 0.01362576308099159,
+    "identiche_rapporto": 0.029433406916850625,
+    "distanza_rapporto": 1.0047321636907125,
+    "grappolo_identiche": 0.9498812702029786,
+    "grappolo_distanza": 1.002466926754367
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0003691275167785235,
+    "identiche_caso": 0.017375838926174496,
+    "identiche_testo": 0.01362576308099159,
+    "identiche_rapporto": 0.021243723445345693,
+    "distanza_rapporto": 1.0064352110735837,
+    "grappolo_identiche": 1.2752195104885091,
+    "grappolo_distanza": 1.0006566621244382
+   },
+   "lingua": "English",
+   "tipo_scrittura": "alfabeto"
+  },
+  "English-WEB": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.001980952380952381,
+    "identiche_caso": 0.012561904761904762,
+    "identiche_testo": 0.011752713979354868,
+    "identiche_rapporto": 0.15769522365428354,
+    "distanza_rapporto": 1.004504588337692,
+    "grappolo_identiche": 1.0688513975556064,
+    "grappolo_distanza": 1.0009025913916552
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0018456375838926174,
+    "identiche_caso": 0.015803131991051458,
+    "identiche_testo": 0.011752713979354868,
+    "identiche_rapporto": 0.11678935447338616,
+    "distanza_rapporto": 1.0057329983545173,
+    "grappolo_identiche": 1.3446368233594097,
+    "grappolo_distanza": 1.0003909598939364
+   },
+   "lingua": "English",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Esperanto": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0004952380952380952,
+    "identiche_caso": 0.015657142857142856,
+    "identiche_testo": 0.017017816149427205,
+    "identiche_rapporto": 0.031630170316301706,
+    "distanza_rapporto": 1.012528773190824,
+    "grappolo_identiche": 0.9200441889642728,
+    "grappolo_distanza": 1.0005122203921215
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0005369127516778523,
+    "identiche_caso": 0.02069843400447428,
+    "identiche_testo": 0.017017816149427205,
+    "identiche_rapporto": 0.025939776485592606,
+    "distanza_rapporto": 1.01502653972535,
+    "grappolo_identiche": 1.21628026902682,
+    "grappolo_distanza": 0.9983349505929733
+   },
+   "lingua": "Esperanto",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Estonian-PART": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0009142857142857143,
+    "identiche_caso": 0.010371428571428571,
+    "identiche_testo": 0.009919666211095926,
+    "identiche_rapporto": 0.0881542699724518,
+    "distanza_rapporto": 1.0034507884255894,
+    "grappolo_identiche": 1.0455420929211623,
+    "grappolo_distanza": 0.9941154341193364
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0008389261744966443,
+    "identiche_caso": 0.013827293064876957,
+    "identiche_testo": 0.009919666211095926,
+    "identiche_rapporto": 0.060671757701268446,
+    "distanza_rapporto": 1.0001116904150305,
+    "grappolo_identiche": 1.39392725225069,
+    "grappolo_distanza": 0.9978464408926304
+   },
+   "lingua": "Estonian",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Ewe-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0026285714285714285,
+    "identiche_caso": 0.007161904761904762,
+    "identiche_testo": 0.008348527173127993,
+    "identiche_rapporto": 0.3670212765957447,
+    "distanza_rapporto": 1.009929430172973,
+    "grappolo_identiche": 0.8578644608066082,
+    "grappolo_distanza": 1.0011420672252904
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0025167785234899327,
+    "identiche_caso": 0.010460402684563764,
+    "identiche_testo": 0.008348527173127993,
+    "identiche_rapporto": 0.24060053894520708,
+    "distanza_rapporto": 1.0117317252688667,
+    "grappolo_identiche": 1.2529638423210046,
+    "grappolo_distanza": 0.998933455119282
+   },
+   "lingua": "Ewe",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Farsi": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0009142857142857143,
+    "identiche_caso": 0.007676190476190476,
+    "identiche_testo": 0.00941056924119693,
+    "identiche_rapporto": 0.11910669975186104,
+    "distanza_rapporto": 1.0068918382673806,
+    "grappolo_identiche": 0.8156988466315288,
+    "grappolo_distanza": 1.0017189034415153
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0010402684563758388,
+    "identiche_caso": 0.011914988814317667,
+    "identiche_testo": 0.00941056924119693,
+    "identiche_rapporto": 0.08730754787833275,
+    "distanza_rapporto": 1.009816780934287,
+    "grappolo_identiche": 1.2661283827716887,
+    "grappolo_distanza": 0.9985248135789841
+   },
+   "lingua": "Farsi (Persian)",
+   "tipo_scrittura": "abjad"
+  },
+  "Finnish": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.00045714285714285713,
+    "identiche_caso": 0.009580952380952381,
+    "identiche_testo": 0.010063899907774704,
+    "identiche_rapporto": 0.04771371769383698,
+    "distanza_rapporto": 1.0056271692081444,
+    "grappolo_identiche": 0.9520118908923936,
+    "grappolo_distanza": 0.9966780772106812
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.00040268456375838925,
+    "identiche_caso": 0.012570022371364654,
+    "identiche_testo": 0.010063899907774704,
+    "identiche_rapporto": 0.03203531003061152,
+    "distanza_rapporto": 1.0042033259294758,
+    "grappolo_identiche": 1.2490210044372447,
+    "grappolo_distanza": 0.9975388649802135
+   },
+   "lingua": "Finnish",
+   "tipo_scrittura": "alfabeto"
+  },
+  "French": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0018285714285714285,
+    "identiche_caso": 0.009647619047619047,
+    "identiche_testo": 0.008603873462448747,
+    "identiche_rapporto": 0.1895360315893386,
+    "distanza_rapporto": 1.0062945922632232,
+    "grappolo_identiche": 1.121311126869274,
+    "grappolo_distanza": 0.9981772926693765
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.00174496644295302,
+    "identiche_caso": 0.011733780760626405,
+    "identiche_testo": 0.008603873462448747,
+    "identiche_rapporto": 0.14871306005719725,
+    "distanza_rapporto": 1.006608763112828,
+    "grappolo_identiche": 1.3637788621413378,
+    "grappolo_distanza": 0.9976191605867906
+   },
+   "lingua": "French",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Galela-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.007009523809523809,
+    "identiche_caso": 0.016295238095238095,
+    "identiche_testo": 0.02212909541429159,
+    "identiche_rapporto": 0.4301578024547048,
+    "distanza_rapporto": 0.9999012159747295,
+    "grappolo_identiche": 0.7363716315631309,
+    "grappolo_distanza": 1.0024728902867133
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.007181208053691275,
+    "identiche_caso": 0.025505592841163303,
+    "identiche_testo": 0.02212909541429159,
+    "identiche_rapporto": 0.28155424962722575,
+    "distanza_rapporto": 1.0018049760084948,
+    "grappolo_identiche": 1.1525818097693716,
+    "grappolo_distanza": 0.9991022358117332
+   },
+   "lingua": "Galela",
+   "tipo_scrittura": "alfabeto"
+  },
+  "German": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0014476190476190476,
+    "identiche_caso": 0.01,
+    "identiche_testo": 0.010770076780337123,
+    "identiche_rapporto": 0.14476190476190476,
+    "distanza_rapporto": 1.0019105259660972,
+    "grappolo_identiche": 0.9284984874255447,
+    "grappolo_distanza": 0.9989821931097331
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0015436241610738255,
+    "identiche_caso": 0.01414586129753915,
+    "identiche_testo": 0.010770076780337123,
+    "identiche_rapporto": 0.10912196356275303,
+    "distanza_rapporto": 1.0024790944762227,
+    "grappolo_identiche": 1.3134410818096656,
+    "grappolo_distanza": 0.9989036816261107
+   },
+   "lingua": "German",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Greek": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.001142857142857143,
+    "identiche_caso": 0.011057142857142857,
+    "identiche_testo": 0.010432858873073547,
+    "identiche_rapporto": 0.103359173126615,
+    "distanza_rapporto": 0.9919481085592995,
+    "grappolo_identiche": 1.0598382467993066,
+    "grappolo_distanza": 0.99379827113394
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.001174496644295302,
+    "identiche_caso": 0.013468008948545862,
+    "identiche_testo": 0.010432858873073547,
+    "identiche_rapporto": 0.08720640510282049,
+    "distanza_rapporto": 0.9876039557086648,
+    "grappolo_identiche": 1.2909221827303556,
+    "grappolo_distanza": 0.9984360961380059
+   },
+   "lingua": "Greek",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Hebrew": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0011047619047619048,
+    "identiche_caso": 0.006380952380952381,
+    "identiche_testo": 0.0036970921252930653,
+    "identiche_rapporto": 0.17313432835820897,
+    "distanza_rapporto": 1.0052756253892914,
+    "grappolo_identiche": 1.725938160236288,
+    "grappolo_distanza": 0.9936549182970147
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0011409395973154361,
+    "identiche_caso": 0.00681565995525727,
+    "identiche_testo": 0.0036970921252930653,
+    "identiche_rapporto": 0.16739972428280706,
+    "distanza_rapporto": 1.0009307398406337,
+    "grappolo_identiche": 1.8435191021151518,
+    "grappolo_distanza": 0.9980244135145294
+   },
+   "lingua": "Hebrew",
+   "tipo_scrittura": "abjad"
+  },
+  "Hungarian": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.001219047619047619,
+    "identiche_caso": 0.013552380952380953,
+    "identiche_testo": 0.015069493427558697,
+    "identiche_rapporto": 0.08995080815179197,
+    "distanza_rapporto": 1.009981573721221,
+    "grappolo_identiche": 0.8993255823448393,
+    "grappolo_distanza": 0.999443930704634
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0011409395973154361,
+    "identiche_caso": 0.01763042505592842,
+    "identiche_testo": 0.015069493427558697,
+    "identiche_rapporto": 0.06471424220891277,
+    "distanza_rapporto": 1.0108135295836551,
+    "grappolo_identiche": 1.1699414542818247,
+    "grappolo_distanza": 0.9990374640396686
+   },
+   "lingua": "Hungarian",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Indonesian": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.029028571428571428,
+    "identiche_caso": 0.015419047619047619,
+    "identiche_testo": 0.00832082847206018,
+    "identiche_rapporto": 1.8826436071649166,
+    "distanza_rapporto": 0.9964004575617208,
+    "grappolo_identiche": 1.8530663948694486,
+    "grappolo_distanza": 0.998543918683475
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.02906040268456376,
+    "identiche_caso": 0.012711856823266221,
+    "identiche_testo": 0.00832082847206018,
+    "identiche_rapporto": 2.2860863749956,
+    "distanza_rapporto": 0.9967273594055618,
+    "grappolo_identiche": 1.5277152829132714,
+    "grappolo_distanza": 0.9993246571377633
+   },
+   "lingua": "Indonesian",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Italian": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0012952380952380952,
+    "identiche_caso": 0.007409523809523809,
+    "identiche_testo": 0.006720141782503861,
+    "identiche_rapporto": 0.17480719794344474,
+    "distanza_rapporto": 0.9988866307008678,
+    "grappolo_identiche": 1.1025844467768195,
+    "grappolo_distanza": 0.9973045052070272
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0014429530201342281,
+    "identiche_caso": 0.00915123042505593,
+    "identiche_testo": 0.006720141782503861,
+    "identiche_rapporto": 0.1576785801593898,
+    "distanza_rapporto": 0.9969376754123696,
+    "grappolo_identiche": 1.3617615105802527,
+    "grappolo_distanza": 0.998893204345788
+   },
+   "lingua": "Italian",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Jakalteko-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0014476190476190476,
+    "identiche_caso": 0.015276190476190476,
+    "identiche_testo": 0.011800573352445082,
+    "identiche_rapporto": 0.09476309226932668,
+    "distanza_rapporto": 1.0119275761983868,
+    "grappolo_identiche": 1.2945295130956704,
+    "grappolo_distanza": 1.0034162789538534
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0015771812080536912,
+    "identiche_caso": 0.018834451901565998,
+    "identiche_testo": 0.011800573352445082,
+    "identiche_rapporto": 0.08373916142059626,
+    "distanza_rapporto": 1.0157728882858061,
+    "grappolo_identiche": 1.5960624402765562,
+    "grappolo_distanza": 0.9994567445453583
+   },
+   "lingua": "Jakalteko",
+   "tipo_scrittura": "alfabeto"
+  },
+  "K'iche'-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0013714285714285714,
+    "identiche_caso": 0.025676190476190477,
+    "identiche_testo": 0.031225540851361713,
+    "identiche_rapporto": 0.05341246290801187,
+    "distanza_rapporto": 1.005748891058313,
+    "grappolo_identiche": 0.8222816891599418,
+    "grappolo_distanza": 1.0008756953496742
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0014429530201342281,
+    "identiche_caso": 0.034333780760626396,
+    "identiche_testo": 0.031225540851361713,
+    "identiche_rapporto": 0.042027210175145956,
+    "distanza_rapporto": 1.0078564247630057,
+    "grappolo_identiche": 1.0995415875760286,
+    "grappolo_distanza": 0.9992192194219737
+   },
+   "lingua": "K’iche’",
+   "tipo_scrittura": "alfabeto"
+  },
+  "K'iche'-NT-SIL": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0013333333333333333,
+    "identiche_caso": 0.022076190476190475,
+    "identiche_testo": 0.02708970076780337,
+    "identiche_rapporto": 0.060396893874029335,
+    "distanza_rapporto": 1.0018267662298452,
+    "grappolo_identiche": 0.8149292849490775,
+    "grappolo_distanza": 0.9993919652526314
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.001308724832214765,
+    "identiche_caso": 0.03110469798657719,
+    "identiche_testo": 0.02708970076780337,
+    "identiche_rapporto": 0.042074828464160864,
+    "distanza_rapporto": 1.0027835342171878,
+    "grappolo_identiche": 1.148211205918735,
+    "grappolo_distanza": 0.9981675967412651
+   },
+   "lingua": "K’iche’",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Kabyle-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0016380952380952382,
+    "identiche_caso": 0.010209523809523809,
+    "identiche_testo": 0.00962366967787815,
+    "identiche_rapporto": 0.16044776119402987,
+    "distanza_rapporto": 1.0062544275146994,
+    "grappolo_identiche": 1.06087637577507,
+    "grappolo_distanza": 0.9986477896575049
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0016442953020134228,
+    "identiche_caso": 0.012440715883668909,
+    "identiche_testo": 0.00962366967787815,
+    "identiche_rapporto": 0.13217047293652215,
+    "distanza_rapporto": 1.0064434970107727,
+    "grappolo_identiche": 1.2927205837359816,
+    "grappolo_distanza": 0.9994702949412747
+   },
+   "lingua": "Kabyle",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Latin": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0013333333333333333,
+    "identiche_caso": 0.0116,
+    "identiche_testo": 0.010991001922286298,
+    "identiche_rapporto": 0.11494252873563218,
+    "distanza_rapporto": 1.002684148750594,
+    "grappolo_identiche": 1.0554087863890593,
+    "grappolo_distanza": 0.9971400296847429
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0012416107382550335,
+    "identiche_caso": 0.014714093959731549,
+    "identiche_testo": 0.010991001922286298,
+    "identiche_rapporto": 0.08438241196861883,
+    "distanza_rapporto": 1.0025429488561366,
+    "grappolo_identiche": 1.338740004211626,
+    "grappolo_distanza": 0.9978002218023756
+   },
+   "lingua": "Latin",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Latvian-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.00045714285714285713,
+    "identiche_caso": 0.00940952380952381,
+    "identiche_testo": 0.010414731602164516,
+    "identiche_rapporto": 0.048582995951417,
+    "distanza_rapporto": 1.0039982944911143,
+    "grappolo_identiche": 0.9034821221478438,
+    "grappolo_distanza": 0.9958568393741657
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.00040268456375838925,
+    "identiche_caso": 0.013174944071588368,
+    "identiche_testo": 0.010414731602164516,
+    "identiche_rapporto": 0.030564423011614477,
+    "distanza_rapporto": 1.002606013191086,
+    "grappolo_identiche": 1.2650296306099902,
+    "grappolo_distanza": 0.9971000474747089
+   },
+   "lingua": "Latvian",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Lithuanian": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0004952380952380952,
+    "identiche_caso": 0.00499047619047619,
+    "identiche_testo": 0.005535322288520729,
+    "identiche_rapporto": 0.09923664122137406,
+    "distanza_rapporto": 1.0040178440509377,
+    "grappolo_identiche": 0.9015692186208467,
+    "grappolo_distanza": 0.9949687603745144
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.000436241610738255,
+    "identiche_caso": 0.007432662192393736,
+    "identiche_testo": 0.005535322288520729,
+    "identiche_rapporto": 0.05869251143751505,
+    "distanza_rapporto": 1.0010210194918754,
+    "grappolo_identiche": 1.34276954529057,
+    "grappolo_distanza": 0.998002699947582
+   },
+   "lingua": "Lithuanian",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Lukpa-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.002514285714285714,
+    "identiche_caso": 0.01360952380952381,
+    "identiche_testo": 0.012981612720424014,
+    "identiche_rapporto": 0.18474457662701188,
+    "distanza_rapporto": 1.0025394618187489,
+    "grappolo_identiche": 1.0483692667947104,
+    "grappolo_distanza": 0.9989951737508613
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0023825503355704696,
+    "identiche_caso": 0.01643758389261745,
+    "identiche_testo": 0.012981612720424014,
+    "identiche_rapporto": 0.14494528825739014,
+    "distanza_rapporto": 1.0036560695350267,
+    "grappolo_identiche": 1.2662204801993628,
+    "grappolo_distanza": 0.9984186386846606
+   },
+   "lingua": "Lukpa",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Malagasy": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0002666666666666667,
+    "identiche_caso": 0.01479047619047619,
+    "identiche_testo": 0.01738851739502428,
+    "identiche_rapporto": 0.0180296200901481,
+    "distanza_rapporto": 1.0104470005400379,
+    "grappolo_identiche": 0.8505886876076325,
+    "grappolo_distanza": 1.003077822584642
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0003355704697986577,
+    "identiche_caso": 0.020854586129753907,
+    "identiche_testo": 0.01738851739502428,
+    "identiche_rapporto": 0.016090967603518563,
+    "distanza_rapporto": 1.0137758773215326,
+    "grappolo_identiche": 1.1993308949802381,
+    "grappolo_distanza": 0.9999567549660644
+   },
+   "lingua": "Malagasy",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Mam-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0005714285714285715,
+    "identiche_caso": 0.0068,
+    "identiche_testo": 0.006579528206495772,
+    "identiche_rapporto": 0.08403361344537816,
+    "distanza_rapporto": 1.0011196906590552,
+    "grappolo_identiche": 1.0335087542122796,
+    "grappolo_distanza": 0.9989950261360284
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0006711409395973154,
+    "identiche_caso": 0.009538255033557045,
+    "identiche_testo": 0.006579528206495772,
+    "identiche_rapporto": 0.0703630734590487,
+    "distanza_rapporto": 1.0008109680178314,
+    "grappolo_identiche": 1.4496867760427274,
+    "grappolo_distanza": 0.9983671494202528
+   },
+   "lingua": "Mam",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Manx-PART": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0014095238095238095,
+    "identiche_caso": 0.010619047619047618,
+    "identiche_testo": 0.01174000022222963,
+    "identiche_rapporto": 0.13273542600896862,
+    "distanza_rapporto": 1.009958781723357,
+    "grappolo_identiche": 0.9045185194239185,
+    "grappolo_distanza": 1.0028473184143958
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0014093959731543624,
+    "identiche_caso": 0.014985234899328861,
+    "identiche_testo": 0.01174000022222963,
+    "identiche_rapporto": 0.09405231099964169,
+    "distanza_rapporto": 1.0131315184063128,
+    "grappolo_identiche": 1.27642543574696,
+    "grappolo_distanza": 1.0000543416993888
+   },
+   "lingua": "Manx",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Maori": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0009523809523809524,
+    "identiche_caso": 0.022466666666666666,
+    "identiche_testo": 0.023081676055868527,
+    "identiche_rapporto": 0.0423908435777872,
+    "distanza_rapporto": 1.0108976746556089,
+    "grappolo_identiche": 0.9733550809866125,
+    "grappolo_distanza": 1.0011342697623624
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0009395973154362416,
+    "identiche_caso": 0.027040715883668895,
+    "identiche_testo": 0.023081676055868527,
+    "identiche_rapporto": 0.03474750148917865,
+    "distanza_rapporto": 1.011535349736681,
+    "grappolo_identiche": 1.1715230652322486,
+    "grappolo_distanza": 1.0008983917369594
+   },
+   "lingua": "Maori",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Nahuatl-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0013714285714285714,
+    "identiche_caso": 0.011828571428571428,
+    "identiche_testo": 0.014701625609742548,
+    "identiche_rapporto": 0.11594202898550725,
+    "distanza_rapporto": 1.0077196620381927,
+    "grappolo_identiche": 0.8045757484623204,
+    "grappolo_distanza": 0.9998310852735436
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.001308724832214765,
+    "identiche_caso": 0.018022818791946296,
+    "identiche_testo": 0.014701625609742548,
+    "identiche_rapporto": 0.07261488046473528,
+    "distanza_rapporto": 1.0092681677402888,
+    "grappolo_identiche": 1.2259065269627627,
+    "grappolo_distanza": 0.99857622910613
+   },
+   "lingua": "Nahuatl (Tetelcingo)",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Norwegian": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0015238095238095239,
+    "identiche_caso": 0.011942857142857142,
+    "identiche_testo": 0.012603395668744515,
+    "identiche_rapporto": 0.12759170653907498,
+    "distanza_rapporto": 1.0047351476711277,
+    "grappolo_identiche": 0.9475904317179014,
+    "grappolo_distanza": 0.9986853747590271
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0013758389261744966,
+    "identiche_caso": 0.016292170022371367,
+    "identiche_testo": 0.012603395668744515,
+    "identiche_rapporto": 0.08444786202729793,
+    "distanza_rapporto": 1.0053537176822098,
+    "grappolo_identiche": 1.2926809925339993,
+    "grappolo_distanza": 0.998932364212663
+   },
+   "lingua": "Norwegian",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Paite": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.007161904761904762,
+    "identiche_caso": 0.031752380952380956,
+    "identiche_testo": 0.03259318199495539,
+    "identiche_rapporto": 0.22555488902219553,
+    "distanza_rapporto": 1.0075210572465954,
+    "grappolo_identiche": 0.9742031617930226,
+    "grappolo_distanza": 1.0008389825453967
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.007013422818791947,
+    "identiche_caso": 0.03767248322147653,
+    "identiche_testo": 0.03259318199495539,
+    "identiche_rapporto": 0.18616831753723356,
+    "distanza_rapporto": 1.0094616787753314,
+    "grappolo_identiche": 1.1558393785334398,
+    "grappolo_distanza": 0.9996462882556264
+   },
+   "lingua": "Paite (Chin)",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Polish": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.00034285714285714285,
+    "identiche_caso": 0.0074476190476190475,
+    "identiche_testo": 0.00708615620520684,
+    "identiche_rapporto": 0.04603580562659847,
+    "distanza_rapporto": 1.003318659763522,
+    "grappolo_identiche": 1.0510097197894972,
+    "grappolo_distanza": 0.9974617032860627
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.00040268456375838925,
+    "identiche_caso": 0.009304250559284117,
+    "identiche_testo": 0.00708615620520684,
+    "identiche_rapporto": 0.04327963452753065,
+    "distanza_rapporto": 1.0022556082440346,
+    "grappolo_identiche": 1.3130179874453576,
+    "grappolo_distanza": 0.999175833853576
+   },
+   "lingua": "Polish",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Portuguese": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0005333333333333334,
+    "identiche_caso": 0.009504761904761905,
+    "identiche_testo": 0.009921712945987088,
+    "identiche_rapporto": 0.056112224448897796,
+    "distanza_rapporto": 1.0011591423135817,
+    "grappolo_identiche": 0.957975901591285,
+    "grappolo_distanza": 0.9962948322493533
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0005704697986577181,
+    "identiche_caso": 0.012407158836689035,
+    "identiche_testo": 0.009921712945987088,
+    "identiche_rapporto": 0.045979084024522186,
+    "distanza_rapporto": 0.9985144165223175,
+    "grappolo_identiche": 1.2505057245893416,
+    "grappolo_distanza": 0.9985803949208961
+   },
+   "lingua": "Portuguese",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Potawatomi-PART": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0033904761904761903,
+    "identiche_caso": 0.011485714285714285,
+    "identiche_testo": 0.010422571863506562,
+    "identiche_rapporto": 0.29519071310116085,
+    "distanza_rapporto": 1.0134706574718446,
+    "grappolo_identiche": 1.1020038466638158,
+    "grappolo_distanza": 1.0012875261850598
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0031879194630872482,
+    "identiche_caso": 0.013663534675615204,
+    "identiche_testo": 0.010422571863506562,
+    "identiche_rapporto": 0.23331586875368407,
+    "distanza_rapporto": 1.0161150466468463,
+    "grappolo_identiche": 1.3109561492645114,
+    "grappolo_distanza": 0.9984083006305684
+   },
+   "lingua": "Potawatomi",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Q'eqchi'": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0010666666666666667,
+    "identiche_caso": 0.013352380952380952,
+    "identiche_testo": 0.017291167483360556,
+    "identiche_rapporto": 0.07988587731811699,
+    "distanza_rapporto": 1.0000720838940396,
+    "grappolo_identiche": 0.7722081788421786,
+    "grappolo_distanza": 0.9974137806015391
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0010738255033557046,
+    "identiche_caso": 0.021377628635346767,
+    "identiche_testo": 0.017291167483360556,
+    "identiche_rapporto": 0.05023127315347744,
+    "distanza_rapporto": 1.0002560071166036,
+    "grappolo_identiche": 1.2363322867538382,
+    "grappolo_distanza": 0.9974601058500178
+   },
+   "lingua": "Q’eqchi’",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Quichua-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0010666666666666667,
+    "identiche_caso": 0.007323809523809524,
+    "identiche_testo": 0.002918797293243108,
+    "identiche_rapporto": 0.14564369310793238,
+    "distanza_rapporto": 1.0094758248291071,
+    "grappolo_identiche": 2.5091874453782155,
+    "grappolo_distanza": 0.9940792639650798
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0011409395973154361,
+    "identiche_caso": 0.006535123042505591,
+    "identiche_testo": 0.002918797293243108,
+    "identiche_rapporto": 0.17458578666301522,
+    "distanza_rapporto": 1.0062721031744777,
+    "grappolo_identiche": 2.2389780399050405,
+    "grappolo_distanza": 0.9980577031753226
+   },
+   "lingua": "Quichua",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Romani-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0017904761904761904,
+    "identiche_caso": 0.011933333333333334,
+    "identiche_testo": 0.011247439359089747,
+    "identiche_rapporto": 0.15003990422984836,
+    "distanza_rapporto": 1.0044031963756765,
+    "grappolo_identiche": 1.060982233586285,
+    "grappolo_distanza": 0.9982939933354158
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.001912751677852349,
+    "identiche_caso": 0.015237583892617448,
+    "identiche_testo": 0.011247439359089747,
+    "identiche_rapporto": 0.12552854122621565,
+    "distanza_rapporto": 1.0042211139891897,
+    "grappolo_identiche": 1.3547602619704742,
+    "grappolo_distanza": 0.998033313618916
+   },
+   "lingua": "Romani",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Romanian": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0017142857142857142,
+    "identiche_caso": 0.009885714285714286,
+    "identiche_testo": 0.00914968498949965,
+    "identiche_rapporto": 0.17341040462427745,
+    "distanza_rapporto": 1.0026999093774789,
+    "grappolo_identiche": 1.0804431296879966,
+    "grappolo_distanza": 0.998887820038483
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0017114093959731543,
+    "identiche_caso": 0.01252348993288591,
+    "identiche_testo": 0.00914968498949965,
+    "identiche_rapporto": 0.13665594855305463,
+    "distanza_rapporto": 1.0021647384987205,
+    "grappolo_identiche": 1.3687345462994738,
+    "grappolo_distanza": 0.9994854587106923
+   },
+   "lingua": "Romanian",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Russian": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.00045714285714285713,
+    "identiche_caso": 0.009333333333333334,
+    "identiche_testo": 0.00925456181872729,
+    "identiche_rapporto": 0.04897959183673469,
+    "distanza_rapporto": 1.0030270311304375,
+    "grappolo_identiche": 1.0085116417339872,
+    "grappolo_distanza": 0.9962358425747159
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.00040268456375838925,
+    "identiche_caso": 0.011450111856823266,
+    "identiche_testo": 0.00925456181872729,
+    "identiche_rapporto": 0.03516861396584737,
+    "distanza_rapporto": 1.001538780266149,
+    "grappolo_identiche": 1.2372397614388524,
+    "grappolo_distanza": 0.9978509983276275
+   },
+   "lingua": "Russian",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Serbian": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0005333333333333334,
+    "identiche_caso": 0.01060952380952381,
+    "identiche_testo": 0.010752589530762137,
+    "identiche_rapporto": 0.05026929982046679,
+    "distanza_rapporto": 1.0004825303185085,
+    "grappolo_identiche": 0.9866947658674192,
+    "grappolo_distanza": 0.9960091357575009
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0004697986577181208,
+    "identiche_caso": 0.013471588366890384,
+    "identiche_testo": 0.010752589530762137,
+    "identiche_rapporto": 0.034873293699558265,
+    "distanza_rapporto": 0.9977139484680214,
+    "grappolo_identiche": 1.252869211490818,
+    "grappolo_distanza": 0.9983487953886183
+   },
+   "lingua": "Serbian",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Shona": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0022095238095238097,
+    "identiche_caso": 0.006533333333333334,
+    "identiche_testo": 0.002350407235796749,
+    "identiche_rapporto": 0.33819241982507287,
+    "distanza_rapporto": 0.9941376380619461,
+    "grappolo_identiche": 2.7796601515816226,
+    "grappolo_distanza": 0.9859391864950403
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0022483221476510065,
+    "identiche_caso": 0.0054514541387024615,
+    "identiche_testo": 0.002350407235796749,
+    "identiche_rapporto": 0.4124261326329612,
+    "distanza_rapporto": 0.98474099246128,
+    "grappolo_identiche": 2.319365791458053,
+    "grappolo_distanza": 0.9958370682582572
+   },
+   "lingua": "Shona",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Shuar-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0013333333333333333,
+    "identiche_caso": 0.006314285714285714,
+    "identiche_testo": 0.003966770003444559,
+    "identiche_rapporto": 0.21116138763197587,
+    "distanza_rapporto": 1.0082170169048936,
+    "grappolo_identiche": 1.5917952663760895,
+    "grappolo_distanza": 0.9969257060050835
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0013422818791946308,
+    "identiche_caso": 0.007065771812080538,
+    "identiche_testo": 0.003966770003444559,
+    "identiche_rapporto": 0.18996960486322187,
+    "distanza_rapporto": 1.0077863791480033,
+    "grappolo_identiche": 1.7812406078358334,
+    "grappolo_distanza": 0.9968251302692299
+   },
+   "lingua": "Shuar (Jivaro)",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Slovak": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.000419047619047619,
+    "identiche_caso": 0.010047619047619048,
+    "identiche_testo": 0.011012718201717835,
+    "identiche_rapporto": 0.04170616113744075,
+    "distanza_rapporto": 1.0040306989265526,
+    "grappolo_identiche": 0.912365036821859,
+    "grappolo_distanza": 0.996768813400455
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.00040268456375838925,
+    "identiche_caso": 0.013294854586129752,
+    "identiche_testo": 0.011012718201717835,
+    "identiche_rapporto": 0.030288752776469006,
+    "distanza_rapporto": 1.0031019230748286,
+    "grappolo_identiche": 1.2072273477456215,
+    "grappolo_distanza": 0.9983710834331828
+   },
+   "lingua": "Slovak",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Slovene": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0004952380952380952,
+    "identiche_caso": 0.010333333333333333,
+    "identiche_testo": 0.010495540962476527,
+    "identiche_rapporto": 0.047926267281105994,
+    "distanza_rapporto": 1.0014962833539605,
+    "grappolo_identiche": 0.9845450911274497,
+    "grappolo_distanza": 0.997375613268737
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0004697986577181208,
+    "identiche_caso": 0.013501118568232667,
+    "identiche_testo": 0.010495540962476527,
+    "identiche_rapporto": 0.034797017398508684,
+    "distanza_rapporto": 0.9996902999021421,
+    "grappolo_identiche": 1.286367097846755,
+    "grappolo_distanza": 0.9996130036023573
+   },
+   "lingua": "Slovene",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Somali": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0009523809523809524,
+    "identiche_caso": 0.0078,
+    "identiche_testo": 0.007452850650577242,
+    "identiche_rapporto": 0.12210012210012211,
+    "distanza_rapporto": 1.013090611418358,
+    "grappolo_identiche": 1.0465794050758108,
+    "grappolo_distanza": 1.0007498032590678
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0008389261744966443,
+    "identiche_caso": 0.010046979865771811,
+    "identiche_testo": 0.007452850650577242,
+    "identiche_rapporto": 0.08350033400133601,
+    "distanza_rapporto": 1.014643453147474,
+    "grappolo_identiche": 1.348072078298476,
+    "grappolo_distanza": 0.9989593613143288
+   },
+   "lingua": "Somali",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Spanish": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0016380952380952382,
+    "identiche_caso": 0.011142857142857144,
+    "identiche_testo": 0.010876738113492672,
+    "identiche_rapporto": 0.147008547008547,
+    "distanza_rapporto": 0.9988400215655419,
+    "grappolo_identiche": 1.0244668048993797,
+    "grappolo_distanza": 0.9963468789859035
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.001610738255033557,
+    "identiche_caso": 0.01379507829977628,
+    "identiche_testo": 0.010876738113492672,
+    "identiche_rapporto": 0.11676180591593155,
+    "distanza_rapporto": 0.997868097144781,
+    "grappolo_identiche": 1.2683102374841027,
+    "grappolo_distanza": 0.9976061423995175
+   },
+   "lingua": "Spanish",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Swahili-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0018285714285714285,
+    "identiche_caso": 0.008980952380952381,
+    "identiche_testo": 0.006636241208040268,
+    "identiche_rapporto": 0.2036055143160127,
+    "distanza_rapporto": 1.0024732167870167,
+    "grappolo_identiche": 1.353319160562056,
+    "grappolo_distanza": 0.9950738604985534
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.001912751677852349,
+    "identiche_caso": 0.009692170022371367,
+    "identiche_testo": 0.006636241208040268,
+    "identiche_rapporto": 0.1973501985042932,
+    "distanza_rapporto": 1.0008666900843883,
+    "grappolo_identiche": 1.460490919261438,
+    "grappolo_distanza": 0.9970840264446202
+   },
+   "lingua": "Swahili",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Swedish": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0014095238095238095,
+    "identiche_caso": 0.00938095238095238,
+    "identiche_testo": 0.009765805526850895,
+    "identiche_rapporto": 0.150253807106599,
+    "distanza_rapporto": 1.0048129528580394,
+    "grappolo_identiche": 0.9605917663586103,
+    "grappolo_distanza": 0.9995323537281448
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0014093959731543624,
+    "identiche_caso": 0.012638031319910521,
+    "identiche_testo": 0.009765805526850895,
+    "identiche_rapporto": 0.111520215251717,
+    "distanza_rapporto": 1.0065303346254555,
+    "grappolo_identiche": 1.2941104842977362,
+    "grappolo_distanza": 0.9981943339138324
+   },
+   "lingua": "Swedish",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Syriac-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0018666666666666666,
+    "identiche_caso": 0.007247619047619048,
+    "identiche_testo": 0.0034361323155216285,
+    "identiche_rapporto": 0.25755584756898814,
+    "distanza_rapporto": 1.007931347337363,
+    "grappolo_identiche": 2.109237474610697,
+    "grappolo_distanza": 0.9923533562820903
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0016778523489932886,
+    "identiche_caso": 0.007107829977628634,
+    "identiche_testo": 0.0034361323155216285,
+    "identiche_rapporto": 0.23605690545134084,
+    "distanza_rapporto": 1.0051980679219423,
+    "grappolo_identiche": 2.068555377079423,
+    "grappolo_distanza": 0.9953729316733947
+   },
+   "lingua": "Syriac",
+   "tipo_scrittura": "abjad"
+  },
+  "Tachelhit-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.001257142857142857,
+    "identiche_caso": 0.009304761904761904,
+    "identiche_testo": 0.007934788937409025,
+    "identiche_rapporto": 0.13510747185261002,
+    "distanza_rapporto": 1.00880638268555,
+    "grappolo_identiche": 1.172653989685102,
+    "grappolo_distanza": 0.9993694279648241
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0012751677852348992,
+    "identiche_caso": 0.010790156599552573,
+    "identiche_testo": 0.007934788937409025,
+    "identiche_rapporto": 0.11817880245480178,
+    "distanza_rapporto": 1.0099058038943918,
+    "grappolo_identiche": 1.3598542676644807,
+    "grappolo_distanza": 0.9985641958486957
+   },
+   "lingua": "Tachelhit",
+   "tipo_scrittura": "abjad"
+  },
+  "Tagalog": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0004952380952380952,
+    "identiche_caso": 0.014247619047619047,
+    "identiche_testo": 0.02005807304687934,
+    "identiche_rapporto": 0.034759358288770054,
+    "distanza_rapporto": 1.006527801868913,
+    "grappolo_identiche": 0.7103184345933823,
+    "grappolo_distanza": 1.0010430085307596
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0006375838926174496,
+    "identiche_caso": 0.023084116331096204,
+    "identiche_testo": 0.02005807304687934,
+    "identiche_rapporto": 0.02762002597251564,
+    "distanza_rapporto": 1.0078551227007257,
+    "grappolo_identiche": 1.150864107292084,
+    "grappolo_distanza": 0.9989956516417792
+   },
+   "lingua": "Tagalog",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Tuareg-PART": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.002819047619047619,
+    "identiche_caso": 0.009085714285714286,
+    "identiche_testo": 0.00683288998522173,
+    "identiche_rapporto": 0.31027253668763105,
+    "distanza_rapporto": 1.0061722946127132,
+    "grappolo_identiche": 1.3297029961502373,
+    "grappolo_distanza": 0.9974629768745641
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0027181208053691274,
+    "identiche_caso": 0.011230872483221476,
+    "identiche_testo": 0.00683288998522173,
+    "identiche_rapporto": 0.24202223019003227,
+    "distanza_rapporto": 1.0062179356947378,
+    "grappolo_identiche": 1.643648954909528,
+    "grappolo_distanza": 0.9968489911610555
+   },
+   "lingua": "Tamajaq (Tuareg)",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Turkish": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0009523809523809524,
+    "identiche_caso": 0.004980952380952381,
+    "identiche_testo": 0.001988212940431348,
+    "identiche_rapporto": 0.19120458891013384,
+    "distanza_rapporto": 1.0039121756335818,
+    "grappolo_identiche": 2.5052409023511086,
+    "grappolo_distanza": 0.9966302431737548
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.001174496644295302,
+    "identiche_caso": 0.004668903803131993,
+    "identiche_testo": 0.001988212940431348,
+    "identiche_rapporto": 0.2515572592237661,
+    "distanza_rapporto": 1.0026666923865368,
+    "grappolo_identiche": 2.3482916282191897,
+    "grappolo_distanza": 0.997392404638729
+   },
+   "lingua": "Turkish",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Ukranian-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.00045714285714285713,
+    "identiche_caso": 0.007019047619047619,
+    "identiche_testo": 0.006632103292331966,
+    "identiche_rapporto": 0.06512890094979647,
+    "distanza_rapporto": 1.0063192912506485,
+    "grappolo_identiche": 1.0583441345316558,
+    "grappolo_distanza": 0.996416005463713
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.00040268456375838925,
+    "identiche_caso": 0.009097986577181204,
+    "identiche_testo": 0.006632103292331966,
+    "identiche_rapporto": 0.04426084390675717,
+    "distanza_rapporto": 1.0055008913196748,
+    "grappolo_identiche": 1.37181014470934,
+    "grappolo_distanza": 0.9973288975737665
+   },
+   "lingua": "Ukranian",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Uma-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.005752380952380952,
+    "identiche_caso": 0.011933333333333334,
+    "identiche_testo": 0.010725853083991689,
+    "identiche_rapporto": 0.4820430965682362,
+    "distanza_rapporto": 0.9987889173655539,
+    "grappolo_identiche": 1.112576616506505,
+    "grappolo_distanza": 0.9968547865121815
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.006006711409395973,
+    "identiche_caso": 0.014774049217002247,
+    "identiche_testo": 0.010725853083991689,
+    "identiche_rapporto": 0.40657177468201067,
+    "distanza_rapporto": 0.9980349006885945,
+    "grappolo_identiche": 1.3774241639625366,
+    "grappolo_distanza": 0.9983730465298062
+   },
+   "lingua": "Uma",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Uspanteco-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0018666666666666666,
+    "identiche_caso": 0.009371428571428572,
+    "identiche_testo": 0.009289851883951688,
+    "identiche_rapporto": 0.19918699186991867,
+    "distanza_rapporto": 1.0063394152855307,
+    "grappolo_identiche": 1.0087812689046,
+    "grappolo_distanza": 0.996586251686656
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0018456375838926174,
+    "identiche_caso": 0.013428187919463088,
+    "identiche_testo": 0.009289851883951688,
+    "identiche_rapporto": 0.1374450219912035,
+    "distanza_rapporto": 1.005454877264481,
+    "grappolo_identiche": 1.4454684624908194,
+    "grappolo_distanza": 0.9981167674215777
+   },
+   "lingua": "Uspanteco",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Vietnamese": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.001676190476190476,
+    "identiche_caso": 0.006514285714285715,
+    "identiche_testo": 0.005453199551096148,
+    "identiche_rapporto": 0.2573099415204678,
+    "distanza_rapporto": 1.0022570198022462,
+    "grappolo_identiche": 1.1945804757825667,
+    "grappolo_distanza": 1.0001355752720114
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0016442953020134228,
+    "identiche_caso": 0.009262192393736022,
+    "identiche_testo": 0.005453199551096148,
+    "identiche_rapporto": 0.17752765566880818,
+    "distanza_rapporto": 1.0023091486973104,
+    "grappolo_identiche": 1.698487705602893,
+    "grappolo_distanza": 0.9997636934491668
+   },
+   "lingua": "Vietnamese",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Wolof-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0029714285714285715,
+    "identiche_caso": 0.008095238095238095,
+    "identiche_testo": 0.006652417302798982,
+    "identiche_rapporto": 0.3670588235294118,
+    "distanza_rapporto": 1.0061402117082217,
+    "grappolo_identiche": 1.2168866934778806,
+    "grappolo_distanza": 0.9969573632863497
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0030201342281879194,
+    "identiche_caso": 0.009652348993288592,
+    "identiche_testo": 0.006652417302798982,
+    "identiche_rapporto": 0.3128911138923654,
+    "distanza_rapporto": 1.005958457693454,
+    "grappolo_identiche": 1.450953623914633,
+    "grappolo_distanza": 0.9976913210501297
+   },
+   "lingua": "Wolof",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Xhosa": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0015238095238095239,
+    "identiche_caso": 0.004238095238095238,
+    "identiche_testo": 0.0025282887207351357,
+    "identiche_rapporto": 0.35955056179775285,
+    "distanza_rapporto": 0.994492983615062,
+    "grappolo_identiche": 1.6762702785237882,
+    "grappolo_distanza": 0.9876194258739025
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0014093959731543624,
+    "identiche_caso": 0.004404474272930649,
+    "identiche_testo": 0.0025282887207351357,
+    "identiche_rapporto": 0.31999187322226735,
+    "distanza_rapporto": 0.9850861738180902,
+    "grappolo_identiche": 1.7420772543928391,
+    "grappolo_distanza": 0.9966165222748038
+   },
+   "lingua": "Xhosa",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Zarma": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.0029333333333333334,
+    "identiche_caso": 0.013771428571428572,
+    "identiche_testo": 0.012889122970765693,
+    "identiche_rapporto": 0.21300138312586445,
+    "distanza_rapporto": 1.0078432435315254,
+    "grappolo_identiche": 1.06845350165904,
+    "grappolo_distanza": 1.0015880939689923
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.002953020134228188,
+    "identiche_caso": 0.017434451901566,
+    "identiche_testo": 0.012889122970765693,
+    "identiche_rapporto": 0.16937843247959755,
+    "distanza_rapporto": 1.0090406815070974,
+    "grappolo_identiche": 1.3526484262047727,
+    "grappolo_distanza": 1.0001260789442834
+   },
+   "lingua": "Zarma",
+   "tipo_scrittura": "alfabeto"
+  },
+  "Zulu-NT": {
+   "parole": 30000,
+   "blocco_8": {
+    "coppie": 26250,
+    "identiche_vicine": 0.001180952380952381,
+    "identiche_caso": 0.0041523809523809525,
+    "identiche_testo": 0.0018262164294365368,
+    "identiche_rapporto": 0.28440366972477066,
+    "distanza_rapporto": 0.994830335407766,
+    "grappolo_identiche": 2.2737616886198606,
+    "grappolo_distanza": 0.9858516322065918
+   },
+   "blocco_150": {
+    "coppie": 29800,
+    "identiche_vicine": 0.0011409395973154361,
+    "identiche_caso": 0.003942729306487697,
+    "identiche_testo": 0.0018262164294365368,
+    "identiche_rapporto": 0.2893781207444393,
+    "distanza_rapporto": 0.9845582884604046,
+    "grappolo_identiche": 2.1589605935722482,
+    "grappolo_distanza": 0.996561364591111
+   },
+   "lingua": "Zulu",
+   "tipo_scrittura": "alfabeto"
+  }
+ }
+}

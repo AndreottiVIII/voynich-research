@@ -1,0 +1,1186 @@
+{
+ "bersaglio_vocabolario": {
+  "tipi_su_parole": 0.20976666666666666,
+  "hapax": 0.679485142221516
+ },
+ "taratura": [
+  {
+   "lam": 0.8,
+   "tau": 1.0,
+   "lontano": 0.05,
+   "preferenza": 0.0,
+   "tipi_su_parole": 0.17573333333333332,
+   "hapax": 0.4834977238239757,
+   "tarato": false
+  },
+  {
+   "lam": 0.8,
+   "tau": 1.0,
+   "lontano": 0.05,
+   "preferenza": 0.5,
+   "tipi_su_parole": 0.013666666666666667,
+   "hapax": 0.4560975609756098,
+   "tarato": false
+  },
+  {
+   "lam": 0.8,
+   "tau": 1.0,
+   "lontano": 0.05,
+   "preferenza": 1.0,
+   "tipi_su_parole": 0.011566666666666666,
+   "hapax": 0.45244956772334294,
+   "tarato": false
+  },
+  {
+   "lam": 0.8,
+   "tau": 1.0,
+   "lontano": 0.05,
+   "preferenza": 1.5,
+   "tipi_su_parole": 0.0106,
+   "hapax": 0.4276729559748428,
+   "tarato": false
+  },
+  {
+   "lam": 0.8,
+   "tau": 1.0,
+   "lontano": 0.2,
+   "preferenza": 0.0,
+   "tipi_su_parole": 0.16876666666666668,
+   "hapax": 0.4564487458028837,
+   "tarato": false
+  },
+  {
+   "lam": 0.8,
+   "tau": 1.0,
+   "lontano": 0.2,
+   "preferenza": 0.5,
+   "tipi_su_parole": 0.0223,
+   "hapax": 0.45739910313901344,
+   "tarato": false
+  },
+  {
+   "lam": 0.8,
+   "tau": 1.0,
+   "lontano": 0.2,
+   "preferenza": 1.0,
+   "tipi_su_parole": 0.018733333333333334,
+   "hapax": 0.4412811387900356,
+   "tarato": false
+  },
+  {
+   "lam": 0.8,
+   "tau": 1.0,
+   "lontano": 0.2,
+   "preferenza": 1.5,
+   "tipi_su_parole": 0.0178,
+   "hapax": 0.44569288389513106,
+   "tarato": false
+  },
+  {
+   "lam": 0.8,
+   "tau": 2.0,
+   "lontano": 0.05,
+   "preferenza": 0.0,
+   "tipi_su_parole": 0.11543333333333333,
+   "hapax": 0.44441235922610456,
+   "tarato": false
+  },
+  {
+   "lam": 0.8,
+   "tau": 2.0,
+   "lontano": 0.05,
+   "preferenza": 0.5,
+   "tipi_su_parole": 0.012233333333333334,
+   "hapax": 0.3814713896457766,
+   "tarato": false
+  },
+  {
+   "lam": 0.8,
+   "tau": 2.0,
+   "lontano": 0.05,
+   "preferenza": 1.0,
+   "tipi_su_parole": 0.0109,
+   "hapax": 0.4434250764525994,
+   "tarato": false
+  },
+  {
+   "lam": 0.8,
+   "tau": 2.0,
+   "lontano": 0.05,
+   "preferenza": 1.5,
+   "tipi_su_parole": 0.009,
+   "hapax": 0.36666666666666664,
+   "tarato": false
+  },
+  {
+   "lam": 0.8,
+   "tau": 2.0,
+   "lontano": 0.2,
+   "preferenza": 0.0,
+   "tipi_su_parole": 0.21703333333333333,
+   "hapax": 0.4830287206266319,
+   "tarato": false
+  },
+  {
+   "lam": 0.8,
+   "tau": 2.0,
+   "lontano": 0.2,
+   "preferenza": 0.5,
+   "tipi_su_parole": 0.0158,
+   "hapax": 0.4578059071729958,
+   "tarato": false
+  },
+  {
+   "lam": 0.8,
+   "tau": 2.0,
+   "lontano": 0.2,
+   "preferenza": 1.0,
+   "tipi_su_parole": 0.0172,
+   "hapax": 0.43410852713178294,
+   "tarato": false
+  },
+  {
+   "lam": 0.8,
+   "tau": 2.0,
+   "lontano": 0.2,
+   "preferenza": 1.5,
+   "tipi_su_parole": 0.014033333333333333,
+   "hapax": 0.4489311163895487,
+   "tarato": false
+  },
+  {
+   "lam": 0.8,
+   "tau": 4.0,
+   "lontano": 0.05,
+   "preferenza": 0.0,
+   "tipi_su_parole": 0.23726666666666665,
+   "hapax": 0.48735599887608877,
+   "tarato": false
+  },
+  {
+   "lam": 0.8,
+   "tau": 4.0,
+   "lontano": 0.05,
+   "preferenza": 0.5,
+   "tipi_su_parole": 0.013066666666666667,
+   "hapax": 0.4744897959183674,
+   "tarato": false
+  },
+  {
+   "lam": 0.8,
+   "tau": 4.0,
+   "lontano": 0.05,
+   "preferenza": 1.0,
+   "tipi_su_parole": 0.0097,
+   "hapax": 0.39862542955326463,
+   "tarato": false
+  },
+  {
+   "lam": 0.8,
+   "tau": 4.0,
+   "lontano": 0.05,
+   "preferenza": 1.5,
+   "tipi_su_parole": 0.0101,
+   "hapax": 0.40924092409240925,
+   "tarato": false
+  },
+  {
+   "lam": 0.8,
+   "tau": 4.0,
+   "lontano": 0.2,
+   "preferenza": 0.0,
+   "tipi_su_parole": 0.23876666666666665,
+   "hapax": 0.4823398017590395,
+   "tarato": false
+  },
+  {
+   "lam": 0.8,
+   "tau": 4.0,
+   "lontano": 0.2,
+   "preferenza": 0.5,
+   "tipi_su_parole": 0.022333333333333334,
+   "hapax": 0.42835820895522386,
+   "tarato": false
+  },
+  {
+   "lam": 0.8,
+   "tau": 4.0,
+   "lontano": 0.2,
+   "preferenza": 1.0,
+   "tipi_su_parole": 0.015266666666666666,
+   "hapax": 0.45414847161572053,
+   "tarato": false
+  },
+  {
+   "lam": 0.8,
+   "tau": 4.0,
+   "lontano": 0.2,
+   "preferenza": 1.5,
+   "tipi_su_parole": 0.011833333333333333,
+   "hapax": 0.4,
+   "tarato": false
+  },
+  {
+   "lam": 1.1,
+   "tau": 1.0,
+   "lontano": 0.05,
+   "preferenza": 0.0,
+   "tipi_su_parole": 0.1831,
+   "hapax": 0.5141088658292372,
+   "tarato": false
+  },
+  {
+   "lam": 1.1,
+   "tau": 1.0,
+   "lontano": 0.05,
+   "preferenza": 0.5,
+   "tipi_su_parole": 0.018566666666666665,
+   "hapax": 0.4829443447037702,
+   "tarato": false
+  },
+  {
+   "lam": 1.1,
+   "tau": 1.0,
+   "lontano": 0.05,
+   "preferenza": 1.0,
+   "tipi_su_parole": 0.014133333333333333,
+   "hapax": 0.4693396226415094,
+   "tarato": false
+  },
+  {
+   "lam": 1.1,
+   "tau": 1.0,
+   "lontano": 0.05,
+   "preferenza": 1.5,
+   "tipi_su_parole": 0.012333333333333333,
+   "hapax": 0.4297297297297297,
+   "tarato": false
+  },
+  {
+   "lam": 1.1,
+   "tau": 1.0,
+   "lontano": 0.2,
+   "preferenza": 0.0,
+   "tipi_su_parole": 0.2106,
+   "hapax": 0.5183602405824628,
+   "tarato": false
+  },
+  {
+   "lam": 1.1,
+   "tau": 1.0,
+   "lontano": 0.2,
+   "preferenza": 0.5,
+   "tipi_su_parole": 0.022133333333333335,
+   "hapax": 0.47740963855421686,
+   "tarato": false
+  },
+  {
+   "lam": 1.1,
+   "tau": 1.0,
+   "lontano": 0.2,
+   "preferenza": 1.0,
+   "tipi_su_parole": 0.016466666666666668,
+   "hapax": 0.4757085020242915,
+   "tarato": false
+  },
+  {
+   "lam": 1.1,
+   "tau": 1.0,
+   "lontano": 0.2,
+   "preferenza": 1.5,
+   "tipi_su_parole": 0.016433333333333335,
+   "hapax": 0.47058823529411764,
+   "tarato": false
+  },
+  {
+   "lam": 1.1,
+   "tau": 2.0,
+   "lontano": 0.05,
+   "preferenza": 0.0,
+   "tipi_su_parole": 0.20843333333333333,
+   "hapax": 0.5317447625139933,
+   "tarato": false
+  },
+  {
+   "lam": 1.1,
+   "tau": 2.0,
+   "lontano": 0.05,
+   "preferenza": 0.5,
+   "tipi_su_parole": 0.0159,
+   "hapax": 0.47379454926624737,
+   "tarato": false
+  },
+  {
+   "lam": 1.1,
+   "tau": 2.0,
+   "lontano": 0.05,
+   "preferenza": 1.0,
+   "tipi_su_parole": 0.0128,
+   "hapax": 0.4609375,
+   "tarato": false
+  },
+  {
+   "lam": 1.1,
+   "tau": 2.0,
+   "lontano": 0.05,
+   "preferenza": 1.5,
+   "tipi_su_parole": 0.012166666666666666,
+   "hapax": 0.4602739726027397,
+   "tarato": false
+  },
+  {
+   "lam": 1.1,
+   "tau": 2.0,
+   "lontano": 0.2,
+   "preferenza": 0.0,
+   "tipi_su_parole": 0.1432,
+   "hapax": 0.4888268156424581,
+   "tarato": false
+  },
+  {
+   "lam": 1.1,
+   "tau": 2.0,
+   "lontano": 0.2,
+   "preferenza": 0.5,
+   "tipi_su_parole": 0.0364,
+   "hapax": 0.5375457875457875,
+   "tarato": false
+  },
+  {
+   "lam": 1.1,
+   "tau": 2.0,
+   "lontano": 0.2,
+   "preferenza": 1.0,
+   "tipi_su_parole": 0.016066666666666667,
+   "hapax": 0.45435684647302904,
+   "tarato": false
+  },
+  {
+   "lam": 1.1,
+   "tau": 2.0,
+   "lontano": 0.2,
+   "preferenza": 1.5,
+   "tipi_su_parole": 0.015266666666666666,
+   "hapax": 0.4781659388646288,
+   "tarato": false
+  },
+  {
+   "lam": 1.1,
+   "tau": 4.0,
+   "lontano": 0.05,
+   "preferenza": 0.0,
+   "tipi_su_parole": 0.3111,
+   "hapax": 0.5786992392585449,
+   "tarato": false
+  },
+  {
+   "lam": 1.1,
+   "tau": 4.0,
+   "lontano": 0.05,
+   "preferenza": 0.5,
+   "tipi_su_parole": 0.014833333333333334,
+   "hapax": 0.5056179775280899,
+   "tarato": false
+  },
+  {
+   "lam": 1.1,
+   "tau": 4.0,
+   "lontano": 0.05,
+   "preferenza": 1.0,
+   "tipi_su_parole": 0.013033333333333333,
+   "hapax": 0.4859335038363171,
+   "tarato": false
+  },
+  {
+   "lam": 1.1,
+   "tau": 4.0,
+   "lontano": 0.05,
+   "preferenza": 1.5,
+   "tipi_su_parole": 0.011733333333333333,
+   "hapax": 0.4772727272727273,
+   "tarato": false
+  },
+  {
+   "lam": 1.1,
+   "tau": 4.0,
+   "lontano": 0.2,
+   "preferenza": 0.0,
+   "tipi_su_parole": 0.3233,
+   "hapax": 0.559851531085679,
+   "tarato": false
+  },
+  {
+   "lam": 1.1,
+   "tau": 4.0,
+   "lontano": 0.2,
+   "preferenza": 0.5,
+   "tipi_su_parole": 0.021633333333333334,
+   "hapax": 0.5069337442218799,
+   "tarato": false
+  },
+  {
+   "lam": 1.1,
+   "tau": 4.0,
+   "lontano": 0.2,
+   "preferenza": 1.0,
+   "tipi_su_parole": 0.016066666666666667,
+   "hapax": 0.483402489626556,
+   "tarato": false
+  },
+  {
+   "lam": 1.1,
+   "tau": 4.0,
+   "lontano": 0.2,
+   "preferenza": 1.5,
+   "tipi_su_parole": 0.014966666666666666,
+   "hapax": 0.5077951002227171,
+   "tarato": false
+  },
+  {
+   "lam": 1.4,
+   "tau": 1.0,
+   "lontano": 0.05,
+   "preferenza": 0.0,
+   "tipi_su_parole": 0.39213333333333333,
+   "hapax": 0.6299727983679021,
+   "tarato": false
+  },
+  {
+   "lam": 1.4,
+   "tau": 1.0,
+   "lontano": 0.05,
+   "preferenza": 0.5,
+   "tipi_su_parole": 0.029033333333333335,
+   "hapax": 0.5304247990815155,
+   "tarato": false
+  },
+  {
+   "lam": 1.4,
+   "tau": 1.0,
+   "lontano": 0.05,
+   "preferenza": 1.0,
+   "tipi_su_parole": 0.018666666666666668,
+   "hapax": 0.5196428571428572,
+   "tarato": false
+  },
+  {
+   "lam": 1.4,
+   "tau": 1.0,
+   "lontano": 0.05,
+   "preferenza": 1.5,
+   "tipi_su_parole": 0.018266666666666667,
+   "hapax": 0.531021897810219,
+   "tarato": false
+  },
+  {
+   "lam": 1.4,
+   "tau": 1.0,
+   "lontano": 0.2,
+   "preferenza": 0.0,
+   "tipi_su_parole": 0.31843333333333335,
+   "hapax": 0.5846330995498796,
+   "tarato": false
+  },
+  {
+   "lam": 1.4,
+   "tau": 1.0,
+   "lontano": 0.2,
+   "preferenza": 0.5,
+   "tipi_su_parole": 0.029933333333333333,
+   "hapax": 0.5111358574610245,
+   "tarato": false
+  },
+  {
+   "lam": 1.4,
+   "tau": 1.0,
+   "lontano": 0.2,
+   "preferenza": 1.0,
+   "tipi_su_parole": 0.023566666666666666,
+   "hapax": 0.5417256011315418,
+   "tarato": false
+  },
+  {
+   "lam": 1.4,
+   "tau": 1.0,
+   "lontano": 0.2,
+   "preferenza": 1.5,
+   "tipi_su_parole": 0.0249,
+   "hapax": 0.5394912985274432,
+   "tarato": false
+  },
+  {
+   "lam": 1.4,
+   "tau": 2.0,
+   "lontano": 0.05,
+   "preferenza": 0.0,
+   "tipi_su_parole": 0.2699666666666667,
+   "hapax": 0.5962464501790344,
+   "tarato": false
+  },
+  {
+   "lam": 1.4,
+   "tau": 2.0,
+   "lontano": 0.05,
+   "preferenza": 0.5,
+   "tipi_su_parole": 0.0221,
+   "hapax": 0.5294117647058824,
+   "tarato": false
+  },
+  {
+   "lam": 1.4,
+   "tau": 2.0,
+   "lontano": 0.05,
+   "preferenza": 1.0,
+   "tipi_su_parole": 0.017,
+   "hapax": 0.492156862745098,
+   "tarato": false
+  },
+  {
+   "lam": 1.4,
+   "tau": 2.0,
+   "lontano": 0.05,
+   "preferenza": 1.5,
+   "tipi_su_parole": 0.0168,
+   "hapax": 0.501984126984127,
+   "tarato": false
+  },
+  {
+   "lam": 1.4,
+   "tau": 2.0,
+   "lontano": 0.2,
+   "preferenza": 0.0,
+   "tipi_su_parole": 0.18363333333333334,
+   "hapax": 0.5451080050825922,
+   "tarato": false
+  },
+  {
+   "lam": 1.4,
+   "tau": 2.0,
+   "lontano": 0.2,
+   "preferenza": 0.5,
+   "tipi_su_parole": 0.030266666666666667,
+   "hapax": 0.5440528634361234,
+   "tarato": false
+  },
+  {
+   "lam": 1.4,
+   "tau": 2.0,
+   "lontano": 0.2,
+   "preferenza": 1.0,
+   "tipi_su_parole": 0.020733333333333333,
+   "hapax": 0.5305466237942122,
+   "tarato": false
+  },
+  {
+   "lam": 1.4,
+   "tau": 2.0,
+   "lontano": 0.2,
+   "preferenza": 1.5,
+   "tipi_su_parole": 0.0208,
+   "hapax": 0.5208333333333334,
+   "tarato": false
+  },
+  {
+   "lam": 1.4,
+   "tau": 4.0,
+   "lontano": 0.05,
+   "preferenza": 0.0,
+   "tipi_su_parole": 0.3888333333333333,
+   "hapax": 0.6188598371195885,
+   "tarato": false
+  },
+  {
+   "lam": 1.4,
+   "tau": 4.0,
+   "lontano": 0.05,
+   "preferenza": 0.5,
+   "tipi_su_parole": 0.0207,
+   "hapax": 0.5040257648953301,
+   "tarato": false
+  },
+  {
+   "lam": 1.4,
+   "tau": 4.0,
+   "lontano": 0.05,
+   "preferenza": 1.0,
+   "tipi_su_parole": 0.0157,
+   "hapax": 0.49469214437367304,
+   "tarato": false
+  },
+  {
+   "lam": 1.4,
+   "tau": 4.0,
+   "lontano": 0.05,
+   "preferenza": 1.5,
+   "tipi_su_parole": 0.015033333333333333,
+   "hapax": 0.4789356984478936,
+   "tarato": false
+  },
+  {
+   "lam": 1.4,
+   "tau": 4.0,
+   "lontano": 0.2,
+   "preferenza": 0.0,
+   "tipi_su_parole": 0.3706,
+   "hapax": 0.6007375427235114,
+   "tarato": false
+  },
+  {
+   "lam": 1.4,
+   "tau": 4.0,
+   "lontano": 0.2,
+   "preferenza": 0.5,
+   "tipi_su_parole": 0.03546666666666667,
+   "hapax": 0.5131578947368421,
+   "tarato": false
+  },
+  {
+   "lam": 1.4,
+   "tau": 4.0,
+   "lontano": 0.2,
+   "preferenza": 1.0,
+   "tipi_su_parole": 0.022266666666666667,
+   "hapax": 0.5329341317365269,
+   "tarato": false
+  },
+  {
+   "lam": 1.4,
+   "tau": 4.0,
+   "lontano": 0.2,
+   "preferenza": 1.5,
+   "tipi_su_parole": 0.018333333333333333,
+   "hapax": 0.48727272727272725,
+   "tarato": false
+  },
+  {
+   "lam": 1.8,
+   "tau": 1.0,
+   "lontano": 0.05,
+   "preferenza": 0.0,
+   "tipi_su_parole": 0.2668,
+   "hapax": 0.6168165917041479,
+   "tarato": false
+  },
+  {
+   "lam": 1.8,
+   "tau": 1.0,
+   "lontano": 0.05,
+   "preferenza": 0.5,
+   "tipi_su_parole": 0.0327,
+   "hapax": 0.5688073394495413,
+   "tarato": false
+  },
+  {
+   "lam": 1.8,
+   "tau": 1.0,
+   "lontano": 0.05,
+   "preferenza": 1.0,
+   "tipi_su_parole": 0.0246,
+   "hapax": 0.5365853658536586,
+   "tarato": false
+  },
+  {
+   "lam": 1.8,
+   "tau": 1.0,
+   "lontano": 0.05,
+   "preferenza": 1.5,
+   "tipi_su_parole": 0.06523333333333334,
+   "hapax": 0.5855901890648952,
+   "tarato": false
+  },
+  {
+   "lam": 1.8,
+   "tau": 1.0,
+   "lontano": 0.2,
+   "preferenza": 0.0,
+   "tipi_su_parole": 0.291,
+   "hapax": 0.6436426116838488,
+   "tarato": false
+  },
+  {
+   "lam": 1.8,
+   "tau": 1.0,
+   "lontano": 0.2,
+   "preferenza": 0.5,
+   "tipi_su_parole": 0.03613333333333334,
+   "hapax": 0.5627306273062731,
+   "tarato": false
+  },
+  {
+   "lam": 1.8,
+   "tau": 1.0,
+   "lontano": 0.2,
+   "preferenza": 1.0,
+   "tipi_su_parole": 0.029433333333333332,
+   "hapax": 0.5605889014722537,
+   "tarato": false
+  },
+  {
+   "lam": 1.8,
+   "tau": 1.0,
+   "lontano": 0.2,
+   "preferenza": 1.5,
+   "tipi_su_parole": 0.027866666666666668,
+   "hapax": 0.5586124401913876,
+   "tarato": false
+  },
+  {
+   "lam": 1.8,
+   "tau": 2.0,
+   "lontano": 0.05,
+   "preferenza": 0.0,
+   "tipi_su_parole": 0.43843333333333334,
+   "hapax": 0.6878278719683723,
+   "tarato": false
+  },
+  {
+   "lam": 1.8,
+   "tau": 2.0,
+   "lontano": 0.05,
+   "preferenza": 0.5,
+   "tipi_su_parole": 0.07086666666666666,
+   "hapax": 0.5804327375352775,
+   "tarato": false
+  },
+  {
+   "lam": 1.8,
+   "tau": 2.0,
+   "lontano": 0.05,
+   "preferenza": 1.0,
+   "tipi_su_parole": 0.05656666666666667,
+   "hapax": 0.5698291101944608,
+   "tarato": false
+  },
+  {
+   "lam": 1.8,
+   "tau": 2.0,
+   "lontano": 0.05,
+   "preferenza": 1.5,
+   "tipi_su_parole": 0.0593,
+   "hapax": 0.59584035975267,
+   "tarato": false
+  },
+  {
+   "lam": 1.8,
+   "tau": 2.0,
+   "lontano": 0.2,
+   "preferenza": 0.0,
+   "tipi_su_parole": 0.244,
+   "hapax": 0.6062841530054645,
+   "tarato": false
+  },
+  {
+   "lam": 1.8,
+   "tau": 2.0,
+   "lontano": 0.2,
+   "preferenza": 0.5,
+   "tipi_su_parole": 0.03303333333333333,
+   "hapax": 0.5479313824419778,
+   "tarato": false
+  },
+  {
+   "lam": 1.8,
+   "tau": 2.0,
+   "lontano": 0.2,
+   "preferenza": 1.0,
+   "tipi_su_parole": 0.027166666666666665,
+   "hapax": 0.5386503067484663,
+   "tarato": false
+  },
+  {
+   "lam": 1.8,
+   "tau": 2.0,
+   "lontano": 0.2,
+   "preferenza": 1.5,
+   "tipi_su_parole": 0.066,
+   "hapax": 0.6055555555555555,
+   "tarato": false
+  },
+  {
+   "lam": 1.8,
+   "tau": 4.0,
+   "lontano": 0.05,
+   "preferenza": 0.0,
+   "tipi_su_parole": 0.24796666666666667,
+   "hapax": 0.6227987632746337,
+   "tarato": false
+  },
+  {
+   "lam": 1.8,
+   "tau": 4.0,
+   "lontano": 0.05,
+   "preferenza": 0.5,
+   "tipi_su_parole": 0.03646666666666667,
+   "hapax": 0.5776965265082267,
+   "tarato": false
+  },
+  {
+   "lam": 1.8,
+   "tau": 4.0,
+   "lontano": 0.05,
+   "preferenza": 1.0,
+   "tipi_su_parole": 0.05383333333333333,
+   "hapax": 0.5696594427244582,
+   "tarato": false
+  },
+  {
+   "lam": 1.8,
+   "tau": 4.0,
+   "lontano": 0.05,
+   "preferenza": 1.5,
+   "tipi_su_parole": 0.0543,
+   "hapax": 0.580110497237569,
+   "tarato": false
+  },
+  {
+   "lam": 1.8,
+   "tau": 4.0,
+   "lontano": 0.2,
+   "preferenza": 0.0,
+   "tipi_su_parole": 0.3456666666666667,
+   "hapax": 0.6414657666345227,
+   "tarato": false
+  },
+  {
+   "lam": 1.8,
+   "tau": 4.0,
+   "lontano": 0.2,
+   "preferenza": 0.5,
+   "tipi_su_parole": 0.0338,
+   "hapax": 0.5591715976331361,
+   "tarato": false
+  },
+  {
+   "lam": 1.8,
+   "tau": 4.0,
+   "lontano": 0.2,
+   "preferenza": 1.0,
+   "tipi_su_parole": 0.0254,
+   "hapax": 0.547244094488189,
+   "tarato": false
+  },
+  {
+   "lam": 1.8,
+   "tau": 4.0,
+   "lontano": 0.2,
+   "preferenza": 1.5,
+   "tipi_su_parole": 0.0597,
+   "hapax": 0.5935231714126187,
+   "tarato": false
+  },
+  {
+   "lam": 2.2,
+   "tau": 1.0,
+   "lontano": 0.05,
+   "preferenza": 0.0,
+   "tipi_su_parole": 0.35413333333333336,
+   "hapax": 0.7039721385542169,
+   "tarato": false
+  },
+  {
+   "lam": 2.2,
+   "tau": 1.0,
+   "lontano": 0.05,
+   "preferenza": 0.5,
+   "tipi_su_parole": 0.03693333333333333,
+   "hapax": 0.5388086642599278,
+   "tarato": false
+  },
+  {
+   "lam": 2.2,
+   "tau": 1.0,
+   "lontano": 0.05,
+   "preferenza": 1.0,
+   "tipi_su_parole": 0.028533333333333334,
+   "hapax": 0.5560747663551402,
+   "tarato": false
+  },
+  {
+   "lam": 2.2,
+   "tau": 1.0,
+   "lontano": 0.05,
+   "preferenza": 1.5,
+   "tipi_su_parole": 0.027766666666666665,
+   "hapax": 0.5522208883553421,
+   "tarato": false
+  },
+  {
+   "lam": 2.2,
+   "tau": 1.0,
+   "lontano": 0.2,
+   "preferenza": 0.0,
+   "tipi_su_parole": 0.34176666666666666,
+   "hapax": 0.683604798595533,
+   "tarato": false
+  },
+  {
+   "lam": 2.2,
+   "tau": 1.0,
+   "lontano": 0.2,
+   "preferenza": 0.5,
+   "tipi_su_parole": 0.0428,
+   "hapax": 0.5599688473520249,
+   "tarato": false
+  },
+  {
+   "lam": 2.2,
+   "tau": 1.0,
+   "lontano": 0.2,
+   "preferenza": 1.0,
+   "tipi_su_parole": 0.034,
+   "hapax": 0.546078431372549,
+   "tarato": false
+  },
+  {
+   "lam": 2.2,
+   "tau": 1.0,
+   "lontano": 0.2,
+   "preferenza": 1.5,
+   "tipi_su_parole": 0.032933333333333335,
+   "hapax": 0.5587044534412956,
+   "tarato": false
+  },
+  {
+   "lam": 2.2,
+   "tau": 2.0,
+   "lontano": 0.05,
+   "preferenza": 0.0,
+   "tipi_su_parole": 0.44766666666666666,
+   "hapax": 0.7322412509307521,
+   "tarato": false
+  },
+  {
+   "lam": 2.2,
+   "tau": 2.0,
+   "lontano": 0.05,
+   "preferenza": 0.5,
+   "tipi_su_parole": 0.0312,
+   "hapax": 0.5544871794871795,
+   "tarato": false
+  },
+  {
+   "lam": 2.2,
+   "tau": 2.0,
+   "lontano": 0.05,
+   "preferenza": 1.0,
+   "tipi_su_parole": 0.0264,
+   "hapax": 0.5580808080808081,
+   "tarato": false
+  },
+  {
+   "lam": 2.2,
+   "tau": 2.0,
+   "lontano": 0.05,
+   "preferenza": 1.5,
+   "tipi_su_parole": 0.024733333333333333,
+   "hapax": 0.5485175202156334,
+   "tarato": false
+  },
+  {
+   "lam": 2.2,
+   "tau": 2.0,
+   "lontano": 0.2,
+   "preferenza": 0.0,
+   "tipi_su_parole": 0.3897333333333333,
+   "hapax": 0.6981696886760178,
+   "tarato": false
+  },
+  {
+   "lam": 2.2,
+   "tau": 2.0,
+   "lontano": 0.2,
+   "preferenza": 0.5,
+   "tipi_su_parole": 0.0433,
+   "hapax": 0.5742879137798307,
+   "tarato": false
+  },
+  {
+   "lam": 2.2,
+   "tau": 2.0,
+   "lontano": 0.2,
+   "preferenza": 1.0,
+   "tipi_su_parole": 0.030566666666666666,
+   "hapax": 0.529989094874591,
+   "tarato": false
+  },
+  {
+   "lam": 2.2,
+   "tau": 2.0,
+   "lontano": 0.2,
+   "preferenza": 1.5,
+   "tipi_su_parole": 0.029933333333333333,
+   "hapax": 0.5556792873051225,
+   "tarato": false
+  },
+  {
+   "lam": 2.2,
+   "tau": 4.0,
+   "lontano": 0.05,
+   "preferenza": 0.0,
+   "tipi_su_parole": 0.38156666666666667,
+   "hapax": 0.7242072158644186,
+   "tarato": false
+  },
+  {
+   "lam": 2.2,
+   "tau": 4.0,
+   "lontano": 0.05,
+   "preferenza": 0.5,
+   "tipi_su_parole": 0.0309,
+   "hapax": 0.5469255663430421,
+   "tarato": false
+  },
+  {
+   "lam": 2.2,
+   "tau": 4.0,
+   "lontano": 0.05,
+   "preferenza": 1.0,
+   "tipi_su_parole": 0.025766666666666667,
+   "hapax": 0.5407503234152652,
+   "tarato": false
+  },
+  {
+   "lam": 2.2,
+   "tau": 4.0,
+   "lontano": 0.05,
+   "preferenza": 1.5,
+   "tipi_su_parole": 0.024066666666666667,
+   "hapax": 0.5263157894736842,
+   "tarato": false
+  },
+  {
+   "lam": 2.2,
+   "tau": 4.0,
+   "lontano": 0.2,
+   "preferenza": 0.0,
+   "tipi_su_parole": 0.3739,
+   "hapax": 0.6910938753677454,
+   "tarato": false
+  },
+  {
+   "lam": 2.2,
+   "tau": 4.0,
+   "lontano": 0.2,
+   "preferenza": 0.5,
+   "tipi_su_parole": 0.0354,
+   "hapax": 0.5612052730696798,
+   "tarato": false
+  },
+  {
+   "lam": 2.2,
+   "tau": 4.0,
+   "lontano": 0.2,
+   "preferenza": 1.0,
+   "tipi_su_parole": 0.030133333333333335,
+   "hapax": 0.5597345132743363,
+   "tarato": false
+  },
+  {
+   "lam": 2.2,
+   "tau": 4.0,
+   "lontano": 0.2,
+   "preferenza": 1.5,
+   "tipi_su_parole": 0.027266666666666668,
+   "hapax": 0.5550122249388753,
+   "tarato": false
+  }
+ ],
+ "impronte": {
+  "Voynich": {
+   "parole": 34863,
+   "h2": 2.2361640232559865,
+   "lung_media": 4.460746349998566,
+   "tipi_su_parole": 0.20976666666666666,
+   "hapax": 0.679485142221516,
+   "identiche_immediate": 0.009371034392997754,
+   "identiche_vs_riga": 1.008508949494745,
+   "somiglianza_riga": 0.03845463938289839,
+   "somiglianza_riga_sotto": 0.039866274671841784,
+   "somiglianza_6_righe": 0.03353358262726869
+  },
+  "Voynich rimescolato in tutto il testo": {
+   "parole": 34863,
+   "h2": 2.236185119655741,
+   "lung_media": 4.460746349998566,
+   "tipi_su_parole": 0.21146666666666666,
+   "hapax": 0.6830075662042875,
+   "identiche_immediate": 0.003579214525103309,
+   "identiche_vs_riga": 1.0501260828435786,
+   "somiglianza_riga": 0.0005138761590159913,
+   "somiglianza_riga_sotto": -0.00046719093524694166,
+   "somiglianza_6_righe": -7.661270607672854e-05
+  },
+  "Voynich rimescolato dentro ogni pagina": {
+   "parole": 34863,
+   "h2": 2.236189936419849,
+   "lung_media": 4.460746349998566,
+   "tipi_su_parole": 0.2099,
+   "hapax": 0.6796887406701604,
+   "identiche_immediate": 0.007190967364071194,
+   "identiche_vs_riga": 1.006490007568662,
+   "somiglianza_riga": 0.03046804633362754,
+   "somiglianza_riga_sotto": 0.029987798401136856,
+   "somiglianza_6_righe": 0.03324034810665388
+  },
+  "autocitazione NON tarata: lam 1.8, tau 4.0, lontano 0.05, preferenza 0.0": {
+   "parole": 34863,
+   "h2": 3.2608682247529956,
+   "lung_media": 2.7960014915526488,
+   "tipi_su_parole": 0.24796666666666667,
+   "hapax": 0.6227987632746337,
+   "identiche_immediate": 0.04099827546936518,
+   "identiche_vs_riga": 1.2565800519266472,
+   "somiglianza_riga": 0.05001916349730273,
+   "somiglianza_riga_sotto": 0.03782428977502805,
+   "somiglianza_6_righe": 0.027472966847058133,
+   "esempio": [
+    "dpyshl poshl posh sheoe sh poll dkyshl olk oyk kshsoo sheoe",
+    "ypoll ypyll opyll poshl oolyl ypykl cheoch d shsoa kshsor qyshdll eyll",
+    "shkoa oe docth seoe k al d e k",
+    "octh seoe ol klfosh eyll shsoa os ol ok",
+    "klfysh ypykl yt t lpykl s oy klfysh kshsol sheoe",
+    "tolchl qklfysh chocth"
+   ]
+  },
+  "autocitazione NON tarata: lam 1.8, tau 2.0, lontano 0.20, preferenza 0.0": {
+   "parole": 34863,
+   "h2": 3.2539388580507937,
+   "lung_media": 2.793878897398388,
+   "tipi_su_parole": 0.244,
+   "hapax": 0.6062841530054645,
+   "identiche_immediate": 0.0412260436664172,
+   "identiche_vs_riga": 1.1983064472411644,
+   "somiglianza_riga": 0.04187399498786726,
+   "somiglianza_riga_sotto": 0.026517482580752705,
+   "somiglianza_6_righe": 0.008334886624097426,
+   "esempio": [
+    "ok lt ok fchooil ofchlorl era tlt ofchldrl t l cht",
+    "chyt sholso chrdchs d chyt m dodoch ofchloll lek fchooil ok ot",
+    "oschr aschr odchr dochchr od aschl shad tshodso r",
+    "l ol ol chak chak ofchldrl chytll tol t",
+    "t rdcht dddr t ch detl tol chol chot chddedl",
+    "chak dchtl s"
+   ]
+  },
+  "autocitazione NON tarata: lam 1.8, tau 1.0, lontano 0.05, preferenza 0.0": {
+   "parole": 34863,
+   "h2": 3.288468276273199,
+   "lung_media": 3.0472707454894876,
+   "tipi_su_parole": 0.2668,
+   "hapax": 0.6168165917041479,
+   "identiche_immediate": 0.07844987472749163,
+   "identiche_vs_riga": 1.2393994969354136,
+   "somiglianza_riga": 0.11049986109125676,
+   "somiglianza_riga_sotto": 0.07229401766764043,
+   "somiglianza_6_righe": 0.019008062812266635,
+   "esempio": [
+    "chlek chlek ld chlek chlek chlek chpd kchkl chlek chchlek kshko",
+    "kshcho chdshcho ochchlek techo chlchk yochchlchk oche oche chdshcht drche dechol olchk",
+    "oche ote te yckhe chchte ote o lchk yckhd",
+    "te te chlet chdshcho chlet oee chlecth chchlet yckhe",
+    "et choek oet et le choek et sht cht choek",
+    "ch t m"
+   ]
+  }
+ }
+}
