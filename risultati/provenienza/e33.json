@@ -1,0 +1,72 @@
+{
+ "codice": {
+  "commit": "9d36b8e3a22d095d3b0929df3fc806b3b9dfa058",
+  "modifiche_non_salvate": []
+ },
+ "dati": {
+  "trascrizioni": {
+   "GC2a-n.txt": "b09570cb6c993bc2d87134d115e60a978650a8a6495483ddbb1f6005a586096f",
+   "IT2a-n.txt": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+   "ZL3b-n.txt": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc"
+  },
+  "sorgenti": {
+   "SelfCitationTextgenerator": "a6ede2202dd7ad6285ce2c007bf22c2a0e7709b7",
+   "bible-corpus": "44e5fca1bfb369a5da2ee23ebc6f421c88489c5c",
+   "divinum-officium": "2dbc3c24ea7f96f014060aaa51caeec477f3c578",
+   "lat_text_latin_library": "76229acaf02efd1964ac32009408a90b6f279758",
+   "naibbe-cipher": "f2675ec5dd275268bc64dd48ea64fc0e0e9827a2",
+   "voynich-decoded": "71f2f3c91e9113d285ab21e024f1dd70c1f43c44",
+   "voynich-units": "66f8adaadc120f93e8a4c906685ba66a9d3ab847"
+  }
+ },
+ "ambiente": {
+  "python": "3.12.10",
+  "piattaforma": "Windows-10-10.0.19045-SP0",
+  "pacchetti": {
+   "numpy": "2.5.3",
+   "scipy": "1.18.1",
+   "matplotlib": "3.11.2",
+   "scikit-learn": "1.9.1",
+   "scikit-image": "0.26.0",
+   "rapidfuzz": "3.14.6",
+   "pypinyin": "0.55.0"
+  },
+  "java": "openjdk version \"21.0.12.1\" 2026-08-18 LTS",
+  "PYTHONHASHSEED": null
+ },
+ "script": {
+  "file": "esperimenti/e33_immagini.py",
+  "sha256": "55cf1751f71cd16eb20c565122ee65b612c4871db47c12e7235d6710a5c5281e"
+ },
+ "esperimento": "e33",
+ "argomenti": [
+  "1v",
+  "3v",
+  "18v",
+  "19r",
+  "23r",
+  "32v",
+  "37v",
+  "39r",
+  "47v",
+  "48r",
+  "48v",
+  "96v",
+  "90v (part)",
+  "88v and 89r",
+  "89v (part)",
+  "89v (part) and 90r",
+  "94v and 95r",
+  "99r",
+  "99v",
+  "100r",
+  "100v and 101r",
+  "101v (part) and 102r",
+  "102v (part)",
+  "88r"
+ ],
+ "uscita": 0,
+ "inizio": "2026-09-30T21:50:35",
+ "durata_s": 72.7,
+ "file_scritti": []
+}
