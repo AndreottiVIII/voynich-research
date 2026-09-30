@@ -404,3 +404,54 @@ diversi solo i valori che superano **anche** una soglia assoluta di 1e-12.
     su f99r).
   - Misura rinviata. Per farla serve segnare a mano i riquadri delle etichette, con un protocollo
     cieco.
+
+## 30/09/2026 — e47: il vocabolario aperto è costante e strutturale
+
+- **Preregistrato.** Esito "misto" per la soglia dichiarata: il divario di parole uniche fra Voynich
+  e generatore è 0,10 già a 1.000 parole e sale a 0,17 a 34.000.
+- **Il dato più importante, non previsto:** nel Voynich la quota di parole uniche quasi non cala
+  con la dimensione del campione.
+
+| parole | 1.000 | 5.000 | 34.000 |
+|---|---|---|---|
+| Voynich | 0,74 | 0,70 | 0,68 |
+| generatore | 0,63 | 0,56 | 0,51 |
+| Bibbia latina | 0,72 | 0,65 | 0,50 |
+| Plinio | 0,81 | 0,73 | 0,65 |
+
+  - Succede anche dentro Currier A o B da soli, con la trascrizione di Takahashi, e fondendo i
+    segni confondibili (0,69 → 0,64). Nel generatore la fusione accentua la saturazione
+    (0,53 → 0,42).
+  - Il Voynich produce forme nuove a ritmo quasi costante, e non per minuzie grafiche o errori di
+    lettura.
+- **Ricambio.** La quota di vocabolario in comune fra blocchi di 1.000 parole cala con la distanza
+  nel Voynich (0,57 → 0,47 da k = 1 a k = 20). Nel generatore quasi no (0,56 → 0,54).
+
+## 30/09/2026 — e48: il generatore che compone parole nuove
+
+- **Preregistrato.**
+- **Il modello.** Nuova aggiunta Java (`Composizione.java`): con probabilità q una parola si compone
+  segno per segno con trigrammi di segni, λ · pagina corrente + (1 − λ) · tutto il Voynich.
+- **Validità.** Con q = 0 il testo è identico all'e23.
+- **Esito:** nessuna combinazione compatibile.
+  - Con λ = 0,9 omogeneità (3,4–3,8%), ripetizione (fino a 0,95) e h2 (2,23–2,28) reggono.
+  - Le parole uniche arrivano al massimo a 0,58, e il legame fine–inizio crolla (0,08–0,11),
+    perché le parole composte saltano la regola delle giunture.
+- **Incidente.** La prima corsa di e48 è fallita: l'analisi esplorativa di e47, lanciata in
+  parallelo, ha ricompilato la cartella delle classi dell'e23 mentre e48 la usava per il
+  controllo di validità. Rilanciata da sola. Regola nuova: gli esperimenti che compilano il
+  generatore non girano in parallelo fra loro; e49 usa una cartella propria.
+
+## 30/09/2026 — Metodo: il rischio di adattare il modello ai dati
+
+Con e48 ed e49 sto costruendo un modello per tentativi successivi, ciascuno preregistrato. Ma la
+sequenza dei tentativi è guidata dai risultati precedenti (un "giardino dei sentieri che si
+biforcano"). Per questo l'e49 introduce una **validazione fuori campione**: tre proprietà del
+Voynich non usate per costruire il modello, con soglie fissate prima:
+
+- la curva piatta delle parole uniche;
+- il ricambio del vocabolario;
+- il profilo di informazione di pagina dell'e36.
+
+Nel white paper un modello "che funziona" va presentato con queste prove, non con la sola lista di
+controllo su cui è stato tarato.
