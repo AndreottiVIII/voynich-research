@@ -1,0 +1,3 @@
+Voynich corpo: D -0.0090 z -0.6 p 0.7076 | fine: D -0.0210 z -0.5 p 0.6722
+controllo lotti: quota p < 0.01 = 1.00 (p mediana 0.000)
+controllo classe: quota p < 0.05 = 0.06 (p mediana 0.490)

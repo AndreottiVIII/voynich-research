@@ -1,0 +1,31 @@
+{
+ "etichette": 184,
+ "pagine": 12,
+ "per_tipo": {
+  "recipiente": 36,
+  "frammento": 148
+ },
+ "voynich_corpo": {
+  "D": -0.008984668372441378,
+  "nulla": 0.00040963554239586877,
+  "z": -0.5791343594994514,
+  "p": 0.7076461769115442
+ },
+ "voynich_fine": {
+  "D": -0.020954770143802877,
+  "nulla": -0.00025028867254579254,
+  "z": -0.4902244166188394,
+  "p": 0.6721639180409795
+ },
+ "controllo lotti": {
+  "quota_p_sotto_soglia": 1.0,
+  "soglia": 0.01,
+  "p_mediana": 0.0004997501249375312
+ },
+ "controllo classe": {
+  "quota_p_sotto_soglia": 0.055,
+  "soglia": 0.05,
+  "p_mediana": 0.48950524737631185
+ },
+ "controlli_validi": true
+}
