@@ -1,0 +1,391 @@
+{
+ "voci": 731,
+ "blocco": 25,
+ "profilo": {
+  "parole": 727,
+  "blocchi": 727,
+  "gruppi": 41,
+  "strati": 1,
+  "posizioni": {
+   "primo": {
+    "I": 0.9283402963781484,
+    "nulla": 0.7930665912273804,
+    "nulla_dev": 0.027748633533979224,
+    "H": 4.096275894520906,
+    "eccesso": 0.13527370515076798,
+    "quota": 0.03302358255011761,
+    "z": 4.874968166815146,
+    "p": 0.004975124378109453
+   },
+   "secondo": {
+    "I": 0.6618516733519648,
+    "nulla": 0.5577604844628261,
+    "nulla_dev": 0.021161181943953236,
+    "H": 3.288820735845047,
+    "eccesso": 0.10409118888913871,
+    "quota": 0.03165000383105191,
+    "z": 4.918968570131431,
+    "p": 0.004975124378109453
+   },
+   "penultimo": {
+    "I": 0.6193377703116305,
+    "nulla": 0.4700758159886766,
+    "nulla_dev": 0.020451864744906584,
+    "H": 2.619521516674541,
+    "eccesso": 0.14926195432295392,
+    "quota": 0.05698061778566363,
+    "z": 7.298207580808822,
+    "p": 0.004975124378109453
+   },
+   "ultimo": {
+    "I": 0.5156780680137283,
+    "nulla": 0.3605553893517066,
+    "nulla_dev": 0.019728931878960368,
+    "H": 2.45175773884486,
+    "eccesso": 0.15512267866202167,
+    "quota": 0.06326998634665566,
+    "z": 7.862700302972306,
+    "p": 0.004975124378109453
+   }
+  },
+  "R": 0.5492460148271635,
+  "stabilita": {
+   "min": 0.48357432844193693,
+   "max": 0.6848216116079975,
+   "valori": {
+    "0": 0.5331582869707525,
+    "1": 0.518648891845532,
+    "2": 0.5344369097772012,
+    "3": 0.5116400203458275,
+    "4": 0.6848216116079975,
+    "5": 0.5657790965921844,
+    "6": 0.5658211111710378,
+    "7": 0.48357432844193693,
+    "8": 0.5270889307520739,
+    "9": 0.5275365123940687
+   }
+  }
+ },
+ "esempi": {
+  "0": [
+   "aigonz (deus)",
+   "aieganz (angelus)",
+   "zuuenz (sanctus)",
+   "liuionz (salvator)",
+   "liuionz (diabolus)",
+   "ispariz (spiritus)"
+  ],
+  "25": [
+   "scirizin (fillius)",
+   "limzkil (infans)",
+   "zainz (puer)",
+   "zimzial (iuuvenis)",
+   "bischiniz (adolescens)",
+   "malkuirz (senes)"
+  ],
+  "50": [
+   "keliz (blesus)",
+   "scarpinz (mutus)",
+   "kolianz (claudus)",
+   "pariziz (eunuchus)",
+   "phanizchin (idropicus, ydropicus)",
+   "stiliziz (cardiacus)"
+  ],
+  "75": [
+   "luzeia (oculus)",
+   "fonix (pupilla)",
+   "luzpoinphia (German gloss: ougappel)",
+   "luziliel (cilium)",
+   "luziminispier (palpebia)",
+   "pilsemia (supercilium)"
+  ],
+  "100": [
+   "gulzia (faux)",
+   "franix (German gloss: yuula, uvula, gůno)",
+   "gruzia (guttur)",
+   "kolezia (collum)",
+   "ranzgia (lingua)",
+   "firanz (saliua)"
+  ],
+  "125": [
+   "magux (pugnus)",
+   "benizscia (dextra)",
+   "silisza (sinstra)",
+   "warinz (impetigo)",
+   "galich (membrum)",
+   "burbeiscal (pectus)"
+  ],
+  "150": [
+   "vnguizol (aruina)",
+   "dariz (intestina)",
+   "biuanz (uesica)",
+   "fluanz (locium)",
+   "rubianz (sanguis)",
+   "suinz (sudor)"
+  ],
+  "175": [
+   "vrzoia (calcaneus)",
+   "funiz (planta pedis)",
+   "fuscal (pes)",
+   "minscol (ulcus)",
+   "razil (uenenum)",
+   "scirinz (tabo)"
+  ],
+  "200": [
+   "scurinz (exorcista)",
+   "niscalnoiz (lector)",
+   "oriezio (ianitor)",
+   "gasinz (cancelarius, cancellarius)",
+   "proueiz (prepositus)",
+   "telzion (decanus)"
+  ],
+  "225": [
+   "kaido (delubrum)",
+   "zirinzil (porticus)",
+   "oneziz (ianua)",
+   "hilziol (ualue)",
+   "tirix (limen)",
+   "scolioz (superliminare, supliminia)"
+  ],
+  "250": [
+   "sinziol (testudo)",
+   "bilidio (celatura)",
+   "phalidiz (absidum)",
+   "lanschil (analogium)",
+   "diuloz (tribunal)",
+   "tronischia (cathedra)"
+  ],
+  "275": [
+   "tonzion (tegula)",
+   "farisehomil (pinnaculum)",
+   "mirzirzeis (impluvium)",
+   "abiza (domus)",
+   "talizima (paries)",
+   "philxima (capsa)"
+  ],
+  "300": [
+   "phinziol (urna)",
+   "phazia (ampulla)",
+   "libizamanz (liber)",
+   "kurzanzlibiz (missalis liber)",
+   "izimziolibiz (evangeliorum liber)",
+   "musgal (graduale)"
+  ],
+  "325": [
+   "tizzia (alba)",
+   "zizzion (cingulum)",
+   "tunchzial (stola)",
+   "scolmiz (subtile)",
+   "zimzia (casula)",
+   "pazidol (episopale)"
+  ],
+  "350": [
+   "tronziol (patronus)",
+   "crinuziol (uicedomnus, uicedum)",
+   "gazio (caterua)",
+   "sarziz (legio)",
+   "sarziz (acies)",
+   "iuriz (iudex)"
+  ],
+  "375": [
+   "dirisehil (potus)",
+   "scorilzio (cellerrarius)",
+   "schirazion (camerarius)",
+   "garginz (hortulanus)",
+   "larginchziz (hartifex)",
+   "sporinzio (rusticus)"
+  ],
+  "400": [
+   "folicio (mercator)",
+   "firmaniz (lapicida)",
+   "bauiriz (textor, testor)",
+   "auiriz (nauclerus)",
+   "schilmiol (nauta)",
+   "doinzio (carpentarius)"
+  ],
+  "425": [
+   "uirtimanz (fur)",
+   "deiezio (nauus, nanus)",
+   "logizkal (gygas, gigas)",
+   "durziuanz (sequester)",
+   "oirschal (tubicen)",
+   "fulzcaioliz (auceps)"
+  ],
+  "450": [
+   "discula (feria II)",
+   "munizza (feria III)",
+   "aleziz (feria IIII)",
+   "mirzisil (feria V)",
+   "haurizpia (feria V)",
+   "hoizka (sabatum, sabbm)"
+  ],
+  "475": [
+   "holischa (nouember)",
+   "denizimo (december)",
+   "ginschiz (prima)",
+   "scoinz (tercia)",
+   "anischiz (sexta)",
+   "ioinz (nona)"
+  ],
+  "500": [
+   "gauguzia (cappa)",
+   "kanscho (pilleus)",
+   "scolzia (marca)",
+   "linchz (talentum)",
+   "mazanz (cultellus)",
+   "blanschil (scoria)"
+  ],
+  "525": [
+   "kanfur (hamus)",
+   "brazchia (andena)",
+   "zizam (patella)",
+   "zizim (circinum)",
+   "ziginz (uomer)",
+   "zonz (ligo)"
+  ],
+  "550": [
+   "iscbiazin (German gloss: speicha)",
+   "ranchil (arastrum)",
+   "scolmix (stiua)",
+   "ziginz (uomer)",
+   "zmz (ligo)",
+   "harzima (ager)"
+  ],
+  "575": [
+   "bulsharz (plumbun)",
+   "struimiz (pergamenum, pergamentum)",
+   "luschanz (minium)",
+   "kilmindiaz (crocus)",
+   "schamiz (tabula)",
+   "brizimaz (stilus)"
+  ],
+  "600": [
+   "nulsiz (acus)",
+   "diuz (marsuppium)",
+   "baiz (pannus)",
+   "oiralbrium (inaures)",
+   "naczoun (monile)",
+   "gragischon (armilla)"
+  ],
+  "625": [
+   "haurizin (anulus)",
+   "galizima (galea)",
+   "scurilz (clipeus)",
+   "schaniz (vagina)",
+   "bichzin (German gloss: buckela, buchgela)",
+   "squair (arcus)"
+  ],
+  "650": [
+   "fronich (frenum)",
+   "laiganz (atramentum)",
+   "kailamanz (torquular, torcular)"
+  ],
+  "675": [
+   "buschinz (mustum)",
+   "briczinz (ceruisia)",
+   "anic (German gloss: hopfo)",
+   "baczanz (German gloss: malz)",
+   "stogin (uinum)",
+   "alischol (uua)"
+  ],
+  "700": [
+   "seruiz (sepes)",
+   "comzimaz (domus)",
+   "coindanz (camenata)",
+   "kalchizinz (cellarium)",
+   "gauschuliz (camera)",
+   "preschaz (presepium)"
+  ],
+  "725": [
+   "buirizindiz (ignis)",
+   "flagur (flamma)",
+   "zinzia (cinis)",
+   "amolic (olla)",
+   "pruiuanz (amphora)",
+   "schoil (coclear)"
+  ],
+  "750": [
+   "lamischiz (abies)",
+   "pazimbuz (German gloss: nespelbŏm, nesbilbŏm)",
+   "schalmindibiz (amigdalus)",
+   "bauschuz (acer)",
+   "hamischa (alnus)",
+   "laizscia (tilia)"
+  ],
+  "775": [
+   "laschiabuz (ornus)",
+   "golinzia (platanus)",
+   "sparinichibuz (persicus)",
+   "zirumzibuz (pirus)",
+   "gimeldia (pinus)",
+   "scinzibuz (samina, sauina)"
+  ],
+  "800": [
+   "florisca (carpobalsamium)",
+   "zizria (cinnamomum)",
+   "crichzial (cardamomum)",
+   "cischinazariz (spicanardus)",
+   "diziauna (liquarica, likaricia)",
+   "bagiziz (piretrum)"
+  ],
+  "825": [
+   "zichio (plantago)",
+   "pluschia (poleia)",
+   "pigizia (German gloss: kuuenela, kwenela)",
+   "bouizia (German gloss: boberella)",
+   "sizia (German gloss: melda)",
+   "cuz (papauer)"
+  ],
+  "850": [
+   "gauriz (German gloss: gundereba)",
+   "nischil (German gloss: nebeta, nebetda)",
+   "grischol (saturera)",
+   "agonzia (aquileia)",
+   "maschin (German gloss: denmarka, denimarka)",
+   "framiz (German gloss: steinuurn, steivvarn)"
+  ],
+  "875": [
+   "marizima (German gloss: matra)",
+   "gurizlaniz (German gloss: hircescunga, hirzezunga)",
+   "pulicha (German gloss: lunchwrz, lunchwurz)",
+   "flichziz (cepe)",
+   "duziliuz (German gloss: snitdelŏch, snitdelouch)",
+   "clarisechil (allium)"
+  ],
+  "900": [
+   "cursez (milium)",
+   "pischir (apium)",
+   "pransiz (petrosilinum)",
+   "brumsil (German gloss: haselwrz, haselwurz)",
+   "graxia (uiola)",
+   "galschia (German gloss: gamandria)"
+  ],
+  "925": [
+   "frazinz (German gloss: cazenzagel, cacenzagel)",
+   "mazma (faba)",
+   "pixiz (pisa)",
+   "gullox (German gloss: kichera)",
+   "zuzil (lenis, lens)",
+   "circhza (German gloss: wichun)"
+  ],
+  "950": [
+   "brauz (turdus)",
+   "brauz (merula)",
+   "duschio (mergus)",
+   "ninxia (cornix)",
+   "urchio (ciconia)",
+   "gugurunz (strucio)"
+  ],
+  "975": [
+   "zamzit (pauo)",
+   "alzia (pica)",
+   "schuwil (onocrotalus)",
+   "nazischo (gallus)",
+   "gazun (pullus)",
+   "luschia (aneta)"
+  ],
+  "1000": [
+   "boiz (bruchus, brucus)"
+  ]
+ }
+}

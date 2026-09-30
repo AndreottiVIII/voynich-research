@@ -1,0 +1,11 @@
+Voynich ZL                                   R   0.98  quote: pri 0.0271 sec 0.0258 pen 0.0264 ult 0.0287  z primo 27.5  stab. 0.90-1.02
+Voynich ZL, Currier A                        R   0.76  quote: pri 0.0248 sec 0.0357 pen 0.0319 ult 0.0335  z primo 9.5  stab. 0.64-0.82
+Voynich ZL, Currier B                        R   1.03  quote: pri 0.0280 sec 0.0243 pen 0.0261 ult 0.0281  z primo 30.9  stab. 0.94-1.06
+controllo positivo: codice a prefisso semantico R  10.01  quote: pri 0.0508 sec 0.0032 pen 0.0041 ult 0.0060  z primo 65.6  stab. 9.13-10.94
+controllo positivo, versione preregistrata (D-007) R   9.73  quote: pri 0.0508 sec 0.0893 pen 0.0044 ult 0.0060  z primo 65.6  stab. 9.08-10.55
+controllo di forma: codice casuale           R   0.75  quote: pri 0.0028 sec 0.0025 pen 0.0034 ult 0.0042  z primo 4.9  stab. 0.60-0.79
+Plinio in latino, lettere                    R   1.01  quote: pri 0.0082 sec 0.0074 pen 0.0072 ult 0.0090  z primo 10.1  stab. 0.92-1.17
+Naibbe (Plinio XVI cifrato da Greshko)       R      —  quote: pri -0.0009 sec -0.0022 pen -0.0001 ult -0.0001  z primo -1.2  stab. -16.35--4.66
+Timm e Schinner, seme 19                     R   0.72  quote: pri 0.0667 sec 0.0944 pen 0.1057 ult 0.0800  z primo 85.7  stab. 0.69-0.74
+Timm e Schinner, seme 1                      R   0.77  quote: pri 0.0775 sec 0.1053 pen 0.1182 ult 0.0829  z primo 108.5  stab. 0.74-0.81
+Timm e Schinner, seme 2                      R   0.78  quote: pri 0.0748 sec 0.1027 pen 0.1131 ult 0.0779  z primo 97.2  stab. 0.74-0.82
