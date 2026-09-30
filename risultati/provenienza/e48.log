@@ -1,0 +1,53 @@
+Voynich                      h2 2,24  spazio_spi 66%  tipi_su_pa 21%  hapax 68%  identiche_ ×1,01  somiglianz 3,8%  somiglianz 3,4%  confine 0,188  unione_att 8,8%  lung_media 4,46  ordine_ris 78,5%  anagrammi 35,4%
+q 0.00, lambda 0.0, seme 19  h2 2,21  spazio_spi 60%  tipi_su_pa 13%  hapax 50%  identiche_ ×0,88  somiglianz 3,4%  somiglianz 3,5%  confine 0,179  unione_att 12,4%  lung_media 4,12  ordine_ris 74,7%  anagrammi 44,8%
+q 0.00, lambda 0.0, seme 1   h2 2,29  spazio_spi 58%  tipi_su_pa 14%  hapax 51%  identiche_ ×0,81  somiglianz 3,4%  somiglianz 2,9%  confine 0,181  unione_att 11,4%  lung_media 4,10  ordine_ris 74,4%  anagrammi 46,7%
+q 0.00, lambda 0.0, seme 2   h2 2,26  spazio_spi 56%  tipi_su_pa 14%  hapax 52%  identiche_ ×0,76  somiglianz 3,6%  somiglianz 3,5%  confine 0,176  unione_att 10,7%  lung_media 4,18  ordine_ris 73,8%  anagrammi 43,0%
+q 0.05, lambda 0.0, seme 19  h2 2,28  spazio_spi 57%  tipi_su_pa 16%  hapax 53%  identiche_ ×0,84  somiglianz 2,9%  somiglianz 2,8%  confine 0,170  unione_att 9,8%  lung_media 4,23  ordine_ris 76,2%  anagrammi 43,8%
+q 0.05, lambda 0.0, seme 1   h2 2,33  spazio_spi 56%  tipi_su_pa 17%  hapax 56%  identiche_ ×0,77  somiglianz 3,0%  somiglianz 2,8%  confine 0,179  unione_att 11,1%  lung_media 4,19  ordine_ris 76,1%  anagrammi 43,9%
+q 0.05, lambda 0.0, seme 2   h2 2,24  spazio_spi 57%  tipi_su_pa 16%  hapax 55%  identiche_ ×0,65  somiglianz 2,6%  somiglianz 2,4%  confine 0,164  unione_att 12,8%  lung_media 4,15  ordine_ris 75,7%  anagrammi 44,8%
+q 0.05, lambda 0.5, seme 19  h2 2,23  spazio_spi 58%  tipi_su_pa 15%  hapax 55%  identiche_ ×0,70  somiglianz 3,5%  somiglianz 3,2%  confine 0,160  unione_att 12,1%  lung_media 4,12  ordine_ris 75,8%  anagrammi 41,9%
+q 0.05, lambda 0.5, seme 1   h2 2,31  spazio_spi 55%  tipi_su_pa 15%  hapax 54%  identiche_ ×0,63  somiglianz 3,2%  somiglianz 3,0%  confine 0,176  unione_att 12,8%  lung_media 3,99  ordine_ris 75,9%  anagrammi 43,0%
+q 0.05, lambda 0.5, seme 2   h2 2,28  spazio_spi 56%  tipi_su_pa 16%  hapax 55%  identiche_ ×0,59  somiglianz 2,9%  somiglianz 2,6%  confine 0,169  unione_att 11,4%  lung_media 4,09  ordine_ris 75,4%  anagrammi 46,3%
+q 0.05, lambda 0.9, seme 19  h2 2,15  spazio_spi 58%  tipi_su_pa 13%  hapax 51%  identiche_ ×0,70  somiglianz 3,5%  somiglianz 3,5%  confine 0,163  unione_att 11,2%  lung_media 4,22  ordine_ris 75,9%  anagrammi 40,4%
+q 0.05, lambda 0.9, seme 1   h2 2,27  spazio_spi 55%  tipi_su_pa 16%  hapax 54%  identiche_ ×0,78  somiglianz 3,7%  somiglianz 3,6%  confine 0,170  unione_att 11,1%  lung_media 4,19  ordine_ris 74,4%  anagrammi 44,9%
+q 0.05, lambda 0.9, seme 2   h2 2,27  spazio_spi 57%  tipi_su_pa 15%  hapax 53%  identiche_ ×0,86  somiglianz 3,7%  somiglianz 3,4%  confine 0,165  unione_att 11,4%  lung_media 4,16  ordine_ris 75,2%  anagrammi 43,1%
+q 0.10, lambda 0.0, seme 19  h2 2,31  spazio_spi 60%  tipi_su_pa 17%  hapax 55%  identiche_ ×0,82  somiglianz 2,2%  somiglianz 2,2%  confine 0,156  unione_att 9,7%  lung_media 4,16  ordine_ris 76,9%  anagrammi 44,4%
+q 0.10, lambda 0.0, seme 1   h2 2,34  spazio_spi 57%  tipi_su_pa 18%  hapax 56%  identiche_ ×0,74  somiglianz 2,2%  somiglianz 2,0%  confine 0,157  unione_att 10,8%  lung_media 4,11  ordine_ris 76,6%  anagrammi 41,6%
+q 0.10, lambda 0.0, seme 2   h2 2,29  spazio_spi 60%  tipi_su_pa 17%  hapax 56%  identiche_ ×0,78  somiglianz 1,9%  somiglianz 1,8%  confine 0,152  unione_att 11,2%  lung_media 4,09  ordine_ris 76,5%  anagrammi 41,8%
+q 0.10, lambda 0.5, seme 19  h2 2,31  spazio_spi 60%  tipi_su_pa 17%  hapax 55%  identiche_ ×0,77  somiglianz 2,7%  somiglianz 2,7%  confine 0,157  unione_att 9,7%  lung_media 4,19  ordine_ris 77,0%  anagrammi 41,3%
+q 0.10, lambda 0.5, seme 1   h2 2,31  spazio_spi 59%  tipi_su_pa 17%  hapax 55%  identiche_ ×0,80  somiglianz 2,9%  somiglianz 2,6%  confine 0,143  unione_att 10,4%  lung_media 4,12  ordine_ris 76,9%  anagrammi 43,1%
+q 0.10, lambda 0.5, seme 2   h2 2,25  spazio_spi 60%  tipi_su_pa 16%  hapax 55%  identiche_ ×0,69  somiglianz 2,6%  somiglianz 2,5%  confine 0,147  unione_att 9,9%  lung_media 4,14  ordine_ris 77,5%  anagrammi 41,6%
+q 0.10, lambda 0.9, seme 19  h2 2,23  spazio_spi 57%  tipi_su_pa 15%  hapax 54%  identiche_ ×0,76  somiglianz 3,4%  somiglianz 3,2%  confine 0,159  unione_att 12,4%  lung_media 4,11  ordine_ris 74,9%  anagrammi 43,5%
+q 0.10, lambda 0.9, seme 1   h2 2,26  spazio_spi 54%  tipi_su_pa 16%  hapax 55%  identiche_ ×0,76  somiglianz 3,6%  somiglianz 3,5%  confine 0,144  unione_att 12,7%  lung_media 4,11  ordine_ris 74,7%  anagrammi 44,5%
+q 0.10, lambda 0.9, seme 2   h2 2,27  spazio_spi 57%  tipi_su_pa 16%  hapax 55%  identiche_ ×0,67  somiglianz 3,3%  somiglianz 3,2%  confine 0,155  unione_att 10,6%  lung_media 4,13  ordine_ris 76,1%  anagrammi 43,9%
+q 0.20, lambda 0.0, seme 19  h2 2,33  spazio_spi 60%  tipi_su_pa 19%  hapax 58%  identiche_ ×0,82  somiglianz 1,6%  somiglianz 1,6%  confine 0,128  unione_att 9,6%  lung_media 4,17  ordine_ris 76,7%  anagrammi 41,9%
+q 0.20, lambda 0.0, seme 1   h2 2,32  spazio_spi 60%  tipi_su_pa 18%  hapax 58%  identiche_ ×0,84  somiglianz 1,7%  somiglianz 1,6%  confine 0,136  unione_att 9,3%  lung_media 4,15  ordine_ris 77,2%  anagrammi 40,0%
+q 0.20, lambda 0.0, seme 2   h2 2,33  spazio_spi 59%  tipi_su_pa 19%  hapax 58%  identiche_ ×0,71  somiglianz 1,6%  somiglianz 1,4%  confine 0,131  unione_att 9,8%  lung_media 4,17  ordine_ris 76,6%  anagrammi 40,8%
+q 0.20, lambda 0.5, seme 19  h2 2,31  spazio_spi 58%  tipi_su_pa 18%  hapax 59%  identiche_ ×0,72  somiglianz 2,2%  somiglianz 2,1%  confine 0,124  unione_att 10,3%  lung_media 4,13  ordine_ris 76,7%  anagrammi 42,2%
+q 0.20, lambda 0.5, seme 1   h2 2,33  spazio_spi 56%  tipi_su_pa 19%  hapax 58%  identiche_ ×0,80  somiglianz 2,4%  somiglianz 2,4%  confine 0,120  unione_att 10,2%  lung_media 4,18  ordine_ris 76,1%  anagrammi 41,5%
+q 0.20, lambda 0.5, seme 2   h2 2,30  spazio_spi 56%  tipi_su_pa 18%  hapax 57%  identiche_ ×0,77  somiglianz 2,3%  somiglianz 2,1%  confine 0,121  unione_att 11,3%  lung_media 4,13  ordine_ris 76,0%  anagrammi 42,8%
+q 0.20, lambda 0.9, seme 19  h2 2,28  spazio_spi 57%  tipi_su_pa 16%  hapax 55%  identiche_ ×0,83  somiglianz 3,8%  somiglianz 3,7%  confine 0,108  unione_att 11,1%  lung_media 4,15  ordine_ris 76,0%  anagrammi 42,5%
+q 0.20, lambda 0.9, seme 1   h2 2,26  spazio_spi 59%  tipi_su_pa 17%  hapax 55%  identiche_ ×0,82  somiglianz 4,1%  somiglianz 4,1%  confine 0,105  unione_att 9,8%  lung_media 4,27  ordine_ris 76,6%  anagrammi 42,3%
+q 0.20, lambda 0.9, seme 2   h2 2,29  spazio_spi 57%  tipi_su_pa 16%  hapax 57%  identiche_ ×0,84  somiglianz 3,4%  somiglianz 3,2%  confine 0,110  unione_att 12,3%  lung_media 4,08  ordine_ris 75,6%  anagrammi 44,3%
+q 0.30, lambda 0.0, seme 19  h2 2,31  spazio_spi 60%  tipi_su_pa 19%  hapax 60%  identiche_ ×0,75  somiglianz 1,1%  somiglianz 1,0%  confine 0,104  unione_att 8,5%  lung_media 4,18  ordine_ris 77,5%  anagrammi 40,6%
+q 0.30, lambda 0.0, seme 1   h2 2,34  spazio_spi 60%  tipi_su_pa 19%  hapax 60%  identiche_ ×0,81  somiglianz 1,0%  somiglianz 1,0%  confine 0,114  unione_att 9,0%  lung_media 4,17  ordine_ris 76,8%  anagrammi 40,4%
+q 0.30, lambda 0.0, seme 2   h2 2,32  spazio_spi 60%  tipi_su_pa 19%  hapax 59%  identiche_ ×0,81  somiglianz 1,2%  somiglianz 1,1%  confine 0,110  unione_att 9,3%  lung_media 4,16  ordine_ris 77,5%  anagrammi 40,3%
+q 0.30, lambda 0.5, seme 19  h2 2,34  spazio_spi 57%  tipi_su_pa 20%  hapax 60%  identiche_ ×0,77  somiglianz 2,0%  somiglianz 2,0%  confine 0,093  unione_att 10,4%  lung_media 4,13  ordine_ris 76,3%  anagrammi 40,9%
+q 0.30, lambda 0.5, seme 1   h2 2,33  spazio_spi 58%  tipi_su_pa 19%  hapax 60%  identiche_ ×0,78  somiglianz 2,1%  somiglianz 1,8%  confine 0,098  unione_att 10,1%  lung_media 4,09  ordine_ris 76,9%  anagrammi 41,3%
+q 0.30, lambda 0.5, seme 2   h2 2,33  spazio_spi 57%  tipi_su_pa 19%  hapax 60%  identiche_ ×0,84  somiglianz 1,7%  somiglianz 1,6%  confine 0,091  unione_att 10,4%  lung_media 4,13  ordine_ris 76,7%  anagrammi 41,2%
+q 0.30, lambda 0.9, seme 19  h2 2,27  spazio_spi 55%  tipi_su_pa 17%  hapax 58%  identiche_ ×0,98  somiglianz 3,8%  somiglianz 3,6%  confine 0,085  unione_att 12,0%  lung_media 4,18  ordine_ris 75,7%  anagrammi 42,1%
+q 0.30, lambda 0.9, seme 1   h2 2,26  spazio_spi 53%  tipi_su_pa 17%  hapax 58%  identiche_ ×0,93  somiglianz 3,3%  somiglianz 3,3%  confine 0,078  unione_att 13,1%  lung_media 4,20  ordine_ris 75,8%  anagrammi 43,4%
+q 0.30, lambda 0.9, seme 2   h2 2,32  spazio_spi 55%  tipi_su_pa 18%  hapax 57%  identiche_ ×0,93  somiglianz 3,5%  somiglianz 3,6%  confine 0,082  unione_att 11,7%  lung_media 4,07  ordine_ris 75,8%  anagrammi 41,9%
+MEDIA q 0.00 lambda 0.0: rip 0.81 somigl 3.5%/3.3% h2 2.25 confine 0.179 hapax1000 0.63 hapax34000 0.51 
+MEDIA q 0.05 lambda 0.0: rip 0.75 somigl 2.8%/2.6% h2 2.28 confine 0.171 hapax1000 0.66 hapax34000 0.54 
+MEDIA q 0.05 lambda 0.5: rip 0.64 somigl 3.2%/3.0% h2 2.27 confine 0.168 hapax1000 0.65 hapax34000 0.55 
+MEDIA q 0.05 lambda 0.9: rip 0.78 somigl 3.6%/3.5% h2 2.23 confine 0.166 hapax1000 0.63 hapax34000 0.53 
+MEDIA q 0.10 lambda 0.0: rip 0.78 somigl 2.1%/2.0% h2 2.31 confine 0.155 hapax1000 0.67 hapax34000 0.56 
+MEDIA q 0.10 lambda 0.5: rip 0.76 somigl 2.8%/2.6% h2 2.29 confine 0.149 hapax1000 0.66 hapax34000 0.55 
+MEDIA q 0.10 lambda 0.9: rip 0.73 somigl 3.4%/3.3% h2 2.25 confine 0.153 hapax1000 0.65 hapax34000 0.55 
+MEDIA q 0.20 lambda 0.0: rip 0.79 somigl 1.6%/1.5% h2 2.33 confine 0.132 hapax1000 0.69 hapax34000 0.58 
+MEDIA q 0.20 lambda 0.5: rip 0.77 somigl 2.3%/2.2% h2 2.31 confine 0.121 hapax1000 0.68 hapax34000 0.58 
+MEDIA q 0.20 lambda 0.9: rip 0.83 somigl 3.8%/3.7% h2 2.28 confine 0.107 hapax1000 0.65 hapax34000 0.56 
+MEDIA q 0.30 lambda 0.0: rip 0.79 somigl 1.1%/1.0% h2 2.32 confine 0.109 hapax1000 0.70 hapax34000 0.60 
+MEDIA q 0.30 lambda 0.5: rip 0.80 somigl 1.9%/1.8% h2 2.33 confine 0.094 hapax1000 0.68 hapax34000 0.60 
+MEDIA q 0.30 lambda 0.9: rip 0.95 somigl 3.5%/3.5% h2 2.28 confine 0.082 hapax1000 0.65 hapax34000 0.58 
