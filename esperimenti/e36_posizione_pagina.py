@@ -221,13 +221,46 @@ def scrivi_tabella(ris):
             ' | '.join('%.4f' % q[k]['quota'] for k in ('primo', 'secondo', 'penultimo')),
             '%.4f' % q['ultimo']['quota'], q['primo']['z'], fmt(p['R']),
             fmt(p['stabilita']['min']), fmt(p['stabilita']['max'])))
-    with open(os.path.join(RISULTATI, 'e36_posizione_pagina.md'), 'w', encoding='utf-8') as f:
+    with open(os.path.join(RISULTATI, nome_file), 'w', encoding='utf-8') as f:
         f.write('\n'.join(righe) + '\n')
+
+
+# ---------------------------------------------------------------- esplorativo (non preregistrato)
+
+def a_strati_contigui(blocchi, n_strati):
+    """Stesse pagine, ma rimescolamento solo dentro n_strati tratti contigui del testo."""
+    pagine = sorted({b.gruppo for b in blocchi}, key=lambda g: (str(type(g)), g))
+    tratto = {g: i * n_strati // len(pagine) for i, g in enumerate(pagine)}
+    return [Blocco(b.gruppo, tratto[b.gruppo], b.grappolo, b.parole) for b in blocchi]
+
+
+def esplorativo():
+    """Confronto alla pari fra Voynich e generatore: la stessa stratificazione per entrambi.
+    Nella corsa ufficiale il Voynich era stratificato per sezione x lingua (9 strati) e il
+    generatore no; qui entrambi senza strati, ed entrambi con 9 tratti contigui."""
+    import e22_timm_schinner as e22
+    ris = {}
+    voy = blocchi_voynich()
+    ordine = {pag: i for i, pag in enumerate(dict.fromkeys(b.gruppo for b in voy))}
+    voy_ordinati = [Blocco(ordine[b.gruppo], b.strato, b.grappolo, b.parole) for b in voy]
+    senza = [Blocco(b.gruppo, 0, b.grappolo, b.parole) for b in voy_ordinati]
+    misura('Voynich ZL, senza strati', senza, ris)
+    misura('Voynich ZL, 9 tratti contigui', a_strati_contigui(senza, 9), ris)
+    for seme in (19, 1, 2):
+        ts = blocchi_da_pagine(e22.genera(seme), DIVIDI)
+        misura('Timm e Schinner %d, senza strati' % seme, ts, ris)
+        misura('Timm e Schinner %d, 9 tratti contigui' % seme, a_strati_contigui(ts, 9), ris)
+    with open(os.path.join(RISULTATI, 'e36_posizione_pagina_esplorativo.json'), 'w', encoding='utf-8') as f:
+        json.dump(ris, f, ensure_ascii=False, indent=1, default=str)
+    scrivi_tabella(ris, 'e36_posizione_pagina_esplorativo.md',
+                   '# e36, analisi esplorativa (non preregistrata): Voynich e generatore alla pari')
 
 
 if __name__ == '__main__':
     if '--tabella' in sys.argv:
         with open(os.path.join(RISULTATI, 'e36_posizione_pagina.json'), encoding='utf-8') as f:
             scrivi_tabella(json.load(f))
+    elif '--esplorativo' in sys.argv:
+        esplorativo()
     else:
         main()
