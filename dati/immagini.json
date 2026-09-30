@@ -13,6 +13,13 @@
   "sha256": "b6d246d3106d8b335eaf10dcb54aa1a33ae904136e2ddad51d42d0729cd037a1",
   "byte": 237468
  },
+ "101v (part)": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006250",
+  "url": "https://collections.library.yale.edu/iiif/2/1006250/full/1500,/0/default.jpg",
+  "file": "101v__part.jpg",
+  "sha256": "2ad2155fc7bb190166275bd34ce6c53db8be03bb4f09a62c3e73d30a77ba2cdd",
+  "byte": 806928
+ },
  "101v (part) and 102r": {
   "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006251",
   "url": "https://collections.library.yale.edu/iiif/2/1006251/full/1500,/0/default.jpg",
@@ -34,6 +41,279 @@
   "sha256": "3acf2993040f520a4932d2c3d10e02b47a89eb098e5a8d1621e57c335cdb25db",
   "byte": 692710
  },
+ "103r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006254",
+  "url": "https://collections.library.yale.edu/iiif/2/1006254/full/1500,/0/default.jpg",
+  "file": "103r.jpg",
+  "sha256": "aea27ebafe07b0d3fde9f522378d13a0cbb744ba3f282c766c88a9ff687d003f",
+  "byte": 792041
+ },
+ "103v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006255",
+  "url": "https://collections.library.yale.edu/iiif/2/1006255/full/1500,/0/default.jpg",
+  "file": "103v.jpg",
+  "sha256": "18af6c6b0e2833d3ad8339f904694626f410f97e876a862250618e6aea59a4aa",
+  "byte": 790000
+ },
+ "104r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006256",
+  "url": "https://collections.library.yale.edu/iiif/2/1006256/full/1500,/0/default.jpg",
+  "file": "104r.jpg",
+  "sha256": "af4a05792aed83523913f1af0f01026ad7bd9b2ea0d4f34f42c6c7b4d2616ad4",
+  "byte": 860434
+ },
+ "104v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006257",
+  "url": "https://collections.library.yale.edu/iiif/2/1006257/full/1500,/0/default.jpg",
+  "file": "104v.jpg",
+  "sha256": "85b81846dfbb8e46b18ea8930c7ce301e9f43dacc02caccfecd5535fba97681e",
+  "byte": 761792
+ },
+ "105r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006258",
+  "url": "https://collections.library.yale.edu/iiif/2/1006258/full/1500,/0/default.jpg",
+  "file": "105r.jpg",
+  "sha256": "5e98ce9450642ce4f1e554eaa0d3eaa849076daad104bd716a4209a596c7d48d",
+  "byte": 828551
+ },
+ "105v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006259",
+  "url": "https://collections.library.yale.edu/iiif/2/1006259/full/1500,/0/default.jpg",
+  "file": "105v.jpg",
+  "sha256": "fe73dc7c40dfdc4fa3ddb5f8ee77b1597006d73dc2a7afd18bf6ab8e40d75a1c",
+  "byte": 744655
+ },
+ "106r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006260",
+  "url": "https://collections.library.yale.edu/iiif/2/1006260/full/1500,/0/default.jpg",
+  "file": "106r.jpg",
+  "sha256": "92544fe6d7f50d3317e54bda97d917852adbe4111900ce5e450a2a728d61bbf6",
+  "byte": 822372
+ },
+ "106v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006261",
+  "url": "https://collections.library.yale.edu/iiif/2/1006261/full/1500,/0/default.jpg",
+  "file": "106v.jpg",
+  "sha256": "a2a249e782d930d18271b65136b9c43584f8602a749e100fa4799ccfa49af3b6",
+  "byte": 730082
+ },
+ "107r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006262",
+  "url": "https://collections.library.yale.edu/iiif/2/1006262/full/1500,/0/default.jpg",
+  "file": "107r.jpg",
+  "sha256": "f4d483d5317613fc24ddb5777067292a6b256dde9fe28e23d49cfb9547775952",
+  "byte": 767717
+ },
+ "107v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006263",
+  "url": "https://collections.library.yale.edu/iiif/2/1006263/full/1500,/0/default.jpg",
+  "file": "107v.jpg",
+  "sha256": "973a14e7b86299086b8261057d68753fbf4c98ccdf7d087e12e614b1525131bf",
+  "byte": 804367
+ },
+ "108r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006264",
+  "url": "https://collections.library.yale.edu/iiif/2/1006264/full/1500,/0/default.jpg",
+  "file": "108r.jpg",
+  "sha256": "3cd5df1a7ef9d838b6730e21320ba30a63bb600a70f5f1b7c9f8648339d6369c",
+  "byte": 864539
+ },
+ "108v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006265",
+  "url": "https://collections.library.yale.edu/iiif/2/1006265/full/1500,/0/default.jpg",
+  "file": "108v.jpg",
+  "sha256": "358e38836f4164dfe1c9da47e54e4fdcbe907663a5c93fd9c5f002bd2cdfa818",
+  "byte": 835411
+ },
+ "10r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006094",
+  "url": "https://collections.library.yale.edu/iiif/2/1006094/full/1500,/0/default.jpg",
+  "file": "10r.jpg",
+  "sha256": "20806ac1b6481d5164d096755b17a6e9a50b42c8a13a501ce0d5b063182e0ea5",
+  "byte": 749607
+ },
+ "10v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006095",
+  "url": "https://collections.library.yale.edu/iiif/2/1006095/full/1500,/0/default.jpg",
+  "file": "10v.jpg",
+  "sha256": "25635662e5b826e5dd3d50f5c2bf32a9904d0a3fcef13336f3c1f037dcab709b",
+  "byte": 655721
+ },
+ "111r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006266",
+  "url": "https://collections.library.yale.edu/iiif/2/1006266/full/1500,/0/default.jpg",
+  "file": "111r.jpg",
+  "sha256": "1db40a1be6f1c00f81c679ac5c2eba532ca61c91ba3050ded00a3fac61deeaf1",
+  "byte": 840967
+ },
+ "111v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006267",
+  "url": "https://collections.library.yale.edu/iiif/2/1006267/full/1500,/0/default.jpg",
+  "file": "111v.jpg",
+  "sha256": "4d61798bd150c7da9f3367358d08fa7008767bf56a7eb842996a9618b6adc86b",
+  "byte": 842173
+ },
+ "112r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006268",
+  "url": "https://collections.library.yale.edu/iiif/2/1006268/full/1500,/0/default.jpg",
+  "file": "112r.jpg",
+  "sha256": "bf83a8fe046ea21fbe55c569c98e7daf6c0574d0fe616eabd12a0c12b4b0db4d",
+  "byte": 808545
+ },
+ "112v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006269",
+  "url": "https://collections.library.yale.edu/iiif/2/1006269/full/1500,/0/default.jpg",
+  "file": "112v.jpg",
+  "sha256": "ca5112d1a2aaa87a3c252e3c7d1a2749cb82f50c4f74253fab87a0132a74e542",
+  "byte": 691485
+ },
+ "113r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006270",
+  "url": "https://collections.library.yale.edu/iiif/2/1006270/full/1500,/0/default.jpg",
+  "file": "113r.jpg",
+  "sha256": "d5a5be5e0e005cc391ffbbb2f0b2d15aafa3abe287a31094299e2816f7e1cd45",
+  "byte": 767875
+ },
+ "113v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006271",
+  "url": "https://collections.library.yale.edu/iiif/2/1006271/full/1500,/0/default.jpg",
+  "file": "113v.jpg",
+  "sha256": "1c96a2d2404d81acb9ce6f82b2134ee806bbde245d8e0339b2c1bf18f6688d63",
+  "byte": 781992
+ },
+ "114r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006272",
+  "url": "https://collections.library.yale.edu/iiif/2/1006272/full/1500,/0/default.jpg",
+  "file": "114r.jpg",
+  "sha256": "5456648b15aea11c12abac0dd1861a48f86ba56fc97517fe9335bc91936388b7",
+  "byte": 782772
+ },
+ "114v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006273",
+  "url": "https://collections.library.yale.edu/iiif/2/1006273/full/1500,/0/default.jpg",
+  "file": "114v.jpg",
+  "sha256": "dc028b64d3f5bed1c72fdf5de2f1117d7cf01c3d788eff5cdca5db798381a55b",
+  "byte": 791836
+ },
+ "115r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006274",
+  "url": "https://collections.library.yale.edu/iiif/2/1006274/full/1500,/0/default.jpg",
+  "file": "115r.jpg",
+  "sha256": "b0a1deefcf5080baaea356cce15a7d056ae663b246afa17d1552f6bb5ca75494",
+  "byte": 756618
+ },
+ "115v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006275",
+  "url": "https://collections.library.yale.edu/iiif/2/1006275/full/1500,/0/default.jpg",
+  "file": "115v.jpg",
+  "sha256": "750b5e0643675a3cdff7e1750d33ed07e649d2ab577b736950268392fcbd7901",
+  "byte": 750607
+ },
+ "116r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006276",
+  "url": "https://collections.library.yale.edu/iiif/2/1006276/full/1500,/0/default.jpg",
+  "file": "116r.jpg",
+  "sha256": "31df7dc32b50843e82d35c1ef424f5334efca56a7a8ae09df7a5c8a4b1097d25",
+  "byte": 787666
+ },
+ "116v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006277",
+  "url": "https://collections.library.yale.edu/iiif/2/1006277/full/1500,/0/default.jpg",
+  "file": "116v.jpg",
+  "sha256": "9ea7930441de0c2ab0743bc7a172f0deaa58be7162a3de35194186d1182565ca",
+  "byte": 625286
+ },
+ "11r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006096",
+  "url": "https://collections.library.yale.edu/iiif/2/1006096/full/1500,/0/default.jpg",
+  "file": "11r.jpg",
+  "sha256": "b376f4aa0124638f80cc8364d29f6fa39334ed5b7f6cb55bf0b1527cc421bca5",
+  "byte": 728709
+ },
+ "11v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006097",
+  "url": "https://collections.library.yale.edu/iiif/2/1006097/full/1500,/0/default.jpg",
+  "file": "11v.jpg",
+  "sha256": "384986fd3605dc654bfb656282d5ffa131a9c3c0a06177dc90803b20f089641c",
+  "byte": 723914
+ },
+ "13r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006098",
+  "url": "https://collections.library.yale.edu/iiif/2/1006098/full/1500,/0/default.jpg",
+  "file": "13r.jpg",
+  "sha256": "7f64c0d3bb0cb95625a12939f3516366b9b3c031ff3a3388a41a28a5eec3dc96",
+  "byte": 773277
+ },
+ "13v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006099",
+  "url": "https://collections.library.yale.edu/iiif/2/1006099/full/1500,/0/default.jpg",
+  "file": "13v.jpg",
+  "sha256": "7f0f946aa3b86b1f1fd92639ebb6c5e02d7d153c95faa36f5e4fe10117628615",
+  "byte": 777703
+ },
+ "14r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006100",
+  "url": "https://collections.library.yale.edu/iiif/2/1006100/full/1500,/0/default.jpg",
+  "file": "14r.jpg",
+  "sha256": "dec6cdaa4d09d5fabaf30c4878fc2b9f9850b966bcbe861c7faadaf0a6d3ea8c",
+  "byte": 867182
+ },
+ "14v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006101",
+  "url": "https://collections.library.yale.edu/iiif/2/1006101/full/1500,/0/default.jpg",
+  "file": "14v.jpg",
+  "sha256": "506b7da98d87c05a111092203ad8b54e940d62de7dd2931abb462914d76ef16c",
+  "byte": 679400
+ },
+ "15r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006102",
+  "url": "https://collections.library.yale.edu/iiif/2/1006102/full/1500,/0/default.jpg",
+  "file": "15r.jpg",
+  "sha256": "5f3494b38fd8c459ece6b6a181724dfb1d654d12e53244cddc28ac4f775ebd10",
+  "byte": 696598
+ },
+ "15v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006103",
+  "url": "https://collections.library.yale.edu/iiif/2/1006103/full/1500,/0/default.jpg",
+  "file": "15v.jpg",
+  "sha256": "c538cb2267db5407937e1e7601b1c97ef2f0ac970fc9ef64e7b75e1c864a6dc3",
+  "byte": 706639
+ },
+ "16r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006104",
+  "url": "https://collections.library.yale.edu/iiif/2/1006104/full/1500,/0/default.jpg",
+  "file": "16r.jpg",
+  "sha256": "2d3757d8a42458fb1debe01000558067c438969b722a95debb0f5ee4fd6d68af",
+  "byte": 711275
+ },
+ "16v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006105",
+  "url": "https://collections.library.yale.edu/iiif/2/1006105/full/1500,/0/default.jpg",
+  "file": "16v.jpg",
+  "sha256": "17c6636368f1ef6cc4f5f3f923262abc6e3cba9ba754ea6585b0889f07719d45",
+  "byte": 733898
+ },
+ "17r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006106",
+  "url": "https://collections.library.yale.edu/iiif/2/1006106/full/1500,/0/default.jpg",
+  "file": "17r.jpg",
+  "sha256": "b04f49c60598bbbf665569b529aa3cf1557bc315fa740dee6ac8265fb247d528",
+  "byte": 737068
+ },
+ "17v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006107",
+  "url": "https://collections.library.yale.edu/iiif/2/1006107/full/1500,/0/default.jpg",
+  "file": "17v.jpg",
+  "sha256": "d6d3bae85ab8e3196de0c223478c5ff827f18c7baf0c4a22fdca1d84f636f84b",
+  "byte": 654914
+ },
+ "18r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006108",
+  "url": "https://collections.library.yale.edu/iiif/2/1006108/full/1500,/0/default.jpg",
+  "file": "18r.jpg",
+  "sha256": "df26f76da36ff6994965f018869ef55b5332038e0bda034eee901b59b5efce64",
+  "byte": 662525
+ },
  "18v": {
   "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006109",
   "url": "https://collections.library.yale.edu/iiif/2/1006109/full/1500,/0/default.jpg",
@@ -48,12 +328,68 @@
   "sha256": "b08dd13ef59fb5a98d4ee344a1a0dad670912238ad8a033d2601fa82223bbafe",
   "byte": 678460
  },
+ "19v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006111",
+  "url": "https://collections.library.yale.edu/iiif/2/1006111/full/1500,/0/default.jpg",
+  "file": "19v.jpg",
+  "sha256": "ab94edd5641e84662dbf181bc66ee6d42df490df45b5d08bc3833a0eefc0c99d",
+  "byte": 677516
+ },
+ "1r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006076",
+  "url": "https://collections.library.yale.edu/iiif/2/1006076/full/1500,/0/default.jpg",
+  "file": "1r.jpg",
+  "sha256": "f99fcdfce1b6c83494771ed4a21596904e2ef6c03099380ed364db64478a4aee",
+  "byte": 602220
+ },
  "1v": {
   "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006077",
   "url": "https://collections.library.yale.edu/iiif/2/1006077/full/1500,/0/default.jpg",
   "file": "1v.jpg",
   "sha256": "773a92648ed3014c929f75cde161153b22118382c1269894e15213ff34ae64d9",
   "byte": 693937
+ },
+ "20r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006112",
+  "url": "https://collections.library.yale.edu/iiif/2/1006112/full/1500,/0/default.jpg",
+  "file": "20r.jpg",
+  "sha256": "74632889513193b7409f3705bc99fdc5cef7176fb8dff23868be5266cf2b4204",
+  "byte": 744306
+ },
+ "20v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006113",
+  "url": "https://collections.library.yale.edu/iiif/2/1006113/full/1500,/0/default.jpg",
+  "file": "20v.jpg",
+  "sha256": "9074c6cd44cac0027162e741539ea11baf8cd6a5be2c3383eed8a7566a80e59b",
+  "byte": 671871
+ },
+ "21r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006114",
+  "url": "https://collections.library.yale.edu/iiif/2/1006114/full/1500,/0/default.jpg",
+  "file": "21r.jpg",
+  "sha256": "2fb3608b345cd0e337b2dc275070f8952acf59b9560718f659fb3bce285bb86a",
+  "byte": 734036
+ },
+ "21v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006115",
+  "url": "https://collections.library.yale.edu/iiif/2/1006115/full/1500,/0/default.jpg",
+  "file": "21v.jpg",
+  "sha256": "f8f665924989cd6ffe22261d1ee5cb7bb1405a97099d0001cc4562233dd819cd",
+  "byte": 736391
+ },
+ "22r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006116",
+  "url": "https://collections.library.yale.edu/iiif/2/1006116/full/1500,/0/default.jpg",
+  "file": "22r.jpg",
+  "sha256": "9982030dc91881139804bcab671927443e84aada50c4a45289632ae6c8eeacd0",
+  "byte": 765917
+ },
+ "22v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006117",
+  "url": "https://collections.library.yale.edu/iiif/2/1006117/full/1500,/0/default.jpg",
+  "file": "22v.jpg",
+  "sha256": "fec64f8e181dbba9f4a42b874127e044322e1b60716834422ccc874e593f2ce1",
+  "byte": 671003
  },
  "23r": {
   "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006118",
@@ -62,12 +398,215 @@
   "sha256": "eef36d80fdca358bb4b29a11b8e15472e2ed7ee8dd94e486d95d63da9ed00578",
   "byte": 769452
  },
+ "23v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006119",
+  "url": "https://collections.library.yale.edu/iiif/2/1006119/full/1500,/0/default.jpg",
+  "file": "23v.jpg",
+  "sha256": "409799cf7dfcb311cf98aa96e22143d1299d7c45b28b972779155f287795a5d4",
+  "byte": 679044
+ },
+ "24r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006120",
+  "url": "https://collections.library.yale.edu/iiif/2/1006120/full/1500,/0/default.jpg",
+  "file": "24r.jpg",
+  "sha256": "7b072561244ee1480b513a17dce3c8403ebb862e5b156fb5ee207540394ad412",
+  "byte": 668464
+ },
+ "24v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006121",
+  "url": "https://collections.library.yale.edu/iiif/2/1006121/full/1500,/0/default.jpg",
+  "file": "24v.jpg",
+  "sha256": "3d8e13d6bd63d1462d39294966332561ca4dc792a03fb3f62ce90c9676bdda39",
+  "byte": 698943
+ },
+ "25r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006122",
+  "url": "https://collections.library.yale.edu/iiif/2/1006122/full/1500,/0/default.jpg",
+  "file": "25r.jpg",
+  "sha256": "42144e684141f917d965fd6e3aaf14b8cf56ac34f593d908920e0f6c2b551842",
+  "byte": 660469
+ },
+ "25v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006123",
+  "url": "https://collections.library.yale.edu/iiif/2/1006123/full/1500,/0/default.jpg",
+  "file": "25v.jpg",
+  "sha256": "951ecda11c47b537dd7b570189a3b091c7df6fc5ab7090b0ab433a3fe48bcdba",
+  "byte": 713261
+ },
+ "26r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006124",
+  "url": "https://collections.library.yale.edu/iiif/2/1006124/full/1500,/0/default.jpg",
+  "file": "26r.jpg",
+  "sha256": "929aa263645bdd4288723c128df6956abcb1dcfd22ab52268ce223730fc28412",
+  "byte": 750479
+ },
+ "26v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006125",
+  "url": "https://collections.library.yale.edu/iiif/2/1006125/full/1500,/0/default.jpg",
+  "file": "26v.jpg",
+  "sha256": "1661654c8e9ecfa2d2d8a45aaf069930e60bb5718b8d111bdc11d6c29aa32d02",
+  "byte": 710422
+ },
+ "27r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006126",
+  "url": "https://collections.library.yale.edu/iiif/2/1006126/full/1500,/0/default.jpg",
+  "file": "27r.jpg",
+  "sha256": "df4bcd50f7b5cd96b81b6d3d7c75c3e7f99acdc277924a46eaeb35c89b43835e",
+  "byte": 703449
+ },
+ "27v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006127",
+  "url": "https://collections.library.yale.edu/iiif/2/1006127/full/1500,/0/default.jpg",
+  "file": "27v.jpg",
+  "sha256": "b7d89673eb7b3f55d076fc094ec7e53a2bc4508f847a5194f907b1b71381f6c9",
+  "byte": 748412
+ },
+ "28r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006128",
+  "url": "https://collections.library.yale.edu/iiif/2/1006128/full/1500,/0/default.jpg",
+  "file": "28r.jpg",
+  "sha256": "6b1e5913a38b36ab7dfd2c514a4d97a6d5c0ec0e916e5a20cc1080f32f7ad23e",
+  "byte": 760857
+ },
+ "28v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006129",
+  "url": "https://collections.library.yale.edu/iiif/2/1006129/full/1500,/0/default.jpg",
+  "file": "28v.jpg",
+  "sha256": "5bc1e98c2f45e460fd8ed5f95cee3f470ca5125376357dbe5fe737f033b17f8b",
+  "byte": 667750
+ },
+ "29r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006130",
+  "url": "https://collections.library.yale.edu/iiif/2/1006130/full/1500,/0/default.jpg",
+  "file": "29r.jpg",
+  "sha256": "e81c4da144c93ae88913430cf2b684624b9f9312d56860f455aa5140c5b12979",
+  "byte": 718307
+ },
+ "29v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006131",
+  "url": "https://collections.library.yale.edu/iiif/2/1006131/full/1500,/0/default.jpg",
+  "file": "29v.jpg",
+  "sha256": "0eb49aeb1206ae98192707ff6de9028f3178f2ac9f8b363c8b48dfd307dc1928",
+  "byte": 748997
+ },
+ "2r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006078",
+  "url": "https://collections.library.yale.edu/iiif/2/1006078/full/1500,/0/default.jpg",
+  "file": "2r.jpg",
+  "sha256": "26ab58d5bef5fb209ab1a141e02f647ff06c11081b412a811e0c6022eb33e41a",
+  "byte": 696316
+ },
+ "2v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006079",
+  "url": "https://collections.library.yale.edu/iiif/2/1006079/full/1500,/0/default.jpg",
+  "file": "2v.jpg",
+  "sha256": "491d5f04446fe237450257cf37b58d195bf0fc5783e3cae19271c3483e5fabef",
+  "byte": 738924
+ },
+ "30r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006132",
+  "url": "https://collections.library.yale.edu/iiif/2/1006132/full/1500,/0/default.jpg",
+  "file": "30r.jpg",
+  "sha256": "b6cc9114332b6f7c0b9b87cca501255ab09697c1fa2526721cac9469fe9df625",
+  "byte": 788337
+ },
+ "30v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006133",
+  "url": "https://collections.library.yale.edu/iiif/2/1006133/full/1500,/0/default.jpg",
+  "file": "30v.jpg",
+  "sha256": "76d398b7bf1475961af8954eb09ec7b0617086f5ab65e15f2a5ab02fa49f390e",
+  "byte": 715527
+ },
+ "31r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006134",
+  "url": "https://collections.library.yale.edu/iiif/2/1006134/full/1500,/0/default.jpg",
+  "file": "31r.jpg",
+  "sha256": "172e198ce5e9d7e42a106c47ee85fdcfb570f0600b38e18c4301b2a72a8807a4",
+  "byte": 742052
+ },
+ "31v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006135",
+  "url": "https://collections.library.yale.edu/iiif/2/1006135/full/1500,/0/default.jpg",
+  "file": "31v.jpg",
+  "sha256": "41ea2cd62f95d66297512647843458caeec58d8e2c4291d2c2703e1b30a94676",
+  "byte": 744399
+ },
+ "32r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006136",
+  "url": "https://collections.library.yale.edu/iiif/2/1006136/full/1500,/0/default.jpg",
+  "file": "32r.jpg",
+  "sha256": "5375e3fb9ce12bceb45a787681524cc34ff6129146447be064ef15b85013ec32",
+  "byte": 788743
+ },
  "32v": {
   "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006137",
   "url": "https://collections.library.yale.edu/iiif/2/1006137/full/1500,/0/default.jpg",
   "file": "32v.jpg",
   "sha256": "af1f1f5d893f0e1912e367fc77c6d64194a0da929f3a93b745c18e7cb82cae9b",
   "byte": 702809
+ },
+ "33r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006138",
+  "url": "https://collections.library.yale.edu/iiif/2/1006138/full/1500,/0/default.jpg",
+  "file": "33r.jpg",
+  "sha256": "482910f87f0d6beffcdf067b137f3ddab03f828e0d210479cb0f6bb6e631ea32",
+  "byte": 743131
+ },
+ "33v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006139",
+  "url": "https://collections.library.yale.edu/iiif/2/1006139/full/1500,/0/default.jpg",
+  "file": "33v.jpg",
+  "sha256": "51911b8ff74f13a811f9d7765bb54f4e68fa564b4023ef970df1a9abfa128ce6",
+  "byte": 740854
+ },
+ "34r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006140",
+  "url": "https://collections.library.yale.edu/iiif/2/1006140/full/1500,/0/default.jpg",
+  "file": "34r.jpg",
+  "sha256": "c683971d587c37a056b46258f984de5a6b90dbb57b1cba83a78c20b05791c56b",
+  "byte": 813957
+ },
+ "34v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006141",
+  "url": "https://collections.library.yale.edu/iiif/2/1006141/full/1500,/0/default.jpg",
+  "file": "34v.jpg",
+  "sha256": "a19b6e17a7cd8d1942d140982b0575454074549a9bf1e5824c19e595dd66d0b1",
+  "byte": 718418
+ },
+ "35r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006142",
+  "url": "https://collections.library.yale.edu/iiif/2/1006142/full/1500,/0/default.jpg",
+  "file": "35r.jpg",
+  "sha256": "39fc2b7e357b2e314f9e59c14d61492ab98e5dc29f6c6b4829b226e8b07906f9",
+  "byte": 712949
+ },
+ "35v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006143",
+  "url": "https://collections.library.yale.edu/iiif/2/1006143/full/1500,/0/default.jpg",
+  "file": "35v.jpg",
+  "sha256": "b8e96234577f28f7f975522257ff2b7d27a2cf7ce225550daab891b2d9da7dce",
+  "byte": 726289
+ },
+ "36r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006144",
+  "url": "https://collections.library.yale.edu/iiif/2/1006144/full/1500,/0/default.jpg",
+  "file": "36r.jpg",
+  "sha256": "d2fcb65324866f57e585059d223fe0ad72a56e65a2e047e07127084a1df3e705",
+  "byte": 691216
+ },
+ "36v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006145",
+  "url": "https://collections.library.yale.edu/iiif/2/1006145/full/1500,/0/default.jpg",
+  "file": "36v.jpg",
+  "sha256": "2a836c4faf5e752683d2db15d1eaec54a127c497952ab38db0a5ad65c9c4233d",
+  "byte": 731396
+ },
+ "37r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006146",
+  "url": "https://collections.library.yale.edu/iiif/2/1006146/full/1500,/0/default.jpg",
+  "file": "37r.jpg",
+  "sha256": "8e1933092552d98342f12dd83440014b80bf377297b5e2fb3dc82c0fd1a5e471",
+  "byte": 730514
  },
  "37v": {
   "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006147",
@@ -76,6 +615,20 @@
   "sha256": "919c3e375521d618f3de82864811337429afe1862bd004cf5de5fc00b589ff2d",
   "byte": 646240
  },
+ "38r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006148",
+  "url": "https://collections.library.yale.edu/iiif/2/1006148/full/1500,/0/default.jpg",
+  "file": "38r.jpg",
+  "sha256": "40feaef51f8c70112bdc5a04b9430b534820eab26eee24e641e19264318f75e9",
+  "byte": 742750
+ },
+ "38v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006149",
+  "url": "https://collections.library.yale.edu/iiif/2/1006149/full/1500,/0/default.jpg",
+  "file": "38v.jpg",
+  "sha256": "89e0367998851e75e81a39128032bfab2730d30c9107b9646237740d70b65909",
+  "byte": 675218
+ },
  "39r": {
   "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006150",
   "url": "https://collections.library.yale.edu/iiif/2/1006150/full/1500,/0/default.jpg",
@@ -83,12 +636,131 @@
   "sha256": "61583d5e87fe48d5bba14d2ffc2caeea9bcaeb68f84fa9d4fb49f4dc3605f828",
   "byte": 697981
  },
+ "39v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006151",
+  "url": "https://collections.library.yale.edu/iiif/2/1006151/full/1500,/0/default.jpg",
+  "file": "39v.jpg",
+  "sha256": "b555dacef202fcad0e498f399a864b59f20ddfd585d77aacf9611d9310b6ef19",
+  "byte": 748696
+ },
+ "3r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006080",
+  "url": "https://collections.library.yale.edu/iiif/2/1006080/full/1500,/0/default.jpg",
+  "file": "3r.jpg",
+  "sha256": "9365b480373faae0837a692834a5cbb319b0e72865441ec1286be0f86106c75e",
+  "byte": 704858
+ },
  "3v": {
   "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006081",
   "url": "https://collections.library.yale.edu/iiif/2/1006081/full/1500,/0/default.jpg",
   "file": "3v.jpg",
   "sha256": "59281ee1ed2bbb82315d0d3e199e2a3928824e775c8999cfe2a18c048187ca93",
   "byte": 695119
+ },
+ "40r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006152",
+  "url": "https://collections.library.yale.edu/iiif/2/1006152/full/1500,/0/default.jpg",
+  "file": "40r.jpg",
+  "sha256": "51f31e57ebab89a05dbc32d6c9ce7a7e01815752da5051a9b3452d1fc99f61c7",
+  "byte": 716730
+ },
+ "40v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006153",
+  "url": "https://collections.library.yale.edu/iiif/2/1006153/full/1500,/0/default.jpg",
+  "file": "40v.jpg",
+  "sha256": "11adc4cddf7988dfb9c6c1974a39921426d2181aac9dbbfc64157cb17a2f49a7",
+  "byte": 730135
+ },
+ "41r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006154",
+  "url": "https://collections.library.yale.edu/iiif/2/1006154/full/1500,/0/default.jpg",
+  "file": "41r.jpg",
+  "sha256": "ca3af1f376fd4d9203e40eb6774e0dc7b6ee346e33ad61ad5b6bdc62c73c9707",
+  "byte": 675838
+ },
+ "41v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006155",
+  "url": "https://collections.library.yale.edu/iiif/2/1006155/full/1500,/0/default.jpg",
+  "file": "41v.jpg",
+  "sha256": "052fe3e78c6be4f9d7cb0294e69190c3e539121de9955796e43a033b626c13a6",
+  "byte": 704207
+ },
+ "42r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006156",
+  "url": "https://collections.library.yale.edu/iiif/2/1006156/full/1500,/0/default.jpg",
+  "file": "42r.jpg",
+  "sha256": "3b788fb5d5a3df296dc26beb75406e79a8a35eab76f3e374acf2a868ad44f3e9",
+  "byte": 665050
+ },
+ "42v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006157",
+  "url": "https://collections.library.yale.edu/iiif/2/1006157/full/1500,/0/default.jpg",
+  "file": "42v.jpg",
+  "sha256": "af5d6744c8132ee26a0144a06313aa8679afb0f2491066c0bc7b3d8fd55c68f1",
+  "byte": 678175
+ },
+ "43r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006158",
+  "url": "https://collections.library.yale.edu/iiif/2/1006158/full/1500,/0/default.jpg",
+  "file": "43r.jpg",
+  "sha256": "b905b92ec36ad4c02dbd51448f5a97360ed798d39b2fa3ae07cb9cd9c1da895a",
+  "byte": 781050
+ },
+ "43v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006159",
+  "url": "https://collections.library.yale.edu/iiif/2/1006159/full/1500,/0/default.jpg",
+  "file": "43v.jpg",
+  "sha256": "e431479f02799727b7b2892fd596fd316af7ccb1ee074e37c62fb9b687cc0195",
+  "byte": 684917
+ },
+ "44r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006160",
+  "url": "https://collections.library.yale.edu/iiif/2/1006160/full/1500,/0/default.jpg",
+  "file": "44r.jpg",
+  "sha256": "969bccd2edabbf02f9f9f91fb61c58b8d90b9015ea009e7f7ceb8d14c72385be",
+  "byte": 719972
+ },
+ "44v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006161",
+  "url": "https://collections.library.yale.edu/iiif/2/1006161/full/1500,/0/default.jpg",
+  "file": "44v.jpg",
+  "sha256": "6e6fb8ec8902a6d19b329d44b588b1f7f04cfe135940da01f7265ae1e921ea87",
+  "byte": 664210
+ },
+ "45r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006162",
+  "url": "https://collections.library.yale.edu/iiif/2/1006162/full/1500,/0/default.jpg",
+  "file": "45r.jpg",
+  "sha256": "1be5d260de626d5056d3b7cba64a91d9e661df066fee9c359911747eb28698f4",
+  "byte": 688165
+ },
+ "45v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006163",
+  "url": "https://collections.library.yale.edu/iiif/2/1006163/full/1500,/0/default.jpg",
+  "file": "45v.jpg",
+  "sha256": "b25d0c031b06144535768048adddd6bc66115884792c7c791218cfcb16916111",
+  "byte": 749062
+ },
+ "46r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006164",
+  "url": "https://collections.library.yale.edu/iiif/2/1006164/full/1500,/0/default.jpg",
+  "file": "46r.jpg",
+  "sha256": "d1bf4440a2fcda9b2824a72527ce4d37e1f5f1d77e60d9b5976e0b6a0e5e4bb0",
+  "byte": 706341
+ },
+ "46v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006165",
+  "url": "https://collections.library.yale.edu/iiif/2/1006165/full/1500,/0/default.jpg",
+  "file": "46v.jpg",
+  "sha256": "94f7ef1df41dde483ee73d4c18bb1521405226df8399aaee6962ef76b0b3b672",
+  "byte": 737045
+ },
+ "47r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006166",
+  "url": "https://collections.library.yale.edu/iiif/2/1006166/full/1500,/0/default.jpg",
+  "file": "47r.jpg",
+  "sha256": "56224930d67f8bff0a82ff2776897a19d92c7c9a5917fdf0a3c1468927757a91",
+  "byte": 688892
  },
  "47v": {
   "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006167",
@@ -110,6 +782,510 @@
   "file": "48v.jpg",
   "sha256": "8753a9c035def2823036f7e0d7f6677d51a9ebf9653fde91ee1332f0246ddd4b",
   "byte": 664716
+ },
+ "49r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006170",
+  "url": "https://collections.library.yale.edu/iiif/2/1006170/full/1500,/0/default.jpg",
+  "file": "49r.jpg",
+  "sha256": "c37004531ae5efc6014ceb8df6badda1b87d0c97060842051de0f37180c8a04a",
+  "byte": 693204
+ },
+ "49v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006171",
+  "url": "https://collections.library.yale.edu/iiif/2/1006171/full/1500,/0/default.jpg",
+  "file": "49v.jpg",
+  "sha256": "8afdb71d0c7ebf4fb4c8d1889af2e2d1108bdbfdf037efd6405a3fb3a2b3cda5",
+  "byte": 748957
+ },
+ "4r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006082",
+  "url": "https://collections.library.yale.edu/iiif/2/1006082/full/1500,/0/default.jpg",
+  "file": "4r.jpg",
+  "sha256": "430ca0b752191ea6d7877ee858f4dbf0e8de2cc291887e7bf5bf11cd4bfc4937",
+  "byte": 734891
+ },
+ "4v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006083",
+  "url": "https://collections.library.yale.edu/iiif/2/1006083/full/1500,/0/default.jpg",
+  "file": "4v.jpg",
+  "sha256": "190a67f0b1bea01892c7f953450ef3604df243f6556ba78249cc1e65f384a53c",
+  "byte": 736991
+ },
+ "50r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006172",
+  "url": "https://collections.library.yale.edu/iiif/2/1006172/full/1500,/0/default.jpg",
+  "file": "50r.jpg",
+  "sha256": "524222f39ea0fc11960d082eccd8d2caa6ea61f765c7ed46b815f1ffd373fe9c",
+  "byte": 741730
+ },
+ "50v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006173",
+  "url": "https://collections.library.yale.edu/iiif/2/1006173/full/1500,/0/default.jpg",
+  "file": "50v.jpg",
+  "sha256": "c2dd842d7a254712534eaa1ec08e0d7cf9b1df975097693b75fc64966cb27c36",
+  "byte": 692829
+ },
+ "51r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006174",
+  "url": "https://collections.library.yale.edu/iiif/2/1006174/full/1500,/0/default.jpg",
+  "file": "51r.jpg",
+  "sha256": "057adb09aedf1ae33802bd4f94bf951864dc5635a72493966c8f649b09856a7b",
+  "byte": 727935
+ },
+ "51v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006175",
+  "url": "https://collections.library.yale.edu/iiif/2/1006175/full/1500,/0/default.jpg",
+  "file": "51v.jpg",
+  "sha256": "010e65751f13c32005601f5a886737c22df857ac5a4df27b01b10791a8fd18f6",
+  "byte": 664187
+ },
+ "52r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006176",
+  "url": "https://collections.library.yale.edu/iiif/2/1006176/full/1500,/0/default.jpg",
+  "file": "52r.jpg",
+  "sha256": "5493e581429dbfe81762b42029f8ef8ede4d57788dd6a84fc72a319e53b21d81",
+  "byte": 698682
+ },
+ "52v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006177",
+  "url": "https://collections.library.yale.edu/iiif/2/1006177/full/1500,/0/default.jpg",
+  "file": "52v.jpg",
+  "sha256": "7bc82102711dee5a0c4a45931233c3dfd6a6159baedd8b5726de79998b49b28b",
+  "byte": 710913
+ },
+ "53r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006178",
+  "url": "https://collections.library.yale.edu/iiif/2/1006178/full/1500,/0/default.jpg",
+  "file": "53r.jpg",
+  "sha256": "f3ff9fecad9ece097e946baafd96bc9b9fdcb7ff24a303bcfef470e32c9b278d",
+  "byte": 768233
+ },
+ "53v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006179",
+  "url": "https://collections.library.yale.edu/iiif/2/1006179/full/1500,/0/default.jpg",
+  "file": "53v.jpg",
+  "sha256": "fcbd482ba125333800228d2be6e3fa0b682bd22566fc8560c2b1b85dd6555ebe",
+  "byte": 683458
+ },
+ "54r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006180",
+  "url": "https://collections.library.yale.edu/iiif/2/1006180/full/1500,/0/default.jpg",
+  "file": "54r.jpg",
+  "sha256": "14df2b969ff979558f03cee93df5f38ca6507f3ac1ae35b775d9df9c40ab09b7",
+  "byte": 526956
+ },
+ "54v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006181",
+  "url": "https://collections.library.yale.edu/iiif/2/1006181/full/1500,/0/default.jpg",
+  "file": "54v.jpg",
+  "sha256": "dfa7fb62db3ccb79963593ad132ad460edb5eebe567f75d693abf68dc14531f1",
+  "byte": 633790
+ },
+ "55r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006182",
+  "url": "https://collections.library.yale.edu/iiif/2/1006182/full/1500,/0/default.jpg",
+  "file": "55r.jpg",
+  "sha256": "3c58bd5e93431305037241b1cf99bb028343d5cadb995807f314e100333a9e70",
+  "byte": 750370
+ },
+ "55v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006183",
+  "url": "https://collections.library.yale.edu/iiif/2/1006183/full/1500,/0/default.jpg",
+  "file": "55v.jpg",
+  "sha256": "874fd63e6e4fd72f24ed39bb4c6813cb8f5e343e0ef241965196e6e047feb338",
+  "byte": 667697
+ },
+ "56r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006184",
+  "url": "https://collections.library.yale.edu/iiif/2/1006184/full/1500,/0/default.jpg",
+  "file": "56r.jpg",
+  "sha256": "471664c306025477da542df2845a855683c7f2338f3a71eb3712e9d81118b914",
+  "byte": 717628
+ },
+ "56v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006185",
+  "url": "https://collections.library.yale.edu/iiif/2/1006185/full/1500,/0/default.jpg",
+  "file": "56v.jpg",
+  "sha256": "1f5b2339bd83684fce7a3ca3d88c8f0fd4b0caa93d127158ddc56bb0bed6b70a",
+  "byte": 643244
+ },
+ "57r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006186",
+  "url": "https://collections.library.yale.edu/iiif/2/1006186/full/1500,/0/default.jpg",
+  "file": "57r.jpg",
+  "sha256": "d4cd8b8175e1fa3fcc8763f2d4d7e5655793cbecb64f02e87c2d5bfc3d630d7e",
+  "byte": 761819
+ },
+ "57v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006187",
+  "url": "https://collections.library.yale.edu/iiif/2/1006187/full/1500,/0/default.jpg",
+  "file": "57v.jpg",
+  "sha256": "0d446932c09490133a613d07353337bbca96ba07de0ffa663f63c6dfa325d336",
+  "byte": 556178
+ },
+ "58r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006188",
+  "url": "https://collections.library.yale.edu/iiif/2/1006188/full/1500,/0/default.jpg",
+  "file": "58r.jpg",
+  "sha256": "648dfd5cf66a65e54caf373de8b1ec4847e2918aac0449b42cca655c677861cd",
+  "byte": 720598
+ },
+ "58v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006189",
+  "url": "https://collections.library.yale.edu/iiif/2/1006189/full/1500,/0/default.jpg",
+  "file": "58v.jpg",
+  "sha256": "af467201ede6b38f84fe5fdfe5e7e0fff4baba3c53132a01c19a72e85d7bf13c",
+  "byte": 618006
+ },
+ "5r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006084",
+  "url": "https://collections.library.yale.edu/iiif/2/1006084/full/1500,/0/default.jpg",
+  "file": "5r.jpg",
+  "sha256": "b92eb8fb62b3d22ad236b54200d4d4f523482612b04a66dc0fa61491b2a3aaf0",
+  "byte": 804955
+ },
+ "5v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006085",
+  "url": "https://collections.library.yale.edu/iiif/2/1006085/full/1500,/0/default.jpg",
+  "file": "5v.jpg",
+  "sha256": "15b7b909f8533b948d83248bd9da331ce9664bd79b2280f87f6d59a9166a1e64",
+  "byte": 731148
+ },
+ "65r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006190",
+  "url": "https://collections.library.yale.edu/iiif/2/1006190/full/1500,/0/default.jpg",
+  "file": "65r.jpg",
+  "sha256": "ff3dd95ae9dc6388f8007c1aba354c533742519feb7ffed09e30041ff8b29526",
+  "byte": 699803
+ },
+ "65v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006191",
+  "url": "https://collections.library.yale.edu/iiif/2/1006191/full/1500,/0/default.jpg",
+  "file": "65v.jpg",
+  "sha256": "7fd874916d801ebe589e6c9138b428ebe3a0671f0522d6259605263619b4d9bb",
+  "byte": 632001
+ },
+ "66r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006192",
+  "url": "https://collections.library.yale.edu/iiif/2/1006192/full/1500,/0/default.jpg",
+  "file": "66r.jpg",
+  "sha256": "f1ec44268407a367588ccdd79c47b5ba4037c76c7d94e4505922396ff022f592",
+  "byte": 758783
+ },
+ "66v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006193",
+  "url": "https://collections.library.yale.edu/iiif/2/1006193/full/1500,/0/default.jpg",
+  "file": "66v.jpg",
+  "sha256": "ade3e8a9a934723d618d4c2287f059d62874a4202e2d9e50d04822b7ce65d8b4",
+  "byte": 773592
+ },
+ "67r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006194",
+  "url": "https://collections.library.yale.edu/iiif/2/1006194/full/1500,/0/default.jpg",
+  "file": "67r.jpg",
+  "sha256": "72149186e2a4ba69f5f6e3b7730fb9daa2ffa18c63a990b80983e1d5ee9162a6",
+  "byte": 372237
+ },
+ "67v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006195",
+  "url": "https://collections.library.yale.edu/iiif/2/1006195/full/1500,/0/default.jpg",
+  "file": "67v.jpg",
+  "sha256": "08773693add5454398b880b7e7f302b04bf7646ebb9d0c398a1c9b798d1e66f5",
+  "byte": 359797
+ },
+ "68r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006196",
+  "url": "https://collections.library.yale.edu/iiif/2/1006196/full/1500,/0/default.jpg",
+  "file": "68r.jpg",
+  "sha256": "00ab9c81fff7dd58c11dca9979294ac22cce0f584d8e40f6d857c51dfbaf9be6",
+  "byte": 179364
+ },
+ "68v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006197",
+  "url": "https://collections.library.yale.edu/iiif/2/1006197/full/1500,/0/default.jpg",
+  "file": "68v.jpg",
+  "sha256": "59fa5380139fc5b97cdd5bf138d92001765759b65a1046d6b6669f3d3f352283",
+  "byte": 188596
+ },
+ "69r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006198",
+  "url": "https://collections.library.yale.edu/iiif/2/1006198/full/1500,/0/default.jpg",
+  "file": "69r.jpg",
+  "sha256": "a885271d69d39a8821c95f9de36819cad1e1e5ec10a4e8412a9ee4bbb05d7a05",
+  "byte": 684231
+ },
+ "69v and 70r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006199",
+  "url": "https://collections.library.yale.edu/iiif/2/1006199/full/1500,/0/default.jpg",
+  "file": "69v_and_70r.jpg",
+  "sha256": "3b8ae2b2ef5427e374cd6f2d538659f455f22d51e92d62e29719494264f658a2",
+  "byte": 172471
+ },
+ "6r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006086",
+  "url": "https://collections.library.yale.edu/iiif/2/1006086/full/1500,/0/default.jpg",
+  "file": "6r.jpg",
+  "sha256": "0a88fbdabb6c44bf42739a3ff65dcab9511405162a998d22fa9e51570c22cf81",
+  "byte": 758257
+ },
+ "6v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006087",
+  "url": "https://collections.library.yale.edu/iiif/2/1006087/full/1500,/0/default.jpg",
+  "file": "6v.jpg",
+  "sha256": "8bb4245babc858d0125025d88929f0cea5729b1192421d90737744f2115af07d",
+  "byte": 696911
+ },
+ "70v (part)": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006200",
+  "url": "https://collections.library.yale.edu/iiif/2/1006200/full/1500,/0/default.jpg",
+  "file": "70v__part.jpg",
+  "sha256": "6392aa0da8a2ebd2b3ac2c21409a199a42df82572c2c20032f9b390389b81880",
+  "byte": 473501
+ },
+ "70v (part) #2": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006201",
+  "url": "https://collections.library.yale.edu/iiif/2/1006201/full/1500,/0/default.jpg",
+  "file": "70v__part___2.jpg",
+  "sha256": "b75d88be84eb3434857a3734eeca35b2c0dee58f8f7cad900ea02ac07cd24606",
+  "byte": 648410
+ },
+ "71r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006202",
+  "url": "https://collections.library.yale.edu/iiif/2/1006202/full/1500,/0/default.jpg",
+  "file": "71r.jpg",
+  "sha256": "0555328d9eff92ef87dcf61ed2a5dc9c162ee8b9dee6cb6d8ae3327a08bb0ae2",
+  "byte": 755694
+ },
+ "71v and 72r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006203",
+  "url": "https://collections.library.yale.edu/iiif/2/1006203/full/1500,/0/default.jpg",
+  "file": "71v_and_72r.jpg",
+  "sha256": "3e320dfb87444fcc7fc4a2d0f4e5ed555c027fd01a0a1a0b3d1f369fdc744f54",
+  "byte": 114791
+ },
+ "72v (part)": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006204",
+  "url": "https://collections.library.yale.edu/iiif/2/1006204/full/1500,/0/default.jpg",
+  "file": "72v__part.jpg",
+  "sha256": "f89eeaa1ed0157ed7edae12bb69bcd893b47a8732b7c51b449b793e6b9041628",
+  "byte": 333702
+ },
+ "72v (part) #2": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006205",
+  "url": "https://collections.library.yale.edu/iiif/2/1006205/full/1500,/0/default.jpg",
+  "file": "72v__part___2.jpg",
+  "sha256": "d762fb7ba3f4a79936611cbfcaee6f4173b77f34381adc93c06ef2b13a777312",
+  "byte": 722615
+ },
+ "73r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006206",
+  "url": "https://collections.library.yale.edu/iiif/2/1006206/full/1500,/0/default.jpg",
+  "file": "73r.jpg",
+  "sha256": "78d63cc99f7d4ad5579489d09e2f10aa1ef207a344acfa94c497b0d84cd58554",
+  "byte": 706862
+ },
+ "73v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006207",
+  "url": "https://collections.library.yale.edu/iiif/2/1006207/full/1500,/0/default.jpg",
+  "file": "73v.jpg",
+  "sha256": "277fe27c2c863368b04552369b93b7727214fc54890086f68c68c2108efb361b",
+  "byte": 663474
+ },
+ "75r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006208",
+  "url": "https://collections.library.yale.edu/iiif/2/1006208/full/1500,/0/default.jpg",
+  "file": "75r.jpg",
+  "sha256": "dc6b24a9cab365c9457ec9eb0cb95b0ba4b9e2abdb8ae2d96934ed8c80b1f9e7",
+  "byte": 767846
+ },
+ "75v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006209",
+  "url": "https://collections.library.yale.edu/iiif/2/1006209/full/1500,/0/default.jpg",
+  "file": "75v.jpg",
+  "sha256": "7448a53d8c2937e1d60a4cb6d080dbabf27f6374e029ef211fa061d13d0ad21a",
+  "byte": 727998
+ },
+ "76r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006210",
+  "url": "https://collections.library.yale.edu/iiif/2/1006210/full/1500,/0/default.jpg",
+  "file": "76r.jpg",
+  "sha256": "9e8cd0241d1858549617106a71a06366886d6ed692574f50ced42f712769cf55",
+  "byte": 792169
+ },
+ "76v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006211",
+  "url": "https://collections.library.yale.edu/iiif/2/1006211/full/1500,/0/default.jpg",
+  "file": "76v.jpg",
+  "sha256": "8a86ce60d5d0df78f001c90a413a45071493958064aff29bb33d521ec1d04ba0",
+  "byte": 757567
+ },
+ "77r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006212",
+  "url": "https://collections.library.yale.edu/iiif/2/1006212/full/1500,/0/default.jpg",
+  "file": "77r.jpg",
+  "sha256": "af2ac18e091eed8d597964cc1b332492545c7b29ca7f0660ad3f714d1b68af24",
+  "byte": 789543
+ },
+ "77v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006213",
+  "url": "https://collections.library.yale.edu/iiif/2/1006213/full/1500,/0/default.jpg",
+  "file": "77v.jpg",
+  "sha256": "446c0b4ce1cc78c5c05580ec1ec0819ed71e35c313c4848fbf1748a68caa95d3",
+  "byte": 732204
+ },
+ "78r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006214",
+  "url": "https://collections.library.yale.edu/iiif/2/1006214/full/1500,/0/default.jpg",
+  "file": "78r.jpg",
+  "sha256": "e881f2d39c022ba7aaade0fc3b8088eaad7faf3cd374a29b6847007bcb30c9aa",
+  "byte": 781955
+ },
+ "78v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006215",
+  "url": "https://collections.library.yale.edu/iiif/2/1006215/full/1500,/0/default.jpg",
+  "file": "78v.jpg",
+  "sha256": "98c54778b37b4b3814135767b43d377d4e80d440048c106fd40f483cfe903633",
+  "byte": 750373
+ },
+ "79r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006216",
+  "url": "https://collections.library.yale.edu/iiif/2/1006216/full/1500,/0/default.jpg",
+  "file": "79r.jpg",
+  "sha256": "728ca56ee91fb2216cbafbc56458e07465168d504d89081cf2c2e08676ed957f",
+  "byte": 797466
+ },
+ "79v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006217",
+  "url": "https://collections.library.yale.edu/iiif/2/1006217/full/1500,/0/default.jpg",
+  "file": "79v.jpg",
+  "sha256": "4cc01f2b973142581bca94ae916c583a0ab8567c1874b94d2b06c50038301a40",
+  "byte": 740651
+ },
+ "7r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006088",
+  "url": "https://collections.library.yale.edu/iiif/2/1006088/full/1500,/0/default.jpg",
+  "file": "7r.jpg",
+  "sha256": "30f62498689881093668b62d429274867d0dea72d3bf0ca6f3bb185c3945f6ab",
+  "byte": 726078
+ },
+ "7v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006089",
+  "url": "https://collections.library.yale.edu/iiif/2/1006089/full/1500,/0/default.jpg",
+  "file": "7v.jpg",
+  "sha256": "86e49000160c428f728264d99e48664f6297e38e996f6599d1aba272f66ea893",
+  "byte": 629149
+ },
+ "80r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006218",
+  "url": "https://collections.library.yale.edu/iiif/2/1006218/full/1500,/0/default.jpg",
+  "file": "80r.jpg",
+  "sha256": "dab9354f0ac2e07b4e645e080f0ae1af98a98e12f19536fda39d6cb4d46dfc9d",
+  "byte": 789046
+ },
+ "80v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006219",
+  "url": "https://collections.library.yale.edu/iiif/2/1006219/full/1500,/0/default.jpg",
+  "file": "80v.jpg",
+  "sha256": "66f36c80ff18e20d7b87f9a220e81cb67aa7ab0a360b8093e15d6011a9170333",
+  "byte": 792640
+ },
+ "81r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006220",
+  "url": "https://collections.library.yale.edu/iiif/2/1006220/full/1500,/0/default.jpg",
+  "file": "81r.jpg",
+  "sha256": "3434b8f852cc4ce77e9be93efb663ceee9df3a0b6f54ff774602202250612e19",
+  "byte": 788299
+ },
+ "81v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006221",
+  "url": "https://collections.library.yale.edu/iiif/2/1006221/full/1500,/0/default.jpg",
+  "file": "81v.jpg",
+  "sha256": "acfe5071a2175889063b4468db7f8a543e542b97deea7d1d552e2e5b2d241a7f",
+  "byte": 704608
+ },
+ "82r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006222",
+  "url": "https://collections.library.yale.edu/iiif/2/1006222/full/1500,/0/default.jpg",
+  "file": "82r.jpg",
+  "sha256": "17444aebaa95aa5911fb352a93777a0eae99f6a3f751d0799473233ef2f5b20b",
+  "byte": 771548
+ },
+ "82v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006223",
+  "url": "https://collections.library.yale.edu/iiif/2/1006223/full/1500,/0/default.jpg",
+  "file": "82v.jpg",
+  "sha256": "e6492f83595e67b20b904de61adbd6886f62f8458e5812343bb323a189423ad7",
+  "byte": 774192
+ },
+ "83r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006224",
+  "url": "https://collections.library.yale.edu/iiif/2/1006224/full/1500,/0/default.jpg",
+  "file": "83r.jpg",
+  "sha256": "ad5595c21492a2c34762528e5178a36f90260bcf7e7e01a869987b1cacd0201c",
+  "byte": 832477
+ },
+ "83v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006225",
+  "url": "https://collections.library.yale.edu/iiif/2/1006225/full/1500,/0/default.jpg",
+  "file": "83v.jpg",
+  "sha256": "62bba64cebdcb182b3258a2f9cedbedada78c05c8f6ce0adaf8c3631037ad9a7",
+  "byte": 778701
+ },
+ "84r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006226",
+  "url": "https://collections.library.yale.edu/iiif/2/1006226/full/1500,/0/default.jpg",
+  "file": "84r.jpg",
+  "sha256": "8c383e82c82b2ae60426254bdb5dc615e1525d053f3d779a54c3e5c9a6138681",
+  "byte": 806436
+ },
+ "84v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006227",
+  "url": "https://collections.library.yale.edu/iiif/2/1006227/full/1500,/0/default.jpg",
+  "file": "84v.jpg",
+  "sha256": "d6f17c0ab16491bb8c0948852029e16172b95aa1c06b65399d2ee4b10318a47d",
+  "byte": 802353
+ },
+ "85r (part) (part of 85-86 foldout)": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006228",
+  "url": "https://collections.library.yale.edu/iiif/2/1006228/full/1500,/0/default.jpg",
+  "file": "85r__part___part_of_85_86_foldout.jpg",
+  "sha256": "ae25f974f6e1e8ab404faebd7abebcd5989902009bf65222c1a64422af28a792",
+  "byte": 744928
+ },
+ "85r (part) 86v (part) (part of 85-86 foldout)": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006229",
+  "url": "https://collections.library.yale.edu/iiif/2/1006229/full/1500,/0/default.jpg",
+  "file": "85r__part__86v__part___part_of_85_86_foldout.jpg",
+  "sha256": "abbbbcbffc8992721c68c00b8f265faf5214d64ee20901a163fd5e182630c99d",
+  "byte": 236707
+ },
+ "85v and 86r (foldout)": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006231",
+  "url": "https://collections.library.yale.edu/iiif/2/1006231/full/1500,/0/default.jpg",
+  "file": "85v_and_86r__foldout.jpg",
+  "sha256": "feb6804a4d4274a9cbbd0c61f33a28b04ecd6ede6584502084b2bbbbfbce44e7",
+  "byte": 445498
+ },
+ "86v (part) (part of 85-86 foldout)": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006230",
+  "url": "https://collections.library.yale.edu/iiif/2/1006230/full/1500,/0/default.jpg",
+  "file": "86v__part___part_of_85_86_foldout.jpg",
+  "sha256": "c5f6e57de71f1872f5351f47d0e2bcf0f158244c9633336a8a4282705bbfbec1",
+  "byte": 412755
+ },
+ "87r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006232",
+  "url": "https://collections.library.yale.edu/iiif/2/1006232/full/1500,/0/default.jpg",
+  "file": "87r.jpg",
+  "sha256": "afa633a07303793341fd161b05a87338db2fc517e4467014d7b6a4ffb56467c0",
+  "byte": 719030
+ },
+ "87v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1043429",
+  "url": "https://collections.library.yale.edu/iiif/2/1043429/full/1500,/0/default.jpg",
+  "file": "87v.jpg",
+  "sha256": "1dd842f4c38d2521a24102539425e143530c08f5af83aaafe855be897da226d5",
+  "byte": 731552
  },
  "88r": {
   "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1037112",
@@ -139,6 +1315,27 @@
   "sha256": "cdd37de3427a96aaf1a43393044495eb942792b4c782976bced08f173ae6754d",
   "byte": 196794
  },
+ "8r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006090",
+  "url": "https://collections.library.yale.edu/iiif/2/1006090/full/1500,/0/default.jpg",
+  "file": "8r.jpg",
+  "sha256": "744bda050ffcb2b72fa538efd6b8ad9cface73430745f34eefdef9221d5aa428",
+  "byte": 747584
+ },
+ "8v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006091",
+  "url": "https://collections.library.yale.edu/iiif/2/1006091/full/1500,/0/default.jpg",
+  "file": "8v.jpg",
+  "sha256": "8107c63ddf9cde01af22fdd3a94453c473953480ab3821b4fb3f5aaff7a9e51b",
+  "byte": 640965
+ },
+ "90r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006236",
+  "url": "https://collections.library.yale.edu/iiif/2/1006236/full/1500,/0/default.jpg",
+  "file": "90r.jpg",
+  "sha256": "7a20aa37f5eed621728149d6d9ff306230e540dc199f2228b9376f1e5e196c84",
+  "byte": 735204
+ },
  "90v (part)": {
   "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006237",
   "url": "https://collections.library.yale.edu/iiif/2/1006237/full/1500,/0/default.jpg",
@@ -146,12 +1343,54 @@
   "sha256": "6e51d381c97d24264206e6cbab708f7008af937b60d2923096b703a2258208f3",
   "byte": 682961
  },
+ "93r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006238",
+  "url": "https://collections.library.yale.edu/iiif/2/1006238/full/1500,/0/default.jpg",
+  "file": "93r.jpg",
+  "sha256": "ad85628906ad8eff4aea264fac49a36d65bdd8ca8984cfad8bda72431c5fd5d1",
+  "byte": 739278
+ },
+ "93v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006239",
+  "url": "https://collections.library.yale.edu/iiif/2/1006239/full/1500,/0/default.jpg",
+  "file": "93v.jpg",
+  "sha256": "2d2e368c8315969d76cc823a4b3d6665a103b73d2cb4a7e2599d841e8e364cf9",
+  "byte": 701512
+ },
+ "94r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006240",
+  "url": "https://collections.library.yale.edu/iiif/2/1006240/full/1500,/0/default.jpg",
+  "file": "94r.jpg",
+  "sha256": "aea20cc4661eac0af5f6078f1648cb6073cd00fb31050073183182145ca41090",
+  "byte": 722355
+ },
  "94v and 95r": {
   "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006241",
   "url": "https://collections.library.yale.edu/iiif/2/1006241/full/1500,/0/default.jpg",
   "file": "94v_and_95r.jpg",
   "sha256": "46896591698f31ab145db7226b1a11b096ab9fafece5a5194081cdfef49d84d1",
   "byte": 219856
+ },
+ "95v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006243",
+  "url": "https://collections.library.yale.edu/iiif/2/1006243/full/1500,/0/default.jpg",
+  "file": "95v.jpg",
+  "sha256": "60002fb50884b0fa93f485462f2db786f6d11923e824f170a64ca22013fc8ee5",
+  "byte": 734310
+ },
+ "95v (part)": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006242",
+  "url": "https://collections.library.yale.edu/iiif/2/1006242/full/1500,/0/default.jpg",
+  "file": "95v__part.jpg",
+  "sha256": "daa8581fcaaeaa52db1256f85797218e9490236fafbbac76d9d285793a61ea32",
+  "byte": 761752
+ },
+ "96r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006244",
+  "url": "https://collections.library.yale.edu/iiif/2/1006244/full/1500,/0/default.jpg",
+  "file": "96r.jpg",
+  "sha256": "da8a92ee69c49de0cd8628f8c2292c1c77ef479e9892d8a1012d298703684436",
+  "byte": 758285
  },
  "96v": {
   "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006245",
@@ -173,6 +1412,79 @@
   "file": "99v.jpg",
   "sha256": "073d5b0abf26a5908856d4b1f26175d1b2c4a641c1ef710b58619c53b7040907",
   "byte": 803326
+ },
+ "9r": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006092",
+  "url": "https://collections.library.yale.edu/iiif/2/1006092/full/1500,/0/default.jpg",
+  "file": "9r.jpg",
+  "sha256": "029afc0c713ba547ac61cbd38a443543e2b89148fb0b0b95635eb9b69adfee1e",
+  "byte": 784259
+ },
+ "9v": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006093",
+  "url": "https://collections.library.yale.edu/iiif/2/1006093/full/1500,/0/default.jpg",
+  "file": "9v.jpg",
+  "sha256": "5f399cec1f9282482316356edf2deecd847fb46e91160a37752f463d12bbf2dd",
+  "byte": 693767
+ },
+ "[Back cover]": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006279",
+  "url": "https://collections.library.yale.edu/iiif/2/1006279/full/1500,/0/default.jpg",
+  "file": "Back_cover.jpg",
+  "sha256": "85f83d9f44b7f1f64e1ebcc7dd0c03fc6ef754dee14da087cb07ff8645ce5a14",
+  "byte": 560884
+ },
+ "[Back flyleaf recto]": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1037113",
+  "url": "https://collections.library.yale.edu/iiif/2/1037113/full/1500,/0/default.jpg",
+  "file": "Back_flyleaf_recto.jpg",
+  "sha256": "ef3f8981aba5e17d240f3ba5d88e66b0160dc8f74a78ceafc6e0757e54da2dea",
+  "byte": 570096
+ },
+ "[Back flyleaf verso-inside back cover]": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006278",
+  "url": "https://collections.library.yale.edu/iiif/2/1006278/full/1500,/0/default.jpg",
+  "file": "Back_flyleaf_verso_inside_back_cover.jpg",
+  "sha256": "1cff7e0e5862333b09449dbe0917364949cdf4e23771ab5ce4feb471e2f7373c",
+  "byte": 271226
+ },
+ "[Fore-edge]": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/11868209",
+  "url": "https://collections.library.yale.edu/iiif/2/11868209/full/1500,/0/default.jpg",
+  "errore": "HTTP Error 403: Forbidden"
+ },
+ "[Front cover]": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006074",
+  "url": "https://collections.library.yale.edu/iiif/2/1006074/full/1500,/0/default.jpg",
+  "file": "Front_cover.jpg",
+  "sha256": "afffc8dfc28d69902617170fbfdb3a0f0133e75bd9cab51bbbc59a76a086e5eb",
+  "byte": 556198
+ },
+ "[Head]": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/11868207",
+  "url": "https://collections.library.yale.edu/iiif/2/11868207/full/1500,/0/default.jpg",
+  "file": "Head.jpg",
+  "sha256": "119e5ae0ef5acedf81982eef91eab8e864de2190a88e0ca75e97655ac72d18fb",
+  "byte": 244567
+ },
+ "[Inside front cover]": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006075",
+  "url": "https://collections.library.yale.edu/iiif/2/1006075/full/1500,/0/default.jpg",
+  "file": "Inside_front_cover.jpg",
+  "sha256": "3fdaf14089bf8f97a5d72f4c5d7b40123ee7712b17913bc7888fa0ab648cd1ce",
+  "byte": 514640
+ },
+ "[Spine]": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/11868210",
+  "url": "https://collections.library.yale.edu/iiif/2/11868210/full/1500,/0/default.jpg",
+  "errore": "HTTP Error 403: Forbidden"
+ },
+ "[Tail]": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/11868208",
+  "url": "https://collections.library.yale.edu/iiif/2/11868208/full/1500,/0/default.jpg",
+  "file": "Tail.jpg",
+  "sha256": "796d24da66744fc076f905619762a997fa2ce0b14888241e887312fcf3d622a0",
+  "byte": 239661
  },
  "_manifest": {
   "url": "https://collections.library.yale.edu/manifests/2002046",
