@@ -144,15 +144,15 @@ def dettaglio():
            'etichette_primo': contributi(etichette_voynich(), 0, 3)}
     with open(os.path.join(RISULTATI, 'e37_posizione_sezione_dettaglio.json'), 'w', encoding='utf-8') as f:
         json.dump(ris, f, ensure_ascii=False, indent=1)
-    righe = ['# e37, analisi secondaria: quali segni portano l'informazione sulla sezione', '',
-             'Contributo di ciascun segno iniziale all'informazione mutua sezione/primo segno, dentro '
+    righe = ["# e37, analisi secondaria: quali segni portano l'informazione sulla sezione", '',
+             "Contributo di ciascun segno iniziale all'informazione mutua sezione/primo segno, dentro "
              'ciascuna lingua di Currier (paragrafi) o su tutte le etichette. Non corretto per il caso: '
-             'serve a vedere da dove viene l'informazione, non quanta ce n'è.', '']
+             "serve a vedere da dove viene l'informazione, non quanta ce n'è.", '']
     for nome, per in ris.items():
         for strato, d in per.items():
             righe += ['## %s, strato %s (%d parole; sezioni: %s)' % (
                 nome, strato, d['parole'], ', '.join('%s %d' % kv for kv in sorted(d['sezioni'].items(), key=str))), '',
-                '| segno | frequenza | frazione dell'informazione | sezione in eccesso | quota lì | quota attesa |',
+                "| segno | frequenza | frazione dell'informazione | sezione in eccesso | quota lì | quota attesa |",
                 '|---|---|---|---|---|---|']
             for g, v in list(d['segni'].items())[:8]:
                 righe.append('| %s | %.3f | %.2f | %s | %.2f | %.2f |' % (
@@ -160,11 +160,8 @@ def dettaglio():
                     v['quota_in_quella_sezione'], v['quota_attesa']))
             righe.append('')
     with open(os.path.join(RISULTATI, 'e37_posizione_sezione_dettaglio.md'), 'w', encoding='utf-8') as f:
-        f.write('
-'.join(righe) + '
-')
-    print('
-'.join(righe))
+        f.write('\n'.join(righe) + '\n')
+    print('\n'.join(righe))
 
 
 if __name__ == '__main__':
