@@ -71,7 +71,13 @@ def main():
         dest = os.path.join(CACHE, nome_file(etichetta))
         if not os.path.exists(dest):
             print('scarico %s' % etichetta, flush=True)
-            scarica(url, dest)
+            try:
+                scarica(url, dest)
+            except OSError as e:
+                # un'immagine rifiutata (es. 403 sulle foto della rilegatura) si annota e si va avanti
+                print('  non scaricata: %s' % e, flush=True)
+                registro[etichetta] = {'canvas': canvas['id'], 'url': url, 'errore': str(e)}
+                continue
             time.sleep(1)                     # con garbo verso il server
         registro[etichetta] = {'canvas': canvas['id'], 'url': url, 'file': nome_file(etichetta),
                                'sha256': sha256(dest), 'byte': os.path.getsize(dest)}
