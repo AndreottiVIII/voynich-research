@@ -359,3 +359,48 @@ diversi solo i valori che superano **anche** una soglia assoluta di 1e-12.
   - Un ibrido "codice + autocitazione alla Timm e Schinner" non è escluso da questo esperimento, ma
     va costruito con quel generatore (Java), non con l'autocitazione semplificata.
   - Possibile esperimento successivo.
+
+## 30/09/2026 — e44: un messaggio diluito nel generatore di Timm e Schinner
+
+- **Preregistrato** (`e44.md`).
+- **Il modello.** Nuova aggiunta al sorgente Java, `analisi/timm_schinner/Messaggio.java`: a ogni
+  posto di parola, con probabilità m, si scrive la parola successiva di un messaggio vero (Plinio
+  codificato parola per parola). Il resto è il generatore con le giunture a forza 3.
+- **Validità.** Con m = 0 il testo è identico byte per byte a quello dell'e23, per i semi 19, 1 e 2.
+- **Risultati (media su tre semi):**
+
+| m | parole di messaggio | parole uniche | ripetizione | somigl. riga → 6 righe | legame | h2 |
+|---|---|---|---|---|---|---|
+| 0 | 0% | 0,51 | 0,81 | 3,5% → 3,3% | 0,179 | 2,25 |
+| 0,05 | 4% | 0,55 | 0,71 | 2,7% → 2,5% | 0,164 | 2,33 |
+| 0,10 | 9% | 0,57 | 0,68 | 2,4% → 2,1% | 0,156 | 2,39 |
+| 0,20 | 17% | 0,60 | 0,75 | 1,6% → 1,3% | 0,132 | 2,43 |
+| 0,50 | 44% | 0,65 | 0,63 | 0,7% → 0,6% | 0,060 | 2,47 |
+| Voynich | | 0,68 | 1,01 | 3,8% → 3,4% | 0,188 | 2,24 |
+
+- **Esito:** nessuna quota compatibile (m\* = 0).
+  - Il messaggio porta le parole uniche verso il Voynich, ma già al 4% di parole rompe
+    l'omogeneità di pagina.
+  - Le parole del messaggio, una volta scritte, diventano anche fonti di copia e portano nella
+    pagina vocabolario estraneo.
+- **Per la preregistrazione:** l'ipotesi "nessun messaggio" esce rafforzata rispetto alla variante
+  "messaggio diluito fra riempitivi".
+- **Cautela importante.** Il codice usato assegna le parole del Voynich per rango di frequenza
+  latina, senza badare allo stile della pagina. Un codificatore più accorto, che scegliesse fra
+  sinonimi la forma più simile alle parole vicine, potrebbe non rompere l'omogeneità. Questo
+  esperimento esclude la diluizione "ingenua", non ogni diluizione.
+
+## 30/09/2026 — Immagini: download completo e vicolo cieco dell'allineamento (e33, e45, D-010)
+
+- **e33.** Scaricate 211 immagini su 213: rifiutate con 403 le foto del dorso e del taglio, che non
+  servono. Registro con impronte in `dati/immagini.json`. e33 ora annota le immagini rifiutate
+  invece di fermarsi.
+- **e45 e D-010.** L'idea era misurare l'inchiostro delle etichette della farmacia, per capire se
+  recipienti e frammenti furono scritti in sedute diverse.
+  - I riquadri di voynichese.com non si portano sulle immagini IIIF: le scale trovate variano da
+    1,60 (bordo della griglia) a 2,04 fra pagine uguali, e nei paragrafi i riquadri si
+    sovrappongono fra righe.
+  - Sulle etichette, con affinamento locale, circa metà cade nel posto giusto (controllo a vista
+    su f99r).
+  - Misura rinviata. Per farla serve segnare a mano i riquadri delle etichette, con un protocollo
+    cieco.
