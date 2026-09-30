@@ -63,3 +63,43 @@ riassunte nel `DOSSIER_WHITE_PAPER.md`, sezione 3.2; qui cominciano quelle della
   - Aggiunti `scipy` e `scikit-image`, per le misure sulle immagini.
 - **Motivo.** Non si può ricostruire l'ambiente originale. La replica dirà se le differenze di
   versione cambiano qualcosa; se sì, lo scarto si documenta nel quaderno.
+
+## D-005 — e29 riformulato, e36–e38 anticipati (30/09/2026)
+
+- **Contesto.** L'e29 del piano chiedeva se la somiglianza di vocabolario fra pagine dipende dal
+  tipo di illustrazione oltre che da fascicolo, mano e lingua di Currier. Progettandolo nel
+  dettaglio è emerso un difetto: nel manoscritto il tipo di illustrazione coincide quasi con la
+  posizione (le sezioni stanno in fascicoli contigui). Uno scriba che produce testo senza
+  messaggio per sessioni, una sezione dopo l'altra, darebbe anche lui un "effetto sezione". E
+  l'ordine vero di scrittura non si conosce, perché la rilegatura ha mescolato i bifogli. Il test
+  quindi non separa l'ipotesi 3 dalle altre.
+- **Opzioni.**
+  1. Eseguirlo comunque, dichiarandone il limite.
+  2. Riformularlo su coppie di pagine legate dal **contenuto ma lontane** (la stessa pianta
+     nell'erbario e nella farmacia; i due Ariete e i due Toro dello zodiaco), guardando le parole
+     rare in comune. Un testo senza messaggio non ha motivo di ripetere parole rare proprio lì.
+  3. Abbandonarlo.
+- **Scelta.** La 2. Richiede però l'elenco delle corrispondenze fra disegni, quindi le immagini:
+  si fa insieme all'e35. Nel frattempo si anticipano e36, e37 ed e38 (lingue filosofiche), che
+  usano solo la trascrizione e hanno previsioni che separano le ipotesi.
+- **Motivo.** Un test che dà lo stesso esito sotto tutte le ipotesi costa tempo e non informa.
+
+## D-006 — Misura comune per e36–e38: l'informazione per posizione (30/09/2026)
+
+- **Contesto.** Le tre prove chiedono **dove** sta, dentro la parola, l'informazione sul gruppo a
+  cui la parola appartiene: la pagina (e36), la sezione (e37), la categoria del glossario (e38).
+- **Scelta.** Per ogni posizione della parola (primo, secondo, penultimo e ultimo segno; parole di
+  almeno 4 segni, segni composti fusi) si calcola:
+  - l'informazione mutua fra il gruppo e il segno in quella posizione;
+  - a cui si sottrae la media di 200 rimescolamenti delle parole fra i gruppi, a seme fisso,
+    dentro lo stesso strato;
+  - divisa per l'entropia del segno in quella posizione.
+  - Il profilo si riassume in R = quota al primo segno / media delle quote al penultimo e
+    all'ultimo.
+- **Alternative scartate.** La distanza di edit per posizione, come nell'e04: dipende dalla
+  lunghezza e mescola posizioni vicine. L'informazione mutua non corretta: è distorta verso
+  l'alto con molti gruppi piccoli; il rimescolamento corregge questa distorsione e dà anche il
+  livello del caso.
+- **Esclusioni.** Si scartano la prima e l'ultima parola di ogni riga e le righe che aprono un
+  paragrafo, perché hanno statistiche proprie (i gallows a inizio paragrafo, gli effetti di inizio
+  e fine riga). Nei controlli si escludono le stesse posizioni.
