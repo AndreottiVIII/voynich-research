@@ -103,6 +103,9 @@ def esegui(nome, argomenti, env):
 
 
 def main():
+    # l'output dell'esecutore puo' contenere lettere di ogni alfabeto (ebraico, greco...): su
+    # Windows, se e' rediretto su file, la codifica predefinita non le accetta
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
     argv = sys.argv[1:]
     passanti = []
     if '--' in argv:
