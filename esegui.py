@@ -50,10 +50,12 @@ def trova(nome):
     return 'e' + codice, trovati[0]
 
 
-def a_lf(dopo):
-    """Riporta a LF i .json e .md scritti in risultati/ durante l'esecuzione."""
+def a_lf(dopo, codice):
+    """Riporta a LF i .json e .md dell'esperimento scritti in risultati/ durante l'esecuzione.
+    Si guardano solo i file che cominciano col codice (eNN_), cosi' due esperimenti lanciati
+    in parallelo non si attribuiscono i file a vicenda."""
     toccati = []
-    for percorso in glob.glob(os.path.join(RISULTATI, '**', '*.*'), recursive=True):
+    for percorso in glob.glob(os.path.join(RISULTATI, '**', codice + '_*.*'), recursive=True):
         if os.path.splitext(percorso)[1] not in ('.json', '.md', '.txt', '.csv'):
             continue
         if os.path.getmtime(percorso) < dopo:
@@ -81,7 +83,7 @@ def esegui(nome, argomenti, env):
             log.write(riga)
         uscita = proc.wait()
     durata = time.time() - inizio
-    scritti = [p for p in a_lf(inizio - 1) if not p.startswith('risultati/provenienza/')]
+    scritti = [p for p in a_lf(inizio - 1, codice) if not p.startswith('risultati/provenienza/')]
     prov = registro.provenienza(script)
     prov.update({'esperimento': codice, 'argomenti': argomenti, 'uscita': uscita,
                  'inizio': time.strftime('%Y-%m-%dT%H:%M:%S', time.localtime(inizio)),
