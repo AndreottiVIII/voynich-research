@@ -317,10 +317,10 @@
  "allineamento_migliore_medio": 0.3199383422725489,
  "rimescolate": {
   "media": 0.31982541509534146,
-  "p95": 0.3232416104283437,
+  "p95": 0.32324161042834376,
   "massimo": 0.3255766963973442
  },
  "p": 0.455,
- "stessa_posizione": 0.2714840509224404,
- "posizione_opposta": 0.2695670532625579
+ "stessa_posizione": 0.2714840509224403,
+ "posizione_opposta": 0.26956705326255764
 }

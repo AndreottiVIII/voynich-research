@@ -2,63 +2,63 @@
  "impronte": {
   "Voynich (pagine e righe vere)": {
    "parole": 34863,
-   "h2": 2.2361640232559865,
+   "h2": 2.2361640232559385,
    "lung_media": 4.460746349998566,
    "tipi_su_parole": 0.20976666666666666,
    "hapax": 0.679485142221516,
    "identiche_immediate": 0.009371034392997754,
    "identiche_vs_riga": 1.008508949494745,
-   "somiglianza_riga": 0.03845463938289839,
-   "somiglianza_riga_sotto": 0.039866274671841784,
-   "somiglianza_6_righe": 0.03353358262726869
+   "somiglianza_riga": 0.038454639382674016,
+   "somiglianza_riga_sotto": 0.03986627467161785,
+   "somiglianza_6_righe": 0.0335335826270432
   },
   "Voynich (righe finte da 8 parole)": {
    "parole": 34856,
-   "h2": 2.236132488519085,
+   "h2": 2.236132488519065,
    "lung_media": 4.461125774615561,
    "tipi_su_parole": 0.20976666666666666,
    "hapax": 0.679485142221516,
    "identiche_immediate": 0.00865602150890193,
    "identiche_vs_riga": 0.9361702127659574,
-   "somiglianza_riga": 0.04065110201115607,
-   "somiglianza_riga_sotto": 0.03641824220985057,
-   "somiglianza_6_righe": 0.025956974300146762
+   "somiglianza_riga": 0.040651102010934026,
+   "somiglianza_riga_sotto": 0.036418242209627416,
+   "somiglianza_6_righe": 0.025956974299921276
   },
   "Vitruvio: testo in chiaro": {
    "parole": 35000,
-   "h2": 3.303340849880599,
+   "h2": 3.303340849880624,
    "lung_media": 6.184742857142857,
    "tipi_su_parole": 0.2744333333333333,
    "hapax": 0.6180007287744443,
    "identiche_immediate": 0.0011755102040816327,
    "identiche_vs_riga": 0.2337662337662338,
-   "somiglianza_riga": 0.003868778845809606,
-   "somiglianza_riga_sotto": 0.003993710288750285,
-   "somiglianza_6_righe": 0.0019376083368015662
+   "somiglianza_riga": 0.003868778845490195,
+   "somiglianza_riga_sotto": 0.003993710288430874,
+   "somiglianza_6_righe": 0.0019376083364816
   },
   "Vitruvio: cifrario verboso": {
    "parole": 35000,
-   "h2": 3.272671360874342,
+   "h2": 3.2726713608743374,
    "lung_media": 6.284742857142857,
    "tipi_su_parole": 0.2744333333333333,
    "hapax": 0.6180007287744443,
    "identiche_immediate": 0.0011755102040816327,
    "identiche_vs_riga": 0.2337662337662338,
-   "somiglianza_riga": 0.004083182652229955,
-   "somiglianza_riga_sotto": 0.004102145675005109,
-   "somiglianza_6_righe": 0.001954085012058404
+   "somiglianza_riga": 0.0040831826519078795,
+   "somiglianza_riga_sotto": 0.004102145674683033,
+   "somiglianza_6_righe": 0.0019540850117355513
   },
   "Vitruvio: codice parola per parola": {
    "parole": 35000,
-   "h2": 2.362857380572506,
+   "h2": 2.3628573805724886,
    "lung_media": 4.719771428571429,
    "tipi_su_parole": 0.2744333333333333,
    "hapax": 0.6180007287744443,
    "identiche_immediate": 0.0011755102040816327,
    "identiche_vs_riga": 0.2337662337662338,
-   "somiglianza_riga": 0.0010028645569570838,
-   "somiglianza_riga_sotto": 0.0003884234870283887,
-   "somiglianza_6_righe": 0.000363942211317303
+   "somiglianza_riga": 0.0010028645567160543,
+   "somiglianza_riga_sotto": 0.00038842348678724825,
+   "somiglianza_6_righe": 0.0003639422110760515
   },
   "Vitruvio: codice con varianti": {
    "parole": 35000,
@@ -68,213 +68,213 @@
    "hapax": 0.6417231751096929,
    "identiche_immediate": 0.0002938775510204082,
    "identiche_vs_riga": 0.4444444444444444,
-   "somiglianza_riga": 0.001650671163289874,
-   "somiglianza_riga_sotto": 0.0013403478875269048,
-   "somiglianza_6_righe": 0.0016281672057422147
+   "somiglianza_riga": 0.0016506711630087656,
+   "somiglianza_riga_sotto": 0.0013403478872456853,
+   "somiglianza_6_righe": 0.0016281672054612173
   },
   "Vitruvio: codice con stile di pagina (3 regole, forza 0.7)": {
    "parole": 35000,
-   "h2": 2.6403128490268704,
+   "h2": 2.640312849026869,
    "lung_media": 5.025514285714285,
    "tipi_su_parole": 0.4365,
    "hapax": 0.740053455517373,
    "identiche_immediate": 0.0019591836734693877,
    "identiche_vs_riga": 0.45627376425855515,
-   "somiglianza_riga": 0.04862473724214589,
-   "somiglianza_riga_sotto": 0.048608493980077716,
-   "somiglianza_6_righe": 0.048593525339419075
+   "somiglianza_riga": 0.04862473724187999,
+   "somiglianza_riga_sotto": 0.04860849397981193,
+   "somiglianza_6_righe": 0.04859352533915329
   },
   "Vitruvio: codice con stile di pagina (6 regole, forza 0.9)": {
    "parole": 35000,
-   "h2": 2.8092907683439696,
+   "h2": 2.809290768343979,
    "lung_media": 5.5637428571428575,
    "tipi_su_parole": 0.5585666666666667,
    "hapax": 0.7747806886674226,
    "identiche_immediate": 0.0026122448979591837,
    "identiche_vs_riga": 0.5254515599343186,
-   "somiglianza_riga": 0.13200046287352896,
-   "somiglianza_riga_sotto": 0.1318793425767245,
-   "somiglianza_6_righe": 0.13164395527728856
+   "somiglianza_riga": 0.13200046287326195,
+   "somiglianza_riga_sotto": 0.1318793425764575,
+   "somiglianza_6_righe": 0.13164395527702155
   },
   "Vitruvio: sillabe come parole": {
    "parole": 35000,
-   "h2": 1.8953232970826375,
+   "h2": 1.8953232970826468,
    "lung_media": 4.034171428571429,
    "tipi_su_parole": 0.042,
    "hapax": 0.2642857142857143,
    "identiche_immediate": 0.001436734693877551,
    "identiche_vs_riga": 0.26626323751891073,
-   "somiglianza_riga": 0.001442241379759679,
-   "somiglianza_riga_sotto": 0.0010149230870596382,
-   "somiglianza_6_righe": 0.0007425667288111226
+   "somiglianza_riga": 0.0014422413795722733,
+   "somiglianza_riga_sotto": 0.0010149230868720105,
+   "somiglianza_6_righe": 0.0007425667286234949
   },
   "Bibbia latina: testo in chiaro": {
    "parole": 35000,
-   "h2": 3.256088126736992,
+   "h2": 3.2560881267369757,
    "lung_media": 5.244457142857143,
    "tipi_su_parole": 0.18436666666666668,
    "hapax": 0.5138311336105587,
    "identiche_immediate": 0.001273469387755102,
    "identiche_vs_riga": 0.10970464135021098,
-   "somiglianza_riga": 0.003333732299572567,
-   "somiglianza_riga_sotto": 0.004445612660203824,
-   "somiglianza_6_righe": 0.0025744026118069696
+   "somiglianza_riga": 0.0033337322992404994,
+   "somiglianza_riga_sotto": 0.004445612659872089,
+   "somiglianza_6_righe": 0.002574402611474569
   },
   "Bibbia latina: cifrario verboso": {
    "parole": 35000,
-   "h2": 3.188474882888072,
+   "h2": 3.1884748828880753,
    "lung_media": 5.416228571428571,
    "tipi_su_parole": 0.18436666666666668,
    "hapax": 0.5138311336105587,
    "identiche_immediate": 0.001273469387755102,
    "identiche_vs_riga": 0.10970464135021098,
-   "somiglianza_riga": 0.0031498895349028055,
-   "somiglianza_riga_sotto": 0.00426996876755692,
-   "somiglianza_6_righe": 0.002413711223727355
+   "somiglianza_riga": 0.003149889534556194,
+   "somiglianza_riga_sotto": 0.004269968767210641,
+   "somiglianza_6_righe": 0.0024137112233804103
   },
   "Bibbia latina: codice parola per parola": {
    "parole": 35000,
-   "h2": 2.2080632804826585,
+   "h2": 2.2080632804826603,
    "lung_media": 4.4797714285714285,
    "tipi_su_parole": 0.18436666666666668,
    "hapax": 0.5138311336105587,
    "identiche_immediate": 0.001273469387755102,
    "identiche_vs_riga": 0.10970464135021098,
-   "somiglianza_riga": 0.000718106880672198,
-   "somiglianza_riga_sotto": 0.0003942148279012514,
-   "somiglianza_6_righe": 0.0005417864780234982
+   "somiglianza_riga": 0.0007181068804595903,
+   "somiglianza_riga_sotto": 0.00039421482768853267,
+   "somiglianza_6_righe": 0.0005417864778108905
   },
   "Bibbia latina: codice con varianti": {
    "parole": 35000,
-   "h2": 2.501504757797504,
+   "h2": 2.5015047577974996,
    "lung_media": 5.070885714285715,
    "tipi_su_parole": 0.3212333333333333,
    "hapax": 0.5425962436442876,
    "identiche_immediate": 0.0004897959183673469,
    "identiche_vs_riga": 0.28846153846153844,
-   "somiglianza_riga": 0.0018465400641670682,
-   "somiglianza_riga_sotto": 0.001978605058407523,
-   "somiglianza_6_righe": 0.0017395200651966203
+   "somiglianza_riga": 0.001846540063892288,
+   "somiglianza_riga_sotto": 0.001978605058132854,
+   "somiglianza_6_righe": 0.00173952006492184
   },
   "Bibbia latina: codice con stile di pagina (3 regole, forza 0.7)": {
    "parole": 35000,
-   "h2": 2.502974689599238,
+   "h2": 2.5029746895992577,
    "lung_media": 4.757314285714286,
    "tipi_su_parole": 0.3379,
    "hapax": 0.692413929170366,
    "identiche_immediate": 0.0016326530612244899,
    "identiche_vs_riga": 0.1890359168241966,
-   "somiglianza_riga": 0.043085441561779514,
-   "somiglianza_riga_sotto": 0.04387022690760123,
-   "somiglianza_6_righe": 0.04361088962751469
+   "somiglianza_riga": 0.04308544156154892,
+   "somiglianza_riga_sotto": 0.04387022690737086,
+   "somiglianza_6_righe": 0.04361088962728421
   },
   "Bibbia latina: codice con stile di pagina (6 regole, forza 0.9)": {
    "parole": 35000,
-   "h2": 2.717243951629005,
+   "h2": 2.7172439516290154,
    "lung_media": 5.2980857142857145,
    "tipi_su_parole": 0.4718333333333333,
    "hapax": 0.7336630166019075,
    "identiche_immediate": 0.0035918367346938775,
    "identiche_vs_riga": 0.33872209391839875,
-   "somiglianza_riga": 0.12733291729627005,
-   "somiglianza_riga_sotto": 0.128381134166747,
-   "somiglianza_6_righe": 0.12840777719055496
+   "somiglianza_riga": 0.12733291729602159,
+   "somiglianza_riga_sotto": 0.12838113416649877,
+   "somiglianza_6_righe": 0.12840777719030683
   },
   "Bibbia latina: sillabe come parole": {
    "parole": 35000,
-   "h2": 1.903078128406476,
+   "h2": 1.903078128406483,
    "lung_media": 4.0678,
    "tipi_su_parole": 0.038566666666666666,
    "hapax": 0.2212618841832325,
    "identiche_immediate": 0.001142857142857143,
    "identiche_vs_riga": 0.1907356948228883,
-   "somiglianza_riga": -0.002591911612882747,
-   "somiglianza_riga_sotto": -0.0010757716575338083,
-   "somiglianza_6_righe": -0.00012407470854935987
+   "somiglianza_riga": -0.002591911613063047,
+   "somiglianza_riga_sotto": -0.0010757716577138865,
+   "somiglianza_6_righe": -0.000124074708729216
   },
   "Bibbia italiana: testo in chiaro": {
    "parole": 35000,
-   "h2": 3.1533039277667063,
+   "h2": 3.1533039277667125,
    "lung_media": 4.5038,
    "tipi_su_parole": 0.1357,
    "hapax": 0.49447310243183495,
    "identiche_immediate": 0.0011102040816326532,
    "identiche_vs_riga": 0.15704387990762125,
-   "somiglianza_riga": 0.0021635833775472957,
-   "somiglianza_riga_sotto": 0.001337319817006577,
-   "somiglianza_6_righe": -0.0003377381723661532
+   "somiglianza_riga": 0.002163583377289724,
+   "somiglianza_riga_sotto": 0.0013373198167486722,
+   "somiglianza_6_righe": -0.0003377381726243911
   },
   "Bibbia italiana: cifrario verboso": {
    "parole": 35000,
-   "h2": 3.1256354260290053,
+   "h2": 3.1256354260290014,
    "lung_media": 4.659571428571429,
    "tipi_su_parole": 0.1357,
    "hapax": 0.49447310243183495,
    "identiche_immediate": 0.0011102040816326532,
    "identiche_vs_riga": 0.15704387990762125,
-   "somiglianza_riga": 0.001973428535226973,
-   "somiglianza_riga_sotto": 0.001391960871534037,
-   "somiglianza_6_righe": -0.00021913322372579813
+   "somiglianza_riga": 0.001973428534903121,
+   "somiglianza_riga_sotto": 0.001391960871209963,
+   "somiglianza_6_righe": -0.0002191332240502053
   },
   "Bibbia italiana: codice parola per parola": {
    "parole": 35000,
-   "h2": 2.12311583728165,
+   "h2": 2.1231158372815946,
    "lung_media": 4.292428571428571,
    "tipi_su_parole": 0.1357,
    "hapax": 0.49447310243183495,
    "identiche_immediate": 0.0011102040816326532,
    "identiche_vs_riga": 0.15704387990762125,
-   "somiglianza_riga": -0.0023531727310917017,
-   "somiglianza_riga_sotto": -0.00022419374216431365,
-   "somiglianza_6_righe": -0.0013585874262898034
+   "somiglianza_riga": -0.0023531727313088613,
+   "somiglianza_riga_sotto": -0.00022419374238102918,
+   "somiglianza_6_righe": -0.001358587426506741
   },
   "Bibbia italiana: codice con varianti": {
    "parole": 35000,
-   "h2": 2.479030369306094,
+   "h2": 2.4790303693060953,
    "lung_media": 4.900228571428571,
    "tipi_su_parole": 0.25606666666666666,
    "hapax": 0.49544389481905754,
    "identiche_immediate": 0.0005224489795918367,
    "identiche_vs_riga": 0.46376811594202894,
-   "somiglianza_riga": -0.0016801513741919738,
-   "somiglianza_riga_sotto": -0.0019915398653875815,
-   "somiglianza_6_righe": -0.0020105745620733195
+   "somiglianza_riga": -0.0016801513744699736,
+   "somiglianza_riga_sotto": -0.0019915398656658034,
+   "somiglianza_6_righe": -0.0020105745623515414
   },
   "Bibbia italiana: codice con stile di pagina (3 regole, forza 0.7)": {
    "parole": 35000,
-   "h2": 2.4502289911247646,
+   "h2": 2.450228991124792,
    "lung_media": 4.581542857142857,
    "tipi_su_parole": 0.2784,
    "hapax": 0.6497844827586207,
    "identiche_immediate": 0.0017959183673469388,
    "identiche_vs_riga": 0.31700288184438036,
-   "somiglianza_riga": 0.0478343432437901,
-   "somiglianza_riga_sotto": 0.0503591571614741,
-   "somiglianza_6_righe": 0.048733576823097535
+   "somiglianza_riga": 0.047834343243552624,
+   "somiglianza_riga_sotto": 0.05035915716123729,
+   "somiglianza_6_righe": 0.04873357682286028
   },
   "Bibbia italiana: codice con stile di pagina (6 regole, forza 0.9)": {
    "parole": 35000,
-   "h2": 2.6892513345018463,
+   "h2": 2.6892513345018574,
    "lung_media": 5.096285714285714,
    "tipi_su_parole": 0.41613333333333336,
    "hapax": 0.6873598205703301,
    "identiche_immediate": 0.003395918367346939,
    "identiche_vs_riga": 0.4206268958543984,
-   "somiglianza_riga": 0.1421827976585559,
-   "somiglianza_riga_sotto": 0.14392064315949482,
-   "somiglianza_6_righe": 0.14283601512827904
+   "somiglianza_riga": 0.1421827976583001,
+   "somiglianza_riga_sotto": 0.14392064315923947,
+   "somiglianza_6_righe": 0.14283601512802335
   },
   "Bibbia italiana: sillabe come parole": {
    "parole": 35000,
-   "h2": 1.7981135785427345,
+   "h2": 1.7981135785427353,
    "lung_media": 3.9349714285714286,
    "tipi_su_parole": 0.031766666666666665,
    "hapax": 0.23189926547743966,
    "identiche_immediate": 0.0024489795918367346,
    "identiche_vs_riga": 0.30120481927710846,
-   "somiglianza_riga": 0.0012233564261975305,
-   "somiglianza_riga_sotto": 0.00038574362291166064,
-   "somiglianza_6_righe": -0.00020197402304589218
+   "somiglianza_riga": 0.0012233564260278884,
+   "somiglianza_riga_sotto": 0.00038574362274190754,
+   "somiglianza_6_righe": -0.0002019740232157563
   }
  },
  "cifrari_verbosi": {

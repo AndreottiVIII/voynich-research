@@ -13,6 +13,7 @@ import json, math, os, subprocess, sys
 QUI = os.path.dirname(os.path.abspath(__file__))
 RISULTATI = os.path.join(QUI, 'risultati')
 TOLLERANZA = 1e-9
+TOLLERANZA_ASSOLUTA = 1e-12   # per i valori vicini a zero, dove lo scarto relativo si gonfia
 
 
 def al_riferimento(rif, relativo):
@@ -88,9 +89,9 @@ def main():
                         % (len(c['solo_vecchio']), len(c['solo_nuovo']), ', '.join(chiavi[:4])))
         # scarti relativi sotto 1e-9 sono l'ultima cifra dei float (librerie matematiche
         # diverse fra sistemi operativi), non differenze di risultato
-        veri = [d for d in c['diversi'] if d[3] is None or d[3] > TOLLERANZA]
+        veri = [d for d in c['diversi'] if d[3] is None or (d[3] > TOLLERANZA and abs(d[1] - d[2]) > TOLLERANZA_ASSOLUTA)]
         if not veri:
-            esito = 'stessi valori' + (' (entro %.0e)' % TOLLERANZA if c['diversi'] else '')
+            esito = 'stessi valori' + (' (entro %.0e relativo o %.0e assoluto)' % (TOLLERANZA, TOLLERANZA_ASSOLUTA) if c['diversi'] else '')
         else:
             esito = 'diverso: %d valori oltre %.0e' % (len(veri), TOLLERANZA)
             note = ['`%s`: %r → %r' % (k, x, y) for k, x, y, _ in veri[:3]] + note[:1]
