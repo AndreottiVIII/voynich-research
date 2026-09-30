@@ -1,0 +1,215 @@
+scarico [Front cover]
+scarico [Inside front cover]
+scarico 1r
+scarico 2r
+scarico 2v
+scarico 3r
+scarico 4r
+scarico 4v
+scarico 5r
+scarico 5v
+scarico 6r
+scarico 6v
+scarico 7r
+scarico 7v
+scarico 8r
+scarico 8v
+scarico 9r
+scarico 9v
+scarico 10r
+scarico 10v
+scarico 11r
+scarico 11v
+scarico 13r
+scarico 13v
+scarico 14r
+scarico 14v
+scarico 15r
+scarico 15v
+scarico 16r
+scarico 16v
+scarico 17r
+scarico 17v
+scarico 18r
+scarico 19v
+scarico 20r
+scarico 20v
+scarico 21r
+scarico 21v
+scarico 22r
+scarico 22v
+scarico 23v
+scarico 24r
+scarico 24v
+scarico 25r
+scarico 25v
+scarico 26r
+scarico 26v
+scarico 27r
+scarico 27v
+scarico 28r
+scarico 28v
+scarico 29r
+scarico 29v
+scarico 30r
+scarico 30v
+scarico 31r
+scarico 31v
+scarico 32r
+scarico 33r
+scarico 33v
+scarico 34r
+scarico 34v
+scarico 35r
+scarico 35v
+scarico 36r
+scarico 36v
+scarico 37r
+scarico 38r
+scarico 38v
+scarico 39v
+scarico 40r
+scarico 40v
+scarico 41r
+scarico 41v
+scarico 42r
+scarico 42v
+scarico 43r
+scarico 43v
+scarico 44r
+scarico 44v
+scarico 45r
+scarico 45v
+scarico 46r
+scarico 46v
+scarico 47r
+scarico 49r
+scarico 49v
+scarico 50r
+scarico 50v
+scarico 51r
+scarico 51v
+scarico 52r
+scarico 52v
+scarico 53r
+scarico 53v
+scarico 54r
+scarico 54v
+scarico 55r
+scarico 55v
+scarico 56r
+scarico 56v
+scarico 57r
+scarico 57v
+scarico 58r
+scarico 58v
+scarico 65r
+scarico 65v
+scarico 66r
+scarico 66v
+scarico 67r
+scarico 67v
+scarico 68r
+scarico 68v
+scarico 69r
+scarico 69v and 70r
+scarico 70v (part)
+scarico 70v (part) #2
+scarico 71r
+scarico 71v and 72r
+scarico 72v (part)
+scarico 72v (part) #2
+scarico 73r
+scarico 73v
+scarico 75r
+scarico 75v
+scarico 76r
+scarico 76v
+scarico 77r
+scarico 77v
+scarico 78r
+scarico 78v
+scarico 79r
+scarico 79v
+scarico 80r
+scarico 80v
+scarico 81r
+scarico 81v
+scarico 82r
+scarico 82v
+scarico 83r
+scarico 83v
+scarico 84r
+scarico 84v
+scarico 85r (part) (part of 85-86 foldout)
+scarico 85r (part) 86v (part) (part of 85-86 foldout)
+scarico 86v (part) (part of 85-86 foldout)
+scarico 85v and 86r (foldout)
+scarico 87r
+scarico 87v
+scarico 90r
+scarico 93r
+scarico 93v
+scarico 94r
+scarico 95v (part)
+scarico 95v
+scarico 96r
+scarico 101v (part)
+scarico 103r
+scarico 103v
+scarico 104r
+scarico 104v
+scarico 105r
+scarico 105v
+scarico 106r
+scarico 106v
+scarico 107r
+scarico 107v
+scarico 108r
+scarico 108v
+scarico 111r
+scarico 111v
+scarico 112r
+scarico 112v
+scarico 113r
+scarico 113v
+scarico 114r
+scarico 114v
+scarico 115r
+scarico 115v
+scarico 116r
+scarico 116v
+scarico [Back flyleaf recto]
+scarico [Back flyleaf verso-inside back cover]
+scarico [Head]
+scarico [Tail]
+scarico [Fore-edge]
+  nuovo tentativo (HTTP Error 403: Forbidden)
+  nuovo tentativo (HTTP Error 403: Forbidden)
+  nuovo tentativo (HTTP Error 403: Forbidden)
+Traceback (most recent call last):
+  File "C:\Users\david\voynich\esperimenti\e33_immagini.py", line 85, in <module>
+    main()
+  File "C:\Users\david\voynich\esperimenti\e33_immagini.py", line 74, in main
+    scarica(url, dest)
+  File "C:\Users\david\voynich\esperimenti\e33_immagini.py", line 32, in scarica
+    with urllib.request.urlopen(req, timeout=120) as r, open(destinazione, 'wb') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\david\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\david\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\david\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\david\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\david\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Users\david\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
