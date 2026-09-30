@@ -1,6 +1,6 @@
 {
  "codice": {
-  "commit": "9d36b8e3a22d095d3b0929df3fc806b3b9dfa058",
+  "commit": "e9fb994a77fc7c3d82bbdb45ee92b56c2464d1ed",
   "modifiche_non_salvate": []
  },
  "dati": {
@@ -36,37 +36,16 @@
  },
  "script": {
   "file": "esperimenti/e33_immagini.py",
-  "sha256": "55cf1751f71cd16eb20c565122ee65b612c4871db47c12e7235d6710a5c5281e"
+  "sha256": "3570efcc579c636bc65a676166a055a223197557178daba9bb425cf456525fed"
  },
  "esperimento": "e33",
  "argomenti": [
-  "1v",
-  "3v",
-  "18v",
-  "19r",
-  "23r",
-  "32v",
-  "37v",
-  "39r",
-  "47v",
-  "48r",
-  "48v",
-  "96v",
-  "90v (part)",
-  "88v and 89r",
-  "89v (part)",
-  "89v (part) and 90r",
-  "94v and 95r",
-  "99r",
-  "99v",
-  "100r",
-  "100v and 101r",
-  "101v (part) and 102r",
   "102v (part)",
-  "88r"
+  "100v and 101r",
+  "90v1"
  ],
  "uscita": 0,
- "inizio": "2026-09-30T21:50:35",
- "durata_s": 72.7,
+ "inizio": "2026-09-30T21:54:32",
+ "durata_s": 3.3,
  "file_scritti": []
 }
