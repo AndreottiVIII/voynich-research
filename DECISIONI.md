@@ -142,3 +142,15 @@ riassunte nel `DOSSIER_WHITE_PAPER.md`, sezione 3.2; qui cominciano quelle della
   - con tutte e nove le misure il Voynich dista 9,2 dalla lingua più vicina, più di qualsiasi
     lingua (massimo 6,6, il pinyin);
   - senza l'omogeneità di pagina dista 4,4: più di ogni lingua salvo il pinyin (6,6).
+
+## D-009 — Replica parziale degli esperimenti di ore (30/09/2026)
+
+- **Contesto.** e17, e19 ed e20 richiedono ore di calcolo con 4 processori.
+- **Scelta.**
+  - e17 si replica su latino, italiano ed ebraico (`LINGUE_SOLO=Latin,Italian,Hebrew`). Latino e
+    italiano sono i riferimenti di tutto il lavoro; l'ebraico era il punto più alto del Voynich
+    (0,42), cioè il caso in cui una differenza conterebbe di più.
+  - e19 ed e20 per ora non si replicano. Usano lo stesso risolutore dell'e17: se l'e17 si replica,
+    il risolutore è verificato.
+- **Motivo.** Il tempo di calcolo va agli esperimenti nuovi. La replica parziale si dichiara come
+  tale nel white paper.
