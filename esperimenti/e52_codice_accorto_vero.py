@@ -128,8 +128,23 @@ def decifra():
     for t, fs in forme.items():
         for f in fs:
             chi[f].add(t)
-    freq = Counter(latino)
-    coppie = Counter(zip(latino, latino[1:]))
+    fuori = '--fuori' in sys.argv
+    if fuori:
+        # il lettore conosce il latino di Plinio, ma non questo testo: libri 16-19 e 28-30
+        import e36_posizione_pagina as e36
+        altri = []
+        for nome in sorted(os.listdir(e36.PLINIO)):
+            if nome.startswith('pliny'):
+                for riga in open(os.path.join(e36.PLINIO, nome), encoding='utf-8'):
+                    if riga.startswith('<'):
+                        et, _, testo = riga.partition('>')
+                        if int(et.split()[-1].split('.')[0]) not in e36.LIBRI:
+                            altri.extend(e36.lingue.normalizza(testo).split())
+        addestramento = altri
+    else:
+        addestramento = latino
+    freq = Counter(addestramento) + Counter(set(latino))   # ogni tipo del messaggio almeno una volta
+    coppie = Counter(zip(addestramento, addestramento[1:]))
     V = len(freq)
 
     def logp(a, b):   # bigramma con lisciatura additiva
@@ -147,7 +162,7 @@ def decifra():
         for s in range(0, len(scritte), 200):
             blocco = scritte[s:s + 200]
             cand = [sorted(chi[u], key=lambda t: -freq[t])[:30] for u in blocco]
-            punti = [{t: math.log(freq[t] / len(latino)) for t in cand[0]}]
+            punti = [{t: math.log(freq[t] / sum(freq.values())) for t in cand[0]}]
             dietro = [{}]
             for i in range(1, len(blocco)):
                 p, d = {}, {}
@@ -173,12 +188,16 @@ def decifra():
            '| scelta delle forme | parola per parola | con il contesto |', '|---|---|---|']
     out += ['| %s | %.1f%% | %.1f%% |' % (k, 100 * v['lettura_parola_per_parola'], 100 * v['lettura_con_contesto'])
             for k, v in ris.items()]
-    with open(os.path.join(RISULTATI, 'e52_codice_accorto_vero_decifra.md'), 'w', encoding='utf-8') as f:
+    if fuori:
+        out[2] = out[2].replace('addestrato sullo stesso testo (limite superiore)',
+                                'addestrato su altri libri di Plinio (16–19, 28–30): il lettore conosce la lingua, non il testo')
+    nome_md = 'e52_codice_accorto_vero_decifra%s.md' % ('_fuori' if fuori else '')
+    with open(os.path.join(RISULTATI, nome_md), 'w', encoding='utf-8') as f:
         f.write('\n'.join(out) + '\n')
 
 
 if __name__ == '__main__':
-    if '--decifra' in sys.argv:
+    if '--decifra' in sys.argv or '--fuori' in sys.argv:
         decifra()
     else:
         main()
