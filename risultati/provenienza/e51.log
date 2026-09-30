@@ -1,0 +1,18 @@
+MEDIA K 0 q 0.05 l 0.60: rip 0.81 somigl 3.4%/3.3% h2 2.35 confine 0.185 uniche 0.68/0.60 lung 4.32/1.50 unioni x1.43 |  V1 V4
+MEDIA K 0 q 0.05 l 0.75: rip 0.71 somigl 3.1%/2.9% h2 2.33 confine 0.186 uniche 0.68/0.60 lung 4.31/1.50 unioni x1.36 |  V1 V4
+MEDIA K 0 q 0.05 l 0.90: rip 0.67 somigl 3.4%/3.3% h2 2.31 confine 0.180 uniche 0.68/0.60 lung 4.32/1.54 unioni x1.36 |  V1 V4
+MEDIA K 0 q 0.10 l 0.60: rip 0.74 somigl 3.5%/3.2% h2 2.43 confine 0.193 uniche 0.71/0.64 lung 4.45/1.58 unioni x1.46 |  V1 V4
+MEDIA K 0 q 0.10 l 0.75: rip 0.76 somigl 3.4%/3.2% h2 2.38 confine 0.190 uniche 0.71/0.64 lung 4.41/1.63 unioni x1.41 | COMPATIBILE V1 V4
+MEDIA K 0 q 0.10 l 0.90: rip 0.78 somigl 3.6%/3.4% h2 2.38 confine 0.178 uniche 0.71/0.63 lung 4.45/1.65 unioni x1.37 | COMPATIBILE V1 V4
+MEDIA K 0 q 0.15 l 0.60: rip 0.73 somigl 3.3%/3.1% h2 2.48 confine 0.196 uniche 0.74/0.67 lung 4.53/1.69 unioni x1.48 |  V1 V4
+MEDIA K 0 q 0.15 l 0.75: rip 0.73 somigl 3.4%/3.2% h2 2.46 confine 0.193 uniche 0.74/0.68 lung 4.56/1.71 unioni x1.52 |  V1 V4 V5
+MEDIA K 0 q 0.15 l 0.90: rip 0.77 somigl 4.0%/3.8% h2 2.44 confine 0.192 uniche 0.73/0.67 lung 4.57/1.74 unioni x1.50 |  V1 V4 V5
+MEDIA K 5 q 0.05 l 0.60: rip 0.66 somigl 5.0%/4.8% h2 2.37 confine 0.184 uniche 0.66/0.60 lung 4.21/1.53 unioni x1.36 |  V1 V4 V2 (non fuori campione)
+MEDIA K 5 q 0.05 l 0.75: rip 0.69 somigl 4.8%/4.7% h2 2.36 confine 0.177 uniche 0.65/0.60 lung 4.25/1.52 unioni x1.37 |  V1 V4 V2 (non fuori campione)
+MEDIA K 5 q 0.05 l 0.90: rip 0.66 somigl 5.1%/4.9% h2 2.33 confine 0.179 uniche 0.65/0.60 lung 4.25/1.57 unioni x1.32 |  V1 V4 V2 (non fuori campione)
+MEDIA K 5 q 0.10 l 0.60: rip 0.75 somigl 4.6%/4.5% h2 2.43 confine 0.185 uniche 0.69/0.64 lung 4.44/1.66 unioni x1.46 |  V1 V4 V2 (non fuori campione)
+MEDIA K 5 q 0.10 l 0.75: rip 0.69 somigl 4.7%/4.6% h2 2.43 confine 0.193 uniche 0.69/0.64 lung 4.44/1.63 unioni x1.45 |  V1 V4 V2 (non fuori campione)
+MEDIA K 5 q 0.10 l 0.90: rip 0.72 somigl 5.2%/5.1% h2 2.41 confine 0.184 uniche 0.69/0.64 lung 4.47/1.70 unioni x1.43 |  V1 V4 V2 (non fuori campione)
+MEDIA K 5 q 0.15 l 0.60: rip 0.73 somigl 4.3%/4.1% h2 2.49 confine 0.193 uniche 0.72/0.67 lung 4.56/1.73 unioni x1.47 |  V1 V4
+MEDIA K 5 q 0.15 l 0.75: rip 0.72 somigl 4.8%/4.7% h2 2.47 confine 0.186 uniche 0.72/0.67 lung 4.57/1.74 unioni x1.50 |  V1 V4
+MEDIA K 5 q 0.15 l 0.90: rip 0.67 somigl 5.4%/5.4% h2 2.45 confine 0.178 uniche 0.71/0.68 lung 4.65/1.81 unioni x1.51 |  V1 V4 V5 V2 (non fuori campione)
