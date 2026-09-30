@@ -1,0 +1,19 @@
+Voynich (pagine vere)                                      h2 2.24  lung 4.46  diverse 0.21  hapax 0.68  ripetute x1.01  somigl. 3.8%/4.0%/3.4%  spazio 66%
+Voynich (righe finte da 8 parole)                          h2 2.25  lung 4.29  diverse 0.23  hapax 0.68  ripetute x0.92  somigl. 4.3%/3.9%/2.8%  spazio 66%
+latino (Vangeli)                                           h2 3.26  lung 5.25  diverse 0.22  hapax 0.56  ripetute x0.18  somigl. 0.2%/0.3%/0.1%  spazio 19%
+latino con abbreviazioni leggere                           h2 3.32  lung 4.99  diverse 0.22  hapax 0.56  ripetute x0.18  somigl. 0.2%/0.3%/0.1%  spazio 27%
+latino con abbreviazioni pesanti                           h2 3.37  lung 4.65  diverse 0.22  hapax 0.56  ripetute x0.18  somigl. 0.2%/0.4%/0.1%  spazio 32%
+latino con nulle a caso (10%)                              h2 3.54  lung 5.78  diverse 0.46  hapax 0.82  ripetute x0.10  somigl. 0.3%/0.5%/0.2%  spazio 23%
+latino con nulle a regola                                  h2 2.94  lung 5.93  diverse 0.22  hapax 0.56  ripetute x0.18  somigl. 0.4%/0.4%/0.2%  spazio 53%
+latino, trasposizione a colonne                            h2 3.91  lung 5.25  diverse 0.79  hapax 0.94  ripetute x0.00  somigl. 0.2%/0.1%/0.1%  spazio 0%
+latino, lettere mescolate dentro le parole                 h2 3.85  lung 5.25  diverse 0.61  hapax 0.90  ripetute x0.09  somigl. 0.1%/0.2%/0.0%  spazio 0%
+latino, lettere capovolte dentro le parole                 h2 3.26  lung 5.25  diverse 0.22  hapax 0.56  ripetute x0.18  somigl. 0.2%/0.3%/0.1%  spazio 13%
+latino, lettere ordinate dentro le parole                  h2 2.50  lung 5.25  diverse 0.21  hapax 0.55  ripetute x0.20  somigl. 0.1%/0.3%/0.1%  spazio 43%
+elenchi della Bibbia latina, 16908 parole                  h2 3.33  lung 5.50  diverse 0.22  hapax 0.59  ripetute x0.06  somigl. 0.4%/0.6%/0.3%  spazio 14%
+elenchi della Bibbia latina, con un codice                 h2 2.15  lung 4.41  diverse 0.22  hapax 0.59  ripetute x0.06  somigl. 0.1%/0.1%/0.1%  spazio 69%
+Notitia Dignitatum (cariche), 9787 parole                  h2 3.21  lung 7.51  diverse 0.22  hapax 0.54  ripetute x0.00  somigl. 1.6%/1.3%/0.7%  spazio 22%
+Notitia Dignitatum (cariche), con un codice                h2 2.10  lung 4.24  diverse 0.22  hapax 0.54  ripetute x0.00  somigl. -0.3%/0.1%/0.4%  spazio 70%
+Fasti di Idazio (consoli), 6485 parole                     h2 3.20  lung 5.02  diverse 0.25  hapax 0.61  ripetute x0.07  somigl. 0.8%/0.7%/0.4%  spazio 18%
+Fasti di Idazio (consoli), con un codice                   h2 1.93  lung 4.29  diverse 0.25  hapax 0.61  ripetute x0.07  somigl. -0.3%/0.1%/-0.2%  spazio 75%
+autocitazione, modifiche guidate dalla forma delle parole  h2 1.83  lung 1.96  diverse 0.01  hapax 0.23  ripetute x1.07  somigl. 8.9%/8.2%/5.9%  spazio 60%
+autocitazione, modifiche guidate dalla lunghezza           h2 3.34  lung 3.54  diverse 0.32  hapax 0.55  ripetute x1.29  somigl. 12.2%/8.9%/3.8%  spazio 5%
