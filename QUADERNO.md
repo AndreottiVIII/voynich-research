@@ -87,3 +87,123 @@ riassunto. Il PDF e il testo estratto sono in `dati/cache/letteratura/`; SHA-256
   - ma l'identità di una parola predice molto la successiva (15,8% contro 0,79%).
   - Per l'ipotesi 1 (contenuto a elenco) è il tipo di controllo da usare nell'e30. Il catalogo
     somiglia al Voynich nei bordi delle parole ma non nell'ordine delle parole.
+
+## 30/09/2026 — Replica di e01
+
+- **Esito:** tutti i 2.351 valori in comune coincidono entro 1e-9 relativo (scarto assoluto massimo
+  1e-11). Le differenze sono nell'ultima cifra dei numeri in virgola mobile: la libreria matematica
+  di Windows non è quella di Linux.
+- **Due differenze spiegate.**
+  - Il `.json` nuovo ha una lingua in più (cinese in pinyin). Nel lavoro precedente il pinyin è
+    stato aggiunto al corpus dopo l'ultima esecuzione di e01.
+  - Il `.md` nuovo ha gli accenti al posto degli apostrofi. Anche lo script era stato ritoccato
+    dopo quell'esecuzione.
+  - Quindi i risultati importati non sempre vengono dall'ultima versione del codice. La replica
+    serve anche a questo.
+- **Errori di procedura miei.**
+  - I risultati di e01 sono finiti per sbaglio nel commit `fe096d7` (una modifica a `esegui.py`,
+    fatta con `git commit -a`). Da allora i file si aggiungono sempre per nome.
+  - Il primo gruppo di repliche (e01–e06) è partito con la versione iniziale di `esegui.py`. In
+    quella versione:
+    - l'elenco `file_scritti` della provenienza include file di altri esperimenti girati in
+      parallelo (e36, e38, e39);
+    - il commit registrato è quello della fine dell'esecuzione, non dell'inizio.
+    - Gli script di e01–e06 però non sono cambiati dal tag `origine`, come mostra la loro impronta
+      nella provenienza, quindi i risultati non ne risentono.
+
+## 30/09/2026 — e39: h2, la ricetta di Rozanova e Temerev
+
+- **Preregistrata** (`preregistrazioni/e39.md`, commit `dc48734`) e confermata.
+- **Con la loro ricetta:**
+  - si tolgono spazi e a-capo;
+  - si fondono cth ckh cph cfh ch sh iin in ee;
+  - il nostro codice dà **2,698 bit** (loro 2,7) e il latino 3,47 (loro circa 3,5).
+- **Con la nostra ricetta:** 2,24.
+- **In ogni ricetta** il Voynich sta almeno 0,73 bit sotto latino, italiano e inglese.
+- **Conclusione.** I due numeri non si contraddicono: cambia il modo di contare, non il fenomeno.
+  Nel white paper conviene citarli entrambi, dicendo come sono stati calcolati.
+- **Nota.** Isidoro XVII e Columella XII sono troppo corti per il confronto alla pari: 190.000
+  simboli richiesti.
+
+## 30/09/2026 — Lingue filosofiche: e36, e37, e38, e40
+
+**Prima degli esperimenti:**
+
+- rassegna R1 (`rassegna/lingue_filosofiche.md`), costruita sulle fonti primarie di Tiltman 1967 e
+  D'Imperio 1978;
+- decisioni D-005 (e29 riformulato) e D-006 (misura per posizione);
+- preregistrazione `e36-e38.md`.
+
+**Deviazione D-007.** Una prova del codice ha mostrato che il controllo positivo preregistrato di
+e36 aveva un difetto: la numerazione per prima comparsa porta informazione sulla pagina nel
+secondo segno. Nella prova avevo visto anche i numeri del Voynich. Ho dichiarato la deviazione
+prima della corsa ufficiale e riporto entrambe le versioni; le soglie per il Voynich non sono
+cambiate.
+
+**e36 — l'informazione sulla pagina, per posizione.**
+
+- **Controlli validi:** prefisso semantico R = 10,0; codice casuale R = 0,75.
+- **Voynich: R = 0,98** (0,90–1,02 togliendo un fascicolo per volta), con informazione forte
+  (z = 27) ma uguale in tutte le posizioni. Currier B 1,03; Currier A 0,76 (solo 24 pagine).
+- **Per il criterio preregistrato, contro la lingua filosofica a prefisso di classe.**
+- **Naibbe:** nessuna informazione di pagina. È un cifrario uniforme, come nell'e10.
+- **Generatore di Timm e Schinner:** R = 0,72–0,78, con un picco al penultimo segno.
+- **Esplorativo, a parità di stratificazione:** il generatore ha 2–3 volte più informazione di
+  pagina del Voynich (quote 0,06–0,11 contro 0,03–0,04). Le sue pagine sono più "chiuse", in
+  accordo con le poche parole uniche.
+
+**e38 — Lingua Ignota (esplorativo).**
+
+- 731 voci del glossario. L'informazione sulla categoria sta più **in fondo** alla parola:
+  R = 0,55; ultima lettera 0,063, prima 0,033.
+- Esempi: gli alberi in *-buz* (*zirumzibuz* pero, *sparinichibuz* pesco), le parti del corpo in
+  *-zia*, i libri in *-libiz*. È il modello dei composti germanici, con la testa in fondo.
+- **Conseguenza.** Una lingua costruita medievale **non** mette la classe nel prefisso, come
+  faranno Wilkins e Dalgarno nel Seicento. Il criterio "R > 2" di e36 ed e37 prende quindi la
+  variante seicentesca. La variante medievale (classe in coda) prevederebbe R < 0,5, e il
+  Voynich (0,98) non mostra nemmeno quella.
+- **Qualità della fonte:** amatoriale. Per esempio #0005 *diabolus* riporta la parola di #0004;
+  lasciata com'è per non correggere a mano solo dove fa comodo.
+
+**e37 — l'informazione sulla sezione, per posizione.**
+
+- Scelta dichiarata prima dell'esecuzione: pagine con almeno 10 parole utili.
+- **Controlli validi:** 19,5 e 0,55.
+- **Paragrafi: R = 1,57**, ma instabile (1,02–2,47). Dipende dal fascicolo T (ricette); senza T
+  scende a 1,02.
+- **Etichette: R = 3,24.** L'informazione al primo segno (0,044) è il doppio di quella del testo.
+- **Rispetto alla preregistrazione:** per il testo né la conferma di F (R > 2) né il criterio
+  contro (R ≤ 1,5 **e** etichette con primo ≤ ultimo). Per le etichette, previsione F
+  soddisfatta.
+- **Analisi secondaria.** L'informazione al primo segno è distribuita su molti segni, non su una
+  sola alternanza:
+  - Currier A: k-, a-, q-, d-, o-;
+  - Currier B: y-, q-, sh-, l-, a-;
+  - etichette: s- in farmacia 52% contro 23%.
+
+**e40 — il tipo di oggetto a parità di pagina (preregistrato, `e40.md`).**
+
+- **Farmacia, recipienti contro frammenti:** differiscono nell'**ultimo segno**, p = 0,003,
+  potenza stimata 0,74. Supera anche la correzione per 6 test.
+  - I recipienti hanno più -d, -n, -g; i frammenti più -r, -l, -m. Le etichette dei recipienti
+    sono più lunghe (6,7 segni contro 5,4).
+  - **Esplorativo:** l'effetto resta a parità di pagina **e** di lunghezza (p = 0,003–0,004);
+    quello sul primo segno no.
+- **Biologica e astronomia:** nulle, ma con potenza bassa (0,17–0,54), quindi non informative.
+- **Lettura prudente.** Per la preregistrazione l'esito va contro un generatore che non sa che cosa
+  etichetta. Resta però un'alternativa non esclusa: se lo scriba ha scritto le etichette **per
+  lotti di tipo** (prima tutti i recipienti, poi i frammenti), anche l'autocitazione raggrupperebbe
+  le terminazioni per tipo.
+  - Per distinguere servirebbe l'ordine di scrittura (dalle immagini: inchiostro, sovrapposizioni)
+    oppure una simulazione del generatore con etichette scritte a lotti.
+  - Da fare.
+
+**Bilancio sulle lingue filosofiche.**
+
+- **Nel testo corrente:**
+  - nessuna concentrazione dell'informazione né all'inizio (stile Wilkins) né alla fine (stile
+    Ildegarda);
+  - F-prosa era già in difficoltà per le ripetizioni immediate e l'ordine delle parole.
+- **Nelle etichette:** ci sono segni di marcatura per tipo di oggetto, in coda nella farmacia,
+  che resta la pista aperta (F-elenco o un sistema di nomi). Ma l'alternativa "lotti" va chiusa
+  prima di dire di più.
