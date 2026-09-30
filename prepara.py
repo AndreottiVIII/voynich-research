@@ -68,6 +68,10 @@ def main():
     # la decifrazione latina di Schechter (glossario e trascrizione): esperimento 26
     fissa('https://github.com/scott-schechter/voynich-decoded',
           os.path.join(lingue.SORGENTI, 'voynich-decoded'), '71f2f3c91e9113d285ab21e024f1dd70c1f43c44')
+    # Rozanova e Temerev (2026, arXiv 2608.17096): coordinate per parola di voynichese.com sulle
+    # immagini Beinecke e corpora di controllo; lo snapshot e' quello analizzato nell'articolo (MIT)
+    fissa('https://github.com/lrozanova/voynich-units',
+          os.path.join(lingue.SORGENTI, 'voynich-units'), '66f8adaadc120f93e8a4c906685ba66a9d3ab847')
     indice = lingue.prepara()
     lingue.prepara_pinyin()
     indice = lingue.indice()
