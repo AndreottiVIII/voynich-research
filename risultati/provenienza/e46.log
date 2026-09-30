@@ -1,0 +1,15 @@
+cifrario {'tipi_latini': 10327, 'forme_medie': 11.669119783092864, 'forme_ambigue': 0.16936779436779437}
+beta 0, tau 1.5, gamma 0     rip 0.53 somigl 0.1%/0.1% h2 2.88 confine -0.001 hapax 0.75 tipi 0.467 ambigui 0.70 
+beta 3, tau 1.5, gamma 0     rip 0.63 somigl 0.3%/0.2% h2 2.87 confine -0.000 hapax 0.75 tipi 0.465 ambigui 0.70 
+beta 8, tau 1.5, gamma 0     rip 0.57 somigl 0.7%/0.2% h2 2.84 confine 0.000 hapax 0.75 tipi 0.459 ambigui 0.71 
+beta 20, tau 1.5, gamma 0    rip 0.90 somigl 2.1%/0.5% h2 2.76 confine -0.000 hapax 0.75 tipi 0.435 ambigui 0.73 
+beta 3, tau 6, gamma 0       rip 0.69 somigl 0.2%/0.2% h2 2.87 confine 0.000 hapax 0.75 tipi 0.465 ambigui 0.70 
+beta 8, tau 6, gamma 0       rip 0.66 somigl 0.4%/0.3% h2 2.84 confine 0.000 hapax 0.75 tipi 0.458 ambigui 0.71 
+beta 20, tau 6, gamma 0      rip 0.89 somigl 1.1%/0.7% h2 2.76 confine -0.001 hapax 0.75 tipi 0.434 ambigui 0.73 
+beta 0, tau 1.5, gamma 3     rip 0.55 somigl 0.1%/0.2% h2 2.87 confine 0.546 hapax 0.74 tipi 0.453 ambigui 0.70 
+beta 3, tau 1.5, gamma 3     rip 0.54 somigl 0.3%/0.2% h2 2.86 confine 0.541 hapax 0.74 tipi 0.452 ambigui 0.71 
+beta 8, tau 1.5, gamma 3     rip 0.63 somigl 0.6%/0.2% h2 2.84 confine 0.526 hapax 0.74 tipi 0.448 ambigui 0.71 
+beta 20, tau 1.5, gamma 3    rip 0.82 somigl 1.6%/0.3% h2 2.77 confine 0.465 hapax 0.75 tipi 0.433 ambigui 0.73 
+beta 3, tau 6, gamma 3       rip 0.53 somigl 0.2%/0.2% h2 2.86 confine 0.545 hapax 0.74 tipi 0.452 ambigui 0.71 
+beta 8, tau 6, gamma 3       rip 0.57 somigl 0.4%/0.2% h2 2.84 confine 0.532 hapax 0.74 tipi 0.449 ambigui 0.71 
+beta 20, tau 6, gamma 3      rip 0.82 somigl 0.9%/0.5% h2 2.77 confine 0.478 hapax 0.75 tipi 0.435 ambigui 0.73 
