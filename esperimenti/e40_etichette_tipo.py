@@ -160,8 +160,48 @@ def per_lunghezza():
         f.write('\n'.join(righe) + '\n')
 
 
+def coerenza():
+    """Esplorativo (non preregistrato): la differenza di terminazione va nella stessa direzione
+    pagina per pagina? Con un'ipotesi di "lotti" a caso per pagina le direzioni si
+    annullerebbero. Per non usare due volte gli stessi dati, le terminazioni "da recipiente" si
+    stabiliscono lasciando fuori la pagina che si giudica."""
+    dati = etichette(CONFRONTI[0][1])
+    pagine = sorted({p for p, _, _ in dati})
+    righe_out, concordi, valutabili = [], 0, 0
+    for pag in pagine:
+        resto = [(t, s[-1]) for p, t, s in dati if p != pag]
+        freq = {t: Counter(g for tt, g in resto if tt == t) for t in ('recipiente', 'frammento')}
+        tot = {t: sum(c.values()) for t, c in freq.items()}
+        # segni finali piu' frequenti fra i recipienti che fra i frammenti, fuori da questa pagina
+        tipiche = {g for g in set(freq['recipiente']) | set(freq['frammento'])
+                   if freq['recipiente'][g] / tot['recipiente'] > freq['frammento'][g] / tot['frammento']}
+        qui = {t: [s[-1] for p, tt, s in dati if p == pag and tt == t] for t in ('recipiente', 'frammento')}
+        if not qui['recipiente'] or not qui['frammento']:
+            continue
+        a = sum(g in tipiche for g in qui['recipiente']) / len(qui['recipiente'])
+        b = sum(g in tipiche for g in qui['frammento']) / len(qui['frammento'])
+        valutabili += 1
+        concordi += a > b
+        righe_out.append((pag, len(qui['recipiente']), len(qui['frammento']), a, b))
+    from math import comb
+    p = sum(comb(valutabili, k) for k in range(concordi, valutabili + 1)) / 2 ** valutabili
+    righe = ['# e40, esplorativo: la direzione è la stessa pagina per pagina?', '',
+             'Per ogni pagina, le terminazioni "da recipiente" sono stabilite sulle altre pagine; si '
+             'confronta la loro quota fra recipienti e frammenti di questa pagina. Non preregistrato.', '',
+             '| pagina | recipienti | frammenti | quota tipica, recipienti | quota tipica, frammenti |',
+             '|---|---|---|---|---|']
+    righe += ['| %s | %d | %d | %.2f | %.2f |' % r for r in righe_out]
+    righe += ['', 'Pagine in cui i recipienti hanno più terminazioni tipiche: %d su %d (test del segno, '
+              'una coda: p = %.3f).' % (concordi, valutabili, p)]
+    print('\n'.join(righe))
+    with open(os.path.join(RISULTATI, 'e40_etichette_tipo_coerenza.md'), 'w', encoding='utf-8') as f:
+        f.write('\n'.join(righe) + '\n')
+
+
 if __name__ == '__main__':
-    if '--lunghezza' in sys.argv:
+    if '--coerenza' in sys.argv:
+        coerenza()
+    elif '--lunghezza' in sys.argv:
         per_lunghezza()
     else:
         main()
