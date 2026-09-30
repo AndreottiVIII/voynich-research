@@ -1,0 +1,52 @@
+{
+ "fogli": 204,
+ "spazi_allineati": 23378,
+ "spazi_puliti": 23378,
+ "certi": 22158,
+ "incerti": 1220,
+ "larghezza_media": {
+  "certi": 0.1277590265445185,
+  "incerti": 0.00479406821646714
+ },
+ "validita_incerti": {
+  "strati": 43,
+  "casi": 18129,
+  "differenza": 0.11337424304941962,
+  "nulla_media": -3.19448907754509e-06,
+  "nulla_dev": 0.005490149162432124,
+  "z": 20.651066880716808,
+  "p_una_coda": 0.0004997501249375312
+ },
+ "primaria_unione_attestata": {
+  "strati": 36,
+  "casi": 12197,
+  "differenza": 0.03074639472837712,
+  "nulla_media": 7.391702864580249e-05,
+  "nulla_dev": 0.007853046903766462,
+  "z": 3.9058059980541113,
+  "p_una_coda": 0.0024987506246876563
+ },
+ "quota_certi_con_unione_attestata": 0.0553750338478202,
+ "secondaria_per_giuntura": {
+  "altra": {
+   "n": 812,
+   "media": 0.0907509162921457,
+   "mediana": 0.07142857142857142
+  },
+  "dura": {
+   "n": 10262,
+   "media": 0.14349774699643625,
+   "mediana": 0.13333333333333333
+  },
+  "intermedia": {
+   "n": 9884,
+   "media": 0.12029018679289534,
+   "mediana": 0.125
+  },
+  "morbida": {
+   "n": 1200,
+   "media": 0.07972723350484373,
+   "mediana": 0.06666666666666667
+  }
+ }
+}
