@@ -21,11 +21,18 @@
   "byte": 225042
  },
  "102v (part)": {
-  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006253",
-  "url": "https://collections.library.yale.edu/iiif/2/1006253/full/1500,/0/default.jpg",
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006252",
+  "url": "https://collections.library.yale.edu/iiif/2/1006252/full/1500,/0/default.jpg",
   "file": "102v__part.jpg",
   "sha256": "60265c7e04b776a8073edd856bea428e23eca28c793186d24164196a10a86964",
   "byte": 701889
+ },
+ "102v (part) #2": {
+  "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006253",
+  "url": "https://collections.library.yale.edu/iiif/2/1006253/full/1500,/0/default.jpg",
+  "file": "102v__part___2.jpg",
+  "sha256": "3acf2993040f520a4932d2c3d10e02b47a89eb098e5a8d1621e57c335cdb25db",
+  "byte": 692710
  },
  "18v": {
   "canvas": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006109",
