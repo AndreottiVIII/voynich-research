@@ -498,3 +498,44 @@ rimescola vocabolario da ogni parte del testo e spiega la mancanza di deriva.
 - Corretto (`sys.stdout.reconfigure`) e rilanciato e18–e27.
 - **e14** si replica (stessi valori). Il controllo Naibbe si aggiunge con `--naibbe`, come nel
   lavoro originale.
+
+## 1/10/2026 — e51 ed e53: il modello senza messaggio si avvicina
+
+**e51** (meno composizione).
+
+- Prime combinazioni **compatibili**: K = 0, q = 0,10, λ = 0,75 e 0,90.
+  - Ripetizione 0,76; somiglianza 3,4% → 3,2%; h2 2,38; legame 0,19; parole uniche 0,64.
+  - Lunghezza delle parole 4,41 ± 1,63 (Voynich 4,46 ± 1,64).
+- **Fuori campione:** V1 e V4 superate; V3 (profilo di pagina: R 0,74, quota 0,086–0,091) e V5
+  (unioni attestate 1,4 contro 2,0) no.
+- Per la preregistrazione: compatibile ma validazione a metà.
+
+**Nuove prove fuori campione, calibrate solo su Voynich e lingue prima di guardare i modelli.**
+
+- **V6, autocorrelazione delle lunghezze di parole vicine:** Voynich **+0,15**; Bibbia latina
+  −0,16, italiana −0,23, Plinio 0,00. È una firma forte: parole lunghe vicino a parole lunghe, come
+  nel gibberish di Gaskell e Bowern.
+- **V7, Zipf:** Voynich −1,04, lingue da −0,82 a −1,04. Prova debole.
+
+**e53** (scissione alle giunture morbide; sostituzioni di fine parola).
+
+- La scissione porta le unioni attestate a 1,70–1,83.
+- **V6 superata** (0,084–0,094) con sostituzioni finali spente e d ≥ 0,06: il modello riproduce
+  fuori campione una proprietà che nessuna lingua ha.
+- V7 fallisce di poco (−0,91).
+- Ipotesi (b) smentita: senza sostituzioni finali R resta 0,72–0,74.
+- **Autocritica sul criterio.** Le soglie a senso unico lasciano passare eccessi: con la scissione
+  il legame fine–inizio arriva a 0,30–0,36 (Voynich 0,19). Da qui in poi i criteri saranno bande
+  a due lati.
+
+**Stato del modello senza messaggio.** "Autocitazione (Timm e Schinner) + composizione di forme
+nuove nello stile della pagina + regola delle giunture + scissione alle giunture morbide."
+
+- **Riproduce:** h2, spazio, parole uniche e curva piatta, lunghezza delle parole, ripetizione
+  (0,75–0,8, un po' bassa), omogeneità graduata, legame (troppo con la scissione), unioni
+  attestate, autocorrelazione delle lunghezze.
+- **Non riproduce:**
+  - il **profilo di pagina** (nel Voynich l'informazione di pagina è uniforme lungo la parola, nel
+    modello si concentra in fondo ed è più forte);
+  - la **deriva** del vocabolario, senza la recenza;
+  - Zipf (di poco).
