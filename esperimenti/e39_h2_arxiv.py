@@ -2,7 +2,7 @@
 """Esperimento 39: riconciliare h2 con Rozanova e Temerev (2026, arXiv 2608.17096).
 
 Loro: h2 = 2,7 bit per il Voynich contro circa 3,5 per latino, italiano, inglese.
-Noi (e01): 2,2 contro 2,6-3,3. Si calcola h2 con quattro ricette sullo stesso testo
+Noi (e01): 2,2 contro 2,6-3,3. Si calcola h2 con cinque ricette sullo stesso testo
 (ZL, paragrafi, parole pulite) e sugli stessi controlli, tutti troncati allo stesso
 numero di simboli del Voynich in quella ricetta. Preregistrazione: preregistrazioni/e39.md.
 
@@ -61,7 +61,7 @@ def main():
     os.makedirs(RISULTATI, exist_ok=True)
     with open(os.path.join(RISULTATI, 'e39_h2_arxiv.json'), 'w', encoding='utf-8') as f:
         json.dump(ris, f, ensure_ascii=False, indent=1)
-    righe = ['# e39 — h2 con quattro ricette', '',
+    righe = ['# e39 — h2 con cinque ricette', '',
              'Testo in paragrafi ZL, %d parole pulite. Ogni controllo è troncato allo stesso numero '
              'di simboli del Voynich in quella ricetta. h2 in bit, stima diretta.' % len(parole_v), '',
              '| ricetta | simboli | Voynich | ' + ' | '.join(testi) + ' | distacco minimo |',
