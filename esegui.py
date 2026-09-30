@@ -71,6 +71,8 @@ def a_lf(dopo, codice):
 def esegui(nome, argomenti, env):
     codice, script = trova(nome)
     os.makedirs(PROVENIENZA, exist_ok=True)
+    # la provenienza si fotografa prima di partire: commit e dati sono quelli con cui gira
+    prov = registro.provenienza(script)
     inizio = time.time()
     print('== %s (%s)' % (codice, os.path.basename(script)), flush=True)
     with open(os.path.join(PROVENIENZA, codice + '.log'), 'w', encoding='utf-8', newline='\n') as log:
@@ -83,7 +85,6 @@ def esegui(nome, argomenti, env):
         uscita = proc.wait()
     durata = time.time() - inizio
     scritti = [p for p in a_lf(inizio - 1, codice) if not p.startswith('risultati/provenienza/')]
-    prov = registro.provenienza(script)
     prov.update({'esperimento': codice, 'argomenti': argomenti, 'uscita': uscita,
                  'inizio': time.strftime('%Y-%m-%dT%H:%M:%S', time.localtime(inizio)),
                  'durata_s': round(durata, 1), 'file_scritti': scritti})
