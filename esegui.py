@@ -85,6 +85,7 @@ def esegui(nome, argomenti, env):
         for riga in proc.stdout:
             sys.stdout.write(riga)
             log.write(riga)
+            log.flush()                       # il log si legge anche mentre l'esperimento gira
         uscita = proc.wait()
     durata = time.time() - inizio
     scritti = [p for p in a_lf(inizio - 1, codice) if not p.startswith('risultati/provenienza/')]
