@@ -1,0 +1,36 @@
+c 0.3, lambda 0.50, tau 1.5, gamma 1 rip 1.25 somigl 0.4%/0.4% h2 2.23 legame 0.060 uniche 0.53 tipi 0.161 | bande 1/7  | V1 V3 V7
+c 0.3, lambda 0.50, tau 1.5, gamma 3 rip 1.25 somigl 0.2%/0.4% h2 2.22 legame 0.252 uniche 0.54 tipi 0.163 | bande 1/7  | V1 V3 V6 V7
+c 0.3, lambda 0.50, tau 4.0, gamma 1 rip 1.26 somigl 0.4%/0.4% h2 2.22 legame 0.061 uniche 0.54 tipi 0.163 | bande 1/7  | V1 V7
+c 0.3, lambda 0.50, tau 4.0, gamma 3 rip 1.21 somigl 0.2%/0.3% h2 2.23 legame 0.254 uniche 0.53 tipi 0.164 | bande 1/7  | V1 V3 V7
+c 0.3, lambda 0.80, tau 1.5, gamma 1 rip 1.18 somigl 1.5%/1.6% h2 2.18 legame 0.049 uniche 0.50 tipi 0.132 | bande 2/7  | V1 V2 V6 V7
+c 0.3, lambda 0.80, tau 1.5, gamma 3 rip 1.15 somigl 1.5%/1.6% h2 2.17 legame 0.208 uniche 0.50 tipi 0.126 | bande 3/7  | V1 V2 V6 V7
+c 0.3, lambda 0.80, tau 4.0, gamma 1 rip 1.16 somigl 1.6%/1.5% h2 2.17 legame 0.048 uniche 0.51 tipi 0.130 | bande 3/7  | V1 V2 V7
+c 0.3, lambda 0.80, tau 4.0, gamma 3 rip 1.13 somigl 1.5%/1.6% h2 2.16 legame 0.211 uniche 0.50 tipi 0.129 | bande 3/7  | V1 V2 V7
+c 0.3, lambda 0.95, tau 1.5, gamma 1 rip 1.09 somigl 4.5%/4.5% h2 1.81 legame 0.021 uniche 0.40 tipi 0.050 | bande 2/7  | V1 V2 V6
+c 0.3, lambda 0.95, tau 1.5, gamma 3 rip 1.10 somigl 4.0%/4.0% h2 1.98 legame 0.136 uniche 0.38 tipi 0.048 | bande 2/7  | V1 V2 V5 V6
+c 0.3, lambda 0.95, tau 4.0, gamma 1 rip 1.05 somigl 4.6%/4.1% h2 1.98 legame 0.030 uniche 0.40 tipi 0.052 | bande 3/7  | V1 V2 V6
+c 0.3, lambda 0.95, tau 4.0, gamma 3 rip 1.06 somigl 6.1%/5.7% h2 1.92 legame 0.127 uniche 0.38 tipi 0.046 | bande 2/7  | V1 V2 V5 V6
+c 0.5, lambda 0.50, tau 1.5, gamma 1 rip 1.19 somigl 0.6%/0.5% h2 2.21 legame 0.057 uniche 0.45 tipi 0.127 | bande 3/7  | V1 V3 V6 V7
+c 0.5, lambda 0.50, tau 1.5, gamma 3 rip 1.17 somigl 0.4%/0.6% h2 2.21 legame 0.229 uniche 0.44 tipi 0.126 | bande 3/7  | V1 V3 V6 V7
+c 0.5, lambda 0.50, tau 4.0, gamma 1 rip 1.17 somigl 0.7%/0.8% h2 2.22 legame 0.053 uniche 0.45 tipi 0.128 | bande 2/7  | V1 V2 V6 V7
+c 0.5, lambda 0.50, tau 4.0, gamma 3 rip 1.16 somigl 0.5%/0.7% h2 2.20 legame 0.235 uniche 0.45 tipi 0.125 | bande 3/7  | V1 V6 V7
+c 0.5, lambda 0.80, tau 1.5, gamma 1 rip 1.16 somigl 2.3%/2.3% h2 2.16 legame 0.043 uniche 0.41 tipi 0.095 | bande 2/7  | V1 V2 V6 V7
+c 0.5, lambda 0.80, tau 1.5, gamma 3 rip 1.14 somigl 2.1%/2.1% h2 2.11 legame 0.177 uniche 0.41 tipi 0.093 | bande 3/7  | V1 V2 V6 V7
+c 0.5, lambda 0.80, tau 4.0, gamma 1 rip 1.14 somigl 2.1%/2.0% h2 2.16 legame 0.046 uniche 0.42 tipi 0.097 | bande 3/7  | V1 V2 V6 V7
+c 0.5, lambda 0.80, tau 4.0, gamma 3 rip 1.11 somigl 2.8%/2.8% h2 2.13 legame 0.181 uniche 0.41 tipi 0.095 | bande 3/7  | V1 V2 V6 V7
+c 0.5, lambda 0.95, tau 1.5, gamma 1 rip 1.06 somigl 6.2%/5.5% h2 1.88 legame 0.021 uniche 0.32 tipi 0.029 | bande 2/7  | V1 V2 V6
+c 0.5, lambda 0.95, tau 1.5, gamma 3 rip 1.07 somigl 7.1%/6.9% h2 1.92 legame 0.112 uniche 0.33 tipi 0.032 | bande 1/7  | V1 V2 V6
+c 0.5, lambda 0.95, tau 4.0, gamma 1 rip 1.06 somigl 6.1%/5.7% h2 1.89 legame 0.028 uniche 0.34 tipi 0.034 | bande 2/7  | V1 V2 V6
+c 0.5, lambda 0.95, tau 4.0, gamma 3 rip 1.04 somigl 7.9%/7.8% h2 1.77 legame 0.124 uniche 0.33 tipi 0.030 | bande 1/7  | V1 V2 V5 V6
+c 0.7, lambda 0.50, tau 1.5, gamma 1 rip 1.11 somigl 1.2%/1.4% h2 2.19 legame 0.050 uniche 0.37 tipi 0.086 | bande 2/7  | V1 V2 V6 V7
+c 0.7, lambda 0.50, tau 1.5, gamma 3 rip 1.10 somigl 1.2%/1.4% h2 2.19 legame 0.205 uniche 0.37 tipi 0.084 | bande 3/7  | V1 V2 V5 V6 V7
+c 0.7, lambda 0.50, tau 4.0, gamma 1 rip 1.11 somigl 1.8%/1.9% h2 2.18 legame 0.048 uniche 0.38 tipi 0.085 | bande 2/7  | V1 V2 V6 V7
+c 0.7, lambda 0.50, tau 4.0, gamma 3 rip 1.10 somigl 1.3%/1.6% h2 2.16 legame 0.212 uniche 0.37 tipi 0.083 | bande 3/7  | V1 V2 V6 V7
+c 0.7, lambda 0.80, tau 1.5, gamma 1 rip 1.09 somigl 4.7%/4.7% h2 2.13 legame 0.037 uniche 0.35 tipi 0.058 | bande 2/7  | V1 V2 V6
+c 0.7, lambda 0.80, tau 1.5, gamma 3 rip 1.09 somigl 4.4%/3.8% h2 2.09 legame 0.151 uniche 0.35 tipi 0.058 | bande 4/7  | V1 V2 V6
+c 0.7, lambda 0.80, tau 4.0, gamma 1 rip 1.07 somigl 4.2%/4.0% h2 2.03 legame 0.034 uniche 0.34 tipi 0.055 | bande 3/7  | V1 V2 V6
+c 0.7, lambda 0.80, tau 4.0, gamma 3 rip 1.06 somigl 4.5%/4.5% h2 2.06 legame 0.163 uniche 0.35 tipi 0.055 | bande 3/7  | V1 V2 V6
+c 0.7, lambda 0.95, tau 1.5, gamma 1 rip 1.05 somigl 11.2%/10.9% h2 1.84 legame 0.021 uniche 0.30 tipi 0.024 | bande 1/7  | V1 V2 V6
+c 0.7, lambda 0.95, tau 1.5, gamma 3 rip 1.05 somigl 14.3%/13.1% h2 1.97 legame 0.102 uniche 0.30 tipi 0.023 | bande 2/7  | V1 V2 V5 V6
+c 0.7, lambda 0.95, tau 4.0, gamma 1 rip 1.03 somigl 13.8%/13.6% h2 1.88 legame 0.014 uniche 0.30 tipi 0.023 | bande 1/7  | V1 V2 V6
+c 0.7, lambda 0.95, tau 4.0, gamma 3 rip 1.03 somigl 9.6%/9.3% h2 1.67 legame 0.061 uniche 0.30 tipi 0.019 | bande 1/7  | V1 V2 V5 V6
