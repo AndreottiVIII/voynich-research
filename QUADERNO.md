@@ -455,3 +455,46 @@ Voynich non usate per costruire il modello, con soglie fissate prima:
 
 Nel white paper un modello "che funziona" va presentato con queste prove, non con la sola lista di
 controllo su cui è stato tarato.
+
+## 1/10/2026 — Davide: "continua con tentativi successivi; il white paper solo quando lo dico io"
+
+Lavoro in autonomia durante la notte. Stessa procedura: preregistrazione, commit, esecuzione,
+commit dei risultati, quaderno, push sul repository privato.
+
+## 30/09–1/10/2026 — e49 ed e50: il generatore che compone, verso il Voynich
+
+**e49 (giunture anche per le parole composte).**
+
+- Il legame fine–inizio torna a 0,18–0,24.
+- Nessuna combinazione compatibile, per il solito compromesso: con la composizione dalla pagina
+  (λ = 0,9) l'omogeneità regge ma le parole uniche restano 0,56–0,57; con λ = 0,6 le uniche
+  arrivano a 0,58–0,62 ma l'omogeneità scende all'1,4–2,3%.
+- Validazione fuori campione: V1 (curva piatta) sempre superata; V3 solo con λ bassa; V2 (deriva
+  del vocabolario) **mai** (0,00–0,04 contro 0,10).
+
+**Lettura del sorgente.** Il generatore, nelle righe iniziali di paragrafo, il 70% delle volte
+copia da una riga iniziale di paragrafo presa a caso in **tutto** il testo già scritto. Questo
+rimescola vocabolario da ogni parte del testo e spiega la mancanza di deriva.
+
+**e50, due aggiunte spegnibili.**
+
+- **Recenza:** fonti di inizio paragrafo solo dalle ultime K.
+- **Novità:** la parola composta dev'essere una forma mai scritta.
+- **Validità:** spente, il testo è identico all'e23 e all'e49.
+- **Esiti:**
+  - la novità rompe il compromesso: parole uniche 0,70–0,79 con omogeneità 3,8–7,2%;
+  - la recenza K = 5 dà la deriva (V2 = 0,057–0,071 con λ = 0,9);
+  - nessuna combinazione è compatibile: h2 sale a 2,45–2,62 (limite 2,40), e parole uniche e
+    omogeneità superano il Voynich.
+- **e51** prova q più piccoli. Aggiunge due validazioni fuori campione nuove (V4 lunghezza delle
+  parole, V5 unioni attestate), perché V2, diventata un bersaglio della recenza, non è più fuori
+  campione.
+
+## 1/10/2026 — Repliche: un difetto di esecuzione
+
+- Il gruppo e09…e27 si è fermato dopo e14. Il processo di `esegui.py`, con l'output rediretto su
+  file, è andato in errore scrivendo una lettera ebraica, perché su Windows la codifica
+  predefinita dell'output non è UTF-8.
+- Corretto (`sys.stdout.reconfigure`) e rilanciato e18–e27.
+- **e14** si replica (stessi valori). Il controllo Naibbe si aggiunge con `--naibbe`, come nel
+  lavoro originale.
