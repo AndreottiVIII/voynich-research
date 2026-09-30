@@ -297,3 +297,65 @@ diversi solo i valori che superano **anche** una soglia assoluta di 1e-12.
   - Insieme all'e21 (elenchi biblici, *Notitia*, *Fasti*) e all'e25 (litanie), i generi non in
     prosa provati sono ormai molti e nessuno ha le due anomalie.
   - L'ipotesi 1, in forma pura, perde terreno.
+
+## 30/09/2026 — e13 non si replica, per una buona ragione
+
+- **Che cosa.** e13 (il Voynich sul profilo di nove misure, contro le lingue) legge i risultati di
+  e01, e02, e09 ed e11. Il nuovo e01 contiene una lingua in più, il cinese in pinyin (84 → 85
+  lingue), e i numeri cambiano:
+  - distanza del Voynich dalla lingua più vicina: 9,87 → **9,24**; senza l'omogeneità di pagina
+    5,51 → **4,39**;
+  - distanza massima fra una lingua e la sua vicina: 4,06 → **6,64**; senza omogeneità 4,06 →
+    **6,63**.
+- **Conseguenza per il white paper.** La frase del dossier "il Voynich è più isolato di qualsiasi
+  lingua" regge **solo con l'omogeneità di pagina** (9,2 contro 6,6). Senza, il Voynich (4,4) è
+  meno isolato della lingua più isolata del campione allargato.
+  - Va verificato quale lingua dà 6,6: con buona probabilità il pinyin, che è una trascrizione di
+    una scrittura logografica.
+  - Va deciso se tenerlo nel confronto: nel dossier le lingue erano "in alfabeto o abjad".
+  - È una decisione da prendere e da registrare (D-008 da scrivere), non da aggiustare in silenzio.
+
+## 30/09/2026 — e31: Naibbe con convenzioni che derivano (ipotesi 2)
+
+- **Preregistrato.** 16 combinazioni (σ × ρ × 2 testi).
+- **Somiglianza:** la deriva la fa calare con la distanza, ma arriva al massimo al 2,3% (Voynich
+  3,8%).
+- **Tutte le combinazioni:**
+  - ripetizione 0,37–0,49;
+  - legame fine–inizio ≤ 0,005 bit;
+  - parole uniche 42–46%.
+- **Lettura.** Previsioni (b) e (c) confermate: la variante "cifrario con convenzioni che derivano"
+  dell'ipotesi 2 spiega al più una delle anomalie. Resta aperta la variante in cui gli spazi non
+  separano parole del testo in chiaro con giunture morbide, e non solo le tabelle che derivano.
+
+## 30/09/2026 — e42: etichette della farmacia, classe o lotti?
+
+- **Preregistrato.** Controlli validi: i lotti sono riconosciuti nel 100% delle simulazioni; per la
+  classe i falsi positivi sono il 6%.
+- **Voynich.** Il corpo delle etichette (senza l'ultimo segno) **non** si somiglia per tipo dentro
+  la pagina (D = −0,009, p = 0,71). Per la preregistrazione l'esito si accorda con la marcatura per
+  classe.
+- **Ma** il controllo di coerenza sull'ultimo segno, a coppie dentro la pagina, non ritrova
+  l'effetto di e40 (p = 0,67).
+- **Lettura prudente.**
+  - L'e40 rileva una differenza di **distribuzione** delle terminazioni fra recipienti e frammenti,
+    sommata su 12 pagine, e 9 pagine su 12 vanno nella stessa direzione.
+  - Non c'è però una somiglianza a coppie fra etichette dello stesso tipo sulla stessa pagina.
+  - La spiegazione "lotti" è sfavorita; quella "classe marcata" è possibile ma il segnale è debole
+    (36 recipienti).
+  - Conclusione da tenere nel white paper: indizio, non prova.
+
+## 30/09/2026 — e43: l'ibrido di D'Imperio (codice + riempitivi copiati)
+
+- **Preregistrato.** 12 combinazioni f × λ.
+- **Nessuna praticabile.**
+  - I riempitivi danno ripetizioni anche troppe (×1,09–1,34) e le parole uniche restano al 51–66%.
+  - Ma h2 sale (2,47–3,09; il solo codice ha già 2,40) e la somiglianza è **locale**: fino al 4,8%
+    nella riga, ma 0–0,6% a sei righe. Nel Voynich invece la somiglianza sta su tutta la pagina
+    (3,8% → 3,4%).
+- **Lettura.**
+  - Con copie dalle righe vicine l'omogeneità è di riga, non di pagina. Il generatore di Timm e
+    Schinner la ottiene di pagina grazie alle sue regole di scelta della fonte.
+  - Un ibrido "codice + autocitazione alla Timm e Schinner" non è escluso da questo esperimento, ma
+    va costruito con quel generatore (Java), non con l'autocitazione semplificata.
+  - Possibile esperimento successivo.
