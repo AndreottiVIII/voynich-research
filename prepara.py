@@ -40,20 +40,24 @@ def fissa_in_parte(url, cartella, commit, percorsi):
     """Come fissa, ma scarica solo alcune cartelle: il repository intero e' grande."""
     os.makedirs(os.path.dirname(os.path.abspath(cartella)), exist_ok=True)
     if not os.path.isdir(os.path.join(cartella, '.git')):
-        git('clone', '--depth', '1', '--filter=blob:none', '--sparse', url, cartella)
-    git('sparse-checkout', 'set', *percorsi, cwd=cartella)
-    attuale = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=cartella).decode().strip()
-    if attuale != commit:
-        git('fetch', '--depth', '1', '--filter=blob:none', 'origin', commit, cwd=cartella)
-        git('checkout', '--quiet', commit, cwd=cartella)
+        git('clone', '--depth', '1', '--filter=blob:none', '--no-checkout', url, cartella)
+    git('-c', 'core.protectNTFS=false', 'sparse-checkout', 'set', *percorsi, cwd=cartella)
+    git('fetch', '--depth', '1', '--filter=blob:none', 'origin', commit, cwd=cartella)
+    # protectNTFS=false (anche per sparse-checkout, che altrimenti va in crash): su Windows git
+    # rifiuta percorsi con "\" anche fuori dalle cartelle scelte (naibbe-cipher ne ha); fuori
+    # dalle cartelle scelte non si scrive niente, quindi non c'e' rischio
+    git('-c', 'core.protectNTFS=false', 'checkout', '--quiet', commit, cwd=cartella)
 
 
 def main():
     fissa(URL, lingue.SORGENTE, COMMIT_PIENO)
     fissa('https://github.com/cltk/lat_text_latin_library', lingue.LATIN_LIBRARY, lingue.COMMIT_LL)
     # il cifrario Naibbe di Greshko (2025): tabelle e testo cifrato di esempio
-    fissa('https://github.com/greshko/naibbe-cipher', os.path.join(lingue.SORGENTI, 'naibbe-cipher'),
-          'f2675ec5dd275268bc64dd48ea64fc0e0e9827a2')
+    # solo le cartelle che servono: figure_utils/ contiene nomi di file con "\" che su Windows
+    # non si possono creare (vedi QUADERNO.md, 30/09/2026)
+    fissa_in_parte('https://github.com/greshko/naibbe-cipher', os.path.join(lingue.SORGENTI, 'naibbe-cipher'),
+                   'f2675ec5dd275268bc64dd48ea64fc0e0e9827a2',
+                   ['references', 'encrypted', 'decrypted', 'input', 'respaced_plaintext'])
     # il generatore ad autocitazione di Timm e Schinner (2020), in Java: serve all'esperimento 22
     fissa('https://github.com/TorstenTimm/SelfCitationTextgenerator',
           os.path.join(lingue.SORGENTI, 'SelfCitationTextgenerator'), 'a6ede2202dd7ad6285ce2c007bf22c2a0e7709b7')
