@@ -41,35 +41,47 @@ def sim(a, b):
     return 1 - misure._dist_norm(a, b)
 
 
-def statistica(coppie, relativa=False, ordini=None):
-    num = den = 0.0
-    ident = n = 0
-    for k, (riga, sopra) in enumerate(coppie):
-        if ordini is not None:
-            sopra = [sopra[j] for j in ordini[k]]
+def matrici(coppie):
+    """Per ogni coppia di righe, la matrice delle somiglianze (parole della riga x parole di sopra):
+    si calcola una volta sola; i rimescolamenti permutano le colonne."""
+    return [np.array([[sim(w, x) for x in sopra] for w in riga]) + 0.0 for riga, sopra in coppie]
+
+
+def indici(coppie, relativa):
+    out = []
+    for riga, sopra in coppie:
         L = len(sopra)
-        for i, w in enumerate(riga):
+        js = []
+        for i in range(len(riga)):
             j = round(i / (len(riga) - 1) * (L - 1)) if relativa and len(riga) > 1 else i
-            if j >= L:
-                continue
-            s = [sim(w, x) for x in sopra]
-            altre = (sum(s) - s[j]) / (L - 1)
-            num += s[j]
-            den += altre
-            ident += w == sopra[j]
-            n += 1
-    return num / den, ident / n
+            js.append(j if j < L else -1)
+        out.append(np.array(js))
+    return out
+
+
+def statistica(mat, idx, perm=None, identita=None):
+    num = den = 0.0
+    for k, (M, js) in enumerate(zip(mat, idx)):
+        ok = js >= 0
+        if not ok.any():
+            continue
+        cols = js[ok] if perm is None else perm[k][js[ok]]
+        s = M[np.nonzero(ok)[0], cols]
+        tot = M[ok].sum(axis=1)
+        L = M.shape[1]
+        num += s.sum()
+        den += ((tot - s) / (L - 1)).sum()
+    return num / den
 
 
 def prova(coppie, relativa, seme=58):
-    oss, ident = statistica(coppie, relativa)
-    rnd = random.Random(seme)
-    nulle = []
-    for _ in range(RIMESCOLAMENTI):
-        ordini = [rnd.sample(range(len(s)), len(s)) for _, s in coppie]
-        nulle.append(statistica(coppie, relativa, ordini)[0])
-    nulle = np.array(nulle)
-    return {'rapporto': oss, 'nulla': float(nulle.mean()), 'z': float((oss - nulle.mean()) / nulle.std(ddof=1)),
+    mat = matrici(coppie)
+    idx = indici(coppie, relativa)
+    oss = statistica(mat, idx)
+    ident = sum(int((M[np.nonzero(js >= 0)[0], js[js >= 0]] == 1).sum()) for M, js in zip(mat, idx)) /         sum(int((js >= 0).sum()) for js in idx)
+    rnd = np.random.default_rng(seme)
+    nulle = np.array([statistica(mat, idx, [rnd.permutation(M.shape[1]) for M in mat]) for _ in range(RIMESCOLAMENTI)])
+    return {'rapporto': float(oss), 'nulla': float(nulle.mean()), 'z': float((oss - nulle.mean()) / nulle.std(ddof=1)),
             'p': float((1 + (nulle >= oss).sum()) / (1 + RIMESCOLAMENTI)), 'identiche_sopra': ident}
 
 
