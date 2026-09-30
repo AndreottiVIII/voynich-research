@@ -109,5 +109,66 @@ def main():
         f.write('\n'.join(righe) + '\n')
 
 
+def contributi(blocchi, pos, lung_min):
+    """Analisi secondaria: quanto ciascun segno in posizione pos contribuisce all'informazione
+    mutua gruppo/segno, dentro ciascuno strato: p(g) * KL(p(sezione|g) || p(sezione))."""
+    import math
+    from collections import Counter
+    per_strato = {}
+    for b in blocchi:
+        for w in b.parole:
+            if len(w) >= lung_min:
+                per_strato.setdefault(b.strato, []).append((b.gruppo, w[pos]))
+    out = {}
+    for strato, coppie in per_strato.items():
+        n = len(coppie)
+        pg, ps, pj = Counter(g for _, g in coppie), Counter(s for s, _ in coppie), Counter(coppie)
+        contrib = {}
+        for g, cg in pg.items():
+            kl = sum(c / cg * math.log2((c / cg) / (ps[s] / n)) for (s, gg), c in pj.items() if gg == g)
+            sopra = max(ps, key=lambda s: pj[(s, g)] / cg - ps[s] / n)
+            contrib[g] = {'contributo': cg / n * kl, 'frequenza': cg / n, 'sezione_in_eccesso': sopra,
+                          'quota_in_quella_sezione': pj[(sopra, g)] / cg, 'quota_attesa': ps[sopra] / n}
+        tot = sum(v['contributo'] for v in contrib.values())
+        for v in contrib.values():
+            v['frazione'] = v['contributo'] / tot if tot else 0
+        out[str(strato)] = {'parole': n, 'sezioni': dict(ps), 'informazione': tot,
+                            'segni': dict(sorted(contrib.items(), key=lambda kv: -kv[1]['contributo']))}
+    return out
+
+
+def dettaglio():
+    """Analisi secondaria (non preregistrata per e37; per e36 lo era): quali segni portano
+    l'informazione sulla sezione al primo segno, nei paragrafi e nelle etichette."""
+    ris = {'paragrafi_primo': contributi(pagine_voynich(), 0, 4),
+           'etichette_primo': contributi(etichette_voynich(), 0, 3)}
+    with open(os.path.join(RISULTATI, 'e37_posizione_sezione_dettaglio.json'), 'w', encoding='utf-8') as f:
+        json.dump(ris, f, ensure_ascii=False, indent=1)
+    righe = ['# e37, analisi secondaria: quali segni portano l'informazione sulla sezione', '',
+             'Contributo di ciascun segno iniziale all'informazione mutua sezione/primo segno, dentro '
+             'ciascuna lingua di Currier (paragrafi) o su tutte le etichette. Non corretto per il caso: '
+             'serve a vedere da dove viene l'informazione, non quanta ce n'è.', '']
+    for nome, per in ris.items():
+        for strato, d in per.items():
+            righe += ['## %s, strato %s (%d parole; sezioni: %s)' % (
+                nome, strato, d['parole'], ', '.join('%s %d' % kv for kv in sorted(d['sezioni'].items(), key=str))), '',
+                '| segno | frequenza | frazione dell'informazione | sezione in eccesso | quota lì | quota attesa |',
+                '|---|---|---|---|---|---|']
+            for g, v in list(d['segni'].items())[:8]:
+                righe.append('| %s | %.3f | %.2f | %s | %.2f | %.2f |' % (
+                    g, v['frequenza'], v['frazione'], v['sezione_in_eccesso'],
+                    v['quota_in_quella_sezione'], v['quota_attesa']))
+            righe.append('')
+    with open(os.path.join(RISULTATI, 'e37_posizione_sezione_dettaglio.md'), 'w', encoding='utf-8') as f:
+        f.write('
+'.join(righe) + '
+')
+    print('
+'.join(righe))
+
+
 if __name__ == '__main__':
-    main()
+    if '--dettaglio' in sys.argv:
+        dettaglio()
+    else:
+        main()
