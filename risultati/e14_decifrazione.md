@@ -14,12 +14,10 @@ Sostituzione omofonica (più segni possono valere la stessa lettera), spazi = sp
 | latino | controllo negativo | 22.9% | 43 | 58% | 2.6% | 4.4% (7.1%) | – |
 | latino | Voynich, glifi | 15.8% | 63 | 58% | 6.9% | 17.3% (16.4%) | 0 giuste, 2 fuori posto |
 | latino | Voynich, glifi e serie di i | 14.0% | 69 | 62% | 3.7% | 23.2% (27.0%) | 1 giuste, 10 fuori posto |
-| latino | controllo Naibbe (Plinio cifrato) | 9.0% | 53 | 75% | 3.5% | 42.3% (36.9%) | – |
 | italiano | controllo positivo | 90.6% | 2799 | 12% | 84.0% | 71.5% (31.5%) | – |
 | italiano | controllo negativo | 22.9% | 39 | 64% | 2.8% | 12.8% (5.8%) | – |
 | italiano | Voynich, glifi | 21.9% | 93 | 31% | 8.8% | 20.1% (20.8%) | 0 giuste, 0 fuori posto |
 | italiano | Voynich, glifi e serie di i | 26.6% | 48 | 60% | 2.2% | 10.7% (14.2%) | 0 giuste, 0 fuori posto |
-| italiano | controllo Naibbe (Plinio cifrato) | 19.0% | 42 | 68% | 10.5% | 5.6% (7.1%) | – |
 | tedesco | controllo positivo | 93.9% | 2359 | 13% | 90.0% | 71.3% (42.7%) | – |
 | tedesco | controllo negativo | 12.9% | 42 | 36% | 7.0% | 39.6% (33.0%) | – |
 | tedesco | Voynich, glifi | 11.4% | 52 | 41% | 8.0% | 24.2% (22.8%) | 0 giuste, 0 fuori posto |

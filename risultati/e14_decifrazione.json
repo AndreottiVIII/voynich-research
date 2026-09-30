@@ -270,20 +270,6 @@
      }
     ]
    }
-  },
-  "controllo Naibbe (Plinio cifrato)": {
-   "parole": 34764,
-   "parole_vere": 0.0896904844091589,
-   "parole_vere_diverse": 53,
-   "quota_tre_piu_frequenti": 0.7472738935214881,
-   "parole_lunghe_vere": 0.03538060404142826,
-   "coppie_attestate": 0.4230769230769231,
-   "coppie_attestate_mescolate": 0.3686635944700461,
-   "esempio": [
-    "hist",
-    "petrsest siet perait ets et aessi hiet erast",
-    "tiist ant trssi rais aist isii et eret"
-   ]
   }
  },
  "italiano": {
@@ -531,20 +517,6 @@
      }
     ]
    }
-  },
-  "controllo Naibbe (Plinio cifrato)": {
-   "parole": 34764,
-   "parole_vere": 0.19042687837993327,
-   "parole_vere_diverse": 42,
-   "quota_tre_piu_frequenti": 0.679607250755287,
-   "parole_lunghe_vere": 0.10512783370753966,
-   "coppie_attestate": 0.05603448275862069,
-   "coppie_attestate_mescolate": 0.07129455909943715,
-   "esempio": [
-    "mani",
-    "caimnati naai cammai ain ai matto maai ammni",
-    "iaani mii imtto iman mani anaa ai amai"
-   ]
   }
  },
  "tedesco": {
