@@ -107,5 +107,78 @@ def main():
         f.write('\n'.join(out) + '\n')
 
 
+def decifra():
+    """Esplorativo (non preregistrato): quanto del messaggio rilegge chi conosce il cifrario?
+    (1) per ogni forma la parola latina piu' frequente fra quelle che la ammettono; (2) Viterbi con
+    le coppie di parole latine (modello addestrato sullo stesso Plinio: limite superiore ottimistico)."""
+    import math
+    glifi = misure.divisore(misure.GLIFI_EVA)
+    corrente = trascrizione.testo_corrente(trascrizione.leggi('ZL'))
+    parole_v = trascrizione.parole(corrente)
+    pagine_v = pagine_voynich(corrente)
+    struttura = [[len(r) for r in p] for p in pagine_v]
+    giunture = e46.tabella_giunture([r for p in pagine_v for r in p], glifi)
+    latino = [w for _, ps in plinio() for w in ps]
+    codice = generatori.codice_per_rango(latino, parole_v, generatori.ModelloParole(parole_v, glifi), random.Random(52))
+    base = {}
+    for w, c in zip(latino, codice):
+        base.setdefault(w, c)
+    forme = forme_vere(base, parole_v, glifi)
+    chi = defaultdict(set)
+    for t, fs in forme.items():
+        for f in fs:
+            chi[f].add(t)
+    freq = Counter(latino)
+    coppie = Counter(zip(latino, latino[1:]))
+    V = len(freq)
+
+    def logp(a, b):   # bigramma con lisciatura additiva
+        return math.log((coppie[(a, b)] + 0.1) / (freq[a] + 0.1 * V))
+
+    ris = OrderedDict()
+    for beta, tau, gamma in ((0, 1.5, 0), (20, 1.5, 0), (50, 6.0, 0)):
+        pagine = e46.scrivi(struttura, latino, forme, giunture, beta, tau, gamma, random.Random(52))
+        scritte = [tuple(glifi(p)) for pg in pagine for rr in pg for p in rr]
+        vero = [latino[i % len(latino)] for i in range(len(scritte))]
+        unigram = [max(chi[u], key=lambda t: (freq[t], t)) for u in scritte]
+        acc1 = sum(a == b for a, b in zip(unigram, vero)) / len(vero)
+        # Viterbi a blocchi di 200 parole, candidati limitati ai 30 tipi piu' frequenti per forma
+        giusti = 0
+        for s in range(0, len(scritte), 200):
+            blocco = scritte[s:s + 200]
+            cand = [sorted(chi[u], key=lambda t: -freq[t])[:30] for u in blocco]
+            punti = [{t: math.log(freq[t] / len(latino)) for t in cand[0]}]
+            dietro = [{}]
+            for i in range(1, len(blocco)):
+                p, d = {}, {}
+                for t in cand[i]:
+                    migliore = max(punti[-1], key=lambda a: punti[-1][a] + logp(a, t))
+                    p[t] = punti[-1][migliore] + logp(migliore, t)
+                    d[t] = migliore
+                punti.append(p)
+                dietro.append(d)
+            t = max(punti[-1], key=punti[-1].get)
+            percorso = [t]
+            for i in range(len(blocco) - 1, 0, -1):
+                t = dietro[i][t]
+                percorso.append(t)
+            percorso.reverse()
+            giusti += sum(a == b for a, b in zip(percorso, vero[s:s + 200]))
+        acc2 = giusti / len(vero)
+        ris['beta %g, tau %g, gamma %g' % (beta, tau, gamma)] = {'lettura_parola_per_parola': acc1, 'lettura_con_contesto': acc2}
+        print(beta, tau, gamma, 'parola per parola %.3f, con contesto %.3f' % (acc1, acc2), flush=True)
+    out = ['# e52, esplorativo: quanto del messaggio si rilegge conoscendo il cifrario', '',
+           'Lettura (1): per ogni forma, la parola latina più frequente fra quelle che la ammettono. Lettura (2): '
+           'Viterbi con le coppie di parole latine, addestrato sullo stesso testo (limite superiore). Non preregistrato.', '',
+           '| scelta delle forme | parola per parola | con il contesto |', '|---|---|---|']
+    out += ['| %s | %.1f%% | %.1f%% |' % (k, 100 * v['lettura_parola_per_parola'], 100 * v['lettura_con_contesto'])
+            for k, v in ris.items()]
+    with open(os.path.join(RISULTATI, 'e52_codice_accorto_vero_decifra.md'), 'w', encoding='utf-8') as f:
+        f.write('\n'.join(out) + '\n')
+
+
 if __name__ == '__main__':
-    main()
+    if '--decifra' in sys.argv:
+        decifra()
+    else:
+        main()
