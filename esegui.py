@@ -71,11 +71,14 @@ def a_lf(dopo, codice):
 def esegui(nome, argomenti, env):
     codice, script = trova(nome)
     os.makedirs(PROVENIENZA, exist_ok=True)
+    # una corsa con argomenti (--esplorativo, --naibbe...) ha la sua provenienza e non
+    # sovrascrive quella della corsa principale
+    etichetta = codice + ''.join('_' + a.strip('-') for a in argomenti if a.startswith('--'))
     # la provenienza si fotografa prima di partire: commit e dati sono quelli con cui gira
     prov = registro.provenienza(script)
     inizio = time.time()
     print('== %s (%s)' % (codice, os.path.basename(script)), flush=True)
-    with open(os.path.join(PROVENIENZA, codice + '.log'), 'w', encoding='utf-8', newline='\n') as log:
+    with open(os.path.join(PROVENIENZA, etichetta + '.log'), 'w', encoding='utf-8', newline='\n') as log:
         proc = subprocess.Popen([sys.executable, script] + argomenti, cwd=QUI, env=env,
                                 stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
                                 text=True, encoding='utf-8', errors='replace')
@@ -88,7 +91,7 @@ def esegui(nome, argomenti, env):
     prov.update({'esperimento': codice, 'argomenti': argomenti, 'uscita': uscita,
                  'inizio': time.strftime('%Y-%m-%dT%H:%M:%S', time.localtime(inizio)),
                  'durata_s': round(durata, 1), 'file_scritti': scritti})
-    with open(os.path.join(PROVENIENZA, codice + '.json'), 'w', encoding='utf-8', newline='\n') as f:
+    with open(os.path.join(PROVENIENZA, etichetta + '.json'), 'w', encoding='utf-8', newline='\n') as f:
         json.dump(prov, f, ensure_ascii=False, indent=1)
         f.write('\n')
     print('== %s: uscita %d, %.0f s, %d file' % (codice, uscita, durata, len(scritti)), flush=True)
