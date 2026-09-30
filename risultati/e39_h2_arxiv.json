@@ -1,0 +1,190 @@
+{
+ "parole_voynich": 34863,
+ "ricette": {
+  "nostra: fusi 6, con spazi": {
+   "simboli_voynich": 190378,
+   "voynich": {
+    "h0": 5.0,
+    "simboli": 32,
+    "n": 190378,
+    "h1": 3.858485657758538,
+    "h2": 2.2361640232559385
+   },
+   "latino (Bibbia)": {
+    "h0": 4.584962500721156,
+    "simboli": 24,
+    "n": 190378,
+    "h1": 3.967130513430346,
+    "h2": 3.2594275993293986
+   },
+   "italiano (Bibbia)": {
+    "h0": 4.857980995127572,
+    "simboli": 29,
+    "n": 190378,
+    "h1": 4.0151370469134235,
+    "h2": 3.152772307455825
+   },
+   "inglese (Bibbia)": {
+    "h0": 4.754887502163468,
+    "simboli": 27,
+    "n": 190378,
+    "h1": 4.018388734966634,
+    "h2": 3.114835834186648
+   },
+   "Isidoro XVII, piante": {
+    "nota": "testo troppo corto: 66809 simboli"
+   },
+   "Columella XII, ricette": {
+    "nota": "testo troppo corto: 104973 simboli"
+   }
+  },
+  "fusi 6, senza spazi": {
+   "simboli_voynich": 155515,
+   "voynich": {
+    "h0": 4.954196310386875,
+    "simboli": 31,
+    "n": 155515,
+    "h1": 3.8826259231208753,
+    "h2": 2.5009270485373585
+   },
+   "latino (Bibbia)": {
+    "h0": 4.523561956057013,
+    "simboli": 23,
+    "n": 155515,
+    "h1": 3.9674027146348316,
+    "h2": 3.471550852284406
+   },
+   "italiano (Bibbia)": {
+    "h0": 4.807354922057604,
+    "simboli": 28,
+    "n": 155515,
+    "h1": 4.071252271220988,
+    "h2": 3.4441234975321553
+   },
+   "inglese (Bibbia)": {
+    "h0": 4.700439718141092,
+    "simboli": 26,
+    "n": 155515,
+    "h1": 4.115566182631961,
+    "h2": 3.4289594459744013
+   },
+   "Isidoro XVII, piante": {
+    "nota": "testo troppo corto: 56810 simboli"
+   },
+   "Columella XII, ricette": {
+    "nota": "testo troppo corto: 89246 simboli"
+   }
+  },
+  "loro: fusi 9, senza spazi": {
+   "simboli_voynich": 141513,
+   "voynich": {
+    "h0": 5.087462841250339,
+    "simboli": 34,
+    "n": 141513,
+    "h1": 3.9699764777156368,
+    "h2": 2.697770307570859
+   },
+   "latino (Bibbia)": {
+    "h0": 4.523561956057013,
+    "simboli": 23,
+    "n": 141513,
+    "h1": 3.964280994765161,
+    "h2": 3.4651083131535807
+   },
+   "italiano (Bibbia)": {
+    "h0": 4.807354922057604,
+    "simboli": 28,
+    "n": 141513,
+    "h1": 4.07394276149422,
+    "h2": 3.443816754564902
+   },
+   "inglese (Bibbia)": {
+    "h0": 4.700439718141092,
+    "simboli": 26,
+    "n": 141513,
+    "h1": 4.115463656166235,
+    "h2": 3.4283931193699697
+   },
+   "Isidoro XVII, piante": {
+    "nota": "testo troppo corto: 56810 simboli"
+   },
+   "Columella XII, ricette": {
+    "nota": "testo troppo corto: 89246 simboli"
+   }
+  },
+  "fusi 9, con spazi": {
+   "simboli_voynich": 176376,
+   "voynich": {
+    "h0": 5.129283016944966,
+    "simboli": 35,
+    "n": 176376,
+    "h1": 3.902488519266723,
+    "h2": 2.3735561223936736
+   },
+   "latino (Bibbia)": {
+    "h0": 4.584962500721156,
+    "simboli": 24,
+    "n": 176376,
+    "h1": 3.9651244429512897,
+    "h2": 3.25671475858019
+   },
+   "italiano (Bibbia)": {
+    "h0": 4.857980995127572,
+    "simboli": 29,
+    "n": 176376,
+    "h1": 4.016432712815659,
+    "h2": 3.151140796978443
+   },
+   "inglese (Bibbia)": {
+    "h0": 4.754887502163468,
+    "simboli": 27,
+    "n": 176376,
+    "h1": 4.019209815245308,
+    "h2": 3.1151635865442167
+   },
+   "Isidoro XVII, piante": {
+    "nota": "testo troppo corto: 66809 simboli"
+   },
+   "Columella XII, ricette": {
+    "nota": "testo troppo corto: 104973 simboli"
+   }
+  },
+  "EVA scomposto, senza spazi": {
+   "simboli_voynich": 173928,
+   "voynich": {
+    "h0": 4.643856189774724,
+    "simboli": 25,
+    "n": 173928,
+    "h1": 3.86549440756636,
+    "h2": 2.32079042446255
+   },
+   "latino (Bibbia)": {
+    "h0": 4.523561956057013,
+    "simboli": 23,
+    "n": 173928,
+    "h1": 3.9684791905662364,
+    "h2": 3.470470891836301
+   },
+   "italiano (Bibbia)": {
+    "h0": 4.807354922057604,
+    "simboli": 28,
+    "n": 173928,
+    "h1": 4.0727405137695785,
+    "h2": 3.4475673209844695
+   },
+   "inglese (Bibbia)": {
+    "h0": 4.700439718141092,
+    "simboli": 26,
+    "n": 173928,
+    "h1": 4.117515675413135,
+    "h2": 3.4324221543041507
+   },
+   "Isidoro XVII, piante": {
+    "nota": "testo troppo corto: 56810 simboli"
+   },
+   "Columella XII, ricette": {
+    "nota": "testo troppo corto: 89246 simboli"
+   }
+  }
+ }
+}
