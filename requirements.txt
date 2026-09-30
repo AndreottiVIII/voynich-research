@@ -1,0 +1,5 @@
+matplotlib
+rapidfuzz
+pypinyin
+numpy
+scikit-learn

@@ -1,0 +1,5 @@
+# Nessuna conversione dei fine riga: le impronte SHA-256 dei dati devono restare quelle
+# pubblicate (su Windows git convertirebbe LF in CRLF). Vedi DECISIONI.md, D-001.
+* -text
+*.png binary
+*.jpg binary

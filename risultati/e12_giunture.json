@@ -1,0 +1,675 @@
+{
+ "voynich": {
+  "tutte": {
+   "coppie": 29872,
+   "unione_attestata": 0.09172469201928227,
+   "unione_attestata_caso": 0.048339582217461166
+  },
+  "spazi certi": {
+   "coppie": 27436,
+   "unione_attestata": 0.061269864411721824,
+   "unione_attestata_caso": 0.0344802449336638
+  },
+  "spazi incerti": {
+   "coppie": 2436,
+   "unione_attestata": 0.43472906403940886,
+   "unione_attestata_caso": 0.31198686371100165
+  }
+ },
+ "giunture": [
+  {
+   "fine": "o",
+   "inizio": "r",
+   "coppie": 106,
+   "unione_attestata": 0.5566037735849056,
+   "spazi_incerti": 0.4811320754716981,
+   "tipo": "morbida"
+  },
+  {
+   "fine": "o",
+   "inizio": "a",
+   "coppie": 47,
+   "unione_attestata": 0.5106382978723404,
+   "spazi_incerti": 0.5531914893617021,
+   "tipo": "morbida"
+  },
+  {
+   "fine": "d",
+   "inizio": "a",
+   "coppie": 44,
+   "unione_attestata": 0.5,
+   "spazi_incerti": 0.4772727272727273,
+   "tipo": "morbida"
+  },
+  {
+   "fine": "s",
+   "inizio": "a",
+   "coppie": 280,
+   "unione_attestata": 0.4857142857142857,
+   "spazi_incerti": 0.34285714285714286,
+   "tipo": "morbida"
+  },
+  {
+   "fine": "o",
+   "inizio": "k",
+   "coppie": 116,
+   "unione_attestata": 0.46551724137931033,
+   "spazi_incerti": 0.5086206896551724,
+   "tipo": "morbida"
+  },
+  {
+   "fine": "l",
+   "inizio": "a",
+   "coppie": 142,
+   "unione_attestata": 0.4647887323943662,
+   "spazi_incerti": 0.33098591549295775,
+   "tipo": "morbida"
+  },
+  {
+   "fine": "o",
+   "inizio": "l",
+   "coppie": 196,
+   "unione_attestata": 0.45918367346938777,
+   "spazi_incerti": 0.45408163265306123,
+   "tipo": "morbida"
+  },
+  {
+   "fine": "r",
+   "inizio": "a",
+   "coppie": 870,
+   "unione_attestata": 0.4425287356321839,
+   "spazi_incerti": 0.2827586206896552,
+   "tipo": "morbida"
+  },
+  {
+   "fine": "o",
+   "inizio": "d",
+   "coppie": 118,
+   "unione_attestata": 0.4406779661016949,
+   "spazi_incerti": 0.3813559322033898,
+   "tipo": "morbida"
+  },
+  {
+   "fine": "l",
+   "inizio": "k",
+   "coppie": 339,
+   "unione_attestata": 0.41887905604719766,
+   "spazi_incerti": 0.4306784660766962,
+   "tipo": "morbida"
+  },
+  {
+   "fine": "o",
+   "inizio": "t",
+   "coppie": 44,
+   "unione_attestata": 0.38636363636363635,
+   "spazi_incerti": 0.45454545454545453,
+   "tipo": "morbida"
+  },
+  {
+   "fine": "o",
+   "inizio": "s",
+   "coppie": 43,
+   "unione_attestata": 0.3488372093023256,
+   "spazi_incerti": 0.32558139534883723,
+   "tipo": "morbida"
+  },
+  {
+   "fine": "l",
+   "inizio": "s",
+   "coppie": 131,
+   "unione_attestata": 0.33587786259541985,
+   "spazi_incerti": 0.183206106870229,
+   "tipo": "morbida"
+  },
+  {
+   "fine": "l",
+   "inizio": "d",
+   "coppie": 600,
+   "unione_attestata": 0.27,
+   "spazi_incerti": 0.13666666666666666,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "l",
+   "inizio": "sh",
+   "coppie": 601,
+   "unione_attestata": 0.24958402662229617,
+   "spazi_incerti": 0.15806988352745424,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "l",
+   "inizio": "ch",
+   "coppie": 1075,
+   "unione_attestata": 0.2344186046511628,
+   "spazi_incerti": 0.12186046511627907,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "s",
+   "inizio": "y",
+   "coppie": 51,
+   "unione_attestata": 0.19607843137254902,
+   "spazi_incerti": 0.17647058823529413,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "s",
+   "inizio": "ch",
+   "coppie": 153,
+   "unione_attestata": 0.1830065359477124,
+   "spazi_incerti": 0.1111111111111111,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "l",
+   "inizio": "y",
+   "coppie": 119,
+   "unione_attestata": 0.17647058823529413,
+   "spazi_incerti": 0.15126050420168066,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "s",
+   "inizio": "o",
+   "coppie": 228,
+   "unione_attestata": 0.16666666666666666,
+   "spazi_incerti": 0.12719298245614036,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "l",
+   "inizio": "o",
+   "coppie": 916,
+   "unione_attestata": 0.15283842794759825,
+   "spazi_incerti": 0.07751091703056769,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "r",
+   "inizio": "y",
+   "coppie": 212,
+   "unione_attestata": 0.1509433962264151,
+   "spazi_incerti": 0.1509433962264151,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "o",
+   "inizio": "ch",
+   "coppie": 102,
+   "unione_attestata": 0.12745098039215685,
+   "spazi_incerti": 0.17647058823529413,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "l",
+   "inizio": "r",
+   "coppie": 63,
+   "unione_attestata": 0.12698412698412698,
+   "spazi_incerti": 0.1111111111111111,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "y",
+   "inizio": "k",
+   "coppie": 522,
+   "unione_attestata": 0.12452107279693486,
+   "spazi_incerti": 0.18199233716475097,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "o",
+   "inizio": "o",
+   "coppie": 73,
+   "unione_attestata": 0.1232876712328767,
+   "spazi_incerti": 0.0684931506849315,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "l",
+   "inizio": "t",
+   "coppie": 106,
+   "unione_attestata": 0.11320754716981132,
+   "spazi_incerti": 0.1509433962264151,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "r",
+   "inizio": "o",
+   "coppie": 1240,
+   "unione_attestata": 0.1,
+   "spazi_incerti": 0.05887096774193548,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "r",
+   "inizio": "ch",
+   "coppie": 981,
+   "unione_attestata": 0.09582059123343527,
+   "spazi_incerti": 0.05198776758409786,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "o",
+   "inizio": "sh",
+   "coppie": 42,
+   "unione_attestata": 0.09523809523809523,
+   "spazi_incerti": 0.2619047619047619,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "n",
+   "inizio": "y",
+   "coppie": 241,
+   "unione_attestata": 0.08713692946058091,
+   "spazi_incerti": 0.058091286307053944,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "y",
+   "inizio": "t",
+   "coppie": 356,
+   "unione_attestata": 0.08707865168539326,
+   "spazi_incerti": 0.18820224719101122,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "n",
+   "inizio": "s",
+   "coppie": 69,
+   "unione_attestata": 0.08695652173913043,
+   "spazi_incerti": 0.057971014492753624,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "d",
+   "inizio": "o",
+   "coppie": 78,
+   "unione_attestata": 0.07692307692307693,
+   "spazi_incerti": 0.0641025641025641,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "d",
+   "inizio": "ch",
+   "coppie": 60,
+   "unione_attestata": 0.06666666666666667,
+   "spazi_incerti": 0.06666666666666667,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "n",
+   "inizio": "a",
+   "coppie": 239,
+   "unione_attestata": 0.06276150627615062,
+   "spazi_incerti": 0.09623430962343096,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "r",
+   "inizio": "d",
+   "coppie": 201,
+   "unione_attestata": 0.05970149253731343,
+   "spazi_incerti": 0.06965174129353234,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "r",
+   "inizio": "sh",
+   "coppie": 607,
+   "unione_attestata": 0.05930807248764415,
+   "spazi_incerti": 0.07248764415156507,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "s",
+   "inizio": "sh",
+   "coppie": 86,
+   "unione_attestata": 0.046511627906976744,
+   "spazi_incerti": 0.10465116279069768,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "y",
+   "inizio": "d",
+   "coppie": 1148,
+   "unione_attestata": 0.040940766550522645,
+   "spazi_incerti": 0.05139372822299652,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "r",
+   "inizio": "l",
+   "coppie": 52,
+   "unione_attestata": 0.038461538461538464,
+   "spazi_incerti": 0.07692307692307693,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "y",
+   "inizio": "ch",
+   "coppie": 1547,
+   "unione_attestata": 0.029088558500323207,
+   "spazi_incerti": 0.03361344537815126,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "y",
+   "inizio": "a",
+   "coppie": 107,
+   "unione_attestata": 0.028037383177570093,
+   "spazi_incerti": 0.056074766355140186,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "l",
+   "inizio": "l",
+   "coppie": 187,
+   "unione_attestata": 0.026737967914438502,
+   "spazi_incerti": 0.06951871657754011,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "n",
+   "inizio": "d",
+   "coppie": 353,
+   "unione_attestata": 0.025495750708215296,
+   "spazi_incerti": 0.04815864022662889,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "y",
+   "inizio": "l",
+   "coppie": 796,
+   "unione_attestata": 0.02135678391959799,
+   "spazi_incerti": 0.05527638190954774,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "y",
+   "inizio": "s",
+   "coppie": 337,
+   "unione_attestata": 0.020771513353115726,
+   "spazi_incerti": 0.04747774480712166,
+   "tipo": "intermedia"
+  },
+  {
+   "fine": "y",
+   "inizio": "sh",
+   "coppie": 711,
+   "unione_attestata": 0.01969057665260197,
+   "spazi_incerti": 0.03375527426160337,
+   "tipo": "dura"
+  },
+  {
+   "fine": "y",
+   "inizio": "cth",
+   "coppie": 144,
+   "unione_attestata": 0.013888888888888888,
+   "spazi_incerti": 0.0,
+   "tipo": "dura"
+  },
+  {
+   "fine": "n",
+   "inizio": "o",
+   "coppie": 1454,
+   "unione_attestata": 0.013067400275103164,
+   "spazi_incerti": 0.015130674002751032,
+   "tipo": "dura"
+  },
+  {
+   "fine": "o",
+   "inizio": "q",
+   "coppie": 84,
+   "unione_attestata": 0.011904761904761904,
+   "spazi_incerti": 0.07142857142857142,
+   "tipo": "dura"
+  },
+  {
+   "fine": "y",
+   "inizio": "r",
+   "coppie": 256,
+   "unione_attestata": 0.0078125,
+   "spazi_incerti": 0.03515625,
+   "tipo": "dura"
+  },
+  {
+   "fine": "y",
+   "inizio": "o",
+   "coppie": 2252,
+   "unione_attestata": 0.0066607460035523975,
+   "spazi_incerti": 0.005772646536412078,
+   "tipo": "dura"
+  },
+  {
+   "fine": "n",
+   "inizio": "ch",
+   "coppie": 1263,
+   "unione_attestata": 0.006334125098970704,
+   "spazi_incerti": 0.004750593824228029,
+   "tipo": "dura"
+  },
+  {
+   "fine": "y",
+   "inizio": "q",
+   "coppie": 3448,
+   "unione_attestata": 0.000580046403712297,
+   "spazi_incerti": 0.010150812064965197,
+   "tipo": "dura"
+  },
+  {
+   "fine": "n",
+   "inizio": "sh",
+   "coppie": 645,
+   "unione_attestata": 0.0,
+   "spazi_incerti": 0.009302325581395349,
+   "tipo": "dura"
+  },
+  {
+   "fine": "y",
+   "inizio": "ckh",
+   "coppie": 49,
+   "unione_attestata": 0.0,
+   "spazi_incerti": 0.0,
+   "tipo": "dura"
+  },
+  {
+   "fine": "r",
+   "inizio": "cth",
+   "coppie": 77,
+   "unione_attestata": 0.0,
+   "spazi_incerti": 0.0,
+   "tipo": "dura"
+  },
+  {
+   "fine": "r",
+   "inizio": "k",
+   "coppie": 51,
+   "unione_attestata": 0.0,
+   "spazi_incerti": 0.0784313725490196,
+   "tipo": "dura"
+  },
+  {
+   "fine": "y",
+   "inizio": "y",
+   "coppie": 298,
+   "unione_attestata": 0.0,
+   "spazi_incerti": 0.016778523489932886,
+   "tipo": "dura"
+  },
+  {
+   "fine": "y",
+   "inizio": "cph",
+   "coppie": 42,
+   "unione_attestata": 0.0,
+   "spazi_incerti": 0.0,
+   "tipo": "dura"
+  },
+  {
+   "fine": "n",
+   "inizio": "ckh",
+   "coppie": 45,
+   "unione_attestata": 0.0,
+   "spazi_incerti": 0.0,
+   "tipo": "dura"
+  },
+  {
+   "fine": "y",
+   "inizio": "p",
+   "coppie": 99,
+   "unione_attestata": 0.0,
+   "spazi_incerti": 0.12121212121212122,
+   "tipo": "dura"
+  },
+  {
+   "fine": "n",
+   "inizio": "cth",
+   "coppie": 116,
+   "unione_attestata": 0.0,
+   "spazi_incerti": 0.0,
+   "tipo": "dura"
+  },
+  {
+   "fine": "l",
+   "inizio": "cth",
+   "coppie": 61,
+   "unione_attestata": 0.0,
+   "spazi_incerti": 0.01639344262295082,
+   "tipo": "dura"
+  },
+  {
+   "fine": "r",
+   "inizio": "s",
+   "coppie": 61,
+   "unione_attestata": 0.0,
+   "spazi_incerti": 0.04918032786885246,
+   "tipo": "dura"
+  },
+  {
+   "fine": "n",
+   "inizio": "q",
+   "coppie": 387,
+   "unione_attestata": 0.0,
+   "spazi_incerti": 0.0,
+   "tipo": "dura"
+  },
+  {
+   "fine": "l",
+   "inizio": "q",
+   "coppie": 404,
+   "unione_attestata": 0.0,
+   "spazi_incerti": 0.019801980198019802,
+   "tipo": "dura"
+  },
+  {
+   "fine": "m",
+   "inizio": "ch",
+   "coppie": 71,
+   "unione_attestata": 0.0,
+   "spazi_incerti": 0.04225352112676056,
+   "tipo": "dura"
+  },
+  {
+   "fine": "r",
+   "inizio": "q",
+   "coppie": 241,
+   "unione_attestata": 0.0,
+   "spazi_incerti": 0.012448132780082987,
+   "tipo": "dura"
+  },
+  {
+   "fine": "m",
+   "inizio": "o",
+   "coppie": 64,
+   "unione_attestata": 0.0,
+   "spazi_incerti": 0.0625,
+   "tipo": "dura"
+  },
+  {
+   "fine": "d",
+   "inizio": "q",
+   "coppie": 94,
+   "unione_attestata": 0.0,
+   "spazi_incerti": 0.02127659574468085,
+   "tipo": "dura"
+  },
+  {
+   "fine": "n",
+   "inizio": "l",
+   "coppie": 40,
+   "unione_attestata": 0.0,
+   "spazi_incerti": 0.0,
+   "tipo": "dura"
+  }
+ ],
+ "lingue": {
+  "Vitruvio": {
+   "coppie": 30000,
+   "unione_attestata": 0.0016,
+   "unione_attestata_caso": 0.0029333333333333334
+  },
+  "Bibbia latina": {
+   "coppie": 30000,
+   "unione_attestata": 0.0006333333333333333,
+   "unione_attestata_caso": 0.002766666666666667
+  },
+  "Bibbia italiana": {
+   "coppie": 30000,
+   "unione_attestata": 0.006933333333333333,
+   "unione_attestata_caso": 0.007066666666666666
+  },
+  "Bibbia tedesca": {
+   "coppie": 30000,
+   "unione_attestata": 0.0025666666666666667,
+   "unione_attestata_caso": 0.0049
+  }
+ },
+ "risegmentato": {
+  "spazi_tolti": 4028,
+  "giunture_morbide": [
+   "d|a",
+   "l|a",
+   "l|k",
+   "l|s",
+   "o|a",
+   "o|d",
+   "o|k",
+   "o|l",
+   "o|r",
+   "o|s",
+   "o|t",
+   "r|a",
+   "s|a"
+  ],
+  "originale": {
+   "parole": 34863,
+   "h2": 2.2361640232559865,
+   "lung_media": 4.460746349998566,
+   "tipi_su_parole": 0.20976666666666666,
+   "hapax": 0.679485142221516,
+   "identiche_immediate": 0.009371034392997754,
+   "identiche_vs_riga": 1.008508949494745,
+   "somiglianza_riga": 0.03845463938289839,
+   "somiglianza_riga_sotto": 0.039866274671841784,
+   "somiglianza_6_righe": 0.03353358262726869,
+   "im_confine": 0.2108285135103225,
+   "im_confine_mescolata": 0.022684724755489327,
+   "im_confine_eccesso": 0.18814378875483317
+  },
+  "risegmentato": {
+   "parole": 30835,
+   "h2": 2.2375365643737926,
+   "lung_media": 5.043457110426464,
+   "tipi_su_parole": 0.27586666666666665,
+   "hapax": 0.7384001933301112,
+   "identiche_immediate": 0.00891218872870249,
+   "identiche_vs_riga": 1.112715221095483,
+   "somiglianza_riga": 0.04556302093136222,
+   "somiglianza_riga_sotto": 0.045137291211584385,
+   "somiglianza_6_righe": 0.03914192820582496,
+   "im_confine": 0.13895422418149384,
+   "im_confine_mescolata": 0.022355525376779185,
+   "im_confine_eccesso": 0.11659869880471466
+  }
+ }
+}

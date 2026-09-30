@@ -1,0 +1,2708 @@
+{
+ "cifrari": [
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 10,
+   "h2": 3.0077867179537554,
+   "lung_media": 7.235533333333334
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 1,
+   "h2": 2.5293030578072586,
+   "lung_media": 11.4384
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 9,
+   "h2": 3.109190151229479,
+   "lung_media": 7.535733333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 18,
+   "h2": 3.283533907323505,
+   "lung_media": 6.223466666666667
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 4,
+   "h2": 2.729649455380401,
+   "lung_media": 9.633333333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 4,
+   "h2": 2.745262797826323,
+   "lung_media": 9.633333333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 3,
+   "h2": 2.6468382667996506,
+   "lung_media": 10.178733333333334
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 5,
+   "h2": 2.729617406044284,
+   "lung_media": 9.141866666666667
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 6,
+   "h2": 2.7911318966930887,
+   "lung_media": 8.697
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 3,
+   "h2": 2.6958868251087216,
+   "lung_media": 10.178733333333334
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 0,
+   "h2": 2.4538823380787087,
+   "lung_media": 12.157733333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 16,
+   "h2": 3.2499068158612503,
+   "lung_media": 6.3412
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 1,
+   "h2": 2.5560882269830323,
+   "lung_media": 11.4384
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 17,
+   "h2": 3.2617050677029735,
+   "lung_media": 6.281533333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 12,
+   "h2": 3.125899575290892,
+   "lung_media": 6.8251333333333335
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 3,
+   "h2": 2.5793604541743615,
+   "lung_media": 10.178733333333334
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 0,
+   "h2": 2.457124615054084,
+   "lung_media": 12.157733333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 16,
+   "h2": 3.2537191959484235,
+   "lung_media": 6.3412
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 12,
+   "h2": 3.1540792805923274,
+   "lung_media": 6.8251333333333335
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 19,
+   "h2": 3.3110197676591224,
+   "lung_media": 6.168
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 16,
+   "h2": 3.2503996639124506,
+   "lung_media": 6.3412
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 19,
+   "h2": 3.28794524477447,
+   "lung_media": 6.168
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 15,
+   "h2": 3.206814848683441,
+   "lung_media": 6.4218
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 2,
+   "h2": 2.6552331880950737,
+   "lung_media": 10.753733333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 2,
+   "h2": 2.649478904305379,
+   "lung_media": 10.753733333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 15,
+   "h2": 3.232644614953564,
+   "lung_media": 6.4218
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 11,
+   "h2": 3.1204980167360747,
+   "lung_media": 6.995666666666667
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 17,
+   "h2": 3.2516545682407605,
+   "lung_media": 6.281533333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 9,
+   "h2": 2.957572718620393,
+   "lung_media": 7.535733333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 11,
+   "h2": 3.1115324224788394,
+   "lung_media": 6.995666666666667
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 20,
+   "h2": 3.292919254592392,
+   "lung_media": 6.1216
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 2,
+   "h2": 2.6596970297326745,
+   "lung_media": 10.753733333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 14,
+   "h2": 3.1711524285789885,
+   "lung_media": 6.515533333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 12,
+   "h2": 3.12348680873096,
+   "lung_media": 6.8251333333333335
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 6,
+   "h2": 2.798286299600806,
+   "lung_media": 8.697
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 2,
+   "h2": 2.469726445035101,
+   "lung_media": 10.753733333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 7,
+   "h2": 2.8715379986120046,
+   "lung_media": 8.265866666666666
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 14,
+   "h2": 3.2107621598045264,
+   "lung_media": 6.515533333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 20,
+   "h2": 3.2878507445103144,
+   "lung_media": 6.1216
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 9,
+   "h2": 2.934441632824322,
+   "lung_media": 7.535733333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 1,
+   "h2": 2.580529194044106,
+   "lung_media": 11.4384
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 19,
+   "h2": 3.2775062796843177,
+   "lung_media": 6.168
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 2,
+   "h2": 2.588306900356366,
+   "lung_media": 10.753733333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 6,
+   "h2": 2.7504317918895107,
+   "lung_media": 8.697
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 11,
+   "h2": 3.1183678539648776,
+   "lung_media": 6.995666666666667
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 12,
+   "h2": 3.129110724542564,
+   "lung_media": 6.8251333333333335
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 5,
+   "h2": 2.8211036679549957,
+   "lung_media": 9.141866666666667
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 1,
+   "h2": 2.562873012793283,
+   "lung_media": 11.4384
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 15,
+   "h2": 3.2813177933839026,
+   "lung_media": 6.4218
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 18,
+   "h2": 3.27717176635641,
+   "lung_media": 6.223466666666667
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 4,
+   "h2": 2.6844939025359036,
+   "lung_media": 9.633333333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 4,
+   "h2": 2.6355924406142606,
+   "lung_media": 9.633333333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 5,
+   "h2": 2.6859039859878915,
+   "lung_media": 9.141866666666667
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 2,
+   "h2": 2.584203506651448,
+   "lung_media": 10.753733333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 5,
+   "h2": 2.724029751300842,
+   "lung_media": 9.141866666666667
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 0,
+   "h2": 2.489407040938397,
+   "lung_media": 12.157733333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 20,
+   "h2": 3.2921237000296526,
+   "lung_media": 6.1216
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 13,
+   "h2": 3.2168197360419666,
+   "lung_media": 6.6555333333333335
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 15,
+   "h2": 3.254993890307479,
+   "lung_media": 6.4218
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 20,
+   "h2": 3.2922017543982305,
+   "lung_media": 6.1216
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 14,
+   "h2": 3.258195077722402,
+   "lung_media": 6.515533333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 3,
+   "h2": 2.602339670698199,
+   "lung_media": 10.178733333333334
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 0,
+   "h2": 2.4947281212929777,
+   "lung_media": 12.157733333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 13,
+   "h2": 3.196323146976045,
+   "lung_media": 6.6555333333333335
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 16,
+   "h2": 3.252824707046431,
+   "lung_media": 6.3412
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 13,
+   "h2": 3.1447247501896527,
+   "lung_media": 6.6555333333333335
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 17,
+   "h2": 3.2586588493112463,
+   "lung_media": 6.281533333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 4,
+   "h2": 2.759345347467156,
+   "lung_media": 9.633333333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 20,
+   "h2": 3.2921278469792536,
+   "lung_media": 6.1216
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 5,
+   "h2": 2.7074943000140017,
+   "lung_media": 9.141866666666667
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 13,
+   "h2": 3.137499993724837,
+   "lung_media": 6.6555333333333335
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 11,
+   "h2": 3.101620695694422,
+   "lung_media": 6.995666666666667
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 17,
+   "h2": 3.262519186326538,
+   "lung_media": 6.281533333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 13,
+   "h2": 3.1847186292225182,
+   "lung_media": 6.6555333333333335
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 20,
+   "h2": 3.2889990775068827,
+   "lung_media": 6.1216
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 15,
+   "h2": 3.2413190896381616,
+   "lung_media": 6.4218
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 20,
+   "h2": 3.2946056814266202,
+   "lung_media": 6.1216
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 12,
+   "h2": 3.134490261518333,
+   "lung_media": 6.8251333333333335
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 6,
+   "h2": 2.8054644381967613,
+   "lung_media": 8.697
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 6,
+   "h2": 2.861446042423018,
+   "lung_media": 8.697
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 6,
+   "h2": 2.9159775622205917,
+   "lung_media": 8.697
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 3,
+   "h2": 2.6107931758306777,
+   "lung_media": 10.178733333333334
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 20,
+   "h2": 3.292277245859564,
+   "lung_media": 6.1216
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 4,
+   "h2": 2.7008986284612404,
+   "lung_media": 9.633333333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 4,
+   "h2": 2.7287605442538108,
+   "lung_media": 9.633333333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 3,
+   "h2": 2.651816189061111,
+   "lung_media": 10.178733333333334
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 16,
+   "h2": 3.243117855044806,
+   "lung_media": 6.3412
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 18,
+   "h2": 3.2844274966520075,
+   "lung_media": 6.223466666666667
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 18,
+   "h2": 3.287692093028439,
+   "lung_media": 6.223466666666667
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 7,
+   "h2": 2.9274306823287963,
+   "lung_media": 8.265866666666666
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 8,
+   "h2": 2.9314110029650475,
+   "lung_media": 7.857266666666667
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 18,
+   "h2": 3.2855519540269653,
+   "lung_media": 6.223466666666667
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 12,
+   "h2": 3.137106709594878,
+   "lung_media": 6.8251333333333335
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 3,
+   "h2": 2.6027539137065667,
+   "lung_media": 10.178733333333334
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 11,
+   "h2": 3.1155273424055387,
+   "lung_media": 6.995666666666667
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 9,
+   "h2": 3.0205638023056958,
+   "lung_media": 7.535733333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 8,
+   "h2": 2.98977822762193,
+   "lung_media": 7.857266666666667
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 20,
+   "h2": 3.295384451129482,
+   "lung_media": 6.1216
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 9,
+   "h2": 3.0129371460568155,
+   "lung_media": 7.535733333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 12,
+   "h2": 3.1523677762198545,
+   "lung_media": 6.8251333333333335
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 5,
+   "h2": 2.754416262879345,
+   "lung_media": 9.141866666666667
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 5,
+   "h2": 2.732069808875058,
+   "lung_media": 9.141866666666667
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 19,
+   "h2": 3.293709182626313,
+   "lung_media": 6.168
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 7,
+   "h2": 2.8643867705169983,
+   "lung_media": 8.265866666666666
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 10,
+   "h2": 3.0695825960666108,
+   "lung_media": 7.235533333333334
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 4,
+   "h2": 2.6515893481402606,
+   "lung_media": 9.633333333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 3,
+   "h2": 2.5844841244240833,
+   "lung_media": 10.178733333333334
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 7,
+   "h2": 2.915147282508245,
+   "lung_media": 8.265866666666666
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 1,
+   "h2": 2.436973279501841,
+   "lung_media": 11.4384
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 18,
+   "h2": 3.277970978085936,
+   "lung_media": 6.223466666666667
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 13,
+   "h2": 3.189590172887173,
+   "lung_media": 6.6555333333333335
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 4,
+   "h2": 2.751950888693048,
+   "lung_media": 9.633333333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 15,
+   "h2": 3.2429839774110727,
+   "lung_media": 6.4218
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 10,
+   "h2": 3.0410018627773474,
+   "lung_media": 7.235533333333334
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 20,
+   "h2": 3.2977199517844813,
+   "lung_media": 6.1216
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 15,
+   "h2": 3.279584809147954,
+   "lung_media": 6.4218
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 16,
+   "h2": 3.213838321572739,
+   "lung_media": 6.3412
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 20,
+   "h2": 3.30435056120064,
+   "lung_media": 6.1216
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 17,
+   "h2": 3.297602657291008,
+   "lung_media": 6.281533333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 7,
+   "h2": 2.867674642480802,
+   "lung_media": 8.265866666666666
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 19,
+   "h2": 3.279231843851602,
+   "lung_media": 6.168
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 8,
+   "h2": 2.886442909204967,
+   "lung_media": 7.857266666666667
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 5,
+   "h2": 2.772454688639094,
+   "lung_media": 9.141866666666667
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 19,
+   "h2": 3.3007497218154347,
+   "lung_media": 6.168
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 7,
+   "h2": 2.86982280694274,
+   "lung_media": 8.265866666666666
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 10,
+   "h2": 3.083240808267306,
+   "lung_media": 7.235533333333334
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 18,
+   "h2": 3.255488740583495,
+   "lung_media": 6.223466666666667
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 5,
+   "h2": 2.6735821809359286,
+   "lung_media": 9.141866666666667
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 6,
+   "h2": 2.781017824893128,
+   "lung_media": 8.697
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 1,
+   "h2": 2.600005667011327,
+   "lung_media": 11.4384
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 9,
+   "h2": 3.0215762187985535,
+   "lung_media": 7.535733333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 6,
+   "h2": 2.798808841555095,
+   "lung_media": 8.697
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 7,
+   "h2": 2.847360180161474,
+   "lung_media": 8.265866666666666
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 2,
+   "h2": 2.7066560654732155,
+   "lung_media": 10.753733333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 9,
+   "h2": 3.0301181236590957,
+   "lung_media": 7.535733333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 10,
+   "h2": 3.0574693056184863,
+   "lung_media": 7.235533333333334
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 0,
+   "h2": 2.4672004429184087,
+   "lung_media": 12.157733333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 17,
+   "h2": 3.284360314111723,
+   "lung_media": 6.281533333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 20,
+   "h2": 3.2945185034488675,
+   "lung_media": 6.1216
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 7,
+   "h2": 2.78914761286487,
+   "lung_media": 8.265866666666666
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 13,
+   "h2": 3.1979253527526734,
+   "lung_media": 6.6555333333333335
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 4,
+   "h2": 2.6221009453838673,
+   "lung_media": 9.633333333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 16,
+   "h2": 3.24930803515088,
+   "lung_media": 6.3412
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 2,
+   "h2": 2.5411952197782335,
+   "lung_media": 10.753733333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 0,
+   "h2": 2.4362383990046443,
+   "lung_media": 12.157733333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 6,
+   "h2": 2.7680872371922525,
+   "lung_media": 8.697
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 16,
+   "h2": 3.248461080173123,
+   "lung_media": 6.3412
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 17,
+   "h2": 3.267227734191666,
+   "lung_media": 6.281533333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 4,
+   "h2": 2.6700868424419375,
+   "lung_media": 9.633333333333333
+  },
+  {
+   "testo": "Vitruvio",
+   "lettere_a_un_glifo": 13,
+   "h2": 3.1903044581350817,
+   "lung_media": 6.6555333333333335
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 7,
+   "h2": 2.8406822260828304,
+   "lung_media": 7.0835333333333335
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 6,
+   "h2": 2.8580932314914933,
+   "lung_media": 7.424066666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 10,
+   "h2": 3.018248540925685,
+   "lung_media": 6.2634
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 2,
+   "h2": 2.5802581520302996,
+   "lung_media": 9.150733333333333
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 7,
+   "h2": 2.833088768686014,
+   "lung_media": 7.0835333333333335
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 5,
+   "h2": 2.8317516220296945,
+   "lung_media": 7.822266666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 18,
+   "h2": 3.222899649944718,
+   "lung_media": 5.356733333333334
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 1,
+   "h2": 2.423486660986723,
+   "lung_media": 9.783733333333334
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 18,
+   "h2": 3.2601205638439765,
+   "lung_media": 5.356733333333334
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 12,
+   "h2": 3.0517928893306463,
+   "lung_media": 5.8890666666666664
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 10,
+   "h2": 3.0297358958955685,
+   "lung_media": 6.2634
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 8,
+   "h2": 2.9222602379772242,
+   "lung_media": 6.792933333333333
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 11,
+   "h2": 3.073439708798944,
+   "lung_media": 6.0667333333333335
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 11,
+   "h2": 3.0252957879938114,
+   "lung_media": 6.0667333333333335
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 18,
+   "h2": 3.2467104334689187,
+   "lung_media": 5.356733333333334
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 6,
+   "h2": 2.81418016673655,
+   "lung_media": 7.424066666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 8,
+   "h2": 2.9196074225623914,
+   "lung_media": 6.792933333333333
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 20,
+   "h2": 3.255023096866276,
+   "lung_media": 5.263466666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 20,
+   "h2": 3.258986943686427,
+   "lung_media": 5.263466666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 18,
+   "h2": 3.2389005098719146,
+   "lung_media": 5.356733333333334
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 2,
+   "h2": 2.555455662804166,
+   "lung_media": 9.150733333333333
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 19,
+   "h2": 3.2430091864890076,
+   "lung_media": 5.307533333333334
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 8,
+   "h2": 2.852961604634635,
+   "lung_media": 6.792933333333333
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 10,
+   "h2": 2.998413554254937,
+   "lung_media": 6.2634
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 20,
+   "h2": 3.2561932889578316,
+   "lung_media": 5.263466666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 11,
+   "h2": 3.1023693303284725,
+   "lung_media": 6.0667333333333335
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 13,
+   "h2": 3.1422243387007174,
+   "lung_media": 5.751
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 7,
+   "h2": 2.894299083372763,
+   "lung_media": 7.0835333333333335
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 12,
+   "h2": 3.1295669878470243,
+   "lung_media": 5.8890666666666664
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 15,
+   "h2": 3.1939423127384288,
+   "lung_media": 5.5554
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 19,
+   "h2": 3.247019719943548,
+   "lung_media": 5.307533333333334
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 8,
+   "h2": 2.9705524238616667,
+   "lung_media": 6.792933333333333
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 4,
+   "h2": 2.5744941901076066,
+   "lung_media": 8.234
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 7,
+   "h2": 2.8287054857945595,
+   "lung_media": 7.0835333333333335
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 20,
+   "h2": 3.256484245086434,
+   "lung_media": 5.263466666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 0,
+   "h2": 2.529619398805325,
+   "lung_media": 10.466266666666666
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 8,
+   "h2": 2.854478906468025,
+   "lung_media": 6.792933333333333
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 19,
+   "h2": 3.239672923909105,
+   "lung_media": 5.307533333333334
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 9,
+   "h2": 2.9263212627636257,
+   "lung_media": 6.522
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 11,
+   "h2": 3.0698551714785447,
+   "lung_media": 6.0667333333333335
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 15,
+   "h2": 3.1842478262283853,
+   "lung_media": 5.5554
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 3,
+   "h2": 2.582889075760133,
+   "lung_media": 8.650466666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 2,
+   "h2": 2.5731811893352328,
+   "lung_media": 9.150733333333333
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 19,
+   "h2": 3.2344201852627625,
+   "lung_media": 5.307533333333334
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 16,
+   "h2": 3.194571589235137,
+   "lung_media": 5.472
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 19,
+   "h2": 3.2426590743274537,
+   "lung_media": 5.307533333333334
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 18,
+   "h2": 3.2443670462999465,
+   "lung_media": 5.356733333333334
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 9,
+   "h2": 2.9837004506403626,
+   "lung_media": 6.522
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 8,
+   "h2": 2.854217472885124,
+   "lung_media": 6.792933333333333
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 12,
+   "h2": 3.098727864216148,
+   "lung_media": 5.8890666666666664
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 15,
+   "h2": 3.2136968254878937,
+   "lung_media": 5.5554
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 13,
+   "h2": 3.157174346888206,
+   "lung_media": 5.751
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 15,
+   "h2": 3.195889824214049,
+   "lung_media": 5.5554
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 15,
+   "h2": 3.198638543924255,
+   "lung_media": 5.5554
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 19,
+   "h2": 3.243373018587145,
+   "lung_media": 5.307533333333334
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 16,
+   "h2": 3.2278530354442965,
+   "lung_media": 5.472
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 1,
+   "h2": 2.3899146047583884,
+   "lung_media": 9.783733333333334
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 8,
+   "h2": 2.8805498736975266,
+   "lung_media": 6.792933333333333
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 19,
+   "h2": 3.2494397772872627,
+   "lung_media": 5.307533333333334
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 5,
+   "h2": 2.7812799659305107,
+   "lung_media": 7.822266666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 15,
+   "h2": 3.2386142040083286,
+   "lung_media": 5.5554
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 8,
+   "h2": 2.913850311837265,
+   "lung_media": 6.792933333333333
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 9,
+   "h2": 2.929571424852312,
+   "lung_media": 6.522
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 11,
+   "h2": 3.0776529782591466,
+   "lung_media": 6.0667333333333335
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 11,
+   "h2": 3.0549620492292515,
+   "lung_media": 6.0667333333333335
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 16,
+   "h2": 3.1975606876976146,
+   "lung_media": 5.472
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 15,
+   "h2": 3.186028781098165,
+   "lung_media": 5.5554
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 16,
+   "h2": 3.200130472338102,
+   "lung_media": 5.472
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 7,
+   "h2": 2.8933357913466975,
+   "lung_media": 7.0835333333333335
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 4,
+   "h2": 2.69677629868417,
+   "lung_media": 8.234
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 9,
+   "h2": 2.9620030333020044,
+   "lung_media": 6.522
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 10,
+   "h2": 2.9986086682427873,
+   "lung_media": 6.2634
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 5,
+   "h2": 2.7920352087635303,
+   "lung_media": 7.822266666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 19,
+   "h2": 3.2471116219275062,
+   "lung_media": 5.307533333333334
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 1,
+   "h2": 2.5025609211234614,
+   "lung_media": 9.783733333333334
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 5,
+   "h2": 2.5920077856981636,
+   "lung_media": 7.822266666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 8,
+   "h2": 2.815951467765603,
+   "lung_media": 6.792933333333333
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 17,
+   "h2": 3.2389825520434554,
+   "lung_media": 5.407266666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 6,
+   "h2": 2.841260965876615,
+   "lung_media": 7.424066666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 3,
+   "h2": 2.6821093654479884,
+   "lung_media": 8.650466666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 20,
+   "h2": 3.2528203070592223,
+   "lung_media": 5.263466666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 2,
+   "h2": 2.527090938474405,
+   "lung_media": 9.150733333333333
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 17,
+   "h2": 3.2183506047062824,
+   "lung_media": 5.407266666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 12,
+   "h2": 3.0873256373501934,
+   "lung_media": 5.8890666666666664
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 18,
+   "h2": 3.237208777523353,
+   "lung_media": 5.356733333333334
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 13,
+   "h2": 3.172677563166903,
+   "lung_media": 5.751
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 13,
+   "h2": 3.1226429136215,
+   "lung_media": 5.751
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 13,
+   "h2": 3.1640379237142864,
+   "lung_media": 5.751
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 5,
+   "h2": 2.765489729890338,
+   "lung_media": 7.822266666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 1,
+   "h2": 2.5781111148042473,
+   "lung_media": 9.783733333333334
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 10,
+   "h2": 3.0235492632781313,
+   "lung_media": 6.2634
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 6,
+   "h2": 2.835401980422239,
+   "lung_media": 7.424066666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 12,
+   "h2": 3.1277080868464053,
+   "lung_media": 5.8890666666666664
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 4,
+   "h2": 2.6518603154759077,
+   "lung_media": 8.234
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 4,
+   "h2": 2.8064145733941666,
+   "lung_media": 8.234
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 15,
+   "h2": 3.198547765928353,
+   "lung_media": 5.5554
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 16,
+   "h2": 3.202573236730689,
+   "lung_media": 5.472
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 20,
+   "h2": 3.2553304056029884,
+   "lung_media": 5.263466666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 6,
+   "h2": 2.834932038180989,
+   "lung_media": 7.424066666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 6,
+   "h2": 2.870272124834104,
+   "lung_media": 7.424066666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 19,
+   "h2": 3.2468394606000963,
+   "lung_media": 5.307533333333334
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 9,
+   "h2": 2.9813176673176103,
+   "lung_media": 6.522
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 1,
+   "h2": 2.603027223661704,
+   "lung_media": 9.783733333333334
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 16,
+   "h2": 3.208562290484425,
+   "lung_media": 5.472
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 2,
+   "h2": 2.551079129082214,
+   "lung_media": 9.150733333333333
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 5,
+   "h2": 2.7713714336465394,
+   "lung_media": 7.822266666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 17,
+   "h2": 3.214162593187205,
+   "lung_media": 5.407266666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 20,
+   "h2": 3.2552337483522495,
+   "lung_media": 5.263466666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 10,
+   "h2": 3.052560221559179,
+   "lung_media": 6.2634
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 19,
+   "h2": 3.2374924157517113,
+   "lung_media": 5.307533333333334
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 14,
+   "h2": 3.1228041237330033,
+   "lung_media": 5.640066666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 6,
+   "h2": 2.7930028912304863,
+   "lung_media": 7.424066666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 13,
+   "h2": 3.1372156396829007,
+   "lung_media": 5.751
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 14,
+   "h2": 3.1835262061254594,
+   "lung_media": 5.640066666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 9,
+   "h2": 2.950425446762449,
+   "lung_media": 6.522
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 7,
+   "h2": 2.8207579013613824,
+   "lung_media": 7.0835333333333335
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 19,
+   "h2": 3.2449648295952596,
+   "lung_media": 5.307533333333334
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 20,
+   "h2": 3.2548032713359953,
+   "lung_media": 5.263466666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 2,
+   "h2": 2.561748494713248,
+   "lung_media": 9.150733333333333
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 9,
+   "h2": 3.0075216739990953,
+   "lung_media": 6.522
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 12,
+   "h2": 3.1306701087297903,
+   "lung_media": 5.8890666666666664
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 0,
+   "h2": 2.4993070240021686,
+   "lung_media": 10.466266666666666
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 1,
+   "h2": 2.6182523164974807,
+   "lung_media": 9.783733333333334
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 8,
+   "h2": 2.913409152091126,
+   "lung_media": 6.792933333333333
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 19,
+   "h2": 3.248432862658523,
+   "lung_media": 5.307533333333334
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 1,
+   "h2": 2.5416506970266943,
+   "lung_media": 9.783733333333334
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 17,
+   "h2": 3.232547148869786,
+   "lung_media": 5.407266666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 17,
+   "h2": 3.2336768095307447,
+   "lung_media": 5.407266666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 18,
+   "h2": 3.224748423363108,
+   "lung_media": 5.356733333333334
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 8,
+   "h2": 2.892778654909185,
+   "lung_media": 6.792933333333333
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 16,
+   "h2": 3.202129622920825,
+   "lung_media": 5.472
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 1,
+   "h2": 2.4967107696631126,
+   "lung_media": 9.783733333333334
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 1,
+   "h2": 2.5089692125592284,
+   "lung_media": 9.783733333333334
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 20,
+   "h2": 3.253717040593545,
+   "lung_media": 5.263466666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 0,
+   "h2": 2.4502645161334584,
+   "lung_media": 10.466266666666666
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 9,
+   "h2": 2.9646307132577063,
+   "lung_media": 6.522
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 5,
+   "h2": 2.7087078423357918,
+   "lung_media": 7.822266666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 16,
+   "h2": 3.2575282315395415,
+   "lung_media": 5.472
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 8,
+   "h2": 2.866163994231717,
+   "lung_media": 6.792933333333333
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 12,
+   "h2": 3.1509040396120778,
+   "lung_media": 5.8890666666666664
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 14,
+   "h2": 3.1793032167665443,
+   "lung_media": 5.640066666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 18,
+   "h2": 3.2381368587553037,
+   "lung_media": 5.356733333333334
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 4,
+   "h2": 2.681692434884756,
+   "lung_media": 8.234
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 14,
+   "h2": 3.186140552401967,
+   "lung_media": 5.640066666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 11,
+   "h2": 3.0121924060215424,
+   "lung_media": 6.0667333333333335
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 15,
+   "h2": 3.1856599433512116,
+   "lung_media": 5.5554
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 3,
+   "h2": 2.6617983778627554,
+   "lung_media": 8.650466666666667
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 11,
+   "h2": 3.017630616182985,
+   "lung_media": 6.0667333333333335
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 18,
+   "h2": 3.2577772883901837,
+   "lung_media": 5.356733333333334
+  },
+  {
+   "testo": "Bibbia latina",
+   "lettere_a_un_glifo": 8,
+   "h2": 2.875496231932432,
+   "lung_media": 6.792933333333333
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 11,
+   "h2": 3.0379556381994344,
+   "lung_media": 5.270933333333334
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 4,
+   "h2": 2.7031045666872267,
+   "lung_media": 6.984866666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 8,
+   "h2": 2.901928531724714,
+   "lung_media": 5.888466666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 8,
+   "h2": 2.9089281363691772,
+   "lung_media": 5.888466666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 16,
+   "h2": 3.141568607472766,
+   "lung_media": 4.709466666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 15,
+   "h2": 3.0950824998549926,
+   "lung_media": 4.7969333333333335
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 6,
+   "h2": 2.839491393617464,
+   "lung_media": 6.4082
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 2,
+   "h2": 2.624428416464184,
+   "lung_media": 7.8584
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 6,
+   "h2": 2.8389021703919797,
+   "lung_media": 6.4082
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 10,
+   "h2": 2.9260957504425718,
+   "lung_media": 5.4526
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 7,
+   "h2": 2.8639731559766757,
+   "lung_media": 6.133333333333334
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 14,
+   "h2": 3.0987872972614836,
+   "lung_media": 4.9004
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 20,
+   "h2": 3.1932509701571217,
+   "lung_media": 4.547
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 6,
+   "h2": 2.8263444949846246,
+   "lung_media": 6.4082
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 8,
+   "h2": 2.8753931060947004,
+   "lung_media": 5.888466666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 15,
+   "h2": 3.094900492578003,
+   "lung_media": 4.7969333333333335
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 20,
+   "h2": 3.165457619497361,
+   "lung_media": 4.547
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 0,
+   "h2": 2.518191644127594,
+   "lung_media": 8.887066666666666
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 10,
+   "h2": 2.923864224955283,
+   "lung_media": 5.4526
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 8,
+   "h2": 2.9031992975558962,
+   "lung_media": 5.888466666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 2,
+   "h2": 2.5161628350422287,
+   "lung_media": 7.8584
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 12,
+   "h2": 3.0571538409905,
+   "lung_media": 5.126533333333334
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 0,
+   "h2": 2.468801713169686,
+   "lung_media": 8.887066666666666
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 16,
+   "h2": 3.1547036262190415,
+   "lung_media": 4.709466666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 9,
+   "h2": 2.939216300765288,
+   "lung_media": 5.6468
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 19,
+   "h2": 3.1990248885956536,
+   "lung_media": 4.5738
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 17,
+   "h2": 3.1555652639587835,
+   "lung_media": 4.654466666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 11,
+   "h2": 3.025199768656394,
+   "lung_media": 5.270933333333334
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 18,
+   "h2": 3.164528645254816,
+   "lung_media": 4.6086
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 2,
+   "h2": 2.6397251350465534,
+   "lung_media": 7.8584
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 15,
+   "h2": 3.158819243908923,
+   "lung_media": 4.7969333333333335
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 7,
+   "h2": 2.852011600739332,
+   "lung_media": 6.133333333333334
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 16,
+   "h2": 3.1417058150846824,
+   "lung_media": 4.709466666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 14,
+   "h2": 3.1645777669360506,
+   "lung_media": 4.9004
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 3,
+   "h2": 2.700564765710989,
+   "lung_media": 7.4166
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 1,
+   "h2": 2.420260160979043,
+   "lung_media": 8.3436
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 2,
+   "h2": 2.658086086190488,
+   "lung_media": 7.8584
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 8,
+   "h2": 2.8485707611782534,
+   "lung_media": 5.888466666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 10,
+   "h2": 2.9689365360429134,
+   "lung_media": 5.4526
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 19,
+   "h2": 3.194319614007246,
+   "lung_media": 4.5738
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 12,
+   "h2": 3.0471332942824065,
+   "lung_media": 5.126533333333334
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 2,
+   "h2": 2.6066650879513134,
+   "lung_media": 7.8584
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 15,
+   "h2": 3.155805311985788,
+   "lung_media": 4.7969333333333335
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 2,
+   "h2": 2.5479408055486323,
+   "lung_media": 7.8584
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 4,
+   "h2": 2.7290601024016152,
+   "lung_media": 6.984866666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 16,
+   "h2": 3.151599897927121,
+   "lung_media": 4.709466666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 4,
+   "h2": 2.739153935757421,
+   "lung_media": 6.984866666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 20,
+   "h2": 3.199161419997223,
+   "lung_media": 4.547
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 6,
+   "h2": 2.749548301142958,
+   "lung_media": 6.4082
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 20,
+   "h2": 3.1785218222401923,
+   "lung_media": 4.547
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 19,
+   "h2": 3.197253355293258,
+   "lung_media": 4.5738
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 7,
+   "h2": 2.809844568593361,
+   "lung_media": 6.133333333333334
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 1,
+   "h2": 2.633173383481318,
+   "lung_media": 8.3436
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 12,
+   "h2": 3.0244247763408847,
+   "lung_media": 5.126533333333334
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 16,
+   "h2": 3.1506876182389463,
+   "lung_media": 4.709466666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 11,
+   "h2": 3.0491166577004467,
+   "lung_media": 5.270933333333334
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 13,
+   "h2": 3.060915171155853,
+   "lung_media": 5.0056666666666665
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 5,
+   "h2": 2.7461114239020903,
+   "lung_media": 6.689866666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 3,
+   "h2": 2.5659694365266192,
+   "lung_media": 7.4166
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 12,
+   "h2": 3.0669704996781983,
+   "lung_media": 5.126533333333334
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 14,
+   "h2": 3.1138358186470794,
+   "lung_media": 4.9004
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 7,
+   "h2": 2.779769803649387,
+   "lung_media": 6.133333333333334
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 10,
+   "h2": 2.987852414653662,
+   "lung_media": 5.4526
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 11,
+   "h2": 3.0018377713542255,
+   "lung_media": 5.270933333333334
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 13,
+   "h2": 3.051951636464619,
+   "lung_media": 5.0056666666666665
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 8,
+   "h2": 2.8695249254890998,
+   "lung_media": 5.888466666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 13,
+   "h2": 3.092015823727996,
+   "lung_media": 5.0056666666666665
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 4,
+   "h2": 2.6672600612468997,
+   "lung_media": 6.984866666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 15,
+   "h2": 3.1163788871993763,
+   "lung_media": 4.7969333333333335
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 1,
+   "h2": 2.56719799309924,
+   "lung_media": 8.3436
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 15,
+   "h2": 3.143660959653606,
+   "lung_media": 4.7969333333333335
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 18,
+   "h2": 3.1902076970635234,
+   "lung_media": 4.6086
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 2,
+   "h2": 2.580136927048554,
+   "lung_media": 7.8584
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 19,
+   "h2": 3.1982559782016002,
+   "lung_media": 4.5738
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 0,
+   "h2": 2.5816391560102465,
+   "lung_media": 8.887066666666666
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 3,
+   "h2": 2.649954813416962,
+   "lung_media": 7.4166
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 8,
+   "h2": 2.883440969063925,
+   "lung_media": 5.888466666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 15,
+   "h2": 3.0981232107736982,
+   "lung_media": 4.7969333333333335
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 16,
+   "h2": 3.1431889075830948,
+   "lung_media": 4.709466666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 14,
+   "h2": 3.082404197791262,
+   "lung_media": 4.9004
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 2,
+   "h2": 2.538961686236375,
+   "lung_media": 7.8584
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 16,
+   "h2": 3.1530661834581797,
+   "lung_media": 4.709466666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 3,
+   "h2": 2.6213565846503224,
+   "lung_media": 7.4166
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 17,
+   "h2": 3.1467062365365934,
+   "lung_media": 4.654466666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 2,
+   "h2": 2.6517956852685423,
+   "lung_media": 7.8584
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 2,
+   "h2": 2.6192357655628387,
+   "lung_media": 7.8584
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 4,
+   "h2": 2.7052244599306663,
+   "lung_media": 6.984866666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 16,
+   "h2": 3.154064112966166,
+   "lung_media": 4.709466666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 11,
+   "h2": 3.0200979955821254,
+   "lung_media": 5.270933333333334
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 5,
+   "h2": 2.702520930249279,
+   "lung_media": 6.689866666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 4,
+   "h2": 2.70084910348019,
+   "lung_media": 6.984866666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 0,
+   "h2": 2.4980355687126217,
+   "lung_media": 8.887066666666666
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 8,
+   "h2": 2.8872091123441623,
+   "lung_media": 5.888466666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 7,
+   "h2": 2.8409726563055533,
+   "lung_media": 6.133333333333334
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 2,
+   "h2": 2.584363933160766,
+   "lung_media": 7.8584
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 0,
+   "h2": 2.439835980568553,
+   "lung_media": 8.887066666666666
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 5,
+   "h2": 2.7176364250067766,
+   "lung_media": 6.689866666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 18,
+   "h2": 3.1737716568679812,
+   "lung_media": 4.6086
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 10,
+   "h2": 2.9930361111901753,
+   "lung_media": 5.4526
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 18,
+   "h2": 3.1660723214499966,
+   "lung_media": 4.6086
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 1,
+   "h2": 2.5519143394324773,
+   "lung_media": 8.3436
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 0,
+   "h2": 2.4937317275955673,
+   "lung_media": 8.887066666666666
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 15,
+   "h2": 3.120984831188365,
+   "lung_media": 4.7969333333333335
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 15,
+   "h2": 3.131149391417408,
+   "lung_media": 4.7969333333333335
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 1,
+   "h2": 2.605940619320823,
+   "lung_media": 8.3436
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 19,
+   "h2": 3.1959515453409972,
+   "lung_media": 4.5738
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 1,
+   "h2": 2.6461941895266308,
+   "lung_media": 8.3436
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 20,
+   "h2": 3.1995076016554336,
+   "lung_media": 4.547
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 20,
+   "h2": 3.1528055639378185,
+   "lung_media": 4.547
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 20,
+   "h2": 3.1709596065439496,
+   "lung_media": 4.547
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 10,
+   "h2": 2.9737420683711813,
+   "lung_media": 5.4526
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 18,
+   "h2": 3.1708867191649115,
+   "lung_media": 4.6086
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 5,
+   "h2": 2.7780040063809652,
+   "lung_media": 6.689866666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 5,
+   "h2": 2.688887746087114,
+   "lung_media": 6.689866666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 15,
+   "h2": 3.1650401644253963,
+   "lung_media": 4.7969333333333335
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 10,
+   "h2": 2.9848570266261367,
+   "lung_media": 5.4526
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 12,
+   "h2": 3.066578412513642,
+   "lung_media": 5.126533333333334
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 11,
+   "h2": 3.0050149443741123,
+   "lung_media": 5.270933333333334
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 17,
+   "h2": 3.153874705632911,
+   "lung_media": 4.654466666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 20,
+   "h2": 3.178500884093922,
+   "lung_media": 4.547
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 6,
+   "h2": 2.817858869997546,
+   "lung_media": 6.4082
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 3,
+   "h2": 2.666205418000802,
+   "lung_media": 7.4166
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 6,
+   "h2": 2.8175192892714063,
+   "lung_media": 6.4082
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 15,
+   "h2": 3.182577143310704,
+   "lung_media": 4.7969333333333335
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 16,
+   "h2": 3.1862159779145895,
+   "lung_media": 4.709466666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 10,
+   "h2": 2.9713306849841596,
+   "lung_media": 5.4526
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 3,
+   "h2": 2.6368142074405663,
+   "lung_media": 7.4166
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 9,
+   "h2": 2.9763548353947273,
+   "lung_media": 5.6468
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 12,
+   "h2": 3.028914319270428,
+   "lung_media": 5.126533333333334
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 20,
+   "h2": 3.175068116937896,
+   "lung_media": 4.547
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 2,
+   "h2": 2.598614823929857,
+   "lung_media": 7.8584
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 17,
+   "h2": 3.162591797185007,
+   "lung_media": 4.654466666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 0,
+   "h2": 2.531413296235414,
+   "lung_media": 8.887066666666666
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 1,
+   "h2": 2.597249818341722,
+   "lung_media": 8.3436
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 8,
+   "h2": 2.896676464623312,
+   "lung_media": 5.888466666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 18,
+   "h2": 3.158357268959223,
+   "lung_media": 4.6086
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 3,
+   "h2": 2.6549531825444954,
+   "lung_media": 7.4166
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 18,
+   "h2": 3.175216475021517,
+   "lung_media": 4.6086
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 9,
+   "h2": 2.9228993092351225,
+   "lung_media": 5.6468
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 6,
+   "h2": 2.7025064687182283,
+   "lung_media": 6.4082
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 16,
+   "h2": 3.1614762336475457,
+   "lung_media": 4.709466666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 1,
+   "h2": 2.5486059008348163,
+   "lung_media": 8.3436
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 3,
+   "h2": 2.6450635210171396,
+   "lung_media": 7.4166
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 13,
+   "h2": 3.1356645657879976,
+   "lung_media": 5.0056666666666665
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 5,
+   "h2": 2.6859901009336427,
+   "lung_media": 6.689866666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 13,
+   "h2": 3.088488707042621,
+   "lung_media": 5.0056666666666665
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 15,
+   "h2": 3.1349593157650846,
+   "lung_media": 4.7969333333333335
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 8,
+   "h2": 2.9113343737340998,
+   "lung_media": 5.888466666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 16,
+   "h2": 3.1612266825832953,
+   "lung_media": 4.709466666666667
+  },
+  {
+   "testo": "Bibbia italiana",
+   "lettere_a_un_glifo": 3,
+   "h2": 2.6826834757853915,
+   "lung_media": 7.4166
+  }
+ ],
+ "voynich": {
+  "h2": 2.2361640232559865,
+  "lung_media": 4.460746349998566
+ }
+}

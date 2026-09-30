@@ -1,0 +1,719 @@
+# Dossier per un white paper: il manoscritto Voynich messo alla prova
+
+Questo file riassume tutto il lavoro fatto e quello che se ne è capito, in modo che chi
+scrive il white paper non abbia bisogno d'altro. Ogni numero viene da un esperimento
+ripetibile. Codice, dati e risultati completi sono nel repository:
+
+- repository: <https://github.com/AndreottiVIII/duri-a-morire>, cartella `voynich/`
+- ramo: `claude/voynich-decipherment-mwvrge`
+- rapporto completo: `voynich/README.md`; un risultato per esperimento in `voynich/risultati/`
+  (`.json` con tutti i numeri, `.md` con la tabella, grafici in versione chiara e scura)
+- analisi eseguite con Claude Code (Anthropic), in più sessioni, settembre 2026
+
+## 0. Istruzioni per chi scrive il white paper
+
+- **Non c'è una decifrazione.** Il white paper non deve dichiararne una, né lasciarla
+  intendere. Il risultato è una mappa di che cosa il Voynich *non* è, con i controlli, e di
+  quale modello gli si avvicina di più.
+- **Ogni esito negativo vale solo perché i controlli positivi riescono.** Quando si cita un
+  "no", conviene citare anche il controllo che mostra che il metodo avrebbe detto "sì".
+- **Tenere le cautele** della sezione 7: un esito negativo esclude un modello preciso per le
+  lingue provate, non "ogni decifrazione".
+- **Numeri:** qui in formato italiano (virgola decimale). "×1,0" indica un rapporto rispetto al
+  caso o a un riferimento; "bit" è un'unità di informazione.
+- **Lingua:** il dossier è in italiano; il white paper può essere in italiano o in inglese. Nel
+  glossario (sezione 11) ci sono i termini tecnici con l'equivalente inglese.
+- **Figure:** l'elenco delle figure già pronte è nella sezione 9.
+
+## 1. Sintesi
+
+Il manoscritto Voynich (Beinecke MS 408, pergamena datata al radiocarbonio 1404–1438) è scritto
+in un alfabeto mai letto. In 28 esperimenti ripetibili, con controlli positivi e negativi per
+ogni metodo, abbiamo misurato come si comporta il suo testo e messo alla prova le principali
+ipotesi: una lingua scritta con un alfabeto normale, un cifrario (semplice, omofonico, verboso,
+il Naibbe), un codice parola per parola, anagrammi, abbreviazioni, lettere nulle,
+trasposizioni, contenuti non in prosa (elenchi, preghiere), due decifrazioni pubblicate di
+recente, e un testo senza messaggio prodotto da una procedura.
+
+In breve:
+
+1. Il testo ha un'impronta che **nessuna lingua naturale** del campione (circa 100 lingue) ha:
+   - segni troppo prevedibili;
+   - spazi in gran parte prevedibili dal segno che li precede;
+   - parole che ripetono la precedente tanto spesso quanto due parole qualsiasi della stessa riga;
+   - parole della stessa pagina che si somigliano nella grafia, sempre meno allontanandosi di riga.
+2. **Nessun attacco di sostituzione** lo legge: in 14 lingue con gli spazi, in 71 senza,
+   contando i segni in molti modi. Lo stesso attacco rompe tutti i controlli positivi.
+3. **Nessuna codifica di un testo vero** provata riproduce insieme le sue anomalie: codici
+   parola per parola, cifrari verbosi, il Naibbe, abbreviazioni, nulle, trasposizioni, elenchi,
+   preghiere e litanie.
+4. **Due decifrazioni pubblicate** con codice pubblico (Schechter, latino; Gatta, ebraico)
+   "leggono" allo stesso modo un testo senza messaggio.
+5. **Il modello che si avvicina di più è senza messaggio:** il generatore ad autocitazione di
+   Timm e Schinner (2020), in cui chi scrive copia e ritocca parole già scritte. Con una regola
+   in più sulle giunture fra parole, aggiunta qui, riproduce quasi tutta la lista di controllo.
+6. **Resta un divario sul vocabolario:** il Voynich ha più parole usate una volta sola (68%
+   contro 50–54%). Errori di scrittura o di lettura ne spiegano una parte, e le parole uniche
+   del Voynich ne hanno l'aria. Ma aggiunti al generatore lo rendono meno prevedibile del
+   Voynich.
+
+Tre possibilità restano aperte e non sono ancora distinte:
+
+- un contenuto che non è prosa, scritto con unità più grandi delle lettere;
+- una scrittura con convenzioni che cambiano da pagina a pagina;
+- nessun messaggio.
+
+La terza è la più avanti: è l'unica che produce da sola le anomalie principali.
+
+## 2. Il problema e le ipotesi
+
+- **Il manoscritto:** circa 240 pagine con disegni di piante, astronomia e zodiaco, figure
+  femminili in vasche, recipienti da farmacia, e una sezione finale di solo testo ("ricette").
+  Le pagine si dividono in due varietà di scrittura, le "lingue" A e B di Currier (anni '70).
+- **L'alfabeto EVA** trascrive i segni in lettere latine (*qokeedy*, *daiin*, *chol*…). Non dice
+  niente sul suono: è un'etichetta. Alcuni segni si scrivono con più lettere EVA (*ch*, *sh*,
+  *cth*, *ckh*, *cph*, *cfh*): qui li contiamo come un segno solo.
+- **Le ipotesi messe alla prova:**
+  1. una lingua naturale in un alfabeto normale;
+  2. un testo "tokenizzato": unità più grandi delle lettere, cioè gruppi di segni per una
+     lettera (cifrario verboso), sillabe, codici per parola, il Naibbe;
+  3. un cifrario classico: sostituzione semplice o omofonica, trasposizione, nulle,
+     abbreviazioni, anagrammi;
+  4. un contenuto particolare (elenchi, formule, preghiere, litanie);
+  5. nessun messaggio: un testo prodotto da una procedura.
+
+## 3. Dati e metodo
+
+### 3.1 Dati (tutti con versione fissata)
+
+**Trascrizioni** (formato IVTFF di René Zandbergen), copiate dal repository
+Krymorn/The-Voynich-Transliteration-Tool con le impronte SHA-256 degli originali:
+
+| trascrizione | alfabeto | versione | ruolo |
+|---|---|---|---|
+| Zandbergen-Landini (ZL) | EVA | 3b del 13/05/2025 | riferimento |
+| Takahashi (IT) | EVA di base | 2a, rivista 25/06/2025 | controllo |
+| Glen Claston (GC) | v101 | 2a, rivista 25/06/2025 | controllo |
+
+- Si usa il testo in paragrafi: circa 35.000 parole leggibili. Etichette, testi in cerchio e
+  raggi restano fuori; le parole con segni illeggibili (0,6%) sono scartate.
+
+**Testi di confronto** (scaricati a commit fisso da `prepara.py`):
+
+- la Bibbia in 100 lingue (christos-c/bible-corpus, CC0);
+- la Latin Library (cltk/lat_text_latin_library), per i testi tecnici latini e un modello del
+  latino di circa 9 milioni di lettere;
+- il cifrario Naibbe di Greshko (greshko/naibbe-cipher, MIT modificata);
+- il generatore ad autocitazione di Timm e Schinner (TorstenTimm/SelfCitationTextgenerator,
+  MIT, Java);
+- il breviario romano in latino (DivinumOfficium/divinum-officium, MIT);
+- la decifrazione di Schechter (scott-schechter/voynich-decoded; nessuna licenza dichiarata,
+  letta in cache e non ridistribuita);
+- il toolkit di Gatta (antenore/voynich-toolkit, MIT).
+
+### 3.2 Principi di metodo
+
+- **Controlli prima di tutto.** Ogni metodo si prova su:
+  - un *controllo positivo*: un testo noto, trattato come il Voynich; il metodo deve
+    risolverlo;
+  - un *controllo negativo*: un testo in un'altra lingua, o senza niente da trovare; dice
+    quanto si ottiene per caso.
+- **Scala normalizzata** per i risolutori: 0 = controllo negativo, 1 = controllo positivo; il
+  Voynich si colloca su questa scala.
+- **Confronti alla pari:** campioni della stessa lunghezza e, nei controlli, lo stesso numero
+  di simboli del Voynich letto in quel modo.
+- **Riproducibilità:** semi del caso fissi, dati a commit fisso; rifacendo, i numeri tornano
+  identici.
+- **Segni composti fusi:** senza fonderli il testo sembrerebbe più prevedibile di quanto è.
+
+### 3.3 La lista di controllo
+
+È lo strumento centrale: nove proprietà che chiunque proponga una decifrazione, un cifrario o un
+meccanismo deve riprodurre tutte insieme (tabella completa in sezione 5.6):
+
+- h2;
+- quanto è prevedibile lo spazio;
+- varietà del vocabolario e parole uniche;
+- ripetizione immediata;
+- somiglianza di pagina, vicino e a sei righe;
+- legame fra la fine di una parola e l'inizio della successiva;
+- parole vicine che unite danno parole esistenti.
+
+## 4. Risultati per tema
+
+I numeri fra parentesi quadre indicano l'esperimento (e01–e28; file in `risultati/`).
+
+### 4.1 L'impronta statistica del Voynich
+
+- **Segni troppo prevedibili [e01].**
+  - Con i segni EVA fusi, l'incertezza sul segno successivo (h2) è 2,2 bit. Le lingue con un
+    alfabeto di taglia simile stanno fra 2,6 e 3,3 (latino 3,3, italiano 3,2, testi tecnici
+    latini 3,2–3,4).
+  - Senza spazi: 2,5 contro 2,9–3,5. Fra porzioni diverse del testo i valori cambiano di
+    0,01–0,03 bit.
+  - Con l'alfabeto v101 di Glen Claston, che conta come un segno solo alcuni gruppi EVA (le
+    serie di *i*), il distacco si riduce: 2,5 contro 2,8–3,3 con gli spazi, 2,9 contro 2,8–3,6
+    senza, cioè al margine delle lingue.
+  - Quindi parte della prevedibilità dipende da come si tagliano i segni (le unità vere sono
+    più grandi delle lettere EVA), e parte dai confini di parola.
+  - Una sostituzione semplice non cambia questi numeri: per le lingue del campione è esclusa.
+- **Il cifrario verboso non ci arriva [e07].** Su 450 cifrari "una lettera = 2–3 segni"
+  applicati a latino e italiano, nessuno raggiunge la prevedibilità del Voynich. I più vicini
+  (h2 2,4–2,5) hanno parole di 8–10 segni, il doppio delle sue (4,5). Servirebbe un testo in
+  chiaro con parole di due lettere in media.
+- **Ripetizione immediata [e02, e04, e07].** Nel Voynich una parola è identica alla precedente
+  tanto spesso quanto due parole qualsiasi della stessa riga (×1,0). Su 95 testi naturali la
+  mediana è ×0,12: la grammatica lo impedisce. Unica eccezione l'indonesiano, che forma il
+  plurale raddoppiando la parola. Le ripetute sono parole piene (*chol*, *qokeedy*, *daiin*).
+  Qualsiasi codice parola per parola conserva la proprietà della lingua di partenza (tutte le
+  codifiche provate stanno fra ×0,1 e ×0,5).
+- **Omogeneità di pagina [e04, e05].**
+  - Due parole diverse della stessa riga si somigliano nella grafia il 3,8–4,0% più di due
+    parole qualsiasi del testo; nei testi naturali da −0,4% a 1,5%. Il massimo viene dalle
+    lingue bantu, per la concordanza dei prefissi.
+  - Circa quattro quinti dell'effetto vengono dalla pagina intera, il resto dalle righe vicine:
+    la somiglianza cala con la distanza fra le righe (3,4% a sei righe).
+  - Tiene con due trascrizioni, dentro le lingue A e B di Currier, e fondendo i segni che i
+    trascrittori confondono.
+  - La "copiatura fra parole adiacenti" di alcuni studi, a guardarla bene, riguarda la riga e
+    la pagina, non le parole adiacenti.
+- **La "poca sintassi" non è un'anomalia [e03].** Contro la Bibbia il Voynich sembrava avere
+  poca sintassi, ma i testi tecnici latini ne hanno altrettanto poca: era la Bibbia, molto
+  formulaica, a essere un confronto sbagliato.
+- **Le lingue A e B di Currier** si ritrovano con questi strumenti nel 98,5% delle pagine [e06].
+- **Gli spazi [e11, e12].**
+  - Lo spazio si prevede per due terzi (66%) dal segno che lo precede; nelle lingue la mediana
+    è 17%.
+  - Unendo due parole vicine si ottiene una parola che il manoscritto usa altrove nel 9,2% dei
+    casi (4,8% unendo parole a caso; nelle lingue 0,1–0,7%, pari al caso).
+  - Spazi segnati come incerti: l'unione è attestata nel 43,5% dei casi (31% per caso); spazi
+    certi: 6,1% (3,4% per caso).
+  - Giunture "morbide", prima di *aiin*, *ar*, *al* e dopo *o*: 40–56% (*s aiin* → *saiin*).
+    Giunture "dure", prima di *q* e dopo *m*: 0–1%.
+  - Le parole sono fatte di pezzi che si attaccano e si staccano. Togliere gli spazi dubbi non
+    avvicina il testo a una lingua.
+- **Legame fine-inizio [e11].** Come comincia una parola dipende da come è finita la precedente:
+  0,19 bit (lingue 0,02–0,40, mediana 0,07). È un legame da lingua con particelle.
+- **Isolato da tutte le lingue [e13].** Su nove misure insieme, la distanza del Voynich dalla
+  lingua più vicina è 9,9 (5,5 senza l'omogeneità di pagina). La lingua più isolata del
+  campione sta a 4,1 dalla sua vicina. Misure più anomale: omogeneità di pagina +10,7
+  deviazioni standard, spazio prevedibile +5,8, prevedibilità del segno −3,5. Le lingue "più
+  vicine" (potawatomi, chinanteco, ewe, malgascio) non hanno niente in comune fra loro.
+- **Le etichette dello zodiaco non sono numeri [e15].** Circa 30 figure per segno, come i gradi
+  o i giorni. Ma le etichette sono quasi tutte diverse (264 su 299), e quelle nella stessa
+  posizione in segni diversi non si somigliano più del caso (p = 0,46). La loro grafia scivola
+  con regolarità dai Pesci al Sagittario (da *-al-* a *-eo-*): la stessa deriva di stile delle
+  pagine.
+
+### 4.2 Codifiche di testi veri: nessuna riproduce le anomalie
+
+- **Codice parola per parola [e07, e09].** Sostituire ogni parola di un testo latino con una
+  parola del Voynich di pari frequenza dà le lettere e il vocabolario del Voynich, ma non le
+  sue anomalie: niente ripetizioni immediate, niente omogeneità di pagina. Il grafico e09 mette
+  le due anomalie su due assi: il Voynich sta da solo.
+- **Un codice con "stile di pagina"** (lo scriba cambia abitudini a ogni pagina: *ch* per *sh*,
+  *q* in testa…) produce omogeneità, anche troppa. Ma è uguale a ogni distanza fra le righe,
+  il vocabolario diventa troppo vario e le ripetizioni restano evitate.
+- **Il cifrario Naibbe [e10]** (Greshko 2025: il testo si taglia in pezzi di una o due lettere,
+  ogni pezzo diventa una "parola" presa da sei tabelle, con un mazzo di carte). Provato sul
+  Plinio cifrato dall'autore, su Vitruvio e sulla Bibbia latina e italiana, anche con
+  preferenze che cambiano da pagina a pagina.
+  - Somiglia al Voynich per h2 (2,2), lunghezza e varietà delle parole.
+  - Non somiglia per:
+    - parole uniche: 0,37–0,44 contro 0,68;
+    - ripetizioni: ×0,33–0,69 contro ×1,0;
+    - omogeneità di pagina: al massimo 2,2%, e piatta;
+    - legame fine-inizio: 0,002–0,013 bit contro 0,19, meno di qualsiasi lingua.
+- **Abbreviazioni [e21]:** il latino con le abbreviazioni dei manoscritti diventa *meno*
+  prevedibile (h2 da 3,26 a 3,37), perché si tolgono proprio le parti più prevedibili. È la
+  direzione sbagliata.
+- **Lettere nulle [e21]:**
+  - sparse a caso allontanano (h2 3,54);
+  - messe a regola (in testa e in coda alle parole che cominciano o finiscono per vocale)
+    avvicinano h2 (2,94) e lo spazio (53%), ma ripetizioni e somiglianze non cambiano.
+- **Trasposizioni [e21]:** a colonne o dentro le parole portano h2 a 3,9 e rendono le parole
+  casuali. Ordinare le lettere avvicina h2 (2,5), ma è l'ipotesi degli anagrammi, esclusa
+  (4.3).
+- **Testi a elenco [e21]** (genealogie e censimenti biblici, Notitia Dignitatum, Fasti di
+  Idazio):
+  - ripetono la parola precedente meno della prosa (×0,00–0,07);
+  - somiglianza nella riga al massimo 1,6%;
+  - cifrati con un codice prendono la grana del Voynich (h2 1,9–2,2, spazio 69–75%), ma non le
+    sue anomalie.
+- **Preghiere e litanie [e25]** (breviario romano: litania dei santi, raccomandazione
+  dell'anima, salmi con ritornello, preci, un rosario di 15 decine):
+  - nessuna ripete subito la parola (×0,00–0,11) e non ci sono pagine omogenee (0,4–1,1%);
+  - hanno invece un fortissimo legame fra parole vicine (0,09–1,37 bit, per "ora pro nobis");
+  - cifrate con un codice: h2 1,76, spazio 82%, ma ripetizioni e somiglianze restano quelle
+    delle preghiere.
+
+### 4.3 Tentativi di decifrazione, con i controlli
+
+- **Sostituzione omofonica con gli spazi, 14 lingue [e14].** Lingue: latino, italiano,
+  tedesco, inglese, francese, spagnolo, ceco, ungherese, greco, ebraico, arabo, turco,
+  malgascio, chinanteco.
+  - Controlli positivi (altra parte della Bibbia, chiave casuale dello stesso tipo): 69–98% di
+    parole vere, 629–5.669 parole diverse.
+  - Voynich: al massimo 36% di parole vere e 7–93 parole diverse, per lo più sempre le stesse
+    tre. Come un testo in un'altra lingua: 4–86 parole diverse.
+  - Le coppie di parole decifrate non sono attestate più delle stesse parole rimescolate.
+    L'apparente eccezione tedesca è una chiave degenere (*er er*, *seien sie*): uno scarto così
+    compare anche in 4 controlli negativi su 14.
+  - Nomi di mesi e segni nello zodiaco: un nome giusto in 3 pagine su 144; nomi fuori posto 22
+    volte. Puro caso.
+  - Il Plinio cifrato col Naibbe (latino vero, altro meccanismo): 9% di parole vere, 53 parole
+    diverse. Anche un testo sensato, cifrato in un modo diverso da quello presupposto, sembra
+    vuoto.
+- **Un risolutore vero senza spazi [e16, e17].**
+  - Il metodo: ricottura simulata, modello della lingua a 5-grammi di lettere (per il latino
+    circa 9 milioni di lettere), più un termine sulla varietà delle lettere decifrate, senza il
+    quale la ricerca finisce in chiavi degeneri.
+  - Controlli: ritrova la chiave al 98–100% nelle Bibbie in 14 lingue (26–74 segni) e al 100%
+    su Varrone e Isidoro.
+  - Unità contate in quattro modi: segni EVA (26), segni v101 (59), gruppi imparati dal testo a
+    due gradi (45 e 74 gruppi).
+  - Nei 56 controlli positivi il risolutore ritrova almeno il 99,9% della chiave; uno si ferma
+    al 98% (il chinanteco, 30 lettere contro 26 segni).
+  - Il Voynich sta fra −0,6 e 0,4 sulla scala negativo→positivo, sotto lo 0 in 30 casi su 56.
+    Le parole vere di almeno 6 lettere coprono 0,3–10% del testo decifrato, contro 0,5–9% nei
+    negativi e 16–61% nei positivi.
+  - Il "testo" decifrato è una poltiglia di sillabe (*lusacarutusunummodetdesacsicaresdetta*).
+    Il cifrario verboso di prova diventa invece *…ascendissent venerunt in hierusalem et…*.
+  - Il punto più alto (ebraico a segni EVA, 0,42) non regge: viene da una sola ripartenza su
+    quattro, e il Naibbe, che non è ebraico, arriva allo stesso punto (0,39 contro 0,37).
+- **I gruppi di segni a ogni grado [e20].** Nove gradi, da 10 a 150 fusioni (36–173 gruppi), in
+  latino e italiano. Il metodo di fusione ritrova tutti i 35 gruppi veri di un cifrario verboso
+  di prova, contro 27 su 35 del più diffuso byte-pair encoding.
+  - Controlli positivi: 100% della chiave a ogni grado.
+  - Il cifrario verboso di prova si legge fra 30 e 60 fusioni (posizione 0,47–0,74).
+  - Il Voynich non si legge a nessun grado: fra −0,33 e 0,00.
+- **Tutte le lingue del corpus, anche al contrario [e19].** 71 Bibbie in alfabeto o abjad
+  (≤32 lettere): lingue europee, semitiche, turche, uraliche, austronesiane, amerindiane,
+  africane, il cinese in pinyin.
+  - Controlli positivi: 91–100% della chiave in tutte e 71.
+  - Voynich: al massimo 0,47 (shona), sotto 0,3 in 66 lingue su 71; letto al contrario al
+    massimo 0,39.
+  - Il Naibbe, che ha la "grana" del Voynich senza essere una sostituzione di queste lingue,
+    arriva poco sotto (mediana 0,09 in meno). Quel poco che sale è grana, non lingua.
+  - Le parole vere di almeno 6 lettere: mediana 1,7% contro 47% di un testo vero cifrato.
+- **Anagrammi ordinati [e18]** (Hauer e Kondrak 2016: parole con le lettere in un ordine fisso).
+  - L'ordine migliore dei segni è rispettato dal 78,5% delle coppie dentro le parole: valore da
+    lingua (60–96%, mediana 66%). Con lettere ordinate sarebbe 100%.
+  - Il 35% delle parole ha un anagramma nel testo (27% con v101); nelle lingue 1–27%, mediana
+    5%. Con le parole ordinate sarebbe 0%.
+  - Gli anagrammi sono spesso varianti rare con un pezzo spostato da un capo all'altro (*chol* →
+    *lcho*): la stessa mobilità dei pezzi vista negli spazi.
+
+### 4.4 L'ipotesi senza messaggio: il modello più vicino
+
+- **Una nostra autocitazione semplificata [e08]** (copia e ritocca parole delle righe sopra)
+  degenerava in parole troppo corte: né prova né smentita.
+- **Due varianti veloci [e21]** producono da sole le due anomalie principali: ripetizioni
+  ×1,07 e ×1,29; somiglianza che cala dalla riga (12% o 9%) a sei righe (4% o 6%). Tarare tutto
+  insieme però non riusciva.
+- **L'algoritmo completo di Timm e Schinner [e22]**, fatto girare così com'è con i parametri
+  pubblicati: cinque semi, 4.000 righe, circa 36.700 parole ciascuno. Le regole vengono dal
+  Voynich stesso, quindi la somiglianza non è una sorpresa. Conta che un procedimento
+  eseguibile a mano, senza contenuto, riproduca proprietà che nessuna lingua e nessun cifrario
+  hanno.
+  - Uguale: h2 2,23–2,26 (2,24); somiglianza nella riga 3,5–3,9% (3,8%); a sei righe 3,2–3,5%
+    (3,4%), che cala.
+  - Vicino: ripetizioni ×0,72–0,78; spazio 51–57% (66%); anagrammi 42–46% (35%).
+  - Lontano: parole uniche 52% (68%); parole diverse 14% (21%); unioni attestate 1,2 volte il
+    caso (Voynich 2 volte).
+  - Mancante: il legame fine-inizio, 0,01–0,02 bit (Voynich 0,19), come nel Naibbe.
+- **La regola delle giunture [e23], aggiunta qui.** Lo scriba tiene la copia ritoccata con
+  una probabilità che dipende da come la sua prima lettera si attacca all'ultima della parola
+  precedente, secondo le preferenze del Voynich (dopo *-y* volentieri *q-*, dopo *-n* quasi mai
+  *k-*).
+  - Senza la regola il testo esce identico, byte per byte, a quello del programma pubblicato.
+  - Con la regola (forza 3, cinque semi) il legame fine-inizio è 0,175–0,182 bit (Voynich 0,188;
+    senza la regola 0,016).
+  - Il resto resta: h2 2,23; ripetizioni ×0,81; somiglianza 3,2% e 3,1%; spazio 58%.
+  - Resta il vuoto del vocabolario: parole uniche 51%; tra il 50% e il 54% cambiando uno alla
+    volta sette parametri.
+- **Più parole nuove costano omogeneità [e24].**
+  - Il "doppio ritocco" porta le parole uniche fino al 58%, ma la somiglianza scende da 3,4% a
+    2,9%.
+  - La "copia da lontano" non alza le parole uniche (51–52%) e fa crollare la somiglianza
+    (1,0–2,4%).
+  - Combinazione migliore (30% di doppi ritocchi, cinque semi): parole uniche 54%, somiglianza
+    3,2%, ripetizioni ×0,77, legame 0,19.
+  - Nel generatore più parole nuove vogliono dire pagine meno omogenee; il Voynich ha tutte e
+    due le cose.
+- **Errori di scrittura o di lettura [e28].**
+  - Due trascrizioni a confronto (ZL contro Takahashi, 4.118 righe comuni, 34.815 parole):
+    uguali 87,5%; lette diversamente 5,1% (a/o, r/s, k/t, y/o, g/m, ch/sh, *i* ed *e* in più o
+    in meno); spazi diversi 7,4%.
+  - Le parole uniche sono lette diversamente dal 15,5%, le altre dal 4,1%. Prendendo la lettura
+    di Takahashi quando dà una parola già nota (208 casi), le parole uniche scendono solo da
+    67,9% a 66,1%. Con la trascrizione di Takahashi il Voynich ne ha comunque il 68%.
+  - Errori come quelli osservati, aggiunti al generatore con le giunture: parole uniche dal
+    50–51% al 60–61% alla stessa dose, al 64–65% alla dose doppia. Le parole diverse arrivano
+    al 20–21%, come nel Voynich; la somiglianza cambia poco (3,0–3,2%).
+  - Regolarità delle parole uniche, in bit per segno rispetto alle abitudini delle parole
+    ripetute dello stesso testo: Voynich 3,38; generatore 3,06–3,10; generatore con errori
+    3,35–3,42. Le parole uniche del Voynich hanno l'aria di errori.
+  - Ma con gli errori il testo diventa meno prevedibile: h2 2,37–2,45 (Voynich 2,24), spazio
+    50–52% (66%). Senza errori di spazio gli spazi reggono meglio (55–57%), ma le parole uniche
+    salgono meno (58–62%) e il legame fine-inizio cala (0,150–0,164).
+
+### 4.5 Decifrazioni pubblicate e cartigli
+
+- **Schechter, glossario EVA → latino [e26]** (4.063 voci, 947 significati; dichiara 87,8%
+  decifrato contro 2,1% di stringhe EVA casuali). Il suo programma, rifatto in Python, dà gli
+  stessi numeri (89,2% sulla sua trascrizione di 37.886 parole, identico per sezione). Però:
+  - un "glossario" fatto delle 4.445 parole più frequenti, senza significato, copre il 90,8%;
+    2.067 delle 4.445 parole che il suo glossario legge compaiono una volta sola;
+  - il confronto con stringhe casuali non misura niente: parole inventate non stanno nel testo;
+  - il suo glossario legge il testo senza messaggio di Timm e Schinner al 67–70%;
+  - la sua prova sulle pagine lasciate fuori (79–81%) coincide con la quota di parole di una
+    metà che compaiono già nell'altra (82–83%); il testo senza messaggio ne ha di più (85–88%);
+  - l'ordine delle parole non è latino. Coppie vicine attestate nella Latin Library (1,37 milioni
+    di parole): nel latino vero 30% contro 22% rimescolando (×1,34); nel Voynich decifrato 8,8%
+    contro 8,8% (×0,99); nel testo senza messaggio decifrato ×0,94–0,98; con i significati
+    rimescolati fra le voci ×1,01;
+  - le frasi ripetute e Zipf non sono segni di latino. Frasi di tre parole ripetute: testo senza
+    messaggio decifrato 77–112, Voynich decifrato 57. Esponente di Zipf circa −1 per il Voynich
+    e per il testo senza messaggio non decifrati.
+- **Gatta, corrispondenza EVA → consonanti ebraiche, lettura da destra [e26]** (lui stesso:
+  "nessuna pagina si legge", ma un segnale nelle parole di 3–4 lettere). Lessico: forme della
+  Bibbia in ebraico del corpus (Nuovo Testamento e parte dell'Antico), senza vocali (46.920).
+  - Sul Voynich il segnale c'è: 35,4% contro 12,5% ± 5,2% con 200 corrispondenze a caso
+    (z = 4,4).
+  - Sul testo senza messaggio: 30% (z = 2,7).
+  - Una corrispondenza cercata apposta (salita di 3.000 passi) dà il 53% sul Voynich e il 50–61%
+    sul testo senza messaggio: più della sua.
+  - Le parole lunghe (5+ consonanti) vanno meglio sul Voynich (3,1% contro 1,4–1,6%), ma il 69%
+    viene da due parole sole (*okaiin*, *okain*).
+- **Altre letture** (Cheshire 2019, "proto-romanzo"; Ardıç, turco antico): non provate, perché
+  non abbiamo trovato un programma o un glossario pubblico che le applichi a tutto il testo.
+- **I nomi delle piante come cartigli [e27].** Idea: il nome della pianta disegnata sta nella
+  prima parola o nella prima riga della pagina, come in molti erbari (Champollion con i
+  cartigli).
+  - Identificazioni: l'unico elenco raggiungibile da qui, la tabella del toolkit di Gatta (58
+    fogli, 15 con confidenza alta, gli altri "moderata", alcuni poco credibili); nomi latini
+    aggiunti da noi. Le fonti originali erano bloccate dalla rete dell'ambiente.
+  - Metodo: un modello di allineamento (IBM Model 1, come nella traduzione automatica) impara
+    quali segni "producono" quali lettere, su tutte le pagine insieme. Si confronta con 1.000
+    abbinamenti rimescolati fra i fogli.
+  - Controllo positivo: il nome cifrato con un cifrario verboso casuale al posto della prima
+    parola si ritrova sempre (p = 0,001), anche con un segno su cinque sbagliato su tutti i
+    fogli. Nella prima riga intera la prova è più debole: sui 15 fogli migliori ritrova il nome
+    solo in latino e senza errori.
+  - Voynich: niente, né in italiano né in latino, né nella prima parola né nella prima riga.
+    Il migliore p = 0,053 su otto prove, compatibile col caso.
+
+### 4.6 La lista di controllo (tabella da riportare)
+
+Valori per il testo in paragrafi della ZL, segni composti fusi. Testi naturali: la Bibbia in
+circa 90 lingue in alfabeto o abjad, più otto testi tecnici latini. Legenda: ✓ uguale,
+≈ vicino, ✗ lontano. "TS" = Timm e Schinner.
+
+| proprietà | Voynich | testi naturali | Naibbe | TS | TS + giunture |
+|---|---|---|---|---|---|
+| incertezza sul segno successivo (h2) | 2,22 bit | 2,6–3,3 a parità di alfabeto | 2,2 ✓ | 2,24 ✓ | 2,23 ✓ |
+| spazio prevedibile dal segno precedente | 66% | 6–100%, mediana 17% | 64% ✓ | 54% ≈ | 58% ≈ |
+| parole diverse ogni 30.000 | 21% | 3–33% | 17–18% ✓ | 14% ≈ | 14% ≈ |
+| parole usate una volta sola (hapax) | 68% | 12–72% | 37–44% ✗ | 52% ✗ | 51% ✗ |
+| parola identica alla precedente, rispetto alla riga | ×1,0 | ×0,01–1,9, mediana ×0,12 | ×0,33–0,69 ✗ | ×0,76 ≈ | ×0,81 ≈ |
+| somiglianza fra parole della stessa riga | 3,8% | da −0,4% a 1,5% | 0–2,2% ✗ | 3,8% ✓ | 3,2% ≈ |
+| la stessa somiglianza a 6 righe | 3,4% (cala) | vicino a 0 | piatta ✗ | 3,4% (cala) ✓ | 3,1% (cala) ✓ |
+| legame fine parola → inizio parola seguente | 0,19 bit | 0,02–0,40, mediana 0,07 | 0,002–0,013 ✗ | 0,016 ✗ | 0,178 ✓ |
+| due parole vicine unite danno una parola esistente | 9,2% (caso 4,8%) | 0,1–0,7%, pari al caso | 1,0% (caso 1,3%) ✗ | 13,9% (caso 11,7%) ≈ | 11,8% (caso 9,2%) ≈ |
+
+Aggiunte (e28), sempre sul generatore con le giunture: con errori di lettura alla dose
+doppia le parole uniche arrivano al 64–65% e le parole diverse al 20–21%, ma h2 sale a
+2,37–2,45 e lo spazio scende al 50–52%.
+
+## 5. Che cosa si può concludere
+
+- **Escluso, con controlli che mostrano che il metodo funziona:**
+  - una sostituzione semplice o omofonica di una delle 14 lingue provate con gli spazi, o
+    delle 71 provate senza spazi, contando i segni in molti modi, anche leggendo al contrario;
+  - un cifrario verboso a gruppi imparati dal testo, a nove gradi fra 36 e 173 gruppi, in
+    latino e italiano;
+  - un codice parola per parola di un testo in prosa;
+  - anagrammi ordinati;
+  - il Naibbe come spiegazione completa;
+  - abbreviazioni, nulle o trasposizioni come spiegazione principale;
+  - elenchi, preghiere e litanie come spiegazione delle anomalie;
+  - il nome della pianta scritto lettera per lettera, in italiano o latino, nella prima parola
+    delle pagine con le identificazioni disponibili.
+- **Non regge ai controlli:** le due decifrazioni pubblicate con codice pubblico (Schechter,
+  Gatta).
+- **Regge a metà l'idea "tokenizzata".**
+  - Regge che i segni non si comportino come lettere: si combinano come pezzi di un sistema, e
+    contati a gruppi più grandi il testo si avvicina alle lingue.
+  - Non regge che ogni parola stia al posto di una parola di un testo in prosa: tutte le
+    codifiche di questo tipo conservano il modo in cui una lingua mette in fila le parole, e il
+    Voynich non le mette in fila così.
+- **Tre possibilità aperte, non ancora distinte:**
+  1. un contenuto che non è prosa (elenchi, tabelle, cataloghi, formule), scritto con unità più
+     grandi delle lettere;
+  2. una scrittura con convenzioni che cambiano da pagina a pagina, con spazi che non separano
+     parole del testo in chiaro;
+  3. nessun messaggio: un testo prodotto da una procedura (copiare e variare quanto appena
+     scritto).
+- **La terza è la più avanti**, perché è l'unica che produce da sola ripetizioni immediate e
+  omogeneità di pagina graduata. Con la regola delle giunture ottiene anche il legame
+  fine-inizio; manca la varietà del vocabolario, forse in parte spiegabile con errori di
+  scrittura o di lettura.
+- **Formulazione prudente:** questo non dimostra che il Voynich sia senza messaggio. Dimostra
+  che un procedimento eseguibile a mano, senza contenuto, riproduce quasi tutte le sue
+  proprietà statistiche, mentre nessuna lingua, nessun cifrario e nessuna decifrazione provata
+  lo fa.
+- **Letteratura recente convergente:** *A Glyph Is Not a Letter, a Token Is Not a Word, a Space
+  Is Not a Space* (arXiv 2608.17096, agosto 2026; letto solo il riassunto) arriva per altra via
+  a conclusioni vicine:
+  - i segni non si comportano come lettere, le stringhe fra gli spazi non come parole, gli spazi
+    non come separatori;
+  - l'ordine sta ai bordi delle stringhe e nei confini "graduati";
+  - la regolarità dei segni è troppo forte per una sostituzione uno a uno.
+
+## 6. Contributi originali di questo lavoro
+
+Utili da mettere in evidenza nel white paper:
+
+1. **Due anomalie quantificate:** la ripetizione immediata "come a caso" (×1,0 contro ×0,12
+   delle lingue) e l'omogeneità di pagina graduata (3,8% che cala a 3,4% a sei righe), su circa
+   100 lingue e con testi tecnici latini come controllo di genere.
+2. **Una lista di controllo** di nove proprietà, con i valori di riferimento, da usare contro
+   qualsiasi proposta.
+3. **Un risolutore a ricottura simulata** tarato su 56 + 71 controlli positivi, e il suo esito
+   sul Voynich in 71 lingue e con 4 modi di contare i segni (più 9 gradi di gruppi).
+4. **La regola delle giunture** aggiunta al generatore di Timm e Schinner, che porta il legame
+   fine-inizio da 0,016 a 0,178 bit (Voynich 0,188) senza guastare il resto.
+5. **Il controllo "testo senza messaggio"** applicato a decifrazioni pubblicate: un test
+   semplice che chiunque annunci una lettura dovrebbe superare.
+6. **La prova dei cartigli**, pronta per un elenco affidabile di identificazioni.
+7. **Il legame fra parole uniche e letture incerte**: quanto contano, quanto sono irregolari, che
+   cosa succede aggiungendo errori al generatore.
+
+## 7. Limiti e cautele
+
+- **Le immagini non ci sono.** Le scansioni della Beinecke non erano raggiungibili; tutto quello
+  che dipende dai disegni è fuori, tranne la prova dei cartigli con identificazioni di seconda
+  mano.
+- **Trascrizioni:** tutto su ZL; IT e GC come controllo. Le trascrizioni divergono sul 12,5%
+  delle parole, ma le misure principali restano uguali con Takahashi.
+- **Un esito negativo vale solo per il modello provato:** ogni unità vale una lettera, più unità
+  la stessa lettera; lingue del corpus. Non copre:
+  - unità che valgono zero o più lettere (nulle, sillabe, abbreviazioni) in un vero
+    risolutore;
+  - codici e trasposizioni complesse;
+  - lingue fuori dal corpus.
+- **Modelli delle lingue dalla Bibbia**, un genere solo. Per il latino i controlli su Varrone e
+  Isidoro mostrano che basta; per le altre lingue non si può verificare.
+- **Le identificazioni delle piante** (e27) non sono verificabili alla fonte, e quelle
+  "moderate" sono deboli. Sulla prima riga intera la prova ha poca forza con 15 fogli.
+- **La decifrazione di Gatta** è misurata con un lessico nostro (la Bibbia in ebraico, senza
+  vocali), non con il suo.
+- **Il generatore di Timm e Schinner** usa regole tratte dal Voynich: la somiglianza è in parte
+  costruita. Il punto è che basta una procedura semplice, non che il generatore "spieghi" il
+  Voynich.
+- **Siti non raggiungibili dall'ambiente di lavoro:** voynich.nu, Beinecke e Yale, arXiv (testo
+  intero), HerbalGram, Kaggle, i blog di botanica voynichiana, stephenbax.net, pure.mpg.de.
+- **Un'etichetta sbagliata nel corpus:** l'islandese è segnato come scritto in etiopico; resta
+  fuori dai confronti fra alfabeti.
+
+## 8. Cosa resta da fare
+
+1. **Un generatore più regolare in partenza** (segni e spazi più prevedibili), a cui aggiungere
+   errori di scrittura o di lettura: è la strada più promettente per chiudere il divario del
+   vocabolario.
+2. **Testi "a elenco" veri come confronto:** ricettari a lista, cataloghi di stelle, glossari,
+   tavole. Se evitano le ripetizioni e non hanno pagine omogenee, la possibilità 1 si
+   indebolisce ancora.
+3. **Un risolutore in cui un'unità vale zero, una o più lettere** (nulle, sillabe,
+   abbreviazioni). I sondaggi dicono che da sole queste strade aiutano poco, ma non è escluso.
+4. **Cifrari con "stile di pagina" graduale e giunture morbide**, per esempio varianti del
+   Naibbe: sono le due cose che il Naibbe non ha.
+5. **Immagini e identificazioni affidabili delle piante:** rifare la prova dei cartigli (pochi
+   minuti) e aggiungere le etichette accanto ai disegni.
+6. **Leggere per intero lo studio arXiv 2608.17096** e confrontarlo numero per numero.
+7. **Studiare a parte la prima e l'ultima parola di ogni riga**, che hanno statistiche proprie.
+8. **Mettere alla prova altre decifrazioni annunciate**, appena ne esistono un programma o un
+   glossario pubblico: col controllo del testo senza messaggio e con l'ordine delle parole.
+
+## 9. Figure pronte (in `voynich/risultati/`, versione chiara e scura)
+
+| file | che cosa mostra | dove usarla |
+|---|---|---|
+| `e01_prevedibilita-chiaro.png` | h1 contro h2: il Voynich sotto tutte le ~100 lingue | impronta statistica |
+| `e05_righe-chiaro.png` | somiglianza fra parole in funzione della distanza fra righe | omogeneità di pagina |
+| `e07_compromesso_verboso-chiaro.png` | 450 cifrari verbosi: prevedibilità contro lunghezza delle parole | cifrari verbosi |
+| `e09_sintesi-chiaro.png` | ripetizioni immediate contro somiglianza nella riga: il Voynich da solo | le due anomalie |
+| `e13_profilo-chiaro.png` | le lingue su due assi riassuntivi, il Voynich fuori dalla nuvola | isolamento |
+| `e14_decifrazione-chiaro.png` | parole vere diverse: controlli positivi, negativi, Voynich | sostituzione con spazi |
+| `e17_ricottura-chiaro.png` | posizione del Voynich fra negativo (0) e positivo (1), 14 lingue × 4 modi | risolutore senza spazi |
+| `e18_anagrammi-chiaro.png` | ordine dei segni contro anagrammi: lingue, parole ordinate, Voynich | anagrammi |
+| `e19_tutte_le_lingue-chiaro.png` | 71 lingue, Voynich dritto e al contrario, Naibbe | tutte le lingue |
+| `e20_gradi-chiaro.png` | posizione al variare delle fusioni: il verboso di prova sale, il Voynich no | gruppi di segni |
+| `e22_timm_schinner-chiaro.png` | otto proprietà su scala lingua (0) → Voynich (1): generatore e Naibbe | modello senza messaggio |
+| `e23_giunture-chiaro.png` | lo stesso con la regola delle giunture | giunture |
+| `e24_varieta-chiaro.png` | parole uniche contro somiglianza: il compromesso del generatore | vocabolario |
+
+Per e25–e28 ci sono solo tabelle (`.md`): conviene farne grafici nuovi. Per esempio:
+
+- barre del rapporto "coppie attestate / rimescolate" per latino vero, Voynich decifrato,
+  testo senza messaggio e glossario rimescolato (e26);
+- parole uniche e h2 contro la dose di errori (e28).
+
+## 10. Scaletta proposta per il white paper
+
+1. **Sommario** (10–12 righe, dalla sezione 1).
+2. **Introduzione:** il manoscritto, le ipotesi in campo, perché serve un metodo con controlli.
+3. **Dati e metodo:** trascrizioni, corpora, controlli positivi e negativi, scala normalizzata,
+   lista di controllo, riproducibilità.
+4. **L'impronta del Voynich:** prevedibilità, spazi e giunture, ripetizioni, omogeneità di
+   pagina, isolamento dalle lingue (4.1). Figure e01, e05, e09, e13.
+5. **Che cosa il Voynich non è:** codifiche di testi veri, Naibbe, sostituzioni con e senza
+   spazi, gruppi di segni, 71 lingue, anagrammi (4.2, 4.3). Figure e07, e14, e17, e19, e20, e18.
+6. **Le decifrazioni pubblicate alla prova:** Schechter e Gatta, il controllo del testo senza
+   messaggio; i cartigli (4.5).
+7. **Il modello senza messaggio:** Timm e Schinner, la regola delle giunture, il vocabolario,
+   gli errori di lettura (4.4). Figure e22, e23, e24.
+8. **Discussione:** la lista di controllo come criterio (4.6), le tre possibilità, che cosa
+   servirebbe per distinguerle (5, 8).
+9. **Limiti** (7).
+10. **Riproducibilità e disponibilità:** repository, comandi, tempi di calcolo (sezione 12).
+11. **Appendici:** tabella dei 28 esperimenti (sezione 13), glossario (sezione 11), fonti
+    (sezione 14).
+
+## 11. Glossario (italiano / inglese)
+
+- **EVA**: alfabeto convenzionale per trascrivere il Voynich in lettere latine; non indica
+  suoni.
+- **segno, glifo** (glyph): un carattere del manoscritto; *ch*, *sh*, *cth*… contano come uno.
+- **h1, h2** (unigram / conditional entropy): incertezza in bit su un segno preso da solo (h1) e
+  sul segno successivo sapendo il precedente (h2). Più bassa = più prevedibile.
+- **hapax** (hapax legomenon): parola che compare una volta sola.
+- **lingue A e B di Currier** (Currier languages): due varietà di scrittura in cui si dividono le
+  pagine (Prescott Currier, anni '70).
+- **cifrario omofonico** (homophonic cipher): ogni lettera si può scrivere con più segni.
+- **cifrario verboso** (verbose cipher): ogni lettera si scrive con un gruppo di più segni.
+- **ricottura simulata** (simulated annealing): ricerca che cambia la chiave un pezzo alla volta
+  e accetta ogni tanto un peggioramento, sempre più di rado.
+- **modello a 5-grammi** (5-gram model): probabilità di ogni lettera date le quattro precedenti.
+- **controllo positivo / negativo** (positive / negative control): testo in cui c'è / non c'è
+  la risposta; dice se il metodo funziona e quanto si ottiene per caso.
+- **p**: probabilità di ottenere per caso un risultato almeno così forte.
+- **z**: di quante deviazioni standard un valore si stacca dalla media dei casi rimescolati.
+- **autocitazione** (self-citation): procedura in cui chi scrive copia e ritocca parole già
+  scritte (Timm e Schinner).
+- **legame fine-inizio** (cross-boundary mutual information): quanta informazione la fine di una
+  parola dà sull'inizio della successiva, in bit, oltre il caso.
+- **somiglianza di pagina** (page homogeneity): quanto due parole diverse della stessa riga o
+  pagina si somigliano nella grafia, oltre il caso (distanza di edit normalizzata).
+- **Naibbe**: cifrario quattrocentesco eseguibile a mano proposto da Greshko (2025).
+- **cartiglio** (cartouche / crib): parola nota (qui il nome di una pianta) usata come appiglio
+  per la decifrazione.
+- **IBM Model 1**: modello statistico di allineamento fra due sequenze, nato per la traduzione
+  automatica.
+
+## 12. Riproducibilità
+
+```sh
+pip install -r voynich/requirements.txt        # numpy, matplotlib, scikit-learn, rapidfuzz, pypinyin
+python3 voynich/prepara.py                     # scarica i testi di confronto a commit fisso
+python3 voynich/esperimenti/e01_prevedibilita.py
+# ... e cosi' via fino a e28
+python3 voynich/esperimenti/e14_decifrazione.py --naibbe
+```
+
+- **Tempi:** gli esperimenti 17, 19 e 20 richiedono ore con quattro processori (variabile
+  `PROCESSI`); gli altri da pochi secondi a qualche decina di minuti.
+- **Java:** serve agli esperimenti 22, 23, 24, 26 e 28 (generatore di Timm e Schinner). Dal 23
+  in poi il generatore si ricompila dal sorgente con le aggiunte in `analisi/timm_schinner/`
+  (`Giunture.java`, `Varieta.java`).
+- **Tabelle e grafici:** con `--tabella` e `--grafico` si rifanno dai risultati salvati.
+- **Riproducibilità esatta:** semi fissi, quindi numeri identici rifacendo.
+- **Fonti:** versioni e impronte in `voynich/dati/FONTI.md`.
+- **Codice:**
+  - `analisi/` (moduli comuni):
+    - `trascrizione.py`: lettura IVTFF;
+    - `misure.py`: misure della lista di controllo;
+    - `lingue.py`: corpora;
+    - `ricottura.py`: risolutore;
+    - `generatori.py`: codici e generatori;
+    - `decifra.py`, `grafici.py`;
+  - `esperimenti/` (e01–e28): uno per esperimento.
+
+## 13. I 28 esperimenti
+
+| # | domanda | risultato |
+|---|---|---|
+| 1 | La lettera successiva è troppo prevedibile? | Sì a parità di alfabeto; con i segni v101 e senza spazi arriva al margine delle lingue |
+| 2 | Come si comportano le parole, rispetto a ~100 lingue? | Vocabolario nella norma; ripetizioni e somiglianze fuori norma |
+| 3 | Il genere del testo spiega la "poca sintassi"? | Sì: i testi tecnici latini ne hanno altrettanto poca |
+| 4 | Le parole adiacenti si copiano? | No: è la riga (e la pagina) a essere omogenea |
+| 5 | Quanto dura la somiglianza fra righe? | Tutta la pagina, un po' di più fra righe vicine |
+| 6 | Gli strumenti ritrovano le lingue A e B di Currier? | Sì, 98,5% delle pagine |
+| 7 | Un testo vero codificato somiglia al Voynich? | No, con nessuna delle codifiche provate |
+| 8 | Un testo che si copia da solo somiglia al Voynich? | La nostra versione semplificata non ci riesce |
+| 9 | Le due anomalie in un grafico | Il Voynich sta da solo |
+| 10 | Il cifrario Naibbe riproduce il Voynich? | Lettere sì; ripetizioni, pagine, hapax e giunture no |
+| 11 | Gli spazi separano parole? | Lo spazio è per due terzi una regola; legame fra parole vicine da lingua con particelle |
+| 12 | Quali spazi sono veri? | Giunture morbide e dure; molti spazi incerti non c'erano |
+| 13 | A quali lingue somiglia, tutto considerato? | A nessuna: più isolato di qualsiasi lingua |
+| 14 | Una sostituzione omofonica lo legge, in 14 lingue? | No; i controlli positivi invece si leggono |
+| 15 | Le etichette dello zodiaco sono numeri? | No |
+| 16 | E ignorando gli spazi? | Non si sa: il primo metodo non rompeva il controllo positivo (rifatto nel 17) |
+| 17 | Senza spazi, risolutore vero, 14 lingue, 4 modi di contare i segni? | Nessuna lettura; i controlli, anche un cifrario verboso, si leggono |
+| 18 | Le parole sono anagrammi ordinati? | No: ordine da lingua, più anagrammi di quasi tutte le lingue |
+| 19 | In tutte le 71 lingue del corpus, anche al contrario? | No: mai oltre 0,47; il Naibbe arriva poco sotto |
+| 20 | Con i gruppi di segni a ogni grado? | No, a nessuno dei nove gradi; il verboso di prova sì, fra 30 e 60 fusioni |
+| 21 | Sondaggi: abbreviazioni, nulle, trasposizioni, elenchi, autocitazione | Solo l'autocitazione produce ripetizioni e somiglianza di pagina |
+| 22 | L'algoritmo completo di Timm e Schinner? | In gran parte sì; manca il legame fra parole vicine |
+| 23 | Con una regola sulle giunture? | Il legame compare (0,178 contro 0,188) senza guastare il resto; vocabolario meno vario |
+| 24 | Doppio ritocco o copia da lontano? | Fino al 58% di parole uniche, ma a spese della somiglianza di pagina |
+| 25 | Preghiere e litanie? | No: niente ripetizioni immediate né pagine omogenee; forte legame fra parole |
+| 26 | Due decifrazioni pubblicate (Schechter, Gatta)? | No: leggono allo stesso modo un testo senza messaggio; ordine delle parole casuale |
+| 27 | Il nome della pianta nella prima parola o riga? | Nessuna traccia; il nome cifrato apposta invece si ritrova |
+| 28 | Le parole uniche vengono da errori di lettura? | In parte possono: ne hanno l'aria, ma gli errori rendono il testo meno prevedibile del Voynich |
+
+## 14. Fonti e riferimenti
+
+**Dati e software usati**
+
+- Trascrizioni IVTFF di René Zandbergen (ZL, IT, GC), da
+  [Krymorn/The-Voynich-Transliteration-Tool](https://github.com/Krymorn/The-Voynich-Transliteration-Tool)
+  (commit `cb2d368`); sito originale <https://www.voynich.nu/transcr.html>.
+- La Bibbia in 100 lingue:
+  [christos-c/bible-corpus](https://github.com/christos-c/bible-corpus) (commit `44e5fca`).
+- The Latin Library:
+  [cltk/lat_text_latin_library](https://github.com/cltk/lat_text_latin_library) (commit `76229ac`).
+- Il cifrario Naibbe:
+  [greshko/naibbe-cipher](https://github.com/greshko/naibbe-cipher) (commit `f2675ec`).
+- Il generatore di Timm e Schinner:
+  [TorstenTimm/SelfCitationTextgenerator](https://github.com/TorstenTimm/SelfCitationTextgenerator)
+  (commit `a6ede22`).
+- Il breviario romano:
+  [DivinumOfficium/divinum-officium](https://github.com/DivinumOfficium/divinum-officium)
+  (commit `2dbc3c2`).
+- La decifrazione di Schechter:
+  [scott-schechter/voynich-decoded](https://github.com/scott-schechter/voynich-decoded)
+  (commit `71f2f3c`, 25/03/2026).
+- Il toolkit di Gatta:
+  [antenore/voynich-toolkit](https://github.com/antenore/voynich-toolkit) (commit `cb13763`).
+
+**Letteratura**
+
+- T. Timm e A. Schinner (2020), *A possible generating algorithm of the Voynich manuscript*,
+  Cryptologia 44(1), [doi:10.1080/01611194.2019.1596999](https://doi.org/10.1080/01611194.2019.1596999).
+- M. A. Greshko (2025), *The Naibbe cipher: a substitution cipher that encrypts Latin and Italian
+  as Voynich Manuscript-like ciphertext*, Cryptologia,
+  [doi:10.1080/01611194.2025.2566408](https://doi.org/10.1080/01611194.2025.2566408).
+- B. Hauer e G. Kondrak (2016), sull'ipotesi degli anagrammi (citata; non riletta qui).
+- P. Currier (anni '70), le lingue A e B (citato; non riletto qui).
+- *A Glyph Is Not a Letter, a Token Is Not a Word, a Space Is Not a Space* (agosto 2026),
+  [arXiv:2608.17096](https://arxiv.org/abs/2608.17096) (letto solo il riassunto).
+- A. Gatta (2026), articolo del voynich-toolkit su Zenodo,
+  [doi:10.5281/zenodo.19226178](https://doi.org/10.5281/zenodo.19226178).
+- Letture non provate: G. Cheshire (2019), lingua "proto-romanza"
+  ([un resoconto](https://voynichportal.com/2019/05/16/cheshire-reprised/)); A. Ardıç, turco
+  antico ([turkicresearch.com](https://www.turkicresearch.com/files/articles/17.pdf)).
+
+Nota per chi scrive: le voci segnate "citata" o "letto solo il riassunto" vanno verificate
+sui testi originali prima della pubblicazione.

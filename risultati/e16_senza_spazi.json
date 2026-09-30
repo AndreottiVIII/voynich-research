@@ -1,0 +1,14 @@
+{
+ "latino": {
+  "controllo positivo": 0.43825321729649747,
+  "tetto (testo in chiaro)": 0.8762208853325026,
+  "controllo negativo": 0.5294987882302213,
+  "Voynich": 0.38174452625148697,
+  "esempio": [
+   "sitetetisisitissetestesetsatetesteste",
+   "teserisesetissttissetisitatististie",
+   "teissstateesetissetetteisetattisissete",
+   "tesseetaaeetaetsesetetsistisseetisseesetie"
+  ]
+ }
+}

@@ -1,0 +1,200 @@
+{
+ "fogli": 57,
+ "senza_testo_in_paragrafi": [
+  "f65r"
+ ],
+ "prove": {
+  "gradi U, S, B | italiano | prima parola | Voynich": {
+   "coppie": 15,
+   "vera": -2.0535663908357864,
+   "caso_media": -2.0796165374795708,
+   "caso_sd": 0.0232358367062774,
+   "z": 1.1211193714727148,
+   "p": 0.12987012987012986
+  },
+  "gradi U, S, B | italiano | prima parola | nome cifrato (controllo positivo)": {
+   "coppie": 15,
+   "vera": -1.9959770618368158,
+   "caso_media": -2.1239259112418085,
+   "caso_sd": 0.021570032216344823,
+   "z": 5.93178758945194,
+   "p": 0.000999000999000999
+  },
+  "gradi U, S, B | italiano | prima parola | nome cifrato, 20% di segni sbagliati": {
+   "coppie": 15,
+   "vera": -2.015117188428509,
+   "caso_media": -2.1115966873523906,
+   "caso_sd": 0.020713596061742074,
+   "z": 4.657786056863346,
+   "p": 0.000999000999000999
+  },
+  "gradi U, S, B | italiano | prima riga | Voynich": {
+   "coppie": 15,
+   "vera": -2.2010986149254883,
+   "caso_media": -2.224874302572462,
+   "caso_sd": 0.016664543563478743,
+   "z": 1.4267230036278584,
+   "p": 0.09090909090909091
+  },
+  "gradi U, S, B | italiano | prima riga | nome cifrato (controllo positivo)": {
+   "coppie": 15,
+   "vera": -2.2138992569720863,
+   "caso_media": -2.2355824653770062,
+   "caso_sd": 0.016008161808252597,
+   "z": 1.3545095723446314,
+   "p": 0.0989010989010989
+  },
+  "gradi U, S, B | italiano | prima riga | nome cifrato, 20% di segni sbagliati": {
+   "coppie": 15,
+   "vera": -2.226831770225568,
+   "caso_media": -2.2472210127067593,
+   "caso_sd": 0.014774493324448605,
+   "z": 1.3800298956751047,
+   "p": 0.0939060939060939
+  },
+  "gradi U, S, B | latino | prima parola | Voynich": {
+   "coppie": 15,
+   "vera": -2.1658079008935993,
+   "caso_media": -2.2057193626079297,
+   "caso_sd": 0.02506202808252492,
+   "z": 1.5925072616992055,
+   "p": 0.052947052947052944
+  },
+  "gradi U, S, B | latino | prima parola | nome cifrato (controllo positivo)": {
+   "coppie": 15,
+   "vera": -2.1313839818376334,
+   "caso_media": -2.245851364074858,
+   "caso_sd": 0.02227451540070161,
+   "z": 5.138939284560996,
+   "p": 0.000999000999000999
+  },
+  "gradi U, S, B | latino | prima parola | nome cifrato, 20% di segni sbagliati": {
+   "coppie": 15,
+   "vera": -2.219797289633584,
+   "caso_media": -2.2466374730444394,
+   "caso_sd": 0.01986779211606247,
+   "z": 1.3509394125961254,
+   "p": 0.0979020979020979
+  },
+  "gradi U, S, B | latino | prima riga | Voynich": {
+   "coppie": 15,
+   "vera": -2.3478155023513043,
+   "caso_media": -2.3587227788091756,
+   "caso_sd": 0.01693383042161494,
+   "z": 0.6441115911937342,
+   "p": 0.24875124875124874
+  },
+  "gradi U, S, B | latino | prima riga | nome cifrato (controllo positivo)": {
+   "coppie": 15,
+   "vera": -2.3191698295705083,
+   "caso_media": -2.366810012154962,
+   "caso_sd": 0.01537479579188403,
+   "z": 3.098589615713904,
+   "p": 0.001998001998001998
+  },
+  "gradi U, S, B | latino | prima riga | nome cifrato, 20% di segni sbagliati": {
+   "coppie": 15,
+   "vera": -2.3676251207044836,
+   "caso_media": -2.381033766531219,
+   "caso_sd": 0.016070530087206637,
+   "z": 0.834362385930853,
+   "p": 0.2087912087912088
+  },
+  "tutti | italiano | prima parola | Voynich": {
+   "coppie": 57,
+   "vera": -2.460056487502216,
+   "caso_media": -2.4713042491924395,
+   "caso_sd": 0.012963949304301106,
+   "z": 0.867618456861107,
+   "p": 0.19080919080919082
+  },
+  "tutti | italiano | prima parola | nome cifrato (controllo positivo)": {
+   "coppie": 57,
+   "vera": -2.260922449298327,
+   "caso_media": -2.49798212540899,
+   "caso_sd": 0.011769421963725263,
+   "z": 20.141998208689316,
+   "p": 0.000999000999000999
+  },
+  "tutti | italiano | prima parola | nome cifrato, 20% di segni sbagliati": {
+   "coppie": 57,
+   "vera": -2.363995306295916,
+   "caso_media": -2.4907031487900406,
+   "caso_sd": 0.012318952042073871,
+   "z": 10.285602384145152,
+   "p": 0.000999000999000999
+  },
+  "tutti | italiano | prima riga | Voynich": {
+   "coppie": 57,
+   "vera": -2.5556106153971885,
+   "caso_media": -2.5449973515189686,
+   "caso_sd": 0.0093739447576861,
+   "z": -1.1322089208513475,
+   "p": 0.8751248751248751
+  },
+  "tutti | italiano | prima riga | nome cifrato (controllo positivo)": {
+   "coppie": 57,
+   "vera": -2.5335101396993336,
+   "caso_media": -2.5573541354875307,
+   "caso_sd": 0.008443286972482105,
+   "z": 2.8240181656632193,
+   "p": 0.002997002997002997
+  },
+  "tutti | italiano | prima riga | nome cifrato, 20% di segni sbagliati": {
+   "coppie": 57,
+   "vera": -2.544882481762918,
+   "caso_media": -2.5580111375827106,
+   "caso_sd": 0.008498049562426365,
+   "z": 1.544902241785023,
+   "p": 0.053946053946053944
+  },
+  "tutti | latino | prima parola | Voynich": {
+   "coppie": 57,
+   "vera": -2.5685806733876015,
+   "caso_media": -2.5733220513046104,
+   "caso_sd": 0.01301949475693289,
+   "z": 0.36417526221469676,
+   "p": 0.36363636363636365
+  },
+  "tutti | latino | prima parola | nome cifrato (controllo positivo)": {
+   "coppie": 57,
+   "vera": -2.3730642129981674,
+   "caso_media": -2.602082618467968,
+   "caso_sd": 0.01181903069847403,
+   "z": 19.377088638865253,
+   "p": 0.000999000999000999
+  },
+  "tutti | latino | prima parola | nome cifrato, 20% di segni sbagliati": {
+   "coppie": 57,
+   "vera": -2.44926247566405,
+   "caso_media": -2.594405391609842,
+   "caso_sd": 0.011205899540673536,
+   "z": 12.952366333374082,
+   "p": 0.000999000999000999
+  },
+  "tutti | latino | prima riga | Voynich": {
+   "coppie": 57,
+   "vera": -2.652506136971733,
+   "caso_media": -2.6424895576418486,
+   "caso_sd": 0.009183508958618426,
+   "z": -1.0907137320843006,
+   "p": 0.8761238761238761
+  },
+  "tutti | latino | prima riga | nome cifrato (controllo positivo)": {
+   "coppie": 57,
+   "vera": -2.6055456810503066,
+   "caso_media": -2.6535072036529908,
+   "caso_sd": 0.008256271260828825,
+   "z": 5.80910208585727,
+   "p": 0.000999000999000999
+  },
+  "tutti | latino | prima riga | nome cifrato, 20% di segni sbagliati": {
+   "coppie": 57,
+   "vera": -2.6358575868043514,
+   "caso_media": -2.6546152905989397,
+   "caso_sd": 0.008370430319159123,
+   "z": 2.2409485629016817,
+   "p": 0.012987012987012988
+  }
+ }
+}

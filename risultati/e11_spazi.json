@@ -1,0 +1,996 @@
+{
+ "voynich_e_cifrati": {
+  "Voynich (Zandbergen-Landini, glifi)": {
+   "spazio_spiegato_1": 0.6636041919558022,
+   "spazio_spiegato_2": 0.7364356066563503,
+   "quota_spazi": 0.2030121874690359,
+   "confine": 0.18814378875483317,
+   "interno": 1.5035597349434076,
+   "confine_su_interno": 0.12513223411234453
+  },
+  "Voynich (Takahashi, glifi)": {
+   "spazio_spiegato_1": 0.6698750926804591,
+   "spazio_spiegato_2": 0.7578895348777135,
+   "quota_spazi": 0.1997231012658228,
+   "confine": 0.1690629694647793,
+   "interno": 1.4927499467756968,
+   "confine_su_interno": 0.11325605459236569
+  },
+  "Voynich (Glen Claston, v101)": {
+   "spazio_spiegato_1": 0.6379245125700168,
+   "spazio_spiegato_2": 0.7127387260488443,
+   "quota_spazi": 0.23577158206063453,
+   "confine": 0.2311266161627305,
+   "interno": 1.4010183032143786,
+   "confine_su_interno": 0.16497044730425936
+  },
+  "Naibbe (cifrato ufficiale, Plinio XVI)": {
+   "spazio_spiegato_1": 0.6414213037422583,
+   "spazio_spiegato_2": 0.7639997466139908,
+   "quota_spazi": 0.1873594726953522,
+   "confine": 0.0017603872028127297,
+   "interno": 1.5984170667145312,
+   "confine_su_interno": 0.0011013315857738683
+  }
+ },
+ "naturali": {
+  "Apicio, ricette di cucina": {
+   "spazio_spiegato_1": 0.22631504456031593,
+   "spazio_spiegato_2": 0.4675359274032955,
+   "quota_spazi": 0.1573272341120732,
+   "confine": 0.07506691969911028,
+   "interno": 0.838298452099453,
+   "confine_su_interno": 0.08954677121389291
+  },
+  "Catone, agricoltura e ricette": {
+   "spazio_spiegato_1": 0.166673324613674,
+   "spazio_spiegato_2": 0.3943427364241572,
+   "quota_spazi": 0.16594261650350328,
+   "confine": 0.04836437764781394,
+   "interno": 0.7232614674371467,
+   "confine_su_interno": 0.06686983867561966
+  },
+  "Columella XII, conserve e ricette": {
+   "spazio_spiegato_1": 0.14571695936924756,
+   "spazio_spiegato_2": 0.3567674306243437,
+   "quota_spazi": 0.15767392276213074,
+   "confine": 0.03398305300048658,
+   "interno": 0.7308555916693074,
+   "confine_su_interno": 0.046497630158192735
+  },
+  "Varrone, agricoltura": {
+   "spazio_spiegato_1": 0.1666424862263911,
+   "spazio_spiegato_2": 0.380334609913915,
+   "quota_spazi": 0.16589201953179258,
+   "confine": 0.01733185464251985,
+   "interno": 0.7079167798855623,
+   "confine_su_interno": 0.024482898463462917
+  },
+  "Isidoro XVII, piante": {
+   "spazio_spiegato_1": 0.16858153133310383,
+   "spazio_spiegato_2": 0.39310609457805856,
+   "quota_spazi": 0.1574691113432513,
+   "confine": 0.03965175378124073,
+   "interno": 0.7274674108478099,
+   "confine_su_interno": 0.05450657058991759
+  },
+  "Isidoro XVI, pietre e metalli": {
+   "spazio_spiegato_1": 0.15971996424969181,
+   "spazio_spiegato_2": 0.37882992492899004,
+   "quota_spazi": 0.15464198698134476,
+   "confine": 0.02243866429793062,
+   "interno": 0.6937683483816288,
+   "confine_su_interno": 0.03234316519379108
+  },
+  "Vegezio, arte militare": {
+   "spazio_spiegato_1": 0.14722835298903247,
+   "spazio_spiegato_2": 0.3555134291864096,
+   "quota_spazi": 0.14581090388717627,
+   "confine": 0.033836944783374,
+   "interno": 0.6651891094250599,
+   "confine_su_interno": 0.05086815809810858
+  },
+  "Vitruvio, architettura": {
+   "spazio_spiegato_1": 0.15643643553591158,
+   "spazio_spiegato_2": 0.37670877958862103,
+   "quota_spazi": 0.14614978948551471,
+   "confine": 0.024316680110392674,
+   "interno": 0.718774364103572,
+   "confine_su_interno": 0.033830755971269943
+  },
+  "Bibbia: Achuar-Shiwiar": {
+   "spazio_spiegato_1": 0.06157128153148306,
+   "spazio_spiegato_2": 0.24362865074957873,
+   "quota_spazi": 0.1293848253252048,
+   "confine": 0.10309647143139103,
+   "interno": 0.8806704627995927,
+   "confine_su_interno": 0.11706588989444952
+  },
+  "Bibbia: Afrikaans": {
+   "spazio_spiegato_1": 0.22623047374826977,
+   "spazio_spiegato_2": 0.5651751121070963,
+   "quota_spazi": 0.2298311444652908,
+   "confine": 0.07924053742574735,
+   "interno": 0.9241734946882376,
+   "confine_su_interno": 0.08574205804558213
+  },
+  "Bibbia: Aguaruna": {
+   "spazio_spiegato_1": 0.13754317758976753,
+   "spazio_spiegato_2": 0.29407048827190785,
+   "quota_spazi": 0.12860838379681344,
+   "confine": 0.0756760784359102,
+   "interno": 0.8715720510933354,
+   "confine_su_interno": 0.0868271055054818
+  },
+  "Bibbia: Akawaio": {
+   "spazio_spiegato_1": 0.2678371912210833,
+   "spazio_spiegato_2": 0.44138139676960064,
+   "quota_spazi": 0.25610041645063636,
+   "confine": 0.11079796069692467,
+   "interno": 1.2067279114776648,
+   "confine_su_interno": 0.09181685419147233
+  },
+  "Bibbia: Albanian": {
+   "spazio_spiegato_1": 0.16946359126532795,
+   "spazio_spiegato_2": 0.4058540229100205,
+   "quota_spazi": 0.22523516389765313,
+   "confine": 0.09332126555820715,
+   "interno": 1.0331680293982473,
+   "confine_su_interno": 0.0903253516396173
+  },
+  "Bibbia: Amuzgo": {
+   "spazio_spiegato_1": 0.2670910850280511,
+   "spazio_spiegato_2": 0.515292465820255,
+   "quota_spazi": 0.1480713256553818,
+   "confine": 0.039966502766676015,
+   "interno": 1.3519243659604516,
+   "confine_su_interno": 0.02956267656163035
+  },
+  "Bibbia: Arabic": {
+   "spazio_spiegato_1": 0.14942067195855135,
+   "spazio_spiegato_2": 0.41769600524172834,
+   "quota_spazi": 0.21184535462047688,
+   "confine": 0.07988533813973042,
+   "interno": 0.5516040791664789,
+   "confine_su_interno": 0.1448236899561077
+  },
+  "Bibbia: Armenian": {
+   "spazio_spiegato_1": 0.19125597864919242,
+   "spazio_spiegato_2": 0.44099179946202427,
+   "quota_spazi": 0.1923318470137537,
+   "confine": 0.17271901282699104,
+   "interno": 1.1021198769538332,
+   "confine_su_interno": 0.15671526885475642
+  },
+  "Bibbia: Asháninka": {
+   "spazio_spiegato_1": 0.2394310746106283,
+   "spazio_spiegato_2": 0.4288548509699026,
+   "quota_spazi": 0.09187839950078153,
+   "confine": 0.028020148848776395,
+   "interno": 1.1951671150603467,
+   "confine_su_interno": 0.023444544696464138
+  },
+  "Bibbia: Aukan": {
+   "spazio_spiegato_1": 0.3325355978674517,
+   "spazio_spiegato_2": 0.48502842244818734,
+   "quota_spazi": 0.28455548948189996,
+   "confine": 0.05946709363955662,
+   "interno": 0.9278841382687988,
+   "confine_su_interno": 0.0640889214363632
+  },
+  "Bibbia: Barasana-Eduria": {
+   "spazio_spiegato_1": 0.26595355157150136,
+   "spazio_spiegato_2": 0.4925351098259557,
+   "quota_spazi": 0.14809567101241827,
+   "confine": 0.24082008997550836,
+   "interno": 1.5408937021376685,
+   "confine_su_interno": 0.15628598497185156
+  },
+  "Bibbia: Basque": {
+   "spazio_spiegato_1": 0.20823209889544836,
+   "spazio_spiegato_2": 0.3988395908146838,
+   "quota_spazi": 0.14636162911843703,
+   "confine": 0.06614999423911243,
+   "interno": 0.7894025220352727,
+   "confine_su_interno": 0.08379754610938102
+  },
+  "Bibbia: Bulgarian": {
+   "spazio_spiegato_1": 0.1725309797561151,
+   "spazio_spiegato_2": 0.3602009994216877,
+   "quota_spazi": 0.2117677158820601,
+   "confine": 0.042254381501934904,
+   "interno": 0.97685455738337,
+   "confine_su_interno": 0.04325555036065827
+  },
+  "Bibbia: Cabécar": {
+   "spazio_spiegato_1": 0.22691680437831174,
+   "spazio_spiegato_2": 0.4701265195672212,
+   "quota_spazi": 0.215681165136064,
+   "confine": 0.07890913222437898,
+   "interno": 1.160259537636315,
+   "confine_su_interno": 0.06800989749684191
+  },
+  "Bibbia: Cakchiquel": {
+   "spazio_spiegato_1": 0.17601655263242733,
+   "spazio_spiegato_2": 0.47605695226765254,
+   "quota_spazi": 0.20704738596337036,
+   "confine": 0.13091194898254804,
+   "interno": 1.4031474917866849,
+   "confine_su_interno": 0.09329877988510853
+  },
+  "Bibbia: Camsá": {
+   "spazio_spiegato_1": 0.3132631512499604,
+   "spazio_spiegato_2": 0.5620490406546808,
+   "quota_spazi": 0.12201389663580296,
+   "confine": 0.0951316239267694,
+   "interno": 1.4109374643481827,
+   "confine_su_interno": 0.06742440847349516
+  },
+  "Bibbia: Cebuano": {
+   "spazio_spiegato_1": 0.121715660225436,
+   "spazio_spiegato_2": 0.3880094724218346,
+   "quota_spazi": 0.19469909850343942,
+   "confine": 0.13303147711636285,
+   "interno": 0.9611026617656533,
+   "confine_su_interno": 0.13841547048883324
+  },
+  "Bibbia: Chamorro": {
+   "spazio_spiegato_1": 0.16126986618478667,
+   "spazio_spiegato_2": 0.3703639884928447,
+   "quota_spazi": 0.19098131657063036,
+   "confine": 0.14433697961528863,
+   "interno": 0.9484547828994909,
+   "confine_su_interno": 0.15218119220616996
+  },
+  "Bibbia: Chinantec (Quiotepec)": {
+   "spazio_spiegato_1": 0.4355724723342378,
+   "spazio_spiegato_2": 0.6768046661836198,
+   "quota_spazi": 0.1836317411586938,
+   "confine": 0.13562894489477362,
+   "interno": 1.8720982695732422,
+   "confine_su_interno": 0.07244755635914944
+  },
+  "Bibbia: Chinese (pinyin, una sillaba per parola)": {
+   "spazio_spiegato_1": 1.0,
+   "spazio_spiegato_2": 1.0,
+   "quota_spazi": 0.23649744389701452,
+   "confine": 0.03297295464783101,
+   "interno": 1.3201956379290802,
+   "confine_su_interno": 0.024975809418332807
+  },
+  "Bibbia: Coptic": {
+   "spazio_spiegato_1": 0.12583163855856405,
+   "spazio_spiegato_2": 0.42396131560194616,
+   "quota_spazi": 0.1679269182051971,
+   "confine": 0.15533541383707572,
+   "interno": 0.8972555989496902,
+   "confine_su_interno": 0.17312281363182164
+  },
+  "Bibbia: Haitian Creole": {
+   "spazio_spiegato_1": 0.14485915562822727,
+   "spazio_spiegato_2": 0.42826751660289897,
+   "quota_spazi": 0.2800102403745051,
+   "confine": 0.06294341710997724,
+   "interno": 1.38569012287057,
+   "confine_su_interno": 0.04542387657320153
+  },
+  "Bibbia: Croatian": {
+   "spazio_spiegato_1": 0.18488095567405438,
+   "spazio_spiegato_2": 0.34658608186539663,
+   "quota_spazi": 0.20457991810123116,
+   "confine": 0.038875074954716385,
+   "interno": 0.9634637501580707,
+   "confine_su_interno": 0.04034928656977322
+  },
+  "Bibbia: Czech": {
+   "spazio_spiegato_1": 0.13353292633007563,
+   "spazio_spiegato_2": 0.3594962314418083,
+   "quota_spazi": 0.20096199275552523,
+   "confine": 0.06762812342103822,
+   "interno": 1.1631903634563638,
+   "confine_su_interno": 0.05814020262348505
+  },
+  "Bibbia: Danish": {
+   "spazio_spiegato_1": 0.14139811598375673,
+   "spazio_spiegato_2": 0.45188755417374826,
+   "quota_spazi": 0.22383423476099987,
+   "confine": 0.07092591485293091,
+   "interno": 1.0802141332210136,
+   "confine_su_interno": 0.06565912504906965
+  },
+  "Bibbia: Dinka": {
+   "spazio_spiegato_1": 0.13136723046237486,
+   "spazio_spiegato_2": 0.49592717971025035,
+   "quota_spazi": 0.2671895584501697,
+   "confine": 0.11421728342773659,
+   "interno": 1.0201523468808986,
+   "confine_su_interno": 0.11196100638983414
+  },
+  "Bibbia: Dutch": {
+   "spazio_spiegato_1": 0.22477641144743388,
+   "spazio_spiegato_2": 0.4827986545164299,
+   "quota_spazi": 0.20903010033444816,
+   "confine": 0.0497728230786576,
+   "interno": 0.9039424239979095,
+   "confine_su_interno": 0.055061939518808015
+  },
+  "Bibbia: English": {
+   "spazio_spiegato_1": 0.14556628613211142,
+   "spazio_spiegato_2": 0.4339078894522188,
+   "quota_spazi": 0.22383423476099987,
+   "confine": 0.08371699903849557,
+   "interno": 1.0024515645644652,
+   "confine_su_interno": 0.08351226333301008
+  },
+  "Bibbia: Esperanto": {
+   "spazio_spiegato_1": 0.16060427498851093,
+   "spazio_spiegato_2": 0.4706347367437178,
+   "quota_spazi": 0.20564318473304996,
+   "confine": 0.13064238394109412,
+   "interno": 1.0067694276818875,
+   "confine_su_interno": 0.12976395622372203
+  },
+  "Bibbia: Estonian": {
+   "spazio_spiegato_1": 0.14928310936457256,
+   "spazio_spiegato_2": 0.34156715591504894,
+   "quota_spazi": 0.19220630876021438,
+   "confine": 0.048367570782070504,
+   "interno": 0.8023439779701338,
+   "confine_su_interno": 0.06028283642688588
+  },
+  "Bibbia: Ewe": {
+   "spazio_spiegato_1": 0.35536435524408494,
+   "spazio_spiegato_2": 0.5075325991398691,
+   "quota_spazi": 0.24953759156501829,
+   "confine": 0.06262323386873359,
+   "interno": 1.5203995432748147,
+   "confine_su_interno": 0.0411886692190451
+  },
+  "Bibbia: Farsi (Persian)": {
+   "spazio_spiegato_1": 0.12676795383959405,
+   "spazio_spiegato_2": 0.4341856952680724,
+   "quota_spazi": 0.2539912917271408,
+   "confine": 0.13498536765315414,
+   "interno": 0.6812880908617585,
+   "confine_su_interno": 0.19813258071546752
+  },
+  "Bibbia: Finnish": {
+   "spazio_spiegato_1": 0.20317392222448216,
+   "spazio_spiegato_2": 0.3951843655843187,
+   "quota_spazi": 0.15194514594176223,
+   "confine": 0.018453002483834878,
+   "interno": 0.6884997635309311,
+   "confine_su_interno": 0.026801755732202035
+  },
+  "Bibbia: French": {
+   "spazio_spiegato_1": 0.20155676135569278,
+   "spazio_spiegato_2": 0.43492822586181057,
+   "quota_spazi": 0.21903161207266486,
+   "confine": 0.12460060706320863,
+   "interno": 0.9244829992018664,
+   "confine_su_interno": 0.13477868946295393
+  },
+  "Bibbia: Galela": {
+   "spazio_spiegato_1": 0.28071193862501465,
+   "spazio_spiegato_2": 0.465374057870915,
+   "quota_spazi": 0.20180820148530837,
+   "confine": 0.07801145819387259,
+   "interno": 1.00438236861587,
+   "confine_su_interno": 0.07767107491281379
+  },
+  "Bibbia: German": {
+   "spazio_spiegato_1": 0.1484282230363302,
+   "spazio_spiegato_2": 0.43966659764795135,
+   "quota_spazi": 0.1982521443599288,
+   "confine": 0.07385614941444292,
+   "interno": 1.0474925447433785,
+   "confine_su_interno": 0.07050756569588443
+  },
+  "Bibbia: Greek": {
+   "spazio_spiegato_1": 0.2376844825361495,
+   "spazio_spiegato_2": 0.43954262822993395,
+   "quota_spazi": 0.18514264296034774,
+   "confine": 0.06190198419902391,
+   "interno": 0.9287355077386863,
+   "confine_su_interno": 0.06665189785813698
+  },
+  "Bibbia: Hebrew": {
+   "spazio_spiegato_1": 0.2761214241121459,
+   "spazio_spiegato_2": 0.523792276049135,
+   "quota_spazi": 0.2323279066591816,
+   "confine": 0.07160022218569484,
+   "interno": 0.418646110780176,
+   "confine_su_interno": 0.17102803619090803
+  },
+  "Bibbia: Hungarian": {
+   "spazio_spiegato_1": 0.13437106625029083,
+   "spazio_spiegato_2": 0.37140336675956753,
+   "quota_spazi": 0.17712140841160412,
+   "confine": 0.13686471985535373,
+   "interno": 0.9955211619635644,
+   "confine_su_interno": 0.13748047262541557
+  },
+  "Bibbia: Indonesian": {
+   "spazio_spiegato_1": 0.1326381600727229,
+   "spazio_spiegato_2": 0.3496260748490213,
+   "quota_spazi": 0.16463460525325507,
+   "confine": 0.06061904640264384,
+   "interno": 1.0882237413938505,
+   "confine_su_interno": 0.055704579946950966
+  },
+  "Bibbia: Italian": {
+   "spazio_spiegato_1": 0.27773231673559895,
+   "spazio_spiegato_2": 0.4355228635573276,
+   "quota_spazi": 0.19982643646661186,
+   "confine": 0.07104645918792318,
+   "interno": 0.8264339612383393,
+   "confine_su_interno": 0.08596749712640832
+  },
+  "Bibbia: Jakalteko": {
+   "spazio_spiegato_1": 0.14175677429909328,
+   "spazio_spiegato_2": 0.4559085111405301,
+   "quota_spazi": 0.17955873989340806,
+   "confine": 0.1552006339124416,
+   "interno": 1.2552687473609598,
+   "confine_su_interno": 0.12363936745715279
+  },
+  "Bibbia: K’iche’": {
+   "spazio_spiegato_1": 0.124671335906126,
+   "spazio_spiegato_2": 0.46946125951383555,
+   "quota_spazi": 0.2234113175614062,
+   "confine": 0.16221179718359552,
+   "interno": 1.4479933661818682,
+   "confine_su_interno": 0.11202523504049099
+  },
+  "Bibbia: Kabyle": {
+   "spazio_spiegato_1": 0.17047016251601754,
+   "spazio_spiegato_2": 0.3786702150911825,
+   "quota_spazi": 0.2219074256564837,
+   "confine": 0.1939389226837756,
+   "interno": 0.9096947268662205,
+   "confine_su_interno": 0.21319121344351402
+  },
+  "Bibbia: Latin": {
+   "spazio_spiegato_1": 0.1990088375576039,
+   "spazio_spiegato_2": 0.4255682004511191,
+   "quota_spazi": 0.17091655923340085,
+   "confine": 0.03282033915673477,
+   "interno": 0.6940253765057935,
+   "confine_su_interno": 0.047289825801435655
+  },
+  "Bibbia: Latvian": {
+   "spazio_spiegato_1": 0.15913419910312532,
+   "spazio_spiegato_2": 0.4661329611305083,
+   "quota_spazi": 0.18607632623053413,
+   "confine": 0.06942854993137892,
+   "interno": 1.1144929652646987,
+   "confine_su_interno": 0.06229608628789257
+  },
+  "Bibbia: Lithuanian": {
+   "spazio_spiegato_1": 0.2513718878677653,
+   "spazio_spiegato_2": 0.46009521278133203,
+   "quota_spazi": 0.16950512804901674,
+   "confine": 0.02848694502243223,
+   "interno": 0.8257812169553294,
+   "confine_su_interno": 0.034496964132296595
+  },
+  "Bibbia: Lukpa": {
+   "spazio_spiegato_1": 0.346787605501366,
+   "spazio_spiegato_2": 0.49632799271515216,
+   "quota_spazi": 0.24983480310978048,
+   "confine": 0.07870812293785753,
+   "interno": 1.2471885615912806,
+   "confine_su_interno": 0.063108438741159
+  },
+  "Bibbia: Malagasy": {
+   "spazio_spiegato_1": 0.45066893184198553,
+   "spazio_spiegato_2": 0.5947875393646094,
+   "quota_spazi": 0.19228233639520062,
+   "confine": 0.16229159621919428,
+   "interno": 1.0002879185692084,
+   "confine_su_interno": 0.162244882904647
+  },
+  "Bibbia: Mam": {
+   "spazio_spiegato_1": 0.14664758736296313,
+   "spazio_spiegato_2": 0.42904053930231445,
+   "quota_spazi": 0.19377515122370986,
+   "confine": 0.10977011017708697,
+   "interno": 1.1718785497248394,
+   "confine_su_interno": 0.09367021028148464
+  },
+  "Bibbia: Manx": {
+   "spazio_spiegato_1": 0.10329861726673317,
+   "spazio_spiegato_2": 0.44864046677393843,
+   "quota_spazi": 0.23256432064639593,
+   "confine": 0.1208977506131017,
+   "interno": 0.8156610513702995,
+   "confine_su_interno": 0.1482205757035905
+  },
+  "Bibbia: Maori": {
+   "spazio_spiegato_1": 0.3486982592570381,
+   "spazio_spiegato_2": 0.47501348751175154,
+   "quota_spazi": 0.2721714168910692,
+   "confine": 0.07623702395829515,
+   "interno": 0.8706264371991921,
+   "confine_su_interno": 0.08756571211362464
+  },
+  "Bibbia: Nahuatl (Tetelcingo)": {
+   "spazio_spiegato_1": 0.21859689049130715,
+   "spazio_spiegato_2": 0.4308366504594193,
+   "quota_spazi": 0.13325820109043282,
+   "confine": 0.06520441186037793,
+   "interno": 1.3806572395117636,
+   "confine_su_interno": 0.047227081417713715
+  },
+  "Bibbia: Norwegian": {
+   "spazio_spiegato_1": 0.1389281931499119,
+   "spazio_spiegato_2": 0.43467717397129035,
+   "quota_spazi": 0.23568751491084278,
+   "confine": 0.0576077055107195,
+   "interno": 1.013610826786726,
+   "confine_su_interno": 0.05683414579670895
+  },
+  "Bibbia: Paite (Chin)": {
+   "spazio_spiegato_1": 0.09419176253331907,
+   "spazio_spiegato_2": 0.3615605063329981,
+   "quota_spazi": 0.2427396087631971,
+   "confine": 0.1333144640327122,
+   "interno": 0.9299801505772711,
+   "confine_su_interno": 0.14335194568395815
+  },
+  "Bibbia: Polish": {
+   "spazio_spiegato_1": 0.14886065197641718,
+   "spazio_spiegato_2": 0.3782405703749109,
+   "quota_spazi": 0.18215938425667075,
+   "confine": 0.04300923339233087,
+   "interno": 1.291790843869193,
+   "confine_su_interno": 0.03329427019586926
+  },
+  "Bibbia: Portuguese": {
+   "spazio_spiegato_1": 0.22453508001582612,
+   "spazio_spiegato_2": 0.42245969917078463,
+   "quota_spazi": 0.20915287111402503,
+   "confine": 0.04054551902826749,
+   "interno": 1.001991236421854,
+   "confine_su_interno": 0.0404649437584474
+  },
+  "Bibbia: Potawatomi": {
+   "spazio_spiegato_1": 0.31110959883361144,
+   "spazio_spiegato_2": 0.4364182306811,
+   "quota_spazi": 0.19582704555336727,
+   "confine": 0.11361765408088242,
+   "interno": 0.755816376564197,
+   "confine_su_interno": 0.1503244142411514
+  },
+  "Bibbia: Q’eqchi’": {
+   "spazio_spiegato_1": 0.09763055421145883,
+   "spazio_spiegato_2": 0.43841897664912854,
+   "quota_spazi": 0.2519352742289752,
+   "confine": 0.39558705241122105,
+   "interno": 1.407518412905076,
+   "confine_su_interno": 0.28105284363189337
+  },
+  "Bibbia: Quichua": {
+   "spazio_spiegato_1": 0.23277602876844983,
+   "spazio_spiegato_2": 0.37208433435298727,
+   "quota_spazi": 0.12617107355619092,
+   "confine": 0.024621320786615185,
+   "interno": 1.0627536951766041,
+   "confine_su_interno": 0.02316747605617472
+  },
+  "Bibbia: Romani": {
+   "spazio_spiegato_1": 0.15015515685040826,
+   "spazio_spiegato_2": 0.4118100868415676,
+   "quota_spazi": 0.20662969260248834,
+   "confine": 0.09299764561454822,
+   "interno": 1.1092120303174875,
+   "confine_su_interno": 0.08384118011046968
+  },
+  "Bibbia: Romanian": {
+   "spazio_spiegato_1": 0.151432991461935,
+   "spazio_spiegato_2": 0.3735382401318653,
+   "quota_spazi": 0.22603144143479223,
+   "confine": 0.060996643187594124,
+   "interno": 0.872315913778527,
+   "confine_su_interno": 0.0699249460248648
+  },
+  "Bibbia: Russian": {
+   "spazio_spiegato_1": 0.1397359259169556,
+   "spazio_spiegato_2": 0.3487519517131803,
+   "quota_spazi": 0.19131657035764485,
+   "confine": 0.045895976177304475,
+   "interno": 0.9437390617489969,
+   "confine_su_interno": 0.048632061591524195
+  },
+  "Bibbia: Serbian": {
+   "spazio_spiegato_1": 0.19498057160378013,
+   "spazio_spiegato_2": 0.3644106726906201,
+   "quota_spazi": 0.21684486298944983,
+   "confine": 0.037435299054577875,
+   "interno": 0.983870505222411,
+   "confine_su_interno": 0.03804901036861081
+  },
+  "Bibbia: Shona": {
+   "spazio_spiegato_1": 0.29489319782929646,
+   "spazio_spiegato_2": 0.4614156225725039,
+   "quota_spazi": 0.12587392467704347,
+   "confine": 0.04217510332189924,
+   "interno": 1.1995568833403611,
+   "confine_su_interno": 0.03515890234772011
+  },
+  "Bibbia: Shuar (Jivaro)": {
+   "spazio_spiegato_1": 0.06686758777690105,
+   "spazio_spiegato_2": 0.286597588450319,
+   "quota_spazi": 0.12821747358196708,
+   "confine": 0.0633349464236744,
+   "interno": 0.7737459400175144,
+   "confine_su_interno": 0.08185496446319417
+  },
+  "Bibbia: Slovak": {
+   "spazio_spiegato_1": 0.15725212925358067,
+   "spazio_spiegato_2": 0.37702342751789986,
+   "quota_spazi": 0.2023575898137319,
+   "confine": 0.08454043610645101,
+   "interno": 1.1050914351752237,
+   "confine_su_interno": 0.07650085179878917
+  },
+  "Bibbia: Slovene": {
+   "spazio_spiegato_1": 0.10188962363652132,
+   "spazio_spiegato_2": 0.3419002995278405,
+   "quota_spazi": 0.20958227259040269,
+   "confine": 0.04465445139725084,
+   "interno": 0.9617695591302526,
+   "confine_su_interno": 0.04642947052476141
+  },
+  "Bibbia: Somali": {
+   "spazio_spiegato_1": 0.12305104677088152,
+   "spazio_spiegato_2": 0.32060087187752895,
+   "quota_spazi": 0.16923068421692472,
+   "confine": 0.09116360887448441,
+   "interno": 0.8935043492574097,
+   "confine_su_interno": 0.10202928385323515
+  },
+  "Bibbia: Spanish": {
+   "spazio_spiegato_1": 0.20319023825565563,
+   "spazio_spiegato_2": 0.4313822632291624,
+   "quota_spazi": 0.20917144203645902,
+   "confine": 0.0669180798718525,
+   "interno": 1.0233595461915383,
+   "confine_su_interno": 0.0653905854700726
+  },
+  "Bibbia: Swahili": {
+   "spazio_spiegato_1": 0.2738677396762923,
+   "spazio_spiegato_2": 0.4408222935308851,
+   "quota_spazi": 0.16051511593777518,
+   "confine": 0.05279164635861466,
+   "interno": 0.9939483676705629,
+   "confine_su_interno": 0.053113067112669256
+  },
+  "Bibbia: Swedish": {
+   "spazio_spiegato_1": 0.11368754785657154,
+   "spazio_spiegato_2": 0.4565506261189771,
+   "quota_spazi": 0.21111517064999344,
+   "confine": 0.0569422077920132,
+   "interno": 1.1944431006738965,
+   "confine_su_interno": 0.04767259969092442
+  },
+  "Bibbia: Syriac": {
+   "spazio_spiegato_1": 0.15736374682337573,
+   "spazio_spiegato_2": 0.47331132647874496,
+   "quota_spazi": 0.2192746930154298,
+   "confine": 0.0584460616828963,
+   "interno": 0.45577812612296675,
+   "confine_su_interno": 0.12823358194054235
+  },
+  "Bibbia: Tachelhit": {
+   "spazio_spiegato_1": 0.12446638079517591,
+   "spazio_spiegato_2": 0.3240352855302121,
+   "quota_spazi": 0.24701764008420782,
+   "confine": 0.08458518952946789,
+   "interno": 0.7673102005403027,
+   "confine_su_interno": 0.11023597688380408
+  },
+  "Bibbia: Tagalog": {
+   "spazio_spiegato_1": 0.14107120814459906,
+   "spazio_spiegato_2": 0.38568518180140643,
+   "quota_spazi": 0.1927579652311837,
+   "confine": 0.22492322367819356,
+   "interno": 0.9792335619657218,
+   "confine_su_interno": 0.2296931318680303
+  },
+  "Bibbia: Tamajaq (Tuareg)": {
+   "spazio_spiegato_1": 0.15184965730654498,
+   "spazio_spiegato_2": 0.33889406507744546,
+   "quota_spazi": 0.21482635016168972,
+   "confine": 0.09591231006666892,
+   "interno": 1.0449841280318326,
+   "confine_su_interno": 0.09178350894890072
+  },
+  "Bibbia: Turkish": {
+   "spazio_spiegato_1": 0.1171673358910893,
+   "spazio_spiegato_2": 0.27257724307210895,
+   "quota_spazi": 0.14583125002976147,
+   "confine": 0.06532790739667327,
+   "interno": 1.0048678918811946,
+   "confine_su_interno": 0.0650114387418371
+  },
+  "Bibbia: Ukranian": {
+   "spazio_spiegato_1": 0.16278048844429993,
+   "spazio_spiegato_2": 0.3709483680999769,
+   "quota_spazi": 0.2050044515252331,
+   "confine": 0.10482064493397551,
+   "interno": 1.118478090925083,
+   "confine_su_interno": 0.09371720893279126
+  },
+  "Bibbia: Uma": {
+   "spazio_spiegato_1": 0.30302417941025594,
+   "spazio_spiegato_2": 0.4766118532061916,
+   "quota_spazi": 0.23284546664132294,
+   "confine": 0.07074478836394764,
+   "interno": 0.8928350586958498,
+   "confine_su_interno": 0.0792361228145358
+  },
+  "Bibbia: Uspanteco": {
+   "spazio_spiegato_1": 0.16736602296279313,
+   "spazio_spiegato_2": 0.4513248477801597,
+   "quota_spazi": 0.1801385817138017,
+   "confine": 0.185691110509066,
+   "interno": 1.2855921497323646,
+   "confine_su_interno": 0.14444014032578162
+  },
+  "Bibbia: Vietnamese": {
+   "spazio_spiegato_1": 0.2905887206556784,
+   "spazio_spiegato_2": 0.7565856127984856,
+   "quota_spazi": 0.2814797794117647,
+   "confine": 0.10436476078003239,
+   "interno": 2.390359091823407,
+   "confine_su_interno": 0.04366070400762304
+  },
+  "Bibbia: Wolof": {
+   "spazio_spiegato_1": 0.11707442244602195,
+   "spazio_spiegato_2": 0.4178965884334982,
+   "quota_spazi": 0.24661582689783462,
+   "confine": 0.0643480873880243,
+   "interno": 1.0803247234971218,
+   "confine_su_interno": 0.059563653398325415
+  },
+  "Bibbia: Xhosa": {
+   "spazio_spiegato_1": 0.2995545395662964,
+   "spazio_spiegato_2": 0.4430567819973109,
+   "quota_spazi": 0.13137912691330908,
+   "confine": 0.025925963778662187,
+   "interno": 1.2077654725371234,
+   "confine_su_interno": 0.02146605807847789
+  },
+  "Bibbia: Zarma": {
+   "spazio_spiegato_1": 0.2500985827003033,
+   "spazio_spiegato_2": 0.4380864780602679,
+   "quota_spazi": 0.269394181965324,
+   "confine": 0.12550967848067315,
+   "interno": 1.0521220929820743,
+   "confine_su_interno": 0.11929193324411215
+  },
+  "Bibbia: Zulu": {
+   "spazio_spiegato_1": 0.30904487938944547,
+   "spazio_spiegato_2": 0.4457861717349495,
+   "quota_spazi": 0.1219560759014794,
+   "confine": 0.02485663646822438,
+   "interno": 1.2461619650071452,
+   "confine_su_interno": 0.019946553631238345
+  }
+ },
+ "coppie_in_eccesso": [
+  {
+   "fine": "o",
+   "inizio": "r",
+   "osservate": 76,
+   "attese": 19.3,
+   "rapporto": 3.94
+  },
+  {
+   "fine": "s",
+   "inizio": "a",
+   "osservate": 216,
+   "attese": 62.3,
+   "rapporto": 3.47
+  },
+  {
+   "fine": "o",
+   "inizio": "l",
+   "osservate": 147,
+   "attese": 45.1,
+   "rapporto": 3.26
+  },
+  {
+   "fine": "r",
+   "inizio": "a",
+   "osservate": 586,
+   "attese": 252.8,
+   "rapporto": 2.32
+  },
+  {
+   "fine": "o",
+   "inizio": "k",
+   "osservate": 86,
+   "attese": 42.9,
+   "rapporto": 2.0
+  },
+  {
+   "fine": "o",
+   "inizio": "t",
+   "osservate": 35,
+   "attese": 17.6,
+   "rapporto": 1.98
+  },
+  {
+   "fine": "d",
+   "inizio": "y",
+   "osservate": 33,
+   "attese": 17.6,
+   "rapporto": 1.88
+  },
+  {
+   "fine": "l",
+   "inizio": "k",
+   "osservate": 276,
+   "attese": 147.6,
+   "rapporto": 1.87
+  },
+  {
+   "fine": "y",
+   "inizio": "q",
+   "osservate": 2820,
+   "attese": 1863.8,
+   "rapporto": 1.51
+  },
+  {
+   "fine": "o",
+   "inizio": "s",
+   "osservate": 32,
+   "attese": 22.1,
+   "rapporto": 1.45
+  },
+  {
+   "fine": "n",
+   "inizio": "cth",
+   "osservate": 76,
+   "attese": 52.4,
+   "rapporto": 1.45
+  },
+  {
+   "fine": "d",
+   "inizio": "a",
+   "osservate": 34,
+   "attese": 23.6,
+   "rapporto": 1.44
+  },
+  {
+   "fine": "y",
+   "inizio": "p",
+   "osservate": 82,
+   "attese": 57.8,
+   "rapporto": 1.42
+  },
+  {
+   "fine": "y",
+   "inizio": "t",
+   "osservate": 275,
+   "attese": 197.3,
+   "rapporto": 1.39
+  },
+  {
+   "fine": "l",
+   "inizio": "d",
+   "osservate": 414,
+   "attese": 297.6,
+   "rapporto": 1.39
+  }
+ ],
+ "coppie_in_difetto": [
+  {
+   "fine": "y",
+   "inizio": "a",
+   "osservate": 73,
+   "attese": 441.2,
+   "rapporto": 0.17
+  },
+  {
+   "fine": "n",
+   "inizio": "l",
+   "osservate": 30,
+   "attese": 149.2,
+   "rapporto": 0.2
+  },
+  {
+   "fine": "r",
+   "inizio": "k",
+   "osservate": 33,
+   "attese": 115.0,
+   "rapporto": 0.29
+  },
+  {
+   "fine": "r",
+   "inizio": "l",
+   "osservate": 36,
+   "attese": 116.8,
+   "rapporto": 0.31
+  },
+  {
+   "fine": "r",
+   "inizio": "q",
+   "osservate": 200,
+   "attese": 478.2,
+   "rapporto": 0.42
+  },
+  {
+   "fine": "o",
+   "inizio": "o",
+   "osservate": 53,
+   "attese": 121.3,
+   "rapporto": 0.44
+  },
+  {
+   "fine": "o",
+   "inizio": "ch",
+   "osservate": 64,
+   "attese": 141.9,
+   "rapporto": 0.45
+  },
+  {
+   "fine": "r",
+   "inizio": "d",
+   "osservate": 126,
+   "attese": 230.0,
+   "rapporto": 0.55
+  },
+  {
+   "fine": "n",
+   "inizio": "q",
+   "osservate": 310,
+   "attese": 555.8,
+   "rapporto": 0.56
+  },
+  {
+   "fine": "y",
+   "inizio": "sh",
+   "osservate": 562,
+   "attese": 988.8,
+   "rapporto": 0.57
+  },
+  {
+   "fine": "n",
+   "inizio": "s",
+   "osservate": 43,
+   "attese": 75.5,
+   "rapporto": 0.57
+  },
+  {
+   "fine": "n",
+   "inizio": "a",
+   "osservate": 124,
+   "attese": 213.8,
+   "rapporto": 0.58
+  },
+  {
+   "fine": "l",
+   "inizio": "q",
+   "osservate": 341,
+   "attese": 581.5,
+   "rapporto": 0.59
+  },
+  {
+   "fine": "l",
+   "inizio": "a",
+   "osservate": 114,
+   "attese": 184.7,
+   "rapporto": 0.62
+  },
+  {
+   "fine": "o",
+   "inizio": "q",
+   "osservate": 61,
+   "attese": 94.1,
+   "rapporto": 0.65
+  }
+ ]
+}

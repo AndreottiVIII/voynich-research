@@ -1,0 +1,5 @@
+# testi di confronto e immagini: si rigenerano con prepara.py
+dati/cache/
+__pycache__/
+*.pyc
+*.class
