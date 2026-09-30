@@ -31,6 +31,8 @@ public class Composizione {
     private static boolean caricato = false;
     private static double quota = 0.0, lambda = 0.0;
     private static boolean giunture = false;
+    private static boolean nuove = false;
+    private static final java.util.Set<String> scritte = new java.util.HashSet<>();
     private static Random rnd = null;
     private static final Map<String, Map<String, Integer>> globale = new HashMap<>();
     private static Map<String, Map<String, Integer>> pagina = new HashMap<>();
@@ -76,6 +78,7 @@ public class Composizione {
         quota = Double.parseDouble(System.getProperty("composizione.quota", "0"));
         lambda = Double.parseDouble(System.getProperty("composizione.pagina", "0"));
         giunture = "1".equals(System.getProperty("composizione.giunture", "0"));
+        nuove = "1".equals(System.getProperty("composizione.nuove", "0"));
         String file = System.getProperty("composizione.file");
         if (file == null || quota <= 0.0) {
             quota = 0.0;
@@ -112,6 +115,7 @@ public class Composizione {
         }
         ultimaRigaDellaPagina = linesInPage;
         conta(pagina, parola);
+        scritte.add(parola);
     }
 
     private static String pesca(String ctx) {
@@ -161,6 +165,10 @@ public class Composizione {
                 b = c;
             }
             if (w.length() == 0) {
+                continue;
+            }
+            // con -Dcomposizione.nuove=1 la forma composta deve essere mai scritta prima (esperimento 50)
+            if (nuove && scritte.contains(w.toString())) {
                 continue;
             }
             GlyphGroup g = new GlyphGroup(w.toString(), GlyphGroup.GENERATE_TYPE.INITIAL);
