@@ -1,0 +1,18 @@
+c 0.20, lambda 0.70, tau 1.5   rip 1.37 somigl 2.0%/1.7% h2 2.77 legame 0.380 uniche 0.82 tipi 0.799 | bande 1/7 ripetizione,somiglianza,h2,legame,uniche,tipi  | V1 V5 V6
+c 0.20, lambda 0.70, tau 4.0   rip 1.41 somigl 2.1%/1.8% h2 2.76 legame 0.384 uniche 0.82 tipi 0.796 | bande 1/7 ripetizione,somiglianza,h2,legame,uniche,tipi  | V1 V5 V6
+c 0.20, lambda 0.85, tau 1.5   rip 1.35 somigl 3.9%/3.5% h2 2.73 legame 0.397 uniche 0.82 tipi 0.800 | bande 2/7 ripetizione,h2,legame,uniche,tipi  | V1 V5
+c 0.20, lambda 0.85, tau 4.0   rip 1.40 somigl 4.0%/3.5% h2 2.73 legame 0.397 uniche 0.82 tipi 0.799 | bande 2/7 ripetizione,h2,legame,uniche,tipi  | V1 V5
+c 0.20, lambda 0.95, tau 1.5   rip 1.37 somigl 9.2%/8.4% h2 2.58 legame 0.400 uniche 0.82 tipi 0.798 | bande 1/7 ripetizione,somiglianza,h2,legame,uniche,tipi  | V1 V5
+c 0.20, lambda 0.95, tau 4.0   rip 1.41 somigl 10.3%/9.7% h2 2.59 legame 0.382 uniche 0.82 tipi 0.801 | bande 1/7 ripetizione,somiglianza,h2,legame,uniche,tipi  | V1 V5
+c 0.35, lambda 0.70, tau 1.5   rip 1.28 somigl 2.7%/2.4% h2 2.73 legame 0.364 uniche 0.71 tipi 0.650 | bande 2/7 ripetizione,somiglianza,h2,legame,tipi  | V1 V5 V6
+c 0.35, lambda 0.70, tau 4.0   rip 1.32 somigl 2.7%/2.4% h2 2.75 legame 0.363 uniche 0.71 tipi 0.648 | bande 2/7 ripetizione,somiglianza,h2,legame,tipi  | V1 V5 V6
+c 0.35, lambda 0.85, tau 1.5   rip 1.29 somigl 5.1%/4.5% h2 2.71 legame 0.383 uniche 0.71 tipi 0.650 | bande 2/7 ripetizione,somiglianza,h2,legame,tipi  | V1 V5 V6
+c 0.35, lambda 0.85, tau 4.0   rip 1.35 somigl 5.0%/4.6% h2 2.69 legame 0.384 uniche 0.72 tipi 0.648 | bande 2/7 ripetizione,somiglianza,h2,legame,tipi  | V1 V5 V6
+c 0.35, lambda 0.95, tau 1.5   rip 1.31 somigl 10.6%/9.9% h2 2.55 legame 0.373 uniche 0.71 tipi 0.647 | bande 2/7 ripetizione,somiglianza,h2,legame,tipi  | V1 V5 V6
+c 0.35, lambda 0.95, tau 4.0   rip 1.30 somigl 10.5%/9.7% h2 2.54 legame 0.380 uniche 0.72 tipi 0.650 | bande 2/7 ripetizione,somiglianza,h2,legame,tipi  | V1 V5
+c 0.50, lambda 0.70, tau 1.5   rip 1.21 somigl 3.8%/3.5% h2 2.71 legame 0.338 uniche 0.62 tipi 0.496 | bande 3/7 ripetizione,h2,legame,tipi  | V1 V5 V6
+c 0.50, lambda 0.70, tau 4.0   rip 1.21 somigl 3.9%/3.5% h2 2.69 legame 0.348 uniche 0.62 tipi 0.498 | bande 3/7 ripetizione,h2,legame,tipi  | V1 V5 V6
+c 0.50, lambda 0.85, tau 1.5   rip 1.22 somigl 6.5%/6.0% h2 2.66 legame 0.360 uniche 0.62 tipi 0.498 | bande 2/7 ripetizione,somiglianza,h2,legame,tipi  | V1 V5 V6
+c 0.50, lambda 0.85, tau 4.0   rip 1.21 somigl 6.8%/6.2% h2 2.65 legame 0.365 uniche 0.62 tipi 0.498 | bande 2/7 ripetizione,somiglianza,h2,legame,tipi  | V1 V5 V6
+c 0.50, lambda 0.95, tau 1.5   rip 1.21 somigl 11.6%/11.0% h2 2.46 legame 0.352 uniche 0.62 tipi 0.498 | bande 2/7 ripetizione,somiglianza,h2,legame,tipi  | V1 V5 V6
+c 0.50, lambda 0.95, tau 4.0   rip 1.26 somigl 12.0%/11.1% h2 2.50 legame 0.358 uniche 0.62 tipi 0.498 | bande 2/7 ripetizione,somiglianza,h2,legame,tipi  | V1 V5 V6
