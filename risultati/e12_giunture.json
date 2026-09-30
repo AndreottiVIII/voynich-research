@@ -643,33 +643,33 @@
   ],
   "originale": {
    "parole": 34863,
-   "h2": 2.2361640232559865,
+   "h2": 2.2361640232559385,
    "lung_media": 4.460746349998566,
    "tipi_su_parole": 0.20976666666666666,
    "hapax": 0.679485142221516,
    "identiche_immediate": 0.009371034392997754,
    "identiche_vs_riga": 1.008508949494745,
-   "somiglianza_riga": 0.03845463938289839,
-   "somiglianza_riga_sotto": 0.039866274671841784,
-   "somiglianza_6_righe": 0.03353358262726869,
-   "im_confine": 0.2108285135103225,
-   "im_confine_mescolata": 0.022684724755489327,
-   "im_confine_eccesso": 0.18814378875483317
+   "somiglianza_riga": 0.038454639382674016,
+   "somiglianza_riga_sotto": 0.03986627467161785,
+   "somiglianza_6_righe": 0.0335335826270432,
+   "im_confine": 0.2108285135103536,
+   "im_confine_mescolata": 0.02268472475552432,
+   "im_confine_eccesso": 0.18814378875482926
   },
   "risegmentato": {
    "parole": 30835,
-   "h2": 2.2375365643737926,
+   "h2": 2.2375365643738,
    "lung_media": 5.043457110426464,
    "tipi_su_parole": 0.27586666666666665,
    "hapax": 0.7384001933301112,
    "identiche_immediate": 0.00891218872870249,
    "identiche_vs_riga": 1.112715221095483,
-   "somiglianza_riga": 0.04556302093136222,
-   "somiglianza_riga_sotto": 0.045137291211584385,
-   "somiglianza_6_righe": 0.03914192820582496,
-   "im_confine": 0.13895422418149384,
-   "im_confine_mescolata": 0.022355525376779185,
-   "im_confine_eccesso": 0.11659869880471466
+   "somiglianza_riga": 0.04556302093113873,
+   "somiglianza_riga_sotto": 0.045137291211360675,
+   "somiglianza_6_righe": 0.03914192820559992,
+   "im_confine": 0.13895422418147696,
+   "im_confine_mescolata": 0.022355525376766217,
+   "im_confine_eccesso": 0.11659869880471074
   }
  }
 }
