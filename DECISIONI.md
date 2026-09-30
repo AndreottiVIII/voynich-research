@@ -103,3 +103,23 @@ riassunte nel `DOSSIER_WHITE_PAPER.md`, sezione 3.2; qui cominciano quelle della
 - **Esclusioni.** Si scartano la prima e l'ultima parola di ogni riga e le righe che aprono un
   paragrafo, perché hanno statistiche proprie (i gallows a inizio paragrafo, gli effetti di inizio
   e fine riga). Nei controlli si escludono le stesse posizioni.
+
+## D-007 — Deviazione dalla preregistrazione di e36: il controllo positivo (30/09/2026)
+
+- **Contesto.** Una prova del codice di e36 fatta prima della corsa ufficiale (i numeri sono nel
+  quaderno) ha mostrato un difetto del controllo positivo così come l'avevo preregistrato.
+  - Dentro ogni categoria le parole erano numerate nell'ordine in cui compaiono nel testo.
+  - Così le parole viste per la prima volta sulla stessa pagina ricevono numeri vicini, e la prima
+    cifra del numero (il secondo segno) porta informazione sulla pagina: quota 0,089 al secondo
+    segno contro 0,051 al primo.
+  - Per il criterio preregistrato ("quota_primo la più alta") il controllo fallisce, ma per una
+    ragione che non riguarda il metodo.
+- **Scelta.**
+  - Nella corsa ufficiale si riportano **due** versioni del controllo: quella preregistrata
+    (numerazione per prima comparsa) e una corretta, in cui la numerazione dentro la categoria
+    segue l'ordine alfabetico della parola latina e non ha legami con la pagina.
+  - Il criterio di validità si applica alla versione corretta; l'esito della preregistrata si
+    riporta com'è.
+  - Nella prova ho visto anche il profilo del Voynich; le soglie per il Voynich **non** cambiano.
+- **Motivo.** Correggere un controllo difettoso è necessario. Farlo in silenzio dopo aver visto i
+  dati no: per questo si dichiara e si riportano entrambe le versioni.
