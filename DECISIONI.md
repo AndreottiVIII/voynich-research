@@ -123,3 +123,22 @@ riassunte nel `DOSSIER_WHITE_PAPER.md`, sezione 3.2; qui cominciano quelle della
   - Nella prova ho visto anche il profilo del Voynich; le soglie per il Voynich **non** cambiano.
 - **Motivo.** Correggere un controllo difettoso è necessario. Farlo in silenzio dopo aver visto i
   dati no: per questo si dichiara e si riportano entrambe le versioni.
+
+## D-008 — Il pinyin resta nel profilo dell'e13; la frase sull'isolamento si corregge (30/09/2026)
+
+- **Contesto.** Nella replica l'e13 include una lingua in più, il cinese in pinyin scritto una
+  sillaba per parola. Il vecchio e13 la escludeva solo perché il vecchio `e01_prevedibilita.json`
+  era stato prodotto prima dell'aggiunta del pinyin al corpus: un'esclusione per caso, non una
+  scelta. Il pinyin risulta la lingua più isolata (6,64 dalla sua vicina; tutte le altre ≤ 4,0,
+  la seconda è il q'eqchi' con 4,0).
+- **Opzioni.**
+  1. Escluderlo, perché è la trascrizione di una scrittura logografica.
+  2. Tenerlo, perché il corpus lo include di proposito dall'e19 e rappresenta una lingua isolante.
+- **Scelta.** Tenerlo, e riportare anche la distanza della seconda lingua più isolata.
+- **Motivo.** Una lingua monosillabica e isolante è proprio il tipo di confronto che serve per
+  un testo con parole corte e ripetitive. Escluderla perché scomoda sarebbe una scelta fatta
+  dopo aver visto il risultato.
+- **Formulazione per il white paper** (sostituisce quella del dossier, sezione 4.1):
+  - con tutte e nove le misure il Voynich dista 9,2 dalla lingua più vicina, più di qualsiasi
+    lingua (massimo 6,6, il pinyin);
+  - senza l'omogeneità di pagina dista 4,4: più di ogni lingua salvo il pinyin (6,6).

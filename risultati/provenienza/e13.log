@@ -1,0 +1,25 @@
+con la somiglianza nella riga:
+   9.24  Shona                        Niger-Congo
+   9.25  Xhosa                        Niger-Congo
+   9.28  Zulu                         Niger-Congo
+   11.21  Asháninka                    Arawakan
+   11.53  Hebrew                       Afro-Asiatic
+   11.58  Swahili                      Niger-Congo
+   11.60  Syriac                       Afro-Asiatic
+   11.69  Greek                        Indo-European
+   11.74  Amuzgo                       Oto-Manguean
+   11.86  Achuar-Shiwiar               Jivaroan
+   distanza del Voynich dal vicino piu' vicino 9.24; fra le lingue: mediana 1.30, massimo 6.64
+senza la somiglianza nella riga:
+   4.39  Potawatomi                   Algic
+   4.91  Barasana-Eduria              Tucanoan
+   5.07  Galela                       West Papuan
+   5.25  Ewe                          Niger-Congo
+   5.49  Chinantec (Quiotepec)        Oto-Manguean
+   5.52  Amuzgo                       Oto-Manguean
+   5.56  Swahili                      Niger-Congo
+   5.61  Uma                          Austronesian
+   5.64  Shona                        Niger-Congo
+   5.69  Akawaio                      Carib
+   distanza del Voynich dal vicino piu' vicino 4.39; fra le lingue: mediana 1.19, massimo 6.63
+Voynich in deviazioni standard dalla media delle lingue: {'h1': -1.0, 'h2': -3.3, 'lung_media': -0.3, 'tipi_su_parole': 1.0, 'hapax': 1.8, 'identiche_log': 2.5, 'confine': 1.7, 'spazio_spiegato_1': 3.9, 'somiglianza_riga': 10.7}

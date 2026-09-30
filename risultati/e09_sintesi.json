@@ -2,459 +2,459 @@
  "voynich": {
   "Voynich (Zandbergen-Landini)": {
    "identiche_vs_riga": 1.008508949494745,
-   "somiglianza_riga": 0.03845463938289839
+   "somiglianza_riga": 0.038454639382674016
   },
   "Voynich (Takahashi)": {
    "identiche_vs_riga": 1.0711927372384227,
-   "somiglianza_riga": 0.0400420457669004
+   "somiglianza_riga": 0.040042045766672474
   }
  },
  "naturali": {
   "Bibbia: Achuar-Shiwiar": {
    "identiche_vs_riga": 0.2112676056338028,
-   "somiglianza_riga": 0.005503633384883799
+   "somiglianza_riga": 0.005503633384507656
   },
   "Bibbia: Afrikaans": {
    "identiche_vs_riga": 0.11677387431964374,
-   "somiglianza_riga": -0.0008587189958062513
+   "somiglianza_riga": -0.0008587189960629349
   },
   "Bibbia: Aguaruna": {
    "identiche_vs_riga": 0.08200455580865604,
-   "somiglianza_riga": 0.003747716182777916
+   "somiglianza_riga": 0.0037477161824079896
   },
   "Bibbia: Akawaio": {
    "identiche_vs_riga": 0.20377978635990138,
-   "somiglianza_riga": 0.0018761720843250007
+   "somiglianza_riga": 0.0018761720841065088
   },
   "Bibbia: Albanian": {
    "identiche_vs_riga": 0.0960878517501716,
-   "somiglianza_riga": 0.0024992885410929366
+   "somiglianza_riga": 0.0024992885408776644
   },
   "Bibbia: Amuzgo": {
    "identiche_vs_riga": 0.3170984455958549,
-   "somiglianza_riga": 0.0035368735507884663
+   "somiglianza_riga": 0.0035368735505042492
   },
   "Bibbia: Arabic": {
    "identiche_vs_riga": 0.143646408839779,
-   "somiglianza_riga": 0.005416060609919171
+   "somiglianza_riga": 0.00541606060967903
   },
   "Bibbia: Armenian": {
    "identiche_vs_riga": 0.051130776794493606,
-   "somiglianza_riga": 0.0027675744265920343
+   "somiglianza_riga": 0.0027675744263684354
   },
   "Bibbia: Asháninka": {
    "identiche_vs_riga": 0.1930567315834039,
-   "somiglianza_riga": 0.008911539921167555
+   "somiglianza_riga": 0.00891153992089877
   },
   "Bibbia: Aukan": {
    "identiche_vs_riga": 0.21493820526598603,
-   "somiglianza_riga": 0.0008534751696422926
+   "somiglianza_riga": 0.0008534751694752041
   },
   "Bibbia: Barasana-Eduria": {
    "identiche_vs_riga": 0.234983498349835,
-   "somiglianza_riga": 0.0017532527633051798
+   "somiglianza_riga": 0.0017532527630987893
   },
   "Bibbia: Basque": {
    "identiche_vs_riga": 0.04718693284936479,
-   "somiglianza_riga": 0.0018045888139769373
+   "somiglianza_riga": 0.0018045888136153376
   },
   "Bibbia: Bulgarian": {
    "identiche_vs_riga": 0.053112033195020746,
-   "somiglianza_riga": 0.0010060667551438085
+   "somiglianza_riga": 0.0010060667549351976
   },
   "Bibbia: Cabécar": {
    "identiche_vs_riga": 0.12198581560283688,
-   "somiglianza_riga": 0.0022240418113997906
+   "somiglianza_riga": 0.002224041811137778
   },
   "Bibbia: Cakchiquel": {
    "identiche_vs_riga": 0.01245136186770428,
-   "somiglianza_riga": 0.0016529455017456618
+   "somiglianza_riga": 0.0016529455014658856
   },
   "Bibbia: Camsá": {
    "identiche_vs_riga": 0.027805362462760674,
-   "somiglianza_riga": 0.0012606815773735791
+   "somiglianza_riga": 0.0012606815771550872
   },
   "Bibbia: Cebuano": {
    "identiche_vs_riga": 0.026477541371158392,
-   "somiglianza_riga": -0.0003238614485738811
+   "somiglianza_riga": -0.00032386144889806623
   },
   "Bibbia: Chamorro": {
    "identiche_vs_riga": 0.04217629692113033,
-   "somiglianza_riga": -0.003628300059986378
+   "somiglianza_riga": -0.0036283000602568283
   },
   "Bibbia: Chinantec (Quiotepec)": {
    "identiche_vs_riga": 0.20620842572062084,
-   "somiglianza_riga": -0.00010416120165013254
+   "somiglianza_riga": -0.0001041612018142235
   },
   "Bibbia: Chinese (pinyin, una sillaba per parola)": {
    "identiche_vs_riga": 0.3754266211604096,
-   "somiglianza_riga": -0.00036124808940063424
+   "somiglianza_riga": -0.00036124808961868204
   },
   "Bibbia: Coptic": {
    "identiche_vs_riga": 0.15611448395490027,
-   "somiglianza_riga": 0.00600571275974382
+   "somiglianza_riga": 0.006005712759480919
   },
   "Bibbia: Haitian Creole": {
    "identiche_vs_riga": 0.3653949489521763,
-   "somiglianza_riga": 0.0011981273909508205
+   "somiglianza_riga": 0.0011981273907946122
   },
   "Bibbia: Croatian": {
    "identiche_vs_riga": 0.0804733727810651,
-   "somiglianza_riga": 0.0032164793107538614
+   "somiglianza_riga": 0.003216479310518161
   },
   "Bibbia: Czech": {
    "identiche_vs_riga": 0.04680851063829787,
-   "somiglianza_riga": 0.0031184889978428387
+   "somiglianza_riga": 0.0031184889976836327
   },
   "Bibbia: Danish": {
    "identiche_vs_riga": 0.0291583830351226,
-   "somiglianza_riga": 0.0006236482342265592
+   "somiglianza_riga": 0.0006236482339847527
   },
   "Bibbia: Dinka": {
    "identiche_vs_riga": 0.3744493392070485,
-   "somiglianza_riga": -0.00043832326833936897
+   "somiglianza_riga": -0.00043832326848392
   },
   "Bibbia: Dutch": {
    "identiche_vs_riga": 0.20222446916076847,
-   "somiglianza_riga": -0.00021171577969347766
+   "somiglianza_riga": -0.00021171577991752066
   },
   "Bibbia: English": {
    "identiche_vs_riga": 0.1410842586544742,
-   "somiglianza_riga": -0.0008434568871480419
+   "somiglianza_riga": -0.0008434568873687542
   },
   "Bibbia: Esperanto": {
    "identiche_vs_riga": 0.03336809176225235,
-   "somiglianza_riga": -0.0006255158075065825
+   "somiglianza_riga": -0.0006255158077870249
   },
   "Bibbia: Estonian": {
    "identiche_vs_riga": 0.08798114689709348,
-   "somiglianza_riga": 0.0050864561534952335
+   "somiglianza_riga": 0.005086456153215457
   },
   "Bibbia: Ewe": {
    "identiche_vs_riga": 0.3580683156654888,
-   "somiglianza_riga": -0.0008700440598679027
+   "somiglianza_riga": -0.0008700440600641901
   },
   "Bibbia: Farsi (Persian)": {
    "identiche_vs_riga": 0.11501597444089456,
-   "somiglianza_riga": -0.0010467321640272864
+   "somiglianza_riga": -0.0010467321642515515
   },
   "Bibbia: Finnish": {
    "identiche_vs_riga": 0.04056162246489859,
-   "somiglianza_riga": 0.003135512987314737
+   "somiglianza_riga": 0.0031355129870476173
   },
   "Bibbia: French": {
    "identiche_vs_riga": 0.1811965811965812,
-   "somiglianza_riga": 0.0012597421526646668
+   "somiglianza_riga": 0.0012597421524178642
   },
   "Bibbia: Galela": {
    "identiche_vs_riga": 0.44979919678714864,
-   "somiglianza_riga": -0.0005056430925050037
+   "somiglianza_riga": -0.0005056430927508071
   },
   "Bibbia: German": {
    "identiche_vs_riga": 0.13406079501169135,
-   "somiglianza_riga": 0.0017732042151658023
+   "somiglianza_riga": 0.0017732042149266602
   },
   "Bibbia: Greek": {
    "identiche_vs_riga": 0.0934438583270535,
-   "somiglianza_riga": 0.005425610782050061
+   "somiglianza_riga": 0.005425610781760404
   },
   "Bibbia: Hebrew": {
    "identiche_vs_riga": 0.17857142857142858,
-   "somiglianza_riga": 0.006981855052329178
+   "somiglianza_riga": 0.006981855052074937
   },
   "Bibbia: Hungarian": {
    "identiche_vs_riga": 0.07609988109393578,
-   "somiglianza_riga": 0.0013005000874694028
+   "somiglianza_riga": 0.0013005000872995387
   },
   "Bibbia: Indonesian": {
    "identiche_vs_riga": 1.8591549295774645,
-   "somiglianza_riga": 0.0020507722225195923
+   "somiglianza_riga": 0.0020507722221656532
   },
   "Bibbia: Italian": {
    "identiche_vs_riga": 0.15704387990762125,
-   "somiglianza_riga": 0.0021635833775472957
+   "somiglianza_riga": 0.002163583377289724
   },
   "Bibbia: Jakalteko": {
    "identiche_vs_riga": 0.09829059829059829,
-   "somiglianza_riga": -0.0031863209211178134
+   "somiglianza_riga": -0.0031863209215106103
   },
   "Bibbia: K’iche’": {
    "identiche_vs_riga": 0.06311044327573254,
-   "somiglianza_riga": 0.001990141316152938
+   "somiglianza_riga": 0.001990141315880045
   },
   "Bibbia: Kabyle": {
    "identiche_vs_riga": 0.15870445344129555,
-   "somiglianza_riga": 0.0017323166576871385
+   "somiglianza_riga": 0.0017323166574200188
   },
   "Bibbia: Latin": {
    "identiche_vs_riga": 0.10970464135021098,
-   "somiglianza_riga": 0.003333732299572567
+   "somiglianza_riga": 0.0033337322992404994
   },
   "Bibbia: Latvian": {
    "identiche_vs_riga": 0.04231082180634663,
-   "somiglianza_riga": 0.0032074535101236368
+   "somiglianza_riga": 0.0032074535098920443
   },
   "Bibbia: Lithuanian": {
    "identiche_vs_riga": 0.10355987055016182,
-   "somiglianza_riga": 0.0053803614420777635
+   "somiglianza_riga": 0.005380361441807868
   },
   "Bibbia: Lukpa": {
    "identiche_vs_riga": 0.1898066783831283,
-   "somiglianza_riga": 0.0009107586573564586
+   "somiglianza_riga": 0.0009107586571883708
   },
   "Bibbia: Malagasy": {
    "identiche_vs_riga": 0.0176017601760176,
-   "somiglianza_riga": -0.0037374765787479003
+   "somiglianza_riga": -0.0037374765790636477
   },
   "Bibbia: Mam": {
    "identiche_vs_riga": 0.08232445520581115,
-   "somiglianza_riga": 0.001441436829150211
+   "somiglianza_riga": 0.001441436828866327
   },
   "Bibbia: Manx": {
    "identiche_vs_riga": 0.13960546282245825,
-   "somiglianza_riga": -0.0030168373371175505
+   "somiglianza_riga": -0.0030168373373360424
   },
   "Bibbia: Maori": {
    "identiche_vs_riga": 0.0419833514296055,
-   "somiglianza_riga": -0.0004940192233471308
+   "somiglianza_riga": -0.0004940192235762808
   },
   "Bibbia: Nahuatl (Tetelcingo)": {
    "identiche_vs_riga": 0.1030640668523677,
-   "somiglianza_riga": 0.0011684204984543367
+   "somiglianza_riga": 0.0011684204981433632
   },
   "Bibbia: Norwegian": {
    "identiche_vs_riga": 0.11192538307794804,
-   "somiglianza_riga": 0.0014402420158865503
+   "somiglianza_riga": 0.0014402420156736095
   },
   "Bibbia: Paite (Chin)": {
    "identiche_vs_riga": 0.21699078812691913,
-   "somiglianza_riga": -0.00013127513856048267
+   "somiglianza_riga": -0.00013127513879984676
   },
   "Bibbia: Polish": {
    "identiche_vs_riga": 0.039999999999999994,
-   "somiglianza_riga": 0.0037727633826895035
+   "somiglianza_riga": 0.003772763382508426
   },
   "Bibbia: Portuguese": {
    "identiche_vs_riga": 0.056042031523642725,
-   "somiglianza_riga": 0.004596690088180977
+   "somiglianza_riga": 0.004596690087923738
   },
   "Bibbia: Potawatomi": {
    "identiche_vs_riga": 0.2960812772133527,
-   "somiglianza_riga": -0.0017643412260486269
+   "somiglianza_riga": -0.001764341226287769
   },
   "Bibbia: Q’eqchi’": {
    "identiche_vs_riga": 0.08270676691729321,
-   "somiglianza_riga": 0.002316666125416811
+   "somiglianza_riga": 0.002316666125222966
   },
   "Bibbia: Quichua": {
    "identiche_vs_riga": 0.15765765765765766,
-   "somiglianza_riga": 0.004176511201031685
+   "somiglianza_riga": 0.004176511200671973
   },
   "Bibbia: Romani": {
    "identiche_vs_riga": 0.13737373737373737,
-   "somiglianza_riga": 0.0011720623032356325
+   "somiglianza_riga": 0.0011720623029752852
   },
   "Bibbia: Romanian": {
    "identiche_vs_riga": 0.15614617940199335,
-   "somiglianza_riga": 0.0015514403524047315
+   "somiglianza_riga": 0.0015514403521971198
   },
   "Bibbia: Russian": {
    "identiche_vs_riga": 0.050314465408805034,
-   "somiglianza_riga": 0.003809620390556545
+   "somiglianza_riga": 0.0038096203903443815
   },
   "Bibbia: Serbian": {
    "identiche_vs_riga": 0.04316546762589928,
-   "somiglianza_riga": 0.004434821100499975
+   "somiglianza_riga": 0.004434821100280151
   },
   "Bibbia: Shona": {
    "identiche_vs_riga": 0.31454783748361725,
-   "somiglianza_riga": 0.0138031666009647
+   "somiglianza_riga": 0.013803166600648287
   },
   "Bibbia: Shuar (Jivaro)": {
    "identiche_vs_riga": 0.1994750656167979,
-   "somiglianza_riga": 0.003206483721916009
+   "somiglianza_riga": 0.0032064837215307618
   },
   "Bibbia: Slovak": {
    "identiche_vs_riga": 0.03298350824587706,
-   "somiglianza_riga": 0.004273720259212688
+   "somiglianza_riga": 0.004273720259011626
   },
   "Bibbia: Slovene": {
    "identiche_vs_riga": 0.04505229283990346,
-   "somiglianza_riga": 0.004035235072745613
+   "somiglianza_riga": 0.004035235072501475
   },
   "Bibbia: Somali": {
    "identiche_vs_riga": 0.1157556270096463,
-   "somiglianza_riga": -0.00018378323419998566
+   "somiglianza_riga": -0.00018378323448575706
   },
   "Bibbia: Spanish": {
    "identiche_vs_riga": 0.13579335793357933,
-   "somiglianza_riga": 0.0033237593855900416
+   "somiglianza_riga": 0.0033237593853565617
   },
   "Bibbia: Swahili": {
    "identiche_vs_riga": 0.17105263157894737,
-   "somiglianza_riga": 0.004238053512449436
+   "somiglianza_riga": 0.0042380535121749885
   },
   "Bibbia: Swedish": {
    "identiche_vs_riga": 0.13969335604770017,
-   "somiglianza_riga": 0.00015427062245210177
+   "somiglianza_riga": 0.00015427062226003319
   },
   "Bibbia: Syriac": {
    "identiche_vs_riga": 0.26267281105990786,
-   "somiglianza_riga": 0.007103958233097618
+   "somiglianza_riga": 0.007103958232813845
   },
   "Bibbia: Tachelhit": {
    "identiche_vs_riga": 0.11379310344827585,
-   "somiglianza_riga": -1.5918710852380613e-05
+   "somiglianza_riga": -1.591871109662968e-05
   },
   "Bibbia: Tagalog": {
    "identiche_vs_riga": 0.03663423010875787,
-   "somiglianza_riga": -0.0012883187886900682
+   "somiglianza_riga": -0.0012883187889656256
   },
   "Bibbia: Tamajaq (Tuareg)": {
    "identiche_vs_riga": 0.28057553956834536,
-   "somiglianza_riga": 0.002867517866195657
+   "somiglianza_riga": 0.0028675178658958966
   },
   "Bibbia: Turkish": {
    "identiche_vs_riga": 0.1895424836601307,
-   "somiglianza_riga": 0.0034093854033563353
+   "somiglianza_riga": 0.0034093854031037596
   },
   "Bibbia: Ukranian": {
    "identiche_vs_riga": 0.06976744186046512,
-   "somiglianza_riga": 0.0034065943777017438
+   "somiglianza_riga": 0.0034065943775402063
   },
   "Bibbia: Uma": {
    "identiche_vs_riga": 0.45587213342599026,
-   "somiglianza_riga": 0.003200991337222625
+   "somiglianza_riga": 0.0032009913369497323
   },
   "Bibbia: Uspanteco": {
    "identiche_vs_riga": 0.17894736842105263,
-   "somiglianza_riga": 0.0017860158340837762
+   "somiglianza_riga": 0.0017860158338307563
   },
   "Bibbia: Vietnamese": {
    "identiche_vs_riga": 0.24867724867724866,
-   "somiglianza_riga": -0.00019233576727106794
+   "somiglianza_riga": -0.00019233576741495284
   },
   "Bibbia: Wolof": {
    "identiche_vs_riga": 0.3665338645418326,
-   "somiglianza_riga": 0.0032874329304077854
+   "somiglianza_riga": 0.0032874329302052807
   },
   "Bibbia: Xhosa": {
    "identiche_vs_riga": 0.352,
-   "somiglianza_riga": 0.014681907667850491
+   "somiglianza_riga": 0.014681907667546179
   },
   "Bibbia: Zarma": {
    "identiche_vs_riga": 0.24447031431897553,
-   "somiglianza_riga": -0.0009397760551832501
+   "somiglianza_riga": -0.0009397760554572532
   },
   "Bibbia: Zulu": {
    "identiche_vs_riga": 0.3151515151515151,
-   "somiglianza_riga": 0.014907804963661953
+   "somiglianza_riga": 0.014907804963354088
   },
   "Apicio, ricette di cucina": {
    "identiche_vs_riga": 0.21848739495798317,
-   "somiglianza_riga": 0.00931500487862702
+   "somiglianza_riga": 0.009315004878288624
   },
   "Catone, agricoltura e ricette": {
    "identiche_vs_riga": 0.05893186003683242,
-   "somiglianza_riga": 0.009953288664959703
+   "somiglianza_riga": 0.009953288664661275
   },
   "Columella XII, conserve e ricette": {
    "identiche_vs_riga": 0.019704433497536943,
-   "somiglianza_riga": 0.002379954394461703
+   "somiglianza_riga": 0.0023799543941454004
   },
   "Varrone, agricoltura": {
    "identiche_vs_riga": 0.02391629297458894,
-   "somiglianza_riga": 0.003925463660573114
+   "somiglianza_riga": 0.003925463660282125
   },
   "Isidoro XVII, piante": {
    "identiche_vs_riga": 0.05369127516778524,
-   "somiglianza_riga": 0.0033820414886126526
+   "somiglianza_riga": 0.0033820414882981265
   },
   "Isidoro XVI, pietre e metalli": {
    "identiche_vs_riga": 0.048192771084337345,
-   "somiglianza_riga": 0.005058351323169452
+   "somiglianza_riga": 0.005058351322858146
   },
   "Vegezio, arte militare": {
    "identiche_vs_riga": 0.04010025062656642,
-   "somiglianza_riga": 0.000397075372600475
+   "somiglianza_riga": 0.0003970753722561948
   },
   "Vitruvio, architettura": {
    "identiche_vs_riga": 0.22700587084148727,
-   "somiglianza_riga": 0.003825035495290119
+   "somiglianza_riga": 0.0038250354949792564
   }
  },
  "codifiche": {
   "Vitruvio: cifrario verboso": {
    "identiche_vs_riga": 0.2337662337662338,
-   "somiglianza_riga": 0.004083182652229955
+   "somiglianza_riga": 0.0040831826519078795
   },
   "Vitruvio: codice parola per parola": {
    "identiche_vs_riga": 0.2337662337662338,
-   "somiglianza_riga": 0.0010028645569570838
+   "somiglianza_riga": 0.0010028645567160543
   },
   "Vitruvio: codice con varianti": {
    "identiche_vs_riga": 0.4444444444444444,
-   "somiglianza_riga": 0.001650671163289874
+   "somiglianza_riga": 0.0016506711630087656
   },
   "Vitruvio: codice con stile di pagina (3 regole, forza 0.7)": {
    "identiche_vs_riga": 0.45627376425855515,
-   "somiglianza_riga": 0.04862473724214589
+   "somiglianza_riga": 0.04862473724187999
   },
   "Vitruvio: codice con stile di pagina (6 regole, forza 0.9)": {
    "identiche_vs_riga": 0.5254515599343186,
-   "somiglianza_riga": 0.13200046287352896
+   "somiglianza_riga": 0.13200046287326195
   },
   "Vitruvio: sillabe come parole": {
    "identiche_vs_riga": 0.26626323751891073,
-   "somiglianza_riga": 0.001442241379759679
+   "somiglianza_riga": 0.0014422413795722733
   },
   "Bibbia latina: cifrario verboso": {
    "identiche_vs_riga": 0.10970464135021098,
-   "somiglianza_riga": 0.0031498895349028055
+   "somiglianza_riga": 0.003149889534556194
   },
   "Bibbia latina: codice parola per parola": {
    "identiche_vs_riga": 0.10970464135021098,
-   "somiglianza_riga": 0.000718106880672198
+   "somiglianza_riga": 0.0007181068804595903
   },
   "Bibbia latina: codice con varianti": {
    "identiche_vs_riga": 0.28846153846153844,
-   "somiglianza_riga": 0.0018465400641670682
+   "somiglianza_riga": 0.001846540063892288
   },
   "Bibbia latina: codice con stile di pagina (3 regole, forza 0.7)": {
    "identiche_vs_riga": 0.1890359168241966,
-   "somiglianza_riga": 0.043085441561779514
+   "somiglianza_riga": 0.04308544156154892
   },
   "Bibbia latina: codice con stile di pagina (6 regole, forza 0.9)": {
    "identiche_vs_riga": 0.33872209391839875,
-   "somiglianza_riga": 0.12733291729627005
+   "somiglianza_riga": 0.12733291729602159
   },
   "Bibbia latina: sillabe come parole": {
    "identiche_vs_riga": 0.1907356948228883,
-   "somiglianza_riga": -0.002591911612882747
+   "somiglianza_riga": -0.002591911613063047
   },
   "Bibbia italiana: cifrario verboso": {
    "identiche_vs_riga": 0.15704387990762125,
-   "somiglianza_riga": 0.001973428535226973
+   "somiglianza_riga": 0.001973428534903121
   },
   "Bibbia italiana: codice parola per parola": {
    "identiche_vs_riga": 0.15704387990762125,
-   "somiglianza_riga": -0.0023531727310917017
+   "somiglianza_riga": -0.0023531727313088613
   },
   "Bibbia italiana: codice con varianti": {
    "identiche_vs_riga": 0.46376811594202894,
-   "somiglianza_riga": -0.0016801513741919738
+   "somiglianza_riga": -0.0016801513744699736
   },
   "Bibbia italiana: codice con stile di pagina (3 regole, forza 0.7)": {
    "identiche_vs_riga": 0.31700288184438036,
-   "somiglianza_riga": 0.0478343432437901
+   "somiglianza_riga": 0.047834343243552624
   },
   "Bibbia italiana: codice con stile di pagina (6 regole, forza 0.9)": {
    "identiche_vs_riga": 0.4206268958543984,
-   "somiglianza_riga": 0.1421827976585559
+   "somiglianza_riga": 0.1421827976583001
   },
   "Bibbia italiana: sillabe come parole": {
    "identiche_vs_riga": 0.30120481927710846,
-   "somiglianza_riga": 0.0012233564261975305
+   "somiglianza_riga": 0.0012233564260278884
   }
  }
 }
