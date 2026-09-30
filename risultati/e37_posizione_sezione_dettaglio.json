@@ -1,0 +1,665 @@
+{
+ "paragrafi_primo": {
+  "A": {
+   "parole": 3945,
+   "sezioni": {
+    "T": 64,
+    "H": 2472,
+    "S": 393,
+    "P": 1016
+   },
+   "informazione": 0.06281875034515971,
+   "segni": {
+    "k": {
+     "contributo": 0.010322039874968676,
+     "frequenza": 0.051964512040557666,
+     "sezione_in_eccesso": "H",
+     "quota_in_quella_sezione": 0.7951219512195122,
+     "quota_attesa": 0.626615969581749,
+     "frazione": 0.1643146324664831
+    },
+    "a": {
+     "contributo": 0.008827303938543937,
+     "frequenza": 0.024334600760456272,
+     "sezione_in_eccesso": "S",
+     "quota_in_quella_sezione": 0.3020833333333333,
+     "quota_attesa": 0.09961977186311786,
+     "frazione": 0.14052020917388552
+    },
+    "q": {
+     "contributo": 0.007341128487569225,
+     "frequenza": 0.16045627376425856,
+     "sezione_in_eccesso": "P",
+     "quota_in_quella_sezione": 0.3127962085308057,
+     "quota_attesa": 0.25754119138149556,
+     "frazione": 0.11686205865658184
+    },
+    "d": {
+     "contributo": 0.0066203830276830395,
+     "frequenza": 0.1414448669201521,
+     "sezione_in_eccesso": "H",
+     "quota_in_quella_sezione": 0.7365591397849462,
+     "quota_attesa": 0.626615969581749,
+     "frazione": 0.10538864576749975
+    },
+    "o": {
+     "contributo": 0.0064174884016139,
+     "frequenza": 0.19695817490494297,
+     "sezione_in_eccesso": "P",
+     "quota_in_quella_sezione": 0.3127413127413127,
+     "quota_attesa": 0.25754119138149556,
+     "frazione": 0.10215880396144139
+    },
+    "t": {
+     "contributo": 0.004066365540404734,
+     "frequenza": 0.02053231939163498,
+     "sezione_in_eccesso": "H",
+     "quota_in_quella_sezione": 0.8271604938271605,
+     "quota_attesa": 0.626615969581749,
+     "frazione": 0.06473171653466446
+    },
+    "cth": {
+     "contributo": 0.0030252477813563854,
+     "frequenza": 0.02002534854245881,
+     "sezione_in_eccesso": "H",
+     "quota_in_quella_sezione": 0.7468354430379747,
+     "quota_attesa": 0.626615969581749,
+     "frazione": 0.048158356616998285
+    },
+    "cph": {
+     "contributo": 0.002853602729008524,
+     "frequenza": 0.0032953105196451204,
+     "sezione_in_eccesso": "H",
+     "quota_in_quella_sezione": 0.8461538461538461,
+     "quota_attesa": 0.626615969581749,
+     "frazione": 0.045425970961365976
+    },
+    "y": {
+     "contributo": 0.0023563118342022887,
+     "frequenza": 0.06134347275031685,
+     "sezione_in_eccesso": "H",
+     "quota_in_quella_sezione": 0.6942148760330579,
+     "quota_attesa": 0.626615969581749,
+     "frazione": 0.037509689722502515
+    },
+    "ckh": {
+     "contributo": 0.0016799765374866942,
+     "frequenza": 0.007858048162230671,
+     "sezione_in_eccesso": "H",
+     "quota_in_quella_sezione": 0.8064516129032258,
+     "quota_attesa": 0.626615969581749,
+     "frazione": 0.026743233958905696
+    },
+    "p": {
+     "contributo": 0.0014149635005334077,
+     "frequenza": 0.0020278833967046894,
+     "sezione_in_eccesso": "S",
+     "quota_in_quella_sezione": 0.25,
+     "quota_attesa": 0.09961977186311786,
+     "frazione": 0.02252454072643667
+    },
+    "ch": {
+     "contributo": 0.001304494304994132,
+     "frequenza": 0.20608365019011407,
+     "sezione_in_eccesso": "H",
+     "quota_in_quella_sezione": 0.6482164821648216,
+     "quota_attesa": 0.626615969581749,
+     "frazione": 0.0207660021542381
+    },
+    "sh": {
+     "contributo": 0.001093439427778226,
+     "frequenza": 0.06692015209125475,
+     "sezione_in_eccesso": "P",
+     "quota_in_quella_sezione": 0.2878787878787879,
+     "quota_attesa": 0.25754119138149556,
+     "frazione": 0.017406258828300256
+    },
+    "c": {
+     "contributo": 0.0010791489131166893,
+     "frequenza": 0.0045627376425855515,
+     "sezione_in_eccesso": "H",
+     "quota_in_quella_sezione": 0.7777777777777778,
+     "quota_attesa": 0.626615969581749,
+     "frazione": 0.017178770783997925
+    },
+    "s": {
+     "contributo": 0.0009726887532592197,
+     "frequenza": 0.016983523447401776,
+     "sezione_in_eccesso": "P",
+     "quota_in_quella_sezione": 0.31343283582089554,
+     "quota_attesa": 0.25754119138149556,
+     "frazione": 0.015484051304980583
+    },
+    "r": {
+     "contributo": 0.0008287599516948137,
+     "frequenza": 0.0020278833967046894,
+     "sezione_in_eccesso": "P",
+     "quota_in_quella_sezione": 0.375,
+     "quota_attesa": 0.25754119138149556,
+     "frazione": 0.01319287548926339
+    },
+    "e": {
+     "contributo": 0.000759203498066353,
+     "frequenza": 0.005069708491761723,
+     "sezione_in_eccesso": "P",
+     "quota_in_quella_sezione": 0.45,
+     "quota_attesa": 0.25754119138149556,
+     "frazione": 0.012085619244172865
+    },
+    "i": {
+     "contributo": 0.0005128110699592748,
+     "frequenza": 0.0007604562737642585,
+     "sezione_in_eccesso": "H",
+     "quota_in_quella_sezione": 1.0,
+     "quota_attesa": 0.626615969581749,
+     "frazione": 0.008163344019765074
+    },
+    "f": {
+     "contributo": 0.00048700372483438225,
+     "frequenza": 0.0007604562737642585,
+     "sezione_in_eccesso": "S",
+     "quota_in_quella_sezione": 0.3333333333333333,
+     "quota_attesa": 0.09961977186311786,
+     "frazione": 0.007752521693897508
+    },
+    "l": {
+     "contributo": 0.00034357797812654105,
+     "frequenza": 0.0058301647655259825,
+     "sezione_in_eccesso": "P",
+     "quota_in_quella_sezione": 0.30434782608695654,
+     "quota_attesa": 0.25754119138149556,
+     "frazione": 0.005469353914854091
+    },
+    "cfh": {
+     "contributo": 0.00034187404663951645,
+     "frequenza": 0.0005069708491761723,
+     "sezione_in_eccesso": "H",
+     "quota_in_quella_sezione": 1.0,
+     "quota_attesa": 0.626615969581749,
+     "frazione": 0.005442229346510049
+    },
+    "j": {
+     "contributo": 0.00017093702331975823,
+     "frequenza": 0.00025348542458808617,
+     "sezione_in_eccesso": "H",
+     "quota_in_quella_sezione": 1.0,
+     "quota_attesa": 0.626615969581749,
+     "frazione": 0.0027211146732550244
+    }
+   }
+  },
+  "B": {
+   "parole": 10575,
+   "sezioni": {
+    "H": 1513,
+    "T": 1034,
+    "B": 3102,
+    "C": 197,
+    "S": 4729
+   },
+   "informazione": 0.06726642819462575,
+   "segni": {
+    "y": {
+     "contributo": 0.01440294092467121,
+     "frequenza": 0.032718676122931445,
+     "sezione_in_eccesso": "H",
+     "quota_in_quella_sezione": 0.33236994219653176,
+     "quota_attesa": 0.14307328605200945,
+     "frazione": 0.21411781941206048
+    },
+    "q": {
+     "contributo": 0.009303593326542247,
+     "frequenza": 0.24548463356973996,
+     "sezione_in_eccesso": "B",
+     "quota_in_quella_sezione": 0.3844375963020031,
+     "quota_attesa": 0.29333333333333333,
+     "frazione": 0.13830960816922871
+    },
+    "sh": {
+     "contributo": 0.008618642089248953,
+     "frequenza": 0.08860520094562647,
+     "sezione_in_eccesso": "B",
+     "quota_in_quella_sezione": 0.4535752401280683,
+     "quota_attesa": 0.29333333333333333,
+     "frazione": 0.12812694713493855
+    },
+    "l": {
+     "contributo": 0.008269556875673214,
+     "frequenza": 0.05825059101654846,
+     "sezione_in_eccesso": "S",
+     "quota_in_quella_sezione": 0.6136363636363636,
+     "quota_attesa": 0.44718676122931444,
+     "frazione": 0.12293735668179732
+    },
+    "a": {
+     "contributo": 0.006260638760394224,
+     "frequenza": 0.04226950354609929,
+     "sezione_in_eccesso": "S",
+     "quota_in_quella_sezione": 0.5570469798657718,
+     "quota_attesa": 0.44718676122931444,
+     "frazione": 0.09307226395728883
+    },
+    "r": {
+     "contributo": 0.003391087948653404,
+     "frequenza": 0.010874704491725768,
+     "sezione_in_eccesso": "S",
+     "quota_in_quella_sezione": 0.6086956521739131,
+     "quota_attesa": 0.44718676122931444,
+     "frazione": 0.05041278449989612
+    },
+    "ch": {
+     "contributo": 0.0033099221158201728,
+     "frequenza": 0.16822695035460994,
+     "sezione_in_eccesso": "S",
+     "quota_in_quella_sezione": 0.4974704890387858,
+     "quota_attesa": 0.44718676122931444,
+     "frazione": 0.04920615238025406
+    },
+    "o": {
+     "contributo": 0.0026588320127262466,
+     "frequenza": 0.24378250591016548,
+     "sezione_in_eccesso": "S",
+     "quota_in_quella_sezione": 0.4794414274631497,
+     "quota_attesa": 0.44718676122931444,
+     "frazione": 0.039526879664745954
+    },
+    "d": {
+     "contributo": 0.0023808293656787534,
+     "frequenza": 0.03801418439716312,
+     "sezione_in_eccesso": "H",
+     "quota_in_quella_sezione": 0.21890547263681592,
+     "quota_attesa": 0.14307328605200945,
+     "frazione": 0.03539402090430854
+    },
+    "s": {
+     "contributo": 0.0023790252077916627,
+     "frequenza": 0.010023640661938534,
+     "sezione_in_eccesso": "B",
+     "quota_in_quella_sezione": 0.5377358490566038,
+     "quota_attesa": 0.29333333333333333,
+     "frazione": 0.03536719982973222
+    },
+    "k": {
+     "contributo": 0.0017571544891767106,
+     "frequenza": 0.0341371158392435,
+     "sezione_in_eccesso": "H",
+     "quota_in_quella_sezione": 0.20498614958448755,
+     "quota_attesa": 0.14307328605200945,
+     "frazione": 0.02612230998935511
+    },
+    "t": {
+     "contributo": 0.0006976259552505384,
+     "frequenza": 0.01711583924349882,
+     "sezione_in_eccesso": "H",
+     "quota_in_quella_sezione": 0.19889502762430938,
+     "quota_attesa": 0.14307328605200945,
+     "frazione": 0.010371086647146744
+    },
+    "cth": {
+     "contributo": 0.0006669221339246738,
+     "frequenza": 0.0013238770685579195,
+     "sezione_in_eccesso": "H",
+     "quota_in_quella_sezione": 0.42857142857142855,
+     "quota_attesa": 0.14307328605200945,
+     "frazione": 0.009914635752548513
+    },
+    "c": {
+     "contributo": 0.0005759116915208892,
+     "frequenza": 0.0003782505910165485,
+     "sezione_in_eccesso": "C",
+     "quota_in_quella_sezione": 0.25,
+     "quota_attesa": 0.018628841607565012,
+     "frazione": 0.008561651138285081
+    },
+    "p": {
+     "contributo": 0.0005490451348539557,
+     "frequenza": 0.002364066193853428,
+     "sezione_in_eccesso": "T",
+     "quota_in_quella_sezione": 0.24,
+     "quota_attesa": 0.09777777777777778,
+     "frazione": 0.008162246005769362
+    },
+    "f": {
+     "contributo": 0.0005031925339015534,
+     "frequenza": 0.0010401891252955083,
+     "sezione_in_eccesso": "H",
+     "quota_in_quella_sezione": 0.45454545454545453,
+     "quota_attesa": 0.14307328605200945,
+     "frazione": 0.007480589462036516
+    },
+    "ckh": {
+     "contributo": 0.00048191414757488667,
+     "frequenza": 0.0010401891252955083,
+     "sezione_in_eccesso": "H",
+     "quota_in_quella_sezione": 0.36363636363636365,
+     "quota_attesa": 0.14307328605200945,
+     "frazione": 0.007164259505210197
+    },
+    "e": {
+     "contributo": 0.0003900572399180538,
+     "frequenza": 0.003215130023640662,
+     "sezione_in_eccesso": "H",
+     "quota_in_quella_sezione": 0.2647058823529412,
+     "quota_attesa": 0.14307328605200945,
+     "frazione": 0.005798691121066801
+    },
+    "x": {
+     "contributo": 0.0003798118823290095,
+     "frequenza": 0.00028368794326241134,
+     "sezione_in_eccesso": "H",
+     "quota_in_quella_sezione": 0.6666666666666666,
+     "quota_attesa": 0.14307328605200945,
+     "frazione": 0.005646381003463992
+    },
+    "i": {
+     "contributo": 0.00017596930275091323,
+     "frequenza": 0.0003782505910165485,
+     "sezione_in_eccesso": "B",
+     "quota_in_quella_sezione": 0.5,
+     "quota_attesa": 0.29333333333333333,
+     "frazione": 0.0026160048552269096
+    },
+    "cph": {
+     "contributo": 0.00011375505622447164,
+     "frequenza": 0.00047281323877068556,
+     "sezione_in_eccesso": "S",
+     "quota_in_quella_sezione": 0.6,
+     "quota_attesa": 0.44718676122931444,
+     "frazione": 0.0016911118856398576
+    }
+   }
+  },
+  "None": {
+   "parole": 165,
+   "sezioni": {
+    "H": 14,
+    "A": 88,
+    "C": 63
+   },
+   "informazione": 0.1089852211082953,
+   "segni": {
+    "ckh": {
+     "contributo": 0.017866724745055216,
+     "frequenza": 0.012121212121212121,
+     "sezione_in_eccesso": "H",
+     "quota_in_quella_sezione": 0.5,
+     "quota_attesa": 0.08484848484848485,
+     "frazione": 0.1639371335247519
+    },
+    "s": {
+     "contributo": 0.01648891992015488,
+     "frequenza": 0.01818181818181818,
+     "sezione_in_eccesso": "A",
+     "quota_in_quella_sezione": 1.0,
+     "quota_attesa": 0.5333333333333333,
+     "frazione": 0.15129500818987504
+    },
+    "a": {
+     "contributo": 0.011723481189524038,
+     "frequenza": 0.06666666666666667,
+     "sezione_in_eccesso": "C",
+     "quota_in_quella_sezione": 0.5454545454545454,
+     "quota_attesa": 0.38181818181818183,
+     "frazione": 0.10756945822842137
+    },
+    "d": {
+     "contributo": 0.010533521434127226,
+     "frequenza": 0.07878787878787878,
+     "sezione_in_eccesso": "C",
+     "quota_in_quella_sezione": 0.46153846153846156,
+     "quota_attesa": 0.38181818181818183,
+     "frazione": 0.0966509158490433
+    },
+    "y": {
+     "contributo": 0.009907824097369696,
+     "frequenza": 0.08484848484848485,
+     "sezione_in_eccesso": "H",
+     "quota_in_quella_sezione": 0.21428571428571427,
+     "quota_attesa": 0.08484848484848485,
+     "frazione": 0.09090979489342499
+    },
+    "cth": {
+     "contributo": 0.008418438125732723,
+     "frequenza": 0.006060606060606061,
+     "sezione_in_eccesso": "C",
+     "quota_in_quella_sezione": 1.0,
+     "quota_attesa": 0.38181818181818183,
+     "frazione": 0.07724385049756037
+    },
+    "o": {
+     "contributo": 0.007957518494578493,
+     "frequenza": 0.20606060606060606,
+     "sezione_in_eccesso": "A",
+     "quota_in_quella_sezione": 0.6470588235294118,
+     "quota_attesa": 0.5333333333333333,
+     "frazione": 0.07301465660808587
+    },
+    "sh": {
+     "contributo": 0.005584543177157934,
+     "frequenza": 0.12121212121212122,
+     "sezione_in_eccesso": "C",
+     "quota_in_quella_sezione": 0.5,
+     "quota_attesa": 0.38181818181818183,
+     "frazione": 0.05124128868453406
+    },
+    "e": {
+     "contributo": 0.005496306640051627,
+     "frequenza": 0.006060606060606061,
+     "sezione_in_eccesso": "A",
+     "quota_in_quella_sezione": 1.0,
+     "quota_attesa": 0.5333333333333333,
+     "frazione": 0.05043166939662502
+    },
+    "r": {
+     "contributo": 0.005496306640051627,
+     "frequenza": 0.006060606060606061,
+     "sezione_in_eccesso": "A",
+     "quota_in_quella_sezione": 1.0,
+     "quota_attesa": 0.5333333333333333,
+     "frazione": 0.05043166939662502
+    },
+    "ch": {
+     "contributo": 0.004769358383458981,
+     "frequenza": 0.22424242424242424,
+     "sezione_in_eccesso": "H",
+     "quota_in_quella_sezione": 0.13513513513513514,
+     "quota_attesa": 0.08484848484848485,
+     "frazione": 0.04376151495549855
+    },
+    "k": {
+     "contributo": 0.0035870652891444588,
+     "frequenza": 0.024242424242424242,
+     "sezione_in_eccesso": "C",
+     "quota_in_quella_sezione": 0.5,
+     "quota_attesa": 0.38181818181818183,
+     "frazione": 0.03291331845425263
+    },
+    "q": {
+     "contributo": 0.0011552129718883938,
+     "frequenza": 0.14545454545454545,
+     "sezione_in_eccesso": "A",
+     "quota_in_quella_sezione": 0.5833333333333334,
+     "quota_attesa": 0.5333333333333333,
+     "frazione": 0.010599721321301847
+    }
+   }
+  }
+ },
+ "etichette_primo": {
+  "0": {
+   "parole": 1037,
+   "sezioni": {
+    "H": 8,
+    "C": 191,
+    "T": 23,
+    "A": 135,
+    "Z": 329,
+    "B": 116,
+    "P": 235
+   },
+   "informazione": 0.1719984175009515,
+   "segni": {
+    "d": {
+     "contributo": 0.02941424353621535,
+     "frequenza": 0.09546769527483125,
+     "sezione_in_eccesso": "B",
+     "quota_in_quella_sezione": 0.21212121212121213,
+     "quota_attesa": 0.11186113789778207,
+     "frazione": 0.17101461724816527
+    },
+    "s": {
+     "contributo": 0.02355253457599283,
+     "frequenza": 0.04243008678881389,
+     "sezione_in_eccesso": "P",
+     "quota_in_quella_sezione": 0.5227272727272727,
+     "quota_attesa": 0.2266152362584378,
+     "frazione": 0.13693460043527747
+    },
+    "o": {
+     "contributo": 0.018840256615057255,
+     "frequenza": 0.5853423336547734,
+     "sezione_in_eccesso": "Z",
+     "quota_in_quella_sezione": 0.37891268533772654,
+     "quota_attesa": 0.3172613307618129,
+     "frazione": 0.10953738347594408
+    },
+    "q": {
+     "contributo": 0.01479310097309652,
+     "frequenza": 0.010607521697203472,
+     "sezione_in_eccesso": "T",
+     "quota_in_quella_sezione": 0.36363636363636365,
+     "quota_attesa": 0.022179363548698167,
+     "frazione": 0.08600719232207288
+    },
+    "r": {
+     "contributo": 0.010328966250862326,
+     "frequenza": 0.009643201542912247,
+     "sezione_in_eccesso": "T",
+     "quota_in_quella_sezione": 0.3,
+     "quota_attesa": 0.022179363548698167,
+     "frazione": 0.06005268188473412
+    },
+    "y": {
+     "contributo": 0.010104858358345294,
+     "frequenza": 0.07328833172613308,
+     "sezione_in_eccesso": "A",
+     "quota_in_quella_sezione": 0.2236842105263158,
+     "quota_attesa": 0.13018322082931533,
+     "frazione": 0.058749717033236046
+    },
+    "ch": {
+     "contributo": 0.010059256079640484,
+     "frequenza": 0.0665380906460945,
+     "sezione_in_eccesso": "P",
+     "quota_in_quella_sezione": 0.34782608695652173,
+     "quota_attesa": 0.2266152362584378,
+     "frazione": 0.05848458506651572
+    },
+    "k": {
+     "contributo": 0.007819331174336634,
+     "frequenza": 0.01253616200578592,
+     "sezione_in_eccesso": "P",
+     "quota_in_quella_sezione": 0.46153846153846156,
+     "quota_attesa": 0.2266152362584378,
+     "frazione": 0.045461646031094316
+    },
+    "i": {
+     "contributo": 0.006767791879279871,
+     "frequenza": 0.0009643201542912247,
+     "sezione_in_eccesso": "H",
+     "quota_in_quella_sezione": 1.0,
+     "quota_attesa": 0.007714561234329798,
+     "frazione": 0.03934798922927551
+    },
+    "a": {
+     "contributo": 0.005767362087363061,
+     "frequenza": 0.04725168756027001,
+     "sezione_in_eccesso": "Z",
+     "quota_in_quella_sezione": 0.40816326530612246,
+     "quota_attesa": 0.3172613307618129,
+     "frazione": 0.033531483435486585
+    },
+    "e": {
+     "contributo": 0.005108082623154266,
+     "frequenza": 0.006750241080038573,
+     "sezione_in_eccesso": "Z",
+     "quota_in_quella_sezione": 0.5714285714285714,
+     "quota_attesa": 0.3172613307618129,
+     "frazione": 0.029698428028420716
+    },
+    "cph": {
+     "contributo": 0.0050815476312531796,
+     "frequenza": 0.0028929604628736743,
+     "sezione_in_eccesso": "A",
+     "quota_in_quella_sezione": 0.6666666666666666,
+     "quota_attesa": 0.13018322082931533,
+     "frazione": 0.02954415340027805
+    },
+    "l": {
+     "contributo": 0.004999176411534018,
+     "frequenza": 0.009643201542912247,
+     "sezione_in_eccesso": "B",
+     "quota_in_quella_sezione": 0.4,
+     "quota_attesa": 0.11186113789778207,
+     "frazione": 0.029065246553831595
+    },
+    "f": {
+     "contributo": 0.004967111502250913,
+     "frequenza": 0.0019286403085824494,
+     "sezione_in_eccesso": "T",
+     "quota_in_quella_sezione": 0.5,
+     "quota_attesa": 0.022179363548698167,
+     "frazione": 0.02887882094742782
+    },
+    "c": {
+     "contributo": 0.0033550469512008997,
+     "frequenza": 0.003857280617164899,
+     "sezione_in_eccesso": "C",
+     "quota_in_quella_sezione": 0.5,
+     "quota_attesa": 0.18418514946962392,
+     "frazione": 0.019506266394470402
+    },
+    "cth": {
+     "contributo": 0.002973064430097031,
+     "frequenza": 0.0019286403085824494,
+     "sezione_in_eccesso": "A",
+     "quota_in_quella_sezione": 0.5,
+     "quota_attesa": 0.13018322082931533,
+     "frazione": 0.017285417350311284
+    },
+    "x": {
+     "contributo": 0.0023536850055713376,
+     "frequenza": 0.0009643201542912247,
+     "sezione_in_eccesso": "C",
+     "quota_in_quella_sezione": 1.0,
+     "quota_attesa": 0.18418514946962392,
+     "frazione": 0.013684341052488561
+    },
+    "t": {
+     "contributo": 0.0022371777261080525,
+     "frequenza": 0.007714561234329798,
+     "sezione_in_eccesso": "P",
+     "quota_in_quella_sezione": 0.375,
+     "quota_attesa": 0.2266152362584378,
+     "frazione": 0.013006966916400126
+    },
+    "p": {
+     "contributo": 0.0020652683049645383,
+     "frequenza": 0.0009643201542912247,
+     "sezione_in_eccesso": "P",
+     "quota_in_quella_sezione": 1.0,
+     "quota_attesa": 0.2266152362584378,
+     "frazione": 0.012007484341843514
+    },
+    "sh": {
+     "contributo": 0.001410555384627624,
+     "frequenza": 0.019286403085824494,
+     "sezione_in_eccesso": "Z",
+     "quota_in_quella_sezione": 0.4,
+     "quota_attesa": 0.3172613307618129,
+     "frazione": 0.008200978852725903
+    }
+   }
+  }
+ }
+}
