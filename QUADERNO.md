@@ -262,3 +262,38 @@ cambiate.
 - **Mio giudizio nell'associazione.** Il conteggio [riga, colonna] è ambiguo quando le etichette
   stanno fra un frammento e l'altro. Ho applicato la regola di scarto preregistrata invece di
   scegliere.
+
+## 30/09/2026 — Repository su GitHub
+
+Creato `github.com/AndreottiVIII/voynich`, **privato** (la decisione di pubblicarlo spetta a
+Davide), con `gh` (è in `C:\Program Files\GitHub CLI`, non nel PATH della shell Bash). Caricati
+il ramo `main` e il tag `origine`.
+
+## 30/09/2026 — Repliche e07, e08, e10, e11, e12, e15
+
+Stessi valori. Quattro valori sembravano diversi con la soglia relativa di 1e-9, ma erano
+numeri vicini a zero con scarto assoluto di circa 3e-13. `verifica_replica.py` ora considera
+diversi solo i valori che superano **anche** una soglia assoluta di 1e-12.
+
+## 30/09/2026 — e30: glossari medico-botanici medievali e catalogo di stelle
+
+- **Preregistrato** (`e30.md`), con le regole di pulizia degli OCR fissate prima.
+- **Testi:**
+  - *Alphita* (Mowat 1887): 37.408 parole, inglese residuo 0,38%;
+  - *Sinonoma Bartholomei* (Mowat 1882): 7.920 parole, 0,23%;
+  - Igino III (catalogo di stelle): 3.872 parole;
+  - Igino II (prosa).
+- **Misure su pagine finte da 8×20:** nessun testo a elenco ripete la parola precedente
+  (0,05–0,15 contro 0,94 del Voynich sulle stesse pagine finte) né ha righe omogenee (≤ 1,3% contro
+  4,1%). **Esito contro l'ipotesi 1 per il criterio preregistrato.**
+- **Osservazioni:**
+  - i glossari hanno **molte parole uniche** (73–77%), come il Voynich (68%) e più del generatore
+    senza messaggio (51–54%);
+  - il legame fine–inizio è basso in chiaro (0,03–0,10) e il codice parola per parola lo azzera;
+  - l'ordine fra parole vicine è alto nei cataloghi (Igino III 0,57 bit), come nel Linneo di
+    Rozanova e Temerev.
+- **Lettura.**
+  - Gli elenchi veri spiegano il vocabolario aperto ma non le ripetizioni né l'omogeneità.
+  - Insieme all'e21 (elenchi biblici, *Notitia*, *Fasti*) e all'e25 (litanie), i generi non in
+    prosa provati sono ormai molti e nessuno ha le due anomalie.
+  - L'ipotesi 1, in forma pura, perde terreno.
