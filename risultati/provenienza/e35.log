@@ -1,0 +1,8 @@
+f3v    f100v[1,1]   tolchd    dist 0.600 rango 109.0/128 q 0.848 identica False (in 0 pagine)  vicine ['f18v', 'f43v', 'f15r']
+f23r   f102r2[3,1]  koldarod  dist 0.500 rango  34.5/128 q 0.266 identica False (in 0 pagine)  vicine ['f6v', 'f23v', 'f33r']
+f18v   f102r2[3,1]  koldarod  dist 0.500 rango  34.5/128 q 0.266 identica False (in 0 pagine)  vicine ['f6v', 'f23v', 'f33r']
+f48v   f89v1[1,4]   darshody  dist 0.429 rango  40.5/128 q 0.312 identica False (in 0 pagine)  vicine ['f14v', 'f43v', 'f14r']
+f90v2  f100r[1,3]   otear     dist 0.400 rango  73.5/128 q 0.570 identica False (in 0 pagine)  vicine ['f7v', 'f8v', 'f9r']
+f90v1  f100r[1,3]   otear     dist 0.400 rango  73.5/128 q 0.570 identica False (in 0 pagine)  vicine ['f7v', 'f8v', 'f9r']
+f96v   f99r[4,1]    tolsasy   dist 0.571 rango  64.5/128 q 0.500 identica False (in 0 pagine)  vicine ['f2r', 'f3r', 'f5r']
+tutte: media q 0.476 p 0.4144 | senza ?: media q 0.557 p 0.6098
