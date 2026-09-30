@@ -30,6 +30,7 @@ public class Composizione {
 
     private static boolean caricato = false;
     private static double quota = 0.0, lambda = 0.0;
+    private static boolean giunture = false;
     private static Random rnd = null;
     private static final Map<String, Map<String, Integer>> globale = new HashMap<>();
     private static Map<String, Map<String, Integer>> pagina = new HashMap<>();
@@ -74,6 +75,7 @@ public class Composizione {
         caricato = true;
         quota = Double.parseDouble(System.getProperty("composizione.quota", "0"));
         lambda = Double.parseDouble(System.getProperty("composizione.pagina", "0"));
+        giunture = "1".equals(System.getProperty("composizione.giunture", "0"));
         String file = System.getProperty("composizione.file");
         if (file == null || quota <= 0.0) {
             quota = 0.0;
@@ -140,6 +142,12 @@ public class Composizione {
     }
 
     public static GlyphGroup componi(Config config) {
+        return componi(config, "");
+    }
+
+    /** Con -Dcomposizione.giunture=1 la parola composta si accetta con la probabilita' della
+     *  regola delle giunture rispetto alla parola precedente della riga (esperimento 49). */
+    public static GlyphGroup componi(Config config, String precedente) {
         for (int tentativo = 0; tentativo < 20; tentativo++) {
             String a = INIZIO, b = INIZIO;
             StringBuilder w = new StringBuilder();
@@ -157,6 +165,10 @@ public class Composizione {
             }
             GlyphGroup g = new GlyphGroup(w.toString(), GlyphGroup.GENERATE_TYPE.INITIAL);
             if (config.canFollow.isValid(g)) {
+                if (giunture && !precedente.isEmpty()
+                        && rnd.nextDouble() >= Giunture.probabilita(precedente, w.toString())) {
+                    continue;
+                }
                 return g;
             }
         }
