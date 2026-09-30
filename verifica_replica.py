@@ -12,6 +12,7 @@ import json, math, os, subprocess, sys
 
 QUI = os.path.dirname(os.path.abspath(__file__))
 RISULTATI = os.path.join(QUI, 'risultati')
+TOLLERANZA = 1e-9
 
 
 def al_riferimento(rif, relativo):
@@ -81,11 +82,18 @@ def main():
         c = confronta(json.loads(vecchio), json.loads(nuovo))
         note = []
         if c['solo_vecchio'] or c['solo_nuovo']:
-            note.append('struttura diversa: %d solo nel vecchio, %d solo nel nuovo'
-                        % (len(c['solo_vecchio']), len(c['solo_nuovo'])))
-        for k, x, y, _ in c['diversi'][:3]:
-            note.append('`%s`: %r → %r' % (k, x, y))
-        esito = 'stessi valori' if not c['diversi'] and not note else 'diverso'
+            chiavi = sorted({k.split('/')[2] if k.count('/') > 2 else k
+                             for k in c['solo_vecchio'] + c['solo_nuovo']})
+            note.append('struttura diversa: %d valori solo nel vecchio, %d solo nel nuovo (%s)'
+                        % (len(c['solo_vecchio']), len(c['solo_nuovo']), ', '.join(chiavi[:4])))
+        # scarti relativi sotto 1e-9 sono l'ultima cifra dei float (librerie matematiche
+        # diverse fra sistemi operativi), non differenze di risultato
+        veri = [d for d in c['diversi'] if d[3] is None or d[3] > TOLLERANZA]
+        if not veri:
+            esito = 'stessi valori' + (' (entro %.0e)' % TOLLERANZA if c['diversi'] else '')
+        else:
+            esito = 'diverso: %d valori oltre %.0e' % (len(veri), TOLLERANZA)
+            note = ['`%s`: %r → %r' % (k, x, y) for k, x, y, _ in veri[:3]] + note[:1]
         righe.append('| %s | %s | %d | %d | %.2e | %s |' % (nome, esito, c['valori'], len(c['diversi']),
                                                               c['max_rel'], '; '.join(note)))
     testo = '\n'.join(righe) + '\n'

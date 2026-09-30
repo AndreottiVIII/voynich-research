@@ -56,15 +56,14 @@ def a_lf(dopo, codice):
     in parallelo non si attribuiscono i file a vicenda."""
     toccati = []
     for percorso in glob.glob(os.path.join(RISULTATI, '**', codice + '_*.*'), recursive=True):
-        if os.path.splitext(percorso)[1] not in ('.json', '.md', '.txt', '.csv'):
-            continue
         if os.path.getmtime(percorso) < dopo:
             continue
-        with open(percorso, 'rb') as f:
-            dati = f.read()
-        if b'\r\n' in dati:
-            with open(percorso, 'wb') as f:
-                f.write(dati.replace(b'\r\n', b'\n'))
+        if os.path.splitext(percorso)[1] in ('.json', '.md', '.txt', '.csv'):
+            with open(percorso, 'rb') as f:
+                dati = f.read()
+            if b'\r\n' in dati:
+                with open(percorso, 'wb') as f:
+                    f.write(dati.replace(b'\r\n', b'\n'))
         toccati.append(os.path.relpath(percorso, QUI).replace(os.sep, '/'))
     return sorted(toccati)
 
