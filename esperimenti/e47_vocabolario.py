@@ -99,5 +99,38 @@ def main():
         f.write('\n'.join(out) + '\n')
 
 
+def esplorativo():
+    """Esplorativo (non preregistrato): la curva piatta resta con un'altra trascrizione e fondendo
+    i segni che i trascrittori confondono (le fusioni dell'e05)? E nel generatore, con le stesse
+    fusioni? Se fondendo la curva scende come nelle lingue, il vocabolario "aperto" sta in
+    variazioni minime della grafia."""
+    from e05_righe import grossolano
+    testi = OrderedDict([
+        ('Voynich ZL', voynich()),
+        ('Voynich Takahashi', trascrizione.parole(trascrizione.testo_corrente(trascrizione.leggi('IT')))),
+        ('Voynich ZL, segni confondibili fusi', [grossolano(w) for w in voynich()]),
+    ])
+    tabella = os.path.join(e23.LAVORO, 'giunture.tsv')
+    e23.tabella_giunture(tabella)
+    classi = e23.compila()
+    pagine, _ = e23.genera(classi, tabella, 3.0, 19, nome='per_e47_seme_19')
+    ts = [w for p in pagine for r in p for w in r]
+    testi['Timm e Schinner + giunture, seme 19'] = ts
+    testi['Timm e Schinner, segni confondibili fusi'] = [grossolano(w) for w in ts]
+    ris = OrderedDict((n, per_finestre(p)) for n, p in testi.items())
+    out = ['# e47, esplorativo: curva delle parole uniche con altre letture', '',
+           'Fusioni dei segni confondibili come nell\'e05 (ee→ch, cth→ckh, cfh→cph, a→o, y→o, r→s, t→k, g→m). '
+           'Non preregistrato.', '',
+           '| testo | ' + ' | '.join('n = %d' % n for n in FINESTRE) + ' |', '|---|' + '---|' * len(FINESTRE)]
+    for nome, f in ris.items():
+        out.append('| %s | %s |' % (nome, ' | '.join('%.2f' % f[n]['hapax'] if n in f else '—' for n in FINESTRE)))
+        print(out[-1], flush=True)
+    with open(os.path.join(RISULTATI, 'e47_vocabolario_esplorativo.md'), 'w', encoding='utf-8') as fh:
+        fh.write('\n'.join(out) + '\n')
+
+
 if __name__ == '__main__':
-    main()
+    if '--esplorativo' in sys.argv:
+        esplorativo()
+    else:
+        main()
