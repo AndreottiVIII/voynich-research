@@ -1,0 +1,9 @@
+validita True
+MEDIA finali True d 0.00: rip 0.76 somigl 3.4%/3.2% h2 2.38 confine 0.190 uniche 0.64 unioni x1.41 R 0.74 quota 0.086 V6 0.040 zipf -0.91 | COMPATIBILE V1 V4
+MEDIA finali True d 0.03: rip 0.77 somigl 3.3%/3.1% h2 2.39 confine 0.221 uniche 0.65 unioni x1.47 R 0.74 quota 0.085 V6 0.051 zipf -0.91 | COMPATIBILE V1 V4
+MEDIA finali True d 0.06: rip 0.80 somigl 3.1%/3.0% h2 2.40 confine 0.256 uniche 0.64 unioni x1.53 R 0.74 quota 0.084 V6 0.058 zipf -0.92 |  V1 V4 V5 (bersaglio)
+MEDIA finali True d 0.10: rip 0.81 somigl 2.9%/2.9% h2 2.41 confine 0.305 uniche 0.64 unioni x1.59 R 0.75 quota 0.083 V6 0.065 zipf -0.93 |  V1 V4 V5 (bersaglio)
+MEDIA finali False d 0.00: rip 0.70 somigl 4.6%/4.3% h2 2.32 confine 0.217 uniche 0.63 unioni x1.51 R 0.72 quota 0.115 V6 0.062 zipf -0.90 |  V1 V4 V5 (bersaglio)
+MEDIA finali False d 0.03: rip 0.73 somigl 4.4%/4.2% h2 2.33 confine 0.263 uniche 0.63 unioni x1.64 R 0.73 quota 0.114 V6 0.076 zipf -0.90 | COMPATIBILE V1 V4 V5 (bersaglio)
+MEDIA finali False d 0.06: rip 0.75 somigl 4.2%/4.0% h2 2.34 confine 0.302 uniche 0.63 unioni x1.70 R 0.73 quota 0.112 V6 0.084 zipf -0.91 | COMPATIBILE V1 V4 V6 V5 (bersaglio)
+MEDIA finali False d 0.10: rip 0.77 somigl 4.0%/4.0% h2 2.35 confine 0.356 uniche 0.63 unioni x1.83 R 0.74 quota 0.110 V6 0.094 zipf -0.91 | COMPATIBILE V1 V4 V6 V5 (bersaglio)
