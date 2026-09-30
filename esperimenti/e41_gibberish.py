@@ -138,8 +138,44 @@ def scrivi_tabella(ris):
         f.write('\n'.join(righe) + '\n')
 
 
+def bootstrap(ripetizioni=1000, seme=41):
+    """Esplorativo (non preregistrato): intervalli al 95% per M2 ricampionando i documenti, e
+    M1 e M3 ricampionando i documenti; i documenti del gibberish sono corti e pochi."""
+    import random
+    rnd = random.Random(seme)
+    docs = gibberish()
+    testi = OrderedDict([('gibberish (Gaskell e Bowern)', (docs, None)),
+                         ('Bibbia latina, stessa impaginazione', (impagina_come(docs, 'Latin'), None)),
+                         ('Voynich ZL, pagine', (pagine_voynich(), DIVIDI))])
+    ris = OrderedDict()
+    for nome, (documenti, dividi) in testi.items():
+        per_doc = []
+        for doc in documenti.values():
+            if sum(len(r) for r in doc) < 30 or len(doc) < 4:
+                continue
+            dec = misure.decadimento([doc], dividi, coppie_caso=20000, distanze=DISTANZE)
+            per_doc.append({d: (dec[d]['distanza'] * dec[d]['coppie'], dec[d]['coppie']) for d in DISTANZE})
+        stime = {d: [] for d in DISTANZE}
+        for _ in range(ripetizioni):
+            campione = [rnd.choice(per_doc) for _ in per_doc]
+            for d in DISTANZE:
+                s = sum(x[d][0] for x in campione)
+                n = sum(x[d][1] for x in campione)
+                stime[d].append(1 - s / n if n else float('nan'))
+        ris[nome] = {d: (sorted(v)[int(0.025 * len(v))], sorted(v)[int(0.975 * len(v)) - 1]) for d, v in stime.items()}
+        print(nome, ' '.join('d%d [%.4f, %.4f]' % (d, a, b) for d, (a, b) in ris[nome].items()), flush=True)
+    righe = ['# e41, esplorativo: intervalli al 95% per M2 (ricampionando i documenti)', '',
+             '| testo | ' + ' | '.join('d=%d' % d for d in DISTANZE) + ' |', '|---|' + '---|' * len(DISTANZE)]
+    for nome, v in ris.items():
+        righe.append('| %s | %s |' % (nome, ' | '.join('%.4f – %.4f' % v[d] for d in DISTANZE)))
+    with open(os.path.join(RISULTATI, 'e41_gibberish_bootstrap.md'), 'w', encoding='utf-8') as f:
+        f.write('\n'.join(righe) + '\n')
+
+
 if __name__ == '__main__':
-    if '--tabella' in sys.argv:
+    if '--bootstrap' in sys.argv:
+        bootstrap()
+    elif '--tabella' in sys.argv:
         with open(os.path.join(RISULTATI, 'e41_gibberish.json'), encoding='utf-8') as f:
             scrivi_tabella(json.load(f))
     else:
