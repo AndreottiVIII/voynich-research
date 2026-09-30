@@ -154,3 +154,25 @@ riassunte nel `DOSSIER_WHITE_PAPER.md`, sezione 3.2; qui cominciano quelle della
     il risolutore è verificato.
 - **Motivo.** Il tempo di calcolo va agli esperimenti nuovi. La replica parziale si dichiara come
   tale nel white paper.
+
+## D-010 — Niente misura dell'inchiostro delle etichette, per ora (30/09/2026)
+
+- **Contesto.** Per distinguere "classe marcata" da "lotti di scrittura" (e40, e42) avevo
+  proposto di misurare l'inchiostro delle etichette sulle immagini: etichette scritte in sedute
+  diverse dovrebbero avere tono e densità diversi. Serve sapere dove sta ogni etichetta sulle
+  immagini IIIF.
+- **Prova (e45).** I riquadri di voynichese.com non si portano sulle immagini con una
+  trasformazione semplice:
+  - nei paragrafi si sovrappongono fra righe diverse; sono una disposizione approssimata, adatta a
+    confrontare spazi dentro la stessa riga, non a localizzare le parole;
+  - per le etichette, con un affinamento locale di ±30 pixel, circa metà cade sull'inchiostro
+    giusto e le altre su tratti dei disegni (controllo a vista su f99r).
+- **Opzioni.**
+  1. Procedere lo stesso.
+  2. Segnare a mano i riquadri delle circa 190 etichette della farmacia.
+  3. Rinviare.
+- **Scelta.** Rinviare. Una misura con metà delle etichette nel posto sbagliato darebbe un
+  risultato senza significato; la segnatura a mano è possibile, ma lunga e da fare con un
+  protocollo cieco.
+- **Motivo.** Meglio un vicolo cieco documentato che un numero sbagliato. Le 213 immagini restano
+  scaricate e registrate (e33), e l'allineamento è in `analisi/immagini.py` per chi riprenderà.
