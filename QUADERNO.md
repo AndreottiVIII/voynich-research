@@ -207,3 +207,58 @@ cambiate.
 - **Nelle etichette:** ci sono segni di marcatura per tipo di oggetto, in coda nella farmacia,
   che resta la pista aperta (F-elenco o un sistema di nomi). Ma l'alternativa "lotti" va chiusa
   prima di dire di più.
+
+## 30/09/2026 — e41: il gibberish umano (Gaskell e Bowern 2022)
+
+- **Dati.** 38 documenti di testo senza senso scritti a mano da volontari (79–482 parole), estratti
+  con `git show` dal repository del Naibbe, perché su Windows non si possono scrivere i loro nomi
+  di file. Licenza MIT modificata con obbligo di citazione.
+- **Preregistrato** (`e41.md`).
+- **M1, ripetizione immediata:** gibberish **0,71** (per documento mediana 0,56, da 0 a 2,61);
+  Bibbia inglese 0,05, latina 0,32; Voynich 1,01. Previsione dell'ipotesi 3 soddisfatta: chi
+  scrive a caso ripete la parola precedente, come il Voynich.
+- **M2, somiglianza graduata fra righe dentro il documento:** gibberish pari al latino e piatto
+  (d = 1: 0,003–0,008 al 95%); Voynich 0,008–0,011, che cala con la distanza. Previsione non
+  soddisfatta.
+- **M3, legame fine–inizio:** gibberish 0,009 bit, **meno** delle lingue (inglese 0,079, latino
+  0,031); Voynich 0,188.
+- **Lettura.** Una persona che scrive senza senso "come viene" produce la ripetizione immediata ma
+  non le altre due anomalie. Per l'ipotesi 3 serve dunque una procedura con regole
+  (autocitazione, giunture), non basta la glossolalia.
+- **Limiti.** Documenti corti, scrittori moderni, una sola seduta.
+
+## 30/09/2026 — e34: gli spazi certi sono graduati (immagini, via le coordinate di voynichese.com)
+
+- **Preregistrato** (`e34.md`).
+- **Dati.** 204 fogli; 23.378 spazi allineati fra i riquadri di voynichese.com e la ZL.
+- **Validità.** Gli incerti sono più stretti dei certi di 0,113 (larghezza normalizzata; z = 21).
+  Replica Rozanova e Temerev (0,124).
+- **Primaria, nuova.** Fra gli spazi **certi**, a parità dei due segni ai lati (36 strati, 12.197
+  spazi), lo spazio è più stretto di **0,031** quando le due parole unite danno una parola scritta
+  attaccata altrove; z = 3,9, p = 0,0025. È circa un quarto della larghezza media.
+- **Secondaria.** Giunture morbide 0,080, intermedie 0,120, dure 0,144 (senza controllo per la
+  forma dei segni).
+- **Lettura.** Lo spazio è una grandezza graduata anche dove il trascrittore lo vede netto, e
+  segue le unità del sistema: i pezzi che formano un'unità nota stanno fisicamente più vicini.
+  Questo va con l'ipotesi 2 (gli spazi non separano parole del testo in chiaro), ma è compatibile
+  anche con uno scriba che compone pezzi senza messaggio.
+
+## 30/09/2026 — e33 ed e35: immagini, e le piante della farmacia ritrovate nell'erbario
+
+- **e33.** Manifest IIIF di Yale (213 canvas; "Access: Public"). Scaricate 25 immagini a 1.500
+  pixel, registrate con impronta in `dati/immagini.json`. Intoppo: due canvas hanno la stessa
+  etichetta "102v (part)"; e33 corretto per non sovrascriverli.
+- **e35, preregistrato.**
+  - La ZL riporta 13 corrispondenze erbario → farmacia (Petersen, Stolfi, FSG, GL).
+  - Associazione frammento → etichetta **fatta sulle immagini e registrata con commit prima del
+    confronto** (`dati/corrispondenze_farmacia.json`).
+  - Tenute 7 coppie; scartate 7, di cui 4 perché il frammento non ha etichetta e 2 perché
+    l'etichetta non è chiaramente sua.
+  - **Esito nullo:** media dei quantili 0,476 (p = 0,41); per le 2 coppie senza "?" 0,557.
+  - Nessuna delle 5 etichette distinte compare in una pagina d'erbario.
+- **Lettura.** Con 7 coppie (di cui due doppie) la potenza è bassa, come dichiarato, e il nullo
+  non esclude il contenuto. Resta però un dato: le etichette dei frammenti non ricorrono nel testo
+  dell'erbario, nemmeno sulla pagina della stessa pianta.
+- **Mio giudizio nell'associazione.** Il conteggio [riga, colonna] è ambiguo quando le etichette
+  stanno fra un frammento e l'altro. Ho applicato la regola di scarto preregistrata invece di
+  scegliere.
