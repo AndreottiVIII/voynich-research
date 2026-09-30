@@ -8,9 +8,9 @@
     "identiche_caso": 0.009309538661940888,
     "identiche_testo": 0.003444957210440382,
     "identiche_rapporto": 1.008508949494745,
-    "distanza_rapporto": 0.9931615953565357,
+    "distanza_rapporto": 0.9931615953567712,
     "grappolo_identiche": 2.7023669942044983,
-    "grappolo_distanza": 0.959145043034624
+    "grappolo_distanza": 0.9591450430346119
    },
    "pagina": {
     "coppie": 34656,
@@ -18,9 +18,9 @@
     "identiche_caso": 0.00725873298516469,
     "identiche_testo": 0.003444957210440382,
     "identiche_rapporto": 1.1687135370213053,
-    "distanza_rapporto": 0.986720696066912,
+    "distanza_rapporto": 0.9867206960670384,
     "grappolo_identiche": 2.1070604195506912,
-    "grappolo_distanza": 0.9708329782822555
+    "grappolo_distanza": 0.9708329782821978
    },
    "blocco_8": {
     "coppie": 30499,
@@ -28,9 +28,9 @@
     "identiche_caso": 0.009246204793599791,
     "identiche_testo": 0.0034451886923125273,
     "identiche_rapporto": 0.9361702127659574,
-    "distanza_rapporto": 0.9993377181195746,
+    "distanza_rapporto": 0.9993377181198406,
     "grappolo_identiche": 2.6838021424578127,
-    "grappolo_distanza": 0.9594696516315898
+    "grappolo_distanza": 0.9594696516315552
    },
    "blocco_150": {
     "coppie": 34568,
@@ -38,9 +38,9 @@
     "identiche_caso": 0.007113322533364193,
     "identiche_testo": 0.0034459719908717153,
     "identiche_rapporto": 1.191573582040993,
-    "distanza_rapporto": 0.9858953338652011,
+    "distanza_rapporto": 0.9858953338653286,
     "grappolo_identiche": 2.0642427019741274,
-    "grappolo_distanza": 0.9714606012444343
+    "grappolo_distanza": 0.9714606012443855
    }
   },
   "IT": {
@@ -51,9 +51,9 @@
     "identiche_caso": 0.009015522369792136,
     "identiche_testo": 0.003344788869485117,
     "identiche_rapporto": 1.0711927372384227,
-    "distanza_rapporto": 0.9923101357548706,
+    "distanza_rapporto": 0.9923101357551466,
     "grappolo_identiche": 2.6953935574354944,
-    "grappolo_distanza": 0.9590649629549766
+    "grappolo_distanza": 0.9590649629549564
    },
    "pagina": {
     "coppie": 34205,
@@ -61,9 +61,9 @@
     "identiche_caso": 0.007224291584241702,
     "identiche_testo": 0.003344788869485117,
     "identiche_rapporto": 1.2140494972928078,
-    "distanza_rapporto": 0.987179580329917,
+    "distanza_rapporto": 0.9871795803300708,
     "grappolo_identiche": 2.1598647526454426,
-    "grappolo_distanza": 0.9698233380849723
+    "grappolo_distanza": 0.9698233380849042
    },
    "blocco_8": {
     "coppie": 30107,
@@ -71,9 +71,9 @@
     "identiche_caso": 0.00869399143056432,
     "identiche_testo": 0.0033449430621815025,
     "identiche_rapporto": 0.9971346704871061,
-    "distanza_rapporto": 0.9989575544861545,
+    "distanza_rapporto": 0.9989575544864668,
     "grappolo_identiche": 2.59914481919291,
-    "grappolo_distanza": 0.9578661028437141
+    "grappolo_distanza": 0.957866102843673
    },
    "blocco_150": {
     "coppie": 34121,
@@ -81,9 +81,9 @@
     "identiche_caso": 0.007088498773971067,
     "identiche_testo": 0.003346215486612015,
     "identiche_rapporto": 1.2279492833517083,
-    "distanza_rapporto": 0.9857171228154087,
+    "distanza_rapporto": 0.9857171228155539,
     "grappolo_identiche": 2.1183629094813763,
-    "grappolo_distanza": 0.9716362805338855
+    "grappolo_distanza": 0.9716362805338354
    }
   }
  },
@@ -96,9 +96,9 @@
     "identiche_caso": 0.008826583592938734,
     "identiche_testo": 0.008506921485054776,
     "identiche_rapporto": 0.21848739495798317,
-    "distanza_rapporto": 1.0005530311629913,
+    "distanza_rapporto": 1.0005530311629616,
     "grappolo_identiche": 1.0375767083833498,
-    "grappolo_distanza": 0.9909015714097373
+    "grappolo_distanza": 0.9909015714097377
    },
    "blocco_150": {
     "coppie": 7599,
@@ -106,9 +106,9 @@
     "identiche_caso": 0.011138307672062114,
     "identiche_testo": 0.008446402921651512,
     "identiche_rapporto": 0.1772211720226843,
-    "distanza_rapporto": 0.9939631826601633,
+    "distanza_rapporto": 0.9939631826602238,
     "grappolo_identiche": 1.3187042786592826,
-    "grappolo_distanza": 0.9978278543552881
+    "grappolo_distanza": 0.9978278543552791
    }
   },
   "Catone, agricoltura e ricette": {
@@ -119,9 +119,9 @@
     "identiche_caso": 0.009899365565521767,
     "identiche_testo": 0.003444063840932336,
     "identiche_rapporto": 0.05893186003683242,
-    "distanza_rapporto": 0.9982627773702739,
+    "distanza_rapporto": 0.9982627773705693,
     "grappolo_identiche": 2.874326964520474,
-    "grappolo_distanza": 0.9907115601610387
+    "grappolo_distanza": 0.990711560161036
    },
    "blocco_150": {
     "coppie": 15496,
@@ -129,9 +129,9 @@
     "identiche_caso": 0.00798399586990191,
     "identiche_testo": 0.003434605439862187,
     "identiche_rapporto": 0.07274490785645005,
-    "distanza_rapporto": 0.9923737307954577,
+    "distanza_rapporto": 0.9923737307957643,
     "grappolo_identiche": 2.3245743971750845,
-    "grappolo_distanza": 0.9952777901048279
+    "grappolo_distanza": 0.9952777901048147
    }
   },
   "Columella XII, conserve e ricette": {
@@ -142,9 +142,9 @@
     "identiche_caso": 0.0036895674300254453,
     "identiche_testo": 0.004240593424563424,
     "identiche_rapporto": 0.019704433497536943,
-    "distanza_rapporto": 0.998127325072215,
+    "distanza_rapporto": 0.9981273250725513,
     "grappolo_identiche": 0.8700592253560107,
-    "grappolo_distanza": 0.9971675840372082
+    "grappolo_distanza": 0.9971675840372068
    },
    "blocco_150": {
     "coppie": 15496,
@@ -152,9 +152,9 @@
     "identiche_caso": 0.005275339872655307,
     "identiche_testo": 0.004264647142075182,
     "identiche_rapporto": 0.024465829391616387,
-    "distanza_rapporto": 0.9975708729934197,
+    "distanza_rapporto": 0.9975708729937748,
     "grappolo_identiche": 1.2369932838308213,
-    "grappolo_distanza": 0.9986941381556835
+    "grappolo_distanza": 0.9986941381556664
    }
   },
   "Varrone, agricoltura": {
@@ -165,9 +165,9 @@
     "identiche_caso": 0.005386126497488084,
     "identiche_testo": 0.004048152433066905,
     "identiche_rapporto": 0.02391629297458894,
-    "distanza_rapporto": 1.000995231500374,
+    "distanza_rapporto": 1.000995231500265,
     "grappolo_identiche": 1.3305147438352565,
-    "grappolo_distanza": 0.9948104820511134
+    "grappolo_distanza": 0.9948104820511112
    },
    "blocco_150": {
     "coppie": 35164,
@@ -175,9 +175,9 @@
     "identiche_caso": 0.005523831190990788,
     "identiche_testo": 0.004047804982840493,
     "identiche_rapporto": 0.025741350906095545,
-    "distanza_rapporto": 0.9978567504837753,
+    "distanza_rapporto": 0.9978567504833921,
     "grappolo_identiche": 1.364648547646807,
-    "grappolo_distanza": 0.9975744841735635
+    "grappolo_distanza": 0.9975744841735683
    }
   },
   "Isidoro XVII, piante": {
@@ -188,9 +188,9 @@
     "identiche_caso": 0.004260551298181402,
     "identiche_testo": 0.004376516927684876,
     "identiche_rapporto": 0.05369127516778524,
-    "distanza_rapporto": 1.004658108767318,
+    "distanza_rapporto": 1.004658108767448,
     "grappolo_identiche": 0.9735027576907331,
-    "grappolo_distanza": 0.9961940191157355
+    "grappolo_distanza": 0.9961940191157423
    },
    "blocco_150": {
     "coppie": 9834,
@@ -198,9 +198,9 @@
     "identiche_caso": 0.005461324655955528,
     "identiche_testo": 0.004409342439446491,
     "identiche_rapporto": 0.037239324726911625,
-    "distanza_rapporto": 1.0030790561206484,
+    "distanza_rapporto": 1.0030790561208405,
     "grappolo_identiche": 1.238580294217542,
-    "grappolo_distanza": 0.9983841676581163
+    "grappolo_distanza": 0.998384167658105
    }
   },
   "Isidoro XVI, pietre e metalli": {
@@ -211,9 +211,9 @@
     "identiche_caso": 0.004879482657260435,
     "identiche_testo": 0.004350542423160777,
     "identiche_rapporto": 0.048192771084337345,
-    "distanza_rapporto": 1.0005857779975182,
+    "distanza_rapporto": 1.0005857779976244,
     "grappolo_identiche": 1.1215802956623901,
-    "grappolo_distanza": 0.9958024695962221
+    "grappolo_distanza": 0.9958024695962236
    },
    "blocco_150": {
     "coppie": 9536,
@@ -221,9 +221,9 @@
     "identiche_caso": 0.005696308724832215,
     "identiche_testo": 0.004410442059936799,
     "identiche_rapporto": 0.0,
-    "distanza_rapporto": 0.998426882016729,
+    "distanza_rapporto": 0.9984268820169023,
     "grappolo_identiche": 1.2915505174811983,
-    "grappolo_distanza": 0.9988222380957806
+    "grappolo_distanza": 0.9988222380957656
    }
   },
   "Vegezio, arte militare": {
@@ -234,9 +234,9 @@
     "identiche_caso": 0.0045746388443017654,
     "identiche_testo": 0.0028043734895282224,
     "identiche_rapporto": 0.04010025062656642,
-    "distanza_rapporto": 1.0021413824430816,
+    "distanza_rapporto": 1.0021413824434657,
     "grappolo_identiche": 1.6312516365540717,
-    "grappolo_distanza": 0.9998281186566579
+    "grappolo_distanza": 0.999828118656678
    },
    "blocco_150": {
     "coppie": 24734,
@@ -244,9 +244,9 @@
     "identiche_caso": 0.003976712217999515,
     "identiche_testo": 0.002804260941109714,
     "identiche_rapporto": 0.0406669377795852,
-    "distanza_rapporto": 1.0024095025572433,
+    "distanza_rapporto": 1.0024095025576492,
     "grappolo_identiche": 1.4180963546230592,
-    "grappolo_distanza": 0.9990006203943637
+    "grappolo_distanza": 0.9990006203943819
    }
   },
   "Vitruvio, architettura": {
@@ -257,9 +257,9 @@
     "identiche_caso": 0.005037957211870256,
     "identiche_testo": 0.003964600830188723,
     "identiche_rapporto": 0.22700587084148727,
-    "distanza_rapporto": 1.001071656751886,
+    "distanza_rapporto": 1.0010716567504714,
     "grappolo_identiche": 1.2707350443727872,
-    "grappolo_distanza": 0.9962831555022036
+    "grappolo_distanza": 0.9962831555021976
    },
    "blocco_150": {
     "coppie": 57514,
@@ -267,9 +267,9 @@
     "identiche_caso": 0.005910213165490145,
     "identiche_testo": 0.003963963093256225,
     "identiche_rapporto": 0.18533772652388789,
-    "distanza_rapporto": 0.9996449791816191,
+    "distanza_rapporto": 0.9996449791801358,
     "grappolo_identiche": 1.4909859215251067,
-    "grappolo_distanza": 0.9972466765382634
+    "grappolo_distanza": 0.9972466765382638
    }
   }
  },
@@ -282,9 +282,9 @@
     "identiche_caso": 0.00720952380952381,
     "identiche_testo": 0.005532117737257909,
     "identiche_rapporto": 0.16908850726552177,
-    "distanza_rapporto": 1.004222557111532,
+    "distanza_rapporto": 1.0042225571121688,
     "grappolo_identiche": 1.3032122872166738,
-    "grappolo_distanza": 0.9954044932881333
+    "grappolo_distanza": 0.9954044932881528
    },
    "blocco_150": {
     "coppie": 29800,
@@ -292,9 +292,9 @@
     "identiche_caso": 0.008464876957494406,
     "identiche_testo": 0.005532117737257909,
     "identiche_rapporto": 0.13874940535969132,
-    "distanza_rapporto": 1.0029784889903075,
+    "distanza_rapporto": 1.0029784889906268,
     "grappolo_identiche": 1.5301331894086134,
-    "grappolo_distanza": 0.9970559187563118
+    "grappolo_distanza": 0.9970559187562964
    },
    "lingua": "Achuar-Shiwiar",
    "tipo_scrittura": "alfabeto"
@@ -307,9 +307,9 @@
     "identiche_caso": 0.01639047619047619,
     "identiche_testo": 0.0177168350056113,
     "identiche_rapporto": 0.11621150493898895,
-    "distanza_rapporto": 1.0020026252513816,
+    "distanza_rapporto": 1.002002625251695,
     "grappolo_identiche": 0.9251356794418968,
-    "grappolo_distanza": 0.9994257411005975
+    "grappolo_distanza": 0.9994257411005789
    },
    "blocco_150": {
     "coppie": 29800,
@@ -317,9 +317,9 @@
     "identiche_caso": 0.022050559284116335,
     "identiche_testo": 0.0177168350056113,
     "identiche_rapporto": 0.08978755351744008,
-    "distanza_rapporto": 1.0039225398334946,
+    "distanza_rapporto": 1.0039225398335188,
     "grappolo_identiche": 1.2446105231059865,
-    "grappolo_distanza": 0.9988414941879978
+    "grappolo_distanza": 0.9988414941879948
    },
    "lingua": "Afrikaans",
    "tipo_scrittura": "alfabeto"
@@ -332,9 +332,9 @@
     "identiche_caso": 0.0030095238095238096,
     "identiche_testo": 0.0022518839516872786,
     "identiche_rapporto": 0.0759493670886076,
-    "distanza_rapporto": 1.0058527176967424,
+    "distanza_rapporto": 1.005852717697326,
     "grappolo_identiche": 1.3364471145455123,
-    "grappolo_distanza": 0.9939722322791825
+    "grappolo_distanza": 0.9939722322791633
    },
    "blocco_150": {
     "coppie": 29800,
@@ -342,9 +342,9 @@
     "identiche_caso": 0.004184787472035795,
     "identiche_testo": 0.0022518839516872786,
     "identiche_rapporto": 0.0641505399337111,
-    "distanza_rapporto": 1.00384344317681,
+    "distanza_rapporto": 1.0038434431770367,
     "grappolo_identiche": 1.8583495250278068,
-    "grappolo_distanza": 0.9965489452384273
+    "grappolo_distanza": 0.9965489452384233
    },
    "lingua": "Aguaruna",
    "tipo_scrittura": "alfabeto"
@@ -357,9 +357,9 @@
     "identiche_caso": 0.010038095238095238,
     "identiche_testo": 0.012220191784170583,
     "identiche_rapporto": 0.21631878557874765,
-    "distanza_rapporto": 1.003324359976283,
+    "distanza_rapporto": 1.0033243599765571,
     "grappolo_identiche": 0.8214351636525115,
-    "grappolo_distanza": 0.9973538172113026
+    "grappolo_distanza": 0.9973538172113097
    },
    "blocco_150": {
     "coppie": 29800,
@@ -367,9 +367,9 @@
     "identiche_caso": 0.015783445190156595,
     "identiche_testo": 0.012220191784170583,
     "identiche_rapporto": 0.14032203197641457,
-    "distanza_rapporto": 1.0020138809627352,
+    "distanza_rapporto": 1.002013880962814,
     "grappolo_identiche": 1.2915873554948352,
-    "grappolo_distanza": 0.9982628638384003
+    "grappolo_distanza": 0.9982628638383929
    },
    "lingua": "Akawaio",
    "tipo_scrittura": "alfabeto"
@@ -382,9 +382,9 @@
     "identiche_caso": 0.011666666666666667,
     "identiche_testo": 0.012955705190173005,
     "identiche_rapporto": 0.0979591836734694,
-    "distanza_rapporto": 1.0021973696935924,
+    "distanza_rapporto": 1.0021973696937894,
     "grappolo_identiche": 0.9005041790790297,
-    "grappolo_distanza": 0.998358498370044
+    "grappolo_distanza": 0.998358498370028
    },
    "blocco_150": {
     "coppie": 29800,
@@ -392,9 +392,9 @@
     "identiche_caso": 0.01575570469798657,
     "identiche_testo": 0.012955705190173005,
     "identiche_rapporto": 0.07241438064406204,
-    "distanza_rapporto": 1.0016485888340185,
+    "distanza_rapporto": 1.0016485888339761,
     "grappolo_identiche": 1.2161209649890292,
-    "grappolo_distanza": 0.9990127602763825
+    "grappolo_distanza": 0.9990127602763905
    },
    "lingua": "Albanian",
    "tipo_scrittura": "alfabeto"
@@ -407,9 +407,9 @@
     "identiche_caso": 0.01600952380952381,
     "identiche_testo": 0.020900732246630443,
     "identiche_rapporto": 0.3236168947055324,
-    "distanza_rapporto": 1.0022706582707237,
+    "distanza_rapporto": 1.0022706582711125,
     "grappolo_identiche": 0.7659790872688118,
-    "grappolo_distanza": 0.9968358690510396
+    "grappolo_distanza": 0.9968358690510155
    },
    "blocco_150": {
     "coppie": 29800,
@@ -417,9 +417,9 @@
     "identiche_caso": 0.023258165548098453,
     "identiche_testo": 0.020900732246630443,
     "identiche_rapporto": 0.22796352583586607,
-    "distanza_rapporto": 1.0009346895372078,
+    "distanza_rapporto": 1.0009346895372446,
     "grappolo_identiche": 1.1127918999990092,
-    "grappolo_distanza": 0.9975885145539538
+    "grappolo_distanza": 0.997588514553967
    },
    "lingua": "Amuzgo",
    "tipo_scrittura": "alfabeto"
@@ -432,9 +432,9 @@
     "identiche_caso": 0.005914285714285714,
     "identiche_testo": 0.0026374012467082234,
     "identiche_rapporto": 0.15458937198067632,
-    "distanza_rapporto": 1.0061253800953511,
+    "distanza_rapporto": 1.0061253800956378,
     "grappolo_identiche": 2.2424671716779594,
-    "grappolo_distanza": 0.9950962088148029
+    "grappolo_distanza": 0.9950962088147955
    },
    "blocco_150": {
     "coppie": 29800,
@@ -442,9 +442,9 @@
     "identiche_caso": 0.00545771812080537,
     "identiche_testo": 0.0026374012467082234,
     "identiche_rapporto": 0.1598622725036891,
-    "distanza_rapporto": 1.0033650073344271,
+    "distanza_rapporto": 1.00336500733453,
     "grappolo_identiche": 2.0693544934117334,
-    "grappolo_distanza": 0.9983110827145046
+    "grappolo_distanza": 0.9983110827145133
    },
    "lingua": "Arabic",
    "tipo_scrittura": "abjad"
@@ -457,9 +457,9 @@
     "identiche_caso": 0.0074380952380952384,
     "identiche_testo": 0.007608193606453548,
     "identiche_rapporto": 0.05633802816901408,
-    "distanza_rapporto": 1.0053618344008675,
+    "distanza_rapporto": 1.005361834401046,
     "grappolo_identiche": 0.9776427392418056,
-    "grappolo_distanza": 0.9973686282832632
+    "grappolo_distanza": 0.9973686282832294
    },
    "blocco_150": {
     "coppie": 29800,
@@ -467,9 +467,9 @@
     "identiche_caso": 0.01033825503355704,
     "identiche_testo": 0.007608193606453548,
     "identiche_rapporto": 0.0421968319916905,
-    "distanza_rapporto": 1.0042377169415824,
+    "distanza_rapporto": 1.0042377169415162,
     "grappolo_identiche": 1.3588317501263052,
-    "grappolo_distanza": 0.9983761776935728
+    "grappolo_distanza": 0.9983761776935614
    },
    "lingua": "Armenian",
    "tipo_scrittura": "alfabeto"
@@ -482,9 +482,9 @@
     "identiche_caso": 0.009866666666666666,
     "identiche_testo": 0.005023129659877551,
     "identiche_rapporto": 0.2007722007722008,
-    "distanza_rapporto": 1.0110323715474094,
+    "distanza_rapporto": 1.0110323715480014,
     "grappolo_identiche": 1.9642468609713701,
-    "grappolo_distanza": 0.9906414763052486
+    "grappolo_distanza": 0.9906414763051976
    },
    "blocco_150": {
     "coppie": 29800,
@@ -492,9 +492,9 @@
     "identiche_caso": 0.009662639821029082,
     "identiche_testo": 0.005023129659877551,
     "identiche_rapporto": 0.20489905538062608,
-    "distanza_rapporto": 1.0057953380487286,
+    "distanza_rapporto": 1.005795338049133,
     "grappolo_identiche": 1.9236293855222977,
-    "grappolo_distanza": 0.995697202856447
+    "grappolo_distanza": 0.9956972028564174
    },
    "lingua": "Asháninka",
    "tipo_scrittura": "alfabeto"
@@ -507,9 +507,9 @@
     "identiche_caso": 0.01537142857142857,
     "identiche_testo": 0.016229007633587787,
     "identiche_rapporto": 0.18339529120198267,
-    "distanza_rapporto": 1.0016787477296345,
+    "distanza_rapporto": 1.0016787477298643,
     "grappolo_identiche": 0.9471576401021368,
-    "grappolo_distanza": 0.9988963773236628
+    "grappolo_distanza": 0.9988963773236723
    },
    "blocco_150": {
     "coppie": 29800,
@@ -517,9 +517,9 @@
     "identiche_caso": 0.020988366890380295,
     "identiche_testo": 0.016229007633587787,
     "identiche_rapporto": 0.13750026647338476,
-    "distanza_rapporto": 1.0016831819580796,
+    "distanza_rapporto": 1.0016831819581715,
     "grappolo_identiche": 1.29326249418618,
-    "grappolo_distanza": 0.9992031782944056
+    "grappolo_distanza": 0.9992031782943849
    },
    "lingua": "Aukan",
    "tipo_scrittura": "alfabeto"
@@ -532,9 +532,9 @@
     "identiche_caso": 0.01259047619047619,
     "identiche_testo": 0.009619869551207262,
     "identiche_rapporto": 0.24508320726172467,
-    "distanza_rapporto": 1.0077920531407554,
+    "distanza_rapporto": 1.0077920531409488,
     "grappolo_identiche": 1.3087990563132041,
-    "grappolo_distanza": 0.9977510457653941
+    "grappolo_distanza": 0.9977510457654114
    },
    "blocco_150": {
     "coppie": 29800,
@@ -542,9 +542,9 @@
     "identiche_caso": 0.014625950782997764,
     "identiche_testo": 0.009619869551207262,
     "identiche_rapporto": 0.20190278075193488,
-    "distanza_rapporto": 1.0092239005231438,
+    "distanza_rapporto": 1.009223900523156,
     "grappolo_identiche": 1.5203897209980624,
-    "grappolo_distanza": 0.9960550365953464
+    "grappolo_distanza": 0.9960550365953202
    },
    "lingua": "Barasana-Eduria",
    "tipo_scrittura": "alfabeto"
@@ -557,9 +557,9 @@
     "identiche_caso": 0.009066666666666667,
     "identiche_testo": 0.009469135637854596,
     "identiche_rapporto": 0.04621848739495798,
-    "distanza_rapporto": 1.0073700189840662,
+    "distanza_rapporto": 1.007370018984622,
     "grappolo_identiche": 0.9574967571930235,
-    "grappolo_distanza": 0.9987395855494106
+    "grappolo_distanza": 0.9987395855493949
    },
    "blocco_150": {
     "coppie": 29800,
@@ -567,9 +567,9 @@
     "identiche_caso": 0.011855928411633104,
     "identiche_testo": 0.009469135637854596,
     "identiche_rapporto": 0.03962563212317913,
-    "distanza_rapporto": 1.0072239121007707,
+    "distanza_rapporto": 1.0072239121009485,
     "grappolo_identiche": 1.2520602581968379,
-    "grappolo_distanza": 0.9984069082430616
+    "grappolo_distanza": 0.9984069082430856
    },
    "lingua": "Basque",
    "tipo_scrittura": "alfabeto"
@@ -582,9 +582,9 @@
     "identiche_caso": 0.009971428571428572,
     "identiche_testo": 0.010389310754802938,
     "identiche_rapporto": 0.05730659025787966,
-    "distanza_rapporto": 1.00357037227528,
+    "distanza_rapporto": 1.0035703722754579,
     "grappolo_identiche": 0.9597776798445287,
-    "grappolo_distanza": 0.9992542283777345
+    "grappolo_distanza": 0.9992542283777084
    },
    "blocco_150": {
     "coppie": 29800,
@@ -592,9 +592,9 @@
     "identiche_caso": 0.012955704697986573,
     "identiche_testo": 0.010389310754802938,
     "identiche_rapporto": 0.04662246166597597,
-    "distanza_rapporto": 1.0040493604828507,
+    "distanza_rapporto": 1.0040493604828575,
     "grappolo_identiche": 1.2470225411245113,
-    "grappolo_distanza": 0.998745883664783
+    "grappolo_distanza": 0.998745883664711
    },
    "lingua": "Bulgarian",
    "tipo_scrittura": "alfabeto"
@@ -607,9 +607,9 @@
     "identiche_caso": 0.011733333333333333,
     "identiche_testo": 0.009745284842828094,
     "identiche_rapporto": 0.11363636363636363,
-    "distanza_rapporto": 1.0043961014144225,
+    "distanza_rapporto": 1.0043961014147909,
     "grappolo_identiche": 1.2040010653940316,
-    "grappolo_distanza": 0.9972838383741984
+    "grappolo_distanza": 0.9972838383741912
    },
    "blocco_150": {
     "coppie": 29800,
@@ -617,9 +617,9 @@
     "identiche_caso": 0.013674720357941835,
     "identiche_testo": 0.009745284842828094,
     "identiche_rapporto": 0.10306579851454371,
-    "distanza_rapporto": 1.0042613983773976,
+    "distanza_rapporto": 1.004261398377509,
     "grappolo_identiche": 1.4032140238574509,
-    "grappolo_distanza": 0.9986701499021936
+    "grappolo_distanza": 0.9986701499021658
    },
    "lingua": "Cabécar",
    "tipo_scrittura": "alfabeto"
@@ -632,9 +632,9 @@
     "identiche_caso": 0.02095238095238095,
     "identiche_testo": 0.027609046968232274,
     "identiche_rapporto": 0.01090909090909091,
-    "distanza_rapporto": 0.9999171856160987,
+    "distanza_rapporto": 0.9999171856164814,
     "grappolo_identiche": 0.758895480039182,
-    "grappolo_distanza": 0.9972340681141398
+    "grappolo_distanza": 0.9972340681141554
    },
    "blocco_150": {
     "coppie": 29800,
@@ -642,9 +642,9 @@
     "identiche_caso": 0.03050425055928411,
     "identiche_testo": 0.027609046968232274,
     "identiche_rapporto": 0.008800621910615019,
-    "distanza_rapporto": 0.9998459999813206,
+    "distanza_rapporto": 0.999845999981399,
     "grappolo_identiche": 1.104864307499753,
-    "grappolo_distanza": 0.997602657628011
+    "grappolo_distanza": 0.9976026576280221
    },
    "lingua": "Cakchiquel",
    "tipo_scrittura": "alfabeto"
@@ -657,9 +657,9 @@
     "identiche_caso": 0.00841904761904762,
     "identiche_testo": 0.01009013633787793,
     "identiche_rapporto": 0.027149321266968323,
-    "distanza_rapporto": 1.0029907547650931,
+    "distanza_rapporto": 1.0029907547652936,
     "grappolo_identiche": 0.8343839307148788,
-    "grappolo_distanza": 0.9979239201689242
+    "grappolo_distanza": 0.9979239201689356
    },
    "blocco_150": {
     "coppie": 29800,
@@ -667,9 +667,9 @@
     "identiche_caso": 0.012624161073825503,
     "identiche_testo": 0.01009013633787793,
     "identiche_rapporto": 0.01594896331738437,
-    "distanza_rapporto": 1.0033156091866842,
+    "distanza_rapporto": 1.0033156091865658,
     "grappolo_identiche": 1.251138800417885,
-    "grappolo_distanza": 0.9979018226044137
+    "grappolo_distanza": 0.9979018226044076
    },
    "lingua": "Camsá",
    "tipo_scrittura": "alfabeto"
@@ -682,9 +682,9 @@
     "identiche_caso": 0.017095238095238094,
     "identiche_testo": 0.021355436292320853,
     "identiche_rapporto": 0.028969359331476326,
-    "distanza_rapporto": 1.0074188861192175,
+    "distanza_rapporto": 1.0074188861198454,
     "grappolo_identiche": 0.800509896460665,
-    "grappolo_distanza": 0.999024708499424
+    "grappolo_distanza": 0.9990247084994124
    },
    "blocco_150": {
     "coppie": 29800,
@@ -692,9 +692,9 @@
     "identiche_caso": 0.024644295302013435,
     "identiche_testo": 0.021355436292320853,
     "identiche_rapporto": 0.020424836601307183,
-    "distanza_rapporto": 1.0083008978538837,
+    "distanza_rapporto": 1.0083008978542078,
     "grappolo_identiche": 1.1540057044339205,
-    "grappolo_distanza": 0.99884402096969
+    "grappolo_distanza": 0.9988440209696823
    },
    "lingua": "Cebuano",
    "tipo_scrittura": "alfabeto"
@@ -707,9 +707,9 @@
     "identiche_caso": 0.01935238095238095,
     "identiche_testo": 0.020877033678900408,
     "identiche_rapporto": 0.04133858267716536,
-    "distanza_rapporto": 1.0147111819444241,
+    "distanza_rapporto": 1.014711181944763,
     "grappolo_identiche": 0.9269698583635297,
-    "grappolo_distanza": 1.0028928935909927
+    "grappolo_distanza": 1.0028928935910004
    },
    "blocco_150": {
     "coppie": 29800,
@@ -717,9 +717,9 @@
     "identiche_caso": 0.025135123042505588,
     "identiche_testo": 0.020877033678900408,
     "identiche_rapporto": 0.028036384997418878,
-    "distanza_rapporto": 1.018349162971668,
+    "distanza_rapporto": 1.0183491629717667,
     "grappolo_identiche": 1.2039604586119275,
-    "grappolo_distanza": 0.999094851776189
+    "grappolo_distanza": 0.9990948517761699
    },
    "lingua": "Chamorro",
    "tipo_scrittura": "alfabeto"
@@ -732,9 +732,9 @@
     "identiche_caso": 0.014809523809523809,
     "identiche_testo": 0.01745902863428781,
     "identiche_rapporto": 0.21093247588424438,
-    "distanza_rapporto": 1.00155345197178,
+    "distanza_rapporto": 1.001553451971922,
     "grappolo_identiche": 0.8482444309896694,
-    "grappolo_distanza": 1.0007554502280973
+    "grappolo_distanza": 1.0007554502280598
    },
    "blocco_150": {
     "coppie": 29800,
@@ -742,9 +742,9 @@
     "identiche_caso": 0.02130246085011186,
     "identiche_testo": 0.01745902863428781,
     "identiche_rapporto": 0.15437608955913545,
-    "distanza_rapporto": 1.0026865435824366,
+    "distanza_rapporto": 1.0026865435824235,
     "grappolo_identiche": 1.2201400946371053,
-    "grappolo_distanza": 0.9988308050952388
+    "grappolo_distanza": 0.9988308050952148
    },
    "lingua": "Chinantec (Quiotepec)",
    "tipo_scrittura": "alfabeto"
@@ -757,9 +757,9 @@
     "identiche_caso": 0.009666666666666667,
     "identiche_testo": 0.009707348022711868,
     "identiche_rapporto": 0.36650246305418716,
-    "distanza_rapporto": 1.0014420505599906,
+    "distanza_rapporto": 1.0014420505604236,
     "grappolo_identiche": 0.9958092204019038,
-    "grappolo_distanza": 1.0014254309474742
+    "grappolo_distanza": 1.0014254309474702
    },
    "blocco_150": {
     "coppie": 29800,
@@ -767,9 +767,9 @@
     "identiche_caso": 0.013635794183445188,
     "identiche_testo": 0.009707348022711868,
     "identiche_rapporto": 0.25101719385746163,
-    "distanza_rapporto": 1.0037320311359588,
+    "distanza_rapporto": 1.0037320311361617,
     "grappolo_identiche": 1.4046878871080033,
-    "grappolo_distanza": 1.0002639231679296
+    "grappolo_distanza": 1.0002639231679338
    },
    "lingua": "Chinese (pinyin, una sillaba per parola)",
    "tipo_scrittura": "alfabeto"
@@ -782,9 +782,9 @@
     "identiche_caso": 0.009666666666666667,
     "identiche_testo": 0.008483522784092803,
     "identiche_rapporto": 0.16157635467980294,
-    "distanza_rapporto": 1.0091015796792269,
+    "distanza_rapporto": 1.0091015796795066,
     "grappolo_identiche": 1.1394637478657264,
-    "grappolo_distanza": 0.994565622314645
+    "grappolo_distanza": 0.9945656223146103
    },
    "blocco_150": {
     "coppie": 29800,
@@ -792,9 +792,9 @@
     "identiche_caso": 0.011540939597315438,
     "identiche_testo": 0.008483522784092803,
     "identiche_rapporto": 0.14829030006978364,
-    "distanza_rapporto": 1.0057024199979225,
+    "distanza_rapporto": 1.005702419997891,
     "grappolo_identiche": 1.3603947193912775,
-    "grappolo_distanza": 0.9980389998574646
+    "grappolo_distanza": 0.9980389998574573
    },
    "lingua": "Coptic",
    "tipo_scrittura": "alfabeto"
@@ -807,9 +807,9 @@
     "identiche_caso": 0.015171428571428572,
     "identiche_testo": 0.01269837883485005,
     "identiche_rapporto": 0.3490269930947897,
-    "distanza_rapporto": 0.9944045048995568,
+    "distanza_rapporto": 0.9944045048997532,
     "grappolo_identiche": 1.1947531861147003,
-    "grappolo_distanza": 0.9994693189487326
+    "grappolo_distanza": 0.999469318948728
    },
    "blocco_150": {
     "coppie": 29800,
@@ -817,9 +817,9 @@
     "identiche_caso": 0.018048322147651,
     "identiche_testo": 0.01269837883485005,
     "identiche_rapporto": 0.28447121820615806,
-    "distanza_rapporto": 0.9941292702943073,
+    "distanza_rapporto": 0.9941292702943769,
     "grappolo_identiche": 1.4213091594116176,
-    "grappolo_distanza": 0.9994766587420104
+    "grappolo_distanza": 0.9994766587419955
    },
    "lingua": "Haitian Creole",
    "tipo_scrittura": "alfabeto"
@@ -832,9 +832,9 @@
     "identiche_caso": 0.006971428571428571,
     "identiche_testo": 0.006590817471693501,
     "identiche_rapporto": 0.060109289617486336,
-    "distanza_rapporto": 0.9971065095828193,
+    "distanza_rapporto": 0.9971065095829855,
     "grappolo_identiche": 1.057748693750014,
-    "grappolo_distanza": 0.995813694915234
+    "grappolo_distanza": 0.99581369491522
    },
    "blocco_150": {
     "coppie": 29800,
@@ -842,9 +842,9 @@
     "identiche_caso": 0.00888590604026846,
     "identiche_testo": 0.006590817471693501,
     "identiche_rapporto": 0.05287009063444107,
-    "distanza_rapporto": 0.9944779174943782,
+    "distanza_rapporto": 0.9944779174942885,
     "grappolo_identiche": 1.3482251751671162,
-    "grappolo_distanza": 0.9978150670699385
+    "grappolo_distanza": 0.9978150670699557
    },
    "lingua": "Croatian",
    "tipo_scrittura": "alfabeto"
@@ -857,9 +857,9 @@
     "identiche_caso": 0.0067714285714285715,
     "identiche_testo": 0.006898661066479994,
     "identiche_rapporto": 0.05625879043600563,
-    "distanza_rapporto": 1.0020468535909948,
+    "distanza_rapporto": 1.0020468535910596,
     "grappolo_identiche": 0.981556929116342,
-    "grappolo_distanza": 0.9969851543515175
+    "grappolo_distanza": 0.996985154351498
    },
    "blocco_150": {
     "coppie": 29800,
@@ -867,9 +867,9 @@
     "identiche_caso": 0.008801789709172263,
     "identiche_testo": 0.006898661066479994,
     "identiche_rapporto": 0.04193777958519721,
-    "distanza_rapporto": 1.0018870640343163,
+    "distanza_rapporto": 1.0018870640342192,
     "grappolo_identiche": 1.2758692772919964,
-    "grappolo_distanza": 0.9974312487742072
+    "grappolo_distanza": 0.997431248774182
    },
    "lingua": "Czech",
    "tipo_scrittura": "alfabeto"
@@ -882,9 +882,9 @@
     "identiche_caso": 0.012152380952380953,
     "identiche_testo": 0.012558945298176605,
     "identiche_rapporto": 0.03134796238244514,
-    "distanza_rapporto": 1.00416619172753,
+    "distanza_rapporto": 1.004166191727806,
     "grappolo_identiche": 0.9676275088279364,
-    "grappolo_distanza": 0.9994970873706094
+    "grappolo_distanza": 0.999497087370618
    },
    "blocco_150": {
     "coppie": 29800,
@@ -892,9 +892,9 @@
     "identiche_caso": 0.0163069351230425,
     "identiche_testo": 0.012558945298176605,
     "identiche_rapporto": 0.024694067936124685,
-    "distanza_rapporto": 1.004479432818739,
+    "distanza_rapporto": 1.0044794328188094,
     "grappolo_identiche": 1.2984318934337626,
-    "grappolo_distanza": 0.9983719112328931
+    "grappolo_distanza": 0.9983719112328773
    },
    "lingua": "Danish",
    "tipo_scrittura": "alfabeto"
@@ -907,9 +907,9 @@
     "identiche_caso": 0.014961904761904761,
     "identiche_testo": 0.012311705945753747,
     "identiche_rapporto": 0.38192234245703377,
-    "distanza_rapporto": 1.0128449063928435,
+    "distanza_rapporto": 1.0128449063930118,
     "grappolo_identiche": 1.2152584562876971,
-    "grappolo_distanza": 0.9985223734835801
+    "grappolo_distanza": 0.9985223734835862
    },
    "blocco_150": {
     "coppie": 29800,
@@ -917,9 +917,9 @@
     "identiche_caso": 0.015517225950782998,
     "identiche_testo": 0.012311705945753747,
     "identiche_rapporto": 0.3697990254029584,
-    "distanza_rapporto": 1.0127982602458199,
+    "distanza_rapporto": 1.0127982602458239,
     "grappolo_identiche": 1.2603635937337199,
-    "grappolo_distanza": 0.998924884772853
+    "grappolo_distanza": 0.9989248847728577
    },
    "lingua": "Dinka",
    "tipo_scrittura": "alfabeto"
@@ -932,9 +932,9 @@
     "identiche_caso": 0.008133333333333333,
     "identiche_testo": 0.00868289831883285,
     "identiche_rapporto": 0.2107728337236534,
-    "distanza_rapporto": 1.0069067357233719,
+    "distanza_rapporto": 1.0069067357236765,
     "grappolo_identiche": 0.9367071955331396,
-    "grappolo_distanza": 1.000730138506034
+    "grappolo_distanza": 1.0007301385060177
    },
    "blocco_150": {
     "coppie": 29800,
@@ -942,9 +942,9 @@
     "identiche_caso": 0.011852348993288603,
     "identiche_testo": 0.00868289831883285,
     "identiche_rapporto": 0.13873159682899192,
-    "distanza_rapporto": 1.008122213366449,
+    "distanza_rapporto": 1.0081222133664998,
     "grappolo_identiche": 1.3650222031946804,
-    "grappolo_distanza": 0.9991451427647131
+    "grappolo_distanza": 0.9991451427647059
    },
    "lingua": "Dutch",
    "tipo_scrittura": "alfabeto"
@@ -957,9 +957,9 @@
     "identiche_caso": 0.012942857142857143,
     "identiche_testo": 0.01362576308099159,
     "identiche_rapporto": 0.029433406916850625,
-    "distanza_rapporto": 1.0047321636907125,
+    "distanza_rapporto": 1.004732163691008,
     "grappolo_identiche": 0.9498812702029786,
-    "grappolo_distanza": 1.002466926754367
+    "grappolo_distanza": 1.00246692675434
    },
    "blocco_150": {
     "coppie": 29800,
@@ -967,9 +967,9 @@
     "identiche_caso": 0.017375838926174496,
     "identiche_testo": 0.01362576308099159,
     "identiche_rapporto": 0.021243723445345693,
-    "distanza_rapporto": 1.0064352110735837,
+    "distanza_rapporto": 1.0064352110736492,
     "grappolo_identiche": 1.2752195104885091,
-    "grappolo_distanza": 1.0006566621244382
+    "grappolo_distanza": 1.000656662124425
    },
    "lingua": "English",
    "tipo_scrittura": "alfabeto"
@@ -982,9 +982,9 @@
     "identiche_caso": 0.012561904761904762,
     "identiche_testo": 0.011752713979354868,
     "identiche_rapporto": 0.15769522365428354,
-    "distanza_rapporto": 1.004504588337692,
+    "distanza_rapporto": 1.004504588337973,
     "grappolo_identiche": 1.0688513975556064,
-    "grappolo_distanza": 1.0009025913916552
+    "grappolo_distanza": 1.0009025913916343
    },
    "blocco_150": {
     "coppie": 29800,
@@ -992,9 +992,9 @@
     "identiche_caso": 0.015803131991051458,
     "identiche_testo": 0.011752713979354868,
     "identiche_rapporto": 0.11678935447338616,
-    "distanza_rapporto": 1.0057329983545173,
+    "distanza_rapporto": 1.0057329983545735,
     "grappolo_identiche": 1.3446368233594097,
-    "grappolo_distanza": 1.0003909598939364
+    "grappolo_distanza": 1.000390959893918
    },
    "lingua": "English",
    "tipo_scrittura": "alfabeto"
@@ -1007,9 +1007,9 @@
     "identiche_caso": 0.015657142857142856,
     "identiche_testo": 0.017017816149427205,
     "identiche_rapporto": 0.031630170316301706,
-    "distanza_rapporto": 1.012528773190824,
+    "distanza_rapporto": 1.0125287731911718,
     "grappolo_identiche": 0.9200441889642728,
-    "grappolo_distanza": 1.0005122203921215
+    "grappolo_distanza": 1.0005122203921184
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1017,9 +1017,9 @@
     "identiche_caso": 0.02069843400447428,
     "identiche_testo": 0.017017816149427205,
     "identiche_rapporto": 0.025939776485592606,
-    "distanza_rapporto": 1.01502653972535,
+    "distanza_rapporto": 1.0150265397253673,
     "grappolo_identiche": 1.21628026902682,
-    "grappolo_distanza": 0.9983349505929733
+    "grappolo_distanza": 0.9983349505929934
    },
    "lingua": "Esperanto",
    "tipo_scrittura": "alfabeto"
@@ -1032,9 +1032,9 @@
     "identiche_caso": 0.010371428571428571,
     "identiche_testo": 0.009919666211095926,
     "identiche_rapporto": 0.0881542699724518,
-    "distanza_rapporto": 1.0034507884255894,
+    "distanza_rapporto": 1.0034507884259452,
     "grappolo_identiche": 1.0455420929211623,
-    "grappolo_distanza": 0.9941154341193364
+    "grappolo_distanza": 0.9941154341192997
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1042,9 +1042,9 @@
     "identiche_caso": 0.013827293064876957,
     "identiche_testo": 0.009919666211095926,
     "identiche_rapporto": 0.060671757701268446,
-    "distanza_rapporto": 1.0001116904150305,
+    "distanza_rapporto": 1.0001116904151024,
     "grappolo_identiche": 1.39392725225069,
-    "grappolo_distanza": 0.9978464408926304
+    "grappolo_distanza": 0.9978464408926164
    },
    "lingua": "Estonian",
    "tipo_scrittura": "alfabeto"
@@ -1057,9 +1057,9 @@
     "identiche_caso": 0.007161904761904762,
     "identiche_testo": 0.008348527173127993,
     "identiche_rapporto": 0.3670212765957447,
-    "distanza_rapporto": 1.009929430172973,
+    "distanza_rapporto": 1.0099294301732036,
     "grappolo_identiche": 0.8578644608066082,
-    "grappolo_distanza": 1.0011420672252904
+    "grappolo_distanza": 1.001142067225278
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1067,9 +1067,9 @@
     "identiche_caso": 0.010460402684563764,
     "identiche_testo": 0.008348527173127993,
     "identiche_rapporto": 0.24060053894520708,
-    "distanza_rapporto": 1.0117317252688667,
+    "distanza_rapporto": 1.0117317252688967,
     "grappolo_identiche": 1.2529638423210046,
-    "grappolo_distanza": 0.998933455119282
+    "grappolo_distanza": 0.9989334551192498
    },
    "lingua": "Ewe",
    "tipo_scrittura": "alfabeto"
@@ -1082,9 +1082,9 @@
     "identiche_caso": 0.007676190476190476,
     "identiche_testo": 0.00941056924119693,
     "identiche_rapporto": 0.11910669975186104,
-    "distanza_rapporto": 1.0068918382673806,
+    "distanza_rapporto": 1.006891838267616,
     "grappolo_identiche": 0.8156988466315288,
-    "grappolo_distanza": 1.0017189034415153
+    "grappolo_distanza": 1.0017189034415148
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1092,9 +1092,9 @@
     "identiche_caso": 0.011914988814317667,
     "identiche_testo": 0.00941056924119693,
     "identiche_rapporto": 0.08730754787833275,
-    "distanza_rapporto": 1.009816780934287,
+    "distanza_rapporto": 1.0098167809343435,
     "grappolo_identiche": 1.2661283827716887,
-    "grappolo_distanza": 0.9985248135789841
+    "grappolo_distanza": 0.9985248135789749
    },
    "lingua": "Farsi (Persian)",
    "tipo_scrittura": "abjad"
@@ -1107,9 +1107,9 @@
     "identiche_caso": 0.009580952380952381,
     "identiche_testo": 0.010063899907774704,
     "identiche_rapporto": 0.04771371769383698,
-    "distanza_rapporto": 1.0056271692081444,
+    "distanza_rapporto": 1.0056271692083874,
     "grappolo_identiche": 0.9520118908923936,
-    "grappolo_distanza": 0.9966780772106812
+    "grappolo_distanza": 0.996678077210676
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1117,9 +1117,9 @@
     "identiche_caso": 0.012570022371364654,
     "identiche_testo": 0.010063899907774704,
     "identiche_rapporto": 0.03203531003061152,
-    "distanza_rapporto": 1.0042033259294758,
+    "distanza_rapporto": 1.0042033259293959,
     "grappolo_identiche": 1.2490210044372447,
-    "grappolo_distanza": 0.9975388649802135
+    "grappolo_distanza": 0.9975388649802223
    },
    "lingua": "Finnish",
    "tipo_scrittura": "alfabeto"
@@ -1132,9 +1132,9 @@
     "identiche_caso": 0.009647619047619047,
     "identiche_testo": 0.008603873462448747,
     "identiche_rapporto": 0.1895360315893386,
-    "distanza_rapporto": 1.0062945922632232,
+    "distanza_rapporto": 1.0062945922634678,
     "grappolo_identiche": 1.121311126869274,
-    "grappolo_distanza": 0.9981772926693765
+    "grappolo_distanza": 0.9981772926693783
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1142,9 +1142,9 @@
     "identiche_caso": 0.011733780760626405,
     "identiche_testo": 0.008603873462448747,
     "identiche_rapporto": 0.14871306005719725,
-    "distanza_rapporto": 1.006608763112828,
+    "distanza_rapporto": 1.0066087631128307,
     "grappolo_identiche": 1.3637788621413378,
-    "grappolo_distanza": 0.9976191605867906
+    "grappolo_distanza": 0.9976191605867983
    },
    "lingua": "French",
    "tipo_scrittura": "alfabeto"
@@ -1157,9 +1157,9 @@
     "identiche_caso": 0.016295238095238095,
     "identiche_testo": 0.02212909541429159,
     "identiche_rapporto": 0.4301578024547048,
-    "distanza_rapporto": 0.9999012159747295,
+    "distanza_rapporto": 0.9999012159749905,
     "grappolo_identiche": 0.7363716315631309,
-    "grappolo_distanza": 1.0024728902867133
+    "grappolo_distanza": 1.0024728902867444
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1167,9 +1167,9 @@
     "identiche_caso": 0.025505592841163303,
     "identiche_testo": 0.02212909541429159,
     "identiche_rapporto": 0.28155424962722575,
-    "distanza_rapporto": 1.0018049760084948,
+    "distanza_rapporto": 1.001804976008624,
     "grappolo_identiche": 1.1525818097693716,
-    "grappolo_distanza": 0.9991022358117332
+    "grappolo_distanza": 0.999102235811737
    },
    "lingua": "Galela",
    "tipo_scrittura": "alfabeto"
@@ -1182,9 +1182,9 @@
     "identiche_caso": 0.01,
     "identiche_testo": 0.010770076780337123,
     "identiche_rapporto": 0.14476190476190476,
-    "distanza_rapporto": 1.0019105259660972,
+    "distanza_rapporto": 1.0019105259663779,
     "grappolo_identiche": 0.9284984874255447,
-    "grappolo_distanza": 0.9989821931097331
+    "grappolo_distanza": 0.9989821931097373
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1192,9 +1192,9 @@
     "identiche_caso": 0.01414586129753915,
     "identiche_testo": 0.010770076780337123,
     "identiche_rapporto": 0.10912196356275303,
-    "distanza_rapporto": 1.0024790944762227,
+    "distanza_rapporto": 1.002479094476322,
     "grappolo_identiche": 1.3134410818096656,
-    "grappolo_distanza": 0.9989036816261107
+    "grappolo_distanza": 0.998903681626096
    },
    "lingua": "German",
    "tipo_scrittura": "alfabeto"
@@ -1207,9 +1207,9 @@
     "identiche_caso": 0.011057142857142857,
     "identiche_testo": 0.010432858873073547,
     "identiche_rapporto": 0.103359173126615,
-    "distanza_rapporto": 0.9919481085592995,
+    "distanza_rapporto": 0.9919481085596968,
     "grappolo_identiche": 1.0598382467993066,
-    "grappolo_distanza": 0.99379827113394
+    "grappolo_distanza": 0.9937982711338927
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1217,9 +1217,9 @@
     "identiche_caso": 0.013468008948545862,
     "identiche_testo": 0.010432858873073547,
     "identiche_rapporto": 0.08720640510282049,
-    "distanza_rapporto": 0.9876039557086648,
+    "distanza_rapporto": 0.987603955708735,
     "grappolo_identiche": 1.2909221827303556,
-    "grappolo_distanza": 0.9984360961380059
+    "grappolo_distanza": 0.9984360961379873
    },
    "lingua": "Greek",
    "tipo_scrittura": "alfabeto"
@@ -1232,9 +1232,9 @@
     "identiche_caso": 0.006380952380952381,
     "identiche_testo": 0.0036970921252930653,
     "identiche_rapporto": 0.17313432835820897,
-    "distanza_rapporto": 1.0052756253892914,
+    "distanza_rapporto": 1.0052756253896085,
     "grappolo_identiche": 1.725938160236288,
-    "grappolo_distanza": 0.9936549182970147
+    "grappolo_distanza": 0.9936549182969939
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1242,9 +1242,9 @@
     "identiche_caso": 0.00681565995525727,
     "identiche_testo": 0.0036970921252930653,
     "identiche_rapporto": 0.16739972428280706,
-    "distanza_rapporto": 1.0009307398406337,
+    "distanza_rapporto": 1.0009307398407497,
     "grappolo_identiche": 1.8435191021151518,
-    "grappolo_distanza": 0.9980244135145294
+    "grappolo_distanza": 0.9980244135145077
    },
    "lingua": "Hebrew",
    "tipo_scrittura": "abjad"
@@ -1257,9 +1257,9 @@
     "identiche_caso": 0.013552380952380953,
     "identiche_testo": 0.015069493427558697,
     "identiche_rapporto": 0.08995080815179197,
-    "distanza_rapporto": 1.009981573721221,
+    "distanza_rapporto": 1.009981573721247,
     "grappolo_identiche": 0.8993255823448393,
-    "grappolo_distanza": 0.999443930704634
+    "grappolo_distanza": 0.9994439307046266
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1267,9 +1267,9 @@
     "identiche_caso": 0.01763042505592842,
     "identiche_testo": 0.015069493427558697,
     "identiche_rapporto": 0.06471424220891277,
-    "distanza_rapporto": 1.0108135295836551,
+    "distanza_rapporto": 1.0108135295834428,
     "grappolo_identiche": 1.1699414542818247,
-    "grappolo_distanza": 0.9990374640396686
+    "grappolo_distanza": 0.9990374640396467
    },
    "lingua": "Hungarian",
    "tipo_scrittura": "alfabeto"
@@ -1282,9 +1282,9 @@
     "identiche_caso": 0.015419047619047619,
     "identiche_testo": 0.00832082847206018,
     "identiche_rapporto": 1.8826436071649166,
-    "distanza_rapporto": 0.9964004575617208,
+    "distanza_rapporto": 0.9964004575623076,
     "grappolo_identiche": 1.8530663948694486,
-    "grappolo_distanza": 0.998543918683475
+    "grappolo_distanza": 0.998543918683458
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1292,9 +1292,9 @@
     "identiche_caso": 0.012711856823266221,
     "identiche_testo": 0.00832082847206018,
     "identiche_rapporto": 2.2860863749956,
-    "distanza_rapporto": 0.9967273594055618,
+    "distanza_rapporto": 0.9967273594059078,
     "grappolo_identiche": 1.5277152829132714,
-    "grappolo_distanza": 0.9993246571377633
+    "grappolo_distanza": 0.9993246571377186
    },
    "lingua": "Indonesian",
    "tipo_scrittura": "alfabeto"
@@ -1307,9 +1307,9 @@
     "identiche_caso": 0.007409523809523809,
     "identiche_testo": 0.006720141782503861,
     "identiche_rapporto": 0.17480719794344474,
-    "distanza_rapporto": 0.9988866307008678,
+    "distanza_rapporto": 0.9988866307011162,
     "grappolo_identiche": 1.1025844467768195,
-    "grappolo_distanza": 0.9973045052070272
+    "grappolo_distanza": 0.9973045052070183
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1317,9 +1317,9 @@
     "identiche_caso": 0.00915123042505593,
     "identiche_testo": 0.006720141782503861,
     "identiche_rapporto": 0.1576785801593898,
-    "distanza_rapporto": 0.9969376754123696,
+    "distanza_rapporto": 0.996937675412346,
     "grappolo_identiche": 1.3617615105802527,
-    "grappolo_distanza": 0.998893204345788
+    "grappolo_distanza": 0.998893204345808
    },
    "lingua": "Italian",
    "tipo_scrittura": "alfabeto"
@@ -1332,9 +1332,9 @@
     "identiche_caso": 0.015276190476190476,
     "identiche_testo": 0.011800573352445082,
     "identiche_rapporto": 0.09476309226932668,
-    "distanza_rapporto": 1.0119275761983868,
+    "distanza_rapporto": 1.0119275761988482,
     "grappolo_identiche": 1.2945295130956704,
-    "grappolo_distanza": 1.0034162789538534
+    "grappolo_distanza": 1.003416278953872
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1342,9 +1342,9 @@
     "identiche_caso": 0.018834451901565998,
     "identiche_testo": 0.011800573352445082,
     "identiche_rapporto": 0.08373916142059626,
-    "distanza_rapporto": 1.0157728882858061,
+    "distanza_rapporto": 1.0157728882858832,
     "grappolo_identiche": 1.5960624402765562,
-    "grappolo_distanza": 0.9994567445453583
+    "grappolo_distanza": 0.9994567445453816
    },
    "lingua": "Jakalteko",
    "tipo_scrittura": "alfabeto"
@@ -1357,9 +1357,9 @@
     "identiche_caso": 0.025676190476190477,
     "identiche_testo": 0.031225540851361713,
     "identiche_rapporto": 0.05341246290801187,
-    "distanza_rapporto": 1.005748891058313,
+    "distanza_rapporto": 1.0057488910585326,
     "grappolo_identiche": 0.8222816891599418,
-    "grappolo_distanza": 1.0008756953496742
+    "grappolo_distanza": 1.0008756953496578
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1367,9 +1367,9 @@
     "identiche_caso": 0.034333780760626396,
     "identiche_testo": 0.031225540851361713,
     "identiche_rapporto": 0.042027210175145956,
-    "distanza_rapporto": 1.0078564247630057,
+    "distanza_rapporto": 1.0078564247629762,
     "grappolo_identiche": 1.0995415875760286,
-    "grappolo_distanza": 0.9992192194219737
+    "grappolo_distanza": 0.9992192194219711
    },
    "lingua": "K’iche’",
    "tipo_scrittura": "alfabeto"
@@ -1382,9 +1382,9 @@
     "identiche_caso": 0.022076190476190475,
     "identiche_testo": 0.02708970076780337,
     "identiche_rapporto": 0.060396893874029335,
-    "distanza_rapporto": 1.0018267662298452,
+    "distanza_rapporto": 1.0018267662301992,
     "grappolo_identiche": 0.8149292849490775,
-    "grappolo_distanza": 0.9993919652526314
+    "grappolo_distanza": 0.9993919652526017
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1392,9 +1392,9 @@
     "identiche_caso": 0.03110469798657719,
     "identiche_testo": 0.02708970076780337,
     "identiche_rapporto": 0.042074828464160864,
-    "distanza_rapporto": 1.0027835342171878,
+    "distanza_rapporto": 1.0027835342172517,
     "grappolo_identiche": 1.148211205918735,
-    "grappolo_distanza": 0.9981675967412651
+    "grappolo_distanza": 0.9981675967412622
    },
    "lingua": "K’iche’",
    "tipo_scrittura": "alfabeto"
@@ -1407,9 +1407,9 @@
     "identiche_caso": 0.010209523809523809,
     "identiche_testo": 0.00962366967787815,
     "identiche_rapporto": 0.16044776119402987,
-    "distanza_rapporto": 1.0062544275146994,
+    "distanza_rapporto": 1.00625442751496,
     "grappolo_identiche": 1.06087637577507,
-    "grappolo_distanza": 0.9986477896575049
+    "grappolo_distanza": 0.9986477896575223
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1417,9 +1417,9 @@
     "identiche_caso": 0.012440715883668909,
     "identiche_testo": 0.00962366967787815,
     "identiche_rapporto": 0.13217047293652215,
-    "distanza_rapporto": 1.0064434970107727,
+    "distanza_rapporto": 1.0064434970108114,
     "grappolo_identiche": 1.2927205837359816,
-    "grappolo_distanza": 0.9994702949412747
+    "grappolo_distanza": 0.9994702949412726
    },
    "lingua": "Kabyle",
    "tipo_scrittura": "alfabeto"
@@ -1432,9 +1432,9 @@
     "identiche_caso": 0.0116,
     "identiche_testo": 0.010991001922286298,
     "identiche_rapporto": 0.11494252873563218,
-    "distanza_rapporto": 1.002684148750594,
+    "distanza_rapporto": 1.0026841487510094,
     "grappolo_identiche": 1.0554087863890593,
-    "grappolo_distanza": 0.9971400296847429
+    "grappolo_distanza": 0.997140029684734
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1442,9 +1442,9 @@
     "identiche_caso": 0.014714093959731549,
     "identiche_testo": 0.010991001922286298,
     "identiche_rapporto": 0.08438241196861883,
-    "distanza_rapporto": 1.0025429488561366,
+    "distanza_rapporto": 1.0025429488562325,
     "grappolo_identiche": 1.338740004211626,
-    "grappolo_distanza": 0.9978002218023756
+    "grappolo_distanza": 0.9978002218023571
    },
    "lingua": "Latin",
    "tipo_scrittura": "alfabeto"
@@ -1457,9 +1457,9 @@
     "identiche_caso": 0.00940952380952381,
     "identiche_testo": 0.010414731602164516,
     "identiche_rapporto": 0.048582995951417,
-    "distanza_rapporto": 1.0039982944911143,
+    "distanza_rapporto": 1.0039982944912533,
     "grappolo_identiche": 0.9034821221478438,
-    "grappolo_distanza": 0.9958568393741657
+    "grappolo_distanza": 0.995856839374167
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1467,9 +1467,9 @@
     "identiche_caso": 0.013174944071588368,
     "identiche_testo": 0.010414731602164516,
     "identiche_rapporto": 0.030564423011614477,
-    "distanza_rapporto": 1.002606013191086,
+    "distanza_rapporto": 1.0026060131910073,
     "grappolo_identiche": 1.2650296306099902,
-    "grappolo_distanza": 0.9971000474747089
+    "grappolo_distanza": 0.9971000474747082
    },
    "lingua": "Latvian",
    "tipo_scrittura": "alfabeto"
@@ -1482,9 +1482,9 @@
     "identiche_caso": 0.00499047619047619,
     "identiche_testo": 0.005535322288520729,
     "identiche_rapporto": 0.09923664122137406,
-    "distanza_rapporto": 1.0040178440509377,
+    "distanza_rapporto": 1.0040178440511014,
     "grappolo_identiche": 0.9015692186208467,
-    "grappolo_distanza": 0.9949687603745144
+    "grappolo_distanza": 0.9949687603745178
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1492,9 +1492,9 @@
     "identiche_caso": 0.007432662192393736,
     "identiche_testo": 0.005535322288520729,
     "identiche_rapporto": 0.05869251143751505,
-    "distanza_rapporto": 1.0010210194918754,
+    "distanza_rapporto": 1.001021019491747,
     "grappolo_identiche": 1.34276954529057,
-    "grappolo_distanza": 0.998002699947582
+    "grappolo_distanza": 0.9980026999475912
    },
    "lingua": "Lithuanian",
    "tipo_scrittura": "alfabeto"
@@ -1507,9 +1507,9 @@
     "identiche_caso": 0.01360952380952381,
     "identiche_testo": 0.012981612720424014,
     "identiche_rapporto": 0.18474457662701188,
-    "distanza_rapporto": 1.0025394618187489,
+    "distanza_rapporto": 1.0025394618189567,
     "grappolo_identiche": 1.0483692667947104,
-    "grappolo_distanza": 0.9989951737508613
+    "grappolo_distanza": 0.9989951737508399
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1517,9 +1517,9 @@
     "identiche_caso": 0.01643758389261745,
     "identiche_testo": 0.012981612720424014,
     "identiche_rapporto": 0.14494528825739014,
-    "distanza_rapporto": 1.0036560695350267,
+    "distanza_rapporto": 1.0036560695350791,
     "grappolo_identiche": 1.2662204801993628,
-    "grappolo_distanza": 0.9984186386846606
+    "grappolo_distanza": 0.9984186386846367
    },
    "lingua": "Lukpa",
    "tipo_scrittura": "alfabeto"
@@ -1532,9 +1532,9 @@
     "identiche_caso": 0.01479047619047619,
     "identiche_testo": 0.01738851739502428,
     "identiche_rapporto": 0.0180296200901481,
-    "distanza_rapporto": 1.0104470005400379,
+    "distanza_rapporto": 1.010447000540585,
     "grappolo_identiche": 0.8505886876076325,
-    "grappolo_distanza": 1.003077822584642
+    "grappolo_distanza": 1.0030778225846848
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1542,9 +1542,9 @@
     "identiche_caso": 0.020854586129753907,
     "identiche_testo": 0.01738851739502428,
     "identiche_rapporto": 0.016090967603518563,
-    "distanza_rapporto": 1.0137758773215326,
+    "distanza_rapporto": 1.0137758773218164,
     "grappolo_identiche": 1.1993308949802381,
-    "grappolo_distanza": 0.9999567549660644
+    "grappolo_distanza": 0.9999567549660892
    },
    "lingua": "Malagasy",
    "tipo_scrittura": "alfabeto"
@@ -1557,9 +1557,9 @@
     "identiche_caso": 0.0068,
     "identiche_testo": 0.006579528206495772,
     "identiche_rapporto": 0.08403361344537816,
-    "distanza_rapporto": 1.0011196906590552,
+    "distanza_rapporto": 1.0011196906593924,
     "grappolo_identiche": 1.0335087542122796,
-    "grappolo_distanza": 0.9989950261360284
+    "grappolo_distanza": 0.9989950261360043
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1567,9 +1567,9 @@
     "identiche_caso": 0.009538255033557045,
     "identiche_testo": 0.006579528206495772,
     "identiche_rapporto": 0.0703630734590487,
-    "distanza_rapporto": 1.0008109680178314,
+    "distanza_rapporto": 1.000810968017838,
     "grappolo_identiche": 1.4496867760427274,
-    "grappolo_distanza": 0.9983671494202528
+    "grappolo_distanza": 0.9983671494202802
    },
    "lingua": "Mam",
    "tipo_scrittura": "alfabeto"
@@ -1582,9 +1582,9 @@
     "identiche_caso": 0.010619047619047618,
     "identiche_testo": 0.01174000022222963,
     "identiche_rapporto": 0.13273542600896862,
-    "distanza_rapporto": 1.009958781723357,
+    "distanza_rapporto": 1.009958781723529,
     "grappolo_identiche": 0.9045185194239185,
-    "grappolo_distanza": 1.0028473184143958
+    "grappolo_distanza": 1.0028473184144242
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1592,9 +1592,9 @@
     "identiche_caso": 0.014985234899328861,
     "identiche_testo": 0.01174000022222963,
     "identiche_rapporto": 0.09405231099964169,
-    "distanza_rapporto": 1.0131315184063128,
+    "distanza_rapporto": 1.0131315184063123,
     "grappolo_identiche": 1.27642543574696,
-    "grappolo_distanza": 1.0000543416993888
+    "grappolo_distanza": 1.0000543416994003
    },
    "lingua": "Manx",
    "tipo_scrittura": "alfabeto"
@@ -1607,9 +1607,9 @@
     "identiche_caso": 0.022466666666666666,
     "identiche_testo": 0.023081676055868527,
     "identiche_rapporto": 0.0423908435777872,
-    "distanza_rapporto": 1.0108976746556089,
+    "distanza_rapporto": 1.0108976746560998,
     "grappolo_identiche": 0.9733550809866125,
-    "grappolo_distanza": 1.0011342697623624
+    "grappolo_distanza": 1.001134269762326
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1617,9 +1617,9 @@
     "identiche_caso": 0.027040715883668895,
     "identiche_testo": 0.023081676055868527,
     "identiche_rapporto": 0.03474750148917865,
-    "distanza_rapporto": 1.011535349736681,
+    "distanza_rapporto": 1.0115353497368706,
     "grappolo_identiche": 1.1715230652322486,
-    "grappolo_distanza": 1.0008983917369594
+    "grappolo_distanza": 1.0008983917369556
    },
    "lingua": "Maori",
    "tipo_scrittura": "alfabeto"
@@ -1632,9 +1632,9 @@
     "identiche_caso": 0.011828571428571428,
     "identiche_testo": 0.014701625609742548,
     "identiche_rapporto": 0.11594202898550725,
-    "distanza_rapporto": 1.0077196620381927,
+    "distanza_rapporto": 1.0077196620385411,
     "grappolo_identiche": 0.8045757484623204,
-    "grappolo_distanza": 0.9998310852735436
+    "grappolo_distanza": 0.9998310852735574
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1642,9 +1642,9 @@
     "identiche_caso": 0.018022818791946296,
     "identiche_testo": 0.014701625609742548,
     "identiche_rapporto": 0.07261488046473528,
-    "distanza_rapporto": 1.0092681677402888,
+    "distanza_rapporto": 1.0092681677403124,
     "grappolo_identiche": 1.2259065269627627,
-    "grappolo_distanza": 0.99857622910613
+    "grappolo_distanza": 0.9985762291061142
    },
    "lingua": "Nahuatl (Tetelcingo)",
    "tipo_scrittura": "alfabeto"
@@ -1657,9 +1657,9 @@
     "identiche_caso": 0.011942857142857142,
     "identiche_testo": 0.012603395668744515,
     "identiche_rapporto": 0.12759170653907498,
-    "distanza_rapporto": 1.0047351476711277,
+    "distanza_rapporto": 1.0047351476713664,
     "grappolo_identiche": 0.9475904317179014,
-    "grappolo_distanza": 0.9986853747590271
+    "grappolo_distanza": 0.9986853747590104
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1667,9 +1667,9 @@
     "identiche_caso": 0.016292170022371367,
     "identiche_testo": 0.012603395668744515,
     "identiche_rapporto": 0.08444786202729793,
-    "distanza_rapporto": 1.0053537176822098,
+    "distanza_rapporto": 1.0053537176822493,
     "grappolo_identiche": 1.2926809925339993,
-    "grappolo_distanza": 0.998932364212663
+    "grappolo_distanza": 0.9989323642126322
    },
    "lingua": "Norwegian",
    "tipo_scrittura": "alfabeto"
@@ -1682,9 +1682,9 @@
     "identiche_caso": 0.031752380952380956,
     "identiche_testo": 0.03259318199495539,
     "identiche_rapporto": 0.22555488902219553,
-    "distanza_rapporto": 1.0075210572465954,
+    "distanza_rapporto": 1.007521057247012,
     "grappolo_identiche": 0.9742031617930226,
-    "grappolo_distanza": 1.0008389825453967
+    "grappolo_distanza": 1.0008389825454176
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1692,9 +1692,9 @@
     "identiche_caso": 0.03767248322147653,
     "identiche_testo": 0.03259318199495539,
     "identiche_rapporto": 0.18616831753723356,
-    "distanza_rapporto": 1.0094616787753314,
+    "distanza_rapporto": 1.0094616787754986,
     "grappolo_identiche": 1.1558393785334398,
-    "grappolo_distanza": 0.9996462882556264
+    "grappolo_distanza": 0.9996462882556418
    },
    "lingua": "Paite (Chin)",
    "tipo_scrittura": "alfabeto"
@@ -1707,9 +1707,9 @@
     "identiche_caso": 0.0074476190476190475,
     "identiche_testo": 0.00708615620520684,
     "identiche_rapporto": 0.04603580562659847,
-    "distanza_rapporto": 1.003318659763522,
+    "distanza_rapporto": 1.0033186597635624,
     "grappolo_identiche": 1.0510097197894972,
-    "grappolo_distanza": 0.9974617032860627
+    "grappolo_distanza": 0.9974617032860674
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1717,9 +1717,9 @@
     "identiche_caso": 0.009304250559284117,
     "identiche_testo": 0.00708615620520684,
     "identiche_rapporto": 0.04327963452753065,
-    "distanza_rapporto": 1.0022556082440346,
+    "distanza_rapporto": 1.0022556082438745,
     "grappolo_identiche": 1.3130179874453576,
-    "grappolo_distanza": 0.999175833853576
+    "grappolo_distanza": 0.9991758338535236
    },
    "lingua": "Polish",
    "tipo_scrittura": "alfabeto"
@@ -1732,9 +1732,9 @@
     "identiche_caso": 0.009504761904761905,
     "identiche_testo": 0.009921712945987088,
     "identiche_rapporto": 0.056112224448897796,
-    "distanza_rapporto": 1.0011591423135817,
+    "distanza_rapporto": 1.001159142313876,
     "grappolo_identiche": 0.957975901591285,
-    "grappolo_distanza": 0.9962948322493533
+    "grappolo_distanza": 0.9962948322493157
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1742,9 +1742,9 @@
     "identiche_caso": 0.012407158836689035,
     "identiche_testo": 0.009921712945987088,
     "identiche_rapporto": 0.045979084024522186,
-    "distanza_rapporto": 0.9985144165223175,
+    "distanza_rapporto": 0.9985144165222771,
     "grappolo_identiche": 1.2505057245893416,
-    "grappolo_distanza": 0.9985803949208961
+    "grappolo_distanza": 0.9985803949209328
    },
    "lingua": "Portuguese",
    "tipo_scrittura": "alfabeto"
@@ -1757,9 +1757,9 @@
     "identiche_caso": 0.011485714285714285,
     "identiche_testo": 0.010422571863506562,
     "identiche_rapporto": 0.29519071310116085,
-    "distanza_rapporto": 1.0134706574718446,
+    "distanza_rapporto": 1.0134706574721775,
     "grappolo_identiche": 1.1020038466638158,
-    "grappolo_distanza": 1.0012875261850598
+    "grappolo_distanza": 1.001287526185064
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1767,9 +1767,9 @@
     "identiche_caso": 0.013663534675615204,
     "identiche_testo": 0.010422571863506562,
     "identiche_rapporto": 0.23331586875368407,
-    "distanza_rapporto": 1.0161150466468463,
+    "distanza_rapporto": 1.0161150466469329,
     "grappolo_identiche": 1.3109561492645114,
-    "grappolo_distanza": 0.9984083006305684
+    "grappolo_distanza": 0.9984083006305271
    },
    "lingua": "Potawatomi",
    "tipo_scrittura": "alfabeto"
@@ -1782,9 +1782,9 @@
     "identiche_caso": 0.013352380952380952,
     "identiche_testo": 0.017291167483360556,
     "identiche_rapporto": 0.07988587731811699,
-    "distanza_rapporto": 1.0000720838940396,
+    "distanza_rapporto": 1.0000720838942416,
     "grappolo_identiche": 0.7722081788421786,
-    "grappolo_distanza": 0.9974137806015391
+    "grappolo_distanza": 0.9974137806015273
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1792,9 +1792,9 @@
     "identiche_caso": 0.021377628635346767,
     "identiche_testo": 0.017291167483360556,
     "identiche_rapporto": 0.05023127315347744,
-    "distanza_rapporto": 1.0002560071166036,
+    "distanza_rapporto": 1.0002560071166027,
     "grappolo_identiche": 1.2363322867538382,
-    "grappolo_distanza": 0.9974601058500178
+    "grappolo_distanza": 0.9974601058500158
    },
    "lingua": "Q’eqchi’",
    "tipo_scrittura": "alfabeto"
@@ -1807,9 +1807,9 @@
     "identiche_caso": 0.007323809523809524,
     "identiche_testo": 0.002918797293243108,
     "identiche_rapporto": 0.14564369310793238,
-    "distanza_rapporto": 1.0094758248291071,
+    "distanza_rapporto": 1.0094758248297964,
     "grappolo_identiche": 2.5091874453782155,
-    "grappolo_distanza": 0.9940792639650798
+    "grappolo_distanza": 0.9940792639650912
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1817,9 +1817,9 @@
     "identiche_caso": 0.006535123042505591,
     "identiche_testo": 0.002918797293243108,
     "identiche_rapporto": 0.17458578666301522,
-    "distanza_rapporto": 1.0062721031744777,
+    "distanza_rapporto": 1.0062721031749529,
     "grappolo_identiche": 2.2389780399050405,
-    "grappolo_distanza": 0.9980577031753226
+    "grappolo_distanza": 0.9980577031753318
    },
    "lingua": "Quichua",
    "tipo_scrittura": "alfabeto"
@@ -1832,9 +1832,9 @@
     "identiche_caso": 0.011933333333333334,
     "identiche_testo": 0.011247439359089747,
     "identiche_rapporto": 0.15003990422984836,
-    "distanza_rapporto": 1.0044031963756765,
+    "distanza_rapporto": 1.0044031963759394,
     "grappolo_identiche": 1.060982233586285,
-    "grappolo_distanza": 0.9982939933354158
+    "grappolo_distanza": 0.9982939933354215
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1842,9 +1842,9 @@
     "identiche_caso": 0.015237583892617448,
     "identiche_testo": 0.011247439359089747,
     "identiche_rapporto": 0.12552854122621565,
-    "distanza_rapporto": 1.0042211139891897,
+    "distanza_rapporto": 1.004221113989247,
     "grappolo_identiche": 1.3547602619704742,
-    "grappolo_distanza": 0.998033313618916
+    "grappolo_distanza": 0.9980333136189103
    },
    "lingua": "Romani",
    "tipo_scrittura": "alfabeto"
@@ -1857,9 +1857,9 @@
     "identiche_caso": 0.009885714285714286,
     "identiche_testo": 0.00914968498949965,
     "identiche_rapporto": 0.17341040462427745,
-    "distanza_rapporto": 1.0026999093774789,
+    "distanza_rapporto": 1.0026999093776485,
     "grappolo_identiche": 1.0804431296879966,
-    "grappolo_distanza": 0.998887820038483
+    "grappolo_distanza": 0.9988878200384806
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1867,9 +1867,9 @@
     "identiche_caso": 0.01252348993288591,
     "identiche_testo": 0.00914968498949965,
     "identiche_rapporto": 0.13665594855305463,
-    "distanza_rapporto": 1.0021647384987205,
+    "distanza_rapporto": 1.0021647384987171,
     "grappolo_identiche": 1.3687345462994738,
-    "grappolo_distanza": 0.9994854587106923
+    "grappolo_distanza": 0.9994854587106419
    },
    "lingua": "Romanian",
    "tipo_scrittura": "alfabeto"
@@ -1882,9 +1882,9 @@
     "identiche_caso": 0.009333333333333334,
     "identiche_testo": 0.00925456181872729,
     "identiche_rapporto": 0.04897959183673469,
-    "distanza_rapporto": 1.0030270311304375,
+    "distanza_rapporto": 1.0030270311305383,
     "grappolo_identiche": 1.0085116417339872,
-    "grappolo_distanza": 0.9962358425747159
+    "grappolo_distanza": 0.9962358425747034
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1892,9 +1892,9 @@
     "identiche_caso": 0.011450111856823266,
     "identiche_testo": 0.00925456181872729,
     "identiche_rapporto": 0.03516861396584737,
-    "distanza_rapporto": 1.001538780266149,
+    "distanza_rapporto": 1.0015387802659645,
     "grappolo_identiche": 1.2372397614388524,
-    "grappolo_distanza": 0.9978509983276275
+    "grappolo_distanza": 0.9978509983276789
    },
    "lingua": "Russian",
    "tipo_scrittura": "alfabeto"
@@ -1907,9 +1907,9 @@
     "identiche_caso": 0.01060952380952381,
     "identiche_testo": 0.010752589530762137,
     "identiche_rapporto": 0.05026929982046679,
-    "distanza_rapporto": 1.0004825303185085,
+    "distanza_rapporto": 1.00048253031871,
     "grappolo_identiche": 0.9866947658674192,
-    "grappolo_distanza": 0.9960091357575009
+    "grappolo_distanza": 0.996009135757476
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1917,9 +1917,9 @@
     "identiche_caso": 0.013471588366890384,
     "identiche_testo": 0.010752589530762137,
     "identiche_rapporto": 0.034873293699558265,
-    "distanza_rapporto": 0.9977139484680214,
+    "distanza_rapporto": 0.997713948468021,
     "grappolo_identiche": 1.252869211490818,
-    "grappolo_distanza": 0.9983487953886183
+    "grappolo_distanza": 0.9983487953885835
    },
    "lingua": "Serbian",
    "tipo_scrittura": "alfabeto"
@@ -1932,9 +1932,9 @@
     "identiche_caso": 0.006533333333333334,
     "identiche_testo": 0.002350407235796749,
     "identiche_rapporto": 0.33819241982507287,
-    "distanza_rapporto": 0.9941376380619461,
+    "distanza_rapporto": 0.9941376380624529,
     "grappolo_identiche": 2.7796601515816226,
-    "grappolo_distanza": 0.9859391864950403
+    "grappolo_distanza": 0.9859391864950239
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1942,9 +1942,9 @@
     "identiche_caso": 0.0054514541387024615,
     "identiche_testo": 0.002350407235796749,
     "identiche_rapporto": 0.4124261326329612,
-    "distanza_rapporto": 0.98474099246128,
+    "distanza_rapporto": 0.984740992461384,
     "grappolo_identiche": 2.319365791458053,
-    "grappolo_distanza": 0.9958370682582572
+    "grappolo_distanza": 0.9958370682582465
    },
    "lingua": "Shona",
    "tipo_scrittura": "alfabeto"
@@ -1957,9 +1957,9 @@
     "identiche_caso": 0.006314285714285714,
     "identiche_testo": 0.003966770003444559,
     "identiche_rapporto": 0.21116138763197587,
-    "distanza_rapporto": 1.0082170169048936,
+    "distanza_rapporto": 1.008217016905477,
     "grappolo_identiche": 1.5917952663760895,
-    "grappolo_distanza": 0.9969257060050835
+    "grappolo_distanza": 0.9969257060050857
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1967,9 +1967,9 @@
     "identiche_caso": 0.007065771812080538,
     "identiche_testo": 0.003966770003444559,
     "identiche_rapporto": 0.18996960486322187,
-    "distanza_rapporto": 1.0077863791480033,
+    "distanza_rapporto": 1.0077863791482284,
     "grappolo_identiche": 1.7812406078358334,
-    "grappolo_distanza": 0.9968251302692299
+    "grappolo_distanza": 0.9968251302691815
    },
    "lingua": "Shuar (Jivaro)",
    "tipo_scrittura": "alfabeto"
@@ -1982,9 +1982,9 @@
     "identiche_caso": 0.010047619047619048,
     "identiche_testo": 0.011012718201717835,
     "identiche_rapporto": 0.04170616113744075,
-    "distanza_rapporto": 1.0040306989265526,
+    "distanza_rapporto": 1.0040306989266607,
     "grappolo_identiche": 0.912365036821859,
-    "grappolo_distanza": 0.996768813400455
+    "grappolo_distanza": 0.9967688134004518
    },
    "blocco_150": {
     "coppie": 29800,
@@ -1992,9 +1992,9 @@
     "identiche_caso": 0.013294854586129752,
     "identiche_testo": 0.011012718201717835,
     "identiche_rapporto": 0.030288752776469006,
-    "distanza_rapporto": 1.0031019230748286,
+    "distanza_rapporto": 1.0031019230747262,
     "grappolo_identiche": 1.2072273477456215,
-    "grappolo_distanza": 0.9983710834331828
+    "grappolo_distanza": 0.9983710834331714
    },
    "lingua": "Slovak",
    "tipo_scrittura": "alfabeto"
@@ -2007,9 +2007,9 @@
     "identiche_caso": 0.010333333333333333,
     "identiche_testo": 0.010495540962476527,
     "identiche_rapporto": 0.047926267281105994,
-    "distanza_rapporto": 1.0014962833539605,
+    "distanza_rapporto": 1.001496283354173,
     "grappolo_identiche": 0.9845450911274497,
-    "grappolo_distanza": 0.997375613268737
+    "grappolo_distanza": 0.9973756132687299
    },
    "blocco_150": {
     "coppie": 29800,
@@ -2017,9 +2017,9 @@
     "identiche_caso": 0.013501118568232667,
     "identiche_testo": 0.010495540962476527,
     "identiche_rapporto": 0.034797017398508684,
-    "distanza_rapporto": 0.9996902999021421,
+    "distanza_rapporto": 0.9996902999021197,
     "grappolo_identiche": 1.286367097846755,
-    "grappolo_distanza": 0.9996130036023573
+    "grappolo_distanza": 0.9996130036023607
    },
    "lingua": "Slovene",
    "tipo_scrittura": "alfabeto"
@@ -2032,9 +2032,9 @@
     "identiche_caso": 0.0078,
     "identiche_testo": 0.007452850650577242,
     "identiche_rapporto": 0.12210012210012211,
-    "distanza_rapporto": 1.013090611418358,
+    "distanza_rapporto": 1.013090611418703,
     "grappolo_identiche": 1.0465794050758108,
-    "grappolo_distanza": 1.0007498032590678
+    "grappolo_distanza": 1.0007498032590794
    },
    "blocco_150": {
     "coppie": 29800,
@@ -2042,9 +2042,9 @@
     "identiche_caso": 0.010046979865771811,
     "identiche_testo": 0.007452850650577242,
     "identiche_rapporto": 0.08350033400133601,
-    "distanza_rapporto": 1.014643453147474,
+    "distanza_rapporto": 1.0146434531475204,
     "grappolo_identiche": 1.348072078298476,
-    "grappolo_distanza": 0.9989593613143288
+    "grappolo_distanza": 0.9989593613143513
    },
    "lingua": "Somali",
    "tipo_scrittura": "alfabeto"
@@ -2057,9 +2057,9 @@
     "identiche_caso": 0.011142857142857144,
     "identiche_testo": 0.010876738113492672,
     "identiche_rapporto": 0.147008547008547,
-    "distanza_rapporto": 0.9988400215655419,
+    "distanza_rapporto": 0.9988400215657538,
     "grappolo_identiche": 1.0244668048993797,
-    "grappolo_distanza": 0.9963468789859035
+    "grappolo_distanza": 0.996346878985873
    },
    "blocco_150": {
     "coppie": 29800,
@@ -2067,9 +2067,9 @@
     "identiche_caso": 0.01379507829977628,
     "identiche_testo": 0.010876738113492672,
     "identiche_rapporto": 0.11676180591593155,
-    "distanza_rapporto": 0.997868097144781,
+    "distanza_rapporto": 0.9978680971447585,
     "grappolo_identiche": 1.2683102374841027,
-    "grappolo_distanza": 0.9976061423995175
+    "grappolo_distanza": 0.9976061423995136
    },
    "lingua": "Spanish",
    "tipo_scrittura": "alfabeto"
@@ -2082,9 +2082,9 @@
     "identiche_caso": 0.008980952380952381,
     "identiche_testo": 0.006636241208040268,
     "identiche_rapporto": 0.2036055143160127,
-    "distanza_rapporto": 1.0024732167870167,
+    "distanza_rapporto": 1.0024732167873718,
     "grappolo_identiche": 1.353319160562056,
-    "grappolo_distanza": 0.9950738604985534
+    "grappolo_distanza": 0.9950738604985732
    },
    "blocco_150": {
     "coppie": 29800,
@@ -2092,9 +2092,9 @@
     "identiche_caso": 0.009692170022371367,
     "identiche_testo": 0.006636241208040268,
     "identiche_rapporto": 0.1973501985042932,
-    "distanza_rapporto": 1.0008666900843883,
+    "distanza_rapporto": 1.0008666900844516,
     "grappolo_identiche": 1.460490919261438,
-    "grappolo_distanza": 0.9970840264446202
+    "grappolo_distanza": 0.9970840264446427
    },
    "lingua": "Swahili",
    "tipo_scrittura": "alfabeto"
@@ -2107,9 +2107,9 @@
     "identiche_caso": 0.00938095238095238,
     "identiche_testo": 0.009765805526850895,
     "identiche_rapporto": 0.150253807106599,
-    "distanza_rapporto": 1.0048129528580394,
+    "distanza_rapporto": 1.0048129528582141,
     "grappolo_identiche": 0.9605917663586103,
-    "grappolo_distanza": 0.9995323537281448
+    "grappolo_distanza": 0.9995323537281129
    },
    "blocco_150": {
     "coppie": 29800,
@@ -2117,9 +2117,9 @@
     "identiche_caso": 0.012638031319910521,
     "identiche_testo": 0.009765805526850895,
     "identiche_rapporto": 0.111520215251717,
-    "distanza_rapporto": 1.0065303346254555,
+    "distanza_rapporto": 1.006530334625425,
     "grappolo_identiche": 1.2941104842977362,
-    "grappolo_distanza": 0.9981943339138324
+    "grappolo_distanza": 0.9981943339138388
    },
    "lingua": "Swedish",
    "tipo_scrittura": "alfabeto"
@@ -2132,9 +2132,9 @@
     "identiche_caso": 0.007247619047619048,
     "identiche_testo": 0.0034361323155216285,
     "identiche_rapporto": 0.25755584756898814,
-    "distanza_rapporto": 1.007931347337363,
+    "distanza_rapporto": 1.0079313473377676,
     "grappolo_identiche": 2.109237474610697,
-    "grappolo_distanza": 0.9923533562820903
+    "grappolo_distanza": 0.9923533562820477
    },
    "blocco_150": {
     "coppie": 29800,
@@ -2142,9 +2142,9 @@
     "identiche_caso": 0.007107829977628634,
     "identiche_testo": 0.0034361323155216285,
     "identiche_rapporto": 0.23605690545134084,
-    "distanza_rapporto": 1.0051980679219423,
+    "distanza_rapporto": 1.0051980679221244,
     "grappolo_identiche": 2.068555377079423,
-    "grappolo_distanza": 0.9953729316733947
+    "grappolo_distanza": 0.9953729316733685
    },
    "lingua": "Syriac",
    "tipo_scrittura": "abjad"
@@ -2157,9 +2157,9 @@
     "identiche_caso": 0.009304761904761904,
     "identiche_testo": 0.007934788937409025,
     "identiche_rapporto": 0.13510747185261002,
-    "distanza_rapporto": 1.00880638268555,
+    "distanza_rapporto": 1.0088063826858276,
     "grappolo_identiche": 1.172653989685102,
-    "grappolo_distanza": 0.9993694279648241
+    "grappolo_distanza": 0.9993694279648058
    },
    "blocco_150": {
     "coppie": 29800,
@@ -2167,9 +2167,9 @@
     "identiche_caso": 0.010790156599552573,
     "identiche_testo": 0.007934788937409025,
     "identiche_rapporto": 0.11817880245480178,
-    "distanza_rapporto": 1.0099058038943918,
+    "distanza_rapporto": 1.0099058038944635,
     "grappolo_identiche": 1.3598542676644807,
-    "grappolo_distanza": 0.9985641958486957
+    "grappolo_distanza": 0.9985641958486858
    },
    "lingua": "Tachelhit",
    "tipo_scrittura": "abjad"
@@ -2182,9 +2182,9 @@
     "identiche_caso": 0.014247619047619047,
     "identiche_testo": 0.02005807304687934,
     "identiche_rapporto": 0.034759358288770054,
-    "distanza_rapporto": 1.006527801868913,
+    "distanza_rapporto": 1.0065278018693873,
     "grappolo_identiche": 0.7103184345933823,
-    "grappolo_distanza": 1.0010430085307596
+    "grappolo_distanza": 1.0010430085307591
    },
    "blocco_150": {
     "coppie": 29800,
@@ -2192,9 +2192,9 @@
     "identiche_caso": 0.023084116331096204,
     "identiche_testo": 0.02005807304687934,
     "identiche_rapporto": 0.02762002597251564,
-    "distanza_rapporto": 1.0078551227007257,
+    "distanza_rapporto": 1.0078551227009354,
     "grappolo_identiche": 1.150864107292084,
-    "grappolo_distanza": 0.9989956516417792
+    "grappolo_distanza": 0.9989956516417824
    },
    "lingua": "Tagalog",
    "tipo_scrittura": "alfabeto"
@@ -2207,9 +2207,9 @@
     "identiche_caso": 0.009085714285714286,
     "identiche_testo": 0.00683288998522173,
     "identiche_rapporto": 0.31027253668763105,
-    "distanza_rapporto": 1.0061722946127132,
+    "distanza_rapporto": 1.006172294613081,
     "grappolo_identiche": 1.3297029961502373,
-    "grappolo_distanza": 0.9974629768745641
+    "grappolo_distanza": 0.9974629768745532
    },
    "blocco_150": {
     "coppie": 29800,
@@ -2217,9 +2217,9 @@
     "identiche_caso": 0.011230872483221476,
     "identiche_testo": 0.00683288998522173,
     "identiche_rapporto": 0.24202223019003227,
-    "distanza_rapporto": 1.0062179356947378,
+    "distanza_rapporto": 1.006217935694807,
     "grappolo_identiche": 1.643648954909528,
-    "grappolo_distanza": 0.9968489911610555
+    "grappolo_distanza": 0.9968489911610409
    },
    "lingua": "Tamajaq (Tuareg)",
    "tipo_scrittura": "alfabeto"
@@ -2232,9 +2232,9 @@
     "identiche_caso": 0.004980952380952381,
     "identiche_testo": 0.001988212940431348,
     "identiche_rapporto": 0.19120458891013384,
-    "distanza_rapporto": 1.0039121756335818,
+    "distanza_rapporto": 1.0039121756337415,
     "grappolo_identiche": 2.5052409023511086,
-    "grappolo_distanza": 0.9966302431737548
+    "grappolo_distanza": 0.9966302431737444
    },
    "blocco_150": {
     "coppie": 29800,
@@ -2242,9 +2242,9 @@
     "identiche_caso": 0.004668903803131993,
     "identiche_testo": 0.001988212940431348,
     "identiche_rapporto": 0.2515572592237661,
-    "distanza_rapporto": 1.0026666923865368,
+    "distanza_rapporto": 1.0026666923863816,
     "grappolo_identiche": 2.3482916282191897,
-    "grappolo_distanza": 0.997392404638729
+    "grappolo_distanza": 0.997392404638743
    },
    "lingua": "Turkish",
    "tipo_scrittura": "alfabeto"
@@ -2257,9 +2257,9 @@
     "identiche_caso": 0.007019047619047619,
     "identiche_testo": 0.006632103292331966,
     "identiche_rapporto": 0.06512890094979647,
-    "distanza_rapporto": 1.0063192912506485,
+    "distanza_rapporto": 1.0063192912506738,
     "grappolo_identiche": 1.0583441345316558,
-    "grappolo_distanza": 0.996416005463713
+    "grappolo_distanza": 0.9964160054637333
    },
    "blocco_150": {
     "coppie": 29800,
@@ -2267,9 +2267,9 @@
     "identiche_caso": 0.009097986577181204,
     "identiche_testo": 0.006632103292331966,
     "identiche_rapporto": 0.04426084390675717,
-    "distanza_rapporto": 1.0055008913196748,
+    "distanza_rapporto": 1.0055008913195476,
     "grappolo_identiche": 1.37181014470934,
-    "grappolo_distanza": 0.9973288975737665
+    "grappolo_distanza": 0.9973288975737676
    },
    "lingua": "Ukranian",
    "tipo_scrittura": "alfabeto"
@@ -2282,9 +2282,9 @@
     "identiche_caso": 0.011933333333333334,
     "identiche_testo": 0.010725853083991689,
     "identiche_rapporto": 0.4820430965682362,
-    "distanza_rapporto": 0.9987889173655539,
+    "distanza_rapporto": 0.9987889173659983,
     "grappolo_identiche": 1.112576616506505,
-    "grappolo_distanza": 0.9968547865121815
+    "grappolo_distanza": 0.9968547865121774
    },
    "blocco_150": {
     "coppie": 29800,
@@ -2292,9 +2292,9 @@
     "identiche_caso": 0.014774049217002247,
     "identiche_testo": 0.010725853083991689,
     "identiche_rapporto": 0.40657177468201067,
-    "distanza_rapporto": 0.9980349006885945,
+    "distanza_rapporto": 0.9980349006887868,
     "grappolo_identiche": 1.3774241639625366,
-    "grappolo_distanza": 0.9983730465298062
+    "grappolo_distanza": 0.9983730465298016
    },
    "lingua": "Uma",
    "tipo_scrittura": "alfabeto"
@@ -2307,9 +2307,9 @@
     "identiche_caso": 0.009371428571428572,
     "identiche_testo": 0.009289851883951688,
     "identiche_rapporto": 0.19918699186991867,
-    "distanza_rapporto": 1.0063394152855307,
+    "distanza_rapporto": 1.0063394152858138,
     "grappolo_identiche": 1.0087812689046,
-    "grappolo_distanza": 0.996586251686656
+    "grappolo_distanza": 0.9965862516866464
    },
    "blocco_150": {
     "coppie": 29800,
@@ -2317,9 +2317,9 @@
     "identiche_caso": 0.013428187919463088,
     "identiche_testo": 0.009289851883951688,
     "identiche_rapporto": 0.1374450219912035,
-    "distanza_rapporto": 1.005454877264481,
+    "distanza_rapporto": 1.005454877264549,
     "grappolo_identiche": 1.4454684624908194,
-    "grappolo_distanza": 0.9981167674215777
+    "grappolo_distanza": 0.9981167674215683
    },
    "lingua": "Uspanteco",
    "tipo_scrittura": "alfabeto"
@@ -2332,9 +2332,9 @@
     "identiche_caso": 0.006514285714285715,
     "identiche_testo": 0.005453199551096148,
     "identiche_rapporto": 0.2573099415204678,
-    "distanza_rapporto": 1.0022570198022462,
+    "distanza_rapporto": 1.0022570198023935,
     "grappolo_identiche": 1.1945804757825667,
-    "grappolo_distanza": 1.0001355752720114
+    "grappolo_distanza": 1.0001355752719865
    },
    "blocco_150": {
     "coppie": 29800,
@@ -2342,9 +2342,9 @@
     "identiche_caso": 0.009262192393736022,
     "identiche_testo": 0.005453199551096148,
     "identiche_rapporto": 0.17752765566880818,
-    "distanza_rapporto": 1.0023091486973104,
+    "distanza_rapporto": 1.002309148697323,
     "grappolo_identiche": 1.698487705602893,
-    "grappolo_distanza": 0.9997636934491668
+    "grappolo_distanza": 0.999763693449154
    },
    "lingua": "Vietnamese",
    "tipo_scrittura": "alfabeto"
@@ -2357,9 +2357,9 @@
     "identiche_caso": 0.008095238095238095,
     "identiche_testo": 0.006652417302798982,
     "identiche_rapporto": 0.3670588235294118,
-    "distanza_rapporto": 1.0061402117082217,
+    "distanza_rapporto": 1.0061402117084348,
     "grappolo_identiche": 1.2168866934778806,
-    "grappolo_distanza": 0.9969573632863497
+    "grappolo_distanza": 0.9969573632863374
    },
    "blocco_150": {
     "coppie": 29800,
@@ -2367,9 +2367,9 @@
     "identiche_caso": 0.009652348993288592,
     "identiche_testo": 0.006652417302798982,
     "identiche_rapporto": 0.3128911138923654,
-    "distanza_rapporto": 1.005958457693454,
+    "distanza_rapporto": 1.0059584576934752,
     "grappolo_identiche": 1.450953623914633,
-    "grappolo_distanza": 0.9976913210501297
+    "grappolo_distanza": 0.9976913210501259
    },
    "lingua": "Wolof",
    "tipo_scrittura": "alfabeto"
@@ -2382,9 +2382,9 @@
     "identiche_caso": 0.004238095238095238,
     "identiche_testo": 0.0025282887207351357,
     "identiche_rapporto": 0.35955056179775285,
-    "distanza_rapporto": 0.994492983615062,
+    "distanza_rapporto": 0.9944929836154729,
     "grappolo_identiche": 1.6762702785237882,
-    "grappolo_distanza": 0.9876194258739025
+    "grappolo_distanza": 0.9876194258738259
    },
    "blocco_150": {
     "coppie": 29800,
@@ -2392,9 +2392,9 @@
     "identiche_caso": 0.004404474272930649,
     "identiche_testo": 0.0025282887207351357,
     "identiche_rapporto": 0.31999187322226735,
-    "distanza_rapporto": 0.9850861738180902,
+    "distanza_rapporto": 0.9850861738180596,
     "grappolo_identiche": 1.7420772543928391,
-    "grappolo_distanza": 0.9966165222748038
+    "grappolo_distanza": 0.9966165222747743
    },
    "lingua": "Xhosa",
    "tipo_scrittura": "alfabeto"
@@ -2407,9 +2407,9 @@
     "identiche_caso": 0.013771428571428572,
     "identiche_testo": 0.012889122970765693,
     "identiche_rapporto": 0.21300138312586445,
-    "distanza_rapporto": 1.0078432435315254,
+    "distanza_rapporto": 1.0078432435319427,
     "grappolo_identiche": 1.06845350165904,
-    "grappolo_distanza": 1.0015880939689923
+    "grappolo_distanza": 1.0015880939690014
    },
    "blocco_150": {
     "coppie": 29800,
@@ -2417,9 +2417,9 @@
     "identiche_caso": 0.017434451901566,
     "identiche_testo": 0.012889122970765693,
     "identiche_rapporto": 0.16937843247959755,
-    "distanza_rapporto": 1.0090406815070974,
+    "distanza_rapporto": 1.0090406815072208,
     "grappolo_identiche": 1.3526484262047727,
-    "grappolo_distanza": 1.0001260789442834
+    "grappolo_distanza": 1.0001260789443132
    },
    "lingua": "Zarma",
    "tipo_scrittura": "alfabeto"
@@ -2432,9 +2432,9 @@
     "identiche_caso": 0.0041523809523809525,
     "identiche_testo": 0.0018262164294365368,
     "identiche_rapporto": 0.28440366972477066,
-    "distanza_rapporto": 0.994830335407766,
+    "distanza_rapporto": 0.9948303354081983,
     "grappolo_identiche": 2.2737616886198606,
-    "grappolo_distanza": 0.9858516322065918
+    "grappolo_distanza": 0.985851632206536
    },
    "blocco_150": {
     "coppie": 29800,
@@ -2442,9 +2442,9 @@
     "identiche_caso": 0.003942729306487697,
     "identiche_testo": 0.0018262164294365368,
     "identiche_rapporto": 0.2893781207444393,
-    "distanza_rapporto": 0.9845582884604046,
+    "distanza_rapporto": 0.9845582884604024,
     "grappolo_identiche": 2.1589605935722482,
-    "grappolo_distanza": 0.996561364591111
+    "grappolo_distanza": 0.9965613645910806
    },
    "lingua": "Zulu",
    "tipo_scrittura": "alfabeto"

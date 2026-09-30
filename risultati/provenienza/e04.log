@@ -1,0 +1,16 @@
+Voynich ZL riga       identiche x1.01  distanza 0.993  | grappolo: identiche x2.70  distanza 0.959
+Voynich ZL pagina     identiche x1.17  distanza 0.987  | grappolo: identiche x2.11  distanza 0.971
+Voynich ZL blocco_8   identiche x0.94  distanza 0.999  | grappolo: identiche x2.68  distanza 0.959
+Voynich ZL blocco_150 identiche x1.19  distanza 0.986  | grappolo: identiche x2.06  distanza 0.971
+Voynich IT riga       identiche x1.07  distanza 0.992  | grappolo: identiche x2.70  distanza 0.959
+Voynich IT pagina     identiche x1.21  distanza 0.987  | grappolo: identiche x2.16  distanza 0.970
+Voynich IT blocco_8   identiche x1.00  distanza 0.999  | grappolo: identiche x2.60  distanza 0.958
+Voynich IT blocco_150 identiche x1.23  distanza 0.986  | grappolo: identiche x2.12  distanza 0.972
+Apicio, ricette di cucina            identiche x0.22 / x0.18  distanza 1.001 / 0.994 | grappolo 8: x1.04 0.991
+Catone, agricoltura e ricette        identiche x0.06 / x0.07  distanza 0.998 / 0.992 | grappolo 8: x2.87 0.991
+Columella XII, conserve e ricette    identiche x0.02 / x0.02  distanza 0.998 / 0.998 | grappolo 8: x0.87 0.997
+Varrone, agricoltura                 identiche x0.02 / x0.03  distanza 1.001 / 0.998 | grappolo 8: x1.33 0.995
+Isidoro XVII, piante                 identiche x0.05 / x0.04  distanza 1.005 / 1.003 | grappolo 8: x0.97 0.996
+Isidoro XVI, pietre e metalli        identiche x0.05 / x0.00  distanza 1.001 / 0.998 | grappolo 8: x1.12 0.996
+Vegezio, arte militare               identiche x0.04 / x0.04  distanza 1.002 / 1.002 | grappolo 8: x1.63 1.000
+Vitruvio, architettura               identiche x0.23 / x0.19  distanza 1.001 / 1.000 | grappolo 8: x1.27 0.996
