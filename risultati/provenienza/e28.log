@@ -1,0 +1,160 @@
+{
+ "confronto": {
+  "righe": 4130,
+  "righe_comuni": 4118,
+  "parole": 34815,
+  "uguali": 30459,
+  "lette diversamente": 1768,
+  "spazi o parole diversi": 2588,
+  "unite": 701,
+  "divise": 344,
+  "righe solo ZL": 12
+ },
+ "distanze": {
+  "1": 1321,
+  "2": 294,
+  "3": 153
+ },
+ "scambi": [
+  [
+   "scambio",
+   "a",
+   "o",
+   257
+  ],
+  [
+   "scambio",
+   "o",
+   "a",
+   126
+  ],
+  [
+   "scambio",
+   "s",
+   "r",
+   90
+  ],
+  [
+   "scambio",
+   "r",
+   "s",
+   86
+  ],
+  [
+   "tolta",
+   "i",
+   null,
+   73
+  ],
+  [
+   "scambio",
+   "k",
+   "t",
+   42
+  ],
+  [
+   "scambio",
+   "y",
+   "o",
+   41
+  ],
+  [
+   "scambio",
+   "t",
+   "k",
+   39
+  ],
+  [
+   "scambio",
+   "g",
+   "m",
+   35
+  ],
+  [
+   "scambio",
+   "ch",
+   "sh",
+   35
+  ],
+  [
+   "aggiunta",
+   null,
+   "i",
+   34
+  ],
+  [
+   "aggiunta",
+   null,
+   "e",
+   32
+  ],
+  [
+   "tolta",
+   "e",
+   null,
+   31
+  ],
+  [
+   "scambio",
+   "sh",
+   "ch",
+   28
+  ],
+  [
+   "scambio",
+   "e",
+   "o",
+   21
+  ],
+  [
+   "scambio",
+   "y",
+   "a",
+   20
+  ],
+  [
+   "scambio",
+   "o",
+   "y",
+   20
+  ],
+  [
+   "scambio",
+   "o",
+   "e",
+   17
+  ],
+  [
+   "scambio",
+   "e",
+   "h",
+   16
+  ],
+  [
+   "scambio",
+   "h",
+   "e",
+   15
+  ]
+ ],
+ "parole_uniche": {
+  "tipi": 6293,
+  "hapax": 0.679485142221516,
+  "uniche_lette_diversamente": 0.15459317585301838,
+  "altre_lette_diversamente": 0.040697917101473476,
+  "uniche_che_diventano_note": 208,
+  "hapax_con_la_lettura_di_takahashi": 0.6613565445886024
+ }
+}
+Voynich (ZL)                 h2 2,24  spazio_spi 66%  tipi_su_pa 21%  hapax 68%  identiche_ ×1,01  somiglianz 3,8%  somiglianz 3,4%  confine 0,188  unione_att 8,8%  lung_media 4,46  ordine_ris 78,5%  anagrammi 35,4%
+Voynich (Takahashi)          h2 2,24  spazio_spi 67%  tipi_su_pa 21%  hapax 68%  identiche_ ×1,07  somiglianz 4,0%  somiglianz 3,5%  confine 0,169  unione_att 6,5%  lung_media 4,53  ordine_ris 78,6%  anagrammi 36,6%
+generatore, seme 19, errori  h2 2,21  spazio_spi 60%  tipi_su_pa 13%  hapax 50%  identiche_ ×0,88  somiglianz 3,4%  somiglianz 3,5%  confine 0,179  unione_att 12,4%  lung_media 4,12  ordine_ris 74,7%  anagrammi 44,8%
+generatore, seme 19, errori  h2 2,25  spazio_spi 57%  tipi_su_pa 15%  hapax 56%  identiche_ ×0,87  somiglianz 3,2%  somiglianz 3,2%  confine 0,190  unione_att 13,4%  lung_media 4,14  ordine_ris 73,7%  anagrammi 43,2%
+generatore, seme 19, errori  h2 2,30  spazio_spi 55%  tipi_su_pa 17%  hapax 60%  identiche_ ×0,89  somiglianz 3,2%  somiglianz 3,3%  confine 0,200  unione_att 13,5%  lung_media 4,16  ordine_ris 73,0%  anagrammi 42,2%
+generatore, seme 19, errori  h2 2,37  spazio_spi 52%  tipi_su_pa 20%  hapax 64%  identiche_ ×0,97  somiglianz 3,1%  somiglianz 3,2%  confine 0,214  unione_att 14,3%  lung_media 4,20  ordine_ris 71,9%  anagrammi 41,2%
+generatore, seme 19, solo se h2 2,31  spazio_spi 57%  tipi_su_pa 17%  hapax 58%  identiche_ ×0,86  somiglianz 3,2%  somiglianz 3,3%  confine 0,164  unione_att 10,9%  lung_media 4,14  ordine_ris 74,9%  anagrammi 46,2%
+generatore, seme 19, solo se h2 2,40  spazio_spi 55%  tipi_su_pa 20%  hapax 62%  identiche_ ×0,83  somiglianz 3,2%  somiglianz 3,2%  confine 0,150  unione_att 9,6%  lung_media 4,16  ordine_ris 74,9%  anagrammi 46,2%
+generatore, seme 1, errori × h2 2,29  spazio_spi 58%  tipi_su_pa 14%  hapax 51%  identiche_ ×0,81  somiglianz 3,4%  somiglianz 2,9%  confine 0,181  unione_att 11,4%  lung_media 4,10  ordine_ris 74,4%  anagrammi 46,7%
+generatore, seme 1, errori × h2 2,33  spazio_spi 55%  tipi_su_pa 16%  hapax 57%  identiche_ ×0,81  somiglianz 3,3%  somiglianz 2,9%  confine 0,190  unione_att 11,9%  lung_media 4,13  ordine_ris 73,2%  anagrammi 44,0%
+generatore, seme 1, errori × h2 2,37  spazio_spi 53%  tipi_su_pa 18%  hapax 61%  identiche_ ×0,83  somiglianz 3,2%  somiglianz 2,9%  confine 0,200  unione_att 12,0%  lung_media 4,14  ordine_ris 72,4%  anagrammi 43,0%
+generatore, seme 1, errori × h2 2,45  spazio_spi 50%  tipi_su_pa 21%  hapax 65%  identiche_ ×0,89  somiglianz 3,0%  somiglianz 2,7%  confine 0,205  unione_att 12,1%  lung_media 4,18  ordine_ris 71,3%  anagrammi 42,5%
