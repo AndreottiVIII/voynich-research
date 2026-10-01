@@ -1,0 +1,122 @@
+{
+ "capitoli": 79,
+ "versi": 2177,
+ "parole": 13484,
+ "riga": {
+  "R un verso per riga": -0.004173508406650476,
+  "legame dentro, un verso per riga": 0.1447083509954371,
+  "R di seguito, a capo": 0.6566767650693756,
+  "legame dentro, di seguito, a capo": 0.1466836086561669,
+  "CV": 0.08827167768150262,
+  "bordo inizio": 21.973815385382665,
+  "bordo fine": 17.809150522197346,
+  "arricchiti": {
+   "inizio": [
+    [
+     "u",
+     3.48,
+     92
+    ],
+    [
+     "h",
+     2.68,
+     187
+    ],
+    [
+     "a",
+     2.65,
+     220
+    ],
+    [
+     "e",
+     2.34,
+     256
+    ],
+    [
+     "o",
+     1.49,
+     50
+    ]
+   ],
+   "fine": [
+    [
+     "m",
+     1.86,
+     478
+    ],
+    [
+     "r",
+     1.54,
+     170
+    ],
+    [
+     "s",
+     1.18,
+     543
+    ],
+    [
+     "i",
+     1.11,
+     162
+    ],
+    [
+     "a",
+     0.91,
+     190
+    ]
+   ]
+  },
+  "S(1)": 0.9533833977693662,
+  "S(1) z": -0.6533736655556048,
+  "prima parola, corpi identici": 0.785341953609373
+ },
+ "pagella": {
+  "parole": 13484,
+  "h2": 3.310876903941562,
+  "lung_media": 5.83862355384159,
+  "tipi_su_parole": 0.2921981607831504,
+  "hapax": 0.5769035532994924,
+  "identiche_immediate": 8.844078889183692e-05,
+  "identiche_vs_riga": 0.08341558535352318,
+  "somiglianza_riga": -0.0002452889196078445,
+  "somiglianza_riga_sotto": 0.001625673273449535,
+  "somiglianza_6_righe": 0.0011487281976679808,
+  "spazio_spiegato": 0.15414445364202756,
+  "confine": 0.1293651444670502,
+  "unione_attestata": 0.0007959671000265323,
+  "unione_caso": 0.0007075263111346954,
+  "ordine_rispettato": 0.6324281553175386,
+  "anagrammi": 0.040774719673802244,
+  "hapax_1000": 0.7696206811083187,
+  "hapax_34000": 0.5955859496425241,
+  "V2_ricambio_k1_meno_k20": 0.032833333333333325,
+  "V2_distanza": 12,
+  "V3_R": 1.615750665106796,
+  "V3_quota_media": 0.0028942614963823757,
+  "lung_media_segni": 5.83862355384159,
+  "lung_dev_segni": 2.2540192002541057,
+  "V6_autocorrelazione_lunghezze": -0.02129178875522262,
+  "V7_zipf": -0.7846007835480013,
+  "verticale": 1.008640985463675,
+  "formule_terne": 284.2105263157895,
+  "esiti": {
+   "h2": false,
+   "spazio": false,
+   "uniche": false,
+   "tipi": false,
+   "ripetizione": false,
+   "omogeneità": false,
+   "gradiente": false,
+   "legame": false,
+   "unioni": false,
+   "curva piatta": false,
+   "deriva": false,
+   "profilo pagina": false,
+   "lunghezze vicine": false,
+   "Zipf": false,
+   "verticale": false,
+   "formule": false,
+   "bordo di riga": false
+  }
+ }
+}
