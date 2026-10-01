@@ -2272,3 +2272,46 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
   - È la seconda proprietà, dopo l'evitamento fra inizi di riga, che va **contro** l'ipotesi senza
     messaggio nella forma "autocitazione", e verso una sequenza di parole organizzata come in una
     lingua.
+
+## 1/10/2026 — e111: parole come sillabe? Il modello alla lettera non regge (passi 1–2)
+
+- **Metodo.** Preregistrato. Normalizzazioni N0–N4 (famiglie, serie di e/i, q iniziale, famiglie
+  forti). Confronto del flusso di classi con flussi di sillabe veri (prime 30.000 unità).
+- **Risultati:**
+
+  | flusso | classi | classi uniche | h1 | h2 | Zipf | ripetizioni |
+  |---|---|---|---|---|---|---|
+  | sillabe vere (*Macer*, Ovidio, Bibbia latina e italiana) | 953–1.446 | 22–27% | 7,7–8,5 | 4,1–4,7 | da −1,28 a −1,61 | 0,1–0,5% |
+  | Voynich N0 | 6.293 | 68% | 10,1 | 4,28 | −1,04 | 1,0% |
+  | Voynich N4 | 3.430 | 62% | 8,5 | 5,05 | −1,27 | 2,6% |
+  | controllo (*Macer* cifrato come nell'e104) N0 | 4.696 | 59% | 9,85 | 4,25 | −1,08 | 0,3% |
+  | controllo N4 | 2.354 (sillabe vere 1.238) | | | | | |
+
+  - Purezza del controllo: H(sillaba | classe) da 0,97 a 2,32 bit; H(classe | sillaba) da 2,45 a
+    2,15 bit.
+- **Criterio preregistrato non soddisfatto a nessun livello.** Al livello più vicino (N4) restano
+  fuori classi, classi uniche, h2 e ripetizioni.
+- **Ma il criterio non distingue.**
+  - Fallisce anche per il controllo, che è un vero cifrario a sillabe con varianti: le
+    normalizzazioni semplici non annullano le varianti generali.
+  - Senza normalizzazione il controllo assomiglia molto al Voynich: classi, classi uniche, h1, h2,
+    Zipf.
+  - Il Voynich ha però più ripetizioni immediate di qualunque flusso di sillabe (1,0–2,6% contro
+    0,1–0,5%).
+- **Metro** (sezione S, righe non finali):
+
+  | testo | CV unità per riga | CV larghezza | rapporto |
+  |---|---|---|---|
+  | Voynich S (parole) | 0,141 | 0,105 | 1,34 |
+  | Ovidio (sillabe) | 0,082 | 0,078 | 1,05 |
+  | *Macer* (sillabe) | 0,092 | 0,088 | 1,05 |
+  | Plinio a capo (parole) | 0,43 | 0,42 | 1,03 |
+
+  - La lettura preregistrata ("CV unità < CV segni") era mal posta: neppure i versi veri la
+    soddisfano.
+  - Il confronto dei rapporti dice che nel Voynich il numero di parole varia **più** della
+    larghezza: le righe sembrano riempite fino al margine, non contate in sillabe.
+- **Decisione** (come da preregistrazione, discussa con Davide prima del passo 3). Il passo 3 si
+  imposta come **prova di fattibilità**: il risolutore a sillabe si prova prima sul controllo
+  cifrato. Se non lo legge, nemmeno un Voynich di quel tipo sarebbe decifrabile per via statistica
+  con questa quantità di testo.

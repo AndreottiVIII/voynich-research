@@ -1,0 +1,285 @@
+{
+ "Macer (versi)": {
+  "unita": 30000,
+  "classi": 1238,
+  "quota_classi_uniche": 0.2730210016155089,
+  "h1": 8.374033347226367,
+  "h2": 4.100518745059379,
+  "zipf": -1.4475405932797436,
+  "ripetizione": 0.005458201666187877,
+  "unita_per_riga": 13.940520446096654,
+  "cv_unita_per_riga": 0.0916172715400565
+ },
+ "Ovidio (versi)": {
+  "unita": 30000,
+  "classi": 1446,
+  "quota_classi_uniche": 0.2641770401106501,
+  "h1": 8.540667663000727,
+  "h2": 4.708744002605248,
+  "zipf": -1.2841748691722616,
+  "ripetizione": 0.0029347553774023835,
+  "unita_per_riga": 14.570179698882953,
+  "cv_unita_per_riga": 0.08243842146313414
+ },
+ "Bibbia latina": {
+  "unita": 30000,
+  "classi": 1157,
+  "quota_classi_uniche": 0.2212618841832325,
+  "h1": 8.26582063514748,
+  "h2": 4.2322201317717045,
+  "zipf": -1.445163790228831,
+  "ripetizione": 0.001092857646478178,
+  "unita_per_riga": 18.359853121175032,
+  "cv_unita_per_riga": 0.14740863837193077
+ },
+ "Bibbia italiana": {
+  "unita": 30000,
+  "classi": 953,
+  "quota_classi_uniche": 0.23189926547743966,
+  "h1": 7.707149796378401,
+  "h2": 4.376437870986445,
+  "zipf": -1.608813338745538,
+  "ripetizione": 0.002476385891675806,
+  "unita_per_riga": 17.311021350259665,
+  "cv_unita_per_riga": 0.1574676827514494
+ },
+ "Voynich N0": {
+  "unita": 30000,
+  "classi": 6293,
+  "quota_classi_uniche": 0.679485142221516,
+  "h1": 10.140471116190144,
+  "h2": 4.278009104331163,
+  "zipf": -1.0393146256829906,
+  "ripetizione": 0.010015554459577374,
+  "unita_per_riga": 8.23949464432848,
+  "cv_unita_per_riga": 0.3721453389918156
+ },
+ "controllo: Macer cifrato N0": {
+  "unita": 30000,
+  "classi": 4696,
+  "quota_classi_uniche": 0.5930579216354344,
+  "h1": 9.847984338944263,
+  "h2": 4.250861886601138,
+  "zipf": -1.07730382412269,
+  "ripetizione": 0.002836828497558173,
+  "unita_per_riga": 13.940520446096654,
+  "cv_unita_per_riga": 0.0916172715400565,
+  "H(sillaba|classe)": 0.9708379079247305,
+  "H(classe|sillaba)": 2.4457674440846375
+ },
+ "Timm e Schinner N0": {
+  "unita": 30000,
+  "classi": 4602,
+  "quota_classi_uniche": 0.5319426336375489,
+  "h1": 9.648930598963682,
+  "h2": 4.569682153603502,
+  "zipf": -0.9808294636409638,
+  "ripetizione": 0.009075226880672017,
+  "unita_per_riga": 8.998200359928015,
+  "cv_unita_per_riga": 0.2479195478824173
+ },
+ "Voynich N1": {
+  "unita": 30000,
+  "classi": 5393,
+  "quota_classi_uniche": 0.6632671982199148,
+  "h1": 9.773963720119621,
+  "h2": 4.535421880311795,
+  "zipf": -1.0929880742138374,
+  "ripetizione": 0.011760688948746158,
+  "unita_per_riga": 8.23949464432848,
+  "cv_unita_per_riga": 0.3721453389918156
+ },
+ "controllo: Macer cifrato N1": {
+  "unita": 30000,
+  "classi": 4114,
+  "quota_classi_uniche": 0.5777831793874575,
+  "h1": 9.542279474906946,
+  "h2": 4.4817875344547815,
+  "zipf": -1.1317473439321037,
+  "ripetizione": 0.0037704682562482044,
+  "unita_per_riga": 13.940520446096654,
+  "cv_unita_per_riga": 0.0916172715400565,
+  "H(sillaba|classe)": 1.2089694726418083,
+  "H(classe|sillaba)": 2.3782289609305036
+ },
+ "Timm e Schinner N1": {
+  "unita": 30000,
+  "classi": 3889,
+  "quota_classi_uniche": 0.49884289020313705,
+  "h1": 9.31933373213436,
+  "h2": 4.786034848888444,
+  "zipf": -1.0210095249066204,
+  "ripetizione": 0.010462761569039226,
+  "unita_per_riga": 8.998200359928015,
+  "cv_unita_per_riga": 0.2479195478824173
+ },
+ "Voynich N2": {
+  "unita": 30000,
+  "classi": 4782,
+  "quota_classi_uniche": 0.6534922626516102,
+  "h1": 9.39974938553863,
+  "h2": 4.70854993273076,
+  "zipf": -1.1397784861361102,
+  "ripetizione": 0.015326833339656284,
+  "unita_per_riga": 8.23949464432848,
+  "cv_unita_per_riga": 0.3721453389918156
+ },
+ "controllo: Macer cifrato N2": {
+  "unita": 30000,
+  "classi": 3622,
+  "quota_classi_uniche": 0.5662617338487024,
+  "h1": 9.178800666279455,
+  "h2": 4.732594873762084,
+  "zipf": -1.1784405408131113,
+  "ripetizione": 0.0055659293306521114,
+  "unita_per_riga": 13.940520446096654,
+  "cv_unita_per_riga": 0.0916172715400565,
+  "H(sillaba|classe)": 1.5663755993330528,
+  "H(classe|sillaba)": 2.3725706020468995
+ },
+ "Timm e Schinner N2": {
+  "unita": 30000,
+  "classi": 3473,
+  "quota_classi_uniche": 0.49582493521451193,
+  "h1": 8.92494352913286,
+  "h2": 4.911456477998596,
+  "zipf": -1.0666699524356056,
+  "ripetizione": 0.017887947198679966,
+  "unita_per_riga": 8.998200359928015,
+  "cv_unita_per_riga": 0.2479195478824173
+ },
+ "Voynich N3": {
+  "unita": 30000,
+  "classi": 4484,
+  "quota_classi_uniche": 0.6563336306868867,
+  "h1": 9.125092748406072,
+  "h2": 4.818483764342788,
+  "zipf": -1.1663713795628998,
+  "ripetizione": 0.01957585644371941,
+  "unita_per_riga": 8.23949464432848,
+  "cv_unita_per_riga": 0.3721453389918156
+ },
+ "controllo: Macer cifrato N3": {
+  "unita": 30000,
+  "classi": 3258,
+  "quota_classi_uniche": 0.5604665438919583,
+  "h1": 8.87534051548662,
+  "h2": 4.905686544346201,
+  "zipf": -1.2106886893184956,
+  "ripetizione": 0.006463659867854065,
+  "unita_per_riga": 13.940520446096654,
+  "cv_unita_per_riga": 0.0916172715400565,
+  "H(sillaba|classe)": 1.8024887439390354,
+  "H(classe|sillaba)": 2.3044427119789974
+ },
+ "Timm e Schinner N3": {
+  "unita": 30000,
+  "classi": 3361,
+  "quota_classi_uniche": 0.5031240702171973,
+  "h1": 8.831923488282499,
+  "h2": 4.963146603297592,
+  "zipf": -1.1007854669148882,
+  "ripetizione": 0.01886297157428936,
+  "unita_per_riga": 8.998200359928015,
+  "cv_unita_per_riga": 0.2479195478824173
+ },
+ "Voynich N4": {
+  "unita": 30000,
+  "classi": 3430,
+  "quota_classi_uniche": 0.6224489795918368,
+  "h1": 8.493214464548146,
+  "h2": 5.0511129803737695,
+  "zipf": -1.2674071716011872,
+  "ripetizione": 0.02640464357524944,
+  "unita_per_riga": 8.23949464432848,
+  "cv_unita_per_riga": 0.3721453389918156
+ },
+ "controllo: Macer cifrato N4": {
+  "unita": 30000,
+  "classi": 2354,
+  "quota_classi_uniche": 0.5225148683092609,
+  "h1": 8.206478226078719,
+  "h2": 5.229756145017574,
+  "zipf": -1.3129763359741162,
+  "ripetizione": 0.009120942257971847,
+  "unita_per_riga": 13.940520446096654,
+  "cv_unita_per_riga": 0.0916172715400565,
+  "H(sillaba|classe)": 2.316264661105971,
+  "H(classe|sillaba)": 2.1485089137163795
+ },
+ "Timm e Schinner N4": {
+  "unita": 30000,
+  "classi": 2731,
+  "quota_classi_uniche": 0.45917246429879166,
+  "h1": 8.507645713540393,
+  "h2": 5.140295972125051,
+  "zipf": -1.162175327207384,
+  "ripetizione": 0.020850521263031576,
+  "unita_per_riga": 8.998200359928015,
+  "cv_unita_per_riga": 0.2479195478824173
+ },
+ "misure_fuori_intervallo": {
+  "N0": [
+   "classi",
+   "quota_classi_uniche",
+   "h1",
+   "zipf",
+   "ripetizione"
+  ],
+  "N1": [
+   "classi",
+   "quota_classi_uniche",
+   "h1",
+   "zipf",
+   "ripetizione"
+  ],
+  "N2": [
+   "classi",
+   "quota_classi_uniche",
+   "h1",
+   "zipf",
+   "ripetizione"
+  ],
+  "N3": [
+   "classi",
+   "quota_classi_uniche",
+   "h1",
+   "h2",
+   "zipf",
+   "ripetizione"
+  ],
+  "N4": [
+   "classi",
+   "quota_classi_uniche",
+   "h2",
+   "ripetizione"
+  ]
+ },
+ "livello_scelto": null,
+ "metro": {
+  "Voynich S": {
+   "righe": 872,
+   "cv_unita": 0.14131638320627257,
+   "cv_segni": 0.10502034849207632,
+   "unita_media": 11.057339449541285
+  },
+  "Ovidio (sillabe)": {
+   "righe": 11999,
+   "cv_unita": 0.08234542346813259,
+   "cv_segni": 0.07806371190934519,
+   "unita_media": 14.571214267855655
+  },
+  "Macer (sillabe)": {
+   "righe": 2177,
+   "cv_unita": 0.09215884399209301,
+   "cv_segni": 0.08827167768150262,
+   "unita_media": 13.951309141019753
+  },
+  "Plinio a capo (parole)": {
+   "righe": 4612,
+   "cv_unita": 0.4302158519110345,
+   "cv_segni": 0.41732617046457643,
+   "unita_media": 7.632263660017346
+  }
+ }
+}
