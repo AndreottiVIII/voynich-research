@@ -1906,3 +1906,43 @@ Ricerca web dell'1/10. Letto per intero solo Feaster 2021 (SHA in FONTI.md).
   - **Quadro attuale:** il Voynich ha **righe da poesia** e **parole da procedimento** (o da un
     sistema di scrittura molto diverso da un alfabeto). La riga non è più un argomento contro il
     contenuto; il vocabolario sì.
+
+## 1/10/2026 — e100: l'erbario in versi cifrato non arriva al vocabolario del Voynich
+
+- **Metodo.** Preregistrato. *Macer floridus*, un verso per riga e un capitolo per pagina,
+  cifrato in quattro modi; proprietà di riga e pagella completa (18 proprietà).
+- **Risultati:**
+
+  | cifratura | pagella | R | bordo ini/fin | S(1) | h2 | tipi | ripetizione | omogeneità |
+  |---|---|---|---|---|---|---|---|---|
+  | verboso (vedi nota) | 0/18 | **−0,01** | 30 / 21 | 0,95 | 3,30 | 0,29 | 0,08 | 0,000 |
+  | codice per parola | 3/18 | (legame ≈ 0) | 3,6 / 2,1 | 1,05 | 2,33 | 0,29 | 0,08 | 0,006 |
+  | codice per sillaba | 2/18 | (legame 0,015) | 18 / 3,7 | 1,03 | 1,92 | 0,041 | **1,10** | 0,000 |
+  | Naibbe | 5/18 | (legame ≈ 0) | 7 / 13 | 1,08 | 2,16 | 0,17 | 0,41 | 0,000 |
+  | *Voynich* | | *0,006* | *23 / 55* | *0,52* | *2,24* | *0,21* | *1,01* | *0,038* |
+
+  - **Nota sul verboso.** La ricerca preregistrata (`cerca_verboso`, 300 prove) ha scelto 20
+    lettere con un segno solo, cioè una **sostituzione semplice**: h2 resta quella del latino. Le
+    parole latine sono lunghe (5,9 lettere) e ogni lettera resa con due segni le allunga ancora,
+    quindi la ricerca non allunga. È il compromesso già documentato nell'e07: non lo correggo,
+    perché è l'esito della procedura dichiarata.
+- **Previsioni:** confermate.
+  - Nessuna cifratura supera 5/18.
+  - Solo la sostituzione conserva la chiusura della riga; il codice per parola e il Naibbe
+    distruggono il legame dentro la riga.
+- **Due cose da notare.**
+  1. **Il codice per sillaba dà ripetizione ×1,10**, cioè le ripetizioni immediate del Voynich.
+     Con una parola per sillaba, sillabe uguali vicine diventano parole uguali vicine. Ha però
+     troppi pochi tipi (0,04) e h2 troppo bassa (1,92).
+  2. **L'omogeneità di pagina resta a zero in tutte le cifrature**, anche se ogni capitolo parla di
+     una sola pianta.
+- **Lettura.**
+  - Un contenuto ordinato per argomento (una pianta per pagina) non produce, attraverso nessuna
+    cifratura provata, la somiglianza fra parole vicine e di pagina del Voynich (+10,7 deviazioni
+    standard nell'e13).
+  - Questa resta l'anomalia che solo la copia locale (procedimento ad autocitazione, ipotesi 3)
+    produce.
+  - **La riga** si spiega con il verso; **la pagina** e **le parole** con la copia. Un'ipotesi che
+    tenga tutto dovrebbe combinarli: per esempio un testo composto in versi, verso per verso,
+    copiando e variando parole delle righe vicine. Sarebbe una composizione poetica "ad
+    autocitazione": un'ipotesi nuova da precisare.
