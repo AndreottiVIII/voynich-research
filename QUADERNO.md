@@ -1056,3 +1056,39 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
       applica dentro il verso e non attraverso la fine del verso, dove valgono forme di pausa.
 - **Prossimo passo.** Questa ultima possibilità non era stata considerata ed è verificabile:
   e77.
+
+## 1/10/2026 — e77: versi con sandhi riproducono la riga chiusa
+
+- **Metodo.** Preregistrato. *Manusmṛti* e *Raghuvaṃśa* (GRETIL tramite ambuda-org, commit
+  fisso, SHA-256 in FONTI.md) in due impaginazioni: un mezzo verso per riga, oppure lo stesso
+  testo di seguito mandato a capo.
+- **Risultati** (criterio di conferma: R < 0,3 con z > 10 nell'impaginazione per versi, R > 0,6
+  in quella di seguito):
+
+  | testo | impaginazione | dentro la riga | a capo | R | CV | bordo ini / fin |
+  |---|---|---|---|---|---|---|
+  | Manusmṛti | per versi | 0,849 bit (z 449) | 0,006 | **0,01** | 0,096 | 22 / 148 |
+  | Manusmṛti | di seguito | 0,595 | 0,455 (z 83) | 0,76 | 0,082 | 5 / 2 |
+  | Raghuvaṃśa | per versi | 0,871 (z 375) | 0,006 | **0,01** | 0,172 | 9 / 97 |
+  | Raghuvaṃśa | di seguito | 0,624 | 0,533 | 0,86 | 0,097 | 3 / 2 |
+  | *Voynich* | | *0,20 (z 248)* | *0,001* | ***0,01*** | *0,049 (S)* | *23 / 55* |
+
+  **Meccanismo confermato per entrambi i testi.**
+- **Forme di pausa.** Alla fine del verso sono arricchite ḥ (×5), t (×3,7), **m** (×3,3).
+  All'inizio, nella Manusmṛti, a ×1,9 e y ×1,9.
+- **Lettura. Risultato importante.**
+  - Il "legame forte fra parole vicine", che nel dossier era fra gli argomenti principali
+    **contro** una lingua naturale (nelle lingue europee è debole: Plinio 0,04 bit), esiste in una
+    lingua naturale con giunture fonetiche scritte. Lì è anche **più forte** che nel Voynich.
+  - Se il testo è impaginato **un verso per riga**, il legame si ferma all'a capo esattamente come
+    nel Voynich (R 0,01 in tutti e tre).
+  - Il bordo di riga diventa fortissimo, con una forma di pausa in -m alla fine.
+  - Quindi le proprietà di riga del Voynich (e71, e74–e76) hanno **due** spiegazioni possibili:
+    - un procedimento riga per riga senza messaggio;
+    - **un testo in versi, una riga per verso, in una lingua o in una grafia con giunture
+      scritte (tipo sandhi)**.
+  - Non dico che il Voynich sia sanscrito. Dico che la combinazione "giunture forti + riga chiusa
+    + bordo forte" non è più una prova contro il contenuto.
+- **Prossimo passo (e78).** Misurare i versi con sandhi su tutta l'impronta: ripetizioni,
+  somiglianza fra righe, omogeneità di pagina, h2, parole uniche, unioni. Così si vede dove
+  questa possibilità regge e dove cade.
