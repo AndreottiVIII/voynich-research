@@ -796,3 +796,36 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
     interne della parola.
   - Il procedimento senza messaggio arriva a 12/17 proprietà; le altre 5 non le ho ottenute in
     nessuna combinazione provata.
+
+## 1/10/2026 — e69: filtro di forma su quattro posizioni
+
+- **Griglia preregistrata:** posizioni {2; 4} × η {0,5; 1} × λ {0,6; 0,75}, semi 19, 1 e 2.
+  Nessuna combinazione si è bloccata.
+- **Migliore:** ancora 12/17 (2 posizioni, η 1, λ 0,6), con deriva 0,121, Zipf −1,04 e lunghezze
+  vicine 0,085 dentro le bande.
+- **La forma delle parole non rientra mai:** 1,84–2,54 volte la distanza A–B. Con 4 posizioni
+  e η 1 va **peggio** (5–6/17): il legame fra parole crolla (0,007–0,009) e i tipi scendono.
+- **Previsione smentita.** Avevo previsto che con 4 posizioni la forma scendesse verso 1; non è
+  successo.
+- **Lettura.** Il filtro può solo rifiutare ciò che il generatore propone. Se le regole di ritocco
+  di Timm e Schinner propongono poche forme buone, rifiutare le cattive impoverisce il vocabolario
+  invece di correggerlo.
+
+## 1/10/2026 — e70: copia esatta frequente o forma nuova
+
+- **Modello.** In Python e senza le regole di ritocco: ogni parola è una copia di una vicina (c
+  0,80–0,90, con ritocco leggero facoltativo μ) oppure una forma nuova dai trigrammi del Voynich.
+- **Esito:** 4–6/17, molto peggio dell'e68.
+- **Previsioni smentite:**
+  - parole uniche 0,40–0,50 (Voynich 0,68): copiare così spesso riusa troppo;
+  - tipi a 0,10–0,30, a seconda di μ;
+  - la forma delle parole, che doveva tornare "per costruzione", è a 2,7–4,5.
+- **Probabile spiegazione (non verificata).** La forma si misura sulle occorrenze, non sui tipi.
+  Con molte copie esatte, poche forme composte presto si moltiplicano e la distribuzione dei segni
+  per posizione segue quelle poche forme. Il Voynich invece ha le stesse distribuzioni in tutte
+  le parti del testo.
+- **Lettura.**
+  - "Copiare e basta" non basta: serve un meccanismo che ritocchi molto, cioè proprio le regole di
+    Timm e Schinner, che però hanno la forma sbagliata.
+  - È lo stesso compromesso di e56 ed e57, visto dall'altra parte.
+  - **Chiudo qui la linea dei generatori senza messaggio.** Il migliore resta 12/17 (e68 ed e69).
