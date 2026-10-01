@@ -1,0 +1,11 @@
+Voynich ZL                         tipi  6889 | riempimento 0.99 (atteso 1.00, rapporto 1.00) | dipendenza 0.011 (attesa 0.009)
+Timm e Schinner                    tipi  5221 | riempimento 0.93 (atteso 0.96, rapporto 0.97) | dipendenza 0.016 (attesa 0.012)
+Naibbe                             tipi  5488 | riempimento 1.00 (atteso 0.99, rapporto 1.00) | dipendenza 0.006 (attesa 0.011)
+cifrato a sillabe (e104, mu 0,6)   tipi  4568 | riempimento 0.97 (atteso 0.97, rapporto 1.00) | dipendenza 0.013 (attesa 0.017)
+Bibbia latina                      tipi  5958 | riempimento 1.00 (atteso 1.00, rapporto 1.00) | dipendenza 0.016 (attesa 0.011)
+Bibbia italiana                    tipi  4436 | riempimento 1.00 (atteso 0.99, rapporto 1.01) | dipendenza 0.019 (attesa 0.017)
+Bibbia inglese                     tipi  2338 | riempimento 0.92 (atteso 0.93, rapporto 0.99) | dipendenza 0.053 (attesa 0.046)
+Bibbia turca                       tipi  7891 | riempimento 0.95 (atteso 1.00, rapporto 0.95) | dipendenza 0.077 (attesa 0.013)
+Bibbia ungherese                   tipi  6906 | riempimento 0.98 (atteso 1.00, rapporto 0.98) | dipendenza 0.051 (attesa 0.016)
+Bibbia finlandese                  tipi  6444 | riempimento 0.97 (atteso 1.00, rapporto 0.98) | dipendenza 0.020 (attesa 0.011)
+piu' combinatorio di ogni lingua: False
