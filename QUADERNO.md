@@ -1786,3 +1786,19 @@ Ricerca web dell'1/10. Letto per intero solo Feaster 2021 (SHA in FONTI.md).
     ripetersi.
   - Non è quindi un fatto di forme o di estetica fine. È una regola su che tipo di parola apre la
     riga rispetto alla riga sopra.
+- **Esplorativo, non preregistrato: sensibilità dell'impronta alla fusione delle famiglie.**
+  - Si usano come rappresentanti ch, cth, t e d.
+
+  | misura | originale | fuso all'inizio della parola | fuso ovunque |
+  |---|---|---|---|
+  | h2 | 2,24 | 2,14 | **2,03** |
+  | tipi | 0,210 | 0,187 | 0,143 |
+  | parole uniche | 0,68 | 0,67 | 0,63 |
+  | spazio | 0,66 | 0,67 | 0,59 |
+  | ripetizione | 1,01 | 0,97 | 1,03 |
+  | somiglianza nella riga | 0,038 | 0,036 | 0,034 |
+  | legame | 0,188 | 0,178 | 0,174 |
+
+  - **Lettura:** se le famiglie sono allografi, il testo "vero" è ancora più prevedibile (h2 più
+    bassa, meno tipi), cioè ancora più lontano da una lingua in alfabeto. Le anomalie di
+    ripetizione e di somiglianza non dipendono dal distinguere o no i segni delle famiglie.
