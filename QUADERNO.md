@@ -1027,3 +1027,32 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
   - Un procedimento senza messaggio dovrebbe scrivere riga per riga con preferenze che cambiano
     lungo la riga; il generatore non lo fa.
   - Una voce d'elenco con una formula d'apertura e una di chiusura lo farebbe naturalmente.
+
+## 1/10/2026 — e76: righe piene e chiuse (sezione delle ricette)
+
+- **Metodo.** Preregistrato.
+- **Errore di codice.** Nella prima esecuzione le etichette "dentro" e "a capo" erano scambiate
+  (R invertiti). Corretto in un commit a parte e rieseguito; la prima esecuzione è scartata.
+- **Validità:**
+  - Apicio, una ricetta per paragrafo: CV 0,035, R 1,16 (✓);
+  - voci indipendenti: CV 0,44, R 0,13 (✓).
+- **Risultati:**
+
+  | testo | CV | righe corte | R |
+  |---|---|---|---|
+  | **Voynich S** | **0,049** | **0,1%** | **−0,00** (dentro la riga 0,256 bit, z 145) |
+  | Voynich H (descrittivo) | 0,19 | | 0,08 |
+  | generatore | 0,12 | 6–7% | 0,16–0,25 |
+
+  - Nell'erbario i disegni cambiano lo spazio disponibile, da qui il CV più alto.
+- **Lettura.** Nella sezione S le righe sono **piene come una prosa mandata a capo e chiuse come
+  voci indipendenti**.
+  - Nessuno dei due modelli semplici dell'ipotesi 1 lo spiega.
+  - Il contenuto di ogni riga si adatta alla larghezza, e ogni riga ricomincia da capo.
+  - Sono compatibili:
+    - un procedimento che riempie la riga (il generatore lo fa, ma meno pieno e meno chiuso);
+    - un cifrario o una convenzione riga per riga, con riempitivi;
+    - **un testo in versi con giunture fonetiche scritte**, come il sandhi del sanscrito, che si
+      applica dentro il verso e non attraverso la fine del verso, dove valgono forme di pausa.
+- **Prossimo passo.** Questa ultima possibilità non era stata considerata ed è verificabile:
+  e77.
