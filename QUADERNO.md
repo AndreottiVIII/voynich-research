@@ -2127,3 +2127,35 @@ rimescolamento delle righe:
   (campi "secondi"). **Replica identica.**
 - **Stato della replica:** e01–e28 tutti replicati (e13 cambia per la ragione della D-008; e17 su un
   sottoinsieme, D-009), tranne e19, ancora da rieseguire, ed e16, superato già in origine.
+
+## 1/10/2026 — e109: il primo segno di riga non è un indicatore di chiave
+
+- **Metodo.** Preregistrato (proposta discussa con Davide). Il resto della riga (dalla seconda
+  parola) dipende dalla classe d'inizio? Nullo: classi d'inizio rimescolate fra le righe della
+  stessa pagina.
+- **Validità:** controllo positivo debole (tavole che scambiano 2 coppie di segni) z 92,6; forte
+  z 56,3 (✓).
+  - Il controllo "debole" è risultato più marcato del "forte", perché scambia segni molto
+    frequenti.
+- **Risultati** (eccesso, z):
+
+  | testo | fuori diagonale (indicatore) | diagonale (stessa classe) | seconda parola |
+  |---|---|---|---|
+  | **Voynich** | **+0,0002 (z 0,4)** | +0,0003 (z 0,4) | +0,020 (z 5,6) |
+  | Timm e Schinner | 0,0005 (z 1,1) | | 0,019 (z 5,4) |
+  | *Macer* | +0,0025 (z 6,6) | | 0,12 (z 13,6) |
+
+- **Lettura preregistrata: indicatore escluso**, alla sensibilità del controllo.
+  - La distribuzione dei segni nel resto della riga **non dipende** dal primo segno: eccesso
+    +0,0002 contro 0,0425 del controllo, cioè meno dell'1%.
+  - Con la variabilità del nullo (deviazione standard di circa 0,0005), un effetto di circa 0,002
+    (z ≈ 4, il 5% del controllo) sarebbe stato visto.
+  - Resta possibile solo una tavola che lasci invariate le frequenze dei segni (per esempio un
+    cambio fra omofoni di pari frequenza), che questa misura non vede.
+  - La dipendenza della seconda parola (z 5,6) c'è anche nel generatore (5,4): è la regola delle
+    giunture fra prima e seconda parola, non un indicatore.
+- **Conseguenza.** La riga "riparte" (giunture chiuse, inizio speciale), ma **il primo segno non
+  governa il resto della riga**. L'idea "cifrario con indicatore di riga" cade, e con essa il
+  tentativo di decifrazione per indicatore (e110) previsto in caso contrario.
+- **Nota tecnica sull'e107.** È stato lanciato per errore con `LINGUE_SOLO=x` nell'ambiente. L'e107
+  non usa quella variabile (le sue tre lingue sono fisse), ma il valore compare nella provenienza.
