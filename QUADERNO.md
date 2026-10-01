@@ -1500,3 +1500,18 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
   - **Resta anomalo** che il legame si fermi alla fine della riga (e74): in nessuna prosa lo fa.
   - Lo spostamento va ricordato nel white paper: **la forza delle giunture non distingue; la
     loro chiusura alla riga sì.**
+- **Nota all'e91.** L'e13 del dossier, standardizzato su 85 Bibbie, metteva già il "legame
+  attraverso lo spazio" a +1,7 deviazioni standard, cioè dentro la gamma. L'e91 conferma quel
+  numero; la correzione riguarda il modo in cui il dossier lo raccontava (spesso contro il solo
+  latino).
+- **Le anomalie davvero estreme restano:**
+
+  | misura (e13) | deviazioni standard |
+  |---|---|
+  | somiglianza nella riga | +10,7 |
+  | spazio prevedibile | +3,9 |
+  | h2 | −3,3 |
+  | ripetizioni immediate | +2,5 |
+
+  - A queste si aggiungono le proprietà di riga di questa sessione: chiusura, segno aggiunto,
+    evitamento fra inizi, prima parola non copiata.
