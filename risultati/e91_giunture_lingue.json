@@ -1,0 +1,450 @@
+{
+ "Bibbia Achuar-NT": {
+  "parole": 35000,
+  "eccesso": 0.10309647143139636
+ },
+ "Bibbia Afrikaans": {
+  "parole": 35000,
+  "eccesso": 0.07924053742575303
+ },
+ "Bibbia Aguaruna-NT": {
+  "parole": 35000,
+  "eccesso": 0.07567607843590611
+ },
+ "Bibbia Akawaio-NT": {
+  "parole": 35000,
+  "eccesso": 0.1107979606969236
+ },
+ "Bibbia Albanian": {
+  "parole": 35000,
+  "eccesso": 0.09332126555820856
+ },
+ "Bibbia Amharic": {
+  "parole": 35000,
+  "eccesso": 0.1921020535139295
+ },
+ "Bibbia Amuzgo-NT": {
+  "parole": 35000,
+  "eccesso": 0.03996650276668827
+ },
+ "Bibbia Arabic": {
+  "parole": 35000,
+  "eccesso": 0.07988533813972723
+ },
+ "Bibbia Armenian-PART": {
+  "parole": 35000,
+  "eccesso": 0.17271901282695765
+ },
+ "Bibbia Ashaninka-NT": {
+  "parole": 35000,
+  "eccesso": 0.028020148848777106
+ },
+ "Bibbia Aukan-NT": {
+  "parole": 35000,
+  "eccesso": 0.0594670936395616
+ },
+ "Bibbia Barasana-NT": {
+  "parole": 35000,
+  "eccesso": 0.24082008997550766
+ },
+ "Bibbia Basque-NT": {
+  "parole": 35000,
+  "eccesso": 0.06614999423911297
+ },
+ "Bibbia Bulgarian": {
+  "parole": 35000,
+  "eccesso": 0.042254381501938276
+ },
+ "Bibbia Burmese": {
+  "parole": 35000,
+  "eccesso": 0.08168642286026487
+ },
+ "Bibbia Cabecar-NT": {
+  "parole": 35000,
+  "eccesso": 0.07890913222438752
+ },
+ "Bibbia Cakchiquel-NT": {
+  "parole": 35000,
+  "eccesso": 0.13091194898254574
+ },
+ "Bibbia Camsa-NT": {
+  "parole": 35000,
+  "eccesso": 0.0951316239267701
+ },
+ "Bibbia Cebuano": {
+  "parole": 35000,
+  "eccesso": 0.1330314771163593
+ },
+ "Bibbia Chamorro-PART": {
+  "parole": 35000,
+  "eccesso": 0.14433697961529557
+ },
+ "Bibbia Cherokee-NT": {
+  "parole": 35000,
+  "eccesso": 0.2062135443426058
+ },
+ "Bibbia Chinantec-NT": {
+  "parole": 35000,
+  "eccesso": 0.13562894489478605
+ },
+ "Bibbia Chinese": {
+  "parole": 35000,
+  "eccesso": 1.2490812910718616
+ },
+ "Bibbia Chinese-pinyin": {
+  "parole": 35000,
+  "eccesso": 0.03297295464782959
+ },
+ "Bibbia Chinese-tok": {
+  "parole": 35000,
+  "eccesso": 0.9418065526296866
+ },
+ "Bibbia Coptic-NT": {
+  "parole": 35000,
+  "eccesso": 0.15533541383708033
+ },
+ "Bibbia Creole": {
+  "parole": 35000,
+  "eccesso": 0.0629434171099664
+ },
+ "Bibbia Croatian": {
+  "parole": 35000,
+  "eccesso": 0.03887507495471478
+ },
+ "Bibbia Czech": {
+  "parole": 35000,
+  "eccesso": 0.0676281234210471
+ },
+ "Bibbia Danish": {
+  "parole": 35000,
+  "eccesso": 0.07092591485292274
+ },
+ "Bibbia Dinka-NT": {
+  "parole": 35000,
+  "eccesso": 0.11421728342774048
+ },
+ "Bibbia Dutch": {
+  "parole": 35000,
+  "eccesso": 0.04977282307865387
+ },
+ "Bibbia English": {
+  "parole": 35000,
+  "eccesso": 0.09718985726844113
+ },
+ "Bibbia English-WEB": {
+  "parole": 35000,
+  "eccesso": 0.08371699903850693
+ },
+ "Bibbia Esperanto": {
+  "parole": 35000,
+  "eccesso": 0.13064238394110017
+ },
+ "Bibbia Estonian-PART": {
+  "parole": 35000,
+  "eccesso": 0.04836757078207441
+ },
+ "Bibbia Ewe-NT": {
+  "parole": 35000,
+  "eccesso": 0.06262323386873288
+ },
+ "Bibbia Farsi": {
+  "parole": 35000,
+  "eccesso": 0.13498536765316196
+ },
+ "Bibbia Finnish": {
+  "parole": 35000,
+  "eccesso": 0.018453002483844294
+ },
+ "Bibbia French": {
+  "parole": 35000,
+  "eccesso": 0.12460060706321911
+ },
+ "Bibbia Gaelic-PART": {
+  "parole": 15810,
+  "eccesso": 0.1578525213587593
+ },
+ "Bibbia Galela-NT": {
+  "parole": 35000,
+  "eccesso": 0.07801145819386175
+ },
+ "Bibbia German": {
+  "parole": 35000,
+  "eccesso": 0.07385614941445198
+ },
+ "Bibbia Greek": {
+  "parole": 35000,
+  "eccesso": 0.061901984199029945
+ },
+ "Bibbia Gujarati-NT": {
+  "parole": 35000,
+  "eccesso": 0.12415709542531399
+ },
+ "Bibbia Hebrew": {
+  "parole": 35000,
+  "eccesso": 0.0716002221856872
+ },
+ "Bibbia Hindi": {
+  "parole": 35000,
+  "eccesso": 0.21239444827965137
+ },
+ "Bibbia Hungarian": {
+  "parole": 35000,
+  "eccesso": 0.13686471985535978
+ },
+ "Bibbia Icelandic": {
+  "parole": 35000,
+  "eccesso": 0.04846882015160521
+ },
+ "Bibbia Indonesian": {
+  "parole": 35000,
+  "eccesso": 0.06061904640265183
+ },
+ "Bibbia Italian": {
+  "parole": 35000,
+  "eccesso": 0.07104645918793687
+ },
+ "Bibbia Jakalteko-NT": {
+  "parole": 35000,
+  "eccesso": 0.15520063391244482
+ },
+ "Bibbia Japanese": {
+  "parole": 35000,
+  "eccesso": 0.2412506181012436
+ },
+ "Bibbia Japanese-tok": {
+  "parole": 35000,
+  "eccesso": 1.1012865458483758
+ },
+ "Bibbia K'iche'-NT": {
+  "parole": 35000,
+  "eccesso": 0.17013055300453495
+ },
+ "Bibbia K'iche'-NT-SIL": {
+  "parole": 35000,
+  "eccesso": 0.1622117971836067
+ },
+ "Bibbia Kabyle-NT": {
+  "parole": 35000,
+  "eccesso": 0.19393892268377916
+ },
+ "Bibbia Kannada": {
+  "parole": 35000,
+  "eccesso": 0.1412430890309599
+ },
+ "Bibbia Korean": {
+  "parole": 35000,
+  "eccesso": 0.746563243428606
+ },
+ "Bibbia Latin": {
+  "parole": 35000,
+  "eccesso": 0.032820339156735476
+ },
+ "Bibbia Latvian-NT": {
+  "parole": 35000,
+  "eccesso": 0.06942854993138656
+ },
+ "Bibbia Lithuanian": {
+  "parole": 35000,
+  "eccesso": 0.028486945022430987
+ },
+ "Bibbia Lukpa-NT": {
+  "parole": 35000,
+  "eccesso": 0.07870812293786197
+ },
+ "Bibbia Malagasy": {
+  "parole": 35000,
+  "eccesso": 0.16229159621919553
+ },
+ "Bibbia Malayalam": {
+  "parole": 35000,
+  "eccesso": 0.08603097684696212
+ },
+ "Bibbia Mam-NT": {
+  "parole": 35000,
+  "eccesso": 0.1097701101770916
+ },
+ "Bibbia Manx-PART": {
+  "parole": 35000,
+  "eccesso": 0.12089775061310934
+ },
+ "Bibbia Maori": {
+  "parole": 35000,
+  "eccesso": 0.07623702395829764
+ },
+ "Bibbia Marathi": {
+  "parole": 35000,
+  "eccesso": 0.0951802918467914
+ },
+ "Bibbia Nahuatl-NT": {
+  "parole": 35000,
+  "eccesso": 0.06520441186038343
+ },
+ "Bibbia Nepali": {
+  "parole": 35000,
+  "eccesso": 0.19701897742149868
+ },
+ "Bibbia Norwegian": {
+  "parole": 35000,
+  "eccesso": 0.057607705510722695
+ },
+ "Bibbia Ojibwa-NT": {
+  "parole": 35000,
+  "eccesso": 0.23807902302282252
+ },
+ "Bibbia Paite": {
+  "parole": 35000,
+  "eccesso": 0.13331446403271485
+ },
+ "Bibbia Polish": {
+  "parole": 35000,
+  "eccesso": 0.04300923339235361
+ },
+ "Bibbia Portuguese": {
+  "parole": 35000,
+  "eccesso": 0.04054551902827601
+ },
+ "Bibbia Potawatomi-PART": {
+  "parole": 35000,
+  "eccesso": 0.11361765408088279
+ },
+ "Bibbia Q'eqchi'": {
+  "parole": 35000,
+  "eccesso": 0.3955870524112365
+ },
+ "Bibbia Quichua-NT": {
+  "parole": 35000,
+  "eccesso": 0.02462132078662176
+ },
+ "Bibbia Romani-NT": {
+  "parole": 35000,
+  "eccesso": 0.0929976456145539
+ },
+ "Bibbia Romanian": {
+  "parole": 35000,
+  "eccesso": 0.060996643187593416
+ },
+ "Bibbia Russian": {
+  "parole": 35000,
+  "eccesso": 0.04589597617730199
+ },
+ "Bibbia Serbian": {
+  "parole": 35000,
+  "eccesso": 0.03743529905457841
+ },
+ "Bibbia Shona": {
+  "parole": 35000,
+  "eccesso": 0.04217510332189569
+ },
+ "Bibbia Shuar-NT": {
+  "parole": 35000,
+  "eccesso": 0.06333494642367796
+ },
+ "Bibbia Slovak": {
+  "parole": 35000,
+  "eccesso": 0.08454043610645705
+ },
+ "Bibbia Slovene": {
+  "parole": 35000,
+  "eccesso": 0.04465445139724959
+ },
+ "Bibbia Somali": {
+  "parole": 35000,
+  "eccesso": 0.09116360887448369
+ },
+ "Bibbia Spanish": {
+  "parole": 35000,
+  "eccesso": 0.06691807987184326
+ },
+ "Bibbia Swahili-NT": {
+  "parole": 35000,
+  "eccesso": 0.05279164635861307
+ },
+ "Bibbia Swedish": {
+  "parole": 35000,
+  "eccesso": 0.05694220779201196
+ },
+ "Bibbia Syriac-NT": {
+  "parole": 35000,
+  "eccesso": 0.05844606168290376
+ },
+ "Bibbia Tachelhit-NT": {
+  "parole": 35000,
+  "eccesso": 0.0845851895294663
+ },
+ "Bibbia Tagalog": {
+  "parole": 35000,
+  "eccesso": 0.22492322367818893
+ },
+ "Bibbia Telugu": {
+  "parole": 35000,
+  "eccesso": 0.10148877873100144
+ },
+ "Bibbia Thai": {
+  "parole": 35000,
+  "eccesso": 0.05525910414765214
+ },
+ "Bibbia Thai-tok": {
+  "parole": 35000,
+  "eccesso": 0.15643813442188054
+ },
+ "Bibbia Tuareg-PART": {
+  "parole": 35000,
+  "eccesso": 0.09591231006666234
+ },
+ "Bibbia Turkish": {
+  "parole": 35000,
+  "eccesso": 0.06532790739666564
+ },
+ "Bibbia Ukranian-NT": {
+  "parole": 35000,
+  "eccesso": 0.10482064493396556
+ },
+ "Bibbia Uma-NT": {
+  "parole": 35000,
+  "eccesso": 0.07074478836395066
+ },
+ "Bibbia Uspanteco-NT": {
+  "parole": 35000,
+  "eccesso": 0.18569111050907416
+ },
+ "Bibbia Vietnamese": {
+  "parole": 35000,
+  "eccesso": 0.10436476078003451
+ },
+ "Bibbia Vietnamese-tok": {
+  "parole": 35000,
+  "eccesso": 0.10707811348901401
+ },
+ "Bibbia Wolaytta-NT": {
+  "parole": 35000,
+  "eccesso": 0.06535825091395289
+ },
+ "Bibbia Wolof-NT": {
+  "parole": 35000,
+  "eccesso": 0.06434808738802289
+ },
+ "Bibbia Xhosa": {
+  "parole": 35000,
+  "eccesso": 0.025925963778662898
+ },
+ "Bibbia Zarma": {
+  "parole": 35000,
+  "eccesso": 0.12550967848068578
+ },
+ "Bibbia Zulu-NT": {
+  "parole": 35000,
+  "eccesso": 0.02485663646822651
+ },
+ "Manusmṛti (versi)": {
+  "parole": 22505,
+  "eccesso": 0.7800771342881256
+ },
+ "Raghuvaṃśa (versi)": {
+  "parole": 19985,
+  "eccesso": 0.8248002524696993
+ },
+ "Voynich (ZL)": {
+  "parole": 34863,
+  "eccesso": 0.18814378875482926
+ }
+}

@@ -1461,3 +1461,42 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
   decrescente.
 - Non è l'abitudine di un solo scriba: è una regola condivisa del modo di scrivere questo testo
   (o del procedimento), applicata con più o meno rigore da mani diverse.
+
+## 1/10/2026 — e91: le giunture del Voynich sono nella norma delle lingue del mondo
+
+- **Metodo.** Preregistrato. Misura "confine" (parole interne) su 110 Bibbie (prime 35.000
+  parole, righe di 8), sui versi sanscriti e sul Voynich.
+- **Risultato.** Il Voynich (**0,188 bit**) è al **17° posto su 110**.
+
+  | lingua | eccesso (bit) |
+  |---|---|
+  | q'eqchi' | 0,40 |
+  | barasana | 0,24 |
+  | ojibwa | 0,24 |
+  | tagalog | 0,22 |
+  | hindi | 0,21 |
+  | cabilo | 0,19 |
+  | amarico | 0,19 |
+  | k'iche' | 0,17 |
+  | malgascio | 0,16 |
+  | gaelico | 0,16 |
+  | ungherese | 0,14 |
+  | esperanto | 0,13 |
+  | francese | 0,12 |
+  | inglese | 0,10 |
+  | italiano | 0,07 |
+  | **latino** | **0,033** (fra i più bassi) |
+  | finlandese | 0,019 (il più basso) |
+
+  - **Previsione sbagliata:** avevo previsto le lingue europee sotto 0,06, ma francese e
+    ungherese stanno sopra 0,12.
+  - **Non confrontabili:** le scritture in cui una parola è uno o due caratteri (cinese 1,25,
+    giapponese, coreano). Lì la misura coglie la dipendenza fra parole intere.
+- **Lettura. Correzione importante rispetto al dossier.** Il dossier presentava il legame forte
+  fra parole come un indizio contro una lingua naturale, ma il confronto era soprattutto con il
+  latino, che è una delle lingue con il legame più debole. Rispetto alle lingue del mondo, il
+  legame del Voynich è **normale**. Spesso nelle lingue lo producono le parole grammaticali brevi
+  e frequenti (tagalog *ng*, *sa*, *ang*) o le mutazioni (gaelico).
+  - **Resta anomalo** che il legame si fermi alla fine della riga (e74): in nessuna prosa lo fa.
+  - Lo spostamento va ricordato nel white paper: **la forza delle giunture non distingue; la
+    loro chiusura alla riga sì.**
