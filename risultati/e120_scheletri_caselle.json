@@ -1,0 +1,83 @@
+{
+ "Voynich": {
+  "righe": 3481,
+  "righe_con_simile": 21,
+  "quota_con_simile": 0.006032749209997127,
+  "coppie_nella_stessa_pagina": 2,
+  "parole_casella": 57,
+  "parole_fisse": 76,
+  "legame_caselle": 1.453884597910041,
+  "legame_fisse": 1.639792292976223,
+  "indice": 0.8866272906254733,
+  "ic": [
+   0.6987003058103974,
+   1.1149302865995354
+  ]
+ },
+ "Apicio": {
+  "righe": 992,
+  "righe_con_simile": 183,
+  "quota_con_simile": 0.1844758064516129,
+  "coppie_nella_stessa_pagina": 14,
+  "parole_casella": 262,
+  "parole_fisse": 752,
+  "legame_caselle": 1.281777397991882,
+  "legame_fisse": 1.1161960040183057,
+  "indice": 1.148344370860927,
+  "ic": [
+   0.9179984139190618,
+   1.4448022608725992
+  ]
+ },
+ "Macer": {
+  "righe": 2154,
+  "righe_con_simile": 395,
+  "quota_con_simile": 0.18337975858867223,
+  "coppie_nella_stessa_pagina": 19,
+  "parole_casella": 815,
+  "parole_fisse": 1551,
+  "legame_caselle": 1.1649217945821095,
+  "legame_fisse": 0.9856007034770821,
+  "indice": 1.1819409122501678,
+  "ic": [
+   1.050809438586675,
+   1.2525612004783397
+  ]
+ },
+ "Timm e Schinner": {
+  "righe": 3643,
+  "righe_con_simile": 30,
+  "quota_con_simile": 0.008234971177600879,
+  "coppie_nella_stessa_pagina": 21,
+  "parole_casella": 83,
+  "parole_fisse": 119,
+  "legame_caselle": 1.5169194865810969,
+  "legame_fisse": 2.1004825432869714,
+  "indice": 0.7221766690844871,
+  "ic": [
+   0.46219699884570986,
+   0.8696845309473297
+  ]
+ },
+ "valido": false,
+ "lettura": "indeciso",
+ "esempi": {
+  "Voynich": [
+   "qokchy chol shokchy [qokaiin] choety [choty] kaiin  (f29r)",
+   "[ydaiin] shedy otchedy [oteochey] tolchedy lsheody qoky daiin [otam]  (f66r)",
+   "qokain [olkeey] qolkary sain checthy lor [ol]  (f75r)",
+   "[qokeedy] qol cheedy otedy [cthedy] otedy [qoteedy] shcthedy qoeekeedy [deedy]  (f76v)",
+   "[solchedy] [qokain] okaiin shedy qokeedy qotedy  (f77r)",
+   "qokain [shckhy] qokolkain [chedy] qokain checthy lor  (f80r)",
+   "qotey l chees [olkal] ol chedy [okar] [shedy]  (f81r)",
+   "ychedy tedy [ol] sheedy qokeey loly  (f81r)",
+   "sar shedy qol [otain] [okair] okal chedy [dy]  (f81r)",
+   "sar shedy qol [shedaiin] [sheckhy] okal sheky [qotaiin] [chedol]  (f82r)",
+   "solkeedy [qoteedy] qokeey qokedy sol cheeety qokedy qoky [saiin]  (f83r)",
+   "solkeedy qokedy otedy sol chedy [lkedy] qokchedy qokedy [chckhdy] [sar]  (f83r)",
+   "qokaiin [chedy] qokal otal [chedy] qotals  (f83v)",
+   "[okaiin] [otchdy] qokain shedy qokeey qotedy  (f84r)",
+   "qoeeody [ychey] okeody [deody] okody cheodaiin cheody [ram]  (f102v1)"
+  ]
+ }
+}
