@@ -187,3 +187,17 @@ riassunte nel `DOSSIER_WHITE_PAPER.md`, sezione 3.2; qui cominciano quelle della
 - **Motivo.** È una deviazione dalla preregistrazione nata da un blocco tecnico, non dai risultati.
   Si rieseguono tutti i valori di η con la correzione; con η = 0 il controllo di validità resta lo
   stesso.
+
+## D-012 — Diciottesima proprietà della pagella: il bordo di riga (1/10/2026)
+
+- **Contesto.** Nell'e71 la distinzione del bordo di riga separa bene i testi:
+  - Voynich: 23 all'inizio, 55 alla fine (rapporti con il nullo);
+  - prosa mandata a capo: 1–5;
+  - generatori: 10–13 all'inizio e 129–188 alla fine.
+  - La preregistrazione diceva di aggiungerla alla pagella se i generatori non la riproducono.
+- **Scelta.** La proprietà "bordo di riga" si considera riprodotta se entrambi i rapporti
+  (inizio e fine) stanno fra 0,5 e 2 volte quelli del Voynich. Le righe d'inizio paragrafo sono
+  escluse come nell'e71.
+- **Motivo.** La banda è decisa dopo aver visto i dati, come le altre della pagella (e61): vale
+  per i confronti futuri, non come prova. Il fattore 2 è lo stesso margine usato per altre bande
+  di rapporto.
