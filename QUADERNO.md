@@ -573,3 +573,18 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
 - **Lettura.** La somiglianza del generatore alla lista di controllo non si estende alla forma
   delle parole: scrive parole più lontane dal Voynich di quanto le sue due lingue lo siano fra
   loro. V8 entra nella lista di controllo per qualunque generatore futuro.
+
+## 1/10/2026 — Replica di e17 sul sottoinsieme dichiarato (D-009)
+
+- e17 (risolutore a ricottura simulata) rieseguito su latino, italiano ed ebraico: 3.710 valori
+  confrontati, **nessuna differenza** a parte i tempi di esecuzione. Il log è in
+  `risultati/provenienza/e17.*`; la corsa ha usato `LINGUE_SOLO=Latin,Italian,Hebrew` e
+  `PROCESSI=2`.
+  - Quella corsa è partita prima che `esegui.py` registrasse le variabili d'ambiente, quindi le
+    annoto qui.
+- Il file rieseguito conteneva solo le tre lingue. Ho ripristinato `e17_ricottura.json` e `.md`
+  originali, con gli stessi valori, per non perdere le altre lingue.
+- `verifica_replica.py` ora ignora i campi di durata.
+- **Stato della replica:** tutti gli esperimenti e01–e28 si replicano, tranne e19 ed e20, non
+  rieseguiti (D-009), ed e13, che cambia per una ragione spiegata (D-008). e16 era superato già
+  nel lavoro originale e non è stato rieseguito.
