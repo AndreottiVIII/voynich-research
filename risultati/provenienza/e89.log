@@ -1,0 +1,12 @@
+etichette 1164 | classi {'iniziale': 3370, 'interna': 18813, 'finale': 4064}
+  D_ini: iniziale 0.2310, interna 0.1855, finale 0.1264
+  D_fin: iniziale 0.0778, interna 0.0472, finale 0.0555
+  ordine osservato {'abitudine di bordo': False, 'intestazione': False, 'nessuna relazione': False} | quota ricampioni {'abitudine di bordo': 0.0, 'intestazione': 0.0, 'nessuna relazione': 0.0}
+  primo segno etichette [('o', 626), ('d', 114), ('y', 93), ('ch', 72), ('a', 67), ('s', 57)]
+     iniziale [('d', 624), ('y', 594), ('o', 521), ('q', 501), ('s', 414), ('t', 221)]
+     interna [('o', 4132), ('q', 3362), ('ch', 3330), ('sh', 1759), ('d', 1346), ('a', 943)]
+     finale [('o', 946), ('d', 677), ('ch', 549), ('a', 349), ('q', 345), ('l', 235)]
+  ultimo segno etichette [('y', 476), ('r', 165), ('l', 158), ('n', 86), ('s', 68), ('m', 67)]
+     iniziale [('y', 1086), ('n', 720), ('r', 652), ('l', 466), ('o', 214), ('s', 124)]
+     interna [('y', 8094), ('l', 3114), ('n', 2990), ('r', 2730), ('s', 598), ('o', 581)]
+     finale [('y', 1593), ('m', 629), ('n', 627), ('l', 450), ('r', 350), ('s', 137)]

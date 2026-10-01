@@ -1,0 +1,30 @@
+{
+ "etichette": 1164,
+ "classi": {
+  "iniziale": 3370,
+  "interna": 18813,
+  "finale": 4064
+ },
+ "distanze": {
+  "ini": {
+   "iniziale": 0.2310179573318513,
+   "interna": 0.18548960052286428,
+   "finale": 0.12636405899023684
+  },
+  "fin": {
+   "iniziale": 0.07783153848060625,
+   "interna": 0.04723506050802361,
+   "finale": 0.05549414367603546
+  }
+ },
+ "quota_ricampioni": {
+  "abitudine di bordo": 0.0,
+  "intestazione": 0.0,
+  "nessuna relazione": 0.0
+ },
+ "ordine_osservato": {
+  "abitudine di bordo": false,
+  "intestazione": false,
+  "nessuna relazione": false
+ }
+}
