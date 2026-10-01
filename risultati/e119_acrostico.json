@@ -1,0 +1,425 @@
+{
+ "statistica": {
+  "iniziali del Voynich": {
+   "lunghezza": 3210,
+   "simboli": 11,
+   "h1": 3.028926264444704,
+   "h2": 2.9147222433324056,
+   "h2_su_h1": 0.9622955426637843,
+   "im1": {
+    "eccesso": 0.07702614356486664,
+    "z": 14.644569866995298
+   },
+   "im2": {
+    "eccesso": 0.020997334036296667,
+    "z": 4.2659102704003615
+   },
+   "S1": 0.6209180388188759,
+   "S2": 1.1375902432186165
+  },
+  "lettere latine": {
+   "lunghezza": 3210,
+   "simboli": 23,
+   "h1": 3.9705242499962003,
+   "h2": 3.3250755715871576,
+   "h2_su_h1": 0.83743993544186,
+   "im1": {
+    "eccesso": 0.5320982379229557,
+    "z": 79.11029627962887
+   },
+   "im2": {
+    "eccesso": 0.30364113364481116,
+    "z": 42.91566166129596
+   },
+   "S1": 0.4035771612015593,
+   "S2": 0.8807161867892571
+  },
+  "lettere italiane": {
+   "lunghezza": 3210,
+   "simboli": 21,
+   "h1": 3.9663131569716175,
+   "h2": 3.28166519600859,
+   "h2_su_h1": 0.827384290179,
+   "im1": {
+    "eccesso": 0.5749451065857514,
+    "z": 83.08088367486752
+   },
+   "im2": {
+    "eccesso": 0.199246679949166,
+    "z": 27.11341189612378
+   },
+   "S1": 0.59437887407659,
+   "S2": 1.17096018735363
+  },
+  "acrostico latino cifrato (11 simboli)": {
+   "lunghezza": 3210,
+   "simboli": 11,
+   "h1": 3.328651841278165,
+   "h2": 2.9340705706501073,
+   "h2_su_h1": 0.8814591343753924,
+   "im1": {
+    "eccesso": 0.3707582818699885,
+    "z": 105.02501875530335
+   },
+   "im2": {
+    "eccesso": 0.17251277843869534,
+    "z": 43.294439883708336
+   },
+   "S1": 0.4628439187451787,
+   "S2": 0.9598968874014946
+  },
+  "iniziali di Timm e Schinner": {
+   "lunghezza": 3618,
+   "simboli": 13,
+   "h1": 3.173361981379172,
+   "h2": 3.0759391310832918,
+   "h2_su_h1": 0.9692997991191854,
+   "im1": {
+    "eccesso": 0.020934737412251644,
+    "z": 4.028895811086138
+   },
+   "im2": {
+    "eccesso": 0.012751500636808376,
+    "z": 2.4092302347850416
+   },
+   "S1": 1.0538756481199076,
+   "S2": 1.0194430442834732
+  }
+ },
+ "decifrazione": {
+  "latino": {
+   "controllo positivo": {
+    "punteggio": -2.5302810668945312,
+    "copertura": 0.6155285313376988,
+    "copertura_6": 0.12472715933894606,
+    "coppie_attestate": 0.02112676056338028,
+    "coppie_accanto": 142,
+    "parole_diverse": 238,
+    "quota_tre_piu_frequenti": 0.11290322580645161,
+    "parole_frequenti": [
+     "mutet",
+     "titi",
+     "minus",
+     "tota",
+     "rate",
+     "tuae",
+     "autem",
+     "tati",
+     "miti",
+     "tato",
+     "tite",
+     "omini"
+    ],
+    "obiettivo": -8.484478882698973,
+    "ripartenze": [
+     -2.9609,
+     -2.5303,
+     -2.5303,
+     -3.1248
+    ],
+    "simboli": 11,
+    "lunghezza": 3207,
+    "chiave_giusta": 0.790770190208918,
+    "chiave": {
+     "u0.": "e",
+     "u1.": "i",
+     "u10.": "t",
+     "u2.": "t",
+     "u3.": "u",
+     "u4.": "a",
+     "u5.": "m",
+     "u6.": "s",
+     "u7.": "o",
+     "u8.": "r",
+     "u9.": "n"
+    },
+    "esempio": [
+     "eumetomnitustritutusisratetmitiin",
+     "satertotemutastenteretattaremeumetatoteret",
+     "mitiintensumettortaretettottoramme",
+     "ettetitomuitatristuiomniate",
+     "satrititiistitiorumisratettuaretatteatititistittimam",
+     "meametmunerameatuaetraetetiut"
+    ],
+    "secondi": 9
+   },
+   "controllo negativo": {
+    "punteggio": -3.170442581176758,
+    "copertura": 0.5123863280025086,
+    "copertura_6": 0.04233301975540922,
+    "coppie_attestate": 0.0,
+    "coppie_accanto": 70,
+    "parole_diverse": 182,
+    "quota_tre_piu_frequenti": 0.12953367875647667,
+    "parole_frequenti": [
+     "eant",
+     "mene",
+     "suum",
+     "tuum",
+     "site",
+     "item",
+     "seme",
+     "tuus",
+     "iris",
+     "situ",
+     "iiii",
+     "seis"
+    ],
+    "obiettivo": -9.161443300084683,
+    "ripartenze": [
+     -3.1647,
+     -3.1525,
+     -3.2108,
+     -3.1704
+    ],
+    "simboli": 11,
+    "lunghezza": 3189,
+    "chiave": {
+     "u0.": "s",
+     "u1.": "t",
+     "u10.": "i",
+     "u2.": "e",
+     "u3.": "m",
+     "u4.": "e",
+     "u5.": "a",
+     "u6.": "u",
+     "u7.": "r",
+     "u8.": "n",
+     "u9.": "a"
+    },
+    "esempio": [
+     "immeiaemeaiteaiaemeissititeirisessiisisiteiriseeneanatiis",
+     "ssiisisituumeneantttesattesatuumeneantissariissarituum",
+     "eneantiiiisisasiseimuimaiiiisuumeneant",
+     "issimeisemisassisiteasissimmuumeneantmeiri",
+     "meirituumeneantsisisisituumeneantsitesisisitesisituum",
+     "eneantesiseereesiseeretuumeneantesuireesuiretuumeneant"
+    ],
+    "secondi": 9
+   },
+   "Voynich": {
+    "punteggio": -3.3466875553131104,
+    "copertura": 0.3728971962616822,
+    "copertura_6": 0.013707165109034268,
+    "coppie_attestate": 0.0,
+    "coppie_accanto": 40,
+    "parole_diverse": 147,
+    "quota_tre_piu_frequenti": 0.1702127659574468,
+    "parole_frequenti": [
+     "iiii",
+     "titi",
+     "itie",
+     "sins",
+     "titii",
+     "site",
+     "tite",
+     "siis",
+     "tuti",
+     "tuit",
+     "etsi",
+     "sset"
+    ],
+    "obiettivo": -9.604930761163528,
+    "ripartenze": [
+     -3.6131,
+     -3.7205,
+     -3.5157,
+     -3.3467
+    ],
+    "simboli": 11,
+    "lunghezza": 3210,
+    "chiave": {
+     "ch": "a",
+     "d": "i",
+     "k": "c",
+     "l": "u",
+     "o": "e",
+     "p": "a",
+     "q": "t",
+     "s": "i",
+     "sh": "u",
+     "t": "n",
+     "y": "s"
+    },
+    "esempio": [
+     "iiiissiieuiiussiuesasi",
+     "siiateun",
+     "eiuitseu",
+     "ceuiia",
+     "seitsesusetaeies",
+     "ietsesseueui"
+    ],
+    "secondi": 10
+   },
+   "posizione": -0.27531329235554736
+  },
+  "italiano": {
+   "controllo positivo": {
+    "punteggio": -3.1922972202301025,
+    "copertura": 0.36423426244910745,
+    "copertura_6": 0.09990604447228311,
+    "coppie_attestate": 0.21621621621621623,
+    "coppie_accanto": 37,
+    "parole_diverse": 126,
+    "quota_tre_piu_frequenti": 0.09504132231404959,
+    "parole_frequenti": [
+     "aten",
+     "alla",
+     "loro",
+     "rito",
+     "carne",
+     "tare",
+     "nella",
+     "aria",
+     "aronne",
+     "tante",
+     "rete",
+     "reti"
+    ],
+    "obiettivo": -9.088135079122914,
+    "ripartenze": [
+     -3.1923,
+     -3.6148,
+     -3.514,
+     -3.1923
+    ],
+    "simboli": 11,
+    "lunghezza": 3193,
+    "chiave_giusta": 0.8023802067021609,
+    "chiave": {
+     "u0.": "e",
+     "u1.": "o",
+     "u10.": "t",
+     "u2.": "a",
+     "u3.": "i",
+     "u4.": "n",
+     "u5.": "r",
+     "u6.": "l",
+     "u7.": "s",
+     "u8.": "t",
+     "u9.": "c"
+    },
+    "esempio": [
+     "coteloroscriticonttciliallatentatel",
+     "contetnotisitresentinoconteio",
+     "scenteroetarlerointtelltotocon",
+     "tetrenterolostiritocteest",
+     "titetertetterlosttiloro",
+     "terctetortinoconteilcaricotel"
+    ],
+    "secondi": 9
+   },
+   "controllo negativo": {
+    "punteggio": -3.427856922149658,
+    "copertura": 0.29131389150203824,
+    "copertura_6": 0.016933207902163686,
+    "coppie_attestate": 0.038461538461538464,
+    "coppie_accanto": 26,
+    "parole_diverse": 79,
+    "quota_tre_piu_frequenti": 0.23943661971830985,
+    "parole_frequenti": [
+     "erano",
+     "esse",
+     "seta",
+     "sete",
+     "rete",
+     "ella",
+     "asso",
+     "eser",
+     "aser",
+     "teso",
+     "tese",
+     "essa"
+    ],
+    "obiettivo": -9.438793586375786,
+    "ripartenze": [
+     -3.5308,
+     -3.4279,
+     -3.625,
+     -3.4759
+    ],
+    "simboli": 11,
+    "lunghezza": 3189,
+    "chiave": {
+     "u0.": "s",
+     "u1.": "t",
+     "u10.": "e",
+     "u2.": "o",
+     "u3.": "r",
+     "u4.": "a",
+     "u5.": "i",
+     "u6.": "e",
+     "u7.": "l",
+     "u8.": "n",
+     "u9.": "a"
+    },
+    "esempio": [
+     "erraeaaroaetaieaaroessetetoelesosseesesetoelesoanoinatees",
+     "sseeseseteeranointttasattasateeranointessaleessaleteer",
+     "anointeeeesesisesoereerieeeeseeranoint",
+     "esseraesaresissesetaisesserreeranointraele",
+     "raeleteeranointseseseseteeranointsetosesesetoseseteer",
+     "anointosesaaloosesaaloteeranointaseeloaseeloteeranoint"
+    ],
+    "secondi": 9
+   },
+   "Voynich": {
+    "punteggio": -4.189269542694092,
+    "copertura": 0.13177570093457944,
+    "copertura_6": 0.013707165109034268,
+    "coppie_attestate": 0.0,
+    "coppie_accanto": 3,
+    "parole_diverse": 55,
+    "quota_tre_piu_frequenti": 0.16161616161616163,
+    "parole_frequenti": [
+     "tane",
+     "onan",
+     "nono",
+     "enea",
+     "nata",
+     "atti",
+     "tanta",
+     "enan",
+     "anni",
+     "arti",
+     "anania",
+     "tito"
+    ],
+    "obiettivo": -10.284913736600975,
+    "ripartenze": [
+     -4.3135,
+     -4.3547,
+     -4.278,
+     -4.1893
+    ],
+    "simboli": 11,
+    "lunghezza": 3210,
+    "chiave": {
+     "ch": "e",
+     "d": "i",
+     "k": "u",
+     "l": "e",
+     "o": "a",
+     "p": "l",
+     "q": "n",
+     "s": "o",
+     "sh": "e",
+     "t": "r",
+     "y": "t"
+    },
+    "esempio": [
+     "oooottiiaeiiettieateti",
+     "tiienaer",
+     "aoeintae",
+     "uaeiie",
+     "taontatetaneaoat",
+     "iantattaeaei"
+    ],
+    "secondi": 9
+   },
+   "posizione": -3.232355170853707
+  }
+ },
+ "valido": true,
+ "acrostico_non_escluso": false
+}

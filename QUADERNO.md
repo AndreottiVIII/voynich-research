@@ -2512,3 +2512,36 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
   - L'alternanza (A > 1) è netta solo in biologia.
   - Rispetto ai testi del genere, il Voynich ha la riga chiusa come il *Macer* (in versi), non come
     Plinio e Apicio (in prosa), ma ha anche evitamento e ripetizioni che nessun testo del genere ha.
+
+## 1/10/2026 — e119: niente acrostico nelle iniziali di riga
+
+- **Metodo.** Preregistrato (idea discussa con Davide). Sequenza dei primi segni delle righe non
+  d'inizio paragrafo, pagina per pagina: 3.210 simboli, 11 tipi.
+- **Parte 1, statistica:**
+
+  | sequenza | h2/h1 | IM a distanza 1 (z) | IM a distanza 2 | S(1) | S(2) |
+  |---|---|---|---|---|---|
+  | iniziali del Voynich | **0,96** | **0,077** (14,6) | 0,021 | 0,62 | 1,14 |
+  | lettere latine | 0,84 | 0,53 (79) | 0,30 | 0,40 | 0,88 |
+  | lettere italiane | 0,83 | 0,58 (83) | 0,20 | 0,59 | 1,17 |
+  | acrostico latino cifrato con 11 simboli (controllo) | 0,88 | 0,37 (105) | 0,17 | 0,46 | 0,96 |
+  | iniziali del generatore | 0,97 | 0,021 | 0,013 | 1,05 | 1,02 |
+
+- **Parte 2, decifrazione** con il risolutore dell'e17:
+
+  | lingua | controllo positivo | posizione del Voynich | copertura 6+ del Voynich |
+  |---|---|---|---|
+  | latino | chiave giusta 79% | **−0,28** | 1,4% |
+  | italiano | chiave giusta 80% | **−3,23** | 1,4% |
+
+  - Il Voynich decifrato è peggiore del controllo negativo ("iiiissiieuiiu…").
+- **Criteri:** controllo valido **sì**; acrostico non escluso **no**.
+- **Lettura.**
+  - Le iniziali di riga hanno la forma qualitativa delle lettere: doppie evitate, ritorno a
+    distanza 2.
+  - Ma la loro dipendenza è **sette volte più debole** di quella delle lettere di una lingua
+    (0,077 contro 0,53–0,58 bit), e cinque volte più debole di un acrostico cifrato con lo stesso
+    numero di simboli (0,37).
+  - Il risolutore, che legge l'acrostico di prova all'80%, non ricava nulla dalle iniziali.
+  - **Un acrostico in latino o in italiano è escluso.** L'evitamento fra inizi di riga è una regola
+    debole e locale, non la traccia di un messaggio scritto lettera per lettera.
