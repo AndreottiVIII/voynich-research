@@ -2194,3 +2194,23 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
     sono due flussi in fase fissa.
   - Le giunture non spiegano l'alternanza: il generatore con le giunture ha 1,23 contro 1,09.
 - Da confermare con una prova preregistrata (e110).
+
+## 1/10/2026 — e106: il procedimento "a versi" non basta
+
+- **Metodo.** Preregistrato (tentativo 3). Base e69 contro base con regole di riga stimate sul
+  Voynich; medie su tre semi.
+
+  | modello | pagella | R | S(1) | copia 1ª / 2ª colonna | e94 posizione 2 |
+  |---|---|---|---|---|---|
+  | base | 13/18 | 0,02 | 1,06 | 1,31 / 1,19 | 1,04 |
+  | con regole di riga | 10/18 | 0,01 | 0,63 | 0,41 / 1,19 | 1,11 |
+
+- **Sufficienza non raggiunta.** La pagella scende a 10/18 (perde unioni, lunghezze vicine,
+  bordo) e la preferenza della seconda posizione resta sotto 1,2.
+- Nota: la base rigenerata arriva a 13/18 con il bordo di riga, e la chiusura della riga ce l'ha
+  già (R 0,02).
+- **Lettura.** Aggiungere le regole di riga al generatore migliore costa altre proprietà. In più
+  il generatore copia a catena, cosa che il Voynich non fa (alternanza, quaderno sopra).
+  L'ipotesi senza messaggio, nella forma "autocitazione", non tiene tutto insieme.
+- **Ancora da fare:** e110 (conferma preregistrata dell'alternanza); e107 (trascrizione ripulita
+  nei risolutori), che stava girando in sottofondo e va registrato quando finisce.

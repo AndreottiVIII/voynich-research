@@ -1,0 +1,8 @@
+seme 19 base (e69)           13/18 | R 0.01 S1 1.12 copia 1a 1.26 2a 1.23 e94 1.03 | h2 2.19 rip 1.35 omog 0.037 forma 1.77
+seme 19 con regole di riga   12/18 | R 0.01 S1 0.63 copia 1a 0.40 2a 1.23 e94 1.10 | h2 2.21 rip 1.34 omog 0.036 forma 1.84
+seme 1 base (e69)           12/18 | R 0.04 S1 1.04 copia 1a 1.38 2a 1.16 e94 1.07 | h2 2.28 rip 1.14 omog 0.058 forma 4.72
+seme 1 con regole di riga   10/18 | R 0.01 S1 0.63 copia 1a 0.46 2a 1.16 e94 1.13 | h2 2.31 rip 1.17 omog 0.059 forma 4.78
+seme 2 base (e69)           12/18 | R 0.02 S1 1.01 copia 1a 1.28 2a 1.18 e94 1.02 | h2 2.26 rip 1.37 omog 0.060 forma 1.15
+seme 2 con regole di riga   10/18 | R 0.00 S1 0.63 copia 1a 0.39 2a 1.18 e94 1.11 | h2 2.29 rip 1.42 omog 0.057 forma 1.11
+base (e69)           13/18 | R 0.02 S1 1.06 copia 1a 1.31 2a 1.19 e94 1.04 | sufficienza False | ripetizione omogeneità profilo pagina forma parole formule
+con regole di riga   10/18 | R 0.01 S1 0.63 copia 1a 0.41 2a 1.19 e94 1.11 | sufficienza False | ripetizione omogeneità unioni profilo pagina lunghezze vicine forma parole formule bordo di riga
