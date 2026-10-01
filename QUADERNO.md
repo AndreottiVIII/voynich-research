@@ -1829,3 +1829,50 @@ Ricerca web dell'1/10. Letto per intero solo Feaster 2021 (SHA in FONTI.md).
 
 - **Criterio preregistrato soddisfatto: robusta.** La riga chiusa non dipende dalla trascrizione,
   dall'alfabeto di trascrizione né dallo scriba.
+
+## 1/10/2026 — e98: il verso chiude la riga anche senza sandhi. Svolta nella lettura della riga
+
+- **Metodo.** Preregistrato. R dell'e74 per i poeti latini, un verso per riga e di seguito.
+- **Criterio preregistrato soddisfatto:** 4 testi conformi su 5 validi.
+
+  | testo | R per versi | R di seguito | legame dentro la riga | CV |
+  |---|---|---|---|---|
+  | Ovidio, *Metamorfosi* | **0,03** | 0,89 | 0,121 bit | 0,078 |
+  | Lucrezio | **0,04** | 0,89 | 0,112 bit | 0,080 |
+  | Orazio | **0,15** | 0,89 | | 0,082 |
+  | Giovenale | **0,19** | 0,91 | | 0,091 |
+  | *Eneide* | 0,12 | 0,87 | | 0,087 |
+
+  - Marbodo è troppo breve: 196 versi tenuti dal filtro, R per versi −1,12, non interpretabile.
+- **Esplorativo, non preregistrato: bordi del verso latino** (rapporto con il nullo, come
+  nell'e71):
+
+  | testo | bordo inizio | bordo fine |
+  |---|---|---|
+  | Ovidio | 25 | 115 |
+  | Lucrezio | 35 | 68 |
+  | *Voynich* | *23* | *55* |
+  | prosa mandata a capo | 4,6 | 1,1 |
+
+  - Alla fine del verso latino sono arricchite o, u, s, i, m: sono le chiuse dell'esametro.
+- **Che cosa i versi NON hanno:**
+  - evitamento fra inizi (S(1) da 0,92 a 1,13; Voynich 0,52);
+  - segno aggiunto all'inizio (0,71–0,92).
+- **Lettura.**
+  1. La chiusura della riga, i bordi forti e le righe di lunghezza regolare del Voynich sono
+     **esattamente ciò che fa un testo in versi impaginato un verso per riga**, in latino come in
+     sanscrito, con sandhi o senza.
+  2. Il metro **aumenta** anche il legame fra parole dentro il verso: Ovidio 0,12 contro Plinio
+     0,03. Il Voynich (0,19) sta fra il verso latino e il verso sanscrito.
+  3. Le proprietà di riga che nei giorni scorsi sembravano chiedere un procedimento riga per riga
+     hanno quindi una spiegazione naturale semplice: **il testo è in versi**.
+  - L'ipotesi 1 prende la forma concreta di "testo in versi, un verso per riga". Esistono erbari
+    medievali in versi: il *Macer floridus*, in esametri, fu molto diffuso nel Quattrocento. È un
+    genere plausibile per un erbario.
+  - **Restano fuori dal verso:**
+    - l'evitamento fra inizi di righe consecutive e il segno aggiunto;
+    - le anomalie di vocabolario: h2 bassa, ripetizioni ×1,0, somiglianza nella riga +10,7
+      deviazioni standard.
+  - Una possibilità da provare: un testo in versi scritto in un sistema che rende le sillabe con
+    gruppi di segni (h2 bassa), con formule ripetute.
+- **Prossimo passo (e99).** Il verso latino sulla pagella intera, come l'e78 per il sanscrito.
