@@ -19,34 +19,43 @@ D = e71.D
 
 
 def coppie(righe, posizione):
+    """Per pagina: lista ordinata dei primi segni della parola in `posizione` (None se manca), con il flag
+    d'inizio paragrafo. Le coppie si formano fra righe consecutive (nell'ordine reale o rimescolato)."""
+    per = OrderedDict()
+    for pag, inizio, ps in righe:
+        x = None
+        if len(ps) > posizione and trascrizione.pulita(ps[posizione]):
+            x = D(ps[posizione])[0]
+        per.setdefault(pag, []).append((inizio, x))
+    return per
+
+
+def accoppia(per, ordine=None):
     out = []
-    for k in range(len(righe) - 1):
-        pag, _, ps = righe[k]
-        pag2, inizio2, ps2 = righe[k + 1]
-        if pag2 != pag or inizio2 or len(ps) <= posizione or len(ps2) <= posizione:
-            continue
-        a, b = ps[posizione], ps2[posizione]
-        if trascrizione.pulita(a) and trascrizione.pulita(b):
-            out.append((pag, D(a)[0], D(b)[0]))
+    for pag, rr in per.items():
+        seq = rr if ordine is None else [rr[i] for i in ordine[pag]]
+        for (inizio1, a), (inizio2, b) in zip(seq, seq[1:]):
+            if a is not None and b is not None and not inizio1 and not inizio2:
+                out.append((a, b))
     return out
 
 
-def eccesso(cc, rnd):
-    vera = misure.informazione_mutua([(x, y) for _, x, y in cc])
-    per = defaultdict(list)
-    for i, (p, _, _) in enumerate(cc):
-        per[p].append(i)
+def eccesso(per, rnd):
+    """D-014: il nullo rimescola l'ordine delle righe dentro la pagina (una riga non si accoppia con se stessa).
+    Le righe d'inizio paragrafo sono escluse da entrambi i lati, nel reale e nel nullo."""
+    per = OrderedDict((p, rr) for p, rr in per.items())
+    reale = accoppia(per)
+    vera = misure.informazione_mutua(reale)
     nulli = []
     for _ in range(PERMUTAZIONI):
-        ys = [y for _, _, y in cc]
-        for idx in per.values():
-            v = [ys[i] for i in idx]
-            rnd.shuffle(v)
-            for i, y in zip(idx, v):
-                ys[i] = y
-        nulli.append(misure.informazione_mutua([(x, y) for (_, x, _), y in zip(cc, ys)]))
+        ordine = {}
+        for p, rr in per.items():
+            idx = [i for i, (inizio, _) in enumerate(rr) if not inizio]
+            rnd.shuffle(idx)
+            ordine[p] = idx
+        nulli.append(misure.informazione_mutua(accoppia(per, ordine)))
     m, s = statistics.mean(nulli), statistics.pstdev(nulli)
-    return OrderedDict([('n', len(cc)), ('eccesso', vera - m), ('z', (vera - m) / s if s else None)])
+    return OrderedDict([('n', len(reale)), ('eccesso', vera - m), ('z', (vera - m) / s if s else None)])
 
 
 def main():
