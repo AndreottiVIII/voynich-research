@@ -1946,3 +1946,28 @@ Ricerca web dell'1/10. Letto per intero solo Feaster 2021 (SHA in FONTI.md).
     tenga tutto dovrebbe combinarli: per esempio un testo composto in versi, verso per verso,
     copiando e variando parole delle righe vicine. Sarebbe una composizione poetica "ad
     autocitazione": un'ipotesi nuova da precisare.
+
+## 1/10/2026 — e101: sillabe con convenzioni di pagina, fallimento istruttivo
+
+- **Metodo.** Preregistrato. *Macer* in versi, una parola per sillaba, 1 + ⌊f/c⌋ codici per
+  sillaba (c = 40, 20, 10, 5), scelti a caso o fissati per pagina; tre semi.
+- **Risultati: massimo 5/18.**
+  - Ripetizione 0,88–1,24: sempre vicina al Voynich.
+  - **Omogeneità ≈ 0 in tutti i casi**, anche con i codici fissati per pagina.
+  - Parole uniche 0,09–0,22 (Voynich 0,68).
+  - Tipi 0,06–0,23.
+  - h2 2,30–2,76.
+- **Previsioni smentite:** "per pagina" non dà omogeneità, e nessuna combinazione supera 10/18.
+- **Lettura (importante per capire che cosa misura l'omogeneità).**
+  - La "somiglianza nella riga" (+10,7 deviazioni standard, e13) misura quanto si **somigliano
+    nella forma** parole **diverse** vicine, cioè quante poche modifiche le separano. Non misura il
+    riuso delle stesse parole.
+  - Fissare un codice per pagina aumenta il riuso, non la somiglianza fra parole diverse: per questo
+    non serve.
+  - Nel Voynich parole vicine e diverse sono **varianti** l'una dell'altra (*qokeedy*, *qokedy*,
+    *okeedy*…). È la firma di una scrittura che produce le parole **modificando parole vicine**.
+    Nessuna cifratura di un testo vero provata finora (e07, e43, e46, e52, e62, e100, e101) lo fa.
+  - Lo fa il procedimento ad autocitazione, ipotesi 3, e potrebbe farlo un cifrario in cui i codici
+    di una pagina nascono come varianti gli uni degli altri (D'Imperio ipotizzava riempitivi
+    "costruiti ripetendo parti di stringhe vicine con piccole modifiche"). Quest'ultima variante
+    però fallisce l'omogeneità nell'e43, se le copie sono solo locali.

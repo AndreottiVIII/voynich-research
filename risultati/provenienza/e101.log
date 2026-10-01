@@ -1,0 +1,8 @@
+c 40, casuale        4/18 | h2 2.30 tipi 0.058 uniche 0.19 rip 1.01 omog -0.000/-0.001 legame 0.004 R 2.19 forma 0.37 | h2 spazio ripetizione forma parole
+c 40, per pagina     5/18 | h2 2.31 tipi 0.058 uniche 0.19 rip 1.10 omog 0.001/-0.000 legame 0.005 R -0.10 forma 0.39 | h2 spazio ripetizione deriva forma parole
+c 20, casuale        3/18 | h2 2.44 tipi 0.080 uniche 0.13 rip 0.88 omog -0.001/-0.000 legame 0.002 R -2.71 forma 0.48 | spazio ripetizione forma parole
+c 20, per pagina     4/18 | h2 2.43 tipi 0.080 uniche 0.15 rip 1.10 omog -0.001/-0.001 legame 0.004 R -0.18 forma 0.49 | spazio ripetizione deriva forma parole
+c 10, casuale        1/18 | h2 2.65 tipi 0.129 uniche 0.09 rip 1.10 omog 0.000/0.000 legame 0.002 R 0.88 forma 1.04 | ripetizione
+c 10, per pagina     2/18 | h2 2.65 tipi 0.123 uniche 0.14 rip 1.10 omog -0.000/0.000 legame 0.004 R -0.17 forma 1.03 | ripetizione deriva
+c 5, casuale         1/18 | h2 2.76 tipi 0.227 uniche 0.18 rip 1.24 omog -0.000/0.000 legame -0.000 R - forma 1.14 | tipi
+c 5, per pagina      3/18 | h2 2.76 tipi 0.193 uniche 0.22 rip 1.10 omog 0.000/-0.001 legame 0.005 R -0.45 forma 1.17 | tipi ripetizione deriva
