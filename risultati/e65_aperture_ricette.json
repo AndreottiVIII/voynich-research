@@ -1,0 +1,128 @@
+{
+ "Voynich, ricette": {
+  "paragrafi": 292,
+  "apertura": 0.0821917808219178,
+  "seconda": 0.0821917808219178,
+  "interne": 0.09811643835616436,
+  "rapporto": 0.8376963350785341,
+  "p": 0.945273631840796,
+  "aperture_frequenti": [
+   [
+    "tchedy",
+    6
+   ],
+   [
+    "pol",
+    5
+   ],
+   [
+    "polaiin",
+    5
+   ],
+   [
+    "tol",
+    4
+   ],
+   [
+    "pchedal",
+    4
+   ],
+   [
+    "pcheor",
+    4
+   ],
+   [
+    "polchedy",
+    3
+   ],
+   [
+    "psheody",
+    3
+   ]
+  ]
+ },
+ "Apicio (controllo positivo)": {
+  "paragrafi": 215,
+  "apertura": 0.19069767441860466,
+  "seconda": 0.15348837209302327,
+  "interne": 0.20134883720930233,
+  "rapporto": 0.9471009471009472,
+  "p": 0.7114427860696517,
+  "aperture_frequenti": [
+   [
+    "accipies",
+    13
+   ],
+   [
+    "piper",
+    12
+   ],
+   [
+    "adicies",
+    6
+   ],
+   [
+    "in",
+    5
+   ],
+   [
+    "coques",
+    5
+   ],
+   [
+    "ex",
+    4
+   ],
+   [
+    "piperis",
+    4
+   ],
+   [
+    "teres",
+    4
+   ]
+  ]
+ },
+ "Bibbia latina (versetti)": {
+  "paragrafi": 1500,
+  "apertura": 0.2653333333333333,
+  "seconda": 0.19666666666666666,
+  "interne": 0.14877666666666667,
+  "rapporto": 1.7834337821791049,
+  "p": 0.004975124378109453,
+  "aperture_frequenti": [
+   [
+    "et",
+    218
+   ],
+   [
+    "dixitque",
+    61
+   ],
+   [
+    "dixit",
+    40
+   ],
+   [
+    "cumque",
+    40
+   ],
+   [
+    "qui",
+    39
+   ],
+   [
+    "at",
+    24
+   ],
+   [
+    "filii",
+    24
+   ],
+   [
+    "sed",
+    22
+   ]
+  ]
+ }
+}
