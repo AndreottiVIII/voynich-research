@@ -1682,3 +1682,13 @@ Ricerca web dell'1/10. Letto per intero solo Feaster 2021 (SHA in FONTI.md).
   - **Le due "anomalie di lunghezza" di Vogt hanno così una spiegazione semplice:** il segno
     aggiunto (prima parola) e la scelta del tipo di parola (seconda). Resta da spiegare perché la
     seconda posizione preferisca sh/ch.
+- **Esplorativo, non preregistrato: le giunture spiegano la preferenza per sh/ch in seconda
+  posizione?** **No.**
+  - Dalla fine della prima parola (y 971, n 627, r 558, l 403…) la tabella delle giunture interne
+    prevede per la seconda parola la stessa quota delle interne: ch 0,179, sh 0,093.
+  - Si osservano invece ch **0,235** e sh **0,161**, e meno parole in o (0,173 contro 0,232
+    previste).
+  - **Lettura:** la seconda posizione ha una preferenza **propria** per le parole in ch/sh, non
+    ereditata dalla giuntura con la prima parola. La riga ha quindi uno schema dei primi due posti:
+    una prima parola con un segno aggiunto, poi una parola in ch/sh. Anche questo manca ai
+    generatori (e75).
