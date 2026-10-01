@@ -26,11 +26,16 @@ D = misure.divisore(misure.GLIFI_EVA)
 RIMESCOLAMENTI = 1000
 
 
+INTERNE = '--interne' in sys.argv     # esplorativo: senza la prima e l'ultima parola di ogni riga
+
+
 def prepara(pagine, dividi):
     """Coppie (riga, riga precedente) come liste di tuple di segni."""
     out = []
     for p in pagine:
         p = [[tuple(dividi(w)) if dividi else tuple(w) for w in r] for r in p]
+        if INTERNE:
+            p = [r[1:-1] for r in p]
         for a, b in zip(p, p[1:]):
             if len(a) >= 2 and len(b) >= 2:
                 out.append((b, a))       # (riga corrente, riga sopra)
@@ -110,6 +115,10 @@ def main():
     naibbe = open(os.path.join(lingue.SORGENTI, 'naibbe-cipher', 'encrypted', 'nathist_output_ciphertext.txt'),
                   encoding='utf-8').read().split()
     testi['Naibbe (controllo negativo)'] = (misure.pagine_finte(naibbe), D)
+    if INTERNE:
+        # controllo con righe vere scritte a mano e senza messaggio: il gibberish di Gaskell e Bowern
+        import e41_gibberish as e41
+        testi['gibberish (righe vere, Gaskell e Bowern)'] = (list(e41.gibberish().values()), None)
     ris = OrderedDict()
     for nome, (pagine, dividi) in testi.items():
         coppie = prepara(pagine, dividi)
@@ -117,7 +126,8 @@ def main():
         a, r = ris[nome]['assoluta'], ris[nome]['relativa']
         print('%-48s assoluta %.3f (z %.1f, p %.3f, ident %.3f)  relativa %.3f (z %.1f, p %.3f)' % (
             nome, a['rapporto'], a['z'], a['p'], a['identiche_sopra'], r['rapporto'], r['z'], r['p']), flush=True)
-    with open(os.path.join(RISULTATI, 'e58_parola_sopra.json'), 'w', encoding='utf-8') as f:
+    suffisso = '_interne' if INTERNE else ''
+    with open(os.path.join(RISULTATI, 'e58_parola_sopra%s.json' % suffisso), 'w', encoding='utf-8') as f:
         json.dump(ris, f, ensure_ascii=False, indent=1)
     out = ['# e58 — La parola "di sopra": prova del meccanismo di copia verticale', '',
            'Rapporto fra la somiglianza di una parola con quella nella stessa posizione della riga precedente e la '
@@ -130,7 +140,9 @@ def main():
         a, b = r['assoluta'], r['relativa']
         out.append('| %s | %d | %.3f | %.1f | %.3f | %.3f | %.3f | %.1f | %.3f |' % (
             nome, r['coppie_di_righe'], a['rapporto'], a['z'], a['p'], a['identiche_sopra'], b['rapporto'], b['z'], b['p']))
-    with open(os.path.join(RISULTATI, 'e58_parola_sopra.md'), 'w', encoding='utf-8') as f:
+    if INTERNE:
+        out[0] += " (esplorativo: senza la prima e l'ultima parola di ogni riga)"
+    with open(os.path.join(RISULTATI, 'e58_parola_sopra%s.md' % suffisso), 'w', encoding='utf-8') as f:
         f.write('\n'.join(out) + '\n')
 
 
