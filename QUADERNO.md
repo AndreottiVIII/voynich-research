@@ -1671,3 +1671,14 @@ Ricerca web dell'1/10. Letto per intero solo Feaster 2021 (SHA in FONTI.md).
   - **Lettura:** il segno aggiunto dell'e73 basta a spiegare l'effetto che Vogt non sapeva
     spiegare.
   - Il calo della seconda parola (4,28), che Vogt nota anch'esso, resta senza spiegazione.
+- **Esplorativo, non preregistrato: il "calo della seconda parola" di Vogt.**
+  - La seconda parola è lunga in media 4,29 segni, le interne 4,43 (righe di almeno 5 parole).
+  - Se la seconda parola avesse, per ogni primo segno, le lunghezze delle interne, l'attesa
+    sarebbe **4,32**: il calo è quasi tutto **composizione**.
+  - In seconda posizione ci sono più parole in *sh* (17% contro 9%) e in *ch* (22% contro 18%),
+    che sono corte (circa 4 segni), e meno parole in *q* (14% contro 18%), che sono lunghe (5,8).
+  - Il calo di Vogt è quindi lo stesso fenomeno della preferenza di sh/ch per la seconda posizione
+    (Feaster; Smith e Ponzi).
+  - **Le due "anomalie di lunghezza" di Vogt hanno così una spiegazione semplice:** il segno
+    aggiunto (prima parola) e la scelta del tipo di parola (seconda). Resta da spiegare perché la
+    seconda posizione preferisca sh/ch.
