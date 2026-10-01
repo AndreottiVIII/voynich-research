@@ -1713,3 +1713,56 @@ Ricerca web dell'1/10. Letto per intero solo Feaster 2021 (SHA in FONTI.md).
 - **Lettura.** La preferenza per le parole in ch/sh oltre le giunture è reale (in entrambe le
   trascrizioni e le lingue) e **decresce dall'inizio della riga**: 1,43, poi 1,18, poi le interne.
   È il gradiente di Feaster misurato a parità di giunture. Il generatore non lo ha.
+
+## 1/10/2026 — e95: famiglie di segni intercambiabili, con scelta legata alla posizione
+
+- **Metodo.** Preregistrato. Indice A = JSD fra i "corpi" (resto della parola) delle parole che
+  cominciano con X e con Y, diviso per la JSD di divisioni casuali. A ≈ 1 vuol dire stessa
+  continuazione.
+- **Coppie con A ≤ 1,5 nel Voynich** (10):
+
+  | coppia | A |
+  |---|---|
+  | ckh/cth | 1,06 |
+  | r/s | 1,09 |
+  | k/t | 1,18 |
+  | ch/ckh | 1,20 |
+  | **ch/sh** | **1,26** |
+  | d/r | 1,37 |
+  | ckh/sh | 1,44 |
+  | d/s | 1,45 |
+  | p/t | 1,46 |
+  | r/t | 1,48 |
+
+  - Si formano tre famiglie: {ch, sh, ckh, cth}, {k, t, p}, {d, r, s}.
+- **La scelta dipende dalla posizione** (nullo: permutazione fra parole con lo stesso corpo):
+
+  | coppia | dipendenza | dettaglio |
+  |---|---|---|
+  | ch/sh | riga z 17; prima riga del paragrafo molto forte | sh 51% nella prima riga del paragrafo contro 32%; sh 58% a inizio riga, 23% a fine riga |
+  | k/t | riga z 20 | t 79% a inizio riga, 35% all'interno |
+  | p/t | prima riga del paragrafo z 15 | p nella prima riga: t solo 40% contro 89% |
+  | r/s | riga z 32 | s 97% a inizio riga |
+  | d/s | riga z 23 | |
+
+- **Criterio preregistrato per ch/sh: soddisfatto** (A ≤ 1,5 e z > 4).
+- **Tarature, esplorative, dopo l'esecuzione:**
+  - lingue vere (latino, italiano, inglese, tedesco; prime 35.000 parole): **nessuna** coppia di
+    iniziali con A ≤ 1,5; il minimo è 2,2–4,3;
+  - generatore di Timm e Schinner: 6 coppie, **solo fra i gallow** (f/p/k/t, A 0,97–1,20), che
+    il generatore scambia per costruzione. Non ha ch/sh né d/r/s;
+  - Naibbe: 1 coppia.
+- **Lettura.**
+  - Il Voynich ha **famiglie di segni intercambiabili all'inizio della parola**: stesse
+    continuazioni, e la scelta dentro la famiglia dipende dalla posizione nella riga e nel
+    paragrafo. Nelle lingue in alfabeto non succede.
+  - **Due interpretazioni:**
+    1. **allografi:** forme dello stesso segno scelte per posizione, come la s lunga e la s tonda,
+       o le iniziali ornate della prima riga. È una convenzione grafica che non porta significato;
+    2. **uno "slot" combinatorio:** l'iniziale e il resto della parola si scelgono in modo
+       indipendente, come in un sistema a tabelle o in un procedimento.
+  - Le due non si separano con questa misura. In ogni caso, per una decifrazione questi segni non
+    vanno trattati come lettere indipendenti di un alfabeto.
+  - La dipendenza dalla posizione (sh, p e t vicino all'inizio della riga o del paragrafo) è una
+    proprietà di **impaginazione**, come le lettere ornate. Contribuisce alle "anomalie di riga"
+    viste in e71–e94.
