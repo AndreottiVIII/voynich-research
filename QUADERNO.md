@@ -878,3 +878,38 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
 - **Prossimo passo (e72).** Una prova meglio costruita fra **aggiunta** di un segno, **scelta** di
   parole diverse e **sostituzione** dell'ultimo segno, con un modello di verosimiglianza invece
   della soglia di attestazione.
+
+## 1/10/2026 — e72: scelta, aggiunta o sostituzione al bordo
+
+- **Metodo.** Preregistrato. Miscela con EM di scelta (S), aggiunta di un segno (A),
+  sostituzione (T) e forma nuova (N). Confronto con la verosimiglianza su dati esclusi.
+- **Nota di trasparenza.** Prima di eseguire ho fatto una prova di funzionamento sulle prime 600
+  righe della lingua A, e ho visto un numero, il guadagno di A, prima del commit della
+  preregistrazione. Il disegno non è stato cambiato dopo.
+- **Validità:**
+  - **controllo d'aggiunta:** guadagno +2,53 bit (✓). Il peso π_A,s è però 0,342, appena sotto il
+    minimo dichiarato di 0,35 (✗): i pesi **sottostimano** la quota aggiunta di circa un terzo
+    (0,34 contro 0,5 vero), quindi vanno letti come limiti inferiori;
+  - **controllo di sostituzione:** T +2,38 contro A +0,61 (✓);
+  - **testi mandati a capo:** all'inizio i guadagni stanno sotto 0,05 bit. **Alla fine Plinio in
+    chiaro guadagna 0,17–0,32 (✗).** Il motivo sono le desinenze latine: una parola mai vista a metà
+    riga si spiega bene come "stessa radice con un'altra desinenza", in **qualsiasi** posizione. È
+    un difetto di disegno: mancava il confronto con una posizione interna. **Il lato fine non si
+    legge.**
+- **Inizio riga** (unico lato valido), guadagno in bit e peso:
+
+  | testo | A | T | peso A | segni |
+  |---|---|---|---|---|
+  | Voynich | **+0,79** | +0,39 | 0,23 | y, d, s, o |
+  | lingua A | +0,73 | | | |
+  | lingua B | +0,96 | | | |
+  | controlli mandati a capo | ≤ +0,04 | | | |
+  | Timm e Schinner ed e51 | +0,15–0,20 | | 0,08–0,10 | gallow k, p, t |
+
+  - Secondo il criterio preregistrato il meccanismo all'inizio è l'**aggiunta**: molte parole
+    d'inizio riga sono parole normali precedute da y, d, s oppure o.
+  - Il generatore fa la stessa cosa, ma con forza un quarto più bassa e con i segni sbagliati.
+- **Riserva.** Resta da escludere che sia la morfologia generale del Voynich, dove le parole con e
+  senza un o-, y-, d- iniziale coesistono. Il testo codificato per rango (parole del Voynich
+  messe a caso) dà +0,04, il che lo rende poco probabile. La prova giusta è però la stessa misura
+  su una posizione interna: la faccio nell'e73.
