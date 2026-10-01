@@ -1692,3 +1692,24 @@ Ricerca web dell'1/10. Letto per intero solo Feaster 2021 (SHA in FONTI.md).
     ereditata dalla giuntura con la prima parola. La riga ha quindi uno schema dei primi due posti:
     una prima parola con un segno aggiunto, poi una parola in ch/sh. Anche questo manca ai
     generatori (e75).
+
+## 1/10/2026 — e94: preferenza per ch/sh vicino all'inizio della riga, a gradiente
+
+- **Metodo.** Preregistrato. Quota di parole in ch/sh osservata contro quella prevista dalla
+  tabella delle giunture, a partire dalla fine della parola precedente.
+- **Risultati** (rapporto e intervallo al 95%):
+
+  | testo | posizione 2 | posizione 3 |
+  |---|---|---|
+  | ZL | **1,43** (1,37–1,49) | 1,18 (1,12–1,24) |
+  | IT | 1,37 | 1,15 |
+  | lingua A | 1,48 | 1,21 |
+  | lingua B | 1,37 | 1,14 |
+  | Timm e Schinner | 1,05 | 1,02 |
+
+- **Criterio preregistrato non soddisfatto.** La posizione 3 doveva essere normale (intervallo
+  con 1 o sotto 1,1), ma è anch'essa in eccesso. Non si tratta di una regola della sola seconda
+  posizione.
+- **Lettura.** La preferenza per le parole in ch/sh oltre le giunture è reale (in entrambe le
+  trascrizioni e le lingue) e **decresce dall'inizio della riga**: 1,43, poi 1,18, poi le interne.
+  È il gradiente di Feaster misurato a parità di giunture. Il generatore non lo ha.
