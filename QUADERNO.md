@@ -2342,3 +2342,37 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
   - L'ipotesi "lingua monosillabica" (Stolfi), nella forma "una parola = una sillaba di una lingua
     nota", non regge.
   - Resta solo la variante con grafia variabile (e104), che però ha i limiti dell'e111.
+
+## 1/10/2026 — e114: nessun accordo delle terminazioni a distanza (contro la grammatica)
+
+- **Metodo.** Preregistrato (strada 2). IM fra gli ultimi 2 segni (o lettere) di parole a distanza k
+  nella riga, contro il rimescolamento dentro la riga (che conserva l'omogeneità di riga).
+- **Risultati** (eccesso in bit, z):
+
+  | testo | k = 1 | k = 2 | k = 3 |
+  |---|---|---|---|
+  | Voynich ZL | 0,048 (16) | **0,000 (0,1)** | −0,002 |
+  | Voynich IT | 0,029 (10) | 0,005 (1,5) | −0,001 |
+  | lingue A e B | 0,03 / 0,05 | ≤ 0 | ≤ 0 |
+  | generatori (5) | 0,039–0,042 | da −0,015 a −0,005 | negativi |
+  | Bibbia latina | 0,34 | **0,065 (19)** | 0,017 (4,4) |
+  | Bibbia italiana | 0,60 | 0,13 (35) | |
+  | Bibbia tedesca | 0,36 | 0,10 (30) | |
+  | Bibbia ungherese | 0,52 | 0,14 (29) | |
+  | Bibbia turca | 0,40 | 0,13 (33) | |
+  | Ovidio | 0,16 | 0,03 (7) | |
+
+- **Criteri preregistrati:** accordo nel Voynich **no**; generatori senza accordo **sì**.
+- **Lettura. Risultato forte.**
+  - In tutte le lingue provate, flessive e agglutinanti, in prosa e in versi, la terminazione di una
+    parola predice quella delle parole successive, a distanza 1 con 0,16–0,60 bit e ancora a
+    distanza 2. È la sintassi: accordi e parole grammaticali.
+  - **Nel Voynich questa struttura manca.** Il poco che c'è a distanza 1 (0,03–0,05) è della stessa
+    misura dei generatori e si spiega con la regola delle giunture. A distanza 2 è zero.
+  - Le terminazioni delle parole del Voynich (-dy, -y, -in, -ol…) non portano informazione
+    sintattica sequenziale come le desinenze o le parole grammaticali di una lingua.
+- **Riserve.**
+  - Se le parole fossero sillabe, la sintassi starebbe su più parole e la misura andrebbe fatta su
+    un flusso di sillabe vere. Non l'ho fatto: è un controllo da aggiungere.
+  - Combinato con l'e110 (nessuna copia a catena), il Voynich non è né una lingua scritta parola
+    per parola, né la copia a catena dei generatori noti.
