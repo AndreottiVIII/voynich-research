@@ -1,0 +1,7 @@
+Voynich, erbario                   pagine 128 | esatto 0.02 vs 0.21 (x0.07, p 1.000) | vicino 0.27 vs 0.55 (x0.50, p 1.000)
+Voynich, erbario A                 pagine  95 | esatto 0.01 vs 0.21 (x0.05, p 1.000) | vicino 0.24 vs 0.53 (x0.46, p 1.000)
+Voynich, erbario B                 pagine  32 | esatto 0.03 vs 0.22 (x0.14, p 1.000) | vicino 0.38 vs 0.61 (x0.61, p 0.990)
+Culpeper (controllo positivo)      pagine 195 | esatto 0.57 vs 0.33 (x1.77, p 0.005) | vicino 0.64 vs 0.39 (x1.64, p 0.005)
+Timm e Schinner, seme 19           pagine 138 | esatto 0.09 vs 0.56 (x0.15, p 1.000) | vicino 0.63 vs 0.87 (x0.72, p 1.000)
+Timm e Schinner, seme 1            pagine 138 | esatto 0.11 vs 0.60 (x0.18, p 1.000) | vicino 0.66 vs 0.87 (x0.76, p 1.000)
+Timm e Schinner, seme 2            pagine 138 | esatto 0.07 vs 0.60 (x0.12, p 1.000) | vicino 0.70 vs 0.88 (x0.80, p 1.000)
