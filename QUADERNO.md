@@ -1812,3 +1812,20 @@ Ricerca web dell'1/10. Letto per intero solo Feaster 2021 (SHA in FONTI.md).
   delle parole) e non le provo.
 - **Il Naibbe** di Greshko (*Cryptologia*, 2025) è già nel corpus (e31, e43, e71–e74). Non
   riproduce la chiusura della riga: legame debole (0,0014 bit), R ≈ 1 una volta mandato a capo.
+
+## 1/10/2026 — e97: la chiusura della riga è robusta
+
+- **Metodo.** Preregistrato. R dell'e74 su altre trascrizioni e per mano.
+
+  | prova | R | legame dentro la riga |
+  |---|---|---|
+  | ZL | 0,006 | |
+  | IT | 0,010 | |
+  | GC (altro alfabeto, un carattere per segno) | 0,040 | |
+  | mano 1 | −0,020 | |
+  | mano 2 | 0,060 | |
+  | mano 3 | −0,002 | |
+  | tutte | | da 0,14 a 0,26 bit, z da 57 a 273 |
+
+- **Criterio preregistrato soddisfatto: robusta.** La riga chiusa non dipende dalla trascrizione,
+  dall'alfabeto di trascrizione né dallo scriba.
