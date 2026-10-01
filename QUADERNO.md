@@ -1526,3 +1526,59 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
 - **Voynich:** cornice z −0,5 (A −1,5; B 0,2); interno z 1,1. Generatore: 2,2.
 - **Lettura.** Apertura e chiusura della riga sono **indipendenti**: la riga ha bordi propri, ma
   non una cornice accoppiata.
+
+## 1/10/2026 (notte) — Punto della situazione: la riga (e70–e92)
+
+**Che cosa è stabilito** (preregistrato, con controlli validi):
+
+1. **La riga è un'unità chiusa** (e74, e76).
+   - Il legame fra parole vicine (0,20 bit dentro la riga) sparisce all'a capo (R 0,01). Nella
+     prosa mandata a capo resta (Plinio 0,67).
+   - Nella sezione delle ricette le righe sono anche **piene** (CV 0,049).
+2. **Bordi forti e diversi da quelli del generatore** (e71).
+   - All'inizio della riga sono arricchiti s, y, t, d; alla fine g e m.
+   - Il generatore mette all'inizio i gallow e alla fine troppe m.
+3. **All'inizio della riga si aggiunge un segno** (y, d, s, o) a una parola normale (e73). È
+   proprio della prima parola: sulla seconda è quasi nullo.
+4. **Profilo interno** (e75). *sh* è più frequente verso l'inizio, *d* e *t* verso la fine. È un
+   gradiente dai bordi, non colonne.
+5. **Inizi di righe consecutive** (e82–e84, e90).
+   - Si evitano: S(1) ≈ 0,5. Il risultato regge in tre trascrizioni, in due lingue, in tre mani
+     e togliendo la seconda riga del paragrafo.
+   - Hanno passaggi preferiti e asimmetrici.
+   - Non c'è alternanza in fase con il paragrafo (e85, distici ritirati).
+6. **La prima parola non è copiata** dalla riga sopra (e88), mentre la seconda sì. Non deriva
+   nemmeno dall'ultima parola sopra (esplorativo).
+7. **Fatti negativi:**
+   - niente giunture verticali fra prime parole (e87);
+   - nessuna cornice apertura–chiusura (e92);
+   - le etichette non somigliano alle prime parole (e89).
+
+**Confronti:**
+
+- **Versi sanscriti con sandhi** (e77): riproducono 1 e 2, cioè la riga chiusa, i bordi forti e
+  la -m finale. Falliscono però il resto dell'impronta (e78: 1–4/17) e non evitano gli inizi
+  (Manusmṛti 1,18).
+- **Eneide e gibberish umano** (e86): nessun evitamento.
+- **Generatori di Timm e Schinner e varianti:** nessuno ha le proprietà 3, 4, 5 e 6 nella forma
+  giusta.
+- **La forza delle giunture è nella norma** delle lingue del mondo (e91, 17ª su 110). Non è un
+  argomento contro una lingua; lo è la loro chiusura alla riga.
+
+**Che cosa significa per le tre ipotesi:**
+
+- **Ipotesi 1 (contenuto non in prosa):** una riga per voce spiegherebbe la chiusura e la prima
+  parola "nuova", ma non le righe piene (e76), e le prime parole non somigliano ai nomi delle
+  etichette (e89). Una tabella o un elenco a righe di lunghezza fissa resta possibile.
+- **Ipotesi 2 (convenzioni di scrittura o cifratura):** servirebbe una cifratura che riparte a ogni
+  riga, con una prima parola trattata a parte. Una chiave per riga è sfavorita, perché il
+  vocabolario non salta fra le righe (esplorativo, e81).
+- **Ipotesi 3 (nessun messaggio):** servirebbe un procedimento riga per riga in cui la prima
+  parola è scelta a parte e diversa da quella sopra, mentre il resto è copiato. Il generatore
+  noto non lo fa; un procedimento umano potrebbe, ma il gibberish dei volontari non lo mostra.
+- In tutti e tre i casi **la riga è l'unità di composizione**, e la prima parola ha un ruolo suo.
+  È la principale novità di questa fase.
+
+**Esperimenti non validi o ritirati:** e79, e81, e85 (lettura distici); D-013, D-014.
+
+**In corso:** replica dell'e20 (D-009), in sottofondo.
