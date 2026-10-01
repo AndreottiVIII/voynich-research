@@ -1802,3 +1802,13 @@ Ricerca web dell'1/10. Letto per intero solo Feaster 2021 (SHA in FONTI.md).
   - **Lettura:** se le famiglie sono allografi, il testo "vero" è ancora più prevedibile (h2 più
     bassa, meno tipi), cioè ancora più lontano da una lingua in alfabeto. Le anomalie di
     ripetizione e di somiglianza non dipendono dal distinguere o no i segni delle famiglie.
+
+## 1/10/2026 — Decifrazioni annunciate di recente (punto 8 del dossier)
+
+- **Ricerca web dell'1/10.** Le proposte recenti trovate, per esempio "Deciphering the Voynich
+  Manuscript Complete 2025" (ResearchGate e Academia) e il "metodo dell'àncora dai", **non hanno
+  una chiave algoritmica pubblica**: le letture si appoggiano a "indizi visivi" scelti caso per
+  caso. Non si possono mettere alla prova con i nostri controlli (testo senza messaggio, ordine
+  delle parole) e non le provo.
+- **Il Naibbe** di Greshko (*Cryptologia*, 2025) è già nel corpus (e31, e43, e71–e74). Non
+  riproduce la chiusura della riga: legame debole (0,0014 bit), R ≈ 1 una volta mandato a capo.
