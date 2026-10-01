@@ -1,0 +1,10 @@
+Voynich, tutto               righe 4130 | R 0.01 (z a capo 0.4) | S1 0.52 (z -12.2) | A 1.044 (z 5.1) | bordo 23.5/54.7 | rip 0.99
+Voynich, erbario             righe 1608 | R 0.08 (z a capo 1.7) | S1 0.38 (z -9.7) | A 1.008 (z 0.6) | bordo 14.9/23.4 | rip 1.02
+Voynich, biologia            righe  745 | R 0.05 (z a capo 1.1) | S1 0.51 (z -6.2) | A 1.157 (z 7.2) | bordo 27.1/10.3 | rip 0.85
+Voynich, farmacia            righe  224 | R -0.13 (z a capo -0.5) | S1 0.33 (z -3.6) | A 1.047 (z 1.5) | bordo 8.8/6.8 | rip 0.77
+Voynich, ricette             righe 1164 | R -0.00 (z a capo -0.1) | S1 0.72 (z -3.6) | A 1.022 (z 1.6) | bordo 21.4/33.3 | rip 1.13
+Voynich, altre sezioni       righe  389 | R 0.18 (z a capo 1.6) | S1 0.70 (z -2.2) | A 1.012 (z 0.4) | bordo 10.7/11.3 | rip 1.00
+Macer (erbario in versi)     righe 2177 | R 0.00 (z a capo 0.0) | S1 0.95 (z -0.7) | A 0.969 (z -1.6) | bordo 22.6/17.4 | rip 0.07
+Plinio (erbario in prosa)    righe 4612 | R 0.66 (z a capo 7.1) | S1 1.04 (z 0.7) | A 1.002 (z 0.4) | bordo 4.2/1.1 | rip 0.11
+Apicio (ricette)             righe  723 | R 0.46 (z a capo 1.7) | S1 1.08 (z 0.6) | A 1.011 (z 0.5) | bordo 2.7/2.5 | rip 0.03
+sezioni che si discostano: {'Voynich, erbario': ['A_z'], 'Voynich, biologia': [], 'Voynich, farmacia': [], 'Voynich, ricette': [], 'Voynich, altre sezioni': ['A_z']}

@@ -2484,3 +2484,31 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
 
   - Nel Voynich inizio e fine della parola sono quasi indipendenti, come in latino e italiano su
     queste parti. Non distingue.
+
+## 1/10/2026 — e118: nessuna sezione fa eccezione
+
+- **Metodo.** Preregistrato (strada D). Proprietà di riga per sezione; testi del genere.
+- **Risultati:**
+
+  | testo | righe | R | S(1) (z) | A (z) | bordo ini/fin | ripetizione |
+  |---|---|---|---|---|---|---|
+  | Voynich, tutto | 4.130 | 0,01 | 0,52 (−12) | 1,044 (5,1) | 23 / 55 | 0,99 |
+  | erbario | 1.608 | 0,08 | **0,38** (−9,7) | 1,008 (0,6) | 15 / 23 | 1,02 |
+  | biologia | 745 | 0,05 | 0,51 (−6,2) | **1,157 (7,2)** | 27 / 10 | 0,85 |
+  | farmacia | 224 | −0,13 | **0,33** (−3,6) | 1,047 (1,5) | 9 / 7 | 0,77 |
+  | ricette | 1.164 | 0,00 | 0,72 (−3,6) | 1,022 (1,6) | 21 / 33 | 1,13 |
+  | altre | 389 | 0,18 | 0,70 (−2,2) | 1,012 (0,4) | 11 / 11 | 1,00 |
+  | *Macer* (erbario in versi) | | 0,00 | 0,95 | 0,969 | 23 / 17 | 0,07 |
+  | Plinio (erbario in prosa) | | 0,66 | 1,04 | 1,002 | 4 / 1 | 0,11 |
+  | Apicio (ricette) | | 0,46 | 1,08 | 1,011 | 3 / 3 | 0,03 |
+
+- **Sezioni che "si discostano"** (criterio preregistrato): erbario e altre, solo per A (z < 1).
+  - È l'alternanza, già nota come non significativa nella lingua A (e110). In nessuna sezione A
+    scende sotto 1, cioè in nessuna c'è copia a catena.
+- **Lettura.**
+  - La riga chiusa, l'evitamento fra inizi e l'assenza di copia a catena valgono **in tutte le
+    sezioni**. Non c'è una sezione "diversa" da attaccare per prima.
+  - L'evitamento è più forte in erbario e farmacia (S 0,33–0,38), più debole in ricette (0,72).
+  - L'alternanza (A > 1) è netta solo in biologia.
+  - Rispetto ai testi del genere, il Voynich ha la riga chiusa come il *Macer* (in versi), non come
+    Plinio e Apicio (in prosa), ma ha anche evitamento e ripetizioni che nessun testo del genere ha.
