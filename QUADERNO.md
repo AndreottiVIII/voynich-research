@@ -1412,3 +1412,27 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
     e descrizioni simili.
   - Non è il comportamento di una prosa mandata a capo, di versi o di un generatore ad
     autocitazione.
+
+## 1/10/2026 — e89: le etichette non somigliano alle prime parole di riga
+
+- **Metodo.** Preregistrato. JSD del primo e dell'ultimo segno fra le 1.164 etichette e le parole
+  iniziali, interne e finali dei paragrafi; bootstrap.
+- **Risultati:**
+
+  | misura | iniziali | interne | finali |
+  |---|---|---|---|
+  | D_ini (primo segno) | 0,231 | 0,186 | **0,126** |
+  | D_fin (ultimo segno) | 0,078 | **0,047** | 0,056 |
+
+  - Nessuno dei tre ordini preregistrati (0% dei ricampionamenti): **esito misto**.
+  - **Primo segno:**
+    - etichette: o 54%, d, y, ch, a;
+    - prime parole di riga: d, y, o, q, s, t;
+    - parole interne: o, q, ch, sh.
+- **Lettura.**
+  - Le etichette, che sono con ogni probabilità nomi, sono **più lontane proprio dalle prime parole
+    di riga**.
+  - L'interpretazione "intestazione di voce = nome" si **indebolisce**: se le prime parole di riga
+    sono speciali, non lo sono perché sono nomi come le etichette.
+  - Il fatto che il primo segno delle etichette somigli a quello delle parole finali è inatteso.
+    Lo annoto senza leggerlo.
