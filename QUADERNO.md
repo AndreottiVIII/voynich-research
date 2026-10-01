@@ -1287,3 +1287,59 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
     segno, certi passaggi sono preferiti e in modo asimmetrico (X → Y sì, Y → X no), è una
     sequenza (numerazione, ordine). Se resta solo l'evitamento, simmetrico, è più probabilmente
     una scelta visiva.
+
+## 1/10/2026 — e84: sequenza oltre l'evitamento; e85: niente distici (effetto di posizione)
+
+**e84** (preregistrato).
+
+- **Validità:**
+  - controllo "sequenza": z > 1.000 in entrambe le misure;
+  - controllo "solo evitamento": z 0,2 e −1,8 (✓).
+- **Voynich:** struttura fuori dalla diagonale z **12,4**, asimmetria z **11,4**. Vale nelle lingue
+  A (5,8 e 6,7) e B (10,0 e 7,6). Generatore: 2,1 e −0,9.
+- **Lettura preregistrata:** oltre a evitare lo stesso segno, gli inizi di righe consecutive
+  hanno passaggi preferiti e asimmetrici.
+- **Esplorativo, matrice osservato / atteso:**
+
+  | passaggio | rapporto |
+  |---|---|
+  | q → q | 0,23 |
+  | o → o | 0,19 |
+  | ch → ch | 0 |
+  | ch ↔ sh (due segni simili) | 0,24 |
+  | q → ch | 2,8 |
+  | q → sh | 2,1 |
+  | ch → t | 2,4 |
+  | o → q | 1,9 |
+  | d → q | 1,7 |
+
+  - Asimmetrie: d → q 125 contro q → d 67; q → ch 57 contro 25; o → s 49 contro 19.
+
+**e85** (preregistrato): la parità della riga nel paragrafo.
+
+- **Validità:** controllo positivo (Manusmṛti) z 18,4; controllo negativo |z| < 3 (✓).
+- **Voynich:** primo segno z 6,7, numero di parole z 10,5. Per la regola preregistrata sarebbe
+  "righe a coppie in fase".
+- **Confondimento non previsto (difetto di disegno).**
+  - La seconda riga del paragrafo è sempre dispari, e l'ultima, che è corta, cade su una parità
+    che dipende dalla lunghezza del paragrafo.
+  - Controllo esplorativo: togliendo la seconda e l'ultima riga, l'effetto sparisce (primo segno
+    z −0,5; numero di parole z 0,8).
+  - **La lettura "distici" è ritirata:** è un effetto di posizione. La seconda riga comincia
+    raramente per q (6% contro 15–21% delle altre) e spesso per o o d (23% e 26%).
+- **Lo stesso confondimento sull'e83–e84?** Controllo esplorativo che tiene solo le coppie di
+  righe con j ≥ 2, e poi j ≥ 3:
+
+  | righe tenute | S(1) | z | sequenza (z) | asimmetria (z) |
+  |---|---|---|---|---|
+  | j ≥ 2 | 0,50 | −11,0 | 9,4 | 9,2 |
+  | j ≥ 3 | 0,51 | −8,6 | 8,3 | 7,4 |
+
+  - Lingua A, j ≥ 3: S(1) 0,38. **L'evitamento e la sequenza restano:** non dipendono dalla
+    seconda riga.
+- **Lettura complessiva della serie e82–e85.**
+  - Gli inizi di righe consecutive si evitano e preferiscono certi passaggi.
+  - Non c'è una fase a coppie legata all'inizio del paragrafo, quindi non sono distici: è una
+    regola che lega ogni inizio di riga a quello della riga sopra.
+  - Fra i segni simili d'aspetto (ch e sh) l'evitamento vale anche incrociato, il che fa pensare
+    a una componente **visiva**: non incolonnare segni uguali o simili sul margine sinistro.
