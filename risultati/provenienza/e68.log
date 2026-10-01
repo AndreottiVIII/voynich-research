@@ -1,0 +1,4 @@
+eta 0.0: 9/17 | bersagli ·· | fuori campione 2/7 | h2 2.38 spazio 0.52 rip 0.76 omog 0.034 forma 2.77 R 0.74 lungh 0.040 zipf -0.91
+eta 0.5: 9/17 | bersagli ·· | fuori campione 3/7 | h2 2.32 spazio 0.56 rip 0.87 omog 0.032 forma 2.26 R 0.67 lungh 0.042 zipf -0.96
+eta 1.0: 12/17 | bersagli ·· | fuori campione 5/7 | h2 2.32 spazio 0.58 rip 1.21 omog 0.081 forma 2.02 R 1.31 lungh 0.072 zipf -1.08
+validita {'seme 19': True, 'seme 1': True, 'seme 2': True}
