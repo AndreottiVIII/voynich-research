@@ -647,3 +647,30 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
   - L'eccesso del Voynich è quindi in parte un effetto delle giunture e della concentrazione del
     vocabolario per sezione, non necessariamente di formule di contenuto.
   - Resta però più alto di tutti i generatori: ×5,2 contro ×3,3 al massimo.
+
+## 1/10/2026 — e59: la traccia verticale con la distanza
+
+- **Preregistrato.** Voynich: eccesso 0,028 a d = 1, 0,018 a d = 2, 0,021 a d = 3, 0,015 a d = 5.
+  Il rapporto d=2/d=1 è 0,64.
+- **Lettura.** Non è "copia dalla sola riga sopra". Il profilo è simile al generatore ai semi 1 e 2,
+  che sceglie la riga fonte fra tutte le precedenti della pagina.
+- **Limite.** Oltre d = 1 il controllo negativo è inaffidabile (Bibbia a pagine finte: z = 3,9 a
+  d = 3). Il test non separa una tabella da una copia "da tutta la pagina".
+
+## 1/10/2026 — e61: la pagella (riepilogo descrittivo)
+
+- **Che cos'è.** 17 proprietà del Voynich, con bande di tolleranza scelte dopo aver visto i
+  risultati, per 10 testi o modelli.
+- **Punteggi:**
+  - lingue ed elenchi 1–2;
+  - codice parola per parola 3; Naibbe 5; codice accorto 6;
+  - generatore puro 5; con giunture 8; **modello e51 9**; modello e53 8.
+- **Complementarità.**
+  - I codici prendono forma delle parole, h2, spazio, tipi, e hanno un profilo di pagina piatto
+    come il Voynich (codice di Plinio R = 1,06).
+  - I generatori prendono omogeneità, legame, traccia verticale, formule; il loro profilo di
+    pagina è concentrato in fondo alla parola (R 0,64–0,72).
+- **Nessuno** riproduce la deriva del vocabolario (a parte la recenza aggiunta apposta in e50),
+  il profilo di pagina e l'autocorrelazione delle lunghezze (Voynich 0,15; massimo 0,07–0,09).
+- **Prossimo passo.** e62 prova a unire le due famiglie: messaggio vero, omofoni veri, scelta
+  secondo uno stile di pagina che deriva.
