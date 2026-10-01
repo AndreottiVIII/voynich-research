@@ -1194,3 +1194,47 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
     Nessun salto.
 - **Lettura.** Una chiave per riga è poco probabile: la riga è chiusa per le giunture e per i
   bordi, non per il vocabolario. Lo stile cambia piano lungo la pagina, non a ogni riga.
+
+## 1/10/2026 — e82: gli inizi di riga consecutivi si evitano
+
+- **Metodo.** Preregistrato. **Deviazione D-014:** il primo nullo accoppiava una riga con se
+  stessa e il controllo negativo era fallito (z −3,2). L'esecuzione è conservata in
+  `risultati/scartati/`. Corretto il nullo (rimescolamento dell'ordine delle righe nella pagina) e
+  rieseguito con gli stessi criteri.
+- **Validità:** controllo positivo (marcatore a ciclo) z 918; controllo negativo z 0,6 (✓).
+- **Risultato.** IM fra il primo segno di righe consecutive:
+
+  | testo | prima parola | seconda parola |
+  |---|---|---|
+  | Voynich | **0,126 bit (z 24)** | 0,031 (z 4,7) |
+  | lingua A | 0,179 (z 17) | |
+  | lingua B | 0,109 (z 14) | |
+  | Timm e Schinner | 0,027–0,029 (z 5–6) | |
+
+  **Lettura preregistrata:** il segno d'inizio riga dipende da quello della riga prima, ben oltre
+  la vicinanza fra righe.
+- **Esplorativo, non preregistrato: che forma ha.** È soprattutto **evitamento**: due righe
+  consecutive cominciano con lo stesso segno **meno della metà delle volte** attese.
+
+  | coppia di inizi | rapporto osservato / atteso |
+  |---|---|
+  | stesso segno, in generale | 222 contro 520 (0,43) |
+  | q → q | 0,20 |
+  | d → d | 0,46 |
+  | y → y | 0,51 |
+  | q → ch | 2,5 |
+  | o → q | 1,7 |
+  | d → q | 1,5 |
+
+  | posizione | rapporto stesso segno |
+  |---|---|
+  | seconda parola | 0,91 |
+  | terza parola | 0,88 |
+  | ultima parola | 0,92 |
+  | prima parola, generatore | 0,94–0,97 |
+
+  - L'effetto è **proprio della prima parola** di riga, e il generatore non lo ha.
+- **Perché conta.** Una regola d'alternanza fra inizi di riga consecutivi è tipica di un elenco
+  numerato o marcato (segni che cambiano da una voce all'altra) o di una convenzione di
+  impaginazione. Un'abitudine casuale non la produce, e nessun generatore provato la ha. È stata
+  trovata esplorando: prima di darle peso servono verifiche preregistrate (e83).
