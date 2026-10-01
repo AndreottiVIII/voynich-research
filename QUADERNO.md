@@ -1515,3 +1515,14 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
 
   - A queste si aggiungono le proprietà di riga di questa sessione: chiusura, segno aggiunto,
     evitamento fra inizi, prima parola non copiata.
+
+## 1/10/2026 — e92: nessuna cornice di riga
+
+- **Metodo.** Preregistrato. IM fra il primo segno della prima parola e l'ultimo segno
+  dell'ultima, nella stessa riga, contro i rimescolamenti delle ultime parole nella pagina.
+  - Prima del commit il minimo è passato da 3 a 4 parole, perché con 3 la seconda e la penultima
+    coincidono.
+- **Validità:** controllo positivo (cornici y…m / s…g) z 747; Plinio codificato z −0,3 (✓).
+- **Voynich:** cornice z −0,5 (A −1,5; B 0,2); interno z 1,1. Generatore: 2,2.
+- **Lettura.** Apertura e chiusura della riga sono **indipendenti**: la riga ha bordi propri, ma
+  non una cornice accoppiata.
