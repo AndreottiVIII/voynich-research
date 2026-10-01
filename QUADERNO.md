@@ -1623,3 +1623,32 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
   - l'evitamento e la sequenza fra inizi di righe consecutive;
   - la prima parola non copiata dalla riga sopra;
   - il fatto che il legame fra parole sia nella norma delle lingue del mondo.
+
+## 1/10/2026 — Ricerca bibliografica sulla riga
+
+Ricerca web dell'1/10. Letto per intero solo Feaster 2021 (SHA in FONTI.md).
+
+- **Feaster 2021**, *Rightward and Downward in the Voynich Manuscript* (blog Griffonage).
+  - Le parole in *Sh* stanno più a sinistra nella riga delle corrispondenti in *ch*, con un
+    picco sulla **seconda parola**.
+  - Ci sono effetti analoghi lungo il paragrafo ("downwardness").
+  - Cita Currier sulla rarità delle parole in ch/Sh a inizio riga, e Smith e Ponzi sulle parole
+    in seconda posizione nel fascicolo 20.
+  - **Il gradiente dell'e75 è quindi già noto** (Feaster, Smith e Ponzi): l'e75 lo conferma con un
+    test a permutazione e mostra che i generatori non lo hanno.
+  - Feaster lo trova "rilevabile ovunque" lungo la riga; il nostro controllo esplorativo dava un
+    effetto che cala fino a z 2,2 togliendo due parole per lato. È una differenza da guardare nel
+    white paper.
+- **Altri lavori trovati, da leggere prima del white paper:**
+  - Vogt, *The Line as a Functional Unit in the Voynich Manuscript*
+    (voynichthoughts.files.wordpress.com/2012/11/the_voynich_line.pdf);
+  - Smith e Ponzi 2019, *Glyph combinations across word breaks in the Voynich manuscript*, sulle
+    giunture **dentro** la riga, dichiaratamente escluse quelle all'a capo;
+  - arXiv 2608.17096 (già in cache), con una divergenza del primo segno d'inizio riga di 0,528
+    per le prime righe di paragrafo contro 0,179 per le altre.
+- **Che cosa resta, per ora, senza precedenti trovati:**
+  - la chiusura misurata delle giunture all'a capo (e74) e il confronto con i versi con sandhi
+    (e77);
+  - l'evitamento e la sequenza fra inizi di righe consecutive (e82–e84, e90);
+  - la prima parola non copiata dalla riga sopra (e88).
+  - Va verificato su Vogt e su Smith e Ponzi prima di dirlo nel white paper.
