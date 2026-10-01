@@ -829,3 +829,52 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
     Timm e Schinner, che però hanno la forma sbagliata.
   - È lo stesso compromesso di e56 ed e57, visto dall'altra parte.
   - **Chiudo qui la linea dei generatori senza messaggio.** Il migliore resta 12/17 (e68 ed e69).
+
+## 1/10/2026 — e71: anatomia del bordo di riga
+
+- **Preregistrato.** È la voce 7 del dossier. Prima di eseguire ho letto nel codice del generatore
+  di Timm e Schinner che ha già regole per il bordo: aggiunge un segno a inizio riga e sostituisce
+  l'ultimo segno. L'ho annotato nella preregistrazione.
+- **La prova del segno aggiunto non vale.** Il controllo positivo ("s" aggiunta a metà delle righe)
+  dà 1,09 contro la soglia di 1,5. La misura è troppo debole: la forma senza il primo segno è
+  spesso rara, e la soglia di 2 attestazioni la esclude. Il Voynich dà 1,17 (z 16), ma con un
+  controllo fallito non si legge.
+- **Distinzione del bordo** (rapporto con il nullo, cioè con le parole rimescolate dentro la
+  riga):
+
+  | testo | inizio | fine |
+  |---|---|---|
+  | Voynich | 23 | 55 |
+  | lingua A | 15 | 22 |
+  | lingua B | 32 | 43 |
+  | Plinio mandato a capo | 4,6 | 1,1 |
+  | Plinio codificato | 2,3 | 0,8 |
+  | Naibbe | 4,8 | 0,7 |
+  | Timm e Schinner | 10–13 | 129–188 |
+  | e51 | 10 | 130 |
+
+  - Nella prosa mandata a capo l'effetto all'inizio è solo di lunghezza: la parola che non entra
+    va alla riga dopo, quindi le parole iniziali sono più lunghe.
+- **Segni arricchiti** (righe che non aprono un paragrafo):
+
+  | testo | inizio riga | fine riga |
+  |---|---|---|
+  | Voynich | s ×5,3, y ×4,8, t ×3,5, d ×2,5 | g ×25, m ×16 |
+  | generatore | p ×4–5, f ×4–5, k ×2–3 | m ×8–11, g ×8–15 |
+
+  - Il generatore mette i gallow anche a inizio riga, mentre il Voynich no (p ×2,6 su 44 casi).
+  - A fine riga usa la "m" il doppio del Voynich (circa 1.200 occorrenze contro 626).
+- **Esclusività** (tipi che compaiono solo al bordo):
+  - Voynich 1,7 e 1,8;
+  - generatori 1,3–1,5 e 1,3–2,3;
+  - prosa mandata a capo 1,2–1,3 e circa 1.
+  - Non distingue "riga = voce" dai ritocchi di bordo, perché anche il generatore la produce.
+- **Lettura.**
+  - Il bordo di riga del Voynich è fortissimo e di **forma diversa** da quella del generatore:
+    all'inizio s/y/d e non i gallow, alla fine meno m.
+  - Le regole di bordo di Timm e Schinner sono una caricatura: all'inizio troppo deboli e con i
+    segni sbagliati, alla fine troppo forti.
+  - La proprietà entra nella pagella come diciottesima (D-012).
+- **Prossimo passo (e72).** Una prova meglio costruita fra **aggiunta** di un segno, **scelta** di
+  parole diverse e **sostituzione** dell'ultimo segno, con un modello di verosimiglianza invece
+  della soglia di attestazione.

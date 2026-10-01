@@ -1,0 +1,24 @@
+Voynich                                        distinz. ini 23.30(z+138) fin 55.51(z+226) | aggiunto ini 1.17(z+16) fin 0.93(z-3) | esclus. ini 1.70(z+17) fin 1.80(z+24) | lungh 4.74/4.41/4.34
+    arricchiti inizio [('s', 5.33, 396), ('y', 4.81, 579), ('t', 3.54, 220), ('p', 2.57, 44), ('d', 2.5, 608)] | fine [('g', 24.73, 89), ('m', 16.37, 626), ('d', 1.7, 104), ('s', 1.08, 136), ('n', 0.95, 611)]
+Voynich A                                      distinz. ini 15.25(z+70) fin 22.29(z+85) | aggiunto ini 1.19(z+9) fin 0.94(z-2) | esclus. ini 1.49(z+10) fin 1.42(z+9) | lungh 4.52/4.03/4.23
+    arricchiti inizio [('y', 3.61, 223), ('t', 2.85, 79), ('s', 1.8, 87), ('q', 1.52, 197), ('d', 1.4, 226)] | fine [('g', 19.02, 49), ('m', 6.17, 167), ('d', 2.25, 55), ('n', 1.51, 320), ('y', 1.04, 514)]
+Voynich B                                      distinz. ini 32.19(z+161) fin 42.53(z+175) | aggiunto ini 1.18(z+12) fin 0.95(z-2) | esclus. ini 1.96(z+18) fin 2.09(z+24) | lungh 4.88/4.58/4.42
+    arricchiti inizio [('s', 10.13, 299), ('y', 5.77, 343), ('t', 3.98, 138), ('d', 3.76, 367), ('p', 3.73, 41)] | fine [('m', 32.21, 442), ('g', 30.03, 36), ('d', 1.32, 48), ('s', 1.12, 60), ('y', 0.91, 1023)]
+Plinio, a capo                                 distinz. ini 4.60(z+14) fin 1.13(z+0) | aggiunto ini 0.88(z-1) fin 1.00(z+0) | esclus. ini 1.30(z+12) fin 0.98(z-1) | lungh 6.95/5.76/5.93
+    arricchiti inizio [('d', 1.29, 241), ('c', 1.25, 487), ('l', 1.2, 113), ('r', 1.15, 147), ('b', 1.15, 46)] | fine [('s', 1.08, 878), ('i', 1.05, 304), ('n', 1.05, 221), ('r', 1.02, 186), ('m', 1.0, 651)]
+Plinio codificato, a capo                      distinz. ini 2.28(z+5) fin 0.82(z-1) | aggiunto ini 0.99(z-1) fin 0.97(z-1) | esclus. ini 1.22(z+8) fin 0.98(z-1) | lungh 5.38/4.75/4.80
+    arricchiti inizio [('p', 1.29, 110), ('q', 1.2, 682), ('k', 1.16, 191), ('y', 1.09, 270), ('e', 1.03, 20)] | fine [('g', 1.31, 33), ('m', 1.08, 145), ('n', 1.05, 768), ('o', 1.03, 158), ('r', 1.02, 612)]
+Naibbe, a capo                                 distinz. ini 4.76(z+11) fin 0.72(z-1) | aggiunto ini 0.98(z-2) fin 0.99(z-0) | esclus. ini 1.16(z+3) fin 0.87(z-3) | lungh 5.21/4.72/4.78
+    arricchiti inizio [('q', 1.28, 933), ('s', 1.13, 177), ('o', 1.04, 1115), ('y', 1.01, 216), ('a', 0.97, 216)] | fine [('e', 1.22, 29), ('o', 1.08, 121), ('s', 1.07, 185), ('d', 1.06, 149), ('n', 1.04, 817)]
+controllo: codificato + "s" a meta' delle righe distinz. ini 135.47(z+576) fin 0.82(z-1) | aggiunto ini 1.09(z+8) fin 0.98(z-1) | esclus. ini 2.21(z+50) fin 0.88(z-5) | lungh 5.88/4.75/4.80
+    arricchiti inizio [('s', 16.52, 2227), ('q', 0.62, 351), ('p', 0.58, 49), ('k', 0.55, 91), ('y', 0.51, 127)] | fine [('g', 1.31, 33), ('m', 1.08, 145), ('n', 1.05, 768), ('o', 1.03, 158), ('r', 1.02, 612)]
+Timm e Schinner, seme 19                       distinz. ini 9.97(z+36) fin 187.90(z+551) | aggiunto ini 1.07(z+6) fin 1.00(z+0) | esclus. ini 1.51(z+10) fin 1.81(z+16) | lungh 4.45/4.18/3.68
+    arricchiti inizio [('p', 4.34, 163), ('f', 4.16, 40), ('t', 2.14, 111), ('k', 2.09, 192), ('y', 1.15, 251)] | fine [('m', 8.53, 1228), ('g', 7.71, 88), ('d', 1.29, 173), ('s', 1.05, 82), ('y', 1.04, 730)]
+Timm e Schinner, seme 1                        distinz. ini 11.67(z+42) fin 162.93(z+444) | aggiunto ini 1.05(z+5) fin 1.00(z-0) | esclus. ini 1.50(z+9) fin 2.07(z+21) | lungh 4.19/3.97/3.53
+    arricchiti inizio [('p', 4.85, 176), ('f', 4.29, 38), ('k', 2.65, 220), ('t', 2.51, 106), ('s', 1.14, 31)] | fine [('m', 10.48, 1175), ('g', 9.81, 116), ('d', 1.27, 103), ('y', 1.06, 829), ('s', 0.99, 40)]
+Timm e Schinner, seme 2                        distinz. ini 13.41(z+51) fin 128.90(z+360) | aggiunto ini 1.10(z+10) fin 1.01(z+0) | esclus. ini 1.48(z+8) fin 2.29(z+23) | lungh 4.27/3.93/3.48
+    arricchiti inizio [('f', 5.6, 46), ('p', 5.08, 179), ('k', 2.61, 207), ('t', 1.76, 89), ('s', 1.27, 44)] | fine [('g', 15.4, 86), ('m', 11.31, 1189), ('d', 1.33, 75), ('s', 1.15, 27), ('y', 1.06, 892)]
++ giunture (e23), seme 19                      distinz. ini 12.17(z+42) fin 175.58(z+455) | aggiunto ini 1.00(z+0) fin 1.00(z+0) | esclus. ini 1.43(z+8) fin 1.87(z+16) | lungh 4.37/4.15/3.63
+    arricchiti inizio [('p', 6.07, 157), ('f', 5.5, 41), ('k', 2.66, 210), ('q', 2.08, 118), ('t', 2.02, 102)] | fine [('m', 10.48, 1106), ('g', 7.42, 75), ('s', 1.39, 82), ('d', 1.18, 183), ('o', 1.06, 136)]
+modello e51, seme 19                           distinz. ini 10.00(z+34) fin 129.96(z+398) | aggiunto ini 1.02(z+2) fin 0.94(z-2) | esclus. ini 1.34(z+10) fin 1.26(z+7) | lungh 4.74/4.50/3.85
+    arricchiti inizio [('p', 5.25, 159), ('f', 2.62, 34), ('t', 2.26, 121), ('k', 2.04, 189), ('q', 2.03, 131)] | fine [('m', 7.95, 1199), ('g', 7.5, 101), ('s', 1.13, 82), ('o', 1.12, 195), ('d', 1.1, 137)]
