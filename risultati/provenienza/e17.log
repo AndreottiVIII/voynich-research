@@ -1,0 +1,51 @@
+latino     tetto (testo in chiaro)                              punteggio -1.795  copertura 87.6% (6+: 57.3%)  coppie 21.4%  parole  5900  simboli   0     0s
+latino     Varrone, agricoltura                                 punteggio -1.943  copertura 87.2% (6+: 59.2%)  coppie  9.7%  parole  7740  chiave 100.0%  simboli  32   641s
+latino     Isidoro XVII, piante                                 punteggio -2.014  copertura 88.2% (6+: 59.2%)  coppie  9.4%  parole  3918  chiave 100.0%  simboli  35   270s
+latino     cifrario verboso, segni                              punteggio -3.045  copertura 47.3% (6+:  7.2%)  coppie  0.4%  parole   387  simboli  16    68s
+latino     segni EVA, controllo positivo                        punteggio -1.793  copertura 87.6% (6+: 57.2%)  coppie 21.4%  parole  5899  chiave 100.0%  simboli  26   427s
+latino     segni EVA, controllo negativo                        punteggio -2.901  copertura 55.9% (6+:  7.6%)  coppie  0.5%  parole  1897  simboli  26   409s
+latino     segni EVA, Voynich                                   punteggio -2.939  copertura 55.7% (6+:  8.6%)  coppie  0.3%  parole  1470  simboli  26   280s
+latino     cifrario verboso, gruppi (20 fusioni)                punteggio -3.243  copertura 43.7% (6+:  2.9%)  coppie  0.3%  parole   557  simboli  28   209s
+latino     cifrario verboso, gruppi (50 fusioni)                punteggio -2.055  copertura 80.0% (6+: 49.0%)  coppie 15.3%  parole  1780  simboli  45   209s
+latino     Naibbe (Plinio), segni                               punteggio -2.879  copertura 53.8% (6+: 10.3%)  coppie  0.1%  parole  1086  simboli  22   202s
+latino     Naibbe (Plinio), gruppi (20 fusioni)                 punteggio -3.309  copertura 44.0% (6+:  3.9%)  coppie  0.2%  parole  1711  simboli  40   443s
+latino     Naibbe (Plinio), gruppi (50 fusioni)                 punteggio -3.211  copertura 47.4% (6+:  4.5%)  coppie  0.4%  parole  2378  simboli  70   394s
+italiano   tetto (testo in chiaro)                              punteggio -1.571  copertura 76.5% (6+: 49.4%)  coppie 38.5%  parole  3324  simboli   0     0s
+latino     segni v101, controllo positivo                       punteggio -1.790  copertura 87.7% (6+: 57.4%)  coppie 21.8%  parole  5507  chiave 100.0%  simboli  59   820s
+latino     segni v101, controllo negativo                       punteggio -2.913  copertura 56.1% (6+:  7.4%)  coppie  0.4%  parole  2371  simboli  59   581s
+latino     segni v101, Voynich                                  punteggio -2.925  copertura 59.0% (6+:  9.0%)  coppie  0.2%  parole  1911  simboli  59   770s
+italiano   segni EVA, controllo positivo                        punteggio -1.571  copertura 76.5% (6+: 49.4%)  coppie 38.5%  parole  3324  chiave 100.0%  simboli  26   568s
+italiano   segni EVA, controllo negativo                        punteggio -3.421  copertura 26.8% (6+:  1.4%)  coppie  1.3%  parole   737  simboli  26   659s
+italiano   segni EVA, Voynich                                   punteggio -3.122  copertura 24.4% (6+:  1.8%)  coppie  0.3%  parole   371  simboli  26   235s
+latino     gruppi (20 fusioni), controllo positivo              punteggio -1.786  copertura 88.0% (6+: 57.7%)  coppie 21.6%  parole  4503  chiave 100.0%  simboli  45   668s
+latino     gruppi (20 fusioni), controllo negativo              punteggio -2.933  copertura 56.3% (6+:  7.6%)  coppie  0.2%  parole  2148  simboli  45   755s
+latino     gruppi (20 fusioni), Voynich                         punteggio -3.202  copertura 51.9% (6+:  4.1%)  coppie  0.5%  parole  2127  simboli  45   617s
+italiano   segni v101, controllo positivo                       punteggio -1.572  copertura 76.6% (6+: 49.4%)  coppie 39.1%  parole  3071  chiave 100.0%  simboli  59   948s
+italiano   segni v101, controllo negativo                       punteggio -3.383  copertura 29.1% (6+:  1.8%)  coppie  0.0%  parole   841  simboli  59   958s
+italiano   segni v101, Voynich                                  punteggio -3.148  copertura 26.6% (6+:  1.5%)  coppie  0.1%  parole   563  simboli  59   800s
+latino     gruppi (50 fusioni), controllo positivo              punteggio -1.775  copertura 88.2% (6+: 57.9%)  coppie 21.8%  parole  3805  chiave 100.0%  simboli  74   676s
+latino     gruppi (50 fusioni), controllo negativo              punteggio -2.973  copertura 54.3% (6+:  7.0%)  coppie  0.3%  parole  2080  simboli  74   633s
+latino     gruppi (50 fusioni), Voynich                         punteggio -3.203  copertura 49.2% (6+:  5.3%)  coppie  0.2%  parole  2174  simboli  74   690s
+ebraico    tetto (testo in chiaro)                              punteggio -2.249  copertura 74.6% (6+: 17.9%)  coppie 22.3%  parole  6214  simboli   0     0s
+italiano   gruppi (20 fusioni), controllo positivo              punteggio -1.581  copertura 77.2% (6+: 49.5%)  coppie 40.0%  parole  2497  chiave 100.0%  simboli  45   638s
+italiano   gruppi (20 fusioni), controllo negativo              punteggio -3.388  copertura 27.9% (6+:  1.8%)  coppie  0.7%  parole   701  simboli  45   657s
+italiano   gruppi (20 fusioni), Voynich                         punteggio -3.549  copertura 18.8% (6+:  0.8%)  coppie  0.4%  parole   570  simboli  45   679s
+ebraico    segni EVA, controllo positivo                        punteggio -2.275  copertura 74.1% (6+: 17.9%)  coppie 22.1%  parole  6188  chiave 100.0%  simboli  26   575s
+ebraico    segni EVA, controllo negativo                        punteggio -3.522  copertura 37.4% (6+:  1.2%)  coppie  0.1%  parole  1373  simboli  26   637s
+ebraico    segni EVA, Voynich                                   punteggio -2.997  copertura 51.9% (6+:  3.2%)  coppie  0.5%  parole   691  simboli  26   268s
+italiano   gruppi (50 fusioni), controllo positivo              punteggio -1.563  copertura 77.8% (6+: 50.7%)  coppie 40.7%  parole  2100  chiave 100.0%  simboli  74   526s
+italiano   gruppi (50 fusioni), controllo negativo              punteggio -3.421  copertura 28.6% (6+:  2.1%)  coppie  0.5%  parole   768  simboli  74   506s
+italiano   gruppi (50 fusioni), Voynich                         punteggio -3.681  copertura 16.3% (6+:  0.5%)  coppie  0.7%  parole   572  simboli  74   548s
+ebraico    segni v101, controllo positivo                       punteggio -2.184  copertura 75.8% (6+: 18.1%)  coppie 23.0%  parole  5837  chiave 100.0%  simboli  59   802s
+ebraico    segni v101, controllo negativo                       punteggio -3.562  copertura 36.0% (6+:  0.8%)  coppie  0.1%  parole  2418  simboli  59   702s
+ebraico    segni v101, Voynich                                  punteggio -3.248  copertura 48.3% (6+:  1.7%)  coppie  0.1%  parole  1312  simboli  59   391s
+ebraico    gruppi (20 fusioni), controllo positivo              punteggio -2.195  copertura 75.1% (6+: 16.6%)  coppie 24.3%  parole  5013  chiave 100.0%  simboli  45   299s
+ebraico    gruppi (20 fusioni), controllo negativo              punteggio -3.486  copertura 38.2% (6+:  0.8%)  coppie  0.1%  parole  1657  simboli  45   424s
+ebraico    gruppi (20 fusioni), Voynich                         punteggio -3.329  copertura 39.5% (6+:  1.1%)  coppie  0.1%  parole  1434  simboli  45   358s
+ebraico    gruppi (50 fusioni), controllo positivo              punteggio -2.230  copertura 74.3% (6+: 15.5%)  coppie 22.4%  parole  4184  chiave 100.0%  simboli  74   357s
+ebraico    gruppi (50 fusioni), controllo negativo              punteggio -3.573  copertura 36.0% (6+:  0.6%)  coppie  0.3%  parole  1872  simboli  74   287s
+ebraico    gruppi (50 fusioni), Voynich                         punteggio -3.366  copertura 35.4% (6+:  0.6%)  coppie  0.5%  parole  1548  simboli  74   272s
+Voynich, segni EVA              simboli  26  lunghezza 155354  righe  4234
+Voynich, segni v101             simboli  59  lunghezza 140017  righe  4365
+Voynich, gruppi (20 fusioni)    simboli  45  lunghezza 102831  righe  4195
+Voynich, gruppi (50 fusioni)    simboli  74  lunghezza  78605  righe  4168
