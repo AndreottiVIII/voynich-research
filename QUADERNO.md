@@ -2036,3 +2036,19 @@ rimescolamento delle righe:
   diversi. Se le etichette fossero i numeri dei giorni scritti con un sistema regolare, ci si
   aspetterebbe una corrispondenza. Non c'è, almeno con l'ordine della trascrizione e con
   spostamenti ciclici. Non esclude nomi propri diversi per ogni segno (stelle, per esempio).
+
+## 1/10/2026 — e102: le scritture sillabiche non si avvicinano al Voynich
+
+- **Metodo.** Preregistrato. 14 Bibbie in abugida e sillabari (escluse dall'e13), con
+  l'impaginazione del Voynich, contro 17 alfabetiche di riferimento.
+- **Risultati.**
+  - **h2 più alta, non più bassa:** abugida e sillabari 3,06–4,02; mediana alfabetica 3,18;
+    Voynich 2,24.
+  - Somiglianza nella riga ≤ 0,009, salvo il thai non segmentato (0,028), dove una "parola" è una
+    frase intera; Voynich 0,038.
+  - Ripetizione: wolaytta 0,43, thai 0,53; Voynich 1,01.
+  - **Anomalie condivise:** 0 su 4 per tutte, tranne l'ojibwa (1: spazio prevedibile 0,48) e il
+    thai (1).
+- **Previsione confermata.** Nessuna scrittura arriva a 3 anomalie su 4. L'ipotesi "lingua
+  naturale in una scrittura sillabica" non spiega l'impronta: in queste scritture l'incertezza sul
+  segno successivo è anzi più alta.

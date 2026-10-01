@@ -1,0 +1,344 @@
+{
+ "Voynich": {
+  "h2": 2.2361640232559385,
+  "spazio_spiegato": 0.6636041919558022,
+  "tipi_su_parole": 0.20976666666666666,
+  "hapax": 0.679485142221516,
+  "identiche_vs_riga": 1.008508949494745,
+  "somiglianza_riga": 0.038454639382674016,
+  "somiglianza_6_righe": 0.0335335826270432,
+  "confine": 0.18814378875482926
+ },
+ "Latin": {
+  "h2": 3.2560881267369757,
+  "spazio_spiegato": 0.19901097063281725,
+  "tipi_su_parole": 0.18436666666666668,
+  "hapax": 0.5138311336105587,
+  "identiche_vs_riga": 0.09288710744355456,
+  "somiglianza_riga": 0.003536394634161888,
+  "somiglianza_6_righe": 0.001552846575225253,
+  "confine": 0.03487616437450338
+ },
+ "Italian": {
+  "h2": 3.1533039277667125,
+  "spazio_spiegato": 0.27785747521257653,
+  "tipi_su_parole": 0.1357,
+  "hapax": 0.49447310243183495,
+  "identiche_vs_riga": 0.16036076967985605,
+  "somiglianza_riga": 0.0025663909787455585,
+  "somiglianza_6_righe": 0.00023684432894421903,
+  "confine": 0.07502035730473544
+ },
+ "English": {
+  "h2": 3.115470046716047,
+  "spazio_spiegato": 0.1631727514319814,
+  "tipi_su_parole": 0.07576666666666666,
+  "hapax": 0.3783545974483062,
+  "identiche_vs_riga": 0.02304691764605873,
+  "somiglianza_riga": -0.0014596064062593062,
+  "somiglianza_6_righe": 6.103927715606083e-06,
+  "confine": 0.10270791346427437
+ },
+ "German": {
+  "h2": 3.09062809720652,
+  "spazio_spiegato": 0.1481884088558818,
+  "tipi_su_parole": 0.10506666666666667,
+  "hapax": 0.4352791878172589,
+  "identiche_vs_riga": 0.12155750645942394,
+  "somiglianza_riga": 0.001245093491251681,
+  "somiglianza_6_righe": 0.0011119077801197141,
+  "confine": 0.06779737702059752
+ },
+ "French": {
+  "h2": 3.1760904320573244,
+  "spazio_spiegato": 0.20133056260027993,
+  "tipi_su_parole": 0.10893333333333333,
+  "hapax": 0.4678702570379437,
+  "identiche_vs_riga": 0.15155645607284532,
+  "somiglianza_riga": 0.001438038663238217,
+  "somiglianza_6_righe": 0.0019750365874888764,
+  "confine": 0.12871878560136646
+ },
+ "Spanish": {
+  "h2": 3.148857707832999,
+  "spazio_spiegato": 0.20414081197138467,
+  "tipi_su_parole": 0.11993333333333334,
+  "hapax": 0.4805447470817121,
+  "identiche_vs_riga": 0.12457874334439807,
+  "somiglianza_riga": 0.003566869551708818,
+  "somiglianza_6_righe": 0.001146746101476026,
+  "confine": 0.07311506919112727
+ },
+ "Hungarian": {
+  "h2": 3.487539326077586,
+  "spazio_spiegato": 0.13429608304140173,
+  "tipi_su_parole": 0.20253333333333334,
+  "hapax": 0.5686306780776826,
+  "identiche_vs_riga": 0.07126950933135655,
+  "somiglianza_riga": 0.0021167393338805685,
+  "somiglianza_6_righe": 0.0020187634785524544,
+  "confine": 0.1315089084892394
+ },
+ "Finnish": {
+  "h2": 3.216536357756741,
+  "spazio_spiegato": 0.2032632520765486,
+  "tipi_su_parole": 0.1954,
+  "hapax": 0.5088706925963835,
+  "identiche_vs_riga": 0.03732419913622729,
+  "somiglianza_riga": 0.0031387154525064354,
+  "somiglianza_6_righe": 0.0025120319842416583,
+  "confine": 0.016825046725468872
+ },
+ "Turkish": {
+  "h2": 3.3875535510789563,
+  "spazio_spiegato": 0.11747452651862866,
+  "tipi_su_parole": 0.2406,
+  "hapax": 0.511499030202272,
+  "identiche_vs_riga": 0.21703214229373655,
+  "somiglianza_riga": 0.003996771078811023,
+  "somiglianza_6_righe": 0.0018914166241934538,
+  "confine": 0.06496938926066616
+ },
+ "Tagalog": {
+  "h2": 2.789342965358074,
+  "spazio_spiegato": 0.1414269611299318,
+  "tipi_su_parole": 0.1048,
+  "hapax": 0.5152671755725191,
+  "identiche_vs_riga": 0.03835573232201216,
+  "somiglianza_riga": -0.00010009544681732763,
+  "somiglianza_6_righe": 0.002166944934736903,
+  "confine": 0.2221550294866244
+ },
+ "Swahili-NT": {
+  "h2": 2.988086163760908,
+  "spazio_spiegato": 0.2738547507519383,
+  "tipi_su_parole": 0.173,
+  "hapax": 0.5366088631984586,
+  "identiche_vs_riga": 0.169163414864479,
+  "somiglianza_riga": 0.0033510181756729596,
+  "somiglianza_6_righe": 0.0013803345222542784,
+  "confine": 0.05312440312824833
+ },
+ "Greek": {
+  "h2": 3.112845371158204,
+  "spazio_spiegato": 0.2375939410097233,
+  "tipi_su_parole": 0.1515,
+  "hapax": 0.4948294829482948,
+  "identiche_vs_riga": 0.09261787691546845,
+  "somiglianza_riga": 0.0046918964965300125,
+  "somiglianza_6_righe": 0.0012248322028062253,
+  "confine": 0.06480485459388188
+ },
+ "Russian": {
+  "h2": 3.462566789568915,
+  "spazio_spiegato": 0.14063877792990465,
+  "tipi_su_parole": 0.1917,
+  "hapax": 0.5190401669274909,
+  "identiche_vs_riga": 0.04524238989197693,
+  "somiglianza_riga": 0.0038432240379259186,
+  "somiglianza_6_righe": 0.0014183259702378326,
+  "confine": 0.04830159634639308
+ },
+ "Hebrew": {
+  "h2": 3.471805899607183,
+  "spazio_spiegato": 0.276651905710826,
+  "tipi_su_parole": 0.21673333333333333,
+  "hapax": 0.5326053521993233,
+  "identiche_vs_riga": 0.17129711524984462,
+  "somiglianza_riga": 0.006523923702143608,
+  "somiglianza_6_righe": 0.002325793875170623,
+  "confine": 0.07998058231543155
+ },
+ "Arabic": {
+  "h2": 3.6427756606327835,
+  "spazio_spiegato": 0.14887913265149022,
+  "tipi_su_parole": 0.23653333333333335,
+  "hapax": 0.5308624577226606,
+  "identiche_vs_riga": 0.11807854782465493,
+  "somiglianza_riga": 0.005890012600063166,
+  "somiglianza_6_righe": 0.0017952259263879222,
+  "confine": 0.0811516500922929
+ },
+ "Basque-NT": {
+  "h2": 3.1685817810674832,
+  "spazio_spiegato": 0.20940746516368058,
+  "tipi_su_parole": 0.18553333333333333,
+  "hapax": 0.49748472871002514,
+  "identiche_vs_riga": 0.048977535246243,
+  "somiglianza_riga": 0.002887531887721395,
+  "somiglianza_6_righe": 0.002469865893294454,
+  "confine": 0.06452357324545747
+ },
+ "Icelandic": {
+  "h2": 3.3061007832133145,
+  "spazio_spiegato": 0.17575423964932813,
+  "tipi_su_parole": 0.13986666666666667,
+  "hapax": 0.444232602478551,
+  "identiche_vs_riga": 0.15684672338960562,
+  "somiglianza_riga": 0.0015503426563305833,
+  "somiglianza_6_righe": 0.0005881913510342729,
+  "confine": 0.053159267146373604
+ },
+ "Amharic": {
+  "h2": 4.0216216900874935,
+  "spazio_spiegato": 0.27812608250112536,
+  "tipi_su_parole": 0.3066,
+  "hapax": 0.5953468145248967,
+  "identiche_vs_riga": 0.1678595634895748,
+  "somiglianza_riga": 0.006213657242952864,
+  "somiglianza_6_righe": 0.001581382869840886,
+  "confine": 0.2000541954004305
+ },
+ "Burmese": {
+  "h2": 3.159954640169376,
+  "spazio_spiegato": 0.2166977914958098,
+  "tipi_su_parole": 0.5255666666666666,
+  "hapax": 0.7596245322509038,
+  "identiche_vs_riga": 0.13333671315028223,
+  "somiglianza_riga": 0.00911210720894906,
+  "somiglianza_6_righe": 0.003790508214693622,
+  "confine": 0.0768792577562234
+ },
+ "Cherokee-NT": {
+  "h2": 3.8485319346108833,
+  "spazio_spiegato": 0.254300923268862,
+  "tipi_su_parole": 0.2893,
+  "hapax": 0.6683949763797673,
+  "identiche_vs_riga": 0.06370468040245583,
+  "somiglianza_riga": 0.00704162689796739,
+  "somiglianza_6_righe": 0.0015625971469518385,
+  "confine": 0.20615854436861306
+ },
+ "Gujarati-NT": {
+  "h2": 3.2839032019353382,
+  "spazio_spiegato": 0.3205278808115173,
+  "tipi_su_parole": 0.1641,
+  "hapax": 0.5334145846028844,
+  "identiche_vs_riga": 0.11586621533725631,
+  "somiglianza_riga": 0.006904922182962792,
+  "somiglianza_6_righe": 0.002962741720925588,
+  "confine": 0.1231861557326944
+ },
+ "Hindi": {
+  "h2": 3.2470813725001353,
+  "spazio_spiegato": 0.2561581462523629,
+  "tipi_su_parole": 0.09376666666666666,
+  "hapax": 0.4177035193743335,
+  "identiche_vs_riga": 0.23691802227251268,
+  "somiglianza_riga": 0.00031437469734763024,
+  "somiglianza_6_righe": 0.0011121078576719068,
+  "confine": 0.21862713038900736
+ },
+ "Kannada": {
+  "h2": 3.380173938715899,
+  "spazio_spiegato": 0.3442933474006612,
+  "tipi_su_parole": 0.2927666666666667,
+  "hapax": 0.6264374359558238,
+  "identiche_vs_riga": 0.09641143821823779,
+  "somiglianza_riga": 0.003568952265351699,
+  "somiglianza_6_righe": 0.0016504949568948435,
+  "confine": 0.1438841881204782
+ },
+ "Malayalam": {
+  "h2": 3.2741302978833096,
+  "spazio_spiegato": 0.3828413232632448,
+  "tipi_su_parole": 0.2823333333333333,
+  "hapax": 0.6192443919716647,
+  "identiche_vs_riga": 0.07072947291630774,
+  "somiglianza_riga": 0.00633911842907442,
+  "somiglianza_6_righe": 0.0020209179527613808,
+  "confine": 0.08507822655949723
+ },
+ "Marathi": {
+  "h2": 3.3079094109069915,
+  "spazio_spiegato": 0.23024625651178343,
+  "tipi_su_parole": 0.1961,
+  "hapax": 0.5696073431922488,
+  "identiche_vs_riga": 0.1340359813757546,
+  "somiglianza_riga": 0.005267693698063458,
+  "somiglianza_6_righe": 0.002691521653720108,
+  "confine": 0.0968731608529092
+ },
+ "Nepali": {
+  "h2": 3.3813380652770686,
+  "spazio_spiegato": 0.24328115730452515,
+  "tipi_su_parole": 0.21483333333333332,
+  "hapax": 0.591155934833204,
+  "identiche_vs_riga": 0.2294554937549165,
+  "somiglianza_riga": 0.003729023774243778,
+  "somiglianza_6_righe": 0.003095254655847479,
+  "confine": 0.20058562891145257
+ },
+ "Ojibwa-NT": {
+  "h2": 3.8287016175938584,
+  "spazio_spiegato": 0.48079332309257405,
+  "tipi_su_parole": 0.27113333333333334,
+  "hapax": 0.7140398328005901,
+  "identiche_vs_riga": 0.05673039583432024,
+  "somiglianza_riga": 0.0041431199834026655,
+  "somiglianza_6_righe": 0.0024260220554114253,
+  "confine": 0.23339206165179932
+ },
+ "Telugu": {
+  "h2": 3.505149969040324,
+  "spazio_spiegato": 0.27491340525563324,
+  "tipi_su_parole": 0.36123333333333335,
+  "hapax": 0.6559010796345852,
+  "identiche_vs_riga": 0.0775312916654857,
+  "somiglianza_riga": 0.0071495486849267875,
+  "somiglianza_6_righe": 0.0028493280885367733,
+  "confine": 0.09938844076578021
+ },
+ "Thai": {
+  "h2": 3.9099756166227557,
+  "spazio_spiegato": 0.13996174707061848,
+  "tipi_su_parole": 0.8770666666666667,
+  "hapax": 0.9501368197020371,
+  "identiche_vs_riga": 0.5309327323874934,
+  "somiglianza_riga": 0.028228834414405046,
+  "somiglianza_6_righe": 0.007613215181280664,
+  "confine": 0.05289171308223288
+ },
+ "Thai-tok": {
+  "h2": 3.2882571879773286,
+  "spazio_spiegato": 0.2638881481079568,
+  "tipi_su_parole": 0.06983333333333333,
+  "hapax": 0.356563245823389,
+  "identiche_vs_riga": 0.16043989775927125,
+  "somiglianza_riga": 0.0015395522018817331,
+  "somiglianza_6_righe": -0.00013295840797034053,
+  "confine": 0.155877671771459
+ },
+ "Wolaytta-NT": {
+  "h2": 3.0611619632976703,
+  "spazio_spiegato": 0.1797452031874125,
+  "tipi_su_parole": 0.18886666666666665,
+  "hapax": 0.48588069184609955,
+  "identiche_vs_riga": 0.4341745959066521,
+  "somiglianza_riga": 0.005712760153061325,
+  "somiglianza_6_righe": 0.0015976473083940679,
+  "confine": 0.06800259672442355
+ },
+ "mediana_alfabetiche": {
+  "h2": 3.1760904320573244,
+  "spazio_spiegato": 0.19901097063281725,
+  "identiche_vs_riga": 0.11807854782465493,
+  "somiglianza_riga": 0.0031387154525064354
+ },
+ "anomalie_condivise": {
+  "Amharic": 0,
+  "Burmese": 0,
+  "Cherokee-NT": 0,
+  "Gujarati-NT": 0,
+  "Hindi": 0,
+  "Kannada": 0,
+  "Malayalam": 0,
+  "Marathi": 0,
+  "Nepali": 0,
+  "Ojibwa-NT": 1,
+  "Telugu": 0,
+  "Thai-tok": 0,
+  "Thai": 1,
+  "Wolaytta-NT": 0
+ }
+}

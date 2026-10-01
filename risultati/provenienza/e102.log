@@ -1,0 +1,33 @@
+Latin          alfabeto    h2 3.256 spazio_spiegato 0.199 tipi_su_parole 0.184 hapax 0.514 identiche_vs_riga 0.093 somiglianza_riga 0.004 somiglianza_6_righe 0.002 confine 0.035
+Italian        alfabeto    h2 3.153 spazio_spiegato 0.278 tipi_su_parole 0.136 hapax 0.494 identiche_vs_riga 0.160 somiglianza_riga 0.003 somiglianza_6_righe 0.000 confine 0.075
+English        alfabeto    h2 3.115 spazio_spiegato 0.163 tipi_su_parole 0.076 hapax 0.378 identiche_vs_riga 0.023 somiglianza_riga -0.001 somiglianza_6_righe 0.000 confine 0.103
+German         alfabeto    h2 3.091 spazio_spiegato 0.148 tipi_su_parole 0.105 hapax 0.435 identiche_vs_riga 0.122 somiglianza_riga 0.001 somiglianza_6_righe 0.001 confine 0.068
+French         alfabeto    h2 3.176 spazio_spiegato 0.201 tipi_su_parole 0.109 hapax 0.468 identiche_vs_riga 0.152 somiglianza_riga 0.001 somiglianza_6_righe 0.002 confine 0.129
+Spanish        alfabeto    h2 3.149 spazio_spiegato 0.204 tipi_su_parole 0.120 hapax 0.481 identiche_vs_riga 0.125 somiglianza_riga 0.004 somiglianza_6_righe 0.001 confine 0.073
+Hungarian      alfabeto    h2 3.488 spazio_spiegato 0.134 tipi_su_parole 0.203 hapax 0.569 identiche_vs_riga 0.071 somiglianza_riga 0.002 somiglianza_6_righe 0.002 confine 0.132
+Finnish        alfabeto    h2 3.217 spazio_spiegato 0.203 tipi_su_parole 0.195 hapax 0.509 identiche_vs_riga 0.037 somiglianza_riga 0.003 somiglianza_6_righe 0.003 confine 0.017
+Turkish        alfabeto    h2 3.388 spazio_spiegato 0.117 tipi_su_parole 0.241 hapax 0.511 identiche_vs_riga 0.217 somiglianza_riga 0.004 somiglianza_6_righe 0.002 confine 0.065
+Tagalog        alfabeto    h2 2.789 spazio_spiegato 0.141 tipi_su_parole 0.105 hapax 0.515 identiche_vs_riga 0.038 somiglianza_riga -0.000 somiglianza_6_righe 0.002 confine 0.222
+Swahili-NT     alfabeto    h2 2.988 spazio_spiegato 0.274 tipi_su_parole 0.173 hapax 0.537 identiche_vs_riga 0.169 somiglianza_riga 0.003 somiglianza_6_righe 0.001 confine 0.053
+Greek          alfabeto    h2 3.113 spazio_spiegato 0.238 tipi_su_parole 0.151 hapax 0.495 identiche_vs_riga 0.093 somiglianza_riga 0.005 somiglianza_6_righe 0.001 confine 0.065
+Russian        alfabeto    h2 3.463 spazio_spiegato 0.141 tipi_su_parole 0.192 hapax 0.519 identiche_vs_riga 0.045 somiglianza_riga 0.004 somiglianza_6_righe 0.001 confine 0.048
+Hebrew         abjad       h2 3.472 spazio_spiegato 0.277 tipi_su_parole 0.217 hapax 0.533 identiche_vs_riga 0.171 somiglianza_riga 0.007 somiglianza_6_righe 0.002 confine 0.080
+Arabic         abjad       h2 3.643 spazio_spiegato 0.149 tipi_su_parole 0.237 hapax 0.531 identiche_vs_riga 0.118 somiglianza_riga 0.006 somiglianza_6_righe 0.002 confine 0.081
+Basque-NT      alfabeto    h2 3.169 spazio_spiegato 0.209 tipi_su_parole 0.186 hapax 0.497 identiche_vs_riga 0.049 somiglianza_riga 0.003 somiglianza_6_righe 0.002 confine 0.065
+Icelandic      sillabario  h2 3.306 spazio_spiegato 0.176 tipi_su_parole 0.140 hapax 0.444 identiche_vs_riga 0.157 somiglianza_riga 0.002 somiglianza_6_righe 0.001 confine 0.053
+Amharic        sillabario  h2 4.022 spazio_spiegato 0.278 tipi_su_parole 0.307 hapax 0.595 identiche_vs_riga 0.168 somiglianza_riga 0.006 somiglianza_6_righe 0.002 confine 0.200
+Burmese        abugida     h2 3.160 spazio_spiegato 0.217 tipi_su_parole 0.526 hapax 0.760 identiche_vs_riga 0.133 somiglianza_riga 0.009 somiglianza_6_righe 0.004 confine 0.077
+Cherokee-NT    sillabario  h2 3.849 spazio_spiegato 0.254 tipi_su_parole 0.289 hapax 0.668 identiche_vs_riga 0.064 somiglianza_riga 0.007 somiglianza_6_righe 0.002 confine 0.206
+Gujarati-NT    abugida     h2 3.284 spazio_spiegato 0.321 tipi_su_parole 0.164 hapax 0.533 identiche_vs_riga 0.116 somiglianza_riga 0.007 somiglianza_6_righe 0.003 confine 0.123
+Hindi          abugida     h2 3.247 spazio_spiegato 0.256 tipi_su_parole 0.094 hapax 0.418 identiche_vs_riga 0.237 somiglianza_riga 0.000 somiglianza_6_righe 0.001 confine 0.219
+Kannada        abugida     h2 3.380 spazio_spiegato 0.344 tipi_su_parole 0.293 hapax 0.626 identiche_vs_riga 0.096 somiglianza_riga 0.004 somiglianza_6_righe 0.002 confine 0.144
+Malayalam      abugida     h2 3.274 spazio_spiegato 0.383 tipi_su_parole 0.282 hapax 0.619 identiche_vs_riga 0.071 somiglianza_riga 0.006 somiglianza_6_righe 0.002 confine 0.085
+Marathi        abugida     h2 3.308 spazio_spiegato 0.230 tipi_su_parole 0.196 hapax 0.570 identiche_vs_riga 0.134 somiglianza_riga 0.005 somiglianza_6_righe 0.003 confine 0.097
+Nepali         abugida     h2 3.381 spazio_spiegato 0.243 tipi_su_parole 0.215 hapax 0.591 identiche_vs_riga 0.229 somiglianza_riga 0.004 somiglianza_6_righe 0.003 confine 0.201
+Ojibwa-NT      sillabario  h2 3.829 spazio_spiegato 0.481 tipi_su_parole 0.271 hapax 0.714 identiche_vs_riga 0.057 somiglianza_riga 0.004 somiglianza_6_righe 0.002 confine 0.233
+Telugu         abugida     h2 3.505 spazio_spiegato 0.275 tipi_su_parole 0.361 hapax 0.656 identiche_vs_riga 0.078 somiglianza_riga 0.007 somiglianza_6_righe 0.003 confine 0.099
+Thai           abugida     h2 3.910 spazio_spiegato 0.140 tipi_su_parole 0.877 hapax 0.950 identiche_vs_riga 0.531 somiglianza_riga 0.028 somiglianza_6_righe 0.008 confine 0.053
+Thai-tok       abugida     h2 3.288 spazio_spiegato 0.264 tipi_su_parole 0.070 hapax 0.357 identiche_vs_riga 0.160 somiglianza_riga 0.002 somiglianza_6_righe -0.000 confine 0.156
+Wolaytta-NT    sillabario  h2 3.061 spazio_spiegato 0.180 tipi_su_parole 0.189 hapax 0.486 identiche_vs_riga 0.434 somiglianza_riga 0.006 somiglianza_6_righe 0.002 confine 0.068
+mediana alfabetiche {'h2': 3.176, 'spazio_spiegato': 0.199, 'identiche_vs_riga': 0.118, 'somiglianza_riga': 0.003} | Voynich {'h2': 2.236, 'spazio_spiegato': 0.664, 'identiche_vs_riga': 1.009, 'somiglianza_riga': 0.038}
+anomalie condivise (su 4): OrderedDict({'Amharic': 0, 'Burmese': 0, 'Cherokee-NT': 0, 'Gujarati-NT': 0, 'Hindi': 0, 'Kannada': 0, 'Malayalam': 0, 'Marathi': 0, 'Nepali': 0, 'Ojibwa-NT': 1, 'Telugu': 0, 'Thai-tok': 0, 'Thai': 1, 'Wolaytta-NT': 0})
