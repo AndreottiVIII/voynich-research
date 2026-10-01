@@ -1,0 +1,9 @@
+Voynich                                  coppie  21085 | totale 0.1752 (z 229) | regressiva 0.0435 (z 20.1) quota 0.25 | progressiva 0.0501 (z 21.0) quota 0.29 | rapporto 0.87
+Voynich A                                coppie   5949 | totale 0.0953 (z 39) | regressiva 0.0220 (z 4.7) quota 0.23 | progressiva 0.0373 (z 6.8) quota 0.39 | rapporto 0.59
+Voynich B                                coppie  14885 | totale 0.2263 (z 206) | regressiva 0.0482 (z 19.8) quota 0.21 | progressiva 0.0446 (z 14.5) quota 0.20 | rapporto 1.08
+Manusmṛti, un mezzo verso per riga       coppie  11259 | totale 0.8494 (z 446) | regressiva 0.1452 (z 57.2) quota 0.17 | progressiva 0.0643 (z 38.4) quota 0.08 | rapporto 2.26
+Raghuvaṃśa, un mezzo verso per riga      coppie  10055 | totale 0.8704 (z 359) | regressiva 0.0572 (z 24.2) quota 0.07 | progressiva 0.0422 (z 23.1) quota 0.05 | rapporto 1.36
+Plinio, a capo                           coppie  21276 | totale 0.0239 (z 30) | regressiva 0.0289 (z 17.2) quota 1.21 | progressiva 0.0134 (z 11.3) quota 0.56 | rapporto 2.16
++ giunture (e23), seme 19                coppie  23080 | totale 0.1820 (z 369) | regressiva 0.0508 (z 23.0) quota 0.28 | progressiva 0.0664 (z 28.8) quota 0.37 | rapporto 0.76
+modello e51, seme 19                     coppie  21465 | totale 0.1906 (z 301) | regressiva 0.0413 (z 18.0) quota 0.22 | progressiva 0.0752 (z 30.9) quota 0.39 | rapporto 0.55
+Timm e Schinner, seme 19                 coppie  23900 | totale 0.0219 (z 38) | regressiva 0.0039 (z 2.0) quota 0.18 | progressiva 0.0182 (z 7.8) quota 0.83 | rapporto 0.22
