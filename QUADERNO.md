@@ -2376,3 +2376,17 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
     un flusso di sillabe vere. Non l'ho fatto: è un controllo da aggiungere.
   - Combinato con l'e110 (nessuna copia a catena), il Voynich non è né una lingua scritta parola
     per parola, né la copia a catena dei generatori noti.
+- **Controllo esplorativo, dopo l'esecuzione, che cambia la lettura dell'e114:**
+
+  | flusso | k = 1 | k = 2 | k = 3 |
+  |---|---|---|---|
+  | sillabe latine in chiaro (Bibbia) | 1,00 bit | 0,29 | 0,11 |
+  | sillabe del *Macer* in chiaro | 1,11 | 0,38 | |
+  | **le stesse sillabe cifrate come nell'e104** | **0,035** | **0,013 (z 4,1)** | 0,003 |
+  | Voynich | 0,048 | 0,000 | |
+
+  - In un **codice** le terminazioni delle parole sono etichette arbitrarie rispetto a ciò che
+    codificano, quindi la misura sulle terminazioni non vede più la sintassi.
+  - **Lettura corretta:** l'e114 esclude una lingua **scritta in alfabeto** (dove le terminazioni
+    sono desinenze o parole grammaticali). Non esclude un **codice** che renda unità linguistiche con
+    parole del Voynich: un codice di questo tipo dà valori dello stesso ordine del Voynich.
