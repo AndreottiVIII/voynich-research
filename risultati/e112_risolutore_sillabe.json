@@ -1,0 +1,90 @@
+{
+ "tetto: Macer in chiaro": {
+  "copertura4": 0.8002927994452221,
+  "copertura6": 0.5349754074150175
+ },
+ "cifrato, mu 0.0": {
+  "simboli": 1245,
+  "unita": 30372,
+  "punteggio": -3.6577992492267324,
+  "accuratezza": 0.033386013433425524,
+  "copertura4": 0.8269013948394163,
+  "copertura6": 0.38359694617143963,
+  "esempio": [
+   "in de re se re de re re de de re de re",
+   "in de re re re de re de re de se re re",
+   "de re re ce re fer re re re re re re de re",
+   "in de re de re vi de de re re re re",
+   "de re re re de de re de re de de re re re",
+   "in de re ce re de de de re re de re re"
+  ]
+ },
+ "cifrato, mu 0.3": {
+  "simboli": 3345,
+  "unita": 30372,
+  "punteggio": -3.6579460849224072,
+  "accuratezza": 0.022092716976162254,
+  "copertura4": 0.8712882286657462,
+  "copertura6": 0.392293164468568,
+  "esempio": [
+   "in de re se re fer de re cur re re de re",
+   "in de re de re de re de re re ce re de",
+   "re pa ra re re se re re de de ce re fer re",
+   "re re re ce re de de re re ce re re",
+   "de re re mo re re re ce re de re re re re",
+   "in de re re de re re re re re re re ce"
+  ]
+ },
+ "cifrato, mu 0.6": {
+  "simboli": 4732,
+  "unita": 30372,
+  "punteggio": -3.619742416408232,
+  "accuratezza": 0.021631766100355592,
+  "copertura4": 0.9048942920868281,
+  "copertura6": 0.44576382998774855,
+  "esempio": [
+   "de se re re re re re re de de re re re",
+   "qua re qui re re mo re re re re in o re",
+   "re re re se re re re re re se re re fer re",
+   "se de re de re re re re pa ra re re",
+   "re re re re re se re re re de re de re bus",
+   "de re re re de re fer re fer re re re re"
+  ]
+ },
+ "negativo: mu 0.6 rimescolato": {
+  "simboli": 4732,
+  "unita": 30372,
+  "punteggio": -3.6646901916439125,
+  "copertura4": 0.94395837527293,
+  "copertura6": 0.4405903030490732,
+  "esempio": [
+   "re re cur re re re re re re se re re re",
+   "re re re vi de re cur re re re re re rum",
+   "re re re fer re pa re re de cur re re re rum",
+   "re re re re re re re re re in fer re",
+   "re re re re re re re re mo re fu ge re re",
+   "de re re re re re re re re re re re re"
+  ]
+ },
+ "negativo: Timm e Schinner": {
+  "simboli": 4602,
+  "unita": 30009,
+  "punteggio": -3.656472943183831,
+  "copertura4": 0.9059402112556255,
+  "copertura6": 0.41327848316605065,
+  "esempio": [
+   "de re rum quae se re et per fer",
+   "re ge re re de re re re",
+   "in de re fer re fer re re rum",
+   "re re re fer re re re re in re",
+   "re re re se re re re",
+   "de re re re re re re re re re re"
+  ]
+ },
+ "valido": false,
+ "fattibile": {
+  "0.0": false,
+  "0.3": false,
+  "0.6": false
+ }
+}
