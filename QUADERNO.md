@@ -1343,3 +1343,22 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
     regola che lega ogni inizio di riga a quello della riga sopra.
   - Fra i segni simili d'aspetto (ch e sh) l'evitamento vale anche incrociato, il che fa pensare
     a una componente **visiva**: non incolonnare segni uguali o simili sul margine sinistro.
+
+## 1/10/2026 — Esplorativo: i versi veri non evitano; e86: nemmeno il gibberish umano
+
+- **Esplorativo, non preregistrato.** S(1) sulla prima lettera delle righe consecutive:
+  - *Eneide*, un verso per riga: **1,01**;
+  - Manusmṛti, mezzo verso per riga: **1,18** (attrazione);
+  - nel Voynich, fra gli inizi che non sono y/d/s/o, l'evitamento è più forte (0,31) che fra gli
+    inizi in y/d/s/o (0,74): non sta tutto nel segno aggiunto.
+- **e86** (preregistrato): gibberish scritto a mano (Gaskell e Bowern, 38 documenti).
+  - **Validità:** Bibbia inglese 0,99, Bibbia latina 1,22, entro 0,8–1,25 (✓).
+  - **Gibberish:** S(1) **1,05** (z 0,7); seconda parola 1,00.
+  - **Lettura:** chi inventa un testo **non** evita di cominciare due righe con la stessa lettera.
+    L'evitamento non è una firma generale della composizione libera.
+- **Stato.** L'evitamento fra inizi di riga (S ≈ 0,5) non c'è in nessun testo provato: prosa,
+  versi latini e sanscriti, gibberish umano, generatore. È una proprietà nuova da spiegare.
+- **Prossima prova (e87).** La colonna delle prime parole è scritta come una sequenza a sé? Se sì,
+  la regola delle giunture dovrebbe valere **in verticale**: la fine della prima parola di una
+  riga decide l'inizio della prima parola della riga sotto, con la stessa tabella delle giunture
+  dentro la riga.
