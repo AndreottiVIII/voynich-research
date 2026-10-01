@@ -1,0 +1,24 @@
+Macer (versi)                  classi  1238 uniche 0.27 h1 8.37 h2 4.10 zipf -1.45 rip 0.005 unita/riga 13.9 (cv 0.09)
+Ovidio (versi)                 classi  1446 uniche 0.26 h1 8.54 h2 4.71 zipf -1.28 rip 0.003 unita/riga 14.6 (cv 0.08)
+Bibbia latina                  classi  1157 uniche 0.22 h1 8.27 h2 4.23 zipf -1.45 rip 0.001 unita/riga 18.4 (cv 0.15)
+Bibbia italiana                classi   953 uniche 0.23 h1 7.71 h2 4.38 zipf -1.61 rip 0.002 unita/riga 17.3 (cv 0.16)
+Voynich N0                     classi  6293 uniche 0.68 h1 10.14 h2 4.28 zipf -1.04 rip 0.010 unita/riga 8.2 (cv 0.37)
+controllo: Macer cifrato N0    classi  4696 uniche 0.59 h1 9.85 h2 4.25 zipf -1.08 rip 0.003 unita/riga 13.9 (cv 0.09) | H(sill|cl) 0.97 H(cl|sill) 2.45
+Timm e Schinner N0             classi  4602 uniche 0.53 h1 9.65 h2 4.57 zipf -0.98 rip 0.009 unita/riga 9.0 (cv 0.25)
+Voynich N1                     classi  5393 uniche 0.66 h1 9.77 h2 4.54 zipf -1.09 rip 0.012 unita/riga 8.2 (cv 0.37)
+controllo: Macer cifrato N1    classi  4114 uniche 0.58 h1 9.54 h2 4.48 zipf -1.13 rip 0.004 unita/riga 13.9 (cv 0.09) | H(sill|cl) 1.21 H(cl|sill) 2.38
+Timm e Schinner N1             classi  3889 uniche 0.50 h1 9.32 h2 4.79 zipf -1.02 rip 0.010 unita/riga 9.0 (cv 0.25)
+Voynich N2                     classi  4782 uniche 0.65 h1 9.40 h2 4.71 zipf -1.14 rip 0.015 unita/riga 8.2 (cv 0.37)
+controllo: Macer cifrato N2    classi  3622 uniche 0.57 h1 9.18 h2 4.73 zipf -1.18 rip 0.006 unita/riga 13.9 (cv 0.09) | H(sill|cl) 1.57 H(cl|sill) 2.37
+Timm e Schinner N2             classi  3473 uniche 0.50 h1 8.92 h2 4.91 zipf -1.07 rip 0.018 unita/riga 9.0 (cv 0.25)
+Voynich N3                     classi  4484 uniche 0.66 h1 9.13 h2 4.82 zipf -1.17 rip 0.020 unita/riga 8.2 (cv 0.37)
+controllo: Macer cifrato N3    classi  3258 uniche 0.56 h1 8.88 h2 4.91 zipf -1.21 rip 0.006 unita/riga 13.9 (cv 0.09) | H(sill|cl) 1.80 H(cl|sill) 2.30
+Timm e Schinner N3             classi  3361 uniche 0.50 h1 8.83 h2 4.96 zipf -1.10 rip 0.019 unita/riga 9.0 (cv 0.25)
+Voynich N4                     classi  3430 uniche 0.62 h1 8.49 h2 5.05 zipf -1.27 rip 0.026 unita/riga 8.2 (cv 0.37)
+controllo: Macer cifrato N4    classi  2354 uniche 0.52 h1 8.21 h2 5.23 zipf -1.31 rip 0.009 unita/riga 13.9 (cv 0.09) | H(sill|cl) 2.32 H(cl|sill) 2.15
+Timm e Schinner N4             classi  2731 uniche 0.46 h1 8.51 h2 5.14 zipf -1.16 rip 0.021 unita/riga 9.0 (cv 0.25)
+misure fuori intervallo per livello: {'N0': ['classi', 'quota_classi_uniche', 'h1', 'zipf', 'ripetizione'], 'N1': ['classi', 'quota_classi_uniche', 'h1', 'zipf', 'ripetizione'], 'N2': ['classi', 'quota_classi_uniche', 'h1', 'zipf', 'ripetizione'], 'N3': ['classi', 'quota_classi_uniche', 'h1', 'h2', 'zipf', 'ripetizione'], 'N4': ['classi', 'quota_classi_uniche', 'h2', 'ripetizione']} | livello scelto: None
+metro Voynich S                righe  872 unita/riga 11.1 cv unita 0.141 cv segni 0.105
+metro Ovidio (sillabe)         righe 11999 unita/riga 14.6 cv unita 0.082 cv segni 0.078
+metro Macer (sillabe)          righe 2177 unita/riga 14.0 cv unita 0.092 cv segni 0.088
+metro Plinio a capo (parole)   righe 4612 unita/riga 7.6 cv unita 0.430 cv segni 0.417
