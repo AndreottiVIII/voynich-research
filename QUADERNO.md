@@ -2545,3 +2545,34 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
   - Il risolutore, che legge l'acrostico di prova all'80%, non ricava nulla dalle iniziali.
   - **Un acrostico in latino o in italiano è escluso.** L'evitamento fra inizi di riga è una regola
     debole e locale, non la traccia di un messaggio scritto lettera per lettera.
+
+## 1/10/2026 — e120: riga per riga, le righe del Voynich non hanno formule ricorrenti
+
+- **Metodo.** Preregistrato (proposta di Davide). Coppie di righe simili (Needleman–Wunsch sulle
+  parole), parti fisse e caselle, legame delle caselle con la pagina.
+  - Prima del commit: bootstrap ridotto a 50 ricampionamenti, per il tempo; Apicio a capo a 40
+    lettere.
+- **Risultati:**
+
+  | testo | righe | con una riga simile | caselle / fisse | indice (IC) |
+  |---|---|---|---|---|
+  | **Voynich** | 3.481 | **0,6%** | 57 / 76 | 0,89 (0,70–1,11) |
+  | Apicio (ricette) | 992 | **18,4%** | 262 / 752 | 1,15 (0,92–1,44) |
+  | *Macer* (erbario in versi) | 2.154 | **18,3%** | 815 / 1.551 | 1,18 (1,05–1,25) |
+  | Timm e Schinner | 3.643 | 0,8% | 83 / 119 | 0,72 (0,46–0,87) |
+
+- **Validità fallita:** l'indice dei testi veri resta sotto 1,2. Le caselle sono più legate alla
+  pagina, ma di poco. La lettura delle caselle del Voynich **non si fa** (e comunque sono pochissime:
+  57 parole).
+- **Il dato descrittivo è però netto.**
+  - Nei testi veri del genere (ricette, erbario in versi) quasi **una riga su cinque riprende lo
+    scheletro di un'altra** (formule: "piper, ligusticum…"; "si…, cum vino…").
+  - Nel Voynich, con lo stesso criterio (almeno 3 posizioni fisse, varianti comprese), succede a
+    **6 righe su mille**, come nel generatore.
+  - Esempi trovati: righe vicine come "sar shedy qol … okal …" (f81r).
+- **Lettura.** "Estrapolare riga per riga" cercando formule con caselle non è possibile.
+  - Le righe del Voynich non sono costruite su scheletri ricorrenti come le voci di un ricettario o
+    i versi di un erbario.
+  - La somiglianza fra righe è diffusa (parole varianti sparse), non a formula.
+  - È un altro punto in cui il Voynich si comporta come un procedimento di copia locale e non come
+    un testo di genere.
