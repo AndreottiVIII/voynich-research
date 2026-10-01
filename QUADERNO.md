@@ -1971,3 +1971,27 @@ Ricerca web dell'1/10. Letto per intero solo Feaster 2021 (SHA in FONTI.md).
     di una pagina nascono come varianti gli uni degli altri (D'Imperio ipotizzava riempitivi
     "costruiti ripetendo parti di stringhe vicine con piccole modifiche"). Quest'ultima variante
     però fallisce l'omogeneità nell'e43, se le copie sono solo locali.
+
+## 1/10/2026 — Esplorativi: la grammatica delle varianti; inizi di paragrafo
+
+**Esplorativo, non preregistrato.**
+
+- **Varianti a una sola modifica fra parole vicine nella riga:**
+  - Voynich: 4,3% delle coppie;
+  - generatore di Timm e Schinner: 6,7%.
+- **Voynich, per tipo di modifica:**
+  - sostituzione del segno iniziale 28%, aggiunta in testa 25%, aggiunta interna 19%;
+  - modifiche più frequenti: +e interna (107), +q in testa (92), l↔r in coda (86), k↔t interna
+    (59), +d interna (52), +ch in testa (47), +o in testa (42), ch↔sh in testa (38), l↔o, ch↔cth,
+    a↔o.
+- **Generatore:** aggiunta in testa 54%, dominata da **+ch** (466), poi +d, +e, +i, +o, +sh.
+- **Lettura.**
+  - Le varianti del Voynich seguono le famiglie dell'e95 (ch/sh, k/t, l/r, a/o) e l'aggiunta di
+    q-.
+  - Il generatore invece aggiunge prefissi, soprattutto ch-. Questo spiega in parte perché la
+    forma delle parole del generatore è sbagliata (e54: troppo poche q-, troppe a- e ch-).
+  - I modelli Python (e56, e57, e70) usavano già modifiche stimate sul vocabolario del Voynich
+    (`generatori.Modifiche`) e fallivano per altre ragioni (quota di copia).
+- **Inizi di paragrafi consecutivi** sulla stessa pagina: S = 1,04 (z 1,0), nessun evitamento. Sono
+  quasi tutti gallow (p 331, t 171, k 78, f 32). **L'evitamento riguarda solo le righe dentro il
+  paragrafo.**
