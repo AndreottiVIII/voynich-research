@@ -72,9 +72,18 @@ def scrivi(struttura, globale, giunture, modifiche, a, mu, tau, seme):
     return pagine
 
 
+_MODIFICHE = None
+
+
 def una(args):
+    """Un lavoro del Pool; le modifiche si costruiscono nel processo (non si possono passare:
+    contengono una funzione locale)."""
+    global _MODIFICHE
     import e61_pagella as e61
-    struttura, globale, giunture, modifiche, voy, soglia_ab, a, mu, tau, seme = args
+    struttura, globale, giunture, voy, soglia_ab, a, mu, tau, seme = args
+    if _MODIFICHE is None:
+        _MODIFICHE = generatori.Modifiche(voy, D)
+    modifiche = _MODIFICHE
     return (a, mu, tau, seme), e61.scheda(scrivi(struttura, globale, giunture, modifiche, a, mu, tau, seme), D, voy, soglia_ab)
 
 
@@ -94,12 +103,11 @@ def main():
         e56.conta(globale, D(w))
     globale = {k: dict(x) for k, x in globale.items()}
     giunture = e46.tabella_giunture([r for p in pv for r in p], D)
-    modifiche = generatori.Modifiche(voy, D)
     struttura = [[len(r) for r in p] for p in pv]
     ris = OrderedDict()
     v = e61.scheda(pv, D, voy, soglia_ab)
     ris['Voynich'] = v
-    lavori = [(struttura, globale, giunture, modifiche, voy, soglia_ab, a, mu, tau, s) for a in A for mu in MU for tau in TAU for s in SEMI]
+    lavori = [(struttura, globale, giunture, voy, soglia_ab, a, mu, tau, s) for a in A for mu in MU for tau in TAU for s in SEMI]
     per = defaultdict(list)
     with Pool(int(os.environ.get('PROCESSI', '3'))) as pool:
         for chiave, r in pool.imap(una, lavori):
