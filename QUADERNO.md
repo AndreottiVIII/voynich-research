@@ -625,3 +625,25 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
   nella forma "tabella"). Distinguere le due cose richiede di sapere se le "colonne" del Voynich
   hanno un senso proprio: per esempio, se la somiglianza verticale si concentra in certe posizioni
   della riga.
+
+## 1/10/2026 — e60: formule a distanza
+
+- **Preregistrato.** Sequenze di 2–3 parole che ritornano ad almeno 10 pagine di distanza,
+  rispetto alle parole rimescolate dentro la pagina.
+- **Risultati:**
+  - coppie: generatori ×1,13–1,31; **Voynich ×1,51**; testi con contenuto ×2,0–3,1;
+  - terne: generatori ×1,5–3,3; **Voynich ×5,2**; testi con contenuto ×11–58;
+  - i codici conservano esattamente le formule del testo in chiaro.
+- **Per la soglia preregistrata** (coppie ≥ 1,5) il Voynich "si accorda con un contenuto a formule",
+  ma proprio sul limite.
+- **Descrizione (esplorativa) delle terne lontane del Voynich.**
+  - Sono quasi tutte **nella stessa sezione**, a 10–20 pagine di distanza (biologica f75–f84,
+    ricette f103–f112), e fatte di parole frequenti di Currier B (*ol shedy qokedy*,
+    *chey qol chedy*).
+  - Spesso includono pezzi staccati alle giunture morbide (*ol s aiin*, *or aiin*).
+- **Lettura prudente.** Il forte legame fine–inizio del Voynich (-y → q-) rende certe sequenze più
+  probabili del rimescolamento. Lo mostra il generatore: con le giunture (e51) le terne lontane
+  passano da ×1,5–2 a ×3,3.
+  - L'eccesso del Voynich è quindi in parte un effetto delle giunture e della concentrazione del
+    vocabolario per sezione, non necessariamente di formule di contenuto.
+  - Resta però più alto di tutti i generatori: ×5,2 contro ×3,3 al massimo.
