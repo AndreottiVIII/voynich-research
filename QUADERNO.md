@@ -1766,3 +1766,23 @@ Ricerca web dell'1/10. Letto per intero solo Feaster 2021 (SHA in FONTI.md).
   - La dipendenza dalla posizione (sh, p e t vicino all'inizio della riga o del paragrafo) è una
     proprietà di **impaginazione**, come le lettere ornate. Contribuisce alle "anomalie di riga"
     viste in e71–e94.
+
+## 1/10/2026 — e96: l'evitamento riguarda le classi, non le forme
+
+- **Metodo.** Preregistrato. S(1) sul primo segno, sulla famiglia del primo segno (famiglie
+  dell'e95) e dentro la famiglia.
+- **Risultati:**
+
+  | livello | S(1) | z |
+  |---|---|---|
+  | primo segno | 0,52 | −12,0 |
+  | **famiglia** | **0,61** | **−12,4** |
+  | dentro la famiglia (261 coppie) | 0,90 | −2,1 |
+
+- **Lettura preregistrata: unità sottostante.**
+  - Due righe consecutive evitano di cominciare con la stessa **classe** (q, o, y, {d, r, s},
+    {ch, sh…}, {k, t, p, f}).
+  - Dentro una classe non c'è variazione grafica: lo scriba non alterna d e s, o ch e sh, per non
+    ripetersi.
+  - Non è quindi un fatto di forme o di estetica fine. È una regola su che tipo di parola apre la
+    riga rispetto alla riga sopra.
