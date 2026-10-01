@@ -1652,3 +1652,12 @@ Ricerca web dell'1/10. Letto per intero solo Feaster 2021 (SHA in FONTI.md).
   - l'evitamento e la sequenza fra inizi di righe consecutive (e82–e84, e90);
   - la prima parola non copiata dalla riga sopra (e88).
   - Va verificato su Vogt e su Smith e Ponzi prima di dirlo nel white paper.
+- **Letti anche** Vogt 2012 e Smith e Ponzi 2019 (SHA in FONTI.md).
+  - **Vogt** studia la lunghezza delle parole lungo la riga: la prima parola è più lunga, la
+    seconda ha un calo, la lunghezza scende verso la fine (spiegata dalla composizione per righe).
+    Non tratta il legame attraverso l'a capo né la relazione fra righe consecutive.
+  - **Smith e Ponzi** studiano le giunture dentro la riga ed escludono esplicitamente gli spazi
+    all'a capo.
+  - Né loro né Feaster misurano la **chiusura delle giunture all'a capo** (e74) o la **dipendenza
+    fra inizi di righe consecutive** (e82–e84, e88). Per quanto trovato finora sono contributi
+    nuovi; la ricerca non è esaustiva, e va detto.

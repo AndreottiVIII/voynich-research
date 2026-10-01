@@ -63,6 +63,8 @@ l'impronta permette di verificare di aver letto lo stesso file.
 | `dimperio_1978.txt` | D'Imperio 1978, OCR di archive.org, item `DTIC_ADA070618` | `dc1115dd53aad6446022be78840890291067e161d0e361a86370ce885bcd1609` |
 | `ignota_unmasqued.html` | glossario della Lingua Ignota ricompilato da Roth 1880, <https://web.archive.org/web/20120820002300id_/http://www.unmasqued.com/eclecticify/ignota.php> | `068ea3173d6d4bfcc11fbdb6f41267802096cbb731be6b82a6d3e1061171677c` |
 | `feaster_2021_rightward_downward.html` | Feaster 2021, *Rightward and Downward in the Voynich Manuscript*, <https://griffonagedotcom.wordpress.com/2021/08/18/rightward-and-downward-in-the-voynich-manuscript/> (scaricato l'1/10/2026) | `3b3773d6fa793165e417225308bf835b8525a675d462c92dfd29ff78f73b6513` |
+| `vogt_2012_line.pdf` | Vogt 2012, *The Line as a Functional Unit in the Voynich Manuscript: Some Statistical Observations*, <https://voynichthoughts.wordpress.com/wp-content/uploads/2012/11/the_voynich_line.pdf> | `be2730ebd6ba19b13894098ceef6294482ac3a7221499076b553e9cfac5cd2f2` |
+| `smith_ponzi_2019.pdf` | Smith e Ponzi 2019, *Glyph Combinations across Word Breaks in the Voynich Manuscript* (preprint), <https://agnosticvoynich.wordpress.com/wp-content/uploads/2019/06/glyph-combinations-across-word-breaks-in-the-voynich-manuscript-preprint.pdf> | `6bb5e9103da8da403d847fa7df979b64b23690dc71b13121788fe1b21aa3f6d2` |
 
 I `.txt` accanto ai PDF sono estratti con `pypdf` e servono solo per la ricerca nel testo.
 
