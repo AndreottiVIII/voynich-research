@@ -1995,3 +1995,23 @@ Ricerca web dell'1/10. Letto per intero solo Feaster 2021 (SHA in FONTI.md).
 - **Inizi di paragrafi consecutivi** sulla stessa pagina: S = 1,04 (z 1,0), nessun evitamento. Sono
   quasi tutti gallow (p 331, t 171, k 78, f 32). **L'evitamento riguarda solo le righe dentro il
   paragrafo.**
+
+## 1/10/2026 — Esplorativo: il Voynich non rima
+
+**Esplorativo, non preregistrato.** Coincidenza delle ultime due lettere o segni, rispetto al
+rimescolamento delle righe:
+
+| testo | fra fini di righe consecutive | metà riga – fine riga (rima interna) |
+|---|---|---|
+| Voynich | **1,00** (z 0,1) | 1,35 (z 6,4) |
+| Ovidio | 1,04 | 2,15 |
+| *Macer* | 1,27 | 3,72 |
+| Marbodo (esametri leonini) | 3,28 | 6,59 |
+
+- Il Voynich non ha rima fra righe.
+- Il suo 1,35 interno può venire dalla semplice somiglianza fra parole della stessa riga: manca
+  un confronto fra posizioni qualsiasi.
+- Nei testi latini anche l'accordo grammaticale (aggettivo e nome lontani con la stessa
+  desinenza) produce la "rima interna".
+- **Lettura:** nessun indizio di rima. Non esclude il verso (la poesia classica e il *Macer* non
+  rimano), ma toglie una prova possibile a favore.
