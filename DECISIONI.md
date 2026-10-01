@@ -176,3 +176,14 @@ riassunte nel `DOSSIER_WHITE_PAPER.md`, sezione 3.2; qui cominciano quelle della
   protocollo cieco.
 - **Motivo.** Meglio un vicolo cieco documentato che un numero sbagliato. Le 213 immagini restano
   scaricate e registrate (e33), e l'allineamento è in `analisi/immagini.py` per chi riprenderà.
+
+## D-011 — e68: il filtro di forma non si applica alle parole d'inizio riga (1/10/2026)
+
+- **Contesto.** Con η = 1 il generatore si bloccava: il filtro, tarato sui segni iniziali di tutte
+  le parole, rifiutava quasi tutte le parole d'inizio paragrafo. Queste per convenzione cominciano
+  con i gallows (p-, t-, k-, f-), rari altrove.
+- **Scelta.** Il filtro non si applica alle parole d'inizio riga, che hanno una distribuzione
+  propria, come già nelle esclusioni di D-006.
+- **Motivo.** È una deviazione dalla preregistrazione nata da un blocco tecnico, non dai risultati.
+  Si rieseguono tutti i valori di η con la correzione; con η = 0 il controllo di validità resta lo
+  stesso.

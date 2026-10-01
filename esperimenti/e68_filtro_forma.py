@@ -41,7 +41,7 @@ def compila():
     testo = open(principale, encoding='utf-8').read()
     ancora = '                    // add modified groups\n                    if (useMorphedGroups || forceUsage) {'
     nuovo = ('                    // filtro di forma (aggiunta, vedi Forma.java)\n'
-             '                    if (useMorphedGroups && !forceUsage && Forma.attiva() && !Forma.accetta(firstGroup.glyphGroup)) {\n'
+             '                    if (useMorphedGroups && !forceUsage && !isLineInitial && Forma.attiva() && !Forma.accetta(firstGroup.glyphGroup)) {\n'
              '                        useMorphedGroups = false;\n'
              '                    }\n\n' + ancora)
     assert testo.count(ancora) == 1
