@@ -1876,3 +1876,33 @@ Ricerca web dell'1/10. Letto per intero solo Feaster 2021 (SHA in FONTI.md).
   - Una possibilità da provare: un testo in versi scritto in un sistema che rende le sillabe con
     gruppi di segni (h2 bassa), con formule ripetute.
 - **Prossimo passo (e99).** Il verso latino sulla pagella intera, come l'e78 per il sanscrito.
+
+## 1/10/2026 — e99: il *Macer floridus* ha la riga del Voynich, non il suo vocabolario
+
+- **Metodo.** Preregistrato. Erbario in esametri (XI secolo), edizione Choulant 1832 (OCR):
+  2.177 versi, 79 capitoli, uno per pianta, 13.484 parole.
+- **Proprietà di riga:**
+
+  | misura | *Macer* | Voynich |
+  |---|---|---|
+  | R, un verso per riga | **−0,004** | 0,006 |
+  | R, di seguito | 0,657 | |
+  | legame dentro la riga | 0,145 bit | 0,20 |
+  | CV | 0,088 | 0,049 (S) |
+  | bordo inizio | **22,0** | 23 |
+  | bordo fine | 17,8 | 55 |
+  | S(1) inizi consecutivi | 0,95 | **0,52** |
+  | prima parola, corpi identici con la riga sopra | 0,79 | 1,03 |
+
+  - Fine riga: m ×1,86, r, s. Inizio riga: u, h, a, e.
+- **Pagella: 0/17**, come ogni lingua naturale: h2 3,31, ripetizione 0,08, omogeneità 0,000,
+  tipi 0,29.
+  - Anche il bordo di riga fallisce la banda, per la fine: 17,8 è meno della metà di 55.
+- **Lettura (previsioni confermate).**
+  - Un erbario medievale in versi, impaginato un verso per riga, ha **la stessa chiusura della
+    riga** e **lo stesso bordo d'inizio** del Voynich, con la m arricchita alla fine.
+  - Non ha l'evitamento fra inizi, né il bordo di fine così forte, né il vocabolario del Voynich
+    (h2 bassa, ripetizioni, omogeneità di pagina).
+  - **Quadro attuale:** il Voynich ha **righe da poesia** e **parole da procedimento** (o da un
+    sistema di scrittura molto diverso da un alfabeto). La riga non è più un argomento contro il
+    contenuto; il vocabolario sì.

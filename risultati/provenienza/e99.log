@@ -1,0 +1,14 @@
+capitoli 79, versi 2177, parole 13484
+  R un verso per riga: -0.004
+  legame dentro, un verso per riga: 0.145
+  R di seguito, a capo: 0.657
+  legame dentro, di seguito, a capo: 0.147
+  CV: 0.088
+  bordo inizio: 21.974
+  bordo fine: 17.809
+  arricchiti: {'inizio': [('u', 3.48, 92), ('h', 2.68, 187), ('a', 2.65, 220), ('e', 2.34, 256), ('o', 1.49, 50)], 'fine': [('m', 1.86, 478), ('r', 1.54, 170), ('s', 1.18, 543), ('i', 1.11, 162), ('a', 0.91, 190)]}
+  S(1): 0.953
+  S(1) z: -0.653
+  prima parola, corpi identici: 0.785
+pagella 0/17: ·h2 ·spazio ·uniche ·tipi ·ripetizione ·omogeneità ·gradiente ·legame ·unioni ·curva piatta ·deriva ·profilo pagina ·lunghezze vicine ·Zipf ·verticale ·formule ·bordo di riga
+  h2 3.31 spazio 0.15 uniche 0.60 tipi 0.292 rip 0.08 omog -0.000/0.001 legame 0.129
