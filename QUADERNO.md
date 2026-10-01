@@ -1162,3 +1162,35 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
 - **Lettura.** Prova debole a favore della riga elastica: dopo una riga accorciata dai disegni,
   la riga dopo non sembra continuarla come farebbe un verso spezzato. Il verso a lunghezza fissa
   come spiegazione della chiusura perde un po' di plausibilità, ma non è escluso.
+
+## 1/10/2026 — e81: direzione della giuntura (non valido), e un controllo esplorativo sulla chiave per riga
+
+**e81** (preregistrato).
+
+- **Misure:** IM condizionata regressiva (fine di w1 ~ inizio di w2, a parità di radice di w1) e
+  progressiva (a parità di corpo di w2).
+- **Validità fallita.**
+  - Il criterio chiedeva un rapporto regressiva / progressiva > 2 nei versi sanscriti: la
+    Manusmṛti dà 2,26, il **Raghuvaṃśa 1,36**.
+  - Anche Plinio, che non ha sandhi, dà 2,16, quindi la misura non isola il sandhi.
+  - **Non si legge.**
+- **Descrittivo:** Voynich 0,87 (A 0,59, B 1,08); generatore con le giunture 0,76; e51 0,55;
+  generatore senza giunture 0,22.
+
+**Esplorativo, non preregistrato: una chiave diversa per ogni riga?**
+
+- Un cifrario che cambia chiave (o alfabeto) a ogni riga spiegherebbe la riga chiusa. Darebbe
+  però un **salto** di somiglianza fra parole della stessa riga e parole della riga adiacente.
+- Con `misure.decadimento`:
+
+  | distanza fra righe | distanza normalizzata | parole identiche |
+  |---|---|---|
+  | 0 (stessa riga) | 0,9615 | ×2,83 |
+  | 1 | 0,9601 | ×2,50 |
+  | 2 | 0,9636 | ×2,38 |
+  | 6 | 0,9665 | ×2,13 |
+
+  - Le parole della riga adiacente sono **altrettanto simili** di quelle della stessa riga.
+    Nessun salto.
+- **Lettura.** Una chiave per riga è poco probabile: la riga è chiusa per le giunture e per i
+  bordi, non per il vocabolario. Lo stile cambia piano lungo la pagina, non a ogni riga.
