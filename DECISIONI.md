@@ -211,3 +211,16 @@ riassunte nel `DOSSIER_WHITE_PAPER.md`, sezione 3.2; qui cominciano quelle della
   (`V2_distanza`). Il Voynich resta a 20.
 - **Motivo.** È un blocco tecnico, non dipende dai risultati. Con una distanza più corta la deriva
   è sottostimata, quindi il confronto è prudente per i testi corti.
+
+## D-014 — e82: il nullo per permutazione creava coppie di una riga con se stessa (1/10/2026)
+
+- **Contesto.** Nell'e82 il nullo permutava i secondi elementi delle coppie (primo segno della
+  riga L+1) dentro la pagina. Poiché la riga L+1 è anche il primo elemento della coppia
+  successiva, la permutazione poteva accoppiare una riga con se stessa (stesso segno ai due
+  lati). Questo gonfiava il nullo e dava eccessi negativi. Lo ha rivelato il controllo negativo,
+  fallito con z −3,2 contro il |z| < 3 richiesto.
+- **Scelta.** Il nullo rimescola invece l'ordine delle righe dentro la pagina e riforma le coppie
+  fra righe consecutive. Le righe d'inizio paragrafo sono escluse da entrambi i lati, nel reale e
+  nel nullo. I criteri restano quelli preregistrati.
+- **Motivo.** Il difetto riguarda il nullo, non il risultato: anche con il nullo sbagliato il
+  Voynich dava z 13,5. L'esecuzione scartata è conservata in `risultati/scartati/`.
