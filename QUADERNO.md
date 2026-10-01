@@ -723,3 +723,15 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
   - Se fosse il nome della pianta, nel testo il nome dovrebbe comparire in un'altra forma, per
     esempio abbreviato, oppure non comparire affatto.
   - È la stessa direzione del procedimento senza messaggio. Il test però ha validità non piena.
+
+## 1/10/2026 — e65: formule d'apertura nelle ricette (test non valido)
+
+- **Preregistrato.** Le aperture dei paragrafi sono più concentrate delle parole interne?
+- **Il controllo positivo fallisce.** Apicio ha rapporto 0,95 (p = 0,71): le aperture variano
+  (*accipies*, *piper*, *adicies*) e le parole interne sono già concentrate. Solo la Bibbia (*et*,
+  *dixitque*) supera la soglia (1,78).
+- **Il valore del Voynich** (0,84; aperture più frequenti *tchedy*, *pol*, *polaiin*) **non è
+  informativo.**
+- **Lezione di metodo.** L'idea "i ricettari aprono con formule" era vera per l'italiano o il latino
+  tardo (*recipe*, *item*), non per Apicio. Il controllo positivo l'ha mostrato prima che il
+  risultato sul Voynich potesse essere sovrainterpretato.
