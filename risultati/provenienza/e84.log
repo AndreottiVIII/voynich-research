@@ -1,0 +1,6 @@
+Voynich                                    n  2622 | S 0.52 | fuori diagonale 0.3640 (nullo 0.2800, z 12.4) | asimmetria 176.0 (nullo 71.8, z 11.4)
+Voynich A                                  n  1076 | S 0.36 | fuori diagonale 0.4222 (nullo 0.3471, z 5.8) | asimmetria 103.0 (nullo 50.1, z 6.7)
+Voynich B                                  n  1505 | S 0.62 | fuori diagonale 0.3989 (nullo 0.3050, z 10.0) | asimmetria 128.5 (nullo 62.5, z 7.6)
+controllo: sequenza (marcatore a ciclo)    n  4103 | S 0.00 | fuori diagonale 1.5850 (nullo 0.5872, z 1116.4) | asimmetria 4103.0 (nullo 1.2, z 2901.1)
+controllo: solo evitamento                 n  4103 | S 0.00 | fuori diagonale 0.2357 (nullo 0.2349, z 0.2) | asimmetria 126.6 (nullo 152.4, z -1.8)
+Timm e Schinner, seme 19                   n  3210 | S 1.03 | fuori diagonale 0.2604 (nullo 0.2496, z 2.1) | asimmetria 60.9 (nullo 70.6, z -0.9)
