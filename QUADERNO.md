@@ -1377,3 +1377,38 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
 - **Prossima prova (e88).** "Copia e cambia l'inizio": la prima parola di una riga è una copia
   della prima parola sopra con l'inizio cambiato? Allora i corpi (la parola senza il primo segno)
   dovrebbero somigliarsi più del caso.
+
+## 1/10/2026 — e88: la prima parola di riga non è copiata da quella sopra
+
+- **Metodo.** Preregistrato. Somiglianza verticale dei corpi (parola senza il primo segno) per
+  la colonna delle prime parole e per quella delle seconde.
+- **Validità:** controllo positivo (copia e cambio su metà delle righe): corpi identici ×5,27
+  (z 52) (✓).
+- **Risultati** (rapporto con l'atteso):
+
+  | testo | colonna | corpi identici | somiglianza | parole identiche |
+  |---|---|---|---|---|
+  | Voynich | prime parole | **1,03** (z 0,2) | 1,08 (z 4,3) | **0,58** (z −2,4) |
+  | Voynich | seconde parole | **1,47** (z 4,1) | 1,12 (z 6,2) | 1,27 |
+  | lingua A | prime parole | 0,57 | 1,01 | 0,28 |
+  | lingua A | seconde parole | 1,00 | 1,10 | |
+  | lingua B | prime parole | 1,19 | 1,14 | 0,73 |
+  | lingua B | seconde parole | 1,86 (z 5,1) | | |
+  | Timm e Schinner | prime parole | 1,33 (z 2,7) | | 1,19 |
+  | Timm e Schinner | seconde parole | 1,33 (z 2,9) | | 1,34 |
+
+- **Lettura** (criterio preregistrato non raggiunto: nessun "copia e cambio").
+  - Nel Voynich la prima parola di riga **non deriva** dalla prima parola sopra; anzi la evita
+    (parole identiche 0,58).
+  - Le parole in seconda posizione mostrano la solita traccia di copia verticale (e58), le prime
+    no.
+  - Il generatore copia allo stesso modo in tutte le colonne.
+- **Quadro della riga** (e71–e88): la prima parola è **speciale**.
+  - Porta spesso un segno aggiunto (y, d, s, o: e73).
+  - È scelta per essere diversa da quella sopra: nel segno iniziale (e83, e84) e nella parola
+    intera (e88).
+  - Non viene copiata, mentre il resto della riga sì.
+  - Questo è il comportamento di una **intestazione di voce**: voci consecutive con nomi diversi
+    e descrizioni simili.
+  - Non è il comportamento di una prosa mandata a capo, di versi o di un generatore ad
+    autocitazione.
