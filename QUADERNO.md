@@ -1141,3 +1141,24 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
   - la classificazione per spazio **disponibile**, uguale nel controllo e nel Voynich;
   - una statistica più potente, come il log-rapporto di verosimiglianza della coppia sotto la
     tabella delle giunture dentro la riga.
+
+## 1/10/2026 — e80: verso fisso o riga elastica? (seconda prova)
+
+- **Metodo.** Preregistrato. Righe corte per spazio disponibile, ereditate dal Voynich nel
+  controllo. Statistica di verosimiglianza sotto il modello delle giunture, con validazione a
+  metà.
+- **Validità:**
+  - verso con spazio limitato: R_corte 0,51 contro R_piene 0,08, Δ 0,43 (✓);
+  - verso senza limiti: R 0,00 (✓).
+- **Voynich, tutto il testo:** **R_corte 0,19** (limite superiore 0,40, n 217) e R_piene 0,05
+  (limite superiore 0,12).
+  - **Lettura preregistrata: indeciso.** R_corte è sotto 0,2, ma il limite superiore tocca 0,40,
+    e il criterio chiedeva < 0,4.
+  - Il valore centrale è lontano da quello del verso spezzato (0,51), ma con 217 coppie non si
+    esclude un piccolo effetto.
+- **Voynich H:** R_corte 0,10 (limite 0,51, n 101), poca potenza.
+- **Generatore:** R_piene 0,33 (z 3,9). Con questa statistica il generatore mostra un piccolo
+  legame residuo attraverso l'a capo; il Voynich quasi nessuno (0,05).
+- **Lettura.** Prova debole a favore della riga elastica: dopo una riga accorciata dai disegni,
+  la riga dopo non sembra continuarla come farebbe un verso spezzato. Il verso a lunghezza fissa
+  come spiegazione della chiusura perde un po' di plausibilità, ma non è escluso.
