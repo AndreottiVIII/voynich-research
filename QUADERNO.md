@@ -2052,3 +2052,34 @@ rimescolamento delle righe:
 - **Previsione confermata.** Nessuna scrittura arriva a 3 anomalie su 4. L'ipotesi "lingua
   naturale in una scrittura sillabica" non spiega l'impronta: in queste scritture l'incertezza sul
   segno successivo è anzi più alta.
+
+## 1/10/2026 — e105: l'inizio di riga dipende solo dall'inizio della riga sopra
+
+- **Metodo.** Preregistrato (tentativo 4 concordato con Davide). Otto candidati per la classe
+  d'inizio di riga (famiglie fuse), senza condizioni e condizionati all'inizio della riga sopra.
+- **Risultati** (eccesso d'informazione mutua, z):
+
+  | candidato | z | z condizionato all'inizio della riga sopra |
+  |---|---|---|
+  | inizio della riga sopra | **26,1** | |
+  | posizione nel paragrafo | 9,0 | −0,4 |
+  | classi presenti nella riga sopra | 5,4 | 0,6 |
+  | inizio di due righe sopra | 5,1 | −2,1 |
+  | numero di parole della riga sopra | 3,0 | 2,5 |
+  | fine della riga sopra | −0,6 | −1,5 |
+  | numero di parole della riga | | 1,2 |
+  | seconda parola della riga | | 1,0 |
+
+  - Per le ultime due il nullo non condizionato non è informativo (le caratteristiche si spostano
+    con la riga ed eccesso e varianza nulli sono 0): vale solo la versione condizionata. È un
+    difetto di disegno che riguarda solo quelle due.
+- **Lettura** (nessun candidato rilevante oltre la riga sopra, come previsto; il candidato 3 è
+  spiegato anch'esso).
+  - La regola d'inizio riga è **del primo ordine**: la riga nuova "guarda" solo come comincia la
+    riga immediatamente sopra, per evitarla e per preferire certi passaggi.
+  - Non guarda come finisce la riga sopra, né quali parole contiene, né quanto è lunga.
+  - La dipendenza dalla posizione nel paragrafo è un riflesso di questa catena, che parte dai
+    gallow d'inizio paragrafo.
+  - È il comportamento di chi, cominciando una riga, guarda l'inizio di quella sopra (la colonna
+    sinistra) e sceglie diverso: un'abitudine di impaginazione o una regola di procedimento, non
+    una dipendenza di contenuto.
