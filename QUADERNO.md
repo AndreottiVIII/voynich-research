@@ -2159,3 +2159,38 @@ rimescolamento delle righe:
   tentativo di decifrazione per indicatore (e110) previsto in caso contrario.
 - **Nota tecnica sull'e107.** È stato lanciato per errore con `LINGUE_SOLO=x` nell'ambiente. L'e107
   non usa quella variabile (le sue tre lingue sono fisse), ma il valore compare nella provenienza.
+
+## 1/10/2026 — e108: la grafia che deriva non dà somiglianza; esplorativi sull'alternanza
+
+**e108** (preregistrato): sillabe con grafia che riparte dall'ultima usata.
+
+- **Esito: fallimento.** Massimo 4/18. La somiglianza nella riga resta ≤ 0,004 (Voynich 0,038).
+- Peggiorano: h2 3,0–3,3, forma delle parole 1,1–10,4, deriva troppo forte (0,22–0,49).
+- **Lettura.** La somiglianza del Voynich lega parole **diverse** vicine. In un codice vorrebbe dire
+  che la grafia di una parola dipende dalle parole vicine e non solo dall'unità che codifica.
+
+**Esplorativo, non preregistrato: un codice "differenziale a catena"?** Prima parola della riga
+come seme, ogni parola successiva = la precedente modificata, con il messaggio nella modifica.
+
+- Somiglianza fra parole della stessa riga per distanza (rapporto con coppie a caso):
+
+  | testo | distanza 1 | distanza 2 | distanza 3 |
+  |---|---|---|---|
+  | Voynich | 1,18 | **1,22** | 1,18 |
+  | Voynich, solo interne | 1,20 | **1,26** | 1,21 |
+  | Timm e Schinner | 1,29 | 1,15 | 1,13 |
+  | con giunture (e23) | 1,23 | 1,09 | 1,10 |
+  | e51 | 1,27 | 1,14 | 1,14 |
+  | Bibbia latina | 0,92 | 0,955 | 0,946 |
+  | Ovidio | 0,946 | 0,959 | 0,959 |
+  | *Macer* | 0,989 | 0,958 | 0,949 |
+
+- **Nessuna catena:** nel Voynich le parole vicine non sono le più simili. L'ipotesi differenziale
+  non è sostenuta.
+- **Scoperta: alternanza.** Nel Voynich le parole a distanza 2 sono **più** simili di quelle
+  vicine, come nella Bibbia latina e in Ovidio; nei generatori ad autocitazione è il contrario,
+  perché copiano dalla parola appena scritta.
+  - La parità della posizione nella riga ha un effetto minimo (0,001 bit sul primo segno): non
+    sono due flussi in fase fissa.
+  - Le giunture non spiegano l'alternanza: il generatore con le giunture ha 1,23 contro 1,09.
+- Da confermare con una prova preregistrata (e110).
