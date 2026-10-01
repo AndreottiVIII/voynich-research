@@ -745,3 +745,25 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
   quindi un affinamento automatico non basta.
 - **Decisione.** Non procedere. Serve un annotatore umano con uno strumento grafico: è un lavoro
   che Davide potrebbe fare, circa 190 riquadri su 12 pagine.
+
+## 1/10/2026 — e66: parole chiave e argomenti (nello spirito di Montemurro e Zanette 2013)
+
+- **Preregistrato.** La misura è ricostruita dalla descrizione generale, non dal loro codice;
+  l'articolo è da verificare alla fonte.
+- **Risultati** (I* in bit per parola):
+  - Plinio 0,105 (in chiaro e codificato identici: la misura non dipende dalla grafia);
+  - Bibbia 0,177;
+  - **Voynich 0,296**;
+  - generatore di Timm e Schinner 0,39–0,50;
+  - modello e51 0,36;
+  - modello con recenza 0,435;
+  - Naibbe 0.
+- **Lettura.**
+  1. La "struttura per parole chiave" **non** è un indizio di contenuto: un procedimento di copia
+     locale ne produce più dei testi veri.
+  2. Ciò che distingue il Voynich è la **persistenza a grande scala**: 0,25 a 4.000 parole, contro
+     0,16 del generatore puro. Solo il modello con recenza ci arriva (0,244).
+  - È la stessa conclusione della deriva (V2): il vocabolario del Voynich cambia lungo il testo
+    come se lo scriba attingesse a ciò che ha scritto di recente, non a tutto il testo.
+  - Un testo con argomenti che cambiano lo farebbe allo stesso modo: questa proprietà non
+    distingue fra contenuto e procedimento con recenza.
