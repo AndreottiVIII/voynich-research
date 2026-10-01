@@ -1,0 +1,28 @@
+coppie (A = JSD / nullo), le prime 15:
+  ckh/cth    A 1.06 (JSD 0.166, nullo 0.156, n 180/467)
+  r/s        A 1.09 (JSD 0.292, nullo 0.267, n 346/878)
+  k/t        A 1.18 (JSD 0.291, nullo 0.247, n 1196/955)
+  ch/ckh     A 1.20 (JSD 0.389, nullo 0.324, n 5611/180)
+  ch/sh      A 1.26 (JSD 0.170, nullo 0.136, n 5611/3038)
+  d/r        A 1.37 (JSD 0.279, nullo 0.204, n 3239/346)
+  ckh/sh     A 1.44 (JSD 0.370, nullo 0.256, n 180/3038)
+  d/s        A 1.45 (JSD 0.252, nullo 0.174, n 3239/878)
+  p/t        A 1.46 (JSD 0.539, nullo 0.370, n 525/955)
+  r/t        A 1.48 (JSD 0.493, nullo 0.333, n 346/955)
+  ckh/t      A 1.54 (JSD 0.564, nullo 0.367, n 180/955)
+  p/r        A 1.61 (JSD 0.655, nullo 0.406, n 525/346)
+  ch/cth     A 1.64 (JSD 0.390, nullo 0.238, n 5611/467)
+  s/t        A 1.72 (JSD 0.479, nullo 0.278, n 878/955)
+  ckh/p      A 1.75 (JSD 0.837, nullo 0.478, n 180/525)
+candidate (A <= 1.5): ['ckh/cth', 'r/s', 'k/t', 'ch/ckh', 'ch/sh', 'd/r', 'ckh/sh', 'd/s', 'p/t', 'r/t']
+  ckh/cth  riga: eccesso 0.0126 (z 4.3) quote {'interna': 0.741, 'prima': 1.0, 'seconda': 0.607, 'ultima': 0.75} | prima riga del paragrafo: eccesso -0.0005 (z -0.3) quote {'False': 0.726, 'True': 0.673}
+  r/s      riga: eccesso 0.1432 (z 32.0) quote {'interna': 0.59, 'prima': 0.974, 'seconda': 0.633, 'ultima': 0.557} | prima riga del paragrafo: eccesso 0.0189 (z 15.5) quote {'False': 0.751, 'True': 0.534}
+  k/t      riga: eccesso 0.0861 (z 20.1) quote {'interna': 0.346, 'prima': 0.792, 'seconda': 0.278, 'ultima': 0.369} | prima riga del paragrafo: eccesso 0.0015 (z 1.1) quote {'False': 0.422, 'True': 0.506}
+  ch/ckh   riga: eccesso 0.0026 (z 8.6) quote {'interna': 0.026, 'prima': 0.0, 'seconda': 0.049, 'ultima': 0.045} | prima riga del paragrafo: eccesso -0.0001 (z -0.2) quote {'False': 0.032, 'True': 0.024}
+  ch/sh    riga: eccesso 0.0117 (z 17.1) quote {'interna': 0.333, 'prima': 0.583, 'seconda': 0.426, 'ultima': 0.233} | prima riga del paragrafo: eccesso 0.0171 (z 128.8) quote {'False': 0.317, 'True': 0.515}
+  d/r      riga: eccesso 0.0162 (z 37.8) quote {'interna': 0.11, 'prima': 0.017, 'seconda': 0.084, 'ultima': 0.132} | prima riga del paragrafo: eccesso 0.0051 (z 14.5) quote {'False': 0.085, 'True': 0.161}
+  ckh/sh   riga: eccesso 0.0078 (z 10.2) quote {'interna': 0.949, 'prima': 1.0, 'seconda': 0.936, 'ultima': 0.865} | prima riga del paragrafo: eccesso 0.0056 (z 14.0) quote {'False': 0.933, 'True': 0.977}
+  d/s      riga: eccesso 0.0363 (z 23.2) quote {'interna': 0.151, 'prima': 0.392, 'seconda': 0.137, 'ultima': 0.16} | prima riga del paragrafo: eccesso 0.0006 (z 3.7) quote {'False': 0.219, 'True': 0.18}
+  p/t      riga: eccesso 0.0181 (z 3.1) quote {'interna': 0.775, 'prima': 0.511, 'seconda': 0.877, 'ultima': 0.825} | prima riga del paragrafo: eccesso 0.1248 (z 15.5) quote {'False': 0.886, 'True': 0.397}
+  r/t      riga: eccesso 0.1100 (z 18.7) quote {'interna': 0.671, 'prima': 0.973, 'seconda': 0.76, 'ultima': 0.395} | prima riga del paragrafo: eccesso -0.0031 (z -1.4) quote {'False': 0.721, 'True': 0.767}
+ch/sh allografi: True
