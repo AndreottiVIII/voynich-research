@@ -1,0 +1,10 @@
+Voynich N0                 classi  6293 uniche 0.68 h1 10.14 h2 4.28 zipf -1.04 rip 0.0100 id/riga 1.00 
+Voynich N1                 classi  5393 uniche 0.66 h1 9.77 h2 4.54 zipf -1.09 rip 0.0118 id/riga 0.99 
+Voynich N2                 classi  4782 uniche 0.65 h1 9.40 h2 4.71 zipf -1.14 rip 0.0153 id/riga 1.01 
+vietnamita                 classi  1555 uniche 0.24 h1 8.66 h2 4.13 zipf -1.19 rip 0.0016 id/riga 0.23 | migliore N0 3/6 ['h1', 'h2', 'zipf']
+cinese pinyin con toni     classi   783 uniche 0.10 h1 7.84 h2 4.38 zipf -1.47 rip 0.0032 id/riga 0.32 | migliore N1 2/6 ['h1', 'h2']
+cinese pinyin senza toni   classi   357 uniche 0.06 h1 7.11 h2 4.84 zipf -1.52 rip 0.0052 id/riga 0.42 | migliore N0 2/6 ['h2', 'ripetizione']
+cinese caratteri           classi  1443 uniche 0.22 h1 8.30 h2 4.00 zipf -1.22 rip 0.0027 id/riga 0.29 | migliore N1 3/6 ['h1', 'h2', 'zipf']
+sillabe latine             classi  1157 uniche 0.22 h1 8.27 h2 4.26 zipf -1.45 rip 0.0011 id/riga 0.16 | migliore N0 2/6 ['h1', 'h2']
+sillabe italiane           classi   953 uniche 0.23 h1 7.71 h2 4.44 zipf -1.61 rip 0.0025 id/riga 0.28 | migliore N2 2/6 ['h1', 'h2']
+vicine (>=5/6): []
