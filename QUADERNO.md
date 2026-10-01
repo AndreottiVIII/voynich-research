@@ -913,3 +913,39 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
   senza un o-, y-, d- iniziale coesistono. Il testo codificato per rango (parole del Voynich
   messe a caso) dà +0,04, il che lo rende poco probabile. La prova giusta è però la stessa misura
   su una posizione interna: la faccio nell'e73.
+
+## 1/10/2026 — e73: il bordo contro la posizione accanto
+
+- **Metodo.** Preregistrato. Stesso modello dell'e72, con riferimento le parole dalla terza alla
+  terzultima, su righe di almeno 6 parole. Effetto proprio = bordo meno posizione accanto.
+- **Validità:**
+  - **inizio:** i controlli mandati a capo stanno a ≤ 0,026 (✓). Il controllo d'aggiunta dà
+    +2,38 (✓);
+  - **fine:** il controllo di sostituzione dà T +2,13, più di A +0,51 (✓). **Plinio però dà T
+    +0,064, sopra la soglia di 0,05 (✗).** L'effetto è piccolo e viene dall'a capo: le parole
+    finali sono quelle corte che ci stanno. Per regola il lato fine non si legge.
+- **Inizio riga (valido).** Effetto proprio dell'aggiunta, in bit:
+
+  | testo | A | T |
+  |---|---|---|
+  | Voynich | **+0,79** | +0,40 |
+  | lingua A | +0,59 | |
+  | lingua B | +0,94 | |
+  | Timm e Schinner | +0,14–0,21 | |
+  | e51 | +0,13 | |
+
+  - Nel Voynich la seconda parola dà solo +0,02, quindi l'effetto è proprio della prima parola.
+  - **È confermato:** a inizio riga lo scriba aggiunge un segno (y, d, s, o) a una parola normale.
+    Questo spiega una parte importante della particolarità delle parole d'inizio riga.
+- **Fine riga (esplorativo, non valido per regola):**
+  - Voynich: A +0,165 e T +0,161, cioè indistinguibili;
+  - generatore: solo sostituzione (T +0,28–0,37, A ≈ 0).
+  - Il meccanismo del generatore ("ol" → "om") è dunque probabilmente diverso da quello del
+    Voynich, ma la prova non è valida.
+- **Lettura per le ipotesi.**
+  - Un segno aggiunto a inizio riga è compatibile con una convenzione di scrittura (un segno di
+    riga o un riempitivo) e con un procedimento di generazione con una regola di bordo.
+  - Non è compatibile con un testo vero mandato a capo senza convenzioni: i controlli danno circa
+    0.
+  - Per chi cerca di decifrare, il primo segno delle parole d'inizio riga in y, d, s, o è
+    probabilmente da togliere.

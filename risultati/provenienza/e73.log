@@ -1,0 +1,12 @@
+Voynich                                    A: 1a +0.812 2a +0.018 pen +0.005 ult +0.170 | T: 1a +0.419 2a +0.016 pen +0.016 ult +0.177 | proprio ini A +0.794 T +0.403 fin A +0.165 T +0.161
+Voynich A                                  A: 1a +0.610 2a +0.016 pen +0.004 ult +0.101 | T: 1a +0.462 2a +0.023 pen +0.017 ult +0.107 | proprio ini A +0.594 T +0.439 fin A +0.097 T +0.090
+Voynich B                                  A: 1a +0.961 2a +0.017 pen -0.002 ult +0.231 | T: 1a +0.486 2a +0.030 pen +0.000 ult +0.267 | proprio ini A +0.944 T +0.456 fin A +0.233 T +0.266
+Plinio, a capo                             A: 1a +0.000 2a +0.000 pen +0.168 ult +0.153 | T: 1a +0.002 2a +0.004 pen +0.168 ult +0.232 | proprio ini A -0.000 T -0.002 fin A -0.016 T +0.064
+Plinio codificato, a capo                  A: 1a +0.034 2a +0.045 pen +0.009 ult +0.008 | T: 1a +0.043 2a +0.018 pen +0.012 ult +0.014 | proprio ini A -0.011 T +0.026 fin A -0.000 T +0.002
+Naibbe, a capo                             A: 1a +0.032 2a +0.030 pen +0.004 ult +0.006 | T: 1a +0.050 2a +0.050 pen +0.063 ult +0.054 | proprio ini A +0.002 T +0.000 fin A +0.003 T -0.009
+controllo: aggiunta "s" all'inizio         A: 1a +2.429 2a +0.045 pen +0.009 ult +0.008 | T: 1a +0.910 2a +0.018 pen +0.012 ult +0.014 | proprio ini A +2.384 T +0.893 fin A -0.000 T +0.002
+controllo: sostituzione con "m" alla fine  A: 1a +0.034 2a +0.045 pen +0.009 ult +0.519 | T: 1a +0.043 2a +0.018 pen +0.012 ult +2.139 | proprio ini A -0.011 T +0.026 fin A +0.510 T +2.126
+Timm e Schinner, seme 19                   A: 1a +0.165 2a +0.027 pen +0.005 ult +0.002 | T: 1a +0.078 2a +0.013 pen +0.009 ult +0.373 | proprio ini A +0.138 T +0.065 fin A -0.003 T +0.363
+Timm e Schinner, seme 1                    A: 1a +0.220 2a +0.010 pen +0.005 ult +0.011 | T: 1a +0.098 2a +0.002 pen +0.008 ult +0.336 | proprio ini A +0.209 T +0.096 fin A +0.006 T +0.328
+Timm e Schinner, seme 2                    A: 1a +0.191 2a +0.016 pen +0.001 ult -0.000 | T: 1a +0.080 2a +0.007 pen +0.009 ult +0.374 | proprio ini A +0.175 T +0.072 fin A -0.002 T +0.365
+modello e51, seme 19                       A: 1a +0.163 2a +0.029 pen +0.007 ult +0.002 | T: 1a +0.094 2a +0.020 pen +0.006 ult +0.284 | proprio ini A +0.134 T +0.074 fin A -0.005 T +0.277
