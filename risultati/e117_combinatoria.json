@@ -1,0 +1,83 @@
+{
+ "Voynich ZL": {
+  "tipi": 6889,
+  "riempimento": 0.9916666666666667,
+  "riempimento_atteso": 0.9960833333333333,
+  "riempimento_rapporto": 0.9955659667029199,
+  "dipendenza": 0.01080701655159462,
+  "dipendenza_attesa": 0.008964984464413446
+ },
+ "Timm e Schinner": {
+  "tipi": 5221,
+  "riempimento": 0.925,
+  "riempimento_atteso": 0.956375,
+  "riempimento_rapporto": 0.9671938308717816,
+  "dipendenza": 0.015648881759407596,
+  "dipendenza_attesa": 0.011717061360540583
+ },
+ "Naibbe": {
+  "tipi": 5488,
+  "riempimento": 0.9958333333333333,
+  "riempimento_atteso": 0.99125,
+  "riempimento_rapporto": 1.0046237915090375,
+  "dipendenza": 0.0064949553604956535,
+  "dipendenza_attesa": 0.010850995553882761
+ },
+ "cifrato a sillabe (e104, mu 0,6)": {
+  "tipi": 4568,
+  "riempimento": 0.9666666666666667,
+  "riempimento_atteso": 0.9651666666666666,
+  "riempimento_rapporto": 1.0015541357278537,
+  "dipendenza": 0.012827602572921227,
+  "dipendenza_attesa": 0.017152557317716564
+ },
+ "Bibbia latina": {
+  "tipi": 5958,
+  "riempimento": 1.0,
+  "riempimento_atteso": 0.998875,
+  "riempimento_rapporto": 1.0011262670504317,
+  "dipendenza": 0.015685898866046172,
+  "dipendenza_attesa": 0.011350152029222429
+ },
+ "Bibbia italiana": {
+  "tipi": 4436,
+  "riempimento": 1.0,
+  "riempimento_atteso": 0.99275,
+  "riempimento_rapporto": 1.007302946361118,
+  "dipendenza": 0.01936771162137945,
+  "dipendenza_attesa": 0.017450284882653735
+ },
+ "Bibbia inglese": {
+  "tipi": 2338,
+  "riempimento": 0.9166666666666666,
+  "riempimento_atteso": 0.930625,
+  "riempimento_rapporto": 0.9850011193194537,
+  "dipendenza": 0.05287683786278904,
+  "dipendenza_attesa": 0.04581847507599948
+ },
+ "Bibbia turca": {
+  "tipi": 7891,
+  "riempimento": 0.95,
+  "riempimento_atteso": 0.9984166666666666,
+  "riempimento_rapporto": 0.9515065520407312,
+  "dipendenza": 0.07745627105164879,
+  "dipendenza_attesa": 0.013250748495139152
+ },
+ "Bibbia ungherese": {
+  "tipi": 6906,
+  "riempimento": 0.9791666666666666,
+  "riempimento_atteso": 0.99675,
+  "riempimento_rapporto": 0.982359334503804,
+  "dipendenza": 0.05112391857550863,
+  "dipendenza_attesa": 0.01606145320736624
+ },
+ "Bibbia finlandese": {
+  "tipi": 6444,
+  "riempimento": 0.975,
+  "riempimento_atteso": 0.9982083333333334,
+  "riempimento_rapporto": 0.9767500104353634,
+  "dipendenza": 0.02011520589728064,
+  "dipendenza_attesa": 0.010929772929887565
+ },
+ "piu_combinatorio_di_ogni_lingua": false
+}

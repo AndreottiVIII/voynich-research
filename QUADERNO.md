@@ -2429,3 +2429,58 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
     - un sistema in cui le parole frequenti sono nulle o riempitivi mescolati al testo vero;
     - un sistema in cui il messaggio non sta nell'ordine delle parole (per esempio nelle iniziali
       di riga, idea dell'acrostico).
+
+## 1/10/2026 — e116: le ripetizioni non sono numeri; e117: misura satura
+
+**e116** (preregistrato, strada B: ripetizioni come quantità).
+
+- **Concentrazione:** 3,74 (≥ 3, come previsto). Il generatore però ha 3,27, quasi lo stesso.
+- **Tipi più ripetuti:** chol (24), qokeedy (18), qokedy (16), qokeey (12), daiin (11), ol, shedy,
+  chedy, dy, chor. Sono parole comuni, non un piccolo gruppo di "numerali".
+- **Sezioni:**
+
+  | sezione | ripetizione rispetto all'attesa | IC 95% |
+  |---|---|---|
+  | erbario | 1,02 | 0,84–1,20 |
+  | ricette | 1,13 | 0,87–1,34 |
+  | biologia | 0,85 | |
+  | farmacia | 0,77 | |
+  | altre | 1,00 | |
+
+  - Nessuna differenza: ricette e farmacia **non** sono sopra le altre.
+- **Serie:**
+
+  | lunghezza | osservate | attese |
+  |---|---|---|
+  | 2 | 267 | 321 |
+  | 3 | 9 | 3,0 |
+  | 4 | 1 | 0,03 |
+
+  - Il generatore ha lo stesso schema: 11 serie di 3 contro 3,1 attese.
+- **Posizione:** le ripetizioni stanno al centro della riga (z 11,3), raramente all'inizio.
+- **Lettura preregistrata: misto.**
+  - L'ipotesi "numeri e quantità" **non è sostenuta**: manca la differenza fra sezioni, che era la
+    previsione chiave.
+  - Il quadro delle ripetizioni (concentrazione, serie di 3 in eccesso, posizione centrale)
+    coincide con quello del generatore ad autocitazione.
+
+**e117** (preregistrato, strada C: combinatoria inizio × fine).
+
+- Il **riempimento** delle 12 × 20 combinazioni è saturo (0,92–1,00) in tutti i testi, lingue
+  comprese: con migliaia di tipi tutte le combinazioni compaiono. **La misura non è informativa**
+  (difetto di disegno); "più combinatorio di ogni lingua": no.
+- **Dipendenza** (descrittivo, osservata contro attesa):
+
+  | testo | osservata | attesa |
+  |---|---|---|
+  | Voynich | 0,011 | 0,009 |
+  | latino | 0,016 | 0,011 |
+  | italiano | 0,019 | 0,017 |
+  | inglese | 0,053 | 0,046 |
+  | turco | 0,077 | 0,013 |
+  | ungherese | 0,051 | 0,016 |
+  | Naibbe | 0,006 | 0,011 |
+  | generatore | 0,016 | 0,012 |
+
+  - Nel Voynich inizio e fine della parola sono quasi indipendenti, come in latino e italiano su
+    queste parti. Non distingue.
