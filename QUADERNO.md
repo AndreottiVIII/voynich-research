@@ -949,3 +949,44 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
     0.
   - Per chi cerca di decifrare, il primo segno delle parole d'inizio riga in y, d, s, o è
     probabilmente da togliere.
+
+## 1/10/2026 — e74: il legame fra parole non attraversa l'a capo
+
+- **Metodo.** Preregistrato. Eccesso d'informazione mutua fra l'ultimo segno di una parola e il
+  primo della successiva: dentro la riga (fra parole interne) e attraverso l'a capo (ultima
+  parola di una riga, prima della riga dopo, stesso paragrafo).
+- **Validità:**
+  - Naibbe a capo: R 1,02 (✓). Il suo legame però è debolissimo (0,0014 bit, z 2), quindi è un
+    controllo di poca forza;
+  - Plinio a capo: R 0,67, ed è il controllo che conta, perché il legame è forte sia dentro (z 46)
+    sia attraverso l'a capo (z 8);
+  - righe rimescolate: R < 0 (✓).
+- **Voynich:**
+
+  | testo | dentro la riga | attraverso l'a capo | R |
+  |---|---|---|---|
+  | Voynich | 0,200 bit (z 248) | 0,001 (z 0,3) | **0,01** |
+  | lingua A | | | 0,02 |
+  | lingua B | | | 0,01 |
+  | Voynich, tolto y/d/s/o | | | 0,04 |
+
+- **Controllo esplorativo, non preregistrato.**
+  - Escludendo le fini di riga in m, g, d, s (forse sostituite), R resta 0,009–0,018.
+  - Dentro la riga, con lo stesso numero di coppie (3.337), lo z è 45: la potenza c'è.
+- **Generatori:**
+  - Timm e Schinner: R 0,15–0,26, ma su un legame debole (0,02);
+  - con le giunture (e23): R 0,00;
+  - e51: R 0,03.
+  - La regola delle giunture di questi modelli vale solo dentro la riga, per costruzione.
+- **Lettura.** Questo è uno dei risultati più netti finora: **la riga del Voynich è un'unità
+  chiusa.** Il forte legame fra parole vicine, che è la ragione della regola delle giunture,
+  sparisce del tutto all'a capo.
+  - **Contro un testo continuo cifrato e mandato a capo**, dove le parole sono pezzi di una
+    sequenza continua: lì il legame continuerebbe, come in Plinio (R 0,67). Anche la sequenza dei
+    segni del Voynich, che è molto prevedibile (h2 bassa), non continua da una riga all'altra.
+  - **Compatibile con:**
+    - righe come voci indipendenti (ipotesi 1);
+    - una scrittura o generazione riga per riga (ipotesi 3, come il generatore);
+    - un cifrario che riparte a ogni riga (ipotesi 2 con una convenzione di riga).
+  - Insieme all'e73 (segno aggiunto a inizio riga) e all'e71 (fine riga in m/g), la riga ha
+    un'**apertura**, una **chiusura** e nessun legame con la riga dopo.
