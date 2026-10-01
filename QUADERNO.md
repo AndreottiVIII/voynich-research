@@ -2118,3 +2118,12 @@ rimescolamento delle righe:
      - giunture fra sillabe consecutive (sandhi o fonotassi scritte).
   - È un'ipotesi ibrida concreta: testo vero in sillabe, scritto con varianti che lo scriba
     riprende da ciò che ha appena scritto. Da provare (e108).
+
+## 1/10/2026 — Replica dell'e20 completata
+
+- L'e20 (risolutore a nove gradi di fusione, latino e italiano) è stato rieseguito per intero, in
+  sottofondo: 7.011 secondi con 3 processi.
+- **Confronto con il tag `origine`:** 7.126 valori; i soli 63 diversi sono i tempi di esecuzione
+  (campi "secondi"). **Replica identica.**
+- **Stato della replica:** e01–e28 tutti replicati (e13 cambia per la ragione della D-008; e17 su un
+  sottoinsieme, D-009), tranne e19, ancora da rieseguire, ed e16, superato già in origine.

@@ -1,0 +1,63 @@
+italiano   10 fusioni, controllo positivo                       punteggio -1.578  copertura 76.8% (6+: 49.4%)  coppie 39.9%  parole  2767  chiave 100.0%  simboli  36   318s
+italiano   10 fusioni, controllo negativo                       punteggio -3.425  copertura 28.9% (6+:  1.7%)  coppie  0.9%  parole   745  simboli  36   380s
+italiano   10 fusioni, Voynich                                  punteggio -3.422  copertura 17.4% (6+:  0.6%)  coppie  0.0%  parole   441  simboli  36   265s
+latino     10 fusioni, controllo positivo                       punteggio -1.785  copertura 88.0% (6+: 57.6%)  coppie 21.8%  parole  4957  chiave 100.0%  simboli  36   326s
+latino     10 fusioni, controllo negativo                       punteggio -2.933  copertura 54.4% (6+:  7.2%)  coppie  0.2%  parole  2087  simboli  36   385s
+latino     10 fusioni, Voynich                                  punteggio -3.118  copertura 54.5% (6+:  6.4%)  coppie  0.2%  parole  1620  simboli  36   263s
+latino     10 fusioni, cifrario verboso                         punteggio -3.169  copertura 49.5% (6+:  6.3%)  coppie  0.2%  parole   904  simboli  24    51s
+latino     20 fusioni, controllo positivo                       punteggio -1.786  copertura 88.0% (6+: 57.7%)  coppie 21.6%  parole  4503  chiave 100.0%  simboli  45   302s
+latino     20 fusioni, controllo negativo                       punteggio -2.949  copertura 54.7% (6+:  7.2%)  coppie  0.4%  parole  2026  simboli  45   354s
+latino     20 fusioni, Voynich                                  punteggio -3.158  copertura 53.5% (6+:  4.1%)  coppie  0.4%  parole  2094  simboli  45   362s
+latino     20 fusioni, cifrario verboso                         punteggio -2.997  copertura 53.7% (6+:  7.4%)  coppie  0.2%  parole  1129  simboli  31    73s
+italiano   20 fusioni, controllo positivo                       punteggio -1.581  copertura 77.2% (6+: 49.5%)  coppie 40.0%  parole  2497  chiave 100.0%  simboli  45   287s
+italiano   20 fusioni, controllo negativo                       punteggio -3.435  copertura 28.4% (6+:  1.9%)  coppie  0.2%  parole   746  simboli  45   313s
+italiano   20 fusioni, Voynich                                  punteggio -3.660  copertura 15.0% (6+:  0.6%)  coppie  0.5%  parole   565  simboli  45   348s
+italiano   30 fusioni, controllo positivo                       punteggio -1.567  copertura 77.8% (6+: 50.3%)  coppie 40.3%  parole  2242  chiave 100.0%  simboli  55   260s
+italiano   30 fusioni, controllo negativo                       punteggio -3.412  copertura 29.5% (6+:  2.0%)  coppie  0.0%  parole   741  simboli  55   306s
+italiano   30 fusioni, Voynich                                  punteggio -3.633  copertura 18.4% (6+:  0.7%)  coppie  0.0%  parole   647  simboli  55   305s
+latino     30 fusioni, controllo positivo                       punteggio -1.775  copertura 88.2% (6+: 57.8%)  coppie 21.8%  parole  4054  chiave 100.0%  simboli  55   272s
+latino     30 fusioni, controllo negativo                       punteggio -2.952  copertura 54.9% (6+:  7.0%)  coppie  0.1%  parole  2056  simboli  55   299s
+latino     30 fusioni, Voynich                                  punteggio -3.185  copertura 50.5% (6+:  5.6%)  coppie  0.3%  parole  2390  simboli  55   323s
+latino     30 fusioni, cifrario verboso                         punteggio -2.401  copertura 71.0% (6+: 35.2%)  coppie 13.6%  parole  1764  simboli  38    88s
+italiano   40 fusioni, controllo positivo                       punteggio -1.565  copertura 77.8% (6+: 50.5%)  coppie 40.4%  parole  2154  chiave 100.0%  simboli  65   260s
+italiano   40 fusioni, controllo negativo                       punteggio -3.398  copertura 28.5% (6+:  1.8%)  coppie  0.0%  parole   641  simboli  65   298s
+italiano   40 fusioni, Voynich                                  punteggio -3.665  copertura 16.4% (6+:  0.5%)  coppie  0.0%  parole   628  simboli  65   331s
+latino     40 fusioni, controllo positivo                       punteggio -1.774  copertura 88.2% (6+: 57.7%)  coppie 22.0%  parole  3881  chiave 100.0%  simboli  65   274s
+latino     40 fusioni, controllo negativo                       punteggio -2.906  copertura 55.6% (6+:  7.2%)  coppie  0.3%  parole  1882  simboli  65   289s
+latino     40 fusioni, Voynich                                  punteggio -3.195  copertura 44.6% (6+:  4.5%)  coppie  0.3%  parole  1971  simboli  65   347s
+latino     40 fusioni, cifrario verboso                         punteggio -2.313  copertura 73.0% (6+: 39.2%)  coppie 16.5%  parole  1795  simboli  38    99s
+latino     50 fusioni, controllo positivo                       punteggio -1.774  copertura 88.2% (6+: 57.8%)  coppie 21.9%  parole  3805  chiave 100.0%  simboli  74   285s
+latino     50 fusioni, controllo negativo                       punteggio -2.912  copertura 56.0% (6+:  7.5%)  coppie  0.4%  parole  2005  simboli  74   282s
+latino     50 fusioni, Voynich                                  punteggio -3.282  copertura 46.4% (6+:  3.9%)  coppie  0.1%  parole  2291  simboli  74   346s
+latino     50 fusioni, cifrario verboso                         punteggio -2.075  copertura 79.2% (6+: 47.9%)  coppie 17.0%  parole  1780  simboli  42    95s
+italiano   50 fusioni, controllo positivo                       punteggio -1.563  copertura 77.8% (6+: 50.7%)  coppie 40.7%  parole  2100  chiave 100.0%  simboli  74   284s
+italiano   50 fusioni, controllo negativo                       punteggio -3.402  copertura 27.3% (6+:  1.5%)  coppie  1.5%  parole   699  simboli  74   299s
+italiano   50 fusioni, Voynich                                  punteggio -3.678  copertura 17.4% (6+:  0.5%)  coppie  0.5%  parole   619  simboli  74   320s
+italiano   60 fusioni, controllo positivo                       punteggio -1.554  copertura 77.9% (6+: 50.8%)  coppie 41.0%  parole  2048  chiave 100.0%  simboli  84   282s
+italiano   60 fusioni, controllo negativo                       punteggio -3.453  copertura 28.2% (6+:  1.8%)  coppie  0.2%  parole   734  simboli  84   287s
+italiano   60 fusioni, Voynich                                  punteggio -3.676  copertura 17.0% (6+:  0.7%)  coppie  0.0%  parole   641  simboli  84   307s
+latino     60 fusioni, controllo positivo                       punteggio -1.775  copertura 88.4% (6+: 58.2%)  coppie 21.8%  parole  3698  chiave 100.0%  simboli  84   282s
+latino     60 fusioni, controllo negativo                       punteggio -2.989  copertura 53.8% (6+:  6.7%)  coppie  0.1%  parole  2137  simboli  84   281s
+latino     60 fusioni, Voynich                                  punteggio -3.230  copertura 46.3% (6+:  4.0%)  coppie  0.0%  parole  2126  simboli  84   330s
+latino     60 fusioni, cifrario verboso                         punteggio -2.317  copertura 71.2% (6+: 35.2%)  coppie 13.0%  parole  1625  simboli  49   101s
+latino     80 fusioni, controllo positivo                       punteggio -1.773  copertura 88.4% (6+: 58.5%)  coppie 21.5%  parole  3537  chiave 100.0%  simboli 104   282s
+latino     80 fusioni, controllo negativo                       punteggio -2.976  copertura 53.6% (6+:  7.0%)  coppie  0.2%  parole  2084  simboli 104   261s
+latino     80 fusioni, Voynich                                  punteggio -3.321  copertura 46.1% (6+:  4.4%)  coppie  0.2%  parole  2091  simboli 104   291s
+latino     80 fusioni, cifrario verboso                         punteggio -2.748  copertura 62.0% (6+: 23.5%)  coppie  7.3%  parole  1379  simboli  66   222s
+italiano   80 fusioni, controllo positivo                       punteggio -1.542  copertura 78.2% (6+: 50.6%)  coppie 41.2%  parole  1984  chiave 100.0%  simboli 104   267s
+italiano   80 fusioni, controllo negativo                       punteggio -3.439  copertura 29.0% (6+:  1.6%)  coppie  0.2%  parole   725  simboli 104   244s
+italiano   80 fusioni, Voynich                                  punteggio -3.848  copertura 16.9% (6+:  0.4%)  coppie  0.7%  parole   580  simboli 104   451s
+latino     100 fusioni, controllo positivo                      punteggio -1.771  copertura 88.4% (6+: 58.6%)  coppie 21.5%  parole  3436  chiave 100.0%  simboli 123   279s
+latino     100 fusioni, controllo negativo                      punteggio -3.002  copertura 53.7% (6+:  6.8%)  coppie  0.1%  parole  2099  simboli 123   240s
+latino     100 fusioni, Voynich                                 punteggio -3.407  copertura 42.8% (6+:  3.3%)  coppie  0.1%  parole  2090  simboli 123   505s
+latino     100 fusioni, cifrario verboso                        punteggio -2.958  copertura 55.8% (6+: 17.1%)  coppie  4.7%  parole  1219  simboli  85   301s
+italiano   100 fusioni, controllo positivo                      punteggio -1.545  copertura 78.1% (6+: 50.5%)  coppie 41.4%  parole  1948  chiave 100.0%  simboli 123   574s
+italiano   100 fusioni, controllo negativo                      punteggio -3.492  copertura 27.1% (6+:  1.6%)  coppie  0.3%  parole   764  simboli 123   432s
+italiano   100 fusioni, Voynich                                 punteggio -3.873  copertura 16.2% (6+:  0.5%)  coppie  0.8%  parole   577  simboli 123   566s
+latino     150 fusioni, controllo positivo                      punteggio -1.767  copertura 88.4% (6+: 59.0%)  coppie 21.5%  parole  3304  chiave 100.0%  simboli 173   605s
+latino     150 fusioni, controllo negativo                      punteggio -3.111  copertura 52.8% (6+:  6.3%)  coppie  0.2%  parole  2226  simboli 173   453s
+latino     150 fusioni, Voynich                                 punteggio -3.411  copertura 41.6% (6+:  3.0%)  coppie  0.2%  parole  1999  simboli 173   589s
+latino     150 fusioni, cifrario verboso                        punteggio -3.302  copertura 47.2% (6+:  8.3%)  coppie  1.0%  parole  1118  simboli 129   226s
+italiano   150 fusioni, controllo positivo                      punteggio -1.544  copertura 78.0% (6+: 50.5%)  coppie 41.9%  parole  1875  chiave 100.0%  simboli 173   456s
+italiano   150 fusioni, controllo negativo                      punteggio -3.618  copertura 25.8% (6+:  1.8%)  coppie  1.0%  parole   827  simboli 173   520s
+italiano   150 fusioni, Voynich                                 punteggio -4.034  copertura 15.3% (6+:  0.5%)  coppie  0.0%  parole   612  simboli 173   537s
