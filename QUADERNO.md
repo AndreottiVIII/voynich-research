@@ -1604,3 +1604,22 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
     parola.
   - **Conclusione pratica:** la prima parola viene dal vocabolario della pagina; è "nuova" solo
     rispetto alla riga sopra (e88).
+
+## 1/10/2026 — Letteratura sulla riga: che cosa era già noto
+
+- **D'Imperio 1978** (OCR in cache, SHA in FONTI.md), §4.4:
+  - "elementi simili a prefissi" (o e y in EVA) aggiunti davanti a parole che compaiono anche
+    senza. È il segno aggiunto dell'e73, che però lì non è legato alla riga;
+  - le etichette cominciano spesso con *o* e quasi mai con i gallow. L'e89 lo ritrova (o 54%);
+  - la prima riga del primo paragrafo comincia con pochi segni (i gallow). È noto, e l'abbiamo
+    escluso dalle misure.
+- **Currier, la riga come "unità funzionale"** ("Line As A Functional Unit", spesso abbreviato
+  LAAFU). È citato in letteratura, ma **non verificato alla fonte**: i suoi articoli del 1976 non
+  sono nella cache. Nel white paper le proprietà di riga (bordi distinti) vanno attribuite a lui
+  come osservazione qualitativa, con questa riserva.
+- **Che cosa sembra nuovo in questa fase** (da verificare con una ricerca bibliografica prima del
+  white paper):
+  - la chiusura misurata delle giunture all'a capo e il confronto con i versi con sandhi;
+  - l'evitamento e la sequenza fra inizi di righe consecutive;
+  - la prima parola non copiata dalla riga sopra;
+  - il fatto che il legame fra parole sia nella norma delle lingue del mondo.
