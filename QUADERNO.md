@@ -1661,3 +1661,13 @@ Ricerca web dell'1/10. Letto per intero solo Feaster 2021 (SHA in FONTI.md).
   - Né loro né Feaster misurano la **chiusura delle giunture all'a capo** (e74) o la **dipendenza
     fra inizi di righe consecutive** (e82–e84, e88). Per quanto trovato finora sono contributi
     nuovi; la ricerca non è esaustiva, e va detto.
+- **Esplorativo, non preregistrato: l'"effetto prima parola" di Vogt.**
+  - La prima parola di riga è più lunga: 4,74 segni contro 4,43 delle interne e 4,28 della
+    seconda (righe di almeno 4 parole).
+  - Togliendo il segno iniziale alle prime parole che cominciano per y, d, s, o e il cui resto è
+    una parola attestata a metà riga, la media scende a **4,25**.
+  - Il criterio è largo (tocca 1.548 prime parole su 3.162, alcune senza segno aggiunto, come
+    *daiin* → *aiin*), quindi spiega anche più del necessario.
+  - **Lettura:** il segno aggiunto dell'e73 basta a spiegare l'effetto che Vogt non sapeva
+    spiegare.
+  - Il calo della seconda parola (4,28), che Vogt nota anch'esso, resta senza spiegazione.
