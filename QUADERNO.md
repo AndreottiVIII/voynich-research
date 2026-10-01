@@ -1121,3 +1121,23 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
   - Un verso ha lunghezza fissa: dove lo spazio è ridotto dai disegni deve andare a capo a metà,
     e la riga dopo continua il verso, quindi il legame attraversa l'a capo.
   - Una riga elastica si accorcia e resta chiusa.
+
+## 1/10/2026 — e79: verso fisso o riga elastica? (non valido)
+
+- **Metodo.** Preregistrato. Legame attraverso l'a capo dopo righe corte (< 0,75 della mediana di
+  pagina) e dopo righe piene.
+- **Validità fallita.** Il controllo "verso con spazio limitato" dà Δ = −0,09, contro il ≥ 0,3
+  richiesto. **L'esperimento non si legge.**
+- **Causa (difetto di disegno).**
+  - Ho classificato le righe per larghezza **scritta**. Nei versi impaginati in uno spazio
+    stretto, la riga tagliata è piena rispetto al suo spazio e finisce fra le "piene". Le "corte"
+    sono soprattutto i resti dei versi, che sono chiusi.
+  - Inoltre nel Voynich H ci sono solo 101 coppie dopo righe corte. Con l'informazione mutua su
+    tutto l'alfabeto la potenza è troppo bassa: un R di 0,3 non si distinguerebbe da 0.
+- **Numeri solo descrittivi:**
+  - Voynich H: R_corte 0,12 (n 101, z 0,3), R_piene 0,07;
+  - tutto il testo: 0,01 e 0,01.
+- **Se lo si riprende,** servono:
+  - la classificazione per spazio **disponibile**, uguale nel controllo e nel Voynich;
+  - una statistica più potente, come il log-rapporto di verosimiglianza della coppia sotto la
+    tabella delle giunture dentro la riga.
