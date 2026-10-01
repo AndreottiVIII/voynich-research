@@ -1436,3 +1436,28 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
     sono speciali, non lo sono perché sono nomi come le etichette.
   - Il fatto che il primo segno delle etichette somigli a quello delle parole finali è inatteso.
     Lo annoto senza leggerlo.
+
+## 1/10/2026 — Esplorativi sulla prima parola; e90: l'evitamento è comune a tutte le mani
+
+**Esplorativi, non preregistrati.**
+
+- **Etichette consecutive** sulla stessa pagina: S 0,99. Nessun evitamento: è proprio degli
+  inizi di riga del testo.
+- **Prima parola di L+1 e ultima parola di L:** corpi identici 1,04, nessuna relazione. La prima
+  parola non deriva nemmeno dall'ultima parola sopra.
+- Nello stesso controllo, le righe "stessa colonna" usavano un nullo con lo stesso difetto della
+  D-014 (coppie di una parola con se stessa) e i loro rapporti **non valgono**. Lo scrivo per
+  non riusarli.
+
+**e90** (preregistrato). S(1) per mano (variabile $H, attribuzioni di Davis):
+
+| mano | S(1) | z |
+|---|---|---|
+| 1 (lingua A) | **0,36** | −9,8 |
+| 2 (B) | 0,54 | −6,7 |
+| 3 (B, più un po' di A) | 0,70 | −3,8 |
+
+- **Lettura preregistrata: proprietà comune.** Tutte e tre le mani evitano, con intensità
+  decrescente.
+- Non è l'abitudine di un solo scriba: è una regola condivisa del modo di scrivere questo testo
+  (o del procedimento), applicata con più o meno rigore da mani diverse.
