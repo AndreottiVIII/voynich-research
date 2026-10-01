@@ -201,3 +201,13 @@ riassunte nel `DOSSIER_WHITE_PAPER.md`, sezione 3.2; qui cominciano quelle della
 - **Motivo.** La banda è decisa dopo aver visto i dati, come le altre della pagella (e61): vale
   per i confronti futuri, non come prova. Il fattore 2 è lo stesso margine usato per altre bande
   di rapporto.
+
+## D-013 — e78: deriva sui testi corti (1/10/2026)
+
+- **Contesto.** La deriva (V2) è il ricambio a distanza 1 meno quello a distanza 20 blocchi di
+  1.000 parole. I testi sanscriti dell'e78 hanno meno di 21.000 parole e l'esecuzione si è
+  fermata (KeyError).
+- **Scelta.** Per i testi corti si usa la distanza massima disponibile (≤ 20) e la si registra
+  (`V2_distanza`). Il Voynich resta a 20.
+- **Motivo.** È un blocco tecnico, non dipende dai risultati. Con una distanza più corta la deriva
+  è sottostimata, quindi il confronto è prudente per i testi corti.

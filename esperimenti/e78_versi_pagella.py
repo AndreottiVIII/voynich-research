@@ -18,6 +18,17 @@ import e77_versi_sandhi as e77
 from e07_codifiche import pagine_voynich
 
 RISULTATI = os.path.join(QUI, '..', 'risultati')
+
+
+def _validazione_corta(pagine):
+    """D-013: come e49.validazione, ma la deriva usa la distanza massima disponibile (<= 20 blocchi)."""
+    import e49_composizione_giunture as e49
+    parole = [w for p in pagine for r in p for w in r]
+    ric = e49.ricambio(parole)
+    k = max(x for x in ric if x <= 20)
+    prof = e49.posizioni.profilo(e49.blocchi_da_pagine(pagine, e49.DIVIDI))
+    quota = sum(x['quota'] for x in prof['posizioni'].values()) / len(prof['posizioni'])
+    return {'V2_ricambio_k1_meno_k20': ric[1] - ric[k], 'V2_distanza': k, 'V3_R': prof['R'], 'V3_quota_media': quota}
 D = misure.divisore(misure.GLIFI_EVA)
 
 
@@ -34,6 +45,8 @@ def main():
     soglia_ab = e55.distanze(trascrizione.parole(trascrizione.testo_corrente(trascrizione.leggi('ZL'), lingua='A')),
                              trascrizione.parole(trascrizione.testo_corrente(trascrizione.leggi('ZL'), lingua='B')))
     v = e61.scheda(pv, D, voy, soglia_ab)
+    import e49_composizione_giunture as e49
+    e49.validazione = _validazione_corta
     finestre_v = e48.per_finestre(voy)
     vb = bordo(e71.righe_voynich(), 'eva')
     testi = OrderedDict()
