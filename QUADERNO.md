@@ -2390,3 +2390,42 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
   - **Lettura corretta:** l'e114 esclude una lingua **scritta in alfabeto** (dove le terminazioni
     sono desinenze o parole grammaticali). Non esclude un **codice** che renda unità linguistiche con
     parole del Voynich: un codice di questo tipo dà valori dello stesso ordine del Voynich.
+
+## 1/10/2026 — e115: le parole frequenti del Voynich non hanno un ordine preferito
+
+- **Metodo.** Preregistrato (strada 3). Asimmetria di Bowker sulle coppie ordinate dei 40 tipi più
+  frequenti (parole dalla terza alla terzultima, distanza ≥ 2), contro due nulli.
+- **Risultati** (z contro il rimescolamento nella riga; z contro i terzili):
+
+  | testo | z (riga) | z (terzili) |
+  |---|---|---|
+  | Voynich ZL | **0,6** | 0,7 |
+  | Voynich IT | 0,4 | 0,0 |
+  | lingue A e B | ≈ 0 | |
+  | generatori | da −1,7 a 0,3 (un seme 4,1) | |
+  | Bibbie (latina, italiana, tedesca, ungherese, turca) | **6,1–18,4** | da −5,4 a 2,1 |
+  | Ovidio (solo 1 coppia, non informativo) | | |
+
+- **Validità del secondo nullo.** Quello per terzili fa sparire l'ordine anche nelle lingue: per la
+  regola preregistrata **quella parte della misura non vale**. Conta il confronto con il primo
+  nullo, dove le lingue sono chiaramente positive.
+- **Controllo esplorativo, dopo l'esecuzione:**
+
+  | testo | z (riga) | z (terzili) |
+  |---|---|---|
+  | *Macer* sillabe in chiaro | 44,7 | 11,1 |
+  | *Macer* cifrato e104, μ 0 | 44,7 | 11,1 |
+  | *Macer* cifrato e104, **μ 0,6** | **21,7** | 4,9 |
+
+  - A differenza delle terminazioni (e114), l'ordine delle parole frequenti **si conserva in un
+    codice**, anche con varianti di grafia.
+- **Lettura. Risultato forte.**
+  - Nel Voynich le parole frequenti (*daiin*, *chedy*, *ol*, *qokeedy*…) non hanno alcun ordine
+    relativo preferito. Nelle lingue sì (z 6–18) e nei codici di una lingua pure (z 22–45).
+  - Questo va contro un testo linguistico **cifrato parola per parola o sillaba per sillaba**,
+    anche con grafia variabile: la sintassi lascerebbe un ordine fra le unità frequenti.
+  - Il Voynich si comporta come i generatori senza messaggio.
+  - **Resta aperto:**
+    - un sistema in cui le parole frequenti sono nulle o riempitivi mescolati al testo vero;
+    - un sistema in cui il messaggio non sta nell'ordine delle parole (per esempio nelle iniziali
+      di riga, idea dell'acrostico).
