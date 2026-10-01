@@ -1,0 +1,15 @@
+iniziali del Voynich: 212 righe-pagina, 11 simboli, lunghezza 3210
+iniziali del Voynich                     lungh  3210 simboli 11 | h1 3.03 h2 2.91 (h2/h1 0.96) | IM1 0.077 (z 14.6) IM2 0.021 (z 4.3) | S1 0.62 S2 1.14
+lettere latine                           lungh  3210 simboli 23 | h1 3.97 h2 3.33 (h2/h1 0.84) | IM1 0.532 (z 79.1) IM2 0.304 (z 42.9) | S1 0.40 S2 0.88
+lettere italiane                         lungh  3210 simboli 21 | h1 3.97 h2 3.28 (h2/h1 0.83) | IM1 0.575 (z 83.1) IM2 0.199 (z 27.1) | S1 0.59 S2 1.17
+acrostico latino cifrato (11 simboli)    lungh  3210 simboli 11 | h1 3.33 h2 2.93 (h2/h1 0.88) | IM1 0.371 (z 105.0) IM2 0.173 (z 43.3) | S1 0.46 S2 0.96
+iniziali di Timm e Schinner              lungh  3618 simboli 13 | h1 3.17 h2 3.08 (h2/h1 0.97) | IM1 0.021 (z 4.0) IM2 0.013 (z 2.4) | S1 1.05 S2 1.02
+latino     controllo positivo   punteggio -2.530 copertura 61.6% (6+: 12.5%) chiave giusta 79%
+latino     controllo negativo   punteggio -3.170 copertura 51.2% (6+: 4.2%) 
+latino     Voynich              punteggio -3.347 copertura 37.3% (6+: 1.4%) 
+   posizione del Voynich -0.28 | decifrato: iiiissiieuiiussiuesasi / siiateun / eiuitseu
+italiano   controllo positivo   punteggio -3.192 copertura 36.4% (6+: 10.0%) chiave giusta 80%
+italiano   controllo negativo   punteggio -3.428 copertura 29.1% (6+: 1.7%) 
+italiano   Voynich              punteggio -4.189 copertura 13.2% (6+: 1.4%) 
+   posizione del Voynich -3.23 | decifrato: oooottiiaeiiettieateti / tiienaer / aoeintae
+controllo valido: True | acrostico non escluso: False
