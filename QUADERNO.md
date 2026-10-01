@@ -2083,3 +2083,38 @@ rimescolamento delle righe:
   - È il comportamento di chi, cominciando una riga, guarda l'inizio di quella sopra (la colonna
     sinistra) e sceglie diverso: un'abitudine di impaginazione o una regola di procedimento, non
     una dipendenza di contenuto.
+
+## 1/10/2026 — e104: sillabe con grafia variabile, la prima cifratura vicina sul vocabolario
+
+- **Metodo.** Preregistrato. *Macer* in versi; ogni sillaba ha una parola di base del Voynich e
+  ogni occorrenza riceve k ~ Poisson(μ) varianti (`Modifiche` stimate sul Voynich).
+- **Risultati** (medie su tre semi):
+
+  | μ | pagella | h2 | tipi | uniche | ripetizione | omogeneità | legame |
+  |---|---|---|---|---|---|---|---|
+  | 0,3 | 5/18 | 2,13 | 0,111 | 0,56 | 1,02 | −0,001 | 0,008 |
+  | **0,6** | **7/18** | **2,28** | 0,156 | **0,60** | **0,94** | −0,001 | 0,005 |
+  | 1,0 | 5/18 | 2,44 | **0,209** | **0,64** | **0,99** | −0,000 | 0,004 |
+  | 1,5 | 2/18 | 2,60 | 0,264 | 0,67 | 1,00 | −0,000 | 0,003 |
+  | *Voynich* | | *2,24* | *0,210* | *0,68* | *1,01* | *0,038* | *0,19* |
+
+  - Con μ = 0,6 riproduce in banda: h2, spazio, parole uniche, ripetizione, curva piatta, Zipf,
+    forma delle parole.
+- **Criterio preregistrato non raggiunto:** la somiglianza nella riga resta a 0 per ogni μ.
+- **Lettura.**
+  1. È la **prima cifratura di un testo vero** che riproduce insieme tre delle quattro anomalie
+     forti dell'e13 (h2 bassa, spazio prevedibile, ripetizione ×1), più la quantità e la
+     distribuzione delle parole. Un **sistema sillabico con grafia variabile** spiega molto del
+     vocabolario del Voynich.
+  2. **Mancano:**
+     - la somiglianza fra parole vicine. Le sillabe si ripetono uniformemente nel testo, non per
+       argomento, quindi le varianti della stessa sillaba non si addensano nella riga e nella
+       pagina;
+     - il legame fra parole e la chiusura della riga (legame quasi nullo).
+  3. **Che cosa servirebbe per chiudere:**
+     - una grafia che varia **localmente**: lo scriba riprende la grafia usata poco prima per la
+       stessa sillaba, o per sillabe simili, cioè copia dalla memoria recente come nel procedimento
+       ad autocitazione;
+     - giunture fra sillabe consecutive (sandhi o fonotassi scritte).
+  - È un'ipotesi ibrida concreta: testo vero in sillabe, scritto con varianti che lo scriba
+    riprende da ciò che ha appena scritto. Da provare (e108).
