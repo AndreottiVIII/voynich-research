@@ -2233,3 +2233,42 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
   avvicina una sostituzione omofonica di latino, italiano o ebraico. L'ipotesi "ogni segno vale una
   lettera, più segni la stessa lettera" resta esclusa anche sul testo ripulito.
 - **Nota.** L'esecuzione aveva per errore `LINGUE_SOLO=x` nell'ambiente; l'e107 non la usa.
+
+## 1/10/2026 — e110: niente copia a catena nel Voynich, sempre nei generatori
+
+- **Metodo.** Preregistrato. A = somiglianza fra parole interne a distanza 2 / a distanza 1;
+  nullo: parole rimescolate dentro la riga.
+- **Risultati:**
+
+  | testo | A | z |
+  |---|---|---|
+  | Voynich ZL | 1,044 | 5,3 |
+  | Voynich IT | 1,052 | 5,5 |
+  | lingua B | 1,052 | 5,0 |
+  | **lingua A** | **1,020** | **0,9** |
+  | mano 1 | 1,025 | 1,2 |
+  | mano 2 | 1,093 | 5,8 |
+  | mano 3 | 1,023 | 1,7 |
+  | Timm e Schinner (3 semi) | 0,87–0,89 | da −11 a −13 |
+  | con giunture | 0,889 | −11 |
+  | e51 | 0,900 | −10 |
+  | base dell'e106 (3 semi) | 0,81–0,86 | da −14 a −20 |
+  | Bibbie (latina, italiana, inglese, tedesca) | 1,035 / 0,986 / 1,046 / 1,017 | |
+  | Ovidio | 1,014 | |
+  | *Macer* | 0,969 | |
+  | Plinio | 1,002 | |
+
+- **Criteri preregistrati:**
+  - "alternanza confermata": **no**, perché nella lingua A non è significativa;
+  - "tutti i generatori sotto 1": **sì**, nettamente.
+- **Lettura.**
+  - Il Voynich, in ogni sottoinsieme (trascrizioni, lingue, mani), sta fra 1,02 e 1,09, cioè
+    **nella gamma delle lingue vere** (0,97–1,05).
+  - Tutti i generatori ad autocitazione, incluso il migliore (13/18), stanno fra 0,80 e 0,90: la
+    loro parola più simile è quella appena scritta, perché copiano a catena.
+  - L'alternanza vera e propria (sopra 1) è solida solo nella lingua B. Il fatto più importante è
+    però un altro: **il Voynich non ha la firma della copia a catena**, che tutti i procedimenti ad
+    autocitazione provati hanno.
+  - È la seconda proprietà, dopo l'evitamento fra inizi di riga, che va **contro** l'ipotesi senza
+    messaggio nella forma "autocitazione", e verso una sequenza di parole organizzata come in una
+    lingua.
