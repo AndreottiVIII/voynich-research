@@ -1,0 +1,51 @@
+{
+ "etichette_per_segno": [
+  30,
+  30,
+  30,
+  29,
+  30,
+  30,
+  30,
+  30,
+  30,
+  30
+ ],
+ "controllo positivo, somiglianza": {
+  "delta": 0.03198280995997432,
+  "nullo": 0.00020405522599728542,
+  "z": 7.869005305405697,
+  "p": 0.001996007984031936,
+  "permutazioni": 500
+ },
+ "somiglianza, indice fisso": {
+  "delta": 0.005134565302397365,
+  "nullo": 0.00036336769963608715,
+  "z": 1.1159575630296845,
+  "p": 0.13972055888223553,
+  "permutazioni": 500
+ },
+ "primo segno, indice fisso": {
+  "delta": -0.0032446147101231615,
+  "nullo": 4.9916307955713225e-05,
+  "z": -0.4883305441788514,
+  "p": 0.7065868263473054,
+  "permutazioni": 500
+ },
+ "somiglianza, allineamento libero": {
+  "delta": 0.0259185137741742,
+  "nullo": 0.027506671622809894,
+  "z": -0.6409821023547316,
+  "p": 0.7425742574257426,
+  "permutazioni": 100
+ },
+ "primo segno, allineamento libero": {
+  "delta": 0.06493632182709841,
+  "nullo": 0.06176752089759233,
+  "z": 0.578260019709973,
+  "p": 0.26732673267326734,
+  "permutazioni": 100
+ },
+ "valido": true,
+ "corrispondenza": false
+}
