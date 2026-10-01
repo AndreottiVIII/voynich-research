@@ -2214,3 +2214,22 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
   L'ipotesi senza messaggio, nella forma "autocitazione", non tiene tutto insieme.
 - **Ancora da fare:** e110 (conferma preregistrata dell'alternanza); e107 (trascrizione ripulita
   nei risolutori), che stava girando in sottofondo e va registrato quando finisce.
+
+## 1/10/2026 — e107: la trascrizione ripulita non si lascia leggere
+
+- **Metodo.** Preregistrato (tentativo 2). Tolti 609 gallow d'inizio paragrafo e 1.671 segni aggiunti
+  a inizio riga; fusione leggera (sh→ch, p→t, f→k) o forte. Risolutore dell'e17 con latino,
+  italiano ed ebraico.
+- **Risultati** (posizione del Voynich fra controllo negativo 0 e positivo 1):
+
+  | lingua | ripulita, fusione leggera | ripulita, fusione forte | gruppi | e17 originale (EVA / gruppi) |
+  |---|---|---|---|---|
+  | latino | −0,06 | −0,04 | −0,22 | −0,03 / −0,19 |
+  | italiano | 0,18 | 0,20 | −0,06 | 0,16 / −0,14 |
+  | ebraico | 0,42 | 0,28 | 0,05 | 0,42 / 0,15 |
+
+  - Copertura con parole di almeno 6 lettere ≤ 9,7%; nel controllo positivo è 17–57%.
+- **Previsione confermata: nessun miglioramento rilevante.** Togliere le convenzioni grafiche non
+  avvicina una sostituzione omofonica di latino, italiano o ebraico. L'ipotesi "ogni segno vale una
+  lettera, più segni la stessa lettera" resta esclusa anche sul testo ripulito.
+- **Nota.** L'esecuzione aveva per errore `LINGUE_SOLO=x` nell'ambiente; l'e107 non la usa.

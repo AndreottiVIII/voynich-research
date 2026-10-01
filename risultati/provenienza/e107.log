@@ -1,0 +1,57 @@
+tolti: {'gallow di paragrafo': 609, 'segno aggiunto': 1671}
+Voynich, segni EVA, pulizia + fusione leggera             simboli  23  lunghezza 153043  righe  4224
+Voynich, segni EVA, pulizia + fusione forte               simboli  18  lunghezza 153043  righe  4224
+Voynich, gruppi (50 fusioni), pulizia + fusione leggera   simboli  71  lunghezza  73138  righe  4135
+italiano   tetto (testo in chiaro)                              punteggio -1.572  copertura 76.5% (6+: 49.3%)  coppie 38.6%  parole  3288  simboli   0     0s
+ebraico    tetto (testo in chiaro)                              punteggio -2.248  copertura 74.5% (6+: 17.8%)  coppie 22.5%  parole  6137  simboli   0     0s
+latino     tetto (testo in chiaro)                              punteggio -1.795  copertura 87.6% (6+: 57.2%)  coppie 21.5%  parole  5808  simboli   0     0s
+italiano   segni EVA, pulizia + fusione leggera, controllo positivo punteggio -1.572  copertura 76.5% (6+: 49.3%)  coppie 38.6%  parole  3288  chiave 100.0%  simboli  23   341s
+italiano   segni EVA, pulizia + fusione leggera, controllo negativo punteggio -3.481  copertura 27.6% (6+:  1.5%)  coppie  0.3%  parole   701  simboli  23   519s
+italiano   segni EVA, pulizia + fusione leggera, Voynich        punteggio -3.137  copertura 24.2% (6+:  1.6%)  coppie  0.3%  parole   376  simboli  23   181s
+latino     segni EVA, pulizia + fusione leggera, controllo positivo punteggio -1.795  copertura 87.6% (6+: 57.2%)  coppie 21.5%  parole  5808  chiave 100.0%  simboli  23   311s
+latino     segni EVA, pulizia + fusione leggera, controllo negativo punteggio -2.907  copertura 55.9% (6+:  7.4%)  coppie  0.3%  parole  1983  simboli  23   523s
+latino     segni EVA, pulizia + fusione leggera, Voynich        punteggio -2.970  copertura 57.1% (6+:  7.3%)  coppie  0.3%  parole  1192  simboli  23   182s
+ebraico    segni EVA, pulizia + fusione leggera, controllo positivo punteggio -2.382  copertura 71.3% (6+: 16.9%)  coppie 22.4%  parole  5722  chiave 100.0%  simboli  23   407s
+ebraico    segni EVA, pulizia + fusione leggera, controllo negativo punteggio -3.541  copertura 35.4% (6+:  0.6%)  coppie  0.2%  parole  1246  simboli  23   570s
+ebraico    segni EVA, pulizia + fusione leggera, Voynich        punteggio -3.053  copertura 52.9% (6+:  1.6%)  coppie  0.1%  parole   705  simboli  23   184s
+italiano   segni EVA, pulizia + fusione forte, controllo positivo punteggio -1.887  copertura 66.7% (6+: 39.3%)  coppie 36.1%  parole  2853  chiave  96.8%  simboli  18   241s
+italiano   segni EVA, pulizia + fusione forte, controllo negativo punteggio -3.589  copertura 24.5% (6+:  1.5%)  coppie  0.4%  parole   671  simboli  18   215s
+italiano   segni EVA, pulizia + fusione forte, Voynich          punteggio -3.244  copertura 21.6% (6+:  0.9%)  coppie  0.0%  parole   211  simboli  18   111s
+latino     segni EVA, pulizia + fusione forte, controllo positivo punteggio -2.040  copertura 81.1% (6+: 43.4%)  coppie 16.3%  parole  5149  chiave  96.0%  simboli  18   285s
+latino     segni EVA, pulizia + fusione forte, controllo negativo punteggio -2.872  copertura 56.4% (6+:  7.8%)  coppie  0.3%  parole  1592  simboli  18   217s
+latino     segni EVA, pulizia + fusione forte, Voynich          punteggio -2.910  copertura 56.8% (6+:  9.7%)  coppie  0.0%  parole   977  simboli  18   111s
+ebraico    segni EVA, pulizia + fusione forte, controllo positivo punteggio -2.576  copertura 64.6% (6+: 13.7%)  coppie 17.9%  parole  4402  chiave  93.0%  simboli  18   403s
+ebraico    segni EVA, pulizia + fusione forte, controllo negativo punteggio -3.476  copertura 45.5% (6+:  1.9%)  coppie  0.0%  parole  1005  simboli  18   211s
+ebraico    segni EVA, pulizia + fusione forte, Voynich          punteggio -3.225  copertura 49.6% (6+:  1.5%)  coppie  0.7%  parole   626  simboli  18   108s
+italiano   gruppi (50 fusioni), pulizia + fusione leggera, controllo positivo punteggio -1.543  copertura 78.2% (6+: 50.7%)  coppie 41.1%  parole  2037  chiave 100.0%  simboli  71   471s
+italiano   gruppi (50 fusioni), pulizia + fusione leggera, controllo negativo punteggio -3.468  copertura 28.1% (6+:  1.7%)  coppie  0.0%  parole   789  simboli  71   446s
+italiano   gruppi (50 fusioni), pulizia + fusione leggera, Voynich punteggio -3.590  copertura 15.0% (6+:  0.5%)  coppie  0.0%  parole   507  simboli  71   437s
+latino     gruppi (50 fusioni), pulizia + fusione leggera, controllo positivo punteggio -1.772  copertura 88.4% (6+: 58.2%)  coppie 21.7%  parole  3669  chiave 100.0%  simboli  71   487s
+latino     gruppi (50 fusioni), pulizia + fusione leggera, controllo negativo punteggio -2.955  copertura 54.7% (6+:  7.0%)  coppie  0.4%  parole  1980  simboli  71   436s
+latino     gruppi (50 fusioni), pulizia + fusione leggera, Voynich punteggio -3.211  copertura 48.1% (6+:  6.2%)  coppie  0.2%  parole  2024  simboli  71   434s
+ebraico    gruppi (50 fusioni), pulizia + fusione leggera, controllo positivo punteggio -2.263  copertura 72.9% (6+: 15.2%)  coppie 22.4%  parole  3909  chiave  99.4%  simboli  71   525s
+ebraico    gruppi (50 fusioni), pulizia + fusione leggera, controllo negativo punteggio -3.600  copertura 37.8% (6+:  0.9%)  coppie  0.0%  parole  1788  simboli  71   375s
+ebraico    gruppi (50 fusioni), pulizia + fusione leggera, Voynich punteggio -3.527  copertura 33.0% (6+:  0.6%)  coppie  0.2%  parole  1788  simboli  71   350s
+# e107 — La trascrizione ripulita nel risolutore
+
+Posizione del Voynich fra controllo negativo (0) e positivo (1); copertura a 6+ lettere. Tolti: {'gallow di paragrafo': 609, 'segno aggiunto': 1671}. Preregistrazione: `preregistrazioni/e107.md`.
+
+| lingua | modo | posizione (punteggio) | posizione (copertura) | copertura 6+ del Voynich |
+|---|---|---|---|---|
+| latino | segni EVA, pulizia + fusione leggera | -0.06 | 0.04 | 7.3% |
+| latino | segni EVA, pulizia + fusione forte | -0.04 | 0.01 | 9.7% |
+| latino | gruppi (50 fusioni), pulizia + fusione leggera | -0.22 | -0.20 | 6.2% |
+| latino | segni EVA (e17, non ripulita) | -0.03 | -0.01 | 8.6% |
+| latino | gruppi (50 fusioni) (e17, non ripulita) | -0.19 | -0.15 | 5.3% |
+| italiano | segni EVA, pulizia + fusione leggera | 0.18 | -0.07 | 1.6% |
+| italiano | segni EVA, pulizia + fusione forte | 0.20 | -0.07 | 0.9% |
+| italiano | gruppi (50 fusioni), pulizia + fusione leggera | -0.06 | -0.26 | 0.5% |
+| italiano | segni EVA (e17, non ripulita) | 0.16 | -0.05 | 1.8% |
+| italiano | gruppi (50 fusioni) (e17, non ripulita) | -0.14 | -0.25 | 0.5% |
+| ebraico | segni EVA, pulizia + fusione leggera | 0.42 | 0.49 | 1.6% |
+| ebraico | segni EVA, pulizia + fusione forte | 0.28 | 0.22 | 1.5% |
+| ebraico | gruppi (50 fusioni), pulizia + fusione leggera | 0.05 | -0.14 | 0.6% |
+| ebraico | segni EVA (e17, non ripulita) | 0.42 | 0.40 | 3.2% |
+| ebraico | gruppi (50 fusioni) (e17, non ripulita) | 0.15 | -0.02 | 0.6% |
+
+Miglioramento rilevante: **no**.
