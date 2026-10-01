@@ -1362,3 +1362,18 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
   la regola delle giunture dovrebbe valere **in verticale**: la fine della prima parola di una
   riga decide l'inizio della prima parola della riga sotto, con la stessa tabella delle giunture
   dentro la riga.
+
+## 1/10/2026 — e87: niente giunture verticali nella colonna delle prime parole
+
+- **Metodo.** Preregistrato. Le coppie verticali (ultimo segno della prima parola di L → primo
+  segno della prima parola di L+1) sono valutate sotto il modello delle giunture dentro la riga.
+- **Validità:**
+  - controllo positivo (colonna = testo continuo): R 0,73 (z 31) (✓);
+  - controllo negativo: R 0,02 (✓).
+- **Voynich:** R **−0,02** (z −0,7); A −0,12; B 0,01. Seconda parola ≈ 0.
+- **Generatore:** R 0,27 (z 3,8), un legame verticale debole che il Voynich non ha.
+- **Lettura.** La colonna delle prime parole **non** è una sequenza con giunture. L'evitamento fra
+  inizi di riga non viene dalla regola delle giunture applicata in verticale.
+- **Prossima prova (e88).** "Copia e cambia l'inizio": la prima parola di una riga è una copia
+  della prima parola sopra con l'inizio cambiato? Allora i corpi (la parola senza il primo segno)
+  dovrebbero somigliarsi più del caso.
