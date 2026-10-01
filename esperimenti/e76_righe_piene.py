@@ -72,7 +72,8 @@ def una(nome, righe, dividi):
     r = riempimento(righe, dividi)
     rnd = random.Random(SEME)
     dentro, a_capo = e74.coppie(righe, dividi)
-    x, y = e74.eccesso(dentro, rnd), e74.eccesso(a_capo, rnd)
+    y = e74.eccesso(dentro, rnd)   # dentro la riga
+    x = e74.eccesso(a_capo, rnd)   # attraverso l'a capo
     r['dentro'] = y
     r['a_capo'] = x
     r['R'] = x['eccesso'] / y['eccesso'] if y['eccesso'] > 0 else None
