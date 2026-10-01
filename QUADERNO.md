@@ -2315,3 +2315,30 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
   imposta come **prova di fattibilità**: il risolutore a sillabe si prova prima sul controllo
   cifrato. Se non lo legge, nemmeno un Voynich di quel tipo sarebbe decifrabile per via statistica
   con questa quantità di testo.
+
+## 1/10/2026 — e113: non è una lingua monosillabica (vietnamita, cinese)
+
+- **Metodo.** Preregistrato (strada 1). Misure "a sillabe" dell'e111 su vietnamita, cinese (pinyin
+  con e senza toni, caratteri), sillabe latine e italiane, contro il Voynich a N0, N1, N2.
+- **Risultati:**
+
+  | flusso | classi | classi uniche | ripetizione rispetto alla riga | compatibilità |
+  |---|---|---|---|---|
+  | vietnamita | 1.555 | 0,24 | 0,23 | 3/6 (h1, h2, Zipf) |
+  | pinyin con toni | 783 | | 0,32 | 2/6 |
+  | pinyin senza toni | 357 | | 0,42 | 2/6 |
+  | cinese in caratteri | 1.443 | | 0,29 | 3/6 |
+  | sillabe latine | 1.157 | | 0,16 | 2/6 |
+  | sillabe italiane | 953 | | 0,28 | 2/6 |
+  | **Voynich** | **4.782–6.293** | **0,65–0,68** | **≈ 1,00** | |
+
+- **Previsione in parte smentita:** le monosillabiche non sono più vicine delle sillabe latine.
+  Nessun flusso è "vicino" (≥ 5/6).
+- **Lettura.**
+  - Il Voynich ha **3–4 volte più forme distinte** di qualunque inventario di sillabe, anche con i
+    toni.
+  - Ha **ripetizioni immediate da 2,5 a 6 volte** più frequenti, anche rispetto a lingue con
+    reduplicazione.
+  - L'ipotesi "lingua monosillabica" (Stolfi), nella forma "una parola = una sillaba di una lingua
+    nota", non regge.
+  - Resta solo la variante con grafia variabile (e104), che però ha i limiti dell'e111.
