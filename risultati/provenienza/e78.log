@@ -1,0 +1,6 @@
+Manusmṛti, un mezzo verso per riga       4/17 | ·h2 ·spazio ·uniche ·tipi ·ripetizione ·omogeneità ·gradiente ·legame ✓unioni ✓curva piatta ✓deriva ·profilo pagina ·lunghezze vicine ·Zipf ✓verticale ·formule ·bordo di riga
+    h2 3.40 (V 2.24) spazio 0.23 (0.66) uniche 0.79 (0.68 @20000) tipi 0.504 (0.210) rip 0.42 (1.01) omog 0.015/0.004 (0.038/0.034) legame 0.780 (0.188) unioni 1.74 bordo 22.2/147.5 (23.3/55.5)
+Raghuvaṃśa, un mezzo verso per riga      1/17 | ·h2 ·spazio ·uniche ·tipi ·ripetizione ·omogeneità ·gradiente ·legame ·unioni ✓curva piatta ·deriva ·profilo pagina ·lunghezze vicine ·Zipf ·verticale ·formule ·bordo di riga
+    h2 3.47 (V 2.24) spazio 0.21 (0.66) uniche 0.88 (0.69 @10000) tipi 0.668 (0.210) rip 0.75 (1.01) omog 0.003/0.001 (0.038/0.034) legame 0.825 (0.188) unioni 5.41 bordo 8.7/96.5 (23.3/55.5)
+Plinio, a capo (controllo)               1/17 | ·h2 ·spazio ✓uniche ·tipi ·ripetizione ·omogeneità ·gradiente ·legame ·unioni ·curva piatta ·deriva ·profilo pagina ·lunghezze vicine ·Zipf ·verticale ·formule ·bordo di riga
+    h2 3.36 (V 2.24) spazio 0.16 (0.66) uniche 0.65 (0.68 @34000) tipi 0.312 (0.210) rip 0.12 (1.01) omog -0.001/0.001 (0.038/0.034) legame 0.024 (0.188) unioni 0.89 bordo 4.1/1.1 (23.3/55.5)

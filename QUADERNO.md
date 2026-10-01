@@ -1092,3 +1092,32 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
 - **Prossimo passo (e78).** Misurare i versi con sandhi su tutta l'impronta: ripetizioni,
   somiglianza fra righe, omogeneità di pagina, h2, parole uniche, unioni. Così si vede dove
   questa possibilità regge e dove cade.
+
+## 1/10/2026 — e78: i versi con sandhi sulla pagella
+
+- **Metodo.** Preregistrato. Deviazione tecnica D-013: la deriva è misurata alla distanza
+  massima disponibile, perché i testi sono corti.
+- **Risultati:**
+
+  | testo | proprietà riprodotte |
+  |---|---|
+  | Manusmṛti | 4/17 (unioni, curva piatta, deriva, verticale) |
+  | Raghuvaṃśa | 1/17 |
+  | Plinio (controllo) | 1/17 |
+
+  - **Dove falliscono:**
+    - h2 3,40–3,47 (Voynich 2,24);
+    - tipi su parole 0,50–0,67 (0,21);
+    - omogeneità di pagina 0,003–0,015 (0,038);
+    - legame in eccesso (0,78–0,83 contro 0,19);
+    - bordo finale troppo forte nella Manusmṛti (148 contro 55).
+  - **Ripetizione:** 0,42 e 0,75, più alta di Plinio (0,12) ma sotto il Voynich (1,01).
+- **Lettura** (come previsto). Il verso con sandhi spiega le proprietà di riga ma non il resto
+  dell'impronta, che resta lontana come per ogni lingua naturale scritta in alfabeto. Restano:
+  - un testo in versi molto ripetitivo e codificato (abbreviazioni, sillabe) che abbassi h2 e i
+    tipi;
+  - oppure il procedimento senza messaggio.
+- **Prossima prova (e79).** Distinguere fra "verso" e "riga elastica".
+  - Un verso ha lunghezza fissa: dove lo spazio è ridotto dai disegni deve andare a capo a metà,
+    e la riga dopo continua il verso, quindi il legame attraversa l'a capo.
+  - Una riga elastica si accorcia e resta chiusa.
