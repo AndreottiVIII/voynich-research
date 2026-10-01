@@ -1238,3 +1238,52 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
   numerato o marcato (segni che cambiano da una voce all'altra) o di una convenzione di
   impaginazione. Un'abitudine casuale non la produce, e nessun generatore provato la ha. È stata
   trovata esplorando: prima di darle peso servono verifiche preregistrate (e83).
+
+## 1/10/2026 — e83: l'evitamento fra inizi di riga è confermato
+
+- **Metodo.** Preregistrato. S(k) = quota di righe a distanza k (stesso paragrafo) con lo stesso
+  primo segno, divisa per l'attesa con 500 rimescolamenti.
+  - Con questo nullo S(1) del ZL è 0,52, contro lo 0,43 esplorativo dell'e82, che usava un
+    insieme di coppie un po' diverso.
+- **Criterio di conferma** (S(1) < 0,7 con z < −4 nelle tre trascrizioni e nelle due lingue):
+  **confermato.**
+
+  | prova | S(1) | z |
+  |---|---|---|
+  | ZL | 0,52 | −11,8 |
+  | IT | 0,52 | −11,4 |
+  | GC (altro alfabeto) | 0,50 | −12,3 |
+  | lingua A | **0,36** | −10,0 |
+  | lingua B | 0,62 | −7,5 |
+
+- **Sezioni** (descrittivo):
+
+  | sezione | S(1) |
+  |---|---|
+  | erbario | **0,38** |
+  | biologia | 0,51 |
+  | altre | 0,56 |
+  | ricette | 0,71 (z −3,3) |
+
+- **Forma:**
+  - S(2) = 1,196 (z +4,3), proprio al confine di 1,2 tra "alternanza" e "solo evitamento". Per la
+    regola dichiarata è solo evitamento della ripetizione immediata, con una tendenza
+    all'alternanza ABAB;
+  - S(3) = 1,05: a distanza 3 l'effetto sparisce.
+- **Senza il segno aggiunto:** S(1) = 0,71 (z −6,7). L'evitamento sta in gran parte nel segno
+  aggiunto, ma non tutto.
+- **Parola intera:** S(1) = 0,59 (z −2,1, poche coppie).
+- **Lettura.**
+  - **Due righe consecutive evitano di cominciare con lo stesso segno.** L'effetto riguarda solo la
+    prima parola, non dipende dalla trascrizione, è più forte nella lingua A e nell'erbario, e
+    nessun generatore provato lo produce.
+  - Ipotesi in campo:
+    1. **segni di voce o di numerazione** (ipotesi 1): un elenco con marcatori che cambiano da una
+       riga all'altra;
+    2. **scelta visiva dello scriba**, che evita di incolonnare lo stesso segno sul margine
+       sinistro. Vale sia per un testo vero sia per uno inventato;
+    3. **regola di un procedimento** che deriva l'inizio di riga da quello sopra, cambiandolo.
+  - **Prossima prova (e84):** la struttura fuori dalla diagonale. Se, a parte l'evitare lo stesso
+    segno, certi passaggi sono preferiti e in modo asimmetrico (X → Y sì, Y → X no), è una
+    sequenza (numerazione, ordine). Se resta solo l'evitamento, simmetrico, è più probabilmente
+    una scelta visiva.
