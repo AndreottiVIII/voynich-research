@@ -2576,3 +2576,24 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
   - La somiglianza fra righe è diffusa (parole varianti sparse), non a formula.
   - È un altro punto in cui il Voynich si comporta come un procedimento di copia locale e non come
     un testo di genere.
+
+## 1/10/2026 — e112: il primo risolutore a sillabe degenera (non valido)
+
+- **Metodo.** Preregistrato (passo 3, prova di fattibilità sul controllo).
+- **Risultati:**
+
+  | prova | accuratezza | copertura 6+ |
+  |---|---|---|
+  | μ 0 | 0,033 | 0,38 |
+  | μ 0,3 | 0,022 | 0,39 |
+  | μ 0,6 | 0,022 | 0,45 |
+  | negativo: rimescolato | | 0,44 |
+  | negativo: generatore | | 0,41 |
+  | tetto (*Macer* in chiaro) | | 0,535 |
+
+- **Risolutore valido: no.** La chiave degenera: quasi tutti i simboli finiscono su "re" e "de"
+  ("re de re re de…"). Ripetere sillabe frequenti alza la probabilità del modello, e la copertura
+  sale per artefatto ("rede", "dere" sembrano pezzi di parole latine): i controlli negativi arrivano
+  al 41–44%.
+- **Lettura** (come da regola): nessuna conclusione sulla fattibilità. Corretto nell'e112b con il
+  termine di entropia dell'e17, più una diagnosi a modello barato. È in corso.

@@ -1,0 +1,23 @@
+modello: 2798 sillabe nel vocabolario, 539822 unita'; lessico 41223 parole
+tetto: copertura4 0.800 copertura6 0.535
+cifrato, mu 0.0                simboli  1245 | punteggio -3.658 | accuratezza 0.033 | copertura4 0.827 copertura6 0.384
+     in de re se re de re re de de re de re
+     in de re re re de re de re de se re re
+     de re re ce re fer re re re re re re de re
+cifrato, mu 0.3                simboli  3345 | punteggio -3.658 | accuratezza 0.022 | copertura4 0.871 copertura6 0.392
+     in de re se re fer de re cur re re de re
+     in de re de re de re de re re ce re de
+     re pa ra re re se re re de de ce re fer re
+cifrato, mu 0.6                simboli  4732 | punteggio -3.620 | accuratezza 0.022 | copertura4 0.905 copertura6 0.446
+     de se re re re re re re de de re re re
+     qua re qui re re mo re re re re in o re
+     re re re se re re re re re se re re fer re
+negativo: mu 0.6 rimescolato   simboli  4732 | punteggio -3.665 | accuratezza - | copertura4 0.944 copertura6 0.441
+     re re cur re re re re re re se re re re
+     re re re vi de re cur re re re re re rum
+     re re re fer re pa re re de cur re re re rum
+negativo: Timm e Schinner      simboli  4602 | punteggio -3.656 | accuratezza - | copertura4 0.906 copertura6 0.413
+     de re rum quae se re et per fer
+     re ge re re de re re re
+     in de re fer re fer re re rum
+risolutore valido: False | fattibile: {0.0: False, 0.3: False, 0.6: False}
