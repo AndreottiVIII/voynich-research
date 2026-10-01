@@ -1582,3 +1582,25 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
 **Esperimenti non validi o ritirati:** e79, e81, e85 (lettura distici); D-013, D-014.
 
 **In corso:** replica dell'e20 (D-009), in sottofondo.
+
+## 1/10/2026 — e93: la prima parola viene dal vocabolario della pagina (quasi come le altre)
+
+- **Metodo.** Preregistrato. Quota di occorrenze il cui tipo compare in un'altra riga della stessa
+  pagina, contro il rimescolamento delle righe fra le pagine.
+- **Validità:** parole interne del Voynich 1,37 (z 38) (✓).
+- **Risultati** (legame):
+
+  | testo | prima | seconda | interne | ultima |
+  |---|---|---|---|---|
+  | Voynich | 1,27 | 1,29 | 1,37 | 1,24 |
+  | lingua A | 1,25 | | 1,35 | |
+  | lingua B | 1,13 | | 1,15 | |
+  | Timm e Schinner | 1,72 | | 1,50 | |
+
+- **Lettura preregistrata.** Per il Voynich nel suo insieme vale per un soffio "meno legata"
+  (1,27 contro la soglia di 1,296); per la lingua B è indeciso.
+  - L'ultima parola ha lo stesso calo (1,24), quindi è un effetto delle **forme di bordo** (segni
+    aggiunti o sostituiti, che danno varianti più rare), non una fonte diversa per la prima
+    parola.
+  - **Conclusione pratica:** la prima parola viene dal vocabolario della pagina; è "nuova" solo
+    rispetto alla riga sopra (e88).
