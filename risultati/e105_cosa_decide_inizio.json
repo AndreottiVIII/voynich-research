@@ -1,0 +1,50 @@
+{
+ "righe": 3370,
+ "inizio di L": {
+  "eccesso": 0.099307007769107,
+  "z": 26.073058179634614
+ },
+ "fine di L": {
+  "eccesso": -0.001899040519577698,
+  "z": -0.5661631109542602,
+  "eccesso_condizionato": -0.007795667992135616,
+  "z_condizionato": -1.4810610348670714
+ },
+ "classi presenti in L": {
+  "eccesso": 0.03187016618408034,
+  "z": 5.358878543651693,
+  "eccesso_condizionato": 0.0052784633922913216,
+  "z_condizionato": 0.639110996150481
+ },
+ "inizio di L-1": {
+  "eccesso": 0.021188718102128447,
+  "z": 5.055190214081125,
+  "eccesso_condizionato": -0.018838571514198515,
+  "z_condizionato": -2.114498757571244
+ },
+ "posizione nel paragrafo": {
+  "eccesso": 0.021657969203897582,
+  "z": 9.035315045538898,
+  "eccesso_condizionato": -0.0016182268263235516,
+  "z_condizionato": -0.4110461659847602
+ },
+ "parole di L+1": {
+  "eccesso": 0.0,
+  "z": null,
+  "eccesso_condizionato": 0.0049592818717697496,
+  "z_condizionato": 1.239557525834595
+ },
+ "parole di L": {
+  "eccesso": 0.006709499252303196,
+  "z": 3.023906817434452,
+  "eccesso_condizionato": 0.008844383193735428,
+  "z_condizionato": 2.508727921161639
+ },
+ "seconda parola di L+1": {
+  "eccesso": 0.0,
+  "z": null,
+  "eccesso_condizionato": 0.005810916151119838,
+  "z_condizionato": 1.0396815335174592
+ },
+ "rilevanti": []
+}
