@@ -694,3 +694,32 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
     contigue**. Il generatore non ha né l'una né l'altra.
 - **Ipotesi di meccanismo, da provare in e63: la riga modello.** Lo scriba prende una riga sopra
   come modello e la ripercorre parola per parola, ritoccando.
+
+## 1/10/2026 — e63: la riga modello
+
+- **Preregistrato.** Ogni riga ripercorre una riga sopra, ritoccandone le parole.
+- **Esito: in eccesso su tutto.**
+  - Autocorrelazione delle lunghezze 0,09–0,38 (Voynich 0,15) e traccia verticale 1,9–3,0
+    (Voynich 1,03).
+  - h2 3,0–3,4; ripetizione circa 2; forma delle parole lontanissima.
+- **Lettura.** Le modifiche applicate riga dopo riga accumulano forme sempre più strane. Nella forma
+  provata il meccanismo non regge. Una variante molto più leggera (a ≤ 0,3) potrebbe dare solo
+  la componente di riga, ma non l'ho provata.
+
+## 1/10/2026 — e64: il soggetto della pagina
+
+- **Preregistrato.** La parola d'apertura delle pagine d'erbario ritorna nella pagina più di una
+  parola qualsiasi di lunghezza simile?
+- **Controllo positivo (Culpeper).** Il nome della pianta ritorna 1,77 volte più del caso
+  (p = 0,005). La soglia preregistrata era 2: **validità non piena**.
+- **Voynich.**
+  - L'apertura ritorna **molto meno** del caso: 2% contro 21% (×0,07); in forma simile 27% contro
+    55% (×0,50).
+  - Vale in Currier A e B.
+- **Generatore:** ×0,12–0,18. Le prime parole di paragrafo hanno regole proprie.
+- **Lettura prudente.**
+  - La prima parola delle pagine d'erbario non si comporta come il nome del soggetto di un
+    erbario: non ritorna, nemmeno in grafia vicina.
+  - Se fosse il nome della pianta, nel testo il nome dovrebbe comparire in un'altra forma, per
+    esempio abbreviato, oppure non comparire affatto.
+  - È la stessa direzione del procedimento senza messaggio. Il test però ha validità non piena.
