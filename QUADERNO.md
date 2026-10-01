@@ -735,3 +735,13 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
 - **Lezione di metodo.** L'idea "i ricettari aprono con formule" era vera per l'italiano o il latino
   tardo (*recipe*, *item*), non per Apicio. Il controllo positivo l'ha mostrato prima che il
   risultato sul Voynich potesse essere sovrainterpretato.
+
+## 1/10/2026 — Pilota abbandonato: riquadri delle etichette segnati "a vista"
+
+- **Tentativo.** Segnare a mano i riquadri delle etichette di f99r su un ritaglio con griglia di
+  coordinate, per misurare l'inchiostro (chiudere e40/e42).
+- **Esito.** Leggendo le coordinate dall'immagine sbaglio la posizione di decine di pixel, quanto
+  un'etichetta intera. Inoltre i contorni dei disegni hanno lo stesso inchiostro bruno del testo,
+  quindi un affinamento automatico non basta.
+- **Decisione.** Non procedere. Serve un annotatore umano con uno strumento grafico: è un lavoro
+  che Davide potrebbe fare, circa 190 riquadri su 12 pagine.
