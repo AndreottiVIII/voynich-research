@@ -2015,3 +2015,24 @@ rimescolamento delle righe:
   desinenza) produce la "rima interna".
 - **Lettura:** nessun indizio di rima. Non esclude il verso (la poesia classica e il *Macer* non
   rimano), ma toglie una prova possibile a favore.
+
+## 1/10/2026 — e103: le etichette dello zodiaco non si corrispondono per posizione
+
+- **Metodo.** Preregistrato. 10 segni con circa 30 etichette (Ariete e Toro ricomposti dalle
+  due metà). Somiglianza delle etichette con lo stesso indice in segni diversi, contro indici
+  distanti; anche con allineamento ciclico libero.
+- **Validità:** controllo positivo (segno finale fisso per indice su metà delle etichette): p 0,002
+  (✓).
+- **Risultati:**
+
+  | misura | p |
+  |---|---|
+  | somiglianza a indice fisso | 0,14 |
+  | primo segno a indice fisso | 0,71 |
+  | somiglianza con allineamento libero | 0,74 |
+  | primo segno con allineamento libero | 0,27 |
+
+- **Lettura.** Nessuna corrispondenza rilevabile fra le etichette nella stessa posizione di segni
+  diversi. Se le etichette fossero i numeri dei giorni scritti con un sistema regolare, ci si
+  aspetterebbe una corrispondenza. Non c'è, almeno con l'ordine della trascrizione e con
+  spostamenti ciclici. Non esclude nomi propri diversi per ogni segno (stelle, per esempio).

@@ -1,0 +1,6 @@
+controllo positivo, somiglianza      delta 0.0320 nullo 0.0002 z 7.87 p 0.002 (500)
+somiglianza, indice fisso            delta 0.0051 nullo 0.0004 z 1.12 p 0.140 (500)
+primo segno, indice fisso            delta -0.0032 nullo 0.0000 z -0.49 p 0.707 (500)
+somiglianza, allineamento libero     delta 0.0259 nullo 0.0275 z -0.64 p 0.743 (100)
+primo segno, allineamento libero     delta 0.0649 nullo 0.0618 z 0.58 p 0.267 (100)
+valido True | corrispondenza False
