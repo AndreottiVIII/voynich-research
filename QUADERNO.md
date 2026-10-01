@@ -767,3 +767,32 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
     come se lo scriba attingesse a ciò che ha scritto di recente, non a tutto il testo.
   - Un testo con argomenti che cambiano lo farebbe allo stesso modo: questa proprietà non
     distingue fra contenuto e procedimento con recenza.
+
+## 1/10/2026 — e67 ed e68: consolidamento e filtro di forma
+
+**e67** (consolidato a parametri fissi: forme nuove + giunture + recenza + scissione).
+
+- 6–9 proprietà su 17, non meglio dell'e51: i meccanismi interferiscono. Recenza e scissione
+  insieme alzano h2 (2,43–2,46) e abbassano lo spazio (0,47–0,50).
+
+**e68** (filtro di forma sul primo e l'ultimo segno, sopra l'e51).
+
+- **Deviazione D-011.** Con η = 1 il generatore si bloccava, perché rifiutava le parole d'inizio
+  paragrafo con i gallows. Il filtro è stato escluso per le parole d'inizio riga e tutto è stato
+  rieseguito.
+- **Validità:** con η = 0 il testo è identico all'e51.
+- **η = 1: 12/17,** il punteggio più alto finora. Fuori campione 5/7: **deriva 0,081 e Zipf −1,08**
+  compaiono senza essere bersagli. Ripetizione 1,21 e legame 0,14 al limite delle bande.
+- **Restano fuori:**
+  - la forma delle parole (2,02: il filtro tocca solo primo e ultimo segno);
+  - lo spazio (0,575);
+  - l'omogeneità, ora in eccesso (8,1%);
+  - il profilo di pagina (R 1,31);
+  - l'autocorrelazione delle lunghezze (0,072).
+- **Lettura.**
+  - Parte dei difetti del generatore dipende davvero dalla forma delle parole: correggerla sistema
+    deriva e Zipf.
+  - Ma il compromesso si sposta (omogeneità troppo alta), e la forma resta lontana nelle posizioni
+    interne della parola.
+  - Il procedimento senza messaggio arriva a 12/17 proprietà; le altre 5 non le ho ottenute in
+    nessuna combinazione provata.
