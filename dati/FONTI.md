@@ -64,3 +64,15 @@ l'impronta permette di verificare di aver letto lo stesso file.
 | `ignota_unmasqued.html` | glossario della Lingua Ignota ricompilato da Roth 1880, <https://web.archive.org/web/20120820002300id_/http://www.unmasqued.com/eclecticify/ignota.php> | `068ea3173d6d4bfcc11fbdb6f41267802096cbb731be6b82a6d3e1061171677c` |
 
 I `.txt` accanto ai PDF sono estratti con `pypdf` e servono solo per la ricerca nel testo.
+
+## Testi sanscriti (e77, in `cache/sanscrito/`, non ridistribuiti)
+
+Scaricati l'1/10/2026 dal clone GRETIL di ambuda-org, commit
+`96e96220c686c9083d1646f85d5289cf0ab9e9ff`, cartella `1_sanskr/tei/`
+(<https://github.com/ambuda-org/gretil>). Il sito GRETIL non era raggiungibile.
+
+| file | testo | SHA-256 |
+|---|---|---|
+| `sa_manusmRti.xml` | *Manusmṛti* | `666c2d3c05a41b9bc449c50a5afffe575e278085269d93dccb0f480a61cdf7e1` |
+| `sa_kAlidAsa-raghuvaMza.xml` | Kālidāsa, *Raghuvaṃśa* | `268de86e64d026ef9e67cb784902c6b08e73926315e16d44eb10357e80d93404` |
+| `sa_daNDin-dazakumAracarita.xml` | Daṇḍin, *Daśakumāracarita* (scaricato, non usato nell'e77) | `3fd83daa8ca14faf855e76cf6a1b77219a395947d77367cf8855310e6cc9563e` |
