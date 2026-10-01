@@ -588,3 +588,40 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
 - **Stato della replica:** tutti gli esperimenti e01–e28 si replicano, tranne e19 ed e20, non
   rieseguiti (D-009), ed e13, che cambia per una ragione spiegata (D-008). e16 era superato già
   nel lavoro originale e non è stato rieseguito.
+
+## 1/10/2026 — e56 ed e57: "copia o componi", un modello più semplice
+
+- **e56.** Due gesti: copiare una parola vicina o comporne una nuova con i trigrammi della pagina
+  recente.
+  - Nessuna combinazione compatibile (bande a due lati): la composizione libera satura, con parole
+    uniche 0,30–0,54 e tipi 0,02–0,16.
+  - Deriva (V2) e autocorrelazione delle lunghezze (V6) però compaiono.
+- **e57** (forme composte sempre nuove). Eccesso opposto: tipi 0,50–0,80, h2 2,5–2,8, legame
+  0,34–0,40.
+- **Il numero chiave.** Nel Voynich circa il **14% delle parole** è una forma che compare una sola
+  volta (0,21 tipi per parola × 0,68 di quota unica). Un modello deve inventare circa una parola su
+  sette e riusare le altre con piccole variazioni. Il modello e51 (q = 0,10) sta in quella zona.
+- **Il paradosso da spiegare.** Il Voynich ripete la parola precedente quanto il caso (×1,0), ma
+  inventa forme nuove a ritmo costante. Nei modelli le due cose si ottengono solo con una spinta
+  esplicita alla novità.
+
+## 1/10/2026 — e58: la parola "di sopra" (prova del meccanismo di copia)
+
+- **Preregistrato.** Una parola somiglia a quella nella stessa posizione della riga sopra più che
+  alle altre parole di quella riga?
+- **Risultati:**
+  - Voynich **1,059** (z = 9,9); Currier A 1,052, B 1,062;
+  - generatore di Timm e Schinner 1,045–1,062 (controllo positivo);
+  - controlli negativi 1,000–1,011. Ma la Bibbia latina ha p = 0,034, sotto la soglia di 0,05:
+    validità non piena per la lettera della preregistrazione.
+- **Esplorativo, senza la prima e l'ultima parola di ogni riga.** Le parole ai bordi hanno forme
+  proprie e gonfiano il confronto.
+  - Voynich **1,028** (z = 4,3, p = 0,001); B 1,033; A 1,014 (non significativo, meno pagine).
+  - Generatore 1,030–1,050.
+  - Controlli negativi tutti p > 0,1. Gibberish a righe vere 1,023 (p = 0,11, campioni piccoli).
+- **Lettura.** C'è una traccia di somiglianza "in verticale" della grandezza di quella del
+  generatore che copia la parola di sopra. È un indizio a favore di un meccanismo di copia
+  (ipotesi 3). Ma lo produrrebbe anche un contenuto **a colonne**, con righe parallele (ipotesi 1
+  nella forma "tabella"). Distinguere le due cose richiede di sapere se le "colonne" del Voynich
+  hanno un senso proprio: per esempio, se la somiglianza verticale si concentra in certe posizioni
+  della riga.
