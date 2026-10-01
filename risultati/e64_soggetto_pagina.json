@@ -1,0 +1,158 @@
+{
+ "Voynich, erbario": {
+  "esatto": {
+   "pagine": 128,
+   "osservata": 0.015625,
+   "caso": 0.2141796875,
+   "rapporto": 0.07295276308590189,
+   "p": 1.0
+  },
+  "vicino": {
+   "pagine": 128,
+   "osservata": 0.2734375,
+   "caso": 0.5466796875,
+   "rapporto": 0.5001786352268668,
+   "p": 1.0
+  }
+ },
+ "Voynich, erbario A": {
+  "esatto": {
+   "pagine": 95,
+   "osservata": 0.010526315789473684,
+   "caso": 0.21063157894736842,
+   "rapporto": 0.04997501249375312,
+   "p": 1.0
+  },
+  "vicino": {
+   "pagine": 95,
+   "osservata": 0.24210526315789474,
+   "caso": 0.5297894736842106,
+   "rapporto": 0.45698390621895485,
+   "p": 1.0
+  }
+ },
+ "Voynich, erbario B": {
+  "esatto": {
+   "pagine": 32,
+   "osservata": 0.03125,
+   "caso": 0.21796875,
+   "rapporto": 0.14336917562724016,
+   "p": 1.0
+  },
+  "vicino": {
+   "pagine": 32,
+   "osservata": 0.375,
+   "caso": 0.61234375,
+   "rapporto": 0.6124011227353917,
+   "p": 0.9900497512437811
+  }
+ },
+ "Culpeper (controllo positivo)": {
+  "esatto": {
+   "pagine": 195,
+   "osservata": 0.5743589743589743,
+   "caso": 0.3251282051282051,
+   "rapporto": 1.7665615141955835,
+   "p": 0.004975124378109453
+  },
+  "vicino": {
+   "pagine": 195,
+   "osservata": 0.6358974358974359,
+   "caso": 0.3875897435897436,
+   "rapporto": 1.6406456734585868,
+   "p": 0.004975124378109453
+  }
+ },
+ "Timm e Schinner, seme 19": {
+  "esatto": {
+   "pagine": 138,
+   "osservata": 0.08695652173913043,
+   "caso": 0.563659420289855,
+   "rapporto": 0.15427138908529922,
+   "p": 1.0
+  },
+  "vicino": {
+   "pagine": 138,
+   "osservata": 0.6304347826086957,
+   "caso": 0.8715579710144928,
+   "rapporto": 0.7233423404697568,
+   "p": 1.0
+  }
+ },
+ "Timm e Schinner, seme 1": {
+  "esatto": {
+   "pagine": 138,
+   "osservata": 0.10869565217391304,
+   "caso": 0.5960144927536232,
+   "rapporto": 0.182370820668693,
+   "p": 1.0
+  },
+  "vicino": {
+   "pagine": 138,
+   "osservata": 0.6594202898550725,
+   "caso": 0.8720652173913044,
+   "rapporto": 0.7561593751298351,
+   "p": 1.0
+  }
+ },
+ "Timm e Schinner, seme 2": {
+  "esatto": {
+   "pagine": 138,
+   "osservata": 0.07246376811594203,
+   "caso": 0.5989130434782609,
+   "rapporto": 0.12099213551119177,
+   "p": 1.0
+  },
+  "vicino": {
+   "pagine": 138,
+   "osservata": 0.7028985507246377,
+   "caso": 0.8784782608695653,
+   "rapporto": 0.8001319805328714,
+   "p": 1.0
+  }
+ },
+ "esempi_aperture_voynich": [
+  "kchsy",
+  "kydainy",
+  "kooiin",
+  "tsheos",
+  "koaiin",
+  "kodalchy",
+  "pchooiin",
+  "kchody",
+  "k",
+  "foar",
+  "koary",
+  "fchodaiin",
+  "polyshy",
+  "pshol",
+  "sol",
+  "tydlo",
+  "fochor",
+  "pchocthy",
+  "paiin",
+  "tshol"
+ ],
+ "esempi_aperture_culpeper": [
+  "heal",
+  "alkanet",
+  "agrimony",
+  "agrimony",
+  "ivy",
+  "alexander",
+  "tree",
+  "tree",
+  "amaranthus",
+  "arrach",
+  "stinking",
+  "asarabacca",
+  "sperage",
+  "sperage",
+  "and",
+  "bazil",
+  "beans",
+  "straw",
+  "beets",
+  "betony"
+ ]
+}
