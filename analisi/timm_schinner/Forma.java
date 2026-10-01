@@ -23,6 +23,8 @@ public class Forma {
     private static boolean caricato = false;
     private static double eta = 0.0, massimo = 1.0;
     private static final Map<String, Double> inizio = new HashMap<>(), fine = new HashMap<>();
+    // esperimento 69: anche il secondo ("s") e il penultimo ("p") segno, se presenti nel file
+    private static final Map<String, Double> secondo = new HashMap<>(), penultimo = new HashMap<>();
     private static Random rnd = null;
 
     private static synchronized void carica() {
@@ -41,7 +43,9 @@ public class Forma {
             for (String riga : Files.readAllLines(Paths.get(file), StandardCharsets.UTF_8)) {
                 String[] c = riga.split("\t");
                 if (c.length == 3) {
-                    (c[0].equals("i") ? inizio : fine).put(c[1], Double.parseDouble(c[2]));
+                    Map<String, Double> m = c[0].equals("i") ? inizio : c[0].equals("f") ? fine
+                            : c[0].equals("s") ? secondo : penultimo;
+                    m.put(c[1], Double.parseDouble(c[2]));
                 }
             }
         } catch (Exception e) {
@@ -49,7 +53,9 @@ public class Forma {
         }
         double mi = inizio.values().stream().mapToDouble(Double::doubleValue).max().orElse(1.0);
         double mf = fine.values().stream().mapToDouble(Double::doubleValue).max().orElse(1.0);
-        massimo = Math.pow(mi * mf, eta);
+        double ms = secondo.values().stream().mapToDouble(Double::doubleValue).max().orElse(1.0);
+        double mp = penultimo.values().stream().mapToDouble(Double::doubleValue).max().orElse(1.0);
+        massimo = Math.pow(mi * mf * ms * mp, eta);
     }
 
     public static boolean attiva() {
@@ -64,6 +70,14 @@ public class Forma {
         }
         double ri = inizio.getOrDefault(Giunture.primo(parola), 0.2);
         double rf = fine.getOrDefault(Giunture.ultimo(parola), 0.2);
-        return rnd.nextDouble() < Math.min(1.0, Math.pow(ri * rf, eta) / massimo);
+        double r = ri * rf;
+        if (!secondo.isEmpty() || !penultimo.isEmpty()) {
+            java.util.List<String> u = Composizione.segni(parola);
+            if (u.size() >= 2) {
+                r *= secondo.isEmpty() ? 1.0 : secondo.getOrDefault(u.get(1), 0.2);
+                r *= penultimo.isEmpty() ? 1.0 : penultimo.getOrDefault(u.get(u.size() - 2), 0.2);
+            }
+        }
+        return rnd.nextDouble() < Math.min(1.0, Math.pow(r, eta) / massimo);
     }
 }
