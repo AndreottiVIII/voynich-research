@@ -1,0 +1,213 @@
+{
+ "Voynich ZL": {
+  "righe": 2532,
+  "coppie_di_tipi": 112,
+  "bowker": 141.08901025426465,
+  "nullo_riga": {
+   "media": 131.04806983828104,
+   "z": 0.5713980888922884
+  },
+  "nullo_terzili": {
+   "media": 133.37790617284628,
+   "z": 0.6649207821995808
+  },
+  "z_per_coppia": 0.06282910825923693
+ },
+ "Voynich IT": {
+  "righe": 2579,
+  "coppie_di_tipi": 99,
+  "bowker": 124.56903348009278,
+  "nullo_riga": {
+   "media": 117.96050447336377,
+   "z": 0.41421162959548385
+  },
+  "nullo_terzili": {
+   "media": 124.30656031544846,
+   "z": 0.02077333218600216
+  },
+  "z_per_coppia": 0.0020877984395873484
+ },
+ "Voynich, lingua A": {
+  "righe": 653,
+  "coppie_di_tipi": 6,
+  "bowker": 11.371428571428572,
+  "nullo_riga": {
+   "media": 11.365542699335306,
+   "z": 0.0010786763683300021
+  },
+  "nullo_terzili": {
+   "media": 11.719553884715266,
+   "z": -0.09685018520905186
+  },
+  "z_per_coppia": -0.03953892254270394
+ },
+ "Voynich, lingua B": {
+  "righe": 1847,
+  "coppie_di_tipi": 79,
+  "bowker": 96.97281325037414,
+  "nullo_riga": {
+   "media": 101.02663455836496,
+   "z": -0.29531360622184
+  },
+  "nullo_terzili": {
+   "media": 96.0835066443368,
+   "z": 0.09140657541281871
+  },
+  "z_per_coppia": 0.01028404320620445
+ },
+ "Timm e Schinner, seme 19": {
+  "righe": 3395,
+  "coppie_di_tipi": 153,
+  "bowker": 181.64833335825668,
+  "nullo_riga": {
+   "media": 175.21667599698742,
+   "z": 0.315354573530986
+  },
+  "nullo_terzili": {
+   "media": 203.00262036810219,
+   "z": -1.5944533978964226
+  },
+  "z_per_coppia": -0.12890391715003793
+ },
+ "Timm e Schinner, seme 1": {
+  "righe": 3417,
+  "coppie_di_tipi": 248,
+  "bowker": 307.77361046854827,
+  "nullo_riga": {
+   "media": 314.87543040679435,
+   "z": -0.25166824403080784
+  },
+  "nullo_terzili": {
+   "media": 334.8341695403668,
+   "z": -1.6308712821407667
+  },
+  "z_per_coppia": -0.10356042997642044
+ },
+ "Timm e Schinner, seme 2": {
+  "righe": 3384,
+  "coppie_di_tipi": 284,
+  "bowker": 467.35557501059793,
+  "nullo_riga": {
+   "media": 341.1932312469078,
+   "z": 4.096369838080352
+  },
+  "nullo_terzili": {
+   "media": 408.00991113755686,
+   "z": 3.1941377694479
+  },
+  "z_per_coppia": 0.18953720592624973
+ },
+ "+ giunture (e23)": {
+  "righe": 3364,
+  "coppie_di_tipi": 195,
+  "bowker": 207.36231505352862,
+  "nullo_riga": {
+   "media": 215.28326523828161,
+   "z": -0.38050584775541046
+  },
+  "nullo_terzili": {
+   "media": 216.6893125727784,
+   "z": -0.6966996837230592
+  },
+  "z_per_coppia": -0.04989170062526513
+ },
+ "e51": {
+  "righe": 3234,
+  "coppie_di_tipi": 75,
+  "bowker": 61.600712814482776,
+  "nullo_riga": {
+   "media": 85.02182865644015,
+   "z": -1.7410901848106919
+  },
+  "nullo_terzili": {
+   "media": 88.05457115488987,
+   "z": -3.138669892474204
+  },
+  "z_per_coppia": -0.36242238146347105
+ },
+ "Bibbia latina": {
+  "righe": 3889,
+  "coppie_di_tipi": 53,
+  "bowker": 127.43641015710575,
+  "nullo_riga": {
+   "media": 60.63723361672917,
+   "z": 6.074510145186927
+  },
+  "nullo_terzili": {
+   "media": 114.17088952465564,
+   "z": 1.227144165204119
+  },
+  "z_per_coppia": 0.168561214578781
+ },
+ "Bibbia italiana": {
+  "righe": 3889,
+  "coppie_di_tipi": 81,
+  "bowker": 198.4401752157951,
+  "nullo_riga": {
+   "media": 69.79295850814891,
+   "z": 10.683156051167678
+  },
+  "nullo_terzili": {
+   "media": 168.91601646506595,
+   "z": 2.1043494653558326
+  },
+  "z_per_coppia": 0.23381660726175918
+ },
+ "Bibbia tedesca": {
+  "righe": 3889,
+  "coppie_di_tipi": 110,
+  "bowker": 421.4076582590569,
+  "nullo_riga": {
+   "media": 123.74602195931527,
+   "z": 18.415259089296594
+  },
+  "nullo_terzili": {
+   "media": 478.7366979501,
+   "z": -3.227930711378934
+  },
+  "z_per_coppia": -0.30777111739767254
+ },
+ "Bibbia ungherese": {
+  "righe": 3889,
+  "coppie_di_tipi": 86,
+  "bowker": 238.7146360864511,
+  "nullo_riga": {
+   "media": 89.6796176198646,
+   "z": 11.464956162207157
+  },
+  "nullo_terzili": {
+   "media": 328.0363452651186,
+   "z": -5.395656742887712
+  },
+  "z_per_coppia": -0.5818286298394139
+ },
+ "Bibbia turca": {
+  "righe": 3889,
+  "coppie_di_tipi": 10,
+  "bowker": 75.31721611721612,
+  "nullo_riga": {
+   "media": 11.625446299637963,
+   "z": 13.48333098195764
+  },
+  "nullo_terzili": {
+   "media": 57.52968042309017,
+   "z": 1.9302722062188022
+  },
+  "z_per_coppia": 0.6104056675769649
+ },
+ "Ovidio": {
+  "righe": 796,
+  "coppie_di_tipi": 1,
+  "bowker": 3.6,
+  "nullo_riga": {
+   "media": 1.1756181827288639,
+   "z": 1.5772571550170496
+  },
+  "nullo_terzili": {
+   "media": 3.9838910256410256,
+   "z": -0.14372891271100688
+  },
+  "z_per_coppia": -0.14372891271100688
+ },
+ "ordine_voynich": false
+}
