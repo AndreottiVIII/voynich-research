@@ -674,3 +674,23 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
   il profilo di pagina e l'autocorrelazione delle lunghezze (Voynich 0,15; massimo 0,07–0,09).
 - **Prossimo passo.** e62 prova a unire le due famiglie: messaggio vero, omofoni veri, scelta
   secondo uno stile di pagina che deriva.
+
+## 1/10/2026 — e62 e una diagnosi sulle lunghezze
+
+- **e62** (omofoni veri scelti secondo uno stile di pagina che deriva). Nessuna combinazione
+  compatibile: omogeneità al massimo 0,9%. La deriva compare (0,06–0,07 con σ = 2, ρ = 0,95).
+- **Bilancio della famiglia "codice"** (e46, e52, e62).
+  - Per avere omogeneità di pagina con la sola scelta fra forme equivalenti servono molte forme
+    per parola, e molte forme gonfiano vocabolario e h2.
+  - Per avere le ripetizioni bisogna che parole diverse condividano le forme, e allora il messaggio
+    si perde per due terzi.
+  - Nella forma provata, l'ipotesi "codice + stile" non riproduce il Voynich.
+- **Diagnosi esplorativa dell'autocorrelazione delle lunghezze.**
+  - Voynich: 0,15 / 0,087 / 0,064 a distanza 1 / 2 / 3. Generatore: 0,015 / 0,027 / 0,022.
+    Bibbia: −0,16 / 0,00 / 0,03.
+  - Centrando le lunghezze sulla media della riga, nel Voynich resta un vantaggio della posizione
+    contigua (−0,074 contro −0,17 a distanza 2).
+  - Sono quindi due componenti: **righe con un loro stile di lunghezza** e **somiglianza fra parole
+    contigue**. Il generatore non ha né l'una né l'altra.
+- **Ipotesi di meccanismo, da provare in e63: la riga modello.** Lo scriba prende una riga sopra
+  come modello e la ripercorre parola per parola, ritoccando.
