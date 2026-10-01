@@ -1,0 +1,24 @@
+# e67 — Il modello senza messaggio consolidato
+
+Timm e Schinner + giunture (forza 3) + forme nuove nello stile della pagina (q 0.10, λ 0.75, con giunture) + recenza K 5 + scissione d 0.03. Parametri fissati prima. Bande della pagella (e61). Preregistrazione: `preregistrazioni/e67.md`.
+
+| proprietà | Voynich | seme 19 | seme 1 | seme 2 |
+|---|---|---|---|---|
+| h2 | 2.24 | · 2.44 | · 2.43 | · 2.46 |
+| spazio | 0.664 | · 0.497 | · 0.465 | · 0.487 |
+| uniche | 0.678 | ✓ 0.652 | ✓ 0.642 | ✓ 0.642 |
+| tipi | 0.21 | · 0.254 | ✓ 0.249 | · 0.262 |
+| ripetizione | 1.01 | · 0.721 | · 0.726 | · 0.653 |
+| omogeneità | 0.0385 | ✓ 0.0455 | ✓ 0.0408 | · 0.0475 |
+| gradiente |  | ✓  | ·  | ·  |
+| legame | 0.188 | ✓ 0.225 | ✓ 0.226 | ✓ 0.225 |
+| unioni |  | ·  | ✓  | ✓  |
+| curva piatta |  | ✓  | ✓  | ✓  |
+| deriva | 0.106 | · 0.0414 | ✓ 0.0787 | ✓ 0.0651 |
+| profilo pagina | 1.02 | · 0.798 | · 0.683 | · 0.806 |
+| lunghezze vicine | 0.15 | · 0.0623 | · 0.0452 | · 0.0538 |
+| Zipf | -1.04 | · -0.886 | · -0.903 | · -0.857 |
+| forma parole | 0 | · 3.09 | · 2.63 | · 2.93 |
+| verticale | 1.03 | ✓ 1.03 | ✓ 1.04 | ✓ 1.03 |
+| formule | 5.2 | · 2.58 | ✓ 3.32 | ✓ 4.32 |
+| **totale** | | 6/17 | 9/17 | 7/17 |
