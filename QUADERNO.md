@@ -990,3 +990,40 @@ nuove nello stile della pagina + regola delle giunture + scissione alle giunture
     - un cifrario che riparte a ogni riga (ipotesi 2 con una convenzione di riga).
   - Insieme all'e73 (segno aggiunto a inizio riga) e all'e71 (fine riga in m/g), la riga ha
     un'**apertura**, una **chiusura** e nessun legame con la riga dopo.
+
+## 1/10/2026 — e75: struttura interna della riga
+
+- **Metodo.** Preregistrato. Informazione mutua fra caratteristiche delle parole interne e classe
+  di posizione relativa (4 classi), contro i rimescolamenti dentro la riga.
+- **Validità:**
+  - testi mandati a capo con |z| < 3 per tutte le caratteristiche (il massimo è Plinio, primo
+    segno, z 2,6) (✓);
+  - controllo positivo (parole ordinate per lunghezza): z 904 (✓).
+- **Voynich:**
+
+  | caratteristica | eccesso (bit) | z | lettura preregistrata |
+  |---|---|---|---|
+  | primo segno | 0,0129 | **31** | struttura |
+  | tipo | 0,0117 | **12,5** | struttura |
+  | ultimo segno | | 4,7 | sotto soglia |
+  | lunghezza | | 1,9 | nulla |
+
+  - **Verso l'inizio della riga:** *sh* (×0,46 nell'ultima classe rispetto alla prima), q, k.
+  - **Verso la fine della riga:** *d* ×1,8, *t* ×1,7, *cth* ×1,5.
+  - Le lingue A e B lo mostrano entrambe.
+- **Generatori:** tutti con eccesso ≈ 0 (|z| ≤ 2,4, con le giunture o senza). È un'altra proprietà
+  che non hanno.
+- **Controllo esplorativo, non preregistrato.** Togliendo anche la seconda e la penultima parola
+  (righe di almeno 8 parole), il primo segno scende a z 9,5. Togliendone due per lato (righe di
+  almeno 10 parole) scende a z 2,2, con meno righe. Quindi:
+  - **non sono colonne di una tabella**, ma un **gradiente dai bordi** verso l'interno, che si
+    estende per una o due parole;
+  - la seconda parola è ricca di *sh*, mentre sul segno aggiunto (e73) era quasi normale; le
+    parole verso la fine sono ricche di *d* e *t*.
+- **Lettura.**
+  - La riga del Voynich ha un "profilo" dall'inizio alla fine, non solo i bordi.
+  - Il fatto che nella prosa mandata a capo non ci sia niente conferma che la riga è un'unità
+    di composizione.
+  - Un procedimento senza messaggio dovrebbe scrivere riga per riga con preferenze che cambiano
+    lungo la riga; il generatore non lo fa.
+  - Una voce d'elenco con una formula d'apertura e una di chiusura lo farebbe naturalmente.
