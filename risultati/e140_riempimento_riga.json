@@ -1,0 +1,46 @@
+{
+ "Voynich ZL": {
+  "righe interne": {
+   "righe": 2465,
+   "rho": -0.1253807736528729,
+   "nullo": -0.0006347650173031529,
+   "z": -5.950412718129853
+  },
+  "ultime righe di paragrafo": {
+   "righe": 522,
+   "rho": -0.1388885637249709,
+   "nullo": 5.366409989727705e-05,
+   "z": -2.781524040912704
+  }
+ },
+ "controllo positivo: varianti per riempire": {
+  "righe interne": {
+   "righe": 2465,
+   "rho": -0.5810916968018477,
+   "nullo": -0.0015324813387001019,
+   "z": -28.26583079048056
+  },
+  "ultime righe di paragrafo": {
+   "righe": 522,
+   "rho": 0.07180012028971422,
+   "nullo": -0.0011781486194082085,
+   "z": 1.4442368192392003
+  }
+ },
+ "Timm e Schinner, seme 19": {
+  "righe interne": {
+   "righe": 3136,
+   "rho": -0.2197203699772822,
+   "nullo": -0.00128260951524444,
+   "z": -12.434904249089344
+  },
+  "ultime righe di paragrafo": {
+   "righe": 138,
+   "rho": 0.08537270607681416,
+   "nullo": -0.008178937054486897,
+   "z": 0.7819021722270001
+  }
+ },
+ "valido": true,
+ "allineamento": false
+}
