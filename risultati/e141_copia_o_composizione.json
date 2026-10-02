@@ -1,0 +1,78 @@
+{
+ "Voynich ZL": {
+  "dopo riga corta": {
+   "coppie": 65,
+   "segno_inizio": 0.5538461538461539,
+   "segno_inizio_iv": [
+    0.46153846153846156,
+    0.6461538461538462
+   ],
+   "stesso_primo_segno": 0.09230769230769231,
+   "stesso_primo_segno_iv": [
+    0.03076923076923077,
+    0.15384615384615385
+   ],
+   "giuntura_dentro": 0.23162826802696407,
+   "giuntura_attraverso": 0.037022718284809575,
+   "z_attraverso": 0.5529142245278913,
+   "R": 0.1598367876260238
+  },
+  "dopo riga piena": {
+   "coppie": 2667,
+   "segno_inizio": 0.4769403824521935,
+   "segno_inizio_iv": [
+    0.46156730408698915,
+    0.49231346081739785
+   ],
+   "stesso_primo_segno": 0.06711661042369704,
+   "stesso_primo_segno_iv": [
+    0.0588676415448069,
+    0.07536557930258718
+   ],
+   "giuntura_dentro": 0.2072069594198137,
+   "giuntura_attraverso": -0.0034070669063083897,
+   "z_attraverso": -0.8542098799564575,
+   "R": -0.01644282081957232
+  }
+ },
+ "controllo positivo: 10% delle righe piene spezzate": {
+  "dopo riga corta": {
+   "coppie": 404,
+   "segno_inizio": 0.2871287128712871,
+   "segno_inizio_iv": [
+    0.25,
+    0.32425742574257427
+   ],
+   "stesso_primo_segno": 0.10643564356435643,
+   "stesso_primo_segno_iv": [
+    0.08168316831683169,
+    0.13366336633663367
+   ],
+   "giuntura_dentro": 0.21473467700918003,
+   "giuntura_attraverso": 0.10727625087765227,
+   "z_attraverso": 4.865483668452409,
+   "R": 0.49957581314668686
+  },
+  "dopo riga piena": {
+   "coppie": 2600,
+   "segno_inizio": 0.48115384615384615,
+   "segno_inizio_iv": [
+    0.4653846153846154,
+    0.4969230769230769
+   ],
+   "stesso_primo_segno": 0.07076923076923076,
+   "stesso_primo_segno_iv": [
+    0.06230769230769231,
+    0.07884615384615384
+   ],
+   "giuntura_dentro": 0.20956166909510762,
+   "giuntura_attraverso": -0.0023693283822231806,
+   "z_attraverso": -0.5137181715245698,
+   "R": -0.011306115247382778
+  }
+ },
+ "rapporto_inizio_Voynich": 1.1612481857764876,
+ "rapporto_inizio_controllo": 0.5967503225142657,
+ "valido": true,
+ "esito": "composto sul posto"
+}

@@ -3145,3 +3145,27 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
     oltre agli effetti noti di prima riga e di bordo.
   - È invece costante una somiglianza fra righe consecutive (z 4–6), che il generatore non ha: è il
     gradiente locale già noto, ora visto anche nel profilo dei segni delle parole interne.
+
+## 2/10/2026 — e141: il testo è composto nelle righe della pagina, non copiato da un modello con altri a capo
+
+- **Metodo.** Preregistrato.
+  - Si confrontano le righe che seguono una riga accorciata (< 60% della mediana della pagina, non
+    ultima di paragrafo: di solito accorciata da un disegno) con quelle che seguono una riga piena.
+  - Controllo positivo: il 10% delle righe piene spezzate artificialmente al 40%.
+- **Risultati:**
+
+  | gruppo | coppie | inizio y/d/s [90%] | stesso primo segno | R giuntura |
+  |---|---|---|---|---|
+  | Voynich, dopo riga corta | 65 | **0,554** [0,46–0,65] | 0,09 | 0,16 |
+  | Voynich, dopo riga piena | 2.667 | 0,477 [0,46–0,49] | 0,07 | −0,02 |
+  | controllo, dopo riga corta | 404 | 0,287 [0,25–0,32] | 0,11 | 0,50 (z 4,9) |
+
+- **Esito: composto sul posto.** Rapporto corta/piena 1,16 nel Voynich contro 0,60 nel controllo.
+- **Lettura.**
+  - Dopo una riga accorciata da un disegno, la riga seguente ricomincia con il segno d'inizio come
+    tutte le altre, e la giuntura resta chiusa.
+  - Le righe non sono pezzi di righe di un modello con un'altra impaginazione: chi scriveva componeva
+    ogni riga nello spazio che aveva sulla pagina.
+  - Questo indebolisce l'idea, emersa su Reddit, di un testo prodotto altrove e poi ricopiato in bella
+    dagli scribi. Se c'era un modello, aveva già le stesse righe, oppure le regole si applicavano al
+    momento della scrittura in pagina.
