@@ -4382,3 +4382,23 @@ sequenza.
   - Rimescolando dentro la pagina, l'eccesso attraverso l'a capo scende a 0,007 bit (z 1,8).
 - **L'esito "messaggio" per F1 non si accetta prima dell'e186c,** preregistrato con il nullo dentro la
   pagina. In ogni caso la grandezza (0,013 bit) è 35 volte sotto il latino nascosto (0,46).
+
+## 2/10/2026 — e186c: anche le finali si spiegano con le abitudini di pagina; nessun cifrario a nulli
+
+- **Metodo.** Preregistrato. Come l'e186b, con 500 permutazioni dentro la pagina.
+- **Risultati:**
+
+  | | dentro la riga | attraverso l'a capo | R |
+  |---|---|---|---|
+  | Voynich F1 | 0,0089 (z 7) | 0,0066 (z 1,7) | 0,74 |
+  | Voynich I1 | 0,0577 (z 33) | 0,0019 (z 0,4) | 0,03 |
+  | latino nelle iniziali | 0,480 (z 475) | 0,456 (z 74) | 0,95 |
+
+- **Validità: sì. Esito per regola, F1: abitudini di pagina e riga** (z attraverso l'a capo < 2).
+- **Lettura.**
+  - A parità di pagina il legame fra finali attraverso l'a capo non è significativo: viene dalle
+    abitudini di grafia della pagina (-l/-r, -dy/-ey).
+  - Le iniziali si chiudono con la riga (R 0,03).
+  - **Conclusione della strada 4:** nessuna delle dodici regole di estrazione (iniziali, finali,
+    passi, acrostici di riga e di paragrafo) dà una sequenza con la struttura di un testo. Il latino
+    nascosto allo stesso modo darebbe legami 10–50 volte più forti, che attraversano l'a capo.
