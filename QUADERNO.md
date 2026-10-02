@@ -3127,3 +3127,21 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
 - **Su "tolor":** tolor (f38r, prima di paragrafo), otolor (f67r2 e f77v, entrambe fuori dal testo in
   paragrafi). L'idea che o- sia un elemento che si aggiunge alle parole ovunque, non legato alla
   posizione, è **compatibile** con i dati. Che significhi "il/la" non è verificabile con questo test.
+
+## 2/10/2026 — e138: nessuna struttura di voce stabile nelle righe dei paragrafi
+
+- **Metodo.** Preregistrato (idea 4).
+  - Profili di segni delle parole interne, k-medie, righe dalla seconda di ogni paragrafo.
+  - Statistica: informazione mutua fra tipo e posizione nel paragrafo, contro il rimescolamento
+    dell'ordine delle righe.
+- **Risultati** (z posizione / z riga seguente):
+  - Voynich: k 4: 2,9 / 6,0; k 3: 6,4 / 4,7; k 6: 0,9 / 3,9;
+  - controllo positivo: 146–157;
+  - Timm e Schinner: tutti sotto 1.
+- **Esito: voce strutturata no.** L'effetto della posizione è instabile: forte con 3 tipi, debole con
+  4, assente con 6.
+- **Lettura.**
+  - Non c'è un ordine ripetuto di tipi di riga dentro il paragrafo (tipo "nome, descrizione, uso"),
+    oltre agli effetti noti di prima riga e di bordo.
+  - È invece costante una somiglianza fra righe consecutive (z 4–6), che il generatore non ha: è il
+    gradiente locale già noto, ora visto anche nel profilo dei segni delle parole interne.
