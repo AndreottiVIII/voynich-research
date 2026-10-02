@@ -1,0 +1,390 @@
+{
+ "statistica": {
+  "lunghezze del Voynich": {
+   "lunghezza": 34810,
+   "simboli": 8,
+   "h1": 2.7138786078044532,
+   "h2": 2.6950777702411535,
+   "h2_su_h1": 0.9930723365779025,
+   "im1": {
+    "eccesso": 0.013802368365461674,
+    "z": 31.53265565075465
+   },
+   "im2": {
+    "eccesso": 0.00273552405301784,
+    "z": 6.971112279769598
+   },
+   "S1": 1.0414970377034805,
+   "S2": 1.033192676501696
+  },
+  "lunghezze delle parole latine": {
+   "lunghezza": 34810,
+   "simboli": 8,
+   "h1": 2.7798436106400417,
+   "h2": 2.7466012944633778,
+   "h2_su_h1": 0.9880416595921343,
+   "im1": {
+    "eccesso": 0.03182802698057004,
+    "z": 130.59707190293676
+   },
+   "im2": {
+    "eccesso": 0.002027172978690747,
+    "z": 8.40894432750877
+   },
+   "S1": 0.7980904171543783,
+   "S2": 0.9734004986867258
+  },
+  "latino cifrato con 8 simboli (controllo)": {
+   "lunghezza": 34810,
+   "simboli": 8,
+   "h1": 2.7245523003915264,
+   "h2": 2.542694489840997,
+   "h2_su_h1": 0.9332522225672101,
+   "im1": {
+    "eccesso": 0.17955224622365856,
+    "z": 484.8425642907317
+   },
+   "im2": {
+    "eccesso": 0.033736461679798345,
+    "z": 84.84855019179719
+   },
+   "S1": 0.699901071300996,
+   "S2": 1.0429149246098683
+  },
+  "lunghezze di Timm e Schinner": {
+   "lunghezza": 34810,
+   "simboli": 8,
+   "h1": 2.4918697218688233,
+   "h2": 2.4865652019543183,
+   "h2_su_h1": 0.997871269164695,
+   "im1": {
+    "eccesso": 0.003336774670730485,
+    "z": 9.707062033434905
+   },
+   "im2": {
+    "eccesso": 0.00019016376824233143,
+    "z": 0.5791866884677818
+   },
+   "S1": 0.9576370134506793,
+   "S2": 1.0173531870664527
+  }
+ },
+ "decifrazione": {
+  "latino": {
+   "controllo positivo": {
+    "punteggio": -3.1729679107666016,
+    "copertura": 0.48272293451388487,
+    "copertura_6": 0.020841717932501582,
+    "coppie_attestate": 0.0,
+    "coppie_accanto": 808,
+    "parole_diverse": 487,
+    "quota_tre_piu_frequenti": 0.1169811320754717,
+    "parole_frequenti": [
+     "iiii",
+     "imis",
+     "miii",
+     "imit",
+     "itis",
+     "insi",
+     "siis",
+     "tite",
+     "sinu",
+     "site",
+     "mnes",
+     "amni"
+    ],
+    "obiettivo": -11.76089925843238,
+    "ripartenze": [
+     -3.173,
+     -3.173,
+     -3.058,
+     -3.1871
+    ],
+    "simboli": 8,
+    "lunghezza": 34786,
+    "chiave_giusta": 0.0,
+    "chiave": {
+     "u0.": "s",
+     "u1.": "t",
+     "u2.": "e",
+     "u3.": "n",
+     "u4.": "m",
+     "u5.": "a",
+     "u6.": "u",
+     "u7.": "i"
+    },
+    "esempio": [
+     "snisiiiutinaeitininataimisiitittu",
+     "amisiiiesinemaisuisisemiemisisnisemiiisise",
+     "itittuisuaniseiiiemisesiiiiiiimiis",
+     "seisitiiintimeitaentiiutmis",
+     "amiititittaititiinitaimisiinmisimiismititetaitietimi",
+     "ismiseinusimisminmsiimsisitne"
+    ],
+    "secondi": 11
+   },
+   "controllo negativo": {
+    "punteggio": -1.7780126333236694,
+    "copertura": 0.8366191516266237,
+    "copertura_6": 0.25638004368318196,
+    "coppie_attestate": 0.0057100297914597815,
+    "coppie_accanto": 4028,
+    "parole_diverse": 16,
+    "quota_tre_piu_frequenti": 0.4044094488188976,
+    "parole_frequenti": [
+     "xxxx",
+     "xxix",
+     "xxxxi",
+     "xxii",
+     "xxxix",
+     "iiii",
+     "xiii",
+     "xxxii",
+     "xxxxii",
+     "xxiii",
+     "xxxi",
+     "xiiii"
+    ],
+    "obiettivo": -11.558352891130216,
+    "ripartenze": [
+     -1.778,
+     -3.2221,
+     -3.2731,
+     -3.0728
+    ],
+    "simboli": 8,
+    "lunghezza": 34796,
+    "chiave": {
+     "u0.": "x",
+     "u1.": "x",
+     "u2.": "i",
+     "u3.": "i",
+     "u4.": "i",
+     "u5.": "i",
+     "u6.": "i",
+     "u7.": "x"
+    },
+    "esempio": [
+     "xiiixxiixxxiiixxiixxxxxixixxxxxxxxxxxxxxixxxxxxixxixxixxx",
+     "xxxxxxxxiiiiixxixiiiixxiiixxiiiiixxixixxxxxxxxxxxxiiii",
+     "ixxixixxxxxxxixxxxxiixiixxxxxiiiixxixi",
+     "xxxxiixxiixxixxxxxiiixxxxxiiiiiixxixiiixxx",
+     "iixxxiiiiixxixixxxxxxxxiiiiixxixixxixxxxxxxixxxxxiiii",
+     "ixxixixxxxiixxxxxxiixxiiiiixxixiixixxxixixxxiiiiixxixi"
+    ],
+    "secondi": 10
+   },
+   "Voynich": {
+    "punteggio": -1.798837423324585,
+    "copertura": 0.8722493536340132,
+    "copertura_6": 0.15153691467968974,
+    "coppie_attestate": 0.001829640170766416,
+    "coppie_accanto": 4919,
+    "parole_diverse": 16,
+    "quota_tre_piu_frequenti": 0.6638913234005258,
+    "parole_frequenti": [
+     "xxxx",
+     "xxix",
+     "xxxxi",
+     "xxxix",
+     "xxii",
+     "xxxxii",
+     "xxxii",
+     "xxxi",
+     "xiii",
+     "xxiii",
+     "iiii",
+     "xiiii"
+    ],
+    "obiettivo": -11.682259985373253,
+    "ripartenze": [
+     -1.8359,
+     -1.7988,
+     -1.9238,
+     -1.8359
+    ],
+    "simboli": 8,
+    "lunghezza": 34810,
+    "chiave": {
+     "L1": "x",
+     "L2": "x",
+     "L3": "x",
+     "L4": "x",
+     "L5": "x",
+     "L6": "i",
+     "L7": "i",
+     "L8": "i"
+    },
+    "esempio": [
+     "xxxixxxxxxxxxxxixxxxxixxixxxixxxxixxixxxxxxxxixxxxxxxiixxxxxxxxxxxxxxxxxxixxxxxxxxixxixxxxixixxixxxxiixx",
+     "xxxxxxxxxxxxxxxxxxxxixxxxixxxxixxxixxxxxxiix",
+     "xixxxxxxixxixixixxxxxxxxxxxxxx",
+     "xixxxxxixxxxxi",
+     "xxxxxxxxxxx",
+     "xxxxi"
+    ],
+    "secondi": 16
+   },
+   "posizione": 0.01492864347528695
+  },
+  "italiano": {
+   "controllo positivo": {
+    "punteggio": -3.489365577697754,
+    "copertura": 0.18551841099198021,
+    "copertura_6": 0.007502371439248038,
+    "coppie_attestate": 0.03896103896103896,
+    "coppie_accanto": 77,
+    "parole_diverse": 112,
+    "quota_tre_piu_frequenti": 0.2224346717654557,
+    "parole_frequenti": [
+     "sete",
+     "rese",
+     "rete",
+     "eser",
+     "rase",
+     "lesa",
+     "resa",
+     "rise",
+     "reti",
+     "tese",
+     "sela",
+     "reso"
+    ],
+    "obiettivo": -12.056624976549147,
+    "ripartenze": [
+     -3.3627,
+     -3.3627,
+     -3.4894,
+     -3.5113
+    ],
+    "simboli": 8,
+    "lunghezza": 34789,
+    "chiave_giusta": 0.0,
+    "chiave": {
+     "u0.": "s",
+     "u1.": "l",
+     "u2.": "t",
+     "u3.": "r",
+     "u4.": "a",
+     "u5.": "i",
+     "u6.": "o",
+     "u7.": "e"
+    },
+    "esempio": [
+     "eresorareeateterieeetotloolesieleso",
+     "erieseireteteasesietireriestr",
+     "eesiesarselaosartieesooerereri",
+     "eseasiesaroreetatereessee",
+     "etesesaeseesaoreeetorar",
+     "esaeeseraetireriestoelatereso"
+    ],
+    "secondi": 10
+   },
+   "controllo negativo": {
+    "punteggio": -3.754336357116699,
+    "copertura": 0.18904471778365328,
+    "copertura_6": 0.008794114266007588,
+    "coppie_attestate": 0.0,
+    "coppie_accanto": 114,
+    "parole_diverse": 116,
+    "quota_tre_piu_frequenti": 0.2365038560411311,
+    "parole_frequenti": [
+     "essi",
+     "esse",
+     "tese",
+     "assi",
+     "siete",
+     "sete",
+     "rese",
+     "eser",
+     "arte",
+     "resi",
+     "asse",
+     "siro"
+    ],
+    "obiettivo": -12.406160547328074,
+    "ripartenze": [
+     -4.054,
+     -4.0718,
+     -3.9418,
+     -3.7543
+    ],
+    "simboli": 8,
+    "lunghezza": 34796,
+    "chiave": {
+     "u0.": "s",
+     "u1.": "i",
+     "u2.": "t",
+     "u3.": "r",
+     "u4.": "a",
+     "u5.": "i",
+     "u6.": "o",
+     "u7.": "e"
+    },
+    "esempio": [
+     "errieeirieetiaeeiriessetetieeesisseesesetieeesiieiaeetees",
+     "sseesesetoorieiaetttisettisetoorieiaetesseeeesseeetoor",
+     "ieiaeteeeesesasesieroeraeeeesoorieiaet",
+     "esseriesiresassesetiasesserroorieiaetrieee",
+     "rieeetoorieiaetsesesesetoorieiaetsetisesesetisesetoor",
+     "ieiaetisesiieiisesiieitoorieiaetisoeeiisoeeitoorieiaet"
+    ],
+    "secondi": 12
+   },
+   "Voynich": {
+    "punteggio": -4.584041118621826,
+    "copertura": 0.10815857512209136,
+    "copertura_6": 0.0029876472278081013,
+    "coppie_attestate": 0.0,
+    "coppie_accanto": 35,
+    "parole_diverse": 166,
+    "quota_tre_piu_frequenti": 0.12347052280311457,
+    "parole_frequenti": [
+     "aria",
+     "rara",
+     "trae",
+     "tare",
+     "asia",
+     "arsa",
+     "rete",
+     "arte",
+     "rase",
+     "ieri",
+     "sara",
+     "arse"
+    ],
+    "obiettivo": -13.160583835530982,
+    "ripartenze": [
+     -4.6542,
+     -4.584,
+     -4.6475,
+     -4.589
+    ],
+    "simboli": 8,
+    "lunghezza": 34810,
+    "chiave": {
+     "L1": "m",
+     "L2": "s",
+     "L3": "i",
+     "L4": "a",
+     "L5": "e",
+     "L6": "r",
+     "L7": "t",
+     "L8": "o"
+    },
+    "esempio": [
+     "easriaamieaismariiiiirasrieitseeeraersaamaeieoasiiemmrraaeeassaiieiiaaseetiieaesaatearaeiitsoisrmaairrie",
+     "sieaamiiiiiiisieiimstseiariaestiisreiiaaarri",
+     "ariiiaiarsetioirssieiaiiaeiiis",
+     "eraeiiereeieet",
+     "iaaessiaaia",
+     "iiaer"
+    ],
+    "secondi": 18
+   },
+   "posizione": -3.131306641904392
+  }
+ },
+ "valido": false,
+ "messaggio_non_escluso": false
+}

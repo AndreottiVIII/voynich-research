@@ -2722,3 +2722,28 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
     che la copia non dà (chiusura e A ≈ 1).
   - Una griglia più ricca, con parti dipendenti come le colonne di Rugg e tavole più grandi, potrebbe
     avvicinarsi. Il metodo esatto di Rugg non è stato verificato alla fonte.
+
+## 2/10/2026 — e125: un messaggio nelle lunghezze delle parole? Decifrazione non valida, statistica contraria
+
+- **Metodo.** Preregistrato (strada C).
+  - Dati: la sequenza delle lunghezze delle parole (1–8+) come testo di 8 simboli.
+  - Statistica come l'e119; poi il risolutore dell'e17 in latino e italiano.
+- **Risultati della statistica** (eccesso d'IM a distanza 1, contro il rimescolamento nella riga):
+
+  | sequenza | IM1 | S(1) |
+  |---|---|---|
+  | Voynich | 0,014 | 1,04 |
+  | lunghezze delle parole latine | 0,032 | 0,80 |
+  | latino cifrato con 8 simboli (testo vero nelle lunghezze) | **0,180** | 0,70 |
+  | Timm e Schinner | 0,003 | 0,96 |
+
+- **Decifrazione: controllo non valido.** Con soli 8 simboli il risolutore non ritrova la chiave
+  (0%) nemmeno sul controllo. Per regola, nessuna conclusione dalla parte 2.
+- **Lettura** (descrittiva, fuori dai criteri):
+  - Un testo nascosto nelle lunghezze lascerebbe una dipendenza fra simboli vicini 13 volte più forte
+    di quella del Voynich.
+  - La sequenza delle lunghezze del Voynich è anzi *meno* strutturata di quella di un normale testo
+    latino, e non evita la ripetizione della stessa lunghezza.
+  - La correlazione fra lunghezze vicine (V6) è reale ma debole, più del generatore e meno di una
+    lingua.
+  - Non c'è segno di un canale nelle lunghezze.

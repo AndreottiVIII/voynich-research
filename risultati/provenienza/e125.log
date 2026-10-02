@@ -1,0 +1,14 @@
+lunghezze del Voynich: 8 simboli, lunghezza 34810
+lunghezze del Voynich                        lungh 34810 simboli  8 | h1 2.71 h2 2.70 (h2/h1 0.99) | IM1 0.014 (z 31.5) IM2 0.003 (z 7.0) | S1 1.04 S2 1.03
+lunghezze delle parole latine                lungh 34810 simboli  8 | h1 2.78 h2 2.75 (h2/h1 0.99) | IM1 0.032 (z 130.6) IM2 0.002 (z 8.4) | S1 0.80 S2 0.97
+latino cifrato con 8 simboli (controllo)     lungh 34810 simboli  8 | h1 2.72 h2 2.54 (h2/h1 0.93) | IM1 0.180 (z 484.8) IM2 0.034 (z 84.8) | S1 0.70 S2 1.04
+lunghezze di Timm e Schinner                 lungh 34810 simboli  8 | h1 2.49 h2 2.49 (h2/h1 1.00) | IM1 0.003 (z 9.7) IM2 0.000 (z 0.6) | S1 0.96 S2 1.02
+latino     controllo positivo   punteggio -3.173 copertura 48.3% (6+: 2.1%) chiave giusta 0%
+latino     controllo negativo   punteggio -1.778 copertura 83.7% (6+: 25.6%) 
+latino     Voynich              punteggio -1.799 copertura 87.2% (6+: 15.2%) 
+   posizione del Voynich 0.01 | decifrato: xxxixxxxxxxxxxxixxxxxixxixxxixxxxixxixxxxxxxxixxxxxxxiixxxxxxxxxxxxxxxxxxixxxxxxxxixxixxxxixixxixxxxiixx / xxxxxxxxxxxxxxxxxxxxixxxxixxxxixxxixxxxxxiix / xixxxxxxixxixixixxxxxxxxxxxxxx
+italiano   controllo positivo   punteggio -3.489 copertura 18.6% (6+: 0.8%) chiave giusta 0%
+italiano   controllo negativo   punteggio -3.754 copertura 18.9% (6+: 0.9%) 
+italiano   Voynich              punteggio -4.584 copertura 10.8% (6+: 0.3%) 
+   posizione del Voynich -3.13 | decifrato: easriaamieaismariiiiirasrieitseeeraersaamaeieoasiiemmrraaeeassaiieiiaaseetiieaesaatearaeiitsoisrmaairrie / sieaamiiiiiiisieiimstseiariaestiisreiiaaarri / ariiiaiarsetioirssieiaiiaeiiis
+controllo valido: False | messaggio non escluso: False
