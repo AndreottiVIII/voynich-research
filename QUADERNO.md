@@ -2747,3 +2747,24 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
   - La correlazione fra lunghezze vicine (V6) è reale ma debole, più del generatore e meno di una
     lingua.
   - Non c'è segno di un canale nelle lunghezze.
+
+## 2/10/2026 — e126: nessuna grammatica nemmeno nella composizione della riga; trasposizione esclusa
+
+- **Metodo.** Preregistrato (ipotesi 1).
+  - Misura: accordo fra terminazioni *diverse* (ultimi 2 segni) in coppie a distanza ≥ 2 nella stessa
+    riga. Non dipende dall'ordine dentro la riga.
+  - Nullo: scambio di parole fra righe della stessa pagina, per classe di posizione.
+- **Risultati** (eccesso d'IM, z):
+  - Voynich: ZL −0,0008 (−0,5), IT +0,0004 (0,3);
+  - Timm e Schinner: z 3,2, 7,3, 5,7;
+  - lingue: latino 22,5, italiano 29,4, ungherese 32,5, turco 25,7, Ovidio 8,5.
+  - Terminazioni identiche: Voynich ×1,07, lingue ×1,15–1,36, Timm e Schinner ×1,0.
+- **Esito: trasposizione esclusa**, alla sensibilità del controllo (controllo valido, cinque lingue su
+  cinque). L'eccesso del Voynich vale −3% di quello latino.
+- **Lettura.**
+  - Le parole di una riga del Voynich non portano coppie grammaticali di terminazioni, nemmeno
+    ignorando l'ordine. Persino Timm e Schinner ne ha un po' di più, per la copia da parole vicine.
+  - Insieme a e114 ed e115: nessuna traccia di sintassi né nell'ordine né nella composizione della
+    riga, per qualunque cifratura che conservi le terminazioni.
+  - Resta coperta solo da codici che sostituiscono parole intere, o da un contenuto che non ha
+    grammatica (elenchi, nomi).
