@@ -3289,3 +3289,30 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
   - **Prossimo passo** (da preregistrare): ricostruire l'ordine di scrittura dei bifogli dalla
     somiglianza, e controllare se la deriva del vocabolario diventa più regolare in quell'ordine che
     in quello attuale.
+
+## 2/10/2026 — e150 ed e150b: i bifogli hanno un ordine di somiglianza che la rilegatura non segue
+
+- **e150** (preregistrato).
+  - Unità: 52 bifogli (o fogli singoli).
+  - Si ricostruisce un ordine che massimizza la somiglianza di vocabolario fra unità consecutive,
+    calcolata su metà delle righe (avido + 2-opt), e lo si valuta sull'altra metà, per 20 divisioni.
+  - Ricostruito 0,50–0,54 contro rilegatura 0,42–0,45 e ordini casuali 0,31–0,34: vince **20 su 20**.
+  - Ma l'ordine ricostruito separa nettamente mani e lingue: prima tutti i bifogli B, poi tutti gli A.
+    Il guadagno poteva venire solo da questo, già noto.
+- **e150b** (preregistrato dopo l'e150): la stessa prova **dentro** i gruppi di stessa mano e lingua
+  (mano 1/A: 27 unità; 2/B: 11; 3/B: 7).
+  - Ricostruito 0,53–0,57 contro rilegatura 0,50–0,52: vince **20 su 20** in totale e 20 su 20 nel
+    gruppo più grande da solo.
+- **Esito per regola:** ordine diverso dalla rilegatura sì, anche dentro le mani.
+- **Lettura, con cautela.**
+  - Fra i bifogli c'è una struttura di somiglianza di vocabolario stabile: la si ritrova uguale in due
+    metà indipendenti delle righe. L'ordine di rilegatura non la segue, nemmeno dentro la stessa mano.
+  - Insieme all'e148 (le due metà di un bifoglio si somigliano molto), è compatibile con una
+    produzione per bifogli in un ordine diverso da quello attuale, con il vocabolario che deriva da un
+    bifoglio al successivo.
+  - **Non lo dimostra.** La stessa struttura potrebbe venire da somiglianze di contenuto (piante
+    simili scritte con parole simili) o da gruppi non lineari. Che sia una sequenza, e non una
+    raccolta di gruppi, andrebbe provato a parte (per esempio con la continuità di mano, inchiostro o
+    impaginazione nell'ordine ricostruito).
+  - Interessa il white paper: la rilegatura attuale non è l'ordine di produzione, in accordo con
+    quanto si sa dalla codicologia (bifogli rimescolati).

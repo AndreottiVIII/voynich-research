@@ -1,0 +1,22 @@
+gruppi: {'1/A': 27, '2/B': 11, '3/B': 7}
+divisione  1 | ricostruito 0.5450 rilegatura 0.5010 | m1/A 0.482/0.446 m2/B 0.642/0.574 m3/B 0.657/0.620
+divisione  2 | ricostruito 0.5545 rilegatura 0.5107 | m1/A 0.505/0.460 m2/B 0.612/0.570 m3/B 0.674/0.630
+divisione  3 | ricostruito 0.5493 rilegatura 0.5093 | m1/A 0.500/0.461 m2/B 0.612/0.566 m3/B 0.658/0.623
+divisione  4 | ricostruito 0.5503 rilegatura 0.5087 | m1/A 0.496/0.455 m2/B 0.636/0.586 m3/B 0.645/0.611
+divisione  5 | ricostruito 0.5397 rilegatura 0.4963 | m1/A 0.482/0.436 m2/B 0.615/0.590 m3/B 0.666/0.601
+divisione  6 | ricostruito 0.5528 rilegatura 0.5090 | m1/A 0.496/0.449 m2/B 0.643/0.609 m3/B 0.649/0.603
+divisione  7 | ricostruito 0.5376 rilegatura 0.4955 | m1/A 0.475/0.435 m2/B 0.626/0.587 m3/B 0.661/0.606
+divisione  8 | ricostruito 0.5492 rilegatura 0.5084 | m1/A 0.499/0.457 m2/B 0.606/0.575 m3/B 0.673/0.620
+divisione  9 | ricostruito 0.5358 rilegatura 0.4972 | m1/A 0.491/0.456 m2/B 0.591/0.546 m3/B 0.637/0.595
+divisione 10 | ricostruito 0.5611 rilegatura 0.5175 | m1/A 0.502/0.460 m2/B 0.644/0.583 m3/B 0.681/0.660
+divisione 11 | ricostruito 0.5512 rilegatura 0.5157 | m1/A 0.502/0.465 m2/B 0.629/0.601 m3/B 0.635/0.592
+divisione 12 | ricostruito 0.5581 rilegatura 0.5165 | m1/A 0.507/0.460 m2/B 0.634/0.597 m3/B 0.653/0.629
+divisione 13 | ricostruito 0.5646 rilegatura 0.5165 | m1/A 0.519/0.472 m2/B 0.626/0.576 m3/B 0.659/0.611
+divisione 14 | ricostruito 0.5564 rilegatura 0.5136 | m1/A 0.512/0.466 m2/B 0.602/0.564 m3/B 0.674/0.634
+divisione 15 | ricostruito 0.5476 rilegatura 0.5010 | m1/A 0.494/0.441 m2/B 0.629/0.593 m3/B 0.645/0.608
+divisione 16 | ricostruito 0.5486 rilegatura 0.5150 | m1/A 0.491/0.453 m2/B 0.619/0.601 m3/B 0.681/0.641
+divisione 17 | ricostruito 0.5250 rilegatura 0.4999 | m1/A 0.454/0.436 m2/B 0.627/0.595 m3/B 0.662/0.621
+divisione 18 | ricostruito 0.5696 rilegatura 0.5166 | m1/A 0.524/0.467 m2/B 0.637/0.586 m3/B 0.654/0.618
+divisione 19 | ricostruito 0.5387 rilegatura 0.5009 | m1/A 0.477/0.461 m2/B 0.644/0.556 m3/B 0.630/0.582
+divisione 20 | ricostruito 0.5476 rilegatura 0.5044 | m1/A 0.495/0.455 m2/B 0.620/0.574 m3/B 0.655/0.601
+vittorie totali 20/20, gruppo piu' grande 20/20 | ordine dentro i gruppi: True
