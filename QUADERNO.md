@@ -4501,3 +4501,42 @@ sequenza.
 - **Nota di metodo per il white paper:** i codici a lunghezza variabile ben fatti sono quasi
   incomprimibili, quindi questo tipo di test non li può escludere. Resta solo il limite di capacità
   (e182).
+
+## 2/10/2026 — e191b: il guadagno di compressione dell'e191 è tutto interno alle parole
+
+- **Metodo.** Preregistrato. Stesso compressore dell'e191, con un nullo che permuta le parole intere
+  dentro la riga, ciascuna con le sue scelte.
+- **Risultato:** 0,9425 bit per occorrenza contro 0,9425 del nullo; guadagno −0,0001, z −0,4.
+- **Esito per regola: il guadagno dell'e191 è interno alle parole.**
+- **Lettura.**
+  - Una volta conservati i legami fra scelte della stessa parola, l'ordine delle parole non aggiunge
+    nessuna ridondanza alla sequenza delle scelte.
+  - Nessuna traccia di un messaggio che corre lungo il testo nelle scelte di grafia: né a blocchi
+    (e181), né per riga (e185), né sequenziale (e191, e191b). Resta il limite di potenza per i codici
+    di Huffman ben fatti.
+
+## 2/10/2026 — e189: i tre canali "liberi" potrebbero portare al massimo ~95.000 bit
+
+- **Metodo.** Preregistrato, descrittivo. Informazione non spiegata dalle regole note, in tre canali:
+  - (a) scelte di grafia (e182);
+  - (b) segno d'inizio riga dato quello della riga sopra;
+  - (c) ordine delle parole nella riga, dato il modello delle giunture. Calcolo esatto su tutte le
+    permutazioni per le righe di 3–7 parole (prima parola fissa), estrapolato per parola alle righe
+    più lunghe.
+- **Risultati:**
+
+  | canale | bit |
+  |---|---|
+  | (a) scelte di grafia | 49.215 |
+  | (b) segno d'inizio riga | 5.823 (1,75 per riga) |
+  | (c) ordine delle parole | 40.137 (7.066 esatti su 1.387 righe; 1,34 bit per parola, il resto estrapolato) |
+  | **totale** | **95.175** |
+
+- **Equivalente:** 23.000–48.000 lettere di latino, cioè circa 3.900–7.900 parole.
+- **Lettura.**
+  - È un **limite superiore**. Se il Voynich nascondesse un messaggio solo nella forma (varianti,
+    ordine, segni d'inizio) lasciando il vocabolario a un procedimento senza messaggio, il messaggio
+    non potrebbe superare qualche migliaio di parole latine, l'equivalente di un breve trattato.
+  - Per le scelte di grafia i test di struttura sono negativi (e181, e185, e191b).
+  - **Cautela:** la parte (c) è per l'80% estrapolata dalle righe di 6–7 parole. I modelli delle
+    abitudini sono semplici, e un modello migliore abbasserebbe il limite.
