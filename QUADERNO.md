@@ -4970,3 +4970,19 @@ sequenza.
   - In più c'è la varietà dentro la pagina: un generatore buono deve pescare meno dalla pagina e più dal
     manoscritto intero.
   - Il discriminatore si rieseguirà sulla configurazione finale dell'e224/e230.
+
+## 3/10/2026 — e227c: neanche i tagli dove le metà sono frequenti danno l'eccesso di unioni a giuntura conservata
+
+- **Preregistrato.** Il punto di taglio si sceglie con peso (f(a)·f(b))^β, con β ∈ {0; 0,5; 1; 2} e
+  σ ∈ {0,06; 0,09; 0,12}.
+- **Validità:** σ 0,09 e β 0 ripete l'e227b (U/N0 1,84, legame 0,187, Q 0,67): valido.
+- **Risultati.**
+  - Con β > 0, U/N1 e U/N2 restano a 1,19–1,22 e 1,06–1,08 (bersagli 1,29 e 1,16).
+  - Il legame cala, perché le metà frequenti sono corte e la giuntura dipende meno dai segni interni.
+- **Esito: non bastano.** Il punto più vicino resta σ 0,09 con β 0, fuori U/N1 e U/N2.
+- **Lettura.**
+  - L'eccesso di unioni che resta a parità di segni finali è una proprietà a sé. Coppie di parole
+    vicine **specifiche** si uniscono in parole attestate più di quanto dica la loro fine.
+  - Né spezzare a caso né spezzare dove le metà sono frequenti lo produce.
+  - Resta aperta: per il voynichizzatore è una proprietà di second'ordine da segnalare come mancante,
+    se non si trova il meccanismo.
