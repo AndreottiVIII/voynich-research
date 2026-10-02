@@ -2880,3 +2880,43 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
   - ordine stretto escluso: un terzo dei tipi ha un anagramma;
   - ordine più rigido di una lingua, come quello del generatore che copia parole del Voynich.
   - Ordinare le lettere non avvicina il latino al Voynich.
+
+## 2/10/2026 — e133: le letture di Bax e Vatne non reggono alla verifica sistematica
+
+- **Metodo.** Preregistrato.
+  - Fonti: Bax (2014), dall'archivio web, perché il sito risponde 403; Vatne (2021), con la sua
+    tabella di lavoro.
+  - Nota di trasparenza: in una prova d'accesso a Wikidata, poi abbandonata, ho messo per errore
+    l'email di Davide nell'intestazione User-Agent. La richiesta non ha avuto risposta e non è stata
+    ripetuta; il test non usa Wikidata.
+- **Parte 1, le parole di Bax su tutte le occorrenze.**
+  - Per regola "reggono" (7 coerenti su 10), ma **la regola era mal posta**: 6 delle 7 "coerenti" sono
+    parole che compaiono una volta sola (kydainy, kydain, koaiin, keedey, ksor, keeredal), quindi
+    stanno per forza sulla loro pagina e il confronto non è informativo (z 0).
+  - Le tre parole che ricorrono falliscono tutte:
+    - **shaiin** (Chiron): 20 occorrenze su 18 pagine, erbario, astronomia, ricette;
+    - **shor** (char, "nero"): 96 occorrenze su 67 pagine, in tutte le sezioni;
+    - **oror** (arar, ginepro): 8 occorrenze, **nessuna** su f15v o f16r né nell'erbario (sezioni B,
+      C, P, S, T). Nella ZL la parola delle pagine del ginepro è "poror", oppure un pezzo di parola.
+  - Lettura corretta: dove la verifica è possibile, cioè per le parole ricorrenti, le letture di Bax
+    non si comportano da nomi.
+- **Parte 2, la chiave di Bax contro 10.000 chiavi casuali.**
+  - Sulle 128 pagine d'erbario: S = 7 contro 1,6 (p 0,015). È atteso, perché la chiave è stata
+    ricavata da quelle pagine.
+  - **Fuori campione**, senza le 7 pagine di Bax: S = 2 contro 0,70 (99° percentile 4; p 0,14).
+    **Non batte il caso.**
+  - In più, il 12% delle parole interne (3.737 su 30.777) decifra in un "nome" del suo lessico:
+    TR ("toro") 1.358 volte, KTN ("cotone") 1.051, KR ("elleboro") 1.042. La chiave produce nomi
+    dappertutto, quindi non è specifica.
+- **Parte 3, le parole di Vatne.**
+  - Delle 84 voci della tabella, 28 si ritrovano identiche nella ZL sulla pagina indicata: Vatne usa
+    una trascrizione propria.
+  - Di queste, **12 (43%) compaiono anche su altre pagine** (shody in 6 pagine di ricette, chaiin e dol
+    in decine di pagine). Le prime parole di confronto fanno il 47%. p = 0,43.
+  - L'affermazione "these names are not found at any place in the texts" è **smentita**, e le sue
+    parole non si comportano diversamente da qualsiasi prima parola di paragrafo.
+- **Esito complessivo.**
+  - Nessuna delle due proposte fornisce un appiglio verificato.
+  - La chiave di Bax non batte il caso fuori campione, e i suoi nomi ricorrenti stanno dappertutto.
+  - Le parole di Vatne non sono diverse dalle altre prime parole.
+- **Da fare:** Sherwood (anagrammi, serve il suo alfabeto completo) e Tucker-Talbert (fonti parziali).

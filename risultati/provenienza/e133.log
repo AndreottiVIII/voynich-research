@@ -1,0 +1,24 @@
+f2r kydainy        kantairon    centaurea   occ    1 pagine   1 | sulla pagina 1 (1.00; attesa 1.00, z 0.0) | sezioni {'H': 1} | coerente True
+f2r kydain         Chiron       centauro    occ    1 pagine   1 | sulla pagina 1 (1.00; attesa 1.00, z 0.0) | sezioni {'H': 1} | coerente True
+f2r shaiin         Chiron       centauro    occ   20 pagine  18 | sulla pagina 1 (0.05; attesa 0.13, z -1.6) | sezioni {'T': 1, 'H': 13, 'S': 6} | coerente False
+f3v koaiin         kaur         elleboro    occ    1 pagine   1 | sulla pagina 1 (1.00; attesa 1.00, z 0.0) | sezioni {'H': 1} | coerente True
+f29v kooiin        ka-ur char   nigella     occ    2 pagine   2 | sulla pagina 1 (0.50; attesa 0.51, z -0.2) | sezioni {'H': 2} | coerente True
+f29v shor          ka-ur char   nigella     occ   96 pagine  67 | sulla pagina 1 (0.01; attesa 0.06, z -1.9) | sezioni {'H': 68, 'S': 8, 'T': 8, 'B': 3, 'C': 3, 'P': 6} | coerente False
+f31r keedey        kooton       cotone      occ    1 pagine   1 | sulla pagina 1 (1.00; attesa 1.00, z 0.0) | sezioni {'H': 1} | coerente True
+f27r ksor          ksar         croco       occ    1 pagine   1 | sulla pagina 1 (1.00; attesa 1.00, z 0.0) | sezioni {'H': 1} | coerente True
+f41v keeredal      koratu-      coriandolo  occ    1 pagine   1 | sulla pagina 1 (1.00; attesa 1.00, z 0.0) | sezioni {'H': 1} | coerente True
+f16r oror          arar         ginepro     occ    8 pagine   8 | sulla pagina 0 (0.00; attesa 0.19, z -2.0) | sezioni {'B': 3, 'C': 1, 'P': 1, 'S': 2, 'T': 1} | coerente False
+Bax: parole coerenti come nomi 7 su 10
+Bax, chiave: pagine d'erbario 128 | S_tutte 7 (nullo 1.59, p 0.0147) | S_fuori 2 (nullo 0.70, p99 4, p 0.1383) | batte il caso fuori campione False
+   esempi fuori campione: {'f2v': ('kooiin', 'KR'), 'f6v': ('koary', 'KRN')} | parole interne con un nome del lessico: 3737 su 30777 ({'TR': 1358, 'KTN': 1051, 'KR': 1042, 'RR': 238, 'TRN': 23, 'KRN': 17, 'KSR': 6, 'KRNTR': 1, 'KRT': 1})
+Vatne: voci 84, tenute 28 | compaiono su altre pagine 12 (0.43) | prime parole di confronto altrove 0.47 (100) | p 0.4322 | affermazione smentita True | come nomi False
+    ('f5r', 'shody', ['f101r', 'f104r', 'f105r', 'f106v', 'f112v', 'f113v'])
+    ('f9r', 'cthor', ['f10r', 'f10v', 'f11v', 'f13v', 'f14v', 'f15v'])
+    ('f10r', 'pchocthy', ['f16v', 'f20r'])
+    ('f11r', 'cfhy', ['f10r', 'f22r', 'f32v', 'f53r', 'f58v', 'f86v3'])
+    ('f17v', 'pchodol', ['f10r'])
+    ('f19v', 'chaiin', ['f107r', 'f10r', 'f111r', 'f112v', 'f114r', 'f114v'])
+    ('f22r', 'olshy', ['f103v', 'f84r', 'f99v'])
+    ('f26r', 'p', ['f113v', 'f49v', 'f57v', 'f66r'])
+    ('f39r', 'tedo', ['f108r'])
+    ('f53r', 'dol', ['f101r', 'f101v', 'f102r1', 'f102r2', 'f102v2', 'f105v'])

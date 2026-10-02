@@ -1,0 +1,445 @@
+{
+ "parte1_bax_occorrenze": {
+  "f2r kydainy": {
+   "lettura": "kantairon",
+   "oggetto": "centaurea",
+   "occorrenze": 1,
+   "pagine": 1,
+   "sezioni": {
+    "H": 1
+   },
+   "sulla_pagina": 1,
+   "quota_sulla_pagina": 1.0,
+   "quota_attesa_parole_simili": 1.0,
+   "z": null,
+   "coerente": true
+  },
+  "f2r kydain": {
+   "lettura": "Chiron",
+   "oggetto": "centauro",
+   "occorrenze": 1,
+   "pagine": 1,
+   "sezioni": {
+    "H": 1
+   },
+   "sulla_pagina": 1,
+   "quota_sulla_pagina": 1.0,
+   "quota_attesa_parole_simili": 1.0,
+   "z": null,
+   "coerente": true
+  },
+  "f2r shaiin": {
+   "lettura": "Chiron",
+   "oggetto": "centauro",
+   "occorrenze": 20,
+   "pagine": 18,
+   "sezioni": {
+    "T": 1,
+    "H": 13,
+    "S": 6
+   },
+   "sulla_pagina": 1,
+   "quota_sulla_pagina": 0.05,
+   "quota_attesa_parole_simili": 0.132524162266668,
+   "z": -1.604152850397045,
+   "coerente": false
+  },
+  "f3v koaiin": {
+   "lettura": "kaur",
+   "oggetto": "elleboro",
+   "occorrenze": 1,
+   "pagine": 1,
+   "sezioni": {
+    "H": 1
+   },
+   "sulla_pagina": 1,
+   "quota_sulla_pagina": 1.0,
+   "quota_attesa_parole_simili": 1.0,
+   "z": null,
+   "coerente": true
+  },
+  "f29v kooiin": {
+   "lettura": "ka-ur char",
+   "oggetto": "nigella",
+   "occorrenze": 2,
+   "pagine": 2,
+   "sezioni": {
+    "H": 2
+   },
+   "sulla_pagina": 1,
+   "quota_sulla_pagina": 0.5,
+   "quota_attesa_parole_simili": 0.512,
+   "z": -0.15681251204679514,
+   "coerente": true
+  },
+  "f29v shor": {
+   "lettura": "ka-ur char",
+   "oggetto": "nigella",
+   "occorrenze": 96,
+   "pagine": 67,
+   "sezioni": {
+    "H": 68,
+    "S": 8,
+    "T": 8,
+    "B": 3,
+    "C": 3,
+    "P": 6
+   },
+   "sulla_pagina": 1,
+   "quota_sulla_pagina": 0.010416666666666666,
+   "quota_attesa_parole_simili": 0.06495409148511265,
+   "z": -1.9357007540422533,
+   "coerente": false
+  },
+  "f31r keedey": {
+   "lettura": "kooton",
+   "oggetto": "cotone",
+   "occorrenze": 1,
+   "pagine": 1,
+   "sezioni": {
+    "H": 1
+   },
+   "sulla_pagina": 1,
+   "quota_sulla_pagina": 1.0,
+   "quota_attesa_parole_simili": 1.0,
+   "z": null,
+   "coerente": true
+  },
+  "f27r ksor": {
+   "lettura": "ksar",
+   "oggetto": "croco",
+   "occorrenze": 1,
+   "pagine": 1,
+   "sezioni": {
+    "H": 1
+   },
+   "sulla_pagina": 1,
+   "quota_sulla_pagina": 1.0,
+   "quota_attesa_parole_simili": 1.0,
+   "z": null,
+   "coerente": true
+  },
+  "f41v keeredal": {
+   "lettura": "koratu-",
+   "oggetto": "coriandolo",
+   "occorrenze": 1,
+   "pagine": 1,
+   "sezioni": {
+    "H": 1
+   },
+   "sulla_pagina": 1,
+   "quota_sulla_pagina": 1.0,
+   "quota_attesa_parole_simili": 1.0,
+   "z": null,
+   "coerente": true
+  },
+  "f16r oror": {
+   "lettura": "arar",
+   "oggetto": "ginepro",
+   "occorrenze": 8,
+   "pagine": 8,
+   "sezioni": {
+    "B": 3,
+    "C": 1,
+    "P": 1,
+    "S": 2,
+    "T": 1
+   },
+   "sulla_pagina": 0,
+   "quota_sulla_pagina": 0.0,
+   "quota_attesa_parole_simili": 0.18800396825396826,
+   "z": -2.000429013310449,
+   "coerente": false
+  }
+ },
+ "bax_letture_reggono": true,
+ "parte2_bax_chiave": {
+  "pagine_erbario": 128,
+  "prime_decifrabili_fuori_campione": 11,
+  "S_tutte": 7,
+  "nullo_tutte_media": 1.5861,
+  "p_tutte": 0.0147,
+  "S_fuori": 2,
+  "nullo_fuori_media": 0.7016,
+  "nullo_fuori_p99": 4,
+  "p_fuori": 0.1383,
+  "batte_il_caso_fuori_campione": false,
+  "esempi_fuori_campione": {
+   "f2v": [
+    "kooiin",
+    "KR"
+   ],
+   "f6v": [
+    "koary",
+    "KRN"
+   ]
+  },
+  "parole_interne": 30777,
+  "interne_con_nome_del_lessico": 3737,
+  "interne_per_nome": {
+   "TR": 1358,
+   "KTN": 1051,
+   "KR": 1042,
+   "RR": 238,
+   "TRN": 23,
+   "KRN": 17,
+   "KSR": 6,
+   "KRNTR": 1,
+   "KRT": 1
+  }
+ },
+ "parte3_vatne": {
+  "voci_nella_tabella": 84,
+  "voci_tenute": 28,
+  "voci_escluse": 56,
+  "tenute": [
+   [
+    "f2r",
+    "kydain"
+   ],
+   [
+    "f4v",
+    "pchooiin"
+   ],
+   [
+    "f5r",
+    "shody"
+   ],
+   [
+    "f9r",
+    "cthor"
+   ],
+   [
+    "f9v",
+    "fochor"
+   ],
+   [
+    "f10r",
+    "pchocthy"
+   ],
+   [
+    "f11r",
+    "cfhy"
+   ],
+   [
+    "f11v",
+    "poldchody"
+   ],
+   [
+    "f17v",
+    "pchodol"
+   ],
+   [
+    "f18r",
+    "yoar"
+   ],
+   [
+    "f19v",
+    "chaiin"
+   ],
+   [
+    "f21r",
+    "eeockhy"
+   ],
+   [
+    "f22r",
+    "olshy"
+   ],
+   [
+    "f26r",
+    "p"
+   ],
+   [
+    "f31r",
+    "keedey"
+   ],
+   [
+    "f38r",
+    "tolor"
+   ],
+   [
+    "f39r",
+    "tedo"
+   ],
+   [
+    "f40r",
+    "eodar"
+   ],
+   [
+    "f41r",
+    "kedaleey"
+   ],
+   [
+    "f43r",
+    "tarodaiin"
+   ],
+   [
+    "f44r",
+    "koees"
+   ],
+   [
+    "f46r",
+    "pcheocphy"
+   ],
+   [
+    "f48v",
+    "pcheodchy"
+   ],
+   [
+    "f53r",
+    "dol"
+   ],
+   [
+    "f55v",
+    "oedain"
+   ],
+   [
+    "f65v",
+    "cphy"
+   ],
+   [
+    "f66v",
+    "okeodof"
+   ],
+   [
+    "f90v1",
+    "cheos"
+   ]
+  ],
+  "altrove": 12,
+  "quota_altrove": 0.42857142857142855,
+  "esempi_altrove": [
+   [
+    "f5r",
+    "shody",
+    [
+     "f101r",
+     "f104r",
+     "f105r",
+     "f106v",
+     "f112v",
+     "f113v"
+    ]
+   ],
+   [
+    "f9r",
+    "cthor",
+    [
+     "f10r",
+     "f10v",
+     "f11v",
+     "f13v",
+     "f14v",
+     "f15v"
+    ]
+   ],
+   [
+    "f10r",
+    "pchocthy",
+    [
+     "f16v",
+     "f20r"
+    ]
+   ],
+   [
+    "f11r",
+    "cfhy",
+    [
+     "f10r",
+     "f22r",
+     "f32v",
+     "f53r",
+     "f58v",
+     "f86v3"
+    ]
+   ],
+   [
+    "f17v",
+    "pchodol",
+    [
+     "f10r"
+    ]
+   ],
+   [
+    "f19v",
+    "chaiin",
+    [
+     "f107r",
+     "f10r",
+     "f111r",
+     "f112v",
+     "f114r",
+     "f114v"
+    ]
+   ],
+   [
+    "f22r",
+    "olshy",
+    [
+     "f103v",
+     "f84r",
+     "f99v"
+    ]
+   ],
+   [
+    "f26r",
+    "p",
+    [
+     "f113v",
+     "f49v",
+     "f57v",
+     "f66r"
+    ]
+   ],
+   [
+    "f39r",
+    "tedo",
+    [
+     "f108r"
+    ]
+   ],
+   [
+    "f53r",
+    "dol",
+    [
+     "f101r",
+     "f101v",
+     "f102r1",
+     "f102r2",
+     "f102v2",
+     "f105v"
+    ]
+   ],
+   [
+    "f65v",
+    "cphy",
+    [
+     "f114r",
+     "f11r",
+     "f1r",
+     "f20v",
+     "f2r",
+     "f34v"
+    ]
+   ],
+   [
+    "f90v1",
+    "cheos",
+    [
+     "f102r2",
+     "f102v2",
+     "f104v",
+     "f106r",
+     "f106v",
+     "f107r"
+    ]
+   ]
+  ],
+  "confronto_prime_parole": 100,
+  "confronto_altrove": 47,
+  "quota_confronto_altrove": 0.47,
+  "p_fisher": 0.4321889743576407,
+  "affermazione_smentita": true,
+  "come_nomi": false
+ }
+}
