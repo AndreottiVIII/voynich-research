@@ -1,0 +1,3 @@
+ν 0      9/18 | riga True | completo False | mancano ['uniche', 'gradiente', 'legame', 'unioni', 'curva piatta', 'Zipf', 'verticale', 'formule', 'bordo di riga'] | +[] -[]
+ν 0.1    8/18 | riga True | completo False | mancano ['uniche', 'gradiente', 'legame', 'unioni', 'curva piatta', 'profilo pagina', 'lunghezze vicine', 'Zipf', 'verticale', 'bordo di riga'] | +['formule'] -['profilo pagina', 'lunghezze vicine']
+ν 0.25   6/18 | riga True | completo False | mancano ['tipi', 'omogeneità', 'gradiente', 'legame', 'unioni', 'curva piatta', 'profilo pagina', 'lunghezze vicine', 'Zipf', 'verticale', 'formule', 'bordo di riga'] | +['uniche'] -['tipi', 'omogeneità', 'profilo pagina', 'lunghezze vicine']
