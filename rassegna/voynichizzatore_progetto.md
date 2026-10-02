@@ -169,6 +169,27 @@ Per ogni componente: la proprietà che deve dare, da dove viene e lo stato attua
 - Spazi certi e incerti (`.` e `,` dell'EVA) con le frequenze per tipo di giuntura (e12, pagella
   "spazio"). Gli spazi delle "parole spezzate" sono normali a parità di lunghezza (e195b).
 
+### Aggiornamento della notte (e226–e228b)
+
+- **Parole spezzate:**
+  - spezzare il 6% delle parole in due parti attestate dà **insieme** il legame (0,189 contro 0,188), la
+    sua quota nelle coppie uniche (Q 0,65 contro 0,67) e le unioni grezze (1,87 contro 1,92) (e227b);
+  - la regola dei segni alle giunture non va rafforzata;
+  - le parole di base vanno allungate, perché la spezzatura le accorcia (4,46 → 4,20);
+  - resta fuori l'eccesso di unioni a parità di segni finali (U/N1, U/N2), che i tagli a caso non
+    riproducono. L'e227c, ancora in corso, prova i tagli dove le metà sono frequenti: i primi punti
+    dicono di no.
+- **Copia verticale per posizione fisica** (e228, e228b, z 3,9): la parola copiata è quella
+  materialmente sopra, non quella di pari indice. Senza immagini, la posizione si stima dal conteggio
+  cumulato dei segni. Nel voynichizzatore, che ha la disposizione delle pagine vere, la si può prendere
+  dai riquadri.
+- **Lessico:**
+  - le parole nuove nascono un po' dalla pagina (L 1,56), meno che nel generatore (2,19) (e226);
+  - il grosso divario sulle parole rare (e211) viene dal fatto che nel generatore la variante resta sulla
+    sua pagina. Serve un lessico di parole nuove che cresce per sezione e si riusa altrove: lo prova
+    l'e230.
+- **Discriminatore** (e231): in corso sul generatore e192.
+
 ## 6. L'immagine
 
 Due stadi.
