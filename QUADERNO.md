@@ -3187,3 +3187,20 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
 - **Lettura.** È coerente con l'osservazione di r/voynich: il vocabolario segue la posizione nel
   manoscritto (e le mani), non il soggetto dei disegni. Le due pagine dello stesso segno sono vicine
   nel libro, ma non più simili fra loro di due pagine vicine di segni diversi.
+
+## 2/10/2026 — e143: inizio e fine della stessa riga non sono legati (controllo non valido)
+
+- **Metodo.** Preregistrato.
+  - Informazione mutua fra la classe del primo segno e l'ultimo segno della stessa riga, contro il
+    rimescolamento delle fini fra righe della stessa pagina e della stessa classe di lunghezza.
+- **Risultati:**
+  - Voynich: IM 0,0287 contro 0,0299 (z −0,4);
+  - Timm e Schinner: z 1,3;
+  - controllo positivo (in un terzo delle righe che cominciano con s, l'ultimo segno diventa m):
+    z 6,4.
+- **Validità: no**, perché il controllo positivo non arriva a z 10. L'effetto imposto era piccolo:
+  riguarda solo le righe in s.
+- **Lettura** (descrittiva): nel Voynich l'informazione mutua osservata è persino sotto il nullo.
+  Nessuna traccia di una cornice inizio–fine, con una sensibilità inferiore a un legame che tocca il
+  30% delle righe in s. Le celle più lontane da 1 (G…m ×1,39, y…m ×1,26, G…n ×0,72) restano entro la
+  variazione del nullo complessivo.
