@@ -2696,3 +2696,29 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
   lingua. Non dice nulla sul fatto che il Voynich lo sia. Dice che questa strada di decifrazione,
   anche se l'ipotesi fosse vera, richiederebbe un appiglio esterno: etichette con referente noto
   (e122), nomi propri, una parola certa.
+
+## 2/10/2026 — e124: tavola e griglia (Rugg, ricostruzione semplificata). Lontana nel complesso, utile in due punti
+
+- **Metodo.** Preregistrato (strada B).
+  - Tavola di 40 righe con prefisso, nucleo e suffisso estratti dalle parti delle parole del Voynich.
+  - Griglia a tre fori, cella vuota con probabilità b, ripartenza o continuazione a ogni riga, tavola
+    nuova ogni T pagine.
+  - Medie su tre semi.
+- **Risultati:**
+  - pagella **da 1 a 5 su 18** in tutte le combinazioni;
+  - **difetti:** h2 2,84–2,88 (troppo alta), parole uniche 0–0,14 (Voynich 0,66), tipi/parole
+    0,03–0,12 (troppo pochi);
+  - **due cose che il generatore di Timm e Schinner non ottiene:**
+    - **A ≈ 1,0** (0,985–1,025; Voynich 1,044): senza copia a catena l'alternanza viene da sé;
+    - **con la griglia che riparte a ogni riga, la riga si chiude:** R 0,01–0,14 contro 0,56–0,72
+      quando continua.
+  - S(1) però resta a 0,97–1,11 (Voynich 0,52).
+  - La copia della prima e della seconda colonna è simile (Voynich: 1,03 / 1,47).
+- **Esito: nessuna combinazione completa.**
+- **Lettura.**
+  - La mia ricostruzione è troppo povera: 40 righe di parti indipendenti danno poche parole, tutte
+    ricorrenti, e niente struttura interna.
+  - L'idea di fondo, cioè un procedimento posizionale che riparte a ogni riga, dà gratis due proprietà
+    che la copia non dà (chiusura e A ≈ 1).
+  - Una griglia più ricca, con parti dipendenti come le colonne di Rugg e tavole più grandi, potrebbe
+    avvicinarsi. Il metodo esatto di Rugg non è stato verificato alla fonte.
