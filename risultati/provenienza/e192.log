@@ -1,0 +1,3 @@
+ν 0.2  10/18 | riga True | completo False | T3 1.1 T4r 2.3 | mancano ['uniche', 'legame', 'unioni', 'curva piatta', 'Zipf', 'verticale', 'formule', 'bordo di riga']
+ν 0.4  11/18 | riga True | completo False | T3 0.7 T4r 3.5 | mancano ['legame', 'unioni', 'curva piatta', 'Zipf', 'verticale', 'formule', 'bordo di riga']
+ν 0.6  10/18 | riga True | completo False | T3 1.6 T4r 3.6 | mancano ['h2', 'legame', 'unioni', 'curva piatta', 'Zipf', 'verticale', 'formule', 'bordo di riga']

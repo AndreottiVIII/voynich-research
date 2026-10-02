@@ -1,0 +1,25 @@
+{
+ "Voynich": {
+  "coppie_dentro": 30733,
+  "coppie_a_capo": 3390,
+  "quota_dentro": 0.24478573520320177,
+  "eccesso_dentro": 0.06028031757394331,
+  "z_dentro": 28.93489273194955,
+  "quota_a_capo": 0.10412979351032449,
+  "eccesso_a_capo": -0.002784660766961655,
+  "z_a_capo": -0.6079496671345027,
+  "Rrip": -0.04619519071952184
+ },
+ "Plinio a capo": {
+  "coppie_dentro": 30588,
+  "coppie_a_capo": 4611,
+  "quota_dentro": 0.20161501242317248,
+  "eccesso_dentro": 0.11037580096769975,
+  "z_dentro": 68.73277744935349,
+  "quota_a_capo": 0.15332899587941878,
+  "eccesso_a_capo": 0.09438733463456951,
+  "z_a_capo": 31.125947435500287,
+  "Rrip": 0.8551451840625004
+ },
+ "esito": "ripetizioni chiuse nella riga"
+}

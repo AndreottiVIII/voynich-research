@@ -1,0 +1,6 @@
+Voynich                      classi 1878, con più ordini 287, quota 0.1528 | esempi [['alky', 'kaly', 'ykal'], ['lsho', 'shol'], ['orshy', 'shory', 'yshor'], ['olshdy', 'sholdy'], ['or', 'ro']]
+latino                       classi 2916, con più ordini 59, quota 0.0202 | esempi [['eius', 'iesu'], ['et', 'te'], ['audis', 'iudas'], ['esrom', 'sermo'], ['ioram', 'maior']]
+italiano                     classi 2260, con più ordini 54, quota 0.0239 | esempi [['ad', 'da'], ['il', 'li'], ['ioram', 'ormai'], ['al', 'la'], ['dalle', 'della']]
+controllo: latino ordinato   classi 2942, con più ordini 0, quota 0.0000 | esempi []
+generatore e180              classi 2428, con più ordini 428, quota 0.1763 | esempi [['otl', 'tol'], ['or', 'ro'], ['ot', 'to'], ['choshy', 'shochy'], ['chotol', 'otchol']]
+non compatibile
