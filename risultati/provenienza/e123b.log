@@ -1,0 +1,13 @@
+Voynich                                          nullo e123      | z blocchi 3:10.2 4:11.5 5:10.0 6:9.2 8:7.1 | fase 0.14 | stessa-parola +0.017 (z 1.1) parole-adiacenti +0.031 (z 5.6) piu-lontane +0.021 (z 3.7) fra-due +0.019 (z 3.2)
+Voynich                                          nullo con riga  | z blocchi 3:1.6 4:1.9 5:1.0 6:1.0 8:-0.3 | fase 1.26 | stessa-parola +0.027 (z 1.6) parole-adiacenti +0.014 (z 3.0) piu-lontane +0.007 (z 1.7) fra-due -0.010 (z -1.8)
+   sopravvive alla riga False | segno di blocco True | (M) in piedi False
+controllo positivo: latino nel canale            nullo e123      | z blocchi 3:28.6 4:35.6 5:184.6 6:42.2 8:42.6 | fase 0.80 | stessa-parola -0.031 (z -1.7) parole-adiacenti -0.018 (z -3.1) piu-lontane -0.024 (z -4.1) fra-due -0.033 (z -5.0)
+controllo positivo: latino nel canale            nullo con riga  | z blocchi 3:12.9 4:20.0 5:121.6 6:29.5 8:36.3 | fase 0.81 | stessa-parola -0.021 (z -1.0) parole-adiacenti +0.003 (z 0.5) piu-lontane -0.004 (z -0.9) fra-due -0.021 (z -3.3)
+   sopravvive alla riga True | segno di blocco True | (M) in piedi True
+controllo di (P): quota per riga, ordine casuale nullo e123      | z blocchi 3:10.6 4:12.3 5:9.1 6:9.6 8:7.2 | fase 0.06 | stessa-parola +0.007 (z 0.4) parole-adiacenti +0.027 (z 5.1) piu-lontane +0.025 (z 4.5) fra-due +0.016 (z 2.6)
+controllo di (P): quota per riga, ordine casuale nullo con riga  | z blocchi 3:1.5 4:2.6 5:0.9 6:0.8 8:0.2 | fase 1.26 | stessa-parola +0.017 (z 1.0) parole-adiacenti +0.009 (z 2.1) piu-lontane +0.010 (z 2.4) fra-due -0.013 (z -2.4)
+   sopravvive alla riga False | segno di blocco True | (M) in piedi False
+Timm e Schinner, seme 19                         nullo e123      | z blocchi 3:2.3 4:3.7 5:2.6 6:3.7 8:3.9 | fase 0.61 | stessa-parola +0.035 (z 3.4) parole-adiacenti +0.005 (z 1.4) piu-lontane +0.000 (z 0.1) fra-due -0.002 (z -0.4)
+Timm e Schinner, seme 19                         nullo con riga  | z blocchi 3:0.8 4:1.1 5:-0.5 6:0.4 8:-0.6 | fase - | stessa-parola +0.026 (z 2.4) parole-adiacenti +0.006 (z 1.6) piu-lontane -0.006 (z -1.7) fra-due -0.003 (z -0.5)
+   sopravvive alla riga False | segno di blocco False | (M) in piedi False
+controllo valido: True | (M) resta in piedi nel Voynich: False
