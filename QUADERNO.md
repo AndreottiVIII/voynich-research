@@ -3540,3 +3540,30 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
   contenuto organizzato per temi, nasce anche da una deriva del vocabolario senza significato (copia
   locale, abitudini che cambiano, invenzione spontanea). Le parole-chiave del Voynich (shedy,
   qokeedy, qokain…) sono le stesse che separano le lingue A e B (e156).
+
+## 2/10/2026 — e153: il generatore di righe rifinito riproduce anche copia di colonna, e94, omogeneità e formule
+
+- **Metodo.** Preregistrato.
+  - Generatore e152 (k 3, μ 0,5) con tre aggiunte:
+    - tema più debole: candidate dal tema con probabilità θ, altrimenti dalla pagina;
+    - tema che passa alla riga dopo con probabilità c;
+    - ch/sh favoriti ×2 in seconda posizione.
+  - θ ∈ {0,3; 0,6} × c ∈ {0; 0,5}.
+- **Risultati.** Con θ = 0,3, la riga è riprodotta in tutte le combinazioni, e in più:
+  - pagella 10/18 e riga e pagina **9/12** (e152: 5–6);
+  - copia della prima e della seconda colonna 0,93 / 1,48 (Voynich 1,03 / 1,47);
+  - e94 1,44 (Voynich 1,43);
+  - omogeneità 0,036 (circa 0,04);
+  - formule 2,7 nella banda.
+  - **Mancano:** h2, tipi/parole (0,27 contro 0,19), Zipf, unioni, legame (giunture), gradiente,
+    verticale, bordo di riga. "Completo" no: serve una pagella ≥ 12.
+  - Con θ = 0,6 il tema è troppo forte (formule 12,5).
+- **Esito per regola:** riga riprodotta sì, completo no, quindi nessun modello di riferimento.
+- **Lettura.**
+  - È il modello senza messaggio più vicino al Voynich prodotto finora: riproduce tutte le proprietà
+    di riga e quasi tutte quelle di pagina che riguardano la composizione della riga.
+  - Ciò che manca riguarda la **forma delle parole e delle giunture**: le varianti generate
+    (generatori.Modifiche) creano troppi tipi nuovi e alzano h2, e le giunture non hanno la forza del
+    Voynich.
+  - Il passo successivo, se lo si vuole completo, è un generatore di parole migliore, non un altro
+    meccanismo di riga.
