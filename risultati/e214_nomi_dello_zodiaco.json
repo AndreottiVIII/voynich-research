@@ -1,0 +1,42 @@
+{
+ "parole_per_pagina": {
+  "f70v2": 107,
+  "f70v1": 77,
+  "f71r": 76,
+  "f71v": 84,
+  "f72r1": 85,
+  "f72r2": 93,
+  "f72r3": 135,
+  "f72v3": 100,
+  "f72v2": 98,
+  "f72v1": 93,
+  "f73r": 84,
+  "f73v": 87
+ },
+ "Voynich, chiave omofonica": {
+  "vero": 5,
+  "nullo_media": 4.89,
+  "nullo_max": 6,
+  "p": 0.8208955223880597
+ },
+ "Voynich, chiave biunivoca": {
+  "vero": 4,
+  "nullo_media": 3.94,
+  "nullo_max": 5,
+  "p": 0.8955223880597015
+ },
+ "controllo: nomi cifrati inseriti, chiave omofonica": {
+  "vero": 12,
+  "nullo_media": 4.95,
+  "nullo_max": 6,
+  "p": 0.004975124378109453
+ },
+ "controllo: nomi cifrati inseriti, chiave biunivoca": {
+  "vero": 12,
+  "nullo_media": 3.915,
+  "nullo_max": 5,
+  "p": 0.004975124378109453
+ },
+ "valido": true,
+ "esito": "nessun nome"
+}
