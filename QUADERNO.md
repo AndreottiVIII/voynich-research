@@ -5078,3 +5078,29 @@ sequenza.
   giunture "morbide" dell'e12.
 - **Per il generatore e il voynichizzatore:** due meccanismi espliciti, con le parole di base
   allungate.
+
+## 3/10/2026 — e232: pescare dal manoscritto invece che dalla pagina non inganna il discriminatore
+
+- **Preregistrato.**
+  - Generatore dell'e230 (partenza dell'e224, η 1, σ 0,09).
+  - δ è la probabilità di prendere la parola di base dalle frequenze del Voynich intero.
+  - Metrica: l'AUC del discriminatore dell'e231.
+- **Validità:** con δ 0 il testo è identico all'e230.
+- **Risultati:**
+  - η 1 e σ 0,09 abbassano l'AUC da 0,97 (e192) a **0,91–0,92**;
+  - δ 0,2 dà 0,914 e δ 0,4 dà 0,929: δ non aiuta, e la verifica si fa solo per δ 0 (0,918).
+  - La varietà dentro la pagina sale con δ (0,70 → 0,74), ma la quota di parole frequenti no (0,37).
+- **Esito: δ non aiuta abbastanza.**
+- **Che cosa usa ancora il discriminatore** (Voynich contro generatore):
+  - parole fra le 100 più frequenti: 0,42 contro 0,38;
+  - parole uniche nel testo: 0,15 contro 0,12;
+  - lunghezza media: 4,29 contro 4,08 (le spezzature accorciano);
+  - **somiglianza fra parole vicine: 0,22 contro 0,19**;
+  - righe in -m: 0,14 contro 0,12;
+  - deviazione della lunghezza più alta nel generatore.
+- **Lettura e ipotesi successiva (e233).**
+  - Il generatore modifica allo stesso modo parole frequenti e rare: disperde le frequenti, che restano
+    meno concentrate, e crea meno forme uniche.
+  - Non copia mai la parola appena scritta, quindi le parole vicine sono meno simili.
+  - Ipotesi: le parole frequenti si scrivono esatte e quelle rare si variano; a volte si riprende la
+    parola precedente con una variante.
