@@ -123,3 +123,12 @@ Scaricati l'1/10/2026 dal clone GRETIL di ambuda-org, commit
   identici, verificato su f103r). URL: `https://www.voynichese.com/2/data/folio/image/glance/color/large/<foglio>.jpg`,
   scaricate il 2/10/2026 (una al secondo). Le impronte SHA-256 sono in `dati/cache/voynichese_immagini.sha256`. Dati
   del progetto: licenza Apache 2.0; immagini derivate dalle riproduzioni della Beinecke.
+
+## Generatori e testi esterni aggiunti il 2/10/2026 — in `dati/cache/generatori_esterni/`, non ridistribuiti
+
+- Hermes, J., R_Voynich_Stats (github.com/hermesj/R_Voynich_Stats, commit 0ef1439fa9d90aeab42951a51d0d5a0e27db1f8f): cifrati
+  *Polygraphia III* `PIII_10_columns` (94684e8c…), `PIII_24_columns` (1c16d946…), `PIII_all_columns` (15f26531…), chiave
+  `ciphers_poly_III_in_order.csv` (fe3f24a4…), in `hermes/` (e167).
+- Boxer, A., voynich-attack (github.com/alexanderboxer/voynich-attack, commit 255bd632e45459230eaf2a994e0557ed6c682869,
+  licenza MIT): enochiano di Sloane MS 3188, `corpora/enochian/ms3188.csv`, SHA-256
+  006b17f1323e8e86456ccb784db714f0962a68c509b4c304402edf5122b7ff1a, in `boxer/` (e188).
