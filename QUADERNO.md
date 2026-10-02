@@ -4540,3 +4540,22 @@ sequenza.
   - Per le scelte di grafia i test di struttura sono negativi (e181, e185, e191b).
   - **Cautela:** la parte (c) è per l'80% estrapolata dalle righe di 6–7 parole. I modelli delle
     abitudini sono semplici, e un modello migliore abbasserebbe il limite.
+
+## 2/10/2026 — e195: le "parole spezzate" sembrano avere spazi più stretti (forse è la lunghezza)
+
+- **Origine.** Ipotesi implicita nella sovrapposizione "split words" di voynichese.com: alcuni spazi
+  fra coppie che esistono anche unite (ol daiin / oldaiin) non sarebbero veri separatori.
+- **Metodo.** Preregistrato.
+  - Larghezza fisica degli spazi certi della ZL (e34), coppie spezzate (a+b presente ≥ 2 volte)
+    contro le altre.
+  - Stratificazione per giuntura.
+- **Risultati:**
+  - 22.158 spazi certi, di cui 764 fra coppie spezzate;
+  - normali − spezzate = 0,030, z 4,5, p 0,0015;
+  - controllo (certi − dubbi): 0,114, z 19,9.
+- **Esito per regola: spazi spuri.**
+- **Controllo esplorativo, non preregistrato.** Stratificando anche per lunghezza delle due parole,
+  la differenza sparisce (0,001, z 0,1, 969 casi utilizzabili). Le coppie spezzate sono fatte spesso
+  di parole corte, e accanto a parole corte gli spazi sono più stretti.
+- **L'esito non si accetta prima dell'e195b,** preregistrato con la stratificazione per lunghezza e
+  con il controllo di potenza.
