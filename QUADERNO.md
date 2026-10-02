@@ -4624,3 +4624,25 @@ sequenza.
     un terzo in più (0,045 insieme).
   - Non dimostra che i gallow siano "classificatori di dominio"; per questo servirebbe un legame con il
     soggetto, che finora manca (e184, e190). Rende però più stretto il limite di capacità: e210.
+
+## 2/10/2026 — e202–e205: intuizioni qualitative da r/voynich, messe alla prova
+
+- **e202, "balbettii" come auto-correzioni** (nyzkc9, cxfm2w).
+  - Nelle 1.072 coppie adiacenti quasi uguali (distanza 1) la seconda parola è la più frequente nel
+    51,1% dei casi (p 0,5).
+  - Generatore e180: 49,0%. Timm e Schinner: 55,3% (p 2·10⁻⁵).
+  - **Esito: nessun verso.** Le coppie quasi uguali non sono correzioni (che andrebbero verso la forma
+    comune) né copie modificate a senso unico. Il testo di Timm e Schinner ha invece un verso:
+    differisce dal Voynich anche qui.
+- **e203, ninfe in sequenza come giorni o gradi** (itwqgx).
+  - Etichette adiacenti nel cerchio: eccesso di somiglianza 0,008, z 1,7, p 0,044.
+  - La somiglianza per distanza è piatta (0,339 / 0,330 / 0,318 / 0,333).
+  - **Esito: incerto.** Nessun andamento da conteggio.
+- **e204, ricette che rimandano alle piante** (1pz77va).
+  - **Esito per regola: nessun rimando**, ma il test non ha forza: solo 7 parole d'erbario hanno 2 o
+    più occorrenze tutte sulla stessa pagina.
+  - Questo dato è in sé notevole e porta all'e211.
+- **e205, esercizio di calligrafia** (1bg4s4m).
+  - Irregolarità della larghezza delle parole contro l'ordine di rilegatura dentro le mani: mano 1
+    +0,09, mano 2 −0,22, mano 3 +0,14; statistica +0,016, p 0,58.
+  - **Esito: nessun miglioramento** (nell'ordine di rilegatura).

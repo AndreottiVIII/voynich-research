@@ -1,0 +1,16 @@
+{
+ "parole_locali": 7,
+ "S": {
+  "quota_locali": 0.7142857142857143,
+  "quota_controllo": 0.4482142857142857,
+  "rapporto": 1.5936254980079683,
+  "p_una_coda": 0.1409295352323838
+ },
+ "P": {
+  "quota_locali": 0.14285714285714285,
+  "quota_controllo": 0.17242857142857143,
+  "rapporto": 0.828500414250207,
+  "p_una_coda": 0.744127936031984
+ },
+ "esito": "nessun rimando"
+}
