@@ -4986,3 +4986,36 @@ sequenza.
   - Né spezzare a caso né spezzare dove le metà sono frequenti lo produce.
   - Resta aperta: per il voynichizzatore è una proprietà di second'ordine da segnalare come mancante,
     se non si trova il meccanismo.
+
+## 3/10/2026 — e206b: con il nullo stratificato restano 12 classi di segni facoltativi decise per riga
+
+- **Preregistrato.** Come l'e206, ma i valori si rimescolano dentro pagina × prima riga di paragrafo ×
+  posizione della parola nella riga.
+- **Controllo** (q iniziale = qo-/o-): z 4,3, valido.
+- **Restano (z > 3):**
+  - *d* interna 10,9: corrisponde a -dy/-ey, F7;
+  - *e* interna 9,0;
+  - *t* interna 6,3;
+  - *y* finale 5,2;
+  - *ch* iniziale 5,1;
+  - *sh* iniziale 4,8;
+  - *q* iniziale 4,3: F5;
+  - *d* iniziale 4,1;
+  - *l* finale 4,1;
+  - *cth* iniziale 3,6;
+  - *o* iniziale 3,5;
+  - *sh* interna 3,2.
+- **Cadono rispetto all'e206:** *p* iniziale (da 7,0 a 1,7), *p* interna (da 4,6 a 1,0), *y* iniziale e
+  *ch* interna. Per *p* la cautela era giusta: l'effetto veniva dalle prime righe dei paragrafi.
+- **Lettura.**
+  - Oltre alle cinque scelte note, la riga "decide" se usare la forma lunga o corta per diversi segni
+    facoltativi:
+    - *e* doppia o semplice;
+    - *y* finale presente o no;
+    - *ch*/*sh* iniziale presente o no (per esempio *chol*/*ol*);
+    - *d* iniziale (*dal*/*al*);
+    - *l* finale;
+    - *t* interna.
+  - Con 46 classi provate, a z > 3 ci si aspetta meno di un falso positivo.
+  - **Per il voynichizzatore:** lo stato di riga deve includere anche queste scelte, oltre alle cinque
+    (o un'unica "abitudine di lunghezza" per riga, se si dimostra che sono correlate: da verificare).
