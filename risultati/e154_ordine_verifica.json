@@ -1,0 +1,48 @@
+{
+ "gruppi": {
+  "mano 1, lingua A": 27,
+  "mano 2, lingua B": 11,
+  "mano 3, lingua B": 7
+ },
+ "(I) grafia": {
+  "ricostruito": 2.6109442863603127,
+  "rilegatura": 2.937331984101097,
+  "casuali_media": 3.136813684518965,
+  "p": 0.0,
+  "per_gruppo": {
+   "mano 1, lingua A": {
+    "ricostruito": 2.544585241916016,
+    "rilegatura": 3.1030255154509017
+   },
+   "mano 2, lingua B": {
+    "ricostruito": 2.6745859558579785,
+    "rilegatura": 2.4635738684194597
+   },
+   "mano 3, lingua B": {
+    "ricostruito": 2.7924306964561536,
+    "rilegatura": 3.008923541054673
+   }
+  }
+ },
+ "(II) impaginazione": {
+  "ricostruito": 2.3399662888275987,
+  "rilegatura": 2.316015130088101,
+  "casuali_media": 2.5599635155043394,
+  "p": 0.038,
+  "per_gruppo": {
+   "mano 1, lingua A": {
+    "ricostruito": 2.270210061659376,
+    "rilegatura": 2.2738653113764458
+   },
+   "mano 2, lingua B": {
+    "ricostruito": 2.4430343001740296,
+    "rilegatura": 2.6039706113990304
+   },
+   "mano 3, lingua B": {
+    "ricostruito": 2.470463254312512,
+    "rilegatura": 2.0187385423203894
+   }
+  }
+ },
+ "ordine_confermato": true
+}
