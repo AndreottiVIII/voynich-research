@@ -1,0 +1,4 @@
+Voynich: U 0.0877, U/N0 1.92, U/N1 1.29, U/N2 1.16 (z 12.6); legame 0.188, uniche 0.125, Q 0.67
+generatore e192 (controllo negativo): U 0.0426, U/N0 1.29, U/N1 1.05, U/N2 1.04 (z 2.0); legame 0.107, uniche 0.100, Q 0.94
+generatore con parole spezzate (controllo positivo): U 0.0805, U/N0 1.71, U/N1 1.17, U/N2 1.06 (z 6.2); legame 0.161, uniche 0.118, Q 0.74
+OrderedDict({'A': 'non valido', 'B': 'misto'})
