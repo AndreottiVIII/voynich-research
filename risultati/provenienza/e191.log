@@ -1,0 +1,4 @@
+Voynich                                0.9425 bit/occ (nullo 0.9448) guadagno 0.0023 z 13.5
+controllo: Huffman puro (π 1)          0.9774 bit/occ (nullo 0.9974) guadagno 0.0200 z 5145007048323.4
+controllo: Huffman mescolato (π 0,7)   0.9965 bit/occ (nullo 0.9965) guadagno 0.0000 z 0.4
+valido True | ridondanza da messaggio
