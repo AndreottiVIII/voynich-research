@@ -1,0 +1,122 @@
+{
+ "tetto: Macer in chiaro": {
+  "copertura4": 0.8002927994452221,
+  "copertura6": 0.5349754074150175
+ },
+ "cifrato, mu 0.0": {
+  "simboli": 1245,
+  "unita": 30372,
+  "punteggio": -10.14066489371302,
+  "accuratezza": 0.01738443303042276,
+  "copertura4": 0.5898952257507021,
+  "copertura6": 0.2285050766904299,
+  "esempio": [
+   "quam nu num fre po dia pa mur con pe ri si bat",
+   "quam nu num tus dio ra tem plu ma pe ren ne ter",
+   "quid pe rit prae ra suis ni nos le li ri que pe ra",
+   "lae per cli fa ta rio la va da mi tra re",
+   "plu ma vo pe ca in re di ta la ra re ne ter",
+   "quam nu ma go quia tum la me que re di ta est"
+  ]
+ },
+ "cifrato, mu 0.3": {
+  "simboli": 3345,
+  "unita": 30372,
+  "punteggio": -9.927126112753553,
+  "accuratezza": 0.019261161596207034,
+  "copertura4": 0.5774600572434458,
+  "copertura6": 0.20717827436541744,
+  "esempio": [
+   "ex se tra ti bus mo cae nia liis mi ri do tis",
+   "ip se tra se bus ces rem quam ra mi nor rat nec",
+   "cum fi lia vi to pa tus eius bent si tius que neop to",
+   "cum qui bus di que ter di vi dan spo lia mo",
+   "quam ra va pi po na re cens re di te ta rat per",
+   "ex se ra bi tat me que ri go re ge re lis"
+  ]
+ },
+ "cifrato, mu 0.6": {
+  "simboli": 4732,
+  "unita": 30372,
+  "punteggio": -9.79647352549577,
+  "accuratezza": 0.02393652047938891,
+  "copertura4": 0.566561194109558,
+  "copertura6": 0.23736665732099704,
+  "esempio": [
+   "le ge no sed dit la pe quam spes et ra ma me",
+   "i re mean di lit tra re ne te mo rer flam mae",
+   "mis ce que mi ri sub tis da ta va na que tue ri",
+   "sol ce rum da re gu lo bus cum o leo lae",
+   "hoc te quod na per se que a res ri les vi li quit",
+   "le ti te ma nus di dae si ve a sa quae est"
+  ]
+ },
+ "negativo: mu 0.6 rimescolato": {
+  "simboli": 4732,
+  "unita": 30372,
+  "punteggio": -10.036072960469712,
+  "copertura4": 0.5373565147345103,
+  "copertura6": 0.20731690944485467,
+  "esempio": [
+   "in in quo tri na rii in a pi quos ni ne de",
+   "res que fe rax at va rios ri que ti ge ca num",
+   "te et to o le vor le li ra rior ca te re nauis",
+   "et pe re va nis te ne et nis e tiam e",
+   "fi re no li da ta in ne ver post tien tia li bus",
+   "ce tur bat na do ge re ne a pla ca li do"
+  ]
+ },
+ "negativo: Timm e Schinner": {
+  "simboli": 4602,
+  "unita": 30009,
+  "punteggio": -9.6909088442988,
+  "copertura4": 0.5506419595082168,
+  "copertura6": 0.2076327147466881,
+  "esempio": [
+   "vel pe rest quod ue sa at tra tum",
+   "su bruit qui dum quo que qui qui",
+   "mag no in ter et tur bi e quum",
+   "eius co ra de re fi cul tia flos res",
+   "e re et ue et a tro",
+   "e re que qui que et vi tia li si tus"
+  ]
+ },
+ "diagnosi: modello barato, mu 0.0": {
+  "simboli": 1245,
+  "unita": 30372,
+  "punteggio": -6.266231452666977,
+  "accuratezza": 0.9557487159225603,
+  "copertura4": 0.7815479385527695,
+  "copertura6": 0.5120517342739564,
+  "esempio": [
+   "her ba rum quas dam dic tu rus car mi ne vi res",
+   "her ba rum ma trem de dit ar te mi na no men",
+   "cui grae cus ser mo ius tum pu to po ne re pri mo",
+   "huius o pem fer tur prior in ve nis se dia na",
+   "ar te mis grae ce quae di ci tur in de que no men",
+   "her ba te net quia sic in ven trix di ci tur eius"
+  ]
+ },
+ "diagnosi: modello barato, mu 0.6": {
+  "simboli": 4732,
+  "unita": 30372,
+  "punteggio": -9.745207371034894,
+  "accuratezza": 0.08158830501777953,
+  "copertura4": 0.48707584573399926,
+  "copertura6": 0.161783636270017,
+  "esempio": [
+   "sa ten tur na fa huius mo nis de cum re re ni",
+   "be to ni ta ob cus co et ca ca len sque pus",
+   "tur for est ar ne drag li vel do po po re gio ne",
+   "eius sic cu tri tum cuius vet ra fe bris tam ge",
+   "haec ca mis dus mo tio di que men vi ne iu te rius",
+   "sa tu ca gat gas a pa nis pars que sa his eius"
+  ]
+ },
+ "valido": false,
+ "fattibile": {
+  "0.0": false,
+  "0.3": false,
+  "0.6": false
+ }
+}

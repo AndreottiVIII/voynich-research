@@ -2666,3 +2666,33 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
 - **Lettura.** La famiglia "copia locale + regole" non arriva al Voynich con modifiche piccole. Le
   proprietà di riga del Voynich non sono un ritocco di un generatore a copia: vanno cercate in un
   procedimento diverso (e124, Rugg) o in un'origine diversa (e126–e128).
+
+## 2/10/2026 — e112b: il risolutore a sillabe funziona solo col modello "barato"; il passo 3 si chiude
+
+- **Metodo.** Preregistrato.
+  - È l'e112 con il termine di entropia dell'e17.
+  - In più, una diagnosi "a modello barato": il modello delle sillabe addestrato sul *Macer* stesso,
+    cioè sul testo cifrato.
+- **Risultati** (accuratezza della chiave; copertura 6+):
+
+  | prova | modello onesto | modello barato |
+  |---|---|---|
+  | μ 0 (1.245 simboli) | 0,017 (0,23) | **0,956** (0,51) |
+  | μ 0,3 | 0,019 (0,21) | – |
+  | μ 0,6 (4.732 simboli) | 0,024 (0,24) | 0,082 (0,16) |
+  | negativi | – (0,21) | – |
+  | tetto (chiaro) | (0,535) | |
+
+- **Esito per regola: risolutore non valido.** Il passo 3 si chiude con "risolutore a sillabe non
+  realizzato".
+- **Diagnosi.**
+  - La ricerca funziona: col modello barato ritrova il 96% della chiave a μ = 0.
+  - Il limite è il modello della lingua: addestrato su altri testi latini, non basta a fissare 1.245
+    simboli.
+  - Con le varianti di grafia (μ = 0,6, 4.732 simboli, ognuno raro) la chiave non si ritrova nemmeno
+    col modello barato (8%).
+- **Lettura.** Un codice per sillabe con grafia variabile, cioè il modello di contenuto migliore
+  finora (e104), non sarebbe decifrabile per sola statistica, neanche conoscendo il testo esatto della
+  lingua. Non dice nulla sul fatto che il Voynich lo sia. Dice che questa strada di decifrazione,
+  anche se l'ipotesi fosse vera, richiederebbe un appiglio esterno: etichette con referente noto
+  (e122), nomi propri, una parola certa.
