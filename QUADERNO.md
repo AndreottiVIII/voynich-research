@@ -4733,3 +4733,27 @@ sequenza.
     lunghe, "top row" di Tavie), che ha un vocabolario suo.
   - Da rifare escludendo la prima riga di paragrafo, cioè confrontando la seconda riga del paragrafo
     nuovo con l'ultima del precedente, e con un controllo più adatto.
+
+## 2/10/2026 — e214: i nomi dei mesi e dei segni non si trovano nello zodiaco
+
+- **Metodo.** Preregistrato.
+  - Una sola chiave che fa leggere, sulle 12 pagine dello zodiaco, il nome del segno o del mese
+    (latino, come scritto sul foglio, italiano, tedesco).
+  - Confronto con 200 assegnazioni permutate dei nomi alle pagine.
+  - Chiavi omofoniche e biunivoche.
+- **Risultati** (pagine con il nome su 12):
+
+  | testo, chiave | vero | nullo (media / max) | p |
+  |---|---|---|---|
+  | Voynich, omofonica | 5 | 4,9 / 6 | 0,82 |
+  | Voynich, biunivoca | 4 | 3,9 / 5 | 0,90 |
+  | controllo con nomi cifrati inseriti, omofonica | 12 | 5,0 / 6 | 0,005 |
+  | controllo, biunivoca | 12 | 3,9 / 5 | 0,005 |
+
+- **Validità: sì. Esito per regola: nessun nome.**
+- **Lettura.**
+  - Con una sostituzione semplice, anche omofonica, non c'è una chiave che faccia comparire il nome del
+    proprio segno o mese sulla propria pagina più che su una pagina qualsiasi. Il controllo mostra che
+    se il nome ci fosse, scritto parola per parola con una sostituzione, emergerebbe chiarissimo.
+  - Restano escluse da questo test le codifiche non per lettera (codici a parole, sillabe) e i nomi
+    abbreviati o in altre lingue.
