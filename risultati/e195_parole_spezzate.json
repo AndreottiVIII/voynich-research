@@ -1,0 +1,25 @@
+{
+ "fogli": 204,
+ "spazi_certi": 22158,
+ "coppie_spezzate": 764,
+ "spezzate_contro_normali": {
+  "strati": 25,
+  "casi": 8381,
+  "differenza": 0.029802018005272084,
+  "nulla_media": 9.72010835646665e-05,
+  "nulla_dev": 0.0066026068260216465,
+  "z": 4.498952868833149,
+  "p_una_coda": 0.0014992503748125937
+ },
+ "controllo_dubbi_contro_certi": {
+  "strati": 43,
+  "casi": 19110,
+  "differenza": 0.11435083474728523,
+  "nulla_media": 0.0002012760470672264,
+  "nulla_dev": 0.00573586993646978,
+  "z": 19.901001934237183,
+  "p_una_coda": 0.0004997501249375312
+ },
+ "valido": true,
+ "esito": "spazi spuri"
+}
