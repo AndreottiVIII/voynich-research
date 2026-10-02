@@ -4101,3 +4101,27 @@ sequenza.
   - per completezza, la statistica è −0,093 (p 0,92).
 - **Lettura.** Le parole neutre (daiin, aiin, s…) sono troppo poche. Si passa all'e177, che corregge la
   dimensione di ogni parola per la sua composizione.
+
+## 2/10/2026 — e177: corretta per la composizione, la dimensione della scrittura lega poco con le scelte
+
+- **Metodo.** Preregistrato.
+  - Larghezza tipica di ogni unità EVA stimata con NNLS su 30.011 parole allineate.
+  - Dimensione di riga = mediana di osservata / attesa.
+  - Stesso test dell'e173b.
+- **Primo tentativo fermato al salvataggio** (valori numpy nel JSON). Corretto in un commit a parte e
+  rieseguito: è deterministico, con valori identici.
+- **Risultati:**
+  - **V1:** la dimensione corretta ha molta struttura fra righe consecutive (r 0,506, z 11,8, contro
+    0,27 della misura grezza);
+  - **legame con il cambio di scelta:** 0,032, p 0,036;
+  - **la sola composizione** (|Δ larghezza attesa|) dà 0,027.
+- **Esito per regola: incerto.**
+- **Lettura.**
+  - Togliendo l'effetto della composizione delle parole, il legame dell'e173b (0,062) si dimezza e
+    non supera più la soglia. **L'effetto dell'e173b era in buona parte meccanico:** le scelte cambiano
+    i segni, e i segni la larghezza.
+  - **Le scelte di grafia non hanno, per ora, una causa fisica misurabile**: non intinte (e166), non
+    dimensione (e177, al più un residuo debole).
+  - **Risultato a margine, non preregistrato come ipotesi:** la dimensione della scrittura corretta
+    varia **lentamente** lungo la pagina (r 0,51 fra righe consecutive). È un "orologio" della mano
+    che si potrebbe usare per l'ordine delle pagine (come il passo di riga nell'e161) e per le mani.
