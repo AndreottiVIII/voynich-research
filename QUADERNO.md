@@ -4170,3 +4170,27 @@ sequenza.
     - non dalle altre misure fisiche (e170, e178, e179).
     
     Va presentata come ipotesi sostenuta dal testo, non dalla fisica.
+
+## 2/10/2026 — e182: il canale delle scelte di grafia potrebbe portare fino a ~49.000 bit
+
+- **Metodo.** Preregistrato, descrittivo.
+  - Perdita logaritmica in validazione incrociata (pagine pari/dispari) delle cinque scelte (56.800
+    occorrenze circa in 4.118 righe), sotto tre modelli:
+    - M0, quota per scelta;
+    - M1, più lo strato;
+    - M2, più l'abitudine della riga precedente.
+- **Risultati:**
+
+  | testo | M0 | M1 | M2 (bit/occorrenza) | bit/riga | bit totali | lettere di latino (compresso / grezzo) |
+  |---|---|---|---|---|---|---|
+  | Voynich | 0,945 | 0,874 | 0,866 | 11,95 | 49.215 | 24.608 / 12.004 |
+  | canale pieno (Bacone) | 0,934 | 0,940 | 0,946 | 12,89 | 53.089 | 26.544 / 12.949 |
+
+- **Lettura.**
+  - I modelli di abitudine (posizione, contesto, riga precedente) spiegano poco: restano 0,87 bit per
+    scelta, quasi quanto un canale pieno.
+  - **Limite superiore:** se un messaggio stesse nelle varianti di grafia, potrebbe essere lungo fino a
+    12.000–25.000 lettere, cioè 2.000–5.000 parole latine. Non è poco: un trattatello.
+  - Il limite dice solo che lo spazio c'è, non che c'è un messaggio. Se quei bit hanno la struttura di
+    un testo, lo dice l'e181 (indice di coincidenza dei gruppi).
+  - Un modello delle abitudini migliore abbasserebbe il limite.
