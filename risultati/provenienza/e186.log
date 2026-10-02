@@ -1,0 +1,4 @@
+Voynich                              I1 43.8 I2 5.8 I3 3.1 I4 2.4 F1 12.3 F2 5.7 F3 -0.1 F4 -0.4 R1 22.3 R2 0.8 R3 1.3 P1 -0.2
+generatore e180 (senza messaggio)    I1 3.8 I2 -0.0 I3 1.3 I4 -0.6 F1 1.6 F2 1.4 F3 -0.7 F4 0.9 R1 5.5 R2 -0.3 R3 -0.7 P1 2.4
+controlli: I1 z 769.8, R1 z 88.7
+valido True | candidate ['I1', 'I2', 'F1', 'F2', 'R1']

@@ -4326,3 +4326,35 @@ sequenza.
   - A occhio, una mescolanza di circa il 20% al massimo.
   - È spiegabile con legami meccanici fra scelte nelle stesse parole, per esempio qo- con k/t.
   - **Una lettera per riga, scritta con le cinque scelte, è esclusa** come codifica principale.
+
+## 2/10/2026 — e186: legami fra iniziali e finali di parole vicine, molto più deboli di un messaggio nascosto
+
+- **Metodo.** Preregistrato.
+  - 12 regole di estrazione (iniziali o finali di parola con passo 1–4, iniziali o finali di riga,
+    seconda parola, iniziale di paragrafo).
+  - Legame fra simboli estratti consecutivi contro rimescolamento nella pagina.
+  - Confronto con il generatore e180; controlli con latino nascosto.
+- **Risultati** (z; eccesso in bit fra parentesi per le regole principali):
+
+  | regola | Voynich | generatore |
+  |---|---|---|
+  | I1, iniziale di ogni parola | 43,8 (0,048) | 3,8 (0,005) |
+  | I2 | 5,8 (0,011) | 0,0 |
+  | I3, I4 | 3,1, 2,4 | 1,3, −0,6 |
+  | F1, finale di ogni parola | 12,3 (0,009) | 1,6 |
+  | F2 | 5,7 (0,007) | 1,4 |
+  | F3, F4 | −0,1, −0,4 | – |
+  | R1, iniziale di riga | 22,3 (0,110) | 5,5 (0,020) |
+  | R2, R3, P1 | 0,8, 1,3, −0,2 | – |
+  | controllo latino in I1 | 770 (0,481) | |
+  | controllo latino in R1 | 89 (0,501) | |
+
+- **Validità: sì. Candidate per regola:** I1, I2, F1, F2, R1.
+- **Lettura, prima di qualsiasi conclusione.**
+  - **R1** è l'evitamento dell'inizio fra righe consecutive già noto (e83): le righe evitano di
+    cominciare come quella sopra. Il generatore lo imita in forma più debole (z 5,5).
+  - **I1, I2, F1, F2:** legami fra parole vicine che decadono con la distanza (passo 1 > passo 2 >
+    nulla a passo 3–4), come le regole locali di composizione. In grandezza sono **dieci volte** più
+    deboli di un messaggio latino nascosto nelle iniziali (0,048 contro 0,48).
+  - **Test decisivo (e186b):** un messaggio nelle iniziali continua attraverso l'a capo. I legami di
+    composizione del Voynich si chiudono con la riga (e74).
