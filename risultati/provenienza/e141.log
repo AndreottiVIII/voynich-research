@@ -1,0 +1,5 @@
+Voynich ZL                                           dopo riga corta  coppie   65 | inizio y/d/s 0.554 [0.462-0.646] | stesso primo segno 0.092 | R 0.16 (z attraverso 0.6)
+Voynich ZL                                           dopo riga piena  coppie 2667 | inizio y/d/s 0.477 [0.462-0.492] | stesso primo segno 0.067 | R -0.02 (z attraverso -0.9)
+controllo positivo: 10% delle righe piene spezzate   dopo riga corta  coppie  404 | inizio y/d/s 0.287 [0.250-0.324] | stesso primo segno 0.106 | R 0.50 (z attraverso 4.9)
+controllo positivo: 10% delle righe piene spezzate   dopo riga piena  coppie 2600 | inizio y/d/s 0.481 [0.465-0.497] | stesso primo segno 0.071 | R -0.01 (z attraverso -0.5)
+rapporto segno d'inizio corta/piena: Voynich 1.16, controllo 0.60 | valido True | esito: composto sul posto
