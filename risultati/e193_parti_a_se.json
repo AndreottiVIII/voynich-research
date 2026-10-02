@@ -1,0 +1,136 @@
+{
+ "circolare (Cc, Ca)": {
+  "parole": 1831,
+  "valori": {
+   "tipi/parole": 0.5095576187875478,
+   "lunghezza media": 4.636264336428181,
+   "quota di un segno": 0.03932277444019661,
+   "quota con o-": 0.3806663025669033,
+   "nel vocabolario dei paragrafi": 0.7624249044238122,
+   "ripetizione per 100 coppie": 0.5184331797235023
+  },
+  "z": {
+   "tipi/parole": 1.055583702563898,
+   "lunghezza media": 0.6609494918833164,
+   "quota di un segno": 0.6619691615321561,
+   "quota con o-": 4.708535970432578,
+   "nel vocabolario dei paragrafi": -3.096140392905326,
+   "ripetizione per 100 coppie": -1.3160969688617783
+  },
+  "diverso": true
+ },
+ "radiale (Ri, Ro)": {
+  "parole": 350,
+  "valori": {
+   "tipi/parole": 0.8057142857142857,
+   "lunghezza media": 4.774285714285714,
+   "quota di un segno": 0.02,
+   "quota con o-": 0.3514285714285714,
+   "nel vocabolario dei paragrafi": 0.7257142857142858,
+   "ripetizione per 100 coppie": 0.0
+  },
+  "z": {
+   "tipi/parole": 2.087670822839034,
+   "lunghezza media": 1.0125324604576669,
+   "quota di un segno": -0.8782243494950704,
+   "quota con o-": 2.298251922367038,
+   "nel vocabolario dei paragrafi": -3.3932633759368103,
+   "ripetizione per 100 coppie": -1.5434884011003778
+  },
+  "diverso": false
+ },
+ "rosette (fRos)": {
+  "parole": 528,
+  "valori": {
+   "tipi/parole": 0.6666666666666666,
+   "lunghezza media": 4.590909090909091,
+   "quota di un segno": 0.05303030303030303,
+   "quota con o-": 0.6060606060606061,
+   "nel vocabolario dei paragrafi": 0.7348484848484849,
+   "ripetizione per 100 coppie": 1.8867924528301887
+  },
+  "z": {
+   "tipi/parole": 1.0108952329481227,
+   "lunghezza media": 0.5196937235845833,
+   "quota di un segno": 1.4428091217996808,
+   "quota con o-": 7.058363446093239,
+   "nel vocabolario dei paragrafi": -3.28613011079216,
+   "ripetizione per 100 coppie": 1.967824163877803
+  },
+  "diverso": true
+ },
+ "anello di f57v": {
+  "parole": 169,
+  "valori": {
+   "tipi/parole": 0.4260355029585799,
+   "lunghezza media": 2.1775147928994083,
+   "quota di un segno": 0.6449704142011834,
+   "quota con o-": 0.15976331360946747,
+   "nel vocabolario dei paragrafi": 0.7928994082840237,
+   "ripetizione per 100 coppie": 0.6622516556291391
+  },
+  "z": {
+   "tipi/parole": -4.25364341577286,
+   "lunghezza media": -6.292568874462437,
+   "quota di un segno": 30.819071187373776,
+   "quota con o-": -0.5898544307428556,
+   "nel vocabolario dei paragrafi": -1.3827644241821506,
+   "ripetizione per 100 coppie": -0.2824545757507147
+  },
+  "diverso": true
+ },
+ "etichette (L)": {
+  "parole": 1014,
+  "valori": {
+   "tipi/parole": 0.7258382642998028,
+   "lunghezza media": 4.940828402366864,
+   "quota di un segno": 0.08185404339250493,
+   "quota con o-": 0.52465483234714,
+   "nel vocabolario dei paragrafi": 0.6035502958579881,
+   "ripetizione per 100 coppie": 0.0
+  },
+  "z": {
+   "tipi/parole": 3.1371541149237063,
+   "lunghezza media": 1.7691800819361112,
+   "quota di un segno": 4.070447253029154,
+   "quota con o-": 7.02485960398925,
+   "nel vocabolario dei paragrafi": -7.728557706733715,
+   "ripetizione per 100 coppie": -2.421914733843497
+  },
+  "diverso": true
+ },
+ "anello_f57v_sequenza": {
+  "sequenza": [
+   "o",
+   "l",
+   "d",
+   "r",
+   "v",
+   "x",
+   "k",
+   "m",
+   "f",
+   "t",
+   "r",
+   "y",
+   "I"
+  ],
+  "ranghi": [
+   0,
+   7,
+   4,
+   9,
+   30,
+   25,
+   8,
+   16,
+   19,
+   12,
+   9,
+   2,
+   null
+  ],
+  "spearman": 0.2727272727272727,
+  "p_due_code": 0.38946105389461055
+ }
+}

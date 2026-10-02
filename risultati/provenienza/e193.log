@@ -1,0 +1,6 @@
+circolare (Cc, Ca)     n 1831 | tipi/parole 0.51(z 1.1) lunghezza me 4.64(z 0.7) quota di un  0.04(z 0.7) quota con o- 0.38(z 4.7) nel vocabola 0.76(z -3.1) ripetizione  0.52(z -1.3) | diverso True
+radiale (Ri, Ro)       n 350 | tipi/parole 0.81(z 2.1) lunghezza me 4.77(z 1.0) quota di un  0.02(z -0.9) quota con o- 0.35(z 2.3) nel vocabola 0.73(z -3.4) ripetizione  0.00(z -1.5) | diverso False
+rosette (fRos)         n 528 | tipi/parole 0.67(z 1.0) lunghezza me 4.59(z 0.5) quota di un  0.05(z 1.4) quota con o- 0.61(z 7.1) nel vocabola 0.73(z -3.3) ripetizione  1.89(z 2.0) | diverso True
+anello di f57v         n 169 | tipi/parole 0.43(z -4.3) lunghezza me 2.18(z -6.3) quota di un  0.64(z 30.8) quota con o- 0.16(z -0.6) nel vocabola 0.79(z -1.4) ripetizione  0.66(z -0.3) | diverso True
+etichette (L)          n 1014 | tipi/parole 0.73(z 3.1) lunghezza me 4.94(z 1.8) quota di un  0.08(z 4.1) quota con o- 0.52(z 7.0) nel vocabola 0.60(z -7.7) ripetizione  0.00(z -2.4) | diverso True
+f57v sequenza ['o', 'l', 'd', 'r', 'v', 'x', 'k', 'm', 'f', 't', 'r', 'y', 'I'] | ranghi [0, 7, 4, 9, 30, 25, 8, 16, 19, 12, 9, 2, None] | Spearman 0.2727272727272727 p 0.38946105389461055

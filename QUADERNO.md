@@ -4445,3 +4445,59 @@ sequenza.
   - **La glossolalia scritta di Dee e Kelley non produce la riga chiusa del Voynich.** La riga del
     Voynich resta un tratto senza analoghi, nemmeno fra i testi "inventati" storici: e128 (Gaskell e
     Bowern), Naibbe, Polygraphia III e ora l'enochiano.
+
+## 2/10/2026 — e193: testo circolare e rosette somigliano alle etichette; l'anello di f57v non è ordinato per frequenza
+
+- **Metodo.** Preregistrato, descrittivo.
+  - Blocchi non di paragrafo contro 1.000 campioni di paragrafi della stessa dimensione.
+  - "Diverso" se almeno due misure hanno |z| > 3.
+- **Due correzioni d'esecuzione, in commit a parte:**
+  - `testo_corrente` contiene solo i paragrafi: i blocchi si prendono da tutti i loci della ZL;
+  - la sequenza di f57v va presa dalla riga dell'anello con più segni singoli, per un periodo, come
+    dice la preregistrazione.
+- **Risultati** (z delle misure più distanti):
+
+  | blocco | parole | o- | nel vocabolario dei paragrafi | altro | diverso |
+  |---|---|---|---|---|---|
+  | circolare | 1.831 | 0,38 (z 4,7) | 0,76 (z −3,1) | – | sì |
+  | radiale | 350 | 0,35 (z 2,3) | 0,73 (z −3,4) | – | no |
+  | rosette | 528 | 0,61 (z 7,1) | 0,73 (z −3,3) | – | sì |
+  | anello di f57v | 169 | – | – | segni singoli 64% (z 31), lunghezza 2,2 (z −6,3) | sì |
+  | etichette | 1.014 | 0,52 (z 7,0) | 0,60 (z −7,7) | segni singoli z 4,1 | sì |
+
+- **Anello di f57v.**
+  - Il periodo estratto è o l d r v x k m f t r y I (con r ripetuto).
+  - Non è ordinato per frequenza dei segni nel testo: Spearman 0,27, p 0,39.
+  - La ripetizione di r dice che non è un semplice alfabeto.
+- **Lettura.**
+  - Il testo circolare e quello delle rosette usano più o- e più parole assenti dai paragrafi: si
+    comportano come le etichette, cioè come un "etichettese" (e149).
+  - Il radiale è a metà strada.
+  - L'anello di f57v resta un oggetto a sé (segni singoli ripetuti 4 volte). Non ha la forma di una
+    tabella ordinata per frequenza.
+
+## 2/10/2026 — e191: compressione delle scelte, guadagno minuscolo e test di poca potenza
+
+- **Metodo.** Preregistrato.
+  - Modello di Markov adattivo sulla sequenza delle scelte, contro il rimescolamento dentro riga e
+    scelta.
+  - Controlli: latino in codice di Huffman.
+- **Risultati** (bit per occorrenza):
+
+  | testo | valore | nullo | guadagno | z |
+  |---|---|---|---|---|
+  | Voynich | 0,9425 | 0,9448 | 0,0023 | 13,5 |
+  | Huffman puro | 0,9774 | 0,9974 | 0,0200 | (enorme) |
+  | Huffman mescolato (70%) | 0,9965 | 0,9965 | 0,0000 | 0,4 |
+
+- **Esito per regola: "ridondanza da messaggio".** Non si accetta, per due ragioni.
+  - **Potenza:** il test non vede un messaggio Huffman presente nel 70% delle scelte. Il codice di
+    Huffman toglie quasi tutta la ridondanza: anche puro guadagna solo 0,02 bit.
+  - **Specificità:** il guadagno del Voynich (0,0023 bit) è nove volte più piccolo di un messaggio
+    puro. Si spiega con legami meccanici fra scelte della stessa parola (e185: qo- con k/t), che il
+    nullo spezza.
+- **Verifica (e191b):** un nullo che rimescola parole intere dentro la riga e conserva i legami interni
+  alla parola.
+- **Nota di metodo per il white paper:** i codici a lunghezza variabile ben fatti sono quasi
+  incomprimibili, quindi questo tipo di test non li può escludere. Resta solo il limite di capacità
+  (e182).

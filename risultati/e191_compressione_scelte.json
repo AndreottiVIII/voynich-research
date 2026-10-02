@@ -1,0 +1,23 @@
+{
+ "occorrenze": 56850,
+ "Voynich": {
+  "bit_per_occorrenza": 0.9425173176104177,
+  "nullo": 0.9447719808658994,
+  "guadagno": 0.002254663255481737,
+  "z": 13.535284932723878
+ },
+ "controllo: Huffman puro (π 1)": {
+  "bit_per_occorrenza": 0.9773780209819564,
+  "nullo": 0.997369919455943,
+  "guadagno": 0.019991898473986636,
+  "z": 5145007048323.3545
+ },
+ "controllo: Huffman mescolato (π 0,7)": {
+  "bit_per_occorrenza": 0.9965468033542894,
+  "nullo": 0.9965468033542908,
+  "guadagno": 1.4432899320127035e-15,
+  "z": 0.44151903588755737
+ },
+ "valido": true,
+ "esito": "ridondanza da messaggio"
+}
