@@ -1,0 +1,5 @@
+Voynich ZL                             righe  3652 | C1 0.230 vs 0.217 (x1.06, z 10.9) | C2 0.385 vs 0.367 (x1.05, z 13.0)
+controllo positivo: generatore e152    righe  3658 | C1 0.535 vs 0.224 (x2.39, z 235.8) | C2 0.790 vs 0.379 (x2.08, z 269.3)
+Timm e Schinner, seme 19               righe  3643 | C1 0.225 vs 0.227 (x0.99, z -1.8) | C2 0.371 vs 0.371 (x1.00, z -0.1)
+Bibbia latina                          righe  3889 | C1 0.162 vs 0.169 (x0.96, z -8.8) | C2 0.292 vs 0.297 (x0.98, z -5.9)
+controllo valido: True | righe a tema: False
