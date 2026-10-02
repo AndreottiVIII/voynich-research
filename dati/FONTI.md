@@ -85,3 +85,11 @@ Scaricati l'1/10/2026 dal clone GRETIL di ambuda-org, commit
 | file | fonte | SHA-256 |
 |---|---|---|
 | `macer_1832_djvu.txt` | Macer floridus, *De viribus herbarum*, ed. L. Choulant, Lipsia 1832; OCR di archive.org, item `deviribusherbaru00mace`, file `deviribusherbaru00mace_djvu.txt` (scaricato l'1/10/2026) | `1baed87fec67e0c7d785fc7c92452bba8185f03e18b1b02b6b0378717161d8e3` |
+
+## Testi senza senso scritti a mano (Gaskell e Bowern 2022) — e128
+
+- Repository github.com/danielgaskell/voynich, commit d076a7d081f35098fa405928239595afd2e75927 (18/10/2022).
+- File usato: `data/gibberish_transcriptions.zip`, SHA-256 a4bfa58af956603ab6607227ad640e01cb695c7b492c6914488bd30f6d0aebbe
+  (38 trascrizioni Unicode). In `dati/cache/gaskell_bowern/`, non ridistribuito.
+- Licenza: MIT modificata, con obbligo di citare Gaskell, D. E., Bowern, C. L. (2022), *Gibberish after all? Voynichese is
+  statistically similar to human-produced samples of meaningless text*, CEUR Workshop Proceedings 3313.
