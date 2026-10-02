@@ -2801,3 +2801,34 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
     - nella scrittura inventata spontaneamente da persone.
   - Non nascono "da sole" scrivendo a caso. Sono una regola, applicata in modo sistematico.
   - Limiti: testi brevi, moderni, scritti da persone che sapevano di dover inventare.
+
+## 2/10/2026 — e132: la prima parola della riga è un lemma? Controllo non valido; descrittivamente no
+
+- **Metodo.** Preregistrato.
+  - Gruppi: prime parole delle righe (segno y/d/s/o tolto), seconde parole come placebo, prime dei
+    paragrafi (gamba tolta).
+  - Riferimento: parole interne appaiate per sezione e lunghezza.
+  - Misure: unicità (M1a), concentrazione nella pagina (M1b), presenza fra le etichette (M2), titoli
+    d'erbario fra le etichette della farmaceutica (M3).
+- **Validità: no.** Il controllo negativo (Timm e Schinner senza nomi) dà z 5,8 in M1a e 4,0 in M1b
+  sulle prime parole: anche il generatore ha inizi di riga un po' speciali. Per regola nessuna
+  conclusione formale.
+- **Risultati** (z):
+
+  | gruppo | M1a unica | M1b stessa pagina | M2 etichette | M3 |
+  |---|---|---|---|---|
+  | prime delle righe, segno tolto | 1,5 | **−5,0** | **−14,5** | −6,5 |
+  | seconde (placebo) | −1,5 | −1,4 | −4,0 | 1,6 |
+  | prime dei paragrafi, gamba tolta | **14,7** (31% contro 14%) | −1,7 | −4,9 | −0,2 |
+  | controllo positivo, prime | −14,3 | 79,4 | | |
+
+- **Lettura** (descrittiva).
+  - Le prime parole delle righe sono l'**opposto** dei nomi: meno legate alla pagina e molto meno
+    presenti fra le etichette delle parole interne. Il difetto del controllo negativo riguarda i falsi
+    positivi, mentre qui l'effetto è negativo, quindi la lettura regge. La prima parola della riga non
+    è un lemma.
+  - Le prime parole dei paragrafi sono invece spesso uniche (31% contro 14%), ma non ricorrono sulla
+    pagina, né fra le etichette, né fra le etichette della farmaceutica. Sono forme singolari, non nomi
+    riusati. È la premessa di Vatne (2021) ("la prima parola della pagina d'erbario è il nome della
+    pianta"): unicità sì, ma nessuna delle altre tracce di un nome.
+  - La strada "lemma come appiglio" si chiude per le righe, e resta debole per i paragrafi.
