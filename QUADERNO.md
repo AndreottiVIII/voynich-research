@@ -4060,3 +4060,16 @@ sequenza.
     parola intera. È da capire prima di un nuovo tentativo.
   - **Nota tecnica:** θ 0,3 β 1 dà 9/18 contro i 10/18 dell'e153, per un diverso consumo dei numeri
     casuali nel codice (il rinnovo del tema). È nella variabilità fra semi.
+
+## 2/10/2026 — e174: replica con l'altezza della scrittura, non valida per scarsità di dati
+
+- **Metodo.** Preregistrato. L'altezza dei riquadri delle parole fatte solo di segni bassi (a, e, i, n,
+  o, r, s, ch, sh, ee), almeno 2 per riga.
+- **Risultato:**
+  - restano solo 32 pagine e 385 righe;
+  - V1 r 0,138, z 3,0 (serviva > 5): **test non valido**;
+  - per completezza, la statistica è 0,045 (p 0,28) su 120 coppie.
+- **Lettura.** Le parole "tutte basse" sono troppo rare per misurare l'altezza riga per riga. La
+  replica dell'e173b resta aperta. Serve un'altezza del corpo della scrittura misurata
+  direttamente sulle immagini (profilo d'inchiostro della riga dentro i riquadri), non dai riquadri,
+  che includono aste e code.
