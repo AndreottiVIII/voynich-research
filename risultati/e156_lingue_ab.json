@@ -1,0 +1,70 @@
+{
+ "A contro B": {
+  "N0 grezzo": {
+   "jsd_tra": 0.5247998175596833,
+   "jsd_dentro": 0.27874677884269244,
+   "eccesso": 0.24605303871699086,
+   "campione": 5615
+  },
+  "N1 cinque scelte": {
+   "jsd_tra": 0.4486872051115612,
+   "jsd_dentro": 0.2147963116385304,
+   "eccesso": 0.23389089347303077,
+   "campione": 5615,
+   "quota_spiegata": 0.0494289577051269
+  },
+  "N2 piu e/ee e ain/aiin": {
+   "jsd_tra": 0.4174294479298897,
+   "jsd_dentro": 0.19212844182580668,
+   "eccesso": 0.225301006104083,
+   "campione": 5615,
+   "quota_spiegata": 0.08433967213376614
+  }
+ },
+ "controllo positivo: A contro A riscritto con le quote di B": {
+  "N0 grezzo": {
+   "jsd_tra": 0.24783858118337657,
+   "jsd_dentro": 0.29273551096166667,
+   "eccesso": -0.0448969297782901,
+   "campione": 5615
+  },
+  "N1 cinque scelte": {
+   "jsd_tra": 0.11757654809492206,
+   "jsd_dentro": 0.22725276460869076,
+   "eccesso": -0.1096762165137687,
+   "campione": 5615,
+   "quota_spiegata": null
+  },
+  "N2 piu e/ee e ain/aiin": {
+   "jsd_tra": 0.10686211318018221,
+   "jsd_dentro": 0.21162346830757714,
+   "eccesso": -0.10476135512739493,
+   "campione": 5615,
+   "quota_spiegata": null
+  }
+ },
+ "mano 2 contro mano 3 (entrambe B)": {
+  "N0 grezzo": {
+   "jsd_tra": 0.3266154187863409,
+   "jsd_dentro": 0.2657615904353401,
+   "eccesso": 0.06085382835100084,
+   "campione": 5403
+  },
+  "N1 cinque scelte": {
+   "jsd_tra": 0.25058584450351645,
+   "jsd_dentro": 0.19890925790698297,
+   "eccesso": 0.051676586596533486,
+   "campione": 5403,
+   "quota_spiegata": 0.15080796070106928
+  },
+  "N2 piu e/ee e ain/aiin": {
+   "jsd_tra": 0.2268796643176461,
+   "jsd_dentro": 0.17491495780192265,
+   "eccesso": 0.05196470651572346,
+   "campione": 5403,
+   "quota_spiegata": 0.1460733379666027
+  }
+ },
+ "valido": false,
+ "esito": "A e B differiscono nel vocabolario"
+}

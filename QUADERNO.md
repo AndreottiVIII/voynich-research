@@ -3486,3 +3486,41 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
     terza prova sul legame fra parole e disegni, e la terza senza legame.
   - Il numero di coppie è piccolo: un effetto debole non si escluderebbe. Ma la media è anzi sotto il
     caso.
+
+## 2/10/2026 — e156: le "lingue" A e B non sono solo abitudini di grafia (controllo non valido)
+
+- **Metodo.** Preregistrato.
+  - Eccesso di divergenza fra le distribuzioni delle parole di A e B (oltre la variabilità interna).
+  - Prima e dopo l'unificazione delle cinque scelte di grafia (N1) e delle varianti ee/aiin (N2).
+- **Risultati:**
+  - eccesso A/B: 0,246 (grezzo) → 0,234 (N1) → 0,225 (N2). La grafia ne spiega solo il **5–8%**;
+  - fra le mani 2 e 3 (entrambe B): eccesso 0,061 → 0,052, cioè 15% spiegato.
+- **Validità: no.**
+  - Il controllo positivo (A riscritto con le quote di B) era mal costruito: confronta A con sé stesso
+    riscritto, quindi le stesse pagine, contro due metà di A fatte di pagine diverse. L'eccesso
+    risulta negativo già sul grezzo e la quota non si può calcolare.
+  - Errore di disegno mio: il controllo andava fatto su metà diverse di A.
+- **Lettura** (descrittiva, ma netta): unificare le varianti di grafia riduce di pochissimo la
+  differenza fra A e B. Le due "lingue" di Currier differiscono nel vocabolario (quali parole e con
+  che frequenza), non solo nelle abitudini di grafia decise per riga.
+
+## 2/10/2026 — e158: il "riconoscimento" dell'ebraico di Hauer e Kondrak lo dà anche un testo senza messaggio
+
+- **Metodo.** Preregistrato. Ricostruzione dei due metodi di Hauer e Kondrak indipendenti dalla chiave
+  (profilo di frequenza F; schemi di ripetizione nella parola P; versione per anagrammi A) su 109
+  lingue.
+- **Validità:** lingua giusta prima nel **100%** di 20 lingue cifrate, con tutti e tre i metodi.
+- **Risultati** (prime lingue, sicurezza, posizione dell'ebraico):
+  - **Voynich:** F Latin… (1,37; ebraico 22°); P Danish, Arabic, **Hebrew** (1,08; 3°); A Arabic,
+    Syriac… (0,94; 8°);
+  - **Timm e Schinner:** P **Hebrew** primo, sicurezza 1,17, più del Voynich; A Syriac, Arabic,
+    Hebrew;
+  - **generatore e152:** P Danish, Arabic, Syriac, Hebrew; A Arabic, Syriac;
+  - **testi inventati a mano:** Albanian, Telugu… (ebraico 39°–75°).
+- **Esito:** l'indicazione sul Voynich **non è informativa**. Un generatore senza messaggio (Timm e
+  Schinner) ottiene l'ebraico per primo con più sicurezza del Voynich.
+- **Lettura.**
+  - L'affinità con le lingue semitiche viene dalla **forma delle parole** del Voynich (pochi schemi di
+    ripetizione delle lettere), che ogni testo costruito con le sue regole di parola condivide, non
+    da una lingua sottostante.
+  - Sono i controlli che mancavano nel lavoro originale.
