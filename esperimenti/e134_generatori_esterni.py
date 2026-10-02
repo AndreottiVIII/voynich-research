@@ -120,7 +120,7 @@ def main():
             'sì' if r['riproduce_la_riga'] else 'no'))
     out += ['', '| testo | ' + ' | '.join(props) + ' |', '|---|' + '---|' * len(props)]
     for nome, r in ris.items():
-        out.append('| %s | %s |' % (nome, ' | '.join(('✓ ' if r['esiti'][p] else '· ') + ('%.3g' % r[e61.VALORI[p]] if e61.VALORI.get(p) in r else '') for p in props)))
+        out.append('| %s | %s |' % (nome, ' | '.join(('✓ ' if r['esiti'][p] else '· ') + ('%.3g' % r[e61.VALORI[p]] if isinstance(r.get(e61.VALORI.get(p)), (int, float)) else '') for p in props)))
     with open(os.path.join(RISULTATI, 'e134_generatori_esterni.md'), 'w', encoding='utf-8') as fo:
         fo.write('\n'.join(out) + '\n')
 
