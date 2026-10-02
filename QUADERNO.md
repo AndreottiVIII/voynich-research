@@ -3028,3 +3028,30 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
   - Le fini di righe vicine sono indipendenti fra loro come in versi senza rima, o anche di più.
   - Insieme alla chiusura (e74) e alla catena d'inizio (e105), che guarda solo l'inizio della riga
     sopra: la riga si lega alla precedente **soltanto** con l'evitamento dell'inizio.
+
+## 2/10/2026 — e134: Naibbe e i generatori U2/U3 di Reddit non hanno le proprietà di riga
+
+- **Metodo.** Preregistrato.
+  - Naibbe: testo cifrato pubblicato da Greshko (Plinio XVI), mandato a capo sulle larghezze del
+    Voynich.
+  - U2/U3: rigenerati con il loro codice (commit ccd5db0, seme 1492) in un ambiente separato.
+  - Prima esecuzione fermata da un errore di formattazione della tabella dopo il calcolo, corretto in
+    ef24971; risultati identici.
+- **Risultati** (Voynich: S(1) 0,53, bordo 23/56, R 0,01, sh per riga 1,14, A 1,04):
+
+  | testo | riga e pagina | S(1) | bordo inizio / fine | R | sh per riga | A |
+  |---|---|---|---|---|---|---|
+  | Naibbe | 3/12 | 0,97 | 2,9 / 1,7 | 0,08 | 0,98 | 1,01 |
+  | U2 | 1/12 | 1,25 | 1,2 / 1,0 | 0,00 | 1,04 | 1,04 |
+  | U3 | 2/12 | 1,51 | 1,3 / 0,7 | 0,99 | 1,05 | 1,03 |
+
+- **Esito:** nessuno riproduce la struttura di riga. Nessuno ha l'evitamento dell'inizio, il bordo
+  forte o la grafia decisa per riga.
+  - U3, che copia dalla riga sopra, apre la riga invece di chiuderla (R 0,99), e la copia di colonna
+    è 3,5 volte il caso.
+  - Il "17-metric fingerprint" di U2/U3 riguarda le parole, non la riga.
+- **Nota sul criterio dell'accordo nella riga:** qui le pagine sono blocchi di 29 righe, non le pagine
+  vere. Il Voynich stesso dà z 3,0, mentre con le pagine vere (e126) dava −0,5: scambiare parole fra
+  righe di pagine vere diverse porta dentro l'omogeneità di pagina. Il criterio dell'accordo non
+  discrimina in questo formato; l'esito non cambia, perché i generatori falliscono già le altre
+  condizioni.
