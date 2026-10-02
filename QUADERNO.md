@@ -4777,3 +4777,34 @@ sequenza.
   esterna, cioè parole note. I tentativi con parole note dove dovevano esserci (e214, nomi dello
   zodiaco) non hanno trovato nulla, per le sostituzioni lettera per lettera.
 - Il codice resta in `analisi/scartati/e215_allineamento_parole.py`.
+
+## 3/10/2026 — Strumento: il "voynichizzatore" (testo qualsiasi → voynichese → testo, con chiave)
+
+- **Idea di Davide:** come chiusura, uno strumento che rende "intraducibile" un testo qualsiasi e che
+  segue le proprietà e i modi del Voynich per quanto li conosciamo.
+- **Prima versione, scartata e non committata:** il generatore produceva il testo e il messaggio stava
+  solo in qo-/o- e -l/-r. Davide l'ha giustamente rifiutata: il messaggio deve **essere** il testo, non
+  stare in un angolo.
+- **Versione adottata** (`analisi/voynichizzatore.py`): codifica aritmetica sul modello generativo
+  (steganografia per codifica aritmetica; Ziegler, Deng e Rush 2019).
+  - **Modello esplicito**, parola per parola:
+    - pagine, paragrafi e lunghezze di riga dalle pagine vere;
+    - prima parola dalle parole d'inizio del Voynich (riga o paragrafo, lingua A/B), con l'evitamento
+      del primo segno della riga sopra;
+    - poi serbatoio della pagina, tema di pagina, varianti attestate o nuove ben formate, copia dalla
+      riga sopra, peso di giuntura, ch/sh in seconda posizione, regola di fine riga;
+    - le cinque scelte di grafia con le abitudini di riga (memoria, ripartenza a pagina).
+  - **Codifica:** il messaggio si comprime (se conviene), si cifra con un flusso derivato dalla chiave
+    (quindi è indistinguibile da bit casuali) e fa da "dado" a ogni scelta, con aritmetica esatta su
+    frazioni. Chi ha la chiave rifà il modello e ricostruisce i bit; con una chiave sbagliata si
+    ottiene un errore.
+- **Prove:**
+  - "Nel mezzo del cammin di nostra vita mi ritrovai per una selva oscura." (592 bit) sta in una pagina
+    di 28 righe e torna identica;
+  - un testo di 249 caratteri (784 bit compresso) sta in una pagina e torna identico;
+  - circa 4 bit per parola.
+- **Limiti noti:** con i pesi provvisori si vedono ripetizioni troppo frequenti (chol, os) e parole di
+  un segno. I parametri vanno presi dall'e224.
+- **Da fare (e225, dopo l'e224):** un testo voynichizzato lungo quanto il manoscritto, misurato con la
+  pagella, le regole di riga e i test di messaggio. Per costruzione è un campione del modello: deve
+  avere le proprietà del generatore.
