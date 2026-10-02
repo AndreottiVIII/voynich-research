@@ -3204,3 +3204,22 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
   Nessuna traccia di una cornice inizio–fine, con una sensibilità inferiore a un legame che tocca il
   30% delle righe in s. Le celle più lontane da 1 (G…m ×1,39, y…m ×1,26, G…n ×0,72) restano entro la
   variazione del nullo complessivo.
+
+## 2/10/2026 — e140: le varianti lunghe non servono a riempire la riga
+
+- **Metodo.** Preregistrato.
+  - Correlazione di Spearman, entro pagina, fra il surplus di varianti lunghe (ee, aiin, qo-) di una
+    riga e la sua "base" (lunghezza con le varianti portate alla forma corta).
+  - Nullo: 1.000 rimescolamenti delle scelte negli strati.
+- **Risultati** (rho, z):
+  - Voynich, righe interne −0,125 (−6,0);
+  - Voynich, ultime righe di paragrafo (non allineate) −0,139 (−2,8);
+  - controllo positivo −0,58 (−28,3);
+  - Timm e Schinner −0,22 (−12,4).
+- **Esito per regola: no.** La correlazione negativa c'è, ma:
+  - ha la stessa forza nelle ultime righe di paragrafo, che non vanno a margine;
+  - è ancora più forte nel generatore, che non allinea nulla.
+  È un effetto generico della misura (righe fatte di parole corte e scelte con varianti lunghe vanno
+  insieme anche senza intenzione), non un allineamento.
+- **Lettura.** Le scelte di grafia decise per riga (e135) non si spiegano con il riempimento della
+  riga. L'osservazione di r/voynich sul margine destro regolare resta da misurare sulle immagini.
