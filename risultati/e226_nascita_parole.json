@@ -1,0 +1,64 @@
+{
+ "Voynich": {
+  "unita": 207,
+  "parole": 34863,
+  "nuove": 6750,
+  "quota_genitore_qualunque": 0.8081481481481482,
+  "quota_locale": 0.24562962962962964,
+  "quota_controllo": 0.1575851851851852,
+  "L": 1.558710162639842,
+  "L_basso": 1.498784961022345,
+  "L_alto": 1.6222535576976131,
+  "heaps": 0.7194388528753403
+ },
+ "generatore e192 (controllo positivo)": {
+  "unita": 207,
+  "parole": 35075,
+  "nuove": 6949,
+  "quota_genitore_qualunque": 0.8507698949489135,
+  "quota_locale": 0.3439343790473449,
+  "quota_controllo": 0.1572384515757663,
+  "L": 2.1873426989429365,
+  "L_basso": 2.0994889015668905,
+  "L_alto": 2.2780647681686754,
+  "heaps": 0.7363031017685066
+ },
+ "Voynich rimescolato nella sezione (controllo negativo)": {
+  "unita": 207,
+  "parole": 34863,
+  "nuove": 6740,
+  "quota_genitore_qualunque": 0.8087537091988131,
+  "quota_locale": 0.1937685459940653,
+  "quota_controllo": 0.185066765578635,
+  "L": 1.0470196817252577,
+  "L_basso": 1.0038172640307177,
+  "L_alto": 1.0883381498414635,
+  "heaps": 0.6845622956931725
+ },
+ "Macer floridus, capitoli": {
+  "unita": 79,
+  "parole": 13484,
+  "nuove": 3737,
+  "quota_genitore_qualunque": 0.3358308803853358,
+  "quota_locale": 0.052983676746052984,
+  "quota_controllo": 0.03477388279368477,
+  "L": 1.5236629472874184,
+  "L_basso": 1.3283696899383388,
+  "L_alto": 1.776132803180914,
+  "heaps": 0.7079511316105234
+ },
+ "Isidoro XVII, paragrafi": {
+  "unita": 326,
+  "parole": 9986,
+  "nuove": 3895,
+  "quota_genitore_qualunque": 0.2682926829268293,
+  "quota_locale": 0.02926829268292683,
+  "quota_controllo": 0.004338896020539152,
+  "L": 6.745562130177516,
+  "L_basso": 5.208182803468207,
+  "L_alto": 8.71089969744301,
+  "heaps": 0.8078550322840671
+ },
+ "esito": "nascita intermedia",
+ "generatore_troppo_locale": false
+}
