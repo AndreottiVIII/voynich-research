@@ -4258,3 +4258,23 @@ sequenza.
   solo il disegno. L'esito vale quindi solo come "non con queste misure".
 - **Da migliorare:** misura del disegno con la pergamena tolta localmente (come per l'inchiostro
   nell'e166) e caratteristiche di forma (foglie, radici).
+
+## 2/10/2026 — e172: gli incroci ridanno le parole uniche, ma a prezzo della pagina
+
+- **Metodo.** Preregistrato. Generatore e165 (varianti attestate, λ 1, θ 0,3) con incroci di due
+  parole attestate in un segno comune, con probabilità ν ∈ {0; 0,1; 0,25}. Tre semi.
+- **Risultati:**
+
+  | ν | pagella | guadagnate rispetto a ν 0 | perse |
+  |---|---|---|---|
+  | 0 | 9/18 | – | – |
+  | 0,1 | 8/18 | formule | profilo pagina, lunghezze vicine |
+  | 0,25 | 6/18 | uniche | tipi, omogeneità, profilo pagina, lunghezze vicine |
+
+- **Esito per regola: completo no.**
+- **Lettura.**
+  - Creare parole nuove per incrocio ridà le parole uniche, ma il vocabolario si allarga troppo: si
+    perdono tipi/parole e omogeneità di pagina.
+  - Nel Voynich parole nuove e omogeneità convivono. Le parole nuove sono quindi **vicine alle parole
+    della stessa pagina** (varianti locali), non incroci qualsiasi del vocabolario.
+  - La prossima versione del generatore dovrebbe incrociare solo con parole **della stessa pagina**.
