@@ -32,8 +32,8 @@ def misure_blocco(righe, voc):
 
 def main():
     rnd = random.Random(SEME)
-    zl = [r for r in trascrizione.testo_corrente(trascrizione.leggi('ZL')) if r.parole]
-    par = [r for r in zl if r.tipo and r.tipo[0] == 'P' and r.pagina != 'fRos']
+    par = [r for r in trascrizione.testo_corrente(trascrizione.leggi('ZL')) if r.parole and r.pagina != 'fRos']
+    zl = [r for r in trascrizione.leggi('ZL') if r.parole]   # tutti i loci (testo_corrente ha solo i paragrafi)
     blocchi = OrderedDict([
         ('circolare (Cc, Ca)', [list(r.parole) for r in zl if r.tipo in ('Cc', 'Ca') and r.pagina not in ('fRos', 'f57v')]),
         ('radiale (Ri, Ro)', [list(r.parole) for r in zl if r.tipo in ('Ri', 'Ro') and r.pagina != 'fRos']),
