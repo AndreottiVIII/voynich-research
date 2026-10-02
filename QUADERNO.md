@@ -4808,3 +4808,48 @@ sequenza.
 - **Da fare (e225, dopo l'e224):** un testo voynichizzato lungo quanto il manoscritto, misurato con la
   pagella, le regole di riga e i test di messaggio. Per costruzione è un campione del modello: deve
   avere le proprietà del generatore.
+
+## 3/10/2026 — Notte: progetto del voynichizzatore finale
+
+- Davide ha scelto (prima di dormire):
+  - imitare **tutto il manoscritto** (sezioni, mani, lingue A/B);
+  - uscita in **EVA, immagine delle pagine, etichette e testo circolare**;
+  - **parola chiave**;
+  - **l'indistinguibilità prevale sulla compattezza**.
+- Il progetto è in `rassegna/voynichizzatore_progetto.md`.
+  - **Principio:** con bit cifrati uniformi, l'uscita è un campione del modello. Tutto il lavoro sta nel
+    modello, che deve essere lo stesso del generatore.
+  - **Architettura:** un modello, due motori; ogni scelta visibile è un simbolo codificato, ogni
+    variabile nascosta viene dalla chiave.
+  - **Criteri di accettazione** per l'e225: pagella, regole di riga, test di messaggio silenziosi, un
+    discriminatore con AUC ≤ 0,6, nessuna copia e sicurezza.
+- **Difetti della v2 visti su una pagina di prova:**
+  - *chol* 24 volte su 215 parole (11%, contro l'1,1% del Voynich);
+  - 15 righe su 28 finiscono con *daim* o *koeam* (nel Voynich la finale più comune, *daiin*, chiude
+    131 righe su 4.130).
+
+## 3/10/2026 — e227: le unioni contro la giuntura (non valido); il legame vale per due terzi anche nelle coppie uniche
+
+- **Preregistrato.** Fa parte dei test notturni sui meccanismi delle proprietà mancanti al generatore.
+- **Deviazione da annotare.** Una prova rapida del codice ha calcolato i valori del Voynich (con 3
+  estrazioni) prima del commit della preregistrazione. Il testo della preregistrazione era già scritto
+  e non è stato toccato; lo dice anche il messaggio di commit.
+  - Regola per il futuro: le prove rapide si fanno solo sui controlli.
+- **A, unioni.** U/N0 (nullo della pagella), U/N1 (stesso ultimo segno), U/N2 (stessi ultimi due segni):
+  - Voynich 1,92 / 1,29 / 1,16 (z 12,6);
+  - generatore e192 1,29 / 1,05 / 1,04;
+  - generatore con il 6% di parole spezzate 1,71 / 1,17 / 1,06.
+  - **Non valido:** il controllo positivo non arriva a U/N2 ≥ 1,3, perché il nullo che conserva due
+    segni finali assorbe quasi tutto l'effetto delle spezzature.
+  - Descrittivamente, il Voynich supera le spezzature al 6% sotto tutti e tre i nulli.
+- **B, legame.**
+  - Voynich: 0,188 su tutte le coppie interne, 0,125 sulle coppie che compaiono una volta (Q 0,67).
+  - Generatore: Q 0,94 (valido).
+  - **Esito misto.** Il legame del Voynich solo sulle coppie uniche (0,125) supera già quello del
+    generatore su tutte (0,107): la regola dei segni del generatore è troppo debole.
+- **Osservazione non preregistrata, ma decisiva per il passo dopo.** Spezzare il 6% delle parole lunghe
+  sposta *tre* misure insieme verso il Voynich: legame da 0,107 a 0,161, unioni da 1,29 a 1,71, Q da
+  0,94 a 0,74. Uno spazio dentro una parola eredita la dipendenza fra segni interni e crea coppie
+  ripetute.
+  - Ipotesi messa alla prova subito nell'e227b: una sola quota di spezzature riproduce tutte e cinque le
+    misure?
