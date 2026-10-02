@@ -1,4 +1,4 @@
-# Che cosa è nuovo e che cosa era già noto — rassegna al 2/10/2026
+# Che cosa è nuovo e che cosa era già noto — rassegna al 2/10/2026 (aggiornata con Malta 2022 e voynich.ninja)
 
 Rassegna fatta con ricerche web mirate su ciascun punto (non sistematica: voynich.nu non è
 raggiungibile da questo PC, e molti lavori stanno solo su voynich.ninja o nei blog). Da completare
@@ -18,26 +18,38 @@ prima del white paper, in particolare su voynich.ninja e negli atti di Malta 202
 | Testi inventati a mano imitano il Voynich nelle parole | e128 | Gaskell e Bowern 2022 |
 | Cifrario a mano che imita le statistiche delle parole | e134 | Greshko 2025 (Naibbe) |
 | I bifogli sono stati rimescolati; l'ordine attuale non è quello originale | e148, e150 | codicologia: acqua fra f78v e f81r, farmacia divisa fra fascicoli; Davis (macchie d'acqua, "singulions") |
-| Vocabolario diverso per sezione e deriva | e142, e144 | Montemurro e Zanette 2013; Currier A/B |
+| Vocabolario diverso per sezione e deriva | e142, e144 | Montemurro e Zanette 2013; Currier A/B; Zattera 2022 (le sezioni si distinguono da quattro sequenze brevi) |
+| Le etichette (zodiaco) sono un "etichettese" a parte, con ot-/ok- e quasi mai qo- | e149 | Pelling 2017 ("Voynich labelese", Pesci: 50% ot-, 30% ok-) |
+| Preferenze di posizione nella riga e nel paragrafo, gallow come iniziali | e71, e73 | Feaster 2022; Stafford 2022 (Malta, paper13) |
 
 ## Probabilmente nuovo (non trovato in letteratura con le ricerche fatte)
 
 1. **Chiusura della riga misurata come assenza di legame all'a capo.** Il legame fra fine e inizio di
    parole adiacenti, forte dentro la riga, sparisce attraverso l'a capo (R ≈ 0; e74), e le fini di
    righe vicine sono indipendenti, senza rima (e136, contro Dante come controllo). Smith e Ponzi
-   studiano le giunture dentro la riga, non attraverso l'a capo.
+   studiano le giunture dentro la riga, non attraverso l'a capo. Feaster (thread 4343) ha guardato
+   informalmente le combinazioni all'a capo: due anomalie singole, attribuite poi alle sezioni.
+   Feaster 2022 propone che le anomalie alle giunture siano effetti di posizione: l'e164 lo esclude
+   per il legame complessivo (ritenzione 0,99 con un nullo per strati di posizione; la sola
+   posizione ne produce l'1%).
 2. **L'evitamento dell'inizio è una catena del primo ordine** (guarda solo la riga sopra, e105),
    senza ciclo né numerazione (e137, e137b). Il fenomeno era noto; la caratterizzazione no.
 3. **Cinque scelte di grafia decise riga per riga, indipendenti fra loro, con memoria di 3–5 righe e
    ripartenza a ogni pagina** (e123b, e135, e146). Feaster 2022 ipotizza "opzioni diverse in zone
-   diverse della pagina" senza misurarlo.
+   diverse della pagina" senza misurarlo. Nei thread di voynich.ninja consultati (4343, 4361) e negli
+   atti di Malta non c'è niente sulle scelte riga per riga.
 4. **Le righe sono composte sul posto**: dopo una riga accorciata da un disegno le regole d'inizio
    valgono come altrove (e141). Contro l'idea di una bella copia da un modello con altri a capo.
 5. **Le regole di riga non le producono** i testi inventati da persone (dati di Gaskell e Bowern),
    Timm e Schinner, Naibbe, né i generatori U2/U3 (e128, e134). Un generatore che compone le righe in
    ordine (tema, giunture, abitudini, regola d'inizio) le produce tutte insieme (e152).
+   Nota: Gaskell e Bowern 2022 trovano nei testi inventati più preferenze di posizione nella riga
+   che nelle lingue; le regole di riga specifiche (chiusura, evitamento dell'inizio, scelte per riga)
+   non le misurano, e nei loro dati non ci sono (e128).
 6. **Nessuna grammatica nemmeno nella composizione della riga**, ignorando l'ordine (e126); con
-   e114 ed e115.
+   e114 ed e115. Caruana, Layfield e Abela 2022 (Malta, paper8) trovano coppie di parole con ordine
+   preferito più del testo rimescolato a caso. Il loro nullo, però, rimescola tutto il testo, quindi
+   conserva anche giunture e posizione; con il nullo dentro la riga (e115) l'ordine non c'è.
 7. **Nessuna struttura di elenco o di voce:** tipi di riga (e138), cornice inizio-fine (e143),
    ordine alfabetico nelle ricette (e151, contro l'*Alphita*), posizioni fisse nelle ruote
    zodiacali (e144), somiglianza fra i segni zodiacali doppi (e142).
@@ -46,22 +58,33 @@ prima del white paper, in particolare su voynich.ninja e negli atti di Malta 202
    meccanico.
 9. **I fogli coniugati si somigliano molto più dei vicini a parità di mano e lingua** (e148), e un
    ordine dei bifogli ricostruito dal vocabolario, su dati non usati e senza le scelte di grafia, è
-   confermato dalle abitudini di grafia (e150b, e154b). La codicologia sapeva dei rimescolamenti; una
-   ricostruzione statistica validata così non l'ho trovata.
+   confermato dalle abitudini di grafia (e150b, e154b) e, debolmente, dal passo di riga sulle immagini
+   (e161). La codicologia sapeva dei rimescolamenti; somiglianze di vocabolario fra fogli erano state
+   calcolate (voynichattacks 2010, raggruppamenti per lingua e sezione), ma non il confronto fra fogli
+   coniugati né una ricostruzione validata così.
 10. **Verifica sistematica con chiavi casuali delle letture di Bax e Vatne** (e133): la chiave di Bax
     non batte il caso fuori campione; le sue parole ricorrenti stanno dappertutto; i "nomi" di Vatne
     ricorrono come qualsiasi prima parola. Le critiche esistevano; il test quantitativo no.
 11. **Le etichette sono un lessico a sé marcato da o-** (59% contro 21% nel testo; zodiaco 76%), non
-    parole del testo con un prefisso (e149). Che le etichette comincino spesso con o- era noto
-    informalmente.
+    parole del testo con un prefisso (e149). **In parte noto:** Pelling 2017 ("labelese") lo dice per
+    lo zodiaco. Nuovi sono la misura su tutte le etichette e la prova che non sono parole del testo
+    con o- aggiunto.
 12. **Limite di decifrabilità:** un codice per sillabe con grafia variabile non si risolve per sola
     statistica nemmeno col modello di lingua "barato" (e112b).
 
 ## Da verificare in modo più completo
 
-- voynich.ninja (in particolare i lavori di Tavie, Koen Gheuens, Emma May Smith, Marco Ponzi) per i
-  punti 1, 3, 9.
-- Atti del convegno di Malta 2022 (CEUR 3313) e di Voynich Day.
+- voynich.ninja: fatti i thread 2808 (Smith e Ponzi), 4343 (Voynich Day) e 4361. Restano i blog di
+  Emma May Smith e Marco Ponzi, e i lavori di Koen Gheuens.
+- Atti di Malta 2022 (CEUR 3313): letti gli abstract di tutti e i testi rilevanti (paper1, 4–10, 12, 13).
+  Altri spunti da lì:
+  - Farrugia e altri (paper5) riconoscono gli scribi pagina per pagina dagli n-grammi di segni. Le
+    nostre abitudini di grafia su poche righe non bastano (e157).
+  - Hermes (paper7) mostra che la *Polygraphia III* di Tritemio, usata a caso, imita il Voynich: è
+    un generatore da provare sulle regole di riga, come Naibbe ed e134.
+  - Boxer (paper1) trova ripetizioni immediate (epizeusi) simili all'enochiano di Dee e Kelley, ma una
+    curva degli hapax diversa.
+- Voynich Day 2023–2025 (non ancora visti).
 - Davis, *The Materiality of the Voynich Manuscript* (2025), per il punto 9.
 
 ## Fonti consultate
@@ -75,3 +98,9 @@ prima del white paper, in particolare su voynich.ninja e negli atti di Malta 202
 - Pelling, bifogli rimescolati — https://ciphermysteries.com/2013/05/30/evidence-of-bifolio-reordering-in-the-voynich-manuscript
 - Pelling su Davis 2025 — https://ciphermysteries.com/2025/10/11/lisa-fagin-davis-the-materiality-of-the-voynich-manuscript
 - Montemurro e Zanette 2013 — https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0066344
+- Atti di Malta 2022 — https://ceur-ws.org/Vol-3313/ (paper1 Boxer, paper4 Gaskell e Bowern, paper5 Farrugia e altri,
+  paper6 Bowern e Gaskell, paper7 Hermes, paper8 Caruana e altri, paper9 Lindemann, paper10 Zattera, paper12 Feaster,
+  paper13 Stafford)
+- Pelling, Voynich labelese — https://ciphermysteries.com/2017/09/03/voynich-labelese
+- Folio similarities — https://voynichattacks.wordpress.com/2010/02/26/folio-similarities/
+- Smith e Ponzi, thread — https://www.voynich.ninja/thread-2808.html; "Why not positional variation?" — https://www.voynich.ninja/thread-4361.html
