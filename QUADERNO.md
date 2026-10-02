@@ -3615,3 +3615,22 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
     θ = 0,6).
   - Un tema di riga debole non regge l'estrazione di un "tema dominante" per riga: la strada 5
     (sequenza dei temi come voci) non si apre, per ora.
+
+## 2/10/2026 — Hannig, Ardıç, Cheshire: chiavi non verificabili come chiavi fisse
+
+- **Hannig (2020, ebraico)**, PDF dal suo sito (`dati/cache/letture_proposte/hannig_2020.pdf`, SHA-256
+  86fa8e75…; tabella a p. 15 letta come immagine):
+  - **22 corrispondenze su 34 segni ebraici.** I quattro segni a gamba del Voynich, con e senza
+    panca, coprono 12 consonanti (B/b, G/g, D/d, P/p, K/k, T/t). Nella tabella le righe B, G e D
+    hanno lo stesso segno, come b, g e d: lo stesso segno vale fino a tre lettere.
+  - Mancano ancora 12 lettere (w, z, ḥ, m, n, s, ṣ, ś, š e quattro finali).
+  - **Una chiave così non è fissa:** ogni parola ha molte letture, e in un ebraico senza vocali
+    quasi tutte trovano una parola. Il test con chiavi casuali non discriminerebbe.
+  - L'e158 mostra inoltre che l'affinità del Voynich con le lingue semitiche nasce dalla forma delle
+    parole, anche in un testo senza messaggio.
+  - **Non verificabile come chiave, e l'argomento linguistico che la motiva è smentito dall'e158.**
+- **Ardıç (antico turco)**, articolo (`ardic_turkic.pdf`, SHA-256 5ead8ec5…): i segni del Voynich sono
+  in un font proprio, che il testo estratto non conserva, e l'alfabeto dichiarato ha "24 lettere e
+  90+ lettere composte". Da verificare con la tabella resa come immagine. Rimandato.
+- **Cheshire (2019, "proto-romanzo")**: il PDF dell'articolo (Romance Studies 37:1) non è
+  raggiungibile da qui (403, non in archivio). Rimandato.
