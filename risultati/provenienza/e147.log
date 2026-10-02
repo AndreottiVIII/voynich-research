@@ -1,0 +1,6 @@
+pagine usate: 178
+pagine 178
+(1) lunghezza delle parole nelle righe spostate {"pagine": 31, "righe_spostate": 124, "righe_normali": 638, "differenza_segni": 0.04875227269073191, "nullo": 0.00023060108371247265, "z": 0.37886800891679956}
+(2) densita dei segni nelle righe spostate {"pagine": 31, "differenza_densita": 0.0027486059582127287, "iv": [-0.000804660109179296, 0.006902557313101404]}
+(3) margine destro {"pagine": 178, "sd_osservata": 0.08427240430329193, "sd_simulata": 0.04314873903538953, "rapporto": 1.9530676026053457, "iv": [1.7739957142109184, 2.1491322589553987]}
+parole accorciate False | compressione False | allineamento attivo False

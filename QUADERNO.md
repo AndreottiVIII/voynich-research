@@ -3243,3 +3243,49 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
   - La famiglia yke- è reale, ma si spiega con la deriva del vocabolario lungo il manoscritto (e142,
     e il post sul vocabolario che segue la posizione): compare alla fine dello zodiaco, non in un
     punto preciso delle ruote.
+
+## 2/10/2026 — e147: il testo non si adatta allo spazio, e il margine destro non è "perfetto"
+
+- **Metodo.** Preregistrato. Riquadri delle parole di voynichese.com (come nell'e34), 178 pagine di
+  testo in paragrafi. Spunti da r/voynich.
+- **Risultati:**
+  - **(1)** nelle righe che cominciano dopo un disegno le parole non sono più corte: +0,05 segni,
+    z 0,4 (124 righe spostate su 31 pagine);
+  - **(2)** i segni non sono più stretti: +0,003 segni/pixel, intervallo da −0,001 a 0,007;
+  - **(3)** il margine destro è **meno** regolare di un semplice "vado a capo quando la parola non
+    entra": dispersione delle fini 0,084 contro 0,043 simulata (rapporto 1,95 [1,77–2,15]).
+- **Esito: no su tutte e tre.**
+- **Lettura.**
+  - Nessun adattamento delle parole allo spazio, nessuna compressione, nessun allineamento attivo.
+  - L'impressione su Reddit di righe che "finiscono esattamente allo stesso margine" non regge alla
+    misura. Le righe finiscono in modo più irregolare di un riempimento meccanico, come è normale se
+    chi scrive va a capo anche prima del margine, per esempio alla fine di una riga composta come
+    unità (e74, e141).
+
+## 2/10/2026 — e148: le due metà di un bifoglio si somigliano molto più dei vicini — scrittura per bifoglio
+
+- **Metodo.** Preregistrato.
+  - Coppie di fogli coniugati (stesso fascicolo $Q e bifoglio $B della ZL) contro coppie non coniugate
+    dello stesso fascicolo, alla stessa distanza, con la stessa mano e la stessa lingua.
+  - Quantile di ogni coppia coniugata fra le sue coppie di confronto; nullo uniforme.
+- **Risultati** (23 coppie utilizzabili):
+  - coseno dei tipi di parola: media dei quantili **0,827**, p < 0,0001;
+  - coseno dei bigrammi di segni: **0,844**, p < 0,0001;
+  - profili delle preferenze di grafia: 0,536, p 0,27.
+  - Coppie coniugate più simili di tutte le loro coppie di confronto: 16 su 23 nella misura (1)
+    (per esempio f3–f6, f19–f22, f76–f83, f78–f81, f108–f111).
+- **Esito: bifogli scritti come unità.**
+- **Lettura.**
+  - Anche a parità di mano, lingua, fascicolo e distanza, le due metà dello stesso foglio piegato
+    condividono vocabolario e combinazioni di segni più dei fogli vicini nell'ordine attuale. Il
+    testo, o almeno il suo vocabolario, è stato prodotto **bifoglio per bifoglio**, prima che i fogli
+    fossero piegati e messi nell'ordine attuale.
+  - Va con la deriva del vocabolario (e142, e144): una sessione di scrittura corrisponde a un foglio
+    aperto, non a pagine consecutive del libro rilegato. L'ordine di rilegatura non è l'ordine di
+    scrittura.
+  - Le preferenze di grafia per riga non seguono il bifoglio: variano più in fretta (e135, e146).
+  - **Limiti:** molti quantili si basano su 2 sole coppie di confronto; i fascicoli balneologici (f75–f84)
+    sono molto omogenei al loro interno. Il risultato regge però su 23 coppie e due misure.
+  - **Prossimo passo** (da preregistrare): ricostruire l'ordine di scrittura dei bifogli dalla
+    somiglianza, e controllare se la deriva del vocabolario diventa più regolare in quell'ordine che
+    in quello attuale.

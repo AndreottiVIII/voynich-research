@@ -1,0 +1,4 @@
+(1) coseno dei tipi di parola            coppie 23 | media dei quantili 0.827 | p 0.0000
+(2) coseno dei bigrammi di segni         coppie 23 | media dei quantili 0.844 | p 0.0000
+(3) correlazione dei profili di grafia   coppie 23 | media dei quantili 0.536 | p 0.2748
+bifogli scritti come unita': True
