@@ -2855,3 +2855,28 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
     "tema" (preferenze di segni scelte per la riga) da cui escono tutte le sue parole. È coerente con
     la grafia ch/sh decisa per riga (e123b).
   - Idea per un modello successivo: parametri di riga, non copia.
+
+## 2/10/2026 — e127: l'anagramma stretto è escluso; l'ordine dei segni è rigido come in Timm e Schinner
+
+- **Metodo.** Preregistrato (ipotesi 2).
+  - Prima esecuzione fallita nella parte 2: caratteri rari dell'OCR del *Macer*. Corretto, commit
+    e3ea77d.
+  - Seconda esecuzione fallita: deriva su testo corto. Corretto come nell'e104 (D-013), commit
+    1c9e699.
+  - La parte 1 è identica in tutte le esecuzioni; i log dei primi tentativi sono conservati nella
+    cartella di lavoro.
+- **Parte 1:**
+
+  | testo | coerenza d'ordine | tipi con anagramma |
+  |---|---|---|
+  | Voynich ZL / IT | 0,878 / 0,876 | 35% / 37% |
+  | Timm e Schinner | 0,83–0,84 | 45–47% |
+  | lingue | 0,65–0,68 | 5–7% |
+  | latino ordinato, 3% guastato | 0,998 | 16% |
+
+- **Parte 2:** pagella 0–1/18 sia ordinato sia no (latino in segni del Voynich per corrispondenza di
+  frequenza). Nessuna versione promettente.
+- **Esito:**
+  - ordine stretto escluso: un terzo dei tipi ha un anagramma;
+  - ordine più rigido di una lingua, come quello del generatore che copia parole del Voynich.
+  - Ordinare le lettere non avvicina il latino al Voynich.
