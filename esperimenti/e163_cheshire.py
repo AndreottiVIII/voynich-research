@@ -48,6 +48,8 @@ def unita(w):
 
 def fuori_campione(pagina):
     m = re.match(r'f(\d+)', pagina)
+    if m is None:               # fRos: il pieghevole delle rosette (f85-f86), escluso
+        return False
     n = int(m.group(1))
     return not (n in (17, 19, 34) or pagina == 'f53r' or 67 <= n <= 86 or pagina == 'f116v')
 
