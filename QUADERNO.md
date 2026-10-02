@@ -3944,3 +3944,28 @@ Due comandi git partiti insieme si sono bloccati a vicenda (index.lock). Il codi
 invece che in un commit a parte. L'ordine resta valido: la preregistrazione e169 è nel commit
 precedente fdd73dc, e l'e169 è partito solo dopo 50b235d. D'ora in poi i comandi git vanno sempre in
 sequenza.
+
+## 2/10/2026 — e170: lo scuro dell'inchiostro è graduale in entrambi gli ordini (nessuna conferma)
+
+- **Metodo.** Preregistrato.
+  - Per unità: scuro medio, quota di intinte e autocorrelazione dello scuro (e166).
+  - Ordine ricostruito (e154b) contro rilegatura e 1.000 ordini casuali; 49 unità in tre gruppi.
+- **Risultati** (distanza fra unità consecutive):
+
+  | ordine | distanza | p |
+  |---|---|---|
+  | ricostruito | 2,080 | 0,015 |
+  | rilegatura | 2,035 | 0,004 |
+  | casuali (media) | 2,318 | – |
+
+- **Esito per regola: conferma fisica no.** L'ordine ricostruito è più graduale del caso, ma non della
+  rilegatura.
+- **Lettura.**
+  - Entrambi gli ordini sono più graduali del caso, quindi lo scuro dell'inchiostro porta un segnale
+    di vicinanza.
+  - Per la rilegatura può essere il confondimento dichiarato, cioè le riprese fotografiche in ordine
+    di rilegatura, anche se la misura è normalizzata sulla pergamena locale. Oppure la rilegatura
+    conserva in parte l'ordine di scrittura: i fascicoli tengono insieme bifogli scritti vicini.
+  - I due ordini condividono molte adiacenze dentro i fascicoli, quindi il test non li separa bene.
+  - Le conferme dell'ordine ricostruito restano la grafia (e154b, forte) e il passo di riga (e161,
+    debole).
