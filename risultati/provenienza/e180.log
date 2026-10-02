@@ -1,0 +1,4 @@
+θ 0.3, k 3   10/18 | riga True | T3 1.1 T4r 6.1 | pagina e T3 True | corregge False | mancano ['h2', 'tipi', 'legame', 'unioni', 'Zipf', 'verticale', 'formule', 'bordo di riga']
+θ 0.3, k 8   8/18 | riga True | T3 1.4 T4r 4.7 | pagina e T3 False | corregge False | mancano ['h2', 'tipi', 'omogeneità', 'legame', 'unioni', 'lunghezze vicine', 'Zipf', 'verticale', 'formule', 'bordo di riga']
+θ 0.5, k 3   9/18 | riga True | T3 0.8 T4r 6.5 | pagina e T3 True | corregge False | mancano ['h2', 'omogeneità', 'legame', 'unioni', 'curva piatta', 'profilo pagina', 'Zipf', 'verticale', 'bordo di riga']
+θ 0.5, k 8   10/18 | riga True | T3 0.9 T4r 7.0 | pagina e T3 True | corregge False | mancano ['h2', 'gradiente', 'legame', 'unioni', 'Zipf', 'verticale', 'formule', 'bordo di riga']
