@@ -3432,3 +3432,34 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
     - il gradiente verticale.
   - Mostra che un procedimento senza messaggio di questo tipo **basta** per la riga. Non mostra che
     il Voynich sia stato fatto così, né esclude un contenuto codificato nelle parole del tema.
+
+## 2/10/2026 — e154 ed e154b: l'ordine ricostruito dei bifogli è confermato dalle abitudini di grafia
+
+- **e154** (preregistrato).
+  - Dentro i gruppi di stessa mano e lingua, l'ordine dei bifogli ricostruito dal vocabolario rende
+    più graduali due cose:
+    - **(I) grafia** (preferenze delle cinque scelte per riga): 2,61 contro 2,94 della rilegatura e
+      3,14 del caso, p < 0,001;
+    - **(II) impaginazione** (parole e segni per riga, righe per paragrafo, gallow p/f): 2,34 contro
+      2,32 della rilegatura, cioè nessun guadagno sulla rilegatura (p 0,04 sul caso).
+  - Esito per regola: confermato.
+  - **Difetto riconosciuto subito:** le scelte di grafia cambiano l'identità delle parole, quindi la
+    misura (I) non era indipendente dal vocabolario.
+- **e154b** (preregistrato dopo l'e154): l'ordine si ricostruisce su un vocabolario con le cinque
+  scelte unificate (ch=sh, k=t, -l=-r, qo-=o-, -dy=-ey), poi si misura la grafia.
+  - Ricostruito 2,55, rilegatura 2,94, caso 3,13, p < 0,001.
+  - Per gruppo: mano 1/A 2,48 contro 3,10; mano 3/B 2,70 contro 3,01; mano 2/B 2,65 contro 2,46 (qui
+    no).
+- **Esito: ordine confermato dalla grafia.**
+- **Lettura.**
+  - Un ordine dei bifogli ricostruito solo dal vocabolario, senza le scelte di grafia, mette vicini
+    anche bifogli con abitudini di grafia simili. Due tracce indipendenti della scrittura concordano
+    su un ordine diverso dalla rilegatura, soprattutto per la mano 1 (erbario A, 27 unità).
+  - È l'indizio più forte finora di un **ordine di produzione** diverso da quello di rilegatura,
+    ricostruibile dai dati. L'impaginazione non lo conferma né lo smentisce.
+  - **Limiti:**
+    - le abitudini di grafia potrebbero seguire anche il contenuto (piante simili), non solo il
+      tempo;
+    - la mano 2 non lo conferma;
+    - un controllo materiale (inchiostro, rigatura, pigmenti) resta il passo decisivo e non è
+      statistico.

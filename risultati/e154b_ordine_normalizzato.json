@@ -1,0 +1,21 @@
+{
+ "ricostruito": 2.551225145281956,
+ "rilegatura": 2.937331984101097,
+ "casuali_media": 3.133527155190175,
+ "p": 0.0,
+ "per_gruppo": {
+  "mano 1, lingua A": {
+   "ricostruito": 2.478693124790783,
+   "rilegatura": 3.1030255154509017
+  },
+  "mano 2, lingua B": {
+   "ricostruito": 2.6534789111532637,
+   "rilegatura": 2.4635738684194597
+  },
+  "mano 3, lingua B": {
+   "ricostruito": 2.695107624291525,
+   "rilegatura": 3.008923541054673
+  }
+ },
+ "ordine_confermato_dalla_grafia": true
+}
