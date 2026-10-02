@@ -2640,3 +2640,29 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
   condizioni, quindi l'esito non cambia, ma l'indice va normalizzato in modo diverso se riusato.
 - **Nuova proprietà del Voynich:** la preferenza ch/sh è propria di ogni riga. Va con la riga come
   unità chiusa: chi scriveva sceglieva la grafia riga per riga.
+
+## 2/10/2026 — e121: togliere la copia a catena non basta (nessun procedimento completo)
+
+- **Metodo.** Preregistrato. Generatore di Timm e Schinner (e69):
+  - con riuso della parola appena scritta al 10% (base) o allo 0% (senza catena);
+  - con e senza le regole di riga dell'e106.
+  - Medie su tre semi.
+- **Risultati** (Voynich: R 0,006, S(1) 0,52, copia 1,03/1,47, e94 1,43, A 1,044):
+
+  | modello | pagella | S(1) | copia 1ª / 2ª | e94 | A |
+  |---|---|---|---|---|---|
+  | base | 13/18 | 1,06 | 1,31 / 1,19 | 1,04 | 0,837 |
+  | senza catena | 13/18 | 1,02 | 1,27 / 1,08 | 1,01 | 0,893 |
+  | base + regole | 10/18 | 0,66 | 0,39 / 1,19 | 1,10 | 0,837 |
+  | senza catena + regole | 12/18 | 0,66 | 0,39 / 1,08 | 1,11 | 0,892 |
+
+- **Esito: nessun modello completo.**
+  - Senza catena A sale solo a 0,89, ancora lontano da 1,04: la somiglianza a distanza 1 non viene
+    solo dalla copia della parola precedente, ma dalla copia locale in generale.
+  - Le regole di riga correggono S(1), ma fanno crollare la copia della prima colonna (0,39 contro
+    1,03).
+  - La copia della seconda colonna (1,47 nel Voynich) non viene mai riprodotta.
+  - Mancano sempre ripetizione, profilo di pagina, forma delle parole e formule.
+- **Lettura.** La famiglia "copia locale + regole" non arriva al Voynich con modifiche piccole. Le
+  proprietà di riga del Voynich non sono un ritocco di un generatore a copia: vanno cercate in un
+  procedimento diverso (e124, Rugg) o in un'origine diversa (e126–e128).
