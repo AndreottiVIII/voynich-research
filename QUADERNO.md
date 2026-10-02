@@ -4885,3 +4885,27 @@ sequenza.
     altre pagine.
   - **Indicazione per il generatore:** un lessico che cresce per tutto il manoscritto, con le varianti
     nuove riusabili altrove, più che una nascita meno locale. Da provare.
+
+## 3/10/2026 — e227b: il 6% di parole spezzate dà insieme legame, Q e unioni del Voynich, ma non l'eccesso a giuntura conservata
+
+- **Preregistrato.** Una sola quota di spezzature σ riproduce le cinque misure dell'e227 sul Voynich
+  (U/N0 1,92, U/N1 1,29, U/N2 1,16, legame 0,188, Q 0,67)?
+- **Risultati** (generatore e192, seme 1):
+  - **σ 0,09, cioè il 6,1% di parole spezzate:**
+    - U/N0 **1,87**, legame **0,189**, Q **0,65**: tutti e tre in tolleranza;
+    - U/N1 1,20 e U/N2 1,08: fuori.
+  - **σ più alti:** U/N1 e U/N2 restano fermi (1,19–1,20 e 1,06–1,07), mentre legame e Q superano il
+    bersaglio. Con σ 0,25 il legame arriva a 0,308.
+  - **Lunghezza media delle parole:** scende da 4,46 a 4,20.
+- **Esito preregistrato: non basta.** Il più vicino è σ 0,09, con fuori U/N1 e U/N2; non si fa la
+  verifica sul seme 2 perché nessun σ passa.
+- **Lettura.**
+  - **Legame.** Il "legame" del Voynich (0,188), che nessun generatore raggiungeva, si ottiene quasi
+    esattamente spezzando il 6% delle parole. Si ottengono insieme anche la sua quota nelle coppie uniche
+    e le unioni grezze. La regola delle giunture fra segni non va rafforzata: il di più viene da spazi
+    messi dentro parole.
+  - **Ciò che manca.** Resta l'eccesso di unioni a parità di segni finali. I tagli a caso fra i punti
+    possibili non lo danno. Ipotesi successiva (e227c): i tagli cadono di preferenza dove le due metà
+    sono parole frequenti.
+  - **Conseguenza per il generatore.** Le parole di base devono essere più lunghe, altrimenti la
+    spezzatura accorcia troppo le parole.
