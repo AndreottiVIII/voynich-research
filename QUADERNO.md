@@ -4559,3 +4559,14 @@ sequenza.
   di parole corte, e accanto a parole corte gli spazi sono più stretti.
 - **L'esito non si accetta prima dell'e195b,** preregistrato con la stratificazione per lunghezza e
   con il controllo di potenza.
+
+## 2/10/2026 — e195b: gli spazi delle "parole spezzate" sono normali, a parità di lunghezza
+
+- **Metodo.** Preregistrato. Come l'e195, con strato = (giuntura, lunghezza di a, lunghezza di b).
+- **Risultati:**
+  - normali − spezzate 0,001, z 0,1, p 0,45 (969 casi, 22 strati);
+  - controllo certi − dubbi 0,098, z 7,2, p 0,0005: il test stratificato vede ancora l'effetto noto.
+- **Esito per regola: effetto della lunghezza.**
+- **Lettura.** Le coppie che esistono anche unite non hanno spazi più stretti degli altri spazi fra
+  parole di pari lunghezza. L'ipotesi implicita della sovrapposizione "split words" (spazi spuri) non
+  regge. Le parole spezzate sono coincidenze di un vocabolario fatto di pezzi combinabili.

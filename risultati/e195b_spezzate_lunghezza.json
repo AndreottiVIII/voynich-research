@@ -1,0 +1,22 @@
+{
+ "spezzate_contro_normali": {
+  "strati": 22,
+  "casi": 969,
+  "differenza": 0.000977597781735833,
+  "nulla_media": 0.0001492139755657378,
+  "nulla_dev": 0.006625703204599731,
+  "z": 0.1250257943330468,
+  "p_una_coda": 0.4527736131934033
+ },
+ "controllo_dubbi_contro_certi": {
+  "strati": 55,
+  "casi": 4277,
+  "differenza": 0.09823504500716157,
+  "nulla_media": -0.0001174598956621002,
+  "nulla_dev": 0.013656261124111481,
+  "z": 7.202008222380325,
+  "p_una_coda": 0.0004997501249375312
+ },
+ "valido": true,
+ "esito": "effetto della lunghezza"
+}
