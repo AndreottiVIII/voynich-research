@@ -4031,3 +4031,32 @@ sequenza.
     con un'altra misura di dimensione, come l'altezza dei segni senza aste.
 - **Possibile seguito:** le "sessioni" di scrittura riconosciute da salti di dimensione spiegano le
   scelte meglio della riga?
+
+## 2/10/2026 — e169: tema più debole ed evitamento abbassano T3, ma T4 resta positivo e la pagina si perde
+
+- **Metodo.** Preregistrato. Generatore e153 con θ {0; 0,15; 0,3} × β {1; 0,5}, tre semi.
+- **Risultati** (Voynich: T3 grezzo −0,5, T4 ripulito −4,0):
+
+  | θ, β | pagella | A | T3 grezzo | T4 ripulito | perse rispetto a θ 0,3 β 1 |
+  |---|---|---|---|---|---|
+  | 0, 1 | 8/18 | 1,013 | 1,7 | 7,7 | omogeneità, lunghezze vicine |
+  | 0, 0,5 | 6/18 | 1,043 | 0,9 | 4,8 | ripetizione, omogeneità, curva piatta, lunghezze vicine |
+  | 0,15, 1 | 7/18 | 1,009 | 3,2 | 6,4 | omogeneità, lunghezze vicine |
+  | 0,15, 0,5 | 6/18 | 1,051 | 0,6 | 5,6 | ripetizione, omogeneità, lunghezze vicine |
+  | 0,3, 1 | 9/18 | 1,012 | 5,0 | 6,5 | – |
+  | 0,3, 0,5 | 7/18 | 1,061 | 5,4 | 5,0 | ripetizione, lunghezze vicine |
+
+- **Esito per regola: nessuna combinazione corregge l'accordo.** T4 ripulito resta positivo ovunque.
+- **Lettura.**
+  - **Il tema di riga è un compromesso.** Serve alle proprietà di pagina (omogeneità, lunghezze
+    vicine): senza tema si perdono. Ma alza l'accordo nella riga (T3), che nel Voynich è nullo. Con
+    θ 0 o con l'evitamento (β 0,5) T3 scende vicino al Voynich, a prezzo della pagina.
+  - Quindi nel Voynich l'omogeneità di pagina **non** viene da parole ripetute dentro la riga. Viene
+    da qualcosa a livello di pagina che non si concentra nelle singole righe, per esempio un
+    vocabolario di pagina usato in modo uniforme. È un'indicazione su come rifare il generatore: il
+    tema deve essere di pagina, non di riga.
+  - **T4 ripulito positivo** (adiacenti più legati del rimescolamento) resta in tutte le versioni,
+    mentre il Voynich è negativo. Probabilmente viene dalla scelta per giunture (L^λ) a livello di
+    parola intera. È da capire prima di un nuovo tentativo.
+  - **Nota tecnica:** θ 0,3 β 1 dà 9/18 contro i 10/18 dell'e153, per un diverso consumo dei numeri
+    casuali nel codice (il rinnovo del tema). È nella variabilità fra semi.
