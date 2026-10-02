@@ -1,0 +1,15 @@
+Voynich ZL                           parole  34863 | coerenza d'ordine 0.8778 | tipi con anagramma 0.354
+Voynich IT                           parole  34411 | coerenza d'ordine 0.8762 | tipi con anagramma 0.366
+Timm e Schinner, seme 19             parole  36087 | coerenza d'ordine 0.8334 | tipi con anagramma 0.467
+Timm e Schinner, seme 1              parole  37224 | coerenza d'ordine 0.8290 | tipi con anagramma 0.445
+Timm e Schinner, seme 2              parole  37106 | coerenza d'ordine 0.8358 | tipi con anagramma 0.460
+Bibbia latina                        parole  35000 | coerenza d'ordine 0.6638 | tipi con anagramma 0.058
+Bibbia italiana                      parole  35000 | coerenza d'ordine 0.6794 | tipi con anagramma 0.071
+Bibbia ungherese                     parole  35000 | coerenza d'ordine 0.6514 | tipi con anagramma 0.048
+Bibbia turca                         parole  35000 | coerenza d'ordine 0.6727 | tipi con anagramma 0.056
+controllo: latino ordinato, 3% guastato parole  35000 | coerenza d'ordine 0.9981 | tipi con anagramma 0.156
+Macer, ordinato              0/18 | R 0.10 S1 0.97 copia 0.87/0.16 e94 1.05 A 0.994 | h2 2.51 tipi 0.285 uniche 0.59 | 
+Macer, non ordinato          0/18 | R -0.02 S1 0.96 copia 0.83/0.17 e94 0.98 A 0.969 | h2 3.31 tipi 0.291 uniche 0.59 | 
+Bibbia latina, ordinato      1/18 | R 0.74 S1 1.08 copia 1.13/1.18 e94 1.01 A 1.059 | h2 2.51 tipi 0.179 uniche 0.49 | tipi
+Bibbia latina, non ordinato  1/18 | R 0.95 S1 1.00 copia 1.07/1.27 e94 1.07 A 1.035 | h2 3.26 tipi 0.184 uniche 0.50 | tipi
+ordine stretto escluso True | ordine parziale (piu rigido delle lingue) True | promettenti []
