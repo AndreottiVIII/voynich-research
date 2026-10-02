@@ -4302,3 +4302,27 @@ sequenza.
   - **Resta T4 ripulito** (parole adiacenti più legate del caso), da capire.
   - Mancano ancora h2, tipi, legame, unioni, Zipf, verticale, formule e bordo di riga.
 - **Nuovo riferimento per il generatore:** e153 con tema di pagina (θ 0,3, k 3).
+
+## 2/10/2026 — e185: le cinque scelte di una riga sono quasi indipendenti, troppo per una "lettera per riga"
+
+- **Metodo.** Preregistrato.
+  - Correlazione totale fra i valori di maggioranza delle cinque scelte nella stessa riga (1.088
+    righe con tutte e cinque definite).
+  - Nullo: permutazioni indipendenti dentro la pagina.
+  - Controlli: una lettera di Bacon per riga.
+- **Risultati:**
+
+  | testo | TC (bit) | nullo | z |
+  |---|---|---|---|
+  | Voynich | 0,057 | 0,033 | 3,7 |
+  | Bacone, una lettera per riga | 0,710 | 0,024 | 112 |
+  | Bacone mescolato (70% delle righe) | 0,306 | 0,022 | 50 |
+
+- **Validità: sì. Esito per regola: incerto** (z fra 2 e 4).
+- **Lettura.**
+  - C'è una dipendenza piccola fra le scelte della stessa riga, ma l'eccesso è di 0,025 bit:
+    - quasi 30 volte meno di un messaggio "una lettera per riga" (0,69);
+    - 11 volte meno di un messaggio presente solo nel 70% delle righe.
+  - A occhio, una mescolanza di circa il 20% al massimo.
+  - È spiegabile con legami meccanici fra scelte nelle stesse parole, per esempio qo- con k/t.
+  - **Una lettera per riga, scritta con le cinque scelte, è esclusa** come codifica principale.
