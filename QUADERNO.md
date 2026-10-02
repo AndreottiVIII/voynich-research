@@ -3969,3 +3969,25 @@ sequenza.
   - I due ordini condividono molte adiacenze dentro i fascicoli, quindi il test non li separa bene.
   - Le conferme dell'ordine ricostruito restano la grafia (e154b, forte) e il passo di riga (e161,
     debole).
+
+## 2/10/2026 — e171: un'intinta a metà riga non spezza il legame fra parole vicine
+
+- **Metodo.** Preregistrato.
+  - Eccesso d'informazione mutua alle giunture per le coppie di parole interne in cui la seconda è
+    un'intinta (e166), contro le coppie senza intinta sottocampionate alla stessa numerosità.
+  - 1.799 coppie con intinta, 11.194 senza.
+- **Risultati:**
+  - eccesso con intinta 0,158 bit (z 25), senza 0,210, quindi Rint 0,75;
+  - intervallo bootstrap [0,80; 1,10];
+  - parole che iniziano con y, d o s: 13,0% fra le intinte, 12,1% fra le altre.
+- **Esito per regola: nessun effetto** (l'intervallo contiene 1).
+- **Cautela di metodo, non preregistrata:** la stima centrale (0,75) cade fuori dall'intervallo. Il
+  bootstrap con ripetizione gonfia l'informazione mutua (coppie duplicate), quindi l'intervallo è
+  spostato verso l'alto. Una lettura prudente è "al più un indebolimento parziale, intorno al 25%".
+- **Lettura.**
+  - Dopo un'intinta il legame con la parola precedente resta forte (z 25), molto lontano dallo zero
+    dell'a capo (R 0,01, e74). Anche i segni d'inizio riga non compaiono più spesso.
+  - **La chiusura della riga non è un effetto delle pause di scrittura:** riguarda la riga in quanto
+    tale.
+  - Insieme all'e166 (scelte di grafia indipendenti dalle intinte), la riga del Voynich risulta
+    un'unità **di composizione**, non del gesto fisico.
