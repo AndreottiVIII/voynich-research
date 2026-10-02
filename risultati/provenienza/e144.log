@@ -1,0 +1,8 @@
+etichette con ora: 293 su 12 pagine; anelli per pagina: {('f70v2', 1): 18, ('f70v2', 2): 10, ('f70v1', 1): 10, ('f70v1', 2): 5, ('f71r', 1): 10, ('f71r', 2): 5, ('f71v', 1): 10, ('f71v', 2): 5, ('f72r1', 1): 10, ('f72r1', 2): 5, ('f72r2', 1): 20, ('f72r2', 2): 9, ('f72r3', 1): 11, ('f72r3', 2): 11, ('f72r3', 3): 7, ('f72v3', 1): 18, ('f72v3', 2): 12, ('f72v2', 1): 18, ('f72v2', 2): 12, ('f72v1', 1): 18, ('f72v1', 2): 10, ('f73r', 1): 20, ('f73r', 2): 10, ('f73v', 1): 20, ('f73v', 2): 9}
+etichette 293
+A settore, radice di 3 segni {"coppie": 1913, "distanza_media_ore": 3.0236539466806063, "nullo": 2.9796661003659173, "z": 1.158003626537444}
+A settore, radice di 4 segni {"coppie": 595, "distanza_media_ore": 2.969327731092437, "nullo": 2.9799235294117645, "z": -0.14969562262135958}
+controllo positivo di A {"coppie": 1913, "distanza_media_ore": 2.683742812336644, "nullo": 2.9787243204391007, "z": -7.253676755893709}
+B anello {"etichette": 208, "radici": 18, "im": 0.029216859912367, "nullo": 0.06847141360784612, "z": -1.6779770832879766, "quota_esterna_per_radice": {"ota": "23/39", "oke": "23/32", "oka": "17/28", "ote": "20/27", "oee": "7/15", "yke": "7/10", "opa": "4/7", "oto": "3/6", "ora": "3/6", "oko": "4/5", "otch": "3/5", "cheo": "4/5", "oky": "3/4", "ofa": "2/4", "ofch": "3/4"}}
+C famiglia yke {"yke_per_pagina": {"f72v2": 1, "f72v1": 1, "f73r": 2, "f73v": 6}, "totale": 10, "in_scorpione_sagittario": 8, "etichette_scorpione_sagittario": 59, "etichette_totali": 293, "p": 5.7673585259362114e-05}
+controllo valido True | settore False | anello False | yke confinata True
