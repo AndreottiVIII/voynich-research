@@ -64,10 +64,12 @@ def main():
         ris[nome] = OrderedDict([('parole', n), ('valori', OrderedDict(zip(NOMI, vero))), ('z', OrderedDict(zip(NOMI, zz))), ('diverso', diverso)])
         print('%-22s n %d | %s | diverso %s' % (nome, n, ' '.join('%s %.2f(z %.1f)' % (k[:12], v, z or 0) for k, v, z in zip(NOMI, vero, zz)), diverso), flush=True)
     # anello di f57v: segni singoli in ordine
-    singoli = [w for r in blocchi['anello di f57v'] for w in r if len(D(w.strip('*'))) == 1 and w != '*']
-    seq = []
-    for g in singoli:
-        if g in seq:
+    # la riga dell'anello con piu' segni singoli; un periodo = fino al ritorno del primo segno
+    riga = max(blocchi['anello di f57v'], key=lambda r: sum(1 for w in r if trascrizione.pulita(w) and len(D(w)) == 1))
+    singoli = [w for w in riga if trascrizione.pulita(w) and len(D(w)) == 1]
+    seq = singoli[:1]
+    for g in singoli[1:]:
+        if g == seq[0]:
             break
         seq.append(g)
     freq = Counter(u for r in par for w in r.parole if trascrizione.pulita(w) for u in D(w))
