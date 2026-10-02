@@ -1,0 +1,27 @@
+{
+ "coppie": 3045,
+ "statistica": 0.061716482023326025,
+ "p_classi": 0.0009995002498750624,
+ "nullo_classi_media": -0.0008441055689252041,
+ "p_pagina_per_classe": 0.0004997501249375312,
+ "nullo_pagina_per_classe_media": 0.008461863241801653,
+ "per_classe": {
+  "0-6": {
+   "coppie": 881,
+   "spearman": 0.10969199980064258
+  },
+  "7-8": {
+   "coppie": 725,
+   "spearman": -0.03917084560774268
+  },
+  "9-10": {
+   "coppie": 936,
+   "spearman": 0.09535472165894665
+  },
+  "11-": {
+   "coppie": 503,
+   "spearman": 0.06050671874652295
+  }
+ },
+ "esito": "le scelte seguono la dimensione"
+}

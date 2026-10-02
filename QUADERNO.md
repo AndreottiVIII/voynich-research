@@ -4007,3 +4007,27 @@ sequenza.
   - Dentro le classi di lunghezza le correlazioni sono 0,11, −0,04, 0,095 e 0,061.
 - **Lettura sospesa:** l'esito per regola non si accetta finché non lo conferma l'e173b, preregistrato
   con il nullo dentro le classi di lunghezza.
+
+## 2/10/2026 — e173b: le scelte di grafia cambiano un po' di più dove cambia la dimensione della scrittura
+
+- **Metodo.** Preregistrato.
+  - Come l'e173, ma correlazione dentro classi di lunghezza della riga più corta (< 7, 7–8, 9–10,
+    ≥ 11 parole).
+  - Due nulli: rimescolamento dentro la classe, e dentro pagina × classe.
+- **Risultati:**
+  - statistica pesata 0,062;
+  - p 0,001 dentro le classi (nullo −0,001), p 0,0005 dentro pagina × classe (nullo 0,008);
+  - per classe: 0,11, −0,04, 0,095 e 0,061.
+- **Esito per regola: le scelte seguono la dimensione.**
+- **Lettura.**
+  - Fra righe consecutive, quando la scrittura cambia dimensione le scelte di grafia (ch/sh, k/t,
+    -l/-r, qo-/o-, -dy/-ey) cambiano un po' di più. L'effetto è **piccolo** (ρ ≈ 0,06) ma regge al
+    confondimento della lunghezza e al nullo per pagina.
+  - Le scelte non seguono le intinte (e166) ma seguono, debolmente, la dimensione della scrittura:
+    qualcosa che cambia lo "stato" della mano (penna rifatta, ripresa dopo una pausa, cambio di
+    postura) cambia anche le preferenze.
+  - **Cautela:** una classe (7–8 parole) va nel verso opposto, e altri confondimenti non sono
+    esclusi, per esempio errori di allineamento dei riquadri sulle righe difficili. Da replicare
+    con un'altra misura di dimensione, come l'altezza dei segni senza aste.
+- **Possibile seguito:** le "sessioni" di scrittura riconosciute da salti di dimensione spiegano le
+  scelte meglio della riga?
