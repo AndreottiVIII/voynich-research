@@ -2597,3 +2597,46 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
   al 41–44%.
 - **Lettura** (come da regola): nessuna conclusione sulla fattibilità. Corretto nell'e112b con il
   termine di entropia dell'e17, più una diagnosi a modello barato. È in corso.
+
+## 2/10/2026 — e123: un messaggio nelle scelte ch/sh? Criteri passati, ma con la forma sbagliata
+
+- **Metodo.** Preregistrato (strada A).
+  - Dati: le 14.391 scelte ch/sh in ordine di lettura.
+  - Nullo: rimescolamento dentro gli strati (pagina, prima riga, posizione nella riga e nella parola,
+    segno seguente).
+  - Controllo positivo: latino in codice di Bacone a 5 bit, scritto nelle scelte.
+- **Risultati** (z):
+
+  | testo | dist. 1 | 2 | 3 | 4 | 5 | deficit blocchi di 5 |
+  |---|---|---|---|---|---|---|
+  | Voynich | 11,4 | 6,0 | 2,8 | 1,8 | 2,2 | 9,6 |
+  | controllo | 19,2 | 48,8 | 36,2 | 29,2 | 9,1 | 156 |
+  | Timm e Schinner | 1,8 | 2,8 | 1,3 | 1,1 | 3,1 | 1,7 |
+
+- **Esito per regola: "canale non escluso".** Il deficit del Voynich vale però il 6% di quello del
+  controllo, e la dipendenza cala con la distanza senza l'impronta di blocco. Prima di trarne
+  conclusioni ho preregistrato l'e123b.
+
+## 2/10/2026 — e123b: la dipendenza ch/sh è una preferenza per riga, non un canale
+
+- **Metodo.** Preregistrato.
+  - Prima di scrivere il codice ho corretto lo strato riga, guardando solo i conteggi (3,6 scelte per
+    riga): con tutto il contesto solo 3.789 occorrenze erano permutabili, quindi lo strato riga tiene
+    del contesto solo "iniziale di parola o no".
+  - Controllo di (P): le scelte vere rimescolate una volta dentro (riga + contesto).
+- **Risultati:**
+  - **con il nullo per riga** la dipendenza del Voynich sparisce: z dei blocchi di 5 da 10,0 a 1,0.
+    Il controllo positivo resta a 121,6.
+  - **il controllo di (P) si comporta esattamente come il Voynich**: z 9,1 col nullo dell'e123, 0,9
+    con quello per riga.
+  - **scomposizione:** l'eccesso di scelte uguali c'è in parole adiacenti (z 5,6), più lontane nella
+    riga (3,7) e fra righe (3,2). Col nullo per riga resta solo un piccolo eccesso fra parole adiacenti
+    (z 3,0).
+- **Esito: (M) non in piedi.** La dipendenza dell'e123 nasce perché la quota di sh cambia da riga a
+  riga, più un lieve effetto di innesco fra parole adiacenti. Il canale alla Bacone nelle scelte ch/sh
+  è escluso, alla sensibilità del controllo.
+- **Nota di metodo.** L'indice di fase è instabile quando il deficit medio è vicino a zero: dà 1,26
+  sia al Voynich sia al controllo di (P), col nullo per riga. Il criterio richiedeva entrambe le
+  condizioni, quindi l'esito non cambia, ma l'indice va normalizzato in modo diverso se riusato.
+- **Nuova proprietà del Voynich:** la preferenza ch/sh è propria di ogni riga. Va con la riga come
+  unità chiusa: chi scriveva sceglieva la grafia riga per riga.
