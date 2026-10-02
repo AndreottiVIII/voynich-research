@@ -115,3 +115,11 @@ Scaricati l'1/10/2026 dal clone GRETIL di ambuda-org, commit
 
 - paper1 Boxer, paper4 Gaskell e Bowern, paper5 Farrugia, Layfield e van der Plas, paper6 Bowern e Gaskell, più gli
   altri scaricati per la rassegna; https://ceur-ws.org/Vol-3313/.
+
+## Immagini di voynichese.com (e166) — in `dati/cache/voynichese_immagini/`, non ridistribuite
+
+- The Voynichese Project, immagini "large" dei fogli, già ritagliate sull'area di visualizzazione e nella stessa cornice
+  dei riquadri delle parole (`data/folio/script/*.js`, già usati dall'e34 tramite lrozanova/voynich-units: file
+  identici, verificato su f103r). URL: `https://www.voynichese.com/2/data/folio/image/glance/color/large/<foglio>.jpg`,
+  scaricate il 2/10/2026 (una al secondo). Le impronte SHA-256 sono in `dati/cache/voynichese_immagini.sha256`. Dati
+  del progetto: licenza Apache 2.0; immagini derivate dalle riproduzioni della Beinecke.
