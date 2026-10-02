@@ -3399,3 +3399,36 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
     instabile perché, senza ordine, le giunture interne hanno eccesso quasi nullo.
   - Il prossimo modello deve produrre la riga **in ordine**, con giunture e somiglianza locale, non
     rimescolare parole vere.
+
+## 2/10/2026 — e152: un generatore che scrive le righe in ordine riproduce la firma di riga del Voynich
+
+- **Metodo.** Preregistrato.
+  - Ogni riga: inizio con regola (y/d/s, evitamento della riga sopra); tema di k parole della pagina;
+    parole successive come varianti del tema (Poisson μ), scelte in base alla giuntura con la parola
+    precedente; abitudini di grafia AR(1) (ρ 0,6, σ 0,8).
+  - k ∈ {2, 4} × μ ∈ {0,5; 1,0}, più un'ablazione senza giunture.
+- **Risultati** (Voynich: S(1) 0,52, R 0,006, A 1,044, 5 scelte per riga, r 0,207):
+  - **tutte e 4 le combinazioni con giunture riproducono la riga:** S(1) 0,61–0,66, R da −0,02 a
+    0,03, A 1,009–1,028, 5 scelte decise per riga su 5, r fra righe consecutive 0,17;
+  - **senza giunture:** A 0,996 (sotto 1), quindi la riga non è riprodotta. La scelta per giuntura
+    contribuisce all'alternanza;
+  - **pagella 6–10/18; "completo" no.** Il modello esagera la somiglianza dentro la riga (omogeneità
+    0,10–0,20 contro circa 0,04; formule 37–169 volte il caso). Mancano anche e94 (≈1,05 contro 1,43),
+    verticale, gradiente, bordo di riga, Zipf, e h2 è un po' alta (2,43–2,58).
+- **Esito per regola:** riga riprodotta sì (4 combinazioni), completo no.
+- **Lettura.**
+  - È il primo modello del progetto che riproduce **insieme** tutte le proprietà di riga misurate:
+    - riga chiusa;
+    - evitamento dell'inizio sopra;
+    - alternanza A ≥ 1 senza copia a catena;
+    - cinque scelte di grafia decise per riga;
+    - memoria delle preferenze fra righe.
+  - La ricetta è: comporre la riga come unità a sé, con una regola d'inizio; scrivere le parole come
+    varianti di un piccolo tema della riga, attaccandole per giuntura; lasciare che le abitudini di
+    grafia derivino da una riga all'altra.
+  - Ciò che resta fuori riguarda la pagina e la parola:
+    - il tema è troppo forte, perché le righe diventano formulaiche;
+    - la preferenza ch/sh in seconda posizione (e94);
+    - il gradiente verticale.
+  - Mostra che un procedimento senza messaggio di questo tipo **basta** per la riga. Non mostra che
+    il Voynich sia stato fatto così, né esclude un contenuto codificato nelle parole del tema.
