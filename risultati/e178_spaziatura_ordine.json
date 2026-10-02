@@ -1,0 +1,15 @@
+{
+ "fogli": 101,
+ "unita": 52,
+ "gruppi": {
+  "1/A": 27,
+  "2/B": 11,
+  "3/B": 7
+ },
+ "ricostruito": 0.8927938763137844,
+ "p_ricostruito": 0.006,
+ "rilegatura": 0.8643638708948651,
+ "p_rilegatura": 0.003,
+ "casuali_media": 1.1432140098534365,
+ "conferma": false
+}

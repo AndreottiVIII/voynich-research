@@ -4125,3 +4125,24 @@ sequenza.
   - **Risultato a margine, non preregistrato come ipotesi:** la dimensione della scrittura corretta
     varia **lentamente** lungo la pagina (r 0,51 fra righe consecutive). È un "orologio" della mano
     che si potrebbe usare per l'ordine delle pagine (come il passo di riga nell'e161) e per le mani.
+
+## 2/10/2026 — e178: anche la spaziatura della mano è graduale in entrambi gli ordini
+
+- **Metodo.** Preregistrato. Spaziatura relativa (spazio fra parole / larghezza tipica di un segno,
+  corretta per la composizione), che non dipende né dalla scala né dalla luce delle immagini. 52
+  unità in tre gruppi.
+- **Risultati:**
+
+  | ordine | distanza | p |
+  |---|---|---|
+  | ricostruito | 0,893 | 0,006 |
+  | rilegatura | 0,864 | 0,003 |
+  | casuali (media) | 1,143 | – |
+
+- **Esito per regola: conferma no.**
+- **Lettura.**
+  - Come per lo scuro (e170), entrambi gli ordini sono molto più graduali del caso. Qui non c'è il
+    confondimento della ripresa fotografica, quindi **anche la rilegatura conserva vicinanze reali di
+    scrittura**: i fascicoli tengono insieme bifogli scritti vicini.
+  - Il confronto fra i due ordini ha poca forza perché condividono molte adiacenze.
+  - **Test giusto (e179):** solo le adiacenze in cui i due ordini differiscono.
