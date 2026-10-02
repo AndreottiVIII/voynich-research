@@ -101,7 +101,8 @@ def main():
             mes.append(s)
         nulli.append(auto(mes))
     z1 = (vero1 - statistics.mean(nulli)) / statistics.pstdev(nulli)
-    valido = z1 > 5
+    vero1, z1 = float(vero1), float(z1)
+    valido = bool(z1 > 5)
     res = e146.residui(righe)
     cc, comp = [], []
     for pag, v in P.items():
@@ -115,7 +116,7 @@ def main():
                 cc.append({'pagina': pag, 'dim': abs(s2 - s1), 'scelta': statistics.mean(dif), 'classe': c})
                 comp.append(abs(q[k2] - q[k1]))
     vero = e173b.statistica(cc, [c['dim'] for c in cc])
-    vero_comp = e173b.statistica(cc, comp)
+    vero, vero_comp = float(vero), float(e173b.statistica(cc, comp))
     e173b.RIMESCOLAMENTI = 2000
     n1 = e173b.nullo(cc, lambda c: c['classe'], rnd)
     p = (1 + sum(x >= vero for x in n1)) / 2001
@@ -127,7 +128,7 @@ def main():
     print('parole %d | pagine %d righe %d | V1 r %.3f z %.1f | coppie %d | statistica %.3f p %.4f | composizione %.3f | %s' % (
         len(pp), len(P), ris['righe'], vero1, z1, len(cc), vero, p, vero_comp, esito), flush=True)
     with open(os.path.join(RISULTATI, 'e177_dimensione_corretta.json'), 'w', encoding='utf-8') as fo:
-        json.dump(ris, fo, ensure_ascii=False, indent=1)
+        json.dump(ris, fo, ensure_ascii=False, indent=1, default=float)
     out = ['# e177 — Dimensione della scrittura corretta per la composizione delle parole', '',
            'Larghezza osservata / attesa dalle unità EVA (NNLS su %d parole). Preregistrazione: `preregistrazioni/e177.md`.' % len(pp), '',
            '| verifica | valore |', '|---|---|', '| V1 correlazione fra righe consecutive (z) | %.3f (%.1f) |' % (vero1, z1),
