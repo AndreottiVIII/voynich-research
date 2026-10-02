@@ -3223,3 +3223,23 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
   insieme anche senza intenzione), non un allineamento.
 - **Lettura.** Le scelte di grafia decise per riga (e135) non si spiegano con il riempimento della
   riga. L'osservazione di r/voynich sul margine destro regolare resta da misurare sulle immagini.
+
+## 2/10/2026 — e144: le etichette dello zodiaco non hanno un posto fisso nella ruota
+
+- **Metodo.** Preregistrato. Spunto da r/voynich (Ockanacken 2025).
+  - 293 etichette delle 12 ruote, con l'ora d'orologio e l'anello ricavati dalla trascrizione ZL
+    (commenti `<!hh:mm>`, testi circolari Cc).
+- **Risultati:**
+  - **(A) settore:** le coppie con la stessa radice in ruote diverse distano in media 3,02 ore,
+    contro 2,98 del caso (z 1,2; con radici di 4 segni z −0,1). Il controllo positivo dà z −7,3.
+  - **(B) anello:** nessuna preferenza (z −1,7).
+  - **(C) famiglia yke-:** 8 etichette su 10 in Scorpione e Sagittario (p = 6·10⁻⁵); le altre 2 sono
+    in Vergine e Bilancia. Sono le ultime quattro ruote, consecutive nel manoscritto.
+- **Esito:** settore no, anello no, yke confinata sì.
+- **Lettura.**
+  - Le osservazioni del post ("otar" alla stessa ora nei due Toro, okal/otal per anello) sono casi
+    singoli che, presi tutti insieme, non superano il caso. Le etichette non seguono lo schema della
+    ruota (posizione, anello), quindi niente che faccia pensare a giorni o gradi.
+  - La famiglia yke- è reale, ma si spiega con la deriva del vocabolario lungo il manoscritto (e142,
+    e il post sul vocabolario che segue la posizione): compare alla fine dello zodiaco, non in un
+    punto preciso delle ruote.
