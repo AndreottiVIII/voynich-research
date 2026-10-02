@@ -1,0 +1,29 @@
+{
+ "fogli_inchiostro": 102,
+ "fogli_passo": 100,
+ "(III) inchiostro": {
+  "gruppi": {
+   "1/A": 27,
+   "2/B": 11,
+   "3/B": 7
+  },
+  "ricostruito": 2.298558893329076,
+  "rilegatura": 1.9550325008371081,
+  "casuali_media": 2.2631757873800895,
+  "p_ricostruito": 0.618,
+  "p_rilegatura": 0.006
+ },
+ "(IV) passo di riga": {
+  "gruppi": {
+   "1/A": 27,
+   "2/B": 11,
+   "3/B": 7
+  },
+  "ricostruito": 1.0340787376705092,
+  "rilegatura": 1.2469652733451453,
+  "casuali_media": 1.2016597872923875,
+  "p_ricostruito": 0.039,
+  "p_rilegatura": 0.664
+ },
+ "conferma_fisica": true
+}

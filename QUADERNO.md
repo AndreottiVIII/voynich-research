@@ -3732,3 +3732,37 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
   - Tre hanno il taglio a 4 righe dalla fine di pagine lunghe (f83r, f107v, f114v): forse un effetto
     di fine pagina, da non leggere oltre.
 - **Strada 3 (cambi di scriba): chiusa** con questi strumenti. Per le mani resta la paleografia (Davis).
+
+## 2/10/2026 — e161: il passo di riga conferma debolmente l'ordine ricostruito; il colore dell'inchiostro segue la rilegatura
+
+- **Metodo.** Preregistrato.
+  - **(III) Inchiostro:** tinta, saturazione e scuro dalle immagini IIIF.
+  - **(IV) Passo di riga:** distanza fra righe divisa per l'altezza delle parole, dai riquadri di
+    voynichese.com.
+  - Per ciascuno, distanza fra bifogli consecutivi nell'ordine ricostruito dal vocabolario (e154b)
+    e in quello di rilegatura, contro 1.000 ordini casuali.
+  - Gruppi di stessa mano e lingua: 1/A con 27 unità, 2/B con 11, 3/B con 7.
+- **Risultati:**
+
+  | caratteristiche | ricostruito (p) | rilegatura (p) | casuali |
+  |---|---|---|---|
+  | (III) inchiostro | 2,299 (0,618) | **1,955 (0,006)** | 2,263 |
+  | (IV) passo di riga | **1,034 (0,039)** | 1,247 (0,664) | 1,202 |
+
+- **Esito per regola: conferma fisica sì**, dal passo di riga.
+- **Cautele.**
+  - **Due misure provate:** con la correzione per due confronti (soglia 0,025) il passo di riga **non**
+    passerebbe. È una conferma debole.
+  - **Il colore dell'inchiostro è graduale nell'ordine di rilegatura,** non in quello ricostruito. È
+    il confondimento dichiarato nella preregistrazione: le fotografie fatte in ordine di rilegatura
+    cambiano luce e colore gradualmente. Il colore misurato dalle fotografie dunque non serve a datare
+    la scrittura.
+  - Il passo di riga è un rapporto (distanza fra righe su altezza delle parole), quindi non dipende
+    dalla scala né dalla luce. È una proprietà della scrittura: rigatura e mano.
+- **Lettura.**
+  - L'unica misura fisica non viziata dalle fotografie va nella direzione dell'ordine ricostruito, e
+    non va in quella della rilegatura.
+  - Insieme all'e154b (abitudini di grafia), l'ordine ricostruito ha **due conferme indipendenti dal
+    vocabolario**: una forte (grafia) e una debole (passo di riga).
+  - Non basta a proporre l'ordine come certo. Basta a riportarlo nel white paper come ipotesi
+    sostenuta.
