@@ -4646,3 +4646,57 @@ sequenza.
   - Irregolarità della larghezza delle parole contro l'ordine di rilegatura dentro le mani: mano 1
     +0,09, mano 2 −0,22, mano 3 +0,14; statistica +0,016, p 0,58.
   - **Esito: nessun miglioramento** (nell'ordine di rilegatura).
+
+## 2/10/2026 — e210: con la parola il limite non scende (combinazione ingenua); qo-/o- e -l/-r sono del tutto imprevedibili
+
+- **Metodo.** Preregistrato.
+  - Bit per scelta in validazione incrociata con: la parola neutralizzata (MX); la parola più le
+    altre scelte della riga (MXL); più la riga precedente (MXLP).
+  - Combinazione dei modelli per rapporti di probabilità.
+- **Risultati** (bit per occorrenza):
+
+  | scelta | M0 | MX | MXL | MXLP |
+  |---|---|---|---|---|
+  | F1 ch/sh | 0,877 | 0,860 | 0,850 | 0,912 |
+  | F2 k/t | 0,943 | 0,922 | 0,917 | 0,978 |
+  | F3 -l/-r | 0,998 | 0,977 | 1,000 | 1,045 |
+  | F5 qo-/o- | 1,000 | 1,000 | 1,000 | 1,041 |
+  | F7 -dy/-ey | 0,950 | 0,709 | 0,657 | 0,679 |
+  | tutte | 0,946 | 0,890 | 0,881 | 0,930 |
+
+- **Esito:**
+  - il modello migliore (MXL) dà 50.097 bit, contro i 49.215 dell'e182 (M2, con gli strati di
+    posizione e contesto);
+  - **il limite non scende**;
+  - totale dei tre canali: 96.057 bit, cioè circa 3.900–8.000 parole latine.
+- **Lettura.**
+  - La combinazione a rapporti di probabilità conta due volte le stesse informazioni (MXLP peggiora).
+    Per stringere il limite serve un modello combinato vero, una regressione con tutti i contesti:
+    e210b.
+  - **Fatto nuovo:** qo-/o- e -l/-r valgono 1 bit pieno per occorrenza. Né la parola, né la posizione,
+    né la riga li prevedono. -dy/-ey invece è in gran parte lessicale (0,66).
+  - Se un canale libero esiste, è soprattutto in qo-/o- e -l/-r.
+
+## 2/10/2026 — e211: le parole rare dell'erbario sono poco "della pagina", meno di qualsiasi erbario vero
+
+- **Metodo.** Preregistrato. Quota di parole rare (frequenza 2–5) confinate in una sola unità,
+  rispetto alla ridistribuzione casuale (R).
+- **Risultati:**
+
+  | testo | unità | parole rare | C | atteso | R |
+  |---|---|---|---|---|---|
+  | Voynich, erbario | 116 pagine | 697 | 0,010 | 0,005 | **1,96** |
+  | *Macer floridus* | 79 capitoli | 1.238 | 0,051 | 0,010 | 5,13 |
+  | Isidoro XVII | 326 paragrafi | 874 | 0,106 | 0,003 | 41,6 |
+  | generatore e192 | 116 pagine | 879 | 0,230 | 0,005 | 50,2 |
+
+- **Esito per regola: intermedio** (fra 1,5 e 3).
+- **Lettura.**
+  - Le parole rare del Voynich sono appena più raggruppate del caso. In due erbari latini veri lo sono
+    da 2,5 a 20 volte di più.
+  - Il nome della pianta e le parole proprie della voce, che in un erbario si ripetono dentro la voce,
+    nel Voynich praticamente non ci sono. È un argomento contro "il testo descrive la pianta della
+    pagina", indipendente dai test sulle immagini (e184, e190).
+  - **Il generatore e192 sbaglia in senso opposto** (R 50): le varianti nuove nascono e si ripetono
+    sulla stessa pagina. Nel Voynich le parole nuove nate su una pagina non vi si ripetono. Va
+    corretto: per esempio, le varianti nuove non devono entrare nel serbatoio della pagina.
