@@ -1,0 +1,6 @@
+identico all'e230 con delta 0: True; Voynich {'tipi_su_parole_pagina': 0.7559315279272836, 'fra_le_100': 0.42440895695381425, 'fine_m': 0.13922181608211381}
+seme 1, delta 0.0: AUC 0.912, tipi/parole 0.703, fra le 100 0.374, fine -m 0.119
+seme 1, delta 0.2: AUC 0.914, tipi/parole 0.716, fra le 100 0.375, fine -m 0.128
+seme 1, delta 0.4: AUC 0.929, tipi/parole 0.738, fra le 100 0.370, fine -m 0.120
+verifica delta 0.0: AUC [0.928, 0.907]
+delta non aiuta abbastanza
