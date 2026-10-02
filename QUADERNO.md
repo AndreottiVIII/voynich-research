@@ -4570,3 +4570,57 @@ sequenza.
 - **Lettura.** Le coppie che esistono anche unite non hanno spazi più stretti degli altri spazi fra
   parole di pari lunghezza. L'ipotesi implicita della sovrapposizione "split words" (spazi spuri) non
   regge. Le parole spezzate sono coincidenze di un vocabolario fatto di pezzi combinabili.
+
+## 2/10/2026 — e192: generatore con tema di pagina e varianti in parte nuove, record di 11/18
+
+- **Metodo.** Preregistrato.
+  - Tema di pagina (e180).
+  - Varianti attestate, più varianti nuove ben formate con probabilità ν ∈ {0,2; 0,4; 0,6}.
+- **Risultati:**
+
+  | ν | pagella | T3 grezzo | T4 ripulito | mancanti |
+  |---|---|---|---|---|
+  | 0,2 | 10/18 | 1,1 | 2,3 | uniche, legame, unioni, curva piatta, Zipf, verticale, formule, bordo |
+  | **0,4** | **11/18** | 0,7 | 3,5 | legame, unioni, curva piatta, Zipf, verticale, formule, bordo |
+  | 0,6 | 10/18 | 1,6 | 3,6 | h2, legame, unioni, curva piatta, Zipf, verticale, formule, bordo |
+
+- **Esito per regola: completo no**, ma è il miglior generatore senza messaggio finora.
+- **Lettura.** h2, tipi e parole uniche tornano insieme con ν 0,4. Restano fuori le proprietà delle
+  giunture (legame, unioni), la forma della distribuzione delle frequenze (Zipf, curva piatta), la
+  verticale, le formule e il bordo di riga.
+
+## 2/10/2026 — e196–e201: ipotesi da voynichese.com e da r/voynich
+
+- **e196, coppie ripetute attraverso l'a capo** (voynichese, "word-pairs").
+  - Eccesso di coppie ripetute dentro la riga 0,060 (z 29); attraverso l'a capo −0,003 (z −0,6).
+  - Rrip −0,05, contro 0,86 di Plinio.
+  - **Esito: ripetizioni chiuse nella riga.** È la chiusura della riga, ora anche a livello di parole
+    intere.
+- **e197, parole uniche** (r/voynich 1qavl2o).
+  - Quota di hapax per posizione: prima parola della pagina 0,53; prima di paragrafo 0,46; prima di
+    riga 0,18; seconda 0,11; interna 0,11; **ultima di riga 0,23**.
+  - Scala verticale: 1.161 coppie contro 1.196 attese (z −1,4). **Esito: assente.**
+  - Lettura: gli hapax stanno dove ce lo si aspetta, cioè a inizio paragrafo (gallow) e a fine riga
+    (-m, -g). Nessuna "scala".
+- **e198, cifrario a ordinamento** (r/voynich 1tcr6pt, Edwards; "Firth's sorting cipher").
+  - Insiemi di segni realizzati in più ordini: Voynich 15,3%, latino 2,0%, italiano 2,4%, latino
+    ordinato 0%, generatore e180 17,6%.
+  - **Esito: non compatibile.** Il Voynich ha molti più "anagrammi" delle lingue, come il generatore
+    senza messaggio (alky/kaly/ykal, or/ro): l'ordine dei segni dentro la parola non è fisso.
+- **e199, erbario tardo** (r/voynich 1v4hiiz).
+  - Mano 1, lingua A: le 10 pagine d'erbario tarde (f87–f96) somigliano alla farmacia più che
+    all'erbario iniziale (+0,089, p 0,0005; 9 pagine su 10).
+  - **Esito: vocabolario del tempo.** Il vocabolario segue il momento di scrittura, non il soggetto
+    disegnato. Conferma l'intuizione del post e la vicinanza nell'ordine ricostruito.
+- **e200, anelli dello zodiaco** (r/voynich 1pfv59a). Replica con un disegno diverso dell'e144 B: IM
+  prefisso–anello 0,237 contro 0,225, z 0,5. **Esito: assenti**, come nell'e144.
+  - okal sta più spesso all'esterno (12/17), ma anche otal (14/25).
+- **e201, k o t: radice o riga?** (r/voynich 1sj3vlq).
+  - Bit per occorrenza: M0 0,943, radice 0,906, riga 0,930, entrambi 0,898. Risparmio: radice 0,037,
+    riga 0,012.
+  - **Esito per regola: "classificatore di radice".**
+  - Lettura prudente: la "radice" qui è il resto della parola, quindi il risultato dice che molte
+    parole sono **lessicalizzate** con k o con t (qokeedy più di qoteedy). L'abitudine di riga aggiunge
+    un terzo in più (0,045 insieme).
+  - Non dimostra che i gallow siano "classificatori di dominio"; per questo servirebbe un legame con il
+    soggetto, che finora manca (e184, e190). Rende però più stretto il limite di capacità: e210.

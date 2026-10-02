@@ -1,0 +1,14 @@
+{
+ "occorrenze": 13933,
+ "bit_per_occorrenza": {
+  "M0": 0.942868782366746,
+  "MR": 0.9058128584968838,
+  "ML": 0.9304351639897096,
+  "MRL": 0.8974852152838328
+ },
+ "risparmio_radice": 0.03705592386986223,
+ "risparmio_riga": 0.012433618377036382,
+ "risparmio_entrambi": 0.045383567082913134,
+ "quota_t": 0.35785545108734657,
+ "esito": "classificatore di radice"
+}

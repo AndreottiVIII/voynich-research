@@ -1,0 +1,37 @@
+{
+ "hapax": 4776,
+ "quota_media": 0.13699337406419412,
+ "H1": {
+  "prima della pagina": {
+   "parole": 207,
+   "quota_hapax": 0.5265700483091788
+  },
+  "prima di paragrafo": {
+   "parole": 533,
+   "quota_hapax": 0.45778611632270166
+  },
+  "prima di riga": {
+   "parole": 3390,
+   "quota_hapax": 0.1752212389380531
+  },
+  "seconda": {
+   "parole": 4045,
+   "quota_hapax": 0.10976514215080346
+  },
+  "interna": {
+   "parole": 22585,
+   "quota_hapax": 0.108169138808944
+  },
+  "ultima di riga": {
+   "parole": 4103,
+   "quota_hapax": 0.22958810626370948
+  }
+ },
+ "H2": {
+  "coppie": 1161,
+  "nullo": 1195.54,
+  "z": -1.4416561736291058,
+  "p": 0.9301397205588823
+ },
+ "esito_H2": "assente"
+}

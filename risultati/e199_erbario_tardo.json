@@ -1,0 +1,12 @@
+{
+ "pagine": {
+  "iniziale": 85,
+  "tardo": 10,
+  "farmacia": 16
+ },
+ "statistica": 0.08914683390016431,
+ "pagine_tarde_piu_vicine_alla_farmacia": 9,
+ "nullo_media": -0.0004478612778308995,
+ "p_due_code": 0.0004997501249375312,
+ "esito": "vocabolario del tempo"
+}

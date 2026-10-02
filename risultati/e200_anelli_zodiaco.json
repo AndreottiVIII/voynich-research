@@ -1,0 +1,25 @@
+{
+ "etichette": 281,
+ "per_anello": {
+  "esterno": 170,
+  "medio": 21,
+  "interno": 90
+ },
+ "im": 0.2370571342690145,
+ "nullo": 0.22541004906768017,
+ "z": 0.46187193296990525,
+ "p": 0.3188405797101449,
+ "okal_otal": {
+  "okal": {
+   "esterno": 12,
+   "medio": 2,
+   "interno": 3
+  },
+  "otal": {
+   "esterno": 14,
+   "medio": 2,
+   "interno": 9
+  }
+ },
+ "esito": "assenti"
+}

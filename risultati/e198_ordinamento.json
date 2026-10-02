@@ -1,0 +1,235 @@
+{
+ "Voynich": {
+  "classi": 1878,
+  "con_piu_ordini": 287,
+  "quota": 0.15282215122470713,
+  "esempi": [
+   [
+    "alky",
+    "kaly",
+    "ykal"
+   ],
+   [
+    "lsho",
+    "shol"
+   ],
+   [
+    "orshy",
+    "shory",
+    "yshor"
+   ],
+   [
+    "olshdy",
+    "sholdy"
+   ],
+   [
+    "or",
+    "ro"
+   ],
+   [
+    "kshey",
+    "sheky"
+   ],
+   [
+    "dsho",
+    "shod"
+   ],
+   [
+    "oteey",
+    "yteeo"
+   ],
+   [
+    "cphoy",
+    "ocphy"
+   ],
+   [
+    "chotol",
+    "otchol"
+   ],
+   [
+    "os",
+    "so"
+   ],
+   [
+    "otedy",
+    "teody"
+   ]
+  ]
+ },
+ "latino": {
+  "classi": 2916,
+  "con_piu_ordini": 59,
+  "quota": 0.020233196159122085,
+  "esempi": [
+   [
+    "eius",
+    "iesu"
+   ],
+   [
+    "et",
+    "te"
+   ],
+   [
+    "audis",
+    "iudas"
+   ],
+   [
+    "esrom",
+    "sermo"
+   ],
+   [
+    "ioram",
+    "maior"
+   ],
+   [
+    "ad",
+    "da"
+   ],
+   [
+    "mater",
+    "matre"
+   ],
+   [
+    "inventa",
+    "veniant"
+   ],
+   [
+    "eam",
+    "mea"
+   ],
+   [
+    "aperti",
+    "pariet"
+   ],
+   [
+    "faciet",
+    "facite"
+   ],
+   [
+    "tu",
+    "ut"
+   ]
+  ]
+ },
+ "italiano": {
+  "classi": 2260,
+  "con_piu_ordini": 54,
+  "quota": 0.023893805309734513,
+  "esempi": [
+   [
+    "ad",
+    "da"
+   ],
+   [
+    "il",
+    "li"
+   ],
+   [
+    "ioram",
+    "ormai"
+   ],
+   [
+    "al",
+    "la"
+   ],
+   [
+    "dalle",
+    "della"
+   ],
+   [
+    "posso",
+    "sposo"
+   ],
+   [
+    "possa",
+    "sposa"
+   ],
+   [
+    "dai",
+    "dia"
+   ],
+   [
+    "doveva",
+    "vedova"
+   ],
+   [
+    "capo",
+    "poca"
+   ],
+   [
+    "devo",
+    "dove",
+    "vedo"
+   ],
+   [
+    "resta",
+    "stare"
+   ]
+  ]
+ },
+ "controllo: latino ordinato": {
+  "classi": 2942,
+  "con_piu_ordini": 0,
+  "quota": 0.0,
+  "esempi": []
+ },
+ "generatore e180": {
+  "classi": 2428,
+  "con_piu_ordini": 428,
+  "quota": 0.17627677100494235,
+  "esempi": [
+   [
+    "otl",
+    "tol"
+   ],
+   [
+    "or",
+    "ro"
+   ],
+   [
+    "ot",
+    "to"
+   ],
+   [
+    "choshy",
+    "shochy"
+   ],
+   [
+    "chotol",
+    "otchol"
+   ],
+   [
+    "lty",
+    "tyl"
+   ],
+   [
+    "shot",
+    "tsho"
+   ],
+   [
+    "otedy",
+    "teody"
+   ],
+   [
+    "chol",
+    "lcho"
+   ],
+   [
+    "cheoky",
+    "chokey",
+    "kochey",
+    "okchey",
+    "okechy"
+   ],
+   [
+    "kol",
+    "olk"
+   ],
+   [
+    "ko",
+    "ok"
+   ]
+  ]
+ },
+ "esito": "non compatibile"
+}
