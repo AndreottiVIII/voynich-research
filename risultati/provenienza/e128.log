@@ -1,0 +1,43 @@
+testi senza senso: 38 pagine, 1617 righe, 10032 parole
+testi senza senso    bordo d'inizio 1.425 | S(1) 1.107 | accordo a distanza 2 0.009 | lunghezze vicine -0.007 | ripetizione immediata 0.687 | alternanza A 1.047 | chiusura R 0.809
+Voynich 1            bordo d'inizio 14.912 | S(1) 0.443 | accordo a distanza 2 -0.011 | lunghezze vicine 0.044 | ripetizione immediata 1.013 | alternanza A 1.062 | chiusura R 0.043
+Voynich 2            bordo d'inizio 13.097 | S(1) 0.476 | accordo a distanza 2 -0.016 | lunghezze vicine 0.061 | ripetizione immediata 1.100 | alternanza A 1.055 | chiusura R 0.040
+Voynich 3            bordo d'inizio 12.774 | S(1) 0.412 | accordo a distanza 2 -0.014 | lunghezze vicine 0.065 | ripetizione immediata 0.898 | alternanza A 1.019 | chiusura R -0.053
+Voynich 4            bordo d'inizio 17.848 | S(1) 0.608 | accordo a distanza 2 -0.004 | lunghezze vicine 0.072 | ripetizione immediata 1.164 | alternanza A 1.051 | chiusura R 0.024
+Voynich 5            bordo d'inizio 15.477 | S(1) 0.542 | accordo a distanza 2 -0.005 | lunghezze vicine 0.054 | ripetizione immediata 0.961 | alternanza A 1.038 | chiusura R 0.005
+Voynich 6            bordo d'inizio 16.142 | S(1) 0.565 | accordo a distanza 2 0.001 | lunghezze vicine 0.062 | ripetizione immediata 0.970 | alternanza A 1.045 | chiusura R 0.008
+Voynich 7            bordo d'inizio 12.627 | S(1) 0.610 | accordo a distanza 2 0.002 | lunghezze vicine 0.073 | ripetizione immediata 1.064 | alternanza A 1.039 | chiusura R 0.016
+Voynich 8            bordo d'inizio 15.459 | S(1) 0.548 | accordo a distanza 2 -0.011 | lunghezze vicine 0.073 | ripetizione immediata 0.937 | alternanza A 1.041 | chiusura R -0.008
+Voynich 9            bordo d'inizio 17.539 | S(1) 0.518 | accordo a distanza 2 -0.013 | lunghezze vicine 0.053 | ripetizione immediata 0.983 | alternanza A 1.072 | chiusura R 0.005
+Voynich 10           bordo d'inizio 15.101 | S(1) 0.461 | accordo a distanza 2 -0.018 | lunghezze vicine 0.062 | ripetizione immediata 1.079 | alternanza A 1.046 | chiusura R -0.036
+Timm e Schinner 1    bordo d'inizio 5.021 | S(1) 1.023 | accordo a distanza 2 -0.004 | lunghezze vicine -0.001 | ripetizione immediata 0.806 | alternanza A 0.874 | chiusura R 0.581
+Timm e Schinner 2    bordo d'inizio 4.352 | S(1) 1.076 | accordo a distanza 2 0.001 | lunghezze vicine -0.005 | ripetizione immediata 0.832 | alternanza A 0.910 | chiusura R -0.237
+Timm e Schinner 3    bordo d'inizio 5.651 | S(1) 0.956 | accordo a distanza 2 -0.014 | lunghezze vicine 0.013 | ripetizione immediata 0.800 | alternanza A 0.894 | chiusura R -0.207
+Timm e Schinner 4    bordo d'inizio 4.920 | S(1) 1.039 | accordo a distanza 2 0.000 | lunghezze vicine -0.003 | ripetizione immediata 0.688 | alternanza A 0.910 | chiusura R 0.975
+Timm e Schinner 5    bordo d'inizio 4.437 | S(1) 0.973 | accordo a distanza 2 -0.000 | lunghezze vicine -0.005 | ripetizione immediata 0.691 | alternanza A 0.911 | chiusura R 0.370
+Timm e Schinner 6    bordo d'inizio 4.878 | S(1) 1.013 | accordo a distanza 2 0.007 | lunghezze vicine -0.013 | ripetizione immediata 0.613 | alternanza A 0.888 | chiusura R 0.638
+Timm e Schinner 7    bordo d'inizio 4.433 | S(1) 1.001 | accordo a distanza 2 0.001 | lunghezze vicine 0.005 | ripetizione immediata 0.636 | alternanza A 0.914 | chiusura R 0.375
+Timm e Schinner 8    bordo d'inizio 5.457 | S(1) 1.021 | accordo a distanza 2 -0.011 | lunghezze vicine 0.003 | ripetizione immediata 0.829 | alternanza A 0.883 | chiusura R 0.505
+Timm e Schinner 9    bordo d'inizio 6.877 | S(1) 1.041 | accordo a distanza 2 -0.006 | lunghezze vicine 0.002 | ripetizione immediata 0.778 | alternanza A 0.883 | chiusura R 0.215
+Timm e Schinner 10   bordo d'inizio 6.300 | S(1) 1.029 | accordo a distanza 2 -0.002 | lunghezze vicine -0.005 | ripetizione immediata 0.736 | alternanza A 0.902 | chiusura R 0.214
+Bibbia latina 1      bordo d'inizio 0.690 | S(1) 0.941 | accordo a distanza 2 0.022 | lunghezze vicine -0.094 | ripetizione immediata 0.057 | alternanza A 1.034 | chiusura R 1.892
+Bibbia latina 2      bordo d'inizio 0.884 | S(1) 0.995 | accordo a distanza 2 0.002 | lunghezze vicine -0.081 | ripetizione immediata 0.000 | alternanza A 0.984 | chiusura R 1.572
+Bibbia latina 3      bordo d'inizio 0.684 | S(1) 1.002 | accordo a distanza 2 0.038 | lunghezze vicine -0.078 | ripetizione immediata 0.025 | alternanza A 1.013 | chiusura R 0.564
+Bibbia latina 4      bordo d'inizio 0.667 | S(1) 1.130 | accordo a distanza 2 0.034 | lunghezze vicine -0.098 | ripetizione immediata 0.066 | alternanza A 1.014 | chiusura R -0.110
+Bibbia latina 5      bordo d'inizio 1.261 | S(1) 1.085 | accordo a distanza 2 0.019 | lunghezze vicine -0.098 | ripetizione immediata 0.057 | alternanza A 1.034 | chiusura R 0.551
+Bibbia latina 6      bordo d'inizio 0.690 | S(1) 1.107 | accordo a distanza 2 0.044 | lunghezze vicine -0.075 | ripetizione immediata 0.050 | alternanza A 0.997 | chiusura R 2.125
+Bibbia latina 7      bordo d'inizio 1.190 | S(1) 0.902 | accordo a distanza 2 0.025 | lunghezze vicine -0.093 | ripetizione immediata 0.070 | alternanza A 1.003 | chiusura R 1.060
+Bibbia latina 8      bordo d'inizio 1.254 | S(1) 0.971 | accordo a distanza 2 0.017 | lunghezze vicine -0.104 | ripetizione immediata 0.042 | alternanza A 0.992 | chiusura R 0.938
+Bibbia latina 9      bordo d'inizio 1.197 | S(1) 1.030 | accordo a distanza 2 0.033 | lunghezze vicine -0.096 | ripetizione immediata 0.052 | alternanza A 0.982 | chiusura R 1.906
+Bibbia latina 10     bordo d'inizio 0.852 | S(1) 0.901 | accordo a distanza 2 0.021 | lunghezze vicine -0.089 | ripetizione immediata 0.108 | alternanza A 1.031 | chiusura R 0.506
+Bibbia italiana 1    bordo d'inizio 0.828 | S(1) 1.245 | accordo a distanza 2 0.089 | lunghezze vicine -0.168 | ripetizione immediata 0.021 | alternanza A 1.036 | chiusura R 0.856
+Bibbia italiana 2    bordo d'inizio 0.722 | S(1) 1.035 | accordo a distanza 2 0.090 | lunghezze vicine -0.147 | ripetizione immediata 0.077 | alternanza A 1.074 | chiusura R 1.408
+Bibbia italiana 3    bordo d'inizio 0.504 | S(1) 0.979 | accordo a distanza 2 0.081 | lunghezze vicine -0.163 | ripetizione immediata 0.107 | alternanza A 1.031 | chiusura R 1.188
+Bibbia italiana 4    bordo d'inizio 0.573 | S(1) 0.948 | accordo a distanza 2 0.086 | lunghezze vicine -0.153 | ripetizione immediata 0.116 | alternanza A 0.960 | chiusura R 0.975
+Bibbia italiana 5    bordo d'inizio 0.830 | S(1) 1.202 | accordo a distanza 2 0.091 | lunghezze vicine -0.134 | ripetizione immediata 0.067 | alternanza A 1.039 | chiusura R 0.901
+Bibbia italiana 6    bordo d'inizio 0.920 | S(1) 1.016 | accordo a distanza 2 0.092 | lunghezze vicine -0.142 | ripetizione immediata 0.034 | alternanza A 0.999 | chiusura R 0.746
+Bibbia italiana 7    bordo d'inizio 0.792 | S(1) 1.059 | accordo a distanza 2 0.065 | lunghezze vicine -0.171 | ripetizione immediata 0.059 | alternanza A 1.059 | chiusura R 1.310
+Bibbia italiana 8    bordo d'inizio 1.054 | S(1) 1.114 | accordo a distanza 2 0.091 | lunghezze vicine -0.154 | ripetizione immediata 0.074 | alternanza A 0.999 | chiusura R 0.847
+Bibbia italiana 9    bordo d'inizio 0.655 | S(1) 0.996 | accordo a distanza 2 0.080 | lunghezze vicine -0.170 | ripetizione immediata 0.035 | alternanza A 1.033 | chiusura R 0.948
+Bibbia italiana 10   bordo d'inizio 1.340 | S(1) 1.129 | accordo a distanza 2 0.079 | lunghezze vicine -0.160 | ripetizione immediata 0.067 | alternanza A 1.058 | chiusura R 0.807
+proprieta discriminanti 4 | testi senza senso dalla parte del Voynich 2 | Timm e Schinner 2 | esito: in parte
