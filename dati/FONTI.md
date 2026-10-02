@@ -93,3 +93,14 @@ Scaricati l'1/10/2026 dal clone GRETIL di ambuda-org, commit
   (38 trascrizioni Unicode). In `dati/cache/gaskell_bowern/`, non ridistribuito.
 - Licenza: MIT modificata, con obbligo di citare Gaskell, D. E., Bowern, C. L. (2022), *Gibberish after all? Voynichese is
   statistically similar to human-produced samples of meaningless text*, CEUR Workshop Proceedings 3313.
+
+## Letture proposte (e133) — in `dati/cache/letture_proposte/`, non ridistribuite
+
+- Bax, S. (2014), *A proposed partial decoding of the Voynich script*. Il sito originale risponde 403 agli scaricamenti
+  automatici; copia da web.archive.org (`/web/2014id_/` + URL stephenbax.net). `bax_2014.pdf`, SHA-256
+  1ae1a2dae7af8f463de8e5b94d8905028f1c555a6ea59c011c4e553375c12c4e.
+- Vatne, S. B. (2021), *Cracking the Voynich Cipher*, versione 1, sivbuggevatne.com/wp-content/uploads/2021/10/verson_1_75mb_2.pdf.
+  `vatne_2021.pdf`, SHA-256 f7a91b48e898143edf3ca779ed1d5584ecf46a00fb8241832ad7777a40a99e72.
+- Vatne, S. B. (2022), *Arranging the Voynich Plants by Name* (crackingthevoynichcipher.com), `vatne_2022_arranging.pdf`.
+- Sherwood, E. & E., *The Voynich Botanical Plant Names Decoded* (edithsherwood.com, sito non raggiungibile; copia
+  web.archive.org 2020), `sherwood_anagrammi.html`.
