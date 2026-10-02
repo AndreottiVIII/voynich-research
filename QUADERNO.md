@@ -5038,3 +5038,43 @@ sequenza.
   - Il piccolo legame comune riguarda le terminazioni (famiglie -edy/-eey/-dy).
   - **Per il voynichizzatore:** uno stato di riga con una dozzina di interruttori quasi indipendenti, con
     un debole legame fra quelli delle terminazioni, invece di un unico parametro.
+
+## 3/10/2026 — e227d: spezzature a caso più prefissi a -l/-r staccati riproducono tutte e cinque le misure di giuntura
+
+- **Origine, dichiarata.** Dopo l'e227c ho esplorato, fuori preregistrazione, quali coppie portano
+  l'eccesso di unioni a giuntura conservata.
+  - Quasi tutto viene da prime parole corte in -l/-r: *ol* +195, *or* +116, *ar* +68, *chol*, *al*,
+    *dar* +42, *qol* +41, *dal* +31.
+  - Da lì l'ipotesi preregistrata: prefissi staccati.
+- **Preregistrato.** Generatore e192 con:
+  - distacco del prefisso (parola attestata di al più 3 unità in l/r all'inizio di una parola il cui
+    resto è attestato) con probabilità π;
+  - spezzatura a caso σ.
+- **Risultati:**
+  - σ 0,09 con π 0,30 è l'unica combinazione con tutte e cinque le misure in tolleranza sul seme 1:
+    U/N0 1,87, U/N1 1,23, U/N2 1,11, legame 0,197, Q 0,63;
+  - **verifica sul seme 2:** U/N0 1,84, U/N1 1,25, U/N2 1,14, legame 0,180, Q 0,67, ancora tutte in
+    tolleranza;
+  - **profilo dell'eccesso** nel testo generato: *ol* +246, *or* +69, *al* +61, *ar* +52, *dal* +32,
+    *qol* +20, *dar* +16. Somiglia a quello del Voynich, con *ol* troppo forte e *or*, *chol* troppo
+    deboli.
+- **Esito preregistrato: prefissi staccati bastano (σ 0,09, π 0,30).**
+- **Cautele.**
+  - Due parametri per cinque bersagli, e l'ipotesi è nata da un'esplorazione degli stessi dati: è una
+    prova di **sufficienza**, non che sia andata così.
+  - U/N1 e U/N2 stanno appena dentro il limite inferiore.
+  - La lunghezza media scende a 4,1 contro 4,46: le parole di base dovrebbero essere più lunghe.
+- **Lettura.** Si ottengono così cinque proprietà di giuntura e d'unione che nessun generatore aveva:
+  - il legame fra parole vicine;
+  - la sua quota nelle coppie uniche;
+  - le unioni grezze;
+  - le unioni a parità di uno e due segni finali.
+
+  Bastano due abitudini di scrittura semplici:
+  - uno spazio messo a volte dentro una parola;
+  - i prefissi corti *ol*, *or*, *ar*, *al*, *dal*, *qol*… scritti spesso staccati.
+
+  È coerente con le "terne lontane" dell'e60 fatte di pezzi staccati (*ol s aiin*, *or aiin*) e con le
+  giunture "morbide" dell'e12.
+- **Per il generatore e il voynichizzatore:** due meccanismi espliciti, con le parole di base
+  allungate.
