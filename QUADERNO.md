@@ -3316,3 +3316,25 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
     impaginazione nell'ordine ricostruito).
   - Interessa il white paper: la rilegatura attuale non è l'ordine di produzione, in accordo con
     quanto si sa dalla codicologia (bifogli rimescolati).
+
+## 2/10/2026 — e149: le etichette sono un lessico a sé, segnato da o-
+
+- **Metodo.** Preregistrato. Spunto da r/voynich.
+  - 996 etichette (prima parola). Attestazione nel testo dei paragrafi, così come sono e togliendo il
+    primo segno, contro parole del testo della stessa lunghezza.
+  - Il confronto è solo per lunghezza, non per sezione: lo zodiaco non ha testo in paragrafi. La
+    preregistrazione è stata aggiornata prima di eseguire.
+- **Risultati** (tutte le etichette):
+  - **(a)** attestate nel testo: 57% contro 79% (z −19);
+  - **(b)** fra le non attestate, attestate togliendo il primo segno: 22% contro 36% (z −4);
+  - **iniziali:** o- 59% (zodiaco 76%) contro 21% nel testo. Gallow 3% (zodiaco 0%) contro 8%.
+- **Esito: lessico a sé** (non "testo + prefisso").
+- **Lettura.**
+  - Le etichette non sono parole del testo con un segno davanti: togliendo il primo segno si
+    ritrovano nel testo **meno** spesso delle parole del testo.
+  - Sono forme proprie, spesso uniche, con una marca iniziale forte: **o-**, che nel testo è un
+    elemento qualunque (e139) e nelle etichette è la norma.
+  - È come la regola d'inizio riga (y/d/s): una posizione o un tipo di testo ha la sua marca
+    d'inizio. Per le etichette è o-.
+  - Per un contenuto, sarebbero il posto giusto per cercare nomi. Ma le prove sui nomi (e35, e122 in
+    standby, e133, e144) non hanno finora trovato legami fra etichette e disegni.
