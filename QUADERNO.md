@@ -3055,3 +3055,50 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
   righe di pagine vere diverse porta dentro l'omogeneità di pagina. Il criterio dell'accordo non
   discrimina in questo formato; l'esito non cambia, perché i generatori falliscono già le altre
   condizioni.
+
+## 2/10/2026 — e135: cinque scelte di grafia su sette sono decise per riga, ma indipendenti fra loro
+
+- **Metodo.** Preregistrato (idea 1).
+  - Sette scelte binarie, ciascuna con il suo contesto più la pagina negli strati: ch/sh, k/t, -l/-r
+    finale, e/ee, qo-/o-, ain/aiin, -dy/-ey.
+  - Misure: varianza per riga contro i rimescolamenti negli strati; accoppiamento fra scelte (media
+    delle 21 correlazioni dei residui di riga).
+- **Risultati.**
+  - **Scelte decise per riga** (rapporto, z):
+    - k/t 1,13 (10,1), -dy/-ey 1,12 (8,3), ch/sh 1,14 (7,8), -l/-r 1,07 (4,0), qo-/o- 1,06 (3,7);
+    - sotto soglia: e/ee 1,05 (2,8), ain/aiin 1,04 (2,3).
+    - Timm e Schinner: solo -l/-r (6,2).
+  - **Accoppiamento:** C = 0,005 (z 1,1). Il controllo positivo (stato imposto al 30%) dà z 35,9.
+  - Coppie notevoli:
+    - e/ee ~ -dy/-ey r −0,19 (z −8,9): probabilmente meccanica, perché le due scelte cadono negli
+      stessi segni della stessa parola (-ey);
+    - -dy/-ey con ch/sh, k/t e qo-: r ≈ +0,07 (z 3,7–3,9);
+    - -l/-r ~ qo-: −0,06 (z −3,1).
+- **Esito per regola: nessuno stato di riga comune** (5 scelte per riga sì, accoppiamento no).
+- **Lettura.**
+  - È una proprietà nuova e forte: **la riga è l'unità in cui si fissano molte scelte di grafia**, non
+    solo ch/sh. Ogni riga ha le sue preferenze, oltre a quelle della pagina e del contesto.
+  - Le preferenze però variano **in modo indipendente** l'una dall'altra, con al più un debole legame
+    attorno a -dy. Non c'è una "chiave di riga" unica da stimare e togliere: la strada "normalizzare
+    la riga" come passo di decifrazione non è aperta.
+  - È compatibile con un procedimento che per ogni riga sceglie separatamente più parametri (colonne
+    di una tavola, varianti), o con una scrittura che riga per riga riprende abitudini diverse.
+
+## 2/10/2026 — e137 ed e137b: nessuna numerazione degli inizi di riga
+
+- **e137** (preregistrato): ordine 2 delle classi d'inizio, cioè I(c_i ; c_{i−2} | c_{i−1}), con
+  z 5,6 (ZL) e 6,1 (IT) contro una catena unica del primo ordine.
+  - Nessun periodo da 2 a 6 (z da −1,2 a 0,3). Il controllo con un ciclo di 4 dà z 26–45.
+  - Per regola "numerazione: sì". Ma Timm e Schinner, che non ha numerazione, dà 6,2: il nullo a
+    catena unica non controllava le differenze fra sezioni e mani. È un difetto di disegno.
+- **e137b** (preregistrato dopo l'e137): catene del primo ordine stimate per sezione + mano (N1) e
+  per fascicolo (N2).
+  - Il Voynich scende a z 2,9 / 2,4 (ZL) e 3,3 / 3,1 (IT). Il controllo resta a 20,7. Timm e Schinner,
+    a blocchi, resta a 5,3.
+  - Esito per regola: **indeciso**.
+- **Lettura complessiva.**
+  - Nessuna periodicità, quindi nessun contatore o ciclo.
+  - Un residuo debole di ordine 2 (z ≈ 3) che una catena unica non spiega, ma che anche un generatore
+    senza regole di riga mostra più forte.
+  - L'inizio di riga resta descritto come regola di evitamento della riga sopra, non come
+    numerazione.
