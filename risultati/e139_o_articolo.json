@@ -1,0 +1,99 @@
+{
+ "o-": {
+  "coppie": 596,
+  "quote": {
+   "prima": 0.2657494569152788,
+   "prima di paragrafo": 0.0635593220338983,
+   "ultima": 0.32646755921730175,
+   "interna": 0.293327678823862
+  },
+  "occorrenze": {
+   "prima": 1381,
+   "prima di paragrafo": 236,
+   "ultima": 1942,
+   "interna": 14148
+  },
+  "rapporto_prima_interna": 0.9059815220330999,
+  "nullo": 0.9916995924491429,
+  "z": -2.1957376246764477,
+  "posizionale": false,
+  "anche_fuori_posizione": true
+ },
+ "y-": {
+  "coppie": 320,
+  "quote": {
+   "prima": 0.344903988183161,
+   "prima di paragrafo": 0.07142857142857142,
+   "ultima": 0.078397212543554,
+   "interna": 0.06558591940713293
+  },
+  "occorrenze": {
+   "prima": 1354,
+   "prima di paragrafo": 140,
+   "ultima": 1148,
+   "interna": 10795
+  },
+  "rapporto_prima_interna": 5.25881151474184,
+  "nullo": 1.2094774325334972,
+  "z": 42.29662253344146,
+  "posizionale": true,
+  "anche_fuori_posizione": false
+ },
+ "d-": {
+  "coppie": 315,
+  "quote": {
+   "prima": 0.5775347912524851,
+   "prima di paragrafo": 0.34615384615384615,
+   "ultima": 0.330150068212824,
+   "interna": 0.158960092095165
+  },
+  "occorrenze": {
+   "prima": 1006,
+   "prima di paragrafo": 26,
+   "ultima": 1466,
+   "interna": 10424
+  },
+  "rapporto_prima_interna": 3.633206194336695,
+  "nullo": 1.1449628489108892,
+  "z": 42.04590957364485,
+  "posizionale": true,
+  "anche_fuori_posizione": false
+ },
+ "s-": {
+  "coppie": 190,
+  "quote": {
+   "prima": 0.5264663805436338,
+   "prima di paragrafo": 0.3684210526315789,
+   "ultima": 0.09937888198757763,
+   "interna": 0.03568404499818556
+  },
+  "occorrenze": {
+   "prima": 699,
+   "prima di paragrafo": 19,
+   "ultima": 966,
+   "interna": 8267
+  },
+  "rapporto_prima_interna": 14.753551077810917,
+  "nullo": 1.3330890985507928,
+  "z": 99.89999621131214,
+  "posizionale": true,
+  "anche_fuori_posizione": false
+ },
+ "tolor": [
+  [
+   "f38r",
+   "tolor",
+   "prima di paragrafo"
+  ],
+  [
+   "f67r2",
+   "otolor",
+   "etichetta o testo non in paragrafo"
+  ],
+  [
+   "f77v",
+   "otolor",
+   "etichetta o testo non in paragrafo"
+  ]
+ ]
+}
