@@ -1,0 +1,28 @@
+{
+ "a_scelte_di_grafia": 49215.03884446804,
+ "b_segno_d_inizio": {
+  "righe": 3332,
+  "bit_per_riga": 1.7475527645093312,
+  "bit_totali": 5822.8458113450915
+ },
+ "c_ordine_nella_riga": {
+  "righe_esatte": 1387,
+  "bit_esatti": 7066.130357736767,
+  "bit_per_parola_6_7": 1.3415201497503995,
+  "parole_righe_lunghe": 24652,
+  "bit_estrapolati": 33071.15473164685,
+  "bit_totali": 40137.285089383615,
+  "bit_per_riga_per_n": {
+   "3": 0.9492815194147346,
+   "4": 2.33477890861687,
+   "5": 4.160729682402162,
+   "6": 6.208105242915549,
+   "7": 8.650273260951895
+  }
+ },
+ "totale_bit": 95175.16974519675,
+ "lettere_latino_compresso": 47587.584872598374,
+ "lettere_latino_grezzo": 23213.456035413845,
+ "parole_latine_compresso": 7931.264145433062,
+ "parole_latine_grezzo": 3868.909339235641
+}
