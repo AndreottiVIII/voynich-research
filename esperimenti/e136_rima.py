@@ -93,7 +93,14 @@ def dante():
         cur.append(s.split())
     if cur:
         canti.append(cur)
-    return canti
+    # il file contiene il poema due volte: si tiene la prima occorrenza di ogni canto
+    visti, unici = set(), []
+    for c in canti:
+        chiave = ' '.join(' '.join(v) for v in c[:2])
+        if chiave not in visti:
+            visti.add(chiave)
+            unici.append(c)
+    return unici
 
 
 def testi():
