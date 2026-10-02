@@ -1,0 +1,6 @@
+θ 0, β 1       8/18 | riga True | T3 1.7 T4r 7.7 | A 1.013 | corregge False | +['gradiente'] -['omogeneità', 'lunghezze vicine']
+θ 0, β 0.5     6/18 | riga True | T3 0.9 T4r 4.8 | A 1.043 | corregge False | +['gradiente'] -['ripetizione', 'omogeneità', 'curva piatta', 'lunghezze vicine']
+θ 0.15, β 1    7/18 | riga True | T3 3.2 T4r 6.4 | A 1.009 | corregge False | +[] -['omogeneità', 'lunghezze vicine']
+θ 0.15, β 0.5  6/18 | riga True | T3 0.6 T4r 5.6 | A 1.051 | corregge False | +[] -['ripetizione', 'omogeneità', 'lunghezze vicine']
+θ 0.3, β 1     9/18 | riga True | T3 5.0 T4r 6.5 | A 1.012 | corregge False | +[] -[]
+θ 0.3, β 0.5   7/18 | riga True | T3 5.4 T4r 5.0 | A 1.061 | corregge False | +[] -['ripetizione', 'lunghezze vicine']
