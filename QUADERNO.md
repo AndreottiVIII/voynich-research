@@ -3524,3 +3524,19 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
     ripetizione delle lettere), che ogni testo costruito con le sue regole di parola condivide, non
     da una lingua sottostante.
   - Sono i controlli che mancavano nel lavoro originale.
+
+## 2/10/2026 — e159: le "parole-chiave" di Montemurro e Zanette le hanno anche i testi senza messaggio
+
+- **Metodo.** Preregistrato.
+  - Indice d'informazione delle parole sulla posizione nel testo, I = Σ (n/N)(H̃ − H), su Voynich,
+    Bibbia latina, Timm e Schinner, generatore e152 e testi inventati a mano.
+- **Risultati** (bit per parola):
+  - **N 35.000, P 32:** Voynich 0,29; latino 0,16; Timm e Schinner **0,31**; e152 0,34;
+  - **N 10.000, P 10:** Voynich 0,08; latino 0,09; Timm e Schinner **0,23**; testi inventati **0,24**;
+    e152 0,16.
+- **Esito: le parole-chiave non distinguono un contenuto.** Un generatore senza messaggio e i testi
+  inventati da persone hanno tanta o più "struttura per argomenti" del Voynich.
+- **Lettura.** L'organizzazione delle parole per posizione nel libro, presentata come segno di un
+  contenuto organizzato per temi, nasce anche da una deriva del vocabolario senza significato (copia
+  locale, abitudini che cambiano, invenzione spontanea). Le parole-chiave del Voynich (shedy,
+  qokeedy, qokain…) sono le stesse che separano le lingue A e B (e156).

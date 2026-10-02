@@ -1,0 +1,154 @@
+{
+ "N 35000, P 32": {
+  "Voynich ZL": {
+   "parole": 34863,
+   "informazione": 0.2904600748530958,
+   "parole_chiave": [
+    "shedy",
+    "qokeedy",
+    "qokain",
+    "daiin",
+    "chedy",
+    "qokedy",
+    "chor",
+    "qokeey",
+    "qol",
+    "ol"
+   ]
+  },
+  "Bibbia latina": {
+   "parole": 35000,
+   "informazione": 0.15824371803387857,
+   "parole_chiave": [
+    "fuit",
+    "genuit",
+    "qui",
+    "autem",
+    "vobis",
+    "tunc",
+    "eum",
+    "illum",
+    "vos",
+    "et"
+   ]
+  },
+  "Timm e Schinner, seme 19": {
+   "parole": 35000,
+   "informazione": 0.3069518748313865,
+   "parole_chiave": [
+    "cheedy",
+    "chedy",
+    "dyol",
+    "cho",
+    "ody",
+    "ydy",
+    "dyor",
+    "chedyol",
+    "cheey",
+    "cheeol"
+   ]
+  },
+  "generatore e152 (riferimento)": {
+   "parole": 35000,
+   "informazione": 0.335357057075529,
+   "parole_chiave": [
+    "daiin",
+    "s",
+    "cthy",
+    "chol",
+    "chedy",
+    "chy",
+    "shol",
+    "chor",
+    "ar",
+    "cthol"
+   ]
+  }
+ },
+ "N 10000, P 10": {
+  "Voynich ZL": {
+   "parole": 10000,
+   "informazione": 0.08174565052358909,
+   "parole_chiave": [
+    "qokedy",
+    "chedy",
+    "cthy",
+    "aiin",
+    "shol",
+    "chor",
+    "ar",
+    "chdy",
+    "shedy",
+    "dy"
+   ]
+  },
+  "Bibbia latina": {
+   "parole": 10000,
+   "informazione": 0.09292726994480165,
+   "parole_chiave": [
+    "genuit",
+    "tuum",
+    "si",
+    "ait",
+    "autem",
+    "beati",
+    "pater",
+    "iesus",
+    "neque",
+    "me"
+   ]
+  },
+  "Timm e Schinner, seme 19": {
+   "parole": 10000,
+   "informazione": 0.23239471459294064,
+   "parole_chiave": [
+    "cheedy",
+    "cheeo",
+    "oshy",
+    "cheey",
+    "chedy",
+    "cheo",
+    "chy",
+    "qochol",
+    "ochy",
+    "ys"
+   ]
+  },
+  "generatore e152 (riferimento)": {
+   "parole": 10000,
+   "informazione": 0.15925078074950763,
+   "parole_chiave": [
+    "cthy",
+    "ypair",
+    "s",
+    "cthol",
+    "ald",
+    "kchy",
+    "qokal",
+    "dar",
+    "char",
+    "cho"
+   ]
+  },
+  "testi inventati (Gaskell e Bowern)": {
+   "parole": 10000,
+   "informazione": 0.2422288369065694,
+   "parole_chiave": [
+    "e",
+    "ne",
+    "y",
+    "tul",
+    "pu",
+    "qi",
+    "go",
+    "lt",
+    "ach",
+    "t"
+   ]
+  }
+ },
+ "parole_chiave_non_distinguono": {
+  "N 35000, P 32": true,
+  "N 10000, P 10": true
+ }
+}

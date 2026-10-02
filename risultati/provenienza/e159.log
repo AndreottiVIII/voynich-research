@@ -1,0 +1,10 @@
+N 35000, P 32  Voynich ZL                             parole  34863 | I 0.2905 bit/parola | shedy qokeedy qokain daiin chedy qokedy
+N 35000, P 32  Bibbia latina                          parole  35000 | I 0.1582 bit/parola | fuit genuit qui autem vobis tunc
+N 35000, P 32  Timm e Schinner, seme 19               parole  35000 | I 0.3070 bit/parola | cheedy chedy dyol cho ody ydy
+N 35000, P 32  generatore e152 (riferimento)          parole  35000 | I 0.3354 bit/parola | daiin s cthy chol chedy chy
+N 10000, P 10  Voynich ZL                             parole  10000 | I 0.0817 bit/parola | qokedy chedy cthy aiin shol chor
+N 10000, P 10  Bibbia latina                          parole  10000 | I 0.0929 bit/parola | genuit tuum si ait autem beati
+N 10000, P 10  Timm e Schinner, seme 19               parole  10000 | I 0.2324 bit/parola | cheedy cheeo oshy cheey chedy cheo
+N 10000, P 10  generatore e152 (riferimento)          parole  10000 | I 0.1593 bit/parola | cthy ypair s cthol ald kchy
+N 10000, P 10  testi inventati (Gaskell e Bowern)     parole  10000 | I 0.2422 bit/parola | e ne y tul pu qi
+le parole-chiave non distinguono un contenuto: {'N 35000, P 32': True, 'N 10000, P 10': True}
