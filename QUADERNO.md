@@ -3796,3 +3796,34 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
 - **Rassegna.** Nello stesso thread di Voynich Day (4343) Feaster aveva provato informalmente le
   combinazioni all'a capo e trovato due anomalie singole (m→q 58%, n→Sh 140%), che poi attribuiva a
   differenze di sezione. La misura complessiva (R ≈ 0) e il confronto con Plinio restano nostri.
+
+## 2/10/2026 — e162b: un messaggio a voci, una per pagina, non rende la pagina e si vede (T3)
+
+- **Metodo.** Preregistrato.
+  - Come l'e162, ma i temi di riga vengono dal paragrafo di Isidoro, *Etymologiae* XVII (326
+    paragrafi, codificati parola per parola) assegnato alla pagina.
+  - Le parole del paragrafo si usano in ordine e ciclicamente.
+- **Risultati:**
+
+  | generatore | pagella | T3 grezzo | T3 ripulito | T4 ripulito |
+  |---|---|---|---|---|
+  | temi da voci, una per pagina | 5/18 | **8,0** | **6,5** | 8,2 |
+  | flusso continuo (e162) | 4/18 | 6,9 | 4,9 | 8,4 |
+  | temi a caso (e153) | 10/18 | 5,0 | 3,0 | 6,3 |
+  | Voynich (e160) | – | −0,5 | −2,8 | −4,0 |
+
+- **Esito per regola:**
+  - **(a) Pagina recuperata: no.** La pagella è 5/18. Cadono omogeneità, profilo di pagina, curva
+    piatta, lunghezze vicine e formule.
+  - **(b) Messaggio visibile: sì,** al limite. T3 grezzo supera il riferimento di 3,0, T3 ripulito di
+    3,5.
+- **Lettura.**
+  - Un messaggio nascosto nei temi non riproduce le proprietà di pagina del Voynich, nemmeno con un
+    testo a voci. Quando è organizzato per pagina, alza l'accordo nella composizione della riga (T3),
+    che nel Voynich è nullo o negativo.
+  - **L'ipotesi "messaggio nei temi" si indebolisce** (lettura preregistrata (a) no).
+- **Nota sul generatore, non preregistrata.**
+  - Anche l'e153 con temi a caso ha T3 5,0 contro il −0,5 del Voynich, e T4 ripulito 6,3 contro −4,0.
+    Il tema di riga, pur debole, crea più accordo nella riga di quanto ne abbia il Voynich.
+  - Sono due proprietà da aggiungere alla lista di ciò che il generatore non riproduce. Vanno
+    guardate insieme al tema di riga debole misurato nell'e155 (×1,06).
