@@ -3169,3 +3169,21 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
   - Questo indebolisce l'idea, emersa su Reddit, di un testo prodotto altrove e poi ricopiato in bella
     dagli scribi. Se c'era un modello, aveva già le stesse righe, oppure le regole si applicavano al
     momento della scrittura in pagina.
+
+## 2/10/2026 — e142: le etichette dei due Ariete e dei due Toro non si somigliano più del caso
+
+- **Metodo.** Preregistrato.
+  - Le 11 coppie di pagine zodiacali consecutive, di cui 2 dello stesso segno (f70v1–f71r Ariete,
+    f71v–f72r1 Toro).
+  - Somiglianza delle etichette: coseno dei bigrammi di segni, Jaccard dei tipi, e coseno su etichette
+    più cerchi.
+  - Nullo esatto sulle 55 scelte di 2 coppie.
+- **Risultati:**
+  - coseno etichette: 0,869 stesso segno contro 0,833 (p 0,31);
+  - Jaccard: 0,038 contro 0,032 (p 0,42);
+  - etichette più cerchi: 0,940 contro 0,928 (p 0,27).
+  - La coppia più simile è f70v2–f70v1 (Pesci–Ariete). Ariete–Ariete ha 0 parole in comune.
+- **Esito: nessuna prova** che le etichette dipendano dal segno disegnato. Potenza bassa (11 coppie).
+- **Lettura.** È coerente con l'osservazione di r/voynich: il vocabolario segue la posizione nel
+  manoscritto (e le mani), non il soggetto dei disegni. Le due pagine dello stesso segno sono vicine
+  nel libro, ma non più simili fra loro di due pagine vicine di segni diversi.
