@@ -2920,3 +2920,51 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
   - La chiave di Bax non batte il caso fuori campione, e i suoi nomi ricorrenti stanno dappertutto.
   - Le parole di Vatne non sono diverse dalle altre prime parole.
 - **Da fare:** Sherwood (anagrammi, serve il suo alfabeto completo) e Tucker-Talbert (fonti parziali).
+
+## 2/10/2026 — e130: tutte le mani seguono le stesse regole di riga, con intensità diversa
+
+- **Metodo.** Preregistrato.
+  - Le proprietà dell'e128 più la quota di sh per riga, per le mani di Davis (variabile $H della ZL).
+  - Intervalli bootstrap per pagine.
+- **Risultati** (mani 1, 2, 3; lingue in e128: bordo 0,88, S(1) 1,04):
+  - **bordo d'inizio:** 13,6 / 30,8 / 21,0;
+  - **S(1):** 0,36 / 0,54 / 0,70;
+  - **quota di sh per riga:** 1,15 / 1,13 / 1,14, tutte con intervallo sopra 1;
+  - **lunghezze vicine:** 0,05 / 0,07 / 0,09;
+  - **A:** 1,01 / 1,09 / 1,03;
+  - **chiusura R:** −0,03 / 0,06 / 0,00.
+  - Mani 4 e 5 (descrittive): bordo 3,5 / 3,7, S(1) 0,55 / 0,69.
+- **Esito per regola: "in parte".** Tutte le mani stanno dalla parte del Voynich in tutte le
+  proprietà discriminanti, ma gli intervalli del bordo e di S(1) non si sovrappongono fra mani: la
+  forza della regola cambia, con la mano 2 al massimo per il bordo e la mano 1 per l'evitamento.
+- **Difetto di metodo** (da non riusare così): il bootstrap per pagine duplica righe identiche, e
+  questo distorce le misure basate sull'informazione mutua. Gli intervalli dell'accordo e della
+  chiusura non contengono nemmeno la stima puntuale e vanno ignorati. Il bordo (JSD) e S(1)
+  (rapporto di quote), usati nei criteri, ne risentono poco o niente.
+- **Lettura.**
+  - Le stesse regole di riga in tutte e cinque le mani, mentre l'invenzione spontanea non le produce
+    (e128): è un **sistema condiviso**, non un'abitudine personale.
+  - L'intensità diversa può dipendere dalla mano o dalla lingua A/B, che qui coincidono.
+
+## 2/10/2026 — e131: il procedimento per riga riproduce la riga, non il resto
+
+- **Metodo.** Preregistrato.
+  - Griglia dell'e129 (R 36, m 0,5, T 4) con colonna d'inizio, evitamento (a 0,5 o 0,9) e grafia
+    ch/sh per riga.
+- **Risultati:**
+  - pagella 4–5/18, proprietà di riga 4–5/12;
+  - S(1) da 0,14 a 0,59 (raggiunto con a = 0,5);
+  - R ≈ 0;
+  - A ≈ 1,0;
+  - ma bordo d'inizio 44–46 (troppo forte), copia della prima colonna 0,37–0,78, e94 ≈ 1,0.
+  - Mai ottenute: h2, parole uniche, omogeneità, legame, lunghezze vicine, Zipf, forma, verticale,
+    formule, bordo di riga, copia, e94.
+- **Esito: nessun procedimento completo.**
+- **Lettura.**
+  - Le regole di riga si mettono facilmente in un procedimento e danno riga chiusa, evitamento e
+    assenza di catena.
+  - Il resto (forma delle parole, somiglianza locale, preferenza ch/sh in seconda posizione, copia
+    della seconda colonna) richiede un meccanismo di produzione delle parole che né la griglia né la
+    copia alla Timm e Schinner danno da sole.
+  - Il prossimo modello dovrebbe unire la copia locale **dentro la riga** (somiglianza senza catena
+    fra righe) con le regole di riga.
