@@ -1,0 +1,6 @@
+Voynich (lettere EVA)        (a) eccesso 0.1920 (z 309) | (b) A 1.054 | (c) ripetizione 1.01
+Plinio a capo                (a) eccesso 0.0412 (z 52) | (b) A 1.002 | (c) ripetizione 0.12
+Polygraphia III, PIII_10_columns (a) eccesso 0.0002 (z 1) | (b) A 1.012 | (c) ripetizione 0.56
+Polygraphia III, PIII_24_columns (a) eccesso -0.0001 (z -0) | (b) A 1.017 | (c) ripetizione 0.51
+Polygraphia III, PIII_all_columns (a) eccesso 0.0004 (z 1) | (b) A 1.005 | (c) ripetizione 0.35
+esiti: {"PIII_10_columns": {"a": false, "b": false, "c": true}, "PIII_24_columns": {"a": false, "b": false, "c": true}, "PIII_all_columns": {"a": false, "b": false, "c": false}} | compatibile: False

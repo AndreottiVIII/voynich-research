@@ -1,0 +1,4 @@
+Modifiche, λ 1         10/18 | riga True | completo False | h2 2.438 tipi - | +[] -[]
+Modifiche, λ 2         10/18 | riga True | completo False | h2 2.442 tipi - | +[] -[]
+attestate, λ 1         9/18 | riga True | completo False | h2 2.317 tipi - | +['h2', 'tipi'] -['uniche', 'curva piatta', 'formule']
+attestate, λ 2         10/18 | riga True | completo False | h2 2.315 tipi - | +['h2', 'tipi'] -['uniche', 'curva piatta']

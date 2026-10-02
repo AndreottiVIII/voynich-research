@@ -1,0 +1,95 @@
+{
+ "Voynich (lettere EVA)": {
+  "a_giunture": {
+   "im": 0.20038493518116773,
+   "nullo": 0.008408112917976367,
+   "eccesso": 0.19197682226319138,
+   "z": 309.3239287212891,
+   "n": 22592
+  },
+  "b_A": 1.0541371092773286,
+  "c_ripetizione": {
+   "coppie_identiche": 288,
+   "attese": 286.475,
+   "rapporto": 1.0053233266428134
+  }
+ },
+ "Plinio a capo": {
+  "a_giunture": {
+   "im": 0.055126499613140645,
+   "nullo": 0.013878530458691562,
+   "eccesso": 0.04124796915444908,
+   "z": 52.056578564931876,
+   "n": 21684
+  },
+  "b_A": 1.0022423586029228,
+  "c_ripetizione": {
+   "coppie_identiche": 16,
+   "attese": 128.62,
+   "rapporto": 0.12439744985227802
+  }
+ },
+ "Polygraphia III, PIII_10_columns": {
+  "a_giunture": {
+   "im": 0.0014631858079949822,
+   "nullo": 0.0012960120430656774,
+   "eccesso": 0.00016717376492930485,
+   "z": 0.7648148843916408,
+   "n": 43975
+  },
+  "b_A": 1.0122559197757317,
+  "c_ripetizione": {
+   "coppie_identiche": 208,
+   "attese": 371.93,
+   "rapporto": 0.5592450192240476
+  }
+ },
+ "Polygraphia III, PIII_24_columns": {
+  "a_giunture": {
+   "im": 0.0019942099550389614,
+   "nullo": 0.0021201369018214633,
+   "eccesso": -0.00012592694678250195,
+   "z": -0.4610396023029028,
+   "n": 43949
+  },
+  "b_A": 1.0174620443655396,
+  "c_ripetizione": {
+   "coppie_identiche": 89,
+   "attese": 175.24,
+   "rapporto": 0.5078749144031043
+  }
+ },
+ "Polygraphia III, PIII_all_columns": {
+  "a_giunture": {
+   "im": 0.005501369130579192,
+   "nullo": 0.005122388937736293,
+   "eccesso": 0.0003789801928428989,
+   "z": 0.9567852840707548,
+   "n": 43916
+  },
+  "b_A": 1.0053271043385534,
+  "c_ripetizione": {
+   "coppie_identiche": 12,
+   "attese": 33.985,
+   "rapporto": 0.3530969545387671
+  }
+ },
+ "esiti": {
+  "PIII_10_columns": {
+   "a": false,
+   "b": false,
+   "c": true
+  },
+  "PIII_24_columns": {
+   "a": false,
+   "b": false,
+   "c": true
+  },
+  "PIII_all_columns": {
+   "a": false,
+   "b": false,
+   "c": false
+  }
+ },
+ "compatibile": false
+}
