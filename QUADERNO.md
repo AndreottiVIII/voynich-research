@@ -4278,3 +4278,27 @@ sequenza.
   - Nel Voynich parole nuove e omogeneità convivono. Le parole nuove sono quindi **vicine alle parole
     della stessa pagina** (varianti locali), non incroci qualsiasi del vocabolario.
   - La prossima versione del generatore dovrebbe incrociare solo con parole **della stessa pagina**.
+
+## 2/10/2026 — e180: un tema di pagina tiene la pagina e porta l'accordo nella riga al livello del Voynich
+
+- **Metodo.** Preregistrato. Generatore e153 con tema estratto a inizio pagina e mantenuto per tutta
+  la pagina (c = 1), θ {0,3; 0,5} × k {3; 8}. Tre semi.
+- **Risultati** (Voynich: T3 grezzo −0,5, T4 ripulito −4,0):
+
+  | θ, k | pagella | T3 grezzo | T4 ripulito | pagina e T3 |
+  |---|---|---|---|---|
+  | 0,3, 3 | **10/18** | **1,1** | 6,1 | sì |
+  | 0,3, 8 | 8/18 | 1,4 | 4,7 | no |
+  | 0,5, 3 | 9/18 | 0,8 | 6,5 | sì |
+  | 0,5, 8 | **10/18** | **0,9** | 7,0 | sì |
+
+- **Esito per regola:** "corregge l'accordo" no, perché T4 ripulito resta positivo. "Pagina e T3" sì per
+  tre combinazioni su quattro.
+- **Lettura.**
+  - La previsione dell'e169 è confermata: **il tema è di pagina, non di riga.** Con un tema fisso per
+    la pagina, la pagella resta a 10/18 come nell'e153 e l'accordo dentro la riga scende da 5,0 a
+    circa 1, vicino al Voynich.
+  - Un argomento di pagina è compatibile con il Voynich. Un argomento di riga no.
+  - **Resta T4 ripulito** (parole adiacenti più legate del caso), da capire.
+  - Mancano ancora h2, tipi, legame, unioni, Zipf, verticale, formule e bordo di riga.
+- **Nuovo riferimento per il generatore:** e153 con tema di pagina (θ 0,3, k 3).
