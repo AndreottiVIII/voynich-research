@@ -4146,3 +4146,27 @@ sequenza.
     scrittura**: i fascicoli tengono insieme bifogli scritti vicini.
   - Il confronto fra i due ordini ha poca forza perché condividono molte adiacenze.
   - **Test giusto (e179):** solo le adiacenze in cui i due ordini differiscono.
+
+## 2/10/2026 — e179: sulle adiacenze in disaccordo le misure fisiche non scelgono fra i due ordini
+
+- **Metodo.** Preregistrato.
+  - Solo le coppie consecutive in uno dei due ordini ma non nell'altro: 31 solo nel ricostruito (R),
+    31 solo nella rilegatura (B).
+  - Distanza fisica su spaziatura, passo di riga e scuro, standardizzati nel gruppo.
+  - 5.000 rimescolamenti delle etichette dentro i gruppi.
+- **Risultati:**
+  - media B − media R = +0,201, nel verso del ricostruito;
+  - p 0,21 per il ricostruito, p 0,80 per la rilegatura;
+  - per misura: spaziatura −0,04, passo di riga +0,29, scuro +0,05.
+- **Esito per regola: nessuna preferenza.**
+- **Lettura.**
+  - Con 31 coppie per parte il test ha poca forza. Il verso è quello dell'ordine ricostruito, e viene
+    quasi tutto dal passo di riga, come già nell'e161.
+  - Le misure fisiche dalle immagini (scuro, spaziatura, passo) dicono che **entrambi** gli ordini
+    conservano vicinanze di scrittura (e170, e178), ma non sanno scegliere fra i due.
+  - **Stato della ricostruzione per il white paper:**
+    - confermata dalla grafia (e154b, forte);
+    - debolmente dal passo di riga (e161);
+    - non dalle altre misure fisiche (e170, e178, e179).
+    
+    Va presentata come ipotesi sostenuta dal testo, non dalla fisica.
