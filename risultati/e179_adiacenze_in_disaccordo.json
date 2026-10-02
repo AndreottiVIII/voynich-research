@@ -1,0 +1,19 @@
+{
+ "unita": 49,
+ "gruppi": {
+  "1/A": 27,
+  "2/B": 11,
+  "3/B": 7
+ },
+ "archi_R": 31,
+ "archi_B": 31,
+ "statistica": 0.20143066563243206,
+ "p_ricostruito": 0.20515896820635873,
+ "p_rilegatura": 0.7950409918016397,
+ "per_misura": {
+  "spaziatura": -0.0385180718578908,
+  "passo di riga": 0.28842691930111997,
+  "scuro": 0.04955449067541817
+ },
+ "esito": "nessuna preferenza"
+}
