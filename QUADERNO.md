@@ -3852,3 +3852,23 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
     Voynich nessuna chiave si avvicina a quel livello.
   - **Cheshire chiuso:** stessa conclusione di Bax (e133). Una chiave che lascia libera la ricerca
     in nove lingue produce "letture" per costruzione.
+
+## 2/10/2026 — Ordine ricostruito dei bifogli: tabella descrittiva, e perché non aggiungo un test "a lunga distanza"
+
+- **Fatto.** `analisi/ricostruzione_bifogli.py` scrive `risultati/ricostruzione_bifogli.md`: l'ordine
+  ricostruito (procedimento dell'e154b) per i tre gruppi di mano e lingua, con sezione, rango nella
+  rilegatura e somiglianza con l'unità successiva. È descrittivo e il verso non è determinato.
+- **Prove che sostengono l'ordine:**
+  - e148: i fogli coniugati si somigliano;
+  - e150 ed e150b: l'ordine si ricostruisce su dati non usati;
+  - e154b: le abitudini di grafia confermano l'ordine (forte, p < 0,001);
+  - e161: lo conferma anche il passo di riga (debole, p 0,039, non regge la correzione per due misure).
+- **Scartato:** un test di "deriva a lunga distanza" nell'ordine ricostruito. Un percorso costruito
+  cercando vicini simili produce comunque differenze che crescono con la distanza, anche senza una
+  vera cronologia, perché vocabolario e grafia sono correlati. Il test non distinguerebbe niente.
+  Servono conferme indipendenti dal vocabolario, come la grafia e la fisica.
+- **Lettura della tabella** (descrittiva):
+  - nel gruppo 1/A le unità farmaceutiche (f88–f102) finiscono vicine fra loro e accanto a f87–f90 e
+    f93–f96, erbario di fascicoli tardi;
+  - nel gruppo 2/B le unità balneologiche (f75–f84) formano un blocco compatto, con somiglianze
+    0,85–0,95.
