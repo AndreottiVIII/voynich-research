@@ -62,7 +62,8 @@ prima del white paper, in particolare su voynich.ninja e negli atti di Malta 202
    (e161). La codicologia sapeva dei rimescolamenti; somiglianze di vocabolario fra fogli erano state
    calcolate (voynichattacks 2010, raggruppamenti per lingua e sezione), ma non il confronto fra fogli
    coniugati né una ricostruzione validata così.
-10. **Verifica sistematica con chiavi casuali delle letture di Bax e Vatne** (e133): la chiave di Bax
+10. **Verifica sistematica con chiavi casuali delle letture di Bax, Vatne e Cheshire** (e133, e163, e163b; per Cheshire: chiavi
+    ottimizzate della stessa forma fanno meglio della sua, 0,35 contro 0,23): la chiave di Bax
     non batte il caso fuori campione; le sue parole ricorrenti stanno dappertutto; i "nomi" di Vatne
     ricorrono come qualsiasi prima parola. Le critiche esistevano; il test quantitativo no.
 11. **Le etichette sono un lessico a sé marcato da o-** (59% contro 21% nel testo; zodiaco 76%), non
@@ -80,11 +81,19 @@ prima del white paper, in particolare su voynich.ninja e negli atti di Malta 202
   Altri spunti da lì:
   - Farrugia e altri (paper5) riconoscono gli scribi pagina per pagina dagli n-grammi di segni. Le
     nostre abitudini di grafia su poche righe non bastano (e157).
-  - Hermes (paper7) mostra che la *Polygraphia III* di Tritemio, usata a caso, imita il Voynich: è
-    un generatore da provare sulle regole di riga, come Naibbe ed e134.
+  - Hermes (paper7) mostra che la *Polygraphia III* di Tritemio, usata a caso, imita il Voynich. Provata
+    (e167): non ha il legame fra parole vicine (0,0002 bit contro 0,19) né l'alternanza A.
   - Boxer (paper1) trova ripetizioni immediate (epizeusi) simili all'enochiano di Dee e Kelley, ma una
     curva degli hapax diversa.
-- Voynich Day 2023–2025 (non ancora visti).
+- Voynich Day 2024 (titoli e discussioni; i video non sono stati visti):
+  - Tavie, "Reducing the noise" (andamenti di riga, già citato);
+  - Feaster, "The Qokeedy and Choldaiin Loops": cicli di transizioni fra segni che producono le parole più
+    comuni di B e di A; tocca il generatore di parole, non i 12 punti;
+  - Emma May Smith, "Feature Patterns in the Voynich Manuscript": **da vedere**, per il punto 3 (scelte per riga);
+  - nel thread 4343 Stolfi propone che le anomalie di inizio e fine riga nascano dall'algoritmo di a capo
+    (parole lunghe all'inizio, corte alla fine). Le nostre e141 ed e147 vanno contro: le regole d'inizio valgono
+    anche dopo righe accorciate, e il testo non si adatta allo spazio.
+- Voynich Day 2023 e 2025: non trovati riassunti scritti.
 - Davis, *The Materiality of the Voynich Manuscript* (2025), per il punto 9.
 
 ## Fonti consultate
