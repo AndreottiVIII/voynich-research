@@ -3713,3 +3713,22 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
     pagina per pagina**, come un erbario con una pianta per pagina.
   - **Prossimo test (e162b):** temi da un testo latino a voci, una voce per pagina. Si guarda se
     torna la pagella e se il messaggio resta invisibile.
+
+## 2/10/2026 — e157: le abitudini di grafia non riconoscono un cambio di scriba (metodo non valido)
+
+- **Metodo.** Preregistrato.
+  - Salto massimo delle cinque preferenze di grafia fra due blocchi di righe della pagina, contro 500
+    rimescolamenti delle righe.
+  - Taratura su pagine cucite (7 + 7 righe).
+- **Taratura:** cuciture fra **mani diverse** rilevate nell'**8%** dei casi, fra **stessa mano** nel 10%.
+  - **Metodo valido: no.** Servivano almeno il 50%, e il doppio della stessa mano.
+- **Lettura.**
+  - Le preferenze di grafia riga per riga sono quasi tutte variazione **dentro** la mano: il salto
+    fra due pagine della stessa mano è grande quanto quello fra due mani.
+  - Concorda con l'e130 (gli andamenti di riga sono condivisi dalle mani) e con l'e146 (ripartenza a
+    ogni pagina).
+  - Le 7 pagine vere con p < 0,01 (f1r, f3r, f31r, f36v, f83r, f107v, f114v; f115r no, p 0,23) **non si
+    interpretano** come cambi di scriba.
+  - Tre hanno il taglio a 4 righe dalla fine di pagine lunghe (f83r, f107v, f114v): forse un effetto
+    di fine pagina, da non leggere oltre.
+- **Strada 3 (cambi di scriba): chiusa** con questi strumenti. Per le mani resta la paleografia (Davis).

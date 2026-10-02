@@ -1,0 +1,9 @@
+taratura: mani diverse 0.08, stessa mano 0.10 | valido False
+pagine vere 167, candidate (p<0,01) 7 (4.2%) | f115r: OrderedDict({'righe': 45, 'statistica': 35.351597932309524, 'taglio': 16, 'p': 0.2275449101796407})
+   f1r: righe 28, taglio dopo la riga 13, p 0.0100
+   f3r: righe 20, taglio dopo la riga 4, p 0.0020
+   f31r: righe 16, taglio dopo la riga 8, p 0.0080
+   f36v: righe 14, taglio dopo la riga 7, p 0.0020
+   f83r: righe 51, taglio dopo la riga 47, p 0.0020
+   f107v: righe 49, taglio dopo la riga 45, p 0.0040
+   f114v: righe 41, taglio dopo la riga 37, p 0.0020

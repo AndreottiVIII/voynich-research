@@ -1,0 +1,59 @@
+{
+ "taratura": {
+  "rilevate_mani_diverse": 0.08,
+  "rilevate_stessa_mano": 0.1,
+  "valido": false
+ },
+ "pagine_vere": 167,
+ "candidate": {
+  "f1r": {
+   "righe": 28,
+   "statistica": 79.9759949763762,
+   "taglio": 13,
+   "p": 0.00998003992015968
+  },
+  "f3r": {
+   "righe": 20,
+   "statistica": 88.60550014764317,
+   "taglio": 4,
+   "p": 0.001996007984031936
+  },
+  "f31r": {
+   "righe": 16,
+   "statistica": 67.17294427286991,
+   "taglio": 8,
+   "p": 0.007984031936127744
+  },
+  "f36v": {
+   "righe": 14,
+   "statistica": 115.63040611032432,
+   "taglio": 7,
+   "p": 0.001996007984031936
+  },
+  "f83r": {
+   "righe": 51,
+   "statistica": 296.9541562061147,
+   "taglio": 47,
+   "p": 0.001996007984031936
+  },
+  "f107v": {
+   "righe": 49,
+   "statistica": 125.64923304819737,
+   "taglio": 45,
+   "p": 0.003992015968063872
+  },
+  "f114v": {
+   "righe": 41,
+   "statistica": 153.16305435807305,
+   "taglio": 37,
+   "p": 0.001996007984031936
+  }
+ },
+ "quota_candidate": 0.041916167664670656,
+ "f115r": {
+  "righe": 45,
+  "statistica": 35.351597932309524,
+  "taglio": 16,
+  "p": 0.2275449101796407
+ }
+}
