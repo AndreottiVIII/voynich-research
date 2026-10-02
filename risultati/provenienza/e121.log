@@ -1,0 +1,16 @@
+seme 19 base                           13/18 | R 0.01 S1 1.12 copia 1.26/1.23 e94 1.03 A 0.805 | h2 2.19 rip 1.35 omog 0.037 tipi 0.187
+seme 19 senza catena                   13/18 | R 0.04 S1 1.08 copia 1.21/1.11 e94 0.94 A 0.918 | h2 2.28 rip 1.33 omog 0.036 tipi 0.192
+seme 19 base + regole di riga          12/18 | R 0.03 S1 0.65 copia 0.35/1.23 e94 1.10 A 0.807 | h2 2.21 rip 1.35 omog 0.036 tipi 0.188
+seme 19 senza catena + regole di riga  12/18 | R 0.04 S1 0.65 copia 0.39/1.11 e94 1.01 A 0.915 | h2 2.31 rip 1.34 omog 0.037 tipi 0.193
+seme  1 base                           12/18 | R 0.04 S1 1.04 copia 1.38/1.16 e94 1.07 A 0.862 | h2 2.28 rip 1.14 omog 0.058 tipi 0.182
+seme  1 senza catena                   13/18 | R 0.01 S1 0.99 copia 1.42/1.11 e94 1.03 A 0.894 | h2 2.30 rip 1.38 omog 0.050 tipi 0.207
+seme  1 base + regole di riga          10/18 | R 0.03 S1 0.68 copia 0.37/1.16 e94 1.10 A 0.859 | h2 2.31 rip 1.17 omog 0.059 tipi 0.179
+seme  1 senza catena + regole di riga  12/18 | R -0.01 S1 0.69 copia 0.34/1.11 e94 1.14 A 0.892 | h2 2.33 rip 1.41 omog 0.049 tipi 0.206
+seme  2 base                           12/18 | R 0.02 S1 1.01 copia 1.28/1.18 e94 1.02 A 0.845 | h2 2.26 rip 1.37 omog 0.060 tipi 0.189
+seme  2 senza catena                   12/18 | R 0.01 S1 0.99 copia 1.19/1.02 e94 1.06 A 0.868 | h2 2.13 rip 1.20 omog 0.030 tipi 0.199
+seme  2 base + regole di riga          11/18 | R 0.03 S1 0.65 copia 0.44/1.18 e94 1.10 A 0.843 | h2 2.29 rip 1.42 omog 0.058 tipi 0.189
+seme  2 senza catena + regole di riga  10/18 | R 0.01 S1 0.64 copia 0.44/1.02 e94 1.18 A 0.869 | h2 2.15 rip 1.21 omog 0.029 tipi 0.198
+base                           13/18 | R 0.02 S1 1.06 copia 1.31/1.19 e94 1.04 A 0.837 | completo False | mancano: ripetizione, omogeneità, profilo pagina, forma parole, formule
+senza catena                   13/18 | R 0.02 S1 1.02 copia 1.27/1.08 e94 1.01 A 0.893 | completo False | mancano: ripetizione, gradiente, profilo pagina, forma parole, formule
+base + regole di riga          10/18 | R 0.03 S1 0.66 copia 0.39/1.19 e94 1.10 A 0.837 | completo False | mancano: ripetizione, omogeneità, unioni, profilo pagina, lunghezze vicine, forma parole, formule, bordo di riga
+senza catena + regole di riga  12/18 | R 0.01 S1 0.66 copia 0.39/1.08 e94 1.11 A 0.892 | completo False | mancano: ripetizione, gradiente, profilo pagina, forma parole, formule, bordo di riga
