@@ -1,0 +1,28 @@
+{
+ "occorrenze": 56850,
+ "righe_con_scelte": 4118,
+ "Voynich": {
+  "bit_per_occorrenza": {
+   "M0": 0.9454615869388042,
+   "M1": 0.8738317725911102,
+   "M2": 0.8656998917232726
+  },
+  "migliore": 0.8656998917232726,
+  "bit_per_riga": 11.951199330856737,
+  "bit_totali": 49215.03884446804,
+  "lettere_latino_compresso": 24607.51942223402,
+  "lettere_latino_grezzo": 12003.668010845866
+ },
+ "canale pieno (Bacone, e181)": {
+  "bit_per_occorrenza": {
+   "M0": 0.9338411934258711,
+   "M1": 0.9397876268806262,
+   "M2": 0.9458949528938237
+  },
+  "migliore": 0.9338411934258711,
+  "bit_per_riga": 12.891906713516457,
+  "bit_totali": 53088.87184626077,
+  "lettere_latino_compresso": 26544.435923130386,
+  "lettere_latino_grezzo": 12948.505328356287
+ }
+}
