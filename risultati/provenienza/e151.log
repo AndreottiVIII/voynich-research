@@ -1,0 +1,4 @@
+Voynich, ricette (S)           voci  289 | primi 2: 0.146 vs 0.132 (x1.10, z 0.8) | primo: 0.299 vs 0.299 (x1.00, z -0.0)
+Voynich, erbario (H)           voci  234 | primi 2: 0.073 vs 0.083 (x0.88, z -0.8) | primo: 0.232 vs 0.254 (x0.91, z -1.3)
+controllo positivo: Alphita    voci 1727 | primi 2: 0.458 vs 0.312 (x1.47, z 20.6) | primo: 0.654 vs 0.590 (x1.11, z 11.2)
+controllo valido: True | ordine da glossario: False

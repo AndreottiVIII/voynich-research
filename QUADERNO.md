@@ -3360,3 +3360,18 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
     lavoro: una deriva lenta, non una copia della parola precedente.
   - Va con l'e148 (bifogli scritti come unità) e l'e141 (righe composte sul posto).
   - Questi valori fissano i parametri del generatore e145.
+
+## 2/10/2026 — e151: le ricette non sono in ordine da glossario
+
+- **Metodo.** Preregistrato. Spunto da r/voynich ("Quire 20 might be a glossary").
+  - Prefissi condivisi fra le prime parole di paragrafi consecutivi (gallow iniziale tolto), contro il
+    rimescolamento dei paragrafi nella pagina.
+  - Controllo positivo: i lemmi dell'*Alphita*, glossario alfabetico.
+- **Risultati** (primi 2 segni):
+  - ricette (S): 0,146 contro 0,132 (×1,10, z 0,8);
+  - erbario: ×0,88 (z −0,8);
+  - *Alphita*: 0,458 contro 0,312 (×1,47, z 20,6).
+- **Esito: nessun ordine alfabetico** né di altro tipo per prefisso nei paragrafi delle ricette, con un
+  controllo molto sensibile.
+- **Lettura.** I paragrafi stellati non sono le voci di un elenco ordinato. È coerente con l'e132:
+  le prime parole dei paragrafi sono spesso uniche ma non si comportano da lemmi.
