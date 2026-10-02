@@ -1,0 +1,294 @@
+{
+ "tabella": {
+  "1": {
+   "bordo d'inizio": {
+    "stima": 13.587680650152441,
+    "intervallo": [
+     11.757818262060129,
+     16.184204085243362
+    ],
+    "lato_Voynich": true
+   },
+   "S(1)": {
+    "stima": 0.36082474226804123,
+    "intervallo": [
+     0.2843332385555872,
+     0.4360551938354937
+    ],
+    "lato_Voynich": true
+   },
+   "accordo a distanza 2": {
+    "stima": -0.020418431559264982,
+    "intervallo": [
+     0.07417288551776213,
+     0.12861329283029493
+    ],
+    "lato_Voynich": true
+   },
+   "lunghezze vicine": {
+    "stima": 0.05220769123412495,
+    "intervallo": [
+     0.03502928466342931,
+     0.06643033590939619
+    ],
+    "lato_Voynich": true
+   },
+   "ripetizione immediata": {
+    "stima": 1.0660486674391656,
+    "intervallo": [
+     0.8999532491818606,
+     1.1976047904191618
+    ],
+    "lato_Voynich": true
+   },
+   "alternanza A": {
+    "stima": 1.011372123554119,
+    "intervallo": [
+     0.9807943561936086,
+     1.0380131210957861
+    ],
+    "lato_Voynich": false
+   },
+   "chiusura R": {
+    "stima": -0.026583885516073186,
+    "intervallo": [
+     0.16497094444491636,
+     0.4306743112178633
+    ],
+    "lato_Voynich": true
+   },
+   "quota sh per riga": {
+    "stima": 1.1537414553774057,
+    "intervallo": [
+     1.0835960164714213,
+     1.2029435248555362
+    ],
+    "lato_Voynich": null
+   }
+  },
+  "2": {
+   "bordo d'inizio": {
+    "stima": 30.793261517609213,
+    "intervallo": [
+     27.55675777888927,
+     38.135881804588536
+    ],
+    "lato_Voynich": true
+   },
+   "S(1)": {
+    "stima": 0.5379442843419788,
+    "intervallo": [
+     0.45804440486036013,
+     0.6119772694157074
+    ],
+    "lato_Voynich": true
+   },
+   "accordo a distanza 2": {
+    "stima": -0.004817868713389073,
+    "intervallo": [
+     0.0418880156143,
+     0.08381329001735272
+    ],
+    "lato_Voynich": true
+   },
+   "lunghezze vicine": {
+    "stima": 0.07424901393008713,
+    "intervallo": [
+     0.05192344032884325,
+     0.08582883851662906
+    ],
+    "lato_Voynich": true
+   },
+   "ripetizione immediata": {
+    "stima": 0.8923742563547865,
+    "intervallo": [
+     0.7960644007155634,
+     0.9539410291000193
+    ],
+    "lato_Voynich": true
+   },
+   "alternanza A": {
+    "stima": 1.0895434493832683,
+    "intervallo": [
+     1.056690768134275,
+     1.1193076781045128
+    ],
+    "lato_Voynich": true
+   },
+   "chiusura R": {
+    "stima": 0.05698925277403162,
+    "intervallo": [
+     0.1642930026724728,
+     0.34086580126176375
+    ],
+    "lato_Voynich": true
+   },
+   "quota sh per riga": {
+    "stima": 1.1312284840176674,
+    "intervallo": [
+     1.0688772164739206,
+     1.1876321508800634
+    ],
+    "lato_Voynich": null
+   }
+  },
+  "3": {
+   "bordo d'inizio": {
+    "stima": 20.949654265388023,
+    "intervallo": [
+     18.788204140219385,
+     27.215833341300982
+    ],
+    "lato_Voynich": true
+   },
+   "S(1)": {
+    "stima": 0.7032416550262511,
+    "intervallo": [
+     0.5436820397450318,
+     0.7890152679577827
+    ],
+    "lato_Voynich": true
+   },
+   "accordo a distanza 2": {
+    "stima": -0.0034491842825788988,
+    "intervallo": [
+     0.04126579281348092,
+     0.1035906996095588
+    ],
+    "lato_Voynich": true
+   },
+   "lunghezze vicine": {
+    "stima": 0.08723869399180124,
+    "intervallo": [
+     0.07223832051551646,
+     0.10598605960243135
+    ],
+    "lato_Voynich": true
+   },
+   "ripetizione immediata": {
+    "stima": 1.1341896693085545,
+    "intervallo": [
+     0.9498295177788602,
+     1.349527665317139
+    ],
+    "lato_Voynich": true
+   },
+   "alternanza A": {
+    "stima": 1.0247347279615178,
+    "intervallo": [
+     0.9931590668451155,
+     1.0468474527041693
+    ],
+    "lato_Voynich": false
+   },
+   "chiusura R": {
+    "stima": -0.0018362601475411784,
+    "intervallo": [
+     0.0903367897429044,
+     0.3632718306752255
+    ],
+    "lato_Voynich": true
+   },
+   "quota sh per riga": {
+    "stima": 1.1352983112168133,
+    "intervallo": [
+     1.0902132649373222,
+     1.1942633249457952
+    ],
+    "lato_Voynich": null
+   }
+  },
+  "4": {
+   "bordo d'inizio": {
+    "stima": 3.547282368011587,
+    "intervallo": null,
+    "lato_Voynich": false
+   },
+   "S(1)": {
+    "stima": 0.5535055350553505,
+    "intervallo": null,
+    "lato_Voynich": true
+   },
+   "accordo a distanza 2": {
+    "stima": -0.020219991113269442,
+    "intervallo": null,
+    "lato_Voynich": true
+   },
+   "lunghezze vicine": {
+    "stima": 0.04349145816840499,
+    "intervallo": null,
+    "lato_Voynich": true
+   },
+   "ripetizione immediata": {
+    "stima": 1.1560693641618496,
+    "intervallo": null,
+    "lato_Voynich": true
+   },
+   "alternanza A": {
+    "stima": 1.0282101353288995,
+    "intervallo": null,
+    "lato_Voynich": false
+   },
+   "chiusura R": {
+    "stima": -0.45780046819942594,
+    "intervallo": null,
+    "lato_Voynich": true
+   },
+   "quota sh per riga": {
+    "stima": 1.2407585383910935,
+    "intervallo": null,
+    "lato_Voynich": null
+   }
+  },
+  "5": {
+   "bordo d'inizio": {
+    "stima": 3.6655374139292167,
+    "intervallo": null,
+    "lato_Voynich": false
+   },
+   "S(1)": {
+    "stima": 0.6915629322268326,
+    "intervallo": null,
+    "lato_Voynich": true
+   },
+   "accordo a distanza 2": {
+    "stima": -0.020891827182323963,
+    "intervallo": null,
+    "lato_Voynich": true
+   },
+   "lunghezze vicine": {
+    "stima": 0.04535189987511777,
+    "intervallo": null,
+    "lato_Voynich": true
+   },
+   "ripetizione immediata": {
+    "stima": 1.1811023622047245,
+    "intervallo": null,
+    "lato_Voynich": true
+   },
+   "alternanza A": {
+    "stima": 0.9503970394607689,
+    "intervallo": null,
+    "lato_Voynich": false
+   },
+   "chiusura R": {
+    "stima": -0.50575607923034,
+    "intervallo": null,
+    "lato_Voynich": true
+   },
+   "quota sh per riga": {
+    "stima": 1.0704436773493333,
+    "intervallo": null,
+    "lato_Voynich": null
+   }
+  }
+ },
+ "esito": "in parte",
+ "differenze": [
+  "intervalli non sovrapposti: bordo d'inizio, mani 1 e 2",
+  "intervalli non sovrapposti: bordo d'inizio, mani 1 e 3",
+  "intervalli non sovrapposti: bordo d'inizio, mani 2 e 3",
+  "intervalli non sovrapposti: S(1), mani 1 e 2",
+  "intervalli non sovrapposti: S(1), mani 1 e 3"
+ ]
+}
