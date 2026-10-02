@@ -1,0 +1,27 @@
+{
+ "Voynich": {
+  "coppie": 1072,
+  "con_frequenze_diverse": 1069,
+  "quota_seconda_piu_frequente": 0.510757717492984,
+  "p_binomiale": 0.5010456836603135,
+  "hapax_prima": 0.01585820895522388,
+  "hapax_seconda": 0.022388059701492536
+ },
+ "generatore e180": {
+  "coppie": 890,
+  "con_frequenze_diverse": 877,
+  "quota_seconda_piu_frequente": 0.4903078677309008,
+  "p_binomiale": 0.589027963562497,
+  "hapax_prima": 0.04044943820224719,
+  "hapax_seconda": 0.04943820224719101
+ },
+ "Timm e Schinner (seme 19)": {
+  "coppie": 1664,
+  "con_frequenze_diverse": 1651,
+  "quota_seconda_piu_frequente": 0.5529981829194428,
+  "p_binomiale": 1.818788293513305e-05,
+  "hapax_prima": 0.016826923076923076,
+  "hapax_seconda": 0.018028846153846152
+ },
+ "esito": "nessun verso"
+}

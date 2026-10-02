@@ -1,0 +1,20 @@
+{
+ "per_mano": {
+  "1": {
+   "pagine": 95,
+   "spearman": 0.08909574468085106
+  },
+  "2": {
+   "pagine": 44,
+   "spearman": -0.2215644820295983
+  },
+  "3": {
+   "pagine": 29,
+   "spearman": 0.1394088669950739
+  }
+ },
+ "statistica": 0.016417355227593272,
+ "nullo_media": 0.00037434278072725054,
+ "p_una_coda": 0.5777111444277861,
+ "esito": "nessun miglioramento"
+}
