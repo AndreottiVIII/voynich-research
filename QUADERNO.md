@@ -4909,3 +4909,32 @@ sequenza.
     sono parole frequenti.
   - **Conseguenza per il generatore.** Le parole di base devono essere più lunghe, altrimenti la
     spezzatura accorcia troppo le parole.
+
+## 3/10/2026 — e228 ed e228b: la copia verticale segue la parola che sta fisicamente sopra (copia a vista)
+
+- **Domanda** (aperta dall'e58): la somiglianza "in verticale" viene dalla parola **materialmente sopra**
+  (copia a vista) o da quella con lo **stesso numero d'ordine** nella riga sopra (colonne logiche)?
+  - Si usano i riquadri di voynichese.com allineati alla ZL (204 pagine, 30.011 parole su 34.612).
+  - Si tengono i casi in cui le due parole differiscono: 4.341.
+- **e228, preregistrato.** Δ = sim(parola fisicamente sopra) − sim(parola di pari indice).
+  - Voynich: Δ **+0,019**, z 3,9, p 0,0002.
+  - Controlli su una base neutra (righe sopra prese da altre pagine): nullo +0,002 (p 0,58), fisico
+    +0,029, indice −0,024.
+  - Esito: **copia a vista (fisica)**.
+- **e228b, preregistrato dopo un difetto di disegno visto sui soli controlli.** Una prova rapida con un
+  altro seme aveva dato Δ +0,009 nella base neutra: la parola fisicamente sopra tende a essere più lunga
+  e la somiglianza normalizzata favorisce lunghezze simili. Il nullo dell'e228b è fatto di 200 basi
+  neutre:
+  - Δ nullo medio +0,0046;
+  - Voynich **z_Δ 3,9**;
+  - eccesso verso la parola fisicamente sopra **z_P 3,4**, verso quella di pari indice **z_I −1,2**;
+  - controlli: neutro −1,2, fisico 6,3, indice −8,0, tutti validi.
+  - Esito: **copia a vista (fisica)**.
+- **Lettura.**
+  - È la prima indicazione di **come** chi scriveva riprendeva le parole: guardando quella appena sopra
+    sulla pagina, non contando le posizioni. La traccia verticale non è una struttura a colonne logiche
+    (tabella); è un'abitudine visiva di copia.
+  - Si accorda con l'"autocitazione" di Timm e Schinner nella forma "copia ciò che vedi vicino". Si
+    accorda anche con l'e59, dove la traccia si estende a più righe sopra.
+- **Conseguenza per il generatore e il voynichizzatore.** La copia verticale va fatta per posizione
+  fisica. Senza immagini, la posizione si stima dal conteggio cumulato dei segni.
