@@ -1,0 +1,5 @@
+Voynich I1                               dentro 0.0785 (z 94) | a capo 0.0130 (z 2.8, n 3337) | R 0.17
+Voynich I1, tolto y/d/s                  dentro 0.0785 (z 91) | a capo 0.0132 (z 3.0, n 3337) | R 0.17
+Voynich F1                               dentro 0.0163 (z 23) | a capo 0.0134 (z 4.3, n 3337) | R 0.82
+controllo: latino nelle iniziali, I1     dentro 0.4809 (z 496) | a capo 0.4583 (z 79.8, n 3337) | R 0.95
+valido True | {'Voynich I1': 'composizione di riga', 'Voynich F1': 'messaggio'}
