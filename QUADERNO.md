@@ -3991,3 +3991,19 @@ sequenza.
     tale.
   - Insieme all'e166 (scelte di grafia indipendenti dalle intinte), la riga del Voynich risulta
     un'unità **di composizione**, non del gesto fisico.
+
+## 2/10/2026 — e173: dimensione della scrittura e scelte di grafia, correlazione piccola ma confusa
+
+- **Metodo.** Preregistrato.
+  - Dimensione della riga: larghezza dei riquadri per unità EVA, mediana per riga, normalizzata sulla
+    pagina.
+  - Correlazione fra |Δ dimensione| e cambio di scelta fra righe consecutive.
+- **Validità: sì.** La dimensione ha struttura fra righe consecutive (r 0,27 contro −0,01, z 11,4).
+- **Risultato:** Spearman 0,083, p 0,001 su 3.045 coppie. Esito per regola: "le scelte seguono la
+  dimensione".
+- **Controllo esplorativo, non preregistrato:** c'è un confondimento.
+  - Entrambi i cambi diminuiscono con il numero di parole della riga più corta (Spearman −0,17 e −0,16),
+    perché le righe corte danno misure rumorose.
+  - Dentro le classi di lunghezza le correlazioni sono 0,11, −0,04, 0,095 e 0,061.
+- **Lettura sospesa:** l'esito per regola non si accetta finché non lo conferma l'e173b, preregistrato
+  con il nullo dentro le classi di lunghezza.
