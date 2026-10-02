@@ -2768,3 +2768,36 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
     riga, per qualunque cifratura che conservi le terminazioni.
   - Resta coperta solo da codici che sostituiscono parole intere, o da un contenuto che non ha
     grammatica (elenchi, nomi).
+
+## 2/10/2026 — e128: la scrittura inventata da persone non ha l'inizio di riga del Voynich
+
+- **Metodo.** Preregistrato (ipotesi 3).
+  - 38 testi senza senso scritti a mano da volontari (Gaskell e Bowern 2022; 1.617 righe, 10.032
+    parole).
+  - Confrontati con 10 sottoinsiemi della stessa dimensione di Voynich, Timm e Schinner e Bibbie latina
+    e italiana.
+- **Risultati** (media dei sottoinsiemi):
+
+  | proprietà | Voynich | lingue | Timm e Schinner | testi senza senso |
+  |---|---|---|---|---|
+  | bordo d'inizio | 15,1 | 0,88 | 5,2 | **1,4** |
+  | S(1) | 0,52 | 1,04 | 1,02 | **1,11** |
+  | lunghezze vicine | 0,062 | −0,123 | −0,001 | −0,007 |
+  | ripetizione immediata | 1,02 | 0,06 | 0,74 | 0,69 |
+  | accordo a distanza 2 | −0,009 | 0,055 | −0,003 | 0,009 |
+  | A | 1,047 | 1,019 | 0,897 | 1,047 |
+  | chiusura R | 0,004 | 1,05 | 0,34 | 0,81 |
+
+  (Accordo, A e chiusura non sono discriminanti a questa dimensione.)
+- **Esito: "in parte"** (2 proprietà discriminanti su 4; Timm e Schinner 2 su 4).
+  - I testi senza senso stanno dalla parte del Voynich nelle proprietà di parola: ripetizioni
+    frequenti e lunghezze. Conferma Gaskell e Bowern.
+  - Stanno invece dalla parte delle lingue nelle due proprietà d'inizio riga.
+- **Lettura.**
+  - Le due firme d'inizio riga del Voynich, cioè il bordo forte (15 volte il nullo) e l'evitamento
+    dell'inizio della riga precedente (0,52), non si trovano:
+    - nelle lingue;
+    - nel generatore di Timm e Schinner;
+    - nella scrittura inventata spontaneamente da persone.
+  - Non nascono "da sole" scrivendo a caso. Sono una regola, applicata in modo sistematico.
+  - Limiti: testi brevi, moderni, scritti da persone che sapevano di dover inventare.
