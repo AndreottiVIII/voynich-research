@@ -3827,3 +3827,28 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
     Il tema di riga, pur debole, crea più accordo nella riga di quanto ne abbia il Voynich.
   - Sono due proprietà da aggiungere alla lista di ciò che il generatore non riproduce. Vanno
     guardate insieme al tema di riga debole misurato nell'e155 (×1,06).
+
+## 2/10/2026 — e163b: qualsiasi chiave adattata legge "romanzo" meglio di quella di Cheshire
+
+- **Metodo.** Preregistrato.
+  - 20 chiavi della stessa forma di quella di Cheshire, ottimizzate con 3.000 scambi sui fogli
+    dispari e misurate sui pari.
+  - Controllo: italiano scritto con l'inverso della chiave.
+- **Risultati** (M1 = quota di parole lette come parole del lessico, in verifica):
+
+  | testo | Cheshire | ottimizzate (mediana / max) | Cheshire ≥ 4 lettere | ottimizzate ≥ 4 (mediana / max) |
+  |---|---|---|---|---|
+  | controllo italiano (chiave vera) | 0,686 | 0,503 / 0,690 | 0,503 | 0,187 / 0,509 |
+  | Voynich | **0,233** | **0,345 / 0,374** | 0,100 | 0,137 / 0,175 |
+
+- **Validità: sì.** Nel controllo l'ottimizzazione ritrova chiavi buone quanto quella vera.
+- **Esito per regola: vantaggio spiegato dall'adattamento.** Tutte le 20 chiavi ottimizzate, la
+  peggiore a 0,292, battono quella di Cheshire, anche sulle parole lunghe.
+- **Lettura.**
+  - La chiave di Cheshire legge come parole romanze più parole del caso perché è adattata alle parole
+    frequenti del manoscritto. Una qualsiasi chiave adattata in pochi minuti fa meglio, anche su
+    pagine non usate per adattarla.
+  - Nel controllo la chiave vera è il massimo e l'ottimizzazione la raggiunge appena (0,69). Sul
+    Voynich nessuna chiave si avvicina a quel livello.
+  - **Cheshire chiuso:** stessa conclusione di Bax (e133). Una chiave che lascia libera la ricerca
+    in nove lingue produce "letture" per costruzione.
