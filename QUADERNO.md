@@ -5019,3 +5019,22 @@ sequenza.
   - Con 46 classi provate, a z > 3 ci si aspetta meno di un falso positivo.
   - **Per il voynichizzatore:** lo stato di riga deve includere anche queste scelte, oltre alle cinque
     (o un'unica "abitudine di lunghezza" per riga, se si dimostra che sono correlate: da verificare).
+
+## 3/10/2026 — e206c: le scelte di riga dell'e206b sono quasi indipendenti (legame parziale, debolissimo)
+
+- **Preregistrato.**
+  - Correlazioni fra righe dei residui di strato per le 66 coppie delle 12 classi, senza parole in
+    comune fra le due classi di una coppia.
+  - Nullo: le righe si permutano dentro la pagina, indipendentemente per classe (200 volte).
+- **Risultati:**
+  - media delle correlazioni 0,014 contro 0,001 del nullo (z 3,2, p 0,01);
+  - prima componente 10,9% contro 10,3% (z 2,1).
+  - Coppie più correlate, tutte ≤ 0,09: *y* finale / *d* interna, *e* interna / *y* finale, *d*
+    interna / *l* finale, *d* interna / *t* interna.
+- **Esito preregistrato: legame parziale.**
+- **Lettura.**
+  - Come le cinque scelte note (e185), anche queste sono in gran parte **indipendenti**. Non c'è
+    un'unica "abitudine di lunghezza" della riga.
+  - Il piccolo legame comune riguarda le terminazioni (famiglie -edy/-eey/-dy).
+  - **Per il voynichizzatore:** uno stato di riga con una dozzina di interruttori quasi indipendenti, con
+    un debole legame fra quelli delle terminazioni, invece di un unico parametro.
