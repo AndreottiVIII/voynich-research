@@ -1,0 +1,4 @@
+(1) coseno dei bigrammi, etichette             stesso segno 0.869 | altre 0.833 | p 0.309 | f70v2-f70v1 0.939 f70v1-f71r* 0.865 f71r-f71v 0.747 f71v-f72r1* 0.873 f72r1-f72r2 0.813 f72r2-f72r3 0.723 f72r3-f72v3 0.764 f72v3-f72v2 0.829 f72v2-f72v1 0.904 f72v1-f73r 0.886 f73r-f73v 0.888
+(2) Jaccard dei tipi, etichette                stesso segno 0.038 | altre 0.032 | p 0.418 | f70v2-f70v1 0.057 f70v1-f71r* 0.000 f71r-f71v 0.000 f71v-f72r1* 0.077 f72r1-f72r2 0.062 f72r2-f72r3 0.015 f72r3-f72v3 0.029 f72v3-f72v2 0.016 f72v2-f72v1 0.000 f72v1-f73r 0.036 f73r-f73v 0.075
+(3) coseno dei bigrammi, etichette + cerchi    stesso segno 0.940 | altre 0.928 | p 0.273 | f70v2-f70v1 0.947 f70v1-f71r* 0.928 f71r-f71v 0.912 f71v-f72r1* 0.951 f72r1-f72r2 0.951 f72r2-f72r3 0.899 f72r3-f72v3 0.930 f72v3-f72v2 0.967 f72v2-f72v1 0.942 f72v1-f73r 0.911 f73r-f73v 0.889
+le etichette dipendono dal segno: False
