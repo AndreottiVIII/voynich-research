@@ -1,0 +1,13 @@
+sigma 0.06, beta 0.0: U/N0 1.723 U/N1 1.168 U/N2 1.054 legame 0.160 Q 0.741 lunghezza_media 4.281 fuori ['U/N0', 'U/N1', 'U/N2', 'legame']
+sigma 0.06, beta 0.5: U/N0 1.684 U/N1 1.194 U/N2 1.082 legame 0.148 Q 0.769 lunghezza_media 4.273 fuori ['U/N0', 'U/N1', 'U/N2', 'legame', 'Q']
+sigma 0.06, beta 1.0: U/N0 1.666 U/N1 1.189 U/N2 1.074 legame 0.143 Q 0.761 lunghezza_media 4.287 fuori ['U/N0', 'U/N1', 'U/N2', 'legame', 'Q']
+sigma 0.06, beta 2.0: U/N0 1.645 U/N1 1.193 U/N2 1.074 legame 0.141 Q 0.763 lunghezza_media 4.282 fuori ['U/N0', 'U/N1', 'U/N2', 'legame', 'Q']
+sigma 0.09, beta 0.0: U/N0 1.840 U/N1 1.186 U/N2 1.063 legame 0.187 Q 0.665 lunghezza_media 4.199 fuori ['U/N1', 'U/N2']
+sigma 0.09, beta 0.5: U/N0 1.744 U/N1 1.211 U/N2 1.074 legame 0.164 Q 0.675 lunghezza_media 4.210 fuori ['U/N0', 'U/N1', 'U/N2', 'legame']
+sigma 0.09, beta 1.0: U/N0 1.717 U/N1 1.201 U/N2 1.074 legame 0.156 Q 0.700 lunghezza_media 4.215 fuori ['U/N0', 'U/N1', 'U/N2', 'legame']
+sigma 0.09, beta 2.0: U/N0 1.702 U/N1 1.198 U/N2 1.066 legame 0.158 Q 0.683 lunghezza_media 4.209 fuori ['U/N0', 'U/N1', 'U/N2', 'legame']
+sigma 0.12, beta 0.0: U/N0 1.884 U/N1 1.193 U/N2 1.056 legame 0.208 Q 0.608 lunghezza_media 4.131 fuori ['U/N1', 'U/N2', 'legame']
+sigma 0.12, beta 0.5: U/N0 1.779 U/N1 1.198 U/N2 1.065 legame 0.189 Q 0.619 lunghezza_media 4.131 fuori ['U/N1', 'U/N2']
+sigma 0.12, beta 1.0: U/N0 1.774 U/N1 1.212 U/N2 1.069 legame 0.178 Q 0.635 lunghezza_media 4.125 fuori ['U/N1', 'U/N2']
+sigma 0.12, beta 2.0: U/N0 1.797 U/N1 1.219 U/N2 1.074 legame 0.178 Q 0.613 lunghezza_media 4.128 fuori ['U/N1', 'U/N2']
+non bastano (piu' vicino sigma 0.09, beta 0.0, fuori: U/N1, U/N2)
