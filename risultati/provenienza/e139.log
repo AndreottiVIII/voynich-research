@@ -1,0 +1,5 @@
+o-: coppie  596 | quote prima 0.266 (1381) prima di paragrafo 0.064 (236) ultima 0.326 (1942) interna 0.293 (14148) | rapporto prima/interna 0.91 (nullo 0.99, z -2.2) | posizionale False | anche fuori posizione True
+y-: coppie  320 | quote prima 0.345 (1354) prima di paragrafo 0.071 (140) ultima 0.078 (1148) interna 0.066 (10795) | rapporto prima/interna 5.26 (nullo 1.21, z 42.3) | posizionale True | anche fuori posizione False
+d-: coppie  315 | quote prima 0.578 (1006) prima di paragrafo 0.346 (26) ultima 0.330 (1466) interna 0.159 (10424) | rapporto prima/interna 3.63 (nullo 1.14, z 42.0) | posizionale True | anche fuori posizione False
+s-: coppie  190 | quote prima 0.526 (699) prima di paragrafo 0.368 (19) ultima 0.099 (966) interna 0.036 (8267) | rapporto prima/interna 14.75 (nullo 1.33, z 99.9) | posizionale True | anche fuori posizione False
+tolor: [('f38r', 'tolor', 'prima di paragrafo'), ('f67r2', 'otolor', 'etichetta o testo non in paragrafo'), ('f77v', 'otolor', 'etichetta o testo non in paragrafo')]

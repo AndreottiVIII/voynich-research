@@ -3102,3 +3102,28 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
     senza regole di riga mostra più forte.
   - L'inizio di riga resta descritto come regola di evitamento della riga sopra, non come
     numerazione.
+
+## 2/10/2026 — e139: y-, d- e s- sono segni d'inizio riga; o- no
+
+- **Metodo.** Preregistrato (idea 5, dal post di r/voynich su "tolor"/"otolor").
+  - Coppie X/PX (P = o, y, d, s), con la quota di PX per posizione nella riga.
+  - Rapporto prima/interna contro 1.000 rimescolamenti dentro la riga.
+- **Risultati** (quota di PX; prima / interna; rapporto, z):
+
+  | prefisso | prima | interna | rapporto (z) |
+  |---|---|---|---|
+  | s- | 0,53 | 0,04 | **14,8** (99,9) |
+  | y- | 0,35 | 0,07 | **5,3** (42,3) |
+  | d- | 0,58 | 0,16 | **3,6** (42,0) |
+  | o- | 0,27 | 0,29 | 0,91 (−2,2) |
+
+- **Esito:**
+  - y-, d- e s- sono **posizionali**: compaiono quasi solo a inizio riga e raramente fuori posizione;
+  - o- **non** è posizionale: l'alternanza X/oX vale circa 29% ovunque, ed è più rara come prima
+    parola di paragrafo (6%).
+- **Correzione di una lettura precedente.** Nelle e72/e73 avevo scritto "segno aggiunto y, d, s o o".
+  I dati dicono che il segno d'inizio riga è y, d o s, mentre o- è un fenomeno diverso, presente in
+  tutta la riga.
+- **Su "tolor":** tolor (f38r, prima di paragrafo), otolor (f67r2 e f77v, entrambe fuori dal testo in
+  paragrafi). L'idea che o- sia un elemento che si aggiunge alle parole ovunque, non legato alla
+  posizione, è **compatibile** con i dati. Che significhi "il/la" non è verificabile con questo test.
