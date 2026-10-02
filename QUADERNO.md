@@ -3338,3 +3338,25 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
     d'inizio. Per le etichette è o-.
   - Per un contenuto, sarebbero il posto giusto per cercare nomi. Ma le prove sui nomi (e35, e122 in
     standby, e133, e144) non hanno finora trovato legami fra etichette e disegni.
+
+## 2/10/2026 — e146: le preferenze di riga derivano in 3–5 righe e ripartono a ogni pagina
+
+- **Metodo.** Preregistrato.
+  - Correlazione dei residui di riga delle cinque scelte decise per riga (e135; strati senza pagina)
+    fra righe a distanza d.
+  - Nullo dentro pagina: righe rimescolate nella pagina. Intervalli bootstrap per pagine.
+- **Risultati, Voynich** (r, z):
+  - dentro la pagina: d = 1: 0,207 (9,4); d = 2: 0,195 (7,5); d = 3: 0,169 (4,5); d = 5: 0,147 (2,0);
+    d = 10: 0,126 (0,2), cioè il livello di pagina;
+  - a cavallo di paragrafo: 0,147 contro 0,222 dentro il paragrafo (si attenua, non riparte);
+  - a cavallo di pagina: **0,095** [0,03–0,16] contro 0,207 [0,19–0,23] (riparte).
+- **Timm e Schinner:** eccesso solo a d = 1 (z 4,3) e poi piatto (copia della parola appena scritta).
+  Nessun calo fra le sue "pagine" di 29 righe (0,277), che non sono pagine vere.
+- **Esito:** deriva locale sì, ripartenza a pagina sì, ripartenza a paragrafo no.
+- **Lettura.**
+  - Le preferenze di grafia hanno una memoria di 3–5 righe, oltre al livello comune della pagina, e
+    cambiano in modo netto al cambio di pagina.
+  - Ha la forma delle abitudini di una persona che scrive in sessioni, con la pagina come unità di
+    lavoro: una deriva lenta, non una copia della parola precedente.
+  - Va con l'e148 (bifogli scritti come unità) e l'e141 (righe composte sul posto).
+  - Questi valori fissano i parametri del generatore e145.
