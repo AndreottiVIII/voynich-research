@@ -4358,3 +4358,27 @@ sequenza.
     deboli di un messaggio latino nascosto nelle iniziali (0,048 contro 0,48).
   - **Test decisivo (e186b):** un messaggio nelle iniziali continua attraverso l'a capo. I legami di
     composizione del Voynich si chiudono con la riga (e74).
+
+## 2/10/2026 — e186b: le iniziali si chiudono con la riga; le finali sembrano attraversarla (da verificare)
+
+- **Metodo.** Preregistrato. Legame fra iniziali (I1) e finali (F1) di parole consecutive, dentro la
+  riga e attraverso l'a capo. Nullo globale come nell'e74.
+- **Risultati:**
+
+  | | dentro la riga | attraverso l'a capo | R |
+  |---|---|---|---|
+  | Voynich I1 | 0,0785 (z 94) | 0,0130 (z 2,8) | 0,17 |
+  | Voynich I1, tolto y/d/s | 0,0785 (z 91) | 0,0132 (z 3,0) | 0,17 |
+  | Voynich F1 | 0,0163 (z 23) | 0,0134 (z 4,3) | 0,82 |
+  | latino nelle iniziali | 0,481 (z 496) | 0,458 (z 80) | 0,95 |
+
+- **Esito per regola:**
+  - **I1: composizione di riga.** Il legame fra iniziali si chiude con la riga. Nessun messaggio
+    nelle iniziali.
+  - **F1: "messaggio".** Il legame fra finali attraversa l'a capo.
+- **Controllo esplorativo, non preregistrato.**
+  - Le finali portano due scelte di grafia con abitudini di pagina (-l/-r, -dy/-ey, e146), e il
+    nullo dell'e186b è globale.
+  - Rimescolando dentro la pagina, l'eccesso attraverso l'a capo scende a 0,007 bit (z 1,8).
+- **L'esito "messaggio" per F1 non si accetta prima dell'e186c,** preregistrato con il nullo dentro la
+  pagina. In ogni caso la grandezza (0,013 bit) è 35 volte sotto il latino nascosto (0,46).
