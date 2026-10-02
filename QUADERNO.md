@@ -4194,3 +4194,53 @@ sequenza.
   - Il limite dice solo che lo spazio c'è, non che c'è un messaggio. Se quei bit hanno la struttura di
     un testo, lo dice l'e181 (indice di coincidenza dei gruppi).
   - Un modello delle abitudini migliore abbasserebbe il limite.
+
+## 2/10/2026 — e181: nessun messaggio "baconiano" nelle scelte di grafia
+
+- **Metodo.** Preregistrato.
+  - Indice di coincidenza dei gruppi di 5 scelte consecutive (F1, F2, F3, F5, F7, 56.850 occorrenze
+    nell'ordine di lettura), massimo sugli sfasamenti.
+  - Nullo: rimescolamento dentro riga e scelta, che conserva le abitudini.
+  - Controllo: latino nell'alfabeto di Bacon scritto sulle stesse occorrenze.
+- **Risultati** (z):
+
+  | testo | L 5 | L 4 | L 6 | L 7 |
+  |---|---|---|---|---|
+  | Voynich | **0,5** | 1,1 | 1,7 | 2,8 |
+  | Bacone puro | 250 | 6,9 | 28 | 41 |
+  | Bacone mescolato (70%) | 55 | −3,4 | 3,8 | 3,9 |
+
+- **Validità: sì. Esito per regola: assente.**
+- **Lettura.**
+  - Le scelte di grafia del Voynich non hanno la firma di un alfabeto a gruppi di 5, nemmeno se il
+    messaggio occupasse solo il 70% delle scelte: il test lo vedrebbe con z 55.
+  - Insieme all'e182, il canale **avrebbe spazio** per un trattatello, ma la struttura di un testo
+    cifrato alla Bacon **non c'è**.
+  - Restano fuori codifiche non a blocchi fissi (gruppi di lunghezza variabile, o un bit per riga
+    invece che per occorrenza). Da provare solo se c'è un motivo.
+
+## 2/10/2026 — e183: le etichette della farmacia differiscono fra vasi e frammenti, soprattutto in lunghezza
+
+- **Metodo.** Preregistrato.
+  - Informazione mutua fra forma dell'etichetta (primo e ultimo segno, lunghezza, o-) e tipo di
+    oggetto (codici di locus ZL), dentro la sezione.
+  - Nullo: rimescolamento dei tipi dentro la pagina.
+  - Contrasti: farmacia Lf 189 / Lc 36; biologica Ln 62 / Lt 47; astronomica Ls 74 / L0 39.
+- **Risultati:**
+  - **complessivo:** IM 0,810 contro 0,611, z 3,0, p 0,0025;
+  - **controllo di potenza:** z 9,1;
+  - **per contrasto:** farmacia z 5,9, biologica 1,2, astronomica 0,1;
+  - **etichette identiche:** 37 coppie, stesso tipo nel 70% contro 65% atteso.
+- **Esito per regola: le etichette dipendono dall'oggetto.** L'effetto viene però solo dalla farmacia.
+- **Esplorativo, non preregistrato:**
+  - le etichette dei vasi sono più lunghe (81% di 6+ unità contro 43%) e finiscono più spesso in -y;
+  - la quota di o- è uguale (53%).
+- **Lettura.**
+  - In farmacia vasi e frammenti di pianta hanno etichette di forma diversa. Può essere contenuto
+    (nomi di preparati più lunghi dei nomi di parti di pianta) o formato (più spazio sui vasi).
+    Questo test non distingue le due cose.
+  - Ninfe e tubi, stelle e altre etichette: nessuna differenza.
+  - Le etichette identiche non si ripetono sullo stesso tipo di oggetto più del caso, cosa che un
+    nomenclatore invece farebbe.
+  - Va controllato lo spazio disponibile: larghezza dei riquadri delle etichette e lunghezza a parità
+    di spazio.
