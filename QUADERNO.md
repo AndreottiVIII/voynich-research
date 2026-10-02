@@ -2832,3 +2832,26 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
     riusati. È la premessa di Vatne (2021) ("la prima parola della pagina d'erbario è il nome della
     pianta"): unicità sì, ma nessuna delle altre tracce di un nome.
   - La strada "lemma come appiglio" si chiude per le righe, e resta debole per i paragrafi.
+
+## 2/10/2026 — e129: griglia più ricca. Riga chiusa e A ≈ 1 sì; la somiglianza locale no
+
+- **Metodo.** Preregistrato.
+  - Tre terne di colonne riempite con parti di parole vere del Voynich.
+  - Griglia che riparte a ogni riga, spostamento di colonna con probabilità m.
+  - R ∈ {36, 72}, m ∈ {0,2; 0,5}, T ∈ {1, 4}; tre semi.
+- **Risultati:**
+  - pagella 2–5/18, proprietà di riga e di pagina 2–4/12. Migliore: R 36, m 0,5, T 4.
+  - **Ottenute:** riga chiusa (R da −0,04 a 0,11 in 6 combinazioni su 8), A ≈ 1 (0,98–1,03),
+    ripetizione e tipi.
+  - Rispetto all'e124 la ricchezza è migliorata (uniche 0,42–0,59, tipi 0,13–0,25).
+  - **Mai ottenute:** omogeneità (0,006–0,009, Voynich ~0,04), gradiente, formule, bordo di riga,
+    legame, S(1), copia ed e94. h2 resta alta (2,47–2,62).
+- **Esito: nessun avvicinamento.**
+- **Lettura.**
+  - La griglia dà la riga chiusa e l'assenza di catena, ma non la **somiglianza locale**: le parole di
+    una riga del Voynich si somigliano fra loro (omogeneità), mentre quelle della griglia no.
+  - Timm e Schinner fa l'opposto: ha la somiglianza, ma per copia a catena (A 0,84).
+  - Il Voynich ha somiglianza dentro la riga **senza** catena (A 1,04): come se ogni riga avesse un suo
+    "tema" (preferenze di segni scelte per la riga) da cui escono tutte le sue parole. È coerente con
+    la grafia ch/sh decisa per riga (e123b).
+  - Idea per un modello successivo: parametri di riga, non copia.
