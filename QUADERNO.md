@@ -4757,3 +4757,23 @@ sequenza.
     se il nome ci fosse, scritto parola per parola con una sostituzione, emergerebbe chiarissimo.
   - Restano escluse da questo test le codifiche non per lettera (codici a parole, sillabe) e i nomi
     abbreviati o in altre lingue.
+
+## 3/10/2026 — Prova di fattibilità scartata: decifrazione a parole per allineamento dei contesti
+
+- **Idea.** Allineare lo spazio delle parole del Voynich ripulito a quello di latino, italiano e
+  tedesco, senza dizionario (Artetxe e altri 2018: PPMI + SVD, inizio da profili di somiglianza,
+  Procrustes iterato con CSLS). Se il Voynich è un codice a parole, le parole usate negli stessi
+  contesti si dovrebbero allineare.
+- **Prova di fattibilità, solo sul controllo positivo, prima della preregistrazione.** Latino cifrato
+  parola per parola dell'e160: 35.000 parole, la stessa lunghezza del Voynich. Riferimento: altre
+  300.000 parole della stessa Bibbia.
+  - Inizio da profili: accuratezza @1 = 0,000.
+  - Inizio per rango di frequenza: 0,026 col solo rango, 0,004 dopo l'affinamento con i contesti.
+- **Decisione:** l'esperimento non si lancia. Con un testo lungo quanto il Voynich, l'allineamento
+  per contesti non ritrova nemmeno un codice a parole vero, nella lingua giusta e con un testo di
+  riferimento dello stesso genere.
+- **Lettura, utile per il white paper.** Un codice a parole (nomenclatore) di questa lunghezza non si
+  può rompere per sola statistica dei contesti. Come per le sillabe (e112b), servirebbe una chiave
+  esterna, cioè parole note. I tentativi con parole note dove dovevano esserci (e214, nomi dello
+  zodiaco) non hanno trovato nulla, per le sostituzioni lettera per lettera.
+- Il codice resta in `analisi/scartati/e215_allineamento_parole.py`.
