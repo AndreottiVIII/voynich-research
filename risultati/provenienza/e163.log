@@ -1,0 +1,4 @@
+Voynich fuori campione: 24894 parole lette, 282 scartate (segni fuori chiave)
+controllo italiano           M1 0.684 (casuali med 0.253 p99 0.358, p 0.0000) | M2 0.765 (casuali med 0.488 p99 0.684, p 0.000)
+Voynich fuori campione       M1 0.234 (casuali med 0.113 p99 0.197, p 0.0015) | M2 0.594 (casuali med 0.429 p99 0.627, p 0.030)
+controllo valido: True | esito: incerto

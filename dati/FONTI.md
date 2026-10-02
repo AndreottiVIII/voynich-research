@@ -104,3 +104,14 @@ Scaricati l'1/10/2026 dal clone GRETIL di ambuda-org, commit
 - Vatne, S. B. (2022), *Arranging the Voynich Plants by Name* (crackingthevoynichcipher.com), `vatne_2022_arranging.pdf`.
 - Sherwood, E. & E., *The Voynich Botanical Plant Names Decoded* (edithsherwood.com, sito non raggiungibile; copia
   web.archive.org 2020), `sherwood_anagrammi.html`.
+- Cheshire, G. E. (2019), *The Language and Writing System of MS408 (Voynich) Explained*, Romance Studies 37:1
+  (accettato per la pubblicazione, deposito dell'Università di Bristol; il deposito risponde 403, copia da
+  web.archive.org, istantanea 20230531091812). `cheshire_2019.pdf`, SHA-256
+  7cffdecd7ebfb89b91ba79eb320c9be04b7c13e34832a8b17318f9c8cc592ecd. Chiave: fig. 12 (p. 48); letture di f53r: pp. 42–44 (e163).
+- Hannig, R. (2020), tabella delle corrispondenze (p. 15), `hannig_2020.pdf`, SHA-256 86fa8e75… (vedi QUADERNO).
+- Ardıç, A., articolo sull'antico turco, `ardic_turkic.pdf`, SHA-256 5ead8ec5… (alfabeto: fig. 1b, p. 10).
+
+## Atti di Malta 2022 (CEUR-WS 3313, CC BY 4.0) — in `dati/cache/letteratura/malta2022/`, per la rassegna
+
+- paper1 Boxer, paper4 Gaskell e Bowern, paper5 Farrugia, Layfield e van der Plas, paper6 Bowern e Gaskell, più gli
+  altri scaricati per la rassegna; https://ceur-ws.org/Vol-3313/.

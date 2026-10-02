@@ -3634,3 +3634,82 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
   90+ lettere composte". Da verificare con la tabella resa come immagine. Rimandato.
 - **Cheshire (2019, "proto-romanzo")**: il PDF dell'articolo (Romance Studies 37:1) non è
   raggiungibile da qui (403, non in archivio). Rimandato.
+
+## 2/10/2026 — Ardıç e Cheshire: esito della verifica delle chiavi
+
+- **Ardıç**: la fig. 1b (p. 10), resa come immagine, dà l'alfabeto.
+  - Diversi segni hanno **più suoni**, e ci sono 90 e più "lettere composte".
+  - La corrispondenza fra i segni disegnati e l'EVA è incerta già a vista, per i segni piccoli e
+    simili fra loro.
+  - **Non è una chiave fissa verificabile:** come per Hannig, ogni parola ha molte letture. Chiuso.
+- **Cheshire**: il PDF dell'accettato (Bristol) si è trovato nell'archivio web (istantanea
+  20230531091812; SHA-256 7cffdecd…, in FONTI).
+  - **Una chiave fissa c'è:** la tabella "Symbol-Italic key" (fig. 12).
+  - **Traduzione in EVA:** dai disegni, confermata allineando le sue letture di f53r (righe 1–6) con la
+    ZL. Per esempio `kodam chocthody oty` → "la nasa éo eme ona o'ma" e `qokod` → "dolon".
+  - **Il resto del metodo è libero:** risegmenta le parole a piacere e cerca ogni pezzo in nove lingue
+    romanze più il basco, con abbreviazioni (o'ma = "o'mater").
+  - Quindi: **e163**, chiave contro chiavi casuali della stessa forma.
+- **Errore di esecuzione nell'e163, corretto:** la pagina `fRos` (le rosette) non ha numero di foglio e
+  faceva fallire il filtro delle pagine. È esclusa, come già detto nella preregistrazione (f67–f86).
+  Commit a parte.
+
+## 2/10/2026 — e163: la chiave di Cheshire batte le chiavi casuali, ma solo in parte
+
+- **Metodo.** Preregistrato.
+  - **Lessico:** l'unione dei vocabolari biblici di latino, italiano, portoghese, rumeno, spagnolo,
+    francese e basco.
+  - **Testo:** il Voynich fuori campione, cioè senza le pagine che lui traduce; 24.894 parole.
+  - **Nullo:** chiavi casuali con la stessa forma, uscite rimescolate fra vocali e fra consonanti.
+  - **Misure:** M1 per le parole intere, M2 per le parole risegmentabili.
+- **Risultati:**
+
+  | testo | M1 Cheshire | M1 casuali (mediana / 99°) | M2 Cheshire | M2 casuali (mediana / 99°) |
+  |---|---|---|---|---|
+  | controllo: italiano vero, scritto con l'inverso della chiave | 0,684 | 0,253 / 0,358 | 0,765 | 0,488 / 0,684 |
+  | Voynich fuori campione | **0,234** | 0,113 / 0,197 (p 0,0015) | **0,594** | 0,429 / 0,627 (p 0,03) |
+
+- **Controllo valido.** **Esito per regola: incerto.** M1 è sopra il 99° percentile, M2 fra il 95° e il
+  99°.
+- **Analisi esplorativa, non preregistrata.**
+  - Il vantaggio viene da poche parole frequenti: le prime 15 fanno il 54% dei riscontri. Per esempio
+    `daiin`→"naus", `ol`→"or", `ar`→"as", `or`→"os", `dar`→"nas", `chor`→"eos", `qokol`→"dolor".
+  - Sulle parole lette di 3–4 lettere la chiave resta sopra tutte le chiavi casuali (≥ 4 lettere:
+    0,102 contro 0,017 di mediana). Da 5 lettere in su il vantaggio sparisce (0,017 contro un 99°
+    percentile di 0,030).
+- **Lettura.**
+  - Una chiave **scelta guardando il manoscritto** fa leggere come parole le parole frequenti e corte:
+    è ciò che ci si aspetta da una chiave adattata, non necessariamente da una chiave giusta.
+  - Il nullo preregistrato (chiavi casuali) non tiene conto dell'adattamento. Anche la scelta "fuori
+    campione" non basta, perché Cheshire conosceva tutto il manoscritto.
+  - Il confronto giusto è con chiavi **ottimizzate** allo stesso modo: e163b.
+  - Sul controllo italiano la chiave vera arriva a 0,68. Sul Voynich Cheshire arriva a 0,23, e le
+    parole lunghe non tornano.
+
+## 2/10/2026 — e162: un messaggio nei temi di riga è invisibile ai test di struttura, ma rompe la pagina
+
+- **Metodo.** Preregistrato.
+  - Generatore e153 con i temi di riga presi da un flusso di latino codificato parola per parola (3
+    parole per riga), contro temi a caso dalla pagina.
+  - Tre semi.
+- **Risultati:**
+
+  | generatore | pagella | S(1) | A | scelte | r | T3 grezzo | T4 grezzo | T3 ripulito | T4 ripulito |
+  |---|---|---|---|---|---|---|---|---|---|
+  | temi dal messaggio | 4/18 | 0,60 | 1,009 | 5 | 0,158 | 6,9 | −4,0 | 4,9 | 8,4 |
+  | temi a caso (e153) | 10/18 | 0,66 | 1,011 | 5 | 0,169 | 5,0 | −8,5 | 3,0 | 6,3 |
+
+- **Esito per regola:**
+  - **(a) Riga riprodotta col messaggio: sì.**
+  - **(b) Messaggio visibile ai test di struttura: no.** Nessuna misura supera di 3 il riferimento; la
+    più vicina è T4 ripulito, +2,1.
+- **Lettura.**
+  - **Le regole di riga e i test di struttura dell'e160** non escludono un messaggio nascosto così:
+    l'involucro di riga e la scelta a caso fra tema e pagina (θ 0,3) lo diluiscono troppo.
+  - **Però, non preregistrato:** col messaggio la pagella scende da 10 a 4 su 18. Cadono omogeneità,
+    curva piatta, deriva, profilo di pagina, lunghezze vicine e formule. Un flusso di testo che corre
+    da una pagina all'altra toglie alle pagine il loro vocabolario proprio, che invece il Voynich ha.
+  - Un messaggio nei temi sarebbe compatibile solo se **il testo in chiaro cambiasse argomento
+    pagina per pagina**, come un erbario con una pianta per pagina.
+  - **Prossimo test (e162b):** temi da un testo latino a voci, una voce per pagina. Si guarda se
+    torna la pagella e se il messaggio resta invisibile.
