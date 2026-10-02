@@ -3009,3 +3009,22 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
      quanto misurato nell'e132 (prime parole dei paragrafi uniche al 31% contro 14%).
   5. **"Margine destro perfetto anche dopo le illustrazioni"** (2025): richiede misure sulle
      immagini. È coerente con la riga chiusa, perché il testo si adatta alla riga. Annotata.
+
+## 2/10/2026 — e136: le righe non rimano
+
+- **Metodo.** Preregistrato (idea 2).
+  - Fine di riga = ultimi 2 segni.
+  - Si confrontano le fini della riga i e della riga i + k (k = 1–4) nello stesso paragrafo, contro
+    1.000 rimescolamenti dell'ordine delle righe nel paragrafo.
+  - Il file della *Commedia* contiene il poema due volte: i canti duplicati sono stati tolti prima di
+    eseguire, e la preregistrazione è stata aggiornata nello stesso commit.
+- **Risultati** (z a k = 1 / 2 / 3 / 4):
+  - Voynich ZL: 0,3 / 0,6 / 0,7 / −1,1;
+  - Voynich IT: 0,8 / 1,0 / 0,3 / −0,7;
+  - Dante (terza rima): 27 / **617** (fini identiche ×15,6) / 66 / 217;
+  - Ovidio, *Macer*, Timm e Schinner: tutti sotto 2,5.
+- **Esito: nessuna rima**, con un controllo enormemente sensibile.
+- **Lettura.**
+  - Le fini di righe vicine sono indipendenti fra loro come in versi senza rima, o anche di più.
+  - Insieme alla chiusura (e74) e alla catena d'inizio (e105), che guarda solo l'inizio della riga
+    sopra: la riga si lega alla precedente **soltanto** con l'evitamento dell'inizio.
