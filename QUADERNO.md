@@ -4090,3 +4090,14 @@ sequenza.
   - L'e173b non escludeva questo confondimento: **la sua lettura va sospesa.**
 - **Test giusto (e176):** dimensione misurata solo su parole senza nessuno dei segni coinvolti nelle
   cinque scelte.
+
+## 2/10/2026 — e176: dimensione sulle parole neutre, non valida per scarsità
+
+- **Metodo.** Preregistrato. Larghezza per segno solo sulle parole senza occorrenze delle cinque
+  scelte.
+- **Risultato:**
+  - 44 pagine, 601 righe;
+  - V1 r 0,033, z 1,6: **non valido**;
+  - per completezza, la statistica è −0,093 (p 0,92).
+- **Lettura.** Le parole neutre (daiin, aiin, s…) sono troppo poche. Si passa all'e177, che corregge la
+  dimensione di ogni parola per la sua composizione.
