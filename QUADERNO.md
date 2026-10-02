@@ -4938,3 +4938,35 @@ sequenza.
     accorda anche con l'e59, dove la traccia si estende a più righe sopra.
 - **Conseguenza per il generatore e il voynichizzatore.** La copia verticale va fatta per posizione
   fisica. Senza immagini, la posizione si stima dal conteggio cumulato dei segni.
+
+## 3/10/2026 — e231: un discriminatore distingue il generatore e192 dal Voynich (AUC 0,97) e dice dove sbaglia
+
+- **Preregistrato.**
+  - Regressione logistica su caratteristiche di pagina in cinque gruppi: segni, coppie di segni,
+    parole, riga, verticale.
+  - Validazione incrociata a 10 pieghe ripetuta 5 volte; pagina vera e gemella generata nella stessa
+    piega.
+  - Nessuna caratteristica di appartenenza al vocabolario del Voynich.
+- **Controlli:** A contro B 1,000 (valido); etichette a caso 0,527 (valido).
+- **Generatore e192 contro Voynich: AUC 0,970, distinguibile.** AUC per gruppo:
+  - segni 0,63; coppie 0,79; parole 0,92; riga 0,94;
+  - verticale 0,49, che non distingue.
+- **Caratteristiche più pesanti** (Voynich contro generatore):
+  - righe che finiscono in **-m**: 13,9% contro 2,3%. Manca la regola di fine riga (η, e224);
+  - **unioni attestate** nella pagina: 9,2% contro 4,8%. Mancano le parole spezzate (e227b);
+  - parole fra le **100 più frequenti**: 42% contro 36%. Il generatore ha frequenze meno concentrate
+    (Zipf);
+  - parole **uniche nel testo**: 14,6% contro 12,7% (curva piatta, e226);
+  - **parole uniche nella pagina** (0,64 contro 0,56) e **tipi su parole nella pagina** (0,76 contro
+    0,69).
+    - **Proprietà nuova**, che la pagella non misura (lì "tipi" è sull'intero testo): le pagine vere
+      ripetono meno le proprie parole.
+    - Il generatore pesca troppo dal serbatoio della pagina; le pagine vere usano più le parole
+      frequenti di tutto il manoscritto e più forme uniche.
+  - righe che finiscono in -l e -o più frequenti nel generatore.
+- **Lettura.**
+  - Le proprietà che la pagella segnava come mancanti (bordo, unioni, Zipf, curva piatta) sono proprio
+    quelle che il discriminatore usa. Le due misure si confermano a vicenda.
+  - In più c'è la varietà dentro la pagina: un generatore buono deve pescare meno dalla pagina e più dal
+    manoscritto intero.
+  - Il discriminatore si rieseguirà sulla configurazione finale dell'e224/e230.
