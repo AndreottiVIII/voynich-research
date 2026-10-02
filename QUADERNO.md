@@ -4422,3 +4422,26 @@ sequenza.
     lo spazio sui vasi.
   - **Nessun indizio di nomenclatore:** le etichette non distinguono che cosa nominano, salvo la
     lunghezza.
+
+## 2/10/2026 — e188: l'enochiano di Dee e Kelley non ha le regole di riga del Voynich
+
+- **Metodo.** Preregistrato. Trascrizione di Boxer di Sloane MS 3188 (541 righe), a lettere, contro il
+  Voynich (lettere EVA) e Plinio a capo.
+- **Risultati:**
+
+  | testo | giunture dentro (z) | attraverso l'a capo (z) | R | S (p) | A | ripetizione |
+  |---|---|---|---|---|---|---|
+  | enochiano | 0,099 (12,4) | 0,070 (2,4) | 0,70 | 1,03 (0,63) | 1,253 | 0,50 |
+  | Voynich | 0,192 (281) | 0,003 (0,9) | **0,02** | **0,66 (0,002)** | 1,054 | 1,01 |
+  | Plinio a capo | 0,041 (49) | 0,027 (7,3) | 0,66 | 1,04 (0,78) | 1,002 | 0,12 |
+
+- **Esito per regola: non ha le regole di riga del Voynich.**
+- **Lettura.**
+  - Per le righe l'enochiano si comporta come il latino: il legame fra parole vicine continua
+    attraverso l'a capo (R 0,70, come Plinio 0,66) e le righe non evitano di cominciare come quella
+    sopra.
+  - Ha però un'alternanza fortissima (A 1,25: parole vicine molto diverse) e ripetizioni immediate a
+    metà strada (0,50).
+  - **La glossolalia scritta di Dee e Kelley non produce la riga chiusa del Voynich.** La riga del
+    Voynich resta un tratto senza analoghi, nemmeno fra i testi "inventati" storici: e128 (Gaskell e
+    Bowern), Naibbe, Polygraphia III e ora l'enochiano.
