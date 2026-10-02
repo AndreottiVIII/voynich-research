@@ -3872,3 +3872,67 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
     f93–f96, erbario di fascicoli tardi;
   - nel gruppo 2/B le unità balneologiche (f75–f84) formano un blocco compatto, con somiglianze
     0,85–0,95.
+
+## 2/10/2026 — e165: varianti solo fra parole attestate correggono h2 e tipi, ma perdono altro
+
+- **Metodo.** Preregistrato. Generatore e153 con varianti {Modifiche, attestate} × λ {1, 2}, tre semi.
+- **Risultati:**
+
+  | varianti, λ | pagella | riga | guadagnate | perse |
+  |---|---|---|---|---|
+  | Modifiche, λ 1 (e153) | 10/18 | sì | – | – |
+  | Modifiche, λ 2 | 10/18 | sì | – | – |
+  | attestate, λ 1 | 9/18 | sì | h2, tipi | uniche, curva piatta, formule |
+  | attestate, λ 2 | 10/18 | sì | h2, tipi | uniche, curva piatta |
+
+- **Esito per regola: completo no** (serviva ≥ 12/18).
+- **Lettura.**
+  - Le varianti fra parole già attestate portano h2 (2,32) e tipi/parole nella banda del Voynich: la
+    diagnosi dell'e153 era giusta.
+  - Però riducono le parole uniche, che il Voynich ha in abbondanza (68%): il Voynich **crea** parole
+    nuove, ma senza alzare h2.
+  - Giunture più forti (λ 2) non cambiano la pagella.
+  - **Il compromesso da trovare:** parole nuove che restino "dentro le regole di formazione" del
+    Voynich. Serve un generatore di parole basato sulla struttura a posizioni (Zattera 2022, 12
+    "slot"; Stolfi), non sulle modifiche casuali.
+
+## 2/10/2026 — e166: l'inchiostro mostra le intinte, ma le scelte di grafia non cambiano con l'inchiostro
+
+- **Dati.** Immagini "large" di voynichese.com, già nella cornice dei riquadri delle parole (FONTI).
+  Allineamento perfetto, verificato a vista su f103r. 177 pagine e 23.680 parole misurate.
+- **Validità: sì.**
+  - **V1:** lo scuro delle parole consecutive è correlato (r 0,33 contro −0,01 rimescolato, z 44,5).
+  - **V2:** gli scurimenti sono bruschi e gli schiarimenti graduali, la firma delle intinte (skewness
+    +0,23, p 0,0005).
+- **H1, descrittivo:** le intinte cadono più spesso sulla prima parola della riga (19,6%) che sulle
+  altre (14,4%). Lo scriba tende a intingere all'inizio della riga, ma non sempre.
+- **H2, test principale:** il cambio delle scelte di grafia fra righe consecutive non è maggiore
+  quando la seconda riga comincia con un'intinta. Differenza −0,0003, p 0,67, su 3.028 coppie di cui
+  968 con intinta.
+- **Esito: nessun legame.**
+- **Lettura.** Le scelte di grafia riga per riga non sono un effetto della carica di penna: restano
+  una convenzione legata alla riga in quanto tale. La misura dell'inchiostro funziona, quindi è uno
+  strumento nuovo per altre domande, per esempio la velocità di scrittura o l'ordine delle pagine.
+
+## 2/10/2026 — e167: *Polygraphia III* (Hermes) non ha il legame fra parole vicine
+
+- **Metodo.** Preregistrato. I tre cifrati pubblicati da Hermes, mandati a capo con le larghezze del
+  Voynich, a lettere singole.
+- **Risultati:**
+
+  | testo | (a) legame alle giunture (z) | (b) A | (c) ripetizione immediata / attesa |
+  |---|---|---|---|
+  | Voynich (lettere EVA) | 0,192 (309) | 1,054 | 1,01 |
+  | Plinio a capo | 0,041 (52) | 1,002 | 0,12 |
+  | PIII 10 colonne | 0,0002 (1) | 1,012 | 0,56 |
+  | PIII 24 colonne | −0,0001 (0) | 1,017 | 0,51 |
+  | PIII tutte le colonne | 0,0004 (1) | 1,005 | 0,35 |
+
+- **Esito per regola: compatibile no.** Nessuna variante riproduce (a) né (b).
+- **Lettura.**
+  - Come previsto dalla costruzione, nel cifrario di Tritemio la fine di una parola (che codifica la
+    lettera) e l'inizio della seguente (radice scelta a caso) sono indipendenti. Il Voynich ha invece
+    il legame più forte fra tutti i testi misurati: cinque volte Plinio.
+  - Anche l'alternanza A (parole adiacenti più diverse di quelle a distanza 2) manca.
+  - *Polygraphia III* imita le statistiche dentro la parola, non quelle fra parole. Come Naibbe ed
+    e134, non produce il Voynich senza un meccanismo in più.
