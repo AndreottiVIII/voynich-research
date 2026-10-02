@@ -1,0 +1,53 @@
+{
+ "esempi_f53r": [
+  [
+   "kodam chocthody oty",
+   "lonasa eoemeona oma"
+  ],
+  [
+   "dol dain s cho she oty",
+   "nor nais t eo aee oma"
+  ],
+  [
+   "sho as chokan ody",
+   "aeo at eolas ona"
+  ],
+  [
+   "ytchodaiin yky otchey otod",
+   "ameonaus ala omeea omon"
+  ]
+ ],
+ "controllo: italiano scritto con l'inverso della chiave": {
+  "parole": 27382,
+  "tipi": 3864,
+  "M1": 0.6842086041925353,
+  "M2": 0.7647724782703966,
+  "lunghezza_media_trovate": 6.109958506224066,
+  "M1_casuali_mediana": 0.25323205025199036,
+  "M1_casuali_p95": 0.33288291578409174,
+  "M1_casuali_p99": 0.358228033014389,
+  "M1_quota_casuali_maggiori_o_uguali": 0.0,
+  "M2_casuali_mediana": 0.48751004309400336,
+  "M2_casuali_p95": 0.6292454897377839,
+  "M2_casuali_p99": 0.6835512380395881,
+  "M2_quota_casuali_maggiori_o_uguali": 0.0
+ },
+ "Voynich fuori campione": {
+  "parole": 24894,
+  "tipi": 5702,
+  "M1": 0.23427331887201736,
+  "M2": 0.5939583835462361,
+  "lunghezza_media_trovate": 3.431547619047619,
+  "M1_casuali_mediana": 0.11332047883024021,
+  "M1_casuali_p95": 0.16863501245279988,
+  "M1_casuali_p99": 0.19739696312364424,
+  "M1_quota_casuali_maggiori_o_uguali": 0.0015,
+  "M2_casuali_mediana": 0.4287378484775448,
+  "M2_casuali_p95": 0.571904876677111,
+  "M2_casuali_p99": 0.6271390696553386,
+  "M2_quota_casuali_maggiori_o_uguali": 0.03
+ },
+ "parole_scartate_voynich": 282,
+ "controllo_valido": true,
+ "esito": "incerto"
+}
