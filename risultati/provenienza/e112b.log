@@ -1,0 +1,31 @@
+modello: 2798 sillabe nel vocabolario, 539822 unita'; lessico 41223 parole
+tetto: copertura4 0.800 copertura6 0.535
+cifrato, mu 0.0                simboli  1245 | punteggio -10.141 | accuratezza 0.017 | copertura4 0.590 copertura6 0.229
+     quam nu num fre po dia pa mur con pe ri si bat
+     quam nu num tus dio ra tem plu ma pe ren ne ter
+     quid pe rit prae ra suis ni nos le li ri que pe ra
+cifrato, mu 0.3                simboli  3345 | punteggio -9.927 | accuratezza 0.019 | copertura4 0.577 copertura6 0.207
+     ex se tra ti bus mo cae nia liis mi ri do tis
+     ip se tra se bus ces rem quam ra mi nor rat nec
+     cum fi lia vi to pa tus eius bent si tius que neop to
+cifrato, mu 0.6                simboli  4732 | punteggio -9.796 | accuratezza 0.024 | copertura4 0.567 copertura6 0.237
+     le ge no sed dit la pe quam spes et ra ma me
+     i re mean di lit tra re ne te mo rer flam mae
+     mis ce que mi ri sub tis da ta va na que tue ri
+negativo: mu 0.6 rimescolato   simboli  4732 | punteggio -10.036 | accuratezza - | copertura4 0.537 copertura6 0.207
+     in in quo tri na rii in a pi quos ni ne de
+     res que fe rax at va rios ri que ti ge ca num
+     te et to o le vor le li ra rior ca te re nauis
+negativo: Timm e Schinner      simboli  4602 | punteggio -9.691 | accuratezza - | copertura4 0.551 copertura6 0.208
+     vel pe rest quod ue sa at tra tum
+     su bruit qui dum quo que qui qui
+     mag no in ter et tur bi e quum
+diagnosi: modello barato, mu 0.0 simboli  1245 | punteggio -6.266 | accuratezza 0.956 | copertura4 0.782 copertura6 0.512
+     her ba rum quas dam dic tu rus car mi ne vi res
+     her ba rum ma trem de dit ar te mi na no men
+     cui grae cus ser mo ius tum pu to po ne re pri mo
+diagnosi: modello barato, mu 0.6 simboli  4732 | punteggio -9.745 | accuratezza 0.082 | copertura4 0.487 copertura6 0.162
+     sa ten tur na fa huius mo nis de cum re re ni
+     be to ni ta ob cus co et ca ca len sque pus
+     tur for est ar ne drag li vel do po po re gio ne
+risolutore valido: False | fattibile: {0.0: False, 0.3: False, 0.6: False}
