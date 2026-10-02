@@ -1,0 +1,52 @@
+{
+ "(A) pubblicati": {
+  "principale": {
+   "coppie": 14,
+   "pagine_farmacia": 9,
+   "media": 0.09923524092837681,
+   "nullo": 0.1010635819114619,
+   "p": 0.5427
+  },
+  "secondaria (varianti)": {
+   "coppie": 14,
+   "pagine_farmacia": 9,
+   "media": 0.2778246549199706,
+   "nullo": 0.2780599289591451,
+   "p": 0.4966
+  },
+  "principale, normalizzata": {
+   "coppie": 14,
+   "pagine_farmacia": 9,
+   "media": 0.9717746758249199,
+   "nullo": 1.000386277565623,
+   "p": 0.6016
+  },
+  "valido": false,
+  "segnale": false
+ },
+ "(A) + (B) alta e media": {
+  "principale": {
+   "coppie": 14,
+   "pagine_farmacia": 9,
+   "media": 0.09923524092837681,
+   "nullo": 0.10103232950523848,
+   "p": 0.5408
+  },
+  "secondaria (varianti)": {
+   "coppie": 14,
+   "pagine_farmacia": 9,
+   "media": 0.2778246549199706,
+   "nullo": 0.27793587995531477,
+   "p": 0.4989
+  },
+  "principale, normalizzata": {
+   "coppie": 14,
+   "pagine_farmacia": 9,
+   "media": 0.9717746758249199,
+   "nullo": 1.0004338254894787,
+   "p": 0.5998
+  },
+  "valido": false,
+  "segnale": false
+ }
+}

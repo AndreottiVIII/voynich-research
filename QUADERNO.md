@@ -3463,3 +3463,26 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
     - la mano 2 non lo conferma;
     - un controllo materiale (inchiostro, rigatura, pigmenti) resta il passo decisivo e non è
       statistico.
+
+## 2/10/2026 — e122b: le pagine della farmacia non condividono parole con l'erbario della stessa pianta
+
+- **Metodo.** Preregistrato. Misura dell'e122 (Davide non riesce ad abbinare a mano).
+  - **(A)** le 14 corrispondenze pubblicate nei commenti della ZL (Petersen, Stolfi, FSG, GL), anche
+    quelle senza un'etichetta propria, perché qui conta la pagina intera.
+  - **(B)** abbinamenti visivi fatti da me sulle immagini. **Esito: nessuno affidabile.** I frammenti
+    della farmacia sono quasi tutti radici e foglioline senza tratti distintivi; le somiglianze con le
+    piante dell'erbario erano vaghe e non le ho registrate. Lo dichiara `dati/abbinamenti_visivi.json`,
+    committato prima dell'analisi.
+- **Risultati (A)**, 14 coppie su 8 pagine della farmacia:
+  - quota dei tipi della farmacia presenti nella pagina d'erbario abbinata: 0,099 contro 0,101 del
+    caso (p 0,54);
+  - con le varianti: 0,278 contro 0,278 (p 0,50);
+  - normalizzata: 0,97 (p 0,60).
+- **Esito:** nessun segnale di nominazione. La validità minima di 15 coppie non è raggiunta (14).
+- **Lettura.**
+  - Le pagine abbinate condividono **esattamente** quanto il caso: nessuna traccia che le parole
+    della farmacia nominino la pianta disegnata.
+  - Con l'e35 (etichette della farmacia assenti dall'erbario) e l'e142 (segni zodiacali doppi) è la
+    terza prova sul legame fra parole e disegni, e la terza senza legame.
+  - Il numero di coppie è piccolo: un effetto debole non si escluderebbe. Ma la media è anzi sotto il
+    caso.
