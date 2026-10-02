@@ -1,0 +1,5 @@
+theta 0.3, c 0.0     10/18 | riga e pagina 9/12 | R 0.01 S1 0.66 A 1.011 | scelte 5.0 | r 0.169 | copia 0.93/1.48 e94 1.44 | omog 0.036 | riga True completo False | mancano: h2, tipi, gradiente, legame, unioni, Zipf, verticale, bordo di riga
+theta 0.3, c 0.5     10/18 | riga e pagina 9/12 | R 0.03 S1 0.62 A 1.016 | scelte 5.0 | r 0.176 | copia 0.96/1.56 e94 1.49 | omog 0.035 | riga True completo False | mancano: h2, tipi, gradiente, legame, unioni, Zipf, verticale, bordo di riga
+theta 0.6, c 0.0     8/18 | riga e pagina 6/12 | R -0.02 S1 0.64 A 1.012 | scelte 5.0 | r 0.170 | copia 1.11/1.28 e94 1.44 | omog 0.061 | riga True completo False | mancano: h2, tipi, omogeneità, gradiente, legame, unioni, Zipf, verticale, formule, bordo di riga, copia
+theta 0.6, c 0.5     8/18 | riga e pagina 7/12 | R -0.00 S1 0.58 A 1.008 | scelte 5.0 | r 0.168 | copia 0.92/2.74 e94 1.46 | omog 0.061 | riga True completo False | mancano: h2, tipi, omogeneità, gradiente, legame, unioni, Zipf, verticale, formule, bordo di riga
+modello di riferimento: nessuno | migliore per pagella: theta 0.3, c 0.0
