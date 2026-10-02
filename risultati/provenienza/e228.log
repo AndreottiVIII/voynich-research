@@ -1,0 +1,5 @@
+controllo nullo (base neutra): casi 4440, delta +0.0023, z 0.6, p 0.5825, E_P 0.0010, E_I -0.0011
+controllo fisico (5% di varianti di P): casi 4440, delta +0.0292, z 6.6, p 0.0001, E_P 0.0281, E_I -0.0003
+controllo indice (5% di varianti di I): casi 4440, delta -0.0243, z -5.5, p 0.0001, E_P 0.0017, E_I 0.0258
+Voynich: casi 4341, delta +0.0193, z 3.9, p 0.0002, E_P 0.0164, E_I -0.0025
+copia a vista (fisica)

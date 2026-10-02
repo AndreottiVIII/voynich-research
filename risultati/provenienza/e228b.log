@@ -1,0 +1,15 @@
+basi neutre: 20
+basi neutre: 40
+basi neutre: 60
+basi neutre: 80
+basi neutre: 100
+basi neutre: 120
+basi neutre: 140
+basi neutre: 160
+basi neutre: 180
+basi neutre: 200
+controllo nullo (base neutra): casi 4548, delta +0.0001 (nullo +0.0046) z -1.2; z_P -0.9, z_I 0.6
+controllo fisico (5% di varianti di P): casi 4548, delta +0.0284 (nullo +0.0046) z 6.3; z_P 8.1, z_I 0.4
+controllo indice (5% di varianti di I): casi 4548, delta -0.0255 (nullo +0.0046) z -8.0; z_P -0.6, z_I 9.3
+Voynich: casi 4341, delta +0.0193 (nullo +0.0046) z 3.9; z_P 3.4, z_I -1.2
+copia a vista (fisica)
