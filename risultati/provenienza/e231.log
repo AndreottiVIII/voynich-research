@@ -1,0 +1,3 @@
+controlli: A/B 1.000, a caso 0.527
+generatore e192: AUC 0.970, per gruppo {'G1': 0.632, 'G2': 0.788, 'G3': 0.916, 'G4': 0.939, 'G5': 0.494}
+distinguibile
