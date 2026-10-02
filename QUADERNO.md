@@ -2968,3 +2968,44 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
     copia alla Timm e Schinner danno da sole.
   - Il prossimo modello dovrebbe unire la copia locale **dentro la riga** (somiglianza senza catena
     fra righe) con le regole di riga.
+
+## 2/10/2026 — Sherwood e Tucker-Talbert: non verificabili con le fonti raggiungibili
+
+- **Sherwood** (anagrammi italiani, alfabeto "AVA"):
+  - il sito non è più online e l'archivio web conserva solo le pagine 1, 2 e 14 dell'appendice di 14,
+    cioè 13 piante;
+  - la tabella dell'alfabeto è fatta di immagini di circa 50 pixel in cui diversi segni si
+    confondono: ricostruirla sarebbe una mia interpretazione, non la sua;
+  - il metodo ammette per sua dichiarazione molti gradi di libertà (anagrammi, parole spezzate in due
+    o tre, articoli e preposizioni aggiunti, segni "decorativi" ignorati, a/g e d/t intercambiabili).
+    L'autrice stessa scrive che gli anagrammi "may produce spurious results".
+  - Nessun test riproducibile possibile.
+- **Tucker e Talbert** (HerbalGram 100, 2013; nomi nahuatl):
+  - l'articolo online ha perso le parole voynichiane, scritte in un font speciale che l'HTML non
+    conserva, e il PDF citato non esiste più (404, anche in archivio);
+  - restano solo le loro traslitterazioni delle etichette di f100r (nashtli, maguoey, macanol,
+    namaepi, acamaaya…), senza la parola EVA né la chiave.
+  - Non verificabile senza la versione a stampa.
+- Fonti in `dati/cache/letture_proposte/`, non ridistribuite.
+
+## 2/10/2026 — Spoglio di r/voynich
+
+- **Metodo.**
+  - Reddit blocca l'accesso automatico (403) e il browser integrato non lo apre.
+  - Elenco dei post preso dall'archivio PullPush (api.pullpush.io): 1.800 post da 11/2016 a 9/2026,
+    poi il servizio ha limitato le richieste (429). Tenuto in cartella di lavoro, non nel repository.
+  - Letti i post con più voti e quelli con affermazioni testabili (parole chiave: decipher, line,
+    first word, statistic, cipher, label…).
+- **Esito.** Quasi tutto è interpretazione di disegni o traduzione non verificabile (irlandese,
+  stenografia ceca, nahuatl, ebraico, "procedural grammar"…). Le cose verificabili:
+  1. **Generatore U2/U3** (Whitehatnetizen, 2026), che dichiara di riprodurre "essentially the
+     whole 17-metric fingerprint". Codice MIT: messo alla prova nell'e134.
+  2. **Naibbe** (Greshko 2025, *Cryptologia*), già in parte nelle e71–e75: completato nell'e134.
+  3. **"tolor" = fecondazione** (2025): 3 occorrenze (tolor f38r; otolor f67r2, f77v), con l'idea
+     che "o-" sia un articolo. È verificabile in parte: le e72 ed e73 mostrano che o- (con y-, d-,
+     s-) è un segno aggiunto a inizio riga per regola di posizione. Da controllare se l'alternanza
+     X/oX dipende dalla posizione nella riga. Annotata come idea.
+  4. **"Parole uniche non a caso; la prima parola della pagina spesso unica"** (2026): coincide con
+     quanto misurato nell'e132 (prime parole dei paragrafi uniche al 31% contro 14%).
+  5. **"Margine destro perfetto anche dopo le illustrazioni"** (2025): richiede misure sulle
+     immagini. È coerente con la riga chiusa, perché il testo si adatta alla riga. Annotata.
