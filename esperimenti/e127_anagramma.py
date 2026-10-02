@@ -143,7 +143,9 @@ def main():
     vb = e78.bordo(e71.righe_voynich(), 'eva')
     finestre = e47.per_finestre(voy)
     caps = e99.capitoli()
-    macer = [(j == 0, ps) for c in caps for j, ps in enumerate(c)]
+    alfa = e17.alfabeto([w for c in caps for ps in c for w in ps])  # toglie i caratteri rari dell'OCR, come per la Bibbia
+    macer = [(j == 0, e17.pulisci(ps, alfa)) for c in caps for j, ps in enumerate(c)]
+    macer = [(ini, ps) for ini, ps in macer if ps]
     bib = lingue.parole('Latin')[:35000]
     bib = e17.pulisci(bib, e17.alfabeto(bib))
     bibbia = [(k % 8 == 0, bib[i:i + 9]) for k, i in enumerate(range(0, len(bib), 9))]
