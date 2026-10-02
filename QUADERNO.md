@@ -4244,3 +4244,17 @@ sequenza.
     nomenclatore invece farebbe.
   - Va controllato lo spazio disponibile: larghezza dei riquadri delle etichette e lunghezza a parità
     di spazio.
+
+## 2/10/2026 — e184: con misure grezze del disegno, piante simili non hanno vocabolario simile
+
+- **Metodo.** Preregistrato.
+  - 122 pagine d'erbario; 3.682 coppie dello stesso gruppo di mano e lingua e di fascicoli diversi.
+  - Spearman fra distanza dei disegni (colori e forma fuori dai riquadri delle parole) e distanza di
+    vocabolario.
+  - Mantel per strati.
+- **Risultato:** Spearman −0,010 (nullo −0,001), p 0,53. **Esito per regola: nessun legame.**
+- **Limite, non preregistrato.** Un controllo a vista dei numeri (f3r: 81% dei pixel "colorati"
+  rosso-bruni) fa pensare che la maschera del colore prenda anche macchie e toni della pergamena, non
+  solo il disegno. L'esito vale quindi solo come "non con queste misure".
+- **Da migliorare:** misura del disegno con la pergamena tolta localmente (come per l'inchiostro
+  nell'e166) e caratteristiche di forma (foglie, radici).
