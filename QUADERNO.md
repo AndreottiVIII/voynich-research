@@ -4853,3 +4853,35 @@ sequenza.
   ripetute.
   - Ipotesi messa alla prova subito nell'e227b: una sola quota di spezzature riproduce tutte e cinque le
     misure?
+
+## 3/10/2026 — e226: le parole nuove nascono un po' "dalla pagina", meno che nel generatore ma non la metà
+
+- **Preregistrato.** Una parola alla prima occorrenza ha un "genitore" (tipo già visto a distanza di edit
+  1) fra le parole precedenti della stessa pagina più spesso che fra le prime parole di altre pagine
+  della stessa sezione? Il rapporto è L.
+- **Risultati:**
+
+  | testo | con un genitore | L | intervallo |
+  |---|---|---|---|
+  | Voynich | 81% | **1,56** | 1,50–1,62 |
+  | generatore e192 (controllo positivo) | 85% | 2,19 | 2,10–2,28 |
+  | Voynich rimescolato nella sezione (controllo negativo) | 81% | 1,05 | 1,00–1,09 |
+  | *Macer floridus* | 34% | 1,52 | 1,33–1,78 |
+  | Isidoro XVII | 27% | 6,75 | 5,21–8,71 |
+
+  - Gli esponenti di Heaps sono simili: Voynich 0,72, generatore 0,74, Macer 0,71, Isidoro 0,81.
+- **Esito preregistrato:**
+  - test valido;
+  - nel Voynich la **nascita è intermedia** (1,3 < L < 2);
+  - il generatore **non** è "troppo locale" per la soglia preregistrata (il doppio): 2,19 contro 1,56,
+    con intervalli separati.
+- **Lettura.**
+  - Quattro parole nuove su cinque sono a una modifica da una parola già scritta. Nei testi latini, in
+    lettere, sono una su tre; il confronto fra unità diverse è solo indicativo.
+  - La pagina conta, ma meno che nel generatore.
+  - Il divario enorme dell'e211 sulle parole rare (R 50 contro 1,96) non si spiega con dove nascono le
+    parole, che è solo un po' più locale. Il motivo probabile è che nel generatore la variante nata su
+    una pagina resta lì: il serbatoio è della pagina. Nel Voynich, invece, le parole rare tornano in
+    altre pagine.
+  - **Indicazione per il generatore:** un lessico che cresce per tutto il manoscritto, con le varianti
+    nuove riusabili altrove, più che una nascita meno locale. Da provare.
