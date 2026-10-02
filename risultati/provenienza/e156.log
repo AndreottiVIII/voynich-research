@@ -1,0 +1,4 @@
+A contro B                                                 N0: eccesso 0.2461 | N1: eccesso 0.2339 (spiegata 0.05) | N2: eccesso 0.2253 (spiegata 0.08)
+controllo positivo: A contro A riscritto con le quote di B N0: eccesso -0.0449 | N1: eccesso -0.1097 | N2: eccesso -0.1048
+mano 2 contro mano 3 (entrambe B)                          N0: eccesso 0.0609 | N1: eccesso 0.0517 (spiegata 0.15) | N2: eccesso 0.0520 (spiegata 0.15)
+controllo valido False | quota spiegata A/B 0.08 | esito: A e B differiscono nel vocabolario

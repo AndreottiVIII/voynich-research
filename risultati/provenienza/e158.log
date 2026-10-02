@@ -1,0 +1,9 @@
+lingue di riferimento: 109
+validita F: lingua giusta prima in 100%
+validita P: lingua giusta prima in 100%
+validita A: lingua giusta prima in 100%
+Voynich ZL                           F: Latin, Nahuatl-NT, Syriac-NT (sic 1.37, ebraico 22) | P: Danish, Arabic, Hebrew (sic 1.08, ebraico 3) | A: Arabic, Syriac-NT, Icelandic (sic 0.94, ebraico 8)
+Timm e Schinner, seme 19             F: Latin, Manx-PART, Basque-NT (sic 1.29, ebraico 35) | P: Hebrew, Arabic, Danish (sic 1.17, ebraico 1) | A: Syriac-NT, Arabic, Hebrew (sic 1.08, ebraico 3)
+generatore e152                      F: Latin, Nahuatl-NT, Manx-PART (sic 1.30, ebraico 26) | P: Danish, Arabic, Syriac-NT (sic 1.01, ebraico 4) | A: Arabic, Syriac-NT, Icelandic (sic 0.88, ebraico 14)
+testi inventati (Gaskell e Bowern)   F: Swedish, Chinantec-NT, Albanian (sic 1.62, ebraico 45) | P: Albanian, Telugu, Icelandic (sic 0.90, ebraico 39) | A: Burmese, Greek, Portuguese (sic 0.79, ebraico 75)
+metodi validi ['F', 'P'] | indicazione sul Voynich informativa {'F': False, 'P': False}

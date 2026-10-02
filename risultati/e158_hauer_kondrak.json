@@ -1,0 +1,156 @@
+{
+ "lingue": 109,
+ "validita": {
+  "F": 1.0,
+  "P": 1.0,
+  "A": 1.0
+ },
+ "Voynich ZL": {
+  "F": {
+   "prime_5": [
+    "Latin",
+    "Nahuatl-NT",
+    "Syriac-NT",
+    "Manx-PART",
+    "Spanish"
+   ],
+   "sicurezza": 1.3720554963083846,
+   "posizione_ebraico": 22
+  },
+  "P": {
+   "prime_5": [
+    "Danish",
+    "Arabic",
+    "Hebrew",
+    "Farsi",
+    "Syriac-NT"
+   ],
+   "sicurezza": 1.0778936206445897,
+   "posizione_ebraico": 3
+  },
+  "A": {
+   "prime_5": [
+    "Arabic",
+    "Syriac-NT",
+    "Icelandic",
+    "Swedish",
+    "German"
+   ],
+   "sicurezza": 0.9402706866740036,
+   "posizione_ebraico": 8
+  }
+ },
+ "Timm e Schinner, seme 19": {
+  "F": {
+   "prime_5": [
+    "Latin",
+    "Manx-PART",
+    "Basque-NT",
+    "German",
+    "Syriac-NT"
+   ],
+   "sicurezza": 1.2889221782578353,
+   "posizione_ebraico": 35
+  },
+  "P": {
+   "prime_5": [
+    "Hebrew",
+    "Arabic",
+    "Danish",
+    "Syriac-NT",
+    "Farsi"
+   ],
+   "sicurezza": 1.169415574018409,
+   "posizione_ebraico": 1
+  },
+  "A": {
+   "prime_5": [
+    "Syriac-NT",
+    "Arabic",
+    "Hebrew",
+    "Swedish",
+    "German"
+   ],
+   "sicurezza": 1.0801892142878144,
+   "posizione_ebraico": 3
+  }
+ },
+ "generatore e152": {
+  "F": {
+   "prime_5": [
+    "Latin",
+    "Nahuatl-NT",
+    "Manx-PART",
+    "Syriac-NT",
+    "Spanish"
+   ],
+   "sicurezza": 1.2990841727626226,
+   "posizione_ebraico": 26
+  },
+  "P": {
+   "prime_5": [
+    "Danish",
+    "Arabic",
+    "Syriac-NT",
+    "Hebrew",
+    "Telugu"
+   ],
+   "sicurezza": 1.0060844506862272,
+   "posizione_ebraico": 4
+  },
+  "A": {
+   "prime_5": [
+    "Arabic",
+    "Syriac-NT",
+    "Icelandic",
+    "Telugu",
+    "Swedish"
+   ],
+   "sicurezza": 0.878472334781831,
+   "posizione_ebraico": 14
+  }
+ },
+ "testi inventati (Gaskell e Bowern)": {
+  "F": {
+   "prime_5": [
+    "Swedish",
+    "Chinantec-NT",
+    "Albanian",
+    "Marathi",
+    "Hungarian"
+   ],
+   "sicurezza": 1.620959023810529,
+   "posizione_ebraico": 45
+  },
+  "P": {
+   "prime_5": [
+    "Albanian",
+    "Telugu",
+    "Icelandic",
+    "Czech",
+    "Burmese"
+   ],
+   "sicurezza": 0.895119742747485,
+   "posizione_ebraico": 39
+  },
+  "A": {
+   "prime_5": [
+    "Burmese",
+    "Greek",
+    "Portuguese",
+    "Italian",
+    "Armenian-PART"
+   ],
+   "sicurezza": 0.7861711100781491,
+   "posizione_ebraico": 75
+  }
+ },
+ "metodi_validi": [
+  "F",
+  "P"
+ ],
+ "indicazione_informativa": {
+  "F": false,
+  "P": false
+ }
+}
