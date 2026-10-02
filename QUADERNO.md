@@ -4073,3 +4073,20 @@ sequenza.
   replica dell'e173b resta aperta. Serve un'altezza del corpo della scrittura misurata
   direttamente sulle immagini (profilo d'inchiostro della riga dentro i riquadri), non dai riquadri,
   che includono aste e code.
+
+## 2/10/2026 — e175: replica con il corpo della scrittura, non valida; e un confondimento serio per l'e173b
+
+- **Metodo.** Preregistrato. Altezza della fascia densa del profilo d'inchiostro nei riquadri.
+- **Risultato:**
+  - 150 pagine, 3.160 righe;
+  - V1 r 0,087, z 3,2 (serviva > 5): **non valido**;
+  - la statistica è comunque 0,067, p 0,0005, come nell'e173b.
+- **Riflessione, non preregistrata.** Una misura con poca struttura fra righe che correla come l'altra
+  con il cambio di scelta fa pensare a un **legame meccanico**: le scelte stesse cambiano la geometria
+  dei segni.
+  - sh ha il pennacchio, t è più largo di k, -dy e -ey differiscono, qo- aggiunge un segno.
+  - Se una riga passa a più sh o più t, la sua "dimensione" misurata cambia per questo, non per
+    lo stato della mano.
+  - L'e173b non escludeva questo confondimento: **la sua lettura va sospesa.**
+- **Test giusto (e176):** dimensione misurata solo su parole senza nessuno dei segni coinvolti nelle
+  cinque scelte.
