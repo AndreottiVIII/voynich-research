@@ -4402,3 +4402,23 @@ sequenza.
   - **Conclusione della strada 4:** nessuna delle dodici regole di estrazione (iniziali, finali,
     passi, acrostici di riga e di paragrafo) dà una sequenza con la struttura di un testo. Il latino
     nascosto allo stesso modo darebbe legami 10–50 volte più forti, che attraversano l'a capo.
+
+## 2/10/2026 — e187: vasi e frammenti differiscono solo nella lunghezza dell'etichetta
+
+- **Metodo.** Preregistrato. Informazione mutua fra tipo di oggetto e forma dell'etichetta (primo
+  segno, ultimo segno, o-), condizionata alla classe di lunghezza. Nullo dentro pagina × classe.
+- **Risultati:**
+
+  | contrasto | n | IM condizionata | nullo | z | p |
+  |---|---|---|---|---|---|
+  | farmacia | 225 | 0,209 | 0,194 | 0,5 | 0,29 |
+  | biologica | 109 | 0,297 | 0,284 | 0,4 | 0,35 |
+  | astronomica | 113 | 0,610 | 0,563 | 0,9 | 0,19 |
+
+- **Esito per regola: solo lunghezza.**
+- **Lettura.**
+  - A parità di lunghezza le etichette dei vasi e quelle dei frammenti hanno le stesse iniziali, le
+    stesse finali e la stessa quota di o-. La differenza dell'e183 è solo di lunghezza, spiegabile con
+    lo spazio sui vasi.
+  - **Nessun indizio di nomenclatore:** le etichette non distinguono che cosa nominano, salvo la
+    lunghezza.
