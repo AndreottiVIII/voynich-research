@@ -1,0 +1,40 @@
+{
+ "Voynich ZL, N1 sezione + mano": {
+  "gruppi": 14,
+  "cmi": 0.1592706058773152,
+  "nullo": 0.13199126023442365,
+  "z": 2.8509337932586316
+ },
+ "Voynich ZL, N2 fascicolo": {
+  "gruppi": 16,
+  "cmi": 0.1592706058773152,
+  "nullo": 0.13626707967414586,
+  "z": 2.3720712998501186
+ },
+ "Voynich IT, N1 sezione + mano": {
+  "gruppi": 14,
+  "cmi": 0.1730879901374559,
+  "nullo": 0.13829170539439864,
+  "z": 3.340328195173937
+ },
+ "Voynich IT, N2 fascicolo": {
+  "gruppi": 16,
+  "cmi": 0.1730879901374559,
+  "nullo": 0.13962707476499917,
+  "z": 3.084068342101255
+ },
+ "controllo positivo (ciclo di 4), N1": {
+  "gruppi": 14,
+  "cmi": 0.5268965267465346,
+  "nullo": 0.26146415812028523,
+  "z": 20.657514543327945
+ },
+ "Timm e Schinner, blocchi di 10 pagine": {
+  "gruppi": 14,
+  "cmi": 0.11440133272723842,
+  "nullo": 0.08107809653371287,
+  "z": 5.3317004433854365
+ },
+ "valido": true,
+ "esito": "indeciso"
+}
