@@ -122,6 +122,9 @@ def una(args):
     e88.PERMUTAZIONI = 100
     e71.RIMESCOLAMENTI = 50
     e110.RIMESCOLAMENTI = 50
+    if nome.startswith('Macer'):
+        import e49_composizione_giunture as e49
+        e49.validazione = e78._validazione_corta  # testo corto: come nell'e104
     r = e106.misura(righe, voy, soglia_ab, vv, vb)
     _, a = e110.una(('x', [ps for _, ps in righe], 'eva'))
     r['A'] = a['senza identiche']['A']
