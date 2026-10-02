@@ -1,0 +1,278 @@
+{
+ "mano 1, lingua A": [
+  {
+   "unita": "f52-f53",
+   "sezione": "H",
+   "rango_rilegatura": 22,
+   "somiglianza_con_la_successiva": 0.5689941675253719
+  },
+  {
+   "unita": "f35-f38",
+   "sezione": "H",
+   "rango_rilegatura": 16,
+   "somiglianza_con_la_successiva": 0.7841780412005006
+  },
+  {
+   "unita": "f25-f32",
+   "sezione": "H",
+   "rango_rilegatura": 13,
+   "somiglianza_con_la_successiva": 0.853499704400006
+  },
+  {
+   "unita": "f36-f37",
+   "sezione": "H",
+   "rango_rilegatura": 17,
+   "somiglianza_con_la_successiva": 0.857288514992443
+  },
+  {
+   "unita": "f19-f22",
+   "sezione": "H",
+   "rango_rilegatura": 11,
+   "somiglianza_con_la_successiva": 0.7908023465532761
+  },
+  {
+   "unita": "f11-f14",
+   "sezione": "H",
+   "rango_rilegatura": 7,
+   "somiglianza_con_la_successiva": 0.6741231939442291
+  },
+  {
+   "unita": "f13",
+   "sezione": "H",
+   "rango_rilegatura": 8,
+   "somiglianza_con_la_successiva": 0.7108493974314024
+  },
+  {
+   "unita": "f18-f23",
+   "sezione": "H",
+   "rango_rilegatura": 10,
+   "somiglianza_con_la_successiva": 0.7658227663512157
+  },
+  {
+   "unita": "f44-f45",
+   "sezione": "H",
+   "rango_rilegatura": 19,
+   "somiglianza_con_la_successiva": 0.7894620353860285
+  },
+  {
+   "unita": "f9-f16",
+   "sezione": "H",
+   "rango_rilegatura": 5,
+   "somiglianza_con_la_successiva": 0.8636412373626008
+  },
+  {
+   "unita": "f10-f15",
+   "sezione": "H",
+   "rango_rilegatura": 6,
+   "somiglianza_con_la_successiva": 0.8245596998579111
+  },
+  {
+   "unita": "f4-f5",
+   "sezione": "H",
+   "rango_rilegatura": 4,
+   "somiglianza_con_la_successiva": 0.8479768573312783
+  },
+  {
+   "unita": "f20-f21",
+   "sezione": "H",
+   "rango_rilegatura": 12,
+   "somiglianza_con_la_successiva": 0.8749919551779926
+  },
+  {
+   "unita": "f28-f29",
+   "sezione": "H",
+   "rango_rilegatura": 15,
+   "somiglianza_con_la_successiva": 0.7611749008544362
+  },
+  {
+   "unita": "f27-f30",
+   "sezione": "H",
+   "rango_rilegatura": 14,
+   "somiglianza_con_la_successiva": 0.7803418453389265
+  },
+  {
+   "unita": "f49-f56",
+   "sezione": "H",
+   "rango_rilegatura": 20,
+   "somiglianza_con_la_successiva": 0.8591495405060832
+  },
+  {
+   "unita": "f2-f7",
+   "sezione": "H",
+   "rango_rilegatura": 2,
+   "somiglianza_con_la_successiva": 0.8474262193572606
+  },
+  {
+   "unita": "f42-f47",
+   "sezione": "H",
+   "rango_rilegatura": 18,
+   "somiglianza_con_la_successiva": 0.8908916185847187
+  },
+  {
+   "unita": "f1-f8",
+   "sezione": "T",
+   "rango_rilegatura": 1,
+   "somiglianza_con_la_successiva": 0.7882396269943401
+  },
+  {
+   "unita": "f3-f6",
+   "sezione": "H",
+   "rango_rilegatura": 3,
+   "somiglianza_con_la_successiva": 0.8211972972222511
+  },
+  {
+   "unita": "f17-f24",
+   "sezione": "H",
+   "rango_rilegatura": 9,
+   "somiglianza_con_la_successiva": 0.7569065751528994
+  },
+  {
+   "unita": "f100-f101",
+   "sezione": "P",
+   "rango_rilegatura": 27,
+   "somiglianza_con_la_successiva": 0.8201366355098461
+  },
+  {
+   "unita": "f99-f102",
+   "sezione": "P",
+   "rango_rilegatura": 26,
+   "somiglianza_con_la_successiva": 0.7817404486377211
+  },
+  {
+   "unita": "f88-f89",
+   "sezione": "P",
+   "rango_rilegatura": 24,
+   "somiglianza_con_la_successiva": 0.7362654520752159
+  },
+  {
+   "unita": "f51-f54",
+   "sezione": "H",
+   "rango_rilegatura": 21,
+   "somiglianza_con_la_successiva": 0.6958244729114843
+  },
+  {
+   "unita": "f93-f96",
+   "sezione": "H",
+   "rango_rilegatura": 25,
+   "somiglianza_con_la_successiva": 0.7047392932956409
+  },
+  {
+   "unita": "f87-f90",
+   "sezione": "H",
+   "rango_rilegatura": 23,
+   "somiglianza_con_la_successiva": null
+  }
+ ],
+ "mano 2, lingua B": [
+  {
+   "unita": "f26-f31",
+   "sezione": "H",
+   "rango_rilegatura": 1,
+   "somiglianza_con_la_successiva": 0.7480508411082213
+  },
+  {
+   "unita": "f75-f84",
+   "sezione": "B",
+   "rango_rilegatura": 6,
+   "somiglianza_con_la_successiva": 0.9454832340187406
+  },
+  {
+   "unita": "f78-f81",
+   "sezione": "B",
+   "rango_rilegatura": 9,
+   "somiglianza_con_la_successiva": 0.8647019543739394
+  },
+  {
+   "unita": "f79-f80",
+   "sezione": "B",
+   "rango_rilegatura": 10,
+   "somiglianza_con_la_successiva": 0.8447699130818862
+  },
+  {
+   "unita": "f77-f82",
+   "sezione": "B",
+   "rango_rilegatura": 8,
+   "somiglianza_con_la_successiva": 0.9513111958904942
+  },
+  {
+   "unita": "f76-f83",
+   "sezione": "T",
+   "rango_rilegatura": 7,
+   "somiglianza_con_la_successiva": 0.789687173890792
+  },
+  {
+   "unita": "f43-f46",
+   "sezione": "H",
+   "rango_rilegatura": 4,
+   "somiglianza_con_la_successiva": 0.7984055422150345
+  },
+  {
+   "unita": "f34-f39",
+   "sezione": "H",
+   "rango_rilegatura": 3,
+   "somiglianza_con_la_successiva": 0.8662445117587347
+  },
+  {
+   "unita": "f85-f86",
+   "sezione": "T",
+   "rango_rilegatura": 11,
+   "somiglianza_con_la_successiva": 0.8697728434609254
+  },
+  {
+   "unita": "f50-f55",
+   "sezione": "H",
+   "rango_rilegatura": 5,
+   "somiglianza_con_la_successiva": 0.8524780887091463
+  },
+  {
+   "unita": "f33-f40",
+   "sezione": "H",
+   "rango_rilegatura": 2,
+   "somiglianza_con_la_successiva": null
+  }
+ ],
+ "mano 3, lingua B": [
+  {
+   "unita": "f103-f116",
+   "sezione": "S",
+   "rango_rilegatura": 2,
+   "somiglianza_con_la_successiva": 0.9252481684119958
+  },
+  {
+   "unita": "f108-f111",
+   "sezione": "S",
+   "rango_rilegatura": 7,
+   "somiglianza_con_la_successiva": 0.8693710607068412
+  },
+  {
+   "unita": "f107-f112",
+   "sezione": "S",
+   "rango_rilegatura": 6,
+   "somiglianza_con_la_successiva": 0.9238151495657893
+  },
+  {
+   "unita": "f106-f113",
+   "sezione": "S",
+   "rango_rilegatura": 5,
+   "somiglianza_con_la_successiva": 0.8730408184544582
+  },
+  {
+   "unita": "f105-f114",
+   "sezione": "S",
+   "rango_rilegatura": 4,
+   "somiglianza_con_la_successiva": 0.8548647278140536
+  },
+  {
+   "unita": "f104-f115",
+   "sezione": "S",
+   "rango_rilegatura": 3,
+   "somiglianza_con_la_successiva": 0.7517367954452577
+  },
+  {
+   "unita": "f94-f95",
+   "sezione": "H",
+   "rango_rilegatura": 1,
+   "somiglianza_con_la_successiva": null
+  }
+ ]
+}
