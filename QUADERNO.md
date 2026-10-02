@@ -3567,3 +3567,32 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
     Voynich.
   - Il passo successivo, se lo si vuole completo, è un generatore di parole migliore, non un altro
     meccanismo di riga.
+
+## 2/10/2026 — e160: sotto l'involucro di riga non riemerge un codice a parole (solo un debole ordine)
+
+- **Metodo.** Preregistrato. Primo tentativo di decifrazione a parole.
+  - L'involucro tolto: segno d'inizio y/d/s; cinque scelte di grafia; ee/aiin.
+  - Misure: T1 ordine delle parole frequenti, T2 accordo a distanza, T3 accordo nella riga, T4
+    informazione fra parole adiacenti.
+  - Controllo positivo: latino cifrato parola per parola, a cui si aggiunge lo stesso involucro.
+- **Risultati** (z, nell'ordine T1, T2, T3, T4):
+
+  | testo | T1 | T2 | T3 | T4 |
+  |---|---|---|---|---|
+  | controllo, tetto (senza involucro) | 6,1 | 5,6 | 3,1 | 48,8 |
+  | controllo con involucro | 3,9 | 3,1 | 4,2 | −4,3 |
+  | controllo ripulito | 4,3 | 4,3 | 2,1 | **27,9** |
+  | Voynich grezzo | 0,6 | 0,1 | −0,5 | −18,6 |
+  | Voynich ripulito | 3,6 | −0,2 | −2,8 | −4,0 |
+
+- **Validità: sì.** L'involucro cancella la struttura del controllo (T4 da 48,8 a −4,3), e la pulizia la
+  fa riemergere (27,9).
+- **Esito: struttura riemersa nel Voynich no.** T4 resta negativo, nessun accordo.
+- **Lettura.**
+  - Se sotto il Voynich ci fosse un testo cifrato parola per parola, nascosto dall'involucro di riga
+    che conosciamo, la pulizia lo farebbe riemergere, come succede con il latino. Non succede.
+  - Un debole ordine delle parole frequenti compare dopo la pulizia (T1 da 0,6 a 3,6). È sotto la
+    soglia e senza legami fra parole vicine: probabilmente un effetto delle giunture, non della
+    sintassi.
+  - Nel Voynich le parole adiacenti sono **meno** legate del caso (T4 −18,6), in accordo con A > 1
+    (e110): due parole vicine si evitano più di due parole a distanza 2.
