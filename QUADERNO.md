@@ -4700,3 +4700,36 @@ sequenza.
   - **Il generatore e192 sbaglia in senso opposto** (R 50): le varianti nuove nascono e si ripetono
     sulla stessa pagina. Nel Voynich le parole nuove nate su una pagina non vi si ripetono. Va
     corretto: per esempio, le varianti nuove non devono entrare nel serbatoio della pagina.
+
+## 2/10/2026 — e206: molti segni "facoltativi" concordano dentro la riga (da verificare con gli strati)
+
+- **Origine.** Sovrapposizione "superfluous characters" di voynichese.com.
+- **Metodo.** Preregistrato.
+  - Ogni classe (segno, posizione) di coppie di parole che differiscono per un segno tolto.
+  - Accordo fra forme lunghe e corte dentro la riga, contro il rimescolamento dentro la pagina.
+- **Risultati.** Controllo qo-/o- (q iniziale): z 4,6, valido. Classi con z > 3 (16):
+  - d interna 11,8; e interna 8,9; p iniziale 7,0; t interna 6,5; y finale 5,9; sh iniziale 5,3;
+  - d iniziale 4,5; l finale 4,5; q iniziale 4,6; o iniziale 3,6; ch interna 3,5; y iniziale 3,3;
+  - ch iniziale 3,0; cth iniziale, sh interna, p interna.
+  - Nessun effetto per k interna, k e t iniziali, i interna, m finale.
+- **Cautela, non preregistrata.** Il nullo conserva la pagina ma non il tipo di riga né la posizione
+  della parola. Le classi con p e alcune altre risentono certamente delle prime righe dei paragrafi
+  (dove p e f abbondano) e della posizione nella riga.
+  - Le classi nuove (d, e, y, o) non si accettano come "scelte di riga" prima dell'e206b, con il nullo
+    dentro pagina × prima riga del paragrafo × posizione della parola.
+
+## 2/10/2026 — e207: il paragrafo come unità di contenuto, test non valido
+
+- **Metodo.** Preregistrato. Somiglianza di vocabolario fra righe consecutive dello stesso paragrafo
+  e a cavallo di un inizio di paragrafo.
+- **Risultati:**
+  - **Voynich:** stesso − a cavallo 0,053 (nullo 0,005), p 0,0005; 533 coppie a cavallo;
+  - **controllo *Macer floridus*:** 0,007, p 0,18. Solo 74 coppie a cavallo, e i versi sono brevi e
+    poco simili fra loro.
+- **Esito per regola: test non valido** (il controllo non passa).
+- **Lettura.**
+  - Nel Voynich la riga che apre un paragrafo condivide molto meno vocabolario con quella sopra.
+  - Può essere contenuto, oppure l'effetto noto della prima riga di paragrafo (gallow p/f, parole
+    lunghe, "top row" di Tavie), che ha un vocabolario suo.
+  - Da rifare escludendo la prima riga di paragrafo, cioè confrontando la seconda riga del paragrafo
+    nuovo con l'ultima del precedente, e con un controllo più adatto.

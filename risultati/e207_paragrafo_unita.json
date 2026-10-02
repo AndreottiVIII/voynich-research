@@ -1,0 +1,18 @@
+{
+ "Voynich": {
+  "coppie": 3923,
+  "a_cavallo": 533,
+  "differenza": 0.0532406271271669,
+  "nullo": 0.005289067748010138,
+  "p": 0.0004997501249375312
+ },
+ "Macer floridus": {
+  "coppie": 2104,
+  "a_cavallo": 74,
+  "differenza": 0.007326851672188479,
+  "nullo": 0.0004224977767989968,
+  "p": 0.1794102948525737
+ },
+ "valido": false,
+ "esito": "test non valido"
+}
