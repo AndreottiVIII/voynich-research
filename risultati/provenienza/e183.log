@@ -1,0 +1,2 @@
+numeri {'farmacia': {'Lc': 36, 'Lf': 189}, 'biologica': {'Ln': 62, 'Lt': 47}, 'astronomica': {'L0': 39, 'Ls': 74}}
+Voynich IM 0.810 (nullo 0.611, z 3.0, p 0.0025) | potenza z 9.1 | per contrasto {'farmacia': 5.9, 'biologica': 1.2, 'astronomica': 0.1} | identiche {'coppie_identiche': 37, 'quota_stesso_tipo': 0.7027027027027027, 'attesa': 0.6547027027027027} | le etichette dipendono dall'oggetto
