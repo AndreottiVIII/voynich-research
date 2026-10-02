@@ -3375,3 +3375,27 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
   controllo molto sensibile.
 - **Lettura.** I paragrafi stellati non sono le voci di un elenco ordinato. È coerente con l'e132:
   le prime parole dei paragrafi sono spesso uniche ma non si comportano da lemmi.
+
+## 2/10/2026 — e145: le abitudini che derivano riproducono le scelte per riga, non la chiusura
+
+- **Metodo.** Preregistrato.
+  - Modello minimo: parole vere di ogni pagina rimescolate fra le righe, regola d'inizio (e131,
+    a = 0,5), cinque preferenze di grafia AR(1) per riga con ripartenza parziale a ogni pagina.
+  - Griglia ρ ∈ {0,6; 0,85} × σ ∈ {0,4; 0,8}, più due riferimenti (solo regola; niente).
+- **Risultati** (Voynich: S(1) 0,52, R 0,006, A 1,044, 5 scelte per riga, r consecutive 0,207):
+  - **con abitudini:**
+    - scelte decise per riga 3,3–5,0;
+    - r consecutive 0,16–0,17 con (0,6; 0,8) e (0,85; 0,4), cioè vicino al Voynich;
+    - S(1) 0,62–0,66.
+  - **ma:** R 0,53–0,71 (nessuna chiusura; −0,23 con (0,85; 0,8), instabile), A 0,99, pagella
+    10–11/18.
+  - **riferimenti:** solo regola S(1) 0,58; senza nulla S(1) 1,02.
+- **Esito: nessuna combinazione basta per la riga.**
+- **Lettura.**
+  - Le abitudini AR(1) riproducono le scelte decise per riga e la loro memoria fra righe (e135,
+    e146). La regola d'inizio riproduce l'evitamento.
+  - La **chiusura della riga** e l'alternanza A ≥ 1 non vengono da questi due meccanismi. Dipendono
+    dall'ordine delle parole dentro la riga e dalle giunture, che il modello rimescola: R qui è
+    instabile perché, senza ordine, le giunture interne hanno eccesso quasi nullo.
+  - Il prossimo modello deve produrre la riga **in ordine**, con giunture e somiglianza locale, non
+    rimescolare parole vere.
