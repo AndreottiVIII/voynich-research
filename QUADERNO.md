@@ -3766,3 +3766,33 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
     vocabolario**: una forte (grafia) e una debole (passo di riga).
   - Non basta a proporre l'ordine come certo. Basta a riportarlo nel white paper come ipotesi
     sostenuta.
+
+## 2/10/2026 — e164: il legame alle giunture non è un effetto di posizione (contro l'obiezione di Feaster)
+
+- **Perché.** Feaster (Malta 2022, paper12 §5) propone che le combinazioni anomale alle giunture di
+  Smith e Ponzi nascano dalla posizione delle parole nella riga e nel paragrafo. L'e74 non aveva un
+  nullo per strati di posizione.
+- **Metodo.** Preregistrato.
+  - Eccesso d'informazione mutua fra ultimo e primo segno di parole interne adiacenti.
+  - Tre nulli:
+    - **N0**, fra tutte le coppie;
+    - **N1**, nello stesso strato di posizione nella riga;
+    - **N2**, che aggiunge la riga nel paragrafo e la sezione.
+- **Risultati:**
+
+  | testo | N0 | N2 | ritenzione N2 |
+  |---|---|---|---|
+  | Voynich | 0,1997 (z 252) | 0,1970 (z 216) | **0,99** |
+  | Plinio a capo (controllo lingua) | 0,0412 | 0,0413 | 1,00 |
+  | solo posizione (Voynich rimescolato negli strati) | 0,0026 | 0,0001 | 0,05 |
+
+- **Validità: sì. Esito: legame alle giunture vero.** La sola posizione produce l'1% del legame del
+  Voynich.
+- **Lettura.**
+  - Le preferenze di posizione esistono (Feaster), ma non spiegano il legame fra parole adiacenti: è
+    un legame fra parola e parola.
+  - **Il punto 1 della rassegna regge:** il legame è vero dentro la riga e sparisce all'a capo (e74).
+  - Feaster può avere ragione su combinazioni singole come y.q e n.q. Sul legame complessivo no.
+- **Rassegna.** Nello stesso thread di Voynich Day (4343) Feaster aveva provato informalmente le
+  combinazioni all'a capo e trovato due anomalie singole (m→q 58%, n→Sh 140%), che poi attribuiva a
+  differenze di sezione. La misura complessiva (R ≈ 0) e il confronto con Plinio restano nostri.
