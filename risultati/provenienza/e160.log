@@ -1,0 +1,6 @@
+Voynich, grezzo                                      T1 z 0.6 | T2 z 0.1 | T3 z -0.5 | T4 z -18.6
+Voynich, ripulito                                    T1 z 3.6 | T2 z -0.2 | T3 z -2.8 | T4 z -4.0
+controllo: latino cifrato, senza involucro (tetto)   T1 z 6.1 | T2 z 5.6 | T3 z 3.1 | T4 z 48.8
+controllo: con involucro (grezzo)                    T1 z 3.9 | T2 z 3.1 | T3 z 4.2 | T4 z -4.3
+controllo: ripulito                                  T1 z 4.3 | T2 z 4.3 | T3 z 2.1 | T4 z 27.9
+controllo valido: True | struttura riemersa nel Voynich: False
