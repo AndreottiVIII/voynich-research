@@ -1,0 +1,20 @@
+{
+ "coppie_con_intinta": 1799,
+ "coppie_senza": 11194,
+ "eccesso_con": {
+  "im": 0.22697256713116065,
+  "nullo": 0.0693598031533868,
+  "eccesso": 0.15761276397777385,
+  "z": 25.078394357218944,
+  "n": 1799
+ },
+ "eccesso_senza_sottocampionato": 0.20971200267798276,
+ "Rint": 0.7515676831325272,
+ "intervallo": [
+  0.7969552770346671,
+  1.1046073642758527
+ ],
+ "quota_yds_intinte": 0.12951639799888828,
+ "quota_yds_altre": 0.12051098802930141,
+ "esito": "nessun effetto"
+}
