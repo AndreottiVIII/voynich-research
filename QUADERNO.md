@@ -3596,3 +3596,22 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
     sintassi.
   - Nel Voynich le parole adiacenti sono **meno** legate del caso (T4 −18,6), in accordo con A > 1
     (e110): due parole vicine si evitano più di due parole a distanza 2.
+
+## 2/10/2026 — e155: le righe hanno un tema debole ma reale (sotto la soglia preregistrata)
+
+- **Metodo.** Preregistrato.
+  - Copertura delle 1–2 famiglie di varianti più grandi nella riga (distanza ≤ 0,25), contro il
+    rimescolamento delle parole fra righe della stessa pagina.
+- **Risultati:**
+  - **Voynich:** C1 0,230 contro 0,217 (×1,06, z 10,9); C2 ×1,05 (z 13,0);
+  - **generatore e152:** ×2,39 (z 236), controllo valido;
+  - **Timm e Schinner:** ×0,99 (z −1,8);
+  - **latino:** ×0,96 (z −8,8).
+- **Esito per regola: righe a tema no** (z alto, ma rapporto sotto 1,1).
+- **Lettura.**
+  - Le parole di una riga del Voynich si raccolgono in famiglie di varianti un po' più del vocabolario
+    della pagina. L'effetto è piccolo ma netto, e non c'è né in Timm e Schinner né nel latino.
+  - È molto più debole del generatore e152 (tema forte), coerente con l'e153 (θ = 0,3 va meglio di
+    θ = 0,6).
+  - Un tema di riga debole non regge l'estrazione di un "tema dominante" per riga: la strada 5
+    (sequenza dei temi come voci) non si apre, per ora.
