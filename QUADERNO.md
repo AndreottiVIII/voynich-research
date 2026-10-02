@@ -3936,3 +3936,11 @@ come seme, ogni parola successiva = la precedente modificata, con il messaggio n
   - Anche l'alternanza A (parole adiacenti più diverse di quelle a distanza 2) manca.
   - *Polygraphia III* imita le statistiche dentro la parola, non quelle fra parole. Come Naibbe ed
     e134, non produce il Voynich senza un meccanismo in più.
+
+## 2/10/2026 — Nota d'ordine sui commit dell'e169
+
+Due comandi git partiti insieme si sono bloccati a vicenda (index.lock). Il codice
+`esperimenti/e169_tema_e_vicini.py` è così entrato nel commit 50b235d, insieme ai risultati di e165–e167,
+invece che in un commit a parte. L'ordine resta valido: la preregistrazione e169 è nel commit
+precedente fdd73dc, e l'e169 è partito solo dopo 50b235d. D'ora in poi i comandi git vanno sempre in
+sequenza.
