@@ -24,7 +24,7 @@ import e266_discriminatore_forte as e266
 import e268_prime_righe as e268
 
 RISULTATI = os.path.join(QUI, '..', 'risultati')
-CASUALI, AFFINAMENTO, SEME_RICERCA, SEMI_VERIFICA = 64, 32, 1, (7, 8, 9)
+CASUALI, AFFINAMENTO, SEMI_RICERCA, SEMI_VERIFICA = 48, 16, (1, 2), (7, 8, 9)
 NUOVI = OrderedDict([('beta', (0.0, 2.0)), ('eps', (1.0, 4.0)), ('vsim', (0.0, 2.0)), ('sigma_in', (0.0, 0.1))])
 CONTINUI = OrderedDict(list(e253.CONTINUI.items()) + list(NUOVI.items()))
 CONTINUI['sigma_post'] = (0.0, 0.15)
@@ -82,18 +82,32 @@ def vicino(x, rnd, quota, p_discreti, nuovi_uniformi):
     return y
 
 
+def valuta_conf(confs):
+    """Ogni configurazione sui semi di ricerca: pagelle, righe e AUC per seme, poi le somme e le medie."""
+    ris = tutti([(n, x, s, False) for n, x in confs for s in SEMI_RICERCA])
+    out = []
+    for i, (n, x) in enumerate(confs):
+        rr = ris[i * len(SEMI_RICERCA):(i + 1) * len(SEMI_RICERCA)]
+        out.append(OrderedDict([('nome', n), ('parametri', x), ('per_seme', rr), ('pagella', sum(r['pagella'] for r in rr)),
+                                ('pagella_min', min(r['pagella'] for r in rr)), ('riga', all(r['riga'] for r in rr)),
+                                ('AUC_e266', statistics.mean(r['AUC_e266'] for r in rr)), ('AUC_e231', statistics.mean(r['AUC_e231'] for r in rr))]))
+    return out
+
+
 def main():
     c0 = centro()
     rnd = random.Random('e289')
-    ris = tutti([('centro', c0, SEME_RICERCA, False)] + [('c%03d' % i, vicino(c0, rnd, 0.10, 0.1, True), SEME_RICERCA, False) for i in range(1, CASUALI + 1)])
+    ris = valuta_conf([('centro', c0)] + [('c%03d' % i, vicino(c0, rnd, 0.10, 0.1, True)) for i in range(1, CASUALI + 1)])
     base1 = ris[0]
-    ammessa = lambda r: r['pagella'] >= base1['pagella'] and r['riga']
-    migliore = min([r for r in ris if ammessa(r)] or [base1], key=lambda r: (r['AUC_e266'], r['nome']))
+    soglia = [r['pagella'] for r in base1['per_seme']]
+    ammessa = lambda r: all(x['pagella'] >= s for x, s in zip(r['per_seme'], soglia)) and r['riga']
+    ordina = lambda r: (-r['pagella'], r['AUC_e266'], r['nome'])
+    migliore = min([r for r in ris if ammessa(r)] or [base1], key=ordina)
     rnd2 = random.Random('e289-affinamento')
-    aff = tutti([('a%03d' % i, vicino(migliore['parametri'], rnd2, 0.15, 0.2, False), SEME_RICERCA, False) for i in range(1, AFFINAMENTO + 1)])
+    aff = valuta_conf([('a%03d' % i, vicino(migliore['parametri'], rnd2, 0.15, 0.2, False)) for i in range(1, AFFINAMENTO + 1)])
     tutte = ris + aff
-    scelta = min([r for r in tutte if ammessa(r)] or [base1], key=lambda r: (r['AUC_e266'], r['nome']))
-    print('scelta %s: AUC e266 %.3f (centro %.3f) | %s' % (scelta['nome'], scelta['AUC_e266'], base1['AUC_e266'], dict(scelta['parametri'])), flush=True)
+    scelta = min([r for r in tutte if ammessa(r)] or [base1], key=ordina)
+    print('scelta %s: pagella %d (semi 1-2), AUC e266 %.3f (centro: %d, %.3f) | %s' % (scelta['nome'], scelta['pagella'], scelta['AUC_e266'], base1['pagella'], base1['AUC_e266'], dict(scelta['parametri'])), flush=True)
     json.dump(scelta['parametri'], open(os.path.join(RISULTATI, 'e289_parametri_scelti.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     e241 = OrderedDict(e253.E241)
     e241.update(SPENTI)
@@ -119,7 +133,7 @@ def main():
     md = ['# e289 — Regolazione congiunta, secondo giro: i quattro meccanismi della v2', '',
           'Centro: la scelta dell\'e253. 64 configurazioni attorno al centro con β, ε, v e σ dentro la scelta, più 32 di affinamento, sul seme 1; verifica '
           'sui semi 7, 8, 9. Preregistrazione: `preregistrazioni/e289.md`.', '',
-          'Centro sul seme 1: pagella %d, AUC e266 %.3f. Scelta **%s**: pagella %d, AUC e266 %.3f, e231 %.3f.' % (
+          'Centro sui semi 1-2: pagella %d (somma), AUC e266 %.3f. Scelta **%s**: pagella %d, AUC e266 %.3f, e231 %.3f.' % (
               base1['pagella'], base1['AUC_e266'], scelta['nome'], scelta['pagella'], scelta['AUC_e266'], scelta['AUC_e231']), '',
           'Parametri scelti: ' + ', '.join('%s %s' % (p, ('%.3f' % v) if isinstance(v, float) else v) for p, v in scelta['parametri'].items()) + '.', '',
           '| seme | braccio | pagella | riga | mancano | AUC e231 | AUC e266 |', '|---|---|---|---|---|---|---|']
