@@ -9844,3 +9844,15 @@ intervalli al 99,5% (Bonferroni su 10 coefficienti).
     posizione: *sh* e *t* più frequenti all'inizio del paragrafo, -*ey* verso la fine.
 - Cautela: *sh* e *t* potrebbero dipendere soprattutto dalla prima riga del paragrafo (con le gallows d'apertura). Lo
   verifica l'e3a20, senza le prime righe.
+
+## 4/10/2026 (notte) — e3a19: la copia dalla riga sopra cresce lungo il paragrafo
+
+Preregistrato (`preregistrazioni/e3a19.md`). 499 paragrafi con almeno 4 righe; eccesso di parole (3+ segni) con una
+parola uguale o a una modifica nella riga subito sopra, per terzo del paragrafo.
+
+- Inizio **+0,005**, mezzo +0,036, fine **+0,047**. Fine − inizio +0,042 (IC 95% +0,026 – +0,058).
+- **Esito preregistrato: la copia cresce lungo il paragrafo.**
+- **Lettura:** il paragrafo comincia con parole nuove e diventa via via più ripetitivo. Va con la deriva delle scelte di
+  stato (e3a18: -*ey* cresce, *sh* e *t* calano scendendo nel paragrafo).
+- Cautela: nel primo terzo la "riga sopra" è spesso la prima riga del paragrafo, che è speciale (parole nuove, e344;
+  gallows d'apertura). Verifica senza le righe d'apertura nell'e3a20.
