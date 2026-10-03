@@ -10726,3 +10726,38 @@ stesso codice per le tre versioni. Dati in `risultati/e409b_messaggio_nel_sacco_
   e profilo pagina, oltre al gradiente mal posto).
 - **Materie che nessuna versione prende mai:** profilo pagina (12 chiavi su 12 in tutte e tre) e scelte di riga a 12
   classi (12 su 12). Sono le due lacune più nette, insieme al giudice dell'e266 a 0,62.
+
+## 4/10/2026 (notte) — e3a58: lo spazio si indovina dai due segni vicini più che nelle lingue; gli spazi incerti cadono dove la regola è incerta
+
+Preregistrato (`preregistrazioni/e3a58.md`). **Deviazione dichiarata nella preregistrazione stessa:** dopo la prova del
+codice sui soli testi sensati, e prima di guardare il Voynich, la soglia è passata dal massimo delle lingue al 90°
+percentile, perché il pinyin (numero del tono a fine parola) e il greco (sigma finale) hanno un segno esplicito di fine
+parola e rendono il massimo irraggiungibile.
+
+**Parte 1.** Regola: probabilità di spazio data la coppia (segno prima, segno dopo), stimata sulla prima metà delle
+righe e provata sulla seconda (F1 sugli spazi).
+
+| testo | F1 |
+|---|---|
+| **Voynich** (mediana di 5 × 10.000 parole) | **0,862** |
+| testi sensati | da 0,453 a 0,974; mediana 0,639; 90° percentile 0,718 |
+| sopra il Voynich | solo i due testi in pinyin (0,974 e 0,927); poi greco 0,857, lojban 0,827, arabo 0,807 |
+| gibberish umano | 0,282 |
+| generatori | Naibbe 0,883, U2 0,860, U3 0,815, Timm e Schinner 0,801 |
+
+- **Esito parte 1: spazi più prevedibili che nelle lingue** (sopra il 97% dei testi sensati). Il Voynich sta con i
+  generatori; i soli testi sensati più prevedibili hanno un segno scritto apposta per chiudere la parola. Il gibberish
+  umano è il meno prevedibile di tutti: chi inventa a mano mette gli spazi dove capita.
+
+**Parte 2.** Spazi incerti della ZL (la virgola). La regola è stimata sulle posizioni con spazio certo e senza spazio.
+
+| posizioni | quante | probabilità media di spazio | quota con probabilità fra 0,3 e 0,7 |
+|---|---|---|---|
+| spazio certo (.) | 27.442 | 0,818 | 20% |
+| **spazio incerto (,)** | 2.436 | **0,470** | **40%** |
+| nessuno spazio | 120.652 | 0,041 | 4% |
+
+- **Esito parte 2: gli spazi incerti cadono dove la regola è incerta.** La virgola dei trascrittori non cade a caso:
+  cade nei punti dove lo scriba, per regola, mette lo spazio circa una volta su due (per esempio dopo -*r*, -*l*,
+  -*s*). Lettura: lo scriba stesso lasciava spazi stretti o ambigui proprio dove la regola gli lasciava la scelta.
+  È un'altra prova che lo spazio è un confine debole e regolato dai segni vicini, non un confine di significato.
