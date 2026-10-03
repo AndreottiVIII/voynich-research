@@ -9065,3 +9065,86 @@ paragrafo), con un nullo dello stesso tipo di quello dentro la riga; Q = E a cap
 - **Lettura:** la riga del Voynich non è un a capo arbitrario. Si comporta come un'unità chiusa, un versetto o una
   voce: la giuntura lega le parole dentro la riga e si interrompe alla fine. Va con i segni di bordo della riga (e366,
   e374), con *s* attaccata all'inizio (e368) e con la prima parola della riga più lunga (e374).
+
+## 3/10/2026 (notte) — e380: qo-/o- e -l/-r dipendono dalla parola vicina, come una regola di raccordo
+
+Preregistrato (`preregistrazioni/e380.md`, con il limite della misura dichiarato prima di eseguire). Informazione
+mutua fra il segno di bordo e il segno della parola vicina, a parità del resto della parola (tronco o corpo), della
+posizione e dello strato. Si tolgono le coppie copiate dalle 2 righe sopra.
+
+**Parte 1** (E in bit oltre il nullo):
+
+| testo | E destra | z | E sinistra | z |
+|---|---|---|---|---|
+| Voynich | 0,029 | 16,4 | 0,033 | 15,0 |
+| gibberish umano | 0,021 | 9,2 | 0,027 | 10,1 |
+| Timm e Schinner, seme 1 | 0,005 | 3,0 | 0,009 | 5,2 |
+| sanscrito (controllo positivo), z a destra | | 13,1 e 8,5 | | |
+
+- **Esito preregistrato:** a destra "il segno finale porta da solo un legame con la parola dopo, nella gamma delle
+  lingue" (40 testi su 71 hanno E maggiore); a sinistra lo stesso per il primo segno (29 su 71). Come dichiarato prima,
+  questa parte non isola il *sandhi*: anche nelle lingue europee parole con lo stesso tronco hanno vicine diverse.
+
+**Parte 2** (scelte di grafia ai bordi):
+
+| scelta | eventi | E | z |
+|---|---|---|---|
+| -*l*/-*r* finale, secondo la parola dopo | 9.458 | 0,044 | **12,7** |
+| -*dy*/-*ey*, secondo la parola dopo | 8.958 | 0,007 | 2,6 |
+| *qo*-/*o*- davanti a gallows, secondo la parola prima | 8.101 | 0,063 | **19,4** |
+| *ch*-/*sh*- iniziale, secondo la parola prima | 8.285 | −0,004 | −1,2 |
+
+- **Esito preregistrato: legate al vicino -*l*/-*r* e *qo*-/*o*-.**
+- **Descrittivo, non preregistrato** (scratchpad):
+  - **qo-/o- dopo:** -*y* 64% *qo* (4.661), -*o* 63%, -*d* 59%; -*l* 39%; -*n* 26%, -*m* 27%, -*r* 23%, -*s* 23%.
+  - **-l/-r davanti a:** *a*- 15% -*l* (963); *o*- 43%; *y*- 37%; *ch*-/*sh*- 50–52%; *q*- 63%, *s*- 68%, *d*- 75%,
+    *l*- 78%, *t*- 81%, *k*- 86%.
+- **Lettura:** due classi di segni di confine. Dopo -*y*, -*o*, -*d* la parola seguente prende *qo*-; dopo -*n*, -*r*,
+  -*s*, -*m* prende *o*-. Davanti ad *a*-, *o*-, *y*- la parola finisce in -*r*; davanti a *k*-, *t*-, *d*-, *l*-,
+  *s*-, *q*- finisce in -*l*. È la forma di una regola di raccordo fra parole, come *a*/*an* in inglese o la liaison
+  francese. Questo non dice quale suono abbiano i segni. Una parte di "-*r* *a*-" sono parole spezzate (*or aiin*,
+  e379).
+- Per il voynichizzatore: *qo*-/*o*- e -*l*/-*r* vanno scelti guardando la parola vicina, non solo la posizione.
+
+## 3/10/2026 (notte) — e385: la ripresa del Voynich è copia dalla riga subito sopra, non continuità del discorso
+
+Preregistrato (`preregistrazioni/e385.md`). Eccesso di parole (3+ segni) con una parola uguale o a una modifica nella
+riga a distanza L, contro l'atteso esatto su tutte le altre righe dell'unità. C = media(e3..e6) / e1.
+
+| testo | unità | e1 | e2 | e3 | e4 | e5 | e6 | C (IC 95%) |
+|---|---|---|---|---|---|---|---|---|
+| Voynich (paragrafi) | 740 | **+0,032** | +0,007 | +0,000 | −0,004 | −0,000 | −0,005 | **−0,07** (−0,27 – 0,10) |
+| gibberish umano | 85 | +0,001 | +0,004 | +0,002 | +0,005 | +0,000 | +0,000 | 1,89 (0,87 – 2,57) |
+| testi sensati | 1.243 | +0,017 | +0,019 | +0,012 | +0,008 | −0,000 | −0,000 | **0,28** (0,22 – 0,36) |
+
+- **Esito preregistrato: il Voynich cala più in fretta delle lingue (copia a corto raggio).**
+- Nelle lingue la ripresa è spalmata su 3–4 righe, con il massimo a distanza 2: è la continuità del discorso.
+- Nel Voynich sta quasi tutta nella riga subito sopra, con un'eccedenza doppia di quella delle lingue (0,032 contro
+  0,017), poco nella seconda e niente dopo. È copia di quanto appena scritto, non argomento.
+- Il gibberish umano non ha ripresa a nessuna distanza.
+
+## 3/10/2026 (notte) — e386: la giuntura si rompe anche al salto del disegno: vale solo fra segni scritti di seguito
+
+Preregistrato (`preregistrazioni/e386.md`). Giuntura per tipo di separatore nella riga; nullo nello strato.
+
+| coppie | quante | E | z |
+|---|---|---|---|
+| salto del disegno (`<->`) | 740 | **0,026** | **1,9** |
+| spazio normale | 27.442 | 0,165 | 192 |
+| spazio incerto (virgola) | 2.436 | 0,507 | 82 |
+| a capo (stesso paragrafo) | 3.337 | −0,002 | −0,6 |
+
+A parità di coppie (740): spazio normale 0,167, a capo −0,005; Q_salto = 0,16.
+
+- **Esito preregistrato: si rompe anche al disegno.** Dove la riga salta un disegno, il legame fra la fine di una
+  parola e l'inizio della seguente quasi sparisce, come all'a capo. Agli spazi incerti è tre volte più forte che agli
+  spazi normali, come ci si aspetta se spesso sono dentro una parola.
+- **Descrittivo, non preregistrato** (scratchpad): le parole dopo il salto iniziano spesso con *s* (9,5%), *d* (17%) e
+  *y* (15%), come le prime parole della riga (10%, 16%, 15%) e non come quelle in mezzo (2%, 8%, 3%). Quasi mai con *q*
+  (3% contro 17% in mezzo). Le gallows *p*/*t* di inizio riga non ci sono. Le parole prima del salto finiscono quasi
+  come quelle in mezzo (-*m* 2,4% contro 0,9% in mezzo e 15% a fine riga). Il salto fa quindi in parte da inizio di un
+  nuovo pezzo di riga.
+- **Lettura:** in una lingua scritta intorno a un disegno la grammatica continuerebbe oltre il salto. Nel Voynich il
+  legame vale solo fra segni scritti uno di seguito all'altro: è una proprietà della scrittura continua (o del pezzo di
+  riga scritto di fila), non della sequenza del testo. Con l'e384: ogni tratto scritto senza interruzioni riparte da
+  capo.
