@@ -10783,3 +10783,26 @@ Gibberish umano 0,077 / 0,255; Naibbe 0,195 / 0,003; U2 −0,107 / 0,074; U3 −
   - il gibberish umano, misurato su tutto il suo testo (più lungo di 10.000 parole), ha 1+2 = 0,26, sopra il Voynich.
 - Quindi: la memoria di un segno attraverso lo spazio (e3a49) è solida; quella di due segni va nella stessa direzione
   ma non basta, da sola, a sostenere nulla. Nel dossier va solo come conferma secondaria.
+
+## 4/10/2026 (notte) — e3a60: dove la ZL ha uno spazio incerto, Takahashi lo mette due volte su tre; i disaccordi cadono dove la regola è incerta
+
+Preregistrato (`preregistrazioni/e3a60.md`). 2.464 righe di paragrafo con la stessa sequenza di segni nella ZL e nella
+IT (su 3.903 leggibili in entrambe). Il codice non aveva controlli (solo Voynich): controllata la sintassi prima.
+
+| punto nella ZL | punti | P(spazio nella IT) |
+|---|---|---|
+| spazio certo (.) | 15.486 | 0,996 |
+| **spazio incerto (,)** | 1.366 | **0,650** |
+| nessuno spazio | 68.485 | 0,004 |
+
+La IT non usa mai la virgola: Takahashi decide sempre. Probabilità media della regola di spaziatura (e3a58): 0,826 dove
+concordano sullo spazio, 0,039 dove concordano sul non-spazio, **0,487 nei 320 punti di disaccordo**.
+
+- **Esito (a): l'incertezza è sul foglio.** Dove la ZL esita, Takahashi mette lo spazio due volte su tre, contro quasi
+  sempre e quasi mai negli altri punti: due trascrittori diversi trovano ambigui gli stessi punti.
+- **Esito (b): i disaccordi cadono dove la regola è incerta** (0,49).
+- **Lettura, con l'e3a58:** gli spazi ambigui non sono un'abitudine di un trascrittore. Sono sul foglio, e stanno nei
+  punti dove la regola di spaziatura lascia la scelta allo scriba. Lo scriba spaziava molto in certi punti (dopo -*n*,
+  -*y*), per niente in altri, e "a metà" proprio dove la regola gli lasciava libertà. Cautela: la ZL e la IT non sono del
+  tutto indipendenti (la ZL è nata confrontando anche le trascrizioni precedenti), ma la IT è più vecchia e non usa
+  virgole, quindi il suo 65% è una decisione presa da sola.
