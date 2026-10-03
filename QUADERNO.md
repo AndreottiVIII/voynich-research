@@ -5855,3 +5855,20 @@ sequenza.
     - si usi la **cache di varianti**.
 
     L'omogeneità di pagina sta nei segni, ed è la firma del procedimento di copia e variante.
+
+## 3/10/2026 — e247d: la correlazione degli scarti è geometria; la scelta della fonte è a vista, senza canale nascosto
+
+- **Preregistrato.**
+  - Nullo che conserva posizioni e riga sopra e sostituisce le parole di ogni riga con parole di altre
+    righe della stessa pagina.
+  - Coppie consecutive non a passo 0 o +1: 1.294.
+- **Risultato:** correlazione dei Δ 0,196 contro **0,198** del nullo geometrico (z −0,1).
+- **Esito: geometria.**
+- **Bilancio della strada 4 (e247–e247d).**
+  - La fonte di una ripetizione o variante è la parola fisicamente vicina sopra (copia a vista, e228).
+  - Parole consecutive copiano un po' più spesso parole consecutive della riga sopra (passo +1, z 4,2).
+  - Tutta la correlazione restante fra gli scarti viene dalla disposizione delle parole sulla riga
+    sopra, non da una scelta.
+  - Nessuno spazio per un messaggio nella scelta della fonte oltre quello di un procedimento meccanico.
+  - Lezione di metodo: il rimescolamento dentro la riga non era il nullo giusto, perché rompe la
+    geometria. Lo era il nullo geometrico.
