@@ -8941,3 +8941,29 @@ DC (36 testi) +0,008.
   significativo). In rapporto sono uguali (1,09 contro 1,08): il Voynich ha molte più parole simili fra loro di base.
   Con 38 testi il gibberish è un campione piccolo.
 - **Correzione:** l'e382 rifà il confronto con unità uguali (pagine di 25 righe) e con le parole intere.
+
+## 3/10/2026 (notte) — e381: con le parole intere i controlli reggono; la giuntura del Voynich è fra le più alte (6 lingue su 71 sopra)
+
+Preregistrato (`preregistrazioni/e381.md`). Correzione dell'errore delle parole spezzate: le misure dei testi sensati di
+e374, e375 ed e377 rifatte con le parole intere (spazi come separatori; lettere, segni combinanti e apostrofi tenuti;
+segno = lettera + segni combinanti).
+
+- **e374 (bordi della riga), testi sensati:** F1 0,021 (z 6,8), F2 0,023 (z 5,5), contro 0,027 e 0,026 di prima.
+  **Esito invariato:** dipendeva solo dal gibberish, e il Voynich (0,140) resta molto sopra.
+- **e375 (coppie oltre la giuntura):** R 1,38 / 1,29 / 1,16 (z 28 / 26 / 15) per Historical / Modern / Conlangs, contro
+  1,38 / 1,30 / 1,13 di prima. **Controllo positivo confermato**; il Voynich (1,03) resta molto sotto.
+- **e377 (giuntura), gruppi:** E 0,058 / 0,048 / 0,042 (prima 0,090 / 0,049 / 0,042). Il gruppo Historical era
+  gonfiato dai testi spezzati. **Esito invariato.**
+- **e377, per testo (prime 10.000 parole):** il Voynich vale 0,175–0,186 (mediana 0,182). Solo **6 testi su 71** hanno
+  una giuntura più forte:
+  - arabo del Corano (vocalizzato) 0,36;
+  - sanscrito 0,24 (Mahabharata) e 0,21 (Charaka Samhita);
+  - tagalog 0,21 (due testi);
+  - greco tecnico 0,21.
+  - Seguono cinese in pinyin 0,16, inglese tecnico 0,15, poi italiano 0,06–0,12, francese 0,11, inglese 0,10,
+    spagnolo 0,07–0,10, tedesco 0,04–0,08, latino 0,03–0,06, fiammingo 0,03–0,04.
+- **Lettura:** la giuntura del Voynich è fra le più forti, al livello delle lingue in cui la fine di una parola e
+  l'inizio della seguente sono legati dalla fonetica o dalla grammatica. Fra queste c'è il sanscrito, con il *sandhi*
+  scritto. È molto più forte che nelle lingue europee del Quattrocento (latino, italiano, tedesco), e 13 volte quella
+  del gibberish umano. Questo non dice che lingua sia: dice solo che il confine fra parole nel Voynich è legato quanto
+  nelle lingue più legate.
