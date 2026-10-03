@@ -9242,3 +9242,48 @@ Le mani 4 e 5 hanno troppi pochi eventi.
 - **Esito preregistrato: regola condivisa da tutte le mani.** I tre scribi con abbastanza testo, in lingua A e in
   lingua B, seguono le stesse due regole di raccordo. È una regola del sistema di scrittura, non un'abitudine di mano.
 - In lingua A (mano 1) la regola di *qo*- è più debole (+0,25 contro +0,38/+0,48).
+
+## 3/10/2026 (notte) — e389: a fine riga -m prende il posto di -r; a inizio riga y- e s- prendono il posto di ch- e k-
+
+Preregistrato (`preregistrazioni/e389.md`). A parità del resto della parola (tronco o corpo) e dello strato, quanto ogni
+ultimo segno (fine riga) o primo segno (inizio riga, righe non d'inizio paragrafo) è più frequente al bordo che in
+mezzo; nullo con le etichette bordo/mezzo rimescolate nel gruppo.
+
+**Fine riga** (489 gruppi, 2.030 parole al bordo):
+
+| segno | Δ | z |
+|---|---|---|
+| -*m* | **+0,151** | 26,7 |
+| -*g* | +0,014 | 9,0 |
+| -*y* | +0,019 | 3,4 |
+| -*d* | +0,007 | 3,1 |
+| -*o* | −0,020 | −5,1 |
+| -*l* | −0,052 | −6,2 |
+| -*r* | **−0,121** | −13,6 |
+
+**Inizio riga** (410 gruppi, 2.017 parole al bordo):
+
+| segno | Δ | z |
+|---|---|---|
+| *y*- | **+0,092** | 16,6 |
+| *s*- | **+0,098** | 16,0 |
+| *d*- | +0,040 | 4,8 |
+| *t*- | +0,022 | 3,9 |
+| *q*- | −0,016 | −3,1 |
+| *a*- | −0,011 | −5,2 |
+| *r*- | −0,031 | −8,2 |
+| *l*- | −0,050 | −9,1 |
+| *ch*- | **−0,073** | −11,1 |
+| *k*- | **−0,065** | −11,2 |
+
+- **Esito preregistrato:** a fine riga "-m/-g/-y/-d è la variante di bordo di -r"; a inizio riga "y/s/d/t è la
+  variante di bordo di k". La regola nomina solo il segno che cala di più; a inizio riga *ch*- cala quasi quanto
+  *k*-.
+- **Lettura:**
+  - **-*m* di fine riga è soprattutto la forma di bordo di -*r*** (e in parte di -*l*): lo stesso tronco che in mezzo
+    alla riga finisce in -*r* (*dar*, *ar*, *sar*) a fine riga finisce in -*m* (*dam*, *am*, *sam*). Non è la forma
+    di -*n*: -*n* non cala.
+  - A inizio riga *y*- e *s*- prendono il posto soprattutto di *ch*- e *k*-. Una parte è il segno attaccato all'inizio
+    della riga (e366, e368), che qui risulta come sostituzione perché il gruppo è la parola senza il primo segno.
+- Per il voynichizzatore: a fine riga una parola in -*r* (meno in -*l*) diventa -*m* circa una volta su sette; a
+  inizio riga *ch*-/*k*- diventano *y*-/*s*-.
