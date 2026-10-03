@@ -947,3 +947,8 @@ negativi; i numeri sono nei file di `risultati/`.
 - **Sessioni** (e355): le varianti rare tornano sullo stesso foglio (1,8 volte il caso) e un po' nel bifoglio (1,3,
   incerto), non sulle pagine affiancate; la quota di parole nuove varia fra le sessioni il doppio del caso.
 - **L'erbario in lingua B riprende più dell'erbario in lingua A** (e349): 0,055 contro 0,025; la mano non conta.
+- **Ogni bifoglio ha una sola lingua e quasi sempre una sola mano** (e356): 48 bifogli su 48 tutti A o tutti B (attesi
+  65% dentro il fascicolo, z 11,8); 94% con una sola mano di Davis (z 13,9). Il bifoglio è un'unità di scrittura
+  completa.
+- **La copia non eredita la grafia** (e356): fra parole con la stessa forma in righe vicine le scelte di grafia sono
+  scelte di nuovo, salvo una leggera eredità per -*dy*/-*ey*.

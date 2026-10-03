@@ -8266,3 +8266,37 @@ Preregistrato (`preregistrazioni/e355.md`).
   - correlazione con la ripresa −0,155 (z −1,1).
   - **Esito preregistrato: sessioni più o meno inventive.** Alcune sessioni producono molte più parole nuove di altre,
     indipendentemente da quanto riprendono.
+
+## 3/10/2026 (notte) — e356: ogni bifoglio ha una sola lingua e quasi sempre una sola mano; la copia eredita solo -dy/-ey
+
+Preregistrato (`preregistrazioni/e356.md`).
+
+- **(a)** Bifogli con almeno 2 pagine etichettate (intestazioni della ZL; nullo con le etichette rimescolate dentro il
+  fascicolo):
+
+  | etichetta | bifogli | omogenei | atteso | z |
+  |---|---|---|---|---|
+  | lingua A/B | 48 | **100%** | 65% | 11,8 |
+  | mano di Davis | 52 | **94%** | 63% | 13,9 |
+
+  - **Esito preregistrato: lingua di sessione; mano di sessione.**
+  - Nessun bifoglio mescola A e B. Tre bifogli mescolano le mani: H-1 (f57: mani 5 e 1; f66: mano 5), N-1 (il
+    pieghevole f85/f86) e T-2 (f104, f115).
+  - Con l'e350: il bifoglio è un'unità di scrittura completa, con una lingua, di solito uno scriba, un lessico e una
+    ripresa sue.
+- **(b)** ripresa dalle 2 righe sopra per posizione della parola nella riga (eccesso, z):
+  - prima +0,056 (8,9);
+  - seconda +0,051 (6,0);
+  - **in mezzo +0,059 (15,1)**;
+  - penultima +0,044 (6,0);
+  - **ultima +0,027 (3,6)**.
+
+  Si riprende ovunque, meno nell'ultima parola, che ha forme sue (e337).
+- **(c)** stessa scelta di grafia fra parole con la stessa forma normalizzata, righe vicine (1–2) contro lontane (3+):
+  - *ch*/*sh* 0,560 contro 0,541 (z 2,0);
+  - *k*/*t* 0,615 contro 0,617;
+  - -*l*/-*r* 0,595 contro 0,610;
+  - *o*-/*qo*- 0,585 contro 0,587;
+  - **-*dy*/-*ey* 0,795 contro 0,766 (z 4,1)**.
+  - **Esito preregistrato: in parte (-*dy*/-*ey*).** Quando lo scriba riprende una parola dalle righe sopra non ne
+    copia la grafia: la sceglie di nuovo, salvo una leggera eredità per -*dy*/-*ey*.
