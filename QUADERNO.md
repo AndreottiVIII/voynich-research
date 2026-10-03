@@ -10594,3 +10594,16 @@ incerto (ZL, paragrafi):
 - Le "parole" sono pezzi della catena di segni tagliati quasi sempre dopo *n*, *y*, *m*, a scelta dopo *r*, *l*, *s*
   (dove si concentrano anche gli spazi incerti), quasi mai altrove. I tagli a scelta sono i punti delle parole spezzate
   o attaccate (*or aiin*, *ol chedy*, *s aiin*: e379). Va con e397 (spazi prevedibili al 73%) e e3a49 (catena).
+
+## 4/10/2026 (notte) — Descrittivo: dopo -l, -r, -s lo spazio dipende dal segno che segue
+
+Non preregistrato (scratchpad, conteggio). Dopo *l*, *r*, *s* (i tagli "a scelta" della voce precedente), quota con
+spazio sicuro / incerto / niente, secondo il segno che segue:
+
+- **davanti a *q*:** spazio quasi sempre (*l* 0,98, *r* 0,99, *s* 0,94);
+- **davanti a *ch*, *sh*, *o*, *d*:** spazio di solito (*l*: 0,51–0,60; *r*: 0,75–0,86; *s*: 0,36–0,66);
+- **davanti a *k*, *a*, *y*, *e*:** di solito niente spazio (*l*+*k* niente 0,75, *l*+*y* 0,76, *l*+*a* 0,69; *s*+*a*
+  0,65, *s*+*e* 0,96; *r*+*a* 0,40 niente e 0,17 incerto).
+- **Lettura:** lo spazio cade davanti ai segni che "aprono" una parola (*q*, *ch*, *sh*, *o*, *d*) e manca davanti a
+  quelli che la continuano (*k*, *a*, *y*, *e*). È la stessa divisione delle due classi di iniziali dell'e3a41, vista dal
+  lato dello spazio.
