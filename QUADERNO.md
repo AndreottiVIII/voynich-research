@@ -6164,3 +6164,29 @@ sequenza.
   passo 1.
 - Registrato dopo l'e243b perché finito dopo: la coda è stata fermata per il trasloco e l'e257 passa al
   nuovo PC.
+
+## 3/10/2026 — Trasloco sul nuovo PC: e277 ed e278 rieseguiti, risultati identici
+
+- **Nuovo PC:**
+  - Intel Core i5-12600K (10 core, 16 thread), 32 GB, Windows 11 (10.0.26200);
+  - Python 3.12.10 e i 25 pacchetti di `requirements.txt` alle versioni fissate (numpy 2.5.3, scipy
+    1.18.1, scikit-learn 1.9.1), controllati uno per uno con `pip freeze`;
+  - JDK non ancora installato: serve solo per e22–e24.
+- **Dati.** `dati/cache` è **copiato dal vecchio PC** (`voynich_cache.zip`), non riscaricato con
+  `prepara.py`:
+  - 19.705 file, 2,14 GB;
+  - CRC dello zip verificati;
+  - file estratti confrontati uno per uno con lo zip: nessuno manca, nessuna dimensione diversa.
+- **Verifica:** e277 ed e278 rieseguiti con `esegui.py` al commit 96a7c86.
+  - I `.json` e i `.md` dei risultati sono **identici byte per byte** a quelli committati.
+  - Nella provenienza coincidono le impronte dei dati, l'impronta dello script, Python e le versioni dei
+    pacchetti.
+  - Cambiano solo:
+    - piattaforma: Windows 11 invece di Windows 10;
+    - commit;
+    - JDK assente;
+    - durata: 1,2 s contro 13,5 s per e277, 2,5 s contro 43,2 s per e278.
+- La provenienza di e277 ed e278 in `risultati/provenienza/` è ora quella della corsa sul nuovo PC.
+  Quella del vecchio PC resta nei commit 5b52165 e 703cec1.
+- **Esito: trasloco verificato.** Il nuovo PC prende gli esperimenti non ancora partiti (vedi
+  `STATO_LAVORI.md`).

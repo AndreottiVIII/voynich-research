@@ -1,6 +1,6 @@
 {
  "codice": {
-  "commit": "8526a6d3236ab3bb3aeba11035d6983568ec1911",
+  "commit": "96a7c8662543b4a706b56371bdc66c638f5392db",
   "modifiche_non_salvate": []
  },
  "dati": {
@@ -21,7 +21,7 @@
  },
  "ambiente": {
   "python": "3.12.10",
-  "piattaforma": "Windows-10-10.0.19045-SP0",
+  "piattaforma": "Windows-11-10.0.26200-SP0",
   "pacchetti": {
    "numpy": "2.5.3",
    "scipy": "1.18.1",
@@ -31,7 +31,7 @@
    "rapidfuzz": "3.14.6",
    "pypinyin": "0.55.0"
   },
-  "java": "openjdk version \"21.0.12.1\" 2026-08-18 LTS",
+  "java": null,
   "PYTHONHASHSEED": null
  },
  "script": {
@@ -42,8 +42,8 @@
  "esperimento": "e278",
  "argomenti": [],
  "uscita": 0,
- "inizio": "2026-10-03T12:01:40",
- "durata_s": 43.2,
+ "inizio": "2026-10-03T12:49:15",
+ "durata_s": 2.5,
  "file_scritti": [
   "risultati/e278_formule_apertura.json",
   "risultati/e278_formule_apertura.md"
