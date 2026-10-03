@@ -1,0 +1,27 @@
+{
+ "punti_facoltativi": 11413,
+ "strati": 49,
+ "grezzo": {
+  "terzo 1": {
+   "punti": 3589,
+   "quota_spazi": 0.4859292281972694
+  },
+  "terzo 3": {
+   "punti": 4169,
+   "quota_spazi": 0.4540657231950108
+  }
+ },
+ "differenza_pesata": -0.042734804076480476,
+ "p": 0.0004997501249375312,
+ "virgole": {
+  "primo terzo": {
+   "spazi_e_virgole": 7493,
+   "quota_virgole": 0.08914987321500066
+  },
+  "ultimo terzo": {
+   "spazi_e_virgole": 7886,
+   "quota_virgole": 0.09903626680192747
+  }
+ },
+ "esito": "lo scriba stringe a fine riga"
+}

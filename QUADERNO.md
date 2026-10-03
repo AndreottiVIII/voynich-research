@@ -10854,3 +10854,23 @@ Riferimenti: Voynich 0,026 avanti e 0,018 indietro; mediana delle lingue 0,111 e
 - **Timm e Schinner ha un legame uguale a quello del Voynich** (0,026 avanti). In quel generatore le parole si copiano
   a pezzi dalle righe sopra: due parole vicine copiate da due vicine della fonte restano legate. Ipotesi da provare
   subito: il piccolo legame del Voynich viene dalla copia a pezzi dalla riga sopra (e372). Prossimo: e3a63.
+
+## 4/10/2026 (notte) — e3a64: verso la fine della riga lo scriba mette un po' meno spazi facoltativi
+
+Preregistrato (`preregistrazioni/e3a64.md`). Codice provato prima su righe sintetiche (con un effetto finto di −0,2 lo
+trova, senza effetto no). Punti facoltativi = punti fra due segni dove la regola dell'e3a58 dà fra 0,2 e 0,8 (11.413
+punti, righe senza salti del disegno e senza parole illeggibili).
+
+| terzo della riga | punti facoltativi | quota di spazi |
+|---|---|---|
+| primo | 3.589 | 0,486 |
+| ultimo | 4.169 | 0,454 |
+
+- Dentro gli strati della coppia di segni (49 coppie con punti in entrambi i terzi): differenza **−0,043**, p 0,0005
+  (il minimo possibile con 2.000 rimescolamenti).
+- Virgole (spazi incerti) fra spazi e virgole: 8,9% nel primo terzo, 9,9% nell'ultimo.
+- **Esito preregistrato: lo scriba stringe a fine riga.** A parità dei due segni attorno al punto, verso la fine della
+  riga lo spazio facoltativo si mette 4 volte su 100 di meno, e gli spazi dubbi crescono un poco.
+- **Cautela:** la misura non separa "lo scriba toglie lo spazio" da "lo scriba sceglie a fine riga parole che hanno quel
+  punto dentro" (per esempio *oraiin* invece di *or aiin*). In tutti e due i casi la fine della riga cambia la
+  scrittura, come già -*m* al posto di -*r* (e389, e3a09). L'effetto è piccolo.
