@@ -955,3 +955,8 @@ negativi; i numeri sono nei file di `risultati/`.
 - **Errori uniformi, invenzioni per sessione** (e357): le parole uniche che sono varianti di una lettera di parole
   frequenti ("errori") hanno la stessa frequenza in tutte le sessioni, come errori casuali (z 0,2); le forme davvero
   nuove variano fra le sessioni 4 volte più del caso (z 11,8), anche a parità di sezione e lingua.
+- **Molte forme nuove sono giunture senza spazio** (e361–e363): le parole uniche non varianti hanno sequenze di segni
+  fuori dalle regole del lessico (che nel Voynich è molto più regolare di una lingua: −1,27 contro −2,1 nat per segno),
+  e un terzo contiene al suo interno una coppia di segni tipica del confine fra due parole (34,5% contro 7,3% delle
+  parole comuni; in latino e italiano quasi nessuna differenza). Non sono due parole intere frequenti attaccate, ma pezzi
+  di parole senza spazio. Arrivano a gruppi nella stessa riga (e362).

@@ -1,0 +1,93 @@
+{
+ "testi": {
+  "Voynich": {
+   "parole": 34863,
+   "forme_nuove": 3371,
+   "coppie_di_confine": 70,
+   "ll_forme_nuove": -2.353883152666082,
+   "ll_comuni": -1.271327841227081,
+   "delta_ll": -1.0825553114390012,
+   "giunture_forme_nuove": 0.34500148323939483,
+   "giunture_comuni": 0.07309285078611688,
+   "differenza_giunture": 0.27190863245327795,
+   "z_giunture": 63.091279140131164,
+   "esempi_confine": [
+    "d|d",
+    "d|q",
+    "l|ch",
+    "l|cth",
+    "l|d",
+    "l|e",
+    "l|l",
+    "l|o",
+    "l|q",
+    "l|r",
+    "l|s",
+    "l|sh",
+    "l|t",
+    "m|ch",
+    "m|d"
+   ]
+  },
+  "Latin": {
+   "parole": 32000,
+   "forme_nuove": 2799,
+   "coppie_di_confine": 82,
+   "ll_forme_nuove": -2.3496888310021338,
+   "ll_comuni": -2.061541702801197,
+   "delta_ll": -0.2881471282009369,
+   "giunture_forme_nuove": 0.19721329046087888,
+   "giunture_comuni": 0.1705591282600929,
+   "differenza_giunture": 0.02665416220078598,
+   "z_giunture": 3.984578929916718,
+   "esempi_confine": [
+    "a|a",
+    "a|f",
+    "a|h",
+    "a|o",
+    "a|q",
+    "c|d",
+    "c|f",
+    "c|p",
+    "c|s",
+    "c|v",
+    "d|c",
+    "d|d",
+    "d|f",
+    "d|m",
+    "d|n"
+   ]
+  },
+  "Italian": {
+   "parole": 32000,
+   "forme_nuove": 1936,
+   "coppie_di_confine": 93,
+   "ll_forme_nuove": -2.366705374626303,
+   "ll_comuni": -2.185249395836973,
+   "delta_ll": -0.18145597878932973,
+   "giunture_forme_nuove": 0.21384297520661158,
+   "giunture_comuni": 0.1710129132231405,
+   "differenza_giunture": 0.042830061983471085,
+   "z_giunture": 5.101240301274882,
+   "esempi_confine": [
+    "a|a",
+    "a|c",
+    "a|e",
+    "a|f",
+    "a|g",
+    "a|o",
+    "a|p",
+    "a|q",
+    "a|s",
+    "a|u",
+    "a|è",
+    "e|a",
+    "e|c",
+    "e|e",
+    "e|f"
+   ]
+  }
+ },
+ "esito_a": "le forme nuove del Voynich sono più fuori regola degli hapax di una lingua",
+ "esito_b": "le forme nuove contengono giunture di parola"
+}

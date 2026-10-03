@@ -8407,3 +8407,28 @@ Preregistrato (`preregistrazioni/e362.md`).
   z 5,2; nello stesso paragrafo 11.141 contro 11.641 (rimescolate nella pagina), z −3,0.
   - **Esito preregistrato: momenti inventivi** nella riga: le forme nuove arrivano a gruppi dentro la stessa riga, mentre
     fra i paragrafi della pagina sono anzi più sparse del caso.
+
+## 3/10/2026 (notte) — e363: un terzo delle forme nuove contiene una "giuntura" fra due parole; le parole comuni del Voynich sono molto più regolari di quelle di una lingua
+
+Preregistrato (`preregistrazioni/e363.md`). Voynich, latino e italiano, circa 32.000 parole ciascuno.
+
+| testo | forme nuove | ll per segno, forme nuove | comuni a pari lunghezza | Δ | con giuntura: forme nuove | comuni | z |
+|---|---|---|---|---|---|---|---|
+| Voynich | 3.371 | −2,354 | −1,271 | **−1,083** | **0,345** | 0,073 | 63,1 |
+| latino | 2.799 | −2,350 | −2,062 | −0,288 | 0,197 | 0,171 | 4,0 |
+| italiano | 1.936 | −2,367 | −2,185 | −0,181 | 0,214 | 0,171 | 5,1 |
+
+- **Esiti preregistrati:** (a) le forme nuove del Voynich sono più fuori regola degli hapax di una lingua; (b) le forme
+  nuove contengono giunture di parola.
+- **Lettura:**
+  - **(a)** In assoluto le forme nuove del Voynich sono "irregolari" quanto gli hapax di latino e italiano (−2,35 nat
+    per segno in tutti e tre). È il resto del lessico del Voynich a essere molto più regolare (−1,27 contro −2,06 e
+    −2,19): le parole comuni seguono regole di formazione strette (e43, e115), e le forme nuove ne escono.
+  - **(b)** Il 34,5% delle forme nuove contiene, all'interno, una coppia di segni tipica del **confine fra due parole**
+    (per esempio *l*|*ch*, *l*|*d*, *l*|*q*, *m*|*ch*, *d*|*q*), contro il 7,3% delle parole comuni. In latino e
+    italiano la differenza è minima.
+  - Molte forme nuove sembrano quindi pezzi di due parole scritti senza uno spazio visibile. Non due parole intere
+    frequenti (e361), ma una fine e un inizio di parola.
+  - È coerente con l'incertezza nota sugli spazi del Voynich. Una parte delle "parole uniche" sarebbe un fatto di
+    spaziatura, non di lessico.
+- **Verifica:** e364, se l'"inventiva" delle sessioni (e357) sia un'abitudine di spaziatura.
