@@ -36,6 +36,20 @@ class Sacco:
         self._fu = None
         self.note = note
         self._car = {}
+        # posti delle parole nuove (e406): quota di parole uniche per tipo di posto, e per pagina
+        from disposizione import posizione
+        tot, uni, ptot, puni = Counter(), Counter(), Counter(), Counter()
+        for p, ini, ps in rr:
+            for j, w in enumerate(ps):
+                c = 4 * bool(ini) + posizione(j, len(ps))
+                tot[c] += 1
+                ptot[p] += 1
+                if self.conta[w] == 1:
+                    uni[c] += 1
+                    puni[p] += 1
+        self.quota_posto = {c: uni[c] / tot[c] for c in tot}
+        media = sum(uni.values()) / sum(tot.values())
+        self.molt_pagina = {p: (puni[p] / ptot[p]) / media for p in ptot}
 
     # --- carattere della pagina (e404b) ---
     ALFA = 50.0
@@ -70,6 +84,7 @@ class Sacco:
         cq = self._segni(self.note[q])
         nq = sum(cq.values())
         delta = {g: math.log((cq[g] + self.ALFA * f) / (nq + self.ALFA) / f) for g, f in fsez.items()}
+        self.pagina_tipo = q
         return tipi, conti, delta
 
     def pesi_carattere(self, tipi, conti, delta, kappa):
@@ -86,10 +101,12 @@ class Sacco:
         self._fu[1].usate = set()
         return self._fu[1]
 
-    def genera(self, seme, theta=None, nuove='vere', kappa=None):
+    def genera(self, seme, theta=None, nuove='vere', kappa=None, posti='veri'):
         """Il testo con le parole note pescate (e, con nuove='inventate', le uniche sostituite); stessa impaginazione.
         kappa: forza del carattere della pagina (None: nessun carattere, e le parole nuove seguono il profilo della pagina
-        vera, come nell'e404; con kappa le parole nuove seguono il profilo delle parole note generate)."""
+        vera, come nell'e404; con kappa le parole nuove seguono il profilo delle parole note generate).
+        posti: 'veri' (le parole nuove stanno dove stanno le parole uniche vere) o 'modello' (e406: ogni posto e' nuovo con
+        probabilita' quota del tipo di posto x moltiplicatore della pagina tipo; richiede kappa)."""
         from disposizione import posizione
         rnd = random.Random(seme)
         fu = self.forme() if nuove == 'inventate' else None
@@ -103,11 +120,19 @@ class Sacco:
             if kappa is not None:
                 tipi, conti, delta = self.carattere(p, rnd)
                 cum = self.pesi_carattere(tipi, conti, delta, kappa)
+            nuovo = {}
+            for i in idx:
+                _, ini, ps = self.rr[i]
+                if posti == 'modello':
+                    m = self.molt_pagina[self.pagina_tipo]
+                    nuovo[i] = [rnd.random() < min(0.95, self.quota_posto[4 * bool(ini) + posizione(j, len(ps))] * m) for j in range(len(ps))]
+                else:
+                    nuovo[i] = [self.conta[w] == 1 for w in ps]
             righe = {}
             for i in idx:
                 riga = []
-                for w in self.rr[i][2]:
-                    if self.conta[w] >= 2:
+                for j, w in enumerate(self.rr[i][2]):
+                    if not nuovo[i][j]:
                         if theta is not None and gia and rnd.random() < len(gia) / (len(gia) + theta):
                             w = gia[rnd.randrange(len(gia))]
                         elif kappa is not None:
@@ -122,7 +147,7 @@ class Sacco:
                 for i in idx:
                     _, ini, ps = self.rr[i]
                     for j, w in enumerate(ps):
-                        if self.conta[w] == 1:
+                        if nuovo[i][j]:
                             righe[i][j] = fu.inventa('T-LPS', 4 * bool(ini) + posizione(j, len(ps)), profilo, rnd)
             for i in idx:
                 out[i] = (p, self.rr[i][1], righe[i])
