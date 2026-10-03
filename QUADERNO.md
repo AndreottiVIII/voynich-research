@@ -10115,3 +10115,30 @@ Non preregistrato (scratchpad). Nei cerchi e raggi (E 0,173, z 24,5) le coppie c
 (+0,052), -*s* *a*- (+0,033), -*y* *d*- (+0,023), -*n* *o*- (+0,021), -*y* *ch*- (+0,013), -*l* *ch*- (+0,008). Senza
 *qo*-, dopo -*y* vengono *d*- e *ch*- (che nei paragrafi dopo -*y* sono evitati in favore di *q*-), e pesano di più i
 raccordi delle parole spezzate (*or aiin*, *s aiin*). Stessa forza, composizione diversa.
+
+## 4/10/2026 (notte) — e3a31, e un errore nel nullo di e3a26, e3a27, e3a31
+
+Preregistrato (`preregistrazioni/e3a31.md`). Per ogni inizio di riga s: Δ_s = P(la riga comincia con s | la riga sopra
+comincia con s) − P(… | no).
+
+| inizio | righe sopra con s | Δ | z (nullo difettoso) |
+|---|---|---|---|
+| *d* | 491 | −0,077 | −9,5 |
+| *y* | 433 | −0,036 | −8,9 |
+| *qo* | 425 | −0,156 | −13,6 |
+| *o* | 411 | −0,112 | −11,1 |
+| *s* | 311 | **+0,083** | **−5,1** |
+| *t* | 179 | −0,022 | −7,3 |
+| *sh* | 155 | −0,019 | −6,3 |
+| *ch* | 103 | −0,045 | −5,9 |
+
+- **Esito preregistrato (alla lettera): "il margine evita in generale gli inizi ripetuti".** Ma **non è affidabile**,
+  perché il nullo è sbagliato.
+- **Errore mio, trovato subito:** per *s* il Δ osservato è positivo (+0,083) e lo z negativo (−5,1), quindi il nullo
+  era spostato. La causa: il nullo rimescolava le **condizioni** fra le righe dello stesso paragrafo, e una riga poteva
+  ricevere la condizione della riga sotto ("la riga sopra comincia con s"), cioè il proprio inizio. Così il Δ nullo
+  diventa positivo e gli z escono troppo negativi.
+- **Lo stesso difetto c'è nell'e3a26 e nell'e3a27** (stessa funzione). Restano validi i Δ grezzi (per *qo*- −0,52 nella
+  ZL, −0,50 con IT, −0,62 in A, −0,41 in B). L'**e3a25** usava un nullo corretto (ordine delle righe rimescolato) e
+  conferma l'evitamento di *qo*-/*qo*- (17 coppie contro 67 attese, rapporto 0,50 sui primi 2 segni, z −8,0). Gli z
+  dell'e3a26, dell'e3a27 e dell'e3a31 vanno rifatti: e3a33, con l'ordine delle righe rimescolato dentro il paragrafo.
