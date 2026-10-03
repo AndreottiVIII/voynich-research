@@ -5525,3 +5525,28 @@ sequenza.
     dell'ebraico anche in testi senza messaggio). Sono lingue con alfabeti senza vocali brevi, in cui un
     modello di lettere si adatta più facilmente.
   - Ora parte da sola la catena e213 → e217 → e218 → e221 → e222 → e219 → e223 → e216 → e212b.
+
+## 3/10/2026 — e213: decifrazione guidata dal contenuto atteso, test non valido
+
+- **Preregistrato.** Una chiave per tutto il testo ripulito; modelli latini per sezione (piante, ricette,
+  astronomia); discriminazione fuori campione Δ e z contro il rimescolamento delle sezioni.
+- **Risultati:**
+
+  | testo | Δ | z |
+  |---|---|---|
+  | controllo positivo (latino cifrato) | 0,107 | **1,4** |
+  | Voynich ripulito | 0,005 | 6,1 |
+  | controllo negativo (generatore) | 0,007 | −0,3 |
+
+- **Esito: test non valido**, perché la validità chiedeva z del positivo > 4.
+  - Il controllo positivo si decifra bene ("quamminimumutaturneuedomum…"), ma le sue sezioni non si
+    distinguono abbastanza fuori campione.
+  - La preregistrazione aveva segnalato il rischio: il testo di ricette usato come controllo è corto e
+    ciclico.
+- **Lettura, da non sovrainterpretare.**
+  - Lo z 6,1 del Voynich, in un test non valido, non vale come segnale.
+  - È plausibile che rifletta le differenze di grafia fra sezioni (erbario per lo più in lingua A,
+    ricette e biologica in lingua B) più che un contenuto. Gli esempi decifrati sono sequenze senza senso
+    (*tumauatinaesesturauis…*).
+  - Un e213b con un controllo positivo più lungo e non ciclico, e con le sezioni dentro la stessa lingua
+    di Currier, separerebbe le due cose. È da proporre a Davide.
