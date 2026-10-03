@@ -1036,10 +1036,10 @@ negativi; i numeri sono nei file di `risultati/`.
 - **-*ey* cresce davvero scendendo nella pagina** (e3a15): a parità di pagina, posizione nella riga e lunghezza della riga, la quota di -*ey* fra -*dy*/-*ey* è più alta nella metà bassa (+0,057, z 4,8).
 - **La regola di raccordo è uguale in tutte le sessioni** (e3a16): la sua forza varia fra i bifogli solo quanto il caso (rapporto sul nullo 0,72, z −0,8), al contrario dell'inventiva.
 - **Un piccolo legame fra parole intere vicine** (e3a14): oltre il segno di bordo e tolto il lessico della pagina, l'identità di una parola dice ancora un poco sull'inizio della successiva: un quarto di quanto succede nelle lingue (0,026 contro 0,111 bit).
-- **-*ey* cresce sia scendendo nella pagina sia scendendo nel paragrafo** (e3a17: +0,12 e +0,10, entrambi con intervallo sopra zero).
+- **-*ey* cresce scendendo nella pagina** (e3a17, e3a20): +0,12–0,14 dalla cima al fondo della pagina; l'effetto apparente lungo il paragrafo (e3a17) veniva dalla prima riga del paragrafo e sparisce senza di essa (e3a20).
 - **La coppia più forte della giuntura ha spazi netti** (esplorativo): fra -*y* e *q*- lo spazio è incerto solo nell'1% dei casi (8% in generale); gli spazi incerti stanno fra -*l* e *k*- (43%), -*r* e *a*- (28%), dove le parole si spezzano.
-- **Due famiglie di scelte di grafia** (e3a18): *qo*-/*o*- e -*l*/-*r* dipendono dalla parola vicina e non derivano con la posizione; *ch*/*sh*, *k*/*t*, -*dy*/-*ey* non dipendono dalla vicina ma derivano scendendo nel paragrafo (*sh* −0,20, *t* −0,09, -*ey* +0,10) e in parte nella pagina (*t* −0,08, -*ey* +0,13).
-- **La copia cresce lungo il paragrafo** (e3a19): l'eccesso di ripresa dalla riga sopra è quasi nullo nel primo terzo del paragrafo (+0,005) e sale a +0,036 e +0,047 nel secondo e nel terzo.
+- **Due famiglie di scelte di grafia** (e3a18, e3a20): *qo*-/*o*- e -*l*/-*r* dipendono dalla parola vicina e non dalla posizione; *ch*/*sh* e *k*/*t* non dipendono dalla vicina e hanno solo un effetto della prima riga del paragrafo (più *sh* e *t*), senza derive graduali; -*dy*/-*ey* cresce con l'altezza nella pagina.
+- **La copia dalla riga sopra è costante lungo il paragrafo** (e3a19, e3a20): l'aumento apparente (e3a19) veniva dall'apertura, perché la seconda riga copia poco dalla prima, fatta di parole nuove; dalla terza riga in poi la copia è costante.
 
 ### 15.12 Sintesi della notte 3–4/10: il Voynich a confronto con lingue, gibberish umano e generatori
 
