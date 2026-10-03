@@ -8036,3 +8036,33 @@ Preregistrato (`preregistrazioni/e342.md`).
   - **Cautela:** che la prima riga riprenda **meno** dall'ultima riga precedente che da una riga qualsiasi può venire
     anche dai registri opposti di ultima riga (meno *qo*-, più *ch*-) e prima riga (gallows, *sh*, parole lunghe).
     Resta che la ripresa non attraversa il confine.
+
+## 3/10/2026 — vz: e405, parole nuove, terzo passo: il sacco intero generato è al pavimento (solo sacco 0,495)
+
+Chat del voynichizzatore. Preregistrato (`preregistrazioni/e405.md`). Risultati in
+`risultati/e405_parole_nuove_strette.md`. Semi 1–4.
+
+| generatore di parole nuove | prova isolata | sacco intero | previsto (intero) | G1 | G2 | G3 | JSD |
+|---|---|---|---|---|---|---|---|
+| T-LPS (e403b, e404b) | 0,644 | 0,645 | | 0,63 | 0,57 | 0,63 | 0,61 |
+| N1, profilo solo sui segni comuni | 0,622 | 0,582 | 0,58–0,65 | 0,52 | 0,51 | 0,64 | 0,59 |
+| N2, anche modello a quattro segni | 0,615 | 0,563 | 0,55–0,63 | 0,50 | 0,49 | 0,64 | 0,59 |
+| N3, anche forza della scelta regolata sul pannello (0,37) | — | **0,495** | 0,53–0,62 | 0,50 | 0,48 | 0,64 | 0,47 |
+
+- **Il difetto capito nell'e404b era quello giusto.** Non penalizzare i segni rari porta il sacco intero da 0,645 a
+  0,582 (*f* da 0,0018 a 0,0028; Voynich 0,0026). Regolare la forza della scelta sul pannello (JSD 0,0399 contro
+  0,0402) lo porta a **0,495: al pavimento**, meglio della previsione.
+- **Il modello a quattro segni** guadagna poco (0,019, sotto la soglia di 0,03) e non rende le inventate più vicine a
+  parole note (0,548 contro 0,715 del Voynich). Si tiene N3 che lo include perché è quello misurato; la differenza con
+  un N3 a trigrammi non è stata misurata. Quasi metà dei campioni del modello dei segni sono parole attestate (47%,
+  scartate): soglia di allarme del 60% non superata.
+- **Che cosa resta nel sacco** (G3 0,64): le pagine generate sono un filo meno varie (tipi su parole 0,746 contro
+  0,756; uniche nella pagina 0,617 contro 0,636) e usano un po' più le parole frequenti (0,439 contro 0,424).
+- **La prova isolata resta a 0,62:** le parole inventate, messe al posto esatto delle uniche vere in un testo per il
+  resto vero, si vedono ancora un poco; nel sacco generato questo scarto non emerge.
+- **Esito secondo la preregistrazione:** sacco intero ≤ 0,58 → **il sacco è chiuso per quanto serve ora**. Passi
+  seguenti: i posti delle parole nuove e la disposizione regolata sul sacco generato, poi il banco.
+- **Il sacco di pagina, in sintesi (e403–e405):** parole note dal lessico di sezione e lingua, con un carattere nei
+  segni prestato da un'altra pagina (κ 0,708) e quasi nessuna ripetizione (θ 2280); parole nuove da un modello dei
+  segni imparato sulle parole uniche, con la lunghezza delle uniche, distinto per tipo di posto nella riga, scelte fra
+  sei candidate secondo il profilo dei segni comuni della pagina (forza 0,37).
