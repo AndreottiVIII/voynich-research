@@ -54,6 +54,16 @@ Su 3 semi di verifica che non si usano mai per regolare i parametri (7, 8, 9):
 - **Superato se:** l'e206b sull'uscita ritrova almeno 10 delle 12 classi con z > 3 e la pagella non
   scende.
 
+### Passo 3b (e267, e268): etichette e prime righe (aggiunti il 3/10)
+
+- **e267, modulo etichette** (da e245, e258, e263): le etichette si generano a parte, con un lessico
+  proprio (circa il 43% delle loro parole non compare nei paragrafi). Ogni etichetta copia o varia
+  un'altra etichetta della stessa pagina o di quelle vicine. Si verifica con le misure dell'e258 e
+  dell'e263 sulle etichette generate.
+- **e268, prime righe di paragrafo** (da e255): l'intera prima riga ha un lessico proprio, ricco di
+  gallows, non solo la prima parola. Si verifica con il gruppo G8 del discriminatore dell'e266.
+- L'ortografia di pagina (idea 5) **non serve**: l'e261 mostra che i generatori l'hanno già.
+
 ### Passo 4 (e253): regolazione congiunta per momenti
 
 - Tutti i parametri (circa 12) si regolano insieme per far coincidere un vettore di circa 30 statistiche:
