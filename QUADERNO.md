@@ -6804,3 +6804,26 @@ sequenza.
   - Ma la **forza** è diversa: nelle lingue gli eccessi sono 0,1–0,5 bit, nel Voynich 0,01–0,05. Le parole vicine del
     Voynich si legano 3–10 volte meno che in qualsiasi lingua: è di nuovo l'assenza di sintassi (e114, e115, e259).
   - Il generatore ha la forma opposta (centri copiati): per imitare il Voynich deve legare i bordi, non copiare i centri.
+
+## 3/10/2026 — e253: la regolazione congiunta su 19 parametri non migliora l'e288; e289 fermato
+
+- **e253, preregistrato:** 128 configurazioni casuali più 32 di affinamento sul seme 1, obiettivo AUC dell'e266.
+  - Scelta (a031) sul seme 1: AUC 0,916 (e241 0,956). Verifica sui semi 7–9: pagella 48 (e241 45), riga in 2 semi, AUC
+    dell'e231 0,878 (e241 0,873), dell'e266 0,943 (0,961). **Esito: non migliore** (serviva −0,05).
+  - Peggiore dell'e288 (53, 0,833, 0,933): di nuovo l'effetto vincitore della scelta su un solo seme (e283).
+  - Correlazioni con l'AUC dell'e266 sul seme 1: θ −0,59 (un tema più presente aiuta), ψ −0,39 (copiare pezzi di riga
+    aiuta), α −0,36, η −0,31; γ +0,60, interruttori +0,44, ρ +0,41, K del tema +0,31, φ +0,25, σ +0,24 fanno male.
+- **e289 fermato** dopo l'avvio, senza risultati: era centrato sulla scelta dell'e253, peggiore dell'e288. Il prossimo
+  giro di regolazione si centra sul corpo migliore (e288 con gli errori sparsi dell'e297, se utili).
+
+## 3/10/2026 — e295: la concordanza delle desinenze si ferma all'a capo (abitudine di riga, non grammatica)
+
+- **Preregistrato:** eccesso di informazione mutua fra i finali di parole vicine dentro la riga e fra l'ultima parola di
+  una riga e la prima della seguente (stesso paragrafo); controllo positivo: Bibbia latina in righe.
+- **Risultati:** Voynich dentro 0,050, attraverso l'a capo **0,007 (z 0,7), r 0,14**; generatore 0,021 e 0,012 (r 0,57);
+  latino 0,192 e 0,131 (z 9,9, **r 0,68**).
+- **Esito preregistrato: si ferma all'a capo (abitudine di riga).**
+- **Lettura.** Con l'e294: la concordanza delle desinenze del Voynich ha la forma di quella delle lingue agglutinanti,
+  ma è molto più debole e non supera l'a capo, mentre in una lingua la frase continua nella riga seguente. È
+  un'abitudine dello scriba legata alla riga, come le scelte di grafia (e135, e206b). Per il generatore: la "rima" delle
+  desinenze va fatta dentro la riga.
