@@ -1,0 +1,21 @@
+{
+ "coppie_in_mezzo": 20363,
+ "bordi": {
+  "prima coppia": {
+   "coppie": 3500,
+   "E": 0.18388952366150568,
+   "z": 43.97108834748658,
+   "E_mezzo_a_parita": 0.16188481340900984,
+   "Q": 1.135928193566248,
+   "esito": "giuntura piena anche al bordo"
+  },
+  "ultima coppia": {
+   "coppie": 3254,
+   "E": 0.15838416278947642,
+   "z": 34.70849746481629,
+   "E_mezzo_a_parita": 0.16779681557130455,
+   "Q": 0.9439044611795493,
+   "esito": "giuntura piena anche al bordo"
+  }
+ }
+}
