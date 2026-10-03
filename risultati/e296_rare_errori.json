@@ -1,0 +1,134 @@
+{
+ "risultati": {
+  "Voynich": {
+   "tipi": 7022,
+   "frequenti": 266,
+   "rare": 1487,
+   "rare_varianti": 975,
+   "quota_rare_varianti": 0.6556825823806322,
+   "quota_hapax_varianti": 0.2937604690117253,
+   "R_rare_varianti": {
+    "unita": 116,
+    "parole": 10854,
+    "rare": 297,
+    "C": 0.003367003367003367,
+    "atteso": 0.005892255892255892,
+    "R": 0.5714285714285714
+   },
+   "R_rare_non_varianti": {
+    "unita": 116,
+    "parole": 10854,
+    "rare": 110,
+    "C": 0.00909090909090909,
+    "atteso": 0.007818181818181818,
+    "R": 1.1627906976744187
+   },
+   "R_tutte_le_rare": {
+    "unita": 116,
+    "parole": 10854,
+    "rare": 407,
+    "C": 0.004914004914004914,
+    "atteso": 0.006412776412776413,
+    "R": 0.7662835249042145
+   }
+  },
+  "generatore e288, seme 7": {
+   "tipi": 7497,
+   "frequenti": 274,
+   "rare": 1884,
+   "rare_varianti": 1070,
+   "quota_rare_varianti": 0.5679405520169851,
+   "quota_hapax_varianti": 0.2673015873015873,
+   "R_rare_varianti": {
+    "unita": 119,
+    "parole": 11530,
+    "rare": 305,
+    "C": 0.2262295081967213,
+    "atteso": 0.005770491803278688,
+    "R": 39.20454545454545
+   },
+   "R_rare_non_varianti": {
+    "unita": 119,
+    "parole": 11530,
+    "rare": 230,
+    "C": 0.5173913043478261,
+    "atteso": 0.0059347826086956525,
+    "R": 87.17948717948718
+   },
+   "R_tutte_le_rare": {
+    "unita": 119,
+    "parole": 11530,
+    "rare": 535,
+    "C": 0.3514018691588785,
+    "atteso": 0.005841121495327103,
+    "R": 60.160000000000004
+   }
+  },
+  "generatore e288, seme 8": {
+   "tipi": 7568,
+   "frequenti": 269,
+   "rare": 1937,
+   "rare_varianti": 1091,
+   "quota_rare_varianti": 0.5632421270005162,
+   "quota_hapax_varianti": 0.267578947368421,
+   "R_rare_varianti": {
+    "unita": 119,
+    "parole": 11556,
+    "rare": 333,
+    "C": 0.24324324324324326,
+    "atteso": 0.006246246246246246,
+    "R": 38.94230769230769
+   },
+   "R_rare_non_varianti": {
+    "unita": 119,
+    "parole": 11556,
+    "rare": 237,
+    "C": 0.5232067510548524,
+    "atteso": 0.006286919831223628,
+    "R": 83.22147651006712
+   },
+   "R_tutte_le_rare": {
+    "unita": 119,
+    "parole": 11556,
+    "rare": 570,
+    "C": 0.35964912280701755,
+    "atteso": 0.006263157894736842,
+    "R": 57.42296918767507
+   }
+  },
+  "generatore e288, seme 9": {
+   "tipi": 7367,
+   "frequenti": 275,
+   "rare": 1882,
+   "rare_varianti": 1062,
+   "quota_rare_varianti": 0.5642933049946866,
+   "quota_hapax_varianti": 0.26607682347863615,
+   "R_rare_varianti": {
+    "unita": 119,
+    "parole": 11585,
+    "rare": 334,
+    "C": 0.18263473053892215,
+    "atteso": 0.005763473053892216,
+    "R": 31.688311688311686
+   },
+   "R_rare_non_varianti": {
+    "unita": 119,
+    "parole": 11585,
+    "rare": 229,
+    "C": 0.5065502183406113,
+    "atteso": 0.006550218340611353,
+    "R": 77.33333333333333
+   },
+   "R_tutte_le_rare": {
+    "unita": 119,
+    "parole": 11585,
+    "rare": 563,
+    "C": 0.31438721136767317,
+    "atteso": 0.00608348134991119,
+    "R": 51.67883211678832
+   }
+  }
+ },
+ "R_varianti_generatore_media": 36.61172161172161,
+ "esito": "errori sparsi sostenuti"
+}
