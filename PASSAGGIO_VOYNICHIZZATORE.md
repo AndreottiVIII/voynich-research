@@ -167,7 +167,10 @@ Dettagli e numeri in `DOSSIER_WHITE_PAPER.md` §15 e nel QUADERNO del 3/10.
   contrario. Una parola ha una parola uguale o a una modifica di distanza nelle 2 righe subito sopra più del caso (z 16,6,
   più che nel generatore di Timm e Schinner). Quando la fonte è nella riga sopra, sta nella stessa colonna ±1 più del caso
   (z 8,7). Due cautele: la prima misura può includere il lessico del paragrafo; la seconda gli effetti di posizione
-  nella riga (prima/ultima parola). Vedi QUADERNO, voce e337–e339.
+  nella riga (prima/ultima parola). Vedi QUADERNO, voce e337–e339. **Verifica e340:** la ripresa dalle 2 righe sopra
+  regge anche a parità di lessico del paragrafo (z 17,4, più del doppio del generatore di Timm e Schinner); la "stessa
+  colonna" invece, senza prima e ultima parola, quasi sparisce (z 2,7). Il generatore deve riprendere parole dalle
+  righe appena scritte, non dalla stessa posizione.
 
 **Righe e paragrafi**
 - **Scelte di grafia concordi nella riga:** 12 classi su 12 con z > 3 (e206b). Il generatore ne prende 2-3, la v4
