@@ -5872,3 +5872,18 @@ sequenza.
   - Nessuno spazio per un messaggio nella scelta della fonte oltre quello di un procedimento meccanico.
   - Lezione di metodo: il rimescolamento dentro la riga non era il nullo giusto, perché rompe la
     geometria. Lo era il nullo geometrico.
+
+## 3/10/2026 — Interruzione: il computer si è spento; esperimenti rilanciati da capo
+
+- Lo spegnimento ha interrotto e243 (dopo la taratura, prima della verifica), e249, e256, e257 ed e222.
+  Nessun commit è stato rovinato.
+- Sono rilanciati da capo con gli stessi semi, in tre file parallele:
+  - e243, poi e257;
+  - e256;
+  - e249, poi la catena e222 → e219 → e223 → e216 → e212b.
+
+  Il codice non è cambiato. Le prove sono deterministiche, quindi i risultati sono quelli che si
+  sarebbero avuti senza interruzione.
+- I log parziali dei tentativi interrotti sono sovrascritti dai nuovi. Le righe già stampate prima
+  dello spegnimento (taratura dell'e243, parte Voynich dell'e256) devono ricomparire identiche: è un
+  controllo di riproducibilità.
