@@ -1,0 +1,302 @@
+{
+ "Voynich": {
+  "rho": 0.5395670995670995,
+  "celle": 99,
+  "rho_10000": [
+   0.5125768967874232,
+   0.45345063604114577,
+   0.6087802167268687,
+   0.43319696084161313,
+   0.4701840808918849
+  ],
+  "mediana_10000": 0.4701840808918849
+ },
+ "gibberish umano": {
+  "rho": 0.20192366989887592,
+  "celle": 429
+ },
+ "testi_sensati": {
+  "Conlangs - Neo-Quenya - Technical - Europe-Taipei Wikia": {
+   "rho": 0.39233870967741935,
+   "celle": 31
+  },
+  "Historical - Mayan (Yucatec) - Technical - Chilam Balam": {
+   "rho": 0.3704558637483377,
+   "celle": 25
+  },
+  "Historical - Anglo-Saxon - Technical - Leechbook": {
+   "rho": 0.33032185206098247,
+   "celle": 22
+  },
+  "Historical - Arabic - Literary - Quran": {
+   "rho": 0.31752717185367807,
+   "celle": 84
+  },
+  "Historical - Spanish - Technical - De Materia Medica": {
+   "rho": 0.30492610837438416,
+   "celle": 29
+  },
+  "Conlangs - Volapuk - Literary - NT": {
+   "rho": 0.23415014572290016,
+   "celle": 194
+  },
+  "Conlangs - Esperanto - Technical - Voynich Wiki": {
+   "rho": 0.19071349706066662,
+   "celle": 93
+  },
+  "Historical - English - Technical - Secreta Alberti": {
+   "rho": 0.1891077779809423,
+   "celle": 153
+  },
+  "Historical - Nahuatl - Technical - Florentine Codex": {
+   "rho": 0.1824249699879952,
+   "celle": 50
+  },
+  "Modern - Hebrew - Literary - NT": {
+   "rho": 0.17356919099000548,
+   "celle": 169
+  },
+  "Historical - Sanskrit - Literary - Mahabharata": {
+   "rho": 0.1728591749644381,
+   "celle": 75
+  },
+  "Modern - French - Technical - Voynich Wiki": {
+   "rho": 0.17170086060447662,
+   "celle": 137
+  },
+  "Conlangs - Neo-Quenya - Literary - NT": {
+   "rho": 0.16461157472494872,
+   "celle": 123
+  },
+  "Historical - French - Literary - NT - Martin": {
+   "rho": 0.15814197981024444,
+   "celle": 148
+  },
+  "Historical - Latin (Abbreviated) - Literary - NT (Vulgate)": {
+   "rho": 0.1452865543322686,
+   "celle": 190
+  },
+  "Modern - Hebrew - Technical - Voynich Wiki": {
+   "rho": 0.1333950046253469,
+   "celle": 46
+  },
+  "Historical - Flemish - Technical - Cruydeboeck": {
+   "rho": 0.13301100698319998,
+   "celle": 139
+  },
+  "Historical - Anglo-Saxon - Literary - NT - Hatton Gospels": {
+   "rho": 0.10905868325223164,
+   "celle": 155
+  },
+  "Historical - Greek - Literary - NT - Textus Receptus": {
+   "rho": 0.10726959130108737,
+   "celle": 126
+  },
+  "Modern - French - Literary - NT": {
+   "rho": 0.10315555870124592,
+   "celle": 138
+  },
+  "Historical - English - Literary - NT (KJV)": {
+   "rho": 0.09506635914933134,
+   "celle": 177
+  },
+  "Modern - Arabic - Technical - Voynich Wiki": {
+   "rho": 0.09465363317248233,
+   "celle": 59
+  },
+  "Modern - Arabic - Literary - NT": {
+   "rho": 0.0915219761524534,
+   "celle": 213
+  },
+  "Modern - English - Literary - NT": {
+   "rho": 0.08158108462942949,
+   "celle": 170
+  },
+  "Modern - English - Technical - Voynich Wiki": {
+   "rho": 0.07627429928512144,
+   "celle": 172
+  },
+  "Historical - Arabic - Technical - Avicenna": {
+   "rho": 0.07587759719083438,
+   "celle": 196
+  },
+  "Historical - Latin - Literary - NT (Vulgate)": {
+   "rho": 0.07394879127753697,
+   "celle": 139
+  },
+  "Modern - Maori - Technical - Polandball Wiki": {
+   "rho": 0.07354596622889306,
+   "celle": 40
+  },
+  "Modern - Turkish - Literary - NT": {
+   "rho": 0.07091898826392565,
+   "celle": 169
+  },
+  "Conlangs - Volapuk - Technical - History Wiki": {
+   "rho": 0.06839571063059514,
+   "celle": 38
+  },
+  "Historical - Greek - Technical - De odoribus": {
+   "rho": 0.06814677767499229,
+   "celle": 46
+  },
+  "Modern - Yoruba - Technical - Jupiter Wiki": {
+   "rho": 0.0647269272696265,
+   "celle": 103
+  },
+  "Conlangs - Klingon - Literary - NT - Mark": {
+   "rho": 0.04439021073071954,
+   "celle": 147
+  },
+  "Modern - Wolof - Technical - Senegal Wiki": {
+   "rho": 0.04429009473453319,
+   "celle": 107
+  },
+  "Modern - Turkish - Technical - Middle Ages Wiki": {
+   "rho": 0.03831996156669297,
+   "celle": 94
+  },
+  "Conlangs - LOLCat - Literary - NT - Matthew": {
+   "rho": 0.03469147637624411,
+   "celle": 248
+  },
+  "Historical - German - Technical - German Herbarium": {
+   "rho": 0.03153631015533691,
+   "celle": 143
+  },
+  "Historical - Nahuatl - Literary - Nican Mopohua": {
+   "rho": 0.031209494363819913,
+   "celle": 78
+  },
+  "Modern - Spanish - Technical - Voynich Wiki": {
+   "rho": 0.02963280210986633,
+   "celle": 110
+  },
+  "Modern - Swahili - Technical - Lung Cancer Wiki": {
+   "rho": 0.02452364526125514,
+   "celle": 75
+  },
+  "Modern - German - Technical - Voynich Wiki": {
+   "rho": 0.01842261538219029,
+   "celle": 135
+  },
+  "Conlangs - Toki Pona - Literary - NT - Sermon on the Mount": {
+   "rho": 0.017435897435897435,
+   "celle": 26
+  },
+  "Conlangs - Esperanto - Literary - NT": {
+   "rho": 0.010997657977956824,
+   "celle": 157
+  },
+  "Conlangs - Toki Pona - Technical - Turkey-Mexico Wikia": {
+   "rho": 0.007352941176470589,
+   "celle": 33
+  },
+  "Historical - German - Literary - NT - Luther": {
+   "rho": -0.009986787406142245,
+   "celle": 155
+  },
+  "Historical - Italian - Technical - Della Pittura": {
+   "rho": -0.010601951322602235,
+   "celle": 88
+  },
+  "Modern - Tagalog - Literary - NT - Ang Dating Biblia": {
+   "rho": -0.02229325116317077,
+   "celle": 89
+  },
+  "Modern - Maori - Literary - NT": {
+   "rho": -0.024085637823371992,
+   "celle": 58
+  },
+  "Historical - Latin (Abbreviated) - Technical - Pliny's Natural History": {
+   "rho": -0.026806179962596956,
+   "celle": 182
+  },
+  "Modern - Russian - Technical - Voynich Wiki": {
+   "rho": -0.026907429548857404,
+   "celle": 166
+  },
+  "Historical - Spanish - Literary - NT - Sagradas Escrituras": {
+   "rho": -0.05810489588965629,
+   "celle": 133
+  },
+  "Modern - German - Literary - NT": {
+   "rho": -0.059675135574262066,
+   "celle": 141
+  },
+  "Conlangs - Interlingua - Literary - NT": {
+   "rho": -0.06219788092239298,
+   "celle": 137
+  },
+  "Conlangs - Interlingua - Technical - EU Wiki": {
+   "rho": -0.07125320022985177,
+   "celle": 126
+  },
+  "Historical - Flemish - Literary - NT": {
+   "rho": -0.07671770001676749,
+   "celle": 123
+  },
+  "Historical - Latin - Technical - Pliny's Natural History": {
+   "rho": -0.07907018089692877,
+   "celle": 150
+  },
+  "Modern - Tagalog - Technical - Tuberculosis Wiki": {
+   "rho": -0.08127182119304106,
+   "celle": 93
+  },
+  "Historical - Mayan (Kaqchikel) - Literary - Annals of the Cakchiquels": {
+   "rho": -0.08167651895639808,
+   "celle": 150
+  },
+  "Historical - Russian - Literary - NT - Codex Marianus": {
+   "rho": -0.08188289668323401,
+   "celle": 149
+  },
+  "Modern - Portuguese - Technical - Voynich Wiki": {
+   "rho": -0.10855319180743211,
+   "celle": 74
+  },
+  "Modern - Italian - Literary - NT": {
+   "rho": -0.11070336391437309,
+   "celle": 109
+  },
+  "Historical - Sanskrit - Technical - Charaka Samhita": {
+   "rho": -0.11301796754903,
+   "celle": 62
+  },
+  "Historical - Portuguese - Technical - Coloquios dos simples": {
+   "rho": -0.1438086702202934,
+   "celle": 86
+  },
+  "Historical - Italian - Literary - NT - Diodati": {
+   "rho": -0.1441293670651469,
+   "celle": 109
+  },
+  "Conlangs - Lojban - Technical - Science News": {
+   "rho": -0.150010505305192,
+   "celle": 35
+  },
+  "Modern - Swahili - Literary - NT": {
+   "rho": -0.15531914893617021,
+   "celle": 95
+  },
+  "Modern - Italian - Technical - Voynich Wiki": {
+   "rho": -0.21415293567192298,
+   "celle": 78
+  },
+  "Modern - Chinese (Pinyin) - Literary - NT - Matthew": {
+   "rho": -0.2515223693175583,
+   "celle": 20
+  },
+  "Conlangs - Klingon - Technical - Proxima Centauri B Wikia": {
+   "rho": -0.2606060606060606,
+   "celle": 10
+  },
+  "Conlangs - Lojban - Literary - Alice in Wonderland": {
+   "rho": -0.275609756097561,
+   "celle": 81
+  }
+ },
+ "percentile_voynich": 1.0,
+ "esito": "la giuntura ricalca le sequenze interne più che nelle lingue"
+}

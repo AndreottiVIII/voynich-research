@@ -10485,3 +10485,19 @@ Preregistrato (`preregistrazioni/e3a48.md`).
   sequenza dei segni dentro la parola, applicata anche attraverso lo spazio. Con l'e3a47 (le unioni senza spazio
   rispettano il raccordo) e l'e379 (lo spazio a volte spezza le parole): lo spazio è un confine debole dentro una catena
   di segni con regole proprie.
+
+## 4/10/2026 (notte) — e3a49: la giuntura fra parole ricalca le sequenze dentro le parole più che in qualunque lingua
+
+Preregistrato (`preregistrazioni/e3a49.md`). ρ = correlazione di Spearman fra la PMI delle coppie di segni dentro le
+parole e la PMI delle stesse coppie (ultimo segno, primo segno) fra parole vicine, sulle celle comuni.
+
+- **Voynich:** ρ 0,540 (99 celle); a 10.000 parole 0,513, 0,453, 0,609, 0,433, 0,470 (mediana **0,470**).
+- **Testi sensati:** tutti sotto. I più alti sono testi piccoli: neo-quenya tecnico 0,392 (31 celle), maya 0,370 (25),
+  anglosassone 0,330 (22), Corano 0,318 (84); poi volapük 0,234, esperanto 0,191, inglese 0,189; gli altri più in basso.
+- **Gibberish umano:** ρ 0,202 (429 celle).
+- **Esito preregistrato: la giuntura ricalca le sequenze interne più che nelle lingue** (il Voynich sopra il 100% dei
+  testi sensati).
+- **Lettura:** nel Voynich le coppie di segni preferite (o evitate) attraverso lo spazio sono le stesse preferite (o
+  evitate) dentro le parole, molto più che in ogni lingua del confronto. Lo spazio è un confine debole: il testo si
+  comporta come una catena di segni con le sue regole di sequenza, in cui gli spazi sono inseriti senza interrompere le
+  regole. Va con e379, e3a47, e3a48, e397 (spazi prevedibili dai segni intorno).
