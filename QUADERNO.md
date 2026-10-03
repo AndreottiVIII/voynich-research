@@ -5981,3 +5981,32 @@ sequenza.
   - e268 (prime righe) diventa prioritario;
   - nel modulo di riuso la fonte "stessa riga" deve escludere, o rendere rara, la parola immediatamente
     precedente.
+
+## 3/10/2026 — Limite dei processi in background; e243 fallisce già al primo seme
+
+- **Infrastruttura.** Dopo il riavvio i processi in background dell'ambiente vengono fermati dopo circa
+  30 minuti. Così si sono interrotti e243 (dopo il primo seme di verifica) ed e249.
+  - D'ora in poi le code lunghe girano **staccate** (`scratchpad/coda.sh`, file di stato
+    `stato_code.txt`).
+  - Un monitor, riarmato ogni 30 minuti, segnala gli esperimenti conclusi.
+  - Rilanciati da capo:
+    - coda A: e243, e257;
+    - coda B: e249, e222, e219, e223, e216, e212b;
+    - coda C: e270.
+- **e243 (passo 1 del piano), seme 7, prima dell'interruzione:**
+  - pagella **8/18**, AUC **0,975**, R delle parole rare **87,5**;
+  - profilo di riuso giusto (R 32%, V 41%, N 12%);
+  - mancano h2, spazio, uniche, tipi, ripetizione, gradiente, unioni, deriva, Zipf, formule.
+  - Con una media richiesta di 17/18 il passo **non può** essere superato. Lo si completa comunque per
+    avere tutti i numeri.
+- **Diagnosi.**
+  - Il generatore dell'e243 copia e varia soprattutto **le proprie righe** generate, con varianti
+    sempre forzate, e si allontana dal vocabolario del Voynich.
+  - Il generatore "copia e modifica" (e241, 16/18) pesca invece dal vocabolario vero della pagina e lo
+    varia.
+  - Il profilo di riuso giusto non basta: le copie devono poggiare su parole vere.
+- **Come previsto dal piano**, il passo 1 si rifà una volta (e243b), partendo dall'e241 e aggiungendo
+  solo ciò che manca:
+  - copia dalle righe sopra per posizione fisica, con le distanze del Voynich;
+  - niente ripetizione immediata;
+  - parole rare più lunghe.
