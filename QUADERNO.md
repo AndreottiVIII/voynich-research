@@ -5634,3 +5634,26 @@ sequenza.
     Voynich scritto "come un abjad": togliendo i segni vocalici sparisce.
   - Resta il segno che un modello di lettere per quelle lingue si adatta più facilmente a testi a bassa
     entropia (e158).
+
+## 3/10/2026 — e244: dentro la stessa lingua e sezione, gli scribi non hanno procedimenti distinguibili
+
+- **Preregistrato.** Strada 1 della lista di decifrazione.
+  - Caratteristiche del procedimento per pagina: riuso R/V (e237), operatore di variante (e239), le 12
+    scelte di riga (e206b).
+  - Classificatore delle mani ($H della ZL, scribi di Davis) contro permutazioni dentro gli strati
+    lingua × sezione.
+- **Risultati** (183 pagine):
+  - controllo positivo (lingua A/B dentro la sezione): accuratezza 0,99 contro 0,71, **z 10,3**,
+    valido;
+  - **mani:** accuratezza 0,789 contro 0,806 del nullo, **z −0,8**.
+  - Solo due strati hanno più di una mano: erbario B (scribi 2, 3, 5; 32 pagine) e testo stellare B
+    (2, 5).
+- **Esito: nessuna differenza oltre lingua e sezione.**
+- **Lettura.**
+  - Le misure del procedimento distinguono benissimo la lingua A dalla B. Dove si possono confrontare
+    mani diverse a parità di lingua e sezione (erbario B), non le distinguono.
+  - O gli scribi seguono lo stesso procedimento, o le differenze fra scribi stanno nel tratto (forma dei
+    segni, Davis) e non nel modo di comporre.
+  - La potenza è limitata (32 pagine in un solo strato utile).
+  - Nota tecnica: nel .md le etichette delle mani compaiono come *np.str_*; è solo un difetto di stampa,
+    i numeri sono giusti.
