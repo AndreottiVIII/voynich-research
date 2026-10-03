@@ -1062,6 +1062,7 @@ Numeri già registrati nel Quaderno (esperimenti indicati). "Lingue" = 71 testi 
 | alternanza "vocale/consonante" (Sukhotin) al confine, A (e3a30) | **1,086** (z 20,8) | 0,94–1,16, mediana 1,02 | 1,011 | — |
 | inizi uguali fra righe consecutive, rapporto (e3a35) | **0,51** (z −8,0) | mediana 0,95; solo 3 su 57 sotto | 1,32 | — |
 | scriba che guarda avanti di una parola (e3a02, e3a34) | sì (ZL e IT) | — | — | — |
+| coppie fra parole che ricalcano le coppie dentro le parole, ρ (e3a49, e3a50) | **0,47** (IT 0,44; GC 0,50) | sotto 0,39 tutte; di solito sotto 0,2 | 0,20 | — |
 | regole di raccordo *qo*-/*o*-, -*l*/-*r* (e380, e388, e395, e3a16) | sì, in tutte le mani, sessioni e trascrizioni | (*sandhi*, liaison in alcune lingue) | — | — |
 
 **In una riga:** il Voynich ha un legame fra parole vicine forte come quello delle lingue più legate, fatto di regole di
