@@ -8368,3 +8368,15 @@ Preregistrato (`preregistrazioni/e360.md`), controllo dell'e357.
 - Densità di paragrafi contro quota di forme nuove: Spearman 0,216, z 1,5.
 - **Esito preregistrato: l'inventiva non è un effetto dei paragrafi.** Le sessioni differiscono nella quota di forme
   nuove anche nelle righe interne dei paragrafi.
+
+## 3/10/2026 (notte) — e361: le forme nuove non sono due parole attaccate
+
+Preregistrato (`preregistrazioni/e361.md`).
+
+- Forme nuove di almeno 5 segni: 3.090; si tagliano in due parole esistenti (parti con almeno 3 occorrenze) il **48,7%**.
+- Gli errori il 44,3%; le parole comuni della stessa lunghezza il **76,2%**; differenza z −39,3.
+- **Esito preregistrato: no.** Le forme nuove si spiegano come due parole attaccate **meno** delle parole comuni.
+- Fra quelle che si tagliano, la coppia compare altrove come due parole vicine il 16% (fondo 9%). In fine riga 22%
+  contro 18%.
+- **Lettura:** le forme nuove non sono spazi mancati o non visti. Sono forme insolite, fatte di pezzi meno comuni
+  (con l'e359: pezzi presi più spesso dalla propria sessione, come per tutte le parole).
