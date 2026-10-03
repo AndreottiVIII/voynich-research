@@ -1,0 +1,38 @@
+{
+ "righe_comuni": 3903,
+ "righe_con_stessi_segni": 2464,
+ "virgole_nella_IT": 0,
+ "spazi": {
+  "ZL spazio (.)": {
+   "punti": 15486,
+   "IT spazio": 15421,
+   "P(IT spazio)": 0.9958026604675191
+  },
+  "ZL spazio incerto (,)": {
+   "punti": 1366,
+   "IT spazio": 888,
+   "P(IT spazio)": 0.6500732064421669
+  },
+  "ZL nessuno spazio": {
+   "punti": 68485,
+   "IT spazio": 255,
+   "P(IT spazio)": 0.0037234430897276774
+  }
+ },
+ "regola": {
+  "accordo spazio": {
+   "punti": 15421,
+   "p_media": 0.8257776622991514
+  },
+  "accordo non-spazio": {
+   "punti": 68230,
+   "p_media": 0.039248256802785646
+  },
+  "disaccordo": {
+   "punti": 320,
+   "p_media": 0.4873686039598457
+  }
+ },
+ "esito_a": "l'incertezza è sul foglio",
+ "esito_b": "i disaccordi cadono dove la regola è incerta"
+}
