@@ -6934,3 +6934,15 @@ poi l'AUC.
     (Voynich 0,043), scelte di riga 3 → 5; λ_fin 2 + λ_pre 1 → concordanza 0,097 (troppa), scelte di riga 8, coppie
     viste altrove **0,226** (Voynich 0,221).
 - Da qui la prova_v5: circolazione delle rare (v4), più bordi legati e ω 0,2 dalla ricerca dell'e292 (v5).
+
+## 3/10/2026 — e292: le coppie ripetute (ω) non migliorano l'e288 sui semi di verifica
+
+- **Preregistrato:** ω (la prima candidata riprende una parola che seguiva già la parola precedente altrove nel testo) ×
+  τ (tema variato) sopra l'e288; scelta sui semi 1–2 per pagella con la riga, verifica sui 7–9.
+- **Ricerca:** scelta ω 0,2, τ 0 (pagella 36 sui semi 1–2 con la riga in tutti e due; e288 34). Con τ 1 la pagella
+  crolla (12–16) come nell'e291.
+- **Verifica** (semi 7–9): pagella 53 → **47** (perde curva piatta, profilo pagina, formule), riga in 3 semi; AUC
+  0,833 / 0,933 → 0,851 / 0,934; G3 0,870 → 0,857, G6 0,721 → 0,696. **Esito preregistrato: non migliore.**
+- **Lettura.** Il +2 di pagella sui semi di ricerca era rumore (effetto vincitore, terza volta oggi): con due semi, una
+  differenza di 2 punti di pagella non dice niente. Per il ciclo avversario: un ritocco si adotta solo se migliora di
+  più del rumore fra semi (almeno 4 punti di pagella estesa, o 0,02 di AUC), e si verifica sempre sui semi 7–9.
