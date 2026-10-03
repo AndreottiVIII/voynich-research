@@ -270,3 +270,33 @@ Dettagli e numeri in `DOSSIER_WHITE_PAPER.md` §15 e nel QUADERNO del 3/10.
 
    Il modello è più pulito e ha già le statistiche di libro giuste, ma oggi sta a 0,93/0,99. Il generatore vecchio sta
    a 0,82/0,92 ma è pieno di toppe che si pestano i piedi.
+
+## 9. Novità dalla ricerca della notte 3–4/10 (utili al voynichizzatore)
+
+Dettagli e numeri nel `QUADERNO.md` (e373–e3a02); tutto replicato con la trascrizione di Takahashi (e395).
+
+- **Giuntura fra parole:** l'ultimo segno di una parola e il primo della seguente sono legati (0,19 bit oltre il caso;
+  fra le lingue solo 6 su 71 fanno di più). Nessun generatore pubblicato la ha (e399).
+  - **Si ferma all'a capo** (e384) e al **salto di un disegno** dentro la riga (e386); c'è nei testi in cerchio (e391).
+    Nel generatore i legami ai bordi non devono passare da una riga all'altra né oltre un disegno.
+  - È il doppio in lingua B rispetto ad A (e393).
+- **Regole di raccordo** (e380, e388, e390):
+  - *qo*-/*o*- davanti alle gallows: *qo*- dopo una parola in -*y*, -*o*, -*d* (59–64%), *o*- dopo -*n*, -*r*, -*s*,
+    -*m* (23–27% di *qo*). Senza parola prima (etichette, dopo un disegno) quasi solo *o*- (e387). A inizio riga
+    *qo*- è frequente e non guarda la riga sopra (e393).
+  - -*l*/-*r* finale: -*r* davanti ad *a*- (85%), -*l* davanti a *k*-, *t*-, *d*-, *l*-, *s*-, *q*- (63–86%).
+  - Lo stampo generale: dopo -*y* viene *q*- e si evitano *ch*-, *sh*-, *o*-; dopo -*n*, -*r*, -*l*, -*s* vengono *ch*-,
+    *sh*-, *o*-, *a*- e si evita *q*-.
+  - Le regole si applicano scrivendo: una parola copiata dalla riga sopra si accorda alla nuova vicina, non alla fonte
+    (e392, e394). Per *qo*-/*o*- cambia la parola dopo; per -*l*/-*r* cambia la finale della parola prima (lo scriba
+    guarda avanti di una parola) (e396, e3a02).
+- **Bordi della riga** (e389): a fine riga -*m* prende il posto di -*r* (*dar* → *dam*) e un po' di -*l*; a inizio riga
+  *y*-/*s*- prendono il posto di *ch*-/*k*-.
+- **Ripresa:** è copia dalla riga subito sopra (poco dalla seconda, niente oltre), non continuità dell'argomento come
+  nelle lingue (e385). Le copie vengono a pezzi, anche invertiti (e372).
+- **Spazi:** dopo elementi corti lo spazio a volte spezza una parola (*s aiin* / *saiin*, *or aiin* / *oraiin*) (e379);
+  la posizione degli spazi si prevede per il 73% dai segni vicini (e397).
+- **Sessioni (bifogli):** l'inventiva (forme nuove) varia per sessione, non per scriba (e376); le proprietà delle
+  sessioni variano indipendenti (e373).
+- **Niente locuzioni:** oltre la giuntura le parole non preferiscono vicine precise (e375). Il generatore non deve
+  avere coppie di parole fisse.
