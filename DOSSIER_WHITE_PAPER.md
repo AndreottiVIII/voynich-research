@@ -994,3 +994,6 @@ negativi; i numeri sono nei file di `risultati/`.
   segni avvicina A a B solo dell'1% del divario fra A e B (la stessa ricerca ritrova al 100% una chiave casuale). I
   segni hanno lo stesso valore nelle due lingue; cambiano lessico e forma delle parole (B più lunghe: 4,37 contro 4,04
   segni).
+- **Il gibberish scritto a mano non riprende dalle righe sopra; le lingue e il Voynich sì** (e382, pagine di 25 righe
+  per tutti). Eccesso di parole uguali o a una modifica nelle 2 righe sopra: Voynich +0,034, testi sensati +0,029,
+  gibberish −0,001 (rapporti 1,09, 1,20, 0,99). L'e346, con il libro intero come unità, gonfiava i testi sensati.
