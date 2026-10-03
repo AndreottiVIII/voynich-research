@@ -997,3 +997,10 @@ negativi; i numeri sono nei file di `risultati/`.
 - **Il gibberish scritto a mano non riprende dalle righe sopra; le lingue e il Voynich sì** (e382, pagine di 25 righe
   per tutti). Eccesso di parole uguali o a una modifica nelle 2 righe sopra: Voynich +0,034, testi sensati +0,029,
   gibberish −0,001 (rapporti 1,09, 1,20, 0,99). L'e346, con il libro intero come unità, gonfiava i testi sensati.
+- **La giuntura sta fra parole vere** (e383): resta all'83% fra parole di almeno 3 segni (lingue: mediana 86%); le
+  parole spezzate ne spiegano il 18%.
+- **La giuntura non passa a capo: la riga è un'unità chiusa** (e384). Fra l'ultima parola di una riga e la prima della
+  riga sotto la giuntura è zero (z −0,7 su 3.390 coppie), contro 0,19 dentro la riga. Nella prosa che va a capo dove
+  capita il rapporto è circa 0,5–1. Vicino a zero lo hanno solo i testi in cui la riga è un versetto (Corano, Nuovo
+  Testamento ebraico, Vulgata abbreviata). L'esito preregistrato, con una soglia mal scelta (minimo e massimo di testi
+  piccoli), dice "come nella prosa": dichiarato.
