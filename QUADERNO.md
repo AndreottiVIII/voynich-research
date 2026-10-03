@@ -6497,3 +6497,35 @@ sequenza.
   - Secondo il piano il passo si rifà una volta: e251b con questo meccanismo (riuso di pagina senza tema
     concentrato e senza reimmissione).
 - Durata sul nuovo PC: 21 min con `PROCESSI=6`.
+
+## 3/10/2026 — e279, e285, e286: tre prove leggere di decifrazione; due esiti formalmente positivi, da verificare
+
+- **e279, Bacone nelle 12 scelte di riga dell'e206b.** 105.799 bit (una parola dà un bit per ogni classe che ha).
+  - Indice di coincidenza dei gruppi di 5 bit: Voynich 0,0445, **z 17,5** (L4 14,9; L6 18,9; L7 17,2) contro il nullo
+    dentro classe × riga. Controlli: Bacone puro z 341, al 70% z 51, al 30% z 5,1 (indice 0,0437).
+  - **Esito preregistrato: canale baconiano presente.**
+  - **Sospetto, scritto prima della verifica.** Molte classi sono di forma della parola (*o* iniziale, *y* finale,
+    *ch* iniziale…): una parola porta più bit insieme, e due parole su tre sono copie o varianti (e237). Il nullo
+    rimescola i bit uno per uno e spezza questi blocchi, quindi il caso a cui confrontiamo il Voynich è troppo
+    "piatto". È lo stesso tranello dell'e191 (z 13,5 → −0,4 con il nullo a parole intere, e191b). Con le 5 scelte
+    dell'e181, che per lo più non sono di forma, lo stesso nullo dava z 0,5.
+  - **Protocollo:** nessuna lettura; verifica e279b con il nullo a parole intere e il generatore con gli
+    interruttori come controllo negativo.
+- **e285, pezzi della parola nel contesto (tabelle e griglie).** Eccesso di informazione mutua fra pezzi omologhi
+  di parole vicine, rispetto al rimescolamento nella riga:
+  - Voynich: prefisso 0,037; centro 0,010; **finale 0,050**; finale → prefisso 0,117;
+  - generatore e241 (semi 7–9): prefisso 0,027–0,031; centro 0,053–0,062; finale 0,024–0,034; finale → prefisso
+    0,061–0,074;
+  - positivo puro: finale 0,253; al 50% 0,029 (il test vede solo un messaggio denso).
+  - **Esito preregistrato: pezzo portatore candidato, il finale** (0,050 contro una soglia di 0,041).
+  - **Sospetto.** Nel Voynich le parole vicine si somigliano più che nel generatore (0,218 contro 0,207,
+    e241), e due vicine che sono varianti l'una dell'altra hanno spesso lo stesso finale. Il centro, al contrario,
+    dipende meno che nel generatore. Il quadro è quello di una copia fra vicine fatta "per finali", non per forza un
+    messaggio. Anche il legame finale → prefisso è quasi il doppio del generatore.
+  - **Protocollo:** nessuna lettura; verifica e285b sulle sole coppie vicine che non sono varianti.
+- **e286, ruote combinatorie negli anelli (Cc).** Quota di coppie consecutive che cambiano un solo pezzo: anelli
+  0,135 (eccesso 0,023, z 4,8); paragrafi in tratti uguali 0,111 (eccesso 0,014, z 2,6); positivo z 11,4.
+  - **Esito preregistrato: nessuna struttura combinatoria oltre la copia** (eccesso 1,6 volte il riferimento,
+    serviva il doppio).
+  - Gli anelli sono un po' più "sistematici" del testo corrente, coerente con l'e263 (etichette e aree illustrate
+    copiate dalla vicina).
