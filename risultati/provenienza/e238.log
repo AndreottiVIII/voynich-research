@@ -1,0 +1,3 @@
+seme 2: AUC 0.985 tipi_su_parole_pagina 0.724 fra_le_100 0.333 uniche_nel_testo 0.146 somiglianza_vicine 0.193 lunghezza_media 4.151 | profilo {'R': 0.315, 'V': 0.45, 'F': 0.053, 'A': 0.071, 'N': 0.11}
+seme 3: AUC 0.988 tipi_su_parole_pagina 0.723 fra_le_100 0.322 uniche_nel_testo 0.146 somiglianza_vicine 0.196 lunghezza_media 4.180 | profilo {'R': 0.315, 'V': 0.452, 'F': 0.053, 'A': 0.071, 'N': 0.109}
+AUC media 0.987 | pagella 9/18 riga True mancano ['h2', 'spazio', 'tipi', 'gradiente', 'deriva', 'profilo pagina', 'Zipf', 'forma parole', 'verticale'] -> non migliore
