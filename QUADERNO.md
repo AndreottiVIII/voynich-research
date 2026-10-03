@@ -9303,3 +9303,16 @@ Preregistrato (`preregistrazioni/e390.md`). Giuntura fra parole separate da spaz
 - **Lettura:** la giuntura ha uno stampo semplice. Dopo -*y* viene *q*- e si evitano *ch*-, *sh*-, *o*-; dopo -*n*,
   -*r*, -*l*, -*s* vengono *ch*-, *sh*-, *o*-, *a*- e si evita *q*-. È come una distribuzione complementare fra due
   classi di finali e due classi di inizi.
+
+## 3/10/2026 (notte) — e391: nei testi in cerchio e lungo i raggi la giuntura c'è, forte come nei paragrafi
+
+Preregistrato (`preregistrazioni/e391.md`). Loci di tipo cerchio e raggio: 2.185 coppie di parole vicine (cosmologia
+1.038, zodiaco 792, astronomia 355).
+
+- **Giuntura:** E 0,174 (z 24,9) contro 0,170 dei paragrafi a parità di coppie; Q 1,02. **Esito preregistrato: la
+  giuntura c'è anche nei cerchi.** Dove la scrittura è continua, il legame c'è con la stessa forza, qualunque sia la
+  forma del testo (riga, cerchio, raggio).
+- **Regola di *qo*-:** 605 eventi; differenza +0,042, p 0,03. **Esito preregistrato: non dimostrata nei cerchi.** Nei
+  testi circolari *qo*- dopo -*y*/-*o*/-*d* è solo un po' più frequente che dopo -*n*/-*r*/-*s*/-*m*, molto meno che
+  nei paragrafi (Δ +0,25 – +0,48, e388). La giuntura dei cerchi è quindi fatta d'altro, o la regola di *qo*- è propria
+  dei paragrafi: da guardare.
