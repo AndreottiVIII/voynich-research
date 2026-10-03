@@ -5163,3 +5163,17 @@ sequenza.
     serbatoio. Il Voynich la ottiene con **varianti simili ma diverse**: le pagine vere sono omogenee e
     insieme varie.
   - È l'ipotesi successiva, e234: le parole del tema si scrivono sempre con almeno una modifica.
+
+## 3/10/2026 — e190: anche con una misura del disegno migliore, piante simili non hanno vocabolario simile
+
+- **Preregistrato.** È il rifacimento dell'e184.
+  - Una maschera del disegno che esclude le macchie della pergamena, sviluppata su f3r e f9v senza
+    guardare il testo.
+  - Otto caratteristiche: area, verde, profili, proporzioni, radici, foglie, colore.
+  - Coppie di pagine d'erbario dello stesso gruppo di mano e lingua, di fascicoli diversi.
+- **Risultati:** 122 pagine, 3.682 coppie, Spearman −0,062 (nullo 0,003), p 0,84. Nessuna
+  caratteristica presa da sola supera |0,09|.
+- **Esito: nessun legame.**
+- **Lettura.** Conferma l'e184 con un disegno misurato meglio. Si accorda con l'e211 (parole rare poco
+  "della pagina") e con l'e122b (la farmacia non condivide parole con l'erbario della stessa pianta).
+  Nell'erbario il vocabolario non segue la pianta disegnata.
