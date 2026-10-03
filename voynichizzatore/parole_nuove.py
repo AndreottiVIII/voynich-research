@@ -100,8 +100,13 @@ class FormeUniche:
     per tipo di posto (riga prima di paragrafo o no x prima, seconda, in mezzo, ultima), con scelta secondo il profilo
     dei segni della pagina. rr: righe (pagina, inizio paragrafo, parole) del testo da cui si impara."""
     DECIMO, CANDIDATE, ALFA = 0.1, 6, 50.0
+    COMUNE, MINIMO_CONTESTO = 0.01, 3      # e405: segni comuni (quota nel libro); contesto di tre segni visto almeno 3 volte
 
-    def __init__(self, rr):
+    def __init__(self, rr, comuni=False, quattro=False, forza=1.0):
+        """comuni: il profilo pesa solo i segni comuni (e405, N1); quattro: modello a quattro segni con ripiego sui
+        trigrammi (N2); forza: esponente del peso di profilo nella scelta fra candidate (N3)."""
+        self.comuni, self.quattro, self.forza = comuni, quattro, forza
+        self.campioni = self.scartate = 0
         import math
         from disposizione import posizione
         self.log = math.log
@@ -110,6 +115,7 @@ class FormeUniche:
         self.att = set(conta)
         self.usate = set()
         tri, lung = defaultdict(lambda: defaultdict(Counter)), defaultdict(list)
+        qua = defaultdict(lambda: defaultdict(Counter))
         for _, ini, ps in rr:
             for j, w in enumerate(ps):
                 if conta[w] == 1:
@@ -119,6 +125,9 @@ class FormeUniche:
                         v = ('^', '^') + u + ('$',)
                         for a, b, c in zip(v, v[1:], v[2:]):
                             tri[cl][(a, b)][c] += 1
+                        v4 = ('^',) + v
+                        for a, b, c, d in zip(v4, v4[1:], v4[2:], v4[3:]):
+                            qua[cl][(a, b, c)][d] += 1
         self.lung = dict(lung)
         self.tri = {}
         for cl, t in tri.items():
@@ -129,6 +138,16 @@ class FormeUniche:
                     x.update(t.get(k, {}))
                 tab[k] = (sorted(x), [x[c] for c in sorted(x)])
             self.tri[cl] = tab
+        self.qua = {}
+        for cl, t in qua.items():
+            tab = {}
+            for k, v in qua['tutte'].items():
+                x = Counter({c: self.DECIMO * n for c, n in v.items()}) if cl != 'tutte' else Counter(v)
+                if cl != 'tutte':
+                    x.update(t.get(k, {}))
+                if sum(v.values()) >= self.MINIMO_CONTESTO:
+                    tab[k] = (sorted(x), [x[c] for c in sorted(x)])
+            self.qua[cl] = tab
         libro = Counter(g for w, n in conta.items() if n >= 2 for g in D(w) for _ in range(n))
         self.q_libro = {g: n / sum(libro.values()) for g, n in libro.items()}
         self.conta = conta
@@ -137,21 +156,25 @@ class FormeUniche:
         """Logaritmo del rapporto pagina / libro per ogni segno, dalle parole non uniche della pagina."""
         c = Counter(g for w in parole_pagina if self.conta.get(w, 0) >= 2 for g in D(w))
         n = sum(c.values())
-        return {g: self.log((c[g] + self.ALFA * q) / (n + self.ALFA) / q) for g, q in self.q_libro.items()}
+        return {g: self.log((c[g] + self.ALFA * q) / (n + self.ALFA) / q) for g, q in self.q_libro.items()
+                if not self.comuni or q >= self.COMUNE}
 
     def _una(self, cl, L, rnd):
         tab = self.tri[cl]
+        tab4 = self.qua[cl] if self.quattro else {}
         vicina = None
         for _ in range(400):
-            a, b, out = '^', '^', []
+            z, a, b, out = '^', '^', '^', []
             while len(out) <= L + 1:
-                segni, pesi = tab[(a, b)]
+                segni, pesi = tab4.get((z, a, b)) or tab[(a, b)]
                 c = rnd.choices(segni, pesi)[0]
                 if c == '$':
                     break
                 out.append(c)
-                a, b = b, c
+                z, a, b = a, b, c
             w = ''.join(out)
+            self.campioni += 1
+            self.scartate += w in self.att
             if len(w) >= 2 and w not in self.att and w not in self.usate:
                 if len(out) == L:
                     return w
@@ -172,7 +195,7 @@ class FormeUniche:
             cand.append(w)
         if len(cand) > 1:
             import math
-            pesi = [math.exp(sum(profilo.get(g, 0.0) for g in D(w))) for w in cand]
+            pesi = [math.exp(self.forza * sum(profilo.get(g, 0.0) for g in D(w))) for w in cand]
             w = rnd.choices(cand, pesi)[0]
         else:
             w = cand[0]
