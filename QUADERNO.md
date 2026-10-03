@@ -5604,3 +5604,18 @@ sequenza.
 - **Lezione di metodo.** Un confronto di punteggi del modello di lingua fra testi con distribuzioni dei
   simboli diverse non è valido. I test di decifrazione a parole devono avere sempre il controllo "testo
   rimescolato" (e il generatore trattato allo stesso modo) **dentro** il criterio, non solo dopo.
+
+## 3/10/2026 — e218: una chiave che dipende dalla posizione nella parola non dà letture
+
+- **Preregistrato.** Ogni segno cifra in modo diverso a inizio, interno, fine e parola di un segno solo.
+  Dieci lingue, testo ripulito.
+- **Risultati.**
+  - Posizione del modo posizionale (punteggio / copertura delle parole di almeno 6 lettere): in tutte
+    le lingue europee la copertura sta fra −0,07 e 0,07.
+  - Ebraico 0,66 / 0,46 e arabo 0,52 / 0,11.
+- **Esito: nessuna lettura.** Nessuna lingua raggiunge 0,5 su entrambe le misure.
+- **Lettura.**
+  - L'ebraico è di nuovo il più alto (come nell'e212), ma sotto soglia. Gli esempi decifrati sono
+    sequenze senza senso (*תשהחכלישארא…*).
+  - Le scritture senza vocali brevi si adattano più facilmente (e158). L'e221 (abjad: il Voynich senza
+    i segni "vocalici" a, o, e, y, i) lo mette alla prova direttamente.
