@@ -5177,3 +5177,25 @@ sequenza.
 - **Lettura.** Conferma l'e184 con un disegno misurato meglio. Si accorda con l'e211 (parole rare poco
   "della pagina") e con l'e122b (la farmacia non condivide parole con l'erbario della stessa pianta).
   Nell'erbario il vocabolario non segue la pianta disegnata.
+
+## 3/10/2026 — e234: il tema variato dà la varietà della pagina, ma i parametri si fanno concorrenza
+
+- **Preregistrato.**
+  - τ: una candidata dal tema rimasta uguale si modifica una volta.
+  - ℓ: preferenza per le candidate lunghe.
+  - Parte dall'e233 con κ 1 e χ 0,2.
+- **Validità:** con τ 0 e ℓ 0 il testo è identico all'e233.
+- **Risultati** (seme 1):
+  - la combinazione migliore resta τ 0 e ℓ 0 (AUC 0,863);
+  - **τ 1** porta la varietà della pagina al livello del Voynich (tipi su parole 0,747 contro 0,756;
+    uniche 0,134 contro 0,137), ma l'AUC sale a 0,951;
+  - **ℓ 1,5** allunga troppo le parole (4,60 contro 4,46) e abbassa la quota fra le 100 più frequenti
+    (0,36 contro 0,42).
+  - Verifica: τ 0 e ℓ 0 dà 0,889 sui semi 2–3.
+- **Esito: non aiuta abbastanza**, perché la scelta coincide con la partenza.
+- **Lettura.**
+  - Ogni meccanismo da solo porta una caratteristica al valore del Voynich: κ la concentrazione delle
+    frequenti, χ la somiglianza fra vicine, τ la varietà della pagina, ℓ la lunghezza.
+  - Ma si fanno concorrenza: τ e ℓ tolgono peso alle parole frequenti, che sono corte e ripetute.
+  - Una salita per coordinate su un parametro alla volta, a partire da una combinazione fissa, non basta.
+    Serve una ricerca congiunta con il discriminatore come obiettivo: e235.
