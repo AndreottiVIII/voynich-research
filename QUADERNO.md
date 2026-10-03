@@ -10325,3 +10325,14 @@ a parità di corpo; 149 coppie provate, soglia di Bonferroni z 3,82.
   *sh*-, *o*-, *a*-, *d*-, *cth*-, e quasi mai con *k*-, *t*-, *q*-, *l*-, *r*-, *y*-; dopo -*y*, -*o*, -*d* queste ultime
   sono frequenti. Le iniziali si dividono in due classi rispetto alla giuntura, come le finali. Dentro ciascuna classe
   (*ch*/*sh*, *k*/*t*) la scelta non dipende dalla parola prima.
+
+## 4/10/2026 (notte) — e3a42: un po' di continuità di lessico fra paragrafi consecutivi
+
+Preregistrato (`preregistrazioni/e3a42.md`). 85 pagine con almeno 3 paragrafi di almeno 15 parole (518 paragrafi).
+Somiglianza = quota di parole (3+ segni) con una parola uguale o a una modifica nell'altro paragrafo.
+
+- Paragrafi consecutivi 0,505, lontani 0,448: differenza +0,056. Nullo (ordine dei paragrafi rimescolato) +0,040: non è
+  zero perché le pagine con pochi paragrafi pesano di più nelle coppie vicine. Eccesso +0,016, **z 4,1**.
+- **Esito preregistrato: continuità fra paragrafi vicini.**
+- **Lettura:** la copia riga per riga si ferma al confine del paragrafo (e343), ma il lessico scorre un po' da un
+  paragrafo al successivo, come in una sessione di scrittura continua. L'effetto è piccolo.
