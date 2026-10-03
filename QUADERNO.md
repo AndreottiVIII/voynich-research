@@ -10366,3 +10366,21 @@ Chat del voynichizzatore. Preregistrato (`preregistrazioni/e412.md`). Risultati 
 - **Esito secondo la preregistrazione:** M2 si tiene (statistica tornata, giudice forte sceso, cancello in almeno 2 semi) e diventa la **v12**, con il messaggio nel sacco; va al banco.
 
 - **Lettura per la ricerca sul Voynich.** Nel Voynich la metà alta e la metà bassa di una pagina hanno profili dei segni più diversi di quanto dia il caso (0,050 contro 0,038 rimescolando le righe): un generatore con le righe scambiabili si riconosce da questo. Il perché (paragrafi, tempo, penna) resta da studiare.
+
+## 4/10/2026 (notte) — e3a43: le sette proprietà principali reggono in tutte e due le metà del libro
+
+Preregistrato (`preregistrazioni/e3a43.md`). Libro diviso per ordine delle pagine: 103 + 104 pagine con testo (la seconda
+metà comincia da f53v).
+
+| proprietà | prima metà | seconda metà |
+|---|---|---|
+| giuntura nella riga | E 0,119, z 43 | E 0,193, z 169 |
+| giuntura a capo | E 0,002, z 0,2 | E −0,004, z −0,7 |
+| regola di *qo*- | +0,25, p < 0,001 | +0,42, p < 0,001 |
+| regola di -*l*/-*r* | +0,55, p < 0,001 | +0,60, p < 0,001 |
+| margine sinistro (inizi uguali) | rapporto 0,38, z −5,1 | 0,56, z −5,9 |
+| legame a distanza 2 | E 0,000, z −0,3 | E 0,002, z 1,1 |
+| -*m* al posto di -*r* | z 11,1 / −6,7 | z 24,3 / −11,7 |
+
+- **Esito preregistrato: tutte le proprietà reggono in tutte e due le metà.** Nella seconda metà (più lingua B) la
+  giuntura e la regola di *qo*- sono più forti, come già visto (e393, e388).
