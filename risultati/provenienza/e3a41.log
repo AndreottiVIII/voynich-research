@@ -1,0 +1,149 @@
+ch sh {"corpi": 260, "eventi": 6513, "E": -0.00037185764912926744, "z": -0.1353056527895931, "quota_di_ch_per_classe": {"V": 0.66, "C": 0.62, "L": 0.64, "X": 0.67}, "legata": false}
+ch q {"corpi": 186, "eventi": 6476, "E": 0.04060198418036089, "z": 17.28000847948624, "quota_di_ch_per_classe": {"V": 0.25, "C": 0.73, "L": 0.66, "X": 0.73}, "legata": true}
+a o {"corpi": 91, "eventi": 3457, "E": 0.02330259735522073, "z": 7.791560487011306, "quota_di_a_per_classe": {"V": 0.15, "C": 0.43, "L": 0.19, "X": 0.5}, "legata": true}
+o y {"corpi": 160, "eventi": 4410, "E": 0.003224028509370057, "z": 0.9572089207953575, "quota_di_o_per_classe": {"V": 0.85, "C": 0.84, "L": 0.88, "X": 0.79}, "legata": false}
+ch d {"corpi": 105, "eventi": 4688, "E": 0.02046445450706083, "z": 8.976496966296104, "quota_di_ch_per_classe": {"V": 0.49, "C": 0.76, "L": 0.59, "X": 0.72}, "legata": true}
+l o {"corpi": 123, "eventi": 3909, "E": 0.04749023162102819, "z": 14.14769610699797, "quota_di_l_per_classe": {"V": 0.32, "C": 0.04, "L": 0.21, "X": 0.09}, "legata": true}
+ch o {"corpi": 147, "eventi": 5830, "E": -0.0001328888311101853, "z": -0.05477415263903388, "quota_di_ch_per_classe": {"V": 0.32, "C": 0.39, "L": 0.45, "X": 0.38}, "legata": false}
+ch k {"corpi": 89, "eventi": 3280, "E": 0.06926407842258543, "z": 20.83406154623837, "quota_di_ch_per_classe": {"V": 0.71, "C": 0.97, "L": 0.81, "X": 0.83}, "legata": true}
+ch cth {"corpi": 53, "eventi": 3095, "E": 0.008102602507753964, "z": 2.6817567439141508, "quota_di_ch_per_classe": {"V": 0.84, "C": 0.87, "L": 0.91, "X": 0.94}, "legata": false}
+q sh {"corpi": 111, "eventi": 3781, "E": 0.04041651480851718, "z": 13.516877038610042, "quota_di_q_per_classe": {"V": 0.77, "C": 0.27, "L": 0.35, "X": 0.38}, "legata": true}
+cth sh {"corpi": 48, "eventi": 1990, "E": 0.008655738403891222, "z": 2.099386177748172, "quota_di_cth_per_classe": {"V": 0.25, "C": 0.2, "L": 0.14, "X": 0.09}, "legata": false}
+d sh {"corpi": 68, "eventi": 3408, "E": 0.019355281256773854, "z": 7.263982372775624, "quota_di_d_per_classe": {"V": 0.66, "C": 0.34, "L": 0.54, "X": 0.43}, "legata": true}
+k sh {"corpi": 71, "eventi": 2165, "E": 0.09476413522329949, "z": 20.14460902086212, "quota_di_k_per_classe": {"V": 0.42, "C": 0.04, "L": 0.27, "X": 0.26}, "legata": true}
+d k {"corpi": 81, "eventi": 2382, "E": 0.008477485292446796, "z": 2.207231470846182, "quota_di_d_per_classe": {"V": 0.73, "C": 0.9, "L": 0.75, "X": 0.65}, "legata": false}
+ch l {"corpi": 84, "eventi": 2108, "E": 0.05670952537365149, "z": 11.112160027614593, "quota_di_ch_per_classe": {"V": 0.56, "C": 0.93, "L": 0.81, "X": 0.91}, "legata": true}
+k t {"corpi": 79, "eventi": 928, "E": 0.01369112048200155, "z": 1.4083077507744675, "quota_di_k_per_classe": {"V": 0.61, "C": 0.55, "L": 0.68}, "legata": false}
+d s {"corpi": 67, "eventi": 2107, "E": 0.0025036869881449667, "z": 0.6526211402336958, "quota_di_d_per_classe": {"V": 0.83, "C": 0.87, "L": 0.89, "X": 0.88}, "legata": false}
+l y {"corpi": 82, "eventi": 1183, "E": 0.10507166113805427, "z": 11.197882573761284, "quota_di_l_per_classe": {"V": 0.73, "C": 0.19, "L": 0.67, "X": 0.27}, "legata": true}
+cth d {"corpi": 31, "eventi": 1868, "E": 0.0366435966902421, "z": 9.620321272066338, "quota_di_cth_per_classe": {"V": 0.15, "C": 0.35, "L": 0.13, "X": 0.14}, "legata": true}
+ch s {"corpi": 66, "eventi": 1765, "E": 0.02767640831527248, "z": 5.642947295704424, "quota_di_ch_per_classe": {"V": 0.71, "C": 0.92, "L": 0.86, "X": 0.93}, "legata": true}
+ch t {"corpi": 73, "eventi": 3013, "E": 0.04249105912336398, "z": 13.811874917863497, "quota_di_ch_per_classe": {"V": 0.8, "C": 0.98, "L": 0.91, "X": 0.94}, "legata": true}
+l sh {"corpi": 68, "eventi": 1160, "E": 0.08084616933393748, "z": 10.493630961211297, "quota_di_l_per_classe": {"V": 0.61, "C": 0.15, "L": 0.33, "X": 0.25}, "legata": true}
+sh t {"corpi": 61, "eventi": 1937, "E": 0.07608010392168205, "z": 16.785862372102418, "quota_di_sh_per_classe": {"V": 0.69, "C": 0.97, "L": 0.87, "X": 0.95}, "legata": true}
+d r {"corpi": 47, "eventi": 1973, "E": 0.023538997580038294, "z": 5.975703806957141, "quota_di_d_per_classe": {"V": 0.81, "C": 0.98, "L": 0.93, "X": 0.88}, "legata": true}
+o sh {"corpi": 90, "eventi": 3908, "E": 0.002241038441015253, "z": 0.7981570870948382, "quota_di_o_per_classe": {"V": 0.75, "C": 0.7, "L": 0.62, "X": 0.79}, "legata": false}
+d t {"corpi": 69, "eventi": 2097, "E": -0.0012102027346280186, "z": -0.30366445963570865, "quota_di_d_per_classe": {"V": 0.81, "C": 0.92, "L": 0.86, "X": 0.94}, "legata": false}
+k s {"corpi": 45, "eventi": 661, "E": 0.030096093601969354, "z": 2.6337337721862606, "quota_di_k_per_classe": {"V": 0.58, "C": 0.4, "L": 0.66}, "legata": false}
+d l {"corpi": 69, "eventi": 2366, "E": 0.005009832082868919, "z": 1.361204543200362, "quota_di_d_per_classe": {"V": 0.65, "C": 0.87, "L": 0.81, "X": 0.75}, "legata": false}
+k l {"corpi": 57, "eventi": 821, "E": 0.01953655944987588, "z": 2.0371433021704433, "quota_di_k_per_classe": {"V": 0.42, "C": 0.55, "L": 0.63}, "legata": false}
+ch y {"corpi": 80, "eventi": 2153, "E": -0.002749159519047771, "z": -0.6593389829263111, "quota_di_ch_per_classe": {"V": 0.74, "C": 0.78, "L": 0.88, "X": 0.72}, "legata": false}
+r s {"corpi": 35, "eventi": 494, "E": 0.05025636736879682, "z": 4.206607637432491, "quota_di_r_per_classe": {"V": 0.53, "C": 0.12, "L": 0.41}, "legata": true}
+k r {"corpi": 37, "eventi": 547, "E": 0.05668347287135382, "z": 5.032825232952157, "quota_di_k_per_classe": {"V": 0.51, "C": 0.79, "L": 0.73}, "legata": true}
+ch r {"corpi": 39, "eventi": 1363, "E": 0.10546831579781321, "z": 19.61248526332734, "quota_di_ch_per_classe": {"V": 0.65, "C": 0.98, "L": 0.9, "X": 0.92}, "legata": true}
+d q {"corpi": 52, "eventi": 2202, "E": 0.016080617128787868, "z": 5.127948571633867, "quota_di_d_per_classe": {"V": 0.43, "C": 0.69, "L": 0.78, "X": 0.64}, "legata": true}
+cth k {"corpi": 29, "eventi": 692, "E": 0.14062343079302225, "z": 14.733360485590556, "quota_di_cth_per_classe": {"V": 0.4, "C": 0.87, "L": 0.34}, "legata": true}
+s sh {"corpi": 45, "eventi": 957, "E": 0.04251716630358339, "z": 5.78713635468824, "quota_di_s_per_classe": {"V": 0.45, "C": 0.14, "L": 0.26}, "legata": true}
+l t {"corpi": 55, "eventi": 670, "E": 0.018638384988176937, "z": 1.6516455168685762, "quota_di_l_per_classe": {"V": 0.68, "C": 0.53, "L": 0.53}, "legata": false}
+ch ckh {"corpi": 43, "eventi": 2818, "E": 0.004208001040095832, "z": 1.5201127487190564, "quota_di_ch_per_classe": {"V": 0.93, "C": 0.94, "L": 0.97, "X": 0.92}, "legata": false}
+ckh sh {"corpi": 39, "eventi": 1735, "E": 0.0014688895805550842, "z": 0.3445200136843892, "quota_di_ckh_per_classe": {"V": 0.12, "C": 0.09, "L": 0.04, "X": 0.14}, "legata": false}
+r t {"corpi": 33, "eventi": 422, "E": 0.006165138776819248, "z": 0.4519664741396221, "quota_di_r_per_classe": {"V": 0.58, "C": 0.29, "L": 0.43}, "legata": false}
+s t {"corpi": 37, "eventi": 482, "E": 0.01517336184560418, "z": 1.1852104432284316, "quota_di_s_per_classe": {"V": 0.53, "C": 0.64, "L": 0.53}, "legata": false}
+cth l {"corpi": 26, "eventi": 465, "E": 0.12439297161737456, "z": 9.954580606836958, "quota_di_cth_per_classe": {"V": 0.43, "C": 0.87, "L": 0.65}, "legata": true}
+cth t {"corpi": 26, "eventi": 551, "E": 0.09693659272428436, "z": 8.395913665542135, "quota_di_cth_per_classe": {"V": 0.51, "C": 0.91, "L": 0.55}, "legata": true}
+l r {"corpi": 44, "eventi": 684, "E": 0.009027333664453505, "z": 1.0234140444677284, "quota_di_l_per_classe": {"V": 0.64, "C": 0.77, "L": 0.66}, "legata": false}
+ckh cth {"corpi": 29, "eventi": 519, "E": 0.007641077303297272, "z": 0.6773875124695303, "quota_di_ckh_per_classe": {"V": 0.26, "C": 0.3, "L": 0.23}, "legata": false}
+l q {"corpi": 54, "eventi": 2157, "E": 0.010234230041969973, "z": 2.849494875361789, "quota_di_l_per_classe": {"V": 0.12, "C": 0.11, "L": 0.27, "X": 0.3}, "legata": false}
+cth q {"corpi": 28, "eventi": 655, "E": 0.09036820492722397, "z": 10.085867206484995, "quota_di_cth_per_classe": {"V": 0.37, "C": 0.76, "L": 0.61}, "legata": true}
+r sh {"corpi": 30, "eventi": 743, "E": 0.1419851494384453, "z": 16.88875766631567, "quota_di_r_per_classe": {"V": 0.49, "C": 0.04, "L": 0.2}, "legata": true}
+l s {"corpi": 43, "eventi": 742, "E": 0.002772226204857023, "z": 0.2826611259143971, "quota_di_l_per_classe": {"V": 0.67, "C": 0.41, "L": 0.58}, "legata": false}
+cth s {"corpi": 19, "eventi": 516, "E": 0.08507513538604027, "z": 8.239430846552365, "quota_di_cth_per_classe": {"V": 0.41, "C": 0.76, "L": 0.49}, "legata": true}
+d o {"corpi": 59, "eventi": 3289, "E": 0.009562393884864573, "z": 3.9405438381957336, "quota_di_d_per_classe": {"V": 0.58, "C": 0.31, "L": 0.6, "X": 0.37}, "legata": true}
+ckh k {"corpi": 29, "eventi": 487, "E": 0.1369218515026449, "z": 10.162668384016085, "quota_di_ckh_per_classe": {"V": 0.19, "C": 0.72, "L": 0.13}, "legata": true}
+ch cph {"corpi": 41, "eventi": 2531, "E": 0.0028299998669195636, "z": 0.9644853470583771, "quota_di_ch_per_classe": {"V": 0.94, "C": 0.96, "L": 0.97, "X": 0.97}, "legata": false}
+cth r {"corpi": 18, "eventi": 444, "E": 0.21218575218600771, "z": 18.61305346541828, "quota_di_cth_per_classe": {"V": 0.39, "C": 0.94, "L": 0.6}, "legata": true}
+ckh d {"corpi": 25, "eventi": 1675, "E": 0.0167930206125875, "z": 4.983347986662013, "quota_di_ckh_per_classe": {"V": 0.06, "C": 0.16, "L": 0.04, "X": 0.12}, "legata": true}
+ckh t {"corpi": 28, "eventi": 336, "E": 0.10229978895952674, "z": 5.589652893670103, "quota_di_ckh_per_classe": {"V": 0.28, "C": 0.79, "L": 0.25}, "legata": true}
+cph sh {"corpi": 34, "eventi": 1601, "E": 0.006119906863695422, "z": 1.6071198021550042, "quota_di_cph_per_classe": {"V": 0.09, "C": 0.05, "L": 0.04, "X": 0.06}, "legata": false}
+k q {"corpi": 37, "eventi": 909, "E": 0.007793407380338527, "z": 1.010049085735282, "quota_di_k_per_classe": {"V": 0.32, "C": 0.2, "L": 0.65, "X": 0.5}, "legata": false}
+sh y {"corpi": 48, "eventi": 1120, "E": 0.00844131201531026, "z": 1.2939906385431104, "quota_di_sh_per_classe": {"V": 0.64, "C": 0.7, "L": 0.78, "X": 0.56}, "legata": false}
+q s {"corpi": 42, "eventi": 1407, "E": 0.005297792075454395, "z": 1.1342865515208438, "quota_di_q_per_classe": {"V": 0.89, "C": 0.72, "L": 0.76}, "legata": false}
+k o {"corpi": 37, "eventi": 967, "E": 0.04569621321574022, "z": 6.419986110670652, "quota_di_k_per_classe": {"V": 0.62, "C": 0.09, "L": 0.54, "X": 0.55}, "legata": true}
+cph k {"corpi": 26, "eventi": 381, "E": 0.11592642406142001, "z": 7.721958745778658, "quota_di_cph_per_classe": {"V": 0.14, "C": 0.63, "L": 0.12}, "legata": true}
+cph cth {"corpi": 25, "eventi": 440, "E": 0.0034624582052726893, "z": 0.27746996100935745, "quota_di_cph_per_classe": {"V": 0.2, "C": 0.17, "L": 0.19}, "legata": false}
+ckh s {"corpi": 18, "eventi": 325, "E": 0.046410718644199225, "z": 3.13065574561896, "quota_di_ckh_per_classe": {"V": 0.18, "C": 0.52, "L": 0.2}, "legata": false}
+cph t {"corpi": 26, "eventi": 271, "E": 0.12042418299716667, "z": 6.074907542813084, "quota_di_cph_per_classe": {"V": 0.2, "C": 0.67, "L": 0.24}, "legata": true}
+k p {"corpi": 32, "eventi": 369, "E": -0.004335454410748049, "z": -0.3306048103829943, "quota_di_k_per_classe": {"V": 0.75, "C": 0.82, "L": 0.85}, "legata": false}
+l p {"corpi": 30, "eventi": 424, "E": 0.000726563852018941, "z": 0.06166936547872911, "quota_di_l_per_classe": {"V": 0.82, "C": 0.83, "L": 0.79}, "legata": false}
+o t {"corpi": 35, "eventi": 368, "E": 0.10484219325771044, "z": 5.927694870539225, "quota_di_o_per_classe": {"V": 0.21, "C": 0.7, "L": 0.34}, "legata": true}
+q t {"corpi": 35, "eventi": 1076, "E": -0.0010435253273632233, "z": -0.18315945611927853, "quota_di_q_per_classe": {"V": 0.83, "C": 0.87, "L": 0.62}, "legata": false}
+a ch {"corpi": 26, "eventi": 1127, "E": 0.0004246321255406277, "z": 0.08720177021905724, "quota_di_a_per_classe": {"V": 0.48, "C": 0.79, "L": 0.47, "X": 0.75}, "legata": false}
+q r {"corpi": 26, "eventi": 795, "E": 0.010034830692471915, "z": 1.541803235421611, "quota_di_q_per_classe": {"V": 0.82, "C": 0.88, "L": 0.71}, "legata": false}
+ckh cph {"corpi": 25, "eventi": 222, "E": 0.018355900393443175, "z": 0.7840828061161718, "quota_di_ckh_per_classe": {"V": 0.59, "C": 0.66, "L": 0.54}, "legata": false}
+p t {"corpi": 29, "eventi": 252, "E": 0.006080909276465207, "z": 0.3230927819176298, "quota_di_p_per_classe": {"V": 0.35, "C": 0.19, "L": 0.23}, "legata": false}
+ckh l {"corpi": 19, "eventi": 250, "E": 0.07848047383439469, "z": 3.9076941041524678, "quota_di_ckh_per_classe": {"V": 0.2, "C": 0.65, "L": 0.41}, "legata": true}
+o s {"corpi": 35, "eventi": 1472, "E": 0.012923744278363236, "z": 3.0976296106739487, "quota_di_o_per_classe": {"V": 0.75, "C": 0.93, "L": 0.8, "X": 0.83}, "legata": false}
+ckh q {"corpi": 23, "eventi": 390, "E": 0.05080686430134236, "z": 3.864273862188293, "quota_di_ckh_per_classe": {"V": 0.2, "C": 0.62, "L": 0.34}, "legata": true}
+ckh r {"corpi": 15, "eventi": 255, "E": 0.14701828547387502, "z": 8.394213228123448, "quota_di_ckh_per_classe": {"V": 0.16, "C": 0.82, "L": 0.31}, "legata": true}
+cph d {"corpi": 23, "eventi": 1443, "E": 0.004800643560651262, "z": 1.2939026174966173, "quota_di_cph_per_classe": {"V": 0.04, "C": 0.1, "L": 0.03, "X": 0.0}, "legata": false}
+o r {"corpi": 26, "eventi": 1075, "E": 0.042807793660339724, "z": 9.769276011245275, "quota_di_o_per_classe": {"V": 0.66, "C": 0.98, "L": 0.84, "X": 0.93}, "legata": true}
+d p {"corpi": 26, "eventi": 1243, "E": -0.0017670815908220998, "z": -0.4838705606879266, "quota_di_d_per_classe": {"V": 0.92, "C": 0.98, "L": 0.97}, "legata": false}
+ch e {"corpi": 30, "eventi": 1627, "E": 0.002044598878749637, "z": 0.6480525257725117, "quota_di_ch_per_classe": {"V": 0.97, "C": 0.97, "L": 0.95, "X": 1.0}, "legata": false}
+cph l {"corpi": 16, "eventi": 175, "E": 0.12295133879908854, "z": 4.953921398583071, "quota_di_cph_per_classe": {"V": 0.18, "C": 0.54, "L": 0.41}, "legata": true}
+cph s {"corpi": 17, "eventi": 246, "E": 0.03773471462329417, "z": 2.1516369790068124, "quota_di_cph_per_classe": {"V": 0.15, "C": 0.35, "L": 0.19}, "legata": false}
+d y {"corpi": 36, "eventi": 582, "E": 0.022473798591382793, "z": 2.452900239577407, "quota_di_d_per_classe": {"V": 0.73, "C": 0.46, "L": 0.82}, "legata": false}
+cth o {"corpi": 16, "eventi": 771, "E": 0.013968123045779608, "z": 2.1843953026993046, "quota_di_cth_per_classe": {"V": 0.35, "C": 0.26, "L": 0.21}, "legata": false}
+e sh {"corpi": 26, "eventi": 1143, "E": -0.0014647083168049385, "z": -0.33878340800695306, "quota_di_e_per_classe": {"V": 0.04, "C": 0.04, "L": 0.05, "X": 0.0}, "legata": false}
+cph r {"corpi": 11, "eventi": 182, "E": 0.14984505832029454, "z": 7.121693770075049, "quota_di_cph_per_classe": {"V": 0.13, "C": 0.69, "L": 0.32}, "legata": true}
+cph q {"corpi": 23, "eventi": 335, "E": 0.06647956433331718, "z": 4.520714150309084, "quota_di_cph_per_classe": {"V": 0.12, "C": 0.44, "L": 0.37}, "legata": true}
+o q {"corpi": 35, "eventi": 881, "E": 0.009259294006397911, "z": 1.4656729296997846, "quota_di_o_per_classe": {"V": 0.66, "C": 0.87, "L": 0.82, "X": 0.79}, "legata": false}
+p r {"corpi": 18, "eventi": 209, "E": 0.017898834808435946, "z": 1.196160770301306, "quota_di_p_per_classe": {"V": 0.27, "C": 0.4, "L": 0.29}, "legata": false}
+a l {"corpi": 20, "eventi": 528, "E": 0.0464329028712661, "z": 4.836869498725106, "quota_di_a_per_classe": {"V": 0.31, "C": 0.91, "L": 0.52, "X": 0.91}, "legata": true}
+f k {"corpi": 19, "eventi": 216, "E": 0.052764497076757594, "z": 2.3545819296423596, "quota_di_f_per_classe": {"V": 0.17, "C": 0.25, "L": 0.15}, "legata": false}
+e o {"corpi": 24, "eventi": 665, "E": 0.013161379065137882, "z": 1.8024315291577369, "quota_di_e_per_classe": {"V": 0.04, "C": 0.06, "L": 0.15}, "legata": false}
+f t {"corpi": 17, "eventi": 137, "E": 0.12294984284180113, "z": 4.142089914437585, "quota_di_f_per_classe": {"V": 0.26, "C": 0.33, "L": 0.21}, "legata": true}
+d f {"corpi": 18, "eventi": 390, "E": 0.03435059025039349, "z": 3.217177576957217, "quota_di_d_per_classe": {"V": 0.9, "C": 0.94, "L": 0.93}, "legata": false}
+f p {"corpi": 16, "eventi": 93, "E": 0.10109144745712795, "z": 2.9953603477319217, "quota_di_f_per_classe": {"V": 0.3, "L": 0.46}, "legata": false}
+f l {"corpi": 15, "eventi": 291, "E": 0.08471725706475428, "z": 6.2134784379965735, "quota_di_f_per_classe": {"V": 0.08, "C": 0.39, "L": 0.18}, "legata": true}
+c o {"corpi": 24, "eventi": 1220, "E": 0.007604817296117006, "z": 1.8414127978352217, "quota_di_c_per_classe": {"V": 0.02, "C": 0.02, "L": 0.04, "X": 0.08}, "legata": false}
+p s {"corpi": 19, "eventi": 232, "E": -0.016189309808376212, "z": -1.141134969465697, "quota_di_p_per_classe": {"V": 0.31, "C": 0.09, "L": 0.26}, "legata": false}
+cfh ch {"corpi": 18, "eventi": 1536, "E": -0.0020431576121118546, "z": -0.7372686974371595, "quota_di_cfh_per_classe": {"V": 0.02, "C": 0.02, "L": 0.02, "X": 0.0}, "legata": false}
+a d {"corpi": 18, "eventi": 476, "E": 0.04218113317933608, "z": 5.158411013578901, "quota_di_a_per_classe": {"V": 0.23, "C": 0.81, "L": 0.25}, "legata": true}
+s y {"corpi": 24, "eventi": 215, "E": 0.03339348735832931, "z": 1.5988276387323268, "quota_di_s_per_classe": {"V": 0.5, "C": 0.3, "L": 0.48}, "legata": false}
+cfh sh {"corpi": 16, "eventi": 873, "E": -0.005399559952151557, "z": -1.2261481493646615, "quota_di_cfh_per_classe": {"V": 0.04, "C": 0.03, "L": 0.04, "X": 0.0}, "legata": false}
+cfh cth {"corpi": 16, "eventi": 293, "E": -0.0016798389355537069, "z": -0.1420144056823154, "quota_di_cfh_per_classe": {"V": 0.09, "C": 0.08, "L": 0.15}, "legata": false}
+k y {"corpi": 21, "eventi": 209, "E": 0.11893601442589646, "z": 5.905174135184223, "quota_di_k_per_classe": {"V": 0.95, "C": 0.52, "L": 0.81}, "legata": true}
+r y {"corpi": 20, "eventi": 165, "E": 0.17855064073012122, "z": 6.55368317273867, "quota_di_r_per_classe": {"V": 0.66, "C": 0.1, "L": 0.53}, "legata": true}
+cfh ckh {"corpi": 14, "eventi": 138, "E": 0.04798472804074841, "z": 1.5712390225522732, "quota_di_cfh_per_classe": {"V": 0.17, "C": 0.13, "L": 0.44}, "legata": false}
+ch p {"corpi": 18, "eventi": 820, "E": 0.0020802784795333484, "z": 0.42016169610102416, "quota_di_ch_per_classe": {"V": 0.9, "C": 0.99, "L": 0.98, "X": 1.0}, "legata": false}
+p q {"corpi": 17, "eventi": 465, "E": -0.0018738703831631398, "z": -0.21404303294834523, "quota_di_p_per_classe": {"V": 0.05, "C": 0.08, "L": 0.14}, "legata": false}
+t y {"corpi": 19, "eventi": 152, "E": 0.11848474797240091, "z": 4.502333438684646, "quota_di_t_per_classe": {"V": 0.93, "C": 0.47, "L": 0.74}, "legata": true}
+ckh o {"corpi": 15, "eventi": 161, "E": -0.011264791569553664, "z": -0.5056815299065484, "quota_di_ckh_per_classe": {"V": 0.5, "C": 0.45, "L": 0.28}, "legata": false}
+c ch {"corpi": 20, "eventi": 356, "E": 0.00470754132946187, "z": 0.43657117253752475, "quota_di_c_per_classe": {"V": 0.04, "C": 0.07, "L": 0.1}, "legata": false}
+a y {"corpi": 20, "eventi": 368, "E": -0.00820684721250673, "z": -0.7568504332232954, "quota_di_a_per_classe": {"V": 0.31, "C": 0.65, "L": 0.56}, "legata": false}
+f r {"corpi": 9, "eventi": 89, "E": 0.22028155913035968, "z": 5.961371648090609, "quota_di_f_per_classe": {"V": 0.2, "L": 0.33}, "legata": true}
+o p {"corpi": 14, "eventi": 98, "E": 0.14544291291190214, "z": 3.635387160761726, "quota_di_o_per_classe": {"V": 0.25, "C": 0.88, "L": 0.38}, "legata": false}
+cfh k {"corpi": 12, "eventi": 237, "E": 0.05978252467232653, "z": 3.718193642128942, "quota_di_cfh_per_classe": {"V": 0.05, "C": 0.33, "L": 0.1}, "legata": false}
+cfh d {"corpi": 13, "eventi": 1159, "E": 0.0013604367574462269, "z": 0.42306064765251766, "quota_di_cfh_per_classe": {"V": 0.01, "C": 0.03, "L": 0.02, "X": 0.0}, "legata": false}
+cfh cph {"corpi": 12, "eventi": 77, "E": 0.05383353193435447, "z": 1.1220260741614452, "quota_di_cfh_per_classe": {"V": 0.27, "C": 0.27, "L": 0.39}, "legata": false}
+cfh t {"corpi": 12, "eventi": 130, "E": 0.04542466363858891, "z": 1.8263237989808545, "quota_di_cfh_per_classe": {"V": 0.09, "C": 0.38, "L": 0.22}, "legata": false}
+c y {"corpi": 19, "eventi": 147, "E": 0.07824019399837664, "z": 2.9891044601550423, "quota_di_c_per_classe": {"V": 0.14, "C": 0.15, "L": 0.47}, "legata": false}
+q y {"corpi": 22, "eventi": 470, "E": 0.01424569805546784, "z": 1.6420313218902705, "quota_di_q_per_classe": {"V": 0.81, "C": 0.5, "L": 0.63}, "legata": false}
+e k {"corpi": 14, "eventi": 272, "E": 0.050230023494237566, "z": 3.1271241123179814, "quota_di_e_per_classe": {"V": 0.04, "C": 0.39, "L": 0.11}, "legata": false}
+a sh {"corpi": 16, "eventi": 591, "E": -0.00028566931884481395, "z": -0.04951184248723439, "quota_di_a_per_classe": {"V": 0.55, "C": 0.83, "L": 0.7, "X": 0.92}, "legata": false}
+cfh l {"corpi": 10, "eventi": 109, "E": 0.03988856345471434, "z": 1.1200459158404399, "quota_di_cfh_per_classe": {"V": 0.09, "C": 0.43, "L": 0.33}, "legata": false}
+p y {"corpi": 14, "eventi": 74, "E": 0.21883369039786704, "z": 5.271505188585221, "quota_di_p_per_classe": {"V": 0.9, "C": 0.25, "L": 0.6}, "legata": true}
+e t {"corpi": 12, "eventi": 152, "E": 0.08406406951692269, "z": 3.8314318237576503, "quota_di_e_per_classe": {"V": 0.07, "C": 0.36, "L": 0.15}, "legata": true}
+p sh {"corpi": 11, "eventi": 371, "E": 0.008861377687553962, "z": 0.9094963401741356, "quota_di_p_per_classe": {"V": 0.16, "C": 0.02, "L": 0.06}, "legata": false}
+cph o {"corpi": 8, "eventi": 65, "E": 0.05031977278829025, "z": 1.1225246365170984, "quota_di_cph_per_classe": {"V": 0.61, "C": 0.5}, "legata": false}
+cth e {"corpi": 13, "eventi": 141, "E": 0.024980026668218747, "z": 1.085180782977736, "quota_di_cth_per_classe": {"V": 0.88, "C": 0.86, "L": 0.65}, "legata": false}
+e y {"corpi": 12, "eventi": 115, "E": 0.04304415152048632, "z": 1.619291429763464, "quota_di_e_per_classe": {"V": 0.11, "C": 0.11, "L": 0.54}, "legata": false}
+cfh s {"corpi": 7, "eventi": 160, "E": 0.006135510965461444, "z": 0.3715498665618416, "quota_di_cfh_per_classe": {"V": 0.06, "C": 0.2, "L": 0.13}, "legata": false}
+cfh q {"corpi": 12, "eventi": 184, "E": 0.014460018391898768, "z": 0.8197097089459955, "quota_di_cfh_per_classe": {"V": 0.06, "C": 0.36, "L": 0.29}, "legata": false}
+ckh e {"corpi": 12, "eventi": 80, "E": 0.0939680644169445, "z": 2.361445453416477, "quota_di_ckh_per_classe": {"V": 0.79, "C": 0.83}, "legata": false}
+f o {"corpi": 9, "eventi": 48, "E": 0.09117666331662211, "z": 1.9736814331669121, "quota_di_f_per_classe": {"V": 0.67, "C": 0.28}, "legata": false}
+cfh r {"corpi": 6, "eventi": 128, "E": 0.1338291156045468, "z": 5.347516426666535, "quota_di_cfh_per_classe": {"V": 0.06, "C": 0.57, "L": 0.13}, "legata": true}
+d e {"corpi": 12, "eventi": 840, "E": 0.0065876233001159815, "z": 1.6662642049504834, "quota_di_d_per_classe": {"V": 0.99, "C": 0.96, "L": 0.96}, "legata": false}
+c sh {"corpi": 11, "eventi": 199, "E": 0.0005025990972886141, "z": 0.030975820580712972, "quota_di_c_per_classe": {"V": 0.03, "C": 0.09, "L": 0.13}, "legata": false}
+cth y {"corpi": 11, "eventi": 272, "E": 0.00880366101694078, "z": 0.8654348918250171, "quota_di_cth_per_classe": {"V": 0.96, "C": 0.95, "L": 0.88}, "legata": false}
+c l {"corpi": 10, "eventi": 133, "E": 0.0867202293128488, "z": 2.9457297486615976, "quota_di_c_per_classe": {"V": 0.03, "C": 0.27, "L": 0.21}, "legata": false}
+cth p {"corpi": 7, "eventi": 236, "E": 0.0186693045489532, "z": 1.5203479628373093, "quota_di_cth_per_classe": {"V": 0.89, "C": 0.98, "L": 0.89}, "legata": false}
+ckh p {"corpi": 7, "eventi": 80, "E": -0.02408789152986568, "z": -0.607286113388998, "quota_di_ckh_per_classe": {"V": 0.73, "C": 0.95, "L": 0.67}, "legata": false}
+cph p {"corpi": 7, "eventi": 54, "E": 0.06883735778481068, "z": 1.2441883363392643, "quota_di_cph_per_classe": {"V": 0.62, "C": 0.86, "L": 0.67}, "legata": false}
+f s {"corpi": 8, "eventi": 87, "E": 0.05269307274283355, "z": 1.9364354054557513, "quota_di_f_per_classe": {"V": 0.22, "C": 0.33, "L": 0.42}, "legata": false}
+cph e {"corpi": 11, "eventi": 55, "E": -0.03185574065690955, "z": -0.5951688382445955, "quota_di_cph_per_classe": {"V": 0.71, "C": 0.74, "L": 0.55}, "legata": false}
+e l {"corpi": 12, "eventi": 188, "E": 0.046089974773374176, "z": 2.522091244145293, "quota_di_e_per_classe": {"V": 0.04, "C": 0.5, "L": 0.13}, "legata": false}
+e q {"corpi": 10, "eventi": 36, "E": 0.06515844676998894, "z": 1.1075288231793856, "quota_di_e_per_classe": {"V": 0.22}, "legata": false}
+f sh {"corpi": 8, "eventi": 192, "E": 0.04347669957116512, "z": 3.153216028603996, "quota_di_f_per_classe": {"V": 0.16, "C": 0.03, "L": 0.04}, "legata": false}
+ch f {"corpi": 7, "eventi": 432, "E": 0.010123038188526095, "z": 1.3715189739456564, "quota_di_ch_per_classe": {"V": 0.93, "C": 0.97, "L": 0.99}, "legata": false}
+f y {"corpi": 8, "eventi": 36, "E": 0.26038432860435085, "z": 3.2436603595346045, "quota_di_f_per_classe": {"V": 0.75, "C": 0.36}, "legata": false}

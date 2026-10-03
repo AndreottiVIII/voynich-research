@@ -10306,3 +10306,22 @@ Preregistrato (`preregistrazioni/e3a40.md`). 159 pagine con almeno 2 paragrafi; 
 - **Lettura:** l'evitamento degli inizi ripetuti vale solo fra righe dello stesso paragrafo. All'inizio di un nuovo
   paragrafo lo scriba non guarda come cominciava la riga sopra, e paragrafi consecutivi non alternano la gallows
   d'apertura. Il paragrafo riparte da capo anche per questa regola, come per la ripresa (e343).
+
+## 4/10/2026 (notte) — e3a41: due classi di iniziali, secondo la finale della parola prima
+
+Preregistrato (`preregistrazioni/e3a41.md`). Per ogni coppia di iniziali che compaiono con lo stesso corpo di parola,
+legame fra la scelta dell'iniziale e la classe della parola prima (V = -*y*/-*o*/-*d*, C = -*n*/-*r*/-*s*/-*m*, L = -*l*),
+a parità di corpo; 149 coppie provate, soglia di Bonferroni z 3,82.
+
+- **Esito preregistrato: più alternanze** (54 coppie oltre la soglia).
+- **Cautela di lettura:** parole con lo stesso corpo e iniziale diversa sono di solito parole diverse (*chedy*, *shedy*,
+  *qedy*…). La misura riprende quindi la giuntura nella scelta delle parole, non vere "mutazioni" della stessa parola.
+- **Il disegno che ne esce è netto** (quota della prima iniziale dopo V / dopo C):
+  - *k*/*sh* 0,42 / 0,04; *l*/*o* 0,32 / 0,04; *r*/*sh* 0,49 / 0,04; *l*/*y* 0,73 / 0,19; *k*/*o* 0,62 / 0,09;
+  - *ch*/*k* 0,71 / 0,97; *ch*/*t* 0,80 / 0,98; *sh*/*t* 0,69 / 0,97; *ch*/*r* 0,65 / 0,98; *cth*/*r* 0,39 / 0,94;
+    *ch*/*q* 0,25 / 0,73;
+  - nessun legame per *ch*/*sh*, *o*/*y*, *ch*/*o*, *d*/*s*, *k*/*t*, *ch*/*ckh*, *ch*/*cph*.
+- **Lettura:** dopo una parola che finisce in -*n*, -*r*, -*s*, -*m* la parola seguente comincia quasi sempre con *ch*-,
+  *sh*-, *o*-, *a*-, *d*-, *cth*-, e quasi mai con *k*-, *t*-, *q*-, *l*-, *r*-, *y*-; dopo -*y*, -*o*, -*d* queste ultime
+  sono frequenti. Le iniziali si dividono in due classi rispetto alla giuntura, come le finali. Dentro ciascuna classe
+  (*ch*/*sh*, *k*/*t*) la scelta non dipende dalla parola prima.
