@@ -141,8 +141,10 @@ Sostituisce la sezione seguente per i numeri; il resto di quella sezione (impian
 | **v12** (predefinita nello strumento) | **0,546** | **0,600** | 45/54 | 62/78 | 2 su 3 |
 
 - Il testo torna esatto in tutte le versioni; il messaggio sta nella scelta delle parole note di ogni pagina.
-- **Correzione (4/10, 1:20):** su 12 chiavi la v12 fa **0,576 (e231) e 0,619 (e266)**; lo 0,600 del banco a tre chiavi era
-  rumore favorevole. Il giudice dell'e266 resta circa 0,02 sopra l'obiettivo.
+- **Correzione (4/10, 1:35): le stime da usare sono quelle su 12 chiavi**, non quelle del banco a tre chiavi qui sopra:
+  v10 0,572 / 0,690, pagella 16,7, cancello 0 su 12; v11 0,579 / 0,634, pagella 14,9, cancello 9 su 12;
+  **v12 0,576 / 0,619, pagella 15,0, cancello 11 su 12**. Il giudice dell'e266 resta circa 0,02 sopra l'obiettivo.
+  La v12 domina la v11; fra v10 e v12 c'è un compromesso (più materie contro cancello e giudice forte).
 - I due giudici sono all'obiettivo (≤ 0,6) di misura con la v12; la pagella piena no. Con la pagella di questo progetto
   il Voynich stesso prende 17 materie su 18 (perde il "gradiente": difetto del metro, e411).
 - Lacune dichiarate e idee per il seguito: `voynichizzatore/DIARIO.md`, ultima sezione. Nota per la pubblicazione:

@@ -555,3 +555,27 @@ Corretto un errore in `e409_messaggio_nel_sacco.py` (la tabella .md falliva senz
   pari v10 e v11 servirebbe la stessa replica su 12 chiavi (`VERSIONE=v10 CHIAVI=1,...,12 CASI=a,b`).
 - Prossimi passi possibili (nessuno iniziato): omogeneità (abbassare la somiglianza nella riga), scelte di riga per
   classe, registro delle prime righe, giudice indipendente, pubblicazione.
+
+## 4/10/2026, 01:35 — v10, v11, v12 su 12 chiavi; fine del lavoro della notte
+
+Nel QUADERNO (ultima voce). Stime a 12 chiavi (da usare al posto dei numeri del banco a tre chiavi):
+
+| versione, 12 chiavi | AUC e231 | AUC e266 (min – max) | pagella (massimo 17) | materie aggiunte | cancello della riga | decodifica |
+|---|---|---|---|---|---|---|
+| v10 | 0,572 ± 0,006 | 0,690 ± 0,006 (0,663 – 0,724) | 16,7 | 4,1 su 8 | 0 su 12 | 12 su 12 |
+| v11 | 0,579 ± 0,005 | 0,634 ± 0,007 (0,596 – 0,687) | 14,9 | 4,5 su 8 | 9 su 12 | 12 su 12 |
+| **v12** | 0,576 ± 0,007 | **0,619 ± 0,009** (0,585 – 0,669) | 15,0 | 5,2 su 8 | **11 su 12** | 12 su 12 |
+
+### Dove siamo (4/10, 01:35) — punto di ripartenza
+
+- **Versione consigliata: v12** (predefinita nello strumento). Domina la v11. La v10 resta come alternativa se conta di
+  più la pagella a 18 materie che il cancello della riga e il giudice forte.
+- **Rispetto all'obiettivo:** giudice dell'e231 sotto 0,6 (0,576); giudice dell'e266 a 0,619, cioè 0,02 sopra;
+  pagella 15 su 17 raggiungibili; cancello della riga 11 chiavi su 12; testo sempre esatto.
+- **Lacune dichiarate, in ordine di peso:** profilo pagina (mai preso); scelte di riga a 12 classi (mai prese);
+  omogeneità (persa nella v12); coppie viste altrove; prime righe come registro; concordanza delle desinenze;
+  dispersione delle lunghezze. Il gradiente è mal posto nel metro.
+- **Niente è in esecuzione.** Tutto è committato e sul remoto privato. Niente è stato pubblicato.
+- **Per riprendere:** leggere questa sezione, la voce "Bilancio" delle 01:10 e `voynichizzatore/PUBBLICAZIONE.md`.
+  Regola pratica imparata stanotte: vicino a una soglia servono 12 chiavi, non 3
+  (`VERSIONE=vNN CHIAVI=1,...,12 CASI=a PROCESSI=9 python esegui.py e409`).
