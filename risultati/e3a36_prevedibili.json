@@ -1,0 +1,104 @@
+{
+ "qo-/o-": {
+  "tutto il contesto": {
+   "eventi": 10146,
+   "quota_incertezza_tolta": 0.17901487117740633,
+   "accuratezza": 0.7123989749655036,
+   "accuratezza_base": 0.5529272619751626
+  },
+  "senza posto": {
+   "eventi": 10146,
+   "quota_incertezza_tolta": 0.1742485484352635,
+   "accuratezza": 0.7147644391878573,
+   "accuratezza_base": 0.5529272619751626
+  },
+  "senza prima": {
+   "eventi": 10146,
+   "quota_incertezza_tolta": 0.10581959017347287,
+   "accuratezza": 0.6041789867928248,
+   "accuratezza_base": 0.5529272619751626
+  },
+  "senza sopra": {
+   "eventi": 10146,
+   "quota_incertezza_tolta": 0.17250984834748728,
+   "accuratezza": 0.7087522176227085,
+   "accuratezza_base": 0.5529272619751626
+  },
+  "senza lingua": {
+   "eventi": 10146,
+   "quota_incertezza_tolta": 0.1800851234652444,
+   "accuratezza": 0.7151586832249163,
+   "accuratezza_base": 0.5529272619751626
+  },
+  "frequenze per posto": {
+   "mezzo": {
+    "eventi": 7980,
+    "quota": 0.5038847117794486
+   },
+   "cerchio": {
+    "eventi": 843,
+    "quota": 0.060498220640569395
+   },
+   "inizio riga": {
+    "eventi": 682,
+    "quota": 0.6363636363636364
+   },
+   "etichetta": {
+    "eventi": 485,
+    "quota": 0.016494845360824743
+   },
+   "dopo disegno": {
+    "eventi": 156,
+    "quota": 0.14102564102564102
+   }
+  }
+ },
+ "-l/-r": {
+  "tutto il contesto": {
+   "eventi": 11457,
+   "quota_incertezza_tolta": 0.06990170350928548,
+   "accuratezza": 0.6112420354368509,
+   "accuratezza_base": 0.48756218905472637
+  },
+  "senza posto": {
+   "eventi": 11457,
+   "quota_incertezza_tolta": 0.07159507793522535,
+   "accuratezza": 0.60059352361002,
+   "accuratezza_base": 0.48756218905472637
+  },
+  "senza dopo": {
+   "eventi": 11457,
+   "quota_incertezza_tolta": -0.0026970830471362284,
+   "accuratezza": 0.5093829100113467,
+   "accuratezza_base": 0.48756218905472637
+  },
+  "senza lingua": {
+   "eventi": 11457,
+   "quota_incertezza_tolta": 0.07352027259878124,
+   "accuratezza": 0.6093218119926682,
+   "accuratezza_base": 0.48756218905472637
+  },
+  "frequenze per posto": {
+   "mezzo": {
+    "eventi": 9353,
+    "quota": 0.5035817384796322
+   },
+   "cerchio": {
+    "eventi": 848,
+    "quota": 0.44339622641509435
+   },
+   "fine riga": {
+    "eventi": 795,
+    "quota": 0.5660377358490566
+   },
+   "etichetta": {
+    "eventi": 312,
+    "quota": 0.48717948717948717
+   },
+   "prima del disegno": {
+    "eventi": 149,
+    "quota": 0.6711409395973155
+   }
+  }
+ }
+}
