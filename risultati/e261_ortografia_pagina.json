@@ -1,0 +1,57 @@
+{
+ "Voynich": {
+  "parole": 34863,
+  "bit": {
+   "base + lettere": 11.26349301740118,
+   "+ cache": 11.157596097495,
+   "+ cache + lettere della pagina": 10.990077351258755
+  },
+  "pesi_completo": {
+   "base": 0.05470706992106364,
+   "cache esatta": 0.01315541846747947,
+   "cache varianti pesata": 0.06012294451751302,
+   "lettere": 0.08167965055620753,
+   "lettere della pagina": 0.790334916537738
+  },
+  "riduzione": 0.27341566614242474,
+  "bit_totali_stimati": 383147.066696934
+ },
+ "generatore e241 (seme 2)": {
+  "parole": 37980,
+  "bit": {
+   "base + lettere": 11.667628799630194,
+   "+ cache": 11.08948370019948,
+   "+ cache + lettere della pagina": 10.807806364042902
+  },
+  "pesi_completo": {
+   "base": 0.0694951176109981,
+   "cache esatta": 0.06112223974345685,
+   "cache varianti pesata": 0.05950237530641448,
+   "lettere": 0.07582172017630634,
+   "lettere della pagina": 0.7340585471628277
+  },
+  "riduzione": 0.8598224355872919,
+  "bit_totali_stimati": 410480.4857063494
+ },
+ "generatore e192 (seme 1)": {
+  "parole": 35075,
+  "bit": {
+   "base + lettere": 12.304524001054174,
+   "+ cache": 11.468055590385159,
+   "+ cache + lettere della pagina": 11.207651355876616
+  },
+  "pesi_completo": {
+   "base": 0.040450644004577894,
+   "cache esatta": 0.09513583105547482,
+   "cache varianti pesata": 0.0854657548493075,
+   "lettere": 0.1367070599411608,
+   "lettere della pagina": 0.6422407101494777
+  },
+  "riduzione": 1.0968726451775588,
+  "bit_totali_stimati": 393108.3713073723
+ },
+ "esiti": {
+  "generatore e241 (seme 2)": "presente",
+  "generatore e192 (seme 1)": "presente"
+ }
+}
