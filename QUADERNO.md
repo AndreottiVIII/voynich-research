@@ -7572,3 +7572,38 @@ Preregistrato (`preregistrazioni/e328.md`).
   - aperture (verso e recto seguente): z 0,9 e 0,0. **Esito: no.**
   - **Lettura:** c'è un indizio di scrittura continua girando il foglio (mai fra fogli diversi), ma con 59 fogli non
     supera la soglia.
+
+## 3/10/2026 — vz: e401, la disposizione: i posti della riga spiegano quasi tutto il salto; i legami fra vicine, così come sono, esagerano
+
+Chat del voynichizzatore. Preregistrato (`preregistrazioni/e401.md`): per ogni pagina il sacco delle parole vere e
+l'impaginazione vera; un modello decide i posti. Semi 1–4. Risultati in `risultati/e401_disposizione.md`.
+Riferimenti dall'e400: parole a caso nella pagina 0,998; solo righe rimescolate 0,595.
+
+| strato | AUC e231 | AUC e266 | prevista (e266) | G4 | G6 | G7 | G8 | G9 |
+|---|---|---|---|---|---|---|---|---|
+| D1, solo "prima riga di paragrafo o no" | 0,985 | 0,991 | 0,985–0,995 | 0,99 | 0,71 | 0,93 | 0,60 | 0,65 |
+| D2, otto tipi di posto | 0,771 | **0,855** | 0,70–0,85 | 0,79 | 0,68 | 0,55 | 0,60 | 0,67 |
+| D3, D2 + legami fra vicine | 0,729 | 0,847 | 0,62–0,75 | 0,70 | 0,73 | 0,58 | 0,64 | 0,64 |
+
+- **D1 come previsto:** basta sapere quali parole stanno bene in una prima riga (tratti della parola, non la sua
+  identità) per riportare G8 da 0,96 a 0,60 (*p* nelle prime righe meno le altre 0,030; Voynich 0,033).
+- **D2, il passo grande:** con gli otto tipi di posto i bordi della riga tornano quelli del Voynich: inizio riga
+  con *p* 7,4% (Voynich 7,7%), con *t* 10,1% (10,5%), con *ch* 4,2% (3,6%), fine in *m* 13,8% (13,9%), prima parola
+  4,78 segni (4,82). G7 scende da 0,93 a 0,55; l'AUC da 0,99 a 0,855 (e231: 0,771). **I bordi della riga si
+  spiegano con i tratti della parola e il tipo di posto**, senza altro.
+- **D3 non è la previsione** (0,847 contro 0,62–0,75; guadagno su D2 sotto la soglia di 0,03 per l'e266). Il
+  pannello dice perché: i legami **esagerano**. Unioni attestate 11,8% (Voynich 9,2%; senza legami 5,3%), coppie
+  viste altrove 26,9% (22,1%; 18,3%), coppie identiche 2,1% (0,97%; 0,88%), somiglianza fra vicine 0,232 (0,218;
+  0,204). Il giudice usa le stesse caratteristiche di prima, con il segno rovesciato. I tre termini (bordi, unione,
+  coppia esatta) dicono in parte la stessa cosa e sommati contano doppio. Il verso è giusto, la dose no.
+- **Resta fuori da tutti gli strati** la differenza fra le due metà della pagina (JSD 0,050 nel Voynich, 0,035–0,038
+  qui): è l'ordine delle righe (O1 dell'e400), che questo modello non tocca.
+- **Esito secondo la preregistrazione:** D3 > 0,70 e uno strato non ha dato il guadagno previsto: ci si ferma a
+  capire. Capito dal pannello (dose dei legami); secondo tentativo e401b: i pesi dei termini di legame, più un termine
+  per le coppie identiche, regolati **sul pannello** (non sui giudici) finché unioni, coppie viste altrove, coppie
+  identiche e somiglianza fra vicine tornano quelle del Voynich.
+- **Nota di esecuzione.** Il primo lancio (20:08) non è finito: dieci processi addestravano ciascuno la regressione
+  su una matrice densa e si bloccavano a vicenda; interrotto alle 21:30 senza risultati. Corretto con una matrice
+  sparsa (stesso modello) e rilanciato: 7 minuti.
+- **Lettura per la ricerca sul Voynich.** Dove sta una parola nella riga si prevede bene dalla sua forma (primo e
+  ultimo segno, lunghezza, *p*/*f*): l'inizio e la fine della riga hanno una "grammatica" di forme, non di parole.
