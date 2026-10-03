@@ -10142,3 +10142,40 @@ comincia con s) − P(… | no).
   ZL, −0,50 con IT, −0,62 in A, −0,41 in B). L'**e3a25** usava un nullo corretto (ordine delle righe rimescolato) e
   conferma l'evitamento di *qo*-/*qo*- (17 coppie contro 67 attese, rapporto 0,50 sui primi 2 segni, z −8,0). Gli z
   dell'e3a26, dell'e3a27 e dell'e3a31 vanno rifatti: e3a33, con l'ordine delle righe rimescolato dentro il paragrafo.
+
+## 4/10/2026 (notte) — e3a33: con il nullo corretto il margine sinistro evita gli inizi ripetuti (qo- e o- soprattutto)
+
+Preregistrato (`preregistrazioni/e3a33.md`). Correzione di e3a26, e3a27 ed e3a31: nullo con l'ordine delle righe
+(dalla seconda del paragrafo) rimescolato dentro il paragrafo.
+
+**1. Per ogni inizio di riga (ZL):**
+
+| inizio | righe sopra | Δ | nullo | z | esito |
+|---|---|---|---|---|---|
+| *qo* | 425 | −0,156 | +0,010 | **−9,7** | evitato |
+| *o* | 411 | −0,112 | −0,004 | **−7,0** | evitato |
+| *d* | 491 | −0,077 | −0,019 | −3,8 | evitato |
+| *ch* | 103 | −0,045 | +0,028 | −3,6 | evitato |
+| *y* | 433 | −0,036 | +0,020 | −3,5 | evitato |
+| *t* | 179 | −0,022 | +0,032 | −2,9 | — |
+| *sh* | 155 | −0,019 | +0,007 | −1,6 | — |
+| *s* | 311 | +0,083 | +0,072 | 0,7 | — |
+| *l*, *p* | 46, 32 | | | −1,1; 0,1 | — |
+
+- **Esito preregistrato 1: il margine evita in generale gli inizi ripetuti** (5 inizi evitati). Più forte per *qo*- e
+  *o*-; *s*- (che a inizio riga è spesso attaccata, e368) non è evitata.
+
+**2. *qo*-/*o*- dopo una riga che comincia con *qo*-** (come l'e3a26, nullo corretto):
+
+| prova | eventi (sopra *qo* / no) | Δ P(*qo*) | z | esito |
+|---|---|---|---|---|
+| ZL | 57 / 482 | −0,518 | −9,7 | regge |
+| ZL, lingua A | 28 / 230 | −0,620 | −5,8 | regge |
+| ZL, lingua B | 26 / 250 | −0,405 | −7,8 | regge |
+| IT (Takahashi) | 57 / 472 | −0,499 | −9,3 | regge |
+
+- **Esito preregistrato 2: regge in tutte e quattro le prove.** I Δ sono quelli dell'e3a26/e3a27; gli z corretti
+  sono anche più forti.
+- **Quadro corretto:** sul margine sinistro lo scriba evita di cominciare una riga come la precedente, soprattutto con
+  *qo*- e *o*- (le parole con gallows), meno con *d*-, *ch*-, *y*-. È un legame verticale proprio del margine sinistro
+  (al margine destro niente: e3a24) e delle sole righe vicine (e3a26: a distanza 2 nessun effetto).
