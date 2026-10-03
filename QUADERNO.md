@@ -10961,3 +10961,29 @@ Preregistrato (`preregistrazioni/e3a68.md`). Stesse funzioni degli esperimenti o
 - **Esito preregistrato: regge in tutti e sei i casi**, con margini larghi. Con l'alfabeto di Glen Claston, che divide
   i glifi in modo diverso dall'EVA, i valori restano quattro volte sopra le soglie (il riempimento cala a 0,35, ancora
   quattro volte il 90° percentile delle lingue). I tre risultati non dipendono dal modo di trascrivere.
+
+## 4/10/2026 (notte) — e3a69: riscritto dalla propria catena di segni il Voynich non cambia; le lingue riscritte fanno metà strada verso il Voynich
+
+Preregistrato (`preregistrazioni/e3a69.md`). Catena di ordine 2 (ogni simbolo, spazio e fine riga compresi, scelto dai
+due precedenti) addestrata su ogni testo e lasciata scrivere lo stesso numero di righe. Codice provato prima su tre
+testi sensati.
+
+| misura | lingue vere: mediana (90° perc.) | lingue riscritte | Voynich vero | Voynich riscritto | gibberish vero / riscritto |
+|---|---|---|---|---|---|
+| ρ frequenza-forma (e3a55) | 0,110 (0,202) | **0,294** | 0,596 | 0,613 | 0,087 / 0,432 |
+| riempimento (e3a61) | 0,043 (0,086) | **0,155** | 0,435 | 0,441 | 0,093 / 0,152 |
+| F1 degli spazi (e3a58) | 0,639 (0,718) | 0,667 | 0,855 | 0,866 | 0,281 / 0,266 |
+| tagli sbagliati che sono parole (e3a67) | 0,067 (0,122) | **0,183** | 0,493 | 0,469 | 0,065 / 0,092 |
+
+- **Esito (a): in parte (3 misure su 4).** Una catena di segni addestrata su una lingua scrive un testo in cui la
+  frequenza segue la forma, il vocabolario riempie le forme e i tagli sbagliati danno parole, tutto sopra il 90°
+  percentile delle lingue vere: sono proprietà prodotte dalla catena. Ma arriva solo a metà strada dal Voynich (0,29
+  contro 0,60; 0,16 contro 0,44; 0,18 contro 0,49), e lo spazio resta imprevedibile come nella lingua d'origine
+  (0,67): la catena impara dove la lingua mette gli spazi, e lì non c'è una regola.
+- **Esito (b): il Voynich non cambia.** Riscritto dalla propria catena di ordine 2, il Voynich ha gli stessi valori
+  in tutte e quattro le misure (entro il 5%). Il Voynich è già, in queste misure, quello che una catena di segni di
+  ordine 2 scriverebbe.
+- **Lettura:** le proprietà di vocabolario della notte sono quelle di un testo prodotto da una catena di segni, e il
+  Voynich le ha in misura piena, più di quanto ne abbia una catena che imita una lingua. Due cose le ha in più di una
+  catena "linguistica": lo spazio regolato dai segni vicini, e una catena più rigida (entropia più bassa). Da vedere
+  se la sola entropia spiega la differenza: prossimo e3a70.

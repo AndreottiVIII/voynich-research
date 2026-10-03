@@ -55,6 +55,23 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     - lo scriba guarda avanti: regge con Takahashi (e3a34); tutte le proprietà principali reggono nelle due metà del libro
       (e3a43);
     - un po' di continuità di lessico fra paragrafi consecutivi (e3a42).
+  - **e3a51–e3a68 (vocabolario e spazi):**
+    - nessun legame a distanza 2, ma neanche nel cifrario Naibbe (e3a51); la catena c'è anche in U3, senza chiusura
+      della riga (e3a52); la catena regge senza spazi incerti e senza parole corte, in A, in B e per ogni mano (e3a53,
+      e3a54);
+    - **la frequenza delle parole segue la forma** (ρ 0,58; lingue 0,11), con tre trascrizioni, in A/B e per mano, e
+      non per la bassa entropia (e3a55–e3a57);
+    - **il vocabolario riempie le forme probabili** (43%; lingue 4%) (e3a61);
+    - **lo spazio si indovina dai segni vicini** (F1 0,86; lingue 0,64) e **gli spazi incerti cadono dove la regola è
+      incerta**; Takahashi li mette 2 volte su 3 (e3a58, e3a60); a fine riga un po' meno spazi facoltativi (e3a64);
+      la frequenza degli spazi facoltativi cambia un poco da mano a mano (e3a66);
+    - **rifacendo gli spazi con la regola, metà dei pezzi sbagliati sono parole vere** (lingue 6%) (e3a67);
+    - spazi, forme e tagli reggono con Takahashi e Glen Claston (e3a68);
+    - memoria di due segni attraverso lo spazio: nella stessa direzione ma debole (e3a59);
+    - il piccolo legame fra parole intere: zero in Naibbe, uguale al Voynich in Timm e Schinner (e3a62), ma nel Voynich
+      non viene dalla copia dalla riga sopra (e3a63);
+    - in queste misure di vocabolario e spazi il Voynich sta con i generatori, non con le lingue né col gibberish umano;
+      figura `risultati/figure/spazi.png`.
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
