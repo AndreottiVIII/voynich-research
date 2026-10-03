@@ -435,3 +435,19 @@ e410 (cancello della riga) lanciato nella coda `vz-cancello`. Dalla prova: bersa
 - **Versione corrente: v10** (predefinita nello strumento). In corso: e410.
 
 - Dopo: v11 con il cancello della riga, banco; poi prime righe come registro, profilo pagina, coppie viste altrove, ordine delle righe; aggiornare STATO_LAVORI.md e il passaggio di consegne.
+
+## 4/10/2026, 00:00 — e410 finito: cancello della riga in 3 semi su 4; v11 al banco
+
+
+
+Nel QUADERNO (voce "vz: e410"). G1 0,555 / 0,639, pagella 16; **G2 0,552 / 0,616, pagella 15,8, cancello 3/4**. Costo: gradiente perso. **v11 = corpo G2 dell'e410 + messaggio nel sacco** (`pezzi_parametri_v11.json`); predefinita nello strumento.
+
+
+
+### Dove siamo (4/10, 00:00)
+
+
+
+- In corso: banco e293 della v11 (chiavi banco7–9).
+
+- Restano: gradiente e profilo pagina (pagella); differenza fra le due metà della pagina e coppie viste altrove (giudice forte); prime righe come registro, scelte di riga a 12 classi, concordanza delle desinenze, parole rare per pagina (pagella estesa).

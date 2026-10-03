@@ -26,6 +26,7 @@ V7 = OrderedDict(V5, galli_su=1.0, galli_giu=0.7)                  # prova_v8 (s
 V8 = OrderedDict([('impianto', 'pezzi'), ('parametri', 'v8')])     # e406 (P3); banco: 0,604 / 0,715, pagella 41/54
 V9 = OrderedDict([('impianto', 'pezzi'), ('parametri', 'v9')])     # e407 (U3): parole nuove come unioni, confine, verticale
 V10 = OrderedDict([('impianto', 'pezzi'), ('parametri', 'v10')])   # e408 (R1): peso proprio del legame fra finali; canale nel sacco (e409)
+V11 = OrderedDict([('impianto', 'pezzi'), ('parametri', 'v11')])   # e410 (G2): cancello della riga (prima lettera, distanza 2, cinque scelte)
 VERSIONI = OrderedDict([
     ('v2', OrderedDict([('corpo', E288), ('modello', 'v1')])),
     ('v3', OrderedDict([('corpo', E288), ('modello', 'v3')])),
@@ -36,6 +37,7 @@ VERSIONI = OrderedDict([
     ('v8', OrderedDict([('corpo', V8), ('modello', 'v3')])),
     ('v9', OrderedDict([('corpo', V9), ('modello', 'v3')])),
     ('v10', OrderedDict([('corpo', V10), ('modello', None), ('canale', 'sacco')])),
+    ('v11', OrderedDict([('corpo', V11), ('modello', None), ('canale', 'sacco')])),
 ])
 
 
