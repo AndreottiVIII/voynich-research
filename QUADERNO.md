@@ -5338,3 +5338,31 @@ sequenza.
     note (ch/sh, k/t, e/ee, -dy/-ey, ain/aiin, …) o un'altra parola attestata.
   - **Per il voynichizzatore:** l'operatore di variante va costruito sulle sostituzioni osservate fra
     parole vicine della stessa pagina, non sulle modifiche generiche di `generatori.Modifiche`.
+
+## 3/10/2026 — e239: l'operatore di variante del Voynich è diffuso; al generatore mancano proprio le operazioni delle scelte di riga
+
+- **Preregistrato come descrittivo.** Per le 12.990 varianti (classe V dell'e237) si guarda
+  l'operazione dalla fonte più recente sulla pagina.
+- **Risultati:**
+  - Voynich: sostituzioni 53%, inserzioni 29%, cancellazioni 18%. Le prime 10 operazioni coprono il
+    20%, le prime 25 il 38%: **operatore diffuso**.
+  - Le più frequenti: ±*e* interna (3,9% e 2,8%), ±*q* iniziale, *k*↔*t* interna, +*d* iniziale, ±*o*
+    iniziale, *l*↔*r* finale, ±*i* interna, *ch*↔*sh* iniziale.
+  - Il generatore "copia e modifica" ha quote simili (57/27/16) e le stesse operazioni principali. Ma
+    **non produce mai** sei operazioni frequenti nel Voynich:
+    - −*d* interna 1,4%;
+    - +*ch* interna 1,2%;
+    - +*y* finale 1,2%;
+    - −*d* iniziale 1,1%;
+    - +*d* interna 1,0%;
+    - +*o* interna 1,0%.
+  - Sottostima +*e* interna (2,4% contro 3,9%).
+- **Lettura.**
+  - Le operazioni che mancano al generatore sono proprio i segni facoltativi decisi per riga trovati
+    nell'e206b (*d* interna e iniziale, *y* finale, *ch*). È una convergenza fra due esperimenti
+    indipendenti.
+  - L'operatore `generatori.Modifiche` non sa togliere o aggiungere *d*, *ch*, *y* finale e *o* interna.
+  - **Per il voynichizzatore:** l'operatore di variante va preso dalla distribuzione empirica delle
+    operazioni (e239), tutte, perché è diffuso. Le operazioni legate alle scelte di riga vanno guidate
+    dallo stato della riga (e206b).
+  - Spiega anche perché nell'e238 le varianti forzate producevano coppie di segni innaturali.
