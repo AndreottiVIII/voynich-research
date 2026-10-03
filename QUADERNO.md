@@ -6296,3 +6296,13 @@ sequenza.
   - **Decisione per il piano:** si resta sulla strada costruita a mano (e241). Dalla strada appresa si
     può prendere un'idea: generare le parole nuove con il modello di lettere della pagina, per abbassare
     il riuso delle parole rare.
+
+## 3/10/2026 — e270: le parole nuove delle pagine d'erbario non seguono la pianta
+
+- **Preregistrato.** Come l'e190 (somiglianza fra disegni contro somiglianza fra testi), ma il testo di
+  ogni pagina è ridotto alle sue parole nuove (classe N dell'e237), confrontate per coppie di segni.
+- **Risultati:** 121 pagine, 3.684 coppie, 18,3 parole nuove per pagina in media. Spearman 0,023 contro
+  un nullo di 0,017, **p 0,46**.
+- **Esito: nessun legame.** Anche le parole "nuove", cioè non copiate, non somigliano di più fra pagine
+  con piante simili. Non c'è il segno di un nome o di una descrizione della pianta nel lessico nuovo.
+- Eseguito sul vecchio PC. Il nuovo PC lo ripete come replica.
