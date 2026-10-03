@@ -141,6 +141,8 @@ Sostituisce la sezione seguente per i numeri; il resto di quella sezione (impian
 | **v12** (predefinita nello strumento) | **0,546** | **0,600** | 45/54 | 62/78 | 2 su 3 |
 
 - Il testo torna esatto in tutte le versioni; il messaggio sta nella scelta delle parole note di ogni pagina.
+- **Correzione (4/10, 1:20):** su 12 chiavi la v12 fa **0,576 (e231) e 0,619 (e266)**; lo 0,600 del banco a tre chiavi era
+  rumore favorevole. Il giudice dell'e266 resta circa 0,02 sopra l'obiettivo.
 - I due giudici sono all'obiettivo (≤ 0,6) di misura con la v12; la pagella piena no. Con la pagella di questo progetto
   il Voynich stesso prende 17 materie su 18 (perde il "gradiente": difetto del metro, e411).
 - Lacune dichiarate e idee per il seguito: `voynichizzatore/DIARIO.md`, ultima sezione. Nota per la pubblicazione:
