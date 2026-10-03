@@ -1,0 +1,13 @@
+identico all'e232 con kappa 0 e chi 0: True; Voynich {'tipi_su_parole_pagina': 0.756, 'fra_le_100': 0.424, 'fine_m': 0.139, 'uniche_nel_testo': 0.137, 'somiglianza_vicine': 0.223}
+kappa 0.0, chi 0.0: AUC 0.938, fra le 100 0.392, uniche 0.108, vicine 0.192, tipi/parole 0.683
+kappa 0.0, chi 0.1: AUC 0.945, fra le 100 0.400, uniche 0.109, vicine 0.198, tipi/parole 0.681
+kappa 0.0, chi 0.2: AUC 0.957, fra le 100 0.388, uniche 0.106, vicine 0.203, tipi/parole 0.690
+kappa 0.5, chi 0.0: AUC 0.929, fra le 100 0.412, uniche 0.108, vicine 0.192, tipi/parole 0.674
+kappa 0.5, chi 0.1: AUC 0.891, fra le 100 0.412, uniche 0.109, vicine 0.201, tipi/parole 0.666
+kappa 0.5, chi 0.2: AUC 0.900, fra le 100 0.413, uniche 0.108, vicine 0.204, tipi/parole 0.670
+kappa 1.0, chi 0.0: AUC 0.863, fra le 100 0.425, uniche 0.116, vicine 0.196, tipi/parole 0.669
+kappa 1.0, chi 0.1: AUC 0.901, fra le 100 0.435, uniche 0.116, vicine 0.202, tipi/parole 0.661
+kappa 1.0, chi 0.2: AUC 0.860, fra le 100 0.419, uniche 0.113, vicine 0.209, tipi/parole 0.669
+verifica kappa 0.0, chi 0.0: AUC [0.923, 0.94]
+verifica kappa 1.0, chi 0.2: AUC [0.861, 0.918]
+non aiuta abbastanza
