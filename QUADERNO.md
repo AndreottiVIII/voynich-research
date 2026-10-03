@@ -8212,3 +8212,57 @@ Banco preregistrato dell'e293 (`esegui.py e293 -- --v8`): Isidoro XVII nascosto 
 - Del Voynich vero la v8 usa l'impaginazione e le statistiche (lessico per sezione e lingua, caratteri di pagina, forme delle parole uniche, affinità ai posti, legami); trigrammi di parole in comune con il Voynich 0,7–1% (e406).
 
 - Lavoro che resta: le materie di pagella perse (legame, verticale, scelte di riga, concordanza delle desinenze, profilo pagina), il cancello della riga, il nascondiglio.
+
+## 3/10/2026 (notte) — e347, e348, e349: lo scriba guarda indietro 1–2 righe; le parole uniche non nascono dalla ripresa; l'erbario B riprende più dell'erbario A
+
+Preregistrato (`preregistrazioni/e347.md`).
+
+- **e347**, eccesso di ripresa dalla riga a distanza L (z):
+
+  | L | Voynich esatta | Voynich modificata | Timm e Schinner 1, esatta / modificata | Timm e Schinner 19, esatta / modificata |
+  |---|---|---|---|---|
+  | 1 | +0,009 (6,5) | +0,031 (12,8) | +0,016 (9,5) / +0,031 (11,5) | +0,014 (8,4) / +0,027 (11,1) |
+  | 2 | +0,005 (3,1) | +0,009 (3,1) | +0,009 (5,1) / +0,009 (3,2) | +0,006 (4,7) / +0,009 (3,5) |
+  | 3 | +0,001 (0,3) | +0,001 (0,3) | +0,007 (3,9) / +0,011 (3,9) | +0,004 (2,2) / +0,009 (3,3) |
+  | 4 | −0,000 | −0,000 | +0,010 (5,4) / +0,014 (5,2) | +0,006 (3,5) / +0,017 (6,9) |
+  | 5–6 | ~0 | ~0 | z 2–4 | z 2–4 |
+
+  - **Esito preregistrato** (ultima distanza con z > 3): Voynich 2 righe (esatte e modificate); Timm e Schinner 4–6
+    righe.
+  - **Lettura:** lo scriba riprende soltanto dalla riga subito sopra e da quella prima ancora; dalla terza in su niente.
+    Il generatore di Timm e Schinner pesca fino a 6 righe sopra. È la prima differenza netta fra il Voynich e la loro
+    teoria.
+- **e348:** 3.099 parole uniche. Eccesso di fonte modificata nelle 2 righe sopra: uniche +0,018, altre della stessa
+  lunghezza +0,062; differenza z −9,5. **Esito preregistrato: no.**
+  - Le parole uniche hanno **meno** delle altre una parola a una modifica nelle righe subito sopra.
+  - Quando ce l'hanno, la fonte è meno frequente (mediana 43 occorrenze contro 136).
+  - Non nascono copiando con modifica le righe appena scritte: vengono da un altro processo (invenzioni o errori
+    sparsi, con l'e296).
+- **e349** (E1p complessivo +0,036):
+  - erbario in lingua A +0,025 (IC 0,013–0,036) ed erbario in lingua B +0,055 (0,041–0,071) diversi dalla media;
+  - B-B +0,041, S-B +0,037, mani 1, 2, 3 da +0,031 a +0,042, tutti nella media.
+  - **Esito preregistrato: gruppi diversi dalla media: erbario A (meno ripresa) ed erbario B (più ripresa).** La mano
+    non conta.
+
+## 3/10/2026 (notte) — e355: gli "errori" restano sul foglio; le sessioni differiscono in inventiva
+
+Preregistrato (`preregistrazioni/e355.md`).
+
+- **(a)** 975 varianti rare (2–5 occorrenze a una modifica da una parola con almeno 20): coppie di occorrenze su
+  pagine diverse della stessa sezione, osservate / attese:
+
+  | classe | rapporto | z |
+  |---|---|---|
+  | stesso foglio | 1,78 | 5,1 |
+  | stesso bifoglio, fogli diversi | 1,33 | 2,9 |
+  | apertura | 1,04 | 0,2 |
+  | stesso fascicolo, altro | 0,94 | −2,2 |
+  | altro fascicolo | 0,90 | −4,8 |
+
+  **Esito preregistrato: incerto** (il bifoglio a z 2,9). L'andamento è quello della sessione: le varianti tornano sul
+  foglio e un po' nel bifoglio, non sulle pagine affiancate.
+- **(b)** 48 bifogli con almeno 150 parole:
+  - varianza della quota di parole uniche fra bifogli 2,04 volte il nullo, **z 13,7**;
+  - correlazione con la ripresa −0,155 (z −1,1).
+  - **Esito preregistrato: sessioni più o meno inventive.** Alcune sessioni producono molte più parole nuove di altre,
+    indipendentemente da quanto riprendono.
