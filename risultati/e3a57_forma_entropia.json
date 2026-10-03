@@ -1,0 +1,428 @@
+{
+ "retta": {
+  "intercetta": -0.05723175325217765,
+  "pendenza": 0.047523618264050514,
+  "r": 0.19713346852730265
+ },
+ "h2_lingue": [
+  2.2481390276689464,
+  3.175622049257724,
+  4.734171777865216
+ ],
+ "residui_lingue": {
+  "massimo": 0.17655479574050004,
+  "p90": 0.08938582013838219,
+  "mediana": 0.02174831424099967
+ },
+ "voynich_fuori_intervallo_h2": true,
+ "altri": {
+  "Voynich": {
+   "rho": 0.5855424197673756,
+   "h2": 2.217959242493358,
+   "rho_sub": [
+    0.5901685142339086,
+    0.5855424197673756,
+    0.5398548232839712,
+    0.5960390709765481,
+    0.5803160374957637
+   ],
+   "h2_sub": [
+    2.1808560613196133,
+    2.2442133433733287,
+    2.1599526526361883,
+    2.224818784558786,
+    2.217959242493358
+   ],
+   "previsto": 0.04817369511329933,
+   "residuo": 0.5373687246540764
+  },
+  "gibberish umano": {
+   "rho": 0.0849252109600386,
+   "h2": 3.975082476167277,
+   "previsto": 0.1316785489133127,
+   "residuo": -0.046753337953274104
+  },
+  "Naibbe (Greshko 2025), a capo": {
+   "rho": 0.40867650291683616,
+   "h2": 2.172954615545148,
+   "previsto": 0.0460349124020966,
+   "residuo": 0.36264159051473954
+  },
+  "U2 (Whitehatnetizen 2026)": {
+   "rho": 0.5744385018835729,
+   "h2": 2.345123323906812,
+   "previsto": 0.05421699237529097,
+   "residuo": 0.5202215095082819
+  },
+  "U3 (Whitehatnetizen 2026)": {
+   "rho": 0.600483472340165,
+   "h2": 2.457623476437358,
+   "previsto": 0.059563406678800085,
+   "residuo": 0.5409200656613649
+  },
+  "Timm e Schinner, seme 1": {
+   "rho": 0.5267645289952116,
+   "h2": 2.2460369220836656,
+   "previsto": 0.04950804803988944,
+   "residuo": 0.4772564809553222
+  }
+ },
+ "testi_sensati": {
+  "Conlangs - Esperanto - Literary - NT": {
+   "rho": 0.12995704786950546,
+   "h2": 3.1245832369865294,
+   "residuo": 0.03869730013288401
+  },
+  "Conlangs - Esperanto - Technical - Voynich Wiki": {
+   "rho": -0.06188915748158483,
+   "h2": 3.241109540049253,
+   "residuo": -0.15868665676268023
+  },
+  "Conlangs - Interlingua - Literary - NT": {
+   "rho": 0.11004308689960451,
+   "h2": 3.062193730751069,
+   "residuo": 0.02174831424099967
+  },
+  "Conlangs - Interlingua - Technical - EU Wiki": {
+   "rho": 0.02595131997924048,
+   "h2": 3.099515581949238,
+   "residuo": -0.06411712208861384
+  },
+  "Conlangs - Klingon - Literary - NT - Mark": {
+   "rho": 0.15512436271994112,
+   "h2": 3.146326215920453,
+   "residuo": 0.06283130995254059
+  },
+  "Conlangs - Klingon - Technical - Proxima Centauri B Wikia": {
+   "rho": 0.14693706980164978,
+   "h2": 3.11840236016493,
+   "residuo": 0.055971059695635136
+  },
+  "Conlangs - LOLCat - Literary - NT - Matthew": {
+   "rho": 0.1848175748497125,
+   "h2": 3.4787138268738635,
+   "residuo": 0.07672826014366237
+  },
+  "Conlangs - Lojban - Literary - Alice in Wonderland": {
+   "rho": -0.06026420035427894,
+   "h2": 2.9063012822952867,
+   "residuo": -0.14115039980222302
+  },
+  "Conlangs - Lojban - Technical - Science News": {
+   "rho": 0.02288041847793412,
+   "h2": 2.8882414617344927,
+   "residuo": -0.05714751295176153
+  },
+  "Conlangs - Neo-Quenya - Literary - NT": {
+   "rho": 0.11374685845846538,
+   "h2": 3.089826451969173,
+   "residuo": 0.024138878905094432
+  },
+  "Conlangs - Neo-Quenya - Technical - Europe-Taipei Wikia": {
+   "rho": 0.05985547503987567,
+   "h2": 3.0752366391175046,
+   "residuo": -0.029059143816988646
+  },
+  "Conlangs - Toki Pona - Literary - NT - Sermon on the Mount": {
+   "rho": 0.2261627434437751,
+   "h2": 2.2481390276689464,
+   "residuo": 0.17655479574050004
+  },
+  "Conlangs - Toki Pona - Technical - Turkey-Mexico Wikia": {
+   "rho": 0.19490457846744083,
+   "h2": 2.5666382092824405,
+   "residuo": 0.1301603972397536
+  },
+  "Conlangs - Volapuk - Literary - NT": {
+   "rho": 0.12949003833568834,
+   "h2": 3.360262288188649,
+   "residuo": 0.027029969336903728
+  },
+  "Conlangs - Volapuk - Technical - History Wiki": {
+   "rho": 0.16421871660315754,
+   "h2": 3.235727102715602,
+   "residuo": 0.06767701021923674
+  },
+  "Historical - Anglo-Saxon - Literary - NT - Hatton Gospels": {
+   "rho": 0.11890628200590227,
+   "h2": 3.238177575293201,
+   "residuo": 0.022248120298637153
+  },
+  "Historical - Anglo-Saxon - Technical - Leechbook": {
+   "rho": -0.01728999777611991,
+   "h2": 3.212299020797656,
+   "residuo": -0.11271831693831333
+  },
+  "Historical - Arabic - Literary - Quran": {
+   "rho": 0.2782771036864133,
+   "h2": 3.5909173166131105,
+   "residuo": 0.16485547316610083
+  },
+  "Historical - Arabic - Technical - Avicenna": {
+   "rho": 0.2016166972337655,
+   "h2": 3.5658612819839064,
+   "residuo": 0.08938582013838219
+  },
+  "Historical - English - Literary - NT (KJV)": {
+   "rho": 0.1744320504287364,
+   "h2": 3.1436626510402856,
+   "residuo": 0.08226557990192247
+  },
+  "Historical - English - Technical - Secreta Alberti": {
+   "rho": 0.21435014559087207,
+   "h2": 3.122842979581955,
+   "residuo": 0.1231731011828268
+  },
+  "Historical - Flemish - Literary - NT": {
+   "rho": 0.11670820901102773,
+   "h2": 2.9987759538284786,
+   "residuo": 0.031427278574046785
+  },
+  "Historical - Flemish - Technical - Cruydeboeck": {
+   "rho": 0.14035547544524005,
+   "h2": 3.05961183152225,
+   "residuo": 0.05218340397998185
+  },
+  "Historical - French - Literary - NT - Martin": {
+   "rho": 0.09380172273578884,
+   "h2": 3.199576171835215,
+   "residuo": -0.0010219606090823563
+  },
+  "Historical - German - Literary - NT - Luther": {
+   "rho": 0.12931310795736306,
+   "h2": 3.1084786754342746,
+   "residuo": 0.03881870725626087
+  },
+  "Historical - German - Technical - German Herbarium": {
+   "rho": 0.12330875074888764,
+   "h2": 3.186991959452519,
+   "residuo": 0.029083114709445426
+  },
+  "Historical - Greek - Literary - NT - Textus Receptus": {
+   "rho": 0.07949408406263245,
+   "h2": 3.142661308350988,
+   "residuo": -0.012624799036463782
+  },
+  "Historical - Greek - Technical - De odoribus": {
+   "rho": 0.13152344960292606,
+   "h2": 3.2816932249665753,
+   "residuo": 0.03279726677207133
+  },
+  "Historical - Italian - Literary - NT - Diodati": {
+   "rho": 0.010395794909825815,
+   "h2": 3.175622049257724,
+   "residuo": -0.08328950185782243
+  },
+  "Historical - Italian - Technical - Della Pittura": {
+   "rho": 0.07635643012289565,
+   "h2": 3.087753320201841,
+   "residuo": -0.013153026707753507
+  },
+  "Historical - Latin (Abbreviated) - Literary - NT (Vulgate)": {
+   "rho": 0.06860078207355852,
+   "h2": 3.386605943853982,
+   "residuo": -0.035111232760744945
+  },
+  "Historical - Latin (Abbreviated) - Technical - Pliny's Natural History": {
+   "rho": -0.027357888548154304,
+   "h2": 3.43732386760244,
+   "residuo": -0.1334802026298247
+  },
+  "Historical - Latin - Literary - NT (Vulgate)": {
+   "rho": 0.02980876845846751,
+   "h2": 3.262288480994959,
+   "residuo": -0.06799523072736846
+  },
+  "Historical - Latin - Technical - Pliny's Natural History": {
+   "rho": -0.037239920260434094,
+   "h2": 3.349203334462018,
+   "residuo": -0.13917442776391448
+  },
+  "Historical - Mayan (Kaqchikel) - Literary - Annals of the Cakchiquels": {
+   "rho": 0.13570373880955236,
+   "h2": 3.097941261550518,
+   "residuo": 0.04571011414335212
+  },
+  "Historical - Mayan (Yucatec) - Technical - Chilam Balam": {
+   "rho": 0.2245339219802278,
+   "h2": 3.080204749333277,
+   "residuo": 0.13538320054997544
+  },
+  "Historical - Nahuatl - Literary - Nican Mopohua": {
+   "rho": -0.13238044093529128,
+   "h2": 2.824945310487983,
+   "residuo": -0.20940031023556416
+  },
+  "Historical - Nahuatl - Technical - Florentine Codex": {
+   "rho": 0.09562493873416196,
+   "h2": 2.803057951511751,
+   "residuo": 0.01964523592668374
+  },
+  "Historical - Portuguese - Technical - Coloquios dos simples": {
+   "rho": 0.02040902448026027,
+   "h2": 3.1078500083526523,
+   "residuo": -0.07005549968643972
+  },
+  "Historical - Russian - Literary - NT - Codex Marianus": {
+   "rho": 0.15861772310417746,
+   "h2": 3.372516923441838,
+   "residuo": 0.05557526949765511
+  },
+  "Historical - Sanskrit - Literary - Mahabharata": {
+   "rho": 0.2671096755052396,
+   "h2": 4.566141675430496,
+   "residuo": 0.10734185483468633
+  },
+  "Historical - Sanskrit - Technical - Charaka Samhita": {
+   "rho": 0.2528680428652922,
+   "h2": 4.734171777865216,
+   "residuo": 0.08511482374976198
+  },
+  "Historical - Spanish - Literary - NT - Sagradas Escrituras": {
+   "rho": 0.1072275144109036,
+   "h2": 3.1268270758439947,
+   "residuo": 0.015861131332973927
+  },
+  "Historical - Spanish - Technical - De Materia Medica": {
+   "rho": -0.041693427486949965,
+   "h2": 3.142806875387664,
+   "residuo": -0.13381922845832903
+  },
+  "Modern - Arabic - Literary - NT": {
+   "rho": 0.20574927256959977,
+   "h2": 3.615256712573606,
+   "residuo": 0.09117094588688317
+  },
+  "Modern - Arabic - Technical - Voynich Wiki": {
+   "rho": -0.03444526020121214,
+   "h2": 3.5627694683245585,
+   "residuo": -0.14652920312450504
+  },
+  "Modern - Chinese (Pinyin) - Literary - NT - Matthew": {
+   "rho": 0.044513890897562025,
+   "h2": 2.51893698763263,
+   "residuo": -0.017963355681710758
+  },
+  "Modern - Chinese (Pinyin) - Technical - Voynich Wiki": {
+   "rho": 0.11188029919402137,
+   "h2": 2.570758683660577,
+   "residuo": 0.04694029811492076
+  },
+  "Modern - English - Literary - NT": {
+   "rho": 0.1464909432730666,
+   "h2": 3.192223277951399,
+   "residuo": 0.052016696050265945
+  },
+  "Modern - English - Technical - Voynich Wiki": {
+   "rho": 0.0412808349811896,
+   "h2": 3.3876244693374127,
+   "residuo": -0.06247958386938066
+  },
+  "Modern - French - Literary - NT": {
+   "rho": 0.07581868015816058,
+   "h2": 3.197362084740338,
+   "residuo": -0.018899781756810313
+  },
+  "Modern - French - Technical - Voynich Wiki": {
+   "rho": 0.014574874549816649,
+   "h2": 3.323927899150048,
+   "residuo": -0.08615845281443997
+  },
+  "Modern - German - Literary - NT": {
+   "rho": 0.16285138339884597,
+   "h2": 3.1015989480626462,
+   "residuo": 0.07268393223511378
+  },
+  "Modern - German - Technical - Voynich Wiki": {
+   "rho": 0.13875301680749008,
+   "h2": 3.33827316861018,
+   "residuo": 0.03733795033351518
+  },
+  "Modern - Hebrew - Literary - NT": {
+   "rho": 0.19660370024227092,
+   "h2": 3.462432363067534,
+   "residuo": 0.08928813960693273
+  },
+  "Modern - Hebrew - Technical - Voynich Wiki": {
+   "rho": 0.08240262444559603,
+   "h2": 3.494819839294273,
+   "residuo": -0.026452106246477702
+  },
+  "Modern - Italian - Literary - NT": {
+   "rho": 0.07125778974333738,
+   "h2": 3.1770173642454704,
+   "residuo": -0.022493817441146632
+  },
+  "Modern - Italian - Technical - Voynich Wiki": {
+   "rho": 0.12301645586688828,
+   "h2": 3.2519816752547284,
+   "residuo": 0.025702273382572735
+  },
+  "Modern - Maori - Literary - NT": {
+   "rho": 0.1434756004485536,
+   "h2": 2.500382185837041,
+   "residuo": 0.0818801451867795
+  },
+  "Modern - Maori - Technical - Polandball Wiki": {
+   "rho": -0.06579101488145192,
+   "h2": 2.857440458124693,
+   "residuo": -0.14435517117344582
+  },
+  "Modern - Portuguese - Technical - Voynich Wiki": {
+   "rho": -0.03088995323800496,
+   "h2": 3.3191383520664752,
+   "residuo": -0.13139566399500419
+  },
+  "Modern - Russian - Technical - Voynich Wiki": {
+   "rho": 0.007047024511537886,
+   "h2": 3.6110908771888206,
+   "residuo": -0.10733332660060128
+  },
+  "Modern - Spanish - Technical - Voynich Wiki": {
+   "rho": -0.013287322350215075,
+   "h2": 3.263468179287298,
+   "residuo": -0.11114738506736292
+  },
+  "Modern - Swahili - Literary - NT": {
+   "rho": 0.08160697016107023,
+   "h2": 2.9982514690340554,
+   "residuo": -0.0036490348607552403
+  },
+  "Modern - Swahili - Technical - Lung Cancer Wiki": {
+   "rho": 0.09833367849602882,
+   "h2": 3.063133879563841,
+   "residuo": 0.0099942265641344
+  },
+  "Modern - Tagalog - Literary - NT - Ang Dating Biblia": {
+   "rho": 0.13068125715288081,
+   "h2": 2.8001997087508315,
+   "residuo": 0.05483738838327852
+  },
+  "Modern - Tagalog - Technical - Tuberculosis Wiki": {
+   "rho": 0.16554006980428457,
+   "h2": 3.026392608564027,
+   "residuo": 0.07894669600992134
+  },
+  "Modern - Turkish - Literary - NT": {
+   "rho": 0.055800511117956454,
+   "h2": 3.3956608857178523,
+   "residuo": -0.048341827316888776
+  },
+  "Modern - Turkish - Technical - Middle Ages Wiki": {
+   "rho": -0.013557595153425377,
+   "h2": 3.4693231900998476,
+   "residuo": -0.12120063282217083
+  },
+  "Modern - Wolof - Technical - Senegal Wiki": {
+   "rho": 0.16791828202108558,
+   "h2": 3.3554376963240204,
+   "residuo": 0.06568749508435544
+  },
+  "Modern - Yoruba - Technical - Jupiter Wiki": {
+   "rho": 0.08330221888732499,
+   "h2": 3.1357678653078196,
+   "residuo": -0.00848906285606274
+  }
+ },
+ "esito": "non è solo l'entropia"
+}

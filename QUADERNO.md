@@ -10686,3 +10686,17 @@ Preregistrato (`preregistrazioni/e3a56.md`). Stessa misura dell'e3a55, mediana d
 - **Esito: regge ovunque**, con valori quasi identici (0,57–0,61). Anche con l'alfabeto di Glen Claston, che divide i
   glifi in modo diverso dall'EVA. A 5.000 parole le lingue hanno un massimo più alto (0,364) ma la mediana resta 0,110.
 - Il legame frequenza-forma è quindi una proprietà di tutto il testo, non di una parte o di un modo di trascrivere.
+
+## 4/10/2026 (notte) — e3a57: il legame frequenza-forma non è solo la bassa entropia dei segni
+
+Preregistrato (`preregistrazioni/e3a57.md`). h2 = entropia del segno dato il precedente dentro la parola.
+
+- Fra i 71 testi sensati, ρ (e3a55) e h2 sono legati poco e **nel verso opposto** a quello temuto: r = +0,20 (le lingue
+  con segni più prevedibili non hanno un ρ più alto). Retta: ρ = −0,057 + 0,048 × h2.
+- **Voynich:** h2 2,22 bit, appena sotto il minimo delle lingue (Toki Pona, 2,25): la retta è un'estrapolazione, ma
+  minima. ρ 0,586, previsto 0,048: **residuo +0,537**, contro un massimo delle lingue di +0,177 (Toki Pona, che con
+  la stessa entropia del Voynich ha ρ 0,226).
+- Generatori: residui +0,36 (Naibbe), +0,48 (Timm e Schinner), +0,52 e +0,54 (U2, U3), con h2 da 2,17 a 2,46 come il
+  Voynich. Gibberish umano −0,05.
+- **Esito preregistrato: non è solo l'entropia.** La bassa entropia dei segni, da sola, non fa sì che le parole
+  frequenti siano le forme più probabili: Toki Pona ha la stessa entropia e un legame molto più debole.

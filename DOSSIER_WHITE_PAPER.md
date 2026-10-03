@@ -1095,3 +1095,4 @@ testi a versetti vicino a Q = 0; U3 sta in alto a destra (catena ma riga aperta)
 conta poco, perché la loro giuntura è quasi zero.
 - **La frequenza delle parole segue la loro forma** (e3a55): le parole frequenti del Voynich sono le sequenze di segni più probabili per le regole di sequenza (ρ 0,58), più che in tutte le lingue (mediana 0,11, massimo 0,28) e del gibberish umano (0,09); come nei generatori (0,53–0,60) e nel cifrario verboso Naibbe (0,41). Esclude un vocabolario scelto per significato (lingua o cifrario a dizionario), non un procedimento sui segni.
   - Replicato (e3a56) con Takahashi e Glen Claston, in lingua A e B e per le mani 1, 2, 3: ρ sempre 0,57–0,61, sopra il massimo delle lingue alla stessa dimensione.
+  - Non è un effetto della bassa entropia dei segni (e3a57): nelle lingue ρ non cresce quando l'entropia cala (r = +0,20); Toki Pona, con la stessa entropia del Voynich (2,25 contro 2,22 bit), ha ρ 0,23 contro 0,59.
