@@ -10408,3 +10408,30 @@ fissare: se le righe arrivano al margine, l'ultima parola è "corta quando la ri
 dell'andare a capo (una parola più lunga sarebbe finita nella riga dopo), e lo stesso vale in qualunque testo a capo
 fisso. La misura non distingue la scelta di una parola più corta dall'andare a capo prima. Senza la larghezza fisica delle
 righe non si può fare bene. Non eseguito.
+
+## 4/10/2026 — vz: e293, banco della v12: 0,546 / 0,600 con Isidoro nascosto: i due giudici sono all'obiettivo (di misura), la pagella no
+
+Banco preregistrato dell'e293 (`esegui.py e293 -- --v12`), Isidoro XVII nel sacco, chiavi "banco7", "banco8", "banco9".
+**Decodifica esatta nei tre manoscritti.**
+
+| versione | pagella (3 semi; massimo raggiungibile 51) | pagella estesa | cancello della riga | AUC e231 | AUC e266 |
+|---|---|---|---|---|---|
+| v5 (copia e modifica, 3/10) | 49/54 | 57/78 | 0 su 3 | 0,816 | 0,917 |
+| v10 | 50/54 | 63/78 | 0 su 3 | 0,550 | 0,662 |
+| v11 | 47/54 | 61/78 | 3 su 3 | 0,565 | 0,647 |
+| **v12** | 45/54 | 62/78 | 2 su 3 | **0,546** | **0,600** |
+
+- Per chiave (e231 / e266): banco7 0,567 / 0,626 (senza cancello); banco8 0,552 / 0,601; banco9 0,518 / 0,572.
+- **Obiettivo dei giudici (AUC ≤ 0,6 su entrambi): raggiunto al banco, di misura.** La media dell'e266 è 0,5998; con tre
+  chiavi l'errore è circa 0,02, e una chiave su tre sta a 0,626. Va letto come "intorno a 0,60", non come "sotto".
+  Coincide con i semi di ricerca (0,566 / 0,604): nessun effetto vincitore.
+- **Obiettivo della pagella: non raggiunto.** 15 materie su 18 con ogni chiave. Mancano sempre: gradiente (mal posta:
+  la perde anche il Voynich, e411), omogeneità (la somiglianza nella riga è alta del 15–20%: costo dei termini del
+  cancello e delle metà), profilo pagina (lacuna dichiarata, e411). Fra le otto aggiunte mancano sempre le scelte di
+  riga a 12 classi, e con una o due chiavi prime righe come registro, coppie viste altrove, dispersione delle
+  lunghezze. Cancello della riga con 2 chiavi su 3.
+- **Esito con il criterio dell'e293** rispetto alla v10: AUC dell'e266 −0,062, pagella estesa 62 contro 63: formalmente
+  "non migliora" per un punto di pagella estesa. Rispetto alla v5: migliora (AUC −0,317, pagella estesa +5).
+- **Avvertenza sul significato.** I pesi del modello sono stati regolati sulle stesse statistiche che i due giudici
+  guardano (su un seme a parte, mai sui giudici e mai sui semi 7–9). "I giudici non lo distinguono" vale per questi
+  due giudici; un giudice costruito in modo indipendente non è ancora stato provato.

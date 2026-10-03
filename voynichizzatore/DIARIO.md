@@ -503,3 +503,42 @@ Nel QUADERNO (voce "vz: e412"). M1 (coppia negativa) non serve da solo; **M2 (+ 
 - In corso: banco e293 della v12.
 
 - Tre versioni a pezzi con compromessi diversi: v10 (più materie, senza cancello), v11 (cancello), v12 (cancello e giudice forte più basso, meno materie).
+
+## 4/10/2026, 01:10 — banco della v12: 0,546 / 0,600; bilancio della notte
+
+Nel QUADERNO (voce "vz: e293, banco della v12"). **v12: decodifica esatta, AUC 0,546 / 0,600, pagella 45/54 (massimo
+raggiungibile 51), estesa 62/78, cancello 2 su 3.** I due giudici sono all'obiettivo di misura; la pagella no.
+
+### Bilancio (dalle 19:45 del 3/10 all'1:10 del 4/10)
+
+| passo | che cosa | esito |
+|---|---|---|
+| e400 | scala dei controlli | contano i bordi della riga; nascondiglio vecchio 0,63 da solo |
+| e401, e401b | disposizione | con il sacco vero 0,53 / 0,66 |
+| e402 | sacco dei generatori vecchi | il muro era il sacco |
+| e403, e403b, e405 | parole nuove | forma imparata sulle parole uniche; sacco intero 0,495 |
+| e404, e404b | parole note | lessico di sezione + carattere di pagina: 0,48 |
+| e406 | generatore intero a pezzi (v8) | 0,604 / 0,715 al banco |
+| e407 | unioni, confine, verticale (v9) | pagella 16,5; il nascondiglio vecchio la rovina al banco |
+| e408 | concordanza, scelte di riga | migliorano senza passare; pagella 17 |
+| e409, e409b | messaggio nel sacco (v10) | 0,550 / 0,662 al banco, pagella 50 |
+| e410 | cancello della riga (v11) | cancello 3 su 3 al banco; 0,565 / 0,647 |
+| e411 | profilo pagina, gradiente | negativo; difetto del metro: il Voynich perde il gradiente |
+| e412 | metà della pagina (v12) | 0,546 / 0,600 al banco |
+
+### Dove siamo (4/10, 01:10)
+
+- **Versioni a pezzi, tutte con il messaggio nel sacco e il testo che torna esatto:** v10 (più materie: 50/54, senza
+  cancello, 0,550 / 0,662), v11 (cancello 3/3, 47/54, 0,565 / 0,647), v12 (0,546 / 0,600, cancello 2/3, 45/54). Lo
+  strumento usa l'ultima (v12); `--versione v10` o `v11` per le altre.
+- **Lacune dichiarate:** profilo pagina (R 0,7–0,8 contro 0,8–1,25); coppie viste altrove (0,245 contro 0,221);
+  scelte di riga a 12 classi (un peso unico non basta); concordanza delle desinenze (0,057 contro 0,043, fascia fino a
+  0,055); omogeneità (persa nella v12); prime righe come registro (z 2–3 contro la soglia 3); gradiente (materia mal
+  posta nel metro).
+- **Idee per il seguito, non provate:** (1) abbassare la somiglianza nella riga regolando anche su quella (omogeneità);
+  (2) un peso per classe nelle scelte di riga; (3) un registro delle prime righe nel sacco (lessico proprio delle
+  prime righe); (4) un giudice indipendente, costruito dalla chat di ricerca; (5) cifratura robusta (scrypt, HMAC) e
+  prova di andata e ritorno su un'altra macchina; (6) togliere dal generatore le dipendenze dagli esperimenti e
+  preparare il repo pubblico secondo `voynichizzatore/PUBBLICAZIONE.md`.
+- **Da decidere con Davide:** quale versione pubblicare (v10, v11 o v12) e per quale strada (solo codice, o anche le
+  statistiche: vedi la nota per la pubblicazione).
