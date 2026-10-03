@@ -1,0 +1,24 @@
+{
+ "Voynich": {
+  "parole": 34863,
+  "G": 0.014024013275632057,
+  "nullo": 0.013433377802362282,
+  "z": 1.2230381633361342,
+  "sorpresa_media": 11.037303700219677
+ },
+ "generatore e241 (negativo)": {
+  "parole": 37980,
+  "G": 0.012437223042836041,
+  "nullo": 0.011124135893648449,
+  "z": 2.9634680676893055,
+  "sorpresa_media": 10.81636761110572
+ },
+ "Voynich con frammenti di Plinio (positivo)": {
+  "parole": 34863,
+  "G": 0.018774607099860084,
+  "nullo": 0.013521686786190739,
+  "z": 9.801125371863446,
+  "sorpresa_media": 12.443708497225975
+ },
+ "esito": "nessun raggruppamento"
+}
