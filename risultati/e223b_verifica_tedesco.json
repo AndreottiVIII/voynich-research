@@ -1,0 +1,553 @@
+{
+ "prove": {
+  "positivo": {
+   "simboli": 24,
+   "obiettivo": -9.933297329377336,
+   "pagine_verifica": 94,
+   "delta": 0.123211533340818,
+   "nullo": 0.0653843428120951,
+   "z": 7.753880407075007,
+   "chiave": {
+    "u0.": "e",
+    "u1.": "n",
+    "u10.": "h",
+    "u11.": "o",
+    "u12.": "g",
+    "u13.": "b",
+    "u14.": "c",
+    "u15.": "m",
+    "u16.": "w",
+    "u17.": "f",
+    "u18.": "k",
+    "u19.": "z",
+    "u2.": "i",
+    "u20.": "p",
+    "u21.": "v",
+    "u22.": "y",
+    "u23.": "b",
+    "u3.": "r",
+    "u4.": "t",
+    "u5.": "s",
+    "u6.": "a",
+    "u7.": "l",
+    "u8.": "d",
+    "u9.": "u"
+   },
+   "esempi": {
+    "piante": [
+     "ertrageabermeistnurbeiintensiverstickstoff",
+     "dungungwahrendfurfaserproduktionimherbstgeerntet"
+    ],
+    "ricette": [
+     "olgekochtwurdeolhateinendeutlich",
+     "hoherensiedepunktalswasserdaherwerdentemperaturen"
+    ],
+    "astronomia": [
+     "blauenriesenunddersonnedateideneb",
+     "suncomparisonsvgminidieschatzungenvon"
+    ]
+   }
+  },
+  "positivo, metà invertite": {
+   "simboli": 24,
+   "obiettivo": -9.920125763042329,
+   "pagine_verifica": 94,
+   "delta": 0.11214608497655272,
+   "nullo": 0.05320081941140659,
+   "z": 8.985018123731004,
+   "chiave": {
+    "u0.": "e",
+    "u1.": "n",
+    "u10.": "h",
+    "u11.": "o",
+    "u12.": "g",
+    "u13.": "b",
+    "u14.": "c",
+    "u15.": "m",
+    "u16.": "w",
+    "u17.": "f",
+    "u18.": "k",
+    "u19.": "z",
+    "u2.": "i",
+    "u20.": "p",
+    "u21.": "v",
+    "u22.": "y",
+    "u23.": "n",
+    "u3.": "r",
+    "u4.": "t",
+    "u5.": "s",
+    "u6.": "a",
+    "u7.": "l",
+    "u8.": "d",
+    "u9.": "u"
+   },
+   "esempi": {
+    "piante": [
+     "vorallembiszumviertennahrberichtet",
+     "furdenanbauzurblattergewinnungwirdauch"
+    ],
+    "ricette": [
+     "diegeruchsundgeschmacksnervenblausaureistin",
+     "wassereinesehrschwachesauredieschon"
+    ],
+    "astronomia": [
+     "essichbeiihnennichtumsterne",
+     "handeltbeioberflachentemperaturenuberbiskfallen"
+    ]
+   }
+  },
+  "positivo, rimescolato nella riga": {
+   "simboli": 24,
+   "obiettivo": -12.79802448871487,
+   "pagine_verifica": 94,
+   "delta": 0.0006915137013027041,
+   "nullo": -0.003647526679522887,
+   "z": 3.8801946074483173,
+   "chiave": {
+    "u0.": "a",
+    "u1.": "r",
+    "u10.": "u",
+    "u11.": "g",
+    "u12.": "d",
+    "u13.": "o",
+    "u14.": "n",
+    "u15.": "b",
+    "u16.": "p",
+    "u17.": "c",
+    "u18.": "e",
+    "u19.": "k",
+    "u2.": "s",
+    "u20.": "h",
+    "u21.": "v",
+    "u22.": "y",
+    "u23.": "z",
+    "u3.": "e",
+    "u4.": "m",
+    "u5.": "i",
+    "u6.": "t",
+    "u7.": "n",
+    "u8.": "e",
+    "u9.": "l"
+   },
+   "esempi": {
+    "piante": [
+     "aseoiaimvrcrnisssartlemmceobasaeetmgaedmia",
+     "raerlhidceseuattmbgaeecleaeruplomadelsmemgiraedr"
+    ],
+    "ricette": [
+     "nuaanmtglnlsuneemdgeuaanemarsrgp",
+     "beeeahnemmepueutsmaelpiragaueeehiaataaaiaarrriltt"
+    ],
+    "astronomia": [
+     "lrgiaeenrreettoemarseaoarraaialas",
+     "aistrbsldrendngigrritslkivemragvbrhsu"
+    ]
+   }
+  },
+  "Voynich, 8 ripartenze": {
+   "simboli": 24,
+   "obiettivo": -11.537119690446923,
+   "pagine_verifica": 94,
+   "delta": -0.003150971288053719,
+   "nullo": 0.005845284954022282,
+   "z": -4.779243765824131,
+   "chiave": {
+    "a": "a",
+    "c": "a",
+    "cfh": "c",
+    "ch": "s",
+    "ckh": "i",
+    "cph": "k",
+    "cth": "g",
+    "d": "h",
+    "e": "t",
+    "f": "r",
+    "g": "o",
+    "h": "g",
+    "i": "u",
+    "k": "r",
+    "l": "n",
+    "m": "l",
+    "n": "f",
+    "o": "e",
+    "p": "i",
+    "q": "b",
+    "r": "m",
+    "s": "d",
+    "x": "v",
+    "y": "e"
+   },
+   "esempi": {
+    "piante": [
+     "rsdesehaufenenrstesancanal",
+     "rtesanenesehsenreteerehansete"
+    ],
+    "ricette": [
+     "rensenreserseeremansesersenseneeranehanl",
+     "sehanenieenstansanraneraneranenseran"
+    ],
+    "astronomia": [
+     "eiehsendaufante",
+     "eteheuufente"
+    ]
+   }
+  },
+  "Voynich, metà invertite": {
+   "simboli": 24,
+   "obiettivo": -11.537407778901919,
+   "pagine_verifica": 94,
+   "delta": -0.0009000082819502504,
+   "nullo": -0.0033404574510220897,
+   "z": 3.1166207881172854,
+   "chiave": {
+    "a": "a",
+    "c": "f",
+    "cfh": "l",
+    "ch": "d",
+    "ckh": "h",
+    "cph": "w",
+    "cth": "g",
+    "d": "m",
+    "e": "i",
+    "f": "n",
+    "g": "o",
+    "h": "t",
+    "i": "l",
+    "k": "r",
+    "l": "n",
+    "m": "u",
+    "n": "s",
+    "o": "e",
+    "p": "n",
+    "q": "b",
+    "r": "t",
+    "s": "s",
+    "x": "i",
+    "y": "e"
+   },
+   "esempi": {
+    "piante": [
+     "remalseendenmalserdanendalshense",
+     "etdetedransdengefre"
+    ],
+    "ricette": [
+     "renderdeenalsenalsdenaneenanenanenanenanmals",
+     "altendtalsralteeraneiesalserieieeraltananenetre"
+    ],
+    "astronomia": [
+     "nmalserieendiedandindedmieendisdenndmerimans",
+     "altdirieerimaneranerieerieeranerieerdm"
+    ]
+   }
+  },
+  "Voynich, rimescolato nella riga": {
+   "simboli": 24,
+   "obiettivo": -12.862152166159204,
+   "pagine_verifica": 94,
+   "delta": 0.00013387707065742565,
+   "nullo": -0.0014602995156250092,
+   "z": 1.5624531801258057,
+   "chiave": {
+    "a": "i",
+    "c": "w",
+    "cfh": "u",
+    "ch": "r",
+    "ckh": "c",
+    "cph": "p",
+    "cth": "u",
+    "d": "l",
+    "e": "s",
+    "f": "h",
+    "g": "z",
+    "h": "f",
+    "i": "d",
+    "k": "n",
+    "l": "t",
+    "m": "g",
+    "n": "o",
+    "o": "e",
+    "p": "k",
+    "q": "u",
+    "r": "m",
+    "s": "b",
+    "x": "g",
+    "y": "a"
+   },
+   "esempi": {
+    "piante": [
+     "nibtondrrttiirteaaairegslu",
+     "erneieetsnaealtesittrsrarneal"
+    ],
+    "ricette": [
+     "artnratlgeterrarhtheetteiieerihnmtnraeae",
+     "etettttrnisrticatinlneanieiierrttait"
+    ],
+    "astronomia": [
+     "ibrdalesoieektt",
+     "aoesdeetsald"
+    ]
+   }
+  },
+  "generatore, seme 1": {
+   "simboli": 24,
+   "obiettivo": -11.738157599994437,
+   "pagine_verifica": 94,
+   "delta": -0.003090909029704684,
+   "nullo": -0.0015092271359747403,
+   "z": -1.402540445335728,
+   "chiave": {
+    "a": "a",
+    "c": "k",
+    "cfh": "k",
+    "ch": "i",
+    "ckh": "o",
+    "cph": "g",
+    "cth": "p",
+    "d": "m",
+    "e": "s",
+    "f": "v",
+    "g": "g",
+    "h": "o",
+    "i": "n",
+    "k": "n",
+    "l": "r",
+    "m": "l",
+    "n": "d",
+    "o": "e",
+    "p": "b",
+    "q": "h",
+    "r": "g",
+    "s": "l",
+    "u": "x",
+    "y": "t"
+   },
+   "esempi": {
+    "piante": [
+     "ntbististtrieritiestmariarit",
+     "enitiserkamtnereitierienistmer"
+    ],
+    "ricette": [
+     "viemandiernseristierisarialebtientenegarnt",
+     "angenareriarheknandiarenandientierandisl"
+    ],
+    "astronomia": [
+     "enskaresnandtmandensest",
+     "riseststst"
+    ]
+   }
+  },
+  "generatore, seme 2": {
+   "simboli": 23,
+   "obiettivo": -11.693614838668433,
+   "pagine_verifica": 94,
+   "delta": 0.00010529469989883648,
+   "nullo": 0.0033129809058175027,
+   "z": -1.9541613481881246,
+   "chiave": {
+    "a": "a",
+    "c": "z",
+    "cfh": "z",
+    "ch": "s",
+    "ckh": "h",
+    "cph": "l",
+    "cth": "g",
+    "d": "i",
+    "e": "t",
+    "f": "i",
+    "g": "p",
+    "h": "g",
+    "i": "u",
+    "k": "r",
+    "l": "n",
+    "m": "l",
+    "n": "f",
+    "o": "e",
+    "p": "r",
+    "q": "b",
+    "r": "m",
+    "s": "d",
+    "y": "e"
+   },
+   "esempi": {
+    "piante": [
+     "deseenzanseteseiesensesenreauf",
+     "rseteerenrensersteseniaufree"
+    ],
+    "ricette": [
+     "rsegesteneianaldafnanalsenaneneiaiauf",
+     "steiansenensezeranaumanterenianalseransan"
+    ],
+    "astronomia": [
+     "rsaniaufsianerste",
+     "gteeiauuufanauf"
+    ]
+   }
+  },
+  "generatore, seme 3": {
+   "simboli": 25,
+   "obiettivo": -11.68178511453759,
+   "pagine_verifica": 94,
+   "delta": -0.0022480190214715506,
+   "nullo": 0.004596110075961401,
+   "z": -3.97178306877345,
+   "chiave": {
+    "a": "a",
+    "b": "o",
+    "c": "p",
+    "cfh": "g",
+    "ch": "s",
+    "ckh": "g",
+    "cph": "s",
+    "cth": "l",
+    "d": "m",
+    "e": "t",
+    "f": "u",
+    "g": "i",
+    "h": "t",
+    "i": "c",
+    "k": "r",
+    "l": "n",
+    "m": "l",
+    "n": "h",
+    "o": "e",
+    "p": "i",
+    "q": "b",
+    "r": "d",
+    "s": "i",
+    "x": "y",
+    "y": "e"
+   },
+   "esempi": {
+    "piante": [
+     "isenseremanmacdsereenreretere",
+     "stesetisesermrsmtestenegere"
+    ],
+    "ricette": [
+     "usachemacherteianstantananeraneersane",
+     "edseanseniachianeeranestenieren"
+    ],
+    "astronomia": [
+     "iedacdachbterteemach",
+     "stemstmachsrmach"
+    ]
+   }
+  },
+  "generatore, seme 4": {
+   "simboli": 24,
+   "obiettivo": -11.645398627144198,
+   "pagine_verifica": 94,
+   "delta": -0.001834758672639533,
+   "nullo": 0.003755662391503237,
+   "z": -3.6295803960996604,
+   "chiave": {
+    "a": "a",
+    "b": "g",
+    "c": "u",
+    "cfh": "c",
+    "ch": "s",
+    "ckh": "g",
+    "cph": "u",
+    "cth": "h",
+    "d": "m",
+    "e": "t",
+    "f": "o",
+    "g": "d",
+    "h": "u",
+    "i": "n",
+    "k": "r",
+    "l": "n",
+    "m": "l",
+    "n": "d",
+    "o": "e",
+    "p": "l",
+    "q": "b",
+    "r": "g",
+    "s": "i",
+    "y": "e"
+   },
+   "esempi": {
+    "piante": [
+     "emaneengenmegerersetesnnsensen",
+     "rsenueananenmeneiseteenren"
+    ],
+    "ricette": [
+     "reangstrsterananeraneesanelsteeranai",
+     "eranstrstemansteeranstlstemanrsanesanenre"
+    ],
+    "astronomia": [
+     "lsmanseierteteie",
+     "ertenndege"
+    ]
+   }
+  },
+  "generatore, seme 5": {
+   "simboli": 23,
+   "obiettivo": -11.649811691787649,
+   "pagine_verifica": 94,
+   "delta": -0.004940723502271444,
+   "nullo": -0.0051357737986035285,
+   "z": 0.19264154025973762,
+   "chiave": {
+    "a": "a",
+    "c": "f",
+    "cfh": "p",
+    "ch": "d",
+    "ckh": "s",
+    "cph": "w",
+    "cth": "g",
+    "d": "m",
+    "e": "i",
+    "f": "n",
+    "g": "o",
+    "h": "p",
+    "i": "l",
+    "k": "r",
+    "l": "n",
+    "m": "u",
+    "n": "s",
+    "o": "e",
+    "p": "r",
+    "q": "h",
+    "r": "t",
+    "s": "s",
+    "y": "e"
+   },
+   "esempi": {
+    "piante": [
+     "nadesdeiedeieeeranausdeiesensdeie",
+     "dedeiemanerendensneiedengie"
+    ],
+    "ricette": [
+     "reellseratesienedieneeranedieredirderallrdiane",
+     "femeraneieeranetenraneeremeneerdatau"
+    ],
+    "astronomia": [
+     "rdemalsdieiedeithierie",
+     "eriseseeue"
+    ]
+   }
+  }
+ },
+ "z": {
+  "positivo": 7.753880407075007,
+  "positivo, metà invertite": 8.985018123731004,
+  "positivo, rimescolato nella riga": 3.8801946074483173,
+  "Voynich, 8 ripartenze": -4.779243765824131,
+  "Voynich, metà invertite": 3.1166207881172854,
+  "Voynich, rimescolato nella riga": 1.5624531801258057,
+  "generatore, seme 1": -1.402540445335728,
+  "generatore, seme 2": -1.9541613481881246,
+  "generatore, seme 3": -3.97178306877345,
+  "generatore, seme 4": -3.6295803960996604,
+  "generatore, seme 5": 0.19264154025973762
+ },
+ "massimo_generatori": 0.19264154025973762,
+ "valido": true,
+ "criteri": {
+  "1. 8 ripartenze, z > 4": false,
+  "2. metà invertite, z > 4": false,
+  "3. Voynich − rimescolato ≥ 3": false,
+  "4. Voynich ≥ massimo generatori + 3": false
+ },
+ "esito": "artefatto (prove mancate: 1. 8 ripartenze, z > 4, 2. metà invertite, z > 4, 3. Voynich − rimescolato ≥ 3, 4. Voynich ≥ massimo generatori + 3)"
+}
