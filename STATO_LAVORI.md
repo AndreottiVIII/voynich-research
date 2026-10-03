@@ -113,6 +113,23 @@ Dettagli nel QUADERNO e nel dossier (§15.5–15.11).
   - la lettura A/B dell'e307 (corretta dall'e315);
   - "la riga sopra non conta" del primo modello (corretta dall'e338/e340).
 
+## vz: stato del voynichizzatore (chat del voynichizzatore, 4/10 all'1:10)
+
+Sostituisce la sezione seguente per i numeri; il resto di quella sezione (impianto, metodo, proprietà) resta valido.
+
+| versione al banco (Isidoro nascosto, semi 7–9) | AUC e231 | AUC e266 | pagella (massimo 51) | estesa | cancello della riga |
+|---|---|---|---|---|---|
+| v5, la migliore del 3/10 | 0,816 | 0,917 | 49/54 | 57/78 | 0 su 3 |
+| v10 | 0,550 | 0,662 | 50/54 | 63/78 | 0 su 3 |
+| v11 | 0,565 | 0,647 | 47/54 | 61/78 | 3 su 3 |
+| **v12** (predefinita nello strumento) | **0,546** | **0,600** | 45/54 | 62/78 | 2 su 3 |
+
+- Il testo torna esatto in tutte le versioni; il messaggio sta nella scelta delle parole note di ogni pagina.
+- I due giudici sono all'obiettivo (≤ 0,6) di misura con la v12; la pagella piena no. Con la pagella di questo progetto
+  il Voynich stesso prende 17 materie su 18 (perde il "gradiente": difetto del metro, e411).
+- Lacune dichiarate e idee per il seguito: `voynichizzatore/DIARIO.md`, ultima sezione. Nota per la pubblicazione:
+  `voynichizzatore/PUBBLICAZIONE.md` (niente è stato pubblicato; licenza della trascrizione da controllare).
+
 ## vz: stato del voynichizzatore (chat del voynichizzatore, 3/10 a mezzanotte)
 
 Dettagli nel `QUADERNO.md` (voci che iniziano con "vz:") e nel diario `voynichizzatore/DIARIO.md`.
