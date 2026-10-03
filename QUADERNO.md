@@ -10622,3 +10622,12 @@ Lingue con la stessa regola (68 testi): mediana 0,041, massimo 0,333 (toki pona 
 
 - **Esito preregistrato: regge in tutte e due le varianti.** La somiglianza fra le coppie di segni dentro e fra le
   parole non viene dagli spazi incerti né dalle parole cortissime spezzate.
+
+## 4/10/2026 (notte) — Nota all'e3a49: le lingue a sillabe non hanno la "catena"
+
+Lettura dei risultati già registrati dell'e3a49 (nessun calcolo nuovo). Se l'alto ρ del Voynich (0,47) dipendesse solo
+dall'avere parole corte e regolari, le lingue a sillabe dovrebbero avere ρ alto. Invece: cinese in pinyin −0,252, toki
+pona 0,017 e 0,007, lojban −0,276 e −0,150, tagalog −0,022 e −0,081, italiano da −0,214 a −0,011, latino da −0,079 a
+0,145, sanscrito −0,113 e 0,173. Nelle lingue le coppie di lettere fra parole sono indipendenti o perfino opposte a
+quelle dentro le parole. Il Voynich è l'unico in cui sono le stesse: la proprietà non è un effetto della brevità delle
+parole.
