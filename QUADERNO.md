@@ -9756,3 +9756,14 @@ su k segni di bordo.
 - **Ipotesi da verificare:** il resto viene dal lessico della pagina. Nella stessa pagina tornano le stesse famiglie di
   parole, e questo lega l'identità di una parola all'iniziale della vicina anche senza raccordo. Il nullo dell'e3a08 e
   dell'e3a10 rimescolava fra pagine diverse: prova con il nullo dentro la pagina nell'e3a14.
+
+## 4/10/2026 (notte) — e3a15: -ey cresce scendendo nella pagina anche a parità di posizione e lunghezza della riga
+
+Preregistrato (`preregistrazioni/e3a15.md`). Righe interne della pagina; celle (pagina × posizione della parola nella riga
+× terzile di lunghezza della riga); quota di -*ey* fra -*dy*/-*ey*, metà bassa meno metà alta.
+
+- 562 celle, 7.897 parole. Differenza **+0,057, z 4,8.**
+- **Esito preregistrato: la crescita verticale resta.** Non è un effetto della posizione nella riga né della lunghezza
+  delle righe in basso: scendendo nella stessa pagina, a parità di questi fattori, lo scriba usa di più -*ey*.
+- Resta da capire perché. Ipotesi da provare: legata alla ripresa (e370: più forte nelle parole riprese) o alla
+  distanza dalla prima riga del paragrafo invece che della pagina.
