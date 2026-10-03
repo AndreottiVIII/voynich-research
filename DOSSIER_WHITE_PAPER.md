@@ -1016,3 +1016,4 @@ negativi; i numeri sono nei file di `risultati/`.
   z 1,9, contro 0,167 a parità di coppie) come all'a capo. In una lingua la grammatica passerebbe oltre il disegno. Le
   parole dopo il salto iniziano come quelle di inizio riga (*s*, *d*, *y*).
 - **Senza parola prima si scrive *o*-, non *qo*-** (e387, previsione confermata su dati non guardati): nelle etichette, parole isolate, *qo*- davanti a gallows è quasi assente (0–5% contro 30–68% nelle righe, p < 0,0001); dopo il salto di un disegno scende al 7–19%. *qo*- compare solo dopo una parola scritta di seguito che finisce in -*y*, -*o*, -*d* (e380). La previsione simmetrica per -*l* a fine parola non regge.
+- **La regola di raccordo è del sistema, non della mano** (e388): le tre mani di Davis con abbastanza testo (1 in lingua A; 2 e 3 in lingua B) seguono tutte le due regole (*qo*-/*o*-: Δ +0,25, +0,48, +0,38; -*l*/-*r*: +0,47, +0,64, +0,57; intervalli tutti sopra zero).

@@ -9221,3 +9221,24 @@ di guardare le etichette. Etichette (loci di tipo L) contro parole in mezzo alla
 - Cautela: le etichette potrebbero anche essere un lessico a parte (nomi). Ma il salto del disegno, dentro il testo
   corrente, dà lo stesso effetto.
 - A inizio riga invece *qo*- è frequente (57–87%): lì vale un'altra regola (e374), ancora da capire.
+
+## 3/10/2026 (notte) — e388: la regola di raccordo è la stessa per tutti gli scribi
+
+Preregistrato (`preregistrazioni/e388.md`). Classi prese dai conteggi descrittivi dell'e380 (stessi dati); domanda nuova:
+la regola vale per ogni mano di Davis? Δ_qo = P(*qo* | parola prima in -*y*/-*o*/-*d*) − P(*qo* | in -*n*/-*r*/-*s*/-*m*);
+Δ_l = P(-*l* | parola dopo in *k*/*t*/*d*/*l*/*s*/*q*) − P(-*l* | parola dopo in *a*). Bootstrap sulle pagine.
+
+| regola | mano (strati principali) | eventi | Δ | IC 95% |
+|---|---|---|---|---|
+| *qo*-/*o*- | 1 (erbario A, farmacia A) | 653 / 499 | +0,25 | +0,19 – +0,30 |
+| *qo*-/*o*- | 2 (biologia B, erbario B) | 1.895 / 550 | +0,48 | +0,42 – +0,54 |
+| *qo*-/*o*- | 3 (ricette B) | 1.984 / 1.084 | +0,38 | +0,34 – +0,42 |
+| -*l*/-*r* | 1 | 816 / 50 | +0,47 | +0,34 – +0,58 |
+| -*l*/-*r* | 2 | 501 / 214 | +0,64 | +0,57 – +0,72 |
+| -*l*/-*r* | 3 | 639 / 375 | +0,57 | +0,52 – +0,61 |
+
+Le mani 4 e 5 hanno troppi pochi eventi.
+
+- **Esito preregistrato: regola condivisa da tutte le mani.** I tre scribi con abbastanza testo, in lingua A e in
+  lingua B, seguono le stesse due regole di raccordo. È una regola del sistema di scrittura, non un'abitudine di mano.
+- In lingua A (mano 1) la regola di *qo*- è più debole (+0,25 contro +0,38/+0,48).
