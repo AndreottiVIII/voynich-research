@@ -8610,3 +8610,19 @@ Preregistrato (`preregistrazioni/e371.md`). 48 bifogli, 21.120 parole in mezzo a
 paragrafo). Dispersione della quota di forme nuove fra i bifogli: **3,41 volte il nullo, z 9,1. Esito preregistrato:
 l'inventiva regge senza i bordi.** Con e360 ed e364: la differenza fra sessioni nelle forme nuove non dipende dai
 paragrafi, dalla spaziatura né dai segni di bordo.
+
+## 3/10/2026 (notte) — e372: la ripresa copia pezzi di riga, anche a ordine invertito
+
+Preregistrato (`preregistrazioni/e372.md`). Coppie di parole vicine entrambe con una fonte (uguale o a una modifica)
+nella riga subito sopra; "in blocco" se le fonti sono anche loro vicine.
+
+| testo | coppie | stesso ordine | nullo | z | ordine invertito | nullo | z |
+|---|---|---|---|---|---|---|---|
+| Voynich | 3.125 | 0,235 | 0,182 | **8,0** | 0,210 | 0,182 | **4,3** |
+| Timm e Schinner, seme 1 | 6.690 | 0,314 | 0,294 | 4,6 | 0,302 | 0,294 | 1,7 |
+| Timm e Schinner, seme 19 | 5.365 | 0,236 | 0,205 | 5,9 | 0,213 | 0,205 | 1,7 |
+
+- **Esito preregistrato: copia a pezzi.**
+- Lo scriba riprende anche **coppie** di parole vicine dalla riga sopra, di solito nello stesso ordine, ma più del caso
+  anche invertite. Nel generatore di Timm e Schinner l'ordine invertito non c'è: un'altra differenza dalla loro teoria,
+  oltre alla distanza (e347).

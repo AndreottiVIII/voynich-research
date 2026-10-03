@@ -964,3 +964,6 @@ negativi; i numeri sono nei file di `risultati/`.
   in più (*y*, *d*, *s* all'inizio; *y*, *d*, *s*, *g*, *m* alla fine). A inizio riga la parolina *s*, che in mezzo alla
   riga si scrive staccata quasi una volta su due (243 attaccate contro 211 staccate), si attacca quasi sempre alla parola
   seguente (337 contro 16).
+- **La ripresa copia pezzi di riga** (e372): due parole vicine riprese vengono da due parole vicine della riga sopra più
+  del caso, di solito nello stesso ordine (z 8,0) ma anche invertite (z 4,3), cosa che il generatore di Timm e Schinner
+  non fa.
