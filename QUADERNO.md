@@ -6667,3 +6667,16 @@ sequenza.
 - **Prossimo passo (v1):** codifica aritmetica con un modello delle scelte imparato dal Voynich (contesto e scelte
   già fatte nella riga), così le scelte escono distribuite come nel modello; corpo migliorato con θ 0 e le prime
   righe.
+
+## 3/10/2026 — e268b: prime righe, secondo tentativo; non superato, lacuna del passo 3b (prime righe)
+
+- **Preregistrato:** come l'e268, con ρ scelto sul seme 1 per avvicinare la misura dell'e273 a quella del Voynich
+  (+0,047), a pagella non inferiore. Scelto **ρ 0,25** (+0,026 sul seme 1; ρ 0,3 dava +0,047 ma pagella 13).
+- **Verifica** (semi 7–9; e241 → ρ 0,25): G8 0,890 → **0,824**; AUC dell'e266 0,961 → **0,931**; dell'e231 0,873 →
+  0,866; misura dell'e273 sul seme 7 +0,028 (z **2,9**); pagella 45 → **42** (seme 7: 16/18, seme 8 e 9: 13/18);
+  riga in 3 semi su 3.
+- **Esito preregistrato: non superato** (e273 di un soffio, pagella). Secondo tentativo: si dichiara la **lacuna del
+  passo 3b per le prime righe**.
+- **Lettura.** Il registro d'apertura abbassa il discriminatore forte di 0,03 anche a dose moderata, ma le prime
+  righe "prese" da altre pagine costano proprietà di pagina (omogeneità, gradiente, formule) a seconda del seme. ρ
+  resta un parametro per la regolazione congiunta, dove si può compensare con gli altri.
