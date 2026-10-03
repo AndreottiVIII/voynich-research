@@ -7162,3 +7162,50 @@ Preregistrato (`preregistrazioni/e302.md`); Voynich contro il corpo della v5 sui
   0,756), hapax 0,130 (0,137), coppie riviste altrove 0,240 (0,241), legame fra finali 0,0240 (0,0237), coppie
   identiche 0,0138 (0,0094); lunghezza delle parole 4,62 (4,46: ancora lunghe). Prova con i discriminatori sui semi 1–4
   in corso.
+
+## 3/10/2026 — e307: ogni pagina ha un'identità forte, lungo un solo asse (-edy contro -aiin), condivisa con la pagina accanto
+
+Preregistrato (`preregistrazioni/e307.md`). 183 pagine con almeno 60 parole, 9 strati sezione × lingua; nullo = parole
+rimescolate fra le pagine dello stesso strato.
+
+- **A, identità oltre sezione e lingua** (distanza media pagina-strato, rapporto sul nullo e z):
+  - **Voynich:** segni **2,83 (z 70)**, parole 1,08 (z 28), iniziali e finali **2,35 (z 57)**;
+  - controllo positivo, Bibbia latina in pagine: 1,75 (z 49), 1,07 (z 64), 1,84 (z 47);
+  - controllo negativo, Voynich rimescolato: 1,01, 1,00, 1,01 (|z| < 0,5).
+  - **Esito preregistrato: pagine con identità.** Per i segni il Voynich ha più identità di pagina della Bibbia, dove
+    le pagine cambiano libro e argomento.
+- **B, in che cosa consiste:** le caratteristiche con più varianza in eccesso sono i segni ***e*** (9,0 volte il
+  nullo), *a* (4,9), *n* (4,7), *y* (4,6), *ch* (4,6), l'iniziale *o* (4,5), *d* (4,4), la finale *y* (4,4),
+  l'iniziale *ch*, la finale *n*, *i*, *o*, *m*, la lunghezza. Non distinguono le pagine: *c*, *h*, la parola *al*,
+  *cfh*, l'iniziale *p*.
+- **C, da dove viene** (correlazione fra profili di pagine dello stesso strato):
+
+  | coppie | correlazione | z |
+  |---|---|---|
+  | **consecutive** | **0,209** | **10,9** |
+  | vicine (2–5) | −0,018 | 1,2 |
+  | stessa mano (> 5) | −0,024 | −5,5 |
+  | stesso fascicolo (> 5) | 0,015 | 4,6 |
+  | altre (> 5) | −0,074 | −3,8 |
+
+  **Esito preregistrato: temporale e di fascicolo.**
+- **D, tipi di pagina:** silhouette 0,084 con k = 2, contro 0,048 del nullo, z 3,2. **Esito preregistrato: tipi di
+  pagina.** I due gruppi sono i due estremi dello stesso asse:
+  - gruppo 0: meno *e* e -*y*, più *a*, *i*, *n*, -*n*, cioè parole in -*aiin*/-*ain*;
+  - gruppo 1: l'opposto, parole in -*edy*/-*eey*.
+
+  Tutti e due i gruppi sono distribuiti in tutte le sezioni, in tutte e due le lingue e in tutte le mani.
+- **Lettura** (scritta dopo i risultati):
+  1. L'identità di una pagina è soprattutto la sua **posizione su un asse "-edy/-eey contro -aiin/-ain"**. È lo stesso
+     asse che separa le lingue A e B di Currier, ma qui vale **dentro** ogni lingua e ogni sezione. A e B sembrano più
+     gli estremi di un continuo che due sistemi separati.
+  2. Il silhouette basso (0,08) dice che i "tipi" sono deboli: più che due tipi, un continuo con due estremi.
+  3. **Le pagine consecutive** condividono l'identità (z 10,9), quelle a 2–5 pagine di distanza **no** (z 1,2). Questo
+     fa pensare a un'unità fisica di due pagine: le due facce dello stesso foglio, o le due pagine affiancate di
+     un'apertura. Da verificare con un esperimento apposito.
+  4. Le pagine della stessa mano **non** si somigliano di più. Lo z negativo viene dal confronto con tutte le coppie,
+     che comprendono le consecutive: fra le coppie lontane, stessa mano −0,024 contro −0,074 delle "altre". Il
+     fascicolo conta un poco.
+- **Per il voynichizzatore** (da segnalare all'altra chat): una pagina generata deve stare in un punto preciso
+  dell'asse *e* contro *a*/*i*/*n* e condividerlo con la pagina accanto. È probabilmente il G9 che il modello del
+  Voynich non riproduce.

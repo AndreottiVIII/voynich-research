@@ -816,3 +816,9 @@ negativi; i numeri sono nei file di `risultati/`.
 - **Che cosa predice una parola** (modello del Voynich, pesi per massima verosimiglianza senza la pagina in esame): la
   sezione e il **segno finale della parola precedente**, non la coppia esatta né la riga sopra; la prima parola dei
   paragrafi è una parola nuova quasi una volta su due.
+- **Ogni pagina ha un'identità forte, lungo un solo asse** (e307). Il profilo dei segni di una pagina si allontana da
+  quello della sua sezione e lingua 2,8 volte più del caso (z 70); nella Bibbia, a pagine di argomento diverso, 1,75.
+  - L'identità è soprattutto la posizione della pagina fra due estremi, parole in -*edy*/-*eey* contro parole in
+    -*aiin*/-*ain*: è l'asse delle lingue A e B di Currier, ma presente **dentro** ogni lingua e ogni sezione.
+  - La pagina condivide l'identità con quella consecutiva (z 10,9), non con quelle a 2–5 pagine di distanza.
+
