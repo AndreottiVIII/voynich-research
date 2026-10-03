@@ -10400,3 +10400,11 @@ delle stesse righe. Nullo: rimescolamento fra le righe con salto della pagina.
 - **Lettura:** i pezzi di riga che ripartono a destra della pianta stanno uno sotto l'altro, ma lì lo scriba non evita
   gli inizi ripetuti. L'evitamento non è quindi un effetto visivo del bordo sinistro: riguarda **l'inizio della riga**
   come unità. Lo scriba non comincia una riga come ha cominciato la precedente.
+
+## 4/10/2026 (notte) — e3a45 abbandonato prima della preregistrazione
+
+Idea: l'ultima parola della riga è più corta quando la riga è già piena (adattamento allo spazio)? Difetto visto prima di
+fissare: se le righe arrivano al margine, l'ultima parola è "corta quando la riga è piena" per la sola meccanica
+dell'andare a capo (una parola più lunga sarebbe finita nella riga dopo), e lo stesso vale in qualunque testo a capo
+fisso. La misura non distingue la scelta di una parola più corta dall'andare a capo prima. Senza la larghezza fisica delle
+righe non si può fare bene. Non eseguito.
