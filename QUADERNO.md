@@ -5917,3 +5917,28 @@ sequenza.
   - Il serbatoio di pagina dei generatori produce già la preferenza di segni per pagina. Non serve un
     meccanismo nuovo: l'idea 5 della lista di oggi cade.
   - Il generatore "copia e modifica" ha quasi lo stesso contenuto d'informazione per parola del Voynich.
+
+## 3/10/2026 — e262, e263, e265: zodiaco non ordinale, etichette copiate dalla vicina, anelli con un inizio
+
+- **e262, preregistrato.** Le etichette dello zodiaco (Lz) nella stessa posizione di segni diversi.
+  - 10 sequenze da 30: Ariete e Toro uniti dalle due metà.
+  - Δ (stessa posizione − posizioni diverse): per indice +0,004 (z 1,3); con spostamento ciclico
+    +0,050 contro +0,050 (z −0,4).
+  - **Esito: nessun ordine comune.** Le etichette non si comportano da ordinali (giorni o gradi).
+- **e263, preregistrato.** Etichette consecutive sulla stessa pagina (971 su 45 pagine).
+  - **M1:** a distanza 1 il 9,4% delle coppie, contro il 6,0% (z 7,5).
+  - **M2:** stessa modifica lungo la serie in 0 casi su 56. Anche il nullo è 0, quindi la misura non è
+    informativa.
+  - **Esito: etichette vicine simili ma senza serie.** È la copia dall'etichetta accanto, come nell'e258,
+    non un'enumerazione.
+- **e265, preregistrato.** 81 anelli di testo circolare (Cc).
+  - Giuntura di chiusura (ultima → prima) −0,230 contro −0,236 del nullo (z 0,1). Le giunture fra
+    parole vicine valgono +0,018.
+  - **Esito: inizio marcato.** La chiusura dell'anello ha il legame di due parole a caso: gli anelli hanno
+    un inizio e una fine, come una riga scritta in cerchio. Potenza limitata.
+- **Lettura comune.** Nelle aree "illustrate" (zodiaco, etichette, anelli) vale lo stesso procedimento
+  del testo:
+  - copia dalla parola vicina;
+  - un inizio e una fine come una riga.
+
+  Non compaiono strutture da contenuto (ordinali, serie numeriche, testo circolare continuo).
