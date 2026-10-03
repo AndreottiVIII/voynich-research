@@ -1,0 +1,72 @@
+{
+ "risultati": {
+  "Voynich": {
+   "famiglie": {
+    "tipi": 117.06930693069307,
+    "famiglie": 36.43564356435643,
+    "tipi per famiglia": 3.0909742159889895,
+    "occorrenze in famiglie di 2+ tipi": 0.7540499914229575,
+    "quota della famiglia più grande": 0.516021199884676
+   },
+   "fine_riga": {
+    "righe": 3384,
+    "quota_m_g": 0.18971631205673758,
+    "differenza_lunghezza_relativa": 0.015023906167916157,
+    "z": 2.038375300739603
+   }
+  },
+  "generatore e288, seme 7": {
+   "famiglie": {
+    "tipi": 112.29064039408867,
+    "famiglie": 34.31527093596059,
+    "tipi per famiglia": 3.051036105488479,
+    "occorrenze in famiglie di 2+ tipi": 0.7873450434324916,
+    "quota della famiglia più grande": 0.514425589333823
+   },
+   "fine_riga": {
+    "righe": 3384,
+    "quota_m_g": 0.1814420803782506,
+    "differenza_lunghezza_relativa": 0.0024697004649550935,
+    "z": 0.30384801402843276
+   }
+  },
+  "generatore e288, seme 8": {
+   "famiglie": {
+    "tipi": 112.79310344827586,
+    "famiglie": 35.03448275862069,
+    "tipi per famiglia": 3.0147973358244538,
+    "occorrenze in famiglie di 2+ tipi": 0.7838924291368572,
+    "quota della famiglia più grande": 0.5046715486790629
+   },
+   "fine_riga": {
+    "righe": 3384,
+    "quota_m_g": 0.17080378250591016,
+    "differenza_lunghezza_relativa": -0.01488362612799643,
+    "z": -1.5472714980226607
+   }
+  },
+  "generatore e288, seme 9": {
+   "famiglie": {
+    "tipi": 111.8970588235294,
+    "famiglie": 34.161764705882355,
+    "tipi per famiglia": 3.0795865220502736,
+    "occorrenze in famiglie di 2+ tipi": 0.7864923504440684,
+    "quota della famiglia più grande": 0.5161351390499144
+   },
+   "fine_riga": {
+    "righe": 3384,
+    "quota_m_g": 0.15573286052009455,
+    "differenza_lunghezza_relativa": -0.01855557986746359,
+    "z": -1.8371080000459303
+   }
+  }
+ },
+ "e298_misure_diverse": {
+  "tipi": false,
+  "famiglie": false,
+  "tipi per famiglia": false,
+  "occorrenze in famiglie di 2+ tipi": false,
+  "quota della famiglia più grande": false
+ },
+ "e299_esito": "incerto"
+}
