@@ -204,6 +204,20 @@ Per ogni componente: la proprietà che deve dare, da dove viene e lo stato attua
   costruire per primo domani, perché i generatori finora sbagliano proprio il rapporto R/V/N.
 - **Capacità** (e210b): le scelte di grafia portano al massimo circa 47.000 bit; i tre canali circa
   93.000 bit.
+- **Partenza consigliata per il modello** (e241, pagella 16/18 e AUC 0,874, i migliori della notte):
+  - giunture λ 1, k 8; fine riga η 1;
+  - κ 1 (frequenti esatte, rare variate) e χ 0,2 (copia della parola precedente);
+  - operatore di variante empirico condizionato ai segni vicini (e241);
+  - dopo la generazione, spezzature σ 0,09 e prefissi a -l/-r staccati π 0,30 (e227d);
+  - in più ℓr 1 (e242), che corregge lunghezza e forme nuove senza costi.
+
+  Non usare le giunture rinforzate dell'e224 (λ 1,5) insieme alle spezzature: il legame supera la
+  banda (e230).
+- **Lacune note da dichiarare se non si chiudono:**
+  - il riuso della pagina (R 38% contro 32%);
+  - il raggruppamento delle parole rare (e211, R 40–57 contro 1,96);
+  - la "verticale" della pagella;
+  - l'eccesso di unioni a giuntura conservata, chiuso solo in parte dall'e227d.
 
 ## 6. L'immagine
 
