@@ -9936,3 +9936,28 @@ Preregistrato (`preregistrazioni/e3a23.md`). Righe di almeno 4 parole.
 - **Esito preregistrato, per tutti e due i bordi: giuntura piena anche al bordo.**
 - Le forme di bordo (*s*-, *y*-, *d*- all'inizio; -*m*, -*g* alla fine) non tolgono forza al legame con la parola
   vicina: posizione nella riga e raccordo agiscono insieme.
+
+## 4/10/2026 (notte) — e3a24: le righe non rimano; le prime parole di righe consecutive si evitano
+
+Preregistrato (`preregistrazioni/e3a24.md`). 656 paragrafi; coppie di righe consecutive con almeno 3 parole ciascuna.
+
+| confronto | osservata | nullo (righe rimescolate) | rapporto | z |
+|---|---|---|---|---|
+| rima: ultime parole, ultimi 2 segni uguali | 0,107 | 0,104 | 1,03 | 0,9 |
+| ultima parola contro una parola in mezzo della riga sopra | 0,101 | 0,094 | 1,07 | 1,4 |
+| allitterazione: prime parole, primi 2 segni uguali | **0,030** | 0,054 | **0,57** | **−6,8** |
+| prima parola contro una parola in mezzo della riga sopra | 0,060 | 0,048 | 1,24 | 3,1 |
+
+- **Esito preregistrato: nessuna rima** (R 0,96) **e nessuna allitterazione** (R 0,46).
+- **Ma c'è il contrario dell'allitterazione:** le prime parole di due righe consecutive cominciano con gli stessi 2
+  segni il 43% in meno del caso (z −6,8), mentre la prima parola riprende volentieri le parole in mezzo della riga sopra
+  (+24%). Sembra che lo scriba eviti di cominciare una riga come la precedente.
+- Da verificare (e3a25): può dipendere dalla prima riga del paragrafo, che comincia in modo speciale (gallows) e che il
+  nullo sposta in mezzo al paragrafo.
+
+## 4/10/2026 (notte) — Esplorativo: nei testi in cerchio qo- è raro come nelle etichette
+
+Non preregistrato (scratchpad). Quota di *qo*- fra *qo*/*o* + gallows: paragrafi 0,51 (nei paragrafi della sezione
+cosmologica 0,45); testi in cerchio 0,05 (zodiaco 0,03, cosmologia 0,07, astronomia 0,04); raggi 0,14; etichette 0,02.
+I testi in cerchio hanno la giuntura (e391) ma quasi senza *qo*-. L'inserimento di *q* dopo -*y* è proprio del testo in
+paragrafi; i cerchi usano la forma *o*- come le etichette. Questo spiega la regola debole dell'e391.

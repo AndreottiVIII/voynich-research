@@ -1,0 +1,39 @@
+{
+ "paragrafi": 656,
+ "misure": {
+  "rima: finale contro finale": {
+   "osservata": 0.10714285714285714,
+   "nullo": 0.1035561754517537,
+   "rapporto": 1.034635130888688,
+   "z": 0.8631327759500756
+  },
+  "finale contro una parola in mezzo della riga sopra": {
+   "osservata": 0.10108659861705631,
+   "nullo": 0.094176769466079,
+   "rapporto": 1.073370844956262,
+   "z": 1.4469074937376964
+  },
+  "allitterazione: prima contro prima": {
+   "osservata": 0.030491803278688525,
+   "nullo": 0.05379611123564635,
+   "rapporto": 0.5668031123127737,
+   "z": -6.761405765025822
+  },
+  "prima contro una parola in mezzo della riga sopra": {
+   "osservata": 0.05961791831357049,
+   "nullo": 0.048216897996227304,
+   "rapporto": 1.236452795412829,
+   "z": 3.0653475943851145
+  }
+ },
+ "esiti": {
+  "rima": {
+   "R": 0.9639120866291535,
+   "esito": "nessuna rima"
+  },
+  "allitterazione": {
+   "R": 0.4584106359867369,
+   "esito": "nessuna allitterazione"
+  }
+ }
+}
