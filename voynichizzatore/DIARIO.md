@@ -125,3 +125,21 @@ Obiettivo: arrivare vicino a O1 (0,60).
 - e400 fatto e pubblicato. e401: preregistrazione e codice committati, primo lancio piantato, correzione pronta,
   **in attesa che i processi vecchi vengano chiusi** per rilanciare. Nessun risultato dell'e401 è stato visto.
 - Dopo l'e401: nascondiglio (N1 0,63), sacco di pagina, banco v5/v7.
+
+**21:31 — e401 rilanciato** (coda `vz-disp2`). Davide ha dato il permesso di chiudere i processi piantati: chiusi 14 processi dell'e401, nessun altro processo Python era in corso. Il primo lancio risulta nello stato delle code come "FINE e401 uscita 127" (interrotto, nessun risultato).
+
+## 3/10/2026, 21:45 — e401 finito
+
+
+
+Risultati nel QUADERNO (voce "vz: e401"). In breve, AUC dell'e266: D1 0,991, D2 **0,855**, D3 0,847 (e231: 0,985, 0,771, 0,729). Gli otto tipi di posto rimettono a posto i bordi della riga (G7 da 0,93 a 0,55). I legami fra vicine esagerano (unioni 11,8% contro 9,2%, coppie viste altrove 26,9% contro 22,1%, identiche 2,1% contro 0,97%): tre termini che dicono in parte la stessa cosa. Deciso l'e401b: quarto termine per le coppie identiche e pesi regolati sul pannello (non sui giudici), strato D4. Preregistrazione `preregistrazioni/e401b.md`.
+
+
+
+### Dove siamo (3/10, 21:45)
+
+
+
+- Fatti e pubblicati: e400, e401. In preparazione: e401b (codice da scrivere: regolazione dei pesi + strato D4).
+
+- Dopo: ordine delle righe nella pagina (G9, differenza fra le due metà), sacco di pagina, nascondiglio (0,63), banco v5/v7.
