@@ -6715,3 +6715,21 @@ sequenza.
   15/18, riga sì, 0,889 e 0,957** (v0: 13/18, riga no, 0,958 e 0,980).
 - **Lettura.** Il canale non aggiunge rilevabilità oltre la variabilità fra semi; il modello delle scelte migliora
   perfino la pagella di un punto. Da qui la rilevabilità del voynichizzatore dipende solo dal corpo (generatore).
+
+## 3/10/2026 — e288: il generatore arriva a 18/18 su due semi di verifica su tre
+
+- **Preregistrato:** copia di `e233.genera` con la penalità **rip** per le candidate uguali alla parola precedente,
+  **φ** con copia per indice dalla riga sopra e **σ** di `dopo`; griglia di 27 configurazioni sul seme 1.
+- **Seme 1:** la migliore è **rip 0,5, φ 0,10, σ 0,04**: 18/18 con la riga (ripetizione ×1,16, verticale 1,019,
+  spazio 0,617; Voynich 1,01, 1,028, 0,664). Con rip 0,3 la ripetizione scende troppo (×0,80) e si perdono le formule.
+- **Verifica** (semi 7, 8, 9; e241 → scelta):
+  - pagella **15 → 18**, **15 → 17** (manca solo l'omogeneità), **15 → 18**; riga in 2 → **3** semi;
+  - AUC dell'e231 0,887 / 0,854 / 0,879 → **0,855 / 0,828 / 0,816** (media 0,873 → **0,833**);
+  - AUC dell'e266 0,966 / 0,953 / 0,965 → **0,937 / 0,937 / 0,926** (media 0,961 → **0,933**).
+- **Esito preregistrato: migliore** (non "18/18" per il seme 8).
+- **Lettura.**
+  - Tre correzioni piccole e mirate, guidate dai valori grezzi, fanno quello che e243 ed e243b (passo 1) non avevano
+    fatto: la ripetizione va a posto con una penalità moderata, la verticale con la copia **per indice** (non per
+    posizione fisica), lo spazio con meno spezzature.
+  - Il discriminatore scende anche lui (−0,04 / −0,03): le materie della pagella e i suoi indizi in parte coincidono.
+  - È il nuovo riferimento per il corpo del voynichizzatore (v2) e per la regolazione congiunta.
