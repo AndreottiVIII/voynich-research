@@ -42,19 +42,19 @@ Su 3 semi di verifica che non si usano mai per regolare i parametri (7, 8, 9):
 - Base: e241, più spezzature, prefissi staccati e ℓr.
 - **Superato se:** pagella ≥ 17/18 sui semi di verifica e AUC ≤ 0,85.
 
-### Passo 2 (e244g): lessico che circola fra le pagine
+### Passo 2 (e251): lessico che circola fra le pagine
 
 - Le forme nuove entrano in un lessico di sezione; le classi A e N pescano anche da lì.
 - **Superato se:** R delle parole rare ≤ 5 senza perdere proprietà della pagella.
 
-### Passo 3 (e245g): stato di riga con dodici interruttori
+### Passo 3 (e252): stato di riga con dodici interruttori
 
 - Le 12 classi dell'e206b diventano interruttori di riga con memoria e ripartenza a pagina, come le
   cinque scelte. Si applicano a tutte le parole della riga.
 - **Superato se:** l'e206b sull'uscita ritrova almeno 10 delle 12 classi con z > 3 e la pagella non
   scende.
 
-### Passo 4 (e246g): regolazione congiunta per momenti
+### Passo 4 (e253): regolazione congiunta per momenti
 
 - Tutti i parametri (circa 12) si regolano insieme per far coincidere un vettore di circa 30 statistiche:
   - pagella;
@@ -64,7 +64,7 @@ Su 3 semi di verifica che non si usano mai per regolare i parametri (7, 8, 9):
 - Metodo: ricerca casuale più affinamento locale, sul seme di ricerca; mai sui semi di verifica.
 - **Superato se:** 18/18 sui semi di verifica.
 
-### Passo 5 (e247g e seguenti): ciclo avversario
+### Passo 5 (e254 e seguenti): ciclo avversario
 
 - Si riaddestra il discriminatore (anche con caratteristiche nuove: coppie di parole, posizioni nella
   riga, etichette).
