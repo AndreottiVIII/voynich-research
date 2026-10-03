@@ -542,3 +542,16 @@ raggiungibile 51), estesa 62/78, cancello 2 su 3.** I due giudici sono all'obiet
   preparare il repo pubblico secondo `voynichizzatore/PUBBLICAZIONE.md`.
 - **Da decidere con Davide:** quale versione pubblicare (v10, v11 o v12) e per quale strada (solo codice, o anche le
   statistiche: vedi la nota per la pubblicazione).
+
+## 4/10/2026, 01:20 — la v12 su 12 chiavi: 0,576 / 0,619
+
+Nel QUADERNO. **Stima migliore della v12: e231 0,576 ± 0,007, e266 0,619 ± 0,009** (12 chiavi); cancello 11 su 12;
+pagella 15/18 sempre. Lo 0,600 del banco era rumore favorevole: il giudice forte è circa 0,02 sopra l'obiettivo.
+Corretto un errore in `e409_messaggio_nel_sacco.py` (la tabella .md falliva senza il caso (b)).
+
+### Dove siamo (4/10, 01:20)
+
+- v12: e231 sotto l'obiettivo, e266 a 0,62, pagella 15/18 (massimo 17), cancello quasi sempre. Per confrontare alla
+  pari v10 e v11 servirebbe la stessa replica su 12 chiavi (`VERSIONE=v10 CHIAVI=1,...,12 CASI=a,b`).
+- Prossimi passi possibili (nessuno iniziato): omogeneità (abbassare la somiglianza nella riga), scelte di riga per
+  classe, registro delle prime righe, giudice indipendente, pubblicazione.

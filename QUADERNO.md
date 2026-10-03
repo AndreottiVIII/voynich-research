@@ -10514,3 +10514,25 @@ Preregistrato (`preregistrazioni/e3a50.md`). Misura dell'e3a49.
 - **Esito preregistrato: regge con tutte e due**, sopra il massimo dei testi sensati (0,392).
 - Anche con l'alfabeto v101, che divide i glifi in modo diverso dall'EVA, le coppie di segni fra parole ricalcano
   quelle dentro le parole. Non dipende dalla trascrizione né dalla divisione in segni.
+
+## 4/10/2026 — vz: la v12 su 12 chiavi: il giudice forte è a 0,62, non a 0,60 (il banco era sul lato fortunato)
+
+Replica descrittiva preregistrata (integrazione dell'e412): Isidoro XVII nascosto nel sacco con la v12, chiavi "e409-1" …
+"e409-12". Dati in `risultati/e409b_messaggio_nel_sacco_chiavi_1_12.json` (il file .md non è stato scritto: il
+programma si è fermato dopo aver salvato i dati per un errore nella parte che scrive la tabella quando manca il caso
+(b); corretto dopo, uscita 1 nella provenienza).
+
+| 12 chiavi | media | deviazione | errore standard | minimo – massimo | chiavi a 0,60 o meno |
+|---|---|---|---|---|---|
+| AUC e231 | **0,576** | 0,024 | 0,007 | 0,540 – 0,621 | 11 su 12 |
+| AUC e266 | **0,619** | 0,030 | 0,009 | 0,585 – 0,669 | 4 su 12 |
+
+- **Previsione rispettata** (e266 fra 0,58 e 0,63). Andata e ritorno esatta 12 su 12; chiave sbagliata respinta 12 su 12;
+  capacità 80.200 bit; pagella 15/18 con tutte le chiavi (mancano sempre omogeneità, gradiente, profilo pagina);
+  **cancello della riga con 11 chiavi su 12**.
+- **Correzione della voce precedente.** Lo 0,600 del banco (tre chiavi: 0,626, 0,601, 0,572) era sul lato basso del
+  rumore. La stima migliore per la v12 è **0,576 ± 0,007 (e231) e 0,619 ± 0,009 (e266)**: il giudice dell'e231 è sotto
+  l'obiettivo, quello dell'e266 **no, di circa 0,02**. Anche il valore dei semi di ricerca senza messaggio (0,604 su
+  quattro semi) va letto con lo stesso errore.
+- **Lezione di metodo, da tenere:** tre semi danno un errore di circa 0,02 sulla media; vicino a una soglia servono una
+  dozzina di chiavi. Con il messaggio nel sacco ogni chiave è un manoscritto nuovo, quindi la replica costa poco.

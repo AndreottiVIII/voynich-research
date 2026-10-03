@@ -1,0 +1,19 @@
+a chiave 2: pagella 15 riga True mancano ['omogeneità', 'gradiente', 'profilo pagina'] | AUC e231 0.540 e266 0.589 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 80506, 'bit_messaggio': 38240, 'pagine_usate': 130}
+a chiave 6: pagella 15 riga True mancano ['omogeneità', 'gradiente', 'profilo pagina'] | AUC e231 0.565 e266 0.615 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 80554, 'bit_messaggio': 38240, 'pagine_usate': 130}
+a chiave 1: pagella 15 riga False mancano ['omogeneità', 'gradiente', 'profilo pagina'] | AUC e231 0.598 e266 0.667 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 80744, 'bit_messaggio': 38240, 'pagine_usate': 131}
+a chiave 4: pagella 15 riga True mancano ['omogeneità', 'gradiente', 'profilo pagina'] | AUC e231 0.562 e266 0.593 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 79909, 'bit_messaggio': 38240, 'pagine_usate': 132}
+a chiave 3: pagella 15 riga True mancano ['omogeneità', 'gradiente', 'profilo pagina'] | AUC e231 0.598 e266 0.648 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 80172, 'bit_messaggio': 38240, 'pagine_usate': 131}
+a chiave 5: pagella 15 riga True mancano ['omogeneità', 'gradiente', 'profilo pagina'] | AUC e231 0.578 e266 0.604 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 79397, 'bit_messaggio': 38240, 'pagine_usate': 131}
+a chiave 8: pagella 15 riga True mancano ['omogeneità', 'gradiente', 'profilo pagina'] | AUC e231 0.546 e266 0.585 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 80458, 'bit_messaggio': 38240, 'pagine_usate': 131}
+a chiave 7: pagella 15 riga True mancano ['omogeneità', 'gradiente', 'profilo pagina'] | AUC e231 0.587 e266 0.618 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 80395, 'bit_messaggio': 38240, 'pagine_usate': 131}
+a chiave 9: pagella 15 riga True mancano ['omogeneità', 'gradiente', 'profilo pagina'] | AUC e231 0.571 e266 0.624 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 80141, 'bit_messaggio': 38240, 'pagine_usate': 131}
+a chiave 11: pagella 15 riga True mancano ['omogeneità', 'gradiente', 'profilo pagina'] | AUC e231 0.621 e266 0.669 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 79688, 'bit_messaggio': 38240, 'pagine_usate': 131}
+a chiave 12: pagella 15 riga True mancano ['omogeneità', 'gradiente', 'profilo pagina'] | AUC e231 0.594 e266 0.624 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 80496, 'bit_messaggio': 38240, 'pagine_usate': 131}
+a chiave 10: pagella 15 riga True mancano ['omogeneità', 'gradiente', 'profilo pagina'] | AUC e231 0.557 e266 0.587 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 80128, 'bit_messaggio': 38240, 'pagine_usate': 131}
+Traceback (most recent call last):
+  File "C:\Users\davide\voynich\esperimenti\e409_messaggio_nel_sacco.py", line 142, in <module>
+    main()
+  File "C:\Users\davide\voynich\esperimenti\e409_messaggio_nel_sacco.py", line 118, in main
+    a['capacita_bit'], sintesi['b']['capacita_bit'], a['bit_messaggio'], a['pagine_usate']),
+                       ~~~~~~~^^^^^
+KeyError: 'b'
