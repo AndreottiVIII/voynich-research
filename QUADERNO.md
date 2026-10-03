@@ -9574,3 +9574,32 @@ cercate nelle 2 righe sopra (non indipendente da quelle prove, le allarga).
   parola, per -*l*/-*r* la fine della prima. Lo scriba scrive una sequenza che conosce almeno una parola in anticipo:
   la sta copiando, o la ha in mente prima di scriverla. Con le parole della parte A copiate dalla riga sopra, il "dopo"
   era già scritto lì: guardare avanti qui può voler dire sapere quale parola si sta per riprendere.
+
+## 4/10/2026 (notte) — e3a04: giuntura e raccordo reggono in quattro sezioni su cinque; nel "solo testo" la giuntura sembra passare l'a capo
+
+Preregistrato (`preregistrazioni/e3a04.md`).
+
+| sezione | coppie | giuntura nella riga E (z) | a capo E (z) | regola *qo*- Δ (p) | regola -*l*/-*r* Δ (p) |
+|---|---|---|---|---|---|
+| ricette | 9.534 | 0,206 (143) | 0,000 (0,0) | +0,38 (< 0,0001) | +0,57 (< 0,0001) |
+| erbario | 8.411 | 0,119 (54) | 0,004 (0,5) | +0,27 (< 0,0001) | +0,55 (< 0,0001) |
+| biologia | 5.003 | 0,263 (118) | 0,014 (1,2) | +0,56 (< 0,0001) | +0,67 (< 0,0001) |
+| solo testo | 1.879 | 0,172 (25,5) | **0,140 (3,6)** | +0,35 (< 0,0001) | +0,48 (< 0,0001) |
+| farmacia | 1.867 | 0,112 (17,4) | −0,028 (−0,7) | +0,28 (< 0,0001) | pochi dati |
+
+- **Esito preregistrato: non reggono ovunque.** Unica eccezione: nella sezione "solo testo" (f1r, f66r, f76r, f85r1,
+  f86v5, f86v6; 193 coppie a capo) la giuntura sembra passare l'a capo.
+- **Controllo esplorativo** (scratchpad): togliendo una pagina alla volta, z resta fra 1,9 (senza f85r1) e 3,6. Non
+  dipende da una sola pagina. Con 193 coppie, però, lo z dell'informazione mutua può esagerare: verifica con un nullo
+  esatto e una taratura sulle altre sezioni nell'e3a06.
+- Le due regole di raccordo reggono in tutte le sezioni con dati sufficienti.
+
+## 4/10/2026 (notte) — e3a05: la giuntura si ripete con la trascrizione di Glen Claston
+
+Preregistrato (`preregistrazioni/e3a05.md`). Trascrizione GC, alfabeto v101 (un carattere = un segno), divisione dei
+glifi diversa dall'EVA.
+
+- Nella riga: E 0,233 (z 186, 31.892 coppie). A capo: E 0,003 (z 0,5, 3.176 coppie). Q = 0,02.
+- **Esito preregistrato: la giuntura si ripete con Glen Claston.**
+- Coppia più forte: "-9 4-" (+0,089 bit), cioè -*y* *q*- in EVA, come nella ZL (+0,087).
+- Con ZL, IT (e395) e GC, la giuntura chiusa nella riga regge in tre trascrizioni fatte da persone diverse.
