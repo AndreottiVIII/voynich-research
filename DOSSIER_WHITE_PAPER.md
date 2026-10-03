@@ -970,3 +970,8 @@ negativi; i numeri sono nei file di `risultati/`.
 - **Le sessioni variano lungo dimensioni indipendenti** (e373): fra 48 bifogli, otto misure (asse, forme nuove, errori,
   ripresa, -*ey*, *qo*-, lunghezza, coppie identiche) non vanno insieme; la prima componente spiega solo il 28%. L'unico
   legame netto, forme nuove ~ lunghezza, è in buona parte meccanico. La ripresa non è legata all'inventiva.
+- **Oltre la giuntura, quasi nessuna preferenza fra parole vicine** (e375). Il nullo scambia le parole con lo stesso
+  primo e ultimo segno dentro la pagina, conservando giunture e lessico. Le coppie di parole tornano su più pagine solo
+  il 3% oltre il nullo (z 2,0, incerto), contro il 13–38% dei testi sensati a parità di parole (z 13–30). Le coppie in
+  eccesso sono soprattutto parolina + parola (*or aiin*, *ol aiin*): forse parole spezzate dallo spazio. Nel Voynich non
+  si vedono locuzioni come in una lingua.
