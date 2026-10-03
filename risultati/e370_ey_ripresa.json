@@ -1,0 +1,15 @@
+{
+ "gruppi": {
+  "riprese": {
+   "pagine": 53,
+   "bassa_meno_alta": 0.1459596493353138,
+   "z": 3.476463684630364
+  },
+  "non riprese": {
+   "pagine": 67,
+   "bassa_meno_alta": 0.07362311831496918,
+   "z": 2.5395048780373233
+  }
+ },
+ "esito": "incerto"
+}
