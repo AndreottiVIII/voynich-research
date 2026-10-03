@@ -6869,3 +6869,34 @@ sequenza.
   -dy/-ey, rima, qo-, finali m/g, lunghezza). Accuratezza 0,770 contro 0,507, **z 3,4: esito preregistrato "mani
   distinguibili"**. Ma le mani hanno scritto sezioni diverse (mano 2: B 19, H 20, T 4, C 3; mano 3: S 22, H 6) e dentro
   l'erbario, l'unica sezione comune, z 1,1. La differenza è più probabilmente di sezione che di mano, come negli e244 ed e260.
+
+## 3/10/2026 — e300b: l'ordine delle pagine resta anche dentro la stessa lingua
+
+- **Preregistrato:** la misura dell'e300 con le permutazioni dentro **sezione × lingua di Currier** (seme 300).
+- **Risultato:** coppie consecutive 0,136 contro 0,113 del nullo, **z 5,7**; Spearman distanza-somiglianza −0,14.
+  **Esito preregistrato: traccia d'ordine oltre la lingua.**
+- **Lettura.** La cautela dell'e300 (blocchi di lingua contigui) spiega una parte dell'effetto (z da 8,5 a 5,7), non
+  tutto: anche fra pagine della stessa sezione e della stessa lingua, quelle vicine nella rilegatura condividono più
+  parole di frequenza media. È coerente con un testo scritto pagina dopo pagina, riprendendo parole delle pagine appena
+  scritte, e con una rilegatura che in buona parte conserva quell'ordine. Resta possibile un ordine per argomento.
+
+## 3/10/2026 — e297: gli errori sparsi da soli non spargono le parole rare del generatore
+
+- **Preregistrato:** corpo dell'e288 più errori sparsi (una parola frequente diventa, con probabilità p, una sua variante
+  di una modifica, in un punto qualsiasi del libro); p ∈ {0; 0,01; 0,02; 0,04; 0,08} sui semi 1–2, verifica sui 7–9.
+- **Risultati:** R delle parole rare 52,5 → 50,2 al massimo (Voynich 1,96); scelta p 0,04: pagella 53 → 51, AUC
+  0,833 / 0,933 → 0,835 / 0,937. **Esito preregistrato: non utili.**
+- **Lettura.** Gli errori nuovi diventano quasi tutti hapax (una occorrenza) e non contano fra le rare (2–5); le rare del
+  generatore restano confinate nella pagina dove nascono, perché il generatore prende le parole di base dalle parole della
+  stessa pagina del Voynich. L'ipotesi di Davide (e296) resta sostenuta sul Voynich, ma nel generatore serve far
+  **girare** le rare fra le pagine, non solo aggiungere errori: è il primo ritocco della v5 (`corpo5.circola`).
+
+## 3/10/2026 — e291: il tema variato non migliora l'e288
+
+- **Preregistrato:** τ (copie del tema sempre variate, e234) × rip × φ sopra l'e288; scelta sui semi 1–2 per pagella
+  con la riga, verifica sui 7–9.
+- **Risultati:** scelta τ 0, rip 0,4, φ 0,15 (cioè **senza** tema variato). Verifica: pagella 53 → 50, AUC 0,833 /
+  0,933 → 0,841 / 0,939. Con τ > 0 l'AUC dell'e266 sale (0,94–0,97) e il gruppo G6 peggiora (0,72 → 0,78–0,85).
+  **Esito preregistrato: non migliore.**
+- **Lettura.** Variare sempre le copie del tema alza la varietà ma rompe le coppie ripetute (G6). La varietà del Voynich
+  nella pagina va cercata altrove: parole rare che girano (e296) e scelte di grafia concordi nella riga (e206b).
