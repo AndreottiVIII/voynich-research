@@ -4,7 +4,7 @@ nasconde lo stesso testo (Isidoro XVII, chiave "banco") in corpi con i semi d'es
 pagella estesa, AUC dell'e231 e dell'e266. Il Voynich fa da controllo del metro.
 
     python esegui.py e293                     (versioni v2 e v3)
-    python esegui.py e293 -- v4 ...           (altre versioni registrate in VERSIONI)
+    python esegui.py e293 -- --v4 --v5        (altre versioni del registro voynichizzatore/versioni.py)
 
 Preregistrazione: preregistrazioni/e293.md. Scrive risultati/e293_banco.json e .md (e e293_banco_<versioni>.* se diverse).
 """
@@ -21,39 +21,11 @@ import trascrizione
 RISULTATI = os.path.join(QUI, '..', 'risultati')
 TESTO = os.path.join(QUI, '..', 'esecuzioni', 'voynichizzatore', 'isidoro_xvii_inizio.txt')
 CHIAVE, SEMI = 'banco', (7, 8, 9)
-CORPI = {'e288': OrderedDict([('rip', 0.5), ('phi', 0.10), ('sigma_post', 0.04)])}
-VERSIONI = OrderedDict([('v2', ('e288', 'v1')), ('v3', ('e288', 'v3'))])     # versione -> (corpo, modello delle scelte)
+import versioni
+VERSIONI = versioni.VERSIONI      # registro delle versioni (voynichizzatore/versioni.py)
 FASCE = OrderedDict([('parole rare per pagina', None), ('tipi su parole nella pagina', 0.03), ('uniche nella pagina', 0.04),
                      ('dispersione delle lunghezze', 0.04), ('prime righe come registro', None), ('scelte di riga', None),
                      ('concordanza delle desinenze', 0.012), ('coppie viste altrove', 0.02)])
-_STATO = {}
-
-
-def canale(modello):
-    """Imposta nel processo il modello delle scelte della versione (v1 o v3)."""
-    import v1
-    if 'posti_v1' not in _STATO:
-        _STATO['posti_v1'], _STATO['modello_v1'] = v1.posti_contesto, v1.MODELLO
-    if modello == 'v3':
-        import v3
-        v1.posti_contesto, v1.MODELLO = v3.posti_contesto_v3, os.path.join(QUI, '..', 'voynichizzatore', 'modello_scelte_v3.json')
-    else:
-        v1.posti_contesto, v1.MODELLO = _STATO['posti_v1'], _STATO['modello_v1']
-    return v1
-
-
-def corpo(nome, seme):
-    import corpo2
-    import e233_frequenti_esatte as e233
-    import e236_due_fonti as e236
-    import e251_lessico_sezione as e251
-    k = e251._prepara()
-    x = CORPI[nome]
-    e233.SIGMA_POST, e233.PI_POST = x.get('sigma_post', 0.09), x.get('pi_post', 0.30)
-    prm = dict(e251.CONF, gamma=0.0, rip=x.get('rip', 1.0), phi=x.get('phi', 0.0))
-    return e236.dopo(corpo2.genera_v2(k['c2'], prm, seme), k['freq'], 100 + seme)
-
-
 def misure_pagina(rr):
     import e231_discriminatore as e231
     import e266_discriminatore_forte as e266
@@ -128,10 +100,9 @@ def lavoro(args):
     k = e251._prepara()
     if versione == 'Voynich':
         return args, OrderedDict([('estesa', pagella_estesa(voynich_rr()))])
-    nome_corpo, modello = VERSIONI[versione]
-    v1 = canale(modello)
+    v1 = versioni.canale(VERSIONI[versione]['modello'])
     testo = open(TESTO, encoding='utf-8').read().replace('\r\n', '\n')
-    rr, info = v1.codifica(testo, CHIAVE, righe=corpo(nome_corpo, seme))
+    rr, info = v1.codifica(testo, CHIAVE, righe=versioni.corpo(VERSIONI[versione]['corpo'], seme))
     ok = v1.decodifica(rr, CHIAVE) == testo
     pg = e251.pagella_grezza(k['c'], rr)
     d231 = e231.confronto(k['vpag'], e232.pagine_di(rr), k['rif'])
@@ -141,8 +112,8 @@ def lavoro(args):
 
 
 def main():
-    versioni = [a for a in sys.argv[1:] if a in VERSIONI] or list(VERSIONI)
-    lavori = [('Voynich', 0)] + [(v, s) for v in versioni for s in SEMI]
+    scelte = [a.strip('-') for a in sys.argv[1:] if a.strip('-') in VERSIONI] or ['v2', 'v3']
+    lavori = [('Voynich', 0)] + [(v, s) for v in scelte for s in SEMI]
     ris = {}
     with Pool(max(1, int(os.environ.get('PROCESSI', '1')))) as pool:
         for a, r in pool.imap_unordered(lavoro, lavori):
@@ -157,7 +128,7 @@ def main():
     metro = OrderedDict((n, passa(n, voy[n], voy)) for n in FASCE)
     contate = [n for n in FASCE if metro[n]]
     sintesi = OrderedDict()
-    for v in versioni:
+    for v in scelte:
         rs = [ris[(v, s)] for s in SEMI]
         for r in rs:
             r['estesa_passate'] = [n for n in contate if passa(n, r['estesa'][n], voy)]
@@ -165,8 +136,8 @@ def main():
                                   ('estesa_somma', sum(r['pagella'] + len(r['estesa_passate']) for r in rs)), ('semi_con_riga', sum(bool(r['riga']) for r in rs)),
                                   ('AUC_e231_media', statistics.mean(r['AUC_e231'] for r in rs)), ('AUC_e266_media', statistics.mean(r['AUC_e266'] for r in rs)),
                                   ('materie_estese_mancate', dict(Counter(n for r in rs for n in contate if n not in r['estesa_passate'])))])
-    nome_file = 'e293_banco' if versioni == list(VERSIONI)[:2] else 'e293_banco_' + '_'.join(versioni)
-    out = OrderedDict([('Voynich', voy), ('metro_valido', metro), ('versioni', OrderedDict((v, [ris[(v, s)] for s in SEMI]) for v in versioni)), ('sintesi', sintesi)])
+    nome_file = 'e293_banco' if scelte == ['v2', 'v3'] else 'e293_banco_' + '_'.join(scelte)
+    out = OrderedDict([('Voynich', voy), ('metro_valido', metro), ('versioni', OrderedDict((v, [ris[(v, s)] for s in SEMI]) for v in scelte)), ('sintesi', sintesi)])
     json.dump(out, open(os.path.join(RISULTATI, nome_file + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1, default=float)
     md = ['# e293 — Pagella estesa e banco di prova del voynichizzatore', '',
           'Testo nascosto: Isidoro XVII (inizio), chiave "banco"; corpi con i semi 7, 8, 9. Pagella estesa = 18 materie dell\'e224 + %d (su 8) con il metro valido. '
@@ -175,7 +146,7 @@ def main():
         fascia = {'parole rare per pagina': 'R ≤ 5', 'prime righe come registro': 'z > 3', 'scelte di riga': '≥ 10 su 12'}.get(n, '±%s' % FASCE[n])
         md.append('| %s | %s | %s | %s |' % (n, ('%.4f' % voy[n]) if isinstance(voy[n], float) else voy[n], fascia, 'sì' if metro[n] else 'NO'))
     md += ['', '| versione | seme | decodifica | pagella | riga | materie aggiunte passate | AUC e231 | AUC e266 |', '|---|---|---|---|---|---|---|---|']
-    for v in versioni:
+    for v in scelte:
         for s in SEMI:
             r = ris[(v, s)]
             md.append('| %s | %d | %s | %d/18 | %s | %d/%d | %.3f | %.3f |' % (v, s, 'esatta' if r['decodifica_esatta'] else 'NO', r['pagella'], 'sì' if r['riga'] else 'no',
