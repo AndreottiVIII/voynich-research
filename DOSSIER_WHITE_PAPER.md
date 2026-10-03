@@ -938,3 +938,12 @@ negativi; i numeri sono nei file di `risultati/`.
 - **Il bifoglio è una sessione di scrittura** (e350): le due metà di un bifoglio, lontane nel libro rilegato,
   condividono le parole rare (z 3,2) e si riprendono fra loro (z 13,3) quanto il recto e il verso dello stesso foglio;
   le pagine affiancate di bifogli diversi no (z −0,6 e 0,8). Conferma con le parole l'e308, fatto con i segni.
+- **Lo scriba guarda indietro 1–2 righe** (e347): la ripresa viene dalla riga subito sopra (z 12,8 per le copie
+  modificate) e da quella prima (z 3,1); dalla terza in su niente. Il generatore di Timm e Schinner pesca fino a 6 righe:
+  prima differenza netta con la loro teoria.
+- **Le parole uniche non nascono dalla ripresa** (e348): hanno meno delle altre una parola simile nelle righe subito
+  sopra (z −9,5). Con l'e296 (errori sparsi) e l'e355 (alcune sessioni ne producono molte di più), sono un processo a
+  parte.
+- **Sessioni** (e355): le varianti rare tornano sullo stesso foglio (1,8 volte il caso) e un po' nel bifoglio (1,3,
+  incerto), non sulle pagine affiancate; la quota di parole nuove varia fra le sessioni il doppio del caso.
+- **L'erbario in lingua B riprende più dell'erbario in lingua A** (e349): 0,055 contro 0,025; la mano non conta.

@@ -1,0 +1,47 @@
+{
+ "varianti_tipi": 975,
+ "a": {
+  "stesso foglio": {
+   "osservate": 74,
+   "attese": 41.672,
+   "rapporto": 1.77577270109426,
+   "z": 5.140995658039195
+  },
+  "stesso bifoglio, fogli diversi": {
+   "osservate": 100,
+   "attese": 75.42,
+   "rapporto": 1.3259082471492973,
+   "z": 2.898480109802569
+  },
+  "apertura": {
+   "osservate": 28,
+   "attese": 26.839,
+   "rapporto": 1.0432579455270317,
+   "z": 0.22667706781446478
+  },
+  "stesso fascicolo, altro": {
+   "osservate": 519,
+   "attese": 553.367,
+   "rapporto": 0.9378947425487968,
+   "z": -2.1545530829329986
+  },
+  "altro fascicolo": {
+   "osservate": 587,
+   "attese": 655.474,
+   "rapporto": 0.8955351394563323,
+   "z": -4.761672714320119
+  }
+ },
+ "esito_a": "incerto",
+ "b": {
+  "bifogli": 48,
+  "varianza_quota_uniche": 0.0015952725290523766,
+  "nullo": 0.0007820688284842297,
+  "rapporto": 2.0398109104338826,
+  "z": 13.735470832475102,
+  "spearman_uniche_ripresa": -0.15534085974815456,
+  "z_spearman": -1.0740587892801556,
+  "bifogli_con_ripresa": 48
+ },
+ "esito_b": "sessioni più o meno inventive"
+}
