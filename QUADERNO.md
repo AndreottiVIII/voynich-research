@@ -6306,3 +6306,39 @@ sequenza.
 - **Esito: nessun legame.** Anche le parole "nuove", cioè non copiate, non somigliano di più fra pagine
   con piante simili. Non c'è il segno di un nome o di una descrizione della pianta nel lessico nuovo.
 - Eseguito sul vecchio PC. Il nuovo PC lo ripete come replica.
+
+## 3/10/2026 — e223b: il candidato tedesco dell'e223 è un artefatto (z da +4,2 a −4,8 cambiando solo le ripartenze)
+
+- **Preregistrato**, secondo il protocollo per i candidati. Sul solo tedesco, con modelli, controllo
+  positivo e misura dell'e223:
+  - 8 ripartenze;
+  - metà invertite;
+  - Voynich rimescolato dentro la riga;
+  - generatore con cinque semi;
+  - controllo positivo nelle stesse forme.
+- **Risultati** (z della discriminazione fra sezioni fuori campione):
+
+  | prova | z positivo | z Voynich |
+  |---|---|---|
+  | e223, una corsa, 4 ripartenze | 8,2 | 4,2 |
+  | e223b, positivo 4 ripartenze, Voynich 8 | 7,8 | **−4,8** |
+  | metà invertite, 4 ripartenze | 9,0 | 3,1 |
+  | rimescolato nella riga, 4 ripartenze | 3,9 | 1,6 |
+
+  - Generatore, semi 1–5: −1,4; −2,0; −4,0; −3,6; 0,2 (massimo 0,2). Nell'e223 lo spagnolo era arrivato a
+    4,4.
+- **Validità: sì.** Il positivo regge nelle due direzioni, e il rimescolamento nella riga ne dimezza lo z.
+- **Esito preregistrato: artefatto.** Nessuna delle quattro prove è superata.
+- **Lettura.**
+  - Lo z del Voynich dipende dalla chiave che la ricottura trova. Con 8 ripartenze la chiave migliore
+    secondo l'obiettivo dà uno z di segno opposto. Il 4,2 dell'e223 era un caso fortunato di una sola
+    corsa.
+  - **Lezione di metodo per le prove guidate dal contenuto (e213, e223).** Lo z del nullo permuta le
+    etichette a chiave fissa, quindi non tiene conto della variabilità fra chiavi. Per un testo senza
+    messaggio questa variabilità porta lo z fra circa −5 e +4,5 (generatore e Voynich). Una soglia
+    z > 4 su una corsa sola non basta. Le prossime prove di questo tipo vanno tarate su una
+    distribuzione di controlli negativi (più semi del generatore, più ripartenze), non su un solo z.
+  - Gli esempi decifrati con 8 ripartenze restano senza parole tedesche (*rsdesehaufenenrstesancanal*).
+- **Bilancio della strada "guidata dal contenuto":** latino (e213, non valido), cinque volgari (e223) e
+  verifica del tedesco (e223b). Nessuna lettura.
+- Durata sul nuovo PC: 14 minuti con `PROCESSI=3`.
