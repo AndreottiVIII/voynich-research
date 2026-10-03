@@ -967,3 +967,6 @@ negativi; i numeri sono nei file di `risultati/`.
 - **La ripresa copia pezzi di riga** (e372): due parole vicine riprese vengono da due parole vicine della riga sopra più
   del caso, di solito nello stesso ordine (z 8,0) ma anche invertite (z 4,3), cosa che il generatore di Timm e Schinner
   non fa.
+- **Le sessioni variano lungo dimensioni indipendenti** (e373): fra 48 bifogli, otto misure (asse, forme nuove, errori,
+  ripresa, -*ey*, *qo*-, lunghezza, coppie identiche) non vanno insieme; la prima componente spiega solo il 28%. L'unico
+  legame netto, forme nuove ~ lunghezza, è in buona parte meccanico. La ripresa non è legata all'inventiva.

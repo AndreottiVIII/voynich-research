@@ -8652,3 +8652,21 @@ Banco preregistrato dell'e293 (`esegui.py e293 -- --v8 --v9`): Isidoro XVII nasc
 - **Non è effetto vincitore, è il nascondiglio.** Senza messaggio, sui semi di ricerca, la v9 fa 0,541 / 0,659 e la v8 0,558 / 0,703: il messaggio costa alla v8 circa +0,05 / +0,01 e alla v9 circa **+0,13 / +0,06**. Il nascondiglio vecchio riscrive le cinque scelte di grafia (ch/sh, k/t, qo-/o- all'inizio; -l/-r, -dy/-ey alla fine): cambia proprio il primo e l'ultimo segno delle parole, cioè rompe il legame fra ultimo e primo segno e le unioni che la v9 ha appena imparato a fare. Più il corpo è fine, più questo nascondiglio lo rovina. (Ipotesi coerente con l'e400, dove il nascondiglio da solo sul Voynich vero costava 0,63; la verifica diretta è l'e409.)
 
 - **Conseguenza:** il nascondiglio va cambiato prima di tutto il resto. Preregistrato l'e409: il messaggio nel sacco (nei conteggi delle parole note di ogni pagina), senza più riscrivere le scelte di grafia.
+
+## 3/10/2026 (notte) — e373: le sessioni differiscono lungo dimensioni quasi tutte indipendenti
+
+Preregistrato (`preregistrazioni/e373.md`). 48 bifogli, otto misure per bifoglio come scarti dal proprio strato
+(sezione × lingua): asse -*edy*/-*aiin*, forme nuove, errori, ripresa, -*ey*, *qo*-, lunghezza media delle parole,
+coppie identiche vicine. Correlazioni di Spearman con 1.000 permutazioni e soglia di Bonferroni su 28 coppie.
+
+- **Esito preregistrato: più dimensioni.** La prima componente spiega il 28% (soglia per "un solo carattere": 40%), poi
+  16%, 15%, 13%.
+- **Una sola coppia legata:** forme nuove ~ lunghezza (+0,50, z 3,5). Quasi sotto soglia: forme nuove ~ coppie
+  identiche (−0,40, z −2,7), asse ~ forme nuove (+0,34, z 2,3), *qo*- ~ lunghezza (+0,31, z 2,2).
+- **Controllo non preregistrato** (scratchpad): la coppia legata è in buona parte meccanica, perché le forme nuove sono
+  parole lunghe e alzano la media del loro bifoglio. Con la lunghezza delle sole parole non uniche la correlazione scende
+  a +0,27; con le parole di frequenza almeno 5 a +0,20.
+- **La ripresa non è legata a niente** (|ρ| ≤ 0,10 con tutte le altre misure): una sessione che inventa molte forme
+  nuove non copia né di più né di meno dalle righe sopra. Inventiva e ripresa sono due abitudini separate.
+- Lettura: le sessioni non hanno un unico "carattere"; ogni proprietà (lessico dell'asse, inventiva, grafia, ripresa)
+  varia per conto suo. Per il voynichizzatore: queste manopole si possono girare in modo indipendente fra le sessioni.
