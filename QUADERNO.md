@@ -10554,3 +10554,22 @@ Preregistrato (`preregistrazioni/e3a51.md`). Legame a distanza 2 a parità della
   distanza 2 fra i segni di bordo: le parole cifrate portano poco dell'identità delle lettere nei loro segni di bordo.
 - **Conseguenza per le letture di e3a03 ed e3a07:** l'assenza del legame a distanza 2 distingue il Voynich dalle lingue
   scritte in chiaro, ma **non** è un argomento contro un cifrario verboso di tipo Naibbe. Lo scrivo nel dossier.
+
+## 4/10/2026 (notte) — e3a52: solo U3 ha la giuntura che ricalca le sequenze interne, ma passa l'a capo
+
+Preregistrato (`preregistrazioni/e3a52.md`). Misura dell'e3a49 (Voynich 0,44–0,50 a 10.000 parole).
+
+| generatore | ρ (tutto) | celle | mediana a 10.000 parole | esito |
+|---|---|---|---|---|
+| Naibbe (Greshko 2025) | 0,148 | 73 | 0,104 | no |
+| U2 (Whitehatnetizen 2026) | −0,132 | 141 | −0,039 | no |
+| **U3** (Whitehatnetizen 2026) | 0,441 | 175 | **0,502** | lo riproduce |
+| Timm e Schinner, seme 1 | 0,022 | 75 | −0,004 | no |
+| Timm e Schinner, seme 19 | 0,175 | 74 | 0,145 | no |
+
+- **Esito preregistrato:** lo riproduce solo U3.
+- **Lettura:** U3 sembra un generatore "a catena", che produce un flusso continuo di segni con gli spazi inseriti; per
+  questo le coppie fra parole sono le stesse che dentro le parole. Ma, come visto nell'e399, la sua giuntura passa l'a
+  capo (Q 0,97), mentre nel Voynich si chiude nella riga (Q −0,02). Il Voynich ha tutte e due le cose: catena con spazi
+  deboli, **e** riga chiusa. Nessun generatore pubblicato le ha insieme. Per il voynichizzatore: una catena di segni
+  per riga, con gli spazi inseriti, che riparte da capo a ogni riga.

@@ -306,3 +306,4 @@ Dettagli e numeri nel `QUADERNO.md` (e373–e3a02); tutto replicato con la trasc
 - **Testi in cerchio ed etichette** usano *o*-, quasi mai *qo*- (2–5%); la giuntura nei cerchi c'è ma è fatta d'altro
   (-*r* *a*-, -*s* *a*-, -*y* *d*-).
 - **Quanto sono libere le scelte** (e3a36, e3a37): il contesto trovato più la parola tolgono solo il 18,5% dell'incertezza su *qo*-/*o*- e il 10,8% su -*l*/-*r*. Le regole di raccordo sono spinte, non obblighi: il resto della scelta è libero (spazio per un messaggio, se si rispettano le spinte).
+- **Catena per riga** (e3a49–e3a52): nel Voynich le coppie di segni fra parole ricalcano quelle dentro le parole (lo spazio è un confine debole), e la catena riparte da capo a ogni riga. U3 ha la catena ma senza la chiusura della riga; gli altri generatori non hanno né l'una né l'altra.
