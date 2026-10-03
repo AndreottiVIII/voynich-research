@@ -1,0 +1,19 @@
+{
+ "misure": {
+  "secondo bordo (dopo il disegno)": {
+   "coppie": 422,
+   "osservata": 0.061611374407582936,
+   "nullo": 0.0667647383720939,
+   "rapporto": 0.9228130883133221,
+   "z": -0.5274021304999851
+  },
+  "margine vero (controllo)": {
+   "coppie": 433,
+   "osservata": 0.013856812933025405,
+   "nullo": 0.05114379767459856,
+   "rapporto": 0.27093828700772504,
+   "z": -4.104622139053867
+  }
+ },
+ "esito": "solo sul margine vero"
+}
