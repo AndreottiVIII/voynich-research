@@ -1,0 +1,88 @@
+{
+ "Voynich": {
+  "parole": 34863,
+  "bit": {
+   "base + lettere": 11.26349301740118,
+   "+ cache": 11.157596097495,
+   "+ cache + lettere della pagina": 10.990077351258755
+  },
+  "pesi_completo": {
+   "base": 0.05470706992106364,
+   "cache esatta": 0.01315541846747947,
+   "cache varianti pesata": 0.06012294451751302,
+   "lettere": 0.08167965055620753,
+   "lettere della pagina": 0.790334916537738
+  },
+  "riduzione": 0.27341566614242474,
+  "bit_totali_stimati": 383147.066696934
+ },
+ "Plinio XX–XXVII (latino tecnico)": {
+  "parole": 34863,
+  "bit": {
+   "base + lettere": 15.730648565924888,
+   "+ cache": 15.646123821585475,
+   "+ cache + lettere della pagina": 15.578147492613603
+  },
+  "pesi_completo": {
+   "base": 0.782995389771796,
+   "cache esatta": 0.024069606973137654,
+   "cache varianti pesata": 0.0018987354881528063,
+   "lettere": 0.11950279973197603,
+   "lettere della pagina": 0.07153346803493742
+  },
+  "riduzione": 0.15250107331128504,
+  "bit_totali_stimati": 543100.956034988
+ },
+ "Macer floridus (versi)": {
+  "parole": 13484,
+  "bit": {
+   "base + lettere": 14.069139861346384,
+   "+ cache": 14.024810388662896,
+   "+ cache + lettere della pagina": 13.920290768302342
+  },
+  "pesi_completo": {
+   "base": 0.7806398238343495,
+   "cache esatta": 0.010567636296445812,
+   "cache varianti pesata": 0.0028091745104980655,
+   "lettere": 0.13977845790172383,
+   "lettere della pagina": 0.06620490745698199
+  },
+  "riduzione": 0.14884909304404204,
+  "bit_totali_stimati": 187701.2007197888
+ },
+ "Bibbia latina": {
+  "parole": 34863,
+  "bit": {
+   "base + lettere": 11.553877101374088,
+   "+ cache": 11.328586814615575,
+   "+ cache + lettere della pagina": 11.254530698793005
+  },
+  "pesi_completo": {
+   "base": 0.76663021330358,
+   "cache esatta": 0.06973928874201094,
+   "cache varianti pesata": 0.0038442842917486134,
+   "lettere": 0.0805162556964057,
+   "lettere della pagina": 0.07926995796625658
+  },
+  "riduzione": 0.299346402581083,
+  "bit_totali_stimati": 392366.70375202055
+ },
+ "Bibbia italiana": {
+  "parole": 34863,
+  "bit": {
+   "base + lettere": 10.278860072237517,
+   "+ cache": 10.125853142191099,
+   "+ cache + lettere della pagina": 10.087619769385723
+  },
+  "pesi_completo": {
+   "base": 0.7971626335555274,
+   "cache esatta": 0.04373260683731156,
+   "cache varianti pesata": 4.0670381418538426e-08,
+   "lettere": 0.0928683913839068,
+   "lettere della pagina": 0.06623632755287452
+  },
+  "riduzione": 0.19124030285179394,
+  "bit_totali_stimati": 351684.6880200945
+ },
+ "lettura": "informazione per parola paragonabile a una lingua"
+}
