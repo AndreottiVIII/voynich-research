@@ -1,0 +1,17 @@
+V1 replica e241 seme 2: 16/18 riga True mancano ['ripetizione', 'verticale'] AUC 0.8620 -> True (copia pagella True)
+V2 gamma 0 identico all'e241: {'grezzo': True, 'dopo': True}
+R delle parole rare del Voynich: 1.958 (C 0.0100, atteso 0.0051, rare 697, unita 116)
+seme 1, gamma 0.00: pagella 14/18 riga True | R rare 44.36183395291202 | ricircolo 0.054
+seme 1, gamma 0.10: pagella 11/18 riga True | R rare 43.60753221010903 | ricircolo 0.179
+seme 1, gamma 0.20: pagella 11/18 riga False | R rare 27.342256214149142 | ricircolo 0.302
+seme 1, gamma 0.30: pagella 7/18 riga False | R rare 28.22655524605386 | ricircolo 0.420
+seme 1, gamma 0.45: pagella 7/18 riga False | R rare 22.789783889980356 | ricircolo 0.471
+seme 1, gamma 0.60: pagella 7/18 riga False | R rare 19.36589545844045 | ricircolo 0.551
+P* 14, ammessi [] -> gamma* 0.10
+seme 7 base      : pagella 15/18 riga True mancano ['ripetizione', 'profilo pagina', 'verticale'] | R rare 48.5 | AUC e231 0.887 e266 0.966
+seme 7 gamma 0.10: pagella 11/18 riga True mancano ['h2', 'spazio', 'ripetizione', 'omogeneità', 'curva piatta', 'profilo pagina', 'verticale'] | R rare 34.1 | AUC e231 0.943 e266 0.974
+seme 8 base      : pagella 15/18 riga False mancano ['spazio', 'ripetizione', 'verticale'] | R rare 51.5 | AUC e231 0.854 e266 0.953
+seme 8 gamma 0.10: pagella 12/18 riga False mancano ['h2', 'spazio', 'ripetizione', 'curva piatta', 'profilo pagina', 'verticale'] | R rare 33.5 | AUC e231 0.926 e266 0.978
+seme 9 base      : pagella 15/18 riga True mancano ['spazio', 'ripetizione', 'verticale'] | R rare 44.8 | AUC e231 0.879 e266 0.965
+seme 9 gamma 0.10: pagella 11/18 riga True mancano ['h2', 'spazio', 'ripetizione', 'omogeneità', 'curva piatta', 'profilo pagina', 'verticale'] | R rare 34.7 | AUC e231 0.915 e266 0.966
+non superato: R + pagella
