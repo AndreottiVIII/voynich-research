@@ -7142,3 +7142,23 @@ Preregistrato (`preregistrazioni/e302.md`); Voynich contro il corpo della v5 sui
     è lessico di pagina, non copia). Il generatore vecchio aveva meccanismi di copia verticale e di riga che il testo non
     sostiene.
 - Prova in corso: pagella, pagella estesa, AUC sui semi 1–4, contro la v5.
+
+## 3/10/2026 — Modello del Voynich: il primo prototipo fallisce e insegna due cose
+
+- **Prototipo 1** (lessico della pagina vera come componente; legame col segno finale come fonte di parole), semi 1–4:
+  pagella 6–7/18, AUC **0,988 / 0,998** (v5 sugli stessi semi: 66/72 di pagella, 0,812 / 0,918). Pagine troppo varie
+  (tipi su parole 0,836 contro 0,756), troppo pochi hapax (0,091 contro 0,137), legame fra finali vicini 0,009 contro
+  0,024, coppie riviste altrove 0,15 contro 0,24. Copia di trigrammi dal Voynich 0,2% (nessuna copia).
+- **Errore di costruzione:** la componente "pagina vera" (con la sola parola tolta) vede anche le parole che vengono dopo
+  nella pagina e prende il posto della memoria; in generazione restano solo fonti indipendenti. Corretto togliendola: la
+  ripetizione nella pagina deve venire dalla memoria di ciò che è già scritto.
+- **Seconda forma:** fonti (memoria, pagine vicine, coppia, sezione, posizione, libro, nuova; pesi per verosimiglianza) e
+  scelta fra 16 candidate con i legami ai bordi del Voynich (finale→finale, finale→prefisso, prefisso→prefisso).
+- **Prima cosa capita** dalla taratura sul seme 1: alzando la memoria la varietà nella pagina va a posto, ma le coppie
+  identiche vicine raddoppiano (0,02–0,03 contro 0,0094). Il Voynich **ripete le parole nella pagina ma le evita nella
+  stessa riga** (lo diceva l'e303: nella riga le parole si somigliano meno che con la riga sotto). Con la memoria fatta
+  delle **righe precedenti** della pagina le coppie identiche scendono a 0,009–0,014.
+- **Taratura** (metodo dei momenti sul seme 1, memoria ×2, coppia ×3, legami 1,5): varietà nella pagina 0,763 (Voynich
+  0,756), hapax 0,130 (0,137), coppie riviste altrove 0,240 (0,241), legame fra finali 0,0240 (0,0237), coppie
+  identiche 0,0138 (0,0094); lunghezza delle parole 4,62 (4,46: ancora lunghe). Prova con i discriminatori sui semi 1–4
+  in corso.
