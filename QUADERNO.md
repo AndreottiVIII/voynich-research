@@ -8891,3 +8891,24 @@ Conseguenze:
   nella lettura.
 - **Correzione:** l'e381 rifà le misure dei testi sensati di e374, e375 ed e377 con le parole intere: spazi come
   separatori, tenendo lettere, segni combinanti e apostrofi.
+
+## 3/10/2026 (notte) — e378: la lingua B non è la lingua A con un'altra chiave
+
+Preregistrato (`preregistrazioni/e378.md`). Solo l'erbario: B 3.462 parole; A diviso 10 volte in due parti di pari
+dimensione. Sovrapposizione delle frequenze delle parole; ricerca della sostituzione dei segni migliore (ricerca locale,
+6 partenze). Ricerca provata prima solo su un testo latino di controllo.
+
+| | media su 10 divisioni |
+|---|---|
+| O(A1, A2), stessa lingua | 0,586 |
+| O(A1, B) | 0,311 |
+| O(chiave migliore(A1), B) | 0,313 |
+| quota del divario chiusa dalla chiave, R | **0,01** |
+| controllo: A2 cifrata a caso, R | **1,00** |
+
+- **Esito preregistrato: B non è una sostituzione di A.** La ricerca ritrova sempre una chiave casuale (controllo
+  1,00 in tutte le 10 divisioni), ma fra A e B la chiave migliore è quasi l'identità. Gli unici scambi riguardano segni
+  rari (*p*↔*f* in 10 divisioni su 10, poi *cph*, *cfh*, *x*, *c*) e guadagnano lo 0,2%.
+- Le parole B sono più lunghe (4,37 segni contro 4,04), cosa che una sostituzione non può fare.
+- Lettura: A e B usano i segni con lo stesso valore. La differenza sta nel lessico e nella forma delle parole (famiglie
+  -*edy*, *qok*-, e315–e325), non in una chiave diversa.

@@ -990,3 +990,7 @@ negativi; i numeri sono nei file di `risultati/`.
 - **Lo spazio a volte spezza le parole** (e379): dopo un elemento corto (*s*, *or*, *ol*, *ar*), la parola seguente
   forma con lui, più del caso, una parola scritta altrove tutta attaccata (*s aiin* / *saiin*, *or aiin* / *oraiin*,
   *ol chedy* / *olchedy*; z 6,9 con un nullo che conserva la giuntura). Con le parole lunghe no.
+- **La lingua B non è la lingua A cifrata con un'altra chiave** (e378). Nell'erbario la migliore sostituzione dei
+  segni avvicina A a B solo dell'1% del divario fra A e B (la stessa ricerca ritrova al 100% una chiave casuale). I
+  segni hanno lo stesso valore nelle due lingue; cambiano lessico e forma delle parole (B più lunghe: 4,37 contro 4,04
+  segni).
