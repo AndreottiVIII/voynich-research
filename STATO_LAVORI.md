@@ -39,6 +39,22 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     - l'alternanza "vocale/consonante" di Sukhotin al confine è come nelle lingue e si comporta come la giuntura
       (e3a30, e3a32);
     - nei testi in cerchio *qo*- è raro come nelle etichette (esplorativo).
+  - **e3a30–e3a50:**
+    - **lo spazio è un confine debole:** le preferenze fra la fine di una parola e l'inizio della seguente ricalcano
+      quelle dentro le parole più che in tutte le 71 lingue (ρ 0,47; lingue sotto 0,39), con tutte e tre le
+      trascrizioni (e3a49, e3a50). La regola -*l*/-*r* è la stessa dentro e fra le parole (e3a48); le parti attaccate
+      senza spazio rispettano il raccordo (e3a47);
+    - alternanza "vocale/consonante" di Sukhotin al confine come nelle lingue più legate, chiusa nella riga (e3a30,
+      e3a32);
+    - l'evitamento degli inizi ripetuti riguarda l'inizio della riga (non un bordo visivo: e3a44), solo dentro il
+      paragrafo (e3a40), non c'è nel gibberish umano ed è raro nelle lingue (e3a35);
+    - le scelte *qo*-/*o*- e -*l*/-*r* restano per l'80–90% libere anche conoscendo contesto e parola (e3a36, e3a37);
+    - due classi di iniziali secondo la finale della parola prima (e3a41);
+    - le etichette consecutive si copiano con piccole modifiche (e3a38);
+    - gli "errori" sono dello scriba, non dei trascrittori (e3a39);
+    - lo scriba guarda avanti: regge con Takahashi (e3a34); tutte le proprietà principali reggono nelle due metà del libro
+      (e3a43);
+    - un po' di continuità di lessico fra paragrafi consecutivi (e3a42).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
