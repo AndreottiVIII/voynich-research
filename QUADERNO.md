@@ -10435,3 +10435,21 @@ Banco preregistrato dell'e293 (`esegui.py e293 -- --v12`), Isidoro XVII nel sacc
 - **Avvertenza sul significato.** I pesi del modello sono stati regolati sulle stesse statistiche che i due giudici
   guardano (su un seme a parte, mai sui giudici e mai sui semi 7–9). "I giudici non lo distinguono" vale per questi
   due giudici; un giudice costruito in modo indipendente non è ancora stato provato.
+
+## 4/10/2026 (notte) — e3a46: dentro le forme nuove le q interne seguono quasi sempre -y/-o/-d, ma la misura scelta era diluita
+
+Preregistrato (`preregistrazioni/e3a46.md`). 3.373 forme nuove.
+
+| dove | eventi | *q* dopo V | *q* dopo C | P(*q* \| V) | P(*q* \| C) | Δ | p |
+|---|---|---|---|---|---|---|---|
+| dentro le forme nuove | 5.920 | **21** | **1** | 0,004 | 0,001 | +0,003 | 0,12 |
+| dentro le parole comuni | 973 | 0 | 0 | — | — | — | — |
+| fra parole separate | 25.331 | 3.646 | 697 | 0,257 | 0,062 | +0,195 | < 0,0001 |
+
+- **Esito preregistrato: no** (p 0,12).
+- **Ma la misura era diluita, e lo dichiaro.** Il denominatore comprendeva tutti i passaggi interni da un segno di V o C
+  (per esempio *o* seguito da *k* in *okeedy*), che non sono punti di unione. I conteggi delle *q* interne parlano
+  chiaro: 21 dopo -*y*/-*o*/-*d* e 1 dopo -*n*/-*r*/-*s*/-*m*. Esempi: *chedyqokam*, *okeedyqol*, *teyqokedy*,
+  *oksheyqolkeey*, *ysheeyqorar*, *shkeyqokeaiin*: "…*y*" + "*qo*…" attaccati.
+- Nelle parole comuni non c'è nessuna *q* interna: *q* è un segno d'inizio parola.
+- Rifatto con la misura giusta nell'e3a47.
