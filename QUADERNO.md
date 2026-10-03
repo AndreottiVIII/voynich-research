@@ -5619,3 +5619,18 @@ sequenza.
     sequenze senza senso (*תשהחכלישארא…*).
   - Le scritture senza vocali brevi si adattano più facilmente (e158). L'e221 (abjad: il Voynich senza
     i segni "vocalici" a, o, e, y, i) lo mette alla prova direttamente.
+
+## 3/10/2026 — e221: togliere i segni "vocalici" non avvicina il Voynich alle lingue senza vocali
+
+- **Preregistrato.** Il testo ripulito senza a, o, e, y, i (scheletro consonantico) contro ebraico,
+  arabo, siriaco e persiano, più latino e italiano.
+- **Risultati** (punteggio / copertura): con lo scheletro le posizioni **scendono**:
+  - ebraico da 0,70 / 0,25 a 0,28 / 0,00;
+  - arabo da 0,52 / 0,29 a −1,14 / −0,10;
+  - siriaco 0,05; persiano −0,04; latino −0,39; italiano −0,25.
+- **Esito: nessuna lettura.**
+- **Lettura.**
+  - Il vantaggio relativo dell'ebraico e dell'arabo sul testo intero (e212, e218) non viene da un
+    Voynich scritto "come un abjad": togliendo i segni vocalici sparisce.
+  - Resta il segno che un modello di lettere per quelle lingue si adatta più facilmente a testi a bassa
+    entropia (e158).
