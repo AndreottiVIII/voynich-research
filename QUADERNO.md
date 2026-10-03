@@ -6093,3 +6093,21 @@ sequenza.
   - Ogni paragrafo si apre con una parola propria, quasi sempre unica (e248: 53% di parole d'apertura
     uniche), costruita con il repertorio d'apertura.
   - Non c'è l'appiglio di una formula fissa su cui tentare una lettura.
+
+## 3/10/2026 — e274: i punti imprevedibili del testo non formano gruppi
+
+- **Preregistrato.** La sorpresa di ogni parola è calcolata con la mistura dell'e259b, fuori campione
+  (pagine pari contro dispari). Il residuo toglie l'effetto di lunghezza e posizione. G è la quota di
+  coppie vicine entrambe nel 10% più sorprendente; il nullo sono 500 rimescolamenti nella riga.
+- **Risultati:**
+  - Voynich: sorpresa media 11,04 bit, G 0,0140 contro un nullo di 0,0134, **z 1,2**;
+  - generatore e241 (controllo negativo): 10,82 bit, z 3,0;
+  - Voynich con frammenti di Plinio (controllo positivo): 12,44 bit, **z 9,8**.
+- **Validità:** il positivo supera z 3.
+- **Esito: nessun raggruppamento.** Il Voynich è anzi meno raggruppato del generatore senza messaggio.
+- **Lettura.**
+  - Non ci sono "isole" di testo diverso dentro le righe, come lascerebbe un messaggio inserito in poche
+    parole (per esempio parole in chiaro in mezzo a riempitivo).
+  - Il modello di copia lascia ~11 bit per parola, e questa sorpresa è sparsa in modo uniforme.
+  - Il generatore e241 raggruppa un poco le sue sorprese, il Voynich no: è una piccola differenza in più
+    da chiudere per il generatore (le varianti difficili del generatore arrivano a coppie).
