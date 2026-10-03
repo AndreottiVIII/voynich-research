@@ -6680,3 +6680,21 @@ sequenza.
 - **Lettura.** Il registro d'apertura abbassa il discriminatore forte di 0,03 anche a dose moderata, ma le prime
   righe "prese" da altre pagine costano proprietà di pagina (omogeneità, gradiente, formule) a seconda del seme. ρ
   resta un parametro per la regolazione congiunta, dove si può compensare con gli altri.
+
+## 3/10/2026 — e252: i dodici interruttori di riga, così come progettati, peggiorano il generatore
+
+- **Preregistrato** (integrazione del 3/10): base e241 (il passo 2 ha una lacuna); per ognuna delle 12 classi
+  dell'e206b uno stato AR(1) di riga; `e251.applica_interruttori` riscrive le parole dopo le cinque scelte.
+- **Validità:** interruttori spenti identici a `e233.genera`; base identica all'e251 sui semi 7–9.
+- **Risultati** (semi 7–9; base → interruttori): pagella 15, 15, 15 → 11, 11, 13; riga in 2 semi → **0**; AUC
+  dell'e231 0,873 → **0,935**, dell'e266 0,961 → **0,983**. Si perdono h2, Zipf, a volte legame e omogeneità.
+- **e206b sull'uscita del seme 7:** classi con z > 3 **3 su 12** (base: 4). Le classi di prefisso (*sh* iniziale,
+  *cth* iniziale) salgono un poco, quelle di fine e di interno scendono.
+- **Esito preregistrato: non superato** (classi, pagella, riga).
+- **Lettura.**
+  - Il meccanismo sceglie a caso una classe per parola e sostituisce la parola con "la forma lunga più frequente"
+    (o la corta): cambia il vocabolario invece di cambiare un segno, e rompe Zipf e h2. Inoltre le 12 classi
+    insieme toccano quasi ogni parola, e il loro stato di riga si diluisce.
+  - Un secondo tentativo dovrebbe cambiare solo il segno della classe (come fa `e145.riscrivi` per le cinque
+    scelte), non la parola. Intanto il modello delle scelte della v1 del voynichizzatore (imparato dal Voynich,
+    con lo stato di riga) fa qualcosa di simile per le cinque scelte.
