@@ -781,3 +781,25 @@ negativi; i numeri sono nei file di `risultati/`.
 - Con la codifica aritmetica secondo un modello delle scelte imparato dal Voynich (v1 e seguenti), **il testo nascosto
   non rende il manoscritto più riconoscibile** di uno senza messaggio.
 - v3 con Isidoro XVII nascosto: AUC 0,812 (e231) e 0,928 (e266); obiettivo 0,6. Banco di prova fisso: e293.
+
+### 15.5 Proprietà trovate nel pomeriggio del 3/10 (e294–e301)
+
+- **Le parole rare sono sparse come errori** (e296, ipotesi di Davide). Due terzi delle parole rare (2–5 occorrenze)
+  sono a una lettera da una parola frequente, e compaiono in pagine qualsiasi: R 0,57 (sotto il caso). Anche le rare che
+  non sono varianti sono sparse (R 1,16): nel Voynich nessuna parola rara è "della pagina". Nei generatori R 32–87:
+  le varianti nascono nella pagina e restano lì. Aggiungere errori sparsi al generatore non basta (e297: R da 52 a 50),
+  perché il difetto sta nelle rare che il generatore crea dentro la pagina.
+- **La concordanza delle desinenze ha la forma di una lingua, non la forza** (e294). Bordi legati più dei centri
+  (indice +0,031), come in 14 testi naturali (giapponese, coreano, nahuatl, lingue amazzoniche, latino tecnico a
+  elenchi); ma con eccessi 3–10 volte più piccoli di qualsiasi lingua.
+- **La concordanza si ferma all'a capo** (e295): dentro la riga 0,050, attraverso l'a capo 0,007 (z 0,7); nel latino
+  continua (r 0,68). È un'abitudine di riga dello scriba, come le scelte di grafia, non grammatica.
+- **Famiglie di parole nella pagina** (e298): struttura uguale a quella del generatore; la varietà del Voynich non viene
+  da famiglie diverse. **Fine riga** (e299): le righe che finiscono in *m*/*g* sono appena più lunghe (+1,5%, z 2,0):
+  indizio debole.
+- **L'ordine delle pagine conserva l'ordine di scrittura** (e300, e300b). Pagine consecutive nella rilegatura
+  condividono più parole di frequenza media di pagine qualsiasi della stessa sezione (z 8,5), e l'effetto resta dentro
+  la stessa sezione e la stessa lingua di Currier (z 5,7). Coerente con uno scriba che riprende parole delle pagine
+  appena scritte e con una rilegatura in buona parte fedele (o con un ordine per argomento).
+- **Mani 2 e 3 di Davis** (e301): distinguibili per sei abitudini fini (z 3,4), ma hanno scritto sezioni diverse e
+  dentro l'erbario non si distinguono (z 1,1): più probabilmente differenze di sezione che di mano.
