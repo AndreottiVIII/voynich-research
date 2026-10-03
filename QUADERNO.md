@@ -6588,3 +6588,34 @@ sequenza.
     sistematici fra finali diversi**, come le coppie di lettere di una lingua. Si separano nell'e285c.
   - Vale anche il contrario per il generatore: le parole del Voynich si legano alle vicine per i bordi (prefisso,
     finale) e non per il centro, il generatore fa il contrario. È una proprietà nuova da dare al generatore.
+
+## 3/10/2026 — e279c: il canale "alla Bacone" dell'e279 è un artefatto delle parole ripetute
+
+- **Preregistrato:** come l'e279b, con i positivi allineati.
+- **Risultati** (z con il nullo a parole intere): Voynich **7,1**; generatore e241 con gli interruttori, senza
+  messaggio, **4,5**; positivo puro 357,9; al 70% 103,7.
+- **Esito preregistrato: artefatto delle parole ripetute.** Il test è valido, ma il Voynich supera il generatore di
+  2,6 (serviva 3).
+- **Lettura.** Il segnale dell'e279 (z 17,5) viene quasi tutto dal fatto che le parole si ripetono con i loro
+  segni facoltativi: rimescolando parole intere scende a 7,1, e un generatore senza messaggio arriva a 4,5. Strada
+  nuova 1 chiusa: nessun canale di Bacone nelle 12 scelte di riga (e nelle 5 scelte, e181).
+
+## 3/10/2026 — e268: il registro delle prime righe abbassa il discriminatore, ma ρ 0,6 è troppo e rompe la pagella
+
+- **Preregistrato** (passo 3b): nelle prime righe dei paragrafi, con probabilità ρ, la base viene dalle prime righe
+  vere delle altre pagine della stessa sezione. ρ scelto sul seme 1 con l'AUC del gruppo G8 dell'e266.
+- **Scelta sul seme 1** (pagella / AUC e266 / G8): ρ 0: 14 / 0,956 / 0,885; 0,2: 15 / 0,934 / 0,837; 0,4: 14 / 0,943 /
+  0,796; 0,6: 13 / 0,928 / 0,748; 0,8: 12 / 0,919 / 0,703. Scelto **ρ 0,6** (G8 minima fra gli ammessi).
+- **Verifica** (semi 7, 8, 9; e241 → ρ 0,6):
+  - G8: 0,890 → **0,754**; AUC dell'e266: 0,961 → **0,915**; dell'e231: 0,873 → 0,864;
+  - misura dell'e273 sul seme 7: e241 +0,002 (z 0,2) → ρ +0,083 (**z 8,4**; Voynich +0,047, z 4,7);
+  - pagella: 45 → **38** (si perdono omogeneità, gradiente, curva piatta, in un seme h2); riga in 3 semi su 3
+    (e241: 2).
+- **Esito preregistrato: non superato** (pagella).
+- **Lettura.**
+  - È il primo meccanismo che abbassa in modo netto il discriminatore forte (−0,046) e il suo gruppo G8 (−0,136):
+    il registro d'apertura è una delle cose che tradivano il generatore.
+  - ρ 0,6 è troppo: l'effetto dell'e273 esce quasi doppio di quello del Voynich, e le prime righe "importate"
+    rompono omogeneità e gradiente della pagina. La regola di scelta (G8 minima) spingeva verso l'eccesso.
+  - Secondo tentativo (e268b): ρ scelto perché la misura dell'e273 sul seme 1 sia la più vicina a quella del
+    Voynich, a pagella non inferiore all'e241.
