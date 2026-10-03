@@ -46,6 +46,10 @@ Il vecchio PC (i5-7200U, 2 core, 8 GB) era saturo.
 La catena di decifrazione è divisa in due code: gli esperimenti non dipendono dai risultati l'uno dell'altro
 (e223 usa solo i corpora dell'e219).
 
+- **Numerali nelle ricette (strada nuova 4): tolta per ora** (3/10, 17:10). Manca un controllo positivo valido: serve un
+  ricettario vero con le dosi scritte (tipo *Antidotarium Nicolai*), che nella cache non c'è; i numeri nello zodiaco sono
+  già esclusi dall'e262. Si riprende se si trova il testo.
+
 ## Obiettivo finale chiarito da Davide (3/10, 15:50)
 
 - Il **voynichizzatore**: si dà in mano un testo normale e restituisce un manoscritto indistinguibile dal Voynich
