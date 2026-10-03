@@ -9316,3 +9316,24 @@ Preregistrato (`preregistrazioni/e391.md`). Loci di tipo cerchio e raggio: 2.185
   testi circolari *qo*- dopo -*y*/-*o*/-*d* è solo un po' più frequente che dopo -*n*/-*r*/-*s*/-*m*, molto meno che
   nei paragrafi (Δ +0,25 – +0,48, e388). La giuntura dei cerchi è quindi fatta d'altro, o la regola di *qo*- è propria
   dei paragrafi: da guardare.
+
+## 3/10/2026 (notte) — e392: la parola copiata dalla riga sopra prende la forma voluta dalla nuova vicina
+
+Preregistrato (`preregistrazioni/e392.md`). Parole *qo*/*o* + gallows il cui nucleo (dalla gallows in poi) sta nella riga
+subito sopra in una sola forma (la fonte), precedute da una parola in -*y*/-*o*/-*d* (V) o in -*n*/-*r*/-*s*/-*m* (C).
+
+| fonte nella riga sopra | nuova vicina | eventi | P(*qo*) |
+|---|---|---|---|
+| *qo*- | V | 331 | 0,79 |
+| *qo*- | C | 94 | **0,29** |
+| *o*- | V | 183 | **0,62** |
+| *o*- | C | 80 | 0,16 |
+
+- Effetto della nuova vicina, a parità di fonte: **+0,49**, p < 0,0001. Effetto della fonte, a parità di vicina:
+  +0,16, p < 0,0001.
+- **Esito preregistrato: entrambe le cose**, ma la vicina pesa tre volte la fonte.
+- **Lettura:** una parola ripresa dalla riga sopra non viene copiata così com'è. Se la fonte aveva *qo*- ma la nuova
+  vicina finisce in -*n*/-*r*/-*s*/-*m*, la copia prende *o*- due volte su tre. Se la fonte aveva *o*- ma la nuova
+  vicina finisce in -*y*/-*o*/-*d*, prende *qo*- quasi due volte su tre. La regola di raccordo si applica **nel momento
+  in cui si scrive**, alla parola nel suo nuovo posto: è il comportamento di un raccordo fonetico o grafico fra parole,
+  non di una forma fissa memorizzata. Va con l'e356 (la copia non eredita la grafia).

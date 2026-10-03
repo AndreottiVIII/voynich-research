@@ -1,0 +1,26 @@
+{
+ "eventi": 688,
+ "tabella": {
+  "fonte qo, vicina V": {
+   "eventi": 331,
+   "P_qo": 0.7885196374622356
+  },
+  "fonte qo, vicina C": {
+   "eventi": 94,
+   "P_qo": 0.2872340425531915
+  },
+  "fonte o, vicina V": {
+   "eventi": 183,
+   "P_qo": 0.6229508196721312
+  },
+  "fonte o, vicina C": {
+   "eventi": 80,
+   "P_qo": 0.1625
+  }
+ },
+ "effetto_vicina": 0.48567578984028237,
+ "p_vicina": 0.0,
+ "effetto_fonte": 0.15524141823890847,
+ "p_fonte": 0.0,
+ "esito": "entrambe le cose"
+}
