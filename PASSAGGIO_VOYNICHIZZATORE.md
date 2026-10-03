@@ -162,7 +162,12 @@ Dettagli e numeri in `DOSSIER_WHITE_PAPER.md` §15 e nel QUADERNO del 3/10.
   - La parola si prevede dalla sezione (peso 0,31-0,42) e dal segno finale della parola precedente.
 - **Concordanza delle desinenze:** dentro la riga 0,050, attraverso l'a capo 0,007 (e295). È un'abitudine di riga.
 - **Coppie riviste altrove:** 22-24% delle coppie vicine.
-- **Riga sopra:** pesa ~0 nel modello di verosimiglianza. La "verticalità" è lessico di pagina, non copia.
+- **Riga sopra (CORRETTO il 3/10 alle 22:05):** nel primo prototipo del modello pesava ~0, ma era una misura debole:
+  competeva con il lessico della pagina vera, che vedeva anche le parole dopo. La misura diretta dell'e338 dice il
+  contrario. Una parola ha una parola uguale o a una modifica di distanza nelle 2 righe subito sopra più del caso (z 16,6,
+  più che nel generatore di Timm e Schinner). Quando la fonte è nella riga sopra, sta nella stessa colonna ±1 più del caso
+  (z 8,7). Due cautele: la prima misura può includere il lessico del paragrafo; la seconda gli effetti di posizione
+  nella riga (prima/ultima parola). Vedi QUADERNO, voce e337–e339.
 
 **Righe e paragrafi**
 - **Scelte di grafia concordi nella riga:** 12 classi su 12 con z > 3 (e206b). Il generatore ne prende 2-3, la v4

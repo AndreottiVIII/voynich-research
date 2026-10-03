@@ -7780,3 +7780,58 @@ G3, JSD pagina-manoscritto (pavimento 0,50). Semi 1–4. Risultati in `risultati
   riga, 8,8% in mezzo).
 - **Secondo tentativo (e403b):** un modello della forma imparato sulle parole uniche (trigrammi), con la lunghezza
   controllata, distinto per tipo di posto nella riga e scelto in modo da seguire il profilo della pagina.
+
+## 3/10/2026 — e337, e338, e339: la posizione nella riga governa le scelte di grafia; le previsioni dell'autocitazione reggono (con due cautele); le etichette dello zodiaco non sono giorni
+
+Preregistrato (`preregistrazioni/e337.md`).
+
+- **e337** (perdita di log-verosimiglianza togliendo il fattore, in millesimi di bit per posto; base: strato e
+  fascicolo):
+
+  | scelta | posti | posizione nella riga | tipo di riga | altezza nella pagina | paragrafo | faccia |
+  |---|---|---|---|---|---|---|
+  | *ch*/*sh* | 14.391 | **10,1** | 4,8 | 0,2 | 0,0 | 0,0 |
+  | *k*/*t* | 17.986 | **4,0** | 0,4 | 1,2 | 0,1 | 0,0 |
+  | -*l*/-*r* | 9.523 | **4,8** | 0,4 | 0,4 | 0,1 | 0,1 |
+  | *o*-/*qo*- | 8.818 | **10,1** | 1,4 | 1,9 | 0,1 | 1,0 |
+  | -*dy*/-*ey* | 9.968 | **18,1** | 5,0 | 4,5 | 0,1 | 0,2 |
+
+  - Significativi dopo Bonferroni:
+    - *ch*/*sh*: posizione, tipo di riga;
+    - *k*/*t*: posizione, altezza;
+    - -*l*/-*r*: posizione;
+    - *o*-/*qo*-: posizione, altezza;
+    - -*dy*/-*ey*: posizione, tipo di riga, altezza.
+  - **Il paragrafo (primo o no) e la faccia del foglio non contano mai.**
+  - **Esito:** il fattore più forte, per tutte e cinque le scelte, è la **posizione della parola nella riga**; poi il
+    tipo di riga e l'altezza nella pagina.
+- **e338, l'autocitazione di Timm e Schinner:**
+
+  | testo | fonte nelle 2 righe sopra | nullo | E1 (z) | stessa colonna | nullo | E2 (z) |
+  |---|---|---|---|---|---|---|
+  | Voynich (167 pagine) | 0,433 | 0,395 | **+0,037 (16,6)** | 0,406 | 0,369 | **+0,037 (8,7)** |
+  | Timm e Schinner, seme 1 | 0,569 | 0,546 | +0,023 (11,8) | 0,439 | 0,409 | +0,030 (8,2) |
+  | Timm e Schinner, seme 19 | 0,534 | 0,511 | +0,023 (10,8) | 0,421 | 0,377 | +0,044 (10,8) |
+
+  **Esito preregistrato: valido; autocitazione sostenuta per tutte e due le previsioni** (E1 del Voynich 1,62 volte
+  quello del generatore, E2 0,99 volte).
+  - **Correzione di una mia lettura.** Dal primo prototipo del modello del Voynich avevo scritto che "la riga sopra
+    non aggiunge nulla, la verticalità è lessico di pagina, non copia". Era una conclusione debole: in quel prototipo
+    la componente "riga sopra" competeva con il lessico della pagina vera, che vedeva anche le parole venute dopo. La
+    misura diretta dice che le parole hanno una fonte nelle righe subito sopra, e nella stessa colonna, più del caso,
+    almeno quanto nel generatore che si basa proprio su questo. Correzioni fatte nel dossier e nel passaggio di
+    consegne del voynichizzatore.
+  - **Due cautele, scritte dopo il risultato:**
+    1. E1 confronta con le righe della pagina in ordine casuale: include anche il lessico del paragrafo, che le righe
+       vicine condividono (e329). Il generatore di Timm e Schinner non ha paragrafi.
+    2. E2 confronta con l'ordine casuale della riga sopra: include anche l'effetto di posizione (e337: la prima e
+       l'ultima parola della riga hanno forme loro), che rende simili le parole nella stessa colonna anche senza
+       copia.
+
+    Per separare la copia da questi due effetti servono E1 dentro e fuori dal paragrafo ed E2 senza la prima e
+    l'ultima parola (e340).
+- **e339** (12 pagine dello zodiaco, 294 etichette):
+  - stessa posizione in mesi diversi: +0,001, z 0,4. **Esito preregistrato: no.** Le etichette non sono una sequenza
+    di giorni ripetuta mese per mese.
+  - Etichette consecutive nella stessa pagina: z 1,1 (non più simili del caso).
+  - Il 76% delle etichette dello zodiaco comincia con *o* (21% nel testo).
