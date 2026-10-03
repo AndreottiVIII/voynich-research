@@ -5391,3 +5391,25 @@ sequenza.
     - profilo di riuso R/V/N;
     - scelte di riga;
     - spezzature e prefissi staccati.
+
+## 3/10/2026 — e224: la salita per coordinate si ferma a 14/18 in ricerca e 12/18 in verifica
+
+- **Preregistrato.** Salita per coordinate (2 passate) su η, σ, (λ, k), φ, ψ, α, ν, con la pagella
+  sul seme 1; verifica sui semi 2–4.
+- **Configurazione finale:** η 1, σ 0, λ 1,5 con k 16, φ 0, ψ 0, α 1, ν 0,4.
+  - Durante la ricerca:
+    - η 1 porta la fine riga (bordo);
+    - (1,5, 16) il legame;
+    - σ 0,06 dava legame e unioni ma perdeva altro, a parità di punteggio (13/18);
+    - ψ e φ 0,2 peggiorano.
+- **Verifica: 12/18, riga riprodotta, completo: no.**
+  - Mancano h2, uniche, unioni, curva piatta, Zipf, verticale.
+  - Fuori pagella: R delle parole rare **51,5** (Voynich 1,96); T4 −14,2 (Voynich −4,0), T3 1,0.
+- **Esito: non completo.** La pagella non arriva a 18/18 con questi meccanismi, e la ricerca sul seme 1
+  sovrastima: 14 contro 12.
+- **Confronto con la notte:**
+  - l'e240 (operatore di variante empirico, spezzature e prefissi staccati, κ, χ) dà **16/18** sul seme
+    2, una sola misura;
+  - gli esperimenti successivi della notte hanno trovato i meccanismi mancanti per unioni e legame
+    (e227d), per la verticale (fisica, e228b) e per la forma delle varianti (e239, e240).
+  - L'e230 parte ora dalla configurazione dell'e224.
