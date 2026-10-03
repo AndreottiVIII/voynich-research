@@ -188,7 +188,22 @@ Per ogni componente: la proprietà che deve dare, da dove viene e lo stato attua
   - il grosso divario sulle parole rare (e211) viene dal fatto che nel generatore la variante resta sulla
     sua pagina. Serve un lessico di parole nuove che cresce per sezione e si riusa altrove: lo prova
     l'e230.
-- **Discriminatore** (e231): in corso sul generatore e192.
+- **Prefissi staccati** (e227d): con spezzature a caso (σ 0,09) più i prefissi *ol, or, ar, al, dar,
+  dal, qol* scritti staccati (π 0,30), tutte e cinque le misure di giuntura e unione stanno in
+  tolleranza, anche su un seme nuovo.
+- **Scelte di riga** (e206b, e206c): oltre alle cinque note ci sono una dozzina di segni facoltativi
+  decisi per riga (*e* doppia, *y* finale, *ch/sh* iniziale, *d* iniziale, *l* finale, *t* interna…).
+  Sono quasi indipendenti fra loro: lo stato di riga è una dozzina di interruttori.
+- **Discriminatore** (e231–e236):
+  - generatore e192: AUC 0,97;
+  - con fine riga, spezzature, prefissi, κ (frequenti esatte, rare variate) e χ (copia della parola
+    precedente): 0,86–0,89;
+  - nessuna variante provata scende oltre.
+- **Bersaglio per il riuso nella pagina** (e237): R ≈ 32% ripetizioni esatte di parole della pagina, V
+  ≈ 37% varianti a una modifica, N ≈ 14% forme nuove, con fonti a 2–3 righe sopra. È il modulo da
+  costruire per primo domani, perché i generatori finora sbagliano proprio il rapporto R/V/N.
+- **Capacità** (e210b): le scelte di grafia portano al massimo circa 47.000 bit; i tre canali circa
+  93.000 bit.
 
 ## 6. L'immagine
 
