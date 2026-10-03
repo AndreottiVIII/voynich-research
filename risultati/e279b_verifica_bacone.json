@@ -1,0 +1,58 @@
+{
+ "risultati": {
+  "Voynich": {
+   "bit": 105799,
+   "nullo a parole intere": {
+    "ioc": 0.04446002871653651,
+    "nullo": 0.043801157934111115,
+    "z": 6.236757170948011
+   },
+   "nullo bit per bit (come e279, per posizione nella parola)": {
+    "ioc": 0.04446002871653651,
+    "nullo": 0.041880734428791866,
+    "z": 23.612303151362784
+   }
+  },
+  "generatore e241 + interruttori (seme 7)": {
+   "bit": 127952,
+   "nullo a parole intere": {
+    "ioc": 0.06027125426705322,
+    "nullo": 0.059465575394847967,
+    "z": 4.204807667301834
+   },
+   "nullo bit per bit (come e279, per posizione nella parola)": {
+    "ioc": 0.06027125426705322,
+    "nullo": 0.05420712683848311,
+    "z": 37.425652697098144
+   }
+  },
+  "positivo: Bacone al 70%": {
+   "bit": 105799,
+   "nullo a parole intere": {
+    "ioc": 0.044197739931191624,
+    "nullo": 0.04423177602343477,
+    "z": -0.7337940526726435
+   },
+   "nullo bit per bit (come e279, per posizione nella parola)": {
+    "ioc": 0.044197739931191624,
+    "nullo": 0.04481295366536884,
+    "z": -7.626238918322168
+   }
+  },
+  "positivo: Bacone al 30%": {
+   "bit": 105799,
+   "nullo a parole intere": {
+    "ioc": 0.0435028897580145,
+    "nullo": 0.04340422086366004,
+    "z": 1.1919899846467064
+   },
+   "nullo bit per bit (come e279, per posizione nella parola)": {
+    "ioc": 0.0435028897580145,
+    "nullo": 0.042839469251800946,
+    "z": 7.854566157855739
+   }
+  }
+ },
+ "valido": false,
+ "esito": "non valido"
+}
