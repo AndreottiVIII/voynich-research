@@ -1,0 +1,13 @@
+b chiave 2: pagella 16 riga False mancano ['gradiente', 'profilo pagina'] | AUC e231 0.527 e266 0.654 | {'capacita_bit': 80989}
+a chiave 2: pagella 17 riga False mancano ['profilo pagina'] | AUC e231 0.559 e266 0.702 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 80506, 'bit_messaggio': 38240, 'pagine_usate': 130}
+b chiave 1: pagella 16 riga False mancano ['gradiente', 'profilo pagina'] | AUC e231 0.478 e266 0.606 | {'capacita_bit': 80611}
+b chiave 3: pagella 16 riga False mancano ['gradiente', 'profilo pagina'] | AUC e231 0.528 e266 0.657 | {'capacita_bit': 80210}
+a chiave 1: pagella 16 riga False mancano ['gradiente', 'profilo pagina'] | AUC e231 0.578 e266 0.730 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 80744, 'bit_messaggio': 38240, 'pagine_usate': 131}
+a chiave 3: pagella 16 riga False mancano ['gradiente', 'profilo pagina'] | AUC e231 0.551 e266 0.684 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 80172, 'bit_messaggio': 38240, 'pagine_usate': 131}
+a chiave 4: pagella 16 riga False mancano ['gradiente', 'profilo pagina'] | AUC e231 0.552 e266 0.671 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 79909, 'bit_messaggio': 38240, 'pagine_usate': 132}
+b chiave 4: pagella 16 riga False mancano ['gradiente', 'profilo pagina'] | AUC e231 0.560 e266 0.704 | {'capacita_bit': 80252}
+c chiave 1: pagella 15 riga False mancano ['gradiente', 'legame', 'profilo pagina'] | AUC e231 0.658 e266 0.740 | {'decodifica_esatta': True}
+c chiave 2: pagella 15 riga False mancano ['gradiente', 'legame', 'profilo pagina'] | AUC e231 0.696 e266 0.729 | {'decodifica_esatta': True}
+c chiave 3: pagella 15 riga False mancano ['gradiente', 'legame', 'profilo pagina'] | AUC e231 0.671 e266 0.725 | {'decodifica_esatta': True}
+c chiave 4: pagella 15 riga False mancano ['gradiente', 'legame', 'profilo pagina'] | AUC e231 0.680 e266 0.755 | {'decodifica_esatta': True}
+{"a": [0.56, 0.697, 16.25], "b": [0.523, 0.655, 16], "c": [0.677, 0.737, 15]}
