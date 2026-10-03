@@ -1,0 +1,4 @@
+forme nuove {'parole': 3243, 'composte_nel_proprio_bifoglio': 0.6334, 'in_un_altro': 0.5228, 'eccesso': 0.1106, 'z': 20.5579}
+errori {'parole': 1202, 'composte_nel_proprio_bifoglio': 0.6972, 'in_un_altro': 0.6133, 'eccesso': 0.0839, 'z': 8.5824}
+parole comuni {'parole': 694, 'composte_nel_proprio_bifoglio': 0.9179, 'in_un_altro': 0.7896, 'eccesso': 0.1283, 'z': 10.4672}
+incerto
