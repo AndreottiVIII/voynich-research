@@ -8539,3 +8539,20 @@ parolina p staccata seguita da X), su 3.311 righe non prime di paragrafo.
     spaziare all'inizio della riga.
   - L'e367 misurava anche l'incertezza generale degli spazi; l'effetto specifico dell'inizio riga c'è, ma è più
     piccolo e concentrato su *s*.
+
+## 3/10/2026 (notte) — e369: gli "errori" non sono specificamente errori di copiatura dalla riga sopra (incerto)
+
+Preregistrato (`preregistrazioni/e369.md`).
+
+| gruppo | occorrenze | madre/sorella nelle 2 righe sopra | nullo | eccesso | z |
+|---|---|---|---|---|---|
+| errori (1–5 occorrenze, a una modifica da una parola con almeno 20) | 2.321 | 0,173 | 0,153 | +0,020 | 4,1 |
+| parole frequenti con una sorella frequente | 13.335 | 0,508 | 0,474 | +0,034 | 10,9 |
+
+- Differenza degli eccessi −0,015, z −2,3. **Esito preregistrato: incerto.**
+- **Lettura:**
+  - La parola "giusta" sta nelle righe subito sopra un errore un po' più del caso, come per qualunque parola (è la
+    ripresa dell'e340); in proporzione un poco di più (1,13 volte il caso contro 1,07), ma non abbastanza da parlare di
+    errori di copiatura.
+  - Con l'e357 (errori uniformi fra le sessioni): gli errori si comportano più come sbagli sparsi che come copie
+    sbagliate della riga sopra.
