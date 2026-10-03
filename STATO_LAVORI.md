@@ -13,6 +13,20 @@ come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
 Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). Dettagli nel QUADERNO e nel dossier
 (§15.11, punti in fondo).
 
+- **Serie e3a (dalle 0:00 del 4/10):**
+  - lo scriba **guarda avanti di una parola**: per -*l*/-*r* si adatta la finale della parola prima, per *qo*-/*o*-
+    l'inizio della parola dopo (e3a01, e3a02);
+  - **nessun legame oltre la parola accanto** (e3a03, e3a07): le lingue ne hanno uno piccolo (34 su 42), il Voynich no;
+  - il legame fra vicine passa quasi tutto dal segno di bordo; resta un legame fra parole intere pari a un quarto di
+    quello delle lingue (e3a08, e3a10, e3a14);
+  - **robustezza:** giuntura e raccordo reggono in tutte le sezioni (e3a04) e con la terza trascrizione, Glen Claston
+    (e3a05); eccezione: le 6 pagine "solo testo", dove c'è un legame a capo che però non è il raccordo (e3a06);
+  - la regola di raccordo è uguale in tutte le sessioni (e3a16); le parole uniche la rispettano per due terzi (e3a12);
+  - -*m* di fine riga è più rara nell'ultima riga del paragrafo (e3a09); le etichette finiscono come le righe (e3a11);
+  - le scelte di grafia: *qo*/*o* e -*l*/-*r* seguono la vicina; *ch*/*sh* e *k*/*t* hanno solo un effetto della
+    prima riga del paragrafo; -*ey* cresce scendendo nella pagina (e3a15, e3a18, e3a20). La copia dalla riga sopra è
+    costante lungo il paragrafo, dopo l'apertura (e3a19, e3a20);
+  - tabella di sintesi nel dossier, §15.12.
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
