@@ -1,0 +1,17 @@
+v5       seme 1 originale : pagella 17 riga False | AUC e231 0.809 e266 0.920 solo sacco 0.796 | {'G1': 0.63, 'G2': 0.65, 'G3': 0.84, 'G4': 0.63, 'G5': 0.51, 'G6': 0.7, 'G7': 0.62, 'G8': 0.88, 'G9': 0.6}
+v5       seme 1 ridisposto: pagella 15 riga False | AUC e231 0.789 e266 0.847 solo sacco 0.796 | {'G1': 0.63, 'G2': 0.65, 'G3': 0.84, 'G4': 0.64, 'G5': 0.53, 'G6': 0.7, 'G7': 0.67, 'G8': 0.66, 'G9': 0.66}
+v5       seme 4 originale : pagella 16 riga False | AUC e231 0.816 e266 0.913 solo sacco 0.777 | {'G1': 0.64, 'G2': 0.66, 'G3': 0.82, 'G4': 0.6, 'G5': 0.55, 'G6': 0.73, 'G7': 0.62, 'G8': 0.86, 'G9': 0.6}
+v5       seme 4 ridisposto: pagella 13 riga False | AUC e231 0.795 e266 0.841 solo sacco 0.777 | {'G1': 0.64, 'G2': 0.66, 'G3': 0.82, 'G4': 0.66, 'G5': 0.52, 'G6': 0.71, 'G7': 0.7, 'G8': 0.67, 'G9': 0.67}
+v5       seme 2 originale : pagella 16 riga False | AUC e231 0.823 e266 0.925 solo sacco 0.819 | {'G1': 0.65, 'G2': 0.7, 'G3': 0.84, 'G4': 0.62, 'G5': 0.5, 'G6': 0.69, 'G7': 0.6, 'G8': 0.87, 'G9': 0.61}
+v5       seme 2 ridisposto: pagella 13 riga False | AUC e231 0.810 e266 0.854 solo sacco 0.819 | {'G1': 0.65, 'G2': 0.7, 'G3': 0.84, 'G4': 0.64, 'G5': 0.54, 'G6': 0.69, 'G7': 0.67, 'G8': 0.68, 'G9': 0.67}
+v5       seme 3 originale : pagella 17 riga False | AUC e231 0.801 e266 0.914 solo sacco 0.786 | {'G1': 0.61, 'G2': 0.58, 'G3': 0.83, 'G4': 0.59, 'G5': 0.45, 'G6': 0.72, 'G7': 0.6, 'G8': 0.87, 'G9': 0.58}
+v5       seme 3 ridisposto: pagella 13 riga False | AUC e231 0.793 e266 0.825 solo sacco 0.786 | {'G1': 0.61, 'G2': 0.58, 'G3': 0.83, 'G4': 0.63, 'G5': 0.46, 'G6': 0.72, 'G7': 0.65, 'G8': 0.65, 'G9': 0.68}
+modello  seme 3 originale : pagella 7 riga False | AUC e231 0.949 e266 0.994 solo sacco 0.969 | {'G1': 0.71, 'G2': 0.74, 'G3': 0.9, 'G4': 0.86, 'G5': 0.54, 'G6': 0.79, 'G7': 0.84, 'G8': 0.76, 'G9': 0.93}
+modello  seme 3 ridisposto: pagella 8 riga False | AUC e231 0.899 e266 0.974 solo sacco 0.969 | {'G1': 0.71, 'G2': 0.74, 'G3': 0.9, 'G4': 0.74, 'G5': 0.53, 'G6': 0.76, 'G7': 0.73, 'G8': 0.75, 'G9': 0.92}
+modello  seme 1 originale : pagella 8 riga False | AUC e231 0.928 e266 0.989 solo sacco 0.963 | {'G1': 0.69, 'G2': 0.76, 'G3': 0.89, 'G4': 0.86, 'G5': 0.52, 'G6': 0.8, 'G7': 0.82, 'G8': 0.79, 'G9': 0.93}
+modello  seme 1 ridisposto: pagella 10 riga False | AUC e231 0.893 e266 0.964 solo sacco 0.963 | {'G1': 0.69, 'G2': 0.76, 'G3': 0.89, 'G4': 0.75, 'G5': 0.5, 'G6': 0.77, 'G7': 0.73, 'G8': 0.73, 'G9': 0.92}
+modello  seme 2 originale : pagella 8 riga False | AUC e231 0.929 e266 0.986 solo sacco 0.953 | {'G1': 0.69, 'G2': 0.73, 'G3': 0.89, 'G4': 0.86, 'G5': 0.57, 'G6': 0.76, 'G7': 0.8, 'G8': 0.77, 'G9': 0.92}
+modello  seme 2 ridisposto: pagella 9 riga False | AUC e231 0.912 e266 0.974 solo sacco 0.953 | {'G1': 0.69, 'G2': 0.73, 'G3': 0.89, 'G4': 0.74, 'G5': 0.52, 'G6': 0.75, 'G7': 0.74, 'G8': 0.74, 'G9': 0.91}
+modello  seme 4 originale : pagella 7 riga False | AUC e231 0.921 e266 0.986 solo sacco 0.949 | {'G1': 0.7, 'G2': 0.75, 'G3': 0.87, 'G4': 0.87, 'G5': 0.54, 'G6': 0.78, 'G7': 0.83, 'G8': 0.76, 'G9': 0.93}
+modello  seme 4 ridisposto: pagella 9 riga False | AUC e231 0.871 e266 0.960 solo sacco 0.949 | {'G1': 0.7, 'G2': 0.75, 'G3': 0.87, 'G4': 0.78, 'G5': 0.47, 'G6': 0.79, 'G7': 0.71, 'G8': 0.7, 'G9': 0.92}
+{"v5 originale": [0.812, 0.918, 0.794], "v5 ridisposto": [0.797, 0.842, 0.794], "modello originale": [0.932, 0.989, 0.959], "modello ridisposto": [0.894, 0.968, 0.959]}

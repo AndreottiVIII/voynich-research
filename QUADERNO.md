@@ -7714,3 +7714,38 @@ Preregistrato (`preregistrazioni/e334.md`).
 - **Lettura:** -*ey* cresce scendendo nella pagina ma non si accumula da una pagina all'altra: è legato alla posizione
   verticale, come l'accorciarsi delle righe (e322), forse all'impaginazione. La strada "orologio" per ricostruire
   l'ordine di scrittura si chiude qui.
+
+## 3/10/2026 — vz: e402, il sacco di pagina è il muro: v5 0,79 e modello del Voynich 0,96 guardando solo quali parole stanno nella pagina
+
+Chat del voynichizzatore. Preregistrato (`preregistrazioni/e402.md`): corpo della v5 e modello del Voynich (seconda
+forma tarata), semi 1–4; testo originale e testo con le parole di ogni pagina ridisposte dal modello dell'e401b; in
+più l'AUC del **solo sacco** (giudice dell'e266 sulle caratteristiche che non dipendono dall'ordine: G1, G2, G3, JSD
+pagina-manoscritto). Risultati in `risultati/e402_sacco_generatori.md`.
+
+| testo | AUC e231 | AUC e266 | prevista (e266) | solo sacco | pagella | G3 | G8 | G9 |
+|---|---|---|---|---|---|---|---|---|
+| v5 originale | 0,812 | 0,918 | 0,90–0,94 | **0,794** | 16,5/18 | 0,83 | 0,87 | 0,60 |
+| v5 ridisposta | 0,797 | **0,842** | 0,84–0,92 | 0,794 | 13,5/18 | 0,83 | 0,67 | 0,67 |
+| modello originale | 0,932 | 0,989 | 0,97–1,00 | **0,959** | 7,5/18 | 0,89 | 0,77 | 0,93 |
+| modello ridisposto | 0,894 | 0,968 | 0,90–0,97 | 0,959 | 9,0/18 | 0,89 | 0,73 | 0,92 |
+| per confronto: sacco vero ridisposto (e401b) | 0,533 | 0,659 | | 0,500 | 14,8/18 | 0,50 | 0,64 | 0,64 |
+
+- **Le previsioni tornano** (solo sacco della v5 0,794 contro 0,80–0,88 previsto; del modello 0,959, un filo sopra
+  0,88–0,95).
+- **Il muro è il sacco.** Con il sacco vero la disposizione dà 0,53 / 0,66; con il sacco della v5 0,80 / 0,84; con
+  quello del modello 0,89 / 0,97. Il solo sacco della v5 vale 0,794: quasi tutto il suo 0,81 dell'e231.
+- **Ridisporre la v5** abbassa il giudice forte di 0,076 (G8, prime righe: da 0,87 a 0,67) e quasi niente l'altro; ma
+  costa pagella (16,5 → 13,5: la disposizione nuova non ha concordanza delle desinenze, formule, verticale, scelte
+  di riga, che la v5 aveva).
+- **Che cosa tradisce il sacco della v5** (caratteristiche pesanti): pagine troppo ripetitive (tipi su parole 0,681
+  contro 0,756; uniche nella pagina 0,549 contro 0,636), lunghezze troppo disperse (1,664 contro 1,579) e parole in
+  media troppo corte (4,16 contro 4,29), meno parole uniche nel libro (12,8% contro 14,6%).
+- **Che cosa tradisce il sacco del modello:** pagine troppo "medie" (JSD pagina-manoscritto 0,013 contro 0,040: G9
+  0,93), parole troppo lunghe (4,56) e disperse (1,71).
+- **Esito secondo la preregistrazione:** la base migliore per il sacco è quella della v5 (0,794), ma è a 0,79 ≈ 0,80:
+  "il sacco è il muro e si lavora lì". La disposizione dell'e401b migliora il giudice forte di almeno 0,03 su entrambi
+  i generatori: resta come ultimo stadio, sapendo che per la pagella va completata.
+- **Prossimo passo:** costruire il sacco un pezzo alla volta, come per la disposizione, misurando ogni pezzo con il
+  "solo sacco" e il resto preso dal vero. Primo pezzo (e403): le **parole nuove** (il 14,6% delle parole di una pagina
+  compare una volta sola in tutto il libro): si sostituiscono solo quelle con parole inventate da più generatori di
+  forme, e si vede quale non si fa riconoscere.

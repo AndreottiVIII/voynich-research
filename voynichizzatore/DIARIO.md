@@ -167,3 +167,27 @@ Risultati nel QUADERNO (voce "vz: e401b"). Regolazione convergita (pesi: bordi 0
 - Il problema è ora diviso in due: la **disposizione** è capita per i giudici (non per la pagella); il **sacco di pagina** (quali parole in ogni pagina) è tutto da fare ed è il passo che trasforma il controllo in un generatore.
 
 - Prossimi passi, in ordine: (1) e402: sacco di pagina fatto dal modello + questa disposizione, per vedere quanto costa il solo sacco; (2) ordine delle righe (G9) e materie di pagella perse; (3) nascondiglio (0,63 da solo); (4) banco e293 ai semi 7–9 quando c'è un generatore intero.
+
+**21:48 — e402 lanciato** (coda `vz-sacco`, 9 processi; preregistrazione `preregistrazioni/e402.md`). Misura il sacco di pagina dei due generatori esistenti (v5 e `modello.genera`), originali e ridisposti con i pesi dell'e401b, più l'AUC del solo sacco (G1, G2, G3, JSD pagina-manoscritto). Previsioni: v5 ridisposta 0,84–0,92 (solo sacco 0,80–0,88); modello ridisposto 0,90–0,97 (solo sacco 0,88–0,95). `disposizione.py` ora dà l'affinità anche alle parole che non sono nel Voynich (`conosci`).
+
+## 3/10/2026, 22:00 — e402 finito: il muro è il sacco
+
+
+
+Risultati nel QUADERNO (voce "vz: e402"). Solo sacco: v5 **0,794**, modello **0,959** (sacco vero: 0,500). v5 ridisposta 0,797 / 0,842 (originale 0,812 / 0,918), ma la pagella scende da 16,5 a 13,5. Il sacco della v5 è troppo ripetitivo (tipi su parole 0,681 contro 0,756), con parole troppo corte e disperse; quello del modello ha pagine troppo medie (JSD 0,013 contro 0,040) e parole troppo lunghe.
+
+
+
+**Decisione:** costruire il sacco un pezzo alla volta, misurando con il "solo sacco" (ciclo corto: non serve né disposizione né pagella). Pezzi previsti: (1) parole nuove, e403; (2) ripetizione nella pagina e famiglie di varianti; (3) carattere della pagina (profilo dei segni, pagine vicine); poi sacco intero + disposizione, e solo allora pagella e banco.
+
+
+
+### Dove siamo (3/10, 22:00)
+
+
+
+- Fatti e pubblicati: e400, e401, e401b, e402.
+
+- In preparazione: e403 (parole nuove: sostituire solo le parole uniche nel libro con parole inventate da più generatori di forme).
+
+- In sospeso: ordine delle righe (G9 metà pagina), materie di pagella perse dalla disposizione, nascondiglio (0,63), banco e293.
