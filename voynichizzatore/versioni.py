@@ -5,7 +5,7 @@ di prova (e293).
 
 Parametri del corpo: rip, phi, sigma_post, pi_post, beta, eps, vsim, omega, rho, tau, errori (vedi corpo2/3/4 ed e297);
 classi, circola, chiave, max_rara, posizione, vicine (ritocchi dopo la generazione, corpo5); lam_fin, lam_pre, lam_cl (bordi legati e classi concordi nella riga, corpo6); delta, alfa (parole di base dal lessico
-globale; peso delle parole della pagina, e232).
+globale; peso delle parole della pagina, e232); galli_su, galli_giu (p/f nelle prime righe, corpo5.galli_prime).
 """
 import os, sys
 from collections import OrderedDict
@@ -50,6 +50,9 @@ def corpo(parametri, seme):
         corpo5.CHIAVE, corpo5.MAX_RARA = x.get('chiave', 'stretta'), x.get('max_rara', 5)
         corpo5.POSIZIONE, corpo5.VICINE = x.get('posizione', False), x.get('vicine', 0)
         rr = corpo5.circola(corpo5.classi_riga(rr, x.get('classi', 0.0), seme), x.get('circola', 0.0), seme)
+    if x.get('galli_su') or x.get('galli_giu'):
+        import corpo5
+        rr = corpo5.galli_prime(rr, x.get('galli_su', 0.0), x.get('galli_giu', 0.0), seme)
     return rr
 
 

@@ -138,3 +138,35 @@ def classi_riga(rr, f, seme):
             nuova.append(w)
         out.append((p, ini, nuova))
     return out
+
+
+GALLI_SU = {'k': 'p', 't': 'f', 'ckh': 'cph', 'cth': 'cfh'}
+GALLI_GIU = {v: k for k, v in GALLI_SU.items()}
+QUOTE_SU = {'k': 0.27, 't': 0.14, 'ckh': 0.27, 'cth': 0.14}
+
+
+def galli_prime(rr, su, giu, seme):
+    """Le prime righe dei paragrafi del Voynich hanno p e f venti volte piu' delle altre (0,033 contro 0,0017 dei segni; e266,
+    G8); il generatore le sparge (0,017 contro 0,0056). Nelle prime righe un gallows k/t (anche ckh/cth) diventa p/f con
+    probabilita' su * QUOTE_SU (k 0,27, t 0,14: le quote che portano le prime righe ai valori del Voynich); nelle altre righe
+    un p/f diventa k/t con probabilita' giu. Con su 0 e giu 0 il testo resta identico."""
+    if not su and not giu:
+        return rr
+    import e206_segni_facoltativi as e206
+    D = e206.D
+    rnd = random.Random(seme * 7907 + 3)
+    out = []
+    for p, ini, ps in rr:
+        nuova = []
+        for w in ps:
+            if trascrizione.pulita(w):
+                u = list(D(w))
+                for i, g in enumerate(u):
+                    if ini and g in GALLI_SU and rnd.random() < su * QUOTE_SU[g]:
+                        u[i] = GALLI_SU[g]
+                    elif not ini and g in GALLI_GIU and rnd.random() < giu:
+                        u[i] = GALLI_GIU[g]
+                w = ''.join(u)
+            nuova.append(w)
+        out.append((p, ini, nuova))
+    return out
