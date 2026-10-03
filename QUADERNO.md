@@ -9767,3 +9767,15 @@ Preregistrato (`preregistrazioni/e3a15.md`). Righe interne della pagina; celle (
   delle righe in basso: scendendo nella stessa pagina, a parità di questi fattori, lo scriba usa di più -*ey*.
 - Resta da capire perché. Ipotesi da provare: legata alla ripresa (e370: più forte nelle parole riprese) o alla
   distanza dalla prima riga del paragrafo invece che della pagina.
+
+## 4/10/2026 (notte) — e3a16: la regola di raccordo ha la stessa forza in tutte le sessioni
+
+Preregistrato (`preregistrazioni/e3a16.md`). Δ = P(*qo* | parola prima in -*y*/-*o*/-*d*) − P(*qo* | in -*n*/-*r*/-*s*/-*m*)
+per bifoglio; dispersione degli scarti dallo strato contro un nullo che rimescola gli esiti fra bifogli dello stesso
+strato e della stessa classe.
+
+- 30 bifogli in 6 strati; Δ da +0,02 a +0,60 (mediana +0,32). Dispersione 0,0060 contro 0,0084 del nullo (rapporto
+  0,72), z −0,8.
+- **Esito preregistrato: uniforme fra le sessioni, come una regola fissa.** Le differenze fra bifogli sono quelle del
+  caso. La regola si comporta come gli errori (uniformi, e357) e non come l'inventiva (che varia 4 volte il caso,
+  e376): è una regola del sistema, non un'abitudine della sessione.
