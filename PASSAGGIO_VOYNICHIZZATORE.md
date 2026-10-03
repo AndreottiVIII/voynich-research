@@ -300,3 +300,8 @@ Dettagli e numeri nel `QUADERNO.md` (e373–e3a02); tutto replicato con la trasc
   sessioni variano indipendenti (e373).
 - **Niente locuzioni:** oltre la giuntura le parole non preferiscono vicine precise (e375). Il generatore non deve
   avere coppie di parole fisse.
+- **Margine sinistro** (e3a25–e3a33): una riga evita di cominciare come la riga subito sopra, soprattutto con *qo*- e
+  *o*- (due *qo*- uno sotto l'altro: 17 contro 67 attese), meno con *d*-, *ch*-, *y*-. A inizio riga *qo*- è altrimenti
+  la forma normale (e393). Al margine destro e nelle colonne interne niente del genere.
+- **Testi in cerchio ed etichette** usano *o*-, quasi mai *qo*- (2–5%); la giuntura nei cerchi c'è ma è fatta d'altro
+  (-*r* *a*-, -*s* *a*-, -*y* *d*-).
