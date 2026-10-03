@@ -1,0 +1,17 @@
+scelta p 0.00 seme 2: pagella 16 riga False mancano ['gradiente', 'formule'] | R rare 49.1 | AUC e266 0.926
+scelta p 0.01 seme 1: pagella 17 riga True mancano ['formule'] | R rare 56.4 | AUC e266 0.940
+scelta p 0.02 seme 1: pagella 18 riga True mancano [] | R rare 56.5 | AUC e266 0.936
+scelta p 0.02 seme 2: pagella 16 riga False mancano ['gradiente', 'formule'] | R rare 49.3 | AUC e266 0.924
+scelta p 0.00 seme 1: pagella 18 riga True mancano [] | R rare 56.0 | AUC e266 0.937
+scelta p 0.01 seme 2: pagella 16 riga False mancano ['gradiente', 'formule'] | R rare 48.1 | AUC e266 0.927
+scelta p 0.04 seme 1: pagella 18 riga True mancano [] | R rare 55.1 | AUC e266 0.935
+scelta p 0.04 seme 2: pagella 16 riga False mancano ['gradiente', 'formule'] | R rare 47.0 | AUC e266 0.929
+scelta p 0.08 seme 1: pagella 18 riga True mancano [] | R rare 53.2 | AUC e266 0.944
+scelta p 0.08 seme 2: pagella 14 riga False mancano ['gradiente', 'legame', 'curva piatta', 'formule'] | R rare 47.3 | AUC e266 0.928
+verifica p 0.00 seme 9: pagella 18 riga True mancano [] | R rare 48.0 | AUC e266 0.926 e231 0.816
+verifica p 0.04 seme 7: pagella 17 riga True mancano ['profilo pagina'] | R rare 51.3 | AUC e266 0.946 e231 0.860
+verifica p 0.04 seme 9: pagella 17 riga True mancano ['curva piatta'] | R rare 46.3 | AUC e266 0.926 e231 0.816
+verifica p 0.04 seme 8: pagella 17 riga True mancano ['omogeneità'] | R rare 50.7 | AUC e266 0.940 e231 0.828
+verifica p 0.00 seme 7: pagella 18 riga True mancano [] | R rare 52.9 | AUC e266 0.937 e231 0.855
+verifica p 0.00 seme 8: pagella 17 riga True mancano ['omogeneità'] | R rare 50.3 | AUC e266 0.937 e231 0.828
+non utili

@@ -1,0 +1,132 @@
+{
+ "validita_identico_e288": true,
+ "ricerca": [
+  {
+   "p": 0.0,
+   "pagella": 34,
+   "riga": false,
+   "R": 52.54621504621504,
+   "AUC_e266": 0.9314282913439859
+  },
+  {
+   "p": 0.01,
+   "pagella": 33,
+   "riga": false,
+   "R": 52.21127445869392,
+   "AUC_e266": 0.9335334771100872
+  },
+  {
+   "p": 0.02,
+   "pagella": 34,
+   "riga": false,
+   "R": 52.862018012946805,
+   "AUC_e266": 0.9301661601803743
+  },
+  {
+   "p": 0.04,
+   "pagella": 34,
+   "riga": false,
+   "R": 51.07590280936417,
+   "AUC_e266": 0.932276247426723
+  },
+  {
+   "p": 0.08,
+   "pagella": 32,
+   "riga": false,
+   "R": 50.24521562983101,
+   "AUC_e266": 0.9363493775120086
+  }
+ ],
+ "p_scelto": 0.04,
+ "verifica": {
+  "e288": [
+   {
+    "p": 0.0,
+    "seme": 7,
+    "pagella": 18,
+    "riga": true,
+    "mancano": [],
+    "R_parole_rare": 52.94855708908407,
+    "AUC_e266": 0.9373394765219096,
+    "AUC_e231": 0.8553230075482794
+   },
+   {
+    "p": 0.0,
+    "seme": 8,
+    "pagella": 17,
+    "riga": true,
+    "mancano": [
+     "omogeneità"
+    ],
+    "R_parole_rare": 50.28184892897407,
+    "AUC_e266": 0.9365993530046074,
+    "AUC_e231": 0.8279776492500736
+   },
+   {
+    "p": 0.0,
+    "seme": 9,
+    "pagella": 18,
+    "riga": true,
+    "mancano": [],
+    "R_parole_rare": 47.980997624703086,
+    "AUC_e266": 0.9256543476129793,
+    "AUC_e231": 0.8163121262621311
+   }
+  ],
+  "scelta": [
+   {
+    "p": 0.04,
+    "seme": 7,
+    "pagella": 17,
+    "riga": true,
+    "mancano": [
+     "profilo pagina"
+    ],
+    "R_parole_rare": 51.29469790382244,
+    "AUC_e266": 0.9458484462307617,
+    "AUC_e231": 0.8603225174002549
+   },
+   {
+    "p": 0.04,
+    "seme": 8,
+    "pagella": 17,
+    "riga": true,
+    "mancano": [
+     "omogeneità"
+    ],
+    "R_parole_rare": 50.68181818181817,
+    "AUC_e266": 0.9400352906577787,
+    "AUC_e231": 0.827742378198216
+   },
+   {
+    "p": 0.04,
+    "seme": 9,
+    "pagella": 17,
+    "riga": true,
+    "mancano": [
+     "curva piatta"
+    ],
+    "R_parole_rare": 46.260069044879174,
+    "AUC_e266": 0.9256396431722379,
+    "AUC_e231": 0.8157582589942163
+   }
+  ]
+ },
+ "medie": {
+  "e288": {
+   "pagella_somma": 53,
+   "semi_con_riga": 3,
+   "R_media": 50.40380121425374,
+   "AUC_e231_media": 0.8332042610201613,
+   "AUC_e266_media": 0.9331977257131654
+  },
+  "scelta": {
+   "pagella_somma": 51,
+   "semi_con_riga": 3,
+   "R_media": 49.41219504350659,
+   "AUC_e231_media": 0.8346077181975624,
+   "AUC_e266_media": 0.9371744600202594
+  }
+ },
+ "esito": "non utili"
+}
