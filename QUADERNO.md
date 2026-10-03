@@ -7542,3 +7542,33 @@ Preregistrato (`preregistrazioni/e327.md`), controllo dell'e326.
 - **Lettura, con una cautela:** lo "stato" ha almeno tre livelli: fascicolo (posizione sull'asse, e314), bifoglio
   (profilo, e308), paragrafo (e327). Due paragrafi possono differire anche perché parlano di cose diverse
   (argomento): questa prova non separa "stato dello scriba" da "argomento del paragrafo".
+
+## 3/10/2026 — e328, e329, e330: la variazione sta a tutti i livelli, soprattutto nel fascicolo; i paragrafi cambiano sia argomento sia abitudine; continuità girando il foglio incerta
+
+Preregistrato (`preregistrazioni/e328.md`).
+
+- **e328** (2.482 righe interne): quota della varianza fra le righe spiegata da ogni livello, oltre il caso (eccesso;
+  tutti i livelli con z > 3 salvo dove detto):
+
+  | variabile | fascicolo | bifoglio | pagina | paragrafo | resto (riga) |
+  |---|---|---|---|---|---|
+  | finale -*y* | +0,155 | +0,077 | +0,049 | +0,056 | 0,51 |
+  | finale -*n* | +0,070 | +0,068 | +0,045 | +0,051 | 0,59 |
+  | segno *e* | **+0,266** | +0,107 | +0,074 | +0,054 | 0,37 |
+  | iniziale *qo*- | +0,181 | +0,033 | +0,043 | +0,041 | 0,55 |
+  | lunghezza media | +0,138 | +0,044 | +0,041 | +0,019 (z 2,6) | 0,59 |
+
+  **Esito: il livello con l'eccesso maggiore è sempre il fascicolo**, che qui comprende anche sezione e lingua; poi
+  bifoglio, pagina e paragrafo aggiungono ciascuno qualche punto percentuale. Metà circa della variazione resta fra una
+  riga e l'altra.
+- **e329** (82 coppie primo/ultimo paragrafo della stessa pagina):
+  - lessico normalizzato (tolte le 5 scelte di grafia): JSD 0,707 contro 0,673, **z 6,7**;
+  - grafia (le 5 scelte): 5,11 contro 4,04, **z 6,8**.
+  - **Esito preregistrato: argomento e abitudine.** Due paragrafi della stessa pagina differiscono sia per le parole
+    (forme normalizzate) sia per come si scelgono le varianti di grafia.
+- **e330:**
+  - fogli, ultimo paragrafo del recto e primo del verso più vicini dei due lontani: asse +1,27 (z 2,5), segni +0,016
+    (z 2,8). **Esito: incerto.**
+  - aperture (verso e recto seguente): z 0,9 e 0,0. **Esito: no.**
+  - **Lettura:** c'è un indizio di scrittura continua girando il foglio (mai fra fogli diversi), ma con 59 fogli non
+    supera la soglia.

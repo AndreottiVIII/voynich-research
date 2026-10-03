@@ -881,3 +881,10 @@ negativi; i numeri sono nei file di `risultati/`.
 - **Le etichette A/B di Currier sono confermate dal lessico** (e325: 107 su 107 nell'erbario). Unico disaccordo f58v
   (S, etichettata A, lessico B). Nelle pagine di passaggio le parole di A e di B si mescolano nelle stesse righe (e324,
   incerto).
+- **Dove sta la variazione** (e328): il fascicolo (con la sezione e la lingua che contiene) spiega la parte più grande
+  delle differenze fra righe (per il segno *e* il 27%); bifoglio, pagina e paragrafo aggiungono ciascuno qualche punto
+  percentuale; circa metà resta fra una riga e l'altra.
+- **Paragrafi della stessa pagina** (e329): differiscono sia nel lessico (forme normalizzate, z 6,7) sia nelle scelte di
+  grafia (z 6,8): cambiano argomento e abitudine insieme.
+- **Girando il foglio** (e330): l'ultimo paragrafo del recto somiglia un po' di più al primo del verso (z 2,5–2,8,
+  incerto); fra le pagine affiancate di fogli diversi nessun legame.
