@@ -45,6 +45,7 @@ def pezzi():
 def sacco_di(seme, x):
     s, _ = pezzi()
     s.FORME = dict(x['forme'])
+    s.POSIZIONALE = x.get('carattere') == 'posizionale'
     return s.genera(seme, theta=x['theta'], nuove='inventate', kappa=x['kappa'], posti=x.get('posti', 'modello'))
 
 

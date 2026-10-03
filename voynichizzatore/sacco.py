@@ -54,30 +54,37 @@ class Sacco:
     # --- carattere della pagina (e404b) ---
     ALFA = 50.0
 
+    POSIZIONALE = False     # e411: il carattere distingue il primo segno, l'ultimo e quelli in mezzo
+
     def _segni(self, parole):
         import misure
         if not hasattr(self, '_D'):
             self._D = misure.divisore(misure.GLIFI_EVA)
             self._cache_segni = {}
+            self._cache_pos = {}
         c = Counter()
         for w in parole:
             u = self._cache_segni.get(w)
             if u is None:
-                u = self._cache_segni[w] = Counter(self._D(w))
-            c.update(u)
+                d = self._D(w)
+                u = self._cache_segni[w] = Counter(d)
+                n = len(d)
+                self._cache_pos[w] = Counter((g, 'i' if j == 0 else ('f' if j == n - 1 else 'm')) for j, g in enumerate(d))
+            c.update(self._cache_pos[w] if self.POSIZIONALE else u)
         return c
 
     def carattere(self, p, rnd):
         """Scostamenti dei segni (logaritmo del rapporto con la sezione) di un'altra pagina vera, a caso, della stessa
         sezione e lingua; e il lessico di sezione della pagina p come (tipi, conteggi, segni per tipo)."""
-        if p not in self._car:
+        chiave = (p, self.POSIZIONALE)
+        if chiave not in self._car:
             cs = Counter(self.lessico[p])
             tipi = sorted(cs)
             self._segni(tipi)
             fs = self._segni(self.lessico[p])
             n = sum(fs.values())
-            self._car[p] = (tipi, [cs[w] for w in tipi], {g: x / n for g, x in fs.items()})
-        tipi, conti, fsez = self._car[p]
+            self._car[chiave] = (tipi, [cs[w] for w in tipi], {g: x / n for g, x in fs.items()})
+        tipi, conti, fsez = self._car[chiave]
         altre = [q for q in self.pagine if q != p and self.tipo[q] == self.tipo[p] and len(self.note[q]) >= 40]
         altre = altre or [q for q in self.pagine if q != p and len(self.note[q]) >= 40]
         q = altre[rnd.randrange(len(altre))]
@@ -88,7 +95,8 @@ class Sacco:
         return tipi, conti, delta
 
     def pesi_carattere(self, tipi, conti, delta, kappa):
-        pesi = [c * math.exp(kappa * sum(delta.get(g, 0.0) * k for g, k in self._cache_segni[w].items())) for w, c in zip(tipi, conti)]
+        cache = self._cache_pos if self.POSIZIONALE else self._cache_segni
+        pesi = [c * math.exp(kappa * sum(delta.get(g, 0.0) * k for g, k in cache[w].items())) for w, c in zip(tipi, conti)]
         return list(itertools.accumulate(pesi))
 
     FORME = {}      # argomenti di parole_nuove.FormeUniche (e405: comuni, quattro, forza)

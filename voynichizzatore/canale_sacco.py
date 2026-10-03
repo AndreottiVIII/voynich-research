@@ -111,6 +111,7 @@ def codifica(testo, chiave, versione='v9', parametri=None, verifica=True):
     x = parametri or json.load(open(pezzi.PARAMETRI % versione, encoding='utf-8'))
     s, d = pezzi.pezzi()
     s.FORME = dict(x['forme'])
+    s.POSIZIONALE = x.get('carattere') == 'posizionale'
     fu = s.forme()
     if testo is None:
         cifrati, riempitivo, nbyte = [], v0.flusso_chiave(600000, chiave), 0
@@ -170,6 +171,7 @@ def codifica(testo, chiave, versione='v9', parametri=None, verifica=True):
 def decodifica(righe, chiave, versione='v9', parametri=None):
     x = parametri or json.load(open(pezzi.PARAMETRI % versione, encoding='utf-8'))
     s, _ = pezzi.pezzi()
+    s.POSIZIONALE = x.get('carattere') == 'posizionale'
     per = OrderedDict()
     for p, _, ps in righe:
         per.setdefault(p, []).extend(ps)
