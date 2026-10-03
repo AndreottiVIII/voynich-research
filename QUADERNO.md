@@ -7929,3 +7929,48 @@ Preregistrato (`preregistrazioni/e340.md`), controllo dell'e338.
   - La "stessa colonna" invece, tolte la prima e l'ultima parola della riga, quasi sparisce (z 2,7). L'allineamento
     verticale dell'e338 veniva soprattutto dai bordi della riga, che hanno forme loro (e337). Lo scriba riprende parole
     dalle righe sopra, ma non dalla stessa posizione.
+
+## 3/10/2026 — vz: e404b, il carattere della pagina nei segni: le parole note non si distinguono più (solo sacco 0,48); generatore a pezzi a 0,711 / 0,813, pagella 14,5
+
+Chat del voynichizzatore. Preregistrato (`preregistrazioni/e404b.md`, con un'integrazione prima dell'esecuzione: θ e κ
+regolati insieme). Ogni pagina riceve gli scostamenti dei segni di **un'altra** pagina vera, a caso, della stessa
+sezione e lingua; le parole note si pescano dal lessico di sezione con peso exp(κ · scostamenti). Semi 1–4. Risultati
+in `risultati/e404b_carattere_pagina.md`.
+
+- **Regolazione sul pannello:** κ = 0,708, θ = 2280 (ripetizione quasi spenta); JSD pagina-manoscritto 0,0406 (Voynich
+  0,0402), tipi su parole 0,747 (0,756): converge (scarto massimo 1,2%).
+
+| strato | solo sacco | previsto | G1 | G2 | G3 | JSD |
+|---|---|---|---|---|---|---|
+| C2, parole note con il carattere, parole nuove vere | **0,482** | 0,58–0,70 | 0,47 | 0,41 | 0,64 | 0,50 |
+| C4, anche le parole nuove inventate | 0,645 | 0,64–0,76 | 0,63 | 0,57 | 0,63 | 0,61 |
+| per confronto: K2 e K4 dell'e404 (senza carattere) | 0,777 e 0,756 | | | | | |
+
+- **C2 meglio della previsione: 0,48, cioè al pavimento.** Con il carattere di pagina le parole note di una pagina
+  generata non si distinguono da quelle di una pagina vera, per quanto vedono questi giudici. Tre ingredienti: il
+  lessico della sezione e lingua, un carattere nei segni preso da un'altra pagina, quasi nessuna ripetizione di parole.
+- **Lettura per la ricerca sul Voynich.** L'identità di una pagina, vista da questi giudici, è: sezione e lingua, più
+  un profilo dei segni proprio (quanto *sh* contro *ch*, quanto *k* contro *t*, e così via), che un'altra pagina della
+  stessa sezione può prestare senza che si veda. Non serve nessuna parola "propria" della pagina, a parte le parole
+  nuove. È coerente con le abitudini di grafia di pagina (e145, e261) e con l'e296 (nessuna parola rara è "della
+  pagina").
+- **Il costo che resta nel sacco sono le parole nuove:** C4 − C2 = 0,16 (soglia preregistrata 0,08). In C4 la JSD
+  sale troppo (0,050 contro 0,040) e mancano i segni rari (*f* 0,0018 contro 0,0026, *b*). **Capito il motivo:** la
+  scelta delle parole nuove "secondo il profilo della pagina" penalizza ogni segno che la pagina non ha fra le parole
+  note (peso lisciato −2,7 per segno assente), cioè proprio i segni rari che le parole nuove devono portare, e spinge
+  troppo sui segni comuni. È un difetto di costruzione mio, non una proprietà del testo.
+- **C5, generatore intero a pezzi** (di vero: impaginazione e posti delle parole nuove):
+
+  | | AUC e231 | AUC e266 | pagella | estese | G3 | G4 | G6 | G8 | G9 |
+  |---|---|---|---|---|---|---|---|---|---|
+  | C5 | **0,711** | **0,813** | **14,5/18** | 4,0/8 | 0,63 | 0,68 | 0,59 | 0,68 | 0,76 |
+  | previsto | 0,62–0,74 | 0,74–0,85 | | | | | | | |
+  | K5 (e404) | 0,716 | 0,857 | 11,5/18 | 4,8/8 | 0,70 | 0,76 | 0,73 | 0,66 | 0,75 |
+  | v5 | 0,812 | 0,918 | 16,5/18 | 3,0/8 | 0,83 | 0,61 | 0,71 | 0,87 | 0,60 |
+
+  Il carattere recupera tre materie di pagella (da 11,5 a 14,5) e abbassa il giudice forte di 0,044. Restano, dalle
+  caratteristiche pesanti: unioni attestate 6,8% contro 9,2% (pesi della disposizione regolati sul sacco vero), JSD
+  pagina-manoscritto troppo alta per le parole nuove, differenza fra le due metà della pagina (0,031 contro 0,050:
+  ordine delle righe), coppie viste altrove 24% contro 22%.
+- **Esito secondo la preregistrazione:** C2 ≤ 0,65 → il carattere era il pezzo mancante delle parole note; C4 − C2 >
+  0,08 → passo seguente: le parole nuove (modello dei segni più stretto e correzione della scelta per profilo).

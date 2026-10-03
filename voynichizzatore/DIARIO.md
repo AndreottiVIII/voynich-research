@@ -247,3 +247,31 @@ Risultati nel QUADERNO (voce "vz: e404"). θ = 765 (ripetizione quasi spenta). S
 - In preparazione: e404b (carattere della pagina).
 
 - Dopo: regolare di nuovo i pesi della disposizione sul sacco generato; quali posti hanno una parola nuova; pagella (molte materie perse); nascondiglio; banco e293.
+
+**22:15 — e404b lanciato** (coda `vz-car`). Nota: nella prova di costruzione il carattere abbassa i tipi su parole (0,727 con κ 0,75), quindi θ e κ si regolano insieme (integrazione alla preregistrazione, committata prima dell'esecuzione). Nota di riproducibilità: `sacco.genera` ora inventa le parole nuove dopo le parole note della pagina; l'e404 è stato eseguito con la versione precedente (commit nella sua provenienza). Indicazione di Davide (22:25): avere chiaro come fare, non girare a vuoto.
+
+## 3/10/2026, 22:25 — e404b finito: le parole note sono a posto; mandato della notte
+
+
+
+Risultati nel QUADERNO (voce "vz: e404b"). κ = 0,708, θ = 2280. **C2 0,482** (parole note con carattere: al pavimento), C4 0,645 (le parole nuove sono il costo che resta), **C5 intero 0,711 / 0,813, pagella 14,5/18**. Difetto mio capito: la scelta per profilo delle parole nuove penalizza i segni che la pagina non ha fra le parole note, cioè i segni rari.
+
+
+
+**Mandato di Davide per la notte (22:20):** andare avanti in autonomia; per domattina vuole un generatore che funzioni. Gli ho detto che cosa prometto: un generatore intero testo → manoscritto → testo fatto con i pezzi nuovi, verificato al banco sui semi 7–9, con i numeri onesti; non prometto 0,6 su tutto.
+
+
+
+**Come riusare il sacco:** `sacco.Sacco(rr, tipo).genera(seme, theta=2280, nuove='inventate', kappa=0.708)`, poi `disposizione.Disposizione(rr).disponi(testo, seme, 'D3', pesi=...)`.
+
+
+
+### Dove siamo (3/10, 22:25)
+
+
+
+- Fatti e pubblicati: e400–e404b.
+
+- Pezzi: disposizione (ok per i giudici); parole note (ok: 0,48); parole nuove (0,64, da migliorare: prossimo passo e405); posti delle parole nuove (ancora veri).
+
+- Piano della notte: e405 parole nuove (profilo solo sui segni comuni, modello a quattro segni, forza regolata sul pannello) → e406 posti delle parole nuove e pesi della disposizione regolati sul sacco generato → versione nel registro e banco e293 ai semi 7–9 con il messaggio → pagella (materie perse) → nascondiglio.
