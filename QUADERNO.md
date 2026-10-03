@@ -7651,3 +7651,42 @@ coppia identica; i quattro pesi dei legami regolati **sul pannello** (seme 11), 
 - **Lettura per la ricerca sul Voynich.** L'ordine delle parole nella riga del Voynich, visto da questi giudici, è
   descritto da: una "grammatica" di forme per i posti della riga, un legame debole fra bordi di parole vicine, una
   tendenza a scrivere vicine due parole che unite ne danno una terza, e l'evitamento della parola identica accanto.
+
+## 3/10/2026 — e331, e332, e333: girando il foglio ancora incerto; gli argomenti non sono locali; -ey cresce scendendo nella pagina
+
+Preregistrato (`preregistrazioni/e331.md`).
+
+- **e331** (lontana − vicina; z con inversione del segno):
+
+  | prova | coppie | segni (z) | asse (z) | lessico (z) |
+  |---|---|---|---|---|
+  | fogli, blocchi di 4 righe | 82 | +0,015 (2,2) | +0,95 (1,7) | +0,032 (2,2) |
+  | aperture, blocchi di 4 | 80 | −0,005 (−0,8) | +0,54 (0,7) | −0,008 (−0,6) |
+  | fogli, blocchi di 8 | 30 | +0,011 (1,8) | +0,34 (0,4) | +0,023 (1,0) |
+  | aperture, blocchi di 8 | 23 | +0,013 (1,4) | +1,52 (1,4) | +0,014 (0,7) |
+
+  **Esito preregistrato: incerto.** Con l'e330 è la seconda volta che i fogli danno z intorno a 2 nella direzione della
+  continuità, e le aperture intorno a 0. Le due prove usano quasi gli stessi fogli, quindi non si sommano. L'indizio
+  resta, la prova no.
+- **e332** (erbario in lingua A, 178 paragrafi, 182 forme normalizzate, LDA con 6 argomenti):
+  - distanza media nel libro fra paragrafi con lo stesso argomento 47,4 pagine contro 47,8 del nullo, z −0,6;
+  - ogni argomento è dominante in 6–8 fascicoli.
+  - **Esito preregistrato: argomenti che tornano lontano.**
+  - **Cautela scritta dopo il risultato:** la prova non controlla se questi "argomenti" siano reali o rumore. Con 178
+    paragrafi e 182 forme l'LDA trova sempre 6 gruppi, e gruppi casuali sarebbero anch'essi sparsi nel libro. L'e329
+    dice che i paragrafi differiscono davvero nel lessico; qui si vede che quelle differenze non si raccolgono in un
+    periodo del libro. Per dire che ci sono argomenti ricorrenti serve un confronto con l'LDA su paragrafi rimescolati.
+- **e333** (metà bassa − metà alta delle righe interne della pagina):
+
+  | misura | pagine | differenza | z |
+  |---|---|---|---|
+  | **-*dy*/-*ey*** (quota di -*ey*) | 65 | **+0,090** | **3,2** |
+  | -*l*/-*r* | 77 | −0,061 | −2,7 |
+  | *k*/*t* | 80 | −0,046 | −2,3 |
+  | *ch*/*sh* | 80 | +0,025 | 1,7 |
+  | punteggio dell'asse | 80 | −0,62 | −1,5 |
+  | *o*-/*qo*- | 68 | −0,004 | −0,1 |
+
+  **Esito preregistrato: direzione costante per -*dy*/-*ey*.** Scendendo nella pagina la quota di -*ey* rispetto a
+  -*dy* cresce in modo coerente da pagina a pagina. Le altre scelte tendono a cambiare anche loro (−*r* e *t* in calo)
+  ma sotto la soglia. Se la pagina si scriveva dall'alto in basso, -*ey* aumenta con il tempo dentro la pagina.

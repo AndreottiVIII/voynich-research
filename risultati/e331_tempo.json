@@ -1,0 +1,223 @@
+{
+ "e331": {
+  "prove": {
+   "fogli, blocchi di 4": {
+    "coppie": 82,
+    "lontana_meno_vicina_segni": 0.014950400357966116,
+    "z_segni": 2.179484957431405,
+    "lontana_meno_vicina_asse": 0.9534156911871394,
+    "z_asse": 1.7008411519639326,
+    "lontana_meno_vicina_lessico": 0.03235270316012909,
+    "z_lessico": 2.159144366914433
+   },
+   "aperture, blocchi di 4": {
+    "coppie": 80,
+    "lontana_meno_vicina_segni": -0.005301738805415804,
+    "z_segni": -0.7787863324181292,
+    "lontana_meno_vicina_asse": 0.5427104977640678,
+    "z_asse": 0.7011905105853955,
+    "lontana_meno_vicina_lessico": -0.008137104751848838,
+    "z_lessico": -0.6395617092720695
+   },
+   "fogli, blocchi di 8": {
+    "coppie": 30,
+    "lontana_meno_vicina_segni": 0.010779648136180545,
+    "z_segni": 1.8329244383911125,
+    "lontana_meno_vicina_asse": 0.3367783648142424,
+    "z_asse": 0.4153194718696708,
+    "lontana_meno_vicina_lessico": 0.02276094831732749,
+    "z_lessico": 0.9737865773216813
+   },
+   "aperture, blocchi di 8": {
+    "coppie": 23,
+    "lontana_meno_vicina_segni": 0.012798751494960391,
+    "z_segni": 1.409604391879647,
+    "lontana_meno_vicina_asse": 1.5227679285100277,
+    "z_asse": 1.3896604619815827,
+    "lontana_meno_vicina_lessico": 0.013814178750984377,
+    "z_lessico": 0.6789286595852766
+   }
+  },
+  "esito": "incerto"
+ },
+ "e332": {
+  "paragrafi": 178,
+  "vocabolario": 182,
+  "distanza_media_stesso_argomento": 47.368788819875775,
+  "nullo": 47.75058117258626,
+  "z": -0.6096589467774262,
+  "esito": "argomenti che tornano lontano",
+  "argomenti": {
+   "0": {
+    "paragrafi": 32,
+    "parole": [
+     "okeol",
+     "okedy",
+     "chodaiin",
+     "odaiin",
+     "r",
+     "odal",
+     "ckhdy",
+     "al"
+    ],
+    "fascicoli": {
+     "A": 8,
+     "C": 10,
+     "D": 2,
+     "E": 1,
+     "F": 2,
+     "G": 4,
+     "O": 4,
+     "Q": 1
+    }
+   },
+   "1": {
+    "paragrafi": 31,
+    "parole": [
+     "okchdy",
+     "okcho",
+     "dchy",
+     "r",
+     "ykchol",
+     "ckho",
+     "kchdy",
+     "ckhdy"
+    ],
+    "fascicoli": {
+     "A": 6,
+     "B": 1,
+     "C": 4,
+     "D": 6,
+     "E": 4,
+     "F": 3,
+     "G": 4,
+     "Q": 3
+    }
+   },
+   "2": {
+    "paragrafi": 29,
+    "parole": [
+     "ykchy",
+     "chckhy",
+     "dam",
+     "ykol",
+     "al",
+     "dchy",
+     "yky",
+     "kal"
+    ],
+    "fascicoli": {
+     "A": 4,
+     "B": 8,
+     "C": 8,
+     "D": 1,
+     "E": 2,
+     "F": 5,
+     "G": 1
+    }
+   },
+   "3": {
+    "paragrafi": 21,
+    "parole": [
+     "chockhy",
+     "okcho",
+     "chokchy",
+     "oaiin",
+     "chain",
+     "chan",
+     "chkaiin",
+     "ykaiin"
+    ],
+    "fascicoli": {
+     "A": 1,
+     "B": 4,
+     "C": 2,
+     "D": 4,
+     "E": 3,
+     "F": 3,
+     "G": 4
+    }
+   },
+   "4": {
+    "paragrafi": 30,
+    "parole": [
+     "saiin",
+     "ckhdy",
+     "chedy",
+     "sy",
+     "cheo",
+     "chokchy",
+     "okchal",
+     "chckhy"
+    ],
+    "fascicoli": {
+     "A": 7,
+     "B": 1,
+     "C": 6,
+     "D": 1,
+     "E": 1,
+     "F": 5,
+     "G": 3,
+     "O": 6
+    }
+   },
+   "5": {
+    "paragrafi": 35,
+    "parole": [
+     "ky",
+     "d",
+     "kcho",
+     "aiin",
+     "okedy",
+     "chckhy",
+     "dair",
+     "l"
+    ],
+    "fascicoli": {
+     "A": 5,
+     "B": 11,
+     "C": 3,
+     "D": 6,
+     "E": 4,
+     "F": 2,
+     "G": 4
+    }
+   }
+  }
+ },
+ "e333": {
+  "misure": {
+   "ch/sh": {
+    "pagine": 80,
+    "bassa_meno_alta": 0.024912810434359497,
+    "z": 1.6750013231498395
+   },
+   "k/t (gallows)": {
+    "pagine": 80,
+    "bassa_meno_alta": -0.04599417986517353,
+    "z": -2.33473092681412
+   },
+   "-l/-r": {
+    "pagine": 77,
+    "bassa_meno_alta": -0.06120294135069237,
+    "z": -2.661842208584139
+   },
+   "o-/qo-": {
+    "pagine": 68,
+    "bassa_meno_alta": -0.0039050960643988012,
+    "z": -0.1468606861573243
+   },
+   "-dy/-ey": {
+    "pagine": 65,
+    "bassa_meno_alta": 0.08985742783421298,
+    "z": 3.1773220523208687
+   },
+   "punteggio dell'asse": {
+    "pagine": 80,
+    "bassa_meno_alta": -0.6187024033142658,
+    "z": -1.513282884920745
+   }
+  },
+  "esito": "direzione costante per: -dy/-ey"
+ }
+}
