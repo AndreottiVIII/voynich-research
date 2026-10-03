@@ -2,6 +2,20 @@
 
 Fotografia aggiornata a mano a ogni cambio importante. I dettagli e i numeri sono nel `QUADERNO.md`.
 
+## Decisione di Davide del 3/10, 19:45: il voynichizzatore passa a un'altra chat
+
+- **Questa chat fa solo ricerca sul Voynich**, non più modellazione né generatore.
+- Il voynichizzatore (generatore, modello, nascondiglio, banco e293) passa a una nuova chat. Il passaggio di consegne
+  completo è in `PASSAGGIO_VOYNICHIZZATORE.md`: obiettivo, stato verificato (migliore: v5), proprietà del testo da
+  riprodurre, lezioni di metodo, mappa del codice, materiale da leggere.
+- **Convivenza:**
+  - la ricerca usa gli esperimenti e307–e399 e fino a 6 processi;
+  - il voynichizzatore usa e400–e499 e fino a 10 processi;
+  - QUADERNO e finestra di stato in comune, solo in aggiunta; le righe del voynichizzatore iniziano con `vz:`.
+- L'indicazione "migliorare il voynichizzatore in automatico" (sezione delle 17:15) vale ora per l'altra chat.
+- **Per la ricerca la domanda aperta più utile** viene dal modello del Voynich: che cosa rende ogni pagina diversa
+  dalle altre (tipi di pagina, ordine, mani, lingue).
+
 ## 3/10/2026 — trasloco su un PC più potente
 
 Il vecchio PC (i5-7200U, 2 core, 8 GB) era saturo.
