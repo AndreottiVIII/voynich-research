@@ -1,0 +1,76 @@
+{
+ "coppie": 2650,
+ "inizi": {
+  "d": {
+   "righe_sopra_con_s": 491,
+   "delta": -0.07695348132998889,
+   "z": -9.526383180481742,
+   "esito": "evitato"
+  },
+  "y": {
+   "righe_sopra_con_s": 433,
+   "delta": -0.03554102718756283,
+   "z": -8.855867621791349,
+   "esito": "evitato"
+  },
+  "qo": {
+   "righe_sopra_con_s": 425,
+   "delta": -0.1559550561797753,
+   "z": -13.597338793706667,
+   "esito": "evitato"
+  },
+  "o": {
+   "righe_sopra_con_s": 411,
+   "delta": -0.11158418176345236,
+   "z": -11.131483692609441,
+   "esito": "evitato"
+  },
+  "s": {
+   "righe_sopra_con_s": 311,
+   "delta": 0.08306790078481886,
+   "z": -5.053631267024149,
+   "esito": "—"
+  },
+  "t": {
+   "righe_sopra_con_s": 179,
+   "delta": -0.022160977958847777,
+   "z": -7.347446777054322,
+   "esito": "evitato"
+  },
+  "sh": {
+   "righe_sopra_con_s": 155,
+   "delta": -0.018966966190445404,
+   "z": -6.273501030139555,
+   "esito": "evitato"
+  },
+  "ch": {
+   "righe_sopra_con_s": 103,
+   "delta": -0.04515115822536317,
+   "z": -5.858880113924781,
+   "esito": "evitato"
+  },
+  "l": {
+   "righe_sopra_con_s": 46,
+   "delta": -0.0005342950644493423,
+   "z": -3.2302136725831416,
+   "esito": "—"
+  },
+  "p": {
+   "righe_sopra_con_s": 32,
+   "delta": 0.04836707410236822,
+   "z": -2.2754991919978464,
+   "esito": "—"
+  }
+ },
+ "evitati": [
+  "d",
+  "y",
+  "qo",
+  "o",
+  "t",
+  "sh",
+  "ch"
+ ],
+ "ripetuti": [],
+ "esito": "il margine evita in generale gli inizi ripetuti"
+}
