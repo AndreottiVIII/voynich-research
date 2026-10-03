@@ -1,0 +1,67 @@
+{
+ "bifogli": 48,
+ "mani": {
+  "1": 26,
+  "2": 11,
+  "5": 2,
+  "3": 8,
+  "4": 1
+ },
+ "risultati": {
+  "nuova": {
+   "(a) sezione x lingua": {
+    "strati": 6,
+    "bifogli": 46,
+    "varianza": 0.0007272400537551984,
+    "nullo": 0.00018320794666485876,
+    "rapporto": 3.9694787643984375,
+    "z": 11.895485598881628
+   },
+   "(b) sezione x lingua x mano": {
+    "strati": 5,
+    "bifogli": 42,
+    "varianza": 0.0007401438101741004,
+    "nullo": 0.00018400712890801526,
+    "rapporto": 4.0223648647009576,
+    "z": 11.394669450646987
+   },
+   "(c) mano": {
+    "strati": 4,
+    "bifogli": 47,
+    "varianza": 0.0008312036465098669,
+    "nullo": 0.00018038909203409796,
+    "rapporto": 4.60783763107333,
+    "z": 15.261312901533717
+   }
+  },
+  "errore": {
+   "(a) sezione x lingua": {
+    "strati": 6,
+    "bifogli": 46,
+    "varianza": 8.892365140240492e-05,
+    "nullo": 8.43325792165893e-05,
+    "rapporto": 1.0544400779445449,
+    "z": 0.22371719422667014
+   },
+   "(b) sezione x lingua x mano": {
+    "strati": 5,
+    "bifogli": 42,
+    "varianza": 8.492565137315639e-05,
+    "nullo": 8.678280852316806e-05,
+    "rapporto": 0.9785999418362235,
+    "z": -0.08054918768510526
+   },
+   "(c) mano": {
+    "strati": 4,
+    "bifogli": 47,
+    "varianza": 8.12610888831506e-05,
+    "nullo": 8.209144913496244e-05,
+    "rapporto": 0.9898849361223154,
+    "z": -0.04210734488642506
+   }
+  }
+ },
+ "quota_spiegata_dalla_mano": -0.022249742281727825,
+ "controllo_errori_uniformi": true,
+ "esito": "l'inventiva è della sessione"
+}

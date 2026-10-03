@@ -975,3 +975,9 @@ negativi; i numeri sono nei file di `risultati/`.
   il 3% oltre il nullo (z 2,0, incerto), contro il 13–38% dei testi sensati a parità di parole (z 13–30). Le coppie in
   eccesso sono soprattutto parolina + parola (*or aiin*, *ol aiin*): forse parole spezzate dallo spazio. Nel Voynich non
   si vedono locuzioni come in una lingua.
+- **I segni di bordo della riga non vengono dal gesto di scrivere** (e374). Nel gibberish scritto a mano da volontari
+  il primo e l'ultimo segno della riga sono quasi come gli altri (divergenza 0,006, z 3,2); nel Voynich lo sono 24 volte
+  di più (0,140; a parità di righe z 172). L'esito preregistrato ("anche nel gibberish") è rispettato alla lettera, ma la
+  soglia guardava solo lo z.
+- **L'inventiva è della sessione, non dello scriba** (e376): dentro la stessa mano di Davis, sezione e lingua le forme
+  nuove variano fra i bifogli 4 volte il caso (z 11,4); la mano non spiega niente. Gli errori restano uniformi.
