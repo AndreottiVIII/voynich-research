@@ -5749,3 +5749,39 @@ sequenza.
   riga sopra; la fonte più vicina dipende da come sono spaziate lì le parole, qualunque sia il loro
   contenuto. Il rimescolamento dei Δ dentro la riga rompe questa dipendenza e quindi non è il nullo
   giusto. L'e247d usa un nullo che conserva la geometria e cambia solo le parole.
+
+## 3/10/2026 — e258: le etichette sono un sistema a parte (si copiano fra loro, lessico in buona parte proprio)
+
+- **Preregistrato.** 1.078 parole-etichetta (loci L, ≥ 2 unità) su 55 pagine.
+- **Risultati:**
+  - **M1:** un'etichetta ha una ripetizione o variante fra le **altre etichette della stessa pagina** nel
+    34,5% dei casi, contro il 13,4% con una pagina a caso della stessa sezione (**z 10,6**). Con le
+    etichette delle **pagine vicine** (±2) 38,1% contro 29,6% (**z 6,3**);
+  - **M2:** solo il **57%** delle parole-etichetta compare nei paragrafi, contro l'**85%** di un campione
+    di parole di paragrafo della stessa sezione (**z −25,9**).
+- **Esito: sistema a parte.**
+- **Lettura.**
+  - Le etichette non prendono dal testo della loro pagina (e245), ma si copiano fra loro, sulla stessa
+    pagina e su quelle vicine, e usano un lessico in buona parte proprio.
+  - È lo stesso procedimento di copia e variante applicato a un secondo "flusso" di parole: le etichette
+    di una pagina sono scritte guardando le altre etichette, non i paragrafi.
+  - Per il voynichizzatore: le etichette vanno generate con un modulo a parte, con un proprio lessico e
+    la copia dalle etichette vicine.
+
+## 3/10/2026 — e255: nessuna copia attraverso il cambio di pagina; ogni pagina riparte da capo
+
+- **Preregistrato.** D = somiglianza delle prime 3 righe di p con le **ultime** 3 di q, meno quella con le
+  **prime** 3 di q.
+- **Risultati** (z contro pagine a caso della stessa sezione e mano):
+  - precedente nella rilegatura D −0,026 (z 1,7);
+  - successiva −0,061 (z −1,5);
+  - a fronte, per i versi, −0,039 (z 0,4);
+  - recto dello stesso foglio −0,017 (z 1,6).
+- **Esito: nessuna copia attraverso la pagina.**
+- **Lettura.**
+  - L'inizio di una pagina non riprende la fine della pagina precedente né quella a fronte. Anzi, tutte
+    le D sono negative: le prime righe di una pagina somigliano di più alle prime righe delle altre
+    pagine, perché gli inizi di paragrafo hanno un lessico proprio.
+  - La copia a vista lavora dentro la pagina. A ogni pagina nuova si riparte, come ripartono le
+    abitudini di grafia (e145).
+  - Per la ricostruzione dell'ordine dei bifogli il passaggio di pagina non dà informazione.
