@@ -6946,3 +6946,33 @@ poi l'AUC.
 - **Lettura.** Il +2 di pagella sui semi di ricerca era rumore (effetto vincitore, terza volta oggi): con due semi, una
   differenza di 2 punti di pagella non dice niente. Per il ciclo avversario: un ritocco si adotta solo se migliora di
   più del rumore fra semi (almeno 4 punti di pagella estesa, o 0,02 di AUC), e si verifica sempre sui semi 7–9.
+
+## 3/10/2026 — Ciclo avversario, giro 5: bordi legati e parole rare che girano abbassano l'AUC, ma costano pagella
+
+`voynichizzatore/prova_v5.py`, semi di ricerca 1–2 (somme sui due semi; e288 = corpo della v3):
+
+| configurazione | pagella | estese | riga | AUC e231 | AUC e266 |
+|---|---|---|---|---|---|
+| e288 | 34 | 0 | 1 | 0,857 | 0,931 |
+| ω 0,2 | 36 | 0 | 2 | 0,859 | 0,938 |
+| circola (rare fino a 10, compagne di riserva) | 29 | 2 | 0 | 0,863 | 0,950 |
+| bordi λ_fin 1, λ_pre 1 | 32 | 4 | 0 | 0,832 | 0,934 |
+| bordi 0,7 / 1 | 31 | 2 | 0 | 0,851 | 0,943 |
+| circola + bordi 1 / 1 | 31 | 2 | 0 | **0,804** | **0,928** |
+| circola + bordi 0,7 / 1 | 29 | 2 | 0 | 0,836 | 0,952 |
+| circola + bordi 1 / 1 + ω 0,2 | 29 | 3 | 0 | 0,847 | 0,950 |
+
+- I **bordi** prendono concordanza delle desinenze e coppie viste altrove e abbassano G4 (inizio riga, 0,63 → 0,52) ma
+  alzano G6 (0,72 → 0,81) e perdono sempre "ripetizione": premiavano anche la ripetizione della parola precedente
+  (stesso prefisso e stesso finale). Corretto nel giro 6.
+- La **circolazione** porta R delle rare a 6,5–6,7 e abbassa G3 (0,866 → 0,81: il primo vero passo sul "muro" della
+  varietà nella pagina dopo l'e251b), ma perde omogeneità, legame e curva piatta e alza G4 (0,63 → 0,73). Prove veloci
+  sul seme 1: anche scambiando solo fra parole nella stessa posizione della riga, o solo fra pagine vicine (2 o 6
+  pagine), omogeneità e legame si perdono. Le rare del generatore portano il "legame" con le parole vicine; spostarle
+  lo rompe.
+- **Insieme** (circola + bordi 1/1): l'AUC dell'e231 più bassa mai vista sui semi di ricerca (0,804 e 0,791/0,817 per
+  seme), con G3 0,78–0,79 e G4 0,57.
+- Le classi di riga **per selezione** fra le candidate (`corpo6`, λ_cl), invece che per sostituzione: sul seme 1, con i
+  bordi, λ_cl 0,3 porta le scelte di riga a **11 su 12** (Voynich 12, generatore 2–3) con concordanza 0,045 e coppie
+  0,236 (Voynich 0,043 e 0,221); λ_cl 1 esagera (tipi su parole 0,55: premia le parole già nella riga, corretto).
+- ω 0,2 non entra: l'e292 mostra che il +2 era rumore.
