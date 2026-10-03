@@ -1,0 +1,29 @@
+omega 0 identico a corpo3 (e288): True
+scelta omega 0.00, tau 0.0          seme 1: pagella 18 riga True mancano [] | AUC e266 0.937 G3 0.866 G6 0.719
+scelta omega 0.05, tau 0.0          seme 1: pagella 18 riga True mancano [] | AUC e266 0.935 G3 0.875 G6 0.692
+scelta omega 0.00, tau 1.0          seme 1: pagella 12 riga False mancano ['ripetizione', 'gradiente', 'profilo pagina', 'Zipf', 'verticale', 'formule'] | AUC e266 0.954 G3 0.864 G6 0.828
+scelta omega 0.00, tau 0.0          seme 2: pagella 16 riga False mancano ['gradiente', 'formule'] | AUC e266 0.926 G3 0.862 G6 0.730
+scelta omega 0.05, tau 1.0          seme 1: pagella 13 riga True mancano ['h2', 'ripetizione', 'profilo pagina', 'Zipf', 'formule'] | AUC e266 0.953 G3 0.867 G6 0.830
+scelta omega 0.05, tau 1.0          seme 2: pagella 12 riga False mancano ['h2', 'ripetizione', 'profilo pagina', 'Zipf', 'verticale', 'formule'] | AUC e266 0.930 G3 0.871 G6 0.830
+scelta omega 0.05, tau 0.0          seme 2: pagella 17 riga False mancano ['formule'] | AUC e266 0.945 G3 0.860 G6 0.728
+scelta omega 0.00, tau 1.0          seme 2: pagella 14 riga True mancano ['h2', 'ripetizione', 'profilo pagina', 'Zipf'] | AUC e266 0.966 G3 0.868 G6 0.842
+scelta omega 0.10, tau 0.0          seme 1: pagella 17 riga True mancano ['verticale'] | AUC e266 0.963 G3 0.864 G6 0.727
+scelta omega 0.10, tau 1.0          seme 1: pagella 11 riga True mancano ['h2', 'spazio', 'ripetizione', 'gradiente', 'curva piatta', 'profilo pagina', 'Zipf'] | AUC e266 0.977 G3 0.869 G6 0.816
+scelta omega 0.10, tau 0.0          seme 2: pagella 16 riga True mancano ['gradiente', 'formule'] | AUC e266 0.916 G3 0.854 G6 0.750
+scelta omega 0.20, tau 0.0          seme 2: pagella 18 riga True mancano [] | AUC e266 0.935 G3 0.863 G6 0.731
+scelta omega 0.20, tau 0.0          seme 1: pagella 18 riga True mancano [] | AUC e266 0.941 G3 0.859 G6 0.742
+scelta omega 0.20, tau 1.0          seme 2: pagella 13 riga True mancano ['ripetizione', 'curva piatta', 'profilo pagina', 'Zipf', 'verticale'] | AUC e266 0.956 G3 0.833 G6 0.816
+scelta omega 0.10, tau 1.0          seme 2: pagella 16 riga False mancano ['ripetizione', 'Zipf'] | AUC e266 0.951 G3 0.866 G6 0.804
+scelta omega 0.20, tau 1.0          seme 1: pagella 12 riga True mancano ['h2', 'spazio', 'ripetizione', 'gradiente', 'profilo pagina', 'Zipf'] | AUC e266 0.961 G3 0.876 G6 0.829
+scelta omega 0.30, tau 0.0          seme 1: pagella 16 riga False mancano ['verticale', 'formule'] | AUC e266 0.942 G3 0.845 G6 0.715
+scelta omega 0.30, tau 0.0          seme 2: pagella 18 riga True mancano [] | AUC e266 0.945 G3 0.864 G6 0.711
+scelta omega 0.30, tau 1.0          seme 1: pagella 14 riga True mancano ['h2', 'ripetizione', 'profilo pagina', 'Zipf'] | AUC e266 0.967 G3 0.865 G6 0.831
+scelta omega 0.30, tau 1.0          seme 2: pagella 12 riga False mancano ['h2', 'ripetizione', 'curva piatta', 'profilo pagina', 'Zipf', 'formule'] | AUC e266 0.960 G3 0.842 G6 0.833
+scelta: omega 0.20, tau 0.0 (pagella 36, AUC e266 0.938)
+verifica omega 0.00, tau 0.0          seme 8: pagella 17 riga True mancano ['omogeneità'] | AUC e266 0.937 G3 0.867 G6 0.736 | e231 0.828
+verifica omega 0.00, tau 0.0          seme 7: pagella 18 riga True mancano [] | AUC e266 0.937 G3 0.880 G6 0.725 | e231 0.855
+verifica omega 0.20, tau 0.0          seme 9: pagella 16 riga True mancano ['curva piatta', 'formule'] | AUC e266 0.943 G3 0.875 G6 0.737 | e231 0.845
+verifica omega 0.20, tau 0.0          seme 7: pagella 15 riga True mancano ['curva piatta', 'profilo pagina', 'formule'] | AUC e266 0.929 G3 0.862 G6 0.671 | e231 0.880
+verifica omega 0.20, tau 0.0          seme 8: pagella 16 riga True mancano ['profilo pagina', 'formule'] | AUC e266 0.932 G3 0.834 G6 0.679 | e231 0.829
+verifica omega 0.00, tau 0.0          seme 9: pagella 18 riga True mancano [] | AUC e266 0.926 G3 0.864 G6 0.702 | e231 0.816
+non migliore
