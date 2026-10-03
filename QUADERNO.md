@@ -9923,3 +9923,16 @@ Preregistrato (`preregistrazioni/e3a22.md`). Asse A/B semplice (quota di *e* + p
   finali -*y*, meno *a* e -*n*; poi il paragrafo si assesta. Più forte nelle pagine in lingua B.
 - Da collegare: nell'e3a20 *sh* e *t* stavano soprattutto nella prima riga. L'apertura del paragrafo è un registro un
   po' diverso, che sfuma nelle righe successive.
+
+## 4/10/2026 (notte) — e3a23: la giuntura è piena anche ai bordi della riga
+
+Preregistrato (`preregistrazioni/e3a23.md`). Righe di almeno 4 parole.
+
+| coppia | quante | E | z | E in mezzo a parità | Q |
+|---|---|---|---|---|---|
+| prima coppia (parole 1–2) | 3.500 | 0,184 | 44,0 | 0,162 | **1,14** |
+| ultima coppia | 3.254 | 0,158 | 34,7 | 0,168 | **0,94** |
+
+- **Esito preregistrato, per tutti e due i bordi: giuntura piena anche al bordo.**
+- Le forme di bordo (*s*-, *y*-, *d*- all'inizio; -*m*, -*g* alla fine) non tolgono forza al legame con la parola
+  vicina: posizione nella riga e raccordo agiscono insieme.
