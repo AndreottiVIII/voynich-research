@@ -9178,3 +9178,22 @@ Banco preregistrato dell'e293 (`esegui.py e293 -- --v10`): Isidoro XVII nascosto
 - I numeri al banco coincidono con quelli dei semi di ricerca (corpo R1 senza messaggio: 0,554 / 0,673; messaggio nel sacco su 12 chiavi: 0,560 / 0,682): il messaggio non costa niente e non c'è effetto vincitore.
 
 - Restano: il cancello della riga (perso in tutte le chiavi), il giudice forte a 0,66 contro l'obiettivo 0,6, e le materie aggiunte mancate (prime righe come registro, scelte di riga, concordanza delle desinenze, coppie viste altrove, a seconda della chiave).
+
+## 3/10/2026 (notte) — Esplorativo: senza una parola accanto, *o*- e -*l* (una "forma di pausa"?)
+
+Non preregistrato: conteggi fatti dopo l'e380 e l'e386 (scratchpad), da prendere come ipotesi. Quota di *qo*- fra le
+parole *qo*-/*o*- davanti a gallows, e di -*l* fra le parole in -*l*/-*r*, per posto nella riga e strato:
+
+| strato | *qo*- dopo il salto del disegno | *qo*- in mezzo | *qo*- a inizio riga | -*l* prima del salto | -*l* in mezzo | -*l* a fine riga |
+|---|---|---|---|---|---|---|
+| erbario A | **0,07** (74) | 0,44 (949) | 0,57 (268) | **0,63** (93) | 0,50 (2.099) | 0,51 (212) |
+| erbario B | **0,19** (54) | 0,37 (724) | 0,58 (38) | **0,71** (31) | 0,33 (722) | 0,47 (45) |
+
+- Dopo il salto del disegno, dove manca la parola prima (la giuntura si rompe, e386), si sceglie quasi sempre *o*-.
+  Prima del salto, dove manca la parola dopo, più spesso -*l*.
+- Sembra una **forma di pausa**: senza vicino, *o*- all'inizio e -*l* alla fine. Con un vicino la scelta segue la
+  regola di raccordo dell'e380.
+- A inizio riga invece *qo*- è frequente (57–87%): la riga ha regole sue (e374), diverse dal salto.
+- Numeri piccoli (31–93 parole). **Previsione per un controllo su dati non ancora guardati (e387):** nelle etichette,
+  parole isolate senza vicini, *qo*- davanti a gallows dovrebbe essere più raro e -*l* più frequente che in mezzo alle
+  righe.
