@@ -5259,3 +5259,30 @@ sequenza.
     ripetuto. L'omogeneità verrebbe dalla somiglianza delle varianti, non dalla ripetizione.
   - Per il paper: un discriminatore semplice distingue ancora le pagine vere da ogni generatore senza
     messaggio provato. La pagella a 18 proprietà non basta come criterio di indistinguibilità.
+
+## 3/10/2026 — e236: senza serbatoio di pagina il discriminatore vince di più e la pagina si perde
+
+- **Preregistrato.**
+  - Candidate esatte dalle frequenze del manoscritto (probabilità g), altrimenti varianti con almeno una
+    modifica di parole delle due righe precedenti (ρ) o del manoscritto.
+  - Nessun serbatoio di pagina; spezzature e prefissi staccati dopo la generazione.
+- **Risultati:**
+  - AUC 0,96–0,99 sul seme 1; la scelta (g 0,9, ρ 0,9) dà **0,946** sui semi 2–3, contro il riferimento
+    0,889;
+  - la varietà della pagina supera il Voynich (tipi su parole 0,80 contro 0,76);
+  - somiglianza fra vicine 0,17 contro 0,22; parole uniche 0,10 contro 0,14;
+  - pagella (seme 2): **10/18**. Mancano omogeneità, gradiente, deriva, profilo di pagina, uniche, curva
+    piatta, lunghezze vicine e verticale.
+- **Esito: non migliore.**
+- **Lettura.**
+  - Togliere il serbatoio di pagina fa perdere proprio le proprietà di pagina: omogeneità, gradiente,
+    profilo, deriva.
+  - Le pagine vere hanno una base di parole propria, ma la usano in modo diverso dai nostri generatori:
+    - più varietà del generatore "copia e modifica";
+    - meno del generatore a due fonti;
+    - parole vicine più simili di entrambi.
+- **Bilancio della notte sui generatori** (e230 e e224 ancora in corso):
+  - il discriminatore è passato da 0,97 (e192) a 0,86–0,89 con fine riga, spezzature, prefissi staccati,
+    κ e χ;
+  - tre architetture e una ricerca congiunta non scendono oltre;
+  - la proprietà ancora non capita è il modo in cui una pagina riusa e varia le proprie parole.
