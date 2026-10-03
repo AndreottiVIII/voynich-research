@@ -5956,3 +5956,28 @@ sequenza.
 - **Lettura.** Una chiave diversa per pagina, fatta di scambi fra segni simili, si vedrebbe chiaramente.
   Il Voynich si comporta come un testo con sole abitudini di pagina. Le differenze di grafia fra pagine
   sono abitudini, non chiavi.
+
+## 3/10/2026 — e266: un discriminatore più forte (AUC 0,937 sul miglior generatore) e due proprietà nuove
+
+- **Preregistrato.** Le caratteristiche dell'e231 più quattro gruppi:
+  - G6: coppie di parole;
+  - G7: posizione nella riga;
+  - G8: prime righe di paragrafo;
+  - G9: ortografia di pagina.
+- **Controlli:** A contro B 1,000; etichette a caso 0,519 (valido).
+- **Risultati:**
+  - generatore e192: **0,985**;
+  - generatore "copia e modifica" e241: **0,937**, contro 0,874 dell'e231.
+  - AUC per gruppo contro l'e241: G8 **0,874**, G6 0,805, G7 0,682, G9 0,661.
+- **Esito: più forte.**
+- **Proprietà nuove che il generatore non ha** (caratteristiche più pesanti):
+  - **prime righe di paragrafo:** nel Voynich la prima riga ha molti più *p* e *f* delle altre righe
+    (+3,3% e +1,0% contro +1,2% e +0,2% nel generatore) e parole più lunghe (4,63 contro 4,18). Il
+    generatore tratta in modo speciale solo la prima parola;
+  - **parole ripetute subito:** il generatore scrive due volte di fila la stessa parola nel 2,3% delle
+    coppie, il Voynich nell'1,0%. Il modulo di riuso copia troppo spesso la parola appena scritta;
+  - restano la varietà della pagina e la deviazione della lunghezza.
+- **Per il piano:**
+  - e268 (prime righe) diventa prioritario;
+  - nel modulo di riuso la fonte "stessa riga" deve escludere, o rendere rara, la parola immediatamente
+    precedente.
