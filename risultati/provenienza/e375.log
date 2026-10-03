@@ -1,0 +1,8 @@
+Voynich {"pagine": 207, "parole": 34863, "S": 2060, "nullo": 2008.02, "R": 1.025886196352626, "z": 2.032160026367563, "coppie_in_eccesso": [["o.r a.i.i.n", 37, 22.24], ["a.i.i.n o.k.a.l", 10, 4.01], ["o.r ch.e.e.y", 9, 3.39], ["o.l a.i.i.n", 12, 6.68], ["o.l ch.e.e.y", 10, 4.74], ["o.l o.l.a.i.i.n", 6, 0.89], ["a.i.i.n o.t.a.r", 8, 2.96], ["o.l sh.e.e.y", 10, 4.99], ["q.o.k.e.e.y d.a.i.i.n", 9, 4.01], ["q.o.k.a.i.n ch.ckh.y", 9, 4.01], ["ch.e.y k.e.e.y", 6, 1.09], ["ch.e.d.y q.o.k.a.r", 9, 4.13], ["sh.e.e.d.y q.o.k.e.e.d.y", 8, 3.13], ["ch.e.d.y q.o.k.a.i.n", 14, 9.28], ["y ch.e.e.y", 6, 1.45]]}
+testi sensati: Historical {"pagine": 192, "parole": 34626, "S": 2219, "nullo": 1613.7, "R": 1.3751007002540745, "z": 29.915168320110237}
+testi sensati: Modern {"pagine": 205, "parole": 34995, "S": 1935, "nullo": 1487.47, "R": 1.300866572098933, "z": 26.42058463442734}
+testi sensati: Conlangs {"pagine": 166, "parole": 30023, "S": 1987, "nullo": 1755.365, "R": 1.1319583106647335, "z": 12.91630260979519}
+gibberish umano {"pagine": 86, "parole": 10075, "S": 74, "nullo": 65.435, "R": 1.130893252846336, "z": 2.2342466748646412}
+Timm e Schinner, seme 1 {"pagine": 138, "parole": 37224, "S": 2340, "nullo": 2373.92, "R": 0.9857113971827188, "z": -1.125691101264904}
+{"R_mediana": 1.0803278007881636, "z_mediana": 2.2063717156989666}
+incerto

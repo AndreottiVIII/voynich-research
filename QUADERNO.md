@@ -8670,3 +8670,32 @@ coppie identiche vicine. Correlazioni di Spearman con 1.000 permutazioni e sogli
   nuove non copia né di più né di meno dalle righe sopra. Inventiva e ripresa sono due abitudini separate.
 - Lettura: le sessioni non hanno un unico "carattere"; ogni proprietà (lessico dell'asse, inventiva, grafia, ripresa)
   varia per conto suo. Per il voynichizzatore: queste manopole si possono girare in modo indipendente fra le sessioni.
+
+## 3/10/2026 (notte) — e375: oltre la giuntura, le parole del Voynich quasi non scelgono le vicine
+
+Preregistrato (`preregistrazioni/e375.md`). S = tipi di coppia di parole vicine (diverse e non varianti) presenti su
+almeno 2 pagine. Nullo: scambi dentro la pagina fra parole con lo stesso primo segno, lo stesso ultimo segno e la stessa
+posizione nella riga. Così restano intatti giunture, lessico di pagina e bordi; si perde solo la preferenza di una
+parola per una vicina precisa. Codice provato prima solo sui controlli.
+
+| testo | parole | S | nullo | R | z |
+|---|---|---|---|---|---|
+| Voynich | 34.863 | 2.060 | 2.008 | **1,03** | **2,0** |
+| testi sensati: Historical | 34.626 | 2.219 | 1.614 | 1,38 | 29,9 |
+| testi sensati: Modern | 34.995 | 1.935 | 1.488 | 1,30 | 26,4 |
+| testi sensati: Conlangs | 30.023 | 1.987 | 1.755 | 1,13 | 12,9 |
+| gibberish umano | 10.075 | 74 | 65 | 1,13 | 2,2 |
+| Timm e Schinner, seme 1 | 37.224 | 2.340 | 2.374 | 0,99 | −1,1 |
+
+Voynich a parità di parole col gibberish (mediana di 20 sottoinsiemi): R 1,08, z 2,2.
+
+- **Controllo positivo superato:** nei testi sensati le coppie tornano su più pagine dal 13% al 38% più del nullo.
+- **Esito preregistrato: incerto** (z 2,0, fra 2 e 3).
+- **L'effetto, se c'è, è piccolo:** l'eccesso del Voynich (3%) è meno di un quarto di quello del gruppo di testi sensati
+  più basso (le lingue artificiali, 13%). Quasi tutta la struttura fra parole vicine sta nella giuntura fra ultimo e
+  primo segno. Una lingua con le sue locuzioni lascerebbe molto di più, a parità di parole.
+- **Le coppie più in eccesso** sono quasi tutte una parolina più una parola: *or aiin*, *ol aiin*, *ol olaiin*,
+  *or cheey*, *ol cheey*, *ol sheey*. Potrebbero essere parole spezzate dallo spazio (*oraiin*, *olaiin*), in linea con
+  le giunture senza spazio dell'e361–e363: il confine fra parole nel Voynich non è netto.
+- Il gibberish umano ha un eccesso simile o un po' maggiore (1,13), ma su un testo tre volte più piccolo il test è
+  debole.
