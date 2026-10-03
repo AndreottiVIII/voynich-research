@@ -10700,3 +10700,29 @@ Preregistrato (`preregistrazioni/e3a57.md`). h2 = entropia del segno dato il pre
   Voynich. Gibberish umano −0,05.
 - **Esito preregistrato: non è solo l'entropia.** La bassa entropia dei segni, da sola, non fa sì che le parole
   frequenti siano le forme più probabili: Toki Pona ha la stessa entropia e un legame molto più debole.
+
+## 4/10/2026 — vz: v10, v11 e v12 sulle stesse 12 chiavi: la v12 domina la v11; la v10 ha più materie ma non il cancello
+
+Repliche descrittive preregistrate (integrazioni dell'e412): Isidoro XVII nascosto nel sacco, chiavi "e409-1" … "e409-12",
+stesso codice per le tre versioni. Dati in `risultati/e409b_messaggio_nel_sacco_v10_chiavi_1_12.json`,
+`..._v11_chiavi_1_12.json` e `e409b_messaggio_nel_sacco_chiavi_1_12.json` (v12). Medie ± errore standard.
+
+| versione, 12 chiavi | AUC e231 | AUC e266 (min – max) | pagella (massimo 17) | materie aggiunte | cancello della riga | decodifica |
+|---|---|---|---|---|---|---|
+| v10 | 0,572 ± 0,006 | 0,690 ± 0,006 (0,663 – 0,724) | 16,7 | 4,1 su 8 | 0 su 12 | 12 su 12 |
+| v11 | 0,579 ± 0,005 | 0,634 ± 0,007 (0,596 – 0,687) | 14,9 | 4,5 su 8 | 9 su 12 | 12 su 12 |
+| **v12** | 0,576 ± 0,007 | **0,619 ± 0,009** (0,585 – 0,669) | 15,0 | 5,2 su 8 | **11 su 12** | 12 su 12 |
+
+- **Previsioni rispettate** per v10 (e266 0,65–0,70; cancello in meno di 3 chiavi) e v11 (e266 0,62–0,67; cancello in
+  almeno 9 chiavi).
+- **I numeri del banco a tre chiavi erano tutti un po' favorevoli:** v10 0,550 / 0,662 al banco contro 0,572 / 0,690;
+  v11 0,565 / 0,647 contro 0,579 / 0,634; v12 0,546 / 0,600 contro 0,576 / 0,619. Le stime da usare sono queste a 12
+  chiavi.
+- **Il giudice dell'e231 è uguale per le tre versioni (0,57–0,58), sotto l'obiettivo.** Le versioni differiscono sul
+  giudice dell'e266 e sul cancello: ogni passo (v10 → v11 → v12) ha abbassato l'e266 di 0,06 e di 0,015.
+- **La v12 è almeno pari alla v11 su tutto** (giudice forte, cancello, materie aggiunte, pagella): la v11 non ha più
+  motivo d'uso. Fra v10 e v12 c'è un compromesso vero: la v10 prende 16,7 materie su 17 raggiungibili ma mai il
+  cancello e sta a 0,69; la v12 prende il cancello quasi sempre e sta a 0,62, con 15 materie (perde sempre omogeneità
+  e profilo pagina, oltre al gradiente mal posto).
+- **Materie che nessuna versione prende mai:** profilo pagina (12 chiavi su 12 in tutte e tre) e scelte di riga a 12
+  classi (12 su 12). Sono le due lacune più nette, insieme al giudice dell'e266 a 0,62.

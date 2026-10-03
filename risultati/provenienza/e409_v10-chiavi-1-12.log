@@ -1,0 +1,13 @@
+a chiave 6: pagella 17 riga False mancano ['profilo pagina'] | AUC e231 0.586 e266 0.684 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 80554, 'bit_messaggio': 38240, 'pagine_usate': 130}
+a chiave 4: pagella 17 riga False mancano ['profilo pagina'] | AUC e231 0.578 e266 0.712 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 79909, 'bit_messaggio': 38240, 'pagine_usate': 132}
+a chiave 1: pagella 17 riga False mancano ['profilo pagina'] | AUC e231 0.582 e266 0.711 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 80744, 'bit_messaggio': 38240, 'pagine_usate': 131}
+a chiave 5: pagella 17 riga False mancano ['profilo pagina'] | AUC e231 0.592 e266 0.681 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 79397, 'bit_messaggio': 38240, 'pagine_usate': 131}
+a chiave 3: pagella 16 riga False mancano ['gradiente', 'profilo pagina'] | AUC e231 0.543 e266 0.667 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 80172, 'bit_messaggio': 38240, 'pagine_usate': 131}
+a chiave 8: pagella 17 riga False mancano ['profilo pagina'] | AUC e231 0.550 e266 0.666 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 80458, 'bit_messaggio': 38240, 'pagine_usate': 131}
+a chiave 2: pagella 17 riga False mancano ['profilo pagina'] | AUC e231 0.577 e266 0.707 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 80506, 'bit_messaggio': 38240, 'pagine_usate': 130}
+a chiave 7: pagella 16 riga False mancano ['gradiente', 'profilo pagina'] | AUC e231 0.585 e266 0.687 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 80395, 'bit_messaggio': 38240, 'pagine_usate': 131}
+a chiave 9: pagella 15 riga False mancano ['ripetizione', 'gradiente', 'profilo pagina'] | AUC e231 0.549 e266 0.675 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 80141, 'bit_messaggio': 38240, 'pagine_usate': 131}
+a chiave 10: pagella 17 riga False mancano ['profilo pagina'] | AUC e231 0.536 e266 0.663 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 80128, 'bit_messaggio': 38240, 'pagine_usate': 131}
+a chiave 11: pagella 17 riga False mancano ['profilo pagina'] | AUC e231 0.609 e266 0.724 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 79688, 'bit_messaggio': 38240, 'pagine_usate': 131}
+a chiave 12: pagella 17 riga False mancano ['profilo pagina'] | AUC e231 0.576 e266 0.701 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 80496, 'bit_messaggio': 38240, 'pagine_usate': 131}
+{"a": [0.572, 0.69, 16.666666666666668]}
