@@ -6619,3 +6619,51 @@ sequenza.
     rompono omogeneità e gradiente della pagina. La regola di scelta (G8 minima) spingeva verso l'eccesso.
   - Secondo tentativo (e268b): ρ scelto perché la misura dell'e273 sul seme 1 sia la più vicina a quella del
     Voynich, a pagella non inferiore all'e241.
+
+## 3/10/2026 — e251b: senza tema concentrato il "muro" si muove, ma il passo 2 non passa; lacuna dichiarata
+
+- **Preregistrato:** copia di `e233.genera` con θ (quota del tema), K (parole del tema) e mazzo (estrazione senza
+  reimmissione); scelta sul seme 1 con la regola dell'e251.
+- **Seme 1** (pagella, R delle parole rare): e241 14, 44; θ 0 14, 38; mazzo θ 0 10 (senza riga), 10,2; mazzo θ 0,15
+  10, 23. Scelta: **θ 0** (senza tema).
+- **Verifica** (semi 7–9; e241 → θ 0): pagella 45 → 42; riga in 2 → 3 semi; R delle parole rare 48,3 → 41,7; AUC
+  dell'e231 0,873 → 0,867, gruppo **G3 0,916 → 0,880**; dell'e266 0,961 → 0,956; tipi su parole nella pagina 0,678 →
+  **0,731** (Voynich 0,756).
+- **Esito preregistrato: non superato** (R e pagella). Non "utile" per la regola (AUC dell'e266 −0,005). È il
+  secondo tentativo del passo 2: **si dichiara la lacuna del passo 2** e il generatore prosegue con l'e241.
+- **Lettura.** Il tema concentrato spiega una parte del "muro" di G3 (varietà di parole nella pagina): toglierlo
+  porta la varietà quasi al Voynich e abbassa G3 di 0,036, la prima mossa vera di quel gruppo. Il mazzo senza
+  reimmissione abbassa molto R delle parole rare (fino a 10) ma rompe la pagella. θ resta un parametro per la
+  regolazione congiunta (e253).
+
+## 3/10/2026 — e285c: fra finali vicini ci sono passaggi sistematici, ma sembrano concordanza di desinenze e prefissi staccati
+
+- **Preregistrato:** la dipendenza dell'e285b divisa in ripetizione dello stesso finale e passaggi fra finali diversi.
+- **Risultati:**
+  - ripetizione: Voynich +0,016 (z 12,9); generatore +0,017–0,021: il generatore ripete **di più**;
+  - passaggi fra finali diversi: Voynich **+0,043 (z 17,8)**; generatore +0,010–0,019; positivo +0,245;
+  - la ripetizione vale solo a distanza 1 (a distanza 2 e 3 è nulla), come nel generatore.
+- **Esito preregistrato: passaggi sistematici** (compatibile con un messaggio, da verificare oltre).
+- **I passaggi più frequenti del caso, prima di ogni lettura:** *shedy → edy* (3,8 volte l'atteso), *eedy → edy*,
+  *chedy → edy*, *edy → chedy*, *edy → l*, e da parole finite in *o*, *s*, *l* a parole senza finale (i prefissi
+  staccati dell'e227).
+  - Sono la stessa famiglia di desinenza (*-edy*) divisa diversamente dal segmentatore, cioè una **concordanza delle
+    desinenze** fra parole vicine, e i **prefissi staccati** già noti. Non hanno l'aspetto delle coppie di lettere di
+    un messaggio.
+  - Verifica e285d: desinenze raggruppate per famiglia e coppie con prefisso staccato escluse.
+- **Per il generatore:** le parole vicine del Voynich "rimano" nella desinenza più che nel generatore, che invece
+  ripete di più le parole. È un meccanismo da aggiungere.
+
+## 3/10/2026 — Voynichizzatore v0: funziona, ma il messaggio nelle scelte di grafia si vede
+
+- **Che cosa fa:** testo normale → manoscritto intero in EVA (corpo e241 con il seme dalla chiave); il testo
+  compresso e cifrato con la chiave va nelle 5 scelte di grafia, in posti sparsi scelti dalla chiave. Con la chiave
+  il testo torna esatto; con una chiave sbagliata non si legge niente (`voynichizzatore/v0.py`).
+- **Prova:** Isidoro, *Etymologiae* XVII (inizio, 1.668 parole latine) → 207 pagine, 4.130 righe; il messaggio
+  occupa il 66% dei 57.696 posti di scelta. Decodifica identica byte per byte.
+- **Rilevabilità (descrittiva, stesso corpo):** senza messaggio pagella 14, riga sì, AUC e231 0,893, e266 0,951; con
+  il messaggio pagella 13, **riga no**, AUC **0,958** e **0,980**. Le scelte forzate a metà e metà rompono le
+  abitudini di riga.
+- **Prossimo passo (v1):** codifica aritmetica con un modello delle scelte imparato dal Voynich (contesto e scelte
+  già fatte nella riga), così le scelte escono distribuite come nel modello; corpo migliorato con θ 0 e le prime
+  righe.
