@@ -9664,3 +9664,24 @@ Preregistrato (`preregistrazioni/e3a09.md`). Ultime parole della riga in -*m*/-*
 - **Lettura:** -*m* non segna solo "fine della riga": è più frequente quando la riga arriva al margine. Va con l'idea
   di una forma finale usata per chiudere una riga piena. Cautela: l'ultima riga del paragrafo differisce anche in altro
   (meno *qo*-, e313).
+
+## 4/10/2026 (notte) — e3a08: il legame con la parola vicina passa quasi tutto dal segno di bordo
+
+Preregistrato (`preregistrazioni/e3a08.md`). A parità di ultimo segno (e di strato), quanto l'identità intera della
+parola prima dice ancora sul primo segno della parola dopo ("avanti"); e simmetricamente ("indietro").
+
+| testo | avanti E | z | indietro E | z |
+|---|---|---|---|---|
+| Voynich (tutto) | 0,080 | 21,4 | 0,038 | 10,5 |
+| Voynich a 10.000 parole (mediana) | **0,059** | | **0,024** | |
+| gibberish umano | 0,121 | 28,4 | 0,126 | 24,9 |
+| testi sensati con almeno 5.000 coppie (mediana) | 0,328 | | 0,309 | |
+
+Massimi fra le lingue: toki pona 0,65, lojban 0,53, pinyin 0,52 (avanti).
+
+- **Esito preregistrato, avanti e indietro: il legame passa solo dal segno di bordo** (il Voynich è sotto un quarto
+  della mediana delle lingue: 18% avanti, 8% indietro).
+- Non è però zero: sul libro intero resta un piccolo legame dell'identità della parola (z 21 avanti, 10 indietro). In
+  una lingua l'identità della parola conta molto (sintassi); nel Voynich poco, meno anche che nel gibberish umano.
+- Dove sta il resto: da vedere se nel penultimo segno (per esempio -*dy*/-*ey*) o nelle parole spezzate (*or aiin*,
+  e379). Prossimo: e3a10.
