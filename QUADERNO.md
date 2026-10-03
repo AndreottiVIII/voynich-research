@@ -10051,3 +10051,18 @@ ferme).
   copia dalla riga sopra non segue la colonna, come diceva l'e345.
 - **Resta l'unico effetto verticale vero:** sul margine sinistro due righe consecutive evitano di cominciare allo stesso
   modo, soprattutto con *qo*- (e3a25–e3a27).
+
+## 4/10/2026 (notte) — e3a30: al confine fra parole le "vocali" e le "consonanti" di Sukhotin si alternano, come nelle lingue
+
+Preregistrato (`preregistrazioni/e3a30.md`). Classi di Sukhotin ricavate dentro le parole; quota di coppie di parole
+vicine con ultimo e primo segno di classe diversa, contro le parole rimescolate nella riga (A = osservata / nullo).
+
+- **Voynich:** A **1,086** (z 20,8). "Vocali" di Sukhotin: *a*, *c*, *e*, *h*, *n*, *o*, *u*, *y* (*c* e *h* sono i
+  segni isolati, rari).
+- **Gibberish umano:** A 1,011 (z 1,3).
+- **Testi sensati:** A da 0,935 a 1,158, mediana 1,018. Sopra il Voynich: inglese tecnico 1,158, volapük 1,110, greco
+  tecnico 1,107, francese 1,089. Il francese moderno 1,079, l'inglese moderno 1,071.
+- **Esito preregistrato: il confine alterna come le lingue** (4 testi su 71 con A maggiore).
+- **Lettura:** l'alternanza "vocale/consonante" fra la fine di una parola e l'inizio della seguente, misurata con classi
+  ricavate senza guardare il confine, è nel Voynich forte quanto nelle lingue che più la mostrano (francese, inglese), e
+  assente nel gibberish umano. Va con le regole di raccordo (e380, e390). Non dice quali suoni siano.
