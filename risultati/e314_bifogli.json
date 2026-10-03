@@ -1,0 +1,434 @@
+{
+ "e314": {
+  "a": {
+   "bifoglio": {
+    "eta2": 0.5871447659972032,
+    "nullo": 0.2565149251556754,
+    "z": 6.555835929611963
+   },
+   "mano": {
+    "eta2": 0.13840513488930356,
+    "nullo": 0.03307881632442505,
+    "z": 5.194041462124826
+   },
+   "fascicolo": {
+    "eta2": 0.45057261066515836,
+    "nullo": 0.11776111877946481,
+    "z": 8.520255031901222
+   }
+  },
+  "esito_a": "stato di bifoglio",
+  "spiegano_anche": [
+   "mano",
+   "fascicolo"
+  ],
+  "b": [
+   {
+    "caratteristica": "segno e",
+    "eta2": 0.6842171143538835,
+    "nullo": 0.24871152198927157,
+    "z": 9.262443431426274
+   },
+   {
+    "caratteristica": "segno i",
+    "eta2": 0.6039173248752867,
+    "nullo": 0.2597299911682944,
+    "z": 6.89729362956721
+   },
+   {
+    "caratteristica": "iniziale y",
+    "eta2": 0.6216685409797924,
+    "nullo": 0.2671802542014835,
+    "z": 6.692040732234466
+   },
+   {
+    "caratteristica": "segno a",
+    "eta2": 0.5586905698295408,
+    "nullo": 0.2509701424362439,
+    "z": 6.647179414839509
+   },
+   {
+    "caratteristica": "iniziale d",
+    "eta2": 0.6030888889625015,
+    "nullo": 0.2563244239682853,
+    "z": 6.512691272970678
+   },
+   {
+    "caratteristica": "iniziale ch",
+    "eta2": 0.6224159967132108,
+    "nullo": 0.25669573317980143,
+    "z": 6.412227612534097
+   },
+   {
+    "caratteristica": "segno n",
+    "eta2": 0.5989888969805662,
+    "nullo": 0.26076896249854786,
+    "z": 6.295010587820082
+   },
+   {
+    "caratteristica": "finale n",
+    "eta2": 0.5710691606963583,
+    "nullo": 0.25731698292550526,
+    "z": 6.065564012912
+   },
+   {
+    "caratteristica": "segno m",
+    "eta2": 0.6443135964314551,
+    "nullo": 0.2678678679343314,
+    "z": 5.912370304947918
+   },
+   {
+    "caratteristica": "iniziale o",
+    "eta2": 0.5081790580124732,
+    "nullo": 0.24382023920864146,
+    "z": 5.873621622005955
+   },
+   {
+    "caratteristica": "finale m",
+    "eta2": 0.6322374893183097,
+    "nullo": 0.26538671943784736,
+    "z": 5.859109717752436
+   },
+   {
+    "caratteristica": "segno ch",
+    "eta2": 0.6317183635478145,
+    "nullo": 0.26622909251370236,
+    "z": 5.683910019071931
+   },
+   {
+    "caratteristica": "segno d",
+    "eta2": 0.4749865906010443,
+    "nullo": 0.2460615937902158,
+    "z": 5.556370975039631
+   },
+   {
+    "caratteristica": "finale y",
+    "eta2": 0.50285634305853,
+    "nullo": 0.25008800487301946,
+    "z": 5.434123880513222
+   },
+   {
+    "caratteristica": "segno s",
+    "eta2": 0.56071481626725,
+    "nullo": 0.2588636686593363,
+    "z": 5.431559200489986
+   }
+  ],
+  "c": {
+   "H": {
+    "bifogli": 32,
+    "rho_con_il_libro": 0.3123751239216855,
+    "z_rho": 1.6487021933872787,
+    "cambi_di_mano": 11,
+    "cambi_attesi": 13.026,
+    "z_cambi": -1.2547058991579951,
+    "ordine": [
+     "Q-1 (mano 1)",
+     "G-3 (mano 1)",
+     "O-1 (mano 1)",
+     "A-3 (mano 1)",
+     "C-1 (mano 1)",
+     "G-4 (mano 1)",
+     "D-2 (mano 2)",
+     "F-1 (mano 5)",
+     "F-4 (mano 1)",
+     "C-2 (mano 1)",
+     "H-1 (mano 5)",
+     "B-4 (mano 1)",
+     "F-3 (mano 2)",
+     "B-3 (mano 1)",
+     "D-3 (mano 1)",
+     "E-1 (mano 2)",
+     "G-2 (mano 2)",
+     "E-2 (mano 2)",
+     "G-1 (mano 1)",
+     "B-1 (mano 1)",
+     "C-4 (mano 1)",
+     "C-3 (mano 1)",
+     "A-2 (mano 1)",
+     "F-2 (mano 1)",
+     "A-1 (mano 1)",
+     "B-2 (mano 1)",
+     "E-4 (mano 1)",
+     "Q-2 (mano 3)",
+     "D-4 (mano 1)",
+     "D-1 (mano 1)",
+     "E-3 (mano 1)",
+     "A-4 (mano 1)"
+    ]
+   }
+  },
+  "la_mano_segue_lo_stato_in": []
+ },
+ "e315": {
+  "pagine_A": 84,
+  "pagine_B": 32,
+  "prime_20": [
+   {
+    "caratteristica": "parola chedy",
+    "d": 2.772159837369183,
+    "z": 13.422875070230855
+   },
+   {
+    "caratteristica": "erbario chedy",
+    "d": 2.772159837369183,
+    "z": 13.422875070230855
+   },
+   {
+    "caratteristica": "iniziale a",
+    "d": 2.4170727412976474,
+    "z": 11.31477887791199
+   },
+   {
+    "caratteristica": "segno o",
+    "d": -2.030342409891388,
+    "z": -9.56648042446574
+   },
+   {
+    "caratteristica": "erbario okedy",
+    "d": 1.7502270564040259,
+    "z": 8.408287757017797
+   },
+   {
+    "caratteristica": "erbario ar",
+    "d": 1.6804580434608443,
+    "z": 7.993503735809361
+   },
+   {
+    "caratteristica": "parola ar",
+    "d": 1.6804580434608443,
+    "z": 7.993503735809361
+   },
+   {
+    "caratteristica": "parola shedy",
+    "d": 1.646659634807373,
+    "z": 7.674570258250553
+   },
+   {
+    "caratteristica": "erbario shedy",
+    "d": 1.646659634807373,
+    "z": 7.674570258250553
+   },
+   {
+    "caratteristica": "erbario chckhy",
+    "d": 1.471450301959135,
+    "z": 7.307777749855114
+   },
+   {
+    "caratteristica": "erbario chdy",
+    "d": 1.470730633790787,
+    "z": 6.739277864911927
+   },
+   {
+    "caratteristica": "erbario qokar",
+    "d": 1.451673432446874,
+    "z": 6.897744762055088
+   },
+   {
+    "caratteristica": "segno d",
+    "d": 1.4251830475735807,
+    "z": 6.911294591442153
+   },
+   {
+    "caratteristica": "segno k",
+    "d": 1.404324462562768,
+    "z": 6.678499093336589
+   },
+   {
+    "caratteristica": "iniziale gallows composti",
+    "d": -1.3930244989338587,
+    "z": -6.384849864816813
+   },
+   {
+    "caratteristica": "erbario okeedy",
+    "d": 1.3921938539438823,
+    "z": 6.844787534512513
+   },
+   {
+    "caratteristica": "erbario otedy",
+    "d": 1.3818345721807663,
+    "z": 6.540830831949407
+   },
+   {
+    "caratteristica": "erbario okar",
+    "d": 1.3092478486128205,
+    "z": 6.019378111033312
+   },
+   {
+    "caratteristica": "lunghezza media",
+    "d": 1.308325215522714,
+    "z": 6.213426219569013
+   },
+   {
+    "caratteristica": "iniziale o",
+    "d": 1.2946923888167459,
+    "z": 5.904017218464
+   }
+  ],
+  "classificazione": {
+   "(i) solo l'asse": {
+    "caratteristiche": 1,
+    "AUC": 0.3307291666666667
+   },
+   "(ii) tutte": {
+    "caratteristiche": 181,
+    "AUC": 1.0
+   },
+   "(iii) tutte tranne l'asse e le parole in -y/-n": {
+    "caratteristiche": 100,
+    "AUC": 0.9970238095238095,
+    "nullo": 0.5026860119047619,
+    "z": 6.059652553384578
+   },
+   "(iv) solo parole non in -y/-n": {
+    "caratteristiche": 60,
+    "AUC": 0.9657738095238095
+   }
+  },
+  "esito": "A e B differiscono oltre l'asse"
+ },
+ "e318": {
+  "a": {
+   "candidate": {
+    "f1v": {
+     "senza coniugato": false,
+     "fascicolo con fogli mancanti": false,
+     "pieghevole": false,
+     "bifoglio esterno": true
+    },
+    "f2r": {
+     "senza coniugato": false,
+     "fascicolo con fogli mancanti": false,
+     "pieghevole": false,
+     "bifoglio esterno": false
+    },
+    "f2v": {
+     "senza coniugato": false,
+     "fascicolo con fogli mancanti": false,
+     "pieghevole": false,
+     "bifoglio esterno": false
+    },
+    "f4r": {
+     "senza coniugato": false,
+     "fascicolo con fogli mancanti": false,
+     "pieghevole": false,
+     "bifoglio esterno": false
+    },
+    "f7r": {
+     "senza coniugato": false,
+     "fascicolo con fogli mancanti": false,
+     "pieghevole": false,
+     "bifoglio esterno": false
+    },
+    "f52v": {
+     "senza coniugato": false,
+     "fascicolo con fogli mancanti": false,
+     "pieghevole": false,
+     "bifoglio esterno": false
+    },
+    "f53r": {
+     "senza coniugato": false,
+     "fascicolo con fogli mancanti": false,
+     "pieghevole": false,
+     "bifoglio esterno": false
+    },
+    "f90r1": {
+     "senza coniugato": false,
+     "fascicolo con fogli mancanti": false,
+     "pieghevole": true,
+     "bifoglio esterno": true
+    },
+    "f88r": {
+     "senza coniugato": false,
+     "fascicolo con fogli mancanti": false,
+     "pieghevole": false,
+     "bifoglio esterno": false
+    }
+   },
+   "quota_irregolari_candidate": 0.2222222222222222,
+   "quota_irregolari_altre": 0.5114942528735632,
+   "p": 0.9820196469930735,
+   "esito": "no"
+  },
+  "b": {
+   "fogli": 77,
+   "con_cambio": 3,
+   "correlazione_media": 0.3070978505060127,
+   "differenza_cambio_meno_altri": 0.030605774568221,
+   "z": 0.21336739637969743,
+   "esito": "no",
+   "dieci_fogli_con_facce_piu_diverse": [
+    {
+     "recto": "f88r",
+     "verso": "f88v",
+     "correlazione": -0.4,
+     "mani": "1/1",
+     "strati": "P-A/P-A"
+    },
+    {
+     "recto": "f52r",
+     "verso": "f52v",
+     "correlazione": -0.21,
+     "mani": "1/1",
+     "strati": "H-A/H-A"
+    },
+    {
+     "recto": "f2r",
+     "verso": "f2v",
+     "correlazione": -0.094,
+     "mani": "1/1",
+     "strati": "H-A/H-A"
+    },
+    {
+     "recto": "f83r",
+     "verso": "f83v",
+     "correlazione": -0.082,
+     "mani": "2/2",
+     "strati": "B-B/B-B"
+    },
+    {
+     "recto": "f82r",
+     "verso": "f82v",
+     "correlazione": -0.027,
+     "mani": "2/2",
+     "strati": "B-B/B-B"
+    },
+    {
+     "recto": "f77r",
+     "verso": "f77v",
+     "correlazione": 0.007,
+     "mani": "2/2",
+     "strati": "B-B/B-B"
+    },
+    {
+     "recto": "f44r",
+     "verso": "f44v",
+     "correlazione": 0.011,
+     "mani": "1/1",
+     "strati": "H-A/H-A"
+    },
+    {
+     "recto": "f53r",
+     "verso": "f53v",
+     "correlazione": 0.013,
+     "mani": "1/1",
+     "strati": "H-A/H-A"
+    },
+    {
+     "recto": "f17r",
+     "verso": "f17v",
+     "correlazione": 0.029,
+     "mani": "1/1",
+     "strati": "H-A/H-A"
+    },
+    {
+     "recto": "f76r",
+     "verso": "f76v",
+     "correlazione": 0.054,
+     "mani": "2/2",
+     "strati": "T-B/B-B"
+    }
+   ]
+  }
+ }
+}

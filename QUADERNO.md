@@ -7344,3 +7344,75 @@ vera e un solo livello rotto, passati ai giudici e231 ed e266; semi 1–4. Risul
 - **Rilettura del lavoro precedente.** Il generatore vecchio (0,82 / 0,92) era già molto meglio di un rimescolamento
   delle parole vere (0,99): i suoi meccanismi di riga funzionavano. Il "modello del Voynich" (0,93 / 0,99) non aveva
   modello dei bordi di riga oltre la posizione: per questo stava al livello dei rimescolamenti.
+
+## 3/10/2026 — e314, e315, e318: lo stato è di fascicolo e di bifoglio; A e B differiscono nel lessico, non sull'asse
+
+Preregistrato (`preregistrazioni/e314.md`, con la correzione dell'e315 prima dell'esecuzione).
+
+- **e314 (a), quanto pesa il bifoglio** (η² del punteggio dell'asse -edy/-aiin dentro lo strato):
+
+  | raggruppamento | η² | nullo | z |
+  |---|---|---|---|
+  | bifoglio | 0,587 | 0,257 | 6,6 |
+  | fascicolo | 0,451 | 0,118 | 8,5 |
+  | mano | 0,138 | 0,033 | 5,2 |
+
+  **Esito preregistrato: stato di bifoglio; spiegano qualcosa anche la mano e il fascicolo.**
+  - **Osservazione non preregistrata:** per il solo punteggio dell'asse, il bifoglio non aggiunge molto al fascicolo
+    (0,587 − 0,451 = 0,136, contro 0,139 attesi solo perché i gruppi sono più piccoli). L'asse è uno stato **di
+    fascicolo**. Con il profilo intero (e308) invece il bifoglio conta da solo (pagine dello stesso bifoglio 0,20,
+    altre dello stesso fascicolo −0,03). Si legge così: il fascicolo dà la posizione sull'asse, il bifoglio dà il resto
+    del profilo.
+- **e314 (b), che cosa porta il bifoglio:** segni *e* (η² 0,68, z 9,3), *i*, iniziale *y*, *a*, iniziale *d*, iniziale
+  *ch*, *n*, finale *n*, *m*, iniziale *o*, finale *m*, *ch*, *d*, finale *y*, *s*.
+- **e314 (c), un ordine dei bifogli** (erbario, 32 bifogli): l'ordine spettrale non segue il libro (|ρ| 0,31, z 1,6) e
+  la mano non lo segue (cambi 11 contro 13 attesi, z −1,3). **La mano segue lo stato: in nessuna sezione.** L'ordine
+  trovato è nel file dei risultati, come descrizione.
+- **e315, lingue A e B nell'erbario** (84 pagine A, 32 B; validazione per bifoglio):
+
+  | caratteristiche | AUC |
+  |---|---|
+  | (i) solo il punteggio dell'asse | **0,331** |
+  | (ii) tutte | 1,000 |
+  | (iii) tutte tranne l'asse e le parole in -*y*/-*n* | **0,997** (nullo 0,50, z alto) |
+  | (iv) solo parole non in -*y*/-*n* | 0,966 |
+
+  - Le differenze più forti (d di Cohen, B − A): parola *chedy* +2,8; iniziale *a* +2,4; segno *o* −2,0; *okedy*
+    +1,8; *ar* +1,7; *shedy* +1,7; *chckhy* +1,5; *chdy* +1,5; *qokar* +1,5; segni *d* +1,4 e *k* +1,4; iniziale
+    gallows composto −1,4; *okeedy* +1,4.
+  - **Esito preregistrato: A e B differiscono oltre l'asse.**
+  - **Correzione della mia lettura dell'e307.** Avevo scritto che l'asse -edy/-aiin "è lo stesso che separa A e B".
+    Nell'erbario il punteggio dell'asse da solo **non** separa A e B. A e B differiscono per un lessico preciso:
+    - B: *chedy*, *shedy*, *okedy*, *qokar*, *ar*, parole in *a*-;
+    - A: più *o*, più gallows composti all'inizio.
+
+    L'asse dell'e307 è un'altra dimensione, che varia dentro ogni lingua per fascicolo e bifoglio.
+- **e318 (a), le 9 pagine candidate dell'e312:** con almeno un'irregolarità fisica il 22%, contro il 51% delle altre
+  pagine (p 0,98). **Esito: no.** Non stanno su fogli irregolari.
+- **e318 (b), fogli con recto e verso diversi:** 77 fogli; solo 3 hanno un cambio di mano, lingua o sezione fra le facce
+  (differenza +0,03, z 0,2). **Esito: no** (poca potenza).
+  - Fogli con le facce più diverse: f88r/v (−0,40), f52r/v (−0,21), f2r/v (−0,09), f83r/v, f82r/v.
+  - Sono quasi le stesse "candidate" dell'e312: quelle pagine non sembrano fuori posto, sono **fogli le cui due facce
+    sono diverse**, forse scritte in momenti diversi.
+
+## 3/10/2026 — e316, e317: il paragrafo comincia con *p*, il gallows è meno legato alla parola del solito; l'arco del paragrafo è debole
+
+Preregistrato (`preregistrazioni/e316.md`).
+
+- **e316, gallows d'inizio paragrafo** (617 paragrafi che iniziano con un gallows):
+  - quali: ***p* 331**, *t* 171, *k* 78, *f* 32, *cph* 4, *cth* 1. Nel resto del testo il gallows più frequente è *k*;
+    all'inizio del paragrafo è *p* (54%). Lingua B *p* 256 su 413; lingua A *p* 75 su 194.
+  - **(a)** informazione mutua fra il gallows e il segno che segue: prime parole 0,108 (z 8,5); parole in mezzo con
+    gallows iniziale 0,321 (z 82,6). **Esito preregistrato: il gallows segue la parola.** Ma il legame è **tre volte
+    più debole** che nelle parole normali: all'inizio del paragrafo il gallows è in buona parte scelto per la posizione
+    (soprattutto *p*), non per la parola.
+  - **(b)** stesso gallows fra paragrafi della stessa pagina 0,456 (z 0,9), dello stesso bifoglio 0,449 (z 2,5).
+    **Esito: né per pagina né per bifoglio.**
+  - **(c)** *p*/*f* nel primo paragrafo della pagina rispetto agli altri −0,05 (z 1,1). **Esito: no.**
+- **e317, arco del paragrafo** (355 paragrafi con almeno 5 righe, 2.181 righe interne):
+  - pendenza dalla seconda alla penultima riga: numero di parole −0,089 (z −8,2), finale *y* −0,064 (z −3,8); le altre
+    sotto 3. **Esito preregistrato: debole.**
+  - La seconda riga ha più parole (+0,82, z 5,6) e meno finali in *n* (z −3,0). La penultima ha meno parole in *qo*-
+    (z −4,7) e meno parole (z −5,8).
+  - **Lettura:** il registro dell'ultima riga (meno *qo*-, e313) comincia già nella penultima. Le righe si accorciano
+    verso la fine del paragrafo; può dipendere anche dall'impaginazione intorno ai disegni.

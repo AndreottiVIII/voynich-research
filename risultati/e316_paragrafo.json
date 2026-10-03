@@ -1,0 +1,197 @@
+{
+ "e316": {
+  "a": {
+   "prime parole dei paragrafi": {
+    "parole": 617,
+    "MI": 0.10831570540230609,
+    "nullo": 0.03784485315121193,
+    "z": 8.466144373682564
+   },
+   "parole in mezzo alla riga": {
+    "parole": 2349,
+    "MI": 0.3209154868736547,
+    "nullo": 0.025865422729679177,
+    "z": 82.5556633029772
+   }
+  },
+  "esito_a": "il gallows segue la parola",
+  "b": {
+   "stessa pagina": {
+    "coppie": 1688,
+    "quota stesso gallows": 0.4555687203791469,
+    "nullo": 0.44451954976303315,
+    "z": 0.9066763373006775
+   },
+   "stesso bifoglio": {
+    "coppie": 5673,
+    "quota stesso gallows": 0.4487925260003525,
+    "nullo": 0.4277086197778953,
+    "z": 2.4970780693954455
+   }
+  },
+  "scelto_per": [],
+  "c": {
+   "differenza p/f primo paragrafo meno altri": -0.04976887519260409,
+   "z": 1.0747791940157836,
+   "esito": "no"
+  },
+  "gallows_per": {
+   "sezione": {
+    "A": {
+     "t": 4
+    },
+    "B": {
+     "k": 5,
+     "p": 47,
+     "t": 14,
+     "cph": 1
+    },
+    "C": {
+     "t": 10,
+     "p": 3,
+     "k": 1
+    },
+    "H": {
+     "k": 41,
+     "p": 92,
+     "t": 68,
+     "f": 14,
+     "cph": 1
+    },
+    "P": {
+     "k": 8,
+     "p": 11,
+     "t": 9,
+     "f": 2,
+     "cph": 1,
+     "cth": 1
+    },
+    "S": {
+     "k": 22,
+     "t": 64,
+     "p": 156,
+     "f": 15
+    },
+    "T": {
+     "f": 1,
+     "cph": 1,
+     "p": 22,
+     "t": 2,
+     "k": 1
+    }
+   },
+   "lingua": {
+    "?": {
+     "cph": 1,
+     "t": 9
+    },
+    "A": {
+     "f": 17,
+     "cph": 2,
+     "k": 45,
+     "p": 75,
+     "t": 54,
+     "cth": 1
+    },
+    "B": {
+     "p": 256,
+     "k": 33,
+     "t": 108,
+     "cph": 1,
+     "f": 15
+    }
+   }
+  },
+  "totale": {
+   "f": 32,
+   "cph": 4,
+   "k": 78,
+   "p": 331,
+   "t": 171,
+   "cth": 1
+  }
+ },
+ "e317": {
+  "paragrafi": 355,
+  "righe_interne": 2181,
+  "caratteristiche": {
+   "lunghezza media": {
+    "pendenza": 0.0008119644458048919,
+    "z_pendenza": 0.035957202180690796,
+    "seconda_meno_altre": -0.03872969821120176,
+    "z_seconda": -1.0206042662922519,
+    "penultima_meno_altre": -0.015653462347797742,
+    "z_penultima": -0.36034502236996
+   },
+   "quota segni gallows": {
+    "pendenza": -0.028101109272511256,
+    "z_pendenza": -1.403670492791883,
+    "seconda_meno_altre": 0.0007532678128242543,
+    "z_seconda": -0.08320147732743383,
+    "penultima_meno_altre": -0.001647773786098844,
+    "z_penultima": -1.0887704492424115
+   },
+   "inizia con qo": {
+    "pendenza": -0.04812568318935453,
+    "z_pendenza": -2.763120863144732,
+    "seconda_meno_altre": -0.011917891362725752,
+    "z_seconda": -0.4816810086274293,
+    "penultima_meno_altre": -0.03901367761566371,
+    "z_penultima": -4.656334131593769
+   },
+   "inizia con ch": {
+    "pendenza": 0.039815597812417926,
+    "z_pendenza": 2.181199714719534,
+    "seconda_meno_altre": -0.0077750682354778555,
+    "z_seconda": -1.7253851269445908,
+    "penultima_meno_altre": 0.013937870850347006,
+    "z_penultima": 1.1819824395201244
+   },
+   "inizia con sh": {
+    "pendenza": 0.02452658486304329,
+    "z_pendenza": 1.2064967622830645,
+    "seconda_meno_altre": -0.006949899116306918,
+    "z_seconda": -0.1009972368871798,
+    "penultima_meno_altre": -0.0021133307949029734,
+    "z_penultima": 0.6915731228703128
+   },
+   "finale y": {
+    "pendenza": -0.06399251240673001,
+    "z_pendenza": -3.809330275459554,
+    "seconda_meno_altre": 0.02050624389793465,
+    "z_seconda": 2.4329503161140655,
+    "penultima_meno_altre": -0.019120555674547346,
+    "z_penultima": -1.5808238201090208
+   },
+   "finale n": {
+    "pendenza": 0.045945530915884096,
+    "z_pendenza": 2.440159173425835,
+    "seconda_meno_altre": -0.016691584546229904,
+    "z_seconda": -3.003058150349292,
+    "penultima_meno_altre": 0.01393993445445002,
+    "z_penultima": 1.2377509747608768
+   },
+   "numero di parole": {
+    "pendenza": -0.08899061957513356,
+    "z_pendenza": -8.210870997903749,
+    "seconda_meno_altre": 0.8238588155438649,
+    "z_seconda": 5.637400389211339,
+    "penultima_meno_altre": -0.04419419033367866,
+    "z_penultima": -5.7908369304500455
+   }
+  },
+  "pendenze_forti": [
+   "finale y",
+   "numero di parole"
+  ],
+  "esito": "debole",
+  "seconda_riga_forte": [
+   "finale n",
+   "numero di parole"
+  ],
+  "penultima_forte": [
+   "inizia con qo",
+   "numero di parole"
+  ]
+ }
+}
