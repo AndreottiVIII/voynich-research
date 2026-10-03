@@ -5,7 +5,8 @@ di prova (e293).
 
 Parametri del corpo: rip, phi, sigma_post, pi_post, beta, eps, vsim, omega, rho, tau, errori (vedi corpo2/3/4 ed e297);
 classi, circola, chiave, max_rara, posizione, vicine (ritocchi dopo la generazione, corpo5); lam_fin, lam_pre, lam_cl (bordi legati e classi concordi nella riga, corpo6); delta, alfa (parole di base dal lessico
-globale; peso delle parole della pagina, e232); galli_su, galli_giu (p/f nelle prime righe, corpo5.galli_prime).
+globale; peso delle parole della pagina, e232); theta, chi, k_tema (tema della pagina, variante della parola
+precedente; e251b, e232); galli_su, galli_giu (p/f nelle prime righe, corpo5.galli_prime).
 """
 import os, sys
 from collections import OrderedDict
@@ -40,7 +41,7 @@ def corpo(parametri, seme):
     prm = dict(e251.CONF, gamma=0.0, rip=x.get('rip', 1.0), phi=x.get('phi', 0.0), beta=x.get('beta', 0.0), eps=x.get('eps', 1.0),
                vsim=x.get('vsim', 0.0), omega=x.get('omega', 0.0), rho=x.get('rho', 0.0), tau=x.get('tau', 0.0),
                lam_fin=x.get('lam_fin', 0.0), lam_pre=x.get('lam_pre', 0.0), lam_cl=x.get('lam_cl', 0.0))
-    for nome in ('delta', 'alfa'):
+    for nome in ('delta', 'alfa', 'theta', 'chi', 'k_tema'):
         if nome in x:
             prm[nome] = x[nome]
     rr = e236.dopo(corpo6.genera_v6(k['c2'], prm, seme, prime_per_pag=e268.prime_per_pagina(k['c']) if x.get('rho') else None), k['freq'], 100 + seme)
