@@ -10269,3 +10269,25 @@ etichette rimescolato nella pagina.
 - **Lettura:** anche le etichette, che non hanno vicine nella riga, nascono con il processo di copia con piccole
   modifiche visto nei paragrafi: ogni etichetta riprende spesso la precedente cambiandone un segno. È un'altra prova che
   il processo di scrittura è lo stesso in tutto il libro.
+
+## 4/10/2026 (notte) — e3a39: gli "errori" non sono confusioni di lettura moderne
+
+Preregistrato (`preregistrazioni/e3a39.md`). Confusioni di lettura = parole su cui ZL e IT differiscono per un solo segno
+(873). Insieme confondibile (80% delle confusioni): *a*/*o* 301, *r*/*s* 133, *k*/*t* 58, *ch*/*sh* 54, *o*/*y* 38,
+*e*/*o* 35, *g*/*m* 32, *a*/*y* 24, *e*/*h* 24.
+
+| gruppo | sostituzioni | quota nell'insieme confondibile |
+|---|---|---|
+| "errori" (parole uniche a una sostituzione da una parola frequente) | 473 | 0,163 |
+| variazione normale (coppie di parole con almeno 5 occorrenze) | 2.632 | 0,203 |
+
+Differenza −0,040 (IC 95% −0,076 – −0,003).
+
+- **Esito preregistrato: gli errori evitano le confusioni** (cadono sui segni confondibili un po' meno della variazione
+  normale).
+- **Controllo esplorativo** (scratchpad): delle 566 parole "errore" della ZL in righe allineate, Takahashi ne legge
+  identiche l'83%. Solo il 5% è letto come la parola frequente, il 12% in un altro modo, l'1% illeggibile.
+- **Lettura:** gli "errori" stanno nel manoscritto, non nella trascrizione moderna. Le loro sostituzioni più frequenti
+  (*e*/*o*, *o*/*y*, *a*/*o*, *a*/*y*, *e*/*sh*, *s*/*y*, *d*/*y*) sono diverse da quelle della variazione normale fra
+  parole frequenti (*k*/*t*, *l*/*r*, *ch*/*sh*, *o*/*y*, *a*/*o*: le scelte di grafia). Il risultato dell'e357 (errori
+  uniformi fra le sessioni) riguarda quindi lo scriba.
