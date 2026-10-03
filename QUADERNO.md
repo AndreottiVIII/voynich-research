@@ -6698,3 +6698,20 @@ sequenza.
   - Un secondo tentativo dovrebbe cambiare solo il segno della classe (come fa `e145.riscrivi` per le cinque
     scelte), non la parola. Intanto il modello delle scelte della v1 del voynichizzatore (imparato dal Voynich,
     con lo stato di riga) fa qualcosa di simile per le cinque scelte.
+
+## 3/10/2026 — Voynichizzatore v1: con la codifica aritmetica il messaggio non si vede più
+
+- **Che cosa cambia dalla v0:** un modello delle 5 scelte di grafia, imparato dal Voynich (regressione logistica per
+  tipo di scelta; contesto della parola con le famiglie dei segni, posizione nella riga, scelte già fatte nella riga e
+  nella riga sopra), dà per ogni posto la probabilità della forma lunga. Il messaggio cifrato sceglie con quella
+  probabilità attraverso la codifica aritmetica binaria (Witten, Neal, Cleary, 32 bit): il decodificatore aritmetico
+  nasconde, il codificatore rilegge. Tutte le scelte del libro escono distribuite come nel modello
+  (`voynichizzatore/v1.py`, modello in `voynichizzatore/modello_scelte_v1.json`).
+- **Il modello** (56.850 posti, come l'e182): quote di forme lunghe CH 0,30, KT 0,36, LR 0,47, DE 0,63, QO 0,51; i
+  coefficienti dello stato di riga sono tutti positivi (0,5–1,4): le abitudini di riga sono nel modello.
+- **Prova:** Isidoro XVII (11.207 byte, 4.776 compressi, 38.240 bit) nello stesso corpo della v0. Decodifica identica
+  byte per byte; chiave sbagliata respinta. Capacità con questo metodo circa 0,8 bit per posto (circa 46.000 bit).
+- **Rilevabilità (stesso corpo):** senza messaggio 14/18, riga sì, AUC e231 0,893, e266 0,951; **v1 con il messaggio
+  15/18, riga sì, 0,889 e 0,957** (v0: 13/18, riga no, 0,958 e 0,980).
+- **Lettura.** Il canale non aggiunge rilevabilità oltre la variabilità fra semi; il modello delle scelte migliora
+  perfino la pagella di un punto. Da qui la rilevabilità del voynichizzatore dipende solo dal corpo (generatore).
