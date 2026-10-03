@@ -5366,3 +5366,28 @@ sequenza.
     operazioni (e239), tutte, perché è diffuso. Le operazioni legate alle scelte di riga vanno guidate
     dallo stato della riga (e206b).
   - Spiega anche perché nell'e238 le varianti forzate producevano coppie di segni innaturali.
+
+## 3/10/2026 — e240: con l'operatore di variante empirico la pagella sale a 16/18; il discriminatore resta a 0,91
+
+- **Preregistrato.** Il generatore "copia e modifica" migliore (κ 1, χ 0,2, η 1, spezzature e prefissi)
+  con le modifiche estratte dalle 675 operazioni osservate fra varianti della stessa pagina (e239), al
+  posto di `generatori.Modifiche`. Quest'ultimo sa solo sostituire e aggiungere o togliere in testa e
+  in coda, mai all'interno.
+- **Risultati** (semi 2–3):
+  - **AUC 0,908**, contro il riferimento 0,889: **non migliore**;
+  - **pagella (seme 2): 16/18**, mancano solo ripetizione e verticale. È il punteggio più alto di un
+    generatore senza messaggio finora (l'e224 nella ricerca si ferma a 14/18). Riga riprodotta;
+  - le operazioni delle varianti generate ora includono +*d* interna, che prima non c'era;
+  - profilo di riuso ancora con troppe ripetizioni (R 40%) e poche nuove (N 12%);
+  - il discriminatore usa lunghezza, quota delle frequenti, varietà della pagina e alcune coppie di
+    segni innaturali create da inserzioni di *e* (*e+ch*, *q+e*, *l+e*).
+- **Lettura.**
+  - L'operatore empirico avvicina il testo al Voynich sulle proprietà della pagella, ma non sul
+    discriminatore.
+  - Le inserzioni vanno condizionate al contesto: un *e* si aggiunge accanto a un altro *e*, non dopo
+    *q* o *l*. L'operatore empirico usa solo la classe di posizione.
+  - Insieme a e237 ed e206b, è la base più promettente per il voynichizzatore:
+    - operatore empirico condizionato ai segni vicini;
+    - profilo di riuso R/V/N;
+    - scelte di riga;
+    - spezzature e prefissi staccati.
