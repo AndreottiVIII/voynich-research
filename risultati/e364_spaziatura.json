@@ -1,0 +1,21 @@
+{
+ "bifogli": 48,
+ "coppie_di_confine": 70,
+ "dispersione": {
+  "con giuntura": {
+   "varianza_scarti": 0.00011212392229044322,
+   "nullo": 6.0765442372032396e-05,
+   "rapporto": 1.845192232847939,
+   "z": 3.258060802223672
+  },
+  "senza giuntura": {
+   "varianza_scarti": 0.0005203435514109818,
+   "nullo": 0.00012920603575428954,
+   "rapporto": 4.027238730553706,
+   "z": 11.501209593725665
+  }
+ },
+ "spearman_lunghezza_giunture": -0.09237950499348675,
+ "z_spearman": -0.5934296472321229,
+ "esito": "tutte e due"
+}

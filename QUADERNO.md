@@ -8432,3 +8432,17 @@ Preregistrato (`preregistrazioni/e363.md`). Voynich, latino e italiano, circa 32
   - È coerente con l'incertezza nota sugli spazi del Voynich. Una parte delle "parole uniche" sarebbe un fatto di
     spaziatura, non di lessico.
 - **Verifica:** e364, se l'"inventiva" delle sessioni (e357) sia un'abitudine di spaziatura.
+
+## 3/10/2026 (notte) — e364: l'inventiva delle sessioni è soprattutto vera, la spaziatura conta meno
+
+Preregistrato (`preregistrazioni/e364.md`). 48 bifogli; forme nuove divise con le coppie di confine dell'e363.
+
+| forme nuove | dispersione fra bifogli, rapporto sul nullo | z |
+|---|---|---|
+| con giuntura (spaziatura) | 1,85 | 3,3 |
+| senza giuntura | **4,03** | **11,5** |
+
+- Lunghezza media delle parole del bifoglio contro forme nuove con giuntura: Spearman −0,09 (z −0,6).
+- **Esito preregistrato: tutte e due.**
+- **Lettura:** le sessioni differiscono un poco nel modo di spaziare, ma soprattutto nella quantità di forme davvero
+  nuove, senza giunture. L'"inventiva" dell'e357 regge come proprietà della sessione.
