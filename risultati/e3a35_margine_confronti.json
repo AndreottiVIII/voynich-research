@@ -1,0 +1,1180 @@
+{
+ "Voynich": {
+  "primi 2 segni": {
+   "coppie": 2267,
+   "osservata": 0.03484781649757389,
+   "nullo": 0.06896426996029996,
+   "rapporto": 0.5053024779010119,
+   "z": -7.955874476395192
+  },
+  "primo segno": {
+   "coppie": 2267,
+   "osservata": 0.08028231142479048,
+   "nullo": 0.14540758711954124,
+   "rapporto": 0.5521191363885948,
+   "z": -10.76170967613284
+  }
+ },
+ "gibberish umano": {
+  "primi 2 segni": {
+   "coppie": 1280,
+   "osservata": 0.034375,
+   "nullo": 0.026131249999999998,
+   "rapporto": 1.3154747668022007,
+   "z": 1.8891929045157063
+  },
+  "primo segno": {
+   "coppie": 1280,
+   "osservata": 0.0859375,
+   "nullo": 0.07432265625,
+   "rapporto": 1.1562759505113893,
+   "z": 1.69079357109758
+  }
+ },
+ "testi_sensati": {
+  "Conlangs - Esperanto - Literary - NT": {
+   "primi 2 segni": {
+    "coppie": 1026,
+    "osservata": 0.04191033138401559,
+    "nullo": 0.07860623781676412,
+    "rapporto": 0.5331680099194048,
+    "z": -5.284633444037227
+   },
+   "primo segno": {
+    "coppie": 1026,
+    "osservata": 0.10428849902534112,
+    "nullo": 0.12425438596491227,
+    "rapporto": 0.8393144291485273,
+    "z": -2.3736505938109653
+   }
+  },
+  "Conlangs - Esperanto - Technical - Voynich Wiki": {
+   "primi 2 segni": {
+    "coppie": 409,
+    "osservata": 0.014669926650366748,
+    "nullo": 0.023704156479217604,
+    "rapporto": 0.6188757091284167,
+    "z": -1.2329018997144323
+   },
+   "primo segno": {
+    "coppie": 409,
+    "osservata": 0.07334963325183375,
+    "nullo": 0.06568459657701711,
+    "rapporto": 1.1166945840312676,
+    "z": 0.6460584753877942
+   }
+  },
+  "Conlangs - Interlingua - Literary - NT": {
+   "primi 2 segni": {
+    "coppie": 956,
+    "osservata": 0.03765690376569038,
+    "nullo": 0.029848326359832637,
+    "rapporto": 1.2616085509024006,
+    "z": 1.4975361683670976
+   },
+   "primo segno": {
+    "coppie": 956,
+    "osservata": 0.08158995815899582,
+    "nullo": 0.07218096234309623,
+    "rapporto": 1.1303528729802188,
+    "z": 1.2131615782319123
+   }
+  },
+  "Conlangs - Interlingua - Technical - EU Wiki": {
+   "primi 2 segni": {
+    "coppie": 1158,
+    "osservata": 0.04404145077720207,
+    "nullo": 0.03975388601036269,
+    "rapporto": 1.1078527207559465,
+    "z": 0.7567702948086811
+   },
+   "primo segno": {
+    "coppie": 1158,
+    "osservata": 0.08549222797927461,
+    "nullo": 0.07961139896373057,
+    "rapporto": 1.073869183208591,
+    "z": 0.8160289573874105
+   }
+  },
+  "Conlangs - Klingon - Literary - NT - Mark": {
+   "primi 2 segni": {
+    "coppie": 1162,
+    "osservata": 0.06368330464716007,
+    "nullo": 0.05235800344234079,
+    "rapporto": 1.2163050624589087,
+    "z": 1.8255886656171336
+   },
+   "primo segno": {
+    "coppie": 1162,
+    "osservata": 0.08950086058519793,
+    "nullo": 0.07496127366609294,
+    "rapporto": 1.1939613110613627,
+    "z": 2.177798838805866
+   }
+  },
+  "Conlangs - Klingon - Technical - Proxima Centauri B Wikia": {
+   "primi 2 segni": {
+    "coppie": 80,
+    "osservata": 0.025,
+    "nullo": 0.030875,
+    "rapporto": 0.8097165991902835,
+    "z": -0.30730771503755366
+   },
+   "primo segno": {
+    "coppie": 80,
+    "osservata": 0.0625,
+    "nullo": 0.07793749999999999,
+    "rapporto": 0.801924619085806,
+    "z": -0.5962792556366039
+   }
+  },
+  "Conlangs - LOLCat - Literary - NT - Matthew": {
+   "primi 2 segni": {
+    "coppie": 901,
+    "osservata": 0.018867924528301886,
+    "nullo": 0.02516648168701443,
+    "rapporto": 0.7497243660418963,
+    "z": -1.3339331845876292
+   },
+   "primo segno": {
+    "coppie": 901,
+    "osservata": 0.06770255271920089,
+    "nullo": 0.07275804661487237,
+    "rapporto": 0.9305163603081382,
+    "z": -0.6127107979818976
+   }
+  },
+  "Conlangs - Lojban - Literary - Alice in Wonderland": {
+   "primi 2 segni": {
+    "coppie": 738,
+    "osservata": 0.016260162601626018,
+    "nullo": 0.0377710027100271,
+    "rapporto": 0.430493273542601,
+    "z": -3.245927536121617
+   },
+   "primo segno": {
+    "coppie": 738,
+    "osservata": 0.07317073170731707,
+    "nullo": 0.09233739837398373,
+    "rapporto": 0.7924279110719789,
+    "z": -1.9941537382501393
+   }
+  },
+  "Conlangs - Lojban - Technical - Science News": {
+   "primi 2 segni": {
+    "coppie": 128,
+    "osservata": 0.0234375,
+    "nullo": 0.0233203125,
+    "rapporto": 1.0050251256281408,
+    "z": 0.009137555003884199
+   },
+   "primo segno": {
+    "coppie": 128,
+    "osservata": 0.078125,
+    "nullo": 0.081171875,
+    "rapporto": 0.9624639076034648,
+    "z": -0.13877421895872846
+   }
+  },
+  "Conlangs - Neo-Quenya - Literary - NT": {
+   "primi 2 segni": {
+    "coppie": 1068,
+    "osservata": 0.024344569288389514,
+    "nullo": 0.022205056179775282,
+    "rapporto": 1.0963525195024246,
+    "z": 0.4763128224894279
+   },
+   "primo segno": {
+    "coppie": 1068,
+    "osservata": 0.0702247191011236,
+    "nullo": 0.07583333333333334,
+    "rapporto": 0.9260402518829486,
+    "z": -0.719860935403296
+   }
+  },
+  "Conlangs - Neo-Quenya - Technical - Europe-Taipei Wikia": {
+   "primi 2 segni": {
+    "coppie": 93,
+    "osservata": 0.08602150537634409,
+    "nullo": 0.05360215053763441,
+    "rapporto": 1.60481444332999,
+    "z": 1.570658718770584
+   },
+   "primo segno": {
+    "coppie": 93,
+    "osservata": 0.15053763440860216,
+    "nullo": 0.13236559139784945,
+    "rapporto": 1.1372867587327378,
+    "z": 0.554952101477778
+   }
+  },
+  "Conlangs - Toki Pona - Literary - NT - Sermon on the Mount": {
+   "primi 2 segni": {
+    "coppie": 183,
+    "osservata": 0.09836065573770492,
+    "nullo": 0.10265027322404371,
+    "rapporto": 0.9582113388341762,
+    "z": -0.21806586176671944
+   },
+   "primo segno": {
+    "coppie": 183,
+    "osservata": 0.14207650273224043,
+    "nullo": 0.14841530054644808,
+    "rapporto": 0.9572901325478644,
+    "z": -0.28941813092927493
+   }
+  },
+  "Conlangs - Toki Pona - Technical - Turkey-Mexico Wikia": {
+   "primi 2 segni": {
+    "coppie": 118,
+    "osservata": 0.13559322033898305,
+    "nullo": 0.07055084745762712,
+    "rapporto": 1.921921921921922,
+    "z": 3.0874939012195255
+   },
+   "primo segno": {
+    "coppie": 118,
+    "osservata": 0.17796610169491525,
+    "nullo": 0.1278813559322034,
+    "rapporto": 1.3916500994035783,
+    "z": 1.6576095760236729
+   }
+  },
+  "Conlangs - Volapuk - Literary - NT": {
+   "primi 2 segni": {
+    "coppie": 996,
+    "osservata": 0.025100401606425703,
+    "nullo": 0.02128012048192771,
+    "rapporto": 1.179523472517103,
+    "z": 0.835366911943551
+   },
+   "primo segno": {
+    "coppie": 996,
+    "osservata": 0.07228915662650602,
+    "nullo": 0.06765060240963855,
+    "rapporto": 1.068566340160285,
+    "z": 0.5979081069910468
+   }
+  },
+  "Conlangs - Volapuk - Technical - History Wiki": {
+   "primi 2 segni": {
+    "coppie": 195,
+    "osservata": 0.07692307692307693,
+    "nullo": 0.044384615384615383,
+    "rapporto": 1.733102253032929,
+    "z": 2.549040865716464
+   },
+   "primo segno": {
+    "coppie": 195,
+    "osservata": 0.10256410256410256,
+    "nullo": 0.08282051282051282,
+    "rapporto": 1.2383900928792568,
+    "z": 0.9921658931625488
+   }
+  },
+  "Historical - Anglo-Saxon - Literary - NT - Hatton Gospels": {
+   "primi 2 segni": {
+    "coppie": 1099,
+    "osservata": 0.029117379435850774,
+    "nullo": 0.03532302092811647,
+    "rapporto": 0.8243173621844411,
+    "z": -1.3398950511762333
+   },
+   "primo segno": {
+    "coppie": 1099,
+    "osservata": 0.09463148316651501,
+    "nullo": 0.09155595996360327,
+    "rapporto": 1.0335917312661498,
+    "z": 0.39063895141891414
+   }
+  },
+  "Historical - Anglo-Saxon - Technical - Leechbook": {
+   "primi 2 segni": {
+    "coppie": 80,
+    "osservata": 0.025,
+    "nullo": 0.0323125,
+    "rapporto": 0.7736943907156674,
+    "z": -0.43813464757039594
+   },
+   "primo segno": {
+    "coppie": 80,
+    "osservata": 0.0625,
+    "nullo": 0.0735625,
+    "rapporto": 0.8496176720475785,
+    "z": -0.41526990926921536
+   }
+  },
+  "Historical - Arabic - Literary - Quran": {
+   "primi 2 segni": {
+    "coppie": 1023,
+    "osservata": 0.019550342130987292,
+    "nullo": 0.021358748778103617,
+    "rapporto": 0.9153318077803204,
+    "z": -0.4058589083602423
+   },
+   "primo segno": {
+    "coppie": 1023,
+    "osservata": 0.08797653958944282,
+    "nullo": 0.10367546432062562,
+    "rapporto": 0.848576277578729,
+    "z": -2.0024003728050124
+   }
+  },
+  "Historical - Arabic - Technical - Avicenna": {
+   "primi 2 segni": {
+    "coppie": 784,
+    "osservata": 0.08801020408163265,
+    "nullo": 0.0875829081632653,
+    "rapporto": 1.0048787591931843,
+    "z": 0.0557615285124333
+   },
+   "primo segno": {
+    "coppie": 784,
+    "osservata": 0.1568877551020408,
+    "nullo": 0.15653061224489795,
+    "rapporto": 1.0022816166883963,
+    "z": 0.03621684301527663
+   }
+  },
+  "Historical - English - Literary - NT (KJV)": {
+   "primi 2 segni": {
+    "coppie": 755,
+    "osservata": 0.045033112582781455,
+    "nullo": 0.06097350993377484,
+    "rapporto": 0.7385684805039643,
+    "z": -2.1093343052333684
+   },
+   "primo segno": {
+    "coppie": 755,
+    "osservata": 0.0781456953642384,
+    "nullo": 0.0967682119205298,
+    "rapporto": 0.8075554338899534,
+    "z": -1.8615349707731066
+   }
+  },
+  "Historical - English - Technical - Secreta Alberti": {
+   "primi 2 segni": {
+    "coppie": 979,
+    "osservata": 0.03575076608784474,
+    "nullo": 0.03660367722165475,
+    "rapporto": 0.9766987581972931,
+    "z": -0.16503853763076998
+   },
+   "primo segno": {
+    "coppie": 979,
+    "osservata": 0.07967313585291114,
+    "nullo": 0.08555669050051072,
+    "rapporto": 0.9312320916905444,
+    "z": -0.7221902033503307
+   }
+  },
+  "Historical - Flemish - Literary - NT": {
+   "primi 2 segni": {
+    "coppie": 1075,
+    "osservata": 0.029767441860465118,
+    "nullo": 0.03008372093023256,
+    "rapporto": 0.9894867037724181,
+    "z": -0.06220557677115109
+   },
+   "primo segno": {
+    "coppie": 1075,
+    "osservata": 0.08465116279069768,
+    "nullo": 0.08414883720930233,
+    "rapporto": 1.0059694892770286,
+    "z": 0.06679997200449465
+   }
+  },
+  "Historical - Flemish - Technical - Cruydeboeck": {
+   "primi 2 segni": {
+    "coppie": 1096,
+    "osservata": 0.025547445255474453,
+    "nullo": 0.02676094890510949,
+    "rapporto": 0.954653937947494,
+    "z": -0.2921764699372839
+   },
+   "primo segno": {
+    "coppie": 1096,
+    "osservata": 0.06751824817518248,
+    "nullo": 0.06275547445255475,
+    "rapporto": 1.0758941552776968,
+    "z": 0.6739462801309832
+   }
+  },
+  "Historical - French - Literary - NT - Martin": {
+   "primi 2 segni": {
+    "coppie": 1034,
+    "osservata": 0.035783365570599614,
+    "nullo": 0.04611218568665377,
+    "rapporto": 0.776006711409396,
+    "z": -1.9571603408664031
+   },
+   "primo segno": {
+    "coppie": 1034,
+    "osservata": 0.08220502901353965,
+    "nullo": 0.092678916827853,
+    "rapporto": 0.88698737347386,
+    "z": -1.3472285677926297
+   }
+  },
+  "Historical - German - Literary - NT - Luther": {
+   "primi 2 segni": {
+    "coppie": 1021,
+    "osservata": 0.034280117531831536,
+    "nullo": 0.05035749265426053,
+    "rapporto": 0.6807351940095302,
+    "z": -2.6406250201275125
+   },
+   "primo segno": {
+    "coppie": 1021,
+    "osservata": 0.08129285014691479,
+    "nullo": 0.09970617042115573,
+    "rapporto": 0.8153241650294695,
+    "z": -2.2186848974324205
+   }
+  },
+  "Historical - German - Technical - German Herbarium": {
+   "primi 2 segni": {
+    "coppie": 1230,
+    "osservata": 0.034959349593495934,
+    "nullo": 0.029841463414634145,
+    "rapporto": 1.1715025200926303,
+    "z": 1.0879680558119527
+   },
+   "primo segno": {
+    "coppie": 1230,
+    "osservata": 0.08048780487804878,
+    "nullo": 0.07725609756097561,
+    "rapporto": 1.041831097079716,
+    "z": 0.4323350640765013
+   }
+  },
+  "Historical - Greek - Literary - NT - Textus Receptus": {
+   "primi 2 segni": {
+    "coppie": 911,
+    "osservata": 0.054884742041712405,
+    "nullo": 0.05929747530186608,
+    "rapporto": 0.9255831173639393,
+    "z": -0.6751812659061681
+   },
+   "primo segno": {
+    "coppie": 911,
+    "osservata": 0.10647639956092206,
+    "nullo": 0.11697585071350165,
+    "rapporto": 0.9102425749542532,
+    "z": -1.0398227286641084
+   }
+  },
+  "Historical - Greek - Technical - De odoribus": {
+   "primi 2 segni": {
+    "coppie": 591,
+    "osservata": 0.025380710659898477,
+    "nullo": 0.02024534686971235,
+    "rapporto": 1.2536564981195153,
+    "z": 0.8515149922331788
+   },
+   "primo segno": {
+    "coppie": 591,
+    "osservata": 0.08121827411167512,
+    "nullo": 0.06813028764805415,
+    "rapporto": 1.1921023221159814,
+    "z": 1.2165683460955334
+   }
+  },
+  "Historical - Italian - Literary - NT - Diodati": {
+   "primi 2 segni": {
+    "coppie": 845,
+    "osservata": 0.023668639053254437,
+    "nullo": 0.030568047337278106,
+    "rapporto": 0.7742934572202865,
+    "z": -1.1985360163656946
+   },
+   "primo segno": {
+    "coppie": 845,
+    "osservata": 0.07218934911242604,
+    "nullo": 0.07634911242603551,
+    "rapporto": 0.9455165465395644,
+    "z": -0.44515154400354356
+   }
+  },
+  "Historical - Italian - Technical - Della Pittura": {
+   "primi 2 segni": {
+    "coppie": 1126,
+    "osservata": 0.035523978685612786,
+    "nullo": 0.032007104795737124,
+    "rapporto": 1.1098779134295227,
+    "z": 0.7248274929020726
+   },
+   "primo segno": {
+    "coppie": 1126,
+    "osservata": 0.08348134991119005,
+    "nullo": 0.08457815275310834,
+    "rapporto": 0.9870320785425527,
+    "z": -0.14874145544274767
+   }
+  },
+  "Historical - Latin (Abbreviated) - Literary - NT (Vulgate)": {
+   "primi 2 segni": {
+    "coppie": 469,
+    "osservata": 0.0255863539445629,
+    "nullo": 0.021513859275053306,
+    "rapporto": 1.189296333002973,
+    "z": 0.656597799492682
+   },
+   "primo segno": {
+    "coppie": 469,
+    "osservata": 0.08955223880597014,
+    "nullo": 0.07764392324093816,
+    "rapporto": 1.1533708636550872,
+    "z": 0.9934832923665077
+   }
+  },
+  "Historical - Latin (Abbreviated) - Technical - Pliny's Natural History": {
+   "primi 2 segni": {
+    "coppie": 940,
+    "osservata": 0.031914893617021274,
+    "nullo": 0.016877659574468084,
+    "rapporto": 1.8909549322407815,
+    "z": 3.8013281782777986
+   },
+   "primo segno": {
+    "coppie": 940,
+    "osservata": 0.09893617021276596,
+    "nullo": 0.07070744680851064,
+    "rapporto": 1.3992326788535319,
+    "z": 3.6312273840924476
+   }
+  },
+  "Historical - Latin - Literary - NT (Vulgate)": {
+   "primi 2 segni": {
+    "coppie": 1140,
+    "osservata": 0.03684210526315789,
+    "nullo": 0.04394298245614035,
+    "rapporto": 0.8384070266493661,
+    "z": -1.2895429584920113
+   },
+   "primo segno": {
+    "coppie": 1140,
+    "osservata": 0.09824561403508772,
+    "nullo": 0.09426754385964912,
+    "rapporto": 1.0421997859768297,
+    "z": 0.49352178648722805
+   }
+  },
+  "Historical - Latin - Technical - Pliny's Natural History": {
+   "primi 2 segni": {
+    "coppie": 1263,
+    "osservata": 0.04513064133016627,
+    "nullo": 0.033867775138558986,
+    "rapporto": 1.3325540619520748,
+    "z": 2.591320798804883
+   },
+   "primo segno": {
+    "coppie": 1263,
+    "osservata": 0.09738717339667459,
+    "nullo": 0.07872129849564528,
+    "rapporto": 1.2371134020618557,
+    "z": 2.8394470882530176
+   }
+  },
+  "Historical - Mayan (Kaqchikel) - Literary - Annals of the Cakchiquels": {
+   "primi 2 segni": {
+    "coppie": 735,
+    "osservata": 0.04081632653061224,
+    "nullo": 0.030231292517006802,
+    "rapporto": 1.3501350135013501,
+    "z": 1.9054210384367065
+   },
+   "primo segno": {
+    "coppie": 735,
+    "osservata": 0.09659863945578231,
+    "nullo": 0.08937414965986394,
+    "rapporto": 1.0808342213426703,
+    "z": 0.6857815573183023
+   }
+  },
+  "Historical - Mayan (Yucatec) - Technical - Chilam Balam": {
+   "primi 2 segni": {
+    "coppie": 118,
+    "osservata": 0.025423728813559324,
+    "nullo": 0.02754237288135593,
+    "rapporto": 0.9230769230769231,
+    "z": -0.14250856858528688
+   },
+   "primo segno": {
+    "coppie": 118,
+    "osservata": 0.07627118644067797,
+    "nullo": 0.1016949152542373,
+    "rapporto": 0.75,
+    "z": -0.9175556253099242
+   }
+  },
+  "Historical - Nahuatl - Literary - Nican Mopohua": {
+   "primi 2 segni": {
+    "coppie": 390,
+    "osservata": 0.06923076923076923,
+    "nullo": 0.08106410256410257,
+    "rapporto": 0.8540249881385418,
+    "z": -0.9426856714714845
+   },
+   "primo segno": {
+    "coppie": 390,
+    "osservata": 0.1564102564102564,
+    "nullo": 0.15747435897435896,
+    "rapporto": 0.9932426931531385,
+    "z": -0.060416610502836955
+   }
+  },
+  "Historical - Nahuatl - Technical - Florentine Codex": {
+   "primi 2 segni": {
+    "coppie": 313,
+    "osservata": 0.10223642172523961,
+    "nullo": 0.07718849840255591,
+    "rapporto": 1.324503311258278,
+    "z": 1.9386470778085552
+   },
+   "primo segno": {
+    "coppie": 313,
+    "osservata": 0.19808306709265175,
+    "nullo": 0.17445686900958465,
+    "rapporto": 1.1354271586851021,
+    "z": 1.1930682582084509
+   }
+  },
+  "Historical - Portuguese - Technical - Coloquios dos simples": {
+   "primi 2 segni": {
+    "coppie": 336,
+    "osservata": 0.008928571428571428,
+    "nullo": 0.021473214285714286,
+    "rapporto": 0.41580041580041577,
+    "z": -1.6237048987282041
+   },
+   "primo segno": {
+    "coppie": 336,
+    "osservata": 0.05952380952380952,
+    "nullo": 0.06898809523809524,
+    "rapporto": 0.8628127696289905,
+    "z": -0.7576240410853866
+   }
+  },
+  "Historical - Russian - Literary - NT - Codex Marianus": {
+   "primi 2 segni": {
+    "coppie": 572,
+    "osservata": 0.024475524475524476,
+    "nullo": 0.024458041958041958,
+    "rapporto": 1.0007147962830594,
+    "z": 0.0029578679704703997
+   },
+   "primo segno": {
+    "coppie": 572,
+    "osservata": 0.06818181818181818,
+    "nullo": 0.06948426573426573,
+    "rapporto": 0.9812555038369606,
+    "z": -0.12479223916301553
+   }
+  },
+  "Historical - Sanskrit - Literary - Mahabharata": {
+   "primi 2 segni": {
+    "coppie": 1350,
+    "osservata": 0.017777777777777778,
+    "nullo": 0.027881481481481483,
+    "rapporto": 0.6376195536663124,
+    "z": -2.828779889738811
+   },
+   "primo segno": {
+    "coppie": 1350,
+    "osservata": 0.06074074074074074,
+    "nullo": 0.0690074074074074,
+    "rapporto": 0.8802060970373551,
+    "z": -1.4954036274408318
+   }
+  },
+  "Historical - Sanskrit - Technical - Charaka Samhita": {
+   "primi 2 segni": {
+    "coppie": 1423,
+    "osservata": 0.007730147575544624,
+    "nullo": 0.009775122979620519,
+    "rapporto": 0.7907979870596693,
+    "z": -0.819088109552348
+   },
+   "primo segno": {
+    "coppie": 1423,
+    "osservata": 0.030920590302178495,
+    "nullo": 0.032055516514406183,
+    "rapporto": 0.9645949797215828,
+    "z": -0.25368892259842196
+   }
+  },
+  "Historical - Spanish - Literary - NT - Sagradas Escrituras": {
+   "primi 2 segni": {
+    "coppie": 654,
+    "osservata": 0.019877675840978593,
+    "nullo": 0.03334862385321101,
+    "rapporto": 0.5960568546538285,
+    "z": -2.1852298116162263
+   },
+   "primo segno": {
+    "coppie": 654,
+    "osservata": 0.07951070336391437,
+    "nullo": 0.08440366972477065,
+    "rapporto": 0.9420289855072463,
+    "z": -0.5256507287287447
+   }
+  },
+  "Historical - Spanish - Technical - De Materia Medica": {
+   "primi 2 segni": {
+    "coppie": 97,
+    "osservata": 0.020618556701030927,
+    "nullo": 0.012371134020618556,
+    "rapporto": 1.6666666666666667,
+    "z": 0.8
+   },
+   "primo segno": {
+    "coppie": 97,
+    "osservata": 0.09278350515463918,
+    "nullo": 0.0711340206185567,
+    "rapporto": 1.3043478260869565,
+    "z": 1.0057175994822092
+   }
+  },
+  "Modern - Arabic - Literary - NT": {
+   "primi 2 segni": {
+    "coppie": 899,
+    "osservata": 0.03781979977753059,
+    "nullo": 0.04120133481646274,
+    "rapporto": 0.91792656587473,
+    "z": -0.5040246615108026
+   },
+   "primo segno": {
+    "coppie": 899,
+    "osservata": 0.1568409343715239,
+    "nullo": 0.18580645161290324,
+    "rapporto": 0.8441091954022988,
+    "z": -2.8562248451633376
+   }
+  },
+  "Modern - Arabic - Technical - Voynich Wiki": {
+   "primi 2 segni": {
+    "coppie": 204,
+    "osservata": 0.08823529411764706,
+    "nullo": 0.06894607843137254,
+    "rapporto": 1.279772484891575,
+    "z": 1.231446031502587
+   },
+   "primo segno": {
+    "coppie": 204,
+    "osservata": 0.11274509803921569,
+    "nullo": 0.11593137254901961,
+    "rapporto": 0.9725158562367865,
+    "z": -0.1621583073202072
+   }
+  },
+  "Modern - Chinese (Pinyin) - Literary - NT - Matthew": {
+   "primi 2 segni": {
+    "coppie": 675,
+    "osservata": 0.034074074074074076,
+    "nullo": 0.04028888888888889,
+    "rapporto": 0.8457437028865601,
+    "z": -0.8899989658296437
+   },
+   "primo segno": {
+    "coppie": 675,
+    "osservata": 0.09185185185185185,
+    "nullo": 0.09683703703703704,
+    "rapporto": 0.9485198500726688,
+    "z": -0.4951647929467324
+   }
+  },
+  "Modern - Chinese (Pinyin) - Technical - Voynich Wiki": {
+   "primi 2 segni": {
+    "coppie": 156,
+    "osservata": 0.04487179487179487,
+    "nullo": 0.026506410256410255,
+    "rapporto": 1.6928657799274487,
+    "z": 1.5900051451553159
+   },
+   "primo segno": {
+    "coppie": 156,
+    "osservata": 0.07692307692307693,
+    "nullo": 0.07019230769230769,
+    "rapporto": 1.0958904109589043,
+    "z": 0.34288284932384316
+   }
+  },
+  "Modern - English - Literary - NT": {
+   "primi 2 segni": {
+    "coppie": 978,
+    "osservata": 0.03680981595092025,
+    "nullo": 0.035593047034764826,
+    "rapporto": 1.0341855788566505,
+    "z": 0.23019561283658754
+   },
+   "primo segno": {
+    "coppie": 978,
+    "osservata": 0.09202453987730061,
+    "nullo": 0.08030163599182004,
+    "rapporto": 1.1459858661743172,
+    "z": 1.4176076600987502
+   }
+  },
+  "Modern - English - Technical - Voynich Wiki": {
+   "primi 2 segni": {
+    "coppie": 895,
+    "osservata": 0.02011173184357542,
+    "nullo": 0.023536312849162012,
+    "rapporto": 0.8544979824353192,
+    "z": -0.7320317551914387
+   },
+   "primo segno": {
+    "coppie": 895,
+    "osservata": 0.07597765363128492,
+    "nullo": 0.06781564245810055,
+    "rapporto": 1.120355877749403,
+    "z": 1.0478358702031219
+   }
+  },
+  "Modern - French - Literary - NT": {
+   "primi 2 segni": {
+    "coppie": 1024,
+    "osservata": 0.0322265625,
+    "nullo": 0.035576171875,
+    "rapporto": 0.9058468295360966,
+    "z": -0.6237900101811478
+   },
+   "primo segno": {
+    "coppie": 1024,
+    "osservata": 0.076171875,
+    "nullo": 0.078271484375,
+    "rapporto": 0.973175296319401,
+    "z": -0.25834797071068405
+   }
+  },
+  "Modern - French - Technical - Voynich Wiki": {
+   "primi 2 segni": {
+    "coppie": 958,
+    "osservata": 0.018789144050104383,
+    "nullo": 0.01817849686847599,
+    "rapporto": 1.0335917312661498,
+    "z": 0.138530818769551
+   },
+   "primo segno": {
+    "coppie": 958,
+    "osservata": 0.07620041753653445,
+    "nullo": 0.07443110647181628,
+    "rapporto": 1.0237711240445972,
+    "z": 0.22961667732815277
+   }
+  },
+  "Modern - German - Literary - NT": {
+   "primi 2 segni": {
+    "coppie": 1066,
+    "osservata": 0.0375234521575985,
+    "nullo": 0.04699812382739212,
+    "rapporto": 0.7984031936127745,
+    "z": -1.612957605355552
+   },
+   "primo segno": {
+    "coppie": 1066,
+    "osservata": 0.07786116322701689,
+    "nullo": 0.0923452157598499,
+    "rapporto": 0.8431531897602601,
+    "z": -1.7228409226504269
+   }
+  },
+  "Modern - German - Technical - Voynich Wiki": {
+   "primi 2 segni": {
+    "coppie": 792,
+    "osservata": 0.03282828282828283,
+    "nullo": 0.02278409090909091,
+    "rapporto": 1.4408423385979496,
+    "z": 1.9979508330772187
+   },
+   "primo segno": {
+    "coppie": 792,
+    "osservata": 0.07575757575757576,
+    "nullo": 0.06387626262626263,
+    "rapporto": 1.186005139355604,
+    "z": 1.5029206967806872
+   }
+  },
+  "Modern - Hebrew - Literary - NT": {
+   "primi 2 segni": {
+    "coppie": 851,
+    "osservata": 0.1128084606345476,
+    "nullo": 0.13541128084606346,
+    "rapporto": 0.8330802273614787,
+    "z": -2.6134468654666825
+   },
+   "primo segno": {
+    "coppie": 851,
+    "osservata": 0.27379553466509987,
+    "nullo": 0.3147238542890717,
+    "rapporto": 0.8699548220886383,
+    "z": -3.601433943246307
+   }
+  },
+  "Modern - Hebrew - Technical - Voynich Wiki": {
+   "primi 2 segni": {
+    "coppie": 130,
+    "osservata": 0.015384615384615385,
+    "nullo": 0.01223076923076923,
+    "rapporto": 1.257861635220126,
+    "z": 0.34144148438622024
+   },
+   "primo segno": {
+    "coppie": 130,
+    "osservata": 0.05384615384615385,
+    "nullo": 0.08226923076923078,
+    "rapporto": 0.6545114539504441,
+    "z": -1.2056908881229107
+   }
+  },
+  "Modern - Italian - Literary - NT": {
+   "primi 2 segni": {
+    "coppie": 796,
+    "osservata": 0.02512562814070352,
+    "nullo": 0.025741206030150753,
+    "rapporto": 0.9760858955588093,
+    "z": -0.11051097938660899
+   },
+   "primo segno": {
+    "coppie": 796,
+    "osservata": 0.06407035175879397,
+    "nullo": 0.06902638190954774,
+    "rapporto": 0.9282009282009281,
+    "z": -0.5836796765547916
+   }
+  },
+  "Modern - Italian - Technical - Voynich Wiki": {
+   "primi 2 segni": {
+    "coppie": 352,
+    "osservata": 0.03409090909090909,
+    "nullo": 0.026349431818181817,
+    "rapporto": 1.2938005390835579,
+    "z": 1.0072319825927634
+   },
+   "primo segno": {
+    "coppie": 352,
+    "osservata": 0.09375,
+    "nullo": 0.07532670454545455,
+    "rapporto": 1.2445785404488026,
+    "z": 1.4913061186900316
+   }
+  },
+  "Modern - Maori - Literary - NT": {
+   "primi 2 segni": {
+    "coppie": 611,
+    "osservata": 0.04091653027823241,
+    "nullo": 0.058494271685761046,
+    "rapporto": 0.6994963626189145,
+    "z": -2.1461808096833126
+   },
+   "primo segno": {
+    "coppie": 611,
+    "osservata": 0.11783960720130933,
+    "nullo": 0.14550736497545008,
+    "rapporto": 0.8098532141049435,
+    "z": -2.2599141497866566
+   }
+  },
+  "Modern - Maori - Technical - Polandball Wiki": {
+   "primi 2 segni": {
+    "coppie": 113,
+    "osservata": 0.017699115044247787,
+    "nullo": 0.03079646017699115,
+    "rapporto": 0.574712643678161,
+    "z": -0.8517007056077306
+   },
+   "primo segno": {
+    "coppie": 113,
+    "osservata": 0.09734513274336283,
+    "nullo": 0.08920353982300885,
+    "rapporto": 1.0912698412698412,
+    "z": 0.3262165229955044
+   }
+  },
+  "Modern - Portuguese - Technical - Voynich Wiki": {
+   "primi 2 segni": {
+    "coppie": 285,
+    "osservata": 0.007017543859649123,
+    "nullo": 0.017964912280701753,
+    "rapporto": 0.39062500000000006,
+    "z": -1.4538228343809938
+   },
+   "primo segno": {
+    "coppie": 285,
+    "osservata": 0.03508771929824561,
+    "nullo": 0.05601754385964912,
+    "rapporto": 0.6263701847792045,
+    "z": -1.4233166033092488
+   }
+  },
+  "Modern - Russian - Technical - Voynich Wiki": {
+   "primi 2 segni": {
+    "coppie": 696,
+    "osservata": 0.017241379310344827,
+    "nullo": 0.018455459770114944,
+    "rapporto": 0.9342156481121058,
+    "z": -0.24301106422375374
+   },
+   "primo segno": {
+    "coppie": 696,
+    "osservata": 0.04885057471264368,
+    "nullo": 0.06201867816091954,
+    "rapporto": 0.7876751998146647,
+    "z": -1.5216408114986537
+   }
+  },
+  "Modern - Spanish - Technical - Voynich Wiki": {
+   "primi 2 segni": {
+    "coppie": 829,
+    "osservata": 0.026537997587454766,
+    "nullo": 0.02120627261761158,
+    "rapporto": 1.2514220705346986,
+    "z": 1.0973588091075477
+   },
+   "primo segno": {
+    "coppie": 829,
+    "osservata": 0.06755126658624849,
+    "nullo": 0.0742400482509047,
+    "rapporto": 0.9099033227719555,
+    "z": -0.8194563632538054
+   }
+  },
+  "Modern - Swahili - Literary - NT": {
+   "primi 2 segni": {
+    "coppie": 1206,
+    "osservata": 0.0439469320066335,
+    "nullo": 0.039187396351575456,
+    "rapporto": 1.1214557765552264,
+    "z": 0.9121182375171333
+   },
+   "primo segno": {
+    "coppie": 1206,
+    "osservata": 0.11194029850746269,
+    "nullo": 0.09614842454394693,
+    "rapporto": 1.1642447501185806,
+    "z": 2.033291048990464
+   }
+  },
+  "Modern - Swahili - Technical - Lung Cancer Wiki": {
+   "primi 2 segni": {
+    "coppie": 555,
+    "osservata": 0.03963963963963964,
+    "nullo": 0.03528828828828829,
+    "rapporto": 1.1233086545825886,
+    "z": 0.6031325763332737
+   },
+   "primo segno": {
+    "coppie": 555,
+    "osservata": 0.10990990990990991,
+    "nullo": 0.10412612612612612,
+    "rapporto": 1.0555459422045337,
+    "z": 0.520006677703574
+   }
+  },
+  "Modern - Tagalog - Literary - NT - Ang Dating Biblia": {
+   "primi 2 segni": {
+    "coppie": 1082,
+    "osservata": 0.05730129390018484,
+    "nullo": 0.07536968576709796,
+    "rapporto": 0.7602697731453096,
+    "z": -2.628070396600372
+   },
+   "primo segno": {
+    "coppie": 1082,
+    "osservata": 0.11275415896487985,
+    "nullo": 0.1357855822550832,
+    "rapporto": 0.8303838823849713,
+    "z": -2.717158216600375
+   }
+  },
+  "Modern - Tagalog - Technical - Tuberculosis Wiki": {
+   "primi 2 segni": {
+    "coppie": 719,
+    "osservata": 0.048678720445062586,
+    "nullo": 0.0406884561891516,
+    "rapporto": 1.1963766877456843,
+    "z": 1.2849431323117777
+   },
+   "primo segno": {
+    "coppie": 719,
+    "osservata": 0.10152990264255911,
+    "nullo": 0.09770514603616133,
+    "rapporto": 1.0391459074733096,
+    "z": 0.34788533289141177
+   }
+  },
+  "Modern - Turkish - Literary - NT": {
+   "primi 2 segni": {
+    "coppie": 1141,
+    "osservata": 0.011393514460999123,
+    "nullo": 0.03141104294478528,
+    "rapporto": 0.36272321428571425,
+    "z": -4.083496470217742
+   },
+   "primo segno": {
+    "coppie": 1141,
+    "osservata": 0.07274320771253287,
+    "nullo": 0.08354951796669588,
+    "rapporto": 0.8706598132801847,
+    "z": -1.4208964080374291
+   }
+  },
+  "Modern - Turkish - Technical - Middle Ages Wiki": {
+   "primi 2 segni": {
+    "coppie": 439,
+    "osservata": 0.025056947608200455,
+    "nullo": 0.014943052391799544,
+    "rapporto": 1.6768292682926829,
+    "z": 1.870174224156447
+   },
+   "primo segno": {
+    "coppie": 439,
+    "osservata": 0.07289293849658314,
+    "nullo": 0.05843963553530752,
+    "rapporto": 1.2473202104852854,
+    "z": 1.3137469582858856
+   }
+  },
+  "Modern - Wolof - Technical - Senegal Wiki": {
+   "primi 2 segni": {
+    "coppie": 444,
+    "osservata": 0.015765765765765764,
+    "nullo": 0.016621621621621622,
+    "rapporto": 0.9485094850948509,
+    "z": -0.14762876615345463
+   },
+   "primo segno": {
+    "coppie": 444,
+    "osservata": 0.07207207207207207,
+    "nullo": 0.06626126126126126,
+    "rapporto": 1.087695445275323,
+    "z": 0.5108800713259728
+   }
+  },
+  "Modern - Yoruba - Technical - Jupiter Wiki": {
+   "primi 2 segni": {
+    "coppie": 324,
+    "osservata": 0.024691358024691357,
+    "nullo": 0.021003086419753084,
+    "rapporto": 1.1756061719324027,
+    "z": 0.5298319012024145
+   },
+   "primo segno": {
+    "coppie": 324,
+    "osservata": 0.07098765432098765,
+    "nullo": 0.0807253086419753,
+    "rapporto": 0.87937296883961,
+    "z": -0.7077661289777031
+   }
+  }
+ },
+ "sensati": {
+  "n": 57,
+  "min": 0.36272321428571425,
+  "mediana": 0.954653937947494,
+  "max": 1.8909549322407815,
+  "sotto_il_voynich": 3
+ },
+ "esito": "il gibberish umano no"
+}
