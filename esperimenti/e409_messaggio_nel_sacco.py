@@ -24,8 +24,11 @@ import e406_generatore_pezzi as e406
 RISULTATI = os.path.join(QUI, '..', 'risultati')
 TESTO = os.path.join(QUI, '..', 'esecuzioni', 'voynichizzatore', 'isidoro_xvii_inizio.txt')
 VERSIONE = os.environ.get('VERSIONE', 'v9')
-CHIAVI = (1, 2, 3, 4)
+CHIAVI = tuple(int(x) for x in os.environ.get('CHIAVI', '1,2,3,4').split(','))
 CASI = OrderedDict([('a', 'messaggio nel sacco'), ('b', 'stesso canale, soli bit di riempimento'), ('c', 'nascondiglio vecchio sul corpo della versione di partenza')])
+if os.environ.get('CASI'):
+    CASI = OrderedDict((c, CASI[c]) for c in os.environ['CASI'].split(','))
+NOME = 'e409_messaggio_nel_sacco' if CHIAVI == (1, 2, 3, 4) and len(CASI) == 3 else 'e409b_messaggio_nel_sacco_chiavi_%d_%d' % (CHIAVI[0], CHIAVI[-1])
 
 
 def lavoro(args):
@@ -105,15 +108,15 @@ def main():
             x['capacita_bit'] = media(lambda r: r['capacita_bit'])
         sintesi[c] = x
     out = OrderedDict([('versione', VERSIONE), ('Voynich', voy), ('sintesi', sintesi), ('per_chiave', OrderedDict(('%s|%d' % a, ris[a]) for a in ris if a[0] != 'V'))])
-    json.dump(out, open(os.path.join(RISULTATI, 'e409_messaggio_nel_sacco.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1, default=float)
+    json.dump(out, open(os.path.join(RISULTATI, NOME + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1, default=float)
     gr = list(sintesi['a']['gruppi'])
     a = sintesi['a']
     md = ['# e409 — Il messaggio nel sacco', '',
           'Corpo di partenza: %s. Isidoro XVII (%d bit dopo compressione e cifratura), quattro chiavi. Preregistrazione: `preregistrazioni/e409.md`.' % (VERSIONE, a['bit_messaggio']), '',
-          '- Andata e ritorno esatta: %d su 4; chiave sbagliata respinta: %d su 4.' % (a['decodifica_esatta'], a['chiave_sbagliata_respinta']),
+          '- Andata e ritorno esatta: %d su %d; chiave sbagliata respinta: %d su %d.' % (a['decodifica_esatta'], len(CHIAVI), a['chiave_sbagliata_respinta'], len(CHIAVI)),
           '- Capacità del libro: %.0f bit con il messaggio, %.0f con soli bit di riempimento (servono %d); pagine usate dal messaggio %.0f su 207.' % (
               a['capacita_bit'], sintesi['b']['capacita_bit'], a['bit_messaggio'], a['pagine_usate']),
-          '- Nascondiglio vecchio (c): decodifica esatta %d su 4.' % sintesi['c']['decodifica_esatta'], '',
+          ('- Nascondiglio vecchio (c): decodifica esatta %d su %d.' % (sintesi['c']['decodifica_esatta'], len(CHIAVI))) if 'c' in sintesi else '', '',
           '| caso | che cosa | AUC e231 (per chiave) | AUC e266 (per chiave) | solo sacco | pagella | estese | riga | tipi su parole (Voynich %.4f) | JSD (Voynich %.4f) | %s |' % (
               voy['tipi su parole'], voy['JSD'], ' | '.join(gr)), '|---|---|---|---|---|---|---|---|---|---|' + '---|' * len(gr)]
     for c, x in sintesi.items():
@@ -131,7 +134,7 @@ def main():
         md += ['**%s**' % c, '', '| caratteristica | coefficiente | Voynich | testo |', '|---|---|---|---|']
         md += ['| %s | %+.2f | %.4f | %.4f |' % tuple(z) for z in x['pesanti_e266']]
         md.append('')
-    open(os.path.join(RISULTATI, 'e409_messaggio_nel_sacco.md'), 'w', encoding='utf-8').write('\n'.join(md) + '\n')
+    open(os.path.join(RISULTATI, NOME + '.md'), 'w', encoding='utf-8').write('\n'.join(md) + '\n')
     print(json.dumps({c: [round(x['AUC_e231'], 3), round(x['AUC_e266'], 3), x['pagella_media']] for c, x in sintesi.items()}))
 
 
