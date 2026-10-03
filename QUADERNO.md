@@ -5657,3 +5657,27 @@ sequenza.
   - La potenza è limitata (32 pagine in un solo strato utile).
   - Nota tecnica: nel .md le etichette delle mani compaiono come *np.str_*; è solo un difetto di stampa,
     i numeri sono giusti.
+
+## 3/10/2026 — e245: le etichette non richiamano il testo della loro pagina (meno legate di una riga qualsiasi)
+
+- **Preregistrato.** Strada 2 della lista di decifrazione.
+  - 696 etichette (loci L, ≥ 2 unità), di cui 199 rare.
+  - Legame con i paragrafi della stessa pagina contro quelli di un'altra pagina della stessa sezione.
+  - Confronto con il legame di una riga di testo con la sua pagina.
+- **Risultati** (R = quota vera / nulla):
+
+  | legame | R etichette | z | R righe di testo |
+  |---|---|---|---|
+  | esatto | 1,09 | 1,0 | 1,30 |
+  | variante | 1,10 | 3,1 | 1,12 |
+  | **raro esatto** | **1,24** | **0,6** | **1,82** |
+
+- **Esito: nessun legame.**
+- **Lettura.**
+  - Un'etichetta non ripete le parole rare del testo della sua pagina più di quelle di un'altra pagina.
+    Non c'è il comportamento di un nome che il testo richiama.
+  - Le etichette sono anche **meno** legate alla loro pagina di quanto lo sia una riga di testo: la
+    loro pagina non fa loro da "serbatoio" come fa con le righe.
+  - Si accorda con l'e183, l'e187 (le etichette differiscono solo in lunghezza) e l'e193 (etichette e
+    testo circolare simili fra loro). Le etichette sembrano un sistema a parte, scritto con lo stesso
+    lessico generale ma non con la pagina sotto gli occhi.
