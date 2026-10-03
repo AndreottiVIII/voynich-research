@@ -10066,3 +10066,31 @@ vicine con ultimo e primo segno di classe diversa, contro le parole rimescolate 
 - **Lettura:** l'alternanza "vocale/consonante" fra la fine di una parola e l'inizio della seguente, misurata con classi
   ricavate senza guardare il confine, è nel Voynich forte quanto nelle lingue che più la mostrano (francese, inglese), e
   assente nel gibberish umano. Va con le regole di raccordo (e380, e390). Non dice quali suoni siano.
+
+## 4/10/2026 — vz: e411, profilo di pagina e gradiente: due pezzi che non passano, e un difetto del metro (il Voynich stesso perde il gradiente)
+
+
+
+Chat del voynichizzatore. Preregistrato (`preregistrazioni/e411.md`). Risultati in `risultati/e411_profilo_gradiente.md`. Semi 1–4, corpo senza messaggio; riferimento G2 dell'e410 (corpo della v11): 0,552 / 0,616, pagella 15,8, cancello 3/4.
+
+
+
+| strato | AUC e231 | AUC e266 | pagella | cancello | profilo pagina R per seme (fascia 0,8–1,25) | gradiente per seme (fascia 0,70–0,97) |
+
+|---|---|---|---|---|---|---|
+
+| H1, carattere di pagina per posizione nella parola (κ 0,606) | 0,591 | 0,644 | 16,2/18 | 3/4 | 0,79, 0,73, 0,83, 0,83 | 0,56, 0,58, 0,56, 0,60 |
+
+| H2, + vicinato fra righe (peso 4) | 0,689 | 0,780 | 14,2/18 | 0/4 | 0,75, 0,73, 0,79, 0,84 | 0,20, 0,20, 0,21, 0,20 |
+
+
+
+- **H1 non passa:** il profilo pagina migliora (R da 0,66 a 0,80 circa) ma è in fascia solo in 2 semi su 4 (ne servivano 3), e i giudici peggiorano di 0,039 / 0,028. Dividere il carattere per posizione rende la pagina tipo più rumorosa (un terzo dei conteggi per posizione).
+
+- **H2 è sbagliato come pezzo, e la previsione era sbagliata:** premiare la somiglianza con le parole delle righe sopra e sotto ammucchia le parole simili nelle stesse righe (somiglianza nella riga da 0,046 a 0,09) e allontana le righe distanti (0,026 → 0,018): il gradiente crolla a 0,20, i giudici salgono a 0,69 / 0,78 e il cancello si perde. Scartato.
+
+- **Difetto del metro (trovato regolando H2).** Misurato con `e251.pagella_grezza`, il Voynich vero ha somiglianza nella riga 0,0385 e a 6 righe 0,0262: gradiente **0,683, sotto la fascia (0,70)**. Il riferimento usato per fissare la fascia (0,0335 a 6 righe) viene da un'altra suddivisione in pagine. Con questo metro il Voynich prende **17 materie su 18** (lo mostrava già l'e400: V = 17/18): la materia "gradiente" è mal posta e il massimo per seme è 17. Il corpo della v11 ha 0,0457 nella riga e 0,0266 a 6 righe: le righe lontane sono a posto, è la somiglianza nella riga a essere alta del 19% (effetto dei termini del cancello); anche portandola a 0,0385 il gradiente resterebbe fuori fascia come nel Voynich.
+
+- **Altri riferimenti che non coincidono con la misura diretta sul Voynich** (pagella → misurato): somiglianza nella riga sotto 0,0399 → 0,0387; profilo pagina R 1,017 → 1,059, quota 0,0605 → 0,0514; formule 5,20 → 6,39; verticale 1,028 → 1,026. Vanno ricordati quando si legge "materia persa per poco".
+
+- **Esito secondo la preregistrazione:** nessuno dei due pezzi si tiene; la versione migliore con il cancello resta la **v11**. Lacuna dichiarata sul profilo pagina (secondo tentativo dopo il carattere senza posizione): R circa 0,7–0,8 contro la fascia 0,8–1,25.
