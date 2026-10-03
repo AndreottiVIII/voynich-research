@@ -5785,3 +5785,20 @@ sequenza.
   - La copia a vista lavora dentro la pagina. A ogni pagina nuova si riparte, come ripartono le
     abitudini di grafia (e145).
   - Per la ricostruzione dell'ordine dei bifogli il passaggio di pagina non dà informazione.
+
+## 3/10/2026 — e260: neanche misure fisiche grossolane della scrittura distinguono gli scribi a parità di lingua e sezione
+
+- **Preregistrato.** Misure per pagina dai riquadri: passo di riga, spazio fra parole, larghezza per unità
+  (tutte divise per l'altezza), inclinazione delle righe, variabilità dell'altezza. Classificatore delle
+  mani contro permutazioni dentro lingua × sezione, come l'e244.
+- **Risultati** (181 pagine):
+  - controllo (lingua A/B dentro la sezione): 0,737 contro 0,576, **z 4,8**;
+  - **mani:** 0,634 contro 0,622, **z 0,7**.
+  - Medie per mano simili. La mano 2 ha un'inclinazione media più alta (0,116), probabilmente per poche
+    pagine con righe mal riconosciute.
+- **Esito: nessuna differenza oltre lingua e sezione.**
+- **Lettura.**
+  - Insieme all'e244: dove si possono confrontare (erbario B), gli scribi di Davis non si distinguono né
+    per come compongono né per spaziatura, altezza e passo di riga.
+  - Le differenze che Davis vede sono nella forma fine dei segni, che qui non misuriamo.
+  - Le lingue A e B differiscono anche fisicamente, a parità di sezione.
