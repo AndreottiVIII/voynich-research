@@ -5681,3 +5681,21 @@ sequenza.
   - Si accorda con l'e183, l'e187 (le etichette differiscono solo in lunghezza) e l'e193 (etichette e
     testo circolare simili fra loro). Le etichette sembrano un sistema a parte, scritto con lo stesso
     lessico generale ma non con la pagina sotto gli occhi.
+
+## 3/10/2026 — e248: la prima parola della pagina non si comporta da "titolo"
+
+- **Preregistrato.** Strada 5 della lista di decifrazione.
+  - P: prima parola della pagina (207); Q: prime parole degli altri paragrafi (533); L: prime parole
+    delle altre righe.
+- **Risultati:**
+  - **unicità:** P 0,527, Q 0,458 (P/Q 1,15, p 0,055); L 0,175;
+  - **ripresa** (ripetizione o variante più avanti nella stessa pagina): P 0,353, Q 0,336. Per P,
+    contro un'altra pagina della stessa sezione, 0,285 (z 3,3), cioè il normale legame di pagina;
+  - sul corpo senza il gallows iniziale, la ripresa è 0,599 per P e 0,602 per Q.
+- **Esito: nessun indizio** (serviva P/Q ≥ 1,3 con p < 0,01 e P più ripresa di Q).
+- **Difetto dichiarato.** Nella riga "corpo senza gallows" l'unicità è calcolata sulla parola intera,
+  perché il codice non ricalcola le frequenze dei corpi. La ripresa invece usa il corpo. L'esito
+  dipende dalla parola intera e non cambia.
+- **Lettura.** La prima parola di pagina è un po' più spesso unica delle altre prime di paragrafo, ma è
+  ripresa nella pagina allo stesso modo. Non si comporta come il nome di una voce. Si accorda con l'e190
+  e l'e211.
