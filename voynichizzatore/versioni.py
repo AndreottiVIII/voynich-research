@@ -21,12 +21,14 @@ V4 = OrderedDict(E288, lam_fin=1.0, lam_pre=1.0, lam_cl=0.3)      # prova_v6: pa
 V5 = OrderedDict(V4, delta=0.2)                                    # prova_v6: 39, AUC 0,863/0,944 -> 0,816/0,923
 V6 = OrderedDict(V5, rip=0.4)                                      # prova_v7: 39, AUC 0,816/0,923 -> 0,782/0,903
 #   ma al banco (semi 7-9) peggiore della v5: pagella estesa 55 contro 57, AUC 0,827/0,936 contro 0,816/0,917. NON confermata.
+V7 = OrderedDict(V5, galli_su=1.0, galli_giu=0.7)                  # prova_v8 (semi 1-2): AUC e266 0,923 -> 0,861, G8 0,87 -> 0,67
 VERSIONI = OrderedDict([
     ('v2', OrderedDict([('corpo', E288), ('modello', 'v1')])),
     ('v3', OrderedDict([('corpo', E288), ('modello', 'v3')])),
     ('v4', OrderedDict([('corpo', V4), ('modello', 'v3')])),
     ('v5', OrderedDict([('corpo', V5), ('modello', 'v3')])),
     ('v6', OrderedDict([('corpo', V6), ('modello', 'v3')])),
+    ('v7', OrderedDict([('corpo', V7), ('modello', 'v3')])),
 ])
 
 
