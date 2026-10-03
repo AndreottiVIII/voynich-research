@@ -8699,3 +8699,51 @@ Voynich a parità di parole col gibberish (mediana di 20 sottoinsiemi): R 1,08, 
   le giunture senza spazio dell'e361–e363: il confine fra parole nel Voynich non è netto.
 - Il gibberish umano ha un eccesso simile o un po' maggiore (1,13), ma su un testo tre volte più piccolo il test è
   debole.
+
+## 3/10/2026 (notte) — e374: i bordi della riga ci sono appena nel gibberish umano, fortissimi nel Voynich
+
+Preregistrato (`preregistrazioni/e374.md`). Righe con almeno 3 parole. F1 = divergenza fra il primo segno della prima
+parola e quello delle parole in mezzo; F2 = lo stesso per l'ultimo segno dell'ultima parola; L1, L2 = differenza di
+lunghezza. Nullo: parole rimescolate dentro la riga.
+
+| testo | righe | F1 | z | F2 | z | L1 | L2 | z a parità col gibberish (F1, F2) |
+|---|---|---|---|---|---|---|---|---|
+| Voynich | 4.045 | 0,140 | 367 | 0,057 | 211 | +0,49 | −0,07 | 172, 90 |
+| gibberish umano | 1.505 | 0,006 | **3,2** | 0,006 | 2,0 | +0,59 | +0,51 | — |
+| testi sensati | 3.972 | 0,027 | 13 | 0,026 | 11 | +1,21 | +0,63 | 6,7, 4,7 |
+| Timm e Schinner, seme 1 | 3.973 | 0,039 | 152 | 0,099 | 410 | +0,23 | −0,44 | 62, 201 |
+
+- **Esito preregistrato: i bordi della riga ci sono anche nel gibberish umano** (F1, z 3,2 > 3).
+- **Ma la soglia era mal tarata**, perché guardava solo lo z e non la forza. A parità di righe il Voynich ha z 172
+  contro 3,2, e la divergenza del primo segno è 24 volte quella del gibberish (0,140 contro 0,006). Nel gibberish
+  l'effetto è appena percettibile; nel Voynich è una delle proprietà più forti del testo. Lo dichiaro come limite della
+  preregistrazione, senza cambiare l'esito.
+- Anche i testi sensati mostrano un po' di effetto (z 13), forse per le righe-versetto di alcuni testi. Comunque è molto
+  sotto il Voynich a parità di righe (6,7 contro 172).
+- Il generatore di Timm e Schinner ha bordi forti per costruzione: *p f k* all'inizio, *m g d* alla fine.
+- **Lunghezza:** la prima parola della riga è più lunga in tutti i testi (+0,5–1,2 segni: a capo vanno le parole lunghe).
+  L'ultima è un po' più corta solo nel Voynich e in Timm e Schinner; nel gibberish è più lunga (+0,51).
+- Nota: dei 38 testi di gibberish, 1.397 righe su 1.505 vengono da file con la sigla "DC". Il confronto per autore è
+  quindi poco informativo.
+- Lettura: chi inventa parole a mano non marca da sé inizio e fine della riga con segni propri. Nel Voynich i segni di
+  bordo (*p t s* all'inizio, *g m* alla fine) sono una regola del sistema, non un effetto del gesto di scrivere.
+
+## 3/10/2026 (notte) — e376: l'inventiva è della sessione, non dello scriba
+
+Preregistrato (`preregistrazioni/e376.md`). 48 bifogli; mani di Davis (la più frequente nel bifoglio): 1 = 26, 2 = 11,
+3 = 8, 4 = 1, 5 = 2. Sovradispersione fra i bifogli della quota di forme nuove e, come controllo, di errori.
+
+| parole | stratificazione | strati | bifogli | rapporto sul nullo | z |
+|---|---|---|---|---|---|
+| forme nuove | sezione × lingua | 6 | 46 | 3,97 | 11,9 |
+| forme nuove | sezione × lingua × mano | 5 | 42 | **4,02** | **11,4** |
+| forme nuove | solo mano | 4 | 47 | 4,61 | 15,3 |
+| errori | sezione × lingua | 6 | 46 | 1,05 | 0,2 |
+| errori | sezione × lingua × mano | 5 | 42 | 0,98 | −0,1 |
+| errori | solo mano | 4 | 47 | 0,99 | 0,0 |
+
+- **Esito preregistrato: l'inventiva è della sessione.** Dentro la stessa mano, sezione e lingua, i bifogli
+  differiscono nelle forme nuove 4 volte il caso. La mano non spiega niente dell'eccesso (−2%).
+- **Controllo superato:** gli errori restano uniformi in tutte le stratificazioni.
+- Lettura: lo stesso scriba, in sessioni diverse, inventa forme nuove in quantità molto diverse. È una condizione della
+  sessione (tempo, fretta, modello da cui copiava), non un'abitudine personale.
