@@ -8380,3 +8380,30 @@ Preregistrato (`preregistrazioni/e361.md`).
   contro 18%.
 - **Lettura:** le forme nuove non sono spazi mancati o non visti. Sono forme insolite, fatte di pezzi meno comuni
   (con l'e359: pezzi presi più spesso dalla propria sessione, come per tutte le parole).
+
+## 3/10/2026 (notte) — e362: le forme nuove hanno sequenze di segni insolite, tipiche di una fine e un inizio di parola; arrivano a gruppi nella riga
+
+Preregistrato (`preregistrazioni/e362.md`).
+
+- **(a)** catena di Markov di ordine 2 sui segni, stimata sulle parole non uniche (per le parole comuni, senza la parola
+  stessa):
+
+  | parole | numero | log-verosimiglianza per segno | comuni a pari lunghezza | z |
+  |---|---|---|---|---|
+  | forme nuove | 3.373 | −2,355 | −1,276 | −256,6 |
+  | errori | 1.403 | −2,471 | −1,578 | −102,1 |
+
+  - **Esito preregistrato: forme nuove fuori dalle regole dei segni.**
+  - Passaggi più tipici delle forme nuove rispetto alle comuni: *ee*→*a* 15×, *ir*→*o* 13×, *al*→*sh* 11×,
+    *or*→*ch* 11×, *ar*→*ch* 9×, *od*→*e* 9×, *lo*→*d* 8×, *ik*→*h* 8×, *fch*→*o* 8×, *ep*→*ch* 7×.
+  - **Due cautele, scritte dopo il risultato:**
+    1. in qualunque lingua le parole uniche hanno sequenze più rare delle comuni: serve un riferimento in una lingua
+       vera per dire se le forme nuove del Voynich sono più "fuori regola" degli hapax di un testo normale;
+    2. molti passaggi tipici sono una **fine di parola** (-*al*, -*or*, -*ar*, -*od*) seguita da un **inizio di parola**
+       (*ch*-, *sh*-, *e*, *d*): sembrano pezzi di parole incollati, anche se non due parole intere frequenti (e361).
+
+    Verifica: e363.
+- **(b)** coppie di forme nuove nella stessa riga 1.702 contro 1.530 del nullo (forme nuove rimescolate nel paragrafo),
+  z 5,2; nello stesso paragrafo 11.141 contro 11.641 (rimescolate nella pagina), z −3,0.
+  - **Esito preregistrato: momenti inventivi** nella riga: le forme nuove arrivano a gruppi dentro la stessa riga, mentre
+    fra i paragrafi della pagina sono anzi più sparse del caso.
