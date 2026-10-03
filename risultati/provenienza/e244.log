@@ -1,0 +1,4 @@
+pagine 183, caratteristiche 27, mani {np.str_('1'): 101, np.str_('2'): 45, np.str_('5'): 7, np.str_('3'): 30}; strati con piu' mani: {'B|H': {np.str_('2'): 20, np.str_('5'): 6, np.str_('3'): 6}, 'B|T': {np.str_('5'): 1, np.str_('2'): 4}}
+controllo positivo {'accuratezza': 0.9901639344262296, 'nullo': 0.7116120218579235, 'z': 10.33349268233135, 'p': 0.004975124378109453}
+mani {'accuratezza': 0.7890710382513662, 'nullo': 0.806120218579235, 'z': -0.7841869732893201, 'p': 0.8059701492537313}
+nessuna differenza oltre lingua e sezione
