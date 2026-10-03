@@ -1,0 +1,7 @@
+Voynich {"attestazione": 0.49944669863519, "sottoinsiemi": [0.49258997882851097, 0.5009114108640175, 0.48195876288659795, 0.5029423303256179, 0.49944669863519]}
+gibberish umano {"attestazione": 0.06400137268359643, "pezzi_sbagliati_ultima": 5849}
+Naibbe (Greshko 2025), a capo {"attestazione": 0.34642356241234223, "pezzi_sbagliati_ultima": 2139}
+U2 (Whitehatnetizen 2026) {"attestazione": 0.4263056092843327, "pezzi_sbagliati_ultima": 2714}
+U3 (Whitehatnetizen 2026) {"attestazione": 0.4541950785650756, "pezzi_sbagliati_ultima": 3436}
+Timm e Schinner, seme 1 {"attestazione": 0.5324675324675324, "pezzi_sbagliati_ultima": 3291}
+{"testi": 71, "minimo": 0.012389380530973451, "p10": 0.03064699205448354, "mediana": 0.06537385045981607, "p90": 0.1185121107266436, "massimo": 0.2526747097655361, "quota_sotto_il_voynich": 1.0} anche i tagli sbagliati danno parole vere

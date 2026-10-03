@@ -1065,6 +1065,7 @@ Numeri già registrati nel Quaderno (esperimenti indicati). "Lingue" = 71 testi 
 | coppie fra parole che ricalcano le coppie dentro le parole, ρ (e3a49, e3a50) | **0,47** (IT 0,44; GC 0,50) | sotto 0,39 tutte; di solito sotto 0,2 | 0,20 | — |
 | spazio prevedibile dai due segni vicini, F1 (e3a58) | **0,86** | mediana 0,64; 90° percentile 0,72 (pinyin 0,97) | 0,28 | 0,80 – 0,88 |
 | forme probabili presenti nel vocabolario (e3a61) | **0,43** | mediana 0,04; 90° percentile 0,09 (pinyin 0,54) | 0,09 | 0,41 – 0,45 |
+| tagli sbagliati che danno parole vere (e3a67) | **0,50** | mediana 0,065; massimo 0,25 | 0,06 | 0,35 – 0,53 |
 | frequenza delle parole che segue la forma, ρ (e3a55) | **0,58** | mediana 0,11; massimo 0,28 | 0,09 | 0,41 (Naibbe) – 0,60 |
 | regole di raccordo *qo*-/*o*-, -*l*/-*r* (e380, e388, e395, e3a16) | sì, in tutte le mani, sessioni e trascrizioni | (*sandhi*, liaison in alcune lingue) | — | — |
 
@@ -1107,3 +1108,4 @@ conta poco, perché la loro giuntura è quasi zero.
   - Il piccolo legame fra parole intere del Voynich non viene dalla copia dalla riga sopra (e3a63): togliendo le parole presenti nella riga sopra resta come togliendo quelle di una riga lontana. Nel generatore di Timm e Schinner, invece, nello stesso test il legame sparisce: stessa grandezza, origine diversa.
 - **Figura degli spazi** (`risultati/figure/spazi.png`, da `strumenti/figura_spazi.py`): A) quota di spazi indovinati dai due segni vicini (F1) per Voynich, 71 lingue, gibberish e generatori (e3a58); B) distribuzione della probabilità della regola di spaziatura negli spazi certi, negli spazi incerti della ZL e dove non c'è spazio, con la quota di spazi messi da Takahashi (e3a60). Si vede che gli spazi incerti sono sparsi su tutta la scala (18% vicino a 0, molti fra 0,3 e 0,7), non concentrati come gli altri.
   - Gli spazi facoltativi cambiano un poco da mano a mano (e3a66: mano 1 +7 punti, mano 2 −5, p 0,001, a parità dei segni vicini e della lingua), mentre le regole di raccordo sono uguali per tutti: lo spazio facoltativo è in parte un'abitudine di scrittura. Mano e sezione non sono separabili.
+- **Anche i tagli sbagliati danno parole vere** (e3a67): togliendo gli spazi e rimettendoli a caso con la regola dei segni vicini, il 50% dei pezzi sbagliati (almeno 3 segni) sono parole del Voynich; nelle lingue il 6,5% (mediana; massimo 25%, klingon), nel gibberish umano il 6%, nei generatori 35–53%. Le parole del Voynich si comportano come pezzi di una catena tagliata dove la regola lo permette.
