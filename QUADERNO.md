@@ -8089,3 +8089,21 @@ dentro la sezione.
     bifoglio alla volta, con il lessico e le parole del momento, prima che i bifogli fossero piegati e cuciti.
 - **Per il voynichizzatore** (da segnalare all'altra chat): il "momento di scrittura" va simulato per bifoglio. Lessico
   rare e ripresa sono condivisi dalle quattro pagine del bifoglio, non dalle pagine affiancate.
+
+## 3/10/2026 (notte) — e351, e352: fascicoli non più coesi del caso (poca potenza); un bifoglio "B" in un fascicolo "A"; etichette senza legame con la sessione
+
+Preregistrato (`preregistrazioni/e351.md`).
+
+- **e351** (30 bifogli dell'erbario, l'unica sezione con almeno 3 fascicoli e abbastanza bifogli):
+  - coesione dei fascicoli (ripresa con il proprio fascicolo meno con gli altri) +0,017 contro −0,000 del nullo,
+    z 1,7. **Esito preregistrato: no** (con poca potenza: 30 bifogli).
+  - Un solo bifoglio oltre la soglia: **D-2** (f26r, f26v, f31r, f31v). Ripresa col proprio fascicolo D 0,623, con il
+    fascicolo H 0,825.
+  - **Lettura:** f26 e f31 sono in lingua B, in un fascicolo D quasi tutto A, e H è un fascicolo dell'erbario in lingua
+    B. Il bifoglio D-2 è una sessione "B" cucita in un fascicolo "A": coerente con bifogli scritti come sessioni e poi
+    rilegati.
+- **e352** (35 pagine, 770 parole d'etichetta; parola uguale o a una modifica):
+  - nel testo della stessa pagina 0,431 contro 0,404, z 1,1;
+  - nel testo delle altre pagine dello stesso bifoglio 0,619 contro 0,596, z 0,6.
+  - **Esito preregistrato: no** per tutte e due. Le etichette non si legano al testo né della loro pagina né della loro
+    sessione (con l'e311).
