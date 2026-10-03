@@ -8590,3 +8590,16 @@ Semi 1–4; ogni strato regola i suoi pesi sul pannello (seme 11).
   (`voynichizzatore/pezzi_parametri_v9.json`) e va al banco.
 - **Lettura per la ricerca sul Voynich.** Tre proprietà note (unioni e227, legame e22/e152, copia verticale e228) si
   riproducono ognuna con un termine solo, debole, e convivono: nel generatore vecchio si pestavano i piedi.
+
+## 3/10/2026 (notte) — e370: la crescita di -ey scendendo nella pagina c'è sia nelle parole riprese sia nelle altre (incerto)
+
+Preregistrato (`preregistrazioni/e370.md`).
+
+| parole in -dy/-ey | pagine | quota di -ey, metà bassa − metà alta | z |
+|---|---|---|---|
+| riprese dalle 2 righe sopra | 53 | +0,146 | 3,5 |
+| non riprese | 67 | +0,074 | 2,5 |
+
+- **Esito preregistrato: incerto.**
+- La crescita è più forte nelle parole riprese (che ereditano la scelta, e356), ma c'è anche nelle altre. La ripresa la
+  amplifica, non la spiega da sola.
