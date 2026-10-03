@@ -10874,3 +10874,28 @@ punti, righe senza salti del disegno e senza parole illeggibili).
 - **Cautela:** la misura non separa "lo scriba toglie lo spazio" da "lo scriba sceglie a fine riga parole che hanno quel
   punto dentro" (per esempio *oraiin* invece di *or aiin*). In tutti e due i casi la fine della riga cambia la
   scrittura, come già -*m* al posto di -*r* (e389, e3a09). L'effetto è piccolo.
+
+## 4/10/2026 (notte) — e3a63: il piccolo legame fra parole intere del Voynich non viene dalla copia dalla riga sopra (in Timm e Schinner sì)
+
+Preregistrato (`preregistrazioni/e3a63.md`). Codice provato prima sul solo controllo positivo. E come nell'e3a14 sulle
+coppie di righe con una riga sopra nello stesso paragrafo. "Sopra": tolte le coppie con una parola uguale o a una
+modifica nella riga sopra; "lontana": lo stesso con una riga a caso della pagina a distanza 3 o più (20 volte).
+
+| testo | direzione | tutte | sopra | lontana: media (min – max) | esito |
+|---|---|---|---|---|---|
+| Voynich | avanti | 0,0249 | 0,0154 | 0,0125 (0,0096 – 0,0162) | la copia non c'entra |
+| Voynich | indietro | 0,0155 | 0,0066 | 0,0109 (0,0052 – 0,0188) | la copia non c'entra |
+| Timm e Schinner (controllo) | avanti | 0,0200 | **−0,0004** | 0,0096 (0,0050 – 0,0151) | la copia spiega il legame |
+| Timm e Schinner (controllo) | indietro | 0,0444 | 0,0104 | 0,0199 (0,0163 – 0,0238) | ne spiega una parte |
+
+- **Esito preregistrato, Voynich: la copia non c'entra** in tutte e due le direzioni. Il controllo positivo funziona:
+  in Timm e Schinner, togliendo le parole copiate dalla riga sopra, il legame avanti sparisce.
+- Togliere parole (in qualunque modo) dimezza il legame anche nel Voynich (da 0,025 a circa 0,013), perché toglie le
+  parole più comuni; ma togliere quelle presenti nella riga sopra non lo abbassa più di quanto faccia togliere quelle
+  di una riga lontana.
+- **Lettura:** il Voynich e Timm e Schinner hanno un legame fra parole intere della stessa grandezza (e3a62), ma con
+  un'origine diversa: in Timm e Schinner viene dalla copia, nel Voynich no. È una seconda differenza fra il Voynich e
+  l'autocitazione (la prima: la copia del Voynich arriva solo a 1–2 righe sopra, e347).
+- Da dove viene allora? Due candidati non ancora tolti dal nullo dell'e3a14: la **posizione nella riga** (la prima e
+  l'ultima parola hanno forme proprie, e337, e389, e393) e il **lessico del paragrafo** (il nullo teneva la pagina, non
+  il paragrafo). Prossimo: e3a65.
