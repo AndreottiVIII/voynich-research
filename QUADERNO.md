@@ -11012,3 +11012,26 @@ Le lingue con la catena più rigida, riscritte: toki pona (h2 2,25) 0,31 / 0,22 
   da provare: le parole del Voynich sono fatte di pezzi con posti fissi (come gli schemi a "caselle" proposti da
   Stolfi e altri), che una catena di ordine 2 su una lingua non ha. Cautela: è una misura fatta dopo aver visto
   l'e3a69, e il riempimento sta appena sopra la soglia (z 2,2).
+
+## 4/10/2026 (notte) — e3a65: due terzi del piccolo legame fra parole intere stanno nel paragrafo; resta un filo
+
+Preregistrato (`preregistrazioni/e3a65.md`). Misura dell'e3a14 con quattro nulli (gruppi dentro cui si rimescola il
+segno della vicina). Voynich tutto con 1.000 rimescolamenti; lingue (10.000 parole, pagine di 25 righe) con N0 e N1.
+
+| nullo | avanti E (z) | indietro E (z) | avanti a 10.000 parole | lingue avanti (mediana) |
+|---|---|---|---|---|
+| N0 (pagina, bordo) | 0,0271 (9,6) | 0,0167 (6,0) | 0,0231 | 0,1108 |
+| N1 (+ posizione nella riga) | 0,0225 (9,4) | 0,0111 (4,6) | 0,0206 | 0,0704 |
+| N2 (paragrafo, bordo) | 0,0109 (5,6) | 0,0071 (3,7) | 0,0078 | – |
+| N3 (paragrafo + posizione) | **0,0084 (5,4)** | **0,0045 (2,9)** | 0,0048 | – |
+
+- **Esito preregistrato, avanti e indietro: in parte.** Con N3 il legame scende a circa il 30% di N0 (sotto la metà),
+  ma resta sopra il caso (z 5,4 avanti, 2,9 indietro).
+- La posizione nella riga conta poco (da N0 a N1: −17% avanti); il **paragrafo** conta molto (da N0 a N2: −60%).
+- **Cautela:** gruppi più piccoli abbassano un po' E anche per ragioni meccaniche (nelle lingue, aggiungere la sola
+  posizione lo abbassa del 37%, e lì la posizione non dovrebbe contare molto). Parte del calo può venire da questo.
+- A parità di nullo (N1) il Voynich ha il 29% (avanti) e il 14% (indietro) del legame delle lingue.
+- **Lettura:** il "resto" oltre la giuntura è soprattutto lessico (o stile di grafia) del paragrafo: dentro un
+  paragrafo certe parole e certi bordi tornano insieme. Quello che resta come legame vero fra parole vicine è un filo
+  (E 0,008 su tutto il libro). Con l'e3a63 (non viene dalla copia) e l'e3a07 (niente a distanza 2), il quadro fra parole
+  vicine è: giuntura forte fra segni di bordo, lessico del paragrafo, e quasi niente altro.
