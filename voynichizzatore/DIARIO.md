@@ -353,3 +353,23 @@ Nel QUADERNO (voce "vz: e407"). U1 0,548 / 0,659 (15,2); U2 0,559 / 0,673 (16,0)
 - Mancano (4 semi su 4): profilo pagina, prime righe come registro, scelte di riga, concordanza delle desinenze; cancello della riga. Prossimo: e408 (scelte di riga e concordanza delle desinenze come termini di riga nella disposizione).
 
 - Poi: prime righe come registro, profilo pagina, ordine delle righe (JSD fra le due metà), nascondiglio.
+
+**23:04 — e408 lanciato** (coda `vz-riga`). Dal cancello della riga della v9 (valori grezzi dell'e407): S1 circa 1,05–1,13 (soglia ≤ 0,7), A circa 0,96 (≥ 1,0), scelte per riga 0–2 (≥ 3), r fra righe consecutive circa 0,10 (0,207 ± 0,07); R_riga a posto. Nota di progetto: il nascondiglio attuale riscrive le cinque scelte di grafia, quindi il cancello dopo il messaggio dipende dal modello delle scelte; l'alternativa pulita è nascondere il messaggio nel sacco (conteggi delle parole note per pagina: distribuzione multinomiale esplicita, codifica aritmetica su binomiali), lasciando il testo un campione puro del modello. Da fare dopo l'e408.
+
+## 3/10/2026, 23:10 — banco della v9: pagella 44/54, ma 0,668 / 0,719 con il nascondiglio vecchio
+
+
+
+Nel QUADERNO (voce "vz: e293, banco della v9"). La v9 senza messaggio fa 0,541 / 0,659 (semi 1–4); con Isidoro nascosto dal nascondiglio vecchio 0,668 / 0,719 (semi 7–9): il nascondiglio riscrive primo e ultimo segno delle parole e rompe confine e unioni. v8 rifatta identica (controllo del codice).
+
+
+
+### Dove siamo (3/10, 23:10)
+
+
+
+- In corso: e408 (concordanza delle desinenze, scelte di riga).
+
+- In preparazione: e409, il messaggio nel sacco (`voynichizzatore/canale_sacco.py`; preregistrazione committata). È il passo più importante adesso: senza, ogni miglioramento del corpo viene rovinato dal nascondiglio vecchio.
+
+- Dopo: cancello della riga (S1, A, cinque scelte per riga e fra righe), prime righe come registro, profilo pagina.
