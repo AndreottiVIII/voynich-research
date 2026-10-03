@@ -1,0 +1,26 @@
+{
+ "theta": 2279.8533259024025,
+ "kappa": 0.7082046955954662,
+ "forme": {
+  "comuni": true,
+  "quattro": true,
+  "forza": 0.3700702129489423,
+  "unioni": 0.25
+ },
+ "posti": "modello",
+ "pesi_disposizione": {
+  "bordi": 1.131433047154958,
+  "unione": 0.9086976310156991,
+  "coppia": 0.0,
+  "identica": -0.5608958472321661,
+  "vocabolario_testo": true,
+  "confine": 0.6849850765643997,
+  "verticale": 0.1269106518461177,
+  "fin_fin": 0.007243708828546969,
+  "prima_lettera": -0.8036162364911876,
+  "distanza2": 0.15296336610543582,
+  "scelte": 0.04894381617991239,
+  "scelte_sopra": 0.04652977671384434
+ },
+ "origine": "e410, strato G2; nascondiglio nel sacco (e409)"
+}

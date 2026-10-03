@@ -9439,3 +9439,40 @@ probabilmente una persona diversa, e le sigle sono raccolte, non autori. Le righ
 vanno lette come "per raccolta". Le conclusioni sul gibberish nel complesso non cambiano. Il README nota anche che il
 gibberish varia molto da persona a persona, e che ha "distorsioni nella posizione dei caratteri nella riga": va con
 l'effetto debole ma presente dell'e374.
+
+## 3/10/2026 — vz: e410, il cancello della riga: preso in 3 semi su 4; giudici a 0,552 / 0,616
+
+Chat del voynichizzatore. Preregistrato (`preregistrazioni/e410.md`). Risultati in `risultati/e410_cancello_riga.md`.
+Semi 1–4, corpo senza messaggio; riferimento R1 dell'e408 (corpo della v10): 0,554 / 0,673, pagella 17,0, cancello 0/4.
+
+| strato | AUC e231 | AUC e266 (min–max) | pagella | estese | semi con il cancello |
+|---|---|---|---|---|---|
+| R1 (corpo della v10) | 0,554 | 0,673 | 17,0/18 | 2,5/8 | 0/4 |
+| G1, prima lettera della riga + somiglianza a distanza 2 | 0,555 | 0,639 (0,619–0,657) | 16,0/18 | 3,8/8 | 0/4 |
+| G2, + cinque scelte di grafia nella riga e fra righe | **0,552** | **0,616** (0,600–0,629) | 15,8/18 | 4,5/8 | **3/4** |
+
+| condizione del cancello (soglia) | G1, per seme | G2, per seme |
+|---|---|---|
+| S1 (≤ 0,7) | 0,52, 0,55, 0,49, 0,50 | 0,53, 0,61, 0,59, 0,55 |
+| A (≥ 1,0) | 1,02, 1,04, 1,02, 1,01 | 1,004, **0,997**, 1,022, 1,003 |
+| scelte per riga (≥ 3) | 2, 3, 0, 2 | 5, 5, 5, 5 |
+| r fra righe consecutive (0,207 ± 0,07) | 0,09, 0,09, 0,09, 0,08 | 0,20, 0,17, 0,18, 0,17 |
+
+- **Previsioni rispettate.** G1: S1 e A a posto in 4 semi su 4. G2: scelte per riga e r a posto in 4 semi su 4;
+  **cancello della riga preso in 3 semi su 4** (previsto: almeno 2). Nel quarto manca A per 0,003.
+- **È la prima volta che il generatore a pezzi prende il cancello della riga**, e lo fa con il corpo soltanto: con il
+  messaggio nel sacco le scelte di grafia non vengono riscritte.
+- **Il giudice forte scende a 0,616** (da 0,673), come previsto: la somiglianza a distanza 2 era una delle sue
+  caratteristiche più pesanti (0,2231 contro 0,2198 dopo la regolazione). È il valore più basso mai visto; l'e231 resta
+  a 0,55.
+- **Costo:** la materia "gradiente" si perde in 4 semi su 4 (già in G1): premiare la somiglianza dentro la riga
+  abbassa il rapporto fra somiglianza a 6 righe e somiglianza nella riga. Pagella 15,8 contro 17,0. Resta perso il
+  profilo pagina.
+- **La regolazione non converge formalmente** (scarto 13%): resta fuori la concordanza delle desinenze (0,057 contro
+  0,042, con il peso del legame fra finali già a zero), come nell'e408.
+- **Pesi regolati:** prima lettera −0,80 (evitata), distanza 2 0,15, scelte nella riga 0,049, scelte fra righe 0,047.
+  Bersagli del Voynich: S1 0,531; A 1,047; rapporto di varianza per riga 1,103; r 0,207.
+- **Esito secondo la preregistrazione:** i termini si tengono (condizioni in almeno 3 semi, giudice forte non
+  peggiore). G2 diventa il corpo della **v11**, con il messaggio nel sacco, e va al banco.
+- **Che cosa resta per il giudice forte** (caratteristiche pesanti di G2): la differenza fra le due metà della pagina
+  (JSD 0,038 contro 0,050), le coppie viste altrove (0,25 contro 0,22), alcune coppie di segni rare.
