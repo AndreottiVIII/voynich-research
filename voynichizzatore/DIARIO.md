@@ -333,3 +333,23 @@ Nel QUADERNO (voce "vz: e293, banco della v8"). v8: pagella 41/54, estesa 56/78,
 - **C'è un generatore intero funzionante** (v8): testo + chiave → manoscritto → testo esatto; molto meno riconoscibile della v5 per i giudici, più debole sulla pagella.
 
 - Prossimo: capire e recuperare le materie di pagella perse, una alla volta, come termini del modello della disposizione regolati sul pannello: prima il legame (confine), poi verticale, scelte di riga, concordanza delle desinenze.
+
+**22:47 — e407 lanciato** (coda `vz-pag`). Conteggio fatto prima: nel Voynich 2,7 punti su 8,8 di unioni attestate vengono da parole uniche = due parole attaccate; nella v8 1,3. Nella prova di costruzione: con le unioni (probabilità 0,25 per le parole nuove di almeno 6 segni) le parole nuove leggibili come due note unite salgono a 0,78 (Voynich 0,81); il termine verticale ha sensibilità circa 0,18 per unità di peso (peso atteso circa 0,13).
+
+## 3/10/2026, 23:05 — e407 finito: 0,541 / 0,659, pagella 16,5; v9 al banco
+
+
+
+Nel QUADERNO (voce "vz: e407"). U1 0,548 / 0,659 (15,2); U2 0,559 / 0,673 (16,0); **U3 0,541 / 0,659 (16,5/18)**. Legame e verticale presi in 4 semi. I parametri sono ora separati per versione: `pezzi_parametri_v8.json` (e406), `pezzi_parametri_v9.json` (e407, U3); `pezzi.corpo(seme, 'v9')`.
+
+
+
+### Dove siamo (3/10, 23:05)
+
+
+
+- v9 = v8 + parole nuove come unioni + confine + verticale. In corso: banco e293 della v9.
+
+- Mancano (4 semi su 4): profilo pagina, prime righe come registro, scelte di riga, concordanza delle desinenze; cancello della riga. Prossimo: e408 (scelte di riga e concordanza delle desinenze come termini di riga nella disposizione).
+
+- Poi: prime righe come registro, profilo pagina, ordine delle righe (JSD fra le due metà), nascondiglio.

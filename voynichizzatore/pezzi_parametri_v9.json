@@ -1,0 +1,21 @@
+{
+ "theta": 2279.8533259024025,
+ "kappa": 0.7082046955954662,
+ "forme": {
+  "comuni": true,
+  "quattro": true,
+  "forza": 0.3700702129489423,
+  "unioni": 0.25
+ },
+ "posti": "modello",
+ "pesi_disposizione": {
+  "bordi": 0.843156463662545,
+  "unione": 0.8588150690154384,
+  "coppia": 0.0,
+  "identica": -0.5531980641757311,
+  "vocabolario_testo": true,
+  "confine": 0.7095769786025967,
+  "verticale": 0.11740041860057424
+ },
+ "origine": "e407, strato U3"
+}
