@@ -5802,3 +5802,32 @@ sequenza.
     per come compongono né per spaziatura, altezza e passo di riga.
   - Le differenze che Davis vede sono nella forma fine dei segni, che qui non misuriamo.
   - Le lingue A e B differiscono anche fisicamente, a parità di sezione.
+
+## 3/10/2026 — e259: con questo modello il Voynich porta ~11 bit per parola, come una Bibbia; ma il suo modello migliore è quasi solo "di lettere"
+
+- **Preregistrato.**
+  - Mistura di quattro componenti: bigramma di parole con modello di lettere per le parole nuove; cache
+    esatta delle ultime 3 righe; cache di varianti a distanza 1 (uniforme sui vicini, approssimazione
+    dichiarata); modello di lettere da solo.
+  - Pesi per EM; addestramento sulle unità pari, misura sulle dispari.
+- **Risultati** (bit per parola, base → mistura; pesi base / cache / varianti / lettere):
+  - **Voynich 11,26 → 11,22**; pesi 0,09 / 0,06 / 0,01 / **0,85**;
+  - Bibbia latina 11,55 → 11,33 (0,77 / 0,07 / 0 / 0,15);
+  - Bibbia italiana 10,28 → 10,13;
+  - Plinio 15,73 → 15,65;
+  - *Macer* 14,07 → 14,03.
+- **Esito preregistrato: informazione per parola paragonabile a una lingua.**
+  - Il Voynich non sta sotto i due terzi del minimo, e la cache non gli toglie più che alle lingue.
+  - L'operativizzazione di "molto più", cioè una riduzione almeno doppia, è stata fissata scrivendo il
+    codice, prima dei risultati.
+- **Lettura, con due fatti da non perdere.**
+  1. **Per il Voynich il modello migliore è quasi solo il modello di lettere** (peso 0,85; nelle lingue
+     il bigramma di parole pesa circa 0,8). Le parole del Voynich si prevedono bene dalle loro lettere e
+     poco dalla parola precedente: è di nuovo l'assenza di sintassi (e114, e115) vista da un'altra parte.
+     Gli 11 bit per parola vengono soprattutto dall'incertezza sulle lettere, non da un vocabolario
+     ricco.
+  2. **La cache aiuta pochissimo (0,05 bit)**, anche se due parole su tre sono copie o varianti
+     (e237). Le ripetizioni riguardano parole già facili, e la cache di varianti uniforme su centinaia di
+     vicini è troppo debole per costruzione. Il numero è quindi un limite superiore largo.
+  - L'e259b userà una cache di varianti pesata con il modello di lettere, per misurare quanto il
+    procedimento riduce davvero l'informazione.
