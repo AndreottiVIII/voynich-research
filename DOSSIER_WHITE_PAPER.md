@@ -874,3 +874,10 @@ negativi; i numeri sono nei file di `risultati/`.
   grandi.
 - **Lo stato dei bifogli di un fascicolo non segue l'annidamento** (e319). Nei fogli con le facce più diverse (f2, f52,
   f83, f88) una sola faccia somiglia al foglio coniugato (e323, incerto).
+- **Lo stato cambia anche dentro la pagina, da paragrafo a paragrafo** (e326, e327). Metà alta e metà bassa della pagina
+  differiscono (z 7–11), anche togliendo le righe d'inizio e fine paragrafo; il primo e l'ultimo paragrafo della stessa
+  pagina differiscono (z 5–11). I livelli sono tre: fascicolo, bifoglio, paragrafo. Resta da separare lo stato dello
+  scriba dall'argomento del paragrafo.
+- **Le etichette A/B di Currier sono confermate dal lessico** (e325: 107 su 107 nell'erbario). Unico disaccordo f58v
+  (S, etichettata A, lessico B). Nelle pagine di passaggio le parole di A e di B si mescolano nelle stesse righe (e324,
+  incerto).
