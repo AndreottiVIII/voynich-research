@@ -1059,6 +1059,9 @@ Numeri già registrati nel Quaderno (esperimenti indicati). "Lingue" = 71 testi 
 | forma del calo della ripresa, C (e385) | **−0,07** (solo la riga sopra) | 0,28 (3–4 righe) | nessuna ripresa | — |
 | spazi prevedibili dai segni vicini, R (e397) | 0,73 | 0,28–0,86 (sopra il Voynich solo il pinyin) | 0,09 (testi piccoli) | — |
 | bordi della riga, divergenza del primo segno (e374) | **0,140** | 0,02 | 0,006 | TS 0,039 |
+| alternanza "vocale/consonante" (Sukhotin) al confine, A (e3a30) | **1,086** (z 20,8) | 0,94–1,16, mediana 1,02 | 1,011 | — |
+| inizi uguali fra righe consecutive, rapporto (e3a35) | **0,51** (z −8,0) | mediana 0,95; solo 3 su 57 sotto | 1,32 | — |
+| scriba che guarda avanti di una parola (e3a02, e3a34) | sì (ZL e IT) | — | — | — |
 | regole di raccordo *qo*-/*o*-, -*l*/-*r* (e380, e388, e395, e3a16) | sì, in tutte le mani, sessioni e trascrizioni | (*sandhi*, liaison in alcune lingue) | — | — |
 
 **In una riga:** il Voynich ha un legame fra parole vicine forte come quello delle lingue più legate, fatto di regole di
