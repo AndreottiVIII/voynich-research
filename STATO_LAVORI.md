@@ -2,10 +2,27 @@
 
 Fotografia aggiornata a mano a ogni cambio importante. I dettagli e i numeri sono nel `QUADERNO.md`.
 
-## Ricerca della notte del 3/10 (e360–e388): il quadro
+## Numeri degli esperimenti (4/10, notte)
+
+La ricerca ha esaurito i suoi numeri (e307–e399). **Dal 4/10 la ricerca usa e500–e599**; il voynichizzatore resta
+e400–e499.
+
+## Ricerca della notte del 3–4/10 (e360–e399): il quadro
 
 Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). Dettagli nel QUADERNO e nel dossier
 (§15.11, punti in fondo).
+
+- **Aggiunte dopo la mezzanotte (e389–e397):**
+  - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
+    (e389);
+  - le due regole di raccordo sono il 39% della giuntura; il resto ha lo stesso stampo: -*y* con *q*-, le altre finali
+    con *ch*-/*sh*-/*o*-/*a*- (e390);
+  - la giuntura c'è anche nei testi in cerchio e nei raggi (e391); è il doppio in lingua B (e393);
+  - a inizio riga *qo*- è la forma normale e non guarda la riga sopra (e393);
+  - la parola copiata dalla riga sopra ha la forma coordinata con la nuova vicina, non con la fonte (e392, e394); quando
+    due copie non si accordano cambia la seconda, cioè si adatta la parola che si sta scrivendo (e396);
+  - **tutto replicato con la trascrizione di Takahashi** (e395);
+  - gli spazi si prevedono dai segni vicini per il 73%, più che in 70 lingue su 71 (e397).
 
 - **Il confine fra parole (la "giuntura").** L'ultimo segno di una parola e il primo della seguente sono legati:
   - **forte come nelle lingue più legate:** solo 6 testi su 71 lo superano (arabo, sanscrito, tagalog, greco); il
