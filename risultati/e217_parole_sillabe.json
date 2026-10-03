@@ -1,0 +1,216 @@
+{
+ "lingue": {
+  "cinese con toni": {
+   "positivo": {
+    "punteggio": -4.443343639373779,
+    "simboli": 300,
+    "chiave_giusta": 0.20246628903704447,
+    "esempio": [
+     "且丂井乬丙丯乡丏",
+     "井井井井井丄井井",
+     "书丄万井井井井乁",
+     "丸丛井乒丝世井井"
+    ]
+   },
+   "negativo": {
+    "punteggio": -4.698892593383789,
+    "simboli": 300,
+    "esempio": [
+     "乂上丱与丅井井丙",
+     "乿井乯井井乗丽井",
+     "乗丱井井乖东乖丟",
+     "井乂丙乂井七井井"
+    ]
+   },
+   "Voynich": {
+    "punteggio": -3.279810905456543,
+    "simboli": 300,
+    "esempio": [
+     "井丙丯两井",
+     "世井下丬",
+     "井井井亇",
+     "並丙下丶"
+    ]
+   },
+   "posizione": 5.553071791761907,
+   "esempio_voynich_leggibile": [
+    "· shang4 dou1 ye3 ·",
+    "na4 · bu4 xi1",
+    "· · · na2",
+    "ji4 shang4 bu4 bi4"
+   ]
+  },
+  "cinese senza toni": {
+   "positivo": {
+    "punteggio": -5.124601364135742,
+    "simboli": 300,
+    "chiave_giusta": 0.07900145370695273,
+    "esempio": [
+     "丘三井井丗乸一万",
+     "井一三丅专井严为",
+     "临井井丸两井井井",
+     "丬丐七丨丂丗五丨"
+    ]
+   },
+   "negativo": {
+    "punteggio": -5.076009750366211,
+    "simboli": 300,
+    "esempio": [
+     "丯丁丅丠丢一丸乂",
+     "丵乑丐丸井丨井乴",
+     "丨乪丷井乴丅乴万",
+     "与丯井丯丘丣丛丆"
+    ]
+   },
+   "Voynich": {
+    "punteggio": -4.195441246032715,
+    "simboli": 300,
+    "esempio": [
+     "丆丙乀丛丯",
+     "丧丆井亁",
+     "井井丆买",
+     "亀丙且乤"
+    ]
+   },
+   "posizione": -18.121820536975978,
+   "esempio_voynich_leggibile": [
+    "ren zhu bing fu jiao",
+    "yu ren · shui",
+    "· · ren dang",
+    "zhao zhu zhi xia"
+   ]
+  },
+  "vietnamita": {
+   "positivo": {
+    "punteggio": -4.071832656860352,
+    "simboli": 300,
+    "chiave_giusta": 0.2852273296907113,
+    "esempio": [
+     "一井云井五乢丏井",
+     "井丒丌丌丁丸井丈",
+     "乑丈丑乢井井丌丈",
+     "乐丁丫井井丘严井"
+    ]
+   },
+   "negativo": {
+    "punteggio": -4.386209487915039,
+    "simboli": 300,
+    "esempio": [
+     "乵丝互井丄井丕业",
+     "乞丄世井一乻丂与",
+     "丈乛井井乫世井井",
+     "乔並一井井乾丶乵"
+    ]
+   },
+   "Voynich": {
+    "punteggio": -3.069157600402832,
+    "simboli": 300,
+    "esempio": [
+     "井丞丅上丗",
+     "井井丑両",
+     "井井井了",
+     "丕丞一丹"
+    ]
+   },
+   "posizione": 4.189405062369558,
+   "esempio_voynich_leggibile": [
+    "· ngài ta đã đến",
+    "· · trong trời",
+    "· · · ðấng",
+    "một ngài người a"
+   ]
+  },
+  "giapponese (morfemi)": {
+   "positivo": {
+    "punteggio": -3.7582714557647705,
+    "simboli": 300,
+    "chiave_giusta": 0.39836583287382826,
+    "esempio": [
+     "丁井井一井井丁东",
+     "上丬井一乇丁井丟",
+     "丑乪丩両井丆丄井",
+     "乓丌事下丷井丑丑"
+    ]
+   },
+   "negativo": {
+    "punteggio": -4.128032684326172,
+    "simboli": 300,
+    "esempio": [
+     "丂井丣井井丂井上",
+     "丁七丄井严井丵井",
+     "井不井丂井丄井井",
+     "井丧丌井井乞丣丂"
+    ]
+   },
+   "Voynich": {
+    "punteggio": -3.4882752895355225,
+    "simboli": 300,
+    "esempio": [
+     "井世丅云井",
+     "井井丈与",
+     "井井井丸",
+     "乮世両久"
+    ]
+   },
+   "posizione": 1.7301905807693772,
+   "esempio_voynich_leggibile": [
+    "· も た エルサレム ·",
+    "· · で あ",
+    "· · · られ",
+    "兄弟 も また 地"
+   ]
+  },
+  "tailandese (parole)": {
+   "positivo": {
+    "punteggio": -4.169769763946533,
+    "simboli": 300,
+    "chiave_giusta": 0.23946062459271142,
+    "esempio": [
+     "丝井井井井井井井",
+     "井亄丝井丈么下井",
+     "井井井井与井一七",
+     "井乓丶丂上井下井"
+    ]
+   },
+   "negativo": {
+    "punteggio": -4.151571273803711,
+    "simboli": 300,
+    "esempio": [
+     "丷井乆丛义丁丶井",
+     "两乙丩丶井乼丂上",
+     "乼丂井井一井一井",
+     "井丷井丷井井井井"
+    ]
+   },
+   "Voynich": {
+    "punteggio": -2.964841842651367,
+    "simboli": 300,
+    "esempio": [
+     "井丕了丿井",
+     "井井东与",
+     "井井井丧",
+     "亄丕井乯"
+    ]
+   },
+   "posizione": -65.21032359491682,
+   "esempio_voynich_leggibile": [
+    "· อยู่ เครื่อง ต่อ ·",
+    "· · พวก เรา",
+    "· · · การ",
+    "ชาติ อยู่ · ฝ่าย"
+   ]
+  }
+ },
+ "valide": [
+  "cinese con toni",
+  "vietnamita",
+  "giapponese (morfemi)",
+  "tailandese (parole)"
+ ],
+ "candidati": [
+  "cinese con toni",
+  "vietnamita",
+  "giapponese (morfemi)"
+ ],
+ "esito": "candidato, da esaminare"
+}

@@ -1,0 +1,7 @@
+Voynich: simboli 300, lunghezza 19949, righe 3098
+cinese senza toni      positivo -5.125 (chiave giusta 0.08) | negativo -5.076 | Voynich -4.195 | posizione -18.12 | ['ren zhu bing fu jiao']
+vietnamita             positivo -4.072 (chiave giusta 0.29) | negativo -4.386 | Voynich -3.069 | posizione 4.19 | ['· ngài ta đã đến']
+cinese con toni        positivo -4.443 (chiave giusta 0.20) | negativo -4.699 | Voynich -3.280 | posizione 5.55 | ['· shang4 dou1 ye3 ·']
+tailandese (parole)    positivo -4.170 (chiave giusta 0.24) | negativo -4.152 | Voynich -2.965 | posizione -65.21 | ['· อยู่ เครื่อง ต่อ ·']
+giapponese (morfemi)   positivo -3.758 (chiave giusta 0.40) | negativo -4.128 | Voynich -3.488 | posizione 1.73 | ['· も た エルサレム ·']
+candidato, da esaminare ['cinese con toni', 'vietnamita', 'giapponese (morfemi)', 'tailandese (parole)'] ['cinese con toni', 'vietnamita', 'giapponese (morfemi)']
