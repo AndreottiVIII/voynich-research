@@ -9541,3 +9541,16 @@ Banco preregistrato dell'e293 (`esegui.py e293 -- --v11`), Isidoro XVII nel sacc
 - v10 e v11 sono quindi due compromessi diversi: la v10 ha più materie (50) senza il cancello; la v11 ha il cancello e il giudice forte più basso, con tre materie in meno. Il passo seguente deve dare il gradiente senza perdere il cancello.
 
 - Valori grezzi del gradiente (corpo G2, semi 1–4): somiglianza nella riga 0,0457 (Voynich 0,0385), nella riga sotto 0,0390 (0,0399), a 6 righe 0,0266 (0,0335). Nel Voynich la somiglianza cala piano con la distanza fra righe; nel generatore le righe della pagina sono scambiabili fra loro.
+
+## 4/10/2026 (notte) — e3a01: per -l/-r un segnale di "guardare avanti", ma con troppi pochi casi
+
+Preregistrato (`preregistrazioni/e3a01.md`); primo esperimento della nuova serie di numeri della ricerca (e3a01, …),
+perché da 400 in su i numeri sono dell'altra chat. Coppie (a, b) con a ripresa dalla riga sopra (tronco, finale -*l*/-*r*)
+e b uguale a una parola della riga sopra.
+
+- Coppie 49, conflitti 26. La finale di a cambia rispetto alla fonte nel **58%** dei conflitti contro il **13%** degli
+  accordi: differenza +0,45, p 0,0015.
+- **Esito preregistrato: non decidibile** (meno di 30 conflitti).
+- La direzione è quella del "guardare avanti": quando la finale della fonte non va bene per la parola che verrà, lo
+  scriba la cambia. Con 26 casi però non lo considero dimostrato. Estensione con più casi nell'e3a02 (fonti dalle 2
+  righe sopra).
