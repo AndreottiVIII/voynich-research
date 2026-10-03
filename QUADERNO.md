@@ -9287,3 +9287,19 @@ mezzo; nullo con le etichette bordo/mezzo rimescolate nel gruppo.
     della riga (e366, e368), che qui risulta come sostituzione perché il gruppo è la parola senza il primo segno.
 - Per il voynichizzatore: a fine riga una parola in -*r* (meno in -*l*) diventa -*m* circa una volta su sette; a
   inizio riga *ch*-/*k*- diventano *y*-/*s*-.
+
+## 3/10/2026 (notte) — e390: le due regole di raccordo sono il 39% della giuntura; il resto ha lo stesso stampo (-y con q-, le altre finali con ch-/sh-/o-/a-)
+
+Preregistrato (`preregistrazioni/e390.md`). Giuntura fra parole separate da spazio normale, nullo nella pagina.
+
+- Giuntura vera: E 0,164 (z 166, 27.442 coppie). Neutralizzata (*qo*- contato come *o*-, -*l* e -*r* fusi): E 0,100.
+  **Quota spiegata dalle due regole: 0,39. Esito preregistrato: una parte importante.**
+- **Coppie che contano di più** (contributo all'informazione oltre il nullo, bit):
+  - **-*y* *q*- +0,087**, di gran lunga la prima;
+  - -*r* *a*- +0,036; -*n* *ch*- +0,023; -*n* *o*- +0,019; -*s* *a*- +0,016; -*y* *l*- +0,013; -*n* *sh*- +0,012;
+    -*r* *sh*- +0,012; -*r* *o*- +0,011; -*l* *ch*- +0,010; -*l* *d*- +0,010;
+  - negative (evitate): -*y* *ch*- −0,026, -*y* *o*- −0,020, -*y* *sh*- −0,020, -*n* *q*- −0,016, -*l* *q*- −0,011,
+    -*r* *q*- −0,011.
+- **Lettura:** la giuntura ha uno stampo semplice. Dopo -*y* viene *q*- e si evitano *ch*-, *sh*-, *o*-; dopo -*n*,
+  -*r*, -*l*, -*s* vengono *ch*-, *sh*-, *o*-, *a*- e si evita *q*-. È come una distribuzione complementare fra due
+  classi di finali e due classi di inizi.
