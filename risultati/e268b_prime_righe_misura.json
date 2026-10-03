@@ -1,0 +1,268 @@
+{
+ "scelta_seme_1": [
+  {
+   "rho": 0.0,
+   "seme": 1,
+   "pagella": 14,
+   "riga": true,
+   "mancano": [
+    "spazio",
+    "ripetizione",
+    "omogeneità",
+    "verticale"
+   ],
+   "AUC_e266": 0.9558523674149593,
+   "AUC_G8": 0.8852563474169199,
+   "e273": {
+    "paragrafi": 659,
+    "D1_meno_D2": -0.0008207705270884611,
+    "z": -0.08247239693208966
+   }
+  },
+  {
+   "rho": 0.1,
+   "seme": 1,
+   "pagella": 15,
+   "riga": true,
+   "mancano": [
+    "spazio",
+    "ripetizione",
+    "verticale"
+   ],
+   "AUC_e266": 0.9578080580335262,
+   "AUC_G8": 0.8793598666797372,
+   "e273": {
+    "paragrafi": 659,
+    "D1_meno_D2": -0.006307784414021111,
+    "z": -0.7300756472231956
+   }
+  },
+  {
+   "rho": 0.15,
+   "seme": 1,
+   "pagella": 14,
+   "riga": true,
+   "mancano": [
+    "spazio",
+    "ripetizione",
+    "profilo pagina",
+    "verticale"
+   ],
+   "AUC_e266": 0.9300460739143223,
+   "AUC_G8": 0.8246544456425842,
+   "e273": {
+    "paragrafi": 659,
+    "D1_meno_D2": 0.017558795943459212,
+    "z": 1.7249616258881515
+   }
+  },
+  {
+   "rho": 0.2,
+   "seme": 1,
+   "pagella": 15,
+   "riga": true,
+   "mancano": [
+    "spazio",
+    "ripetizione",
+    "verticale"
+   ],
+   "AUC_e266": 0.9336290559749043,
+   "AUC_G8": 0.8369375551416527,
+   "e273": {
+    "paragrafi": 659,
+    "D1_meno_D2": 0.01627708579507562,
+    "z": 1.570232752033332
+   }
+  },
+  {
+   "rho": 0.25,
+   "seme": 1,
+   "pagella": 14,
+   "riga": true,
+   "mancano": [
+    "spazio",
+    "ripetizione",
+    "profilo pagina",
+    "verticale"
+   ],
+   "AUC_e266": 0.9362268405058327,
+   "AUC_G8": 0.817145377904127,
+   "e273": {
+    "paragrafi": 659,
+    "D1_meno_D2": 0.025947893015138203,
+    "z": 2.7863420609371707
+   }
+  },
+  {
+   "rho": 0.3,
+   "seme": 1,
+   "pagella": 13,
+   "riga": true,
+   "mancano": [
+    "spazio",
+    "ripetizione",
+    "omogeneità",
+    "profilo pagina",
+    "verticale"
+   ],
+   "AUC_e266": 0.9404470149985296,
+   "AUC_G8": 0.8233359474561318,
+   "e273": {
+    "paragrafi": 659,
+    "D1_meno_D2": 0.047310895167269704,
+    "z": 4.9690983651979
+   }
+  },
+  {
+   "rho": 0.4,
+   "seme": 1,
+   "pagella": 14,
+   "riga": true,
+   "mancano": [
+    "spazio",
+    "ripetizione",
+    "omogeneità",
+    "verticale"
+   ],
+   "AUC_e266": 0.9432996765023038,
+   "AUC_G8": 0.7964758357023822,
+   "e273": {
+    "paragrafi": 659,
+    "D1_meno_D2": 0.06925083528346415,
+    "z": 7.035628361655601
+   }
+  }
+ ],
+ "ammessi": [
+  0.1,
+  0.15,
+  0.2,
+  0.25,
+  0.4
+ ],
+ "rho": 0.25,
+ "verifica": {
+  "base": [
+   {
+    "rho": 0.0,
+    "seme": 7,
+    "pagella": 15,
+    "riga": true,
+    "mancano": [
+     "ripetizione",
+     "profilo pagina",
+     "verticale"
+    ],
+    "AUC_e266": 0.9660719537300263,
+    "AUC_G8": 0.8931330261739046,
+    "e273": {
+     "paragrafi": 659,
+     "D1_meno_D2": 0.0019346691875692266,
+     "z": 0.2074809587559193
+    },
+    "AUC_e231": 0.8874571120478384
+   },
+   {
+    "rho": 0.0,
+    "seme": 8,
+    "pagella": 15,
+    "riga": false,
+    "mancano": [
+     "spazio",
+     "ripetizione",
+     "verticale"
+    ],
+    "AUC_e266": 0.953102636996373,
+    "AUC_G8": 0.8878394275071072,
+    "AUC_e231": 0.8541270463680032
+   },
+   {
+    "rho": 0.0,
+    "seme": 9,
+    "pagella": 15,
+    "riga": true,
+    "mancano": [
+     "spazio",
+     "ripetizione",
+     "verticale"
+    ],
+    "AUC_e266": 0.9651259680423487,
+    "AUC_G8": 0.8883246740515636,
+    "AUC_e231": 0.8787079698068816
+   }
+  ],
+  "rho": [
+   {
+    "rho": 0.25,
+    "seme": 7,
+    "pagella": 16,
+    "riga": true,
+    "mancano": [
+     "ripetizione",
+     "verticale"
+    ],
+    "AUC_e266": 0.9362464464268209,
+    "AUC_G8": 0.8272179198117833,
+    "e273": {
+     "paragrafi": 659,
+     "D1_meno_D2": 0.02764632416886425,
+     "z": 2.9429270813120447
+    },
+    "AUC_e231": 0.8806685619056955
+   },
+   {
+    "rho": 0.25,
+    "seme": 8,
+    "pagella": 13,
+    "riga": true,
+    "mancano": [
+     "spazio",
+     "ripetizione",
+     "omogeneità",
+     "verticale",
+     "formule"
+    ],
+    "AUC_e266": 0.9395794529948043,
+    "AUC_G8": 0.8104352514459366,
+    "AUC_e231": 0.870679345162239
+   },
+   {
+    "rho": 0.25,
+    "seme": 9,
+    "pagella": 13,
+    "riga": true,
+    "mancano": [
+     "spazio",
+     "ripetizione",
+     "gradiente",
+     "profilo pagina",
+     "verticale"
+    ],
+    "AUC_e266": 0.9162091951769435,
+    "AUC_G8": 0.8341192039996079,
+    "AUC_e231": 0.8471914518184491
+   }
+  ]
+ },
+ "medie": {
+  "base": {
+   "pagella_somma": 45,
+   "semi_con_riga": 2,
+   "AUC_e231_media": 0.8734307094075744,
+   "AUC_e266_media": 0.9614335195895827,
+   "AUC_G8_media": 0.8897657092441917
+  },
+  "rho": {
+   "pagella_somma": 42,
+   "semi_con_riga": 3,
+   "AUC_e231_media": 0.8661797862954612,
+   "AUC_e266_media": 0.9306783648661896,
+   "AUC_G8_media": 0.823924125085776
+  }
+ },
+ "esito": "non superato: e273 + pagella o riga",
+ "motivo": [
+  "e273",
+  "pagella o riga"
+ ]
+}
