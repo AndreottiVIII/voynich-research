@@ -44,6 +44,28 @@ Il vecchio PC (i5-7200U, 2 core, 8 GB) era saturo.
 La catena di decifrazione è divisa in due code: gli esperimenti non dipendono dai risultati l'uno dell'altro
 (e223 usa solo i corpora dell'e219).
 
+## Decisioni di Davide del 3/10 pomeriggio
+
+- **Generatore:** "facciamo di tutto perché scenda sotto il 60%". L'obiettivo è AUC del discriminatore
+  ≤ 0,6 (passo 5 del piano). Appena ci si arriva, se ne fa una **prima versione** con Davide
+  (voynichizzatore, e225). Le regole del piano restano: preregistrazioni e semi di verifica 7, 8, 9 mai
+  usati per regolare.
+- **Quattro strade nuove di decifrazione**, tutte da tentare con i controlli:
+  1. **e279, il messaggio nelle scelte.** Le scelte di grafia di ogni riga (forme lunghe e corte, e206b)
+     come canale nascosto, sul modello del cifrario di Bacone. L'altra metà della strada sono le sole
+     parole non copiate (e269, in corso).
+  2. **e280, le etichette come vocabolario.** Abbinare le etichette agli oggetti identificati (piante,
+     stelle, recipienti), come in un dizionario illustrato; metodo dell'e27.
+  3. **e281, le prime righe da sole.** Decifrare solo le prime righe dei paragrafi, che sono un registro
+     a parte (e273).
+  4. **e282, codice per categorie con riempitivi.** L'ibrido di D'Imperio (`rassegna/lingue_filosofiche.md`,
+     e39 mai fatto): parole di un codice per categorie alternate a copie.
+- **e194:** Davide non può annotare a mano. Va riprogettato in modo automatico: controllo positivo con le
+  etichette *ch*/*sh* della trascrizione, controllo a vista fatto da Claude sulle immagini.
+- **Velocità:** Claude ottimizza il risolutore dell'e17 e il generatore nel worktree
+  `C:\Users\davide\voynich_veloce` (ramo `velocita`). Le modifiche entrano in `main` solo se i risultati
+  restano identici byte per byte e quando le code non hanno esperimenti in attesa.
+
 ## Da fare (in ordine)
 
 1. ~~**e257** (righe gemelle).~~ In esecuzione.
