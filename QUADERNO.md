@@ -5317,3 +5317,24 @@ sequenza.
   - Il generatore "copia e modifica" migliore del discriminatore ripete troppo, perché κ = 1 tiene esatte
     le parole frequenti della pagina, e inventa troppo poco. Il bersaglio per il generatore e per il
     voynichizzatore ora è esplicito: R ≈ 32%, V ≈ 37%, N ≈ 14%, con fonti a 2–3 righe.
+
+## 3/10/2026 — e238: seguire il profilo di riuso con varianti forzate rompe la forma delle parole (AUC 0,99)
+
+- **Preregistrato.** Candidate estratte con le quote dell'e237 (R, V, F, A, N), fonti dalle ultime 3
+  righe. Le varianti (V, N) sono modifiche forzate (`e234.forza_variante`).
+- **Risultati** (semi 2–3):
+  - **AUC 0,987**, peggio del riferimento 0,889;
+  - profilo: R 31,5% (giusto), ma V 45% (troppe) e N 11%. La selezione per giuntura favorisce le
+    varianti;
+  - pagella (seme 2): **9/18**. Mancano h2, spazio, tipi, gradiente, deriva, profilo di pagina, Zipf,
+    forma delle parole, verticale;
+  - il discriminatore usa coppie di segni innaturali (*o+i*, *o+o*, *e+ch* molto più frequenti) e la
+    quota fra le 100 più frequenti (0,33 contro 0,42).
+- **Esito: non migliore.**
+- **Lettura.**
+  - Imporre il profilo di riuso con modifiche **qualsiasi** produce forme non-Voynich e fa perdere le
+    proprietà dei segni.
+  - Nel Voynich una "variante" non è una modifica a caso: è per lo più uno scambio entro le famiglie
+    note (ch/sh, k/t, e/ee, -dy/-ey, ain/aiin, …) o un'altra parola attestata.
+  - **Per il voynichizzatore:** l'operatore di variante va costruito sulle sostituzioni osservate fra
+    parole vicine della stessa pagina, non sulle modifiche generiche di `generatori.Modifiche`.
