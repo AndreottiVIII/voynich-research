@@ -46,6 +46,17 @@ Il vecchio PC (i5-7200U, 2 core, 8 GB) era saturo.
 La catena di decifrazione è divisa in due code: gli esperimenti non dipendono dai risultati l'uno dell'altro
 (e223 usa solo i corpora dell'e219).
 
+## Decisione di Davide del 3/10, 15:20: metà generatore, metà decifrazione
+
+- Sempre almeno un esperimento in corso per ciascuna delle due strade.
+- **Generatore:** una catena sola, e251 → e252 → e267/e268 → e253 → e254. Dopo ogni passo si riportano due
+  numeri sui semi 7–9: proprietà della pagella e AUC dei discriminatori e231/e266. Riferimento e241: 15/18,
+  0,873 / 0,961 (e276).
+- **Decifrazione:** solo prove strutturalmente diverse dal risolutore di sostituzione (e279 scelte di
+  grafia, e280 etichette, e282 codice per categorie; e281 prime righe in corso). Niente altre varianti
+  dello stesso attacco, salvo idee nuove.
+- Niente squadre di agenti per progettare: costano troppo. Claude scrive direttamente.
+
 ## Decisioni di Davide del 3/10 pomeriggio
 
 - **Generatore:** "facciamo di tutto perché scenda sotto il 60%". L'obiettivo è AUC del discriminatore
