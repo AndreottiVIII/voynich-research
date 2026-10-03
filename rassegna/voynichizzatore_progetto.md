@@ -315,3 +315,22 @@ ancora identificato. Se fallisce, le caratteristiche che usa dicono dove guardar
 - **La capacità dipende dall'entropia del modello**, che non conosciamo finché il modello non è fissato.
   Ordine di grandezza dalla v2: qualche bit per parola, quindi l'intero manoscritto porterebbe forse
   100–150 mila bit, cioè qualche migliaio di parole italiane compresse. Va misurata nell'e225.
+
+## 11. Idea di Davide del 3/10/2026: il messaggio va dimensionato sul libro intero
+
+- **L'osservazione.** Molte proprietà del Voynich esistono solo sul libro intero: omogeneità di pagina,
+  vocabolario di sezione, deriva, circolazione delle parole rare. Tradurre "una frase" in voynichese non ha senso:
+  il voynichizzatore va provato su un libro intero, con un messaggio coerente.
+- **Capacità misurata:** canali liberi noti circa 93.000 bit (e210b), cioè 3.800–7.800 parole latine; limite largo
+  circa 380.000 bit (e259b).
+- **Conseguenze per la preregistrazione dell'e225:**
+  - il testo d'ingresso è un testo vero e coerente, lungo quanto la capacità (per esempio un erbario latino di
+    circa 5.000 parole), diviso per sezioni come il manoscritto: capitoli delle piante sulle pagine dell'erbario,
+    ricette sulle pagine delle ricette, e così via;
+  - criteri: (a) il libro prodotto supera pagella e discriminatori come il generatore senza messaggio; (b) con la
+    chiave il testo torna esatto; (c) senza la chiave i nostri attacchi (risolutore, e279, e285) non lo trovano;
+  - un messaggio troppo corto, diluito nel riempitivo, non dimostra niente; uno troppo lungo rompe le proprietà.
+    La lunghezza giusta è essa stessa una misura da riportare.
+- **Conseguenza per la decifrazione:** se il Voynich porta un messaggio, è probabilmente piccolo rispetto al testo
+  e nascosto nelle scelte, non nelle parole. Le prove leggere a bassa densità (e279, e285) vanno in questa
+  direzione.
