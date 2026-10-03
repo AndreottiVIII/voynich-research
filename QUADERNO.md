@@ -10453,3 +10453,19 @@ Preregistrato (`preregistrazioni/e3a46.md`). 3.373 forme nuove.
   *oksheyqolkeey*, *ysheeyqorar*, *shkeyqokeaiin*: "…*y*" + "*qo*…" attaccati.
 - Nelle parole comuni non c'è nessuna *q* interna: *q* è un segno d'inizio parola.
 - Rifatto con la misura giusta nell'e3a47.
+
+## 4/10/2026 (notte) — e3a47: le parti attaccate senza spazio rispettano la regola di raccordo
+
+Preregistrato (`preregistrazioni/e3a47.md`), correzione della misura dell'e3a46 (non è una prova indipendente: i conteggi
+delle forme nuove erano già noti). Nelle parole comuni *q* compare solo all'inizio; una *q* interna segna un punto in cui
+due pezzi sono attaccati.
+
+- Nelle 4.776 parole uniche, segno prima delle *q* interne: *o* 16, *y* 12, *l* 2, *s* 1.
+- *q* interne dopo V (-*y*, -*o*, -*d*) o C (-*n*, -*r*, -*s*, -*m*): 29, di cui **28 dopo V (97%)**.
+- Riferimento senza regola (quota di V fra le finali di tutte le coppie di parole): 56%. Test binomiale: **p 1,1·10⁻⁶**.
+  Fra parole separate, davanti a *q*-: 84%.
+- **Esito preregistrato: le unioni interne seguono il raccordo.**
+- Esempi: *chedyqokam*, *okeedyqol*, *teyqokedy*, *oksheyqolkeey*, *ysheeyqorar*, *yqokain*, *oqotaiin*.
+- **Lettura:** quando lo scriba scrive due pezzi senza spazio, l'unione rispetta la stessa regola che vale fra parole
+  separate: *q*- viene dopo -*y*/-*o*/-*d*. Va con l'idea che lo spazio sia un confine debole dentro una catena di
+  segni che obbedisce comunque alle regole di raccordo (e379, e3a12).

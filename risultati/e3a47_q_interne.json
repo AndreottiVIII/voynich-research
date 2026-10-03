@@ -1,0 +1,43 @@
+{
+ "parole_uniche": 4776,
+ "q_interne_per_segno_prima": {
+  "o": 16,
+  "y": 12,
+  "l": 2,
+  "s": 1
+ },
+ "k_dopo_V": 28,
+ "n_dopo_V_o_C": 29,
+ "quota_interna_V": 0.9655172413793104,
+ "riferimento_A": 0.5589988551577119,
+ "riferimento_B": 0.8395118581625605,
+ "p": 1.1295955097243219e-06,
+ "esempi": [
+  "oqotor",
+  "oqd",
+  "shoqoky",
+  "oqoor",
+  "oqotaly",
+  "yqokaly",
+  "chedyqokam",
+  "okeedyqol",
+  "qoqokeey",
+  "oksheyqolkeey",
+  "ysheeyqorar",
+  "cheyqytaiin",
+  "qoteytyqoky",
+  "oqo",
+  "teyqokedy",
+  "yqokain",
+  "oloqorain",
+  "oqokeol",
+  "ytcheoqo",
+  "sqokeodaiin",
+  "oqoeeol",
+  "oqaiin",
+  "oqockhy",
+  "yqopchy",
+  "oqotaiin"
+ ],
+ "esito": "le unioni interne seguono il raccordo"
+}
