@@ -1,0 +1,37 @@
+{
+ "coppie_ripetute": 21091,
+ "classi": {
+  "b: destra forma nuova": {
+   "coppie": 2402,
+   "E": 0.12377264466124306,
+   "z": 22.63970544557045,
+   "E_ripetute_a_parita": 0.18455785577450212,
+   "Q": 0.6706441410571647,
+   "esito": "in parte"
+  },
+  "c: sinistra forma nuova": {
+   "coppie": 2451,
+   "E": 0.09282543125431816,
+   "z": 15.30056902069349,
+   "E_ripetute_a_parita": 0.18151381964226765,
+   "Q": 0.5113959446022404,
+   "esito": "in parte"
+  },
+  "d: destra errore": {
+   "coppie": 1049,
+   "E": 0.11612143747325507,
+   "z": 10.59281088997564,
+   "E_ripetute_a_parita": 0.17432008884621675,
+   "Q": 0.6661391595302371,
+   "esito": "in parte"
+  },
+  "e: sinistra errore": {
+   "coppie": 1031,
+   "E": 0.11758253146484801,
+   "z": 9.478613726598658,
+   "E_ripetute_a_parita": 0.1794329679996842,
+   "Q": 0.6553005993026597,
+   "esito": "in parte"
+  }
+ }
+}
