@@ -6111,3 +6111,37 @@ sequenza.
   - Il modello di copia lascia ~11 bit per parola, e questa sorpresa è sparsa in modo uniforme.
   - Il generatore e241 raggruppa un poco le sue sorprese, il Voynich no: è una piccola differenza in più
     da chiudere per il generatore (le varianti difficili del generatore arrivano a coppie).
+
+## 3/10/2026 — e243b: passo 1 del piano 18/18 rifatto, non superato. Lacuna dichiarata
+
+- **Preregistrato.** Generatore dell'e242 (e241 + ℓr 1) con:
+  - copia verticale fisica a distanza d, presa dalle distanze del Voynich;
+  - penalità 0,3 per la ripetizione immediata;
+  - φ scelto sul seme 1 con l'AUC dell'e266: 0,10, contro 0,946 / 0,959 per φ 0,25.
+- **Validità:** con φ 0 e senza penalità coincide con l'e242.
+- **Verifica sui semi 7, 8, 9:**
+  - pagella 16, 16 e 15 su 18, media **15,7**; la riga non è riprodotta nel seme 8;
+  - AUC dell'e231 0,876 / 0,888 / 0,871, media **0,878**;
+  - AUC dell'e266 media **0,947**.
+  - Riferimento e241: 16/18, AUC 0,874 e 0,937.
+- **Esito: non superato.**
+  - Il criterio chiedeva pagella ≥ 17, riga in tutti i semi e AUC dell'e231 ≤ 0,85.
+  - È il secondo tentativo (dopo l'e243), quindi per la regola del piano si **dichiara la lacuna** del
+    passo 1 e si prosegue con la configurazione migliore, cioè **e241**.
+- **Che cosa ha fatto la copia a distanza:**
+  - il profilo di riuso si sposta un poco verso il Voynich (R 36,7% contro 31,9%, V 35,5% contro
+    37,5%, N 13,6% contro 14,3%);
+  - le ripetizioni immediate vanno a posto (0,92–0,99% contro 0,97%);
+  - ma le **parole rare** restano riusate troppo: R 49–57 contro 1,96 del Voynich. È il difetto più
+    grande rimasto.
+- **Che cosa usa il discriminatore** (seme 7). Nel generatore rispetto al Voynich:
+  - lunghezze delle parole più disperse (deviazione 1,75 contro 1,58);
+  - meno parole fra le 100 più frequenti (0,397 contro 0,424);
+  - meno parole uniche nella pagina (0,553 contro 0,636);
+  - meno tipi per parola (0,689 contro 0,756);
+  - meno somiglianza fra parole vicine (0,193 contro 0,218).
+- **Lettura.**
+  - Il generatore ripete le stesse parole rare nella pagina, mentre il Voynich, nella pagina, usa
+    **più parole diverse e più frequenti**, e le vicine si somigliano di più.
+  - È la direzione per il passo 2 (e251, lessico che circola) e per il ciclo avversario: varianti nuove
+    invece di copie esatte delle rare, e lunghezze meno disperse.
