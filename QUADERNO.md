@@ -9414,3 +9414,28 @@ violano la regola di *qo*-.
   direzione resta aperta.
 - **Lettura:** almeno per *qo*-/*o*-, la regola si applica scrivendo da sinistra a destra: la parola nuova si adegua a
   quella appena scritta.
+
+## 3/10/2026 (notte) — e397: lo spazio del Voynich si prevede dai segni vicini per il 73%, più di quasi tutte le lingue
+
+Preregistrato (`preregistrazioni/e397.md`). R = quota dell'incertezza sulla posizione degli spazi tolta da 2 segni a
+sinistra e 2 a destra (modello a conteggi, due metà incrociate, 10.000 parole per testo).
+
+- **Voynich:** R 0,727–0,740 (mediana **0,728**).
+- **Testi sensati:** solo il cinese in pinyin lo supera (0,861: ogni "parola" è una sillaba di forma fissa). Poi greco
+  tecnico 0,707, lojban 0,700, toki pona 0,699, pinyin tecnico 0,686, tagalog 0,605, greco del Nuovo Testamento 0,600,
+  italiano tecnico 0,584, ... fino a 0,276 (anglosassone).
+- **Esito preregistrato: nella gamma delle lingue** (1 testo su 71 con R maggiore).
+- **Gibberish umano: 0,085.** Controllo (scratchpad): non è un errore di codice. I 38 testi sono di persone diverse,
+  ciascuna con le sue parole inventate, e sono piccoli. Mescolati, i segni vicini dicono poco sugli spazi; testo per
+  testo, con poco addestramento, si arriva a 0,13–0,22. Il confronto con il gibberish qui è debole.
+- **Lettura:** gli spazi del Voynich cadono in posti molto prevedibili dai segni intorno, come nelle lingue a sillabe
+  o a parole di forma regolare (pinyin, lojban, toki pona). Va con le parole di forma rigida del Voynich (e363).
+
+## 3/10/2026 (notte) — Correzione: "DA" e "DC" nel gibberish non sono autori
+
+Nell'e346 e nell'e374 ho riportato il gibberish "per autore" usando le sigle dei file (DA, DC). Il README di Gaskell e
+Bowern dice che i volontari erano 42, e i file sono numerati DC_01 … DC_42 (più DA_01, DA_02): ogni file è
+probabilmente una persona diversa, e le sigle sono raccolte, non autori. Le righe "per autore" di quegli esperimenti
+vanno lette come "per raccolta". Le conclusioni sul gibberish nel complesso non cambiano. Il README nota anche che il
+gibberish varia molto da persona a persona, e che ha "distorsioni nella posizione dei caratteri nella riga": va con
+l'effetto debole ma presente dell'e374.
