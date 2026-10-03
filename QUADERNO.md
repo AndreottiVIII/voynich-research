@@ -8144,3 +8144,26 @@ l'impaginazione e le statistiche. Risultati in `risultati/e406_generatore_pezzi.
 - **Lettura.** I due giudici, che guardano medie di pagina, sono quasi soddisfatti da un modello fatto di pochi pezzi
   capiti uno per uno. La pagella, che guarda strutture fini fra parole e fra righe (legame, verticale, scelte di grafia
   concordi nella riga), no: è il lavoro che resta, insieme al nascondiglio.
+
+## 3/10/2026 (notte) — e353: la ripresa dalle righe sopra nei generatori pubblicati; un cifrario di testo vero non ce l'ha
+
+Preregistrato (`preregistrazioni/e353.md`). Misura dell'e346 (parole di almeno 3 segni, fonte uguale o a una modifica
+nelle 2 righe sopra, nullo con le righe della pagina rimescolate).
+
+| testo | pagine | eccesso E | rapporto R | IC 95% | confronto |
+|---|---|---|---|---|---|
+| Voynich | 167 | +0,034 | 1,09 | +0,029 – +0,040 | — |
+| Naibbe (Greshko 2025), testo vero cifrato | 171 | −0,001 | 1,00 | −0,005 – +0,003 | sotto |
+| U2 (Whitehatnetizen 2026) | 123 | +0,061 | 1,39 | +0,055 – +0,067 | sopra |
+| U3 (Whitehatnetizen 2026) | 122 | +0,041 | 1,29 | +0,036 – +0,047 | pari |
+| Timm e Schinner, seme 1 | 138 | +0,022 | 1,05 | +0,017 – +0,028 | sotto |
+| Timm e Schinner, seme 19 | 138 | +0,023 | 1,05 | +0,018 – +0,028 | sotto |
+
+- **Esito preregistrato: la riproducono U2 e U3.**
+- **Lettura:**
+  - Il cifrario Naibbe, che cifra un testo vero (Plinio) parola per parola, **non ha ripresa**. Un testo vero cifrato
+    con un sistema di quel tipo non produce la ripresa dalle righe sopra del Voynich.
+  - Il generatore di Timm e Schinner, costruito sull'autocitazione, ne ha meno del Voynich.
+  - U2 e U3 ne hanno quanto il Voynich o di più, ma non hanno le proprietà di riga (e134).
+  - Nessun metodo pubblicato ha insieme la ripresa e il resto. È un vincolo utile: un'ipotesi sul Voynich deve
+    produrre la ripresa (che un cifrario parola per parola non dà) e le proprietà di riga.
