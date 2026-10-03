@@ -6010,3 +6010,21 @@ sequenza.
   - copia dalle righe sopra per posizione fisica, con le distanze del Voynich;
   - niente ripetizione immediata;
   - parole rare più lunghe.
+
+## 3/10/2026 — e271, e272: i gallows iniziali non sono capilettera, e la -m a fine riga non è un'abbreviazione
+
+- **e271, preregistrato.** Togliendo il primo segno si ottiene una parola attestata (corpo attestato),
+  contro l'atteso a parità di lunghezza del corpo per le parole che cominciano con un segno non gallows:
+  - *p*/*f* nelle prime righe: 0,757 contro 0,751 (**O/A 1,01**, z 0,3);
+  - *p*/*f* nelle altre righe: 1,11 (z 2,6);
+  - *t*/*k*: 0,95 (z −4,4).
+  - **Esito: nessun indizio.** I gallows delle prime righe non sono decorazioni aggiunte a parole normali.
+  - Fatto generale: tre parole su quattro, tolto il primo segno, sono ancora parole attestate.
+    È la struttura "a incastro" del lessico.
+- **e272, preregistrato.** Parole in *-m*: quota di tronchi "completabili" (inizio di una parola
+  frequente più lunga):
+  - **a fine riga 0,637 contro 0,698 all'interno**, rapporto **0,91** (p 0,97);
+  - controllo *-y*: 0,98.
+  - **Esito: nessun indizio.** La *-m* finale di riga non si comporta come un segno di abbreviazione
+    del copista: è una regola di fine riga del procedimento (e71, e78), non una troncatura per stare nel
+    margine.
