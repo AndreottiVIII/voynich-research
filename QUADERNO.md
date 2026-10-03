@@ -9603,3 +9603,20 @@ glifi diversa dall'EVA.
 - **Esito preregistrato: la giuntura si ripete con Glen Claston.**
 - Coppia più forte: "-9 4-" (+0,089 bit), cioè -*y* *q*- in EVA, come nella ZL (+0,087).
 - Con ZL, IT (e395) e GC, la giuntura chiusa nella riga regge in tre trascrizioni fatte da persone diverse.
+
+## 4/10/2026 (notte) — e3a03: a parità della parola in mezzo, nessun legame a distanza 2 (nelle lingue sempre)
+
+Preregistrato (`preregistrazioni/e3a03.md`). Terne di parole nella riga (w1, w2, w3): informazione mutua fra l'ultimo
+segno di w1 e il primo di w3, a parità di w2 intera (e dello strato), oltre il nullo.
+
+- **Voynich:** E 0,0033, z 1,3 (26.630 terne). A 10.000 parole: 0,0019, 0,0018, 0,0015, 0,0025, −0,0007 (mediana
+  0,0018).
+- **Gibberish umano:** E 0,0068, z 2,7.
+- **Testi sensati (10.000 parole):** da 0,18 (pinyin) e 0,16 (toki pona), inglese 0,12–0,13, francese 0,11, tedesco
+  0,10–0,11, arabo 0,11, spagnolo 0,09, ... Fra i testi con almeno 5.000 terne il minimo è il sanscrito (0,013, z 5,9;
+  0,019 il Mahabharata). Solo 4 testi piccoli (1.000–2.100 terne) stanno vicino a zero.
+- **Esito preregistrato: nessun legame oltre la parola accanto.**
+- **Lettura:** nelle lingue la grammatica lega anche parole non vicine (accordi, reggenze, ordine delle parole). Nel
+  Voynich il legame fra parole sta tutto fra vicine immediate: una volta nota la parola in mezzo, la prima non dice
+  niente sulla terza. Il sistema guarda una parola avanti (e3a02) e una indietro (e392), non di più. Una lingua scritta
+  così, con grammatica a distanza, lascerebbe un segno che qui non c'è.
