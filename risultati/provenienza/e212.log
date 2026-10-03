@@ -1,0 +1,201 @@
+Voynich, grezzo, segni EVA              simboli  26 lunghezza 155354 righe  4234
+Voynich, ripulito, segni EVA            simboli  24 lunghezza 137073 righe  4219
+Voynich, ripulito, gruppi (20 fusioni)  simboli  43 lunghezza  78739 righe  4163
+Voynich, ripulito, gruppi (50 fusioni)  simboli  72 lunghezza  61814 righe  4105
+italiano   tetto (testo in chiaro)                              punteggio -1.571  copertura 76.5% (6+: 49.4%)  coppie 38.5%  parole  3324  simboli   0     0s
+tedesco    tetto (testo in chiaro)                              punteggio -1.559  copertura 74.8% (6+: 43.7%)  coppie 37.4%  parole  2514  simboli   0     0s
+latino     tetto (testo in chiaro)                              punteggio -1.795  copertura 87.6% (6+: 57.3%)  coppie 21.4%  parole  5900  simboli   0     0s
+tedesco    grezzo, segni EVA, controllo positivo                punteggio -1.559  copertura 74.8% (6+: 43.7%)  coppie 37.4%  parole  2514  chiave 100.0%  simboli  26   433s
+tedesco    grezzo, segni EVA, controllo negativo                punteggio -3.520  copertura 29.4% (6+:  2.8%)  coppie  0.5%  parole   412  simboli  26   622s
+tedesco    grezzo, segni EVA, Voynich                           punteggio -3.346  copertura 33.7% (6+:  3.0%)  coppie  4.3%  parole   317  simboli  26   261s
+latino     grezzo, segni EVA, controllo positivo                punteggio -1.793  copertura 87.6% (6+: 57.2%)  coppie 21.4%  parole  5899  chiave 100.0%  simboli  26   553s
+latino     grezzo, segni EVA, controllo negativo                punteggio -2.901  copertura 55.9% (6+:  7.6%)  coppie  0.5%  parole  1897  simboli  26   605s
+latino     grezzo, segni EVA, Voynich                           punteggio -2.939  copertura 55.7% (6+:  8.6%)  coppie  0.3%  parole  1470  simboli  26   240s
+italiano   grezzo, segni EVA, controllo positivo                punteggio -1.571  copertura 76.5% (6+: 49.4%)  coppie 38.5%  parole  3324  chiave 100.0%  simboli  26   574s
+italiano   grezzo, segni EVA, controllo negativo                punteggio -3.421  copertura 26.8% (6+:  1.4%)  coppie  1.3%  parole   737  simboli  26   637s
+italiano   grezzo, segni EVA, Voynich                           punteggio -3.122  copertura 24.4% (6+:  1.8%)  coppie  0.3%  parole   371  simboli  26   247s
+tedesco    ripulito, segni EVA, controllo positivo              punteggio -1.559  copertura 75.0% (6+: 44.5%)  coppie 36.1%  parole  2325  chiave 100.0%  simboli  24   288s
+tedesco    ripulito, segni EVA, controllo negativo              punteggio -3.513  copertura 29.6% (6+:  2.9%)  coppie  0.2%  parole   408  simboli  24   436s
+tedesco    ripulito, segni EVA, Voynich                         punteggio -3.151  copertura 20.7% (6+:  2.7%)  coppie  0.9%  parole   213  simboli  24   184s
+latino     ripulito, segni EVA, controllo positivo              punteggio -1.789  copertura 87.7% (6+: 57.4%)  coppie 21.9%  parole  5420  chiave 100.0%  simboli  24   381s
+latino     ripulito, segni EVA, controllo negativo              punteggio -2.903  copertura 55.9% (6+:  7.3%)  coppie  0.3%  parole  1899  simboli  24   444s
+latino     ripulito, segni EVA, Voynich                         punteggio -2.862  copertura 57.9% (6+:  6.6%)  coppie  0.2%  parole  1157  simboli  24   170s
+italiano   ripulito, segni EVA, controllo positivo              punteggio -1.573  copertura 76.6% (6+: 49.5%)  coppie 39.3%  parole  3031  chiave 100.0%  simboli  24   418s
+italiano   ripulito, segni EVA, controllo negativo              punteggio -3.323  copertura 31.5% (6+:  2.9%)  coppie  0.0%  parole   584  simboli  24   467s
+italiano   ripulito, segni EVA, Voynich                         punteggio -3.178  copertura 25.7% (6+:  0.7%)  coppie  1.9%  parole   359  simboli  24   171s
+tedesco    ripulito, gruppi (20 fusioni), controllo positivo    punteggio -1.510  copertura 76.1% (6+: 45.1%)  coppie 38.2%  parole  1722  chiave 100.0%  simboli  43   451s
+tedesco    ripulito, gruppi (20 fusioni), controllo negativo    punteggio -3.512  copertura 28.8% (6+:  2.6%)  coppie  0.2%  parole   392  simboli  43   494s
+tedesco    ripulito, gruppi (20 fusioni), Voynich               punteggio -3.576  copertura 21.0% (6+:  2.5%)  coppie  9.7%  parole   244  simboli  43   679s
+latino     ripulito, gruppi (20 fusioni), controllo positivo    punteggio -1.775  copertura 88.2% (6+: 57.9%)  coppie 21.8%  parole  3811  chiave 100.0%  simboli  43   466s
+latino     ripulito, gruppi (20 fusioni), controllo negativo    punteggio -2.927  copertura 56.2% (6+:  7.6%)  coppie  0.2%  parole  1988  simboli  43   561s
+latino     ripulito, gruppi (20 fusioni), Voynich               punteggio -3.150  copertura 45.4% (6+:  3.8%)  coppie  0.1%  parole  1614  simboli  43   710s
+italiano   ripulito, gruppi (20 fusioni), controllo positivo    punteggio -1.563  copertura 77.8% (6+: 50.7%)  coppie 40.6%  parole  2102  chiave 100.0%  simboli  43   441s
+italiano   ripulito, gruppi (20 fusioni), controllo negativo    punteggio -3.363  copertura 29.2% (6+:  2.0%)  coppie  0.0%  parole   689  simboli  43   599s
+italiano   ripulito, gruppi (20 fusioni), Voynich               punteggio -3.593  copertura 17.5% (6+:  0.4%)  coppie  0.0%  parole   480  simboli  43   694s
+tedesco    ripulito, gruppi (50 fusioni), controllo positivo    punteggio -1.527  copertura 76.3% (6+: 45.7%)  coppie 36.9%  parole  1472  chiave 100.0%  simboli  72   607s
+tedesco    ripulito, gruppi (50 fusioni), controllo negativo    punteggio -3.474  copertura 30.8% (6+:  2.6%)  coppie  0.4%  parole   361  simboli  72   645s
+tedesco    ripulito, gruppi (50 fusioni), Voynich               punteggio -4.191  copertura 13.1% (6+:  0.6%)  coppie  1.2%  parole   386  simboli  72   630s
+inglese    tetto (testo in chiaro)                              punteggio -1.424  copertura 69.5% (6+: 32.7%)  coppie 50.8%  parole  1541  simboli   0     0s
+latino     ripulito, gruppi (50 fusioni), controllo positivo    punteggio -1.764  copertura 88.5% (6+: 59.1%)  coppie 21.5%  parole  3293  chiave 100.0%  simboli  72   589s
+latino     ripulito, gruppi (50 fusioni), controllo negativo    punteggio -2.915  copertura 55.4% (6+:  7.3%)  coppie  0.1%  parole  1871  simboli  72   642s
+latino     ripulito, gruppi (50 fusioni), Voynich               punteggio -3.366  copertura 42.6% (6+:  2.7%)  coppie  0.0%  parole  1868  simboli  72   668s
+francese   tetto (testo in chiaro)                              punteggio -1.566  copertura 74.7% (6+: 46.0%)  coppie 38.4%  parole  2144  simboli   0     0s
+italiano   ripulito, gruppi (50 fusioni), controllo positivo    punteggio -1.541  copertura 78.1% (6+: 50.6%)  coppie 42.0%  parole  1859  chiave 100.0%  simboli  72   601s
+italiano   ripulito, gruppi (50 fusioni), controllo negativo    punteggio -3.407  copertura 27.7% (6+:  1.7%)  coppie  0.3%  parole   681  simboli  72   603s
+italiano   ripulito, gruppi (50 fusioni), Voynich               punteggio -3.885  copertura 14.8% (6+:  0.4%)  coppie  1.2%  parole   525  simboli  72   679s
+spagnolo   tetto (testo in chiaro)                              punteggio -1.547  copertura 74.4% (6+: 50.4%)  coppie 41.1%  parole  2818  simboli   0     0s
+inglese    grezzo, segni EVA, controllo positivo                punteggio -1.424  copertura 69.5% (6+: 32.7%)  coppie 50.8%  parole  1541  chiave 100.0%  simboli  26   429s
+inglese    grezzo, segni EVA, controllo negativo                punteggio -3.826  copertura 18.1% (6+:  0.6%)  coppie  0.0%  parole   277  simboli  26   891s
+inglese    grezzo, segni EVA, Voynich                           punteggio -3.581  copertura 20.7% (6+:  0.5%)  coppie  0.2%  parole   205  simboli  26   373s
+francese   grezzo, segni EVA, controllo positivo                punteggio -1.566  copertura 74.7% (6+: 46.0%)  coppie 38.4%  parole  2144  chiave 100.0%  simboli  26   524s
+francese   grezzo, segni EVA, controllo negativo                punteggio -2.882  copertura 28.5% (6+:  1.9%)  coppie  2.5%  parole   287  simboli  26   832s
+francese   grezzo, segni EVA, Voynich                           punteggio -3.060  copertura 23.9% (6+:  2.3%)  coppie  0.5%  parole   263  simboli  26   337s
+spagnolo   grezzo, segni EVA, controllo positivo                punteggio -1.547  copertura 74.4% (6+: 50.4%)  coppie 41.1%  parole  2818  chiave 100.0%  simboli  26   599s
+spagnolo   grezzo, segni EVA, controllo negativo                punteggio -3.207  copertura 27.0% (6+:  1.2%)  coppie  0.9%  parole   456  simboli  26   895s
+spagnolo   grezzo, segni EVA, Voynich                           punteggio -3.141  copertura 34.6% (6+:  3.0%)  coppie  1.0%  parole   291  simboli  26   361s
+inglese    ripulito, segni EVA, controllo positivo              punteggio -1.417  copertura 69.5% (6+: 32.3%)  coppie 50.6%  parole  1462  chiave 100.0%  simboli  24   268s
+inglese    ripulito, segni EVA, controllo negativo              punteggio -3.888  copertura 16.4% (6+:  0.5%)  coppie  2.5%  parole   282  simboli  24   650s
+inglese    ripulito, segni EVA, Voynich                         punteggio -3.060  copertura 27.2% (6+:  0.4%)  coppie  1.8%  parole   190  simboli  24   207s
+francese   ripulito, segni EVA, controllo positivo              punteggio -1.558  copertura 74.5% (6+: 45.9%)  coppie 39.1%  parole  2038  chiave 100.0%  simboli  24   318s
+francese   ripulito, segni EVA, controllo negativo              punteggio -2.881  copertura 28.5% (6+:  1.9%)  coppie  2.4%  parole   278  simboli  24   555s
+francese   ripulito, segni EVA, Voynich                         punteggio -2.882  copertura 26.2% (6+:  3.6%)  coppie  0.0%  parole   224  simboli  24   219s
+spagnolo   ripulito, segni EVA, controllo positivo              punteggio -1.538  copertura 74.4% (6+: 50.6%)  coppie 41.8%  parole  2605  chiave 100.0%  simboli  24   386s
+spagnolo   ripulito, segni EVA, controllo negativo              punteggio -3.204  copertura 28.3% (6+:  1.3%)  coppie  0.8%  parole   455  simboli  24   519s
+spagnolo   ripulito, segni EVA, Voynich                         punteggio -3.172  copertura 35.4% (6+:  5.8%)  coppie  2.4%  parole   280  simboli  24   199s
+inglese    ripulito, gruppi (20 fusioni), controllo positivo    punteggio -1.421  copertura 68.4% (6+: 31.6%)  coppie 49.6%  parole  1069  chiave 100.0%  simboli  43   519s
+inglese    ripulito, gruppi (20 fusioni), controllo negativo    punteggio -3.892  copertura 18.3% (6+:  0.5%)  coppie  0.0%  parole   352  simboli  43   582s
+inglese    ripulito, gruppi (20 fusioni), Voynich               punteggio -4.209  copertura 12.2% (6+:  0.3%)  coppie  2.7%  parole   302  simboli  43   588s
+francese   ripulito, gruppi (20 fusioni), controllo positivo    punteggio -1.556  copertura 74.0% (6+: 46.3%)  coppie 40.1%  parole  1383  chiave 100.0%  simboli  43   528s
+francese   ripulito, gruppi (20 fusioni), controllo negativo    punteggio -2.898  copertura 30.8% (6+:  2.0%)  coppie  1.0%  parole   272  simboli  43   575s
+francese   ripulito, gruppi (20 fusioni), Voynich               punteggio -3.480  copertura 22.4% (6+:  1.5%)  coppie  0.3%  parole   392  simboli  43   515s
+spagnolo   ripulito, gruppi (20 fusioni), controllo positivo    punteggio -1.490  copertura 74.5% (6+: 51.2%)  coppie 42.3%  parole  1864  chiave 100.0%  simboli  43   529s
+spagnolo   ripulito, gruppi (20 fusioni), controllo negativo    punteggio -3.180  copertura 25.2% (6+:  1.4%)  coppie  0.5%  parole   455  simboli  43   552s
+spagnolo   ripulito, gruppi (20 fusioni), Voynich               punteggio -3.731  copertura 15.1% (6+:  0.6%)  coppie  0.7%  parole   404  simboli  43   524s
+inglese    ripulito, gruppi (50 fusioni), controllo positivo    punteggio -1.433  copertura 67.7% (6+: 31.2%)  coppie 48.8%  parole   894  chiave 100.0%  simboli  72   449s
+inglese    ripulito, gruppi (50 fusioni), controllo negativo    punteggio -3.984  copertura 17.2% (6+:  0.5%)  coppie  0.9%  parole   321  simboli  72   463s
+inglese    ripulito, gruppi (50 fusioni), Voynich               punteggio -4.304  copertura 13.3% (6+:  0.2%)  coppie  1.7%  parole   357  simboli  72   507s
+ceco       tetto (testo in chiaro)                              punteggio -1.801  copertura 80.5% (6+: 48.5%)  coppie 36.3%  parole  4483  simboli   0     0s
+francese   ripulito, gruppi (50 fusioni), controllo positivo    punteggio -1.558  copertura 74.0% (6+: 47.3%)  coppie 41.9%  parole  1217  chiave 100.0%  simboli  72   451s
+francese   ripulito, gruppi (50 fusioni), controllo negativo    punteggio -2.927  copertura 23.1% (6+:  2.3%)  coppie  0.0%  parole   261  simboli  72   455s
+francese   ripulito, gruppi (50 fusioni), Voynich               punteggio -3.827  copertura 15.8% (6+:  0.4%)  coppie  0.0%  parole   363  simboli  72   511s
+ungherese  tetto (testo in chiaro)                              punteggio -1.712  copertura 79.1% (6+: 54.9%)  coppie 23.5%  parole  4726  simboli   0     0s
+spagnolo   ripulito, gruppi (50 fusioni), controllo positivo    punteggio -1.504  copertura 73.9% (6+: 50.5%)  coppie 40.7%  parole  1545  chiave 100.0%  simboli  72   447s
+spagnolo   ripulito, gruppi (50 fusioni), controllo negativo    punteggio -3.308  copertura 25.4% (6+:  1.1%)  coppie  0.7%  parole   508  simboli  72   463s
+spagnolo   ripulito, gruppi (50 fusioni), Voynich               punteggio -3.998  copertura 17.5% (6+:  0.4%)  coppie  0.8%  parole   462  simboli  72   524s
+greco      tetto (testo in chiaro)                              punteggio -1.475  copertura 72.9% (6+: 46.7%)  coppie 46.2%  parole  3060  simboli   0     0s
+ceco       grezzo, segni EVA, controllo positivo                punteggio -1.801  copertura 80.5% (6+: 48.5%)  coppie 36.3%  parole  4483  chiave 100.0%  simboli  26   573s
+ceco       grezzo, segni EVA, controllo negativo                punteggio -3.705  copertura 17.6% (6+:  0.6%)  coppie  0.3%  parole   740  simboli  26   590s
+ceco       grezzo, segni EVA, Voynich                           punteggio -3.390  copertura 23.6% (6+:  1.4%)  coppie  0.1%  parole   393  simboli  26   234s
+ungherese  grezzo, segni EVA, controllo positivo                punteggio -1.712  copertura 79.1% (6+: 54.9%)  coppie 23.5%  parole  4726  chiave 100.0%  simboli  26   531s
+ungherese  grezzo, segni EVA, controllo negativo                punteggio -3.132  copertura 39.4% (6+:  5.6%)  coppie  0.1%  parole   485  simboli  26   512s
+ungherese  grezzo, segni EVA, Voynich                           punteggio -3.159  copertura 35.7% (6+:  6.0%)  coppie  1.0%  parole   516  simboli  26   227s
+greco      grezzo, segni EVA, controllo positivo                punteggio -1.475  copertura 72.9% (6+: 46.7%)  coppie 46.2%  parole  3060  chiave 100.0%  simboli  26   354s
+greco      grezzo, segni EVA, controllo negativo                punteggio -3.543  copertura 19.9% (6+:  1.3%)  coppie  0.2%  parole   235  simboli  26   544s
+greco      grezzo, segni EVA, Voynich                           punteggio -3.400  copertura 24.6% (6+:  0.8%)  coppie  8.0%  parole   219  simboli  26   227s
+ungherese  ripulito, segni EVA, controllo positivo              punteggio -1.695  copertura 79.5% (6+: 55.4%)  coppie 24.2%  parole  4328  chiave 100.0%  simboli  24   350s
+ungherese  ripulito, segni EVA, controllo negativo              punteggio -3.335  copertura 28.3% (6+:  3.3%)  coppie  0.2%  parole   678  simboli  24   356s
+ungherese  ripulito, segni EVA, Voynich                         punteggio -2.999  copertura 28.4% (6+:  5.9%)  coppie  0.1%  parole   297  simboli  24   150s
+ceco       ripulito, segni EVA, controllo positivo              punteggio -1.783  copertura 81.2% (6+: 49.6%)  coppie 36.8%  parole  4141  chiave 100.0%  simboli  24   386s
+ceco       ripulito, segni EVA, controllo negativo              punteggio -3.556  copertura 18.8% (6+:  0.9%)  coppie  0.0%  parole   506  simboli  24   418s
+ceco       ripulito, segni EVA, Voynich                         punteggio -3.252  copertura 26.3% (6+:  3.2%)  coppie  0.0%  parole   328  simboli  24   152s
+greco      ripulito, segni EVA, controllo positivo              punteggio -1.476  copertura 73.3% (6+: 46.7%)  coppie 46.7%  parole  2851  chiave 100.0%  simboli  24   229s
+greco      ripulito, segni EVA, controllo negativo              punteggio -3.605  copertura 21.1% (6+:  0.6%)  coppie  3.1%  parole   245  simboli  24   390s
+greco      ripulito, segni EVA, Voynich                         punteggio -3.201  copertura 29.8% (6+:  1.4%)  coppie  0.3%  parole   231  simboli  24   152s
+ungherese  ripulito, gruppi (20 fusioni), controllo positivo    punteggio -1.633  copertura 80.4% (6+: 56.3%)  coppie 24.1%  parole  3308  chiave 100.0%  simboli  43   422s
+ungherese  ripulito, gruppi (20 fusioni), controllo negativo    punteggio -3.157  copertura 32.7% (6+:  5.3%)  coppie  0.0%  parole   603  simboli  43   453s
+ungherese  ripulito, gruppi (20 fusioni), Voynich               punteggio -3.742  copertura 21.0% (6+:  3.2%)  coppie  0.0%  parole   456  simboli  43   462s
+ceco       ripulito, gruppi (20 fusioni), controllo positivo    punteggio -1.737  copertura 82.3% (6+: 49.9%)  coppie 37.9%  parole  3124  chiave 100.0%  simboli  43   412s
+ceco       ripulito, gruppi (20 fusioni), controllo negativo    punteggio -3.602  copertura 19.8% (6+:  0.7%)  coppie  0.0%  parole   558  simboli  43   462s
+ceco       ripulito, gruppi (20 fusioni), Voynich               punteggio -3.728  copertura 15.0% (6+:  0.5%)  coppie  0.8%  parole   525  simboli  43   463s
+greco      ripulito, gruppi (20 fusioni), controllo positivo    punteggio -1.445  copertura 74.4% (6+: 47.4%)  coppie 49.3%  parole  2079  chiave 100.0%  simboli  43   413s
+greco      ripulito, gruppi (20 fusioni), controllo negativo    punteggio -3.632  copertura 18.6% (6+:  1.0%)  coppie  0.0%  parole   241  simboli  43   459s
+greco      ripulito, gruppi (20 fusioni), Voynich               punteggio -3.905  copertura 11.5% (6+:  0.5%)  coppie  2.0%  parole   334  simboli  43   448s
+ungherese  ripulito, gruppi (50 fusioni), controllo positivo    punteggio -1.622  copertura 80.2% (6+: 56.3%)  coppie 24.1%  parole  2884  chiave 100.0%  simboli  72   335s
+ungherese  ripulito, gruppi (50 fusioni), controllo negativo    punteggio -3.143  copertura 37.6% (6+:  6.4%)  coppie  0.0%  parole   607  simboli  72   360s
+ungherese  ripulito, gruppi (50 fusioni), Voynich               punteggio -3.850  copertura 19.7% (6+:  2.3%)  coppie  0.0%  parole   449  simboli  72   444s
+ceco       ripulito, gruppi (50 fusioni), controllo positivo    punteggio -1.681  copertura 83.2% (6+: 50.2%)  coppie 38.6%  parole  2766  chiave 100.0%  simboli  72   337s
+ceco       ripulito, gruppi (50 fusioni), controllo negativo    punteggio -3.670  copertura 18.5% (6+:  0.6%)  coppie  0.0%  parole   691  simboli  72   365s
+ceco       ripulito, gruppi (50 fusioni), Voynich               punteggio -4.031  copertura 11.3% (6+:  0.3%)  coppie  0.0%  parole   578  simboli  72   442s
+ebraico    tetto (testo in chiaro)                              punteggio -2.249  copertura 74.6% (6+: 17.9%)  coppie 22.3%  parole  6214  simboli   0     0s
+greco      ripulito, gruppi (50 fusioni), controllo positivo    punteggio -1.432  copertura 74.0% (6+: 46.7%)  coppie 48.9%  parole  1835  chiave 100.0%  simboli  72   340s
+greco      ripulito, gruppi (50 fusioni), controllo negativo    punteggio -3.616  copertura 20.3% (6+:  1.1%)  coppie  0.6%  parole   274  simboli  72   366s
+greco      ripulito, gruppi (50 fusioni), Voynich               punteggio -4.116  copertura 11.3% (6+:  0.3%)  coppie  2.1%  parole   304  simboli  72   442s
+arabo      tetto (testo in chiaro)                              punteggio -2.127  copertura 77.1% (6+: 27.2%)  coppie 27.5%  parole  6363  simboli   0     0s
+turco      tetto (testo in chiaro)                              punteggio -1.685  copertura 86.6% (6+: 58.9%)  coppie 24.7%  parole  5231  simboli   0     0s
+turco      grezzo, segni EVA, controllo positivo                punteggio -1.685  copertura 86.6% (6+: 58.9%)  coppie 24.7%  parole  5231  chiave 100.0%  simboli  26   437s
+turco      grezzo, segni EVA, controllo negativo                punteggio -3.332  copertura 41.9% (6+:  6.6%)  coppie  0.0%  parole   537  simboli  26   542s
+turco      grezzo, segni EVA, Voynich                           punteggio -3.259  copertura 53.8% (6+:  9.4%)  coppie  0.0%  parole   301  simboli  26   203s
+arabo      grezzo, segni EVA, controllo positivo                punteggio -2.302  copertura 72.0% (6+: 24.6%)  coppie 27.6%  parole  5831  chiave 100.0%  simboli  26   521s
+arabo      grezzo, segni EVA, controllo negativo                punteggio -2.963  copertura 42.8% (6+:  1.8%)  coppie  1.1%  parole   822  simboli  26   554s
+arabo      grezzo, segni EVA, Voynich                           punteggio -2.936  copertura 49.9% (6+:  1.5%)  coppie  2.7%  parole   741  simboli  26   193s
+ebraico    grezzo, segni EVA, controllo positivo                punteggio -2.275  copertura 74.1% (6+: 17.9%)  coppie 22.1%  parole  6188  chiave 100.0%  simboli  26   527s
+ebraico    grezzo, segni EVA, controllo negativo                punteggio -3.522  copertura 37.4% (6+:  1.2%)  coppie  0.1%  parole  1373  simboli  26   562s
+ebraico    grezzo, segni EVA, Voynich                           punteggio -2.997  copertura 51.9% (6+:  3.2%)  coppie  0.5%  parole   691  simboli  26   195s
+turco      ripulito, segni EVA, controllo positivo              punteggio -1.674  copertura 86.8% (6+: 59.1%)  coppie 25.1%  parole  4790  chiave 100.0%  simboli  24   262s
+turco      ripulito, segni EVA, controllo negativo              punteggio -3.163  copertura 49.1% (6+:  7.6%)  coppie  0.0%  parole   370  simboli  24   341s
+turco      ripulito, segni EVA, Voynich                         punteggio -3.402  copertura 49.5% (6+:  8.8%)  coppie  0.4%  parole   267  simboli  24   133s
+ebraico    ripulito, segni EVA, controllo positivo              punteggio -2.278  copertura 73.7% (6+: 17.3%)  coppie 22.8%  parole  5556  chiave 100.0%  simboli  24   385s
+ebraico    ripulito, segni EVA, controllo negativo              punteggio -3.612  copertura 33.7% (6+:  0.4%)  coppie  0.0%  parole  1461  simboli  24   345s
+ebraico    ripulito, segni EVA, Voynich                         punteggio -2.784  copertura 43.6% (6+:  2.4%)  coppie  2.6%  parole   526  simboli  24   131s
+arabo      ripulito, segni EVA, controllo positivo              punteggio -2.358  copertura 68.1% (6+: 21.2%)  coppie 26.7%  parole  4921  chiave  96.4%  simboli  24   389s
+arabo      ripulito, segni EVA, controllo negativo              punteggio -2.856  copertura 40.9% (6+:  2.5%)  coppie  2.1%  parole   578  simboli  24   342s
+arabo      ripulito, segni EVA, Voynich                         punteggio -2.646  copertura 51.2% (6+:  4.9%)  coppie  0.6%  parole   523  simboli  24   133s
+turco      ripulito, gruppi (20 fusioni), controllo positivo    punteggio -1.620  copertura 87.7% (6+: 61.2%)  coppie 25.3%  parole  3469  chiave 100.0%  simboli  43   392s
+turco      ripulito, gruppi (20 fusioni), controllo negativo    punteggio -3.255  copertura 45.1% (6+:  5.6%)  coppie  0.1%  parole   444  simboli  43   454s
+turco      ripulito, gruppi (20 fusioni), Voynich               punteggio -4.092  copertura 26.1% (6+:  2.3%)  coppie  0.0%  parole   493  simboli  43   465s
+ebraico    ripulito, gruppi (20 fusioni), controllo positivo    punteggio -2.230  copertura 74.3% (6+: 15.5%)  coppie 22.3%  parole  4187  chiave 100.0%  simboli  43   452s
+ebraico    ripulito, gruppi (20 fusioni), controllo negativo    punteggio -3.582  copertura 36.4% (6+:  0.6%)  coppie  0.3%  parole  1713  simboli  43   467s
+ebraico    ripulito, gruppi (20 fusioni), Voynich               punteggio -3.308  copertura 35.2% (6+:  0.6%)  coppie  0.2%  parole  1171  simboli  43   501s
+arabo      ripulito, gruppi (20 fusioni), controllo positivo    punteggio -2.189  copertura 76.2% (6+: 24.4%)  coppie 20.9%  parole  4067  chiave 100.0%  simboli  43   473s
+arabo      ripulito, gruppi (20 fusioni), controllo negativo    punteggio -2.939  copertura 41.0% (6+:  2.0%)  coppie  1.0%  parole   869  simboli  43   468s
+arabo      ripulito, gruppi (20 fusioni), Voynich               punteggio -3.185  copertura 36.5% (6+:  1.7%)  coppie  0.7%  parole  1107  simboli  43   495s
+turco      ripulito, gruppi (50 fusioni), controllo positivo    punteggio -1.619  copertura 87.7% (6+: 61.3%)  coppie 25.0%  parole  2986  chiave 100.0%  simboli  72   455s
+turco      ripulito, gruppi (50 fusioni), controllo negativo    punteggio -3.261  copertura 44.0% (6+:  5.6%)  coppie  0.1%  parole   430  simboli  72   462s
+turco      ripulito, gruppi (50 fusioni), Voynich               punteggio -4.549  copertura 20.2% (6+:  1.2%)  coppie  0.0%  parole   523  simboli  72   497s
+malgascio  tetto (testo in chiaro)                              punteggio -1.342  copertura 77.2% (6+: 53.1%)  coppie 48.6%  parole  2222  simboli   0     0s
+ebraico    ripulito, gruppi (50 fusioni), controllo positivo    punteggio -2.310  copertura 71.9% (6+: 13.9%)  coppie 21.5%  parole  3450  chiave  99.1%  simboli  72   456s
+ebraico    ripulito, gruppi (50 fusioni), controllo negativo    punteggio -3.547  copertura 37.2% (6+:  0.7%)  coppie  0.4%  parole  1622  simboli  72   470s
+ebraico    ripulito, gruppi (50 fusioni), Voynich               punteggio -3.765  copertura 28.6% (6+:  0.5%)  coppie  0.3%  parole  1820  simboli  72   460s
+chinanteco tetto (testo in chiaro)                              punteggio -1.120  copertura 85.3% (6+: 52.9%)  coppie 73.9%  parole  2182  simboli   0     0s
+arabo      ripulito, gruppi (50 fusioni), controllo positivo    punteggio -2.157  copertura 76.6% (6+: 23.7%)  coppie 19.7%  parole  3261  chiave 100.0%  simboli  72   470s
+arabo      ripulito, gruppi (50 fusioni), controllo negativo    punteggio -3.065  copertura 40.3% (6+:  1.9%)  coppie  0.9%  parole   975  simboli  72   476s
+arabo      ripulito, gruppi (50 fusioni), Voynich               punteggio -3.367  copertura 30.2% (6+:  1.2%)  coppie  0.0%  parole  1260  simboli  72   461s
+malgascio  grezzo, segni EVA, controllo positivo                punteggio -1.342  copertura 77.2% (6+: 53.1%)  coppie 48.6%  parole  2222  chiave 100.0%  simboli  26   349s
+malgascio  grezzo, segni EVA, controllo negativo                punteggio -3.707  copertura 33.5% (6+:  6.9%)  coppie  0.3%  parole   186  simboli  26   419s
+malgascio  grezzo, segni EVA, Voynich                           punteggio -3.287  copertura 30.3% (6+:  8.9%)  coppie  0.8%  parole   244  simboli  26   174s
+chinanteco grezzo, segni EVA, controllo positivo                punteggio -1.361  copertura 80.8% (6+: 49.3%)  coppie 74.6%  parole  2001  chiave  98.3%  simboli  26   138s
+chinanteco grezzo, segni EVA, controllo negativo                punteggio -3.084  copertura 35.3% (6+:  6.6%)  coppie  0.0%  parole    36  simboli  26   424s
+chinanteco grezzo, segni EVA, Voynich                           punteggio -3.325  copertura 29.2% (6+:  2.9%)  coppie  0.0%  parole    69  simboli  26   174s
+malgascio  ripulito, segni EVA, controllo positivo              punteggio -1.335  copertura 77.5% (6+: 54.1%)  coppie 49.0%  parole  2057  chiave 100.0%  simboli  24   204s
+malgascio  ripulito, segni EVA, controllo negativo              punteggio -3.868  copertura 31.3% (6+:  4.8%)  coppie  0.5%  parole   210  simboli  24   311s
+malgascio  ripulito, segni EVA, Voynich                         punteggio -3.188  copertura 38.2% (6+: 11.8%)  coppie  0.1%  parole   262  simboli  24   121s
+chinanteco ripulito, segni EVA, controllo positivo              punteggio -1.543  copertura 74.4% (6+: 41.2%)  coppie 70.5%  parole  1588  chiave  96.5%  simboli  24   119s
+chinanteco ripulito, segni EVA, controllo negativo              punteggio -3.077  copertura 35.4% (6+:  7.2%)  coppie  0.0%  parole    33  simboli  24   313s
+chinanteco ripulito, segni EVA, Voynich                         punteggio -3.380  copertura 34.5% (6+:  2.4%)  coppie  0.0%  parole    67  simboli  24   120s
+chinanteco ripulito, gruppi (20 fusioni), controllo positivo    punteggio -1.152  copertura 85.0% (6+: 52.0%)  coppie 73.9%  parole  1475  chiave 100.0%  simboli  43   253s
+chinanteco ripulito, gruppi (20 fusioni), controllo negativo    punteggio -3.274  copertura 30.6% (6+:  6.3%)  coppie  0.0%  parole    50  simboli  43   361s
+chinanteco ripulito, gruppi (20 fusioni), Voynich               punteggio -3.083  copertura 28.1% (6+:  3.1%)  coppie  0.0%  parole    49  simboli  43   344s
+malgascio  ripulito, gruppi (20 fusioni), controllo positivo    punteggio -1.321  copertura 78.0% (6+: 55.9%)  coppie 50.6%  parole  1517  chiave 100.0%  simboli  43   337s
+malgascio  ripulito, gruppi (20 fusioni), controllo negativo    punteggio -3.845  copertura 29.8% (6+:  5.5%)  coppie  2.4%  parole   250  simboli  43   357s
+malgascio  ripulito, gruppi (20 fusioni), Voynich               punteggio -3.522  copertura 29.8% (6+:  6.0%)  coppie  0.9%  parole   313  simboli  43   331s
+chinanteco ripulito, gruppi (50 fusioni), controllo positivo    punteggio -1.135  copertura 85.4% (6+: 51.5%)  coppie 74.0%  parole  1326  chiave 100.0%  simboli  72   244s
+chinanteco ripulito, gruppi (50 fusioni), controllo negativo    punteggio -3.061  copertura 37.3% (6+:  7.7%)  coppie  0.0%  parole    38  simboli  72   207s
+chinanteco ripulito, gruppi (50 fusioni), Voynich               punteggio -3.232  copertura 23.8% (6+:  2.6%)  coppie  0.0%  parole    49  simboli  72   221s
+malgascio  ripulito, gruppi (50 fusioni), controllo positivo    punteggio -1.317  copertura 78.1% (6+: 56.4%)  coppie 51.3%  parole  1339  chiave 100.0%  simboli  72   224s
+malgascio  ripulito, gruppi (50 fusioni), controllo negativo    punteggio -3.803  copertura 32.8% (6+:  6.3%)  coppie  0.7%  parole   310  simboli  72   202s
+malgascio  ripulito, gruppi (50 fusioni), Voynich               punteggio -4.034  copertura 24.4% (6+:  4.3%)  coppie  1.6%  parole   360  simboli  72   209s
+latino       grez segni E -0.03/0.02 | ripu segni E 0.04/-0.01 | ripu gruppi  -0.19/-0.08 | ripu gruppi  -0.39/-0.09
+italiano     grez segni E 0.16/0.01 | ripu segni E 0.08/-0.05 | ripu gruppi  -0.13/-0.03 | ripu gruppi  -0.26/-0.03
+tedesco      grez segni E 0.09/0.01 | ripu segni E 0.19/-0.00 | ripu gruppi  -0.03/-0.00 | ripu gruppi  -0.37/-0.05
+inglese      grez segni E 0.10/-0.00 | ripu segni E 0.34/-0.00 | ripu gruppi  -0.13/-0.01 | ripu gruppi  -0.13/-0.01
+francese     grez segni E -0.14/0.01 | ripu segni E -0.00/0.04 | ripu gruppi  -0.43/-0.01 | ripu gruppi  -0.66/-0.04
+spagnolo     grez segni E 0.04/0.04 | ripu segni E 0.02/0.09 | ripu gruppi  -0.33/-0.01 | ripu gruppi  -0.38/-0.01
+ceco         grez segni E 0.17/0.02 | ripu segni E 0.17/0.05 | ripu gruppi  -0.07/-0.00 | ripu gruppi  -0.18/-0.01
+ungherese    grez segni E -0.02/0.01 | ripu segni E 0.21/0.05 | ripu gruppi  -0.38/-0.04 | ripu gruppi  -0.46/-0.08
+greco        grez segni E 0.07/-0.01 | ripu segni E 0.19/0.02 | ripu gruppi  -0.12/-0.01 | ripu gruppi  -0.23/-0.02
+ebraico      grez segni E 0.42/0.12 | ripu segni E 0.62/0.12 | ripu gruppi  0.20/0.00 | ripu gruppi  -0.18/-0.02
+arabo        grez segni E 0.04/-0.02 | ripu segni E 0.42/0.13 | ripu gruppi  -0.33/-0.02 | ripu gruppi  -0.33/-0.03
+turco        grez segni E 0.04/0.05 | ripu segni E -0.16/0.02 | ripu gruppi  -0.51/-0.06 | ripu gruppi  -0.78/-0.08
+malgascio    grez segni E 0.18/0.04 | ripu segni E 0.27/0.14 | ripu gruppi  0.13/0.01 | ripu gruppi  -0.09/-0.04
+chinanteco   grez segni E -0.14/-0.09 | ripu segni E -0.20/-0.14 | ripu gruppi  0.09/-0.07 | ripu gruppi  -0.09/-0.12
+nessuna lettura []
