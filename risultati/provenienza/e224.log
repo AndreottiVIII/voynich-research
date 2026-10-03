@@ -1,0 +1,42 @@
+partenza {'eta': 0.0, 'sigma': 0.0, 'lam_k': (1.0, 8), 'phi': 0.0, 'psi': 0.0, 'alfa': 1.0, 'nu': 0.4} -> 12/18 (riga True) mancano ['legame', 'unioni', 'curva piatta', 'Zipf', 'verticale', 'bordo di riga']
+  eta=1.0 -> 13/18 (riga True) mancano ['legame', 'unioni', 'curva piatta', 'Zipf', 'formule']
+  eta=2.0 -> 10/18 (riga True) mancano ['uniche', 'legame', 'unioni', 'curva piatta', 'lunghezze vicine', 'Zipf', 'verticale', 'formule']
+passata 1, eta: tengo 1.0 (13/18)
+  sigma=0.03 -> 12/18 (riga True) mancano ['uniche', 'legame', 'curva piatta', 'Zipf', 'verticale', 'formule']
+  sigma=0.06 -> 13/18 (riga True) mancano ['uniche', 'curva piatta', 'Zipf', 'verticale', 'formule']
+passata 1, sigma: tengo 0.0 (13/18)
+  lam_k=(1.5, 16) -> 14/18 (riga True) mancano ['unioni', 'curva piatta', 'Zipf', 'verticale']
+  lam_k=(2.0, 16) -> 13/18 (riga True) mancano ['uniche', 'legame', 'curva piatta', 'Zipf', 'verticale']
+passata 1, lam_k: tengo (1.5, 16) (14/18)
+  phi=0.1 -> 14/18 (riga True) mancano ['unioni', 'curva piatta', 'Zipf', 'formule']
+  phi=0.2 -> -1/18 (riga False) mancano ['uniche', 'unioni', 'curva piatta', 'Zipf', 'formule']
+passata 1, phi: tengo 0.0 (14/18)
+  psi=0.03 -> 12/18 (riga True) mancano ['uniche', 'gradiente', 'unioni', 'curva piatta', 'Zipf', 'verticale']
+  psi=0.06 -> 9/18 (riga True) mancano ['h2', 'uniche', 'omogeneità', 'gradiente', 'unioni', 'curva piatta', 'Zipf', 'verticale', 'formule']
+passata 1, psi: tengo 0.0 (14/18)
+  alfa=1.3 -> 14/18 (riga True) mancano ['uniche', 'unioni', 'curva piatta', 'verticale']
+passata 1, alfa: tengo 1.0 (14/18)
+  nu=0.5 -> 13/18 (riga True) mancano ['h2', 'unioni', 'curva piatta', 'Zipf', 'verticale']
+  nu=0.6 -> 13/18 (riga True) mancano ['h2', 'unioni', 'curva piatta', 'Zipf', 'verticale']
+passata 1, nu: tengo 0.4 (14/18)
+  eta=0.0 -> 12/18 (riga True) mancano ['h2', 'unioni', 'curva piatta', 'Zipf', 'verticale', 'bordo di riga']
+  eta=2.0 -> 12/18 (riga True) mancano ['uniche', 'unioni', 'curva piatta', 'Zipf', 'verticale', 'formule']
+passata 2, eta: tengo 1.0 (14/18)
+  sigma=0.03 -> 12/18 (riga True) mancano ['h2', 'uniche', 'legame', 'curva piatta', 'Zipf', 'verticale']
+  sigma=0.06 -> 12/18 (riga True) mancano ['h2', 'uniche', 'legame', 'curva piatta', 'Zipf', 'verticale']
+passata 2, sigma: tengo 0.0 (14/18)
+  lam_k=(1.0, 8) -> 13/18 (riga True) mancano ['legame', 'unioni', 'curva piatta', 'Zipf', 'formule']
+  lam_k=(2.0, 16) -> 13/18 (riga True) mancano ['uniche', 'legame', 'curva piatta', 'Zipf', 'verticale']
+passata 2, lam_k: tengo (1.5, 16) (14/18)
+  phi=0.1 -> 14/18 (riga True) mancano ['unioni', 'curva piatta', 'Zipf', 'formule']
+  phi=0.2 -> -1/18 (riga False) mancano ['uniche', 'unioni', 'curva piatta', 'Zipf', 'formule']
+passata 2, phi: tengo 0.0 (14/18)
+  psi=0.03 -> 12/18 (riga True) mancano ['uniche', 'gradiente', 'unioni', 'curva piatta', 'Zipf', 'verticale']
+  psi=0.06 -> 9/18 (riga True) mancano ['h2', 'uniche', 'omogeneità', 'gradiente', 'unioni', 'curva piatta', 'Zipf', 'verticale', 'formule']
+passata 2, psi: tengo 0.0 (14/18)
+  alfa=1.3 -> 14/18 (riga True) mancano ['uniche', 'unioni', 'curva piatta', 'verticale']
+passata 2, alfa: tengo 1.0 (14/18)
+  nu=0.5 -> 13/18 (riga True) mancano ['h2', 'unioni', 'curva piatta', 'Zipf', 'verticale']
+  nu=0.6 -> 13/18 (riga True) mancano ['h2', 'unioni', 'curva piatta', 'Zipf', 'verticale']
+passata 2, nu: tengo 0.4 (14/18)
+finale {'eta': 1.0, 'sigma': 0.0, 'lam_k': (1.5, 16), 'phi': 0.0, 'psi': 0.0, 'alfa': 1.0, 'nu': 0.4} | verifica 12/18 riga True completo False | mancano ['h2', 'uniche', 'unioni', 'curva piatta', 'Zipf', 'verticale'] | R parole proprie 51.49312325480232 | T {'T T1': -0.2, 'T T2': 1.9, 'T T3': 1.0, 'T T4': -14.2}
