@@ -7089,3 +7089,56 @@ prime righe e lo 0,17% nelle altre (venti volte), nella v5 1,7% e 0,56%.
   di due semi ha un errore di circa 0,02, quindi la soglia di 0,02 della regola dei giri è dentro il rumore. Da ora i
   giri scelgono su **quattro semi di ricerca (1–4)** e un ritocco conta solo se abbassa l'AUC di almeno 0,03, oppure
   è mirato a un gruppo del discriminatore e lo abbassa nettamente (come le prime righe: G8 da 0,87 a 0,67).
+
+## 3/10/2026 — e302–e306: cinque misure che mostrano che cosa il generatore vecchio non aveva capito
+
+Preregistrato (`preregistrazioni/e302.md`); Voynich contro il corpo della v5 sui semi di ricerca 1–3.
+
+- **e302, registro delle prime righe** (prime righe dei paragrafi − altre righe, z con permutazioni dentro la pagina).
+  Nel Voynich: lunghezza delle parole **+0,42 segni (z 14,7)**; parole che iniziano con *ch* −0,067 (z −12,7), con *sh*
+  +0,033 (z 9,2), con *p* +0,062 (z 31,6), con *f* +0,011, con *t* +0,018; finali in *y* +0,031, in *n* −0,039 (z −8,7),
+  in *r* +0,020; segni *p* +0,035, *f* +0,009, *k* −0,020. Il generatore (v5) manca 11 di queste 16 differenze: le
+  prime righe sono un **registro intero** (parole più lunghe, *sh* invece di *ch*, -*y* invece di -*aiin*), non solo i
+  gallows *p*/*f*.
+- **e303, somiglianza fra righe e distanza** (rispetto alla distanza 1). Voynich: **dentro la riga 0,965** (le parole
+  della stessa riga si somigliano un po' meno di quelle della riga sotto), poi 0,91 a 2 righe, 0,82 a 8, 0,91 a 12–16:
+  non scende mai sotto metà. Generatore: dentro la riga **1,30**, poi piatta e perfino in salita (1,09 a 16).
+  **Lettura:** nel Voynich la riga non è un'unità di copia; il generatore vecchio costruiva la riga copiando e variando
+  le parole vicine (χ, ripetizioni, bordi), un'ipotesi sbagliata alla base.
+- **e304, errori ricorrenti.** Le 975 varianti rare (a una modifica da una parola frequente) tornano in media ogni 2,96
+  occorrenze, su pagine **più vicine del caso** (56,1 pagine contro 61,4 del nullo nella stessa sezione, **z −5,4**;
+  il 20% ha due occorrenze entro 3 pagine). **Esito preregistrato: errori ricorrenti vicini.** Nel generatore z −0,2…
+  +2,0 (14% entro 3 pagine). Con l'e300: la grafia dello scriba cambia nel tempo; una variante resta in uso per qualche
+  pagina.
+- **e305, coppie identiche.** Voynich 0,94% delle coppie vicine (generatore 1,8%); in fine riga l'8% (generatore 15%).
+  Il Voynich ripete parole **lunghe** (*chol* 24, *qokeedy* 18, *qokedy* 16, *qokeey* 12, *daiin* 11); il generatore
+  parole corte (*ol* 49–61, *ar*, *daiin*, *or*, *al*).
+- **e306, lunghezze per posizione.** Il generatore è più corto ovunque: parole di 1 segno 4,6% (Voynich 3,3%), di 2 segni
+  11,3% (8,4%), di 6 segni 13,8% (15,6%); prime righe, parola mediana 4,22 contro 4,82. Le spezzature e i prefissi
+  staccati del generatore (e236) fanno troppi frammenti corti.
+- **Uso.** Queste proprietà non si aggiungono come toppe: il **modello del Voynich** (`voynichizzatore/modello.py`, voce
+  seguente) le prende dal testo condizionando sul tipo di riga e sulla posizione, senza copia dentro la riga e con le
+  pagine vicine.
+
+## 3/10/2026 — Cambio d'impianto: dal generatore "copia e modifica" a un modello del Voynich
+
+- **Perché** (discusso con Davide alle 19:15). In un giorno di ciclo avversario il generatore vecchio è rimasto fra 0,82
+  e 0,92 di AUC: ogni meccanismo nuovo ne rompeva un altro (bordi contro gradiente, lessico globale contro
+  omogeneità), quattro scelte su due semi non hanno retto la verifica (e283, e253, e292, v6), e l'e303 mostra che una
+  delle sue basi (la riga costruita copiando i vicini) è sbagliata. Fermati i giri 9 e 10 senza risultati.
+- **Il modello:** ogni parola viene da una mescolanza di componenti, ognuna legata a una proprietà trovata: lessico della
+  pagina, coppia con la parola precedente nella riga (e285, e295), parole che seguono lo stesso segno finale (e294),
+  memoria della pagina, pagine precedenti (e300, e304), lessico per sezione × tipo di riga × posizione (e273, e302),
+  lessico del libro, riga sopra (verticale), parola nuova come variante di una parola frequente (e296). I pesi per
+  gruppo (tipo di riga × posizione) si stimano per **massima verosimiglianza sul Voynich, con ogni componente calcolata
+  senza la pagina in esame** (il modello non impara a copiare la pagina che scrive).
+- **Prima cosa che il modello insegna** (pesi stimati):
+  - righe normali, parole in mezzo: sezione 0,31, **segno finale della parola precedente 0,20**, pagina 0,16, libro
+    0,13, parola nuova 0,09, coppia esatta 0,03, memoria 0,004, **riga sopra 0,004**;
+  - prima parola dei paragrafi: **parola nuova 0,47**;
+  - ultima parola della riga: segno finale precedente 0,15, parola nuova 0,21.
+  - **Lettura:** la parola si prevede dalla sezione e dal **bordo** della parola precedente, quasi per niente dalla
+    coppia esatta; la riga sopra e la memoria non aggiungono nulla al lessico della pagina (la "verticalità" del Voynich
+    è lessico di pagina, non copia). Il generatore vecchio aveva meccanismi di copia verticale e di riga che il testo non
+    sostiene.
+- Prova in corso: pagella, pagella estesa, AUC sui semi 1–4, contro la v5.
