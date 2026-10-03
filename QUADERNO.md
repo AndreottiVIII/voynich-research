@@ -8338,3 +8338,19 @@ Preregistrato (`preregistrazioni/e358.md`). 44 bifogli completi (quattro pagine 
 - Piegato, i due passaggi insieme: z 2,5. Aperto: z −1,3. **Esito preregistrato: incerto.**
 - L'indizio va nella direzione di una scrittura foglio per foglio (recto e poi verso), non sulla pergamena aperta,
   come le e330, e331, e341 (z intorno a 2). Usano però gli stessi fogli, quindi non si sommano.
+
+## 3/10/2026 (notte) — e359: le forme nuove usano i pezzi della loro sessione, ma non più delle parole comuni
+
+Preregistrato (`preregistrazioni/e359.md`). Una parola è "composta" in un insieme di parole se si taglia in un inizio e
+una fine (almeno 2 segni ciascuno) presenti come inizio e fine di altre parole dell'insieme.
+
+| parole | numero | composte nel proprio bifoglio | in un altro della sezione | eccesso | z |
+|---|---|---|---|---|---|
+| forme nuove | 3.243 | 0,633 | 0,523 | +0,111 | 20,6 |
+| errori | 1.202 | 0,697 | 0,613 | +0,084 | 8,6 |
+| parole comuni | 694 | 0,918 | 0,790 | +0,128 | 10,5 |
+
+- **Esito preregistrato: incerto** (le forme nuove superano il caso, ma non le parole comuni).
+- **Lettura:** ogni parola è più "componibile" con i pezzi della propria sessione che con quelli di un'altra: è la
+  coerenza del lessico di sessione (e350). Le forme nuove non lo sono più delle altre. Non c'è un processo speciale di
+  invenzione per ricombinazione oltre questa coerenza.

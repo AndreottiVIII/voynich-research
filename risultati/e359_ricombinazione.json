@@ -1,0 +1,26 @@
+{
+ "gruppi": {
+  "forme nuove": {
+   "parole": 3243,
+   "composte_nel_proprio_bifoglio": 0.6333641689793401,
+   "in_un_altro": 0.5227628738822079,
+   "eccesso": 0.11060129509713224,
+   "z": 20.557931543638013
+  },
+  "errori": {
+   "parole": 1202,
+   "composte_nel_proprio_bifoglio": 0.697171381031614,
+   "in_un_altro": 0.6132778702163062,
+   "eccesso": 0.08389351081530783,
+   "z": 8.58237942342414
+  },
+  "parole comuni": {
+   "parole": 694,
+   "composte_nel_proprio_bifoglio": 0.9178674351585014,
+   "in_un_altro": 0.7895533141210375,
+   "eccesso": 0.12831412103746398,
+   "z": 10.467238860266855
+  }
+ },
+ "esito": "incerto"
+}
