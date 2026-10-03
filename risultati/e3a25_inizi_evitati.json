@@ -1,0 +1,553 @@
+{
+ "Voynich, primi 2 segni": {
+  "coppie": 2267,
+  "osservata": 0.03484781649757389,
+  "nullo": 0.06909528010586678,
+  "rapporto": 0.5043443842210433,
+  "z": -7.974551724556629
+ },
+ "Voynich, primo segno": {
+  "coppie": 2267,
+  "osservata": 0.08028231142479048,
+  "nullo": 0.14523423026025584,
+  "rapporto": 0.5527781658698967,
+  "z": -10.521827079857204
+ },
+ "inizi_piu_evitati": [
+  [
+   "q.o",
+   17,
+   66.9
+  ],
+  [
+   "d.a",
+   14,
+   20.8
+  ],
+  [
+   "y.ch",
+   4,
+   5.8
+  ],
+  [
+   "y.t",
+   4,
+   5.1
+  ],
+  [
+   "s.a",
+   11,
+   9.0
+  ],
+  [
+   "s.o",
+   14,
+   11.3
+  ]
+ ],
+ "testi_sensati": {
+  "Modern - Turkish - Literary - NT": {
+   "coppie": 1141,
+   "osservata": 0.011393514460999123,
+   "nullo": 0.03141542506573181,
+   "rapporto": 0.3626726182173246,
+   "z": -4.093785274153484
+  },
+  "Modern - Portuguese - Technical - Voynich Wiki": {
+   "coppie": 285,
+   "osservata": 0.007017543859649123,
+   "nullo": 0.017771929824561404,
+   "rapporto": 0.39486673247778875,
+   "z": -1.4745165557168063
+  },
+  "Historical - Portuguese - Technical - Coloquios dos simples": {
+   "coppie": 336,
+   "osservata": 0.008928571428571428,
+   "nullo": 0.02075892857142857,
+   "rapporto": 0.43010752688172044,
+   "z": -1.5634135152249795
+  },
+  "Conlangs - Lojban - Literary - Alice in Wonderland": {
+   "coppie": 738,
+   "osservata": 0.016260162601626018,
+   "nullo": 0.0371680216802168,
+   "rapporto": 0.4374772147283996,
+   "z": -2.9593781204779708
+  },
+  "Conlangs - Esperanto - Literary - NT": {
+   "coppie": 1026,
+   "osservata": 0.04191033138401559,
+   "nullo": 0.07874756335282651,
+   "rapporto": 0.5322111516801782,
+   "z": -5.261857276615165
+  },
+  "Historical - Spanish - Literary - NT - Sagradas Escrituras": {
+   "coppie": 654,
+   "osservata": 0.019877675840978593,
+   "nullo": 0.03409021406727829,
+   "rapporto": 0.5830903790087464,
+   "z": -2.125829597867802
+  },
+  "Modern - Maori - Technical - Polandball Wiki": {
+   "coppie": 113,
+   "osservata": 0.017699115044247787,
+   "nullo": 0.02986725663716814,
+   "rapporto": 0.5925925925925927,
+   "z": -0.8315218406202998
+  },
+  "Conlangs - Esperanto - Technical - Voynich Wiki": {
+   "coppie": 409,
+   "osservata": 0.014669926650366748,
+   "nullo": 0.02421760391198044,
+   "rapporto": 0.6057546693589096,
+   "z": -1.3835713763827107
+  },
+  "Historical - Sanskrit - Literary - Mahabharata": {
+   "coppie": 1350,
+   "osservata": 0.017777777777777778,
+   "nullo": 0.027992592592592593,
+   "rapporto": 0.6350886477904207,
+   "z": -3.1969726797271214
+  },
+  "Historical - German - Literary - NT - Luther": {
+   "coppie": 1021,
+   "osservata": 0.034280117531831536,
+   "nullo": 0.050435847208619,
+   "rapporto": 0.6796776386056899,
+   "z": -2.688609053546573
+  },
+  "Modern - Maori - Literary - NT": {
+   "coppie": 611,
+   "osservata": 0.04091653027823241,
+   "nullo": 0.05981178396072013,
+   "rapporto": 0.6840881105486387,
+   "z": -2.197235771124203
+  },
+  "Historical - English - Literary - NT (KJV)": {
+   "coppie": 755,
+   "osservata": 0.045033112582781455,
+   "nullo": 0.061059602649006624,
+   "rapporto": 0.737527114967462,
+   "z": -2.0502585566939078
+  },
+  "Conlangs - LOLCat - Literary - NT - Matthew": {
+   "coppie": 901,
+   "osservata": 0.018867924528301886,
+   "nullo": 0.025310765815760267,
+   "rapporto": 0.7454505590879192,
+   "z": -1.3846185848210515
+  },
+  "Modern - Tagalog - Literary - NT - Ang Dating Biblia": {
+   "coppie": 1082,
+   "osservata": 0.05730129390018484,
+   "nullo": 0.07506931608133087,
+   "rapporto": 0.7633117882425361,
+   "z": -2.578635665137233
+  },
+  "Historical - Anglo-Saxon - Technical - Leechbook": {
+   "coppie": 80,
+   "osservata": 0.025,
+   "nullo": 0.0326875,
+   "rapporto": 0.7648183556405354,
+   "z": -0.48669093086665116
+  },
+  "Conlangs - Klingon - Technical - Proxima Centauri B Wikia": {
+   "coppie": 80,
+   "osservata": 0.025,
+   "nullo": 0.0319375,
+   "rapporto": 0.7827788649706459,
+   "z": -0.39472296499869164
+  },
+  "Historical - French - Literary - NT - Martin": {
+   "coppie": 1034,
+   "osservata": 0.035783365570599614,
+   "nullo": 0.04556092843326886,
+   "rapporto": 0.7853958819783485,
+   "z": -1.9346704738412979
+  },
+  "Historical - Italian - Literary - NT - Diodati": {
+   "coppie": 845,
+   "osservata": 0.023668639053254437,
+   "nullo": 0.029668639053254436,
+   "rapporto": 0.7977662544874352,
+   "z": -1.146510242073335
+  },
+  "Historical - Sanskrit - Technical - Charaka Samhita": {
+   "coppie": 1423,
+   "osservata": 0.007730147575544624,
+   "nullo": 0.009627547434996487,
+   "rapporto": 0.802919708029197,
+   "z": -0.8312612469395574
+  },
+  "Modern - German - Literary - NT": {
+   "coppie": 1066,
+   "osservata": 0.0375234521575985,
+   "nullo": 0.04651500938086304,
+   "rapporto": 0.8066955732580419,
+   "z": -1.538723988629637
+  },
+  "Historical - Anglo-Saxon - Literary - NT - Hatton Gospels": {
+   "coppie": 1099,
+   "osservata": 0.029117379435850774,
+   "nullo": 0.03576888080072793,
+   "rapporto": 0.8140422284406005,
+   "z": -1.3164462968180486
+  },
+  "Modern - English - Technical - Voynich Wiki": {
+   "coppie": 895,
+   "osservata": 0.02011173184357542,
+   "nullo": 0.024262569832402235,
+   "rapporto": 0.8289201013124567,
+   "z": -0.870241210801548
+  },
+  "Modern - Chinese (Pinyin) - Literary - NT - Matthew": {
+   "coppie": 675,
+   "osservata": 0.034074074074074076,
+   "nullo": 0.04074074074074074,
+   "rapporto": 0.8363636363636365,
+   "z": -1.0269797953221855
+  },
+  "Modern - Hebrew - Literary - NT": {
+   "coppie": 851,
+   "osservata": 0.1128084606345476,
+   "nullo": 0.1343948296122209,
+   "rapporto": 0.8393809565445485,
+   "z": -2.433099777588481
+  },
+  "Historical - Nahuatl - Literary - Nican Mopohua": {
+   "coppie": 390,
+   "osservata": 0.06923076923076923,
+   "nullo": 0.08235897435897437,
+   "rapporto": 0.8405977584059776,
+   "z": -1.0838412525647299
+  },
+  "Historical - Latin - Literary - NT (Vulgate)": {
+   "coppie": 1140,
+   "osservata": 0.03684210526315789,
+   "nullo": 0.04350877192982456,
+   "rapporto": 0.846774193548387,
+   "z": -1.123616331850951
+  },
+  "Modern - French - Literary - NT": {
+   "coppie": 1024,
+   "osservata": 0.0322265625,
+   "nullo": 0.0355126953125,
+   "rapporto": 0.907465970026124,
+   "z": -0.6109928888909274
+  },
+  "Historical - Greek - Literary - NT - Textus Receptus": {
+   "coppie": 911,
+   "osservata": 0.054884742041712405,
+   "nullo": 0.059780461031833154,
+   "rapporto": 0.918105031215571,
+   "z": -0.6979117327503154
+  },
+  "Historical - Arabic - Literary - Quran": {
+   "coppie": 1023,
+   "osservata": 0.019550342130987292,
+   "nullo": 0.021270772238514174,
+   "rapporto": 0.9191176470588235,
+   "z": -0.45683629640606327
+  },
+  "Modern - Arabic - Literary - NT": {
+   "coppie": 899,
+   "osservata": 0.03781979977753059,
+   "nullo": 0.04110122358175751,
+   "rapporto": 0.9201623815967523,
+   "z": -0.5300280247736305
+  },
+  "Historical - Flemish - Technical - Cruydeboeck": {
+   "coppie": 1096,
+   "osservata": 0.025547445255474453,
+   "nullo": 0.027171532846715328,
+   "rapporto": 0.9402283411685696,
+   "z": -0.35620238044447106
+  },
+  "Modern - Russian - Technical - Voynich Wiki": {
+   "coppie": 696,
+   "osservata": 0.017241379310344827,
+   "nullo": 0.018304597701149426,
+   "rapporto": 0.9419152276295133,
+   "z": -0.23021367321146247
+  },
+  "Historical - Mayan (Yucatec) - Technical - Chilam Balam": {
+   "coppie": 118,
+   "osservata": 0.025423728813559324,
+   "nullo": 0.026991525423728815,
+   "rapporto": 0.9419152276295134,
+   "z": -0.11769421842470226
+  },
+  "Modern - Wolof - Technical - Senegal Wiki": {
+   "coppie": 444,
+   "osservata": 0.015765765765765764,
+   "nullo": 0.01626126126126126,
+   "rapporto": 0.969529085872576,
+   "z": -0.09328736058850463
+  },
+  "Conlangs - Toki Pona - Literary - NT - Sermon on the Mount": {
+   "coppie": 183,
+   "osservata": 0.09836065573770492,
+   "nullo": 0.10079234972677596,
+   "rapporto": 0.9758742206560043,
+   "z": -0.13695890162888538
+  },
+  "Modern - Italian - Literary - NT": {
+   "coppie": 796,
+   "osservata": 0.02512562814070352,
+   "nullo": 0.02528894472361809,
+   "rapporto": 0.9935419771485346,
+   "z": -0.03299545523784602
+  },
+  "Historical - English - Technical - Secreta Alberti": {
+   "coppie": 979,
+   "osservata": 0.03575076608784474,
+   "nullo": 0.035735444330949946,
+   "rapporto": 1.000428755180792,
+   "z": 0.0028497971337258553
+  },
+  "Historical - Flemish - Literary - NT": {
+   "coppie": 1075,
+   "osservata": 0.029767441860465118,
+   "nullo": 0.029627906976744185,
+   "rapporto": 1.0047095761381477,
+   "z": 0.03249563369256488
+  },
+  "Conlangs - Lojban - Technical - Science News": {
+   "coppie": 128,
+   "osservata": 0.0234375,
+   "nullo": 0.0232421875,
+   "rapporto": 1.0084033613445378,
+   "z": 0.014258097780117027
+  },
+  "Historical - Arabic - Technical - Avicenna": {
+   "coppie": 784,
+   "osservata": 0.08801020408163265,
+   "nullo": 0.0871109693877551,
+   "rapporto": 1.0103228640456843,
+   "z": 0.10186630200639651
+  },
+  "Historical - Russian - Literary - NT - Codex Marianus": {
+   "coppie": 572,
+   "osservata": 0.024475524475524476,
+   "nullo": 0.023854895104895104,
+   "rapporto": 1.0260168559912057,
+   "z": 0.09467853378662092
+  },
+  "Modern - French - Technical - Voynich Wiki": {
+   "coppie": 958,
+   "osservata": 0.018789144050104383,
+   "nullo": 0.018220250521920667,
+   "rapporto": 1.0312231452305929,
+   "z": 0.13570835353225566
+  },
+  "Modern - English - Literary - NT": {
+   "coppie": 978,
+   "osservata": 0.03680981595092025,
+   "nullo": 0.03514826175869121,
+   "rapporto": 1.0472727272727274,
+   "z": 0.33719517193602305
+  },
+  "Modern - Swahili - Technical - Lung Cancer Wiki": {
+   "coppie": 555,
+   "osservata": 0.03963963963963964,
+   "nullo": 0.03722522522522523,
+   "rapporto": 1.0648596321393997,
+   "z": 0.32533856469002426
+  },
+  "Conlangs - Neo-Quenya - Literary - NT": {
+   "coppie": 1068,
+   "osservata": 0.024344569288389514,
+   "nullo": 0.022158239700374532,
+   "rapporto": 1.0986689203465032,
+   "z": 0.49610410047716225
+  },
+  "Conlangs - Interlingua - Technical - EU Wiki": {
+   "coppie": 1158,
+   "osservata": 0.04404145077720207,
+   "nullo": 0.039926597582037995,
+   "rapporto": 1.103060452038499,
+   "z": 0.7616470119213611
+  },
+  "Modern - Swahili - Literary - NT": {
+   "coppie": 1206,
+   "osservata": 0.0439469320066335,
+   "nullo": 0.039307628524046435,
+   "rapporto": 1.118025524733678,
+   "z": 0.8527242133124594
+  },
+  "Historical - Italian - Technical - Della Pittura": {
+   "coppie": 1126,
+   "osservata": 0.035523978685612786,
+   "nullo": 0.031207815275310836,
+   "rapporto": 1.1383039271485484,
+   "z": 0.8940351363666891
+  },
+  "Conlangs - Volapuk - Literary - NT": {
+   "coppie": 996,
+   "osservata": 0.025100401606425703,
+   "nullo": 0.021887550200803213,
+   "rapporto": 1.146788990825688,
+   "z": 0.756562494624719
+  },
+  "Historical - German - Technical - German Herbarium": {
+   "coppie": 1230,
+   "osservata": 0.034959349593495934,
+   "nullo": 0.029991869918699187,
+   "rapporto": 1.1656275413391162,
+   "z": 1.1354229760630672
+  },
+  "Modern - Yoruba - Technical - Jupiter Wiki": {
+   "coppie": 324,
+   "osservata": 0.024691358024691357,
+   "nullo": 0.020771604938271605,
+   "rapporto": 1.188707280832095,
+   "z": 0.49709979921983183
+  },
+  "Modern - Tagalog - Technical - Tuberculosis Wiki": {
+   "coppie": 719,
+   "osservata": 0.048678720445062586,
+   "nullo": 0.04091098748261474,
+   "rapporto": 1.1898691143974163,
+   "z": 1.0674898729458648
+  },
+  "Modern - Arabic - Technical - Voynich Wiki": {
+   "coppie": 204,
+   "osservata": 0.08823529411764706,
+   "nullo": 0.07333333333333333,
+   "rapporto": 1.2032085561497328,
+   "z": 0.9953366675080522
+  },
+  "Historical - Latin (Abbreviated) - Literary - NT (Vulgate)": {
+   "coppie": 469,
+   "osservata": 0.0255863539445629,
+   "nullo": 0.021257995735607677,
+   "rapporto": 1.2036108324974923,
+   "z": 0.773980869842404
+  },
+  "Modern - Hebrew - Technical - Voynich Wiki": {
+   "coppie": 130,
+   "osservata": 0.015384615384615385,
+   "nullo": 0.012730769230769231,
+   "rapporto": 1.2084592145015105,
+   "z": 0.2951873346034597
+  },
+  "Modern - Spanish - Technical - Voynich Wiki": {
+   "coppie": 829,
+   "osservata": 0.026537997587454766,
+   "nullo": 0.021749095295536792,
+   "rapporto": 1.2201885745978924,
+   "z": 0.9120028865834816
+  },
+  "Conlangs - Klingon - Literary - NT - Mark": {
+   "coppie": 1162,
+   "osservata": 0.06368330464716007,
+   "nullo": 0.051914802065404476,
+   "rapporto": 1.226688769167012,
+   "z": 2.1714728418862177
+  },
+  "Conlangs - Interlingua - Literary - NT": {
+   "coppie": 956,
+   "osservata": 0.03765690376569038,
+   "nullo": 0.029696652719665272,
+   "rapporto": 1.2680521310320536,
+   "z": 1.6698919256729154
+  },
+  "Historical - Greek - Technical - De odoribus": {
+   "coppie": 591,
+   "osservata": 0.025380710659898477,
+   "nullo": 0.019856175972927242,
+   "rapporto": 1.2782275244993608,
+   "z": 1.0161150585079703
+  },
+  "Modern - Italian - Technical - Voynich Wiki": {
+   "coppie": 352,
+   "osservata": 0.03409090909090909,
+   "nullo": 0.02590909090909091,
+   "rapporto": 1.3157894736842104,
+   "z": 1.0204300530760788
+  },
+  "Historical - Latin - Technical - Pliny's Natural History": {
+   "coppie": 1263,
+   "osservata": 0.04513064133016627,
+   "nullo": 0.033630245447347586,
+   "rapporto": 1.3419658622719246,
+   "z": 2.5721313174751925
+  },
+  "Historical - Nahuatl - Technical - Florentine Codex": {
+   "coppie": 313,
+   "osservata": 0.10223642172523961,
+   "nullo": 0.07460063897763577,
+   "rapporto": 1.3704496788008567,
+   "z": 2.1909268323985214
+  },
+  "Historical - Mayan (Kaqchikel) - Literary - Annals of the Cakchiquels": {
+   "coppie": 735,
+   "osservata": 0.04081632653061224,
+   "nullo": 0.029666666666666668,
+   "rapporto": 1.375831231368952,
+   "z": 2.0312440664238944
+  },
+  "Modern - German - Technical - Voynich Wiki": {
+   "coppie": 792,
+   "osservata": 0.03282828282828283,
+   "nullo": 0.022765151515151516,
+   "rapporto": 1.4420410427066002,
+   "z": 2.053121561704404
+  },
+  "Conlangs - Neo-Quenya - Technical - Europe-Taipei Wikia": {
+   "coppie": 93,
+   "osservata": 0.08602150537634409,
+   "nullo": 0.05440860215053764,
+   "rapporto": 1.5810276679841897,
+   "z": 1.6267194034725512
+  },
+  "Historical - Spanish - Technical - De Materia Medica": {
+   "coppie": 97,
+   "osservata": 0.020618556701030927,
+   "nullo": 0.012731958762886597,
+   "rapporto": 1.6194331983805668,
+   "z": 0.7650860770257706
+  },
+  "Modern - Chinese (Pinyin) - Technical - Voynich Wiki": {
+   "coppie": 156,
+   "osservata": 0.04487179487179487,
+   "nullo": 0.027083333333333334,
+   "rapporto": 1.6568047337278107,
+   "z": 1.314829984031752
+  },
+  "Modern - Turkish - Technical - Middle Ages Wiki": {
+   "coppie": 439,
+   "osservata": 0.025056947608200455,
+   "nullo": 0.014829157175398634,
+   "rapporto": 1.6897081413210444,
+   "z": 1.897388242907604
+  },
+  "Conlangs - Volapuk - Technical - History Wiki": {
+   "coppie": 195,
+   "osservata": 0.07692307692307693,
+   "nullo": 0.04158974358974359,
+   "rapporto": 1.849568434032059,
+   "z": 2.63101696146846
+  },
+  "Historical - Latin (Abbreviated) - Technical - Pliny's Natural History": {
+   "coppie": 940,
+   "osservata": 0.031914893617021274,
+   "nullo": 0.01676063829787234,
+   "rapporto": 1.904157410345922,
+   "z": 3.649569013797195
+  },
+  "Conlangs - Toki Pona - Technical - Turkey-Mexico Wikia": {
+   "coppie": 118,
+   "osservata": 0.13559322033898305,
+   "nullo": 0.06758474576271187,
+   "rapporto": 2.006269592476489,
+   "z": 3.2560738118755106
+  }
+ },
+ "rapporto_testi_sensati_grandi": [
+  0.3626726182173246,
+  0.969529085872576,
+  1.904157410345922
+ ],
+ "esito": "incerto"
+}

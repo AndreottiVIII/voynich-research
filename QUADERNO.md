@@ -9961,3 +9961,23 @@ Non preregistrato (scratchpad). Quota di *qo*- fra *qo*/*o* + gallows: paragrafi
 cosmologica 0,45); testi in cerchio 0,05 (zodiaco 0,03, cosmologia 0,07, astronomia 0,04); raggi 0,14; etichette 0,02.
 I testi in cerchio hanno la giuntura (e391) ma quasi senza *qo*-. L'inserimento di *q* dopo -*y* è proprio del testo in
 paragrafi; i cerchi usano la forma *o*- come le etichette. Questo spiega la regola debole dell'e391.
+
+## 4/10/2026 (notte) — e3a25: due righe consecutive quasi mai cominciano entrambe con qo-
+
+Preregistrato (`preregistrazioni/e3a25.md`). Senza le prime righe dei paragrafi; coppie di righe consecutive con almeno
+3 parole.
+
+| confronto | coppie | osservata | nullo | rapporto | z |
+|---|---|---|---|---|---|
+| stessi primi 2 segni | 2.267 | 0,035 | 0,069 | **0,50** | **−8,0** |
+| stesso primo segno | 2.267 | 0,080 | 0,145 | 0,55 | −10,5 |
+
+Testi sensati con almeno 300 coppie, rapporto (primi 2 segni): minimo 0,36, mediana 0,97, massimo 1,90.
+
+- **Esito preregistrato: incerto.** L'effetto non dipendeva dalla prima riga del paragrafo (rapporto 0,50, z −8,0), ma
+  alcuni testi sensati arrivano più in basso (minimo 0,36), e la regola chiedeva di stare sotto tutti.
+- **Che cosa si evita:** quasi tutto l'effetto è *qo*-. Due righe consecutive che cominciano entrambe con *qo*- sono 17
+  contro 66,9 attese (un quarto); *da*- 14 contro 20,8; gli altri inizi sono vicini all'atteso.
+- **Lettura:** *qo*- è normale a inizio riga (e393), ma due *qo*- uno sotto l'altro sul margine sinistro quasi non ci
+  sono. L'inizio della riga potrebbe dipendere dall'**inizio** della riga sopra (sul margine), mentre non dipende dalla
+  sua fine (e393). Verifica nell'e3a26.
