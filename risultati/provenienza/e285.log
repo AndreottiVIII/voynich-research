@@ -1,0 +1,7 @@
+Voynich                                      prefisso +0.0366 | centro +0.0101 | finale +0.0498 | finale → prefisso +0.1168
+generatore e241, seme 7                      prefisso +0.0296 | centro +0.0532 | finale +0.0336 | finale → prefisso +0.0636
+generatore e241, seme 8                      prefisso +0.0268 | centro +0.0586 | finale +0.0244 | finale → prefisso +0.0606
+generatore e241, seme 9                      prefisso +0.0310 | centro +0.0616 | finale +0.0303 | finale → prefisso +0.0742
+controllo positivo (finali = latino, puro)   prefisso +0.0295 | centro +0.0524 | finale +0.2533 | finale → prefisso +0.0105
+controllo positivo (al 50%)                  prefisso +0.0288 | centro +0.0521 | finale +0.0293 | finale → prefisso +0.0258
+pezzo portatore candidato: finale

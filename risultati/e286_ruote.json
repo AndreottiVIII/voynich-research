@@ -1,0 +1,30 @@
+{
+ "risultati": {
+  "anelli (Cc)": {
+   "segmenti": 80,
+   "coppie": 2250,
+   "M": 0.13466666666666666,
+   "nullo": 0.11198177777777778,
+   "eccesso": 0.02268488888888888,
+   "z": 4.785481952919209
+  },
+  "riferimento: paragrafi in tratti uguali": {
+   "segmenti": 80,
+   "coppie": 2250,
+   "M": 0.11066666666666666,
+   "nullo": 0.09631022222222223,
+   "eccesso": 0.014356444444444436,
+   "z": 2.6188944135520122
+  },
+  "controllo positivo: ruote sintetiche": {
+   "segmenti": 80,
+   "coppie": 2250,
+   "M": 0.25822222222222224,
+   "nullo": 0.17523777777777777,
+   "eccesso": 0.08298444444444447,
+   "z": 11.445998672147692
+  }
+ },
+ "valido": true,
+ "esito": "nessuna struttura combinatoria oltre la copia"
+}
