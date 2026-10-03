@@ -6900,3 +6900,37 @@ sequenza.
   **Esito preregistrato: non migliore.**
 - **Lettura.** Variare sempre le copie del tema alza la varietà ma rompe le coppie ripetute (G6). La varietà del Voynich
   nella pagina va cercata altrove: parole rare che girano (e296) e scelte di grafia concordi nella riga (e206b).
+
+## 3/10/2026 — Ciclo avversario, giro 4: i ritocchi previsti non migliorano; le classi di riga fatte per parola sono dannose
+
+Prove di ricerca sui semi 1–2 (`voynichizzatore/prova_v4.py`, `prova_v4b.py`; i registri stanno in
+`esecuzioni/voynichizzatore/`, fuori dal repo). Regola: prima la pagella (18 materie + 8 aggiunte, somma sui due semi),
+poi l'AUC.
+
+- **prova_v4** (cumulativa sopra l'e288):
+
+  | passo | pagella | estese | riga | AUC e231 | AUC e266 |
+  |---|---|---|---|---|---|
+  | e288 | 34 | 0 | 1 | 0,857 | 0,931 |
+  | + errori sparsi 0,02 | 34 | 0 | 1 | 0,855 | 0,930 |
+  | + lunghezza stabile β 1 | 31 | 2 | 2 | 0,863 | 0,947 |
+  | + rima delle desinenze ε 2 | 30 | 2 | 0 | 0,839 | 0,937 |
+  | + successore già visto ω 0,1 | 29 | 1 | 0 | 0,822 | 0,936 |
+  | + prime righe ρ 0,15 | 29 | 1 | 0 | 0,830 | 0,925 |
+
+  Nessun passo migliora l'e288: ognuno prende al massimo una materia aggiunta e ne perde una o due delle 18.
+- **prova_v4b, classi di riga per parola** (`corpo5.classi_riga`: per ogni riga e ognuna delle 12 classi dell'e206b
+  una forma bersaglio; le parole in disaccordo passano alla compagna della coppia minima). Prende tipi e uniche nella
+  pagina e, a f 1, le 12 scelte di riga, ma la pagella scende a 12–15 (si perdono gradiente, legame, Zipf, formule, h2)
+  e l'AUC sale a 0,91–0,98 (e231) e 0,955–0,996 (e266): G2, G4, G6 salgono a 0,8–0,93. **Scartate.** Fermata la prova
+  dopo 8 lavori su 16 (le configurazioni restanti contenevano tutte le classi). Come nell'e252: cambiare parola per
+  imitare le scelte di riga si vede; la concordanza di riga del Voynich non nasce da sostituzioni di parole intere.
+- **Prove veloci sul seme 1** (solo misure aggiunte, per progettare la v5):
+  - parole rare che girano (`corpo5.circola`, scambi fra pagine della stessa sezione con gli stessi bordi): R delle
+    rare 56 → 24 (chiave stretta), 19,5 (larga), 11,3 (rare fino a 10 occorrenze), **6,7** (con compagne di riserva);
+    tipi su parole nella pagina 0,680 → 0,709, uniche 0,539 → 0,586; coppie viste altrove invariate;
+  - bordi legati nella riga (`corpo6`, tabelle dei passaggi finale→finale e prefisso→prefisso imparate dal Voynich;
+    identico a `corpo4` a manopole spente, verificato): λ_fin 1 → concordanza delle desinenze 0,016 → **0,053**
+    (Voynich 0,043), scelte di riga 3 → 5; λ_fin 2 + λ_pre 1 → concordanza 0,097 (troppa), scelte di riga 8, coppie
+    viste altrove **0,226** (Voynich 0,221).
+- Da qui la prova_v5: circolazione delle rare (v4), più bordi legati e ω 0,2 dalla ricerca dell'e292 (v5).
