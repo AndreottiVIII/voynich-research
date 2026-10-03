@@ -6752,3 +6752,18 @@ sequenza.
   - **Correlazioni con l'AUC dell'e266 sul seme 1** (positiva = alzarlo peggiora): γ +0,72, χ +0,50, ν +0,51, φ fisica
     +0,46, η +0,36, σ +0,30; δ −0,41, κ −0,29, α −0,24, π −0,22. Il lessico di sezione, la copia della parola
     precedente e le varianti facili tradiscono il generatore; prendere basi dal Voynich intero e variare le rare aiuta.
+
+## 3/10/2026 — Voynichizzatore v2: il nascondiglio della v1 nel corpo dell'e288
+
+- **Che cosa fa:** come la v1 (scelte di grafia con la codifica aritmetica secondo il modello imparato dal Voynich), ma
+  il corpo è la configurazione dell'e288 (rip 0,5, φ 0,10 per indice, σ 0,04) con `corpo2.genera_v2`
+  (`voynichizzatore/v2.py`; accetta anche i parametri della regolazione congiunta).
+- **Prova:** Isidoro XVII, chiave "mandragora" (corpo con il seme ricavato dalla chiave, non un seme di verifica).
+  Decodifica identica byte per byte. 57.311 posti di scelta.
+- **Rilevabilità:**
+  - stesso corpo senza messaggio: **17/18** (manca il gradiente), riga sì, AUC e231 **0,812**, e266 **0,928**;
+  - con il messaggio: **16/18** (mancano verticale e formule), riga sì, AUC e231 **0,831**, e266 **0,933**;
+  - confronto con le versioni precedenti, stesso testo e stessa chiave: v0 0,958 / 0,980; v1 0,889 / 0,957.
+- **Lettura.** Il corpo nuovo abbassa i due discriminatori di 0,06 e 0,02 rispetto alla v1. Il messaggio costa qui
+  un punto di pagella e 0,02 / 0,005 di AUC: su un solo seme è dentro la variabilità (circa ±0,03), da misurare su più
+  chiavi. Prossimi giri: e253 ed e289 per il corpo, poi il ciclo avversario.
