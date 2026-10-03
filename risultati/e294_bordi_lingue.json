@@ -1,0 +1,1039 @@
+{
+ "risultati": {
+  "lingua: Afrikaans": {
+   "eccessi": {
+    "prefisso": 0.08303951264198389,
+    "centro": 0.48396714186635315,
+    "finale": 0.10399192519421668,
+    "finale → prefisso": 0.09098604064106391
+   },
+   "indice_bordi": -0.39045142294825286
+  },
+  "Voynich: Voynich": {
+   "eccessi": {
+    "prefisso": 0.03704064423181469,
+    "centro": 0.011690275657291749,
+    "finale": 0.048960356190308946,
+    "finale → prefisso": 0.1163090705925083
+   },
+   "indice_bordi": 0.03131022455377007
+  },
+  "lingua: Achuar-NT": {
+   "eccessi": {
+    "prefisso": 0.34541952081165067,
+    "centro": 0.34353976663680275,
+    "finale": 0.46918149697505845,
+    "finale → prefisso": 0.558220149815564
+   },
+   "indice_bordi": 0.06376074225655182
+  },
+  "lingua: Akawaio-NT": {
+   "eccessi": {
+    "prefisso": 0.14258111251220815,
+    "centro": 0.6595961115925997,
+    "finale": 0.15885569946324435,
+    "finale → prefisso": 0.18646634128336526
+   },
+   "indice_bordi": -0.5088777056048734
+  },
+  "lingua: Albanian": {
+   "eccessi": {
+    "prefisso": 0.1604362897529033,
+    "centro": 0.4755554112596889,
+    "finale": 0.16236871903248074,
+    "finale → prefisso": 0.15434699329487606
+   },
+   "indice_bordi": -0.31415290686699693
+  },
+  "lingua: Aguaruna-NT": {
+   "eccessi": {
+    "prefisso": 0.32376697456851544,
+    "centro": 0.26616479142905414,
+    "finale": 0.3111874248332167,
+    "finale → prefisso": 0.4578041369017307
+   },
+   "indice_bordi": 0.05131240827181194
+  },
+  "lingua: Arabic": {
+   "eccessi": {
+    "prefisso": 0.23518760846122605,
+    "centro": 0.273071600759458,
+    "finale": 0.23193628242781383,
+    "finale → prefisso": 0.2765275636708019
+   },
+   "indice_bordi": -0.03950965531493808
+  },
+  "lingua: Amuzgo-NT": {
+   "eccessi": {
+    "prefisso": 0.20496895078094093,
+    "centro": 0.2720898974249357,
+    "finale": 0.20481716268636446,
+    "finale → prefisso": 0.23016397130512223
+   },
+   "indice_bordi": -0.06719684069128301
+  },
+  "lingua: Amharic": {
+   "eccessi": {
+    "prefisso": 0.2809978064697439,
+    "centro": 0.30942159942141334,
+    "finale": 0.237708355228478,
+    "finale → prefisso": 0.25717179967859727
+   },
+   "indice_bordi": -0.05006851857230238
+  },
+  "lingua: Armenian-PART": {
+   "eccessi": {
+    "prefisso": 0.18684184802486586,
+    "centro": 0.2688037277605688,
+    "finale": 0.24767667651541542,
+    "finale → prefisso": 0.2510053951335032
+   },
+   "indice_bordi": -0.05154446549042818
+  },
+  "lingua: Aukan-NT": {
+   "eccessi": {
+    "prefisso": 0.1634131480951857,
+    "centro": 0.5044458023502145,
+    "finale": 0.11120668817658735,
+    "finale → prefisso": 0.1505246920114611
+   },
+   "indice_bordi": -0.36713588421432797
+  },
+  "lingua: Barasana-NT": {
+   "eccessi": {
+    "prefisso": 0.3206058114442383,
+    "centro": 0.35873672269996226,
+    "finale": 0.3223633966774796,
+    "finale → prefisso": 0.40525307868805777
+   },
+   "indice_bordi": -0.03725211863910333
+  },
+  "lingua: Ashaninka-NT": {
+   "eccessi": {
+    "prefisso": 0.2962460241391734,
+    "centro": 0.1915602068777993,
+    "finale": 0.24907210042807407,
+    "finale → prefisso": 0.23859582901068543
+   },
+   "indice_bordi": 0.08109885540582445
+  },
+  "lingua: Burmese": null,
+  "lingua: Bulgarian": {
+   "eccessi": {
+    "prefisso": 0.14343608011752368,
+    "centro": 0.37950207613730225,
+    "finale": 0.20912383158232378,
+    "finale → prefisso": 0.1528466309517615
+   },
+   "indice_bordi": -0.20322212028737852
+  },
+  "lingua: Basque-NT": {
+   "eccessi": {
+    "prefisso": 0.275417846915939,
+    "centro": 0.22552423608688787,
+    "finale": 0.25255448979320816,
+    "finale → prefisso": 0.3327533413027347
+   },
+   "indice_bordi": 0.03846193226768568
+  },
+  "lingua: Cakchiquel-NT": {
+   "eccessi": {
+    "prefisso": 0.24664726287028882,
+    "centro": 0.5354094476150566,
+    "finale": 0.261439306325401,
+    "finale → prefisso": 0.24077956751516302
+   },
+   "indice_bordi": -0.2813661630172117
+  },
+  "lingua: Cabecar-NT": {
+   "eccessi": {
+    "prefisso": 0.10560665352223686,
+    "centro": 0.4629172130529483,
+    "finale": 0.0959627246154944,
+    "finale → prefisso": 0.11194912661712228
+   },
+   "indice_bordi": -0.3621325239840827
+  },
+  "lingua: Chamorro-PART": {
+   "eccessi": {
+    "prefisso": 0.2621138695626409,
+    "centro": 0.3410187895803043,
+    "finale": 0.22483368703479534,
+    "finale → prefisso": 0.2541464515962677
+   },
+   "indice_bordi": -0.09754501128158619
+  },
+  "lingua: Camsa-NT": {
+   "eccessi": {
+    "prefisso": 0.3776677957165393,
+    "centro": 0.3648374130700889,
+    "finale": 0.2244649007498509,
+    "finale → prefisso": 0.3775472702833715
+   },
+   "indice_bordi": -0.06377106483689376
+  },
+  "lingua: Cebuano": {
+   "eccessi": {
+    "prefisso": 0.22072741784435396,
+    "centro": 0.44033490235573014,
+    "finale": 0.19878028991733238,
+    "finale → prefisso": 0.2204686708837194
+   },
+   "indice_bordi": -0.23058104847488697
+  },
+  "lingua: Cherokee-NT": {
+   "eccessi": {
+    "prefisso": 0.17775116323961154,
+    "centro": 0.19169068458885263,
+    "finale": 0.2498505211796082,
+    "finale → prefisso": 0.17812000310322473
+   },
+   "indice_bordi": 0.022110157620757243
+  },
+  "lingua: Chinantec-NT": {
+   "eccessi": {
+    "prefisso": 0.27318362890428827,
+    "centro": 0.3714096601660384,
+    "finale": 0.22370085377004356,
+    "finale → prefisso": 0.28555467615318986
+   },
+   "indice_bordi": -0.12296741882887247
+  },
+  "lingua: Chinese": {
+   "eccessi": {
+    "prefisso": 0.0,
+    "centro": 1.27403138016129,
+    "finale": 0.0,
+    "finale → prefisso": 0.0
+   },
+   "indice_bordi": -1.27403138016129
+  },
+  "lingua: Chinese-tok": {
+   "eccessi": {
+    "prefisso": 0.03290798563379327,
+    "centro": 0.4930218670364044,
+    "finale": -0.0026948953107374107,
+    "finale → prefisso": 0.041478497972003314
+   },
+   "indice_bordi": -0.47791532187487645
+  },
+  "lingua: Creole": {
+   "eccessi": {
+    "prefisso": 0.09641914111904917,
+    "centro": 0.6182437040805893,
+    "finale": 0.08843879276924393,
+    "finale → prefisso": 0.09801670273078392
+   },
+   "indice_bordi": -0.5258147371364427
+  },
+  "lingua: Coptic-NT": {
+   "eccessi": {
+    "prefisso": 0.2571425724801382,
+    "centro": 0.33959499091073386,
+    "finale": 0.20913150125539404,
+    "finale → prefisso": 0.35332670463673344
+   },
+   "indice_bordi": -0.10645795404296773
+  },
+  "lingua: Danish": {
+   "eccessi": {
+    "prefisso": 0.1516913428124425,
+    "centro": 0.3494088844624128,
+    "finale": 0.1777392840308808,
+    "finale → prefisso": 0.14956157773579898
+   },
+   "indice_bordi": -0.18469357104075115
+  },
+  "lingua: Czech": {
+   "eccessi": {
+    "prefisso": 0.19115414791808422,
+    "centro": 0.24765089129340723,
+    "finale": 0.25244663558182573,
+    "finale → prefisso": 0.20965691770870953
+   },
+   "indice_bordi": -0.025850499543452254
+  },
+  "lingua: Dinka-NT": {
+   "eccessi": {
+    "prefisso": 0.11778980624290963,
+    "centro": 0.37886528840978717,
+    "finale": 0.10001518590022188,
+    "finale → prefisso": 0.12399249356823883
+   },
+   "indice_bordi": -0.2699627923382214
+  },
+  "lingua: Croatian": {
+   "eccessi": {
+    "prefisso": 0.12393563666207019,
+    "centro": 0.2580189497477643,
+    "finale": 0.1548983280889119,
+    "finale → prefisso": 0.12526378938569982
+   },
+   "indice_bordi": -0.11860196737227324
+  },
+  "lingua: English-WEB": {
+   "eccessi": {
+    "prefisso": 0.15257504722112109,
+    "centro": 0.49620535338345984,
+    "finale": 0.140606319176625,
+    "finale → prefisso": 0.14828993875483532
+   },
+   "indice_bordi": -0.3496146701845868
+  },
+  "lingua: Esperanto": {
+   "eccessi": {
+    "prefisso": 0.18580207209558242,
+    "centro": 0.3148353309808569,
+    "finale": 0.31040356382910744,
+    "finale → prefisso": 0.17913511937996118
+   },
+   "indice_bordi": -0.06673251301851199
+  },
+  "lingua: Dutch": {
+   "eccessi": {
+    "prefisso": 0.1332631751672016,
+    "centro": 0.30659264671071385,
+    "finale": 0.1128662806216223,
+    "finale → prefisso": 0.13016765505314115
+   },
+   "indice_bordi": -0.1835279188163019
+  },
+  "lingua: English": {
+   "eccessi": {
+    "prefisso": 0.14186229597499322,
+    "centro": 0.44530608654645554,
+    "finale": 0.15083937450550716,
+    "finale → prefisso": 0.1555817985298797
+   },
+   "indice_bordi": -0.29895525130620537
+  },
+  "lingua: Ewe-NT": {
+   "eccessi": {
+    "prefisso": 0.08411369287167347,
+    "centro": 0.4052966887608427,
+    "finale": 0.0820395785327449,
+    "finale → prefisso": 0.1102003932416914
+   },
+   "indice_bordi": -0.3222200530586335
+  },
+  "lingua: Finnish": {
+   "eccessi": {
+    "prefisso": 0.2150030945819369,
+    "centro": 0.22626837435970648,
+    "finale": 0.25078773486487177,
+    "finale → prefisso": 0.19546650473605204
+   },
+   "indice_bordi": 0.00662704036369785
+  },
+  "lingua: Estonian-PART": {
+   "eccessi": {
+    "prefisso": 0.15519180485670447,
+    "centro": 0.26312937530739067,
+    "finale": 0.18752439014386646,
+    "finale → prefisso": 0.1693803075170237
+   },
+   "indice_bordi": -0.0917712778071052
+  },
+  "lingua: Gaelic-PART": {
+   "eccessi": {
+    "prefisso": 0.13892003909319217,
+    "centro": 0.3861322436566419,
+    "finale": 0.16131482624827398,
+    "finale → prefisso": 0.16852941814991057
+   },
+   "indice_bordi": -0.23601481098590882
+  },
+  "lingua: Galela-NT": {
+   "eccessi": {
+    "prefisso": 0.3125573218483082,
+    "centro": 0.4779916567234901,
+    "finale": 0.21986133688566037,
+    "finale → prefisso": 0.27559177436804844
+   },
+   "indice_bordi": -0.21178232735650582
+  },
+  "lingua: Farsi": {
+   "eccessi": {
+    "prefisso": 0.1344336925832469,
+    "centro": 0.3618694833001779,
+    "finale": 0.1225027934738423,
+    "finale → prefisso": 0.15994623779294448
+   },
+   "indice_bordi": -0.23340124027163328
+  },
+  "lingua: German": {
+   "eccessi": {
+    "prefisso": 0.23463136667010193,
+    "centro": 0.2359918120236364,
+    "finale": 0.17613259193551195,
+    "finale → prefisso": 0.18193208794315902
+   },
+   "indice_bordi": -0.030609832720829455
+  },
+  "lingua: Gujarati-NT": null,
+  "lingua: French": {
+   "eccessi": {
+    "prefisso": 0.10396353809905351,
+    "centro": 0.4967562286886742,
+    "finale": 0.16094225414459662,
+    "finale → prefisso": 0.10244624440623384
+   },
+   "indice_bordi": -0.3643033325668491
+  },
+  "lingua: Hindi": {
+   "eccessi": {
+    "prefisso": -0.0010417370139796673,
+    "centro": 0.14185228224298896,
+    "finale": -0.0004088413212200645,
+    "finale → prefisso": -0.0005749053968050911
+   },
+   "indice_bordi": -0.14257757141058883
+  },
+  "lingua: Greek": {
+   "eccessi": {
+    "prefisso": 0.16233672352493783,
+    "centro": 0.4812318228192076,
+    "finale": 0.2179037300607241,
+    "finale → prefisso": 0.16527525316773034
+   },
+   "indice_bordi": -0.29111159602637665
+  },
+  "lingua: Hungarian": {
+   "eccessi": {
+    "prefisso": 0.22314189393630168,
+    "centro": 0.32034229863014474,
+    "finale": 0.17617053864491233,
+    "finale → prefisso": 0.2123603791257998
+   },
+   "indice_bordi": -0.12068608233953773
+  },
+  "lingua: Hebrew": {
+   "eccessi": {
+    "prefisso": 0.1924157050701661,
+    "centro": 0.19381881243224264,
+    "finale": 0.17715625613824998,
+    "finale → prefisso": 0.2305550781202242
+   },
+   "indice_bordi": -0.009032831828034604
+  },
+  "lingua: Indonesian": {
+   "eccessi": {
+    "prefisso": 0.35663244516648085,
+    "centro": 0.42057027716789763,
+    "finale": 0.27643617712176866,
+    "finale → prefisso": 0.31275263149232096
+   },
+   "indice_bordi": -0.10403596602377285
+  },
+  "lingua: Jakalteko-NT": {
+   "eccessi": {
+    "prefisso": 0.3333543474538584,
+    "centro": 0.38664543876002666,
+    "finale": 0.34024180334412873,
+    "finale → prefisso": 0.31944710010470095
+   },
+   "indice_bordi": -0.049847363361033126
+  },
+  "lingua: Icelandic": {
+   "eccessi": {
+    "prefisso": 0.11670139483742609,
+    "centro": 0.21021382939718603,
+    "finale": 0.1397564332680391,
+    "finale → prefisso": 0.11178374673046354
+   },
+   "indice_bordi": -0.08198491534445343
+  },
+  "lingua: Italian": {
+   "eccessi": {
+    "prefisso": 0.22049205962367902,
+    "centro": 0.3150800345030995,
+    "finale": 0.23375324335140085,
+    "finale → prefisso": 0.19483709817406591
+   },
+   "indice_bordi": -0.08795738301555958
+  },
+  "lingua: Japanese-tok": {
+   "eccessi": {
+    "prefisso": -0.05346839327040406,
+    "centro": 1.3363110290529836,
+    "finale": -0.031890811538923355,
+    "finale → prefisso": -0.044605232524057015
+   },
+   "indice_bordi": -1.3789906314576472
+  },
+  "lingua: K'iche'-NT-SIL": {
+   "eccessi": {
+    "prefisso": 0.22761094956532968,
+    "centro": 0.5126489815532107,
+    "finale": 0.22395914119628352,
+    "finale → prefisso": 0.22325301367560907
+   },
+   "indice_bordi": -0.28686393617240413
+  },
+  "lingua: Kabyle-NT": {
+   "eccessi": {
+    "prefisso": 0.22448861367228817,
+    "centro": 0.3991888733997806,
+    "finale": 0.19319437281054652,
+    "finale → prefisso": 0.23922447775028727
+   },
+   "indice_bordi": -0.19034738015836325
+  },
+  "lingua: Kannada": null,
+  "lingua: K'iche'-NT": {
+   "eccessi": {
+    "prefisso": 0.22023920941686925,
+    "centro": 0.38169153047556703,
+    "finale": 0.22023261112945225,
+    "finale → prefisso": 0.22471218177238078
+   },
+   "indice_bordi": -0.16145562020240628
+  },
+  "lingua: Japanese": {
+   "eccessi": {
+    "prefisso": 0.16577685934010766,
+    "centro": 0.0367015843388554,
+    "finale": 0.3025271280508951,
+    "finale → prefisso": 0.3857233708433503
+   },
+   "indice_bordi": 0.19745040935664598
+  },
+  "lingua: Latin": {
+   "eccessi": {
+    "prefisso": 0.1688349010128728,
+    "centro": 0.17926854488725086,
+    "finale": 0.19146502957090739,
+    "finale → prefisso": 0.16559556441589324
+   },
+   "indice_bordi": 0.0008814204046392327
+  },
+  "lingua: Korean": {
+   "eccessi": {
+    "prefisso": 0.38172652066244184,
+    "centro": 0.2034805486087259,
+    "finale": 0.35835672810493713,
+    "finale → prefisso": 0.6487511580672551
+   },
+   "indice_bordi": 0.1665610757749636
+  },
+  "lingua: Latvian-NT": {
+   "eccessi": {
+    "prefisso": 0.19087431190259785,
+    "centro": 0.22135286783975383,
+    "finale": 0.18766794158476074,
+    "finale → prefisso": 0.1528951535298701
+   },
+   "indice_bordi": -0.032081741096074534
+  },
+  "lingua: Lukpa-NT": {
+   "eccessi": {
+    "prefisso": 0.13327286949754036,
+    "centro": 0.4071488944811772,
+    "finale": 0.13272739100096353,
+    "finale → prefisso": 0.13319521496777242
+   },
+   "indice_bordi": -0.27414876423192525
+  },
+  "lingua: Malagasy": {
+   "eccessi": {
+    "prefisso": 0.2609282942200696,
+    "centro": 0.4759667488416719,
+    "finale": 0.16731298282401383,
+    "finale → prefisso": 0.2565246876970802
+   },
+   "indice_bordi": -0.2618461103196302
+  },
+  "lingua: Malayalam": null,
+  "generatore: e288 seme 7": {
+   "eccessi": {
+    "prefisso": 0.01607430307429733,
+    "centro": 0.028716564515937182,
+    "finale": 0.021067801541897024,
+    "finale → prefisso": 0.07133323803800667
+   },
+   "indice_bordi": -0.010145512207840005
+  },
+  "lingua: Lithuanian": {
+   "eccessi": {
+    "prefisso": 0.1950754447131633,
+    "centro": 0.14748391396370986,
+    "finale": 0.19299649941791158,
+    "finale → prefisso": 0.1739826348866434
+   },
+   "indice_bordi": 0.04655205810182758
+  },
+  "lingua: Marathi": null,
+  "lingua: Maori": {
+   "eccessi": {
+    "prefisso": 0.10018236224258623,
+    "centro": 0.4998794086355608,
+    "finale": 0.0817309058641654,
+    "finale → prefisso": 0.09118804001230602
+   },
+   "indice_bordi": -0.40892277458218496
+  },
+  "lingua: Nepali": null,
+  "lingua: Mam-NT": {
+   "eccessi": {
+    "prefisso": 0.22320027093198697,
+    "centro": 0.4371595318766788,
+    "finale": 0.2559307681097552,
+    "finale → prefisso": 0.2541821230795541
+   },
+   "indice_bordi": -0.1975940123558077
+  },
+  "lingua: Manx-PART": {
+   "eccessi": {
+    "prefisso": 0.18311472179144428,
+    "centro": 0.45418573287983777,
+    "finale": 0.1709195410248779,
+    "finale → prefisso": 0.18527435564944245
+   },
+   "indice_bordi": -0.27716860147167666
+  },
+  "lingua: Nahuatl-NT": {
+   "eccessi": {
+    "prefisso": 0.3671649949409449,
+    "centro": 0.2775873207151025,
+    "finale": 0.3578211757901408,
+    "finale → prefisso": 0.35748102820842304
+   },
+   "indice_bordi": 0.08490576465044031
+  },
+  "lingua: Paite": {
+   "eccessi": {
+    "prefisso": 0.10094436530962314,
+    "centro": 0.34444288458897865,
+    "finale": 0.09888196778408676,
+    "finale → prefisso": 0.12732737617848894
+   },
+   "indice_bordi": -0.2445297180421237
+  },
+  "lingua: Norwegian": {
+   "eccessi": {
+    "prefisso": 0.11348184217975316,
+    "centro": 0.3899434802750077,
+    "finale": 0.14213751424611515,
+    "finale → prefisso": 0.11718087445995767
+   },
+   "indice_bordi": -0.26213380206207354
+  },
+  "lingua: Ojibwa-NT": {
+   "eccessi": {
+    "prefisso": 0.10564903207404269,
+    "centro": 0.2161827489710677,
+    "finale": 0.15267063010413712,
+    "finale → prefisso": 0.2000335640364525
+   },
+   "indice_bordi": -0.0870229178819778
+  },
+  "lingua: Portuguese": {
+   "eccessi": {
+    "prefisso": 0.16076969941981817,
+    "centro": 0.26600535857751373,
+    "finale": 0.17954443166384482,
+    "finale → prefisso": 0.16366717683198134
+   },
+   "indice_bordi": -0.09584829303568224
+  },
+  "lingua: Polish": {
+   "eccessi": {
+    "prefisso": 0.20100832949461506,
+    "centro": 0.30124587289682747,
+    "finale": 0.2584811948147555,
+    "finale → prefisso": 0.19591391962785826
+   },
+   "indice_bordi": -0.07150111074214219
+  },
+  "lingua: Quichua-NT": {
+   "eccessi": {
+    "prefisso": 0.26483533024870715,
+    "centro": 0.2224492506830016,
+    "finale": 0.2787846040839487,
+    "finale → prefisso": 0.3538601169842229
+   },
+   "indice_bordi": 0.049360716483326295
+  },
+  "lingua: Potawatomi-PART": {
+   "eccessi": {
+    "prefisso": 0.13613990803662446,
+    "centro": 0.3482078589444755,
+    "finale": 0.13892400551915962,
+    "finale → prefisso": 0.18874679546898854
+   },
+   "indice_bordi": -0.21067590216658344
+  },
+  "lingua: Romanian": {
+   "eccessi": {
+    "prefisso": 0.1308259546439009,
+    "centro": 0.5412553943014842,
+    "finale": 0.17436762348566381,
+    "finale → prefisso": 0.12164630477951854
+   },
+   "indice_bordi": -0.3886586052367018
+  },
+  "lingua: Q'eqchi'": {
+   "eccessi": {
+    "prefisso": 0.22863740901412377,
+    "centro": 0.6894912421677186,
+    "finale": 0.19327484519291804,
+    "finale → prefisso": 0.2650619016418539
+   },
+   "indice_bordi": -0.4785351150641977
+  },
+  "lingua: Romani-NT": {
+   "eccessi": {
+    "prefisso": 0.2399844913860963,
+    "centro": 0.38245614244325443,
+    "finale": 0.2345192494172429,
+    "finale → prefisso": 0.22121625410946133
+   },
+   "indice_bordi": -0.14520427204158484
+  },
+  "lingua: Shona": {
+   "eccessi": {
+    "prefisso": 0.5213440075904858,
+    "centro": 0.3730691724749864,
+    "finale": 0.2223509630863377,
+    "finale → prefisso": 0.43165353737072554
+   },
+   "indice_bordi": -0.0012216871365746118
+  },
+  "lingua: Serbian": {
+   "eccessi": {
+    "prefisso": 0.15409501909749995,
+    "centro": 0.2747242061683335,
+    "finale": 0.20300447489546275,
+    "finale → prefisso": 0.1514721416831133
+   },
+   "indice_bordi": -0.09617445917185213
+  },
+  "lingua: Russian": {
+   "eccessi": {
+    "prefisso": 0.15584733616113838,
+    "centro": 0.30517200145675716,
+    "finale": 0.2544909935002844,
+    "finale → prefisso": 0.17569112359207734
+   },
+   "indice_bordi": -0.10000283662604575
+  },
+  "lingua: Shuar-NT": {
+   "eccessi": {
+    "prefisso": 0.2291413821468108,
+    "centro": 0.22218416238008043,
+    "finale": 0.303268672656574,
+    "finale → prefisso": 0.4005408630207576
+   },
+   "indice_bordi": 0.044020865021611955
+  },
+  "lingua: Spanish": {
+   "eccessi": {
+    "prefisso": 0.1957901381263341,
+    "centro": 0.4210543959327102,
+    "finale": 0.19161410797840822,
+    "finale → prefisso": 0.15337463584827754
+   },
+   "indice_bordi": -0.22735227288033905
+  },
+  "lingua: Slovak": {
+   "eccessi": {
+    "prefisso": 0.20340188234616208,
+    "centro": 0.2815931597399648,
+    "finale": 0.2793423354163967,
+    "finale → prefisso": 0.20295141425975538
+   },
+   "indice_bordi": -0.04022105085868541
+  },
+  "lingua: Slovene": {
+   "eccessi": {
+    "prefisso": 0.1448857122661677,
+    "centro": 0.3248449655434871,
+    "finale": 0.19456608562635935,
+    "finale → prefisso": 0.1408453467612058
+   },
+   "indice_bordi": -0.15511906659722355
+  },
+  "lingua: Somali": {
+   "eccessi": {
+    "prefisso": 0.2818268101049545,
+    "centro": 0.3412974063824219,
+    "finale": 0.297568813906272,
+    "finale → prefisso": 0.32723010161647836
+   },
+   "indice_bordi": -0.051599594376808666
+  },
+  "lingua: Swahili-NT": {
+   "eccessi": {
+    "prefisso": 0.3000880117759113,
+    "centro": 0.3197365932936478,
+    "finale": 0.1737176494290261,
+    "finale → prefisso": 0.2673518690379316
+   },
+   "indice_bordi": -0.08283376269117909
+  },
+  "lingua: Tachelhit-NT": {
+   "eccessi": {
+    "prefisso": 0.17118840075011987,
+    "centro": 0.4158954740523262,
+    "finale": 0.11544538621987221,
+    "finale → prefisso": 0.1475580646612098
+   },
+   "indice_bordi": -0.27257858056733014
+  },
+  "lingua: Telugu": null,
+  "lingua: Swedish": {
+   "eccessi": {
+    "prefisso": 0.14464772353258343,
+    "centro": 0.27858602845086367,
+    "finale": 0.201543080158818,
+    "finale → prefisso": 0.15050733574427416
+   },
+   "indice_bordi": -0.10549062660516295
+  },
+  "lingua: Thai": null,
+  "lingua: Syriac-NT": {
+   "eccessi": {
+    "prefisso": 0.18107375616193905,
+    "centro": 0.25288103066252643,
+    "finale": 0.14702541114839418,
+    "finale → prefisso": 0.21127848747822692
+   },
+   "indice_bordi": -0.08883144700735982
+  },
+  "lingua: Thai-tok": {
+   "eccessi": {
+    "prefisso": 0.045425413440281615,
+    "centro": 0.41369762994241077,
+    "finale": 0.0421779983605389,
+    "finale → prefisso": 0.04052844275929171
+   },
+   "indice_bordi": -0.3698959240420005
+  },
+  "lingua: Tagalog": {
+   "eccessi": {
+    "prefisso": 0.23835116748999413,
+    "centro": 0.5698599034188934,
+    "finale": 0.26555942475545935,
+    "finale → prefisso": 0.27778443643322454
+   },
+   "indice_bordi": -0.31790460729616665
+  },
+  "lingua: Ukranian-NT": {
+   "eccessi": {
+    "prefisso": 0.1427849771812747,
+    "centro": 0.2830194911109061,
+    "finale": 0.24657389909376448,
+    "finale → prefisso": 0.1786593559912249
+   },
+   "indice_bordi": -0.08834005297338648
+  },
+  "lingua: Tuareg-PART": {
+   "eccessi": {
+    "prefisso": 0.14742457523534952,
+    "centro": 0.42820248472173716,
+    "finale": 0.13897481057352673,
+    "finale → prefisso": 0.15738046536166655
+   },
+   "indice_bordi": -0.28500279181729904
+  },
+  "lingua: Vietnamese-tok": {
+   "eccessi": {
+    "prefisso": 0.15104760704420467,
+    "centro": 0.34831515423470916,
+    "finale": 0.28461379946897003,
+    "finale → prefisso": 0.20019482887156545
+   },
+   "indice_bordi": -0.1304844509781218
+  },
+  "lingua: Uma-NT": {
+   "eccessi": {
+    "prefisso": 0.20934964191303956,
+    "centro": 0.45178753192512655,
+    "finale": 0.1396649069349266,
+    "finale → prefisso": 0.16718951746196772
+   },
+   "indice_bordi": -0.2772802575011435
+  },
+  "lingua: Turkish": {
+   "eccessi": {
+    "prefisso": 0.22490202547065286,
+    "centro": 0.3286223445028842,
+    "finale": 0.2949646123919565,
+    "finale → prefisso": 0.3442509801629864
+   },
+   "indice_bordi": -0.06868902557157952
+  },
+  "lingua: Uspanteco-NT": {
+   "eccessi": {
+    "prefisso": 0.4549437321324944,
+    "centro": 0.5725932018023507,
+    "finale": 0.38080705540635845,
+    "finale → prefisso": 0.41790250589537004
+   },
+   "indice_bordi": -0.15471780803292434
+  },
+  "lingua: Vietnamese": {
+   "eccessi": {
+    "prefisso": 0.15248976313632423,
+    "centro": 0.3535843386995955,
+    "finale": 0.2865816663354091,
+    "finale → prefisso": 0.20592525533592954
+   },
+   "indice_bordi": -0.13404862396372882
+  },
+  "lingua: Wolof-NT": {
+   "eccessi": {
+    "prefisso": 0.16281580259772788,
+    "centro": 0.3755153395141695,
+    "finale": 0.16595131641324945,
+    "finale → prefisso": 0.1679100649903199
+   },
+   "indice_bordi": -0.21113178000868082
+  },
+  "lingua: Wolaytta-NT": {
+   "eccessi": {
+    "prefisso": 0.3218666365444943,
+    "centro": 0.5345123653090469,
+    "finale": 0.33600344294799644,
+    "finale → prefisso": 0.47111703943575883
+   },
+   "indice_bordi": -0.2055773255628015
+  },
+  "lingua: Chinese-pinyin": null,
+  "lingua: Zarma": {
+   "eccessi": {
+    "prefisso": 0.09768042612447103,
+    "centro": 0.6518586187664265,
+    "finale": 0.09727726214625229,
+    "finale → prefisso": 0.0995617364440361
+   },
+   "indice_bordi": -0.5543797746310648
+  },
+  "lingua: Xhosa": {
+   "eccessi": {
+    "prefisso": 0.3709139237593174,
+    "centro": 0.3111472847142105,
+    "finale": 0.19062502409762244,
+    "finale → prefisso": 0.33080175877172446
+   },
+   "indice_bordi": -0.030377810785740533
+  },
+  "tecnico: Apicio, ricette di cucina": {
+   "eccessi": {
+    "prefisso": 0.3855364924564394,
+    "centro": 0.42066570253398483,
+    "finale": 0.3766396311917607,
+    "finale → prefisso": 0.35993600415508786
+   },
+   "indice_bordi": -0.03957764070988479
+  },
+  "lingua: Zulu-NT": {
+   "eccessi": {
+    "prefisso": 0.45279832765737693,
+    "centro": 0.33633911676192607,
+    "finale": 0.16243829443940458,
+    "finale → prefisso": 0.33007124745807626
+   },
+   "indice_bordi": -0.028720805713535302
+  },
+  "tecnico: Columella XII, conserve e ricette": {
+   "eccessi": {
+    "prefisso": 0.1107509308742638,
+    "centro": 0.09862100760028536,
+    "finale": 0.1773338405751606,
+    "finale → prefisso": 0.14359182324044562
+   },
+   "indice_bordi": 0.04542137812442684
+  },
+  "tecnico: Isidoro XVII, piante": {
+   "eccessi": {
+    "prefisso": 0.0877912304518138,
+    "centro": 0.15556140138351449,
+    "finale": 0.1318884396339305,
+    "finale → prefisso": 0.10871095635224881
+   },
+   "indice_bordi": -0.04572156634064234
+  },
+  "tecnico: Catone, agricoltura e ricette": {
+   "eccessi": {
+    "prefisso": 0.11259794786758615,
+    "centro": 0.06405957799181028,
+    "finale": 0.22763001757556622,
+    "finale → prefisso": 0.154659327652229
+   },
+   "indice_bordi": 0.1060544047297659
+  },
+  "tecnico: Varrone, agricoltura": {
+   "eccessi": {
+    "prefisso": 0.06713474970489264,
+    "centro": 0.032503526292482654,
+    "finale": 0.1229654470329602,
+    "finale → prefisso": 0.0793973360433694
+   },
+   "indice_bordi": 0.06254657207644376
+  },
+  "tecnico: Isidoro XVI, pietre e metalli": {
+   "eccessi": {
+    "prefisso": 0.06060922520015366,
+    "centro": 0.12385193157027352,
+    "finale": 0.13469193823331593,
+    "finale → prefisso": 0.07207382474756285
+   },
+   "indice_bordi": -0.026201349853538725
+  },
+  "tecnico: Vegezio, arte militare": {
+   "eccessi": {
+    "prefisso": 0.0866597099549195,
+    "centro": 0.0898599368181019,
+    "finale": 0.15967415493352521,
+    "finale → prefisso": 0.11411741723105007
+   },
+   "indice_bordi": 0.03330699562612047
+  },
+  "tecnico: Vitruvio, architettura": {
+   "eccessi": {
+    "prefisso": 0.08988001241374355,
+    "centro": 0.09821001907171922,
+    "finale": 0.15533431696890287,
+    "finale → prefisso": 0.1002216645781196
+   },
+   "indice_bordi": 0.024397145619603988
+  }
+ },
+ "indice_Voynich": 0.03131022455377007,
+ "naturali_sopra": [
+  "lingua: Achuar-NT",
+  "lingua: Aguaruna-NT",
+  "lingua: Ashaninka-NT",
+  "lingua: Basque-NT",
+  "lingua: Japanese",
+  "lingua: Korean",
+  "lingua: Lithuanian",
+  "lingua: Nahuatl-NT",
+  "lingua: Quichua-NT",
+  "lingua: Shuar-NT",
+  "tecnico: Columella XII, conserve e ricette",
+  "tecnico: Catone, agricoltura e ricette",
+  "tecnico: Varrone, agricoltura",
+  "tecnico: Vegezio, arte militare"
+ ],
+ "naturali_sopra_meta": [
+  "lingua: Achuar-NT",
+  "lingua: Aguaruna-NT",
+  "lingua: Ashaninka-NT",
+  "lingua: Basque-NT",
+  "lingua: Cherokee-NT",
+  "lingua: Japanese",
+  "lingua: Korean",
+  "lingua: Lithuanian",
+  "lingua: Nahuatl-NT",
+  "lingua: Quichua-NT",
+  "lingua: Shuar-NT",
+  "tecnico: Columella XII, conserve e ricette",
+  "tecnico: Catone, agricoltura e ricette",
+  "tecnico: Varrone, agricoltura",
+  "tecnico: Vegezio, arte militare",
+  "tecnico: Vitruvio, architettura"
+ ],
+ "esito": "profilo da lingua"
+}
