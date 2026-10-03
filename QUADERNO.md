@@ -8967,3 +8967,31 @@ segno = lettera + segni combinanti).
   scritto. È molto più forte che nelle lingue europee del Quattrocento (latino, italiano, tedesco), e 13 volte quella
   del gibberish umano. Questo non dice che lingua sia: dice solo che il confine fra parole nel Voynich è legato quanto
   nelle lingue più legate.
+
+## 3/10/2026 (notte) — e382: a parità di unità, il gibberish umano non riprende dalle righe sopra; il Voynich sì, quanto o più dei testi sensati
+
+Preregistrato (`preregistrazioni/e382.md`). Correzione dell'e346: stessa misura, ma pagine di 25 righe per testi
+sensati (prime 500 righe, parole intere) e gibberish; pagine vere per il Voynich; pagine di 29 righe per Timm e
+Schinner.
+
+| testo | pagine | parole | E | IC 95% | R | IC 95% |
+|---|---|---|---|---|---|---|
+| Voynich | 167 | 26.080 | **+0,034** | +0,028 – +0,039 | **1,09** | 1,08 – 1,11 |
+| gibberish umano | 67 | 7.270 | **−0,001** | −0,009 – +0,007 | **0,99** | 0,90 – 1,07 |
+| testi sensati | 1.237 | 156.859 | +0,029 | +0,027 – +0,032 | 1,20 | 1,19 – 1,22 |
+| — Historical | 530 | 68.215 | +0,028 | | 1,19 | |
+| — Modern | 480 | 61.094 | +0,027 | | 1,20 | |
+| — Conlangs | 227 | 27.550 | +0,038 | | 1,23 | |
+| Timm e Schinner, seme 1 | 138 | 28.677 | +0,022 | +0,017 – +0,028 | 1,05 | 1,04 – 1,06 |
+
+- **Esito preregistrato su E: più di tutti** (appena sopra i testi sensati: 0,034 contro un intervallo che arriva a
+  0,032).
+- **Esito su R: fuori da tutti e due** (1,09, fra il gibberish 0,99 e i testi sensati 1,20).
+- **Il gibberish scritto a mano non riprende affatto dalle righe sopra.** Chi inventa parole non tende a ripetere o
+  variare quelle appena scritte.
+- **I testi sensati riprendono** per la continuità del discorso (le righe vicine parlano della stessa cosa).
+- **Il Voynich:** in eccesso assoluto è al livello dei testi sensati o poco sopra, in proporzione sotto (ha molte più
+  parole simili di base).
+- **L'e346 era falsato:** con il libro intero come unità i testi sensati sembravano riprendere il doppio (0,060).
+- Da verificare (e385): se la ripresa del Voynich ha la stessa forma di quella delle lingue. Nel Voynich si ferma dopo
+  1–2 righe (e347); se nelle lingue cala piano, il meccanismo è diverso: copia contro argomento.
