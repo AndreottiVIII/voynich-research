@@ -5477,3 +5477,30 @@ sequenza.
   - dodici scelte di riga quasi indipendenti.
 - **Ancora non capito:** il modo in cui la pagina riusa le proprie parole. Il bersaglio quantitativo è
   R 32%, V 37%, N 14% (e237), insieme a varietà della pagina e concentrazione sulle frequenti.
+
+## 3/10/2026 — e230: aggiungere i meccanismi alla configurazione dell'e224 non migliora (le giunture erano già rinforzate)
+
+- **Preregistrato.** Varianti sulla configurazione finale dell'e224 (η 1, λ 1,5, k 16), medie sui
+  semi 2–4.
+- **Validità:** con i meccanismi spenti il testo è identico all'e224.
+- **Risultati:**
+
+  | variante | pagella | R parole rare | U/N1 | Q |
+  |---|---|---|---|---|
+  | V0 e224 | 12/18 | 51,5 | 1,06 | 0,91 |
+  | V1 + spezzature σ 0,09 | 10/18 | 57,5 | 1,16 | 0,78 |
+  | V2 + lessico per sezione γ 0,05 | 10/18 | 41,3 | 1,18 | 0,79 |
+  | V3 + copia verticale fisica | 11/18 | 39,6 | 1,18 | 0,79 |
+
+  - In V1 manca "legame": il legame va **oltre** la banda.
+  - Il lessico per sezione abbassa R da 51 a 40, molto lontano da 1,96.
+  - La copia fisica recupera l'omogeneità ma non la "verticale".
+- **Esito: nessun miglioramento netto.**
+- **Lettura.**
+  - La configurazione dell'e224 aveva già rafforzato le giunture (λ 1,5, k 16) per compensare il legame
+    mancante.
+  - Con le spezzature, che danno da sole il legame (e227b), il rinforzo è di troppo e il legame supera
+    la banda. I meccanismi vanno combinati con la base adatta: giunture λ 1, come nell'e227d e
+    nell'e241, che infatti arriva a 16/18.
+  - Il lessico per sezione riduce il raggruppamento delle parole rare, ma di poco: il problema dell'e211
+    resta aperto.
