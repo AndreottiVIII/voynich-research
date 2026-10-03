@@ -5413,3 +5413,25 @@ sequenza.
   - gli esperimenti successivi della notte hanno trovato i meccanismi mancanti per unioni e legame
     (e227d), per la verticale (fisica, e228b) e per la forma delle varianti (e239, e240).
   - L'e230 parte ora dalla configurazione dell'e224.
+
+## 3/10/2026 — e241: con l'operatore condizionato ai segni vicini, AUC 0,874 e pagella 16/18 (il miglior generatore della notte)
+
+- **Preregistrato.** Come l'e240, con le 2.432 operazioni di variante contate insieme al segno prima e
+  dopo; ripiego sull'operatore dell'e240.
+- **Risultati** (semi 2–3):
+  - **AUC 0,874** (e240 0,908; riferimento e235 0,889);
+  - **pagella 16/18** sul seme 2 (mancano ripetizione e verticale), riga riprodotta;
+  - le coppie di segni innaturali (*e+ch*, *q+e*, *l+e*) non sono più fra le caratteristiche
+    pesanti.
+- **Esito preregistrato: non migliore**, perché la soglia era ≤ 0,839.
+- **Che cosa resta:** solo caratteristiche lessicali:
+  - varietà della pagina (uniche nella pagina 0,54 contro 0,64; tipi su parole 0,68 contro 0,76);
+  - lunghezza media (4,07 contro 4,29) e sua deviazione;
+  - concentrazione sulle frequenti (0,41 contro 0,42);
+  - profilo di riuso: R 38% contro 32%, N 12% contro 14%.
+- **Lettura e programma per il voynichizzatore.** La forma dei segni e delle varianti è a posto (e241).
+  Restano due problemi precisi:
+  1. **troppe ripetizioni esatte nella pagina** (R): la pagina deve ripetere un terzo, non quasi due
+     quinti;
+  2. **parole troppo corte**: le spezzature accorciano. Le parole di base non frequenti vanno allungate
+     per compensare, senza toccare le frequenti, che sono corte.
