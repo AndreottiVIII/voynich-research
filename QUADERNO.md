@@ -7524,3 +7524,21 @@ l'istogramma dell'e321, come dichiarato).
   - **Cautela, scritta dopo i risultati:** la metà alta contiene più prime righe di paragrafo, che hanno un registro
     loro (e302: più -*y*, meno -*n*, più *p*/*f*); e le righe si accorciano scendendo (e322). Parte della differenza può
     venire da qui e non da un cambio di "stato". Va verificato togliendo prime e ultime righe dei paragrafi (e327).
+
+## 3/10/2026 — e327: lo stato cambia davvero dentro la pagina, da un paragrafo all'altro
+
+Preregistrato (`preregistrazioni/e327.md`), controllo dell'e326.
+
+| versione | coppie | D1 (asse) | nullo | z | D2 (segni) | nullo | z |
+|---|---|---|---|---|---|---|---|
+| 1. solo righe interne | 80 | 2,89 | 2,18 | 3,9 | 0,0354 | 0,0254 | 8,7 |
+| 2. nullo a pari tipo di riga | 84 | 2,85 | 1,79 | 7,1 | 0,0302 | 0,0206 | 11,3 |
+| 3. primo contro ultimo paragrafo | 57 | 5,02 | 3,25 | 5,3 | 0,0781 | 0,0489 | 11,2 |
+
+- **Esito preregistrato: lo stato cambia davvero dentro la pagina; cambio fra paragrafi.** La differenza fra metà alta
+  e metà bassa resta togliendo le prime e ultime righe dei paragrafi, e resta con un nullo che conserva il tipo di
+  riga. Il primo e l'ultimo paragrafo della stessa pagina differiscono più di due gruppi di righe presi a caso dagli
+  stessi due paragrafi.
+- **Lettura, con una cautela:** lo "stato" ha almeno tre livelli: fascicolo (posizione sull'asse, e314), bifoglio
+  (profilo, e308), paragrafo (e327). Due paragrafi possono differire anche perché parlano di cose diverse
+  (argomento): questa prova non separa "stato dello scriba" da "argomento del paragrafo".
