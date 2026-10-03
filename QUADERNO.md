@@ -5286,3 +5286,34 @@ sequenza.
     κ e χ;
   - tre architetture e una ricerca congiunta non scendono oltre;
   - la proprietà ancora non capita è il modo in cui una pagina riusa e varia le proprie parole.
+
+## 3/10/2026 — e237: come una pagina del Voynich riusa le proprie parole (un terzo ripetute, più di un terzo varianti)
+
+- **Preregistrato come descrittivo.** Ogni parola, tranne la prima della pagina, si classifica come:
+  - R, ripetizione di una parola già sulla pagina;
+  - V, variante a distanza 1 di una parola della pagina;
+  - F, fra le 200 più frequenti;
+  - A, già scritta in pagine precedenti;
+  - N, nuova.
+- **Risultati:**
+
+  | testo | R | V | F | A | N | distanza R / V (righe) |
+  |---|---|---|---|---|---|---|
+  | **Voynich** | **31,9%** | **37,5%** | 7,2% | 9,1% | **14,3%** | 3 / 2 |
+  | copia e modifica (e233/e235) | 40,0% | 35,7% | 5,9% | 7,2% | 11,2% | 3 / 2 |
+  | due fonti (e236) | 27,3% | 41,8% | 7,2% | 11,4% | 12,3% | 4 / 2 |
+  | e192 | 36,3% | 36,1% | 6,1% | 8,8% | 12,7% | 3 / 2 |
+
+  - Scarti oltre il 20% relativo:
+    - copia e modifica: R (troppe ripetizioni), A e N (troppo poche);
+    - due fonti: A.
+- **Lettura.**
+  - **Fatto descrittivo nuovo e semplice.** Nel Voynich più di due parole su tre sono la ripetizione
+    esatta (un terzo) o una variante a una modifica (più di un terzo) di una parola **già scritta sulla
+    stessa pagina**, di solito 2–3 righe sopra.
+  - Solo una parola su sette è una forma mai vista.
+  - È la descrizione quantitativa più diretta del procedimento di scrittura: guardare indietro di poche
+    righe e riscrivere la parola identica o cambiata di un segno.
+  - Il generatore "copia e modifica" migliore del discriminatore ripete troppo, perché κ = 1 tiene esatte
+    le parole frequenti della pagina, e inventa troppo poco. Il bersaglio per il generatore e per il
+    voynichizzatore ora è esplicito: R ≈ 32%, V ≈ 37%, N ≈ 14%, con fonti a 2–3 righe.
