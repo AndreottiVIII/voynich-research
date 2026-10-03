@@ -82,7 +82,7 @@ def main():
                 den += len(ym)
                 npunti += len(ym)
         sv = [t for a, b, t, pg in pos if mano_di.get(pg) == m and t in ('.', ',')]
-        desc[m] = OrderedDict([('lingue', sorted({info[pg][1] for pg in pagine if mano_di[pg] == m})), ('punti_facoltativi', npunti),
+        desc[m] = OrderedDict([('lingue', sorted({str(info[pg][1]) for pg in pagine if mano_di[pg] == m})), ('punti_facoltativi', npunti),
                                ('scarto_quota_spazi', num / den), ('quota_virgole', sv.count(',') / len(sv) if sv else None)])
     out = OrderedDict([('mani', mani), ('punti', len(fac)), ('pagine', len(pagine)), ('eterogeneita', oss), ('nullo_media', sum(nul) / len(nul)),
                        ('nullo_p95', sorted(nul)[int(0.95 * PERM)]), ('p', p), ('per_mano', desc), ('esito', esito)])
