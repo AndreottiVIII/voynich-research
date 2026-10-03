@@ -1,0 +1,44 @@
+{
+ "testi": {
+  "Voynich": {
+   "coppie": 3125,
+   "stesso_ordine": {
+    "quota": 0.23488,
+    "nullo": 0.18242336,
+    "z": 8.033420812547723
+   },
+   "ordine_invertito": {
+    "quota": 0.20992,
+    "nullo": 0.18215072,
+    "z": 4.343686337040562
+   }
+  },
+  "Timm e Schinner, seme 1": {
+   "coppie": 6690,
+   "stesso_ordine": {
+    "quota": 0.314050822122571,
+    "nullo": 0.29396263079222723,
+    "z": 4.5557505345213976
+   },
+   "ordine_invertito": {
+    "quota": 0.301644245142003,
+    "nullo": 0.29404663677130044,
+    "z": 1.6638071812381163
+   }
+  },
+  "Timm e Schinner, seme 19": {
+   "coppie": 5365,
+   "stesso_ordine": {
+    "quota": 0.2359739049394222,
+    "nullo": 0.204743522833178,
+    "z": 5.914133394135246
+   },
+   "ordine_invertito": {
+    "quota": 0.2130475302889096,
+    "nullo": 0.20456663560111835,
+    "z": 1.7308063952561146
+   }
+  }
+ },
+ "esito": "copia a pezzi"
+}
