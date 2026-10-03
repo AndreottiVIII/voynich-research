@@ -1,0 +1,168 @@
+{
+ "base": "e241 (AUC e266 0.937; e243b 0.947)",
+ "validita_identico_globale": true,
+ "scelta_seme_1": {
+  "kappa 0.5 chi 0.1": {
+   "erbario": 0.93790283203125,
+   "biologica": 0.9473684210526315,
+   "ricette e stelle": 0.93568,
+   "altre": 0.8617777777777779
+  },
+  "kappa 0.5 chi 0.2": {
+   "erbario": 0.960693359375,
+   "biologica": 1.0,
+   "ricette e stelle": 0.9820800000000001,
+   "altre": 0.9397777777777778
+  },
+  "kappa 0.5 chi 0.3": {
+   "erbario": 0.94462890625,
+   "biologica": 0.9346260387811632,
+   "ricette e stelle": 0.9315199999999999,
+   "altre": 0.9708888888888889
+  },
+  "kappa 1.0 chi 0.1": {
+   "erbario": 0.94603271484375,
+   "biologica": 0.9479224376731301,
+   "ricette e stelle": 0.98336,
+   "altre": 0.9108888888888889
+  },
+  "kappa 1.0 chi 0.2": {
+   "erbario": 0.93575439453125,
+   "biologica": 0.9878116343490305,
+   "ricette e stelle": 0.95136,
+   "altre": 0.9393333333333335
+  },
+  "kappa 1.0 chi 0.3": {
+   "erbario": 0.9459228515625,
+   "biologica": 0.997229916897507,
+   "ricette e stelle": 0.8569600000000002,
+   "altre": 0.9702222222222222
+  },
+  "kappa 1.5 chi 0.1": {
+   "erbario": 0.95179443359375,
+   "biologica": 1.0,
+   "ricette e stelle": 0.99168,
+   "altre": 0.8908888888888888
+  },
+  "kappa 1.5 chi 0.2": {
+   "erbario": 0.94124755859375,
+   "biologica": 1.0,
+   "ricette e stelle": 0.96384,
+   "altre": 0.8686666666666667
+  },
+  "kappa 1.5 chi 0.3": {
+   "erbario": 0.921435546875,
+   "biologica": 0.994459833795014,
+   "ricette e stelle": 0.9231999999999999,
+   "altre": 0.9306666666666666
+  }
+ },
+ "scelte": {
+  "erbario": {
+   "kappa": 1.5,
+   "chi": 0.3
+  },
+  "biologica": {
+   "kappa": 0.5,
+   "chi": 0.3
+  },
+  "ricette e stelle": {
+   "kappa": 1.0,
+   "chi": 0.3
+  },
+  "altre": {
+   "kappa": 0.5,
+   "chi": 0.1
+  }
+ },
+ "verifica": [
+  {
+   "seme": 7,
+   "globale": {
+    "AUC_e231": 0.8874571120478384,
+    "AUC_e266": 0.9660719537300263,
+    "pagella": 15,
+    "riga": true,
+    "mancano": [
+     "ripetizione",
+     "profilo pagina",
+     "verticale"
+    ]
+   },
+   "per_sezione": {
+    "AUC_e231": 0.8634153514361337,
+    "AUC_e266": 0.955102440937163,
+    "pagella": 14,
+    "riga": false,
+    "mancano": [
+     "spazio",
+     "ripetizione",
+     "profilo pagina",
+     "verticale"
+    ]
+   }
+  },
+  {
+   "seme": 8,
+   "globale": {
+    "AUC_e231": 0.8541270463680032,
+    "AUC_e266": 0.953102636996373,
+    "pagella": 15,
+    "riga": false,
+    "mancano": [
+     "spazio",
+     "ripetizione",
+     "verticale"
+    ]
+   },
+   "per_sezione": {
+    "AUC_e231": 0.8299823546711107,
+    "AUC_e266": 0.9176159200078423,
+    "pagella": 15,
+    "riga": false,
+    "mancano": [
+     "spazio",
+     "ripetizione",
+     "verticale"
+    ]
+   }
+  },
+  {
+   "seme": 9,
+   "globale": {
+    "AUC_e231": 0.8787079698068816,
+    "AUC_e266": 0.9651259680423487,
+    "pagella": 15,
+    "riga": true,
+    "mancano": [
+     "spazio",
+     "ripetizione",
+     "verticale"
+    ]
+   },
+   "per_sezione": {
+    "AUC_e231": 0.837677678658955,
+    "AUC_e266": 0.9535633761395941,
+    "pagella": 17,
+    "riga": true,
+    "mancano": [
+     "ripetizione"
+    ]
+   }
+  }
+ ],
+ "medie": {
+  "globale": {
+   "AUC_e231": 0.8734307094075744,
+   "AUC_e266": 0.9614335195895827,
+   "pagella": 15
+  },
+  "per_sezione": {
+   "AUC_e231": 0.8436917949220665,
+   "AUC_e266": 0.9420939123615332,
+   "pagella": 15.333333333333334
+  }
+ },
+ "differenza_AUC_e266": 0.019339607228049505,
+ "esito": "non aiuta"
+}

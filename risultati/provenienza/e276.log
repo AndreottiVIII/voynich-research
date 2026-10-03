@@ -1,0 +1,15 @@
+base: e241 (AUC e266 0.937; e243b 0.947)
+validita' (tutti i gruppi globali = generatore globale): True
+kappa 0.5 chi 0.1: erbario 0.938 biologica 0.947 ricette e stelle 0.936 altre 0.862
+kappa 0.5 chi 0.2: erbario 0.961 biologica 1.000 ricette e stelle 0.982 altre 0.940
+kappa 0.5 chi 0.3: erbario 0.945 biologica 0.935 ricette e stelle 0.932 altre 0.971
+kappa 1.0 chi 0.1: erbario 0.946 biologica 0.948 ricette e stelle 0.983 altre 0.911
+kappa 1.0 chi 0.2: erbario 0.936 biologica 0.988 ricette e stelle 0.951 altre 0.939
+kappa 1.0 chi 0.3: erbario 0.946 biologica 0.997 ricette e stelle 0.857 altre 0.970
+kappa 1.5 chi 0.1: erbario 0.952 biologica 1.000 ricette e stelle 0.992 altre 0.891
+kappa 1.5 chi 0.2: erbario 0.941 biologica 1.000 ricette e stelle 0.964 altre 0.869
+kappa 1.5 chi 0.3: erbario 0.921 biologica 0.994 ricette e stelle 0.923 altre 0.931
+scelte: {'erbario': (1.5, 0.3), 'biologica': (0.5, 0.3), 'ricette e stelle': (1.0, 0.3), 'altre': (0.5, 0.1)}
+seme 7: globale AUC e231 0.887 e266 0.966 pagella 15 | per sezione AUC e231 0.863 e266 0.955 pagella 14
+seme 8: globale AUC e231 0.854 e266 0.953 pagella 15 | per sezione AUC e231 0.830 e266 0.918 pagella 15
+seme 9: globale AUC e231 0.879 e266 0.965 pagella 15 | per sezione AUC e231 0.838 e266 0.954 pagella 17
