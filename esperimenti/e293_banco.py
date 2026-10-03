@@ -100,10 +100,11 @@ def lavoro(args):
     k = e251._prepara()
     if versione == 'Voynich':
         return args, OrderedDict([('estesa', pagella_estesa(voynich_rr()))])
-    v1 = versioni.canale(VERSIONI[versione]['modello'])
     testo = open(TESTO, encoding='utf-8').read().replace('\r\n', '\n')
-    rr, info = v1.codifica(testo, CHIAVE, righe=versioni.corpo(VERSIONI[versione]['corpo'], seme))
-    ok = v1.decodifica(rr, CHIAVE) == testo
+    # fino alla v9 il seme fissa il corpo e la chiave e' "banco"; con il messaggio nel sacco (v10, e409) il corpo dipende da
+    # messaggio e chiave, e il seme entra nella chiave ("banco7", ...): deviazione dichiarata nella preregistrazione dell'e409
+    rr, info = versioni.codifica(versione, testo, CHIAVE, seme)
+    ok = versioni.decodifica(versione, rr, CHIAVE, seme) == testo
     pg = e251.pagella_grezza(k['c'], rr)
     d231 = e231.confronto(k['vpag'], e232.pagine_di(rr), k['rif'])
     d266 = e266.confronto(k['vt266'], e266.tabella(e251.righe_ini(rr), k['rif266']))
