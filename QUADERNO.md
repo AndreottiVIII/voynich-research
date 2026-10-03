@@ -8867,3 +8867,27 @@ riscrivono più. Corpo di partenza: v9. Isidoro XVII, quattro chiavi. Risultati 
 - **Cancello della riga:** perso in tutti i casi. Con il nascondiglio vecchio le scelte per riga sono 5 e r fra righe
   consecutive 0,17 (il modello delle scelte ha la memoria di riga); con il nuovo 0,75 e 0,09: il corpo a pezzi non
   ha ancora le cinque scelte concordi nella riga. È il prossimo pezzo.
+
+## 3/10/2026 (notte) — Errore: nei testi sensati di Gaskell e Bowern alcune parole erano spezzate
+
+Trovato da me dopo l'e377. La regola usata per estrarre le parole dai testi di Gaskell e Bowern (`[^\W\d_]+`, in
+e346, e374, e375, e377) tratta i segni diacritici combinanti come separatori. Contando le parole sulle prime 3.000
+righe (scratchpad):
+- **Corano** (arabo vocalizzato) ×3,59, **Mahabharata** ×3,51 e **Charaka Samhita** (sanscrito in devanagari) ×3,78:
+  le "parole" sono pezzi di parola.
+- **Klingon** (2 testi) e **lojban** (2 testi) ×1,18–1,23, perché l'apostrofo, che lì è una lettera, spezza la parola.
+- Gli altri testi non sono toccati.
+
+Conseguenze:
+- **I numeri del Voynich, del gibberish e di Timm e Schinner non cambiano.**
+- **e377, controllo per testo:** i valori di sanscrito e Corano (0,46–0,47) sono un artefatto, perché misurano
+  passaggi dentro la parola. Il massimo fra i testi validi è circa 0,25 (tagalog, slavo ecclesiastico), poi maya
+  yucateco 0,22, greco tecnico 0,20. La conclusione resta ("il Voynich, 0,19, sta nella parte alta della gamma delle
+  lingue"), ma il paragone con sanscrito e arabo va tolto. Il valore del gruppo Historical (0,090) è gonfiato.
+- **e375:** il controllo positivo regge anche col solo gruppo Modern, che non ha testi spezzati (R 1,30, z 26). I
+  valori di Historical e Conlangs sono da rifare.
+- **e374:** i valori dei testi sensati sono da rifare; il confronto Voynich–gibberish non cambia.
+- **e346** (ancora in esecuzione): il gruppo dei testi sensati contiene i 6 testi spezzati; se ne terrà conto
+  nella lettura.
+- **Correzione:** l'e381 rifà le misure dei testi sensati di e374, e375 ed e377 con le parole intere: spazi come
+  separatori, tenendo lettere, segni combinanti e apostrofi.
