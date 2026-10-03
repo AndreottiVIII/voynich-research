@@ -85,3 +85,53 @@ Il Voynich si comporta come una **catena di segni scritta riga per riga**:
 
 Nessun testo di confronto ha questa combinazione: le lingue hanno legami a distanza e attraverso le righe; il gibberish
 umano non ha né giuntura né copia; i generatori pubblicati non hanno la catena chiusa nella riga.
+
+## Aggiornamento (dopo la mezzanotte e mezza): il vocabolario e gli spazi
+
+Da e3a55 in poi. Stesse regole: preregistrazione, codice provato sui controlli, esecuzione, Quaderno, push.
+
+### Le parole del Voynich sono "forme ben fatte", non un lessico
+
+1. **La frequenza di una parola segue la sua forma** (e3a55).
+   - Le parole più frequenti sono le sequenze di segni più "probabili" per le regole che dicono quale segno segue quale
+     (ρ 0,58). Nelle lingue questo legame è debole (mediana 0,11, massimo 0,28).
+   - Vale con tre trascrizioni, in lingua A e B e per ogni scriba (e3a56). Non è un effetto della bassa entropia dei
+     segni: il toki pona ha la stessa entropia e un legame molto più debole (e3a57).
+2. **Il vocabolario riempie le forme possibili** (e3a61): fra le forme più probabili, il 43% sono parole usate nel
+   Voynich, contro il 4% nelle lingue. Una lingua usa solo una piccola parte delle forme che potrebbe avere; il Voynich
+   quasi tutte.
+3. In tutte e due le cose il Voynich somiglia ai **generatori** (programmi che producono testo falso), non alle lingue
+   né al gibberish scritto a mano da volontari.
+
+### Lo spazio è un taglio regolato e "graduato"
+
+4. **Dove cade lo spazio si indovina dai due segni vicini** meglio che nel 97% delle lingue (e3a58). Fanno meglio solo i
+   testi cinesi in pinyin, dove ogni parola finisce con il numero del tono.
+5. **Gli spazi incerti sono sul foglio, dove la regola lascia la scelta** (e3a58, e3a60).
+   - Gli spazi che la trascrizione ZL segna come dubbi cadono dove la regola dà circa 50%.
+   - Takahashi, che non segna mai dubbi, in quei punti mette lo spazio 2 volte su 3 (contro quasi sempre e quasi mai
+     negli altri punti).
+6. **Verso la fine della riga** lo scriba mette un po' meno spazi facoltativi (e3a64).
+7. **La frequenza degli spazi facoltativi cambia un poco da mano a mano** (e3a66), mentre le regole di raccordo sono
+   uguali per tutti. Il raccordo sta nel sistema; lo spazio, in parte, nella penna.
+8. **Rifacendo gli spazi a caso con la regola, metà dei pezzi sbagliati sono parole vere** (e3a67). Nelle lingue il 6%.
+
+### Il piccolo legame fra parole intere
+
+9. Oltre al legame fra l'ultimo segno e il primo della parola dopo, ne resta uno piccolo fra parole intere.
+   - Nel cifrario Naibbe è zero (e3a62), quindi questo punto non esclude un cifrario di quel tipo.
+   - Nel generatore di Timm e Schinner è grande come nel Voynich, ma lì viene dalla copia dalla riga sopra; nel Voynich
+     no (e3a63). È una seconda differenza fra il Voynich e quella teoria.
+
+### Risultati deboli o da prendere con cautela
+
+- La memoria di **due** segni attraverso lo spazio va nella stessa direzione, ma con pochi dati e valori instabili
+  (e3a59): non la uso come prova.
+
+### Errori di questa parte
+
+- e3a58: la soglia è passata dal massimo delle lingue al 90° percentile. L'ho cambiata dopo aver visto i soli testi di
+  controllo (il pinyin rendeva il massimo irraggiungibile) e prima di guardare il Voynich; è dichiarato.
+- e3a66: la prima esecuzione si è fermata per un errore nella tabella descrittiva; l'ho corretto e rieseguito.
+
+Figura nuova: `risultati/figure/spazi.png`.
