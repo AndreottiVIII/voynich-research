@@ -8995,3 +8995,31 @@ Schinner.
 - **L'e346 era falsato:** con il libro intero come unità i testi sensati sembravano riprendere il doppio (0,060).
 - Da verificare (e385): se la ripresa del Voynich ha la stessa forma di quella delle lingue. Nel Voynich si ferma dopo
   1–2 righe (e347); se nelle lingue cala piano, il meccanismo è diverso: copia contro argomento.
+
+## 3/10/2026 — vz: e409b, messaggio e riempimento su 12 chiavi: indistinguibili fra loro (differenza 0,013 / 0,011); nasce la v10
+
+
+
+Integrazione preregistrata dell'e409 (altre 8 chiavi, 5–12, per i casi (a) e (b); `CHIAVI=5,...,12 CASI=a,b`). Risultati in `risultati/e409b_messaggio_nel_sacco_chiavi_5_12.md`.
+
+
+
+| 12 chiavi | AUC e231 (media, deviazione) | AUC e266 (media, deviazione) | pagella |
+
+|---|---|---|---|
+
+| (a) messaggio nel sacco | 0,560 (0,023) | 0,682 (0,026) | 16,5/18 |
+
+| (b) soli bit di riempimento | 0,547 (0,026) | 0,671 (0,032) | 16,3/18 |
+
+| differenza (errore standard) | +0,013 (0,010) | +0,011 (0,012) | |
+
+
+
+- **La previsione dell'integrazione è rispettata:** sulle 12 chiavi la differenza è entro 0,02 su entrambi i giudici ed entro circa un errore standard. La differenza di 0,04 vista con quattro chiavi era rumore fra chiavi (l'AUC di una chiave varia di circa 0,025). Andata e ritorno esatta 12 su 12, chiave sbagliata respinta 12 su 12.
+
+- **Il manoscritto con il messaggio non è più riconoscibile di quello senza**, come deve essere per costruzione: il testo cifrato fa da dado al modello.
+
+- **Nasce la v10:** corpo R1 dell'e408 (`pezzi_parametri_v10.json`) con il messaggio nel sacco (`canale_sacco.py`). Nel registro `versioni.py` ogni versione ha ora `codifica` / `decodifica` proprie; lo strumento `voynichizzatore.py` usa la v10 come predefinita. Prova dallo strumento: Isidoro con la chiave "giardino", salvato su file e riletto: identico.
+
+- Banco e293 della v10 in corso (chiavi "banco7", "banco8", "banco9": con questo nascondiglio il corpo dipende da messaggio e chiave, e il seme d'esame entra nella chiave; deviazione dichiarata).

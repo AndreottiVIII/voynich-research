@@ -25,6 +25,7 @@ V7 = OrderedDict(V5, galli_su=1.0, galli_giu=0.7)                  # prova_v8 (s
 # impianto "pezzi" (e400-e407): sacco di pagina dal modello e disposizione; parametri in pezzi_parametri_<versione>.json
 V8 = OrderedDict([('impianto', 'pezzi'), ('parametri', 'v8')])     # e406 (P3); banco: 0,604 / 0,715, pagella 41/54
 V9 = OrderedDict([('impianto', 'pezzi'), ('parametri', 'v9')])     # e407 (U3): parole nuove come unioni, confine, verticale
+V10 = OrderedDict([('impianto', 'pezzi'), ('parametri', 'v10')])   # e408 (R1): peso proprio del legame fra finali; canale nel sacco (e409)
 VERSIONI = OrderedDict([
     ('v2', OrderedDict([('corpo', E288), ('modello', 'v1')])),
     ('v3', OrderedDict([('corpo', E288), ('modello', 'v3')])),
@@ -34,6 +35,7 @@ VERSIONI = OrderedDict([
     ('v7', OrderedDict([('corpo', V7), ('modello', 'v3')])),
     ('v8', OrderedDict([('corpo', V8), ('modello', 'v3')])),
     ('v9', OrderedDict([('corpo', V9), ('modello', 'v3')])),
+    ('v10', OrderedDict([('corpo', V10), ('modello', None), ('canale', 'sacco')])),
 ])
 
 
@@ -84,3 +86,38 @@ def canale(modello):
     else:
         v1.posti_contesto, v1.MODELLO = _ORIG['posti'], _ORIG['modello']
     return v1
+
+
+def chiave_di(chiave, seme):
+    return chiave if seme is None else '%s%d' % (chiave, seme)
+
+
+def codifica(versione, testo, chiave, seme=None):
+    """Il manoscritto con il testo nascosto: (righe, informazioni). Con il nascondiglio nelle scelte di grafia il seme fissa il
+    corpo (senza seme viene dalla chiave); con il nascondiglio nel sacco (e409) il corpo dipende da messaggio e chiave, e il
+    seme, se dato, entra nella chiave."""
+    import v0
+    d = VERSIONI[versione]
+    if d.get('canale') == 'sacco':
+        import canale_sacco
+        return canale_sacco.codifica(testo, chiave_di(chiave, seme), d['corpo']['parametri'])
+    v1 = canale(d['modello'])
+    return v1.codifica(testo, chiave, righe=corpo(d['corpo'], v0.numero(chiave, 'corpo') % 1000003 if seme is None else seme))
+
+
+def decodifica(versione, righe, chiave, seme=None):
+    d = VERSIONI[versione]
+    if d.get('canale') == 'sacco':
+        import canale_sacco
+        return canale_sacco.decodifica(righe, chiave_di(chiave, seme), d['corpo']['parametri'])
+    return canale(d['modello']).decodifica(righe, chiave)
+
+
+def senza_messaggio(versione, chiave):
+    """Il manoscritto della stessa versione e chiave senza testo nascosto (per la valutazione)."""
+    import v0
+    d = VERSIONI[versione]
+    if d.get('canale') == 'sacco':
+        import canale_sacco
+        return canale_sacco.codifica(None, chiave, d['corpo']['parametri'])[0]
+    return corpo(d['corpo'], v0.numero(chiave, 'corpo') % 1000003)

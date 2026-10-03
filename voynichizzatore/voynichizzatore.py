@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Voynichizzatore, strumento unico (3/10/2026): un testo normale diventa un manoscritto "alla Voynich" con il testo
-nascosto nelle scelte di grafia; con la chiave il testo torna esatto. Le versioni (corpo e modello delle scelte) stanno
+nascosto (fino alla v9 nelle scelte di grafia, dalla v10 nella scelta delle parole di ogni pagina); con la chiave il testo torna esatto. Le versioni (corpo e modello delle scelte) stanno
 nel registro versioni.py; senza --versione si usa l'ultima.
 
     python voynichizzatore/voynichizzatore.py codifica testo.txt --chiave PAROLA --uscita manoscritto.txt [--versione v5]
@@ -17,7 +17,7 @@ import v0, versioni
 
 
 def corpo(chiave, versione):
-    return versioni.corpo(versioni.VERSIONI[versione]['corpo'], v0.numero(chiave, 'corpo') % 1000003)
+    return versioni.senza_messaggio(versione, chiave)
 
 
 def valuta(righe_con, chiave, versione):
@@ -47,18 +47,17 @@ def main():
     a = ap.parse_args()
     if a.azione == 'versioni':
         for v, d in versioni.VERSIONI.items():
-            print('%s: corpo %s, modello delle scelte %s' % (v, dict(d['corpo']), d['modello']))
+            print('%s: corpo %s, %s' % (v, dict(d['corpo']), 'messaggio nel sacco' if d.get('canale') == 'sacco' else 'modello delle scelte %s' % d['modello']))
         return
     if not a.file or not a.chiave:
         raise SystemExit('servono il file e --chiave')
-    v1 = versioni.canale(versioni.VERSIONI[a.versione]['modello'])
     if a.azione == 'codifica':
-        righe, info = v1.codifica(open(a.file, encoding='utf-8').read().replace('\r\n', '\n'), a.chiave, righe=corpo(a.chiave, a.versione))
+        righe, info = versioni.codifica(a.versione, open(a.file, encoding='utf-8').read().replace('\r\n', '\n'), a.chiave)
         v0.salva(righe, a.uscita or 'manoscritto.txt')
         print('versione %s; scritto %s: %d righe; %s' % (a.versione, a.uscita or 'manoscritto.txt', len(righe), info))
     elif a.azione == 'decodifica':
         try:
-            testo = v1.decodifica(v0.carica(a.file), a.chiave)
+            testo = versioni.decodifica(a.versione, v0.carica(a.file), a.chiave)
         except Exception:
             raise SystemExit('niente da leggere: chiave o versione sbagliata, o manoscritto alterato')
         if a.uscita:

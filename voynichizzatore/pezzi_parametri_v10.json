@@ -1,0 +1,22 @@
+{
+ "theta": 2279.8533259024025,
+ "kappa": 0.7082046955954662,
+ "forme": {
+  "comuni": true,
+  "quattro": true,
+  "forza": 0.3700702129489423,
+  "unioni": 0.25
+ },
+ "posti": "modello",
+ "pesi_disposizione": {
+  "bordi": 1.1037618981263126,
+  "unione": 0.9261555881840121,
+  "coppia": 0.0,
+  "identica": -0.3572801916015053,
+  "vocabolario_testo": true,
+  "confine": 0.6833262258245579,
+  "verticale": 0.11941265998284364,
+  "fin_fin": 0.07160450307657229
+ },
+ "origine": "e408, strato R1; nascondiglio nel sacco (e409): la ripetizione theta non si usa"
+}

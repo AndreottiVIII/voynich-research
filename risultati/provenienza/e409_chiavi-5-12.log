@@ -1,0 +1,17 @@
+a chiave 6: pagella 17 riga False mancano ['profilo pagina'] | AUC e231 0.547 e266 0.694 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 80554, 'bit_messaggio': 38240, 'pagine_usate': 130}
+a chiave 5: pagella 17 riga False mancano ['profilo pagina'] | AUC e231 0.575 e266 0.688 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 79397, 'bit_messaggio': 38240, 'pagine_usate': 131}
+a chiave 8: pagella 17 riga False mancano ['profilo pagina'] | AUC e231 0.521 e266 0.653 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 80458, 'bit_messaggio': 38240, 'pagine_usate': 131}
+a chiave 10: pagella 17 riga False mancano ['profilo pagina'] | AUC e231 0.550 e266 0.655 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 80128, 'bit_messaggio': 38240, 'pagine_usate': 131}
+a chiave 11: pagella 17 riga False mancano ['profilo pagina'] | AUC e231 0.617 e266 0.719 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 79688, 'bit_messaggio': 38240, 'pagine_usate': 131}
+a chiave 9: pagella 16 riga False mancano ['gradiente', 'profilo pagina'] | AUC e231 0.558 e266 0.652 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 80141, 'bit_messaggio': 38240, 'pagine_usate': 131}
+a chiave 12: pagella 16 riga False mancano ['gradiente', 'profilo pagina'] | AUC e231 0.557 e266 0.674 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 80496, 'bit_messaggio': 38240, 'pagine_usate': 131}
+a chiave 7: pagella 16 riga False mancano ['gradiente', 'profilo pagina'] | AUC e231 0.556 e266 0.665 | {'decodifica_esatta': True, 'chiave_sbagliata_respinta': True, 'capacita_bit': 80395, 'bit_messaggio': 38240, 'pagine_usate': 131}
+b chiave 5: pagella 17 riga False mancano ['profilo pagina'] | AUC e231 0.569 e266 0.684 | {'capacita_bit': 79696}
+b chiave 6: pagella 17 riga False mancano ['profilo pagina'] | AUC e231 0.558 e266 0.684 | {'capacita_bit': 80356}
+b chiave 8: pagella 16 riga False mancano ['gradiente', 'profilo pagina'] | AUC e231 0.551 e266 0.643 | {'capacita_bit': 79417}
+b chiave 11: pagella 17 riga False mancano ['profilo pagina'] | AUC e231 0.567 e266 0.700 | {'capacita_bit': 80108}
+b chiave 10: pagella 17 riga False mancano ['profilo pagina'] | AUC e231 0.550 e266 0.663 | {'capacita_bit': 79619}
+b chiave 7: pagella 16 riga False mancano ['gradiente', 'profilo pagina'] | AUC e231 0.547 e266 0.678 | {'capacita_bit': 80150}
+b chiave 9: pagella 16 riga False mancano ['gradiente', 'profilo pagina'] | AUC e231 0.570 e266 0.656 | {'capacita_bit': 80227}
+b chiave 12: pagella 16 riga False mancano ['gradiente', 'profilo pagina'] | AUC e231 0.562 e266 0.729 | {'capacita_bit': 80339}
+{"a": [0.56, 0.675, 16.625], "b": [0.559, 0.68, 16.5]}

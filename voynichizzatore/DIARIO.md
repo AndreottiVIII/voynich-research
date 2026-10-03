@@ -399,3 +399,19 @@ Nel QUADERNO (voci "vz: e408" e "vz: e409").
 - Nascondiglio nuovo: `canale_sacco.codifica(testo, chiave, versione)` / `decodifica(righe, chiave, versione)`.
 
 - Poi: banco con le chiavi banco7–9; cancello della riga (S1, A, cinque scelte per riga e fra righe consecutive); prime righe come registro; profilo pagina; coppie viste altrove.
+
+## 3/10/2026, 23:40 — e409b: canale confermato; v10 registrata; banco lanciato
+
+
+
+Nel QUADERNO (voce "vz: e409b"). Su 12 chiavi messaggio e riempimento differiscono di 0,013 / 0,011 (rumore). **v10 = corpo R1 dell'e408 + messaggio nel sacco.** Interfaccia unica: `versioni.codifica(versione, testo, chiave, seme=None)`, `versioni.decodifica(versione, righe, chiave, seme=None)`, `versioni.senza_messaggio(versione, chiave)`. Lo strumento `voynichizzatore.py` prende la v10 come predefinita.
+
+
+
+### Dove siamo (3/10, 23:40)
+
+
+
+- In corso: banco e293 della v10.
+
+- Poi, nell'ordine: cancello della riga (prima lettera della riga S1; somiglianza fra vicine oltre il caso A; cinque scelte per riga e fra righe consecutive); prime righe come registro; profilo pagina; coppie viste altrove; ordine delle righe (JSD fra le due metà).
