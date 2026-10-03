@@ -1,0 +1,15 @@
+{
+ "tutte le coppie consecutive": {
+  "coppie": 1260,
+  "residuo": 0.5710029537348517,
+  "nullo": 0.2911100547217979,
+  "z": 10.304981175027855
+ },
+ "coppie non a passo 0 o +1": {
+  "coppie": 843,
+  "residuo": 0.42007392851035763,
+  "nullo": 0.28761891185949745,
+  "z": 4.181205889839637
+ },
+ "esito": "struttura non spiegata, da esaminare"
+}
