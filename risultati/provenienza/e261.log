@@ -1,0 +1,4 @@
+Voynich: {'base + lettere': 11.26, '+ cache': 11.16, '+ cache + lettere della pagina': 10.99}; pesi {'base': 0.055, 'cache esatta': 0.013, 'cache varianti pesata': 0.06, 'lettere': 0.082, 'lettere della pagina': 0.79}; riduzione 0.27
+generatore e241 (seme 2): {'base + lettere': 11.67, '+ cache': 11.09, '+ cache + lettere della pagina': 10.81}; pesi {'base': 0.069, 'cache esatta': 0.061, 'cache varianti pesata': 0.06, 'lettere': 0.076, 'lettere della pagina': 0.734}; riduzione 0.86
+generatore e192 (seme 1): {'base + lettere': 12.3, '+ cache': 11.47, '+ cache + lettere della pagina': 11.21}; pesi {'base': 0.04, 'cache esatta': 0.095, 'cache varianti pesata': 0.085, 'lettere': 0.137, 'lettere della pagina': 0.642}; riduzione 1.10
+OrderedDict({'generatore e241 (seme 2)': 'presente', 'generatore e192 (seme 1)': 'presente'})
