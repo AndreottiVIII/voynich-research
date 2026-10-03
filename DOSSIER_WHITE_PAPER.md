@@ -1035,3 +1035,6 @@ negativi; i numeri sono nei file di `risultati/`.
 - **Le parole uniche rispettano la giuntura per circa due terzi** (e3a12): forme nuove ed errori seguono il legame con le vicine con Q 0,51–0,67 rispetto alle parole ripetute (z 10–23). Escono dallo stesso processo di scrittura, meno regolari.
 - **-*ey* cresce davvero scendendo nella pagina** (e3a15): a parità di pagina, posizione nella riga e lunghezza della riga, la quota di -*ey* fra -*dy*/-*ey* è più alta nella metà bassa (+0,057, z 4,8).
 - **La regola di raccordo è uguale in tutte le sessioni** (e3a16): la sua forza varia fra i bifogli solo quanto il caso (rapporto sul nullo 0,72, z −0,8), al contrario dell'inventiva.
+- **Un piccolo legame fra parole intere vicine** (e3a14): oltre il segno di bordo e tolto il lessico della pagina, l'identità di una parola dice ancora un poco sull'inizio della successiva: un quarto di quanto succede nelle lingue (0,026 contro 0,111 bit).
+- **-*ey* cresce sia scendendo nella pagina sia scendendo nel paragrafo** (e3a17: +0,12 e +0,10, entrambi con intervallo sopra zero).
+- **La coppia più forte della giuntura ha spazi netti** (esplorativo): fra -*y* e *q*- lo spazio è incerto solo nell'1% dei casi (8% in generale); gli spazi incerti stanno fra -*l* e *k*- (43%), -*r* e *a*- (28%), dove le parole si spezzano.

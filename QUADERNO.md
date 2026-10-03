@@ -9779,3 +9779,44 @@ strato e della stessa classe.
 - **Esito preregistrato: uniforme fra le sessioni, come una regola fissa.** Le differenze fra bifogli sono quelle del
   caso. La regola si comporta come gli errori (uniformi, e357) e non come l'inventiva (che varia 4 volte il caso,
   e376): è una regola del sistema, non un'abitudine della sessione.
+
+## 4/10/2026 (notte) — e3a14: due terzi del "resto" erano lessico della pagina; resta un legame fra vicine pari a un quarto di quello delle lingue
+
+Preregistrato (`preregistrazioni/e3a14.md`). Come l'e3a08, con il nullo dentro (pagina, segno di bordo).
+
+| | avanti E | z | indietro E | z |
+|---|---|---|---|---|
+| Voynich (tutto) | 0,027 | 9,9 | 0,017 | 5,8 |
+| Voynich a 10.000 parole (mediana) | **0,026** | | **0,018** | |
+| testi sensati con almeno 5.000 coppie (mediana), stesso nullo | 0,111 | | 0,096 | |
+
+- **Esito preregistrato: resta un piccolo legame fra vicine** (z > 3 in tutte e due le direzioni).
+- Con il nullo dentro la pagina il resto avanti scende da 0,080 (e3a10) a 0,027: **due terzi erano lessico della
+  pagina**. Quello che resta, oltre il segno di bordo, è circa un quarto (avanti) e un quinto (indietro) di quello delle
+  lingue con lo stesso nullo.
+- **Quadro aggiornato:** fra parole vicine il Voynich ha un legame forte fra segni di bordo (la giuntura) e un legame
+  debole fra parole intere, un quarto di quello di una lingua. Fra parole non vicine, niente (e3a07).
+
+## 4/10/2026 (notte) — e3a17: -ey cresce sia con l'altezza nella pagina sia con la posizione nel paragrafo
+
+Preregistrato (`preregistrazioni/e3a17.md`). 154 pagine con più paragrafi, 9.240 parole in -*dy*/-*ey*; regressione con
+effetti fissi di pagina × posizione nella riga, bootstrap sulle pagine.
+
+| fattore | coefficiente (da cima a fondo) | IC 95% |
+|---|---|---|
+| altezza nella pagina | +0,124 | +0,067 – +0,184 |
+| posizione nel paragrafo | +0,099 | +0,061 – +0,133 |
+
+- **Esito preregistrato: tutte e due.** La quota di -*ey* cresce scendendo nella pagina e, separatamente, scendendo nel
+  paragrafo. All'inizio di un paragrafo -*ey* torna più raro anche se il paragrafo comincia in basso nella pagina.
+
+## 4/10/2026 (notte) — Esplorativo: dove cadono gli spazi incerti
+
+Non preregistrato (scratchpad). Quota di spazi incerti (virgola nella ZL) per coppia (ultimo segno, primo segno);
+generale 8,2%.
+- **-*y* *q*-**, la coppia più forte della giuntura, ha quasi sempre uno spazio netto: incerto solo nell'1,0% (3.448
+  coppie). Così anche -*y* *o*- (0,6%), -*n* *ch*- (0,5%), -*n* *q*- (0%). Il raccordo -*y* → *qo*- lega due parole ben
+  separate.
+- Gli spazi incerti si concentrano in -*l* *k*- (43%), -*r* *a*- (28%), -*y* *t*- (19%), -*y* *k*- (18%), -*l* *sh*-
+  (16%), -*l* *d*- (14%), -*l* *ch*- (12%): proprio i posti delle parole spezzate o attaccate (*ol kedy*, *or aiin*;
+  e379).
