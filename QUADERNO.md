@@ -6827,3 +6827,22 @@ sequenza.
   ma è molto più debole e non supera l'a capo, mentre in una lingua la frase continua nella riga seguente. È
   un'abitudine dello scriba legata alla riga, come le scelte di grafia (e135, e206b). Per il generatore: la "rima" delle
   desinenze va fatta dentro la riga.
+
+## 3/10/2026 — e293: banco di prova e pagella estesa; la v3 migliora la v2, ma le 8 materie aggiunte mancano tutte
+
+- **Preregistrato:** pagella estesa = 18 materie dell'e224 + 8 (parole rare per pagina, tipi e uniche nella pagina,
+  dispersione delle lunghezze, prime righe come registro, scelte di riga dell'e206b, concordanza delle desinenze, coppie
+  viste altrove); banco fisso: Isidoro XVII nascosto con la chiave "banco" in corpi con i semi 7, 8, 9.
+- **Controllo del metro:** il Voynich passa tutte e otto le materie aggiunte (R 1,96; tipi 0,756; uniche 0,636;
+  dispersione 1,579; e273 z 4,7; 12 classi su 12; concordanza 0,043; coppie 0,221).
+- **Risultati** (3 semi): decodifica esatta in tutti e 6 i casi.
+
+  | versione | pagella | pagella estesa | riga | AUC e231 | AUC e266 |
+  |---|---|---|---|---|---|
+  | v2 | 52/54 | 52/78 | 2 | 0,842 | 0,945 |
+  | v3 | 52/54 | 52/78 | 2 | **0,817** | **0,934** |
+
+- **Esito:** la v3 **migliora** la v2 (AUC dell'e266 −0,011, pagella estesa uguale).
+- **Lettura.** Le 18 materie originali sono quasi tutte prese, ma nessuna delle 8 materie aggiunte: la pagella a 18
+  sopravvalutava il generatore. Ognuna delle otto ha un meccanismo candidato (errori sparsi, lunghezza stabile, rima delle
+  desinenze nella riga, successore già visto, prime righe): sono la v4.
