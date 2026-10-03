@@ -8300,3 +8300,25 @@ Preregistrato (`preregistrazioni/e356.md`).
   - **-*dy*/-*ey* 0,795 contro 0,766 (z 4,1)**.
   - **Esito preregistrato: in parte (-*dy*/-*ey*).** Quando lo scriba riprende una parola dalle righe sopra non ne
     copia la grafia: la sceglie di nuovo, salvo una leggera eredità per -*dy*/-*ey*.
+
+## 3/10/2026 (notte) — e357: gli "errori" sono uniformi come errori casuali; l'inventiva delle sessioni sta nelle forme nuove
+
+Preregistrato (`preregistrazioni/e357.md`). 48 bifogli con almeno 150 parole. Varianza fra i bifogli, come scarto dalla
+media del proprio strato sezione × lingua, contro le parole rimescolate fra i bifogli dello stesso strato:
+
+| quota | rapporto sul nullo | z |
+|---|---|---|
+| parole uniche | 3,80 | 11,2 |
+| "errori" (uniche a una modifica da una parola con almeno 20 occorrenze) | **1,05** | **0,2** |
+| forme nuove (le altre uniche) | **4,04** | **11,8** |
+
+- **Esiti preregistrati: inventiva oltre la sezione; fatta di forme nuove.**
+- Nessun legame con la lunghezza media delle parole (Spearman 0,02) né con la posizione nel libro (−0,03).
+- I più inventivi: O-1, Q-1 (erbario A), I-1, H-2 (S-A), H-1 (T-B), G-4: 20–25% di parole uniche. I meno: M-1, M-3,
+  M-4 (biologica B), E-1 (erbario B), B-2, E-3 (erbario A): 7–9%.
+- **Lettura** (con l'ipotesi di Davide dell'e296):
+  - Le parole uniche che sono varianti di una lettera di parole frequenti hanno **la stessa frequenza in tutte le
+    sessioni**, come ci si aspetta da veri errori di scrittura o di lettura, che capitano a caso.
+  - Le forme davvero nuove dipendono dalla sessione: alcune sessioni inventano molto, altre quasi niente. Sono due
+    processi diversi.
+  - Con l'e348: né gli uni né le altre nascono dalla ripresa delle righe sopra.
