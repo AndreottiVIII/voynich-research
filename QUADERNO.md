@@ -8912,3 +8912,32 @@ dimensione. Sovrapposizione delle frequenze delle parole; ricerca della sostituz
 - Le parole B sono più lunghe (4,37 segni contro 4,04), cosa che una sostituzione non può fare.
 - Lettura: A e B usano i segni con lo stesso valore. La differenza sta nel lessico e nella forma delle parole (famiglie
   -*edy*, *qok*-, e315–e325), non in una chiave diversa.
+
+## 3/10/2026 (notte) — e346: la ripresa del Voynich sta fra il gibberish umano e i testi sensati, ma il confronto con i testi sensati è falsato
+
+Preregistrato (`preregistrazioni/e346.md`). Prima esecuzione fermata perché troppo lenta, codice reso più veloce e
+rilanciato (voce precedente). Ripresa dalle 2 righe sopra (parole di almeno 3 segni, uguali o a una modifica); nullo
+con le righe dell'unità in ordine casuale; E = quota − nullo, R = quota / nullo.
+
+| testo | unità | parole | E | R | IC 95% di E |
+|---|---|---|---|---|---|
+| Voynich (pagine) | 167 | 26.080 | **+0,034** | 1,09 | +0,029 – +0,039 |
+| gibberish umano (documenti) | 38 | 7.965 | +0,007 | 1,08 | −0,006 – +0,019 |
+| testi sensati (documenti) | 71 | 4.016.539 | +0,060 | 1,73 | +0,051 – +0,069 |
+| Timm e Schinner, seme 1 | 138 | 28.677 | +0,022 | 1,05 | +0,017 – +0,028 |
+| Timm e Schinner, seme 19 | 138 | 29.198 | +0,022 | 1,05 | +0,018 – +0,027 |
+
+Per categoria: Historical +0,054, Modern +0,068, Conlangs +0,073. Per autore del gibberish: DA (2 testi) −0,011,
+DC (36 testi) +0,008.
+
+- **Esito preregistrato: fuori da tutti e due (in mezzo):** sopra l'intervallo del gibberish e sotto quello dei testi
+  sensati.
+- **Il confronto con i testi sensati è falsato dal disegno, e lo dichiaro.** Per loro l'unità era il documento intero:
+  fino a 69.000 righe, contro le 25 circa di una pagina del Voynich. Rimescolare le righe di un libro intero porta via
+  la continuità locale (le righe vicine parlano della stessa cosa), che nel Voynich resta dentro il nullo della pagina.
+  Così l'E dei testi sensati è gonfiato. In più il gruppo contiene i 6 testi con le parole spezzate (voce
+  sull'errore).
+- **Gibberish:** in eccesso il Voynich riprende 5 volte di più (0,034 contro 0,007, e il gibberish non è
+  significativo). In rapporto sono uguali (1,09 contro 1,08): il Voynich ha molte più parole simili fra loro di base.
+  Con 38 testi il gibberish è un campione piccolo.
+- **Correzione:** l'e382 rifà il confronto con unità uguali (pagine di 25 righe) e con le parole intere.
