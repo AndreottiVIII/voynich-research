@@ -469,3 +469,19 @@ Nel QUADERNO. v11 contro v10: cancello 3/3 contro 0/3, giudice forte 0,647 contr
 - Prossimo pezzo (e411): località verticale, cioè righe vicine più simili fra loro di righe lontane; deve dare il gradiente e la differenza fra le due metà della pagina. Poi profilo pagina.
 
 **00:02 — e411 lanciato** (coda `vz-grad`): H1 carattere per posizione nella parola (κ e θ regolati di nuovo), H2 anche vicinato fra righe (peso regolato sul gradiente della pagella). Piano della notte, confermato a Davide: (1) e411 → v12 → banco; (2) coppie viste altrove e differenza fra le due metà della pagina (giudice forte); (3) prime righe come registro, scelte di riga a 12 classi, concordanza delle desinenze; (4) nota per la pubblicazione (che cosa va nel repo pubblico, quali file derivano dalla trascrizione, licenze da controllare) e aggiornamento del passaggio di consegne. Regole: una preregistrazione per passo, due tentativi per strada, un esperimento alla volta in misura (≤ 10 processi).
+
+## 4/10/2026, 00:40 — e411: negativo; difetto del metro sul gradiente
+
+
+
+Nel QUADERNO (voce "vz: e411"). H1 (carattere per posizione) non passa (profilo pagina in 2 semi su 4, giudici +0,04 / +0,03); H2 (vicinato) sbagliato e scartato. **Il Voynich vero, misurato dalla nostra pagella, perde il gradiente (0,683 < 0,70): il massimo per seme è 17/18.** Codice: `sacco.POSIZIONALE` e il peso `vicinato` restano nel codice, spenti in tutte le versioni.
+
+
+
+### Dove siamo (4/10, 00:40)
+
+
+
+- Versioni al banco: v10 (50/54 senza cancello; 0,550 / 0,662), v11 (47/54 con il cancello 3/3; 0,565 / 0,647). Leggere le pagelle su 51 (17 × 3), non su 54.
+
+- Prossimo (e412): il giudice forte. Due caratteristiche lo tengono sopra 0,6: coppie viste altrove (0,246 contro 0,221) e differenza fra le due metà della pagina (JSD 0,038 contro 0,050).

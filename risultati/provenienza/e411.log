@@ -1,0 +1,32 @@
+giro  0: kappa 1.000 theta 2280 | JSD 0.0555 (Voynich 0.0402) | tipi su parole 0.7131 (Voynich 0.7559) | scarto massimo 0.380
+giro  1: kappa 0.680 theta 2878 | JSD 0.0417 (Voynich 0.0402) | tipi su parole 0.7350 (Voynich 0.7559) | scarto massimo 0.038
+giro  2: kappa 0.650 theta 3220 | JSD 0.0402 (Voynich 0.0402) | tipi su parole 0.7364 (Voynich 0.7559) | scarto massimo 0.026
+giro  3: kappa 0.649 theta 3576 | JSD 0.0383 (Voynich 0.0402) | tipi su parole 0.7405 (Voynich 0.7559) | scarto massimo 0.048
+giro  4: kappa 0.688 theta 3885 | JSD 0.0426 (Voynich 0.0402) | tipi su parole 0.7359 (Voynich 0.7559) | scarto massimo 0.059
+giro  5: kappa 0.643 theta 4324 | JSD 0.0398 (Voynich 0.0402) | tipi su parole 0.7395 (Voynich 0.7559) | scarto massimo 0.022
+giro  6: kappa 0.650 theta 4721 | JSD 0.0402 (Voynich 0.0402) | tipi su parole 0.7357 (Voynich 0.7559) | scarto massimo 0.027
+giro  7: kappa 0.649 theta 5263 | JSD 0.0404 (Voynich 0.0402) | tipi su parole 0.7418 (Voynich 0.7559) | scarto massimo 0.019
+giro  8: kappa 0.646 theta 5675 | JSD 0.0401 (Voynich 0.0402) | tipi su parole 0.7431 (Voynich 0.7559) | scarto massimo 0.017
+giro  9: kappa 0.648 theta 6078 | JSD 0.0399 (Voynich 0.0402) | tipi su parole 0.7437 (Voynich 0.7559) | scarto massimo 0.016
+giro 10: kappa 0.654 theta 6486 | JSD 0.0408 (Voynich 0.0402) | tipi su parole 0.7438 (Voynich 0.7559) | scarto massimo 0.016
+giro 11: kappa 0.642 theta 6921 | JSD 0.0404 (Voynich 0.0402) | tipi su parole 0.7453 (Voynich 0.7559) | scarto massimo 0.014
+giro 12: kappa 0.639 theta 7323 | JSD 0.0420 (Voynich 0.0402) | tipi su parole 0.7435 (Voynich 0.7559) | scarto massimo 0.045
+giro 13: kappa 0.606 theta 7824 | JSD 0.0400 (Voynich 0.0402) | tipi su parole 0.7470 (Voynich 0.7559) | scarto massimo 0.012
+carattere per posizione: kappa 0.606, theta 7824, scarto massimo 0.012, converge True
+vicinato 4.00: gradiente 0.219 (Voynich 0.683) | nella riga 0.0951, riga sotto 0.0951, a 6 righe 0.0208 | verticale 1.027
+vicinato 10.96: gradiente -0.001 (Voynich 0.683) | nella riga 0.2445, riga sotto 0.2244, a 6 righe -0.0003 | verticale 1.012
+vicinato 21.21: gradiente -0.028 (Voynich 0.683) | nella riga 0.2909, riga sotto 0.2608, a 6 righe -0.0081 | verticale 1.006
+vicinato 31.87: gradiente -0.038 (Voynich 0.683) | nella riga 0.3045, riga sotto 0.2720, a 6 righe -0.0116 | verticale 1.006
+vicinato 40.00: gradiente -0.033 (Voynich 0.683) | nella riga 0.3108, riga sotto 0.2777, a 6 righe -0.0104 | verticale 1.005
+vicinato 40.00: gradiente -0.033 (Voynich 0.683) | nella riga 0.3108, riga sotto 0.2777, a 6 righe -0.0104 | verticale 1.005
+vicinato 40.00: gradiente -0.033 (Voynich 0.683) | nella riga 0.3108, riga sotto 0.2777, a 6 righe -0.0104 | verticale 1.005
+vicinato scelto 4.00: gradiente 0.219 (Voynich 0.683)
+H1 seme 2: pagella 16 riga True mancano ['gradiente', 'profilo pagina'] | AUC e231 0.603 e266 0.644 | {'V3_R': 0.732, 'somiglianza_riga': 0.046, 'somiglianza_6_righe': 0.027}
+H1 seme 3: pagella 17 riga True mancano ['gradiente'] | AUC e231 0.576 e266 0.640 | {'V3_R': 0.834, 'somiglianza_riga': 0.044, 'somiglianza_6_righe': 0.024}
+H1 seme 1: pagella 15 riga True mancano ['omogeneità', 'gradiente', 'profilo pagina'] | AUC e231 0.579 e266 0.642 | {'V3_R': 0.787, 'somiglianza_riga': 0.047, 'somiglianza_6_righe': 0.026}
+H1 seme 4: pagella 17 riga False mancano ['gradiente'] | AUC e231 0.604 e266 0.650 | {'V3_R': 0.828, 'somiglianza_riga': 0.042, 'somiglianza_6_righe': 0.025}
+H2 seme 2: pagella 14 riga False mancano ['omogeneità', 'gradiente', 'profilo pagina', 'formule'] | AUC e231 0.667 e266 0.767 | {'V3_R': 0.73, 'somiglianza_riga': 0.09, 'somiglianza_6_righe': 0.018}
+H2 seme 4: pagella 15 riga False mancano ['omogeneità', 'gradiente', 'formule'] | AUC e231 0.719 e266 0.812 | {'V3_R': 0.843, 'somiglianza_riga': 0.087, 'somiglianza_6_righe': 0.017}
+H2 seme 1: pagella 14 riga False mancano ['omogeneità', 'gradiente', 'profilo pagina', 'formule'] | AUC e231 0.654 e266 0.732 | {'V3_R': 0.752, 'somiglianza_riga': 0.094, 'somiglianza_6_righe': 0.019}
+H2 seme 3: pagella 14 riga False mancano ['omogeneità', 'gradiente', 'profilo pagina', 'formule'] | AUC e231 0.716 e266 0.812 | {'V3_R': 0.789, 'somiglianza_riga': 0.091, 'somiglianza_6_righe': 0.02}
+{"H1": [0.591, 0.644, 16.25, 3], "H2": [0.689, 0.78, 14.25, 0]}
