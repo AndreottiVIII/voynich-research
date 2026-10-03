@@ -10249,3 +10249,23 @@ Preregistrato (`preregistrazioni/e3a37.md`). Pagine pari contro dispari.
   il 90% su -*l*/-*r* restano liberi. Sono scelte fatte al momento, con una spinta del raccordo ma per il resto aperte.
   Questo vale anche come dato per il voynichizzatore: proprio in queste scelte si può nascondere un messaggio senza
   rompere le regole trovate (purché si rispettino le spinte del raccordo).
+
+## 4/10/2026 (notte) — e3a38: le etichette consecutive si copiano con piccole modifiche
+
+Preregistrato (`preregistrazioni/e3a38.md`). 49 pagine con almeno 4 etichette (987 etichette; soprattutto farmacia,
+zodiaco, biologia, astronomia). Somiglianza = uguali o a una modifica (parole di almeno 3 segni); nullo: ordine delle
+etichette rimescolato nella pagina.
+
+| confronto | coppie | misura | osservata | nullo | rapporto | z |
+|---|---|---|---|---|---|---|
+| etichette consecutive | 835 | simili | 0,040 | 0,020 | **1,99** | **4,3** |
+| etichette consecutive | 835 | uguali | 0,004 | 0,002 | 1,82 | 1,1 |
+| etichette consecutive | 835 | a una modifica | 0,036 | 0,018 | 2,01 | 4,2 |
+| parole vicine nella riga | 24.063 | simili | 0,049 | 0,038 | 1,30 | 8,9 |
+
+- **Esito preregistrato: le etichette si copiano in fila.** Due etichette una dopo l'altra sono simili il doppio del
+  caso, quasi sempre come varianti a una modifica: *otol*/*otor*, *oty*/*oky*, *okal*/*okaly*, *otalar*/*otalam*,
+  *opalar*/*opalor*, *okeody*/*okeoldy*.
+- **Lettura:** anche le etichette, che non hanno vicine nella riga, nascono con il processo di copia con piccole
+  modifiche visto nei paragrafi: ogni etichetta riprende spesso la precedente cambiandone un segno. È un'altra prova che
+  il processo di scrittura è lo stesso in tutto il libro.
