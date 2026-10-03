@@ -415,3 +415,23 @@ Nel QUADERNO (voce "vz: e409b"). Su 12 chiavi messaggio e riempimento differisco
 - In corso: banco e293 della v10.
 
 - Poi, nell'ordine: cancello della riga (prima lettera della riga S1; somiglianza fra vicine oltre il caso A; cinque scelte per riga e fra righe consecutive); prime righe come registro; profilo pagina; coppie viste altrove; ordine delle righe (JSD fra le due metà).
+
+## 3/10/2026, 23:45 — banco della v10: 0,550 / 0,662, pagella 50/54; e410 lanciato
+
+
+
+Nel QUADERNO (voce "vz: e293, banco della v10"). **La v10 batte la v5 su tutte le colonne** (pagella 50 contro 49, estesa 63 contro 57, AUC 0,550 / 0,662 contro 0,816 / 0,917), con il testo che torna esatto.
+
+
+
+e410 (cancello della riga) lanciato nella coda `vz-cancello`. Dalla prova: bersagli del Voynich S1 0,531, somiglianza a distanza 2 0,2198, A 1,047, varianza per riga 1,103, r 0,207; dopo due giri brevi S1 0,64, A 1,03, r 0,15.
+
+
+
+### Dove siamo (3/10, 23:45)
+
+
+
+- **Versione corrente: v10** (predefinita nello strumento). In corso: e410.
+
+- Dopo: v11 con il cancello della riga, banco; poi prime righe come registro, profilo pagina, coppie viste altrove, ordine delle righe; aggiornare STATO_LAVORI.md e il passaggio di consegne.
