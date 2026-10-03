@@ -6209,3 +6209,37 @@ sequenza.
     modifiche, già nel generatore, basta a produrre le righe gemelle che si vedono, anzi un poco di più.
   - È coerente con e247b–e247d.
 - Prima esecuzione completata sul nuovo PC: 316 s.
+
+## 3/10/2026 — e223: decifrazione guidata dal contenuto in cinque volgari; il tedesco segnala un candidato debole
+
+- **Preregistrato.** Come l'e213 (una chiave, modelli di lingua per sezione, stima sulle pagine pari e
+  verifica sulle dispari), con corpora di dominio in italiano, tedesco, francese, spagnolo e catalano.
+- **Risultati** (z della discriminazione fra sezioni fuori campione):
+
+  | lingua | positivo | Voynich | generatore |
+  |---|---|---|---|
+  | italiano | 8,8 | 1,6 | −2,0 |
+  | tedesco | 8,2 | **4,2** | −1,8 |
+  | francese | 9,5 | −0,7 | −1,0 |
+  | spagnolo | 7,0 | 3,5 | **4,4** |
+  | catalano | 10,1 | −4,2 | −3,4 |
+
+  - Il test è valido in tutte e cinque le lingue (positivo > 4).
+- **Esito preregistrato:**
+  - tedesco: **lettura di dominio, da esaminare** (Voynich z > 4 e almeno 3 sopra il generatore);
+  - le altre quattro lingue: nessuna lettura.
+- **Prima di ogni lettura, i sospetti (scritti prima della verifica).**
+  - Il **controllo negativo spagnolo**, cioè il generatore, che non contiene alcun messaggio, arriva a
+    z 4,4. Quindi z > 4 si raggiunge anche senza contenuto, e la soglia non protegge abbastanza.
+  - Nel tedesco il Δ del Voynich è −0,0008: lo z è positivo solo perché il nullo è più basso (−0,0058).
+    Il positivo ha Δ 0,12, cioè un effetto 150 volte più grande.
+  - Gli esempi decifrati non contengono parole tedesche (*nsdisimacherernstisarjaral*).
+  - Le lingue provate sono cinque: con cinque prove un superamento isolato della soglia è più
+    probabile.
+- **Protocollo:** nessuna lettura. Si fa la verifica per i candidati, come nell'e217b, da preregistrare
+  nell'e223b:
+  - 8 ripartenze;
+  - Voynich rimescolato;
+  - generatore trattato come il Voynich, con più semi;
+  - chiave su metà delle righe.
+- Prima esecuzione sul nuovo PC: 500 s.
