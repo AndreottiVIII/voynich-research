@@ -5887,3 +5887,33 @@ sequenza.
 - I log parziali dei tentativi interrotti sono sovrascritti dai nuovi. Le righe già stampate prima
   dello spegnimento (taratura dell'e243, parte Voynich dell'e256) devono ricomparire identiche: è un
   controllo di riproducibilità.
+
+## 3/10/2026 — e256: nessuna deriva direzionale nelle genealogie (un indizio sotto soglia sulla *d* interna)
+
+- **Preregistrato.** Squilibrio fra operazioni inverse lungo la scrittura (fonte più in alto, variante
+  più in basso), contro righe rimescolate nella pagina; 66 coppie con almeno 50 occorrenze.
+- **Risultati:**
+  - solo 2 coppie con |z| > 3:
+    - +*d* / −*d* interna: squilibrio −0,170 contro −0,005, z −3,4;
+    - *d*→*e* / *e*→*d* interna: +0,341 contro +0,129, z 3,2;
+  - il generatore, che usa la stessa misura, non ha nessuna coppia oltre |z| 2.
+- **Esito preregistrato: nessuna deriva direzionale** (servivano almeno 3 coppie).
+- **Indizio sotto soglia.** Le due coppie vanno nella stessa direzione: scendendo nella pagina le varianti
+  **perdono la *d* interna** o la cambiano in *e* (*chedy* → *chey*) più del contrario. È coerente con la
+  scelta -dy/-ey (F7), ma con 66 coppie provate non basta.
+- **Difetto dichiarato.** L'oscillazione (w3 = w1) vale 0 per costruzione nel Voynich e nel generatore.
+  Un ritorno alla forma di partenza è già presente sulla pagina e viene classificato come ripetizione,
+  non come variante. La misura non è informativa.
+
+## 3/10/2026 — e261: i generatori hanno già l'"ortografia di pagina" del Voynich
+
+- **Preregistrato.** La mistura dell'e259b applicata ai generatori.
+- **Risultati** (peso delle lettere della pagina; bit per parola):
+  - Voynich 0,79 (10,99);
+  - **generatore e241 0,73 (10,81)**;
+  - generatore e192 0,64 (11,21).
+- **Esito: presente** per entrambi, almeno la metà del peso del Voynich.
+- **Lettura.**
+  - Il serbatoio di pagina dei generatori produce già la preferenza di segni per pagina. Non serve un
+    meccanismo nuovo: l'idea 5 della lista di oggi cade.
+  - Il generatore "copia e modifica" ha quasi lo stesso contenuto d'informazione per parola del Voynich.
