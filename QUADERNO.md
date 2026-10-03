@@ -9379,3 +9379,38 @@ Preregistrato (`preregistrazioni/e394.md`). Parole in -*l*/-*r* il cui tronco st
   per accordarsi con la finale appena scritta. Nell'e392, specularmente, vale lo stesso per *qo*-/*o*- e la parola
   prima. La lettura dell'e392 "prende la forma voluta dalla nuova vicina" va quindi presa così: **la forma è
   coordinata con la vicina nel momento in cui si scrive, non ereditata dalla fonte**. La direzione resta aperta.
+
+## 3/10/2026 (notte) — e395: con la trascrizione di Takahashi tutte le prove sulla giuntura si ripetono
+
+Preregistrato (`preregistrazioni/e395.md`). Sei prove della notte rifatte sulla trascrizione IT (Takahashi), che ha
+scelte proprie di segni e spazi.
+
+| prova | con IT | replicata |
+|---|---|---|
+| 1 giuntura nella riga | E 0,185, z 251 (29.477 coppie) | sì |
+| 2 giuntura a capo | E −0,001, z −0,3 (3.330 coppie) | sì |
+| 3 giuntura al salto del disegno | E 0,023, z 1,7 (767 coppie), contro 0,175 nella riga a parità di coppie | sì |
+| 4 regola di *qo*- | differenza +0,39, p < 0,0001 (7.123 eventi) | sì |
+| 5 regola di -*l*/-*r* | differenza +0,58, p < 0,0001 (3.319 eventi) | sì |
+| 6 fine riga | -*m* +0,162 (z 27,3), -*r* −0,129 (z −15,2) | sì |
+
+**Esito preregistrato: i risultati non dipendono dalla trascrizione.** I numeri sono quasi gli stessi della ZL.
+
+## 3/10/2026 (notte) — e396: quando due parole copiate non si accordano, cambia la seconda
+
+Preregistrato (`preregistrazioni/e396.md`). Coppie (a, b) nella riga con entrambe le parole riprese dalla riga sopra
+(b = *qo*/*o* + gallows, a con finale in -*y*/-*o*/-*d* o -*n*/-*r*/-*s*/-*m*): 83, di cui 34 in cui le due fonti
+violano la regola di *qo*-.
+
+| misura | nei conflitti | negli accordi | differenza | p |
+|---|---|---|---|---|
+| cambia la finale di a (la parola prima) | 0,00 | 0,04 | −0,04 | 1,00 |
+| cambia *qo*/*o* di b (la parola dopo) | **0,59** | 0,18 | **+0,41** | 0,0003 |
+
+- **Esito preregistrato: si adatta la parola dopo.** Quando le due fonti insieme violerebbero la regola, lo scriba
+  cambia la forma della seconda parola (*qo*- ↔ *o*-) quasi sei volte su dieci, e non tocca mai la finale della prima.
+- **Cautela:** per adattarsi, la parola prima dovrebbe cambiare la classe della finale (per esempio -*n* → -*y*), un
+  cambiamento più grosso di *qo*-/*o*-. L'asimmetria può dipendere in parte da questo. Per -*l*/-*r* (e394) la
+  direzione resta aperta.
+- **Lettura:** almeno per *qo*-/*o*-, la regola si applica scrivendo da sinistra a destra: la parola nuova si adegua a
+  quella appena scritta.
