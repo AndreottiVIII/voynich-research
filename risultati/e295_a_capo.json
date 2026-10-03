@@ -1,0 +1,27 @@
+{
+ "risultati": {
+  "Voynich": {
+   "coppie_a_capo": 3390,
+   "eccesso_dentro": 0.04947672407213058,
+   "eccesso_a_capo": 0.006902506905426042,
+   "z_a_capo": 0.6917297986886601,
+   "r": 0.139510184533703
+  },
+  "generatore e288, seme 7": {
+   "coppie_a_capo": 3390,
+   "eccesso_dentro": 0.02071676808742881,
+   "eccesso_a_capo": 0.011782680204560858,
+   "z_a_capo": 1.1877249796383802,
+   "r": 0.5687508859893418
+  },
+  "controllo positivo: Bibbia latina in righe": {
+   "coppie_a_capo": 3000,
+   "eccesso_dentro": 0.19214252259106504,
+   "eccesso_a_capo": 0.1310852625440757,
+   "z_a_capo": 9.920469446478547,
+   "r": 0.6822293200712428
+  }
+ },
+ "valido": true,
+ "esito": "si ferma all'a capo (abitudine di riga)"
+}
