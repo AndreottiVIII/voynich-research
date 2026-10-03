@@ -7298,3 +7298,49 @@ Preregistrato (`preregistrazioni/e313.md`, con la correzione della parte B prima
     righe la cui larghezza cambia (testo intorno ai disegni), non con parole adattate allo spazio.
   - Misura complementare: l'ultima parola della riga è più corta delle altre della stessa riga di 0,17 segni oltre il
     caso (z −3,6). Un piccolo segno di parole accorciate o scelte corte in fine riga.
+
+## 3/10/2026 — vz: e400, la scala dei controlli: per i giudici contano i bordi della riga, non l'ordine delle righe; il nascondiglio da solo vale 0,63
+
+Chat del voynichizzatore. Preregistrato (`preregistrazioni/e400.md`): testi fatti dal Voynich vero con l'impaginazione
+vera e un solo livello rotto, passati ai giudici e231 ed e266; semi 1–4. Risultati in `risultati/e400_scala_controlli.md`.
+
+- **Controlli del metro: validi.** Voynich tale e quale AUC 0,500; parole da tutto il libro 1,000; decodifica esatta.
+
+| gradino | AUC e231 | AUC e266 | prevista (e266) | gruppi che si accendono |
+|---|---|---|---|---|
+| O1, righe rimescolate nella pagina | 0,481 | 0,595 | 0,50–0,58 | G9 0,62 |
+| O2, parole rimescolate dentro la riga | 0,984 | **0,990** | 0,60–0,72 | G4 0,98, G7 0,93, G6 0,66 |
+| O3, parole rimescolate nella pagina (prime righe a parte) | 0,988 | 0,993 | 0,75–0,85 | G4 0,99, G7 0,94, G6 0,70, G9 0,65 |
+| O4, parole rimescolate in tutta la pagina | 0,989 | 0,998 | 0,80–0,90 | in più G8 0,96 |
+| L1, ripescate dalla pagina con reimmissione | 1,000 | 1,000 | 0,88–0,95 | in più G3 1,00 |
+| L2, dalle pagine vicine (±2) | 0,997 | 1,000 | 0,90–0,97 | G3 0,98, G9 0,67 |
+| L3, da sezione × lingua | 0,998 | 1,000 | 0,95–0,99 | G3 0,98, G9 0,75 |
+| L4, da tutto il libro | 1,000 | 1,000 | ≥ 0,98 | G3 0,99, G9 0,96 |
+| N1, Voynich con Isidoro nascosto | 0,622 | **0,630** | 0,50–0,60 | G2 0,61 |
+
+- **Previsioni sbagliate, e perché.** Avevo previsto O2 a 0,60–0,72: è 0,99. Rimescolare le parole dentro la riga
+  basta a farsi riconoscere quasi sempre. Il motivo sta nei **bordi della riga**, non nell'ordine in mezzo:
+  - righe che iniziano con *p* 7,7% → 0,9%; con *t* 10,5% → 3,3%; con *ch* 3,6% → 16,7%;
+  - prima parola della riga 4,82 segni → 4,34;
+  - righe che finiscono in *m* 13,9% → 2,9%; in *o* 1,2% → 4,8%;
+  - coppie vicine che unite danno una parola attestata 9,2% → 5,6%.
+  L'ordine delle parole **in mezzo** alla riga pesa molto meno (G6 0,66; G5 0,52).
+- **L'ordine delle righe nella pagina non conta quasi niente** (O1 0,48 / 0,60). L'unica traccia: le due metà della
+  pagina sono più diverse fra loro del caso (JSD 0,050 contro 0,038): il profilo dei segni scivola lungo la pagina.
+- **Le prime righe dei paragrafi** contano quanto i bordi (G8 0,96 appena le loro parole si mescolano alle altre).
+- **Le parole della pagina:** ripescarle con reimmissione rompe da solo la varietà (G3 1,00: tipi su parole 0,756 →
+  0,514). Prendendo le parole dalle pagine vicine o dalla sezione, il profilo di pagina (G9) sale solo a 0,67–0,75;
+  con tutto il libro a 0,96. L'identità della pagina è in buona parte identità di **sezione e lingua**.
+- **Il nascondiglio da solo si vede un poco: 0,62 / 0,63** (soglia preregistrata 0,60). Riscrive il 51,7% delle
+  parole. Lo tradiscono le coppie di parole viste altrove (0,221 → 0,205: due occorrenze della stessa coppia ricevono
+  scelte diverse) e alcune coppie di segni (*l*+*sh*, *p*+*sh*). Con questo canale l'obiettivo 0,6 non si raggiunge
+  nemmeno con un corpo perfetto: il canale va migliorato (meno posti toccati, o scelte legate alla parola intera).
+- **Esito secondo la preregistrazione:** O4 ≥ 0,75, quindi il primo pezzo da costruire è **la disposizione** delle
+  parole (quali parole nelle prime righe, quali a inizio e fine riga, poi le coppie), tenendo le parole vere della
+  pagina; e N1 > 0,60, quindi il nascondiglio è da rifare.
+- **Lettura per la ricerca sul Voynich.** La riga è un'unità con un inizio e una fine propri (parola iniziale lunga,
+  con *p*/*t*; parola finale in *m*), mentre l'ordine delle righe nella pagina è quasi libero. Coerente con e74, e78,
+  e139, e273; qui la misura dice che i bordi pesano molto più dell'ordine interno.
+- **Rilettura del lavoro precedente.** Il generatore vecchio (0,82 / 0,92) era già molto meglio di un rimescolamento
+  delle parole vere (0,99): i suoi meccanismi di riga funzionavano. Il "modello del Voynich" (0,93 / 0,99) non aveva
+  modello dei bordi di riga oltre la posizione: per questo stava al livello dei rimescolamenti.
