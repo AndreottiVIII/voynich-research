@@ -373,3 +373,29 @@ Nel QUADERNO (voce "vz: e293, banco della v9"). La v9 senza messaggio fa 0,541 /
 - In preparazione: e409, il messaggio nel sacco (`voynichizzatore/canale_sacco.py`; preregistrazione committata). È il passo più importante adesso: senza, ogni miglioramento del corpo viene rovinato dal nascondiglio vecchio.
 
 - Dopo: cancello della riga (S1, A, cinque scelte per riga e fra righe), prime righe come registro, profilo pagina.
+
+**23:09 — e409 lanciato** (coda `vz-canale`, corpo di partenza v9; `voynichizzatore/canale_sacco.py`). Prova del codice fatta prima (nessun giudice): Isidoro con la chiave "prova" torna esatto, la chiave sbagliata è respinta, capacità del libro 80.119 bit (servono 38.240; la previsione scritta era 100.000–250.000, quindi più bassa del previsto ma sufficiente), il messaggio occupa 131 pagine su 207; codifica 42 s, decodifica 1 s.
+
+## 3/10/2026, 23:30 — e408 ed e409 finiti
+
+
+
+Nel QUADERNO (voci "vz: e408" e "vz: e409").
+
+
+
+- **e408:** R1 (peso proprio per il legame fra finali) 0,554 / 0,673, pagella **17,0/18**, concordanza 0,058 (fascia ≤ 0,055: fuori di poco); R2 (+ scelte di riga) 0,582 / 0,671, pagella 16, scelte di riga 8, 11, 10, 8 (soglia 10), perde il gradiente. Nessuno dei due "preso" secondo la preregistrazione. Si tiene R1 come corpo (pesi in `risultati/e408_scelte_di_riga.json`, regolazione → R1 → parametri).
+
+- **e409:** il messaggio nel sacco funziona: andata e ritorno 4 su 4, capacità 80.300 bit, **0,560 / 0,697** contro 0,677 / 0,737 del nascondiglio vecchio sullo stesso corpo, pagella 16,2 contro 15,0. Ma (a) messaggio e (b) riempimento differiscono di 0,037 / 0,042 (previsto ≤ 0,02): in corso l'e409b con altre 8 chiavi (`CHIAVI=5,...,12 CASI=a,b`; nota: queste due variabili non sono fra quelle registrate nella provenienza da `esegui.py`, sono scritte qui).
+
+
+
+### Dove siamo (3/10, 23:30)
+
+
+
+- Corpo migliore: R1 dell'e408 (da registrare come v10 insieme al canale nuovo, se l'e409b non mostra errori).
+
+- Nascondiglio nuovo: `canale_sacco.codifica(testo, chiave, versione)` / `decodifica(righe, chiave, versione)`.
+
+- Poi: banco con le chiavi banco7–9; cancello della riga (S1, A, cinque scelte per riga e fra righe consecutive); prime righe come registro; profilo pagina; coppie viste altrove.

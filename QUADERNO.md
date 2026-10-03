@@ -8803,3 +8803,67 @@ ultimo segno e della stessa posizione (giuntura e lessico di pagina intatti).
 - **Lettura:** nel Voynich lo spazio non è un confine di parola affidabile per gli elementi corti (*s*, *or*, *ol*,
   *ar*, *r*). Possono stare attaccati o staccati dalla parola seguente. Con l'e361–e363 (pezzi attaccati senza spazio)
   e l'e368 (*s* attaccata a inizio riga): lo spazio separa pezzi di una catena di segni più che parole fisse.
+
+## 3/10/2026 — vz: e408, concordanza delle desinenze e scelte di riga: migliorano tutte e due, nessuna delle due passa la soglia
+
+Chat del voynichizzatore. Preregistrato (`preregistrazioni/e408.md`). Risultati in `risultati/e408_scelte_di_riga.md`.
+Semi 1–4; riferimento U3 dell'e407 (v9): 0,541 / 0,659, pagella 16,5, estese 3,2.
+
+| strato | regolazione | AUC e231 | AUC e266 | pagella | estese | concordanza per seme (Voynich 0,043 ± 0,012) | scelte di riga per seme (soglia 10 su 12) |
+|---|---|---|---|---|---|---|---|
+| U3 (v9) | converge | 0,541 | 0,659 | 16,5/18 | 3,2/8 | circa 0,12 | circa 3,5 |
+| R1, peso proprio per il legame fra finali | scarto 13,7% (**non converge**) | 0,554 | 0,673 | **17,0/18** | 2,5/8 | 0,059, 0,063, 0,059, 0,056 | 4, 4, 2, 3 |
+| R2, + scelte di riga | scarto 12,9% (**non converge**) | 0,582 | 0,671 | 16,0/18 | 2,8/8 | 0,057, 0,060, 0,058, 0,058 | 8, 11, 10, 8 |
+
+- **Esito preregistrato: nessuno dei due pezzi è "preso"** (serviva la materia in almeno 3 semi su 4).
+  - **Concordanza delle desinenze:** scende da 0,12 a 0,058, ma resta appena fuori dalla fascia (≤ 0,055) in tutti i
+    semi. Il peso del legame fra finali va quasi a zero (0,05–0,07): **nel Voynich i finali di parole vicine si legano
+    molto meno di quanto il modello facesse**, e la concordanza che resta nel testo generato viene da altri termini
+    (ultimo segno → primo segno, unioni) o dal sacco. È il valore che tiene la regolazione sopra il 10%.
+  - **Scelte di riga:** il termine di riga porta le classi concordi da 3,5 a 9,25 su 12 (8, 11, 10, 8): due semi su
+    quattro passano. L'eccesso medio di accordo è quello del Voynich (0,0227 contro 0,0231), quindi **la concordanza
+    del Voynich non è distribuita fra le 12 classi come la fa un peso unico**: alcune classi restano sotto z 3. Il
+    termine costa la materia "gradiente" in 4 semi su 4 (alza la somiglianza dentro la riga) e 0,03 sul giudice
+    dell'e231.
+- **Pagella 17/18 con R1**, il valore più alto del generatore a pezzi (manca solo il profilo pagina fra le 18).
+- **Coppie viste altrove** resta alta (0,249 contro 0,221) con il peso della coppia esatta già a zero: i legami di
+  forma producono da soli troppe coppie ripetute.
+- **Cancello della riga:** perso in tutti i semi. Valori (R1): S1 1,08 (soglia ≤ 0,7), A 0,98 (≥ 1,0), scelte per riga
+  1,0 (≥ 3), r fra righe consecutive 0,11 (0,207 ± 0,07); R_riga a posto.
+- **Che cosa si tiene:** R1 come corpo della versione seguente (pagella più alta, giudici entro 0,03 da U3), dichiarando
+  che la concordanza delle desinenze non è in fascia. R2 no (costa il gradiente; due semi su quattro). Lacuna
+  dichiarata per le scelte di riga con questo termine: un secondo tentativo dovrà avere un peso per classe.
+
+## 3/10/2026 — vz: e409, il messaggio nel sacco: funziona, e batte il nascondiglio vecchio (0,560 / 0,697 contro 0,677 / 0,737)
+
+Chat del voynichizzatore. Preregistrato (`preregistrazioni/e409.md`). `voynichizzatore/canale_sacco.py`: il testo
+cifrato sceglie, pagina per pagina, quante volte compare ogni parola nota (catena di binomiali, codifica aritmetica di
+v1); pagina tipo, posti e forme delle parole nuove e disposizione vengono dalla chiave; le scelte di grafia non si
+riscrivono più. Corpo di partenza: v9. Isidoro XVII, quattro chiavi. Risultati in
+`risultati/e409_messaggio_nel_sacco.md`.
+
+- **Andata e ritorno esatta 4 su 4; chiave sbagliata respinta 4 su 4.**
+- **Capacità:** 80.300 bit per libro (servono 38.240; il messaggio occupa 131 pagine su 207). Previsione 100.000–
+  250.000: **più bassa del previsto**, ma doppia del necessario e quasi doppia di quella del nascondiglio vecchio
+  (38.000–46.000).
+
+| caso | AUC e231 (per chiave) | AUC e266 (per chiave) | pagella | estese | materie perse rispetto ad (a) |
+|---|---|---|---|---|---|
+| (a) messaggio nel sacco | **0,560** (0,578, 0,559, 0,551, 0,552) | **0,697** (0,730, 0,702, 0,684, 0,671) | 16,2/18 | 4,0/8 | |
+| (b) stesso canale, soli bit di riempimento | 0,523 (0,478, 0,527, 0,528, 0,560) | 0,655 (0,606, 0,654, 0,657, 0,704) | 16,0/18 | 3,8/8 | |
+| (c) nascondiglio vecchio sul corpo v9 | 0,677 (0,658, 0,696, 0,671, 0,680) | 0,737 (0,740, 0,729, 0,725, 0,755) | 15,0/18 | 3,8/8 | legame (4 su 4) |
+
+- **Il nuovo nascondiglio batte il vecchio** di 0,117 sul giudice dell'e231 e di 0,040 su quello dell'e266, con 1,2
+  punti di pagella in più. Come ipotizzato al banco della v9, il nascondiglio vecchio fa perdere la materia "legame"
+  in 4 casi su 4 e alza G2 (coppie di segni) a 0,64: riscrive il primo e l'ultimo segno delle parole.
+- **(a) contro (b): previsione NON rispettata.** La differenza delle medie è 0,037 / 0,042, oltre lo 0,02 previsto.
+  Per costruzione i bit del messaggio cifrato e quelli di riempimento hanno la stessa distribuzione; con quattro
+  chiavi (b) va da 0,478 a 0,560, quindi può essere rumore, ma non lo do per scontato: integrazione e409b con altre
+  8 chiavi (in corso). Fino ad allora il canale non si dichiara "indistinguibile per costruzione".
+- **(a) contro il corpo senza messaggio** (v9 sui semi 1–4: 0,541 / 0,659): +0,019 / +0,038; la soglia di allarme
+  (0,03) è superata di poco sul giudice forte: stessa verifica dell'e409b.
+- Senza la ripetizione θ i valori di pagina restano a posto: tipi su parole 0,758 (Voynich 0,756); JSD
+  pagina-manoscritto 0,0445 (0,0402: alta dell'11%, come già nella v9 per le parole nuove fatte di unioni).
+- **Cancello della riga:** perso in tutti i casi. Con il nascondiglio vecchio le scelte per riga sono 5 e r fra righe
+  consecutive 0,17 (il modello delle scelte ha la memoria di riga); con il nuovo 0,75 e 0,09: il corpo a pezzi non
+  ha ancora le cinque scelte concordi nella riga. È il prossimo pezzo.
