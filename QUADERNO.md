@@ -5699,3 +5699,18 @@ sequenza.
 - **Lettura.** La prima parola di pagina è un po' più spesso unica delle altre prime di paragrafo, ma è
   ripresa nella pagina allo stesso modo. Non si comporta come il nome di una voce. Si accorda con l'e190
   e l'e211.
+
+## 3/10/2026 — e250: le righe che non copiano e non sono copiate non sono fisicamente diverse
+
+- **Preregistrato.** Strada 7 della lista di decifrazione.
+  - Affinità di copia di ogni riga con le 3 righe sopra e sotto: ripetizioni e varianti a distanza 1.
+  - Isolate = il 10% più basso per sezione.
+  - Scuro dell'inchiostro (e166) e altezza dei riquadri (e34) come z dentro la pagina, contro scelte
+    casuali nelle stesse pagine.
+- **Risultati** (2.991 righe, 297 isolate):
+  - scuro: media |z| 0,825 contro 0,786, **z 1,3**;
+  - altezza: 0,661 contro 0,676, **z −0,6**.
+- **Esito: nessuna differenza fisica.**
+- **Lettura.** Le righe meno legate alle vicine sono scritte con lo stesso inchiostro e la stessa
+  grandezza. Non ci sono tracce di aggiunte successive riconoscibili così: la scarsa affinità è
+  variazione normale del procedimento, non un altro momento di scrittura.
