@@ -1,0 +1,19 @@
+forza 0.000: JSD pagina-manoscritto 0.0357 (Voynich 0.0402)
+forza 1.000: JSD pagina-manoscritto 0.0478 (Voynich 0.0402)
+forza 0.370: JSD pagina-manoscritto 0.0382 (Voynich 0.0402)
+forza 0.676: JSD pagina-manoscritto 0.0444 (Voynich 0.0402)
+forza 0.470: JSD pagina-manoscritto 0.0433 (Voynich 0.0402)
+forza scelta 0.370, JSD 0.0382, scarto -0.050
+N3 seme 1: intero 0.476 {'G1': 0.5, 'G2': 0.46, 'G3': 0.66, 'JSD': 0.5}
+N3 seme 2: intero 0.484 {'G1': 0.49, 'G2': 0.46, 'G3': 0.64, 'JSD': 0.44}
+N1 seme 3: isolata 0.628 {'G1': 0.58, 'G2': 0.57, 'G3': 0.57, 'JSD': 0.51} | intero 0.582 {'G1': 0.5, 'G2': 0.47, 'G3': 0.67, 'JSD': 0.61}
+N1 seme 1: isolata 0.608 {'G1': 0.61, 'G2': 0.56, 'G3': 0.55, 'JSD': 0.51} | intero 0.577 {'G1': 0.53, 'G2': 0.52, 'G3': 0.65, 'JSD': 0.6}
+N1 seme 2: isolata 0.643 {'G1': 0.58, 'G2': 0.59, 'G3': 0.57, 'JSD': 0.5} | intero 0.592 {'G1': 0.55, 'G2': 0.52, 'G3': 0.62, 'JSD': 0.58}
+N1 seme 4: isolata 0.609 {'G1': 0.56, 'G2': 0.55, 'G3': 0.56, 'JSD': 0.51} | intero 0.576 {'G1': 0.52, 'G2': 0.52, 'G3': 0.63, 'JSD': 0.58}
+N2 seme 2: isolata 0.604 {'G1': 0.52, 'G2': 0.56, 'G3': 0.54, 'JSD': 0.5} | intero 0.554 {'G1': 0.51, 'G2': 0.49, 'G3': 0.64, 'JSD': 0.59}
+N2 seme 4: isolata 0.628 {'G1': 0.56, 'G2': 0.57, 'G3': 0.56, 'JSD': 0.51} | intero 0.570 {'G1': 0.52, 'G2': 0.46, 'G3': 0.67, 'JSD': 0.6}
+N2 seme 3: isolata 0.621 {'G1': 0.55, 'G2': 0.57, 'G3': 0.56, 'JSD': 0.51} | intero 0.570 {'G1': 0.5, 'G2': 0.49, 'G3': 0.62, 'JSD': 0.59}
+N3 seme 3: intero 0.520 {'G1': 0.54, 'G2': 0.52, 'G3': 0.63, 'JSD': 0.46}
+N2 seme 1: isolata 0.606 {'G1': 0.53, 'G2': 0.56, 'G3': 0.55, 'JSD': 0.5} | intero 0.558 {'G1': 0.49, 'G2': 0.5, 'G3': 0.62, 'JSD': 0.57}
+N3 seme 4: intero 0.500 {'G1': 0.48, 'G2': 0.48, 'G3': 0.65, 'JSD': 0.47}
+{"N1": {"isolata": 0.622, "intero": 0.582}, "N2": {"isolata": 0.615, "intero": 0.563}, "N3": {"intero": 0.495}}

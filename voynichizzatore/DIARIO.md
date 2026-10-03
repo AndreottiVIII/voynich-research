@@ -275,3 +275,23 @@ Risultati nel QUADERNO (voce "vz: e404b"). κ = 0,708, θ = 2280. **C2 0,482** (
 - Pezzi: disposizione (ok per i giudici); parole note (ok: 0,48); parole nuove (0,64, da migliorare: prossimo passo e405); posti delle parole nuove (ancora veri).
 
 - Piano della notte: e405 parole nuove (profilo solo sui segni comuni, modello a quattro segni, forza regolata sul pannello) → e406 posti delle parole nuove e pesi della disposizione regolati sul sacco generato → versione nel registro e banco e293 ai semi 7–9 con il messaggio → pagella (materie perse) → nascondiglio.
+
+**22:22 — e405 lanciato** (coda `vz-nuove3`). Nella prova di costruzione: il modello a quattro segni non alza la quota di inventate vicine a parole note (0,545); quasi metà dei campioni del modello sono parole attestate (scartate). Previsioni del sacco intero: N1 0,58–0,65, N2 0,55–0,63, N3 0,53–0,62.
+
+## 3/10/2026, 22:30 — e405 finito: il sacco intero è al pavimento
+
+
+
+Risultati nel QUADERNO (voce "vz: e405"). Sacco intero: N1 0,582, N2 0,563, **N3 0,495** (forza 0,37). Parametri del sacco: θ 2280, κ 0,708, parole nuove `FormeUniche(rr, comuni=True, quattro=True, forza=0.37)`.
+
+
+
+### Dove siamo (3/10, 22:30)
+
+
+
+- Sacco di pagina: chiuso per i giudici (0,495). Disposizione: 0,533 / 0,659 con il sacco vero.
+
+- In preparazione: e406 (posti delle parole nuove dal modello; pesi della disposizione regolati sul sacco generato; versione v8 nel registro; poi banco e293 ai semi 7–9).
+
+- Dopo: materie di pagella mancate (con i valori grezzi dell'e406), ordine delle righe, nascondiglio.
