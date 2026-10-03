@@ -5574,3 +5574,33 @@ sequenza.
   - Il Voynich è anche spezzato in segmenti più corti dei controlli.
 - **Protocollo:** nessuna lettura. Verifica preregistrata nell'e217b, con 8 ripartenze, il Voynich
   rimescolato, il generatore trattato come il Voynich e metà del testo.
+
+## 3/10/2026 — e217b: il "candidato" sillabico dell'e217 è un artefatto (lo dà anche il Voynich rimescolato)
+
+- **Preregistrato**, secondo il protocollo per i candidati: 8 ripartenze, Voynich rimescolato, generatore
+  trattato come il Voynich, chiave su metà delle righe.
+- **Risultati** (punteggi; positivo e negativo dall'e217):
+
+  | lingua | positivo | Voynich (8 ripartenze) | Voynich rimescolato | generatore come il Voynich |
+  |---|---|---|---|---|
+  | cinese con toni | −4,44 | −3,27 | −3,37 | −3,75 |
+  | vietnamita | −4,07 | −3,01 | −3,03 | −3,43 |
+  | giapponese | −3,76 | −3,46 | **−3,35** | −3,69 |
+
+  - La posizione regge con 8 ripartenze (5,58; 4,37; 1,80).
+  - Il calo fuori campione è minore di quello del positivo.
+- **Esito preregistrato: artefatto in tutte e tre le lingue**, perché il Voynich non supera il proprio
+  rimescolamento.
+- **Lettura.**
+  - Il punteggio alto viene dalla distribuzione delle frequenze delle parole, non dal loro ordine:
+    - rimescolando le parole il punteggio resta lo stesso;
+    - anche il generatore senza messaggio, trattato allo stesso modo, batte di molto il testo vero
+      cifrato.
+  - Una distribuzione molto concentrata si mette sulle unità più frequenti della lingua e "sembra"
+    lingua a un modello di trigrammi.
+  - Il Voynich supera il generatore di 0,3–0,5: è la sua maggiore concentrazione sulle parole frequenti,
+    la stessa vista dal discriminatore (e231–e242).
+  - Che il calo fuori campione sia piccolo è coerente: anche le frequenze delle parole generalizzano.
+- **Lezione di metodo.** Un confronto di punteggi del modello di lingua fra testi con distribuzioni dei
+  simboli diverse non è valido. I test di decifrazione a parole devono avere sempre il controllo "testo
+  rimescolato" (e il generatore trattato allo stesso modo) **dentro** il criterio, non solo dopo.
