@@ -10607,3 +10607,18 @@ spazio sicuro / incerto / niente, secondo il segno che segue:
 - **Lettura:** lo spazio cade davanti ai segni che "aprono" una parola (*q*, *ch*, *sh*, *o*, *d*) e manca davanti a
   quelli che la continuano (*k*, *a*, *y*, *e*). È la stessa divisione delle due classi di iniziali dell'e3a41, vista dal
   lato dello spazio.
+
+## 4/10/2026 (notte) — e3a53: la catena con spazi deboli regge senza spazi incerti e senza parole corte
+
+Preregistrato (`preregistrazioni/e3a53.md`). Misura dell'e3a49 in due varianti.
+
+| variante | ρ a 10.000 parole (mediana) | soglia (massimo delle lingue) | esito |
+|---|---|---|---|
+| ZL con gli spazi incerti uniti | 0,444 | 0,392 | regge |
+| ZL senza le coppie fra parole con una parola di 1–2 segni | 0,417 | 0,333 | regge |
+
+Lingue con la stessa regola (68 testi): mediana 0,041, massimo 0,333 (toki pona tecnico), poi Corano 0,308, anglosassone
+0,279.
+
+- **Esito preregistrato: regge in tutte e due le varianti.** La somiglianza fra le coppie di segni dentro e fra le
+  parole non viene dagli spazi incerti né dalle parole cortissime spezzate.
