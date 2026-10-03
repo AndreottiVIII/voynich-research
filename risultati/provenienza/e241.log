@@ -1,0 +1,3 @@
+seme 2: AUC 0.862 tipi_su_parole_pagina 0.681 fra_le_100 0.412 uniche_nel_testo 0.120 somiglianza_vicine 0.206 lunghezza_media 4.212 | profilo {'R': 0.384, 'V': 0.354, 'F': 0.059, 'A': 0.082, 'N': 0.122}
+seme 3: AUC 0.886 tipi_su_parole_pagina 0.677 fra_le_100 0.415 uniche_nel_testo 0.116 somiglianza_vicine 0.207 lunghezza_media 4.213 | profilo {'R': 0.386, 'V': 0.352, 'F': 0.057, 'A': 0.083, 'N': 0.122}
+AUC media 0.874 | pagella 16/18 riga True mancano ['ripetizione', 'verticale'] -> non migliore
