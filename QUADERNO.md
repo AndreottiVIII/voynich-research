@@ -10536,3 +10536,21 @@ programma si è fermato dopo aver salvato i dati per un errore nella parte che s
   quattro semi) va letto con lo stesso errore.
 - **Lezione di metodo, da tenere:** tre semi danno un errore di circa 0,02 sulla media; vicino a una soglia servono una
   dozzina di chiavi. Con il messaggio nel sacco ogni chiave è un manoscritto nuovo, quindi la replica costa poco.
+
+## 4/10/2026 (notte) — e3a51: neanche il cifrario Naibbe ha il legame a distanza 2: la misura non vede un cifrario verboso
+
+Preregistrato (`preregistrazioni/e3a51.md`). Legame a distanza 2 a parità della parola in mezzo, con il nullo nella pagina
+(e3a07) e senza (e3a03).
+
+| testo | terne | E (pagina) | z | E (senza pagina) | z |
+|---|---|---|---|---|---|
+| Voynich | 26.630 | 0,0013 | 0,9 | 0,0085 | 2,9 |
+| Naibbe (cifrario di un testo latino vero) | 25.061 | 0,0010 | 1,4 | 0,0049 | 1,7 |
+| U2 | 17.671 | 0,0005 | 0,6 | −0,0008 | −0,2 |
+| U3 | 17.741 | −0,0008 | −1,0 | 0,0043 | 1,3 |
+| Timm e Schinner, semi 1 e 19 | 29.224 / 28.087 | 0,0023 / 0,0022 | 1,3 / 1,3 | 0,0030 / 0,0033 | 1,2 / 1,2 |
+
+- **Esito preregistrato: non lo vede.** Il cifrario di Naibbe, che nasconde un vero testo latino, non ha legame a
+  distanza 2 fra i segni di bordo: le parole cifrate portano poco dell'identità delle lettere nei loro segni di bordo.
+- **Conseguenza per le letture di e3a03 ed e3a07:** l'assenza del legame a distanza 2 distingue il Voynich dalle lingue
+  scritte in chiaro, ma **non** è un argomento contro un cifrario verboso di tipo Naibbe. Lo scrivo nel dossier.
