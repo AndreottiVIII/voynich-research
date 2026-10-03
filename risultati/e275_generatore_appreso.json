@@ -1,0 +1,238 @@
+{
+ "pesi": [
+  0.05470706992106364,
+  0.01315541846747947,
+  0.06012294451751302,
+  0.08167965055620753,
+  0.790334916537738
+ ],
+ "(a) campionamento puro": {
+  "verifica": [
+   {
+    "AUC_e231": 0.9985197529653955,
+    "AUC_e266": 0.9998872659543181,
+    "pagella_e224": {
+     "pagella": 8,
+     "riga": false,
+     "mancano": [
+      "omogeneità",
+      "gradiente",
+      "legame",
+      "unioni",
+      "deriva",
+      "profilo pagina",
+      "lunghezze vicine",
+      "verticale",
+      "formule",
+      "bordo di riga"
+     ]
+    },
+    "profilo": {
+     "R": 0.3341746013536767,
+     "V": 0.36167832970058506,
+     "F": 0.07508317081564758,
+     "A": 0.07508317081564758,
+     "N": 0.15398072731444304,
+     "distanza_R": 4.0,
+     "distanza_V": 2,
+     "parole": 34868
+    },
+    "R_parole_rare": 29.411764705882355,
+    "esempio": [
+     "qokedy cheo ky daiin okedaiin kchy okeed kaiin shey qokeey",
+     "qokeey okeeo daiin ytchedaiin cheoldy qoty kchold chedy okchol okey cheol",
+     "sheey otdaiin qokeedy qokeey ycheeeo ar saiin qotol chy"
+    ]
+   },
+   {
+    "AUC_e231": 0.996858151161651,
+    "AUC_e266": 0.999862758553083,
+    "pagella_e224": {
+     "pagella": 8,
+     "riga": false,
+     "mancano": [
+      "omogeneità",
+      "gradiente",
+      "legame",
+      "unioni",
+      "deriva",
+      "profilo pagina",
+      "lunghezze vicine",
+      "verticale",
+      "formule",
+      "bordo di riga"
+     ]
+    },
+    "profilo": {
+     "R": 0.33400252380406104,
+     "V": 0.35903980727314444,
+     "F": 0.07634507284616267,
+     "A": 0.0741941034759665,
+     "N": 0.15641849260066537,
+     "distanza_R": 4.0,
+     "distanza_V": 2,
+     "parole": 34868
+    },
+    "R_parole_rare": 24.577572964669738,
+    "esempio": [
+     "okedy otchdpychedy otolkar teey tary tolkal dary otchdaiin chosary oteody",
+     "chory sheodaiin oteody lair chshody cheessheolkaiin okechy aiin otchdy al ty",
+     "sheo dolky dchy qokedy dam cholkedy dy dol qokeey"
+    ]
+   },
+   {
+    "AUC_e231": 0.9964464268208999,
+    "AUC_e266": 0.9998774629938241,
+    "pagella_e224": {
+     "pagella": 9,
+     "riga": false,
+     "mancano": [
+      "omogeneità",
+      "gradiente",
+      "legame",
+      "unioni",
+      "deriva",
+      "profilo pagina",
+      "lunghezze vicine",
+      "formule",
+      "bordo di riga"
+     ]
+    },
+    "profilo": {
+     "R": 0.33704256051393827,
+     "V": 0.3585522542159,
+     "F": 0.07476769530801881,
+     "A": 0.0747390157164162,
+     "N": 0.15489847424572675,
+     "distanza_R": 4.0,
+     "distanza_V": 2.0,
+     "parole": 34868
+    },
+    "R_parole_rare": 28.703703703703702,
+    "esempio": [
+     "ycheoraiin ychedy ychedy qokain ycheechey chey qoteedy keey ol chedy",
+     "y qotedy qokeey ykeey kar oldy ar qotedy ydy kar ykaiin",
+     "cheody otam okaiin daiin otey ykeey okeedy qopchokeey ykeedy"
+    ]
+   }
+  ],
+  "pagella_media": 8.333333333333334,
+  "AUC_e231_media": 0.9972747769826488,
+  "AUC_e266_media": 0.9998758291670751
+ },
+ "(b) con scelte di riga e fine riga": {
+  "verifica": [
+   {
+    "AUC_e231": 0.9939025585726888,
+    "AUC_e266": 0.9998039407901187,
+    "pagella_e224": {
+     "pagella": 8,
+     "riga": false,
+     "mancano": [
+      "omogeneità",
+      "gradiente",
+      "legame",
+      "unioni",
+      "deriva",
+      "profilo pagina",
+      "lunghezze vicine",
+      "verticale",
+      "formule",
+      "bordo di riga"
+     ]
+    },
+    "profilo": {
+     "R": 0.3013651485602845,
+     "V": 0.37102787656303776,
+     "F": 0.0778650912011013,
+     "A": 0.08426064012848457,
+     "N": 0.1654812435470919,
+     "distanza_R": 4.0,
+     "distanza_V": 2,
+     "parole": 34868
+    },
+    "R_parole_rare": 19.112627986348123,
+    "esempio": [
+     "qotedy cheo ky daiin qokedaiin tchy oteed kaiin chey qotedaiin",
+     "shaiin otsheedy qotaiin char ar otcheor cho qotaiilcheeo shy shaiin raiin",
+     "qokedy cthdy oteeo otool qotodaiin oteedy sheo sheedaiiin chy"
+    ]
+   },
+   {
+    "AUC_e231": 0.9918292324281934,
+    "AUC_e266": 0.998019801980198,
+    "pagella_e224": {
+     "pagella": 9,
+     "riga": false,
+     "mancano": [
+      "omogeneità",
+      "gradiente",
+      "legame",
+      "unioni",
+      "deriva",
+      "profilo pagina",
+      "lunghezze vicine",
+      "formule",
+      "bordo di riga"
+     ]
+    },
+    "profilo": {
+     "R": 0.3021394975335551,
+     "V": 0.36979465412412527,
+     "F": 0.07714810141103591,
+     "A": 0.08319949523918779,
+     "N": 0.1677182516920959,
+     "distanza_R": 4,
+     "distanza_V": 2.0,
+     "parole": 34868
+    },
+    "R_parole_rare": 17.880794701986755,
+    "esempio": [
+     "qotedy otchdpysheey otolkar tedy tary tolkal dary otshdaiin chosary otolkchey",
+     "tol lty kedy tal lteol tedy tchey cholteeotchey dl otol tal",
+     "tol keey olsal od ar tol ol qotalos qotshdaiin"
+    ]
+   },
+   {
+    "AUC_e231": 0.9878835408293305,
+    "AUC_e266": 0.997568865797471,
+    "pagella_e224": {
+     "pagella": 8,
+     "riga": false,
+     "mancano": [
+      "omogeneità",
+      "gradiente",
+      "legame",
+      "unioni",
+      "deriva",
+      "profilo pagina",
+      "lunghezze vicine",
+      "verticale",
+      "formule",
+      "bordo di riga"
+     ]
+    },
+    "profilo": {
+     "R": 0.30420442812894344,
+     "V": 0.3696799357577148,
+     "F": 0.08170815647585178,
+     "A": 0.08271194218194333,
+     "N": 0.16169553745554663,
+     "distanza_R": 4,
+     "distanza_V": 2.0,
+     "parole": 34868
+    },
+    "R_parole_rare": 21.269296740994854,
+    "esempio": [
+     "ycheoraiin ycheey ychedy qokain ycheechdy chdy qokeedy kedy ol okedy",
+     "qokal tedy oteol okchey r opchdy sheor qopchol kedy sheeoraiin otalxam",
+     "tchokeedy pol okar teedy charaiin okedy kedy amom qokeod"
+    ]
+   }
+  ],
+  "pagella_media": 8.333333333333334,
+  "AUC_e231_media": 0.9912051106100709,
+  "AUC_e266_media": 0.9984642028559292
+ },
+ "esito": "non promettente"
+}
