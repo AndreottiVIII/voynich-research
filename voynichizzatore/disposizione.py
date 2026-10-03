@@ -177,6 +177,13 @@ class Disposizione:
         wc = [wcl] * nc + [w5] * 5
         wv = [0.0] * nc + [w5v] * 5
         stato = bool(wcl or w5 or w5v)
+        # e411: vicinato, cioe' somiglianza fra una parola e tutte le parole della riga sopra e della riga sotto
+        vicinato = pesi.get('vicinato', 0.0) if strato == 'D3' else 0.0
+        if vicinato:
+            estremi, k0 = [], 0
+            for _, ps in righe:
+                estremi.append((k0, k0 + len(ps)))
+                k0 += len(ps)
         riga_di = [k for k, (_, ps) in enumerate(righe) for _ in ps]
         cl = self.cl_testo or {}
         arr = [w for _, ps in righe for w in ps]
@@ -212,6 +219,14 @@ class Disposizione:
                         x += vert * sum(self.somiglianza(arr[a], arr[b]) for a, b in archi)
                     if s1:
                         x += s1 * sum(self.segni(arr[a])[0] == self.segni(arr[b])[0] for a, b in archi if primo[b])
+                if vicinato:
+                    for t in (i, j):
+                        L = riga_di[t]
+                        w = arr[t]
+                        for M in (L - 1, L + 1):
+                            if 0 <= M < len(estremi):
+                                a, b = estremi[M]
+                                x += vicinato * sum(self.somiglianza(w, arr[c]) for c in range(a, b)) / (b - a)
                 if dist2:
                     archi = set()
                     for t in (i, j):
