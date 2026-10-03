@@ -1,0 +1,15 @@
+scelta rho 0.00 seme 1: pagella 14 riga True | AUC e266 0.956 G8 0.885 | e273 -0.001 (z -0.1)
+scelta rho 0.10 seme 1: pagella 15 riga True | AUC e266 0.958 G8 0.879 | e273 -0.006 (z -0.7)
+scelta rho 0.20 seme 1: pagella 15 riga True | AUC e266 0.934 G8 0.837 | e273 +0.016 (z 1.6)
+scelta rho 0.15 seme 1: pagella 14 riga True | AUC e266 0.930 G8 0.825 | e273 +0.018 (z 1.7)
+scelta rho 0.25 seme 1: pagella 14 riga True | AUC e266 0.936 G8 0.817 | e273 +0.026 (z 2.8)
+scelta rho 0.30 seme 1: pagella 13 riga True | AUC e266 0.940 G8 0.823 | e273 +0.047 (z 5.0)
+scelta rho 0.40 seme 1: pagella 14 riga True | AUC e266 0.943 G8 0.796 | e273 +0.069 (z 7.0)
+ammessi [0.1, 0.15, 0.2, 0.25, 0.4] -> rho* 0.25
+verifica rho 0.00 seme 7: pagella 15 riga True | AUC e266 0.966 G8 0.893 | e273 +0.002 (z 0.2)
+verifica rho 0.00 seme 8: pagella 15 riga False | AUC e266 0.953 G8 0.888
+verifica rho 0.25 seme 8: pagella 13 riga True | AUC e266 0.940 G8 0.810
+verifica rho 0.25 seme 7: pagella 16 riga True | AUC e266 0.936 G8 0.827 | e273 +0.028 (z 2.9)
+verifica rho 0.00 seme 9: pagella 15 riga True | AUC e266 0.965 G8 0.888
+verifica rho 0.25 seme 9: pagella 13 riga True | AUC e266 0.916 G8 0.834
+non superato: e273 + pagella o riga
