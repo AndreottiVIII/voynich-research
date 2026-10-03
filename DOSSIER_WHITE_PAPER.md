@@ -1085,3 +1085,10 @@ gibberish umano non ha né giuntura né ripresa; i generatori pubblicati non han
 - **Il raccordo è la regola dei segni dentro la parola, applicata attraverso lo spazio** (e3a48): dentro le parole comuni davanti a *k*/*t*/*d*/*l*/*s*/*q* c'è sempre *l*, mai *r*; fra parole separate la stessa preferenza vale più morbida (71% contro 35%). Lo spazio è un confine debole dentro una catena di segni con regole proprie.
 - **Lo spazio è un confine debole, più che in ogni lingua** (e3a49): le preferenze fra l'ultimo segno di una parola e il primo della seguente ricalcano quelle fra due segni dentro la parola (ρ 0,47 a 10.000 parole) più che in tutte le 71 lingue del confronto (al massimo 0,39 in testi piccoli; di solito sotto 0,2) e nel gibberish umano (0,20). Il testo si comporta come una catena di segni con regole di sequenza proprie, in cui gli spazi sono inseriti. Regge con Takahashi (0,44) e con Glen Claston, alfabeto v101 (0,50) (e3a50).
 - **Catena con spazi deboli e riga chiusa: nessun generatore pubblicato ha tutte e due** (e3a52, e399): U3 riproduce la giuntura che ricalca le sequenze interne (0,50) ma la fa passare all'a capo; Naibbe, U2 e Timm e Schinner non hanno né l'una né l'altra.
+
+**Figura** `risultati/figure/catena_riga.png` (script `strumenti/figura_catena_riga.py`, solo risultati già registrati):
+ogni testo è un punto. In orizzontale, quanto la giuntura fra parole ricalca le sequenze dentro le parole (ρ, e3a49,
+e3a52); in verticale, quanto la giuntura passa l'a capo (Q, e384, e399). Il Voynich sta da solo in basso a destra:
+catena con spazi deboli **e** riga chiusa. Le lingue stanno a sinistra e per lo più in alto (riga aperta), con pochi
+testi a versetti vicino a Q = 0; U3 sta in alto a destra (catena ma riga aperta). Per Naibbe e per il gibberish la Q
+conta poco, perché la loro giuntura è quasi zero.
