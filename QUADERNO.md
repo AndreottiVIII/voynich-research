@@ -10631,3 +10631,20 @@ pona 0,017 e 0,007, lojban −0,276 e −0,150, tagalog −0,022 e −0,081, ita
 0,145, sanscrito −0,113 e 0,173. Nelle lingue le coppie di lettere fra parole sono indipendenti o perfino opposte a
 quelle dentro le parole. Il Voynich è l'unico in cui sono le stesse: la proprietà non è un effetto della brevità delle
 parole.
+
+## 4/10/2026 (notte) — e3a54: la catena con spazi deboli vale in tutte e due le lingue e per tutti gli scribi
+
+Preregistrato (`preregistrazioni/e3a54.md`). Misura dell'e3a49 su parti del libro (mediana di 5 sottoinsiemi da 5.000
+parole).
+
+| parte | parole | ρ (tutto) | mediana a 5.000 parole | esito |
+|---|---|---|---|---|
+| lingua A | 11.231 | 0,624 | **0,657** | regge |
+| lingua B | 23.084 | 0,437 | 0,459 | regge |
+| mano 1 | 10.481 | 0,654 | 0,628 | regge |
+| mano 2 | 10.806 | 0,383 | 0,405 | regge |
+| mano 3 | 11.703 | 0,361 | 0,416 | regge |
+
+- **Esito preregistrato: regge in tutte le parti.**
+- In lingua A (mano 1) la giuntura è più debole (e393), ma la sua forma ricalca ancora di più le sequenze dentro le
+  parole (0,66). È una proprietà del sistema di scrittura, non di una sola lingua o di un solo scriba.
