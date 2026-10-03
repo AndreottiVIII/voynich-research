@@ -10761,3 +10761,25 @@ righe e provata sulla seconda (F1 sugli spazi).
   cade nei punti dove lo scriba, per regola, mette lo spazio circa una volta su due (per esempio dopo -*r*, -*l*,
   -*s*). Lettura: lo scriba stesso lasciava spazi stretti o ambigui proprio dove la regola gli lasciava la scelta.
   È un'altra prova che lo spazio è un confine debole e regolato dai segni vicini, non un confine di significato.
+
+## 4/10/2026 (notte) — e3a59: anche la memoria di due segni passa lo spazio, ma la prova è debole
+
+Preregistrato (`preregistrazioni/e3a59.md`). ρ2 = correlazione fra la PMI condizionata delle terne di segni dentro le
+parole e a cavallo dello spazio (2+1: ultimi due segni e primo della parola dopo; 1+2: ultimo segno e primi due della
+parola dopo). Testi sensati con almeno 10 terne utilizzabili: 55 (2+1) e 57 (1+2) su 71.
+
+| ambito | Voynich (mediana di 5 × 10.000 parole) | sottoinsiemi | lingue: mediana / 90° percentile / massimo |
+|---|---|---|---|
+| 2+1 | **0,351** | 0,055 – 0,454 | 0,046 / 0,199 / 0,276 |
+| 1+2 | **0,229** | 0,208 – 0,367 | 0,032 / 0,162 / 0,207 |
+
+Gibberish umano 0,077 / 0,255; Naibbe 0,195 / 0,003; U2 −0,107 / 0,074; U3 −0,090 / 0,103; Timm e Schinner 0,072 /
+0,087.
+
+- **Esito preregistrato: memoria uguale attraverso lo spazio** (Voynich sopra tutte le lingue in entrambi gli ambiti).
+- **Ma la prova è debole**, e lo scrivo subito:
+  - le terne utilizzabili sono poche (50–90 per sottoinsieme) e i valori del Voynich cambiano molto da un sottoinsieme
+    all'altro (2+1 da 0,06 a 0,45);
+  - il gibberish umano, misurato su tutto il suo testo (più lungo di 10.000 parole), ha 1+2 = 0,26, sopra il Voynich.
+- Quindi: la memoria di un segno attraverso lo spazio (e3a49) è solida; quella di due segni va nella stessa direzione
+  ma non basta, da sola, a sostenere nulla. Nel dossier va solo come conferma secondaria.

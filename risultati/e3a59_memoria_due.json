@@ -1,0 +1,691 @@
+{
+ "altri": {
+  "Voynich": {
+   "2+1": 0.3513190472124989,
+   "1+2": 0.22947413588680995,
+   "sottoinsiemi": [
+    [
+     [
+      0.054961865438505175,
+      65
+     ],
+     [
+      0.22947413588680995,
+      81
+     ]
+    ],
+    [
+     [
+      0.4541772758229053,
+      56
+     ],
+     [
+      0.2160492139439508,
+      76
+     ]
+    ],
+    [
+     [
+      0.3513190472124989,
+      52
+     ],
+     [
+      0.2076123407109322,
+      71
+     ]
+    ],
+    [
+     [
+      0.1677158679181193,
+      55
+     ],
+     [
+      0.2889853294966744,
+      86
+     ]
+    ],
+    [
+     [
+      0.36122218825567654,
+      56
+     ],
+     [
+      0.3666682390678806,
+      86
+     ]
+    ]
+   ]
+  },
+  "gibberish umano": {
+   "2+1": 0.0772237996618457,
+   "1+2": 0.25497182779216926,
+   "celle": [
+    156,
+    221
+   ]
+  },
+  "Naibbe (Greshko 2025), a capo": {
+   "2+1": 0.19459542985063508,
+   "1+2": 0.003499682157854536,
+   "celle": [
+    49,
+    76
+   ]
+  },
+  "U2 (Whitehatnetizen 2026)": {
+   "2+1": -0.10732961031577422,
+   "1+2": 0.07374338407076121,
+   "celle": [
+    76,
+    97
+   ]
+  },
+  "U3 (Whitehatnetizen 2026)": {
+   "2+1": -0.09038646766864969,
+   "1+2": 0.1028435502326298,
+   "celle": [
+    119,
+    129
+   ]
+  },
+  "Timm e Schinner, seme 1": {
+   "2+1": 0.07206386236057447,
+   "1+2": 0.08742010895881987,
+   "celle": [
+    87,
+    105
+   ]
+  }
+ },
+ "lingue": {
+  "2+1": {
+   "testi": 55,
+   "minimo": -0.22102040816326532,
+   "mediana": 0.0457315697046033,
+   "p90": 0.19880132834374675,
+   "massimo": 0.27563025210084036,
+   "quota_sotto_il_voynich": 1.0,
+   "voynich_sopra_il_massimo": true
+  },
+  "1+2": {
+   "testi": 57,
+   "minimo": -0.25490196078431376,
+   "mediana": 0.03198862626972437,
+   "p90": 0.16232759870573626,
+   "massimo": 0.2073152611234052,
+   "quota_sotto_il_voynich": 1.0,
+   "voynich_sopra_il_massimo": true
+  }
+ },
+ "testi_sensati": {
+  "Conlangs - Esperanto - Literary - NT": {
+   "2+1": -0.11572920648742768,
+   "1+2": 0.03945823998615344,
+   "celle": [
+    127,
+    151
+   ]
+  },
+  "Conlangs - Esperanto - Technical - Voynich Wiki": {
+   "2+1": 0.0528991570694473,
+   "1+2": 0.12233285917496442,
+   "celle": [
+    36,
+    37
+   ]
+  },
+  "Conlangs - Interlingua - Literary - NT": {
+   "2+1": 0.01221645855972225,
+   "1+2": 0.17346113975440344,
+   "celle": [
+    152,
+    138
+   ]
+  },
+  "Conlangs - Interlingua - Technical - EU Wiki": {
+   "2+1": -0.06008723997519153,
+   "1+2": 0.07649036252636754,
+   "celle": [
+    142,
+    123
+   ]
+  },
+  "Conlangs - Klingon - Literary - NT - Mark": {
+   "2+1": -0.10473822193739493,
+   "1+2": 0.2073152611234052,
+   "celle": [
+    126,
+    101
+   ]
+  },
+  "Conlangs - Klingon - Technical - Proxima Centauri B Wikia": {
+   "2+1": null,
+   "1+2": null,
+   "celle": [
+    0,
+    4
+   ]
+  },
+  "Conlangs - LOLCat - Literary - NT - Matthew": {
+   "2+1": 0.27202769560338674,
+   "1+2": -0.06511481209037376,
+   "celle": [
+    98,
+    99
+   ]
+  },
+  "Conlangs - Lojban - Literary - Alice in Wonderland": {
+   "2+1": 0.03051376292339829,
+   "1+2": -0.10801422100756407,
+   "celle": [
+    61,
+    48
+   ]
+  },
+  "Conlangs - Lojban - Technical - Science News": {
+   "2+1": null,
+   "1+2": null,
+   "celle": [
+    2,
+    1
+   ]
+  },
+  "Conlangs - Neo-Quenya - Literary - NT": {
+   "2+1": 0.24099091399695638,
+   "1+2": -0.08259098227066841,
+   "celle": [
+    173,
+    150
+   ]
+  },
+  "Conlangs - Neo-Quenya - Technical - Europe-Taipei Wikia": {
+   "2+1": null,
+   "1+2": null,
+   "celle": [
+    3,
+    7
+   ]
+  },
+  "Conlangs - Toki Pona - Literary - NT - Sermon on the Mount": {
+   "2+1": -0.11470588235294117,
+   "1+2": -0.25490196078431376,
+   "celle": [
+    16,
+    17
+   ]
+  },
+  "Conlangs - Toki Pona - Technical - Turkey-Mexico Wikia": {
+   "2+1": null,
+   "1+2": -0.1824175824175824,
+   "celle": [
+    9,
+    14
+   ]
+  },
+  "Conlangs - Volapuk - Literary - NT": {
+   "2+1": -0.10012660487603746,
+   "1+2": 0.09274540243611179,
+   "celle": [
+    143,
+    159
+   ]
+  },
+  "Conlangs - Volapuk - Technical - History Wiki": {
+   "2+1": null,
+   "1+2": null,
+   "celle": [
+    7,
+    2
+   ]
+  },
+  "Historical - Anglo-Saxon - Literary - NT - Hatton Gospels": {
+   "2+1": -0.06559347929544988,
+   "1+2": 0.06489471744547647,
+   "celle": [
+    136,
+    119
+   ]
+  },
+  "Historical - Anglo-Saxon - Technical - Leechbook": {
+   "2+1": null,
+   "1+2": null,
+   "celle": [
+    0,
+    1
+   ]
+  },
+  "Historical - Arabic - Literary - Quran": {
+   "2+1": null,
+   "1+2": null,
+   "celle": [
+    4,
+    7
+   ]
+  },
+  "Historical - Arabic - Technical - Avicenna": {
+   "2+1": 0.27563025210084036,
+   "1+2": 0.03198862626972437,
+   "celle": [
+    85,
+    74
+   ]
+  },
+  "Historical - English - Literary - NT (KJV)": {
+   "2+1": 0.09731362920089923,
+   "1+2": 0.04881324067851886,
+   "celle": [
+    123,
+    93
+   ]
+  },
+  "Historical - English - Technical - Secreta Alberti": {
+   "2+1": 0.11317860968176689,
+   "1+2": 0.010658155673183435,
+   "celle": [
+    134,
+    101
+   ]
+  },
+  "Historical - Flemish - Literary - NT": {
+   "2+1": 0.014847091472171505,
+   "1+2": -0.01895554245755389,
+   "celle": [
+    118,
+    128
+   ]
+  },
+  "Historical - Flemish - Technical - Cruydeboeck": {
+   "2+1": 0.09742448105609067,
+   "1+2": 0.08890343640618541,
+   "celle": [
+    140,
+    139
+   ]
+  },
+  "Historical - French - Literary - NT - Martin": {
+   "2+1": 0.0049615953437336,
+   "1+2": 0.02100789655010047,
+   "celle": [
+    136,
+    122
+   ]
+  },
+  "Historical - German - Literary - NT - Luther": {
+   "2+1": 0.05938123047032568,
+   "1+2": 0.03785573050181017,
+   "celle": [
+    124,
+    127
+   ]
+  },
+  "Historical - German - Technical - German Herbarium": {
+   "2+1": 0.17816134200290476,
+   "1+2": 0.03034577966389969,
+   "celle": [
+    95,
+    106
+   ]
+  },
+  "Historical - Greek - Literary - NT - Textus Receptus": {
+   "2+1": -0.012169333736913479,
+   "1+2": 0.010197590711813021,
+   "celle": [
+    110,
+    122
+   ]
+  },
+  "Historical - Greek - Technical - De odoribus": {
+   "2+1": -0.10545679480617992,
+   "1+2": 0.1515151515151515,
+   "celle": [
+    17,
+    10
+   ]
+  },
+  "Historical - Italian - Literary - NT - Diodati": {
+   "2+1": 0.09470214841786162,
+   "1+2": 0.08345572678934511,
+   "celle": [
+    155,
+    174
+   ]
+  },
+  "Historical - Italian - Technical - Della Pittura": {
+   "2+1": -0.04851495469212273,
+   "1+2": 0.02000129861527379,
+   "celle": [
+    161,
+    166
+   ]
+  },
+  "Historical - Latin (Abbreviated) - Literary - NT (Vulgate)": {
+   "2+1": 0.19961511713205102,
+   "1+2": 0.020493592090897152,
+   "celle": [
+    108,
+    127
+   ]
+  },
+  "Historical - Latin (Abbreviated) - Technical - Pliny's Natural History": {
+   "2+1": -0.10384172992868647,
+   "1+2": 0.026551398608883975,
+   "celle": [
+    161,
+    182
+   ]
+  },
+  "Historical - Latin - Literary - NT (Vulgate)": {
+   "2+1": -0.07531936903485682,
+   "1+2": -0.038811591746345526,
+   "celle": [
+    184,
+    176
+   ]
+  },
+  "Historical - Latin - Technical - Pliny's Natural History": {
+   "2+1": -0.0633350010658447,
+   "1+2": 0.0416982406108979,
+   "celle": [
+    212,
+    233
+   ]
+  },
+  "Historical - Mayan (Kaqchikel) - Literary - Annals of the Cakchiquels": {
+   "2+1": 0.19048762123632854,
+   "1+2": 0.09320621375822621,
+   "celle": [
+    166,
+    150
+   ]
+  },
+  "Historical - Mayan (Yucatec) - Technical - Chilam Balam": {
+   "2+1": null,
+   "1+2": null,
+   "celle": [
+    4,
+    3
+   ]
+  },
+  "Historical - Nahuatl - Literary - Nican Mopohua": {
+   "2+1": 0.09619909502262444,
+   "1+2": 0.1553973049147755,
+   "celle": [
+    51,
+    70
+   ]
+  },
+  "Historical - Nahuatl - Technical - Florentine Codex": {
+   "2+1": 0.26449690657069186,
+   "1+2": -0.12024714828897339,
+   "celle": [
+    34,
+    37
+   ]
+  },
+  "Historical - Portuguese - Technical - Coloquios dos simples": {
+   "2+1": 0.16829460536211624,
+   "1+2": -0.07259864693631338,
+   "celle": [
+    67,
+    64
+   ]
+  },
+  "Historical - Russian - Literary - NT - Codex Marianus": {
+   "2+1": 0.1926979200859419,
+   "1+2": -0.008482571405451726,
+   "celle": [
+    93,
+    122
+   ]
+  },
+  "Historical - Sanskrit - Literary - Mahabharata": {
+   "2+1": null,
+   "1+2": null,
+   "celle": [
+    3,
+    2
+   ]
+  },
+  "Historical - Sanskrit - Technical - Charaka Samhita": {
+   "2+1": null,
+   "1+2": null,
+   "celle": [
+    0,
+    3
+   ]
+  },
+  "Historical - Spanish - Literary - NT - Sagradas Escrituras": {
+   "2+1": 0.07558779229380537,
+   "1+2": 0.021942948334355422,
+   "celle": [
+    119,
+    126
+   ]
+  },
+  "Historical - Spanish - Technical - De Materia Medica": {
+   "2+1": null,
+   "1+2": null,
+   "celle": [
+    6,
+    1
+   ]
+  },
+  "Modern - Arabic - Literary - NT": {
+   "2+1": 0.06085611464384346,
+   "1+2": 0.18887178051511758,
+   "celle": [
+    124,
+    95
+   ]
+  },
+  "Modern - Arabic - Technical - Voynich Wiki": {
+   "2+1": null,
+   "1+2": null,
+   "celle": [
+    2,
+    2
+   ]
+  },
+  "Modern - Chinese (Pinyin) - Literary - NT - Matthew": {
+   "2+1": null,
+   "1+2": null,
+   "celle": [
+    5,
+    1
+   ]
+  },
+  "Modern - Chinese (Pinyin) - Technical - Voynich Wiki": {
+   "2+1": null,
+   "1+2": null,
+   "celle": [
+    0,
+    0
+   ]
+  },
+  "Modern - English - Literary - NT": {
+   "2+1": 0.030855075524428725,
+   "1+2": -0.12110235030354939,
+   "celle": [
+    119,
+    106
+   ]
+  },
+  "Modern - English - Technical - Voynich Wiki": {
+   "2+1": 0.03337207031653184,
+   "1+2": -0.03001719846621531,
+   "celle": [
+    130,
+    119
+   ]
+  },
+  "Modern - French - Literary - NT": {
+   "2+1": 0.07073456172245077,
+   "1+2": 0.17776317513300388,
+   "celle": [
+    130,
+    113
+   ]
+  },
+  "Modern - French - Technical - Voynich Wiki": {
+   "2+1": 0.10971119357252695,
+   "1+2": -0.002296849579162624,
+   "celle": [
+    108,
+    87
+   ]
+  },
+  "Modern - German - Literary - NT": {
+   "2+1": -0.030848393772127936,
+   "1+2": 0.041963746872159896,
+   "celle": [
+    124,
+    136
+   ]
+  },
+  "Modern - German - Technical - Voynich Wiki": {
+   "2+1": -0.020477530921844164,
+   "1+2": 0.11676596835265705,
+   "celle": [
+    99,
+    112
+   ]
+  },
+  "Modern - Hebrew - Literary - NT": {
+   "2+1": 0.017310779108531918,
+   "1+2": 0.17272303939217745,
+   "celle": [
+    90,
+    109
+   ]
+  },
+  "Modern - Hebrew - Technical - Voynich Wiki": {
+   "2+1": null,
+   "1+2": null,
+   "celle": [
+    1,
+    1
+   ]
+  },
+  "Modern - Italian - Literary - NT": {
+   "2+1": -0.005085685668204835,
+   "1+2": 0.14862292176542638,
+   "celle": [
+    159,
+    172
+   ]
+  },
+  "Modern - Italian - Technical - Voynich Wiki": {
+   "2+1": 0.1975806451612903,
+   "1+2": 0.0919090428344791,
+   "celle": [
+    31,
+    61
+   ]
+  },
+  "Modern - Maori - Literary - NT": {
+   "2+1": 0.04712950633704272,
+   "1+2": 0.15158477187333788,
+   "celle": [
+    154,
+    123
+   ]
+  },
+  "Modern - Maori - Technical - Polandball Wiki": {
+   "2+1": null,
+   "1+2": 0.18181818181818182,
+   "celle": [
+    3,
+    11
+   ]
+  },
+  "Modern - Portuguese - Technical - Voynich Wiki": {
+   "2+1": 0.18384615384615385,
+   "1+2": 0.00689655172413793,
+   "celle": [
+    25,
+    30
+   ]
+  },
+  "Modern - Russian - Technical - Voynich Wiki": {
+   "2+1": 0.011146420835153083,
+   "1+2": 0.09973824696356343,
+   "celle": [
+    68,
+    82
+   ]
+  },
+  "Modern - Spanish - Technical - Voynich Wiki": {
+   "2+1": 0.043918401646773395,
+   "1+2": -0.09493532175651805,
+   "celle": [
+    119,
+    106
+   ]
+  },
+  "Modern - Swahili - Literary - NT": {
+   "2+1": 0.13857872001122695,
+   "1+2": 0.025938775628194157,
+   "celle": [
+    222,
+    184
+   ]
+  },
+  "Modern - Swahili - Technical - Lung Cancer Wiki": {
+   "2+1": -0.22102040816326532,
+   "1+2": 0.13652348875863876,
+   "celle": [
+    49,
+    70
+   ]
+  },
+  "Modern - Tagalog - Literary - NT - Ang Dating Biblia": {
+   "2+1": 0.0457315697046033,
+   "1+2": -0.06851432103853287,
+   "celle": [
+    123,
+    117
+   ]
+  },
+  "Modern - Tagalog - Technical - Tuberculosis Wiki": {
+   "2+1": -0.016791824316755168,
+   "1+2": 0.09236998057395927,
+   "celle": [
+    81,
+    82
+   ]
+  },
+  "Modern - Turkish - Literary - NT": {
+   "2+1": 0.07036946671314045,
+   "1+2": -0.0024539693422468587,
+   "celle": [
+    151,
+    117
+   ]
+  },
+  "Modern - Turkish - Technical - Middle Ages Wiki": {
+   "2+1": 0.06471306471306472,
+   "1+2": -0.2250014822279824,
+   "celle": [
+    27,
+    37
+   ]
+  },
+  "Modern - Wolof - Technical - Senegal Wiki": {
+   "2+1": 0.2692307692307692,
+   "1+2": 0.0867709815078236,
+   "celle": [
+    25,
+    37
+   ]
+  },
+  "Modern - Yoruba - Technical - Jupiter Wiki": {
+   "2+1": -0.07192118226600984,
+   "1+2": -0.06527199365637978,
+   "celle": [
+    29,
+    57
+   ]
+  }
+ },
+ "esito": "memoria uguale attraverso lo spazio"
+}
