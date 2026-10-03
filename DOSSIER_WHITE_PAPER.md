@@ -803,3 +803,16 @@ negativi; i numeri sono nei file di `risultati/`.
   appena scritte e con una rilegatura in buona parte fedele (o con un ordine per argomento).
 - **Mani 2 e 3 di Davis** (e301): distinguibili per sei abitudini fini (z 3,4), ma hanno scritto sezioni diverse e
   dentro l'erbario non si distinguono (z 1,1): più probabilmente differenze di sezione che di mano.
+
+### 15.6 Proprietà trovate la sera del 3/10 (e302–e306) e il modello del Voynich
+
+- **Le prime righe dei paragrafi sono un registro a parte** (e302): parole più lunghe di 0,42 segni (z 14,7), più *sh*
+  e meno *ch* all'inizio, più *p*, *f*, *t*, più finali in -*y*, meno in -*n* (cioè meno -*aiin*).
+- **La riga non è un'unità di copia** (e303): le parole della stessa riga si somigliano un po' **meno** di quelle della
+  riga sotto (0,965 rispetto alla distanza 1); la somiglianza cala lentamente fino a 8 righe e risale a 12–16.
+- **Errori ricorrenti vicini** (e304): le varianti rare di parole frequenti tornano in media tre volte, su pagine più
+  vicine del caso (z −5,4): la grafia dello scriba cambia nel tempo.
+- **Coppie identiche di parole lunghe** (e305): 0,94% delle coppie vicine, soprattutto *chol chol*, *qokeedy qokeedy*.
+- **Che cosa predice una parola** (modello del Voynich, pesi per massima verosimiglianza senza la pagina in esame): la
+  sezione e il **segno finale della parola precedente**, non la coppia esatta né la riga sopra; la prima parola dei
+  paragrafi è una parola nuova quasi una volta su due.
