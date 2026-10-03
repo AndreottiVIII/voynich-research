@@ -1,0 +1,36 @@
+{
+ "qo-/o-": {
+  "parola": {
+   "incertezza_tolta": 0.03452946121505185,
+   "accuratezza": 0.6306918982850385
+  },
+  "contesto": {
+   "incertezza_tolta": 0.17901487117740633,
+   "accuratezza": 0.7123989749655036
+  },
+  "insieme": {
+   "incertezza_tolta": 0.18462923827764877,
+   "accuratezza": 0.708555095604179
+  },
+  "accuratezza_base": 0.5529272619751626,
+  "eventi": 10146,
+  "esito": "in gran parte libera"
+ },
+ "-l/-r": {
+  "parola": {
+   "incertezza_tolta": 0.04952397168501632,
+   "accuratezza": 0.5968403596054813
+  },
+  "contesto": {
+   "incertezza_tolta": 0.06990170350928548,
+   "accuratezza": 0.6112420354368509
+  },
+  "insieme": {
+   "incertezza_tolta": 0.10841564063884923,
+   "accuratezza": 0.6482499781792791
+  },
+  "accuratezza_base": 0.48756218905472637,
+  "eventi": 11457,
+  "esito": "in gran parte libera"
+ }
+}

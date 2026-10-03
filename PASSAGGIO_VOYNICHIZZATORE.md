@@ -305,3 +305,4 @@ Dettagli e numeri nel `QUADERNO.md` (e373–e3a02); tutto replicato con la trasc
   la forma normale (e393). Al margine destro e nelle colonne interne niente del genere.
 - **Testi in cerchio ed etichette** usano *o*-, quasi mai *qo*- (2–5%); la giuntura nei cerchi c'è ma è fatta d'altro
   (-*r* *a*-, -*s* *a*-, -*y* *d*-).
+- **Quanto sono libere le scelte** (e3a36, e3a37): il contesto trovato più la parola tolgono solo il 18,5% dell'incertezza su *qo*-/*o*- e il 10,8% su -*l*/-*r*. Le regole di raccordo sono spinte, non obblighi: il resto della scelta è libero (spazio per un messaggio, se si rispettano le spinte).
