@@ -46,7 +46,17 @@ Il vecchio PC (i5-7200U, 2 core, 8 GB) era saturo.
 La catena di decifrazione è divisa in due code: gli esperimenti non dipendono dai risultati l'uno dell'altro
 (e223 usa solo i corpora dell'e219).
 
-## Decisione di Davide del 3/10, 15:20: metà generatore, metà decifrazione
+## Decisione di Davide del 3/10, 15:25 (sostituisce quella delle 15:20): priorità al generatore
+
+- **Generatore al primo posto:** catena e251 → e252 → e267/e268 → e253 → e254, sempre almeno un esperimento
+  in corso. Dopo ogni passo due numeri sui semi 7–9: pagella e AUC e231/e266 (riferimento e241: 15/18,
+  0,873 / 0,961).
+- **Decifrazione:** niente più prove lingua per lingua con il risolutore (troppo calcolo, rendimento
+  basso). Solo strade nuove, pratiche e leggere (test statistici, abbinamenti, generatori ibridi).
+  - e281 (prime righe, risolutore in sei lingue): **sospeso** dopo due minuti, nessun risultato.
+  - e212c (verifica dei tre candidati dell'e212b) si lascia finire: chiude i falsi candidati.
+
+## (superata) Decisione di Davide del 3/10, 15:20: metà generatore, metà decifrazione
 
 - Sempre almeno un esperimento in corso per ciascuna delle due strade.
 - **Generatore:** una catena sola, e251 → e252 → e267/e268 → e253 → e254. Dopo ogni passo si riportano due
