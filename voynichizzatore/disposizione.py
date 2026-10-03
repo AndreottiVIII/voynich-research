@@ -66,11 +66,12 @@ class Disposizione:
         M = csr_matrix((np.ones(len(ri)), (ri, co)), shape=(len(tipi), len(self.indice)))
         X = M[[riga_di[w] for _, _, ps in rr for w in ps]]
         y8 = np.array([4 * bool(ini) + posizione(j, len(ps)) for _, ini, ps in rr for j in range(len(ps))])
-        self.aff = {}
+        self.aff, self._lr = {}, {}
         for nome, y in (('D1', y8 // 4), ('D2', y8)):
             m = LogisticRegression(C=1.0, max_iter=2000).fit(X, y)
             lp = m.predict_log_proba(M)
             self.aff[nome] = ({w: lp[i] for w, i in riga_di.items()}, list(m.classes_))
+            self._lr[nome] = m
         self.sin, self.des, self.cop = Counter(), Counter(), Counter()
         self.sin_p, self.des_p, self.cop_p = defaultdict(Counter), defaultdict(Counter), defaultdict(Counter)
         self.n_p = Counter()
@@ -84,6 +85,23 @@ class Disposizione:
                 self.cop_p[p][(a, b)] += 1
                 self.n_p[p] += 1
         self.n = sum(self.n_p.values())
+
+    def conosci(self, parole):
+        """Affinita' per le parole che non sono nel testo da cui si e' imparato (e402): dai tratti, come le altre."""
+        from scipy.sparse import csr_matrix
+        nuove = sorted(set(w for w in parole if w not in self.aff['D2'][0]))
+        if not nuove:
+            return
+        ri, co = [], []
+        for i, w in enumerate(nuove):
+            for t in tratti(w, self.parti):
+                if t in self.indice:
+                    ri.append(i)
+                    co.append(self.indice[t])
+        M = csr_matrix((np.ones(len(ri)), (ri, co)), shape=(len(nuove), len(self.indice)))
+        for nome, m in self._lr.items():
+            lp = m.predict_log_proba(M)
+            self.aff[nome][0].update((w, lp[i]) for i, w in enumerate(nuove))
 
     def legame(self, a, b, pag, pesi):
         x = 0.0
@@ -155,6 +173,7 @@ class Disposizione:
     def disponi(self, rr, seme, strato, pesi=None, passate=PASSATE):
         """rr: righe (pagina, inizio paragrafo, parole) con i sacchi da disporre; stessa impaginazione in uscita."""
         rnd = random.Random(seme)
+        self.conosci(w for _, _, ps in rr for w in ps)
         per = OrderedDict()
         for p, ini, ps in rr:
             per.setdefault(p, []).append((ini, ps))
