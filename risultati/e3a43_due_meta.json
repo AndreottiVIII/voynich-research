@@ -1,0 +1,84 @@
+{
+ "pagine_per_meta": [
+  103,
+  104
+ ],
+ "prima_pagina_seconda_meta": "f53v",
+ "meta": {
+  "prima metà": {
+   "1 giuntura nella riga": {
+    "E": 0.11948240413716181,
+    "z": 43.198832240438584,
+    "regge": true
+   },
+   "2 giuntura a capo": {
+    "E": 0.0018042110811648249,
+    "z": 0.16757803496248438,
+    "regge": true
+   },
+   "3 regola di qo-": {
+    "differenza": 0.25324777731779924,
+    "p": 0.0,
+    "regge": true
+   },
+   "4 regola di -l/-r": {
+    "differenza": 0.5467610062893082,
+    "p": 0.0,
+    "regge": true
+   },
+   "5 margine sinistro": {
+    "rapporto": 0.37946663855802676,
+    "z": -5.1466574289413884,
+    "regge": true
+   },
+   "6 nessun legame a distanza 2": {
+    "E": -0.0004869551285513196,
+    "z": -0.31081536700937845,
+    "regge": true
+   },
+   "7 -m al posto di -r": {
+    "z_m": 11.09388302635639,
+    "z_r": -6.695375352014629,
+    "regge": true
+   }
+  },
+  "seconda metà": {
+   "1 giuntura nella riga": {
+    "E": 0.19250876591683655,
+    "z": 169.1628351041066,
+    "regge": true
+   },
+   "2 giuntura a capo": {
+    "E": -0.0036094857702681366,
+    "z": -0.6962993628080828,
+    "regge": true
+   },
+   "3 regola di qo-": {
+    "differenza": 0.417054401205166,
+    "p": 0.0,
+    "regge": true
+   },
+   "4 regola di -l/-r": {
+    "differenza": 0.5971572239370706,
+    "p": 0.0,
+    "regge": true
+   },
+   "5 margine sinistro": {
+    "rapporto": 0.5575664509524332,
+    "z": -5.885847984949878,
+    "regge": true
+   },
+   "6 nessun legame a distanza 2": {
+    "E": 0.002015972688066192,
+    "z": 1.0995032834407894,
+    "regge": true
+   },
+   "7 -m al posto di -r": {
+    "z_m": 24.34162519918238,
+    "z_r": -11.696982079279458,
+    "regge": true
+   }
+  }
+ },
+ "esito": "tutte le proprietà reggono in tutte e due le metà"
+}
