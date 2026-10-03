@@ -1,0 +1,104 @@
+{
+ "pagine": 183,
+ "caratteristiche": [
+  "R",
+  "V",
+  "op sostituzione",
+  "op inserzione",
+  "op cancellazione",
+  "op +e interna",
+  "op −e interna",
+  "op +q iniziale",
+  "op k→t interna",
+  "op +d iniziale",
+  "op −q iniziale",
+  "op +o iniziale",
+  "op l→r finale",
+  "op +i interna",
+  "op −i interna",
+  "scelta e interna",
+  "scelta o iniziale",
+  "scelta y finale",
+  "scelta ch iniziale",
+  "scelta d interna",
+  "scelta d iniziale",
+  "scelta q iniziale",
+  "scelta sh iniziale",
+  "scelta l finale",
+  "scelta t interna",
+  "scelta cth iniziale",
+  "scelta sh interna"
+ ],
+ "mani": {
+  "1": 101,
+  "2": 45,
+  "5": 7,
+  "3": 30
+ },
+ "strati_con_piu_mani": {
+  "B|H": {
+   "2": 20,
+   "5": 6,
+   "3": 6
+  },
+  "B|T": {
+   "5": 1,
+   "2": 4
+  }
+ },
+ "controllo positivo (lingua dentro la sezione)": {
+  "accuratezza": 0.9901639344262296,
+  "nullo": 0.7116120218579235,
+  "z": 10.33349268233135,
+  "p": 0.004975124378109453
+ },
+ "mani dentro lingua x sezione": {
+  "accuratezza": 0.7890710382513662,
+  "nullo": 0.806120218579235,
+  "z": -0.7841869732893201,
+  "p": 0.8059701492537313
+ },
+ "caratteristiche_piu_pesanti": [
+  [
+   "scelta d interna",
+   0.9017268946815256
+  ],
+  [
+   "scelta d iniziale",
+   0.7179128076623775
+  ],
+  [
+   "scelta ch iniziale",
+   0.6347107015273001
+  ],
+  [
+   "R",
+   0.5800121923916093
+  ],
+  [
+   "scelta t interna",
+   0.41138083479472354
+  ],
+  [
+   "scelta e interna",
+   0.4074860005743799
+  ],
+  [
+   "op +i interna",
+   0.4022701836587589
+  ],
+  [
+   "scelta cth iniziale",
+   0.3915444177423499
+  ],
+  [
+   "op −i interna",
+   0.37732659095930676
+  ],
+  [
+   "scelta y finale",
+   0.3413602046493059
+  ]
+ ],
+ "esito": "nessuna differenza oltre lingua e sezione"
+}
