@@ -1,0 +1,72 @@
+{
+ "pagine": 176,
+ "classi": {
+  "stesso foglio": {
+   "coppie": 97,
+   "rare_condivise": {
+    "media": 0.02051433300084104,
+    "nullo": 0.008750141779007497,
+    "z": 7.880240382357541
+   },
+   "ripresa": {
+    "media": 0.7046624430020106,
+    "nullo": 0.6293695904950407,
+    "z": 10.364944299654978
+   }
+  },
+  "stesso bifoglio, fogli diversi": {
+   "coppie": 165,
+   "rare_condivise": {
+    "media": 0.012456873580528317,
+    "nullo": 0.008680521003529961,
+    "z": 3.2292072292059375
+   },
+   "ripresa": {
+    "media": 0.7049362046265593,
+    "nullo": 0.6301460013479245,
+    "z": 13.333240610786717
+   }
+  },
+  "apertura": {
+   "coppie": 64,
+   "rare_condivise": {
+    "media": 0.00723133461838547,
+    "nullo": 0.008271185230663355,
+    "z": -0.5788043311715111
+   },
+   "ripresa": {
+    "media": 0.629288950744094,
+    "nullo": 0.6214262392219779,
+    "z": 0.8304448798847699
+   }
+  },
+  "stesso fascicolo, altro": {
+   "coppie": 887,
+   "rare_condivise": {
+    "media": 0.009790167643569742,
+    "nullo": 0.010010853521337277,
+    "z": -0.5257840441479409
+   },
+   "ripresa": {
+    "media": 0.6677124890301628,
+    "nullo": 0.6560984803801262,
+    "z": 3.8085411242774474
+   }
+  },
+  "altro fascicolo": {
+   "coppie": 6048,
+   "rare_condivise": {
+    "media": 0.004147911163470001,
+    "nullo": 0.0043962454741441085,
+    "z": -3.794397947787789
+   },
+   "ripresa": {
+    "media": 0.5372874497253214,
+    "nullo": 0.542321945334473,
+    "z": -10.312055317564049
+   }
+  }
+ },
+ "esito_rare": "il bifoglio è una sessione",
+ "esito_ripresa": "il bifoglio è una sessione"
+}
