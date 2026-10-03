@@ -9856,3 +9856,29 @@ parola uguale o a una modifica nella riga subito sopra, per terzo del paragrafo.
   stato (e3a18: -*ey* cresce, *sh* e *t* calano scendendo nel paragrafo).
 - Cautela: nel primo terzo la "riga sopra" è spesso la prima riga del paragrafo, che è speciale (parole nuove, e344;
   gallows d'apertura). Verifica senza le righe d'apertura nell'e3a20.
+
+## 4/10/2026 (notte) — e3a20: senza le righe d'apertura le derive lungo il paragrafo spariscono; resta solo -ey con l'altezza nella pagina
+
+Preregistrato (`preregistrazioni/e3a20.md`). Verifica di e3a17, e3a18 ed e3a19 togliendo le righe d'apertura.
+
+**Parte A** (senza la prima riga dei paragrafi e della pagina; IC 99,5%):
+
+| scelta | altezza nella pagina | esito | posizione nel paragrafo | esito |
+|---|---|---|---|---|
+| *sh* fra *ch*/*sh* | +0,002 | nessuna deriva | −0,032 | nessuna deriva (era −0,196) |
+| *t* fra *k*/*t* | −0,062 | nessuna deriva | −0,031 | nessuna deriva (era −0,090) |
+| *qo* fra *qo*/*o* | −0,020 | nessuna deriva | −0,030 | nessuna deriva |
+| -*r* fra -*l*/-*r* | −0,055 | nessuna deriva | +0,002 | nessuna deriva |
+| -*ey* fra -*dy*/-*ey* | **+0,139** | **cresce** | +0,027 | nessuna deriva (era +0,101) |
+
+**Parte B** (righe i ≥ 2, paragrafi di almeno 6 righe): eccesso di copia inizio +0,051, mezzo +0,041, fine +0,043;
+fine − inizio −0,007 (IC −0,029 – +0,015). **Esito: costante.**
+
+- **Correzione delle letture di e3a17, e3a18 ed e3a19:**
+  - le derive di *sh* e *t* lungo il paragrafo venivano dalla **prima riga del paragrafo** (dove *sh* e *t* abbondano,
+    con le gallows d'apertura), non da un cambiamento graduale;
+  - la crescita della copia lungo il paragrafo veniva dall'apertura: la seconda riga copia poco dalla prima, perché la
+    prima è fatta di parole nuove (e344). Dopo, la copia è costante;
+  - -*ey* cresce davvero con l'altezza nella **pagina** (anche senza la prima riga), non con la posizione nel paragrafo.
+- **Quadro corretto:** il paragrafo ha un'apertura speciale (prima riga: gallows, *sh*, *t*, parole nuove), poi è
+  stabile. L'unica deriva vera è -*ey*, che cresce scendendo nella pagina indipendentemente dai paragrafi.
