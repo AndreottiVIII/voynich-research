@@ -317,3 +317,19 @@ Risultati nel QUADERNO (voce "vz: e406"). P1 0,667 / 0,747; P2 0,670 / 0,744; **
 - Generatore intero a pezzi: fatto (v8). In corso: banco e293 della v8 sui semi 7–9 con Isidoro nascosto.
 
 - Elenco di lavoro dopo il banco: (1) legame/confine, verticale, scelte di riga, concordanza delle desinenze (pagella e cancello della riga); (2) parole nuove come unioni di parole note (unioni attestate, regolazione dei legami); (3) ordine delle righe (JSD fra le due metà); (4) nascondiglio (0,63 da solo).
+
+## 3/10/2026, 22:50 — banco della v8: 0,604 / 0,715, decodifica esatta
+
+
+
+Nel QUADERNO (voce "vz: e293, banco della v8"). v8: pagella 41/54, estesa 56/78, riga 0, AUC **0,604 / 0,715** con Isidoro nascosto (v5: 49, 57, 0, 0,816 / 0,917). I semi di verifica confermano i semi di ricerca.
+
+
+
+### Dove siamo (3/10, 22:50)
+
+
+
+- **C'è un generatore intero funzionante** (v8): testo + chiave → manoscritto → testo esatto; molto meno riconoscibile della v5 per i giudici, più debole sulla pagella.
+
+- Prossimo: capire e recuperare le materie di pagella perse, una alla volta, come termini del modello della disposizione regolati sul pannello: prima il legame (confine), poi verticale, scelte di riga, concordanza delle desinenze.

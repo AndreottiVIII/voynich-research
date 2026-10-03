@@ -8184,3 +8184,31 @@ quota in cui la parola sopra è la più frequente; nullo con le righe interne ri
   costruzione, la misura arriva appena a z 1,8–2,4. La frequenza delle parole non dice bene quale sia la fonte e quale
   la copia. Il risultato del Voynich non esclude una direzione: dice solo che questa misura non la vede. (La
   preregistrazione non aveva un criterio di validità sul controllo; lo aggiungo qui come lettura.)
+
+## 3/10/2026 — vz: e293, banco della v8 (generatore a pezzi): 0,604 / 0,715 con Isidoro nascosto, decodifica esatta; pagella 41/54
+
+
+
+Banco preregistrato dell'e293 (`esegui.py e293 -- --v8`): Isidoro XVII nascosto con la chiave "banco" nelle cinque scelte di grafia (modello v3), corpi con i semi di verifica 7, 8, 9. **Decodifica esatta nei tre manoscritti.**
+
+
+
+| versione | pagella (3 semi) | pagella estesa | riga | AUC e231 | AUC e266 |
+
+|---|---|---|---|---|---|
+
+| v5 (copia e modifica) | 49/54 | 57/78 | 0 | 0,816 | 0,917 |
+
+| **v8 (a pezzi, e400–e406)** | 41/54 | 56/78 | 0 | **0,604** | **0,715** |
+
+
+
+- Per seme (e231 / e266): seme 7 0,640 / 0,753; seme 8 0,553 / 0,653; seme 9 0,620 / 0,739. Pagella 14, 13, 14.
+
+- **Esito con il criterio dell'e293** (AUC dell'e266 almeno −0,01 a pagella estesa non inferiore): l'AUC scende di 0,20 ma la pagella estesa è 56 contro 57: **formalmente "non migliora"** per un punto di pagella estesa. Lo dichiaro così com'è: la v8 è molto meno riconoscibile dai giudici e prende meno materie delle 18 (41 contro 49).
+
+- I semi di verifica confermano i semi di ricerca (0,558 / 0,703 senza messaggio): niente effetto vincitore questa volta. Il messaggio nascosto costa circa 0,05 / 0,01, in linea con il costo del nascondiglio misurato nell'e400 (0,63 da solo sul Voynich vero).
+
+- Del Voynich vero la v8 usa l'impaginazione e le statistiche (lessico per sezione e lingua, caratteri di pagina, forme delle parole uniche, affinità ai posti, legami); trigrammi di parole in comune con il Voynich 0,7–1% (e406).
+
+- Lavoro che resta: le materie di pagella perse (legame, verticale, scelte di riga, concordanza delle desinenze, profilo pagina), il cancello della riga, il nascondiglio.
