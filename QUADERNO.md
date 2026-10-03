@@ -9882,3 +9882,24 @@ fine − inizio −0,007 (IC −0,029 – +0,015). **Esito: costante.**
   - -*ey* cresce davvero con l'altezza nella **pagina** (anche senza la prima riga), non con la posizione nel paragrafo.
 - **Quadro corretto:** il paragrafo ha un'apertura speciale (prima riga: gallows, *sh*, *t*, parole nuove), poi è
   stabile. L'unica deriva vera è -*ey*, che cresce scendendo nella pagina indipendentemente dai paragrafi.
+
+## 4/10/2026 (notte) — e3a21: la crescita di -ey scendendo nella pagina sta soprattutto nelle ricette
+
+Preregistrato (`preregistrazioni/e3a21.md`). Misura dell'e3a15 per sezione.
+
+| sezione | parole | metà bassa − metà alta | z | esito |
+|---|---|---|---|---|
+| erbario | 1.068 | +0,039 | 1,4 | non cresce |
+| biologia | 2.304 | +0,039 | 1,8 | non cresce |
+| **ricette** | 3.371 | **+0,108** | **5,7** | **cresce** |
+| farmacia | 424 | +0,006 | 0,1 | non cresce |
+| altre | 730 | −0,060 | −1,5 | non cresce |
+| erbario senza righe con salto del disegno | 607 | +0,061 | 1,7 | non cresce |
+
+- **Esito preregistrato: non dipende dai disegni** (cresce nelle ricette, dove il testo non gira intorno ai disegni).
+- Ma la crescita sta soprattutto lì: nelle ricette (pagine fitte, paragrafi brevi segnati da stelle, mano 3) è forte;
+  in erbario e biologia va nella stessa direzione sotto soglia; altrove no. La "deriva verticale" di -*ey* è quindi in
+  gran parte una proprietà delle pagine delle ricette.
+- Esplorativo a parte (scratchpad), sulle pagine "solo testo" dell'e3a06: le parole non si spezzano fra una riga e
+  l'altra (l'unione fine riga + inizio riga è una parola nota solo nello 0,5% dei casi, contro l'1,3% altrove). Il legame
+  a capo di quelle pagine resta da spiegare.
