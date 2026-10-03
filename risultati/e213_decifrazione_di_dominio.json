@@ -1,0 +1,148 @@
+{
+ "controllo positivo (latino)": {
+  "simboli": 24,
+  "obiettivo": -10.214059343639507,
+  "pagine_verifica": 94,
+  "delta": 0.10668948866621387,
+  "nullo": 0.08638333541776,
+  "z": 1.417020688949862,
+  "chiave": {
+   "u0.": "e",
+   "u1.": "e",
+   "u10.": "n",
+   "u11.": "c",
+   "u12.": "l",
+   "u13.": "d",
+   "u14.": "p",
+   "u15.": "q",
+   "u16.": "b",
+   "u17.": "f",
+   "u18.": "g",
+   "u19.": "h",
+   "u2.": "i",
+   "u20.": "x",
+   "u21.": "y",
+   "u22.": "c",
+   "u23.": "h",
+   "u3.": "u",
+   "u4.": "a",
+   "u5.": "t",
+   "u6.": "s",
+   "u7.": "r",
+   "u8.": "o",
+   "u9.": "m"
+  },
+  "esempi": {
+   "piante": [
+    "quamminimumutaturneuedomumneuead",
+    "seserecipiatadcoenamnequoeat"
+   ],
+   "ricette": [
+    "inquibusuestimentaforensiacondunturhuicrei",
+    "pauloampliorespraepararidebenteaequetabulato"
+   ],
+   "astronomia": [
+    "caloripsiusetdissoluunturcorporaetuaporantur",
+    "undeetexipsastelladiescaniculares"
+   ]
+  }
+ },
+ "Voynich ripulito": {
+  "simboli": 24,
+  "obiettivo": -11.620153095727408,
+  "pagine_verifica": 94,
+  "delta": 0.005358918747001628,
+  "nullo": -0.025363127964519876,
+  "z": 6.096929314468831,
+  "chiave": {
+   "a": "i",
+   "c": "n",
+   "cfh": "l",
+   "ch": "u",
+   "ckh": "t",
+   "cph": "b",
+   "cth": "t",
+   "d": "t",
+   "e": "r",
+   "f": "t",
+   "g": "o",
+   "h": "i",
+   "i": "n",
+   "k": "t",
+   "l": "s",
+   "m": "o",
+   "n": "a",
+   "o": "e",
+   "p": "c",
+   "q": "m",
+   "r": "d",
+   "s": "m",
+   "x": "b",
+   "y": "a"
+  },
+  "esempi": {
+   "piante": [
+    "tumauatinaesesturauislisio",
+    "trauiseseuatuesteraetetisuera"
+   ],
+   "ricette": [
+    "tesuestauetuaetedisuauetuesuesaetisatiso",
+    "uetisestaesurisuistisatisatisesuetis"
+   ],
+   "astronomia": [
+    "ecetuesminaisra",
+    "eratennaesra"
+   ]
+  }
+ },
+ "controllo negativo (generatore)": {
+  "simboli": 24,
+  "obiettivo": -11.866447410878077,
+  "pagine_verifica": 94,
+  "delta": 0.007403362349534055,
+  "nullo": 0.008800043399368131,
+  "z": -0.3421892505051692,
+  "chiave": {
+   "a": "e",
+   "c": "a",
+   "cfh": "e",
+   "ch": "i",
+   "ckh": "s",
+   "cph": "s",
+   "cth": "s",
+   "d": "r",
+   "e": "t",
+   "f": "b",
+   "g": "o",
+   "h": "i",
+   "i": "n",
+   "k": "s",
+   "l": "m",
+   "m": "r",
+   "n": "t",
+   "o": "a",
+   "p": "d",
+   "q": "i",
+   "r": "t",
+   "s": "c",
+   "u": "o",
+   "y": "u"
+  },
+  "esempi": {
+   "piante": [
+    "sudituituumiamiuiaturemiemiu",
+    "asiuitameerusamaiuiamiasituram"
+   ],
+   "ricette": [
+    "biarentiamstamituiamitemieraduiasuasatemsu",
+    "entasemamiemiaasentiemasentiasuiamentitc"
+   ],
+   "astronomia": [
+    "astaematsenturentastatu",
+    "mitatututu"
+   ]
+  }
+ },
+ "valido": false,
+ "esito": "test non valido"
+}
