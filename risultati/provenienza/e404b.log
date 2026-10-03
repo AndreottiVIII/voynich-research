@@ -1,0 +1,28 @@
+giro  0: kappa 1.000 theta 765 | JSD 0.0513 (Voynich 0.0402) | tipi su parole 0.7146 (Voynich 0.7559) | scarto massimo 0.277
+giro  1: kappa 0.746 theta 958 | JSD 0.0425 (Voynich 0.0402) | tipi su parole 0.7296 (Voynich 0.7559) | scarto massimo 0.057
+giro  2: kappa 0.698 theta 1104 | JSD 0.0406 (Voynich 0.0402) | tipi su parole 0.7366 (Voynich 0.7559) | scarto massimo 0.026
+giro  3: kappa 0.690 theta 1224 | JSD 0.0381 (Voynich 0.0402) | tipi su parole 0.7442 (Voynich 0.7559) | scarto massimo 0.051
+giro  4: kappa 0.735 theta 1303 | JSD 0.0402 (Voynich 0.0402) | tipi su parole 0.7405 (Voynich 0.7559) | scarto massimo 0.020
+giro  5: kappa 0.736 theta 1415 | JSD 0.0402 (Voynich 0.0402) | tipi su parole 0.7436 (Voynich 0.7559) | scarto massimo 0.016
+giro  6: kappa 0.737 theta 1511 | JSD 0.0412 (Voynich 0.0402) | tipi su parole 0.7420 (Voynich 0.7559) | scarto massimo 0.024
+giro  7: kappa 0.716 theta 1628 | JSD 0.0401 (Voynich 0.0402) | tipi su parole 0.7426 (Voynich 0.7559) | scarto massimo 0.018
+giro  8: kappa 0.719 theta 1748 | JSD 0.0394 (Voynich 0.0402) | tipi su parole 0.7451 (Voynich 0.7559) | scarto massimo 0.021
+giro  9: kappa 0.737 theta 1852 | JSD 0.0410 (Voynich 0.0402) | tipi su parole 0.7444 (Voynich 0.7559) | scarto massimo 0.020
+giro 10: kappa 0.720 theta 1969 | JSD 0.0412 (Voynich 0.0402) | tipi su parole 0.7483 (Voynich 0.7559) | scarto massimo 0.025
+giro 11: kappa 0.699 theta 2051 | JSD 0.0411 (Voynich 0.0402) | tipi su parole 0.7457 (Voynich 0.7559) | scarto massimo 0.022
+giro 12: kappa 0.681 theta 2166 | JSD 0.0389 (Voynich 0.0402) | tipi su parole 0.7463 (Voynich 0.7559) | scarto massimo 0.032
+giro 13: kappa 0.708 theta 2280 | JSD 0.0406 (Voynich 0.0402) | tipi su parole 0.7469 (Voynich 0.7559) | scarto massimo 0.012
+kappa scelta 0.708, theta 2280, scarto massimo 0.012, converge True
+C2 seme 3: solo sacco 0.473 {'G1': 0.47, 'G2': 0.4, 'G3': 0.65, 'JSD': 0.5}
+C2 seme 1: solo sacco 0.518 {'G1': 0.49, 'G2': 0.46, 'G3': 0.64, 'JSD': 0.49}
+C2 seme 4: solo sacco 0.461 {'G1': 0.43, 'G2': 0.38, 'G3': 0.63, 'JSD': 0.52}
+C2 seme 2: solo sacco 0.477 {'G1': 0.48, 'G2': 0.4, 'G3': 0.62, 'JSD': 0.5}
+C4 seme 1: solo sacco 0.633 {'G1': 0.62, 'G2': 0.55, 'G3': 0.62, 'JSD': 0.61}
+C4 seme 3: solo sacco 0.665 {'G1': 0.63, 'G2': 0.57, 'G3': 0.63, 'JSD': 0.62}
+C4 seme 4: solo sacco 0.605 {'G1': 0.61, 'G2': 0.55, 'G3': 0.64, 'JSD': 0.61}
+C4 seme 2: solo sacco 0.678 {'G1': 0.64, 'G2': 0.6, 'G3': 0.63, 'JSD': 0.59}
+C5 seme 1: solo sacco 0.633 {'G1': 0.62, 'G2': 0.55, 'G3': 0.62, 'JSD': 0.61} | intero e231 0.677 e266 0.786 pagella 14
+C5 seme 4: solo sacco 0.605 {'G1': 0.61, 'G2': 0.55, 'G3': 0.64, 'JSD': 0.61} | intero e231 0.684 e266 0.783 pagella 15
+C5 seme 2: solo sacco 0.678 {'G1': 0.64, 'G2': 0.6, 'G3': 0.63, 'JSD': 0.59} | intero e231 0.764 e266 0.836 pagella 14
+C5 seme 3: solo sacco 0.665 {'G1': 0.63, 'G2': 0.57, 'G3': 0.63, 'JSD': 0.62} | intero e231 0.719 e266 0.846 pagella 15
+{"C2": 0.482, "C4": 0.645, "C5": 0.645, "C5_intero": [0.711, 0.813]}
