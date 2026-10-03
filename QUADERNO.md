@@ -6342,3 +6342,18 @@ sequenza.
 - **Bilancio della strada "guidata dal contenuto":** latino (e213, non valido), cinque volgari (e223) e
   verifica del tedesco (e223b). Nessuna lettura.
 - Durata sul nuovo PC: 14 minuti con `PROCESSI=3`.
+
+## 3/10/2026 — Repliche sul nuovo PC: e269 ed e275 identiche a quelle del vecchio PC
+
+- **Perché.** e269 ed e275 sono stati eseguiti su entrambi i PC (decisione di Davide). Il vecchio li ha
+  finiti per primo e li ha committati. Le corse del nuovo PC sono in `esecuzioni/repliche/`, non
+  committate.
+- **Risultati:**
+  - **e275:** `.json` identico byte per byte;
+  - **e269:** 2.664 valori confrontati; ne differiscono 44, tutti tempi di esecuzione (campi `secondi`). Il
+    `.md` è uguale a parte i tempi. La corsa del nuovo PC aveva `PROCESSI=2`, quella del vecchio 1:
+    conferma che `PROCESSI` cambia solo il parallelismo;
+  - le impronte dei dati coincidono in tutte e due.
+- **Durate:** e269 124 min sul vecchio PC, 51 sul nuovo (con il doppio dei processi); e275 87 contro 28.
+- **e270** sul nuovo PC è stato fermato a metà, perché il vecchio l'aveva già finito: nessun confronto.
+- Da qui in poi si lavora solo sul nuovo PC (STATO_LAVORI.md).
