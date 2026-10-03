@@ -9476,3 +9476,17 @@ Semi 1–4, corpo senza messaggio; riferimento R1 dell'e408 (corpo della v10): 0
   peggiore). G2 diventa il corpo della **v11**, con il messaggio nel sacco, e va al banco.
 - **Che cosa resta per il giudice forte** (caratteristiche pesanti di G2): la differenza fra le due metà della pagina
   (JSD 0,038 contro 0,050), le coppie viste altrove (0,25 contro 0,22), alcune coppie di segni rare.
+
+## 3/10/2026 (notte) — e398 abbandonato prima della preregistrazione: la misura non va bene per le sillabe
+
+Idea: se le parole del Voynich fossero sillabe di una lingua (come nel pinyin), le coppie vicine che formano parole
+tornerebbero insieme molto più del caso. Prove sui soli controlli, prima di fissare la preregistrazione (scratchpad):
+- con il nullo dell'e375 il pinyin dà R 1,05 contro 1,27 dell'italiano. In una sillaba pinyin primo e ultimo segno
+  quasi la individuano, e quel nullo non rompe niente;
+- con un nullo libero (parole rimescolate nella pagina) il pinyin dà 1,19, contro 2,06 dell'italiano e 2,39 del
+  latino. Con poche centinaia di sillabe anche le coppie casuali tornano spesso su più pagine, e la misura satura.
+
+La misura "coppie su almeno 2 pagine" non confronta testi con inventari di dimensioni così diverse. Esperimento
+abbandonato, niente esito. Nota: il Voynich ha migliaia di tipi di parola, non poche centinaia come un sillabario.
+L'ipotesi "parola = sillaba" andrebbe quindi messa alla prova in altro modo (per esempio sulla dimensione e sulla forma
+dell'inventario), non con questa misura.
