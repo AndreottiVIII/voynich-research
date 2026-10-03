@@ -1,0 +1,3 @@
+configurazione e224 {'eta': 1.0, 'sigma': 0.0, 'lam_k': (1.5, 16), 'phi': 0.0, 'psi': 0.0, 'alfa': 1.0, 'nu': 0.4}; sigma 0.09; copia fisica True; identico all'e224: True
+scelta di gamma (seme 1): {0.05: 11, 0.1: 10} -> 0.05
+nessun miglioramento netto
