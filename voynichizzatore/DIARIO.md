@@ -467,3 +467,5 @@ Nel QUADERNO. v11 contro v10: cancello 3/3 contro 0/3, giudice forte 0,647 contr
 - Versioni verificate al banco: v10 (50/54, senza cancello, 0,550 / 0,662) e v11 (47/54, con il cancello, 0,565 / 0,647).
 
 - Prossimo pezzo (e411): località verticale, cioè righe vicine più simili fra loro di righe lontane; deve dare il gradiente e la differenza fra le due metà della pagina. Poi profilo pagina.
+
+**00:02 — e411 lanciato** (coda `vz-grad`): H1 carattere per posizione nella parola (κ e θ regolati di nuovo), H2 anche vicinato fra righe (peso regolato sul gradiente della pagella). Piano della notte, confermato a Davide: (1) e411 → v12 → banco; (2) coppie viste altrove e differenza fra le due metà della pagina (giudice forte); (3) prime righe come registro, scelte di riga a 12 classi, concordanza delle desinenze; (4) nota per la pubblicazione (che cosa va nel repo pubblico, quali file derivano dalla trascrizione, licenze da controllare) e aggiornamento del passaggio di consegne. Regole: una preregistrazione per passo, due tentativi per strada, un esperimento alla volta in misura (≤ 10 processi).
