@@ -8556,3 +8556,37 @@ Preregistrato (`preregistrazioni/e369.md`).
     errori di copiatura.
   - Con l'e357 (errori uniformi fra le sessioni): gli errori si comportano più come sbagli sparsi che come copie
     sbagliate della riga sopra.
+
+## 3/10/2026 — vz: e407, tre pezzi per la pagella: unioni, legame fra ultimo e primo segno, verticale → 0,541 / 0,659, pagella 16,5/18
+
+Chat del voynichizzatore. Preregistrato (`preregistrazioni/e407.md`). Risultati in `risultati/e407_verso_pagella.md`.
+Semi 1–4; ogni strato regola i suoi pesi sul pannello (seme 11).
+
+- **Conteggio fatto prima (proprietà del testo).** Nel Voynich l'8,8% delle coppie di parole vicine dà, unita, una
+  parola attestata; 2,7 punti vengono da parole **uniche** che sono due parole attaccate (la stessa coppia è scritta
+  una volta unita e altre volte staccata), 6,1 da parole note. L'81% delle parole uniche si legge come due parole
+  attestate unite. Nella v8 le unioni con parola unica erano 1,3 punti: per questo la regolazione dell'e406 non
+  convergeva.
+
+| strato | regolazione | AUC e231 | AUC e266 | pagella | estese | materia del pezzo |
+|---|---|---|---|---|---|---|
+| P3 dell'e406 (v8) | non converge (14%) | 0,558 | 0,703 | 13,8/18 | 4,0/8 | |
+| U1, parole nuove come unioni | converge (7%) | 0,548 | 0,659 | 15,2/18 | 4,0/8 | unione = parola unica 3,4% (Voynich 2,7%); formule 4,3 (5,2) |
+| U2, + legame fra ultimo e primo segno | converge (10%) | 0,559 | 0,673 | 16,0/18 | 3,0/8 | confine 0,177 (0,188): **legame preso in 4 semi** |
+| U3, + verticale | converge (10%) | **0,541** | **0,659** | **16,5/18** | 3,2/8 | verticale 1,029 (1,028): **presa in 4 semi** |
+
+- **Previsioni rispettate** per tutti e tre i pezzi: la regolazione converge, la materia del pezzo viene presa, i
+  giudici non peggiorano (anzi: giudice forte da 0,703 a 0,659).
+- **L'ipotesi sulle unioni era giusta:** con una parte delle parole nuove fatta di due parole note della pagina
+  attaccate, il peso dell'unione torna normale (da 2,7 a 0,7–1,2) e la regolazione converge.
+- **Pagella 16,5/18, come la v5** (16,5 sugli stessi semi), con i giudici a 0,54 / 0,66 contro 0,81 / 0,92.
+- **Che cosa manca ancora** (U3, in 4 semi su 4): profilo pagina (V3_R 0,62 contro 1,02), prime righe come registro
+  (z 2,3 contro 4,7), scelte di riga (3,5 classi contro 12), concordanza delle desinenze (0,12 contro 0,043: troppa);
+  in 2–3 semi: dispersione delle lunghezze, gradiente, parole rare per pagina (R 4,9, fascia ≤ 5), coppie viste
+  altrove (0,243 contro 0,221). Il cancello della riga resta perso in tutti i semi.
+- **Effetto collaterale da tenere d'occhio:** con le unioni il solo sacco sale da 0,523 a 0,561 (JSD
+  pagina-manoscritto 0,046 contro 0,040: le parole fatte di parole della pagina ne rafforzano il profilo).
+- **Esito secondo la preregistrazione:** i tre pezzi si tengono; U3 diventa la **v9**
+  (`voynichizzatore/pezzi_parametri_v9.json`) e va al banco.
+- **Lettura per la ricerca sul Voynich.** Tre proprietà note (unioni e227, legame e22/e152, copia verticale e228) si
+  riproducono ognuna con un termine solo, debole, e convivono: nel generatore vecchio si pestavano i piedi.

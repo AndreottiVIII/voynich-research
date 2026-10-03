@@ -170,7 +170,7 @@ def main():
     scelta = 'P3' if sintesi['P3']['AUC_e266'] <= sintesi['P2']['AUC_e266'] - 0.02 else 'P2'
     parametri = configurazione(scelta, pesi_generato)
     parametri['origine'] = 'e406, strato %s' % scelta
-    json.dump(parametri, open(os.path.join(QUI, '..', 'voynichizzatore', 'pezzi_parametri.json'), 'w', encoding='utf-8', newline='\n'), ensure_ascii=False, indent=1)
+    json.dump(parametri, open(os.path.join(QUI, '..', 'voynichizzatore', 'pezzi_parametri_v8.json'), 'w', encoding='utf-8', newline='\n'), ensure_ascii=False, indent=1)
     out = OrderedDict([('regolazione', reg), ('Voynich', voy), ('scelta', scelta), ('parametri', parametri), ('sintesi', sintesi),
                        ('per_seme', OrderedDict(('%s|%d' % a, ris[a]) for a in ris if a[0] != 'V'))])
     json.dump(out, open(os.path.join(RISULTATI, 'e406_generatore_pezzi.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1, default=float)

@@ -6,7 +6,7 @@
    uniche (parole_nuove.FormeUniche).
 2. Disposizione (disposizione.py): le parole di ogni pagina vanno nei posti secondo l'affinita' parola-posto e i legami fra
    vicine, con i pesi regolati sul pannello.
-I parametri stanno in pezzi_parametri.json (scritto dall'e406).
+I parametri di ogni versione stanno in pezzi_parametri_<versione>.json (v8: e406; v9: e407).
 """
 import json, os, sys
 from collections import OrderedDict
@@ -17,7 +17,7 @@ sys.path.insert(0, os.path.join(QUI, '..', 'analisi'))
 sys.path.insert(0, os.path.join(QUI, '..', 'esperimenti'))
 import trascrizione
 
-PARAMETRI = os.path.join(QUI, 'pezzi_parametri.json')
+PARAMETRI = os.path.join(QUI, 'pezzi_parametri_%s.json')
 _C = {}
 
 
@@ -48,8 +48,8 @@ def sacco_di(seme, x):
     return s.genera(seme, theta=x['theta'], nuove='inventate', kappa=x['kappa'], posti=x.get('posti', 'modello'))
 
 
-def corpo(seme, parametri=None):
+def corpo(seme, versione='v8', parametri=None):
     """Il manoscritto senza messaggio per il seme dato: righe (pagina, inizio paragrafo, parole)."""
-    x = parametri or json.load(open(PARAMETRI, encoding='utf-8'))
+    x = parametri or json.load(open(PARAMETRI % versione, encoding='utf-8'))
     _, d = pezzi()
     return d.disponi(sacco_di(1000003 * seme + 17, x), 1000003 * seme + 18, 'D3', pesi=x['pesi_disposizione'])
