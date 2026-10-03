@@ -1,0 +1,7 @@
+g 0.60, rho 0.5: AUC 0.992 tipi_su_parole_pagina 0.836 fra_le_100 0.375 uniche_nel_testo 0.142 somiglianza_vicine 0.172 lunghezza_media 4.132
+g 0.60, rho 0.9: AUC 0.990 tipi_su_parole_pagina 0.830 fra_le_100 0.374 uniche_nel_testo 0.148 somiglianza_vicine 0.176 lunghezza_media 4.145
+g 0.75, rho 0.5: AUC 0.976 tipi_su_parole_pagina 0.819 fra_le_100 0.402 uniche_nel_testo 0.119 somiglianza_vicine 0.170 lunghezza_media 4.116
+g 0.75, rho 0.9: AUC 0.963 tipi_su_parole_pagina 0.817 fra_le_100 0.400 uniche_nel_testo 0.123 somiglianza_vicine 0.173 lunghezza_media 4.154
+g 0.90, rho 0.5: AUC 0.967 tipi_su_parole_pagina 0.803 fra_le_100 0.431 uniche_nel_testo 0.101 somiglianza_vicine 0.174 lunghezza_media 4.143
+g 0.90, rho 0.9: AUC 0.958 tipi_su_parole_pagina 0.802 fra_le_100 0.432 uniche_nel_testo 0.102 somiglianza_vicine 0.173 lunghezza_media 4.139
+scelta g 0.90, rho 0.9: verifica AUC [0.955, 0.937] (media 0.946) | pagella 10/18, riga True, mancano ['uniche', 'omogeneità', 'gradiente', 'curva piatta', 'deriva', 'profilo pagina', 'lunghezze vicine', 'verticale'] -> non migliore
