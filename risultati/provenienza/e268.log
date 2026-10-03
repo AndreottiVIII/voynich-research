@@ -1,0 +1,14 @@
+rho 0 identico all'e241: True
+seme 1, rho 0.0: pagella 14 riga True | AUC e266 0.956 G8 0.885
+seme 1, rho 0.2: pagella 15 riga True | AUC e266 0.934 G8 0.837
+seme 1, rho 0.4: pagella 14 riga True | AUC e266 0.943 G8 0.796
+seme 1, rho 0.6: pagella 13 riga True | AUC e266 0.928 G8 0.748
+seme 1, rho 0.8: pagella 12 riga True | AUC e266 0.919 G8 0.703
+ammessi [0.2, 0.4, 0.6] -> rho* 0.6
+seme 7 rho 0.0: pagella 15 riga True mancano ['ripetizione', 'profilo pagina', 'verticale'] | AUC e231 0.887 e266 0.966 G8 0.893
+seme 7 rho 0.6: pagella 12 riga True mancano ['ripetizione', 'omogeneità', 'gradiente', 'curva piatta', 'profilo pagina', 'verticale'] | AUC e231 0.865 e266 0.921 G8 0.778
+seme 8 rho 0.0: pagella 15 riga False mancano ['spazio', 'ripetizione', 'verticale'] | AUC e231 0.854 e266 0.953 G8 0.888
+seme 8 rho 0.6: pagella 12 riga True mancano ['h2', 'spazio', 'ripetizione', 'gradiente', 'curva piatta', 'verticale'] | AUC e231 0.854 e266 0.900 G8 0.739
+seme 9 rho 0.0: pagella 15 riga True mancano ['spazio', 'ripetizione', 'verticale'] | AUC e231 0.879 e266 0.965 G8 0.888
+seme 9 rho 0.6: pagella 14 riga True mancano ['spazio', 'ripetizione', 'omogeneità', 'verticale'] | AUC e231 0.874 e266 0.924 G8 0.743
+non superato: pagella o riga
