@@ -61,3 +61,39 @@ nascondiglio.
 - Rimandato: banco e293 di v5 e v7 (dopo la scala; serve anche come controllo dell'ambiente: la v5 deve ridare
   AUC 0,816 / 0,917).
 - Prossimo passo: leggere la scala, scrivere la voce nel QUADERNO, scegliere il primo pezzo da costruire.
+
+## 3/10/2026, 20:10 — e400 finito: che cosa dice la scala
+
+Finito alle 20:02 (15 minuti). Controlli del metro validi. Tabella e dettagli nel QUADERNO (voce "vz: e400") e in
+`risultati/e400_scala_controlli.md`.
+
+**In breve (AUC dell'e266):** righe rimescolate 0,60; parole rimescolate nella riga **0,99**; nella pagina 0,998;
+ripescate con reimmissione 1,00; nascondiglio da solo sul Voynich vero **0,63**.
+
+**Le mie previsioni erano sbagliate** per i gradini O2–L1 (avevo previsto 0,60–0,95, sono tutti ≥ 0,99). Mi sono
+fermato a capire perché, guardando gruppi e caratteristiche:
+- non è un difetto del metro (V dà 0,500 esatto; i gruppi G1–G3, che non dipendono dall'ordine, restano a 0,50);
+- sono i **bordi della riga**: G4 0,98 e G7 0,93. Inizio riga con *p* 7,7% → 0,9%, con *ch* 3,6% → 16,7%, fine riga in
+  *m* 13,9% → 2,9%, prima parola più lunga. Avevo messo in conto i bordi, ma non quanto sono netti;
+- l'ordine **in mezzo** alla riga vale poco (G6 0,66).
+
+**Che cosa cambia nel modo di vedere il problema:**
+1. Il generatore vecchio a 0,82/0,92 non era "scarso": partiva da 0,99 (rimescolamento) e i suoi meccanismi di riga
+   lo portavano a 0,82. Il modello nuovo stava a 0,93/0,99 perché non aveva i bordi di riga.
+2. Il problema si divide in due parti quasi indipendenti: **quali parole stanno nella pagina** (il sacco) e **come
+   sono disposte** (prime righe, inizio e fine riga, coppie). La disposizione si può studiare da sola, con il sacco
+   vero: ha un pavimento noto (0,5–0,6) e un soffitto noto (0,998).
+3. Il nascondiglio attuale costa 0,63 da solo: da rifare, ma dopo aver capito la disposizione (riguarda l'ultimo
+   passo).
+
+**Prossimo passo deciso: e401, la disposizione.** Dato il sacco vero di ogni pagina e l'impaginazione, un modello
+imparato dal Voynich (senza la pagina in esame) decide dove va ogni parola: prime righe o altre, inizio, fine, mezzo,
+e accanto a quale parola. Si misura a strati (solo prime righe; più bordi; più coppie) contro O4, O3, O2 e O1.
+Obiettivo: arrivare vicino a O1 (0,60).
+
+### Dove siamo (3/10, 20:10)
+
+- Fatto: e400 (risultati, QUADERNO, pubblicato sul remoto).
+- In preparazione: e401 (preregistrazione e codice).
+- Da fare dopo: rifare il nascondiglio (N1 0,63); il sacco di pagina (varietà, G3, G9); banco e293 di v5/v7 come
+  controllo dell'ambiente.
