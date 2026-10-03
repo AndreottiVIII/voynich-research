@@ -9513,3 +9513,31 @@ Preregistrato (`preregistrazioni/e399.md`). Misura dell'e384 (giuntura nella rig
 - Per tutti i generatori: la giuntura del Voynich (forte, con le regole di raccordo, chiusa nella riga) è una proprietà
   che nessuno ha ancora messo nel modello. Il voynichizzatore dell'altra chat usa già i legami ai bordi; va detto che
   devono fermarsi all'a capo e al salto del disegno.
+
+## 4/10/2026 — vz: e293, banco della v11: cancello della riga preso in 3 chiavi su 3; 0,565 / 0,647; pagella 47/54
+
+
+
+Banco preregistrato dell'e293 (`esegui.py e293 -- --v11`), Isidoro XVII nel sacco, chiavi "banco7", "banco8", "banco9". **Decodifica esatta nei tre manoscritti.**
+
+
+
+| versione | pagella (3) | pagella estesa | cancello della riga | AUC e231 | AUC e266 |
+
+|---|---|---|---|---|---|
+
+| v5 | 49/54 | 57/78 | 0 | 0,816 | 0,917 |
+
+| v10 | 50/54 | 63/78 | 0 | 0,550 | 0,662 |
+
+| **v11** | 47/54 | 61/78 | **3 su 3** | 0,565 | **0,647** |
+
+
+
+- **Il cancello della riga è preso con tutte e tre le chiavi**: prima volta dal passaggio alla pagella estesa (v4–v10 lo perdevano sempre). Per chiave: 0,572 / 0,646 (pagella 16); 0,564 / 0,634 (15); 0,559 / 0,662 (16).
+
+- **Esito con il criterio dell'e293** rispetto alla v10: AUC dell'e266 −0,015 ma pagella estesa 61 contro 63: formalmente **non migliora** (perde materie). Le materie perse in tutte le chiavi sono **gradiente** e **profilo pagina** (omogeneità in una); fra le aggiunte mancano scelte di riga (3), coppie viste altrove (3), prime righe come registro (2). Parole rare per pagina: R 3,8, 1,7, 1,7 (presa).
+
+- v10 e v11 sono quindi due compromessi diversi: la v10 ha più materie (50) senza il cancello; la v11 ha il cancello e il giudice forte più basso, con tre materie in meno. Il passo seguente deve dare il gradiente senza perdere il cancello.
+
+- Valori grezzi del gradiente (corpo G2, semi 1–4): somiglianza nella riga 0,0457 (Voynich 0,0385), nella riga sotto 0,0390 (0,0399), a 6 righe 0,0266 (0,0335). Nel Voynich la somiglianza cala piano con la distanza fra righe; nel generatore le righe della pagina sono scambiabili fra loro.
