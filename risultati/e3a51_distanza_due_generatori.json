@@ -1,0 +1,53 @@
+{
+ "testi": {
+  "Voynich": {
+   "terne": 26630,
+   "E_pagina": 0.001310224099020596,
+   "z_pagina": 0.9149976803833909,
+   "E_senza_pagina": 0.008513549459144287,
+   "z_senza_pagina": 2.918022507077774,
+   "esito": "nessun legame"
+  },
+  "Naibbe (Greshko 2025), a capo": {
+   "terne": 25061,
+   "E_pagina": 0.0010209959669307822,
+   "z_pagina": 1.4158927562900636,
+   "E_senza_pagina": 0.004930702842321999,
+   "z_senza_pagina": 1.685400478279739,
+   "esito": "nessun legame"
+  },
+  "U2 (Whitehatnetizen 2026)": {
+   "terne": 17671,
+   "E_pagina": 0.000539120227254275,
+   "z_pagina": 0.6040194423248932,
+   "E_senza_pagina": -0.0007662830011981869,
+   "z_senza_pagina": -0.2337326365050647,
+   "esito": "nessun legame"
+  },
+  "U3 (Whitehatnetizen 2026)": {
+   "terne": 17741,
+   "E_pagina": -0.0008314704485067326,
+   "z_pagina": -1.044339732322718,
+   "E_senza_pagina": 0.004310172925409361,
+   "z_senza_pagina": 1.268140194577792,
+   "esito": "nessun legame"
+  },
+  "Timm e Schinner, seme 1": {
+   "terne": 29224,
+   "E_pagina": 0.0023102704910825667,
+   "z_pagina": 1.267190058939565,
+   "E_senza_pagina": 0.00300879145693822,
+   "z_senza_pagina": 1.1593348663120315,
+   "esito": "nessun legame"
+  },
+  "Timm e Schinner, seme 19": {
+   "terne": 28087,
+   "E_pagina": 0.0022273648236761368,
+   "z_pagina": 1.2662777521942234,
+   "E_senza_pagina": 0.003349937675885095,
+   "z_senza_pagina": 1.1621464890730855,
+   "esito": "nessun legame"
+  }
+ },
+ "esito": "non lo vede"
+}
