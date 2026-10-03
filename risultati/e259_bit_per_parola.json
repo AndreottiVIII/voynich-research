@@ -1,0 +1,104 @@
+{
+ "Voynich": {
+  "parole": 34863,
+  "parole_misurate": 17276,
+  "pesi_base": [
+   0.09174300581858,
+   0.0,
+   0.0,
+   0.9082569941814235
+  ],
+  "pesi_mistura": [
+   0.08756325662084206,
+   0.05530968529285249,
+   0.00870535343211156,
+   0.8484217046541809
+  ],
+  "bit_base": 11.26349301740118,
+  "bit_mistura": 11.215146950082236,
+  "riduzione": 0.04834606731894375,
+  "bit_totali_stimati": 390993.668120717
+ },
+ "Plinio XX–XXVII (latino tecnico)": {
+  "parole": 34863,
+  "parole_misurate": 17400,
+  "pesi_base": [
+   0.8116560387922186,
+   0.0,
+   0.0,
+   0.18834396120778507
+  ],
+  "pesi_mistura": [
+   0.7863810713702098,
+   0.02507844638777726,
+   0.0013276037689973319,
+   0.18721287847302148
+  ],
+  "bit_base": 15.730648565924888,
+  "bit_mistura": 15.647262200316385,
+  "riduzione": 0.08338636560850254,
+  "bit_totali_stimati": 545510.5020896301
+ },
+ "Macer floridus (versi)": {
+  "parole": 13484,
+  "parole_misurate": 6348,
+  "pesi_base": [
+   0.7939451225921985,
+   0.0,
+   0.0,
+   0.20605487740779832
+  ],
+  "pesi_mistura": [
+   0.783178171848923,
+   0.011163417384198246,
+   1.036866785745087e-10,
+   0.20565841066319143
+  ],
+  "bit_base": 14.069139861346384,
+  "bit_mistura": 14.030168577584963,
+  "riduzione": 0.03897128376142156,
+  "bit_totali_stimati": 189182.79310015563
+ },
+ "Bibbia latina": {
+  "parole": 34863,
+  "parole_misurate": 17400,
+  "pesi_base": [
+   0.8371059444109475,
+   0.0,
+   0.0,
+   0.1628940555890493
+  ],
+  "pesi_mistura": [
+   0.772022059254422,
+   0.07163128652582255,
+   0.002301279294677201,
+   0.15404537492507736
+  ],
+  "bit_base": 11.553877101374088,
+  "bit_mistura": 11.331442543561351,
+  "riduzione": 0.22243455781273624,
+  "bit_totali_stimati": 395048.0813961794
+ },
+ "Bibbia italiana": {
+  "parole": 34863,
+  "parole_misurate": 17400,
+  "pesi_base": [
+   0.8377617014241149,
+   0.0,
+   0.0,
+   0.16223829857588662
+  ],
+  "pesi_mistura": [
+   0.7993385855052835,
+   0.045645247762157885,
+   3.0045698168097144e-35,
+   0.1550161667325631
+  ],
+  "bit_base": 10.278860072237517,
+  "bit_mistura": 10.128352095045958,
+  "riduzione": 0.15050797719155895,
+  "bit_totali_stimati": 353104.73908958724
+ },
+ "lettura": "informazione per parola paragonabile a una lingua",
+ "nota": "Operativizzazione di \"molto piu'\" (fissata scrivendo il codice, prima dei risultati): riduzione almeno doppia della massima fra i testi veri."
+}
