@@ -9554,3 +9554,23 @@ e b uguale a una parola della riga sopra.
 - La direzione è quella del "guardare avanti": quando la finale della fonte non va bene per la parola che verrà, lo
   scriba la cambia. Con 26 casi però non lo considero dimostrato. Estensione con più casi nell'e3a02 (fonti dalle 2
   righe sopra).
+
+## 4/10/2026 (notte) — e3a02: lo scriba adatta la parola dopo per qo-/o-, e la fine della parola prima per -l/-r: guarda avanti
+
+Preregistrato (`preregistrazioni/e3a02.md`). Estensione dell'e3a01 e dell'e396, decisa dopo quei risultati: fonti
+cercate nelle 2 righe sopra (non indipendente da quelle prove, le allarga).
+
+| regola | coppie | conflitti | che cosa cambia | nei conflitti | negli accordi | differenza | p |
+|---|---|---|---|---|---|---|---|
+| -*l*/-*r* | 94 | 37 | finale della parola prima | **0,59** | 0,21 | +0,38 | 0,0002 |
+| *qo*-/*o*- | 189 | 60 | finale della parola prima | 0,08 | 0,02 | +0,07 | 0,03 |
+| *qo*-/*o*- | | | *qo*/*o* della parola dopo | **0,60** | 0,18 | +0,42 | < 0,0001 |
+
+- **Esito preregistrato, parte A: lo scriba guarda avanti.** Quando la finale della fonte (-*l* o -*r*) non va bene
+  per la parola che verrà dopo, lo scriba la cambia sei volte su dieci: mentre finisce una parola sa già quale sarà la
+  successiva.
+- **Esito preregistrato, parte B: si adatta la parola dopo** (conferma l'e396 con 60 conflitti).
+- **Lettura:** ogni regola agisce sul pezzo più facile da cambiare. Per *qo*-/*o*- cambia l'inizio della seconda
+  parola, per -*l*/-*r* la fine della prima. Lo scriba scrive una sequenza che conosce almeno una parola in anticipo:
+  la sta copiando, o la ha in mente prima di scriverla. Con le parole della parte A copiate dalla riga sopra, il "dopo"
+  era già scritto lì: guardare avanti qui può voler dire sapere quale parola si sta per riprendere.
