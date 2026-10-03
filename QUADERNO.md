@@ -10899,3 +10899,30 @@ modifica nella riga sopra; "lontana": lo stesso con una riga a caso della pagina
 - Da dove viene allora? Due candidati non ancora tolti dal nullo dell'e3a14: la **posizione nella riga** (la prima e
   l'ultima parola hanno forme proprie, e337, e389, e393) e il **lessico del paragrafo** (il nullo teneva la pagina, non
   il paragrafo). Prossimo: e3a65.
+
+## 4/10/2026 (notte) — e3a66: gli spazi facoltativi cambiano un poco da mano a mano (le regole di raccordo no)
+
+Preregistrato (`preregistrazioni/e3a66.md`). **Errore tecnico:** la prima esecuzione si è fermata nella tabella
+descrittiva (pagine senza lingua, confronto fra testo e valore vuoto) prima di stampare qualunque risultato; corretto
+(commit 3a3ac38) e rieseguito senza altri cambi.
+
+13.003 punti facoltativi (regola fra 0,2 e 0,8) in 195 pagine; mani con almeno 300 punti: 1, 2, 3, 5.
+
+- Eterogeneità fra le mani dentro gli strati della coppia di segni: **645,5**, contro un nullo (mani rimescolate fra
+  pagine della stessa lingua) di media 536,5 e 95° percentile 579,1; **p 0,001**.
+
+| mano | lingue | punti | scarto della quota di spazi | quota di virgole |
+|---|---|---|---|---|
+| 1 | A | 4.071 | **+0,070** | 0,088 |
+| 2 | B | 4.221 | **−0,051** | 0,077 |
+| 3 | A, B | 4.362 | −0,016 | 0,083 |
+| 5 | B | 349 | +0,004 | 0,080 |
+
+- **Esito preregistrato: ogni mano spazia a modo suo.** A parità dei segni vicini, la mano 1 mette lo spazio
+  facoltativo 7 volte su 100 più della media, la mano 2 5 volte di meno. Gli spazi dubbi (virgole) sono invece simili
+  per tutte (8–9%).
+- **Cautela:** mano e sezione vanno insieme (la mano 1 è l'erbario A, la mano 2 l'erbario B e il biologico, la mano 3
+  le stelle), quindi il test non separa "mano" da "sezione"; il nullo toglie solo la lingua.
+- **Lettura:** le regole di raccordo sono uguali per tutti (e388, e3a16), la frequenza degli spazi facoltativi no.
+  Va con l'idea che lo spazio facoltativo sia un fatto di scrittura (abitudine della mano, o del tipo di pagina) più che
+  del sistema che produce i segni. Il raccordo sta nel sistema; lo spazio, in parte, nella penna.
