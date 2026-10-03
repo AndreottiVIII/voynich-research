@@ -6072,3 +6072,24 @@ sequenza.
     per costruzione (serbatoi globali più pagine).
   - Il dato utile è un altro: le frequenti del Voynich **non** sono legate alla sezione più di quanto
     accada nelle lingue, almeno nell'erbario.
+
+## 3/10/2026 — e278: le aperture dei paragrafi non sono formule fisse (sono quasi sempre uniche)
+
+- **Preregistrato.** Coppie (prima, seconda parola) delle prime righe di paragrafo (740) contro le stesse
+  posizioni nelle altre righe (3.363), ripetute in un altro paragrafo o riga della stessa sezione.
+- **Risultati:**
+  - esatte: aperture **0,5%**, riferimento **5,5%** (rapporto 0,10);
+  - con varianti: **10,8%** contro **47,1%** (rapporto 0,23);
+  - solo due coppie d'apertura ripetute: *tshor shey* (erbario) e *polor sheedy* (stelle).
+- **Esito: nessuna formula.** Anzi, le aperture si ripetono molto meno delle altre righe.
+- **Difetto dichiarato.**
+  - Il gruppo di riferimento è 4,5 volte più grande. In un gruppo più grande è più facile trovare una
+    coppia ripetuta, quindi il confronto non è a parità di dimensione.
+  - Lo scarto osservato (10 volte) è molto più grande di quanto questo spieghi plausibilmente, ma una
+    conferma con sottocampioni della stessa dimensione (e278b) sarebbe pulita.
+- **Lettura.**
+  - Il "registro d'apertura" dell'e273 è fatto di **forme simili** (*opch-*, *qopch-*, *pch-*), non di
+    frasi ripetute.
+  - Ogni paragrafo si apre con una parola propria, quasi sempre unica (e248: 53% di parole d'apertura
+    uniche), costruita con il repertorio d'apertura.
+  - Non c'è l'appiglio di una formula fissa su cui tentare una lettura.
