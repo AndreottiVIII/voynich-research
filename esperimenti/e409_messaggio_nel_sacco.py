@@ -28,7 +28,7 @@ CHIAVI = tuple(int(x) for x in os.environ.get('CHIAVI', '1,2,3,4').split(','))
 CASI = OrderedDict([('a', 'messaggio nel sacco'), ('b', 'stesso canale, soli bit di riempimento'), ('c', 'nascondiglio vecchio sul corpo della versione di partenza')])
 if os.environ.get('CASI'):
     CASI = OrderedDict((c, CASI[c]) for c in os.environ['CASI'].split(','))
-NOME = 'e409_messaggio_nel_sacco' if CHIAVI == (1, 2, 3, 4) and len(CASI) == 3 else 'e409b_messaggio_nel_sacco_chiavi_%d_%d' % (CHIAVI[0], CHIAVI[-1])
+NOME = 'e409_messaggio_nel_sacco' if CHIAVI == (1, 2, 3, 4) and len(CASI) == 3 else 'e409b_messaggio_nel_sacco_%s_chiavi_%d_%d' % (VERSIONE, CHIAVI[0], CHIAVI[-1])
 
 
 def lavoro(args):
