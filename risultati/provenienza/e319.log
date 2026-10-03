@@ -1,0 +1,6 @@
+e319 {'fascicoli': 9, 'bifogli': 39, 'rho_profondita_asse': np.float64(-0.155), 'z_a': np.float64(-0.918), 'direzione': "il punteggio scende verso l'interno (più -aiin dentro)", 'vicini_meno_altri': np.float64(0.199), 'z_b': np.float64(1.92), 'esito': 'nessun ordine di annidamento'}
+C:\Users\davide\voynich\.venv\Lib\site-packages\numpy\lib\_function_base_impl.py:3036: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+C:\Users\davide\voynich\.venv\Lib\site-packages\numpy\lib\_function_base_impl.py:3037: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+e323 incerto -0.242 -2.0
