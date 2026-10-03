@@ -5550,3 +5550,27 @@ sequenza.
     (*tumauatinaesesturauis…*).
   - Un e213b con un controllo positivo più lungo e non ciclico, e con le sezioni dentro la stessa lingua
     di Currier, separerebbe le due cose. È da proporre a Davide.
+
+## 3/10/2026 — e217: "una parola = una sillaba" segnala un candidato, con un sospetto di difetto di disegno
+
+- **Preregistrato.** Le parole del Voynich ripulito (le 300 più frequenti) come simboli, le sillabe di
+  cinque lingue come lettere (150 unità più "altro"), risolutore omofonico con 3 ripartenze.
+- **Risultati** (posizione del Voynich fra negativo 0 e positivo 1):
+  - cinese con toni **5,55**;
+  - vietnamita **4,19**;
+  - giapponese **1,73**;
+  - cinese senza toni −18;
+  - tailandese −65.
+  - Valide 4 lingue su 5 (chiave giusta del positivo ≥ 20%).
+- **Esito preregistrato: candidato, da esaminare.**
+- **Prima di ogni lettura, il sospetto (scritto prima della verifica).**
+  - Una posizione **oltre 1** vuol dire che il Voynich decifrato è "più probabile" del testo vero
+    decifrato con la chiave giusta. Una decifrazione vera non lo fa.
+  - Il punteggio confrontato è solo quello del modello di lingua, ma i testi hanno distribuzioni dei
+    simboli diverse:
+    - i controlli sono omofonici, con simboli piatti;
+    - il Voynich ha poche parole frequentissime, che il risolutore può mettere sulle unità più
+      frequenti, compresa la classe "altro" (i "·" negli esempi: *· shang4 dou1 ye3 ·*).
+  - Il Voynich è anche spezzato in segmenti più corti dei controlli.
+- **Protocollo:** nessuna lettura. Verifica preregistrata nell'e217b, con 8 ripartenze, il Voynich
+  rimescolato, il generatore trattato come il Voynich e metà del testo.
