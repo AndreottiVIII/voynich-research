@@ -1,0 +1,2 @@
+e351 no 0.017 1.7 1
+e352 OrderedDict({'pagine': 35, 'etichette': 770, 'stessa_pagina': OrderedDict({'quota': 0.43116883116883115, 'nullo': 0.4040935064935065, 'z': 1.0816122733463052, 'esito': 'no'}), 'stesso_bifoglio': OrderedDict({'quota': 0.6194805194805195, 'nullo': 0.5960545454545455, 'z': 0.593682157144137, 'esito': 'no'})})
