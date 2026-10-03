@@ -23,7 +23,8 @@ sys.path.insert(0, os.path.join(QUI, '..', 'esperimenti'))
 import trascrizione
 
 MAX_RARA = 5
-CHIAVE = 'stretta'   # 'larga': stessi segni iniziale e finale, lunghezza qualsiasi
+CHIAVE = 'stretta'   # 'larga': stessi segni iniziale e finale, lunghezza qualsiasi; 'larga+': come 'larga' e, se manca
+                     # una compagna, stesso segno finale, poi qualsiasi parola rara della sezione
 _CL = {}
 
 
@@ -37,12 +38,15 @@ def circola(rr, kappa, seme):
     rnd = random.Random(seme * 104729 + 5)
     out = [(p, ini, list(ps)) for p, ini, ps in rr]
     cnt = Counter(w for _, _, ps in out for w in ps if trascrizione.pulita(w))
-    gruppi = defaultdict(list)
+    gruppi, riserva = defaultdict(list), defaultdict(list)
     for i, (p, _, ps) in enumerate(out):
         for j, w in enumerate(ps):
             if trascrizione.pulita(w) and 2 <= cnt[w] <= MAX_RARA:
                 u = D(w)
                 gruppi[(sez.get(p), u[0], u[-1], len(u) if CHIAVE == 'stretta' else 0)].append((i, j))
+                if CHIAVE == 'larga+':
+                    riserva[(sez.get(p), u[-1])].append((i, j))
+                    riserva[(sez.get(p),)].append((i, j))
     usati = set()
     chiavi = list(gruppi)
     rnd.shuffle(chiavi)
@@ -58,6 +62,11 @@ def circola(rr, kappa, seme):
                 cand += [x for x in gruppi.get((s, a, b, LL), ()) if x not in usati and out[x[0]][0] != p and out[x[0]][2][x[1]] != w]
                 if len(cand) >= 3:
                     break
+            if not cand and CHIAVE == 'larga+':
+                for kk in ((s, b), (s,)):
+                    cand = [x for x in riserva.get(kk, ()) if x not in usati and out[x[0]][0] != p and out[x[0]][2][x[1]] != w]
+                    if cand:
+                        break
             if not cand:
                 continue
             i2, j2 = rnd.choice(cand)
