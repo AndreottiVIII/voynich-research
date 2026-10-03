@@ -97,3 +97,31 @@ Obiettivo: arrivare vicino a O1 (0,60).
 - In preparazione: e401 (preregistrazione e codice).
 - Da fare dopo: rifare il nascondiglio (N1 0,63); il sacco di pagina (varietà, G3, G9); banco e293 di v5/v7 come
   controllo dell'ambiente.
+
+**20:08 — e401 lanciato** (coda `vz-disp`, 10 processi; preregistrazione `e108496`, codice `667df14`: `voynichizzatore/disposizione.py` + `esperimenti/e401_disposizione.py`). Previsioni scritte: D1 0,985–0,995; D2 0,70–0,85; D3 0,62–0,75. Se un gruppo resta sopra 0,70 si guarda il pannello e si aggiunge solo il fattore che manca (e401b).
+
+## 3/10/2026, 20:55 — e401: il primo lancio si è piantato (problema di calcolo, non un risultato)
+
+- **Che cosa è successo.** Lanciato alle 20:08 con 10 processi; alle 20:39 nessuno dei 13 lavori aveva scritto una
+  riga. I 10 processi consumavano circa 1,6 core ciascuno.
+- **Che cosa ho capito** (misure in un processo a parte, senza giudici):
+  - gli scambi della disposizione costano pochissimo: circa 8 microsecondi di calcolo a proposta, cioè una
+    ventina di secondi per tutto il libro a 60 passate;
+  - i tre termini del legame costano 0,3–1,5 microsecondi l'uno;
+  - quindi il tempo va nell'**addestramento dell'affinità**: la regressione logistica era su una matrice densa
+    (35.000 parole × 578 tratti) e ognuno dei 10 processi la calcolava per conto suo usando tutti i core. Dieci
+    processi che vogliono 16 core l'uno si pestano i piedi e non finiscono; rallentano anche tutto il resto della
+    macchina (le mie misure andavano 50 volte più piano in tempo d'orologio che in tempo di calcolo).
+- **Correzione** (stesso modello, stessa preregistrazione): la matrice dei tratti è ora sparsa (nove tratti per
+  parola). L'addestramento prende circa un minuto e mezzo anche a macchina carica.
+- **Bloccato:** non ho il permesso di chiudere i processi piantati del primo lancio. Finché girano occupano la CPU
+  e il file di uscita `risultati/provenienza/e401.log`. Ho chiesto a Davide di chiuderli (o di darmi il permesso).
+  Poi l'e401 si rilancia identico: `nohup bash strumenti/coda.sh vz-disp2 "PROCESSI=10:e401" > /dev/null 2>&1 &`.
+- **Lezione:** prima di lanciare in 10 processi un codice nuovo che addestra qualcosa, misurare il tempo di un
+  lavoro intero in un processo solo.
+
+### Dove siamo (3/10, 20:55)
+
+- e400 fatto e pubblicato. e401: preregistrazione e codice committati, primo lancio piantato, correzione pronta,
+  **in attesa che i processi vecchi vengano chiusi** per rilanciare. Nessun risultato dell'e401 è stato visto.
+- Dopo l'e401: nascondiglio (N1 0,63), sacco di pagina, banco v5/v7.

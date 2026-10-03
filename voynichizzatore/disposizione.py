@@ -55,11 +55,15 @@ class Disposizione:
         self.indice = {t: i for i, t in enumerate(sorted(t for t, c in cf.items() if c >= 3))}
         tipi = sorted(set(parole))
         riga_di = {w: i for i, w in enumerate(tipi)}
-        M = np.zeros((len(tipi), len(self.indice)), dtype=np.float32)
+        # matrice sparsa (nove tratti per parola): con quella densa l'addestramento, in dieci processi insieme, non finiva
+        from scipy.sparse import csr_matrix
+        ri, co = [], []
         for w, i in riga_di.items():
             for t in tratti(w, self.parti):
                 if t in self.indice:
-                    M[i, self.indice[t]] = 1.0
+                    ri.append(i)
+                    co.append(self.indice[t])
+        M = csr_matrix((np.ones(len(ri)), (ri, co)), shape=(len(tipi), len(self.indice)))
         X = M[[riga_di[w] for _, _, ps in rr for w in ps]]
         y8 = np.array([4 * bool(ini) + posizione(j, len(ps)) for _, ini, ps in rr for j in range(len(ps))])
         self.aff = {}
