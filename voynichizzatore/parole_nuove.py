@@ -93,3 +93,88 @@ class ParoleNuove:
         if x < QUOTE_MISTA[0] + QUOTE_MISTA[1]:
             return self.unione(pagina, rnd)
         return self.trigrammi(rnd)
+
+
+class FormeUniche:
+    """Forma delle parole nuove imparata sulle parole uniche (e403b): trigrammi di segni con la lunghezza controllata,
+    per tipo di posto (riga prima di paragrafo o no x prima, seconda, in mezzo, ultima), con scelta secondo il profilo
+    dei segni della pagina. rr: righe (pagina, inizio paragrafo, parole) del testo da cui si impara."""
+    DECIMO, CANDIDATE, ALFA = 0.1, 6, 50.0
+
+    def __init__(self, rr):
+        import math
+        from disposizione import posizione
+        self.log = math.log
+        self.posizione = posizione
+        conta = Counter(w for _, _, ps in rr for w in ps)
+        self.att = set(conta)
+        self.usate = set()
+        tri, lung = defaultdict(lambda: defaultdict(Counter)), defaultdict(list)
+        for _, ini, ps in rr:
+            for j, w in enumerate(ps):
+                if conta[w] == 1:
+                    u = tuple(D(w))
+                    for cl in ('tutte', 4 * bool(ini) + posizione(j, len(ps))):
+                        lung[cl].append(len(u))
+                        v = ('^', '^') + u + ('$',)
+                        for a, b, c in zip(v, v[1:], v[2:]):
+                            tri[cl][(a, b)][c] += 1
+        self.lung = dict(lung)
+        self.tri = {}
+        for cl, t in tri.items():
+            tab = {}
+            for k, v in tri['tutte'].items():
+                x = Counter({c: self.DECIMO * n for c, n in v.items()}) if cl != 'tutte' else Counter(v)
+                if cl != 'tutte':
+                    x.update(t.get(k, {}))
+                tab[k] = (sorted(x), [x[c] for c in sorted(x)])
+            self.tri[cl] = tab
+        libro = Counter(g for w, n in conta.items() if n >= 2 for g in D(w) for _ in range(n))
+        self.q_libro = {g: n / sum(libro.values()) for g, n in libro.items()}
+        self.conta = conta
+
+    def profilo(self, parole_pagina):
+        """Logaritmo del rapporto pagina / libro per ogni segno, dalle parole non uniche della pagina."""
+        c = Counter(g for w in parole_pagina if self.conta.get(w, 0) >= 2 for g in D(w))
+        n = sum(c.values())
+        return {g: self.log((c[g] + self.ALFA * q) / (n + self.ALFA) / q) for g, q in self.q_libro.items()}
+
+    def _una(self, cl, L, rnd):
+        tab = self.tri[cl]
+        vicina = None
+        for _ in range(400):
+            a, b, out = '^', '^', []
+            while len(out) <= L + 1:
+                segni, pesi = tab[(a, b)]
+                c = rnd.choices(segni, pesi)[0]
+                if c == '$':
+                    break
+                out.append(c)
+                a, b = b, c
+            w = ''.join(out)
+            if len(w) >= 2 and w not in self.att and w not in self.usate:
+                if len(out) == L:
+                    return w
+                if vicina is None or abs(len(out) - L) < abs(len(tuple(D(vicina))) - L):
+                    vicina = w
+        return vicina
+
+    def inventa(self, modo, classe, profilo, rnd):
+        """modo: 'T-L' (lunghezza), 'T-LP' (anche tipo di posto), 'T-LPS' (anche profilo della pagina)."""
+        cl = 'tutte' if modo == 'T-L' else classe
+        if cl not in self.tri:
+            cl = 'tutte'
+        cand = []
+        for _ in range(self.CANDIDATE if modo == 'T-LPS' else 1):
+            w = None
+            while w is None:
+                w = self._una(cl, rnd.choice(self.lung[cl]), rnd)
+            cand.append(w)
+        if len(cand) > 1:
+            import math
+            pesi = [math.exp(sum(profilo.get(g, 0.0) for g in D(w))) for w in cand]
+            w = rnd.choices(cand, pesi)[0]
+        else:
+            w = cand[0]
+        self.usate.add(w)
+        return w
