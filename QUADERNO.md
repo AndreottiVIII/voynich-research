@@ -10806,3 +10806,28 @@ concordano sullo spazio, 0,039 dove concordano sul non-spazio, **0,487 nei 320 p
   -*y*), per niente in altri, e "a metà" proprio dove la regola gli lasciava libertà. Cautela: la ZL e la IT non sono del
   tutto indipendenti (la ZL è nata confrontando anche le trascrizioni precedenti), ma la IT è più vecchia e non usa
   virgole, quindi il suo 65% è una decisione presa da sola.
+
+## 4/10/2026 (notte) — e3a61: il vocabolario del Voynich riempie le forme più probabili, dieci volte più delle lingue
+
+Preregistrato (`preregistrazioni/e3a61.md`). Per ogni lunghezza da 3 a 7 segni: le K sequenze più probabili per la
+catena di segni (K = numero di parole diverse attestate di quella lunghezza), elencate in modo esatto (ricerca A*,
+verificata contro l'enumerazione completa su un alfabeto piccolo). Riempimento = quota di queste che sono parole vere.
+
+| testo | riempimento | per lunghezza 3 / 4 / 5 / 6 / 7 |
+|---|---|---|
+| **Voynich** (mediana di 5 × 10.000 parole) | **0,434** (0,431–0,443) | 0,64 / 0,57 / 0,46 / 0,34 / 0,26 |
+| testi sensati | mediana 0,043; 90° percentile 0,086 | |
+| più alti fra i sensati | pinyin (Matteo) 0,539, pinyin (wiki) 0,390, toki pona 0,198, maori 0,141 | |
+| gibberish umano | 0,093 | 0,34 / 0,12 / 0,03 / 0,00 / 0,00 |
+| generatori | Naibbe 0,453, U2 0,422, U3 0,409, Timm e Schinner 0,432 | |
+
+- **Esito preregistrato: il vocabolario riempie le forme probabili più che nelle lingue** (sopra il 99% dei testi
+  sensati; dieci volte la loro mediana).
+- **Lettura:** nel Voynich quasi metà delle forme che la catena dei segni rende più probabili sono parole usate; nelle
+  lingue il 4%. Il lessico di una lingua è un campione rado delle forme possibili; quello del Voynich è quasi l'insieme
+  completo delle forme "ben fatte", come nei quattro generatori (0,41–0,45).
+- **Il caso del pinyin:** l'unico testo sensato sopra il Voynich è il cinese in pinyin, dove le "parole" sono in gran
+  parte sillabe da un inventario chiuso (combinazioni di iniziale, finale e tono). Anche nell'e3a58 il pinyin era in
+  cima. Ma nel pinyin la frequenza **non** segue la forma (e3a55: 0,045 e 0,112, contro 0,58 del Voynich) e i legami fra
+  segni attraverso lo spazio sono diversi (e3a49: −0,25). Quindi il Voynich somiglia a un inventario chiuso di forme
+  combinatorie (come un sillabario) per il riempimento, ma non per la frequenza: lì somiglia ai generatori.
