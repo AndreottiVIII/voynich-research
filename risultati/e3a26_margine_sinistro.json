@@ -1,0 +1,37 @@
+{
+ "misure": {
+  "inizio della riga a distanza 1": {
+   "eventi": [
+    57,
+    482
+   ],
+   "delta": -0.5178714420907039,
+   "z": -6.680145520592005
+  },
+  "inizio della riga a distanza 2": {
+   "eventi": [
+    110,
+    294
+   ],
+   "delta": 0.16623376623376618,
+   "z": 0.8684465077243368
+  },
+  "inizio della riga a distanza 3": {
+   "eventi": [
+    63,
+    239
+   ],
+   "delta": -0.0036527860795643186,
+   "z": -0.7891967056872723
+  },
+  "fine della riga subito sopra (V contro C)": {
+   "eventi": [
+    284,
+    269
+   ],
+   "delta": 0.059348656997748606,
+   "z": 1.2232739179812349
+  }
+ },
+ "esito": "qo- a inizio riga evita il qo- subito sopra"
+}

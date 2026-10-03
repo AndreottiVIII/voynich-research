@@ -9981,3 +9981,20 @@ Testi sensati con almeno 300 coppie, rapporto (primi 2 segni): minimo 0,36, medi
 - **Lettura:** *qo*- è normale a inizio riga (e393), ma due *qo*- uno sotto l'altro sul margine sinistro quasi non ci
   sono. L'inizio della riga potrebbe dipendere dall'**inizio** della riga sopra (sul margine), mentre non dipende dalla
   sua fine (e393). Verifica nell'e3a26.
+
+## 4/10/2026 (notte) — e3a26: a inizio riga qo- evita il qo- della riga subito sopra (margine sinistro)
+
+Preregistrato (`preregistrazioni/e3a26.md`). Prime parole *qo*/*o* + gallows, righe dalla seconda del paragrafo in poi.
+
+| condizione | eventi (sì / no) | Δ P(*qo*) | z |
+|---|---|---|---|
+| la riga subito sopra comincia con *qo*- | 57 / 482 | **−0,518** | **−6,7** |
+| la riga 2 sopra comincia con *qo*- | 110 / 294 | +0,166 | 0,9 |
+| la riga 3 sopra comincia con *qo*- | 63 / 239 | −0,004 | −0,8 |
+| la riga subito sopra finisce in -*y*/-*o*/-*d* (contro -*n*/-*r*/-*s*/-*m*) | 284 / 269 | +0,059 | 1,2 |
+
+- **Esito preregistrato: qo- a inizio riga evita il qo- subito sopra** (niente alternanza: a distanza 2, z 0,9).
+- **Lettura:** a inizio riga lo scriba guarda il margine sinistro della riga sopra, non la sua fine. Se lì c'è *qo*-,
+  scrive *o*-: due *qo*- uno sotto l'altro quasi non ci sono. A destra invece non c'è niente del genere (e3a24: nessuna
+  rima e nessun evitamento fra le parole finali). È un legame **verticale**, solo sul margine sinistro e solo con la riga
+  subito sopra, come un "non ripetere lo stesso inizio".
