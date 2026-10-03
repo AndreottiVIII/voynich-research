@@ -1,0 +1,766 @@
+{
+ "lingue": {
+  "Italian": {
+   "parole_di_dominio": {
+    "piante": 6300,
+    "ricette": 5700,
+    "astronomia": 12000
+   },
+   "controllo positivo": {
+    "simboli": 24,
+    "obiettivo": -10.001974280301066,
+    "pagine_verifica": 94,
+    "delta": 0.06833075900210801,
+    "nullo": 0.02953942053020754,
+    "z": 8.789678004317977,
+    "chiave": {
+     "u0.": "e",
+     "u1.": "i",
+     "u10.": "d",
+     "u11.": "u",
+     "u12.": "p",
+     "u13.": "m",
+     "u14.": "g",
+     "u15.": "f",
+     "u16.": "v",
+     "u17.": "b",
+     "u18.": "z",
+     "u19.": "h",
+     "u2.": "a",
+     "u20.": "q",
+     "u21.": "w",
+     "u22.": "c",
+     "u23.": "j",
+     "u3.": "o",
+     "u4.": "n",
+     "u5.": "l",
+     "u6.": "t",
+     "u7.": "r",
+     "u8.": "s",
+     "u9.": "c"
+    },
+    "esempi": {
+     "piante": [
+      "einoltresemplicenonramificatoeingrossato",
+      "allabasefoglielefoglieingenere"
+     ],
+     "ricette": [
+      "chenonsiconsideraloggettoin",
+      "movimentoilflussosaranullopertantonon"
+     ],
+     "astronomia": [
+      "terraconglielementicontiguicompiein",
+      "ungiornouninterogiroattornoai"
+     ]
+    }
+   },
+   "Voynich ripulito": {
+    "simboli": 24,
+    "obiettivo": -11.480163609371763,
+    "pagine_verifica": 94,
+    "delta": 0.004052974283695221,
+    "nullo": 0.0023909437431939664,
+    "z": 1.588762603379596,
+    "chiave": {
+     "a": "o",
+     "c": "u",
+     "cfh": "i",
+     "ch": "e",
+     "ckh": "r",
+     "cph": "i",
+     "cth": "r",
+     "d": "c",
+     "e": "d",
+     "f": "v",
+     "g": "a",
+     "h": "e",
+     "i": "s",
+     "k": "n",
+     "l": "l",
+     "m": "p",
+     "n": "t",
+     "o": "a",
+     "p": "r",
+     "q": "m",
+     "r": "t",
+     "s": "m",
+     "x": "f",
+     "y": "i"
+    },
+    "esempi": {
+     "piante": [
+      "nemieicostalalnedieoliolop",
+      "ndieolalaeicealnadianacoleadi"
+     ],
+     "ricette": [
+      "nalealvieaveianatoleieavealealianolicolp",
+      "eacolalrialedoleolnolinolinolaleanol"
+     ],
+     "astronomia": [
+      "aracealmostoldi",
+      "adicasstaldi"
+     ]
+    }
+   },
+   "controllo negativo (generatore)": {
+    "simboli": 24,
+    "obiettivo": -11.65390268181987,
+    "pagine_verifica": 94,
+    "delta": 0.004177781742656033,
+    "nullo": 0.007852572575783656,
+    "z": -1.9627611570559444,
+    "chiave": {
+     "a": "o",
+     "c": "k",
+     "cfh": "f",
+     "ch": "e",
+     "ckh": "d",
+     "cph": "f",
+     "cth": "d",
+     "d": "s",
+     "e": "r",
+     "f": "g",
+     "g": "e",
+     "h": "b",
+     "i": "n",
+     "k": "t",
+     "l": "l",
+     "m": "p",
+     "n": "e",
+     "o": "a",
+     "p": "d",
+     "q": "c",
+     "r": "c",
+     "s": "m",
+     "u": "i",
+     "y": "i"
+    },
+    "esempi": {
+     "piante": [
+      "tiderieriilealeiearisoleolei",
+      "ateieralfositalaeiealeaterisal"
+     ],
+     "ricette": [
+      "geasoneealtraleriealeroleopadieatiatacolti",
+      "oncatolaleolcaktoneeolatoneeatiealoneerm"
+     ],
+     "astronomia": [
+      "atrkolartoneisoneatrari",
+      "leraririri"
+     ]
+    }
+   }
+  },
+  "German": {
+   "parole_di_dominio": {
+    "piante": 7950,
+    "ricette": 4200,
+    "astronomia": 7800
+   },
+   "controllo positivo": {
+    "simboli": 24,
+    "obiettivo": -9.933297329377348,
+    "pagine_verifica": 94,
+    "delta": 0.123211533340818,
+    "nullo": 0.06529806393907948,
+    "z": 8.236279921644794,
+    "chiave": {
+     "u0.": "e",
+     "u1.": "n",
+     "u10.": "h",
+     "u11.": "o",
+     "u12.": "g",
+     "u13.": "b",
+     "u14.": "c",
+     "u15.": "m",
+     "u16.": "w",
+     "u17.": "f",
+     "u18.": "k",
+     "u19.": "z",
+     "u2.": "i",
+     "u20.": "p",
+     "u21.": "v",
+     "u22.": "y",
+     "u23.": "b",
+     "u3.": "r",
+     "u4.": "t",
+     "u5.": "s",
+     "u6.": "a",
+     "u7.": "l",
+     "u8.": "d",
+     "u9.": "u"
+    },
+    "esempi": {
+     "piante": [
+      "ertrageabermeistnurbeiintensiverstickstoff",
+      "dungungwahrendfurfaserproduktionimherbstgeerntet"
+     ],
+     "ricette": [
+      "olgekochtwurdeolhateinendeutlich",
+      "hoherensiedepunktalswasserdaherwerdentemperaturen"
+     ],
+     "astronomia": [
+      "blauenriesenunddersonnedateideneb",
+      "suncomparisonsvgminidieschatzungenvon"
+     ]
+    }
+   },
+   "Voynich ripulito": {
+    "simboli": 24,
+    "obiettivo": -11.49795072135052,
+    "pagine_verifica": 94,
+    "delta": -0.0007818968293193499,
+    "nullo": -0.005795260584090079,
+    "z": 4.170319242918238,
+    "chiave": {
+     "a": "a",
+     "c": "a",
+     "cfh": "j",
+     "ch": "s",
+     "ckh": "s",
+     "cph": "s",
+     "cth": "b",
+     "d": "m",
+     "e": "t",
+     "f": "o",
+     "g": "u",
+     "h": "p",
+     "i": "c",
+     "k": "n",
+     "l": "r",
+     "m": "l",
+     "n": "h",
+     "o": "e",
+     "p": "f",
+     "q": "g",
+     "r": "k",
+     "s": "d",
+     "x": "m",
+     "y": "i"
+    },
+    "esempi": {
+     "piante": [
+      "nsdisimacherernstisarjaral",
+      "ntisareresimsernetienemarseti"
+     ],
+     "ricette": [
+      "nerseroiseosienekarsiseoserserienarimarl",
+      "semarersierstarsarnarinarinarersenar"
+     ],
+     "astronomia": [
+      "efemserdacharti",
+      "etimeccherti"
+     ]
+    }
+   },
+   "controllo negativo (generatore)": {
+    "simboli": 24,
+    "obiettivo": -11.688208329980709,
+    "pagine_verifica": 94,
+    "delta": 0.0018664058044524443,
+    "nullo": 0.004843258102603754,
+    "z": -1.7943965440452851,
+    "chiave": {
+     "a": "a",
+     "c": "p",
+     "cfh": "g",
+     "ch": "s",
+     "ckh": "g",
+     "cph": "i",
+     "cth": "h",
+     "d": "m",
+     "e": "t",
+     "f": "f",
+     "g": "o",
+     "h": "o",
+     "i": "n",
+     "k": "r",
+     "l": "n",
+     "m": "u",
+     "n": "d",
+     "o": "e",
+     "p": "r",
+     "q": "b",
+     "r": "i",
+     "s": "l",
+     "u": "b",
+     "y": "e"
+    },
+    "esempi": {
+     "piante": [
+      "rerstesteensensesetemansanse",
+      "ersestengamerenesesenserstemen"
+     ],
+     "ricette": [
+      "fsemandsenrtenstesenstansaueresereereianre",
+      "anieranensanbeprandsanerandseresenandstl"
+     ],
+     "astronomia": [
+      "ertpanetrandemandertete",
+      "nstetetete"
+     ]
+    }
+   }
+  },
+  "French": {
+   "parole_di_dominio": {
+    "piante": 3750,
+    "ricette": 13650,
+    "astronomia": 11250
+   },
+   "controllo positivo": {
+    "simboli": 24,
+    "obiettivo": -10.036413406836694,
+    "pagine_verifica": 94,
+    "delta": 0.04170605811186289,
+    "nullo": -0.0038334563618762376,
+    "z": 9.456425129070785,
+    "chiave": {
+     "u0.": "e",
+     "u1.": "a",
+     "u10.": "d",
+     "u11.": "c",
+     "u12.": "p",
+     "u13.": "m",
+     "u14.": "v",
+     "u15.": "f",
+     "u16.": "g",
+     "u17.": "b",
+     "u18.": "h",
+     "u19.": "q",
+     "u2.": "s",
+     "u20.": "x",
+     "u21.": "y",
+     "u22.": "j",
+     "u23.": "k",
+     "u3.": "n",
+     "u4.": "r",
+     "u5.": "i",
+     "u6.": "t",
+     "u7.": "u",
+     "u8.": "l",
+     "u9.": "o"
+    },
+    "esempi": {
+     "piante": [
+      "nadarportraitchargedebaudelaireportraitcharge",
+      "parnadarfichierchbaudelaireautoportraitbaudelairese"
+     ],
+     "ricette": [
+      "hydromelvinquebecoisproduitsacericolesbeurred",
+      "erableeauderablesucrederable"
+     ],
+     "astronomia": [
+      "lamissionapollovignettejuilletpremierenavette",
+      "spatialeaatteindrelespaceeta"
+     ]
+    }
+   },
+   "Voynich ripulito": {
+    "simboli": 24,
+    "obiettivo": -11.5906735963118,
+    "pagine_verifica": 94,
+    "delta": 0.007584804260354222,
+    "nullo": 0.008388180507606476,
+    "z": -0.7305460801771686,
+    "chiave": {
+     "a": "a",
+     "c": "o",
+     "cfh": "v",
+     "ch": "i",
+     "ckh": "l",
+     "cph": "b",
+     "cth": "c",
+     "d": "s",
+     "e": "l",
+     "f": "d",
+     "g": "p",
+     "h": "h",
+     "i": "u",
+     "k": "t",
+     "l": "n",
+     "m": "p",
+     "n": "x",
+     "o": "e",
+     "p": "m",
+     "q": "d",
+     "r": "r",
+     "s": "s",
+     "x": "v",
+     "y": "e"
+    },
+    "esempi": {
+     "piante": [
+      "tiseiesauxenentileianvanap",
+      "tleianeneiesienteleetesaniele"
+     ],
+     "ricette": [
+      "teniendeiedieeteranieiedienieneetanesanp",
+      "iesanenleenilaniantanetanetanenietan"
+     ],
+     "astronomia": [
+      "emesiensauxanle",
+      "eleseuuxenle"
+     ]
+    }
+   },
+   "controllo negativo (generatore)": {
+    "simboli": 24,
+    "obiettivo": -11.810204133170364,
+    "pagine_verifica": 94,
+    "delta": 0.00399894812015795,
+    "nullo": 0.005443788036868756,
+    "z": -0.9850273317700476,
+    "chiave": {
+     "a": "o",
+     "c": "t",
+     "cfh": "p",
+     "ch": "e",
+     "ckh": "r",
+     "cph": "s",
+     "cth": "t",
+     "d": "s",
+     "e": "t",
+     "f": "d",
+     "g": "c",
+     "h": "i",
+     "i": "u",
+     "k": "s",
+     "l": "n",
+     "m": "n",
+     "n": "l",
+     "o": "a",
+     "p": "d",
+     "q": "r",
+     "r": "c",
+     "s": "m",
+     "u": "f",
+     "y": "e"
+    },
+    "esempi": {
+     "piante": [
+      "sedeteeteeneaneeeatesoneonee",
+      "aseeetanposesanaeeeaneasetesan"
+     ],
+     "ricette": [
+      "deasouleanstaneteeanetoneonadeeaseasaconse",
+      "oucasonaneonratsouleonasouleaseeanouletm"
+     ],
+     "astronomia": [
+      "asttonatsoulesoulastate",
+      "netatetete"
+     ]
+    }
+   }
+  },
+  "Spanish": {
+   "parole_di_dominio": {
+    "piante": 41250,
+    "ricette": 4500,
+    "astronomia": 18450
+   },
+   "controllo positivo": {
+    "simboli": 24,
+    "obiettivo": -9.89106471066464,
+    "pagine_verifica": 94,
+    "delta": 0.1459405426208769,
+    "nullo": 0.07513486800996476,
+    "z": 7.011142844322192,
+    "chiave": {
+     "u0.": "e",
+     "u1.": "a",
+     "u10.": "t",
+     "u11.": "u",
+     "u12.": "m",
+     "u13.": "p",
+     "u14.": "g",
+     "u15.": "b",
+     "u16.": "v",
+     "u17.": "f",
+     "u18.": "h",
+     "u19.": "y",
+     "u2.": "o",
+     "u20.": "q",
+     "u21.": "z",
+     "u22.": "j",
+     "u23.": "x",
+     "u3.": "s",
+     "u4.": "i",
+     "u5.": "n",
+     "u6.": "l",
+     "u7.": "r",
+     "u8.": "c",
+     "u9.": "d"
+    },
+    "esempi": {
+     "piante": [
+      "onlinegrassfloracategoriaagrostidinaecategoriaflora",
+      "delacuencamediterraneacategoriaplantasherbaceas"
+     ],
+     "ricette": [
+      "origeneindicacionesgeograficasprotegidasvinode",
+      "alicantevinoutielrequenavinodevalencia"
+     ],
+     "astronomia": [
+      "lohamoldeadoconunaformacasi",
+      "esfericaconundiametrodeaproxy"
+     ]
+    }
+   },
+   "Voynich ripulito": {
+    "simboli": 24,
+    "obiettivo": -11.736325283599454,
+    "pagine_verifica": 94,
+    "delta": -0.00760602274908565,
+    "nullo": -0.015737791543119432,
+    "z": 3.4945130651611347,
+    "chiave": {
+     "a": "e",
+     "c": "l",
+     "cfh": "l",
+     "ch": "o",
+     "ckh": "l",
+     "cph": "y",
+     "cth": "p",
+     "d": "r",
+     "e": "l",
+     "f": "d",
+     "g": "i",
+     "h": "i",
+     "i": "n",
+     "k": "l",
+     "l": "s",
+     "m": "g",
+     "n": "t",
+     "o": "a",
+     "p": "d",
+     "q": "r",
+     "r": "m",
+     "s": "c",
+     "x": "i",
+     "y": "a"
+    },
+    "esempi": {
+     "piante": [
+      "locaoarentasaslolaoesleseg",
+      "llaoesasaoaroaslalaalaresoala"
+     ],
+     "ricette": [
+      "lasoasdaoadoaalamesoaoadoasoasaalesaresg",
+      "oaresaslaasolesoeslesalesalesasoales"
+     ],
+     "astronomia": [
+      "adaroascentesla",
+      "alaranntasla"
+     ]
+    }
+   },
+   "controllo negativo (generatore)": {
+    "simboli": 24,
+    "obiettivo": -11.758489888607045,
+    "pagine_verifica": 94,
+    "delta": 0.0047508536819148425,
+    "nullo": -0.005758020812889439,
+    "z": 4.369172759119618,
+    "chiave": {
+     "a": "e",
+     "c": "i",
+     "cfh": "j",
+     "ch": "a",
+     "ckh": "n",
+     "cph": "b",
+     "cth": "i",
+     "d": "r",
+     "e": "d",
+     "f": "h",
+     "g": "g",
+     "h": "i",
+     "i": "s",
+     "k": "n",
+     "l": "l",
+     "m": "c",
+     "n": "t",
+     "o": "e",
+     "p": "m",
+     "q": "s",
+     "r": "s",
+     "s": "r",
+     "u": "f",
+     "y": "o"
+    },
+    "esempi": {
+     "piante": [
+      "nomadoadoolaelaoaedorelaelao",
+      "enaoadeljeroneleaoaelaenadorel"
+     ],
+     "ricette": [
+      "haerestaelndeladoaeladelaecemoaenoeneselno",
+      "essenelelaelseinestaelenestaenoaelestadr"
+     ],
+     "astronomia": [
+      "endielednestorestendedo",
+      "ladedododo"
+     ]
+    }
+   }
+  },
+  "Catalan": {
+   "parole_di_dominio": {
+    "piante": 9750,
+    "ricette": 23700,
+    "astronomia": 19350
+   },
+   "controllo positivo": {
+    "simboli": 24,
+    "obiettivo": -9.886172235923137,
+    "pagine_verifica": 94,
+    "delta": 0.10359605075922085,
+    "nullo": -0.003983957910724185,
+    "z": 10.09268589843579,
+    "chiave": {
+     "u0.": "e",
+     "u1.": "a",
+     "u10.": "d",
+     "u11.": "u",
+     "u12.": "m",
+     "u13.": "p",
+     "u14.": "b",
+     "u15.": "g",
+     "u16.": "f",
+     "u17.": "v",
+     "u18.": "q",
+     "u19.": "x",
+     "u2.": "s",
+     "u20.": "h",
+     "u21.": "y",
+     "u22.": "j",
+     "u23.": "z",
+     "u3.": "i",
+     "u4.": "l",
+     "u5.": "r",
+     "u6.": "n",
+     "u7.": "t",
+     "u8.": "o",
+     "u9.": "c"
+    },
+    "esempi": {
+     "piante": [
+      "iduescotiledonieslallavorocotiledonia",
+      "teunsolcalcentredelcostat"
+     ],
+     "ricette": [
+      "quemillorenlamaquinabilitatdelaliatge",
+      "tantelplomcomelsofretenen"
+     ],
+     "astronomia": [
+      "enelmovimentdelsolpodenser",
+      "lunarsfonamentatsenelmovimentdela"
+     ]
+    }
+   },
+   "Voynich ripulito": {
+    "simboli": 24,
+    "obiettivo": -11.441071613247825,
+    "pagine_verifica": 94,
+    "delta": 0.002395244213362165,
+    "nullo": 0.007688889012120987,
+    "z": -4.235488990811633,
+    "chiave": {
+     "a": "e",
+     "c": "g",
+     "cfh": "d",
+     "ch": "i",
+     "ckh": "n",
+     "cph": "u",
+     "cth": "l",
+     "d": "d",
+     "e": "c",
+     "f": "v",
+     "g": "t",
+     "h": "i",
+     "i": "s",
+     "k": "r",
+     "l": "l",
+     "m": "n",
+     "n": "t",
+     "o": "a",
+     "p": "n",
+     "q": "p",
+     "r": "m",
+     "s": "o",
+     "x": "f",
+     "y": "a"
+    },
+    "esempi": {
+     "piante": [
+      "rioaiadestalalricaieldelen",
+      "rcaielalaiadialracaaradeliaca"
+     ],
+     "ricette": [
+      "ralialvaiaviaarameliaiavialialaareladeln",
+      "iadelalnaalicelielrelarelarelaliarel"
+     ],
+     "astronomia": [
+      "anadialoestelca",
+      "acadasstalca"
+     ]
+    }
+   },
+   "controllo negativo (generatore)": {
+    "simboli": 24,
+    "obiettivo": -11.618952645632486,
+    "pagine_verifica": 94,
+    "delta": 0.000540902072050014,
+    "nullo": 0.008521344788348451,
+    "z": -3.3931384294081113,
+    "chiave": {
+     "a": "e",
+     "c": "t",
+     "cfh": "f",
+     "ch": "o",
+     "ckh": "b",
+     "cph": "f",
+     "cth": "u",
+     "d": "d",
+     "e": "r",
+     "f": "f",
+     "g": "s",
+     "h": "g",
+     "i": "l",
+     "k": "t",
+     "l": "n",
+     "m": "m",
+     "n": "s",
+     "o": "a",
+     "p": "p",
+     "q": "c",
+     "r": "s",
+     "s": "c",
+     "u": "i",
+     "y": "i"
+    },
+    "esempi": {
+     "piante": [
+      "tiporioriinoanoioaridenoenoi",
+      "atoioranfeditanaoioanoatoridan"
+     ],
+     "ricette": [
+      "foadelsoantranorioanorenoemapioatiatasenti",
+      "elsatenanoencattelsoenatelsoatioanelsorc"
+     ],
+     "astronomia": [
+      "atrtenartelsidelsatrari",
+      "noraririri"
+     ]
+    }
+   }
+  }
+ },
+ "esiti": {
+  "Italian": "nessuna lettura",
+  "German": "lettura di dominio, da esaminare",
+  "French": "nessuna lettura",
+  "Spanish": "nessuna lettura",
+  "Catalan": "nessuna lettura"
+ }
+}
