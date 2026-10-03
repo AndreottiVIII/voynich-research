@@ -6028,3 +6028,27 @@ sequenza.
   - **Esito: nessun indizio.** La *-m* finale di riga non si comporta come un segno di abbreviazione
     del copista: è una regola di fine riga del procedimento (e71, e78), non una troncatura per stare nel
     margine.
+
+## 3/10/2026 — e273: le prime righe dei paragrafi sono un registro a parte ("intestazioni")
+
+- **Preregistrato.** 659 paragrafi con almeno 3 righe.
+  - D1 = somiglianza della prima riga con le prime righe di 5 paragrafi della stessa sezione, meno
+    quella con il resto del proprio paragrafo.
+  - D2 = lo stesso per la seconda riga.
+- **Risultati:**
+  - D1 −0,015; D2 −0,062;
+  - **D1 − D2 = +0,047** (errore standard 0,010, **z 4,7**).
+- **Esito: registro di intestazione.**
+- **Parole tipiche delle prime righe** (rapporto di frequenza rispetto al resto):
+  - erbario: *opchy, pchor, opchey, opchol, qopchy*;
+  - ricette e stelle: *pchedy, qopchedy, opal, qopchey*;
+  - biologica: *opchedy, qopshedy, ofchedy*.
+- **Lettura.**
+  - Le prime righe hanno un lessico comune fra paragrafi della stessa sezione, fatto soprattutto di forme
+    con *p*/*f* e prefissi *o-*/*qo-* (*opch-*, *qopch-*).
+  - È un "registro di apertura", come le formule d'inizio delle voci di un erbario o di un ricettario,
+    oppure un'abitudine grafica d'inizio paragrafo.
+  - L'e271 dice che il gallows non è una decorazione aggiunta a parole normali: sono parole proprie
+    dell'apertura.
+  - **Per il generatore (e268):** le prime righe vanno generate da un lessico d'apertura per sezione, non
+    solo con la prima parola speciale.
