@@ -1004,3 +1004,14 @@ negativi; i numeri sono nei file di `risultati/`.
   capita il rapporto è circa 0,5–1. Vicino a zero lo hanno solo i testi in cui la riga è un versetto (Corano, Nuovo
   Testamento ebraico, Vulgata abbreviata). L'esito preregistrato, con una soglia mal scelta (minimo e massimo di testi
   piccoli), dice "come nella prosa": dichiarato.
+- **Regola di raccordo fra parole** (e380): *qo*-/*o*- davanti alle gallows dipende dall'ultimo segno della parola
+  prima (z 19,4): *qo*- dopo -*y*, -*o*, -*d* (59–64%), *o*- dopo -*n*, -*r*, -*s*, -*m* (*qo* 23–27%). -*l*/-*r*
+  finale dipende dal primo segno della parola dopo (z 12,7): -*r* davanti ad *a*- (85%), -*l* davanti a *k*-, *t*-,
+  *d*-, *l*-, *s*-, *q*- (63–86%). È la forma di una regola come *a*/*an* o la liaison (descrittivo; non dice quali
+  suoni). -*dy*/-*ey* e *ch*-/*sh*- non dipendono dal vicino.
+- **La ripresa è copia dalla riga subito sopra, non continuità del discorso** (e385): nel Voynich l'eccesso sta tutto a
+  distanza 1 (0,032, doppio delle lingue), poco a 2, zero oltre. Nelle lingue è spalmato su 3–4 righe con il massimo a
+  distanza 2. Il gibberish umano non ne ha.
+- **La giuntura vale solo fra segni scritti di seguito** (e386): si rompe al salto di un disegno dentro la riga (0,026,
+  z 1,9, contro 0,167 a parità di coppie) come all'a capo. In una lingua la grammatica passerebbe oltre il disegno. Le
+  parole dopo il salto iniziano come quelle di inizio riga (*s*, *d*, *y*).

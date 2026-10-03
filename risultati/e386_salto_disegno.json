@@ -1,0 +1,30 @@
+{
+ "tipi": {
+  "salto del disegno": {
+   "coppie": 740,
+   "E": 0.0260075883803238,
+   "z": 1.8850503272606505
+  },
+  "spazio normale": {
+   "coppie": 27442,
+   "E": 0.16514310311388722,
+   "z": 191.72232114382948
+  },
+  "spazio incerto": {
+   "coppie": 2436,
+   "E": 0.5067100193817116,
+   "z": 81.68515860285655
+  },
+  "a capo": {
+   "coppie": 3337,
+   "E": -0.0024286837361700633,
+   "z": -0.6322578741859017
+  }
+ },
+ "E_a_parita_di_coppie": {
+  "spazio normale": 0.16741275110974033,
+  "a capo": -0.004637588399101764
+ },
+ "Q_salto": 0.15535010450473768,
+ "esito": "si rompe anche al disegno: dipende dal gesto continuo"
+}
