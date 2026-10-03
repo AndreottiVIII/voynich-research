@@ -7032,3 +7032,22 @@ con i semi di verifica 7, 8, 9. **Decodifica esatta in tutti e nove i manoscritt
   pagina (G3) e le coppie identiche (G6: 0,0205 contro 0,0097).
 - Giri in corso: 7 (più lessico globale, circolazione leggera), 8 (*p*/*f* nelle prime righe, ripetizioni, lunghezze),
   9 (tema della pagina θ e varianti della parola precedente χ, contro il gradiente e A).
+
+## 3/10/2026 — Ciclo avversario, giro 7: nasce la v6 (v5 + penalità per le ripetizioni più forte)
+
+`voynichizzatore/prova_v7.py`, dalla v5, semi di ricerca 1–2 (somme):
+
+| configurazione | pagella | estese | totale | riga | AUC e231 | AUC e266 |
+|---|---|---|---|---|---|---|
+| v5 | 33 | 6 | 39 | 0 | 0,816 | 0,923 |
+| δ 0,3 | 31 | 6 | 37 | 0 | 0,811 | 0,921 |
+| δ 0,4 | 32 | 5 | 37 | 0 | 0,794 | 0,919 |
+| + circola pos 0,5 | 32 | 5 | 37 | 0 | 0,821 | 0,924 |
+| bordi 0,7/0,7 | 31 | 4 | 35 | 0 | 0,813 | 0,930 |
+| **rip 0,4 → v6** | 33 | 6 | **39** | 0 | **0,782** | **0,903** |
+| δ 0,3 + circola pos 0,5 | 29 | 7 | 36 | 0 | 0,817 | 0,934 |
+| classi 0,4 | 33 | 5 | 38 | 0 | 0,783 | 0,904 |
+
+- **v6** = v5 con la penalità per la ripetizione immediata della stessa parola da 0,5 a 0,4: pagella estesa uguale,
+  AUC −0,034 / −0,020. Coerente con la diagnosi della v5 (coppie identiche il doppio del Voynich).
+- Il cancello della riga resta perso in tutte le configurazioni (giro 9). Banco della v6 sui semi 7–9 in corso.
