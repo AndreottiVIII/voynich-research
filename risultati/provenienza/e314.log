@@ -1,0 +1,7 @@
+e314 stato di bifoglio {'bifoglio': (0.587, 6.6), 'mano': (0.138, 5.2), 'fascicolo': (0.451, 8.5)}
+e315 A e B differiscono oltre l'asse {"(i) solo l'asse": 0.331, '(ii) tutte': 1.0, "(iii) tutte tranne l'asse e le parole in -y/-n": 0.997, '(iv) solo parole non in -y/-n': 0.966}
+C:\Users\davide\voynich\.venv\Lib\site-packages\numpy\lib\_function_base_impl.py:3036: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+C:\Users\davide\voynich\.venv\Lib\site-packages\numpy\lib\_function_base_impl.py:3037: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+e318 no 0.982 no 0.2

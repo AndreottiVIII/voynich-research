@@ -1,0 +1,2 @@
+e316 il gallows segue la parola {'prime parole dei paragrafi': (0.1083, 8.5), 'parole in mezzo alla riga': (0.3209, 82.6)} {'stessa pagina': (0.456, 0.9), 'stesso bifoglio': (0.449, 2.5)} OrderedDict({'differenza p/f primo paragrafo meno altri': -0.04976887519260409, 'z': 1.0747791940157836, 'esito': 'no'})
+e317 debole 355 {'lunghezza media': (0.001, 0.0), 'quota segni gallows': (-0.028, -1.4), 'inizia con qo': (-0.048, -2.8), 'inizia con ch': (0.04, 2.2), 'inizia con sh': (0.025, 1.2), 'finale y': (-0.064, -3.8), 'finale n': (0.046, 2.4), 'numero di parole': (-0.089, -8.2)}

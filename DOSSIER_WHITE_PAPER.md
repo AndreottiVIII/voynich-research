@@ -819,8 +819,10 @@ negativi; i numeri sono nei file di `risultati/`.
 - **Ogni pagina ha un'identità forte, lungo un solo asse** (e307). Il profilo dei segni di una pagina si allontana da
   quello della sua sezione e lingua 2,8 volte più del caso (z 70); nella Bibbia, a pagine di argomento diverso, 1,75.
   - L'identità è soprattutto la posizione della pagina fra due estremi, parole in -*edy*/-*eey* contro parole in
-    -*aiin*/-*ain*: è l'asse delle lingue A e B di Currier, ma presente **dentro** ogni lingua e ogni sezione.
-  - La pagina condivide l'identità con quella consecutiva (z 10,9), non con quelle a 2–5 pagine di distanza.
+    -*aiin*/-*ain*. Varia **dentro** ogni lingua e ogni sezione. Non è l'asse che separa le lingue A e B: quelle
+    differiscono nel lessico (e315, §15.8).
+  - La pagina condivide l'identità con le pagine dello stesso foglio e dello stesso bifoglio (e308, §15.7), non con
+    quelle a 2–5 pagine di distanza.
 
 
 ### 15.7 Il libro fisico e la struttura del paragrafo (e308–e313)
@@ -841,3 +843,19 @@ negativi; i numeri sono nei file di `risultati/`.
   coerente con larghezze variabili intorno ai disegni.
 - **Le etichette non ricompaiono nel testo della propria pagina** più che in altre pagine della sezione (e311,
   incerto).
+
+### 15.8 Fascicoli, bifogli, lingue A e B, inizio del paragrafo (e314–e318)
+
+- **Due livelli di "stato"** (e314, e308). La posizione di una pagina sull'asse -edy/-aiin dipende soprattutto dal
+  **fascicolo** (η² 0,45, z 8,5). Il resto del profilo è condiviso dal **bifoglio** (le pagine dello stesso bifoglio
+  si somigliano, quelle dello stesso fascicolo no). La mano spiega poco (η² 0,14).
+- **Le lingue A e B differiscono nel lessico, non sull'asse** (e315). Nell'erbario A e B si separano quasi
+  perfettamente (AUC 0,997), anche senza l'asse e senza le parole in -*y*/-*n*:
+  - B usa *chedy*, *shedy*, *okedy*, *qokar*, *ar* e parole in *a*-;
+  - A ha più *o* e più gallows composti all'inizio delle parole;
+  - il punteggio dell'asse da solo non le separa.
+- **Il paragrafo comincia con *p*** (e316). Fra i gallows d'inizio paragrafo *p* è il 54% (nel resto del testo
+  prevale *k*). Il gallows d'inizio è legato alla parola tre volte meno del solito: è in buona parte un segno della
+  posizione.
+- **Fogli con le due facce diverse** (e318): f88, f52, f2, f83, f82 hanno recto e verso con profili diversi, nonostante
+  la stessa mano e la stessa sezione.
