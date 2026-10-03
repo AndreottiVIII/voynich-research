@@ -6788,3 +6788,19 @@ sequenza.
     rimasto (R delle parole rare). Le rare del Voynich che non sono varianti sono anch'esse sparse (R 1,16): nel Voynich
     nessuna parola rara è "della pagina".
   - L'e297 aggiunge al generatore gli errori sparsi.
+
+## 3/10/2026 — e294: il profilo dei bordi del Voynich ha la forma di una lingua con concordanza, non la forza
+
+- **Preregistrato:** indice dei bordi = (eccesso del prefisso + eccesso del finale)/2 − eccesso del centro (informazione
+  mutua fra pezzi di parole vicine oltre il rimescolamento nella riga), su 20.000 parole per testo.
+- **Risultati** (110 testi validi): Voynich **+0,031** (prefisso 0,037, centro 0,012, finale 0,049, finale → prefisso 0,116);
+  generatore e288 −0,010. **14 testi naturali** hanno indice ≥ Voynich: giapponese +0,198, coreano +0,167, Catone +0,106,
+  nahuatl +0,085, ashaninka +0,081, achuar, Varrone, aguaruna, quichua, lituano, Columella XII, shuar, basco, Vegezio.
+  Latino della Bibbia +0,001, finlandese +0,007, ebraico −0,009.
+- **Esito preregistrato: profilo da lingua.**
+- **Lettura, con una cautela forte.**
+  - La **forma** (bordi legati più dei centri) si trova nelle lingue agglutinanti o con concordanza e nei testi
+    tecnici latini a elenchi (ricette, agricoltura): non è un'impronta esclusiva del procedimento.
+  - Ma la **forza** è diversa: nelle lingue gli eccessi sono 0,1–0,5 bit, nel Voynich 0,01–0,05. Le parole vicine del
+    Voynich si legano 3–10 volte meno che in qualsiasi lingua: è di nuovo l'assenza di sintassi (e114, e115, e259).
+  - Il generatore ha la forma opposta (centri copiati): per imitare il Voynich deve legare i bordi, non copiare i centri.
