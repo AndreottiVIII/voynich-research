@@ -3,7 +3,8 @@
 dell'e297) e il modello delle scelte del nascondiglio ('v1' o 'v3'). Usato dallo strumento (voynichizzatore.py) e dal banco
 di prova (e293).
 
-Parametri del corpo: rip, phi, sigma_post, pi_post, beta, eps, vsim, omega, rho, tau, errori (vedi corpo2/3/4 ed e297).
+Parametri del corpo: rip, phi, sigma_post, pi_post, beta, eps, vsim, omega, rho, tau, errori (vedi corpo2/3/4 ed e297);
+classi, circola, chiave (ritocchi dopo la generazione, corpo5).
 """
 import os, sys
 from collections import OrderedDict
@@ -34,7 +35,12 @@ def corpo(parametri, seme):
     prm = dict(e251.CONF, gamma=0.0, rip=x.get('rip', 1.0), phi=x.get('phi', 0.0), beta=x.get('beta', 0.0), eps=x.get('eps', 1.0),
                vsim=x.get('vsim', 0.0), omega=x.get('omega', 0.0), rho=x.get('rho', 0.0), tau=x.get('tau', 0.0))
     rr = e236.dopo(corpo4.genera_v4(k['c2'], prm, seme, prime_per_pag=e268.prime_per_pagina(k['c']) if x.get('rho') else None), k['freq'], 100 + seme)
-    return e297.errori(k['c2'], rr, x.get('errori', 0.0), seme)
+    rr = e297.errori(k['c2'], rr, x.get('errori', 0.0), seme)
+    if x.get('classi') or x.get('circola'):
+        import corpo5
+        corpo5.CHIAVE = x.get('chiave', 'stretta')
+        rr = corpo5.circola(corpo5.classi_riga(rr, x.get('classi', 0.0), seme), x.get('circola', 0.0), seme)
+    return rr
 
 
 _ORIG = {}
