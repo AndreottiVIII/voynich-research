@@ -9337,3 +9337,45 @@ subito sopra in una sola forma (la fonte), precedute da una parola in -*y*/-*o*/
   vicina finisce in -*y*/-*o*/-*d*, prende *qo*- quasi due volte su tre. La regola di raccordo si applica **nel momento
   in cui si scrive**, alla parola nel suo nuovo posto: è il comportamento di un raccordo fonetico o grafico fra parole,
   non di una forma fissa memorizzata. Va con l'e356 (la copia non eredita la grafia).
+
+## 3/10/2026 (notte) — e393: qo- a inizio riga non guarda la riga sopra; la giuntura è il doppio in lingua B
+
+Preregistrato (`preregistrazioni/e393.md`).
+
+- **Parte 1.** 541 prime parole *qo*/*o* + gallows, in righe non d'inizio paragrafo. Differenza di *qo*- secondo la
+  fine della riga sopra (-*y*/-*o*/-*d* contro -*n*/-*r*/-*s*/-*m*): Δ +0,013, p 0,37. **Esito preregistrato: non la
+  segue.**
+  - A inizio riga *qo*- è frequente di suo: biologia B 0,89, erbario A 0,57, erbario B 0,63, farmacia A 0,69,
+    ricette B 0,44, solo testo B 0,78.
+  - L'inizio riga ha quindi una regola propria: lì *qo*- è la forma normale. Al contrario, nelle etichette e dopo il
+    salto del disegno la forma normale è *o*- (e387).
+- **Parte 2.** Giuntura a parità di coppie (8.304), mediana di 20 campioni:
+
+  | | lingua A | lingua B |
+  |---|---|---|
+  | giuntura | 0,104 (0,103 – 0,104) | **0,217** (0,195 – 0,229) |
+  | neutralizzata (senza le due regole) | 0,076 | 0,132 |
+
+  **Esito preregistrato: giuntura più forte in B**, circa il doppio, anche togliendo le due regole di raccordo. Va con
+  l'e388 (regola di *qo*- più debole nella mano 1, che scrive in A).
+
+## 3/10/2026 (notte) — e394: anche la fine di una parola copiata è coordinata con la parola dopo; limite di lettura per e392 ed e394
+
+Preregistrato (`preregistrazioni/e394.md`). Parole in -*l*/-*r* il cui tronco sta nella riga sopra in una sola forma
+(la fonte), seguite da una parola in *k*/*t*/*d*/*l*/*s*/*q* (K) o in *a*/*o*/*y* (A).
+
+| fonte nella riga sopra | parola dopo | eventi | P(-*l*) |
+|---|---|---|---|
+| -*l* | K | 96 | 0,84 |
+| -*l* | A | 111 | 0,47 |
+| -*r* | K | 72 | **0,74** |
+| -*r* | A | 121 | 0,31 |
+
+- Effetto della parola dopo, a parità di fonte: **+0,40**, p < 0,0001. Effetto della fonte: +0,14, p 0,001.
+- **Esito preregistrato: entrambe le cose**, con la parola dopo che pesa tre volte la fonte.
+- **Limite di lettura, che vale anche per l'e392.** Queste tabelle mostrano che la forma della parola copiata è
+  coordinata con la sua nuova vicina più che con la fonte. Non dicono **chi si adatta a chi**: nell'e394 la finale
+  potrebbe adattarsi alla parola dopo (lo scriba sa già cosa scriverà), oppure la parola dopo potrebbe essere scelta
+  per accordarsi con la finale appena scritta. Nell'e392, specularmente, vale lo stesso per *qo*-/*o*- e la parola
+  prima. La lettura dell'e392 "prende la forma voluta dalla nuova vicina" va quindi presa così: **la forma è
+  coordinata con la vicina nel momento in cui si scrive, non ereditata dalla fonte**. La direzione resta aperta.
