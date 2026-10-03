@@ -241,6 +241,27 @@ class Disposizione:
         if stato:
             conti = [[[0, 0] for _ in range(nc + 5)] for _ in righe]
             nr = len(righe)
+        # e412: le due meta' della pagina (come G9 dell'e266: prima meta' = le prime len(righe) // 2 righe). diff[g] = conteggio
+        # del segno g nella prima meta' meno quello nella seconda; l'energia premia la somma dei quadrati, divisa per i segni
+        wm = pesi.get('meta', 0.0) if strato == 'D3' else 0.0
+        if wm:
+            meta_di = [0 if riga_di[t] < len(righe) // 2 else 1 for t in range(N)]
+            diff, tot_segni = Counter(), 0
+            for t, w in enumerate(arr):
+                for g in self.segni(w):
+                    diff[g] += 1 if meta_di[t] == 0 else -1
+                    tot_segni += 1
+            wm = wm / max(1, tot_segni)
+
+        def cambio_meta(w_esce, w_entra):
+            """Nella prima meta' esce w_esce ed entra w_entra (nella seconda il contrario): cambi di diff e di energia."""
+            d = Counter(self.segni(w_entra))
+            d.subtract(Counter(self.segni(w_esce)))
+            x = 0.0
+            for g, k in d.items():
+                if k:
+                    x += (diff[g] + 2 * k) ** 2 - diff[g] ** 2
+            return d, wm * x
             for t, w in enumerate(arr):
                 for c, v in cl.get(w, ()):
                     conti[riga_di[t]][c][v] += 1
@@ -286,10 +307,19 @@ class Disposizione:
                 d = locale(i, j) - prima
                 if mosse:
                     d += sposta(arr[j], riga_di[i], arr[i], riga_di[j])
+                dm = None
+                if wm and meta_di[i] != meta_di[j]:
+                    # dopo lo scambio arr[i] sta al posto i; nella prima meta' e' entrata la parola che ora sta nel posto della prima meta'
+                    a, b = (i, j) if meta_di[i] == 0 else (j, i)
+                    dm, e = cambio_meta(arr[b], arr[a])
+                    d += e
                 if d < 0 and rnd.random() >= math.exp(d):
                     if mosse:
                         sposta(arr[i], riga_di[i], arr[j], riga_di[j])
                     arr[i], arr[j] = arr[j], arr[i]
+                elif dm is not None:
+                    for g, k in dm.items():
+                        diff[g] += 2 * k
         out, k = [], 0
         for ini, ps in righe:
             out.append((ini, arr[k:k + len(ps)]))
