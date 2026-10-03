@@ -6529,3 +6529,24 @@ sequenza.
     serviva il doppio).
   - Gli anelli sono un po' più "sistematici" del testo corrente, coerente con l'e263 (etichette e aree illustrate
     copiate dalla vicina).
+
+## 3/10/2026 — e280: i quattro anelli a 12 settori non nominano le stesse 12 cose
+
+- **Preregistrato** (strada nuova 2, versione leggera e senza lingue). Quattro anelli di 12 settori nei
+  diagrammi astronomici (f67r1 Ri; f67r2 Ls e L0; f67v1 L0). Se fossero un vocabolario (12 mesi o 12 segni), il
+  settore corrispondente dovrebbe avere un'etichetta simile da un anello all'altro, una volta allineati inizio e
+  verso.
+- **Misura:** per ogni coppia di anelli la migliore delle 24 disposizioni della somiglianza media dei settori
+  (1 − distanza di modifica normalizzata, segni EVA); S = media sulle 6 coppie; z contro 1.000 rimescolamenti
+  nell'anello.
+- **Risultati:**
+  - anelli: S 0,286 contro 0,278 del nullo, **z 1,2**;
+  - positivo (mesi latini con un cifrario verboso, disposizioni a caso, 20% di errori): **z 14,8**;
+  - negativi (6 gruppi di finestre di 12 etichette astronomiche e dello zodiaco): z da −1,9 a 1,2.
+- **Esito preregistrato: nessun vocabolario comune.**
+- **Lettura.**
+  - Se i quattro anelli nominano le stesse 12 cose, non lo fanno con parole che si somigliano: il test vede
+    benissimo un nome cifrato anche con errori. Oppure nominano cose diverse.
+  - È coerente con l'e263: nelle aree illustrate le etichette si copiano dalla vicina, non da un elenco di nomi
+    fisso.
+- Durata: un minuto.
