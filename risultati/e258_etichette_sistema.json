@@ -1,0 +1,22 @@
+{
+ "etichette": 1078,
+ "pagine_con_etichette": 55,
+ "M1": {
+  "stessa pagina": {
+   "quota": 0.3447955390334573,
+   "nullo": 0.1336988847583643,
+   "z": 10.587805884257978
+  },
+  "pagine vicine (±2)": {
+   "quota": 0.38078703703703703,
+   "nullo": 0.2957523148148148,
+   "z": 6.263058418857097
+  }
+ },
+ "M2": {
+  "quota_attestata_nei_paragrafi": 0.5723562152133581,
+  "nullo_parole_di_paragrafo": 0.8472031539888683,
+  "z": -25.8743198877789
+ },
+ "esito": "sistema a parte"
+}
