@@ -4,8 +4,9 @@ Fotografia aggiornata a mano a ogni cambio importante. I dettagli e i numeri son
 
 ## Numeri degli esperimenti (4/10, notte)
 
-La ricerca ha esaurito i suoi numeri (e307–e399). **Dal 4/10 la ricerca usa e500–e599**; il voynichizzatore resta
-e400–e499.
+La ricerca ha esaurito i suoi numeri (e307–e399). Gli esperimenti dal 400 in su sono dell'altra chat (indicazione di
+Davide, 4/10 notte). **Dal 4/10 la ricerca usa la serie e3a01, e3a02, … e3a99, poi e3b01, …** (esegui.py la accetta,
+come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
 
 ## Ricerca della notte del 3–4/10 (e360–e399): il quadro
 
