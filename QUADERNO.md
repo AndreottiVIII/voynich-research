@@ -7004,3 +7004,31 @@ poi l'AUC.
 - **v5** = v4 + δ 0,2 (una parola di base su cinque dal lessico di tutto il libro invece che dalla pagina, e232): stessa
   pagella estesa, AUC −0,047 (e231) e −0,021 (e266). G3 0,875 → 0,84: le parole "della pagina" erano una parte del muro.
 - Verifica in corso: banco e293 con v3, v4, v5 sui semi 7–9, con Isidoro XVII nascosto e la decodifica controllata.
+
+## 3/10/2026 — e293, banco della v4 e della v5: più materie aggiunte, ma il cancello della riga si perde
+
+Banco preregistrato dell'e293 (`esegui.py e293 -- --v3 --v4 --v5`): Isidoro XVII nascosto con la chiave "banco", corpi
+con i semi di verifica 7, 8, 9. **Decodifica esatta in tutti e nove i manoscritti.**
+
+| versione | pagella (3 semi) | pagella estesa | riga | AUC e231 | AUC e266 | mancate fra le 18 |
+|---|---|---|---|---|---|---|
+| v3 | 52/54 | 52/78 | 2 semi | 0,817 | 0,934 | profilo pagina, omogeneità |
+| v4 | 50/54 | **59/78** | 0 | 0,843 | 0,931 | gradiente (3), omogeneità |
+| v5 | 49/54 | 57/78 | 0 | **0,816** | **0,917** | gradiente (3), deriva, profilo pagina |
+
+- **Prese su tutti i semi** dalla v4: scelte di riga, concordanza delle desinenze, coppie viste altrove (la v5 manca le
+  scelte di riga su un seme). Mancano ancora: parole rare per pagina, tipi e uniche nella pagina, dispersione delle
+  lunghezze, prime righe come registro.
+- **Esito**, con il criterio usato per la v3 (AUC dell'e266 almeno −0,01 a pagella estesa non inferiore): la **v5
+  migliora la v3** (−0,017, pagella estesa +5); la v4 no (AUC dell'e266 −0,003). **Ma** v4 e v5 perdono il cancello
+  della riga in tutti i semi e la materia "gradiente": è un costo vero, da riparare prima di dire che la v5 è migliore
+  in tutto.
+- **Causa** (seme 1, valori grezzi): gradiente = somiglianza fra righe a distanza 6 / somiglianza nella riga: Voynich
+  0,034/0,038 = 0,89; v3 0,022/0,031 = 0,71; v4 0,027/0,046 = 0,59; v5 0,020/0,036 = 0,56. I bordi e le classi alzano la
+  somiglianza dentro la riga, il lessico globale abbassa quella fra righe lontane della stessa pagina. Nel cancello cade
+  A (somiglianza fra parole vicine oltre il caso, soglia 1,0): v3 1,026, v4 1,012, v5 0,983, solo bordi 0,974.
+- **Diagnosi della v5** con lo strumento unico (Isidoro, chiave "giardino"; AUC 0,810 / 0,915): pesano di più le prime
+  righe dei paragrafi (G8: *p* +0,0315 nel Voynich, +0,012 nella v5; *f* +0,008 contro +0,0015), la varietà nella
+  pagina (G3) e le coppie identiche (G6: 0,0205 contro 0,0097).
+- Giri in corso: 7 (più lessico globale, circolazione leggera), 8 (*p*/*f* nelle prime righe, ripetizioni, lunghezze),
+  9 (tema della pagina θ e varianti della parola precedente χ, contro il gradiente e A).
