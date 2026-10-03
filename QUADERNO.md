@@ -10926,3 +10926,24 @@ descrittiva (pagine senza lingua, confronto fra testo e valore vuoto) prima di s
 - **Lettura:** le regole di raccordo sono uguali per tutti (e388, e3a16), la frequenza degli spazi facoltativi no.
   Va con l'idea che lo spazio facoltativo sia un fatto di scrittura (abitudine della mano, o del tipo di pagina) più che
   del sistema che produce i segni. Il raccordo sta nel sistema; lo spazio, in parte, nella penna.
+
+## 4/10/2026 (notte) — e3a67: rifacendo gli spazi a caso con la regola, metà dei pezzi sbagliati sono parole vere
+
+Preregistrato (`preregistrazioni/e3a67.md`). Si tolgono gli spazi di ogni riga e si rimettono a caso con la regola
+dell'e3a58 (probabilità di spazio data la coppia di segni); dei pezzi "sbagliati" (che non coincidono con una parola
+originale nella stessa posizione, almeno 3 segni) si conta quanti sono parole del testo.
+
+| testo | pezzi sbagliati che sono parole vere |
+|---|---|
+| **Voynich** (mediana di 5 × 10.000 parole) | **0,499** (0,482–0,503) |
+| testi sensati | mediana 0,065; 90° percentile 0,119; massimo 0,253 (klingon) |
+| gibberish umano | 0,064 |
+| generatori | Naibbe 0,346, U2 0,426, U3 0,454, Timm e Schinner 0,532 |
+
+- **Esito preregistrato: anche i tagli sbagliati danno parole vere** (sopra tutti i 71 testi sensati, otto volte la
+  loro mediana).
+- **Lettura:** nel Voynich, se si taglia la catena dei segni in un punto diverso (ma ammesso dalla regola), una volta su
+  due si ottiene comunque una parola che esiste. In una lingua quasi mai (6%). È il comportamento atteso se le "parole"
+  sono pezzi di una catena tagliata dove la regola lo permette, con un vocabolario che contiene quasi tutti i pezzi
+  possibili (e3a61). I generatori fanno lo stesso (0,35–0,53); il gibberish scritto a mano no.
+- Esempio del tipo di caso (e379): *or aiin* e *oraiin*, *s aiin* e *saiin* sono tutti parole del Voynich.
