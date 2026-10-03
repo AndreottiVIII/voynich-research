@@ -8603,3 +8603,10 @@ Preregistrato (`preregistrazioni/e370.md`).
 - **Esito preregistrato: incerto.**
 - La crescita è più forte nelle parole riprese (che ereditano la scelta, e356), ma c'è anche nelle altre. La ripresa la
   amplifica, non la spiega da sola.
+
+## 3/10/2026 (notte) — e371: l'inventiva delle sessioni regge anche senza i bordi della riga
+
+Preregistrato (`preregistrazioni/e371.md`). 48 bifogli, 21.120 parole in mezzo alla riga (righe non prime di
+paragrafo). Dispersione della quota di forme nuove fra i bifogli: **3,41 volte il nullo, z 9,1. Esito preregistrato:
+l'inventiva regge senza i bordi.** Con e360 ed e364: la differenza fra sessioni nelle forme nuove non dipende dai
+paragrafi, dalla spaziatura né dai segni di bordo.
