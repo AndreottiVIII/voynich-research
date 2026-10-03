@@ -7835,3 +7835,32 @@ Preregistrato (`preregistrazioni/e337.md`).
     di giorni ripetuta mese per mese.
   - Etichette consecutive nella stessa pagina: z 1,1 (non più simili del caso).
   - Il 76% delle etichette dello zodiaco comincia con *o* (21% nel testo).
+
+## 3/10/2026 — vz: e403b, parole nuove con la forma imparata sulle parole uniche: da 0,77 a 0,64 (pezzo provvisorio)
+
+Chat del voynichizzatore. Preregistrato (`preregistrazioni/e403b.md`): stessa prova dell'e403, con un modello a
+trigrammi di segni imparato sulle parole uniche, più un pezzo alla volta. Risultati in
+`risultati/e403b_parole_nuove_forma.md`.
+
+| generatore | solo sacco | previsto | G1 | G2 | G3 | JSD | AUC e231 | AUC e266 |
+|---|---|---|---|---|---|---|---|---|
+| T-L, trigrammi con la lunghezza controllata | 0,690 | 0,68–0,80 | 0,58 | 0,58 | 0,57 | 0,64 | 0,753 | 0,843 |
+| T-LP, anche per tipo di posto nella riga | 0,688 | 0,62–0,74 | 0,57 | 0,57 | 0,58 | 0,64 | 0,694 | 0,751 |
+| T-LPS, anche scelte secondo il profilo della pagina | **0,644** | 0,55–0,68 | 0,59 | 0,59 | 0,56 | 0,52 | 0,690 | 0,730 |
+| per confronto: il migliore dell'e403 (mista) | 0,774 | | 0,68 | 0,67 | 0,73 | 0,52 | 0,808 | 0,850 |
+
+- **Previsioni rispettate.** Controllare la lunghezza porta da 0,961 (trigrammi dell'e403) a 0,690: la lunghezza delle
+  inventate è ora 5,93 ± 1,56 (Voynich 5,94 ± 1,57).
+- **Il tipo di posto non cambia il solo sacco** (0,688 contro 0,690: sotto la soglia di 0,03), come è giusto, perché il
+  solo sacco non guarda i posti; ma abbassa molto i giudici interi (e231 da 0,753 a 0,694, e266 da 0,843 a 0,751): i
+  segni di posizione (*p*/*f* nelle prime righe, *m* a fine riga, *s* a inizio) finiscono nei posti giusti. Si tiene
+  per questo motivo, dichiarandolo.
+- **Seguire il profilo della pagina** guadagna 0,044 (JSD da 0,64 a 0,52: 0,0409 contro 0,0402 del Voynich).
+- **Che cosa resta** (0,64 contro il pavimento 0,50): le inventate somigliano a parole note meno delle vere (a una
+  modifica da una nota 0,55 contro 0,715); alcune coppie di segni (*d*+*y* 0,0417 contro 0,0432; *l*+*o* 0,0045 contro
+  0,0035); la dispersione delle lunghezze nella pagina (1,61 contro 1,58).
+- **Esito secondo la preregistrazione:** migliore fra 0,62 e 0,70 → **pezzo provvisorio**. Le parole nuove costano
+  0,64 di solo sacco da sole; il costo si rimisura nel sacco intero. Leva nota se servirà: un modello dei segni più
+  stretto (quattro segni di contesto, o varianti di parole della pagina filtrate dal modello).
+- **Anche con tutto il resto vero**, sostituire le sole parole uniche porta i giudici interi a 0,69 / 0,73: le parole
+  nuove sono una parte del testo che i giudici guardano molto.

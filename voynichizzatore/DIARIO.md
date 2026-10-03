@@ -199,3 +199,29 @@ Risultati nel QUADERNO (voce "vz: e402"). Solo sacco: v5 **0,794**, modello **0,
 
 
 Risultati nel QUADERNO (voce "vz: e403"). Solo sacco: variante-libro 0,795, variante-pagina 0,781, trigrammi 0,961, mista 0,774: tutti molto sopra le previsioni (0,55–0,72). Mi sono fermato a capire: le parole uniche del Voynich portano i segni rari e di posizione (x, c, g, h, f, p, s, m), che le varianti non hanno; i trigrammi hanno i segni più giusti (G1 0,62) ma lunghezze sbagliate. Secondo tentativo e403b: trigrammi con lunghezza controllata (T-L), per tipo di posto (T-LP), scelti secondo il profilo della pagina (T-LPS).
+
+**22:04 — e403b lanciato** (coda `vz-nuove2`; `parole_nuove.FormeUniche`). Nella prova di costruzione la lunghezza torna (5,9 ± 1,56), ma le inventate sono meno vicine a parole note (0,55 contro 0,715). Previsioni: T-L 0,68–0,80, T-LP 0,62–0,74, T-LPS 0,55–0,68.
+
+## 3/10/2026, 22:15 — e403b finito: parole nuove a 0,64 (pezzo provvisorio)
+
+
+
+Risultati nel QUADERNO (voce "vz: e403b"). Solo sacco: T-L 0,690, T-LP 0,688, **T-LPS 0,644** (e403: 0,774). Il tipo di posto non cambia il solo sacco ma abbassa i giudici interi (0,843 → 0,751). Resta: le inventate somigliano meno a parole note (0,55 contro 0,715). Leva nota: modello dei segni più stretto.
+
+
+
+**Come riusarlo:** `parole_nuove.FormeUniche(rr).inventa('T-LPS', classe, profilo, rnd)`, con `classe = 4*bool(inizio_paragrafo) + disposizione.posizione(j, n)` e `profilo = fu.profilo(parole_della_pagina)`.
+
+
+
+### Dove siamo (3/10, 22:15)
+
+
+
+- Fatti e pubblicati: e400, e401, e401b, e402, e403, e403b.
+
+- Pezzi pronti: disposizione (0,53 / 0,66 con il sacco vero); parole nuove (0,64 di solo sacco, provvisorio).
+
+- In preparazione: e404 (parole note: lessico di sezione + ripetizione con un parametro θ regolato sul pannello; K5 = primo generatore intero a pezzi).
+
+- In sospeso: quali posti ricevono una parola nuova; ordine delle righe; materie di pagella; nascondiglio; banco e293.
