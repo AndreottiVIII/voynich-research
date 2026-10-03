@@ -8322,3 +8322,19 @@ media del proprio strato sezione × lingua, contro le parole rimescolate fra i b
   - Le forme davvero nuove dipendono dalla sessione: alcune sessioni inventano molto, altre quasi niente. Sono due
     processi diversi.
   - Con l'e348: né gli uni né le altre nascono dalla ripresa delle righe sopra.
+
+## 3/10/2026 (notte) — e358: dentro il bifoglio, un indizio di scrittura a foglio piegato (incerto)
+
+Preregistrato (`preregistrazioni/e358.md`). 44 bifogli completi (quattro pagine di almeno 6 righe). Passaggio da P a Q
+= ripresa fra la fine di P e l'inizio di Q, meno il contrario; z con inversione del segno.
+
+| passaggio | media | z |
+|---|---|---|
+| Xr→Xv (stesso foglio) | +0,037 | 1,3 |
+| Yr→Yv (stesso foglio) | +0,056 | 2,3 |
+| Xv→Yr (faccia interna aperta) | −0,007 | −0,2 |
+| Yv→Xr (faccia esterna aperta) | −0,044 | −1,6 |
+
+- Piegato, i due passaggi insieme: z 2,5. Aperto: z −1,3. **Esito preregistrato: incerto.**
+- L'indizio va nella direzione di una scrittura foglio per foglio (recto e poi verso), non sulla pergamena aperta,
+  come le e330, e331, e341 (z intorno a 2). Usano però gli stessi fogli, quindi non si sommano.
