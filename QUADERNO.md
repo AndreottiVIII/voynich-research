@@ -6459,3 +6459,15 @@ sequenza.
   più prove lingua per lingua con il risolutore, troppo costose per quello che rendono, e priorità al
   generatore.
 - La preregistrazione resta valida: se si riprende, si esegue così com'è.
+
+## 3/10/2026 — e212c fermato a metà: i candidati dell'e212b non reggono già sui valori parziali
+
+- Fermato a metà per decisione di Davide (niente prove lingua per lingua). Valori parziali dal log, con 8
+  ripartenze (punteggio / copertura delle parole di almeno 6 lettere):
+  - **finlandese**, con il latino come negativo: positivo −1,58 / 62,8%, negativo −3,05 / 5,4%, Voynich
+    −2,73 / 5,5%. Posizione **0,22 / 0,00**: nessun segnale. Con un negativo giusto il "6,3" dell'e212b sparisce;
+  - **hindi:** controllo positivo −2,75 / **5,3%**, sotto la soglia di validità (30%): il risolutore non legge
+    l'hindi nemmeno quando il messaggio c'è. Test **non valido**;
+  - **birmano:** non arrivato. Nell'e212b il positivo aveva copertura 1,7%: test non valido per lo stesso motivo.
+- **Conclusione:** i tre candidati dell'e212b erano artefatti della formula della posizione. Nessuna lettura.
+- Non si committano risultati parziali: il json si scrive solo a lingua finita.
