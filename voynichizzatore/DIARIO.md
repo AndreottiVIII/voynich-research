@@ -143,3 +143,27 @@ Risultati nel QUADERNO (voce "vz: e401"). In breve, AUC dell'e266: D1 0,991, D2 
 - Fatti e pubblicati: e400, e401. In preparazione: e401b (codice da scrivere: regolazione dei pesi + strato D4).
 
 - Dopo: ordine delle righe nella pagina (G9, differenza fra le due metà), sacco di pagina, nascondiglio (0,63), banco v5/v7.
+
+**21:40 — e401b lanciato** (coda `vz-disp3`, 5 processi): prima la regolazione dei quattro pesi sul pannello (seme 11, fino a 15 giri), poi D4 sui semi 1–4. Previsione scritta: AUC dell'e266 0,68–0,78.
+
+## 3/10/2026, 21:50 — e401b finito: la disposizione funziona
+
+
+
+Risultati nel QUADERNO (voce "vz: e401b"). Regolazione convergita (pesi: bordi 0,71, unione 0,59, coppia 0,49, identica −0,55). **D4: AUC e231 0,533, e266 0,659** (previsto 0,68–0,78), con le parole vere di ogni pagina. Restano: G9 (differenza fra le due metà della pagina: ordine delle righe), G8 (prime righe un po' lunghe), somiglianza a distanza 2. **La pagella invece non è a posto** (14,8/18, 5,2/8, cancello della riga perso): mancano concordanza delle desinenze, formule, gradiente, legame, scelte di riga, verticale, ripetizione.
+
+
+
+**Come riusarlo:** `disposizione.Disposizione(rr).disponi(rr, seme, 'D3', pesi={'bordi': 0.712, 'unione': 0.587, 'coppia': 0.493, 'identica': -0.552})`. I pesi esatti sono in `risultati/e401b_disposizione_regolata.json` (regolazione → pesi).
+
+
+
+### Dove siamo (3/10, 21:50)
+
+
+
+- Fatti e pubblicati: e400 (scala), e401 (disposizione, legami esagerati), e401b (disposizione regolata: 0,53 / 0,66 con il sacco vero).
+
+- Il problema è ora diviso in due: la **disposizione** è capita per i giudici (non per la pagella); il **sacco di pagina** (quali parole in ogni pagina) è tutto da fare ed è il passo che trasforma il controllo in un generatore.
+
+- Prossimi passi, in ordine: (1) e402: sacco di pagina fatto dal modello + questa disposizione, per vedere quanto costa il solo sacco; (2) ordine delle righe (G9) e materie di pagella perse; (3) nascondiglio (0,63 da solo); (4) banco e293 ai semi 7–9 quando c'è un generatore intero.

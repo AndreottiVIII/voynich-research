@@ -7607,3 +7607,47 @@ Riferimenti dall'e400: parole a caso nella pagina 0,998; solo righe rimescolate 
   sparsa (stesso modello) e rilanciato: 7 minuti.
 - **Lettura per la ricerca sul Voynich.** Dove sta una parola nella riga si prevede bene dalla sua forma (primo e
   ultimo segno, lunghezza, *p*/*f*): l'inizio e la fine della riga hanno una "grammatica" di forme, non di parole.
+
+## 3/10/2026 — vz: e401b, la disposizione con i legami alla dose giusta: giudici a 0,53 e 0,66 (con le parole vere di ogni pagina)
+
+Chat del voynichizzatore. Preregistrato (`preregistrazioni/e401b.md`): stesso modello dell'e401 più un termine per la
+coppia identica; i quattro pesi dei legami regolati **sul pannello** (seme 11), non sui giudici. Risultati in
+`risultati/e401b_disposizione_regolata.md`.
+
+- **Regolazione: converge in 10 giri** (scarto massimo 1,6%). Pesi: bordi 0,71, unione 0,59, coppia esatta 0,49,
+  coppia identica −0,55 (evitata). Valori: unioni attestate 9,2% (Voynich 9,2%), coppie viste altrove 22,2% (22,1%),
+  coppie identiche 0,96% (0,97%), somiglianza fra vicine 0,217 (0,218). I pesi sono circa la metà di quelli dell'e401:
+  era una questione di dose.
+- **Strato D4, semi 1–4:**
+
+  | | AUC e231 | AUC e266 (min–max) | prevista e266 | G4 | G5 | G6 | G7 | G8 | G9 |
+  |---|---|---|---|---|---|---|---|---|---|
+  | D4 | **0,533** | **0,659** (0,638–0,667) | 0,68–0,78 | 0,54 | 0,53 | 0,59 | 0,56 | 0,64 | 0,64 |
+  | per confronto: D2 (e401) | 0,771 | 0,855 | | 0,79 | 0,51 | 0,68 | 0,55 | 0,60 | 0,67 |
+  | per confronto: solo righe rimescolate (e400, O1) | 0,481 | 0,595 | | 0,50 | 0,48 | 0,50 | 0,50 | 0,50 | 0,62 |
+
+- **Meglio della previsione.** Con le parole vere di ogni pagina, un modello di pochi pezzi (tratti della parola →
+  tipo di posto; tre legami fra vicine più l'evitamento della parola identica) dispone le parole in modo che il
+  giudice dell'e231 non le distingua quasi dal Voynich (0,53) e quello dell'e266 poco (0,66; il pavimento di questa
+  strada è 0,60).
+- **Che cosa resta, dalle caratteristiche pesanti:**
+  - G9: le due metà della pagina sono più diverse nel Voynich (JSD 0,050 contro 0,038): è l'ordine delle righe, che il
+    modello non tocca (lo stesso scarto di O1);
+  - G8: nelle prime righe le parole escono un po' troppo lunghe (4,73 contro 4,63) e con un po' meno *p* (0,029
+    contro 0,033);
+  - G6: somiglianza a distanza 2 nella riga 0,207 contro 0,220: il legame del Voynich va un poco oltre la parola
+    accanto;
+  - inizio riga con *s* 10,5% contro 8,0%.
+- **Che cosa NON è a posto: la pagella.** 14,8/18 e 5,2/8, cancello della riga perso in 4 semi su 4. Mancano in
+  almeno un seme: concordanza delle desinenze, formule, gradiente, legame, prime righe come registro, ripetizione,
+  scelte di riga, verticale. I giudici guardano medie di pagina; la pagella guarda anche strutture fini (scelte di
+  grafia concordi nella riga, copia dalla riga sopra, sequenze ripetute) che questo modello non ha.
+- **Limite dichiarato nella preregistrazione, da ricordare:** i quattro valori regolati sono anche caratteristiche dei
+  giudici. Il risultato dice che queste statistiche **bastano** per quei giudici, non che il modello sia giusto per
+  altre vie: la pagella lo conferma.
+- **Esito secondo la preregistrazione:** D4 ≤ 0,78 con G4 e G6 ≤ 0,65: la disposizione dentro la riga è capita per
+  quanto riguarda i giudici. Passi seguenti: l'ordine delle righe nella pagina (G9), le materie di pagella perse, poi
+  il sacco di pagina (quali parole), che è la parte ancora tutta da fare.
+- **Lettura per la ricerca sul Voynich.** L'ordine delle parole nella riga del Voynich, visto da questi giudici, è
+  descritto da: una "grammatica" di forme per i posti della riga, un legame debole fra bordi di parole vicine, una
+  tendenza a scrivere vicine due parole che unite ne danno una terza, e l'evitamento della parola identica accanto.

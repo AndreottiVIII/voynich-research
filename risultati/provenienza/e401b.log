@@ -1,0 +1,16 @@
+giro  0: pesi {'bordi': 0.5, 'unione': 0.5, 'coppia': 0.5, 'identica': 0.0} | valori {'unioni attestate': 0.0866, 'coppie viste altrove': 0.2135, 'coppie identiche': 0.0156, 'somiglianza fra vicine': 0.2182} | scarto massimo 0.600
+giro  1: pesi {'bordi': 0.499, 'unione': 0.556, 'coppia': 0.554, 'identica': -0.47} | valori {'unioni attestate': 0.0881, 'coppie viste altrove': 0.215, 'coppie identiche': 0.0103, 'somiglianza fra vicine': 0.2121} | scarto massimo 0.057
+giro  2: pesi {'bordi': 0.582, 'unione': 0.595, 'coppia': 0.597, 'identica': -0.526} | valori {'unioni attestate': 0.0942, 'coppie viste altrove': 0.2191, 'coppie identiche': 0.0095, 'somiglianza fra vicine': 0.2147} | scarto massimo 0.029
+giro  3: pesi {'bordi': 0.629, 'unione': 0.566, 'coppia': 0.612, 'identica': -0.499} | valori {'unioni attestate': 0.0916, 'coppie viste altrove': 0.2254, 'coppie identiche': 0.0094, 'somiglianza fra vicine': 0.2157} | scarto massimo 0.036
+giro  4: pesi {'bordi': 0.663, 'unione': 0.566, 'coppia': 0.585, 'identica': -0.462} | valori {'unioni attestate': 0.0932, 'coppie viste altrove': 0.2241, 'coppie identiche': 0.0116, 'somiglianza fra vicine': 0.2183} | scarto massimo 0.192
+giro  5: pesi {'bordi': 0.66, 'unione': 0.549, 'coppia': 0.566, 'identica': -0.638} | valori {'unioni attestate': 0.0922, 'coppie viste altrove': 0.2231, 'coppie identiche': 0.0088, 'somiglianza fra vicine': 0.2164} | scarto massimo 0.098
+giro  6: pesi {'bordi': 0.683, 'unione': 0.542, 'coppia': 0.553, 'identica': -0.535} | valori {'unioni attestate': 0.0917, 'coppie viste altrove': 0.2227, 'coppie identiche': 0.0103, 'somiglianza fra vicine': 0.2168} | scarto massimo 0.058
+giro  7: pesi {'bordi': 0.702, 'unione': 0.541, 'coppia': 0.544, 'identica': -0.591} | valori {'unioni attestate': 0.087, 'coppie viste altrove': 0.225, 'coppie identiche': 0.0087, 'somiglianza fra vicine': 0.2188} | scarto massimo 0.101
+giro  8: pesi {'bordi': 0.692, 'unione': 0.592, 'coppia': 0.519, 'identica': -0.485} | valori {'unioni attestate': 0.092, 'coppie viste altrove': 0.2252, 'coppie identiche': 0.0104, 'somiglianza fra vicine': 0.2166} | scarto massimo 0.069
+giro  9: pesi {'bordi': 0.712, 'unione': 0.587, 'coppia': 0.493, 'identica': -0.552} | valori {'unioni attestate': 0.0923, 'coppie viste altrove': 0.2224, 'coppie identiche': 0.0096, 'somiglianza fra vicine': 0.2165} | scarto massimo 0.016
+pesi scelti {'bordi': 0.7119214315577669, 'unione': 0.5870472083794338, 'coppia': 0.49314527789973295, 'identica': -0.5518157532388768}, scarto massimo 0.016, converge True
+D4 seme 4: pagella 14 riga False | AUC e231 0.518 e266 0.666 | {'G1': 0.5, 'G2': 0.5, 'G3': 0.5, 'G4': 0.53, 'G5': 0.55, 'G6': 0.59, 'G7': 0.56, 'G8': 0.64, 'G9': 0.65}
+D4 seme 1: pagella 15 riga False | AUC e231 0.555 e266 0.667 | {'G1': 0.5, 'G2': 0.5, 'G3': 0.5, 'G4': 0.56, 'G5': 0.53, 'G6': 0.59, 'G7': 0.57, 'G8': 0.62, 'G9': 0.64}
+D4 seme 3: pagella 15 riga False | AUC e231 0.534 e266 0.638 | {'G1': 0.5, 'G2': 0.5, 'G3': 0.5, 'G4': 0.55, 'G5': 0.54, 'G6': 0.59, 'G7': 0.57, 'G8': 0.65, 'G9': 0.64}
+D4 seme 2: pagella 15 riga False | AUC e231 0.527 e266 0.664 | {'G1': 0.5, 'G2': 0.5, 'G3': 0.5, 'G4': 0.53, 'G5': 0.51, 'G6': 0.6, 'G7': 0.57, 'G8': 0.63, 'G9': 0.63}
+{"D4": [0.533, 0.659], "converge": true}
