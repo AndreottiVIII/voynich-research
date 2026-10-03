@@ -6567,3 +6567,24 @@ sequenza.
   generatore senza messaggio arriva a 4,2: gran parte del segnale dell'e279 viene dalle parole ripetute. La
   differenza Voynich − generatore è 2,0, sotto la soglia preregistrata di 3.
 - Si rifà con i positivi corretti (e279c), stesso criterio.
+
+## 3/10/2026 — e285b: la dipendenza fra finali di parole vicine regge anche senza le coppie di varianti
+
+- **Preregistrato:** la misura dell'e285 sulle sole coppie di parole vicine non varianti (distanza di modifica ≥ 2).
+  Le coppie varianti sono il 5,3% nel Voynich e il 6,7–6,9% nel generatore.
+- **Risultati** (eccesso di informazione mutua sul rimescolamento nella riga):
+  - **finale:** Voynich **0,041**; generatore e241 0,017 / 0,007 / 0,011 (semi 7, 8, 9); soglia 0,024;
+  - **prefisso:** Voynich 0,031; generatore 0,009–0,011;
+  - **centro:** Voynich 0,007; generatore 0,041–0,053 (il generatore copia i centri, il Voynich no);
+  - **finale → prefisso:** Voynich 0,112; generatore 0,055–0,070;
+  - positivo puro 0,255 sul finale; al 50% 0,021.
+- **Esito preregistrato: il finale regge come portatore.** Nessuna lettura.
+- **Lettura, con le alternative da distinguere (scritte prima della prova successiva).**
+  1. **Inerzia della mano:** dopo un finale, lo scriba tende a riscriverlo (l'e123b aveva già visto un "innesco"
+     fra parole adiacenti per ch/sh, z 3,0).
+  2. **Concordanza di una lingua:** desinenze vicine che si accordano, come aggettivo e nome.
+  3. **Un messaggio** portato dai finali.
+  - Le prime due producono soprattutto **ripetizioni dello stesso finale**; un messaggio produce **passaggi
+    sistematici fra finali diversi**, come le coppie di lettere di una lingua. Si separano nell'e285c.
+  - Vale anche il contrario per il generatore: le parole del Voynich si legano alle vicine per i bordi (prefisso,
+    finale) e non per il centro, il generatore fa il contrario. È una proprietà nuova da dare al generatore.
