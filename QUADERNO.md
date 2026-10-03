@@ -10192,3 +10192,23 @@ Preregistrato (`preregistrazioni/e3a34.md`). L'e3a02 sulla trascrizione IT.
 
 - **Esito preregistrato: regge in tutte e due le parti** (ZL nell'e3a02: 0,59 contro 0,21; 0,60 contro 0,18). Le due
   trascrizioni non sono indipendenti come dati (stesso manoscritto), ma le scelte di lettura e di spaziatura sì.
+
+## 4/10/2026 (notte) — e3a35: l'evitamento sul margine sinistro è del Voynich, non del gibberish umano
+
+Preregistrato (`preregistrazioni/e3a35.md`). Inizi uguali fra righe consecutive (righe dalla seconda del blocco), nullo
+con l'ordine delle righe rimescolato.
+
+| testo | misura | coppie | rapporto | z |
+|---|---|---|---|---|
+| Voynich | primi 2 segni | 2.267 | **0,51** | −8,0 |
+| Voynich | primo segno | 2.267 | 0,55 | −10,8 |
+| gibberish umano | primi 2 segni | 1.280 | **1,32** | 1,9 |
+| gibberish umano | primo segno | 1.280 | 1,16 | 1,7 |
+
+Testi sensati con almeno 300 coppie (57): rapporto da 0,36 a 1,89, mediana 0,95; sotto il Voynich solo 3.
+
+- **Esito preregistrato: il gibberish umano no.** Chi inventa parole a mano non evita di cominciare due righe allo
+  stesso modo, anzi tende un po' a ripetere.
+- Nelle lingue vere l'evitamento è raro (mediana 0,95; solo 3 testi su 57 sotto lo 0,51 del Voynich).
+- **Lettura:** l'evitamento degli inizi ripetuti sul margine sinistro è un tratto proprio del Voynich, come la giuntura
+  chiusa nella riga: raro nelle lingue, assente nel gibberish umano.
