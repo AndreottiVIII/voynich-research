@@ -6451,3 +6451,11 @@ sequenza.
 - **Lezione di metodo.** La posizione va giudicata solo dove il controllo positivo si decifra e il
   positivo supera il negativo. L'e212c lo mette nel criterio, con il latino come negativo del finlandese.
 - Durata sul nuovo PC: 33 min con `PROCESSI=4`, `RIPARTENZE=2`.
+
+## 3/10/2026 — e281 sospeso prima di avere risultati
+
+- L'e281 (risolutore dell'e17 sulle sole prime righe dei paragrafi, sei lingue; preregistrazione e codice
+  committati) è stato fermato due minuti dopo l'avvio, senza risultati. È una decisione di Davide: niente
+  più prove lingua per lingua con il risolutore, troppo costose per quello che rendono, e priorità al
+  generatore.
+- La preregistrazione resta valida: se si riprende, si esegue così com'è.
