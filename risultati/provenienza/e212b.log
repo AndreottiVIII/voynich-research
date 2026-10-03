@@ -1,0 +1,448 @@
+Achuar-NT  tetto (testo in chiaro)                              punteggio -1.212  copertura 90.5% (6+: 68.4%)  coppie 47.7%  parole  3004  simboli   0     0s
+Aguaruna-NT tetto (testo in chiaro)                              punteggio -1.337  copertura 91.3% (6+: 71.5%)  coppie 36.7%  parole  3789  simboli   0     0s
+Akawaio-NT tetto (testo in chiaro)                              punteggio -1.324  copertura 72.6% (6+: 29.8%)  coppie 46.7%  parole  1880  simboli   0     0s
+Afrikaans  tetto (testo in chiaro)                              punteggio -1.526  copertura 64.1% (6+: 34.8%)  coppie 36.1%  parole  1565  simboli   0     0s
+Afrikaans  ripulito, segni EVA, controllo positivo              punteggio -1.526  copertura 64.1% (6+: 34.8%)  coppie 36.1%  parole  1565  chiave 100.0%  simboli  24    36s
+Afrikaans  ripulito, segni EVA, controllo negativo              punteggio -2.967  copertura 29.9% (6+:  1.7%)  coppie  0.7%  parole   195  simboli  24    56s
+Afrikaans  ripulito, segni EVA, Voynich                         punteggio -2.683  copertura 22.2% (6+:  1.2%)  coppie 14.1%  parole   143  simboli  24    13s
+Albanian   tetto (testo in chiaro)                              punteggio -1.607  copertura 74.0% (6+: 44.1%)  coppie 28.9%  parole  2871  simboli   0     0s
+Achuar-NT  ripulito, segni EVA, controllo positivo              punteggio -1.212  copertura 90.5% (6+: 68.4%)  coppie 47.7%  parole  3004  chiave 100.0%  simboli  24    43s
+Achuar-NT  ripulito, segni EVA, controllo negativo              punteggio -3.046  copertura 37.5% (6+:  6.7%)  coppie  0.5%  parole   507  simboli  24    56s
+Achuar-NT  ripulito, segni EVA, Voynich                         punteggio -2.772  copertura 51.3% (6+:  5.9%)  coppie  0.9%  parole   275  simboli  24    13s
+Achuar-NT                  punteggio 0.15 copertura_6 -0.01
+Afrikaans                  punteggio 0.20 copertura_6 -0.02
+Aguaruna-NT ripulito, segni EVA, controllo positivo              punteggio -1.337  copertura 91.3% (6+: 71.5%)  coppie 36.7%  parole  3789  chiave 100.0%  simboli  24    46s
+Aguaruna-NT ripulito, segni EVA, controllo negativo              punteggio -2.903  copertura 40.9% (6+:  8.0%)  coppie  0.1%  parole   583  simboli  24    56s
+Aguaruna-NT ripulito, segni EVA, Voynich                         punteggio -2.844  copertura 46.7% (6+: 10.1%)  coppie  0.1%  parole   499  simboli  24    13s
+Aguaruna-NT                punteggio 0.04 copertura_6 0.03
+Amuzgo-NT  tetto (testo in chiaro)                              punteggio -1.148  copertura 88.4% (6+: 69.4%)  coppie 31.6%  parole  2398  simboli   0     0s
+Akawaio-NT ripulito, segni EVA, controllo positivo              punteggio -1.324  copertura 72.6% (6+: 29.8%)  coppie 46.7%  parole  1880  chiave 100.0%  simboli  24    56s
+Akawaio-NT ripulito, segni EVA, controllo negativo              punteggio -2.982  copertura 50.0% (6+:  4.2%)  coppie  0.7%  parole   199  simboli  24    53s
+Akawaio-NT ripulito, segni EVA, Voynich                         punteggio -3.219  copertura 49.6% (6+:  3.3%)  coppie  0.5%  parole   279  simboli  24    14s
+Akawaio-NT                 punteggio -0.14 copertura_6 -0.04
+Armenian-PART tetto (testo in chiaro)                              punteggio -2.002  copertura 68.2% (6+: 43.1%)  coppie 18.2%  parole  2603  simboli   0     0s
+Ashaninka-NT tetto (testo in chiaro)                              punteggio -1.071  copertura 73.3% (6+: 61.7%)  coppie 47.1%  parole  2219  simboli   0     0s
+Amuzgo-NT  ripulito, segni EVA, controllo positivo              punteggio -1.148  copertura 88.4% (6+: 69.4%)  coppie 31.6%  parole  2398  chiave 100.0%  simboli  24    12s
+Amuzgo-NT  ripulito, segni EVA, controllo negativo              punteggio -3.380  copertura 19.4% (6+:  1.3%)  coppie  3.0%  parole    75  simboli  24    50s
+Amuzgo-NT  ripulito, segni EVA, Voynich                         punteggio -3.017  copertura 39.8% (6+:  8.0%)  coppie  1.1%  parole    68  simboli  24    13s
+Aukan-NT   tetto (testo in chiaro)                              punteggio -1.401  copertura 68.0% (6+: 21.8%)  coppie 72.2%  parole   697  simboli   0     0s
+Albanian   ripulito, segni EVA, controllo positivo              punteggio -1.607  copertura 74.0% (6+: 44.1%)  coppie 28.9%  parole  2871  chiave 100.0%  simboli  24    24s
+Albanian   ripulito, segni EVA, controllo negativo              punteggio -3.151  copertura 33.0% (6+:  2.2%)  coppie  0.2%  parole   339  simboli  24    52s
+Albanian   ripulito, segni EVA, Voynich                         punteggio -3.183  copertura 42.2% (6+:  2.0%)  coppie  0.0%  parole   369  simboli  24    13s
+Albanian                   punteggio -0.02 copertura_6 -0.00
+Amharic MemoryError((66338290976,), dtype('int64'))
+Amuzgo-NT                  punteggio 0.16 copertura_6 0.10
+Barasana-NT tetto (testo in chiaro)                              punteggio -1.109  copertura 88.2% (6+: 66.4%)  coppie 51.4%  parole  2423  simboli   0     0s
+Ashaninka-NT ripulito, segni EVA, controllo positivo              punteggio -1.416  copertura 58.4% (6+: 45.9%)  coppie 43.4%  parole  1592  chiave  93.9%  simboli  24    36s
+Ashaninka-NT ripulito, segni EVA, controllo negativo              punteggio -4.195  copertura 26.9% (6+:  3.7%)  coppie  0.5%  parole    90  simboli  24    42s
+Ashaninka-NT ripulito, segni EVA, Voynich                         punteggio -3.399  copertura 32.9% (6+:  1.1%)  coppie  3.2%  parole    81  simboli  24    12s
+Armenian-PART ripulito, segni EVA, controllo positivo              punteggio -2.534  copertura 49.6% (6+: 24.8%)  coppie 16.0%  parole  1471  chiave  91.3%  simboli  24    30s
+Armenian-PART ripulito, segni EVA, controllo negativo              punteggio -3.686  copertura 24.2% (6+:  0.2%)  coppie  0.0%  parole   129  simboli  24    48s
+Armenian-PART ripulito, segni EVA, Voynich                         punteggio -3.458  copertura 15.2% (6+:  1.2%)  coppie  5.6%  parole   105  simboli  24    14s
+Armenian-PART              punteggio 0.20 copertura_6 0.04
+Ashaninka-NT               punteggio 0.29 copertura_6 -0.06
+Basque-NT  tetto (testo in chiaro)                              punteggio -1.507  copertura 85.9% (6+: 64.2%)  coppie 27.0%  parole  3796  simboli   0     0s
+Bulgarian  tetto (testo in chiaro)                              punteggio -1.653  copertura 77.0% (6+: 52.3%)  coppie 39.7%  parole  3536  simboli   0     0s
+Barasana-NT ripulito, segni EVA, controllo positivo              punteggio -1.109  copertura 88.2% (6+: 66.4%)  coppie 51.4%  parole  2423  chiave 100.0%  simboli  24    20s
+Barasana-NT ripulito, segni EVA, controllo negativo              punteggio -4.105  copertura 34.5% (6+:  4.3%)  coppie  1.9%  parole   204  simboli  24    47s
+Barasana-NT ripulito, segni EVA, Voynich                         punteggio -3.436  copertura 44.8% (6+:  4.7%)  coppie  5.4%  parole   138  simboli  24    13s
+Aukan-NT   ripulito, segni EVA, controllo positivo              punteggio -1.401  copertura 68.0% (6+: 21.8%)  coppie 72.2%  parole   697  chiave 100.0%  simboli  24    32s
+Aukan-NT   ripulito, segni EVA, controllo negativo              punteggio -3.277  copertura 12.9% (6+:  0.6%)  coppie  1.4%  parole   100  simboli  24    42s
+Aukan-NT   ripulito, segni EVA, Voynich                         punteggio -2.903  copertura 16.8% (6+:  0.0%)  coppie  1.7%  parole    33  simboli  24    12s
+Aukan-NT                   punteggio 0.20 copertura_6 -0.02
+Barasana-NT                punteggio 0.22 copertura_6 0.01
+Cabecar-NT tetto (testo in chiaro)                              punteggio -1.481  copertura 75.7% (6+: 39.4%)  coppie 27.2%  parole  2378  simboli   0     0s
+Burmese    tetto (testo in chiaro)                              punteggio -1.793  copertura 85.1% (6+: 64.1%)  coppie 14.8%  parole  4620  simboli   0     0s
+Basque-NT  ripulito, segni EVA, controllo positivo              punteggio -1.507  copertura 85.9% (6+: 64.2%)  coppie 27.0%  parole  3796  chiave 100.0%  simboli  24    33s
+Basque-NT  ripulito, segni EVA, controllo negativo              punteggio -3.704  copertura 16.1% (6+:  1.0%)  coppie  0.3%  parole   310  simboli  24    44s
+Basque-NT  ripulito, segni EVA, Voynich                         punteggio -3.212  copertura 22.3% (6+:  1.4%)  coppie  1.1%  parole   194  simboli  24    13s
+Basque-NT                  punteggio 0.22 copertura_6 0.01
+Bulgarian  ripulito, segni EVA, controllo positivo              punteggio -1.859  copertura 69.8% (6+: 45.7%)  coppie 40.0%  parole  3168  chiave 100.0%  simboli  24    32s
+Bulgarian  ripulito, segni EVA, controllo negativo              punteggio -3.479  copertura 21.9% (6+:  1.0%)  coppie  0.0%  parole   419  simboli  24    44s
+Bulgarian  ripulito, segni EVA, Voynich                         punteggio -3.086  copertura 24.0% (6+:  1.4%)  coppie  1.1%  parole   119  simboli  24    13s
+Bulgarian                  punteggio 0.24 copertura_6 0.01
+Cakchiquel-NT tetto (testo in chiaro)                              punteggio -1.202  copertura 75.9% (6+: 50.5%)  coppie 62.5%  parole  1940  simboli   0     0s
+Camsa-NT   tetto (testo in chiaro)                              punteggio -1.126  copertura 85.9% (6+: 71.3%)  coppie 54.9%  parole  2541  simboli   0     0s
+Cabecar-NT ripulito, segni EVA, controllo positivo              punteggio -1.481  copertura 75.7% (6+: 39.4%)  coppie 27.2%  parole  2378  chiave 100.0%  simboli  24    33s
+Cabecar-NT ripulito, segni EVA, controllo negativo              punteggio -3.218  copertura 41.3% (6+:  4.8%)  coppie  0.4%  parole   362  simboli  24    41s
+Cabecar-NT ripulito, segni EVA, Voynich                         punteggio -2.900  copertura 37.8% (6+:  5.5%)  coppie  6.5%  parole   295  simboli  24    13s
+Cebuano    tetto (testo in chiaro)                              punteggio -1.437  copertura 77.2% (6+: 46.6%)  coppie 31.7%  parole  1887  simboli   0     0s
+Burmese    ripulito, segni EVA, controllo positivo              punteggio -3.991  copertura 22.5% (6+:  1.7%)  coppie  0.0%  parole   463  chiave   7.7%  simboli  24    28s
+Burmese    ripulito, segni EVA, controllo negativo              punteggio -4.271  copertura 17.9% (6+:  0.4%)  coppie  0.0%  parole   279  simboli  24    48s
+Burmese    ripulito, segni EVA, Voynich                         punteggio -3.402  copertura 42.4% (6+:  5.6%)  coppie  0.1%  parole   225  simboli  24    13s
+Burmese                    punteggio 3.10 copertura_6 4.01
+Cabecar-NT                 punteggio 0.18 copertura_6 0.02
+Chamorro-PART tetto (testo in chiaro)                              punteggio -1.533  copertura 78.3% (6+: 56.9%)  coppie 27.5%  parole  2507  simboli   0     0s
+Camsa-NT   ripulito, segni EVA, controllo positivo              punteggio -1.126  copertura 85.9% (6+: 71.3%)  coppie 54.9%  parole  2541  chiave 100.0%  simboli  24    15s
+Camsa-NT   ripulito, segni EVA, controllo negativo              punteggio -3.428  copertura 29.7% (6+:  3.9%)  coppie  0.0%  parole    55  simboli  24    42s
+Camsa-NT   ripulito, segni EVA, Voynich                         punteggio -3.258  copertura 26.8% (6+:  2.9%)  coppie  0.3%  parole   111  simboli  24    12s
+Cakchiquel-NT ripulito, segni EVA, controllo positivo              punteggio -1.251  copertura 74.7% (6+: 49.6%)  coppie 62.5%  parole  1914  chiave 100.0%  simboli  24    14s
+Cakchiquel-NT ripulito, segni EVA, controllo negativo              punteggio -3.859  copertura 21.5% (6+:  1.1%)  coppie  0.0%  parole    37  simboli  24    44s
+Cakchiquel-NT ripulito, segni EVA, Voynich                         punteggio -3.656  copertura  9.5% (6+:  0.2%)  coppie  0.0%  parole    47  simboli  24    12s
+Cakchiquel-NT              punteggio 0.08 copertura_6 -0.02
+Camsa-NT                   punteggio 0.07 copertura_6 -0.01
+Coptic-NT  tetto (testo in chiaro)                              punteggio -1.727  copertura 78.5% (6+: 45.7%)  coppie 30.6%  parole  4289  simboli   0     0s
+Cebuano    ripulito, segni EVA, controllo positivo              punteggio -1.437  copertura 77.2% (6+: 46.6%)  coppie 31.7%  parole  1887  chiave 100.0%  simboli  24    14s
+Cebuano    ripulito, segni EVA, controllo negativo              punteggio -2.562  copertura 51.3% (6+:  4.6%)  coppie  1.4%  parole   194  simboli  24    42s
+Cebuano    ripulito, segni EVA, Voynich                         punteggio -2.534  copertura 54.3% (6+:  5.5%)  coppie  1.1%  parole   157  simboli  24    12s
+Cebuano                    punteggio 0.02 copertura_6 0.02
+Creole     tetto (testo in chiaro)                              punteggio -1.671  copertura 61.4% (6+: 19.6%)  coppie 48.3%  parole  1122  simboli   0     0s
+Chamorro-PART ripulito, segni EVA, controllo positivo              punteggio -1.533  copertura 78.3% (6+: 56.9%)  coppie 27.5%  parole  2507  chiave 100.0%  simboli  24    33s
+Chamorro-PART ripulito, segni EVA, controllo negativo              punteggio -2.844  copertura 30.5% (6+:  5.6%)  coppie  0.2%  parole   177  simboli  24    43s
+Chamorro-PART ripulito, segni EVA, Voynich                         punteggio -2.720  copertura 41.9% (6+: 10.3%)  coppie  0.1%  parole   130  simboli  24    15s
+Chamorro-PART              punteggio 0.09 copertura_6 0.09
+Croatian   tetto (testo in chiaro)                              punteggio -1.975  copertura 76.6% (6+: 46.0%)  coppie 20.7%  parole  4601  simboli   0     0s
+Coptic-NT  ripulito, segni EVA, controllo positivo              punteggio -1.953  copertura 72.5% (6+: 40.2%)  coppie 31.4%  parole  3848  chiave 100.0%  simboli  24    34s
+Coptic-NT  ripulito, segni EVA, controllo negativo              punteggio -3.298  copertura 26.0% (6+:  1.3%)  coppie  0.0%  parole   180  simboli  24    43s
+Coptic-NT  ripulito, segni EVA, Voynich                         punteggio -3.240  copertura 32.6% (6+:  1.0%)  coppie  0.0%  parole   163  simboli  24    16s
+Cherokee-NT MemoryError((35153041, 77), dtype('float64'))
+Chinese-tok MemoryError((17363069361,), dtype('int64'))
+Chinese MemoryError((17363069361,), dtype('int64'))
+Coptic-NT                  punteggio 0.04 copertura_6 -0.01
+Danish     tetto (testo in chiaro)                              punteggio -1.714  copertura 71.7% (6+: 41.0%)  coppie 33.1%  parole  2491  simboli   0     0s
+Dinka-NT   tetto (testo in chiaro)                              punteggio -1.733  copertura 65.8% (6+: 25.2%)  coppie 25.6%  parole  1969  simboli   0     0s
+Creole     ripulito, segni EVA, controllo positivo              punteggio -1.671  copertura 61.4% (6+: 19.6%)  coppie 48.3%  parole  1122  chiave 100.0%  simboli  24    25s
+Creole     ripulito, segni EVA, controllo negativo              punteggio -3.330  copertura 22.2% (6+:  0.3%)  coppie  0.0%  parole   177  simboli  24    44s
+Creole     ripulito, segni EVA, Voynich                         punteggio -2.748  copertura 23.9% (6+:  4.8%)  coppie  0.0%  parole    69  simboli  24    13s
+Creole                     punteggio 0.35 copertura_6 0.23
+Dutch      tetto (testo in chiaro)                              punteggio -1.586  copertura 72.5% (6+: 44.8%)  coppie 33.3%  parole  2303  simboli   0     0s
+Danish     ripulito, segni EVA, controllo positivo              punteggio -1.735  copertura 71.4% (6+: 40.7%)  coppie 33.3%  parole  2474  chiave 100.0%  simboli  24    26s
+Danish     ripulito, segni EVA, controllo negativo              punteggio -2.651  copertura 34.3% (6+:  2.7%)  coppie  3.7%  parole    92  simboli  24    44s
+Danish     ripulito, segni EVA, Voynich                         punteggio -2.974  copertura 37.8% (6+:  1.2%)  coppie  0.0%  parole   178  simboli  24    15s
+English-WEB tetto (testo in chiaro)                              punteggio -1.444  copertura 69.3% (6+: 35.1%)  coppie 51.4%  parole  1608  simboli   0     0s
+Dinka-NT   ripulito, segni EVA, controllo positivo              punteggio -1.733  copertura 65.8% (6+: 25.2%)  coppie 25.6%  parole  1969  chiave 100.0%  simboli  24    29s
+Dinka-NT   ripulito, segni EVA, controllo negativo              punteggio -1.790  copertura 59.7% (6+:  0.0%)  coppie 45.8%  parole    13  simboli  24    43s
+Dinka-NT   ripulito, segni EVA, Voynich                         punteggio -2.733  copertura 46.6% (6+:  3.3%)  coppie 12.4%  parole   146  simboli  24    14s
+Esperanto  tetto (testo in chiaro)                              punteggio -1.461  copertura 69.3% (6+: 43.7%)  coppie 40.7%  parole  2554  simboli   0     0s
+Croatian   ripulito, segni EVA, controllo positivo              punteggio -1.975  copertura 76.6% (6+: 46.0%)  coppie 20.7%  parole  4601  chiave 100.0%  simboli  24    49s
+Croatian   ripulito, segni EVA, controllo negativo              punteggio -3.612  copertura 23.2% (6+:  0.7%)  coppie  1.0%  parole   571  simboli  24    45s
+Croatian   ripulito, segni EVA, Voynich                         punteggio -3.079  copertura 30.7% (6+:  1.8%)  coppie  0.4%  parole   367  simboli  24    14s
+Croatian                   punteggio 0.33 copertura_6 0.02
+Danish                     punteggio -0.35 copertura_6 -0.04
+Dinka-NT                   punteggio -16.61 copertura_6 0.13
+Estonian-PART tetto (testo in chiaro)                              punteggio -1.940  copertura 75.7% (6+: 37.8%)  coppie 23.7%  parole  2972  simboli   0     0s
+Dutch      ripulito, segni EVA, controllo positivo              punteggio -1.586  copertura 72.5% (6+: 44.8%)  coppie 33.3%  parole  2303  chiave 100.0%  simboli  24    31s
+Dutch      ripulito, segni EVA, controllo negativo              punteggio -2.506  copertura 29.7% (6+:  1.5%)  coppie  0.9%  parole   109  simboli  24    38s
+Dutch      ripulito, segni EVA, Voynich                         punteggio -2.972  copertura 36.5% (6+:  5.7%)  coppie 19.3%  parole   173  simboli  24    14s
+Dutch                      punteggio -0.51 copertura_6 0.10
+Ewe-NT     tetto (testo in chiaro)                              punteggio -1.611  copertura 73.7% (6+: 32.7%)  coppie 22.1%  parole  2723  simboli   0     0s
+English-WEB ripulito, segni EVA, controllo positivo              punteggio -1.448  copertura 69.2% (6+: 34.9%)  coppie 51.5%  parole  1601  chiave 100.0%  simboli  24    17s
+English-WEB ripulito, segni EVA, controllo negativo              punteggio -3.681  copertura 18.7% (6+:  0.4%)  coppie  0.0%  parole   183  simboli  24    46s
+English-WEB ripulito, segni EVA, Voynich                         punteggio -3.139  copertura 24.3% (6+:  1.9%)  coppie  1.3%  parole   158  simboli  24    13s
+English-WEB                punteggio 0.24 copertura_6 0.04
+Farsi      tetto (testo in chiaro)                              punteggio -1.871  copertura 77.7% (6+: 31.5%)  coppie 23.3%  parole  3732  simboli   0     0s
+Esperanto  ripulito, segni EVA, controllo positivo              punteggio -1.461  copertura 69.3% (6+: 43.7%)  coppie 40.7%  parole  2554  chiave 100.0%  simboli  24    23s
+Esperanto  ripulito, segni EVA, controllo negativo              punteggio -3.829  copertura 14.2% (6+:  0.3%)  coppie  0.0%  parole   288  simboli  24    42s
+Esperanto  ripulito, segni EVA, Voynich                         punteggio -3.231  copertura 18.4% (6+:  1.8%)  coppie  1.0%  parole   110  simboli  24    13s
+Esperanto                  punteggio 0.25 copertura_6 0.04
+Finnish    tetto (testo in chiaro)                              punteggio -1.580  copertura 85.8% (6+: 62.8%)  coppie 38.7%  parole  4130  simboli   0     0s
+Estonian-PART ripulito, segni EVA, controllo positivo              punteggio -1.940  copertura 75.7% (6+: 37.8%)  coppie 23.7%  parole  2972  chiave 100.0%  simboli  24    55s
+Estonian-PART ripulito, segni EVA, controllo negativo              punteggio -3.003  copertura 34.0% (6+:  5.2%)  coppie  6.3%  parole   750  simboli  24    40s
+Estonian-PART ripulito, segni EVA, Voynich                         punteggio -2.650  copertura 44.1% (6+: 10.2%)  coppie  0.2%  parole   258  simboli  24    13s
+Estonian-PART              punteggio 0.33 copertura_6 0.15
+Gaelic-PART tetto (testo in chiaro)                              punteggio -1.746  copertura 62.4% (6+: 34.1%)  coppie 28.1%  parole   481  simboli   0     0s
+Ewe-NT     ripulito, segni EVA, controllo positivo              punteggio -1.851  copertura 69.2% (6+: 28.1%)  coppie 20.8%  parole  2353  chiave 100.0%  simboli  24    22s
+Ewe-NT     ripulito, segni EVA, controllo negativo              punteggio -3.638  copertura 27.2% (6+:  0.2%)  coppie  0.3%  parole   166  simboli  24    40s
+Ewe-NT     ripulito, segni EVA, Voynich                         punteggio -3.019  copertura 37.8% (6+:  3.2%)  coppie  1.2%  parole   212  simboli  24    13s
+Ewe-NT                     punteggio 0.35 copertura_6 0.11
+Galela-NT  tetto (testo in chiaro)                              punteggio -1.173  copertura 80.8% (6+: 55.2%)  coppie 55.8%  parole  2276  simboli   0     0s
+Gaelic-PART ripulito, segni EVA, controllo positivo              punteggio -1.746  copertura 62.4% (6+: 34.1%)  coppie 28.1%  parole   481  chiave 100.0%  simboli  24     6s
+Gaelic-PART ripulito, segni EVA, controllo negativo              punteggio -3.253  copertura  7.8% (6+:  0.2%)  coppie  0.0%  parole    81  simboli  24    40s
+Gaelic-PART ripulito, segni EVA, Voynich                         punteggio -3.070  copertura 22.6% (6+:  0.3%)  coppie  0.3%  parole    91  simboli  24    13s
+Farsi      ripulito, segni EVA, controllo positivo              punteggio -3.434  copertura 30.5% (6+:  1.5%)  coppie  0.6%  parole   828  chiave   0.0%  simboli  24    36s
+Farsi      ripulito, segni EVA, controllo negativo              punteggio -3.173  copertura 36.7% (6+:  1.2%)  coppie  0.5%  parole   484  simboli  24    45s
+Farsi      ripulito, segni EVA, Voynich                         punteggio -2.896  copertura 36.2% (6+:  2.8%)  coppie  0.7%  parole   546  simboli  24    13s
+Farsi                      punteggio -1.07 copertura_6 6.64
+Gujarati-NT tetto (testo in chiaro)                              punteggio -2.165  copertura 59.1% (6+: 18.7%)  coppie 29.4%  parole  3116  simboli   0     0s
+Finnish    ripulito, segni EVA, controllo positivo              punteggio -1.580  copertura 85.8% (6+: 62.8%)  coppie 38.7%  parole  4130  chiave 100.0%  simboli  24    43s
+Finnish    ripulito, segni EVA, controllo negativo              punteggio -1.369  copertura 92.2% (6+: 69.7%)  coppie 87.4%  parole  5042  simboli  24    42s
+Finnish    ripulito, segni EVA, Voynich                         punteggio -2.698  copertura 50.0% (6+:  6.5%)  coppie  3.7%  parole   357  simboli  24    13s
+Finnish                    punteggio 6.28 copertura_6 9.17
+Gaelic-PART                punteggio 0.12 copertura_6 0.00
+Hindi      tetto (testo in chiaro)                              punteggio -2.131  copertura 46.9% (6+: 10.8%)  coppie 33.5%  parole  1558  simboli   0     0s
+Icelandic  tetto (testo in chiaro)                              punteggio -1.657  copertura 77.5% (6+: 38.4%)  coppie 39.4%  parole  3311  simboli   0     0s
+Galela-NT  ripulito, segni EVA, controllo positivo              punteggio -1.173  copertura 80.8% (6+: 55.2%)  coppie 55.8%  parole  2276  chiave 100.0%  simboli  24    19s
+Galela-NT  ripulito, segni EVA, controllo negativo              punteggio -4.260  copertura 16.0% (6+:  1.2%)  coppie  0.4%  parole   174  simboli  24    40s
+Galela-NT  ripulito, segni EVA, Voynich                         punteggio -3.645  copertura 15.4% (6+:  2.3%)  coppie  0.3%  parole   140  simboli  24    14s
+Galela-NT                  punteggio 0.20 copertura_6 0.02
+Indonesian tetto (testo in chiaro)                              punteggio -1.375  copertura 91.1% (6+: 56.8%)  coppie 63.8%  parole  1977  simboli   0     0s
+Indonesian ripulito, segni EVA, controllo positivo              punteggio -1.375  copertura 91.1% (6+: 56.8%)  coppie 63.8%  parole  1977  chiave 100.0%  simboli  24    16s
+Indonesian ripulito, segni EVA, controllo negativo              punteggio -3.371  copertura 30.4% (6+:  1.6%)  coppie  3.8%  parole   226  simboli  24    44s
+Indonesian ripulito, segni EVA, Voynich                         punteggio -3.337  copertura 26.1% (6+:  0.6%)  coppie 56.3%  parole   246  simboli  24    13s
+Jakalteko-NT tetto (testo in chiaro)                              punteggio -1.259  copertura 80.0% (6+: 46.5%)  coppie 58.2%  parole  2524  simboli   0     0s
+Icelandic  ripulito, segni EVA, controllo positivo              punteggio -1.657  copertura 77.5% (6+: 38.4%)  coppie 39.4%  parole  3311  chiave 100.0%  simboli  24    26s
+Icelandic  ripulito, segni EVA, controllo negativo              punteggio -3.192  copertura 41.9% (6+:  1.7%)  coppie  0.3%  parole   457  simboli  24    44s
+Icelandic  ripulito, segni EVA, Voynich                         punteggio -3.253  copertura 42.7% (6+:  3.8%)  coppie  0.0%  parole   274  simboli  24    13s
+Hindi      ripulito, segni EVA, controllo positivo              punteggio -4.118  copertura 13.5% (6+:  0.0%)  coppie  0.0%  parole   366  chiave  16.0%  simboli  24    32s
+Hindi      ripulito, segni EVA, controllo negativo              punteggio -4.248  copertura  7.3% (6+:  0.0%)  coppie  0.0%  parole   264  simboli  24    49s
+Hindi      ripulito, segni EVA, Voynich                         punteggio -3.452  copertura  8.1% (6+:  0.0%)  coppie  0.0%  parole   106  simboli  24    14s
+Gujarati-NT ripulito, segni EVA, controllo positivo              punteggio -2.776  copertura 42.8% (6+: 11.5%)  coppie 27.7%  parole  1711  chiave  89.0%  simboli  24    43s
+Gujarati-NT ripulito, segni EVA, controllo negativo              punteggio -3.899  copertura 23.4% (6+:  1.1%)  coppie  1.2%  parole   239  simboli  24    44s
+Gujarati-NT ripulito, segni EVA, Voynich                         punteggio -3.325  copertura 25.6% (6+:  0.1%)  coppie  0.2%  parole   134  simboli  24    15s
+Gujarati-NT                punteggio 0.51 copertura_6 -0.10
+Hindi                      punteggio 6.12 copertura_6 3133.26
+Icelandic                  punteggio -0.04 copertura_6 0.06
+Indonesian                 punteggio 0.02 copertura_6 -0.02
+K'iche'-NT-SIL tetto (testo in chiaro)                              punteggio -1.269  copertura 67.5% (6+: 40.8%)  coppie 54.6%  parole  1809  simboli   0     0s
+K'iche'-NT tetto (testo in chiaro)                              punteggio -1.283  copertura 73.9% (6+: 49.6%)  coppie 47.2%  parole  2251  simboli   0     0s
+Kabyle-NT  tetto (testo in chiaro)                              punteggio -1.647  copertura 75.3% (6+: 43.2%)  coppie 39.1%  parole  3090  simboli   0     0s
+Jakalteko-NT ripulito, segni EVA, controllo positivo              punteggio -1.268  copertura 79.8% (6+: 46.4%)  coppie 58.2%  parole  2514  chiave 100.0%  simboli  24    17s
+Jakalteko-NT ripulito, segni EVA, controllo negativo              punteggio -4.008  copertura 18.9% (6+:  1.8%)  coppie  1.4%  parole   194  simboli  24    45s
+Jakalteko-NT ripulito, segni EVA, Voynich                         punteggio -3.937  copertura 29.4% (6+:  1.9%)  coppie  5.3%  parole   124  simboli  24    13s
+Jakalteko-NT               punteggio 0.03 copertura_6 0.00
+Japanese-tok MemoryError((129891985607,), dtype('int64'))
+Japanese MemoryError((104857600000,), dtype('int64'))
+Kannada    tetto (testo in chiaro)                              punteggio -1.757  copertura 83.7% (6+: 50.9%)  coppie 24.9%  parole  4422  simboli   0     0s
+K'iche'-NT-SIL ripulito, segni EVA, controllo positivo              punteggio -1.282  copertura 67.2% (6+: 40.6%)  coppie 54.7%  parole  1803  chiave 100.0%  simboli  24    17s
+K'iche'-NT-SIL ripulito, segni EVA, controllo negativo              punteggio -3.534  copertura 16.4% (6+:  1.9%)  coppie  0.0%  parole    66  simboli  24    41s
+K'iche'-NT-SIL ripulito, segni EVA, Voynich                         punteggio -4.037  copertura  1.7% (6+:  0.3%)  coppie  0.0%  parole    63  simboli  24    13s
+K'iche'-NT-SIL             punteggio -0.22 copertura_6 -0.04
+Korean     tetto (testo in chiaro)                              punteggio -1.481  copertura 87.4% (6+: 65.9%)  coppie 25.5%  parole  4241  simboli   0     0s
+K'iche'-NT ripulito, segni EVA, controllo positivo              punteggio -1.677  copertura 59.2% (6+: 37.9%)  coppie 40.7%  parole  1816  chiave  90.9%  simboli  24    16s
+K'iche'-NT ripulito, segni EVA, controllo negativo              punteggio -4.076  copertura 11.5% (6+:  1.1%)  coppie  1.0%  parole   157  simboli  24    44s
+K'iche'-NT ripulito, segni EVA, Voynich                         punteggio -3.515  copertura 20.0% (6+:  1.3%)  coppie  1.2%  parole    90  simboli  24    13s
+K'iche'-NT                 punteggio 0.23 copertura_6 0.01
+Latvian-NT tetto (testo in chiaro)                              punteggio -1.782  copertura 74.4% (6+: 44.5%)  coppie 21.6%  parole  3974  simboli   0     0s
+Kabyle-NT  ripulito, segni EVA, controllo positivo              punteggio -1.668  copertura 74.4% (6+: 42.4%)  coppie 39.4%  parole  3038  chiave 100.0%  simboli  24    30s
+Kabyle-NT  ripulito, segni EVA, controllo negativo              punteggio -3.266  copertura 27.0% (6+:  2.0%)  coppie  0.4%  parole   204  simboli  24    41s
+Kabyle-NT  ripulito, segni EVA, Voynich                         punteggio -3.470  copertura 22.7% (6+:  0.9%)  coppie  1.6%  parole   200  simboli  24    13s
+Kabyle-NT                  punteggio -0.13 copertura_6 -0.03
+Lithuanian tetto (testo in chiaro)                              punteggio -1.694  copertura 81.9% (6+: 58.2%)  coppie 30.1%  parole  4464  simboli   0     0s
+Kannada    ripulito, segni EVA, controllo positivo              punteggio -2.368  copertura 69.3% (6+: 34.8%)  coppie 21.6%  parole  3354  chiave  93.4%  simboli  24    26s
+Kannada    ripulito, segni EVA, controllo negativo              punteggio -0.987  copertura 98.3% (6+: 15.9%)  coppie  0.0%  parole    12  simboli  24    41s
+Kannada    ripulito, segni EVA, Voynich                         punteggio -3.954  copertura 35.7% (6+:  0.7%)  coppie  0.0%  parole   253  simboli  24    14s
+Kannada                    punteggio 2.15 copertura_6 -0.81
+Lukpa-NT   tetto (testo in chiaro)                              punteggio -1.534  copertura 66.6% (6+: 33.5%)  coppie 34.3%  parole  1947  simboli   0     0s
+Korean     ripulito, segni EVA, controllo positivo              punteggio -3.091  copertura 60.3% (6+: 35.9%)  coppie 17.9%  parole  2241  chiave  90.7%  simboli  24    16s
+Korean     ripulito, segni EVA, controllo negativo              punteggio -7.030  copertura  6.7% (6+:  0.1%)  coppie  0.0%  parole   306  simboli  24    46s
+Korean     ripulito, segni EVA, Voynich                         punteggio -5.646  copertura 26.0% (6+:  0.2%)  coppie  0.8%  parole   105  simboli  24    14s
+Korean                     punteggio 0.35 copertura_6 0.00
+Malayalam  tetto (testo in chiaro)                              punteggio -1.571  copertura 82.0% (6+: 56.4%)  coppie 32.9%  parole  4032  simboli   0     0s
+Lithuanian ripulito, segni EVA, controllo positivo              punteggio -1.694  copertura 81.9% (6+: 58.2%)  coppie 30.1%  parole  4464  chiave 100.0%  simboli  24    39s
+Lithuanian ripulito, segni EVA, controllo negativo              punteggio -3.260  copertura 19.4% (6+:  2.1%)  coppie  0.5%  parole   546  simboli  24    43s
+Lithuanian ripulito, segni EVA, Voynich                         punteggio -2.951  copertura 16.0% (6+:  3.0%)  coppie  0.8%  parole   306  simboli  24    13s
+Mam-NT     tetto (testo in chiaro)                              punteggio -1.307  copertura 84.0% (6+: 49.5%)  coppie 56.4%  parole  2445  simboli   0     0s
+Latvian-NT ripulito, segni EVA, controllo positivo              punteggio -1.782  copertura 74.4% (6+: 44.5%)  coppie 21.6%  parole  3974  chiave 100.0%  simboli  24    56s
+Latvian-NT ripulito, segni EVA, controllo negativo              punteggio -3.182  copertura 25.1% (6+:  2.1%)  coppie  0.1%  parole   293  simboli  24    45s
+Latvian-NT ripulito, segni EVA, Voynich                         punteggio -2.851  copertura 36.3% (6+:  8.3%)  coppie  0.1%  parole   259  simboli  24    12s
+Latvian-NT                 punteggio 0.24 copertura_6 0.15
+Lithuanian                 punteggio 0.20 copertura_6 0.02
+Lukpa-NT   ripulito, segni EVA, controllo positivo              punteggio -1.534  copertura 66.6% (6+: 33.5%)  coppie 34.3%  parole  1947  chiave 100.0%  simboli  24    17s
+Lukpa-NT   ripulito, segni EVA, controllo negativo              punteggio -2.308  copertura 51.4% (6+:  0.7%)  coppie  0.0%  parole    49  simboli  24    40s
+Lukpa-NT   ripulito, segni EVA, Voynich                         punteggio -2.558  copertura 49.9% (6+:  0.4%)  coppie  0.0%  parole   112  simboli  24    12s
+Lukpa-NT                   punteggio -0.32 copertura_6 -0.01
+Manx-PART  tetto (testo in chiaro)                              punteggio -1.637  copertura 64.1% (6+: 38.0%)  coppie 42.3%  parole  1270  simboli   0     0s
+Maori      tetto (testo in chiaro)                              punteggio -1.516  copertura 70.5% (6+: 30.6%)  coppie 27.5%  parole  1175  simboli   0     0s
+Malayalam  ripulito, segni EVA, controllo positivo              punteggio -2.349  copertura 56.3% (6+: 31.4%)  coppie 28.3%  parole  2334  chiave  91.2%  simboli  24    24s
+Malayalam  ripulito, segni EVA, controllo negativo              punteggio -2.417  copertura 50.6% (6+: 14.4%)  coppie  0.4%  parole    19  simboli  24    37s
+Malayalam  ripulito, segni EVA, Voynich                         punteggio -2.944  copertura 41.2% (6+: 10.2%)  coppie  0.3%  parole    56  simboli  24    14s
+Malayalam                  punteggio -7.69 copertura_6 -0.25
+Marathi    tetto (testo in chiaro)                              punteggio -2.012  copertura 73.8% (6+: 35.0%)  coppie 29.5%  parole  3876  simboli   0     0s
+Mam-NT     ripulito, segni EVA, controllo positivo              punteggio -1.448  copertura 80.4% (6+: 45.4%)  coppie 56.0%  parole  2252  chiave  98.2%  simboli  24    15s
+Mam-NT     ripulito, segni EVA, controllo negativo              punteggio -2.963  copertura 38.6% (6+:  2.8%)  coppie  7.1%  parole    77  simboli  24    42s
+Mam-NT     ripulito, segni EVA, Voynich                         punteggio -3.170  copertura 42.4% (6+:  4.1%)  coppie  2.9%  parole   132  simboli  24    13s
+Mam-NT                     punteggio -0.14 copertura_6 0.03
+Nahuatl-NT tetto (testo in chiaro)                              punteggio -1.167  copertura 84.5% (6+: 65.2%)  coppie 51.0%  parole  2294  simboli   0     0s
+Manx-PART  ripulito, segni EVA, controllo positivo              punteggio -1.637  copertura 64.1% (6+: 38.0%)  coppie 42.3%  parole  1270  chiave 100.0%  simboli  24    14s
+Manx-PART  ripulito, segni EVA, controllo negativo              punteggio -2.940  copertura 16.3% (6+:  0.1%)  coppie 16.3%  parole    19  simboli  24    44s
+Manx-PART  ripulito, segni EVA, Voynich                         punteggio -2.968  copertura 16.3% (6+:  0.4%)  coppie  0.0%  parole    78  simboli  24    13s
+Manx-PART                  punteggio -0.02 copertura_6 0.01
+Nepali     tetto (testo in chiaro)                              punteggio -1.712  copertura 77.9% (6+: 45.0%)  coppie 31.0%  parole  3560  simboli   0     0s
+Maori      ripulito, segni EVA, controllo positivo              punteggio -1.516  copertura 70.5% (6+: 30.6%)  coppie 27.5%  parole  1175  chiave 100.0%  simboli  24    54s
+Maori      ripulito, segni EVA, controllo negativo              punteggio -2.317  copertura 24.0% (6+:  0.7%)  coppie  0.5%  parole   106  simboli  24    35s
+Maori      ripulito, segni EVA, Voynich                         punteggio -2.603  copertura 29.3% (6+:  4.2%)  coppie  0.2%  parole   153  simboli  24    12s
+Maori                      punteggio -0.36 copertura_6 0.12
+Norwegian  tetto (testo in chiaro)                              punteggio -1.644  copertura 71.2% (6+: 36.6%)  coppie 38.0%  parole  2236  simboli   0     0s
+Marathi    ripulito, segni EVA, controllo positivo              punteggio -2.477  copertura 58.0% (6+: 24.4%)  coppie 31.8%  parole  2367  chiave  92.1%  simboli  24    38s
+Marathi    ripulito, segni EVA, controllo negativo              punteggio -4.332  copertura 13.1% (6+:  0.1%)  coppie  0.0%  parole   419  simboli  24    43s
+Marathi    ripulito, segni EVA, Voynich                         punteggio -3.382  copertura 38.1% (6+:  6.6%)  coppie  0.1%  parole   360  simboli  24    14s
+Marathi                    punteggio 0.51 copertura_6 0.27
+Nahuatl-NT ripulito, segni EVA, controllo positivo              punteggio -2.279  copertura 44.3% (6+: 19.6%)  coppie 42.7%  parole   864  chiave  85.4%  simboli  24    16s
+Nahuatl-NT ripulito, segni EVA, controllo negativo              punteggio -3.278  copertura 15.6% (6+:  0.6%)  coppie 13.5%  parole    95  simboli  24    39s
+Nahuatl-NT ripulito, segni EVA, Voynich                         punteggio -3.128  copertura 23.9% (6+:  3.8%)  coppie  4.2%  parole   119  simboli  24    13s
+Nahuatl-NT                 punteggio 0.15 copertura_6 0.17
+Paite      tetto (testo in chiaro)                              punteggio -1.664  copertura 86.0% (6+: 54.5%)  coppie 22.9%  parole  2498  simboli   0     0s
+Polish     tetto (testo in chiaro)                              punteggio -1.717  copertura 80.2% (6+: 55.6%)  coppie 33.6%  parole  3897  simboli   0     0s
+Nepali     ripulito, segni EVA, controllo positivo              punteggio -2.447  copertura 58.6% (6+: 31.2%)  coppie 23.9%  parole  2103  chiave  90.3%  simboli  24    31s
+Nepali     ripulito, segni EVA, controllo negativo              punteggio -4.227  copertura 12.3% (6+:  0.2%)  coppie  0.0%  parole   365  simboli  24    47s
+Nepali     ripulito, segni EVA, Voynich                         punteggio -3.691  copertura 29.5% (6+:  0.5%)  coppie  0.7%  parole   276  simboli  24    14s
+Nepali                     punteggio 0.30 copertura_6 0.01
+Portuguese tetto (testo in chiaro)                              punteggio -1.563  copertura 76.9% (6+: 49.0%)  coppie 37.5%  parole  2889  simboli   0     0s
+Norwegian  ripulito, segni EVA, controllo positivo              punteggio -1.644  copertura 71.2% (6+: 36.6%)  coppie 38.0%  parole  2236  chiave 100.0%  simboli  24    26s
+Norwegian  ripulito, segni EVA, controllo negativo              punteggio -3.007  copertura 38.6% (6+:  2.1%)  coppie  1.7%  parole   407  simboli  24    40s
+Norwegian  ripulito, segni EVA, Voynich                         punteggio -3.164  copertura 33.4% (6+:  1.7%)  coppie  0.7%  parole   275  simboli  24    13s
+Norwegian                  punteggio -0.12 copertura_6 -0.01
+Ojibwa-NT MemoryError((5584059449,), dtype('float64'))
+Potawatomi-PART tetto (testo in chiaro)                              punteggio -1.676  copertura 70.2% (6+: 37.8%)  coppie 15.1%  parole  1488  simboli   0     0s
+Paite      ripulito, segni EVA, controllo positivo              punteggio -1.664  copertura 86.0% (6+: 54.5%)  coppie 22.9%  parole  2498  chiave 100.0%  simboli  24    28s
+Paite      ripulito, segni EVA, controllo negativo              punteggio -2.902  copertura 53.8% (6+:  4.3%)  coppie  0.1%  parole   716  simboli  24    39s
+Paite      ripulito, segni EVA, Voynich                         punteggio -2.593  copertura 68.1% (6+: 10.3%)  coppie  0.4%  parole   576  simboli  24    14s
+Paite                      punteggio 0.25 copertura_6 0.12
+Q'eqchi'   tetto (testo in chiaro)                              punteggio -1.422  copertura 67.8% (6+: 36.8%)  coppie 39.0%  parole  1924  simboli   0     0s
+Polish     ripulito, segni EVA, controllo positivo              punteggio -1.717  copertura 80.2% (6+: 55.6%)  coppie 33.6%  parole  3897  chiave 100.0%  simboli  24    31s
+Polish     ripulito, segni EVA, controllo negativo              punteggio -3.591  copertura 22.8% (6+:  0.8%)  coppie  0.2%  parole   302  simboli  24    41s
+Polish     ripulito, segni EVA, Voynich                         punteggio -3.043  copertura 21.3% (6+:  1.9%)  coppie  0.0%  parole   142  simboli  24    13s
+Polish                     punteggio 0.29 copertura_6 0.02
+Quichua-NT tetto (testo in chiaro)                              punteggio -1.272  copertura 92.2% (6+: 76.7%)  coppie 26.9%  parole  3295  simboli   0     0s
+Potawatomi-PART ripulito, segni EVA, controllo positivo              punteggio -1.676  copertura 70.2% (6+: 37.8%)  coppie 15.1%  parole  1488  chiave 100.0%  simboli  24    14s
+Potawatomi-PART ripulito, segni EVA, controllo negativo              punteggio -2.566  copertura 47.5% (6+:  3.9%)  coppie  1.8%  parole   419  simboli  24    39s
+Potawatomi-PART ripulito, segni EVA, Voynich                         punteggio -2.572  copertura 45.5% (6+:  4.6%)  coppie  0.2%  parole   319  simboli  24    12s
+Romani-NT  tetto (testo in chiaro)                              punteggio -1.451  copertura 75.8% (6+: 43.7%)  coppie 45.1%  parole  2103  simboli   0     0s
+Portuguese ripulito, segni EVA, controllo positivo              punteggio -1.563  copertura 76.9% (6+: 49.0%)  coppie 37.5%  parole  2889  chiave 100.0%  simboli  24    30s
+Portuguese ripulito, segni EVA, controllo negativo              punteggio -2.557  copertura 42.9% (6+:  3.4%)  coppie  0.2%  parole   240  simboli  24    43s
+Portuguese ripulito, segni EVA, Voynich                         punteggio -2.822  copertura 25.0% (6+:  0.3%)  coppie  1.0%  parole   241  simboli  24    13s
+Portuguese                 punteggio -0.27 copertura_6 -0.07
+Potawatomi-PART            punteggio -0.01 copertura_6 0.02
+Romanian   tetto (testo in chiaro)                              punteggio -1.559  copertura 76.9% (6+: 51.1%)  coppie 39.7%  parole  2525  simboli   0     0s
+Q'eqchi'   ripulito, segni EVA, controllo positivo              punteggio -1.425  copertura 67.6% (6+: 36.7%)  coppie 39.0%  parole  1920  chiave 100.0%  simboli  24    16s
+Q'eqchi'   ripulito, segni EVA, controllo negativo              punteggio -2.978  copertura 37.0% (6+:  4.0%)  coppie  4.7%  parole   136  simboli  24    38s
+Q'eqchi'   ripulito, segni EVA, Voynich                         punteggio -3.058  copertura 34.2% (6+:  3.3%)  coppie  0.3%  parole   169  simboli  24    13s
+Q'eqchi'                   punteggio -0.05 copertura_6 -0.02
+Russian    tetto (testo in chiaro)                              punteggio -1.852  copertura 78.4% (6+: 53.5%)  coppie 23.1%  parole  4372  simboli   0     0s
+Quichua-NT ripulito, segni EVA, controllo positivo              punteggio -1.272  copertura 92.2% (6+: 76.7%)  coppie 26.9%  parole  3295  chiave 100.0%  simboli  24    21s
+Quichua-NT ripulito, segni EVA, controllo negativo              punteggio -3.550  copertura 31.2% (6+:  4.1%)  coppie  0.6%  parole   252  simboli  24    38s
+Quichua-NT ripulito, segni EVA, Voynich                         punteggio -3.200  copertura 25.5% (6+:  6.6%)  coppie  1.5%  parole   274  simboli  24    13s
+Quichua-NT                 punteggio 0.15 copertura_6 0.04
+Serbian    tetto (testo in chiaro)                              punteggio -1.840  copertura 78.3% (6+: 47.3%)  coppie 30.3%  parole  3873  simboli   0     0s
+Romani-NT  ripulito, segni EVA, controllo positivo              punteggio -1.473  copertura 75.0% (6+: 43.5%)  coppie 44.7%  parole  2071  chiave 100.0%  simboli  24    20s
+Romani-NT  ripulito, segni EVA, controllo negativo              punteggio -3.325  copertura 25.6% (6+:  0.6%)  coppie  0.9%  parole   108  simboli  24    40s
+Romani-NT  ripulito, segni EVA, Voynich                         punteggio -2.936  copertura 16.7% (6+:  0.3%)  coppie  0.5%  parole    79  simboli  24    13s
+Romani-NT                  punteggio 0.21 copertura_6 -0.01
+Shona      tetto (testo in chiaro)                              punteggio -1.487  copertura 86.8% (6+: 67.6%)  coppie 39.5%  parole  3837  simboli   0     0s
+Romanian   ripulito, segni EVA, controllo positivo              punteggio -1.559  copertura 76.9% (6+: 51.1%)  coppie 39.7%  parole  2525  chiave 100.0%  simboli  24    38s
+Romanian   ripulito, segni EVA, controllo negativo              punteggio -3.349  copertura 24.2% (6+:  1.0%)  coppie  1.2%  parole   399  simboli  24    45s
+Romanian   ripulito, segni EVA, Voynich                         punteggio -2.852  copertura 40.9% (6+:  2.3%)  coppie 11.4%  parole   328  simboli  24    13s
+Romanian                   punteggio 0.28 copertura_6 0.03
+Shuar-NT   tetto (testo in chiaro)                              punteggio -1.336  copertura 86.2% (6+: 64.4%)  coppie 30.7%  parole  3483  simboli   0     0s
+Russian    ripulito, segni EVA, controllo positivo              punteggio -2.115  copertura 66.3% (6+: 42.5%)  coppie 22.4%  parole  3475  chiave  96.5%  simboli  24    38s
+Russian    ripulito, segni EVA, controllo negativo              punteggio -3.709  copertura 15.1% (6+:  0.6%)  coppie  0.0%  parole   446  simboli  24    43s
+Russian    ripulito, segni EVA, Voynich                         punteggio -3.155  copertura 26.2% (6+:  1.4%)  coppie  0.0%  parole   212  simboli  24    13s
+Russian                    punteggio 0.35 copertura_6 0.02
+Slovak     tetto (testo in chiaro)                              punteggio -1.742  copertura 79.1% (6+: 50.1%)  coppie 39.5%  parole  3935  simboli   0     0s
+Serbian    ripulito, segni EVA, controllo positivo              punteggio -1.840  copertura 78.3% (6+: 47.3%)  coppie 30.3%  parole  3873  chiave 100.0%  simboli  24    44s
+Serbian    ripulito, segni EVA, controllo negativo              punteggio -3.664  copertura 23.3% (6+:  0.7%)  coppie  1.2%  parole   626  simboli  24    41s
+Serbian    ripulito, segni EVA, Voynich                         punteggio -3.212  copertura 30.8% (6+:  1.8%)  coppie  1.0%  parole   317  simboli  24    13s
+Serbian                    punteggio 0.25 copertura_6 0.02
+Slovene    tetto (testo in chiaro)                              punteggio -1.790  copertura 76.8% (6+: 48.2%)  coppie 25.4%  parole  4166  simboli   0     0s
+Shona      ripulito, segni EVA, controllo positivo              punteggio -1.487  copertura 86.8% (6+: 67.6%)  coppie 39.5%  parole  3837  chiave 100.0%  simboli  24    23s
+Shona      ripulito, segni EVA, controllo negativo              punteggio -4.815  copertura 16.6% (6+:  1.4%)  coppie  0.4%  parole   307  simboli  24    41s
+Shona      ripulito, segni EVA, Voynich                         punteggio -3.856  copertura 13.9% (6+:  1.2%)  coppie  0.3%  parole   213  simboli  24    13s
+Shona                      punteggio 0.29 copertura_6 -0.00
+Somali     tetto (testo in chiaro)                              punteggio -1.482  copertura 82.5% (6+: 54.9%)  coppie 37.3%  parole  3030  simboli   0     0s
+Shuar-NT   ripulito, segni EVA, controllo positivo              punteggio -1.336  copertura 86.2% (6+: 64.4%)  coppie 30.7%  parole  3483  chiave 100.0%  simboli  24    56s
+Shuar-NT   ripulito, segni EVA, controllo negativo              punteggio -2.843  copertura 45.4% (6+:  9.5%)  coppie  0.1%  parole   615  simboli  24    44s
+Shuar-NT   ripulito, segni EVA, Voynich                         punteggio -2.804  copertura 39.9% (6+:  7.1%)  coppie  0.5%  parole   475  simboli  24    12s
+Shuar-NT                   punteggio 0.03 copertura_6 -0.04
+Swahili-NT tetto (testo in chiaro)                              punteggio -1.598  copertura 81.0% (6+: 45.4%)  coppie 35.5%  parole  2977  simboli   0     0s
+Slovak     ripulito, segni EVA, controllo positivo              punteggio -1.742  copertura 79.1% (6+: 50.1%)  coppie 39.5%  parole  3935  chiave 100.0%  simboli  24    35s
+Slovak     ripulito, segni EVA, controllo negativo              punteggio -3.312  copertura 18.3% (6+:  0.8%)  coppie  1.4%  parole   306  simboli  24    43s
+Slovak     ripulito, segni EVA, Voynich                         punteggio -3.096  copertura 17.2% (6+:  0.7%)  coppie  5.9%  parole   280  simboli  24    13s
+Slovak                     punteggio 0.14 copertura_6 -0.00
+Swedish    tetto (testo in chiaro)                              punteggio -1.610  copertura 76.8% (6+: 41.0%)  coppie 38.3%  parole  2377  simboli   0     0s
+Somali     ripulito, segni EVA, controllo positivo              punteggio -1.482  copertura 82.5% (6+: 54.9%)  coppie 37.3%  parole  3030  chiave 100.0%  simboli  24    27s
+Somali     ripulito, segni EVA, controllo negativo              punteggio -2.438  copertura 60.8% (6+:  9.8%)  coppie  0.4%  parole   374  simboli  24    39s
+Somali     ripulito, segni EVA, Voynich                         punteggio -2.425  copertura 59.4% (6+: 13.6%)  coppie  1.0%  parole   370  simboli  24    13s
+Syriac-NT  tetto (testo in chiaro)                              punteggio -2.198  copertura 71.5% (6+: 24.6%)  coppie 13.8%  parole  4087  simboli   0     0s
+Slovene    ripulito, segni EVA, controllo positivo              punteggio -1.790  copertura 76.8% (6+: 48.2%)  coppie 25.4%  parole  4166  chiave 100.0%  simboli  24    41s
+Slovene    ripulito, segni EVA, controllo negativo              punteggio -3.826  copertura 18.0% (6+:  0.5%)  coppie  0.0%  parole   652  simboli  24    40s
+Slovene    ripulito, segni EVA, Voynich                         punteggio -3.408  copertura 21.2% (6+:  0.5%)  coppie  0.7%  parole   360  simboli  24    13s
+Slovene                    punteggio 0.21 copertura_6 0.00
+Somali                     punteggio 0.01 copertura_6 0.08
+Tachelhit-NT tetto (testo in chiaro)                              punteggio -1.770  copertura 74.0% (6+: 33.2%)  coppie 37.1%  parole  2769  simboli   0     0s
+Swahili-NT ripulito, segni EVA, controllo positivo              punteggio -1.658  copertura 80.1% (6+: 45.4%)  coppie 33.8%  parole  2976  chiave 100.0%  simboli  24    24s
+Swahili-NT ripulito, segni EVA, controllo negativo              punteggio -3.553  copertura 25.1% (6+:  1.4%)  coppie  4.6%  parole   162  simboli  24    46s
+Swahili-NT ripulito, segni EVA, Voynich                         punteggio -3.232  copertura 24.2% (6+:  4.1%)  coppie  0.9%  parole   156  simboli  24    13s
+Swahili-NT                 punteggio 0.17 copertura_6 0.06
+Tagalog    tetto (testo in chiaro)                              punteggio -1.461  copertura 76.4% (6+: 51.5%)  coppie 25.4%  parole  1855  simboli   0     0s
+Swedish    ripulito, segni EVA, controllo positivo              punteggio -1.610  copertura 76.8% (6+: 41.0%)  coppie 38.3%  parole  2377  chiave 100.0%  simboli  24    27s
+Swedish    ripulito, segni EVA, controllo negativo              punteggio -3.241  copertura 36.3% (6+:  2.2%)  coppie  0.8%  parole   533  simboli  24    44s
+Swedish    ripulito, segni EVA, Voynich                         punteggio -3.228  copertura 44.2% (6+:  3.2%)  coppie  0.6%  parole   364  simboli  24    13s
+Swedish                    punteggio 0.01 copertura_6 0.02
+Telugu     tetto (testo in chiaro)                              punteggio -1.960  copertura 81.1% (6+: 49.5%)  coppie 15.4%  parole  5897  simboli   0     0s
+Syriac-NT  ripulito, segni EVA, controllo positivo              punteggio -2.198  copertura 71.5% (6+: 24.6%)  coppie 13.8%  parole  4087  chiave 100.0%  simboli  24    40s
+Syriac-NT  ripulito, segni EVA, controllo negativo              punteggio -3.146  copertura 30.6% (6+:  0.4%)  coppie  1.1%  parole   480  simboli  24    40s
+Syriac-NT  ripulito, segni EVA, Voynich                         punteggio -2.957  copertura 39.4% (6+:  1.2%)  coppie  9.2%  parole   413  simboli  24    13s
+Syriac-NT                  punteggio 0.20 copertura_6 0.03
+Thai-tok   tetto (testo in chiaro)                              punteggio -2.015  copertura 37.1% (6+: 13.8%)  coppie 38.9%  parole  1056  simboli   0     0s
+Tachelhit-NT ripulito, segni EVA, controllo positivo              punteggio -1.770  copertura 74.0% (6+: 33.2%)  coppie 37.1%  parole  2769  chiave 100.0%  simboli  24    45s
+Tachelhit-NT ripulito, segni EVA, controllo negativo              punteggio -3.157  copertura 33.1% (6+:  1.2%)  coppie  0.2%  parole   407  simboli  24    40s
+Tachelhit-NT ripulito, segni EVA, Voynich                         punteggio -3.051  copertura 16.8% (6+:  0.4%)  coppie  0.0%  parole   296  simboli  24    13s
+Tachelhit-NT               punteggio 0.08 copertura_6 -0.02
+Thai       tetto (testo in chiaro)                              punteggio -1.787  copertura 23.0% (6+: 17.2%)  coppie  5.2%  parole   545  simboli   0     0s
+Tagalog    ripulito, segni EVA, controllo positivo              punteggio -1.461  copertura 76.4% (6+: 51.5%)  coppie 25.4%  parole  1855  chiave 100.0%  simboli  24    32s
+Tagalog    ripulito, segni EVA, controllo negativo              punteggio -2.609  copertura 30.1% (6+:  3.0%)  coppie  1.0%  parole   206  simboli  24    45s
+Tagalog    ripulito, segni EVA, Voynich                         punteggio -2.619  copertura 27.6% (6+:  2.1%)  coppie  6.0%  parole   161  simboli  24    13s
+Tagalog                    punteggio -0.01 copertura_6 -0.02
+Tuareg-PART tetto (testo in chiaro)                              punteggio -1.806  copertura 67.9% (6+: 36.3%)  coppie 20.0%  parole  1321  simboli   0     0s
+Telugu     ripulito, segni EVA, controllo positivo              punteggio -2.189  copertura 76.1% (6+: 40.8%)  coppie 11.3%  parole  5097  chiave  95.7%  simboli  24    37s
+Telugu     ripulito, segni EVA, controllo negativo              punteggio -3.072  copertura 56.2% (6+:  5.7%)  coppie  0.2%  parole   601  simboli  24    45s
+Telugu     ripulito, segni EVA, Voynich                         punteggio -2.365  copertura 72.6% (6+: 22.9%)  coppie  3.3%  parole   336  simboli  24    14s
+Telugu                     punteggio 0.80 copertura_6 0.49
+Ukranian-NT tetto (testo in chiaro)                              punteggio -2.071  copertura 67.1% (6+: 38.4%)  coppie 18.0%  parole  3532  simboli   0     0s
+Thai-tok   ripulito, segni EVA, controllo positivo              punteggio -2.873  copertura 23.0% (6+:  8.5%)  coppie 37.0%  parole   609  chiave  88.3%  simboli  24    31s
+Thai-tok   ripulito, segni EVA, controllo negativo              punteggio -4.022  copertura  5.2% (6+:  0.0%)  coppie  0.0%  parole    58  simboli  24    45s
+Thai-tok   ripulito, segni EVA, Voynich                         punteggio -3.266  copertura 10.6% (6+:  0.0%)  coppie  0.0%  parole    21  simboli  24    14s
+Thai-tok                   punteggio 0.66 copertura_6 -0.00
+Uma-NT     tetto (testo in chiaro)                              punteggio -1.401  copertura 72.8% (6+: 34.3%)  coppie 41.7%  parole  1821  simboli   0     0s
+Thai       ripulito, segni EVA, controllo positivo              punteggio -2.729  copertura 11.5% (6+:  8.6%)  coppie  5.1%  parole   254  chiave  88.4%  simboli  24    35s
+Thai       ripulito, segni EVA, controllo negativo              punteggio -4.086  copertura  0.3% (6+:  0.0%)  coppie  0.0%  parole    11  simboli  24    43s
+Thai       ripulito, segni EVA, Voynich                         punteggio -3.516  copertura  0.2% (6+:  0.0%)  coppie  0.0%  parole     4  simboli  24    14s
+Thai                       punteggio 0.42 copertura_6 0.00
+Uspanteco-NT tetto (testo in chiaro)                              punteggio -1.135  copertura 84.4% (6+: 58.9%)  coppie 70.2%  parole  2095  simboli   0     0s
+Tuareg-PART ripulito, segni EVA, controllo positivo              punteggio -1.808  copertura 67.9% (6+: 36.2%)  coppie 20.0%  parole  1315  chiave 100.0%  simboli  24    12s
+Tuareg-PART ripulito, segni EVA, controllo negativo              punteggio -2.805  copertura 37.4% (6+:  1.9%)  coppie  4.8%  parole   253  simboli  24    43s
+Tuareg-PART ripulito, segni EVA, Voynich                         punteggio -2.823  copertura 39.7% (6+:  0.1%)  coppie  0.6%  parole    53  simboli  24    13s
+Tuareg-PART                punteggio -0.02 copertura_6 -0.05
+Vietnamese-tok tetto (testo in chiaro)                              punteggio -1.709  copertura 45.0% (6+:  1.2%)  coppie 64.9%  parole   434  simboli   0     0s
+Ukranian-NT ripulito, segni EVA, controllo positivo              punteggio -2.503  copertura 56.1% (6+: 30.3%)  coppie 18.6%  parole  2782  chiave 100.0%  simboli  24    35s
+Ukranian-NT ripulito, segni EVA, controllo negativo              punteggio -3.752  copertura  9.9% (6+:  0.4%)  coppie  0.0%  parole   206  simboli  24    42s
+Ukranian-NT ripulito, segni EVA, Voynich                         punteggio -3.500  copertura 24.1% (6+:  0.3%)  coppie  0.0%  parole   140  simboli  24    13s
+Ukranian-NT                punteggio 0.20 copertura_6 -0.00
+Vietnamese tetto (testo in chiaro)                              punteggio -1.708  copertura 45.0% (6+:  1.3%)  coppie 65.1%  parole   435  simboli   0     0s
+Uma-NT     ripulito, segni EVA, controllo positivo              punteggio -1.401  copertura 72.8% (6+: 34.3%)  coppie 41.7%  parole  1821  chiave 100.0%  simboli  24    28s
+Uma-NT     ripulito, segni EVA, controllo negativo              punteggio -3.668  copertura 30.3% (6+:  0.8%)  coppie  0.7%  parole   195  simboli  24    40s
+Uma-NT     ripulito, segni EVA, Voynich                         punteggio -3.068  copertura 25.3% (6+:  0.4%)  coppie  3.7%  parole   160  simboli  24    13s
+Uma-NT                     punteggio 0.26 copertura_6 -0.01
+Uspanteco-NT ripulito, segni EVA, controllo positivo              punteggio -1.138  copertura 84.3% (6+: 58.8%)  coppie 70.3%  parole  2089  chiave 100.0%  simboli  24    15s
+Uspanteco-NT ripulito, segni EVA, controllo negativo              punteggio -4.003  copertura 22.4% (6+:  1.0%)  coppie  5.2%  parole   135  simboli  24    40s
+Uspanteco-NT ripulito, segni EVA, Voynich                         punteggio -3.916  copertura 19.6% (6+:  1.6%)  coppie  1.9%  parole   121  simboli  24    13s
+Uspanteco-NT               punteggio 0.03 copertura_6 0.01
+Wolaytta-NT tetto (testo in chiaro)                              punteggio -1.312  copertura 89.1% (6+: 68.5%)  coppie 31.6%  parole  3484  simboli   0     0s
+Wolof-NT   tetto (testo in chiaro)                              punteggio -1.813  copertura 68.7% (6+: 26.3%)  coppie 39.4%  parole  2120  simboli   0     0s
+Vietnamese-tok ripulito, segni EVA, controllo positivo              punteggio -1.709  copertura 45.0% (6+:  1.2%)  coppie 64.9%  parole   434  chiave 100.0%  simboli  24    20s
+Vietnamese-tok ripulito, segni EVA, controllo negativo              punteggio -3.591  copertura  3.0% (6+:  0.0%)  coppie 50.0%  parole    81  simboli  24    41s
+Vietnamese-tok ripulito, segni EVA, Voynich                         punteggio -3.270  copertura 26.2% (6+:  0.0%)  coppie  2.2%  parole    93  simboli  24    13s
+Vietnamese-tok             punteggio 0.17 copertura_6 0.00
+Xhosa      tetto (testo in chiaro)                              punteggio -1.656  copertura 84.6% (6+: 64.7%)  coppie 25.9%  parole  4279  simboli   0     0s
+Wolaytta-NT ripulito, segni EVA, controllo positivo              punteggio -1.324  copertura 88.9% (6+: 68.4%)  coppie 31.6%  parole  3471  chiave 100.0%  simboli  24    16s
+Wolaytta-NT ripulito, segni EVA, controllo negativo              punteggio -2.333  copertura 46.0% (6+:  3.3%)  coppie  0.2%  parole   106  simboli  24    38s
+Wolaytta-NT ripulito, segni EVA, Voynich                         punteggio -2.313  copertura 52.3% (6+:  1.1%)  coppie  1.3%  parole   107  simboli  24    12s
+Vietnamese ripulito, segni EVA, controllo positivo              punteggio -1.708  copertura 45.0% (6+:  1.3%)  coppie 65.1%  parole   435  chiave 100.0%  simboli  24    19s
+Vietnamese ripulito, segni EVA, controllo negativo              punteggio -3.483  copertura  1.3% (6+:  0.0%)  coppie  0.0%  parole    42  simboli  24    40s
+Vietnamese ripulito, segni EVA, Voynich                         punteggio -3.051  copertura 28.4% (6+:  0.0%)  coppie  0.2%  parole    71  simboli  24    13s
+Vietnamese                 punteggio 0.24 copertura_6 0.00
+Wolaytta-NT                punteggio 0.02 copertura_6 -0.03
+Zarma      tetto (testo in chiaro)                              punteggio -1.704  copertura 67.8% (6+: 25.5%)  coppie 38.9%  parole  1359  simboli   0     0s
+Zulu-NT    tetto (testo in chiaro)                              punteggio -1.557  copertura 80.1% (6+: 60.2%)  coppie 21.0%  parole  4143  simboli   0     0s
+Wolof-NT   ripulito, segni EVA, controllo positivo              punteggio -1.813  copertura 68.7% (6+: 26.3%)  coppie 39.4%  parole  2120  chiave 100.0%  simboli  24    35s
+Wolof-NT   ripulito, segni EVA, controllo negativo              punteggio -2.596  copertura 36.6% (6+:  2.7%)  coppie  1.4%  parole   187  simboli  24    38s
+Wolof-NT   ripulito, segni EVA, Voynich                         punteggio -2.714  copertura 36.1% (6+:  3.4%)  coppie  2.8%  parole   248  simboli  24    13s
+Wolof-NT                   punteggio -0.15 copertura_6 0.03
+Chinese-pinyin tetto (testo in chiaro)                              punteggio -1.307  copertura 64.7% (6+:  7.0%)  coppie 78.5%  parole   596  simboli   0     0s
+Xhosa      ripulito, segni EVA, controllo positivo              punteggio -1.696  copertura 83.1% (6+: 62.8%)  coppie 26.0%  parole  4148  chiave 100.0%  simboli  24    24s
+Xhosa      ripulito, segni EVA, controllo negativo              punteggio -3.133  copertura 31.7% (6+:  4.3%)  coppie  5.6%  parole   101  simboli  24    41s
+Xhosa      ripulito, segni EVA, Voynich                         punteggio -3.616  copertura 19.4% (6+:  2.0%)  coppie  1.4%  parole   241  simboli  24    13s
+Xhosa                      punteggio -0.34 copertura_6 -0.04
+Zulu-NT    ripulito, segni EVA, controllo positivo              punteggio -1.617  copertura 78.9% (6+: 59.1%)  coppie 20.6%  parole  4032  chiave 100.0%  simboli  24    20s
+Zulu-NT    ripulito, segni EVA, controllo negativo              punteggio -4.315  copertura 11.8% (6+:  0.6%)  coppie  0.0%  parole   181  simboli  24    38s
+Zulu-NT    ripulito, segni EVA, Voynich                         punteggio -3.136  copertura 22.3% (6+:  5.0%)  coppie  0.0%  parole    74  simboli  24    12s
+Zarma      ripulito, segni EVA, controllo positivo              punteggio -1.704  copertura 67.8% (6+: 25.5%)  coppie 38.9%  parole  1359  chiave 100.0%  simboli  24    25s
+Zarma      ripulito, segni EVA, controllo negativo              punteggio -2.552  copertura 40.8% (6+:  1.8%)  coppie  3.5%  parole   127  simboli  24    36s
+Zarma      ripulito, segni EVA, Voynich                         punteggio -2.963  copertura 25.5% (6+:  1.3%)  coppie  2.2%  parole   146  simboli  24    12s
+Zarma                      punteggio -0.48 copertura_6 -0.02
+Zulu-NT                    punteggio 0.44 copertura_6 0.07
+Chinese-pinyin ripulito, segni EVA, controllo positivo              punteggio -1.808  copertura 59.1% (6+:  5.9%)  coppie 65.7%  parole   435  chiave  95.5%  simboli  24     9s
+Chinese-pinyin ripulito, segni EVA, controllo negativo              punteggio -7.823  copertura  0.7% (6+:  0.0%)  coppie  0.0%  parole    22  simboli  24    38s
+Chinese-pinyin ripulito, segni EVA, Voynich                         punteggio -5.963  copertura 16.8% (6+:  0.0%)  coppie  1.7%  parole    56  simboli  24    11s
+Chinese-pinyin             punteggio 0.31 copertura_6 0.00
+candidati [('Hindi', 6.118134967437567, 3133.262854057683), ('Finnish', 6.2840953860877535, 9.174159461832588), ('Burmese', 3.098290939482169, 4.013756614253671)]
