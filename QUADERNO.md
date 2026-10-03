@@ -10230,3 +10230,22 @@ etichette 0,49.
 - **Riassunto preregistrato (senza soglie):** le regole di raccordo e di posto sono vere ma lasciano libera gran parte
   della scelta: l'82% dell'incertezza su *qo*-/*o*- e il 93% su -*l*/-*r*.
 - Da vedere (e3a37): quanto aggiunge la parola stessa (alcune parole potrebbero preferire di loro una forma).
+
+## 4/10/2026 (notte) — e3a37: la parola stessa aggiunge poco; qo-/o- e -l/-r restano scelte in gran parte libere
+
+Preregistrato (`preregistrazioni/e3a37.md`). Pagine pari contro dispari.
+
+| scelta | modello | incertezza tolta | accuratezza | scelta più frequente |
+|---|---|---|---|---|
+| *qo*-/*o*- | solo la parola (nucleo dalla gallows) | 3,5% | 63,1% | 55,3% |
+| *qo*-/*o*- | solo il contesto | 17,9% | 71,2% | |
+| *qo*-/*o*- | insieme | **18,5%** | 70,9% | |
+| -*l*/-*r* | solo la parola (tronco) | 5,0% | 59,7% | 48,8% |
+| -*l*/-*r* | solo il contesto | 7,0% | 61,1% | |
+| -*l*/-*r* | insieme | **10,8%** | 64,8% | |
+
+- **Esito preregistrato: tutte e due le scelte "in gran parte libere"** (insieme sotto il 25%).
+- **Lettura:** né la parola né il contesto trovato decidono molto. Più dell'80% dell'incertezza su *qo*-/*o*- e quasi
+  il 90% su -*l*/-*r* restano liberi. Sono scelte fatte al momento, con una spinta del raccordo ma per il resto aperte.
+  Questo vale anche come dato per il voynichizzatore: proprio in queste scelte si può nascondere un messaggio senza
+  rompere le regole trovate (purché si rispettino le spinte del raccordo).
