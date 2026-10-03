@@ -1,0 +1,59 @@
+{
+ "pagine": 181,
+ "mani": {
+  "1": 98,
+  "2": 46,
+  "5": 7,
+  "3": 30
+ },
+ "caratteristiche": [
+  "passo di riga / h",
+  "spazio fra parole / h",
+  "larghezza per unita / h",
+  "inclinazione",
+  "variabilita altezza"
+ ],
+ "controllo (lingua dentro la sezione)": {
+  "accuratezza": 0.7370165745856353,
+  "nullo": 0.575828729281768,
+  "z": 4.809070471063973,
+  "p": 0.004975124378109453
+ },
+ "mani dentro lingua x sezione": {
+  "accuratezza": 0.6342541436464089,
+  "nullo": 0.6223204419889503,
+  "z": 0.7223959062564271,
+  "p": 0.2935323383084577
+ },
+ "medie_per_mano": {
+  "1": {
+   "passo di riga / h": 0.9521187348258967,
+   "spazio fra parole / h": 0.2532803688802931,
+   "larghezza per unita / h": 0.4805772212458853,
+   "inclinazione": -0.0014723437875556811,
+   "variabilita altezza": 0.3559282291180314
+  },
+  "2": {
+   "passo di riga / h": 0.8822458866616477,
+   "spazio fra parole / h": 0.2753642794403664,
+   "larghezza per unita / h": 0.4620929888204732,
+   "inclinazione": 0.11634313991761759,
+   "variabilita altezza": 0.3342979484283832
+  },
+  "3": {
+   "passo di riga / h": 0.890436507936508,
+   "spazio fra parole / h": 0.29011904761904755,
+   "larghezza per unita / h": 0.45619047619047615,
+   "inclinazione": -0.0025332335754810697,
+   "variabilita altezza": 0.3148412698412699
+  },
+  "5": {
+   "passo di riga / h": 0.8711734693877551,
+   "spazio fra parole / h": 0.298469387755102,
+   "larghezza per unita / h": 0.46028911564625846,
+   "inclinazione": -0.010142043256272012,
+   "variabilita altezza": 0.32142857142857145
+  }
+ },
+ "esito": "nessuna differenza oltre lingua e sezione"
+}
