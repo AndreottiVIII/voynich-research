@@ -5714,3 +5714,38 @@ sequenza.
 - **Lettura.** Le righe meno legate alle vicine sono scritte con lo stesso inchiostro e la stessa
   grandezza. Non ci sono tracce di aggiunte successive riconoscibili così: la scarsa affinità è
   variazione normale del procedimento, non un altro momento di scrittura.
+
+## 3/10/2026 — e246: nessun messaggio nella sequenza delle modifiche delle varianti
+
+- **Preregistrato.** Strada 3 della lista di decifrazione.
+  - Sequenza delle operazioni di variante (25 più frequenti più "altro").
+  - S1: informazione mutua fra operazioni consecutive nella riga.
+  - S2: informazione mutua fra l'ultima operazione di una riga e la prima della successiva.
+- **Risultati:**
+  - Voynich: S1 z 0,7, S2 z −1,3;
+  - generatore senza messaggio: z −0,2 e 0,5;
+  - **controllo positivo** (testo latino nelle stesse posizioni): z 122,6 e 86,9, valido.
+  - Il canale porta 2,70 bit per variante, cioè **circa 35.000 bit** al massimo su tutto il
+    manoscritto.
+- **Esito: nessuna struttura.** La scelta della modifica è indistinguibile da quella di un generatore
+  senza messaggio. Un messaggio scritto così si vedrebbe subito.
+
+## 3/10/2026 — e247, e247b, e247c: la scelta della fonte è "a vista", con una correlazione residua fra parole vicine ancora da spiegare
+
+- **e247, preregistrato.** Strada 4: scarto orizzontale Δ fra parola e fonte nella riga sopra, sui
+  riquadri.
+  - **M1:** mediana |Δ| 1,88 passi di parola contro 2,60 a caso (z −20). La fonte è molto vicina:
+    copia a vista.
+  - **M2:** Δ consecutivi correlati, 0,335 contro 0,091 (z 21).
+  - Esito: struttura da esaminare.
+- **e247b, preregistrato.**
+  - Parole consecutive copiano parole consecutive della riga sopra (passo +1) più del caso: 13,1%
+    contro 10,7%, z 4,2.
+  - La correlazione resta anche fuori da quelle coppie: 0,196 contro 0,069, z 5,7.
+- **e247c, preregistrato.** Togliendo lo slittamento della riga (mediana dei Δ delle altre coppie) la
+  correlazione resta: 0,420 contro 0,288, z 4,2. Esito: struttura non spiegata, da esaminare.
+- **Lettura provvisoria.** Prima di pensare a una scelta intenzionale c'è un'altra spiegazione
+  meccanica da escludere: la **geometria locale**. Due parole vicine stanno sotto lo stesso tratto della
+  riga sopra; la fonte più vicina dipende da come sono spaziate lì le parole, qualunque sia il loro
+  contenuto. Il rimescolamento dei Δ dentro la riga rompe questa dipendenza e quindi non è il nullo
+  giusto. L'e247d usa un nullo che conserva la geometria e cambia solo le parole.
