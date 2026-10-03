@@ -6846,3 +6846,13 @@ sequenza.
 - **Lettura.** Le 18 materie originali sono quasi tutte prese, ma nessuna delle 8 materie aggiunte: la pagella a 18
   sopravvalutava il generatore. Ognuna delle otto ha un meccanismo candidato (errori sparsi, lunghezza stabile, rima delle
   desinenze nella riga, successore già visto, prime righe): sono la v4.
+
+## 3/10/2026 — e298, e299: le famiglie di parole nella pagina non distinguono; la fine riga dipende appena dalla lunghezza
+
+- **e298 (famiglie):** tipi legati da una modifica, componenti per pagina. Voynich: 117 tipi, 36,4 famiglie, 3,09 tipi per
+  famiglia, 75% delle occorrenze in famiglie di 2+ tipi; generatore e288 (semi 7–9): 112 tipi, 34–35 famiglie, 3,02–3,08,
+  78–79%. **Nessuna misura diversa.** La maggiore varietà del Voynich nella pagina non viene da una diversa struttura per
+  famiglie ma, secondo l'e296, dalle parole rare sparse (errori).
+- **e299 (fine riga):** le righe che finiscono in *m* o *g* sono più lunghe dell'1,5% rispetto alla media della pagina
+  (z 2,0); generatore −1,9…+0,3% (z −1,8…0,3). **Esito: incerto.** Un indizio debole di uso dei finali di riga per
+  chiudere righe lunghe; non una prova di giustificazione.
