@@ -22,21 +22,33 @@ Il vecchio PC (i5-7200U, 2 core, 8 GB) era saturo.
 | e270 | parole nuove delle piante (e190 con profili di bigrammi) | — |
 | e275 | generatore appreso dalla mistura dell'e259b | — |
 
-## Primo compito sul nuovo PC: verifica del trasloco
+**Verifica del trasloco: fatta.** e277 ed e278 rieseguiti sul nuovo PC danno risultati identici byte per byte
+(QUADERNO, voce "Trasloco sul nuovo PC").
 
-1. Rieseguire **e277** ed **e278**, che sono veloci.
-2. Confrontare i `.json` con quelli committati. Devono essere identici, a parte il blocco di provenienza.
-3. Scrivere l'esito nel QUADERNO (voce "trasloco"):
-   - processore, Python e versioni dei pacchetti del nuovo PC;
-   - il fatto che `dati/cache` è stato copiato dal vecchio PC.
+**Decisione di Davide (3/10):** anche e249, e269, e270 ed e275 si rilanciano sul nuovo PC, a costo di ripeterli.
+- Chi finisce per primo committa i risultati.
+- La seconda corsa **non sovrascrive**: si confronta con quella committata (come in `verifica_replica.py`) e
+  l'esito va nel QUADERNO come replica.
+
+## In esecuzione sul nuovo PC (code staccate, avviate il 3/10 alle 12:51)
+
+| coda | esperimenti | note |
+|---|---|---|
+| gemelle | e257 | |
+| sezioni | e276 | base e241 (e243b chiuso, AUC e266 0,947) |
+| decifra1 | e222 → e219 | `PROCESSI=4` |
+| decifra2 | e223 → e216 → e212b | `PROCESSI=4`; e212b con `RIPARTENZE=2`, come preregistrato |
+| vecchio1 | e249 → e270 | ripetuti dal vecchio PC; e249 con `PROCESSI=2` |
+| vecchio2 | e269 → e275 | ripetuti dal vecchio PC; e269 con `PROCESSI=2` |
+
+La catena di decifrazione è divisa in due code: gli esperimenti non dipendono dai risultati l'uno dell'altro
+(e223 usa solo i corpora dell'e219).
 
 ## Da fare (in ordine)
 
-1. **e257** (righe gemelle).
-2. **Catena di decifrazione:** e222 → e219 → e223 → e216 → e212b. Con più core si può alzare `PROCESSI`.
-3. **e276** (κ e χ per sezione).
-   - Il codice è pronto e può partire subito.
-   - L'e243b è chiuso (non superato, AUC e266 0,947), quindi la base sarà l'e241.
+1. ~~**e257** (righe gemelle).~~ In esecuzione.
+2. ~~**Catena di decifrazione:** e222 → e219 → e223 → e216 → e212b.~~ In esecuzione.
+3. ~~**e276** (κ e χ per sezione).~~ In esecuzione.
 4. **Piano 18/18, passo 2 (e251).**
    - Il passo 1 è chiuso con la lacuna dichiarata (e243 ed e243b non superati).
    - Il codice attuale è costruito sul generatore dell'e243, che ha fallito.
