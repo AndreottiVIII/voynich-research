@@ -1,0 +1,4 @@
+e300 Voynich                                      A 0.1286 nullo 0.0971 z 8.5 | Spearman -0.132
+e300 controllo positivo: Bibbia latina in pagine  A 0.1244 nullo 0.0534 z 23.1 | Spearman -0.173
+e301 mani 2 e 3: {'pagine': 74, 'accuratezza': 0.7702702702702703, 'nullo': 0.5073783783783784, 'z': 3.3915523745199097} | strati {'H': 1.1} | sezioni per mano {('H', '2'): 20, ('B', '2'): 19, ('T', '2'): 4, ('C', '2'): 3, ('H', '3'): 6, ('S', '3'): 22}
+ordine di rilegatura vicino a quello di scrittura | mani distinguibili
