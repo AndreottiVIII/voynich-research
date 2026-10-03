@@ -10648,3 +10648,25 @@ parole).
 - **Esito preregistrato: regge in tutte le parti.**
 - In lingua A (mano 1) la giuntura è più debole (e393), ma la sua forma ricalca ancora di più le sequenze dentro le
   parole (0,66). È una proprietà del sistema di scrittura, non di una sola lingua o di un solo scriba.
+
+## 4/10/2026 (notte) — e3a55: la frequenza delle parole del Voynich segue la loro forma, come nei generatori e non come nelle lingue
+
+Preregistrato (`preregistrazioni/e3a55.md`). ρ = correlazione di Spearman, dentro le classi di lunghezza, fra la
+probabilità di forma di una parola (catena di segni di ordine 1 stimata sui tipi) e il logaritmo della sua frequenza
+(tipi con almeno 2 occorrenze). Codice provato prima su testi sensati e generatori.
+
+| testo | ρ |
+|---|---|
+| **Voynich** (a 10.000 parole, mediana) | **0,583** (tutto 0,618) |
+| testi sensati (71) | da −0,132 a 0,278, mediana 0,110 (più alti: Corano 0,278, sanscrito 0,267 e 0,253) |
+| gibberish umano | 0,085 |
+| Naibbe (cifrario verboso) | 0,409 |
+| U2 / U3 | 0,574 / 0,600 |
+| Timm e Schinner, seme 1 | 0,527 |
+
+- **Esito preregistrato: la frequenza segue la forma più che nelle lingue** (Voynich sopra il 100% dei testi sensati).
+- **Lettura:** nel Voynich le parole frequenti sono le sequenze di segni più "probabili" per le regole di sequenza,
+  come nei testi prodotti da un procedimento sui segni (generatori, cifrario verboso). Nelle lingue, e anche nel
+  gibberish inventato a mano, la frequenza di una parola dipende poco dalla sua forma. Cautela: il risultato vale anche
+  per un cifrario verboso (Naibbe 0,41), quindi non lo esclude; esclude invece un vocabolario in cui le parole frequenti
+  siano scelte per il significato, come in una lingua o in un cifrario a dizionario.
