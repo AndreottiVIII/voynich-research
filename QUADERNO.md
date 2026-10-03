@@ -6733,3 +6733,22 @@ sequenza.
     posizione fisica), lo spazio con meno spezzature.
   - Il discriminatore scende anche lui (−0,04 / −0,03): le materie della pagella e i suoi indizi in parte coincidono.
   - È il nuovo riferimento per il corpo del voynichizzatore (v2) e per la regolazione congiunta.
+
+## 3/10/2026 — e283: la ricerca casuale congiunta sui parametri vecchi non migliora; lezione sull'"effetto vincitore"
+
+- **Preregistrato:** 96 configurazioni casuali di 13 parametri dell'e241, più 24 di affinamento, sul seme 1;
+  obiettivo AUC dell'e266 con la pagella non oltre 1 sotto l'e241; verifica sui semi 7–9.
+- **Seme 1:** la scelta (a017: α 1,23, κ 1,81, χ 0,00, ν 0,35, λ 1,38, η 0,19, δ 0,34, ψ 0,03, σ 0,04, π 0,34) ha AUC
+  dell'e266 0,910 contro 0,956 dell'e241, pagella 15 contro 14.
+- **Verifica** (semi 7–9; e241 → scelta): pagella 45 → **40** (perde omogeneità, verticale, formule, bordo di riga,
+  a volte deriva); riga in 2 → 3 semi; AUC dell'e231 0,873 → 0,890, dell'e266 0,961 → 0,948.
+- **Esito preregistrato: non migliore.**
+- **Lettura.**
+  - **Effetto vincitore.** Fra 121 configurazioni valutate su un solo seme, la migliore lo è in parte per caso:
+    l'AUC oscilla di circa ±0,03 da un seme all'altro. Sui semi di verifica il vantaggio si dimezza, e il vincolo
+    largo sulla pagella (meno 1) lascia perdere proprietà. L'e288, che sceglie prima per pagella su una griglia
+    piccola, regge invece benissimo alla verifica. Da qui l'integrazione dell'e289: due semi di ricerca, scelta per
+    pagella poi AUC. L'e253, in corso, ha lo stesso disegno dell'e283 e va letto con questa cautela.
+  - **Correlazioni con l'AUC dell'e266 sul seme 1** (positiva = alzarlo peggiora): γ +0,72, χ +0,50, ν +0,51, φ fisica
+    +0,46, η +0,36, σ +0,30; δ −0,41, κ −0,29, α −0,24, π −0,22. Il lessico di sezione, la copia della parola
+    precedente e le varianti facili tradiscono il generatore; prendere basi dal Voynich intero e variare le rare aiuta.
