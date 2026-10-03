@@ -1,0 +1,52 @@
+{
+ "risultato": {
+  "pagine": 202,
+  "A": 0.13559653751290768,
+  "nullo": 0.11282382735352091,
+  "z": 5.723860735725164,
+  "spearman_distanza_somiglianza": -0.14234858668196226,
+  "coppie_consecutive_meno_simili": [
+   [
+    0.0,
+    "f17r",
+    "f17v"
+   ],
+   [
+    0.0,
+    "f25v",
+    "f27r"
+   ],
+   [
+    0.0,
+    "f2v",
+    "f3r"
+   ],
+   [
+    0.0,
+    "f40v",
+    "f41r"
+   ],
+   [
+    0.0,
+    "f45v",
+    "f47r"
+   ],
+   [
+    0.0,
+    "f52r",
+    "f52v"
+   ],
+   [
+    0.0,
+    "f53r",
+    "f53v"
+   ],
+   [
+    0.0,
+    "f5r",
+    "f5v"
+   ]
+  ]
+ },
+ "esito": "traccia d'ordine oltre la lingua"
+}
