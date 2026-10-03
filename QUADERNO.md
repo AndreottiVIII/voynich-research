@@ -5942,3 +5942,17 @@ sequenza.
   - un inizio e una fine come una riga.
 
   Non compaiono strutture da contenuto (ordinali, serie numeriche, testo circolare continuo).
+
+## 3/10/2026 — e264: nessuna chiave che cambia a ogni pagina
+
+- **Preregistrato.** Per ogni pagina la migliore delle 64 combinazioni di scambi (ch↔sh, k↔t, p↔f,
+  ckh↔cth, cph↔cfh, l↔r). Guadagno = aumento della quota di parole attestate nel resto del testo.
+- **Risultati** (guadagno medio):
+  - Voynich **0,0103**;
+  - generatore senza chiave (e241) 0,0117;
+  - generatore con chiave di pagina a caso **0,0255**.
+  - Mann-Whitney: positivo > negativo p = 1,9·10⁻¹⁵ (valido); Voynich > negativo **p = 0,56**.
+- **Esito: nessuna chiave di pagina.**
+- **Lettura.** Una chiave diversa per pagina, fatta di scambi fra segni simili, si vedrebbe chiaramente.
+  Il Voynich si comporta come un testo con sole abitudini di pagina. Le differenze di grafia fra pagine
+  sono abitudini, non chiavi.
