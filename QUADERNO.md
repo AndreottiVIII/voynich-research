@@ -9903,3 +9903,23 @@ Preregistrato (`preregistrazioni/e3a21.md`). Misura dell'e3a15 per sezione.
 - Esplorativo a parte (scratchpad), sulle pagine "solo testo" dell'e3a06: le parole non si spezzano fra una riga e
   l'altra (l'unione fine riga + inizio riga è una parola nota solo nello 0,5% dei casi, contro l'1,3% altrove). Il legame
   a capo di quelle pagine resta da spiegare.
+
+## 4/10/2026 (notte) — e3a22: la prima riga del paragrafo pende verso il lato "B" dell'asse, e la seconda un po' meno
+
+Preregistrato (`preregistrazioni/e3a22.md`). Asse A/B semplice (quota di *e* + parole in -*y* − quota di *a* − quota di
+*n* − parole in -*n*); positivo = verso B (-*edy*).
+
+| confronto | paragrafi | differenza media | z |
+|---|---|---|---|
+| prima riga contro il resto del paragrafo | 667 | **+0,100** | 6,7 |
+| prima riga senza la prima parola | 667 | +0,115 | 7,3 |
+| seconda riga contro le righe dalla terza (controllo) | 667 | +0,049 | 3,0 |
+| prima riga, lingua A | 232 | +0,054 | 2,0 |
+| prima riga, lingua B | 417 | +0,128 | 6,9 |
+
+- **Esito preregistrato: la prima riga è spostata verso B (-edy).** Non dipende dalla prima parola con la gallows.
+- **Il controllo però non è zero:** anche la seconda riga pende verso B rispetto alle seguenti (z 3,0). Non è quindi
+  "un'altra lingua" nella prima riga, ma una **pendenza** lungo l'inizio del paragrafo: le prime righe hanno più *e* e
+  finali -*y*, meno *a* e -*n*; poi il paragrafo si assesta. Più forte nelle pagine in lingua B.
+- Da collegare: nell'e3a20 *sh* e *t* stavano soprattutto nella prima riga. L'apertura del paragrafo è un registro un
+  po' diverso, che sfuma nelle righe successive.

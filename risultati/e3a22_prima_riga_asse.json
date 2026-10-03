@@ -1,0 +1,30 @@
+{
+ "misure": {
+  "prima riga": {
+   "paragrafi": 667,
+   "media": 0.10021847670476397,
+   "z": 6.6555150635267575
+  },
+  "seconda riga (controllo)": {
+   "paragrafi": 667,
+   "media": 0.04859147679320435,
+   "z": 3.043558742699871
+  },
+  "prima riga senza la prima parola": {
+   "paragrafi": 667,
+   "media": 0.11519943187673373,
+   "z": 7.314619696197748
+  },
+  "prima riga, lingua A": {
+   "paragrafi": 232,
+   "media": 0.05360969219511843,
+   "z": 2.0361822517282064
+  },
+  "prima riga, lingua B": {
+   "paragrafi": 417,
+   "media": 0.12766875289893503,
+   "z": 6.8763399559817024
+  }
+ },
+ "esito": "la prima riga è spostata verso B (-edy)"
+}
