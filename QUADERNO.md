@@ -10670,3 +10670,19 @@ probabilità di forma di una parola (catena di segni di ordine 1 stimata sui tip
   gibberish inventato a mano, la frequenza di una parola dipende poco dalla sua forma. Cautela: il risultato vale anche
   per un cifrario verboso (Naibbe 0,41), quindi non lo esclude; esclude invece un vocabolario in cui le parole frequenti
   siano scelte per il significato, come in una lingua o in un cifrario a dizionario.
+
+## 4/10/2026 (notte) — e3a56: la frequenza segue la forma con tutte e tre le trascrizioni, in lingua A e B e per ogni scriba
+
+Preregistrato (`preregistrazioni/e3a56.md`). Stessa misura dell'e3a55, mediana di 5 sottoinsiemi di pagine.
+
+| parte | dimensione | mediana ρ | soglia (massimo delle lingue alla stessa dimensione) | esito |
+|---|---|---|---|---|
+| IT (Takahashi) | 10.000 | 0,573 | 0,278 | regge |
+| GC (Glen Claston, v101) | 10.000 | 0,611 | 0,278 | regge |
+| lingua A | 5.000 | 0,585 | 0,364 | regge |
+| lingua B | 5.000 | 0,573 | 0,364 | regge |
+| mano 1 / 2 / 3 | 5.000 | 0,594 / 0,613 / 0,593 | 0,364 | regge |
+
+- **Esito: regge ovunque**, con valori quasi identici (0,57–0,61). Anche con l'alfabeto di Glen Claston, che divide i
+  glifi in modo diverso dall'EVA. A 5.000 parole le lingue hanno un massimo più alto (0,364) ma la mediana resta 0,110.
+- Il legame frequenza-forma è quindi una proprietà di tutto il testo, non di una parte o di un modo di trascrivere.
