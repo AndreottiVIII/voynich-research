@@ -814,8 +814,10 @@ negativi; i numeri sono nei file di `risultati/`.
   vicine del caso (z −5,4): la grafia dello scriba cambia nel tempo.
 - **Coppie identiche di parole lunghe** (e305): 0,94% delle coppie vicine, soprattutto *chol chol*, *qokeedy qokeedy*.
 - **Che cosa predice una parola** (modello del Voynich, pesi per massima verosimiglianza senza la pagina in esame): la
-  sezione e il **segno finale della parola precedente**, non la coppia esatta né la riga sopra; la prima parola dei
-  paragrafi è una parola nuova quasi una volta su due.
+  sezione e il **segno finale della parola precedente**, non la coppia esatta; la prima parola dei paragrafi è una
+  parola nuova quasi una volta su due. (Il peso quasi nullo della riga sopra in quel prototipo **non** va letto come
+  "niente copia verticale": la misura diretta dell'e338 trova parole simili nelle righe subito sopra e nella stessa
+  colonna più del caso, §15.10.)
 - **Ogni pagina ha un'identità forte, lungo un solo asse** (e307). Il profilo dei segni di una pagina si allontana da
   quello della sua sezione e lingua 2,8 volte più del caso (z 70); nella Bibbia, a pagine di argomento diverso, 1,75.
   - L'identità è soprattutto la posizione della pagina fra due estremi, parole in -*edy*/-*eey* contro parole in
@@ -899,3 +901,19 @@ negativi; i numeri sono nei file di `risultati/`.
   ogni pagina, ma il verso non ne ha più del recto, né il foglio seguente più del precedente.
 - **Nessun "argomento" netto** nei paragrafi dell'erbario A (e334): i gruppi trovati dall'LDA non sono più netti che su
   paragrafi fatti a caso con le stesse parole.
+
+### 15.10 Posizione, autocitazione, zodiaco (e337–e339)
+
+- **La posizione nella riga governa le scelte di grafia** (e337): per tutte e cinque le scelte (*ch*/*sh*, *k*/*t*,
+  -*l*/-*r*, *qo*-/*o*-, -*dy*/-*ey*) il fattore più forte è la posizione della parola nella riga; poi il tipo di riga e
+  l'altezza nella pagina. Paragrafo e faccia del foglio non contano.
+- **Le previsioni dell'autocitazione di Timm e Schinner reggono** (e338):
+  - una parola ha una parola uguale o a una modifica nelle 2 righe subito sopra più del caso (z 16,6), più che nel loro
+    generatore;
+  - quando la fonte è nella riga subito sopra, sta nella stessa colonna ±1 più del caso (z 8,7), quanto nel loro
+    generatore.
+
+  Cautele: la prima misura include il lessico del paragrafo, la seconda gli effetti di posizione nella riga. La verifica
+  è in preparazione (e340).
+- **Le etichette dello zodiaco non sono una sequenza di giorni** (e339): la stessa posizione in mesi diversi non porta
+  la stessa etichetta; tre etichette su quattro cominciano con *o*.
