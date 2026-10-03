@@ -1,0 +1,99 @@
+{
+ "a": {
+  "lingua": {
+   "bifogli": 48,
+   "omogenei": 1,
+   "nullo": 0.6543541666666667,
+   "z": 11.821441196347024,
+   "esito": "lingua di sessione",
+   "misti": []
+  },
+  "mano": {
+   "bifogli": 52,
+   "omogenei": 0.9423076923076923,
+   "nullo": 0.6305192307692308,
+   "z": 13.935200984346357,
+   "esito": "mano di sessione",
+   "misti": [
+    "H-1: f57r 5, f57v 1, f66r 5, f66v 5",
+    "N-1: f85r1 2, f85r2 2, fRos 4, f86v4 2, f86v6 2, f86v5 2, f86v3 2",
+    "T-2: f104r 3, f104v 3, f115r @, f115v 3"
+   ]
+  }
+ },
+ "b": {
+  "prima": {
+   "parole": 2482,
+   "quota": 0.3698630136986301,
+   "nullo": 0.31414585012087026,
+   "eccesso": 0.055717163577759854,
+   "z": 8.855543857303536
+  },
+  "seconda": {
+   "parole": 2412,
+   "quota": 0.49917081260364843,
+   "nullo": 0.4478475695003678,
+   "eccesso": 0.051323243103280625,
+   "z": 5.961932685366703
+  },
+  "mezzo": {
+   "parole": 10097,
+   "quota": 0.5231256808953154,
+   "nullo": 0.4643788874099344,
+   "eccesso": 0.05874679348538103,
+   "z": 15.073302417554924
+  },
+  "penultima": {
+   "parole": 2308,
+   "quota": 0.48440207972270366,
+   "nullo": 0.43997158072134734,
+   "eccesso": 0.044430499001356316,
+   "z": 6.005923804143488
+  },
+  "ultima": {
+   "parole": 2457,
+   "quota": 0.34554334554334554,
+   "nullo": 0.3181964928601832,
+   "eccesso": 0.027346852683162337,
+   "z": 3.5910542064044457
+  }
+ },
+ "c": {
+  "ch/sh": {
+   "coppie_vicine": 2877,
+   "stessa_forma_vicine": 0.559610705596107,
+   "coppie_lontane": 4415,
+   "stessa_forma_lontane": 0.5408833522083806,
+   "z": 2.0157330150798516
+  },
+  "k/t": {
+   "coppie_vicine": 4074,
+   "stessa_forma_vicine": 0.615365733922435,
+   "coppie_lontane": 6240,
+   "stessa_forma_lontane": 0.6166666666666667,
+   "z": -0.17078582721595756
+  },
+  "-l/-r": {
+   "coppie_vicine": 3035,
+   "stessa_forma_vicine": 0.5950576606260296,
+   "coppie_lontane": 3721,
+   "stessa_forma_lontane": 0.6095135716205321,
+   "z": -1.6324133998231287
+  },
+  "o-/qo-": {
+   "coppie_vicine": 3568,
+   "stessa_forma_vicine": 0.585482062780269,
+   "coppie_lontane": 5632,
+   "stessa_forma_lontane": 0.5873579545454546,
+   "z": -0.22760512329579136
+  },
+  "-dy/-ey": {
+   "coppie_vicine": 3570,
+   "stessa_forma_vicine": 0.7949579831932773,
+   "coppie_lontane": 6625,
+   "stessa_forma_lontane": 0.7655849056603774,
+   "z": 4.142801187027591
+  }
+ },
+ "esito_c": "in parte: -dy/-ey"
+}
