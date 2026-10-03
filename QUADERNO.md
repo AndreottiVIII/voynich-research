@@ -10573,3 +10573,24 @@ Preregistrato (`preregistrazioni/e3a52.md`). Misura dell'e3a49 (Voynich 0,44–0
   capo (Q 0,97), mentre nel Voynich si chiude nella riga (Q −0,02). Il Voynich ha tutte e due le cose: catena con spazi
   deboli, **e** riga chiusa. Nessun generatore pubblicato le ha insieme. Per il voynichizzatore: una catena di segni
   per riga, con gli spazi inseriti, che riparte da capo a ogni riga.
+
+## 4/10/2026 (notte) — Descrittivo: dopo quali segni cade lo spazio
+
+Non preregistrato (scratchpad, conteggio). Probabilità che dopo un segno (non a fine riga) venga uno spazio sicuro o
+incerto (ZL, paragrafi):
+
+| segno | occorrenze | spazio sicuro | spazio incerto |
+|---|---|---|---|
+| *n* | 5.136 | 0,951 | 0,018 |
+| *y* | 14.443 | 0,815 | 0,030 |
+| *m* | 303 | 0,799 | 0,043 |
+| *r* | 6.166 | 0,691 | 0,079 |
+| *l* | 9.008 | 0,464 | 0,075 |
+| *s* | 2.118 | 0,361 | 0,079 |
+| *o* | 22.271 | 0,031 | 0,017 |
+| *d* | 11.753 | 0,030 | 0,005 |
+| tutti gli altri (*e*, *a*, *i*, *ch*, *k*, *t*, *q*, *sh*, gallows…) | | sotto 0,03 | |
+
+- Le "parole" sono pezzi della catena di segni tagliati quasi sempre dopo *n*, *y*, *m*, a scelta dopo *r*, *l*, *s*
+  (dove si concentrano anche gli spazi incerti), quasi mai altrove. I tagli a scelta sono i punti delle parole spezzate
+  o attaccate (*or aiin*, *ol chedy*, *s aiin*: e379). Va con e397 (spazi prevedibili al 73%) e e3a49 (catena).
