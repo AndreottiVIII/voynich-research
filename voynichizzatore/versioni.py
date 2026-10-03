@@ -22,6 +22,8 @@ V5 = OrderedDict(V4, delta=0.2)                                    # prova_v6: 3
 V6 = OrderedDict(V5, rip=0.4)                                      # prova_v7: 39, AUC 0,816/0,923 -> 0,782/0,903
 #   ma al banco (semi 7-9) peggiore della v5: pagella estesa 55 contro 57, AUC 0,827/0,936 contro 0,816/0,917. NON confermata.
 V7 = OrderedDict(V5, galli_su=1.0, galli_giu=0.7)                  # prova_v8 (semi 1-2): AUC e266 0,923 -> 0,861, G8 0,87 -> 0,67
+# impianto "pezzi" (e400-e406): sacco di pagina dal modello e disposizione; parametri in pezzi_parametri.json
+V8 = OrderedDict([('impianto', 'pezzi')])
 VERSIONI = OrderedDict([
     ('v2', OrderedDict([('corpo', E288), ('modello', 'v1')])),
     ('v3', OrderedDict([('corpo', E288), ('modello', 'v3')])),
@@ -29,11 +31,15 @@ VERSIONI = OrderedDict([
     ('v5', OrderedDict([('corpo', V5), ('modello', 'v3')])),
     ('v6', OrderedDict([('corpo', V6), ('modello', 'v3')])),
     ('v7', OrderedDict([('corpo', V7), ('modello', 'v3')])),
+    ('v8', OrderedDict([('corpo', V8), ('modello', 'v3')])),
 ])
 
 
 def corpo(parametri, seme):
     """Il corpo (righe dopo spezzature e prefissi, poi gli errori sparsi) con i parametri dati e il seme dato."""
+    if parametri.get('impianto') == 'pezzi':
+        import pezzi
+        return pezzi.corpo(seme)
     import corpo6
     import e233_frequenti_esatte as e233
     import e236_due_fonti as e236

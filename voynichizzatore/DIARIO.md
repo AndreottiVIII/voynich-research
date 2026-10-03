@@ -295,3 +295,25 @@ Risultati nel QUADERNO (voce "vz: e405"). Sacco intero: N1 0,582, N2 0,563, **N3
 - In preparazione: e406 (posti delle parole nuove dal modello; pesi della disposizione regolati sul sacco generato; versione v8 nel registro; poi banco e293 ai semi 7–9).
 
 - Dopo: materie di pagella mancate (con i valori grezzi dell'e406), ordine delle righe, nascondiglio.
+
+**22:27 — e406 lanciato** (coda `vz-pezzi`; `voynichizzatore/pezzi.py`). Nella prova: i posti dal modello danno 4.829 parole nuove (vere 4.776) con le stesse quote per posto (prima di paragrafo 0,48). Previsioni: P1 0,62–0,70 / 0,72–0,80; P3 0,58–0,66 / 0,68–0,77, pagella 14–16.
+
+## 3/10/2026, 22:45 — e406 finito: generatore a pezzi 0,558 / 0,703; v8 nel registro; banco lanciato
+
+
+
+Risultati nel QUADERNO (voce "vz: e406"). P1 0,667 / 0,747; P2 0,670 / 0,744; **P3 0,558 / 0,703**, pagella 13,8. La regolazione dei legami sul sacco generato non converge (unione 2,7, coppia 0): ipotesi, le parole inventate sono meno spesso "due parole note unite" (48% contro 68%). Materie di pagella mancate in 4 semi su 4: legame (confine 0,057 contro 0,188), profilo pagina, verticale, scelte di riga (5 contro 12), concordanza delle desinenze (0,106 contro 0,043), coppie viste altrove.
+
+
+
+**v8 = impianto a pezzi** (`versioni.V8`, `pezzi.corpo(seme)`, parametri in `voynichizzatore/pezzi_parametri.json`). Uso: `python voynichizzatore/voynichizzatore.py codifica testo.txt --chiave X --uscita m.txt --versione v8`. Banco: `PROCESSI=4 python esegui.py e293 -- --v8`.
+
+
+
+### Dove siamo (3/10, 22:45)
+
+
+
+- Generatore intero a pezzi: fatto (v8). In corso: banco e293 della v8 sui semi 7–9 con Isidoro nascosto.
+
+- Elenco di lavoro dopo il banco: (1) legame/confine, verticale, scelte di riga, concordanza delle desinenze (pagella e cancello della riga); (2) parole nuove come unioni di parole note (unioni attestate, regolazione dei legami); (3) ordine delle righe (JSD fra le due metà); (4) nascondiglio (0,63 da solo).

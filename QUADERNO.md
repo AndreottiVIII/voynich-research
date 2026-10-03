@@ -8107,3 +8107,40 @@ Preregistrato (`preregistrazioni/e351.md`).
   - nel testo delle altre pagine dello stesso bifoglio 0,619 contro 0,596, z 0,6.
   - **Esito preregistrato: no** per tutte e due. Le etichette non si legano al testo né della loro pagina né della loro
     sessione (con l'e311).
+
+## 3/10/2026 — vz: e406, il generatore intero a pezzi: 0,558 / 0,703 sui semi di ricerca (v5: 0,812 / 0,918), pagella 13,8
+
+Chat del voynichizzatore. Preregistrato (`preregistrazioni/e406.md`). Del Voynich vero il generatore usa
+l'impaginazione e le statistiche. Risultati in `risultati/e406_generatore_pezzi.md`. Semi 1–4.
+
+| strato | AUC e231 | AUC e266 | previste | solo sacco | pagella | estese | trigrammi dal Voynich |
+|---|---|---|---|---|---|---|---|
+| P1, posti delle parole nuove veri, pesi della disposizione dell'e401b | 0,667 | 0,747 | 0,62–0,70 / 0,72–0,80 | 0,542 | 14,2/18 | 4,8/8 | 1,0% |
+| P2, posti dal modello | 0,670 | 0,744 | ±0,03 da P1 | 0,523 | 14,2/18 | 4,5/8 | 1,1% |
+| P3, anche i pesi dei legami regolati sul sacco generato | **0,558** | **0,703** | 0,58–0,66 / 0,68–0,77 | 0,523 | 13,8/18 | 4,0/8 | 0,7% |
+| v5, stessi semi (e402) | 0,812 | 0,918 | | 0,794 | 16,5/18 | 3,0/8 | |
+
+- **I posti delle parole nuove dal modello non costano niente** (P2 = P1), come previsto: quota per tipo di posto ×
+  moltiplicatore della pagina tipo.
+- **P3: il giudice dell'e231 scende sotto 0,6 (0,558)**; quello dell'e266 a 0,703. Sono i numeri più bassi mai visti
+  nel progetto per un generatore intero, su quattro semi di ricerca; il banco sui semi 7–9 è la verifica.
+- **La regolazione dei legami sul sacco generato NON converge** (scarto massimo 14%): il peso dell'unione sale a 2,7,
+  quello della coppia esatta va a 0, e le unioni attestate restano a 8,4% (Voynich 9,2%) mentre le coppie viste
+  altrove salgono a 25% (22%). **Ipotesi sul perché:** nel Voynich il 68% delle parole uniche si legge come due parole
+  note unite, e sono loro a rendere "attestata" l'unione di due parole vicine; le parole inventate lo sono solo nel
+  48% dei casi. Il difetto è nel sacco (come nascono le parole nuove), non nella disposizione. Da verificare.
+- **La pagella è il punto debole** (13,8 contro 16,5 della v5; cancello della riga perso). Materie mancate in 4 semi
+  su 4, con i valori grezzi (Voynich → P3):
+  - **legame** (confine): 0,188 → 0,057;
+  - **profilo pagina** (V3_R): 1,02 → 0,59; quota media 0,061 → 0,041;
+  - **verticale:** 1,028 → 1,003;
+  - **scelte di riga:** 12 classi → 5;
+  - **concordanza delle desinenze:** 0,043 → 0,106 (troppa);
+  - **coppie viste altrove:** 0,221 → 0,251 (troppe, solo in P3);
+  - in 2–3 semi: formule (5,2 → 8,7 in P3), gradiente, parole rare per pagina (R 1,96 → 5,6), prime righe come
+    registro (z 4,7 → 3,1).
+- **Esito secondo la preregistrazione:** P3 migliore di P2 di oltre 0,02 sul giudice forte → **P3 è la v8**
+  (`voynichizzatore/pezzi_parametri.json`, versione `v8` nel registro). Va al banco e293.
+- **Lettura.** I due giudici, che guardano medie di pagina, sono quasi soddisfatti da un modello fatto di pochi pezzi
+  capiti uno per uno. La pagella, che guarda strutture fini fra parole e fra righe (legame, verticale, scelte di grafia
+  concordi nella riga), no: è il lavoro che resta, insieme al nascondiglio.

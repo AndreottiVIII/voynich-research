@@ -1,0 +1,17 @@
+{
+ "theta": 2279.8533259024025,
+ "kappa": 0.7082046955954662,
+ "forme": {
+  "comuni": true,
+  "quattro": true,
+  "forza": 0.3700702129489423
+ },
+ "posti": "modello",
+ "pesi_disposizione": {
+  "bordi": 0.7673999869496276,
+  "unione": 2.6747287496396708,
+  "coppia": 0.0,
+  "identica": -0.5539620973290211
+ },
+ "origine": "e406, strato P3"
+}
