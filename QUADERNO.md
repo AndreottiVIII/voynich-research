@@ -5136,3 +5136,30 @@ sequenza.
   - qo-/o- e -l/-r non sono del tutto imprevedibili come sembrava nell'e210: con lingua, sezione e
     posizione perdono il 6–8%.
   - Per il voynichizzatore è anche una stima della capacità di questi canali in un testo indistinguibile.
+
+## 3/10/2026 — e233: variare le parole rare e tenere esatte le frequenti aiuta, ma non abbastanza (AUC 0,93 → 0,89)
+
+- **Preregistrato.**
+  - κ: modifiche medie MU·(2r)^κ, con r rango percentile della parola.
+  - χ: la seconda candidata è una variante della parola precedente.
+  - Dopo la generazione, spezzature e prefissi staccati dell'e227d.
+  - Metrica: l'AUC del discriminatore.
+- **Validità:** con κ 0 e χ 0 il testo è identico all'e232.
+- **Risultati:**
+  - seme 1: da 0,938 (κ 0, χ 0) a 0,860 (κ 1, χ 0,2) e 0,863 (κ 1, χ 0);
+  - verifica (semi 2–3): **0,931 contro 0,889**, −0,042.
+- **Esito: non aiuta abbastanza**, perché la soglia era −0,05.
+- **Che cosa cambia:**
+  - con κ 1 la quota fra le 100 più frequenti arriva a quella del Voynich (0,428 contro 0,424);
+  - con χ sale la somiglianza fra parole vicine (0,206 contro 0,223 del Voynich).
+- **Che cosa resta** (caratteristiche più pesanti):
+  - lunghezza media (4,01 contro 4,29), accorciata dalle spezzature;
+  - **varietà dentro la pagina** (uniche nella pagina 0,52 contro 0,64; tipi su parole 0,66 contro
+    0,76), che con κ peggiora;
+  - parole uniche nel testo (0,12 contro 0,15);
+  - deviazione della lunghezza più alta.
+- **Lettura.**
+  - Il generatore ottiene l'omogeneità della pagina ripetendo **identiche** le parole del tema e del
+    serbatoio. Il Voynich la ottiene con **varianti simili ma diverse**: le pagine vere sono omogenee e
+    insieme varie.
+  - È l'ipotesi successiva, e234: le parole del tema si scrivono sempre con almeno una modifica.
