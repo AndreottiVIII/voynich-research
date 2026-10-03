@@ -50,6 +50,15 @@ La catena di decifrazione è divisa in due code: gli esperimenti non dipendono d
   ricettario vero con le dosi scritte (tipo *Antidotarium Nicolai*), che nella cache non c'è; i numeri nello zodiaco sono
   già esclusi dall'e262. Si riprende se si trova il testo.
 
+## Indicazione permanente di Davide (3/10, 17:15): migliorare in automatico, senza fermarsi
+
+- Il voynichizzatore si migliora **a giri successivi** (v3, v4, …) con il ciclo avversario: diagnosi di che cosa usano i
+  discriminatori → correzione → prova sui semi di ricerca (1, 2) → verifica preregistrata sui semi 7, 8, 9 → nuova
+  versione. **Non serve il permesso di Davide a ogni passo**: si va avanti finché l'AUC non scende a 0,6, avvisandolo
+  dei risultati importanti.
+- Restano le regole del progetto: preregistrazione prima di ogni esperimento con un esito, semi di verifica mai usati per
+  scegliere, QUADERNO aggiornato, niente squadre di agenti (costano troppo).
+
 ## Obiettivo finale chiarito da Davide (3/10, 15:50)
 
 - Il **voynichizzatore**: si dà in mano un testo normale e restituisce un manoscritto indistinguibile dal Voynich
