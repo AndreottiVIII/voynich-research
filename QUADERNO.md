@@ -6243,6 +6243,7 @@ sequenza.
   - generatore trattato come il Voynich, con più semi;
   - chiave su metà delle righe.
 - Prima esecuzione sul nuovo PC: 500 s.
+
 ## 3/10/2026 — e269: decifrazione sulle sole parole non copiate, nessuna lettura
 
 - **Preregistrato.** Se il messaggio sta nelle parole "nuove" (classi N e A del profilo di riuso dell'e237),
@@ -6267,3 +6268,31 @@ sequenza.
   - Le parole non copiate non sono più leggibili del loro rimescolato.
   - Ebraico e arabo restano alti nel punteggio come in tutte le prove precedenti: è un effetto dei
     loro alfabeti senza vocali, non del testo.
+
+## 3/10/2026 — e275: generatore "appreso" dalla mistura dell'e259b, non promettente
+
+- **Preregistrato.** Si campiona parola per parola dal modello a mistura dell'e259b, stimato sul Voynich.
+  - Pesi stimati delle componenti: base 0,05, cache 0,01, varianti 0,06, lettere 0,08,
+    **lettere della pagina 0,79**.
+  - Due varianti:
+    - (a) campionamento puro;
+    - (b) con le scelte di grafia di riga e la fine riga dell'e145.
+  - Verifica sui semi 7, 8, 9.
+- **Risultati:**
+  - (a): pagella 8,3/18, AUC dell'e231 0,997, AUC dell'e266 1,000;
+  - (b): pagella 8,3/18, AUC 0,991 e 0,998.
+  - In entrambe la riga non è riprodotta. Mancano omogeneità, gradiente, legame, unioni, deriva, profilo
+    di pagina, lunghezze vicine, formule e bordo di riga.
+  - Il profilo di riuso invece è vicino: R 30–34%, V 36–37%, N 15–17%.
+  - Le parole rare sono riusate meno che nei generatori a mano: R 18–29 contro ~50, ma ancora lontano
+    dall'1,96 del Voynich.
+- **Esito: non promettente.** Il criterio chiedeva pagella ≥ 16 o AUC dell'e266 sotto 0,937.
+- **Lettura.**
+  - Il modello a mistura spiega bene **quanto** si copia (il profilo di riuso), ma non **come** è fatta
+    la pagina.
+  - La componente dominante, "lettere della pagina", genera parole plausibili lettera per lettera, ma
+    perde tutto ciò che il generatore a mano ottiene con le regole esplicite (copia verticale, giunture,
+    spezzature, scelte di riga).
+  - **Decisione per il piano:** si resta sulla strada costruita a mano (e241). Dalla strada appresa si
+    può prendere un'idea: generare le parole nuove con il modello di lettere della pagina, per abbassare
+    il riuso delle parole rare.
