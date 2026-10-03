@@ -1,0 +1,36 @@
+rip 1, phi 0 identico all'e241: True
+scelta rip 1.0, phi 0.00, sigma 0.06    seme 1: pagella 16 riga True mancano ['ripetizione', 'verticale'] | AUC e266 0.952 | ripet. 1.43 vert. 0.996 spazio 0.599
+scelta rip 1.0, phi 0.05, sigma 0.06    seme 1: pagella 15 riga False mancano ['ripetizione', 'profilo pagina', 'verticale'] | AUC e266 0.956 | ripet. 1.46 vert. 1.009 spazio 0.597
+scelta rip 1.0, phi 0.00, sigma 0.04    seme 1: pagella 16 riga True mancano ['ripetizione', 'verticale'] | AUC e266 0.957 | ripet. 1.43 vert. 1.012 spazio 0.614
+scelta rip 1.0, phi 0.05, sigma 0.09    seme 1: pagella 14 riga True mancano ['spazio', 'ripetizione', 'profilo pagina', 'verticale'] | AUC e266 0.957 | ripet. 1.43 vert. 1.015 spazio 0.579
+scelta rip 1.0, phi 0.10, sigma 0.06    seme 1: pagella 16 riga True mancano ['ripetizione', 'curva piatta'] | AUC e266 0.954 | ripet. 1.46 vert. 1.025 spazio 0.601
+scelta rip 1.0, phi 0.05, sigma 0.04    seme 1: pagella 15 riga False mancano ['ripetizione', 'profilo pagina', 'verticale'] | AUC e266 0.957 | ripet. 1.43 vert. 1.009 spazio 0.610
+scelta rip 1.0, phi 0.10, sigma 0.09    seme 1: pagella 16 riga True mancano ['spazio', 'ripetizione'] | AUC e266 0.962 | ripet. 1.47 vert. 1.027 spazio 0.583
+scelta rip 1.0, phi 0.00, sigma 0.09    seme 1: pagella 14 riga True mancano ['spazio', 'ripetizione', 'omogeneità', 'verticale'] | AUC e266 0.956 | ripet. 1.40 vert. 1.003 spazio 0.581
+scelta rip 0.5, phi 0.00, sigma 0.09    seme 1: pagella 17 riga True mancano ['verticale'] | AUC e266 0.955 | ripet. 1.17 vert. 1.001 spazio 0.584
+scelta rip 0.5, phi 0.05, sigma 0.09    seme 1: pagella 15 riga True mancano ['omogeneità', 'verticale', 'formule'] | AUC e266 0.946 | ripet. 1.11 vert. 1.010 spazio 0.584
+scelta rip 1.0, phi 0.10, sigma 0.04    seme 1: pagella 16 riga False mancano ['ripetizione', 'curva piatta'] | AUC e266 0.958 | ripet. 1.47 vert. 1.034 spazio 0.615
+scelta rip 0.5, phi 0.00, sigma 0.06    seme 1: pagella 16 riga True mancano ['verticale', 'formule'] | AUC e266 0.949 | ripet. 1.19 vert. 1.002 spazio 0.602
+scelta rip 0.5, phi 0.05, sigma 0.04    seme 1: pagella 16 riga True mancano ['verticale', 'formule'] | AUC e266 0.944 | ripet. 1.14 vert. 1.005 spazio 0.616
+scelta rip 0.5, phi 0.10, sigma 0.09    seme 1: pagella 15 riga True mancano ['spazio', 'omogeneità', 'verticale'] | AUC e266 0.962 | ripet. 1.15 vert. 1.002 spazio 0.582
+scelta rip 0.5, phi 0.05, sigma 0.06    seme 1: pagella 17 riga True mancano ['formule'] | AUC e266 0.942 | ripet. 1.06 vert. 1.019 spazio 0.601
+scelta rip 0.5, phi 0.00, sigma 0.04    seme 1: pagella 16 riga True mancano ['verticale', 'formule'] | AUC e266 0.947 | ripet. 1.16 vert. 1.004 spazio 0.618
+scelta rip 0.3, phi 0.00, sigma 0.09    seme 1: pagella 13 riga True mancano ['spazio', 'ripetizione', 'omogeneità', 'verticale', 'formule'] | AUC e266 0.956 | ripet. 0.78 vert. 0.993 spazio 0.579
+scelta rip 0.3, phi 0.00, sigma 0.04    seme 1: pagella 14 riga True mancano ['ripetizione', 'curva piatta', 'verticale', 'formule'] | AUC e266 0.951 | ripet. 0.78 vert. 0.995 spazio 0.612
+scelta rip 0.5, phi 0.10, sigma 0.04    seme 1: pagella 18 riga True mancano [] | AUC e266 0.937 | ripet. 1.16 vert. 1.019 spazio 0.617
+scelta rip 0.3, phi 0.05, sigma 0.06    seme 1: pagella 15 riga True mancano ['curva piatta', 'verticale', 'formule'] | AUC e266 0.957 | ripet. 1.01 vert. 1.006 spazio 0.587
+scelta rip 0.3, phi 0.05, sigma 0.09    seme 1: pagella 15 riga True mancano ['spazio', 'omogeneità', 'verticale'] | AUC e266 0.959 | ripet. 1.01 vert. 1.010 spazio 0.570
+scelta rip 0.3, phi 0.05, sigma 0.04    seme 1: pagella 15 riga True mancano ['curva piatta', 'verticale', 'formule'] | AUC e266 0.962 | ripet. 0.97 vert. 1.015 spazio 0.598
+scelta rip 0.5, phi 0.10, sigma 0.06    seme 1: pagella 17 riga True mancano ['verticale'] | AUC e266 0.941 | ripet. 1.15 vert. 1.012 spazio 0.603
+scelta rip 0.3, phi 0.00, sigma 0.06    seme 1: pagella 14 riga True mancano ['ripetizione', 'curva piatta', 'verticale', 'formule'] | AUC e266 0.946 | ripet. 0.79 vert. 1.001 spazio 0.598
+scelta rip 0.3, phi 0.10, sigma 0.09    seme 1: pagella 16 riga True mancano ['spazio', 'omogeneità'] | AUC e266 0.936 | ripet. 0.84 vert. 1.026 spazio 0.577
+scelta rip 0.3, phi 0.10, sigma 0.04    seme 1: pagella 16 riga True mancano ['ripetizione', 'formule'] | AUC e266 0.924 | ripet. 0.80 vert. 1.029 spazio 0.608
+scelta rip 0.3, phi 0.10, sigma 0.06    seme 1: pagella 16 riga True mancano ['omogeneità', 'formule'] | AUC e266 0.916 | ripet. 0.82 vert. 1.030 spazio 0.596
+scelta: rip 0.5, phi 0.10, sigma 0.04
+verifica rip 1.0, phi 0.00, sigma 0.09    seme 8: pagella 15 riga False mancano ['spazio', 'ripetizione', 'verticale'] | AUC e266 0.953 e231 0.854 | ripet. 1.50 vert. 1.009 spazio 0.578
+verifica rip 0.5, phi 0.10, sigma 0.04    seme 8: pagella 17 riga True mancano ['omogeneità'] | AUC e266 0.937 e231 0.828 | ripet. 1.11 vert. 1.035 spazio 0.608
+verifica rip 1.0, phi 0.00, sigma 0.09    seme 9: pagella 15 riga True mancano ['spazio', 'ripetizione', 'verticale'] | AUC e266 0.965 e231 0.879 | ripet. 1.47 vert. 1.008 spazio 0.575
+verifica rip 1.0, phi 0.00, sigma 0.09    seme 7: pagella 15 riga True mancano ['ripetizione', 'profilo pagina', 'verticale'] | AUC e266 0.966 e231 0.887 | ripet. 1.50 vert. 0.996 spazio 0.588
+verifica rip 0.5, phi 0.10, sigma 0.04    seme 9: pagella 18 riga True mancano [] | AUC e266 0.926 e231 0.816 | ripet. 1.15 vert. 1.029 spazio 0.610
+verifica rip 0.5, phi 0.10, sigma 0.04    seme 7: pagella 18 riga True mancano [] | AUC e266 0.937 e231 0.855 | ripet. 1.12 vert. 1.033 spazio 0.612
+migliore
