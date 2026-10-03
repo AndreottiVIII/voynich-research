@@ -7209,3 +7209,92 @@ rimescolate fra le pagine dello stesso strato.
 - **Per il voynichizzatore** (da segnalare all'altra chat): una pagina generata deve stare in un punto preciso
   dell'asse *e* contro *a*/*i*/*n* e condividerlo con la pagina accanto. È probabilmente il G9 che il modello del
   Voynich non riproduce.
+
+## 3/10/2026 — e308, e309, e312: l'unità di scrittura è il bifoglio, non la pagina che segue
+
+Preregistrato (`preregistrazioni/e308.md`). Profili di pagina dell'e307, 183 pagine; struttura fisica dalle intestazioni
+della ZL (`$Q` fascicolo, `$F` foglio, `$B` bifoglio).
+
+- **e308, quale unità condivide l'identità** (correlazione media fra profili, z con permutazioni dentro lo strato):
+
+  | coppie | numero | correlazione | z |
+  |---|---|---|---|
+  | **stesso foglio** (recto e verso) | 91 | **0,285** | **11,5** |
+  | **bifoglio, stessa faccia** | 80 | **0,197** | **8,1** |
+  | **bifoglio, facce opposte** | 84 | **0,206** | **7,9** |
+  | pannelli dello stesso lato (pieghevoli) | 11 | 0,212 | 3,8 |
+  | apertura (verso + recto seguente, affiancate) | 80 | 0,048 | 2,4 |
+  | stesso fascicolo, altro | 930 | −0,034 | −1,9 |
+
+  Stesso foglio contro apertura: +0,237, z 6,2. **Esito preregistrato: unità fisiche = stesso foglio, bifoglio
+  (tutte e due le facce), pannelli; non l'apertura.**
+- **e309, l'asse -edy/-aiin:**
+  - BIC: 1 componente 1005, 2 componenti 1013. Media A −0,58, B +0,80. Sovrapposizione: 67% delle pagine A sopra il
+    25° percentile delle B, 48% delle B sotto il 75° delle A. **Esito: continuo.**
+  - Autocorrelazione nell'ordine del libro, dentro lo strato: passo 1 **0,336 (z 4,7)**, passo 2 0,151 (2,1), passo 3
+    0,06, passo 5 0,06, passo 10 −0,11. **Esito: coppie di pagine** (non deriva lenta).
+- **e312, l'ordine dalle somiglianze:** in nessuno strato l'ordinamento spettrale ritrova l'ordine del libro (z da
+  −0,2 a 1,6; complessivo 1,6). **Esito: no.**
+  - 9 pagine sono più simili a pagine lontane che alle vicine: f1v, f2r, f2v, f4r, f7r, f52v, f53r, f90r1, f88r. Le
+    elenco senza dichiararle spostate.
+- **Lettura** (scritta dopo i risultati):
+  1. L'identità di una pagina è condivisa dalle **pagine dello stesso pezzo di pergamena**: le due facce del foglio e
+     il foglio coniugato del bifoglio, che nell'ordine di lettura sta lontano (per esempio f1 e f8). Non è condivisa
+     dalla pagina affiancata nell'apertura, né dagli altri fogli dello stesso fascicolo.
+  2. È quello che ci si aspetta se lo scriba ha scritto **un bifoglio alla volta**, ognuno in un suo "stato" (punto
+     sull'asse -edy/-aiin, abitudini), e i bifogli sono stati poi piegati e cuciti.
+  3. Spiega anche l'e300 (pagine consecutive simili: sono soprattutto recto e verso dello stesso foglio) e perché
+     l'ordine del libro non si ricostruisce per somiglianza: l'ordine di lettura alterna bifogli diversi.
+  4. È coerente con l'idea, nella codicologia recente, che il manoscritto sia stato scritto su bifogli sciolti e
+     rilegato dopo, forse non nell'ordine di scrittura.
+  5. A e B, su questo asse, si sovrappongono molto: la differenza fra le due "lingue" non sta tutta qui.
+- **Per il voynichizzatore** (da segnalare all'altra chat): lo "stato" va scelto per bifoglio, non per pagina, ed è lo
+  stesso sulle quattro pagine del bifoglio.
+
+## 3/10/2026 — e310, e311: le parole d'inizio paragrafo sono quasi tutte "gallows + parola"; le etichette non tornano nel testo
+
+Preregistrato (`preregistrazioni/e310.md`, con la correzione del controllo prima dell'esecuzione).
+
+- **e310:**
+
+  | misura | prime parole dei paragrafi | prime parole delle altre righe | parole in mezzo |
+  |---|---|---|---|
+  | parole uniche | 47,7% | 17,5% | 10,8% |
+  | iniziano con un gallows | **83,4%** | 9,0% | 8,8% |
+  | gallows + parola nota (≥ 2 occorrenze) | **53,8%** | 7,3% | 6,3% |
+  | fra le uniche: gallows + parola nota | 33,4% | 5,1% | 5,7% |
+  | fra le uniche con gallows: resto noto | 37,9% | 44,1% | 44,1% |
+  | fra le uniche: togliendo il 1°/2°/ultimo segno resta una parola nota | 35% / 14% / 3% | 44% / 17% / 8% | 32% / 20% / 10% |
+
+  - Fra le uniche, "gallows + parola nota" vale 33,4% contro 4,4% delle parole in mezzo a pari lunghezza, z 26,8.
+    **Esito preregistrato: prefisso meccanico.**
+  - Il 65% delle parole uniche d'inizio paragrafo resta nuovo anche togliendo il primo segno.
+  - **Lettura, con una cautela:** il paragrafo comincia quasi sempre con una parola che inizia con un gallows (83%
+    contro 9%), e metà delle prime parole è un gallows davanti a una parola comune. Però, fra le parole uniche che
+    iniziano con un gallows, il resto è una parola nota tanto spesso quanto altrove (38% contro 44%): il "gallows +
+    parola" è una proprietà di tutte le parole con il gallows iniziale, e l'inizio del paragrafo sceglie soprattutto
+    quelle. Due terzi delle parole d'inizio uniche restano forme nuove: il prefisso spiega una parte, non tutto.
+- **e311, etichette e testo:** 35 pagine, 770 parole d'etichetta. Nel testo della propria pagina: esatte 12,1%
+  contro 11,1% del nullo (z 1,1); a una modifica 44,2% contro 40,6% (z 2,3). Controllo positivo z 4,4 (potenza
+  limitata: poche pagine). **Esito preregistrato: incerto.** Le etichette non ricompaiono nel testo della propria
+  pagina più che in quello di un'altra pagina della stessa sezione.
+
+## 3/10/2026 — e313: l'ultima riga del paragrafo ha un registro suo; le righe non sono regolate sul margine
+
+Preregistrato (`preregistrazioni/e313.md`, con la correzione della parte B prima dell'esecuzione).
+
+- **A, ultime righe contro righe interne** (|z| > 3):
+  - parole che iniziano con ***q*** −4,8 punti (z −8,2), con *ch* +3,5 (z 4,8), con *s* +0,5 (z 3,9), con *y* +1,3
+    (z 4,0);
+  - segni *t* −1,0 (z −6,5) e *k* −0,6 (z −3,8);
+  - 2,9 parole in meno.
+  - **Esito: registro dell'ultima riga** (6 caratteristiche oltre al numero di parole). Le ultime righe hanno meno
+    parole in *qo*- e meno gallows: il contrario delle prime righe, che hanno più gallows (e302).
+- **B, margine destro:**
+  - log del rapporto di varianza dei segni per riga: Voynich −1,10; stesse parole a capo a larghezza fissa −1,63;
+    latino a 40 lettere −2,76;
+  - differenza appaiata +0,54, z 4,95. **Esito: righe meno regolate di un normale a capo.**
+  - Le righe del Voynich hanno lunghezze più irregolari di un testo che va a capo a larghezza fissa. È coerente con
+    righe la cui larghezza cambia (testo intorno ai disegni), non con parole adattate allo spazio.
+  - Misura complementare: l'ultima parola della riga è più corta delle altre della stessa riga di 0,17 segni oltre il
+    caso (z −3,6). Un piccolo segno di parole accorciate o scelte corte in fine riga.

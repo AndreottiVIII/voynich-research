@@ -822,3 +822,22 @@ negativi; i numeri sono nei file di `risultati/`.
     -*aiin*/-*ain*: è l'asse delle lingue A e B di Currier, ma presente **dentro** ogni lingua e ogni sezione.
   - La pagina condivide l'identità con quella consecutiva (z 10,9), non con quelle a 2–5 pagine di distanza.
 
+
+### 15.7 Il libro fisico e la struttura del paragrafo (e308–e313)
+
+- **L'unità di scrittura è il bifoglio** (e308). L'identità di pagina dell'e307 è condivisa dalle due facce dello
+  stesso foglio (correlazione 0,285, z 11,5) e dal foglio coniugato dello stesso bifoglio (0,20, z 8), che
+  nell'ordine di lettura sta lontano. Non è condivisa dalla pagina affiancata nell'apertura (0,048, z 2,4) né dagli
+  altri fogli del fascicolo. Lo scriba sembra aver scritto un bifoglio alla volta, ognuno in un suo "stato"; per
+  somiglianza non si ricostruisce l'ordine del libro (e312).
+- **L'asse -edy/-aiin è un continuo** (e309): una sola componente; le lingue A e B si sovrappongono molto su questo
+  asse.
+- **Il paragrafo comincia con un gallows** (e310): l'83% delle prime parole dei paragrafi inizia con *k*, *t*, *p*,
+  *f* o un gallows composto (altrove 9%); metà sono un gallows davanti a una parola comune; due terzi di quelle uniche
+  restano forme nuove anche senza il gallows.
+- **L'ultima riga del paragrafo ha un registro suo** (e313): meno parole in *qo*- e meno gallows, più *ch*-, *s*-,
+  *y*-. È il contrario della prima riga.
+- **Le righe non sono regolate sul margine** (e313): sono più irregolari di un testo a capo a larghezza fissa,
+  coerente con larghezze variabili intorno ai disegni.
+- **Le etichette non ricompaiono nel testo della propria pagina** più che in altre pagine della sezione (e311,
+  incerto).

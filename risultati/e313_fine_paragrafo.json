@@ -1,0 +1,140 @@
+{
+ "A": {
+  "lunghezza media": {
+   "differenza": 0.08016517635133447,
+   "z": 0.6779762141713979
+  },
+  "inizia con q": {
+   "differenza": -0.047573609128999134,
+   "z": -8.174899891825426
+  },
+  "inizia con o": {
+   "differenza": 0.018791844262841695,
+   "z": 1.1662055981131547
+  },
+  "inizia con ch": {
+   "differenza": 0.03451374056128331,
+   "z": 4.782455846583752
+  },
+  "inizia con sh": {
+   "differenza": -0.006599661225570791,
+   "z": -0.013214882948485916
+  },
+  "inizia con d": {
+   "differenza": -0.010035763757233265,
+   "z": -0.09743589823427443
+  },
+  "inizia con s": {
+   "differenza": 0.005168958506801213,
+   "z": 3.8777597701411426
+  },
+  "inizia con y": {
+   "differenza": 0.013209859136144267,
+   "z": 4.0497254529608915
+  },
+  "inizia con a": {
+   "differenza": 0.010856539127684424,
+   "z": 0.45215584788315927
+  },
+  "inizia con l": {
+   "differenza": 0.00435959629062959,
+   "z": 0.5159802498290723
+  },
+  "inizia con k": {
+   "differenza": -0.006203058877776359,
+   "z": -2.412076911899544
+  },
+  "inizia con t": {
+   "differenza": -0.005025465243229752,
+   "z": -1.287824573980791
+  },
+  "inizia con p": {
+   "differenza": 0.00116212204644144,
+   "z": 2.97939182483929
+  },
+  "inizia con f": {
+   "differenza": -0.0005256338682971535,
+   "z": -0.79503278812554
+  },
+  "inizia con c-gallows": {
+   "differenza": -0.00888808440018063,
+   "z": -1.9846638001139694
+  },
+  "finisce in y": {
+   "differenza": -0.01921925641108696,
+   "z": -0.9264736498156396
+  },
+  "finisce in n": {
+   "differenza": 0.024320745837247276,
+   "z": 1.4335218248843333
+  },
+  "finisce in l": {
+   "differenza": -0.007806635634573289,
+   "z": -0.05286849651988588
+  },
+  "finisce in r": {
+   "differenza": 0.008926420404204771,
+   "z": 1.7318137100540119
+  },
+  "finisce in m": {
+   "differenza": -0.004800460336907168,
+   "z": -2.177677900788237
+  },
+  "finisce in s": {
+   "differenza": -0.0015221984898053237,
+   "z": -0.3529843658154839
+  },
+  "finisce in o": {
+   "differenza": 0.006546349029119734,
+   "z": 1.1869165854340924
+  },
+  "finisce in e": {
+   "differenza": -1.2461106675837504e-05,
+   "z": -0.39200248703827256
+  },
+  "segno p": {
+   "differenza": 0.00013246006260650336,
+   "z": 1.2429028497250214
+  },
+  "segno f": {
+   "differenza": -0.000290861593403704,
+   "z": -1.1810777505941623
+  },
+  "segno k": {
+   "differenza": -0.006056235072284311,
+   "z": -3.7685764122366483
+  },
+  "segno t": {
+   "differenza": -0.009639385146867938,
+   "z": -6.4701459688760155
+  },
+  "numero di parole": {
+   "differenza": -2.8876185619581856,
+   "z": -33.33539724058917
+  },
+  "coppie identiche": {
+   "differenza": -0.0036512524304764893,
+   "z": -1.9018973398768209
+  }
+ },
+ "A_forti": [
+  "inizia con q",
+  "inizia con ch",
+  "inizia con s",
+  "inizia con y",
+  "segno k",
+  "segno t"
+ ],
+ "A_esito": "registro dell'ultima riga",
+ "B": {
+  "pagine": 185,
+  "log_rapporto_Voynich": -1.0994076827514438,
+  "log_rapporto_a_capo_fisso": -1.6342689467181595,
+  "log_rapporto_latino_40": -2.761554683111622,
+  "differenza": 0.5348612639667156,
+  "z": 4.9501157761645596,
+  "esito": "righe meno regolate di un normale a capo",
+  "ultima_parola_meno_altre_oltre_il_nullo": -0.1661664113527543,
+  "z_ultima_parola": -3.6052432520548234
+ }
+}
