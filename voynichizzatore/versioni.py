@@ -19,11 +19,13 @@ sys.path.insert(0, os.path.join(QUI, '..', 'esperimenti'))
 E288 = OrderedDict([('rip', 0.5), ('phi', 0.10), ('sigma_post', 0.04)])
 V4 = OrderedDict(E288, lam_fin=1.0, lam_pre=1.0, lam_cl=0.3)      # prova_v6: pagella estesa 34 -> 39 sui semi 1-2
 V5 = OrderedDict(V4, delta=0.2)                                    # prova_v6: 39, AUC 0,863/0,944 -> 0,816/0,923
+V6 = OrderedDict(V5, rip=0.4)                                      # prova_v7: 39, AUC 0,816/0,923 -> 0,782/0,903
 VERSIONI = OrderedDict([
     ('v2', OrderedDict([('corpo', E288), ('modello', 'v1')])),
     ('v3', OrderedDict([('corpo', E288), ('modello', 'v3')])),
     ('v4', OrderedDict([('corpo', V4), ('modello', 'v3')])),
     ('v5', OrderedDict([('corpo', V5), ('modello', 'v3')])),
+    ('v6', OrderedDict([('corpo', V6), ('modello', 'v3')])),
 ])
 
 
