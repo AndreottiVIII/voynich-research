@@ -1,0 +1,45 @@
+{
+ "Voynich, tutte le pagine": {
+  "unita": 202,
+  "parole": 34690,
+  "D_prime_100": 0.8520491645544904,
+  "D_frequenza_5_20": 0.5701809176516259,
+  "rapporto": 1.4943487903169057
+ },
+ "Voynich, erbario": {
+  "unita": 128,
+  "parole": 11474,
+  "D_prime_100": 0.8008026172734402,
+  "D_frequenza_5_20": 0.6137687987831999,
+  "rapporto": 1.3047300854345087
+ },
+ "Bibbia latina": {
+  "unita": 205,
+  "parole": 34850,
+  "D_prime_100": 0.8674193084576463,
+  "D_frequenza_5_20": 0.5957772138530585,
+  "rapporto": 1.4559457600733035
+ },
+ "Bibbia italiana": {
+  "unita": 205,
+  "parole": 34850,
+  "D_prime_100": 0.8881553349804227,
+  "D_frequenza_5_20": 0.5943263833797038,
+  "rapporto": 1.4943898837703073
+ },
+ "Plinio XX–XXVII": {
+  "unita": 205,
+  "parole": 34850,
+  "D_prime_100": 0.8675206741093809,
+  "D_frequenza_5_20": 0.6268797145656253,
+  "rapporto": 1.3838710265341725
+ },
+ "Macer floridus, capitoli": {
+  "unita": 79,
+  "parole": 13484,
+  "D_prime_100": 0.7694640653492321,
+  "D_frequenza_5_20": 0.563083593674991,
+  "rapporto": 1.3665183535668115
+ },
+ "esito": "come parole grammaticali"
+}
