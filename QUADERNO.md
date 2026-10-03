@@ -7909,3 +7909,23 @@ lessico della sezione e lingua (altre pagine), con ripetizione θ regolata sul p
     nuovo, a sacco finito.
 - **Esito secondo la preregistrazione:** K2 > 0,65 → secondo tentativo (e404b) con il solo pezzo che manca: il
   carattere della pagina nei segni.
+
+## 3/10/2026 — e340: la ripresa dalle righe subito sopra regge anche dentro il paragrafo; la "stessa colonna" no
+
+Preregistrato (`preregistrazioni/e340.md`), controllo dell'e338.
+
+| testo | fonte nelle 2 righe sopra | nullo (righe rimescolate dentro il paragrafo) | E1p (z) | stessa colonna, parole in mezzo | nullo | E2m (z) |
+|---|---|---|---|---|---|---|
+| Voynich (167 pagine) | 0,480 | 0,428 | **+0,051 (17,4)** | 0,435 | 0,420 | +0,015 (2,7) |
+| Timm e Schinner, seme 1 | 0,569 | 0,545 | +0,024 (11,0) | 0,475 | 0,456 | +0,019 (4,3) |
+| Timm e Schinner, seme 19 | 0,534 | 0,510 | +0,023 (10,9) | 0,464 | 0,428 | +0,036 (7,6) |
+
+- **Esito preregistrato: valido; parziale (regge E1p).**
+- **Lettura:**
+  - Anche a parità di lessico del paragrafo, una parola trova una parola uguale o a una modifica nelle 2 righe subito
+    sopra più che in righe dello stesso paragrafo prese a caso. L'effetto è più del doppio di quello del generatore di
+    Timm e Schinner. La **ripresa dalle righe appena scritte** è una proprietà vera del Voynich: è la parte centrale
+    della loro ipotesi.
+  - La "stessa colonna" invece, tolte la prima e l'ultima parola della riga, quasi sparisce (z 2,7). L'allineamento
+    verticale dell'e338 veniva soprattutto dai bordi della riga, che hanno forme loro (e337). Lo scriba riprende parole
+    dalle righe sopra, ma non dalla stessa posizione.

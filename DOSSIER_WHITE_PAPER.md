@@ -917,3 +917,8 @@ negativi; i numeri sono nei file di `risultati/`.
   è in preparazione (e340).
 - **Le etichette dello zodiaco non sono una sequenza di giorni** (e339): la stessa posizione in mesi diversi non porta
   la stessa etichetta; tre etichette su quattro cominciano con *o*.
+- **Controllo dell'autocitazione** (e340):
+  - a parità di lessico del paragrafo, la ripresa dalle 2 righe subito sopra resta forte (z 17,4), più del doppio
+    che nel generatore di Timm e Schinner: **lo scriba riprende parole dalle righe appena scritte**;
+  - la ripresa "nella stessa colonna" invece, tolte la prima e l'ultima parola della riga, quasi sparisce (z 2,7):
+    l'allineamento veniva dai bordi della riga.

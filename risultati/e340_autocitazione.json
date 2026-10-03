@@ -1,0 +1,39 @@
+{
+ "testi": {
+  "Voynich": {
+   "pagine": 167,
+   "fonte_2_righe": 0.4796434201228461,
+   "nullo_dentro_paragrafo": 0.42843332682224966,
+   "E1p": 0.05121009330059645,
+   "z_E1p": 17.350546033175114,
+   "stessa_colonna_mezzo": 0.43530559167750327,
+   "nullo_colonna": 0.42020318595578676,
+   "E2m": 0.015102405721716505,
+   "z_E2m": 2.738704613088008
+  },
+  "Timm e Schinner, seme 1": {
+   "pagine": 138,
+   "fonte_2_righe": 0.5690020614964723,
+   "nullo_dentro_paragrafo": 0.5453073985458035,
+   "E1p": 0.0236946629506688,
+   "z_E1p": 11.034305936152457,
+   "stessa_colonna_mezzo": 0.47527702765620633,
+   "nullo_colonna": 0.45642704162398734,
+   "E2m": 0.01884998603221899,
+   "z_E2m": 4.324978040015988
+  },
+  "Timm e Schinner, seme 19": {
+   "pagine": 138,
+   "fonte_2_righe": 0.5335912662707696,
+   "nullo_dentro_paragrafo": 0.5104623204960961,
+   "E1p": 0.023128945774673504,
+   "z_E1p": 10.885674372500338,
+   "stessa_colonna_mezzo": 0.4641492960820692,
+   "nullo_colonna": 0.4277092655243916,
+   "E2m": 0.03644003055767758,
+   "z_E2m": 7.59538733193439
+  }
+ },
+ "valido": true,
+ "esito": "parziale (regge E1p)"
+}
