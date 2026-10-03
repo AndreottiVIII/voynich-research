@@ -6471,3 +6471,29 @@ sequenza.
   - **birmano:** non arrivato. Nell'e212b il positivo aveva copertura 1,7%: test non valido per lo stesso motivo.
 - **Conclusione:** i tre candidati dell'e212b erano artefatti della formula della posizione. Nessuna lettura.
 - Non si committano risultati parziali: il json si scrive solo a lingua finita.
+
+## 3/10/2026 — e251: il lessico di sezione sopra l'e241 non supera il passo 2
+
+- **Preregistrato** (integrazione del 3/10): il γ di `e233.genera` (base presa dalle forme non attestate già
+  scritte nelle pagine precedenti della stessa sezione) sopra l'e241, con braccio di controllo e241 sugli stessi
+  semi.
+- **Validità:** replica dell'e241 sul seme 2 esatta (16/18, AUC 0,862); γ 0 identico all'e241; meccanismo attivo
+  (ricircolo da 0,05 a 0,19–0,20); R delle parole rare del Voynich 1,958 come atteso.
+- **Scelta sul seme 1:** la pagella scende subito (e241 14; γ 0,1 → 11; 0,2 → 11 senza riga; da 0,3 in su → 7);
+  R delle parole rare da 44 a 19 con γ 0,6. Nessun γ ammesso: verifica con il ripiego γ 0,1.
+- **Verifica (semi 7, 8, 9; e241 → γ 0,1):** pagella 15, 15, 15 → 11, 12, 11; R delle parole rare 48,3 → 34,1;
+  AUC dell'e231 0,873 → 0,928, dell'e266 0,961 → 0,973. Si perdono h2, curva piatta e omogeneità o profilo.
+- **Esito preregistrato: non superato** (R e pagella).
+- **Diagnosi delle rare confinate** (e241, semi 7–9): circa un terzo forme nuove, un terzo parole attestate proprie
+  di una sola pagina vera del Voynich, un terzo altre attestate. Il lessico toglie soprattutto le "proprie della
+  pagina vera" (76 → 48 sul seme 7), non le forme nuove.
+- **Lettura.**
+  - Far circolare le forme nuove abbassa R ma rompe la pagella: le forme nuove ricopiate in altre pagine
+    gonfiano la quota di non attestate (0,14 → 0,20) e cambiano h2 e la curva delle uniche.
+  - La diagnosi del generatore fatta oggi (sintesi in STATO_LAVORI.md) indica la causa principale altrove: il
+    generatore pesca dalla pagina vera **con reimmissione** e da un **tema di 3 parole** che copre il 30% dei posti.
+    Sono costanti scritte nel codice e mai regolate. Da qui le parole che si ripetono troppo nella pagina (tipi
+    su parole 0,68 contro 0,76, uniche nella pagina 0,54 contro 0,64) e le rare confinate.
+  - Secondo il piano il passo si rifà una volta: e251b con questo meccanismo (riuso di pagina senza tema
+    concentrato e senza reimmissione).
+- Durata sul nuovo PC: 21 min con `PROCESSI=6`.
