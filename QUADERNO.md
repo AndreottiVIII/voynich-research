@@ -7492,3 +7492,35 @@ Preregistrato (`preregistrazioni/e320.md`).
     accorciano scendendo in **tutte** le sezioni (B −0,33, z −9,8; H −0,24, z −12,3; S −0,10, z −3,6). Si legge come
     un effetto dell'impaginazione (disegni in basso, pagine che si stringono), più forte dove ci sono i disegni grandi,
     con forse una piccola abitudine dello scriba dappertutto.
+
+## 3/10/2026 — e324, e325, e326: nelle pagine di passaggio A e B si mescolano nella riga (incerto); Currier confermato; metà alta e metà bassa della pagina differiscono
+
+Preregistrato (`preregistrazioni/e324.md`; la soglia delle pagine miste, 0,30–0,65, scelta dopo aver visto
+l'istogramma dell'e321, come dichiarato).
+
+- **e324, varianza fra le righe dell'indice-A:**
+
+  | pagine | numero | V | nullo | z |
+  |---|---|---|---|---|
+  | miste (indice 0,30–0,65) | 32 | 0,0812 | 0,0692 | 2,2 |
+  | pure | 44 | 0,0412 | 0,0399 | 0,5 |
+  | controllo positivo, righe alternate | 20 | 0,1532 | 0,0590 | 20,3 |
+
+  **Esito preregistrato: incerto** (fra 2 e 3). Nelle pagine di passaggio le righe sono appena più omogenee del caso;
+  il controllo positivo mostra che un'alternanza vera di righe A e righe B si vedrebbe benissimo. Quindi le parole di A
+  e di B si mescolano soprattutto **dentro le stesse righe**: un passaggio graduale, non due modi di scrivere alternati
+  a tratti.
+- **e325, riclassificare le pagine** (classificatore sul lessico addestrato sull'erbario):
+  - accordo con Currier fra le previsioni sicure: erbario 107 su 107, B 17/17, P 14/14, T 6/6, C 2/2, S 18/19.
+    **Esito preregistrato: etichette confermate.**
+  - Unico disaccordo: **f58v** (sezione S, etichettata A, P(B) 0,81). Con la cautela del lessico di sezione: la
+    sezione S è quasi tutta B.
+  - Pagine senza etichetta: f67r2 P(B) 0,28 (più A); f70r2 P(B) 0,20 (A).
+- **e326, metà alta contro metà bassa della pagina** (84 pagine con almeno 16 righe):
+  - differenza del punteggio dell'asse 2,85 contro 1,79 del nullo, **z 7,3**;
+  - distanza fra le distribuzioni dei segni 0,0302 contro 0,0209, **z 10,3**.
+  - **Esito preregistrato: lo stato cambia dentro la pagina.**
+  - Pagine con la differenza maggiore: f87v, f35v, f39r, f81v, f76v, f40v, f107v, f106r, f82v, f86v3.
+  - **Cautela, scritta dopo i risultati:** la metà alta contiene più prime righe di paragrafo, che hanno un registro
+    loro (e302: più -*y*, meno -*n*, più *p*/*f*); e le righe si accorciano scendendo (e322). Parte della differenza può
+    venire da qui e non da un cambio di "stato". Va verificato togliendo prime e ultime righe dei paragrafi (e327).
