@@ -8495,3 +8495,23 @@ Preregistrato (`preregistrazioni/e366.md`). Forme nuove (uniche non varianti) di
     nell'e350), che dà esattamente le stesse coppie;
   - i valori di ogni documento si calcolano una volta sola e si riusano nei sottogruppi (categorie, autori).
 - Si riesegue con lo stesso seme.
+
+## 3/10/2026 (notte) — e367: le prime parole "segno + parola" esistono anche staccate, ma manca il confronto con il centro della riga
+
+Preregistrato (`preregistrazioni/e367.md`).
+
+- 1.760 prime parole di riga (non di paragrafo) della forma p + X, con p ∈ {*s*, *d*, *y*, *o*, *l*, *r*} e X parola
+  nota. Nel 45,7% dei casi la coppia "p X" compare staccata in mezzo a un'altra riga, contro il 12,6% del nullo (X
+  sostituita da una parola della stessa frequenza): **z 44,0. Esito preregistrato: la parolina staccata si attacca a
+  inizio riga.**
+- Descrittiva:
+  - *d* da sola è rarissima a inizio riga (0,06%), mentre le prime parole "*d* + parola" sono il 16,8% delle prime
+    parole;
+  - *y* da sola è più frequente a inizio riga (1,8%) che in mezzo (0,6%).
+- **Cautela, scritta dopo il risultato:**
+  - fra gli esempi ci sono *daiin* (*d* + *aiin*), *saiin*, *otchy*: parole comuni che si trovano dappertutto, e che il
+    trascrittore a volte divide ("*d aiin*");
+  - il risultato può misurare l'incertezza generale degli spazi, non un fatto dell'inizio riga;
+  - manca il confronto con le parole p + X **in mezzo** alla riga.
+
+  Verifica: e368.
