@@ -6,7 +6,9 @@ Fotografia aggiornata a mano a ogni cambio importante. I dettagli e i numeri son
 
 Il vecchio PC (i5-7200U, 2 core, 8 GB) era saturo.
 
-**Coordinamento fra i due PC:**
+**Decisione di Davide (3/10, 15:00): il vecchio PC non si usa più.** Tutto il lavoro si fa sul nuovo PC. Il vecchio ha chiuso e committato e269, e270 ed e275. Le corse doppie fatte qui (e269 ed e275 complete; e270 interrotta) sono in `esecuzioni/repliche/`, non committate, e vanno solo confrontate.
+
+**Coordinamento fra i due PC (superato):**
 - **Vecchio PC:** finisce gli esperimenti già avviati e ne committa i risultati. Non avvia altro.
 - **Nuovo PC:** prende tutto ciò che non è ancora partito.
 - **Prima di ogni commit sul nuovo PC:** `git pull --rebase`. Il QUADERNO riceve aggiunte da entrambi
