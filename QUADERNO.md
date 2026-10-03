@@ -9620,3 +9620,18 @@ segno di w1 e il primo di w3, a parità di w2 intera (e dello strato), oltre il 
   Voynich il legame fra parole sta tutto fra vicine immediate: una volta nota la parola in mezzo, la prima non dice
   niente sulla terza. Il sistema guarda una parola avanti (e3a02) e una indietro (e392), non di più. Una lingua scritta
   così, con grammatica a distanza, lascerebbe un segno che qui non c'è.
+
+## 4/10/2026 (notte) — e3a06: nelle 6 pagine "solo testo" c'è davvero un legame a capo, ma non è la regola di raccordo
+
+Preregistrato (`preregistrazioni/e3a06.md`). Pagine f1r, f66r, f76r, f85r1, f86v5, f86v6; 193 coppie a capo.
+
+- E 0,144; **p esatto 0,0006** (10.000 rimescolamenti nella pagina). Taratura: 2.000 insiemi di 193 coppie a capo dalle
+  altre sezioni danno E da −0,114 a 0,135 (mediana 0,000); nessuno arriva a 0,144.
+- **Esito preregistrato: nel solo testo la giuntura passa l'a capo.**
+- **Esplorativo** (scratchpad): il legame viene da poche coppie con pochi casi (-*r* *ch*- 5, -*m* *t*- 7, -*y* *y*- 16,
+  -*l* *d*- 7). La regola di *qo*- non passa l'a capo nemmeno lì: *qo*- a inizio riga è 73% dopo -*y*/-*o*/-*d* e 67%
+  dopo -*n*/-*r*/-*s*/-*m* (nelle altre sezioni 67% e 61%).
+- **Lettura prudente:** in queste 6 pagine la fine di una riga e l'inizio della seguente non sono indipendenti, ma non
+  per la regola di raccordo. Forse ci sono strutture che si ripetono a cavallo delle righe (per esempio coppie riprese
+  insieme). Il quadro generale (riga chiusa) resta per le sezioni illustrate e per le ricette. Da guardare a mano su
+  quelle pagine.
