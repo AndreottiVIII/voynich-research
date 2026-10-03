@@ -25,6 +25,8 @@ import trascrizione
 MAX_RARA = 5
 CHIAVE = 'stretta'   # 'larga': stessi segni iniziale e finale, lunghezza qualsiasi; 'larga+': come 'larga' e, se manca
                      # una compagna, stesso segno finale, poi qualsiasi parola rara della sezione
+POSIZIONE = False    # True: si scambiano solo parole nella stessa posizione della riga (prima, in mezzo, ultima)
+VICINE = 0           # > 0: la compagna sta al piu' a VICINE pagine di distanza nell'ordine del libro (e300)
 _CL = {}
 
 
@@ -39,14 +41,19 @@ def circola(rr, kappa, seme):
     out = [(p, ini, list(ps)) for p, ini, ps in rr]
     cnt = Counter(w for _, _, ps in out for w in ps if trascrizione.pulita(w))
     gruppi, riserva = defaultdict(list), defaultdict(list)
+    ordine = {}
+    for p, _, _ in out:
+        ordine.setdefault(p, len(ordine))
     for i, (p, _, ps) in enumerate(out):
         for j, w in enumerate(ps):
             if trascrizione.pulita(w) and 2 <= cnt[w] <= MAX_RARA:
                 u = D(w)
-                gruppi[(sez.get(p), u[0], u[-1], len(u) if CHIAVE == 'stretta' else 0)].append((i, j))
+                s0 = (sez.get(p), (0 if j == 0 else (2 if j == len(ps) - 1 else 1))) if POSIZIONE else sez.get(p)
+                gruppi[(s0, u[0], u[-1], len(u) if CHIAVE == 'stretta' else 0)].append((i, j))
                 if CHIAVE == 'larga+':
-                    riserva[(sez.get(p), u[-1])].append((i, j))
-                    riserva[(sez.get(p),)].append((i, j))
+                    riserva[(s0, u[-1])].append((i, j))
+                    riserva[(s0,)].append((i, j))
+    lontana = (lambda a, b: abs(ordine[a] - ordine[b]) > VICINE) if VICINE else (lambda a, b: False)
     usati = set()
     chiavi = list(gruppi)
     rnd.shuffle(chiavi)
@@ -59,12 +66,12 @@ def circola(rr, kappa, seme):
             w, p = out[i][2][j], out[i][0]
             cand = []
             for LL in ((L, L - 1, L + 1) if L else (0,)):
-                cand += [x for x in gruppi.get((s, a, b, LL), ()) if x not in usati and out[x[0]][0] != p and out[x[0]][2][x[1]] != w]
+                cand += [x for x in gruppi.get((s, a, b, LL), ()) if x not in usati and out[x[0]][0] != p and out[x[0]][2][x[1]] != w and not lontana(p, out[x[0]][0])]
                 if len(cand) >= 3:
                     break
             if not cand and CHIAVE == 'larga+':
                 for kk in ((s, b), (s,)):
-                    cand = [x for x in riserva.get(kk, ()) if x not in usati and out[x[0]][0] != p and out[x[0]][2][x[1]] != w]
+                    cand = [x for x in riserva.get(kk, ()) if x not in usati and out[x[0]][0] != p and out[x[0]][2][x[1]] != w and not lontana(p, out[x[0]][0])]
                     if cand:
                         break
             if not cand:

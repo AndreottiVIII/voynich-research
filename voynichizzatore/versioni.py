@@ -4,7 +4,8 @@ dell'e297) e il modello delle scelte del nascondiglio ('v1' o 'v3'). Usato dallo
 di prova (e293).
 
 Parametri del corpo: rip, phi, sigma_post, pi_post, beta, eps, vsim, omega, rho, tau, errori (vedi corpo2/3/4 ed e297);
-classi, circola, chiave, max_rara (ritocchi dopo la generazione, corpo5); lam_fin, lam_pre (bordi legati nella riga, corpo6).
+classi, circola, chiave, max_rara, posizione, vicine (ritocchi dopo la generazione, corpo5); lam_fin, lam_pre, lam_cl (bordi legati e classi concordi nella riga, corpo6); delta, alfa (parole di base dal lessico
+globale; peso delle parole della pagina, e232).
 """
 import os, sys
 from collections import OrderedDict
@@ -34,12 +35,16 @@ def corpo(parametri, seme):
     e233.SIGMA_POST, e233.PI_POST = x.get('sigma_post', 0.09), x.get('pi_post', 0.30)
     prm = dict(e251.CONF, gamma=0.0, rip=x.get('rip', 1.0), phi=x.get('phi', 0.0), beta=x.get('beta', 0.0), eps=x.get('eps', 1.0),
                vsim=x.get('vsim', 0.0), omega=x.get('omega', 0.0), rho=x.get('rho', 0.0), tau=x.get('tau', 0.0),
-               lam_fin=x.get('lam_fin', 0.0), lam_pre=x.get('lam_pre', 0.0))
+               lam_fin=x.get('lam_fin', 0.0), lam_pre=x.get('lam_pre', 0.0), lam_cl=x.get('lam_cl', 0.0))
+    for nome in ('delta', 'alfa'):
+        if nome in x:
+            prm[nome] = x[nome]
     rr = e236.dopo(corpo6.genera_v6(k['c2'], prm, seme, prime_per_pag=e268.prime_per_pagina(k['c']) if x.get('rho') else None), k['freq'], 100 + seme)
     rr = e297.errori(k['c2'], rr, x.get('errori', 0.0), seme)
     if x.get('classi') or x.get('circola'):
         import corpo5
         corpo5.CHIAVE, corpo5.MAX_RARA = x.get('chiave', 'stretta'), x.get('max_rara', 5)
+        corpo5.POSIZIONE, corpo5.VICINE = x.get('posizione', False), x.get('vicine', 0)
         rr = corpo5.circola(corpo5.classi_riga(rr, x.get('classi', 0.0), seme), x.get('circola', 0.0), seme)
     return rr
 

@@ -4,7 +4,10 @@ le candidate per il posto seguente, il peso si moltiplica per (T_fin[finale prec
 (T_pre[prefisso precedente, prefisso candidata] ** lam_pre), dove T e' il rapporto fra la frequenza della coppia di parti
 fra parole vicine nella stessa riga del Voynich e quella attesa con le parti indipendenti (parti dell'e285, segmentatore
 dell'e249; coppie con meno di 5 occorrenze attese -> 1; T fra 0,2 e 5). Le parti delle parole nuove si calcolano con lo
-stesso segmentatore. Con lam_fin 0 e lam_pre 0 coincide con corpo4.genera_v4. Da corpo4:
+stesso segmentatore; la ripetizione della parola precedente non riceve il fattore. Inoltre lam_cl: fra le candidate, il peso si moltiplica per ((1 + parole della riga, diverse dalla candidata, con lo stesso
+valore) / (1 + parole con il valore opposto)) ** lam_cl per ognuna delle 12 classi di segni facoltativi dell'e206b a cui
+la candidata appartiene (scelte di riga per selezione, non per sostituzione come in corpo5.classi_riga). Con lam_fin,
+lam_pre e lam_cl 0 coincide con corpo4.genera_v4. Da corpo4:
 Il corpo del voynichizzatore, giro 4: come corpo3.py, con le coppie ripetute (omega: con questa probabilita' la prima
 candidata riprende una parola che seguiva gia' la parola precedente altrove nel testo). Con omega 0 coincide con
 corpo3.genera_v3. Da corpo3, giro 3 (v4): come corpo2.py, con il tema variato (tau: una candidata presa dal tema e
@@ -78,6 +81,24 @@ def bordi():
     return _BORDI['parti'], _BORDI['fin'], _BORDI['pre']
 
 
+_VCL = {}
+
+
+def valori_classi():
+    """{parola: [(classe, valore)]} per le 12 classi di segni facoltativi dell'e206b (1 forma lunga, 0 corta), dal
+    lessico del Voynich (corpo5._classi)."""
+    if not _VCL:
+        import corpo5
+        k = corpo5._classi()
+        out = defaultdict(list)
+        for w, d in k['corta'].items():
+            out[w] += [(c, 1) for c in d]
+        for s, d in k['lunghe'].items():
+            out[s] += [(c, 0) for c in d]
+        _VCL.update(out)
+    return _VCL
+
+
 def variante_L(w, mu, mod, rnd, nu, att, Dv, beta, plen):
     """Come e224.variante, con un filtro alla Metropolis sulla lunghezza: un cambio da L a L' segni si tiene con probabilita'
     min(1, (P(L')/P(L))**beta), con P la distribuzione delle lunghezze del Voynich. Con beta 0 non si usa."""
@@ -124,6 +145,9 @@ def genera_v6(c, prm, seme, inter=None, prime_per_pag=None):
     lam_fin, lam_pre = prm.get('lam_fin', 0.0), prm.get('lam_pre', 0.0)
     if lam_fin or lam_pre:
         parti, t_fin, t_pre = bordi()
+    lam_cl = prm.get('lam_cl', 0.0)
+    if lam_cl:
+        val_cl = valori_classi()
     omega, seguenti = prm.get('omega', 0.0), defaultdict(list)
     plen = lunghezze_voynich(c) if beta else None
     rango = e233.ranghi(c)
@@ -242,12 +266,16 @@ def genera_v6(c, prm, seme, inter=None, prime_per_pag=None):
                         p *= eps
                     if vsim and sopra and pos < len(sopra):
                         p *= 1.0 + vsim * somiglianza(x, sopra[pos], Dv)
-                    if (lam_fin or lam_pre) and trascrizione.pulita(x) and trascrizione.pulita(riga[-1]):
+                    if (lam_fin or lam_pre) and x != riga[-1] and trascrizione.pulita(x) and trascrizione.pulita(riga[-1]):
                         pa, px = parti(riga[-1]), parti(x)
                         if lam_fin:
                             p *= t_fin.get((pa[2], px[2]), 1.0) ** lam_fin
                         if lam_pre:
                             p *= t_pre.get((pa[0], px[0]), 1.0) ** lam_pre
+                    if lam_cl and x in val_cl:
+                        nr = Counter(cv for w in riga if w != x for cv in val_cl.get(w, ()))
+                        for cl, v in val_cl[x]:
+                            p *= ((1 + nr[(cl, v)]) / (1 + nr[(cl, 1 - v)])) ** lam_cl
                     pesi.append(p)
                 x = rnd.choices(cand, pesi)[0]
                 if prm['sigma'] and pos < n - 1 and len(Dv(x)) >= 4 and rnd.random() < prm['sigma']:
