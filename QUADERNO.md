@@ -8066,3 +8066,26 @@ Chat del voynichizzatore. Preregistrato (`preregistrazioni/e405.md`). Risultati 
   segni prestato da un'altra pagina (κ 0,708) e quasi nessuna ripetizione (θ 2280); parole nuove da un modello dei
   segni imparato sulle parole uniche, con la lunghezza delle uniche, distinto per tipo di posto nella riga, scelte fra
   sei candidate secondo il profilo dei segni comuni della pagina (forza 0,37).
+
+## 3/10/2026 (notte) — e350: il bifoglio è una sessione di scrittura (parole rare e ripresa)
+
+Preregistrato (`preregistrazioni/e350.md`). 176 pagine; coppie della stessa sezione; z con permutazioni delle pagine
+dentro la sezione.
+
+| classe di coppie | coppie | rare condivise (Jaccard) | nullo | z | ripresa | nullo | z |
+|---|---|---|---|---|---|---|---|
+| stesso foglio (recto/verso) | 97 | 0,0205 | 0,0088 | 7,9 | 0,705 | 0,629 | 10,4 |
+| **stesso bifoglio, fogli diversi** | 165 | **0,0125** | 0,0087 | **3,2** | **0,705** | 0,630 | **13,3** |
+| apertura (pagine affiancate, bifogli diversi) | 64 | 0,0072 | 0,0083 | −0,6 | 0,629 | 0,621 | 0,8 |
+| stesso fascicolo, altro | 887 | 0,0098 | 0,0100 | −0,5 | 0,668 | 0,656 | 3,8 |
+| altro fascicolo | 6.048 | 0,0041 | 0,0044 | −3,8 | 0,537 | 0,542 | −10,3 |
+
+- **Esito preregistrato: il bifoglio è una sessione**, per le parole rare e per la ripresa.
+- **Lettura:**
+  - Le due metà di un bifoglio, che nel libro rilegato stanno lontane (per esempio f1 e f8), condividono le parole rare
+    e si "riprendono" fra loro **quanto il recto e il verso dello stesso foglio** (ripresa 0,705 in tutti e due i casi).
+  - Le pagine affiancate di bifogli diversi, che chi legge vede insieme, no.
+  - È la conferma, con una misura sulle parole, dell'e308 (fatto con i profili dei segni): lo scriba ha scritto un
+    bifoglio alla volta, con il lessico e le parole del momento, prima che i bifogli fossero piegati e cuciti.
+- **Per il voynichizzatore** (da segnalare all'altra chat): il "momento di scrittura" va simulato per bifoglio. Lessico
+  rare e ripresa sono condivisi dalle quattro pagine del bifoglio, non dalle pagine affiancate.

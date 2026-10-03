@@ -935,3 +935,6 @@ negativi; i numeri sono nei file di `risultati/`.
   togliere *d*, -*y*).
 - **Girando il foglio** (e330, e331, e341): tre misure con z fra 1,8 e 2,8, nessuna oltre la soglia. Domanda chiusa
   senza risposta positiva.
+- **Il bifoglio è una sessione di scrittura** (e350): le due metà di un bifoglio, lontane nel libro rilegato,
+  condividono le parole rare (z 3,2) e si riprendono fra loro (z 13,3) quanto il recto e il verso dello stesso foglio;
+  le pagine affiancate di bifogli diversi no (z −0,6 e 0,8). Conferma con le parole l'e308, fatto con i segni.
