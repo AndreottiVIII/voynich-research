@@ -1,0 +1,17 @@
+valori di controllo identici all'e241: True
+seme 1, e241              : pagella 14 riga True | R rare 44.4
+seme 1, θ 0,3 K 12        : pagella 14 riga True | R rare 47.0
+seme 1, θ 0,15 K 3        : pagella 13 riga True | R rare 45.4
+seme 1, θ 0               : pagella 14 riga True | R rare 38.2
+seme 1, mazzo, θ 0,3 K 3  : pagella 12 riga True | R rare 45.3
+seme 1, mazzo, θ 0,15 K 3 : pagella 10 riga True | R rare 23.3
+seme 1, mazzo, θ 0        : pagella 10 riga False | R rare 10.2
+seme 1, mazzo, θ 0,3 K 12 : pagella 11 riga True | R rare 33.2
+P* 14, ammesse ['θ 0,3 K 12', 'θ 0,15 K 3', 'θ 0'] -> scelta θ 0
+seme 7 e241              : pagella 15 riga True mancano ['ripetizione', 'profilo pagina', 'verticale'] | R rare 48.5 | AUC e231 0.887 (G3 0.914) e266 0.966
+seme 7 θ 0               : pagella 14 riga True mancano ['spazio', 'ripetizione', 'omogeneità', 'verticale'] | R rare 39.6 | AUC e231 0.882 (G3 0.885) e266 0.960
+seme 8 e241              : pagella 15 riga False mancano ['spazio', 'ripetizione', 'verticale'] | R rare 51.5 | AUC e231 0.854 (G3 0.904) e266 0.953
+seme 8 θ 0               : pagella 14 riga True mancano ['spazio', 'ripetizione', 'omogeneità', 'verticale'] | R rare 43.1 | AUC e231 0.864 (G3 0.875) e266 0.948
+seme 9 e241              : pagella 15 riga True mancano ['spazio', 'ripetizione', 'verticale'] | R rare 44.8 | AUC e231 0.879 (G3 0.929) e266 0.965
+seme 9 θ 0               : pagella 14 riga True mancano ['spazio', 'ripetizione', 'omogeneità', 'verticale'] | R rare 42.4 | AUC e231 0.856 (G3 0.881) e266 0.961
+non superato: R + pagella
