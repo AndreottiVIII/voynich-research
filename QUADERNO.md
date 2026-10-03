@@ -6856,3 +6856,16 @@ sequenza.
 - **e299 (fine riga):** le righe che finiscono in *m* o *g* sono più lunghe dell'1,5% rispetto alla media della pagina
   (z 2,0); generatore −1,9…+0,3% (z −1,8…0,3). **Esito: incerto.** Un indizio debole di uso dei finali di riga per
   chiudere righe lunghe; non una prova di giustificazione.
+
+## 3/10/2026 — e300, e301: le pagine consecutive si somigliano; le mani 2 e 3 si distinguono, ma forse per la sezione
+
+- **e300 (ordine delle pagine):** somiglianza (coseno sulle parole di frequenza media) fra pagine consecutive nella
+  rilegatura, contro permutazioni dentro la sezione. Voynich: 0,129 contro 0,097, **z 8,5**; Spearman distanza-somiglianza
+  −0,13. Positivo (Bibbia in pagine): z 23,1. **Esito preregistrato: ordine di rilegatura vicino a quello di scrittura.**
+  - **Cautela, scritta prima della verifica:** dentro una sezione le pagine in lingua A e in lingua B stanno in blocchi
+    contigui (fascicoli omogenei), e due pagine della stessa lingua si somigliano comunque. La permutazione dentro la
+    sezione non toglie questo effetto. Verifica: e300b, permutazione dentro sezione × lingua.
+- **e301 (scribi):** mani 2 e 3 di Davis (lingua B, 74 pagine), sei abitudini fini per pagina (t/k a inizio riga, concordanza
+  -dy/-ey, rima, qo-, finali m/g, lunghezza). Accuratezza 0,770 contro 0,507, **z 3,4: esito preregistrato "mani
+  distinguibili"**. Ma le mani hanno scritto sezioni diverse (mano 2: B 19, H 20, T 4, C 3; mano 3: S 22, H 6) e dentro
+  l'erbario, l'unica sezione comune, z 1,1. La differenza è più probabilmente di sezione che di mano, come negli e244 ed e260.
