@@ -5504,3 +5504,24 @@ sequenza.
     nell'e241, che infatti arriva a 16/18.
   - Il lessico per sezione riduce il raggruppamento delle parole rare, ma di poco: il problema dell'e211
     resta aperto.
+
+## 3/10/2026 — e212: la forza bruta sul testo ripulito non trova letture in 14 lingue
+
+- **Preregistrato.**
+  - Ricottura omofonica con 4 ripartenze, 14 lingue, quattro modi: grezzo; ripulito; ripulito con
+    gruppi di 20 o 50 fusioni.
+  - Posizione del Voynich fra il controllo negativo (generatore, 0) e il positivo (testo vero cifrato,
+    1), per il punteggio e per la copertura di parole di almeno 6 lettere.
+- **Risultati.**
+  - La copertura delle parole lunghe non supera mai 0,14 della distanza fra i controlli.
+  - Il punteggio arriva a 0,62 in ebraico e 0,42 in arabo (ripulito, segni EVA), ma con copertura
+    0,12–0,13. Il modello di lettere si adatta meglio al Voynich che al generatore, senza che compaiano
+    parole vere.
+  - I gruppi di fusioni peggiorano quasi ovunque.
+- **Esito: nessuna lettura.** Nessuna combinazione raggiunge 0,5 su entrambe le misure.
+- **Lettura.**
+  - Gli esempi decifrati, nel risultato, sono sequenze senza senso in ogni lingua.
+  - Il punteggio relativamente alto in ebraico e arabo, senza parole, ricorda l'e158 ("riconoscimento"
+    dell'ebraico anche in testi senza messaggio). Sono lingue con alfabeti senza vocali brevi, in cui un
+    modello di lettere si adatta più facilmente.
+  - Ora parte da sola la catena e213 → e217 → e218 → e221 → e222 → e219 → e223 → e216 → e212b.
