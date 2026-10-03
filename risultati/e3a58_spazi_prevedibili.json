@@ -1,0 +1,133 @@
+{
+ "parte1": {
+  "altri": {
+   "Voynich": {
+    "f1_sub": [
+     0.8594781515246778,
+     0.8631740129060483,
+     0.8619680252195452,
+     0.8396819746054349,
+     0.864762751416824
+    ],
+    "f1": 0.8619680252195452
+   },
+   "gibberish umano": {
+    "f1": 0.28228807718814614
+   },
+   "Naibbe (Greshko 2025), a capo": {
+    "f1": 0.883203304268013
+   },
+   "U2 (Whitehatnetizen 2026)": {
+    "f1": 0.8602860286028603
+   },
+   "U3 (Whitehatnetizen 2026)": {
+    "f1": 0.8153551781870367
+   },
+   "Timm e Schinner, seme 1": {
+    "f1": 0.8006552677383024
+   }
+  },
+  "lingue": {
+   "minimo": 0.4528475199020208,
+   "p10": 0.5245202558635393,
+   "mediana": 0.6389160497276155,
+   "p90": 0.7180548370408691,
+   "massimo": 0.9740069764825026,
+   "quota_lingue_sotto_il_voynich": 0.971830985915493
+  },
+  "testi_sensati": {
+   "Modern - Chinese (Pinyin) - Literary - NT - Matthew": 0.9740069764825026,
+   "Modern - Chinese (Pinyin) - Technical - Voynich Wiki": 0.927400468384075,
+   "Historical - Greek - Technical - De odoribus": 0.8565169769989046,
+   "Conlangs - Lojban - Literary - Alice in Wonderland": 0.82689940695983,
+   "Historical - Arabic - Literary - Quran": 0.8068833652007648,
+   "Conlangs - Toki Pona - Literary - NT - Sermon on the Mount": 0.7848101265822786,
+   "Conlangs - Lojban - Technical - Science News": 0.7733333333333333,
+   "Historical - Spanish - Literary - NT - Sagradas Escrituras": 0.7180548370408691,
+   "Historical - Portuguese - Technical - Coloquios dos simples": 0.7152608483666504,
+   "Conlangs - Toki Pona - Technical - Turkey-Mexico Wikia": 0.7097744360902255,
+   "Historical - Anglo-Saxon - Literary - NT - Hatton Gospels": 0.7056588410910573,
+   "Conlangs - Klingon - Literary - NT - Mark": 0.7030634947800787,
+   "Historical - Russian - Literary - NT - Codex Marianus": 0.7023453093812375,
+   "Modern - Maori - Literary - NT": 0.6980810718746452,
+   "Historical - Greek - Literary - NT - Textus Receptus": 0.6951625287944714,
+   "Historical - Italian - Technical - Della Pittura": 0.6942552371160519,
+   "Historical - German - Technical - German Herbarium": 0.6941485682667036,
+   "Historical - English - Technical - Secreta Alberti": 0.6941106484235573,
+   "Historical - French - Literary - NT - Martin": 0.6876332622601279,
+   "Modern - French - Literary - NT": 0.6872044318335361,
+   "Historical - Sanskrit - Technical - Charaka Samhita": 0.6839002267573696,
+   "Historical - Flemish - Literary - NT": 0.6780967570441254,
+   "Conlangs - Esperanto - Literary - NT": 0.67430441898527,
+   "Modern - Tagalog - Literary - NT - Ang Dating Biblia": 0.6737923375902277,
+   "Historical - German - Literary - NT - Luther": 0.6686921695898357,
+   "Modern - French - Technical - Voynich Wiki": 0.6670157068062826,
+   "Modern - Wolof - Technical - Senegal Wiki": 0.6624242424242425,
+   "Historical - English - Literary - NT (KJV)": 0.6593079498945801,
+   "Historical - Spanish - Technical - De Materia Medica": 0.6552511415525114,
+   "Historical - Mayan (Yucatec) - Technical - Chilam Balam": 0.6546463245492371,
+   "Modern - English - Literary - NT": 0.6499463519313305,
+   "Modern - Turkish - Literary - NT": 0.6469570233631382,
+   "Modern - German - Literary - NT": 0.6462387853692202,
+   "Historical - Arabic - Technical - Avicenna": 0.6427815970386039,
+   "Modern - Italian - Literary - NT": 0.6393307734503566,
+   "Conlangs - Interlingua - Literary - NT": 0.6389160497276155,
+   "Historical - Sanskrit - Literary - Mahabharata": 0.6370278252759211,
+   "Historical - Anglo-Saxon - Technical - Leechbook": 0.6329442282749675,
+   "Historical - Italian - Literary - NT - Diodati": 0.6264751883975544,
+   "Modern - Maori - Technical - Polandball Wiki": 0.6257668711656442,
+   "Historical - Mayan (Kaqchikel) - Literary - Annals of the Cakchiquels": 0.6254035087719299,
+   "Modern - Spanish - Technical - Voynich Wiki": 0.6213161081953977,
+   "Conlangs - Esperanto - Technical - Voynich Wiki": 0.6163234172387491,
+   "Modern - Tagalog - Technical - Tuberculosis Wiki": 0.6151029748283753,
+   "Modern - Swahili - Technical - Lung Cancer Wiki": 0.6118266978922716,
+   "Conlangs - LOLCat - Literary - NT - Matthew": 0.6098326359832635,
+   "Historical - Nahuatl - Technical - Florentine Codex": 0.607773851590106,
+   "Conlangs - Neo-Quenya - Technical - Europe-Taipei Wikia": 0.6076923076923078,
+   "Conlangs - Neo-Quenya - Literary - NT": 0.606411523796074,
+   "Conlangs - Interlingua - Technical - EU Wiki": 0.6057142857142858,
+   "Modern - Hebrew - Literary - NT": 0.6053352559480892,
+   "Conlangs - Volapuk - Technical - History Wiki": 0.6011787819253438,
+   "Modern - Italian - Technical - Voynich Wiki": 0.5969859017987361,
+   "Conlangs - Volapuk - Literary - NT": 0.5906525828389524,
+   "Historical - Latin - Literary - NT (Vulgate)": 0.5879649576332041,
+   "Modern - English - Technical - Voynich Wiki": 0.577433628318584,
+   "Historical - Flemish - Technical - Cruydeboeck": 0.5751402421021553,
+   "Modern - Turkish - Technical - Middle Ages Wiki": 0.5733270052206929,
+   "Modern - Portuguese - Technical - Voynich Wiki": 0.5722861430715358,
+   "Modern - Hebrew - Technical - Voynich Wiki": 0.5681618293755497,
+   "Historical - Latin (Abbreviated) - Literary - NT (Vulgate)": 0.5638753507605966,
+   "Modern - Arabic - Technical - Voynich Wiki": 0.5571245186136072,
+   "Modern - Arabic - Literary - NT": 0.5471643518518519,
+   "Conlangs - Klingon - Technical - Proxima Centauri B Wikia": 0.5245202558635393,
+   "Historical - Nahuatl - Literary - Nican Mopohua": 0.5239246012566457,
+   "Modern - Yoruba - Technical - Jupiter Wiki": 0.5226781857451404,
+   "Modern - Russian - Technical - Voynich Wiki": 0.5053012671321437,
+   "Modern - German - Technical - Voynich Wiki": 0.48506359065365284,
+   "Historical - Latin (Abbreviated) - Technical - Pliny's Natural History": 0.4750865051903115,
+   "Historical - Latin - Technical - Pliny's Natural History": 0.4705093833780162,
+   "Modern - Swahili - Literary - NT": 0.4528475199020208
+  },
+  "esito": "spazi più prevedibili che nelle lingue"
+ },
+ "parte2": {
+  "medie": {
+   "spazio (.)": {
+    "posizioni": 27442,
+    "p_media": 0.8181018140886315,
+    "quota_fra_0.3_e_0.7": 0.19557612418919904
+   },
+   "spazio incerto (,)": {
+    "posizioni": 2436,
+    "p_media": 0.4701689018684558,
+    "quota_fra_0.3_e_0.7": 0.40311986863711
+   },
+   "nessuno spazio": {
+    "posizioni": 120652,
+    "p_media": 0.04137229401733725,
+    "quota_fra_0.3_e_0.7": 0.04211285349600504
+   }
+  },
+  "esito": "gli spazi incerti cadono dove la regola è incerta"
+ }
+}

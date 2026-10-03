@@ -1,0 +1,7 @@
+Voynich {"f1_sub": [0.8594781515246778, 0.8631740129060483, 0.8619680252195452, 0.8396819746054349, 0.864762751416824], "f1": 0.8619680252195452}
+gibberish umano {"f1": 0.28228807718814614}
+Naibbe (Greshko 2025), a capo {"f1": 0.883203304268013}
+U2 (Whitehatnetizen 2026) {"f1": 0.8602860286028603}
+U3 (Whitehatnetizen 2026) {"f1": 0.8153551781870367}
+Timm e Schinner, seme 1 {"f1": 0.8006552677383024}
+{"spazio (.)": {"posizioni": 27442, "p_media": 0.8181018140886315, "quota_fra_0.3_e_0.7": 0.19557612418919904}, "spazio incerto (,)": {"posizioni": 2436, "p_media": 0.4701689018684558, "quota_fra_0.3_e_0.7": 0.40311986863711}, "nessuno spazio": {"posizioni": 120652, "p_media": 0.04137229401733725, "quota_fra_0.3_e_0.7": 0.04211285349600504}} spazi più prevedibili che nelle lingue / gli spazi incerti cadono dove la regola è incerta

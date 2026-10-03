@@ -1063,6 +1063,7 @@ Numeri già registrati nel Quaderno (esperimenti indicati). "Lingue" = 71 testi 
 | inizi uguali fra righe consecutive, rapporto (e3a35) | **0,51** (z −8,0) | mediana 0,95; solo 3 su 57 sotto | 1,32 | — |
 | scriba che guarda avanti di una parola (e3a02, e3a34) | sì (ZL e IT) | — | — | — |
 | coppie fra parole che ricalcano le coppie dentro le parole, ρ (e3a49, e3a50) | **0,47** (IT 0,44; GC 0,50) | sotto 0,39 tutte; di solito sotto 0,2 | 0,20 | — |
+| spazio prevedibile dai due segni vicini, F1 (e3a58) | **0,86** | mediana 0,64; 90° percentile 0,72 (pinyin 0,97) | 0,28 | 0,80 – 0,88 |
 | frequenza delle parole che segue la forma, ρ (e3a55) | **0,58** | mediana 0,11; massimo 0,28 | 0,09 | 0,41 (Naibbe) – 0,60 |
 | regole di raccordo *qo*-/*o*-, -*l*/-*r* (e380, e388, e395, e3a16) | sì, in tutte le mani, sessioni e trascrizioni | (*sandhi*, liaison in alcune lingue) | — | — |
 
@@ -1096,3 +1097,4 @@ conta poco, perché la loro giuntura è quasi zero.
 - **La frequenza delle parole segue la loro forma** (e3a55): le parole frequenti del Voynich sono le sequenze di segni più probabili per le regole di sequenza (ρ 0,58), più che in tutte le lingue (mediana 0,11, massimo 0,28) e del gibberish umano (0,09); come nei generatori (0,53–0,60) e nel cifrario verboso Naibbe (0,41). Esclude un vocabolario scelto per significato (lingua o cifrario a dizionario), non un procedimento sui segni.
   - Replicato (e3a56) con Takahashi e Glen Claston, in lingua A e B e per le mani 1, 2, 3: ρ sempre 0,57–0,61, sopra il massimo delle lingue alla stessa dimensione.
   - Non è un effetto della bassa entropia dei segni (e3a57): nelle lingue ρ non cresce quando l'entropia cala (r = +0,20); Toki Pona, con la stessa entropia del Voynich (2,25 contro 2,22 bit), ha ρ 0,23 contro 0,59.
+- **Lo spazio si indovina dai segni vicini** (e3a58): con la sola coppia di segni attorno al punto, lo spazio si prevede con F1 0,86, sopra il 97% delle lingue (mediana 0,64; più alti solo i due testi in pinyin, che chiudono ogni parola col numero del tono); come nei generatori (0,80–0,88); il gibberish umano è il meno prevedibile (0,28). Gli spazi incerti della ZL cadono proprio dove la regola è incerta: probabilità media di spazio 0,47, contro 0,82 negli spazi certi e 0,04 dove non c'è spazio.
