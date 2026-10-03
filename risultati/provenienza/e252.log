@@ -1,0 +1,9 @@
+base: gamma 0.00 (esito del passo 2: non superato: R + pagella); tassi di forma lunga {'e interna': 0.396, 'o iniziale': 0.378, 'y finale': 0.424, 'ch iniziale': 0.227, 'd interna': 0.456, 'd iniziale': 0.266, 'q iniziale': 0.463, 'sh iniziale': 0.172, 'l finale': 0.678, 't interna': 0.451, 'cth iniziale': 0.1, 'sh interna': 0.1}
+interruttori spenti identico a e233.genera: True
+seme 7 base        : pagella 15/18 riga True mancano ['ripetizione', 'profilo pagina', 'verticale'] | AUC e231 0.887 e266 0.966 | R rare 48.49884526558891
+seme 7 interruttori: pagella 11/18 riga False mancano ['h2', 'spazio', 'ripetizione', 'legame', 'profilo pagina', 'Zipf', 'verticale'] | AUC e231 0.943 e266 0.989 | R rare 45.87570621468926
+seme 8 base        : pagella 15/18 riga False mancano ['spazio', 'ripetizione', 'verticale'] | AUC e231 0.854 e266 0.953 | R rare 51.50812064965197
+seme 8 interruttori: pagella 11/18 riga False mancano ['h2', 'spazio', 'ripetizione', 'omogeneità', 'profilo pagina', 'Zipf', 'verticale'] | AUC e231 0.907 e266 0.972 | R rare 46.829268292682926
+seme 9 base        : pagella 15/18 riga True mancano ['spazio', 'ripetizione', 'verticale'] | AUC e231 0.879 e266 0.965 | R rare 44.77611940298508
+seme 9 interruttori: pagella 13/18 riga False mancano ['h2', 'spazio', 'ripetizione', 'Zipf', 'verticale'] | AUC e231 0.955 e266 0.988 | R rare 45.24886877828054
+non superato: classi + pagella + riga
