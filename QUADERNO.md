@@ -9734,3 +9734,25 @@ riga (divergenza di Jensen-Shannon).
   dopo un disegno e nelle etichette di più a "dopo -*n*" (dove viene *o*-). Ma ogni caso ha una sua distribuzione:
   l'inizio riga ha molti *d*-, *y*-, *s*- (i segni di bordo, e389), le etichette sono quasi tutte *o*-.
 - Lettura: i posti senza parola prima non si spiegano come "una finale sottintesa"; hanno regole proprie.
+
+## 4/10/2026 (notte) — e3a10: il piccolo legame oltre il segno di bordo è sparso nella parola
+
+Preregistrato (`preregistrazioni/e3a10.md`). Legame dell'identità della parola con il segno della vicina, condizionando
+su k segni di bordo.
+
+| direzione | condizione | E | z |
+|---|---|---|---|
+| avanti | ultimo segno (k = 1) | 0,080 | 20,8 |
+| avanti | ultimi 2 segni | 0,050 | 14,5 |
+| avanti | ultimi 3 segni | 0,028 | 9,1 |
+| avanti | k = 1, senza parole corte | 0,064 | 14,6 |
+| indietro | primo segno | 0,038 | 10,3 |
+| indietro | primi 2 segni | 0,021 | 6,0 |
+| indietro | primi 3 segni | 0,011 | 4,3 |
+| indietro | k = 1, senza parole corte | 0,037 | 8,9 |
+
+- **Esito preregistrato, in tutte e due le direzioni: il resto è sparso nella parola.** Non sta nel penultimo segno
+  (con 2 segni resta il 63%) né nelle parole corte (senza di esse resta l'80% avanti, il 97% indietro).
+- **Ipotesi da verificare:** il resto viene dal lessico della pagina. Nella stessa pagina tornano le stesse famiglie di
+  parole, e questo lega l'identità di una parola all'iniziale della vicina anche senza raccordo. Il nullo dell'e3a08 e
+  dell'e3a10 rimescolava fra pagine diverse: prova con il nullo dentro la pagina nell'e3a14.
