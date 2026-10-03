@@ -10212,3 +10212,21 @@ Testi sensati con almeno 300 coppie (57): rapporto da 0,36 a 1,89, mediana 0,95;
 - Nelle lingue vere l'evitamento è raro (mediana 0,95; solo 3 testi su 57 sotto lo 0,51 del Voynich).
 - **Lettura:** l'evitamento degli inizi ripetuti sul margine sinistro è un tratto proprio del Voynich, come la giuntura
   chiusa nella riga: raro nelle lingue, assente nel gibberish umano.
+
+## 4/10/2026 (notte) — e3a36: il contesto trovato toglie il 18% dell'incertezza su qo-/o- e il 7% su -l/-r
+
+Preregistrato (`preregistrazioni/e3a36.md`). Modello a tabella sul contesto, addestrato sulle pagine pari e valutato sulle
+dispari (e viceversa). Tutti i loci (paragrafi, etichette, cerchi, raggi).
+
+| scelta | eventi | incertezza tolta | accuratezza | scelta più frequente | parte che pesa di più |
+|---|---|---|---|---|---|
+| *qo*-/*o*- | 10.146 | **17,9%** | 71,2% | 55,3% | finale della parola prima (senza: 10,6%) |
+| -*l*/-*r* | 11.457 | **7,0%** | 61,1% | 48,8% | iniziale della parola dopo (senza: −0,3%) |
+
+Quota di *qo* per posto: in mezzo alla riga 0,50 (7.980); inizio riga 0,64 (682); dopo un disegno 0,14 (156); cerchi
+0,06 (843); etichette 0,02 (485). Quota di -*l*: in mezzo 0,50; fine riga 0,57; prima di un disegno 0,67; cerchi 0,44;
+etichette 0,49.
+
+- **Riassunto preregistrato (senza soglie):** le regole di raccordo e di posto sono vere ma lasciano libera gran parte
+  della scelta: l'82% dell'incertezza su *qo*-/*o*- e il 93% su -*l*/-*r*.
+- Da vedere (e3a37): quanto aggiunge la parola stessa (alcune parole potrebbero preferire di loro una forma).
