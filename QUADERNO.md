@@ -10011,3 +10011,24 @@ Preregistrato (`preregistrazioni/e3a27.md`). Misura dell'e3a26 (la riga subito s
 
 - **Esito preregistrato: regge in tutte e tre le prove.** Il legame verticale sul margine sinistro non dipende dalla
   trascrizione né dalla lingua.
+
+## 4/10/2026 (notte) — e3a28: sul margine sinistro lo stesso inizio si evita; nelle colonne interne sembra ripetersi (nullo da rifare)
+
+Preregistrato (`preregistrazioni/e3a28.md`). 2.200 coppie di righe consecutive con almeno 5 parole (dalla seconda riga
+del paragrafo). Nullo: ordine delle parole rimescolato dentro le due righe.
+
+| colonna | stessi primi 2 segni: osservata / nullo | rapporto | z | parola uguale: rapporto | z |
+|---|---|---|---|---|---|
+| 1 (margine sinistro) | 0,035 / 0,077 | **0,45** | **−7,7** | 0,62 | −1,9 |
+| 2 | 0,112 / 0,077 | 1,44 | 6,3 | 1,75 | 3,7 |
+| 3 | 0,100 / 0,077 | 1,29 | 4,0 | 1,06 | 0,3 |
+| 4 | 0,100 / 0,077 | 1,29 | 4,0 | 1,70 | 3,4 |
+| ultima | 0,078 / 0,077 | 1,01 | 0,2 | 1,02 | 0,1 |
+
+- **Esito preregistrato:** colonna 1 "evita la stessa colonna"; colonne 2–4 "ripete nella stessa colonna"; ultima
+  "indifferente". "Solo il margine sinistro" (fra le evitate): sì.
+- **Cautela sul nullo per le colonne interne:** rimescolando tutta la riga, le parole di bordo (con i loro inizi
+  speciali, *s*-, *y*-, *d*-) finiscono nelle colonne interne e abbassano la somiglianza attesa lì. L'eccesso delle
+  colonne 2–4 può venire in parte da questo. Si rifà con un nullo che rimescola solo le parole interne (e3a29). Per la
+  colonna 1 il dubbio va nell'altro verso: le prime parole condividono gli inizi speciali, quindi l'evitamento è
+  prudente (e confermato dall'e3a25 con un nullo diverso).
