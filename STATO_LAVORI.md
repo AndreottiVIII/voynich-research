@@ -69,6 +69,33 @@ Dettagli nel QUADERNO e nel dossier (§15.5–15.11).
   - la lettura A/B dell'e307 (corretta dall'e315);
   - "la riga sopra non conta" del primo modello (corretta dall'e338/e340).
 
+## vz: stato del voynichizzatore (chat del voynichizzatore, 3/10 a mezzanotte)
+
+Dettagli nel `QUADERNO.md` (voci che iniziano con "vz:") e nel diario `voynichizzatore/DIARIO.md`.
+
+- **Versione corrente: v10** (predefinita in `voynichizzatore/voynichizzatore.py`). Banco e293, Isidoro XVII nascosto,
+  semi 7–9: decodifica esatta, pagella 50/54, pagella estesa 63/78, AUC **0,550** (e231) e **0,662** (e266).
+  La v5 faceva 49/54, 57/78, 0,816 e 0,917.
+- **Impianto nuovo, "a pezzi"** (e400–e410). Del Voynich vero usa l'impaginazione e le statistiche:
+  - **sacco di pagina** (`sacco.py`, `parole_nuove.py`): parole note dal lessico della sezione e lingua, con un
+    carattere nei segni prestato da un'altra pagina; parole nuove da un modello dei segni imparato sulle parole uniche,
+    in parte come unioni di due parole della pagina;
+  - **disposizione** (`disposizione.py`): ogni parola va in un posto secondo la sua forma (inizio, fine riga, prime
+    righe) e pochi legami deboli fra vicine (bordi, unione, ultimo e primo segno, parola sopra), con i pesi regolati
+    sui valori grezzi del testo, mai sui giudici;
+  - **nascondiglio** (`canale_sacco.py`): il messaggio cifrato sceglie quante volte compare ogni parola nota in ogni
+    pagina; le scelte di grafia non si riscrivono più. Capacità circa 80.000 bit per libro.
+- **Metodo:** si sostituisce un pezzo alla volta nel Voynich vero e si misura il costo di quel solo pezzo, con le
+  previsioni scritte prima; al secondo fallimento sulla stessa strada si dichiara la lacuna.
+- **Che cosa manca per "indistinguibile":** giudice dell'e266 a 0,66 (obiettivo 0,6); cancello della riga perso
+  (e410 in corso); materie aggiunte mancate: prime righe come registro, scelte di riga, concordanza delle desinenze,
+  coppie viste altrove; profilo pagina; ordine delle righe nella pagina (le due metà della pagina sono troppo simili).
+- **Proprietà del Voynich emerse lavorando** (per il dossier): i bordi della riga contano molto più dell'ordine
+  interno e l'ordine delle righe quasi niente (e400); il posto di una parola nella riga si prevede dalla sua forma
+  (e401); le parole uniche portano i segni rari e stanno ai bordi (e403); l'identità di una pagina è sezione, lingua e
+  un profilo dei segni, non parole ripetute (e404, e404b); un terzo delle "unioni attestate" viene da parole uniche
+  fatte di due parole attaccate (e407); i finali di parole vicine si legano pochissimo (e408).
+
 ## Decisione di Davide del 3/10, 19:45: il voynichizzatore passa a un'altra chat
 
 - **Questa chat fa solo ricerca sul Voynich**, non più modellazione né generatore.
