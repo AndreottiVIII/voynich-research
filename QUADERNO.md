@@ -6190,3 +6190,22 @@ sequenza.
   Quella del vecchio PC resta nei commit 5b52165 e 703cec1.
 - **Esito: trasloco verificato.** Il nuovo PC prende gli esperimenti non ancora partiti (vedi
   `STATO_LAVORI.md`).
+
+## 3/10/2026 — e257: le righe gemelle ci sono, ma il generatore e241 ne fa altrettante
+
+- **Preregistrato.**
+  - G è la catena più lunga di corrispondenze (uguali o a distanza 1) nello stesso ordine fra una riga e
+    quella sopra, divisa per le parole della riga. La riga è gemella se G ≥ 0,5.
+  - Nullo: la riga sopra presa da un'altra pagina della stessa sezione, 200 repliche.
+  - Riferimento: generatore e241, seme 2.
+- **Risultati:**
+  - Voynich: 3.589 coppie di righe, G medio 0,193, righe gemelle **2,7%** contro 1,3% del nullo (z 8,0);
+  - generatore e241: G medio 0,215, righe gemelle **3,1%** contro 1,2% (z 11,0);
+  - nel Voynich G sta quasi sempre fra 0 e 0,4 (il valore più comune è 0,2).
+- **Esito: nessun eccesso.** L'eccesso sul nullo c'è, ma il criterio chiedeva anche almeno 1,5 volte il
+  generatore: il Voynich ne ha 0,86 volte.
+- **Lettura.**
+  - Non serve un meccanismo in più di copia "in ordine" della riga sopra. La copia "a vista" con
+    modifiche, già nel generatore, basta a produrre le righe gemelle che si vedono, anzi un poco di più.
+  - È coerente con e247b–e247d.
+- Prima esecuzione completata sul nuovo PC: 316 s.
