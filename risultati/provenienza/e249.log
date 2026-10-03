@@ -1,0 +1,61 @@
+esempi di segmentazione: ['f|a|chy|s y|kal al a|kain chol cho|r|y', 'oky da|g|o cho v|ol cheol|d|am okcho|ey', 'al|s kcho|s o|ckh|ey okeo s cheo|ey']
+ripulito, segni EVA                simboli 24 lunghezza 137073 righe 4219
+pezzi                              simboli 136 lunghezza 55954 righe 4097
+pezzi, rimescolato                 simboli 136 lunghezza 55888 righe 4082
+italiano   tetto (testo in chiaro)                              punteggio -1.573  copertura 76.6% (6+: 49.5%)  coppie 39.3%  parole  3031  simboli   0     0s
+latino     tetto (testo in chiaro)                              punteggio -1.789  copertura 87.7% (6+: 57.4%)  coppie 21.9%  parole  5420  simboli   0     0s
+latino     ripulito, segni EVA, controllo positivo              punteggio -1.789  copertura 87.7% (6+: 57.4%)  coppie 21.9%  parole  5420  chiave 100.0%  simboli  24   292s
+latino     ripulito, segni EVA, controllo negativo              punteggio -2.883  copertura 56.1% (6+:  7.4%)  coppie  0.4%  parole  1853  simboli  24   305s
+latino     ripulito, segni EVA, Voynich                         punteggio -2.869  copertura 51.0% (6+:  9.1%)  coppie  0.1%  parole  1173  simboli  24    90s
+italiano   ripulito, segni EVA, controllo positivo              punteggio -1.573  copertura 76.6% (6+: 49.5%)  coppie 39.3%  parole  3031  chiave 100.0%  simboli  24   310s
+italiano   ripulito, segni EVA, controllo negativo              punteggio -3.475  copertura 28.3% (6+:  1.6%)  coppie  0.4%  parole   662  simboli  24   311s
+italiano   ripulito, segni EVA, Voynich                         punteggio -3.220  copertura 22.2% (6+:  1.6%)  coppie  0.2%  parole   371  simboli  24    87s
+italiano   pezzi, controllo positivo                            punteggio -1.556  copertura 77.6% (6+: 49.4%)  coppie 40.8%  parole  1819  chiave 100.0%  simboli 136   293s
+italiano   pezzi, controllo negativo                            punteggio -3.507  copertura 28.6% (6+:  1.6%)  coppie  0.0%  parole   734  simboli 136   384s
+italiano   pezzi, Voynich                                       punteggio -4.028  copertura 11.9% (6+:  0.4%)  coppie  0.0%  parole   451  simboli 136   545s
+latino     pezzi, controllo positivo                            punteggio -1.758  copertura 88.6% (6+: 59.8%)  coppie 21.6%  parole  3112  chiave 100.0%  simboli 136   311s
+latino     pezzi, controllo negativo                            punteggio -3.033  copertura 54.2% (6+:  6.5%)  coppie  0.1%  parole  2048  simboli 136   417s
+latino     pezzi, Voynich                                       punteggio -3.495  copertura 36.4% (6+:  2.1%)  coppie  0.0%  parole  1595  simboli 136   557s
+italiano   pezzi, rimescolato, controllo positivo               punteggio -1.556  copertura 77.6% (6+: 49.4%)  coppie 40.8%  parole  1819  chiave 100.0%  simboli 136   304s
+italiano   pezzi, rimescolato, controllo negativo               punteggio -3.539  copertura 27.1% (6+:  1.5%)  coppie  0.3%  parole   748  simboli 136   303s
+italiano   pezzi, rimescolato, Voynich                          punteggio -4.108  copertura 12.7% (6+:  0.2%)  coppie  0.0%  parole   516  simboli 136   353s
+tedesco    tetto (testo in chiaro)                              punteggio -1.559  copertura 75.0% (6+: 44.5%)  coppie 36.1%  parole  2325  simboli   0     0s
+latino     pezzi, rimescolato, controllo positivo               punteggio -1.758  copertura 88.6% (6+: 59.8%)  coppie 21.6%  parole  3109  chiave 100.0%  simboli 136   304s
+latino     pezzi, rimescolato, controllo negativo               punteggio -3.016  copertura 54.2% (6+:  6.4%)  coppie  0.2%  parole  1988  simboli 136   304s
+latino     pezzi, rimescolato, Voynich                          punteggio -3.645  copertura 36.4% (6+:  1.9%)  coppie  0.4%  parole  1767  simboli 136   358s
+ebraico    tetto (testo in chiaro)                              punteggio -2.183  copertura 75.8% (6+: 17.9%)  coppie 23.1%  parole  5789  simboli   0     0s
+tedesco    ripulito, segni EVA, controllo positivo              punteggio -1.559  copertura 75.0% (6+: 44.5%)  coppie 36.1%  parole  2325  chiave 100.0%  simboli  24   176s
+tedesco    ripulito, segni EVA, controllo negativo              punteggio -3.508  copertura 29.0% (6+:  2.5%)  coppie  0.4%  parole   360  simboli  24   266s
+tedesco    ripulito, segni EVA, Voynich                         punteggio -3.263  copertura 27.7% (6+:  2.2%)  coppie  0.1%  parole   267  simboli  24    65s
+ebraico    ripulito, segni EVA, controllo positivo              punteggio -2.278  copertura 73.7% (6+: 17.3%)  coppie 22.8%  parole  5556  chiave 100.0%  simboli  24   293s
+ebraico    ripulito, segni EVA, controllo negativo              punteggio -3.725  copertura 34.5% (6+:  0.5%)  coppie  0.0%  parole  1633  simboli  24   260s
+ebraico    ripulito, segni EVA, Voynich                         punteggio -2.713  copertura 58.0% (6+:  4.7%)  coppie  0.5%  parole   535  simboli  24    67s
+tedesco    pezzi, controllo positivo                            punteggio -1.537  copertura 76.5% (6+: 46.1%)  coppie 36.1%  parole  1379  chiave 100.0%  simboli 136   221s
+tedesco    pezzi, controllo negativo                            punteggio -3.660  copertura 26.1% (6+:  2.1%)  coppie  0.3%  parole   437  simboli 136   216s
+tedesco    pezzi, Voynich                                       punteggio -4.343  copertura 11.0% (6+:  0.7%)  coppie  2.2%  parole   347  simboli 136   200s
+ebraico    pezzi, controllo positivo                            punteggio -4.038  copertura 28.8% (6+:  0.5%)  coppie  0.0%  parole  2266  chiave  20.9%  simboli 136   216s
+ebraico    pezzi, controllo negativo                            punteggio -3.792  copertura 32.5% (6+:  0.6%)  coppie  0.0%  parole  2050  simboli 136   192s
+ebraico    pezzi, Voynich                                       punteggio -3.752  copertura 28.1% (6+:  0.4%)  coppie  0.3%  parole  1702  simboli 136   150s
+tedesco    pezzi, rimescolato, controllo positivo               punteggio -1.537  copertura 76.5% (6+: 46.1%)  coppie 36.1%  parole  1379  chiave 100.0%  simboli 136   136s
+tedesco    pezzi, rimescolato, controllo negativo               punteggio -3.589  copertura 27.0% (6+:  2.4%)  coppie  1.0%  parole   420  simboli 136   194s
+tedesco    pezzi, rimescolato, Voynich                          punteggio -4.388  copertura 11.1% (6+:  0.9%)  coppie  2.3%  parole   371  simboli 136   247s
+arabo      tetto (testo in chiaro)                              punteggio -2.135  copertura 77.0% (6+: 27.1%)  coppie 28.2%  parole  6003  simboli   0     0s
+ebraico    pezzi, rimescolato, controllo positivo               punteggio -4.025  copertura 27.6% (6+:  0.4%)  coppie  0.3%  parole  2059  chiave   8.0%  simboli 136   188s
+ebraico    pezzi, rimescolato, controllo negativo               punteggio -3.783  copertura 33.2% (6+:  0.4%)  coppie  0.2%  parole  1900  simboli 136   196s
+ebraico    pezzi, rimescolato, Voynich                          punteggio -3.815  copertura 27.4% (6+:  0.2%)  coppie  0.0%  parole  1819  simboli 136   261s
+arabo      ripulito, segni EVA, controllo positivo              punteggio -2.358  copertura 68.1% (6+: 21.2%)  coppie 26.7%  parole  4921  chiave  96.4%  simboli  24   228s
+arabo      ripulito, segni EVA, controllo negativo              punteggio -2.989  copertura 40.7% (6+:  3.0%)  coppie  0.6%  parole   634  simboli  24   159s
+arabo      ripulito, segni EVA, Voynich                         punteggio -2.659  copertura 54.4% (6+:  8.3%)  coppie  0.5%  parole   552  simboli  24    37s
+arabo      pezzi, controllo positivo                            punteggio -3.709  copertura 28.5% (6+:  1.3%)  coppie  0.6%  parole  1544  chiave  43.9%  simboli 136   147s
+arabo      pezzi, controllo negativo                            punteggio -3.276  copertura 36.7% (6+:  1.5%)  coppie  0.3%  parole  1216  simboli 136   147s
+arabo      pezzi, Voynich                                       punteggio -3.487  copertura 27.3% (6+:  0.9%)  coppie  0.3%  parole  1223  simboli 136   169s
+arabo      pezzi, rimescolato, controllo positivo               punteggio -3.663  copertura 30.0% (6+:  1.4%)  coppie  1.0%  parole  1558  chiave  45.9%  simboli 136   100s
+arabo      pezzi, rimescolato, controllo negativo               punteggio -3.282  copertura 38.4% (6+:  1.8%)  coppie  0.3%  parole  1274  simboli 136    87s
+arabo      pezzi, rimescolato, Voynich                          punteggio -3.734  copertura 24.8% (6+:  0.7%)  coppie  0.4%  parole  1374  simboli 136   127s
+latino       0.01/0.03 | -0.36/-0.08 | -0.50/-0.08
+italiano     0.13/0.00 | -0.27/-0.03 | -0.29/-0.03
+tedesco      0.13/-0.01 | -0.32/-0.03 | -0.39/-0.03
+ebraico      0.70/0.25 | -0.16/1.30 | 0.13/6.89
+arabo        0.52/0.29 | 0.49/4.63 | 1.19/2.82
+candidato, da esaminare [('arabo', 'pezzi, rimescolato', 1.1855636966911776, 2.8158629898817042)]
+nessuna lettura []
