@@ -10032,3 +10032,22 @@ del paragrafo). Nullo: ordine delle parole rimescolato dentro le due righe.
   colonne 2–4 può venire in parte da questo. Si rifà con un nullo che rimescola solo le parole interne (e3a29). Per la
   colonna 1 il dubbio va nell'altro verso: le prime parole condividono gli inizi speciali, quindi l'evitamento è
   prudente (e confermato dall'e3a25 con un nullo diverso).
+
+## 4/10/2026 (notte) — e3a29: con i bordi fermi le colonne interne non ripetono; resta solo l'evitamento sul margine sinistro
+
+Preregistrato (`preregistrazioni/e3a29.md`). Come l'e3a28, ma il nullo rimescola solo le parole interne (prima e ultima
+ferme).
+
+| colonna | stessi primi 2 segni: rapporto | z | esito | parola uguale: rapporto | z |
+|---|---|---|---|---|---|
+| 2 | 1,25 | 3,6 | ripete | 1,37 | 2,1 |
+| 3 | 1,11 | 1,7 | indifferente | 0,83 | −0,9 |
+| 4 | 1,11 | 1,7 | indifferente | 1,32 | 1,7 |
+| penultima | 1,03 | 0,5 | indifferente | 0,99 | −0,1 |
+
+- **Esito preregistrato:** colonna 2 "ripete" (di poco), colonne 3, 4 e penultima "indifferente".
+- **Correzione della lettura dell'e3a28:** l'eccesso nelle colonne interne veniva in gran parte dal nullo. Con i bordi
+  fermi resta solo un lieve eccesso in colonna 2, che può venire dalle forme di posizione della seconda parola (e337). La
+  copia dalla riga sopra non segue la colonna, come diceva l'e345.
+- **Resta l'unico effetto verticale vero:** sul margine sinistro due righe consecutive evitano di cominciare allo stesso
+  modo, soprattutto con *qo*- (e3a25–e3a27).
