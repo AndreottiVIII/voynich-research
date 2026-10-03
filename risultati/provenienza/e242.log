@@ -1,0 +1,5 @@
+tau 0.0, ell_r 0.0: AUC 0.880 tipi_su_parole_pagina 0.675 fra_le_100 0.412 uniche_nel_testo 0.117 somiglianza_vicine 0.204 lunghezza_media 4.196 R 0.387 N 0.120
+tau 0.0, ell_r 1.0: AUC 0.878 tipi_su_parole_pagina 0.687 fra_le_100 0.398 uniche_nel_testo 0.132 somiglianza_vicine 0.212 lunghezza_media 4.381 R 0.371 N 0.133
+tau 0.5, ell_r 0.0: AUC 0.858 tipi_su_parole_pagina 0.722 fra_le_100 0.385 uniche_nel_testo 0.128 somiglianza_vicine 0.205 lunghezza_media 4.255 R 0.345 N 0.124
+tau 0.5, ell_r 1.0: AUC 0.864 tipi_su_parole_pagina 0.721 fra_le_100 0.381 uniche_nel_testo 0.139 somiglianza_vicine 0.210 lunghezza_media 4.401 R 0.340 N 0.136
+scelta tau 0.5, ell_r 0.0: verifica [0.861, 0.897] (media 0.879) | pagella 13/18 riga False mancano ['spazio', 'ripetizione', 'deriva', 'profilo pagina', 'verticale'] -> non migliore
