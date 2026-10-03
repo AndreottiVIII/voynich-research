@@ -1,0 +1,19 @@
+{
+ "coppie": 83,
+ "conflitti": 34,
+ "misure": {
+  "cambia a (finale della parola prima)": {
+   "quota_conflitto": 0.0,
+   "quota_accordo": 0.04081632653061224,
+   "differenza": -0.04081632653061224,
+   "p": 1.0
+  },
+  "cambia b (qo/o della parola dopo)": {
+   "quota_conflitto": 0.5882352941176471,
+   "quota_accordo": 0.1836734693877551,
+   "differenza": 0.404561824729892,
+   "p": 0.0003
+  }
+ },
+ "esito": "si adatta la parola dopo (si scrive guardando quel che c'è già)"
+}
