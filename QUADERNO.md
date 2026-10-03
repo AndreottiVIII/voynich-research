@@ -9998,3 +9998,16 @@ Preregistrato (`preregistrazioni/e3a26.md`). Prime parole *qo*/*o* + gallows, ri
   scrive *o*-: due *qo*- uno sotto l'altro quasi non ci sono. A destra invece non c'è niente del genere (e3a24: nessuna
   rima e nessun evitamento fra le parole finali). È un legame **verticale**, solo sul margine sinistro e solo con la riga
   subito sopra, come un "non ripetere lo stesso inizio".
+
+## 4/10/2026 (notte) — e3a27: il qo- evitato sul margine sinistro regge con Takahashi e in tutte e due le lingue
+
+Preregistrato (`preregistrazioni/e3a27.md`). Misura dell'e3a26 (la riga subito sopra comincia con *qo*-).
+
+| prova | eventi (sì / no) | Δ P(*qo*) | z | esito |
+|---|---|---|---|---|
+| trascrizione IT (Takahashi) | 57 / 472 | −0,499 | −6,8 | regge |
+| ZL, lingua A | 28 / 230 | −0,620 | −5,0 | regge |
+| ZL, lingua B | 26 / 250 | −0,405 | −4,7 | regge |
+
+- **Esito preregistrato: regge in tutte e tre le prove.** Il legame verticale sul margine sinistro non dipende dalla
+  trascrizione né dalla lingua.
