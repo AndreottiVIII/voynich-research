@@ -1,0 +1,48 @@
+Voynich {"vero": {"rho frequenza-forma (e3a55)": 0.5961037602160494, "riempimento (e3a61)": 0.4345742720235901, "F1 degli spazi (e3a58)": 0.8553719008264462, "tagli sbagliati che sono parole (e3a67)": 0.4933481152993348}, "catena": {"rho frequenza-forma (e3a55)": 0.6134740525325424, "riempimento (e3a61)": 0.4412280701754386, "F1 degli spazi (e3a58)": 0.8659934188131171, "tagli sbagliati che sono parole (e3a67)": 0.4694027116159766}}
+gibberish {"vero": {"rho frequenza-forma (e3a55)": 0.08681281206957162, "riempimento (e3a61)": 0.09287629260819609, "F1 degli spazi (e3a58)": 0.2814056447149972, "tagli sbagliati che sono parole (e3a67)": 0.06539183882533721}, "catena": {"rho frequenza-forma (e3a55)": 0.43164598777664065, "riempimento (e3a61)": 0.15187254293399544, "F1 degli spazi (e3a58)": 0.2660682226211849, "tagli sbagliati che sono parole (e3a67)": 0.09193179820706626}, "parole_catena": 9911}
+{
+ "rho frequenza-forma (e3a55)": {
+  "lingue_vere_mediana": 0.11004308689960451,
+  "lingue_vere_p90": 0.2016166972337655,
+  "lingue_catena_mediana": 0.2939413009049506,
+  "lingue_catena_sopra_p90": true,
+  "voynich_vero": 0.5961037602160494,
+  "voynich_catena": 0.6134740525325424,
+  "rapporto_voynich": 1.029139712707394,
+  "gibberish_vero": 0.08681281206957162,
+  "gibberish_catena": 0.43164598777664065
+ },
+ "riempimento (e3a61)": {
+  "lingue_vere_mediana": 0.04281567489114659,
+  "lingue_vere_p90": 0.08648481091134531,
+  "lingue_catena_mediana": 0.15454062665958576,
+  "lingue_catena_sopra_p90": true,
+  "voynich_vero": 0.4345742720235901,
+  "voynich_catena": 0.4412280701754386,
+  "rapporto_voynich": 1.0153110724223622,
+  "gibberish_vero": 0.09287629260819609,
+  "gibberish_catena": 0.15187254293399544
+ },
+ "F1 degli spazi (e3a58)": {
+  "lingue_vere_mediana": 0.6389160497276155,
+  "lingue_vere_p90": 0.7180548370408691,
+  "lingue_catena_mediana": 0.6667525441195415,
+  "lingue_catena_sopra_p90": false,
+  "voynich_vero": 0.8553719008264462,
+  "voynich_catena": 0.8659934188131171,
+  "rapporto_voynich": 1.0124174268249968,
+  "gibberish_vero": 0.2814056447149972,
+  "gibberish_catena": 0.2660682226211849
+ },
+ "tagli sbagliati che sono parole (e3a67)": {
+  "lingue_vere_mediana": 0.06742043551088778,
+  "lingue_vere_p90": 0.12248357702903158,
+  "lingue_catena_mediana": 0.18259587020648968,
+  "lingue_catena_sopra_p90": true,
+  "voynich_vero": 0.4933481152993348,
+  "voynich_catena": 0.4694027116159766,
+  "rapporto_voynich": 0.9514634738822716,
+  "gibberish_vero": 0.06539183882533721,
+  "gibberish_catena": 0.09193179820706626
+ }
+} in parte (3 misure su 4) / il Voynich non cambia

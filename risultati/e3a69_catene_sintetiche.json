@@ -1,0 +1,1209 @@
+{
+ "sintesi": {
+  "rho frequenza-forma (e3a55)": {
+   "lingue_vere_mediana": 0.11004308689960451,
+   "lingue_vere_p90": 0.2016166972337655,
+   "lingue_catena_mediana": 0.2939413009049506,
+   "lingue_catena_sopra_p90": true,
+   "voynich_vero": 0.5961037602160494,
+   "voynich_catena": 0.6134740525325424,
+   "rapporto_voynich": 1.029139712707394,
+   "gibberish_vero": 0.08681281206957162,
+   "gibberish_catena": 0.43164598777664065
+  },
+  "riempimento (e3a61)": {
+   "lingue_vere_mediana": 0.04281567489114659,
+   "lingue_vere_p90": 0.08648481091134531,
+   "lingue_catena_mediana": 0.15454062665958576,
+   "lingue_catena_sopra_p90": true,
+   "voynich_vero": 0.4345742720235901,
+   "voynich_catena": 0.4412280701754386,
+   "rapporto_voynich": 1.0153110724223622,
+   "gibberish_vero": 0.09287629260819609,
+   "gibberish_catena": 0.15187254293399544
+  },
+  "F1 degli spazi (e3a58)": {
+   "lingue_vere_mediana": 0.6389160497276155,
+   "lingue_vere_p90": 0.7180548370408691,
+   "lingue_catena_mediana": 0.6667525441195415,
+   "lingue_catena_sopra_p90": false,
+   "voynich_vero": 0.8553719008264462,
+   "voynich_catena": 0.8659934188131171,
+   "rapporto_voynich": 1.0124174268249968,
+   "gibberish_vero": 0.2814056447149972,
+   "gibberish_catena": 0.2660682226211849
+  },
+  "tagli sbagliati che sono parole (e3a67)": {
+   "lingue_vere_mediana": 0.06742043551088778,
+   "lingue_vere_p90": 0.12248357702903158,
+   "lingue_catena_mediana": 0.18259587020648968,
+   "lingue_catena_sopra_p90": true,
+   "voynich_vero": 0.4933481152993348,
+   "voynich_catena": 0.4694027116159766,
+   "rapporto_voynich": 0.9514634738822716,
+   "gibberish_vero": 0.06539183882533721,
+   "gibberish_catena": 0.09193179820706626
+  }
+ },
+ "Voynich_sottoinsiemi": [
+  {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.5584679795445104,
+    "riempimento (e3a61)": 0.4423529411764706,
+    "F1 degli spazi (e3a58)": 0.8523514400291652,
+    "tagli sbagliati che sono parole (e3a67)": 0.4978706929926442
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.6157972191608978,
+    "riempimento (e3a61)": 0.4434250764525994,
+    "F1 degli spazi (e3a58)": 0.8727594600575349,
+    "tagli sbagliati che sono parole (e3a67)": 0.4694027116159766
+   },
+   "parole_catena": 10496
+  },
+  {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.5961037602160494,
+    "riempimento (e3a61)": 0.4345742720235901,
+    "F1 degli spazi (e3a58)": 0.8553719008264462,
+    "tagli sbagliati che sono parole (e3a67)": 0.4881516587677725
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.6033971293735667,
+    "riempimento (e3a61)": 0.4412280701754386,
+    "F1 degli spazi (e3a58)": 0.8629405482378071,
+    "tagli sbagliati che sono parole (e3a67)": 0.46526237989652625
+   },
+   "parole_catena": 9760
+  },
+  {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.591562466212696,
+    "riempimento (e3a61)": 0.4430926216640502,
+    "F1 degli spazi (e3a58)": 0.8682583670859092,
+    "tagli sbagliati che sono parole (e3a67)": 0.5064360418342719
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.6134740525325424,
+    "riempimento (e3a61)": 0.44769503546099293,
+    "F1 degli spazi (e3a58)": 0.8659934188131171,
+    "tagli sbagliati che sono parole (e3a67)": 0.4797578509269769
+   },
+   "parole_catena": 10324
+  },
+  {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.6348249924098446,
+    "riempimento (e3a61)": 0.43327102803738315,
+    "F1 degli spazi (e3a58)": 0.8507428571428571,
+    "tagli sbagliati che sono parole (e3a67)": 0.48750946252838756
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.6499869617289743,
+    "riempimento (e3a61)": 0.43845500848896435,
+    "F1 degli spazi (e3a58)": 0.8685834012338495,
+    "tagli sbagliati che sono parole (e3a67)": 0.4647350362180709
+   },
+   "parole_catena": 9685
+  },
+  {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.609326221211033,
+    "riempimento (e3a61)": 0.43377001455604075,
+    "F1 degli spazi (e3a58)": 0.8567228316182292,
+    "tagli sbagliati che sono parole (e3a67)": 0.4933481152993348
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.5831172933187666,
+    "riempimento (e3a61)": 0.4392841925862804,
+    "F1 degli spazi (e3a58)": 0.8655187445510025,
+    "tagli sbagliati che sono parole (e3a67)": 0.47038327526132406
+   },
+   "parole_catena": 10320
+  }
+ ],
+ "gibberish": {
+  "vero": {
+   "rho frequenza-forma (e3a55)": 0.08681281206957162,
+   "riempimento (e3a61)": 0.09287629260819609,
+   "F1 degli spazi (e3a58)": 0.2814056447149972,
+   "tagli sbagliati che sono parole (e3a67)": 0.06539183882533721
+  },
+  "catena": {
+   "rho frequenza-forma (e3a55)": 0.43164598777664065,
+   "riempimento (e3a61)": 0.15187254293399544,
+   "F1 degli spazi (e3a58)": 0.2660682226211849,
+   "tagli sbagliati che sono parole (e3a67)": 0.09193179820706626
+  },
+  "parole_catena": 9911
+ },
+ "testi_sensati": {
+  "Conlangs - Esperanto - Literary - NT": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.12995704786950546,
+    "riempimento (e3a61)": 0.04206349206349207,
+    "F1 degli spazi (e3a58)": 0.67430441898527,
+    "tagli sbagliati che sono parole (e3a67)": 0.07312851579402856
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.23631347596581542,
+    "riempimento (e3a61)": 0.17364864864864865,
+    "F1 degli spazi (e3a58)": 0.6937162429192464,
+    "tagli sbagliati che sono parole (e3a67)": 0.2404556000843704
+   },
+   "parole_catena": 10119
+  },
+  "Conlangs - Esperanto - Technical - Voynich Wiki": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": -0.06188915748158483,
+    "riempimento (e3a61)": 0.011188811188811189,
+    "F1 degli spazi (e3a58)": 0.6163234172387491,
+    "tagli sbagliati che sono parole (e3a67)": 0.02993348115299335
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.23065038359491746,
+    "riempimento (e3a61)": 0.13707865168539327,
+    "F1 degli spazi (e3a58)": 0.6476608187134502,
+    "tagli sbagliati che sono parole (e3a67)": 0.13796909492273732
+   },
+   "parole_catena": 3643
+  },
+  "Conlangs - Interlingua - Literary - NT": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.11004308689960451,
+    "riempimento (e3a61)": 0.030109489051094892,
+    "F1 degli spazi (e3a58)": 0.6389160497276155,
+    "tagli sbagliati che sono parole (e3a67)": 0.08688888888888889
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.33172972888543356,
+    "riempimento (e3a61)": 0.15303430079155672,
+    "F1 degli spazi (e3a58)": 0.6667525441195415,
+    "tagli sbagliati che sono parole (e3a67)": 0.21145945945945946
+   },
+   "parole_catena": 10573
+  },
+  "Conlangs - Interlingua - Technical - EU Wiki": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.02595131997924048,
+    "riempimento (e3a61)": 0.029227557411273485,
+    "F1 degli spazi (e3a58)": 0.6057142857142858,
+    "tagli sbagliati che sono parole (e3a67)": 0.06276318427912572
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.2633923001903277,
+    "riempimento (e3a61)": 0.12823725981620718,
+    "F1 degli spazi (e3a58)": 0.6230712711241735,
+    "tagli sbagliati che sono parole (e3a67)": 0.15532393214796647
+   },
+   "parole_catena": 9855
+  },
+  "Conlangs - Klingon - Literary - NT - Mark": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.15512436271994112,
+    "riempimento (e3a61)": 0.07432432432432433,
+    "F1 degli spazi (e3a58)": 0.7030634947800787,
+    "tagli sbagliati che sono parole (e3a67)": 0.2512935883014623
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.41443878156254277,
+    "riempimento (e3a61)": 0.14096539940196498,
+    "F1 degli spazi (e3a58)": 0.7229524772497473,
+    "tagli sbagliati che sono parole (e3a67)": 0.3518648838845883
+   },
+   "parole_catena": 8244
+  },
+  "Conlangs - Klingon - Technical - Proxima Centauri B Wikia": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.14693706980164978,
+    "riempimento (e3a61)": 0.06521739130434782,
+    "F1 degli spazi (e3a58)": 0.5245202558635393,
+    "tagli sbagliati che sono parole (e3a67)": 0.13541666666666666
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": -0.10058932799568847,
+    "riempimento (e3a61)": 0.13829787234042554,
+    "F1 degli spazi (e3a58)": 0.6727941176470589,
+    "tagli sbagliati che sono parole (e3a67)": 0.2145748987854251
+   },
+   "parole_catena": 697
+  },
+  "Conlangs - LOLCat - Literary - NT - Matthew": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.1848175748497125,
+    "riempimento (e3a61)": 0.07566265060240963,
+    "F1 degli spazi (e3a58)": 0.6098326359832635,
+    "tagli sbagliati che sono parole (e3a67)": 0.1252868288205599
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.32531874228903507,
+    "riempimento (e3a61)": 0.16582165225171488,
+    "F1 degli spazi (e3a58)": 0.6495346575913321,
+    "tagli sbagliati che sono parole (e3a67)": 0.2334293948126801
+   },
+   "parole_catena": 9740
+  },
+  "Conlangs - Lojban - Literary - Alice in Wonderland": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": -0.06026420035427894,
+    "riempimento (e3a61)": 0.05417607223476298,
+    "F1 degli spazi (e3a58)": 0.82689940695983,
+    "tagli sbagliati che sono parole (e3a67)": 0.01227390180878553
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.21983592850309788,
+    "riempimento (e3a61)": 0.15454062665958576,
+    "F1 degli spazi (e3a58)": 0.8352243156032061,
+    "tagli sbagliati che sono parole (e3a67)": 0.1702592939706342
+   },
+   "parole_catena": 10200
+  },
+  "Conlangs - Lojban - Technical - Science News": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.02288041847793412,
+    "riempimento (e3a61)": 0.05263157894736842,
+    "F1 degli spazi (e3a58)": 0.7733333333333333,
+    "tagli sbagliati che sono parole (e3a67)": 0.012797074954296161
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.18411878364562906,
+    "riempimento (e3a61)": 0.19681908548707752,
+    "F1 degli spazi (e3a58)": 0.832601880877743,
+    "tagli sbagliati che sono parole (e3a67)": 0.10961214165261383
+   },
+   "parole_catena": 1759
+  },
+  "Conlangs - Neo-Quenya - Literary - NT": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.11374685845846538,
+    "riempimento (e3a61)": 0.07581849511774842,
+    "F1 degli spazi (e3a58)": 0.606411523796074,
+    "tagli sbagliati che sono parole (e3a67)": 0.09424920127795527
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.30081947028603084,
+    "riempimento (e3a61)": 0.18674905595605903,
+    "F1 degli spazi (e3a58)": 0.6372745490981964,
+    "tagli sbagliati che sono parole (e3a67)": 0.21166775103014532
+   },
+   "parole_catena": 9511
+  },
+  "Conlangs - Neo-Quenya - Technical - Europe-Taipei Wikia": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.05985547503987567,
+    "riempimento (e3a61)": 0.032679738562091505,
+    "F1 degli spazi (e3a58)": 0.6076923076923078,
+    "tagli sbagliati che sono parole (e3a67)": 0.05605381165919283
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.17771693703325667,
+    "riempimento (e3a61)": 0.11369509043927649,
+    "F1 degli spazi (e3a58)": 0.6243194192377496,
+    "tagli sbagliati che sono parole (e3a67)": 0.07990867579908675
+   },
+   "parole_catena": 902
+  },
+  "Conlangs - Toki Pona - Literary - NT - Sermon on the Mount": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.2261627434437751,
+    "riempimento (e3a61)": 0.19801980198019803,
+    "F1 degli spazi (e3a58)": 0.7848101265822786,
+    "tagli sbagliati che sono parole (e3a67)": 0.08761904761904762
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.3108085353212603,
+    "riempimento (e3a61)": 0.22140221402214022,
+    "F1 degli spazi (e3a58)": 0.8111503729878288,
+    "tagli sbagliati che sono parole (e3a67)": 0.3220588235294118
+   },
+   "parole_catena": 2701
+  },
+  "Conlangs - Toki Pona - Technical - Turkey-Mexico Wikia": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.19490457846744083,
+    "riempimento (e3a61)": 0.06962025316455696,
+    "F1 degli spazi (e3a58)": 0.7097744360902255,
+    "tagli sbagliati che sono parole (e3a67)": 0.021377672209026127
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.141095928725896,
+    "riempimento (e3a61)": 0.20241691842900303,
+    "F1 degli spazi (e3a58)": 0.7583333333333333,
+    "tagli sbagliati che sono parole (e3a67)": 0.21428571428571427
+   },
+   "parole_catena": 1575
+  },
+  "Conlangs - Volapuk - Literary - NT": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.12949003833568834,
+    "riempimento (e3a61)": 0.03942461374533831,
+    "F1 degli spazi (e3a58)": 0.5906525828389524,
+    "tagli sbagliati che sono parole (e3a67)": 0.08110862033829223
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.31450986924231367,
+    "riempimento (e3a61)": 0.17794421487603307,
+    "F1 degli spazi (e3a58)": 0.6002135041366427,
+    "tagli sbagliati che sono parole (e3a67)": 0.19632025879498585
+   },
+   "parole_catena": 10315
+  },
+  "Conlangs - Volapuk - Technical - History Wiki": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.16421871660315754,
+    "riempimento (e3a61)": 0.03314917127071823,
+    "F1 degli spazi (e3a58)": 0.6011787819253438,
+    "tagli sbagliati che sono parole (e3a67)": 0.0692090395480226
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.23629220798355458,
+    "riempimento (e3a61)": 0.14411764705882352,
+    "F1 degli spazi (e3a58)": 0.6673151750972762,
+    "tagli sbagliati che sono parole (e3a67)": 0.12440944881889764
+   },
+   "parole_catena": 1532
+  },
+  "Historical - Anglo-Saxon - Literary - NT - Hatton Gospels": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.11890628200590227,
+    "riempimento (e3a61)": 0.04673913043478261,
+    "F1 degli spazi (e3a58)": 0.7056588410910573,
+    "tagli sbagliati che sono parole (e3a67)": 0.09016754850088184
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.3425810214103982,
+    "riempimento (e3a61)": 0.1670350489422166,
+    "F1 degli spazi (e3a58)": 0.715724244771495,
+    "tagli sbagliati che sono parole (e3a67)": 0.21663220767286928
+   },
+   "parole_catena": 9937
+  },
+  "Historical - Anglo-Saxon - Technical - Leechbook": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": -0.01728999777611991,
+    "riempimento (e3a61)": 0.037333333333333336,
+    "F1 degli spazi (e3a58)": 0.6329442282749675,
+    "tagli sbagliati che sono parole (e3a67)": 0.06084656084656084
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.3142728445344367,
+    "riempimento (e3a61)": 0.11036036036036036,
+    "F1 degli spazi (e3a58)": 0.6713615023474179,
+    "tagli sbagliati che sono parole (e3a67)": 0.13279132791327913
+   },
+   "parole_catena": 1038
+  },
+  "Historical - Arabic - Literary - Quran": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.2782771036864133,
+    "riempimento (e3a61)": 0.025572405590246802,
+    "F1 degli spazi (e3a58)": 0.8068833652007648,
+    "tagli sbagliati che sono parole (e3a67)": 0.040268456375838924
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.27597269854347056,
+    "riempimento (e3a61)": 0.07034518828451883,
+    "F1 degli spazi (e3a58)": 0.8399531188956896,
+    "tagli sbagliati che sono parole (e3a67)": 0.10907335907335908
+   },
+   "parole_catena": 9568
+  },
+  "Historical - Arabic - Technical - Avicenna": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.2016166972337655,
+    "riempimento (e3a61)": 0.03181370941292227,
+    "F1 degli spazi (e3a58)": 0.6427815970386039,
+    "tagli sbagliati che sono parole (e3a67)": 0.07930015905476029
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.28041283551746005,
+    "riempimento (e3a61)": 0.12741030021967292,
+    "F1 degli spazi (e3a58)": 0.6654611211573237,
+    "tagli sbagliati che sono parole (e3a67)": 0.1739031598090475
+   },
+   "parole_catena": 9930
+  },
+  "Historical - English - Literary - NT (KJV)": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.1744320504287364,
+    "riempimento (e3a61)": 0.04418828049951969,
+    "F1 degli spazi (e3a58)": 0.6593079498945801,
+    "tagli sbagliati che sono parole (e3a67)": 0.0851835070231083
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.2532561300128035,
+    "riempimento (e3a61)": 0.1920506507210693,
+    "F1 degli spazi (e3a58)": 0.6752887995981919,
+    "tagli sbagliati che sono parole (e3a67)": 0.24410324877614598
+   },
+   "parole_catena": 10111
+  },
+  "Historical - English - Technical - Secreta Alberti": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.21435014559087207,
+    "riempimento (e3a61)": 0.03401842664776754,
+    "F1 degli spazi (e3a58)": 0.6941106484235573,
+    "tagli sbagliati che sono parole (e3a67)": 0.08750835003340013
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.3561828281503924,
+    "riempimento (e3a61)": 0.1816326530612245,
+    "F1 degli spazi (e3a58)": 0.6871754932502595,
+    "tagli sbagliati che sono parole (e3a67)": 0.22549246813441484
+   },
+   "parole_catena": 9708
+  },
+  "Historical - Flemish - Literary - NT": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.11670820901102773,
+    "riempimento (e3a61)": 0.06820049301561217,
+    "F1 degli spazi (e3a58)": 0.6780967570441254,
+    "tagli sbagliati che sono parole (e3a67)": 0.1187566988210075
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.3046537727471078,
+    "riempimento (e3a61)": 0.20101412531691415,
+    "F1 degli spazi (e3a58)": 0.6755005041048537,
+    "tagli sbagliati che sono parole (e3a67)": 0.2888646288209607
+   },
+   "parole_catena": 9727
+  },
+  "Historical - Flemish - Technical - Cruydeboeck": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.14035547544524005,
+    "riempimento (e3a61)": 0.03880070546737213,
+    "F1 degli spazi (e3a58)": 0.5751402421021553,
+    "tagli sbagliati che sono parole (e3a67)": 0.10639814649795046
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.33243608627019594,
+    "riempimento (e3a61)": 0.1828130028966849,
+    "F1 degli spazi (e3a58)": 0.5865865865865866,
+    "tagli sbagliati che sono parole (e3a67)": 0.26629853936587106
+   },
+   "parole_catena": 10190
+  },
+  "Historical - French - Literary - NT - Martin": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.09380172273578884,
+    "riempimento (e3a61)": 0.0525,
+    "F1 degli spazi (e3a58)": 0.6876332622601279,
+    "tagli sbagliati che sono parole (e3a67)": 0.10300044782803404
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.2595126317441098,
+    "riempimento (e3a61)": 0.16758687885677168,
+    "F1 degli spazi (e3a58)": 0.7028205128205128,
+    "tagli sbagliati che sono parole (e3a67)": 0.24012497210444098
+   },
+   "parole_catena": 10273
+  },
+  "Historical - German - Literary - NT - Luther": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.12931310795736306,
+    "riempimento (e3a61)": 0.05292259083728278,
+    "F1 degli spazi (e3a58)": 0.6686921695898357,
+    "tagli sbagliati che sono parole (e3a67)": 0.12248357702903158
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.33139066115892224,
+    "riempimento (e3a61)": 0.16548223350253807,
+    "F1 degli spazi (e3a58)": 0.6845565544076211,
+    "tagli sbagliati che sono parole (e3a67)": 0.26529255319148937
+   },
+   "parole_catena": 9846
+  },
+  "Historical - German - Technical - German Herbarium": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.12330875074888764,
+    "riempimento (e3a61)": 0.053617571059431525,
+    "F1 degli spazi (e3a58)": 0.6941485682667036,
+    "tagli sbagliati che sono parole (e3a67)": 0.10284318080852954
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.33043464268780204,
+    "riempimento (e3a61)": 0.15087829360100377,
+    "F1 degli spazi (e3a58)": 0.7052341597796142,
+    "tagli sbagliati che sono parole (e3a67)": 0.24652394614875303
+   },
+   "parole_catena": 9977
+  },
+  "Historical - Greek - Literary - NT - Textus Receptus": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.07949408406263245,
+    "riempimento (e3a61)": 0.028711484593837534,
+    "F1 degli spazi (e3a58)": 0.6951625287944714,
+    "tagli sbagliati che sono parole (e3a67)": 0.056390158937513604
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.320565157495514,
+    "riempimento (e3a61)": 0.16293213828425096,
+    "F1 degli spazi (e3a58)": 0.7094501069586008,
+    "tagli sbagliati che sono parole (e3a67)": 0.229957805907173
+   },
+   "parole_catena": 10136
+  },
+  "Historical - Greek - Technical - De odoribus": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.13152344960292606,
+    "riempimento (e3a61)": 0.0029791459781529296,
+    "F1 degli spazi (e3a58)": 0.8565169769989046,
+    "tagli sbagliati che sono parole (e3a67)": 0.015988372093023256
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.1438270814807864,
+    "riempimento (e3a61)": 0.0963435867672664,
+    "F1 degli spazi (e3a58)": 0.8763705103969754,
+    "tagli sbagliati che sono parole (e3a67)": 0.11806543385490754
+   },
+   "parole_catena": 5694
+  },
+  "Historical - Italian - Literary - NT - Diodati": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.010395794909825815,
+    "riempimento (e3a61)": 0.032134659525631215,
+    "F1 degli spazi (e3a58)": 0.6264751883975544,
+    "tagli sbagliati che sono parole (e3a67)": 0.052598491198658844
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.2550104971356434,
+    "riempimento (e3a61)": 0.15451505016722408,
+    "F1 degli spazi (e3a58)": 0.6449304174950299,
+    "tagli sbagliati che sono parole (e3a67)": 0.19252220615575294
+   },
+   "parole_catena": 10284
+  },
+  "Historical - Italian - Technical - Della Pittura": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.07635643012289565,
+    "riempimento (e3a61)": 0.044294294294294295,
+    "F1 degli spazi (e3a58)": 0.6942552371160519,
+    "tagli sbagliati che sono parole (e3a67)": 0.06742043551088778
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.32844707181841826,
+    "riempimento (e3a61)": 0.1451500348918353,
+    "F1 degli spazi (e3a58)": 0.6958407757080888,
+    "tagli sbagliati che sono parole (e3a67)": 0.2062807881773399
+   },
+   "parole_catena": 10091
+  },
+  "Historical - Latin (Abbreviated) - Literary - NT (Vulgate)": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.06860078207355852,
+    "riempimento (e3a61)": 0.047719298245614036,
+    "F1 degli spazi (e3a58)": 0.5638753507605966,
+    "tagli sbagliati che sono parole (e3a67)": 0.05017605633802817
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.2939413009049506,
+    "riempimento (e3a61)": 0.17198838896952104,
+    "F1 degli spazi (e3a58)": 0.5791213982050071,
+    "tagli sbagliati che sono parole (e3a67)": 0.16265880217785844
+   },
+   "parole_catena": 10031
+  },
+  "Historical - Latin (Abbreviated) - Technical - Pliny's Natural History": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": -0.027357888548154304,
+    "riempimento (e3a61)": 0.04583333333333333,
+    "F1 degli spazi (e3a58)": 0.4750865051903115,
+    "tagli sbagliati che sono parole (e3a67)": 0.05379868877747782
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.3320934875746117,
+    "riempimento (e3a61)": 0.1689253072801765,
+    "F1 degli spazi (e3a58)": 0.5537589598266378,
+    "tagli sbagliati che sono parole (e3a67)": 0.1388298899401429
+   },
+   "parole_catena": 10010
+  },
+  "Historical - Latin - Literary - NT (Vulgate)": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.02980876845846751,
+    "riempimento (e3a61)": 0.03065134099616858,
+    "F1 degli spazi (e3a58)": 0.5879649576332041,
+    "tagli sbagliati che sono parole (e3a67)": 0.07220965309200603
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.33928268165914377,
+    "riempimento (e3a61)": 0.151506456241033,
+    "F1 degli spazi (e3a58)": 0.5749427917620137,
+    "tagli sbagliati che sono parole (e3a67)": 0.2063157894736842
+   },
+   "parole_catena": 10106
+  },
+  "Historical - Latin - Technical - Pliny's Natural History": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": -0.037239920260434094,
+    "riempimento (e3a61)": 0.031965442764578834,
+    "F1 degli spazi (e3a58)": 0.4705093833780162,
+    "tagli sbagliati che sono parole (e3a67)": 0.060648553900087644
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.2150345201482378,
+    "riempimento (e3a61)": 0.16262879420774157,
+    "F1 degli spazi (e3a58)": 0.5297197412996613,
+    "tagli sbagliati che sono parole (e3a67)": 0.1585833914863922
+   },
+   "parole_catena": 10281
+  },
+  "Historical - Mayan (Kaqchikel) - Literary - Annals of the Cakchiquels": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.13570373880955236,
+    "riempimento (e3a61)": 0.08798972382787412,
+    "F1 degli spazi (e3a58)": 0.6254035087719299,
+    "tagli sbagliati che sono parole (e3a67)": 0.24187119781833438
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.3486443192459935,
+    "riempimento (e3a61)": 0.19146792072556265,
+    "F1 degli spazi (e3a58)": 0.6442505133470225,
+    "tagli sbagliati che sono parole (e3a67)": 0.29945629443747385
+   },
+   "parole_catena": 10160
+  },
+  "Historical - Mayan (Yucatec) - Technical - Chilam Balam": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.2245339219802278,
+    "riempimento (e3a61)": 0.1375921375921376,
+    "F1 degli spazi (e3a58)": 0.6546463245492371,
+    "tagli sbagliati che sono parole (e3a67)": 0.18991097922848665
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.11595044726971751,
+    "riempimento (e3a61)": 0.18766066838046272,
+    "F1 degli spazi (e3a58)": 0.6793650793650793,
+    "tagli sbagliati che sono parole (e3a67)": 0.15384615384615385
+   },
+   "parole_catena": 925
+  },
+  "Historical - Nahuatl - Literary - Nican Mopohua": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": -0.13238044093529128,
+    "riempimento (e3a61)": 0.05154639175257732,
+    "F1 degli spazi (e3a58)": 0.5239246012566457,
+    "tagli sbagliati che sono parole (e3a67)": 0.05826271186440678
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.3557559193699343,
+    "riempimento (e3a61)": 0.1728110599078341,
+    "F1 degli spazi (e3a58)": 0.5245413981160139,
+    "tagli sbagliati che sono parole (e3a67)": 0.15517241379310345
+   },
+   "parole_catena": 3332
+  },
+  "Historical - Nahuatl - Technical - Florentine Codex": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.09562493873416196,
+    "riempimento (e3a61)": 0.043795620437956206,
+    "F1 degli spazi (e3a58)": 0.607773851590106,
+    "tagli sbagliati che sono parole (e3a67)": 0.06614173228346457
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.367276195962253,
+    "riempimento (e3a61)": 0.17684887459807075,
+    "F1 degli spazi (e3a58)": 0.6360893180446591,
+    "tagli sbagliati che sono parole (e3a67)": 0.14167357083678542
+   },
+   "parole_catena": 2119
+  },
+  "Historical - Portuguese - Technical - Coloquios dos simples": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.02040902448026027,
+    "riempimento (e3a61)": 0.06496062992125984,
+    "F1 degli spazi (e3a58)": 0.7152608483666504,
+    "tagli sbagliati che sono parole (e3a67)": 0.10531400966183575
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.2572754837025113,
+    "riempimento (e3a61)": 0.16677567037279267,
+    "F1 degli spazi (e3a58)": 0.7201614938178148,
+    "tagli sbagliati che sono parole (e3a67)": 0.19372952737482452
+   },
+   "parole_catena": 5091
+  },
+  "Historical - Russian - Literary - NT - Codex Marianus": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.15861772310417746,
+    "riempimento (e3a61)": 0.02884160756501182,
+    "F1 degli spazi (e3a58)": 0.7023453093812375,
+    "tagli sbagliati che sono parole (e3a67)": 0.07575757575757576
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.25592278836826365,
+    "riempimento (e3a61)": 0.12401636764242996,
+    "F1 degli spazi (e3a58)": 0.7285197655568026,
+    "tagli sbagliati che sono parole (e3a67)": 0.1888751545117429
+   },
+   "parole_catena": 9790
+  },
+  "Historical - Sanskrit - Literary - Mahabharata": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.2671096755052396,
+    "riempimento (e3a61)": 0.01944049312470365,
+    "F1 degli spazi (e3a58)": 0.6370278252759211,
+    "tagli sbagliati che sono parole (e3a67)": 0.04363784665579119
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.2358792953650006,
+    "riempimento (e3a61)": 0.03986332574031891,
+    "F1 degli spazi (e3a58)": 0.7693443591258121,
+    "tagli sbagliati che sono parole (e3a67)": 0.07369875633348687
+   },
+   "parole_catena": 9986
+  },
+  "Historical - Sanskrit - Technical - Charaka Samhita": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.2528680428652922,
+    "riempimento (e3a61)": 0.018777082330284064,
+    "F1 degli spazi (e3a58)": 0.6839002267573696,
+    "tagli sbagliati che sono parole (e3a67)": 0.04514030093533957
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.24769954925070448,
+    "riempimento (e3a61)": 0.03684335631091039,
+    "F1 degli spazi (e3a58)": 0.7902453620586475,
+    "tagli sbagliati che sono parole (e3a67)": 0.05339105339105339
+   },
+   "parole_catena": 9869
+  },
+  "Historical - Spanish - Literary - NT - Sagradas Escrituras": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.1072275144109036,
+    "riempimento (e3a61)": 0.03908794788273615,
+    "F1 degli spazi (e3a58)": 0.7180548370408691,
+    "tagli sbagliati che sono parole (e3a67)": 0.07080078125
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.3370382787991805,
+    "riempimento (e3a61)": 0.17041800643086816,
+    "F1 degli spazi (e3a58)": 0.7280183331323122,
+    "tagli sbagliati che sono parole (e3a67)": 0.2170414201183432
+   },
+   "parole_catena": 10383
+  },
+  "Historical - Spanish - Technical - De Materia Medica": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": -0.041693427486949965,
+    "riempimento (e3a61)": 0.046753246753246755,
+    "F1 degli spazi (e3a58)": 0.6552511415525114,
+    "tagli sbagliati che sono parole (e3a67)": 0.058823529411764705
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.17684775766172053,
+    "riempimento (e3a61)": 0.15165876777251186,
+    "F1 degli spazi (e3a58)": 0.6185567010309279,
+    "tagli sbagliati che sono parole (e3a67)": 0.10021786492374728
+   },
+   "parole_catena": 1060
+  },
+  "Modern - Arabic - Literary - NT": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.20574927256959977,
+    "riempimento (e3a61)": 0.04664289958407605,
+    "F1 degli spazi (e3a58)": 0.5471643518518519,
+    "tagli sbagliati che sono parole (e3a67)": 0.08484848484848485
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.26090336442552287,
+    "riempimento (e3a61)": 0.14407398393769774,
+    "F1 degli spazi (e3a58)": 0.5741182710156457,
+    "tagli sbagliati che sono parole (e3a67)": 0.1753134457414613
+   },
+   "parole_catena": 9823
+  },
+  "Modern - Arabic - Technical - Voynich Wiki": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": -0.03444526020121214,
+    "riempimento (e3a61)": 0.01344364012409514,
+    "F1 degli spazi (e3a58)": 0.5571245186136072,
+    "tagli sbagliati che sono parole (e3a67)": 0.04020618556701031
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.20004942802910708,
+    "riempimento (e3a61)": 0.08139534883720931,
+    "F1 degli spazi (e3a58)": 0.6057838660578386,
+    "tagli sbagliati che sono parole (e3a67)": 0.08860759493670886
+   },
+   "parole_catena": 2033
+  },
+  "Modern - Chinese (Pinyin) - Literary - NT - Matthew": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.044513890897562025,
+    "riempimento (e3a61)": 0.5392781316348195,
+    "F1 degli spazi (e3a58)": 0.9740069764825026,
+    "tagli sbagliati che sono parole (e3a67)": 0.10946745562130178
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.07348915432274475,
+    "riempimento (e3a61)": 0.63016157989228,
+    "F1 degli spazi (e3a58)": 0.9763068822865738,
+    "tagli sbagliati che sono parole (e3a67)": 0.19281045751633988
+   },
+   "parole_catena": 9320
+  },
+  "Modern - Chinese (Pinyin) - Technical - Voynich Wiki": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.11188029919402137,
+    "riempimento (e3a61)": 0.3901639344262295,
+    "F1 degli spazi (e3a58)": 0.927400468384075,
+    "tagli sbagliati che sono parole (e3a67)": 0.0847457627118644
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.03616299368036486,
+    "riempimento (e3a61)": 0.5105105105105106,
+    "F1 degli spazi (e3a58)": 0.9611267605633803,
+    "tagli sbagliati che sono parole (e3a67)": 0.07894736842105263
+   },
+   "parole_catena": 1930
+  },
+  "Modern - English - Literary - NT": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.1464909432730666,
+    "riempimento (e3a61)": 0.032114183764495985,
+    "F1 degli spazi (e3a58)": 0.6499463519313305,
+    "tagli sbagliati che sono parole (e3a67)": 0.06957708049113233
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.29962692784370726,
+    "riempimento (e3a61)": 0.17996545768566494,
+    "F1 degli spazi (e3a58)": 0.6552743158165233,
+    "tagli sbagliati che sono parole (e3a67)": 0.23029292688735414
+   },
+   "parole_catena": 9660
+  },
+  "Modern - English - Technical - Voynich Wiki": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.0412808349811896,
+    "riempimento (e3a61)": 0.013787510137875101,
+    "F1 degli spazi (e3a58)": 0.577433628318584,
+    "tagli sbagliati che sono parole (e3a67)": 0.045443499392466585
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.35326127322968703,
+    "riempimento (e3a61)": 0.15085423482370047,
+    "F1 degli spazi (e3a58)": 0.5898161244695898,
+    "tagli sbagliati che sono parole (e3a67)": 0.1762324362943558
+   },
+   "parole_catena": 8004
+  },
+  "Modern - French - Literary - NT": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.07581868015816058,
+    "riempimento (e3a61)": 0.05537720706260032,
+    "F1 degli spazi (e3a58)": 0.6872044318335361,
+    "tagli sbagliati che sono parole (e3a67)": 0.10790378006872853
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.3117011927136534,
+    "riempimento (e3a61)": 0.17252604166666666,
+    "F1 degli spazi (e3a58)": 0.6958028971152656,
+    "tagli sbagliati che sono parole (e3a67)": 0.23792160437556972
+   },
+   "parole_catena": 10183
+  },
+  "Modern - French - Technical - Voynich Wiki": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.014574874549816649,
+    "riempimento (e3a61)": 0.017226528854435832,
+    "F1 degli spazi (e3a58)": 0.6670157068062826,
+    "tagli sbagliati che sono parole (e3a67)": 0.06389032591826177
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.2457508696834127,
+    "riempimento (e3a61)": 0.13045202220459953,
+    "F1 degli spazi (e3a58)": 0.6947659353947141,
+    "tagli sbagliati che sono parole (e3a67)": 0.168141592920354
+   },
+   "parole_catena": 7856
+  },
+  "Modern - German - Literary - NT": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.16285138339884597,
+    "riempimento (e3a61)": 0.05232558139534884,
+    "F1 degli spazi (e3a58)": 0.6462387853692202,
+    "tagli sbagliati che sono parole (e3a67)": 0.11910669975186104
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.3203056010505891,
+    "riempimento (e3a61)": 0.16998011928429424,
+    "F1 degli spazi (e3a58)": 0.6697610921501707,
+    "tagli sbagliati che sono parole (e3a67)": 0.2724973656480506
+   },
+   "parole_catena": 9838
+  },
+  "Modern - German - Technical - Voynich Wiki": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.13875301680749008,
+    "riempimento (e3a61)": 0.030467899891186073,
+    "F1 degli spazi (e3a58)": 0.48506359065365284,
+    "tagli sbagliati che sono parole (e3a67)": 0.08510011778563015
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.4461054002236177,
+    "riempimento (e3a61)": 0.16561437591063624,
+    "F1 degli spazi (e3a58)": 0.5194514413657991,
+    "tagli sbagliati che sono parole (e3a67)": 0.18259587020648968
+   },
+   "parole_catena": 5637
+  },
+  "Modern - Hebrew - Literary - NT": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.19660370024227092,
+    "riempimento (e3a61)": 0.08648481091134531,
+    "F1 degli spazi (e3a58)": 0.6053352559480892,
+    "tagli sbagliati che sono parole (e3a67)": 0.14567782326029377
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.31065441499726454,
+    "riempimento (e3a61)": 0.17642698295033357,
+    "F1 degli spazi (e3a58)": 0.6115309263923873,
+    "tagli sbagliati che sono parole (e3a67)": 0.2290634583628214
+   },
+   "parole_catena": 10345
+  },
+  "Modern - Hebrew - Technical - Voynich Wiki": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.08240262444559603,
+    "riempimento (e3a61)": 0.02059202059202059,
+    "F1 degli spazi (e3a58)": 0.5681618293755497,
+    "tagli sbagliati che sono parole (e3a67)": 0.03514376996805112
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.12238054059474812,
+    "riempimento (e3a61)": 0.13202614379084968,
+    "F1 degli spazi (e3a58)": 0.6251256281407035,
+    "tagli sbagliati che sono parole (e3a67)": 0.07984790874524715
+   },
+   "parole_catena": 1372
+  },
+  "Modern - Italian - Literary - NT": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.07125778974333738,
+    "riempimento (e3a61)": 0.04281567489114659,
+    "F1 degli spazi (e3a58)": 0.6393307734503566,
+    "tagli sbagliati che sono parole (e3a67)": 0.05241849563179203
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.21664601749029386,
+    "riempimento (e3a61)": 0.1504548635409377,
+    "F1 degli spazi (e3a58)": 0.642484121383204,
+    "tagli sbagliati che sono parole (e3a67)": 0.1884478144513827
+   },
+   "parole_catena": 9542
+  },
+  "Modern - Italian - Technical - Voynich Wiki": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.12301645586688828,
+    "riempimento (e3a61)": 0.015306122448979591,
+    "F1 degli spazi (e3a58)": 0.5969859017987361,
+    "tagli sbagliati che sono parole (e3a67)": 0.031060094530722483
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.20349717949297824,
+    "riempimento (e3a61)": 0.14445574771108852,
+    "F1 degli spazi (e3a58)": 0.6335598536330371,
+    "tagli sbagliati che sono parole (e3a67)": 0.11657303370786516
+   },
+   "parole_catena": 2725
+  },
+  "Modern - Maori - Literary - NT": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.1434756004485536,
+    "riempimento (e3a61)": 0.14072847682119205,
+    "F1 degli spazi (e3a58)": 0.6980810718746452,
+    "tagli sbagliati che sono parole (e3a67)": 0.20534566949370342
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.407595453507917,
+    "riempimento (e3a61)": 0.27211302211302213,
+    "F1 degli spazi (e3a58)": 0.6888708367181153,
+    "tagli sbagliati che sono parole (e3a67)": 0.3872637846233497
+   },
+   "parole_catena": 9868
+  },
+  "Modern - Maori - Technical - Polandball Wiki": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": -0.06579101488145192,
+    "riempimento (e3a61)": 0.08835341365461848,
+    "F1 degli spazi (e3a58)": 0.6257668711656442,
+    "tagli sbagliati che sono parole (e3a67)": 0.06689536878216124
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.37334353031127104,
+    "riempimento (e3a61)": 0.12953367875647667,
+    "F1 degli spazi (e3a58)": 0.6746031746031745,
+    "tagli sbagliati che sono parole (e3a67)": 0.12588652482269502
+   },
+   "parole_catena": 1379
+  },
+  "Modern - Portuguese - Technical - Voynich Wiki": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": -0.03088995323800496,
+    "riempimento (e3a61)": 0.025466893039049237,
+    "F1 degli spazi (e3a58)": 0.5722861430715358,
+    "tagli sbagliati che sono parole (e3a67)": 0.02569750367107195
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.18472195608557568,
+    "riempimento (e3a61)": 0.12718786464410736,
+    "F1 degli spazi (e3a58)": 0.6154727793696275,
+    "tagli sbagliati che sono parole (e3a67)": 0.09384384384384384
+   },
+   "parole_catena": 2649
+  },
+  "Modern - Russian - Technical - Voynich Wiki": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.007047024511537886,
+    "riempimento (e3a61)": 0.011986301369863013,
+    "F1 degli spazi (e3a58)": 0.5053012671321437,
+    "tagli sbagliati che sono parole (e3a67)": 0.020138089758342925
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.31529182437758313,
+    "riempimento (e3a61)": 0.0853258321612752,
+    "F1 degli spazi (e3a58)": 0.536149471974005,
+    "tagli sbagliati che sono parole (e3a67)": 0.09475308641975308
+   },
+   "parole_catena": 5654
+  },
+  "Modern - Spanish - Technical - Voynich Wiki": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": -0.013287322350215075,
+    "riempimento (e3a61)": 0.02747791952894995,
+    "F1 degli spazi (e3a58)": 0.6213161081953977,
+    "tagli sbagliati che sono parole (e3a67)": 0.04691997697179044
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.3023749200610948,
+    "riempimento (e3a61)": 0.1530214424951267,
+    "F1 degli spazi (e3a58)": 0.6330602814534761,
+    "tagli sbagliati che sono parole (e3a67)": 0.1636904761904762
+   },
+   "parole_catena": 6988
+  },
+  "Modern - Swahili - Literary - NT": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.08160697016107023,
+    "riempimento (e3a61)": 0.06346863468634686,
+    "F1 degli spazi (e3a58)": 0.4528475199020208,
+    "tagli sbagliati che sono parole (e3a67)": 0.06732463870285513
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.3788633147621245,
+    "riempimento (e3a61)": 0.20729303547963207,
+    "F1 degli spazi (e3a58)": 0.47139946716815545,
+    "tagli sbagliati che sono parole (e3a67)": 0.2370266479663394
+   },
+   "parole_catena": 9832
+  },
+  "Modern - Swahili - Technical - Lung Cancer Wiki": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.09833367849602882,
+    "riempimento (e3a61)": 0.05509181969949917,
+    "F1 degli spazi (e3a58)": 0.6118266978922716,
+    "tagli sbagliati che sono parole (e3a67)": 0.06377440347071583
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.21356292623804052,
+    "riempimento (e3a61)": 0.15343915343915343,
+    "F1 degli spazi (e3a58)": 0.6177583697234352,
+    "tagli sbagliati che sono parole (e3a67)": 0.15114309906858595
+   },
+   "parole_catena": 4451
+  },
+  "Modern - Tagalog - Literary - NT - Ang Dating Biblia": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.13068125715288081,
+    "riempimento (e3a61)": 0.04015544041450777,
+    "F1 degli spazi (e3a58)": 0.6737923375902277,
+    "tagli sbagliati che sono parole (e3a67)": 0.06534493222739227
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.4273120508427142,
+    "riempimento (e3a61)": 0.22974559686888454,
+    "F1 degli spazi (e3a58)": 0.6692640692640692,
+    "tagli sbagliati che sono parole (e3a67)": 0.28161040050325015
+   },
+   "parole_catena": 9925
+  },
+  "Modern - Tagalog - Technical - Tuberculosis Wiki": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.16554006980428457,
+    "riempimento (e3a61)": 0.024054982817869417,
+    "F1 degli spazi (e3a58)": 0.6151029748283753,
+    "tagli sbagliati che sono parole (e3a67)": 0.045234248788368334
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.3588001399759668,
+    "riempimento (e3a61)": 0.16171224732461356,
+    "F1 degli spazi (e3a58)": 0.6374382119062971,
+    "tagli sbagliati che sono parole (e3a67)": 0.20361560418648905
+   },
+   "parole_catena": 6400
+  },
+  "Modern - Turkish - Literary - NT": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.055800511117956454,
+    "riempimento (e3a61)": 0.03128205128205128,
+    "F1 degli spazi (e3a58)": 0.6469570233631382,
+    "tagli sbagliati che sono parole (e3a67)": 0.07656065959952886
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.3097367490245307,
+    "riempimento (e3a61)": 0.11830421082784302,
+    "F1 degli spazi (e3a58)": 0.6632139686297721,
+    "tagli sbagliati che sono parole (e3a67)": 0.18003992015968065
+   },
+   "parole_catena": 9760
+  },
+  "Modern - Turkish - Technical - Middle Ages Wiki": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": -0.013557595153425377,
+    "riempimento (e3a61)": 0.018134715025906734,
+    "F1 degli spazi (e3a58)": 0.5733270052206929,
+    "tagli sbagliati che sono parole (e3a67)": 0.038154897494305236
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.14487621311309073,
+    "riempimento (e3a61)": 0.10517799352750809,
+    "F1 degli spazi (e3a58)": 0.6128873585833743,
+    "tagli sbagliati che sono parole (e3a67)": 0.08677926616191031
+   },
+   "parole_catena": 3149
+  },
+  "Modern - Wolof - Technical - Senegal Wiki": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.16791828202108558,
+    "riempimento (e3a61)": 0.05405405405405406,
+    "F1 degli spazi (e3a58)": 0.6624242424242425,
+    "tagli sbagliati che sono parole (e3a67)": 0.05687465488680287
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.22082497827673234,
+    "riempimento (e3a61)": 0.14810045074050227,
+    "F1 degli spazi (e3a58)": 0.6992437463641652,
+    "tagli sbagliati che sono parole (e3a67)": 0.12994350282485875
+   },
+   "parole_catena": 4222
+  },
+  "Modern - Yoruba - Technical - Jupiter Wiki": {
+   "vero": {
+    "rho frequenza-forma (e3a55)": 0.08330221888732499,
+    "riempimento (e3a61)": 0.07986688851913477,
+    "F1 degli spazi (e3a58)": 0.5226781857451404,
+    "tagli sbagliati che sono parole (e3a67)": 0.10882163554410818
+   },
+   "catena": {
+    "rho frequenza-forma (e3a55)": 0.23801053223248483,
+    "riempimento (e3a61)": 0.13492822966507176,
+    "F1 degli spazi (e3a58)": 0.5401119402985074,
+    "tagli sbagliati che sono parole (e3a67)": 0.16865079365079366
+   },
+   "parole_catena": 3134
+  }
+ },
+ "esito_a": "in parte (3 misure su 4)",
+ "esito_b": "il Voynich non cambia"
+}
