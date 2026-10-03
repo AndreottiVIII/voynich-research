@@ -9699,3 +9699,20 @@ in mezzo alla riga (metodo dell'e389). Pochi dati: 103 etichette in 71 gruppi pe
   pausa" a fine parola è quindi -*m*/-*g*, non -*l* come avevo ipotizzato (e387). Con l'e3a09 (-*m* più rara
   nell'ultima riga del paragrafo) il quadro non è ancora coerente: -*m* compare a fine riga piena e in parole isolate,
   meno a fine paragrafo. Numeri piccoli: da prendere come indizio.
+
+## 4/10/2026 (notte) — e3a12: le parole uniche rispettano la giuntura per circa due terzi
+
+Preregistrato (`preregistrazioni/e3a12.md`). Giuntura nelle coppie con una parola unica nel libro, confrontata con le
+coppie di parole ripetute a parità di numero di coppie (21.091 coppie di parole ripetute).
+
+| classe | coppie | E | z | E ripetute a parità | Q |
+|---|---|---|---|---|---|
+| destra forma nuova | 2.402 | 0,124 | 22,6 | 0,185 | 0,67 |
+| sinistra forma nuova | 2.451 | 0,093 | 15,3 | 0,182 | **0,51** |
+| destra errore | 1.049 | 0,116 | 10,6 | 0,174 | 0,67 |
+| sinistra errore | 1.031 | 0,118 | 9,5 | 0,179 | 0,66 |
+
+- **Esito preregistrato: in parte, per tutte e quattro le classi.**
+- **Lettura:** le parole uniche, forme nuove ed errori, seguono la giuntura con le vicine con circa due terzi della forza
+  delle parole ripetute. Escono dallo stesso processo di scrittura, solo meno regolari. La più debole è la fine delle
+  forme nuove (Q 0,51): spesso finiscono con segni insoliti (e362, e403).
