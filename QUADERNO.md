@@ -6767,3 +6767,24 @@ sequenza.
 - **Lettura.** Il corpo nuovo abbassa i due discriminatori di 0,06 e 0,02 rispetto alla v1. Il messaggio costa qui
   un punto di pagella e 0,02 / 0,005 di AUC: su un solo seme è dentro la variabilità (circa ±0,03), da misurare su più
   chiavi. Prossimi giri: e253 ed e289 per il corpo, poi il ciclo avversario.
+
+## 3/10/2026 — e296: le parole rare del Voynich sono in gran parte varianti di parole frequenti, sparse come errori
+
+- **Preregistrato** (ipotesi di Davide): rare = 2–5 occorrenze; "varianti" = a una modifica (sui segni) da una parola con
+  almeno 20 occorrenze; R dell'e211 sulle pagine dell'erbario per i due gruppi.
+- **Risultati:**
+
+  | testo | rare | quota varianti | R varianti | R non varianti |
+  |---|---|---|---|---|
+  | Voynich | 1.487 | **0,656** | **0,57** | 1,16 |
+  | generatore e288 (semi 7, 8, 9) | 1.882–1.937 | 0,56–0,57 | 32–39 | 77–87 |
+
+  - Anche fra gli hapax, il 29% è a una modifica da una parola frequente (generatore 27%).
+- **Esito preregistrato: errori sparsi sostenuti.**
+- **Lettura.**
+  - Due terzi delle parole rare del Voynich sono varianti di una lettera di parole frequenti, e compaiono in pagine
+    qualsiasi, come errori di scrittura o di lettura capitati a caso (R sotto 1: perfino meno raggruppate del caso).
+  - Nel generatore le varianti nascono dalle parole della pagina e restano lì: è la causa del difetto più grande
+    rimasto (R delle parole rare). Le rare del Voynich che non sono varianti sono anch'esse sparse (R 1,16): nel Voynich
+    nessuna parola rara è "della pagina".
+  - L'e297 aggiunge al generatore gli errori sparsi.
