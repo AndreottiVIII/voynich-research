@@ -8354,3 +8354,17 @@ una fine (almeno 2 segni ciascuno) presenti come inizio e fine di altre parole d
 - **Lettura:** ogni parola è più "componibile" con i pezzi della propria sessione che con quelli di un'altra: è la
   coerenza del lessico di sessione (e350). Le forme nuove non lo sono più delle altre. Non c'è un processo speciale di
   invenzione per ricombinazione oltre questa coerenza.
+
+## 3/10/2026 (notte) — e360: l'inventiva delle sessioni non è un effetto dei paragrafi
+
+Preregistrato (`preregistrazioni/e360.md`), controllo dell'e357.
+
+| righe usate | dispersione delle forme nuove, rapporto sul nullo | z |
+|---|---|---|
+| tutte | 4,03 | 12,3 |
+| senza le prime righe dei paragrafi | 3,76 | 10,8 |
+| solo righe interne | 3,28 | 9,0 |
+
+- Densità di paragrafi contro quota di forme nuove: Spearman 0,216, z 1,5.
+- **Esito preregistrato: l'inventiva non è un effetto dei paragrafi.** Le sessioni differiscono nella quota di forme
+  nuove anche nelle righe interne dei paragrafi.
