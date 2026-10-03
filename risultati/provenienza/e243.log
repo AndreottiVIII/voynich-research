@@ -1,0 +1,8 @@
+taratura 0: quote {'R': 0.319, 'V': 0.375, 'F': 0.072, 'A': 0.091, 'N': 0.143} -> profilo {'R': 0.289, 'V': 0.437, 'F': 0.055, 'A': 0.076, 'N': 0.144}
+taratura 1: quote {'R': 0.345, 'V': 0.316, 'F': 0.091, 'A': 0.108, 'N': 0.14} -> profilo {'R': 0.308, 'V': 0.429, 'F': 0.057, 'A': 0.075, 'N': 0.131}
+taratura 2: quote {'R': 0.346, 'V': 0.267, 'F': 0.111, 'A': 0.127, 'N': 0.148} -> profilo {'R': 0.315, 'V': 0.419, 'F': 0.06, 'A': 0.076, 'N': 0.13}
+taratura 3: quote {'R': 0.337, 'V': 0.23, 'F': 0.128, 'A': 0.147, 'N': 0.158} -> profilo {'R': 0.32, 'V': 0.41, 'F': 0.063, 'A': 0.078, 'N': 0.129}
+seme 7: AUC 0.975 | pagella 8/18 riga True mancano ['h2', 'spazio', 'uniche', 'tipi', 'ripetizione', 'gradiente', 'unioni', 'deriva', 'Zipf', 'formule'] | R rare 87.5 | profilo {'R': 0.323, 'V': 0.414, 'F': 0.062, 'A': 0.077, 'N': 0.123}
+seme 8: AUC 0.980 | pagella 8/18 riga True mancano ['h2', 'spazio', 'tipi', 'ripetizione', 'gradiente', 'unioni', 'deriva', 'profilo pagina', 'Zipf', 'formule'] | R rare 80.5 | profilo {'R': 0.316, 'V': 0.419, 'F': 0.061, 'A': 0.08, 'N': 0.123}
+seme 9: AUC 0.973 | pagella 10/18 riga True mancano ['h2', 'spazio', 'tipi', 'ripetizione', 'gradiente', 'deriva', 'profilo pagina', 'Zipf'] | R rare 90.6 | profilo {'R': 0.314, 'V': 0.417, 'F': 0.061, 'A': 0.08, 'N': 0.128}
+non superato
