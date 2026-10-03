@@ -150,6 +150,7 @@ class Disposizione:
         col = {c: i for i, c in enumerate(classi)}
         posti = []          # (classe, indice del posto a sinistra nella riga o -1, a destra o -1)
         sopra, sotto = [], []           # e407: il posto alla stessa posizione nella riga sopra e in quella sotto (o -1)
+        primo = []                      # e410: il posto e' il primo di una riga che non apre un paragrafo e ha una riga sopra
         base_prec, n_prec = -1, 0
         for ini, ps in righe:
             base, n = len(posti), len(ps)
@@ -158,6 +159,7 @@ class Disposizione:
                 posti.append((col[c], base + j - 1 if j > 0 else -1, base + j + 1 if j < n - 1 else -1))
                 sopra.append(base_prec + j if base_prec >= 0 and j < n_prec else -1)
                 sotto.append(-1)
+                primo.append(j == 0 and not ini and base_prec >= 0)
                 if sopra[-1] >= 0:
                     sotto[sopra[-1]] = base + j
             base_prec, n_prec = base, n
@@ -165,6 +167,16 @@ class Disposizione:
         # e408: scelte di grafia concordi nella riga. Per ogni riga e classe di segno facoltativo (e206b) si contano le parole
         # con la forma corta e con la lunga; l'energia premia le coppie concordi e punisce le discordi.
         wcl = pesi.get('classi', 0.0) if strato == 'D3' and self.cl_testo else 0.0
+        # e410: prima lettera della riga diversa da quella della riga sopra (s1 negativo = evitata); somiglianza a distanza 2
+        # nella riga; le cinque scelte di grafia concordi nella riga (w5) e fra righe consecutive della pagina (w5v)
+        s1 = pesi.get('prima_lettera', 0.0) if strato == 'D3' else 0.0
+        dist2 = pesi.get('distanza2', 0.0) if strato == 'D3' else 0.0
+        w5 = pesi.get('scelte', 0.0) if strato == 'D3' and self.cl_testo else 0.0
+        w5v = pesi.get('scelte_sopra', 0.0) if strato == 'D3' and self.cl_testo else 0.0
+        nc = self.n_classi
+        wc = [wcl] * nc + [w5] * 5
+        wv = [0.0] * nc + [w5v] * 5
+        stato = bool(wcl or w5 or w5v)
         riga_di = [k for k, (_, ps) in enumerate(righe) for _ in ps]
         cl = self.cl_testo or {}
         arr = [w for _, ps in righe for w in ps]
@@ -189,17 +201,31 @@ class Disposizione:
                     if posti[t][2] >= 0:
                         archi.add((t, posti[t][2]))
                 x += sum(leg(arr[a], arr[b]) for a, b in archi)
-                if vert:
+                if vert or s1:
                     archi = set()
                     for t in (i, j):
                         if sopra[t] >= 0:
                             archi.add((sopra[t], t))
                         if sotto[t] >= 0:
                             archi.add((t, sotto[t]))
-                    x += vert * sum(self.somiglianza(arr[a], arr[b]) for a, b in archi)
+                    if vert:
+                        x += vert * sum(self.somiglianza(arr[a], arr[b]) for a, b in archi)
+                    if s1:
+                        x += s1 * sum(self.segni(arr[a])[0] == self.segni(arr[b])[0] for a, b in archi if primo[b])
+                if dist2:
+                    archi = set()
+                    for t in (i, j):
+                        a = posti[t][1]
+                        if a >= 0 and posti[a][1] >= 0:
+                            archi.add((posti[a][1], t))
+                        b = posti[t][2]
+                        if b >= 0 and posti[b][2] >= 0:
+                            archi.add((t, posti[b][2]))
+                    x += dist2 * sum(self.somiglianza(arr[a], arr[b]) for a, b in archi)
             return x
-        if wcl:
-            conti = [[[0, 0] for _ in range(self.n_classi)] for _ in righe]
+        if stato:
+            conti = [[[0, 0] for _ in range(nc + 5)] for _ in righe]
+            nr = len(righe)
             for t, w in enumerate(arr):
                 for c, v in cl.get(w, ()):
                     conti[riga_di[t]][c][v] += 1
@@ -207,31 +233,44 @@ class Disposizione:
         def energia(x):
             return (x[1] * (x[1] - 1) + x[0] * (x[0] - 1)) / 2 - x[0] * x[1]
 
+        def pesata(A, B, toccate):
+            x = sum(wc[c] * (energia(conti[A][c]) + energia(conti[B][c])) for c in toccate if wc[c])
+            if w5v:
+                coppie = set()
+                for L in (A, B):
+                    if L > 0:
+                        coppie.add((L - 1, L))
+                    if L < nr - 1:
+                        coppie.add((L, L + 1))
+                for a, b in coppie:
+                    x += sum(wv[c] * (conti[a][c][1] - conti[a][c][0]) * (conti[b][c][1] - conti[b][c][0]) for c in toccate if wv[c])
+            return x
+
         def sposta(w_a, A, w_b, B):
-            """La parola w_a lascia la riga A per la B e w_b fa il contrario; restituisce il cambio di energia delle classi."""
+            """La parola w_a lascia la riga A per la B e w_b fa il contrario; restituisce il cambio di energia (gia' pesato)."""
             ca, cb = cl.get(w_a, ()), cl.get(w_b, ())
             if not ca and not cb:
                 return 0.0
             toccate = {c for c, _ in ca} | {c for c, _ in cb}
-            prima = sum(energia(conti[A][c]) + energia(conti[B][c]) for c in toccate)
+            prima = pesata(A, B, toccate)
             for c, v in ca:
                 conti[A][c][v] -= 1
                 conti[B][c][v] += 1
             for c, v in cb:
                 conti[B][c][v] -= 1
                 conti[A][c][v] += 1
-            return sum(energia(conti[A][c]) + energia(conti[B][c]) for c in toccate) - prima
+            return pesata(A, B, toccate) - prima
         if N >= 2:
             for _ in range(passate * N):
                 i, j = rnd.randrange(N), rnd.randrange(N)
                 if i == j or arr[i] == arr[j]:
                     continue
                 prima = locale(i, j)
-                mosse = wcl and riga_di[i] != riga_di[j]
+                mosse = stato and riga_di[i] != riga_di[j]
                 arr[i], arr[j] = arr[j], arr[i]
                 d = locale(i, j) - prima
                 if mosse:
-                    d += wcl * sposta(arr[j], riga_di[i], arr[i], riga_di[j])
+                    d += sposta(arr[j], riga_di[i], arr[i], riga_di[j])
                 if d < 0 and rnd.random() >= math.exp(d):
                     if mosse:
                         sposta(arr[i], riga_di[i], arr[j], riga_di[j])
@@ -248,16 +287,26 @@ class Disposizione:
         self.conosci(w for _, _, ps in rr for w in ps)
         self.att_testo = set(w for _, _, ps in rr for w in ps)
         self.cl_testo = None
-        if (pesi or {}).get('classi'):
-            # le classi dell'e206b sul vocabolario del testo che si dispone: parola -> ((indice della classe, 0 corta / 1 lunga), ...)
+        px = pesi or {}
+        if px.get('classi') or px.get('scelte') or px.get('scelte_sopra'):
+            # parola -> ((indice, valore), ...): le 12 classi dell'e206b sul vocabolario del testo che si dispone (indici 0-11:
+            # 0 forma corta, 1 lunga) e, dall'e410, le cinque scelte di grafia dell'e135/e145 (indici 12-16)
             import json as _json
-            import e206_segni_facoltativi as e206
             nomi = _json.load(open(os.path.join(QUI, '..', 'risultati', 'e206b_facoltativi_strati.json'), encoding='utf-8'))['scelte_di_riga']
             self.n_classi = len(nomi)
-            ind = {n: k for k, n in enumerate(nomi)}
-            tutte = e206.classi_di(Counter(w for _, _, ps in rr for w in ps))
-            self.cl_testo = {w: tuple(sorted((ind['%s %s' % c], v) for c, v in d.items() if '%s %s' % c in ind)) for w, d in tutte.items()}
-            self.cl_testo = {w: x for w, x in self.cl_testo.items() if x}
+            vocabolario = Counter(w for _, _, ps in rr for w in ps)
+            tratti_w = {w: [] for w in vocabolario}
+            if px.get('classi'):
+                import e206_segni_facoltativi as e206
+                ind = {n: k for k, n in enumerate(nomi)}
+                for w, d in e206.classi_di(vocabolario).items():
+                    tratti_w[w].extend((ind['%s %s' % c], v) for c, v in d.items() if '%s %s' % c in ind)
+            if px.get('scelte') or px.get('scelte_sopra'):
+                import e135_stato_riga as e135
+                import e145_abitudini as e145
+                for w in vocabolario:
+                    tratti_w[w].extend((self.n_classi + e145.SCELTE.index(f), v) for f, _, _, v in e135.occorrenze([('x', [w])]) if f in e145.SCELTE)
+            self.cl_testo = {w: tuple(sorted(x)) for w, x in tratti_w.items() if x}
         per = OrderedDict()
         for p, ini, ps in rr:
             per.setdefault(p, []).append((ini, ps))
