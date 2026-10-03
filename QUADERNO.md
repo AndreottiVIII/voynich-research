@@ -7749,3 +7749,34 @@ pagina-manoscritto). Risultati in `risultati/e402_sacco_generatori.md`.
   "solo sacco" e il resto preso dal vero. Primo pezzo (e403): le **parole nuove** (il 14,6% delle parole di una pagina
   compare una volta sola in tutto il libro): si sostituiscono solo quelle con parole inventate da più generatori di
   forme, e si vede quale non si fa riconoscere.
+
+## 3/10/2026 — vz: e403, le parole nuove: nessuno dei quattro modi di inventarle passa (0,77–0,96); le parole uniche del Voynich portano i segni rari
+
+Chat del voynichizzatore. Preregistrato (`preregistrazioni/e403.md`): nel Voynich vero si sostituisce solo ogni parola
+unica nel libro (4.776, il 13,7% delle occorrenze) con una parola inventata; "solo sacco" = giudice dell'e266 su G1, G2,
+G3, JSD pagina-manoscritto (pavimento 0,50). Semi 1–4. Risultati in `risultati/e403_parole_nuove.md`.
+
+| generatore | solo sacco | previsto | G1 | G2 | G3 | JSD | lunghezza delle inventate (Voynich 5,94 ± 1,57) |
+|---|---|---|---|---|---|---|---|
+| variante-libro (operatore dell'e241 su un tipo del libro) | 0,795 | 0,60–0,72 | 0,74 | 0,71 | 0,50 | 0,65 | 5,78 ± 1,40 |
+| variante-pagina (su un tipo della stessa pagina) | 0,781 | 0,56–0,68 | 0,73 | 0,71 | 0,64 | 0,51 | 5,61 ± 1,36 |
+| trigrammi di segni imparati sulle parole uniche | 0,961 | 0,58–0,70 | 0,62 | 0,68 | 0,97 | 0,68 | 7,70 ± 2,90 |
+| mista (72% variante-pagina, 14% unione, 14% trigrammi) | 0,774 | 0,55–0,65 | 0,68 | 0,67 | 0,73 | 0,52 | 6,32 ± 2,10 |
+
+- **Esito preregistrato: tutti sopra 0,60.** Previsioni sbagliate di 0,1–0,3. **Da sole, le parole nuove fatte così
+  costano quanto tutto il sacco della v5 (0,794):** una parte grande del "muro" dei generatori vecchi era qui.
+- **Perché (caratteristiche pesanti e conteggi sul Voynich fatti dopo):**
+  - le varianti hanno la lunghezza quasi giusta e, se partono dalla pagina, tengono il profilo della pagina (JSD
+    0,51); ma **mancano i segni rari**: *c*, *h*, *x*, *f*, *g* pesano fra le prime caratteristiche;
+  - i trigrammi hanno i segni più giusti (G1 0,62) ma lunghezze sbagliate (7,7 ± 2,9: nessun controllo della
+    lunghezza), e non seguono la pagina (JSD 0,68).
+- **Conteggio sul Voynich (proprietà del testo).** Le parole uniche contengono il 18,3% dei segni del libro, ma:
+  il 100% delle *x*, l'81% delle *c* isolate, l'80% delle *b*, il 68% delle *g*, il 66% delle *h* isolate, il 64% delle
+  *f*, il 61% dei *cfh*, il 42% delle *p*, il 37% dei *cph*, il 31% delle *s*, il 29% delle *m*; e solo il 10% delle
+  *q*, l'11% delle *n*, il 14% delle *i*. Il 9,3% delle parole uniche ha almeno un segno raro (3,8% dei tipi non unici);
+  il 17,8% ha *p* o *f* (10,6%). **Le parole uniche non sono "una parola frequente con un errore qualsiasi": sono il
+  posto dove stanno i segni rari e i segni di posizione** (*p*/*f* delle prime righe, *m*/*g* di fine riga, *s*
+  d'inizio riga). Va con il fatto che stanno ai bordi (47,7% delle prime parole di paragrafo, 21% delle ultime di
+  riga, 8,8% in mezzo).
+- **Secondo tentativo (e403b):** un modello della forma imparato sulle parole uniche (trigrammi), con la lunghezza
+  controllata, distinto per tipo di posto nella riga e scelto in modo da seguire il profilo della pagina.

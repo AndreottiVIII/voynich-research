@@ -191,3 +191,11 @@ Risultati nel QUADERNO (voce "vz: e402"). Solo sacco: v5 **0,794**, modello **0,
 - In preparazione: e403 (parole nuove: sostituire solo le parole uniche nel libro con parole inventate da più generatori di forme).
 
 - In sospeso: ordine delle righe (G9 metà pagina), materie di pagella perse dalla disposizione, nascondiglio (0,63), banco e293.
+
+**22:00 — e403 lanciato** (coda `vz-nuove`, 10 processi; `voynichizzatore/parole_nuove.py`, `esperimenti/e403_parole_nuove.py`). Descrizione fatta prima: le 4.776 parole uniche sono lunghe (5,94 segni), il 72% è a una modifica da una parola nota, il 68% si legge come unione di due note; stanno ai bordi della riga (47,7% delle prime parole di paragrafo). Previsioni del solo sacco: variante-libro 0,60–0,72, variante-pagina 0,56–0,68, trigrammi 0,58–0,70, mista 0,55–0,65.
+
+## 3/10/2026, 22:10 — e403 finito: le parole nuove sono un pezzo grosso del muro
+
+
+
+Risultati nel QUADERNO (voce "vz: e403"). Solo sacco: variante-libro 0,795, variante-pagina 0,781, trigrammi 0,961, mista 0,774: tutti molto sopra le previsioni (0,55–0,72). Mi sono fermato a capire: le parole uniche del Voynich portano i segni rari e di posizione (x, c, g, h, f, p, s, m), che le varianti non hanno; i trigrammi hanno i segni più giusti (G1 0,62) ma lunghezze sbagliate. Secondo tentativo e403b: trigrammi con lunghezza controllata (T-L), per tipo di posto (T-LP), scelti secondo il profilo della pagina (T-LPS).
