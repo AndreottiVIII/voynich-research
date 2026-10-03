@@ -10831,3 +10831,26 @@ verificata contro l'enumerazione completa su un alfabeto piccolo). Riempimento =
   cima. Ma nel pinyin la frequenza **non** segue la forma (e3a55: 0,045 e 0,112, contro 0,58 del Voynich) e i legami fra
   segni attraverso lo spazio sono diversi (e3a49: −0,25). Quindi il Voynich somiglia a un inventario chiuso di forme
   combinatorie (come un sillabario) per il riempimento, ma non per la frequenza: lì somiglia ai generatori.
+
+## 4/10/2026 (notte) — e3a62: il cifrario Naibbe non ha legame fra parole intere; Timm e Schinner ne ha quanto il Voynich
+
+Preregistrato (`preregistrazioni/e3a62.md`). Misura dell'e3a14 (identità della parola contro segno di bordo della
+vicina, a parità di segno di bordo e di pagina), prime 10.000 parole, pagine di 25 righe, 100 rimescolamenti.
+Riferimenti: Voynich 0,026 avanti e 0,018 indietro; mediana delle lingue 0,111 e 0,095.
+
+| testo | avanti E (z) | indietro E (z) |
+|---|---|---|
+| Naibbe | 0,003 (1,2) | 0,000 (0,1) |
+| U2 | 0,006 (1,3) | 0,003 (0,6) |
+| U3 | 0,004 (1,3) | 0,007 (1,9) |
+| **Timm e Schinner** | **0,026 (4,3)** | **0,036 (6,2)** |
+| gibberish umano | 0,043 (15,0) | 0,029 (9,1) |
+
+- **Esito preregistrato: tutti "come il Voynich"** (sotto il punto medio fra Voynich e lingue).
+- **Naibbe, che cifra un testo vero, non ha nessun legame misurabile fra parole intere**: il dado che sceglie fra le
+  tabelle cancella, almeno in questa misura, il legame fra lettere vicine del testo in chiaro. Quindi la piccolezza del
+  legame nel Voynich **non** esclude un cifrario verboso di quel tipo (cautela già scritta: la misura vede solo il segno
+  di bordo della vicina).
+- **Timm e Schinner ha un legame uguale a quello del Voynich** (0,026 avanti). In quel generatore le parole si copiano
+  a pezzi dalle righe sopra: due parole vicine copiate da due vicine della fonte restano legate. Ipotesi da provare
+  subito: il piccolo legame del Voynich viene dalla copia a pezzi dalla riga sopra (e372). Prossimo: e3a63.
