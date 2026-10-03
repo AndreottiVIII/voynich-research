@@ -6357,3 +6357,97 @@ sequenza.
 - **Durate:** e269 124 min sul vecchio PC, 51 sul nuovo (con il doppio dei processi); e275 87 contro 28.
 - **e270** sul nuovo PC è stato fermato a metà, perché il vecchio l'aveva già finito: nessun confronto.
 - Da qui in poi si lavora solo sul nuovo PC (STATO_LAVORI.md).
+
+## 3/10/2026 — e276: regolare κ e χ per sezione non aiuta
+
+- **Preregistrato.** Base e241 (l'e243b era peggiore: AUC e266 0,947 contro 0,937). κ e χ scelti per
+  gruppo di sezione sul seme 1, con l'AUC dell'e231 sulle sole pagine del gruppo; verifica sui semi 7–9
+  contro lo stesso generatore con parametri globali (κ 1, χ 0,2).
+- **Scelte:** erbario κ 1,5 χ 0,3; biologica κ 0,5 χ 0,3; ricette e stelle κ 1 χ 0,3; altre κ 0,5 χ 0,1.
+- **Risultati** (semi 7, 8, 9; globale → per sezione):
+  - AUC dell'e266: 0,966 → 0,955; 0,953 → 0,918; 0,965 → 0,954. Differenza media **0,019**;
+  - AUC dell'e231: 0,887 → 0,863; 0,854 → 0,830; 0,879 → 0,838;
+  - pagella: 15 → 14; 15 → 15; 15 → 17.
+- **Esito preregistrato: non aiuta.** Serviva un calo dell'AUC dell'e266 di almeno 0,03.
+- **Lettura.**
+  - Regolare per sezione abbassa un poco tutte e due le AUC, ma non abbastanza: le differenze fra
+    sezioni non sono il problema principale del generatore.
+  - Il generatore e241 sui semi di verifica 7–9 fa **15/18** in tutti e tre, non 16 come sul seme 2,
+    con AUC dell'e231 media 0,873 e dell'e266 0,961. È il riferimento vero per i passi seguenti.
+  - I parametri per sezione restano un candidato per la regolazione congiunta (e253).
+- Durata sul nuovo PC: 48 min.
+
+## 3/10/2026 — e222: il nomenclatore misto non dà letture
+
+- **Preregistrato.** Le 50 o 150 parole più frequenti trattate come codici interi e tolte; il resto
+  attaccato lettera per lettera con il risolutore dell'e17, in 14 lingue.
+- **Risultati** (posizione punteggio / copertura): togliendo le parole frequenti le posizioni in
+  genere **scendono**. Ebraico da 0,70 / 0,25 a 0,27 / 0,08 (50) e 0,32 / 0,04 (150); arabo da 0,52 / 0,29
+  a 0,50 / 0,07 e 0,32 / −0,02. Le europee restano fra −0,4 e 0,3 nel punteggio, sotto 0,06 nella
+  copertura.
+- **Esito preregistrato: nessuna lettura.**
+- **Lettura.** Se le parole frequenti fossero codici e il resto un cifrario di lettere, togliendole il
+  resto dovrebbe leggersi meglio: succede il contrario. Il vantaggio di ebraico e arabo viene in parte
+  proprio dalle parole frequenti (e158, e217b).
+- Durata sul nuovo PC: 70 min con `PROCESSI=4`.
+
+## 3/10/2026 — e219: volgari, lingue storiche e latino abbreviato non danno letture
+
+- **Preregistrato.** Risolutore dell'e17 sul testo ripulito, contro 16 corpora: latino abbreviato,
+  lombardo, veneto, napoletano, siciliano, friulano, ladino, catalano, occitano, franco-provenzale,
+  piccardo, alemanno, bavarese, gotico, anglosassone, slavo ecclesiastico.
+- **Risultati.** Il controllo positivo ritrova la chiave al 98–100% (slavo ecclesiastico 89%). Il Voynich
+  sta fra 0,01 e 0,40 nel punteggio e fra −0,02 e 0,15 nella copertura delle parole di almeno 6 lettere.
+- **Esito preregistrato: nessuna lettura.** Nessun corpus arriva a 0,5.
+- **Lettura.** Le varietà vicine all'ambiente probabile del manoscritto (Italia del nord, area alpina,
+  1404–1438) si comportano come le lingue nazionali. Gli esempi decifrati sono sequenze senza parole
+  (*litrmrsisisisinatestes…* per il latino abbreviato).
+- Durata sul nuovo PC: 25 min con `PROCESSI=4`.
+
+## 3/10/2026 — e216: altri ordini di lettura non danno letture
+
+- **Preregistrato.** Risolutore dell'e17 su cinque modi: riferimento; righe al contrario; parole al
+  contrario; per colonne; senza i segni facoltativi. Sei lingue.
+- **Risultati.** Nessun modo nuovo supera 0,5 in tutte e due le misure. Il più alto è l'ebraico senza
+  segni facoltativi, 0,54 / 0,20, sotto il riferimento ebraico (0,70 / 0,25). Tedesco "per colonne"
+  0,29 / 0,19.
+- **Esito preregistrato: nessuna lettura.**
+- **Lettura.** Leggere il testo in un altro ordine non lo avvicina a una lingua. Insieme all'e210
+  (qo-/o- e -l/-r imprevedibili) dice che l'ordine di lettura normale non nasconde un cifrario di
+  trasposizione semplice.
+- Durata sul nuovo PC: 87 min con `PROCESSI=4`.
+
+## 3/10/2026 — e249: i pezzi delle parole come simboli non danno letture
+
+- **Preregistrato.** I pezzi ricorrenti delle parole come simboli del cifrario, con il rimescolato dei
+  pezzi dentro il criterio; cinque lingue.
+- **Risultati** (pezzi / pezzi rimescolati, punteggio e copertura):
+  - latino, italiano e tedesco sotto zero (−0,36 … −0,27 nel punteggio);
+  - ebraico −0,16 / 1,30 contro 0,13 / 6,89 del rimescolato;
+  - arabo 0,49 / 4,63 contro 1,19 / 2,82.
+- **Esito preregistrato: nessuna lettura.** Nessuna lingua supera il proprio rimescolato.
+- **Lettura.**
+  - Le coperture sopra 1 (fino a 6,89) non sono letture: in ebraico e arabo il controllo positivo
+    stesso non trova quasi parole lunghe, quindi la differenza fra positivo e negativo è quasi zero e la
+    posizione esplode. È lo stesso difetto dei "candidati" dell'e212b (vedi sotto).
+  - Il testo prodotto dal codice riporta anche un "candidato" calcolato senza il rimescolato (arabo,
+    pezzi rimescolati); l'esito vale solo per il criterio preregistrato, con il rimescolato.
+- Prima esecuzione completa (il vecchio PC non l'aveva finita): 97 min con `PROCESSI=2`.
+
+## 3/10/2026 — e212b: tre "candidati" su 85 lingue, ma la posizione è un artefatto aritmetico
+
+- **Preregistrato.** Come l'e212 (testo ripulito, segni EVA, 2 ripartenze) su tutte le lingue della
+  cache non fatte nell'e212: 85 lingue.
+- **Risultati.** Candidati secondo il criterio (posizione ≥ 0,5 nelle due misure): **hindi** (6,12 /
+  3.133), **finlandese** (6,28 / 9,17), **birmano** (3,10 / 4,01). Le altre 82 lingue no.
+- **Esito preregistrato: tre candidati, da riprovare con 8 ripartenze (e212c).**
+- **Il difetto, visto sui valori grezzi prima della verifica.** La posizione è (Voynich − negativo) /
+  (positivo − negativo):
+  - hindi e birmano: il controllo positivo non si decifra (copertura 0,00 e 0,02). Il denominatore è
+    quasi zero e la posizione esplode;
+  - finlandese: il controllo negativo dell'e17 è finlandese cifrato, cioè la lingua stessa. Il
+    denominatore è negativo: il Voynich (−2,70 / 0,07) sta molto sotto i due controlli (−1,58 / 0,63 e
+    −1,37 / 0,70), ma la formula dà 6,3.
+- **Lezione di metodo.** La posizione va giudicata solo dove il controllo positivo si decifra e il
+  positivo supera il negativo. L'e212c lo mette nel criterio, con il latino come negativo del finlandese.
+- Durata sul nuovo PC: 33 min con `PROCESSI=4`, `RIPARTENZE=2`.
