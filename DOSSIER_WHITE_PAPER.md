@@ -1063,6 +1063,7 @@ Numeri già registrati nel Quaderno (esperimenti indicati). "Lingue" = 71 testi 
 | inizi uguali fra righe consecutive, rapporto (e3a35) | **0,51** (z −8,0) | mediana 0,95; solo 3 su 57 sotto | 1,32 | — |
 | scriba che guarda avanti di una parola (e3a02, e3a34) | sì (ZL e IT) | — | — | — |
 | coppie fra parole che ricalcano le coppie dentro le parole, ρ (e3a49, e3a50) | **0,47** (IT 0,44; GC 0,50) | sotto 0,39 tutte; di solito sotto 0,2 | 0,20 | — |
+| frequenza delle parole che segue la forma, ρ (e3a55) | **0,58** | mediana 0,11; massimo 0,28 | 0,09 | 0,41 (Naibbe) – 0,60 |
 | regole di raccordo *qo*-/*o*-, -*l*/-*r* (e380, e388, e395, e3a16) | sì, in tutte le mani, sessioni e trascrizioni | (*sandhi*, liaison in alcune lingue) | — | — |
 
 **In una riga:** il Voynich ha un legame fra parole vicine forte come quello delle lingue più legate, fatto di regole di
@@ -1092,3 +1093,4 @@ e3a52); in verticale, quanto la giuntura passa l'a capo (Q, e384, e399). Il Voyn
 catena con spazi deboli **e** riga chiusa. Le lingue stanno a sinistra e per lo più in alto (riga aperta), con pochi
 testi a versetti vicino a Q = 0; U3 sta in alto a destra (catena ma riga aperta). Per Naibbe e per il gibberish la Q
 conta poco, perché la loro giuntura è quasi zero.
+- **La frequenza delle parole segue la loro forma** (e3a55): le parole frequenti del Voynich sono le sequenze di segni più probabili per le regole di sequenza (ρ 0,58), più che in tutte le lingue (mediana 0,11, massimo 0,28) e del gibberish umano (0,09); come nei generatori (0,53–0,60) e nel cifrario verboso Naibbe (0,41). Esclude un vocabolario scelto per significato (lingua o cifrario a dizionario), non un procedimento sui segni.
