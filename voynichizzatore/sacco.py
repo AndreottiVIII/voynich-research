@@ -76,12 +76,15 @@ class Sacco:
         pesi = [c * math.exp(kappa * sum(delta.get(g, 0.0) * k for g, k in self._cache_segni[w].items())) for w, c in zip(tipi, conti)]
         return list(itertools.accumulate(pesi))
 
+    FORME = {}      # argomenti di parole_nuove.FormeUniche (e405: comuni, quattro, forza)
+
     def forme(self):
-        if self._fu is None:
+        chiave = tuple(sorted(self.FORME.items()))
+        if self._fu is None or self._fu[0] != chiave:
             import parole_nuove
-            self._fu = parole_nuove.FormeUniche(self.rr)
-        self._fu.usate = set()
-        return self._fu
+            self._fu = (chiave, parole_nuove.FormeUniche(self.rr, **self.FORME))
+        self._fu[1].usate = set()
+        return self._fu[1]
 
     def genera(self, seme, theta=None, nuove='vere', kappa=None):
         """Il testo con le parole note pescate (e, con nuove='inventate', le uniche sostituite); stessa impaginazione.
