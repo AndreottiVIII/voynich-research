@@ -8626,3 +8626,29 @@ nella riga subito sopra; "in blocco" se le fonti sono anche loro vicine.
 - Lo scriba riprende anche **coppie** di parole vicine dalla riga sopra, di solito nello stesso ordine, ma più del caso
   anche invertite. Nel generatore di Timm e Schinner l'ordine invertito non c'è: un'altra differenza dalla loro teoria,
   oltre alla distanza (e347).
+
+## 3/10/2026 — vz: e293, banco della v9: la pagella sale (44/54), ma con il nascondiglio vecchio il giudice dell'e231 risale a 0,668
+
+
+
+Banco preregistrato dell'e293 (`esegui.py e293 -- --v8 --v9`): Isidoro XVII nascosto con la chiave "banco" nelle cinque scelte di grafia, semi 7, 8, 9. Decodifica esatta nei sei manoscritti. La v8 rifatta con il codice nuovo è identica al banco precedente (controllo).
+
+
+
+| versione | pagella (3 semi) | pagella estesa | riga | AUC e231 | AUC e266 |
+
+|---|---|---|---|---|---|
+
+| v5 | 49/54 | 57/78 | 0 | 0,816 | 0,917 |
+
+| v8 | 41/54 | 56/78 | 0 | 0,604 | 0,715 |
+
+| v9 | 44/54 | 56/78 | 0 | 0,668 | 0,719 |
+
+
+
+- **La v9 non migliora la v8 al banco:** la pagella sale di 3 punti, il giudice forte è uguale (0,719 contro 0,715), quello dell'e231 **peggiora** (0,668 contro 0,604). Per seme: 0,654 / 0,733; 0,681 / 0,729; 0,670 / 0,695.
+
+- **Non è effetto vincitore, è il nascondiglio.** Senza messaggio, sui semi di ricerca, la v9 fa 0,541 / 0,659 e la v8 0,558 / 0,703: il messaggio costa alla v8 circa +0,05 / +0,01 e alla v9 circa **+0,13 / +0,06**. Il nascondiglio vecchio riscrive le cinque scelte di grafia (ch/sh, k/t, qo-/o- all'inizio; -l/-r, -dy/-ey alla fine): cambia proprio il primo e l'ultimo segno delle parole, cioè rompe il legame fra ultimo e primo segno e le unioni che la v9 ha appena imparato a fare. Più il corpo è fine, più questo nascondiglio lo rovina. (Ipotesi coerente con l'e400, dove il nascondiglio da solo sul Voynich vero costava 0,63; la verifica diretta è l'e409.)
+
+- **Conseguenza:** il nascondiglio va cambiato prima di tutto il resto. Preregistrato l'e409: il messaggio nel sacco (nei conteggi delle parole note di ogni pagina), senza più riscrivere le scelte di grafia.
