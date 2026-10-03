@@ -8464,3 +8464,23 @@ Preregistrato (`preregistrazioni/e365.md`).
   | in mezzo | 39,4% | 55,1% |
 
   I bordi hanno forme loro (e337: prime parole con *t*/*k*/*p*, ultime con -*m*/-*g*), e lì nascono più parole nuove.
+
+## 3/10/2026 (notte) — e366: ai bordi della riga lo scriba attacca un segno a parole normali
+
+Preregistrato (`preregistrazioni/e366.md`). Forme nuove (uniche non varianti) di almeno 3 segni.
+
+| forme nuove | numero | parola nota togliendo il primo segno | togliendo l'ultimo |
+|---|---|---|---|
+| prime della riga (non di paragrafo) | 419 | **0,356** | 0,053 |
+| ultime della riga | 684 | 0,158 | **0,104** |
+| in mezzo | 1.963 | 0,228 | 0,052 |
+
+- **Esiti preregistrati:**
+  - **segno di inizio riga** (z 5,5); i segni tolti sono *y* 44, *d* 28, *s* 26, *t* 17, *o* 13, *sh* 7;
+  - **segno di fine riga** (z 4,7); i segni tolti sono *y* 22, *d* 14, *s* 11, *g* 9, *o* 5, *m* 4.
+- **Lettura:** molte "parole uniche" ai bordi della riga sono parole normali con un segno in più:
+  - all'inizio, *y*-, *d*-, *s*- (diversi dal gallows dell'inizio di paragrafo);
+  - alla fine, -*y*, -*d*, -*s*, -*g*, -*m*.
+
+  Spiega perché le forme nuove stanno il doppio ai bordi (e365) e perché la prima parola della riga è più lunga
+  (e306). Come per il paragrafo (e310, e316), i bordi della riga hanno segni loro.
