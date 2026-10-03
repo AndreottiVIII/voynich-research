@@ -1,0 +1,393 @@
+{
+ "Voynich": {
+  "parole rare per pagina": 1.958041958041958,
+  "tipi su parole nella pagina": 0.7559315279272836,
+  "uniche nella pagina": 0.6359368522910547,
+  "dispersione delle lunghezze": 1.5789961974222224,
+  "prime righe come registro": 4.724292557993507,
+  "scelte di riga": 12,
+  "concordanza delle desinenze": 0.04334768727502919,
+  "coppie viste altrove": 0.22129511267771618
+ },
+ "metro_valido": {
+  "parole rare per pagina": true,
+  "tipi su parole nella pagina": true,
+  "uniche nella pagina": true,
+  "dispersione delle lunghezze": true,
+  "prime righe come registro": true,
+  "scelte di riga": true,
+  "concordanza delle desinenze": true,
+  "coppie viste altrove": true
+ },
+ "versioni": {
+  "v3": [
+   {
+    "decodifica_esatta": true,
+    "pagella": 17,
+    "riga": true,
+    "mancano": [
+     "profilo pagina"
+    ],
+    "AUC_e231": 0.8496225860209783,
+    "AUC_e266": 0.9467111067542398,
+    "gruppi_e266": {
+     "G1": 0.672806587589452,
+     "G2": 0.6598911871385158,
+     "G3": 0.8858543280070583,
+     "G4": 0.6231104793647682,
+     "G5": 0.5461229291245956,
+     "G6": 0.7363101656700323,
+     "G7": 0.6126654249583374,
+     "G8": 0.890927360062739,
+     "G9": 0.6909224585824918
+    },
+    "estesa": {
+     "parole rare per pagina": 50.0,
+     "tipi su parole nella pagina": 0.6764337265028998,
+     "uniche nella pagina": 0.5382067523517737,
+     "dispersione delle lunghezze": 1.641659627206804,
+     "prime righe come registro": -0.9335546634670107,
+     "scelte di riga": 4,
+     "concordanza delle desinenze": 0.011389206911073146,
+     "coppie viste altrove": 0.17861094414049472
+    },
+    "estesa_passate": []
+   },
+   {
+    "decodifica_esatta": true,
+    "pagella": 17,
+    "riga": true,
+    "mancano": [
+     "omogeneità"
+    ],
+    "AUC_e231": 0.8039554945593569,
+    "AUC_e266": 0.9333300656798353,
+    "gruppi_e266": {
+     "G1": 0.6357808058033526,
+     "G2": 0.6512400745024997,
+     "G3": 0.8691892951671404,
+     "G4": 0.6792128222723262,
+     "G5": 0.46106264091755716,
+     "G6": 0.740084305460249,
+     "G7": 0.6348838349181453,
+     "G8": 0.8612636016076853,
+     "G9": 0.7001617488481522
+    },
+    "estesa": {
+     "parole rare per pagina": 51.10619469026549,
+     "tipi su parole nella pagina": 0.6799969694068242,
+     "uniche nella pagina": 0.5419401467777244,
+     "dispersione delle lunghezze": 1.6518406394892475,
+     "prime righe come registro": 1.6934851322489597,
+     "scelte di riga": 2,
+     "concordanza delle desinenze": 0.016231361189978644,
+     "coppie viste altrove": 0.1777875116937731
+    },
+    "estesa_passate": []
+   },
+   {
+    "decodifica_esatta": true,
+    "pagella": 18,
+    "riga": false,
+    "mancano": [],
+    "AUC_e231": 0.798137437506127,
+    "AUC_e266": 0.9228556023919221,
+    "gruppi_e266": {
+     "G1": 0.6231840015684738,
+     "G2": 0.6439564748554063,
+     "G3": 0.8595137731594941,
+     "G4": 0.6035927850210763,
+     "G5": 0.5194392706597393,
+     "G6": 0.6889422605626899,
+     "G7": 0.5618762866385648,
+     "G8": 0.8788550142142928,
+     "G9": 0.6779825507303207
+    },
+    "estesa": {
+     "parole rare per pagina": 47.80976220275345,
+     "tipi su parole nella pagina": 0.6796947940124913,
+     "uniche nella pagina": 0.5426568450748727,
+     "dispersione delle lunghezze": 1.6327715432204832,
+     "prime righe come registro": -0.950938717135807,
+     "scelte di riga": 2,
+     "concordanza delle desinenze": 0.012194447774443562,
+     "coppie viste altrove": 0.19158254361747065
+    },
+    "estesa_passate": []
+   }
+  ],
+  "v4": [
+   {
+    "decodifica_esatta": true,
+    "pagella": 17,
+    "riga": false,
+    "mancano": [
+     "gradiente"
+    ],
+    "AUC_e231": 0.8388834427997256,
+    "AUC_e266": 0.9269238309969611,
+    "gruppi_e266": {
+     "G1": 0.6301490049995098,
+     "G2": 0.6671208705028919,
+     "G3": 0.8816243505538672,
+     "G4": 0.5992500735222037,
+     "G5": 0.43142338986373885,
+     "G6": 0.7035829820605823,
+     "G7": 0.618003136947358,
+     "G8": 0.8672973237917849,
+     "G9": 0.6721350847956081
+    },
+    "estesa": {
+     "parole rare per pagina": 43.34511189634865,
+     "tipi su parole nella pagina": 0.6565706839450088,
+     "uniche nella pagina": 0.5195382681694032,
+     "dispersione delle lunghezze": 1.6404725381108498,
+     "prime righe come registro": 0.2198246452641513,
+     "scelte di riga": 10,
+     "concordanza delle desinenze": 0.0521768294932764,
+     "coppie viste altrove": 0.23190912981763312
+    },
+    "estesa_passate": [
+     "scelte di riga",
+     "concordanza delle desinenze",
+     "coppie viste altrove"
+    ]
+   },
+   {
+    "decodifica_esatta": true,
+    "pagella": 17,
+    "riga": false,
+    "mancano": [
+     "gradiente"
+    ],
+    "AUC_e231": 0.8339035388687386,
+    "AUC_e266": 0.9274973041858641,
+    "gruppi_e266": {
+     "G1": 0.6059503970199,
+     "G2": 0.6846877757082639,
+     "G3": 0.8619939221644936,
+     "G4": 0.5933633957455152,
+     "G5": 0.433849622586021,
+     "G6": 0.7066120968532498,
+     "G7": 0.6325899421625332,
+     "G8": 0.8707724732869326,
+     "G9": 0.6877561023429075
+    },
+    "estesa": {
+     "parole rare per pagina": 46.71916010498688,
+     "tipi su parole nella pagina": 0.6584751089626493,
+     "uniche nella pagina": 0.5193170789995415,
+     "dispersione delle lunghezze": 1.6337067419458067,
+     "prime righe come registro": -0.2601048915570882,
+     "scelte di riga": 10,
+     "concordanza delle desinenze": 0.046064588451964594,
+     "coppie viste altrove": 0.23370771520570469
+    },
+    "estesa_passate": [
+     "scelte di riga",
+     "concordanza delle desinenze",
+     "coppie viste altrove"
+    ]
+   },
+   {
+    "decodifica_esatta": true,
+    "pagella": 16,
+    "riga": false,
+    "mancano": [
+     "omogeneità",
+     "gradiente"
+    ],
+    "AUC_e231": 0.8550877364964219,
+    "AUC_e266": 0.9400009802960494,
+    "gruppi_e266": {
+     "G1": 0.5962209587295364,
+     "G2": 0.6551661601803744,
+     "G3": 0.8931575335751397,
+     "G4": 0.6094745613175178,
+     "G5": 0.5630428389373592,
+     "G6": 0.7049553965297519,
+     "G7": 0.593760415645525,
+     "G8": 0.8618713851583181,
+     "G9": 0.7149397117929615
+    },
+    "estesa": {
+     "parole rare per pagina": 43.93939393939394,
+     "tipi su parole nella pagina": 0.6579934957398298,
+     "uniche nella pagina": 0.5179792506935889,
+     "dispersione delle lunghezze": 1.6295025643986745,
+     "prime righe come registro": -0.2619944425932287,
+     "scelte di riga": 10,
+     "concordanza delle desinenze": 0.04213217903474642,
+     "coppie viste altrove": 0.22269469786404752
+    },
+    "estesa_passate": [
+     "scelte di riga",
+     "concordanza delle desinenze",
+     "coppie viste altrove"
+    ]
+   }
+  ],
+  "v5": [
+   {
+    "decodifica_esatta": true,
+    "pagella": 17,
+    "riga": false,
+    "mancano": [
+     "gradiente"
+    ],
+    "AUC_e231": 0.829585334771101,
+    "AUC_e266": 0.9352465444564257,
+    "gruppi_e266": {
+     "G1": 0.6239731398882463,
+     "G2": 0.6753063425154396,
+     "G3": 0.8582687971767473,
+     "G4": 0.6189099107930595,
+     "G5": 0.4435643564356436,
+     "G6": 0.6907656112145868,
+     "G7": 0.6463925105381825,
+     "G8": 0.8566169983334968,
+     "G9": 0.6066120968532497
+    },
+    "estesa": {
+     "parole rare per pagina": 37.321624588364436,
+     "tipi su parole nella pagina": 0.6739100588832158,
+     "uniche nella pagina": 0.5395955386275766,
+     "dispersione delle lunghezze": 1.666707831234585,
+     "prime righe come registro": 0.14932761524051444,
+     "scelte di riga": 9,
+     "concordanza delle desinenze": 0.04669612966027065,
+     "coppie viste altrove": 0.22713691178125775
+    },
+    "estesa_passate": [
+     "concordanza delle desinenze",
+     "coppie viste altrove"
+    ]
+   },
+   {
+    "decodifica_esatta": true,
+    "pagella": 15,
+    "riga": false,
+    "mancano": [
+     "gradiente",
+     "deriva",
+     "profilo pagina"
+    ],
+    "AUC_e231": 0.8415939613763357,
+    "AUC_e266": 0.923081070483286,
+    "gruppi_e266": {
+     "G1": 0.6489069699049113,
+     "G2": 0.7327222821292031,
+     "G3": 0.8241544946573864,
+     "G4": 0.6032349769630428,
+     "G5": 0.49386334673071264,
+     "G6": 0.7389814724046662,
+     "G7": 0.6061562591902755,
+     "G8": 0.8704146652288991,
+     "G9": 0.6145181844917165
+    },
+    "estesa": {
+     "parole rare per pagina": 42.63959390862944,
+     "tipi su parole nella pagina": 0.6789123402183012,
+     "uniche nella pagina": 0.5442504864545142,
+     "dispersione delle lunghezze": 1.6574060919960594,
+     "prime righe come registro": -1.0839584741072397,
+     "scelte di riga": 11,
+     "concordanza delle desinenze": 0.04482541177890942,
+     "coppie viste altrove": 0.23301082812506868
+    },
+    "estesa_passate": [
+     "scelte di riga",
+     "concordanza delle desinenze",
+     "coppie viste altrove"
+    ]
+   },
+   {
+    "decodifica_esatta": true,
+    "pagella": 17,
+    "riga": false,
+    "mancano": [
+     "gradiente"
+    ],
+    "AUC_e231": 0.777909028526615,
+    "AUC_e266": 0.8933192824232918,
+    "gruppi_e266": {
+     "G1": 0.611905695520047,
+     "G2": 0.6527693363395746,
+     "G3": 0.8164983825115184,
+     "G4": 0.6067297323791785,
+     "G5": 0.48324183903538864,
+     "G6": 0.6902509557886483,
+     "G7": 0.6039505930791099,
+     "G8": 0.8731840015684738,
+     "G9": 0.6212773257523772
+    },
+    "estesa": {
+     "parole rare per pagina": 41.919191919191924,
+     "tipi su parole nella pagina": 0.6799469034771823,
+     "uniche nella pagina": 0.5460555497407781,
+     "dispersione delle lunghezze": 1.6571142320421015,
+     "prime righe come registro": 1.1111713115800863,
+     "scelte di riga": 10,
+     "concordanza delle desinenze": 0.05029304902588211,
+     "coppie viste altrove": 0.2217366321305092
+    },
+    "estesa_passate": [
+     "scelte di riga",
+     "concordanza delle desinenze",
+     "coppie viste altrove"
+    ]
+   }
+  ]
+ },
+ "sintesi": {
+  "v3": {
+   "decodifica_esatta": true,
+   "pagella_somma": 52,
+   "estesa_somma": 52,
+   "semi_con_riga": 2,
+   "AUC_e231_media": 0.8172385060288208,
+   "AUC_e266_media": 0.9342989249419991,
+   "materie_estese_mancate": {
+    "parole rare per pagina": 3,
+    "tipi su parole nella pagina": 3,
+    "uniche nella pagina": 3,
+    "dispersione delle lunghezze": 3,
+    "prime righe come registro": 3,
+    "scelte di riga": 3,
+    "concordanza delle desinenze": 3,
+    "coppie viste altrove": 3
+   }
+  },
+  "v4": {
+   "decodifica_esatta": true,
+   "pagella_somma": 50,
+   "estesa_somma": 59,
+   "semi_con_riga": 0,
+   "AUC_e231_media": 0.842624906054962,
+   "AUC_e266_media": 0.9314740384929582,
+   "materie_estese_mancate": {
+    "parole rare per pagina": 3,
+    "tipi su parole nella pagina": 3,
+    "uniche nella pagina": 3,
+    "dispersione delle lunghezze": 3,
+    "prime righe come registro": 3
+   }
+  },
+  "v5": {
+   "decodifica_esatta": true,
+   "pagella_somma": 49,
+   "estesa_somma": 57,
+   "semi_con_riga": 0,
+   "AUC_e231_media": 0.8163627748913506,
+   "AUC_e266_media": 0.9172156324543346,
+   "materie_estese_mancate": {
+    "parole rare per pagina": 3,
+    "tipi su parole nella pagina": 3,
+    "uniche nella pagina": 3,
+    "dispersione delle lunghezze": 3,
+    "prime righe come registro": 3,
+    "scelte di riga": 1
+   }
+  }
+ }
+}
