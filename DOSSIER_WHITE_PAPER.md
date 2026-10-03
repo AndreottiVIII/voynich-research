@@ -1040,3 +1040,29 @@ negativi; i numeri sono nei file di `risultati/`.
 - **La coppia più forte della giuntura ha spazi netti** (esplorativo): fra -*y* e *q*- lo spazio è incerto solo nell'1% dei casi (8% in generale); gli spazi incerti stanno fra -*l* e *k*- (43%), -*r* e *a*- (28%), dove le parole si spezzano.
 - **Due famiglie di scelte di grafia** (e3a18): *qo*-/*o*- e -*l*/-*r* dipendono dalla parola vicina e non derivano con la posizione; *ch*/*sh*, *k*/*t*, -*dy*/-*ey* non dipendono dalla vicina ma derivano scendendo nel paragrafo (*sh* −0,20, *t* −0,09, -*ey* +0,10) e in parte nella pagina (*t* −0,08, -*ey* +0,13).
 - **La copia cresce lungo il paragrafo** (e3a19): l'eccesso di ripresa dalla riga sopra è quasi nullo nel primo terzo del paragrafo (+0,005) e sale a +0,036 e +0,047 nel secondo e nel terzo.
+
+### 15.12 Sintesi della notte 3–4/10: il Voynich a confronto con lingue, gibberish umano e generatori
+
+Numeri già registrati nel Quaderno (esperimenti indicati). "Lingue" = 71 testi di Gaskell e Bowern con le parole intere
+(e381), di solito 10.000 parole per testo. "Gibberish" = 38 testi scritti a mano da volontari (Gaskell e Bowern 2022).
+"Generatori" = Naibbe, U2, U3, Timm e Schinner (e399).
+
+| proprietà | Voynich | lingue | gibberish umano | generatori pubblicati |
+|---|---|---|---|---|
+| giuntura fra parole vicine, bit (e377, e381) | **0,18–0,19** | 0,03–0,36; solo 6 su 71 sopra il Voynich | 0,014 | 0,00–0,08 (e399) |
+| giuntura a capo / nella riga, Q (e384, e399) | **−0,02** | 0,5–1 nella prosa; ~0 solo dove la riga è un versetto | 0,46 (non significativa) | U3 0,97; TS 0,2 |
+| giuntura al salto di un disegno (e386) | **0,026** (riga 0,167) | — | — | — |
+| legame a distanza 2, a parità della parola in mezzo, nullo nella pagina (e3a07) | **0,001** (z 0,9) | mediana 0,013; 34 su 42 significativi | 0,001 | — |
+| identità della parola oltre il segno di bordo, nullo nella pagina (e3a14) | 0,026 | mediana 0,111 | — | — |
+| coppie di parole che tornano oltre la giuntura, R (e375, e381) | **1,03** | 1,16–1,38 | 1,13 | TS 0,99 |
+| ripresa dalle 2 righe sopra, eccesso, pagine di 25 righe (e382) | +0,034 | +0,029 | **−0,001** | TS +0,022 |
+| forma del calo della ripresa, C (e385) | **−0,07** (solo la riga sopra) | 0,28 (3–4 righe) | nessuna ripresa | — |
+| spazi prevedibili dai segni vicini, R (e397) | 0,73 | 0,28–0,86 (sopra il Voynich solo il pinyin) | 0,09 (testi piccoli) | — |
+| bordi della riga, divergenza del primo segno (e374) | **0,140** | 0,02 | 0,006 | TS 0,039 |
+| regole di raccordo *qo*-/*o*-, -*l*/-*r* (e380, e388, e395, e3a16) | sì, in tutte le mani, sessioni e trascrizioni | (*sandhi*, liaison in alcune lingue) | — | — |
+
+**In una riga:** il Voynich ha un legame fra parole vicine forte come quello delle lingue più legate, fatto di regole di
+raccordo fra segni di confine, chiuso nel tratto scritto di seguito (si rompe all'a capo e al salto di un disegno), e
+quasi niente oltre la parola accanto. Ha una ripresa che è copia dalla riga subito sopra, non continuità del discorso.
+Nessun testo di confronto ha questa combinazione: le lingue hanno legami anche a distanza e attraverso le righe; il
+gibberish umano non ha né giuntura né ripresa; i generatori pubblicati non hanno la giuntura chiusa nella riga.
