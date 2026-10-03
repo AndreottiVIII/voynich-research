@@ -46,6 +46,28 @@ Il vecchio PC (i5-7200U, 2 core, 8 GB) era saturo.
 La catena di decifrazione è divisa in due code: gli esperimenti non dipendono dai risultati l'uno dell'altro
 (e223 usa solo i corpora dell'e219).
 
+## Diagnosi del generatore (3/10, 15:30): perché il discriminatore lo riconosce ancora
+
+Sintesi della lettura di tutti i risultati e231–e266 (agenti, solo lettura; dettagli nell'uscita del workflow).
+
+- **Il "muro" a 0,86 è il gruppo G3 dell'e231**, sei misure di parola: tipi su parole nella pagina (e241 0,68,
+  Voynich 0,76), occorrenze uniche nella pagina (0,54 contro 0,64), deviazione della lunghezza (1,66 contro 1,58),
+  lunghezza media, hapax, quota fra le 100 più frequenti. G3 da solo non è mai sceso sotto 0,868 in circa 35
+  configurazioni; da solo vale 0,896 sull'e241, più dell'AUC complessiva.
+- **Cause nel codice di `e233.genera`:** basi pescate dalla pagina vera **con reimmissione** e da un **tema di 3
+  parole** che copre il 30% dei posti (costanti mai regolate); `dopo` spezza le parole (+9% di parole, più
+  corte); la prima parola di riga viene da un elenco globale e non si varia; χ copia la parola precedente
+  (coppie identiche 2,3% contro 1,0%); `e145.riscrivi` sceglie ch/sh senza guardare il segno prima.
+- **Per arrivare a 0,6 devono scendere anche:** G8 prime righe (0,87), G6 coppie (0,80), G4 bordi di riga (0,69),
+  G7 (0,68), G9 (0,66), G2 coppie di segni (0,65), G1 (0,63).
+- **Tabella di marcia proposta** (stime, non misure):
+  - A, riuso di pagina senza tema concentrato e senza reimmissione → **e251b** (in corso);
+  - H, serbatoio per posizione (prime righe, inizio e fine riga) → **e268** (in corso) e seguenti;
+  - C, spazi decisi nella scelta invece che dopo; E1, ch/sh con il segno precedente; D, lunghezza stazionaria
+    nelle varianti; F, finestra di riga al posto di χ;
+  - B, controllo del "prestito" (quanto l'AUC scende solo perché si copia dalla pagina vera) → e284, da fare.
+- Riferimento vero dell'e241 sui semi di verifica: 15/18, AUC 0,873 (e231) e 0,961 (e266).
+
 ## Decisione di Davide del 3/10, 15:25 (sostituisce quella delle 15:20): priorità al generatore
 
 - **Generatore al primo posto:** catena e251 → e252 → e267/e268 → e253 → e254, sempre almeno un esperimento
