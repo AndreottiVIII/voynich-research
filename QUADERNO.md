@@ -5199,3 +5199,15 @@ sequenza.
   - Ma si fanno concorrenza: τ e ℓ tolgono peso alle parole frequenti, che sono corte e ripetute.
   - Una salita per coordinate su un parametro alla volta, a partire da una combinazione fissa, non basta.
     Serve una ricerca congiunta con il discriminatore come obiettivo: e235.
+
+## 3/10/2026 — Registrazione dei riquadri di voynichese.com sulle immagini IIIF a piena risoluzione: completata
+
+- **Strumento:** `analisi/piena_risoluzione.py` (committato il 2/10). Correlazione incrociata FFT della
+  maschera d'inchiostro, scala 1,5–2,3.
+- **Esito:** 169 pagine registrate (cache `dati/cache/registrazioni_iiif.json`, non nel repository).
+  - Correlazione mediana 0,21 (minimo 0,02, massimo 0,37).
+  - 24 pagine sotto 0,1, da considerare dubbie.
+- **Per l'e194** (discretezza di ch/sh sui ritagli a piena risoluzione) e per gli altri test sulle
+  immagini, da preregistrare:
+  - una soglia di qualità (per esempio correlazione ≥ 0,15);
+  - un controllo a vista su un campione di pagine, scelto prima di guardare i risultati.
