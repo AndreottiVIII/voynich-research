@@ -1,0 +1,101 @@
+{
+ "casi": 1760,
+ "quota_con_coppia_staccata": 0.45738636363636365,
+ "nullo": 0.12618125,
+ "z": 44.011807866973996,
+ "esito": "la parolina staccata si attacca a inizio riga",
+ "descrittiva": {
+  "s": {
+   "da_sola_a_inizio_riga": 0.00471976401179941,
+   "da_sola_in_mezzo": 0.009688321441982726,
+   "attaccata_a_inizio_riga": 0.10501474926253687
+  },
+  "d": {
+   "da_sola_a_inizio_riga": 0.0005899705014749262,
+   "da_sola_in_mezzo": 0.0012016522718738265,
+   "attaccata_a_inizio_riga": 0.16755162241887905
+  },
+  "y": {
+   "da_sola_a_inizio_riga": 0.018289085545722714,
+   "da_sola_in_mezzo": 0.0060082613593691325,
+   "attaccata_a_inizio_riga": 0.12831858407079647
+  },
+  "o": {
+   "da_sola_a_inizio_riga": 0.005604719764011799,
+   "da_sola_in_mezzo": 0.004731505820503192,
+   "attaccata_a_inizio_riga": 0.09882005899705015
+  },
+  "l": {
+   "da_sola_a_inizio_riga": 0.0008849557522123894,
+   "da_sola_in_mezzo": 0.0060082613593691325,
+   "attaccata_a_inizio_riga": 0.017699115044247787
+  },
+  "r": {
+   "da_sola_a_inizio_riga": 0.0002949852507374631,
+   "da_sola_in_mezzo": 0.004844160720991363,
+   "attaccata_a_inizio_riga": 0.0017699115044247787
+  }
+ },
+ "esempi": [
+  [
+   "soiin",
+   1
+  ],
+  [
+   "sair",
+   4
+  ],
+  [
+   "daiin",
+   8
+  ],
+  [
+   "daiin",
+   8
+  ],
+  [
+   "ycho",
+   1
+  ],
+  [
+   "ycheey",
+   2
+  ],
+  [
+   "yteey",
+   1
+  ],
+  [
+   "saiin",
+   56
+  ],
+  [
+   "okol",
+   1
+  ],
+  [
+   "otchy",
+   2
+  ],
+  [
+   "dor",
+   1
+  ],
+  [
+   "daiin",
+   8
+  ],
+  [
+   "schey",
+   4
+  ],
+  [
+   "otchor",
+   1
+  ],
+  [
+   "okom",
+   1
+  ]
+ ]
+}
