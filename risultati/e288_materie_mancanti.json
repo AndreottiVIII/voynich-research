@@ -1,0 +1,748 @@
+{
+ "validita_identico_e241": true,
+ "scelta_seme_1": [
+  {
+   "configurazione": "rip 1.0, phi 0.00, sigma 0.09",
+   "seme": 1,
+   "pagella": 14,
+   "riga": true,
+   "mancano": [
+    "spazio",
+    "ripetizione",
+    "omogeneità",
+    "verticale"
+   ],
+   "grezzi": {
+    "identiche_vs_riga": 1.4041219047347766,
+    "verticale": 1.0027573681402877,
+    "spazio_spiegato": 0.5813359365663587,
+    "V3_R": 0.9190270275114597,
+    "somiglianza_riga": 0.029097785896623152,
+    "somiglianza_6_righe": 0.021992645825961166,
+    "h2": 2.3601648054626483,
+    "hapax_34000": 0.630441400304414
+   },
+   "AUC_e266": 0.9558523674149593
+  },
+  {
+   "configurazione": "rip 1.0, phi 0.00, sigma 0.06",
+   "seme": 1,
+   "pagella": 16,
+   "riga": true,
+   "mancano": [
+    "ripetizione",
+    "verticale"
+   ],
+   "grezzi": {
+    "identiche_vs_riga": 1.429177802310007,
+    "verticale": 0.9958506182054238,
+    "spazio_spiegato": 0.5993360685657325,
+    "V3_R": 0.9525770984224424,
+    "somiglianza_riga": 0.031635294272640224,
+    "somiglianza_6_righe": 0.023575505979843148,
+    "h2": 2.3474336999233416,
+    "hapax_34000": 0.6291059066136397
+   },
+   "AUC_e266": 0.9517645328889325
+  },
+  {
+   "configurazione": "rip 1.0, phi 0.00, sigma 0.04",
+   "seme": 1,
+   "pagella": 16,
+   "riga": true,
+   "mancano": [
+    "ripetizione",
+    "verticale"
+   ],
+   "grezzi": {
+    "identiche_vs_riga": 1.4314434662067064,
+    "verticale": 1.0120534792945886,
+    "spazio_spiegato": 0.6141592121188748,
+    "V3_R": 0.9808845250958995,
+    "somiglianza_riga": 0.03255792449684958,
+    "somiglianza_6_righe": 0.023907433465719885,
+    "h2": 2.338826778290435,
+    "hapax_34000": 0.6263096623981373
+   },
+   "AUC_e266": 0.9571365552396823
+  },
+  {
+   "configurazione": "rip 1.0, phi 0.05, sigma 0.09",
+   "seme": 1,
+   "pagella": 14,
+   "riga": true,
+   "mancano": [
+    "spazio",
+    "ripetizione",
+    "profilo pagina",
+    "verticale"
+   ],
+   "grezzi": {
+    "identiche_vs_riga": 1.4283022893960209,
+    "verticale": 1.014792594079568,
+    "spazio_spiegato": 0.5788559766337737,
+    "V3_R": 0.7280006265326607,
+    "somiglianza_riga": 0.03339784661873513,
+    "somiglianza_6_righe": 0.024086093268070874,
+    "h2": 2.3586127814341213,
+    "hapax_34000": 0.627793826972784
+   },
+   "AUC_e266": 0.9566709146162141
+  },
+  {
+   "configurazione": "rip 1.0, phi 0.05, sigma 0.06",
+   "seme": 1,
+   "pagella": 15,
+   "riga": false,
+   "mancano": [
+    "ripetizione",
+    "profilo pagina",
+    "verticale"
+   ],
+   "grezzi": {
+    "identiche_vs_riga": 1.4618127577116906,
+    "verticale": 1.008750446252341,
+    "spazio_spiegato": 0.5968565004394049,
+    "V3_R": 0.7472766322916221,
+    "somiglianza_riga": 0.03179915621684659,
+    "somiglianza_6_righe": 0.022675830734977365,
+    "h2": 2.3458967609113635,
+    "hapax_34000": 0.6221722846441947
+   },
+   "AUC_e266": 0.9561219488285463
+  },
+  {
+   "configurazione": "rip 1.0, phi 0.05, sigma 0.04",
+   "seme": 1,
+   "pagella": 15,
+   "riga": false,
+   "mancano": [
+    "ripetizione",
+    "profilo pagina",
+    "verticale"
+   ],
+   "grezzi": {
+    "identiche_vs_riga": 1.4273683773840777,
+    "verticale": 1.0092462835691678,
+    "spazio_spiegato": 0.6098030293279351,
+    "V3_R": 0.7640177338875899,
+    "somiglianza_riga": 0.034980712741122355,
+    "somiglianza_6_righe": 0.024621156330393856,
+    "h2": 2.3383376163470855,
+    "hapax_34000": 0.6278118609406953
+   },
+   "AUC_e266": 0.9573179100088225
+  },
+  {
+   "configurazione": "rip 1.0, phi 0.10, sigma 0.09",
+   "seme": 1,
+   "pagella": 16,
+   "riga": true,
+   "mancano": [
+    "spazio",
+    "ripetizione"
+   ],
+   "grezzi": {
+    "identiche_vs_riga": 1.4682311001888666,
+    "verticale": 1.0273077424240609,
+    "spazio_spiegato": 0.5827316285202018,
+    "V3_R": 0.8721672043899036,
+    "somiglianza_riga": 0.03196607429878351,
+    "somiglianza_6_righe": 0.023629042922845844,
+    "h2": 2.370422525663651,
+    "hapax_34000": 0.6098335854765506
+   },
+   "AUC_e266": 0.9622242917361042
+  },
+  {
+   "configurazione": "rip 1.0, phi 0.10, sigma 0.06",
+   "seme": 1,
+   "pagella": 16,
+   "riga": true,
+   "mancano": [
+    "ripetizione",
+    "curva piatta"
+   ],
+   "grezzi": {
+    "identiche_vs_riga": 1.4636369396530258,
+    "verticale": 1.0252351195225857,
+    "spazio_spiegato": 0.6014342675531974,
+    "V3_R": 0.9126751382850692,
+    "somiglianza_riga": 0.030935191837479503,
+    "somiglianza_6_righe": 0.021790358746617278,
+    "h2": 2.358355012090097,
+    "hapax_34000": 0.6128937297615543
+   },
+   "AUC_e266": 0.9541956670914615
+  },
+  {
+   "configurazione": "rip 1.0, phi 0.10, sigma 0.04",
+   "seme": 1,
+   "pagella": 16,
+   "riga": false,
+   "mancano": [
+    "ripetizione",
+    "curva piatta"
+   ],
+   "grezzi": {
+    "identiche_vs_riga": 1.4715799306439015,
+    "verticale": 1.0335900979935913,
+    "spazio_spiegato": 0.6146644305810542,
+    "V3_R": 0.8932011788199336,
+    "somiglianza_riga": 0.03490935412747287,
+    "somiglianza_6_righe": 0.024659213619847464,
+    "h2": 2.3506728822831087,
+    "hapax_34000": 0.6106836986500218
+   },
+   "AUC_e266": 0.9578276639545142
+  },
+  {
+   "configurazione": "rip 0.5, phi 0.00, sigma 0.09",
+   "seme": 1,
+   "pagella": 17,
+   "riga": true,
+   "mancano": [
+    "verticale"
+   ],
+   "grezzi": {
+    "identiche_vs_riga": 1.167266503494554,
+    "verticale": 1.0010385804219524,
+    "spazio_spiegato": 0.5842218600813462,
+    "V3_R": 0.9732727095010122,
+    "somiglianza_riga": 0.032041405062553374,
+    "somiglianza_6_righe": 0.025549838305664818,
+    "h2": 2.35907088816257,
+    "hapax_34000": 0.6361378907391178
+   },
+   "AUC_e266": 0.9554161356729731
+  },
+  {
+   "configurazione": "rip 0.5, phi 0.00, sigma 0.06",
+   "seme": 1,
+   "pagella": 16,
+   "riga": true,
+   "mancano": [
+    "verticale",
+    "formule"
+   ],
+   "grezzi": {
+    "identiche_vs_riga": 1.1925997954231118,
+    "verticale": 1.00221807233323,
+    "spazio_spiegato": 0.6024597403416168,
+    "V3_R": 0.9800487467596294,
+    "somiglianza_riga": 0.033910653996196194,
+    "somiglianza_6_righe": 0.026546834364985394,
+    "h2": 2.3477349960823135,
+    "hapax_34000": 0.6327924850555081
+   },
+   "AUC_e266": 0.9486177825703361
+  },
+  {
+   "configurazione": "rip 0.5, phi 0.00, sigma 0.04",
+   "seme": 1,
+   "pagella": 16,
+   "riga": true,
+   "mancano": [
+    "verticale",
+    "formule"
+   ],
+   "grezzi": {
+    "identiche_vs_riga": 1.160700080706453,
+    "verticale": 1.0036253235028694,
+    "spazio_spiegato": 0.6177329946964765,
+    "V3_R": 0.9893307924300678,
+    "somiglianza_riga": 0.03346824869971832,
+    "somiglianza_6_righe": 0.025642741658763568,
+    "h2": 2.3374627420797394,
+    "hapax_34000": 0.6393167180061607
+   },
+   "AUC_e266": 0.9472208606999313
+  },
+  {
+   "configurazione": "rip 0.5, phi 0.05, sigma 0.09",
+   "seme": 1,
+   "pagella": 15,
+   "riga": true,
+   "mancano": [
+    "omogeneità",
+    "verticale",
+    "formule"
+   ],
+   "grezzi": {
+    "identiche_vs_riga": 1.1060893996170118,
+    "verticale": 1.0101977667435127,
+    "spazio_spiegato": 0.5841488151149195,
+    "V3_R": 0.8209819492247679,
+    "somiglianza_riga": 0.030325193410881135,
+    "somiglianza_6_righe": 0.022983688699758087,
+    "h2": 2.3538180102524846,
+    "hapax_34000": 0.6344889420203228
+   },
+   "AUC_e266": 0.9457896284677973
+  },
+  {
+   "configurazione": "rip 0.5, phi 0.05, sigma 0.06",
+   "seme": 1,
+   "pagella": 17,
+   "riga": true,
+   "mancano": [
+    "formule"
+   ],
+   "grezzi": {
+    "identiche_vs_riga": 1.0615787633825822,
+    "verticale": 1.0189366632976806,
+    "spazio_spiegato": 0.6012129386638019,
+    "V3_R": 0.8728421169365802,
+    "somiglianza_riga": 0.03239392988965806,
+    "somiglianza_6_righe": 0.024532279982264926,
+    "h2": 2.3417830925814536,
+    "hapax_34000": 0.6344476744186046
+   },
+   "AUC_e266": 0.9423830996961083
+  },
+  {
+   "configurazione": "rip 0.5, phi 0.05, sigma 0.04",
+   "seme": 1,
+   "pagella": 16,
+   "riga": true,
+   "mancano": [
+    "verticale",
+    "formule"
+   ],
+   "grezzi": {
+    "identiche_vs_riga": 1.1390036917715611,
+    "verticale": 1.0049829514811341,
+    "spazio_spiegato": 0.6162033110743189,
+    "V3_R": 0.8459439315160867,
+    "somiglianza_riga": 0.03398016643243851,
+    "somiglianza_6_righe": 0.02533216684950479,
+    "h2": 2.3325007550749297,
+    "hapax_34000": 0.6339196339196339
+   },
+   "AUC_e266": 0.944029997059112
+  },
+  {
+   "configurazione": "rip 0.5, phi 0.10, sigma 0.09",
+   "seme": 1,
+   "pagella": 15,
+   "riga": true,
+   "mancano": [
+    "spazio",
+    "omogeneità",
+    "verticale"
+   ],
+   "grezzi": {
+    "identiche_vs_riga": 1.1509644368678935,
+    "verticale": 1.002040998857021,
+    "spazio_spiegato": 0.581706911864457,
+    "V3_R": 0.8462723091752559,
+    "somiglianza_riga": 0.028606082813751432,
+    "somiglianza_6_righe": 0.021162402131227553,
+    "h2": 2.3445591429017294,
+    "hapax_34000": 0.6201491401613148
+   },
+   "AUC_e266": 0.9624742672287031
+  },
+  {
+   "configurazione": "rip 0.5, phi 0.10, sigma 0.06",
+   "seme": 1,
+   "pagella": 17,
+   "riga": true,
+   "mancano": [
+    "verticale"
+   ],
+   "grezzi": {
+    "identiche_vs_riga": 1.1491326133228863,
+    "verticale": 1.0116289978522208,
+    "spazio_spiegato": 0.602587339195793,
+    "V3_R": 0.8822840238741476,
+    "somiglianza_riga": 0.030891081853168023,
+    "somiglianza_6_righe": 0.022430060326724233,
+    "h2": 2.332262161370567,
+    "hapax_34000": 0.6240967408936735
+   },
+   "AUC_e266": 0.9413782962454661
+  },
+  {
+   "configurazione": "rip 0.5, phi 0.10, sigma 0.04",
+   "seme": 1,
+   "pagella": 18,
+   "riga": true,
+   "mancano": [],
+   "grezzi": {
+    "identiche_vs_riga": 1.158409374860019,
+    "verticale": 1.0192327573862883,
+    "spazio_spiegato": 0.6168842300743029,
+    "V3_R": 0.8829435057087555,
+    "somiglianza_riga": 0.03060877265154016,
+    "somiglianza_6_righe": 0.02199861316664853,
+    "h2": 2.3228271333953554,
+    "hapax_34000": 0.6290486564996369
+   },
+   "AUC_e266": 0.9371826291540044
+  },
+  {
+   "configurazione": "rip 0.3, phi 0.00, sigma 0.09",
+   "seme": 1,
+   "pagella": 13,
+   "riga": true,
+   "mancano": [
+    "spazio",
+    "ripetizione",
+    "omogeneità",
+    "verticale",
+    "formule"
+   ],
+   "grezzi": {
+    "identiche_vs_riga": 0.7785333954336296,
+    "verticale": 0.9933508815410085,
+    "spazio_spiegato": 0.5792231935109292,
+    "V3_R": 0.9781318497466591,
+    "somiglianza_riga": 0.029655139946490494,
+    "somiglianza_6_righe": 0.023090323758288567,
+    "h2": 2.3473244386501344,
+    "hapax_34000": 0.6273236943051047
+   },
+   "AUC_e266": 0.9557445348495246
+  },
+  {
+   "configurazione": "rip 0.3, phi 0.00, sigma 0.06",
+   "seme": 1,
+   "pagella": 14,
+   "riga": true,
+   "mancano": [
+    "ripetizione",
+    "curva piatta",
+    "verticale",
+    "formule"
+   ],
+   "grezzi": {
+    "identiche_vs_riga": 0.7873142254666435,
+    "verticale": 1.0013787356713306,
+    "spazio_spiegato": 0.5981139024160493,
+    "V3_R": 1.0266065239821418,
+    "somiglianza_riga": 0.030629012225153573,
+    "somiglianza_6_righe": 0.023307052778760662,
+    "h2": 2.335528639172323,
+    "hapax_34000": 0.6232302802658192
+   },
+   "AUC_e266": 0.9456670914616214
+  },
+  {
+   "configurazione": "rip 0.3, phi 0.00, sigma 0.04",
+   "seme": 1,
+   "pagella": 14,
+   "riga": true,
+   "mancano": [
+    "ripetizione",
+    "curva piatta",
+    "verticale",
+    "formule"
+   ],
+   "grezzi": {
+    "identiche_vs_riga": 0.7838519927704597,
+    "verticale": 0.9953508547616751,
+    "spazio_spiegato": 0.611687097265379,
+    "V3_R": 1.0041393279169042,
+    "somiglianza_riga": 0.03161295936737207,
+    "somiglianza_6_righe": 0.02380758801702465,
+    "h2": 2.326617487636883,
+    "hapax_34000": 0.6244164662611402
+   },
+   "AUC_e266": 0.951387118909911
+  },
+  {
+   "configurazione": "rip 0.3, phi 0.05, sigma 0.09",
+   "seme": 1,
+   "pagella": 15,
+   "riga": true,
+   "mancano": [
+    "spazio",
+    "omogeneità",
+    "verticale"
+   ],
+   "grezzi": {
+    "identiche_vs_riga": 1.006913285195949,
+    "verticale": 1.009721013279255,
+    "spazio_spiegato": 0.5704885399989529,
+    "V3_R": 0.8891821405709284,
+    "somiglianza_riga": 0.030387517193483427,
+    "somiglianza_6_righe": 0.023649967811514405,
+    "h2": 2.3739477171507257,
+    "hapax_34000": 0.6199181047089792
+   },
+   "AUC_e266": 0.9593275169101068
+  },
+  {
+   "configurazione": "rip 0.3, phi 0.05, sigma 0.06",
+   "seme": 1,
+   "pagella": 15,
+   "riga": true,
+   "mancano": [
+    "curva piatta",
+    "verticale",
+    "formule"
+   ],
+   "grezzi": {
+    "identiche_vs_riga": 1.0146147940467842,
+    "verticale": 1.0061939361023897,
+    "spazio_spiegato": 0.5865491433799586,
+    "V3_R": 0.8796233017507156,
+    "somiglianza_riga": 0.03243981291954967,
+    "somiglianza_6_righe": 0.025733899435471885,
+    "h2": 2.3636397474766793,
+    "hapax_34000": 0.6207925010651896
+   },
+   "AUC_e266": 0.9567493383001666
+  },
+  {
+   "configurazione": "rip 0.3, phi 0.05, sigma 0.04",
+   "seme": 1,
+   "pagella": 15,
+   "riga": true,
+   "mancano": [
+    "curva piatta",
+    "verticale",
+    "formule"
+   ],
+   "grezzi": {
+    "identiche_vs_riga": 0.9746818413505283,
+    "verticale": 1.014588187260429,
+    "spazio_spiegato": 0.5983615727243893,
+    "V3_R": 0.8755517774802395,
+    "somiglianza_riga": 0.03473098824614229,
+    "somiglianza_6_righe": 0.027145698186540224,
+    "h2": 2.356656588658039,
+    "hapax_34000": 0.6267829940451461
+   },
+   "AUC_e266": 0.9618958925595529
+  },
+  {
+   "configurazione": "rip 0.3, phi 0.10, sigma 0.09",
+   "seme": 1,
+   "pagella": 16,
+   "riga": true,
+   "mancano": [
+    "spazio",
+    "omogeneità"
+   ],
+   "grezzi": {
+    "identiche_vs_riga": 0.8429922886659683,
+    "verticale": 1.0263184763115607,
+    "spazio_spiegato": 0.5767934701637566,
+    "V3_R": 0.888205451005033,
+    "somiglianza_riga": 0.028710400091759403,
+    "somiglianza_6_righe": 0.02068589080614991,
+    "h2": 2.364657693762717,
+    "hapax_34000": 0.6217756448710258
+   },
+   "AUC_e266": 0.9360503872169396
+  },
+  {
+   "configurazione": "rip 0.3, phi 0.10, sigma 0.06",
+   "seme": 1,
+   "pagella": 16,
+   "riga": true,
+   "mancano": [
+    "omogeneità",
+    "formule"
+   ],
+   "grezzi": {
+    "identiche_vs_riga": 0.8244005194302892,
+    "verticale": 1.0299191835376795,
+    "spazio_spiegato": 0.5959870730067504,
+    "V3_R": 0.9073319407164679,
+    "somiglianza_riga": 0.029406761326303488,
+    "somiglianza_6_righe": 0.021192613133829807,
+    "h2": 2.350552325620166,
+    "hapax_34000": 0.6268873403019745
+   },
+   "AUC_e266": 0.9161699833349672
+  },
+  {
+   "configurazione": "rip 0.3, phi 0.10, sigma 0.04",
+   "seme": 1,
+   "pagella": 16,
+   "riga": true,
+   "mancano": [
+    "ripetizione",
+    "formule"
+   ],
+   "grezzi": {
+    "identiche_vs_riga": 0.7978806108055925,
+    "verticale": 1.0291323991983252,
+    "spazio_spiegato": 0.6082948573996673,
+    "V3_R": 0.9088816384487939,
+    "somiglianza_riga": 0.03109976611181331,
+    "somiglianza_6_righe": 0.0218604226603355,
+    "h2": 2.3427358914309933,
+    "hapax_34000": 0.6240343347639485
+   },
+   "AUC_e266": 0.9242623272228213
+  }
+ ],
+ "scelta": "rip 0.5, phi 0.10, sigma 0.04",
+ "parametri_scelti": {
+  "rip": 0.5,
+  "phi": 0.1,
+  "sigma_post": 0.04
+ },
+ "verifica": {
+  "e241": [
+   {
+    "configurazione": "rip 1.0, phi 0.00, sigma 0.09",
+    "seme": 7,
+    "pagella": 15,
+    "riga": true,
+    "mancano": [
+     "ripetizione",
+     "profilo pagina",
+     "verticale"
+    ],
+    "grezzi": {
+     "identiche_vs_riga": 1.501742667207803,
+     "verticale": 0.9956170067940356,
+     "spazio_spiegato": 0.587901502758245,
+     "V3_R": 0.7970161306578338,
+     "somiglianza_riga": 0.03299094613300935,
+     "somiglianza_6_righe": 0.02474192703733602,
+     "h2": 2.350811730002491,
+     "hapax_34000": 0.6222951798239069
+    },
+    "AUC_e266": 0.9660719537300263,
+    "AUC_e231": 0.8874571120478384
+   },
+   {
+    "configurazione": "rip 1.0, phi 0.00, sigma 0.09",
+    "seme": 8,
+    "pagella": 15,
+    "riga": false,
+    "mancano": [
+     "spazio",
+     "ripetizione",
+     "verticale"
+    ],
+    "grezzi": {
+     "identiche_vs_riga": 1.5000562808446707,
+     "verticale": 1.0094735322856394,
+     "spazio_spiegato": 0.5783715929208422,
+     "V3_R": 0.8918263986594883,
+     "somiglianza_riga": 0.03081077608270899,
+     "somiglianza_6_righe": 0.022341545594435686,
+     "h2": 2.373875929288315,
+     "hapax_34000": 0.6251479289940829
+    },
+    "AUC_e266": 0.953102636996373,
+    "AUC_e231": 0.8541270463680032
+   },
+   {
+    "configurazione": "rip 1.0, phi 0.00, sigma 0.09",
+    "seme": 9,
+    "pagella": 15,
+    "riga": true,
+    "mancano": [
+     "spazio",
+     "ripetizione",
+     "verticale"
+    ],
+    "grezzi": {
+     "identiche_vs_riga": 1.4706803854586794,
+     "verticale": 1.0080503266061003,
+     "spazio_spiegato": 0.5746047895448608,
+     "V3_R": 0.8972848888121017,
+     "somiglianza_riga": 0.032899100002053094,
+     "somiglianza_6_righe": 0.02345519709843813,
+     "h2": 2.3623491759973643,
+     "hapax_34000": 0.6177314605044555
+    },
+    "AUC_e266": 0.9651259680423487,
+    "AUC_e231": 0.8787079698068816
+   }
+  ],
+  "scelta": [
+   {
+    "configurazione": "rip 0.5, phi 0.10, sigma 0.04",
+    "seme": 7,
+    "pagella": 18,
+    "riga": true,
+    "mancano": [],
+    "grezzi": {
+     "identiche_vs_riga": 1.1217893203372982,
+     "verticale": 1.0333721385671826,
+     "spazio_spiegato": 0.612267236758359,
+     "V3_R": 0.8033526371360133,
+     "somiglianza_riga": 0.034300546335370385,
+     "somiglianza_6_righe": 0.026211477654792703,
+     "h2": 2.347165736359381,
+     "hapax_34000": 0.6329149626286843
+    },
+    "AUC_e266": 0.9373394765219096,
+    "AUC_e231": 0.8553230075482794
+   },
+   {
+    "configurazione": "rip 0.5, phi 0.10, sigma 0.04",
+    "seme": 8,
+    "pagella": 17,
+    "riga": true,
+    "mancano": [
+     "omogeneità"
+    ],
+    "grezzi": {
+     "identiche_vs_riga": 1.107081189409711,
+     "verticale": 1.0347784825644222,
+     "spazio_spiegato": 0.6080901603017149,
+     "V3_R": 0.9007895535827424,
+     "somiglianza_riga": 0.029678822940105154,
+     "somiglianza_6_righe": 0.02158648108660477,
+     "h2": 2.350677996015022,
+     "hapax_34000": 0.6298419801426374
+    },
+    "AUC_e266": 0.9365993530046074,
+    "AUC_e231": 0.8279776492500736
+   },
+   {
+    "configurazione": "rip 0.5, phi 0.10, sigma 0.04",
+    "seme": 9,
+    "pagella": 18,
+    "riga": true,
+    "mancano": [],
+    "grezzi": {
+     "identiche_vs_riga": 1.1460374530897266,
+     "verticale": 1.0290658854010541,
+     "spazio_spiegato": 0.609554266558262,
+     "V3_R": 0.8293633664938794,
+     "somiglianza_riga": 0.03225581326959304,
+     "somiglianza_6_righe": 0.023485700445072144,
+     "h2": 2.3293446863567735,
+     "hapax_34000": 0.627799450946395
+    },
+    "AUC_e266": 0.9256543476129793,
+    "AUC_e231": 0.8163121262621311
+   }
+  ]
+ },
+ "medie": {
+  "e241": {
+   "pagella_somma": 45,
+   "semi_con_riga": 2,
+   "AUC_e231_media": 0.8734307094075744,
+   "AUC_e266_media": 0.9614335195895827,
+   "mancano": {
+    "ripetizione": 3,
+    "profilo pagina": 1,
+    "verticale": 3,
+    "spazio": 2
+   }
+  },
+  "scelta": {
+   "pagella_somma": 53,
+   "semi_con_riga": 3,
+   "AUC_e231_media": 0.8332042610201613,
+   "AUC_e266_media": 0.9331977257131654,
+   "mancano": {
+    "omogeneità": 1
+   }
+  }
+ },
+ "esito": "migliore"
+}
