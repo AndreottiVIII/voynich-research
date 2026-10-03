@@ -9490,3 +9490,26 @@ La misura "coppie su almeno 2 pagine" non confronta testi con inventari di dimen
 abbandonato, niente esito. Nota: il Voynich ha migliaia di tipi di parola, non poche centinaia come un sillabario.
 L'ipotesi "parola = sillaba" andrebbe quindi messa alla prova in altro modo (per esempio sulla dimensione e sulla forma
 dell'inventario), non con questa misura.
+
+## 4/10/2026 (notte) — e399: nessun generatore pubblicato ha una giuntura forte che si ferma all'a capo
+
+Preregistrato (`preregistrazioni/e399.md`). Misura dell'e384 (giuntura nella riga e a capo).
+
+| testo | E nella riga | z | E a capo | z | Q |
+|---|---|---|---|---|---|
+| Voynich | **0,191** | 222 | −0,003 | −0,8 | **−0,02** |
+| Naibbe (Greshko 2025), a capo sulle righe del Voynich | 0,002 | 4,9 | −0,002 | −0,6 | — |
+| U2 (Whitehatnetizen 2026) | −0,001 | −0,8 | −0,001 | −0,3 | — |
+| U3 (Whitehatnetizen 2026) | 0,076 | 66,7 | 0,074 | 15,0 | 0,97 |
+| Timm e Schinner, seme 1 | 0,012 | 16,2 | 0,003 | 1,1 | 0,26 |
+| Timm e Schinner, seme 19 | 0,011 | 18,1 | 0,002 | 0,7 | 0,18 |
+
+- **Esito preregistrato: nessun generatore la riproduce.**
+- **La previsione per Naibbe (Q vicino a 1) non è valutabile:** il cifrario di Naibbe quasi non ha giuntura (0,002).
+  Le sue parole vengono da tabelle scelte lettera per lettera, senza legame fra la fine di una e l'inizio della
+  successiva.
+- U3 ha una giuntura media (0,076) che però passa l'a capo (Q 0,97), al contrario del Voynich.
+- Timm e Schinner ha una giuntura debole (0,011), un sedicesimo di quella del Voynich, che si ferma in parte a capo.
+- Per tutti i generatori: la giuntura del Voynich (forte, con le regole di raccordo, chiusa nella riga) è una proprietà
+  che nessuno ha ancora messo nel modello. Il voynichizzatore dell'altra chat usa già i legami ai bordi; va detto che
+  devono fermarsi all'a capo e al salto del disegno.
