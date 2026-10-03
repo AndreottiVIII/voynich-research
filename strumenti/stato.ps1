@@ -1,10 +1,12 @@
 # Stato degli esperimenti Voynich, aggiornato ogni minuto (Ctrl-C per chiudere; gli esperimenti continuano).
-# Legge esecuzioni\stato_code.txt (scritto da strumenti\coda.sh) ed esecuzioni\in_coda.txt (righe "eNNN|descrizione|motivo").
+# Legge esecuzioni\stato_code.txt (scritto da strumenti\coda.sh), esecuzioni\in_coda.txt (righe "eNNN|descrizione|motivo")
+# ed esecuzioni\in_preparazione.txt (lavoro di Claude non ancora in coda: progetti, preregistrazioni, codice).
 $RADICE = Split-Path -Parent $PSScriptRoot
 $E = Join-Path $RADICE 'esecuzioni'
 $CARTELLALOG = Join-Path $RADICE 'risultati\provenienza'
 $STATO = Join-Path $E 'stato_code.txt'
 $CODA = Join-Path $E 'in_coda.txt'
+$PREP = Join-Path $E 'in_preparazione.txt'   # righe "voce|descrizione|a che punto", tenute aggiornate da Claude
 while ($true) {
     $procs = Get-CimInstance Win32_Process -Filter "Name like 'python%'"
     $perId = @{}
@@ -54,6 +56,15 @@ while ($true) {
         Write-Host ('  {0,-6} {1,-48} {2}' -f $attesa[$i], $attesa[$i + 1], $attesa[$i + 2])
     }
     Write-Host ''
+    if (Test-Path $PREP) {
+        $prep = @(Get-Content $PREP -Encoding UTF8 | Where-Object { $_ -match '\|' })
+        Write-Host ('IN PREPARAZIONE DA CLAUDE (' + $prep.Count + ')') -ForegroundColor Blue
+        foreach ($riga in $prep) {
+            $parti = $riga.Split('|')
+            Write-Host ('  {0,-9} {1,-52} {2}' -f $parti[0], $parti[1], $parti[2])
+        }
+        Write-Host ''
+    }
     Write-Host 'ULTIMI EVENTI DELLE CODE' -ForegroundColor Yellow
     if (Test-Path $STATO) {
         Get-Content $STATO -Tail 12 | ForEach-Object { Write-Host ('  ' + $_) }
