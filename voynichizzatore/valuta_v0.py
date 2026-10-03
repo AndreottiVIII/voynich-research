@@ -31,7 +31,7 @@ def main():
     ap.add_argument('--chiave', required=True)
     a = ap.parse_args()
     k = e251._prepara()
-    ris = OrderedDict([('senza messaggio', misura(k, v0.corpo(a.chiave))), ('con il messaggio (v0)', misura(k, v0.carica(a.manoscritto)))])
+    ris = OrderedDict([('senza messaggio', misura(k, v0.corpo(a.chiave))), ('con il messaggio', misura(k, v0.carica(a.manoscritto)))])
     for n, r in ris.items():
         print('%-24s pagella %d/18 riga %s mancano %s | AUC e231 %.3f e266 %.3f' % (n, r['pagella'], r['riga'], r['mancano'], r['AUC_e231'], r['AUC_e266']), flush=True)
     json.dump(ris, open(os.path.splitext(a.manoscritto)[0] + '_valutazione.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
