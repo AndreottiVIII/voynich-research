@@ -1,0 +1,9 @@
+identico all'e233 con tau 0 e ell 0: True; Voynich {'tipi_su_parole_pagina': 0.756, 'fra_le_100': 0.424, 'fine_m': 0.139, 'uniche_nel_testo': 0.137, 'somiglianza_vicine': 0.223, 'lunghezza_media': 4.461}
+tau 0.0, ell 0.0: AUC 0.863, tipi pagina 0.670, fra le 100 0.415, uniche 0.114, vicine 0.210, lunghezza 4.15
+tau 0.0, ell 1.5: AUC 0.906, tipi pagina 0.694, fra le 100 0.359, uniche 0.134, vicine 0.228, lunghezza 4.60
+tau 0.5, ell 0.0: AUC 0.887, tipi pagina 0.707, fra le 100 0.411, uniche 0.124, vicine 0.200, lunghezza 4.11
+tau 0.5, ell 1.5: AUC 0.927, tipi pagina 0.741, fra le 100 0.339, uniche 0.147, vicine 0.221, lunghezza 4.63
+tau 1.0, ell 0.0: AUC 0.951, tipi pagina 0.747, fra le 100 0.387, uniche 0.134, vicine 0.197, lunghezza 4.09
+tau 1.0, ell 1.5: AUC 0.943, tipi pagina 0.777, fra le 100 0.315, uniche 0.162, vicine 0.218, lunghezza 4.64
+verifica tau 0.0, ell 0.0: AUC [0.861, 0.918]
+non aiuta abbastanza
