@@ -1,0 +1,51 @@
+{
+ "mani": [
+  "1",
+  "2",
+  "3",
+  "5"
+ ],
+ "punti": 13003,
+ "pagine": 195,
+ "eterogeneita": 645.471174088352,
+ "nullo_media": 536.5005632075265,
+ "nullo_p95": 579.1488430296143,
+ "p": 0.000999000999000999,
+ "per_mano": {
+  "1": {
+   "lingue": [
+    "A"
+   ],
+   "punti_facoltativi": 4071,
+   "scarto_quota_spazi": 0.06986627043242181,
+   "quota_virgole": 0.08760983063797274
+  },
+  "2": {
+   "lingue": [
+    "B"
+   ],
+   "punti_facoltativi": 4221,
+   "scarto_quota_spazi": -0.05111413500899097,
+   "quota_virgole": 0.07737834283209119
+  },
+  "3": {
+   "lingue": [
+    "A",
+    "B",
+    "None"
+   ],
+   "punti_facoltativi": 4362,
+   "scarto_quota_spazi": -0.016099555867202818,
+   "quota_virgole": 0.08286852589641434
+  },
+  "5": {
+   "lingue": [
+    "B"
+   ],
+   "punti_facoltativi": 349,
+   "scarto_quota_spazi": 0.004451116433524901,
+   "quota_virgole": 0.08027210884353742
+  }
+ },
+ "esito": "ogni mano spazia a modo suo"
+}
