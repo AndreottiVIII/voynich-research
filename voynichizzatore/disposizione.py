@@ -86,7 +86,7 @@ class Disposizione:
                 self.n_p[p] += 1
         self.n = sum(self.n_p.values())
         # e407: legame fra l'ultimo segno di una parola e il primo della seguente (il "confine" della pagella)
-        self._u, self._sim, self.att_testo = {}, {}, None
+        self._u, self._sim, self.att_testo, self.cl_testo, self.n_classi = {}, {}, None, None, 0
         coppie = [(self.segni(a)[-1], self.segni(b)[0]) for _, _, ps in rr for a, b in zip(ps, ps[1:])]
         n = len(coppie)
         cxy, cx, cy = Counter(coppie), Counter(a for a, _ in coppie), Counter(b for _, b in coppie)
@@ -127,7 +127,8 @@ class Disposizione:
         if pesi['bordi']:
             pa, pb = self.parti(a), self.parti(b)
             for nome, (i, j) in (('fin_fin', (2, 2)), ('fin_pre', (2, 0)), ('pre_pre', (0, 0))):
-                x += pesi['bordi'] * math.log(self.tab[nome].get((pa[i], pb[j]), 1.0))
+                # e408: il legame fra finali puo' avere un peso suo ('fin_fin'), regolato sulla concordanza delle desinenze
+                x += pesi.get(nome, pesi['bordi']) * math.log(self.tab[nome].get((pa[i], pb[j]), 1.0))
         if pesi['unione']:
             att = self.att_testo if pesi.get('vocabolario_testo') and self.att_testo is not None else self.att
             x += pesi['unione'] * (UNIONE_SI if a + b in att else UNIONE_NO)
@@ -161,6 +162,11 @@ class Disposizione:
                     sotto[sopra[-1]] = base + j
             base_prec, n_prec = base, n
         vert = pesi.get('verticale', 0.0) if strato == 'D3' else 0.0
+        # e408: scelte di grafia concordi nella riga. Per ogni riga e classe di segno facoltativo (e206b) si contano le parole
+        # con la forma corta e con la lunga; l'energia premia le coppie concordi e punisce le discordi.
+        wcl = pesi.get('classi', 0.0) if strato == 'D3' and self.cl_testo else 0.0
+        riga_di = [k for k, (_, ps) in enumerate(righe) for _ in ps]
+        cl = self.cl_testo or {}
         arr = [w for _, ps in righe for w in ps]
         rnd.shuffle(arr)
         N = len(arr)
@@ -192,15 +198,43 @@ class Disposizione:
                             archi.add((t, sotto[t]))
                     x += vert * sum(self.somiglianza(arr[a], arr[b]) for a, b in archi)
             return x
+        if wcl:
+            conti = [[[0, 0] for _ in range(self.n_classi)] for _ in righe]
+            for t, w in enumerate(arr):
+                for c, v in cl.get(w, ()):
+                    conti[riga_di[t]][c][v] += 1
+
+        def energia(x):
+            return (x[1] * (x[1] - 1) + x[0] * (x[0] - 1)) / 2 - x[0] * x[1]
+
+        def sposta(w_a, A, w_b, B):
+            """La parola w_a lascia la riga A per la B e w_b fa il contrario; restituisce il cambio di energia delle classi."""
+            ca, cb = cl.get(w_a, ()), cl.get(w_b, ())
+            if not ca and not cb:
+                return 0.0
+            toccate = {c for c, _ in ca} | {c for c, _ in cb}
+            prima = sum(energia(conti[A][c]) + energia(conti[B][c]) for c in toccate)
+            for c, v in ca:
+                conti[A][c][v] -= 1
+                conti[B][c][v] += 1
+            for c, v in cb:
+                conti[B][c][v] -= 1
+                conti[A][c][v] += 1
+            return sum(energia(conti[A][c]) + energia(conti[B][c]) for c in toccate) - prima
         if N >= 2:
             for _ in range(passate * N):
                 i, j = rnd.randrange(N), rnd.randrange(N)
                 if i == j or arr[i] == arr[j]:
                     continue
                 prima = locale(i, j)
+                mosse = wcl and riga_di[i] != riga_di[j]
                 arr[i], arr[j] = arr[j], arr[i]
                 d = locale(i, j) - prima
+                if mosse:
+                    d += wcl * sposta(arr[j], riga_di[i], arr[i], riga_di[j])
                 if d < 0 and rnd.random() >= math.exp(d):
+                    if mosse:
+                        sposta(arr[i], riga_di[i], arr[j], riga_di[j])
                     arr[i], arr[j] = arr[j], arr[i]
         out, k = [], 0
         for ini, ps in righe:
@@ -213,6 +247,17 @@ class Disposizione:
         rnd = random.Random(seme)
         self.conosci(w for _, _, ps in rr for w in ps)
         self.att_testo = set(w for _, _, ps in rr for w in ps)
+        self.cl_testo = None
+        if (pesi or {}).get('classi'):
+            # le classi dell'e206b sul vocabolario del testo che si dispone: parola -> ((indice della classe, 0 corta / 1 lunga), ...)
+            import json as _json
+            import e206_segni_facoltativi as e206
+            nomi = _json.load(open(os.path.join(QUI, '..', 'risultati', 'e206b_facoltativi_strati.json'), encoding='utf-8'))['scelte_di_riga']
+            self.n_classi = len(nomi)
+            ind = {n: k for k, n in enumerate(nomi)}
+            tutte = e206.classi_di(Counter(w for _, _, ps in rr for w in ps))
+            self.cl_testo = {w: tuple(sorted((ind['%s %s' % c], v) for c, v in d.items() if '%s %s' % c in ind)) for w, d in tutte.items()}
+            self.cl_testo = {w: x for w, x in self.cl_testo.items() if x}
         per = OrderedDict()
         for p, ini, ps in rr:
             per.setdefault(p, []).append((ini, ps))
