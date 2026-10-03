@@ -1,0 +1,3 @@
+e341 OrderedDict({'fogli': OrderedDict({'coppie': 91, 'vicina_meno_lontana': 0.03627942274608648, 'z': 1.7984659445893623}), 'aperture': OrderedDict({'coppie': 90, 'vicina_meno_lontana': -0.014785316519070993, 'z': -0.743713596017367}), 'esito': 'no'})
+e345 nessuna colonna dei bordi {'prima parola': (0.039, 0.046, -2.2), 'ultima parola': (0.048, 0.039, 2.5), 'parole in mezzo, stessa posizione': (0.062, 0.058, 2.2)}
+e344 parole nuove anche rispetto alle righe sopra {'(a) prime parole dei paragrafi, parola intera': (0.141, 0.131, 0.9), '(a) prime parole dei paragrafi, nucleo': (0.287, 0.286, 0.1), '(b) prime parole delle altre righe, parola intera': (0.359, 0.327, 4.6), '(b) prime parole delle altre righe, nucleo': (0.378, 0.347, 5.0)}

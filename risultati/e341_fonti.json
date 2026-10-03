@@ -1,0 +1,72 @@
+{
+ "e341": {
+  "fogli": {
+   "coppie": 91,
+   "vicina_meno_lontana": 0.03627942274608648,
+   "z": 1.7984659445893623
+  },
+  "aperture": {
+   "coppie": 90,
+   "vicina_meno_lontana": -0.014785316519070993,
+   "z": -0.743713596017367
+  },
+  "esito": "no"
+ },
+ "e344": {
+  "gruppi": {
+   "(a) prime parole dei paragrafi, parola intera": {
+    "parole": 533,
+    "righe_sopra": 0.14071294559099437,
+    "nullo": 0.13064727954971858,
+    "eccesso": 0.01006566604127579,
+    "z": 0.9216937642264836
+   },
+   "(a) prime parole dei paragrafi, nucleo": {
+    "parole": 533,
+    "righe_sopra": 0.2870544090056285,
+    "nullo": 0.2864165103189493,
+    "eccesso": 0.0006378986866791836,
+    "z": 0.051643113713876344
+   },
+   "(b) prime parole delle altre righe, parola intera": {
+    "parole": 3183,
+    "righe_sopra": 0.35878102419101476,
+    "nullo": 0.32715834118755893,
+    "eccesso": 0.03162268300345583,
+    "z": 4.584205693388073
+   },
+   "(b) prime parole delle altre righe, nucleo": {
+    "parole": 3183,
+    "righe_sopra": 0.3776311655670751,
+    "nullo": 0.34657869934024504,
+    "eccesso": 0.031052466226830056,
+    "z": 4.950581846083307
+   }
+  },
+  "esito": "parole nuove anche rispetto alle righe sopra"
+ },
+ "e345": {
+  "coppie_di_righe": 2903,
+  "misure": {
+   "prima parola": {
+    "quota": 0.03926972097829831,
+    "nullo": 0.04633310368584223,
+    "rapporto": 0.8475521356083418,
+    "z": -2.217567151063271
+   },
+   "ultima parola": {
+    "quota": 0.047537030657940064,
+    "nullo": 0.039455735446090254,
+    "rapporto": 1.2048192771084338,
+    "z": 2.450293918926682
+   },
+   "parole in mezzo, stessa posizione": {
+    "quota": 0.06166797607513083,
+    "nullo": 0.05769495411536343,
+    "rapporto": 1.0688625551521054,
+    "z": 2.1834557208961582
+   }
+  },
+  "esito": "nessuna colonna dei bordi"
+ }
+}

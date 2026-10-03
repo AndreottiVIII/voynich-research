@@ -7974,3 +7974,37 @@ in `risultati/e404b_carattere_pagina.md`.
   ordine delle righe), coppie viste altrove 24% contro 22%.
 - **Esito secondo la preregistrazione:** C2 ≤ 0,65 → il carattere era il pezzo mancante delle parole note; C4 − C2 >
   0,08 → passo seguente: le parole nuove (modello dei segni più stretto e correzione della scelta per profilo).
+
+## 3/10/2026 (notte) — e341, e344, e345: girando il foglio no; il paragrafo riparte da capo; nessuna colonna dei bordi
+
+Preregistrato (`preregistrazioni/e341.md`). Lavoro autonomo notturno chiesto da Davide.
+
+- **e341** (ripresa fra blocchi di 3 righe: fine recto + inizio verso contro inizio recto + fine verso):
+  - fogli +0,036 su 91, z 1,8;
+  - aperture −0,015, z −0,7.
+  - **Esito preregistrato: no.** È la terza misura (e330, e331, e341) che sui fogli dà z fra 1,8 e 2,8 nella stessa
+    direzione, ma nessuna supera la soglia, e le tre usano gli stessi fogli. La domanda "lo scriba girava il foglio e
+    continuava?" si chiude senza una risposta positiva.
+- **e344** (fonte nelle 2 righe sopra, contro 2 righe a caso della pagina):
+
+  | gruppo | parole | quota | nullo | z |
+  |---|---|---|---|---|
+  | prime parole dei paragrafi, parola intera | 533 | 0,141 | 0,131 | 0,9 |
+  | prime parole dei paragrafi, nucleo senza gallows | 533 | 0,287 | 0,286 | 0,1 |
+  | prime parole delle altre righe, parola intera | 3.183 | 0,359 | 0,327 | 4,6 |
+  | prime parole delle altre righe, nucleo | 3.183 | 0,378 | 0,347 | 5,0 |
+
+  **Esito preregistrato: parole nuove anche rispetto alle righe sopra.** La prima parola di un paragrafo non riprende
+  le righe appena scritte (nemmeno senza il gallows), mentre la prima parola di ogni altra riga sì. Con e310 ed e320:
+  l'inizio del paragrafo è un vero "ripartire da capo".
+- **e345** (stessa posizione nella riga sopra, contro un'altra riga del paragrafo):
+
+  | parola | quota | nullo | z |
+  |---|---|---|---|
+  | prima parola | 0,039 | 0,046 | −2,2 |
+  | ultima parola | 0,048 | 0,039 | 2,5 |
+  | parole in mezzo, stessa posizione | 0,062 | 0,058 | 2,2 |
+
+  **Esito preregistrato: nessuna colonna dei bordi.** Con l'e340: la ripresa dalle righe sopra non segue la colonna,
+  né al centro né ai bordi. L'E2 dell'e338 (z 8,7) era un effetto più debole e diffuso (posizioni ±1 vicino ai bordi),
+  non una copia in colonna.
