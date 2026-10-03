@@ -1,0 +1,120 @@
+lingua: Afrikaans                        indice bordi -0.3905 | {'prefisso': 0.083, 'centro': 0.484, 'finale': 0.104, 'finale → prefisso': 0.091}
+Voynich: Voynich                         indice bordi +0.0313 | {'prefisso': 0.037, 'centro': 0.0117, 'finale': 0.049, 'finale → prefisso': 0.1163}
+lingua: Achuar-NT                        indice bordi +0.0638 | {'prefisso': 0.3454, 'centro': 0.3435, 'finale': 0.4692, 'finale → prefisso': 0.5582}
+lingua: Akawaio-NT                       indice bordi -0.5089 | {'prefisso': 0.1426, 'centro': 0.6596, 'finale': 0.1589, 'finale → prefisso': 0.1865}
+lingua: Albanian                         indice bordi -0.3142 | {'prefisso': 0.1604, 'centro': 0.4756, 'finale': 0.1624, 'finale → prefisso': 0.1543}
+lingua: Aguaruna-NT                      indice bordi +0.0513 | {'prefisso': 0.3238, 'centro': 0.2662, 'finale': 0.3112, 'finale → prefisso': 0.4578}
+lingua: Arabic                           indice bordi -0.0395 | {'prefisso': 0.2352, 'centro': 0.2731, 'finale': 0.2319, 'finale → prefisso': 0.2765}
+lingua: Amuzgo-NT                        indice bordi -0.0672 | {'prefisso': 0.205, 'centro': 0.2721, 'finale': 0.2048, 'finale → prefisso': 0.2302}
+lingua: Amharic                          indice bordi -0.0501 | {'prefisso': 0.281, 'centro': 0.3094, 'finale': 0.2377, 'finale → prefisso': 0.2572}
+lingua: Armenian-PART                    indice bordi -0.0515 | {'prefisso': 0.1868, 'centro': 0.2688, 'finale': 0.2477, 'finale → prefisso': 0.251}
+lingua: Aukan-NT                         indice bordi -0.3671 | {'prefisso': 0.1634, 'centro': 0.5044, 'finale': 0.1112, 'finale → prefisso': 0.1505}
+lingua: Barasana-NT                      indice bordi -0.0373 | {'prefisso': 0.3206, 'centro': 0.3587, 'finale': 0.3224, 'finale → prefisso': 0.4053}
+lingua: Ashaninka-NT                     indice bordi +0.0811 | {'prefisso': 0.2962, 'centro': 0.1916, 'finale': 0.2491, 'finale → prefisso': 0.2386}
+lingua: Burmese                          None
+lingua: Bulgarian                        indice bordi -0.2032 | {'prefisso': 0.1434, 'centro': 0.3795, 'finale': 0.2091, 'finale → prefisso': 0.1528}
+lingua: Basque-NT                        indice bordi +0.0385 | {'prefisso': 0.2754, 'centro': 0.2255, 'finale': 0.2526, 'finale → prefisso': 0.3328}
+lingua: Cakchiquel-NT                    indice bordi -0.2814 | {'prefisso': 0.2466, 'centro': 0.5354, 'finale': 0.2614, 'finale → prefisso': 0.2408}
+lingua: Cabecar-NT                       indice bordi -0.3621 | {'prefisso': 0.1056, 'centro': 0.4629, 'finale': 0.096, 'finale → prefisso': 0.1119}
+lingua: Chamorro-PART                    indice bordi -0.0975 | {'prefisso': 0.2621, 'centro': 0.341, 'finale': 0.2248, 'finale → prefisso': 0.2541}
+lingua: Camsa-NT                         indice bordi -0.0638 | {'prefisso': 0.3777, 'centro': 0.3648, 'finale': 0.2245, 'finale → prefisso': 0.3775}
+lingua: Cebuano                          indice bordi -0.2306 | {'prefisso': 0.2207, 'centro': 0.4403, 'finale': 0.1988, 'finale → prefisso': 0.2205}
+lingua: Cherokee-NT                      indice bordi +0.0221 | {'prefisso': 0.1778, 'centro': 0.1917, 'finale': 0.2499, 'finale → prefisso': 0.1781}
+lingua: Chinantec-NT                     indice bordi -0.1230 | {'prefisso': 0.2732, 'centro': 0.3714, 'finale': 0.2237, 'finale → prefisso': 0.2856}
+lingua: Chinese                          indice bordi -1.2740 | {'prefisso': 0.0, 'centro': 1.274, 'finale': 0.0, 'finale → prefisso': 0.0}
+lingua: Chinese-tok                      indice bordi -0.4779 | {'prefisso': 0.0329, 'centro': 0.493, 'finale': -0.0027, 'finale → prefisso': 0.0415}
+lingua: Creole                           indice bordi -0.5258 | {'prefisso': 0.0964, 'centro': 0.6182, 'finale': 0.0884, 'finale → prefisso': 0.098}
+lingua: Coptic-NT                        indice bordi -0.1065 | {'prefisso': 0.2571, 'centro': 0.3396, 'finale': 0.2091, 'finale → prefisso': 0.3533}
+lingua: Danish                           indice bordi -0.1847 | {'prefisso': 0.1517, 'centro': 0.3494, 'finale': 0.1777, 'finale → prefisso': 0.1496}
+lingua: Czech                            indice bordi -0.0259 | {'prefisso': 0.1912, 'centro': 0.2477, 'finale': 0.2524, 'finale → prefisso': 0.2097}
+lingua: Dinka-NT                         indice bordi -0.2700 | {'prefisso': 0.1178, 'centro': 0.3789, 'finale': 0.1, 'finale → prefisso': 0.124}
+lingua: Croatian                         indice bordi -0.1186 | {'prefisso': 0.1239, 'centro': 0.258, 'finale': 0.1549, 'finale → prefisso': 0.1253}
+lingua: English-WEB                      indice bordi -0.3496 | {'prefisso': 0.1526, 'centro': 0.4962, 'finale': 0.1406, 'finale → prefisso': 0.1483}
+lingua: Esperanto                        indice bordi -0.0667 | {'prefisso': 0.1858, 'centro': 0.3148, 'finale': 0.3104, 'finale → prefisso': 0.1791}
+lingua: Dutch                            indice bordi -0.1835 | {'prefisso': 0.1333, 'centro': 0.3066, 'finale': 0.1129, 'finale → prefisso': 0.1302}
+lingua: English                          indice bordi -0.2990 | {'prefisso': 0.1419, 'centro': 0.4453, 'finale': 0.1508, 'finale → prefisso': 0.1556}
+lingua: Ewe-NT                           indice bordi -0.3222 | {'prefisso': 0.0841, 'centro': 0.4053, 'finale': 0.082, 'finale → prefisso': 0.1102}
+lingua: Finnish                          indice bordi +0.0066 | {'prefisso': 0.215, 'centro': 0.2263, 'finale': 0.2508, 'finale → prefisso': 0.1955}
+lingua: Estonian-PART                    indice bordi -0.0918 | {'prefisso': 0.1552, 'centro': 0.2631, 'finale': 0.1875, 'finale → prefisso': 0.1694}
+lingua: Gaelic-PART                      indice bordi -0.2360 | {'prefisso': 0.1389, 'centro': 0.3861, 'finale': 0.1613, 'finale → prefisso': 0.1685}
+lingua: Galela-NT                        indice bordi -0.2118 | {'prefisso': 0.3126, 'centro': 0.478, 'finale': 0.2199, 'finale → prefisso': 0.2756}
+lingua: Farsi                            indice bordi -0.2334 | {'prefisso': 0.1344, 'centro': 0.3619, 'finale': 0.1225, 'finale → prefisso': 0.1599}
+lingua: German                           indice bordi -0.0306 | {'prefisso': 0.2346, 'centro': 0.236, 'finale': 0.1761, 'finale → prefisso': 0.1819}
+lingua: Gujarati-NT                      None
+lingua: French                           indice bordi -0.3643 | {'prefisso': 0.104, 'centro': 0.4968, 'finale': 0.1609, 'finale → prefisso': 0.1024}
+lingua: Hindi                            indice bordi -0.1426 | {'prefisso': -0.001, 'centro': 0.1419, 'finale': -0.0004, 'finale → prefisso': -0.0006}
+lingua: Greek                            indice bordi -0.2911 | {'prefisso': 0.1623, 'centro': 0.4812, 'finale': 0.2179, 'finale → prefisso': 0.1653}
+lingua: Hungarian                        indice bordi -0.1207 | {'prefisso': 0.2231, 'centro': 0.3203, 'finale': 0.1762, 'finale → prefisso': 0.2124}
+lingua: Hebrew                           indice bordi -0.0090 | {'prefisso': 0.1924, 'centro': 0.1938, 'finale': 0.1772, 'finale → prefisso': 0.2306}
+lingua: Indonesian                       indice bordi -0.1040 | {'prefisso': 0.3566, 'centro': 0.4206, 'finale': 0.2764, 'finale → prefisso': 0.3128}
+lingua: Jakalteko-NT                     indice bordi -0.0498 | {'prefisso': 0.3334, 'centro': 0.3866, 'finale': 0.3402, 'finale → prefisso': 0.3194}
+lingua: Icelandic                        indice bordi -0.0820 | {'prefisso': 0.1167, 'centro': 0.2102, 'finale': 0.1398, 'finale → prefisso': 0.1118}
+lingua: Italian                          indice bordi -0.0880 | {'prefisso': 0.2205, 'centro': 0.3151, 'finale': 0.2338, 'finale → prefisso': 0.1948}
+lingua: Japanese-tok                     indice bordi -1.3790 | {'prefisso': -0.0535, 'centro': 1.3363, 'finale': -0.0319, 'finale → prefisso': -0.0446}
+lingua: K'iche'-NT-SIL                   indice bordi -0.2869 | {'prefisso': 0.2276, 'centro': 0.5126, 'finale': 0.224, 'finale → prefisso': 0.2233}
+lingua: Kabyle-NT                        indice bordi -0.1903 | {'prefisso': 0.2245, 'centro': 0.3992, 'finale': 0.1932, 'finale → prefisso': 0.2392}
+lingua: Kannada                          None
+lingua: K'iche'-NT                       indice bordi -0.1615 | {'prefisso': 0.2202, 'centro': 0.3817, 'finale': 0.2202, 'finale → prefisso': 0.2247}
+lingua: Japanese                         indice bordi +0.1975 | {'prefisso': 0.1658, 'centro': 0.0367, 'finale': 0.3025, 'finale → prefisso': 0.3857}
+lingua: Latin                            indice bordi +0.0009 | {'prefisso': 0.1688, 'centro': 0.1793, 'finale': 0.1915, 'finale → prefisso': 0.1656}
+lingua: Korean                           indice bordi +0.1666 | {'prefisso': 0.3817, 'centro': 0.2035, 'finale': 0.3584, 'finale → prefisso': 0.6488}
+lingua: Latvian-NT                       indice bordi -0.0321 | {'prefisso': 0.1909, 'centro': 0.2214, 'finale': 0.1877, 'finale → prefisso': 0.1529}
+lingua: Lukpa-NT                         indice bordi -0.2741 | {'prefisso': 0.1333, 'centro': 0.4071, 'finale': 0.1327, 'finale → prefisso': 0.1332}
+lingua: Malagasy                         indice bordi -0.2618 | {'prefisso': 0.2609, 'centro': 0.476, 'finale': 0.1673, 'finale → prefisso': 0.2565}
+lingua: Malayalam                        None
+generatore: e288 seme 7                  indice bordi -0.0101 | {'prefisso': 0.0161, 'centro': 0.0287, 'finale': 0.0211, 'finale → prefisso': 0.0713}
+lingua: Lithuanian                       indice bordi +0.0466 | {'prefisso': 0.1951, 'centro': 0.1475, 'finale': 0.193, 'finale → prefisso': 0.174}
+lingua: Marathi                          None
+lingua: Maori                            indice bordi -0.4089 | {'prefisso': 0.1002, 'centro': 0.4999, 'finale': 0.0817, 'finale → prefisso': 0.0912}
+lingua: Nepali                           None
+lingua: Mam-NT                           indice bordi -0.1976 | {'prefisso': 0.2232, 'centro': 0.4372, 'finale': 0.2559, 'finale → prefisso': 0.2542}
+lingua: Manx-PART                        indice bordi -0.2772 | {'prefisso': 0.1831, 'centro': 0.4542, 'finale': 0.1709, 'finale → prefisso': 0.1853}
+lingua: Nahuatl-NT                       indice bordi +0.0849 | {'prefisso': 0.3672, 'centro': 0.2776, 'finale': 0.3578, 'finale → prefisso': 0.3575}
+lingua: Paite                            indice bordi -0.2445 | {'prefisso': 0.1009, 'centro': 0.3444, 'finale': 0.0989, 'finale → prefisso': 0.1273}
+lingua: Norwegian                        indice bordi -0.2621 | {'prefisso': 0.1135, 'centro': 0.3899, 'finale': 0.1421, 'finale → prefisso': 0.1172}
+lingua: Ojibwa-NT                        indice bordi -0.0870 | {'prefisso': 0.1056, 'centro': 0.2162, 'finale': 0.1527, 'finale → prefisso': 0.2}
+lingua: Portuguese                       indice bordi -0.0958 | {'prefisso': 0.1608, 'centro': 0.266, 'finale': 0.1795, 'finale → prefisso': 0.1637}
+lingua: Polish                           indice bordi -0.0715 | {'prefisso': 0.201, 'centro': 0.3012, 'finale': 0.2585, 'finale → prefisso': 0.1959}
+lingua: Quichua-NT                       indice bordi +0.0494 | {'prefisso': 0.2648, 'centro': 0.2224, 'finale': 0.2788, 'finale → prefisso': 0.3539}
+lingua: Potawatomi-PART                  indice bordi -0.2107 | {'prefisso': 0.1361, 'centro': 0.3482, 'finale': 0.1389, 'finale → prefisso': 0.1887}
+lingua: Romanian                         indice bordi -0.3887 | {'prefisso': 0.1308, 'centro': 0.5413, 'finale': 0.1744, 'finale → prefisso': 0.1216}
+lingua: Q'eqchi'                         indice bordi -0.4785 | {'prefisso': 0.2286, 'centro': 0.6895, 'finale': 0.1933, 'finale → prefisso': 0.2651}
+lingua: Romani-NT                        indice bordi -0.1452 | {'prefisso': 0.24, 'centro': 0.3825, 'finale': 0.2345, 'finale → prefisso': 0.2212}
+lingua: Shona                            indice bordi -0.0012 | {'prefisso': 0.5213, 'centro': 0.3731, 'finale': 0.2224, 'finale → prefisso': 0.4317}
+lingua: Serbian                          indice bordi -0.0962 | {'prefisso': 0.1541, 'centro': 0.2747, 'finale': 0.203, 'finale → prefisso': 0.1515}
+lingua: Russian                          indice bordi -0.1000 | {'prefisso': 0.1558, 'centro': 0.3052, 'finale': 0.2545, 'finale → prefisso': 0.1757}
+lingua: Shuar-NT                         indice bordi +0.0440 | {'prefisso': 0.2291, 'centro': 0.2222, 'finale': 0.3033, 'finale → prefisso': 0.4005}
+lingua: Spanish                          indice bordi -0.2274 | {'prefisso': 0.1958, 'centro': 0.4211, 'finale': 0.1916, 'finale → prefisso': 0.1534}
+lingua: Slovak                           indice bordi -0.0402 | {'prefisso': 0.2034, 'centro': 0.2816, 'finale': 0.2793, 'finale → prefisso': 0.203}
+lingua: Slovene                          indice bordi -0.1551 | {'prefisso': 0.1449, 'centro': 0.3248, 'finale': 0.1946, 'finale → prefisso': 0.1408}
+lingua: Somali                           indice bordi -0.0516 | {'prefisso': 0.2818, 'centro': 0.3413, 'finale': 0.2976, 'finale → prefisso': 0.3272}
+lingua: Swahili-NT                       indice bordi -0.0828 | {'prefisso': 0.3001, 'centro': 0.3197, 'finale': 0.1737, 'finale → prefisso': 0.2674}
+lingua: Tachelhit-NT                     indice bordi -0.2726 | {'prefisso': 0.1712, 'centro': 0.4159, 'finale': 0.1154, 'finale → prefisso': 0.1476}
+lingua: Telugu                           None
+lingua: Swedish                          indice bordi -0.1055 | {'prefisso': 0.1446, 'centro': 0.2786, 'finale': 0.2015, 'finale → prefisso': 0.1505}
+lingua: Thai                             None
+lingua: Syriac-NT                        indice bordi -0.0888 | {'prefisso': 0.1811, 'centro': 0.2529, 'finale': 0.147, 'finale → prefisso': 0.2113}
+lingua: Thai-tok                         indice bordi -0.3699 | {'prefisso': 0.0454, 'centro': 0.4137, 'finale': 0.0422, 'finale → prefisso': 0.0405}
+lingua: Tagalog                          indice bordi -0.3179 | {'prefisso': 0.2384, 'centro': 0.5699, 'finale': 0.2656, 'finale → prefisso': 0.2778}
+lingua: Ukranian-NT                      indice bordi -0.0883 | {'prefisso': 0.1428, 'centro': 0.283, 'finale': 0.2466, 'finale → prefisso': 0.1787}
+lingua: Tuareg-PART                      indice bordi -0.2850 | {'prefisso': 0.1474, 'centro': 0.4282, 'finale': 0.139, 'finale → prefisso': 0.1574}
+lingua: Vietnamese-tok                   indice bordi -0.1305 | {'prefisso': 0.151, 'centro': 0.3483, 'finale': 0.2846, 'finale → prefisso': 0.2002}
+lingua: Uma-NT                           indice bordi -0.2773 | {'prefisso': 0.2093, 'centro': 0.4518, 'finale': 0.1397, 'finale → prefisso': 0.1672}
+lingua: Turkish                          indice bordi -0.0687 | {'prefisso': 0.2249, 'centro': 0.3286, 'finale': 0.295, 'finale → prefisso': 0.3443}
+lingua: Uspanteco-NT                     indice bordi -0.1547 | {'prefisso': 0.4549, 'centro': 0.5726, 'finale': 0.3808, 'finale → prefisso': 0.4179}
+lingua: Vietnamese                       indice bordi -0.1340 | {'prefisso': 0.1525, 'centro': 0.3536, 'finale': 0.2866, 'finale → prefisso': 0.2059}
+lingua: Wolof-NT                         indice bordi -0.2111 | {'prefisso': 0.1628, 'centro': 0.3755, 'finale': 0.166, 'finale → prefisso': 0.1679}
+lingua: Wolaytta-NT                      indice bordi -0.2056 | {'prefisso': 0.3219, 'centro': 0.5345, 'finale': 0.336, 'finale → prefisso': 0.4711}
+lingua: Chinese-pinyin                   None
+lingua: Zarma                            indice bordi -0.5544 | {'prefisso': 0.0977, 'centro': 0.6519, 'finale': 0.0973, 'finale → prefisso': 0.0996}
+lingua: Xhosa                            indice bordi -0.0304 | {'prefisso': 0.3709, 'centro': 0.3111, 'finale': 0.1906, 'finale → prefisso': 0.3308}
+tecnico: Apicio, ricette di cucina       indice bordi -0.0396 | {'prefisso': 0.3855, 'centro': 0.4207, 'finale': 0.3766, 'finale → prefisso': 0.3599}
+lingua: Zulu-NT                          indice bordi -0.0287 | {'prefisso': 0.4528, 'centro': 0.3363, 'finale': 0.1624, 'finale → prefisso': 0.3301}
+tecnico: Columella XII, conserve e ricette indice bordi +0.0454 | {'prefisso': 0.1108, 'centro': 0.0986, 'finale': 0.1773, 'finale → prefisso': 0.1436}
+tecnico: Isidoro XVII, piante            indice bordi -0.0457 | {'prefisso': 0.0878, 'centro': 0.1556, 'finale': 0.1319, 'finale → prefisso': 0.1087}
+tecnico: Catone, agricoltura e ricette   indice bordi +0.1061 | {'prefisso': 0.1126, 'centro': 0.0641, 'finale': 0.2276, 'finale → prefisso': 0.1547}
+tecnico: Varrone, agricoltura            indice bordi +0.0625 | {'prefisso': 0.0671, 'centro': 0.0325, 'finale': 0.123, 'finale → prefisso': 0.0794}
+tecnico: Isidoro XVI, pietre e metalli   indice bordi -0.0262 | {'prefisso': 0.0606, 'centro': 0.1239, 'finale': 0.1347, 'finale → prefisso': 0.0721}
+tecnico: Vegezio, arte militare          indice bordi +0.0333 | {'prefisso': 0.0867, 'centro': 0.0899, 'finale': 0.1597, 'finale → prefisso': 0.1141}
+tecnico: Vitruvio, architettura          indice bordi +0.0244 | {'prefisso': 0.0899, 'centro': 0.0982, 'finale': 0.1553, 'finale → prefisso': 0.1002}
+profilo da lingua
