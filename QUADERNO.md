@@ -9635,3 +9635,32 @@ Preregistrato (`preregistrazioni/e3a06.md`). Pagine f1r, f66r, f76r, f85r1, f86v
   per la regola di raccordo. Forse ci sono strutture che si ripetono a cavallo delle righe (per esempio coppie riprese
   insieme). Il quadro generale (riga chiusa) resta per le sezioni illustrate e per le ricette. Da guardare a mano su
   quelle pagine.
+
+## 4/10/2026 (notte) — e3a07: il legame a distanza 2 delle lingue era in buona parte argomento; ne resta una parte, nel Voynich niente
+
+Preregistrato (`preregistrazioni/e3a07.md`). Come l'e3a03, ma con il nullo dentro (pagina, parola in mezzo).
+
+- **Voynich:** E 0,0013, z 0,9 (26.630 terne). **Gibberish umano:** E 0,0011, z 0,7.
+- **Testi sensati con almeno 5.000 terne (42):** mediana di E **0,013**, contro 0,068 dell'e3a03. Il legame resta
+  significativo (z > 3) in 34 testi su 42. Massimi: pinyin 0,042, inglese 0,030–0,038. Vicino a zero: Plinio in latino
+  (due versioni) e Charaka Samhita.
+- **Esito preregistrato: in buona parte argomento.** Nell'e3a03 il contrasto con le lingue era gonfiato dalle parole
+  che tornano nella stessa pagina. Il risultato sul Voynich non cambia (nessun legame), ma il confronto giusto è con un
+  legame piccolo: le lingue ce l'hanno quasi sempre (34 su 42), il Voynich no.
+- Il dossier va corretto (fatto).
+
+## 4/10/2026 (notte) — e3a09: la -m di fine riga è più rara nell'ultima riga del paragrafo: è legata al margine
+
+Preregistrato (`preregistrazioni/e3a09.md`). Ultime parole della riga in -*m*/-*r*/-*l*.
+
+| prova | eventi (sì / no) | P(-*m*) sì | P(-*m*) no | differenza pesata | p |
+|---|---|---|---|---|---|
+| A: terzo di righe più piene contro meno piene | 396 / 396 | 0,495 | 0,424 | +0,071 | 0,04 |
+| B: ultima riga del paragrafo contro le altre | 199 / 1.233 | **0,342** | 0,453 | **−0,135** | 0,0006 |
+
+- **Esito A: incerto.** Le righe più piene hanno un po' più -*m*, ma sotto la soglia.
+- **Esito B: -m più rara a fine paragrafo (legata al margine).** Nell'ultima riga del paragrafo, che di solito si
+  ferma prima del margine, la parola finale prende -*m* meno spesso.
+- **Lettura:** -*m* non segna solo "fine della riga": è più frequente quando la riga arriva al margine. Va con l'idea
+  di una forma finale usata per chiudere una riga piena. Cautela: l'ultima riga del paragrafo differisce anche in altro
+  (meno *qo*-, e313).
