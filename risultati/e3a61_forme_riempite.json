@@ -1,0 +1,2327 @@
+{
+ "altri": {
+  "Voynich": {
+   "riempimento": 0.4339622641509434,
+   "sottoinsiemi": [
+    0.4429065743944637,
+    0.43202764976958524,
+    0.430635838150289,
+    0.4339622641509434,
+    0.4400144980065241
+   ],
+   "per_lunghezza_primo": {
+    "3": {
+     "K": 266,
+     "presenti": 170,
+     "quota": 0.6390977443609023
+    },
+    "4": {
+     "K": 554,
+     "presenti": 316,
+     "quota": 0.5703971119133574
+    },
+    "5": {
+     "K": 767,
+     "presenti": 354,
+     "quota": 0.46153846153846156
+    },
+    "6": {
+     "K": 634,
+     "presenti": 213,
+     "quota": 0.3359621451104101
+    },
+    "7": {
+     "K": 380,
+     "presenti": 99,
+     "quota": 0.26052631578947366
+    }
+   }
+  },
+  "gibberish umano": {
+   "riempimento": 0.0929787641094318,
+   "per_lunghezza": {
+    "3": {
+     "K": 875,
+     "presenti": 299,
+     "quota": 0.3417142857142857
+    },
+    "4": {
+     "K": 1209,
+     "presenti": 145,
+     "quota": 0.11993382961124896
+    },
+    "5": {
+     "K": 1268,
+     "presenti": 38,
+     "quota": 0.02996845425867508
+    },
+    "6": {
+     "K": 1110,
+     "presenti": 4,
+     "quota": 0.0036036036036036037
+    },
+    "7": {
+     "K": 765,
+     "presenti": 0,
+     "quota": 0.0
+    }
+   }
+  },
+  "Naibbe (Greshko 2025), a capo": {
+   "riempimento": 0.4530325443786982,
+   "per_lunghezza": {
+    "3": {
+     "K": 270,
+     "presenti": 154,
+     "quota": 0.5703703703703704
+    },
+    "4": {
+     "K": 567,
+     "presenti": 307,
+     "quota": 0.5414462081128748
+    },
+    "5": {
+     "K": 815,
+     "presenti": 394,
+     "quota": 0.4834355828220859
+    },
+    "6": {
+     "K": 661,
+     "presenti": 246,
+     "quota": 0.3721633888048411
+    },
+    "7": {
+     "K": 391,
+     "presenti": 124,
+     "quota": 0.3171355498721228
+    }
+   }
+  },
+  "U2 (Whitehatnetizen 2026)": {
+   "riempimento": 0.4218289085545723,
+   "per_lunghezza": {
+    "3": {
+     "K": 245,
+     "presenti": 165,
+     "quota": 0.673469387755102
+    },
+    "4": {
+     "K": 563,
+     "presenti": 313,
+     "quota": 0.5559502664298401
+    },
+    "5": {
+     "K": 948,
+     "presenti": 433,
+     "quota": 0.45675105485232065
+    },
+    "6": {
+     "K": 824,
+     "presenti": 281,
+     "quota": 0.34101941747572817
+    },
+    "7": {
+     "K": 471,
+     "presenti": 95,
+     "quota": 0.20169851380042464
+    }
+   }
+  },
+  "U3 (Whitehatnetizen 2026)": {
+   "riempimento": 0.4090100770598696,
+   "per_lunghezza": {
+    "3": {
+     "K": 355,
+     "presenti": 227,
+     "quota": 0.6394366197183099
+    },
+    "4": {
+     "K": 693,
+     "presenti": 378,
+     "quota": 0.5454545454545454
+    },
+    "5": {
+     "K": 970,
+     "presenti": 422,
+     "quota": 0.4350515463917526
+    },
+    "6": {
+     "K": 817,
+     "presenti": 260,
+     "quota": 0.3182374541003672
+    },
+    "7": {
+     "K": 539,
+     "presenti": 93,
+     "quota": 0.1725417439703154
+    }
+   }
+  },
+  "Timm e Schinner, seme 1": {
+   "riempimento": 0.4321890827236916,
+   "per_lunghezza": {
+    "3": {
+     "K": 184,
+     "presenti": 137,
+     "quota": 0.7445652173913043
+    },
+    "4": {
+     "K": 441,
+     "presenti": 280,
+     "quota": 0.6349206349206349
+    },
+    "5": {
+     "K": 584,
+     "presenti": 234,
+     "quota": 0.4006849315068493
+    },
+    "6": {
+     "K": 412,
+     "presenti": 98,
+     "quota": 0.23786407766990292
+    },
+    "7": {
+     "K": 156,
+     "presenti": 19,
+     "quota": 0.12179487179487179
+    }
+   }
+  }
+ },
+ "lingue": {
+  "minimo": 0.0029791459781529296,
+  "p10": 0.018134715025906734,
+  "mediana": 0.04281567489114659,
+  "p90": 0.08648481091134531,
+  "massimo": 0.5392781316348195,
+  "quota_sotto_il_voynich": 0.9859154929577465
+ },
+ "testi_sensati": {
+  "Modern - Chinese (Pinyin) - Literary - NT - Matthew": {
+   "riempimento": 0.5392781316348195,
+   "per_lunghezza": {
+    "3": {
+     "K": 258,
+     "presenti": 137,
+     "quota": 0.5310077519379846
+    },
+    "4": {
+     "K": 174,
+     "presenti": 99,
+     "quota": 0.5689655172413793
+    },
+    "5": {
+     "K": 36,
+     "presenti": 16,
+     "quota": 0.4444444444444444
+    },
+    "6": {
+     "K": 3,
+     "presenti": 2,
+     "quota": 0.6666666666666666
+    }
+   }
+  },
+  "Modern - Chinese (Pinyin) - Technical - Voynich Wiki": {
+   "riempimento": 0.3901639344262295,
+   "per_lunghezza": {
+    "3": {
+     "K": 171,
+     "presenti": 69,
+     "quota": 0.40350877192982454
+    },
+    "4": {
+     "K": 93,
+     "presenti": 35,
+     "quota": 0.3763440860215054
+    },
+    "5": {
+     "K": 26,
+     "presenti": 11,
+     "quota": 0.4230769230769231
+    },
+    "6": {
+     "K": 10,
+     "presenti": 4,
+     "quota": 0.4
+    },
+    "7": {
+     "K": 5,
+     "presenti": 0,
+     "quota": 0.0
+    }
+   }
+  },
+  "Conlangs - Toki Pona - Literary - NT - Sermon on the Mount": {
+   "riempimento": 0.19801980198019803,
+   "per_lunghezza": {
+    "3": {
+     "K": 18,
+     "presenti": 6,
+     "quota": 0.3333333333333333
+    },
+    "4": {
+     "K": 58,
+     "presenti": 14,
+     "quota": 0.2413793103448276
+    },
+    "5": {
+     "K": 13,
+     "presenti": 0,
+     "quota": 0.0
+    },
+    "6": {
+     "K": 10,
+     "presenti": 0,
+     "quota": 0.0
+    },
+    "7": {
+     "K": 2,
+     "presenti": 0,
+     "quota": 0.0
+    }
+   }
+  },
+  "Modern - Maori - Literary - NT": {
+   "riempimento": 0.14072847682119205,
+   "per_lunghezza": {
+    "3": {
+     "K": 70,
+     "presenti": 30,
+     "quota": 0.42857142857142855
+    },
+    "4": {
+     "K": 153,
+     "presenti": 33,
+     "quota": 0.21568627450980393
+    },
+    "5": {
+     "K": 129,
+     "presenti": 11,
+     "quota": 0.08527131782945736
+    },
+    "6": {
+     "K": 168,
+     "presenti": 7,
+     "quota": 0.041666666666666664
+    },
+    "7": {
+     "K": 84,
+     "presenti": 4,
+     "quota": 0.047619047619047616
+    }
+   }
+  },
+  "Historical - Mayan (Yucatec) - Technical - Chilam Balam": {
+   "riempimento": 0.1375921375921376,
+   "per_lunghezza": {
+    "3": {
+     "K": 114,
+     "presenti": 34,
+     "quota": 0.2982456140350877
+    },
+    "4": {
+     "K": 109,
+     "presenti": 17,
+     "quota": 0.1559633027522936
+    },
+    "5": {
+     "K": 100,
+     "presenti": 4,
+     "quota": 0.04
+    },
+    "6": {
+     "K": 45,
+     "presenti": 0,
+     "quota": 0.0
+    },
+    "7": {
+     "K": 39,
+     "presenti": 1,
+     "quota": 0.02564102564102564
+    }
+   }
+  },
+  "Modern - Maori - Technical - Polandball Wiki": {
+   "riempimento": 0.08835341365461848,
+   "per_lunghezza": {
+    "3": {
+     "K": 42,
+     "presenti": 10,
+     "quota": 0.23809523809523808
+    },
+    "4": {
+     "K": 61,
+     "presenti": 7,
+     "quota": 0.11475409836065574
+    },
+    "5": {
+     "K": 41,
+     "presenti": 3,
+     "quota": 0.07317073170731707
+    },
+    "6": {
+     "K": 58,
+     "presenti": 0,
+     "quota": 0.0
+    },
+    "7": {
+     "K": 47,
+     "presenti": 2,
+     "quota": 0.0425531914893617
+    }
+   }
+  },
+  "Historical - Mayan (Kaqchikel) - Literary - Annals of the Cakchiquels": {
+   "riempimento": 0.08798972382787412,
+   "per_lunghezza": {
+    "3": {
+     "K": 188,
+     "presenti": 51,
+     "quota": 0.2712765957446808
+    },
+    "4": {
+     "K": 292,
+     "presenti": 49,
+     "quota": 0.1678082191780822
+    },
+    "5": {
+     "K": 419,
+     "presenti": 21,
+     "quota": 0.050119331742243436
+    },
+    "6": {
+     "K": 358,
+     "presenti": 12,
+     "quota": 0.0335195530726257
+    },
+    "7": {
+     "K": 300,
+     "presenti": 4,
+     "quota": 0.013333333333333334
+    }
+   }
+  },
+  "Modern - Hebrew - Literary - NT": {
+   "riempimento": 0.08648481091134531,
+   "per_lunghezza": {
+    "3": {
+     "K": 482,
+     "presenti": 121,
+     "quota": 0.25103734439834025
+    },
+    "4": {
+     "K": 1098,
+     "presenti": 105,
+     "quota": 0.09562841530054644
+    },
+    "5": {
+     "K": 939,
+     "presenti": 46,
+     "quota": 0.04898828541001065
+    },
+    "6": {
+     "K": 504,
+     "presenti": 7,
+     "quota": 0.013888888888888888
+    },
+    "7": {
+     "K": 203,
+     "presenti": 0,
+     "quota": 0.0
+    }
+   }
+  },
+  "Modern - Yoruba - Technical - Jupiter Wiki": {
+   "riempimento": 0.07986688851913477,
+   "per_lunghezza": {
+    "3": {
+     "K": 82,
+     "presenti": 20,
+     "quota": 0.24390243902439024
+    },
+    "4": {
+     "K": 146,
+     "presenti": 18,
+     "quota": 0.1232876712328767
+    },
+    "5": {
+     "K": 156,
+     "presenti": 5,
+     "quota": 0.03205128205128205
+    },
+    "6": {
+     "K": 131,
+     "presenti": 3,
+     "quota": 0.022900763358778626
+    },
+    "7": {
+     "K": 86,
+     "presenti": 2,
+     "quota": 0.023255813953488372
+    }
+   }
+  },
+  "Conlangs - Neo-Quenya - Literary - NT": {
+   "riempimento": 0.07581849511774842,
+   "per_lunghezza": {
+    "3": {
+     "K": 96,
+     "presenti": 20,
+     "quota": 0.20833333333333334
+    },
+    "4": {
+     "K": 291,
+     "presenti": 43,
+     "quota": 0.14776632302405499
+    },
+    "5": {
+     "K": 502,
+     "presenti": 54,
+     "quota": 0.10756972111553785
+    },
+    "6": {
+     "K": 428,
+     "presenti": 9,
+     "quota": 0.02102803738317757
+    },
+    "7": {
+     "K": 424,
+     "presenti": 6,
+     "quota": 0.014150943396226415
+    }
+   }
+  },
+  "Conlangs - LOLCat - Literary - NT - Matthew": {
+   "riempimento": 0.07566265060240963,
+   "per_lunghezza": {
+    "3": {
+     "K": 289,
+     "presenti": 79,
+     "quota": 0.27335640138408307
+    },
+    "4": {
+     "K": 555,
+     "presenti": 58,
+     "quota": 0.1045045045045045
+    },
+    "5": {
+     "K": 522,
+     "presenti": 14,
+     "quota": 0.02681992337164751
+    },
+    "6": {
+     "K": 422,
+     "presenti": 6,
+     "quota": 0.014218009478672985
+    },
+    "7": {
+     "K": 287,
+     "presenti": 0,
+     "quota": 0.0
+    }
+   }
+  },
+  "Conlangs - Klingon - Literary - NT - Mark": {
+   "riempimento": 0.07432432432432433,
+   "per_lunghezza": {
+    "3": {
+     "K": 260,
+     "presenti": 70,
+     "quota": 0.2692307692307692
+    },
+    "4": {
+     "K": 106,
+     "presenti": 18,
+     "quota": 0.16981132075471697
+    },
+    "5": {
+     "K": 227,
+     "presenti": 8,
+     "quota": 0.03524229074889868
+    },
+    "6": {
+     "K": 546,
+     "presenti": 11,
+     "quota": 0.020146520146520148
+    },
+    "7": {
+     "K": 341,
+     "presenti": 3,
+     "quota": 0.008797653958944282
+    }
+   }
+  },
+  "Conlangs - Toki Pona - Technical - Turkey-Mexico Wikia": {
+   "riempimento": 0.06962025316455696,
+   "per_lunghezza": {
+    "3": {
+     "K": 17,
+     "presenti": 4,
+     "quota": 0.23529411764705882
+    },
+    "4": {
+     "K": 54,
+     "presenti": 7,
+     "quota": 0.12962962962962962
+    },
+    "5": {
+     "K": 32,
+     "presenti": 0,
+     "quota": 0.0
+    },
+    "6": {
+     "K": 32,
+     "presenti": 0,
+     "quota": 0.0
+    },
+    "7": {
+     "K": 23,
+     "presenti": 0,
+     "quota": 0.0
+    }
+   }
+  },
+  "Historical - Flemish - Literary - NT": {
+   "riempimento": 0.06820049301561217,
+   "per_lunghezza": {
+    "3": {
+     "K": 74,
+     "presenti": 15,
+     "quota": 0.20270270270270271
+    },
+    "4": {
+     "K": 199,
+     "presenti": 25,
+     "quota": 0.12562814070351758
+    },
+    "5": {
+     "K": 311,
+     "presenti": 22,
+     "quota": 0.0707395498392283
+    },
+    "6": {
+     "K": 357,
+     "presenti": 18,
+     "quota": 0.05042016806722689
+    },
+    "7": {
+     "K": 276,
+     "presenti": 3,
+     "quota": 0.010869565217391304
+    }
+   }
+  },
+  "Conlangs - Klingon - Technical - Proxima Centauri B Wikia": {
+   "riempimento": 0.06521739130434782,
+   "per_lunghezza": {
+    "3": {
+     "K": 74,
+     "presenti": 8,
+     "quota": 0.10810810810810811
+    },
+    "4": {
+     "K": 29,
+     "presenti": 5,
+     "quota": 0.1724137931034483
+    },
+    "5": {
+     "K": 26,
+     "presenti": 0,
+     "quota": 0.0
+    },
+    "6": {
+     "K": 63,
+     "presenti": 2,
+     "quota": 0.031746031746031744
+    },
+    "7": {
+     "K": 38,
+     "presenti": 0,
+     "quota": 0.0
+    }
+   }
+  },
+  "Historical - Portuguese - Technical - Coloquios dos simples": {
+   "riempimento": 0.06496062992125984,
+   "per_lunghezza": {
+    "3": {
+     "K": 124,
+     "presenti": 34,
+     "quota": 0.27419354838709675
+    },
+    "4": {
+     "K": 177,
+     "presenti": 13,
+     "quota": 0.07344632768361582
+    },
+    "5": {
+     "K": 289,
+     "presenti": 14,
+     "quota": 0.04844290657439446
+    },
+    "6": {
+     "K": 233,
+     "presenti": 4,
+     "quota": 0.017167381974248927
+    },
+    "7": {
+     "K": 193,
+     "presenti": 1,
+     "quota": 0.0051813471502590676
+    }
+   }
+  },
+  "Modern - Swahili - Literary - NT": {
+   "riempimento": 0.06346863468634686,
+   "per_lunghezza": {
+    "3": {
+     "K": 53,
+     "presenti": 9,
+     "quota": 0.16981132075471697
+    },
+    "4": {
+     "K": 241,
+     "presenti": 42,
+     "quota": 0.17427385892116182
+    },
+    "5": {
+     "K": 299,
+     "presenti": 18,
+     "quota": 0.06020066889632107
+    },
+    "6": {
+     "K": 402,
+     "presenti": 13,
+     "quota": 0.03233830845771144
+    },
+    "7": {
+     "K": 360,
+     "presenti": 4,
+     "quota": 0.011111111111111112
+    }
+   }
+  },
+  "Modern - French - Literary - NT": {
+   "riempimento": 0.05537720706260032,
+   "per_lunghezza": {
+    "3": {
+     "K": 98,
+     "presenti": 23,
+     "quota": 0.23469387755102042
+    },
+    "4": {
+     "K": 218,
+     "presenti": 28,
+     "quota": 0.12844036697247707
+    },
+    "5": {
+     "K": 289,
+     "presenti": 9,
+     "quota": 0.031141868512110725
+    },
+    "6": {
+     "K": 337,
+     "presenti": 7,
+     "quota": 0.020771513353115726
+    },
+    "7": {
+     "K": 304,
+     "presenti": 2,
+     "quota": 0.006578947368421052
+    }
+   }
+  },
+  "Modern - Swahili - Technical - Lung Cancer Wiki": {
+   "riempimento": 0.05509181969949917,
+   "per_lunghezza": {
+    "3": {
+     "K": 39,
+     "presenti": 7,
+     "quota": 0.1794871794871795
+    },
+    "4": {
+     "K": 125,
+     "presenti": 17,
+     "quota": 0.136
+    },
+    "5": {
+     "K": 125,
+     "presenti": 5,
+     "quota": 0.04
+    },
+    "6": {
+     "K": 166,
+     "presenti": 2,
+     "quota": 0.012048192771084338
+    },
+    "7": {
+     "K": 144,
+     "presenti": 2,
+     "quota": 0.013888888888888888
+    }
+   }
+  },
+  "Conlangs - Lojban - Literary - Alice in Wonderland": {
+   "riempimento": 0.05417607223476298,
+   "per_lunghezza": {
+    "3": {
+     "K": 48,
+     "presenti": 7,
+     "quota": 0.14583333333333334
+    },
+    "4": {
+     "K": 132,
+     "presenti": 29,
+     "quota": 0.2196969696969697
+    },
+    "5": {
+     "K": 542,
+     "presenti": 12,
+     "quota": 0.02214022140221402
+    },
+    "6": {
+     "K": 91,
+     "presenti": 0,
+     "quota": 0.0
+    },
+    "7": {
+     "K": 73,
+     "presenti": 0,
+     "quota": 0.0
+    }
+   }
+  },
+  "Modern - Wolof - Technical - Senegal Wiki": {
+   "riempimento": 0.05405405405405406,
+   "per_lunghezza": {
+    "3": {
+     "K": 144,
+     "presenti": 29,
+     "quota": 0.2013888888888889
+    },
+    "4": {
+     "K": 240,
+     "presenti": 21,
+     "quota": 0.0875
+    },
+    "5": {
+     "K": 222,
+     "presenti": 2,
+     "quota": 0.009009009009009009
+    },
+    "6": {
+     "K": 210,
+     "presenti": 0,
+     "quota": 0.0
+    },
+    "7": {
+     "K": 146,
+     "presenti": 0,
+     "quota": 0.0
+    }
+   }
+  },
+  "Historical - German - Technical - German Herbarium": {
+   "riempimento": 0.053617571059431525,
+   "per_lunghezza": {
+    "3": {
+     "K": 148,
+     "presenti": 24,
+     "quota": 0.16216216216216217
+    },
+    "4": {
+     "K": 281,
+     "presenti": 24,
+     "quota": 0.08540925266903915
+    },
+    "5": {
+     "K": 330,
+     "presenti": 19,
+     "quota": 0.05757575757575758
+    },
+    "6": {
+     "K": 432,
+     "presenti": 11,
+     "quota": 0.02546296296296296
+    },
+    "7": {
+     "K": 357,
+     "presenti": 5,
+     "quota": 0.014005602240896359
+    }
+   }
+  },
+  "Historical - German - Literary - NT - Luther": {
+   "riempimento": 0.05292259083728278,
+   "per_lunghezza": {
+    "3": {
+     "K": 91,
+     "presenti": 16,
+     "quota": 0.17582417582417584
+    },
+    "4": {
+     "K": 198,
+     "presenti": 14,
+     "quota": 0.0707070707070707
+    },
+    "5": {
+     "K": 315,
+     "presenti": 22,
+     "quota": 0.06984126984126984
+    },
+    "6": {
+     "K": 381,
+     "presenti": 10,
+     "quota": 0.026246719160104987
+    },
+    "7": {
+     "K": 281,
+     "presenti": 5,
+     "quota": 0.017793594306049824
+    }
+   }
+  },
+  "Conlangs - Lojban - Technical - Science News": {
+   "riempimento": 0.05263157894736842,
+   "per_lunghezza": {
+    "3": {
+     "K": 19,
+     "presenti": 3,
+     "quota": 0.15789473684210525
+    },
+    "4": {
+     "K": 68,
+     "presenti": 13,
+     "quota": 0.19117647058823528
+    },
+    "5": {
+     "K": 170,
+     "presenti": 1,
+     "quota": 0.0058823529411764705
+    },
+    "6": {
+     "K": 34,
+     "presenti": 0,
+     "quota": 0.0
+    },
+    "7": {
+     "K": 32,
+     "presenti": 0,
+     "quota": 0.0
+    }
+   }
+  },
+  "Historical - French - Literary - NT - Martin": {
+   "riempimento": 0.0525,
+   "per_lunghezza": {
+    "3": {
+     "K": 98,
+     "presenti": 22,
+     "quota": 0.22448979591836735
+    },
+    "4": {
+     "K": 205,
+     "presenti": 24,
+     "quota": 0.11707317073170732
+    },
+    "5": {
+     "K": 281,
+     "presenti": 7,
+     "quota": 0.02491103202846975
+    },
+    "6": {
+     "K": 322,
+     "presenti": 7,
+     "quota": 0.021739130434782608
+    },
+    "7": {
+     "K": 294,
+     "presenti": 3,
+     "quota": 0.01020408163265306
+    }
+   }
+  },
+  "Modern - German - Literary - NT": {
+   "riempimento": 0.05232558139534884,
+   "per_lunghezza": {
+    "3": {
+     "K": 85,
+     "presenti": 14,
+     "quota": 0.16470588235294117
+    },
+    "4": {
+     "K": 189,
+     "presenti": 17,
+     "quota": 0.08994708994708994
+    },
+    "5": {
+     "K": 310,
+     "presenti": 21,
+     "quota": 0.06774193548387097
+    },
+    "6": {
+     "K": 354,
+     "presenti": 9,
+     "quota": 0.025423728813559324
+    },
+    "7": {
+     "K": 266,
+     "presenti": 2,
+     "quota": 0.007518796992481203
+    }
+   }
+  },
+  "Historical - Nahuatl - Literary - Nican Mopohua": {
+   "riempimento": 0.05154639175257732,
+   "per_lunghezza": {
+    "3": {
+     "K": 22,
+     "presenti": 1,
+     "quota": 0.045454545454545456
+    },
+    "4": {
+     "K": 49,
+     "presenti": 7,
+     "quota": 0.14285714285714285
+    },
+    "5": {
+     "K": 71,
+     "presenti": 4,
+     "quota": 0.056338028169014086
+    },
+    "6": {
+     "K": 69,
+     "presenti": 2,
+     "quota": 0.028985507246376812
+    },
+    "7": {
+     "K": 80,
+     "presenti": 1,
+     "quota": 0.0125
+    }
+   }
+  },
+  "Historical - Latin (Abbreviated) - Literary - NT (Vulgate)": {
+   "riempimento": 0.047719298245614036,
+   "per_lunghezza": {
+    "3": {
+     "K": 212,
+     "presenti": 40,
+     "quota": 0.18867924528301888
+    },
+    "4": {
+     "K": 261,
+     "presenti": 7,
+     "quota": 0.02681992337164751
+    },
+    "5": {
+     "K": 306,
+     "presenti": 15,
+     "quota": 0.049019607843137254
+    },
+    "6": {
+     "K": 327,
+     "presenti": 6,
+     "quota": 0.01834862385321101
+    },
+    "7": {
+     "K": 319,
+     "presenti": 0,
+     "quota": 0.0
+    }
+   }
+  },
+  "Historical - Spanish - Technical - De Materia Medica": {
+   "riempimento": 0.046753246753246755,
+   "per_lunghezza": {
+    "3": {
+     "K": 46,
+     "presenti": 12,
+     "quota": 0.2608695652173913
+    },
+    "4": {
+     "K": 71,
+     "presenti": 4,
+     "quota": 0.056338028169014086
+    },
+    "5": {
+     "K": 93,
+     "presenti": 2,
+     "quota": 0.021505376344086023
+    },
+    "6": {
+     "K": 91,
+     "presenti": 0,
+     "quota": 0.0
+    },
+    "7": {
+     "K": 84,
+     "presenti": 0,
+     "quota": 0.0
+    }
+   }
+  },
+  "Historical - Anglo-Saxon - Literary - NT - Hatton Gospels": {
+   "riempimento": 0.04673913043478261,
+   "per_lunghezza": {
+    "3": {
+     "K": 151,
+     "presenti": 18,
+     "quota": 0.11920529801324503
+    },
+    "4": {
+     "K": 309,
+     "presenti": 27,
+     "quota": 0.08737864077669903
+    },
+    "5": {
+     "K": 490,
+     "presenti": 31,
+     "quota": 0.06326530612244897
+    },
+    "6": {
+     "K": 493,
+     "presenti": 9,
+     "quota": 0.018255578093306288
+    },
+    "7": {
+     "K": 397,
+     "presenti": 1,
+     "quota": 0.0025188916876574307
+    }
+   }
+  },
+  "Modern - Arabic - Literary - NT": {
+   "riempimento": 0.04664289958407605,
+   "per_lunghezza": {
+    "3": {
+     "K": 385,
+     "presenti": 65,
+     "quota": 0.16883116883116883
+    },
+    "4": {
+     "K": 929,
+     "presenti": 68,
+     "quota": 0.07319698600645856
+    },
+    "5": {
+     "K": 897,
+     "presenti": 18,
+     "quota": 0.020066889632107024
+    },
+    "6": {
+     "K": 797,
+     "presenti": 6,
+     "quota": 0.0075282308657465494
+    },
+    "7": {
+     "K": 358,
+     "presenti": 0,
+     "quota": 0.0
+    }
+   }
+  },
+  "Historical - Latin (Abbreviated) - Technical - Pliny's Natural History": {
+   "riempimento": 0.04583333333333333,
+   "per_lunghezza": {
+    "3": {
+     "K": 216,
+     "presenti": 42,
+     "quota": 0.19444444444444445
+    },
+    "4": {
+     "K": 301,
+     "presenti": 24,
+     "quota": 0.07973421926910298
+    },
+    "5": {
+     "K": 456,
+     "presenti": 23,
+     "quota": 0.05043859649122807
+    },
+    "6": {
+     "K": 567,
+     "presenti": 6,
+     "quota": 0.010582010582010581
+    },
+    "7": {
+     "K": 620,
+     "presenti": 4,
+     "quota": 0.0064516129032258064
+    }
+   }
+  },
+  "Historical - Italian - Technical - Della Pittura": {
+   "riempimento": 0.044294294294294295,
+   "per_lunghezza": {
+    "3": {
+     "K": 77,
+     "presenti": 10,
+     "quota": 0.12987012987012986
+    },
+    "4": {
+     "K": 178,
+     "presenti": 22,
+     "quota": 0.12359550561797752
+    },
+    "5": {
+     "K": 348,
+     "presenti": 21,
+     "quota": 0.0603448275862069
+    },
+    "6": {
+     "K": 363,
+     "presenti": 5,
+     "quota": 0.013774104683195593
+    },
+    "7": {
+     "K": 366,
+     "presenti": 1,
+     "quota": 0.00273224043715847
+    }
+   }
+  },
+  "Historical - English - Literary - NT (KJV)": {
+   "riempimento": 0.04418828049951969,
+   "per_lunghezza": {
+    "3": {
+     "K": 89,
+     "presenti": 16,
+     "quota": 0.1797752808988764
+    },
+    "4": {
+     "K": 264,
+     "presenti": 23,
+     "quota": 0.08712121212121213
+    },
+    "5": {
+     "K": 282,
+     "presenti": 7,
+     "quota": 0.024822695035460994
+    },
+    "6": {
+     "K": 208,
+     "presenti": 0,
+     "quota": 0.0
+    },
+    "7": {
+     "K": 198,
+     "presenti": 0,
+     "quota": 0.0
+    }
+   }
+  },
+  "Historical - Nahuatl - Technical - Florentine Codex": {
+   "riempimento": 0.043795620437956206,
+   "per_lunghezza": {
+    "3": {
+     "K": 20,
+     "presenti": 3,
+     "quota": 0.15
+    },
+    "4": {
+     "K": 35,
+     "presenti": 0,
+     "quota": 0.0
+    },
+    "5": {
+     "K": 70,
+     "presenti": 5,
+     "quota": 0.07142857142857142
+    },
+    "6": {
+     "K": 64,
+     "presenti": 3,
+     "quota": 0.046875
+    },
+    "7": {
+     "K": 85,
+     "presenti": 1,
+     "quota": 0.011764705882352941
+    }
+   }
+  },
+  "Modern - Italian - Literary - NT": {
+   "riempimento": 0.04281567489114659,
+   "per_lunghezza": {
+    "3": {
+     "K": 95,
+     "presenti": 9,
+     "quota": 0.09473684210526316
+    },
+    "4": {
+     "K": 180,
+     "presenti": 17,
+     "quota": 0.09444444444444444
+    },
+    "5": {
+     "K": 363,
+     "presenti": 25,
+     "quota": 0.06887052341597796
+    },
+    "6": {
+     "K": 361,
+     "presenti": 7,
+     "quota": 0.019390581717451522
+    },
+    "7": {
+     "K": 379,
+     "presenti": 1,
+     "quota": 0.002638522427440633
+    }
+   }
+  },
+  "Conlangs - Esperanto - Literary - NT": {
+   "riempimento": 0.04206349206349207,
+   "per_lunghezza": {
+    "3": {
+     "K": 64,
+     "presenti": 3,
+     "quota": 0.046875
+    },
+    "4": {
+     "K": 173,
+     "presenti": 11,
+     "quota": 0.06358381502890173
+    },
+    "5": {
+     "K": 332,
+     "presenti": 25,
+     "quota": 0.07530120481927711
+    },
+    "6": {
+     "K": 329,
+     "presenti": 11,
+     "quota": 0.03343465045592705
+    },
+    "7": {
+     "K": 362,
+     "presenti": 3,
+     "quota": 0.008287292817679558
+    }
+   }
+  },
+  "Modern - Tagalog - Literary - NT - Ang Dating Biblia": {
+   "riempimento": 0.04015544041450777,
+   "per_lunghezza": {
+    "3": {
+     "K": 25,
+     "presenti": 3,
+     "quota": 0.12
+    },
+    "4": {
+     "K": 125,
+     "presenti": 11,
+     "quota": 0.088
+    },
+    "5": {
+     "K": 188,
+     "presenti": 10,
+     "quota": 0.05319148936170213
+    },
+    "6": {
+     "K": 214,
+     "presenti": 7,
+     "quota": 0.03271028037383177
+    },
+    "7": {
+     "K": 220,
+     "presenti": 0,
+     "quota": 0.0
+    }
+   }
+  },
+  "Conlangs - Volapuk - Literary - NT": {
+   "riempimento": 0.03942461374533831,
+   "per_lunghezza": {
+    "3": {
+     "K": 193,
+     "presenti": 30,
+     "quota": 0.15544041450777202
+    },
+    "4": {
+     "K": 286,
+     "presenti": 26,
+     "quota": 0.09090909090909091
+    },
+    "5": {
+     "K": 379,
+     "presenti": 13,
+     "quota": 0.03430079155672823
+    },
+    "6": {
+     "K": 516,
+     "presenti": 4,
+     "quota": 0.007751937984496124
+    },
+    "7": {
+     "K": 503,
+     "presenti": 1,
+     "quota": 0.0019880715705765406
+    }
+   }
+  },
+  "Historical - Spanish - Literary - NT - Sagradas Escrituras": {
+   "riempimento": 0.03908794788273615,
+   "per_lunghezza": {
+    "3": {
+     "K": 84,
+     "presenti": 18,
+     "quota": 0.21428571428571427
+    },
+    "4": {
+     "K": 194,
+     "presenti": 14,
+     "quota": 0.07216494845360824
+    },
+    "5": {
+     "K": 340,
+     "presenti": 8,
+     "quota": 0.023529411764705882
+    },
+    "6": {
+     "K": 313,
+     "presenti": 5,
+     "quota": 0.01597444089456869
+    },
+    "7": {
+     "K": 297,
+     "presenti": 3,
+     "quota": 0.010101010101010102
+    }
+   }
+  },
+  "Historical - Flemish - Technical - Cruydeboeck": {
+   "riempimento": 0.03880070546737213,
+   "per_lunghezza": {
+    "3": {
+     "K": 78,
+     "presenti": 14,
+     "quota": 0.1794871794871795
+    },
+    "4": {
+     "K": 158,
+     "presenti": 9,
+     "quota": 0.056962025316455694
+    },
+    "5": {
+     "K": 265,
+     "presenti": 10,
+     "quota": 0.03773584905660377
+    },
+    "6": {
+     "K": 348,
+     "presenti": 9,
+     "quota": 0.02586206896551724
+    },
+    "7": {
+     "K": 285,
+     "presenti": 2,
+     "quota": 0.007017543859649123
+    }
+   }
+  },
+  "Historical - Anglo-Saxon - Technical - Leechbook": {
+   "riempimento": 0.037333333333333336,
+   "per_lunghezza": {
+    "3": {
+     "K": 65,
+     "presenti": 6,
+     "quota": 0.09230769230769231
+    },
+    "4": {
+     "K": 88,
+     "presenti": 3,
+     "quota": 0.03409090909090909
+    },
+    "5": {
+     "K": 101,
+     "presenti": 5,
+     "quota": 0.04950495049504951
+    },
+    "6": {
+     "K": 75,
+     "presenti": 0,
+     "quota": 0.0
+    },
+    "7": {
+     "K": 46,
+     "presenti": 0,
+     "quota": 0.0
+    }
+   }
+  },
+  "Historical - English - Technical - Secreta Alberti": {
+   "riempimento": 0.03401842664776754,
+   "per_lunghezza": {
+    "3": {
+     "K": 122,
+     "presenti": 16,
+     "quota": 0.13114754098360656
+    },
+    "4": {
+     "K": 250,
+     "presenti": 18,
+     "quota": 0.072
+    },
+    "5": {
+     "K": 380,
+     "presenti": 9,
+     "quota": 0.02368421052631579
+    },
+    "6": {
+     "K": 373,
+     "presenti": 4,
+     "quota": 0.010723860589812333
+    },
+    "7": {
+     "K": 286,
+     "presenti": 1,
+     "quota": 0.0034965034965034965
+    }
+   }
+  },
+  "Conlangs - Volapuk - Technical - History Wiki": {
+   "riempimento": 0.03314917127071823,
+   "per_lunghezza": {
+    "3": {
+     "K": 50,
+     "presenti": 6,
+     "quota": 0.12
+    },
+    "4": {
+     "K": 83,
+     "presenti": 4,
+     "quota": 0.04819277108433735
+    },
+    "5": {
+     "K": 145,
+     "presenti": 4,
+     "quota": 0.027586206896551724
+    },
+    "6": {
+     "K": 119,
+     "presenti": 1,
+     "quota": 0.008403361344537815
+    },
+    "7": {
+     "K": 146,
+     "presenti": 3,
+     "quota": 0.02054794520547945
+    }
+   }
+  },
+  "Conlangs - Neo-Quenya - Technical - Europe-Taipei Wikia": {
+   "riempimento": 0.032679738562091505,
+   "per_lunghezza": {
+    "3": {
+     "K": 29,
+     "presenti": 5,
+     "quota": 0.1724137931034483
+    },
+    "4": {
+     "K": 51,
+     "presenti": 3,
+     "quota": 0.058823529411764705
+    },
+    "5": {
+     "K": 77,
+     "presenti": 2,
+     "quota": 0.025974025974025976
+    },
+    "6": {
+     "K": 75,
+     "presenti": 0,
+     "quota": 0.0
+    },
+    "7": {
+     "K": 74,
+     "presenti": 0,
+     "quota": 0.0
+    }
+   }
+  },
+  "Historical - Italian - Literary - NT - Diodati": {
+   "riempimento": 0.032134659525631215,
+   "per_lunghezza": {
+    "3": {
+     "K": 87,
+     "presenti": 8,
+     "quota": 0.09195402298850575
+    },
+    "4": {
+     "K": 174,
+     "presenti": 12,
+     "quota": 0.06896551724137931
+    },
+    "5": {
+     "K": 340,
+     "presenti": 18,
+     "quota": 0.052941176470588235
+    },
+    "6": {
+     "K": 345,
+     "presenti": 4,
+     "quota": 0.011594202898550725
+    },
+    "7": {
+     "K": 361,
+     "presenti": 0,
+     "quota": 0.0
+    }
+   }
+  },
+  "Modern - English - Literary - NT": {
+   "riempimento": 0.032114183764495985,
+   "per_lunghezza": {
+    "3": {
+     "K": 95,
+     "presenti": 9,
+     "quota": 0.09473684210526316
+    },
+    "4": {
+     "K": 276,
+     "presenti": 19,
+     "quota": 0.06884057971014493
+    },
+    "5": {
+     "K": 319,
+     "presenti": 8,
+     "quota": 0.025078369905956112
+    },
+    "6": {
+     "K": 214,
+     "presenti": 0,
+     "quota": 0.0
+    },
+    "7": {
+     "K": 217,
+     "presenti": 0,
+     "quota": 0.0
+    }
+   }
+  },
+  "Historical - Latin - Technical - Pliny's Natural History": {
+   "riempimento": 0.031965442764578834,
+   "per_lunghezza": {
+    "3": {
+     "K": 121,
+     "presenti": 20,
+     "quota": 0.1652892561983471
+    },
+    "4": {
+     "K": 275,
+     "presenti": 20,
+     "quota": 0.07272727272727272
+    },
+    "5": {
+     "K": 537,
+     "presenti": 21,
+     "quota": 0.03910614525139665
+    },
+    "6": {
+     "K": 668,
+     "presenti": 9,
+     "quota": 0.01347305389221557
+    },
+    "7": {
+     "K": 714,
+     "presenti": 4,
+     "quota": 0.0056022408963585435
+    }
+   }
+  },
+  "Historical - Arabic - Technical - Avicenna": {
+   "riempimento": 0.03181370941292227,
+   "per_lunghezza": {
+    "3": {
+     "K": 317,
+     "presenti": 32,
+     "quota": 0.10094637223974763
+    },
+    "4": {
+     "K": 700,
+     "presenti": 27,
+     "quota": 0.03857142857142857
+    },
+    "5": {
+     "K": 857,
+     "presenti": 21,
+     "quota": 0.024504084014002333
+    },
+    "6": {
+     "K": 684,
+     "presenti": 13,
+     "quota": 0.019005847953216373
+    },
+    "7": {
+     "K": 491,
+     "presenti": 4,
+     "quota": 0.008146639511201629
+    }
+   }
+  },
+  "Modern - Turkish - Literary - NT": {
+   "riempimento": 0.03128205128205128,
+   "per_lunghezza": {
+    "3": {
+     "K": 117,
+     "presenti": 19,
+     "quota": 0.1623931623931624
+    },
+    "4": {
+     "K": 237,
+     "presenti": 17,
+     "quota": 0.07172995780590717
+    },
+    "5": {
+     "K": 477,
+     "presenti": 17,
+     "quota": 0.03563941299790356
+    },
+    "6": {
+     "K": 504,
+     "presenti": 7,
+     "quota": 0.013888888888888888
+    },
+    "7": {
+     "K": 615,
+     "presenti": 1,
+     "quota": 0.0016260162601626016
+    }
+   }
+  },
+  "Historical - Latin - Literary - NT (Vulgate)": {
+   "riempimento": 0.03065134099616858,
+   "per_lunghezza": {
+    "3": {
+     "K": 86,
+     "presenti": 10,
+     "quota": 0.11627906976744186
+    },
+    "4": {
+     "K": 215,
+     "presenti": 10,
+     "quota": 0.046511627906976744
+    },
+    "5": {
+     "K": 384,
+     "presenti": 18,
+     "quota": 0.046875
+    },
+    "6": {
+     "K": 458,
+     "presenti": 10,
+     "quota": 0.021834061135371178
+    },
+    "7": {
+     "K": 423,
+     "presenti": 0,
+     "quota": 0.0
+    }
+   }
+  },
+  "Modern - German - Technical - Voynich Wiki": {
+   "riempimento": 0.030467899891186073,
+   "per_lunghezza": {
+    "3": {
+     "K": 72,
+     "presenti": 10,
+     "quota": 0.1388888888888889
+    },
+    "4": {
+     "K": 139,
+     "presenti": 5,
+     "quota": 0.03597122302158273
+    },
+    "5": {
+     "K": 209,
+     "presenti": 7,
+     "quota": 0.03349282296650718
+    },
+    "6": {
+     "K": 250,
+     "presenti": 2,
+     "quota": 0.008
+    },
+    "7": {
+     "K": 249,
+     "presenti": 4,
+     "quota": 0.01606425702811245
+    }
+   }
+  },
+  "Conlangs - Interlingua - Literary - NT": {
+   "riempimento": 0.030109489051094892,
+   "per_lunghezza": {
+    "3": {
+     "K": 57,
+     "presenti": 6,
+     "quota": 0.10526315789473684
+    },
+    "4": {
+     "K": 138,
+     "presenti": 9,
+     "quota": 0.06521739130434782
+    },
+    "5": {
+     "K": 283,
+     "presenti": 9,
+     "quota": 0.03180212014134275
+    },
+    "6": {
+     "K": 312,
+     "presenti": 6,
+     "quota": 0.019230769230769232
+    },
+    "7": {
+     "K": 306,
+     "presenti": 3,
+     "quota": 0.00980392156862745
+    }
+   }
+  },
+  "Conlangs - Interlingua - Technical - EU Wiki": {
+   "riempimento": 0.029227557411273485,
+   "per_lunghezza": {
+    "3": {
+     "K": 81,
+     "presenti": 10,
+     "quota": 0.12345679012345678
+    },
+    "4": {
+     "K": 110,
+     "presenti": 7,
+     "quota": 0.06363636363636363
+    },
+    "5": {
+     "K": 195,
+     "presenti": 5,
+     "quota": 0.02564102564102564
+    },
+    "6": {
+     "K": 257,
+     "presenti": 5,
+     "quota": 0.019455252918287938
+    },
+    "7": {
+     "K": 315,
+     "presenti": 1,
+     "quota": 0.0031746031746031746
+    }
+   }
+  },
+  "Historical - Russian - Literary - NT - Codex Marianus": {
+   "riempimento": 0.02884160756501182,
+   "per_lunghezza": {
+    "3": {
+     "K": 168,
+     "presenti": 12,
+     "quota": 0.07142857142857142
+    },
+    "4": {
+     "K": 463,
+     "presenti": 25,
+     "quota": 0.05399568034557235
+    },
+    "5": {
+     "K": 484,
+     "presenti": 13,
+     "quota": 0.026859504132231406
+    },
+    "6": {
+     "K": 565,
+     "presenti": 7,
+     "quota": 0.012389380530973451
+    },
+    "7": {
+     "K": 435,
+     "presenti": 4,
+     "quota": 0.009195402298850575
+    }
+   }
+  },
+  "Historical - Greek - Literary - NT - Textus Receptus": {
+   "riempimento": 0.028711484593837534,
+   "per_lunghezza": {
+    "3": {
+     "K": 77,
+     "presenti": 14,
+     "quota": 0.18181818181818182
+    },
+    "4": {
+     "K": 187,
+     "presenti": 7,
+     "quota": 0.0374331550802139
+    },
+    "5": {
+     "K": 343,
+     "presenti": 8,
+     "quota": 0.023323615160349854
+    },
+    "6": {
+     "K": 411,
+     "presenti": 8,
+     "quota": 0.019464720194647202
+    },
+    "7": {
+     "K": 410,
+     "presenti": 4,
+     "quota": 0.00975609756097561
+    }
+   }
+  },
+  "Modern - Spanish - Technical - Voynich Wiki": {
+   "riempimento": 0.02747791952894995,
+   "per_lunghezza": {
+    "3": {
+     "K": 66,
+     "presenti": 6,
+     "quota": 0.09090909090909091
+    },
+    "4": {
+     "K": 123,
+     "presenti": 10,
+     "quota": 0.08130081300813008
+    },
+    "5": {
+     "K": 215,
+     "presenti": 6,
+     "quota": 0.027906976744186046
+    },
+    "6": {
+     "K": 272,
+     "presenti": 3,
+     "quota": 0.011029411764705883
+    },
+    "7": {
+     "K": 343,
+     "presenti": 3,
+     "quota": 0.008746355685131196
+    }
+   }
+  },
+  "Historical - Arabic - Literary - Quran": {
+   "riempimento": 0.025572405590246802,
+   "per_lunghezza": {
+    "3": {
+     "K": 433,
+     "presenti": 35,
+     "quota": 0.08083140877598152
+    },
+    "4": {
+     "K": 845,
+     "presenti": 24,
+     "quota": 0.028402366863905324
+    },
+    "5": {
+     "K": 881,
+     "presenti": 17,
+     "quota": 0.019296254256526674
+    },
+    "6": {
+     "K": 785,
+     "presenti": 10,
+     "quota": 0.012738853503184714
+    },
+    "7": {
+     "K": 419,
+     "presenti": 0,
+     "quota": 0.0
+    }
+   }
+  },
+  "Modern - Portuguese - Technical - Voynich Wiki": {
+   "riempimento": 0.025466893039049237,
+   "per_lunghezza": {
+    "3": {
+     "K": 55,
+     "presenti": 6,
+     "quota": 0.10909090909090909
+    },
+    "4": {
+     "K": 79,
+     "presenti": 4,
+     "quota": 0.05063291139240506
+    },
+    "5": {
+     "K": 142,
+     "presenti": 4,
+     "quota": 0.028169014084507043
+    },
+    "6": {
+     "K": 151,
+     "presenti": 1,
+     "quota": 0.006622516556291391
+    },
+    "7": {
+     "K": 162,
+     "presenti": 0,
+     "quota": 0.0
+    }
+   }
+  },
+  "Modern - Tagalog - Technical - Tuberculosis Wiki": {
+   "riempimento": 0.024054982817869417,
+   "per_lunghezza": {
+    "3": {
+     "K": 30,
+     "presenti": 4,
+     "quota": 0.13333333333333333
+    },
+    "4": {
+     "K": 89,
+     "presenti": 6,
+     "quota": 0.06741573033707865
+    },
+    "5": {
+     "K": 132,
+     "presenti": 1,
+     "quota": 0.007575757575757576
+    },
+    "6": {
+     "K": 156,
+     "presenti": 3,
+     "quota": 0.019230769230769232
+    },
+    "7": {
+     "K": 175,
+     "presenti": 0,
+     "quota": 0.0
+    }
+   }
+  },
+  "Modern - Hebrew - Technical - Voynich Wiki": {
+   "riempimento": 0.02059202059202059,
+   "per_lunghezza": {
+    "3": {
+     "K": 103,
+     "presenti": 4,
+     "quota": 0.038834951456310676
+    },
+    "4": {
+     "K": 189,
+     "presenti": 6,
+     "quota": 0.031746031746031744
+    },
+    "5": {
+     "K": 223,
+     "presenti": 6,
+     "quota": 0.026905829596412557
+    },
+    "6": {
+     "K": 166,
+     "presenti": 0,
+     "quota": 0.0
+    },
+    "7": {
+     "K": 96,
+     "presenti": 0,
+     "quota": 0.0
+    }
+   }
+  },
+  "Historical - Sanskrit - Literary - Mahabharata": {
+   "riempimento": 0.01944049312470365,
+   "per_lunghezza": {
+    "3": {
+     "K": 920,
+     "presenti": 56,
+     "quota": 0.06086956521739131
+    },
+    "4": {
+     "K": 981,
+     "presenti": 17,
+     "quota": 0.017329255861365953
+    },
+    "5": {
+     "K": 970,
+     "presenti": 9,
+     "quota": 0.009278350515463918
+    },
+    "6": {
+     "K": 798,
+     "presenti": 0,
+     "quota": 0.0
+    },
+    "7": {
+     "K": 549,
+     "presenti": 0,
+     "quota": 0.0
+    }
+   }
+  },
+  "Historical - Sanskrit - Technical - Charaka Samhita": {
+   "riempimento": 0.018777082330284064,
+   "per_lunghezza": {
+    "3": {
+     "K": 920,
+     "presenti": 51,
+     "quota": 0.05543478260869565
+    },
+    "4": {
+     "K": 1043,
+     "presenti": 16,
+     "quota": 0.015340364333652923
+    },
+    "5": {
+     "K": 863,
+     "presenti": 7,
+     "quota": 0.008111239860950173
+    },
+    "6": {
+     "K": 715,
+     "presenti": 2,
+     "quota": 0.002797202797202797
+    },
+    "7": {
+     "K": 613,
+     "presenti": 2,
+     "quota": 0.0032626427406199023
+    }
+   }
+  },
+  "Modern - Turkish - Technical - Middle Ages Wiki": {
+   "riempimento": 0.018134715025906734,
+   "per_lunghezza": {
+    "3": {
+     "K": 46,
+     "presenti": 5,
+     "quota": 0.10869565217391304
+    },
+    "4": {
+     "K": 96,
+     "presenti": 5,
+     "quota": 0.052083333333333336
+    },
+    "5": {
+     "K": 206,
+     "presenti": 3,
+     "quota": 0.014563106796116505
+    },
+    "6": {
+     "K": 193,
+     "presenti": 0,
+     "quota": 0.0
+    },
+    "7": {
+     "K": 231,
+     "presenti": 1,
+     "quota": 0.004329004329004329
+    }
+   }
+  },
+  "Modern - French - Technical - Voynich Wiki": {
+   "riempimento": 0.017226528854435832,
+   "per_lunghezza": {
+    "3": {
+     "K": 83,
+     "presenti": 12,
+     "quota": 0.14457831325301204
+    },
+    "4": {
+     "K": 156,
+     "presenti": 3,
+     "quota": 0.019230769230769232
+    },
+    "5": {
+     "K": 257,
+     "presenti": 4,
+     "quota": 0.01556420233463035
+    },
+    "6": {
+     "K": 292,
+     "presenti": 1,
+     "quota": 0.003424657534246575
+    },
+    "7": {
+     "K": 373,
+     "presenti": 0,
+     "quota": 0.0
+    }
+   }
+  },
+  "Modern - Italian - Technical - Voynich Wiki": {
+   "riempimento": 0.015306122448979591,
+   "per_lunghezza": {
+    "3": {
+     "K": 46,
+     "presenti": 2,
+     "quota": 0.043478260869565216
+    },
+    "4": {
+     "K": 70,
+     "presenti": 1,
+     "quota": 0.014285714285714285
+    },
+    "5": {
+     "K": 148,
+     "presenti": 5,
+     "quota": 0.033783783783783786
+    },
+    "6": {
+     "K": 159,
+     "presenti": 0,
+     "quota": 0.0
+    },
+    "7": {
+     "K": 165,
+     "presenti": 1,
+     "quota": 0.006060606060606061
+    }
+   }
+  },
+  "Modern - English - Technical - Voynich Wiki": {
+   "riempimento": 0.013787510137875101,
+   "per_lunghezza": {
+    "3": {
+     "K": 91,
+     "presenti": 10,
+     "quota": 0.10989010989010989
+    },
+    "4": {
+     "K": 218,
+     "presenti": 2,
+     "quota": 0.009174311926605505
+    },
+    "5": {
+     "K": 279,
+     "presenti": 1,
+     "quota": 0.0035842293906810036
+    },
+    "6": {
+     "K": 307,
+     "presenti": 3,
+     "quota": 0.009771986970684038
+    },
+    "7": {
+     "K": 338,
+     "presenti": 1,
+     "quota": 0.0029585798816568047
+    }
+   }
+  },
+  "Modern - Arabic - Technical - Voynich Wiki": {
+   "riempimento": 0.01344364012409514,
+   "per_lunghezza": {
+    "3": {
+     "K": 134,
+     "presenti": 4,
+     "quota": 0.029850746268656716
+    },
+    "4": {
+     "K": 252,
+     "presenti": 3,
+     "quota": 0.011904761904761904
+    },
+    "5": {
+     "K": 258,
+     "presenti": 4,
+     "quota": 0.015503875968992248
+    },
+    "6": {
+     "K": 190,
+     "presenti": 1,
+     "quota": 0.005263157894736842
+    },
+    "7": {
+     "K": 133,
+     "presenti": 1,
+     "quota": 0.007518796992481203
+    }
+   }
+  },
+  "Modern - Russian - Technical - Voynich Wiki": {
+   "riempimento": 0.011986301369863013,
+   "per_lunghezza": {
+    "3": {
+     "K": 85,
+     "presenti": 4,
+     "quota": 0.047058823529411764
+    },
+    "4": {
+     "K": 136,
+     "presenti": 4,
+     "quota": 0.029411764705882353
+    },
+    "5": {
+     "K": 246,
+     "presenti": 2,
+     "quota": 0.008130081300813009
+    },
+    "6": {
+     "K": 337,
+     "presenti": 3,
+     "quota": 0.008902077151335312
+    },
+    "7": {
+     "K": 364,
+     "presenti": 1,
+     "quota": 0.0027472527472527475
+    }
+   }
+  },
+  "Conlangs - Esperanto - Technical - Voynich Wiki": {
+   "riempimento": 0.011188811188811189,
+   "per_lunghezza": {
+    "3": {
+     "K": 53,
+     "presenti": 4,
+     "quota": 0.07547169811320754
+    },
+    "4": {
+     "K": 106,
+     "presenti": 1,
+     "quota": 0.009433962264150943
+    },
+    "5": {
+     "K": 153,
+     "presenti": 2,
+     "quota": 0.013071895424836602
+    },
+    "6": {
+     "K": 179,
+     "presenti": 1,
+     "quota": 0.00558659217877095
+    },
+    "7": {
+     "K": 224,
+     "presenti": 0,
+     "quota": 0.0
+    }
+   }
+  },
+  "Historical - Greek - Technical - De odoribus": {
+   "riempimento": 0.0029791459781529296,
+   "per_lunghezza": {
+    "3": {
+     "K": 73,
+     "presenti": 2,
+     "quota": 0.0273972602739726
+    },
+    "4": {
+     "K": 154,
+     "presenti": 0,
+     "quota": 0.0
+    },
+    "5": {
+     "K": 251,
+     "presenti": 0,
+     "quota": 0.0
+    },
+    "6": {
+     "K": 280,
+     "presenti": 1,
+     "quota": 0.0035714285714285713
+    },
+    "7": {
+     "K": 249,
+     "presenti": 0,
+     "quota": 0.0
+    }
+   }
+  }
+ },
+ "esito": "il vocabolario riempie le forme probabili più che nelle lingue"
+}
