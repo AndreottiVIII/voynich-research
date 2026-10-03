@@ -8008,3 +8008,31 @@ Preregistrato (`preregistrazioni/e341.md`). Lavoro autonomo notturno chiesto da 
   **Esito preregistrato: nessuna colonna dei bordi.** Con l'e340: la ripresa dalle righe sopra non segue la colonna,
   né al centro né ai bordi. L'E2 dell'e338 (z 8,7) era un effetto più debole e diffuso (posizioni ±1 vicino ai bordi),
   non una copia in colonna.
+
+## 3/10/2026 (notte) — e342, e343: le modifiche della ripresa sono quelle del lessico; le catene di ripresa sono lunghe e si fermano al paragrafo
+
+Preregistrato (`preregistrazioni/e342.md`).
+
+- **e342** (10.488 coppie parola/fonte vicina, 23.712 coppie di riferimento a 6+ righe di distanza):
+  - nessuna modifica è **preferita** (rapporto > 1,5 e z > 3) né **evitata** (< 0,67 e z < −3) nella ripresa;
+  - i rapporti vanno da 0,78 a 1,41. Tendenze sotto soglia:
+    - *sh*→*ch* 1,41 (z 5,7);
+    - −*d* interno 1,27 (z 3,8);
+    - −*d* iniziale 1,24 (z 3,2);
+    - −*y* finale 1,32 (z 2,9);
+    - *k*→*t* 0,78 (z −3,6).
+  - Lo stesso per il generatore di Timm e Schinner: nessuna preferita.
+  - **Esito preregistrato: nessuna modifica preferita o evitata.**
+  - **Lettura:** quando lo scriba riprende una parola dalle righe sopra la cambia con le **stesse** modifiche che
+    separano le parole del lessico in generale. È coerente con un lessico prodotto in buona parte dalla ripresa stessa.
+    Le leggere tendenze (*sh*→*ch*, togliere *d* e *y*, poco *k*→*t*) vanno verso forme più semplici.
+- **e343:**
+  - **(a)** lunghezza media delle catene di ripresa (quante volte si risale di fonte in fonte) 0,696 contro 0,625 con le
+    righe rimescolate nel paragrafo, z 6,2. **Esito: catene più lunghe del caso.** Distribuzione: 0 23.202, 1 6.213,
+    2 2.665, 3 1.260, 4 647, 5 325, 6+ 551.
+  - **(b)** prima riga del paragrafo: dall'ultima riga del paragrafo precedente −0,050 rispetto a una sua riga
+    qualsiasi (z −7,4); righe interne: dalla riga sopra +0,090 rispetto a una riga lontana; differenza z −14,9.
+    **Esito preregistrato: il paragrafo è un confine per la ripresa.**
+  - **Cautela:** che la prima riga riprenda **meno** dall'ultima riga precedente che da una riga qualsiasi può venire
+    anche dai registri opposti di ultima riga (meno *qo*-, più *ch*-) e prima riga (gallows, *sh*, parole lunghe).
+    Resta che la ripresa non attraversa il confine.

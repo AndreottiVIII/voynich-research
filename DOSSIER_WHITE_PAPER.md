@@ -922,3 +922,16 @@ negativi; i numeri sono nei file di `risultati/`.
     che nel generatore di Timm e Schinner: **lo scriba riprende parole dalle righe appena scritte**;
   - la ripresa "nella stessa colonna" invece, tolte la prima e l'ultima parola della riga, quasi sparisce (z 2,7):
     l'allineamento veniva dai bordi della riga.
+
+### 15.11 La ripresa dalle righe sopra (e340–e345, notte del 3/10)
+
+- **Lo scriba riprende parole dalle righe appena scritte** (e340: z 17,4 a parità di lessico del paragrafo, più del
+  doppio del generatore di Timm e Schinner). Le catene di ripresa sono più lunghe del caso (e343, z 6,2). La ripresa non
+  segue la colonna (e340, e345).
+- **Il paragrafo riparte da capo** (e343, e344): la ripresa si ferma al confine del paragrafo, e la prima parola del
+  paragrafo non riprende le righe sopra (z 0,9), mentre la prima parola di ogni altra riga sì (z 4,6).
+- **Le modifiche della ripresa sono quelle del lessico** (e342): nessuna modifica è preferita; le parole vicine
+  differiscono per gli stessi cambi che separano le parole in generale. Tendenze verso forme più semplici (*sh*→*ch*,
+  togliere *d*, -*y*).
+- **Girando il foglio** (e330, e331, e341): tre misure con z fra 1,8 e 2,8, nessuna oltre la soglia. Domanda chiusa
+  senza risposta positiva.
