@@ -10384,3 +10384,19 @@ metà comincia da f53v).
 
 - **Esito preregistrato: tutte le proprietà reggono in tutte e due le metà.** Nella seconda metà (più lingua B) la
   giuntura e la regola di *qo*- sono più forti, come già visto (e393, e388).
+
+## 4/10/2026 (notte) — e3a44: l'evitamento riguarda l'inizio della riga, non un bordo visivo
+
+Preregistrato (`preregistrazioni/e3a44.md`). Coppie di righe consecutive dello stesso paragrafo, entrambe interrotte da un
+disegno; inizi uguali (primi 2 segni) fra le parole che ripartono dopo il disegno, e, come controllo, fra le prime parole
+delle stesse righe. Nullo: rimescolamento fra le righe con salto della pagina.
+
+| bordo | coppie | osservata | nullo | rapporto | z |
+|---|---|---|---|---|---|
+| secondo bordo (dopo il disegno) | 422 | 0,062 | 0,067 | 0,92 | −0,5 |
+| margine vero (controllo) | 433 | 0,014 | 0,051 | **0,27** | **−4,1** |
+
+- **Esito preregistrato: solo sul margine vero.**
+- **Lettura:** i pezzi di riga che ripartono a destra della pianta stanno uno sotto l'altro, ma lì lo scriba non evita
+  gli inizi ripetuti. L'evitamento non è quindi un effetto visivo del bordo sinistro: riguarda **l'inizio della riga**
+  come unità. Lo scriba non comincia una riga come ha cominciato la precedente.
