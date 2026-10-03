@@ -1,0 +1,108 @@
+ripulito, segni EVA        simboli 24 lunghezza 137073 righe 4219
+righe al contrario         simboli 24 lunghezza 137073 righe 4219
+parole al contrario        simboli 24 lunghezza 137065 righe 4219
+per colonne                simboli 24 lunghezza 136790 righe 2384
+senza segni facoltativi    simboli 24 lunghezza 115627 righe 4211
+italiano   tetto (testo in chiaro)                              punteggio -1.573  copertura 76.6% (6+: 49.5%)  coppie 39.3%  parole  3031  simboli   0     0s
+tedesco    tetto (testo in chiaro)                              punteggio -1.559  copertura 75.0% (6+: 44.5%)  coppie 36.1%  parole  2325  simboli   0     0s
+spagnolo   tetto (testo in chiaro)                              punteggio -1.538  copertura 74.4% (6+: 50.6%)  coppie 41.8%  parole  2605  simboli   0     0s
+latino     tetto (testo in chiaro)                              punteggio -1.789  copertura 87.7% (6+: 57.4%)  coppie 21.9%  parole  5420  simboli   0     0s
+spagnolo   ripulito, segni EVA, controllo positivo              punteggio -1.538  copertura 74.4% (6+: 50.6%)  coppie 41.8%  parole  2605  chiave 100.0%  simboli  24   203s
+spagnolo   ripulito, segni EVA, controllo negativo              punteggio -3.136  copertura 28.6% (6+:  1.0%)  coppie  1.8%  parole   410  simboli  24   379s
+spagnolo   ripulito, segni EVA, Voynich                         punteggio -3.121  copertura 27.4% (6+:  3.4%)  coppie  0.3%  parole   308  simboli  24   118s
+tedesco    ripulito, segni EVA, controllo positivo              punteggio -1.559  copertura 75.0% (6+: 44.5%)  coppie 36.1%  parole  2325  chiave 100.0%  simboli  24   233s
+tedesco    ripulito, segni EVA, controllo negativo              punteggio -3.508  copertura 29.0% (6+:  2.5%)  coppie  0.4%  parole   360  simboli  24   365s
+tedesco    ripulito, segni EVA, Voynich                         punteggio -3.263  copertura 27.7% (6+:  2.2%)  coppie  0.1%  parole   267  simboli  24   113s
+latino     ripulito, segni EVA, controllo positivo              punteggio -1.789  copertura 87.7% (6+: 57.4%)  coppie 21.9%  parole  5420  chiave 100.0%  simboli  24   312s
+latino     ripulito, segni EVA, controllo negativo              punteggio -2.883  copertura 56.1% (6+:  7.4%)  coppie  0.4%  parole  1853  simboli  24   380s
+latino     ripulito, segni EVA, Voynich                         punteggio -2.869  copertura 51.0% (6+:  9.1%)  coppie  0.1%  parole  1173  simboli  24   130s
+italiano   ripulito, segni EVA, controllo positivo              punteggio -1.573  copertura 76.6% (6+: 49.5%)  coppie 39.3%  parole  3031  chiave 100.0%  simboli  24   332s
+italiano   ripulito, segni EVA, controllo negativo              punteggio -3.475  copertura 28.3% (6+:  1.6%)  coppie  0.4%  parole   662  simboli  24   386s
+italiano   ripulito, segni EVA, Voynich                         punteggio -3.220  copertura 22.2% (6+:  1.6%)  coppie  0.2%  parole   371  simboli  24   123s
+spagnolo   righe al contrario, controllo positivo               punteggio -1.538  copertura 74.4% (6+: 50.6%)  coppie 41.8%  parole  2605  chiave 100.0%  simboli  24   262s
+spagnolo   righe al contrario, controllo negativo               punteggio -3.143  copertura 28.1% (6+:  0.9%)  coppie  1.1%  parole   413  simboli  24   494s
+spagnolo   righe al contrario, Voynich                          punteggio -3.153  copertura 22.0% (6+:  1.2%)  coppie  0.4%  parole   258  simboli  24   106s
+tedesco    righe al contrario, controllo positivo               punteggio -1.559  copertura 75.0% (6+: 44.5%)  coppie 36.1%  parole  2325  chiave 100.0%  simboli  24   306s
+tedesco    righe al contrario, controllo negativo               punteggio -3.510  copertura 29.7% (6+:  3.0%)  coppie  0.9%  parole   415  simboli  24   515s
+tedesco    righe al contrario, Voynich                          punteggio -3.053  copertura 38.7% (6+:  3.3%)  coppie  2.8%  parole   218  simboli  24    91s
+italiano   righe al contrario, controllo positivo               punteggio -1.573  copertura 76.6% (6+: 49.5%)  coppie 39.3%  parole  3031  chiave 100.0%  simboli  24   482s
+italiano   righe al contrario, controllo negativo               punteggio -3.409  copertura 29.9% (6+:  1.8%)  coppie  0.2%  parole   609  simboli  24   402s
+italiano   righe al contrario, Voynich                          punteggio -3.285  copertura 18.2% (6+:  0.8%)  coppie  0.0%  parole   251  simboli  24    96s
+latino     righe al contrario, controllo positivo               punteggio -1.789  copertura 87.7% (6+: 57.4%)  coppie 21.9%  parole  5420  chiave 100.0%  simboli  24   488s
+latino     righe al contrario, controllo negativo               punteggio -2.901  copertura 55.1% (6+:  7.1%)  coppie  0.5%  parole  1826  simboli  24   408s
+latino     righe al contrario, Voynich                          punteggio -2.746  copertura 64.7% (6+: 10.2%)  coppie  1.0%  parole  1193  simboli  24    94s
+spagnolo   parole al contrario, controllo positivo              punteggio -1.538  copertura 74.4% (6+: 50.6%)  coppie 41.8%  parole  2605  chiave 100.0%  simboli  24   178s
+spagnolo   parole al contrario, controllo negativo              punteggio -3.229  copertura 29.4% (6+:  1.7%)  coppie  0.7%  parole   477  simboli  24   354s
+spagnolo   parole al contrario, Voynich                         punteggio -3.129  copertura 33.2% (6+:  2.6%)  coppie  5.8%  parole   209  simboli  24    91s
+tedesco    parole al contrario, controllo positivo              punteggio -1.559  copertura 75.0% (6+: 44.5%)  coppie 36.1%  parole  2325  chiave 100.0%  simboli  24   226s
+tedesco    parole al contrario, controllo negativo              punteggio -3.505  copertura 28.8% (6+:  2.4%)  coppie  0.1%  parole   362  simboli  24   334s
+tedesco    parole al contrario, Voynich                         punteggio -2.705  copertura 47.8% (6+:  5.0%)  coppie  2.4%  parole   168  simboli  24    90s
+latino     parole al contrario, controllo positivo              punteggio -1.789  copertura 87.7% (6+: 57.4%)  coppie 21.9%  parole  5420  chiave 100.0%  simboli  24   304s
+latino     parole al contrario, controllo negativo              punteggio -2.902  copertura 54.4% (6+:  7.5%)  coppie  0.1%  parole  1853  simboli  24   286s
+latino     parole al contrario, Voynich                         punteggio -2.892  copertura 60.1% (6+: 10.1%)  coppie  0.7%  parole  1114  simboli  24    88s
+italiano   parole al contrario, controllo positivo              punteggio -1.573  copertura 76.6% (6+: 49.5%)  coppie 39.3%  parole  3031  chiave 100.0%  simboli  24   321s
+italiano   parole al contrario, controllo negativo              punteggio -3.361  copertura 29.7% (6+:  1.5%)  coppie  0.3%  parole   580  simboli  24   291s
+italiano   parole al contrario, Voynich                         punteggio -3.104  copertura 21.3% (6+:  1.7%)  coppie  1.2%  parole   190  simboli  24    87s
+spagnolo   per colonne, controllo positivo                      punteggio -1.538  copertura 74.4% (6+: 50.6%)  coppie 42.0%  parole  2603  chiave 100.0%  simboli  24   150s
+spagnolo   per colonne, controllo negativo                      punteggio -3.221  copertura 27.0% (6+:  1.3%)  coppie  1.1%  parole   457  simboli  24   279s
+spagnolo   per colonne, Voynich                                 punteggio -3.268  copertura 29.3% (6+:  1.3%)  coppie  0.0%  parole   293  simboli  24    91s
+tedesco    per colonne, controllo positivo                      punteggio -1.558  copertura 75.0% (6+: 44.5%)  coppie 36.2%  parole  2321  chiave 100.0%  simboli  24   176s
+tedesco    per colonne, controllo negativo                      punteggio -3.486  copertura 29.7% (6+:  2.5%)  coppie  0.9%  parole   405  simboli  24   273s
+tedesco    per colonne, Voynich                                 punteggio -2.919  copertura 44.1% (6+: 10.4%)  coppie  8.3%  parole   217  simboli  24    81s
+latino     per colonne, controllo positivo                      punteggio -1.789  copertura 87.7% (6+: 57.4%)  coppie 21.9%  parole  5415  chiave 100.0%  simboli  24   238s
+latino     per colonne, controllo negativo                      punteggio -2.885  copertura 56.2% (6+:  7.2%)  coppie  0.5%  parole  1820  simboli  24   255s
+latino     per colonne, Voynich                                 punteggio -2.852  copertura 61.7% (6+:  5.5%)  coppie  1.3%  parole  1221  simboli  24    85s
+spagnolo   senza segni facoltativi, controllo positivo          punteggio -1.528  copertura 74.4% (6+: 50.1%)  coppie 41.9%  parole  2421  chiave 100.0%  simboli  24   113s
+spagnolo   senza segni facoltativi, controllo negativo          punteggio -3.234  copertura 24.3% (6+:  1.0%)  coppie  0.7%  parole   443  simboli  24   220s
+spagnolo   senza segni facoltativi, Voynich                     punteggio -3.271  copertura 24.1% (6+:  1.3%)  coppie  0.4%  parole   281  simboli  24    74s
+italiano   per colonne, controllo positivo                      punteggio -1.573  copertura 76.6% (6+: 49.5%)  coppie 39.3%  parole  3028  chiave 100.0%  simboli  24   255s
+italiano   per colonne, controllo negativo                      punteggio -3.412  copertura 27.8% (6+:  1.4%)  coppie  1.2%  parole   486  simboli  24   257s
+italiano   per colonne, Voynich                                 punteggio -3.204  copertura 26.9% (6+:  0.7%)  coppie  2.1%  parole   366  simboli  24    84s
+ceco       tetto (testo in chiaro)                              punteggio -1.783  copertura 81.2% (6+: 49.6%)  coppie 36.8%  parole  4141  simboli   0     0s
+tedesco    senza segni facoltativi, controllo positivo          punteggio -1.537  copertura 75.5% (6+: 45.2%)  coppie 36.3%  parole  2131  chiave 100.0%  simboli  24   132s
+tedesco    senza segni facoltativi, controllo negativo          punteggio -3.502  copertura 28.8% (6+:  2.4%)  coppie  0.5%  parole   344  simboli  24   212s
+tedesco    senza segni facoltativi, Voynich                     punteggio -3.245  copertura 30.3% (6+:  5.3%)  coppie 20.1%  parole   268  simboli  24    71s
+ebraico    tetto (testo in chiaro)                              punteggio -2.183  copertura 75.8% (6+: 17.9%)  coppie 23.1%  parole  5789  simboli   0     0s
+latino     senza segni facoltativi, controllo positivo          punteggio -1.787  copertura 88.0% (6+: 57.6%)  coppie 21.9%  parole  4855  chiave 100.0%  simboli  24   176s
+latino     senza segni facoltativi, controllo negativo          punteggio -2.861  copertura 56.2% (6+:  7.6%)  coppie  0.4%  parole  1463  simboli  24   188s
+latino     senza segni facoltativi, Voynich                     punteggio -2.776  copertura 56.1% (6+:  6.5%)  coppie  1.3%  parole   844  simboli  24    60s
+italiano   senza segni facoltativi, controllo positivo          punteggio -1.578  copertura 76.9% (6+: 49.5%)  coppie 39.8%  parole  2710  chiave 100.0%  simboli  24   191s
+italiano   senza segni facoltativi, controllo negativo          punteggio -3.342  copertura 32.0% (6+:  1.7%)  coppie  0.6%  parole   525  simboli  24   181s
+italiano   senza segni facoltativi, Voynich                     punteggio -3.187  copertura 29.9% (6+:  2.0%)  coppie  0.8%  parole   341  simboli  24    49s
+ceco       ripulito, segni EVA, controllo positivo              punteggio -1.783  copertura 81.2% (6+: 49.6%)  coppie 36.8%  parole  4141  chiave 100.0%  simboli  24   223s
+ceco       ripulito, segni EVA, controllo negativo              punteggio -3.414  copertura 18.9% (6+:  0.9%)  coppie  0.0%  parole   441  simboli  24   195s
+ceco       ripulito, segni EVA, Voynich                         punteggio -3.251  copertura 26.3% (6+:  3.2%)  coppie  0.0%  parole   327  simboli  24    41s
+ebraico    ripulito, segni EVA, controllo positivo              punteggio -2.278  copertura 73.7% (6+: 17.3%)  coppie 22.8%  parole  5556  chiave 100.0%  simboli  24   239s
+ebraico    ripulito, segni EVA, controllo negativo              punteggio -3.725  copertura 34.5% (6+:  0.5%)  coppie  0.0%  parole  1633  simboli  24   147s
+ebraico    ripulito, segni EVA, Voynich                         punteggio -2.713  copertura 58.0% (6+:  4.7%)  coppie  0.5%  parole   535  simboli  24    39s
+ceco       righe al contrario, controllo positivo               punteggio -1.783  copertura 81.2% (6+: 49.6%)  coppie 36.8%  parole  4141  chiave 100.0%  simboli  24   115s
+ceco       righe al contrario, controllo negativo               punteggio -3.415  copertura 18.9% (6+:  1.0%)  coppie  0.0%  parole   435  simboli  24   208s
+ceco       righe al contrario, Voynich                          punteggio -3.194  copertura 21.2% (6+:  1.2%)  coppie  1.3%  parole   320  simboli  24    52s
+ebraico    righe al contrario, controllo positivo               punteggio -2.278  copertura 73.7% (6+: 17.3%)  coppie 22.8%  parole  5556  chiave 100.0%  simboli  24   204s
+ebraico    righe al contrario, controllo negativo               punteggio -3.555  copertura 36.3% (6+:  1.0%)  coppie  0.1%  parole  1326  simboli  24   207s
+ebraico    righe al contrario, Voynich                          punteggio -3.065  copertura 50.7% (6+:  2.1%)  coppie  0.0%  parole   705  simboli  24    54s
+ceco       parole al contrario, controllo positivo              punteggio -1.783  copertura 81.2% (6+: 49.6%)  coppie 36.8%  parole  4141  chiave 100.0%  simboli  24   186s
+ceco       parole al contrario, controllo negativo              punteggio -3.634  copertura 18.4% (6+:  0.6%)  coppie  0.6%  parole   597  simboli  24   214s
+ceco       parole al contrario, Voynich                         punteggio -3.289  copertura 18.2% (6+:  1.3%)  coppie  1.4%  parole   373  simboli  24    50s
+ebraico    parole al contrario, controllo positivo              punteggio -2.278  copertura 73.7% (6+: 17.3%)  coppie 22.8%  parole  5556  chiave 100.0%  simboli  24   231s
+ebraico    parole al contrario, controllo negativo              punteggio -3.458  copertura 37.0% (6+:  0.5%)  coppie  0.2%  parole  1112  simboli  24   172s
+ebraico    parole al contrario, Voynich                         punteggio -2.889  copertura 54.8% (6+:  3.3%)  coppie  1.0%  parole   817  simboli  24    43s
+ceco       per colonne, controllo positivo                      punteggio -1.782  copertura 81.2% (6+: 49.6%)  coppie 36.9%  parole  4138  chiave 100.0%  simboli  24   145s
+ceco       per colonne, controllo negativo                      punteggio -3.680  copertura 18.1% (6+:  0.8%)  coppie  0.0%  parole   650  simboli  24   157s
+ceco       per colonne, Voynich                                 punteggio -3.280  copertura 34.4% (6+:  3.2%)  coppie  6.4%  parole   346  simboli  24    47s
+ebraico    per colonne, controllo positivo                      punteggio -2.279  copertura 73.6% (6+: 17.3%)  coppie 22.8%  parole  5555  chiave 100.0%  simboli  24   172s
+ebraico    per colonne, controllo negativo                      punteggio -3.441  copertura 36.8% (6+:  0.7%)  coppie  0.0%  parole   962  simboli  24   157s
+ebraico    per colonne, Voynich                                 punteggio -3.128  copertura 55.5% (6+:  1.6%)  coppie  0.2%  parole   805  simboli  24    49s
+ceco       senza segni facoltativi, controllo positivo          punteggio -1.765  copertura 81.7% (6+: 50.4%)  coppie 37.4%  parole  3778  chiave 100.0%  simboli  24   116s
+ceco       senza segni facoltativi, controllo negativo          punteggio -3.405  copertura 19.0% (6+:  1.0%)  coppie  0.0%  parole   421  simboli  24   133s
+ceco       senza segni facoltativi, Voynich                     punteggio -3.131  copertura 26.5% (6+:  4.9%)  coppie  1.4%  parole   218  simboli  24    41s
+ebraico    senza segni facoltativi, controllo positivo          punteggio -2.282  copertura 73.2% (6+: 16.6%)  coppie 24.3%  parole  5153  chiave  98.5%  simboli  24   142s
+ebraico    senza segni facoltativi, controllo negativo          punteggio -3.647  copertura 34.5% (6+:  0.5%)  coppie  0.1%  parole  1597  simboli  24    87s
+ebraico    senza segni facoltativi, Voynich                     punteggio -2.914  copertura 48.7% (6+:  3.7%)  coppie  0.1%  parole   782  simboli  24    25s
+latino     0.01/0.03 | 0.14/0.06 | 0.01/0.05 | 0.03/-0.03 | 0.08/-0.02
+italiano   0.13/0.00 | 0.07/-0.02 | 0.14/0.00 | 0.11/-0.01 | 0.09/0.01
+tedesco    0.13/-0.01 | 0.23/0.01 | 0.41/0.06 | 0.29/0.19 | 0.13/0.07
+spagnolo   0.01/0.05 | -0.01/0.01 | 0.06/0.02 | -0.03/0.00 | -0.02/0.01
+ceco       0.10/0.05 | 0.14/0.01 | 0.19/0.01 | 0.21/0.05 | 0.17/0.08
+ebraico    0.70/0.25 | 0.38/0.07 | 0.48/0.17 | 0.27/0.05 | 0.54/0.20
+nessuna lettura []
