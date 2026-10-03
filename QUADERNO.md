@@ -7051,3 +7051,27 @@ con i semi di verifica 7, 8, 9. **Decodifica esatta in tutti e nove i manoscritt
 - **v6** = v5 con la penalità per la ripetizione immediata della stessa parola da 0,5 a 0,4: pagella estesa uguale,
   AUC −0,034 / −0,020. Coerente con la diagnosi della v5 (coppie identiche il doppio del Voynich).
 - Il cancello della riga resta perso in tutte le configurazioni (giro 9). Banco della v6 sui semi 7–9 in corso.
+
+## 3/10/2026 — Ciclo avversario, giro 8: p e f nelle prime righe abbassano molto il discriminatore forte
+
+`voynichizzatore/prova_v8.py`, dalla v5, semi 1–2 (somme). `corpo5.galli_prime`: nelle prime righe dei paragrafi un
+gallows *k*/*t* (anche *ckh*/*cth*) diventa *p*/*f* con probabilità su × (0,27 per *k*, 0,14 per *t*); nelle altre righe
+*p*/*f* diventa *k*/*t* con probabilità giù. Le quote vengono dai conteggi: nel Voynich *p* è il 3,3% dei segni nelle
+prime righe e lo 0,17% nelle altre (venti volte), nella v5 1,7% e 0,56%.
+
+| configurazione | pagella | estese | totale | riga | AUC e231 | AUC e266 |
+|---|---|---|---|---|---|---|
+| v5 | 33 | 6 | 39 | 0 | 0,816 | 0,923 |
+| galli 1/0,7 | 33 | 6 | 39 | 0 | 0,826 | **0,861** |
+| galli 1/0 | 33 | 6 | 39 | 0 | 0,836 | 0,884 |
+| galli 1,3/0,7 | 33 | 6 | 39 | 0 | 0,826 | 0,862 |
+| rip 0,3 | 31 | 6 | 37 | 0 | 0,806 | 0,923 |
+| galli 1/0,7 + rip 0,3 | 32 | 6 | 38 | 0 | 0,826 | 0,862 |
+| galli 1/0,7 + β 0,5 | 33 | 6 | 39 | 1 | 0,839 | 0,873 |
+| galli 1/0,7 + rip 0,3 + β 0,5 | 32 | 5 | 37 | 0 | 0,829 | 0,841 |
+
+- Il gruppo G8 dell'e266 (prime righe) scende da 0,87 a 0,66–0,69; l'AUC dell'e266 −0,062, il passo più grande del
+  giorno su quel discriminatore. L'e231 (che non guarda le prime righe) +0,010.
+- La misura "prime righe come registro" (e273) sale da −2,3/+0,2 a −0,7/+1,3 (Voynich 4,7): i gallows sono una parte
+  del registro delle prime righe, non tutto.
+- Giro 10: lo stesso ritocco sopra la v6.
