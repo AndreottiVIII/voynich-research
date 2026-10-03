@@ -1,0 +1,14 @@
+{
+ "paragrafi": 499,
+ "eccesso_inizio_mezzo_fine": [
+  0.0050937218999241,
+  0.035831070480065716,
+  0.046992575042813595
+ ],
+ "differenza_fine_inizio": 0.04189885314288949,
+ "IC95": [
+  0.02552800980881461,
+  0.05760346676940253
+ ],
+ "esito": "la copia cresce lungo il paragrafo"
+}
