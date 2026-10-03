@@ -6145,3 +6145,22 @@ sequenza.
     **più parole diverse e più frequenti**, e le vicine si somigliano di più.
   - È la direzione per il passo 2 (e251, lessico che circola) e per il ciclo avversario: varianti nuove
     invece di copie esatte delle rare, e lunghezze meno disperse.
+
+## 3/10/2026 — e243: passo 1 del piano 18/18, primo tentativo, non superato
+
+- **Preregistrato.** Generatore con riuso esplicito autoreferenziale. Le quote di classe sono tarate
+  sull'uscita (seme 1): R 0,337, V 0,230, F 0,128, A 0,147, N 0,158.
+- **Verifica sui semi 7, 8, 9:**
+  - pagella 8, 8 e 10 su 18;
+  - AUC del discriminatore 0,975 / 0,980 / 0,973;
+  - R delle parole rare 80–91, contro 1,96 del Voynich.
+- **Esito: non superato.** Il profilo di riuso è giusto (R 31–32%, contro 31,9%), ma il testo si allontana
+  dal vocabolario del Voynich:
+  - parole più lunghe (4,9 contro 4,5) e più disperse in lunghezza;
+  - meno parole frequenti;
+  - h2, Zipf, deriva e gradiente persi.
+- **Lettura.** Copiare dal proprio testo già generato fa deriva. Per questo il passo è stato rifatto
+  sopra il vocabolario vero (e243b, anch'esso non superato, vedi sopra): da qui la lacuna dichiarata del
+  passo 1.
+- Registrato dopo l'e243b perché finito dopo: la coda è stata fermata per il trasloco e l'e257 passa al
+  nuovo PC.
