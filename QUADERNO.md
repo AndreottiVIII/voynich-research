@@ -9685,3 +9685,17 @@ Massimi fra le lingue: toki pona 0,65, lojban 0,53, pinyin 0,52 (avanti).
   una lingua l'identità della parola conta molto (sintassi); nel Voynich poco, meno anche che nel gibberish umano.
 - Dove sta il resto: da vedere se nel penultimo segno (per esempio -*dy*/-*ey*) o nelle parole spezzate (*or aiin*,
   e379). Prossimo: e3a10.
+
+## 4/10/2026 (notte) — e3a11: le etichette finiscono come le righe (-m, -g, e anche -s, -d)
+
+Preregistrato (`preregistrazioni/e3a11.md`). A parità del resto della parola e della sezione, etichette contro parole
+in mezzo alla riga (metodo dell'e389). Pochi dati: 103 etichette in 71 gruppi per le finali, 104 in 67 per le iniziali.
+
+- **Finali che crescono nelle etichette** (z > 3): -*g* (+0,009, z 3,9), -*m* (+0,061, z 3,7), -*s* (+0,051, z 3,6),
+  -*d* (+0,026, z 3,3). Nessuna cala sotto z −3 (-*y* −0,030, z −2,1).
+- **Iniziali:** cresce solo *i*- (z 5,2, su pochissime parole); *d*- +0,074 (z 2,8).
+- **Esito preregistrato:** crescono -*g*, -*m*, -*s*, -*d* fra le finali, *i*- fra le iniziali.
+- **Lettura:** la parola isolata finisce più spesso con i segni della fine della riga (-*m*, -*g*, e389). La "forma di
+  pausa" a fine parola è quindi -*m*/-*g*, non -*l* come avevo ipotizzato (e387). Con l'e3a09 (-*m* più rara
+  nell'ultima riga del paragrafo) il quadro non è ancora coerente: -*m* compare a fine riga piena e in parole isolate,
+  meno a fine paragrafo. Numeri piccoli: da prendere come indizio.
