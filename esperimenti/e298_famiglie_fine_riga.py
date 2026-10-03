@@ -117,7 +117,7 @@ def main():
           '| testo | ' + ' | '.join(ris['Voynich']['famiglie']) + ' |', '|---|' + '---|' * len(ris['Voynich']['famiglie'])]
     for n, r in ris.items():
         md.append('| %s | %s |' % (n, ' | '.join('%.3f' % v for v in r['famiglie'].values())))
-    md += ['', 'Misure diverse dal generatore (oltre il 10% e fuori dai tre semi): %s.' % (', '.join(k for k, v in diverse.items() if v) or 'nessuna'), '', '## e299', '',
+    md += ['', 'Misure diverse dal generatore (oltre il 10%% e fuori dai tre semi): %s.' % (', '.join(k for k, v in diverse.items() if v) or 'nessuna'), '', '## e299', '',
            '| testo | righe | quota in m/g | differenza di lunghezza relativa (m/g − altre) | z |', '|---|---|---|---|---|']
     for n, r in ris.items():
         f = r['fine_riga']
