@@ -1,0 +1,55 @@
+{
+ "pagine": 159,
+ "inizi_dei_paragrafi": [
+  [
+   "p",
+   310
+  ],
+  [
+   "t",
+   154
+  ],
+  [
+   "k",
+   75
+  ],
+  [
+   "o",
+   35
+  ],
+  [
+   "f",
+   30
+  ],
+  [
+   "qo",
+   28
+  ],
+  [
+   "d",
+   15
+  ],
+  [
+   "y",
+   13
+  ]
+ ],
+ "misure": {
+  "1 prima riga contro la riga sopra": {
+   "coppie": 533,
+   "osservata": 0.04690431519699812,
+   "nullo": 0.04863602251407129,
+   "rapporto": 0.964394553099564,
+   "z": -0.25166525944037066,
+   "esito": "indifferente"
+  },
+  "2 prime righe di paragrafi consecutivi": {
+   "coppie": 533,
+   "osservata": 0.3433395872420263,
+   "nullo": 0.3299812382739212,
+   "rapporto": 1.0404821469183536,
+   "z": 1.0660211692965285,
+   "esito": "indifferente"
+  }
+ }
+}

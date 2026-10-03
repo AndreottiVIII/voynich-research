@@ -10291,3 +10291,18 @@ Differenza −0,040 (IC 95% −0,076 – −0,003).
   (*e*/*o*, *o*/*y*, *a*/*o*, *a*/*y*, *e*/*sh*, *s*/*y*, *d*/*y*) sono diverse da quelle della variazione normale fra
   parole frequenti (*k*/*t*, *l*/*r*, *ch*/*sh*, *o*/*y*, *a*/*o*: le scelte di grafia). Il risultato dell'e357 (errori
   uniformi fra le sessioni) riguarda quindi lo scriba.
+
+## 4/10/2026 (notte) — e3a40: fra paragrafi il margine sinistro non evita niente
+
+Preregistrato (`preregistrazioni/e3a40.md`). 159 pagine con almeno 2 paragrafi; inizi dei paragrafi: *p* 310, *t* 154,
+*k* 75, *o* 35, *f* 30, *qo* 28, *d* 15, *y* 13.
+
+| misura | coppie | osservata | nullo | rapporto | z | esito |
+|---|---|---|---|---|---|---|
+| prima riga di un paragrafo contro la riga subito sopra | 533 | 0,047 | 0,049 | 0,96 | −0,3 | indifferente |
+| prime righe di paragrafi consecutivi | 533 | 0,343 | 0,330 | 1,04 | 1,1 | indifferente |
+
+- **Esito preregistrato: indifferente in tutte e due le misure.**
+- **Lettura:** l'evitamento degli inizi ripetuti vale solo fra righe dello stesso paragrafo. All'inizio di un nuovo
+  paragrafo lo scriba non guarda come cominciava la riga sopra, e paragrafi consecutivi non alternano la gallows
+  d'apertura. Il paragrafo riparte da capo anche per questa regola, come per la ripresa (e343).
