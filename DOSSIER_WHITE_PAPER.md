@@ -888,3 +888,10 @@ negativi; i numeri sono nei file di `risultati/`.
   grafia (z 6,8): cambiano argomento e abitudine insieme.
 - **Girando il foglio** (e330): l'ultimo paragrafo del recto somiglia un po' di più al primo del verso (z 2,5–2,8,
   incerto); fra le pagine affiancate di fogli diversi nessun legame.
+- **Scendendo nella pagina cresce -*ey*** (e333): la quota di -*ey* rispetto a -*dy* è più alta nella metà bassa delle
+  righe interne, in modo coerente fra le pagine (z 3,2). Le altre scelte di grafia tendono a cambiare anch'esse, sotto
+  la soglia. Se la pagina si scriveva dall'alto in basso, è una deriva dell'abitudine durante la scrittura.
+- **Le differenze di lessico fra paragrafi non si raccolgono nel tempo** (e332): nell'erbario A i gruppi di paragrafi
+  con lessico simile sono sparsi in tutto il libro. Da verificare se siano veri "argomenti".
+- **Girando il foglio** (e330, e331): due prove con z intorno a 2 a favore della continuità fra recto e verso, nessuna
+  fra fogli diversi. Indizio, non prova.
