@@ -27,6 +27,15 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     prima riga del paragrafo; -*ey* cresce scendendo nella pagina (e3a15, e3a18, e3a20). La copia dalla riga sopra è
     costante lungo il paragrafo, dopo l'apertura (e3a19, e3a20);
   - tabella di sintesi nel dossier, §15.12.
+  - **e3a21–e3a29:**
+    - la crescita di -*ey* scendendo nella pagina sta soprattutto nelle ricette (e3a21);
+    - l'apertura del paragrafo pende verso il lato B dell'asse, sfumando nella seconda riga (e3a22);
+    - la giuntura è piena anche ai bordi della riga (e3a23);
+    - le righe non rimano (e3a24);
+    - **legame verticale sul margine sinistro:** se la riga sopra comincia con *qo*-, la riga sotto prende *o*- (17
+      coppie *qo*/*qo* contro 67 attese; z −6,7). Regge con Takahashi e in lingua A e B (e3a25–e3a27). Nelle colonne
+      interne niente del genere (e3a28, e3a29);
+    - nei testi in cerchio *qo*- è raro come nelle etichette (esplorativo).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
