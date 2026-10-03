@@ -10179,3 +10179,16 @@ Preregistrato (`preregistrazioni/e3a33.md`). Correzione di e3a26, e3a27 ed e3a31
 - **Quadro corretto:** sul margine sinistro lo scriba evita di cominciare una riga come la precedente, soprattutto con
   *qo*- e *o*- (le parole con gallows), meno con *d*-, *ch*-, *y*-. È un legame verticale proprio del margine sinistro
   (al margine destro niente: e3a24) e delle sole righe vicine (e3a26: a distanza 2 nessun effetto).
+
+## 4/10/2026 (notte) — e3a34: "lo scriba guarda avanti" regge con la trascrizione di Takahashi
+
+Preregistrato (`preregistrazioni/e3a34.md`). L'e3a02 sulla trascrizione IT.
+
+| parte | coppie | conflitti | che cosa cambia | nei conflitti | negli accordi | differenza | p |
+|---|---|---|---|---|---|---|---|
+| -*l*/-*r* | 98 | 47 | finale della parola prima | **0,62** | 0,22 | +0,40 | 0,0001 |
+| *qo*-/*o*- | 194 | 72 | finale della parola prima | 0,08 | 0,02 | +0,07 | 0,03 |
+| *qo*-/*o*- | | | *qo*/*o* della parola dopo | **0,61** | 0,16 | +0,45 | < 0,0001 |
+
+- **Esito preregistrato: regge in tutte e due le parti** (ZL nell'e3a02: 0,59 contro 0,21; 0,60 contro 0,18). Le due
+  trascrizioni non sono indipendenti come dati (stesso manoscritto), ma le scelte di lettura e di spaziatura sì.

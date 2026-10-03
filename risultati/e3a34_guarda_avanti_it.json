@@ -1,0 +1,30 @@
+{
+ "parte_A": {
+  "coppie": 98,
+  "conflitti": 47,
+  "cambia_a": {
+   "quota_conflitti": 0.6170212765957447,
+   "quota_accordi": 0.21568627450980393,
+   "differenza": 0.40133500208594075,
+   "p": 0.0001
+  },
+  "esito": "regge: lo scriba guarda avanti"
+ },
+ "parte_B": {
+  "coppie": 194,
+  "conflitti": 72,
+  "cambia_a": {
+   "quota_conflitti": 0.08333333333333333,
+   "quota_accordi": 0.01639344262295082,
+   "differenza": 0.0669398907103825,
+   "p": 0.0316
+  },
+  "cambia_b": {
+   "quota_conflitti": 0.6111111111111112,
+   "quota_accordi": 0.16393442622950818,
+   "differenza": 0.447176684881603,
+   "p": 0.0
+  },
+  "esito": "regge: si adatta la parola dopo"
+ }
+}
