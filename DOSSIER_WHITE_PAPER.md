@@ -960,3 +960,7 @@ negativi; i numeri sono nei file di `risultati/`.
   e un terzo contiene al suo interno una coppia di segni tipica del confine fra due parole (34,5% contro 7,3% delle
   parole comuni; in latino e italiano quasi nessuna differenza). Non sono due parole intere frequenti attaccate, ma pezzi
   di parole senza spazio. Arrivano a gruppi nella stessa riga (e362).
+- **Segni di bordo della riga** (e366–e368): molte parole "uniche" ai bordi della riga sono parole normali con un segno
+  in più (*y*, *d*, *s* all'inizio; *y*, *d*, *s*, *g*, *m* alla fine). A inizio riga la parolina *s*, che in mezzo alla
+  riga si scrive staccata quasi una volta su due (243 attaccate contro 211 staccate), si attacca quasi sempre alla parola
+  seguente (337 contro 16).

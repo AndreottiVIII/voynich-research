@@ -8515,3 +8515,27 @@ Preregistrato (`preregistrazioni/e367.md`).
   - manca il confronto con le parole p + X **in mezzo** alla riga.
 
   Verifica: e368.
+
+## 3/10/2026 (notte) — e368: a inizio riga la parolina *s* (e *l*, *y*) si attacca alla parola seguente
+
+Preregistrato (`preregistrazioni/e368.md`), verifica dell'e367. Indice di attacco = forme p + X / (forme p + X +
+parolina p staccata seguita da X), su 3.311 righe non prime di paragrafo.
+
+| segno | a inizio riga (attaccate/staccate) | in mezzo |
+|---|---|---|
+| *s* | **0,955** (337/16) | **0,535** (243/211) |
+| *d* | 0,996 (554/2) | 0,982 (1.342/24) |
+| *y* | 0,891 (418/51) | 0,817 (535/120) |
+| *o* | 0,953 (325/16) | 0,970 (3.021/94) |
+| *l* | 0,967 (59/2) | 0,839 (651/125) |
+| tutti | 0,951 | 0,910 |
+
+- Differenza complessiva +0,041 (IC 95% +0,029 – +0,054), z 6,7. **Esito preregistrato: a inizio riga la parolina si
+  attacca di più.**
+- **Lettura:**
+  - *s* in mezzo alla riga si scrive staccata quasi una volta su due, all'inizio della riga quasi mai.
+  - Lo stesso, più debole, per *l* e *y*; *d* e *o* sono quasi sempre attaccate dappertutto.
+  - Una parte delle "parole lunghe" e delle forme nuove a inizio riga (e306, e365, e366) viene da questo modo di
+    spaziare all'inizio della riga.
+  - L'e367 misurava anche l'incertezza generale degli spazi; l'effetto specifico dell'inizio riga c'è, ma è più
+    piccolo e concentrato su *s*.
