@@ -1052,7 +1052,7 @@ Numeri già registrati nel Quaderno (esperimenti indicati). "Lingue" = 71 testi 
 | giuntura fra parole vicine, bit (e377, e381) | **0,18–0,19** | 0,03–0,36; solo 6 su 71 sopra il Voynich | 0,014 | 0,00–0,08 (e399) |
 | giuntura a capo / nella riga, Q (e384, e399) | **−0,02** | 0,5–1 nella prosa; ~0 solo dove la riga è un versetto | 0,46 (non significativa) | U3 0,97; TS 0,2 |
 | giuntura al salto di un disegno (e386) | **0,026** (riga 0,167) | — | — | — |
-| legame a distanza 2, a parità della parola in mezzo, nullo nella pagina (e3a07) | **0,001** (z 0,9) | mediana 0,013; 34 su 42 significativi | 0,001 | — |
+| legame a distanza 2, a parità della parola in mezzo, nullo nella pagina (e3a07, e3a51) | **0,001** (z 0,9) | mediana 0,013; 34 su 42 significativi | 0,001 | tutti zero, anche il cifrario Naibbe |
 | identità della parola oltre il segno di bordo, nullo nella pagina (e3a14) | 0,026 | mediana 0,111 | — | — |
 | coppie di parole che tornano oltre la giuntura, R (e375, e381) | **1,03** | 1,16–1,38 | 1,13 | TS 0,99 |
 | ripresa dalle 2 righe sopra, eccesso, pagine di 25 righe (e382) | +0,034 | +0,029 | **−0,001** | TS +0,022 |
