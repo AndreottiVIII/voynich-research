@@ -10501,3 +10501,16 @@ parole e la PMI delle stesse coppie (ultimo segno, primo segno) fra parole vicin
   evitate) dentro le parole, molto più che in ogni lingua del confronto. Lo spazio è un confine debole: il testo si
   comporta come una catena di segni con le sue regole di sequenza, in cui gli spazi sono inseriti senza interrompere le
   regole. Va con e379, e3a47, e3a48, e397 (spazi prevedibili dai segni intorno).
+
+## 4/10/2026 (notte) — e3a50: con Takahashi e Glen Claston la giuntura ricalca le sequenze interne quanto con la ZL
+
+Preregistrato (`preregistrazioni/e3a50.md`). Misura dell'e3a49.
+
+| trascrizione | ρ (tutto) | celle | ρ a 10.000 parole (mediana) | esito |
+|---|---|---|---|---|
+| IT (Takahashi) | 0,515 | 97 | 0,439 | regge |
+| GC (Glen Claston, alfabeto v101) | 0,471 | 135 | 0,496 | regge |
+
+- **Esito preregistrato: regge con tutte e due**, sopra il massimo dei testi sensati (0,392).
+- Anche con l'alfabeto v101, che divide i glifi in modo diverso dall'EVA, le coppie di segni fra parole ricalcano
+  quelle dentro le parole. Non dipende dalla trascrizione né dalla divisione in segni.
