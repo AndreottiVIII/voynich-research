@@ -1,0 +1,14 @@
+Voynich {"righe": 4103, "parole": 34836, "I": 0.20594732045063305, "nullo": 0.017885857415239924, "E": 0.18806146303539312, "z": 189.78993253986405, "coppie_in_eccesso": ["-r a-", "-y q-", "-s a-", "-o l-", "-o r-", "-n ch-", "-l k-", "-n o-"]}
+testi sensati: Historical {"righe": 4275, "parole": 34483, "I": 1.5702782136099598, "nullo": 1.4799254950095933, "E": 0.09035271860036653, "z": 32.79707899532579, "coppie_in_eccesso": ["-प र-", "-श च-", "-क ष-", "-ه م-", "-ع ل-", "-г л-", "-ó a-", "-ε ε-"]}
+testi sensati: Modern {"righe": 4564, "parole": 34791, "I": 1.1921394901287468, "nullo": 1.142934306660241, "E": 0.049205183468505664, "z": 18.89313255265769, "coppie_in_eccesso": ["-r z-", "-k n-", "-ק ז-", "-ā m-", "-b a-", "-t n-", "-g m-", "-f j-"]}
+testi sensati: Conlangs {"righe": 3820, "parole": 29866, "I": 0.13547912518393004, "nullo": 0.09351232168737708, "E": 0.04196680349655296, "z": 17.77017975604468, "coppie_in_eccesso": ["-o d-", "-o n-", "-g c-", "-l u-", "-y c-", "-s e-", "-e l-", "-d j-"]}
+gibberish umano {"righe": 1559, "parole": 10017, "I": 0.10653504136028007, "nullo": 0.09213686274954955, "E": 0.01439817861073052, "z": 3.6892262633652066, "coppie_in_eccesso": ["-e f-", "-í a-", "-x t-", "-d d-", "-b b-", "-m z-", "-t u-", "-o n-"]}
+Timm e Schinner, seme 1 {"righe": 4000, "parole": 37224, "I": 0.020719231661912384, "nullo": 0.010659138644049196, "E": 0.010060093017863187, "z": 13.475097816385608, "coppie_in_eccesso": ["-y e-", "-r a-", "-l o-", "-l a-", "-l ch-", "-r o-", "-d e-", "-o ch-"]}
+gibberish, autore DA {"righe": 108, "parole": 571, "I": 0.6871392273504751, "nullo": 0.5735813030104071, "E": 0.11355792434006795, "z": 3.587366160182078, "coppie_in_eccesso": ["-e h-", "-i p-", "-n h-", "-a e-", "-r m-", "-a n-", "-b b-", "-i m-"]}
+gibberish, autore DC {"righe": 1451, "parole": 9446, "I": 0.11042349722849555, "nullo": 0.09674612764908072, "E": 0.01367736957941483, "z": 3.229538925077809, "coppie_in_eccesso": ["-í a-", "-x t-", "-e g-", "-d d-", "-e f-", "-o n-", "-t u-", "-m z-"]}
+Voynich a parità {"E_mediana": 0.18449262155952795, "z_mediana": 77.42294379565675}
+testi sensati: Historical a parità {"E_mediana": 0.06627841313222549, "z_mediana": 10.906619528848072}
+testi sensati: Modern a parità {"E_mediana": 0.040972008210964694, "z_mediana": 6.870486019896063}
+testi sensati: Conlangs a parità {"E_mediana": 0.03974605795029684, "z_mediana": 8.845834047455476}
+Timm e Schinner, seme 1 a parità {"E_mediana": 0.009610822855063242, "z_mediana": 5.280305455342589}
+giuntura più debole nel gibberish umano

@@ -8747,3 +8747,59 @@ Preregistrato (`preregistrazioni/e376.md`). 48 bifogli; mani di Davis (la più f
 - **Controllo superato:** gli errori restano uniformi in tutte le stratificazioni.
 - Lettura: lo stesso scriba, in sessioni diverse, inventa forme nuove in quantità molto diverse. È una condizione della
   sessione (tempo, fretta, modello da cui copiava), non un'abitudine personale.
+
+## 3/10/2026 (notte) — e377: la giuntura fra parole del Voynich è forte come in una lingua, quasi assente nel gibberish umano
+
+Preregistrato (`preregistrazioni/e377.md`). I = informazione mutua (bit) fra l'ultimo segno di una parola e il primo
+della seguente nella stessa riga; nullo con le parole rimescolate nella riga; E = I − nullo.
+
+| testo | parole | E | z | E a parità col gibberish (z) |
+|---|---|---|---|---|
+| Voynich | 34.836 | **0,188** | 190 | 0,185 (77) |
+| testi sensati: Historical | 34.483 | 0,090 | 33 | 0,066 (11) |
+| testi sensati: Modern | 34.791 | 0,049 | 19 | 0,041 (7) |
+| testi sensati: Conlangs | 29.866 | 0,042 | 18 | 0,040 (9) |
+| gibberish umano | 10.017 | **0,014** | 3,7 | — |
+| Timm e Schinner, seme 1 | 37.224 | 0,010 | 13 | 0,010 (5) |
+
+- **Esito preregistrato: giuntura più debole nel gibberish umano** (z 3,7, ma E 13 volte sotto il Voynich).
+- **Controllo esplorativo, non preregistrato** (scratchpad, 50 rimescolamenti, primi 10.000 parole di ogni testo). I
+  gruppi di testi sensati mescolano lingue diverse, e la loro E è una media. Testo per testo:
+  - sanscrito 0,46–0,47 e arabo del Corano 0,47 (lingue con il *sandhi* o con forti legami fonetici fra parole);
+  - tagalog 0,20–0,25, slavo ecclesiastico 0,25, greco tecnico 0,20, klingon 0,19;
+  - francese 0,15–0,17, inglese 0,10–0,15, italiano 0,07–0,11, spagnolo 0,09–0,10, tedesco 0,05–0,08;
+  - latino 0,03–0,07.
+  - Il Voynich su 10.000 parole: 0,18–0,20 (5 sottoinsiemi).
+- **Lettura corretta:** la giuntura del Voynich sta dentro la gamma delle lingue vere, nella parte alta. È più forte
+  che in latino, italiano e tedesco, simile a greco, klingon e francese, meno che in sanscrito e arabo. Il gibberish
+  scritto a mano dai volontari e il generatore di Timm e Schinner ne hanno pochissima.
+- **Insieme all'e375:** il Voynich ha una giuntura di segni forte come una lingua, ma quasi nessuna preferenza fra
+  parole oltre la giuntura (le lingue sì, 13–38%). Il legame fra parole vicine sta tutto nei segni di confine, non
+  nell'identità delle parole.
+
+## 3/10/2026 (notte) — e379: lo spazio a volte spezza le parole (parolina + parola)
+
+Preregistrato (`preregistrazioni/e379.md`). Coppie vicine (x, y) con x di al massimo 2 segni; "unione nel lessico" se
+xy è una parola con almeno 2 occorrenze nella ZL. Nullo: y scambiata dentro la pagina con parole dello stesso primo e
+ultimo segno e della stessa posizione (giuntura e lessico di pagina intatti).
+
+| coppie | quante | quota con unione nel lessico | nullo | z |
+|---|---|---|---|---|
+| parolina, spazio sicuro | 2.412 | 0,275 | 0,239 | **6,9** |
+| parolina, spazio incerto (virgola) | 1.073 | 0,562 | 0,500 | 5,9 |
+| parola di 3+ segni, spazio sicuro | 25.770 | 0,015 | 0,014 | 2,0 |
+
+- **Esito preregistrato (b): lo spazio a volte spezza le parole.** Dopo una parolina, la parola seguente è più spesso
+  del caso proprio quella che, unita, dà una parola scritta altrove tutta attaccata:
+  - *s aiin* → *saiin* (30 volte);
+  - *or aiin* → *oraiin* (28);
+  - *ar aiin* → *araiin* (16);
+  - *ol chedy* → *olchedy* (16), *ol shedy* → *olshedy* (16);
+  - *r aiin* → *raiin* (12), *ar al* → *aral* (12).
+- Con le parole lunghe l'effetto non c'è (z 2,0).
+- Con gli spazi incerti la quota è più alta (0,56), come ci si aspetta se la virgola segna proprio questi casi.
+- **Parte (a), esito preregistrato: incerto.** Unendo le parti separate da virgola, la misura dell'e375 resta uguale
+  (R 1,03, z 2,1): il piccolo eccesso dell'e375 non viene dagli spazi incerti.
+- **Lettura:** nel Voynich lo spazio non è un confine di parola affidabile per gli elementi corti (*s*, *or*, *ol*,
+  *ar*, *r*). Possono stare attaccati o staccati dalla parola seguente. Con l'e361–e363 (pezzi attaccati senza spazio)
+  e l'e368 (*s* attaccata a inizio riga): lo spazio separa pezzi di una catena di segni più che parole fisse.

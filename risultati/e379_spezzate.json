@@ -1,0 +1,94 @@
+{
+ "parte_b": {
+  "corta, spazio sicuro": {
+   "coppie": 2412,
+   "quota": 0.2752902155887231,
+   "nullo": 0.23903869532286928,
+   "z": 6.875259642770821
+  },
+  "corta, spazio incerto": {
+   "coppie": 1073,
+   "quota": 0.5619757688723206,
+   "nullo": 0.49974318357670405,
+   "z": 5.884058257312954
+  },
+  "lunga (3+), spazio sicuro": {
+   "coppie": 25770,
+   "quota": 0.014823438106325184,
+   "nullo": 0.013844350412872592,
+   "z": 1.9809392328253235
+  }
+ },
+ "unioni_frequenti": [
+  [
+   "s aiin → saiin (122)",
+   30
+  ],
+  [
+   "or aiin → oraiin (31)",
+   28
+  ],
+  [
+   "ar aiin → araiin (9)",
+   16
+  ],
+  [
+   "ol chedy → olchedy (36)",
+   16
+  ],
+  [
+   "ol shedy → olshedy (22)",
+   16
+  ],
+  [
+   "r aiin → raiin (63)",
+   12
+  ],
+  [
+   "ar al → aral (16)",
+   12
+  ],
+  [
+   "or ol → orol (10)",
+   10
+  ],
+  [
+   "s or → sor (50)",
+   9
+  ],
+  [
+   "ol ol → olol (16)",
+   9
+  ],
+  [
+   "ol cheey → olcheey (11)",
+   9
+  ],
+  [
+   "s ar → sar (69)",
+   8
+  ],
+  [
+   "ol s → ols (19)",
+   8
+  ],
+  [
+   "or ar → orar (7)",
+   8
+  ],
+  [
+   "al ar → alar (2)",
+   8
+  ]
+ ],
+ "esito_b": "lo spazio a volte spezza le parole",
+ "parte_a": {
+  "pagine": 207,
+  "parole": 32403,
+  "S": 1531,
+  "nullo": 1480.57,
+  "R": 1.0340612061570882,
+  "z": 2.121052204107464
+ },
+ "esito_a": "incerto"
+}
