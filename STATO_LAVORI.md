@@ -2,6 +2,43 @@
 
 Fotografia aggiornata a mano a ogni cambio importante. I dettagli e i numeri sono nel `QUADERNO.md`.
 
+## Ricerca della sera e della notte del 3/10 (e302–e359): il quadro
+
+Davide ha chiesto di lavorare tutta la notte in autonomia ("ogni volta che ti viene un esperimento o idea nuova fallo").
+Dettagli nel QUADERNO e nel dossier (§15.5–15.11).
+
+- **Il libro è stato scritto a bifogli:**
+  - pagine dello stesso bifoglio condividono profilo (e308), parole rare e ripresa (e350, z 13,3), lingua (100%) e
+    mano (94%) (e356);
+  - le pagine affiancate di bifogli diversi no;
+  - un bifoglio "B" (D-2) è cucito in un fascicolo "A" (e351).
+- **La ripresa dalle righe appena scritte è vera:**
+  - z 17,4 a parità di lessico del paragrafo (e340);
+  - lo scriba guarda solo 1–2 righe indietro, mentre il generatore di Timm e Schinner arriva a 6 (e347);
+  - la ripresa non segue la colonna (e340, e345) e si ferma al confine del paragrafo (e343, e344);
+  - un cifrario di testo vero (Naibbe) non ce l'ha (e353).
+- **Parole uniche:**
+  - non nascono dalla ripresa (e348);
+  - gli "errori" (varianti di una lettera di parole frequenti) sono uniformi fra le sessioni, come errori casuali;
+  - le forme davvero nuove variano molto da sessione a sessione (e357).
+- **Lingue A e B:** sono due famiglie di parole (e315, e321), confermate dal lessico pagina per pagina (e325), con una
+  zona di passaggio nei fascicoli C, F, G.
+- **Paragrafi:**
+  - inizio marcato: gallows, soprattutto *p*, scelto per la posizione (e310, e316);
+  - la prima parola è nuova anche rispetto alle righe sopra (e344);
+  - fine marcata: meno *qo*- (e313);
+  - nessun titolo (e320).
+- **Posizione:** la posizione nella riga governa le scelte di grafia (e337); -*ey* cresce scendendo nella pagina in ogni
+  pagina, ma non è un orologio (e333, e335).
+- **Risultati negativi o incerti:**
+  - continuità girando il foglio (e330, e331, e341, e358: z ≈ 2);
+  - argomenti dei paragrafi (e334: rumore);
+  - etichette legate al testo (e311, e352: no);
+  - zodiaco come giorni (e339: no).
+- **Correzioni dichiarate:**
+  - la lettura A/B dell'e307 (corretta dall'e315);
+  - "la riga sopra non conta" del primo modello (corretta dall'e338/e340).
+
 ## Decisione di Davide del 3/10, 19:45: il voynichizzatore passa a un'altra chat
 
 - **Questa chat fa solo ricerca sul Voynich**, non più modellazione né generatore.
