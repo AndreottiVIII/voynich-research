@@ -7864,3 +7864,48 @@ trigrammi di segni imparato sulle parole uniche, più un pezzo alla volta. Risul
   stretto (quattro segni di contesto, o varianti di parole della pagina filtrate dal modello).
 - **Anche con tutto il resto vero**, sostituire le sole parole uniche porta i giudici interi a 0,69 / 0,73: le parole
   nuove sono una parte del testo che i giudici guardano molto.
+
+## 3/10/2026 — vz: e404, le parole note: il lessico di sezione dà la varietà giusta ma pagine troppo "medie"; primo generatore intero a pezzi a 0,716 / 0,857
+
+Chat del voynichizzatore. Preregistrato (`preregistrazioni/e404.md`): impaginazione vera; parole note pescate dal
+lessico della sezione e lingua (altre pagine), con ripetizione θ regolata sul pannello; semi 1–4. Risultati in
+`risultati/e404_parole_note.md`.
+
+- **Regolazione:** θ = 765 (tipi su parole 0,750 contro 0,756): converge. Serve pochissima ripetizione: già senza, il
+  lessico di sezione dà 0,785.
+
+| strato | solo sacco | previsto | G1 | G2 | G3 | JSD |
+|---|---|---|---|---|---|---|
+| K1, lessico di sezione senza ripetizione (parole nuove vere) | 0,786 | 0,80–0,92 | 0,43 | 0,37 | 0,65 | 0,75 |
+| K2, con ripetizione | 0,777 | 0,60–0,75 | 0,41 | 0,36 | 0,71 | 0,74 |
+| K4, K2 + parole nuove inventate (T-LPS) | 0,756 | 0,68–0,80 | 0,58 | 0,49 | 0,70 | 0,75 |
+
+- **K2 non è la previsione** (0,777 contro 0,60–0,75). La caratteristica che pesa, di gran lunga, è una sola: la
+  **JSD pagina-manoscritto**, 0,023 contro 0,040 del Voynich (coefficiente −5,7; la seconda vale 2). Le pagine fatte
+  col lessico di sezione hanno frequenze dei segni giuste in media (G1 e G2 sotto 0,5) e la varietà giusta, ma si
+  scostano dal libro la metà di quanto fanno le pagine vere: **manca il carattere proprio della pagina**. La
+  ripetizione di parole intere non lo dà (θ è quasi spenta).
+- **Lettura per la ricerca sul Voynich.** Una pagina del Voynich non è più ripetitiva di un campione del lessico della
+  sua sezione e lingua (0,756 contro 0,785 di tipi su parole), ma il suo profilo dei segni è due volte più lontano dal
+  libro. L'identità della pagina sta nei **segni** (abitudini di grafia della pagina, e145, e261), non nella
+  ripetizione di parole.
+- **K5, il primo generatore intero costruito a pezzi** (parole note dal lessico di sezione con ripetizione, parole
+  nuove inventate, disposizione dell'e401b; di vero restano l'impaginazione e quali posti hanno una parola nuova; il
+  profilo usato per le parole nuove è ancora quello della pagina vera):
+
+  | | AUC e231 | AUC e266 | pagella | estese | G3 | G4 | G6 | G8 | G9 |
+  |---|---|---|---|---|---|---|---|---|---|
+  | K5 | **0,716** | **0,857** | 11,5/18 | 4,8/8 | 0,70 | 0,76 | 0,73 | 0,66 | 0,75 |
+  | previsto | 0,72–0,84 | 0,78–0,90 | 11–14 | | | | | | |
+  | v5, stessi semi (e402) | 0,812 | 0,918 | 16,5/18 | 3,0/8 | 0,83 | 0,61 | 0,71 | 0,87 | 0,60 |
+  | sacco vero ridisposto (e401b) | 0,533 | 0,659 | 14,8/18 | 5,2/8 | 0,50 | 0,54 | 0,59 | 0,64 | 0,64 |
+
+  Meglio della v5 su entrambi i giudici (−0,10 e −0,06), **peggio sulla pagella** (11,5 contro 16,5; cancello della
+  riga perso; mancano concordanza delle desinenze, formule, gradiente, legame, omogeneità, profilo pagina,
+  ripetizione, scelte di riga, verticale, parole rare per pagina, prime righe come registro). Semi di ricerca, non
+  ancora il banco.
+  - Con questo sacco la disposizione dà meno unioni attestate (6,2% contro 9,2%) e meno somiglianza a distanza 2
+    (0,19 contro 0,22): i pesi dei legami erano regolati sul sacco vero; con un sacco diverso vanno regolati di
+    nuovo, a sacco finito.
+- **Esito secondo la preregistrazione:** K2 > 0,65 → secondo tentativo (e404b) con il solo pezzo che manca: il
+  carattere della pagina nei segni.

@@ -225,3 +225,25 @@ Risultati nel QUADERNO (voce "vz: e403b"). Solo sacco: T-L 0,690, T-LP 0,688, **
 - In preparazione: e404 (parole note: lessico di sezione + ripetizione con un parametro θ regolato sul pannello; K5 = primo generatore intero a pezzi).
 
 - In sospeso: quali posti ricevono una parola nuova; ordine delle righe; materie di pagella; nascondiglio; banco e293.
+
+**22:08 — e404 lanciato** (coda `vz-note`; `voynichizzatore/sacco.py`, `esperimenti/e404_parole_note.py`). Nella prova di costruzione: senza ripetizione i tipi su parole sono 0,783 (Voynich 0,756): serve poca ripetizione oltre al lessico di sezione. Previsioni del solo sacco: K1 0,80–0,92, K2 0,60–0,75, K4 0,68–0,80; K5 intero 0,72–0,84 / 0,78–0,90.
+
+## 3/10/2026, 22:20 — e404 finito: manca il carattere della pagina; primo generatore intero a pezzi
+
+
+
+Risultati nel QUADERNO (voce "vz: e404"). θ = 765 (ripetizione quasi spenta). Solo sacco: K1 0,786, K2 0,777, K4 0,756: una sola caratteristica pesa, la JSD pagina-manoscritto (0,023 contro 0,040). **K5 (generatore intero a pezzi): 0,716 / 0,857**, meglio della v5 (0,812 / 0,918) sui giudici, peggio sulla pagella (11,5 contro 16,5). Deciso l'e404b: carattere della pagina = scostamenti dei segni presi da un'altra pagina vera della stessa sezione e lingua, forza κ regolata sul pannello; parole nuove sul profilo generato.
+
+
+
+### Dove siamo (3/10, 22:20)
+
+
+
+- Fatti e pubblicati: e400–e404.
+
+- Pezzi: disposizione (ok per i giudici), parole nuove (0,64, provvisorio), parole note (lessico di sezione + θ; manca il carattere).
+
+- In preparazione: e404b (carattere della pagina).
+
+- Dopo: regolare di nuovo i pesi della disposizione sul sacco generato; quali posti hanno una parola nuova; pagella (molte materie perse); nascondiglio; banco e293.

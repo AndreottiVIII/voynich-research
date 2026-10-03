@@ -1,0 +1,30 @@
+giro  0: theta 100.0 | tipi su parole 0.6152 (Voynich 0.7559) | scarto -0.186
+giro  1: theta 228.0 | tipi su parole 0.6873 (Voynich 0.7559) | scarto -0.091
+giro  2: theta 333.6 | tipi su parole 0.7090 (Voynich 0.7559) | scarto -0.062
+giro  3: theta 431.1 | tipi su parole 0.7231 (Voynich 0.7559) | scarto -0.043
+giro  4: theta 514.9 | tipi su parole 0.7324 (Voynich 0.7559) | scarto -0.031
+giro  5: theta 584.4 | tipi su parole 0.7379 (Voynich 0.7559) | scarto -0.024
+giro  6: theta 643.5 | tipi su parole 0.7416 (Voynich 0.7559) | scarto -0.019
+giro  7: theta 694.6 | tipi su parole 0.7446 (Voynich 0.7559) | scarto -0.015
+giro  8: theta 737.9 | tipi su parole 0.7491 (Voynich 0.7559) | scarto -0.009
+giro  9: theta 765.0 | tipi su parole 0.7504 (Voynich 0.7559) | scarto -0.007
+giro 10: theta 787.9 | tipi su parole 0.7490 (Voynich 0.7559) | scarto -0.009
+giro 11: theta 817.5 | tipi su parole 0.7500 (Voynich 0.7559) | scarto -0.008
+theta scelto 765.0, scarto -0.007, converge True
+K1 seme 4: solo sacco 0.802 {'G1': 0.41, 'G2': 0.41, 'G3': 0.67, 'JSD': 0.75}
+K2 seme 3: solo sacco 0.743 {'G1': 0.37, 'G2': 0.36, 'G3': 0.72, 'JSD': 0.73}
+K2 seme 4: solo sacco 0.784 {'G1': 0.41, 'G2': 0.34, 'G3': 0.7, 'JSD': 0.74}
+K1 seme 1: solo sacco 0.801 {'G1': 0.45, 'G2': 0.38, 'G3': 0.64, 'JSD': 0.75}
+K1 seme 3: solo sacco 0.764 {'G1': 0.43, 'G2': 0.35, 'G3': 0.65, 'JSD': 0.75}
+K2 seme 2: solo sacco 0.799 {'G1': 0.43, 'G2': 0.37, 'G3': 0.71, 'JSD': 0.74}
+K2 seme 1: solo sacco 0.782 {'G1': 0.43, 'G2': 0.36, 'G3': 0.72, 'JSD': 0.74}
+K1 seme 2: solo sacco 0.779 {'G1': 0.42, 'G2': 0.35, 'G3': 0.64, 'JSD': 0.74}
+K4 seme 1: solo sacco 0.747 {'G1': 0.57, 'G2': 0.46, 'G3': 0.71, 'JSD': 0.75}
+K4 seme 2: solo sacco 0.795 {'G1': 0.6, 'G2': 0.5, 'G3': 0.7, 'JSD': 0.75}
+K4 seme 3: solo sacco 0.745 {'G1': 0.55, 'G2': 0.5, 'G3': 0.68, 'JSD': 0.75}
+K4 seme 4: solo sacco 0.739 {'G1': 0.6, 'G2': 0.5, 'G3': 0.69, 'JSD': 0.74}
+K5 seme 1: solo sacco 0.747 {'G1': 0.57, 'G2': 0.46, 'G3': 0.71, 'JSD': 0.75} | intero e231 0.702 e266 0.840 pagella 11
+K5 seme 4: solo sacco 0.739 {'G1': 0.6, 'G2': 0.5, 'G3': 0.69, 'JSD': 0.74} | intero e231 0.702 e266 0.858 pagella 11
+K5 seme 2: solo sacco 0.795 {'G1': 0.6, 'G2': 0.5, 'G3': 0.7, 'JSD': 0.75} | intero e231 0.759 e266 0.871 pagella 13
+K5 seme 3: solo sacco 0.745 {'G1': 0.55, 'G2': 0.5, 'G3': 0.68, 'JSD': 0.75} | intero e231 0.702 e266 0.859 pagella 11
+{"K1": 0.786, "K2": 0.777, "K4": 0.756, "K5": 0.756, "K5_intero": [0.716, 0.857]}
