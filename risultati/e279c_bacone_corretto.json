@@ -1,0 +1,38 @@
+{
+ "risultati": {
+  "Voynich": {
+   "bit": 105799,
+   "nullo a parole intere": {
+    "ioc": 0.04446002871653651,
+    "nullo": 0.04379656029686171,
+    "z": 7.147454144872201
+   }
+  },
+  "generatore e241 + interruttori (seme 7)": {
+   "bit": 127952,
+   "nullo a parole intere": {
+    "ioc": 0.06027125426705322,
+    "nullo": 0.05943644583993984,
+    "z": 4.524142120338306
+   }
+  },
+  "positivo: Bacone puro, allineato": {
+   "bit": 105799,
+   "nullo a parole intere": {
+    "ioc": 0.07870299542584816,
+    "nullo": 0.0470217381608998,
+    "z": 357.9197748739664
+   }
+  },
+  "positivo: Bacone al 70%, allineato": {
+   "bit": 105799,
+   "nullo a parole intere": {
+    "ioc": 0.049767902056182624,
+    "nullo": 0.043950725063798726,
+    "z": 103.7338922152181
+   }
+  }
+ },
+ "valido": true,
+ "esito": "artefatto delle parole ripetute"
+}
