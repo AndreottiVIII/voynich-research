@@ -2,6 +2,36 @@
 
 Fotografia aggiornata a mano a ogni cambio importante. I dettagli e i numeri sono nel `QUADERNO.md`.
 
+## Ricerca della notte del 3/10 (e360–e388): il quadro
+
+Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). Dettagli nel QUADERNO e nel dossier
+(§15.11, punti in fondo).
+
+- **Il confine fra parole (la "giuntura").** L'ultimo segno di una parola e il primo della seguente sono legati:
+  - **forte come nelle lingue più legate:** solo 6 testi su 71 lo superano (arabo, sanscrito, tagalog, greco); il
+    gibberish scritto a mano ne ha 13 volte meno (e377, e381);
+  - sta fra parole vere, non solo nelle parole spezzate (e383);
+  - oltre la giuntura le parole quasi non si scelgono le vicine: niente locuzioni come in una lingua (e375);
+  - **vale solo fra segni scritti di seguito:** si rompe all'a capo (e384) e al salto di un disegno dentro la riga
+    (e386). La riga, o il pezzo di riga scritto di fila, è un'unità chiusa.
+- **Regola di raccordo** (e380, e387, e388):
+  - *qo*- davanti alle gallows compare dopo una parola che finisce in -*y*, -*o*, -*d*; dopo -*n*, -*r*, -*s*, -*m*,
+    e senza parola prima (etichette, dopo un disegno), si scrive *o*-;
+  - -*r* davanti ad *a*-, -*l* davanti a *k*-, *t*-, *d*-, *l*-, *s*-, *q*-;
+  - la seguono tutti gli scribi, in lingua A e B: è una regola del sistema.
+- **Lo spazio a volte spezza le parole** dopo elementi corti (*s aiin* / *saiin*, *or aiin* / *oraiin*) (e379).
+- **La ripresa è copia dalla riga subito sopra** (e382, e385): nelle lingue la ripresa viene dall'argomento e si
+  spalma su 3–4 righe; nel Voynich sta tutta nella riga sopra. Il gibberish umano non riprende affatto.
+- **Le sessioni:**
+  - l'inventiva (forme nuove) è della sessione, non dello scriba (e376);
+  - le proprietà delle sessioni variano indipendenti l'una dall'altra (e373).
+- **Bordi della riga:** fortissimi nel Voynich, appena percettibili nel gibberish umano (e374).
+- **Lingue A e B:** non sono la stessa lingua cifrata con due chiavi (e378); cambiano lessico e forma delle parole.
+- **Errori miei, dichiarati nel Quaderno e corretti:**
+  - parole spezzate nei testi di controllo arabi, sanscriti, klingon e lojban (corretto con l'e381);
+  - unità sbagliate nell'e346 (corretto con l'e382);
+  - soglia mal scelta nell'e374 e nell'e384 (esiti alla lettera dichiarati).
+
 ## Ricerca della sera e della notte del 3/10 (e302–e359): il quadro
 
 Davide ha chiesto di lavorare tutta la notte in autonomia ("ogni volta che ti viene un esperimento o idea nuova fallo").
