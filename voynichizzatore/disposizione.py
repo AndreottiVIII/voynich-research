@@ -85,6 +85,25 @@ class Disposizione:
                 self.cop_p[p][(a, b)] += 1
                 self.n_p[p] += 1
         self.n = sum(self.n_p.values())
+        # e407: legame fra l'ultimo segno di una parola e il primo della seguente (il "confine" della pagella)
+        self._u, self._sim, self.att_testo = {}, {}, None
+        coppie = [(self.segni(a)[-1], self.segni(b)[0]) for _, _, ps in rr for a, b in zip(ps, ps[1:])]
+        n = len(coppie)
+        cxy, cx, cy = Counter(coppie), Counter(a for a, _ in coppie), Counter(b for _, b in coppie)
+        self.tab_confine = {(a, b): min(5.0, max(0.2, cxy[(a, b)] / (cx[a] * cy[b] / n))) for a in cx for b in cy if cx[a] * cy[b] / n >= 5}
+
+    def segni(self, w):
+        u = self._u.get(w)
+        if u is None:
+            u = self._u[w] = tuple(D(w))
+        return u
+
+    def somiglianza(self, a, b):
+        k = (a, b) if a <= b else (b, a)
+        x = self._sim.get(k)
+        if x is None:
+            x = self._sim[k] = 1 - misure._dist_norm(self.segni(a), self.segni(b))
+        return x
 
     def conosci(self, parole):
         """Affinita' per le parole che non sono nel testo da cui si e' imparato (e402): dai tratti, come le altre."""
@@ -110,7 +129,10 @@ class Disposizione:
             for nome, (i, j) in (('fin_fin', (2, 2)), ('fin_pre', (2, 0)), ('pre_pre', (0, 0))):
                 x += pesi['bordi'] * math.log(self.tab[nome].get((pa[i], pb[j]), 1.0))
         if pesi['unione']:
-            x += pesi['unione'] * (UNIONE_SI if a + b in self.att else UNIONE_NO)
+            att = self.att_testo if pesi.get('vocabolario_testo') and self.att_testo is not None else self.att
+            x += pesi['unione'] * (UNIONE_SI if a + b in att else UNIONE_NO)
+        if pesi.get('confine'):
+            x += pesi['confine'] * math.log(self.tab_confine.get((self.segni(a)[-1], self.segni(b)[0]), 1.0))
         if pesi['coppia']:
             n = self.n - self.n_p[pag]
             attese = (self.sin[a] - self.sin_p[pag][a]) * (self.des[b] - self.des_p[pag][b]) / n
@@ -126,11 +148,19 @@ class Disposizione:
         aff, classi = self.aff['D1' if strato == 'D1' else 'D2']
         col = {c: i for i, c in enumerate(classi)}
         posti = []          # (classe, indice del posto a sinistra nella riga o -1, a destra o -1)
+        sopra, sotto = [], []           # e407: il posto alla stessa posizione nella riga sopra e in quella sotto (o -1)
+        base_prec, n_prec = -1, 0
         for ini, ps in righe:
             base, n = len(posti), len(ps)
             for j in range(n):
                 c = int(bool(ini)) if strato == 'D1' else 4 * bool(ini) + posizione(j, n)
                 posti.append((col[c], base + j - 1 if j > 0 else -1, base + j + 1 if j < n - 1 else -1))
+                sopra.append(base_prec + j if base_prec >= 0 and j < n_prec else -1)
+                sotto.append(-1)
+                if sopra[-1] >= 0:
+                    sotto[sopra[-1]] = base + j
+            base_prec, n_prec = base, n
+        vert = pesi.get('verticale', 0.0) if strato == 'D3' else 0.0
         arr = [w for _, ps in righe for w in ps]
         rnd.shuffle(arr)
         N = len(arr)
@@ -153,6 +183,14 @@ class Disposizione:
                     if posti[t][2] >= 0:
                         archi.add((t, posti[t][2]))
                 x += sum(leg(arr[a], arr[b]) for a, b in archi)
+                if vert:
+                    archi = set()
+                    for t in (i, j):
+                        if sopra[t] >= 0:
+                            archi.add((sopra[t], t))
+                        if sotto[t] >= 0:
+                            archi.add((t, sotto[t]))
+                    x += vert * sum(self.somiglianza(arr[a], arr[b]) for a, b in archi)
             return x
         if N >= 2:
             for _ in range(passate * N):
@@ -174,6 +212,7 @@ class Disposizione:
         """rr: righe (pagina, inizio paragrafo, parole) con i sacchi da disporre; stessa impaginazione in uscita."""
         rnd = random.Random(seme)
         self.conosci(w for _, _, ps in rr for w in ps)
+        self.att_testo = set(w for _, _, ps in rr for w in ps)
         per = OrderedDict()
         for p, ini, ps in rr:
             per.setdefault(p, []).append((ini, ps))

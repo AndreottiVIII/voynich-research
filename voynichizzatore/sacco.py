@@ -144,11 +144,17 @@ class Sacco:
                 righe[i] = riga
             if fu:
                 profilo = fu.profilo(gia if kappa is not None else [w for i in idx for w in self.rr[i][2]])
+                per_lung = None
+                if fu.unioni:
+                    self._segni(set(gia))
+                    per_lung = {}
+                    for w in sorted(set(gia)):
+                        per_lung.setdefault(sum(self._cache_segni[w].values()), []).append(w)
                 for i in idx:
                     _, ini, ps = self.rr[i]
                     for j, w in enumerate(ps):
                         if nuovo[i][j]:
-                            righe[i][j] = fu.inventa('T-LPS', 4 * bool(ini) + posizione(j, len(ps)), profilo, rnd)
+                            righe[i][j] = fu.inventa('T-LPS', 4 * bool(ini) + posizione(j, len(ps)), profilo, rnd, per_lung)
             for i in idx:
                 out[i] = (p, self.rr[i][1], righe[i])
         return [out[i] for i in range(len(self.rr))]

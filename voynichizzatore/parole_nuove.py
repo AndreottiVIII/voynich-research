@@ -102,10 +102,11 @@ class FormeUniche:
     DECIMO, CANDIDATE, ALFA = 0.1, 6, 50.0
     COMUNE, MINIMO_CONTESTO = 0.01, 3      # e405: segni comuni (quota nel libro); contesto di tre segni visto almeno 3 volte
 
-    def __init__(self, rr, comuni=False, quattro=False, forza=1.0):
+    def __init__(self, rr, comuni=False, quattro=False, forza=1.0, unioni=0.0):
         """comuni: il profilo pesa solo i segni comuni (e405, N1); quattro: modello a quattro segni con ripiego sui
         trigrammi (N2); forza: esponente del peso di profilo nella scelta fra candidate (N3)."""
         self.comuni, self.quattro, self.forza = comuni, quattro, forza
+        self.unioni = unioni        # e407: probabilita' che una parola nuova di almeno 6 segni sia l'unione di due parole note della pagina
         self.campioni = self.scartate = 0
         import math
         from disposizione import posizione
@@ -182,7 +183,16 @@ class FormeUniche:
                     vicina = w
         return vicina
 
-    def inventa(self, modo, classe, profilo, rnd):
+    def _unione(self, per_lung, L, rnd):
+        for _ in range(20):
+            la = rnd.randrange(2, L - 1)
+            if per_lung.get(la) and per_lung.get(L - la):
+                w = rnd.choice(per_lung[la]) + rnd.choice(per_lung[L - la])
+                if w not in self.att and w not in self.usate:
+                    return w
+        return None
+
+    def inventa(self, modo, classe, profilo, rnd, per_lung=None):
         """modo: 'T-L' (lunghezza), 'T-LP' (anche tipo di posto), 'T-LPS' (anche profilo della pagina)."""
         cl = 'tutte' if modo == 'T-L' else classe
         if cl not in self.tri:
@@ -191,7 +201,11 @@ class FormeUniche:
         for _ in range(self.CANDIDATE if modo == 'T-LPS' else 1):
             w = None
             while w is None:
-                w = self._una(cl, rnd.choice(self.lung[cl]), rnd)
+                L = rnd.choice(self.lung[cl])
+                if self.unioni and per_lung and L >= 6 and rnd.random() < self.unioni:
+                    w = self._unione(per_lung, L, rnd)
+                if w is None:
+                    w = self._una(cl, L, rnd)
             cand.append(w)
         if len(cand) > 1:
             import math
