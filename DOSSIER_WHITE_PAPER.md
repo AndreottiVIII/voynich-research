@@ -981,3 +981,11 @@ negativi; i numeri sono nei file di `risultati/`.
   soglia guardava solo lo z.
 - **L'inventiva è della sessione, non dello scriba** (e376): dentro la stessa mano di Davis, sezione e lingua le forme
   nuove variano fra i bifogli 4 volte il caso (z 11,4); la mano non spiega niente. Gli errori restano uniformi.
+- **La giuntura fra parole è forte come in una lingua** (e377). L'informazione fra l'ultimo segno di una parola e il
+  primo della seguente, oltre il caso, vale nel Voynich 0,19 bit. Nelle lingue vere va da 0,03 (latino) a 0,47
+  (sanscrito, arabo del Corano), con italiano 0,07–0,11 e francese 0,15–0,17 (controllo per testo esplorativo). Nel
+  gibberish scritto a mano dai volontari vale 0,014 e nel generatore di Timm e Schinner 0,010. Insieme all'e375: un
+  legame forte fra segni di confine, quasi nessuno fra parole intere.
+- **Lo spazio a volte spezza le parole** (e379): dopo un elemento corto (*s*, *or*, *ol*, *ar*), la parola seguente
+  forma con lui, più del caso, una parola scritta altrove tutta attaccata (*s aiin* / *saiin*, *or aiin* / *oraiin*,
+  *ol chedy* / *olchedy*; z 6,9 con un nullo che conserva la giuntura). Con le parole lunghe no.
