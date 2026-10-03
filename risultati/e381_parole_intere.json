@@ -1,0 +1,549 @@
+{
+ "e374": {
+  "testi sensati": {
+   "righe": 3935,
+   "F1": 0.02139360785890397,
+   "F2": 0.022956901303446544,
+   "L1": 1.0630566964812482,
+   "L2": 0.4775420840288973,
+   "z": [
+    6.807038144794177,
+    5.489039057417799,
+    13.502994313967521,
+    1.6155056679930015
+   ]
+  },
+  "testi sensati: Historical": {
+   "righe": 1617,
+   "F1": 0.04299523694888141,
+   "F2": 0.04488984313972342,
+   "L1": 0.9854212082133298,
+   "L2": 0.4974805774155566,
+   "z": [
+    5.5532119332260095,
+    6.518518851755574,
+    8.0936533300278,
+    1.480233085291098
+   ]
+  },
+  "testi sensati: Modern": {
+   "righe": 1490,
+   "F1": 0.019883299923534388,
+   "F2": 0.020369586627344158,
+   "L1": 1.242392173771762,
+   "L2": 0.3873586167247822,
+   "z": [
+    3.720685939114734,
+    1.315559338389681,
+    10.892797859125036,
+    -0.5030005249363625
+   ]
+  },
+  "testi sensati: Conlangs": {
+   "righe": 828,
+   "F1": 0.012011643618073553,
+   "F2": 0.010446814378811143,
+   "L1": 0.8891484605955728,
+   "L2": 0.5980856586632051,
+   "z": [
+    3.16844389412329,
+    0.8185163699473249,
+    4.8104892489299385,
+    2.026377167412995
+   ]
+  }
+ },
+ "e375": {
+  "testi sensati: Historical": {
+   "pagine": 214,
+   "parole": 34569,
+   "S": 2124,
+   "nullo": 1534.41,
+   "R": 1.3842454102879933,
+   "z": 28.38237201827097
+  },
+  "testi sensati: Modern": {
+   "pagine": 207,
+   "parole": 34975,
+   "S": 1876,
+   "nullo": 1450.265,
+   "R": 1.2935566948109483,
+   "z": 25.703425676520137
+  },
+  "testi sensati: Conlangs": {
+   "pagine": 172,
+   "parole": 29544,
+   "S": 1863,
+   "nullo": 1599.825,
+   "R": 1.1645023674464394,
+   "z": 14.636780412923699
+  }
+ },
+ "e377": {
+  "testi sensati: Historical": {
+   "righe": 4815,
+   "parole": 34398,
+   "I": 1.7152672446084432,
+   "nullo": 1.6575234566787824,
+   "E": 0.05774378792966073,
+   "z": 17.903072115009756
+  },
+  "testi sensati: Modern": {
+   "righe": 4642,
+   "parole": 34760,
+   "I": 1.1972498618869927,
+   "nullo": 1.1496398398505319,
+   "E": 0.04761002203646081,
+   "z": 17.814176210154066
+  },
+  "testi sensati: Conlangs": {
+   "righe": 3958,
+   "parole": 29371,
+   "I": 0.16498025446945858,
+   "nullo": 0.12271533660437418,
+   "E": 0.04226491786508439,
+   "z": 15.758496801750095
+  }
+ },
+ "e377_per_testo": [
+  {
+   "testo": "Historical - Arabic - Literary - Quran.txt",
+   "parole": 9927,
+   "E": 0.35914568006997916,
+   "z": 67.45662282631629
+  },
+  {
+   "testo": "Historical - Sanskrit - Literary - Mahabharata.txt",
+   "parole": 9940,
+   "E": 0.23617358133909483,
+   "z": 25.42661174110954
+  },
+  {
+   "testo": "Modern - Tagalog - Literary - NT - Ang Dating Biblia.txt",
+   "parole": 9926,
+   "E": 0.2090929639328488,
+   "z": 94.6691710123687
+  },
+  {
+   "testo": "Modern - Tagalog - Technical - Tuberculosis Wiki.txt",
+   "parole": 6119,
+   "E": 0.20662957017822114,
+   "z": 60.646354797324186
+  },
+  {
+   "testo": "Historical - Sanskrit - Technical - Charaka Samhita.txt",
+   "parole": 9853,
+   "E": 0.20559987840217508,
+   "z": 16.04501645594029
+  },
+  {
+   "testo": "Historical - Greek - Technical - De odoribus.txt",
+   "parole": 5485,
+   "E": 0.20497157240028996,
+   "z": 32.54311504512367
+  },
+  {
+   "testo": "Modern - Chinese (Pinyin) - Literary - NT - Matthew.txt",
+   "parole": 9972,
+   "E": 0.15913909274020308,
+   "z": 60.074677414365446
+  },
+  {
+   "testo": "Historical - English - Technical - Secreta Alberti.txt",
+   "parole": 9988,
+   "E": 0.1488281944358238,
+   "z": 56.42177357758214
+  },
+  {
+   "testo": "Modern - Hebrew - Technical - Voynich Wiki.txt",
+   "parole": 1417,
+   "E": 0.14370294315692128,
+   "z": 9.622971091180885
+  },
+  {
+   "testo": "Modern - Maori - Technical - Polandball Wiki.txt",
+   "parole": 1384,
+   "E": 0.14334051669168343,
+   "z": 12.177582094279206
+  },
+  {
+   "testo": "Conlangs - Esperanto - Literary - NT.txt",
+   "parole": 9918,
+   "E": 0.13469413020726412,
+   "z": 44.867889274283066
+  },
+  {
+   "testo": "Conlangs - Esperanto - Technical - Voynich Wiki.txt",
+   "parole": 3424,
+   "E": 0.1278856295973862,
+   "z": 22.234067005926647
+  },
+  {
+   "testo": "Historical - Mayan (Yucatec) - Technical - Chilam Balam.txt",
+   "parole": 1000,
+   "E": 0.1276392690825484,
+   "z": 6.777583126831586
+  },
+  {
+   "testo": "Historical - Arabic - Technical - Avicenna.txt",
+   "parole": 9843,
+   "E": 0.12105680802653453,
+   "z": 35.328777440888096
+  },
+  {
+   "testo": "Modern - Chinese (Pinyin) - Technical - Voynich Wiki.txt",
+   "parole": 1972,
+   "E": 0.12014301525359694,
+   "z": 8.90904201127146
+  },
+  {
+   "testo": "Historical - Italian - Literary - NT - Diodati.txt",
+   "parole": 9923,
+   "E": 0.1176155718739272,
+   "z": 45.896154362585605
+  },
+  {
+   "testo": "Historical - Anglo-Saxon - Technical - Leechbook.txt",
+   "parole": 988,
+   "E": 0.11429674360448283,
+   "z": 5.455265284572801
+  },
+  {
+   "testo": "Historical - French - Literary - NT - Martin.txt",
+   "parole": 9934,
+   "E": 0.11226099129924474,
+   "z": 36.270704207016976
+  },
+  {
+   "testo": "Conlangs - Toki Pona - Technical - Turkey-Mexico Wikia.txt",
+   "parole": 1442,
+   "E": 0.1122254875639136,
+   "z": 8.456135565694884
+  },
+  {
+   "testo": "Modern - French - Literary - NT.txt",
+   "parole": 9933,
+   "E": 0.11145914373710428,
+   "z": 42.228226293770156
+  },
+  {
+   "testo": "Conlangs - Toki Pona - Literary - NT - Sermon on the Mount.txt",
+   "parole": 2614,
+   "E": 0.10818532594684296,
+   "z": 30.70807289533491
+  },
+  {
+   "testo": "Modern - Swahili - Technical - Lung Cancer Wiki.txt",
+   "parole": 4313,
+   "E": 0.10669380359166959,
+   "z": 20.609545556084175
+  },
+  {
+   "testo": "Modern - French - Technical - Voynich Wiki.txt",
+   "parole": 7811,
+   "E": 0.10662731971913349,
+   "z": 30.40069632999304
+  },
+  {
+   "testo": "Modern - Italian - Technical - Voynich Wiki.txt",
+   "parole": 2787,
+   "E": 0.10583381242121892,
+   "z": 12.766109343406617
+  },
+  {
+   "testo": "Conlangs - LOLCat - Literary - NT - Matthew.txt",
+   "parole": 9977,
+   "E": 0.1040160361633668,
+   "z": 35.05658634460065
+  },
+  {
+   "testo": "Conlangs - Klingon - Technical - Proxima Centauri B Wikia.txt",
+   "parole": 655,
+   "E": 0.1033341048314873,
+   "z": 3.762479604294434
+  },
+  {
+   "testo": "Modern - English - Literary - NT.txt",
+   "parole": 9980,
+   "E": 0.10105631929492706,
+   "z": 32.983053887107616
+  },
+  {
+   "testo": "Modern - Italian - Literary - NT.txt",
+   "parole": 9926,
+   "E": 0.10102948787602387,
+   "z": 33.66359681003872
+  },
+  {
+   "testo": "Historical - Spanish - Literary - NT - Sagradas Escrituras.txt",
+   "parole": 9926,
+   "E": 0.10096081598930072,
+   "z": 32.201837626269665
+  },
+  {
+   "testo": "Modern - English - Technical - Voynich Wiki.txt",
+   "parole": 7775,
+   "E": 0.10035980428598971,
+   "z": 27.520817829072087
+  },
+  {
+   "testo": "Historical - English - Literary - NT (KJV).txt",
+   "parole": 9976,
+   "E": 0.09989525618489355,
+   "z": 36.150602978739215
+  },
+  {
+   "testo": "Historical - Mayan (Kaqchikel) - Literary - Annals of the Cakchiquels.txt",
+   "parole": 9965,
+   "E": 0.09871237895808707,
+   "z": 41.79507769186069
+  },
+  {
+   "testo": "Modern - Arabic - Literary - NT.txt",
+   "parole": 9890,
+   "E": 0.09665979507068946,
+   "z": 33.76873276929037
+  },
+  {
+   "testo": "Modern - Russian - Technical - Voynich Wiki.txt",
+   "parole": 5788,
+   "E": 0.09559698039774825,
+   "z": 18.148388660598847
+  },
+  {
+   "testo": "Modern - Wolof - Technical - Senegal Wiki.txt",
+   "parole": 4325,
+   "E": 0.09499891469920249,
+   "z": 14.084981283146833
+  },
+  {
+   "testo": "Conlangs - Lojban - Literary - Alice in Wonderland.txt",
+   "parole": 9978,
+   "E": 0.09412603830466926,
+   "z": 62.04562701626178
+  },
+  {
+   "testo": "Conlangs - Volapuk - Literary - NT.txt",
+   "parole": 9916,
+   "E": 0.09343756441976811,
+   "z": 27.955753981299054
+  },
+  {
+   "testo": "Conlangs - Interlingua - Technical - EU Wiki.txt",
+   "parole": 9953,
+   "E": 0.09177134511773727,
+   "z": 36.85466398539228
+  },
+  {
+   "testo": "Modern - Maori - Literary - NT.txt",
+   "parole": 9951,
+   "E": 0.09005247095456749,
+   "z": 90.26820699376952
+  },
+  {
+   "testo": "Modern - Hebrew - Literary - NT.txt",
+   "parole": 9924,
+   "E": 0.08556506005036973,
+   "z": 34.30576394526633
+  },
+  {
+   "testo": "Modern - Spanish - Technical - Voynich Wiki.txt",
+   "parole": 6946,
+   "E": 0.0855490234831533,
+   "z": 19.914548848765314
+  },
+  {
+   "testo": "Conlangs - Interlingua - Literary - NT.txt",
+   "parole": 10000,
+   "E": 0.08428737163224514,
+   "z": 50.22384357074415
+  },
+  {
+   "testo": "Historical - Nahuatl - Literary - Nican Mopohua.txt",
+   "parole": 3224,
+   "E": 0.08411947538835049,
+   "z": 16.172881000823043
+  },
+  {
+   "testo": "Modern - Turkish - Literary - NT.txt",
+   "parole": 9882,
+   "E": 0.08369032818556983,
+   "z": 32.680775692700124
+  },
+  {
+   "testo": "Historical - German - Technical - German Herbarium.txt",
+   "parole": 9985,
+   "E": 0.07639418201403604,
+   "z": 24.347723017923947
+  },
+  {
+   "testo": "Historical - Nahuatl - Technical - Florentine Codex.txt",
+   "parole": 2162,
+   "E": 0.07095475857398241,
+   "z": 11.179075143378187
+  },
+  {
+   "testo": "Conlangs - Volapuk - Technical - History Wiki.txt",
+   "parole": 1601,
+   "E": 0.0705721788911528,
+   "z": 5.468430724528282
+  },
+  {
+   "testo": "Conlangs - Lojban - Technical - Science News.txt",
+   "parole": 1626,
+   "E": 0.06924186240378387,
+   "z": 9.698199086670177
+  },
+  {
+   "testo": "Modern - Arabic - Technical - Voynich Wiki.txt",
+   "parole": 2048,
+   "E": 0.06760339917598396,
+   "z": 5.952884274102697
+  },
+  {
+   "testo": "Historical - German - Literary - NT - Luther.txt",
+   "parole": 9917,
+   "E": 0.0674891588817583,
+   "z": 24.6668402337426
+  },
+  {
+   "testo": "Historical - Spanish - Technical - De Materia Medica.txt",
+   "parole": 1234,
+   "E": 0.06666640784419064,
+   "z": 5.623923264537148
+  },
+  {
+   "testo": "Modern - German - Literary - NT.txt",
+   "parole": 9926,
+   "E": 0.06456741153831078,
+   "z": 24.40999761709673
+  },
+  {
+   "testo": "Historical - Greek - Literary - NT - Textus Receptus.txt",
+   "parole": 9928,
+   "E": 0.06381998143130631,
+   "z": 27.74970065717231
+  },
+  {
+   "testo": "Historical - Latin (Abbreviated) - Literary - NT (Vulgate).txt",
+   "parole": 9888,
+   "E": 0.06362157190280159,
+   "z": 23.014940513979226
+  },
+  {
+   "testo": "Historical - Italian - Technical - Della Pittura.txt",
+   "parole": 9991,
+   "E": 0.06190745534474961,
+   "z": 26.173532658355647
+  },
+  {
+   "testo": "Modern - Turkish - Technical - Middle Ages Wiki.txt",
+   "parole": 3088,
+   "E": 0.06178276619480222,
+   "z": 7.0521336176076925
+  },
+  {
+   "testo": "Historical - Russian - Literary - NT - Codex Marianus.txt",
+   "parole": 10003,
+   "E": 0.05881669521590345,
+   "z": 17.8960241698047
+  },
+  {
+   "testo": "Conlangs - Klingon - Literary - NT - Mark.txt",
+   "parole": 8187,
+   "E": 0.05767576422481356,
+   "z": 14.878792961538204
+  },
+  {
+   "testo": "Historical - Anglo-Saxon - Literary - NT - Hatton Gospels.txt",
+   "parole": 9882,
+   "E": 0.05250185728130817,
+   "z": 18.78162549977869
+  },
+  {
+   "testo": "Modern - Swahili - Literary - NT.txt",
+   "parole": 9895,
+   "E": 0.05054666927702879,
+   "z": 39.757304775587755
+  },
+  {
+   "testo": "Conlangs - Neo-Quenya - Technical - Europe-Taipei Wikia.txt",
+   "parole": 873,
+   "E": 0.04974237377200763,
+   "z": 2.5760398080599436
+  },
+  {
+   "testo": "Historical - Latin (Abbreviated) - Technical - Pliny's Natural History.txt",
+   "parole": 9886,
+   "E": 0.04826604842664281,
+   "z": 14.655079667571256
+  },
+  {
+   "testo": "Historical - Latin - Technical - Pliny's Natural History.txt",
+   "parole": 9885,
+   "E": 0.046026347523643166,
+   "z": 11.288068685251504
+  },
+  {
+   "testo": "Conlangs - Neo-Quenya - Literary - NT.txt",
+   "parole": 9962,
+   "E": 0.043387931073819615,
+   "z": 17.36035906179888
+  },
+  {
+   "testo": "Historical - Flemish - Technical - Cruydeboeck.txt",
+   "parole": 9912,
+   "E": 0.040274652803607515,
+   "z": 15.755556059243332
+  },
+  {
+   "testo": "Modern - German - Technical - Voynich Wiki.txt",
+   "parole": 5608,
+   "E": 0.039514888006518145,
+   "z": 8.33678820532116
+  },
+  {
+   "testo": "Modern - Yoruba - Technical - Jupiter Wiki.txt",
+   "parole": 3128,
+   "E": 0.03619883338214405,
+   "z": 6.7052813512995995
+  },
+  {
+   "testo": "Historical - Portuguese - Technical - Coloquios dos simples.txt",
+   "parole": 5187,
+   "E": 0.035719964689644695,
+   "z": 7.628520406213625
+  },
+  {
+   "testo": "Historical - Flemish - Literary - NT.txt",
+   "parole": 9985,
+   "E": 0.032660959757567776,
+   "z": 12.774804852581484
+  },
+  {
+   "testo": "Historical - Latin - Literary - NT (Vulgate).txt",
+   "parole": 9888,
+   "E": 0.032504560188365075,
+   "z": 15.069031343261656
+  },
+  {
+   "testo": "Modern - Portuguese - Technical - Voynich Wiki.txt",
+   "parole": 2681,
+   "E": 0.030670919587976492,
+   "z": 3.140925763203114
+  }
+ ],
+ "e377_voynich_10000": [
+  0.17480292269389852,
+  0.18209530989748487,
+  0.17543143708264103,
+  0.1859346187356074,
+  0.1855752336936566
+ ],
+ "esiti": {
+  "e374": "invariato (dipendeva solo dal gibberish)",
+  "e375": "controllo positivo confermato",
+  "e377": "invariato (dipendeva solo da gibberish e Voynich)",
+  "giuntura_del_voynich": "E 0.182; 6 testi su 71 hanno E maggiore"
+ }
+}
