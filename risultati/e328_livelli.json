@@ -1,0 +1,224 @@
+{
+ "e328": {
+  "righe": 2482,
+  "variabili": {
+   "finale -y": {
+    "livelli": {
+     "fascicolo": {
+      "delta_R2": 0.16175677048728795,
+      "nullo": 0.006539672761329391,
+      "eccesso": 0.15521709772595857,
+      "z": 67.99644634429413
+     },
+     "bifoglio": {
+      "delta_R2": 0.08823541282495775,
+      "nullo": 0.011682382564229373,
+      "eccesso": 0.07655303026072838,
+      "z": 28.78418007896403
+     },
+     "pagina": {
+      "delta_R2": 0.09872814744257608,
+      "nullo": 0.04952661005064886,
+      "eccesso": 0.049201537391927216,
+      "z": 9.964502928522291
+     },
+     "paragrafo": {
+      "delta_R2": 0.14312884505304857,
+      "nullo": 0.08680562090919088,
+      "eccesso": 0.056323224143857695,
+      "z": 9.544737993382164
+     },
+     "riga (resto)": {
+      "delta_R2": 0.5081508241921296
+     }
+    },
+    "livello_con_eccesso_maggiore": "fascicolo",
+    "livelli_z_oltre_3": [
+     "fascicolo",
+     "bifoglio",
+     "pagina",
+     "paragrafo"
+    ]
+   },
+   "finale -n": {
+    "livelli": {
+     "fascicolo": {
+      "delta_R2": 0.07654990769081792,
+      "nullo": 0.00614117318163023,
+      "eccesso": 0.07040873450918769,
+      "z": 29.754458500020263
+     },
+     "bifoglio": {
+      "delta_R2": 0.0814495099875538,
+      "nullo": 0.0135828277772466,
+      "eccesso": 0.0678666822103072,
+      "z": 19.701695536492625
+     },
+     "pagina": {
+      "delta_R2": 0.09963928024807006,
+      "nullo": 0.05429802261894316,
+      "eccesso": 0.0453412576291269,
+      "z": 7.972462007325954
+     },
+     "paragrafo": {
+      "delta_R2": 0.15025987588432999,
+      "nullo": 0.09889114441820852,
+      "eccesso": 0.05136873146612146,
+      "z": 7.133012308330395
+     },
+     "riga (resto)": {
+      "delta_R2": 0.5921014261892282
+     }
+    },
+    "livello_con_eccesso_maggiore": "fascicolo",
+    "livelli_z_oltre_3": [
+     "fascicolo",
+     "bifoglio",
+     "pagina",
+     "paragrafo"
+    ]
+   },
+   "segno e": {
+    "livelli": {
+     "fascicolo": {
+      "delta_R2": 0.2725288309538974,
+      "nullo": 0.006260773229797457,
+      "eccesso": 0.26626805772409995,
+      "z": 127.16550255325525
+     },
+     "bifoglio": {
+      "delta_R2": 0.11677441122725551,
+      "nullo": 0.010265926593280812,
+      "eccesso": 0.1065084846339747,
+      "z": 39.49062277505462
+     },
+     "pagina": {
+      "delta_R2": 0.11163267664007087,
+      "nullo": 0.03801377075287761,
+      "eccesso": 0.07361890588719326,
+      "z": 17.43618505544021
+     },
+     "paragrafo": {
+      "delta_R2": 0.12723780065566737,
+      "nullo": 0.07364130833908547,
+      "eccesso": 0.053596492316581895,
+      "z": 10.04674212739757
+     },
+     "riga (resto)": {
+      "delta_R2": 0.37182628052310884
+     }
+    },
+    "livello_con_eccesso_maggiore": "fascicolo",
+    "livelli_z_oltre_3": [
+     "fascicolo",
+     "bifoglio",
+     "pagina",
+     "paragrafo"
+    ]
+   },
+   "iniziale qo-": {
+    "livelli": {
+     "fascicolo": {
+      "delta_R2": 0.1867998419234475,
+      "nullo": 0.005918254447903267,
+      "eccesso": 0.18088158747554425,
+      "z": 84.15691876396502
+     },
+     "bifoglio": {
+      "delta_R2": 0.04223086558640296,
+      "nullo": 0.009364095379046346,
+      "eccesso": 0.032866770207356615,
+      "z": 13.381975365488131
+     },
+     "pagina": {
+      "delta_R2": 0.08479606250274255,
+      "nullo": 0.04165529366830206,
+      "eccesso": 0.043140768834440485,
+      "z": 8.81560653371936
+     },
+     "paragrafo": {
+      "delta_R2": 0.13696691346348322,
+      "nullo": 0.09633322041081885,
+      "eccesso": 0.04063369305266437,
+      "z": 5.901589516846123
+     },
+     "riga (resto)": {
+      "delta_R2": 0.5492063165239238
+     }
+    },
+    "livello_con_eccesso_maggiore": "fascicolo",
+    "livelli_z_oltre_3": [
+     "fascicolo",
+     "bifoglio",
+     "pagina",
+     "paragrafo"
+    ]
+   },
+   "lunghezza media": {
+    "livelli": {
+     "fascicolo": {
+      "delta_R2": 0.14426327510419124,
+      "nullo": 0.006214461230917541,
+      "eccesso": 0.1380488138732737,
+      "z": 61.8389406021266
+     },
+     "bifoglio": {
+      "delta_R2": 0.05574676547291038,
+      "nullo": 0.011714368019919144,
+      "eccesso": 0.044032397452991236,
+      "z": 14.739694553589027
+     },
+     "pagina": {
+      "delta_R2": 0.09101502769866002,
+      "nullo": 0.049832262326938805,
+      "eccesso": 0.04118276537172121,
+      "z": 7.568604580171595
+     },
+     "paragrafo": {
+      "delta_R2": 0.11718524517461715,
+      "nullo": 0.09859228218451589,
+      "eccesso": 0.018592962990101256,
+      "z": 2.5623512939812887
+     },
+     "riga (resto)": {
+      "delta_R2": 0.5917896865496213
+     }
+    },
+    "livello_con_eccesso_maggiore": "fascicolo",
+    "livelli_z_oltre_3": [
+     "fascicolo",
+     "bifoglio",
+     "pagina"
+    ]
+   }
+  }
+ },
+ "e329": {
+  "coppie": 82,
+  "lessico": 0.706619039262904,
+  "nullo_lessico": 0.6728022212374372,
+  "z_lessico": 6.710383831759757,
+  "grafia": 5.107369445222371,
+  "nullo_grafia": 4.043877750058531,
+  "z_grafia": 6.778674617722806,
+  "esito": "argomento e abitudine"
+ },
+ "e330": {
+  "fogli (recto → verso)": {
+   "coppie": 59,
+   "lontana_meno_vicina_asse": 1.2672926818541577,
+   "z_asse": 2.539036581690799,
+   "lontana_meno_vicina_segni": 0.016021667392152612,
+   "z_segni": 2.8492839328571757,
+   "esito": "incerto"
+  },
+  "aperture (verso → recto seguente)": {
+   "coppie": 58,
+   "lontana_meno_vicina_asse": 0.6336164639791861,
+   "z_asse": 0.8852424892585283,
+   "lontana_meno_vicina_segni": 0.000228909262729979,
+   "z_segni": 0.014721181636234605,
+   "esito": "no"
+  }
+ }
+}
