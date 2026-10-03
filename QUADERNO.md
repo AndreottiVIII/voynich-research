@@ -10336,3 +10336,33 @@ Somiglianza = quota di parole (3+ segni) con una parola uguale o a una modifica 
 - **Esito preregistrato: continuità fra paragrafi vicini.**
 - **Lettura:** la copia riga per riga si ferma al confine del paragrafo (e343), ma il lessico scorre un po' da un
   paragrafo al successivo, come in una sessione di scrittura continua. L'effetto è piccolo.
+
+## 4/10/2026 — vz: e412, il giudice forte: con la differenza fra le due metà della pagina scende a 0,604; le coppie viste altrove non tornano
+
+
+
+Chat del voynichizzatore. Preregistrato (`preregistrazioni/e412.md`). Risultati in `risultati/e412_giudice_forte.md`. Semi 1–4, corpo senza messaggio; riferimento G2 dell'e410 (corpo della v11): 0,552 / 0,616, pagella 15,8, cancello 3/4.
+
+
+
+| strato | AUC e231 | AUC e266 (per seme) | G9 | pagella | estese | cancello | coppie viste altrove (0,221) | JSD fra le metà (0,0503) |
+
+|---|---|---|---|---|---|---|---|---|
+
+| G2 (corpo della v11) | 0,552 | 0,616 | 0,64 | 15,8/18 | 4,5/8 | 3/4 | 0,246 | 0,038 |
+
+| M1, coppia esatta con peso anche negativo (−0,16) | 0,563 | 0,625 (0,611, 0,597, 0,660, 0,634) | 0,64 | 15,0/18 | 4,2/8 | 1/4 | 0,245 | 0,040 |
+
+| M2, + differenza fra le due metà (peso 1,10; coppia −0,37) | 0,566 | **0,604** (0,606, 0,595, 0,608, 0,607) | **0,54** | 15,0/18 | 3,5/8 | 3/4 | 0,244 | 0,053 |
+
+
+
+- **M1 non fa quello che doveva:** con il peso della coppia esatta negativo le coppie viste altrove restano a 0,245 (fascia ≤ 0,241). Le coppie che si ripetono nel testo generato non sono quelle frequenti nel Voynich: nascono dai legami di forma fra parole frequenti del lessico. Previsione sbagliata; da solo il pezzo fa anche perdere il cancello (A sotto 1,0 in tre semi). Lacuna dichiarata sulle coppie viste altrove.
+
+- **M2 fa quello che doveva:** la JSD fra le due metà torna (0,052–0,055 contro 0,050), il gruppo G9 del giudice forte scende da 0,64 a 0,54 e **il giudice forte a 0,604** (previsto ≤ 0,60: mancato di 0,004), molto stabile fra i semi (0,595–0,608). Cancello in 3 semi su 4. Il giudice dell'e231 resta a 0,57.
+
+- **Costo:** la materia "omogeneità" (somiglianza nella riga entro ±0,008 dal Voynich) si perde in 4 semi su 4; la pagella scende a 15,0 (su 17 raggiungibili).
+
+- **Esito secondo la preregistrazione:** M2 si tiene (statistica tornata, giudice forte sceso, cancello in almeno 2 semi) e diventa la **v12**, con il messaggio nel sacco; va al banco.
+
+- **Lettura per la ricerca sul Voynich.** Nel Voynich la metà alta e la metà bassa di una pagina hanno profili dei segni più diversi di quanto dia il caso (0,050 contro 0,038 rimescolando le righe): un generatore con le righe scambiabili si riconosce da questo. Il perché (paragrafi, tempo, penna) resta da studiare.

@@ -485,3 +485,21 @@ Nel QUADERNO (voce "vz: e411"). H1 (carattere per posizione) non passa (profilo 
 - Versioni al banco: v10 (50/54 senza cancello; 0,550 / 0,662), v11 (47/54 con il cancello 3/3; 0,565 / 0,647). Leggere le pagelle su 51 (17 × 3), non su 54.
 
 - Prossimo (e412): il giudice forte. Due caratteristiche lo tengono sopra 0,6: coppie viste altrove (0,246 contro 0,221) e differenza fra le due metà della pagina (JSD 0,038 contro 0,050).
+
+**00:39 — e412 lanciato** (coda `vz-forte`). Dalla prova: con il peso delle metà circa 1,9 la JSD fra le due metà è 0,0497 (Voynich 0,0503); un peso di 20 era troppo (JSD 0,24) e sballava gli altri valori, quindi la regolazione parte da 2.
+
+## 4/10/2026, 01:00 — e412: giudice forte a 0,604; v12 al banco
+
+
+
+Nel QUADERNO (voce "vz: e412"). M1 (coppia negativa) non serve da solo; **M2 (+ metà della pagina) 0,566 / 0,604, G9 0,54, cancello 3/4, pagella 15,0** (persa l'omogeneità). **v12 = corpo M2 + messaggio nel sacco** (`pezzi_parametri_v12.json`).
+
+
+
+### Dove siamo (4/10, 01:00)
+
+
+
+- In corso: banco e293 della v12.
+
+- Tre versioni a pezzi con compromessi diversi: v10 (più materie, senza cancello), v11 (cancello), v12 (cancello e giudice forte più basso, meno materie).
