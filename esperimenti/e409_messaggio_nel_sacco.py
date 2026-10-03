@@ -115,7 +115,7 @@ def main():
           'Corpo di partenza: %s. Isidoro XVII (%d bit dopo compressione e cifratura), quattro chiavi. Preregistrazione: `preregistrazioni/e409.md`.' % (VERSIONE, a['bit_messaggio']), '',
           '- Andata e ritorno esatta: %d su %d; chiave sbagliata respinta: %d su %d.' % (a['decodifica_esatta'], len(CHIAVI), a['chiave_sbagliata_respinta'], len(CHIAVI)),
           '- Capacità del libro: %.0f bit con il messaggio, %.0f con soli bit di riempimento (servono %d); pagine usate dal messaggio %.0f su 207.' % (
-              a['capacita_bit'], sintesi['b']['capacita_bit'], a['bit_messaggio'], a['pagine_usate']),
+              a['capacita_bit'], sintesi['b']['capacita_bit'] if 'b' in sintesi else float('nan'), a['bit_messaggio'], a['pagine_usate']),
           ('- Nascondiglio vecchio (c): decodifica esatta %d su %d.' % (sintesi['c']['decodifica_esatta'], len(CHIAVI))) if 'c' in sintesi else '', '',
           '| caso | che cosa | AUC e231 (per chiave) | AUC e266 (per chiave) | solo sacco | pagella | estese | riga | tipi su parole (Voynich %.4f) | JSD (Voynich %.4f) | %s |' % (
               voy['tipi su parole'], voy['JSD'], ' | '.join(gr)), '|---|---|---|---|---|---|---|---|---|---|' + '---|' * len(gr)]
