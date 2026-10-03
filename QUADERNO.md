@@ -5211,3 +5211,24 @@ sequenza.
   immagini, da preregistrare:
   - una soglia di qualità (per esempio correlazione ≥ 0,15);
   - un controllo a vista su un campione di pagine, scelto prima di guardare i risultati.
+
+## 3/10/2026 — Prova di fattibilità per l'e194 (ch/sh sulle immagini piene): misura ingenua non adatta
+
+- **Non è un esperimento.** È una prova di disegno su due pagine di sviluppo, f9v e f76r, da escludere
+  poi dal test.
+- **Si vede che:**
+  - i ritagli a piena risoluzione sono ben allineati alle parole;
+  - il pennacchio di *sh* è visibile a occhio.
+- **Misura provata.** Inchiostro sopra la fascia del corpo, nella zona del primo segno, normalizzato
+  sull'altezza del corpo.
+  - Su f76r non separa *ch* e *sh*: AUC 0,22, addirittura rovesciata.
+- **Cause, viste sulle immagini:**
+  - nel ritaglio allargato verso l'alto entrano le code della riga sopra, che spesso vengono prese per
+    il corpo della parola;
+  - i pennacchi sono tratti sottili e chiari, sotto la soglia fissa d'inchiostro.
+- **Da riprogettare con Davide:**
+  - fascia del corpo cercata solo dentro il riquadro;
+  - soglia adattiva (Otsu sul ritaglio);
+  - esclusione dei tratti connessi che escono dal bordo superiore;
+  - controllo positivo, cioè AUC fra *ch* e *sh* annotati ≥ 0,8, prima di chiedersi se la
+    distinzione sia discreta o graduale.
