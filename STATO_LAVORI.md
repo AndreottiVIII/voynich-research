@@ -58,6 +58,13 @@ La catena di decifrazione è divisa in due code: gli esperimenti non dipendono d
   dei risultati importanti.
 - Restano le regole del progetto: preregistrazione prima di ogni esperimento con un esito, semi di verifica mai usati per
   scegliere, QUADERNO aggiornato, niente squadre di agenti (costano troppo).
+- **Regola dei giri (dal 3/10, dopo l'e292):** sui semi 1–2 un ritocco conta solo se dà almeno +4 di pagella estesa
+  (18 materie + 8 aggiunte, somma dei due semi) oppure −0,02 di AUC a pagella estesa non peggiore. Differenze più
+  piccole sono rumore fra semi.
+- **Dove siamo (3/10, 18:50):** registro delle versioni in `voynichizzatore/versioni.py`, strumento unico
+  `voynichizzatore/voynichizzatore.py`. v4 = bordi legati nella riga + scelte di riga per selezione (corpo6);
+  v5 = v4 + δ 0,2 (parole di base dal lessico globale). Sui semi 1–2: v3 34 punti, AUC 0,857/0,931; v4 39; v5 39,
+  AUC 0,816/0,923. Banco sui semi 7–9 in corso; giro 7 (prova_v7) in corso.
 
 ## Obiettivo finale chiarito da Davide (3/10, 15:50)
 
