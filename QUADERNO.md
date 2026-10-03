@@ -5435,3 +5435,45 @@ sequenza.
      quinti;
   2. **parole troppo corte**: le spezzature accorciano. Le parole di base non frequenti vanno allungate
      per compensare, senza toccare le frequenti, che sono corte.
+
+## 3/10/2026 — e242: meno ripetizioni e parole rare più lunghe non abbassano l'AUC (compromesso lessicale)
+
+- **Preregistrato.** Sopra l'e241: τ (tema variato) e ℓr (preferenza per le parole lunghe solo fra le
+  non frequenti), griglia 2 × 2 sul seme 1.
+- **Risultati:**
+  - seme 1: 0,880 (partenza), 0,878 (ℓr 1), **0,858** (τ 0,5), 0,864 (τ 0,5 + ℓr 1);
+  - verifica della scelta (τ 0,5) sui semi 2–3: **0,879**, contro il riferimento 0,874;
+  - τ 0,5 porta le ripetizioni a R 35% (Voynich 32%), ma abbassa la quota delle frequenti (0,40 contro
+    0,42) e fa perdere la riga nella pagella (13/18, riga non riprodotta);
+  - ℓr 1 da sola corregge lunghezza (4,38), parole uniche (0,13) e forme nuove (N 13,3%), con AUC
+    invariata.
+- **Esito: non migliore.**
+- **Lettura.** Il compromesso fra caratteristiche lessicali resta: ogni correzione locale ne sposta
+  un'altra e il discriminatore resta attorno a 0,86–0,88. Per il voynichizzatore conviene comunque:
+  - tenere ℓr (corregge lunghezza e forme nuove senza costi);
+  - cercare un meccanismo diverso per le ripetizioni, che non tolga peso alle parole frequenti: per
+    esempio ripetere meno le parole *di pagina* e non quelle frequenti.
+
+## 3/10/2026 — Bilancio della notte sui generatori (e224–e242)
+
+| generatore | AUC del discriminatore | pagella |
+|---|---|---|
+| e192 (partenza) | 0,970 | 11/18 |
+| e224 finale (η 1, giunture) | — | 12/18 in verifica |
+| + spezzature (e232) | 0,918 | — |
+| + κ, χ, prefissi (e233/e235) | 0,889 | — |
+| + operatore empirico (e240) | 0,908 | 16/18 (1 seme) |
+| + operatore condizionato (e241) | **0,874** | **16/18** (1 seme) |
+| due fonti (e236) | 0,946 | 10/18 |
+| profilo forzato (e238) | 0,987 | 9/18 |
+
+- **Meccanismi acquisiti, ciascuno con un esperimento:**
+  - fine riga (η);
+  - parole spezzate e prefissi a -l/-r staccati (legame, unioni);
+  - copia verticale per posizione fisica;
+  - parole frequenti esatte e rare variate (concentrazione);
+  - copia della parola precedente (somiglianza fra vicine);
+  - operatore di variante empirico condizionato ai segni vicini (forma delle varianti);
+  - dodici scelte di riga quasi indipendenti.
+- **Ancora non capito:** il modo in cui la pagina riusa le proprie parole. Il bersaglio quantitativo è
+  R 32%, V 37%, N 14% (e237), insieme a varietà della pagina e concentrazione sulle frequenti.
