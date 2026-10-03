@@ -309,3 +309,12 @@ Dettagli e numeri nel `QUADERNO.md` (e373–e3a02); tutto replicato con la trasc
 - **Catena per riga** (e3a49–e3a52): nel Voynich le coppie di segni fra parole ricalcano quelle dentro le parole (lo spazio è un confine debole), e la catena riparte da capo a ogni riga. U3 ha la catena ma senza la chiusura della riga; gli altri generatori non hanno né l'una né l'altra.
 - **Dove cade lo spazio** (descrittivo): dopo *n* (95%), *y* (82%), *m* (80%) quasi sempre; dopo *r* (69%), *l* (46%), *s* (36%) a scelta; dopo gli altri segni quasi mai (sotto il 3%). Nel generatore: catena di segni per riga, tagliata così.
   - Dopo *l*, *r*, *s* lo spazio dipende dal segno che segue: quasi sempre davanti a *q*, di solito davanti a *ch*/*sh*/*o*/*d*, di solito no davanti a *k*/*a*/*y*/*e* (*olkeedy*, *saiin*).
+- **Vocabolario come insieme di forme** (e3a55–e3a57, e3a61): nel Voynich le parole frequenti sono le sequenze di segni
+  più probabili per le regole di sequenza (ρ 0,58; lingue 0,11), e quasi metà delle forme più probabili sono parole
+  usate (43%; lingue 4%). I quattro generatori fanno lo stesso (0,41–0,60 e 0,41–0,45): qui il voynichizzatore è già
+  nel giusto se costruisce le parole da regole sui segni. Vale per tutte le mani, A e B, tre trascrizioni.
+- **Spazi graduati** (e3a58, e3a60): la regola "probabilità di spazio data la coppia di segni" prevede lo spazio con F1
+  0,86 (lingue 0,64). Gli spazi incerti dei trascrittori cadono dove la regola dà circa 0,5 (dopo -*r*, -*l*, -*s*
+  davanti a certi segni), e Takahashi in quei punti mette lo spazio 2 volte su 3. Nel generatore conviene tagliare la
+  catena con queste probabilità (non con soglie 0/1), e, se si produce un'immagine, disegnare spazi stretti nei punti
+  con probabilità intermedia.
