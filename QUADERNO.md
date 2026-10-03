@@ -9820,3 +9820,27 @@ generale 8,2%.
 - Gli spazi incerti si concentrano in -*l* *k*- (43%), -*r* *a*- (28%), -*y* *t*- (19%), -*y* *k*- (18%), -*l* *sh*-
   (16%), -*l* *d*- (14%), -*l* *ch*- (12%): proprio i posti delle parole spezzate o attaccate (*ol kedy*, *or aiin*;
   e379).
+
+## 4/10/2026 (notte) — e3a18: due famiglie di scelte di grafia: quelle di raccordo non derivano, quelle di "stato" sì
+
+Preregistrato (`preregistrazioni/e3a18.md`). Regressione di ogni scelta su altezza nella pagina e posizione nel
+paragrafo, con effetti fissi di pagina × posizione nella riga (× classe della vicina per *qo*-/*o*- e -*l*/-*r*);
+intervalli al 99,5% (Bonferroni su 10 coefficienti).
+
+| scelta | eventi | altezza nella pagina | esito | posizione nel paragrafo | esito |
+|---|---|---|---|---|---|
+| *sh* fra *ch*/*sh* | 7.700 | +0,009 | nessuna deriva | **−0,196** | cala |
+| *t* fra *k*/*t* | 12.880 | **−0,077** | cala | **−0,090** | cala |
+| *qo* fra *qo*/*o* | 8.069 | +0,004 | nessuna deriva | −0,024 | nessuna deriva |
+| -*r* fra -*l*/-*r* | 9.109 | −0,046 | nessuna deriva | −0,038 | nessuna deriva |
+| -*ey* fra -*dy*/-*ey* | 9.032 | **+0,125** | cresce | **+0,101** | cresce |
+
+- **Esito preregistrato:** derivano *sh* (cala nel paragrafo), *t* (cala nella pagina e nel paragrafo), -*ey* (cresce
+  nella pagina e nel paragrafo). *qo*-/*o*- e -*l*/-*r* non derivano. Controllo: -*ey* ripete l'e3a17.
+- **Lettura:** le cinque scelte si dividono in due famiglie.
+  - **Scelte di raccordo** (*qo*-/*o*-, -*l*/-*r*): dipendono dalla parola vicina (e380) e non da dove si è nella
+    pagina.
+  - **Scelte di stato** (*ch*/*sh*, *k*/*t*, -*dy*/-*ey*): non dipendono dalla vicina (e380) ma derivano con la
+    posizione: *sh* e *t* più frequenti all'inizio del paragrafo, -*ey* verso la fine.
+- Cautela: *sh* e *t* potrebbero dipendere soprattutto dalla prima riga del paragrafo (con le gallows d'apertura). Lo
+  verifica l'e3a20, senza le prime righe.
