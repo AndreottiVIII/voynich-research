@@ -5831,3 +5831,27 @@ sequenza.
      vicini è troppo debole per costruzione. Il numero è quindi un limite superiore largo.
   - L'e259b userà una cache di varianti pesata con il modello di lettere, per misurare quanto il
     procedimento riduce davvero l'informazione.
+
+## 3/10/2026 — e259b: anche con una cache di varianti realistica il Voynich porta ~11 bit per parola; la pagina conta nei segni
+
+- **Preregistrato.** Come l'e259, con la cache di varianti pesata dal modello di lettere e un modello di
+  lettere della pagina, interpolato al 50% con quello generale.
+- **Risultati** (bit per parola: base → + cache → + lettere della pagina; pesi della mistura completa):
+  - **Voynich 11,26 → 11,16 → 10,99** (riduzione 0,27); pesi base 0,05, cache 0,01, **varianti 0,06**,
+    lettere 0,08, **lettere della pagina 0,79**;
+  - Bibbia latina 11,55 → 11,25 (0,30); Bibbia italiana 10,28 → 10,09 (0,19); Plinio 15,73 → 15,58;
+    *Macer* 14,07 → 13,92;
+  - nelle lingue il peso delle varianti è 0,00 e quello delle lettere della pagina circa 0,07.
+- **Esito preregistrato: informazione per parola paragonabile a una lingua.**
+- **Lettura.**
+  - Copiare e variare non rende il testo povero di informazione. Se scegliere quale parola copiare e
+    quale modifica fare fosse libero, costerebbe circa quanto scrivere una parola nuova: circa 11 bit per
+    parola, per un totale di circa 380.000 bit.
+  - È un limite superiore molto più largo del tetto dei soli canali "liberi" noti (circa 93.000 bit,
+    e210b). Dice che, misurato così, il Voynich non è troppo prevedibile per portare un testo; non dice
+    che lo porti.
+  - È proprio del Voynich, rispetto alle lingue, che:
+    - le parole si prevedano dalle **lettere della pagina** (peso 0,79 contro circa 0,07);
+    - si usi la **cache di varianti**.
+
+    L'omogeneità di pagina sta nei segni, ed è la firma del procedimento di copia e variante.
