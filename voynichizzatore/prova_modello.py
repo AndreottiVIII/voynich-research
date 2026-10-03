@@ -15,8 +15,8 @@ sys.path.insert(0, os.path.join(QUI, '..', 'analisi'))
 sys.path.insert(0, os.path.join(QUI, '..', 'esperimenti'))
 
 SEMI = (1, 2, 3, 4)
-NOME = sys.argv[1] if len(sys.argv) > 1 else 'prova_modello'
-CONF = [('v5', None), ('modello', {})]
+NOME = sys.argv[1] if len(sys.argv) > 1 else 'prova_modello2'
+CONF = [('modello mem2 cop3 b1,5', ({'memoria': 2.0, 'coppia': 3.0}, 1.5))]   # la v5 sugli stessi semi: prova_modello.json
 
 
 def trigrammi(rr):
@@ -32,7 +32,11 @@ def lavoro(args):
     import e293_banco as e293
     import modello, versioni
     k = e251._prepara()
-    rr = versioni.corpo(versioni.V5, seme) if forza is None else modello.genera(seme, forza=forza)
+    if forza is None:
+        rr = versioni.corpo(versioni.V5, seme)
+    else:
+        f, b = forza
+        rr = modello.genera(seme, forza=f, beta=OrderedDict((x, b) for x in modello.BETA))
     pg = e251.pagella_grezza(k['c'], rr)
     est = e293.pagella_estesa(rr)
     t266 = e266.confronto(k['vt266'], e266.tabella(e251.righe_ini(rr), k['rif266']))
