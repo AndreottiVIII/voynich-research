@@ -1,0 +1,156 @@
+{
+ "Voynich": {
+  "parole rare per pagina": 1.958041958041958,
+  "tipi su parole nella pagina": 0.7559315279272836,
+  "uniche nella pagina": 0.6359368522910547,
+  "dispersione delle lunghezze": 1.5789961974222224,
+  "prime righe come registro": 4.724292557993507,
+  "scelte di riga": 12,
+  "concordanza delle desinenze": 0.04334768727502919,
+  "coppie viste altrove": 0.22129511267771618
+ },
+ "metro_valido": {
+  "parole rare per pagina": true,
+  "tipi su parole nella pagina": true,
+  "uniche nella pagina": true,
+  "dispersione delle lunghezze": true,
+  "prime righe come registro": true,
+  "scelte di riga": true,
+  "concordanza delle desinenze": true,
+  "coppie viste altrove": true
+ },
+ "versioni": {
+  "v6": [
+   {
+    "decodifica_esatta": true,
+    "pagella": 16,
+    "riga": false,
+    "mancano": [
+     "gradiente",
+     "profilo pagina"
+    ],
+    "AUC_e231": 0.8372218409959808,
+    "AUC_e266": 0.9246348397215961,
+    "gruppi_e266": {
+     "G1": 0.6713165375943535,
+     "G2": 0.7078227624742672,
+     "G3": 0.8277227722772278,
+     "G4": 0.6399078521713557,
+     "G5": 0.4753872169395158,
+     "G6": 0.7220762670326438,
+     "G7": 0.6395010293108518,
+     "G8": 0.8758308009018723,
+     "G9": 0.6487501225370063
+    },
+    "estesa": {
+     "parole rare per pagina": 39.50920245398773,
+     "tipi su parole nella pagina": 0.6720606185641717,
+     "uniche nella pagina": 0.5405039838589736,
+     "dispersione delle lunghezze": 1.6629473801590617,
+     "prime righe come registro": 0.038554227092376395,
+     "scelte di riga": 10,
+     "concordanza delle desinenze": 0.04638415138540908,
+     "coppie viste altrove": 0.23167836695707475
+    },
+    "estesa_passate": [
+     "scelte di riga",
+     "concordanza delle desinenze",
+     "coppie viste altrove"
+    ]
+   },
+   {
+    "decodifica_esatta": true,
+    "pagella": 15,
+    "riga": false,
+    "mancano": [
+     "gradiente",
+     "deriva",
+     "verticale"
+    ],
+    "AUC_e231": 0.8142240956768945,
+    "AUC_e266": 0.9506175865111264,
+    "gruppi_e266": {
+     "G1": 0.6161013626115086,
+     "G2": 0.6701499852955592,
+     "G3": 0.8360699931379276,
+     "G4": 0.5930447995294579,
+     "G5": 0.5171894912263504,
+     "G6": 0.7059503970198999,
+     "G7": 0.6398245270071561,
+     "G8": 0.9012253700617586,
+     "G9": 0.6184344672090971
+    },
+    "estesa": {
+     "parole rare per pagina": 37.632135306553906,
+     "tipi su parole nella pagina": 0.6817609049480656,
+     "uniche nella pagina": 0.5506844464713385,
+     "dispersione delle lunghezze": 1.6526883816959166,
+     "prime righe come registro": 0.23698392039147378,
+     "scelte di riga": 11,
+     "concordanza delle desinenze": 0.04363483588972311,
+     "coppie viste altrove": 0.22055547499828115
+    },
+    "estesa_passate": [
+     "scelte di riga",
+     "concordanza delle desinenze",
+     "coppie viste altrove"
+    ]
+   },
+   {
+    "decodifica_esatta": true,
+    "pagella": 15,
+    "riga": false,
+    "mancano": [
+     "gradiente",
+     "curva piatta",
+     "profilo pagina"
+    ],
+    "AUC_e231": 0.8293402607587492,
+    "AUC_e266": 0.9332712479168709,
+    "gruppi_e266": {
+     "G1": 0.646613077149299,
+     "G2": 0.648029604940692,
+     "G3": 0.8531712577198315,
+     "G4": 0.6079158905989609,
+     "G5": 0.45693069306930695,
+     "G6": 0.6859229487305167,
+     "G7": 0.6269042250759729,
+     "G8": 0.8822664444662289,
+     "G9": 0.6148661895892559
+    },
+    "estesa": {
+     "parole rare per pagina": 35.714285714285715,
+     "tipi su parole nella pagina": 0.6751154681470426,
+     "uniche nella pagina": 0.5420325265463504,
+     "dispersione delle lunghezze": 1.6534724226203363,
+     "prime righe come registro": 0.21030612600570378,
+     "scelte di riga": 10,
+     "concordanza delle desinenze": 0.041999886936384734,
+     "coppie viste altrove": 0.23530951333399724
+    },
+    "estesa_passate": [
+     "scelte di riga",
+     "concordanza delle desinenze",
+     "coppie viste altrove"
+    ]
+   }
+  ]
+ },
+ "sintesi": {
+  "v6": {
+   "decodifica_esatta": true,
+   "pagella_somma": 46,
+   "estesa_somma": 55,
+   "semi_con_riga": 0,
+   "AUC_e231_media": 0.8269287324772082,
+   "AUC_e266_media": 0.9361745580498645,
+   "materie_estese_mancate": {
+    "parole rare per pagina": 3,
+    "tipi su parole nella pagina": 3,
+    "uniche nella pagina": 3,
+    "dispersione delle lunghezze": 3,
+    "prime righe come registro": 3
+   }
+  }
+ }
+}

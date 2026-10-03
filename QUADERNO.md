@@ -7075,3 +7075,17 @@ prime righe e lo 0,17% nelle altre (venti volte), nella v5 1,7% e 0,56%.
 - La misura "prime righe come registro" (e273) sale da −2,3/+0,2 a −0,7/+1,3 (Voynich 4,7): i gallows sono una parte
   del registro delle prime righe, non tutto.
 - Giro 10: lo stesso ritocco sopra la v6.
+
+## 3/10/2026 — e293, banco della v6: non confermata (effetto vincitore, quarta volta)
+
+| versione | pagella (3 semi) | pagella estesa | riga | AUC e231 | AUC e266 |
+|---|---|---|---|---|---|
+| v5 | 49/54 | 57/78 | 0 | 0,816 | 0,917 |
+| v6 (v5 + rip 0,4) | 46/54 | 55/78 | 0 | 0,827 | 0,936 |
+
+- Decodifica esatta nei tre manoscritti. Sui semi 1–2 la v6 abbassava l'AUC di 0,034/0,020; sui semi 7–9 la alza di
+  0,011/0,019. **La v6 non è confermata; la versione migliore verificata resta la v5.**
+- **Lezione di metodo.** L'AUC di un solo seme varia di circa 0,03 (v3 sui semi 7–9: 0,850, 0,804, 0,798): la media
+  di due semi ha un errore di circa 0,02, quindi la soglia di 0,02 della regola dei giri è dentro il rumore. Da ora i
+  giri scelgono su **quattro semi di ricerca (1–4)** e un ritocco conta solo se abbassa l'AUC di almeno 0,03, oppure
+  è mirato a un gruppo del discriminatore e lo abbassa nettamente (come le prime righe: G8 da 0,87 a 0,67).
