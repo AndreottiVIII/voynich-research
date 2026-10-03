@@ -10094,3 +10094,24 @@ Chat del voynichizzatore. Preregistrato (`preregistrazioni/e411.md`). Risultati 
 - **Altri riferimenti che non coincidono con la misura diretta sul Voynich** (pagella → misurato): somiglianza nella riga sotto 0,0399 → 0,0387; profilo pagina R 1,017 → 1,059, quota 0,0605 → 0,0514; formule 5,20 → 6,39; verticale 1,028 → 1,026. Vanno ricordati quando si legge "materia persa per poco".
 
 - **Esito secondo la preregistrazione:** nessuno dei due pezzi si tiene; la versione migliore con il cancello resta la **v11**. Lacuna dichiarata sul profilo pagina (secondo tentativo dopo il carattere senza posizione): R circa 0,7–0,8 contro la fascia 0,8–1,25.
+
+## 4/10/2026 (notte) — e3a32: l'alternanza "vocale/consonante" si comporta come la giuntura
+
+Preregistrato (`preregistrazioni/e3a32.md`). Classi di Sukhotin ricavate dentro le parole di ciascuna trascrizione
+("vocali" IT: *a*, *c*, *e*, *n*, *o*, *y*; ZL: *a*, *c*, *e*, *h*, *n*, *o*, *u*, *y*).
+
+| prova | coppie | A | z |
+|---|---|---|---|
+| IT (Takahashi), nella riga | 29.477 | 1,092 | 20,1 |
+| ZL, a capo | 3.337 | 1,008 | 0,6 |
+| ZL, al salto del disegno | 740 | 1,040 | 1,2 |
+
+- **Esito preregistrato: l'alternanza si comporta come la giuntura.** Si ripete con un'altra trascrizione e sparisce
+  all'a capo e al salto del disegno.
+
+## 4/10/2026 (notte) — Esplorativo: di che cosa è fatta la giuntura nei testi in cerchio
+
+Non preregistrato (scratchpad). Nei cerchi e raggi (E 0,173, z 24,5) le coppie che contano di più sono -*r* *a*-
+(+0,052), -*s* *a*- (+0,033), -*y* *d*- (+0,023), -*n* *o*- (+0,021), -*y* *ch*- (+0,013), -*l* *ch*- (+0,008). Senza
+*qo*-, dopo -*y* vengono *d*- e *ch*- (che nei paragrafi dopo -*y* sono evitati in favore di *q*-), e pesano di più i
+raccordi delle parole spezzate (*or aiin*, *s aiin*). Stessa forza, composizione diversa.
