@@ -1,0 +1,135 @@
+{
+ "lingue": {
+  "cinese con toni": {
+   "Voynich, 8 ripartenze": {
+    "punteggio": -3.273167610168457,
+    "simboli": 300,
+    "esempio": [
+     "井上乏丙丆",
+     "下井井之",
+     "井井井丏",
+     "义上乳严"
+    ]
+   },
+   "Voynich rimescolato": {
+    "punteggio": -3.3725852966308594,
+    "simboli": 300,
+    "esempio": [
+     "井丈井井丫",
+     "井乧井井",
+     "井乪丏井",
+     "乽井一丙"
+    ]
+   },
+   "generatore come il Voynich": {
+    "punteggio": -3.747518301010132,
+    "simboli": 300,
+    "esempio": [
+     "井井丳井",
+     "亏井井两两",
+     "井井专丁",
+     "井乌井乖井"
+    ]
+   },
+   "meta Voynich": {
+    "pari": -3.4238712787628174,
+    "dispari": -3.6009325981140137,
+    "calo": -0.1770613193511963
+   },
+   "meta positivo": {
+    "pari": -4.487303733825684,
+    "dispari": -4.81731653213501,
+    "calo": -0.33001279830932617
+   }
+  },
+  "vietnamita": {
+   "Voynich, 8 ripartenze": {
+    "punteggio": -3.011925220489502,
+    "simboli": 300,
+    "esempio": [
+     "井井丌与丰",
+     "不井井乞",
+     "井井井丟",
+     "主井乆両"
+    ]
+   },
+   "Voynich rimescolato": {
+    "punteggio": -3.0313165187835693,
+    "simboli": 300,
+    "esempio": [
+     "云井丗不井",
+     "井丂井争",
+     "井井井主",
+     "井井串丂"
+    ]
+   },
+   "generatore come il Voynich": {
+    "punteggio": -3.427414894104004,
+    "simboli": 300,
+    "esempio": [
+     "井井乑井",
+     "丨井井丆丆",
+     "井不丫乗",
+     "不个井丳井"
+    ]
+   },
+   "meta Voynich": {
+    "pari": -3.0344185829162598,
+    "dispari": -3.2103688716888428,
+    "calo": -0.175950288772583
+   },
+   "meta positivo": {
+    "pari": -3.91581654548645,
+    "dispari": -4.191686153411865,
+    "calo": -0.27586960792541504
+   }
+  },
+  "giapponese (morfemi)": {
+   "Voynich, 8 ripartenze": {
+    "punteggio": -3.4638988971710205,
+    "simboli": 300,
+    "esempio": [
+     "井井上乵一",
+     "井井両丕",
+     "井井井丅",
+     "丷井亃丟"
+    ]
+   },
+   "Voynich rimescolato": {
+    "punteggio": -3.34491229057312,
+    "simboli": 300,
+    "esempio": [
+     "井井井丈乪",
+     "井井丁一",
+     "井井井井",
+     "井井両井"
+    ]
+   },
+   "generatore come il Voynich": {
+    "punteggio": -3.69303297996521,
+    "simboli": 300,
+    "esempio": [
+     "井井丈井",
+     "乙井井业业",
+     "井世万七",
+     "世乬井丫井"
+    ]
+   },
+   "meta Voynich": {
+    "pari": -3.2914397716522217,
+    "dispari": -3.5903513431549072,
+    "calo": -0.29891157150268555
+   },
+   "meta positivo": {
+    "pari": -3.703077793121338,
+    "dispari": -4.022792816162109,
+    "calo": -0.3197150230407715
+   }
+  }
+ },
+ "esiti": {
+  "cinese con toni": "artefatto (non supera il rimescolato)",
+  "vietnamita": "artefatto (non supera il rimescolato)",
+  "giapponese (morfemi)": "artefatto (non supera il rimescolato)"
+ }
+}

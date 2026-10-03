@@ -1,0 +1,5 @@
+Voynich 19949 parole in 3098 segmenti; generatore 15772 parole in 2714 segmenti
+cinese con toni: {'Voynich, 8 ripartenze': -3.273, 'Voynich rimescolato': -3.373, 'generatore come il Voynich': -3.748, 'meta Voynich': {'pari': -3.424, 'dispari': -3.601, 'calo': -0.177}, 'meta positivo': {'pari': -4.487, 'dispari': -4.817, 'calo': -0.33}}
+vietnamita: {'Voynich, 8 ripartenze': -3.012, 'Voynich rimescolato': -3.031, 'generatore come il Voynich': -3.427, 'meta Voynich': {'pari': -3.034, 'dispari': -3.21, 'calo': -0.176}, 'meta positivo': {'pari': -3.916, 'dispari': -4.192, 'calo': -0.276}}
+giapponese (morfemi): {'Voynich, 8 ripartenze': -3.464, 'Voynich rimescolato': -3.345, 'generatore come il Voynich': -3.693, 'meta Voynich': {'pari': -3.291, 'dispari': -3.59, 'calo': -0.299}, 'meta positivo': {'pari': -3.703, 'dispari': -4.023, 'calo': -0.32}}
+OrderedDict({'cinese con toni': 'artefatto (non supera il rimescolato)', 'vietnamita': 'artefatto (non supera il rimescolato)', 'giapponese (morfemi)': 'artefatto (non supera il rimescolato)'})
