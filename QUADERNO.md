@@ -5232,3 +5232,30 @@ sequenza.
   - esclusione dei tratti connessi che escono dal bordo superiore;
   - controllo positivo, cioè AUC fra *ch* e *sh* annotati ≥ 0,8, prima di chiedersi se la
     distinzione sia discreta o graduale.
+
+## 3/10/2026 — e235: la ricerca congiunta non scende sotto AUC 0,86 (ottimo locale); la famiglia "copia e modifica" ha un limite
+
+- **Preregistrato.**
+  - Salita per coordinate (2 passate) su α, τ, ℓ, κ e χ.
+  - Obiettivo: l'AUC del discriminatore sul seme 1; verifica sui semi 2–3.
+- **Risultati.**
+  - Nessun cambio di un solo parametro migliora la partenza (κ 1, χ 0,2, τ 0, ℓ 0, α 1: AUC 0,863).
+  - α 1,3–1,6 concentra troppo: fra le 100 0,46–0,50, tipi su parole nella pagina 0,60–0,64.
+  - τ alza la varietà, ma abbassa la concentrazione e la somiglianza fra vicine.
+  - ℓ 1 dà la lunghezza giusta (4,48), ma toglie concentrazione.
+  - Verifica: partenza = finale = **0,889**.
+- **Esito: nessun miglioramento netto.**
+- **Lettura.**
+  - Con i meccanismi provati stanotte, il discriminatore scende da 0,97 (e192) a circa 0,86–0,89, non
+    oltre.
+  - Le caratteristiche che restano riguardano la **struttura del vocabolario di pagina**. Le pagine vere
+    sono insieme molto varie (tipi su parole 0,76, molte forme uniche) e molto concentrate sulle parole
+    frequenti del manoscritto (0,42).
+  - Nei generatori le due cose si escludono: più varietà significa meno concentrazione, e viceversa. Le
+    pagine vere sembrano fatte di **parole frequenti esatte più varianti uniche**, con poche parole
+    "della pagina" ripetute. Il generatore invece ripete il serbatoio della pagina.
+  - Proposta per domani: un generatore di architettura diversa, con due fonti (parole frequenti globali,
+    esatte; varianti nuove quasi tutte uniche, ma simili alle vicine) e niente serbatoio di pagina
+    ripetuto. L'omogeneità verrebbe dalla somiglianza delle varianti, non dalla ripetizione.
+  - Per il paper: un discriminatore semplice distingue ancora le pagine vere da ogni generatore senza
+    messaggio provato. La pagella a 18 proprietà non basta come criterio di indistinguibilità.
