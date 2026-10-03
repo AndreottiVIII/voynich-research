@@ -952,3 +952,6 @@ negativi; i numeri sono nei file di `risultati/`.
   completa.
 - **La copia non eredita la grafia** (e356): fra parole con la stessa forma in righe vicine le scelte di grafia sono
   scelte di nuovo, salvo una leggera eredità per -*dy*/-*ey*.
+- **Errori uniformi, invenzioni per sessione** (e357): le parole uniche che sono varianti di una lettera di parole
+  frequenti ("errori") hanno la stessa frequenza in tutte le sessioni, come errori casuali (z 0,2); le forme davvero
+  nuove variano fra le sessioni 4 volte più del caso (z 11,8), anche a parità di sezione e lingua.
