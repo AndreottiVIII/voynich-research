@@ -8167,3 +8167,20 @@ nelle 2 righe sopra, nullo con le righe della pagina rimescolate).
   - U2 e U3 ne hanno quanto il Voynich o di più, ma non hanno le proprietà di riga (e134).
   - Nessun metodo pubblicato ha insieme la ripresa e il resto. È un vincolo utile: un'ipotesi sul Voynich deve
     produrre la ripresa (che un cifrario parola per parola non dà) e le proprietà di riga.
+
+## 3/10/2026 (notte) — e354: la direzione della ripresa non si vede, ma la misura ha poca potenza
+
+Preregistrato (`preregistrazioni/e354.md`). Coppie a una modifica fra righe interne consecutive dello stesso paragrafo;
+quota in cui la parola sopra è la più frequente; nullo con le righe interne rimescolate.
+
+| testo | coppie | quota con la forma più frequente sopra | nullo | z |
+|---|---|---|---|---|
+| Voynich | 6.723 | 0,5029 | 0,4998 | 0,5 |
+| Timm e Schinner, seme 1 | 19.722 | 0,5082 | 0,5000 | 1,8 |
+| Timm e Schinner, seme 19 | 13.899 | 0,5103 | 0,5000 | 2,4 |
+
+- **Esito preregistrato: senza direzione.**
+- **Cautela, scritta dopo il risultato:** nel generatore di Timm e Schinner, dove la copia va dall'alto in basso per
+  costruzione, la misura arriva appena a z 1,8–2,4. La frequenza delle parole non dice bene quale sia la fonte e quale
+  la copia. Il risultato del Voynich non esclude una direzione: dice solo che questa misura non la vede. (La
+  preregistrazione non aveva un criterio di validità sul controllo; lo aggiungo qui come lettura.)
