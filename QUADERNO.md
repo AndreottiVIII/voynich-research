@@ -10469,3 +10469,19 @@ due pezzi sono attaccati.
 - **Lettura:** quando lo scriba scrive due pezzi senza spazio, l'unione rispetta la stessa regola che vale fra parole
   separate: *q*- viene dopo -*y*/-*o*/-*d*. Va con l'idea che lo spazio sia un confine debole dentro una catena di
   segni che obbedisce comunque alle regole di raccordo (e379, e3a12).
+
+## 4/10/2026 (notte) — e3a48: la regola -l/-r fra parole è la stessa che dentro le parole, più morbida
+
+Preregistrato (`preregistrazioni/e3a48.md`).
+
+| dove | eventi | P(*l* \| segno dopo in *k*/*t*/*d*/*l*/*s*/*q*) | P(*l* \| in *a*/*o*/*y*) | Δ | IC 95% |
+|---|---|---|---|---|---|
+| dentro le parole comuni | 1.772 | **1,000** | 0,541 | +0,459 | +0,411 – +0,513 |
+| fra parole separate | 5.003 | 0,710 | 0,347 | +0,362 | +0,334 – +0,389 |
+
+- **Esito preregistrato: stessa regola dentro e fra le parole** (rapporto 1,27).
+- **Lettura:** dentro le parole comuni *r* non è mai seguita da *k*, *t*, *d*, *l*, *s*, *q*: lì c'è sempre *l*. Fra parole
+  separate vale la stessa preferenza, allentata (71% contro 35%). Il raccordo fra parole è la regola che governa la
+  sequenza dei segni dentro la parola, applicata anche attraverso lo spazio. Con l'e3a47 (le unioni senza spazio
+  rispettano il raccordo) e l'e379 (lo spazio a volte spezza le parole): lo spazio è un confine debole dentro una catena
+  di segni con regole proprie.
