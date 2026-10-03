@@ -5104,3 +5104,35 @@ sequenza.
   - Non copia mai la parola appena scritta, quindi le parole vicine sono meno simili.
   - Ipotesi: le parole frequenti si scrivono esatte e quelle rare si variano; a volte si riprende la
     parola precedente con una variante.
+
+## 3/10/2026 — e210b: con un modello sequenziale vero il canale delle scelte scende del 4% (il limite regge)
+
+- **Correzione di metodo rispetto all'e210, preregistrata.** L'MXL dell'e210 condizionava ogni scelta
+  sulle altre occorrenze della riga, prima e dopo. È una pseudo-verosimiglianza, non un limite
+  superiore. L'e210b usa solo ciò che precede nell'ordine di lettura.
+- **Metodo.**
+  - Regressione logistica per scelta. Caratteristiche:
+    - la parola;
+    - la stessa scelta prima nella riga, nella riga precedente e prima nella pagina;
+    - le altre scelte prima nella riga;
+    - la posizione nella riga, la prima riga di paragrafo, la lingua e la sezione.
+  - Validazione su pagine pari e dispari.
+- **Risultati** (bit per occorrenza: tasso di base / solo parola / combinato):
+
+  | scelta | tasso di base | solo parola | combinato |
+  |---|---|---|---|
+  | F1 ch/sh | 0,877 | 0,848 | 0,793 |
+  | F2 k/t | 0,943 | 0,920 | 0,881 |
+  | F3 -l/-r | 0,998 | 0,967 | 0,939 |
+  | F5 qo-/o- | 1,000 | 0,988 | 0,924 |
+  | F7 -dy/-ey | 0,950 | 0,731 | 0,628 |
+
+  - **Totale: 47.217 bit**, contro 49.215 dell'e182: −4,1%.
+  - Tre canali: **93.177 bit**, cioè circa 3.800–7.800 parole latine.
+- **Esito preregistrato: il limite regge**, perché la soglia era −5%.
+- **Lettura.**
+  - Il tetto di capacità è robusto. Un messaggio nascosto nelle scelte, nel segno d'inizio e nell'ordine
+    non può superare qualche migliaio di parole.
+  - qo-/o- e -l/-r non sono del tutto imprevedibili come sembrava nell'e210: con lingua, sezione e
+    posizione perdono il 6–8%.
+  - Per il voynichizzatore è anche una stima della capacità di questi canali in un testo indistinguibile.
