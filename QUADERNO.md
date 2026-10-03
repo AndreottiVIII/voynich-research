@@ -6550,3 +6550,20 @@ sequenza.
   - È coerente con l'e263: nelle aree illustrate le etichette si copiano dalla vicina, non da un elenco di nomi
     fisso.
 - Durata: un minuto.
+
+## 3/10/2026 — e279b: verifica non valida per un mio errore nel controllo positivo
+
+- **Preregistrato:** nullo che rimescola parole intere (con i loro bit) dentro la riga; generatore e241 con gli
+  interruttori dell'e252 come negativo; positivi di Bacone al 70% e al 30%.
+- **Risultati** (z del gruppo di 5 bit, nullo a parole intere / nullo bit per bit):
+  - Voynich **6,2** / 23,6;
+  - generatore senza messaggio **4,2** / 37,4;
+  - positivi al 70%: −0,7 / −7,6; al 30%: 1,2 / 7,9.
+- **Esito preregistrato: non valido** (il positivo al 70% non supera z 4).
+- **L'errore (mio).** Nei positivi il messaggio è stato inserito consumandolo solo nei posti sostituiti, quindi
+  sfasato rispetto alla griglia dei gruppi di 5: non è un cifrario di Bacone, e il test per costruzione non poteva
+  vederlo. Nell'e279 il positivo era allineato, ed era visto (z 341 puro, 51 al 70%).
+- **Che cosa si vede comunque, non come esito:** con il nullo giusto lo z del Voynich crolla da 23,6 a 6,2, e il
+  generatore senza messaggio arriva a 4,2: gran parte del segnale dell'e279 viene dalle parole ripetute. La
+  differenza Voynich − generatore è 2,0, sotto la soglia preregistrata di 3.
+- Si rifà con i positivi corretti (e279c), stesso criterio.
