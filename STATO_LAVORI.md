@@ -46,6 +46,15 @@ Il vecchio PC (i5-7200U, 2 core, 8 GB) era saturo.
 La catena di decifrazione è divisa in due code: gli esperimenti non dipendono dai risultati l'uno dell'altro
 (e223 usa solo i corpora dell'e219).
 
+## Obiettivo finale chiarito da Davide (3/10, 15:50)
+
+- Il **voynichizzatore**: si dà in mano un testo normale e restituisce un manoscritto indistinguibile dal Voynich
+  (pagella 18/18 e discriminatori ad AUC ≤ 0,6), da cui con la chiave il testo torna esatto. Due pezzi: il
+  generatore (il corpo, il lavoro in corso) e la codifica (`rassegna/voynichizzatore_progetto.md`, §7 e §11).
+- **Quando funziona**, Davide vuole pubblicarlo: su GitHub o come sito (si incolla il testo, esce il manoscritto).
+  - Va fatto in un **repo pubblico separato**, con solo il programma e le statistiche necessarie: questo repo resta
+    privato e i dati di `dati/cache` non si ridistribuiscono. Prima si controllano le licenze della trascrizione.
+
 ## Diagnosi del generatore (3/10, 15:30): perché il discriminatore lo riconosce ancora
 
 Sintesi della lettura di tutti i risultati e231–e266 (agenti, solo lettura; dettagli nell'uscita del workflow).
