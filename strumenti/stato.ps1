@@ -57,9 +57,10 @@ while ($true) {
     }
     Write-Host ''
     if (Test-Path $PREP) {
-        $prep = @(Get-Content $PREP -Encoding UTF8 | Where-Object { $_ -match '\|' })
-        Write-Host ('IN PREPARAZIONE DA CLAUDE (' + $prep.Count + ')') -ForegroundColor Blue
-        foreach ($riga in $prep) {
+        # attenzione: in PowerShell i nomi non distinguono maiuscole e minuscole ($voci, non $prep)
+        $voci = @(Get-Content $PREP -Encoding UTF8 | Where-Object { $_ -match '\|' })
+        Write-Host ('IN PREPARAZIONE DA CLAUDE (' + $voci.Count + ')') -ForegroundColor Blue
+        foreach ($riga in $voci) {
             $parti = $riga.Split('|')
             Write-Host ('  {0,-9} {1,-52} {2}' -f $parti[0], $parti[1], $parti[2])
         }
