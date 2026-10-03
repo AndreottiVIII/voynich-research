@@ -9716,3 +9716,21 @@ coppie di parole ripetute a parità di numero di coppie (21.091 coppie di parole
 - **Lettura:** le parole uniche, forme nuove ed errori, seguono la giuntura con le vicine con circa due terzi della forza
   delle parole ripetute. Escono dallo stesso processo di scrittura, solo meno regolari. La più debole è la fine delle
   forme nuove (Q 0,51): spesso finiscono con segni insoliti (e362, e403).
+
+## 4/10/2026 (notte) — e3a13: inizio riga, dopo un disegno ed etichette non imitano nessuna finale (solo una tendenza)
+
+Preregistrato (`preregistrazioni/e3a13.md`). Distribuzione del primo segno nei tre casi senza parola prima, confrontata
+con quella che segue ciascuna finale (-*d*, -*l*, -*n*, -*o*, -*r*, -*s*, -*y*) e con quella generale del mezzo della
+riga (divergenza di Jensen-Shannon).
+
+| caso | parole | dal generale | finale più vicina | rapporto (IC 95%) | iniziali più frequenti |
+|---|---|---|---|---|---|
+| inizio riga | 3.370 | 0,122 | -*y* (0,107) | 0,88 (0,85 – 0,90) | *d*, *y*, *o*, *q*, *s*, *t* |
+| dopo un disegno | 740 | 0,094 | -*n* (0,063) | 0,68 (0,62 – 0,76) | *o*, *d*, *ch*, *y*, *s*, *sh* |
+| etichetta | 997 | 0,148 | -*n* (0,136) | 0,92 (0,88 – 0,96) | *o* (59%), *d*, *y*, *s*, *ch* |
+
+- **Esito preregistrato, per tutti e tre: né come una finale né come il generale.**
+- C'è solo una tendenza coerente con la regola di *qo*-: l'inizio riga somiglia di più a "dopo -*y*" (dove viene *qo*-),
+  dopo un disegno e nelle etichette di più a "dopo -*n*" (dove viene *o*-). Ma ogni caso ha una sua distribuzione:
+  l'inizio riga ha molti *d*-, *y*-, *s*- (i segni di bordo, e389), le etichette sono quasi tutte *o*-.
+- Lettura: i posti senza parola prima non si spiegano come "una finale sottintesa"; hanno regole proprie.
