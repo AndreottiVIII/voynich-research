@@ -8484,3 +8484,14 @@ Preregistrato (`preregistrazioni/e366.md`). Forme nuove (uniche non varianti) di
 
   Spiega perché le forme nuove stanno il doppio ai bordi (e365) e perché la prima parola della riga è più lunga
   (e306). Come per il paragrafo (e310, e316), i bordi della riga hanno segni loro.
+
+## 3/10/2026 (notte) — e346: prima esecuzione fermata per lentezza; codice ottimizzato senza cambiare il metodo
+
+- La prima esecuzione dell'e346 (avviata alle 22:24) è stata fermata alle 22:56, dopo 33 minuti di CPU, senza
+  risultati. Il calcolo delle parole simili confrontava tutte le coppie di tipi di ogni documento, e i testi sensati
+  hanno migliaia di tipi.
+- **Correzione del codice, stesso metodo:**
+  - le somiglianze (uguale o a una modifica) si trovano con un indice per chiavi (jolly e cancellazioni, come
+    nell'e350), che dà esattamente le stesse coppie;
+  - i valori di ogni documento si calcolano una volta sola e si riusano nei sottogruppi (categorie, autori).
+- Si riesegue con lo stesso seme.

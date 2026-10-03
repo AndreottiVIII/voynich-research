@@ -50,18 +50,25 @@ def unita_voynich():
 
 
 def misura_unita(righe, segni, rnd):
-    """(si, tot, media nullo * tot) per un'unita'."""
+    """(si, tot, media nullo) per un'unita'. Somiglianze (uguale o a una modifica) con un indice per chiavi."""
     tipi = sorted({w for r in righe for w in r if len(segni(w)) >= 3})
     if not tipi:
         return None
     idx = {w: k for k, w in enumerate(tipi)}
-    U = [segni(w) for w in tipi]
+    U = [tuple(segni(w)) for w in tipi]
+    piano, jolly, canc = defaultdict(set), defaultdict(set), defaultdict(set)
+    for k, u in enumerate(U):
+        piano[u].add(k)
+        for i in range(len(u)):
+            jolly[u[:i] + ('*',) + u[i + 1:]].add(k)
+            canc[u[:i] + u[i + 1:]].add(k)
     M = np.zeros((len(tipi), len(tipi)), dtype=bool)
-    for a in range(len(tipi)):
-        M[a, a] = True
-        for b in range(a + 1, len(tipi)):
-            if abs(len(U[a]) - len(U[b])) <= 1 and e310.dist1(U[a], U[b]):
-                M[a, b] = M[b, a] = True
+    for k, u in enumerate(U):
+        s = set(piano[u]) | canc[u]
+        for i in range(len(u)):
+            s |= jolly[u[:i] + ('*',) + u[i + 1:]]
+            s |= piano.get(u[:i] + u[i + 1:], set())
+        M[k, list(s)] = True
     rr = [[idx[w] for w in r if w in idx] for r in righe]
 
     def quota(ordine):
@@ -80,8 +87,17 @@ def misura_unita(righe, segni, rnd):
     return si, tot, statistics.mean(nul)
 
 
+_CACHE_UNITA = {}
+
+
 def gruppo(unita, segni, rnd):
-    vals = [v for v in (misura_unita(r, segni, rnd) for r in unita.values()) if v]
+    vals = []
+    for nome, r in unita.items():
+        chiave = (nome, len(r), tuple(tuple(x) for x in r[:3]))
+        if chiave not in _CACHE_UNITA:
+            _CACHE_UNITA[chiave] = misura_unita(r, segni, rnd)
+        if _CACHE_UNITA[chiave]:
+            vals.append(_CACHE_UNITA[chiave])
     def stima(vs):
         si = sum(v[0] for v in vs)
         tot = sum(v[1] for v in vs)
