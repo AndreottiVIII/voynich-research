@@ -6976,3 +6976,31 @@ poi l'AUC.
   bordi, λ_cl 0,3 porta le scelte di riga a **11 su 12** (Voynich 12, generatore 2–3) con concordanza 0,045 e coppie
   0,236 (Voynich 0,043 e 0,221); λ_cl 1 esagera (tipi su parole 0,55: premia le parole già nella riga, corretto).
 - ω 0,2 non entra: l'e292 mostra che il +2 era rumore.
+
+## 3/10/2026 — Ciclo avversario, giro 6: nascono la v4 (bordi + scelte di riga) e la v5 (+ lessico globale)
+
+`voynichizzatore/prova_v6.py` e `prova_v6b.py`, semi di ricerca 1–2 (somme; regola: almeno +4 di pagella estesa, oppure
+−0,02 di AUC a pagella estesa non peggiore):
+
+| configurazione | pagella | estese | totale | riga | AUC e231 | AUC e266 |
+|---|---|---|---|---|---|---|
+| e288 (corpo della v3) | 34 | 0 | 34 | 1 | 0,857 | 0,931 |
+| bordi 1/1 (senza premio alla ripetizione) | 31 | 2 | 33 | 0 | 0,838 | 0,936 |
+| bordi 0,7/0,7 | 35 | 2 | 37 | 0 | 0,836 | 0,940 |
+| **bordi 1/1 + classi 0,3 → v4** | 33 | 6 | **39** | 1 | 0,863 | 0,944 |
+| bordi 0,7/0,7 + classi 0,3 | 33 | 5 | 38 | 1 | 0,856 | 0,932 |
+| bordi 1/1 + classi 0,5 | 29 | 4 | 33 | 0 | 0,867 | 0,931 |
+| **bordi 1/1 + classi 0,3 + δ 0,2 → v5** | 33 | 6 | **39** | 0 | **0,816** | **0,923** |
+| bordi 1/1 + classi 0,3 + α 1,3 | 29 | 5 | 34 | 1 | 0,859 | 0,926 |
+| bordi 1/1 + circola pos | 29 | 3 | 32 | 0 | 0,820 | 0,942 |
+| bordi 1/1 + classi 0,3 + circola pos | 29 | 6 | 35 | 0 | 0,821 | 0,936 |
+| bordi 1/1 + classi 0,3 + circola pos 0,5 | 32 | 6 | 38 | 1 | 0,821 | 0,934 |
+| bordi 1/1 + classi 0,3 + circola | 29 | 6 | 35 | 0 | 0,839 | 0,944 |
+
+- **v4** = corpo dell'e288 + bordi legati nella riga (λ_fin 1, λ_pre 1) + scelte di riga per selezione (λ_cl 0,3):
+  +5 di pagella estesa. Le materie nuove prese su ogni seme: **scelte di riga** (12 classi concordi nella riga),
+  **concordanza delle desinenze**, **coppie viste altrove**. È la prima volta che il generatore prende materie della
+  pagella estesa senza perderne altrettante.
+- **v5** = v4 + δ 0,2 (una parola di base su cinque dal lessico di tutto il libro invece che dalla pagina, e232): stessa
+  pagella estesa, AUC −0,047 (e231) e −0,021 (e266). G3 0,875 → 0,84: le parole "della pagina" erano una parte del muro.
+- Verifica in corso: banco e293 con v3, v4, v5 sui semi 7–9, con Isidoro XVII nascosto e la decodifica controllata.
