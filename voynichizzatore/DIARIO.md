@@ -451,3 +451,19 @@ Nel QUADERNO (voce "vz: e410"). G1 0,555 / 0,639, pagella 16; **G2 0,552 / 0,616
 - In corso: banco e293 della v11 (chiavi banco7–9).
 
 - Restano: gradiente e profilo pagina (pagella); differenza fra le due metà della pagina e coppie viste altrove (giudice forte); prime righe come registro, scelte di riga a 12 classi, concordanza delle desinenze, parole rare per pagina (pagella estesa).
+
+## 4/10/2026, 00:05 — banco della v11: cancello 3 su 3; 0,565 / 0,647; pagella 47/54
+
+
+
+Nel QUADERNO. v11 contro v10: cancello 3/3 contro 0/3, giudice forte 0,647 contro 0,662, pagella 47 contro 50 (persi gradiente e profilo pagina). Indicazioni di Davide (mezzanotte): andare avanti tutta la notte anche oltre la v11; domattina si pubblica con quello che c'è (repo pubblico separato, licenze da controllare: io preparo l'elenco, non pubblico da solo).
+
+
+
+### Dove siamo (4/10, 00:05)
+
+
+
+- Versioni verificate al banco: v10 (50/54, senza cancello, 0,550 / 0,662) e v11 (47/54, con il cancello, 0,565 / 0,647).
+
+- Prossimo pezzo (e411): località verticale, cioè righe vicine più simili fra loro di righe lontane; deve dare il gradiente e la differenza fra le due metà della pagina. Poi profilo pagina.
