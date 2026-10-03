@@ -10987,3 +10987,28 @@ testi sensati.
   Voynich le ha in misura piena, più di quanto ne abbia una catena che imita una lingua. Due cose le ha in più di una
   catena "linguistica": lo spazio regolato dai segni vicini, e una catena più rigida (entropia più bassa). Da vedere
   se la sola entropia spiega la differenza: prossimo e3a70.
+
+## 4/10/2026 (notte) — e3a70: la rigidità della catena non basta a spiegare il Voynich
+
+Preregistrato (`preregistrazioni/e3a70.md`), **deciso dopo aver visto i risultati complessivi dell'e3a69** (dichiarato).
+Solo rianalisi dei risultati salvati dell'e3a69 e dell'e3a57: valore delle lingue riscritte dalla catena in funzione
+dell'entropia h2 della lingua; scarto del Voynich riscritto (h2 2,22) dalla retta.
+
+| misura | r con h2 | previsto all'h2 del Voynich | Voynich riscritto | z | esito |
+|---|---|---|---|---|---|
+| ρ frequenza-forma | −0,01 | 0,273 | 0,613 | **+3,6** | il Voynich va oltre |
+| riempimento | −0,62 | 0,299 | 0,441 | +2,2 | il Voynich va oltre |
+| F1 degli spazi | −0,18 | 0,716 | 0,866 | +1,6 | l'entropia spiega il Voynich |
+| tagli sbagliati che sono parole | −0,47 | 0,271 | 0,469 | **+3,3** | il Voynich va oltre |
+
+Le lingue con la catena più rigida, riscritte: toki pona (h2 2,25) 0,31 / 0,22 / 0,81 / 0,32; maori (2,50) 0,41 /
+0,27 / 0,69 / 0,39.
+
+- **Esito preregistrato:** per tre misure su quattro il Voynich va oltre la retta delle lingue riscritte; per gli
+  spazi l'entropia basta (il toki pona riscritto arriva a 0,81).
+- **Lettura:** una catena di segni addestrata su una lingua, anche rigida come il toki pona, non scrive parole così
+  concentrate sulle forme probabili come il Voynich. Per la frequenza-forma l'entropia non conta proprio (r −0,01). Il
+  Voynich ha quindi qualcosa in più di una catena "con la sua entropia": una struttura delle parole più regolare. Ipotesi
+  da provare: le parole del Voynich sono fatte di pezzi con posti fissi (come gli schemi a "caselle" proposti da
+  Stolfi e altri), che una catena di ordine 2 su una lingua non ha. Cautela: è una misura fatta dopo aver visto
+  l'e3a69, e il riempimento sta appena sopra la soglia (z 2,2).

@@ -1,0 +1,118 @@
+{
+ "rho frequenza-forma (e3a55)": {
+  "testi": 71,
+  "intercetta": 0.2809204914418668,
+  "pendenza": -0.003415524410788033,
+  "r": -0.013333243919482379,
+  "sd_residui": 0.09428943182293956,
+  "h2_voynich": 2.217959242493358,
+  "previsto": 0.2733449975069978,
+  "voynich_riscritto": 0.6134740525325424,
+  "z": 3.6072871418321033,
+  "lingue_piu_rigide": [
+   [
+    "Conlangs - Toki Pona - Literary - NT - Sermon on the Mount",
+    2.2481390276689464,
+    0.3108085353212603
+   ],
+   [
+    "Modern - Maori - Literary - NT",
+    2.500382185837041,
+    0.407595453507917
+   ],
+   [
+    "Modern - Chinese (Pinyin) - Literary - NT - Matthew",
+    2.51893698763263,
+    0.07348915432274475
+   ]
+  ],
+  "esito": "il Voynich va oltre"
+ },
+ "riempimento (e3a61)": {
+  "testi": 71,
+  "intercetta": 0.6004954520364211,
+  "pendenza": -0.13604141528932098,
+  "r": -0.619733548270321,
+  "sd_residui": 0.0634179188481729,
+  "h2_voynich": 2.217959242493358,
+  "previsto": 0.2987611376335944,
+  "voynich_riscritto": 0.4412280701754386,
+  "z": 2.2464775749409305,
+  "lingue_piu_rigide": [
+   [
+    "Conlangs - Toki Pona - Literary - NT - Sermon on the Mount",
+    2.2481390276689464,
+    0.22140221402214022
+   ],
+   [
+    "Modern - Maori - Literary - NT",
+    2.500382185837041,
+    0.27211302211302213
+   ],
+   [
+    "Modern - Chinese (Pinyin) - Literary - NT - Matthew",
+    2.51893698763263,
+    0.63016157989228
+   ]
+  ],
+  "esito": "il Voynich va oltre"
+ },
+ "F1 degli spazi (e3a58)": {
+  "testi": 71,
+  "intercetta": 0.8191420710670311,
+  "pendenza": -0.04663918994148561,
+  "r": -0.18274394484828713,
+  "sd_residui": 0.09236607718929737,
+  "h2_voynich": 2.217959242493358,
+  "previsto": 0.7156982486739099,
+  "voynich_riscritto": 0.8659934188131171,
+  "z": 1.6271684877467354,
+  "lingue_piu_rigide": [
+   [
+    "Conlangs - Toki Pona - Literary - NT - Sermon on the Mount",
+    2.2481390276689464,
+    0.8111503729878288
+   ],
+   [
+    "Modern - Maori - Literary - NT",
+    2.500382185837041,
+    0.6888708367181153
+   ],
+   [
+    "Modern - Chinese (Pinyin) - Literary - NT - Matthew",
+    2.51893698763263,
+    0.9763068822865738
+   ]
+  ],
+  "esito": "l'entropia spiega il Voynich"
+ },
+ "tagli sbagliati che sono parole (e3a67)": {
+  "testi": 71,
+  "intercetta": 0.46582164286615,
+  "pendenza": -0.08799724852137117,
+  "r": -0.4690068166377271,
+  "sd_residui": 0.06099951369754433,
+  "h2_voynich": 2.217959242493358,
+  "previsto": 0.2706473321941899,
+  "voynich_riscritto": 0.4694027116159766,
+  "z": 3.2583108843667388,
+  "lingue_piu_rigide": [
+   [
+    "Conlangs - Toki Pona - Literary - NT - Sermon on the Mount",
+    2.2481390276689464,
+    0.3220588235294118
+   ],
+   [
+    "Modern - Maori - Literary - NT",
+    2.500382185837041,
+    0.3872637846233497
+   ],
+   [
+    "Modern - Chinese (Pinyin) - Literary - NT - Matthew",
+    2.51893698763263,
+    0.19281045751633988
+   ]
+  ],
+  "esito": "il Voynich va oltre"
+ }
+}
