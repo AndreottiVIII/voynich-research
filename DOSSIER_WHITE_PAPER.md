@@ -717,3 +717,67 @@ python3 voynich/esperimenti/e14_decifrazione.py --naibbe
 
 Nota per chi scrive: le voci segnate "citata" o "letto solo il riassunto" vanno verificate
 sui testi originali prima della pubblicazione.
+
+## 15. Aggiornamento del 3/10/2026 (e212b–e293): proprietà nuove, decifrazioni escluse, generatore e voynichizzatore
+
+Sintesi delle voci del QUADERNO di quel giorno. Tutti gli esperimenti sono preregistrati, con controlli positivi e
+negativi; i numeri sono nei file di `risultati/`.
+
+### 15.1 Proprietà del Voynich trovate o confermate
+
+- **Le parole vicine si legano per i bordi, non per il centro** (e285, e285b, e285c). Fra parole vicine nella stessa
+  riga, anche escludendo le coppie che sono varianti l'una dell'altra:
+  - il finale dipende dal finale della precedente (eccesso di informazione mutua 0,041; generatore 0,007–0,017);
+  - il prefisso dal prefisso precedente (0,031; generatore circa 0,010);
+  - il finale dal prefisso seguente (0,112; generatore 0,055–0,070);
+  - il centro quasi per niente (0,007; il generatore copia i centri, 0,041–0,053).
+  - La dipendenza fra finali è fatta di **passaggi fra varianti della stessa desinenza** (*shedy → edy*, *chedy →
+    edy*, *edy → chedy*) e di prefissi staccati (*o*, *s*, *l* seguiti da una parola), non di ripetizioni: una
+    "concordanza delle desinenze". Non ha l'aspetto delle coppie di lettere di un messaggio.
+- **Le prime righe dei paragrafi sono un registro a parte** (e273, confermato): somigliano alle prime righe degli altri
+  paragrafi della sezione più che al resto del loro paragrafo (z 4,7), con più *p* e *f* e parole più lunghe (4,63
+  segni contro 4,34 del generatore).
+- **Le pagine sono varie e omogenee insieme:** tipi su parole nella pagina 0,756, parole uniche nella pagina 0,636, e
+  insieme somiglianza alta fra parole della stessa riga. Un generatore "copia e modifica" ottiene l'una o l'altra cosa,
+  non tutte e due (e251b, prova cumulativa del ciclo avversario).
+- **Le coppie di parole ricompaiono altrove** più che nei generatori: 22,1% delle coppie di parole vicine contro 18%.
+- **Inizio riga:** le righe iniziano con *t* nel 10,5% dei casi e con *k* nel 3,2% (il generatore senza questa
+  informazione faceva 6,7% e 6,3%).
+- **Le scelte di grafia hanno memoria di riga** (modello delle scelte della v1, 56.850 posti): per le cinque scelte
+  (ch/sh, k/t, -l/-r, qo-/o-, -dy/-ey) la probabilità della forma lunga cresce con le forme lunghe già scritte nella
+  riga e nella riga sopra (coefficienti 0,5–1,4), come già indicavano e135, e146.
+- **Capacità delle scelte di grafia come canale:** circa 0,8 bit per posto, cioè circa 46.000 bit per un libro come il
+  Voynich (circa 2.000 parole latine compresse): misurata costruendo davvero il canale (voynichizzatore v1).
+
+### 15.2 Decifrazioni escluse (tutte con i controlli)
+
+- **Ricerca guidata dal contenuto in cinque volgari** (e223) e verifica del candidato tedesco (e223b): artefatto; lo z
+  del Voynich passa da +4,2 a −4,8 cambiando solo le ripartenze.
+- **Tutte le lingue della cache, 85 più le 14 dell'e212** (e212b) e verifica dei tre candidati (e212c): artefatti della
+  formula della posizione (positivo che non si decifra; negativo della stessa lingua).
+- **Nomenclatore misto** (e222), **16 volgari, lingue storiche e latino abbreviato** (e219), **altri ordini di lettura**
+  (e216), **pezzi delle parole come simboli** (e249), **solo le parole non copiate** (e269): nessuna lettura.
+- **Canale di Bacone nelle 12 scelte di riga** (e279, e279b, e279c): artefatto delle parole ripetute (z 7,1 contro 4,5
+  di un generatore senza messaggio).
+- **Etichette come vocabolario:** i quattro anelli a 12 settori non nominano le stesse cose (e280, z 1,2; positivo 14,8).
+- **Ruote combinatorie alla Lullo negli anelli** (e286): no, oltre la copia.
+- **Lezioni di metodo:** (1) la "posizione fra negativo e positivo" va giudicata solo se il positivo si decifra e
+  supera il negativo; (2) nelle prove guidate dal contenuto lo z dipende dalla chiave trovata: serve una distribuzione
+  di controlli negativi; (3) un nullo bit per bit gonfia lo z quando le parole si ripetono: serve il nullo a parole
+  intere; (4) scegliere fra molte configurazioni su un solo seme produce l'"effetto vincitore".
+
+### 15.3 Il generatore senza messaggio
+
+- **e288: 18/18 su due semi di verifica su tre** (17/18 sul terzo), con tre correzioni guidate dai valori grezzi:
+  penalità per le ripetizioni immediate, copia dalla parola alla stessa posizione nella riga sopra, meno spezzature.
+  AUC del discriminatore e231 0,833, dell'e266 0,933 (e241: 0,873 e 0,961).
+- Non hanno funzionato da soli: lessico di sezione (e251), riuso senza tema e senza reimmissione (e251b), dodici
+  interruttori di riga (e252), parametri per sezione (e276), registro delle prime righe (e268, e268b: abbassa il
+  discriminatore ma costa pagella), ricerca casuale sui parametri vecchi (e283).
+
+### 15.4 Il voynichizzatore (testo vero → manoscritto con il testo nascosto)
+
+- v0 → v3: il testo (compresso e cifrato con una chiave) si nasconde nelle scelte di grafia; con la chiave torna esatto.
+- Con la codifica aritmetica secondo un modello delle scelte imparato dal Voynich (v1 e seguenti), **il testo nascosto
+  non rende il manoscritto più riconoscibile** di uno senza messaggio.
+- v3 con Isidoro XVII nascosto: AUC 0,812 (e231) e 0,928 (e266); obiettivo 0,6. Banco di prova fisso: e293.
