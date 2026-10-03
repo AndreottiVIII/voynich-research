@@ -6243,3 +6243,27 @@ sequenza.
   - generatore trattato come il Voynich, con più semi;
   - chiave su metà delle righe.
 - Prima esecuzione sul nuovo PC: 500 s.
+## 3/10/2026 — e269: decifrazione sulle sole parole non copiate, nessuna lettura
+
+- **Preregistrato.** Se il messaggio sta nelle parole "nuove" (classi N e A del profilo di riuso dell'e237),
+  togliendo le copie e le varianti il risolutore dovrebbe leggere meglio.
+  - Si tengono 4.761 parole: N 3.022 e A 1.739.
+  - Classi sul testo ripulito: R 16.980, V 10.655, F 2.260, N 3.022, A 1.739.
+  - Risolutore di forza bruta (e212) in 5 lingue: latino, italiano, tedesco, ebraico, arabo.
+  - Il rimescolato sta dentro il criterio.
+- **Risultati.** La posizione è fra controllo negativo (0) e positivo (1), nella forma punteggio /
+  copertura delle parole di almeno 6 lettere:
+
+  | lingua | solo non copiate | rimescolato |
+  |---|---|---|
+  | latino | 0,06 / −0,04 | −0,22 / −0,07 |
+  | italiano | −0,05 / −0,02 | 0,05 / −0,02 |
+  | tedesco | 0,24 / 0,04 | 0,13 / 0,03 |
+  | ebraico | 0,27 / 0,09 | 0,25 / 0,00 |
+  | arabo | 0,28 / −0,01 | 0,37 / 0,02 |
+
+- **Esito: nessuna lettura.**
+  - Nessuna lingua arriva a 0,5.
+  - Le parole non copiate non sono più leggibili del loro rimescolato.
+  - Ebraico e arabo restano alti nel punteggio come in tutte le prove precedenti: è un effetto dei
+    loro alfabeti senza vocali, non del testo.
