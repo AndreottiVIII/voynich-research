@@ -8446,3 +8446,21 @@ Preregistrato (`preregistrazioni/e364.md`). 48 bifogli; forme nuove divise con l
 - **Esito preregistrato: tutte e due.**
 - **Lettura:** le sessioni differiscono un poco nel modo di spaziare, ma soprattutto nella quantità di forme davvero
   nuove, senza giunture. L'"inventiva" dell'e357 regge come proprietà della sessione.
+
+## 3/10/2026 (notte) — e365: nessuna prova di due modi di scrittura; le forme nuove stanno ai bordi della riga
+
+Preregistrato (`preregistrazioni/e365.md`).
+
+- 2.457 righe:
+  - Spearman fra numero di forme nuove della riga e ripresa delle sue altre parole −0,031 (nullo −0,062), z 2,1;
+  - ripresa media delle altre parole 0,512 nelle righe senza forme nuove, 0,483 in quelle con 2 o più.
+  - **Esito preregistrato: incerto.** Nessuna prova che lo scriba alterni righe "copiate" e righe "inventate".
+- **Descrittiva:** le forme nuove stanno il doppio delle volte ai **bordi della riga**:
+
+  | posizione | forme nuove | altre parole |
+  |---|---|---|
+  | prima parola | 21,5% | 10,8% |
+  | ultima parola | 20,3% | 10,9% |
+  | in mezzo | 39,4% | 55,1% |
+
+  I bordi hanno forme loro (e337: prime parole con *t*/*k*/*p*, ultime con -*m*/-*g*), e lì nascono più parole nuove.

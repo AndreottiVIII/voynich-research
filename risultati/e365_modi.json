@@ -1,0 +1,23 @@
+{
+ "righe": 2457,
+ "spearman": -0.03113573693301907,
+ "nullo": -0.062241152727238125,
+ "z": 2.1316362500104478,
+ "esito": "incerto",
+ "posizione_forme_nuove": {
+  "prima": 0.21464571597983992,
+  "seconda": 0.09249925882004151,
+  "mezzo": 0.3940112659353691,
+  "penultima": 0.09576045063741477,
+  "ultima": 0.20308330862733473
+ },
+ "posizione_altre_parole": {
+  "prima": 0.10816132105430296,
+  "seconda": 0.11854557002222928,
+  "mezzo": 0.5513496348046999,
+  "penultima": 0.11340107970784376,
+  "ultima": 0.1085423944109241
+ },
+ "ripresa_media_righe_senza_forme_nuove": 0.5121897660373497,
+ "ripresa_media_righe_con_2_o_piu": 0.4832789058249181
+}
