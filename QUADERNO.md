@@ -9148,3 +9148,33 @@ A parità di coppie (740): spazio normale 0,167, a capo −0,005; Q_salto = 0,16
   legame vale solo fra segni scritti uno di seguito all'altro: è una proprietà della scrittura continua (o del pezzo di
   riga scritto di fila), non della sequenza del testo. Con l'e384: ogni tratto scritto senza interruzioni riparte da
   capo.
+
+## 3/10/2026 — vz: e293, banco della v10: 0,550 / 0,662 con Isidoro nascosto, pagella 50/54: meglio della v5 su tutto
+
+
+
+Banco preregistrato dell'e293 (`esegui.py e293 -- --v10`): Isidoro XVII nascosto con il messaggio nel sacco, chiavi "banco7", "banco8", "banco9" (con questo nascondiglio il seme d'esame entra nella chiave; deviazione dichiarata nella preregistrazione dell'e409). **Decodifica esatta nei tre manoscritti.**
+
+
+
+| versione | nascondiglio | pagella (3 semi) | pagella estesa | riga | AUC e231 | AUC e266 |
+
+|---|---|---|---|---|---|---|
+
+| v5 (copia e modifica) | scelte di grafia | 49/54 | 57/78 | 0 | 0,816 | 0,917 |
+
+| v8 (a pezzi) | scelte di grafia | 41/54 | 56/78 | 0 | 0,604 | 0,715 |
+
+| v9 | scelte di grafia | 44/54 | 56/78 | 0 | 0,668 | 0,719 |
+
+| **v10** | **nel sacco** | **50/54** | **63/78** | 0 | **0,550** | **0,662** |
+
+
+
+- Per chiave (e231 / e266, pagella): banco7 0,553 / 0,661, 17; banco8 0,548 / 0,653, 16; banco9 0,550 / 0,672, 17.
+
+- **Esito con il criterio dell'e293:** l'AUC dell'e266 scende di 0,255 rispetto alla v5 con pagella estesa superiore (63 contro 57): **la v10 migliora la v5**, ed è la prima versione che la supera su tutte le colonne.
+
+- I numeri al banco coincidono con quelli dei semi di ricerca (corpo R1 senza messaggio: 0,554 / 0,673; messaggio nel sacco su 12 chiavi: 0,560 / 0,682): il messaggio non costa niente e non c'è effetto vincitore.
+
+- Restano: il cancello della riga (perso in tutte le chiavi), il giudice forte a 0,66 contro l'obiettivo 0,6, e le materie aggiunte mancate (prime righe come registro, scelte di riga, concordanza delle desinenze, coppie viste altrove, a seconda della chiave).
