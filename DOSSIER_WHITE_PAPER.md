@@ -1066,3 +1066,4 @@ raccordo fra segni di confine, chiuso nel tratto scritto di seguito (si rompe al
 quasi niente oltre la parola accanto. Ha una ripresa che è copia dalla riga subito sopra, non continuità del discorso.
 Nessun testo di confronto ha questa combinazione: le lingue hanno legami anche a distanza e attraverso le righe; il
 gibberish umano non ha né giuntura né ripresa; i generatori pubblicati non hanno la giuntura chiusa nella riga.
+- **L'apertura del paragrafo pende verso il lato B dell'asse** (e3a22): la prima riga ha più *e* e finali -*y*, meno *a* e -*n* del resto del paragrafo (+0,10, z 6,7), la seconda un po' meno (+0,05, z 3,0): una pendenza che sfuma, più forte in lingua B.
