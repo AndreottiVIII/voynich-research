@@ -1,0 +1,187 @@
+{
+ "e319": {
+  "fascicoli": 9,
+  "bifogli": 39,
+  "rho_profondita_asse": -0.1545166915593279,
+  "z_a": -0.9183505251109704,
+  "direzione": "il punteggio scende verso l'interno (più -aiin dentro)",
+  "vicini_meno_altri": 0.19876425658576274,
+  "z_b": 1.9198205216564375,
+  "esito": "nessun ordine di annidamento"
+ },
+ "e323": {
+  "fogli": 77,
+  "rho_rv_asimmetria": -0.24160050475839948,
+  "z": -2.0489615521345494,
+  "esito": "incerto",
+  "descrizione": {
+   "f2": {
+    "correlazione_recto_verso": -0.094,
+    "asse_recto": -6.25,
+    "asse_verso": -2.63,
+    "recto_con_coniugato": -0.05,
+    "verso_con_coniugato": 0.18,
+    "confronto": [
+     "f7r",
+     "f7v"
+    ],
+    "differenze_recto_meno_verso": [
+     [
+      "iniziale ch",
+      -7.84
+     ],
+     [
+      "segno ch",
+      -7.33
+     ],
+     [
+      "parola chor",
+      -5.94
+     ],
+     [
+      "segno o",
+      -5.68
+     ],
+     [
+      "iniziale y",
+      5.32
+     ]
+    ]
+   },
+   "f52": {
+    "correlazione_recto_verso": -0.21,
+    "asse_recto": 1.46,
+    "asse_verso": -0.28,
+    "recto_con_coniugato": 0.276,
+    "verso_con_coniugato": -0.147,
+    "confronto": [
+     "f53r",
+     "f53v"
+    ],
+    "differenze_recto_meno_verso": [
+     [
+      "iniziale gallows composti",
+      -9.94
+     ],
+     [
+      "finale m",
+      7.68
+     ],
+     [
+      "segno m",
+      7.5
+     ],
+     [
+      "parola cheey",
+      5.86
+     ],
+     [
+      "segno ckh",
+      -5.12
+     ]
+    ]
+   },
+   "f82": {
+    "correlazione_recto_verso": -0.027,
+    "asse_recto": 4.91,
+    "asse_verso": 1.87,
+    "recto_con_coniugato": 0.407,
+    "verso_con_coniugato": 0.255,
+    "confronto": [
+     "f77r",
+     "f77v"
+    ],
+    "differenze_recto_meno_verso": [
+     [
+      "parola qokeedy",
+      9.2
+     ],
+     [
+      "iniziale l",
+      8.62
+     ],
+     [
+      "parola qokain",
+      -7.51
+     ],
+     [
+      "parola qokal",
+      -5.62
+     ],
+     [
+      "segno e",
+      4.68
+     ]
+    ]
+   },
+   "f83": {
+    "correlazione_recto_verso": -0.082,
+    "asse_recto": 4.62,
+    "asse_verso": 2.48,
+    "recto_con_coniugato": 0.489,
+    "verso_con_coniugato": 0.022,
+    "confronto": [
+     "f76r",
+     "f76v"
+    ],
+    "differenze_recto_meno_verso": [
+     [
+      "parola qokal",
+      -11.09
+     ],
+     [
+      "iniziale s",
+      5.58
+     ],
+     [
+      "iniziale l",
+      5.18
+     ],
+     [
+      "parola qokedy",
+      4.86
+     ],
+     [
+      "parola qokeedy",
+      -4.31
+     ]
+    ]
+   },
+   "f88": {
+    "correlazione_recto_verso": -0.4,
+    "asse_recto": 2.53,
+    "asse_verso": 1.46,
+    "recto_con_coniugato": -0.111,
+    "verso_con_coniugato": 0.173,
+    "confronto": [
+     "f89r1",
+     "f89r2",
+     "f89v2",
+     "f89v1"
+    ],
+    "differenze_recto_meno_verso": [
+     [
+      "parola cheol",
+      7.56
+     ],
+     [
+      "segno l",
+      5.83
+     ],
+     [
+      "finale l",
+      5.53
+     ],
+     [
+      "lunghezza media",
+      -5.19
+     ],
+     [
+      "finale y",
+      -4.71
+     ]
+    ]
+   }
+  }
+ }
+}

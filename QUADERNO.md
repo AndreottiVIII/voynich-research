@@ -7416,3 +7416,79 @@ Preregistrato (`preregistrazioni/e316.md`).
     (z −4,7) e meno parole (z −5,8).
   - **Lettura:** il registro dell'ultima riga (meno *qo*-, e313) comincia già nella penultima. Le righe si accorciano
     verso la fine del paragrafo; può dipendere anche dall'impaginazione intorno ai disegni.
+
+## 3/10/2026 — e319, e323: nessun ordine di annidamento; nei fogli con le facce diverse una faccia sola esce dal bifoglio (incerto)
+
+Preregistrato (`preregistrazioni/e319.md`).
+
+- **e319** (9 fascicoli con almeno 3 bifogli profilati, 39 bifogli):
+  - (a) profondità contro punteggio dell'asse: Spearman −0,155, z −0,9;
+  - (b) bifogli a profondità consecutive contro le altre coppie: +0,199, z 1,9.
+  - **Esito preregistrato: nessun ordine di annidamento.** Lo stato non cambia in modo ordinato dal bifoglio esterno a
+    quello interno. Il "+0,199" dei bifogli vicini è appena sotto la soglia: da non dimenticare se un esperimento
+    futuro avrà più potenza.
+- **e323** (77 fogli): correlazione recto/verso contro asimmetria rispetto al foglio coniugato, Spearman −0,242, z −2,0.
+  **Esito preregistrato: incerto.**
+  - Nei cinque fogli con le facce più diverse, in quattro una faccia somiglia al foglio coniugato e l'altra no:
+
+    | foglio | recto col coniugato | verso col coniugato | differenze più grandi |
+    |---|---|---|---|
+    | f2 | −0,05 | 0,18 | il recto ha molto meno *ch*- iniziale e *chor*, più *y*- |
+    | f52 | 0,28 | −0,15 | il verso ha più gallows composti iniziali, meno -*m* |
+    | f83 | 0,49 | 0,02 | il verso ha molto più *qokal* |
+    | f88 | −0,11 | 0,17 | il recto ha più *cheol* e -*l*, parole più corte |
+    | f82 | 0,41 | 0,26 | entrambe vicine al coniugato |
+
+  - È coerente con facce scritte in un altro momento rispetto al resto del bifoglio, ma la prova su tutti i fogli non
+    supera la soglia.
+
+## 3/10/2026 — e320, e321, e322: la prima parola non annuncia il paragrafo; A e B hanno parole tipiche lontane fra loro, con una zona di passaggio; le righe si accorciano scendendo nella pagina
+
+Preregistrato (`preregistrazioni/e320.md`).
+
+- **e320** (702 paragrafi con almeno 15 parole):
+
+  | voci | nel proprio paragrafo | in un altro della sezione | R |
+  |---|---|---|---|
+  | nucleo della prima parola (senza gallows) | 0,111 | 0,082 | 1,36 |
+  | altre parole della prima riga (controllo) | 0,161 | 0,120 | 1,35 |
+
+  - Differenza dei R +0,01, z 0,1. **Esito preregistrato: no.** La prima parola, tolto il gallows, non ricompare nel
+    paragrafo più di qualsiasi altra parola della prima riga: non fa da "titolo".
+  - **Errore mio nella misura "a una modifica" dei nuclei** (0,919 nel proprio paragrafo). Il nucleo dista una sola
+    modifica dalla prima parola stessa, che sta nel paragrafo, quindi si ritrova sempre. Quella misura non vale; la
+    decisione preregistrata usa la misura esatta, che è pulita.
+- **e321** (erbario):
+  - parole tipiche di B: *chedy*, *qokedy*, *shedy*, *okedy*, *otedy*, *qokchdy*, *kedy*, *ytedy*, *qokeedy*, *qotedy*,
+    *air*, *qokar*, *otain*, *ain*…;
+  - parole tipiche di A: *cthol*, *cthor*, *sho*, *otchol*, *dchy*, *dchor*, *kchol*, *kchor*, *qo*, *ctho*, *cho*,
+    *shodaiin*, *dchol*, *sheor*…
+  - **(a)** distanza media di ogni parola-B dalla parola-A più vicina: 2,17 segni, contro 1,53 se al posto delle
+    parole-A si mettono parole qualsiasi di A (z **+8,2**). **Esito preregistrato: incerto**, perché il criterio
+    prevedeva solo il caso opposto. Le parole tipiche di B sono **più lontane** dalle parole tipiche di A di quanto lo
+    sia una parola qualsiasi: non sono varianti, sono due famiglie con terminazioni diverse (A: -*ol*, -*or*,
+    gallows composti; B: -*edy*, -*dy*, -*ar*, -*ain*).
+  - **(b)** indice-A di 181 pagine (parole scelte su metà dei bifogli, applicate all'altra metà): per decimi da tutto B
+    a tutto A [36, 27, 14, 11, 10, 16, 11, 35, 17, 4]; pagine fra 0,25 e 0,75: **39%**. **Esito preregistrato:
+    passaggio graduale.**
+    - Cautela: l'indice di una pagina A pura non arriva a 1, perché alcune parole-B brevi (*ain*, *ar*) compaiono anche
+      in A; la soglia 0,75 conta come "miste" molte pagine A normali (0,70–0,75).
+    - Restano però pagine davvero intermedie, concentrate in alcuni fascicoli: C (f17–f24, 0,47–0,60), F (f43–f48: A a
+      0,48–0,75 e B a 0,32–0,42) e G (f51–f55: 0,27–0,64). Sembra una **zona di passaggio nei fascicoli C, F, G**.
+- **e322**, pendenza del numero di parole delle righe interne lungo il paragrafo:
+
+  | sezione | pendenza (z) |
+  |---|---|
+  | erbario H | −0,146 (−8,6) |
+  | T | −0,204 (−3,7) |
+  | C | −0,195 (−2,9) |
+  | stelle S | −0,081 (−1,9); in segni −0,095 (−3,1) |
+  | B | −0,02 |
+  | P | +0,01 |
+
+  - **Esito preregistrato: effetto dell'impaginazione** (forte nell'erbario, non sotto −2 nelle stelle, misurata in
+    parole).
+  - Cautela: misurata in segni la pendenza nelle stelle è −3,1. Rispetto alla posizione nella pagina le righe si
+    accorciano scendendo in **tutte** le sezioni (B −0,33, z −9,8; H −0,24, z −12,3; S −0,10, z −3,6). Si legge come
+    un effetto dell'impaginazione (disegni in basso, pagine che si stringono), più forte dove ci sono i disegni grandi,
+    con forse una piccola abitudine dello scriba dappertutto.

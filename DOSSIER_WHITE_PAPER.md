@@ -859,3 +859,18 @@ negativi; i numeri sono nei file di `risultati/`.
   posizione.
 - **Fogli con le due facce diverse** (e318): f88, f52, f2, f83, f82 hanno recto e verso con profili diversi, nonostante
   la stessa mano e la stessa sezione.
+
+### 15.9 Lingue A e B, prima parola, impaginazione (e319–e323)
+
+- **Le parole tipiche di A e di B sono due famiglie lontane** (e321). Le parole tipiche di B (*chedy*, *qokedy*,
+  *shedy*, *okedy*, *qokar*, *ain*…) sono più lontane da quelle tipiche di A (*cthol*, *cthor*, *dchor*, *kchol*,
+  *sho*…) di quanto lo sia una parola qualsiasi (2,17 segni contro 1,53, z +8,2). Non sono varianti l'una
+  dell'altra: cambiano le terminazioni (A -*ol*/-*or*, B -*edy*/-*dy*/-*ar*/-*ain*).
+- **Zona di passaggio fra A e B** (e321): nell'erbario ci sono pagine con un lessico intermedio, concentrate nei
+  fascicoli C, F e G.
+- **La prima parola del paragrafo non è un titolo** (e320): tolto il gallows, non ricompare nel paragrafo più delle
+  altre parole della prima riga.
+- **Le righe si accorciano scendendo nella pagina** (e322), in tutte le sezioni, soprattutto dove ci sono i disegni
+  grandi.
+- **Lo stato dei bifogli di un fascicolo non segue l'annidamento** (e319). Nei fogli con le facce più diverse (f2, f52,
+  f83, f88) una sola faccia somiglia al foglio coniugato (e323, incerto).
