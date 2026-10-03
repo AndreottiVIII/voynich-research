@@ -7690,3 +7690,27 @@ Preregistrato (`preregistrazioni/e331.md`).
   **Esito preregistrato: direzione costante per -*dy*/-*ey*.** Scendendo nella pagina la quota di -*ey* rispetto a
   -*dy* cresce in modo coerente da pagina a pagina. Le altre scelte tendono a cambiare anche loro (−*r* e *t* in calo)
   ma sotto la soglia. Se la pagina si scriveva dall'alto in basso, -*ey* aumenta con il tempo dentro la pagina.
+
+## 3/10/2026 — e334, e335, e336: niente argomenti netti; -ey non è un orologio ma un effetto di posizione nella pagina
+
+Preregistrato (`preregistrazioni/e334.md`).
+
+- **e334** (erbario A, 178 paragrafi): concentrazione dell'argomento dominante 0,789 contro 0,822 su paragrafi
+  rimescolati (z −2,3). **Esito preregistrato: rumore.**
+  - I gruppi dell'e332 non sono argomenti reali: l'LDA sui paragrafi veri non trova gruppi più netti che su paragrafi
+    fatti a caso con le stesse parole.
+  - Le differenze di lessico fra paragrafi dell'e329 sono quindi una continuità locale (le righe dello stesso
+    paragrafo condividono parole), non argomenti che tornano.
+  - Correlazioni fra argomenti e quota di -*ey*: da −0,16 a +0,08.
+- **e335, -*ey* come orologio:**
+  - verso − recto dello stesso foglio +0,007 (78 fogli, z 0,2);
+  - recto seguente − verso, aperture, −0,000 (z 0,0).
+  - **Esito preregistrato: la crescita è solo di posizione nella pagina; per le aperture no.** Una pagina scritta dopo
+    non ha più -*ey*: la crescita dell'e333 si ripete in ogni pagina, dall'alto in basso. Non misura il tempo.
+- **e336** (quota di -*ey*):
+  - dentro il paragrafo, seconda metà − prima: z 2,6;
+  - fra paragrafi consecutivi: z 1,6.
+  - **Esito preregistrato: incerto.** Per -*l*/-*r* e *k*/*t*: nulla (|z| < 2).
+- **Lettura:** -*ey* cresce scendendo nella pagina ma non si accumula da una pagina all'altra: è legato alla posizione
+  verticale, come l'accorciarsi delle righe (e322), forse all'impaginazione. La strada "orologio" per ricostruire
+  l'ordine di scrittura si chiude qui.

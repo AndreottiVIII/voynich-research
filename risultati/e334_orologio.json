@@ -1,0 +1,72 @@
+{
+ "e334": {
+  "paragrafi": 178,
+  "concentrazione": 0.7885934052033707,
+  "nullo": 0.8216935202932802,
+  "z": -2.2849832096481504,
+  "esito": "rumore",
+  "correlazione_argomenti_quota_ey": [
+   0.08120871556088041,
+   0.049622936723060895,
+   -0.16104268329799842,
+   -0.11279103194942335,
+   0.05454899663714692,
+   0.062284611386998236
+  ]
+ },
+ "e335": {
+  "fogli": {
+   "coppie": 78,
+   "verso_meno_recto": 0.006595386128188902,
+   "z": 0.2406033715723628,
+   "esito": "la crescita è solo di posizione nella pagina"
+  },
+  "aperture": {
+   "coppie": 79,
+   "recto_seguente_meno_verso": -0.0003326448886753071,
+   "z": -0.030724044637221705,
+   "esito": "no"
+  }
+ },
+ "e336": {
+  "scelte": {
+   "-dy/-ey": {
+    "dentro": {
+     "paragrafi": 194,
+     "seconda_meno_prima": 0.045040164445262404,
+     "z": 2.593208626236005
+    },
+    "fra": {
+     "coppie": 461,
+     "seguente_meno_precedente": 0.017069351857101876,
+     "z": 1.5635607194668684
+    }
+   },
+   "-l/-r": {
+    "dentro": {
+     "paragrafi": 235,
+     "seconda_meno_prima": -0.002179709457681402,
+     "z": -0.1039022599692786
+    },
+    "fra": {
+     "coppie": 469,
+     "seguente_meno_precedente": -0.01957112180530282,
+     "z": -1.6396460970804805
+    }
+   },
+   "k/t": {
+    "dentro": {
+     "paragrafi": 256,
+     "seconda_meno_prima": -0.008530110777727135,
+     "z": -0.6838000802790749
+    },
+    "fra": {
+     "coppie": 521,
+     "seguente_meno_precedente": -0.015558186423196632,
+     "z": -1.7469187222266287
+    }
+   }
+  },
+  "esito": "incerto"
+ }
+}

@@ -895,3 +895,7 @@ negativi; i numeri sono nei file di `risultati/`.
   con lessico simile sono sparsi in tutto il libro. Da verificare se siano veri "argomenti".
 - **Girando il foglio** (e330, e331): due prove con z intorno a 2 a favore della continuità fra recto e verso, nessuna
   fra fogli diversi. Indizio, non prova.
+- **-*ey* è un effetto di posizione, non un orologio** (e335): la crescita di -*ey* scendendo nella pagina si ripete in
+  ogni pagina, ma il verso non ne ha più del recto, né il foglio seguente più del precedente.
+- **Nessun "argomento" netto** nei paragrafi dell'erbario A (e334): i gruppi trovati dall'LDA non sono più netti che su
+  paragrafi fatti a caso con le stesse parole.
