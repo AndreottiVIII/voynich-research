@@ -1,0 +1,343 @@
+{
+ "e310": {
+  "gruppi": {
+   "a": {
+    "parole": 740,
+    "quota_uniche": 0.47702702702702704,
+    "quota_gallows_iniziale": 0.8337837837837838,
+    "quota_gallows_piu_parola_nota": 0.5378378378378378,
+    "uniche": 353,
+    "uniche_gallows_iniziale": 0.8810198300283286,
+    "uniche_gallows_piu_parola_nota": 0.3342776203966006,
+    "fra_uniche_con_gallows_resto_noto": 0.37942122186495175,
+    "uniche_togliendo_primo_parola_nota": 0.35410764872521244,
+    "uniche_togliendo_secondo_parola_nota": 0.141643059490085,
+    "uniche_togliendo_ultimo_parola_nota": 0.028328611898016998
+   },
+   "b": {
+    "parole": 3390,
+    "quota_uniche": 0.1752212389380531,
+    "quota_gallows_iniziale": 0.08967551622418879,
+    "quota_gallows_piu_parola_nota": 0.0728613569321534,
+    "uniche": 594,
+    "uniche_gallows_iniziale": 0.11447811447811448,
+    "uniche_gallows_piu_parola_nota": 0.050505050505050504,
+    "fra_uniche_con_gallows_resto_noto": 0.4411764705882353,
+    "uniche_togliendo_primo_parola_nota": 0.44107744107744107,
+    "uniche_togliendo_secondo_parola_nota": 0.17003367003367004,
+    "uniche_togliendo_ultimo_parola_nota": 0.07575757575757576
+   },
+   "c": {
+    "parole": 26630,
+    "quota_uniche": 0.10841156590311679,
+    "quota_gallows_iniziale": 0.08820878708223807,
+    "quota_gallows_piu_parola_nota": 0.06331205407435224,
+    "uniche": 2887,
+    "uniche_gallows_iniziale": 0.12885348112227227,
+    "uniche_gallows_piu_parola_nota": 0.056806373397990995,
+    "fra_uniche_con_gallows_resto_noto": 0.44086021505376344,
+    "uniche_togliendo_primo_parola_nota": 0.31901627987530307,
+    "uniche_togliendo_secondo_parola_nota": 0.20159334949774851,
+    "uniche_togliendo_ultimo_parola_nota": 0.09594735019050918
+   }
+  },
+  "a_contro_c": {
+   "a": 0.3342776203966006,
+   "c_a_pari_lunghezza": 0.04371104815864023,
+   "z": 26.75497385637819
+  },
+  "esito": "prefisso meccanico",
+  "uniche_di_a_che_restano_nuove": 0.6458923512747876,
+  "esempi": [
+   [
+    "potoy",
+    "otoy"
+   ],
+   [
+    "kydain",
+    "ydain"
+   ],
+   [
+    "tsheos",
+    "sheos"
+   ],
+   [
+    "koaiin",
+    "oaiin"
+   ],
+   [
+    "fochor",
+    "ochor"
+   ],
+   [
+    "koair",
+    "oair"
+   ],
+   [
+    "foldaiin",
+    "oldaiin"
+   ],
+   [
+    "poror",
+    "oror"
+   ],
+   [
+    "fshody",
+    "shody"
+   ],
+   [
+    "told",
+    "old"
+   ],
+   [
+    "pchaiin",
+    "chaiin"
+   ],
+   [
+    "fshor",
+    "shor"
+   ],
+   [
+    "tochol",
+    "ochol"
+   ],
+   [
+    "psheoky",
+    "sheoky"
+   ],
+   [
+    "ksor",
+    "sor"
+   ],
+   [
+    "tshoiin",
+    "shoiin"
+   ],
+   [
+    "posaiin",
+    "osaiin"
+   ],
+   [
+    "fchaiin",
+    "chaiin"
+   ],
+   [
+    "tshdar",
+    "shdar"
+   ],
+   [
+    "pchotchy",
+    "chotchy"
+   ]
+  ]
+ },
+ "e311": {
+  "pagine": 35,
+  "etichette": 770,
+  "esatte": 0.12077922077922078,
+  "a_una_modifica": 0.44155844155844154,
+  "nullo_esatte": 0.11068051948051948,
+  "nullo_a_una_modifica": 0.40583376623376627,
+  "z_esatte": 1.1217868669251538,
+  "z_a_una_modifica": 2.3321753962524734,
+  "controllo_positivo": {
+   "quota": 1.0,
+   "z": 4.448358447083746
+  },
+  "per_sezione": {
+   "A": {
+    "pagine": 3,
+    "etichette": 116,
+    "nel_proprio_testo": 0.09482758620689655
+   },
+   "B": {
+    "pagine": 10,
+    "etichette": 124,
+    "nel_proprio_testo": 0.24193548387096775
+   },
+   "C": {
+    "pagine": 3,
+    "etichette": 205,
+    "nel_proprio_testo": 0.06829268292682927
+   },
+   "H": {
+    "pagine": 2,
+    "etichette": 24,
+    "nel_proprio_testo": 0.16666666666666666
+   },
+   "P": {
+    "pagine": 15,
+    "etichette": 241,
+    "nel_proprio_testo": 0.07883817427385892
+   },
+   "T": {
+    "pagine": 2,
+    "etichette": 60,
+    "nel_proprio_testo": 0.25
+   }
+  },
+  "esito": "incerto",
+  "ricorrenti": [
+   [
+    "f2r",
+    "an"
+   ],
+   [
+    "f49v",
+    "r"
+   ],
+   [
+    "f49v",
+    "s"
+   ],
+   [
+    "f49v",
+    "d"
+   ],
+   [
+    "f66r",
+    "dary"
+   ],
+   [
+    "f66r",
+    "qokal"
+   ],
+   [
+    "f66r",
+    "y"
+   ],
+   [
+    "f66r",
+    "y"
+   ],
+   [
+    "f66r",
+    "y"
+   ],
+   [
+    "f66r",
+    "y"
+   ],
+   [
+    "f66r",
+    "l"
+   ],
+   [
+    "f66r",
+    "r"
+   ],
+   [
+    "f66r",
+    "daiin"
+   ],
+   [
+    "f67r2",
+    "s"
+   ],
+   [
+    "f67r2",
+    "am"
+   ],
+   [
+    "f67r2",
+    "ofar"
+   ],
+   [
+    "f67r2",
+    "y"
+   ],
+   [
+    "f67r2",
+    "daiin"
+   ],
+   [
+    "f67r2",
+    "dy"
+   ],
+   [
+    "f67r2",
+    "dal"
+   ],
+   [
+    "f67r2",
+    "s"
+   ],
+   [
+    "f67r2",
+    "air"
+   ],
+   [
+    "f67r2",
+    "s"
+   ],
+   [
+    "f67v2",
+    "am"
+   ],
+   [
+    "f68r1",
+    "otor"
+   ],
+   [
+    "f69r",
+    "chey"
+   ],
+   [
+    "f69r",
+    "daiin"
+   ],
+   [
+    "f75v",
+    "s"
+   ],
+   [
+    "f75v",
+    "l"
+   ],
+   [
+    "f75v",
+    "l"
+   ],
+   [
+    "f75v",
+    "o"
+   ],
+   [
+    "f75v",
+    "s"
+   ],
+   [
+    "f75v",
+    "dal"
+   ],
+   [
+    "f75v",
+    "qokal"
+   ],
+   [
+    "f75v",
+    "dal"
+   ],
+   [
+    "f75v",
+    "lol"
+   ],
+   [
+    "f75v",
+    "olol"
+   ],
+   [
+    "f75v",
+    "otedy"
+   ],
+   [
+    "f75v",
+    "oteey"
+   ],
+   [
+    "f75v",
+    "qotedy"
+   ]
+  ]
+ }
+}

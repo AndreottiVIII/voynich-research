@@ -1,0 +1,2 @@
+A {'inizia con q': (-0.0476, -8.2), 'inizia con ch': (0.0345, 4.8), 'inizia con s': (0.0052, 3.9), 'inizia con y': (0.0132, 4.0), 'segno k': (-0.0061, -3.8), 'segno t': (-0.0096, -6.5), 'numero di parole': (-2.8876, -33.3)}
+B {'pagine': 185, 'log_rapporto_Voynich': -1.099, 'log_rapporto_a_capo_fisso': -1.634, 'log_rapporto_latino_40': -2.762, 'differenza': 0.535, 'z': 4.95, 'esito': 'righe meno regolate di un normale a capo', 'ultima_parola_meno_altre_oltre_il_nullo': -0.166, 'z_ultima_parola': -3.605}
