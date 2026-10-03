@@ -6052,3 +6052,23 @@ sequenza.
     dell'apertura.
   - **Per il generatore (e268):** le prime righe vanno generate da un lessico d'apertura per sezione, non
     solo con la prima parola speciale.
+
+## 3/10/2026 — e277: le parole più frequenti del Voynich sono sparse fra le pagine come le parole grammaticali delle lingue
+
+- **Preregistrato.** Dispersione di Juilland D (1 = uniforme) delle 100 parole più frequenti e delle parole
+  di frequenza 5–20.
+- **Risultati** (D prime 100 / D frequenza 5–20 / rapporto):
+  - Voynich, tutte le pagine: 0,852 / 0,570 / 1,49;
+  - **Voynich, erbario: 0,801** / 0,614 / 1,30;
+  - Bibbia latina 0,867 / 0,596 / 1,46; Bibbia italiana 0,888 / 0,594 / 1,49;
+  - Plinio 0,868 / 0,627 / 1,38; *Macer* 0,769 / 0,563 / 1,37.
+- **Esito: come parole grammaticali.** L'erbario sta dentro l'intervallo dei testi veri, 0,769–0,888.
+- **Lettura, con una cautela.**
+  - Le parole frequenti del Voynich sono distribuite uniformemente fra le pagine, e le parole medie a
+    grappoli, nella stessa proporzione delle lingue. È compatibile con un sistema "parole funzione + parole
+    di contenuto".
+  - La prova però **non distingue** una lingua da un procedimento: qualunque testo fatto da un fondo di
+    parole comuni del libro più varianti locali ha questa proprietà, e i nostri generatori la costruiscono
+    per costruzione (serbatoi globali più pagine).
+  - Il dato utile è un altro: le frequenti del Voynich **non** sono legate alla sezione più di quanto
+    accada nelle lingue, almeno nell'erbario.
