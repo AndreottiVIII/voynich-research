@@ -9023,3 +9023,45 @@ Integrazione preregistrata dell'e409 (altre 8 chiavi, 5–12, per i casi (a) e (
 - **Nasce la v10:** corpo R1 dell'e408 (`pezzi_parametri_v10.json`) con il messaggio nel sacco (`canale_sacco.py`). Nel registro `versioni.py` ogni versione ha ora `codifica` / `decodifica` proprie; lo strumento `voynichizzatore.py` usa la v10 come predefinita. Prova dallo strumento: Isidoro con la chiave "giardino", salvato su file e riletto: identico.
 
 - Banco e293 della v10 in corso (chiavi "banco7", "banco8", "banco9": con questo nascondiglio il corpo dipende da messaggio e chiave, e il seme d'esame entra nella chiave; deviazione dichiarata).
+
+## 3/10/2026 (notte) — e383: la giuntura sta fra parole vere, non solo nelle parole spezzate
+
+Preregistrato (`preregistrazioni/e383.md`). Eccesso della giuntura (e377) in tre versioni: (1) tutte le coppie; (2)
+senza le coppie la cui unione è una parola del testo; (3) solo coppie di parole di almeno 3 segni.
+
+| testo | E1 | E2 | E3 | q2 = E2/E1 | q3 = E3/E1 |
+|---|---|---|---|---|---|
+| Voynich | 0,188 | 0,154 | 0,155 | 0,82 | **0,83** |
+| gibberish umano | 0,013 | 0,013 | 0,013 | 1,01 | 1,02 |
+| testi sensati (71, min / mediana / max) | | | | 0,79 / 1,00 / 1,04 | 0,26 / 0,86 / 1,78 |
+
+- **Esito preregistrato: la giuntura sta fra parole vere** (q3 0,83 > 0,8).
+- Togliere le coppie che unite fanno una parola porta via il 18% della giuntura del Voynich, più che in quasi tutte le
+  lingue (mediana 0%, minimo 21%): le parole spezzate (e379) ne spiegano una parte, non il grosso.
+- Fra parole lunghe la giuntura del Voynich (0,155) è superata da 10 testi su 71.
+
+## 3/10/2026 (notte) — e384: la giuntura non passa a capo; il Voynich si comporta come i testi in cui la riga è un versetto
+
+Preregistrato (`preregistrazioni/e384.md`). Giuntura fra l'ultima parola di una riga e la prima della riga sotto (stesso
+paragrafo), con un nullo dello stesso tipo di quello dentro la riga; Q = E a capo / E nella riga.
+
+| testo | coppie a capo | E a capo | z | E nella riga | z | Q |
+|---|---|---|---|---|---|---|
+| Voynich | 3.390 | **−0,003** | **−0,7** | 0,191 | 238 | **−0,02** |
+| gibberish umano | 1.531 | 0,006 | 0,4 | 0,014 | 3,6 | 0,46 |
+| testi sensati, tutti i 71 (min / mediana / max) | | | | | | −0,40 / 0,54 / 2,56 |
+| testi sensati con almeno 1.000 coppie a capo (39) | | | | | | −0,10 / 0,53 / 1,06 |
+
+- **Esito preregistrato: "passa a capo come nella prosa"**, perché Q del Voynich sta fra il minimo e il massimo dei
+  testi sensati.
+- **Il criterio era mal scelto e lo dichiaro.** Minimo e massimo vengono da testi piccoli e rumorosi (il minimo, −0,40,
+  è un testo con 161 coppie). Inoltre l'intervallo include testi in cui la riga non è un a capo arbitrario.
+- **Descrizione:** nel Voynich la giuntura a capo è zero (z −0,7 su 3.390 coppie), mentre nella riga è fra le più
+  forti. Fra i 39 testi grandi, Q vicino a zero lo hanno solo 5 testi:
+  - Corano (−0,10), Avicenna arabo (0,04), Vulgata latina abbreviata (0,03), Nuovo Testamento ebraico (−0,02),
+    klingon (0,10);
+  - sono testi in cui la riga corrisponde a un versetto o a una frase.
+  - Nella prosa che va a capo dove capita Q sta intorno a 0,5–1.
+- **Lettura:** la riga del Voynich non è un a capo arbitrario. Si comporta come un'unità chiusa, un versetto o una
+  voce: la giuntura lega le parole dentro la riga e si interrompe alla fine. Va con i segni di bordo della riga (e366,
+  e374), con *s* attaccata all'inizio (e368) e con la prima parola della riga più lunga (e374).
