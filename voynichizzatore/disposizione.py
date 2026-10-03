@@ -28,7 +28,7 @@ POS = ('prima', 'seconda', 'mezzo', 'ultima')
 PASSATE = 60
 # unione attestata: 9,16% delle coppie vicine nel Voynich, 4,85% con le parole rimescolate nella pagina (e400, O4)
 UNIONE_SI, UNIONE_NO = math.log(0.0916 / 0.0485), math.log((1 - 0.0916) / (1 - 0.0485))
-PESI = OrderedDict([('posto', 1.0), ('bordi', 1.0), ('unione', 1.0), ('coppia', 1.0)])
+PESI = OrderedDict([('posto', 1.0), ('bordi', 1.0), ('unione', 1.0), ('coppia', 1.0), ('identica', 0.0)])   # identica: e401b
 
 
 def posizione(j, n):
@@ -98,6 +98,8 @@ class Disposizione:
             attese = (self.sin[a] - self.sin_p[pag][a]) * (self.des[b] - self.des_p[pag][b]) / n
             viste = self.cop[(a, b)] - self.cop_p[pag][(a, b)]
             x += pesi['coppia'] * min(2.5, max(-1.5, math.log((viste + 0.5) / (attese + 0.5))))
+        if a == b and pesi.get('identica'):
+            x += pesi['identica']       # termine additivo per la parola uguale alla precedente (negativo = evitata)
         return x
 
     def pagina(self, pag, righe, rnd, strato, pesi=None, passate=PASSATE):
