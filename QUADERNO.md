@@ -9197,3 +9197,27 @@ parole *qo*-/*o*- davanti a gallows, e di -*l* fra le parole in -*l*/-*r*, per p
 - Numeri piccoli (31–93 parole). **Previsione per un controllo su dati non ancora guardati (e387):** nelle etichette,
   parole isolate senza vicini, *qo*- davanti a gallows dovrebbe essere più raro e -*l* più frequente che in mezzo alle
   righe.
+
+## 3/10/2026 (notte) — e387: nelle etichette qo- quasi non c'è: senza parola prima si scrive o-
+
+Preregistrato (`preregistrazioni/e387.md`), con previsioni fatte dai conteggi esplorativi sul salto del disegno, prima
+di guardare le etichette. Etichette (loci di tipo L) contro parole in mezzo alla riga, a parità di strato.
+
+| strato | *qo*- nelle etichette | *qo*- in mezzo alla riga | -*l* nelle etichette | -*l* in mezzo alla riga |
+|---|---|---|---|---|
+| astronomia (senza lingua) | 0,02 (51) | 0,39 (28) | 0,38 (52) | 0,38 (37) |
+| biologia B | 0,05 (56) | 0,68 (1.470) | 0,71 (45) | 0,66 (996) |
+| cosmologia (senza lingua) | 0,00 (15) | 0,30 (23) | 0,36 (22) | 0,71 (62) |
+| cosmologia B | 0,01 (80) | 0,58 (81) | 0,38 (34) | 0,37 (68) |
+| farmacia A | 0,00 (92) | 0,46 (403) | 0,48 (65) | 0,63 (642) |
+
+- **qo-: previsione confermata.** Differenza pesata −0,50, p < 0,0001. Nelle etichette, parole senza vicini, *qo*-
+  davanti a gallows quasi non esiste (0–5%), mentre nelle righe sta fra il 30% e il 68%.
+- **-l: non decisa** (−0,06, p 0,94 nella direzione prevista). La parte della "forma di pausa" sulla fine della
+  parola non regge.
+- **Lettura:** con il salto del disegno (7–19%) e con la regola dell'e380 (*qo*- dopo -*y*, -*o*, -*d*), il quadro è
+  coerente. *o*- è la forma di base; *qo*- compare solo quando la parola segue, scritta di seguito, una parola con
+  certe finali. Le etichette non hanno una parola prima, e quindi hanno *o*-.
+- Cautela: le etichette potrebbero anche essere un lessico a parte (nomi). Ma il salto del disegno, dentro il testo
+  corrente, dà lo stesso effetto.
+- A inizio riga invece *qo*- è frequente (57–87%): lì vale un'altra regola (e374), ancora da capire.
