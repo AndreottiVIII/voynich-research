@@ -1,0 +1,6 @@
+identico all'e242 con phi 0 e senza penalita': True
+phi 0.10 (seme 1): AUC e266 0.946
+phi 0.25 (seme 1): AUC e266 0.959
+seme 7: pagella 16/18 riga True mancano ['verticale', 'formule'] | AUC e231 0.876 e266 0.941 | R rare 49.5 | ripetizioni immediate 0.0092
+seme 8: pagella 16/18 riga False mancano ['spazio', 'omogeneità'] | AUC e231 0.888 e266 0.969 | R rare 55.2 | ripetizioni immediate 0.0094
+seme 9: pagella 15/18 riga True mancano ['omogeneità', 'verticale', 'formule'] | AUC e231 0.871 e266 0.931 | R rare 56.5 | ripetizioni immediate 0.0099
