@@ -10947,3 +10947,17 @@ originale nella stessa posizione, almeno 3 segni) si conta quanti sono parole de
   sono pezzi di una catena tagliata dove la regola lo permette, con un vocabolario che contiene quasi tutti i pezzi
   possibili (e3a61). I generatori fanno lo stesso (0,35–0,53); il gibberish scritto a mano no.
 - Esempio del tipo di caso (e379): *or aiin* e *oraiin*, *s aiin* e *saiin* sono tutti parole del Voynich.
+
+## 4/10/2026 (notte) — e3a68: spazi prevedibili, forme riempite e tagli sbagliati reggono con Takahashi e Glen Claston
+
+Preregistrato (`preregistrazioni/e3a68.md`). Stesse funzioni degli esperimenti originali; mediana di 5 × 10.000 parole.
+
+| misura | ZL | IT (Takahashi) | GC (Glen Claston, v101) | soglia (90° percentile delle lingue) |
+|---|---|---|---|---|
+| F1 degli spazi (e3a58) | 0,862 | 0,865 | 0,854 | 0,718 |
+| riempimento delle forme (e3a61) | 0,434 | 0,432 | 0,352 | 0,086 |
+| tagli sbagliati che sono parole (e3a67) | 0,499 | 0,471 | 0,458 | 0,119 |
+
+- **Esito preregistrato: regge in tutti e sei i casi**, con margini larghi. Con l'alfabeto di Glen Claston, che divide
+  i glifi in modo diverso dall'EVA, i valori restano quattro volte sopra le soglie (il riempimento cala a 0,35, ancora
+  quattro volte il 90° percentile delle lingue). I tre risultati non dipendono dal modo di trascrivere.
