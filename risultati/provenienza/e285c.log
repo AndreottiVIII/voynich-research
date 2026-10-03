@@ -1,0 +1,6 @@
+Voynich                                  ripetizione +0.0155 (z 12.9) | passaggi +0.0433 (z 17.8) | distanze {'1': 0.0158, '2': 0.0016, '3': -0.003}
+generatore e241, seme 7                  ripetizione +0.0206 (z 16.8) | passaggi +0.0190 (z 7.4) | distanze {'1': 0.0206, '2': -0.0014, '3': -0.0022}
+generatore e241, seme 8                  ripetizione +0.0170 (z 12.5) | passaggi +0.0104 (z 3.7) | distanze {'1': 0.0169, '2': -0.0007, '3': -0.0001}
+generatore e241, seme 9                  ripetizione +0.0206 (z 16.8) | passaggi +0.0146 (z 4.8) | distanze {'1': 0.0205, '2': 0.0009, '3': -0.0038}
+controllo positivo (finali = latino)     ripetizione +0.0025 (z 2.1) | passaggi +0.2452 (z 193.1) | distanze {'1': 0.0025, '2': -0.0031, '3': 0.0016}
+passaggi sistematici (compatibile con un messaggio, da verificare oltre)
