@@ -1,0 +1,73 @@
+{
+ "lingua A": {
+  "profilo": {
+   "0": {
+    "eccesso": 0.065201624763805,
+    "coppie": 1352
+   },
+   "1–4": {
+    "eccesso": 0.05249834901260887,
+    "coppie": 530
+   },
+   "5–9": {
+    "eccesso": 0.026087362309822674,
+    "coppie": 1109
+   },
+   "10–14": {
+    "eccesso": 0.0037205148336748733,
+    "coppie": 812
+   },
+   "15–19": {
+    "eccesso": -0.000929367839543488,
+    "coppie": 602
+   },
+   "20–29": {
+    "eccesso": 0.0057114167336923495,
+    "coppie": 627
+   },
+   "30+": {
+    "eccesso": -0.04352623139837038,
+    "coppie": 297
+   }
+  },
+  "mezza_vita_classe": "5–9",
+  "indice": 2,
+  "lunghezza_media_parola": 4.790935802688986
+ },
+ "lingua B": {
+  "profilo": {
+   "0": {
+    "eccesso": 0.05919710493578695,
+    "coppie": 6420
+   },
+   "1–4": {
+    "eccesso": 0.052810689883363564,
+    "coppie": 1469
+   },
+   "5–9": {
+    "eccesso": 0.04473835872416567,
+    "coppie": 5975
+   },
+   "10–14": {
+    "eccesso": 0.03148611365313247,
+    "coppie": 4334
+   },
+   "15–19": {
+    "eccesso": 0.03033648032835581,
+    "coppie": 3423
+   },
+   "20–29": {
+    "eccesso": 0.004619700215326372,
+    "coppie": 4791
+   },
+   "30+": {
+    "eccesso": 0.000668990167863512,
+    "coppie": 2821
+   }
+  },
+  "mezza_vita_classe": "20–29",
+  "indice": 5,
+  "lunghezza_media_parola": 5.088892739559868
+ },
+ "esito": "B ricorda più a lungo anche in lettere"
+}

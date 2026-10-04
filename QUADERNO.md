@@ -11995,3 +11995,25 @@ Preregistrato (`preregistrazioni/e3b20.md`). Scelte *qo*/*o*, -*ey*/-*dy*, *sh*/
   parole.
 - **Cautela:** le parole corte in mezzo (*ol*, *dy*, *or*…) possono avere un ruolo proprio (formule come *qokeedy ol
   qokeedy*); il test non lo separa.
+
+## 4/10/2026 (notte) — e3b21: anche misurata in lettere, la memoria delle scelte dura molto di più in lingua B
+
+Preregistrato (`preregistrazioni/e3b21.md`). Eccesso di accordo delle scelte -*ey*/-*dy*, *sh*/*ch*, *ee*/*e* per lettere
+scritte fra le due parole.
+
+| lettere in mezzo | lingua A | lingua B |
+|---|---|---|
+| 0 (parole vicine) | +0,065 | +0,059 |
+| 1–4 | +0,053 | +0,053 |
+| 5–9 | +0,026 | +0,045 |
+| 10–14 | +0,004 | +0,032 |
+| 15–19 | −0,001 | +0,030 |
+| 20–29 | +0,006 | +0,005 |
+| 30+ | −0,044 | +0,001 |
+
+- Lunghezza media delle parole: A 4,79, B 5,09 lettere. Mezza vita in lettere: **A fra 5 e 9, B fra 20 e 29**.
+- **Esito preregistrato: B ricorda più a lungo anche in lettere.** La differenza fra le lingue dell'e3b14 non viene dalla
+  lunghezza delle parole (quelle di B sono anzi un po' più lunghe): chi scrive in lingua B mantiene la scelta per circa 20
+  lettere, chi scrive in lingua A per circa 7.
+- Va con altri tratti per cui B è "più legata" lungo la riga (giuntura doppia, e393). Domanda aperta: è una differenza di
+  scriba (le mani di B) o del sistema B? Le mani si possono separare dentro B (mani 2, 3, 5).
