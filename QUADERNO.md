@@ -12531,3 +12531,21 @@ pagina. Codice provato su pagine finte (con deriva z vicine +15,3; senza −0,9)
   po' più spesso che come nelle righe lontane (+0,04 circa, con tutte e due le trascrizioni). Non è specifico della
   riga subito sopra (quindi non si può attribuire alla copia) e non si vede come deriva della riga intera. Lo lascio
   come fatto piccolo senza spiegazione; per il white paper non è un risultato da presentare.
+
+## 4/10/2026 (notte) — e3b48: fra etichette consecutive la memoria delle scelte si azzera
+
+Preregistrato (`preregistrazioni/e3b48.md`). Prima parola di ogni etichetta della ZL, 43 pagine con almeno 6 etichette
+(961 etichette); classi dell'e3b20; codice provato su pagine finte (con memoria +0,14; senza −0,02 con intervallo che
+contiene 0). Togliere le coppie simili rende la prova prudente (toglie più coppie concordi fra le consecutive).
+
+| coppie | consecutive: eccesso (coppie) | lontane 4–10: eccesso (coppie) | differenza (IC 95%) |
+|---|---|---|---|
+| senza parole simili | −0,025 (483) | −0,019 (2.659) | −0,006 (−0,041 – +0,037) |
+| con le parole simili (descrittivo) | −0,004 (552) | −0,008 (2.799) | +0,004 (−0,028 – +0,043) |
+
+- **Esito preregistrato: fra etichette la memoria si azzera.**
+- **Lettura:** le etichette consecutive si copiano la forma con piccole modifiche (e263, e3a38), ma non condividono le
+  scelte di grafia: ogni etichetta riparte da capo, come il testo corrente dopo un disegno o all'a capo. Anche contando
+  le parole simili l'accordo non sale: la piccola modifica fra un'etichetta e la successiva cade spesso proprio su una
+  scelta. Quadro: la memoria corta delle scelte vive solo dentro un tratto scritto di fila (riga, cerchio, e le righe
+  delle pagine di solo testo).
