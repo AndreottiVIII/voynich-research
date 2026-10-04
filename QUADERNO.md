@@ -12488,3 +12488,27 @@ azzerata +0,18 non significativa).
   nell'e393. Nelle pagine "solo testo" il valore è vicino a zero con tutte e due le trascrizioni, ma con 29 coppie
   l'intervallo va da −0,30 a +0,36: non si può dire né che passi né che non passi. Se in futuro si volesse insistere, non
   ci sono altri dati: le pagine "solo testo" sono solo queste.
+
+## 4/10/2026 (notte) — e3b46: "la copia porta con sé gli spazi" si ritrova con Takahashi, ma può essere una deriva lungo la pagina
+
+Preregistrato (`preregistrazioni/e3b46.md`). Metodo dell'e3a74 (punti facoltativi, tratto di 4 segni, differenza pesata
+dentro gli strati, bootstrap per pagina); codice provato su coppie finte.
+
+| trascrizione | confronto | coppie sopra | coppie confronto | differenza (IC 95%) |
+|---|---|---|---|---|
+| ZL | sopra − lontana (3+ righe) | 567 | 4.865 | +0,047 (+0,012 – +0,086) |
+| ZL | sopra − due righe sopra | 567 | 369 | +0,025 (−0,029 – +0,082) |
+| IT | sopra − lontana (3+ righe) | 876 | 6.755 | +0,036 (+0,008 – +0,067) |
+| IT | sopra − due righe sopra | 876 | 540 | −0,006 (−0,055 – +0,052) |
+
+(La riga ZL "sopra − lontana" ripete l'e3a74 con un altro seme: +0,047 contro +0,049.)
+
+- **Esito 1: si ritrova con Takahashi.** **Esito 2: può essere una deriva.**
+- **Lettura:** lo spazio facoltativo di un tratto è messo come nelle righe vicine più che come nelle righe lontane, con
+  tutte e due le trascrizioni; ma la riga subito sopra non batte quella a due righe di distanza (con Takahashi la
+  differenza è zero). La copia dalla riga sopra, invece, sta tutta nella riga subito sopra (e385). Quindi non si può
+  dire che **la copia** porti con sé gli spazi: il risultato si spiega anche con abitudini di spaziatura che cambiano
+  lentamente lungo la pagina (righe vicine più simili di righe lontane). **Corregge la lettura dell'e3a74**, che resta
+  vera come fatto ("righe vicine, spazi più simili") ma non come meccanismo ("si copiano gli spazi").
+- **Nota per il voynichizzatore:** invece di copiare gli spazi con le parole, basta far variare lentamente lungo la
+  pagina la propensione allo spazio.
