@@ -13619,3 +13619,23 @@ le lettere), due argomenti per distinguere, da verificare:
 Insieme fanno pendere verso una memoria di chi scrive, ma nessuno dei due è decisivo. Per il white paper: la memoria
 corta delle scelte separa il Voynich dai generatori; non separa da sola un testo senza significato da uno con
 significato.
+
+## 4/10/2026 (notte) — e3b93: l'accordo di prefisso dello swahili sembra una memoria ancora più forte del Voynich
+
+Preregistrato (`preregistrazioni/e3b93.md`). NT swahili, prefissi *m*-/*wa*- e *ki*-/*vi*- sullo stesso tema; memoria con il
+metodo finale, consumo con le lettere con la misura dell'e3b80. Classificazione provata su parole d'esempio.
+
+| misura | classe | occorrenze | coppie | effetto (IC 95%) |
+|---|---|---|---|---|
+| memoria | *m*-/*wa*- | 9.921 | 1.390 | +0,228 (+0,144 – +0,310) |
+| memoria | *ki*-/*vi*- | 1.600 | 30 | +0,575 (−0,025 – +1,206) |
+| memoria | insieme | 11.521 | 1.420 | **+0,236** (+0,155 – +0,316) |
+| consumo con le lettere | insieme | 11.521 | 488 | −0,008 (−0,155 – +0,138) |
+
+Voynich: memoria +0,086 (*qo*/*o* +0,095); consumo con le lettere +0,066.
+
+- **Esiti preregistrati:** **l'accordo di prefisso sembra memoria** (quasi tre volte il Voynich); consumo con le
+  lettere **no** (ma con 488 coppie l'intervallo è larghissimo: non esclude il valore del Voynich).
+- **Lettura:** un accordo grammaticale di prefisso, il caso linguistico più vicino a *qo*/*o*, produce con la nostra misura
+  una "memoria" anche più forte di quella del Voynich. Conferma la cautela dell'e3b91. Il consumo con le lettere resta un
+  indizio di differenza (e3b92), non provato per lo swahili per mancanza di dati.
