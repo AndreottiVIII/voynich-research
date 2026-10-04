@@ -788,3 +788,22 @@ come **PDF del libro**.
   hash diversi. Prima prova di rilettura in un ambiente diverso (§10 della scheda): passata, ma con una sola chiave.
   Numeri in `SITO_WEB.md`, §12.
 - Per la v18 (e416): il sito terrà ogni versione in una cartella sua, così la v17 resta leggibile.
+
+## 4/10/2026, 13:50 — e416 / e416b: righe troppo larghe, due tentativi, resta la v17
+
+- Voce completa nel QUADERNO ("vz: e416 ed e416b"). In breve: termine di larghezza nella disposizione
+  (`pesi_disposizione`: `larghezza`, `larghezza_beta` oppure `larghezza_curva`); parametri in `pezzi_parametri_v18.json`
+  e `pezzi_parametri_v19.json` (non nel registro `versioni.py`, non pubblicate).
+- v19: righe oltre 1,5 volte come nel Voynich (2,8% contro 2,9%), oltre 1,25 da 16,7% a 11,4% (Voynich 6,0%), giudici
+  0,551 / 0,596 (v17: 0,563 / 0,601), ma **cancello della riga 4 su 12** (v17: 11 su 12) per la soglia A ≥ 1,0
+  (A media 0,999 contro 1,009). Per i criteri preregistrati non sostituisce la v17.
+- Errore mio da ricordare: il font nel repo pubblico era stato rovinato dalla conversione dei fine riga
+  (`.gitattributes` con `* text eol=lf`); corretto con `*.ttf binary`. Controllare sempre i file binari dopo il push
+  (`git show HEAD:file | cmp - file`).
+- Code lanciate con `esecuzioni/vz_v18.sh` e `vz_v19.sh` (e416/e416b, poi e409 con VERSIONE, CHIAVI=1..12, CASI=a).
+
+### Dove siamo (4/10, 13:50)
+
+- Online: v17 + comando `pdf` + carattere 1.1. La v19 è pronta ma non pubblicata: aspetta la decisione di Davide
+  (seguito possibile: regolare di nuovo il peso `scelte` sulla v19 per riportare il cancello, esperimento nuovo).
+- Scheda per il sito: `voynichizzatore/SITO_WEB.md` (il sito lo costruisce un'altra chat; il generatore resta qui).

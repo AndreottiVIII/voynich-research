@@ -1,0 +1,12 @@
+Voynich: curva a 11 nodi: 0.40 -> 0.41; 0.67 -> 0.69; 0.80 -> 0.86; 0.89 -> 0.92; 0.96 -> 0.93; 1.00 -> 1.01; 1.04 -> 1.07; 1.10 -> 1.04; 1.16 -> 1.07; 1.25 -> 1.12; 1.55 -> 1.39 | oltre 1,25 0.060 | oltre 1,5 0.029 | parole oltre 1,5 0.032 | residui 0.1533
+w 0.0   oltre 1,25 0.167 | oltre 1,5 0.049 | residui 0.1949 | pendenza propria 1.003
+w 0.01  oltre 1,25 0.120 | oltre 1,5 0.026 | residui 0.1513 | pendenza propria 0.920
+w 0.02  oltre 1,25 0.096 | oltre 1,5 0.016 | residui 0.1305 | pendenza propria 0.882
+w 0.05  oltre 1,25 0.072 | oltre 1,5 0.006 | residui 0.0969 | pendenza propria 0.824
+w 0.1   oltre 1,25 0.063 | oltre 1,5 0.004 | residui 0.0811 | pendenza propria 0.803
+w 0.2   oltre 1,25 0.057 | oltre 1,5 0.002 | residui 0.0679 | pendenza propria 0.781
+w 0.5   oltre 1,25 0.055 | oltre 1,5 0.001 | residui 0.0584 | pendenza propria 0.771
+peso scelto: 0.01
+v17: oltre 1,25 0.167 | oltre 1,5 0.050 | residui 0.1997
+v18: oltre 1,25 0.114 | oltre 1,5 0.028 | residui 0.1534
+{'sacchi identici': 12, 'gabbia identica': 12, 'rilettura esatta': 12}
