@@ -225,7 +225,9 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     primo scriba vero con il comportamento del Voynich. Marianus и/ꙇ non interpretabile (scelta quasi fissa per parola).
     **e3c48 (correzione della distorsione):** la finestra del Voynich regge anche con blocchi di 5 righe (K corretto +0,124 /
     +0,080 / +0,074 ZL); **ritrattato l'e3c46**: per Hatton þ/ð la misura era gonfiata (+0,25 col rimescolamento); corretta,
-    accordo accanto sì ma a 2–3 parole no. Da rifare con la correzione i confronti con lingue, generatori, scribi (e3c49).
+    accordo accanto sì ma a 2–3 parole no. **e3c49 (corretto):** Voynich r 0,66–0,68, Plinio 0,57–0,60, francese 0,45–0,49:
+    il Voynich sta in cima alla gamma delle lingue, non fuori (esito incerto). Nessun generatore ha la finestra (Timm e
+    Schinner accanto +0,077). Volapük e molte classi generiche corrette sono a zero (era distorsione).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
