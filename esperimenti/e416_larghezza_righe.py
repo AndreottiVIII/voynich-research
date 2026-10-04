@@ -25,7 +25,7 @@ TESTO = os.path.join(QUI, '..', 'esecuzioni', 'voynichizzatore', 'isidoro_xvii_i
 PESI = (0.0, 0.01, 0.02, 0.05, 0.1, 0.2, 0.5)
 REGOLAZIONE = ('e416-reg-1', 'e416-reg-2')
 CHIAVI = tuple(range(1, 13))
-NOME = 'e416_larghezza_righe'
+NOME, VERS, TITOLO, PREREG = 'e416_larghezza_righe', 'v18', 'e416 — La larghezza delle righe in caratteri', 'preregistrazioni/e416.md'
 
 
 def pagine_di(rr):
@@ -64,6 +64,15 @@ def larghezze(rr, beta):
                         ('parole oltre 1,5', sum(x > math.log(1.5) for x, _ in pt) / len(pt)),
                         ('residui', math.sqrt(sum((r - m) ** 2 for r in res) / len(res))),
                         ('pendenza propria', pendenza(rr))])
+
+
+def modello(voy):
+    """Il modello della larghezza attesa misurato sul Voynich (qui: la pendenza beta; nell'e416b una curva)."""
+    return pendenza(voy)
+
+
+def descrivi(beta):
+    return 'beta %.3f' % beta
 
 
 def parametri(w, beta):
@@ -108,10 +117,10 @@ def scegli(reg, bersaglio):
 def main(prova=False):
     import pezzi
     voy, _ = pezzi.voynich()
-    beta = pendenza(voy)
+    beta = modello(voy)
     vero = larghezze(voy, beta)
-    print('Voynich: beta %.3f | oltre 1,25 %.3f | oltre 1,5 %.3f | parole oltre 1,5 %.3f | residui %.4f' % (
-        beta, vero['caratteri oltre 1,25'], vero['caratteri oltre 1,5'], vero['parole oltre 1,5'], vero['residui']), flush=True)
+    print('Voynich: %s | oltre 1,25 %.3f | oltre 1,5 %.3f | parole oltre 1,5 %.3f | residui %.4f' % (
+        descrivi(beta), vero['caratteri oltre 1,25'], vero['caratteri oltre 1,5'], vero['parole oltre 1,5'], vero['residui']), flush=True)
     pesi, chiavi_reg = ((0.0, 0.1), REGOLAZIONE[:1]) if prova else (PESI, REGOLAZIONE)
     proc = max(1, int(os.environ.get('PROCESSI', '1')))
     with Pool(proc) as pool:
@@ -136,18 +145,18 @@ def main(prova=False):
     print(dict(conti), flush=True)
     x = parametri(scelto, beta)
     if scelto:
-        with open(pezzi.PARAMETRI % 'v18', 'w', encoding='utf-8', newline='\n') as f:
+        with open(pezzi.PARAMETRI % VERS, 'w', encoding='utf-8', newline='\n') as f:
             json.dump(x, f, ensure_ascii=False, indent=1)
     json.dump(OrderedDict([('beta', beta), ('Voynich', vero), ('regolazione', OrderedDict((str(w), r) for w, r in reg.items())), ('peso', scelto),
                            ('sintesi', sintesi), ('conti', conti), ('per chiave', mis)]),
               open(os.path.join(RISULTATI, NOME + '.json'), 'w', encoding='utf-8', newline='\n'), ensure_ascii=False, indent=1)
     pc = lambda v: ('%.1f%%' % (100 * v)).replace('.', ',')
     nu = lambda v, d=3: ('%.*f' % (d, v)).replace('.', ',')
-    md = ['# e416 — La larghezza delle righe in caratteri', '',
-          'Preregistrazione: `preregistrazioni/e416.md`. Larghezza di una riga: caratteri EVA delle sue parole più uno spazio per parola. '
+    md = ['# ' + TITOLO, '',
+          'Preregistrazione: `' + PREREG + '`. Larghezza di una riga: caratteri EVA delle sue parole più uno spazio per parola. '
           'Pagine con almeno 5 righe.', '',
           '## Sul Voynich', '',
-          '- Pendenza β di log(larghezza) su log(parole), entrambe rispetto alla mediana della pagina: **%s**.' % nu(beta),
+          '- Larghezza attesa (log larghezza su log parole, entrambe rispetto alla mediana della pagina): **%s**.' % descrivi(beta).replace('.', ','),
           '- Righe oltre 1,25 volte la mediana: %s; oltre 1,5: %s; deviazione dei residui: %s.' % (
               pc(vero['caratteri oltre 1,25']), pc(vero['caratteri oltre 1,5']), nu(vero['residui'], 4)), '',
           '## Regolazione del peso (manoscritti senza messaggio, chiavi %s)' % ' e '.join(REGOLAZIONE), '',
@@ -158,11 +167,11 @@ def main(prova=False):
     md += ['', 'Scelto il peso con la deviazione dei residui più vicina a quella del Voynich (%s).' % nu(vero['residui'], 4), '',
            '## Misura: Isidoro nascosto, 12 chiavi (e409-1 … e409-12)', '',
            '| | oltre 1,25 | oltre 1,5 | parole oltre 1,5 | residui |', '|---|---|---|---|---|']
-    for nome, r in (('Voynich', vero), ('v17', sintesi['v17']), ('v18', sintesi['v18'])):
+    for nome, r in (('Voynich', vero), ('v17', sintesi['v17']), (VERS, sintesi['v18'])):
         md.append('| %s | %s | %s | %s | %s |' % (nome, pc(r['caratteri oltre 1,25']), pc(r['caratteri oltre 1,5']), pc(r['parole oltre 1,5']), nu(r['residui'], 4)))
-    md += ['', '- Sacchi di pagina identici fra v17 e v18: %d su %d; gabbia identica: %d su %d; rilettura esatta della v18: %d su %d.' % (
+    md += ['', '- Sacchi di pagina identici fra v17 e la versione nuova: %d su %d; gabbia identica: %d su %d; rilettura esatta: %d su %d.' % (
         conti['sacchi identici'], len(mis), conti['gabbia identica'], len(mis), conti['rilettura esatta'], len(mis)),
-           '- I giudici, la pagella e il cancello della v18 si misurano con l\'e409 (`VERSIONE=v18`), stesse chiavi.', '']
+           '- I giudici, la pagella e il cancello si misurano con l\'e409 (`VERSIONE=%s`), stesse chiavi.' % VERS, '']
     open(os.path.join(RISULTATI, NOME + '.md'), 'w', encoding='utf-8', newline='\n').write('\n'.join(md))
 
 

@@ -305,6 +305,21 @@ class Disposizione:
             for t, w in enumerate(arr):
                 lung[riga_di[t]] += len(w) + 1
             attesa = [len(ps) ** pesi.get('larghezza_beta', 1.0) for _, ps in righe]
+            if pesi.get('larghezza_curva'):
+                # e416b: la larghezza attesa segue una curva misurata sul Voynich (nodi: log parole su mediana di pagina ->
+                # log larghezza su mediana di pagina), lineare fra i nodi e piatta fuori
+                import statistics
+                xs, ys = pesi['larghezza_curva']
+                med = statistics.median(len(ps) for _, ps in righe)
+
+                def f(x):
+                    if x <= xs[0]:
+                        return ys[0]
+                    for k in range(1, len(xs)):
+                        if x <= xs[k]:
+                            return ys[k - 1] + (ys[k] - ys[k - 1]) * (x - xs[k - 1]) / (xs[k] - xs[k - 1])
+                    return ys[-1]
+                attesa = [math.exp(f(math.log(len(ps) / med))) for _, ps in righe]
             fattore = sum(lung) / sum(attesa)
             attesa = [a * fattore for a in attesa]
         if N >= 2:
