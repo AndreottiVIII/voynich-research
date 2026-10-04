@@ -512,3 +512,40 @@ riga e le parole ai bordi. Quello che resta:
 su) si accordano fra parole vicine della stessa riga, con una forza simile all'accordo grammaticale delle lingue ma per una
 distanza un po' più lunga; nessun generatore pubblicato lo fa. La differenza con le lingue è chiara come stima, non
 dimostrata con certezza (intervalli larghi).
+
+## Punto fermo della mattina (8:20): che cosa resta, detto semplice
+
+Stamattina ho rifatto le misure togliendo una cosa alla volta tutto quello che poteva gonfiarle. Ogni volta che il numero
+cambiava l'ho scritto. Ecco che cosa resta.
+
+**Solido (regge in tutte le prove):**
+
+1. **Le scelte di grafia del Voynich si accordano fra parole vicine della stessa riga.** *k*/*t*, *sh*/*ch*, -*ey*/-*dy*: fra
+   parole accanto l'accordo vale circa +0,12 – +0,15, anche togliendo le preferenze delle singole parole, quelle della
+   pagina, la deriva lungo la riga e le parole ai bordi. *qo*/*o* si accorda da due parole in su (fra parole accanto
+   decide la regola di raccordo). C'è in ZL, Takahashi e Glen Claston (e3c34, e3c35, e3c38).
+2. **Nessun generatore pubblicato lo riproduce.** U3 e Timm e Schinner hanno un piccolo accordo fra parole accanto, ma a
+   due e tre parole niente (e3c29, e3c37).
+3. **Dentro la riga le varianti marcate calano verso destra** (*qo*, *k*, *sh*, -*ey*), più in fretta all'inizio della riga.
+   Proprietà nuova, in tutte le mani, assente nei generatori (e3c13, e3c17, e3c18, e3c20).
+
+**Probabile ma non dimostrato:**
+
+4. **L'accordo dura più a lungo che nelle lingue.** A tre parole resta più della metà (56–74%), nelle lingue naturali di
+   solito lo 0–20% (al massimo il 46%). La stima è chiara, ma gli intervalli sono larghi (e3c30, e3c31, e3c34, e3c36).
+5. **All'a capo passa circa metà.** È la stima di sempre, ma con la misura pulita non è dimostrata (e3c39).
+
+**Corretto stamattina (prima lo davo per buono):**
+
+- La memoria non è "+0,08 in tutte le scelte": una parte veniva dalla posizione nella riga e dalla pagina.
+- La forma piatta non è "nettamente diversa dalle lingue": in parte veniva dal mescolare righe corte e lunghe.
+- Il "consumo con le lettere" sta soprattutto in *sh*/*ch* (e3c12).
+- Diversi errori di metodo, tutti nel Quaderno: divisione sbilanciata dei gruppi (e3c06–e3c07), regressione lineare
+  ingannata dalla curvatura (e3c09), radici ripetute nel generatore di prova (e3c27).
+
+**Che cosa vuol dire.** Il Voynich ha un accordo fra le scelte di grafia di parole vicine, simile per forza all'accordo
+grammaticale delle lingue, che nessun generatore riproduce. Che sia più "abitudine di chi scrive" che "grammatica" è
+possibile ma non dimostrato. Questo non dice se il testo abbia un significato.
+
+**Che cosa servirebbe.** Una trascrizione diplomatica di un manoscritto medievale, con le varianti di grafia segnate, per
+vedere se uno scriba vero ha lo stesso accordo. Scaricarla richiede il tuo permesso.
