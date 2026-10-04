@@ -1418,6 +1418,14 @@ prudente per il white paper:** il Voynich ha un accordo delle scelte di grafia f
 dell'accordo grammaticale delle lingue, che come stima dura più a lungo lungo la riga (a 3 parole ne resta il 60–70%,
 nelle lingue il 0–30%) ma senza una differenza dimostrata dentro le stesse righe; nessun generatore pubblicato lo ha.
 
+**Quadro più pulito (e3c32 – e3c35).** Togliendo insieme le preferenze delle singole parole, quelle della pagina e la
+deriva lungo la riga, e i bordi della riga: (1) righe corte e lunghe hanno lo stesso accordo (e3c32); (2) non è una
+preferenza di tutta la riga: oltre 4 parole l'accordo è circa zero (e3c33); (3) scelta per scelta (e3c35), *k*/*t*, *sh*/*ch*
+e -*ey*/-*dy* si accordano fra parole accanto (+0,12 – +0,15) e a 3 parole ne resta il 56–74% (nelle lingue naturali al più
+il 46%, di solito 0–20%); *qo*/*o* non si accorda fra parole accanto (lì decide il raccordo con la parola prima) ma a 2–3
+parole sì (+0,06 / +0,12); *a*/*o* quasi niente. Con la serie automatica (dominata da *a*/*o*) il Voynich sembra una lingua
+(e3c34): il tratto riguarda alcune scelte, non tutte.
+
 **Lezioni di metodo da riportare** (utili anche a chi legge): (1) confrontare con la media della pagina ai bordi della
 riga inganna, perché fine e inizio riga hanno forme proprie; (2) togliere le coppie "simili" guardando la parola intera
 falsa i confronti con i rimescolamenti; (3) il rimescolamento parola per parola sottostima la variabilità: servono

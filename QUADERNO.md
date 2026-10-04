@@ -14686,3 +14686,32 @@ parole senza bordi; atteso stessa parola + pagina + deriva; R0 = K(3)/K(1).
   controllato scelta per scelta (e3c35).
 - **Bilancio:** l'accordo fra parole accanto c'è con tutte le classi (+0,07 – +0,11) e manca nei generatori; la forma più
   lunga delle lingue riguarda solo alcune scelte.
+
+## 4/10/2026 (mattina) — e3c35 (descrittivo): la "finestra" sta in *k*/*t*, *sh*/*ch*, -*ey*/-*dy*; *qo*/*o* ha accordo da 2 parole in su; *a*/*o* quasi niente
+
+Preregistrato (`preregistrazioni/e3c35.md`). Misura dell'e3c34 scelta per scelta (righe di almeno 6 parole senza bordi;
+atteso stessa parola + pagina + deriva).
+
+| scelta | K(1) ZL / IT | K(2) | K(3) | R0 ZL / IT |
+|---|---|---|---|---|
+| *qo*/*o* | −0,006 / −0,006 | +0,056 / +0,064 | **+0,114 / +0,120** | non interpretabile (K(1) ≈ 0) |
+| *k*/*t* | +0,125 / +0,129 | +0,079 / +0,078 | +0,070 / +0,074 | 0,56 / 0,57 |
+| *sh*/*ch* | +0,123 / +0,131 | +0,055 / +0,038 | +0,071 / +0,095 | 0,58 / 0,73 |
+| -*ey*/-*dy* | +0,148 / +0,150 | +0,099 / +0,088 | +0,093 / +0,111 | 0,63 / 0,74 |
+| *a*/*o* (automatica) | +0,042 / +0,027 | −0,014 / −0,012 | −0,040 / −0,038 | — |
+| *ch*/*e* (automatica) | +0,089 / +0,117 | +0,157 / +0,129 | +0,054 / +0,078 | 0,61 / 0,67 |
+
+- **Attesa scritta prima, in parte sbagliata:** avevo previsto R0 alto in *qo*/*o* e -*ey*/-*dy* e più basso nelle altre. In
+  realtà *k*/*t*, *sh*/*ch* e -*ey*/-*dy* hanno tutte un accordo chiaro fra parole accanto (+0,12 – +0,15, tolte le preferenze
+  di parola e di pagina e la deriva) che a 3 parole resta per il 56–74%; *qo*/*o* non ha accordo fra parole accanto ma ne ha
+  a 2 e 3 parole; *a*/*o* quasi niente.
+- **Lettura per *qo*/*o*:** fra parole accanto la scelta *qo*/*o* è decisa dalla regola di raccordo con l'ultimo segno della
+  parola prima (e380, e3a01), che prende il posto della memoria; la memoria si vede da 2 parole in su.
+- **Perché le classi automatiche sembravano "da lingua" (e3c34):** la classe più numerosa, *a*/*o*, quasi non ha accordo.
+- **Come si accorda con l'e3c27** (memoria in punti, vicine 2–3 contro lontane 6–10, quasi tutta in *qo*/*o* e -*ey*/-*dy*):
+  *k*/*t* e *sh*/*ch* hanno un accordo che dura a lungo dentro la riga, quindi la differenza fra vicine e lontane è piccola;
+  *qo*/*o* ha il suo accordo proprio a 2–3 parole. Le due misure vedono parti diverse dello stesso fenomeno.
+- **Quadro aggiornato:** tolte le preferenze delle singole parole, quelle della pagina e la deriva lungo la riga, le scelte
+  *k*/*t*, *sh*/*ch*, -*ey*/-*dy* si accordano fra parole vicine della stessa riga (+0,12 – +0,15 fra parole accanto) e
+  l'accordo cala lentamente (a 3 parole ne resta più della metà); nelle lingue naturali del corpus a 3 parole ne resta al
+  più il 46% (Plinio) e di solito il 0–20%.
