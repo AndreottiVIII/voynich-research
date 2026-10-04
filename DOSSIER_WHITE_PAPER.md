@@ -1451,6 +1451,26 @@ pulita (e3c45), correzione dell'e3c01:** fra parole accanto si accordano anche i
 e il greco (+0,064); ma a 2–3 parole crollano (Marianus +0,025 – +0,027, greco +0,015 – +0,006), tranne il Corano (picco a
 2 parole). Il Voynich resta +0,06 – +0,08 a 2–3 parole. Il tratto che distingue è l'accordo che dura fino a 3 parole.
 
+**FORMULA FINALE PER IL WHITE PAPER (4/10, ore 8:30; sostituisce tutte le formule precedenti di questa sezione).**
+Misurata nel modo più pulito (prima e ultima parola della riga tolte; atteso di ogni parola dalle altre occorrenze della
+stessa parola, dalla preferenza della pagina e dalla deriva lungo la riga):
+(1) nel Voynich le scelte *k*/*t*, *sh*/*ch*, -*ey*/-*dy* si accordano fra parole vicine della stessa riga: circa +0,13 fra
+parole accanto, +0,07 – +0,08 a 2 e 3 parole, circa 0 da 4 parole in su; *qo*/*o* si accorda a 2–3 parole (fra parole accanto
+decide il raccordo); *a*/*o* quasi niente (e3c34, e3c35, e3c33);
+(2) lo stesso in tre trascrizioni (ZL, Takahashi, Glen Claston con un altro alfabeto: e3c38, e3c44), in A e in B (e3c36,
+A con pochi dati), nelle tre mani;
+(3) non viene dalla catena di segni (e3c40), né dalla vicinanza sulla pagina (le parole una sopra l'altra non si
+accordano: e3c41), né da una preferenza di paragrafo (e3c42); è separato per ogni scelta (e3c43);
+(4) nessun generatore pubblicato lo riproduce: al più un piccolo accordo fra parole accanto, mai a 2–3 parole (e3c37);
+(5) nelle lingue del corpus l'accordo grammaticale fra parole accanto ha la stessa grandezza, e alcune lingue (fra cui uno
+scriba medievale vero, il Codex Marianus) si accordano anche in scelte dentro la parola; ma a 2–3 parole l'accordo delle
+lingue crolla (di solito 0–20% di quello fra parole accanto, al più 46%), mentre nel Voynich resta per più della metà
+(e3c34, e3c45). Questa differenza di forma è chiara come stima ma non dimostrata con certezza (intervalli larghi; l'idea
+è nata guardando gli stessi dati).
+Separatamente: (6) dentro la riga le varianti marcate (*qo*, *k*, *sh*, -*ey*) calano andando verso destra, più in fretta
+all'inizio; nessun generatore lo fa (e3c13 – e3c20).
+Questo non dice se il testo abbia un significato.
+
 **Lezioni di metodo da riportare** (utili anche a chi legge): (1) confrontare con la media della pagina ai bordi della
 riga inganna, perché fine e inizio riga hanno forme proprie; (2) togliere le coppie "simili" guardando la parola intera
 falsa i confronti con i rimescolamenti; (3) il rimescolamento parola per parola sottostima la variabilità: servono
