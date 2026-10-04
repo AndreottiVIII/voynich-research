@@ -1188,3 +1188,4 @@ la copia e lo spazio non lessicale, ma non il resto).
 - **Nessuna periodicità lungo la riga** (osservazione dai profili e3a87 ed e3b14): ripetizione e scelte calano regolarmente con la distanza, senza picchi a 2–4 parole; nessun indizio di gruppi di parole di lunghezza fissa (come in un cifrario verboso a gruppi regolari).
   - La memoria è separata per ogni scelta (e3b18): stessa classe +0,023 (vicino − lontano), classi diverse +0,003 (IC che contiene 0). Non c'è un "modo" di scrivere comune.
   - Quali scelte hanno la memoria (e3b19): sì k/t (+0,041), qo/o, sh/ch, ee/e, -ey/-dy; no il numero di i (ain/aiin/aiiin) né -l/-r; ckh/cth e vocale iniziale con troppi pochi dati.
+  - La memoria non sembra venire dallo stato della penna (nota dopo e3b18): una penna che si scarica agirebbe su tutte le scelte insieme, mentre ogni scelta ricorda solo sé stessa.

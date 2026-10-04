@@ -11967,3 +11967,13 @@ Preregistrato (`preregistrazioni/e3b19.md`). Differenza vicino (d 2–3) − lon
   -*ey*/-*dy*); non ce l'hanno il numero di trattini *i* (*ain*/*aiin*/*aiiin*) né -*l*/-*r* (che segue il raccordo).
   Il numero di *i* si comporta come una variazione senza abitudine: forse dipende dal gesto della penna più che da una
   scelta, o è in parte un fatto di lettura dei trascrittori.
+
+## 4/10/2026 (notte) — Nota: la memoria corta non sembra venire dallo stato della penna
+
+Una spiegazione fisica possibile della memoria corta delle scelte (e3b06–e3b19) è lo stato della penna o
+dell'inchiostro: per qualche parola dopo aver intinto la penna i tratti sono pieni (*sh* con il ricciolo, *ee* doppia),
+poi la penna si scarica. Ma una causa così agirebbe **su tutte le scelte insieme** (una penna scarica toglie il ricciolo
+di *sh* e accorcia le *e* nello stesso momento), quindi scelte di tipo diverso dovrebbero andare insieme. L'e3b18 trova il
+contrario: ogni scelta ricorda solo sé stessa, le scelte diverse non si legano (+0,003, IC che contiene 0). Questo va
+contro una causa fisica unica e a favore di abitudini separate per ogni variante. (Il numero di *i*, che è un fatto di
+tratti ripetuti, non ha memoria: e3b19.) Resta da verificare sulle immagini, se un giorno si misureranno i tratti.
