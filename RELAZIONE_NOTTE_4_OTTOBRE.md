@@ -276,7 +276,9 @@ scritto nella seconda parte. Le dico subito.
 "la casa bianca", -*o*/-*a*; latino -*us*/-*a*) dà un effetto della stessa grandezza della "memoria" del Voynich (0,6–1,1
 volte). Quindi la memoria delle scelte del Voynich, soprattutto per -*ey*/-*dy* (una desinenza) e *qo*/*o* (un inizio di
 parola), ha **la forma che avrebbe un accordo fra parole** in una lingua. Non è un argomento per "testo senza
-significato"; semmai il contrario. Sto cercando un tratto che distingua accordo e abitudine (vedi sotto).
+significato"; semmai il contrario. Un primo tratto che li distingue: nel Voynich la memoria si consuma con le lettere
+scritte (+0,066), nell'accordo grammaticale delle lingue quasi no (media +0,015) (e3b92). Quindi una parte della memoria
+del Voynich sembra legata al gesto di scrivere; ma la domanda "accordo o abitudine" resta aperta.
 
 ## Come ci sono arrivato (con i passi sbagliati)
 

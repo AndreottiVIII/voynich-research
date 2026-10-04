@@ -1286,7 +1286,9 @@ accoppiata con l'inizio del tratto che lo continua, contro l'inizio di tratti vi
 
 **Cautela da mettere in testa (e3b91):** con la stessa misura l'accordo grammaticale delle lingue (desinenze -*o*/-*a*,
 -*us*/-*a*) dà un effetto della stessa grandezza: la "memoria" del Voynich potrebbe essere anche un accordo fra parole,
-cioè un tratto da lingua. Vedi e3b92 e seguenti per i tentativi di distinguere.
+cioè un tratto da lingua. **Primo tratto che distingue (e3b92):** il consumo con le lettere scritte, netto nel Voynich
+(+0,066) e debole o assente nell'accordo grammaticale delle lingue (media +0,015, nessun intervallo sopra 0): una parte
+della memoria del Voynich sembra legata al gesto di scrivere. Non definitivo.
 
 **Formula per il white paper:** il Voynich ha, oltre alla catena di segni per riga e allo spazio non lessicale, una
 memoria corta delle scelte di grafia forte e uniforme (tutte le scelte, tutte le mani, due trascrizioni), che prosegue
