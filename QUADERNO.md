@@ -12615,3 +12615,24 @@ Preregistrato (`preregistrazioni/e3b50.md`). Funzioni dell'e3b49; codice della t
     non c'è.
 - **Nota di metodo:** i risparmi negativi vengono dal costo del modello più ricco fuori campione; la prova va letta per
   differenza rispetto alla catena, come preregistrato.
+
+## 4/10/2026 (notte) — e3b51: controllo naturale con þ e ð anglosassoni: memoria corta non dimostrata, legame con la parola incerto
+
+Preregistrato (`preregistrazioni/e3b51.md`). Testi anglosassoni del corpus di controllo (e381), che conservano þ e ð;
+codice provato su testi finti (memoria +0,061; senza memoria −0,002). Non so se l'edizione segua il manoscritto
+lettera per lettera.
+
+| testo | parole | vicine 2–3 (coppie) | lontane 6–10 (coppie) | differenza (IC 95%) |
+|---|---|---|---|---|
+| Hatton Gospels | 66.755 | −0,025 (3.199) | −0,033 (8.426) | +0,009 (−0,006 – +0,023) |
+| Leechbook (descrittivo) | 988 | −0,019 (135) | −0,040 (343) | +0,022 (−0,056 – +0,058) |
+
+- **Esito 1 preregistrato (Hatton): nessuna memoria corta** (l'intervallo contiene 0). Voynich, e3b06: +0,031.
+- **Esito 2 (Hatton, legame con la parola): incerto.** Risparmio +0,015 bit contro la catena: media +0,006, massimo
+  +0,009 (scarto +0,007, fra le due soglie).
+- **Cautela importante, vista dopo il risultato:** il confronto in valore assoluto con il Voynich non è equo. Nei Hatton
+  Gospels una delle due lettere domina (circa 91% in ogni posizione), quindi l'accordo atteso è già alto (circa 0,84) e
+  lo spazio per un accordo in più è piccolo (circa 0,16); nel Voynich le scelte sono più equilibrate (spazio circa
+  0,5). In proporzione allo spazio disponibile, +0,009 su 0,16 è circa il 5%, e +0,031 su 0,5 circa il 6%: potrebbero
+  essere simili. Va rifatto con una misura normalizzata (e3b52) prima di dire che lo scriba anglosassone ha meno memoria
+  del Voynich.
