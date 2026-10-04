@@ -390,3 +390,7 @@ Misure con il metodo finale (vedi DOSSIER, sezione 15.13). Da imitare:
 12. **Controllo per il generatore:** le lingue del corpus non hanno né la memoria nelle alternanze interne (25 testi su
     26, e3c01), né il consumo con le lettere (21 misure, e3c08). Un generatore che passi questi controlli deve mostrare
     tutti e tre i tratti: memoria nelle alternanze interne, massimo fra parole accanto con calo dolce, consumo con i segni.
+13. **Correzione al punto 11 (e3c12):** il consumo con i segni scritti sta soprattutto in *sh*/*ch* (−0,006 per segno);
+    in *qo*/*o*, *k*/*t*, -*ey*/-*dy* è circa un terzo e non dimostrato. Nel generatore: memoria con calo per parole per
+    tutte le scelte, più un calo per segni scritti forte solo per *sh*/*ch*. Per *sh*/*ch* potrebbe trattarsi
+    dell'inchiostro sul trattino di *sh* (in verifica, e3c13).
