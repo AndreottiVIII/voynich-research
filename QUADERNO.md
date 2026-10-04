@@ -12661,3 +12661,32 @@ Contrasto Voynich − Hatton: +0,026 (IC −0,074 – +0,130). **Esito preregist
   legge la differenza vicine − lontane, come preregistrato.
 - Prossimo: più varianti naturali (*i*/*y* nell'inglese antico, nella Secreta Alberti inglese e nel Nuovo Testamento
   fiammingo) per stringere l'intervallo (e3b53).
+
+## 4/10/2026 (notte) — e3b53: varianti naturali i/y e þ/ð: nell'insieme memoria non visibile, ma classi molto diverse fra loro
+
+Preregistrato (`preregistrazioni/e3b53.md`). Memoria normalizzata dell'e3b52 (K vicine − K lontane, senza parole
+simili); codice provato su un testo finto con varianti i/y (memoria +0,134; senza memoria −0,001).
+
+| testo, variante | coppie vicine | coppie lontane | memoria (IC 95%) |
+|---|---|---|---|
+| Hatton Gospels, i/y | 1.400 | 3.403 | +0,002 (−0,063 – +0,067) |
+| Hatton Gospels, þ/ð a inizio parola | 2.259 | 5.941 | **+0,200** (+0,083 – +0,309) |
+| Hatton Gospels, þ/ð dentro la parola | 940 | 2.485 | **−0,334** (−0,522 – −0,153) |
+| Secreta Alberti, i/y | 516 | 1.165 | −0,043 (−0,133 – +0,056) |
+| NT fiammingo, i/y | 282 | 720 | +0,062 (−0,185 – +0,275) |
+| insieme naturale | 5.397 | 13.714 | +0,020 (−0,030 – +0,070) |
+| Voynich (ZL) | 22.039 | 11.588 | +0,087 (+0,062 – +0,114) |
+
+Contrasto Voynich − insieme naturale: +0,068 (IC +0,012 – +0,124).
+
+- **Esiti preregistrati:** nelle varianti naturali la memoria corta **non si vede** (insieme); **il Voynich ha più
+  memoria** dell'insieme naturale.
+- **Ma l'insieme è eterogeneo**, e l'esito 2 va letto con prudenza: *i*/*y* non ha memoria in nessuno dei tre testi;
+  þ/ð a inizio parola ne ha molta (+0,20, più del Voynich); þ/ð dentro la parola ha un forte effetto **contrario**
+  (−0,33: parole vicine con scelte diverse). Un effetto contrario così forte non è memoria di chi scrive: fa pensare
+  alle formule fisse del Vangelo (parole con grafia propria che compaiono sempre insieme), che le misure vicine/lontane
+  non tolgono, perché tolgono solo le coppie della stessa parola. Lo stesso potrebbe gonfiare il +0,20 a inizio parola.
+- **Quindi:** nelle lingue vere la misura vicine/lontane è disturbata dalle locuzioni e dalle grafie proprie delle
+  parole; nel Voynich le locuzioni quasi non ci sono (e375) e le grafie proprie sono deboli (e3b49, e3b50), quindi lì il
+  problema è minore. Serve una prova che tenga ferme le parole e le loro preferenze e rimescoli solo le scelte fra le
+  occorrenze della stessa parola (e3b54).
