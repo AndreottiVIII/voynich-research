@@ -11255,3 +11255,18 @@ Preregistrato (`preregistrazioni/e3a80.md`). Stesso metodo dell'e3a78 sulla IT.
 
 - **Esito preregistrato: la sintesi regge.** Stessa divisione: sei proprietà riprodotte dalla catena per riga, copia
   dalla riga sopra e margine sinistro no.
+
+## 4/10/2026 (notte) — e3a81: apertura del paragrafo e -ey che cresce scendendo non vengono dalla catena per riga
+
+Preregistrato (`preregistrazioni/e3a81.md`, con la previsione scritta prima). Come l'e3a78, due proprietà di paragrafo e
+di pagina.
+
+| proprietà | Voynich vero | riscritto | R | esito |
+|---|---|---|---|---|
+| apertura del paragrafo (quota di *p*/*f* nella prima riga meno nelle altre) | 0,044 | 0,000 | 0,00 | serve un meccanismo in più |
+| -*ey* scendendo nella pagina (metà bassa meno metà alta, fra -*dy*/-*ey*) | 0,080 | −0,011 | −0,13 | serve un meccanismo in più |
+
+- **Esito: come previsto.** Con l'e3a78 il quadro è: una catena di segni per riga spiega le proprietà "orizzontali"
+  (giuntura, chiusura della riga, bordi, spazi, frequenza-forma); servono in più quattro proprietà "verticali", che
+  dipendono da dove si trova la riga: copia dalla riga sopra, evitamento dell'inizio uguale alla riga sopra, apertura
+  del paragrafo, crescita di -*ey* scendendo nella pagina.
