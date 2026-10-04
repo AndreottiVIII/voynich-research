@@ -763,3 +763,9 @@ come **PDF del libro**.
   aspetto che Davide guardi il PDF e dica se va bene.
 - In sospeso come prima: prova su un altro computer, giudice indipendente, sito web, miglioramenti (omogeneità, scelte
   di riga, profilo pagina, righe troppo lunghe).
+
+## 4/10/2026, 12:00 — Repo pubblico aggiornato; scheda per il sito
+
+- Repo pubblico aggiornato col comando `pdf`, il carattere e `pagine.py` (commit `c08394b`), su richiesta di Davide.
+- Scritta `voynichizzatore/SITO_WEB.md`: scheda autosufficiente per la chat che costruirà il sito (comandi, tempi misurati, formati, scelte tecniche, cosa si può dire e cosa no, licenze). Il sito deve offrire tutte e due le vesti: EVA e voynichese in PDF. Attenzione: si rilegge solo dal file EVA, non dal PDF.
+- Tempi misurati: encode 105 s, decode 5 s, pdf 9 s.
