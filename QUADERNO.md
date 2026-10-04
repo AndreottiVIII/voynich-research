@@ -11697,3 +11697,26 @@ nullo dentro gli strati, dichiarato nella preregistrazione).
   Timm e Schinner. In quel generatore le parole nascono copiando e modificando parole vicine, e anche lì il punto in cui
   cade uno spazio non dipende dall'identità della parola. Tutti i testi di confronto stanno comunque molto sotto le
   lingue.
+
+## 4/10/2026 (notte) — e3b06: le "scelte di grafia per riga" (e206b) sono memoria corta, non scelte della riga
+
+Preregistrato (`preregistrazioni/e3b06.md`). Accordo fra parole della stessa riga per cinque scelte facoltative,
+rispetto all'atteso dalla pagina senza la riga; vicino = 2–3 parole di distanza, lontano = 6–10.
+
+| classe | eccesso vicino (d 2–3) | IC 95% | eccesso lontano (d 6–10) | IC 95% |
+|---|---|---|---|---|
+| *qo*-/*o*- | +0,036 | +0,021 – +0,052 | +0,004 | −0,022 – +0,029 |
+| -*ey*/-*dy* | +0,050 | +0,036 – +0,065 | −0,008 | −0,029 – +0,015 |
+| *sh*-/*ch*- | +0,046 | +0,027 – +0,064 | +0,013 | −0,015 – +0,044 |
+| *ee*/*e* | +0,021 | +0,002 – +0,038 | −0,011 | −0,037 – +0,013 |
+| -*l*/-*r* | +0,002 | −0,013 – +0,016 | +0,003 | −0,016 – +0,021 |
+| **tutte** | **+0,031** | +0,023 – +0,038 | **−0,001** | −0,011 – +0,009 |
+
+- **Esito preregistrato: memoria corta (cala).** Le parole vicine concordano nelle scelte facoltative; quelle lontane
+  nella stessa riga no, per nessuna classe.
+- **Correzione della lettura dell'e206b:** le "scelte di riga" non sono interruttori che valgono per tutta la riga. Sono
+  l'effetto della ripresa di memoria corta (e3a86–e3a91): una scelta fatta in una parola si ripete nelle 2–3 parole
+  seguenti e poi si perde. Il nullo dell'e206b (rimescolamento dentro la pagina) non poteva distinguere le due cose.
+- -*l*/-*r* non concorda nemmeno da vicino: è decisa dal raccordo con la parola dopo (e3a02), non dalla memoria.
+- **Per il voynichizzatore (importante):** al posto della dozzina di interruttori di riga, una memoria corta delle
+  scelte di grafia (si tende a ripetere la scelta delle ultime 2–3 parole).
