@@ -216,6 +216,7 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     zero a 1, 2, 3 parole (Voynich +0,130 / +0,076 / +0,076): l'accordo non viene dalla catena. **e3c41:** nessun accordo
     verticale (riga sotto +0,04 contro controllo +0,02–0,04; accanto +0,14): conta la sequenza della scrittura.
     **e3c42:** nessuna preferenza di paragrafo (a 2–4 righe ≈ 0 sia nello stesso paragrafo sia fra paragrafi diversi).
+    **e3c43:** l'accordo sta dentro ogni scelta (+0,095/+0,098); fra scelte diverse niente (−0,02, come la distorsione nota).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);

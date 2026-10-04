@@ -14835,3 +14835,19 @@ della stessa pagina.
   circa zero sia nello stesso paragrafo sia fra paragrafi diversi.
 - L'accordo delle scelte è quindi un fatto della riga e delle parole vicine (fino a circa 3 parole), non del paragrafo.
   La "grafia di sessione" dell'e3b86 riguardava la stessa parola ripetuta, non parole diverse.
+
+## 4/10/2026 (mattina) — e3c43: l'accordo sta dentro ogni scelta, non c'è un "modo marcato" comune
+
+Preregistrato (`preregistrazioni/e3c43.md`). Misura pulita, parole interne, distanza 1–3 nella riga.
+
+| | stessa classe | classi diverse (marcata con marcata) |
+|---|---|---|
+| ZL | **+0,095** (+0,077 – +0,112) | −0,020 (−0,029 – −0,011) |
+| IT | **+0,098** (+0,082 – +0,116) | −0,017 (−0,026 – −0,009) |
+
+- **Esito preregistrato (ZL e IT): accordo soprattutto dentro ogni scelta.** Un *k* non spinge la parola vicina verso
+  *sh* o -*ey*: ogni scelta ricorda sé stessa. Conferma l'e3b18 con la misura pulita.
+- Il piccolo valore negativo fra classi diverse (−0,02) ha la grandezza della distorsione nota del correttivo di pagina
+  (circa −0,02 nei testi finti senza effetti, e3c32): non lo leggo come un vero effetto contrario.
+- Quadro: la deriva lungo la riga è comune a tutte le varianti marcate (e3c13), ma l'accordo fra parole vicine è separato
+  per ogni scelta.
