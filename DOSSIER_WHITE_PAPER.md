@@ -1262,7 +1262,7 @@ accoppiata con l'inizio del tratto che lo continua, contro l'inizio di tratti vi
 | È oltre le parole e oltre la catena di segni | **solida** | sul Voynich riscritto dalla catena di ordine 2: +0,002 (e3b69) |
 | Uguale in tutte le mani (A e B) | **solida** | mani 1, 2, 3: +0,089, +0,091, +0,079, intervalli sovrapposti (e3b70); la differenza A/B dell'e3b59/e3b60 era un difetto del metodo |
 | Nessun generatore pubblicato la ha | **solida** | Naibbe +0,011, U2 +0,013, U3 +0,003, Timm e Schinner +0,024, tutti con IC che contiene 0 (e3b70) |
-| Uno scriba medievale vero la ha | **non stabilito; non è universale** | scriba anglosassone, þ/ð a inizio parola +0,102 (IC −0,003 – +0,206); i/y nulla in tre testi (e3b70); scriba del Codex Marianus, и/ꙇ a inizio parola **−0,090** (IC −0,156 – −0,031): alterna invece di ripetere (e3b75) |
+| Uno scriba medievale vero la ha | **non stabilito** | scriba anglosassone, þ/ð a inizio parola +0,102 (IC −0,003 – +0,206); i/y nulla in tre testi (e3b70); Codex Marianus non informativo: l'effetto negativo (e3b75, −0,090) è tutto nella congiunzione di un segno (−0,260, probabilmente una convenzione di posizione nella frase), per le altre parole IC −0,203 – +0,151 (e3b76) |
 | La memoria si azzera all'a capo | **sbagliata** | passa per circa metà: D +0,039 ZL (IC +0,001 – +0,075), +0,041 IT (e3b66); l'"azzeramento" veniva dalle forme di bordo |
 | La memoria si azzera al salto del disegno | **sbagliata** | passa per intero: D +0,068 ZL, +0,077 IT, IC sopra 0 (e3b67) |
 | La memoria passa la fine del paragrafo | non dimostrato | stima circa 0 (ZL −0,015, IT −0,018), IC fino a +0,05 (e3b73) |
@@ -1278,9 +1278,9 @@ accoppiata con l'inizio del tratto che lo continua, contro l'inizio di tratti vi
 **Formula per il white paper:** il Voynich ha, oltre alla catena di segni per riga e allo spazio non lessicale, una
 memoria corta delle scelte di grafia forte e uniforme (tutte le scelte, tutte le mani, due trascrizioni), che prosegue
 oltre i salti del disegno e, dimezzata, oltre l'a capo, mentre la catena di segni (raccordo e giuntura) riparte a ogni
-interruzione; i generatori pubblicati non hanno questa memoria. Non è un'abitudine universale degli scribi (lo scriba del
-Codex Marianus fa il contrario, alterna; lo scriba anglosassone ha una stima positiva ma incerta): per dire quanto sia
-insolita servono altri manoscritti trascritti in modo diplomatico (permesso di Davide per scaricarli).
+interruzione; i generatori pubblicati non hanno questa memoria. Se sia un'abitudine normale degli scribi non è stabilito (lo
+scriba anglosassone ha una stima positiva ma incerta; il Codex Marianus non è informativo): servono altri manoscritti
+trascritti in modo diplomatico (permesso di Davide per scaricarli).
 
 **Lezioni di metodo da riportare** (utili anche a chi legge): (1) confrontare con la media della pagina ai bordi della
 riga inganna, perché fine e inizio riga hanno forme proprie; (2) togliere le coppie "simili" guardando la parola intera

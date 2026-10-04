@@ -1,0 +1,29 @@
+{
+ "varianti": {
+  "parole di almeno 2 segni": {
+   "occorrenze": 3709,
+   "quota_ꙇ": 0.16500404421677,
+   "coppie_vicine": 431,
+   "M": -0.03929033809157191,
+   "nullo": -0.015283916632250772,
+   "effetto": -0.024006421459324037,
+   "IC95": [
+    -0.2032236616528872,
+    0.15138997866724374
+   ]
+  },
+  "congiunzione (un segno)": {
+   "occorrenze": 5072,
+   "quota_ꙇ": 0.5463328075709779,
+   "coppie_vicine": 880,
+   "M": -0.2619426274435514,
+   "nullo": -0.002343603413595284,
+   "effetto": -0.25959902402995505,
+   "IC95": [
+    -0.3500220565561417,
+    -0.16532186233110885
+   ]
+  }
+ },
+ "esito": "l'alternanza viene dalla congiunzione"
+}

@@ -240,12 +240,12 @@ scritto nella seconda parte. Le dico subito.
    quarto (e3b68). Quello che riparte a ogni interruzione è la **catena di segni**: il raccordo *qo*/*o* e la giuntura fra
    l'ultimo segno e il primo. L'errore di prima veniva dalle forme di bordo: fine riga e inizio riga hanno scelte diverse
    dalla media della pagina, e il confronto con la media faceva sembrare azzerato quello che non lo era.
-3. **Uno scriba medievale vero ha la stessa memoria? Non per forza.** Nel corpus di controllo ho trovato due scribi
+3. **Uno scriba medievale vero ha la stessa memoria? Non lo so ancora.** Nel corpus di controllo ho trovato due scribi
    veri con una scelta grafica libera. Lo scriba anglosassone (Hatton Gospels, þ/ð a inizio parola) ha una stima +0,10
-   come il Voynich, ma l'intervallo tocca lo zero; per *i*/*y* niente. Lo scriba del **Codex Marianus** (antico slavo,
-   XI secolo, и/ꙇ a inizio parola) fa il **contrario**: alterna la variante invece di ripeterla (−0,090, intervallo
-   tutto sotto zero). Quindi la memoria corta positiva non è un'abitudine universale degli scribi; quella del Voynich,
-   forte e uguale dappertutto, resta un tratto da spiegare (e3b51–e3b70, e3b75).
+   come il Voynich, ma l'intervallo tocca lo zero; per *i*/*y* niente. Nel **Codex Marianus** (antico slavo, XI secolo,
+   и/ꙇ a inizio parola) l'effetto è negativo, ma viene tutto dalla congiunzione "и", che probabilmente si scrive in un
+   modo a inizio frase e in un altro dentro la frase; per le altre parole i dati sono troppo pochi (e3b51–e3b70,
+   e3b75, e3b76). La domanda resta aperta.
 4. **Il raccordo invece è proprio del Voynich**: lo scriba anglosassone lega appena la scelta þ/ð alla fine della parola
    prima, otto volte meno del raccordo *qo*/*o* (e3b58).
 5. **Le scelte non sono legate alla parola**: una parola del Voynich non ha una "sua" grafia (*k*/*t* e *sh*/*ch* per

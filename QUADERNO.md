@@ -13296,3 +13296,22 @@ Voynich ZL (e3b70): +0,086 (IC +0,060 – +0,113).
   degli scribi**; quella del Voynich, positiva e uguale in tutte le scelte e in tutte le mani, resta un tratto da
   spiegare. Cautela: due soli controlli, e l'alternanza del Marianus potrebbe avere una ragione propria (convenzioni
   dello scriba o della scuola, ritmo della pagina) che non ho studiato.
+
+## 4/10/2026 (notte) — e3b76: l'alternanza del Codex Marianus è tutta nella congiunzione; per le altre parole non si sa
+
+Preregistrato (`preregistrazioni/e3b76.md`). Come l'e3b75, separando le parole di almeno 2 segni (con l'esclusione delle
+coppie simili) dalla congiunzione di un segno (senza esclusione, perché è sempre la stessa parola; dichiarato prima di
+eseguire). Codice provato su testo finto (senza memoria +0,007; con memoria +0,286).
+
+| parole | occorrenze | quota ꙇ | coppie vicine | M | M nullo | effetto (IC 95%) |
+|---|---|---|---|---|---|---|
+| parole di almeno 2 segni | 3.709 | 0,165 | 431 | −0,039 | −0,015 | −0,024 (−0,203 – +0,151) |
+| congiunzione (un segno) | 5.072 | 0,546 | 880 | −0,262 | −0,002 | **−0,260** (−0,350 – −0,165) |
+
+- **Esito preregistrato: l'alternanza viene dalla congiunzione.** Due congiunzioni a 2–3 parole di distanza si scrivono
+  spesso in modo diverso: probabilmente una convenzione (per esempio una forma per la congiunzione che apre la frase e
+  un'altra dentro la frase), non un'abitudine di alternare. Per le altre parole l'intervallo è larghissimo.
+- **Correzione della lettura dell'e3b75:** "lo scriba del Marianus alterna, quindi la memoria positiva non è universale"
+  non regge: il Marianus **non dice nulla** sulla memoria corta delle scelte (poche coppie per le parole vere, e la
+  congiunzione segue probabilmente una regola di posizione nella frase). Resta che con gli scribi veri disponibili la
+  questione è **aperta**: lo scriba anglosassone ha una stima positiva ma incerta, il Marianus non è informativo.
