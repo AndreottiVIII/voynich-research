@@ -11143,3 +11143,35 @@ segno, interno, ultimo, parola di un solo segno (bit, massimo 2; media pesata).
   l'entropia né la rigidità di posizione bastano. Lì il Voynich somiglia ai generatori che compongono le parole da pezzi
   (U2, U3: 0,57–0,60), più che a una catena di segni imparata da una lingua. Ipotesi per un prossimo passo: le parole
   del Voynich sono composte da pezzi scelti quasi indipendentemente, con frequenza = prodotto delle frequenze dei pezzi.
+
+## 4/10/2026 (notte) — e3a76: le frequenze del Voynich seguono una catena "quasi di ordine 1, con un po' di ordine 2"; si rilegge l'e3a70
+
+Preregistrato (`preregistrazioni/e3a76.md`). ρ frequenza-forma (come l'e3a55) con quattro modelli di forma: segni
+indipendenti (M0), caselle per posto (MP), catena di ordine 1 (M1), di ordine 2 (M2). Taratura su lingue riscritte da
+catene di ordine noto: ordine 1 → M1 migliore in 68 casi su 71 (96%); ordine 2 → M2 in 71 su 71. **La taratura passa.**
+
+| testo | M0 | MP | M1 | M2 | M2 − M1 |
+|---|---|---|---|---|---|
+| **Voynich** (mediana di 5 × 10.000 parole) | 0,077 | 0,231 | 0,581 | **0,686** | **+0,105** |
+| lingue vere (mediana) | 0,034 | 0,044 | 0,114 | 0,134 | +0,020 |
+| lingue riscritte con ordine 1 (mediana) | 0,152 | 0,320 | 0,699 | 0,656 | −0,043 |
+| lingue riscritte con ordine 2 (mediana) | 0,061 | 0,125 | 0,282 | 0,651 | +0,369 |
+| gibberish umano | 0,036 | 0,041 | 0,085 | 0,127 | +0,042 |
+| Naibbe | 0,026 | 0,102 | 0,408 | 0,411 | +0,003 |
+| U2 / U3 | 0,052 / 0,053 | 0,212 / 0,232 | 0,575 / 0,601 | 0,578 / 0,584 | +0,003 / −0,017 |
+| Timm e Schinner | 0,134 | 0,164 | 0,525 | 0,534 | +0,009 |
+
+- **Esito preregistrato: memoria di due segni** (M2 è il modello migliore per il Voynich).
+- **Ma il profilo dice di più:**
+  - con il modello giusto, una lingua riscritta da una catena di ordine 2 arriva a ρ 0,65, come il Voynich (0,69).
+    L'"eccesso" del Voynich nell'e3a69/e3a70 dipendeva in parte dall'aver misurato con un modello di ordine 1;
+  - però nel Voynich già la catena di ordine 1 spiega quasi tutto (0,58), mentre nelle lingue riscritte con ordine 2
+    spiega poco (0,28): il guadagno passando a due segni è +0,105 nel Voynich, +0,369 nelle catene di ordine 2, −0,043
+    in quelle di ordine 1. Il meccanismo delle parole del Voynich è **quasi di ordine 1, con un po' di ordine 2**;
+  - i generatori hanno guadagno quasi zero (da −0,02 a +0,01): sono catene di ordine 1 o fatte a pezzi. Il Voynich ha
+    un poco di struttura di ordine 2 che a loro manca;
+  - le caselle per posto (MP) spiegano poco in tutti (Voynich 0,23): le parole non sono fatte di caselle indipendenti.
+- **Rilettura dell'e3a70:** il Voynich supera le lingue riscritte con ordine 2 nella misura di ordine 1 perché le
+  sequenze di lettere di una lingua hanno molta struttura di ordine 2 (che la misura di ordine 1 non vede), il Voynich
+  poca. Cautela: in EVA con i composti fusi alcuni gruppi (*ch*, *sh*, *iin*, *ckh*…) sono già un segno solo, e questo
+  sposta struttura dall'ordine 2 all'ordine 1.
