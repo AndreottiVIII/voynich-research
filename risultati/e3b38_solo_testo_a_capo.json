@@ -1,0 +1,27 @@
+{
+ "gruppi": {
+  "solo testo (T)": {
+   "pagine": 6,
+   "stessa_riga": 0.042804766332910936,
+   "coppie_stessa": 1418,
+   "a_cavallo": 0.07502755401816975,
+   "coppie_a_cavallo": 303,
+   "IC95_a_cavallo": [
+    0.024612038734191422,
+    0.13250913645301376
+   ]
+  },
+  "altre pagine": {
+   "pagine": 201,
+   "stessa_riga": 0.029694506968606267,
+   "coppie_stessa": 20219,
+   "a_cavallo": -0.0023402863106587748,
+   "coppie_a_cavallo": 5363,
+   "IC95_a_cavallo": [
+    -0.01625975900164484,
+    0.010630629979384906
+   ]
+  }
+ },
+ "esito": "nelle pagine solo testo la memoria passa l'a capo"
+}
