@@ -221,6 +221,8 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     (e3c38) tutte e quattro le scelte replicano nella terza trascrizione. **e3c45 (incerto):** con la misura pulita alcune
     lingue hanno accordo accanto nelle alternanze interne (Marianus ъ/ь +0,140, Corano +0,124, greco +0,064), ma crolla a 2–3
     parole (tranne il Corano, picco a 2): il tratto del Voynich è l'accordo che dura fino a 3 parole. Correzione dell'e3c01.
+    **e3c46:** lo scriba anglosassone (Hatton, þ/ð a inizio parola) ha la stessa finestra, più forte (+0,58/+0,27/+0,34):
+    primo scriba vero con il comportamento del Voynich. Marianus и/ꙇ non interpretabile (scelta quasi fissa per parola).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
