@@ -13601,3 +13601,21 @@ Media +0,015; nessun testo con l'intervallo sopra 0. Voynich (e3b80): +0,066 (ZL
   al gesto di scrivere (si consuma con le lettere scritte), e non è solo un accordo fra parole. Non è una prova
   definitiva: il confronto è fra intervalli, non con un contrasto diretto, e un accordo grammaticale con parole più
   corte in mezzo (articoli, preposizioni) può dare un piccolo effetto simile.
+
+## 4/10/2026 (notte) — Nota di ragionamento (nessun dato nuovo): accordo grammaticale o abitudine di chi scrive?
+
+Dopo l'e3b91 (le desinenze delle lingue danno una "memoria" della stessa grandezza) e l'e3b92 (ma si consumano poco con
+le lettere), due argomenti per distinguere, da verificare:
+
+1. **Dove sta la memoria nella parola.** Nel Voynich la memoria ha la stessa forza per le scelte all'inizio (*qo*/*o*,
+   +0,095), alla fine (-*ey*/-*dy*, +0,101) e **dentro la parola** (*k*/*t* +0,080, *sh*/*ch* +0,079; e3b62). Un accordo
+   grammaticale riguarda desinenze e prefissi; dentro la parola le lingue del corpus non hanno varianti libere della
+   stessa parola da accordare (la scelta di una lettera interna è fissata dalla parola). Una memoria che colpisce anche le
+   scelte interne va meglio d'accordo con un'abitudine di chi scrive. Cautela: esistono lingue con armonia vocalica o
+   con accordi di classe all'inizio della parola (per esempio le lingue bantu); il confronto andrebbe fatto anche con
+   loro (lo swahili è nel corpus).
+2. **Consumo con le lettere** (e3b92): netto nel Voynich, debole o assente nelle lingue.
+
+Insieme fanno pendere verso una memoria di chi scrive, ma nessuno dei due è decisivo. Per il white paper: la memoria
+corta delle scelte separa il Voynich dai generatori; non separa da sola un testo senza significato da uno con
+significato.
