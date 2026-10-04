@@ -14222,3 +14222,30 @@ testi finti (solo deriva: memoria finta +0,231 col nullo solito, +0,021 con quel
 - **Da rifare per coerenza:** la forma del calo (R, e3b96–e3b98). La deriva può rendere la curva più piatta, perché le
   coppie lontane (8–12 parole) stanno ai due capi della riga e si accordano di meno per effetto della sola deriva. Prossimo
   passo: e3c15.
+
+## 4/10/2026 (mattina) — e3c15: la forma piatta del calo regge senza la deriva lungo la riga e senza i bordi
+
+Preregistrato (`preregistrazioni/e3c15.md`). R = [K(3) − K(8–12)] / [K(1) − K(8–12)] in tre versioni. Codice provato su
+testi finti (con memoria e deriva grande come nel Voynich: A 0,57 gonfiato, B 0,48 = valore vero). Pendenze della deriva
+stimate e usate (ogni 10 segni): *qo* −0,023, *k* −0,028/−0,029, *sh* −0,037, -*ey* −0,029 (come nell'e3c13).
+
+| trascrizione | versione | R (IC 95%) | profilo d = 1…7 |
+|---|---|---|---|
+| ZL | A, come e3b96 (con i bordi) | 0,78 (0,63 – 0,93) | +0,172 +0,144 +0,135 +0,095 +0,056 +0,048 +0,040 |
+| ZL | **B, senza bordi, atteso corretto per la deriva** | **0,82** (0,65 – 0,96) | +0,196 +0,161 +0,160 +0,122 +0,087 +0,105 +0,107 |
+| ZL | C, senza bordi, atteso solito | 0,82 (0,66 – 0,96) | +0,211 +0,176 +0,174 +0,134 +0,096 +0,112 +0,114 |
+| IT | A | 0,79 (0,63 – 0,95) | +0,170 +0,137 +0,135 +0,078 +0,046 +0,058 +0,043 |
+| IT | **B** | **0,87** (0,66 – 1,05) | +0,176 +0,135 +0,153 +0,089 +0,059 +0,087 +0,102 |
+| IT | C | 0,87 (0,66 – 1,05) | +0,193 +0,151 +0,168 +0,101 +0,069 +0,094 +0,108 |
+
+- **Esito preregistrato: la forma piatta regge senza la deriva** (estremo basso 0,65 e 0,66, sopra lo 0,45 di Plinio,
+  il più alto fra le lingue naturali).
+- Il correttivo per la deriva abbassa il profilo di circa 0,015 a tutte le distanze (da C a B), quindi la forma non
+  cambia. Senza le parole ai bordi il profilo resta alto anche a 6–7 parole: il calo vero avviene soprattutto verso le
+  coppie più lontane della riga.
+- **Come si accorda con l'e3c14** (dove la memoria "vicine contro lontane" calava di un terzo con il nullo che conserva
+  la posizione): là le righe erano intere e le fasce di posizione separavano anche la prima parola della riga, che ha
+  forme sue; qui la sola deriva lineare, a bordi tolti, sposta poco. La riduzione dell'e3c14 viene quindi probabilmente
+  dalla posizione nel suo insieme (bordi più deriva), non dalla sola deriva lineare. I valori senza posizione dell'e3c14
+  (+0,062 ZL, +0,051 IT) restano quelli prudenti da citare per la grandezza della memoria; la forma resta piatta in ogni
+  caso.

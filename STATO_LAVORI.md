@@ -172,7 +172,8 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     scelte robuste, resta sulle parole lette uguali da ZL e IT).
     **Proprietà nuova (e3c13):** dentro la riga, a parità di parola, qo, k, sh, -ey calano tutte verso destra (2–3,5 punti
     ogni 10 segni): non è l'inchiostro su sh. **Correzione (e3c14):** con un nullo che conserva la posizione la memoria è
-    +0,062 ZL e +0,051 IT (prima +0,086/+0,076): circa un terzo era deriva. Da rifare la forma del calo (e3c15).
+    +0,062 ZL e +0,051 IT (prima +0,086/+0,076): circa un terzo era posizione nella riga. La forma piatta regge senza deriva
+    e senza bordi (e3c15: R 0,82 ZL, 0,87 IT, estremi bassi 0,65/0,66 > 0,45 delle lingue).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);

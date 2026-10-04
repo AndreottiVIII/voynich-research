@@ -1338,7 +1338,10 @@ dell'inchiostro sul trattino di *sh*. Va insieme alle forme di bordo e alla deri
 **Correzione dei valori della memoria (e3c14):** la deriva fa accordare di più le parole vicine; con un nullo che
 rimescola dentro fasce di posizione nella riga la memoria è **+0,062 (ZL, IC +0,035 – +0,089) e +0,051 (IT, +0,025 –
 +0,079)**, contro +0,086 e +0,076 del nullo solito: circa un terzo veniva dalla deriva. Nel white paper vanno citati i
-valori senza deriva. Il consumo con le lettere cambia poco (−0,0027 / −0,0031 per lettera).
+valori senza deriva. Il consumo con le lettere cambia poco (−0,0027 / −0,0031 per lettera). **La forma piatta regge
+senza deriva e senza bordi (e3c15):** con l'atteso di ogni parola corretto per la deriva e senza la prima e l'ultima
+parola della riga, R = 0,82 (ZL, IC 0,65 – 0,96) e 0,87 (IT, 0,66 – 1,05), sopra lo 0,45 della lingua naturale più
+piatta (Plinio).
 
 **Formula per il white paper:** il Voynich ha, oltre alla catena di segni per riga e allo spazio non lessicale, una
 memoria corta delle scelte di grafia forte e uniforme (tutte le scelte, tutte le mani, due trascrizioni), che prosegue
