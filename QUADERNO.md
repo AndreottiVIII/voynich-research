@@ -11193,3 +11193,29 @@ Soglia: metà del guadagno delle lingue riscritte con ordine 2 (0,185).
   (+0,06). Anche spezzando i composti dell'EVA (dove il guadagno deve crescere per costruzione) resta +0,15, sotto la
   soglia, e la catena di ordine 1 spiega già 0,55.
 - Il meccanismo delle parole del Voynich è quasi di ordine 1 qualunque sia il modo di dividere i glifi.
+
+## 4/10/2026 (notte) — e3a78: una catena di segni per riga spiega da sola sei proprietà su otto; copia dalla riga sopra e margine sinistro no
+
+Preregistrato (`preregistrazioni/e3a78.md`, con la previsione scritta prima). Il Voynich riscritto riga per riga dalla
+propria catena di ordine 2 (segni, spazio, inizio e fine riga), con la stessa struttura di pagine, paragrafi e righe;
+5 riscritture. R = effetto nel riscritto / effetto nel vero.
+
+| proprietà | Voynich vero | riscritto | R | esito |
+|---|---|---|---|---|
+| giuntura (bit) | 0,188 | 0,201 | 1,07 | la catena la riproduce |
+| chiusura della riga | 0,194 | 0,202 | 1,04 | la catena la riproduce |
+| **ripresa dalla riga sopra** (e1) | 0,032 | 0,002 | 0,06 | **serve un meccanismo in più** |
+| **margine sinistro** (1 − oss./att.) | 0,496 | −0,064 | −0,13 | **serve un meccanismo in più** |
+| -*m* a fine riga | 0,144 | 0,146 | 1,01 | la catena la riproduce |
+| *y*/*s*/*d* a inizio riga | 0,257 | 0,258 | 1,00 | la catena la riproduce |
+| catena dentro/fra le parole (ρ) | 0,540 | 0,410 | 0,76 | la catena la riproduce (appena) |
+| frequenza-forma (ρ) | 0,618 | 0,648 | 1,05 | la catena la riproduce |
+
+- **Esito: esattamente la previsione.** Una catena di segni con memoria di due segni, che riparte a ogni riga e sa
+  quando la riga comincia e finisce, riproduce giuntura, chiusura della riga, forme di bordo, catena attraverso lo
+  spazio e frequenza-forma. Non riproduce la **copia dalla riga sopra** e l'**evitamento degli inizi ripetuti sul
+  margine sinistro**: tutte e due richiedono memoria fra le righe, che la catena non ha.
+- **Lettura (sintesi delle notti):** il testo del Voynich si descrive bene come una catena di segni scritta riga per
+  riga, più due meccanismi verticali: lo scriba guarda la riga sopra (ne copia pezzi, e ne evita l'inizio). Cautela: la
+  catena è addestrata sul Voynich stesso, quindi "riproduce" vuol dire che queste proprietà sono contenute nelle
+  statistiche locali dei segni, non che il Voynich sia stato prodotto così. Non dice nulla sul significato.
