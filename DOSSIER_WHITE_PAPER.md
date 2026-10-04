@@ -1341,7 +1341,11 @@ rimescola dentro fasce di posizione nella riga la memoria è **+0,062 (ZL, IC +0
 valori senza deriva. Il consumo con le lettere cambia poco (−0,0027 / −0,0031 per lettera). **La forma piatta regge
 senza deriva e senza bordi (e3c15):** con l'atteso di ogni parola corretto per la deriva e senza la prima e l'ultima
 parola della riga, R = 0,82 (ZL, IC 0,65 – 0,96) e 0,87 (IT, 0,66 – 1,05), sopra lo 0,45 della lingua naturale più
-piatta (Plinio).
+piatta (Plinio). **Alternanze automatiche senza la posizione (e3c16):** Takahashi +0,041 (+0,009 – +0,071), ZL +0,033
+(+0,000 – +0,067), Glen Claston +0,030 (−0,001 – +0,059): circa un quarto veniva dalla posizione; il tratto regge in 2
+trascrizioni su 3. Le lingue restano ≈ 0 (eccetto il Corano). Gerarchia dei tratti che separano il Voynich dalle lingue,
+dal più solido: forma del calo (e3c15) > memoria nelle alternanze interne (e3c16) > consumo con le lettere (soprattutto
+*sh*/*ch*, e3c12).
 
 **Formula per il white paper:** il Voynich ha, oltre alla catena di segni per riga e allo spazio non lessicale, una
 memoria corta delle scelte di grafia forte e uniforme (tutte le scelte, tutte le mani, due trascrizioni), che prosegue
