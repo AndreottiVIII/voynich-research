@@ -1,0 +1,27 @@
+{
+ "gruppi": {
+  "solo testo (T)": {
+   "pagine": 6,
+   "stessa_riga": 0.04725164924634411,
+   "coppie_stessa": 1414,
+   "a_cavallo": 0.09438975570309735,
+   "coppie_a_cavallo": 304,
+   "IC95_a_cavallo": [
+    0.04298116896759192,
+    0.15597411052404078
+   ]
+  },
+  "altre pagine": {
+   "pagine": 200,
+   "stessa_riga": 0.02935634582414625,
+   "coppie_stessa": 20356,
+   "a_cavallo": -0.002428433449832355,
+   "coppie_a_cavallo": 5326,
+   "IC95_a_cavallo": [
+    -0.016562771817691203,
+    0.010815090230645205
+   ]
+  }
+ },
+ "esito": "si ritrova"
+}
