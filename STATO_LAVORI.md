@@ -197,7 +197,9 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     ma con IC 0,26–1,17: non separato dalle lingue. Le righe lunghe del Voynich si accordano meno (+0,11 contro +0,17):
     parte della forma piatta dell'e3c28 può venire dalla lunghezza delle righe. e3c31 (righe ≥9 parole, lontane 5–6): Voynich
     R56 0,61–0,73 (IC fino a 0,20), lingue al massimo 0,31: più piatto come stima, non separato. Accordo accanto dentro le
-    stesse righe +0,09–0,10, nella media delle lingue: le righe corte hanno più accordo (da capire, e3c32).
+    stesse righe +0,09–0,10, nella media delle lingue. **e3c32:** righe corte e lunghe hanno lo stesso accordo (correzione: la
+    differenza veniva dalla base 8–12 contro 5–6). Tolta la preferenza di pagina, dentro la riga l'accordo è quasi piatto a
+    1, 2, 3 parole (+0,07–0,12): sembra una preferenza di riga più che una memoria che si consuma (verifica e3c33).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
