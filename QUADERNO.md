@@ -12326,3 +12326,20 @@ Preregistrato (`preregistrazioni/e3b38.md`). Eccesso d'accordo delle scelte di g
   fra righe consecutive che altrove non c'è. Ipotesi: quelle pagine sono state scritte come un testo continuo, per
   esempio copiando un modello che andava a capo in punti diversi, o di getto senza le abitudini di riga delle altre.
 - **Cautela:** sono solo 6 pagine e 303 coppie a cavallo; va replicato con Takahashi (e3b39).
+
+## 4/10/2026 (notte) — e3b39: con Takahashi si ritrova: nelle 6 pagine "solo testo" la memoria passa l'a capo
+
+Preregistrato (`preregistrazioni/e3b39.md`). Stesso metodo dell'e3b38 sulla IT.
+
+| pagine | stessa riga | a cavallo dell'a capo | IC 95% a cavallo |
+|---|---|---|---|
+| solo testo (6: f1r, f66r, f76r, f85r1, f86v5, f86v6) | +0,047 | **+0,094** (304 coppie) | +0,043 – +0,156 |
+| altre pagine (200) | +0,029 | −0,002 (5.326) | −0,017 – +0,011 |
+
+- **Esito preregistrato: si ritrova.**
+- **Controllo descrittivo (dopo il risultato):** le righe di quelle pagine hanno una lunghezza normale (mediana 9–12
+  parole, come le altre pagine, 9), quindi l'a capo è un a capo vero e non un effetto di colonne o righe corte.
+- **Lettura:** nelle pagine "solo testo" la riga non è l'unità della scrittura: la memoria corta delle scelte e la
+  giuntura (e3a06) passano da una riga all'altra. In tutte le altre pagine si azzerano a ogni a capo. Quelle 6 pagine
+  sembrano scritte in modo diverso, come un testo continuo (per esempio copiato da un modello che andava a capo in punti
+  diversi). È un risultato su poche pagine, ma regge con due trascrizioni.
