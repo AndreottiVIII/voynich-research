@@ -189,7 +189,9 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     discordano di più dopo il disegno (1/94 contro 0,9%), ma i dati sono pochi (incerto).
     **Correzione (e3c26, e3c27):** senza le parole ai bordi e con l'atteso dalla stessa parola la memoria vale ~4 punti in ZL
     (IC sopra 0) e ~2,5 in IT (IC tocca 0), concentrata in qo/o e -ey/-dy; k/t debole, sh/ch non dimostrata. Parte della
-    memoria delle misure precedenti passava dai bordi. Da ricontrollare la forma piatta (e3c28).
+    memoria delle misure precedenti passava dai bordi. **Forma alla pari (e3c28):** lingue in righe finte della lunghezza
+    del Voynich, stessa misura per tutti: Voynich R 0,82–0,85 (IC basso 0,61–0,64), lingue al massimo 0,42: regge.
+    L'accordo fra parole accanto nel Voynich è +0,17–0,18 e resta alto fino a 6–7 parole (perciò vicine-contro-6–10 lo sottostima).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
