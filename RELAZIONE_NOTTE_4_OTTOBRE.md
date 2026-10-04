@@ -108,7 +108,7 @@ Il testo del Voynich si descrive bene con quattro ingredienti:
 3. **Una memoria corta di chi scrive.** Nella stessa riga si ripetono parole e scelte di grafia (*qo*/*o*, *sh*/*ch*,
    *ee*/*e*, -*ey*/-*dy*, *k*/*t*) per 2–4 parole; la memoria si consuma con le lettere scritte e si azzera all'a capo.
    Nessuna lingua, nessun generatore pubblicato e nemmeno il gibberish scritto a mano ha questa firma.
-   **(Corretto nella terza parte: uno scriba medievale vero la ha, della stessa grandezza; e3b54, e3b56.)**
+   **(Corretto nella terza parte: uno scriba medievale vero la ha per una delle sue scelte; e3b62.)**
 4. **Lo sguardo alla riga sopra e alla pagina.** Parole riprese dalla riga sopra (da tutta la riga, non oltre il
    paragrafo né la pagina), evitamento di cominciare come la riga sopra, apertura del paragrafo, deriva di -*ey* lungo la
    pagina.
@@ -222,64 +222,70 @@ Figure nuove (in `risultati/figure/`): `vocabolario.png`, `spazi.png`, `catena_s
 - Per l'altra chat (voynichizzatore), tutto è nel file `PASSAGGIO_VOYNICHIZZATORE.md`; la cosa più importante è che le
   "12 scelte di riga" vanno sostituite da una memoria corta che si consuma con le lettere.
 
-# Terza parte (dalle 3:30 in poi): e3b37 – e3b57
+# Terza parte (dalle 3:30 in poi): e3b37 – e3b63
 
 ## In breve
 
-1. **La memoria corta delle scelte di grafia è un'abitudine umana normale, non una stranezza del Voynich.** Ho trovato
-   nel corpus di controllo uno scriba medievale vero che sceglie fra due lettere equivalenti: lo scriba dei Hatton
-   Gospels (inglese antico), con þ e ð. Con una misura corretta (spiegata sotto), la sua memoria per þ/ð a inizio
-   parola è +0,10, la stessa grandezza delle scelte più "ricordate" del Voynich (*qo*/*o* e -*ey*/-*dy*, +0,09); nel
-   Voynich nell'insieme +0,05, con tutte e due le trascrizioni (e3b54, e3b56). I generatori pubblicati invece non la
-   hanno (e3b57). Quindi questo tratto dice "scritto a mano da una persona che sceglie fra varianti", e **non dice nulla
-   sul significato**. Corregge una frase della seconda parte ("nessun testo di confronto ha questa firma").
-2. **Le pagine di solo testo** (f1r, f66r, f76r, f85r1, f86v5, f86v6) sono davvero diverse dalle altre: lì le parole
-   continuano da una riga all'altra come dentro la riga (stessa mano 2 che altrove riparte a ogni riga; non dipende
-   dai disegni, dalla lunghezza dei paragrafi o da una pagina sola). Ma con la misura corretta non è dimostrato che
-   passi anche la memoria delle scelte (e3b55): passa la continuità delle parole.
-3. **Le scelte di grafia non sono legate alla parola**, se non poco: sapere qual è la parola non aiuta a prevedere *k*/*t*
-   e *sh*/*ch* oltre i segni vicini (come in una catena di segni); per *qo*/*o* e -*ey*/-*dy* un legame debole si vede
-   solo con Takahashi (e3b49, e3b50). Nei generatori Naibbe e U2 il legame con la parola è più forte.
-4. **Le etichette ripartono da capo**: si copiano la forma dall'etichetta vicina, ma non le scelte (e3b48).
+1. **La memoria corta delle scelte di grafia c'è in tutto il Voynich, uguale in tutte le mani, e non c'è in nessun
+   generatore.** Con la misura migliore della notte (spiegata sotto) vale circa +0,08 in tutte e quattro le scelte
+   (*qo*/*o*, *k*/*t*, *sh*/*ch*, -*ey*/-*dy*), con le mani 1, 2 e 3 alla pari e con tutte e due le trascrizioni; si
+   azzera a ogni a capo. Naibbe, U2, U3 e Timm e Schinner non la hanno (e3b62, e3b63).
+2. **Uno scriba medievale vero può averla, ma non per tutte le sue scelte.** Nel corpus di controllo ho trovato uno
+   scriba anglosassone (Hatton Gospels) che sceglie fra þ e ð per lo stesso suono: per þ/ð a inizio parola ha la stessa
+   memoria del Voynich (+0,10); per le varianti *i*/*y* (in lui e in altri due testi storici) nessuna memoria (e3b62).
+   Quindi la memoria corta, da sola, **non** è un segno di testo artificiale né di testo con significato: dice "scritto
+   a mano da qualcuno che sceglie fra varianti". Nel Voynich colpisce che sia forte e uniforme su tutte le scelte.
+3. **Il raccordo invece è proprio del Voynich.** Anche lo scriba anglosassone lega un po' la scelta þ/ð alla fine della
+   parola prima, ma otto volte meno del raccordo *qo*/*o* del Voynich (e3b58).
+4. **Le scelte non sono legate alla parola** (*k*/*t* e *sh*/*ch* per niente, *qo*/*o* e -*ey*/-*dy* al più un poco): una
+   parola del Voynich non ha una "sua" grafia; nei generatori Naibbe e U2 sì (e3b49, e3b50, e3b61).
+5. **Le 6 pagine di solo testo** (f1r, f66r, f76r, f85r1, f86v5, f86v6) sono diverse: lì le parole continuano da una riga
+   all'altra come dentro la riga, anche per la stessa mano che altrove riparte a ogni riga. Che passi anche la memoria
+   delle scelte è possibile ma non dimostrato (e3b38–e3b44, e3b55, e3b63).
+6. **Le etichette ripartono da capo**: si copiano la forma, non le scelte (e3b48).
 
-## Come ci sono arrivato (in ordine)
+## Come ci sono arrivato (con i passi sbagliati)
 
-- **e3b37:** memoria corta anche nei cerchi (+0,041).
-- **e3b38–e3b44 (pagine di solo testo):** l'accordo delle scelte passa l'a capo solo lì (ZL +0,075, Takahashi +0,094;
-  altre pagine −0,002); non nelle ricette (e3b41); non da una pagina sola (e3b42); la stessa mano 2 lo fa nelle pagine
-  di solo testo e non nelle altre (e3b42); regge pagina per pagina (p 0,021; mano 2 p 0,002) e non dipende dalla
-  lunghezza dei paragrafi (e3b44). Lì forme di bordo, margine e copia dalla riga sopra sono come altrove (e3b40, e3b43).
-  Il raccordo *qo*/*o* fra righe ha troppo pochi casi (e3b45).
-- **e3b46–e3b47:** "la copia porta con sé gli spazi" (e3a74) non regge come meccanismo; nessuna deriva della
-  spaziatura lungo la pagina.
-- **e3b48:** etichette, vedi sopra.
-- **e3b49–e3b50:** scelte e parola, vedi sopra. Ridimensiona l'e201 ("k/t lessicalizzate").
-- **e3b51–e3b57 (il confronto con lo scriba vero):** prima misura in valore assoluto, poi normalizzata (perché lì una
-  lettera domina al 91%), poi con un confronto che tiene ferme le parole e le loro preferenze e rimescola solo le scelte
-  fra le occorrenze della stessa parola (così le formule fisse del Vangelo non ingannano), infine con l'esclusione delle
-  parole simili corretta. Risultato finale nel punto 1.
+La misura della memoria è cambiata quattro volte stanotte, ogni volta perché una prova su dati finti mostrava un difetto:
 
-## Correzioni ed errori di questa parte (tutti nel Quaderno)
+- **valore assoluto** (e3b51): non equo quando una variante domina (lo scriba anglosassone usa þ al 91%);
+- **normalizzato** (e3b52, e3b53): disturbato dalle locuzioni fisse e dalle grafie proprie delle parole (nel Vangelo un
+  effetto finto di −0,33);
+- **con un confronto che tiene ferme le parole nella pagina** (e3b54–e3b60): giusto in principio, ma poco sensibile dove
+  il vocabolario è vario (nell'erbario solo il 16% delle scelte si poteva rimescolare), e così aveva fatto credere che
+  la mano 1 non avesse memoria; in più l'esclusione delle parole simili fatta sulla parola intera falsava il confronto
+  (corretta nell'e3b56);
+- **con il confronto largo** (rimescolamento fra le occorrenze della stessa parola in tutta la mano, e3b62, e3b63):
+  provato su dati finti, tarato, sensibile. I risultati del punto 1–2 vengono da qui.
 
-- Nelle e3b41 ed e3b42 la preregistrazione diceva "bootstrap per pagina", il codice ricampionava i paragrafi: dichiarato
-  e rifatto pagina per pagina (e3b44).
-- **Difetto di metodo trovato nella notte:** togliere le coppie di parole "simili" guardando la parola intera toglie più
-  coppie concordi che discordi e falsa il confronto con il rimescolamento. Trovato provando il codice su dati finti
-  (e3b55), corretto decidendo le coppie simili sulla parola con la variante coperta, e rifatto l'e3b54 (e3b56): le
-  conclusioni restano, i numeri giusti sono quelli dell'e3b56.
-- La lettura "nelle pagine di solo testo passa la memoria" (e3b38–e3b44) è stata corretta dall'e3b55: passa la
-  continuità delle parole.
-- "La memoria corta è una firma del Voynich" è stata corretta dall'e3b54/e3b56: c'è anche nello scriba anglosassone.
+## Altro
+
+- **e3b37:** memoria corta anche nei cerchi.
+- **e3b46–e3b47:** "la copia porta con sé gli spazi" (e3a74) non regge come meccanismo; nessuna deriva della spaziatura.
+- **e3b45:** il raccordo fra righe nelle pagine di solo testo ha troppo pochi casi.
+
+## Correzioni (tutte nel Quaderno)
+
+- e3b41/e3b42: la preregistrazione diceva "bootstrap per pagina", il codice ricampionava i paragrafi (rifatto, e3b44).
+- e3b38–e3b44 → e3b55/e3b63: nelle pagine di solo testo passa la continuità delle parole, non dimostrata la memoria.
+- e3b49 → e3b50: "solo segni vicini" vale con sicurezza per *k*/*t*; prova poco sensibile.
+- e3b52/e3b53/e3b54/e3b56 → e3b62: i numeri giusti sono quelli del nullo largo; lo scriba vero ha memoria per una scelta
+  su tre, non "in generale".
+- e3b59/e3b60 → e3b62: la differenza fra le mani era un difetto del metodo; le mani sono uguali.
+- e3a74 → e3b46: la copia non porta gli spazi.
+- La seconda parte diceva che nessun testo di confronto ha la memoria corta: vero per lingue, generatori e gibberish, non
+  per uno scriba vero con varianti.
 
 ## Che cosa resta di solido, in una riga
 
-Il Voynich si scrive come una catena di segni riga per riga, con spazi messi dai segni vicini e dalla lunghezza
-(come i generatori, non come le lingue), ma con le abitudini di uno scriba umano (memoria corta delle scelte, copia dalla
-riga sopra, evitamento sul margine) che i generatori non hanno. Nessuna di queste cose, da sola, dice se c'è un
-significato.
+Il Voynich si scrive come una catena di segni riga per riga, con spazi messi dai segni vicini e dalla lunghezza (come i
+generatori, non come le lingue), con un raccordo fra parole fortissimo, e con abitudini da scriba umano (memoria corta
+delle scelte che riparte a ogni riga, copia dalla riga sopra, evitamento sul margine) che i generatori non hanno.
+Nessuna di queste cose, da sola, dice se c'è un significato.
 
-## Lacune
+## Lacune e proposta
 
-- Uno scriba vero solo, e in un'edizione di cui non so quanto sia fedele al manoscritto. Con una trascrizione
-  diplomatica di un manoscritto medievale (con le righe originali) si potrebbe vedere anche se uno scriba vero "riparte"
-  a ogni a capo come il Voynich: scaricarla richiede il tuo permesso.
+- Un solo scriba vero, in un'edizione di cui non so quanto sia fedele al manoscritto, e senza le righe originali. Con
+  una trascrizione diplomatica di un manoscritto medievale (con le righe del manoscritto e le varianti dello scriba) si
+  potrebbe vedere se anche uno scriba vero "riparte" a ogni a capo come il Voynich, e se ha memoria per tutte le sue
+  scelte. Scaricarla richiede il tuo permesso.
