@@ -13639,3 +13639,20 @@ Voynich: memoria +0,086 (*qo*/*o* +0,095); consumo con le lettere +0,066.
 - **Lettura:** un accordo grammaticale di prefisso, il caso linguistico più vicino a *qo*/*o*, produce con la nostra misura
   una "memoria" anche più forte di quella del Voynich. Conferma la cautela dell'e3b91. Il consumo con le lettere resta un
   indizio di differenza (e3b92), non provato per lo swahili per mancanza di dati.
+
+## 4/10/2026 (notte) — e3b94: togliere le parole più frequenti non distingue accordo grammaticale e memoria del Voynich
+
+Preregistrato (`preregistrazioni/e3b94.md`). Metodo finale con e senza le 20 parole coperte più frequenti di ogni
+classe (tolte dalle coppie, non dal testo). Filtro provato su un esempio.
+
+| testo | effetto con tutte (IC 95%) | senza le 20 più frequenti (IC 95%) | tenuta |
+|---|---|---|---|
+| Voynich ZL | +0,086 (+0,058 – +0,111) | +0,063 (+0,026 – +0,101) | 0,73 |
+| italiano NT | +0,061 (+0,045 – +0,077) | +0,060 (+0,040 – +0,081) | 0,99 |
+| spagnolo NT | +0,053 (+0,033 – +0,074) | +0,048 (+0,022 – +0,074) | 0,91 |
+| latino NT | +0,092 (+0,057 – +0,125) | +0,094 (+0,045 – +0,139) | 1,03 |
+
+- **Esito preregistrato: incerto.** L'ipotesi di partenza (l'accordo delle lingue passa per poche parole frequenti) era
+  sbagliata: nelle lingue l'effetto resta tutto anche senza le parole più frequenti (gli articoli brevi erano già esclusi
+  dalla soglia di 3 lettere, e l'accordo vive fra aggettivi e nomi). Nel Voynich ne resta il 73%. Questo tratto non
+  distingue accordo e abitudine.
