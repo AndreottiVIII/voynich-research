@@ -12990,3 +12990,21 @@ testo; le altre pagine per mano). Codice provato su pagine finte con vocabolario
   dell'accordo grezzo a cavallo viene dalle parole che stanno a cavallo (nullo +0,045). Resta quindi valida la lettura
   dell'e3b55: in quelle pagine passa l'a capo la continuità delle parole; che passi anche la memoria delle scelte è
   possibile ma non dimostrato.
+
+## 4/10/2026 (notte) — e3b64, prima esecuzione: errore nel codice (le parole fuori classe interrompevano le coppie)
+
+Preregistrato (`preregistrazioni/e3b64.md`). Prima esecuzione:
+
+| confine | coppie a cavallo | K osservato | K nullo | effetto | z | p | K dentro i tratti (coppie) |
+|---|---|---|---|---|---|---|---|
+| salto del disegno | 234 | +0,097 | +0,071 | +0,027 | +0,3 | 0,37 | +0,080 (529) |
+| a capo, pagine normali | 1.222 | −0,060 | −0,067 | +0,007 | +0,2 | 0,44 | +0,091 (10.204) |
+| a capo, pagine di solo testo | 64 | +0,060 | −0,064 | +0,124 | +0,9 | 0,20 | +0,060 (899) |
+
+- **Errore:** nelle funzioni `coppie_cavallo` e `coppie_dentro` una coppia si scartava se fra le due parole ce n'era una
+  **fuori dalla classe** (per esempio una parola senza *qo*/*o*), non solo se ce n'era una illeggibile come dice la
+  preregistrazione. Restavano così solo le coppie con le parole della classe vicine fra loro: nelle pagine di solo testo
+  64 coppie a cavallo invece di circa 330 (conteggio dell'e3b55). Trovato guardando perché le coppie erano così poche,
+  dopo aver letto i risultati. Il confronto col nullo era coerente (stessa restrizione), ma non è la misura
+  preregistrata. Correggo il codice (una parola illeggibile è segnata a parte) e rieseguo l'e3b64; questi numeri restano
+  qui come prima esecuzione.
