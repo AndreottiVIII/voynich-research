@@ -350,3 +350,86 @@ significato.
   molto sbilanciate o legate a poche parole grammaticali, e niente righe originali. Con trascrizioni diplomatiche di
   manoscritti medievali con varianti più equilibrate (e con le righe del manoscritto) si potrebbe dire se la memoria
   corta è un'abitudine normale degli scribi e se anche lì passa l'a capo per metà. Scaricarle richiede il tuo permesso.
+
+# Quarta parte (dalle 5:45 alle 7:15): e3b97 – e3c16
+
+Questa parte ha messo alla prova la conclusione della terza: **la "memoria" del Voynich somiglia più a un'abitudine di
+chi scrive che a un accordo grammaticale?** L'ho provata su molte più lingue, con regole uguali per tutti, su una terza
+trascrizione, e cercando i difetti delle mie misure. Ne ho trovati tre, e due cambiano i numeri.
+
+## La cosa più importante
+
+**La memoria delle scelte del Voynich regge a tutti i controlli, ma è più piccola di quanto scrivevo: circa +0,05 – +0,06
+invece di +0,08.** Circa un terzo del valore di prima veniva dalla **posizione nella riga**: andando verso destra le
+varianti *qo*, *k*, *sh*, -*ey* si fanno tutte più rare (proprietà nuova, e3c13), e le parole vicine, stando a posizioni
+simili, si accordavano anche per questo (e3c14).
+
+Tolto questo, **due tratti la separano dall'accordo grammaticale delle lingue del corpus** (il secondo è il più solido):
+
+1. **C'è anche dentro la parola.** Una regola uguale per tutti sceglie le lettere che si alternano dentro la parola: nel
+   Voynich trova da sola *k*/*t*, *a*/*o*, *ch*/*e*, e la memoria c'è in tutte e tre le trascrizioni (ZL, Takahashi e
+   quella di Glen Claston, con un altro alfabeto: e3c01, e3c05). Tolta la posizione nella riga resta chiara con
+   Takahashi (+0,041) e al limite con le altre due (+0,033 e +0,030, e3c16). In 25 testi grandi su 26 e negli 8
+   piccoli (erbari compresi) non c'è (e3c01, e3c04). L'unica eccezione è il Corano con le vocali (-*kum*/-*hum*,
+   "vostro"/"loro": la persona del discorso, cioè grammatica), che però ha un'altra forma.
+2. **Ha una forma sua:** è forte fra parole accanto e cala piano con la distanza; nelle lingue l'accordo è forte solo
+   fra parole accanto e poi crolla. Regge con il filtro più severo (e3b97), su 26 lingue (nessuna con accordo chiaro
+   arriva alla forma del Voynich; il Volapük, lingua inventata, ci va vicino: e3b98), e **anche senza la deriva e senza i
+   bordi della riga** (e3c15: R 0,82 e 0,87, contro al massimo 0,45 nelle lingue naturali).
+
+Il terzo tratto di stanotte, il **consumo con le lettere**, va ridimensionato: c'è, e nelle lingue no (21 misure su 21,
+e3c08), ma sta soprattutto in *sh*/*ch* (e3c12); nelle altre scelte è un terzo e non dimostrato. Per *sh*/*ch* avevo
+pensato all'inchiostro (il trattino di *sh* che svanisce), ma il calo lungo la riga riguarda tutte le scelte, non solo
+*sh* (e3c13), quindi l'inchiostro non è dimostrato.
+
+Questo **non dice** se il Voynich abbia un significato. Dice che questa memoria non è il modo in cui le lingue del corpus
+accordano le parole, e che nessun generatore la riproduce.
+
+## In breve
+
+1. **Forma più severa (e3b97):** togliendo anche le parole quasi uguali la forma resta piatta.
+2. **26 lingue con una regola uguale per tutte (e3b98):** nessuna con accordo chiaro arriva alla forma del Voynich; il
+   Volapük ci va vicino.
+3. **Consumo con le lettere nelle lingue (e3b99, rifatto con il metodo corretto nell'e3c08):** nessuna lingua.
+4. **Alternanze dentro la parola scelte dal programma (e3c01, e3c04):** memoria nel Voynich, nelle lingue no (eccezione
+   il Corano).
+5. **Generatori con la stessa regola (e3c02):** zero, salvo un poco nel cifrario Naibbe (forma diversa, e3c03).
+6. **Terza trascrizione (e3c05):** replica.
+7. **Lettere o parole? (e3c09, e3c10):** a parità di parole ogni lettera in mezzo toglie un po' di memoria; a parità di
+   lettere una parola in più no. Esito formale "incerto" (Takahashi al limite per un soffio). Nelle lingue la pendenza
+   per lettera è zero.
+8. **Mani (e3c11):** il consumo con le lettere c'è in tutte e tre le mani.
+9. **Effetto di lettura? (e3c12):** la memoria no (c'è nelle scelte fatte di segni grandi e resta sulle parole che due
+   trascrittori leggono uguali); il consumo con le lettere sta soprattutto in *sh*/*ch*.
+10. **Proprietà nuova (e3c13):** dentro la riga, a parità di parola, *qo*, *k*, *sh*, -*ey* calano tutte verso destra
+    (2–3,5 punti ogni 10 segni).
+11. **Correzione dei numeri (e3c14):** la memoria senza la posizione nella riga è +0,062 (ZL) e +0,051 (Takahashi).
+12. **La forma piatta regge senza deriva e senza bordi (e3c15).**
+13. **Alternanze automatiche senza la posizione (e3c16):** regge in 2 trascrizioni su 3; le lingue restano a zero.
+
+## Correzioni ed errori (tutti nel Quaderno)
+
+- **e3b98:** il primo giro si è fermato sul primo testo; corretto e rilanciato.
+- **e3c06 → e3c07, difetto di metodo:** la misura del consumo con le lettere divideva le coppie alla mediana togliendo i
+  pareggi, e così sbilanciava i gruppi. Ha prodotto un effetto al contrario nell'e3c06, che poi ho riconosciuto come
+  errore. Con la divisione bilanciata il consumo resta nel Voynich (e3c07) e manca nelle lingue (e3c08).
+- **e3c09:** la regressione lineare può essere ingannata dalla forma curva del calo. L'ho trovato provando il codice
+  dell'e3c10 e l'ho sostituita con confronti dentro strati esatti; il risultato del Voynich è lo stesso.
+- **e3c10:** la mia attesa ("nelle lingue l'accordo cala con le parole") era sbagliata: quella misura non vede il crollo
+  fra parole accanto e parole a distanza 2.
+- **e3c12, e3c14 e e3c16, correzioni di sostanza:** il consumo con le lettere sta soprattutto in *sh*/*ch*; la memoria è
+  circa un terzo più piccola di quanto scritto prima (un quarto con le alternanze automatiche).
+
+## Figure nuove
+
+- `risultati/figure/alternanze_automatiche.png`: a sinistra la memoria nelle alternanze dentro la parola per tutti i
+  testi (Voynich in rosso, lingue in oro, testi piccoli in rosa, generatori in verde); a destra la forma con la distanza
+  per Voynich, Corano e Naibbe. (I valori del Voynich nella figura sono con il nullo solito.)
+
+## Lacune e proposta
+
+- **Uno scriba medievale vero** con scelte libere di grafia resta il controllo che manca: servirebbe una trascrizione
+  diplomatica di un manoscritto, da scaricare con il tuo permesso.
+- La memoria in *sh*/*ch* che si consuma con le lettere: abitudine o inchiostro? Senza le immagini delle pagine non
+  riesco a deciderlo.
+- Il NT fiammingo *i*/*y* (+0,055 da solo, e3c04) è un indizio da guardare con dati nuovi.
