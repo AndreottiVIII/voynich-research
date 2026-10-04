@@ -1336,7 +1336,9 @@ varianti *qo*, *k*, *sh*, -*ey* si fanno più rare andando verso destra (−0,02
 uguale): 8–12 punti percentuali da un capo all'altro di una riga tipica. Essendo comune a tutte le scelte, non è un effetto
 dell'inchiostro sul trattino di *sh*. Va insieme alle forme di bordo e alla deriva verticale di -*ey* nella pagina.
 Replica (e3c17): c'è in ogni mano e in tutte e due le lingue di Currier, circa tre volte più forte in B (−0,035 ogni 10
-segni, classi insieme) che in A (−0,011).
+segni, classi insieme) che in A (−0,011). **Memoria per mano senza la posizione (e3c19):** mano 2 +0,065/+0,055, mano 3
++0,054/+0,045 (ZL/IT, intervalli sopra 0), mano 1 +0,071/+0,051 con intervalli che toccano 0 (poche coppie); nessuna
+differenza fra mani. Nel white paper: "della stessa grandezza in tutte le mani, dimostrata nelle mani 2 e 3".
 **Correzione dei valori della memoria (e3c14):** la deriva fa accordare di più le parole vicine; con un nullo che
 rimescola dentro fasce di posizione nella riga la memoria è **+0,062 (ZL, IC +0,035 – +0,089) e +0,051 (IT, +0,025 –
 +0,079)**, contro +0,086 e +0,076 del nullo solito: circa un terzo veniva dalla deriva. Nel white paper vanno citati i

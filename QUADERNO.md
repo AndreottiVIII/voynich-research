@@ -14287,3 +14287,20 @@ gruppi di pagine. Le mani coincidono quasi con le lingue (mano 1 = A; mani 2 e 3
 - È circa tre volte più forte in B che in A. In A le righe sono più corte (erbario, paragrafi brevi) e le parole delle
   classi per pagina sono meno, quindi l'intervallo è largo; ma la stima puntuale è chiaramente più piccola.
 - Va con la lezione dell'e3c14: la parte della "memoria" dovuta alla posizione nella riga sarà più grande in B che in A.
+
+## 4/10/2026 (mattina) — e3c19: senza la posizione nella riga, memoria dimostrata nelle mani 2 e 3, non nella mano 1 (poche coppie)
+
+Preregistrato (`preregistrazioni/e3c19.md`). Memoria per mano con il nullo solito e con quello che conserva la posizione.
+
+| mano | ZL, solito | ZL, con posizione | IT, solito | IT, con posizione |
+|---|---|---|---|---|
+| 1 (A) | +0,090 (+0,015 – +0,163) | +0,071 (−0,006 – +0,144) | +0,069 (−0,001 – +0,141) | +0,051 (−0,016 – +0,126) |
+| 2 (B) | +0,089 (+0,041 – +0,136) | **+0,065** (+0,017 – +0,110) | +0,082 (+0,041 – +0,127) | **+0,055** (+0,011 – +0,102) |
+| 3 (B) | +0,079 (+0,043 – +0,114) | **+0,054** (+0,018 – +0,088) | +0,071 (+0,034 – +0,106) | **+0,045** (+0,008 – +0,078) |
+
+- **Esito preregistrato: senza la posizione la memoria non è dimostrata in ogni mano.** Le mani 2 e 3 sì; la mano 1 ha
+  stime della stessa grandezza (+0,071, +0,051) ma intervalli larghi che toccano 0 (paragrafi brevi dell'erbario, poche
+  coppie; con IT era al limite già con il nullo solito). Nessuna differenza fra le mani (intervalli delle differenze
+  ±0,08).
+- Lettura: "uguale in tutte le mani" va detto come "della stessa grandezza in tutte le mani, dimostrata nelle mani 2 e 3".
+  La correzione per la posizione toglie in tutte e tre circa un quarto–un terzo, anche in A dove la deriva è più debole.
