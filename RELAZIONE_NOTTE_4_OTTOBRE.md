@@ -95,6 +95,18 @@ push. Molti risultati li ho poi rifatti con la trascrizione di Takahashi (e alcu
 divido fra **solidi** (reggono con più trascrizioni) e **indizi** (non reggono del tutto). Le correzioni sono in fondo.
 Niente di questo è una decifrazione.
 
+## La cosa più importante
+
+**Con la stessa misura, l'accordo grammaticale delle lingue sembra "memoria" quanto il Voynich (e3b91, e3b93).** In
+italiano "la casa bianca" le desinenze -*o*/-*a* di parole vicine si accordano; lo stesso in spagnolo e in latino
+(-*us*/-*a*): l'effetto è 0,6–1,1 volte quello del Voynich, e nello swahili, dove si accordano i prefissi (*m*-/*wa*-),
+quasi il triplo. Quindi la memoria delle scelte del Voynich, soprattutto per -*ey*/-*dy* (una desinenza) e *qo*/*o* (un
+inizio di parola), ha **la forma che avrebbe un accordo fra parole in una lingua**. Non è un argomento per "testo senza
+significato"; semmai il contrario. Due tratti fanno pendere verso un'abitudine di chi scrive, ma non sono decisivi: nel
+Voynich la memoria si consuma con le lettere scritte (+0,066), nell'accordo delle lingue quasi no (media +0,015, e3b92);
+e nel Voynich c'è con la stessa forza anche per scelte dentro la parola (*k*/*t*, *sh*/*ch*), dove un accordo grammaticale
+di solito non arriva. La domanda "accordo o abitudine" resta aperta.
+
 ## In breve
 
 Il testo del Voynich si descrive bene con quattro ingredienti:
@@ -223,10 +235,11 @@ Figure nuove (in `risultati/figure/`): `vocabolario.png`, `spazi.png`, `catena_s
 - Per l'altra chat (voynichizzatore), tutto è nel file `PASSAGGIO_VOYNICHIZZATORE.md`; la cosa più importante è che le
   "12 scelte di riga" vanno sostituite da una memoria corta che si consuma con le lettere.
 
-# Terza parte (dalle 3:30 in poi): e3b37 – e3b80
+# Terza parte (dalle 3:30 in poi): e3b37 – e3b93
 
-Questa parte è stata soprattutto un lavoro di **verifica della memoria corta**, e ha cambiato due cose che ti avevo
-scritto nella seconda parte. Le dico subito.
+Questa parte è stata soprattutto un lavoro di **verifica della memoria corta**, e ha cambiato tre cose che ti avevo
+scritto nella seconda parte: la memoria non si azzera all'a capo; non è dimostrato che sia insolita per uno scriba vero;
+e soprattutto ha la stessa forma di un accordo grammaticale.
 
 ## In breve
 
@@ -241,11 +254,10 @@ scritto nella seconda parte. Le dico subito.
    casi, contro il 37% dopo una parola con *o*-; a 6–10 parole 44% contro 36%. La memoria aggiunge circa 10 punti
    percentuali (e3b82).
 2. **Correzione: all'a capo la memoria non si azzera.** Passa per circa metà (e3b66, con tutte e due le trascrizioni;
-   togliendo la prima parola della riga, che ha forme sue, passa il 60–70%, e3b89), e
-   oltre il salto di un disegno passa per intero (e3b67). Anche la ripetizione di parole passa l'a capo, per circa un
+   togliendo la prima parola della riga, che ha forme sue, passa il 60–70%, e3b89), e oltre il salto di un disegno
+   passa per intero (e3b67). Anche la ripetizione di parole passa l'a capo, per circa un
    quarto (e3b68). Alla fine del paragrafo invece la stima è circa zero (non dimostrato, e3b73). Quello che riparte a
-   ogni interruzione è la **catena di segni**: il raccordo *qo*/*o* e la giuntura fra
-   l'ultimo segno e il primo. L'errore di prima veniva dalle forme di bordo: fine riga e inizio riga hanno scelte diverse
+   ogni interruzione è la **catena di segni**: il raccordo *qo*/*o* e la giuntura fra l'ultimo segno e il primo. L'errore di prima veniva dalle forme di bordo: fine riga e inizio riga hanno scelte diverse
    dalla media della pagina, e il confronto con la media faceva sembrare azzerato quello che non lo era.
 3. **Uno scriba medievale vero ha la stessa memoria? Non lo so ancora.** Nel corpus di controllo ho trovato due scribi
    veri con una scelta grafica libera. Lo scriba anglosassone (Hatton Gospels, þ/ð a inizio parola) ha una stima +0,10
@@ -271,14 +283,6 @@ scritto nella seconda parte. Le dico subito.
    Però c'è anche in tre generatori (U2, U3, Timm e Schinner) e nel Codex Marianus: non distingue il Voynich (e3b87).
 9. **Le etichette ripartono da capo** nelle scelte, anche se si copiano la forma (e3b48); quando un'etichetta varia la
    precedente, la modifica cade di rado sulle scelte (pochi dati, e3b74).
-
-**Attenzione, scoperta delle 5:30 (e3b91):** con la stessa misura, l'**accordo grammaticale** delle lingue (italiano
-"la casa bianca", -*o*/-*a*; latino -*us*/-*a*) dà un effetto della stessa grandezza della "memoria" del Voynich (0,6–1,1
-volte; lo swahili, con l'accordo dei prefissi *m*-/*wa*-, addirittura il triplo, e3b93). Quindi la memoria delle scelte del Voynich, soprattutto per -*ey*/-*dy* (una desinenza) e *qo*/*o* (un inizio di
-parola), ha **la forma che avrebbe un accordo fra parole** in una lingua. Non è un argomento per "testo senza
-significato"; semmai il contrario. Un primo tratto che li distingue: nel Voynich la memoria si consuma con le lettere
-scritte (+0,066), nell'accordo grammaticale delle lingue quasi no (media +0,015) (e3b92). Quindi una parte della memoria
-del Voynich sembra legata al gesto di scrivere; ma la domanda "accordo o abitudine" resta aperta.
 
 ## Come ci sono arrivato (con i passi sbagliati)
 
