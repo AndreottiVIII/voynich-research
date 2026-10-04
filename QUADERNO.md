@@ -13032,3 +13032,32 @@ parole fuori classe in mezzo: senza passaggio p fra 0,03 e 0,87, con passaggio q
   riga qualsiasi della pagina gonfia l'effetto. Per separarle (e3b65): confrontare la fine di una riga con l'inizio della
   riga **sotto** e con l'inizio della riga **sopra** (tutte e due vicine, ma solo la sotto è la continuazione). **Fino
   ad allora l'azzeramento all'a capo è da considerare in dubbio.**
+
+## 4/10/2026 (notte) — e3b65: col controllo della riga sopra, l'azzeramento all'a capo non è più dimostrato (e nemmeno il passaggio)
+
+Preregistrato (`preregistrazioni/e3b65.md`). Fine della riga i accoppiata con l'inizio della riga sotto (continuazione),
+della riga sopra (vicina, non continuazione) e di due righe sotto; salto del disegno: secondo tratto della stessa riga
+contro quello della riga con salto precedente. Codice provato su pagine finte (passa: D +0,087, IC sopra 0; azzerata
+con righe vicine simili: D +0,032, IC con lo 0; azzerata: D −0,019).
+
+| gruppo | pagine | K continuazione (coppie) | K riga sopra / precedente (coppie) | K due sotto (coppie) | D (IC 95%) |
+|---|---|---|---|---|---|
+| a capo, pagine normali | 200 | −0,003 (4.384) | −0,039 (4.533) | −0,037 (3.261) | +0,036 (−0,017 – +0,095) |
+| a capo, pagine di solo testo | 6 | +0,075 (273) | −0,041 (283) | −0,062 (224) | +0,116 (−0,031 – +0,301) |
+| salto del disegno | 89 | +0,121 (728) | +0,015 (762) | — | +0,106 (−0,016 – +0,230) |
+
+- **Esiti preregistrati:** pagine normali **incerto**; pagine di solo testo e salto **"righe vicine che si somigliano,
+  non memoria"** (intervallo di D con lo zero).
+- **Lettura onesta:** l'etichetta "righe vicine che si somigliano" per le pagine di solo testo e per il salto viene dalla
+  regola, ma i numeri dicono piuttosto **poca potenza**: la riga sopra e la riga due sotto si accordano con la fine riga
+  quasi come una riga qualsiasi (−0,04 contro −0,06 dell'e3b64), mentre la continuazione sta più in alto in tutti e tre
+  i casi (D +0,04, +0,12, +0,11). Nelle pagine normali l'effetto dell'e3b64 (+0,055) si divide in circa +0,02 di
+  somiglianza fra righe vicine e circa +0,036 di continuazione (non significativa: z circa 1,3).
+- **Conseguenza importante:** l'**azzeramento della memoria delle scelte all'a capo** (e3b10, e3b35, e3b63) **non è più
+  dimostrato**: quei confronti usavano la media della pagina, mentre fine riga e inizio riga hanno scelte diverse dalla
+  media (forme di bordo) e quindi a cavallo ci si aspetta meno accordo. Con l'atteso giusto, a cavallo dell'a capo resta
+  circa il 40% della memoria dentro la riga, con un intervallo che comprende sia l'azzeramento sia il passaggio. **Restano
+  validi** gli azzeramenti misurati con probabilità condizionate, che non dipendono da questo: la regola di raccordo
+  *qo*/*o* non passa l'a capo (e393, e3b45: +0,04 contro +0,35 nella riga) e la giuntura si rompe all'a capo (e384).
+- Prossimo passo (e3b66): stessa prova con più coppie (distanza 2–4), con tutte e due le trascrizioni; il suo esito sarà
+  quello che riporto, in un senso o nell'altro.
