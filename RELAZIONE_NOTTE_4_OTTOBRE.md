@@ -109,7 +109,8 @@ Il testo del Voynich si descrive bene con quattro ingredienti:
    *ee*/*e*, -*ey*/-*dy*, *k*/*t*) per 2–4 parole; la memoria si consuma con le lettere scritte e si azzera all'a capo.
    **(Corretto nella terza parte: all'a capo la memoria non si azzera, passa per circa metà; e3b66.)**
    Nessuna lingua, nessun generatore pubblicato e nemmeno il gibberish scritto a mano ha questa firma.
-   **(Terza parte: per uno scriba medievale vero non è dimostrato né escluso; e3b70.)**
+   **(Terza parte: per uno scriba medievale vero non è dimostrato né escluso, e3b70; e con la stessa misura l'accordo
+   grammaticale delle lingue dà un effetto simile, e3b91: "nessuna lingua" valeva solo per la ripetizione di parole.)**
 4. **Lo sguardo alla riga sopra e alla pagina.** Parole riprese dalla riga sopra (da tutta la riga, non oltre il
    paragrafo né la pagina), evitamento di cominciare come la riga sopra, apertura del paragrafo, deriva di -*ey* lungo la
    pagina.
