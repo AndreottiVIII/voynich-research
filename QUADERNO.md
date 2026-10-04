@@ -11907,3 +11907,21 @@ due ipotesi molto diverse:
 Le due ipotesi restano entrambe aperte su questo punto; quello che si esclude è che queste varianti portino, così come
 sono, l'informazione di una lingua parola per parola (in quel caso non sarebbero libere al 90% né "copiate" dalle parole
 appena scritte). Nessuna decifrazione: è solo una delimitazione delle ipotesi.
+
+## 4/10/2026 (notte) — e3b17: unendo le varianti di grafia il Voynich non diventa più simile a una lingua, anzi il contrario
+
+Preregistrato (`preregistrazioni/e3b17.md`). Varianti unite su ogni parola: *sh* → *ch*, *q* iniziale tolta, serie di
+*e* ridotte a una.
+
+| misura | Voynich vero | varianti unite | 90° percentile delle lingue |
+|---|---|---|---|
+| ρ frequenza-forma | 0,559 | 0,613 | 0,202 |
+| forme riempite | 0,431 | 0,456 | 0,086 |
+| F1 degli spazi | 0,862 | 0,858 | 0,718 |
+| tagli sbagliati che sono parole | 0,500 | 0,524 | 0,122 |
+
+- **Esito preregistrato: le varianti non nascondono una lingua.** Togliendo le distinzioni *qo*/*o*, *sh*/*ch*,
+  *ee*/*e*, le parole che restano sono ancora di più "forme da catena di segni" (le misure salgono un poco) e ancora
+  lontanissime dalle lingue.
+- **Limite:** vale per questa unione di varianti. Una codifica di altro tipo (per esempio più parole del Voynich per una
+  lettera, come nei cifrari verbosi) non si scopre unendo varianti, e resta fuori da questo test.

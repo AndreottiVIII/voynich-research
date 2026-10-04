@@ -1,0 +1,22 @@
+{
+ "vero": {
+  "rho frequenza-forma (e3a55)": 0.5586322683437317,
+  "riempimento (e3a61)": 0.4312452253628724,
+  "F1 degli spazi (e3a58)": 0.8623150925830144,
+  "tagli sbagliati che sono parole (e3a67)": 0.4998148833765272
+ },
+ "unito": {
+  "rho frequenza-forma (e3a55)": 0.6133587363453735,
+  "riempimento (e3a61)": 0.4564814814814815,
+  "F1 degli spazi (e3a58)": 0.8580375782881002,
+  "tagli sbagliati che sono parole (e3a67)": 0.5244883040935673
+ },
+ "p90_lingue": {
+  "rho frequenza-forma (e3a55)": 0.202,
+  "riempimento (e3a61)": 0.086,
+  "F1 degli spazi (e3a58)": 0.718,
+  "tagli sbagliati che sono parole (e3a67)": 0.122
+ },
+ "misure_sopra_p90": 4,
+ "esito": "le varianti non nascondono una lingua"
+}
