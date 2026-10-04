@@ -133,6 +133,7 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     Metodo specifico: numero di i e -l/-r senza memoria (e3b77).
     Scriba anglosassone separando le parole grammaticali: non regge (e3b78). Controllo con scribi veri: aperto.
     Crescita di -ey scendendo e apertura del paragrafo replicate con Takahashi, intervalli per pagina (e3b79).
+    La memoria si consuma con le lettere, confermato col metodo finale e due trascrizioni (e3b80).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
