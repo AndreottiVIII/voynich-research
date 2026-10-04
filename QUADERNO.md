@@ -14922,3 +14922,29 @@ lunghezze del Voynich.
 - **Cautele:** le righe sono finte (le righe del corpus sono versetti); un solo scriba e una sola scelta; þ/ð compare
   soprattutto in parole brevi e frequenti (þa, þe, þæt…), quindi una parte potrebbe essere legata a quali parole stanno
   vicine (l'atteso dalla stessa parola ne tiene conto, ma non del tutto se le preferenze cambiano con la posizione).
+
+## 4/10/2026 (mattina) — e3c47: lo scriba regge con tratti brevi, il Voynich no (da verificare per la distorsione dei blocchi piccoli)
+
+Preregistrato (`preregistrazioni/e3c47.md`). Misura dell'e3c34 con unità (lo "scarto di pagina") di 25 righe o di 5 righe.
+
+| variante | K(1) (IC 95%) | K(2) | K(3) | r |
+|---|---|---|---|---|
+| Hatton þ/ð, unità di 25 righe | +0,584 (+0,442 – +0,707) | +0,271 | +0,338 | 0,52 |
+| Hatton þ/ð, unità di 5 righe | +0,598 (+0,452 – +0,726) | +0,359 | +0,373 | 0,61 |
+| Hatton senza le 10 parole più frequenti, 25 righe | +0,293 (+0,121 – +0,549) | −0,101 | +0,365 | 0,45 |
+| Hatton senza le 10 parole più frequenti, 5 righe | +0,199 (+0,049 – +0,435) | −0,073 | +0,187 | 0,29 |
+| Voynich ZL, pagine intere | +0,130 (+0,106 – +0,156) | +0,076 | +0,076 | 0,58 |
+| **Voynich ZL, blocchi di 5 righe** | **+0,070** (+0,044 – +0,097) | **+0,010** | **+0,010** | **0,14** |
+
+(Parole tolte nell'Hatton: ða, þa, þam, þanne, þare, þas, þe, þt, þu, þæt.)
+
+- **Esito preregistrato: la finestra dello scriba non regge senza le 10 parole più frequenti** (restano 1.815 parole;
+  K(1) resta sopra 0 ma la forma è rumorosa). Con tutte le parole regge anche con unità di 5 righe.
+- **Il fatto più importante è descrittivo e riguarda il Voynich:** togliendo le preferenze di tratti di 5 righe (circa
+  40 parole) invece che della pagina intera, l'accordo a 2–3 parole del Voynich scende quasi a zero (+0,010), e fra parole
+  accanto si dimezza (+0,070). Se fosse vero, la "finestra" del Voynich verrebbe in gran parte da preferenze che cambiano
+  dentro la pagina su tratti di poche righe (come la crescita di -*ey* scendendo nella pagina, e3a15–e3a21), non da una
+  memoria parola per parola. Lo scriba anglosassone invece non cambia.
+- **Cautela tecnica da verificare subito:** con unità piccole lo scarto dell'unità è rumoroso e spinge K verso il basso
+  (distorsione nota, circa −0,02 con unità di 80 parole nell'e3c32; con 5 righe può essere maggiore). Prossimo passo
+  (e3c48): stimare la distorsione con un nullo e sottrarla.
