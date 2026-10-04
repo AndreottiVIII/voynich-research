@@ -13191,3 +13191,24 @@ zero (3 semi), con memoria +0,117 (IC +0,090 – +0,148).
   quattro le scelte e in tutte le mani, oltre le parole e oltre la catena di segni), e prosegue oltre il salto del
   disegno e, dimezzata, oltre l'a capo; nessun generatore pubblicato la ha; se uno scriba vero la abbia **non lo so**:
   l'unico controllo naturale disponibile ha una stima simile ma troppo incerta.
+
+## 4/10/2026 (notte) — e3b71: per la memoria delle scelte le pagine di solo testo non sono diverse dalle altre
+
+Preregistrato (`preregistrazioni/e3b71.md`). Metodo dell'e3b66 (coppie a cavallo dell'a capo a distanza 2–4; D =
+continuazione − media di riga sopra e due righe sotto); contrasto con bootstrap per pagina. Codice provato su pagine
+finte (passa per intero +0,136; azzera +0,018).
+
+| trascrizione | D solo testo (IC 95%, coppie) | D pagine normali | contrasto (IC 95%) |
+|---|---|---|---|
+| ZL | +0,026 (−0,039 – +0,068; 507) | +0,039 | −0,013 (−0,081 – +0,047) |
+| IT | +0,043 (−0,023 – +0,093; 524) | +0,041 | +0,001 (−0,073 – +0,067) |
+
+- **Esito preregistrato: non diverso dalle altre pagine.**
+- **Correzione delle e3b38–e3b44 (e della figura `solo_testo.png`):** l'accordo grezzo a cavallo dell'a capo, molto più
+  alto nelle pagine di solo testo, non viene da una memoria che passa di più. Viene dal riferimento: lì la fine e
+  l'inizio di una riga si somigliano di più nelle scelte (in quelle pagine anche la fine di una riga e l'inizio della
+  riga sopra si accordano più che altrove), quindi il confronto con la media della pagina dava un numero alto. Con il
+  controllo delle righe vicine la memoria passa l'a capo per circa metà, lì come altrove.
+- **Che cosa resta delle pagine di solo testo:** la giuntura fra l'ultimo segno di una riga e il primo della seguente
+  (e3a06, misurata con l'informazione mutua, che non dipende da questo problema) e la continuità delle parole a cavallo
+  (e3b55). Cioè: lì la **catena di segni** non riparte a ogni riga, mentre altrove sì.
