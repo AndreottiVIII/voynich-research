@@ -14249,3 +14249,23 @@ stimate e usate (ogni 10 segni): *qo* −0,023, *k* −0,028/−0,029, *sh* −0
   dalla posizione nel suo insieme (bordi più deriva), non dalla sola deriva lineare. I valori senza posizione dell'e3c14
   (+0,062 ZL, +0,051 IT) restano quelli prudenti da citare per la grandezza della memoria; la forma resta piatta in ogni
   caso.
+
+## 4/10/2026 (mattina) — e3c16: la memoria nelle alternanze automatiche, senza la posizione nella riga, regge in 2 trascrizioni su 3
+
+Preregistrato (`preregistrazioni/e3c16.md`). Le alternanze scelte dalla regola automatica (e3c01, e3c05), con il nullo
+che conserva la posizione nella riga (e3c14).
+
+| trascrizione | alternanze | nullo solito (IC 95%) | nullo con posizione (IC 95%) |
+|---|---|---|---|
+| Takahashi | *k*/*t*, *a*/*o*, *ch*/*e* | +0,056 (+0,026 – +0,085) | **+0,041** (+0,009 – +0,071) |
+| ZL | *k*/*t*, *a*/*o*, *ch*/*e* | +0,045 (+0,013 – +0,080) | **+0,033** (+0,000 – +0,067) |
+| Glen Claston (v101) | *h*/*k*, *a*/*o*, *7*/*8* | +0,040 (+0,010 – +0,071) | +0,030 (−0,001 – +0,059) |
+
+- **Esito preregistrato: regge in 2 trascrizioni su 3** (Takahashi chiaro, ZL appena, GC con intervallo che tocca 0 per
+  0,0006). Come per le classi scelte a mano, circa un quarto della memoria veniva dalla posizione nella riga.
+- **Il confronto con le lingue non cambia:** con il nuovo riferimento (ZL +0,033, metà +0,017) fra i 26 testi grandi resta
+  sopra soglia solo il Corano (+0,064); il greco (+0,010) e il NT fiammingo (+0,015, e3c04) restano sotto. Le lingue hanno
+  intervalli stretti intorno a 0 (±0,01); il Voynich +0,03 – +0,04 con intervalli di ±0,03.
+- **Lettura:** il tratto "memoria anche dentro la parola, con alternanze scelte dai dati" resta, ma più debole di come
+  l'avevo presentato: chiaro con Takahashi, al limite con le altre due trascrizioni. Il tratto più solido fra quelli che
+  separano il Voynich dalle lingue resta la forma del calo (e3c15).
