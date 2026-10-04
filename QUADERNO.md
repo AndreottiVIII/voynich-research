@@ -15587,3 +15587,29 @@ Preregistrato (`preregistrazioni/e3c72.md`; prova su testi finti: il verso è gi
   (niente nullo). Con la correzione lo stesso gruppo vale +0,097 / +0,079, come gli altri. Era distorsione.
 - **Descrizione che ne esce:** lo stato di ogni scelta vive lungo la riga, di parola in parola, e viene "letto" quando la
   scelta compare; non conta quante volte compare.
+
+## 4/10/2026 — vz: carattere e PDF del libro (veste grafica, nessuna misura nuova)
+
+Su richiesta di Davide il voynichizzatore ora scrive anche le pagine: carattere disegnato da noi a tratti
+(`voynichizzatore/carattere.py` → `VoynichizzatoreEVA.ttf`) e PDF del libro (`voynichizzatore/pagine.py`, comando `pdf`
+dello strumento). Non è un esperimento e non cambia il testo EVA né le sue misure. Guardando le pagine si nota un
+difetto dell'impaginazione v17: righe oltre 1,5 volte la mediana della pagina 5,3% contro 2,9% del Voynich vero
+(conta descrittiva, non preregistrata). Dettagli nel diario del voynichizzatore, voce delle 11:30.
+
+## 4/10/2026 (mattina) — e3c73: la forma del calo non distingue cambi a caso da cambi regolari; a 5 – 7 parole resta circa +0,06 (forse una preferenza di riga)
+
+Preregistrato (`preregistrazioni/e3c73.md`; prova su testi finti: riconosce i due casi). K corretto a distanza 1 – 7
+sulle righe di almeno 10 parole.
+
+| | K corretto a 1 … 7 | χ² geometrico (ρ) | χ² a blocchi (B) | χ² costante + geometrico (c, IC) |
+|---|---|---|---|---|
+| ZL | +0,145 / +0,090 / +0,090 / +0,070 / +0,043 / +0,075 / +0,066 | 4,9 (0,82) | 7,5 (9,4) | 2,0 (c +0,063, +0,004 – +0,093) |
+| IT | +0,144 / +0,086 / +0,111 / +0,050 / +0,034 / +0,078 / +0,091 | 12,4 (0,82) | 15,9 (9,8) | 8,4 (c +0,063, +0,012 – +0,094) |
+
+- **Esito preregistrato, forma: le due forme non si distinguono** (il geometrico è un po' meglio, Δχ² 2,6 e 3,5, sotto 4).
+- **Esito preregistrato, riga: ZL nessuna preferenza di riga in più; IT c'è anche una preferenza di tutta la riga.** In
+  ZL il miglioramento (Δχ² 2,9) sta appena sotto la soglia 3,84, ma l'intervallo di c sta sopra 0 in tutte e due.
+- **Lettura:** l'accordo non va a zero lontano nella riga; a 5 – 7 parole resta circa +0,06. Il quadro più semplice è
+  "una preferenza di tutta la riga (circa +0,06) più uno stato breve che si spegne in poche parole". Se fosse così, ogni
+  riga avrebbe una sua "impostazione" delle scelte, oltre a quella della pagina (che è già nell'atteso). Prova diretta:
+  e3c74 (parole lontane nella stessa riga contro parole di righe vicine).
