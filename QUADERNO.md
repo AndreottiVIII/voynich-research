@@ -13498,3 +13498,22 @@ Voynich (e3b86): +0,045 (ZL), +0,046 (IT).
   (+0,06/+0,08) e del Codex Marianus: **non distingue il Voynich**, né dai generatori né dagli scribi. Va bene come
   dettaglio da imitare nel generatore, non come argomento nel white paper. (I valori dei testi storici non sono
   confrontabili in grandezza: le varianti sono sbilanciate e legate a poche parole.)
+
+## 4/10/2026 (notte) — e3b88: nessun generatore ha il raccordo qo/o
+
+Preregistrato (`preregistrazioni/e3b88.md`). Metodo dell'e3b58 (informazione mutua fra *qo*/*o* e l'ultimo segno della
+parola prima, oltre le preferenze delle parole; blocchi di 25 righe) sui generatori.
+
+| generatore | occorrenze | quota *qo* | effetto | effetto / entropia | p | esito |
+|---|---|---|---|---|---|---|
+| Naibbe | 8.661 | 0,519 | +0,0002 | +0,000 | 0,24 | nessun raccordo |
+| U2 | 3.892 | 0,372 | +0,0001 | +0,000 | 0,41 | nessun raccordo |
+| U3 | 3.588 | 0,375 | +0,0013 | +0,001 | 0,033 | incerto |
+| Timm e Schinner | 955 | 0,245 | −0,0019 | −0,002 | 0,88 | nessun raccordo |
+
+Voynich ZL (e3b58): 0,058; scriba anglosassone (þ/ð): 0,007.
+
+- **Esiti preregistrati:** nessun raccordo in Naibbe, U2, Timm e Schinner; incerto in U3 (effetto minuscolo, 0,001).
+- **Lettura:** il raccordo *qo*/*o* è un tratto che separa il Voynich da tutti i generatori pubblicati (circa zero) e
+  dall'unico scriba vero misurabile (otto volte più debole). (I valori p di questo metodo possono essere un po' ottimisti,
+  e3b69, ma qui gli effetti dei generatori sono comunque circa zero.)

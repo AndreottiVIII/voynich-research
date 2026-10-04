@@ -254,7 +254,7 @@ scritto nella seconda parte. Le dico subito.
    e3b75, e3b76). Anche la stima dell'anglosassone, separando le parole grammaticali più frequenti, non regge (e3b78).
    La domanda resta aperta.
 4. **Il raccordo invece è proprio del Voynich**: lo scriba anglosassone lega appena la scelta þ/ð alla fine della parola
-   prima, otto volte meno del raccordo *qo*/*o* (e3b58).
+   prima, otto volte meno del raccordo *qo*/*o* (e3b58), e nei generatori pubblicati il raccordo non c'è (e3b88).
 5. **Le scelte non sono legate alla parola**: una parola del Voynich non ha una "sua" grafia (*k*/*t* e *sh*/*ch* per
    niente, *qo*/*o* e -*ey*/-*dy* al più un poco); nei generatori Naibbe e U2 sì (e3b49, e3b50, e3b61).
 6. **Le 6 pagine di solo testo** (f1r, f66r, f76r, f85r1, f86v5, f86v6): lì la catena di segni non riparte a ogni riga

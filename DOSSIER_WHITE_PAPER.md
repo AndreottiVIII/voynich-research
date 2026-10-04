@@ -1271,7 +1271,7 @@ accoppiata con l'inizio del tratto che lo continua, contro l'inizio di tratti vi
 | La memoria passa la fine del paragrafo | non dimostrato | stima circa 0 (ZL −0,015, IT −0,018), IC fino a +0,05 (e3b73) |
 | La ripetizione di parole si azzera all'a capo | **sbagliata** | passa per circa un quarto (e3b68) |
 | Raccordo *qo*/*o* e giuntura riparte a ogni a capo | **solida** | raccordo +0,04 a cavallo contro +0,35 nella riga (e3b45); giuntura rotta all'a capo (e384) |
-| Raccordo più forte che in uno scriba vero | **solida (un solo controllo)** | effetto/entropia 0,058 contro 0,007 (e3b58) |
+| Raccordo più forte che in uno scriba vero e nei generatori | **solida** | effetto/entropia: Voynich 0,058; scriba anglosassone 0,007 (e3b58); Naibbe 0,000, U2 0,000, U3 0,001, Timm e Schinner −0,002 (e3b88) |
 | La parola ripresa dalla riga sopra ne copia le scelte | **no** | nei conflitti segue la fonte 55%, ma con una riga lontana 57%: preferenza della parola, non copia (e3b84, e3b85); la copia riguarda la forma, non le scelte |
 | La stessa parola si scrive allo stesso modo nella stessa sessione | **solida** | stessa parola contro parole diverse: +0,085 dentro il paragrafo (righe a 2+), +0,040 fra pagine; contrasto +0,045 (IC +0,015 – +0,059), IT +0,046 (e3b86); **non distingue**: c'è anche in U2, U3, Timm e Schinner e nel Codex Marianus (e3b87) |
 | Le scelte non sono legate alla parola | **solida per *k*/*t* e *sh*/*ch***; debole legame possibile per *qo*/*o* e -*ey*/-*dy* | e3b49, e3b50, e3b61; Naibbe e U2 invece sì |
