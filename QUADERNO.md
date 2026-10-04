@@ -15507,3 +15507,24 @@ a distanza 2 con la parola in mezzo fuori dalla scelta (ZL 4.886, IT 4.932 coppi
   parola in mezzo dentro e fuori dalla scelta.
 - **Lettura per l'ipotesi Alberti:** non c'è un segno frequente che faccia da indice di cambio alfabeto; un indice raro
   non si può escludere con questi dati.
+
+## 4/10/2026 (mattina) — e3c69: nessun ritmo di liste a turno alla Tritemio; l'unico "picco" (a 2 parole) viene dalla parola accanto, non da un ciclo
+
+Preregistrato (`preregistrazioni/e3c69.md`). Somiglianza fra parole interne della stessa riga a distanza 1 – 8; pettine
+D_P = S(P) − media di S(P − 1) e S(P + 1); controlli finti validi (liste a turno P = 3: picchi a 3 e 6, z 29,6 e 15,7;
+lista unica: nessun picco).
+
+| | P = 2 | P = 3 | P = 4 | P = 5 | P = 6 |
+|---|---|---|---|---|---|
+| ZL, stesso primo segno: D (z) | **+0,014 (4,0)** | −0,004 (−1,2) | +0,003 (0,9) | −0,002 (−0,4) | +0,003 (0,6) |
+| IT, stesso primo segno: D (z) | **+0,013 (3,6)** | −0,004 (−1,0) | +0,005 (1,5) | −0,007 (−1,6) | +0,005 (0,8) |
+| ZL / IT, stesso ultimo segno, P = 2 | z 3,1 / 3,4 | | | | |
+
+- **Esito preregistrato, alla lettera: "ritmo fisso trovato: P = 2, stesso primo segno"** (ZL e IT).
+- **Ma non è un ritmo di liste, e lo dichiaro:** due liste a turno darebbero picchi anche a 4 e a 6 (nel controllo P = 3
+  il picco si ripete a 6 con z 15,7); qui a 4 e 6 non c'è niente (z 0,6 – 1,5). Il profilo del primo segno è 0,165 /
+  0,183 / 0,173 / 0,171 / 0,164 … : solo la distanza 1 è più bassa, poi la curva è liscia. È un effetto della **parola
+  accanto** (il raccordo decide l'inizio della parola dopo in base alla fine di quella prima, e3a01 – e3a02), non di un
+  ciclo. Il criterio non aveva previsto che la distanza 1 è speciale nel Voynich: errore di disegno, dichiarato.
+- **Lettura per l'ipotesi Tritemio:** nessun ritmo fisso da 2 a 6 parole oltre l'effetto della parola accanto; liste di
+  parole a turno con ciclo corto non ci sono.
