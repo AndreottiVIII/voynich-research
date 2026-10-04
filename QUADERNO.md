@@ -14611,3 +14611,27 @@ bordi, lontane = 5–6 parole, tutto dentro le stesse righe; R56 = [K(3) − K(5
 - **Bilancio della forma, onesto:** la memoria del Voynich è, come stima, più lunga dell'accordo delle lingue (a 3 parole
   ne resta il 60–70%, nelle lingue il 0–30%), ma con i dati che ci sono, misurata dentro le stesse righe, la differenza non
   è dimostrata. Nel white paper va detta così.
+
+## 4/10/2026 (mattina) — e3c32: righe corte e lunghe hanno lo stesso accordo (correzione dell'e3c31); dentro la riga l'accordo è quasi piatto
+
+Preregistrato (`preregistrazioni/e3c32.md`). K fra parole a distanza 1, 2, 3 nella stessa riga (senza bordi), righe corte
+(4–8 parole) e lunghe (9+), con l'atteso dalla stessa parola (a) e con in più lo scarto di pagina (b).
+
+| | d | corte | lunghe | corte − lunghe |
+|---|---|---|---|---|
+| ZL (a) | 1 / 2 / 3 | +0,153 / +0,131 / +0,147 | +0,175 / +0,141 / +0,136 | −0,022 (−0,073 – +0,026) a d = 1 |
+| ZL (b) | 1 / 2 / 3 | +0,088 / +0,068 / +0,087 | +0,116 / +0,078 / +0,080 | −0,029 (−0,080 – +0,021) |
+| IT (a) | 1 / 2 / 3 | +0,162 / +0,130 / +0,136 | +0,177 / +0,135 / +0,152 | −0,016 (−0,064 – +0,033) |
+| IT (b) | 1 / 2 / 3 | +0,097 / +0,063 / +0,075 | +0,121 / +0,072 / +0,096 | −0,023 (−0,071 – +0,029) |
+
+- **Esito preregistrato (ZL e IT): nessuna differenza fra righe corte e lunghe.**
+- **Correzione dell'e3c31:** avevo scritto che nelle righe corte l'accordo è più alto. Non è così. La differenza fra il
+  +0,17 dell'e3c28 e il +0,09 dell'e3c31 veniva dalla base da cui si misura: le coppie a 8–12 parole nell'e3c28, a 5–6
+  nell'e3c31, dove l'accordo c'è ancora.
+- **Fatto nuovo:** togliendo anche la preferenza della pagina (b), l'accordo dentro la riga è quasi lo stesso a 1, 2 e 3
+  parole (circa +0,07 – +0,12). Questo somiglia meno a una memoria che si consuma parola dopo parola e più a una
+  **preferenza della riga**: ogni riga ha una sua tendenza nelle scelte, condivisa dalle parole della riga, che cambia in
+  parte da una riga all'altra (all'a capo l'accordo si dimezza, e3b66) e non al salto di un disegno (e3b67). Da verificare
+  con distanze più lunghe dentro le stesse righe (e3c33).
+- Nota di metodo: lo scarto di pagina toglie circa 0,06 a tutte le distanze: una parte dell'accordo misurato finora era
+  preferenza della pagina.
