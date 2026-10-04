@@ -167,6 +167,9 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     Pendenze dentro strati esatti (e3c10): Voynich come e3c09 (incerto per IT al limite); lingue: pendenza per lettera ≈ 0
     (±0,001) in 20 su 21 contro −0,003 del Voynich; la mia attesa "le lingue calano con le parole" era sbagliata (la misura non
     vede il crollo fra d=1 e d=2).
+    **Correzione (e3c12):** il consumo con le lettere sta soprattutto in sh/ch (−0,006 per lettera; scelte robuste −0,002, non
+    dimostrato): potrebbe essere l'inchiostro sul trattino di sh. La memoria invece non è un effetto di lettura (c'è nelle
+    scelte robuste, resta sulle parole lette uguali da ZL e IT). Prossimo: e3c13 (quota di sh lungo la riga).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);

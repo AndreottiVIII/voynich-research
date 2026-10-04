@@ -1326,7 +1326,11 @@ metodo corretto (e3c08):** nessuna delle 21 misure si consuma con le lettere (me
 quattro intervalli su sei sotto 0), senza differenze trovate: un tratto di tutto il manoscritto, come la memoria.
 **Pendenze dentro strati esatti (e3c10):** per lettera a parità di parole, Voynich −0,0027 – −0,0036, lingue fra −0,0013
 e +0,0003 (20 su 21 con intervallo stretto che contiene 0), pur avendo accordo a 2–3 parole paragonabile: terza misura
-del consumo con le lettere che separa il Voynich dalle lingue.
+del consumo con le lettere che separa il Voynich dalle lingue. **Correzione (e3c12):** il consumo con le lettere sta
+soprattutto in *sh*/*ch* (−0,006 per lettera); nelle scelte fatte di segni grandi (*qo*/*o*, *k*/*t*, -*ey*/-*dy*) è un terzo e
+non dimostrato. Per *sh*/*ch* non si può escludere un effetto dell'inchiostro sul trattino di *sh*. La **memoria** invece non
+è un effetto di lettura: è grande anche nelle scelte robuste e resta sulle parole lette uguali da ZL e IT (+0,078 contro
++0,083). Nel white paper il consumo con le lettere va presentato come tratto di *sh*/*ch*, con questa cautela.
 
 **Formula per il white paper:** il Voynich ha, oltre alla catena di segni per riga e allo spazio non lessicale, una
 memoria corta delle scelte di grafia forte e uniforme (tutte le scelte, tutte le mani, due trascrizioni), che prosegue
