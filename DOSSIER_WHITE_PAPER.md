@@ -1215,3 +1215,4 @@ ripetizioni immediate dieci volte le lingue (e3b25), ripresa dalla riga sopra (e
 - **evitamento sul margine sinistro**, che nel generatore manca (e3a95).
 In una frase: "autocitazione a corto raggio, adattata al raccordo, con memoria delle varianti". Non dice nulla sul
 significato.
+  - **Correzione (e3b32):** con Takahashi la preferenza per le forme rare non si ritrova alla lettera (intervalli sovrapposti); resta solo una tendenza nella stessa direzione (le frequenti hanno sempre l'eccesso relativo più basso). Le frasi su "forme rare riprese di più" (e3b30, e3b31) vanno lette come tendenza, non come risultato solido.

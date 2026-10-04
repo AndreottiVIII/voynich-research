@@ -12207,3 +12207,21 @@ uniche ha una parola a una modifica fra le 4 precedenti nella stessa riga, contr
 grande, ma riguarda una piccola parte delle parole uniche: la stragrande maggioranza non ha una "sorella" vicina. Lettura
 corretta: **alcune** parole uniche (circa una su cento in più del caso) nascono come variazione di una parola appena
 scritta; da dove vengano le altre resta aperto (e296, e348: invenzioni o errori sparsi).
+
+## 4/10/2026 (notte) — e3b32: con Takahashi la preferenza per le forme rare non si ritrova alla lettera (resta solo una tendenza)
+
+Preregistrato (`preregistrazioni/e3b32.md`). Funzioni dell'e3b30 e dell'e3b31 sulla IT.
+
+| misura | unica | rara | media | frequente |
+|---|---|---|---|---|
+| riga sopra (IT) | +29% | +24% (+14 – +35) | +14% | +15% (+12 – +17) |
+| riga sopra (ZL, e3b30) | +15% | +31% (+21 – +42) | +17% | +15% (+12 – +18) |
+| dentro la riga (IT) | +81% | +18% (+2 – +37) | +33% | +9% (+4 – +14) |
+| dentro la riga (ZL, e3b31) | +72% | +40% (+20 – +63) | +31% | +8% (+3 – +13) |
+
+- **Esito preregistrato: non si ritrova** in tutte e due le misure (gli intervalli delle rare e delle frequenti si
+  toccano).
+- **Correzione della lettura dell'e3b30 e dell'e3b31:** la preferenza per le forme rare non è robusta. Resta una
+  tendenza nella stessa direzione in tutte e due le trascrizioni (le parole frequenti hanno sempre l'eccesso relativo più
+  basso), ma il confronto "rare contro frequenti" dipende dalla trascrizione. Le parole uniche hanno un eccesso relativo
+  alto anche nella IT (+81% dentro la riga), ma su pochi casi assoluti (vedi la correzione dell'e3b31).
