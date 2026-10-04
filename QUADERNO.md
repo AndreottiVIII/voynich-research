@@ -12801,3 +12801,22 @@ variante coperta (nota di metodo dell'e3b55). Codice provato su pagine finte sen
   i/y non mostrano memoria chiara (in tre testi, pochi dati). La memoria corta delle scelte grafiche è quindi
   un'abitudine che uno scriba umano può avere; nel Voynich riguarda più scelte insieme (quattro classi su quattro con
   ZL), ma con un solo scriba vero di confronto non si può dire se questo sia insolito.
+
+## 4/10/2026 (notte) — e3b57: con il metodo corretto i generatori non hanno la memoria delle scelte (U3 appena)
+
+Preregistrato (`preregistrazioni/e3b57.md`). Metodo dell'e3b56 (memoria normalizzata vicine − lontane oltre le parole);
+generatori in unità di 25 righe. Codice dell'e3b56 già provato; qui solo il caricamento (conteggio delle righe).
+
+| generatore | coppie vicine | M osservata | M nullo | effetto (insieme) | z | p | esito |
+|---|---|---|---|---|---|---|---|
+| Naibbe | 18.714 | +0,015 | +0,002 | +0,013 | +1,4 | 0,083 | nessuna memoria |
+| U2 | 10.165 | +0,031 | +0,033 | −0,002 | −0,3 | 0,62 | nessuna memoria |
+| U3 | 9.606 | +0,004 | −0,009 | +0,012 | +1,6 | 0,046 | debole |
+| Timm e Schinner | 11.219 | +0,050 | +0,037 | +0,013 | +0,9 | 0,18 | nessuna memoria |
+| *Voynich ZL (e3b56)* | 21.949 | +0,110 | +0,056 | **+0,054** | +6,0 | < 0,001 | |
+
+- **Esiti preregistrati:** Naibbe, U2, Timm e Schinner **nessuna memoria**; U3 **debole** (+0,012, un quarto del
+  Voynich, sotto la metà richiesta per "come il Voynich").
+- **Lettura:** con il metodo corretto la conclusione dell'e3b09 regge: la memoria corta delle scelte separa il Voynich
+  dai generatori pubblicati. Con l'e3b56: il Voynich si comporta, per questo tratto, come uno scriba umano (Hatton
+  Gospels) e non come i generatori.
