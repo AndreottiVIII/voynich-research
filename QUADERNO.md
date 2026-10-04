@@ -14733,3 +14733,22 @@ Preregistrato (`preregistrazioni/e3c36.md`). Misura dell'e3c34 con le tre classi
   dell'accordo fra parole accanto, con estremo basso sopra 0,38 (sopra quasi tutte le lingue naturali, mediana 0,13). In A
   (mano 1, erbario, parole delle classi tre volte meno) l'accordo fra parole accanto c'è (+0,10), ma la forma non si può
   stabilire.
+
+## 4/10/2026 (mattina) — e3c37: con la misura più pulita i generatori non hanno la finestra; U3 e Timm e Schinner un piccolo accordo accanto
+
+Preregistrato (`preregistrazioni/e3c37.md`). Misura dell'e3c34 sui generatori.
+
+| generatore | *k*/*t*, *sh*/*ch*, -*ey*/-*dy*: K(1) (IC 95%) / K(2) / K(3) | *qo*/*o*: K(1) / K(2) / K(3) |
+|---|---|---|
+| Naibbe | −0,026 (−0,054 – +0,000) / +0,004 / −0,025 | −0,029 / −0,024 / −0,051 |
+| U2 | +0,024 (−0,009 – +0,058) / −0,007 / +0,011 | +0,018 / −0,015 / −0,034 |
+| U3 | **+0,053** (+0,018 – +0,089) / +0,005 / +0,025 | +0,068 / +0,069 / −0,064 |
+| Timm e Schinner | **+0,047** (+0,009 – +0,086) / −0,006 / +0,029 | molto incerto (poche parole *qo*/*o*) |
+| *Voynich ZL / IT* | *+0,106 / +0,110; K(3) +0,08 / +0,10* | *≈ 0 / +0,06 / +0,11* |
+
+- **Esito preregistrato: nessun generatore ha l'accordo di *k*/*t*, *sh*/*ch*, -*ey*/-*dy*.** Va detto con precisione: U3 è
+  proprio sul limite (+0,053 contro la soglia di +0,053) e Timm e Schinner ha +0,047 con intervallo sopra 0. Questi due
+  hanno un piccolo accordo fra parole accanto (metà del Voynich), ma **nessuna finestra**: a 2 e 3 parole sono quasi a
+  zero, mentre il Voynich tiene +0,08 – +0,10 a 3 parole.
+- Il tratto che nessun generatore riproduce è dunque l'accordo che dura fino a 3 parole (e, per *qo*/*o*, quello a 2–3
+  parole).
