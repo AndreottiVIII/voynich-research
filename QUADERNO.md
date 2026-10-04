@@ -14170,3 +14170,27 @@ le sole concordi +0,078 (+0,042 – +0,115); pendenza per lettera −0,0042 e �
   le più frequenti. Prossima prova (e3c13): se fosse l'inchiostro, la quota di *sh* dovrebbe calare lungo la riga.
 - Il confronto con le lingue (e3b92, e3b99, e3c08, e3c10) resta valido così com'è: le lingue non si consumano con le
   lettere. Ma il tratto del Voynich che le separa poggia soprattutto su una sola scelta.
+
+## 4/10/2026 (mattina) — e3c13: tutte le scelte "marcate" calano lungo la riga, non solo *sh*
+
+Preregistrato (`preregistrazioni/e3c13.md`). Pendenza della scelta sui segni scritti prima nella riga, a parità di
+parola coperta, senza la prima e l'ultima parola della riga.
+
+| classe (1 = …) | quota | ZL, ogni 10 segni (IC 95%) | IT, ogni 10 segni (IC 95%) |
+|---|---|---|---|
+| *qo*/*o* (1 = *qo*) | 0,51 | −0,020 (−0,033 – −0,008) | −0,021 (−0,033 – −0,009) |
+| *k*/*t* (1 = *k*) | 0,67 | −0,030 (−0,044 – −0,018) | −0,031 (−0,044 – −0,018) |
+| *sh*/*ch* (1 = *sh*) | 0,31 | **−0,034** (−0,044 – −0,024) | **−0,035** (−0,044 – −0,025) |
+| -*ey*/-*dy* (1 = -*ey*) | 0,39 | −0,029 (−0,047 – −0,014) | −0,028 (−0,045 – −0,013) |
+
+- **Esito preregistrato: "compatibile con l'inchiostro" (*sh* cala lungo la riga).** Ma la descrizione delle altre
+  classi, prevista nella preregistrazione, toglie forza all'inchiostro: **calano tutte e quattro**, anche quelle fatte di
+  segni grandi, quasi della stessa misura. Non è un effetto proprio del trattino di *sh*.
+- **Proprietà nuova:** dentro la riga (bordi esclusi), a parità di parola, le varianti *qo*, *k*, *sh*, -*ey* si fanno più
+  rare andando verso destra: circa 2–3,5 punti percentuali ogni 10 segni, cioè 8–12 punti da un capo all'altro di una
+  riga tipica. Va con le proprietà già note dei bordi (a inizio riga forme più "piene", a fine riga -*m* al posto di -*r*)
+  e con la deriva verticale di -*ey* nella pagina: una deriva orizzontale comune a tutte le scelte.
+- **Conseguenza di metodo:** una deriva comune lungo la riga fa accordare un poco di più le parole vicine (stanno a
+  posizioni simili) che quelle lontane, e il nullo largo (rimescolamento dentro tipo coperto e pagina) non la toglie.
+  Può gonfiare un poco la memoria e il consumo con le lettere. Stima a mano: una piccola frazione (dell'ordine del 10%),
+  ma va misurata: e3c14, con un nullo che conserva la posizione nella riga.
