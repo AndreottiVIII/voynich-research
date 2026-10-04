@@ -1275,6 +1275,8 @@ accoppiata con l'inizio del tratto che lo continua, contro l'inizio di tratti vi
 | Pagine "solo testo": la giuntura (catena di segni) passa l'a capo | **solida** | E +0,145 ZL, +0,149 IT, p 0,0005; con la riga sopra circa 0 (e3a06, e3b72) |
 | Etichette: memoria delle scelte fra etichette consecutive | assente | e3b48 |
 | "La copia porta con sé gli spazi" | **non regge come meccanismo** | e3b46, e3b47 |
+| Crescita di -*ey* scendendo nella pagina | **solida** | ZL +0,080 (IC +0,047 – +0,116), IT +0,084 (+0,050 – +0,119) (e3b79) |
+| Apertura del paragrafo (*p*/*f* nella prima riga) | **solida** | ZL +0,044, IT +0,043, IC stretti (e3b79) |
 
 **Formula per il white paper:** il Voynich ha, oltre alla catena di segni per riga e allo spazio non lessicale, una
 memoria corta delle scelte di grafia forte e uniforme (tutte le scelte, tutte le mani, due trascrizioni), che prosegue
