@@ -15488,3 +15488,22 @@ coppie di scelte, forza dello stato simile al Voynich): stati indipendenti +0,00
 nel Voynich (meno di quelle finte) è circa ±0,02. Esperimento non fatto; numero e3c67 senza preregistrazione né
 risultati. Lacuna: con queste misure a coppie non si può dire se le scelte cambiano negli stessi punti; servirebbe un
 modello a stati nascosti adattato a intere righe.
+
+## 4/10/2026 (mattina) — e3c68: nessun segno o parola dopo cui lo stato riparte (entro la potenza della prova)
+
+Preregistrato (`preregistrazioni/e3c68.md`; potenza dichiarata prima: un indice raro sfugge). Coppie della stessa scelta
+a distanza 2 con la parola in mezzo fuori dalla scelta (ZL 4.886, IT 4.932 coppie); 40 parole, 13 segni, 3 lunghezze;
+1.000 permutazioni.
+
+- **Esito preregistrato: nessun segno che azzera lo stato (entro la potenza della prova).** Nessuna caratteristica ha p di
+  famiglia sotto 0,33; l'eterogeneità complessiva non è significativa (parole: p 0,48 / 0,18; segni: p 0,12 / 0,07).
+- Le caratteristiche con Δ più negativo sono le stesse in ZL e IT ma deboli: parola in mezzo che contiene *o* (Δ −0,08 /
+  −0,09, z −2,4), *sh* (−0,10, z −2,2 / −2,7), *q* (−0,09 / −0,11), lunga 6 segni o più (−0,09). Annotate come pista, non
+  come risultato.
+- **Osservazione non preregistrata (da verificare):** con la parola in mezzo **fuori** dalla scelta, l'accordo a
+  distanza 2 è +0,062 (ZL) e +0,045 (IT), più basso del +0,08 – +0,10 di tutte le coppie a distanza 2 (e3c48, e3c66).
+  Potrebbe voler dire che lo stato si trasmette di parola-con-la-scelta in parola-con-la-scelta (una catena sulle
+  occorrenze della scelta) più che di parola in parola. Prova da fare: confrontare, a parità di distanza, coppie con la
+  parola in mezzo dentro e fuori dalla scelta.
+- **Lettura per l'ipotesi Alberti:** non c'è un segno frequente che faccia da indice di cambio alfabeto; un indice raro
+  non si può escludere con questi dati.
