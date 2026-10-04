@@ -44,7 +44,7 @@ def main():
     ax.set_xticks(xs)
     ax.set_xticklabels([x[0] for x in voce], rotation=30, ha='right', fontsize=8)
     ax.set_ylabel('memoria delle scelte oltre le parole\n(accordo normalizzato, vicine − lontane, meno il nullo)')
-    ax.set_title('La memoria corta delle scelte: c\'è nel Voynich e in uno scriba vero, non nei generatori')
+    ax.set_title('Memoria corta delle scelte: nel Voynich in tutte le mani; nello scriba vero solo per þ/ð; nei generatori no', fontsize=10)
     fig.tight_layout()
     os.makedirs(os.path.join(R, 'figure'), exist_ok=True)
     out = os.path.join(R, 'figure', 'memoria_scribi.png')
