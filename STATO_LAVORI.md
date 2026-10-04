@@ -72,6 +72,11 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
       non viene dalla copia dalla riga sopra (e3a63);
     - in queste misure di vocabolario e spazi il Voynich sta con i generatori, non con le lingue né col gibberish umano;
       figura `risultati/figure/spazi.png`.
+  - **e3a69–e3a81 (sintesi):** il Voynich riscritto dalla propria catena di segni non cambia (e3a69, e3a71); il
+    meccanismo delle parole è quasi di ordine 1 (e3a76, e3a77); **una catena di segni per riga riproduce le sei
+    proprietà orizzontali, non le quattro verticali** (copia dalla riga sopra, margine sinistro, apertura del
+    paragrafo, -ey scendendo) (e3a78, e3a80, e3a81; figura `catena_spiega.png`). Correzioni: e3a65 da e3a72 (il calo
+    col paragrafo era meccanico), e3a69 da e3a71; e3a73 abbandonato (Naibbe non fa da controllo).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);

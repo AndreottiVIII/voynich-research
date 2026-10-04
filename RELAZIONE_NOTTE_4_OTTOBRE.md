@@ -135,3 +135,46 @@ Da e3a55 in poi. Stesse regole: preregistrazione, codice provato sui controlli, 
 - e3a66: la prima esecuzione si è fermata per un errore nella tabella descrittiva; l'ho corretto e rieseguito.
 
 Figura nuova: `risultati/figure/spazi.png`.
+
+## Aggiornamento (verso le 2:15): la sintesi "catena per riga + meccanismi verticali"
+
+### Il risultato più importante della notte
+
+Ho riscritto il Voynich con una "macchina" che conosce solo quale segno segue i due precedenti, riga per riga, sapendo
+quando la riga comincia e finisce, e tenendo la stessa struttura di pagine e paragrafi (e3a78, e3a80, e3a81). Poi ho
+rimisurato tutto. Figura: `risultati/figure/catena_spiega.png`.
+
+- **La macchina riproduce da sola sei proprietà "orizzontali":** la giuntura fra parole, la chiusura della riga, -*m* a
+  fine riga, *y*/*s*/*d* a inizio riga, la catena che passa attraverso lo spazio, la frequenza che segue la forma. Vale
+  con la ZL e con Takahashi.
+- **Non riproduce quattro proprietà "verticali",** che dipendono da dove sta la riga:
+  - la copia di pezzi dalla riga subito sopra;
+  - l'evitamento di cominciare la riga come la precedente;
+  - l'apertura del paragrafo (*p*/*f* nella prima riga);
+  - -*ey* che cresce scendendo nella pagina.
+
+In parole semplici: il testo si descrive bene come una catena di segni scritta riga per riga, più uno scriba che guarda
+la riga sopra, il paragrafo e la pagina. Questo non dice come il testo sia stato prodotto né se abbia un significato:
+dice che le sue regolarità stanno in queste due parti.
+
+### Altri risultati
+
+- Le prove su vocabolario e spazi reggono con Takahashi e Glen Claston (e3a68).
+- **Il meccanismo delle parole è "quasi di ordine 1"** (e3a76, tarato su catene di ordine noto; regge con tre modi di
+  trascrivere, e3a77): ogni segno dipende soprattutto da quello prima, con un po' di dipendenza dai due prima. I
+  generatori pubblicati non hanno quel "po'" di ordine 2.
+- I segni del Voynich sono molto legati al loro posto nella parola (4° percentile delle lingue), ma questo non spiega
+  la frequenza-forma (e3a75).
+- La copia dalla riga sopra porta un poco con sé gli spazi (e3a74, indizio debole); la prima parola della riga si copia
+  quanto le altre (e3a79): copia ed evitamento sul margine sono due cose diverse.
+
+### Correzioni e risultati negativi di questa parte
+
+- **e3a65 corretto da e3a72:** avevo scritto che due terzi del piccolo legame fra parole intere stavano nel paragrafo.
+  Con "paragrafi finti" della stessa grandezza il calo è lo stesso: era un effetto dei gruppi più piccoli, non del
+  paragrafo.
+- **e3a69 ridimensionato da e3a71:** "una catena di segni produce le proprietà del Voynich" vale per catene corte;
+  con l'ordine 3 le lingue riscritte tornano quasi come le vere. Resta solido che il Voynich riscritto non cambia.
+- **e3a70 riletto con e3a76:** l'eccesso del Voynich dipendeva in parte dal misurare con un modello di ordine 1.
+- **e3a73 abbandonato prima di preregistrarlo:** il cifrario Naibbe, controllo positivo, non ha legami fra parole
+  vicine. Quindi la debolezza di quei legami nel Voynich non è un argomento contro un cifrario verboso di quel tipo.
