@@ -1357,6 +1357,17 @@ lingue dà un effetto della stessa grandezza, ma con una forma diversa (concentr
 legato alle lettere scritte): la memoria del Voynich somiglia più a un'abitudine di chi scrive che a un accordo fra
 parole, senza che questo dica se il testo abbia un significato.
 
+**Formula aggiornata dopo la mattina del 4/10 (e3b97 – e3c16), che sostituisce i numeri della precedente:** la memoria
+corta delle scelte vale, tolta la posizione nella riga, circa **+0,06 (ZL) e +0,05 (Takahashi)** (e3c14; la deriva delle
+scelte lungo la riga ne spiegava circa un terzo). Rispetto all'accordo grammaticale delle lingue del corpus la separano,
+in ordine di solidità: (1) la **forma del calo** (forte fra parole accanto e poi lenta: R 0,82–0,87 senza deriva né bordi,
+contro al più 0,45 nelle lingue naturali e mediana 0,16 su 26 testi; e3b98, e3c15); (2) la presenza anche nelle
+**alternanze dentro la parola** scelte da una regola uguale per tutti (Voynich +0,03 – +0,04 senza posizione, chiaro in
+una trascrizione e al limite nelle altre due; 25 lingue su 26 a zero, eccezione il Corano; e3c01, e3c16); (3) il
+**consumo con le lettere** scritte, assente in tutte le 21 misure su lingue ma concentrato in *sh*/*ch* (e3c08, e3c12).
+Regge su tre trascrizioni (ZL, Takahashi, Glen Claston) e in tutte le mani. Resta aperto se uno scriba medievale vero
+la abbia.
+
 **Lezioni di metodo da riportare** (utili anche a chi legge): (1) confrontare con la media della pagina ai bordi della
 riga inganna, perché fine e inizio riga hanno forme proprie; (2) togliere le coppie "simili" guardando la parola intera
 falsa i confronti con i rimescolamenti; (3) il rimescolamento parola per parola sottostima la variabilità: servono
