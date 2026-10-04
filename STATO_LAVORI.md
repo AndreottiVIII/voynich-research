@@ -145,6 +145,7 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     memoria del Voynich.** La memoria non distingue fra abitudine dello scriba e accordo fra parole.
     Il consumo con le lettere distingue un poco: nel Voynich +0,066, nelle lingue media +0,015 (e3b92).
     Swahili (accordo di prefisso): memoria +0,236, quasi il triplo del Voynich; lettere: dati insufficienti (e3b93).
+    Togliere le parole più frequenti non distingue accordo e memoria (e3b94).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
