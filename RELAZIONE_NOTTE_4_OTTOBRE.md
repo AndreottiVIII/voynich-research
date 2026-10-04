@@ -298,8 +298,8 @@ significato.
 ## Figure nuove
 
 `risultati/figure/memoria_scribi.png` (memoria: Voynich, mani, scriba anglosassone, generatori, con intervalli) e
-`risultati/figure/confini.png` (che cosa passa il salto del disegno e l'a capo). `solo_testo.png` è di prima delle
-correzioni: mostra l'accordo grezzo, da leggere con il punto 6.
+`risultati/figure/confini.png` (che cosa passa il salto del disegno e l'a capo) e `risultati/figure/solo_testo.png`
+(rifatta: giuntura a capo nelle pagine di solo testo, memoria come altrove).
 
 ## Lacune e proposta
 
