@@ -169,7 +169,9 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     vede il crollo fra d=1 e d=2).
     **Correzione (e3c12):** il consumo con le lettere sta soprattutto in sh/ch (−0,006 per lettera; scelte robuste −0,002, non
     dimostrato): potrebbe essere l'inchiostro sul trattino di sh. La memoria invece non è un effetto di lettura (c'è nelle
-    scelte robuste, resta sulle parole lette uguali da ZL e IT). Prossimo: e3c13 (quota di sh lungo la riga).
+    scelte robuste, resta sulle parole lette uguali da ZL e IT).
+    **Proprietà nuova (e3c13):** dentro la riga, a parità di parola, qo, k, sh, -ey calano tutte verso destra (2–3,5 punti
+    ogni 10 segni): non è l'inchiostro su sh. Può gonfiare un poco la memoria: e3c14 con un nullo che conserva la posizione.
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);

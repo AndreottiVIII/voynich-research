@@ -1331,6 +1331,10 @@ soprattutto in *sh*/*ch* (−0,006 per lettera); nelle scelte fatte di segni gra
 non dimostrato. Per *sh*/*ch* non si può escludere un effetto dell'inchiostro sul trattino di *sh*. La **memoria** invece non
 è un effetto di lettura: è grande anche nelle scelte robuste e resta sulle parole lette uguali da ZL e IT (+0,078 contro
 +0,083). Nel white paper il consumo con le lettere va presentato come tratto di *sh*/*ch*, con questa cautela.
+**Proprietà nuova: deriva orizzontale delle scelte (e3c13).** Dentro la riga, bordi esclusi e a parità di parola, le
+varianti *qo*, *k*, *sh*, -*ey* si fanno più rare andando verso destra (−0,020, −0,030, −0,034, −0,029 ogni 10 segni, ZL; IT
+uguale): 8–12 punti percentuali da un capo all'altro di una riga tipica. Essendo comune a tutte le scelte, non è un effetto
+dell'inchiostro sul trattino di *sh*. Va insieme alle forme di bordo e alla deriva verticale di -*ey* nella pagina.
 
 **Formula per il white paper:** il Voynich ha, oltre alla catena di segni per riga e allo spazio non lessicale, una
 memoria corta delle scelte di grafia forte e uniforme (tutte le scelte, tutte le mani, due trascrizioni), che prosegue
