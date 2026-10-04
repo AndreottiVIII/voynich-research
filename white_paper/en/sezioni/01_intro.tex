@@ -27,10 +27,11 @@ measurements.
 \item \textbf{Choices between variant forms follow a ``state'' lasting a few words.} Between the forms \eva{k/t},
   \eva{sh/ch}, \eva{-ey/-dy}, the scribe tends to repeat the same choice for two or three words, \emph{whatever word is
   being written}. It is not copying of similar words, not position in the line, it is separate for each choice and
-  identical in all the hands of the manuscript: a rule of the writing system. We did not find it in the six Nordic
-  scribes nor in the Copiale copyist (the test on the 73 German scribes is in progress).
+  identical in all the hands of the manuscript: a rule of the writing system. We did not find it in any of the 79
+  medieval scribes (six Nordic, 73 German) nor in the Copiale copyist.
 \item \textbf{Marked variants drift along the line} (\eva{qo}, \eva{k}, \eva{sh}, \eva{-ey} become rarer from left to
-  right), three to fifteen times more than in the six Nordic scribes (German scribes in progress).
+  right), three to fifteen times more than in the six Nordic scribes and about four times more than in the 73 German
+  ones, whose small drifts follow no common direction.
 \item \textbf{The Voynich repeats the previous word immediately} (1.0\% of adjacent pairs) or a nearly identical one
   (3.9\%), more than every language and every one of the 85 handwritten texts we tested (usually 10 to 100 times more),
   while having a vocabulary of normal size.
@@ -181,3 +182,34 @@ occurrences of the same word, which has the same bias but no real agreement. All
 corrected in this way. The correction changed three provisional indications of the work: the Anglo-Saxon scribe does not
 have the ``window'' a first measure had attributed to him; Volapük does not resemble the Voynich; and the Voynich does
 not lie \emph{outside} the range of languages for the shape of its agreement, but at its top.
+
+\subsection{How the two authors worked}
+
+The work was carried out in a continuous conversation between the two authors, on a repository that keeps the history of
+every change.
+
+\paragraph{Division of the work} Davide Caniatti set the questions and the direction of the research, chose among the
+avenues proposed, authorised every download of data and every change of scope, and reviewed results and text. Claude
+proposed the experiments, wrote the preregistrations, the programs and the notebook entries, ran the experiments and
+drafted the text.
+
+\paragraph{The cycle of each experiment} Every experiment followed the same steps, each recorded in a separate commit, so
+that their order can be checked in the history of the repository:
+\begin{enumerate}
+\item the program is tried only on synthetic texts and controls, never on the Voynich;
+\item the preregistration is committed;
+\item the program is committed;
+\item the experiment is run through a script that records the version of code and data, the random seeds and the output;
+\item results and notebook entry are committed and the repository is published to its remote copy.
+\end{enumerate}
+
+\paragraph{Further rules} Besides those of Section~3.1: a decipherment is never declared, and every proposed reading
+must pass positive and negative controls and the test on shuffled text; deviations from a preregistration are declared;
+negative results and errors are written down like the others.
+
+\paragraph{Pace} Long experiments ran in detached queues while the conversation went on, and each result led to the
+next question. The voynichizer (Section~10.3) was developed in a separate conversation on the same repository.
+
+\paragraph{Computational effort} The research conversation processed about 2.8 billion tokens. Almost all of them (about
+99\% where measured in detail) are the context of the conversation, read again at each step; the text and code actually
+written amount to a few million tokens.
