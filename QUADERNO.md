@@ -14752,3 +14752,19 @@ Preregistrato (`preregistrazioni/e3c37.md`). Misura dell'e3c34 sui generatori.
   zero, mentre il Voynich tiene +0,08 – +0,10 a 3 parole.
 - Il tratto che nessun generatore riproduce è dunque l'accordo che dura fino a 3 parole (e, per *qo*/*o*, quello a 2–3
   parole).
+
+## 4/10/2026 (mattina) — e3c38: nella trascrizione di Glen Claston le gallows hanno la stessa finestra di *k*/*t* in EVA
+
+Preregistrato (`preregistrazioni/e3c38.md`). Misura dell'e3c34 classe per classe sulle tre alternanze automatiche di GC.
+
+| classe (GC) | parole | K(1) (IC 95%) | K(2) | K(3) | R0 (IC 95%) |
+|---|---|---|---|---|---|
+| *h*/*k* (gallows) | 8.708 | **+0,104** (+0,055 – +0,152) | +0,074 | +0,088 | **0,85** (0,33 – 1,73) |
+| *a*/*o* | 10.890 | +0,049 (+0,015 – +0,083) | −0,006 | −0,016 | — |
+| *7*/*8* | 5.551 | +0,065 (−0,004 – +0,132) | +0,056 | −0,012 | — |
+| *k*/*t* in EVA (e3c35, ZL / IT) | | +0,125 / +0,129 | +0,079 / +0,078 | +0,070 / +0,074 | 0,56 / 0,57 |
+
+- **Esito preregistrato: le gallows di GC hanno la finestra come *k*/*t* in EVA.** Con un altro trascrittore e un altro
+  alfabeto, la scelta fra le gallows si accorda fra parole vicine e l'accordo resta a 2 e 3 parole.
+- *a*/*o* si comporta come in EVA (accordo solo fra parole accanto, poi niente): la differenza fra le classi non dipende
+  dalla trascrizione.

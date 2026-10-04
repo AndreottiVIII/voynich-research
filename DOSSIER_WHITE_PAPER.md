@@ -1428,7 +1428,9 @@ parole sì (+0,06 / +0,12); *a*/*o* quasi niente. Con la serie automatica (domin
 insieme, in B R0 = 0,60 (ZL) e 0,65 (IT), estremi bassi 0,38 – 0,43; in A (tre volte meno parole) IT 0,84, ZL 0,43, con
 intervalli larghissimi. **Generatori con la misura pulita (e3c37):** nessuno ha la finestra; U3 (+0,053) e Timm e
 Schinner (+0,047) hanno un piccolo accordo fra parole accanto, metà del Voynich, ma a 2–3 parole quasi zero (Voynich +0,08
-– +0,10 a 3 parole). Il tratto che nessun generatore riproduce è l'accordo che dura fino a 3 parole.
+– +0,10 a 3 parole). Il tratto che nessun generatore riproduce è l'accordo che dura fino a 3 parole. **Terza trascrizione
+(e3c38):** in GC (v101) le gallows *h*/*k* hanno K +0,104 / +0,074 / +0,088 a 1, 2, 3 parole (R0 0,85), come *k*/*t* in EVA;
+*a*/*o* cala subito come in EVA.
 
 **Lezioni di metodo da riportare** (utili anche a chi legge): (1) confrontare con la media della pagina ai bordi della
 riga inganna, perché fine e inizio riga hanno forme proprie; (2) togliere le coppie "simili" guardando la parola intera
