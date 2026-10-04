@@ -12767,3 +12767,37 @@ senza coppie simili (sulle parole coperte); K normalizzato contro il nullo che t
   possono rimescolare) e le coppie a cavallo nelle pagine T sono poche (326): un effetto piccolo potrebbe sfuggire.
 - Nella stessa riga la memoria delle scelte oltre le parole c'è sia nelle pagine T (+0,052) sia nelle altre (+0,061,
   z 11,4): conferma l'e3b54 con l'esclusione corretta.
+
+## 4/10/2026 (notte) — e3b56: con l'esclusione corretta, memoria oltre le parole nel Voynich (ZL e Takahashi) e nello scriba anglosassone
+
+Preregistrato (`preregistrazioni/e3b56.md`). Come l'e3b54, ma le coppie simili si tolgono confrontando le parole con la
+variante coperta (nota di metodo dell'e3b55). Codice provato su pagine finte senza memoria con 6 semi: valori p
+0,10–0,93 (nessuna distorsione); con memoria p < 0,005.
+
+| gruppo, classe | coppie vicine | M osservata | M nullo | effetto | z | p |
+|---|---|---|---|---|---|---|
+| Voynich ZL, *qo*/*o* | 3.219 | +0,099 | +0,014 | +0,085 | +3,1 | 0,002 |
+| Voynich ZL, *k*/*t* | 7.699 | +0,098 | +0,058 | +0,040 | +2,5 | 0,004 |
+| Voynich ZL, *sh*/*ch* | 6.771 | +0,107 | +0,077 | +0,030 | +1,8 | 0,038 |
+| Voynich ZL, -*ey*/-*dy* | 4.260 | +0,145 | +0,053 | +0,092 | +4,5 | < 0,001 |
+| **Voynich ZL, insieme** | 21.949 | +0,110 | +0,056 | **+0,054** | +6,0 | < 0,001 |
+| Voynich IT, *qo*/*o* | 3.307 | +0,098 | +0,010 | +0,088 | +3,0 | 0,001 |
+| Voynich IT, *k*/*t* | 7.784 | +0,091 | +0,046 | +0,045 | +2,8 | 0,001 |
+| Voynich IT, *sh*/*ch* | 6.833 | +0,078 | +0,068 | +0,010 | +0,6 | 0,28 |
+| Voynich IT, -*ey*/-*dy* | 4.328 | +0,156 | +0,071 | +0,085 | +4,2 | < 0,001 |
+| **Voynich IT, insieme** | 22.252 | +0,101 | +0,052 | **+0,049** | +5,2 | < 0,001 |
+| Hatton Gospels, i/y | 1.279 | −0,008 | −0,027 | +0,020 | +1,0 | 0,17 |
+| Hatton Gospels, þ/ð a inizio parola | 2.090 | +0,124 | +0,024 | **+0,100** | +2,4 | 0,004 |
+| Hatton Gospels, þ/ð dentro la parola | 939 | −0,329 | −0,335 | +0,006 | +0,4 | 0,35 |
+| Secreta Alberti, i/y | 513 | −0,052 | −0,050 | −0,002 | −0,1 | 0,51 |
+| NT fiammingo, i/y | 277 | +0,027 | −0,095 | +0,122 | +1,2 | 0,12 |
+| **naturali, insieme** | 5.098 | −0,015 | −0,055 | **+0,040** | +2,5 | 0,003 |
+
+- **Esiti preregistrati:** Voynich ZL e IT, **memoria oltre le preferenze delle parole**; varianti naturali, **memoria
+  anche negli scribi veri**. Gli esiti dell'e3b54 restano; i numeri giusti sono questi.
+- **Lettura (sostituisce i numeri dell'e3b54):** la memoria delle scelte oltre le parole nel Voynich è +0,05 (con tutte e
+  due le trascrizioni), più forte per *qo*/*o* e -*ey*/-*dy* (+0,09), debole per *sh*/*ch*. Lo scriba dei Hatton
+  Gospels, per þ/ð a inizio parola, ha +0,10: **della stessa grandezza** delle classi più forti del Voynich. Le varianti
+  i/y non mostrano memoria chiara (in tre testi, pochi dati). La memoria corta delle scelte grafiche è quindi
+  un'abitudine che uno scriba umano può avere; nel Voynich riguarda più scelte insieme (quattro classi su quattro con
+  ZL), ma con un solo scriba vero di confronto non si può dire se questo sia insolito.
