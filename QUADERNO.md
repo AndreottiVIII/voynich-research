@@ -12035,3 +12035,24 @@ Preregistrato (`preregistrazioni/e3b22.md`). Mezza vita in lettere della memoria
   a 29 lettere), la mano 1 che scrive in A una corta (5–9). Tre scribi diversi con la stessa memoria lunga in B fanno
   pensare a una proprietà della lingua B (o del tipo di testo) più che di un singolo scriba; ma siccome A ha una sola
   mano, non si può escludere che sia la mano 1 a essere diversa.
+
+## 4/10/2026 (notte) — e3b23: la durata della memoria cambia con la sezione (erbario corta, ricette e testo continuo lunga)
+
+Preregistrato (`preregistrazioni/e3b23.md`). Mezza vita in lettere della memoria delle scelte, per sezione × lingua (gruppi
+con almeno 300 coppie a 0 lettere).
+
+| gruppo | pagine | eccesso a 0 lettere | a 5–9 | a 15–19 | mezza vita |
+|---|---|---|---|---|---|
+| erbario A | 95 | +0,047 | +0,028 | −0,037 | 10–14 |
+| farmacia A | 16 | +0,107 | +0,032 | +0,049 | 5–9 |
+| biologia B | 19 | +0,059 | +0,048 | +0,033 | 10–14 |
+| erbario B | 32 | +0,047 | +0,019 | +0,043 | 1–4 |
+| ricette B | 23 | +0,072 | +0,054 | +0,027 | 15–19 |
+| solo testo B | 5 | +0,016 | +0,030 | +0,035 | 20–29 |
+
+- **Esito preregistrato: dipende dalla sezione.** L'erbario B ha una memoria corta come l'erbario A; le ricette e il
+  testo continuo di B l'hanno lunga. La differenza A/B dell'e3b21 sembra venire dal tipo di pagina più che dalla lingua.
+- **Cautela da verificare subito (e3b24):** nelle pagine d'erbario le righe sono spesso spezzate dai disegni, e la
+  memoria corta si azzera al salto del disegno (per la ripetizione, e3a97). Qui le coppie a cavallo di un salto sono
+  contate come "stessa riga": questo accorcia la memoria apparente proprio nelle pagine con disegni. Alcune mezze vite
+  poggiano anche su pochi dati (le stime per classe di lettere sono rumorose).
