@@ -12056,3 +12056,25 @@ con almeno 300 coppie a 0 lettere).
   memoria corta si azzera al salto del disegno (per la ripetizione, e3a97). Qui le coppie a cavallo di un salto sono
   contate come "stessa riga": questo accorcia la memoria apparente proprio nelle pagine con disegni. Alcune mezze vite
   poggiano anche su pochi dati (le stime per classe di lettere sono rumorose).
+
+## 4/10/2026 (notte) — e3b24: anche dentro i tratti scritti di seguito l'erbario ha memoria corta; non erano i disegni
+
+Preregistrato (`preregistrazioni/e3b24.md`). Come l'e3b23 ma solo coppie dentro lo stesso tratto (righe divise ai salti
+del disegno e alle parole illeggibili).
+
+| gruppo | coppie a 0 lettere | eccesso a 0 | a 5–9 | a 15–19 | mezza vita |
+|---|---|---|---|---|---|
+| erbario A | 847 | +0,046 | +0,024 | −0,069 | 10–14 |
+| farmacia A | 369 | +0,108 | +0,030 | +0,055 | 5–9 |
+| tutto A | 1.297 | +0,066 | +0,024 | −0,002 | 5–9 |
+| biologia B | 2.149 | +0,058 | +0,043 | +0,030 | 10–14 |
+| erbario B | 791 | +0,050 | +0,008 | +0,058 | 5–9 |
+| ricette B | 2.820 | +0,071 | +0,055 | +0,027 | 15–19 |
+| solo testo B | 475 | +0,016 | +0,029 | +0,035 | 20–29 |
+| tutto B | 6.358 | +0,059 | +0,042 | +0,030 | 20–29 |
+
+- **Esito preregistrato: la differenza fra sezioni resta.** Togliere le coppie a cavallo dei disegni non cambia il quadro:
+  la memoria è più lunga nelle sezioni a testo fitto di B (ricette, biologica, solo testo) che nell'erbario, sia A sia B.
+- **Cautela:** le stime per sezione poggiano su pochi dati e i profili non sono regolari (l'erbario B ha +0,008 a 5–9 e
+  +0,058 a 15–19). Il fatto solido è che in B nel complesso la memoria dura di più (e3b21); quanto dipenda dalla lingua e
+  quanto dal tipo di pagina non si separa bene con questi dati. Chiudo qui questo filone.
