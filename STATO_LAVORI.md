@@ -139,6 +139,7 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     La stessa parola ha la stessa grafia nella stessa sessione (paragrafo) più che fra pagine (e3b86), ma anche in U2,
     U3, Timm e Schinner e nel Marianus: non distingue (e3b87).
     Raccordo qo/o: assente in tutti i generatori (e3b88), debole nello scriba anglosassone (e3b58).
+    All'a capo, senza la prima parola della riga nuova, passa il 60–70% della memoria (e3b89).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);

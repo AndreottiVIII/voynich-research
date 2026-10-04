@@ -240,7 +240,8 @@ scritto nella seconda parte. Le dico subito.
    **In numeri semplici:** dopo una parola con *qo*-, la parola della stessa classe 2–3 parole dopo ha *qo*- nel 55% dei
    casi, contro il 37% dopo una parola con *o*-; a 6–10 parole 44% contro 36%. La memoria aggiunge circa 10 punti
    percentuali (e3b82).
-2. **Correzione: all'a capo la memoria non si azzera.** Passa per circa metà (e3b66, con tutte e due le trascrizioni), e
+2. **Correzione: all'a capo la memoria non si azzera.** Passa per circa metà (e3b66, con tutte e due le trascrizioni;
+   togliendo la prima parola della riga, che ha forme sue, passa il 60–70%, e3b89), e
    oltre il salto di un disegno passa per intero (e3b67). Anche la ripetizione di parole passa l'a capo, per circa un
    quarto (e3b68). Alla fine del paragrafo invece la stima è circa zero (non dimostrato, e3b73). Quello che riparte a
    ogni interruzione è la **catena di segni**: il raccordo *qo*/*o* e la giuntura fra

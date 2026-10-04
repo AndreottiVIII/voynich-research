@@ -13517,3 +13517,21 @@ Voynich ZL (e3b58): 0,058; scriba anglosassone (þ/ð): 0,007.
 - **Lettura:** il raccordo *qo*/*o* è un tratto che separa il Voynich da tutti i generatori pubblicati (circa zero) e
   dall'unico scriba vero misurabile (otto volte più debole). (I valori p di questo metodo possono essere un po' ottimisti,
   e3b69, ma qui gli effetti dei generatori sono comunque circa zero.)
+
+## 4/10/2026 (notte) — e3b89: senza la prima parola della riga nuova passa più memoria all'a capo, ma non tutta
+
+Preregistrato (`preregistrazioni/e3b89.md`). Come l'e3b66, con e senza le coppie in cui la seconda parola è la prima
+della riga nuova. Codice provato su pagine finte (memoria che passa per intero con prima parola imposta: +0,060 con
+tutte le coppie, +0,088 senza la prima parola).
+
+| trascrizione | coppie | D (IC 95%) | coppie di continuazione | D / K dentro i tratti |
+|---|---|---|---|---|
+| ZL | tutte | +0,039 (+0,004 – +0,076) | 7.879 | 0,44 |
+| ZL | senza la prima parola | +0,052 (+0,009 – +0,095) | 5.020 | 0,59 |
+| IT | tutte | +0,041 (+0,005 – +0,076) | 8.103 | 0,50 |
+| IT | senza la prima parola | +0,059 (+0,013 – +0,106) | 5.136 | 0,72 |
+
+- **Esito preregistrato: calo vero all'a capo** (ZL 0,59, appena sotto la soglia di 0,6).
+- **Lettura:** la prima parola della riga, con le sue forme di bordo, spiega una parte del "dimezzamento": senza di lei
+  passa il 60–70% della memoria (ZL 59%, IT 72%). Il resto è un calo vero ma modesto. In sintesi: all'a capo la memoria
+  delle scelte si attenua (passa per più di metà), non si azzera.

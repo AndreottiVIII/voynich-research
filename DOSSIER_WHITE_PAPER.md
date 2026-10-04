@@ -1266,7 +1266,7 @@ accoppiata con l'inizio del tratto che lo continua, contro l'inizio di tratti vi
 | Nessun generatore pubblicato la ha | **solida** | Naibbe +0,011, U2 +0,013, U3 +0,003, Timm e Schinner +0,024, tutti con IC che contiene 0 (e3b70) |
 | Uno scriba medievale vero la ha | **non stabilito** | scriba anglosassone, þ/ð a inizio parola +0,102 (IC −0,003 – +0,206); i/y nulla in tre testi (e3b70); Codex Marianus non informativo: l'effetto negativo (e3b75, −0,090) è tutto nella congiunzione di un segno (−0,260, probabilmente una convenzione di posizione nella frase), per le altre parole IC −0,203 – +0,151 (e3b76); per l'anglosassone, separando le 10 parole grammaticali più frequenti la stima non regge (+0,025, IC −0,112 – +0,151; e3b78) |
 | Si consuma con le lettere scritte (a parità di parole) | **solida** | ZL +0,066 (IC +0,029 – +0,100), IT +0,066 (+0,035 – +0,098) (e3b80) |
-| La memoria si azzera all'a capo | **sbagliata** | passa per circa metà: D +0,039 ZL (IC +0,001 – +0,075), +0,041 IT (e3b66); l'"azzeramento" veniva dalle forme di bordo |
+| La memoria si azzera all'a capo | **sbagliata** | passa per circa metà: D +0,039 ZL (IC +0,001 – +0,075), +0,041 IT (e3b66); senza la prima parola della riga nuova (forme di bordo) passa il 60–70% (e3b89); l'"azzeramento" veniva dalle forme di bordo |
 | La memoria si azzera al salto del disegno | **sbagliata** | passa per intero: D +0,068 ZL, +0,077 IT, IC sopra 0 (e3b67) |
 | La memoria passa la fine del paragrafo | non dimostrato | stima circa 0 (ZL −0,015, IT −0,018), IC fino a +0,05 (e3b73) |
 | La ripetizione di parole si azzera all'a capo | **sbagliata** | passa per circa un quarto (e3b68) |
