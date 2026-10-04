@@ -11593,3 +11593,23 @@ a parità dei 4 segni attorno al punto facoltativo.
   nel Voynich −0,86 potrebbe essere solo la spinta. Non avevo previsto una taratura con un nullo simulato. Quindi: nel
   Voynich **non c'è** la preferenza lessicale delle lingue (che è di +4/+7); se ce ne sia una piccola, o una contraria,
   lo dirà la taratura (e3b01).
+
+## 4/10/2026 (notte) — e3b01: tarata, la differenza lessicale del Voynich resta negativa (z −12,8), ma il nullo non tiene conto di quanto spazia ogni pagina
+
+Preregistrato (`preregistrazioni/e3b01.md`). Nullo: scelte di spazio rimescolate fra i punti facoltativi con gli stessi
+4 segni attorno (spazio deciso solo dai segni vicini), parole e frequenze rifatte; 100 rimescolamenti. Codice provato
+prima sul latino (riproduce l'e3a99).
+
+| testo | differenza vera | nullo: media (sd) | z |
+|---|---|---|---|
+| latino, Vulgata | +5,906 | −0,161 (0,110) | +55,2 |
+| Voynich (ZL) | **−0,861** | −0,010 (0,067) | **−12,8** |
+
+- La spinta del metodo verso il negativo esiste ma è piccola (−0,16 nel latino, −0,01 nel Voynich): il −0,86 del Voynich
+  non viene da lì.
+- **Esito preregistrato alla lettera: una preferenza contraria.**
+- **Ma il nullo ha un limite, che vedo solo ora:** rimescola le scelte fra pagine e mani diverse, e sappiamo che la
+  propensione a spaziare cambia da mano a mano (e3a66) e forse da pagina a pagina e da riga a riga. Nei tratti con pochi
+  spazi nascono parole lunghe e uniche: quando lì non c'è lo spazio, la parola unita è rara e Λ viene alto; quando c'è,
+  i pezzi sono comuni. Questo da solo può dare una differenza negativa senza nessuna "preferenza contraria" dello
+  scriba. Va rifatto con il nullo dentro la stessa pagina (e3b02).
