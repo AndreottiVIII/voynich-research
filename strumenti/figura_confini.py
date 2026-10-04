@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Figura di sintesi (nessun dato nuovo): che cosa passa i confini della scrittura (salto del disegno, a capo).
-Memoria delle scelte (e3b66, e3b67), ripetizione di parole (e3b68), raccordo qo/o (e3b45). Scrive
+Memoria delle scelte (e3b66, e3b67, e3b89, e3b90), ripetizione di parole (e3b68), raccordo qo/o (e3b45). Scrive
 risultati/figure/confini.png.
 """
 import json, os
@@ -36,11 +36,15 @@ def main():
     s = carica('e3b67_salto_potenza.json')['trascrizioni']
     r = carica('e3b68_ripetizione_confini.json')['confini']
     q = carica('e3b45_raccordo_a_capo.json')['gruppi']
-    fig, axs = plt.subplots(1, 3, figsize=(12, 4.2))
+    pp = carica('e3b89_a_capo_prima_parola.json')['trascrizioni']['ZL']['senza la prima parola']
+    fp = carica('e3b90_paragrafo_prima_parola.json')['trascrizioni']['ZL']
+    fig, axs = plt.subplots(1, 3, figsize=(13.5, 4.4), gridspec_kw={'width_ratios': [1.6, 1.1, 0.8]})
     pannello(axs[0], 'Memoria delle scelte (ZL)', [
         ('nella riga', a['ZL']['K']['dentro']['K'], None, 'crimson'),
         ('oltre il salto\ndel disegno', s['ZL']['D'], s['ZL']['IC95'], '#e88'),
-        ("oltre l'a capo", a['ZL']['D'], a['ZL']['IC95'], '#e88')], 'accordo in più (normalizzato)')
+        ("oltre l'a capo", a['ZL']['D'], a['ZL']['IC95'], '#e88'),
+        ("a capo, senza\nprima parola", pp['D'], pp['IC95'], '#e88'),
+        ("fine paragrafo,\nsenza prima parola", fp['D'], fp['IC95'], '#e88')], 'accordo in più (normalizzato)')
     pannello(axs[1], 'Ripetizione di parole (ZL)', [
         ('nella riga', r["a capo, ZL"]['eccesso_dentro'], None, 'tab:blue'),
         ('oltre il salto\ndel disegno', r['salto, ZL']['D'], r['salto, ZL']['IC95'], '#8ac'),
