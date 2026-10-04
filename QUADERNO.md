@@ -13331,3 +13331,21 @@ Le quattro scelte (e3b70): +0,086 (IC +0,060 – +0,113).
 - **Esito preregistrato: il metodo è specifico.** Le due classi di controllo danno circa zero, come nell'e3b19; la
   memoria misurata riguarda le quattro scelte e non è un effetto generico del metodo. (Per il numero di *i*
   l'intervallo è largo: si può dire che non è forte come nelle quattro scelte.)
+
+## 4/10/2026 (notte) — e3b78: la stima di memoria dello scriba anglosassone non regge separando le parole grammaticali
+
+Preregistrato (`preregistrazioni/e3b78.md`). Metodo finale per þ/ð a inizio parola nei Hatton Gospels, separando le 10
+parole più frequenti (*þa*, *þe*, *þæt*, *þam*, *þu*, *þt*, *þanne*, *þas*, *þare*, *þing*: 80% delle occorrenze) dalle altre.
+
+| gruppo | occorrenze | quota þ | coppie vicine | M | M nullo | effetto (IC 95%) |
+|---|---|---|---|---|---|---|
+| 10 parole più frequenti | 8.590 | 0,894 | 955 | +0,062 | +0,037 | +0,025 (−0,112 – +0,151) |
+| altre parole | 2.213 | 0,975 | 76 | −0,741 | +0,382 | (non utilizzabile: 76 coppie, quasi solo þ) |
+
+- **Esito preregistrato: non dimostrata.** Separando i due gruppi la stima di +0,10 (e3b70) non si ritrova: nelle parole
+  grammaticali +0,025 con un intervallo larghissimo; nelle altre parole la scelta è quasi sempre þ (97,5%) e le coppie
+  sono troppo poche perché la misura normalizzata abbia senso. La stima complessiva veniva in parte dalle coppie fra
+  una parola grammaticale e una no.
+- **Lettura:** con i due scribi veri del corpus (Hatton Gospels, Codex Marianus) non si può dire né che uno scriba
+  medievale abbia una memoria corta delle scelte come il Voynich, né che non la abbia. La domanda resta aperta e
+  richiede altri manoscritti con varianti più equilibrate.
