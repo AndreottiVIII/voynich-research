@@ -12408,3 +12408,25 @@ descrittivo): f1r +0,135 (21), f66r −0,009 (53), f76r +0,064 (99), f85r1 +0,11
   scritta. Con l'e3b40 (forme di bordo presenti) e l'e3b41 (le ricette azzerano): nelle pagine di solo testo chi scrive
   va a capo senza "ripartire". Un'ipotesi da tenere aperta: nelle pagine normali ogni riga è un'unità di lavoro a sé
   (per esempio composta guardando qualcosa all'inizio di ogni riga), nelle pagine di solo testo no.
+
+## 4/10/2026 (notte) — e3b43: anche nelle pagine "solo testo" c'è la copia dalla riga sopra
+
+Preregistrato (`preregistrazioni/e3b43.md`). ZL; codice provato su paragrafi finti (senza copia rapporto 1,01, con copia
+al 20% rapporto 2,6).
+
+| pagine | paragrafi | parole contate | simili nella riga sopra | attese (altre righe) | rapporto (IC 95%) |
+|---|---|---|---|---|---|
+| solo testo | 30 | dalla quarta parola | 535 | 450,2 | **1,19** (1,07 – 1,31) |
+| solo testo | 30 | tutte (descrittivo) | 768 | 637,3 | 1,21 (1,11 – 1,29) |
+| altre | 637 | dalla quarta parola | 6.007 | 5.179,8 | 1,16 (1,13 – 1,19) |
+| altre | 637 | tutte (descrittivo) | 9.211 | 7.805,7 | 1,18 (1,15 – 1,21) |
+
+(Nella tabella del file `.md` la terza colonna si chiama "parole contate" ma contiene quali parole si contano, non
+quante: è solo un'etichetta sbagliata.)
+
+- **Esito preregistrato: copia anche nelle pagine solo testo**, della stessa forza che altrove.
+- **Lettura:** nelle pagine di solo testo ci sono tutte le abitudini "verticali" e di bordo (copia dalla riga sopra,
+  forme di bordo, evitamento dell'inizio uguale: e3b40, e3b43); l'unica differenza trovata è che la memoria corta e la
+  giuntura non si azzerano all'a capo (e3b38, e3b39, e3b41, e3b42). L'ipotesi "copiate di seguito da un modello che
+  andava a capo altrove" diventa meno probabile: chi scrive guarda comunque la riga sopra. Resta da escludere che conti
+  la lunghezza dei paragrafi (e3b44).
