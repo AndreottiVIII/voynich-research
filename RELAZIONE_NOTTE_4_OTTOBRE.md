@@ -178,3 +178,20 @@ dice che le sue regolarità stanno in queste due parti.
 - **e3a70 riletto con e3a76:** l'eccesso del Voynich dipendeva in parte dal misurare con un modello di ordine 1.
 - **e3a73 abbandonato prima di preregistrarlo:** il cifrario Naibbe, controllo positivo, non ha legami fra parole
   vicine. Quindi la debolezza di quei legami nel Voynich non è un argomento contro un cifrario verboso di quel tipo.
+
+## Aggiornamento (verso le 2:30): come riprende lo scriba
+
+- **La deriva di -*ey* lungo la pagina non viene dalla copia** (e3a82): copiando, -*dy*→-*ey* e il contrario sono alla pari.
+- **La copia dalla riga sopra prende un poco di più dalla fine della riga** (e3a83, replicato con Takahashi in e3a84).
+- **Nella stessa riga le ripetizioni sono il doppio di quelle che la catena di segni produce** (e3a86).
+- **Questa ripetizione nella riga è "di memoria corta"** (e3a87, e3a88, e3a89, e3a90): è forte entro 1–4 parole e si
+  spegne dopo 6–7. Nelle lingue è il contrario (non si ripete subito una parola, la si ripete più avanti nel discorso), e
+  nessun generatore né il gibberish scritto a mano ha questa firma. È un altro tratto proprio del Voynich.
+- Si aggiunge alla sintesi: catena di segni per riga + quattro meccanismi verticali + una ripresa a memoria corta dentro
+  la riga.
+
+Correzioni di questa parte:
+- e3a85 corregge una frase di e3a76: misurata direttamente, la "memoria di due segni" del Voynich è come quella di
+  Naibbe e di Timm e Schinner (e meno di tutte le lingue).
+- e3a87 → e3a89: che "la riga sopra conti di più a parità di distanza" succede anche nelle lingue; non è distintivo.
+- e3a90: una regola preregistrata classificava male Naibbe (rapporto fra due numeri quasi zero); dichiarato.
