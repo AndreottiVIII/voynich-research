@@ -579,3 +579,25 @@ Nel QUADERNO (ultima voce). Stime a 12 chiavi (da usare al posto dei numeri del 
 - **Per riprendere:** leggere questa sezione, la voce "Bilancio" delle 01:10 e `voynichizzatore/PUBBLICAZIONE.md`.
   Regola pratica imparata stanotte: vicino a una soglia servono 12 chiavi, non 3
   (`VERSIONE=vNN CHIAVI=1,...,12 CASI=a PROCESSI=9 python esegui.py e409`).
+
+## 4/10/2026, 06:25 — ripresa: Davide rimanda le decisioni e chiede di migliorare la v12
+
+
+
+Alle 6:00 Davide ha risposto a quattro domande (pubblicazione con la v12, codice più statistiche, cifratura robusta), poi ha cambiato idea: **continuare a migliorare la v12 fino al mattino dopo; le decisioni si prendono allora.** Annotato in `PUBBLICAZIONE.md` che il sito della trascrizione dichiara la licenza CC0 per le trascrizioni (letto da un riassunto automatico: da ricontrollare a mano).
+
+
+
+Diagnosi della v12 su 12 chiavi (gruppi dell'e266: G8 0,67, G3 0,65, G4 0,58, G7 0,57). Caratteristiche pesanti con causa leggibile nel sacco: *y*+*o* dentro le parole (unioni non controllate alla giuntura), quota fra le 100 più frequenti (0,440 contro 0,424), JSD pagina-manoscritto (0,045 contro 0,040). **e413 lanciato** (coda `vz-ritocchi`): S1 unioni ben formate; S2 anche κ regolata sul sacco completo ed esponente γ sulla frequenza. Misura su 12 chiavi per strato. D'ora in poi ogni confronto si fa su 12 chiavi.
+
+## 4/10/2026, 06:35 — e413: v13 a 0,582 / 0,605 su 12 chiavi
+
+Nel QUADERNO (voce "vz: e413"). S1 (unioni ben formate) inutile: *y*+*o* non cala (88 nelle parole nuove contro 27 nel
+Voynich; il filtro è troppo largo). **S2 → v13: 0,582 ± 0,006 / 0,605 ± 0,006**, coppie viste altrove a posto (0,226),
+cancello 9 su 12, pagella 15,2. Costo: tipi su parole 0,771 (troppo vari).
+
+### Dove siamo (4/10, 06:35)
+
+- **v13 è la versione migliore per i giudici** (predefinita nello strumento); la v12 ha il cancello più spesso (11 su 12).
+- Prossimo (e414): giuntura delle unioni giudicata per probabilità (soglia sulla probabilità condizionata delle due
+  terne di giuntura), per togliere *y*+*o*; poi tipi su parole (0,771), prime righe (G8 0,65), inizio riga con *ch*.

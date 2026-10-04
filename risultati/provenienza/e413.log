@@ -1,0 +1,28 @@
+giro  0: kappa 0.708 gamma 1.000 | JSD 0.0442 (Voynich 0.0402) | fra le 100 0.4455 (Voynich 0.4244) | scarto 0.149
+giro  1: kappa 0.644 gamma 0.976 | JSD 0.0407 (Voynich 0.0402) | fra le 100 0.4222 (Voynich 0.4244) | scarto 0.016
+kappa 0.644, gamma 0.976: JSD 0.0407, fra le 100 0.4222, scarto 0.016
+S1 chiave 2: decodifica True | pagella 15 riga True | AUC e231 0.568 e266 0.606
+S1 chiave 4: decodifica True | pagella 15 riga True | AUC e231 0.569 e266 0.615
+S1 chiave 6: decodifica True | pagella 15 riga True | AUC e231 0.536 e266 0.576
+S1 chiave 1: decodifica True | pagella 15 riga True | AUC e231 0.568 e266 0.612
+S1 chiave 3: decodifica True | pagella 15 riga False | AUC e231 0.569 e266 0.614
+S1 chiave 8: decodifica True | pagella 15 riga True | AUC e231 0.566 e266 0.621
+S1 chiave 5: decodifica True | pagella 15 riga True | AUC e231 0.580 e266 0.615
+S1 chiave 7: decodifica True | pagella 15 riga True | AUC e231 0.595 e266 0.638
+S1 chiave 9: decodifica True | pagella 15 riga True | AUC e231 0.592 e266 0.641
+S1 chiave 10: decodifica True | pagella 15 riga False | AUC e231 0.580 e266 0.591
+S1 chiave 11: decodifica True | pagella 15 riga True | AUC e231 0.632 e266 0.650
+S2 chiave 1: decodifica True | pagella 15 riga True | AUC e231 0.567 e266 0.590
+S1 chiave 12: decodifica True | pagella 15 riga True | AUC e231 0.580 e266 0.620
+S2 chiave 2: decodifica True | pagella 16 riga True | AUC e231 0.579 e266 0.596
+S2 chiave 3: decodifica True | pagella 15 riga False | AUC e231 0.573 e266 0.583
+S2 chiave 4: decodifica True | pagella 15 riga True | AUC e231 0.605 e266 0.631
+S2 chiave 5: decodifica True | pagella 15 riga True | AUC e231 0.558 e266 0.598
+S2 chiave 6: decodifica True | pagella 15 riga True | AUC e231 0.587 e266 0.625
+S2 chiave 7: decodifica True | pagella 15 riga True | AUC e231 0.601 e266 0.619
+S2 chiave 8: decodifica True | pagella 15 riga True | AUC e231 0.564 e266 0.593
+S2 chiave 9: decodifica True | pagella 15 riga True | AUC e231 0.593 e266 0.613
+S2 chiave 10: decodifica True | pagella 15 riga False | AUC e231 0.550 e266 0.567
+S2 chiave 11: decodifica True | pagella 15 riga True | AUC e231 0.612 e266 0.624
+S2 chiave 12: decodifica True | pagella 16 riga False | AUC e231 0.593 e266 0.616
+{"S1": [0.578, 0.617, 15, 10], "S2": [0.582, 0.605, 15.166666666666666, 9]}

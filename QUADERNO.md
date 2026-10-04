@@ -13916,3 +13916,29 @@ trascrizione di Glen Claston (un altro trascrittore, alfabeto v101, un carattere
   (+0,033), con intervallo che tocca 0: con queste classi resta al limite, come nell'e3c03.
 - La memoria delle scelte del Voynich ora regge su tre trascrizioni (ZL, Takahashi, Glen Claston), due alfabeti e due
   modi di scegliere le classi (a mano, automatico).
+
+## 4/10/2026 — vz: e413, ritocchi al sacco della v12: il giudice forte a 0,605 su 12 chiavi (v13); le unioni non erano la causa di *y*+*o*
+
+Chat del voynichizzatore. Preregistrato (`preregistrazioni/e413.md`). Isidoro XVII nascosto nel sacco, 12 chiavi per
+strato; riferimento la v12 sulle stesse chiavi. Risultati in `risultati/e413_ritocchi_sacco.md`. Medie ± errore standard.
+
+| | AUC e231 | AUC e266 (min – max) | pagella | materie aggiunte | cancello | G3 | fra le 100 (0,424) | JSD (0,0402) | coppie viste altrove (0,221) |
+|---|---|---|---|---|---|---|---|---|---|
+| v12 | 0,576 ± 0,007 | 0,619 ± 0,009 (0,585 – 0,669) | 15,0 | 5,2 | 11/12 | 0,65 | 0,440 | 0,0453 | 0,240 |
+| S1, unioni ben formate | 0,578 ± 0,007 | 0,617 ± 0,006 (0,576 – 0,650) | 15,0 | 5,4 | 10/12 | 0,65 | 0,438 | 0,0445 | 0,240 |
+| S2, + κ sul sacco completo (0,644) e γ sulla frequenza (0,976) | 0,582 ± 0,006 | **0,605 ± 0,006** (0,567 – 0,631) | 15,2 | 5,8 | 9/12 | 0,63 | 0,425 | 0,0402 | **0,226** |
+
+- **S1 non fa quello che doveva:** la coppia *y*+*o* resta a 0,0010 (Voynich 0,0004). Previsione sbagliata sulla causa.
+  Conteggio fatto dopo, su un manoscritto della v13: *y*+*o* compare 12 volte nelle parole note (Voynich 11) e **88 volte
+  nelle parole nuove** (27 nelle parole uniche del Voynich). Il filtro "ogni terna vista almeno una volta" è troppo
+  largo: basta una sola parola unica con quella giuntura per far passare tutte le unioni simili (una parola su due
+  finisce in *y*, una su cinque comincia per *o*).
+- **S2 fa quello che doveva:** quota fra le 100 più frequenti 0,425 (0,424) e JSD pagina-manoscritto 0,0402 (0,0402)
+  tornano; **le coppie viste altrove scendono a 0,226 e la materia è presa con tutte le 12 chiavi** (era la lacuna
+  dichiarata nell'e412: bastava togliere l'eccesso di parole frequenti); materie aggiunte da 5,2 a 5,8.
+  Il giudice forte scende di 0,014 (soglia preregistrata 0,015: mancata di un soffio, ma vale la seconda condizione:
+  le caratteristiche tornano e nessun giudice peggiora di oltre 0,01). Capacità 82.300 bit. Decodifica esatta 24 su 24.
+- **Costi di S2:** il cancello della riga con 9 chiavi su 12 (previsto almeno 10: non rispettato); "tipi su parole"
+  sale a 0,771 (Voynich 0,756): con meno peso alle parole frequenti le pagine sono un po' troppo varie.
+- **Esito secondo la preregistrazione:** S2 conta e diventa la **v13** (`pezzi_parametri_v13.json`): 0,582 / 0,605,
+  pagella 15,2, cancello 9 su 12. Il giudice forte è ora entro un errore standard da 0,60.

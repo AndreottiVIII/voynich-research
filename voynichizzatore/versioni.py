@@ -28,6 +28,7 @@ V9 = OrderedDict([('impianto', 'pezzi'), ('parametri', 'v9')])     # e407 (U3): 
 V10 = OrderedDict([('impianto', 'pezzi'), ('parametri', 'v10')])   # e408 (R1): peso proprio del legame fra finali; canale nel sacco (e409)
 V11 = OrderedDict([('impianto', 'pezzi'), ('parametri', 'v11')])   # e410 (G2): cancello della riga (prima lettera, distanza 2, cinque scelte)
 V12 = OrderedDict([('impianto', 'pezzi'), ('parametri', 'v12')])   # e412 (M2): coppia esatta un po' evitata, differenza fra le due meta' della pagina
+V13 = OrderedDict([('impianto', 'pezzi'), ('parametri', 'v13')])   # e413 (S2): kappa sul sacco completo, esponente sulla frequenza, unioni ben formate
 VERSIONI = OrderedDict([
     ('v2', OrderedDict([('corpo', E288), ('modello', 'v1')])),
     ('v3', OrderedDict([('corpo', E288), ('modello', 'v3')])),
@@ -40,6 +41,7 @@ VERSIONI = OrderedDict([
     ('v10', OrderedDict([('corpo', V10), ('modello', None), ('canale', 'sacco')])),
     ('v11', OrderedDict([('corpo', V11), ('modello', None), ('canale', 'sacco')])),
     ('v12', OrderedDict([('corpo', V12), ('modello', None), ('canale', 'sacco')])),
+    ('v13', OrderedDict([('corpo', V13), ('modello', None), ('canale', 'sacco')])),
 ])
 
 
