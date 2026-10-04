@@ -1,0 +1,19 @@
+{
+ "grezzo": {
+  "sopra": {
+   "coppie": 567,
+   "accordo": 0.763668430335097
+  },
+  "lontana": {
+   "coppie": 4865,
+   "accordo": 0.7360739979445016
+  }
+ },
+ "differenza_pesata": 0.04880212467509629,
+ "peso_totale": 477.93913816333577,
+ "IC95": [
+  0.008824892784777662,
+  0.08921031629587489
+ ],
+ "esito": "lo scriba ricopia anche gli spazi"
+}

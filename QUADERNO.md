@@ -11099,3 +11099,21 @@ stesse lunghezze).
   questo test non li separa. Il paragrafo, come confine, non c'entra.
 - Quadro aggiornato del legame fra parole intere vicine (oltre la giuntura): piccolo (un quarto delle lingue con lo
   stesso nullo), non dalla copia (e3a63), non dal paragrafo (e3a72); in parte forse lessico delle righe vicine.
+
+## 4/10/2026 (notte) — e3a74: ripetendo un pezzo della riga sopra, lo scriba ricopia un poco anche gli spazi facoltativi
+
+Preregistrato (`preregistrazioni/e3a74.md`). Codice provato prima su righe inventate (con copia degli spazi lo trova,
+senza no). Punti facoltativi con lo stesso tratto di 4 segni attorno nella riga sopra (stesso paragrafo) o in una riga
+lontana della pagina (distanza 3 o più).
+
+| confronto | coppie | stessa scelta di spazio |
+|---|---|---|
+| riga sopra | 567 | 0,764 |
+| riga lontana | 4.865 | 0,736 |
+
+- Dentro gli strati del tratto: differenza **+0,049**, IC 95% +0,009 – +0,089.
+- **Esito preregistrato: lo scriba ricopia anche gli spazi**, ma di poco. Già con una riga lontana lo stesso tratto ha
+  la stessa scelta tre volte su quattro (i quattro segni attorno decidono molto); quando il tratto viene dalla riga
+  subito sopra, l'accordo sale di circa 5 punti.
+- **Lettura:** la copia dalla riga sopra non è solo di segni da ritagliare di nuovo: almeno in parte lo scriba ripete le
+  parole come le vede scritte, spazi compresi. Effetto piccolo e intervallo vicino a zero; da prendere come indizio.
