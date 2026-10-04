@@ -14635,3 +14635,30 @@ Preregistrato (`preregistrazioni/e3c32.md`). K fra parole a distanza 1, 2, 3 nel
   con distanze più lunghe dentro le stesse righe (e3c33).
 - Nota di metodo: lo scarto di pagina toglie circa 0,06 a tutte le distanze: una parte dell'accordo misurato finora era
   preferenza della pagina.
+
+## 4/10/2026 (mattina) — e3c33: non è una preferenza della riga; l'accordo è uguale fino a 3 parole e poi crolla
+
+Preregistrato (`preregistrazioni/e3c33.md`). Righe di almeno 11 parole senza bordi; atteso = stessa parola + pagina +
+deriva; K(d) per d = 1…8. Codice provato su testi finti (preferenza di riga P 0,94; memoria che si consuma P 0,12).
+
+| testo | profilo K(d), d = 1…8 | P = K(6–8)/K(1) |
+|---|---|---|
+| Voynich ZL | +0,106 +0,089 +0,091 +0,043 +0,016 +0,025 +0,058 −0,080 | 0,13 (−0,28 – 0,47) |
+| Voynich IT | +0,120 +0,076 +0,105 +0,014 +0,011 +0,038 +0,073 −0,037 | 0,29 (−0,02 – 0,57) |
+| francese Martin (generica) | +0,147 +0,030 +0,016 +0,001 … | −0,02 |
+| greco NT (generica) | +0,194 +0,053 +0,010 −0,009 … | 0,06 |
+| latino, Plinio (generica) | +0,095 +0,065 +0,034 +0,031 … | 0,10 |
+| italiano Diodati (-*o*/-*a*) | +0,308 +0,090 +0,026 +0,030 … | 0,01 |
+| latino Vulgata (-*us*/-*a*) | +0,351 +0,170 +0,023 −0,008 … | −0,25 |
+| Volapük (generica) | +0,085 +0,124 +0,062 +0,058 … | 0,31 |
+
+- **Esito preregistrato: ZL "memoria che si consuma", IT "intermedio".** Non è una preferenza di tutta la riga: oltre 4
+  parole l'accordo è circa zero.
+- **Descrizione (non prevista, da verificare su dati nuovi):** nel Voynich l'accordo è **circa uguale a 1, 2 e 3
+  parole** e poi crolla da 4 in su; nelle lingue cala già fra 1 e 2 parole (a 2 parole ne resta un terzo o meno, a 3 quasi
+  niente), con l'eccezione del Volapük (lingua artificiale), che ha un profilo simile al Voynich. Il Voynich somiglia a una
+  "finestra" di circa tre parole dentro cui le scelte si accordano. Il rapporto K(3)/K(1) con questo atteso (senza bisogno
+  delle coppie lontane, e quindi senza il problema delle righe lunghe) è 0,86 (ZL) e 0,88 (IT); nelle lingue con accordo
+  chiaro da 0,07 a 0,36 (Volapük 0,73).
+- Questa osservazione nasce guardando i dati delle righe di almeno 11 parole: la verifica va fatta su righe non usate qui
+  (5–10 parole), e3c34.
