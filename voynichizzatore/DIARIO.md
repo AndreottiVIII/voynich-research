@@ -893,3 +893,12 @@ come **PDF del libro**.
 - Online: v20. **v21 pronta nel repo privato; va pubblicata solo quando Davide dice sì** (poi avvisare la chat del
   sito, che aggiunge `docs/engine/v21`). Da aggiornare alla pubblicazione: `VERSIONE` in
   `strumenti/costruisci_pubblico.py`, numeri del README (0,55 / 0,60, pagella 16), capienza "about 80,000–85,000 bits".
+
+## 4/10/2026, 18:00 — v21 PUBBLICATA (Davide: "sì, pubblica la v21 e dì al sito di usare quella")
+
+- Pacchetto pubblico ricostruito con `VERSIONE = v21`; README: giudici 0,55 / 0,60 su 24 chiavi, pagella 16, capienza 80.000-85.000 bit, nota sul difetto corretto e sulla lettura dei manoscritti v17 e v20 (verificata sul pacchetto: letti esatti).
+- Avvisata la chat del sito.
+
+### Dove siamo (4/10, 18:00)
+
+- Online: **v21** + comando `pdf` + carattere 1.1. In sospeso: prova su un altro computer, giudice indipendente, righe oltre 1,25 volte (11,6% contro 6,0%), costo di scrypt.
