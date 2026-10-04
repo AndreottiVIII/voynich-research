@@ -278,6 +278,8 @@ La misura della memoria è cambiata più volte, ogni volta perché una prova su 
 - **e3b37:** memoria corta anche nei cerchi.
 - **e3b46–e3b47:** "la copia porta con sé gli spazi" (e3a74) non regge come meccanismo; nessuna deriva della spaziatura.
 - **e3b45:** il raccordo non passa l'a capo nemmeno nelle pagine normali (+0,04 contro +0,35 nella riga).
+- **e3b79:** la crescita di -*ey* scendendo nella pagina e l'apertura del paragrafo si ritrovano con Takahashi, con
+  intervalli per pagina: tutte e quattro le proprietà "verticali" che la catena non spiega sono replicate.
 
 ## Correzioni (tutte nel Quaderno)
 
