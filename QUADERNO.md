@@ -15084,3 +15084,38 @@ Preregistrato (`preregistrazioni/e3c52.md`). Misura dell'e3c48 (50 rimescolament
   parte dell'accordo osservato era distorsione (K nullo +0,025), come in GC (e3c51), dove però la correzione pesava di più.
 - *qo*/*o*: niente accanto (decide il raccordo), accordo **forte** a 3 parole (+0,138 in tutte e due): la forma più
   strana delle quattro, già vista nell'e3c35 e confermata corretta.
+
+## 4/10/2026 (mattina) — e3c53: nessuna lingua artificiale ha la finestra, nemmeno le piccole; il gibberish scritto a mano non è informativo con questa misura
+
+Preregistrato (`preregistrazioni/e3c53.md`, con una correzione prima dell'esecuzione: nel gibberish la mano è il testo,
+perché la sigla del file non indica lo scrivente). Misura dell'e3c48 (20 rimescolamenti); lingue in righe finte con le
+lunghezze del Voynich, unità di 25 righe; due definizioni di classe (generica: due finali più frequenti; automatica:
+e3c01).
+
+| testo | K corretto 1, generica (IC 95%) | K corretto 1, automatica (IC 95%) | K corretto 2–3 (le due) |
+|---|---|---|---|
+| Esperanto (NT, 156 mila parole) | +0,010 (−0,001 – +0,023) | −0,014 (−0,022 – −0,006) | ≈ 0 |
+| Interlingua (NT) | −0,001 (−0,036 – +0,034) | +0,000 (−0,029 – +0,030) | ≈ 0 – +0,025 |
+| Interlingua (tecnico) | −0,020 | +0,002 | ≈ 0 |
+| Klingon (Marco) | −0,010 | +0,000 | ≈ 0 |
+| LOLCat (Matteo) | −0,023 | +0,001 | ≈ 0 – +0,023 |
+| Lojban (*Alice*) | +0,018 (−0,004 – +0,041) | −0,025 | ≈ 0 |
+| Neo-Quenya (NT) | +0,006 | +0,004 | ≈ +0,005 |
+| Volapük (NT) | −0,003 | −0,001 | ≈ +0,004 |
+| gibberish a mano (38 testi) | +0,000 (−0,156 – +0,206) | +0,005 (−0,054 – +0,060) | ≈ 0 |
+
+- **Esito preregistrato lingue artificiali: nessuna lingua artificiale ha la finestra** (16 misure su 8 testi; nessun
+  accordo nemmeno fra parole accanto; i più alti, Lojban e Esperanto generica, +0,01 – +0,02 con intervalli che toccano
+  0). Toki Pona resta fuori (meno di 8.000 parole).
+- **Gibberish:** generica **non informativo** (come previsto dal criterio: intervallo −0,16 – +0,21); automatica
+  "nessun accordo chiaro" (−0,05 – +0,06, sotto il +0,13 del Voynich).
+- **Limite di metodo trovato qui (importante):** nella generica del gibberish K nullo è **identico** a K osservato
+  (+0,163 / +0,189 / +0,006). Il motivo: la correzione rimescola le scelte fra le occorrenze della stessa parola coperta
+  **dentro la stessa mano**; nel gibberish ogni testo è una mano e quasi ogni parola compare una volta sola, quindi il
+  rimescolamento non cambia niente e la misura corretta vale 0 per costruzione. In generale **la misura corretta usa solo
+  le parole coperte che si ripetono nella mano**. Per il Voynich e per le lingue lunghe va bene (molte ripetizioni);
+  per testi brevi con parole quasi tutte nuove non misura niente. Anche il risultato "automatica" del gibberish va letto
+  con questa cautela (poche ripetizioni utili).
+- **Lettura:** le lingue artificiali non producono la finestra (accordo fra parole vicine della riga in scelte che
+  cambiano la parola). Il gibberish scritto a mano resta da misurare in un altro modo (per esempio mettendo insieme tutti
+  gli scriventi come una sola mano, con lo scarto di ogni testo): è un controllo che per ora manca.
