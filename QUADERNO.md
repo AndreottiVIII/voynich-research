@@ -11633,3 +11633,33 @@ Preregistrato (`preregistrazioni/e3b02.md`). Scelte di spazio rimescolate dentro
 - **Ipotesi da provare subito (e3b03):** lo scriba taglia la catena per fare parole di lunghezza normale. I pezzi molto
   corti sono parole frequenti; se lo scriba evita di staccare pezzi troppo corti (e di lasciare parole troppo lunghe),
   la scelta sembra "contro il lessico" anche se guarda solo la lunghezza.
+
+## 4/10/2026 (notte) — e3b03: lo spazio facoltativo dipende dalla lunghezza dei pezzi, non dalla parola; la "preferenza contraria" era la lunghezza
+
+Preregistrato (`preregistrazioni/e3b03.md`). Codice provato prima sul latino (riproduce l'e3b01; a parità di lunghezza
+il latino dà +4,04). Strati: 4 segni attorno × lunghezza del pezzo a sinistra × a destra (1, 2, 3, 4, 5+).
+
+- Differenza lessicale del Voynich a parità di lunghezza: **+0,105** (era −0,861 senza la lunghezza).
+  - Nullo dentro gli strati: −0,090 (sd 0,073), z +2,7.
+  - Nullo dentro strati × pagina: +0,068 (sd 0,018), **z +2,0**.
+- **Esito preregistrato alla lettera: "a parità di lunghezza appare una preferenza lessicale"** (z +2,0, proprio sulla
+  soglia). La sua grandezza è minima: +0,04 sopra il nullo, contro +4,0 nel latino a parità di lunghezza. In pratica lo
+  scriba non sceglie lo spazio guardando la parola intera.
+
+Scarto della quota di spazi dalla media dello strato dei 4 segni, secondo la lunghezza del pezzo:
+
+| lunghezza | pezzo a sinistra | pezzo a destra |
+|---|---|---|
+| 1 segno | −0,050 | −0,096 |
+| 2 | −0,120 | −0,036 |
+| 3 | −0,019 | −0,063 |
+| 4 | +0,057 | +0,013 |
+| 5 o più | +0,106 | +0,077 |
+
+- **Lettura (chiude e3a99–e3b02):** nei punti facoltativi lo scriba mette lo spazio più spesso quando il pezzo già
+  scritto è lungo (5 o più segni) e quando anche il pezzo che resta lo sarebbe; evita di staccare pezzi di 1–3 segni.
+  Siccome i pezzi corti sono parole frequenti, questo sembrava una scelta "contro il lessico" (e3a99–e3b02). Tolta la
+  lunghezza, resta solo una preferenza lessicale piccolissima. **Lo spazio del Voynich si decide con i segni vicini e
+  con la lunghezza della parola in corso, non con l'identità della parola.** In una lingua è il contrario.
+- Correzione delle letture provvisorie dell'e3b01 e dell'e3b02 ("preferenza contraria"): era un effetto della
+  lunghezza.
