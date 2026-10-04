@@ -11613,3 +11613,23 @@ prima sul latino (riproduce l'e3a99).
   spazi nascono parole lunghe e uniche: quando lì non c'è lo spazio, la parola unita è rara e Λ viene alto; quando c'è,
   i pezzi sono comuni. Questo da solo può dare una differenza negativa senza nessuna "preferenza contraria" dello
   scriba. Va rifatto con il nullo dentro la stessa pagina (e3b02).
+
+## 4/10/2026 (notte) — e3b02: con il nullo dentro la pagina la "preferenza contraria" si riduce molto ma resta piccola
+
+Preregistrato (`preregistrazioni/e3b02.md`). Scelte di spazio rimescolate dentro (strato dei 4 segni × pagina) o
+(strato × mano).
+
+| testo e nullo | differenza vera | nullo: media (sd) | z |
+|---|---|---|---|
+| latino, dentro "pagine" di 25 righe | +5,906 | +4,601 (0,123) | +10,6 |
+| Voynich, dentro la pagina | −0,861 | **−0,601** (0,042) | −6,2 |
+| Voynich, dentro la mano | −0,861 | −0,132 (0,073) | −9,9 |
+
+- **Esito preregistrato: preferenza contraria** (z −6,2 anche dentro la pagina).
+- **Lettura:** circa il 70% del −0,86 lo spiega già il nullo dentro la pagina (−0,60): in parte la diversa propensione a
+  spaziare delle pagine, in parte il fatto che dentro una pagina molti punti non hanno un compagno con gli stessi 4 segni
+  e restano fermi (lo si vede anche nel latino, dove il nullo dentro la pagina sale a +4,6). Resta un piccolo scarto
+  contrario (−0,26, z −6,2).
+- **Ipotesi da provare subito (e3b03):** lo scriba taglia la catena per fare parole di lunghezza normale. I pezzi molto
+  corti sono parole frequenti; se lo scriba evita di staccare pezzi troppo corti (e di lasciare parole troppo lunghe),
+  la scelta sembra "contro il lessico" anche se guarda solo la lunghezza.
