@@ -4,10 +4,10 @@ Preregistrazione: `preregistrazioni/e3b64.md`. Nullo: le parti dopo il confine r
 
 | confine | coppie a cavallo | K osservato | K nullo | effetto | z | p | K dentro i tratti (coppie) |
 |---|---|---|---|---|---|---|---|
-| salto del disegno | 234 | +0.0971 | +0.0706 | +0.0265 | +0.3 | 0.372 | +0.0798 (529) |
-| a capo, pagine normali | 1222 | -0.0596 | -0.0665 | +0.0068 | +0.2 | 0.438 | +0.0912 (10204) |
-| a capo, pagine di solo testo | 64 | +0.0597 | -0.0643 | +0.1241 | +0.9 | 0.199 | +0.0596 (899) |
+| salto del disegno | 899 | +0.1049 | +0.0259 | +0.0790 | +2.2 | 0.012 | +0.0698 (1539) |
+| a capo, pagine normali | 5743 | -0.0069 | -0.0617 | +0.0549 | +3.9 | 0.000 | +0.0868 (30502) |
+| a capo, pagine di solo testo | 317 | +0.0670 | -0.0536 | +0.1207 | +2.0 | 0.019 | +0.0573 (2613) |
 
-Esito salto: **il salto del disegno azzera la memoria**.
-Esito a capo, pagine normali: **l'a capo azzera la memoria**.
-Esito a capo, pagine di solo testo: **non dimostrato**.
+Esito salto: **la memoria passa il salto**.
+Esito a capo, pagine normali: **la memoria passa l'a capo**.
+Esito a capo, pagine di solo testo: **la memoria passa l'a capo**.
