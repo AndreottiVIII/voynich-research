@@ -11289,3 +11289,20 @@ Coppie di parole uguali tranne la finale -*dy*/-*ey* (stessa radice) in righe de
   e3a81) non nasce dalle copie: è una preferenza legata alla posizione nella pagina, che agisce su tutte le parole.
 - I quattro meccanismi verticali restano quindi distinti: copia dalla riga sopra (senza direzione), evitamento
   dell'inizio uguale, apertura del paragrafo, deriva di -*ey* lungo la pagina.
+
+## 4/10/2026 (notte) — e3a83: lo scriba copia un po' di più dalla fine della riga sopra (le parole appena scritte)
+
+Preregistrato (`preregistrazioni/e3a83.md`). Codice provato prima su paragrafi inventati (copia dalla fine: +0,56;
+dall'inizio: −0,40; nessuna copia: −0,03). 656 paragrafi, 23.676 parole.
+
+| terzo della riga sopra | corrispondenze per parola | nullo (altra riga del paragrafo) | eccesso |
+|---|---|---|---|
+| primo | 0,134 | 0,118 | +0,016 |
+| secondo | 0,137 | 0,114 | +0,023 |
+| ultimo | 0,151 | 0,124 | **+0,027** |
+
+- Posizione media delle fonti nella riga sopra 0,500 contro 0,491 nel nullo: differenza **+0,009**, IC 95% +0,002 –
+  +0,016. **Esito preregistrato: copia di preferenza dalla fine della riga sopra.**
+- **Lettura:** lo scriba riprende da tutta la riga sopra, ma l'eccesso cresce verso la fine (quasi il doppio
+  nell'ultimo terzo rispetto al primo): le parole scritte per ultime, ancora "fresche", si riprendono di più. Va con
+  una copia fatta (anche) a memoria, oltre che guardando. Effetto piccolo.
