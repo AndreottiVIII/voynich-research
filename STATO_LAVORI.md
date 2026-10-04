@@ -254,7 +254,11 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     CIFRATURA"); l'autochiave per riga chiude la riga ma rompe ripetizioni e vocabolario; nessuna impostazione per riga;
     c'è una componente lenta che attraversa le righe: **e3c75**, è uno stato lento (+0,05 fra righe consecutive, circa 0
     a 7 – 12 righe), non la tendenza alto-basso della pagina. **e3c76:** lo stato lento è normale negli scribi veri (5
-    scelte su 17 grandi come il Voynich): non è un tratto proprio del Voynich. e3c67 non eseguito (senza potenza). DECODE
+    scelte su 17 grandi come il Voynich): non è un tratto proprio del Voynich. **ReF (scribi tedeschi 1350 – 1500, 73
+    manoscritti):** e3c78 niente raccordo, margine, bordi, ripetizioni come il Voynich; e3c77 (finestra, deriva) in corso.
+    **e3c79:** la finestra dello scriba di AM 302 viene da parole simili (copia), non è uno stato. **e3c80:** ripetizioni
+    non dovute al genere (testi tecnici tedeschi 7 – 30 volte meno). **e3c81:** stato uguale nelle mani 1, 2, 3: regola
+    del sistema. e3c82 non eseguito (lacuna: lo stato breve passa l'a capo?). e3c67 non eseguito (senza potenza). DECODE
     bloccato (account e licenza).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
