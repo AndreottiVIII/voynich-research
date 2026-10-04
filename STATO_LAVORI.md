@@ -209,7 +209,8 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     da lingua). Lingue naturali: a 3 parole al più 46% (Plinio), di solito 0–20%. **e3c36:** la finestra (k/t, sh/ch, -ey/-dy)
     è chiara in B (R0 0,60–0,65, IC basso 0,38–0,43) in tutte e due le trascrizioni; in A pochi dati (IT sì, ZL incerto).
     **e3c37:** generatori con la misura pulita: nessuno ha la finestra; U3 (+0,053) e Timm e Schinner (+0,047) un piccolo
-    accordo accanto, ma a 2–3 parole quasi zero (Voynich +0,08–0,10 a 3 parole).
+    accordo accanto, ma a 2–3 parole quasi zero (Voynich +0,08–0,10 a 3 parole). **e3c38:** in GC le gallows (h/k) hanno la
+    stessa finestra di k/t in EVA (K +0,104 / +0,074 / +0,088); a/o come in EVA: replica con altro trascrittore e alfabeto.
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
