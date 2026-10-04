@@ -13110,3 +13110,24 @@ finte (passa +0,109; azzerata −0,007).
   momento di chi scrive.
 - **Da ricontrollare** con questo metodo: "il salto del disegno azzera la ripetizione di una parola" (e3a97), misurata
   contro la catena riscritta, che potrebbe avere lo stesso problema delle forme di bordo.
+
+## 4/10/2026 (notte) — e3b68: anche la ripetizione di una parola passa in parte l'a capo; al salto incerto
+
+Preregistrato (`preregistrazioni/e3b68.md`). Quota di coppie di parole uguali o a una modifica (almeno 3 segni) a
+distanza 1–3 a cavallo del confine, contro gli abbinamenti con le righe vicine (disegno dell'e3b66/e3b67). Codice
+provato su righe finte (passa: D +0,043; azzerata: D +0,001).
+
+| confine | pagine | vero (coppie) | controllo 1 | controllo 2 | dentro i tratti (coppie) | D (IC 95%) | eccesso dentro |
+|---|---|---|---|---|---|---|---|
+| salto, ZL | 89 | 0,0388 (2.909) | 0,0371 | 0,0297 | 0,0416 (7.645) | +0,0055 (−0,0032 – +0,0142) | +0,0082 |
+| a capo, ZL | 198 | 0,0294 (14.061) | 0,0240 | 0,0257 | 0,0436 (81.501) | **+0,0046** (+0,0013 – +0,0080) | +0,0187 |
+| salto, IT | 91 | 0,0349 (3.036) | 0,0368 | 0,0296 | 0,0421 (8.072) | +0,0017 (−0,0059 – +0,0090) | +0,0089 |
+| a capo, IT | 193 | 0,0301 (13.972) | 0,0244 | 0,0276 | 0,0454 (78.446) | **+0,0041** (+0,0008 – +0,0076) | +0,0194 |
+
+(Controlli: per il salto le righe con salto precedente e seguente; per l'a capo la riga sopra e due righe sotto.)
+
+- **Esiti preregistrati:** a capo, **la ripetizione passa il confine** (circa un quarto dell'eccesso dentro i tratti);
+  salto, **incerto** (poche coppie, eccesso dentro piccolo).
+- **Correzione dell'e3a97** ("il salto azzera la ripetizione come l'a capo"): all'a capo la ripetizione non si azzera,
+  si riduce a circa un quarto; al salto non si può dire. Con l'e3b66/e3b67: all'a capo riparte la catena di segni,
+  mentre le abitudini del momento (scelte e, in misura minore, parole appena scritte) proseguono attenuate.

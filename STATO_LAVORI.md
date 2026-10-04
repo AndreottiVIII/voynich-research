@@ -120,6 +120,7 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     ripartono raccordo e giuntura. Errore di codice nell'e3b64 (prima esecuzione) e difetto del nullo parola per parola
     per le domande sui confini, dichiarati.
     La memoria passa anche il salto del disegno, per intero (e3b67: D +0,068 ZL, +0,077 IT).
+    Anche la ripetizione di parole passa l'a capo per circa un quarto (e3b68); al salto incerto.
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
