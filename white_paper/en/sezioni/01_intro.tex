@@ -1,0 +1,183 @@
+% ---------------------------------------------------------------------------
+\section*{Key findings}
+\addcontentsline{toc}{section}{Key findings}
+
+The first seven findings are, to our knowledge, \textbf{new}; the last three strengthen earlier ideas with new
+measurements.
+
+\begin{enumerate}[label=\textbf{\arabic*.}]
+\item \textbf{The text is a chain of glyphs in which the space is a weak boundary.} The rules linking the last glyph of
+  a word to the first glyph of the next mirror the rules between two glyphs inside a word more than in any of 71
+  comparison languages. Spaces can be predicted from the two surrounding glyphs (accuracy 0.86, above 97\% of
+  languages), and cutting the text at other points allowed by the rules mostly yields words attested elsewhere in the
+  manuscript (50\%, against 6.5\% in languages).
+\item \textbf{Adjacent words are linked by junction rules.} \eva{qo-} follows words ending in \eva{-y}, \eva{-o},
+  \eva{-d}; \eva{o-} follows \eva{-n}, \eva{-r}, \eva{-s}, \eva{-m}. A final \eva{-l} or \eva{-r} depends on how the
+  next word begins. The scribe \emph{knows the next word} while finishing the current one. The link is at least four
+  times stronger than in any medieval scribe we tested.
+\item \textbf{The line is a closed unit.} The link between words stops at the line break and also where a drawing
+  interrupts the line; line starts and ends have their own forms (at line end \eva{-m} replaces \eva{-r}; at line start
+  \eva{s-} and \eva{y-} appear).
+\item \textbf{The scribe copies from the line immediately above.} Words reproduce, more than chance, words or pieces of
+  line from the line just written, not from lines further up; the copy is adapted to the junction rules with its new
+  neighbour.
+\item \textbf{Each line avoids starting like the line above.} If the line above begins with \eva{qo-}, the line below
+  begins with \eva{o-}. None of 79 medieval scribes does this: not a single case in 72 tests on the six Nordic scribes,
+  and only three of 73 German manuscripts avoid one single initial, as expected by chance.
+\item \textbf{Choices between variant forms follow a ``state'' lasting a few words.} Between the forms \eva{k/t},
+  \eva{sh/ch}, \eva{-ey/-dy}, the scribe tends to repeat the same choice for two or three words, \emph{whatever word is
+  being written}. It is not copying of similar words, not position in the line, it is separate for each choice and
+  identical in all the hands of the manuscript: a rule of the writing system. We did not find it in the six Nordic
+  scribes nor in the Copiale copyist (the test on the 73 German scribes is in progress).
+\item \textbf{Marked variants drift along the line} (\eva{qo}, \eva{k}, \eva{sh}, \eva{-ey} become rarer from left to
+  right), three to fifteen times more than in the six Nordic scribes (German scribes in progress).
+\item \textbf{The Voynich repeats the previous word immediately} (1.0\% of adjacent pairs) or a nearly identical one
+  (3.9\%), more than every language and every one of the 85 handwritten texts we tested (usually 10 to 100 times more),
+  while having a vocabulary of normal size.
+\item \textbf{The book has a writing structure}: each page has a strong identity, the bifolium is a working unit (one
+  Currier ``language'' and almost always one hand), the paragraph opens with a large sign (\eva{p}) and has first and
+  last lines with their own register; \eva{-ey} increases down the page.
+\item \textbf{No proposed reading survives the controls}: neither ours (substitutions in dozens of languages, solvers,
+  verbose ciphers, nomenclators, content-guided searches) nor the published ones we could test (Bax, Vatne, Cheshire,
+  Schechter, Gatta), nor the historical cipher mechanisms we simulated (homophones, Alberti's index, Bacon's biliteral
+  cipher, Trithemius' word lists, autokey).
+\end{enumerate}
+
+% ---------------------------------------------------------------------------
+\section{Introduction}
+
+\subsection{The manuscript}
+
+The Voynich manuscript is a codex of about 240 pages, with drawings of plants, astronomical and zodiacal diagrams,
+female figures in pools and pipes, pharmacy jars, and a long final section of text only, divided into short paragraphs
+marked by stars (usually called ``recipes''). The script is neat and confident: it does not look like the work of
+someone inventing signs while writing. In the 1970s Prescott Currier noticed that the pages fall into two varieties of
+writing, now called \textbf{language A} and \textbf{language B}, and that more than one hand wrote the manuscript;
+Lisa Fagin Davis later distinguished five scribes.
+
+The text is studied through \textbf{transliterations} that render each sign with a conventional Latin letter. The most
+used is the EVA alphabet: a word such as \eva{qokeedy} or \eva{daiin} says nothing about sound; it is only a label for a
+sequence of signs. Some signs are written in EVA with more than one letter (\eva{ch}, \eva{sh}, the tall ``gallows''
+\eva{k}, \eva{t}, \eva{p}, \eva{f} and their compounds); in all our measurements we count them as a single sign.
+
+\subsection{The problem}
+
+Over more than a century dozens of readings have been proposed: abbreviated Latin, Romance languages, Hebrew, Old
+Turkic, Asian languages, ciphers of various kinds. None has convinced the scholarly community, for a simple reason: it
+is easy to find in a long text a few words that ``look like'' something, and hard to show that a reading does better
+than chance. On the other side, those who argue that the text has no meaning must explain why it is so regular.
+
+\subsection{What this work offers}
+
+Not a new reading, but a set of \textbf{measurements with controls}:
+\begin{itemize}
+\item each measurement was \textbf{written down before} looking at the result on the Voynich (preregistration);
+\item each method was \textbf{first tested on synthetic texts} in which the effect was present or absent, to check that
+  it recovers it;
+\item each property of the Voynich was \textbf{compared} with the same measurement on languages, scribes, ciphers and
+  generators;
+\item when an intermediate measurement proved wrong, \textbf{we wrote it down} and corrected it (the internal checks are
+  listed in Appendix~B).
+\end{itemize}
+The result is a description of the Voynich as a \textbf{writing system}: what the writer does, word after word and line
+after line. This description is useful in two ways: it says which explanations are excluded, and it provides a list of
+properties that any future explanation will have to reproduce.
+
+% ---------------------------------------------------------------------------
+\section{Data}
+
+\subsection{The Voynich}
+
+Three independent transliterations in René Zandbergen's IVTFF format:
+
+\begin{center}\small
+\begin{tabular}{lll}
+\toprule
+transliteration & alphabet & role \\
+\midrule
+Zandbergen--Landini (ZL) & EVA & reference \\
+Takahashi (IT) & basic EVA & replication \\
+Glen Claston (GC) & v101 (a different segmentation of the signs) & replication \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\noindent We use the paragraph text, about 35{,}000 legible words. Labels of drawings, circular texts and radii enter
+only some tests, which are indicated. Words with illegible signs (0.6\%) are discarded. Every main result was replicated
+on at least two transliterations, most on all three.
+
+\subsection{Comparison texts}
+
+\begin{itemize}
+\item \textbf{Natural languages:} the Bible in about 100 languages; 71 texts from the Gaskell and Bowern (2022)
+  collection, as whole words; Latin technical texts (Pliny, Varro, Isidore, Vitruvius) and an Italian one (Alberti's
+  \emph{Della Pittura}), to control for genre.
+\item \textbf{Constructed languages:} Esperanto, Volapük, Neo-Quenya, Interlingua, Lojban, Klingon, LOLCat, Toki Pona.
+\item \textbf{Handwritten gibberish:} 38 texts produced by volunteers asked to write an invented text by hand (Gaskell and
+  Bowern 2022).
+\item \textbf{Published generators and ciphers that imitate the Voynich:} the Naibbe cipher (Greshko 2025), which
+  encrypts a real Latin or Italian text with a procedure executable by hand; the ``self-citation'' generator of Timm and
+  Schinner (2020), which produces text without a message by copying and modifying words already written; two amateur
+  generators (U2, U3).
+\item \textbf{Real medieval scribes, at the level of the facsimile} (that is, with letter forms as in the manuscript,
+  abbreviations, and the original lines and pages):
+  \begin{itemize}
+  \item six manuscripts from the \textbf{Menota} archive (Medieval Nordic Text Archive): Icelandic, Norwegian and one
+    Swedish, from about 1200 to 1550;
+  \item 73 German manuscripts from the \textbf{Referenzkorpus Frühneuhochdeutsch} (ReF), from 1350 to 1500, that is, from
+    the area and century of the Voynich, with lines of 5--8 words like its own;
+  \item the Anglo-Saxon scribe of the \emph{Hatton Gospels} (from an edition, without original lines).
+  \end{itemize}
+\item \textbf{A real historical cipher:} the \textbf{Copiale}, an eighteenth-century German enciphered manuscript (105
+  pages), with the transcription and decipherment of Knight, Megyesi and Schaefer (2011). It uses a homophonic cipher:
+  the same letter can be written with different symbols, at the copyist's choice.
+\item \textbf{Handwritten medieval technical texts:} from the ReF, a \emph{Book of Nature}, a surgical recipe book, a
+  book of lunar astrology, a \emph{Naturlehre} and a book of magic and alchemy.
+\end{itemize}
+All data were taken at fixed versions, with the licences listed in Appendix~D. Protected texts are not redistributed.
+
+% ---------------------------------------------------------------------------
+\section{Methods}
+
+\subsection{The rules we set ourselves}
+
+\begin{enumerate}
+\item \textbf{Preregistration.} For each experiment, before running it on the Voynich, we wrote in a dated file the
+  question, the measure, the data and the \textbf{criterion} by which we would read the outcome (``if the value exceeds
+  $X$ we will say $Y$'').
+\item \textbf{Testing the code on synthetic texts.} Every measure was first tested on texts built for the purpose, with
+  the effect present and absent. A measure that did not distinguish the two cases was not used: in three cases the
+  experiment was not run and was declared as a gap (Section~11).
+\item \textbf{Positive and negative controls.} For decipherment tests: a known text enciphered in the same way (which the
+  method must solve) and a text in another language (which shows what is obtained by chance).
+\item \textbf{Honest intervals.} Uncertainty intervals are computed by resampling whole pages, because neighbouring words
+  are not independent.
+\item \textbf{A failed step is repeated once}, then the gap is declared.
+\item \textbf{Corrections are written down.} The laboratory notebook was written only by adding, never by deleting.
+\end{enumerate}
+
+\subsection{The main measures, in plain words}
+
+\begin{itemize}
+\item \textbf{Junction:} how much information the last glyph of a word gives about the first glyph of the next word,
+  beyond what glyph frequencies alone would give (in bits).
+\item \textbf{Junction rule:} how much a choice at the start (or end) of a word depends on the glyph of the neighbouring
+  word, for the same word.
+\item \textbf{Agreement of choices (the ``state''):} for a choice between two variants (for example \eva{k} or \eva{t}),
+  how much two nearby words of the same line make the same choice more than expected, where the expectation accounts for
+  the preferences of each word, of the page and of the position in the line. It is expressed as a fraction of the
+  maximum possible agreement (0 = chance, positive values = more agreement than chance), like Cohen's kappa.
+\item \textbf{Copying from the line above:} how many words have an identical or nearly identical word in the line above,
+  beyond chance.
+\item \textbf{Left margin:} how often a line begins like the line above, compared with shuffled lines.
+\end{itemize}
+
+\subsection{A decisive methodological correction}
+
+Midway through the work we found that the measure of agreement between choices had a \textbf{bias} that varied from text
+to text: in some texts it inflated agreement by up to $+0.37$, in others it lowered it. The cause is that the expectation
+is estimated from the same data. The correction consists in subtracting the value obtained by shuffling the choices among
+occurrences of the same word, which has the same bias but no real agreement. All agreement measures reported here are
+corrected in this way. The correction changed three provisional indications of the work: the Anglo-Saxon scribe does not
+have the ``window'' a first measure had attributed to him; Volapük does not resemble the Voynich; and the Voynich does
+not lie \emph{outside} the range of languages for the shape of its agreement, but at its top.

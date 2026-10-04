@@ -1,0 +1,191 @@
+% ---------------------------------------------------------------------------
+\appendix
+\renewcommand{\thesection}{\Alph{section}}
+
+\section{Experiments behind the main findings}
+
+Experiment codes refer to the repository (files \texttt{preregistrazioni/}, \texttt{esperimenti/}, \texttt{risultati/}).
+
+\begin{center}\footnotesize
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{5.4cm}Yp{3.1cm}}
+\toprule
+finding & main experiments & replications \\
+\midrule
+Statistical fingerprint, isolation from languages & e01--e06, e13 & IT, GC \\
+Weak and predictable space, cuts yielding words, vocabulary filling the forms & e3a49, e3a55, e3a58, e3a61, e3a67,
+e3a99--e3b05 & e3a50, e3a56, e3a60, e3a68 \\
+Junction and junction rules & e377, e380, e390, e3a01--e3a03, e3a41 & e388, e395, e3a04, e3a05, e3a34 \\
+Closed line, drawing gap, line-edge forms & e384, e386, e387, e389, e3a09 & e395, e3a43 \\
+Copying from the line immediately above & e340, e343, e347, e372, e385, e392, e394, e396, e3b28 & e3a80, e3a84 \\
+Left-margin avoidance & e3a25--e3a27, e3a33, e3a35, e3a44 & e3a33 (IT, languages A and B) \\
+Paragraph, page, bifolium, quire, languages A and B & e302, e307--e316, e321, e350, e356, e378 & e3a15, e3a21 \\
+Immediate repetition and its shape & e02, e3a86--e3a90, e3b25 & e3a88, e3a91, e3a92 \\
+Short state of the choices & e3c33, e3c48, e3c52, e3c55, e3c57, e3c66, e3c72, e3c81 & IT, GC (e3c51), hands, sections
+(e3c54) \\
+Slow state & e3c73--e3c75 & e3c76 (scribes) \\
+Drift along the line & e3c13, e3c17, e3c20--e3c24 & IT \\
+Scribe battery & e3c50, e3c58--e3c65, e3c76--e3c80 & --- \\
+Copiale & e3c61 & --- \\
+Decipherments and readings excluded & e14, e16--e20, e26, e27, e133, e163, e163b, e212b, e216, e219, e222, e223, e249,
+e269 & positive controls in every test \\
+Historical cipher mechanisms & e3c68--e3c71 & synthetic controls in every test \\
+Constructed languages, gibberish, generators & e346, e374, e377, e382, e399, e3a95, e3c37, e3c49, e3c53 & --- \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+% ---------------------------------------------------------------------------
+\section{Internal checks: provisional indications corrected by the method}
+
+None of the results of this work had been published before. During the work, however, some intermediate measurements gave
+indications that later checks corrected. We report them because they show which measurements are fragile and how the
+controls corrected them: anyone redoing the work can avoid the same missteps, and readers can judge how far the final
+conclusions have been tested.
+
+\paragraph{Corrections due to the bias of the agreement measure (Section~3.3)}
+\begin{enumerate}
+\item A first measurement attributed to the Anglo-Saxon scribe of the \emph{Hatton Gospels} the same ``window'' as the
+  Voynich. For that choice the measure was inflated ($+0.25$); corrected, the scribe has agreement between adjacent words
+  but not at two-three words.
+\item Volapük seemed to have an agreement similar to the Voynich; with the corrected measure it is zero.
+\item The shape of the Voynich's agreement (how long it lasts at two-three words) seemed outside the range of languages;
+  corrected, it lies at the top of the range, not outside.
+\item An observation about ``neutral'' words between two words making the same choice suggested that the state travels only
+  on occurrences of the choice; it was an effect of the same bias.
+\end{enumerate}
+
+\paragraph{Descriptions made more precise by later measurements}
+\begin{enumerate}[resume]
+\item The state of the choices looked like a ``window'' of three words then dropping to zero; instead it fades gradually
+  (half-life about three words) and there is in addition a slow component carrying from one line to the next.
+\item The hypothesis that each line has its own ``setting'' of the choices (like a key per line) did not hold: agreement
+  carries from one line to the next.
+\item After the test on Glen Claston's form-only variants we had read the state as tied to ``which word is written, not
+  how the letter is drawn''; a real scribe with a window in a form-only choice showed that the generalisation was too broad
+  (and his window, in turn, comes from similar words).
+\item An uncorrected measure indicated that hand 1 lacked the state of the choices; with the corrected measure all hands
+  have it equally.
+\item A measure indicated that the memory of the choices resets at the line break; it was an effect of comparing with the
+  page average (line ends and starts have their own forms).
+\item The first left-margin test used a defective comparison; with the correct comparison the result holds.
+\item A measure attributed two thirds of the small link between whole words to the paragraph; it was a mechanical effect
+  of smaller groups.
+\item Rare forms seemed to be copied from the line above more than others; with the second transliteration only a trend
+  remains.
+\end{enumerate}
+
+\paragraph{Formally positive outcomes that were artefacts}
+\begin{enumerate}[resume]
+\item A ``one word = one syllable'' reading candidate and a German candidate in a content-guided search: the first came out
+  identical on the shuffled Voynich, the second changed sign when only the starting points of the search were changed.
+\end{enumerate}
+
+\paragraph{Criteria phrased too sharply}
+\begin{enumerate}[resume]
+\item In three cases the criterion decided in advance called ``absent'' or ``reset'' an effect whose uncertainty interval
+  touched zero (the state in the herbal, at the drawing gap, in some sections). In all three the estimate was positive and
+  similar to the rest: these were insufficient data, not absence. Hence the rule, which we suggest to others too, of
+  saying ``absent'' only when the interval lies entirely below the reference value.
+\end{enumerate}
+
+% ---------------------------------------------------------------------------
+\section{Glossary}
+
+\begin{description}[leftmargin=0pt,itemsep=2pt]
+\item[EVA] conventional alphabet to transliterate the Voynich into Latin letters; it does not indicate sounds.
+\item[glyph] a sign of the manuscript; \eva{ch}, \eva{sh}, the gallows and their compounds count as one.
+\item[gallows] the tall signs \eva{k}, \eva{t}, \eva{p}, \eva{f} of EVA.
+\item[Currier languages A and B] the two varieties of writing into which the pages divide.
+\item[junction] how much information the last glyph of a word gives about the first glyph of the next, beyond chance.
+\item[junction rule] a rule linking the form of a word to that of its neighbour (sandhi-like).
+\item[closed line] the junction does not carry over the line break.
+\item[state of the choices] the tendency to repeat the same variant for a few words.
+\item[in-line drift] the decline of marked variants from left to right.
+\item[preregistration] a written description, before running, of question, measure and criterion.
+\item[positive / negative control] a text in which the answer is / is not present.
+\item[homophonic cipher] the same letter can be written with several symbols.
+\item[verbose cipher] each letter becomes a group of several glyphs.
+\item[self-citation] a procedure in which the writer copies and modifies words already written.
+\item[facsimile-level transcription] a transcription preserving the letter forms of the manuscript.
+\item[95\% interval] the range in which the true value lies, with good confidence.
+\end{description}
+
+% ---------------------------------------------------------------------------
+\section{Sources and licences}
+
+\subsection{Data}
+
+\paragraph{The Voynich}
+\begin{itemize}
+\item R. Zandbergen, transliteration files of the Voynich manuscript in IVTFF format,
+  \url{https://www.voynich.nu/transcr.html}: Zandbergen--Landini (ZL3b, EVA), Takahashi (IT2a), Glen Claston (GC2a, v101
+  alphabet); format described in R. Zandbergen, \emph{IVTFF -- Intermediate Voynich MS Transliteration File Format},
+  v2.0.1 (2025).
+\item Radiocarbon dating of the vellum (1404--1438, 95\%): NSF-Arizona AMS Laboratory, University of Arizona, team led by
+  G. Hodgins, four samples measured in 2009; University of Arizona press release, 10 February 2011; account by R.
+  Zandbergen, \url{https://www.voynich.nu/extra/carbon.html}.
+\end{itemize}
+
+\paragraph{Comparison texts}
+\begin{itemize}
+\item C. Christodouloupoulos and M. Steedman (2015), ``A massively parallel corpus: the Bible in 100 languages'',
+  \emph{Language Resources and Evaluation} 49(2): 375--395, doi:\url{10.1007/s10579-014-9287-y} (data: \url{christos-c/bible-corpus},
+  CC0).
+\item The Latin Library (collection \url{cltk/lat_text_latin_library}); Roman breviary (Divinum Officium, MIT).
+\item D. E. Gaskell and C. L. Bowern (2022), ``Gibberish after all? Voynichese is statistically similar to human-produced
+  samples of meaningless text'', in C. Layfield and J. Abela (eds.), \emph{Proceedings of the 1st International Conference
+  on the Voynich Manuscript 2022 (VOY2022)}, CEUR Workshop Proceedings 3313, paper 4 (2023),
+  \url{https://ceur-ws.org/Vol-3313/paper4.pdf}. The meaningless texts were handwritten by volunteers (42 in the study; 38
+  texts in the published data); data licence: modified MIT.
+\item M. A. Greshko (2025), ``The Naibbe cipher: a substitution cipher that encrypts Latin and Italian as Voynich
+  Manuscript-like ciphertext'', \emph{Cryptologia}, published online 26 November 2025, doi:\url{10.1080/01611194.2025.2566408}
+  (code: \url{greshko/naibbe-cipher}).
+\item T. Timm and A. Schinner (2020), ``A possible generating algorithm of the Voynich manuscript'', \emph{Cryptologia}
+  44(1): 1--19, doi:\url{10.1080/01611194.2019.1596999} (code: \url{TorstenTimm/SelfCitationTextgenerator}, MIT).
+\item \textbf{Menota}, Medieval Nordic Text Archive, \url{https://www.menota.org} (catalogue on Clarino, University of
+  Bergen). The licence is stated text by text; for the six texts used (AM 519 a 4to, AM 677 4to, AM 60 4to, AM 242 fol,
+  Holm A 10, AM 302 fol) it is CC BY-SA 4.0. Each text should be cited with the data of its header (editor, version).
+\item \textbf{ReF}: K.-P. Wegera, H.-J. Solms, U. Demske, S. Dipper (2021), \emph{Reference Corpus of Early New High
+  German (1350--1650)}, version 1.0.2, Zenodo, doi:\url{10.5281/zenodo.5793616}. Zenodo states CC BY 4.0, the LICENSE file inside
+  the archive CC BY-SA 4.0: we follow the more restrictive.
+\item \textbf{Copiale}: K. Knight, B. Megyesi, C. Schaefer (2011), ``The Copiale Cipher'', in \emph{Proceedings of the 4th
+  Workshop on Building and Using Comparable Corpora (BUCC)}, ACL, pp. 2--9, \url{https://aclanthology.org/W11-1202/}; and K.
+  Knight, B. Megyesi, C. Schaefer, ``The Secrets of the Copiale Cipher'', \emph{Journal for Research into Freemasonry and
+  Fraternalism} 2(2): 314--324 (2011 volume, published 2012), doi:\url{10.1558/jrff.v2i2.314}. Transcription and decipherment
+  from the project page of Stockholm University. Dating: mid-eighteenth century (the inscription ``1866'' in the manuscript
+  is an owner's mark).
+\end{itemize}
+
+\subsection{Readings and decipherments tested}
+\begin{itemize}
+\item S. Bax (2014), \emph{A proposed partial decoding of the Voynich script}, self-published PDF, January 2014 (read from
+  the web archive).
+\item S. B. Vatne (2021), \emph{Cracking the Voynich Cipher}, self-published PDF, October 2021.
+\item G. Cheshire (2019), ``The Language and Writing System of MS408 (Voynich) Explained'', \emph{Romance Studies} 37(1):
+  30--67, doi:\url{10.1080/02639904.2019.1599566}.
+\item S. Schechter (2026), \emph{voynich-decoded}, GitHub repository,
+  \url{https://github.com/scott-schechter/voynich-decoded} (no licence stated; used as a local copy, not redistributed).
+\item A. Gatta (2026), \emph{voynich-toolkit} (software), Zenodo, doi:\url{10.5281/zenodo.19226178} (concept DOI; the version
+  tested is v0.26.0), MIT licence.
+\end{itemize}
+
+\subsection{Literature}
+\begin{itemize}
+\item P. H. Currier (1976), ``Papers on the Voynich Manuscript'', in M. E. D'Imperio (ed.), \emph{New Research on the
+  Voynich Manuscript: Proceedings of a Seminar}, Washington (typescript); transcription by J. Guy and J. Reeds (1992),
+  \url{https://www.voynich.nu/extra/curr_main.html}.
+\item L. Fagin Davis (2020), ``How Many Glyphs and How Many Scribes? Digital Paleography and the Voynich Manuscript'',
+  \emph{Manuscript Studies} 5(1): 164--180, doi:\url{10.1353/mns.2020.0011} (the five hands used here).
+\item M. A. Montemurro and D. H. Zanette (2013), ``Keywords and co-occurrence patterns in the Voynich manuscript: an
+  information-theoretic analysis'', \emph{PLoS ONE} 8(6): e66344, doi:\url{10.1371/journal.pone.0066344}.
+\item B. Hauer and G. Kondrak (2016), ``Decoding Anagrammed Texts Written in an Unknown Language and Script'',
+  \emph{Transactions of the Association for Computational Linguistics} 4: 75--86, doi:\url{10.1162/tacl_a_00084}.
+\item L. Rozanova and A. Temerev (2026), ``A Glyph Is Not a Letter, a Token Is Not a Word, a Space Is Not a Space: What
+  the Units of Voynichese Are Not'', arXiv:2608.17096.
+\item L. B. Alberti, \emph{De componendis cifris} (c.~1466); J. Trithemius, \emph{Polygraphiae libri sex} (1518); F.
+  Bacon, \emph{De dignitate et augmentis scientiarum} (1623), with the description of the biliteral cipher.
+\end{itemize}
+
+\noindent\textit{All references were checked on publisher, repository or archive pages (October 2026). For Bax the title
+page of the PDF could not be re-read; for the radiocarbon dating the source is a university press release, not a
+scientific article.}

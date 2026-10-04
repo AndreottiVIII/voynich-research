@@ -428,12 +428,12 @@ Per ogni proprietà abbiamo usato **la stessa misura** del Voynich, rifacendo il
 
 ### 7.2 Che cosa vuol dire
 
-- **Cinque proprietà su sette non hanno paragone** in 79 scribi di tre secoli e tre tradizioni (islandese, norvegese,
-  svedese, tedesca), né nel copista di un cifrario: raccordo, margine sinistro, ripetizioni e, finora, deriva lungo la
-  riga; le forme di bordo hanno la stessa natura (lo scriba vero abbrevia di più a fine riga) ma sono da quattro a otto
-  volte più deboli.
+- **Cinque proprietà su sette non hanno paragone** in 79 scribi di tre secoli e quattro tradizioni (islandese,
+  norvegese, svedese, tedesca), né nel copista di un cifrario: raccordo, margine sinistro, ripetizioni e deriva lungo la
+  riga (quest'ultima finora misurata solo nei sei scribi nordici); le forme di bordo hanno la stessa natura (lo scriba
+  vero abbrevia di più a fine riga) ma sono da quattro a otto volte più deboli.
 - **Lo stato breve** del Voynich (accordo che vale anche fra parole molto diverse) non l'abbiamo trovato in nessuno
-  scriba. Uno scriba norvegese (AM 302 fol, verso il 1300) ha, nella scelta fra *s* lunga e *s* tonda, una "finestra"
+  degli scribi misurati finora (i sei nordici; i tedeschi sono in corso). Uno scriba norvegese (AM 302 fol, verso il 1300) ha, nella scelta fra *s* lunga e *s* tonda, una "finestra"
   di grandezza e forma simili, che supera le stesse prove del Voynich (non viene da tratti brevi di pagina né dalla
   posizione); ma la sua finestra viene soprattutto da **parole simili** (+0,29 fra parole simili, +0,065 fra parole
   diverse), cioè dal ripetere forme della stessa parola: un meccanismo diverso.
