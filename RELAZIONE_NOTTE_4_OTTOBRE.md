@@ -240,7 +240,10 @@ inizio di parola), ha **la forma che avrebbe un accordo fra parole in una lingua
 significato"; semmai il contrario. Due tratti fanno pendere verso un'abitudine di chi scrive, ma non sono decisivi: nel
 Voynich la memoria si consuma con le lettere scritte (+0,066), nell'accordo delle lingue quasi no (media +0,015, e3b92);
 e nel Voynich c'è con la stessa forza anche per scelte dentro la parola (*k*/*t*, *sh*/*ch*), dove un accordo grammaticale
-di solito non arriva. La domanda "accordo o abitudine" resta aperta.
+di solito non arriva. E soprattutto la **forma** (e3b95, e3b96 su dati nuovi): nelle lingue l'accordo è concentrato fra
+parole accanto e a tre parole ne resta poco (13–40%), nel Voynich a tre parole resta quasi tutto (79%). Figura
+`risultati/figure/profilo_distanza.png`. Quindi la "memoria" del Voynich non si comporta come un accordo dentro la frase,
+ma come un'abitudine che si consuma scrivendo. Restano da provare lingue con accordi a distanza più lunga.
 
 ## In breve
 

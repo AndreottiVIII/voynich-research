@@ -13675,3 +13675,25 @@ Figura `risultati/figure/profilo_distanza.png`.
   d3/d1 fra 0,13 e 0,33): è l'accordo dentro il sintagma. Nel Voynich la curva è quasi piatta fra 1 e 3 (rapporto 0,78)
   e poi cala dolcemente: la forma di una memoria che si consuma, non di un accordo fra parole che stanno insieme. Va
   provato su dati non ancora guardati (e3b96).
+
+## 4/10/2026 (notte) — e3b96: la forma del calo distingue la memoria del Voynich dall'accordo grammaticale (dati nuovi)
+
+Preregistrato (`preregistrazioni/e3b96.md`) dopo l'e3b95, su dati che l'e3b95 non aveva guardato. R = [K(3) − K(8–12)] /
+[K(1) − K(8–12)], intervalli per unità. Codice provato su testi finti (memoria che cala piano 0,52; legame solo con la
+parola accanto 0,25).
+
+| testo | unità | R (IC 95%) |
+|---|---|---|
+| Voynich IT | 205 | **0,79** (0,63 – 0,96) |
+| italiano, *Della Pittura* | 86 | 0,13 (−0,02 – 0,26) |
+| italiano NT moderno | 935 | 0,17 (0,12 – 0,23) |
+| latino, Plinio | 2.530 | 0,40 (0,32 – 0,48) |
+
+- **Esito preregistrato: la forma distingue.** Nel Voynich l'accordo delle scelte a tre parole di distanza è quasi
+  uguale a quello fra parole accanto; nelle lingue l'accordo grammaticale è concentrato sulle parole accanto e a tre
+  parole ne resta poco (13–40%).
+- **Lettura:** con il consumo con le lettere (e3b92), sono due tratti per cui la "memoria" del Voynich **non** si
+  comporta come l'accordo grammaticale delle lingue provate: non è legata alla parola accanto (come dentro un
+  sintagma), ma cala dolcemente con la scrittura. Va meglio d'accordo con un'abitudine di chi scrive. Cautela: le lingue
+  provate sono quattro (italiano, spagnolo, latino, swahili per l'e3b95); lingue con accordi a distanza più lunga
+  (per esempio l'armonia vocalica o l'accordo con il verbo lontano) andrebbero provate.
