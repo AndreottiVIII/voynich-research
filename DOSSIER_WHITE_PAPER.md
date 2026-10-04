@@ -561,6 +561,7 @@ Utili da mettere in evidenza nel white paper:
 | `figure/memoria_scribi.png` | memoria delle scelte oltre le parole, con intervalli: Voynich, mani, scriba anglosassone, generatori | memoria corta (stato finale, 15.13) |
 | `figure/confini.png` | che cosa passa il salto del disegno e l'a capo (memoria, ripetizione, raccordo) | memoria corta (stato finale, 15.13) |
 | `figure/solo_testo.png` | pagine di solo testo: giuntura a capo sì, memoria come altrove | pagine di solo testo (15.13) |
+| `figure/profilo_distanza.png` | come cala l'accordo con la distanza: Voynich contro accordo grammaticale di italiano, spagnolo, latino, swahili | memoria o accordo (15.13) |
 
 Per e25–e28 ci sono solo tabelle (`.md`): conviene farne grafici nuovi. Per esempio:
 
@@ -1288,7 +1289,10 @@ accoppiata con l'inizio del tratto che lo continua, contro l'inizio di tratti vi
 -*us*/-*a*) dà un effetto della stessa grandezza: la "memoria" del Voynich potrebbe essere anche un accordo fra parole,
 cioè un tratto da lingua. **Primo tratto che distingue (e3b92):** il consumo con le lettere scritte, netto nel Voynich
 (+0,066) e debole o assente nell'accordo grammaticale delle lingue (media +0,015, nessun intervallo sopra 0): una parte
-della memoria del Voynich sembra legata al gesto di scrivere. Non definitivo.
+della memoria del Voynich sembra legata al gesto di scrivere. **Secondo tratto (e3b95 descrittivo, e3b96 su dati nuovi):**
+la forma del calo con la distanza: nelle lingue l'accordo è concentrato fra parole accanto (rapporto d3/d1 0,13–0,40),
+nel Voynich è quasi piatto fra 1 e 3 parole (0,79, IC 0,63 – 0,96, Takahashi). Figura `profilo_distanza.png`. La
+"memoria" del Voynich non si comporta come un accordo dentro il sintagma; cautela: solo quattro lingue provate.
 
 **Formula per il white paper:** il Voynich ha, oltre alla catena di segni per riga e allo spazio non lessicale, una
 memoria corta delle scelte di grafia forte e uniforme (tutte le scelte, tutte le mani, due trascrizioni), che prosegue

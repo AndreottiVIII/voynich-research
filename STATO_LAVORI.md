@@ -146,6 +146,8 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     Il consumo con le lettere distingue un poco: nel Voynich +0,066, nelle lingue media +0,015 (e3b92).
     Swahili (accordo di prefisso): memoria +0,236, quasi il triplo del Voynich; lettere: dati insufficienti (e3b93).
     Togliere le parole più frequenti non distingue accordo e memoria (e3b94).
+    **La forma del calo distingue** (e3b95, e3b96): accordo delle lingue concentrato fra parole accanto (d3/d1 0,13–0,40),
+    memoria del Voynich quasi piatta fra 1 e 3 parole (0,79). Figura `profilo_distanza.png`.
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
