@@ -1574,13 +1574,21 @@ che mostrano che la prova vede il meccanismo cercato (o, se non lo vede, lacuna 
 | autochiave che riparte a ogni riga | e3c71 | **chiude la riga come il Voynich** (Q 0,06 / −0,05 contro 0,04), ma rompe tutto il resto: nessuna ripetizione, vocabolario gonfio (4.500 – 6.400 tipi su 10.000 contro 2.900), inizi deboli, nessun margine. Esclusa come sistema; l'idea di un "avvio per riga" resta l'unica che chiude la riga |
 | liste di parole a turno alla Tritemio | e3c69 | nessun ciclo da 2 a 6 parole (l'unico "picco" a 2 viene dalla parola accanto, criterio ingenuo dichiarato) |
 | copisti di cifrari omofonici veri (DECODE) | — | bloccata: i file richiedono un account e non c'è licenza di riuso; nessun cifrario del Quattrocento con trascrizione e chiave |
-| un'impostazione delle scelte per ogni riga (chiave per riga) | e3c73, e3c74 | **no**: l'accordo lontano nella riga (+0,04) c'è uguale fra righe consecutive (+0,05); c'è una componente lenta che attraversa le righe (e3c75 in corso) |
+| un'impostazione delle scelte per ogni riga (chiave per riga) | e3c73, e3c74 | **no**: l'accordo lontano nella riga (+0,04) c'è uguale fra righe consecutive (+0,05); c'è una componente lenta che attraversa le righe |
+| la componente lenta è la tendenza alto-basso della pagina? | e3c75 | **no, è uno stato lento**: fra righe consecutive +0,049, poi +0,034, +0,024, +0,016, circa 0 a 7 – 12 righe; la deriva verticale non lo cambia |
 
 **Lettura d'insieme:** nessuno dei meccanismi di cifratura storici provati (omofoni alla Copiale, indice alla Alberti,
 biletterale alla Bacone, liste alla Tritemio, autochiave) riproduce l'insieme delle proprietà del Voynich; l'autochiave
 per riga ne riproduce una sola (la riga chiusa) al prezzo di distruggere le altre. Lo stato del Voynich resta descritto
 così: per ogni scelta, uno stato breve che si spegne in 2 – 3 parole (non copia, non posizione, non legato alle
 occorrenze della scelta, e3c55, e3c57, e3c72), più una componente lenta che attraversa le righe.
+
+**DESCRIZIONE FINALE DELLO STATO (dopo l'e3c75):** per ogni scelta (*qo*/*o*, *k*/*t*, *sh*/*ch*, -*ey*/-*dy*), oltre alla
+preferenza della parola e della pagina e alla deriva lungo la riga, ci sono due componenti indipendenti dalle altre
+scelte: (1) uno **stato breve** dentro la riga, +0,145 fra parole accanto, che si spegne in 2 – 3 parole (non copia, non
+posizione, non legato alle occorrenze della scelta); (2) uno **stato lento** che passa l'a capo, +0,05 fra righe
+consecutive, che si spegne in qualche riga (mezza vita circa 2 righe), non spiegato dalla tendenza alto-basso della
+pagina. Il legame fra parole vicine (raccordo, giuntura) invece si ferma all'a capo.
 
 **Lezioni di metodo da riportare** (utili anche a chi legge): (1) confrontare con la media della pagina ai bordi della
 riga inganna, perché fine e inizio riga hanno forme proprie; (2) togliere le coppie "simili" guardando la parola intera

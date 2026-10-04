@@ -252,7 +252,8 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     Quattrocento centro-europei.
     **Strade di cifratura (e3c67 – e3c74):** nessun meccanismo storico riproduce il Voynich (dossier, tabella "STRADE DI
     CIFRATURA"); l'autochiave per riga chiude la riga ma rompe ripetizioni e vocabolario; nessuna impostazione per riga;
-    c'è una componente lenta che attraversa le righe (e3c75 in corso). e3c67 non eseguito (senza potenza). DECODE
+    c'è una componente lenta che attraversa le righe: **e3c75**, è uno stato lento (+0,05 fra righe consecutive, circa 0
+    a 7 – 12 righe), non la tendenza alto-basso della pagina. e3c67 non eseguito (senza potenza). DECODE
     bloccato (account e licenza).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
