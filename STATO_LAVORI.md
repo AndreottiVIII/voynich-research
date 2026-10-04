@@ -160,7 +160,9 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     mediana sbilanciata, anche nell'e3b80). Con la divisione bilanciata (e3c07) il consumo con le lettere regge: +0,060/+0,052
     con i bordi, +0,040/+0,037 senza (ZL al limite). Prossimo: e3c08 (lingue con la divisione corretta).
     Regressione su tutte le coppie (e3c09): ogni lettera in mezzo toglie ~0,003 di accordo, una parola in più niente; ZL
-    significativo, IT per un soffio no: esito incerto, direzione uguale in tutte e quattro le stime.
+    significativo, IT per un soffio no: esito incerto, direzione uguale in tutte e quattro le stime. La regressione lineare
+    può però essere ingannata dalla curvatura del calo: sostituita nell'e3c10 da confronti dentro strati esatti.
+    Lingue con il metodo corretto (e3c08): nessuna su 21 si consuma con le lettere (mediana +0,002): il tratto distingue.
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
