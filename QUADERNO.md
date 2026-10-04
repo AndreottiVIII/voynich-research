@@ -12078,3 +12078,25 @@ del disegno e alle parole illeggibili).
 - **Cautela:** le stime per sezione poggiano su pochi dati e i profili non sono regolari (l'erbario B ha +0,008 a 5–9 e
   +0,058 a 15–19). Il fatto solido è che in B nel complesso la memoria dura di più (e3b21); quanto dipenda dalla lingua e
   quanto dal tipo di pagina non si separa bene con questi dati. Chiudo qui questo filone.
+
+## 4/10/2026 (notte) — e3b25: nel Voynich una coppia di parole vicine su 100 è una ripetizione esatta, dieci volte le lingue
+
+Preregistrato (`preregistrazioni/e3b25.md`). Quote grezze sulle coppie di parole vicine della stessa riga.
+
+| testo | identiche | quasi identiche (a una modifica) |
+|---|---|---|
+| **Voynich** (mediana di 5 × 10.000 parole) | **1,01%** | **4,13%** |
+| testi sensati: mediana / 90° perc. / massimo | 0,10% / 0,29% / 0,71% (toki pona) | 0,23% / – / 2,21% |
+| gibberish umano | 0,51% | 0,73% |
+| Naibbe | 0,11% | 1,24% |
+| U2 / U3 | 0,50% / 0,79% | 1,33% / 2,05% |
+| Timm e Schinner | 1,32% | 7,14% |
+
+- **Esito preregistrato: ripete subito più di tutte le lingue.** Anche le quasi ripetizioni sono quasi il doppio del
+  massimo delle lingue.
+- Timm e Schinner ripete ancora di più (la sua copia pesca spesso la parola appena scritta), ma senza la forma a memoria
+  corta del Voynich (e3a90).
+- **Lacuna dichiarata:** manca un controllo con uno scriba medievale vero che scelga fra forme equivalenti (abbreviazioni,
+  varianti di grafia). I testi "latino abbreviato" del corpus sembrano abbreviati da un programma (*geit* per *genuit*),
+  non da uno scriba, e la cache non ha una trascrizione diplomatica con varianti. Sarebbe il confronto giusto per dire se
+  la memoria corta è un'abitudine generica di chi scrive a mano.
