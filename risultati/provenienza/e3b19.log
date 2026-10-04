@@ -1,0 +1,5 @@
+k/t {"coppie_vicine": 8968, "coppie_lontane": 4953, "eccesso_vicino": 0.035144081475276936, "eccesso_lontano": -0.005640452867328733, "differenza": 0.04078453434260567, "IC95": [0.02260246341486988, 0.058371782176946704], "esito": "memoria corta"}
+ckh/cth {"coppie_vicine": 155, "coppie_lontane": 50, "esito": "dati insufficienti"}
+iii/ii {"coppie_vicine": 750, "coppie_lontane": 448, "eccesso_vicino": -0.006641743586149958, "eccesso_lontano": -0.00103230382634592, "differenza": -0.005609439759804038, "IC95": [-0.03359026820395531, 0.024010705742509245], "esito": "nessuna memoria"}
+a/o iniziale {"coppie_vicine": 494, "coppie_lontane": 350, "eccesso_vicino": 0.0012263765343620819, "eccesso_lontano": -0.04126588493668915, "differenza": 0.042492261471051236, "IC95": [-0.023603997028494684, 0.1157565135454832], "esito": "nessuna memoria"}
+ai/aii {"coppie_vicine": 1824, "coppie_lontane": 1101, "eccesso_vicino": 0.005650814953075438, "eccesso_lontano": 0.0050959077273800115, "differenza": 0.0005549072256954262, "IC95": [-0.03524315578460943, 0.03596956979185984], "esito": "nessuna memoria"}
