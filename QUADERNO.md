@@ -13994,3 +13994,25 @@ riga. Codice provato su testi finti (memoria per lettere: lettere +0,048, parole
   di lettere danno 0 in tutte e quattro le misure).
 - Ancora aperto: la misura "parole a parità di lettere" è poco sensibile, quindi non dice se conti solo la scrittura.
   Prossimo passo (e3c08): le lingue con la divisione corretta, per tenere il confronto alla pari.
+
+## 4/10/2026 (mattina presto) — e3c09: la memoria cala con le lettere scritte, non con il numero di parole (incerto per un soffio)
+
+Preregistrato (`preregistrazioni/e3c09.md`). Regressione dell'accordo in eccesso di ogni coppia (stessa riga, distanza
+1–7) sulla distanza in parole e sulle lettere in mezzo insieme, meno il nullo largo; intervalli per pagine. Codice
+provato su testi finti (memoria per lettere: lettere −0,0036, parole ≈ 0; memoria per parole: parole −0,019, lettere ≈
+0; nessuna memoria: niente).
+
+| misura | coppie | per parola in più (IC 95%) | per lettera in più (IC 95%) | per 5 lettere |
+|---|---|---|---|---|
+| ZL, senza i bordi | 38.866 | +0,008 (−0,004 – +0,021) | **−0,0032** (−0,0061 – −0,0005) | −0,016 |
+| IT, senza i bordi | 39.399 | +0,006 (−0,007 – +0,020) | −0,0028 (−0,0056 – +0,0002) | −0,014 |
+| ZL, con i bordi | 56.689 | +0,007 (−0,003 – +0,017) | **−0,0033** (−0,0054 – −0,0011) | −0,016 |
+| IT, con i bordi | 57.249 | +0,009 (−0,002 – +0,020) | **−0,0036** (−0,0059 – −0,0014) | −0,018 |
+
+- **Esito preregistrato: incerto.** ZL dà "cala con le lettere, non con le parole"; IT dà lo stesso segno ma il suo
+  intervallo delle lettere tocca lo zero per 0,0002, e la regola chiedeva le due trascrizioni d'accordo.
+- **Tutte e quattro le stime vanno nella stessa direzione:** a parità di parole, ogni lettera in più in mezzo toglie
+  circa 0,003 di accordo (circa 0,016 ogni 5 lettere, cioè una parola media); a parità di lettere, una parola in più
+  non toglie niente (il coefficiente è anzi leggermente positivo, mai significativo). La memoria si comporta come se si
+  consumasse con la scrittura e non con il passaggio da una parola all'altra.
+- Per il generatore (altra chat): la memoria va fatta calare con i segni scritti, non con le parole.
