@@ -11555,3 +11555,19 @@ rimescolamento delle parole dentro la riga.
 - **Lettura:** per lo scriba il salto di un disegno è un "a capo" sotto tutti gli aspetti misurati: si rompe la
   giuntura (e386), riparte la riga (forme di inizio, e3a13), si azzera la ripetizione immediata. Il tratto scritto di
   seguito è l'unità della scrittura. Pochi dati a cavallo del salto (665 coppie): l'intervallo è largo.
+
+## 4/10/2026 (notte) — e3a98: la catena di segni riproduce la quantità di vocabolario, ma fa il 15% di parole uniche in più
+
+Preregistrato (`preregistrazioni/e3a98.md`, senza previsione). Codice provato prima su un testo inventato.
+
+| misura | Voynich vero | riscritto dalla catena | R | esito |
+|---|---|---|---|---|
+| parole diverse per 10.000 | 2.812 | 3.064 | 1,09 | la catena la riproduce |
+| quota di parole uniche | 0,137 | 0,158 | **1,15** | la catena ne fa di più |
+| pendenza di Zipf (ranghi 10–1.000) | −1,10 | −1,13 | 1,03 | la catena la riproduce |
+
+- **Esito preregistrato:** riprodotte la quantità di parole diverse (appena) e la forma della legge di Zipf; le parole
+  uniche sono il 15% in più nella catena.
+- **Lettura:** il Voynich inventa un po' meno della propria catena di segni: ha meno parole che compaiono una volta sola.
+  Va con i meccanismi di riuso trovati stanotte (copia dalla riga sopra, ripetizione di memoria corta), che fanno
+  tornare parole già scritte al posto di forme nuove. La legge di Zipf invece viene già dalla catena.

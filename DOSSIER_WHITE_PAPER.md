@@ -1145,3 +1145,4 @@ conta poco, perché la loro giuntura è quasi zero.
 - **Nessun generatore evita l'inizio uguale sul margine sinistro** (e3a95): Naibbe 0,93, Timm e Schinner 1,10 (non evitano), U2 1,38, U3 2,05 (ripetono), contro 0,51 del Voynich. Tratti che nessun generatore pubblicato ha: giuntura, chiusura della riga, ripresa di memoria corta nella riga, evitamento sul margine.
   - Si ritrova con Takahashi (e3a96: Δ +0,17, IC +0,11 – +0,23; a distanza 2 +0,03).
   - Il salto di un disegno azzera la ripetizione immediata come l'a capo (e3a97: eccesso +0,0047 nelle coppie continue, z 4,3; −0,0048 a cavallo del salto, 665 coppie). Il tratto scritto di seguito è l'unità della scrittura anche per la memoria corta.
+  - La catena riproduce la quantità di vocabolario e la legge di Zipf (e3a98: parole diverse R 1,09; pendenza R 1,03) ma fa il 15% di parole uniche in più: il Voynich inventa un po' meno della propria catena, coerente con il riuso (copia e ripetizione).
