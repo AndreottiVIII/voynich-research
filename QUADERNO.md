@@ -11663,3 +11663,13 @@ Scarto della quota di spazi dalla media dello strato dei 4 segni, secondo la lun
   con la lunghezza della parola in corso, non con l'identità della parola.** In una lingua è il contrario.
 - Correzione delle letture provvisorie dell'e3b01 e dell'e3b02 ("preferenza contraria"): era un effetto della
   lunghezza.
+
+## 4/10/2026 (notte) — e3b04: con Takahashi lo spazio dipende dalla lunghezza e quasi niente dalla parola
+
+Preregistrato (`preregistrazioni/e3b04.md`). Stesso metodo dell'e3b03 sulla IT (15.372 punti facoltativi).
+- Differenza vera +0,099; nullo dentro strati × pagina +0,050 (sd 0,016), z +3,2: scarto lessicale +0,05 (ZL +0,04),
+  contro +4,0 nel latino.
+- Scarto della quota di spazi per lunghezza del pezzo a sinistra: 1 segno −0,053, 2 −0,121, 3 +0,003, 4 +0,065,
+  5+ +0,104 (come nella ZL).
+- **Esito preregistrato: si ritrova.** C'è una preferenza lessicale statisticamente visibile ma minuscola (un
+  centesimo di quella di una lingua); la lunghezza del pezzo in corso conta molto di più.
