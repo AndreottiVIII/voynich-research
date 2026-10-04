@@ -13349,3 +13349,16 @@ parole più frequenti (*þa*, *þe*, *þæt*, *þam*, *þu*, *þt*, *þanne*, *�
 - **Lettura:** con i due scribi veri del corpus (Hatton Gospels, Codex Marianus) non si può dire né che uno scriba
   medievale abbia una memoria corta delle scelte come il Voynich, né che non la abbia. La domanda resta aperta e
   richiede altri manoscritti con varianti più equilibrate.
+
+## 4/10/2026 (notte) — e3b79: crescita di -ey scendendo nella pagina e apertura del paragrafo si ritrovano con Takahashi
+
+Preregistrato (`preregistrazioni/e3b79.md`). Misure dell'e3a81 su ZL e IT, intervalli bootstrap per pagina. Funzione
+provata su pagine finte (con deriva +0,162; senza −0,012).
+
+| proprietà | ZL (IC 95%) | IT (IC 95%) |
+|---|---|---|
+| apertura del paragrafo (quota di *p*/*f* nella prima riga meno nelle altre) | +0,044 (+0,041 – +0,047) | +0,043 (+0,040 – +0,047) |
+| -*ey* scendendo nella pagina (metà bassa − metà alta, fra -*dy*/-*ey*) | +0,080 (+0,047 – +0,116) | +0,084 (+0,050 – +0,119) |
+
+- **Esiti preregistrati: si ritrovano con Takahashi** tutte e due, con intervalli per pagina ben sopra lo zero. Due
+  delle quattro proprietà verticali che la catena di segni non spiega (e3a81) sono quindi solide.
