@@ -12549,3 +12549,29 @@ contiene 0). Togliere le coppie simili rende la prova prudente (toglie più copp
   le parole simili l'accordo non sale: la piccola modifica fra un'etichetta e la successiva cade spesso proprio su una
   scelta. Quadro: la memoria corta delle scelte vive solo dentro un tratto scritto di fila (riga, cerchio, e le righe
   delle pagine di solo testo).
+
+## 4/10/2026 (notte) — e3b49: le scelte di grafia non sono legate alla parola intera, solo ai segni vicini
+
+Preregistrato (`preregistrazioni/e3b49.md`). Risparmio in bit per occorrenza, fuori campione (pagine pari/dispari),
+nel prevedere la scelta conoscendo la parola intera oltre ai due segni prima e dopo. Codice provato su testi finti
+(scelte legate alla parola +0,088–0,095; scelte solo dai segni vicini −0,010; testo finto riscritto dalla catena −0,014).
+
+| classe | occorrenze | Voynich | catena: media (massimo di 5) | Naibbe | U2 | U3 | Timm e Schinner |
+|---|---|---|---|---|---|---|---|
+| *qo*/*o* | 8.818 | −0,021 | −0,034 (−0,025) | −0,013 | −0,016 | −0,003 | −0,042 |
+| *k*/*t* | 13.799 | −0,026 | −0,030 (−0,025) | +0,015 | +0,013 | −0,010 | −0,053 |
+| *sh*/*ch* | 13.449 | −0,037 | −0,033 (−0,031) | +0,001 | −0,020 | −0,019 | −0,026 |
+| -*ey*/-*dy* | 9.722 | −0,011 | −0,017 (−0,012) | **+0,046** | +0,024 | −0,002 | −0,013 |
+
+- **Esito preregistrato: solo segni vicini.** In tutte e 4 le classi il Voynich non supera il massimo delle 5 catene di
+  0,005 bit (al più +0,004 per *qo*/*o*). I valori negativi vengono dal costo del modello più ricco fuori campione: dove
+  la parola non aiuta, il modello B perde un poco.
+- **Confronto:** Naibbe e U2 hanno scelte legate alla parola (*k*/*t* +0,015 e +0,013; -*ey*/-*dy* +0,046 e +0,024),
+  come ci si aspetta da generatori che pescano parole da tabelle. Timm e Schinner no.
+- **Lettura:** nel Voynich una parola non ha una "sua" grafia: sapere qual è la parola non aiuta a prevedere *qo*/*o*,
+  *k*/*t*, *sh*/*ch*, -*ey*/-*dy* oltre quello che dicono i segni vicini (e, a parte, la memoria corta). **Questo
+  ridimensiona l'e201** ("parole lessicalizzate con k o t"): quel risparmio si spiega con i segni vicini, che una catena
+  di ordine 2 riproduce. In una lingua scritta con varianti grafiche, le varianti tendono a essere proprie di certe
+  parole; qui no.
+- **Da fare (e3b50):** replica con Takahashi e taratura della sensibilità (quanto legame con la parola, aggiunto al
+  Voynich, la prova riesce a vedere).
