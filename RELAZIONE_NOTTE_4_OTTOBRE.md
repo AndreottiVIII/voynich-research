@@ -195,3 +195,19 @@ Correzioni di questa parte:
   Naibbe e di Timm e Schinner (e meno di tutte le lingue).
 - e3a87 → e3a89: che "la riga sopra conti di più a parità di distanza" succede anche nelle lingue; non è distintivo.
 - e3a90: una regola preregistrata classificava male Naibbe (rapporto fra due numeri quasi zero); dichiarato.
+
+## Aggiornamento (verso le 2:45): ripetizione e raccordo, e una domanda sugli spazi ancora aperta
+
+- **La ripetizione di memoria corta vale ovunque:** in lingua A e B, per le mani 1, 2, 3 (e3a91) e con l'alfabeto di
+  Glen Claston, che conferma anche la sintesi della catena (e3a92).
+- **Quando lo scriba ripete subito una parola e ne cambia l'inizio, lo fa per rispettare il raccordo** (e3a93, replicato
+  con Takahashi in e3a96). Esempi: *okeey qokeey* (dopo -*y* aggiunge *q*), *qokar okar* (dopo -*r* lo toglie). Anche
+  quando cambia la fine, la fine nuova si accorda con la parola dopo (e3a94).
+- **Il salto di un disegno azzera la ripetizione immediata, come l'a capo** (e3a97): il tratto scritto di seguito è
+  l'unità della scrittura per giuntura, inizio riga e memoria corta.
+- **Nessun generatore evita di cominciare la riga come la precedente** (e3a95; U3 anzi ripete).
+- **La catena riproduce la quantità di vocabolario e la legge di Zipf**, ma fa il 15% di parole uniche in più: il
+  Voynich inventa un po' meno della propria catena (e3a98).
+- **Domanda aperta: lo spazio facoltativo segue la parola intera?** Nelle lingue sì, fortissimamente (e3a99). Nel
+  Voynich no, anzi il valore è un po' al contrario (e3a99, e3b01). Ma potrebbe dipendere dal fatto che ogni mano, o
+  pagina, spazia in modo diverso: è in corso il controllo con il confronto dentro la stessa pagina (e3b02).
