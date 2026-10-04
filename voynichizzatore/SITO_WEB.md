@@ -135,3 +135,53 @@ Si può dire:
   si vede. Verrà corretto in una versione futura.
 - Versioni future: un manoscritto si rilegge **solo con la versione che l'ha scritto**. Il sito deve mostrare la
   versione (v17) e, quando ne arriverà una nuova, tenere la vecchia disponibile per leggere.
+
+## 11. Scelte di Davide (4/10/2026, mattina)
+
+- **Ospitare:** GitHub Pages, indirizzo gratuito `andreottiviii.github.io/voynichizzatore`; il dominio si compra dopo,
+  se serve. Codice del sito nel repo pubblico `voynichizzatore`, cartella `docs/`; il programma non si tocca.
+- **Calcolo:** prima la prova del browser (passo 0, fatta: §12). GitHub Pages non fa calcoli, quindi con il calcolo nel
+  browser il sito costa zero.
+- **Che cosa deve esserci:**
+  - **Write**, semplice: si mette testo e chiave ed esce il manoscritto (EVA `.txt` sempre, PDF in voynichese);
+    **mentre si aspetta, qualcosa di divertente**, tipo un amanuense che scrive;
+  - **Read**, il decifratore: si carica il `.txt`, si dà la chiave, torna il testo;
+  - **How it works**: il procedimento del generatore spiegato **passo per passo, in modo rigoroso ma comprensibile**, in
+    una pagina a parte (non durante l'attesa);
+  - **spazio per le ricerche** fatte sul Voynich (contenuto da decidere con Davide: il white paper si scrive solo
+    quando lo dice lui).
+
+## 12. Prova del browser (passo 0, 4/10/2026, 10:20–10:50)
+
+Pacchetto v17 **senza modifiche** dentro Pyodide 314.0.7 (Python 3.14.2, numpy 2.4.6, scipy 1.18.0, scikit-learn
+1.8.0, matplotlib 3.10.8), in un web worker, sul PC di Davide (i5-12600K, con l'e416 in esecuzione). Testo e chiave di
+`prova.py`. File della prova nella cartella temporanea della sessione (non conservati).
+
+| prova | esito |
+|---|---|
+| `hashlib.scrypt` | **manca** in Pyodide 314 (niente OpenSSL). Fornita da JavaScript (`@noble/hashes` 2.4.0) e messa in `hashlib` prima di caricare il programma: vettore di prova ufficiale giusto, valore con la chiave di prova identico al PC, 0,1 s |
+| rilettura nel browser del manoscritto scritto sul PC | **sì**, 12 s (PC 5–6 s) |
+| chiave sbagliata | rifiutata ("wrong key, or manuscript without a message") |
+| scrittura nel browser | 214 s (PC 105 s da solo; 166 s con due scritture in parallelo e l'e416) |
+| manoscritto del browser identico byte per byte a quello del PC | **no**: 4.047 righe su 4.050 diverse |
+| rilettura nel browser del manoscritto scritto nel browser | sì |
+| **rilettura sul PC del manoscritto scritto nel browser** | **sì**, 6,5 s |
+| PDF nel browser | 207 pagine in 11,5 s; uguale a vista a quello del PC (285 KB contro 558: cambia solo la compressione di matplotlib 3.10 contro 3.11) |
+| memoria massima | circa 480 MB (con il PDF; 400 MB per scrivere) |
+| da scaricare al primo accesso | circa 27 MB (Python, numpy, scipy, scikit-learn) + 10 MB solo per il PDF (matplotlib) |
+
+**Perché i manoscritti sono diversi ma si rileggono:**
+- sul PC il programma è deterministico anche cambiando `PYTHONHASHSEED` (semi 0 e 12345: identici fra loro e al
+  manoscritto del pacchetto);
+- nel browser le **parole di ogni pagina** sono identiche a quelle del PC: 207 pagine su 207, 34.974 parole, stesso
+  numero di righe per pagina;
+- cambia solo **l'ordine delle parole nelle righe** (la disposizione, che usa calcoli in virgola mobile e
+  scikit-learn), che non porta informazione: per rileggere servono solo le parole di ogni pagina e la chiave.
+
+**Conseguenze per il sito:**
+- il calcolo nel browser si può fare: niente server, costo zero, testo e chiave non lasciano il computer;
+- `scrypt` va fornito da JavaScript (libreria da copiare nel sito, non presa da un CDN);
+- non promettere "stesso testo e stessa chiave danno lo stesso manoscritto del programma": danno le stesse parole per
+  pagina, in un ordine che può cambiare; si rilegge nei due sensi;
+- è una prima prova di rilettura in un ambiente diverso (versioni di Python e librerie diverse, WebAssembly), ma con
+  **una sola chiave**: nel collaudo ripeterla con più chiavi e testi, nei due sensi, prima di aprire il sito.

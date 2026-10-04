@@ -774,3 +774,17 @@ come **PDF del libro**.
 
 - Davide ha visto il confronto (`esecuzioni/voynichizzatore/carattere_confronto.png`) e ha approvato: forche con gambe vicine e inclinate, cappi piccoli e tondi, barra curva; la "l" con occhiello in basso e due braccia. Font rifatto, PDF di prova rifatto, pacchetto pubblico aggiornato.
 - Righe troppo lunghe: la causa è che la v17 fissa le *parole* per riga e non lo spazio (in parole 3,8% contro 3,2% del vero; in caratteri 5,3% contro 2,9%; soglia 1,25: 18% contro 6%). Davide ha approvato un esperimento (e416): nuova regola nella disposizione che pareggia la larghezza in caratteri. Se migliora diventa v18 e va online.
+
+## 4/10/2026, 10:50 — Sito web: scelte di Davide e prova del browser (chat del sito)
+
+- Scelte di Davide: GitHub Pages, indirizzo gratuito, codice in `docs/` del repo pubblico; pagine Write (con un
+  amanuense che scrive durante l'attesa), Read (decifratore), How it works (procedimento passo per passo, rigoroso),
+  spazio per le ricerche. Dettagli in `SITO_WEB.md`, §11.
+- **Prova del browser (passo 0) riuscita:** il pacchetto v17 senza modifiche gira in Pyodide 314; manca solo
+  `hashlib.scrypt`, fornito da JavaScript con risultato identico. Rilettura nei due sensi (PC → browser e browser → PC)
+  riuscita; scrittura 214 s; memoria circa 480 MB; primo accesso circa 27 MB + 10 MB per il PDF.
+- **Il manoscritto scritto nel browser è diverso da quello del PC** ma ha le stesse parole in ogni pagina (207 su 207):
+  cambia solo l'ordine nelle righe, che non porta informazione. Sul PC il programma è deterministico anche con semi di
+  hash diversi. Prima prova di rilettura in un ambiente diverso (§10 della scheda): passata, ma con una sola chiave.
+  Numeri in `SITO_WEB.md`, §12.
+- Per la v18 (e416): il sito terrà ogni versione in una cartella sua, così la v17 resta leggibile.
