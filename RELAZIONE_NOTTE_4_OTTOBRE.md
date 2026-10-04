@@ -237,6 +237,9 @@ scritto nella seconda parte. Le dico subito.
    zero: non è un effetto dei segni vicini; e sulle variabili che non dovrebbero averla (numero di *i*, finale -*l*/-*r*)
    la misura dà zero (e3b77). Si consuma con le lettere scritte, come avevo visto con la misura grezza (e3b80). Naibbe,
    U2, U3 e Timm e Schinner non la hanno (e3b62, e3b69, e3b70).
+   **In numeri semplici:** dopo una parola con *qo*-, la parola della stessa classe 2–3 parole dopo ha *qo*- nel 55% dei
+   casi, contro il 37% dopo una parola con *o*-; a 6–10 parole 44% contro 36%. La memoria aggiunge circa 10 punti
+   percentuali (e3b82).
 2. **Correzione: all'a capo la memoria non si azzera.** Passa per circa metà (e3b66, con tutte e due le trascrizioni), e
    oltre il salto di un disegno passa per intero (e3b67). Anche la ripetizione di parole passa l'a capo, per circa un
    quarto (e3b68). Alla fine del paragrafo invece la stima è circa zero (non dimostrato, e3b73). Quello che riparte a
