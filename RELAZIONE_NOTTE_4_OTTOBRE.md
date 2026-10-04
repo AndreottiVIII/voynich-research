@@ -223,7 +223,7 @@ Figure nuove (in `risultati/figure/`): `vocabolario.png`, `spazi.png`, `catena_s
 - Per l'altra chat (voynichizzatore), tutto è nel file `PASSAGGIO_VOYNICHIZZATORE.md`; la cosa più importante è che le
   "12 scelte di riga" vanno sostituite da una memoria corta che si consuma con le lettere.
 
-# Terza parte (dalle 3:30 in poi): e3b37 – e3b70
+# Terza parte (dalle 3:30 in poi): e3b37 – e3b80
 
 Questa parte è stata soprattutto un lavoro di **verifica della memoria corta**, e ha cambiato due cose che ti avevo
 scritto nella seconda parte. Le dico subito.
@@ -235,10 +235,12 @@ scritto nella seconda parte. Le dico subito.
    Takahashi +0,076, intervalli ben sopra lo zero), in tutte e quattro le scelte (*qo*/*o*, *k*/*t*, *sh*/*ch*,
    -*ey*/-*dy*) e **in tutte le mani, alla pari**. Sul Voynich riscritto dalla sua catena di segni la stessa misura dà
    zero: non è un effetto dei segni vicini; e sulle variabili che non dovrebbero averla (numero di *i*, finale -*l*/-*r*)
-   la misura dà zero (e3b77). Si consuma con le lettere scritte, come avevo visto con la misura grezza (e3b80). Naibbe, U2, U3 e Timm e Schinner non la hanno (e3b62, e3b69, e3b70).
+   la misura dà zero (e3b77). Si consuma con le lettere scritte, come avevo visto con la misura grezza (e3b80). Naibbe,
+   U2, U3 e Timm e Schinner non la hanno (e3b62, e3b69, e3b70).
 2. **Correzione: all'a capo la memoria non si azzera.** Passa per circa metà (e3b66, con tutte e due le trascrizioni), e
    oltre il salto di un disegno passa per intero (e3b67). Anche la ripetizione di parole passa l'a capo, per circa un
-   quarto (e3b68). Quello che riparte a ogni interruzione è la **catena di segni**: il raccordo *qo*/*o* e la giuntura fra
+   quarto (e3b68). Alla fine del paragrafo invece la stima è circa zero (non dimostrato, e3b73). Quello che riparte a
+   ogni interruzione è la **catena di segni**: il raccordo *qo*/*o* e la giuntura fra
    l'ultimo segno e il primo. L'errore di prima veniva dalle forme di bordo: fine riga e inizio riga hanno scelte diverse
    dalla media della pagina, e il confronto con la media faceva sembrare azzerato quello che non lo era.
 3. **Uno scriba medievale vero ha la stessa memoria? Non lo so ancora.** Nel corpus di controllo ho trovato due scribi
@@ -254,10 +256,11 @@ scritto nella seconda parte. Le dico subito.
    niente, *qo*/*o* e -*ey*/-*dy* al più un poco); nei generatori Naibbe e U2 sì (e3b49, e3b50, e3b61).
 6. **Le 6 pagine di solo testo** (f1r, f66r, f76r, f85r1, f86v5, f86v6): lì la catena di segni non riparte a ogni riga
    (la giuntura fra l'ultimo segno di una riga e il primo della seguente resta, e3a06, ritrovata con Takahashi e assente
-   con la riga sopra, e3b72) e le parole continuano da una
-   riga all'altra. Per la memoria delle scelte invece sono come le altre pagine (passa l'a capo per circa metà, e3b71):
-   l'accordo più alto che avevo visto lì veniva dal modo di confrontare.
-7. **Le etichette ripartono da capo** nelle scelte, anche se si copiano la forma (e3b48).
+   con la riga sopra, e3b72) e le parole continuano da una riga all'altra. Per la memoria delle scelte invece sono come
+   le altre pagine (passa l'a capo per circa metà, e3b71): l'accordo più alto che avevo visto lì veniva dal modo di
+   confrontare.
+7. **Le etichette ripartono da capo** nelle scelte, anche se si copiano la forma (e3b48); quando un'etichetta varia la
+   precedente, la modifica cade di rado sulle scelte (pochi dati, e3b74).
 
 ## Come ci sono arrivato (con i passi sbagliati)
 
@@ -309,7 +312,7 @@ significato.
 
 ## Lacune e proposta
 
-- Lo scriba vero è uno solo, in un'edizione di cui non so quanto sia fedele al manoscritto, e senza le righe originali.
-  Con una trascrizione diplomatica di un manoscritto medievale (con le righe del manoscritto e le varianti dello scriba)
-  si potrebbe dire se la memoria corta è un'abitudine normale e se anche lì passa l'a capo per metà. Scaricarla richiede
-  il tuo permesso.
+- Gli scribi veri del corpus sono due (Hatton Gospels, Codex Marianus) e tutti e due danno risposte incerte: varianti
+  molto sbilanciate o legate a poche parole grammaticali, e niente righe originali. Con trascrizioni diplomatiche di
+  manoscritti medievali con varianti più equilibrate (e con le righe del manoscritto) si potrebbe dire se la memoria
+  corta è un'abitudine normale degli scribi e se anche lì passa l'a capo per metà. Scaricarle richiede il tuo permesso.
