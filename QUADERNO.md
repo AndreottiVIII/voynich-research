@@ -14411,3 +14411,29 @@ contraddizione con l'e3c13.
   per le altre): non è una questione di spazio, perché cambiare *k* con *t* o *sh* con *ch* non risparmia segni.
 - Figura `risultati/figure/deriva_riga.png`: scarto della quota marcata dalla media della propria parola lungo la riga, in
   A (più piatto) e in B (calo netto da +0,065 a −0,07), con prima parola, ultima e parole accanto al disegno.
+
+## 4/10/2026 (mattina) — e3c24: la *q* cade solo dopo il disegno, dove lo tocca (correzione della lettura dell'e3c23)
+
+Preregistrato (`preregistrazioni/e3c24.md`). ZL, *qo*/*o*, regressione dentro strati (parola coperta) su x, F, L, S, E.
+
+| termine | coefficiente (IC 95%) |
+|---|---|
+| x, ogni 10 segni | −0,017 (−0,029 – −0,003) |
+| F, prima parola della riga | +0,097 (+0,042 – +0,158) |
+| L, ultima parola della riga | −0,058 (−0,110 – −0,010) |
+| **S, prima parola dopo il disegno** | **−0,330** (−0,400 – −0,256) |
+| E, ultima parola prima del disegno | −0,074 (−0,198 – +0,053) |
+| E − S | +0,256 (+0,124 – +0,399) |
+
+147 parole *qo*/*o* dopo un disegno, 110 prima.
+
+- **Esito preregistrato: la *q* cade solo dopo il disegno, dove lo tocca.** Dopo il disegno *qo* è 33 punti più raro;
+  prima del disegno il calo è piccolo e non dimostrato.
+- **Correzione della lettura dell'e3c23:** avevo scritto "chi scrive lascia cadere la *q* per risparmiare spazio". Non
+  è spazio pianificato (allora cadrebbe anche prima del disegno). L'effetto sta tutto nella parola che comincia contro il
+  disegno.
+- **Due letture restano aperte:** (1) chi scrive, ripartendo subito dopo un disegno, comincia la parola con *o* invece che
+  con *qo* (non come a inizio riga, dove *qo* è anzi più frequente: +0,10); (2) chi trascrive non vede o non separa la *q*
+  quando è attaccata al disegno (per esempio a un gambo). Senza le immagini delle pagine non si decide.
+- Per la memoria e la deriva questo conta poco (poche parole); per il generatore è un dettaglio da imitare solo se è
+  scrittura e non lettura.
