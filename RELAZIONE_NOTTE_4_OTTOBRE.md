@@ -274,7 +274,7 @@ scritto nella seconda parte. Le dico subito.
 
 **Attenzione, scoperta delle 5:30 (e3b91):** con la stessa misura, l'**accordo grammaticale** delle lingue (italiano
 "la casa bianca", -*o*/-*a*; latino -*us*/-*a*) dà un effetto della stessa grandezza della "memoria" del Voynich (0,6–1,1
-volte). Quindi la memoria delle scelte del Voynich, soprattutto per -*ey*/-*dy* (una desinenza) e *qo*/*o* (un inizio di
+volte; lo swahili, con l'accordo dei prefissi *m*-/*wa*-, addirittura il triplo, e3b93). Quindi la memoria delle scelte del Voynich, soprattutto per -*ey*/-*dy* (una desinenza) e *qo*/*o* (un inizio di
 parola), ha **la forma che avrebbe un accordo fra parole** in una lingua. Non è un argomento per "testo senza
 significato"; semmai il contrario. Un primo tratto che li distingue: nel Voynich la memoria si consuma con le lettere
 scritte (+0,066), nell'accordo grammaticale delle lingue quasi no (media +0,015) (e3b92). Quindi una parte della memoria
