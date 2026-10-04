@@ -116,3 +116,14 @@ Cautele: e' la dichiarazione del curatore del sito, non un parere legale; la nos
 ridistribuisce (stessa impronta SHA-256 dell'originale, vedi dati/FONTI.md).
 
 **Decisione di Davide (4/10, 8:40): si pubblica la v14.**
+
+## 8. Stato del pacchetto (4/10, 9:50)
+
+- Versione scelta da Davide: **v17**. Il pacchetto si ricostruisce con `.venv/Scripts/python strumenti/costruisci_pubblico.py`
+  e sta in `pubblico/voynichizzatore/` (17 file, circa 480 KB, quasi tutti nel file del testo).
+- Fatto: dati al posto della trascrizione (§3: si è scelto di includere il testo corrente ripulito, visto il pubblico
+  dominio, invece di statistiche astratte: garantisce gli stessi risultati del repo); cifratura robusta; programma che
+  non dipende dal resto del repo; istruzioni con i numeri e i limiti (`LEGGIMI.md`).
+- Non fatto: licenza del programma; prova di rilettura su un secondo computer; giudice indipendente; uscita come
+  immagine; pagina web.
+- **Niente è stato pubblicato:** creare il repo pubblico e caricarlo richiede il via esplicito di Davide.

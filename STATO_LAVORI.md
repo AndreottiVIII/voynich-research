@@ -313,6 +313,16 @@ Dettagli nel QUADERNO e nel dossier (§15.5–15.11).
   - la lettura A/B dell'e307 (corretta dall'e315);
   - "la riga sopra non conta" del primo modello (corretta dall'e338/e340).
 
+## vz: stato del voynichizzatore (chat del voynichizzatore, 4/10 alle 9:50)
+
+**Versione corrente e scelta per la pubblicazione: v17** = v14 + cifratura robusta (scrypt, SHAKE-256, HMAC) + gabbia
+delle pagine estratta dalle statistiche (nessuna pagina ha la gabbia di una pagina vera). Su 12 chiavi, Isidoro nascosto:
+AUC e231 0,563 ± 0,008, e266 0,601 ± 0,006, pagella 15,0 su 17 raggiungibili, materie aggiunte 5,8 su 8, cancello della
+riga 11 su 12, testo esatto 12 su 12. v15 (gabbia vera) e v16 (gabbia di un'altra pagina) sono pari entro l'errore.
+
+Il pacchetto da pubblicare è pronto in `pubblico/voynichizzatore/` (lo costruisce `strumenti/costruisci_pubblico.py`);
+**non è stato pubblicato**. Che cosa manca e che cosa decidere: `voynichizzatore/PUBBLICAZIONE.md`, §8.
+
 ## vz: stato del voynichizzatore (chat del voynichizzatore, 4/10 alle 7:00)
 
 Sostituisce i numeri delle due sezioni seguenti. **Versione migliore: v14** (predefinita nello strumento).
