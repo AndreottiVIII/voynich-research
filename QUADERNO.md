@@ -12295,3 +12295,17 @@ Preregistrato (`preregistrazioni/e3b36.md`). Repliche sulla IT.
 - **Correzione della lettura dell'e3b13:** la memoria di *qo*-/*o*- a parità di raccordo va nella stessa direzione con
   tutte e due le trascrizioni, ma con la IT l'intervallo contiene lo zero (con la ZL era appena sopra). È un indizio, non
   un risultato. Per le altre scelte (*sh*/*ch*, -*ey*/-*dy*, *ee*/*e*, *k*/*t*) la memoria non dipende dal raccordo e regge.
+
+## 4/10/2026 (notte) — e3b37: la memoria corta delle scelte c'è anche nei testi in cerchio
+
+Preregistrato (`preregistrazioni/e3b37.md`). Righe di cerchio e di raggio della ZL (225 righe, 2.691 parole).
+
+| coppie | quante | eccesso di accordo |
+|---|---|---|
+| vicine (d 2–3) | 2.132 | +0,071 |
+| lontane (d 6–10) | 3.854 | +0,031 |
+
+Differenza vicino − lontano **+0,041**, IC 95% +0,016 – +0,068 (nei paragrafi +0,031). **Esito preregistrato: memoria
+corta anche nei cerchi.** Anche l'eccesso lontano è positivo, perché l'atteso è preso da tutti i testi in cerchio insieme
+(ogni cerchio ha il suo stile); conta la differenza. La memoria corta è un fatto dell'atto di scrivere, non solo dei
+paragrafi: c'è anche quando si scrive in tondo attorno a un disegno.
