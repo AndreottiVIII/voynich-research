@@ -11355,3 +11355,36 @@ di ordine 2), tre misure di ripetizione nella riga.
 - **Lettura, con l'e3a83:** lo scriba riprende ciò che ha appena scritto, nella stessa riga (ripetizioni) e nella riga
   sopra (con preferenza per le ultime parole). È un solo comportamento visto a due distanze: riprendere materiale
   recente. Va aggiunto alla lista dei meccanismi che la catena non spiega.
+
+## 4/10/2026 (notte) — e3a87: nella riga la ripresa cala con la distanza, dalla riga sopra no: due meccanismi
+
+Preregistrato (`preregistrazioni/e3a87.md`). Codice provato prima su un paragrafo inventato. Eccesso di parole identiche a
+distanza d (in parole, nello stesso paragrafo) rispetto al Voynich riscritto dalla catena di ordine 2.
+
+| d | eccesso, stessa riga | eccesso, a cavallo dell'a capo |
+|---|---|---|
+| 1 | +0,0064 | −0,0006 |
+| 2 | +0,0070 | +0,0033 |
+| 3 | +0,0066 | +0,0051 |
+| 4 | +0,0063 | +0,0062 |
+| 5 | +0,0039 | +0,0060 |
+| 6 | +0,0048 | +0,0061 |
+| 7 | +0,0010 | +0,0073 |
+| 8 | +0,0007 | +0,0048 |
+| 10 | +0,0006 | +0,0061 |
+| 15 | (poche coppie) | +0,0046 |
+| 20 | (poche coppie) | +0,0047 |
+
+- Media per d da 3 a 8: stessa riga +0,0048, a cavallo +0,0060; differenza **−0,0012**, IC 95% −0,0022 – −0,0003.
+  **Esito preregistrato: la riga sopra conta di più.**
+- **Il profilo dice di più:**
+  - **nella stessa riga** la ripresa è forte per le parole appena scritte (d 1–4) e cala fino quasi a zero da d 7: è un
+    effetto di memoria recente;
+  - **dalla riga sopra** è piatta: circa +0,005 da 3 fino a 20 parole indietro, cioè da tutta la riga sopra (e un po'
+    da quella prima ancora), senza calare con la distanza. È lo sguardo alla riga sopra, non la memoria;
+  - a d = 1 a cavallo dell'a capo (ultima parola della riga sopra e prima della nuova) l'eccesso è zero: la riga nuova
+    non comincia ripetendo l'ultima parola scritta (va con la chiusura della riga e con l'evitamento sul margine).
+- **Correzione della lettura dell'e3a83/e3a86:** avevo unito le due riprese come "un solo comportamento visto a due
+  distanze". Non è così: nella riga c'è una ripresa di memoria che si spegne in poche parole; dalla riga sopra una
+  ripresa che non dipende dalla distanza (la leggera preferenza per la fine della riga sopra dell'e3a83 resta, ma è
+  piccola rispetto a questa uniformità).
