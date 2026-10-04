@@ -403,3 +403,6 @@ Misure con il metodo finale (vedi DOSSIER, sezione 15.13). Da imitare:
     (−0,036 ogni 10 segni) che nella seconda (−0,017); la prima parola della riga sta sulla deriva, l'ultima ha 2,5 punti
     in meno; le parole che toccano un disegno, prima e dopo, 5–7 punti in meno; dopo un disegno la deriva continua (non
     riparte come a capo).
+17. (e3c23) **Spazio:** accanto a un disegno *qo* diventa *o* molto più spesso (−23 punti), e un po' anche all'ultima
+    parola della riga (−6); le altre scelte no. A inizio riga: più *qo* (+10) e *sh* (+9), meno *k* (−15, cioè più *t*).
+    La deriva lungo la riga è uguale per tutte le scelte. Figura `risultati/figure/deriva_riga.png`.
