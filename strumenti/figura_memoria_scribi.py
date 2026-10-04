@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Figura di sintesi (nessun dato nuovo): memoria delle scelte di grafia oltre le parole (effetto = M osservata − media del
 nullo largo dell'e3b62), con intervalli al 95% ricampionando pagine o blocchi interi (e3b70): Voynich ZL e IT e per
-mano, scriba anglosassone (þ/ð, i/y), altri testi storici (i/y), generatori. Scrive risultati/figure/memoria_scribi.png.
+mano, scriba anglosassone (þ/ð, i/y), altri testi storici (i/y), Codex Marianus (e3b75), generatori. Scrive risultati/figure/memoria_scribi.png.
 """
 import json, os
 
@@ -28,11 +28,14 @@ def main():
             ('Secreta Alberti\n(inglese), i/y', 'Secreta Alberti, i/y', '#8ac'),
             ('Naibbe', 'Naibbe (Greshko 2025), a capo', 'tab:green'), ('U2', 'U2 (Whitehatnetizen 2026)', 'tab:green'),
             ('U3', 'U3 (Whitehatnetizen 2026)', 'tab:green'), ('Timm e Schinner', 'Timm e Schinner, seme 1', 'tab:green')]
-    fig, ax = plt.subplots(figsize=(11, 4.8))
+    mar = carica('e3b75_marianus.json')
+    a['Codex Marianus, и/ꙇ'] = {'effetto': mar['effetto'], 'IC95': mar['IC95']}
+    voce.insert(8, ('Codex Marianus, due\nforme di i a inizio parola', 'Codex Marianus, и/ꙇ', 'tab:purple'))
+    fig, ax = plt.subplots(figsize=(11.5, 4.8))
     for i, (nome, k, col) in enumerate(voce):
         x = a[k]
         e, (lo, hi) = x['effetto'], x['IC95']
-        ns = lo <= 0
+        ns = lo <= 0 <= hi
         ax.bar(i, e, color=col, alpha=0.45 if ns else 1.0, hatch='//' if ns else None, edgecolor='0.4' if ns else col)
         ax.errorbar(i, e, yerr=[[e - lo], [hi - e]], color='0.2', capsize=3)
     from matplotlib.patches import Patch
@@ -41,7 +44,7 @@ def main():
     ax.set_xticks(np.arange(len(voce)))
     ax.set_xticklabels([v[0] for v in voce], rotation=30, ha='right', fontsize=8)
     ax.set_ylabel('memoria delle scelte oltre le parole\n(normalizzata, vicine − lontane, meno il nullo)')
-    ax.set_title('Memoria corta delle scelte: solida nel Voynich (tutte le mani), assente nei generatori, incerta nello scriba vero', fontsize=10)
+    ax.set_title('Memoria corta delle scelte: solida nel Voynich (tutte le mani), assente nei generatori, incerta o opposta negli scribi veri', fontsize=10)
     fig.tight_layout()
     os.makedirs(os.path.join(R, 'figure'), exist_ok=True)
     out = os.path.join(R, 'figure', 'memoria_scribi.png')
