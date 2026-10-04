@@ -154,7 +154,8 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     (+0,064, persona del discorso -kum/-hum). Generatori con la stessa regola (e3c02): incerto, Naibbe +0,029 (debole, senza
     accordo accanto), gli altri zero. Corano e Naibbe non hanno la forma del Voynich (e3c03: zero fra parole accanto,
     picco a 2 parole il Corano, livello piatto Naibbe). Testi piccoli, erbari compresi (e3c04): nessuna memoria; i/y del NT
-    fiammingo da solo +0,055 (da verificare, e3c05). Figura `alternanze_automatiche.png`.
+    fiammingo da solo +0,055 (da verificare). Figura `alternanze_automatiche.png`.
+    Terza trascrizione GC in v101 (e3c05): la regola sceglie h/k, a/o, 7/8; memoria +0,039, stessa forma: replica.
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);

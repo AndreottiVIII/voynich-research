@@ -1311,7 +1311,9 @@ dolcemente; il Corano ha zero accanto e un picco a 2 parole (il suffisso di pers
 un livello basso e piatto. Con le classi automatiche il consumo con le lettere del Voynich è circa metà (+0,035/+0,040,
 al limite). Anche negli 8 testi piccoli (erbari e testi tecnici medievali compresi, e3c04) nessuna memoria nelle
 alternanze interne; da solo, *i*/*y* del NT fiammingo dà +0,055 (una classe, senza intervallo: da verificare). Figura
-`alternanze_automatiche.png`.
+`alternanze_automatiche.png`. **Terza trascrizione (e3c05, Glen Claston, alfabeto v101):** la regola sceglie di nuovo
+le gallows (*h*/*k*) e *a*/*o*; memoria +0,039 (+0,008 – +0,070), accordo accanto +0,147, R 0,44, stesso profilo. La
+memoria regge su tre trascrizioni, due alfabeti e due modi di scegliere le classi.
 
 **Formula per il white paper:** il Voynich ha, oltre alla catena di segni per riga e allo spazio non lessicale, una
 memoria corta delle scelte di grafia forte e uniforme (tutte le scelte, tutte le mani, due trascrizioni), che prosegue

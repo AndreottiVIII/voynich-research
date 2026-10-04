@@ -13894,3 +13894,25 @@ e 50.000 parole, fra cui gli erbari e i testi tecnici medievali. Riferimento: Vo
   verificare (e3c05).
 - Figura di sintesi delle alternanze automatiche: `risultati/figure/alternanze_automatiche.png` (a sinistra la memoria di
   tutti i testi, a destra la forma per Voynich, Corano e Naibbe), script `strumenti/figura_alternanze_automatiche.py`.
+
+## 4/10/2026 (mattina presto) — e3c05: la terza trascrizione (Glen Claston, v101) replica memoria e forma
+
+Preregistrato (`preregistrazioni/e3c05.md`). La regola automatica dell'e3c01 non sa niente dell'alfabeto; qui gira sulla
+trascrizione di Glen Claston (un altro trascrittore, alfabeto v101, un carattere per segno).
+
+| misura | GC (v101) | Voynich IT, classi automatiche (e3c03) |
+|---|---|---|
+| alternanze scelte dalla regola | *h*/*k* (gallows), *a*/*o*, *7*/*8* | *k*/*t*, *a*/*o*, *ch*/*e* |
+| memoria (IC 95%) | **+0,039** (+0,008 – +0,070) | +0,056 (+0,027 – +0,088) |
+| accordo fra parole accanto | **+0,147** (+0,098 – +0,198) | +0,185 |
+| R | 0,44 (0,16 – 0,65) | 0,55 (0,34 – 0,72) |
+| consumo con le lettere | +0,033 (−0,009 – +0,078) | +0,035 (−0,001 – +0,070) |
+| profilo d = 1…7 | +0,147 +0,093 +0,065 +0,080 +0,035 +0,043 +0,031 | +0,185 +0,129 +0,101 +0,071 +0,060 +0,060 +0,027 |
+
+- **Esito preregistrato: replica, memoria e forma come nelle altre due trascrizioni.** Con un altro trascrittore e un
+  altro alfabeto la regola sceglie di nuovo le gallows e *a*/*o*, e trova memoria con il massimo fra parole accanto e
+  calo dolce.
+- Il consumo con le lettere va nella stessa direzione e ha la stessa grandezza delle classi automatiche in EVA
+  (+0,033), con intervallo che tocca 0: con queste classi resta al limite, come nell'e3c03.
+- La memoria delle scelte del Voynich ora regge su tre trascrizioni (ZL, Takahashi, Glen Claston), due alfabeti e due
+  modi di scegliere le classi (a mano, automatico).
