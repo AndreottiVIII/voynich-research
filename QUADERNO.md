@@ -12198,3 +12198,12 @@ contro le stesse posizioni di un'altra riga del paragrafo, per classe di frequen
   una parola appena scritta** nella stessa riga. Va con l'e348, che aveva visto che le parole uniche non nascono dalla
   ripresa dalla riga sopra: nascono piuttosto dalla riga in corso.
 - Copia dalla riga sopra (e3b30) e memoria corta nella riga favoriscono tutte e due le forme rare, la seconda di più.
+
+## 4/10/2026 (notte) — Correzione della lettura dell'e3b31: le parole uniche con una "sorella" vicina sono poche
+
+Nella voce dell'e3b31 ho scritto che "molte parole uniche sembrano nascere come variazione di una parola appena scritta".
+È troppo forte. Dai numeri: eccesso +0,011 per parola e eccesso relativo +72% vogliono dire che il **2,6%** delle parole
+uniche ha una parola a una modifica fra le 4 precedenti nella stessa riga, contro l'**1,5%** atteso. L'eccesso relativo è
+grande, ma riguarda una piccola parte delle parole uniche: la stragrande maggioranza non ha una "sorella" vicina. Lettura
+corretta: **alcune** parole uniche (circa una su cento in più del caso) nascono come variazione di una parola appena
+scritta; da dove vengano le altre resta aperto (e296, e348: invenzioni o errori sparsi).
