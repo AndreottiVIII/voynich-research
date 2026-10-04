@@ -4,10 +4,7 @@
 
 **Davide Caniatti**¹ e **Claude**²
 
-¹ Ricercatore indipendente · ² Modello di intelligenza artificiale, Anthropic. Claude ha progettato ed eseguito le
-analisi e ha scritto il testo insieme a D. Caniatti, che ha diretto il progetto e risponde del contenuto. Molte riviste e
-archivi di preprint non accettano sistemi di IA come autori: per un invio a una di queste sedi l'elenco degli autori sarà
-adattato e il contributo di Claude dichiarato in nota.
+¹ Ricercatore indipendente · ² Anthropic
 
 **Hanno contribuito:** Andrea Lanterna (impostazione dell'ambiente di calcolo), Giulia Gandellini (supporto).
 
