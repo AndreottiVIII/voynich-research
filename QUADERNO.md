@@ -11948,3 +11948,22 @@ costruzione). Differenza della covarianza dei residui delle scelte fra parole vi
   *qo*), ma una scelta di un tipo non spinge le scelte di un altro tipo. Non c'è un "modo elaborato" passeggero che
   valga per tutte le varianti. Va con l'e206c (scelte quasi indipendenti).
 - **Per il voynichizzatore:** una memoria corta separata per ogni variante, non un unico stato.
+
+## 4/10/2026 (notte) — e3b19: anche k/t ha la memoria corta; il numero di i e la vocale iniziale no
+
+Preregistrato (`preregistrazioni/e3b19.md`). Differenza vicino (d 2–3) − lontano (d 6–10) dell'accordo, per altre scelte.
+
+| classe | coppie vicine / lontane | differenza | IC 95% | esito |
+|---|---|---|---|---|
+| gallows *k*/*t* | 8.968 / 4.953 | **+0,041** | +0,023 – +0,058 | memoria corta |
+| *ckh*/*cth* | 155 / 50 | – | – | dati insufficienti |
+| *aiiin*/*aiin* (numero di *i*) | 750 / 448 | −0,006 | −0,034 – +0,024 | nessuna memoria |
+| *ar*-, *al*-/*or*-, *ol*- | 494 / 350 | +0,043 | −0,024 – +0,116 | nessuna memoria (pochi dati) |
+| *ain*/*aiin* | 1.824 / 1.101 | +0,001 | −0,035 – +0,036 | nessuna memoria |
+
+- **Esito preregistrato:** memoria corta per *k*/*t*; nessuna per il numero di *i*; vocale iniziale con troppo pochi dati
+  per dire (intervallo largo).
+- **Quadro:** hanno la memoria corta le scelte fra segni "grandi" (gallows *k*/*t*, *qo*/*o*, *sh*/*ch*, *ee*/*e*,
+  -*ey*/-*dy*); non ce l'hanno il numero di trattini *i* (*ain*/*aiin*/*aiiin*) né -*l*/-*r* (che segue il raccordo).
+  Il numero di *i* si comporta come una variazione senza abitudine: forse dipende dal gesto della penna più che da una
+  scelta, o è in parte un fatto di lettura dei trascrittori.
