@@ -1494,11 +1494,12 @@ di Davide per scaricarli). Il Marianus (и/ꙇ) non è interpretabile con questa
   quasi tutti sotto il +0,131 del Voynich; per l'abbreviazione ±0,007 attorno a 0). Inoltre in questi scribi quasi tutte
   le forme di lettera sono fisse per parola o per posizione, mentre nel Voynich *k*/*t*, *sh*/*ch*, -*ey*/-*dy* variano
   dentro la stessa parola coperta. **La finestra non è un'abitudine generica di chi scrive a mano** (due scribi, una
-  tradizione: limite da dichiarare).
+  tradizione: limite da dichiarare). *Corretto dall'e3c58 – e3c59: vedi sotto, uno scriba su sei la ha.*
 - **Forme pure dentro il Voynich (e3c51):** le due forme di *d* (7/8) e di *e* (c/C) che solo Glen Claston distingue non
   hanno un accordo chiaro (+0,05 / +0,06 accanto, intervalli che toccano 0 – 0,01), mentre gallows (+0,117, r 0,88) e
   finali (+0,139, r 0,54) nella stessa trascrizione hanno la finestra. Insieme all'e3c50: **la finestra riguarda quale
   parola si scrive, non come si traccia la lettera** (cautela: la distinzione 7/8 e c/C è un giudizio del trascrittore).
+  *RITIRATO dall'e3c59: la s lunga/tonda di uno scriba vero, scelta di sola forma, ha la finestra.*
 - **Per scelta, in EVA (e3c52):** *k*/*t* e -*ey*/-*dy* hanno la finestra ciascuna da sola in ZL e IT (K corretto
   +0,136 – +0,176 accanto, +0,08 – +0,14 a 2–3 parole); *sh*/*ch* è al limite (accanto +0,10, a 2–3 parole estremo basso
   +0,018); *qo*/*o* niente accanto e accordo forte a 3 parole (+0,138).
@@ -1508,7 +1509,7 @@ di Davide per scaricarli). Il Marianus (и/ꙇ) non è interpretabile con questa
 - **Per sezione (e3c54):** la finestra c'è con la stessa forza in lingua A e in lingua B (+0,129 – +0,141 accanto, r 0,63
   – 0,67) ed è chiara in biologia, farmacia e ricette; nell'erbario e nelle pagine astronomiche le stime sono simili ma
   incerte (poche parole). **È un tratto di tutto il manoscritto, non di una sezione.**
-- **Formula aggiornata:** la finestra (accordo fra parole vicine della riga, fino a 2–3 parole, nelle scelte che cambiano
+- **Formula aggiornata (superata, vedi la formula dopo l'e3c59 qui sotto):** la finestra (accordo fra parole vicine della riga, fino a 2–3 parole, nelle scelte che cambiano
   la parola) è di tutto il manoscritto, in tutte e due le "lingue" di Currier e in tre trascrizioni; non si trova negli
   scribi veri provati (forme di lettera, abbreviazioni), nelle lingue artificiali, nei generatori pubblicati; nelle lingue
   naturali c'è un accordo grammaticale di forma simile solo nei testi più "lunghi" (latino tecnico di Plinio).
@@ -1517,6 +1518,23 @@ di Davide per scaricarli). Il Marianus (и/ꙇ) non è interpretabile con questa
   di Timm e Schinner (che copia parole vicine modificandole) fa il contrario: accordo solo fra parole simili (differenza
   +0,063, intervallo sopra 0; fra parole diverse +0,021, non dimostrato). Codice provato prima su testi finti. **La
   finestra è uno "stato" di 2 – 3 parole nelle scelte, non copia di parole vicine.** Il perché resta aperto.
+- **Posizione (e3c57):** con un nullo che conserva la posizione nella riga (e un placebo per l'effetto dei gruppi più
+  piccoli) la finestra resta +0,113 / +0,118 accanto e +0,080 / +0,075 a 2–3 parole (ZL / IT); la parte dovuta alla
+  posizione è circa 0 (ZL) o +0,011 (IT). Non viene dalla deriva lungo la riga.
+- **Altri quattro scribi (e3c58) e la prova decisiva (e3c59):** in AM 60 4to, AM 242 fol, Holm A 10, AM 302 fol (Menota)
+  11 scelte di forma di lettera su 12 non hanno accordo chiaro; **la s lunga/tonda dello scriba norvegese di AM 302 fol
+  (c. 1300) ha una finestra come il Voynich** (+0,125 / +0,098 / +0,066) e **supera le stesse prove** (blocchi di 5 righe
+  e nullo con la posizione: +0,107 / +0,083, contro +0,104 / +0,062 del Voynich nella stessa esecuzione). Holm A 10 ꝛ/r
+  è al limite (circa un terzo).
+- **Raccordo negli scribi (e3c60, batteria scribi):** in 11 scelte ai bordi della parola di 5 scribi, due hanno un legame
+  con la parola vicina (effetto/entropia +0,015 e +0,013, p < 0,001), le altre niente; il Voynich +0,058 (*qo*/*o* e
+  -*l*/-*r*), cioè **quattro volte il caso più forte**. Il raccordo resta proprio del Voynich.
+- **Formula dopo l'e3c59 (sostituisce la "formula aggiornata" sopra):** la finestra del Voynich (uno "stato" di 2 – 3
+  parole nelle scelte, non copia, non posizione) è di tutto il manoscritto, in tutte le mani e sezioni e in tre
+  trascrizioni; non c'è nei generatori pubblicati né nelle lingue artificiali. **Esiste però in uno scriba vero** (s
+  lunga/tonda, AM 302 fol), quindi è un comportamento possibile per chi scrive a mano; fra gli scribi provati è raro (1
+  scelta chiara su 18 in 6 scribi). Il Voynich è diverso per quantità (più scelte, tutte le mani), non per natura. Il
+  raccordo invece non ha paragone negli scribi (quattro volte il più forte).
 
 **Lezioni di metodo da riportare** (utili anche a chi legge): (1) confrontare con la media della pagina ai bordi della
 riga inganna, perché fine e inizio riga hanno forme proprie; (2) togliere le coppie "simili" guardando la parola intera
