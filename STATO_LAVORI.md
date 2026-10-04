@@ -107,6 +107,12 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     inizio parola +0,100; generatori nessuna (U3 debole) (e3b57). **La memoria corta è un tratto umano normale, non
     una firma del Voynich.** Nelle pagine di solo testo passa l'a capo la continuità delle parole, non dimostrata la
     memoria delle scelte (e3b55). Difetto di metodo trovato e corretto (esclusione delle coppie simili, e3b55/e3b56).
+  - **e3b58–e3b63 (quadro finale della notte sulla memoria):** con il nullo largo (rimescolamento fra le occorrenze della
+    stessa parola nella mano; e3b62) la memoria delle scelte oltre le parole è +0,086 ZL, +0,076 IT, in tutte e quattro
+    le scelte e **uguale in tutte le mani** (la differenza A/B dell'e3b59/e3b60 era un difetto del metodo); azzerata
+    all'a capo (+0,001 a cavallo, e3b63); nessun generatore la ha. Scriba anglosassone: memoria per þ/ð a inizio parola
+    (+0,10), non per i/y. Il raccordo dello scriba anglosassone è otto volte più debole di quello del Voynich (e3b58).
+    Figura `memoria_scribi.png`. Relazione della notte riscritta (terza parte).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
