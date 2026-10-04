@@ -15634,3 +15634,28 @@ K corretto (e3c48) per coppie della stessa scelta.
   di chi scrive (per esempio sessioni di scrittura). Prossimo: e3c75.
 - **Nota sulle misure precedenti:** il valore "a 4 – 6 parole" dell'e3c66 (+0,055) e la costante dell'e3c73 contengono
   questa componente lenta; la parte propria dello stato breve è quella che cala da +0,145 (accanto) verso +0,04 – +0,06.
+
+## 4/10/2026 (mattina) — e3c75: la componente lenta è uno stato lento che attraversa le righe, non la tendenza dall'alto in basso della pagina
+
+Preregistrato (`preregistrazioni/e3c75.md`; prova su testi finti: distingue tendenza verticale e stato lento). K corretto
+per coppie della stessa scelta secondo la distanza in righe, con l'atteso A (e3c48) e B (A più deriva verticale).
+
+| | stessa riga (≥ 5 parole) | 1 riga | 2 righe | 3 righe | 4 – 6 righe | 7 – 12 righe |
+|---|---|---|---|---|---|---|
+| ZL, A | +0,038 | **+0,049** (+0,038 – +0,062) | +0,034 | +0,024 | +0,016 | +0,006 (−0,005 – +0,018) |
+| ZL, B | +0,036 | **+0,048** (+0,036 – +0,061) | +0,033 | +0,022 | +0,015 | +0,005 |
+| IT, A | +0,043 | **+0,049** (+0,037 – +0,060) | +0,033 | +0,025 | +0,018 | +0,007 |
+| IT, B | +0,040 | **+0,047** (+0,036 – +0,059) | +0,031 | +0,024 | +0,017 | +0,007 |
+
+- **Esito preregistrato (ZL e IT): è uno stato lento (la tendenza verticale non la spiega).** La deriva verticale toglie
+  quasi niente (+0,049 → +0,048). L'accordo cala con regolarità scendendo di righe e sparisce verso 7 – 12 righe: mezza
+  vita circa 2 righe (15 – 20 parole).
+- **Quadro dello stato, completo:** per ogni scelta (*qo*/*o*, *k*/*t*, *sh*/*ch*, -*ey*/-*dy*) ci sono due componenti:
+  (1) uno stato **breve** dentro la riga, forte accanto (+0,145) e che si spegne in 2 – 3 parole (non copia, non
+  posizione, non legato alle occorrenze, separato per ogni scelta); (2) uno stato **lento** (+0,05 fra righe
+  consecutive) che passa l'a capo e si spegne in qualche riga, oltre alla preferenza della pagina (già nell'atteso).
+- Il raccordo e la giuntura invece non passano l'a capo (e384): la riga è chiusa per il legame fra parole vicine, non
+  per le preferenze di scelta, che scorrono lente.
+- **Lettura (ipotesi, non misurata):** uno stato lento di questo tipo è quello che ci si aspetta da un'abitudine che
+  cambia nel tempo di scrittura (sessioni, penna, attenzione), più che da una chiave; ma non lo abbiamo distinto da un
+  contenuto che cambia lentamente.

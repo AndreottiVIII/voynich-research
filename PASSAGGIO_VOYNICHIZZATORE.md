@@ -439,3 +439,10 @@ Misure con il metodo finale (vedi DOSSIER, sezione 15.13). Da imitare:
     - per l'indistinguibilità: raccordo, margine sinistro che evita l'inizio della riga sopra, deriva, forme di bordo
       e ripetizioni di parole vicine **non** si trovano negli scribi veri (batteria scribi, dossier §15.13): sono tratti
       del Voynich da imitare con i valori del Voynich, non con quelli di uno scriba "normale".
+22. (e3c73 – e3c75, 4/10 mattina) **Correzione al punto 21: lo stato ha due componenti.** (1) Lo stato breve dentro la
+    riga (+0,145 accanto, si spegne in 2 – 3 parole); (2) uno **stato lento** che passa l'a capo: accordo fra parole di
+    righe consecutive +0,049, a 2 righe +0,034, a 3 righe +0,024, a 4 – 6 righe +0,016, circa 0 oltre (valori corretti,
+    ZL; IT uguale), oltre alla preferenza della pagina. Non è una tendenza dall'alto in basso. Il raccordo e la giuntura
+    invece non passano l'a capo: per imitare entrambi servono uno stato per scelta che scorre lento lungo il testo e uno
+    breve che riparte, più le regole fra parole vicine che si fermano a fine riga. Non c'è un'impostazione propria di
+    ogni riga.
