@@ -15939,3 +15939,41 @@ alta della v20: **no**, più bassa e più vicina al bersaglio. Regolazione entro
 **Lettura, con i criteri scritti prima.** (a) giudici non peggiori di oltre 0,010: sì (un filo meglio, dentro
 l'errore); (b) cancello 24 su 24; (c) pagella 16,0; (d) larghezze nei limiti; (e) rilettura e sacchi: sì.
 **La candidata passa: la v21 può sostituire la v20.** La pubblicazione la decide Davide.
+
+## 4/10/2026 (sera) — e3c77: i 73 scribi tedeschi (ReF) non hanno né la finestra né la deriva del Voynich
+
+Preregistrato (`preregistrazioni/e3c77.md`). 73 manoscritti del 1350 – 1500, prime 6.000 parole di ciascuno (1.945
+pagine, 434.454 parole); mano = manoscritto. Finestra con la misura dell'e3c48, deriva con quella dell'e3c13; Voynich ZL
+nella stessa esecuzione. Risultati: `risultati/e3c77_ref_finestra_deriva.md`.
+
+| scelta | parole | K corretto 1 (IC 95%) | K corretto 2 / 3 | deriva ogni 10 segni (IC 95%) |
+|---|---|---|---|---|
+| Voynich ZL | 27.473 | +0,137 (+0,113 – +0,161) | +0,099 / +0,078 | −0,030 (−0,043 – −0,018) |
+| ſ/s | 60.047 | +0,002 (−0,011 – +0,015) | +0,004 / −0,000 | −0,001 (−0,002 – −0,000) |
+| u/v | 46.429 | +0,006 (−0,013 – +0,027) | +0,004 / −0,004 | +0,002 (+0,000 – +0,006) |
+| i/j | 65.676 | +0,014 (−0,021 – +0,052) | +0,001 / +0,017 | +0,000 (−0,002 – +0,001) |
+| i/y | 73.169 | +0,011 (−0,009 – +0,031) | +0,020 / −0,003 | +0,005 (+0,002 – +0,007) |
+| í/i | 73.756 | +0,052 (+0,021 – +0,081) | +0,015 / −0,008 | −0,008 (−0,011 – −0,004) |
+| w/u | 40.759 | −0,002 (−0,024 – +0,019) | +0,003 / +0,001 | −0,003 (−0,005 – −0,002) |
+| uͦ/u | 23.639 | −0,035 (−0,119 – +0,044) | +0,005 / −0,023 | +0,003 (−0,001 – +0,006) |
+| z/cz | 17.524 | +0,002 (−0,106 – +0,106) | +0,026 / +0,025 | +0,002 (+0,000 – +0,006) |
+| y/ÿ | 10.038 | +0,095 (−0,157 – +0,337) | +0,078 / +0,053 | +0,000 (−0,003 – +0,003) |
+| abbreviata o no | 253.870 | +0,015 (+0,007 – +0,024) | +0,013 / +0,007 | −0,001 (−0,003 – +0,003) |
+
+- **Esito preregistrato:** finestra **"nessuna"** (0 scelte di lettera su 9); deriva **"nessuna come il Voynich"** (0 su
+  9).
+- **Con la regola dell'e3c83** ("manca" solo se l'estremo alto sta sotto metà del valore del Voynich; metà = 0,044 per la
+  parte a 2 – 3 parole, 0,015 per la deriva): la parte a 2 – 3 parole **manca** in 6 scelte di lettera su 9 e
+  nell'abbreviazione; in *uͦ*/*u*, *z*/*cz*, *y*/*ÿ* i dati sono pochi e l'esito è incerto. La deriva **manca in tutte**
+  (estremo alto al massimo 0,011).
+- *í*/*i* ha un accordo fra parole accanto (+0,052) senza seguito a 2 – 3 parole, come lo scriba degli *Hatton Gospels*:
+  un'altra forma, non lo stato del Voynich.
+- Derive piccole ma diverse da zero in 6 scelte (fino a 0,008 ogni 10 segni, con segni misti): lo scriba tedesco cambia
+  un poco lungo la riga, ma circa quattro volte meno del Voynich e senza una direzione comune.
+- L'abbreviazione ha un piccolo accordo che dura (+0,015 accanto, +0,010 a 2 – 3 parole): più simile allo stato lento,
+  normale negli scribi (e3c76), che alla finestra.
+- Cautela dichiarata nella preregistrazione: con 73 manoscritti insieme la finestra di un singolo scriba può restare
+  diluita; la lettura vale per gli scribi tedeschi presi insieme.
+- **Lettura:** la batteria scribi è completa. Lo stato breve e la deriva lungo la riga del Voynich non si trovano né nei
+  sei scribi nordici né nei 73 tedeschi. Aggiornati i due white paper (tabella del §7, sommario, limiti), il dossier e
+  lo stato dei lavori.
