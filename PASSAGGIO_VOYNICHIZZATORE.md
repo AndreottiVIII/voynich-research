@@ -318,3 +318,13 @@ Dettagli e numeri nel `QUADERNO.md` (e373–e3a02); tutto replicato con la trasc
   davanti a certi segni), e Takahashi in quei punti mette lo spazio 2 volte su 3. Nel generatore conviene tagliare la
   catena con queste probabilità (non con soglie 0/1), e, se si produce un'immagine, disegnare spazi stretti nei punti
   con probabilità intermedia.
+- **Che cosa basta e che cosa manca** (e3a78, e3a80, e3a81): una catena di segni di ordine 2 per riga (con stato di
+  inizio e fine riga) riproduce giuntura, chiusura della riga, -*m* a fine riga, *y*/*s*/*d* a inizio riga, catena
+  attraverso lo spazio, frequenza-forma. **Non** riproduce: copia dalla riga sopra, evitamento dell'inizio uguale alla
+  riga sopra, *p*/*f* nella prima riga del paragrafo, crescita di -*ey* scendendo. Questi quattro vanno aggiunti a mano.
+- **Memoria delle parole** (e3a76, e3a77): quasi ordine 1, con un po' di ordine 2 (i generatori pubblicati non hanno
+  quel po'). Le caselle per posto spiegano poco.
+- **Dettagli della copia** (e3a74, e3a79, e3a82, e3a83, e3a84): la copia prende da tutta la riga sopra ma un po' di più
+  dalla fine (le parole appena scritte); la prima parola della riga copia quanto le altre (l'evitamento riguarda solo
+  l'inizio uguale all'inizio della riga sopra); la copia porta un poco con sé gli spazi; la copia non cambia -*dy* in
+  -*ey* (la deriva di -*ey* lungo la pagina è a parte).
