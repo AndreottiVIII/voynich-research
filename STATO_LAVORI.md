@@ -180,6 +180,7 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     Memoria per mano senza posizione (e3c19): mani 2 e 3 sopra 0, mano 1 stessa grandezza ma intervallo che tocca 0; nessuna differenza.
     Nessun generatore ha la deriva lungo la riga (e3c18: tutti fra −0,002 e +0,003 ogni 10 segni).
     La deriva è più ripida nella prima metà della riga (e3c20: −0,036 contro −0,017 ogni 10 segni): riparte a ogni riga.
+    Dopo un disegno non riparte; le parole che toccano il disegno hanno meno forme marcate (e3c21: −0,05/−0,07; incerto).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
