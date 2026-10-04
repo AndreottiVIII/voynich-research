@@ -135,6 +135,7 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     Crescita di -ey scendendo e apertura del paragrafo replicate con Takahashi, intervalli per pagina (e3b79).
     La memoria si consuma con le lettere, confermato col metodo finale e due trascrizioni (e3b80).
     Memoria in numeri semplici: circa 10 punti percentuali (e3b82). Nei cerchi: stima simile, non dimostrata (e3b83).
+    La parola ripresa dalla riga sopra non ne copia le scelte: le rifà secondo la memoria del momento (e3b84, e3b85).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);

@@ -262,7 +262,9 @@ scritto nella seconda parte. Le dico subito.
    con la riga sopra, e3b72) e le parole continuano da una riga all'altra. Per la memoria delle scelte invece sono come
    le altre pagine (passa l'a capo per circa metà, e3b71): l'accordo più alto che avevo visto lì veniva dal modo di
    confrontare.
-7. **Le etichette ripartono da capo** nelle scelte, anche se si copiano la forma (e3b48); quando un'etichetta varia la
+7. **La copia dalla riga sopra riguarda la forma, non le scelte**: quando lo scriba riprende una parola dalla riga sopra,
+   le scelte di grafia (*qo*/*o* ecc.) le rifà secondo la memoria del momento, non le copia dalla fonte (e3b84, e3b85).
+8. **Le etichette ripartono da capo** nelle scelte, anche se si copiano la forma (e3b48); quando un'etichetta varia la
    precedente, la modifica cade di rado sulle scelte (pochi dati, e3b74).
 
 ## Come ci sono arrivato (con i passi sbagliati)
