@@ -397,3 +397,5 @@ Misure con il metodo finale (vedi DOSSIER, sezione 15.13). Da imitare:
 14. (e3c13, e3c14) **Deriva lungo la riga:** dentro la riga (bordi esclusi), a parità di parola, *qo*, *k*, *sh*, -*ey*
     diventano più rari andando verso destra (2–3,5 punti ogni 10 segni). Va riprodotta. E la memoria corta, tolta la
     deriva, è più piccola di quanto scritto al punto 1: circa +0,05 – +0,06 invece di +0,08.
+15. (e3c17, e3c18) La deriva lungo la riga c'è in ogni mano, circa −0,011 ogni 10 segni in A e −0,035 in B (le quattro
+    scelte insieme). **Nessun generatore pubblicato la ha** (Naibbe, U2, U3, Timm e Schinner: zero).

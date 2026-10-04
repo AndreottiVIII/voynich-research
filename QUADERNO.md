@@ -14304,3 +14304,21 @@ Preregistrato (`preregistrazioni/e3c19.md`). Memoria per mano con il nullo solit
   ±0,08).
 - Lettura: "uguale in tutte le mani" va detto come "della stessa grandezza in tutte le mani, dimostrata nelle mani 2 e 3".
   La correzione per la posizione toglie in tutte e tre circa un quarto–un terzo, anche in A dove la deriva è più debole.
+
+## 4/10/2026 (mattina) — e3c18: nessun generatore ha la deriva delle scelte lungo la riga
+
+Preregistrato (`preregistrazioni/e3c18.md`). Pendenza dell'e3c13 (classi insieme, 1 = *qo*, *k*, *sh*, -*ey*) nei
+generatori.
+
+| generatore | classi insieme, ogni 10 segni (IC 95%) |
+|---|---|
+| Naibbe | −0,001 (−0,004 – +0,002) |
+| U2 | +0,001 (−0,003 – +0,005) |
+| U3 | −0,002 (−0,005 – +0,002) |
+| Timm e Schinner | +0,003 (−0,003 – +0,010) |
+| *Voynich (e3c17)* | *A −0,011, B −0,035* |
+
+- **Esito preregistrato: i generatori non hanno la deriva lungo la riga.** Nessuna classe, in nessun generatore, ha un
+  intervallo sotto 0.
+- La deriva orizzontale si aggiunge alle cose del Voynich che i generatori pubblicati non riproducono (memoria delle
+  scelte, raccordo). Per il voynichizzatore è un tratto in più da imitare.
