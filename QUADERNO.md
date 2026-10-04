@@ -11539,3 +11539,19 @@ delle righe rimescolato).
 
 Preregistrato (`preregistrazioni/e3a96.md`). Stesso metodo dell'e3a93 sulla IT: coppie immediate 428, Δ **+0,172**
 (IC +0,112 – +0,233); a distanza 2: 338, +0,030 (IC −0,042 – +0,104). **Esito preregistrato: si ritrova.**
+
+## 4/10/2026 (notte) — e3a97: il salto di un disegno azzera anche la ripetizione immediata, come l'a capo
+
+Preregistrato (`preregistrazioni/e3a97.md`). Coppie di parole vicine "simili" (uguali o a una modifica), rispetto al
+rimescolamento delle parole dentro la riga.
+
+| coppie | quante | quota di simili | attesa | eccesso | z |
+|---|---|---|---|---|---|
+| continue | 27.992 | 0,0521 | 0,0474 | **+0,0047** | 4,3 |
+| a cavallo di un salto del disegno | 665 | 0,0436 | 0,0484 | **−0,0048** | −0,6 |
+
+- **Esito preregistrato: il salto azzera la ripetizione immediata.** Dove la riga salta un disegno, la parola dopo non
+  ripete quella prima più del caso (anzi un po' meno), come all'a capo.
+- **Lettura:** per lo scriba il salto di un disegno è un "a capo" sotto tutti gli aspetti misurati: si rompe la
+  giuntura (e386), riparte la riga (forme di inizio, e3a13), si azzera la ripetizione immediata. Il tratto scritto di
+  seguito è l'unità della scrittura. Pochi dati a cavallo del salto (665 coppie): l'intervallo è largo.
