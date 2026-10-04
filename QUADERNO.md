@@ -11474,3 +11474,24 @@ Preregistrato (`preregistrazioni/e3a92.md`). GC (v101), pagine e paragrafi della
 - **Parte 2:** ripetizione nella stessa riga +0,0045 a d 1–4, +0,0016 a d 7–10, calo 0,36. **Esito: regge** (il calo è
   meno netto che in EVA, 0,36 contro 0,12, ma sotto la soglia e lontano dalle lingue, 10° percentile 1,10).
 - Le due novità principali della notte valgono con tutte e tre le trascrizioni.
+
+## 4/10/2026 (notte) — e3a93: quando lo scriba ripete subito una parola cambiandone l'inizio, il cambio rispetta il raccordo
+
+Preregistrato (`preregistrazioni/e3a93.md`). Coppie di parole vicine in cui la seconda è la prima con l'inizio cambiato
+(primo segno sostituito, tolto o aggiunto). Δ = raccordo reale (PMI fra fine della prima e inizio della seconda) meno
+raccordo che avrebbe avuto la ripetizione esatta.
+
+| coppie | quante | Δ medio | IC 95% | quota con Δ > 0 |
+|---|---|---|---|---|
+| immediate | 410 | **+0,167** | +0,103 – +0,231 | 0,60 |
+| a distanza 2 (controllo) | 323 | +0,045 | −0,033 – +0,128 | 0,53 |
+
+Esempi più frequenti: *okeey qokeey* (9), *shedy chedy* (8), *chol shol* (7), *qokeey okeey* (7), *okeedy qokeedy* (7),
+*chol cthol* (6), *chol dol* (6), *okedy qokedy* (6), *qokar okar* (6).
+
+- **Esito preregistrato: la ripetizione rispetta il raccordo.** Quando lo scriba ripete subito una parola e ne cambia
+  l'inizio, il cambio va nella direzione che la regola di raccordo vuole dopo la fine della parola appena scritta: dopo
+  -*y* aggiunge *q* (*okeey qokeey*), dopo -*r* lo toglie (*qokar okar*). A distanza 2, dove la parola ripetuta non
+  tocca la nuova, l'effetto non c'è.
+- **Lettura:** la ripresa di memoria corta e il raccordo lavorano insieme: lo scriba riscrive la parola appena scritta e
+  la adatta alla giuntura, come fa con le copie dalla riga sopra (e392, e396).

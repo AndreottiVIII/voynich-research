@@ -1,0 +1,83 @@
+{
+ "immediate": {
+  "coppie": 410,
+  "delta_medio": 0.16717284691956202,
+  "IC95": [
+   0.10283457323390295,
+   0.23080442807953155
+  ],
+  "quota_positivi": 0.5951219512195122
+ },
+ "controllo_distanza_2": {
+  "coppie": 323,
+  "delta_medio": 0.04493442582774849,
+  "IC95": [
+   -0.03253803120256446,
+   0.12796266504345105
+  ],
+  "quota_positivi": 0.5263157894736842
+ },
+ "esempi_immediati": [
+  [
+   "okeey qokeey",
+   9
+  ],
+  [
+   "shedy chedy",
+   8
+  ],
+  [
+   "chol shol",
+   7
+  ],
+  [
+   "qokeey okeey",
+   7
+  ],
+  [
+   "okeedy qokeedy",
+   7
+  ],
+  [
+   "chol cthol",
+   6
+  ],
+  [
+   "chol dol",
+   6
+  ],
+  [
+   "okedy qokedy",
+   6
+  ],
+  [
+   "qokar okar",
+   6
+  ],
+  [
+   "lchedy chedy",
+   6
+  ],
+  [
+   "chedy lchedy",
+   6
+  ],
+  [
+   "qokain okain",
+   5
+  ],
+  [
+   "cthol chol",
+   4
+  ],
+  [
+   "ykeey okeey",
+   4
+  ],
+  [
+   "shol chol",
+   4
+  ]
+ ],
+ "esito": "la ripetizione rispetta il raccordo"
+}
