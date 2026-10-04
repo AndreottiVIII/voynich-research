@@ -253,3 +253,24 @@ Pacchetto v17 **senza modifiche** dentro Pyodide 314.0.7 (Python 3.14.2, numpy 2
 - **Il sito usa la v21** (commit `4b1383c`), su richiesta di Davide passata dalla chat del voynichizzatore; tolta la
   cartella v20. Prova nel browser: manoscritti v17 e v20 (c1, c3, c4) riletti esatti dalla v21; manoscritto scritto
   dalla v21 nel browser riletto dal programma v21; parole uguali alla v20 in 207 pagine su 207.
+
+## 14. Sito pubblicato (4/10/2026 sera, su richiesta di Davide)
+
+- **Indirizzo:** https://andreottiviii.github.io/voynichizzatore/ (GitHub Pages dal ramo `gh-pages`, attivato da GitHub
+  al primo push). Il codice del sito sta anche in `docs/` del ramo `main` del repo pubblico.
+- **Prova sul sito pubblico:** tutte le pagine e i file rispondono; la pagina Read ha riletto esatto il manoscritto di
+  prova del repo (`prova/manoscritto_di_prova.txt`, chiave di `prova.py`) caricando Python, il programma v21 e scrypt
+  dal sito.
+- **Research:** contenuti del white paper (commit 955660e: titolo, autori e contributori, abstract, dieci scoperte,
+  citazione) e il PDF `research/Caniatti_Claude_2026_Voynich_writing_system_v1.pdf`. Senza licenza (non ancora scelta),
+  senza link al repo privato, senza note sui ruoli degli autori (indicazioni della chat della ricerca). Quando arriva il
+  DOI di Zenodo: aggiungerlo nella citazione e sostituire il PDF.
+- **Come si aggiorna il sito** (copia di lavoro `C:\Users\davide\voynichizzatore_sito`, ramo `sito`):
+  1. modificare `docs/`, provare in locale (server della sessione o `python -m http.server` in `docs/`);
+  2. `git commit`, poi `git push origin sito:main`;
+  3. `git subtree push --prefix docs origin gh-pages` (pubblica la cartella `docs/`);
+  4. **nuova versione del programma:** `git merge main` nel ramo `sito`, `python docs/engine/build_engine.py vNN`,
+     aggiornare `VERSION` in `docs/js/engine.js` e `docs/js/worker.js` e i percorsi del carattere; tenere la cartella
+     della versione vecchia solo se la nuova cambia i conteggi delle parole (allora la vecchia serve per rileggere).
+- **Attenzione per chi pubblica il programma:** il ramo `main` del repo pubblico ora contiene `docs/`; prima di un push
+  dalla copia `C:\Users\davide\voynichizzatore` fare `git pull`.
