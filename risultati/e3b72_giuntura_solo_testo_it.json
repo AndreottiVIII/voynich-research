@@ -1,0 +1,28 @@
+{
+ "misure": {
+  "IT, riga sotto": {
+   "coppie": 187,
+   "E": 0.148976567282865,
+   "p_esatto": 0.0006,
+   "taratura_quota": 0.001,
+   "taratura_mediana": -0.0001936734001455609
+  },
+  "IT, riga sopra": {
+   "coppie": 186,
+   "E": -0.022612273884185963,
+   "p_esatto": 0.6916
+  },
+  "ZL, riga sotto": {
+   "coppie": 193,
+   "E": 0.1447790894192495,
+   "p_esatto": 0.0004
+  },
+  "ZL, riga sopra": {
+   "coppie": 192,
+   "E": -0.003665853485878834,
+   "p_esatto": 0.5207
+  }
+ },
+ "esito_replica": "si ritrova con Takahashi",
+ "esito_controllo": "non è somiglianza fra righe vicine"
+}

@@ -125,7 +125,8 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     spostata); con intervalli per pagine intere la memoria del Voynich regge (ZL +0,086, IT +0,076), le mani non
     differiscono, i generatori non la hanno, **lo scriba anglosassone non è dimostrato** (+0,10, IC con lo zero). I p
     del nullo largo erano troppo ottimisti.
-    Pagine di solo testo: per la memoria come le altre (e3b71); resta la giuntura che passa l'a capo (e3a06).
+    Pagine di solo testo: per la memoria come le altre (e3b71); resta la giuntura che passa l'a capo (e3a06), ritrovata
+    con Takahashi e assente con la riga sopra (e3b72).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
