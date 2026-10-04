@@ -86,160 +86,137 @@ Il Voynich si comporta come una **catena di segni scritta riga per riga**:
 Nessun testo di confronto ha questa combinazione: le lingue hanno legami a distanza e attraverso le righe; il gibberish
 umano non ha né giuntura né copia; i generatori pubblicati non hanno la catena chiusa nella riga.
 
-## Aggiornamento (dopo la mezzanotte e mezza): il vocabolario e gli spazi
+---
 
-Da e3a55 in poi. Stesse regole: preregistrazione, codice provato sui controlli, esecuzione, Quaderno, push.
+# Seconda parte (da mezzanotte e mezza in poi): e3a55 – e3b36
 
-### Le parole del Voynich sono "forme ben fatte", non un lessico
+Circa ottanta esperimenti, tutti con preregistrazione, codice provato sui controlli, esecuzione, voce nel Quaderno e
+push. Molti risultati li ho poi rifatti con la trascrizione di Takahashi (e alcuni con Glen Claston), e qui sotto li
+divido fra **solidi** (reggono con più trascrizioni) e **indizi** (non reggono del tutto). Le correzioni sono in fondo.
+Niente di questo è una decifrazione.
 
-1. **La frequenza di una parola segue la sua forma** (e3a55).
-   - Le parole più frequenti sono le sequenze di segni più "probabili" per le regole che dicono quale segno segue quale
-     (ρ 0,58). Nelle lingue questo legame è debole (mediana 0,11, massimo 0,28).
-   - Vale con tre trascrizioni, in lingua A e B e per ogni scriba (e3a56). Non è un effetto della bassa entropia dei
-     segni: il toki pona ha la stessa entropia e un legame molto più debole (e3a57).
-2. **Il vocabolario riempie le forme possibili** (e3a61): fra le forme più probabili, il 43% sono parole usate nel
-   Voynich, contro il 4% nelle lingue. Una lingua usa solo una piccola parte delle forme che potrebbe avere; il Voynich
-   quasi tutte.
-3. In tutte e due le cose il Voynich somiglia ai **generatori** (programmi che producono testo falso), non alle lingue
-   né al gibberish scritto a mano da volontari.
+## In breve
 
-### Lo spazio è un taglio regolato e "graduato"
+Il testo del Voynich si descrive bene con quattro ingredienti:
 
-4. **Dove cade lo spazio si indovina dai due segni vicini** meglio che nel 97% delle lingue (e3a58). Fanno meglio solo i
-   testi cinesi in pinyin, dove ogni parola finisce con il numero del tono.
-5. **Gli spazi incerti sono sul foglio, dove la regola lascia la scelta** (e3a58, e3a60).
-   - Gli spazi che la trascrizione ZL segna come dubbi cadono dove la regola dà circa 50%.
-   - Takahashi, che non segna mai dubbi, in quei punti mette lo spazio 2 volte su 3 (contro quasi sempre e quasi mai
-     negli altri punti).
-6. **Verso la fine della riga** lo scriba mette un po' meno spazi facoltativi (e3a64).
-7. **La frequenza degli spazi facoltativi cambia un poco da mano a mano** (e3a66), mentre le regole di raccordo sono
-   uguali per tutti. Il raccordo sta nel sistema; lo spazio, in parte, nella penna.
-8. **Rifacendo gli spazi a caso con la regola, metà dei pezzi sbagliati sono parole vere** (e3a67). Nelle lingue il 6%.
+1. **Una catena di segni scritta riga per riga.** Ogni segno dipende soprattutto da quello prima (un po' anche da due
+   prima), la catena passa sopra gli spazi e riparte a ogni a capo e a ogni salto di disegno. Da sola, una catena così
+   (addestrata sul Voynich) riproduce quasi tutte le regolarità "orizzontali" trovate in queste notti.
+2. **Spazi messi guardando i segni vicini e la lunghezza della parola in corso, non la parola.** Per questo il
+   vocabolario è quasi l'insieme completo delle forme possibili, e tagliando in un altro punto si ottengono di solito
+   parole che esistono.
+3. **Una memoria corta di chi scrive.** Nella stessa riga si ripetono parole e scelte di grafia (*qo*/*o*, *sh*/*ch*,
+   *ee*/*e*, -*ey*/-*dy*, *k*/*t*) per 2–4 parole; la memoria si consuma con le lettere scritte e si azzera all'a capo.
+   Nessuna lingua, nessun generatore pubblicato e nemmeno il gibberish scritto a mano ha questa firma.
+4. **Lo sguardo alla riga sopra e alla pagina.** Parole riprese dalla riga sopra (da tutta la riga, non oltre il
+   paragrafo né la pagina), evitamento di cominciare come la riga sopra, apertura del paragrafo, deriva di -*ey* lungo la
+   pagina.
 
-### Il piccolo legame fra parole intere
+Nei punti 1 e 2 il Voynich somiglia ai generatori (programmi che fanno testo finto) e non alle lingue; nei punti 3 e 4
+non somiglia a nessun testo di confronto. Le scelte di grafia restano libere per più del 90%: questo è compatibile sia
+con un testo senza significato sia con un cifrario eseguito a mano con varianti equivalenti; esclude che quelle varianti
+portino parola per parola l'informazione di una lingua.
 
-9. Oltre al legame fra l'ultimo segno e il primo della parola dopo, ne resta uno piccolo fra parole intere.
-   - Nel cifrario Naibbe è zero (e3a62), quindi questo punto non esclude un cifrario di quel tipo.
-   - Nel generatore di Timm e Schinner è grande come nel Voynich, ma lì viene dalla copia dalla riga sopra; nel Voynich
-     no (e3a63). È una seconda differenza fra il Voynich e quella teoria.
+Figure nuove (in `risultati/figure/`): `vocabolario.png`, `spazi.png`, `catena_spiega.png`, `memoria_corta.png`,
+`memoria_profili.png`.
 
-### Risultati deboli o da prendere con cautela
+## Risultati solidi (reggono con più trascrizioni)
 
-- La memoria di **due** segni attraverso lo spazio va nella stessa direzione, ma con pochi dati e valori instabili
-  (e3a59): non la uso come prova.
+### Le parole sono "forme ben fatte"
 
-### Errori di questa parte
+- **La frequenza di una parola segue la sua forma** (e3a55–e3a57): le parole frequenti sono le sequenze di segni più
+  probabili (ρ 0,58; lingue 0,11). Con ZL, Takahashi e Glen Claston, in A e B, per ogni mano. Non è un effetto della
+  bassa entropia dei segni.
+- **Il vocabolario riempie le forme possibili** (e3a61, e3a68): il 43% delle forme più probabili sono parole usate
+  (lingue 4%).
+- **I tagli sbagliati danno parole vere** (e3a67, e3a68): rifacendo gli spazi a caso con la regola, metà dei pezzi
+  sbagliati sono parole che esistono (lingue 6%).
+- **Il meccanismo delle parole è quasi di ordine 1** (e3a76, e3a77): tarato su catene di ordine noto, con tre
+  trascrizioni.
 
-- e3a58: la soglia è passata dal massimo delle lingue al 90° percentile. L'ho cambiata dopo aver visto i soli testi di
-  controllo (il pinyin rendeva il massimo irraggiungibile) e prima di guardare il Voynich; è dichiarato.
-- e3a66: la prima esecuzione si è fermata per un errore nella tabella descrittiva; l'ho corretto e rieseguito.
+### Lo spazio
 
-Figura nuova: `risultati/figure/spazi.png`.
+- **Si indovina dai due segni vicini** meglio che nel 97% delle lingue (e3a58, e3a68).
+- **Gli spazi dubbi sono sul foglio**, dove la regola lascia la scelta: Takahashi li mette 2 volte su 3 (e3a60).
+- **Non dipende dalla parola intera ma dalla lunghezza** (e3a99, e3b01–e3b04): nelle lingue lo spazio segue la parola
+  (+4/+7), nel Voynich quasi per niente (+0,05); si taglia di più quando il pezzo in corso è lungo.
+- **Verso la fine della riga ci sono meno spazi facoltativi** (e3a64, e3b12, e3b35), anche a parità di lunghezza.
+- **Ogni mano spazia un po' a modo suo** (e3a66, e3b36), mentre le regole di raccordo sono uguali per tutti.
 
-## Aggiornamento (verso le 2:15): la sintesi "catena per riga + meccanismi verticali"
+### La catena per riga e che cosa non spiega
 
-### Il risultato più importante della notte
+- **Una catena di segni per riga riproduce sei proprietà orizzontali** (giuntura, chiusura della riga, -*m* a fine
+  riga, *y*/*s*/*d* a inizio riga, catena attraverso lo spazio, frequenza-forma) **e non le quattro verticali** (copia
+  dalla riga sopra, margine sinistro, apertura del paragrafo, -*ey* lungo la pagina) (e3a78, e3a80, e3a81, e3a92: ZL,
+  Takahashi, Glen Claston). Riproduce anche la quantità di vocabolario e la legge di Zipf, ma fa il 15% di parole uniche
+  in più del vero (e3a98).
 
-Ho riscritto il Voynich con una "macchina" che conosce solo quale segno segue i due precedenti, riga per riga, sapendo
-quando la riga comincia e finisce, e tenendo la stessa struttura di pagine e paragrafi (e3a78, e3a80, e3a81). Poi ho
-rimisurato tutto. Figura: `risultati/figure/catena_spiega.png`.
+### La memoria corta
 
-- **La macchina riproduce da sola sei proprietà "orizzontali":** la giuntura fra parole, la chiusura della riga, -*m* a
-  fine riga, *y*/*s*/*d* a inizio riga, la catena che passa attraverso lo spazio, la frequenza che segue la forma. Vale
-  con la ZL e con Takahashi.
-- **Non riproduce quattro proprietà "verticali",** che dipendono da dove sta la riga:
-  - la copia di pezzi dalla riga subito sopra;
-  - l'evitamento di cominciare la riga come la precedente;
-  - l'apertura del paragrafo (*p*/*f* nella prima riga);
-  - -*ey* che cresce scendendo nella pagina.
+- **Ripetizioni**: una coppia di parole vicine su 100 è la stessa parola (lingue una su 1.000) (e3b25). Nella riga la
+  ripetizione è forte entro 1–4 parole e si spegne in 6–7, al contrario delle lingue (e3a86–e3a91, e3a92).
+- **Scelte di grafia**: concordano fra parole vicine, anche diverse, e non a 6–10 parole (e3b06–e3b08). Questo
+  **corregge l'e206b**: le "scelte di riga" erano memoria corta, non interruttori di riga.
+- **Si azzera all'a capo e al salto di un disegno** (e3a97, e3b10, e3b35).
+- **Si consuma con le lettere scritte** (e3b20, e3b26, e3b35).
+- **Quando una parola si ripete con l'inizio cambiato, il cambio rispetta il raccordo** (*okeey qokeey*, *qokar okar*)
+  (e3a93, e3a96).
+- **Nessun generatore la ha** (e3a90, e3b09).
+- **Vale per** *qo*/*o*, *sh*/*ch*, *ee*/*e*, -*ey*/-*dy*, *k*/*t*; **non** per il numero di *i* (*ain*/*aiin*) e per -*l*/-*r*
+  (e3b19). È soprattutto separata per ogni scelta, con una piccola parte comune (e3b18, e3b35).
+- **In bit è piccola** (e3b15): le scelte restano libere per più del 90%.
 
-In parole semplici: il testo si descrive bene come una catena di segni scritta riga per riga, più uno scriba che guarda
-la riga sopra, il paragrafo e la pagina. Questo non dice come il testo sia stato prodotto né se abbia un significato:
-dice che le sue regolarità stanno in queste due parti.
+### La copia dalla riga sopra
 
-### Altri risultati
+- Da tutta la riga sopra, un po' di più dalla fine (e3a83, e3a84); la prima parola copia quanto le altre (e3a79); è
+  sparsa, parola per parola, non righe intere (e3b29); **non passa né il paragrafo né la pagina** (e3b28, e3b36) e non
+  viene dalla pagina accanto.
+- Nessun generatore evita l'inizio uguale alla riga sopra (e3a95).
 
-- Le prove su vocabolario e spazi reggono con Takahashi e Glen Claston (e3a68).
-- **Il meccanismo delle parole è "quasi di ordine 1"** (e3a76, tarato su catene di ordine noto; regge con tre modi di
-  trascrivere, e3a77): ogni segno dipende soprattutto da quello prima, con un po' di dipendenza dai due prima. I
-  generatori pubblicati non hanno quel "po'" di ordine 2.
-- I segni del Voynich sono molto legati al loro posto nella parola (4° percentile delle lingue), ma questo non spiega
-  la frequenza-forma (e3a75).
-- La copia dalla riga sopra porta un poco con sé gli spazi (e3a74, indizio debole); la prima parola della riga si copia
-  quanto le altre (e3a79): copia ed evitamento sul margine sono due cose diverse.
+## Indizi (non reggono del tutto)
 
-### Correzioni e risultati negativi di questa parte
+- **La memoria dura di più in lingua B** (e3b14, e3b21–e3b24): va in quella direzione con tutte e due le trascrizioni, ma
+  con un contrasto con intervallo non è dimostrata (e3b33, e3b34).
+- **Le forme rare si riprendono di più** (e3b30, e3b31): con Takahashi resta solo una tendenza (e3b32). Le parole uniche
+  con una "sorella" vicina sono poche (2,6% contro 1,5% atteso).
+- **Memoria di qo/o a parità di raccordo** (e3b13): con Takahashi l'intervallo contiene lo zero (e3b36).
+- **La copia porta con sé un poco gli spazi** (e3a74).
+- **Memoria di due segni attraverso lo spazio** (e3a59): pochi dati, valori instabili.
 
-- **e3a65 corretto da e3a72:** avevo scritto che due terzi del piccolo legame fra parole intere stavano nel paragrafo.
-  Con "paragrafi finti" della stessa grandezza il calo è lo stesso: era un effetto dei gruppi più piccoli, non del
-  paragrafo.
-- **e3a69 ridimensionato da e3a71:** "una catena di segni produce le proprietà del Voynich" vale per catene corte;
-  con l'ordine 3 le lingue riscritte tornano quasi come le vere. Resta solido che il Voynich riscritto non cambia.
-- **e3a70 riletto con e3a76:** l'eccesso del Voynich dipendeva in parte dal misurare con un modello di ordine 1.
-- **e3a73 abbandonato prima di preregistrarlo:** il cifrario Naibbe, controllo positivo, non ha legami fra parole
-  vicine. Quindi la debolezza di quei legami nel Voynich non è un argomento contro un cifrario verboso di quel tipo.
+## Risultati negativi (utili)
 
-## Aggiornamento (verso le 2:30): come riprende lo scriba
+- Unire le varianti (*sh*→*ch*, *qo*→*o*, *ee*→*e*) **non** fa emergere una lingua: il testo diventa ancora più "da
+  catena" (e3b17).
+- La -*m* in mezzo alla riga **non** segna una pausa (e3b16); **nessuna periodicità** lungo la riga (nessun indizio di
+  gruppi di parole di lunghezza fissa).
+- La deriva di -*ey* lungo la pagina **non** viene dalla copia (e3a82).
+- Il cifrario Naibbe **non** ha legami fra parole vicine (e3a62, e3a73 abbandonato): quei legami non servono a
+  distinguere un cifrario verboso.
 
-- **La deriva di -*ey* lungo la pagina non viene dalla copia** (e3a82): copiando, -*dy*→-*ey* e il contrario sono alla pari.
-- **La copia dalla riga sopra prende un poco di più dalla fine della riga** (e3a83, replicato con Takahashi in e3a84).
-- **Nella stessa riga le ripetizioni sono il doppio di quelle che la catena di segni produce** (e3a86).
-- **Questa ripetizione nella riga è "di memoria corta"** (e3a87, e3a88, e3a89, e3a90): è forte entro 1–4 parole e si
-  spegne dopo 6–7. Nelle lingue è il contrario (non si ripete subito una parola, la si ripete più avanti nel discorso), e
-  nessun generatore né il gibberish scritto a mano ha questa firma. È un altro tratto proprio del Voynich.
-- Si aggiunge alla sintesi: catena di segni per riga + quattro meccanismi verticali + una ripresa a memoria corta dentro
-  la riga.
+## Correzioni ed errori (tutti scritti nel Quaderno)
 
-Correzioni di questa parte:
-- e3a85 corregge una frase di e3a76: misurata direttamente, la "memoria di due segni" del Voynich è come quella di
-  Naibbe e di Timm e Schinner (e meno di tutte le lingue).
-- e3a87 → e3a89: che "la riga sopra conti di più a parità di distanza" succede anche nelle lingue; non è distintivo.
-- e3a90: una regola preregistrata classificava male Naibbe (rapporto fra due numeri quasi zero); dichiarato.
+- e3a65 → e3a72: il calo "dovuto al paragrafo" era un effetto meccanico dei gruppi più piccoli.
+- e3a69 → e3a71: "una catena produce le proprietà del Voynich" vale solo per catene corte; solido è che il Voynich
+  riscritto dalla propria catena non cambia.
+- e3a70 → e3a76, e3a76 → e3a85: letture dell'ordine della catena corrette con misure tarate.
+- e3a87 → e3a89: "la riga sopra conta di più a parità di distanza" succede anche nelle lingue.
+- e3a90: una regola classificava male Naibbe (rapporto fra numeri quasi zero).
+- e3a99, e3b01, e3b02 → e3b03: la "preferenza contraria al lessico" era un effetto della lunghezza.
+- e3b07 → e3b08: un controllo confrontava con lo zero invece che fra vicino e lontano.
+- e3b18 → e3b35: la memoria non è del tutto separata per classe.
+- e3b14/e3b21–e3b24 → e3b34: la differenza A/B non è dimostrata.
+- e3b30/e3b31 → e3b32 e una correzione dei numeri: le forme rare sono solo una tendenza, e le parole uniche "sorelle"
+  sono poche.
+- e3b27 → e3b28: l'ultima riga è più corta, il primo confronto non era equo.
+- Cambi di disegno prima di guardare il Voynich, dichiarati: soglie di e3a58, e3a89, nullo di e3b05 e di e3b29.
+- Errori tecnici: un heredoc rotto (e3b10, nessun file scritto) e una tabella che si fermava (e3a66).
 
-## Aggiornamento (verso le 2:45): ripetizione e raccordo, e una domanda sugli spazi ancora aperta
+## Lacune e proposte
 
-- **La ripetizione di memoria corta vale ovunque:** in lingua A e B, per le mani 1, 2, 3 (e3a91) e con l'alfabeto di
-  Glen Claston, che conferma anche la sintesi della catena (e3a92).
-- **Quando lo scriba ripete subito una parola e ne cambia l'inizio, lo fa per rispettare il raccordo** (e3a93, replicato
-  con Takahashi in e3a96). Esempi: *okeey qokeey* (dopo -*y* aggiunge *q*), *qokar okar* (dopo -*r* lo toglie). Anche
-  quando cambia la fine, la fine nuova si accorda con la parola dopo (e3a94).
-- **Il salto di un disegno azzera la ripetizione immediata, come l'a capo** (e3a97): il tratto scritto di seguito è
-  l'unità della scrittura per giuntura, inizio riga e memoria corta.
-- **Nessun generatore evita di cominciare la riga come la precedente** (e3a95; U3 anzi ripete).
-- **La catena riproduce la quantità di vocabolario e la legge di Zipf**, ma fa il 15% di parole uniche in più: il
-  Voynich inventa un po' meno della propria catena (e3a98).
-- **Domanda aperta: lo spazio facoltativo segue la parola intera?** Nelle lingue sì, fortissimamente (e3a99). Nel
-  Voynich no, anzi il valore è un po' al contrario (e3a99, e3b01). Ma potrebbe dipendere dal fatto che ogni mano, o
-  pagina, spazia in modo diverso: è in corso il controllo con il confronto dentro la stessa pagina (e3b02).
-
-## Aggiornamento (verso le 3): lo spazio non guarda la parola; le "scelte di riga" sono memoria corta
-
-- **Lo spazio facoltativo si decide con i segni vicini e con la lunghezza della parola in corso, non con l'identità
-  della parola** (e3a99, e3b01–e3b05). Nelle lingue lo spazio segue fortissimamente la parola intera; nel Voynich quasi
-  per niente. Lo scriba taglia più spesso quando il pezzo che sta scrivendo è già lungo, ed evita di staccare pezzi
-  di 1–3 segni. Una prima lettura ("lo scriba sceglie al contrario del lessico") era in realtà questo effetto di
-  lunghezza: corretta con l'e3b03. Timm e Schinner fa come il Voynich; gli altri generatori e il gibberish umano no.
-- **Correzione di un risultato vecchio (e206b, le "12 scelte di grafia per riga")** (e3b06–e3b10): non sono
-  interruttori che valgono per tutta la riga. Le scelte facoltative (*qo*/*o*, -*ey*/-*dy*, *sh*/*ch*, *ee*/*e*)
-  concordano fra parole a 2–3 di distanza e non più a 6–10; vale anche per parole diverse (non solo ripetute); si
-  azzera all'a capo; nessun generatore lo fa. È la stessa memoria corta delle ripetizioni. **Per l'altra chat è
-  importante:** il generatore costruito con gli interruttori di riga va rivisto (scritto nel file di passaggio).
-
-## Aggiornamento (verso le 3:15): com'è fatta la memoria corta
-
-- **È separata per ogni scelta** (e3b18): un *sh* richiama *sh*, un *qo* richiama *qo*, ma una scelta non spinge le altre.
-  Non c'è un "modo" di scrivere comune, e questo va anche contro una causa fisica unica (penna che si scarica).
-- **Quali scelte ce l'hanno** (e3b19): *qo*/*o*, *sh*/*ch*, *ee*/*e*, -*ey*/-*dy*, gallows *k*/*t*. Non il numero di *i*
-  (*ain*/*aiin*/*aiiin*), né -*l*/-*r* (che segue il raccordo).
-- **Si consuma con le lettere scritte** (e3b20): a parità di parole in mezzo, più lettere si scrivono, meno si ripete la
-  scelta. Come una memoria di lavoro di chi scrive.
-- **Dura di più in lingua B** (e3b14, e3b21: mezza vita circa 7 lettere in A, circa 20–25 in B), in tutte e tre le mani
-  di B (e3b22), soprattutto nelle sezioni a testo fitto (ricette, biologica) e meno nell'erbario B (e3b23, e3b24: stime
-  rumorose).
-- **Resta a parità di raccordo** (e3b13) e **in bit è piccola** (e3b15): le scelte restano libere per più del 90%.
-- **Unire le varianti non fa emergere una lingua** (e3b17): il testo diventa anzi ancora più "da catena".
-- **La -*m* in mezzo alla riga non segna pause** (e3b16), **nessuna periodicità** lungo la riga (nota): nessun indizio di
-  frasi o di gruppi di parole di lunghezza fissa.
-- **Compressione a fine riga confermata** a parità di lunghezza delle parole (e3b12).
-- Note di interpretazione nel Quaderno: le scelte libere con memoria corta sono compatibili sia con un testo senza
-  significato sia con un cifrario a mano con varianti equivalenti (omofoni).
+- **Manca un controllo con uno scriba medievale vero** che scelga fra forme equivalenti (abbreviazioni, varianti):
+  servirebbe a dire se la memoria corta è un'abitudine generica di chi scrive a mano. I testi "latino abbreviato" del
+  corpus sono abbreviati da un programma. Se vuoi, si può cercare una trascrizione diplomatica (scaricarla richiede il
+  tuo permesso).
+- Il controllo "spazi fra sillabe" non si può fare con il pinyin del corpus (troppo pochi punti incerti) (e3b11).
+- Per l'altra chat (voynichizzatore), tutto è nel file `PASSAGGIO_VOYNICHIZZATORE.md`; la cosa più importante è che le
+  "12 scelte di riga" vanno sostituite da una memoria corta che si consuma con le lettere.
