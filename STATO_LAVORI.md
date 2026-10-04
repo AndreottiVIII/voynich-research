@@ -119,6 +119,7 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     intervalli sopra 0). L'"azzeramento" delle e3b10/e3b35/e3b63 era un effetto delle forme di bordo. All'a capo
     ripartono raccordo e giuntura. Errore di codice nell'e3b64 (prima esecuzione) e difetto del nullo parola per parola
     per le domande sui confini, dichiarati.
+    La memoria passa anche il salto del disegno, per intero (e3b67: D +0,068 ZL, +0,077 IT).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
