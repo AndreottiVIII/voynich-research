@@ -15183,3 +15183,29 @@ Coppie: Voynich circa 5.200 / 6.400 / 9.800 per le tre classi di distanza.
 - **Che cosa non dice:** non dice perché c'è questo stato (abitudine di scrittura, una regola del sistema, una chiave che
   cambia ogni poche parole, un contenuto che si ripete per qualche parola): sono ipotesi da mettere alla prova, nessuna è
   una lettura del testo.
+
+## 4/10/2026 (mattina) — e3c57: la finestra corretta non viene dalla posizione nella riga
+
+Preregistrato (`preregistrazioni/e3c57.md`; codice provato prima su testi finti: il nullo con la posizione toglie un
+accordo finto creato dalla posizione "a fasce", il placebo no). Tre nulli, somme medie per pagina, intervalli per pagine.
+
+| | nullo A (e3c48) | nullo P (con la fascia di posizione) | nullo R (placebo) | R − P (posizione) |
+|---|---|---|---|---|
+| ZL, K corretto 1 | +0,133 (+0,111 – +0,154) | **+0,113 (+0,094 – +0,132)** | +0,116 | +0,003 (−0,004 – +0,011) |
+| ZL, K corretto 2–3 | +0,091 (+0,071 – +0,110) | **+0,080 (+0,062 – +0,098)** | +0,080 | −0,000 (−0,006 – +0,005) |
+| IT, K corretto 1 | +0,141 (+0,119 – +0,161) | **+0,118 (+0,098 – +0,139)** | +0,123 | +0,005 (−0,002 – +0,011) |
+| IT, K corretto 2–3 | +0,092 (+0,073 – +0,110) | **+0,075 (+0,058 – +0,093)** | +0,086 | +0,011 (+0,005 – +0,016) |
+
+- **Esito preregistrato (ZL e IT): la finestra non viene dalla posizione nella riga.** Con il nullo che conserva la
+  posizione resta +0,11 / +0,12 accanto e +0,08 a 2–3 parole, intervalli ben sopra 0,02.
+- La parte dovuta alla posizione (R − P) è circa 0 in ZL e piccola in IT (+0,011 a 2–3 parole). Il calo da A a P/R
+  (circa −0,02) viene quasi tutto dai gruppi più piccoli (il placebo R cala quanto P), cioè è il limite di metodo
+  dell'e3c53, non la posizione.
+- Sui testi finti una deriva curva, anche forte, non crea una finestra finta (a 2–3 parole dà semmai un valore
+  negativo): la finestra positiva a 2–3 parole non si spiega con la forma della deriva.
+- Valori prudenti da citare (nullo con la posizione): **+0,11 – +0,12 accanto, +0,08 a 2–3 parole**.
+
+**Download (permesso di Davide, 4/10 ore 9:25):** da Menota (CC-BY-SA 4.0) scaricati AM 60 4to (norvegese, c. 1320),
+AM 242 fol (Codex Wormianus, islandese, c. 1350), Holm A 10 (svedese, c. 1500 – 1550), AM 302 fol (norvegese, c. 1300), in
+`dati/cache/menota/` (non committati). **Holm D 4** (svedese, 198 mila parole) non è scaricabile: il server chiude la
+risposta vuota dopo 60 secondi; riprovato una volta, lacuna dichiarata.
