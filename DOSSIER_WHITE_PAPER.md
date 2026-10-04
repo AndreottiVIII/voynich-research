@@ -1272,6 +1272,7 @@ accoppiata con l'inizio del tratto che lo continua, contro l'inizio di tratti vi
 | La ripetizione di parole si azzera all'a capo | **sbagliata** | passa per circa un quarto (e3b68) |
 | Raccordo *qo*/*o* e giuntura riparte a ogni a capo | **solida** | raccordo +0,04 a cavallo contro +0,35 nella riga (e3b45); giuntura rotta all'a capo (e384) |
 | Raccordo più forte che in uno scriba vero | **solida (un solo controllo)** | effetto/entropia 0,058 contro 0,007 (e3b58) |
+| La parola ripresa dalla riga sopra ne copia le scelte | **no** | nei conflitti segue la fonte 55%, ma con una riga lontana 57%: preferenza della parola, non copia (e3b84, e3b85); la copia riguarda la forma, non le scelte |
 | Le scelte non sono legate alla parola | **solida per *k*/*t* e *sh*/*ch***; debole legame possibile per *qo*/*o* e -*ey*/-*dy* | e3b49, e3b50, e3b61; Naibbe e U2 invece sì |
 | Pagine "solo testo": la memoria passa l'a capo più che altrove | **sbagliata** | D +0,026/+0,043 contro +0,039/+0,041 (e3b71) |
 | Pagine "solo testo": la giuntura (catena di segni) passa l'a capo | **solida** | E +0,145 ZL, +0,149 IT, p 0,0005; con la riga sopra circa 0 (e3a06, e3b72) |

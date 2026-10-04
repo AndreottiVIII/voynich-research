@@ -13436,3 +13436,21 @@ momento 0,30).
 - **Limite non previsto nella preregistrazione:** una parola che compare nella riga sopra può avere la stessa scelta
   anche solo per una sua debole preferenza, senza copia. Il controllo giusto è usare come "fonte" una riga lontana dello
   stesso paragrafo (e3b85): se anche lì la quota è circa 55%, è preferenza della parola e non copia.
+
+## 4/10/2026 (notte) — e3b85: la parola ripresa dalla riga sopra non ne copia le scelte di grafia
+
+Preregistrato (`preregistrazioni/e3b85.md`). Come l'e3b84, con la "fonte" presa dalla riga sopra (vicina) o da righe
+lontane dello stesso paragrafo (3 o più righe). Codice provato su paragrafi finti (copia fedele: 0,91 contro 0,47; solo
+preferenza della parola: 0,68 contro 0,69).
+
+| trascrizione | fonte vicina: segue la fonte (conflitti) | fonte lontana: segue la fonte (conflitti) | D (IC 95%) |
+|---|---|---|---|
+| ZL | 0,552 (667) | 0,572 (1.196) | −0,020 (−0,064 – +0,022) |
+| IT | 0,555 (670) | 0,573 (1.144) | −0,017 (−0,066 – +0,034) |
+
+- **Esito preregistrato: è preferenza della parola.** Il 55% dell'e3b84 non viene dalla copia: con una riga lontana come
+  "fonte" la quota è la stessa. Quando lo scriba riprende una parola dalla riga sopra **non ne copia le scelte di
+  grafia**: le rifà secondo la memoria del momento e una debole preferenza della parola stessa nel paragrafo. È lo stesso
+  comportamento del raccordo (la parola copiata si accorda con il vicino nuovo, e392, e394).
+- **Quadro:** la copia dalla riga sopra riguarda la **forma** della parola (che parola scrivere), non le sue **scelte**
+  libere, che dipendono da chi scrive in quel momento.
