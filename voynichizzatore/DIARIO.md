@@ -674,3 +674,23 @@ Nel QUADERNO (voce "vz: e415"). Su 12 chiavi: v15 0,570 / 0,601; v16 (gabbia di 
   `pubblico/voynichizzatore/`. Mancano: README con i numeri, scelta della versione (v15, v16 o v17), eventuale prova
   su un altro computer.
 - Nota per i white paper nel diario (voce delle 09:00): con e senza messaggio indistinguibili, come per il Voynich.
+
+## 4/10/2026, 09:50 — Davide sceglie la v17; pacchetto pubblico pronto (non pubblicato)
+
+- **Decisione di Davide: si pubblica la v17** (v14 + cifratura robusta + gabbia statistica).
+- `strumenti/costruisci_pubblico.py` (VERSIONE = 'v17') costruisce `pubblico/voynichizzatore/` (17 file): moduli del
+  generatore, pezzi estratti dagli esperimenti, `voynich_zl3b.json` (testo corrente del Voynich ripulito, con la fonte),
+  `voynichizzatore.py` (codifica, decodifica, vuoto), `LEGGIMI.md` con i numeri e i limiti, `requirements.txt`.
+- Prove sul pacchetto, da solo (senza il resto del repo nel percorso): Isidoro con una chiave a frase torna esatto; la
+  chiave sbagliata di una lettera è respinta; il manoscritto vuoto non restituisce niente; il manoscritto è identico
+  byte per byte a quello prodotto dal repo con la v17 e la stessa chiave.
+
+### Dove siamo (4/10, 09:50) — punto di ripartenza
+
+- **Versione corrente e da pubblicare: v17.** Su 12 chiavi: e231 0,563 ± 0,008, e266 0,601 ± 0,006, pagella 15,0 su 17
+  raggiungibili, materie aggiunte 5,8 su 8, cancello 11 su 12, testo esatto 12 su 12.
+- **Niente è stato pubblicato.** Prima di pubblicare restano, e sono decisioni di Davide: (1) la licenza del programma;
+  (2) dove (nome e proprietario del repo pubblico; eventuale sito); (3) se fare prima la prova su un secondo computer;
+  (4) se aspettare un giudice indipendente; (5) il via esplicito.
+- Miglioramenti possibili, non iniziati: omogeneità, scelte di riga per classe, profilo pagina, registro delle prime
+  righe, tipi su parole; uscita come immagine.
