@@ -181,6 +181,8 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     Nessun generatore ha la deriva lungo la riga (e3c18: tutti fra −0,002 e +0,003 ogni 10 segni).
     La deriva è più ripida nella prima metà della riga (e3c20: −0,036 contro −0,017 ogni 10 segni): riparte a ogni riga.
     Dopo un disegno non riparte; le parole che toccano il disegno hanno meno forme marcate (e3c21: −0,05/−0,07; incerto).
+    Bordi (e3c22): prima parola della riga sulla deriva (≈0), ultima −0,025; accanto al disegno −0,05/−0,07 da tutte e due le
+    parti: dove lo spazio è stretto, varianti semplici (lettura da verificare).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);

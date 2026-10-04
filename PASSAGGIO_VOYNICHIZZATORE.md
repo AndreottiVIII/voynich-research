@@ -399,3 +399,7 @@ Misure con il metodo finale (vedi DOSSIER, sezione 15.13). Da imitare:
     deriva, è più piccola di quanto scritto al punto 1: circa +0,05 – +0,06 invece di +0,08.
 15. (e3c17, e3c18) La deriva lungo la riga c'è in ogni mano, circa −0,011 ogni 10 segni in A e −0,035 in B (le quattro
     scelte insieme). **Nessun generatore pubblicato la ha** (Naibbe, U2, U3, Timm e Schinner: zero).
+16. (e3c20 – e3c22) **Forma della deriva e bordi:** il calo delle forme marcate è più ripido nella prima metà della riga
+    (−0,036 ogni 10 segni) che nella seconda (−0,017); la prima parola della riga sta sulla deriva, l'ultima ha 2,5 punti
+    in meno; le parole che toccano un disegno, prima e dopo, 5–7 punti in meno; dopo un disegno la deriva continua (non
+    riparte come a capo).
