@@ -15119,3 +15119,33 @@ e3c01).
 - **Lettura:** le lingue artificiali non producono la finestra (accordo fra parole vicine della riga in scelte che
   cambiano la parola). Il gibberish scritto a mano resta da misurare in un altro modo (per esempio mettendo insieme tutti
   gli scriventi come una sola mano, con lo scarto di ogni testo): è un controllo che per ora manca.
+
+## 4/10/2026 (mattina) — e3c54: la finestra per sezione; chiara dove ci sono abbastanza parole (biologia, farmacia, ricette, lingua A e B), incerta nell'erbario e nel resto
+
+Preregistrato (`preregistrazioni/e3c54.md`). Misura dell'e3c48 (*k*/*t*, *sh*/*ch*, -*ey*/-*dy* insieme, 50 rimescolamenti),
+gruppi di pagine dalla sezione illustrata e dalla lingua di Currier.
+
+| gruppo | pagine | parole | K corretto 1 ZL / IT | K corretto 2 / 3 ZL | r ZL / IT | voce ZL / IT |
+|---|---|---|---|---|---|---|
+| erbario A | 95 | 4.166 | +0,084 / +0,092 | +0,078 / +0,052 | 0,78 / 0,77 | nessun accordo chiaro / nessun accordo chiaro |
+| erbario B | 32 | 2.940 | +0,109 / +0,099 | +0,008 / +0,052 | 0,28 / 0,37 | vicine senza finestra / nessun accordo chiaro |
+| biologia | 19 | 5.772 | +0,160 / +0,162 | +0,122 / +0,113 | 0,73 / 0,67 | **finestra / finestra** |
+| farmacia | 16 | 1.673 | +0,234 / +0,215 | +0,141 / +0,119 | 0,56 / 0,62 | **finestra / finestra** |
+| stelle / ricette | 24 | 10.303 | +0,129 / +0,125 | +0,106 / +0,090 | 0,76 / 0,78 | **finestra / finestra** |
+| il resto | 19 / 18 | 2.576 | +0,086 / +0,096 | +0,048 / +0,051 | 0,57 / 0,52 | nessun accordo chiaro / nessun accordo chiaro |
+| lingua A | 114 | 6.488 | +0,129 / +0,141 | +0,090 / +0,072 | 0,63 / 0,63 | **finestra / finestra** |
+| lingua B | 82 | 20.641 | +0,133 / +0,139 | +0,097 / +0,081 | 0,67 / 0,65 | **finestra / finestra** |
+
+- **Esito preregistrato, alla lettera: "la finestra manca in qualche sezione: erbario A, il resto".**
+- **Ma la parola "manca" del criterio era sbagliata, e lo dichiaro:** "nessun accordo chiaro" vuol dire che gli
+  estremi bassi non superano 0,02, non che l'accordo non c'è. Nell'erbario A le stime sono positive e simili al resto
+  del manoscritto (+0,08 – +0,09 accanto, +0,05 – +0,08 a 2–3 parole, r 0,77 – 0,78), con estremi bassi appena sopra 0
+  (+0,010 / +0,020 accanto; +0,009 / +0,011 a 2–3 parole): è un problema di poche parole (4.166), non di assenza. Lo
+  stesso per "il resto" (2.576 parole). E la **lingua A nel suo insieme** (114 pagine, quasi tutte erbario A) **ha la
+  finestra** in tutte e due le trascrizioni, con valori uguali alla lingua B (+0,129 / +0,133 accanto).
+- **Lettura corretta:** la finestra c'è in lingua A e in lingua B con la stessa forza, ed è chiara in biologia, farmacia e
+  ricette. Nell'erbario e nelle pagine astronomiche è incerta per poche parole, senza segni di una differenza vera (gli
+  intervalli si sovrappongono a quelli delle altre sezioni). L'unico gruppo con una forma un po' diversa è l'erbario B
+  (accordo accanto, poco a 2 parole, r 0,28 – 0,37), ma con 2.940 parole e intervalli larghi: da non leggere.
+- **Lezione:** nei prossimi criteri "nessun accordo chiaro" non si chiama "manca"; per dire "manca" serve un intervallo
+  che stia sotto il valore del Voynich intero.
