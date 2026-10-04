@@ -15464,3 +15464,27 @@ dell'e3c48 (50 rimescolamenti, intervalli per pagine).
 - **Descrizione compatta per il white paper e per il generatore:** ogni scelta (*k*/*t*, -*ey*/-*dy*, *sh*/*ch*) ha un suo
   stato che persiste di parola in parola con probabilità circa 0,8 (mezza vita circa 3 parole), indipendente dalle altre
   scelte e dalla parola che si scrive.
+
+## 4/10/2026 (mattina) — Strade "di cifratura" mai provate (richiesta di Davide: "falle tutte e 6")
+
+Sei idee nate dai risultati di oggi, tutte non provate prima (controllato nel Quaderno: già fatte Naibbe e cifrari
+verbosi, ibrido di D'Imperio, sillabe, griglia di Rugg, nulle, lunghezze delle parole, chiave per pagina e per posizione
+nella parola, chiave di Cheshire, lingua B come A con altra chiave):
+
+1. unità nascoste che durano qualche parola (i confini degli stati delle varie scelte coincidono?);
+2. un segno o una parola dopo cui lo stato "riparte" (indice di alfabeto alla Alberti);
+3. un messaggio a bit nelle scelte doppie (biletterale alla Bacone, periodi alla Tritemio);
+4. una chiave che riparte a ogni riga (autochiave con avvio per riga), per simulazione;
+5. liste di parole a turno lungo la riga (l'"Ave Maria" di Tritemio): un ritmo fisso nella riga;
+6. molti copisti di cifrari veri del Quattrocento (database DECODE), se il download è possibile.
+
+## e3c67 non eseguito: "i confini degli stati coincidono?" non ha potenza con questi dati (lacuna dichiarata)
+
+Statistica pensata: correlazione fra l'accordo in eccesso di due scelte diverse nella stessa coppia di parole vicine
+(con confini comuni è positiva). Prova su testi finti (prima di qualunque preregistrazione, mai sul Voynich; 23 mila
+coppie di scelte, forza dello stato simile al Voynich): stati indipendenti +0,0048 (−0,0074 – +0,0178), confini comuni
++0,0064 (−0,0054 – +0,0189), niente +0,0054: **non distingue**. Il conto atteso spiega perché: con un accordo di circa
+0,13 per scelta la correlazione prevista dai confini comuni è circa 0,015, mentre l'errore con le coppie disponibili
+nel Voynich (meno di quelle finte) è circa ±0,02. Esperimento non fatto; numero e3c67 senza preregistrazione né
+risultati. Lacuna: con queste misure a coppie non si può dire se le scelte cambiano negli stessi punti; servirebbe un
+modello a stati nascosti adattato a intere righe.
