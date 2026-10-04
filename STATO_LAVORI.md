@@ -223,6 +223,9 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     parole (tranne il Corano, picco a 2): il tratto del Voynich è l'accordo che dura fino a 3 parole. Correzione dell'e3c01.
     **e3c46:** lo scriba anglosassone (Hatton, þ/ð a inizio parola) ha la stessa finestra, più forte (+0,58/+0,27/+0,34):
     primo scriba vero con il comportamento del Voynich. Marianus и/ꙇ non interpretabile (scelta quasi fissa per parola).
+    **e3c48 (correzione della distorsione):** la finestra del Voynich regge anche con blocchi di 5 righe (K corretto +0,124 /
+    +0,080 / +0,074 ZL); **ritrattato l'e3c46**: per Hatton þ/ð la misura era gonfiata (+0,25 col rimescolamento); corretta,
+    accordo accanto sì ma a 2–3 parole no. Da rifare con la correzione i confronti con lingue, generatori, scribi (e3c49).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);

@@ -1470,7 +1470,12 @@ lingue crolla (di solito 0–20% di quello fra parole accanto, al più 46%), men
 Separatamente: (6) dentro la riga le varianti marcate (*qo*, *k*, *sh*, -*ey*) calano andando verso destra, più in fretta
 all'inizio; nessun generatore lo fa (e3c13 – e3c20).
 Questo non dice se il testo abbia un significato.
-**Aggiunta (e3c46): uno scriba vero ha la stessa finestra.** Lo scriba anglosassone degli Hatton Gospels, nella scelta
+**Correzione della distorsione (e3c48):** la misura ha una distorsione che cambia da testo a testo (da −0,07 a +0,37);
+togliendola (K osservato meno K con le scelte rimescolate), il Voynich con le pagine intere cambia poco (K corretto +0,131
+/ +0,093 / +0,086 ZL; +0,140 / +0,088 / +0,097 IT) e la finestra regge anche togliendo le preferenze di blocchi di 5 righe
+(+0,124 / +0,080 / +0,074 ZL). I confronti con lingue, generatori e scribi vanno rifatti con la correzione (e3c49).
+**RITRATTATO dall'e3c48 (la misura per þ/ð era gonfiata di +0,19 – +0,37; corretta, lo scriba ha accordo fra parole
+accanto ma non a 2–3 parole, come le lingue). Testo originale dell'aggiunta, lasciato per traccia:** **Aggiunta (e3c46): uno scriba vero ha la stessa finestra.** Lo scriba anglosassone degli Hatton Gospels, nella scelta
 libera fra þ e ð a inizio parola, con la stessa misura ha +0,584 fra parole accanto e +0,271 / +0,338 a 2 e 3 parole: lo
 stesso comportamento del Voynich, più forte. È il controllo che mancava: una scelta grafica libera di uno scriba medievale
 si ripete per alcune parole come le scelte del Voynich (a differenza dell'accordo grammaticale delle lingue, che crolla
