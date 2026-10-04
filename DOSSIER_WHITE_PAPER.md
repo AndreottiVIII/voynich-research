@@ -1343,6 +1343,10 @@ differenza fra mani. Nel white paper: "della stessa grandezza in tutte le mani, 
 10 segni (nessun intervallo sotto 0), contro −0,011 (A) e −0,035 (B) del Voynich. **Dove avviene (e3c20):** più ripida
 nella prima metà della riga (−0,036 ogni 10 segni) che nella seconda (−0,017), differenza con intervallo sotto 0 in ZL
 e IT: a ogni riga si riparte dalle forme marcate e ci si allontana scrivendo, più che semplificare vicino al margine.
+**Bordi e disegni (e3c21, e3c22):** oltre alla deriva, l'ultima parola della riga ha meno forme marcate (−0,025, ZL e IT),
+e le parole che toccano un disegno ancora meno, da tutte e due le parti (prima −0,068, dopo −0,055); la prima parola della
+riga no (≈ 0). Dopo un disegno le forme marcate non ripartono (la deriva continua). Lettura possibile: dove lo spazio è
+stretto si scelgono le varianti semplici (*o*, *t*, *ch*, -*dy*).
 **Correzione dei valori della memoria (e3c14):** la deriva fa accordare di più le parole vicine; con un nullo che
 rimescola dentro fasce di posizione nella riga la memoria è **+0,062 (ZL, IC +0,035 – +0,089) e +0,051 (IT, +0,025 –
 +0,079)**, contro +0,086 e +0,076 del nullo solito: circa un terzo veniva dalla deriva. Nel white paper vanno citati i

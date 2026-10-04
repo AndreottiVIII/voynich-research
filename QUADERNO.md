@@ -14359,3 +14359,28 @@ Preregistrato (`preregistrazioni/e3c21.md`). ZL, regressione della scelta (1 = *
 - **Lettura possibile (da verificare):** le parole che toccano il disegno, da tutte e due le parti, si scrivono più
   "semplici", come vicino a un bordo. La deriva lungo la riga invece continua oltre il disegno, come la memoria (e3b67).
   Prossimo passo (e3c22): confrontare con i bordi veri della riga (prima e ultima parola) nella stessa regressione.
+
+## 4/10/2026 (mattina) — e3c22: prima del disegno come a fine riga; dopo il disegno no
+
+Preregistrato (`preregistrazioni/e3c22.md`). Regressione della scelta (1 = *qo*, *k*, *sh*, -*ey*) dentro strati (classe,
+parola coperta) con tutte le parole della riga.
+
+| termine | ZL (IC 95%) | IT (IC 95%) |
+|---|---|---|
+| x, ogni 10 segni | −0,030 (−0,036 – −0,024) | −0,029 (−0,036 – −0,022) |
+| F, prima parola della riga | −0,004 (−0,028 – +0,022) | −0,001 (−0,023 – +0,026) |
+| L, ultima parola della riga | **−0,027** (−0,044 – −0,004) | **−0,025** (−0,044 – −0,004) |
+| S, prima dopo il disegno | **−0,055** (−0,099 – −0,013) | — |
+| E, ultima prima del disegno | **−0,068** (−0,110 – −0,030) | — |
+| E − L | −0,041 (−0,089 – +0,000) | — |
+| S − F | **−0,050** (−0,102 – −0,005) | — |
+
+- **Esito preregistrato: prima del disegno come a fine riga; dopo il disegno non come a inizio riga.**
+- Quadro: la prima parola della riga sta sulla linea della deriva (le forme marcate sono al massimo a inizio riga, senza
+  un salto in più); l'ultima parola della riga ne ha un po' meno (−2,5 punti, replicato in IT); le parole che toccano un
+  disegno ne hanno ancora meno, **da tutte e due le parti** (−5/−7 punti). Prima del disegno la differenza con la fine
+  riga non è dimostrata; dopo il disegno la parola è chiaramente diversa da una prima parola di riga.
+- **Lettura (da non dare per provata):** dove lo spazio è stretto, contro il margine destro o contro un disegno, chi
+  scrive usa più spesso le varianti semplici (*o*, *t*, *ch*, -*dy*). Va insieme alla compressione degli spazi a fine riga
+  (e3b12). Il disegno non funziona come un nuovo inizio: la deriva continua oltre il disegno e la memoria lo attraversa
+  (e3b67).
