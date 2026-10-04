@@ -1512,6 +1512,11 @@ di Davide per scaricarli). Il Marianus (и/ꙇ) non è interpretabile con questa
   la parola) è di tutto il manoscritto, in tutte e due le "lingue" di Currier e in tre trascrizioni; non si trova negli
   scribi veri provati (forme di lettera, abbreviazioni), nelle lingue artificiali, nei generatori pubblicati; nelle lingue
   naturali c'è un accordo grammaticale di forma simile solo nei testi più "lunghi" (latino tecnico di Plinio).
+- **Copia o stato? (e3c55):** l'accordo c'è quasi uguale fra parole molto diverse (4 segni o più di differenza: +0,091 ZL,
+  +0,097 IT) e fra parole simili (2 segni: +0,129 / +0,130); la differenza (+0,03 – +0,04) non è dimostrata. Il generatore
+  di Timm e Schinner (che copia parole vicine modificandole) fa il contrario: accordo solo fra parole simili (differenza
+  +0,063, intervallo sopra 0; fra parole diverse +0,021, non dimostrato). Codice provato prima su testi finti. **La
+  finestra è uno "stato" di 2 – 3 parole nelle scelte, non copia di parole vicine.** Il perché resta aperto.
 
 **Lezioni di metodo da riportare** (utili anche a chi legge): (1) confrontare con la media della pagina ai bordi della
 riga inganna, perché fine e inizio riga hanno forme proprie; (2) togliere le coppie "simili" guardando la parola intera

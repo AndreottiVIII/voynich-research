@@ -418,3 +418,14 @@ Misure con il metodo finale (vedi DOSSIER, sezione 15.13). Da imitare:
     con la parola accanto (lì decide il raccordo) ma sì a 2–3 parole (+0,06 / +0,11); *a*/*o* quasi niente. Le scelte di
     una stessa pagina hanno inoltre una preferenza comune (circa 0,06 di accordo a ogni distanza). U3 e Timm e Schinner
     hanno un piccolo accordo accanto ma nessuna finestra: è il tratto da imitare.
+20. (e3c48 – e3c55, 4/10 mattina) **Come imitare la finestra, con i numeri corretti per la distorsione:**
+    - valori da imitare (misura corretta, ZL): *k*/*t* +0,136 accanto, +0,106 / +0,102 a 2 / 3 parole; -*ey*/-*dy* +0,176,
+      +0,141 / +0,082; *sh*/*ch* +0,098, +0,056 / +0,064 (al limite); *qo*/*o* circa 0 accanto, +0,080 / +0,138 a 2 / 3;
+    - è uguale in lingua A e B e in tutte le sezioni dove si può misurare;
+    - **non va fatta copiando parole vicine**: nel Voynich l'accordo c'è quasi uguale fra parole molto diverse (4 segni o
+      più di differenza: +0,09) e fra parole simili (+0,13); il generatore di Timm e Schinner, che copia, ha l'accordo
+      solo fra parole simili. Il modo più semplice di imitarla è uno **stato per ogni scelta** (una "modalità *k*" o
+      "modalità *t*", una per -*ey*/-*dy*, ecc.) che dura 2 – 3 parole e cambia indipendentemente per le varie scelte,
+      senza passare l'a capo in modo chiaro, sopra le preferenze di parola, di pagina e la deriva lungo la riga;
+    - le forme pure (due forme di *d* o di *e* in Glen Claston) non hanno un accordo chiaro: lo stato tocca le scelte
+      che cambiano la parola.
