@@ -13535,3 +13535,18 @@ tutte le coppie, +0,088 senza la prima parola).
 - **Lettura:** la prima parola della riga, con le sue forme di bordo, spiega una parte del "dimezzamento": senza di lei
   passa il 60–70% della memoria (ZL 59%, IT 72%). Il resto è un calo vero ma modesto. In sintesi: all'a capo la memoria
   delle scelte si attenua (passa per più di metà), non si azzera.
+
+## 4/10/2026 (notte) — e3b90: alla fine del paragrafo la memoria stimata resta circa zero anche senza la prima parola
+
+Preregistrato (`preregistrazioni/e3b90.md`). Come l'e3b73, senza le coppie in cui la seconda parola è la prima del
+paragrafo nuovo (funzioni dell'e3b89, già provate).
+
+| trascrizione | pagine | D senza la prima parola (IC 95%) | coppie di continuazione |
+|---|---|---|---|
+| ZL | 159 | −0,014 (−0,091 – +0,068) | 1.365 |
+| IT | 164 | −0,000 (−0,082 – +0,086) | 1.465 |
+
+- **Esito preregistrato: non dimostrato** (intervallo largo).
+- **Lettura:** a differenza dell'a capo (senza la prima parola +0,052/+0,059, e3b89), alla fine del paragrafo la stima
+  resta circa zero con tutte e due le trascrizioni. I numeri vanno verso una ripartenza della memoria a ogni paragrafo,
+  ma con troppe poche coppie per dirlo.
