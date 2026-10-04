@@ -1433,7 +1433,11 @@ Schinner (+0,047) hanno un piccolo accordo fra parole accanto, metà del Voynich
 (e3c38):** in GC (v101) le gallows *h*/*k* hanno K +0,104 / +0,074 / +0,088 a 1, 2, 3 parole (R0 0,85), come *k*/*t* in EVA;
 *a*/*o* cala subito come in EVA. **A capo con la misura pulita (e3c39):** la quota che passa è stimata 0,44 (ZL) e 0,51
 (IT), come nell'e3b66, ma con circa 1.150 coppie e un controllo rumoroso non è dimostrata (ZL "non passa", IT "incerto"):
-nel white paper il dimezzamento all'a capo va dato come stima non confermata.
+nel white paper il dimezzamento all'a capo va dato come stima non confermata. **Non è la catena di segni (e3c40):** sul
+Voynich riscritto dalla sua catena di ordine 2 (forme di bordo e raccordo conservati) la misura pulita dà circa zero a 1,
+2 e 3 parole (media −0,004 a 1 parola), contro +0,130 / +0,076 / +0,076 del Voynich ZL. **In numeri semplici:** con la
+misura pulita, fra parole accanto la scelta di *k*/*t*, *sh*/*ch*, -*ey*/-*dy* si ripete circa 13 punti percentuali più del
+previsto, a 2 e 3 parole circa 7–8 punti; *qo*/*o* 6–11 punti a 2–3 parole.
 
 **Lezioni di metodo da riportare** (utili anche a chi legge): (1) confrontare con la media della pagina ai bordi della
 riga inganna, perché fine e inizio riga hanno forme proprie; (2) togliere le coppie "simili" guardando la parola intera

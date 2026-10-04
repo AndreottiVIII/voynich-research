@@ -14787,3 +14787,19 @@ sotto).
   cavallo dell'a capo e un controllo rumoroso (in ZL alto quanto l'a capo) non si può dire con la misura pulita. Il
   "dimezzamento all'a capo" va riportato come stima non confermata.
 - Per *qo*/*o* i dati a cavallo dell'a capo sono troppo pochi (150 coppie).
+
+## 4/10/2026 (mattina) — e3c40: l'accordo con la misura pulita non viene dalla catena di segni
+
+Preregistrato (`preregistrazioni/e3c40.md`). Misura dell'e3c34 sul Voynich ZL e su 5 riscritture con la sua catena di
+segni di ordine 2 (forme di bordo e raccordo sì, memoria no; e3b69).
+
+| testo | *k*/*t*, *sh*/*ch*, -*ey*/-*dy*: K(1) / K(2) / K(3) | *qo*/*o*: K(1) / K(2) / K(3) |
+|---|---|---|
+| Voynich ZL | **+0,130** (+0,105 – +0,153) / +0,076 / +0,076 | −0,006 / +0,056 / +0,114 |
+| 5 riscritture con la catena | da −0,020 a +0,021 / da −0,030 a +0,021 / da −0,014 a +0,004 | da −0,046 a −0,009 / … / … |
+
+- **Esito preregistrato: l'accordo fra parole accanto non viene dalla catena di segni** (media delle riscritture −0,004
+  contro +0,130). Anche a 2 e 3 parole le riscritture sono a zero.
+- Con la misura pulita il quadro è quindi: le scelte *k*/*t*, *sh*/*ch*, -*ey*/-*dy* si accordano fra parole vicine (circa
+  13 punti percentuali fra parole accanto, 7–8 a 2 e 3 parole), *qo*/*o* a 2–3 parole (6–11 punti); né la catena di segni,
+  né le preferenze delle parole e delle pagine, né la deriva lungo la riga lo spiegano; nessun generatore lo riproduce.

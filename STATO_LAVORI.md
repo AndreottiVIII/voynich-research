@@ -212,7 +212,8 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     accordo accanto, ma a 2–3 parole quasi zero (Voynich +0,08–0,10 a 3 parole). **e3c38:** in GC le gallows (h/k) hanno la
     stessa finestra di k/t in EVA (K +0,104 / +0,074 / +0,088); a/o come in EVA: replica con altro trascrittore e alfabeto.
     **e3c39:** con la misura pulita il passaggio all'a capo non è dimostrato (ZL non passa, IT incerto); stima 0,44–0,51 come
-    prima, ma poche coppie e controllo rumoroso.
+    prima, ma poche coppie e controllo rumoroso. **e3c40:** sul Voynich riscritto dalla catena di segni la misura pulita dà
+    zero a 1, 2, 3 parole (Voynich +0,130 / +0,076 / +0,076): l'accordo non viene dalla catena.
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
