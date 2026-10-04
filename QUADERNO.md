@@ -14194,3 +14194,31 @@ parola coperta, senza la prima e l'ultima parola della riga.
   posizioni simili) che quelle lontane, e il nullo largo (rimescolamento dentro tipo coperto e pagina) non la toglie.
   Può gonfiare un poco la memoria e il consumo con le lettere. Stima a mano: una piccola frazione (dell'ordine del 10%),
   ma va misurata: e3c14, con un nullo che conserva la posizione nella riga.
+
+## 4/10/2026 (mattina) — e3c14: la memoria regge senza la deriva lungo la riga, ma circa un terzo del valore citato era deriva
+
+Preregistrato (`preregistrazioni/e3c14.md`). Memoria e pendenza per lettera con un nullo che rimescola dentro (mano,
+parola coperta, fascia di posizione nella riga), così la deriva dell'e3c13 resta anche nel nullo. Codice provato su
+testi finti (solo deriva: memoria finta +0,231 col nullo solito, +0,021 con quello con posizione; solo memoria: +0,098 e
++0,098).
+
+| misura | ZL | IT |
+|---|---|---|
+| memoria, nullo solito | +0,086 (+0,058 – +0,112) | +0,076 (+0,050 – +0,102) |
+| **memoria, nullo con posizione** | **+0,062** (+0,035 – +0,089) | **+0,051** (+0,025 – +0,079) |
+| per lettera, nullo solito | −0,0033 (−0,0053 – −0,0013) | −0,0036 (−0,0060 – −0,0014) |
+| per lettera, nullo con posizione | −0,0027 (−0,0048 – −0,0007) | −0,0031 (−0,0055 – −0,0009) |
+| per lettera *sh*/*ch*, con posizione | −0,0053 (−0,0085 – −0,0022) | −0,0062 (−0,0097 – −0,0030) |
+| per lettera robuste, con posizione | −0,0015 (−0,0040 – +0,0011) | −0,0015 (−0,0042 – +0,0011) |
+
+- **Esito preregistrato: la memoria non viene dalla deriva lungo la riga** (resta il 72% in ZL e il 68% in IT, con
+  intervalli sopra 0).
+- **Correzione dei numeri:** circa un terzo della memoria misurata finora (+0,086 ZL, +0,076 IT, e3b70) veniva dalla
+  deriva delle scelte lungo la riga. Il valore da citare, senza deriva, è **+0,062 (ZL) e +0,051 (IT)**. Anche i numeri
+  semplici dell'e3b82 ("circa 10 punti percentuali") ne contengono una parte: senza deriva sono più vicini a 6–7 punti
+  (stima, non misurata).
+- Il consumo con le lettere cambia poco (−0,0027 / −0,0031) e resta soprattutto in *sh*/*ch*; nelle scelte robuste −0,0015,
+  non dimostrato.
+- **Da rifare per coerenza:** la forma del calo (R, e3b96–e3b98). La deriva può rendere la curva più piatta, perché le
+  coppie lontane (8–12 parole) stanno ai due capi della riga e si accordano di meno per effetto della sola deriva. Prossimo
+  passo: e3c15.

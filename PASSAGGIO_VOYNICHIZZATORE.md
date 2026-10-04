@@ -394,3 +394,6 @@ Misure con il metodo finale (vedi DOSSIER, sezione 15.13). Da imitare:
     in *qo*/*o*, *k*/*t*, -*ey*/-*dy* è circa un terzo e non dimostrato. Nel generatore: memoria con calo per parole per
     tutte le scelte, più un calo per segni scritti forte solo per *sh*/*ch*. Per *sh*/*ch* potrebbe trattarsi
     dell'inchiostro sul trattino di *sh* (in verifica, e3c13).
+14. (e3c13, e3c14) **Deriva lungo la riga:** dentro la riga (bordi esclusi), a parità di parola, *qo*, *k*, *sh*, -*ey*
+    diventano più rari andando verso destra (2–3,5 punti ogni 10 segni). Va riprodotta. E la memoria corta, tolta la
+    deriva, è più piccola di quanto scritto al punto 1: circa +0,05 – +0,06 invece di +0,08.
