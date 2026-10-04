@@ -1,0 +1,112 @@
+vero {"giuntura": 0.18836362619024713, "chiusura della riga": 0.19366415431211767, "ripresa dalla riga sopra": 0.03216398158369241, "margine sinistro": 0.4961252670854992, "-m a fine riga": 0.14390154394693214, "y/s/d a inizio riga": 0.2573608008175389, "catena dentro/fra le parole": 0.5395670995670995, "frequenza-forma": 0.6178576878541838}
+riscritto 0 {"giuntura": 0.20014471484791455, "chiusura della riga": 0.2003288333947315, "ripresa dalla riga sopra": 0.00047294099982963617, "margine sinistro": -0.03933482571154445, "-m a fine riga": 0.1424231399662083, "y/s/d a inizio riga": 0.26606756889309, "catena dentro/fra le parole": 0.46814586210765496, "frequenza-forma": 0.641897227164059}
+riscritto 1 {"giuntura": 0.20174107547937903, "chiusura della riga": 0.20563607587026278, "ripresa dalla riga sopra": -0.0003877429878136849, "margine sinistro": -0.1917175629375838, "-m a fine riga": 0.1516839655301294, "y/s/d a inizio riga": 0.2485346810963391, "catena dentro/fra le parole": 0.42678175045490485, "frequenza-forma": 0.6545715063944174}
+riscritto 2 {"giuntura": 0.19748496009217617, "chiusura della riga": 0.19997485364876094, "ripresa dalla riga sopra": 0.00318612267719263, "margine sinistro": 0.06968579954361953, "-m a fine riga": 0.14035841955882367, "y/s/d a inizio riga": 0.2639474607786844, "catena dentro/fra le parole": 0.37237065734736347, "frequenza-forma": 0.6555591149759857}
+riscritto 3 {"giuntura": 0.19899411111547446, "chiusura della riga": 0.19686161243072195, "ripresa dalla riga sopra": 0.0023018786942809286, "margine sinistro": -0.013811342932706472, "-m a fine riga": 0.14933628133529991, "y/s/d a inizio riga": 0.2568274379268605, "catena dentro/fra le parole": 0.4294422558573502, "frequenza-forma": 0.6513272519145932}
+riscritto 4 {"giuntura": 0.20472853519101258, "chiusura della riga": 0.20475709917027352, "ripresa dalla riga sopra": 0.003970489025003379, "margine sinistro": -0.14374837535742135, "-m a fine riga": 0.14542844937541335, "y/s/d a inizio riga": 0.25673604260950933, "catena dentro/fra le parole": 0.35072266397223567, "frequenza-forma": 0.6364391397578214}
+{
+ "giuntura": {
+  "vero": 0.18836362619024713,
+  "riscritto_media": 0.20061867934519137,
+  "riscritto": [
+   0.20014471484791455,
+   0.20174107547937903,
+   0.19748496009217617,
+   0.19899411111547446,
+   0.20472853519101258
+  ],
+  "R": 1.0650606138924437,
+  "esito": "la catena la riproduce"
+ },
+ "chiusura della riga": {
+  "vero": 0.19366415431211767,
+  "riscritto_media": 0.20151169490295015,
+  "riscritto": [
+   0.2003288333947315,
+   0.20563607587026278,
+   0.19997485364876094,
+   0.19686161243072195,
+   0.20475709917027352
+  ],
+  "R": 1.0405213893025604,
+  "esito": "la catena la riproduce"
+ },
+ "ripresa dalla riga sopra": {
+  "vero": 0.03216398158369241,
+  "riscritto_media": 0.0019087376816985778,
+  "riscritto": [
+   0.00047294099982963617,
+   -0.0003877429878136849,
+   0.00318612267719263,
+   0.0023018786942809286,
+   0.003970489025003379
+  ],
+  "R": 0.05934394896763449,
+  "esito": "la catena non la riproduce: serve un meccanismo in più"
+ },
+ "margine sinistro": {
+  "vero": 0.4961252670854992,
+  "riscritto_media": -0.0637852614791273,
+  "riscritto": [
+   -0.03933482571154445,
+   -0.1917175629375838,
+   0.06968579954361953,
+   -0.013811342932706472,
+   -0.14374837535742135
+  ],
+  "R": -0.12856684734852447,
+  "esito": "la catena non la riproduce: serve un meccanismo in più"
+ },
+ "-m a fine riga": {
+  "vero": 0.14390154394693214,
+  "riscritto_media": 0.14584605115317492,
+  "riscritto": [
+   0.1424231399662083,
+   0.1516839655301294,
+   0.14035841955882367,
+   0.14933628133529991,
+   0.14542844937541335
+  ],
+  "R": 1.013512761245702,
+  "esito": "la catena la riproduce"
+ },
+ "y/s/d a inizio riga": {
+  "vero": 0.2573608008175389,
+  "riscritto_media": 0.2584226382608967,
+  "riscritto": [
+   0.26606756889309,
+   0.2485346810963391,
+   0.2639474607786844,
+   0.2568274379268605,
+   0.25673604260950933
+  ],
+  "R": 1.0041258709173453,
+  "esito": "la catena la riproduce"
+ },
+ "catena dentro/fra le parole": {
+  "vero": 0.5395670995670995,
+  "riscritto_media": 0.4094926379479018,
+  "riscritto": [
+   0.46814586210765496,
+   0.42678175045490485,
+   0.37237065734736347,
+   0.4294422558573502,
+   0.35072266397223567
+  ],
+  "R": 0.7589281078784125,
+  "esito": "la catena la riproduce"
+ },
+ "frequenza-forma": {
+  "vero": 0.6178576878541838,
+  "riscritto_media": 0.6479588480413754,
+  "riscritto": [
+   0.641897227164059,
+   0.6545715063944174,
+   0.6555591149759857,
+   0.6513272519145932,
+   0.6364391397578214
+  ],
+  "R": 1.0487185977918843,
+  "esito": "la catena la riproduce"
+ }
+}
