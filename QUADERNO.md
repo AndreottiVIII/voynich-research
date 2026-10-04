@@ -13963,3 +13963,34 @@ contro coppie con più parole (distanze 2–5, classi scelte a mano, metodo fina
   di parole (e3b80) è meno esposta, perché lì la distanza in parole è la stessa nei due gruppi.
 - Prossimo passo (e3c07): le due misure (lettere a parità di parole, parole a parità di lettere) senza le coppie che
   toccano la prima o l'ultima parola della riga.
+
+## 4/10/2026 (mattina presto) — Difetto di metodo nell'e3b80 e nell'e3c06 (trovato provando il codice dell'e3c07)
+
+Le misure "poche contro molte lettere a parità di parole" (e3b80, usata anche nell'e3b92 e nell'e3b99) e "meno contro
+più parole a parità di lettere" (e3c06) dividevano le coppie alla mediana dentro ogni strato, togliendo i pareggi. Con
+molti pareggi i due gruppi hanno composizioni diverse degli strati. Su testi finti con memoria che si consuma solo con le
+lettere, la misura dell'e3c06 dava −0,069 invece di 0: **il −0,057/−0,060 dell'e3c06 è probabilmente questo errore**.
+Nell'e3b80 lo sbilanciamento c'è ma è minore (contate le sole coppie: per *k*/*t* 61% contro 43% di coppie a distanza 2
+nei due gruppi). Corretto nell'e3c07 con una divisione bilanciata (metà e metà dentro ogni strato).
+
+## 4/10/2026 (mattina presto) — e3c07: con la divisione bilanciata il consumo con le lettere regge; l'e3c06 era un errore
+
+Preregistrato (`preregistrazioni/e3c07.md`). Classi scelte a mano, ZL e IT, con e senza la prima e l'ultima parola della
+riga. Codice provato su testi finti (memoria per lettere: lettere +0,048, parole ≈ 0; memoria per parole: lettere ≈ 0).
+
+| trascrizione | misura | con i bordi | senza i bordi |
+|---|---|---|---|
+| ZL | lettere a parità di parole | **+0,060** (+0,030 – +0,091) | **+0,040** (+0,000 – +0,080) |
+| IT | lettere a parità di parole | **+0,052** (+0,025 – +0,082) | **+0,037** (+0,002 – +0,074) |
+| ZL | parole a parità di lettere | −0,011 (−0,040 – +0,019) | −0,019 (−0,051 – +0,014) |
+| IT | parole a parità di lettere | −0,000 (−0,029 – +0,030) | +0,003 (−0,027 – +0,033) |
+
+- **Esito preregistrato principale: il consumo con le lettere regge** (senza i bordi, intervallo sopra 0 in ZL e IT).
+  Va detto con precisione: per ZL l'estremo basso è +0,00002, cioè proprio sul limite.
+- Con la divisione corretta e con i bordi l'effetto è +0,052 – +0,060, poco sotto il +0,066 dell'e3b80: lo sbilanciamento
+  lo gonfiava appena. Senza le parole ai bordi scende a circa +0,04: una parte (circa un terzo) passa per la prima e
+  l'ultima parola della riga, dove le forme sono speciali.
+- **Controllo dell'e3c06: l'effetto negativo era un errore di metodo** (con la divisione bilanciata le parole a parità
+  di lettere danno 0 in tutte e quattro le misure).
+- Ancora aperto: la misura "parole a parità di lettere" è poco sensibile, quindi non dice se conti solo la scrittura.
+  Prossimo passo (e3c08): le lingue con la divisione corretta, per tenere il confronto alla pari.

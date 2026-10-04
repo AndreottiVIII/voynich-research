@@ -1,0 +1,90 @@
+{
+ "trascrizioni": {
+  "ZL": {
+   "lettere a parità di parole, con i bordi": {
+    "coppie_gruppo_0": 10808,
+    "M": 0.06406872814128145,
+    "nullo": 0.004184515294566456,
+    "effetto": 0.059884212846714635,
+    "IC95": [
+     0.02963184220641274,
+     0.09128361402480883
+    ]
+   },
+   "parole a parità di lettere, con i bordi": {
+    "coppie_gruppo_0": 17820,
+    "M": -0.009180895427686318,
+    "nullo": 0.0015745025722763476,
+    "effetto": -0.010755397999962437,
+    "IC95": [
+     -0.03965248009667278,
+     0.018887487926053718
+    ]
+   },
+   "lettere a parità di parole, senza i bordi": {
+    "coppie_gruppo_0": 7789,
+    "M": 0.047002398958171154,
+    "nullo": 0.0068840698015035515,
+    "effetto": 0.0401183291566676,
+    "IC95": [
+     2.2095465141493652e-05,
+     0.0797911356842792
+    ]
+   },
+   "parole a parità di lettere, senza i bordi": {
+    "coppie_gruppo_0": 12303,
+    "M": -0.024727152389052126,
+    "nullo": -0.005560344530616401,
+    "effetto": -0.019166807858435553,
+    "IC95": [
+     -0.050716262730761144,
+     0.013739134789102624
+    ]
+   }
+  },
+  "IT": {
+   "lettere a parità di parole, con i bordi": {
+    "coppie_gruppo_0": 10955,
+    "M": 0.043288239376485106,
+    "nullo": -0.00915927738608097,
+    "effetto": 0.0524475167625659,
+    "IC95": [
+     0.0245460887509163,
+     0.08214491083803205
+    ]
+   },
+   "parole a parità di lettere, con i bordi": {
+    "coppie_gruppo_0": 18042,
+    "M": 0.00042541163847303887,
+    "nullo": 0.0006453070722244085,
+    "effetto": -0.00021989543375113376,
+    "IC95": [
+     -0.0286967694560023,
+     0.02960223818371494
+    ]
+   },
+   "lettere a parità di parole, senza i bordi": {
+    "coppie_gruppo_0": 7955,
+    "M": 0.03736557019708121,
+    "nullo": -3.46724764121141e-05,
+    "effetto": 0.03740024267349411,
+    "IC95": [
+     0.0024317599338874556,
+     0.0736353239426507
+    ]
+   },
+   "parole a parità di lettere, senza i bordi": {
+    "coppie_gruppo_0": 12515,
+    "M": 0.002629670825556263,
+    "nullo": -0.0005774237826661984,
+    "effetto": 0.003207094608222288,
+    "IC95": [
+     -0.026479739987766936,
+     0.03330003420462165
+    ]
+   }
+  }
+ },
+ "esito_lettere": "il consumo con le lettere regge",
+ "esito_parole": "l'effetto negativo dell'e3c06 era un errore di metodo"
+}
