@@ -12162,3 +12162,20 @@ almeno 6 parole di almeno 3 segni; parole con una simile nella riga sopra: 30,5%
 - **Esito preregistrato: incerto** (le righe quasi copiate stanno fra il 95° e il 99° percentile del nullo; la varianza no).
 - **Lettura:** la ripresa dalla riga sopra è quasi del tutto sparsa: qualche parola qua e là in ogni riga, non righe
   intere ricopiate. Al più un leggero eccesso di righe molto riprese.
+
+## 4/10/2026 (notte) — e3b30: dalla riga sopra si riprendono in proporzione di più le parole rare
+
+Preregistrato (`preregistrazioni/e3b30.md`). Eccesso di ripresa dalla riga sopra (come l'e3a79) per classe di frequenza.
+
+| classe | parole | eccesso per parola | eccesso relativo | IC 95% |
+|---|---|---|---|---|
+| unica (1 volta nel libro) | 3.107 | +0,005 | +15% | −6% – +39% |
+| rara (2–9) | 4.354 | +0,032 | **+31%** | +21% – +42% |
+| media (10–49) | 5.949 | +0,037 | +17% | +12% – +23% |
+| frequente (50+) | 10.646 | +0,061 | +15% | +12% – +18% |
+
+- **Esito preregistrato: la copia favorisce le parole rare.** In proporzione a quanto tornerebbero comunque, le parole
+  rare della riga sopra ricompaiono sotto il doppio delle frequenti. È coerente con una copia "a vista": le forme insolite
+  appena scritte sopra vengono riprese.
+- Le parole uniche hanno un eccesso incerto (per definizione non possono ripetersi uguali, solo a una modifica): va con
+  l'e348 (le parole uniche non nascono dalla ripresa).
