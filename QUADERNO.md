@@ -11061,3 +11061,21 @@ Preregistrato (`preregistrazioni/e3a71.md`, con una nota scritta dopo la prova d
   1–2) addestrate su una lingua; non è una proprietà di qualunque catena. Il fatto solido è l'altro: per il Voynich
   l'ordine non conta (da 2 in su), cioè le sue parole non hanno struttura oltre i due segni di memoria che queste misure
   vedano; quelle delle lingue sì (le parole di una lingua non si rifanno con due segni di memoria).
+
+## 4/10/2026 (notte) — e3a73 abbandonato prima della preregistrazione: il cifrario Naibbe non ha legame fra parole vicine, quindi non può fare da controllo
+
+Idea: in un cifrario verboso che cifra un testo vero lettera per lettera, le parole vicine dovrebbero essere legate (come
+le lettere vicine del testo in chiaro), e si poteva vedere se il Voynich ha quel legame. Misura pensata: informazione
+fra le parole vicine, fra le 100 più frequenti, con il nullo dentro (pagina, ultimo segno, primo segno).
+
+Prova del codice sui soli controlli, prima di committare la preregistrazione (nessun dato del Voynich guardato):
+- Naibbe (che cifra la *Naturalis historia* di Plinio): E −0,002, z −1,0 con il nullo dei segni di bordo; anche con il
+  solo nullo della pagina E 0,0015, z 0,5 (100 parole più frequenti) e 0,0015, z 0,2 (30 parole);
+- U2 e U3: zero, come atteso;
+- un testo inglese: E 0,43, z 46.
+
+Il controllo positivo non vede niente: nel Naibbe il dado che spezza il testo in lettere e coppie e sceglie fra le tabelle
+disperde il legame fra lettere vicine su troppe parole diverse. Il test non può quindi dire nulla sul cifrario, e lo
+abbandono. **Cosa resta, come nota:** un cifrario verboso alla Naibbe non lascia legami misurabili fra parole vicine,
+né fra parole intere né fra segni di bordo (e3a62). La debolezza dei legami fra parole del Voynich (a parte la giuntura)
+non è quindi un argomento contro un cifrario di quel tipo. È la stessa conclusione dell'e3a51 (distanza 2).
