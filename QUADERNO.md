@@ -15837,3 +15837,41 @@ per coppie della stessa scelta a distanza 1 – 3, media delle tre distanze.
   riferimento. Il criterio dell'e3c83 ha rifatto lo stesso sbaglio chiamando "azzera" un intervallo che contiene 0.
   D'ora in poi ogni criterio "manca / azzera" chiederà anche che l'estremo alto stia sotto metà del riferimento.
 - La vecchia lettura dell'e3b67 ("la memoria passa il salto") non è confermata né smentita.
+
+## 4/10/2026 — vz: e417, l'alternanza nella riga riportata; la v20 sostituisce la v17
+
+Preregistrazione `preregistrazioni/e417.md`. Risultati: `risultati/e417_alternanza_larghezza.md`,
+`risultati/e409b_messaggio_nel_sacco_v20_chiavi_1_12.md`.
+
+**Che cosa si è fatto.** Sopra la v19 (larghezza delle righe da una curva) si è regolato di nuovo il peso `distanza2`
+della disposizione, su manoscritti senza messaggio: A (somiglianza a distanza 2 su somiglianza fra vicine, e110) cresce
+con il peso in modo monotono (1,002 → 1,019 → 1,030 → 1,065 → 1,101 → 1,134; Voynich 1,047). Scelto 0,30 (A 1,030,
+somiglianza a distanza 2 a 0,2223 contro 0,2198 del Voynich): il valore dopo, 0,45, era ammesso dal vincolo del 5% ma
+con A più lontana dal Voynich.
+
+| 12 chiavi | Voynich | v17 | v19 | v20 |
+|---|---|---|---|---|
+| righe oltre 1,25 | 6,0% | 16,7% | 11,4% | 11,5% |
+| righe oltre 1,5 | 2,9% | 5,0% | 2,8% | 2,8% |
+| A | 1,047 | 1,009 | 0,999 | 1,034 |
+| giudice e231 | | 0,563 ± 0,008 | 0,551 | 0,554 ± 0,007 |
+| giudice e266 | | 0,601 ± 0,006 | 0,596 | 0,599 ± 0,005 |
+| pagella (su 18) | | 15,0 | 15,8 | 15,6 |
+| estese (su 8) | | 5,8 | 5,5 | 5,4 |
+| cancello della riga | | 11 su 12 | 4 su 12 | 12 su 12 |
+| rilettura esatta | | 12 su 12 | 12 su 12 | 12 su 12 |
+
+**Previsioni.** A monotona: sì. Peso scelto fra 0,2 e 0,65: sì. A media almeno 1,008: sì (1,034). Cancello almeno 9 su
+12: sì (12). Larghezze entro un punto dalla v19: sì. Giudici entro ±0,015 dalla v19: sì. Il rischio su G6 non si è
+visto (0,53, come prima).
+
+**Lettura, con i criteri scritti prima.** (a) larghezze non peggio della v19 di oltre un punto: sì; (b) giudici non
+peggiori della v17 di oltre 0,015: sì (uguali entro l'errore, un filo meglio); (c) rilettura 12 su 12, chiave sbagliata
+respinta 12 su 12, sacchi identici alla v17 12 su 12: sì; (d) cancello almeno 9 su 12 e pagella non sotto 14: sì.
+**La v20 sostituisce la v17 come versione pubblicata.**
+
+**Limiti.** Le righe oltre 1,25 volte la mediana restano quasi il doppio del Voynich (11,5% contro 6,0%). La soglia
+del criterio (a) è stata scelta dopo aver visto la v19 (dichiarato nella preregistrazione). Le estese calano di poco
+(5,4 contro 5,8: la "dispersione delle lunghezze" passa meno spesso). I giudici della v20 non sono distinguibili da
+quelli della v17 entro l'errore: il guadagno è nelle righe e nel cancello, non nei giudici. Un manoscritto v17 si
+legge con la v20 (verificato): cambia solo la disposizione, che non porta il messaggio.

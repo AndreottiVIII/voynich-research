@@ -1,0 +1,9 @@
+Voynich: A 1.0465 | somiglianza a distanza 2 0.2198
+distanza2 0.132: A 1.0019 | somiglianza a distanza 2 0.2152 | S1 0.506
+distanza2 0.200: A 1.0186 | somiglianza a distanza 2 0.2178 | S1 0.548
+distanza2 0.300: A 1.0298 | somiglianza a distanza 2 0.2223 | S1 0.518
+distanza2 0.450: A 1.0652 | somiglianza a distanza 2 0.2307 | S1 0.536
+distanza2 0.650: A 1.1008 | somiglianza a distanza 2 0.2394 | S1 0.522
+distanza2 0.900: A 1.1340 | somiglianza a distanza 2 0.2506 | S1 0.524
+scelto: 0.3
+{'A': 1.0338466344383557, 'A almeno 1': 12, 'somiglianza a distanza 2': 0.22413203556221017, 'caratteri oltre 1,25': 0.1154234505006237, 'caratteri oltre 1,5': 0.02826697658937698, 'sacchi identici': 12, 'rilettura esatta': 12}
