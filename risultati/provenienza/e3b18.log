@@ -1,0 +1,23 @@
+{
+ "stessa_classe": {
+  "differenza": 0.02268876182801153,
+  "IC95": [
+   0.01627967383921361,
+   0.029090196990455848
+  ]
+ },
+ "classi_diverse": {
+  "differenza": 0.003020881050357504,
+  "IC95": [
+   -0.0013252149601910295,
+   0.007399977827668211
+  ]
+ },
+ "coppie": {
+  "stessa vicino": 26906,
+  "diverse vicino": 55910,
+  "stessa lontano": 8072,
+  "diverse lontano": 17324
+ },
+ "esito": "memoria per classe"
+}
