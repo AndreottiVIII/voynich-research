@@ -12281,3 +12281,17 @@ Preregistrato (`preregistrazioni/e3b35.md`). Repliche sulla IT con le stesse fun
   toccava lo zero. La memoria è **soprattutto** separata per ogni scelta, ma ha anche una piccola parte comune.
 - Di conseguenza la nota "la memoria non sembra venire dallo stato della penna" va ammorbidita: una piccola parte comune
   c'è, e potrebbe avere anche una causa fisica; la parte principale resta per classe.
+
+## 4/10/2026 (notte) — e3b36: con Takahashi reggono gli spazi per mano e l'assenza di ripresa fra pagine; la memoria di qo/o a parità di raccordo no
+
+Preregistrato (`preregistrazioni/e3b36.md`). Repliche sulla IT.
+
+| risultato | IT | esito |
+|---|---|---|
+| memoria di *qo*/*o* a parità di raccordo (e3b13) | +0,035, IC −0,007 – +0,076 | **non regge** |
+| spazi facoltativi diversi per mano (e3a66) | eterogeneità 747 contro nullo 617, p 0,001 | **regge** |
+| la ripresa non passa la pagina (e3b28) | +0,010, IC −0,015 – +0,035 (105 coppie) | **regge** |
+
+- **Correzione della lettura dell'e3b13:** la memoria di *qo*-/*o*- a parità di raccordo va nella stessa direzione con
+  tutte e due le trascrizioni, ma con la IT l'intervallo contiene lo zero (con la ZL era appena sopra). È un indizio, non
+  un risultato. Per le altre scelte (*sh*/*ch*, -*ey*/-*dy*, *ee*/*e*, *k*/*t*) la memoria non dipende dal raccordo e regge.

@@ -1,0 +1,31 @@
+{
+ "1 memoria di qo/o a parità di raccordo (e3b13)": {
+  "differenza": 0.03465359380678421,
+  "IC95": [
+   -0.006719626771108902,
+   0.07601967762671373
+  ],
+  "regge": false
+ },
+ "2 spazi facoltativi per mano (e3a66)": {
+  "mani": [
+   "1",
+   "2",
+   "3",
+   "5"
+  ],
+  "eterogeneita": 747.2965162616857,
+  "nullo_media": 617.2777054187623,
+  "p": 0.000999000999000999,
+  "regge": true
+ },
+ "3 la ripresa non passa la pagina (e3b28)": {
+  "coppie": 105,
+  "eccesso": 0.009801993550660169,
+  "IC95": [
+   -0.015227116358068738,
+   0.03520070160376283
+  ],
+  "regge": true
+ }
+}
