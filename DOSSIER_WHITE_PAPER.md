@@ -1335,6 +1335,8 @@ non dimostrato. Per *sh*/*ch* non si può escludere un effetto dell'inchiostro s
 varianti *qo*, *k*, *sh*, -*ey* si fanno più rare andando verso destra (−0,020, −0,030, −0,034, −0,029 ogni 10 segni, ZL; IT
 uguale): 8–12 punti percentuali da un capo all'altro di una riga tipica. Essendo comune a tutte le scelte, non è un effetto
 dell'inchiostro sul trattino di *sh*. Va insieme alle forme di bordo e alla deriva verticale di -*ey* nella pagina.
+Replica (e3c17): c'è in ogni mano e in tutte e due le lingue di Currier, circa tre volte più forte in B (−0,035 ogni 10
+segni, classi insieme) che in A (−0,011).
 **Correzione dei valori della memoria (e3c14):** la deriva fa accordare di più le parole vicine; con un nullo che
 rimescola dentro fasce di posizione nella riga la memoria è **+0,062 (ZL, IC +0,035 – +0,089) e +0,051 (IT, +0,025 –
 +0,079)**, contro +0,086 e +0,076 del nullo solito: circa un terzo veniva dalla deriva. Nel white paper vanno citati i
