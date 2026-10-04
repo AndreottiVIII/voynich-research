@@ -1,0 +1,83 @@
+{
+ "immediate": {
+  "coppie": 100,
+  "delta_medio": 0.28272968813365607,
+  "IC95": [
+   0.1264973367203265,
+   0.45600439283263194
+  ],
+  "quota_positivi": 0.62
+ },
+ "distanza_2": {
+  "coppie": 93,
+  "delta_medio": 0.41110097608271434,
+  "IC95": [
+   0.25370277761777377,
+   0.5676322692491832
+  ],
+  "quota_positivi": 0.6881720430107527
+ },
+ "esempi_immediati": [
+  [
+   "chor chol daiin",
+   2
+  ],
+  [
+   "dal dar ol",
+   2
+  ],
+  [
+   "chol chok choty",
+   1
+  ],
+  [
+   "dol dolo ykol",
+   1
+  ],
+  [
+   "kcho kchy sho",
+   1
+  ],
+  [
+   "chol chor chol",
+   1
+  ],
+  [
+   "chor chol keol",
+   1
+  ],
+  [
+   "chal chag cham",
+   1
+  ],
+  [
+   "chag cham cho",
+   1
+  ],
+  [
+   "chor chol oky",
+   1
+  ],
+  [
+   "ees eey kcheol",
+   1
+  ],
+  [
+   "shor shol shol",
+   1
+  ],
+  [
+   "ychos ychol daiin",
+   1
+  ],
+  [
+   "dol dor aiin",
+   1
+  ],
+  [
+   "chot choty otariin",
+   1
+  ]
+ ],
+ "esito": "la ripetizione guarda avanti"
+}

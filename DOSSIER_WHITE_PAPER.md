@@ -1138,3 +1138,4 @@ conta poco, perché la loro giuntura è quasi zero.
   - Vale in lingua A e B e per le mani 1, 2, 3 (e3a91: eccesso entro 4 parole +0,004/+0,006, zero a 7–10 parole).
   - Con l'alfabeto di Glen Claston reggono sia la sintesi della catena (giuntura, chiusura, catena, frequenza-forma R 0,98–1,11; copia e margine R ≤ 0) sia la ripetizione di memoria corta (calo 0,36) (e3a92): le novità valgono con tutte e tre le trascrizioni.
   - Le ripetizioni immediate con l'inizio cambiato seguono il raccordo (e3a93: Δ +0,17, IC +0,10 – +0,23; a distanza 2 nessun effetto): *okeey qokeey* (dopo -y si aggiunge q), *qokar okar* (dopo -r si toglie). La ripresa di memoria corta e il raccordo lavorano insieme.
+  - Anche quando una ripetizione cambia la fine, la fine nuova si accorda con la parola dopo (e3a94: Δ +0,28 immediate, +0,41 a distanza 2; *chor chol daiin*, *dal dar ol*). Qui la direzione non è stabilita (coerente con lo sguardo avanti dell'e3a02).
