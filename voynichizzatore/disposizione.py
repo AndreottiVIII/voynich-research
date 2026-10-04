@@ -336,13 +336,14 @@ class Disposizione:
         if px.get('classi') or px.get('scelte') or px.get('scelte_sopra'):
             # parola -> ((indice, valore), ...): le 12 classi dell'e206b sul vocabolario del testo che si dispone (indici 0-11:
             # 0 forma corta, 1 lunga) e, dall'e410, le cinque scelte di grafia dell'e135/e145 (indici 12-16)
-            import json as _json
-            nomi = _json.load(open(os.path.join(QUI, '..', 'risultati', 'e206b_facoltativi_strati.json'), encoding='utf-8'))['scelte_di_riga']
-            self.n_classi = len(nomi)
+            self.n_classi = 12          # le classi dell'e206b; l'elenco dei nomi serve solo se il loro peso e' acceso
             vocabolario = Counter(w for _, _, ps in rr for w in ps)
             tratti_w = {w: [] for w in vocabolario}
             if px.get('classi'):
+                import json as _json
                 import e206_segni_facoltativi as e206
+                nomi = _json.load(open(os.path.join(QUI, '..', 'risultati', 'e206b_facoltativi_strati.json'), encoding='utf-8'))['scelte_di_riga']
+                assert len(nomi) == self.n_classi
                 ind = {n: k for k, n in enumerate(nomi)}
                 for w, d in e206.classi_di(vocabolario).items():
                     tratti_w[w].extend((ind['%s %s' % c], v) for c, v in d.items() if '%s %s' % c in ind)
