@@ -1489,7 +1489,7 @@ di Davide per scaricarli). Il Marianus (и/ꙇ) non è interpretabile con questa
 
 **Aggiunta (e3c50 – e3c54, 4/10 mattina): chi altro ha la finestra, con la misura corretta.**
 - **Scribi veri con righe e pagine vere (e3c50):** due manoscritti islandesi trascritti a livello facsimile (Menota, CC-BY-SA
-  4.0: AM 519 a 4to, *Alexanders saga*, c. 1280; AM 677 4to, c. 1300). Nelle scelte libere di forma di lettera (ꝩ/v, u/v,
+  4.0: AM 519 a 4to, *Alexanders saga*, c. 1280; AM 677 4to, c. 1200 – 1225). Nelle scelte libere di forma di lettera (ꝩ/v, u/v,
   c/k, accento í/ı) e nell'abbreviare o no **nessun accordo** fra parole vicine (K corretto fra −0,006 e +0,033, intervalli
   quasi tutti sotto il +0,131 del Voynich; per l'abbreviazione ±0,007 attorno a 0). Inoltre in questi scribi quasi tutte
   le forme di lettera sono fisse per parola o per posizione, mentre nel Voynich *k*/*t*, *sh*/*ch*, -*ey*/-*dy* variano

@@ -15149,3 +15149,9 @@ gruppi di pagine dalla sezione illustrata e dalla lingua di Currier.
   (accordo accanto, poco a 2 parole, r 0,28 – 0,37), ma con 2.940 parole e intervalli larghi: da non leggere.
 - **Lezione:** nei prossimi criteri "nessun accordo chiaro" non si chiama "manca"; per dire "manca" serve un intervallo
   che stia sotto il valore del Voynich intero.
+
+## 4/10/2026 (mattina) — Correzione: la data di AM 677 4to
+
+Nella preregistrazione e3c50 e nella voce e3c50 di questo quaderno ho scritto che AM 677 4to è "c. 1300". Il catalogo
+Menota lo data **c. 1200 – 1225** (avevo letto la data della voce accanto nel catalogo). I risultati non cambiano; i due
+scribi sono quindi di circa 1200 – 1225 e 1280. Corretto anche nel dossier.
