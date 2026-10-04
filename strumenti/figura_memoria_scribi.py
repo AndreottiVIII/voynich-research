@@ -25,8 +25,8 @@ def main():
             ('Voynich ZL, qo/o', a['Voynich ZL']['qo/o'], '#e88'), ('Voynich ZL, -ey/-dy', a['Voynich ZL']['-ey/-dy'], '#e88'),
             ('scriba anglosassone,\nþ/ð a inizio parola', a['naturali']['Hatton Gospels, þ/ð a inizio parola'], 'tab:blue'),
             ('scriba anglosassone,\ni/y', a['naturali']['Hatton Gospels, i/y'], '#8ac'),
-            ('stampa inglese,\ni/y', a['naturali']['Secreta Alberti, i/y'], '#8ac'),
-            ('stampa fiamminga,\ni/y', a['naturali']['NT fiammingo, i/y'], '#8ac')]
+            ('Secreta Alberti\n(inglese), i/y', a['naturali']['Secreta Alberti, i/y'], '#8ac'),
+            ('NT fiammingo,\ni/y', a['naturali']['NT fiammingo, i/y'], '#8ac')]
     nomi = {'Naibbe (Greshko 2025), a capo': 'Naibbe', 'U2 (Whitehatnetizen 2026)': 'U2', 'U3 (Whitehatnetizen 2026)': 'U3', 'Timm e Schinner, seme 1': 'Timm e Schinner'}
     for k, x in g.items():
         voce.append((nomi.get(k, k), x['insieme'], 'tab:green'))
