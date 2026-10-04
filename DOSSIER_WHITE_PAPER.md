@@ -1584,6 +1584,12 @@ per riga ne riproduce una sola (la riga chiusa) al prezzo di distruggere le altr
 così: per ogni scelta, uno stato breve che si spegne in 2 – 3 parole (non copia, non posizione, non legato alle
 occorrenze della scelta, e3c55, e3c57, e3c72), più una componente lenta che attraversa le righe.
 
+**Mani (e3c81):** lo stato breve è uguale nelle tre mani misurabili (1, 2, 3; accanto +0,12 – +0,15, a 2 – 3 parole
++0,07 – +0,11, in ZL e IT): è una **regola del sistema di scrittura**, non l'abitudine di uno scriba (ritirata la
+lettura dell'e3b59, "la mano 1 non la ha", che veniva dalla misura). **Testi tecnici (e3c80):** le ripetizioni di parole
+vicine del Voynich (uguali in tutte le sezioni) non vengono dal genere: erbari, ricettari e testi di astrologia tedeschi
+a mano ripetono da 7 a 30 volte meno; il vocabolario del Voynich (2.897 tipi ogni 10.000) è invece di grandezza normale.
+
 **DESCRIZIONE FINALE DELLO STATO (dopo l'e3c75):** per ogni scelta (*qo*/*o*, *k*/*t*, *sh*/*ch*, -*ey*/-*dy*), oltre alla
 preferenza della parola e della pagina e alla deriva lungo la riga, ci sono due componenti indipendenti dalle altre
 scelte: (1) uno **stato breve** dentro la riga, +0,145 fra parole accanto, che si spegne in 2 – 3 parole (non copia, non

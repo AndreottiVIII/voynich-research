@@ -15787,3 +15787,33 @@ sul Voynich ZL per sezione.
 - **Dato in più:** il numero di parole diverse ogni 10.000 del Voynich (2.897) è lo stesso dei testi tecnici tedeschi
   (2.545 – 2.938). Il Voynich non ha un vocabolario povero: ha un vocabolario di grandezza normale e, in più, ripete la
   parola vicina (o una quasi uguale) molto più del normale.
+
+## 4/10/2026 (pomeriggio) — e3c81: lo stato breve è uguale in tutte le mani del Voynich; ritirata la lettura dell'e3b59
+
+Preregistrato (`preregistrazioni/e3c81.md`). Misura dell'e3c48 (*k*/*t*, *sh*/*ch*, -*ey*/-*dy* insieme) per mano di Davis.
+
+| mano (pagine) | K corretto 1 ZL / IT | K corretto 2 / 3 ZL | K corretto 2 / 3 IT | r ZL / IT | voce |
+|---|---|---|---|---|---|
+| 1 (112, lingua A) | +0,127 / +0,139 | +0,090 / +0,078 | +0,084 / +0,111 | 0,66 / 0,70 | finestra |
+| 2 (46) | +0,145 / +0,151 | +0,104 / +0,074 | +0,090 / +0,091 | 0,61 / 0,60 | finestra |
+| 3 (31) | +0,128 / +0,124 | +0,100 / +0,092 | +0,084 / +0,092 | 0,75 / 0,71 | finestra |
+| 4, 5 | non misurabili (meno di 1.500 parole) | | | | |
+
+- **Esito preregistrato (ZL e IT): presente in tutte le mani misurabili**, con valori quasi uguali (accanto +0,12 –
+  +0,15; a 2 – 3 parole +0,07 – +0,11; r 0,60 – 0,75).
+- **Ritiro della lettura dell'e3b59** ("la memoria corta varia da scriba a scriba, la mano 1 non la ha"): con la misura
+  corretta la mano 1 ha lo stesso stato delle altre. La differenza dell'e3b59 veniva dalla misura (il dubbio sul nullo era
+  già stato dichiarato subito dopo).
+- **Lettura:** lo stato breve delle scelte è una **regola del sistema di scrittura**, uguale in scribi diversi (e in
+  lingua A e B), non l'abitudine di uno scriba. Negli scribi veri provati (sette nordici, 73 tedeschi in corso, il copista
+  del Copiale) uno stato così non si trova.
+
+## 4/10/2026 (pomeriggio) — e3c82 non eseguito: "lo stato breve passa l'a capo?" non supera la prova su testi finti (lacuna dichiarata)
+
+Idea: confrontare coppie a cavallo dell'a capo (ultime parole di una riga, prime della riga dopo) con una base di righe
+vicine ma lontane nella sequenza di scrittura (prime parole di una riga, ultime della riga dopo). Prova sui testi finti
+(prima di qualunque preregistrazione, mai sul Voynich): con coppie 2 × 2 la prova non distingue "passa" (A − C +0,020,
+−0,005 – +0,045) da "si azzera"; rifatta una volta con coppie 3 × 3, la base C risulta distorta (−0,016 anche quando lo
+stato si azzera a capo) e fa sembrare positivo A − C in tutti e due i casi. Secondo la regola, esperimento non fatto;
+numero e3c82 senza preregistrazione né risultati. Lacuna: non sappiamo se la parte breve dello stato passa l'a capo
+(quella lenta sì, e3c74 – e3c75).
