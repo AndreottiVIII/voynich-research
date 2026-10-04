@@ -9,6 +9,7 @@
 **Hanno contribuito:** Andrea Lanterna (impostazione dell'ambiente di calcolo), Giulia Gandellini (supporto).
 
 *Bozza in italiano, 4 ottobre 2026. Non sottoposta a revisione. La versione inglese, in LaTeX, è in `white_paper/en/`.*
+*© 2026 gli autori. Licenza Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0).*
 
 ---
 

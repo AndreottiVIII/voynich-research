@@ -21,6 +21,9 @@ come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
 - **Pubblicazione:** scheda per Zenodo in `white_paper/zenodo/SCHEDA_ZENODO.md` (il caricamento lo fa Davide; se prenota
   il DOI, va aggiunto nella prima pagina del PDF). Articolo LinkedIn in `white_paper/linkedin/articolo_linkedin.md`
   (`[LINK ZENODO]` da sostituire).
+- **Licenza: CC BY 4.0**, confermata da Davide (4/10 sera); scritta nella prima pagina del PDF e nella scheda Zenodo.
+- Il PDF è anche sul sito pubblico, pagina Research (lo cura la chat del sito): quando cambia il PDF o arriva il DOI,
+  avvisare quella chat.
 - Calcolo impiegato: circa 2,8 miliardi di token nella chat di ricerca (1,1 sul vecchio PC, stima di Davide; 1,70 su
   questo PC, dai registri delle chat); con le chat del voynichizzatore e del sito circa 3,2.
 
