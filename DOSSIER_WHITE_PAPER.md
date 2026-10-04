@@ -1296,7 +1296,9 @@ due modifiche, e3b97, 0,66 Takahashi e 0,64 ZL, contro 0,16 dell'italiano: è il
 "memoria" del Voynich non si comporta come un accordo dentro il sintagma. **Su tutti i testi grandi del corpus (e3b98,
 26 testi, classe generica sulle ultime lettere):** nessuno dei 16 con accordo chiaro arriva a 0,64 (mediana 0,16), ma il
 Volapük (lingua artificiale, -*s* plurale) arriva a 0,62 (0,51 – 0,75) e Plinio a 0,45: la forma piatta è rara nelle
-lingue, non impossibile (una scelta che dura per tutta una frase, come il plurale, può darla).
+lingue, non impossibile (una scelta che dura per tutta una frase, come il plurale, può darla). **Consumo con le lettere
+sugli stessi 16 testi (e3b99):** mediana +0,0005 contro +0,066 del Voynich, un solo testo sopra 0 (Vulgata +0,024); il
+Volapük no (−0,003). Forma piatta e consumo con le lettere insieme, nel corpus, si trovano solo nel Voynich.
 
 **Formula per il white paper:** il Voynich ha, oltre alla catena di segni per riga e allo spazio non lessicale, una
 memoria corta delle scelte di grafia forte e uniforme (tutte le scelte, tutte le mani, due trascrizioni), che prosegue
