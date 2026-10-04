@@ -117,6 +117,94 @@ if __name__ == '__main__':
 ''' % VERSIONE
 
 
+LICENZA = """MIT License
+
+Copyright (c) 2026 Davide Caniatti
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+"""
+
+CHIAVE_PROVA = 'prova di rilettura su un altro computer'
+TESTO_PROVA = """Questo è il testo di prova del voynichizzatore.
+
+Se stai leggendo queste righe dopo averle tirate fuori da un manoscritto scritto su un altro computer, la rilettura
+funziona anche fra macchine diverse: il carattere di ogni pagina, i pesi delle parole e la codifica aritmetica hanno dato
+gli stessi numeri qui e là. Il testo contiene lettere accentate (à, è, é, ì, ò, ù), numeri (1404, 1438, 240 fogli) e
+qualche segno (—, «», ’), per controllare che torni tutto, byte per byte.
+
+Un erbario, un cielo di stelle, donne in vasche verdi, radici in barattoli: nessuno sa che cosa dica il libro, né se
+dica qualcosa.
+"""
+
+PROVA = '''# -*- coding: utf-8 -*-
+"""Prova di rilettura su un altro computer. Usa: python prova.py
+1. rilegge prova/manoscritto_di_prova.txt (scritto sul computer che ha preparato il pacchetto) e lo confronta con
+   prova/testo_di_prova.txt;
+2. scrive qui un manoscritto nuovo con lo stesso testo e la stessa chiave e lo rilegge;
+3. dice se il manoscritto scritto qui coincide con quello incluso (non serve che coincida)."""
+import os, platform, sys
+
+QUI = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, QUI)
+CHIAVE = %r
+
+
+def main():
+    import canale_sacco, v0, voynichizzatore
+    import numpy, scipy, sklearn
+    v = voynichizzatore.VERSIONE
+    testo = open(os.path.join(QUI, 'prova', 'testo_di_prova.txt'), encoding='utf-8').read()
+    print('Python %%s su %%s %%s; numpy %%s, scipy %%s, scikit-learn %%s' %% (platform.python_version(), platform.system(), platform.machine(),
+                                                                       numpy.__version__, scipy.__version__, sklearn.__version__))
+    incluso = v0.carica(os.path.join(QUI, 'prova', 'manoscritto_di_prova.txt'))
+    try:
+        uno = canale_sacco.decodifica(incluso, CHIAVE, v) == testo
+    except Exception as e:
+        uno = False
+        print('   errore nella rilettura: %%s' %% e)
+    print('1. il manoscritto scritto altrove si rilegge qui: %%s' %% ('SI' if uno else 'NO'))
+    print('   (ora scrivo un manoscritto nuovo: un paio di minuti)')
+    rifatto, _ = canale_sacco.codifica(testo, CHIAVE, v, verifica=False)
+    v0.salva(rifatto, os.path.join(QUI, 'prova', 'manoscritto_rifatto.txt'))
+    due = canale_sacco.decodifica(v0.carica(os.path.join(QUI, 'prova', 'manoscritto_rifatto.txt')), CHIAVE, v) == testo
+    print('2. un manoscritto scritto qui si rilegge qui: %%s' %% ('SI' if due else 'NO'))
+    a = open(os.path.join(QUI, 'prova', 'manoscritto_di_prova.txt'), encoding='utf-8').read()
+    b = open(os.path.join(QUI, 'prova', 'manoscritto_rifatto.txt'), encoding='utf-8').read()
+    print('3. il manoscritto scritto qui coincide con quello incluso: %%s (non serve che coincida)' %% ('SI' if a == b else 'NO'))
+
+
+if __name__ == '__main__':
+    main()
+''' % CHIAVE_PROVA
+
+
+def prova():
+    """Scrive in prova/ il testo, il manoscritto fatto su questo computer con il pacchetto appena costruito, e prova.py."""
+    import subprocess
+    os.makedirs(os.path.join(USCITA, 'prova'))
+    scrivi(os.path.join('prova', 'testo_di_prova.txt'), TESTO_PROVA)
+    scrivi('prova.py', PROVA)
+    env = dict(os.environ, PYTHONPATH='', PYTHONIOENCODING='utf-8')
+    subprocess.run([sys.executable, 'voynichizzatore.py', 'codifica', os.path.join('prova', 'testo_di_prova.txt'), '--chiave', CHIAVE_PROVA,
+                    '--uscita', os.path.join('prova', 'manoscritto_di_prova.txt')], cwd=USCITA, env=env, check=True)
+
+
 LEGGIMI = """# Voynichizzatore
 
 Prende un testo qualsiasi e una parola chiave e scrive un manoscritto "alla Voynich", in EVA (l'alfabeto con cui si
@@ -193,7 +281,16 @@ Un manoscritto con un messaggio e uno senza non si distinguono fra loro con ques
   disposizione con licenza Creative Commons CC0. Qui c'è solo il testo corrente in paragrafi, con le parole leggibili.
 - Il manoscritto è conservato alla Beinecke Rare Book and Manuscript Library dell'Università di Yale (MS 408).
 
-Licenza del programma: da decidere prima della pubblicazione.
+## Licenza
+
+Il programma è sotto licenza MIT (file `LICENSE`). Il testo del Voynich in `voynich_zl3b.json` è di pubblico dominio (CC0).
+
+## Prova di rilettura su un altro computer
+
+    python prova.py
+
+Rilegge il manoscritto di prova incluso (scritto su un altro computer), poi ne scrive uno nuovo e lo rilegge. Alla fine
+stampa tre righe con l'esito: se la prima dice "sì", un manoscritto scritto altrove si rilegge anche qui.
 """
 
 
@@ -228,7 +325,10 @@ def main():
     scrivi('trascrizione.py', TRASCRIZIONE)
     scrivi('voynichizzatore.py', STRUMENTO)
     scrivi('requirements.txt', 'numpy\nscipy\nscikit-learn\n')
-    scrivi('LEGGIMI.md', LEGGIMI)
+    scrivi('README.md', LEGGIMI)
+    scrivi('LICENSE', LICENZA)
+    scrivi('.gitignore', '__pycache__/\n*.pyc\nprova/manoscritto_rifatto.txt\n')
+    prova()
     print('pacchetto in %s: %d file, %d righe di testo del Voynich' % (os.path.relpath(USCITA, RADICE), len(os.listdir(USCITA)), len(d['righe'])))
 
 
