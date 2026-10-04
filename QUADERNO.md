@@ -13376,3 +13376,12 @@ Preregistrato (`preregistrazioni/e3b80.md`). Coppie a distanza 2–3 parole nell
 
 - **Esito preregistrato: si consuma con le lettere.** Conferma l'e3b20 (e e3b26, e3b35) con il metodo finale e due
   trascrizioni. Va d'accordo con l'e3b67: al salto del disegno non si scrive nulla e la memoria passa per intero.
+
+## 4/10/2026 (notte) — e3b81 abbandonato prima della preregistrazione (prova senza potere di distinguere)
+
+Idea: vedere se la crescita di -*ey* scendendo nella pagina riparte a ogni pagina (ciclo di pagina) o prosegue da una
+pagina all'altra (deriva nel tempo), confrontando la metà alta della pagina seguente con la metà bassa della precedente.
+Provando il codice su pagine finte mi sono accorto che la prova non distingue niente: se la quota di -*ey* è stabile lungo
+il manoscritto, il "salto" fra pagine deve valere in media meno la crescita dentro la pagina, qualunque sia il
+meccanismo (una crescita costante dentro ogni pagina senza ripartenza farebbe salire la quota senza fine). Abbandonato
+prima del commit della preregistrazione; nessun dato del Voynich guardato.
