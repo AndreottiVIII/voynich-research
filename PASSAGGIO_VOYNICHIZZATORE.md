@@ -373,3 +373,20 @@ Misure con il metodo finale (vedi DOSSIER, sezione 15.13). Da imitare:
    dell'inizio uguale alla riga sopra, copia dalla riga sopra (tutte replicate con Takahashi).
 7. (e3b84, e3b85) **Quando si riprende una parola dalla riga sopra, se ne copia la forma ma non le scelte**: le scelte (qo/o, k/t, sh/ch, -ey/-dy) della parola copiata vanno rifatte con la memoria del momento (come il raccordo con il vicino nuovo).
 8. (e3b86) **Grafia di sessione:** dentro un paragrafo la stessa parola tende a ripetere la stessa scelta (8,5 punti in più rispetto a parole diverse), fra pagine molto meno (4 punti). Nel generatore: per ogni paragrafo, una piccola preferenza di grafia per ciascuna parola, tirata a sorte all'inizio del paragrafo, oltre alla memoria corta.
+
+### Aggiunte della mattina del 4/10 (e3b97 – e3c10)
+
+9. (e3c01, e3c05) **La memoria vale anche per altre alternanze dentro la parola:** una regola automatica sceglie nel
+   Voynich *k*/*t*, *a*/*o* (per esempio *dar*/*dor*, *qokal*/*qokol*) e *ch*/*e*, e trova memoria in tutte e tre; con la
+   trascrizione di Glen Claston sceglie di nuovo le gallows e *a*/*o*. Nel generatore la memoria corta va data anche a
+   *a*/*o* interni.
+10. (e3c03, e3c05) **Forma della memoria con la distanza** (classi automatiche, accordo oltre quello lontano, d = 1…7):
+    circa +0,18 +0,12 +0,10 +0,07 +0,05 +0,04 +0,03. Massima fra parole accanto e poi calo dolce; non un picco a 2
+    parole (come il Corano) né un livello piatto (come Naibbe).
+11. (e3c07, e3c09) **Velocità del consumo:** a parità di parole, ogni segno scritto in mezzo toglie circa 0,003 di
+    accordo (0,016 ogni 5 segni, una parola media); a parità di segni, una parola in più non toglie niente. Il
+    consumo è più forte quando c'entrano la prima o l'ultima parola della riga (+0,060 con i bordi, +0,040 senza).
+    Misura in verifica con un metodo più robusto (e3c10).
+12. **Controllo per il generatore:** le lingue del corpus non hanno né la memoria nelle alternanze interne (25 testi su
+    26, e3c01), né il consumo con le lettere (21 misure, e3c08). Un generatore che passi questi controlli deve mostrare
+    tutti e tre i tratti: memoria nelle alternanze interne, massimo fra parole accanto con calo dolce, consumo con i segni.
