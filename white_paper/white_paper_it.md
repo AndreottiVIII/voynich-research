@@ -143,7 +143,7 @@ principale è stato replicato su almeno due trascrizioni, la maggior parte su tu
   - 73 manoscritti tedeschi del **Referenzkorpus Frühneuhochdeutsch** (ReF), dal 1350 al 1500, cioè dell'area e del
     secolo del Voynich, con righe di 5–8 parole come le sue;
   - lo scriba anglosassone degli *Hatton Gospels* (da un'edizione, senza righe originali).
-- **Un cifrario storico vero:** il **Copiale**, manoscritto cifrato tedesco del Settecento (105 pagine), con la
+- **Un cifrario storico vero:** il **Copiale**, manoscritto cifrato tedesco della metà del Settecento (105 pagine), con la
   trascrizione e la decifrazione di Knight, Megyesi e Schaefer (2011). Usa una cifra omofonica: la stessa lettera si
   può scrivere con simboli diversi, a scelta del copista.
 - **Testi tecnici medievali scritti a mano:** dal ReF, un *Libro della natura*, un ricettario di chirurgia, un libro di
@@ -511,11 +511,14 @@ proprietà del Voynich:
 - **Cheshire (2019, lingua "proto-romanza"):** la sua chiave legge come parole romanze più parole del caso, ma
   **qualsiasi** chiave della stessa forma adattata in pochi minuti al manoscritto fa meglio, anche su pagine non usate
   per adattarla (20 chiavi su 20).
-- **Schechter (glossario EVA → latino):** il suo programma, rifatto, dà gli stessi numeri; ma un "glossario" fatto
-  delle parole più frequenti senza alcun significato copre altrettanto, il suo glossario "legge" al 67–70% anche un
-  testo senza messaggio, e l'ordine delle parole decifrate non è latino (coppie attestate come rimescolando).
-- **Gatta (corrispondenza con le consonanti ebraiche):** il segnale che c'è sul Voynich c'è anche sul testo senza
-  messaggio, e una corrispondenza cercata apposta fa meglio della sua.
+- **Schechter (2026, glossario dall'EVA a latino, occitano ed ebraico;** secondo l'autore un manuale farmaceutico
+  bilingue latino-occitano, "decifrato all'87,8%"): il suo programma, rifatto, dà gli stessi numeri; ma un "glossario"
+  fatto delle parole più frequenti senza alcun significato copre altrettanto, il suo glossario "legge" al 67–70% anche
+  un testo senza messaggio, e l'ordine delle parole decifrate non è latino (coppie attestate come rimescolando).
+- **Gatta (2026, corrispondenza fra 19 segni EVA e consonanti ebraiche, lettura da destra):** il segnale che c'è sul
+  Voynich c'è anche sul testo senza messaggio, e una corrispondenza cercata apposta fa meglio della sua. Lo stesso
+  autore, nella versione attuale del suo lavoro, conclude che il testo non si comporta come ebraico e che nessuna pagina
+  si legge.
 
 Il **controllo del testo senza messaggio** (applicare la stessa lettura a un testo generato senza contenuto) è semplice
 e lo proponiamo come test minimo per chiunque annunci una decifrazione.
@@ -527,13 +530,14 @@ dopo aver verificato su testi cifrati apposta che la prova la vede:
 
 - **omofoni scelti dal copista** (come nel Copiale): lascerebbero un accordo **negativo** fra parole vicine (il copista
   alterna i simboli); il Voynich ha un accordo positivo;
-- **un segno che cambia l'alfabeto** (l'indice del disco di Alberti, 1467): nessuna parola o segno frequente dopo cui
+- **un segno che cambia l'alfabeto** (le lettere-indice del disco cifrante di Leon Battista Alberti, *De componendis
+  cifris*, verso il 1466): nessuna parola o segno frequente dopo cui
   lo stato delle scelte riparte (un indice raro non si può escludere);
-- **un messaggio a bit nelle scelte doppie** (come il cifrario biletterale di Bacone, dove la forma della lettera porta
-  un bit): un messaggio che ricominci a ogni pagina o riga si vedrebbe con enorme evidenza nei controlli (z fino a 70);
+- **un messaggio a bit nelle scelte doppie** (come il cifrario biletterale di Francis Bacon, ideato verso il 1576–79 e
+  descritto nel 1623, dove la forma della lettera porta un bit): un messaggio che ricominci a ogni pagina o riga si vedrebbe con enorme evidenza nei controlli (z fino a 70);
   nel Voynich nessun segnale. Un messaggio continuo che attraversa le pagine resta fuori dalla portata della prova;
-- **liste di parole a turno** (l'"Ave Maria" della *Polygraphia* di Tritemio, dove ogni lettera diventa una parola
-  presa dalla lista successiva): nessun ritmo da 2 a 6 parole lungo la riga;
+- **liste di parole a turno** (l'"Ave Maria" della *Polygraphia* di Giovanni Tritemio, stampata nel 1518, dove ogni
+  lettera diventa una parola latina presa dalla tavola successiva e il testo cifrato sembra una preghiera): nessun ritmo da 2 a 6 parole lungo la riga;
 - **un'autochiave che riparte a ogni riga** (ogni lettera cifrata dipende dalla precedente; ogni riga ha un avvio
   nuovo): è l'unico meccanismo provato che **chiude la riga** come il Voynich, ma distrugge tutto il resto: nessuna
   ripetizione, un vocabolario gonfiato (da 4.500 a 6.400 parole diverse ogni 10.000, contro 2.900), inizi di riga
@@ -564,7 +568,7 @@ dopo aver verificato su testi cifrati apposta che la prova la vede:
 | **Il Naibbe** (Greshko 2025) come spiegazione | **Non regge come spiegazione completa**: niente giuntura, niente proprietà di riga, ripetizioni e parole uniche lontane. |
 | **"Parole-chiave"** per argomento (Montemurro e Zanette 2013) | **Non distintive**: le hanno anche testi generati senza messaggio. |
 | **Il gibberish somiglia al Voynich** (Gaskell e Bowern 2022, su misure di basso livello) | **Non per le regole di scrittura**: il gibberish a mano non ha giuntura, forme di bordo, ripresa dalla riga sopra, evitamento sul margine, né le regolarità del vocabolario (le parole frequenti non sono le forme più probabili). |
-| **"Un segno non è una lettera, una parola non è una parola, uno spazio non è uno spazio"** (arXiv 2608.17096, 2026; letto solo il riassunto) | **Convergente**: anche noi troviamo una catena di segni con spazi deboli e regole ai bordi delle parole. |
+| **"Un segno non è una lettera, una parola non è una parola, uno spazio non è uno spazio"** (Rozanova e Temerev, arXiv 2608.17096, 2026) | **Convergente**: anche noi troviamo una catena di segni con regole ai bordi delle parole, segni troppo regolari per una sostituzione uno a uno, e spazi incerti che si comportano come giunture interne alle parole. Come loro, troviamo che le "parole" formano un vocabolario plausibile e che l'anomalia sta nel modo in cui si susseguono. |
 | **Letture di Bax, Vatne, Cheshire, Schechter, Gatta** | **Non reggono** ai controlli (§8.4). |
 | **Le etichette dello zodiaco come numeri o giorni** | **No**: quasi tutte diverse, nessuna corrispondenza di posizione fra mesi. |
 | **"Il Voynich ha poca sintassi"** | **Non è un'anomalia**: i testi tecnici latini ne hanno altrettanto poca. |
@@ -664,8 +668,9 @@ trattato noto), un'identificazione sicura di molte piante da usare come appiglio
   - se lo stato **breve** passa l'a capo (quello lento sì).
 - **Una prova con pochi dati:** se lo stato sopravvive al salto di un disegno (la stima è positiva ma l'intervallo è
   troppo largo per dirlo).
-- **Fonti lette solo in parte:** alcuni lavori citati sono stati letti solo nel riassunto (Appendice D); vanno
-  verificati sui testi originali.
+- **Fonti:** tutti i riferimenti sono stati verificati su pagine dell'editore, del repository o dell'archivio; restano
+  due cautele (Appendice D): il PDF di Bax non è stato riletto nella pagina del titolo, e la datazione al radiocarbonio
+  è nota da un comunicato dell'università più che da un articolo scientifico.
 - **In corso** al momento di questa bozza: lo stato breve e la deriva nei 73 scribi tedeschi (esperimento e3c77); un
   confronto fra manoscritti e libri a stampa dello stesso corpus.
 
@@ -779,34 +784,73 @@ giudicare quanto le conclusioni finali siano state messe alla prova.
 
 ## Appendice D. Fonti e licenze
 
-**Il Voynich.** Trascrizioni IVTFF di René Zandbergen (Zandbergen-Landini, Takahashi, Glen Claston), a versioni fissate.
+### D.1 Dati
+
+**Il Voynich.**
+
+- R. Zandbergen, file di traslitterazione del manoscritto Voynich in formato IVTFF, <https://www.voynich.nu/transcr.html>:
+  Zandbergen-Landini (ZL3b, EVA), Takahashi (IT2a), Glen Claston (GC2a, alfabeto v101); formato descritto in R.
+  Zandbergen, *IVTFF – Intermediate Voynich MS Transliteration File Format*, v2.0.1 (2025).
+- Datazione al radiocarbonio della pergamena (1404–1438, al 95%): laboratorio NSF-Arizona AMS dell'Università
+  dell'Arizona, gruppo di G. Hodgins, quattro campioni misurati nel 2009; comunicato dell'Università dell'Arizona, 10
+  febbraio 2011; resoconto di R. Zandbergen, <https://www.voynich.nu/extra/carbon.html>.
 
 **Testi di confronto.**
 
-- Bibbia in circa 100 lingue (christos-c/bible-corpus, CC0); Latin Library (cltk); breviario romano (Divinum Officium,
-  MIT).
-- Testi di Gaskell e Bowern (2022): gibberish scritto a mano (licenza MIT modificata) e testi sensati (secondo la loro
-  documentazione).
-- Cifrario Naibbe (Greshko 2025, codice MIT modificata); generatore di Timm e Schinner (2020, MIT); generatori U2 e U3.
-- **Menota**, Medieval Nordic Text Archive (clarino.uib.no/menota), CC-BY-SA 4.0: AM 519 a 4to, AM 677 4to, AM 60 4to,
-  AM 242 fol, Holm A 10, AM 302 fol.
-- **ReF**, Referenzkorpus Frühneuhochdeutsch 1.0.2 (Zenodo, record 5793616), CC-BY-SA 4.0: 73 manoscritti 1350–1500.
-- **Copiale**: trascrizione e decifrazione di K. Knight, B. Megyesi, C. Schaefer (2011), dal sito dell'Università di
-  Stoccolma.
-- Letture verificate: Bax (2014, dall'archivio web), Vatne (2021), Cheshire (2019), Schechter (programma pubblico),
-  Gatta (voynich-toolkit, MIT).
+- C. Christodouloupoulos e M. Steedman (2015), "A massively parallel corpus: the Bible in 100 languages", *Language
+  Resources and Evaluation* 49(2): 375–395, doi:10.1007/s10579-014-9287-y (dati: christos-c/bible-corpus, CC0).
+- The Latin Library (raccolta cltk/lat_text_latin_library); breviario romano (Divinum Officium, MIT).
+- D. E. Gaskell e C. L. Bowern (2022), "Gibberish after all? Voynichese is statistically similar to human-produced
+  samples of meaningless text", in C. Layfield e J. Abela (a cura di), *Proceedings of the 1st International Conference
+  on the Voynich Manuscript 2022 (VOY2022)*, CEUR Workshop Proceedings 3313, paper 4 (2023),
+  <https://ceur-ws.org/Vol-3313/paper4.pdf>. I testi senza senso sono stati scritti a mano da volontari (42 nello
+  studio; 38 testi nei dati pubblicati); licenza dei dati: MIT modificata.
+- M. A. Greshko (2025), "The Naibbe cipher: a substitution cipher that encrypts Latin and Italian as Voynich
+  Manuscript-like ciphertext", *Cryptologia*, pubblicato online il 26 novembre 2025, doi:10.1080/01611194.2025.2566408
+  (codice: greshko/naibbe-cipher).
+- T. Timm e A. Schinner (2020), "A possible generating algorithm of the Voynich manuscript", *Cryptologia* 44(1): 1–19,
+  doi:10.1080/01611194.2019.1596999 (codice: TorstenTimm/SelfCitationTextgenerator, MIT).
+- **Menota**, Medieval Nordic Text Archive, <https://www.menota.org> (catalogo su Clarino, Università di Bergen). La
+  licenza è indicata testo per testo; per i sei testi usati (AM 519 a 4to, AM 677 4to, AM 60 4to, AM 242 fol, Holm A 10,
+  AM 302 fol) è CC-BY-SA 4.0. Ogni testo va citato con i dati della sua intestazione (editore, versione).
+- **ReF**: K.-P. Wegera, H.-J. Solms, U. Demske, S. Dipper (2021), *Reference Corpus of Early New High German
+  (1350–1650)*, versione 1.0.2, Zenodo, doi:10.5281/zenodo.5793616. Zenodo indica la licenza CC BY 4.0, il file LICENSE
+  dentro l'archivio CC BY-SA 4.0: ci atteniamo alla più restrittiva.
+- **Copiale**: K. Knight, B. Megyesi, C. Schaefer (2011), "The Copiale Cipher", in *Proceedings of the 4th Workshop on
+  Building and Using Comparable Corpora (BUCC)*, ACL, pp. 2–9, <https://aclanthology.org/W11-1202/>; e K. Knight, B.
+  Megyesi, C. Schaefer, "The Secrets of the Copiale Cipher", *Journal for Research into Freemasonry and Fraternalism*
+  2(2): 314–324 (volume del 2011, pubblicato nel 2012), doi:10.1558/jrff.v2i2.314. Trascrizione e decifrazione dal sito
+  del progetto dell'Università di Stoccolma. Datazione: metà del Settecento (la scritta "1866" nel manoscritto è una nota
+  di possesso).
 
-**Letteratura citata.**
+### D.2 Letture e decifrazioni verificate
 
-- T. Timm e A. Schinner (2020), *A possible generating algorithm of the Voynich manuscript*, Cryptologia 44(1).
-- M. A. Greshko (2025), *The Naibbe cipher*, Cryptologia.
-- D. E. Gaskell e C. L. Bowern (2022), sul gibberish scritto a mano e il Voynich.
-- K. Knight, B. Megyesi, C. Schaefer (2011), *The Copiale Cipher*, BUCC 2011.
-- M. A. Montemurro e D. H. Zanette (2013), sulle parole-chiave del Voynich.
-- P. Currier (anni '70), le lingue A e B (citato, non riletto).
-- B. Hauer e G. Kondrak (2016), sull'ipotesi degli anagrammi (citato, non riletto).
-- *A Glyph Is Not a Letter, a Token Is Not a Word, a Space Is Not a Space* (arXiv 2608.17096, 2026; letto solo il
-  riassunto).
+- S. Bax (2014), *A proposed partial decoding of the Voynich script*, PDF pubblicato in proprio, gennaio 2014 (letto
+  dall'archivio web).
+- S. B. Vatne (2021), *Cracking the Voynich Cipher*, PDF pubblicato in proprio, ottobre 2021.
+- G. Cheshire (2019), "The Language and Writing System of MS408 (Voynich) Explained", *Romance Studies* 37(1): 30–67,
+  doi:10.1080/02639904.2019.1599566.
+- S. Schechter (2026), *voynich-decoded*, repository GitHub, <https://github.com/scott-schechter/voynich-decoded>
+  (nessuna licenza dichiarata; usato in copia locale, non ridistribuito).
+- A. Gatta (2026), *voynich-toolkit* (software), Zenodo, doi:10.5281/zenodo.19226178 (DOI di tutte le versioni; la
+  versione provata è la v0.26.0), licenza MIT.
 
-*Nota per la revisione: i riferimenti segnati "citato" o "letto solo il riassunto" vanno verificati sugli originali;
-i riferimenti completi (pagine, DOI) vanno aggiunti nella versione inglese.*
+### D.3 Letteratura
+
+- P. H. Currier (1976), "Papers on the Voynich Manuscript", in M. E. D'Imperio (a cura di), *New Research on the
+  Voynich Manuscript: Proceedings of a Seminar*, Washington (dattiloscritto); trascrizione di J. Guy e J. Reeds (1992),
+  <https://www.voynich.nu/extra/curr_main.html>.
+- L. Fagin Davis (2020), "How Many Glyphs and How Many Scribes? Digital Paleography and the Voynich Manuscript",
+  *Manuscript Studies* 5(1): 164–180, doi:10.1353/mns.2020.0011 (le cinque mani usate qui).
+- M. A. Montemurro e D. H. Zanette (2013), "Keywords and co-occurrence patterns in the Voynich manuscript: an
+  information-theoretic analysis", *PLoS ONE* 8(6): e66344, doi:10.1371/journal.pone.0066344.
+- B. Hauer e G. Kondrak (2016), "Decoding Anagrammed Texts Written in an Unknown Language and Script", *Transactions of
+  the Association for Computational Linguistics* 4: 75–86, doi:10.1162/tacl_a_00084.
+- L. Rozanova e A. Temerev (2026), "A Glyph Is Not a Letter, a Token Is Not a Word, a Space Is Not a Space: What the
+  Units of Voynichese Are Not", arXiv:2608.17096.
+- L. B. Alberti, *De componendis cifris* (verso il 1466); G. Tritemio, *Polygraphiae libri sex* (1518); F. Bacon, *De
+  dignitate et augmentis scientiarum* (1623), con la descrizione del cifrario biletterale.
+
+*Tutti i riferimenti sono stati verificati su pagine dell'editore, del repository o dell'archivio (ottobre 2026). Per
+Bax non è stato possibile rileggere la pagina del titolo del PDF; per la datazione al radiocarbonio la fonte è un
+comunicato dell'università, non un articolo scientifico.*
