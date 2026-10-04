@@ -14869,3 +14869,30 @@ Preregistrato (`preregistrazioni/e3c44.md`). Scelte di GC corrispondenti a EVA (
   trascrittore, con un altro alfabeto, dà gli stessi numeri (entro gli intervalli).
 - Nota curiosa dalla corrispondenza degli alfabeti: GC distingue due forme della *d* di EVA (*7* e *8*), che la regola
   automatica dell'e3c05 aveva scelto come alternanza.
+
+## 4/10/2026 (mattina) — e3c45: con la misura pulita alcune lingue si accordano nelle alternanze interne fra parole accanto, ma non a 2–3 parole (incerto)
+
+Preregistrato (`preregistrazioni/e3c45.md`). Misura pulita (e3c34), lingue in righe finte, alternanze interne scelte dalla
+regola dell'e3c01.
+
+| testo | alternanze | K(1) (IC 95%) | K(2) | K(3) |
+|---|---|---|---|---|
+| Voynich ZL (*k*/*t*, *sh*/*ch*) | | +0,124 (+0,093 – +0,155) | +0,069 | +0,070 |
+| Voynich IT | | +0,130 (+0,099 – +0,161) | +0,061 | +0,083 |
+| slavo antico, Marianus | ъ/ь, и/ѧ, м/х | **+0,140** (+0,092 – +0,190) | +0,025 | +0,027 |
+| arabo, Corano | -*kum*/-*hum* … | **+0,124** (+0,067 – +0,182) | **+0,212** | +0,138 |
+| greco NT | ο/ω, α/ε, ι/υ | **+0,064** (+0,055 – +0,073) | +0,015 | +0,006 |
+| spagnolo NT | *a*/*o*, *r*/*s*, *b*/*l* | +0,060 (+0,048 – +0,071) | −0,006 | −0,015 |
+| altre 22 | | da −0,083 a +0,033 | | |
+
+- **Esito preregistrato: incerto** (tre lingue sopra la soglia di metà del Voynich: Marianus, Corano, greco; la regola
+  ne chiedeva al più due per "solo il Voynich").
+- **Correzione dell'e3c01:** con la misura pulita, "le alternanze interne hanno memoria solo nel Voynich" non regge fra
+  parole accanto: nel Marianus (le due *jer* ъ/ь, scelta in parte ortografica), nel greco (vocali in accordo) e un poco
+  nello spagnolo c'è un accordo fra parole accanto.
+- **Ma la forma è diversa:** in queste lingue l'accordo crolla a 2–3 parole (Marianus +0,025, greco +0,015, spagnolo ≈ 0),
+  mentre nel Voynich resta +0,06 – +0,08. Solo il Corano ha accordo a 2–3 parole, con il picco a 2 (il suffisso di persona
+  che torna). Il tratto che distingue il Voynich resta l'accordo che dura fino a 3 parole, non l'accordo fra parole accanto.
+- Il Marianus è un manoscritto vero trascritto in modo diplomatico: la scelta fra ъ e ь di uno scriba medievale dà un
+  accordo forte fra parole accanto (+0,14), simile al Voynich a distanza 1, ma non a 2–3 parole. È il primo indizio, con
+  questa misura, di come si comporta uno scriba vero.

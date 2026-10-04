@@ -1446,7 +1446,10 @@ stessa classe +0,095 / +0,098, fra classi diverse −0,020 / −0,017 (distorsio
 "modo marcato" comune; la deriva lungo la riga è comune, l'accordo fra parole vicine no. **Terza trascrizione, tutte le
 scelte (e3c38, e3c44):** in GC (v101; corrispondenze ricavate allineando le righe: *qo* = *4o*, *sh*/*ch* = *2*/*1*, -*ey*/-*dy* =
 -*c9*/-*89*) le gallows K +0,104/+0,074/+0,088, *sh*/*ch* +0,118/+0,084/+0,095, -*ey*/-*dy* +0,144/+0,062/+0,093 a 1/2/3 parole;
-*qo*/*o* +0,007/+0,060/+0,054: lo stesso comportamento di ZL e Takahashi.
+*qo*/*o* +0,007/+0,060/+0,054: lo stesso comportamento di ZL e Takahashi. **Alternanze interne nelle lingue con la misura
+pulita (e3c45), correzione dell'e3c01:** fra parole accanto si accordano anche il Marianus (ъ/ь, +0,140), il Corano (+0,124)
+e il greco (+0,064); ma a 2–3 parole crollano (Marianus +0,025 – +0,027, greco +0,015 – +0,006), tranne il Corano (picco a
+2 parole). Il Voynich resta +0,06 – +0,08 a 2–3 parole. Il tratto che distingue è l'accordo che dura fino a 3 parole.
 
 **Lezioni di metodo da riportare** (utili anche a chi legge): (1) confrontare con la media della pagina ai bordi della
 riga inganna, perché fine e inizio riga hanno forme proprie; (2) togliere le coppie "simili" guardando la parola intera

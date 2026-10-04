@@ -534,6 +534,9 @@ cambiava l'ho scritto. Ecco che cosa resta.
 3. **Dentro la riga le varianti marcate calano verso destra** (*qo*, *k*, *sh*, -*ey*), più in fretta all'inizio della riga.
    Proprietà nuova, in tutte le mani, assente nei generatori (e3c13, e3c17, e3c18, e3c20).
 
+Nota (e3c45): anche alcune lingue, fra cui uno scriba medievale vero (il Codex Marianus, con le due *jer* ъ/ь), hanno un
+accordo fra parole accanto in scelte dentro la parola; ma a 2–3 parole crolla, mentre nel Voynich resta.
+
 **Probabile ma non dimostrato:**
 
 4. **L'accordo dura più a lungo che nelle lingue.** A tre parole resta più della metà (56–74%), nelle lingue naturali di
