@@ -1,0 +1,18 @@
+{
+ "altre_parole_interne": {
+  "parole": 5064,
+  "discordi": 47,
+  "quota": 0.009281200631911532
+ },
+ "prima_dopo_il_disegno": {
+  "parole": 94,
+  "discordi": 1,
+  "quota": 0.010638297872340425
+ },
+ "rapporto": 1.1462200090538706,
+ "IC95": [
+  0.0,
+  4.122800939215616
+ ],
+ "esito": "incerto"
+}
