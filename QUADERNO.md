@@ -12690,3 +12690,43 @@ Contrasto Voynich − insieme naturale: +0,068 (IC +0,012 – +0,124).
   parole; nel Voynich le locuzioni quasi non ci sono (e375) e le grafie proprie sono deboli (e3b49, e3b50), quindi lì il
   problema è minore. Serve una prova che tenga ferme le parole e le loro preferenze e rimescoli solo le scelte fra le
   occorrenze della stessa parola (e3b54).
+
+## 4/10/2026 (notte) — e3b54: la memoria corta delle scelte grafiche c'è anche negli scribi veri (correzione importante)
+
+Preregistrato (`preregistrazioni/e3b54.md`). M = K(vicine) − K(lontane) normalizzata, senza coppie di parole simili;
+**nullo che tiene ferme le parole**: le varianti si rimescolano solo fra le occorrenze dello stesso tipo di parola (con
+la variante coperta) nella stessa pagina o blocco, così restano le locuzioni e le preferenze delle parole. Codice
+provato su testi finti (memoria vera p < 0,01; locuzioni con grafia fissa senza memoria: assorbite, p 0,25).
+
+| testo, classe | coppie vicine | M osservata | M nullo | effetto | z | p |
+|---|---|---|---|---|---|---|
+| Voynich, *qo*/*o* | 3.467 | +0,067 | +0,008 | +0,059 | +2,3 | 0,013 |
+| Voynich, *k*/*t* | 7.976 | +0,080 | +0,052 | +0,028 | +1,8 | 0,041 |
+| Voynich, *sh*/*ch* | 7.103 | +0,101 | +0,073 | +0,028 | +1,6 | 0,047 |
+| Voynich, -*ey*/-*dy* | 4.382 | +0,150 | +0,053 | +0,098 | +5,0 | < 0,001 |
+| **Voynich, insieme** | 22.928 | +0,097 | +0,052 | **+0,045** | +4,9 | < 0,001 |
+| Hatton Gospels, i/y | 1.400 | +0,002 | −0,026 | +0,028 | +1,4 | 0,069 |
+| Hatton Gospels, þ/ð a inizio parola | 2.259 | +0,200 | +0,036 | **+0,164** | +4,1 | < 0,001 |
+| Hatton Gospels, þ/ð dentro la parola | 940 | −0,334 | −0,339 | +0,006 | +0,4 | 0,34 |
+| Secreta Alberti, i/y | 516 | −0,043 | −0,046 | +0,004 | +0,1 | 0,49 |
+| NT fiammingo, i/y | 282 | +0,062 | −0,097 | +0,159 | +1,6 | 0,049 |
+| **naturali, insieme** | 5.397 | +0,020 | −0,048 | **+0,068** | +4,3 | < 0,001 |
+
+- **Esiti preregistrati:** Voynich, **memoria oltre le preferenze delle parole**; varianti naturali, **memoria anche
+  negli scribi veri**.
+- **Che cosa cambia:**
+  1. Il −0,33 di þ/ð dentro la parola (e3b53) era tutto locuzioni e grafie proprie delle parole: col nullo giusto
+     l'effetto è zero. Il nullo funziona come previsto.
+  2. **Uno scriba vero ha memoria corta delle scelte grafiche**: lo scriba dei Hatton Gospels, per þ/ð a inizio
+     parola, ha un effetto di +0,16, più del Voynich; anche le varianti i/y vanno nella stessa direzione (fiammingo
+     +0,16 con p 0,049; Hatton +0,03 con p 0,07; Secreta circa 0). Nell'insieme +0,068 contro +0,045 del Voynich.
+  3. Nel Voynich circa metà della memoria grezza (+0,097) viene da quali parole stanno vicine (nullo +0,052): parole
+     simili ma non quasi uguali (due modifiche o più) vicine fra loro, con le stesse scelte. La memoria vera e propria,
+     oltre le parole, è +0,045, più forte per -*ey*/-*dy*.
+- **Correzione della lettura delle notti precedenti:** la memoria corta delle scelte di grafia **non** è una firma
+  insolita del Voynich: è un'abitudine normale di chi scrive a mano scegliendo fra varianti equivalenti. Resta vero che
+  **nessun generatore pubblicato la ha** (e3b09) e che le lingue non hanno varianti libere da misurare. Quindi la memoria
+  corta dice "scritto da una persona che sceglie fra varianti", non "testo senza significato" né "testo con significato".
+  Questo sostituisce le letture dell'e3b51, e3b52 ed e3b53 sul confronto con gli scribi.
+- **Limiti:** un solo testo medievale con molti dati (i Hatton Gospels, edizione di cui non so quanto sia fedele al
+  manoscritto); il nullo conta come memoria le parole che hanno una grafia fissa in una locuzione e un'altra altrove.
