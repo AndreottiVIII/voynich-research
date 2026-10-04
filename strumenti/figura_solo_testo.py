@@ -24,14 +24,14 @@ def main():
     fig, (a1, a2) = plt.subplots(1, 2, figsize=(11, 4.3))
     voci = [('solo testo,\nriga sotto (ZL)', g['ZL, riga sotto']['E'], 'crimson'), ('solo testo,\nriga sotto (IT)', g['IT, riga sotto']['E'], 'crimson'),
             ('solo testo,\nriga sopra (ZL)', g['ZL, riga sopra']['E'], '0.6'), ('solo testo,\nriga sopra (IT)', g['IT, riga sopra']['E'], '0.6'),
-            ('altre pagine, stessa\nquantità (mediana, IT)', g['IT, riga sotto']['taratura_mediana'], '0.6')]
+            ('altre pagine\n(mediana, IT)', g['IT, riga sotto']['taratura_mediana'], '0.6')]
     a1.bar(range(len(voci)), [v[1] for v in voci], color=[v[2] for v in voci])
     for i, v in enumerate(voci[:4]):
         p = g[['ZL, riga sotto', 'IT, riga sotto', 'ZL, riga sopra', 'IT, riga sopra'][i]]['p_esatto']
         a1.text(i, max(v[1], 0) + 0.004, ('p %.4f' % p).replace('.', ','), ha='center', fontsize=7)
     a1.axhline(0, color='0.3', lw=0.8)
     a1.set_xticks(range(len(voci)))
-    a1.set_xticklabels([v[0] for v in voci], fontsize=7)
+    a1.set_xticklabels([v[0] for v in voci], fontsize=7, rotation=15)
     a1.set_ylabel("legame fra l'ultimo segno di una riga\ne il primo della seguente (bit in più del caso)", fontsize=8)
     a1.set_title('Giuntura a capo: passa solo nelle pagine di solo testo', fontsize=10)
     xs, vals, los, his, cols, nomi = [], [], [], [], [], []
