@@ -13579,3 +13579,25 @@ Voynich ZL (e3b70): +0,086 (IC +0,060 – +0,113).
   e3b80), un accordo grammaticale dipende dalla sintassi e non dovrebbe; e l'accordo riguarda soprattutto le desinenze
   e le parole che stanno insieme in un sintagma, mentre nel Voynich la memoria c'è anche per *k*/*t* e *sh*/*ch* dentro la
   parola. Primo controllo: il consumo con le lettere nelle lingue (e3b92).
+
+## 4/10/2026 (notte) — e3b92: l'accordo grammaticale delle lingue si consuma poco con le lettere; la memoria del Voynich di più
+
+Preregistrato (`preregistrazioni/e3b92.md`). Misura dell'e3b80 (accordo con poche contro molte lettere in mezzo, a
+distanza 2–3 parole) sulle desinenze delle lingue (classi dell'e3b91); funzioni già provate.
+
+| testo | coppie con poche lettere | M | M nullo | effetto (IC 95%) |
+|---|---|---|---|---|
+| italiano NT (Diodati) | 13.124 | +0,134 | +0,106 | +0,028 (−0,001 – +0,057) |
+| italiano, *Della Pittura* | 1.718 | +0,025 | +0,029 | −0,004 (−0,091 – +0,080) |
+| spagnolo NT | 7.919 | +0,038 | +0,043 | −0,004 (−0,043 – +0,034) |
+| latino NT (Vulgata) | 2.499 | +0,118 | +0,089 | +0,030 (−0,039 – +0,093) |
+| latino, Plinio | 9.061 | +0,065 | +0,038 | +0,027 (−0,006 – +0,061) |
+
+Media +0,015; nessun testo con l'intervallo sopra 0. Voynich (e3b80): +0,066 (ZL e IT, intervalli sopra 0).
+
+- **Esito preregistrato: il consumo con le lettere distingue.**
+- **Lettura prudente:** nelle lingue l'effetto è assente o piccolo (fino a +0,03 in tre testi, al limite), nel Voynich
+  è circa il doppio o più e netto con due trascrizioni. È un primo segno che la "memoria" del Voynich ha una parte legata
+  al gesto di scrivere (si consuma con le lettere scritte), e non è solo un accordo fra parole. Non è una prova
+  definitiva: il confronto è fra intervalli, non con un contrasto diretto, e un accordo grammaticale con parole più
+  corte in mezzo (articoli, preposizioni) può dare un piccolo effetto simile.
