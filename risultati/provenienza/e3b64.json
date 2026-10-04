@@ -1,6 +1,6 @@
 {
  "codice": {
-  "commit": "9d15a8fc0a3c601cc769e2c23230eb7c99e08ab3",
+  "commit": "e906918a98e3a0e08934d7134d2b4d6454f30003",
   "modifiche_non_salvate": []
  },
  "dati": {
@@ -36,14 +36,14 @@
  },
  "script": {
   "file": "esperimenti/e3b64_memoria_salto.py",
-  "sha256": "73bb50a4adaf9d5f005b2d8c3106cb5960852a736db4d2acddc11965be0fd204"
+  "sha256": "788b20c73c84c6ce8dbbf97b358366dc43351a11ccf6b042859b08c70ac0c49a"
  },
  "variabili": {},
  "esperimento": "e3b64",
  "argomenti": [],
  "uscita": 0,
- "inizio": "2026-10-04T04:35:45",
- "durata_s": 25.0,
+ "inizio": "2026-10-04T04:37:57",
+ "durata_s": 31.4,
  "file_scritti": [
   "risultati/e3b64_memoria_salto.json",
   "risultati/e3b64_memoria_salto.md"

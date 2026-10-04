@@ -13008,3 +13008,27 @@ Preregistrato (`preregistrazioni/e3b64.md`). Prima esecuzione:
   dopo aver letto i risultati. Il confronto col nullo era coerente (stessa restrizione), ma non è la misura
   preregistrata. Correggo il codice (una parola illeggibile è segnata a parte) e rieseguo l'e3b64; questi numeri restano
   qui come prima esecuzione.
+
+## 4/10/2026 (notte) — e3b64, esecuzione corretta: col nullo che tiene interi i tratti la memoria sembra passare salto e a capo (da verificare)
+
+Codice corretto (solo le parole illeggibili interrompono le coppie, come preregistrato); prova su righe finte con
+parole fuori classe in mezzo: senza passaggio p fra 0,03 e 0,87, con passaggio quasi tutti sotto 0,02.
+
+| confine | coppie a cavallo | K osservato | K nullo | effetto | z | p | K dentro i tratti (coppie) |
+|---|---|---|---|---|---|---|---|
+| salto del disegno | 899 | +0,105 | +0,026 | +0,079 | +2,2 | 0,012 | +0,070 (1.539) |
+| a capo, pagine normali | 5.743 | −0,007 | −0,062 | **+0,055** | +3,9 | < 0,001 | +0,087 (30.502) |
+| a capo, pagine di solo testo | 317 | +0,067 | −0,054 | +0,121 | +2,0 | 0,019 | +0,057 (2.613) |
+
+- **Esiti preregistrati:** la memoria **passa il salto**; **passa l'a capo** nelle pagine normali e in quelle di solo
+  testo.
+- **Questo contraddice l'"azzeramento all'a capo"** delle e3b10, e3b35, e3b63 e va maneggiato con cura. Il punto è il
+  confronto: rispetto alla media della pagina l'accordo a cavallo è circa zero (K −0,007, come +0,002 nell'e3b10), ma il
+  nullo che accoppia la fine di una riga con l'inizio di un'altra riga della stessa pagina dà −0,062: fine riga e inizio
+  riga hanno scelte diverse dalla media (le forme di bordo), quindi a cavallo ci si aspetta **meno** accordo della media.
+  Rispetto a questo atteso, l'accordo vero è più alto.
+- **Due letture possibili:** (a) la memoria passa davvero l'a capo e l'"azzeramento" era un'illusione dovuta alle forme
+  di bordo; (b) le righe vicine si somigliano (copia dalla riga sopra, stile che cambia lentamente), e accoppiare con una
+  riga qualsiasi della pagina gonfia l'effetto. Per separarle (e3b65): confrontare la fine di una riga con l'inizio della
+  riga **sotto** e con l'inizio della riga **sopra** (tutte e due vicine, ma solo la sotto è la continuazione). **Fino
+  ad allora l'azzeramento all'a capo è da considerare in dubbio.**
