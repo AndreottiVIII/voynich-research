@@ -537,6 +537,11 @@ cambiava l'ho scritto. Ecco che cosa resta.
 Nota (e3c45): anche alcune lingue, fra cui uno scriba medievale vero (il Codex Marianus, con le due *jer* ъ/ь), hanno un
 accordo fra parole accanto in scelte dentro la parola; ma a 2–3 parole crolla, mentre nel Voynich resta.
 
+**Correzione delle 8:36 (e3c48):** nel punto nave delle 8:35 ti ho scritto che lo scriba anglosassone ha la stessa
+"finestra" del Voynich. **Non è così:** per quella scelta la misura era gonfiata; corretta, lo scriba ha un accordo fra
+parole accanto ma non a 2–3 parole, come le lingue. La finestra del Voynich invece regge anche con la correzione e anche
+togliendo le preferenze di tratti di 5 righe.
+
 **Probabile ma non dimostrato:**
 
 4. **L'accordo dura più a lungo che nelle lingue.** A tre parole resta più della metà (56–74%), nelle lingue naturali di

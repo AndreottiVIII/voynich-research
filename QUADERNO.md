@@ -14948,3 +14948,30 @@ Preregistrato (`preregistrazioni/e3c47.md`). Misura dell'e3c34 con unità (lo "s
 - **Cautela tecnica da verificare subito:** con unità piccole lo scarto dell'unità è rumoroso e spinge K verso il basso
   (distorsione nota, circa −0,02 con unità di 80 parole nell'e3c32; con 5 righe può essere maggiore). Prossimo passo
   (e3c48): stimare la distorsione con un nullo e sottrarla.
+
+## 4/10/2026 (mattina) — e3c48: corretta la distorsione, la finestra del Voynich regge; quella dello scriba anglosassone no (ritrattazione dell'e3c46)
+
+Preregistrato (`preregistrazioni/e3c48.md`). K corretto = K osservato − K con le scelte rimescolate fra le occorrenze della
+stessa parola (50 volte). Codice provato su testi finti (memoria vera: resta con i blocchi; preferenze di tratti: spariscono).
+
+| variante | K osservato 1/2/3 | K nullo 1/2/3 | **K corretto 1 / 2 / 3** | r (IC 95%) |
+|---|---|---|---|---|
+| Voynich ZL, pagine intere | +0,130 +0,076 +0,076 | −0,001 −0,017 −0,010 | **+0,131 / +0,093 / +0,086** | 0,68 (0,53 – 0,84) |
+| Voynich ZL, blocchi di 5 righe | +0,070 +0,010 +0,010 | −0,054 −0,070 −0,065 | **+0,124 / +0,080 / +0,074** | 0,62 (0,44 – 0,85) |
+| Voynich IT, pagine intere | +0,135 +0,067 +0,090 | −0,005 −0,020 −0,007 | **+0,140 / +0,088 / +0,097** | 0,66 (0,53 – 0,82) |
+| Voynich IT, blocchi di 5 righe | +0,076 +0,002 +0,028 | −0,052 −0,070 −0,061 | **+0,128 / +0,072 / +0,089** | 0,63 (0,44 – 0,85) |
+| Hatton þ/ð, 25 righe | +0,584 +0,271 +0,338 | **+0,251 +0,246 +0,192** | +0,333 / +0,025 / +0,146 | 0,26 (−0,09 – 0,72) |
+| Hatton þ/ð, 5 righe | +0,598 +0,359 +0,373 | **+0,370 +0,310 +0,266** | +0,227 / +0,049 / +0,107 | 0,34 (−0,17 – 1,25) |
+
+- **Esito preregistrato (ZL e IT): la finestra regge anche togliendo le preferenze di tratti di 5 righe.** Il crollo
+  dell'e3c47 era la distorsione della misura con unità piccole (circa −0,05 / −0,07); corretta, l'accordo a 2–3 parole
+  resta +0,07 – +0,09, con r 0,62 – 0,68 e intervalli ben sopra 0. Con le pagine intere la distorsione è piccola (−0,001 –
+  −0,020), quindi i valori del Voynich dell'e3c34 – e3c44 restano validi (anzi un poco più alti).
+- **Ritrattazione dell'e3c46:** per la scelta þ/ð dell'Hatton la misura ha una distorsione forte **verso l'alto** (+0,19 –
+  +0,37 anche con le scelte rimescolate: la scelta dipende molto dalla parola, poche parole frequenti). Corretta, resta un
+  accordo fra parole accanto (+0,23 – +0,33), ma a 2 parole quasi niente (+0,03 – +0,05, intervalli che contengono 0): lo
+  scriba **non** ha la finestra del Voynich, si comporta piuttosto come l'accordo delle lingue (forte accanto, poi crolla).
+  Avevo scritto il contrario, anche nel punto nave delle 8:35.
+- **Lezione di metodo (importante):** la distorsione della misura cambia da testo a testo e da scelta a scelta (qui da
+  −0,07 a +0,37). Ogni confronto fatto con la misura dell'e3c34 senza correzione (lingue e3c34, e3c45; generatori e3c37;
+  scribi e3c46) va rifatto con la correzione. Prossimo: e3c49.
