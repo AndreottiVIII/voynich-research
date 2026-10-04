@@ -11440,3 +11440,19 @@ addestrata su ciascun testo).
   gibberish scritto a mano fanno come le lingue (si ripete più lontano che vicino). La ripresa "di memoria corta" dentro
   la riga è un altro tratto proprio del Voynich, da aggiungere alla lista di quelli che nessun generatore pubblicato
   riproduce (con la giuntura e la chiusura della riga).
+
+## 4/10/2026 (notte) — e3a91: la ripetizione di memoria corta nella riga vale in lingua A e B e per ogni scriba
+
+Preregistrato (`preregistrazioni/e3a91.md`). Misure dell'e3a89 per parte, ciascuna con la propria catena di base.
+
+| parte | pagine | eccesso stessa riga d 1–4 | d 7–10 | calo | esito |
+|---|---|---|---|---|---|
+| lingua A | 114 | +0,0046 | −0,0002 | −0,04 | regge |
+| lingua B | 83 | +0,0059 | +0,0002 | +0,04 | regge |
+| mano 1 | 112 | +0,0049 | −0,0007 | −0,15 | regge |
+| mano 2 | 46 | +0,0062 | +0,0000 | +0,00 | regge |
+| mano 3 | 31 | +0,0039 | +0,0002 | +0,06 | regge |
+
+- **Esito preregistrato: regge in tutte e cinque le parti.** Dentro ogni parte, con la catena di base addestrata sulla
+  parte, la ripetizione è un poco più bassa a breve distanza (+0,004/+0,006) e si azzera del tutto a 7–10 parole: la
+  memoria corta è una proprietà di tutto il libro e di ogni scriba.
