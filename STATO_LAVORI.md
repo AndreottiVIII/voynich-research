@@ -80,7 +80,8 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
   - **e3a82–e3b10 (ripresa e spazi):** la ripresa nella riga è di memoria corta (si spegne in 6–7 parole), propria del
     Voynich, adattata al raccordo (e3a86–e3a97); lo spazio facoltativo dipende dai segni vicini e dalla lunghezza della
     parola in corso, non dalla parola (e3a99, e3b01–e3b05); **le "scelte di riga" dell'e206b sono memoria corta delle
-    scelte di grafia** (2–3 parole, anche in parole diverse, azzerata all'a capo, assente nei generatori) (e3b06–e3b10).
+    scelte di grafia** (2–3 parole, anche in parole diverse, assente nei generatori) (e3b06–e3b10). *("Azzerata all'a
+    capo" corretto dall'e3b66: passa per circa metà.)*
   - **e3b11–e3b24 (memoria corta):** separata per ogni scelta (e3b18); vale per qo/o, sh/ch, ee/e, -ey/-dy, k/t, non per
     il numero di i (e3b19); si consuma con le lettere scritte (e3b20); dura di più in B e nelle sezioni a testo fitto
     (e3b14, e3b21–e3b24); resta a parità di raccordo (e3b13); in bit è piccola, scelte libere oltre il 90% (e3b15);
@@ -113,6 +114,11 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     all'a capo (+0,001 a cavallo, e3b63); nessun generatore la ha. Scriba anglosassone: memoria per þ/ð a inizio parola
     (+0,10), non per i/y. Il raccordo dello scriba anglosassone è otto volte più debole di quello del Voynich (e3b58).
     Figura `memoria_scribi.png`. Relazione della notte riscritta (terza parte).
+  - **e3b64–e3b66 (a capo, correzione importante):** con l'atteso giusto (fine riga accoppiata all'inizio della riga
+    sopra o di due righe sotto) **la memoria delle scelte passa l'a capo per circa metà** (D +0,039 ZL, +0,041 IT,
+    intervalli sopra 0). L'"azzeramento" delle e3b10/e3b35/e3b63 era un effetto delle forme di bordo. All'a capo
+    ripartono raccordo e giuntura. Errore di codice nell'e3b64 (prima esecuzione) e difetto del nullo parola per parola
+    per le domande sui confini, dichiarati.
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
