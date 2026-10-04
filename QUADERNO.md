@@ -15875,3 +15875,29 @@ del criterio (a) è stata scelta dopo aver visto la v19 (dichiarato nella prereg
 (5,4 contro 5,8: la "dispersione delle lunghezze" passa meno spesso). I giudici della v20 non sono distinguibili da
 quelli della v17 entro l'errore: il guadagno è nelle righe e nel cancello, non nei giudici. Un manoscritto v17 si
 legge con la v20 (verificato): cambia solo la disposizione, che non porta il messaggio.
+
+## 4/10/2026 — vz: conferma della v20 su chiavi nuove (13–24), con la v17 sulle stesse chiavi
+
+Integrazione alla preregistrazione `preregistrazioni/e417.md`. Risultati:
+`risultati/e409b_messaggio_nel_sacco_v20_chiavi_13_24.md` e `..._v17_chiavi_13_24.md`.
+
+| | v17, chiavi 1–12 | v17, 13–24 | v17, 24 chiavi | v20, chiavi 1–12 | v20, 13–24 | v20, 24 chiavi |
+|---|---|---|---|---|---|---|
+| giudice e231 | 0,563 | 0,556 | 0,559 ± 0,005 | 0,554 | 0,567 | 0,560 ± 0,005 |
+| giudice e266 | 0,601 | 0,593 | 0,597 ± 0,004 | 0,599 | 0,615 | 0,607 ± 0,005 |
+| pagella (su 18) | 15,0 | 15,1 | 15,0 | 15,6 | 15,8 | 15,7 |
+| cancello della riga | 11 su 12 | 7 su 12 | 18 su 24 | 12 su 12 | 12 su 12 | 24 su 24 |
+| rilettura esatta | 12 | 12 | 24 su 24 | 12 | 12 | 24 su 24 |
+
+Differenza appaiata v20 − v17 sulle 24 chiavi: e231 +0,001 ± 0,004; e266 +0,010 ± 0,006 (v20 peggiore in 12 chiavi su
+24). Gruppi dell'e266 (24 chiavi, v17 → v20): G6 0,519 → 0,528; G7 0,558 → 0,569; G8 0,656 → 0,622; gli altri uguali.
+
+**Previsioni.** v20 entro ±0,015 dalle prime 12 chiavi: e231 sì (+0,013), e266 **no, di poco** (+0,016). Cancello
+almeno 9 su 12: sì (12). Rilettura: sì. v20 non peggiore della v17 di oltre 0,015 (24 chiavi): sì (+0,001 e +0,010).
+
+**Lettura.** Le prime 12 chiavi erano ottimiste per la v20 (di nuovo l'effetto del vincitore) e un po' pessimiste per
+la v17. Sulle 24 chiavi i giudici non distinguono le due versioni sul primo giudice; sul secondo la v20 è forse un filo
+peggiore (+0,010, meno di due errori standard). La v20 resta migliore su righe (misurate nell'e417), cancello (24 su 24
+contro 18 su 24) e pagella (15,7 contro 15,0). La regola scritta prima (tornare a discuterne se peggiore di oltre 0,015)
+non scatta. **Numeri da citare per la v20: 0,560 ± 0,005 e 0,607 ± 0,005 su 24 chiavi** (non più 0,554 / 0,599).
+README pubblico corretto di conseguenza.

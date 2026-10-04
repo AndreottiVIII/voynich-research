@@ -197,3 +197,32 @@ Pacchetto v17 **senza modifiche** dentro Pyodide 314.0.7 (Python 3.14.2, numpy 2
 - Numeri aggiornati (12 chiavi): giudici 0,55 e 0,60; pagella 15–16 su 17; righe oltre 1,5 volte la mediana 2,8%
   (Voynich 2,9%); oltre 1,25 volte 11,5% (Voynich 6,0%: difetto che resta, dichiarato nel README).
 - Il carattere è alla versione 1.1 (forche e "l" ridisegnate).
+
+## 13. Chat del sito, 4/10/2026 pomeriggio: decisioni di Davide e stato
+
+- **Aspetto:** preso dal Voynich vero (pergamena su nero come nelle foto della Beinecke, inchiostro bruno, un disegno
+  vero per pagina). Davide: "molto molto meglio". **Immagini di Yale: confermate da Davide, "usane anche di più"**
+  (politica Open Access di Yale per le opere di pubblico dominio). Nel sito: 5 disegni ripuliti dallo sfondo
+  (`docs/img/`) e le foto di tutti i 207 fogli (`docs/img/folios/`, 6,9 MB), mostrate accanto al foglio generato
+  nell'anteprima e sul banco dell'amanuense durante l'attesa, con il link alla pagina di Yale.
+- **Indirizzo di lavoro di Davide:** testi molto più esaurienti e tecnici ("non è solo un giocone"). How it works
+  riscritta per intero (21 sezioni: principio, dati, chiave, cifratura, gabbia, codifica aritmetica, parole inventate,
+  disposizione con tutti i pesi, rilettura, capienza, piattaforme, giudici G1–G9, pagella, cancello, sicurezza, limiti,
+  storia, mappa del codice).
+- **Il sito usa la v20** (commit `261e175`), copiata in `docs/engine/v20/`; resta `docs/engine/v17/` per ora.
+- **Capienza:** con cinque chiavi di prova va da **80.344 a 84.678 bit** (la scheda diceva 81.000–83.000). Il sito
+  rifiuta subito oltre 86.000; fra 80.000 e 86.000 controlla appena il programma conosce la capienza (fine della scelta
+  delle parole, circa un decimo del tempo), con lo stesso messaggio del programma.
+- **Difetto trovato nel programma (v17 e v20, da segnalare alla chat del voynichizzatore):** in
+  `disposizione.Disposizione.pagina` le righe che inizializzano `conti` (il conteggio delle scelte di grafia di ogni riga
+  per i pesi `scelte` e `scelte_sopra`) stanno dentro `cambio_meta`, dopo il suo `return`: non vengono mai eseguite e i
+  conteggi partono da zero. Probabilmente spostate quando fu inserito il termine `meta` (e412). La rilettura non è
+  toccata (la disposizione non porta il messaggio); correggerlo cambia i manoscritti, quindi è una versione nuova.
+- **Sicurezza, osservazioni scritte in How it works:** sale di scrypt fisso (un dizionario preparato vale per tutti) e
+  flusso che dipende solo dalla chiave (stessa chiave per due messaggi = stesso flusso): usare una chiave diversa per
+  ogni messaggio.
+
+- **Correzione dei numeri (conferma su 24 chiavi):** giudici **0,56 e 0,61** (non 0,55 e 0,60); pagella 15–16;
+  cancello della riga 24 su 24; rilettura 24 su 24. Usare questi, che sono quelli del README pubblico.
+- **Chiave:** il sito deve chiedere una chiave lunga e casuale (almeno 6 parole a caso o 12 caratteri a caso), o
+  generarla lui e mostrarla all'utente. Con una parola comune un attacco a tentativi riesce in poco tempo.
