@@ -107,6 +107,7 @@ Il testo del Voynich si descrive bene con quattro ingredienti:
    parole che esistono.
 3. **Una memoria corta di chi scrive.** Nella stessa riga si ripetono parole e scelte di grafia (*qo*/*o*, *sh*/*ch*,
    *ee*/*e*, -*ey*/-*dy*, *k*/*t*) per 2–4 parole; la memoria si consuma con le lettere scritte e si azzera all'a capo.
+   **(Corretto nella terza parte: all'a capo la memoria non si azzera, passa per circa metà; e3b66.)**
    Nessuna lingua, nessun generatore pubblicato e nemmeno il gibberish scritto a mano ha questa firma.
    **(Corretto nella terza parte: uno scriba medievale vero la ha per una delle sue scelte; e3b62.)**
 4. **Lo sguardo alla riga sopra e alla pagina.** Parole riprese dalla riga sopra (da tutta la riga, non oltre il
@@ -229,7 +230,8 @@ Figure nuove (in `risultati/figure/`): `vocabolario.png`, `spazi.png`, `catena_s
 1. **La memoria corta delle scelte di grafia c'è in tutto il Voynich, uguale in tutte le mani, e non c'è in nessun
    generatore.** Con la misura migliore della notte (spiegata sotto) vale circa +0,08 in tutte e quattro le scelte
    (*qo*/*o*, *k*/*t*, *sh*/*ch*, -*ey*/-*dy*), con le mani 1, 2 e 3 alla pari e con tutte e due le trascrizioni; si
-   azzera a ogni a capo. Naibbe, U2, U3 e Timm e Schinner non la hanno (e3b62, e3b63).
+   passa l'a capo per circa metà (e3b66; prima credevo che si azzerasse). Naibbe, U2, U3 e Timm e Schinner non la
+   hanno (e3b62).
 2. **Uno scriba medievale vero può averla, ma non per tutte le sue scelte.** Nel corpus di controllo ho trovato uno
    scriba anglosassone (Hatton Gospels) che sceglie fra þ e ð per lo stesso suono: per þ/ð a inizio parola ha la stessa
    memoria del Voynich (+0,10); per le varianti *i*/*y* (in lui e in altri due testi storici) nessuna memoria (e3b62).
@@ -240,8 +242,10 @@ Figure nuove (in `risultati/figure/`): `vocabolario.png`, `spazi.png`, `catena_s
 4. **Le scelte non sono legate alla parola** (*k*/*t* e *sh*/*ch* per niente, *qo*/*o* e -*ey*/-*dy* al più un poco): una
    parola del Voynich non ha una "sua" grafia; nei generatori Naibbe e U2 sì (e3b49, e3b50, e3b61).
 5. **Le 6 pagine di solo testo** (f1r, f66r, f76r, f85r1, f86v5, f86v6) sono diverse: lì le parole continuano da una riga
-   all'altra come dentro la riga, anche per la stessa mano che altrove riparte a ogni riga. Che passi anche la memoria
-   delle scelte è possibile ma non dimostrato (e3b38–e3b44, e3b55, e3b63).
+   all'altra come dentro la riga, anche per la stessa mano che altrove riparte a ogni riga (accordo grezzo a cavallo
+   dell'a capo molto più alto che altrove). Per la memoria delle scelte la differenza con le altre pagine non è
+   dimostrata, perché anche nelle pagine normali la memoria passa l'a capo per circa metà (e3b38–e3b44, e3b55, e3b65,
+   e3b66).
 6. **Le etichette ripartono da capo**: si copiano la forma, non le scelte (e3b48).
 
 ## Come ci sono arrivato (con i passi sbagliati)
@@ -273,6 +277,12 @@ La misura della memoria è cambiata quattro volte stanotte, ogni volta perché u
   su tre, non "in generale".
 - e3b59/e3b60 → e3b62: la differenza fra le mani era un difetto del metodo; le mani sono uguali.
 - e3a74 → e3b46: la copia non porta gli spazi.
+- **e3b10/e3b35/e3b63 → e3b64–e3b66: la memoria delle scelte non si azzera all'a capo, passa per circa metà.** I
+  confronti di prima usavano la media della pagina, ma fine riga e inizio riga hanno scelte diverse dalla media (forme
+  di bordo), quindi a cavallo ci si aspetta meno accordo; confrontando con la fine riga accoppiata all'inizio della riga
+  sopra o di due righe sotto, la continuazione vera ha più accordo (+0,04 con tutte e due le trascrizioni). Nel percorso
+  ho trovato e dichiarato anche un errore di codice (e3b64, prima esecuzione) e un difetto di metodo (il rimescolamento
+  parola per parola non è adatto a chiedere se la memoria passa un confine).
 - La seconda parte diceva che nessun testo di confronto ha la memoria corta: vero per lingue, generatori e gibberish, non
   per uno scriba vero con varianti.
 
@@ -280,12 +290,13 @@ La misura della memoria è cambiata quattro volte stanotte, ogni volta perché u
 
 Il Voynich si scrive come una catena di segni riga per riga, con spazi messi dai segni vicini e dalla lunghezza (come i
 generatori, non come le lingue), con un raccordo fra parole fortissimo, e con abitudini da scriba umano (memoria corta
-delle scelte che riparte a ogni riga, copia dalla riga sopra, evitamento sul margine) che i generatori non hanno.
+delle scelte, che all'a capo si dimezza ma non si azzera, copia dalla riga sopra, evitamento sul margine) che i
+generatori non hanno. All'a capo riparte la catena di segni (raccordo e giuntura), non la memoria delle scelte.
 Nessuna di queste cose, da sola, dice se c'è un significato.
 
 ## Lacune e proposta
 
 - Un solo scriba vero, in un'edizione di cui non so quanto sia fedele al manoscritto, e senza le righe originali. Con
   una trascrizione diplomatica di un manoscritto medievale (con le righe del manoscritto e le varianti dello scriba) si
-  potrebbe vedere se anche uno scriba vero "riparte" a ogni a capo come il Voynich, e se ha memoria per tutte le sue
-  scelte. Scaricarla richiede il tuo permesso.
+  potrebbe vedere se anche uno scriba vero dimezza la memoria all'a capo come il Voynich, e se ha memoria per tutte le
+  sue scelte. Scaricarla richiede il tuo permesso.
