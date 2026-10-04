@@ -1,0 +1,41 @@
+{
+ "classi": {
+  "unica": {
+   "parole": 3107,
+   "eccesso": 0.005109685785199216,
+   "eccesso_relativo": 0.15394827567213687,
+   "IC95_relativo": [
+    -0.058757731024298265,
+    0.3877408705646017
+   ]
+  },
+  "rara": {
+   "parole": 4354,
+   "eccesso": 0.03183265853649051,
+   "eccesso_relativo": 0.3111791807091018,
+   "IC95_relativo": [
+    0.21358958499396774,
+    0.42177788788808024
+   ]
+  },
+  "media": {
+   "parole": 5949,
+   "eccesso": 0.037287953129223436,
+   "eccesso_relativo": 0.17273830407308166,
+   "IC95_relativo": [
+    0.11575375730496451,
+    0.23164268806449395
+   ]
+  },
+  "frequente": {
+   "parole": 10646,
+   "eccesso": 0.0604798083754022,
+   "eccesso_relativo": 0.151386800601212,
+   "IC95_relativo": [
+    0.1241903165723639,
+    0.17627708436113387
+   ]
+  }
+ },
+ "esito": "la copia favorisce le parole rare"
+}
