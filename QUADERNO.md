@@ -11571,3 +11571,25 @@ Preregistrato (`preregistrazioni/e3a98.md`, senza previsione). Codice provato pr
 - **Lettura:** il Voynich inventa un po' meno della propria catena di segni: ha meno parole che compaiono una volta sola.
   Va con i meccanismi di riuso trovati stanotte (copia dalla riga sopra, ripetizione di memoria corta), che fanno
   tornare parole già scritte al posto di forme nuove. La legge di Zipf invece viene già dalla catena.
+
+## 4/10/2026 (notte) — e3a99: nel Voynich lo spazio facoltativo non segue la parola intera come nelle lingue (il segno negativo va tarato)
+
+Preregistrato (`preregistrazioni/e3a99.md`; prima del commit corretto il nome di un testo di controllo, *Della
+Pittura* al posto di un testo che non c'è). Λ = preferenza lessicale per il taglio (pezzi più comuni della parola unita),
+a parità dei 4 segni attorno al punto facoltativo.
+
+| testo | punti facoltativi | differenza (con spazio − senza) | IC 95% |
+|---|---|---|---|
+| latino, Vulgata (controllo) | 9.866 | +5,91 | +5,75 – +6,26 |
+| inglese, *Secreta Alberti* (controllo) | 9.973 | +6,95 | +6,87 – +7,44 |
+| italiano, *Della Pittura* (controllo) | 11.643 | +4,43 | +4,31 – +4,79 |
+| **Voynich (ZL)** | 12.274 | **−0,86** | −0,96 – −0,73 |
+
+- Controllo positivo: passa (nelle lingue lo spazio segue fortissimamente la parola intera).
+- **Esito preregistrato alla lettera: "al contrario".**
+- **Cautela scritta subito, difetto del metodo:** il togliere l'occorrenza in esame dai conteggi (per non avvantaggiare
+  la scelta reale) produce da solo una spinta verso il negativo: dove c'è lo spazio abbassa la frequenza dei due pezzi,
+  dove non c'è abbassa quella della parola unita. Nelle lingue l'effetto lessicale è così grande che la spinta non conta;
+  nel Voynich −0,86 potrebbe essere solo la spinta. Non avevo previsto una taratura con un nullo simulato. Quindi: nel
+  Voynich **non c'è** la preferenza lessicale delle lingue (che è di +4/+7); se ce ne sia una piccola, o una contraria,
+  lo dirà la taratura (e3b01).

@@ -1,0 +1,4 @@
+Historical - Latin - Literary - NT (Vulgate) {"punti": 9866, "con_spazio": 3917, "differenza": 5.906479215519725, "IC95": [5.744514012176372, 6.263343776201315]}
+Historical - English - Technical - Secreta Alberti {"punti": 9973, "con_spazio": 4652, "differenza": 6.951086484231523, "IC95": [6.864693618409594, 7.4368526116619185]}
+Historical - Italian - Technical - Della Pittura {"punti": 11643, "con_spazio": 4882, "differenza": 4.4255184064337545, "IC95": [4.308523970951351, 4.79362852328939]}
+Voynich {"punti": 12274, "con_spazio": 6861, "differenza": -0.8612514130015315, "IC95": [-0.9599257538455656, -0.7305673058113301]}
