@@ -491,3 +491,24 @@ scrive e non grammatica" è un'ipotesi che i dati favoriscono un poco, non una c
 **Lezione di metodo** (va nel white paper): nel Voynich la posizione nella riga e la lunghezza della riga cambiano le
 scelte. Ogni misura di "memoria" deve toglierle, altrimenti le gonfia. Io l'ho capito per gradi stanotte, e ogni passo è
 nel Quaderno.
+
+## Aggiunte (8:05 – 8:15): il quadro più pulito, scelta per scelta (e3c32 – e3c35)
+
+Ho tolto tutto quello che sapevo togliere: le preferenze di ogni singola parola, quelle della pagina, la deriva lungo la
+riga e le parole ai bordi. Quello che resta:
+
+1. **Righe corte e lunghe si comportano allo stesso modo** (e3c32). Correggo l'e3c31: la differenza che avevo visto
+   veniva da come misuravo, non dalle righe.
+2. **Non è una preferenza di tutta la riga** (e3c33): oltre 4 parole l'accordo è circa zero.
+3. **Scelta per scelta** (e3c35):
+   - *k*/*t*, *sh*/*ch*, -*ey*/-*dy*: le parole accanto si accordano (+0,12 – +0,15) e a 3 parole ne resta più della metà
+     (56–74%). Nelle lingue naturali del corpus, a 3 parole resta al massimo il 46% (Plinio), di solito lo 0–20%.
+   - *qo*/*o*: fra parole accanto niente, perché lì decide la regola di raccordo con la fine della parola prima; a 2–3
+     parole sì.
+   - *a*/*o*: quasi niente. È per questo che con le classi scelte dal programma (dove *a*/*o* pesa molto) il Voynich
+     sembrava calare come una lingua (e3c34).
+
+**In una frase, per ora:** nel Voynich alcune scelte di grafia (*k*/*t*, *sh*/*ch*, -*ey*/-*dy*, e *qo*/*o* da due parole in
+su) si accordano fra parole vicine della stessa riga, con una forza simile all'accordo grammaticale delle lingue ma per una
+distanza un po' più lunga; nessun generatore pubblicato lo fa. La differenza con le lingue è chiara come stima, non
+dimostrata con certezza (intervalli larghi).
