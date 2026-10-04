@@ -12730,3 +12730,40 @@ provato su testi finti (memoria vera p < 0,01; locuzioni con grafia fissa senza 
   Questo sostituisce le letture dell'e3b51, e3b52 ed e3b53 sul confronto con gli scribi.
 - **Limiti:** un solo testo medievale con molti dati (i Hatton Gospels, edizione di cui non so quanto sia fedele al
   manoscritto); il nullo conta come memoria le parole che hanno una grafia fissa in una locuzione e un'altra altrove.
+
+## 4/10/2026 (notte) — Nota di metodo: togliere le coppie "simili" sulla parola intera distorce il confronto col nullo
+
+Provando il codice dell'e3b55 su pagine finte **senza memoria** è uscito un effetto finto di −0,08/−0,10. Causa: togliere
+le coppie di parole uguali o a una modifica guardando la parola intera toglie più coppie concordi che discordi
+(*qokar*/*qokal* esce, *qokar*/*okal* resta), quindi abbassa l'accordo osservato; il nullo, che rimescola le varianti, non
+ha questo difetto. Rimedio: decidere le coppie simili sulle parole **con la variante coperta** (l'esclusione non dipende
+più dalla variante). Dopo la correzione, su pagine finte: senza memoria +0,001/+0,004 (p 0,4–0,5). Dichiarato nella
+preregistrazione dell'e3b55 prima di guardare il Voynich. **Riguarda anche l'e3b54** (e le misure assolute delle
+e3b51–e3b53): lì l'effetto entra in tutte e due le distanze e in parte si cancella nella differenza vicine − lontane, ma
+non del tutto; va rifatto (e3b56).
+
+## 4/10/2026 (notte) — e3b55: nelle pagine "solo testo" l'accordo a cavallo dell'a capo si spiega con le parole, non con la memoria delle scelte
+
+Preregistrato (`preregistrazioni/e3b55.md`). Coppie a distanza 2–3 nel paragrafo, stessa riga o a cavallo dell'a capo,
+senza coppie simili (sulle parole coperte); K normalizzato contro il nullo che tiene ferme le parole (e3b54).
+
+| pagine | coppie | n | K osservato | K nullo | effetto | z | p |
+|---|---|---|---|---|---|---|---|
+| solo testo | stessa riga | 1.458 | +0,057 | +0,005 | +0,052 | +2,3 | 0,011 |
+| solo testo | a cavallo | 326 | +0,081 | +0,063 | +0,018 | +0,4 | 0,33 |
+| altre | stessa riga | 20.491 | +0,081 | +0,020 | +0,061 | +11,4 | < 0,001 |
+| altre | a cavallo | 6.042 | −0,010 | −0,014 | +0,003 | +0,4 | 0,37 |
+
+- **Esito preregistrato: non regge.** Nelle pagine di solo testo l'accordo delle scelte a cavallo dell'a capo è alto
+  (K +0,081, come nell'e3b38), ma il nullo che tiene ferme le parole ne spiega quasi tutto (+0,063). Nelle altre pagine
+  il nullo a cavallo è −0,014.
+- **Lettura corretta delle e3b38–e3b44:** nelle pagine di solo testo **le parole** a cavallo dell'a capo si comportano
+  come nella riga (parole con preferenze simili una dopo l'altra, come la giuntura dell'e3a06), cioè la scrittura scorre
+  da una riga all'altra quanto a **quali parole** si scrivono; che passi anche la **memoria delle scelte** oltre le
+  parole non è dimostrato (+0,018, p 0,33). Le pagine di solo testo restano diverse dalle altre (il nullo a cavallo è
+  +0,063 contro −0,014), ma la frase "la memoria delle scelte passa l'a capo" va sostituita con "l'accordo delle
+  scelte e la giuntura passano l'a capo, per via delle parole che si scrivono a cavallo".
+- **Cautela sulla potenza:** questo nullo è molto prudente (le parole che compaiono una sola volta nella pagina non si
+  possono rimescolare) e le coppie a cavallo nelle pagine T sono poche (326): un effetto piccolo potrebbe sfuggire.
+- Nella stessa riga la memoria delle scelte oltre le parole c'è sia nelle pagine T (+0,052) sia nelle altre (+0,061,
+  z 11,4): conferma l'e3b54 con l'esclusione corretta.
