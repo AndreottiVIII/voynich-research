@@ -121,6 +121,10 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     per le domande sui confini, dichiarati.
     La memoria passa anche il salto del disegno, per intero (e3b67: D +0,068 ZL, +0,077 IT).
     Anche la ripetizione di parole passa l'a capo per circa un quarto (e3b68); al salto incerto.
+  - **e3b69–e3b70 (controlli finali sulla memoria):** sul Voynich riscritto dalla catena la misura dà circa zero (non è
+    spostata); con intervalli per pagine intere la memoria del Voynich regge (ZL +0,086, IT +0,076), le mani non
+    differiscono, i generatori non la hanno, **lo scriba anglosassone non è dimostrato** (+0,10, IC con lo zero). I p
+    del nullo largo erano troppo ottimisti.
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
