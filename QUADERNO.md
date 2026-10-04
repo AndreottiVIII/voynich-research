@@ -11894,3 +11894,16 @@ casi), confrontato con l'inizio riga e con le altre finali (divergenza di Jensen
 - **Esito preregistrato: dopo -m è come dopo un'altra finale.** In mezzo alla riga -*m* si comporta come una finale
   della classe di -*n* (quelle dopo cui vengono *ch*-, *o*-, *sh*-), non come un confine. Nessun indizio di "pause" o
   frasi dentro la riga segnate da -*m*: la -*m* è una forma di fine riga, e in mezzo alla riga è una finale come le altre.
+
+## 4/10/2026 (notte) — Nota di interpretazione (non un esperimento): le scelte libere con memoria corta
+
+Mettendo insieme e3a36/e3a37, e3b06–e3b15: le scelte *qo*-/*o*-, *sh*-/*ch*-, -*ey*/-*dy*, *ee*/*e* sono libere per più
+del 90% (nessuna regola trovata le decide), ma chi scrive tende a rifare la stessa scelta per 2–4 parole, e la memoria si
+azzera a ogni riga. È il comportamento atteso da **varianti equivalenti scelte per abitudine** mentre si scrive. Vale per
+due ipotesi molto diverse:
+- un testo senza significato, in cui quelle varianti sono decorazione;
+- un cifrario eseguito a mano in cui quelle varianti sono omofoni (forme equivalenti fra cui chi cifra sceglie
+  liberamente, e per abitudine ripete l'ultima usata).
+Le due ipotesi restano entrambe aperte su questo punto; quello che si esclude è che queste varianti portino, così come
+sono, l'informazione di una lingua parola per parola (in quel caso non sarebbero libere al 90% né "copiate" dalle parole
+appena scritte). Nessuna decifrazione: è solo una delimitazione delle ipotesi.
