@@ -15273,3 +15273,43 @@ ingresso dell'e3c50 (12 scelte entrano); misura dell'e3c48 (50 rimescolamenti), 
   preferisce ſ, per esempio un cambio di mano o di penna dentro la pagina, che questi file non segnano) o dalla
   posizione nella riga. Il Voynich ha superato tutte e due le prove (e3c48 con blocchi di 5 righe; e3c57). **Prossimo:
   e3c59**, le stesse prove su AM 302 ſ/s e Holm A 10 ꝛ/r.
+
+## 4/10/2026 (mattina) — e3c59: la finestra dello scriba di AM 302 fol (ſ/s) regge alle stesse prove del Voynich
+
+Preregistrato (`preregistrazioni/e3c59.md`). Misura dell'e3c57 (nulli A, P con la posizione, R placebo), con pagine e
+con blocchi di 5 righe; Voynich ZL nella stessa esecuzione.
+
+| testo | pagine, nullo A: K 1 / K 2–3 | blocchi di 5 righe, nullo P (prova più severa): K 1 / K 2–3 |
+|---|---|---|
+| Voynich ZL | +0,135 / +0,089 | **+0,104 (+0,081 – +0,127) / +0,062 (+0,042 – +0,082)** |
+| AM 302 fol, ſ/s | +0,124 / +0,083 | **+0,107 (+0,044 – +0,173) / +0,083 (+0,044 – +0,125)** |
+| Holm A 10, ꝛ/r | +0,057 / +0,050 | +0,042 (+0,010 – +0,073) / +0,038 (+0,011 – +0,064) |
+
+- **Esito preregistrato:** Voynich ZL **regge**; AM 302 fol ſ/s **regge alle due prove**; Holm A 10 ꝛ/r **incerto**
+  (positivo, circa un terzo del Voynich, estremi bassi sotto 0,02).
+- **Correzione della lettura data dopo l'e3c51 (e nel dossier):** avevo scritto che la finestra "riguarda quale parola si
+  scrive, non come si traccia la lettera". Non regge: lo scriba norvegese di AM 302 fol (c. 1300) ha, nella scelta di
+  sola forma fra *s* lunga e *s* tonda, una finestra della stessa forma e grandezza del Voynich, che supera le stesse
+  prove (tratti brevi, posizione). Una scelta di forma di lettera **può** avere la finestra.
+- **Quadro onesto:** fra gli scribi veri provati la finestra è rara (1 scelta chiara e 1 al limite su 18, in 6 scribi),
+  ma esiste. Il Voynich è diverso per **quantità**, non per **natura**: ce l'ha in più scelte (*k*/*t*, -*ey*/-*dy*,
+  *sh*/*ch* al limite), in tutte le mani e sezioni.
+
+## 4/10/2026 (mattina) — e3c60: il raccordo negli scribi veri c'è in due scelte su undici, ma è quattro volte più debole
+
+Preregistrato (`preregistrazioni/e3c60.md`). Metodo dell'e3b58 (informazione mutua fra la forma scelta a un bordo della
+parola e il segno della parola vicina; nullo che tiene ferme le parole, 1.000 volte), 11 scelte in 5 scribi Menota.
+
+| testo, scelta | effetto / entropia | z | p |
+|---|---|---|---|
+| Voynich ZL, *qo*/*o* a inizio parola | **+0,058** | +27,7 | < 0,001 |
+| Voynich ZL, -*l*/-*r* a fine parola | **+0,058** | +28,8 | < 0,001 |
+| AM 302 fol, ſ/s a inizio parola | +0,015 | +6,1 | < 0,001 |
+| AM 60 4to, í/i a fine parola | +0,013 | +6,0 | < 0,001 |
+| le altre 9 scelte | da +0,000 a +0,002 | | da 0,02 a 0,35 |
+
+- **Esito preregistrato: gli scribi hanno un raccordo, ma più debole della metà di quello del Voynich** (soglia 0,029).
+  Le due scelte significative valgono circa un quarto del Voynich; le altre nove niente.
+- Con lo scriba anglosassone (e3b58, +0,007) il quadro è coerente: **un legame fra la forma di una lettera e la parola
+  vicina può nascere dalla scrittura a mano, ma la forza del raccordo del Voynich resta senza paragone** (quattro volte
+  il caso più forte fra sette scribi). Il raccordo resta una delle proprietà più proprie del Voynich.
