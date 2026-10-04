@@ -15568,3 +15568,22 @@ Preregistrato (`preregistrazioni/e3c71.md`). Simulazione su Plinio (latino) e *D
 - **Lettura:** un "avvio che riparte a ogni riga" è finora l'unico meccanismo che spiega la riga chiusa; un'autochiave
   classica però è esclusa (il Voynich ripete parole e ha un vocabolario piccolo). Se c'è un meccanismo di riga, agisce
   sulla scelta fra poche forme (come il raccordo), non sulla cifratura di ogni lettera.
+
+## 4/10/2026 (mattina) — e3c72: lo stato non dipende da quante volte la scelta compare in mezzo; ritirata l'osservazione dell'e3c68
+
+Preregistrato (`preregistrazioni/e3c72.md`; prova su testi finti: il verso è giusto, potenza modesta). K corretto
+(e3c48) per coppie della stessa scelta a distanza 2 e 3, divise per quante parole in mezzo fanno la stessa scelta.
+
+| | d2, 0 in mezzo | d2, 1 in mezzo | d3, 0 | d3, 1 | d3, 2 | d2: 1 − 0 | d3: 2 − 0 |
+|---|---|---|---|---|---|---|---|
+| ZL | +0,097 | +0,089 | +0,107 | +0,104 | +0,058 | −0,008 (−0,056 – +0,044) | −0,049 (−0,133 – +0,041) |
+| IT | +0,079 | +0,097 | +0,137 | +0,102 | +0,059 | +0,018 (−0,037 – +0,072) | −0,077 (−0,154 – +0,006) |
+
+- **Esito preregistrato (ZL e IT): lo stato non dipende dalle occorrenze in mezzo.** A distanza 2 l'accordo è lo stesso
+  con o senza una parola "con la scelta" in mezzo. A distanza 3 con due occorrenze in mezzo è un po' più basso (+0,06
+  contro +0,11 – +0,14), ma gli intervalli toccano 0: al più un indizio che lo stato possa cambiare dove la scelta compare.
+- **Ritiro dell'osservazione non preregistrata dell'e3c68:** lì, con la parola in mezzo fuori dalla scelta, l'accordo a
+  distanza 2 risultava +0,062 / +0,045, più basso del solito; ma quella misura non era corretta per la distorsione
+  (niente nullo). Con la correzione lo stesso gruppo vale +0,097 / +0,079, come gli altri. Era distorsione.
+- **Descrizione che ne esce:** lo stato di ogni scelta vive lungo la riga, di parola in parola, e viene "letto" quando la
+  scelta compare; non conta quante volte compare.
