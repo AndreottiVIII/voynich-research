@@ -1,0 +1,739 @@
+{
+ "lingue_usate": 47,
+ "confronto": {
+  "differenza": {
+   "voynich": -0.0012024153547051577,
+   "lingue_p10": -0.0019638028709714,
+   "lingue_mediana": -0.0004917400024329471,
+   "lingue_p90": 0.00284793776849866,
+   "quota_sotto_il_voynich": 0.1702127659574468
+  },
+  "calo": {
+   "voynich": 0.11559575914762828,
+   "lingue_p10": 1.0957517641572987,
+   "lingue_mediana": 2.863005732218875,
+   "lingue_p90": 5.3427444319766355,
+   "quota_sotto_il_voynich": 0.0851063829787234
+  },
+  "piattezza": {
+   "voynich": 0.7866926262266295,
+   "lingue_p10": 0.9009207294878085,
+   "lingue_mediana": 1.059955308776627,
+   "lingue_p90": 1.436757755669146,
+   "quota_sotto_il_voynich": 0.06382978723404255
+  }
+ },
+ "esito": "in parte",
+ "testi_sensati": {
+  "Conlangs - Esperanto - Literary - NT": {
+   "differenza": 0.003688762727623444,
+   "stessa_d1_4": 0.0029190954572336563,
+   "stessa_d7_10": 0.020354087631075955,
+   "cavallo_d3_6": 0.010777023105872972,
+   "cavallo_d10_20": 0.01116931493791467,
+   "calo": 6.972737935183848,
+   "piattezza": 1.036400760041789,
+   "coppie_stessa_d7_10": 1859
+  },
+  "Conlangs - Esperanto - Technical - Voynich Wiki": {
+   "differenza": -0.000787746372112957,
+   "stessa_d1_4": 0.0008980893573084472,
+   "stessa_d7_10": 0.0076482262122645655,
+   "cavallo_d3_6": 0.00252670751724113,
+   "cavallo_d10_20": 0.0038415814141046813,
+   "calo": 8.516108280345422,
+   "piattezza": 1.5203902263682818,
+   "coppie_stessa_d7_10": 242
+  },
+  "Conlangs - Interlingua - Literary - NT": {
+   "differenza": -0.0008054389446813612,
+   "stessa_d1_4": 0.004089960276568581,
+   "stessa_d7_10": 0.013641999576063891,
+   "cavallo_d3_6": 0.008996621213837777,
+   "cavallo_d10_20": 0.009976384002534281,
+   "calo": 3.335484614415213,
+   "piattezza": 1.108903416672642,
+   "coppie_stessa_d7_10": 2320
+  },
+  "Conlangs - Interlingua - Technical - EU Wiki": {
+   "differenza": -0.004658379504633198,
+   "stessa_d1_4": 0.0015729648342763627,
+   "stessa_d7_10": 0.002585467400017883,
+   "cavallo_d3_6": 0.00857033168015247,
+   "cavallo_d10_20": 0.006773478775506477,
+   "calo": 1.6436905286616397,
+   "piattezza": 0.7903403308407282,
+   "coppie_stessa_d7_10": 624
+  },
+  "Conlangs - Klingon - Literary - NT - Mark": {
+   "differenza": -0.0005687882435016674,
+   "stessa_d1_4": 0.004013389342537866,
+   "stessa_d7_10": 0.011559542320265626,
+   "cavallo_d3_6": 0.009999857810593862,
+   "cavallo_d10_20": 0.007595057404699071,
+   "calo": 2.8802444352323793,
+   "piattezza": 0.7595165399904844,
+   "coppie_stessa_d7_10": 330
+  },
+  "Conlangs - Klingon - Technical - Proxima Centauri B Wikia": {
+   "differenza": 0.0003232952796358192,
+   "stessa_d1_4": 0.0022317147843740276,
+   "stessa_d7_10": 0.034759626742487046,
+   "cavallo_d3_6": 0.01567964340548523,
+   "cavallo_d10_20": 0.005934390349429877,
+   "calo": 15.575299758672681,
+   "piattezza": 0.3784773796165442,
+   "coppie_stessa_d7_10": 53
+  },
+  "Conlangs - LOLCat - Literary - NT - Matthew": {
+   "differenza": -0.0007981810918045069,
+   "stessa_d1_4": 0.006653235044477239,
+   "stessa_d7_10": 0.00888735409812576,
+   "cavallo_d3_6": 0.011848809051616949,
+   "cavallo_d10_20": 0.01091757115482268,
+   "calo": 1.3357943975695,
+   "piattezza": 0.9214066246879734,
+   "coppie_stessa_d7_10": 3620
+  },
+  "Conlangs - Lojban - Literary - Alice in Wonderland": {
+   "differenza": -0.0005588703898147113,
+   "stessa_d1_4": 0.002689175542131737,
+   "stessa_d7_10": 0.0036381853111632323,
+   "cavallo_d3_6": 0.003210336822621644,
+   "cavallo_d10_20": 0.0057216495822029105,
+   "calo": 1.3528998959581515,
+   "piattezza": 1.7822583418304576,
+   "coppie_stessa_d7_10": 4054
+  },
+  "Conlangs - Lojban - Technical - Science News": {
+   "differenza": -0.004437527984223363,
+   "stessa_d1_4": -0.00012985021858156857,
+   "stessa_d7_10": 0.000744345569901426,
+   "cavallo_d3_6": 0.004409738486810293,
+   "cavallo_d10_20": 0.00415944565146918,
+   "calo": -5.7323397529273095,
+   "piattezza": 0.9432408892069792,
+   "coppie_stessa_d7_10": 503
+  },
+  "Conlangs - Neo-Quenya - Literary - NT": {
+   "differenza": 0.000891541266514204,
+   "stessa_d1_4": 0.00427418197145706,
+   "stessa_d7_10": 0.014258767067136236,
+   "cavallo_d3_6": 0.005303899006665551,
+   "cavallo_d10_20": 0.006549803277691913,
+   "calo": 3.3360224628609934,
+   "piattezza": 1.2349034680827446,
+   "coppie_stessa_d7_10": 1300
+  },
+  "Conlangs - Neo-Quenya - Technical - Europe-Taipei Wikia": {
+   "differenza": -0.0037022375227201594,
+   "stessa_d1_4": 0.005071526824595455,
+   "stessa_d7_10": 0.038461538461538464,
+   "cavallo_d3_6": 0.01797014914166677,
+   "cavallo_d10_20": 0.007737469148265187,
+   "calo": 7.583818402578687,
+   "piattezza": 0.4305734519656591,
+   "coppie_stessa_d7_10": 26
+  },
+  "Conlangs - Toki Pona - Literary - NT - Sermon on the Mount": {
+   "differenza": -0.0032792806007874327,
+   "stessa_d1_4": -0.0011922915607342052,
+   "stessa_d7_10": 0.03404626935834185,
+   "cavallo_d3_6": 0.016917945513950802,
+   "cavallo_d10_20": 0.026125426286711995,
+   "calo": -28.55532193600061,
+   "piattezza": 1.54424343459249,
+   "coppie_stessa_d7_10": 1569
+  },
+  "Conlangs - Toki Pona - Technical - Turkey-Mexico Wikia": {
+   "differenza": 0.009820350509134226,
+   "stessa_d1_4": 0.02272737460031518,
+   "stessa_d7_10": 0.03544195085511529,
+   "cavallo_d3_6": 0.03229477069197139,
+   "cavallo_d10_20": 0.03454414291702313,
+   "calo": 1.5594388475747563,
+   "piattezza": 1.0696512833766905,
+   "coppie_stessa_d7_10": 576
+  },
+  "Conlangs - Volapuk - Literary - NT": {
+   "differenza": -0.0004938813372603081,
+   "stessa_d1_4": 0.004807311458944237,
+   "stessa_d7_10": 0.014859448992404352,
+   "cavallo_d3_6": 0.008378105243334225,
+   "cavallo_d10_20": 0.0083322558876052,
+   "calo": 3.0910102495559393,
+   "piattezza": 0.994527479137899,
+   "coppie_stessa_d7_10": 948
+  },
+  "Conlangs - Volapuk - Technical - History Wiki": {
+   "differenza": 0.0006539402243448114,
+   "stessa_d1_4": 0.004727095920193692,
+   "stessa_d7_10": -0.0003511038416121086,
+   "cavallo_d3_6": 0.0069716483406749115,
+   "cavallo_d10_20": 0.004856200754388684,
+   "calo": -0.07427474448153829,
+   "piattezza": 0.6965642151019001,
+   "coppie_stessa_d7_10": 69
+  },
+  "Historical - Anglo-Saxon - Literary - NT - Hatton Gospels": {
+   "differenza": -0.0010953710734247996,
+   "stessa_d1_4": 0.005526550115656616,
+   "stessa_d7_10": 0.008454279091688032,
+   "cavallo_d3_6": 0.00863833463711685,
+   "cavallo_d10_20": 0.006746676116228905,
+   "calo": 1.5297570663002247,
+   "piattezza": 0.781015832292495,
+   "coppie_stessa_d7_10": 1051
+  },
+  "Historical - Anglo-Saxon - Technical - Leechbook": {
+   "differenza": 0.0012235670394270838,
+   "stessa_d1_4": 0.00194463957701235,
+   "stessa_d7_10": -0.0019157295408698868,
+   "cavallo_d3_6": 0.0026009935196875016,
+   "cavallo_d10_20": 0.004145642180150408,
+   "calo": -0.9851334733262607,
+   "piattezza": 1.593868707773055,
+   "coppie_stessa_d7_10": 366
+  },
+  "Historical - Arabic - Literary - Quran": {
+   "differenza": 0.0031666227941160897,
+   "stessa_d1_4": 0.002044260118905828,
+   "stessa_d7_10": 0.004061772492947309,
+   "cavallo_d3_6": 0.0024285866640749824,
+   "cavallo_d10_20": 0.0031554629065192693,
+   "calo": 1.9869156842532039,
+   "piattezza": 1.2993001045409036,
+   "coppie_stessa_d7_10": 2197
+  },
+  "Historical - Arabic - Technical - Avicenna": {
+   "differenza": 0.0028050413686089527,
+   "stessa_d1_4": 0.003898244983560249,
+   "stessa_d7_10": 0.007758905221716444,
+   "cavallo_d3_6": 0.00596704224807048,
+   "cavallo_d10_20": 0.006324798108536723,
+   "calo": 1.9903585470993852,
+   "piattezza": 1.059955308776627,
+   "coppie_stessa_d7_10": 3805
+  },
+  "Historical - English - Literary - NT (KJV)": {
+   "differenza": 0.0034637825314806255,
+   "stessa_d1_4": 0.007515538786139842,
+   "stessa_d7_10": 0.019493396197202875,
+   "cavallo_d3_6": 0.012987228198957878,
+   "cavallo_d10_20": 0.015752970949930174,
+   "calo": 2.593745671721181,
+   "piattezza": 1.2129586628187703,
+   "coppie_stessa_d7_10": 8941
+  },
+  "Historical - English - Technical - Secreta Alberti": {
+   "differenza": 0.002912282368333222,
+   "stessa_d1_4": 0.0038830500863495914,
+   "stessa_d7_10": 0.009056208974642722,
+   "cavallo_d3_6": 0.008518640713991475,
+   "cavallo_d10_20": 0.009829233385239954,
+   "calo": 2.3322410922482733,
+   "piattezza": 1.1538499762169676,
+   "coppie_stessa_d7_10": 2990
+  },
+  "Historical - Flemish - Literary - NT": {
+   "differenza": -0.002642702903766357,
+   "stessa_d1_4": 0.005561081870334031,
+   "stessa_d7_10": 0.02118498409938191,
+   "cavallo_d3_6": 0.014601271424939851,
+   "cavallo_d10_20": 0.015831220623923132,
+   "calo": 3.809507680941481,
+   "piattezza": 1.084235760242252,
+   "coppie_stessa_d7_10": 2110
+  },
+  "Historical - Flemish - Technical - Cruydeboeck": {
+   "differenza": -0.0004917400024329471,
+   "stessa_d1_4": 0.005638097346442281,
+   "stessa_d7_10": 0.015648725677654927,
+   "cavallo_d3_6": 0.010520268852824808,
+   "cavallo_d10_20": 0.010651580125044857,
+   "calo": 2.7755330772232045,
+   "piattezza": 1.0124817411091913,
+   "coppie_stessa_d7_10": 855
+  },
+  "Historical - French - Literary - NT - Martin": {
+   "differenza": -0.0007372341847851592,
+   "stessa_d1_4": 0.003553091016998228,
+   "stessa_d7_10": 0.013574424656543882,
+   "cavallo_d3_6": 0.009054025267722043,
+   "cavallo_d10_20": 0.009326010896394846,
+   "calo": 3.8204550887109043,
+   "piattezza": 1.0300402992735667,
+   "coppie_stessa_d7_10": 1813
+  },
+  "Historical - German - Literary - NT - Luther": {
+   "differenza": 0.0007947703867685098,
+   "stessa_d1_4": 0.005041661452111527,
+   "stessa_d7_10": 0.0191335629967635,
+   "cavallo_d3_6": 0.011812023911642827,
+   "cavallo_d10_20": 0.011148802043210879,
+   "calo": 3.7950908006228907,
+   "piattezza": 0.9438519703826347,
+   "coppie_stessa_d7_10": 2035
+  },
+  "Historical - German - Technical - German Herbarium": {
+   "differenza": -0.0009127230039971557,
+   "stessa_d1_4": 0.002315792749813321,
+   "stessa_d7_10": 0.0042603340919580325,
+   "cavallo_d3_6": 0.006463746703699293,
+   "cavallo_d10_20": 0.007838469021187053,
+   "calo": 1.8396871189364694,
+   "piattezza": 1.2126819599383416,
+   "coppie_stessa_d7_10": 1031
+  },
+  "Historical - Greek - Literary - NT - Textus Receptus": {
+   "differenza": -0.0007013648701296449,
+   "stessa_d1_4": 0.0038359891198037803,
+   "stessa_d7_10": 0.013557745834496902,
+   "cavallo_d3_6": 0.011530815327128347,
+   "cavallo_d10_20": 0.011049746163697938,
+   "calo": 3.5343546113056785,
+   "piattezza": 0.9582796923042722,
+   "coppie_stessa_d7_10": 2683
+  },
+  "Historical - Greek - Technical - De odoribus": {
+   "differenza": -0.00019364579678416002,
+   "stessa_d1_4": 0.00043205140572249453,
+   "stessa_d7_10": 0.002069894890366882,
+   "cavallo_d3_6": 0.0041844743881164406,
+   "cavallo_d10_20": 0.004034234741986829,
+   "calo": 4.790853271048885,
+   "piattezza": 0.9640959336359473,
+   "coppie_stessa_d7_10": 958
+  },
+  "Historical - Italian - Literary - NT - Diodati": {
+   "differenza": -0.0015112028491080969,
+   "stessa_d1_4": 0.003688777829035733,
+   "stessa_d7_10": 0.012200983740676113,
+   "cavallo_d3_6": 0.006098333599537964,
+   "cavallo_d10_20": 0.008324839077628992,
+   "calo": 3.3075951727527912,
+   "piattezza": 1.365100636386917,
+   "coppie_stessa_d7_10": 1489
+  },
+  "Historical - Italian - Technical - Della Pittura": {
+   "differenza": -0.0003056936014471292,
+   "stessa_d1_4": 0.0018327834114885513,
+   "stessa_d7_10": 0.007575239196117938,
+   "cavallo_d3_6": 0.005381527970724588,
+   "cavallo_d10_20": 0.005099938317741311,
+   "calo": 4.1331884327594794,
+   "piattezza": 0.9476747766591348,
+   "coppie_stessa_d7_10": 1275
+  },
+  "Historical - Latin (Abbreviated) - Literary - NT (Vulgate)": {
+   "differenza": -0.00247301375147553,
+   "stessa_d1_4": 0.0032805121435308163,
+   "stessa_d7_10": 0.008,
+   "cavallo_d3_6": 0.005748227630935482,
+   "cavallo_d10_20": 0.005753106297444591,
+   "calo": 2.4386436172095975,
+   "piattezza": 1.0008487253502025,
+   "coppie_stessa_d7_10": 375
+  },
+  "Historical - Latin (Abbreviated) - Technical - Pliny's Natural History": {
+   "differenza": 0.0020277596176872413,
+   "stessa_d1_4": 0.005006572468041084,
+   "stessa_d7_10": 0.012479600948363458,
+   "cavallo_d3_6": 0.0060205428737277,
+   "cavallo_d10_20": 0.0035237753755610283,
+   "calo": 2.492643625559331,
+   "piattezza": 0.5852919661012621,
+   "coppie_stessa_d7_10": 235
+  },
+  "Historical - Latin - Literary - NT (Vulgate)": {
+   "differenza": -0.0013545896091732863,
+   "stessa_d1_4": 0.00465901793839868,
+   "stessa_d7_10": 0.01401974491014393,
+   "cavallo_d3_6": 0.008080005923039731,
+   "cavallo_d10_20": 0.007887370780292507,
+   "calo": 3.009163110233176,
+   "piattezza": 0.976159034463337,
+   "coppie_stessa_d7_10": 676
+  },
+  "Historical - Latin - Technical - Pliny's Natural History": {
+   "differenza": 0.0038895193689250165,
+   "stessa_d1_4": 0.010669014718025168,
+   "stessa_d7_10": 0.008756316161211508,
+   "cavallo_d3_6": 0.013541629609296963,
+   "cavallo_d10_20": 0.00826014188762328,
+   "calo": 0.8207239742970661,
+   "piattezza": 0.6099813778655049,
+   "coppie_stessa_d7_10": 327
+  },
+  "Historical - Mayan (Kaqchikel) - Literary - Annals of the Cakchiquels": {
+   "differenza": -0.0002406844491141119,
+   "stessa_d1_4": 0.006969095682694778,
+   "stessa_d7_10": 0.011176068788143718,
+   "cavallo_d3_6": 0.007993961853957827,
+   "cavallo_d10_20": 0.009199791011127044,
+   "calo": 1.603661263525974,
+   "piattezza": 1.150842495773508,
+   "coppie_stessa_d7_10": 7051
+  },
+  "Historical - Mayan (Yucatec) - Technical - Chilam Balam": {
+   "differenza": 0.0002922058465002469,
+   "stessa_d1_4": 0.0020577676469338588,
+   "stessa_d7_10": 0.0,
+   "cavallo_d3_6": 0.004200871082166716,
+   "cavallo_d10_20": 0.0014495424396918262,
+   "calo": 0.0,
+   "piattezza": 0.34505758718598534,
+   "coppie_stessa_d7_10": 48
+  },
+  "Historical - Nahuatl - Literary - Nican Mopohua": {
+   "differenza": 0.005019569947936195,
+   "stessa_d1_4": 0.003230541322884774,
+   "stessa_d7_10": -0.0003371072277116955,
+   "cavallo_d3_6": 0.005562485666515448,
+   "cavallo_d10_20": 0.006347962782299348,
+   "calo": -0.10435007449793866,
+   "piattezza": 1.141209732999807,
+   "coppie_stessa_d7_10": 108
+  },
+  "Historical - Nahuatl - Technical - Florentine Codex": {
+   "differenza": -0.0014006692186983617,
+   "stessa_d1_4": 0.008152097581362117,
+   "stessa_d7_10": -0.0035677954665771653,
+   "cavallo_d3_6": 0.010240882375799598,
+   "cavallo_d10_20": 0.007468183258452703,
+   "calo": -0.4376536751392799,
+   "piattezza": 0.7292519320503956,
+   "coppie_stessa_d7_10": 53
+  },
+  "Historical - Portuguese - Technical - Coloquios dos simples": {
+   "differenza": 0.0023472763017862454,
+   "stessa_d1_4": 0.0004909603412306595,
+   "stessa_d7_10": 0.006308185031004233,
+   "cavallo_d3_6": 0.0023876107839227523,
+   "cavallo_d10_20": 0.005117743697246246,
+   "calo": 12.848665159372956,
+   "piattezza": 2.143458109549158,
+   "coppie_stessa_d7_10": 2755
+  },
+  "Historical - Russian - Literary - NT - Codex Marianus": {
+   "differenza": -0.0010182430185900569,
+   "stessa_d1_4": 0.001112550527860768,
+   "stessa_d7_10": 0.0023907916757192663,
+   "cavallo_d3_6": 0.004628917123459898,
+   "cavallo_d10_20": 0.004086291656152969,
+   "calo": 2.1489286246767803,
+   "piattezza": 0.8827748579561213,
+   "coppie_stessa_d7_10": 3515
+  },
+  "Historical - Sanskrit - Literary - Mahabharata": {
+   "differenza": -0.0032419398251817447,
+   "stessa_d1_4": 0.0002645987571954259,
+   "stessa_d7_10": -8.200082000820008e-05,
+   "cavallo_d3_6": 0.003459934116498699,
+   "cavallo_d10_20": 0.004929618481844292,
+   "calo": -0.30990629312607226,
+   "piattezza": 1.424772355732845,
+   "coppie_stessa_d7_10": 153
+  },
+  "Historical - Sanskrit - Technical - Charaka Samhita": {
+   "differenza": -0.00196167100200157,
+   "stessa_d1_4": 0.0012042332181197693,
+   "stessa_d7_10": 0.0,
+   "cavallo_d3_6": 0.0035756334257056733,
+   "cavallo_d10_20": 0.003344952983785865,
+   "calo": 0.0,
+   "piattezza": 0.9354854330811939,
+   "coppie_stessa_d7_10": 110
+  },
+  "Historical - Spanish - Literary - NT - Sagradas Escrituras": {
+   "differenza": -0.0006052113136638237,
+   "stessa_d1_4": 0.0037684371076230974,
+   "stessa_d7_10": 0.016488713756467096,
+   "cavallo_d3_6": 0.008508240162902496,
+   "cavallo_d10_20": 0.008634079564377615,
+   "calo": 4.375478025920189,
+   "piattezza": 1.0147902972960028,
+   "coppie_stessa_d7_10": 1860
+  },
+  "Historical - Spanish - Technical - De Materia Medica": {
+   "differenza": -0.0011453791671108427,
+   "stessa_d1_4": -7.19613483839323e-05,
+   "stessa_d7_10": 0.000674557163064093,
+   "cavallo_d3_6": 0.003636048243936388,
+   "cavallo_d10_20": 0.004409667081757138,
+   "calo": -9.373881649148055,
+   "piattezza": 1.2127636340114207,
+   "coppie_stessa_d7_10": 1087
+  },
+  "Modern - Arabic - Literary - NT": {
+   "differenza": 0.00010641399977069643,
+   "stessa_d1_4": 0.003396399420337069,
+   "stessa_d7_10": 0.004503794947865614,
+   "cavallo_d3_6": 0.005690863543883914,
+   "cavallo_d10_20": 0.005904444090946221,
+   "calo": 1.3260498517629131,
+   "piattezza": 1.0375304284517324,
+   "coppie_stessa_d7_10": 4313
+  },
+  "Modern - Arabic - Technical - Voynich Wiki": {
+   "differenza": 0.0018612836057930386,
+   "stessa_d1_4": 0.001144408866464459,
+   "stessa_d7_10": 0.0008586552742671735,
+   "cavallo_d3_6": 0.00017338038524333536,
+   "cavallo_d10_20": 0.0024671237309766233,
+   "calo": 0.7503046327488762,
+   "piattezza": 14.229543483330437,
+   "coppie_stessa_d7_10": 574
+  },
+  "Modern - Chinese (Pinyin) - Literary - NT - Matthew": {
+   "differenza": -0.0004709830455142507,
+   "stessa_d1_4": 0.0015884778198870105,
+   "stessa_d7_10": 0.010684887185735585,
+   "cavallo_d3_6": 0.007230978297776643,
+   "cavallo_d10_20": 0.009653308116985723,
+   "calo": 6.726494416205074,
+   "piattezza": 1.3349933742649858,
+   "coppie_stessa_d7_10": 8730
+  },
+  "Modern - Chinese (Pinyin) - Technical - Voynich Wiki": {
+   "differenza": 0.0006592119172576358,
+   "stessa_d1_4": -0.00023989685656565843,
+   "stessa_d7_10": 0.003479633315687047,
+   "cavallo_d3_6": -0.00024888610939327946,
+   "cavallo_d10_20": 0.0028398517843780087,
+   "calo": -14.504705753552427,
+   "piattezza": -11.410246201770116,
+   "coppie_stessa_d7_10": 1261
+  },
+  "Modern - English - Literary - NT": {
+   "differenza": 0.0013335404796434198,
+   "stessa_d1_4": 0.005490298832782166,
+   "stessa_d7_10": 0.015718757029849942,
+   "cavallo_d3_6": 0.01528416495636313,
+   "cavallo_d10_20": 0.014418048737555249,
+   "calo": 2.863005732218875,
+   "piattezza": 0.9433324475834515,
+   "coppie_stessa_d7_10": 3385
+  },
+  "Modern - English - Technical - Voynich Wiki": {
+   "differenza": 0.0004633358247722874,
+   "stessa_d1_4": 0.002549506031300627,
+   "stessa_d7_10": 0.012560549211334664,
+   "cavallo_d3_6": 0.00805118158686849,
+   "cavallo_d10_20": 0.00831835745004966,
+   "calo": 4.926659932209267,
+   "piattezza": 1.0331846773418865,
+   "coppie_stessa_d7_10": 872
+  },
+  "Modern - French - Literary - NT": {
+   "differenza": -0.0014029358063226242,
+   "stessa_d1_4": 0.003542623289083969,
+   "stessa_d7_10": 0.012424351416914009,
+   "cavallo_d3_6": 0.009985378263303441,
+   "cavallo_d10_20": 0.009185777895090874,
+   "calo": 3.5071048776757254,
+   "piattezza": 0.919922876517245,
+   "coppie_stessa_d7_10": 1949
+  },
+  "Modern - French - Technical - Voynich Wiki": {
+   "differenza": -0.0004970502027249958,
+   "stessa_d1_4": 0.00210379611917284,
+   "stessa_d7_10": 0.00500582085769389,
+   "cavallo_d3_6": 0.0045472676204292,
+   "cavallo_d10_20": 0.0034379129640316566,
+   "calo": 2.3794229925959054,
+   "piattezza": 0.7560392857870029,
+   "coppie_stessa_d7_10": 471
+  },
+  "Modern - German - Literary - NT": {
+   "differenza": -0.0007002699150241397,
+   "stessa_d1_4": 0.005782740577986861,
+   "stessa_d7_10": 0.020149191296370852,
+   "cavallo_d3_6": 0.01006474607498685,
+   "cavallo_d10_20": 0.012395572127240712,
+   "calo": 3.48436714817758,
+   "piattezza": 1.2315831949348914,
+   "coppie_stessa_d7_10": 1791
+  },
+  "Modern - German - Technical - Voynich Wiki": {
+   "differenza": 0.00015115071118271001,
+   "stessa_d1_4": 0.0025080039960150686,
+   "stessa_d7_10": 0.021969513193177182,
+   "cavallo_d3_6": 0.00453907302653549,
+   "cavallo_d10_20": 0.005719610293440172,
+   "calo": 8.75976004347849,
+   "piattezza": 1.260083338603112,
+   "coppie_stessa_d7_10": 173
+  },
+  "Modern - Hebrew - Literary - NT": {
+   "differenza": 0.001114619128306669,
+   "stessa_d1_4": 0.003383903827766317,
+   "stessa_d7_10": 0.005143391293158918,
+   "cavallo_d3_6": 0.0048340307735228035,
+   "cavallo_d10_20": 0.005770490782911751,
+   "calo": 1.5199578814726604,
+   "piattezza": 1.1937223930220249,
+   "coppie_stessa_d7_10": 5402
+  },
+  "Modern - Hebrew - Technical - Voynich Wiki": {
+   "differenza": 0.0009952257166502818,
+   "stessa_d1_4": 0.0011653071932479176,
+   "stessa_d7_10": 0.005197533558878097,
+   "cavallo_d3_6": 0.0026507785451155355,
+   "cavallo_d10_20": 0.002527521147423883,
+   "calo": 4.460226100889028,
+   "piattezza": 0.9535014352976513,
+   "coppie_stessa_d7_10": 539
+  },
+  "Modern - Italian - Literary - NT": {
+   "differenza": -0.0008701539959709926,
+   "stessa_d1_4": 0.0032685624715081112,
+   "stessa_d7_10": 0.010544162233487567,
+   "cavallo_d3_6": 0.006997521315296132,
+   "cavallo_d10_20": 0.007714323862168225,
+   "calo": 3.2259326004628885,
+   "piattezza": 1.102436636427989,
+   "coppie_stessa_d7_10": 1653
+  },
+  "Modern - Italian - Technical - Voynich Wiki": {
+   "differenza": -0.0021761663703545476,
+   "stessa_d1_4": -2.3843162822603052e-05,
+   "stessa_d7_10": -0.001236090164596434,
+   "cavallo_d3_6": 0.00345565591606026,
+   "cavallo_d10_20": 0.001705811275620037,
+   "calo": 51.84254177154024,
+   "piattezza": 0.4936287978476764,
+   "coppie_stessa_d7_10": 138
+  },
+  "Modern - Maori - Literary - NT": {
+   "differenza": 0.00020125954507699273,
+   "stessa_d1_4": 0.003812748552019918,
+   "stessa_d7_10": 0.006957195150211966,
+   "cavallo_d3_6": 0.009720158704482482,
+   "cavallo_d10_20": 0.011449811219301857,
+   "calo": 1.824719111499284,
+   "piattezza": 1.1779448841737266,
+   "coppie_stessa_d7_10": 3978
+  },
+  "Modern - Maori - Technical - Polandball Wiki": {
+   "differenza": 0.0002031054958927421,
+   "stessa_d1_4": 6.0089447751346274e-05,
+   "stessa_d7_10": 0.010496421238462571,
+   "cavallo_d3_6": 0.001389992744936344,
+   "cavallo_d10_20": 0.004842047392807622,
+   "calo": 174.67994184099328,
+   "piattezza": 3.483505515008546,
+   "coppie_stessa_d7_10": 348
+  },
+  "Modern - Portuguese - Technical - Voynich Wiki": {
+   "differenza": -0.0016834277720476959,
+   "stessa_d1_4": 0.00043261453523390326,
+   "stessa_d7_10": 0.0035812611730824217,
+   "cavallo_d3_6": 0.0030543677458766036,
+   "cavallo_d10_20": 0.0032009495946020974,
+   "calo": 8.278180415612084,
+   "piattezza": 1.0479908972727268,
+   "coppie_stessa_d7_10": 161
+  },
+  "Modern - Russian - Technical - Voynich Wiki": {
+   "differenza": -0.00030634967401238717,
+   "stessa_d1_4": 0.0004404431016627084,
+   "stessa_d7_10": 0.007379225963598638,
+   "cavallo_d3_6": 0.0018954479235175797,
+   "cavallo_d10_20": 0.0025580647389388724,
+   "calo": 16.754095899655283,
+   "piattezza": 1.3495832342318357,
+   "coppie_stessa_d7_10": 404
+  },
+  "Modern - Spanish - Technical - Voynich Wiki": {
+   "differenza": -0.0019720059401153317,
+   "stessa_d1_4": 0.0008573835637279434,
+   "stessa_d7_10": 0.001763002152039272,
+   "cavallo_d3_6": 0.003601182221842223,
+   "cavallo_d10_20": 0.004091166435156877,
+   "calo": 2.0562583966196613,
+   "piattezza": 1.1360620438318163,
+   "coppie_stessa_d7_10": 492
+  },
+  "Modern - Swahili - Literary - NT": {
+   "differenza": -0.000737058317356501,
+   "stessa_d1_4": 0.004527232673566895,
+   "stessa_d7_10": 0.007014101205128878,
+   "cavallo_d3_6": 0.008770389078956034,
+   "cavallo_d10_20": 0.00809127524707495,
+   "calo": 1.549313170070104,
+   "piattezza": 0.9225674225205615,
+   "coppie_stessa_d7_10": 422
+  },
+  "Modern - Swahili - Technical - Lung Cancer Wiki": {
+   "differenza": -0.005062950155739168,
+   "stessa_d1_4": 0.002590015844471883,
+   "stessa_d7_10": 0.002530543982354536,
+   "cavallo_d3_6": 0.01116586421230419,
+   "cavallo_d10_20": 0.008275738574077363,
+   "calo": 0.9770380315455277,
+   "piattezza": 0.741164178313931,
+   "coppie_stessa_d7_10": 219
+  },
+  "Modern - Tagalog - Literary - NT - Ang Dating Biblia": {
+   "differenza": -0.00032338840515627916,
+   "stessa_d1_4": 0.0032168950817388587,
+   "stessa_d7_10": 0.029586519395853963,
+   "cavallo_d3_6": 0.01308737139788518,
+   "cavallo_d10_20": 0.014207075150483316,
+   "calo": 9.197228583489046,
+   "piattezza": 1.0855560462492164,
+   "coppie_stessa_d7_10": 1102
+  },
+  "Modern - Tagalog - Technical - Tuberculosis Wiki": {
+   "differenza": -0.0009030464843074407,
+   "stessa_d1_4": 0.003046863355070635,
+   "stessa_d7_10": 0.018180241147728437,
+   "cavallo_d3_6": 0.00829255102761467,
+   "cavallo_d10_20": 0.01288526864555897,
+   "calo": 5.966871181627693,
+   "piattezza": 1.553836521795318,
+   "coppie_stessa_d7_10": 522
+  },
+  "Modern - Turkish - Literary - NT": {
+   "differenza": -0.0006261167858097275,
+   "stessa_d1_4": 0.002779308506070511,
+   "stessa_d7_10": 0.006618014388872936,
+   "cavallo_d3_6": 0.0059545802108121075,
+   "cavallo_d10_20": 0.005436638779005528,
+   "calo": 2.3811730055940172,
+   "piattezza": 0.9130179771756,
+   "coppie_stessa_d7_10": 699
+  },
+  "Modern - Turkish - Technical - Middle Ages Wiki": {
+   "differenza": -0.0026910932143793887,
+   "stessa_d1_4": 0.0013846153846153845,
+   "stessa_d7_10": 0.012218793066635609,
+   "cavallo_d3_6": 0.00458295142071494,
+   "cavallo_d10_20": 0.0019665780019579252,
+   "calo": 8.824683881459052,
+   "piattezza": 0.4291073200272193,
+   "coppie_stessa_d7_10": 78
+  },
+  "Modern - Wolof - Technical - Senegal Wiki": {
+   "differenza": -0.002955452971583398,
+   "stessa_d1_4": 0.00109883583019436,
+   "stessa_d7_10": 0.001793130511559969,
+   "cavallo_d3_6": 0.005616908508154446,
+   "cavallo_d10_20": 0.004240541313926717,
+   "calo": 1.6318456882160493,
+   "piattezza": 0.7549600118589143,
+   "coppie_stessa_d7_10": 796
+  },
+  "Modern - Yoruba - Technical - Jupiter Wiki": {
+   "differenza": 0.0021225803586976547,
+   "stessa_d1_4": 0.0013515806249213217,
+   "stessa_d7_10": 0.005091476649696773,
+   "cavallo_d3_6": 0.006700654524923805,
+   "cavallo_d10_20": 0.008261042966862545,
+   "calo": 3.76705359326467,
+   "piattezza": 1.2328710480647385,
+   "coppie_stessa_d7_10": 628
+  }
+ }
+}

@@ -11396,3 +11396,24 @@ Preregistrato (`preregistrazioni/e3a88.md`). Stesso metodo dell'e3a87 sulla IT.
 - Stessa riga: d 1–4 +0,0066, d 7–10 +0,0014: **cala**. A cavallo dell'a capo: d 3–6 +0,0058, d 10–20 +0,0050: **piatta**.
 - **Esito preregistrato: si ritrova.** Nella riga una ripresa di memoria che si spegne in poche parole; dalla riga sopra
   una ripresa uniforme, come guardandola.
+
+## 4/10/2026 (notte) — e3a89: nelle lingue la ripetizione nella riga cresce con la distanza, nel Voynich cala; la "riga sopra che conta di più" non è distintiva
+
+Preregistrato (`preregistrazioni/e3a89.md`; soglia di coppie abbassata da 2.000 a 500 dopo la prova sui soli testi
+sensati, dichiarato). Misure dell'e3a87 su 47 testi sensati (con almeno 500 coppie "stessa riga" a d 7–10).
+
+| misura | Voynich (e3a87) | lingue: 10° perc. | mediana | 90° perc. | lingue sotto il Voynich |
+|---|---|---|---|---|---|
+| differenza stessa riga − a cavallo (d 3–8) | −0,0012 | −0,0020 | −0,0005 | +0,0028 | 17% |
+| calo nella riga (d 7–10 / d 1–4) | **0,12** | 1,10 | **2,86** | 5,34 | 9% |
+| piattezza dalla riga sopra (d 10–20 / d 3–6) | 0,79 | 0,90 | 1,06 | 1,44 | 6% |
+
+- **Esito preregistrato: in parte.** Il calo nella riga sta sotto il 10° percentile delle lingue; la differenza
+  stessa riga − a cavallo no (17° percentile).
+- **Correzione della lettura dell'e3a87:** "la riga sopra conta di più a parità di distanza" succede anche nelle lingue
+  (mediana −0,0005, molte negative): non è un segno del Voynich. Anche la "piattezza" dalla riga sopra è come nelle
+  lingue o appena meno (0,79 contro 1,06): in una lingua l'argomento fa tornare le parole a qualunque distanza.
+- **Quello che è distintivo è il calo nella riga:** nelle lingue una parola si ripete poco subito dopo e di più più
+  avanti (calo 1,1–5,3: non si dice "il il", e le parole tornano col discorso); nel Voynich succede il contrario, la
+  ripetizione è forte a breve distanza e si spegne in 6–7 parole (0,12). È la "ripresa di memoria" dentro la riga
+  (e3a86), che le lingue non hanno.
