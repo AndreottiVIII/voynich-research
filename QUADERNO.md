@@ -12127,3 +12127,22 @@ simile nell'ultima riga della pagina prima, meno la media con le altre righe di 
   con l'ultima riga di un'altra pagina (e3b28).
 - Il confronto fra i due tipi resta equo (tutti e due hanno lo stesso difetto): **affiancate − stesso foglio +0,001**
   (IC −0,036 – +0,040), nessun segno di copia "a vista" dalla pagina accanto.
+
+## 4/10/2026 (notte) — e3b28: la ripresa dalla riga sopra non passa né la pagina né il paragrafo
+
+Preregistrato (`preregistrazioni/e3b28.md`). Come l'e3b27 ma confrontando con righe della pagina (o del paragrafo)
+precedente di lunghezza simile all'ultima (±1 parola).
+
+| confronto | coppie | eccesso | IC 95% |
+|---|---|---|---|
+| tutte le coppie di pagine | 113 | +0,001 | −0,023 – +0,025 |
+| stesso foglio (r → v) | 70 | +0,011 | −0,017 – +0,041 |
+| affiancate (v → r) | 43 | −0,016 | −0,063 – +0,026 |
+| fra paragrafi della stessa pagina | 170 | +0,007 | −0,017 – +0,031 |
+
+- **Esito preregistrato: la pagina interrompe la ripresa.** Con il confronto equo (stessa lunghezza) il difetto
+  dell'e3b27 sparisce e l'eccesso è zero: la prima riga di una pagina non riprende l'ultima della pagina prima, e la prima
+  riga di un paragrafo non riprende l'ultima del paragrafo prima. Dentro il paragrafo la ripresa dalla riga sopra vale
+  invece circa +0,04 per parola (e3a79).
+- Conferma con un altro metodo l'e343 (le catene di ripresa si fermano al paragrafo). Nessun segno di copia dalla pagina
+  accanto: la ripresa è un fatto del paragrafo che si sta scrivendo.
