@@ -163,6 +163,7 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     significativo, IT per un soffio no: esito incerto, direzione uguale in tutte e quattro le stime. La regressione lineare
     può però essere ingannata dalla curvatura del calo: sostituita nell'e3c10 da confronti dentro strati esatti.
     Lingue con il metodo corretto (e3c08): nessuna su 21 si consuma con le lettere (mediana +0,002): il tratto distingue.
+    Consumo con le lettere per mano (e3c11): negativo in tutte e tre le mani, nessuna differenza trovata (intervalli larghi).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
