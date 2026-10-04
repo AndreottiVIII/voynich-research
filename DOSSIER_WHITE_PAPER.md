@@ -1555,8 +1555,9 @@ esecuzione ogni volta.
 | deriva lungo la riga | −0,020 – −0,034 ogni 10 segni | nessuna scelta oltre 0,0075 (abbreviazione +0,005) | — | **proprio del Voynich** (da 3 a 15 volte più forte) |
 | forme di bordo riga | -m a fine riga +0,151; s-/y- a inizio +0,09 | abbreviare a fine riga +0,02; v- a inizio +0,025 | — | stessa natura, **4 – 7 volte più forte** nel Voynich |
 | ripetizione della parola vicina | 1,0% identiche, 3,9% a una modifica | 0,01 – 0,05%; 0,2 – 0,5% | 0,00%; 0,04% | **proprio del Voynich** (20 – 100 volte di più) |
+| stato lento che attraversa le righe (e3c75) | +0,050 fra righe consecutive | 6 scelte su 17 (4 scribi) con accordo fra righe, 5 grandi come il Voynich (e3c76) | — | **normale per chi scrive a mano** (cautela: cambi di mano non segnati) |
 
-**Formula per il white paper:** di sei proprietà forti del Voynich legate al modo di scrivere, cinque non hanno paragone
+**Formula per il white paper** (dopo l'e3c76 va aggiunto: lo stato lento che attraversa le righe è invece normale negli scribi)**:** di sei proprietà forti del Voynich legate al modo di scrivere, cinque non hanno paragone
 in sei scribi veri di tre secoli (né nel copista di un cifrario omofonico) e una (la finestra) si trova, rara, in uno
 scriba. Il "modo di scrivere" del Voynich non è quello di uno scriba che copia un testo in una lingua con varianti di
 forma: le sue regole fra parole vicine e ai bordi della riga sono molto più forti. Questo non dice che cosa sia il testo.

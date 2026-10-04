@@ -15659,3 +15659,28 @@ per coppie della stessa scelta secondo la distanza in righe, con l'atteso A (e3c
 - **Lettura (ipotesi, non misurata):** uno stato lento di questo tipo è quello che ci si aspetta da un'abitudine che
   cambia nel tempo di scrittura (sessioni, penna, attenzione), più che da una chiave; ma non lo abbiamo distinto da un
   contenuto che cambia lentamente.
+
+## 4/10/2026 (mattina) — e3c76: lo stato lento che attraversa le righe è normale negli scribi veri
+
+Preregistrato (`preregistrazioni/e3c76.md`). Misura dell'e3c74 sulle 17 scelte di forma di lettera dei sei scribi
+Menota; Voynich ZL nella stessa esecuzione (righe consecutive +0,050, soglia +0,025).
+
+| scelta con stato lento (righe consecutive) | K corretto (IC 95%) |
+|---|---|
+| AM 60 4to, u/v | +0,044 (+0,012 – +0,077) |
+| AM 60 4to, í/i | +0,033 (+0,014 – +0,053) |
+| AM 242 fol, í/i | +0,022 (+0,007 – +0,039) |
+| Holm A 10, ꝛ/r | +0,039 (+0,020 – +0,059) |
+| Holm A 10, w/v | +0,050 (+0,016 – +0,086) |
+| AM 302 fol, ſ/s | +0,045 (+0,019 – +0,072) |
+| le altre 11 | circa 0 |
+
+- **Esito preregistrato: gli scribi hanno uno stato lento come il Voynich** (5 scelte sopra la soglia, in 3 scribi; 6 con
+  un accordo dimostrato, in 4 scribi).
+- **Lettura:** la componente lenta (abitudini che cambiano piano di riga in riga) è un comportamento normale di chi
+  scrive a mano. Cautela: questi file non segnano i cambi di mano dentro la pagina, e un cambio di scriba produce proprio
+  questo effetto (in AM 60 4to la u/v ha anche un accordo enorme lontano nella stessa riga, +0,31, segno di convenzioni
+  diverse in parti diverse). In ogni caso la componente lenta **non** è un tratto proprio del Voynich.
+- **Quadro della batteria aggiornato:** proprio del Voynich: raccordo, margine sinistro, deriva lungo la riga, forze delle
+  forme di bordo, ripetizioni; raro negli scribi ma presente: lo stato breve (1 scelta su 18); normale negli scribi: lo
+  stato lento che attraversa le righe.
