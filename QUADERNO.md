@@ -12107,3 +12107,23 @@ Preregistrato (`preregistrazioni/e3b26.md`). Coppie a distanza 2, con la parola 
 coppie) o di 6 o più ("lunga", 6.530): eccesso di accordo +0,058 contro +0,023; differenza **+0,035**, IC 95% +0,015 –
 +0,056. **Esito preregistrato: si consuma con le lettere anche così.** La cautela dell'e3b20 (formule con parole
 cortissime come *ol*, *dy*) non spiega l'effetto.
+
+## 4/10/2026 (notte) — e3b27: confronto fra pagine con un difetto (l'ultima riga è più corta); nessuna differenza fra pagine affiancate e stesso foglio
+
+Preregistrato (`preregistrazioni/e3b27.md`). Eccesso = quota di parole della prima riga di una pagina con una parola
+simile nell'ultima riga della pagina prima, meno la media con le altre righe di quella pagina.
+
+| confronto | coppie | eccesso | IC 95% |
+|---|---|---|---|
+| tutte le coppie di pagine | 152 | −0,043 | −0,061 – −0,025 |
+| stesso foglio (r → v) | 90 | −0,043 | −0,066 – −0,020 |
+| affiancate (v → r) | 62 | −0,042 | −0,072 – −0,011 |
+| fra paragrafi della stessa pagina | 462 | −0,059 | −0,072 – −0,046 |
+
+- **Esito preregistrato alla lettera: la pagina interrompe la ripresa.**
+- **Difetto del disegno, dichiarato:** l'eccesso è negativo dappertutto, anche fra paragrafi della stessa pagina. Il
+  motivo è che l'ultima riga di una pagina o di un paragrafo è di solito più corta (e3a09, e313): ha meno parole, quindi
+  meno occasioni di contenere una parola simile. Il confronto con "le altre righe" non è equo. Va rifatto confrontando
+  con l'ultima riga di un'altra pagina (e3b28).
+- Il confronto fra i due tipi resta equo (tutti e due hanno lo stesso difetto): **affiancate − stesso foglio +0,001**
+  (IC −0,036 – +0,040), nessun segno di copia "a vista" dalla pagina accanto.

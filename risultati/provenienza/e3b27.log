@@ -1,0 +1,42 @@
+{
+ "risultati": {
+  "tutte le coppie di pagine": {
+   "coppie": 152,
+   "eccesso": -0.042534609094006005,
+   "IC95": [
+    -0.060717581434384445,
+    -0.024812106695083613
+   ]
+  },
+  "stesso foglio (r → v)": {
+   "coppie": 90,
+   "eccesso": -0.04295601742949963,
+   "IC95": [
+    -0.06584859571938888,
+    -0.019983497475619685
+   ]
+  },
+  "affiancate (v → r)": {
+   "coppie": 62,
+   "eccesso": -0.04192288731667655,
+   "IC95": [
+    -0.071852965015213,
+    -0.011412790991508447
+   ]
+  },
+  "fra paragrafi della stessa pagina": {
+   "coppie": 462,
+   "eccesso": -0.05877403719358187,
+   "IC95": [
+    -0.0719044151796597,
+    -0.04625950649894345
+   ]
+  }
+ },
+ "differenza_affiancate_meno_stesso_foglio": 0.0010331301128230774,
+ "IC95_differenza": [
+  -0.036092769259068624,
+  0.04007125260268482
+ ],
+ "esito": "la pagina interrompe la ripresa"
+}
