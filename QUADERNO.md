@@ -12343,3 +12343,23 @@ Preregistrato (`preregistrazioni/e3b39.md`). Stesso metodo dell'e3b38 sulla IT.
   giuntura (e3a06) passano da una riga all'altra. In tutte le altre pagine si azzerano a ogni a capo. Quelle 6 pagine
   sembrano scritte in modo diverso, come un testo continuo (per esempio copiato da un modello che andava a capo in punti
   diversi). È un risultato su poche pagine, ma regge con due trascrizioni.
+
+## 4/10/2026 (notte) — e3b40: nelle pagine "solo testo" le forme di bordo della riga ci sono come altrove
+
+Preregistrato (`preregistrazioni/e3b40.md`). ZL; prima del commit della preregistrazione ho tolto le prime righe dei
+paragrafi dalla misura d'inizio riga (cominciano con le gallows e nelle pagine T i paragrafi sono di lunghezza diversa:
+sarebbe stato un confronto non equo); codice provato solo su righe finte.
+
+| pagine | righe | -m a fine riga (IC 95%) | y/s/d a inizio riga (IC 95%) | margine: rapporto (z, coppie) |
+|---|---|---|---|---|
+| solo testo (6) | 224 | +0,173 (+0,125 – +0,224) | +0,358 (+0,283 – +0,433) | 0,48 (−2,3; 152) |
+| altre | 3.879 | +0,143 (+0,132 – +0,154) | +0,331 (+0,312 – +0,349) | 0,50 (−7,6; 2.116) |
+
+- **Esito preregistrato: le forme di bordo ci sono anche lì**, della stessa forza: -*m* a fine riga, *y*-/*s*-/*d*- a
+  inizio riga, evitamento di cominciare come la riga sopra (rapporto 0,48 contro 0,50).
+- **Lettura:** nelle pagine "solo testo" le abitudini di bordo della riga ci sono tutte; manca solo l'azzeramento della
+  memoria corta (e3b38, e3b39) e della giuntura (e3a06). Quindi le forme di bordo e l'azzeramento sono due cose
+  separate: chi scriveva quelle pagine andava a capo "come al solito" quanto a forme e margine, ma senza interrompere il
+  filo delle scelte. Questo **corregge in parte la lettura dell'e3b38/e3b39** ("la riga non è un'unità della
+  scrittura"): la riga resta un'unità per i bordi, non per la memoria. Un'ipotesi compatibile: nelle altre pagine l'a
+  capo coincide con una pausa (per esempio guardare il disegno o il modello), nelle pagine "solo testo" no.
