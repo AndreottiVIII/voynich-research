@@ -14820,3 +14820,18 @@ Preregistrato (`preregistrazioni/e3c41.md`). Misura pulita, classi *k*/*t*, *sh*
   preferenza della pagina: forse una piccola preferenza del paragrafo.
 - **Lettura:** l'accordo delle scelte nasce nel filo della scrittura (parole scritte una dopo l'altra), non dal guardare
   i segni vicini sulla pagina. Va con l'e3b85 (dalla riga sopra si copia la forma, non le scelte).
+
+## 4/10/2026 (mattina) — e3c42: nessuna preferenza di paragrafo nelle scelte
+
+Preregistrato (`preregistrazioni/e3c42.md`). Misura pulita, quattro classi, parole interne in righe a 2–4 righe di distanza
+della stessa pagina.
+
+| | stesso paragrafo | paragrafi diversi | differenza (IC 95%) |
+|---|---|---|---|
+| ZL | +0,011 (118.003 coppie) | +0,007 (111.706) | +0,004 (−0,017 – +0,027) |
+| IT | +0,015 (117.926) | +0,007 (113.357) | +0,007 (−0,013 – +0,028) |
+
+- **Esito preregistrato (ZL e IT): nessuna preferenza di paragrafo dimostrata.** A 2–4 righe di distanza l'accordo è
+  circa zero sia nello stesso paragrafo sia fra paragrafi diversi.
+- L'accordo delle scelte è quindi un fatto della riga e delle parole vicine (fino a circa 3 parole), non del paragrafo.
+  La "grafia di sessione" dell'e3b86 riguardava la stessa parola ripetuta, non parole diverse.

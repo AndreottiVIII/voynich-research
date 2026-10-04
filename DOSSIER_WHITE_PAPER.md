@@ -1440,6 +1440,8 @@ misura pulita, fra parole accanto la scelta di *k*/*t*, *sh*/*ch*, -*ey*/-*dy* s
 previsto, a 2 e 3 parole circa 7–8 punti; *qo*/*o* 6–11 punti a 2–3 parole. **Sequenza, non vicinanza sulla pagina
 (e3c41):** le parole una sopra l'altra si accordano appena più di quelle a due righe di distanza (+0,041 – +0,045 contro
 +0,024 – +0,035), molto meno che le parole accanto nella riga (+0,14): l'accordo nasce nel filo della scrittura.
+**Niente preferenza di paragrafo (e3c42):** a 2–4 righe di distanza l'accordo è circa zero sia nello stesso paragrafo sia
+fra paragrafi diversi (differenza +0,004 / +0,007, intervalli che contengono 0).
 
 **Lezioni di metodo da riportare** (utili anche a chi legge): (1) confrontare con la media della pagina ai bordi della
 riga inganna, perché fine e inizio riga hanno forme proprie; (2) togliere le coppie "simili" guardando la parola intera
