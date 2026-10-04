@@ -11117,3 +11117,29 @@ lontana della pagina (distanza 3 o più).
   subito sopra, l'accordo sale di circa 5 punti.
 - **Lettura:** la copia dalla riga sopra non è solo di segni da ritagliare di nuovo: almeno in parte lo scriba ripete le
   parole come le vede scritte, spazi compresi. Effetto piccolo e intervallo vicino a zero; da prendere come indizio.
+
+## 4/10/2026 (notte) — e3a75: i segni del Voynich sono molto legati al loro posto nella parola, ma questo non spiega l'e3a70
+
+Preregistrato (`preregistrazioni/e3a75.md`). Entropia di posizione: per ogni segno, quanto si distribuisce fra primo
+segno, interno, ultimo, parola di un solo segno (bit, massimo 2; media pesata).
+
+| testo | entropia di posizione |
+|---|---|
+| **Voynich** (mediana di 5 × 10.000 parole) | **0,745** |
+| testi sensati | da 0,620 a 1,405, mediana 1,139 |
+| più rigidi fra i sensati | pinyin 0,620 e 0,631, greco (*De odoribus*) 0,739, sanscrito 0,845 |
+| gibberish umano | 1,357 |
+| generatori | Naibbe 0,708, U2 0,845, U3 0,922, Timm e Schinner 0,960 |
+
+- **Esito (1): percentile 4% fra le lingue.** I segni del Voynich stanno molto al loro posto, come è noto (Currier,
+  Stolfi), ma non più di tutte le lingue: il pinyin (sillabe con iniziale, finale e numero del tono) e un testo greco lo
+  sono altrettanto o di più. Il gibberish scritto a mano è il meno rigido di tutti.
+- **Esito (2)**, lingue riscritte dalla catena (e3a69) in funzione di entropia di posizione e h2, previsione al Voynich:
+  - ρ frequenza-forma: previsto 0,187, Voynich riscritto 0,613, **z +4,8: il Voynich va ancora oltre**;
+  - riempimento: previsto 0,369, Voynich 0,441, z +1,2: la rigidità di posizione lo spiega;
+  - tagli sbagliati: previsto 0,215, Voynich 0,469, **z +4,4: il Voynich va ancora oltre**.
+- **Lettura:** il riempimento delle forme si spiega con la rigidità (segni al loro posto + entropia bassa). Ma il fatto
+  che le parole frequenti siano proprio le forme più probabili, e che i tagli sbagliati diano parole vere, no: né
+  l'entropia né la rigidità di posizione bastano. Lì il Voynich somiglia ai generatori che compongono le parole da pezzi
+  (U2, U3: 0,57–0,60), più che a una catena di segni imparata da una lingua. Ipotesi per un prossimo passo: le parole
+  del Voynich sono composte da pezzi scelti quasi indipendentemente, con frequenza = prodotto delle frequenze dei pezzi.
