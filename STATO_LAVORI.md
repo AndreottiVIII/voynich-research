@@ -100,6 +100,13 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     altrove (e3b40, e3b43); raccordo fra righe: dati insufficienti (e3b45). **Correzioni:** bootstrap per paragrafo e
     non per pagina nelle e3b41/e3b42 (dichiarato, rifatto nell'e3b44); "la copia porta gli spazi" (e3a74) non regge
     come meccanismo (e3b46) e non c'è deriva della spaziatura (e3b47). Figura `solo_testo.png`.
+  - **e3b48–e3b57 (scelte e scribi veri):** le etichette ripartono da capo (e3b48); le scelte non sono legate alla
+    parola oltre i segni vicini, salvo un debole legame per qo/o e -ey/-dy con Takahashi (e3b49, e3b50; ridimensiona
+    l'e201). **Controllo naturale trovato nel corpus:** þ/ð dei Hatton Gospels. Con il nullo che tiene ferme le parole
+    e l'esclusione corretta (e3b56): memoria oltre le parole Voynich ZL +0,054, IT +0,049; scriba anglosassone þ/ð a
+    inizio parola +0,100; generatori nessuna (U3 debole) (e3b57). **La memoria corta è un tratto umano normale, non
+    una firma del Voynich.** Nelle pagine di solo testo passa l'a capo la continuità delle parole, non dimostrata la
+    memoria delle scelte (e3b55). Difetto di metodo trovato e corretto (esclusione delle coppie simili, e3b55/e3b56).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
