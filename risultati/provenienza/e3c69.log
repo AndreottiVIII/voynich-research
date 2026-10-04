@@ -1,0 +1,4 @@
+controllo: liste a turno, P = 3 ['P=3, stessa parola', 'P=3, stesso primo segno', 'P=3, stesso ultimo segno', 'P=3, stessa lunghezza', 'P=6, stessa parola', 'P=6, stesso primo segno', 'P=6, stesso ultimo segno', 'P=6, stessa lunghezza']
+controllo: lista unica []
+Voynich ZL ['P=2, stesso primo segno']
+Voynich IT ['P=2, stesso primo segno']
