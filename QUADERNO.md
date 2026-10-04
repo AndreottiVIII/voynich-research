@@ -13315,3 +13315,19 @@ eseguire). Codice provato su testo finto (senza memoria +0,007; con memoria +0,2
   non regge: il Marianus **non dice nulla** sulla memoria corta delle scelte (poche coppie per le parole vere, e la
   congiunzione segue probabilmente una regola di posizione nella frase). Resta che con gli scribi veri disponibili la
   questione è **aperta**: lo scriba anglosassone ha una stima positiva ma incerta, il Marianus non è informativo.
+
+## 4/10/2026 (notte) — e3b77: il metodo finale è specifico (numero di i e -l/-r senza memoria)
+
+Preregistrato (`preregistrazioni/e3b77.md`). Metodo finale (nullo largo, intervalli per pagine) su due classi che
+secondo l'e3b19 non hanno memoria. Classificazione provata su parole d'esempio (aiin/ain/daiin/okaiir; qokal/chor).
+
+| classe | occorrenze | quota del valore 1 | coppie vicine | quota rimescolabile | M | M nullo | effetto (IC 95%) |
+|---|---|---|---|---|---|---|---|
+| numero di *i* (*ain*/*aiin*…) | 6.278 | 0,655 | 1.417 | 0,79 | +0,013 | +0,003 | +0,010 (−0,093 – +0,107) |
+| -*l*/-*r* | 10.164 | 0,513 | 3.707 | 0,80 | +0,000 | +0,002 | −0,002 (−0,052 – +0,053) |
+
+Le quattro scelte (e3b70): +0,086 (IC +0,060 – +0,113).
+
+- **Esito preregistrato: il metodo è specifico.** Le due classi di controllo danno circa zero, come nell'e3b19; la
+  memoria misurata riguarda le quattro scelte e non è un effetto generico del metodo. (Per il numero di *i*
+  l'intervallo è largo: si può dire che non è forte come nelle quattro scelte.)
