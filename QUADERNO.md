@@ -11079,3 +11079,23 @@ disperde il legame fra lettere vicine su troppe parole diverse. Il test non può
 abbandono. **Cosa resta, come nota:** un cifrario verboso alla Naibbe non lascia legami misurabili fra parole vicine,
 né fra parole intere né fra segni di bordo (e3a62). La debolezza dei legami fra parole del Voynich (a parte la giuntura)
 non è quindi un argomento contro un cifrario di quel tipo. È la stessa conclusione dell'e3a51 (distanza 2).
+
+## 4/10/2026 (notte) — e3a72: il calo dell'e3a65 non è del paragrafo; correzione della lettura dell'e3a65
+
+Preregistrato (`preregistrazioni/e3a72.md`). Nullo dentro (paragrafo, bordo) con i paragrafi veri, contro 20 partizioni
+in "paragrafi finti" della stessa grandezza (righe della pagina ruotate di un numero casuale di posti e tagliate con le
+stesse lunghezze).
+
+| direzione | paragrafi veri | paragrafi finti: min – max (media) |
+|---|---|---|
+| avanti | 0,0109 | 0,0085 – 0,0130 (0,0106) |
+| indietro | 0,0070 | 0,0041 – 0,0085 (0,0064) |
+
+- **Esito preregistrato, tutte e due le direzioni: calo in gran parte meccanico.** I paragrafi veri abbassano il
+  legame esattamente quanto quelli finti.
+- **Correzione dell'e3a65:** avevo scritto "due terzi del piccolo legame stanno nel paragrafo". Non è così: il calo
+  viene dal fare gruppi più piccoli (blocchi di righe vicine della stessa grandezza danno lo stesso calo), non dal
+  paragrafo come unità. Può essere un effetto meccanico (gruppi piccoli rimescolano meno) o lessico delle righe vicine;
+  questo test non li separa. Il paragrafo, come confine, non c'entra.
+- Quadro aggiornato del legame fra parole intere vicine (oltre la giuntura): piccolo (un quarto delle lingue con lo
+  stesso nullo), non dalla copia (e3a63), non dal paragrafo (e3a72); in parte forse lessico delle righe vicine.
