@@ -248,10 +248,10 @@ scritto nella seconda parte. Le dico subito.
    prima, otto volte meno del raccordo *qo*/*o* (e3b58).
 5. **Le scelte non sono legate alla parola**: una parola del Voynich non ha una "sua" grafia (*k*/*t* e *sh*/*ch* per
    niente, *qo*/*o* e -*ey*/-*dy* al più un poco); nei generatori Naibbe e U2 sì (e3b49, e3b50, e3b61).
-6. **Le 6 pagine di solo testo** (f1r, f66r, f76r, f85r1, f86v5, f86v6): lì l'accordo fra la fine di una riga e l'inizio
-   della seguente è molto più alto che altrove, anche per la stessa mano 2 (e3b38–e3b44), e le parole continuano da una
-   riga all'altra; ma ora che so che anche altrove la memoria passa l'a capo per metà, che lì passi "di più" non è
-   dimostrato (stima +0,12 contro +0,04, intervallo largo; e3b55, e3b63, e3b65).
+6. **Le 6 pagine di solo testo** (f1r, f66r, f76r, f85r1, f86v5, f86v6): lì la catena di segni non riparte a ogni riga
+   (la giuntura fra l'ultimo segno di una riga e il primo della seguente resta, e3a06) e le parole continuano da una
+   riga all'altra. Per la memoria delle scelte invece sono come le altre pagine (passa l'a capo per circa metà, e3b71):
+   l'accordo più alto che avevo visto lì veniva dal modo di confrontare.
 7. **Le etichette ripartono da capo** nelle scelte, anche se si copiano la forma (e3b48).
 
 ## Come ci sono arrivato (con i passi sbagliati)
