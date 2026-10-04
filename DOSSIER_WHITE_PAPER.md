@@ -562,6 +562,7 @@ Utili da mettere in evidenza nel white paper:
 | `figure/confini.png` | che cosa passa il salto del disegno e l'a capo (memoria, ripetizione, raccordo) | memoria corta (stato finale, 15.13) |
 | `figure/solo_testo.png` | pagine di solo testo: giuntura a capo sì, memoria come altrove | pagine di solo testo (15.13) |
 | `figure/profilo_distanza.png` | come cala l'accordo con la distanza: Voynich contro accordo grammaticale di italiano, spagnolo, latino, swahili | memoria o accordo (15.13) |
+| `figure/forma_alla_pari.png` | accordo delle scelte fra parole accanto contro forma del calo (R), misura alla pari: Voynich, 21 lingue in righe finte, 4 generatori (e3c28, e3c29) | memoria o accordo (15.13): la figura principale |
 | `figure/deriva_riga.png` | quota delle varianti marcate (qo, k, sh, -ey) lungo la riga, in A e B, con prima e ultima parola e parole accanto ai disegni (e3c23) | deriva lungo la riga (15.13) |
 | `figure/alternanze_automatiche.png` | memoria nelle alternanze dentro la parola scelte da una regola uguale per tutti (Voynich, 34 testi, 4 generatori) e forma per Voynich, Corano, Naibbe | memoria o accordo (15.13) |
 
