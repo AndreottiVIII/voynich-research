@@ -2,27 +2,59 @@
 
 ## Misure ripetibili a confronto con lingue, scribi medievali, cifrari e generatori
 
-**Davide Caniatti**
-con analisi eseguite con l'assistenza di Claude (Anthropic)
+**Davide Caniatti**¹ e **Claude**²
 
-*Bozza in italiano, 4 ottobre 2026. Da rivedere; la versione definitiva sarà in inglese.*
+¹ Ricercatore indipendente · ² Modello di intelligenza artificiale, Anthropic. Claude ha progettato ed eseguito le
+analisi e ha scritto il testo insieme a D. Caniatti, che ha diretto il progetto e risponde del contenuto. Molte riviste e
+archivi di preprint non accettano sistemi di IA come autori: per un invio a una di queste sedi l'elenco degli autori sarà
+adattato e il contributo di Claude dichiarato in nota.
+
+**Hanno contribuito:** Andrea Lanterna (impostazione dell'ambiente di calcolo), Giulia Gandellini (supporto).
+
+*Bozza in italiano, 4 ottobre 2026. Non sottoposta a revisione. La versione inglese, in LaTeX, è in `white_paper/en/`.*
 
 ---
 
-## In breve
+## Sommario
 
 Il manoscritto Voynich (Yale, Beinecke MS 408; pergamena datata al radiocarbonio fra il 1404 e il 1438) è scritto in
-un alfabeto che nessuno ha mai letto. In questo lavoro **non proponiamo una decifrazione**. Proponiamo qualcosa di più
-modesto e, crediamo, più utile: una serie di misure ripetibili, ciascuna decisa in anticipo e provata prima su testi in
-cui la risposta è nota, che descrivono **come** è scritto il testo del Voynich e lo confrontano con lingue naturali,
-lingue artificiali, testi senza senso scritti a mano da volontari, cifrari storici, generatori di testo pubblicati e,
-per la prima volta in modo sistematico, con il lavoro di **79 scribi medievali veri** e del copista di un cifrario
-settecentesco.
+un alfabeto che nessuno ha mai letto. **Non proponiamo una decifrazione.** Descriviamo invece **come** è scritto il
+testo, con più di seicento esperimenti preregistrati e ripetibili, ciascuno provato prima su testi finti in cui l'effetto
+c'è o non c'è, e replicato su tre trascrizioni indipendenti. Ogni proprietà è poi confrontata con la stessa misura su
+circa cento lingue naturali, otto lingue artificiali, testi senza senso scritti a mano da volontari, generatori e
+cifrari pubblicati che imitano il Voynich, il cifrario Copiale del Settecento e, per la prima volta in modo
+sistematico, **79 scribi medievali veri**: sei manoscritti nordici (1200–1550 circa) e 73 tedeschi (1350–1500),
+trascritti al livello delle forme delle lettere, con le righe e le pagine originali.
 
-Il quadro che ne esce è netto: il Voynich segue regole di scrittura fra parole vicine e ai bordi della riga molto più
-forti di quelle di qualsiasi scriba, lingua o generatore provato. Queste regole non ci dicono che cosa c'è scritto, ma
-restringono molto le spiegazioni possibili e danno a chiunque proponga una lettura una lista di proprietà da
-riprodurre.
+**Scoperte nuove.** (1) Il testo si comporta come una **catena di segni** in cui lo spazio è un confine debole: gli
+spazi si prevedono dai due segni accanto, tagliando la catena in altri punti permessi si ottengono per lo più parole
+attestate altrove, e le regole fra la fine di una parola e l'inizio della seguente somigliano a quelle dentro la parola
+più che in ognuna di 71 lingue. (2) Le parole vicine sono legate da **regole di raccordo** (*qo-* dopo -*y*/-*o*/-*d*,
+*o-* dopo -*n*/-*r*/-*s*/-*m*; -*l*/-*r* scelte in base alla parola dopo), applicate mentre si scrive guardando una
+parola avanti e non oltre. (3) **La riga è un'unità chiusa**: il legame si ferma all'a capo e al salto lasciato da un
+disegno, e inizio e fine riga hanno forme proprie. (4) Lo scriba **copia dalla riga subito sopra**, adattando le copie
+alle regole di raccordo. (5) Ogni riga **evita di cominciare come quella sopra**. (6) Le scelte fra varianti (*k*/*t*,
+*sh*/*ch*, -*ey*/-*dy*) seguono uno **stato di breve durata**, che resta per due o tre parole qualunque parola si scriva;
+non è copia, non è posizione, è separato per ogni scelta e uguale in tutte le mani: una regola del sistema. (7) Le
+varianti marcate **derivano** verso le forme più semplici lungo la riga. Altre due proprietà sono misurate in modo
+nuovo: la ripetizione immediata della parola precedente (1,0% delle coppie accanto; 3,9% con un segno cambiato) e una
+forte struttura di pagina, bifoglio e paragrafo.
+
+**Confronti.** Regole di raccordo, evitamento sul margine sinistro, forme di bordo riga e ripetizione immediata non
+hanno paragone nei 79 scribi (mancano o sono da quattro a cento volte più deboli). Lo stato breve e la deriva lungo la
+riga non ci sono nei sei scribi nordici (la misura sui 73 tedeschi è in corso), e il copista del Copiale fa l'opposto
+del Voynich: alterna gli omofoni fra parole accanto. Uno stato più lento, che passa da una riga all'altra, è invece
+normale negli scribi veri. Nessuna lettura per sostituzione in decine di lingue, nessuna delle letture pubblicate che
+abbiamo potuto verificare (Bax, Vatne, Cheshire, Schechter, Gatta), nessuno dei meccanismi storici simulati (scelta fra
+omofoni, lettere indice di Alberti, cifrario biletterale di Bacon, tavole di parole di Tritemio, autochiave che riparte
+a ogni riga), nessuna lingua artificiale e nessun generatore pubblicato riproduce queste proprietà tutte insieme.
+
+**Conclusione.** Il testo del Voynich è il prodotto di un sistema di scrittura con regole fra parole vicine e ai bordi
+della riga molto più forti di quelle di qualsiasi scriba, lingua o generatore provato. Queste regole non dicono che cosa
+c'è scritto, ma escludono molte spiegazioni e danno una lista di proprietà che ogni proposta futura dovrà riprodurre.
+
+**Parole chiave:** manoscritto Voynich; sistemi di scrittura; scribi medievali; crittografia storica; paleografia
+quantitativa; preregistrazione.
 
 ---
 
