@@ -562,6 +562,7 @@ Utili da mettere in evidenza nel white paper:
 | `figure/confini.png` | che cosa passa il salto del disegno e l'a capo (memoria, ripetizione, raccordo) | memoria corta (stato finale, 15.13) |
 | `figure/solo_testo.png` | pagine di solo testo: giuntura a capo sì, memoria come altrove | pagine di solo testo (15.13) |
 | `figure/profilo_distanza.png` | come cala l'accordo con la distanza: Voynich contro accordo grammaticale di italiano, spagnolo, latino, swahili | memoria o accordo (15.13) |
+| `figure/alternanze_automatiche.png` | memoria nelle alternanze dentro la parola scelte da una regola uguale per tutti (Voynich, 34 testi, 4 generatori) e forma per Voynich, Corano, Naibbe | memoria o accordo (15.13) |
 
 Per e25–e28 ci sono solo tabelle (`.md`): conviene farne grafici nuovi. Per esempio:
 
@@ -1308,7 +1309,9 @@ senza accordo fra parole accanto: la regola automatica è un po' meno pulita del
 Naibbe non hanno la forma del Voynich (e3c03):** il Voynich ha il massimo fra parole accanto (+0,17/+0,19) e cala
 dolcemente; il Corano ha zero accanto e un picco a 2 parole (il suffisso di persona che torna); Naibbe zero accanto e
 un livello basso e piatto. Con le classi automatiche il consumo con le lettere del Voynich è circa metà (+0,035/+0,040,
-al limite).
+al limite). Anche negli 8 testi piccoli (erbari e testi tecnici medievali compresi, e3c04) nessuna memoria nelle
+alternanze interne; da solo, *i*/*y* del NT fiammingo dà +0,055 (una classe, senza intervallo: da verificare). Figura
+`alternanze_automatiche.png`.
 
 **Formula per il white paper:** il Voynich ha, oltre alla catena di segni per riga e allo spazio non lessicale, una
 memoria corta delle scelte di grafia forte e uniforme (tutte le scelte, tutte le mani, due trascrizioni), che prosegue
