@@ -1470,6 +1470,12 @@ lingue crolla (di solito 0–20% di quello fra parole accanto, al più 46%), men
 Separatamente: (6) dentro la riga le varianti marcate (*qo*, *k*, *sh*, -*ey*) calano andando verso destra, più in fretta
 all'inizio; nessun generatore lo fa (e3c13 – e3c20).
 Questo non dice se il testo abbia un significato.
+**Aggiunta (e3c46): uno scriba vero ha la stessa finestra.** Lo scriba anglosassone degli Hatton Gospels, nella scelta
+libera fra þ e ð a inizio parola, con la stessa misura ha +0,584 fra parole accanto e +0,271 / +0,338 a 2 e 3 parole: lo
+stesso comportamento del Voynich, più forte. È il controllo che mancava: una scelta grafica libera di uno scriba medievale
+si ripete per alcune parole come le scelte del Voynich (a differenza dell'accordo grammaticale delle lingue, che crolla
+dopo la parola accanto). Un solo scriba e una sola scelta, su righe finte: da confermare con altri manoscritti (permesso
+di Davide per scaricarli). Il Marianus (и/ꙇ) non è interpretabile con questa misura (scelta quasi fissa per parola).
 
 **Lezioni di metodo da riportare** (utili anche a chi legge): (1) confrontare con la media della pagina ai bordi della
 riga inganna, perché fine e inizio riga hanno forme proprie; (2) togliere le coppie "simili" guardando la parola intera

@@ -14896,3 +14896,29 @@ regola dell'e3c01.
 - Il Marianus è un manoscritto vero trascritto in modo diplomatico: la scelta fra ъ e ь di uno scriba medievale dà un
   accordo forte fra parole accanto (+0,14), simile al Voynich a distanza 1, ma non a 2–3 parole. È il primo indizio, con
   questa misura, di come si comporta uno scriba vero.
+
+## 4/10/2026 (mattina) — e3c46: lo scriba anglosassone (þ/ð a inizio parola) ha la stessa "finestra" del Voynich
+
+Preregistrato (`preregistrazioni/e3c46.md`, descrittivo). Misura pulita (e3c34), testi tagliati in righe finte con le
+lunghezze del Voynich.
+
+| scriba e scelta | parole | K(1) (IC 95%) | K(2) | K(3) | tipo |
+|---|---|---|---|---|---|
+| **Hatton Gospels, þ/ð a inizio parola** | 7.725 | **+0,584** (+0,449 – +0,718) | **+0,271** | **+0,338** | come il Voynich (dura fino a 3 parole) |
+| Hatton Gospels, þ/ð dentro la parola | 3.983 | +0,036 (−0,180 – +0,248) | −0,005 | +0,066 | nessun accordo dimostrato |
+| Codex Marianus, и/ꙇ a inizio parola | 6.247 | −0,190 (−0,277 – −0,109) | −0,102 | −0,082 | (vedi sotto) |
+| Codex Marianus, и/ꙇ, parole di almeno 2 segni | 2.636 | −0,317 (−0,583 – −0,063) | +0,010 | −0,097 | (vedi sotto) |
+| *Voynich, k/t, sh/ch, -ey/-dy (e3c34–e3c35)* | | *+0,12 – +0,15* | *+0,06 – +0,10* | *+0,07 – +0,11* | |
+
+- **Lo scriba anglosassone ha la finestra**, e più forte del Voynich: la scelta fra þ e ð a inizio parola si ripete fra
+  parole vicine (+0,58 fra parole accanto) e resta forte a 2 e 3 parole (+0,27, +0,34), oltre la preferenza della singola
+  parola e del tratto di testo (circa 200 parole). Con la misura vecchia (e3b70) la stima era +0,10 con intervallo che
+  toccava 0. È il primo scriba medievale vero che, con la misura pulita, mostra il comportamento del Voynich: una scelta
+  grafica libera che si ripete per alcune parole. Va nella direzione "abitudine di chi scrive" e non "accordo
+  grammaticale".
+- **Marianus и/ꙇ, valori negativi grandi: non li interpreto.** Lì la scelta è quasi fissa per ogni parola (e3b75–e3b76:
+  conta soprattutto la congiunzione); quando l'atteso è vicino a 0 o a 1 la misura K diventa instabile (il denominatore
+  è piccolo e pochi disaccordi bastano a dare valori negativi grandi). Da segnare come limite del metodo.
+- **Cautele:** le righe sono finte (le righe del corpus sono versetti); un solo scriba e una sola scelta; þ/ð compare
+  soprattutto in parole brevi e frequenti (þa, þe, þæt…), quindi una parte potrebbe essere legata a quali parole stanno
+  vicine (l'atteso dalla stessa parola ne tiene conto, ma non del tutto se le preferenze cambiano con la posizione).
