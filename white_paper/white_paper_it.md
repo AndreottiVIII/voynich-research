@@ -14,8 +14,7 @@
 
 ## Sommario
 
-Il manoscritto Voynich (Yale, Beinecke MS 408; pergamena datata al radiocarbonio fra il 1404 e il 1438) è scritto in
-un alfabeto che nessuno ha mai letto. **Non proponiamo una decifrazione.** Descriviamo invece **come** è scritto il
+Il manoscritto Voynich (Yale, Beinecke MS 408) è scritto in un alfabeto che nessuno ha mai letto. **Non proponiamo una decifrazione.** Descriviamo invece **come** è scritto il
 testo, con più di seicento esperimenti preregistrati e ripetibili, ciascuno provato prima su testi finti in cui l'effetto
 c'è o non c'è, e replicato su tre trascrizioni indipendenti. Ogni proprietà è poi confrontata con la stessa misura su
 circa cento lingue naturali, otto lingue artificiali, testi senza senso scritti a mano da volontari, generatori e
@@ -103,7 +102,8 @@ Le prime sette sono, per quanto sappiamo, **nuove**; le altre tre rafforzano con
 
 Il Voynich è un codice di circa 240 pagine, con disegni di piante, diagrammi astronomici e zodiacali, figure femminili
 in vasche e tubature, contenitori da farmacia e una lunga sezione finale di solo testo, divisa in brevi paragrafi
-segnati da stelline (di solito chiamata "ricette"). La scrittura è ordinata e sicura: non sembra il lavoro di chi
+segnati da stelline (di solito chiamata "ricette"). La pergamena è datata al radiocarbonio fra il 1404 e il 1438. La
+scrittura è ordinata e sicura: non sembra il lavoro di chi
 inventa i segni mentre scrive. Negli anni Settanta Prescott Currier notò che le pagine si dividono in due varietà di
 scrittura, oggi chiamate **lingua A** e **lingua B**, e che le mani che hanno scritto il manoscritto sono più d'una.
 
