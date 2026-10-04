@@ -14476,3 +14476,34 @@ variante della prima parola sposta la seconda a 2–3 parole, meno quanto la spo
   così tiene conto di quali parole tendono a stare vicine e delle loro preferenze; questo conto semplice no. Se due
   parole che stanno spesso vicine hanno preferenze opposte, il conto semplice vede meno memoria di quella che c'è "oltre
   la parola". Verifica nell'e3c27 con un atteso dalla stessa parola coperta.
+
+## 4/10/2026 (mattina) — e3c27: senza le parole ai bordi la memoria è più piccola e sta in *qo*/*o* e -*ey*/-*dy* (correzione)
+
+Preregistrato (`preregistrazioni/e3c27.md`, descrittivo). Punti percentuali (Δ vicine 2–3 − Δ lontane 6–10), righe senza
+la prima e l'ultima parola, con l'atteso dalla stessa parola coperta. Codice provato su testi finti (dove il conto
+semplice sbaglia di −9 punti per l'ordine delle parole, le versioni corrette danno 0,2 senza memoria e 3,5 con memoria;
+errore nel primo generatore di prova trovato e corretto, vedi preregistrazione).
+
+| | quota generale | stessa parola | stessa parola e deriva | nullo largo |
+|---|---|---|---|---|
+| ZL, quattro classi | 5,1 (2,2 – 8,2) | **4,0** (1,2 – 7,0) | **3,9** (1,1 – 7,0) | **3,7** (0,8 – 6,7) |
+| IT, quattro classi | 4,3 (1,4 – 7,3) | **2,5** (−0,1 – 5,2) | **2,4** (−0,2 – 5,1) | **2,5** (−0,5 – 5,5) |
+| *qo*/*o* ZL / IT | 10,9 / 9,7 | 8,1 / 5,7 | 7,8 / 5,5 | 10,9 / 9,0 |
+| *k*/*t* | 2,8 / 2,4 | 3,3 / 1,8 | 3,1 / 1,6 | 3,1 / 2,3 |
+| *sh*/*ch* | 2,0 / −0,9 | 2,0 / −0,6 | 1,9 / −0,8 | 0,3 / −2,0 |
+| -*ey*/-*dy* | 10,1 / 11,3 | 6,8 / 6,2 | 6,8 / 6,2 | 5,9 / 6,0 |
+
+- **L'ipotesi dell'e3c26 non regge:** anche con l'atteso dalla stessa parola le classi restano diverse. Senza le parole ai
+  bordi, la memoria sta in *qo*/*o* e -*ey*/-*dy* (6–8 punti); *k*/*t* 2–3 punti; *sh*/*ch* circa zero.
+- **Correzione di sostanza:** nell'insieme, senza bordi e con l'atteso corretto, la memoria vale **circa 4 punti in ZL
+  (intervallo sopra 0) e 2,5 in IT (intervallo che tocca 0)**. La parte che nell'e3b62/e3b70 rendeva *k*/*t* e *sh*/*ch*
+  simili alle altre passava dunque dalle parole ai bordi della riga, che hanno forme proprie legate alla posizione (e3c23:
+  a inizio riga più *sh*, molto meno *k*). Una parola la cui preferenza cambia con la posizione falsa queste misure (vedi
+  la lezione nella preregistrazione); il nullo con la posizione dell'e3c14 non separava l'ultima parola, e quindi ne
+  correggeva solo una parte.
+- **Quadro aggiornato della memoria delle scelte:** c'è, ma più piccola (circa 3–4 punti percentuali) e concentrata in due
+  scelte (*qo*/*o*, -*ey*/-*dy*); in *k*/*t* è debole e in *sh*/*ch* non dimostrata. Le conclusioni che usavano i numeri
+  dell'e3b62 vanno rilette così; il confronto con i generatori (che sono a zero) resta, quello con le lingue va rifatto
+  alla pari (prossima voce).
+- **Da ricontrollare subito:** la forma piatta (R). Nel Voynich le coppie a 8–12 parole vengono solo dalle righe lunghe,
+  mentre nelle lingue (blocchi) vengono da tutto il testo: il confronto potrebbe non essere alla pari (e3c28).
