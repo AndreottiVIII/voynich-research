@@ -185,7 +185,8 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     parti: dove lo spazio è stretto, varianti semplici (lettura da verificare).
     **e3c23:** accanto al disegno sparisce soprattutto la q (qo −0,23; altre scelte non dimostrato). La deriva invece è uguale
     in tutte le classi. Figura `deriva_riga.png`. **e3c24:** la q cade solo nella parola dopo il disegno (−0,33), non prima:
-    non è spazio pianificato; scrittura o lettura (q attaccata al disegno), non si decide senza immagini.
+    non è spazio pianificato; scrittura o lettura (q attaccata al disegno), non si decide senza immagini. e3c25: ZL e IT non
+    discordano di più dopo il disegno (1/94 contro 0,9%), ma i dati sono pochi (incerto).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);

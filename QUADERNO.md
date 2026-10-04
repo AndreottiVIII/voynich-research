@@ -14437,3 +14437,18 @@ Preregistrato (`preregistrazioni/e3c24.md`). ZL, *qo*/*o*, regressione dentro st
   quando è attaccata al disegno (per esempio a un gambo). Senza le immagini delle pagine non si decide.
 - Per la memoria e la deriva questo conta poco (poche parole); per il generatore è un dettaglio da imitare solo se è
   scrittura e non lettura.
+
+## 4/10/2026 (mattina) — e3c25: dopo il disegno i trascrittori non discordano di più su *qo*/*o* (incerto, pochi dati)
+
+Preregistrato (`preregistrazioni/e3c25.md`). Righe ZL e IT allineate; parole interne di ZL nella classe *qo*/*o*; quota in
+cui IT legge diversamente.
+
+| parole | parole | discordi con IT | quota |
+|---|---|---|---|
+| altre parole interne | 5.064 | 47 | 0,9% |
+| prima parola dopo il disegno | 94 | 1 | 1,1% |
+
+- **Esito preregistrato: incerto** (rapporto 1,15, intervallo 0 – 4,1: l'estremo alto supera la soglia di 3).
+- La stima non mostra un eccesso di disaccordo dopo il disegno, ma con 94 parole non si può escludere un disaccordo fino
+  a 4 volte più frequente. E, come scritto prima, un errore di lettura uguale nei due trascrittori non si vedrebbe così.
+  La domanda "scrittura o lettura" per la *q* dopo il disegno resta aperta: servono le immagini.
