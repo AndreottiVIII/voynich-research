@@ -13697,3 +13697,20 @@ parola accanto 0,25).
   sintagma), ma cala dolcemente con la scrittura. Va meglio d'accordo con un'abitudine di chi scrive. Cautela: le lingue
   provate sono quattro (italiano, spagnolo, latino, swahili per l'e3b95); lingue con accordi a distanza più lunga
   (per esempio l'armonia vocalica o l'accordo con il verbo lontano) andrebbero provate.
+
+## 4/10/2026 (notte) — e3b97: la forma piatta regge togliendo anche le parole a due modifiche
+
+Preregistrato (`preregistrazioni/e3b97.md`). Dubbio: nel Voynich parole quasi uguali stanno spesso vicine (ripresa nella
+riga), e l'e3b96 toglieva solo le coppie a una modifica; quelle a due modifiche potevano gonfiare l'accordo a 2–3 parole.
+Qui si tolgono anche quelle (distanza di modifica ≤ 2 sulle parole coperte). Codice provato solo sull'italiano.
+
+| testo | unità | R (IC 95%) | e3b96 |
+|---|---|---|---|
+| Voynich IT | 205 | **0,66** (0,41 – 0,85) | 0,79 |
+| Voynich ZL | 206 | **0,64** (0,42 – 0,82) | — |
+| italiano NT moderno | 935 | 0,16 (0,11 – 0,22) | 0,17 |
+
+- **Esito preregistrato: la forma piatta regge.** R scende un poco (0,79 → 0,66: una parte della piattezza veniva
+  dalle parole simili vicine) ma resta quattro volte quella dell'italiano, con intervalli lontani. Anche ZL dà lo
+  stesso valore.
+- Nel dossier e nella relazione il valore da citare con la cautela più severa è 0,64–0,66.
