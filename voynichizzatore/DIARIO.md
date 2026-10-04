@@ -850,3 +850,25 @@ come **PDF del libro**.
 - Lacune dichiarate: righe oltre 1,25 volte ancora 11,5% (per chiuderla va cambiata la gabbia: parole per riga decise
   dopo aver scelto le parole), profilo pagina, scelte di riga a 12 classi, omogeneità, prime righe, gradiente.
 - In sospeso: prova su un altro computer, giudice indipendente.
+
+## 4/10/2026, sera — Sito web: aspetto dal Voynich vero, v20, How it works tecnica (chat del sito)
+
+- Aspetto rifatto dalle foto della Beinecke (Davide: "molto meglio"; immagini di Yale confermate, "usane di più"):
+  disegni ripuliti dallo sfondo e foto dei 207 fogli accanto ai fogli generati.
+- Sito portato alla **v20**. Capienza osservata 80.344–84.678 bit; controllo anticipato del testo troppo lungo nel
+  motore del sito (stesso messaggio del programma, calcolo invariato).
+- How it works riscritta, esauriente e tecnica (indicazione di Davide). Dettagli e difetto trovato in `disposizione.py`
+  (conteggi delle scelte mai inizializzati, v17 e v20): `SITO_WEB.md`, §13.
+- Collaudo v20 in corso: 5 casi (corto, italiano, misto Unicode, quasi pieno, senza messaggio) scritti sul PC e nel
+  browser, letture incrociate, manoscritti v17 letti con la v20, chiave sbagliata, sacchi identici, ripetibilità.
+
+## 4/10/2026, 16:30 — Conferma della v20 su chiavi nuove: i numeri da citare cambiano
+
+- v20 su 24 chiavi: **0,560 ± 0,005 / 0,607 ± 0,005**, pagella 15,7, cancello 24 su 24, rilettura 24 su 24.
+  v17 sulle stesse 24: 0,559 / 0,597, pagella 15,0, cancello 18 su 24. Differenza appaiata sul secondo giudice
+  +0,010 ± 0,006 (v20 forse un filo peggiore; dentro la tolleranza di 0,015 scritta prima).
+- Le prime 12 chiavi erano ottimiste (0,554 / 0,599). README pubblico corretto: 0,56 / 0,61 su 24 chiavi.
+- Regola da tenere: ogni versione nuova va confermata su chiavi nuove **prima** di citarne i numeri.
+- Sicurezza (domanda di Davide): la chiave passa per scrypt (n = 2^15) con sale fisso; regge solo se la chiave è lunga
+  e casuale (consiglio: 6 parole a caso o 12 caratteri a caso). Possibile miglioria: alzare il costo di scrypt
+  (versione nuova). Da dire nel sito.
