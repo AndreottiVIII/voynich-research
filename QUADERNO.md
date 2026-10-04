@@ -11338,3 +11338,20 @@ simulata (0,003). Eccesso di I(a;c|b) nelle terne di segni dentro le parole risp
     l'*o* fra due segni (*qok*-, *dor*-, *okai*-…) portano quasi tutta la memoria;
   - per posto: più forte all'inizio della parola (0,144 dentro la classe), poi in mezzo (0,114), quasi niente alla fine
     (0,033).
+
+## 4/10/2026 (notte) — e3a86: nella stessa riga le ripetizioni sono il doppio di quelle che la catena di segni produce
+
+Preregistrato (`preregistrazioni/e3a86.md`). Come l'e3a78 (Voynich vero contro 5 riscritture riga per riga con la catena
+di ordine 2), tre misure di ripetizione nella riga.
+
+| proprietà | Voynich vero | riscritto | R | esito |
+|---|---|---|---|---|
+| ripetizione immediata (*daiin daiin*) | 0,0100 | 0,0047 | 0,47 | in parte |
+| quasi ripetizione immediata (a una modifica) | 0,0387 | 0,0198 | 0,51 | in parte |
+| stessa parola a distanza 2–4 nella riga | 0,0114 | 0,0041 | 0,36 | in parte |
+
+- **Esito preregistrato: in parte, per tutte e tre.** La catena produce circa metà delle ripetizioni del Voynich; il
+  resto viene da una ripresa dentro la riga.
+- **Lettura, con l'e3a83:** lo scriba riprende ciò che ha appena scritto, nella stessa riga (ripetizioni) e nella riga
+  sopra (con preferenza per le ultime parole). È un solo comportamento visto a due distanze: riprendere materiale
+  recente. Va aggiunto alla lista dei meccanismi che la catena non spiega.
