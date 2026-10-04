@@ -243,7 +243,12 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     **e3c58 – e3c59:** altri quattro scribi Menota: 11 scelte su 12 senza accordo, ma la s lunga/tonda di AM 302 fol ha
     una finestra come il Voynich e supera le stesse prove: **uno scriba vero può averla** (ritirata la lettura "quale
     parola, non come si traccia la lettera"). **e3c60:** raccordo negli scribi in 2 scelte su 11, quattro volte più debole
-    del Voynich. In preparazione: e3c61, omofoni del copista del cifrario Copiale.
+    del Voynich. **e3c61:** il copista del cifrario Copiale **alterna** gli omofoni fra parole accanto (−0,18): l'opposto
+    del Voynich. **Batteria scribi (e3c62 – e3c65):** deriva lungo la riga, margine sinistro, ripetizioni: niente di
+    paragonabile negli scribi (da 3 a 100 volte più deboli o assenti); forme di bordo riga 4 – 7 volte più deboli.
+    Tabella nel dossier (§15.13, "BATTERIA SCRIBI"). e3c56 non eseguito (lacuna dichiarata). In corso: e3c66 (durata
+    dello stato e accoppiamento fra scelte). Proposto a Davide: corpus tedesco ReF (1350 – 1650) per scribi del
+    Quattrocento centro-europei.
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
