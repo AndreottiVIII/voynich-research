@@ -1,0 +1,7 @@
+H {"pagine": 128, "stessa_riga": 0.009097041611173893, "coppie_stessa": 4797, "a_cavallo": -0.005130741775829954, "coppie_a_cavallo": 1766, "IC95_a_cavallo": [-0.03086472560361768, 0.01820467296200338]}
+A {"pagine": 5, "stessa_riga": -0.05154532154264322, "coppie_stessa": 102, "a_cavallo": -0.027119823377295453, "coppie_a_cavallo": 39, "IC95_a_cavallo": [-0.18413836491994778, 0.20350819924569993]}
+C {"pagine": 8, "stessa_riga": 0.008570963402545163, "coppie_stessa": 363, "a_cavallo": 0.01829910188057605, "coppie_a_cavallo": 143, "IC95_a_cavallo": [-0.06450040399967022, 0.09454254326998988]}
+B {"pagine": 19, "stessa_riga": 0.03897614416698342, "coppie_stessa": 5286, "a_cavallo": -0.0002584875998041881, "coppie_a_cavallo": 1721, "IC95_a_cavallo": [-0.028632001248866088, 0.02526150997761933]}
+P {"pagine": 16, "stessa_riga": 0.014782200342152947, "coppie_stessa": 1407, "a_cavallo": 0.009052133320753497, "coppie_a_cavallo": 290, "IC95_a_cavallo": [-0.03862418843150491, 0.05473311217016763]}
+S {"pagine": 25, "stessa_riga": 0.040183281331508856, "coppie_stessa": 8264, "a_cavallo": -0.005149163439395083, "coppie_a_cavallo": 1404, "IC95_a_cavallo": [-0.029328555085771438, 0.02055477605914583]}
+T {"pagine": 6, "stessa_riga": 0.042804766332910936, "coppie_stessa": 1418, "a_cavallo": 0.07502755401816975, "coppie_a_cavallo": 303, "IC95_a_cavallo": [0.02103365635208871, 0.13064208511418357]}

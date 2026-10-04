@@ -12363,3 +12363,25 @@ sarebbe stato un confronto non equo); codice provato solo su righe finte.
   filo delle scelte. Questo **corregge in parte la lettura dell'e3b38/e3b39** ("la riga non è un'unità della
   scrittura"): la riga resta un'unità per i bordi, non per la memoria. Un'ipotesi compatibile: nelle altre pagine l'a
   capo coincide con una pausa (per esempio guardare il disegno o il modello), nelle pagine "solo testo" no.
+
+## 4/10/2026 (notte) — e3b41: la memoria passa l'a capo solo nelle pagine "solo testo", non nelle ricette
+
+Preregistrato (`preregistrazioni/e3b41.md`). Analisi dell'e3b38 sezione per sezione (ZL); codice provato su pagine finte
+(memoria continua: a cavallo +0,085; memoria azzerata a ogni riga: −0,010).
+
+| sezione | pagine | stessa riga (coppie) | a cavallo dell'a capo (coppie) | IC 95% a cavallo |
+|---|---|---|---|---|
+| H erbario | 128 | +0,009 (4.797) | −0,005 (1.766) | −0,031 – +0,018 |
+| A astronomia | 5 | −0,052 (102) | −0,027 (39) | — (troppo poche) |
+| C cosmologia | 8 | +0,009 (363) | +0,018 (143) | — (troppo poche) |
+| B biologia | 19 | +0,039 (5.286) | −0,000 (1.721) | −0,029 – +0,025 |
+| P farmacia | 16 | +0,015 (1.407) | +0,009 (290) | — (troppo poche) |
+| S ricette | 25 | +0,040 (8.264) | −0,005 (1.404) | −0,029 – +0,021 |
+| **T solo testo** | 6 | +0,043 (1.418) | **+0,075** (303) | +0,021 – +0,131 |
+
+- **Esito preregistrato: solo le pagine solo testo.** Nelle ricette, dove il testo è fitto e c'è solo una stellina per
+  paragrafo, la memoria nella stessa riga è forte come nelle pagine T (+0,040), ma a cavallo dell'a capo sparisce
+  (−0,005). Lo stesso in biologia.
+- **Lettura:** l'ipotesi "altrove l'a capo azzera la memoria perché chi scrive si ferma a guardare il disegno" non regge:
+  le ricette non hanno disegni da guardare e azzerano lo stesso. Le 6 pagine "solo testo" sono scritte in un modo
+  proprio. Prossimo controllo: se il risultato viene da una sola pagina (e3b42).
