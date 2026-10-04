@@ -281,7 +281,8 @@ La misura della memoria è cambiata più volte, ogni volta perché una prova su 
 
 ## Altro
 
-- **e3b37:** memoria corta anche nei cerchi.
+- **e3b37, e3b83:** nei testi in cerchio la stima della memoria è come nei paragrafi, ma con il metodo finale non è
+  dimostrata (troppe poche pagine).
 - **e3b46–e3b47:** "la copia porta con sé gli spazi" (e3a74) non regge come meccanismo; nessuna deriva della spaziatura.
 - **e3b45:** il raccordo non passa l'a capo nemmeno nelle pagine normali (+0,04 contro +0,35 nella riga).
 - **e3b79:** la crescita di -*ey* scendendo nella pagina e l'apertura del paragrafo si ritrovano con Takahashi, con
