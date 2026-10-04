@@ -74,4 +74,13 @@ Un manoscritto con un messaggio e uno senza non si distinguono fra loro con ques
   disposizione con licenza Creative Commons CC0. Qui c'è solo il testo corrente in paragrafi, con le parole leggibili.
 - Il manoscritto è conservato alla Beinecke Rare Book and Manuscript Library dell'Università di Yale (MS 408).
 
-Licenza del programma: da decidere prima della pubblicazione.
+## Licenza
+
+Il programma è sotto licenza MIT (file `LICENSE`). Il testo del Voynich in `voynich_zl3b.json` è di pubblico dominio (CC0).
+
+## Prova di rilettura su un altro computer
+
+    python prova.py
+
+Rilegge il manoscritto di prova incluso (scritto su un altro computer), poi ne scrive uno nuovo e lo rilegge. Alla fine
+stampa tre righe con l'esito: se la prima dice "sì", un manoscritto scritto altrove si rilegge anche qui.

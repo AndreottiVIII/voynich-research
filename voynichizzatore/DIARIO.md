@@ -694,3 +694,19 @@ Nel QUADERNO (voce "vz: e415"). Su 12 chiavi: v15 0,570 / 0,601; v16 (gabbia di 
   (4) se aspettare un giudice indipendente; (5) il via esplicito.
 - Miglioramenti possibili, non iniziati: omogeneità, scelte di riga per classe, profilo pagina, registro delle prime
   righe, tipi su parole; uscita come immagine.
+
+## 4/10/2026, 10:15 — pacchetto con licenza MIT e prova di rilettura; repo locale pronto, pubblicazione in attesa
+
+
+
+Decisioni di Davide: licenza MIT; GitHub suo (sito web più avanti); prova su un altro computer preparata da me e fatta da lui; giudice indipendente dopo; **via libera alla pubblicazione**.
+
+
+
+- Il pacchetto (`strumenti/costruisci_pubblico.py`) ha ora `LICENSE` (MIT, Davide Caniatti 2026), `README.md`, `.gitignore`, `prova.py` e `prova/` (testo di prova e manoscritto scritto su questo computer con la chiave "prova di rilettura su un altro computer"). `python prova.py` qui: 1 SI, 2 SI, 3 SI (Python 3.12.10, numpy 2.5.3, scipy 1.18.1, scikit-learn 1.9.1, Windows).
+
+- **Repo locale da pubblicare:** `C:\Users\davide\voynichizzatore` (copia del pacchetto, un commit `86193ef`, autore con l'indirizzo anonimo di GitHub `AndreottiVIII@users.noreply.github.com` per non esporre l'email personale in un repo pubblico; fine riga LF).
+
+- **Non ancora pubblicato:** su questa macchina non c'è lo strumento `gh` e l'estensione di Chrome non è collegata, quindi non posso creare il repo su GitHub. Serve che Davide crei il repo pubblico vuoto `AndreottiVIII/voynichizzatore` (senza README né licenza); poi: `git -C /c/Users/davide/voynichizzatore remote add origin https://github.com/AndreottiVIII/voynichizzatore.git` e `git -C /c/Users/davide/voynichizzatore push -u origin main`.
+
+- Zip per la prova su un altro computer: `pubblico/voynichizzatore_v17.zip` (non committato). Sull'altro computer: Python 3.12, `pip install -r requirements.txt`, `python prova.py`; conta la riga 1.
