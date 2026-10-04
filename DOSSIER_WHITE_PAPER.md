@@ -1324,6 +1324,9 @@ la regressione lineare può essere ingannata dalla curvatura del calo; misura so
 metodo corretto (e3c08):** nessuna delle 21 misure si consuma con le lettere (mediana +0,002, nessun intervallo sopra 0).
 **Per mano (e3c11):** il consumo con le lettere c'è in tutte e tre le mani (pendenza −0,0035 – −0,0054 per lettera,
 quattro intervalli su sei sotto 0), senza differenze trovate: un tratto di tutto il manoscritto, come la memoria.
+**Pendenze dentro strati esatti (e3c10):** per lettera a parità di parole, Voynich −0,0027 – −0,0036, lingue fra −0,0013
+e +0,0003 (20 su 21 con intervallo stretto che contiene 0), pur avendo accordo a 2–3 parole paragonabile: terza misura
+del consumo con le lettere che separa il Voynich dalle lingue.
 
 **Formula per il white paper:** il Voynich ha, oltre alla catena di segni per riga e allo spazio non lessicale, una
 memoria corta delle scelte di grafia forte e uniforme (tutte le scelte, tutte le mani, due trascrizioni), che prosegue

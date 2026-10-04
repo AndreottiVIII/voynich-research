@@ -1,0 +1,560 @@
+{
+ "voynich": {
+  "Voynich ZL, senza i bordi": {
+   "coppie": 38866,
+   "lettere_a_parita_di_parole": {
+    "osservato": -0.002720859227573134,
+    "nullo": 0.000459045289216895,
+    "effetto": -0.003179904516790029,
+    "IC95": [
+     -0.005884401350592512,
+     -0.00047312613954152995
+    ]
+   },
+   "parole_a_parita_di_lettere": {
+    "osservato": 0.005725124949474881,
+    "nullo": -0.004313455468072862,
+    "effetto": 0.010038580417547743,
+    "IC95": [
+     -0.0030613624905492594,
+     0.022772922239159853
+    ]
+   },
+   "tipo": "cala con le lettere, non con le parole"
+  },
+  "Voynich ZL, con i bordi": {
+   "coppie": 56689,
+   "lettere_a_parita_di_parole": {
+    "osservato": -0.002214927436287036,
+    "nullo": 0.001109486796457426,
+    "effetto": -0.003324414232744462,
+    "IC95": [
+     -0.005457926867784457,
+     -0.001348217218586367
+    ]
+   },
+   "parole_a_parita_di_lettere": {
+    "osservato": 0.0005262522513476842,
+    "nullo": -0.007763991039312843,
+    "effetto": 0.008290243290660528,
+    "IC95": [
+     -0.0020715808557592013,
+     0.01921141400985194
+    ]
+   },
+   "tipo": "cala con le lettere, non con le parole"
+  },
+  "Voynich IT, senza i bordi": {
+   "coppie": 39399,
+   "lettere_a_parita_di_parole": {
+    "osservato": -0.002022302652946261,
+    "nullo": 0.0006804128905217215,
+    "effetto": -0.0027027155434679825,
+    "IC95": [
+     -0.0055867395067163254,
+     0.0001688076648336833
+    ]
+   },
+   "parole_a_parita_di_lettere": {
+    "osservato": 0.003391586509955356,
+    "nullo": -0.006055859815996692,
+    "effetto": 0.009447446325952048,
+    "IC95": [
+     -0.004380210172227068,
+     0.022807812554735303
+    ]
+   },
+   "tipo": "nessuno dei due"
+  },
+  "Voynich IT, con i bordi": {
+   "coppie": 57249,
+   "lettere_a_parita_di_parole": {
+    "osservato": -0.0022124480963293595,
+    "nullo": 0.0014138091313380475,
+    "effetto": -0.003626257227667407,
+    "IC95": [
+     -0.006007144556993166,
+     -0.0014428139203221991
+    ]
+   },
+   "parole_a_parita_di_lettere": {
+    "osservato": 0.002146295963010966,
+    "nullo": -0.0093620437915343,
+    "effetto": 0.011508339754545266,
+    "IC95": [
+     0.0004811862135685488,
+     0.023387917105537427
+    ]
+   },
+   "tipo": "cala con le lettere, non con le parole"
+  }
+ },
+ "lingue": {
+  "Conlangs - Volapuk - Literary - NT (classe generica)": {
+   "coppie": 87305,
+   "lettere_a_parita_di_parole": {
+    "osservato": 0.0018707734928453564,
+    "nullo": 0.0018607669727008882,
+    "effetto": 1.00065201444682e-05,
+    "IC95": [
+     -0.0012142991153202382,
+     0.0012307027495311056
+    ]
+   },
+   "parole_a_parita_di_lettere": {
+    "osservato": -0.018971685463650252,
+    "nullo": -0.018785616024738435,
+    "effetto": -0.00018606943891181713,
+    "IC95": [
+     -0.006441879255880258,
+     0.006058599351234773
+    ]
+   },
+   "tipo": "nessuno dei due"
+  },
+  "Historical - Anglo-Saxon - Literary - NT - Hatton Gospels (classe generica)": {
+   "coppie": 50177,
+   "lettere_a_parita_di_parole": {
+    "osservato": 0.0013889099066725175,
+    "nullo": 0.001412044750922816,
+    "effetto": -2.3134844250298535e-05,
+    "IC95": [
+     -0.0013690062203131907,
+     0.0013849093885654469
+    ]
+   },
+   "parole_a_parita_di_lettere": {
+    "osservato": -0.009800304282326557,
+    "nullo": -0.009931361141375647,
+    "effetto": 0.00013105685904908973,
+    "IC95": [
+     -0.007282327929224958,
+     0.007197817967057776
+    ]
+   },
+   "tipo": "nessuno dei due"
+  },
+  "Historical - Arabic - Technical - Avicenna (classe generica)": {
+   "coppie": 120400,
+   "lettere_a_parita_di_parole": {
+    "osservato": 0.0023782151703618105,
+    "nullo": 0.0023208113955619264,
+    "effetto": 5.7403774799884115e-05,
+    "IC95": [
+     -0.0009327258863713211,
+     0.00109102394300426
+    ]
+   },
+   "parole_a_parita_di_lettere": {
+    "osservato": -0.01637015172727593,
+    "nullo": -0.01607822611408889,
+    "effetto": -0.00029192561318704124,
+    "IC95": [
+     -0.00573843686400433,
+     0.004953465014939484
+    ]
+   },
+   "tipo": "nessuno dei due"
+  },
+  "Historical - English - Literary - NT (KJV) (classe generica)": {
+   "coppie": 101265,
+   "lettere_a_parita_di_parole": {
+    "osservato": -0.004439156238347022,
+    "nullo": -0.004413603486323086,
+    "effetto": -2.5552752023936046e-05,
+    "IC95": [
+     -0.0010003723196770646,
+     0.0009756066757764006
+    ]
+   },
+   "parole_a_parita_di_lettere": {
+    "osservato": 0.02018485628008654,
+    "nullo": 0.020059516270722305,
+    "effetto": 0.00012534000936423317,
+    "IC95": [
+     -0.004433198639709826,
+     0.005144509136529187
+    ]
+   },
+   "tipo": "nessuno dei due"
+  },
+  "Historical - French - Literary - NT - Martin (classe generica)": {
+   "coppie": 150851,
+   "lettere_a_parita_di_parole": {
+    "osservato": 0.002832604084627699,
+    "nullo": 0.002627746327179556,
+    "effetto": 0.00020485775744814297,
+    "IC95": [
+     -0.0006954268384922968,
+     0.0010677028801789907
+    ]
+   },
+   "parole_a_parita_di_lettere": {
+    "osservato": -0.023024589285616424,
+    "nullo": -0.020148325895882165,
+    "effetto": -0.002876263389734259,
+    "IC95": [
+     -0.007504385156954134,
+     0.0020244795873671805
+    ]
+   },
+   "tipo": "nessuno dei due"
+  },
+  "Historical - German - Literary - NT - Luther (classe generica)": {
+   "coppie": 130440,
+   "lettere_a_parita_di_parole": {
+    "osservato": -0.005362353582824013,
+    "nullo": -0.005246737942453924,
+    "effetto": -0.00011561564037008889,
+    "IC95": [
+     -0.0010467785291164715,
+     0.0007910677150726947
+    ]
+   },
+   "parole_a_parita_di_lettere": {
+    "osservato": 0.027777503795334987,
+    "nullo": 0.027231439430071606,
+    "effetto": 0.0005460643652633809,
+    "IC95": [
+     -0.004532258268055867,
+     0.00527096182207721
+    ]
+   },
+   "tipo": "nessuno dei due"
+  },
+  "Historical - Greek - Literary - NT - Textus Receptus (classe generica)": {
+   "coppie": 171439,
+   "lettere_a_parita_di_parole": {
+    "osservato": 0.00019817474680598537,
+    "nullo": 0.00020383785310224806,
+    "effetto": -5.663106296262689e-06,
+    "IC95": [
+     -0.0007513481619366867,
+     0.0006809726992460231
+    ]
+   },
+   "parole_a_parita_di_lettere": {
+    "osservato": -0.006140731976651716,
+    "nullo": -0.0022889834099361233,
+    "effetto": -0.0038517485667155927,
+    "IC95": [
+     -0.0081857459479809,
+     0.0004325876131087221
+    ]
+   },
+   "tipo": "nessuno dei due"
+  },
+  "Historical - Italian - Literary - NT - Diodati (classe generica)": {
+   "coppie": 134228,
+   "lettere_a_parita_di_parole": {
+    "osservato": -0.001327079133617448,
+    "nullo": -0.0009209795232637859,
+    "effetto": -0.0004060996103536621,
+    "IC95": [
+     -0.0011374699610122883,
+     0.00028734639039901374
+    ]
+   },
+   "parole_a_parita_di_lettere": {
+    "osservato": 0.005985890827167763,
+    "nullo": 0.005945699752969156,
+    "effetto": 4.0191074198606645e-05,
+    "IC95": [
+     -0.003863232843768519,
+     0.003962803185475585
+    ]
+   },
+   "tipo": "nessuno dei due"
+  },
+  "Historical - Latin - Literary - NT (Vulgate) (classe generica)": {
+   "coppie": 175537,
+   "lettere_a_parita_di_parole": {
+    "osservato": -0.0014460267499010662,
+    "nullo": -0.0010166068869604903,
+    "effetto": -0.0004294198629405759,
+    "IC95": [
+     -0.0010903274134347715,
+     0.00021031846099673748
+    ]
+   },
+   "parole_a_parita_di_lettere": {
+    "osservato": 0.0043479705102805076,
+    "nullo": 0.004090322958090725,
+    "effetto": 0.00025764755218978235,
+    "IC95": [
+     -0.003791542000358564,
+     0.004606735787704807
+    ]
+   },
+   "tipo": "nessuno dei due"
+  },
+  "Historical - Latin - Technical - Pliny's Natural History (classe generica)": {
+   "coppie": 317631,
+   "lettere_a_parita_di_parole": {
+    "osservato": -0.00010985066508450941,
+    "nullo": 0.00010784081698838735,
+    "effetto": -0.00021769148207289677,
+    "IC95": [
+     -0.0006970737449352341,
+     0.0002611931281286002
+    ]
+   },
+   "parole_a_parita_di_lettere": {
+    "osservato": -0.00401958899617297,
+    "nullo": -0.0028541424673064375,
+    "effetto": -0.0011654465288665323,
+    "IC95": [
+     -0.004388513132971727,
+     0.0022213974311060566
+    ]
+   },
+   "tipo": "nessuno dei due"
+  },
+  "Historical - Russian - Literary - NT - Codex Marianus (classe generica)": {
+   "coppie": 39000,
+   "lettere_a_parita_di_parole": {
+    "osservato": 0.00033466975008188176,
+    "nullo": 0.0007092934131108945,
+    "effetto": -0.00037462366302901275,
+    "IC95": [
+     -0.0026772290845531762,
+     0.0015474561879406513
+    ]
+   },
+   "parole_a_parita_di_lettere": {
+    "osservato": 0.0013785441841018228,
+    "nullo": -0.0005049673752999094,
+    "effetto": 0.001883511559401732,
+    "IC95": [
+     -0.007035022133159704,
+     0.011174640163237796
+    ]
+   },
+   "tipo": "nessuno dei due"
+  },
+  "Historical - Spanish - Literary - NT - Sagradas Escrituras (classe generica)": {
+   "coppie": 117019,
+   "lettere_a_parita_di_parole": {
+    "osservato": 0.0014193686539500211,
+    "nullo": 0.001382763662737796,
+    "effetto": 3.660499121222512e-05,
+    "IC95": [
+     -0.000947434036612879,
+     0.0010591770732321574
+    ]
+   },
+   "parole_a_parita_di_lettere": {
+    "osservato": -0.010955778438409836,
+    "nullo": -0.010835210266582705,
+    "effetto": -0.00012056817182713037,
+    "IC95": [
+     -0.005237631448984889,
+     0.004972689853612363
+    ]
+   },
+   "tipo": "nessuno dei due"
+  },
+  "Modern - English - Literary - NT (classe generica)": {
+   "coppie": 100008,
+   "lettere_a_parita_di_parole": {
+    "osservato": -0.001996078691741409,
+    "nullo": -0.0020091811644291128,
+    "effetto": 1.3102472687703728e-05,
+    "IC95": [
+     -0.0009404693888849489,
+     0.000995160411597472
+    ]
+   },
+   "parole_a_parita_di_lettere": {
+    "osservato": 0.014626929910523159,
+    "nullo": 0.014744303388708446,
+    "effetto": -0.00011737347818528698,
+    "IC95": [
+     -0.005044410141294827,
+     0.0052387347107037295
+    ]
+   },
+   "tipo": "nessuno dei due"
+  },
+  "Modern - French - Literary - NT (classe generica)": {
+   "coppie": 150844,
+   "lettere_a_parita_di_parole": {
+    "osservato": 0.002947747395268483,
+    "nullo": 0.002664453733554892,
+    "effetto": 0.00028329366171359104,
+    "IC95": [
+     -0.0006473051541252845,
+     0.0012328248781828146
+    ]
+   },
+   "parole_a_parita_di_lettere": {
+    "osservato": -0.023420426580240513,
+    "nullo": -0.019730138745918054,
+    "effetto": -0.0036902878343224588,
+    "IC95": [
+     -0.008502666783535359,
+     0.00125896365349044
+    ]
+   },
+   "tipo": "nessuno dei due"
+  },
+  "Modern - German - Literary - NT (classe generica)": {
+   "coppie": 138409,
+   "lettere_a_parita_di_parole": {
+    "osservato": -0.004192513333203549,
+    "nullo": -0.004119800097529869,
+    "effetto": -7.271323567368052e-05,
+    "IC95": [
+     -0.0009615975624129852,
+     0.0008049830278302538
+    ]
+   },
+   "parole_a_parita_di_lettere": {
+    "osservato": 0.022248168311556935,
+    "nullo": 0.02179913103248693,
+    "effetto": 0.00044903727907000604,
+    "IC95": [
+     -0.0044971815986223134,
+     0.005362506296527305
+    ]
+   },
+   "tipo": "nessuno dei due"
+  },
+  "Modern - Italian - Literary - NT (classe generica)": {
+   "coppie": 142272,
+   "lettere_a_parita_di_parole": {
+    "osservato": -0.001413181179456379,
+    "nullo": -0.0009389313847121954,
+    "effetto": -0.0004742497947441835,
+    "IC95": [
+     -0.0012065363706737144,
+     0.0002675706711146491
+    ]
+   },
+   "parole_a_parita_di_lettere": {
+    "osservato": 0.007143187791742187,
+    "nullo": 0.006482289092695409,
+    "effetto": 0.000660898699046778,
+    "IC95": [
+     -0.003175268363929374,
+     0.004665796698299735
+    ]
+   },
+   "tipo": "nessuno dei due"
+  },
+  "italiano NT (Diodati) (-o/-a)": {
+   "coppie": 102347,
+   "lettere_a_parita_di_parole": {
+    "osservato": -0.003965996621656711,
+    "nullo": -0.0026294698674348732,
+    "effetto": -0.0013365267542218375,
+    "IC95": [
+     -0.0023181400890917962,
+     -0.000343668713307238
+    ]
+   },
+   "parole_a_parita_di_lettere": {
+    "osservato": 0.014408060173719353,
+    "nullo": 0.011983159652213995,
+    "effetto": 0.0024249005215053587,
+    "IC95": [
+     -0.0025398441288133487,
+     0.007620686396199061
+    ]
+   },
+   "tipo": "cala con le lettere, non con le parole"
+  },
+  "italiano, Della Pittura (-o/-a)": {
+   "coppie": 13254,
+   "lettere_a_parita_di_parole": {
+    "osservato": -0.0002666211557887876,
+    "nullo": 0.0004612422326520955,
+    "effetto": -0.0007278633884408831,
+    "IC95": [
+     -0.0034060683434201824,
+     0.001924937016589868
+    ]
+   },
+   "parole_a_parita_di_lettere": {
+    "osservato": -0.006398042418774202,
+    "nullo": -0.00024057165515386827,
+    "effetto": -0.0061574707636203345,
+    "IC95": [
+     -0.022425821372489656,
+     0.00995784120885858
+    ]
+   },
+   "tipo": "nessuno dei due"
+  },
+  "spagnolo NT (-o/-a)": {
+   "coppie": 56045,
+   "lettere_a_parita_di_parole": {
+    "osservato": -0.0005808691340154018,
+    "nullo": -0.0004036108227544025,
+    "effetto": -0.00017725831126099925,
+    "IC95": [
+     -0.001509055041883309,
+     0.0011543256277537393
+    ]
+   },
+   "parole_a_parita_di_lettere": {
+    "osservato": -0.0053718334985427526,
+    "nullo": -0.0005134346609929337,
+    "effetto": -0.004858398837549819,
+    "IC95": [
+     -0.01164639046342136,
+     0.0016530343073500112
+    ]
+   },
+   "tipo": "nessuno dei due"
+  },
+  "latino NT (Vulgata) (-us/-a)": {
+   "coppie": 20408,
+   "lettere_a_parita_di_parole": {
+    "osservato": -0.0019675147968038144,
+    "nullo": -0.0022360185871374673,
+    "effetto": 0.0002685037903336529,
+    "IC95": [
+     -0.0024064497382090713,
+     0.0032370028178318206
+    ]
+   },
+   "parole_a_parita_di_lettere": {
+    "osservato": -0.0027229884399216316,
+    "nullo": 0.004100034257088394,
+    "effetto": -0.006823022697010026,
+    "IC95": [
+     -0.02276842487198864,
+     0.007389351562363285
+    ]
+   },
+   "tipo": "nessuno dei due"
+  },
+  "latino, Plinio (-us/-a)": {
+   "coppie": 75487,
+   "lettere_a_parita_di_parole": {
+    "osservato": -0.0023684693183320606,
+    "nullo": -0.0014413190282999535,
+    "effetto": -0.0009271502900321071,
+    "IC95": [
+     -0.0018290666312289277,
+     5.447412218169242e-06
+    ]
+   },
+   "parole_a_parita_di_lettere": {
+    "osservato": 0.003505844829448104,
+    "nullo": 0.0009351467529012155,
+    "effetto": 0.0025706980765468884,
+    "IC95": [
+     -0.0035073849591541174,
+     0.009006756192561426
+    ]
+   },
+   "tipo": "nessuno dei due"
+  }
+ },
+ "lingue_parole": 0,
+ "lingue_lettere": 1,
+ "esito_voynich": "incerto (ZL: cala con le lettere, non con le parole; IT: nessuno dei due)",
+ "esito_lingue": "incerto"
+}
