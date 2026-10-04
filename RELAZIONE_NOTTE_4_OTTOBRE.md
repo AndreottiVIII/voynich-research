@@ -211,3 +211,16 @@ Correzioni di questa parte:
 - **Domanda aperta: lo spazio facoltativo segue la parola intera?** Nelle lingue sì, fortissimamente (e3a99). Nel
   Voynich no, anzi il valore è un po' al contrario (e3a99, e3b01). Ma potrebbe dipendere dal fatto che ogni mano, o
   pagina, spazia in modo diverso: è in corso il controllo con il confronto dentro la stessa pagina (e3b02).
+
+## Aggiornamento (verso le 3): lo spazio non guarda la parola; le "scelte di riga" sono memoria corta
+
+- **Lo spazio facoltativo si decide con i segni vicini e con la lunghezza della parola in corso, non con l'identità
+  della parola** (e3a99, e3b01–e3b05). Nelle lingue lo spazio segue fortissimamente la parola intera; nel Voynich quasi
+  per niente. Lo scriba taglia più spesso quando il pezzo che sta scrivendo è già lungo, ed evita di staccare pezzi
+  di 1–3 segni. Una prima lettura ("lo scriba sceglie al contrario del lessico") era in realtà questo effetto di
+  lunghezza: corretta con l'e3b03. Timm e Schinner fa come il Voynich; gli altri generatori e il gibberish umano no.
+- **Correzione di un risultato vecchio (e206b, le "12 scelte di grafia per riga")** (e3b06–e3b10): non sono
+  interruttori che valgono per tutta la riga. Le scelte facoltative (*qo*/*o*, -*ey*/-*dy*, *sh*/*ch*, *ee*/*e*)
+  concordano fra parole a 2–3 di distanza e non più a 6–10; vale anche per parole diverse (non solo ripetute); si
+  azzera all'a capo; nessun generatore lo fa. È la stessa memoria corta delle ripetizioni. **Per l'altra chat è
+  importante:** il generatore costruito con gli interruttori di riga va rivisto (scritto nel file di passaggio).

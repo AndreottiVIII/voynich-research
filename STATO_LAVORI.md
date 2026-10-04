@@ -77,6 +77,10 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     proprietà orizzontali, non le quattro verticali** (copia dalla riga sopra, margine sinistro, apertura del
     paragrafo, -ey scendendo) (e3a78, e3a80, e3a81; figura `catena_spiega.png`). Correzioni: e3a65 da e3a72 (il calo
     col paragrafo era meccanico), e3a69 da e3a71; e3a73 abbandonato (Naibbe non fa da controllo).
+  - **e3a82–e3b10 (ripresa e spazi):** la ripresa nella riga è di memoria corta (si spegne in 6–7 parole), propria del
+    Voynich, adattata al raccordo (e3a86–e3a97); lo spazio facoltativo dipende dai segni vicini e dalla lunghezza della
+    parola in corso, non dalla parola (e3a99, e3b01–e3b05); **le "scelte di riga" dell'e206b sono memoria corta delle
+    scelte di grafia** (2–3 parole, anche in parole diverse, azzerata all'a capo, assente nei generatori) (e3b06–e3b10).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
