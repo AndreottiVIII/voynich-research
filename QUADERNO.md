@@ -14554,3 +14554,33 @@ Preregistrato (`preregistrazioni/e3c29.md`). Misura dell'e3c28 sui generatori.
 - Con la misura più pulita il quadro è: accordo delle scelte fra parole della stessa riga +0,17 – +0,18 nel Voynich, che
   dura quasi tutta la riga; nelle lingue un accordo anche forte ma concentrato fra parole accanto; nei generatori quasi
   niente.
+
+## 4/10/2026 (mattina) — e3c30: dentro le sole righe lunghe la forma piatta del Voynich non è dimostrata (indebolimento)
+
+Preregistrato (`preregistrazioni/e3c30.md`). Misura alla pari dell'e3c28, ma solo righe di almeno 11 parole (senza bordi),
+così vicine e lontane vengono dalle stesse righe; lontane = 7–8 parole; R78 = [K(3) − K(7–8)] / [K(1) − K(7–8)].
+
+| testo | accordo accanto | R78 (IC 95%) |
+|---|---|---|
+| Voynich IT | +0,110 (0,06 – 0,16) | **0,76** (0,29 – 1,17) |
+| Voynich ZL | +0,116 (0,07 – 0,17) | **0,71** (0,26 – 1,05) |
+| anglosassone, Hatton (generica) | +0,080 | 0,79 (0,04 – 1,81) |
+| latino, Plinio (-*us*/-*a*) | +0,177 | 0,48 (0,23 – 0,69) |
+| italiano, *Della Pittura* (-*o*/-*a*) | +0,427 | 0,42 (−0,02 – 0,72) |
+| spagnolo NT (-*o*/-*a*) | +0,180 | 0,31 |
+| altre 12 lingue che contano | +0,06 – +0,39 | 0,05 – 0,28 |
+
+- **Esito preregistrato: "nelle righe lunghe la forma piatta non è propria del Voynich"** (soglia 0,26 = estremo basso del
+  Voynich; 8 lingue la superano).
+- **Come leggerlo:** come stima il Voynich resta fra i più piatti (0,71 – 0,76; solo l'anglosassone, con un intervallo
+  larghissimo, è più alto), ma con metà dei dati il suo intervallo è troppo largo per separarlo. Quindi l'esito dipende
+  soprattutto dalla poca precisione.
+- **Un fatto che indebolisce l'e3c28:** nelle righe lunghe l'accordo fra parole accanto del Voynich è più basso (+0,11
+  contro +0,17 su tutte le righe), mentre nelle lingue no. Le righe lunghe del Voynich si accordano meno in generale; e
+  siccome nell'e3c28 le coppie lontane (8–12) venivano solo da lì, una parte della forma "piatta" dell'e3c28 può venire
+  da questa differenza fra righe lunghe e corte, e non dalla distanza. Passando dall'e3c28 a questa misura il Voynich
+  scende (0,82–0,85 → 0,71–0,76) mentre le lingue salgono un poco (lontane più vicine).
+- **Bilancio onesto della forma:** la forma piatta resta la stima più alta per il Voynich in tutte le misure, ma la
+  separazione netta dalle lingue (e3b96–e3c28) è in parte un effetto della lunghezza delle righe e, misurata dentro le
+  stesse righe, non è dimostrata. Prossimo passo: la stessa idea con righe di almeno 9 parole e lontane a 5–6 (più dati),
+  e3c31.

@@ -1406,6 +1406,13 @@ parole della stessa riga forte quanto l'accordo grammaticale delle lingue, ma ch
 concentra fra parole accanto e dura per quasi tutta la riga; nessun generatore pubblicato lo ha (e3c29: Naibbe +0,016,
 U2 +0,056, U3 +0,043, Timm e Schinner −0,005, contro +0,17 – +0,18 del Voynich).
 
+**Indebolimento (e3c30):** misurando vicine e lontane dentro le stesse righe lunghe (almeno 11 parole), il Voynich ha
+R78 0,71 – 0,76, ancora fra i più alti, ma con intervalli 0,26 – 1,17 che non lo separano dalle lingue (8 su 16 sopra la
+soglia). Nelle righe lunghe l'accordo accanto del Voynich è più basso (+0,11 contro +0,17): siccome nell'e3c28 le coppie
+lontane venivano solo dalle righe lunghe, una parte della separazione può venire dalla lunghezza delle righe. Nel white
+paper la forma piatta va presentata come "stima più alta che nelle lingue, non dimostrata dentro le stesse righe", in
+attesa dell'e3c31.
+
 **Lezioni di metodo da riportare** (utili anche a chi legge): (1) confrontare con la media della pagina ai bordi della
 riga inganna, perché fine e inizio riga hanno forme proprie; (2) togliere le coppie "simili" guardando la parola intera
 falsa i confronti con i rimescolamenti; (3) il rimescolamento parola per parola sottostima la variabilità: servono
