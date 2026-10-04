@@ -15003,3 +15003,37 @@ finte) e sui 4 generatori.
 - Per molte misure con la classe generica (Volapük, KJV, tedesco, spagnolo, Hatton) l'accordo osservato era tutto
   distorsione (K nullo uguale all'osservato). Il Volapük, che stanotte sembrava somigliare al Voynich, corretto è a zero.
 - Timm e Schinner, corretto, ha un accordo fra parole accanto (+0,077) più vicino al Voynich di quanto sembrasse.
+
+## 4/10/2026 (mattina) — e3c50: due scribi islandesi veri, con righe e pagine vere, non hanno nessun accordo fra parole vicine nelle loro scelte libere
+
+Preregistrato (`preregistrazioni/e3c50.md`). Trascrizioni Menota a livello facsimile (forme di lettera come sul
+manoscritto; licenza CC-BY-SA 4.0; file in `dati/cache/menota/`, non committati; download autorizzato da Davide). AM 519 a
+4to (*Alexanders saga*, c. 1280, una mano, 67 pagine) e AM 677 4to (c. 1300, due mani, 74 pagine). Il terzo file
+autorizzato (AM 132 fol, *Njáls saga*) non è scaricabile: il server dice che il file manca dal suo lato (deviazione
+dichiarata). Misura dell'e3c48 (corretta per la distorsione, 50 rimescolamenti), righe vere, unità = pagine vere.
+
+| scelta | parole | K corretto 1 (IC 95%) | K corretto 2 / 3 |
+|---|---|---|---|
+| *Voynich ZL (e3c48)* | *27.473* | *+0,131 (+0,106 – +0,156)* | *+0,093 / +0,086* |
+| AM 519 a, ꝩ/v | 5.428 | +0,008 (−0,045 – +0,057) | +0,029 / +0,004 |
+| AM 519 a, u/v | 4.813 | −0,006 (−0,088 – +0,071) | +0,043 / +0,025 |
+| AM 519 a, c/k | 4.861 | +0,033 (−0,052 – +0,121) | +0,009 / −0,011 |
+| AM 519 a, í/ı (accento) | 10.368 | +0,026 (−0,039 – +0,094) | +0,002 / −0,000 |
+| AM 677, u/v | 7.226 | −0,003 (−0,065 – +0,058) | +0,044 / −0,004 |
+| AM 519 a, abbreviata o no | 41.780 | +0,003 (−0,005 – +0,009) | +0,008 / +0,003 |
+| AM 677, abbreviata o no | 44.177 | −0,001 (−0,007 – +0,004) | +0,005 / −0,002 |
+
+- **Esito preregistrato: nessuna scelta di lettera degli scribi ha la finestra**; e nemmeno un accordo fra parole accanto
+  (nessun estremo basso sopra 0,02). L'abbreviazione: **nessun accordo chiaro**, con intervalli stretti (±0,007) attorno
+  a 0.
+- Quattro intervalli su cinque delle scelte di lettera stanno tutti sotto il valore del Voynich (+0,131); solo *c*/*k*
+  arriva a sfiorarne l'intervallo (+0,121 contro +0,106).
+- Senza correzione l'accento í/ı sembrava avere un accordo forte e piatto (+0,21 a tutte le distanze): era tutta
+  distorsione (K nullo +0,18 – +0,20). Altra conferma che la correzione dell'e3c48 serve.
+- **Dato a parte, prima della misura (regola di ingresso):** in questi due scribi quasi tutte le forme di lettera sono
+  fisse per parola o per posizione (ꝛ/r, ð/þ, s/ſ, d/ꝺ, lettere piccole maiuscole per le doppie, legature: quasi mai due
+  forme nella stessa parola). Nel Voynich *k*/*t*, *sh*/*ch*, -*ey*/-*dy* variano dentro la stessa parola coperta.
+- **Lettura:** per questi due scribi le scelte libere (forma di lettera, accento, abbreviazione) si fanno parola per
+  parola, senza "trascinamento" fra parole vicine. La finestra del Voynich **non** è quindi un'abitudine generica di chi
+  scrive a mano, almeno non di questi scribi. Limiti: due scribi, una sola tradizione (islandese), scelte di lettera con
+  poche migliaia di occorrenze (intervalli larghi ±0,06 – 0,09).
