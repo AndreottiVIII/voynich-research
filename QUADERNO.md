@@ -13131,3 +13131,29 @@ provato su righe finte (passa: D +0,043; azzerata: D +0,001).
 - **Correzione dell'e3a97** ("il salto azzera la ripetizione come l'a capo"): all'a capo la ripetizione non si azzera,
   si riduce a circa un quarto; al salto non si può dire. Con l'e3b66/e3b67: all'a capo riparte la catena di segni,
   mentre le abitudini del momento (scelte e, in misura minore, parole appena scritte) proseguono attenuate.
+
+## 4/10/2026 (notte) — e3b69: la memoria del Voynich sta quasi tutta oltre la catena; ma i valori p del nullo largo sono troppo ottimisti
+
+Preregistrato (`preregistrazioni/e3b69.md`). Metodo dell'e3b62 sul Voynich ZL e su 5 riscritture con la sua catena di
+ordine 2 (forme di bordo e raccordo sì, memoria no). Prova su righe finte: una forma di bordo sulla prima parola non
+crea memoria finta (+0,0003, p 0,45).
+
+| testo | coppie vicine | M | M nullo | effetto | z | p |
+|---|---|---|---|---|---|---|
+| Voynich ZL | 21.620 | +0,110 | +0,025 | **+0,086** | +7,3 | < 0,001 |
+| catena 1 | 17.841 | −0,024 | −0,001 | −0,023 | −2,2 | 0,98 |
+| catena 2 | 19.450 | +0,003 | +0,001 | +0,002 | +0,2 | 0,43 |
+| catena 3 | 18.135 | +0,026 | +0,001 | +0,025 | +2,5 | 0,005 |
+| catena 4 | 19.274 | +0,000 | −0,004 | +0,004 | +0,4 | 0,33 |
+| catena 5 | 18.767 | −0,006 | −0,006 | −0,000 | −0,0 | 0,52 |
+
+Media delle catene +0,002: il 98% dell'effetto del Voynich sta oltre la catena.
+
+- **Esito preregistrato: in parte** (una riscrittura ha p 0,005, quindi la condizione "nessuna sotto 0,01" non è
+  soddisfatta), ma la media delle riscritture è praticamente zero: **la misura non è spostata** da bordi e raccordo.
+- **Problema nuovo:** fra le riscritture l'effetto oscilla con una deviazione di circa 0,018, mentre il nullo largo
+  prevede circa 0,010. Il rimescolamento parola per parola sottostima la variabilità (le coppie condividono parole e
+  righe), quindi **i valori p e gli z dell'e3b62 (e e3b54–e3b63) sono troppo ottimisti**, circa del doppio. Per il
+  Voynich non cambia la sostanza (+0,086 sono quasi 5 deviazioni delle catene); per effetti piccoli o con pochi dati
+  (lo scriba anglosassone, z 2,2; U3 e Timm e Schinner) sì. Rifaccio gli intervalli ricampionando le pagine intere
+  (e3b70).
