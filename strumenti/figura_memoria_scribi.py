@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Figura di sintesi (nessun dato nuovo): memoria delle scelte di grafia oltre le parole (effetto = M osservata − M del
-nullo che tiene ferme le parole), Voynich ZL e IT, scriba anglosassone (þ/ð, i/y), altri testi storici (i/y), generatori
-(e3b56, e3b57). Scrive risultati/figure/memoria_scribi.png.
+nullo largo che rimescola nello strato), Voynich ZL e IT e per mano, scriba anglosassone (þ/ð, i/y), altri testi storici (i/y), generatori
+(e3b62, nullo largo). Scrive risultati/figure/memoria_scribi.png.
 """
 import json, os
 
@@ -19,17 +19,17 @@ def carica(nome):
 
 
 def main():
-    a = carica('e3b56_memoria_oltre_parole_corretta.json')['gruppi']
-    g = carica('e3b57_memoria_generatori.json')['generatori']
-    voce = [('Voynich ZL', a['Voynich ZL']['insieme'], 'crimson'), ('Voynich Takahashi', a['Voynich IT']['insieme'], 'crimson'),
-            ('Voynich ZL, qo/o', a['Voynich ZL']['qo/o'], '#e88'), ('Voynich ZL, -ey/-dy', a['Voynich ZL']['-ey/-dy'], '#e88'),
-            ('scriba anglosassone,\nþ/ð a inizio parola', a['naturali']['Hatton Gospels, þ/ð a inizio parola'], 'tab:blue'),
-            ('scriba anglosassone,\ni/y', a['naturali']['Hatton Gospels, i/y'], '#8ac'),
-            ('Secreta Alberti\n(inglese), i/y', a['naturali']['Secreta Alberti, i/y'], '#8ac'),
-            ('NT fiammingo,\ni/y', a['naturali']['NT fiammingo, i/y'], '#8ac')]
+    a = carica('e3b62_memoria_nullo_largo.json')['gruppi']
+    voce = [('Voynich ZL', a['Voynich ZL, tutto']['insieme'], 'crimson'), ('Voynich Takahashi', a['Voynich IT, tutto']['insieme'], 'crimson'),
+            ('Voynich ZL, mano 1', a['Voynich ZL, mano 1']['insieme'], '#e88'), ('Voynich ZL, mano 2', a['Voynich ZL, mano 2']['insieme'], '#e88'),
+            ('Voynich ZL, mano 3', a['Voynich ZL, mano 3']['insieme'], '#e88'),
+            ('scriba anglosassone,\nþ/ð a inizio parola', a['varianti naturali']['Hatton Gospels, þ/ð a inizio parola'], 'tab:blue'),
+            ('scriba anglosassone,\ni/y', a['varianti naturali']['Hatton Gospels, i/y'], '#8ac'),
+            ('Secreta Alberti\n(inglese), i/y', a['varianti naturali']['Secreta Alberti, i/y'], '#8ac'),
+            ('NT fiammingo,\ni/y', a['varianti naturali']['NT fiammingo, i/y'], '#8ac')]
     nomi = {'Naibbe (Greshko 2025), a capo': 'Naibbe', 'U2 (Whitehatnetizen 2026)': 'U2', 'U3 (Whitehatnetizen 2026)': 'U3', 'Timm e Schinner, seme 1': 'Timm e Schinner'}
-    for k, x in g.items():
-        voce.append((nomi.get(k, k), x['insieme'], 'tab:green'))
+    for k in nomi:
+        voce.append((nomi[k], a[k]['insieme'], 'tab:green'))
     fig, ax = plt.subplots(figsize=(11, 4.8))
     xs = np.arange(len(voce))
     for i, x in enumerate(voce):
