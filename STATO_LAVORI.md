@@ -204,7 +204,9 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     parole); nelle lingue cala già fra 1 e 2 (Volapük eccezione). K(3)/K(1): Voynich 0,86–0,88, lingue 0,07–0,36. Verifica
     su righe di 5–10 parole non usate (e3c34). **e3c34 (incerto):** con le classi a mano R0 0,77–0,86 (solo Volapük sopra la
     soglia); con le classi automatiche (k/t, a/o, ch/e) il Voynich cala come le lingue (R0 0,07–0,26) in tutte e tre le
-    trascrizioni. La forma lunga riguarda solo alcune scelte (forse qo/o e -ey/-dy): e3c35 scelta per scelta.
+    trascrizioni. **e3c35:** k/t, sh/ch, -ey/-dy hanno accordo accanto +0,12–0,15 che a 3 parole resta al 56–74%; qo/o ha
+    accordo solo da 2 parole in su (accanto decide il raccordo); a/o quasi niente (per questo le classi automatiche sembravano
+    da lingua). Lingue naturali: a 3 parole al più 46% (Plinio), di solito 0–20%.
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
