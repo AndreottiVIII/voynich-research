@@ -274,3 +274,9 @@ Pacchetto v17 **senza modifiche** dentro Pyodide 314.0.7 (Python 3.14.2, numpy 2
      della versione vecchia solo se la nuova cambia i conteggi delle parole (allora la vecchia serve per rileggere).
 - **Attenzione per chi pubblica il programma:** il ramo `main` del repo pubblico ora contiene `docs/`; prima di un push
   dalla copia `C:\Users\davide\voynichizzatore` fare `git pull`.
+- **4/10 sera, aggiornamenti pubblicati:** favicon (il sole di f67r ridisegnato: aquiloni blu, punte rosse, disco con
+  falce e volto; `favicon.svg`, `favicon.ico` 16/32/48, `apple-touch-icon.png`), immagine di anteprima per la
+  condivisione dei link (`og-image.jpg`, 1200×630, pianta di f9v e titolo) con i tag Open Graph in ogni pagina;
+  Research con la licenza CC BY 4.0 e il PDF nuovo (commit 1e3178c della ricerca), **senza la riga dei contributori**
+  (richiesta di Davide, "per ora"). Didascalie dei fogli veri: solo il codice del foglio. `.gitattributes` del repo
+  pubblico: aggiunti `*.ico` e `*.webp` come binari (il favicon era stato alterato dalla conversione degli a capo).
