@@ -11673,3 +11673,27 @@ Preregistrato (`preregistrazioni/e3b04.md`). Stesso metodo dell'e3b03 sulla IT (
   5+ +0,104 (come nella ZL).
 - **Esito preregistrato: si ritrova.** C'è una preferenza lessicale statisticamente visibile ma minuscola (un
   centesimo di quella di una lingua); la lunghezza del pezzo in corso conta molto di più.
+
+## 4/10/2026 (notte) — e3b05: lo spazio "non lessicale" del Voynich c'è anche in Timm e Schinner, non negli altri generatori né nel gibberish umano
+
+Preregistrato (`preregistrazioni/e3b05.md`; **nullo cambiato prima del commit** dopo la prova sul solo Naibbe: il nullo
+dentro strati × "pagine" lasciava fermi quasi tutti i punti e annullava lo scarto anche dove l'effetto c'è; si usa il
+nullo dentro gli strati, dichiarato nella preregistrazione).
+
+| testo | punti facoltativi | differenza vera | nullo | scarto | z | esito |
+|---|---|---|---|---|---|---|
+| **Voynich** (e3b03, stesso nullo) | 12.274 | +0,105 | −0,090 | **+0,195** | +2,7 | — |
+| Naibbe | 3.954 | +1,428 | −0,156 | +1,584 | +6,2 | spazio lessicale |
+| U2 | 3.868 | +0,766 | −0,169 | +0,934 | +7,0 | in mezzo |
+| U3 | 4.867 | +0,231 | −0,221 | +0,453 | +3,6 | in mezzo |
+| Timm e Schinner | 8.032 | −0,077 | −0,191 | +0,113 | +1,5 | come il Voynich |
+| gibberish umano | 14.394 | +0,541 | −0,265 | +0,806 | +5,6 | in mezzo |
+| (latino, e3b03: differenza a parità di lunghezza) | | +4,04 | | | | |
+
+- **Esito preregistrato:** Naibbe ha spazio lessicale; U2, U3 e il gibberish umano stanno in mezzo; Timm e Schinner
+  fa come il Voynich.
+- **Lettura:** che lo spazio non dipenda dalla parola intera distingue il Voynich dalle lingue (+4), dal cifrario
+  Naibbe (+1,6), dal gibberish scritto a mano (+0,8) e dai generatori a grammatica (U2, U3), ma **non** dal generatore di
+  Timm e Schinner. In quel generatore le parole nascono copiando e modificando parole vicine, e anche lì il punto in cui
+  cade uno spazio non dipende dall'identità della parola. Tutti i testi di confronto stanno comunque molto sotto le
+  lingue.
