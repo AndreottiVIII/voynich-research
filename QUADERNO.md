@@ -14768,3 +14768,22 @@ Preregistrato (`preregistrazioni/e3c38.md`). Misura dell'e3c34 classe per classe
   alfabeto, la scelta fra le gallows si accorda fra parole vicine e l'accordo resta a 2 e 3 parole.
 - *a*/*o* si comporta come in EVA (accordo solo fra parole accanto, poi niente): la differenza fra le classi non dipende
   dalla trascrizione.
+
+## 4/10/2026 (mattina) — e3c39: con la misura pulita, il passaggio della finestra all'a capo non è dimostrato
+
+Preregistrato (`preregistrazioni/e3c39.md`). Atteso stessa parola + pagina + deriva; coppie a "distanza 3": dentro la
+riga, a cavallo dell'a capo (penultima di una riga e seconda della seguente), controllo (penultima e seconda di due righe
+sotto).
+
+| | dentro la riga | a capo | controllo | quota che passa |
+|---|---|---|---|---|
+| ZL, *k*/*t*, *sh*/*ch*, -*ey*/-*dy* | +0,080 (+0,050 – +0,111) | +0,036 (−0,031 – +0,102) | +0,038 (−0,040 – +0,115) | 0,44 (−0,39 – 1,49) |
+| IT, stesse | +0,096 (+0,067 – +0,127) | +0,049 (−0,020 – +0,117) | −0,027 (−0,100 – +0,050) | 0,51 (−0,20 – 1,34) |
+| ZL, *qo*/*o* | +0,109 | −0,047 (150 coppie) | +0,098 (110) | — |
+| IT, *qo*/*o* | +0,119 | +0,004 (156) | +0,044 (110) | — |
+
+- **Esito preregistrato: ZL "la finestra non passa l'a capo"; IT "incerto".**
+- Le stime della quota che passa (0,44 – 0,51) sono quelle di prima ("circa metà", e3b66), ma con circa 1.150 coppie a
+  cavallo dell'a capo e un controllo rumoroso (in ZL alto quanto l'a capo) non si può dire con la misura pulita. Il
+  "dimezzamento all'a capo" va riportato come stima non confermata.
+- Per *qo*/*o* i dati a cavallo dell'a capo sono troppo pochi (150 coppie).
