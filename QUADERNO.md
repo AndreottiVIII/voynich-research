@@ -12468,3 +12468,23 @@ Preregistrato (`preregistrazioni/e3b44.md`). ZL; codice provato su pagine finte.
 - **Lettura:** il risultato delle pagine "solo testo" (e3b38–e3b44) è il più solido che si possa avere con 6 pagine:
   due trascrizioni, una pagina per volta fuori, prova per pagina, stessa mano, nessun effetto della lunghezza dei
   paragrafi o della lunghezza delle righe.
+
+## 4/10/2026 (notte) — e3b45: il raccordo fra righe nelle pagine "solo testo": dati insufficienti
+
+Preregistrato (`preregistrazioni/e3b45.md`). Differenza = P(*qo* | riga sopra finita in -*y*/-*o*/-*d*) − P(*qo* | finita
+in -*n*/-*r*/-*s*/-*m*/-*l*), per la prima parola della riga; codice provato su pagine finte (scrittura continua +0,82,
+azzerata +0,18 non significativa).
+
+| gruppo | pagine | a cavallo: coppie (V, C) | differenza a cavallo (IC 95%) | p | stessa riga (coppie) |
+|---|---|---|---|---|---|
+| ZL, solo testo | 6 | 29 (15, 14) | +0,019 (−0,304 – +0,361) | 0,62 | +0,333 (526) |
+| ZL, mano 2 non T | 42 | 196 | +0,033 (−0,070 – +0,134) | 0,32 | +0,430 (2.286) |
+| ZL, tutte le non T | 201 | 598 | +0,042 (−0,033 – +0,120) | 0,16 | +0,350 (7.536) |
+| IT, solo testo | 6 | 29 (16, 13) | +0,058 (−0,268 – +0,395) | 0,52 | +0,339 (530) |
+| IT, tutte le non T | 200 | 587 | +0,027 (−0,052 – +0,106) | 0,27 | +0,349 (7.573) |
+
+- **Esito preregistrato: dati insufficienti** (29 coppie, soglia 30).
+- **Descrittivo:** nelle pagine normali il raccordo non passa l'a capo (+0,04 contro +0,35 nella stessa riga), come
+  nell'e393. Nelle pagine "solo testo" il valore è vicino a zero con tutte e due le trascrizioni, ma con 29 coppie
+  l'intervallo va da −0,30 a +0,36: non si può dire né che passi né che non passi. Se in futuro si volesse insistere, non
+  ci sono altri dati: le pagine "solo testo" sono solo queste.
