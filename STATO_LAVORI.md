@@ -179,6 +179,7 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     Deriva lungo la riga (e3c17): c'è in ogni mano e in A e B; tre volte più forte in B (−0,035 ogni 10 segni) che in A (−0,011).
     Memoria per mano senza posizione (e3c19): mani 2 e 3 sopra 0, mano 1 stessa grandezza ma intervallo che tocca 0; nessuna differenza.
     Nessun generatore ha la deriva lungo la riga (e3c18: tutti fra −0,002 e +0,003 ogni 10 segni).
+    La deriva è più ripida nella prima metà della riga (e3c20: −0,036 contro −0,017 ogni 10 segni): riparte a ogni riga.
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
