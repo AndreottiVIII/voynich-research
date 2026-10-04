@@ -13475,3 +13475,26 @@ pagine, che mescolava classi diverse.
   parole appena scritte, che si consuma con le lettere, (3) da un'abitudine di sessione su come scrivere ciascuna parola,
   (4) da una debole preferenza fissa della parola. La copia dalla riga sopra non aggiunge nulla oltre il paragrafo
   (e3b85). Va d'accordo con l'e376 (l'inventiva è della sessione) e con la deriva del vocabolario.
+
+## 4/10/2026 (notte) — e3b87: la "grafia di sessione" c'è anche in tre generatori e nel Codex Marianus: non distingue il Voynich
+
+Preregistrato (`preregistrazioni/e3b87.md`). Misura dell'e3b86 con blocchi di 25 righe come "pagina" e "paragrafo".
+Funzione provata su testo finto (grafia del momento +0,173; nessuna +0,003).
+
+| testo | blocchi | D dentro | D fra | contrasto (IC 95%) | esito |
+|---|---|---|---|---|---|
+| Naibbe | 199 | +0,063 | +0,064 | −0,001 (−0,009 – +0,004) | no |
+| U2 | 143 | +0,155 | +0,071 | +0,084 (+0,059 – +0,096) | grafia di sessione |
+| U3 | 142 | +0,140 | +0,070 | +0,071 (+0,047 – +0,080) | grafia di sessione |
+| Timm e Schinner | 160 | +0,177 | +0,114 | +0,063 (+0,032 – +0,086) | grafia di sessione |
+| Hatton Gospels, þ/ð iniziale | 403 | −0,123 | −0,102 | −0,022 (−0,032 – −0,013) | al contrario |
+| Codex Marianus, и/ꙇ iniziale | 292 | +0,017 | −0,026 | +0,043 (+0,030 – +0,055) | grafia di sessione |
+
+Voynich (e3b86): +0,045 (ZL), +0,046 (IT).
+
+- **Esiti preregistrati:** grafia di sessione in U2, U3, Timm e Schinner e nel Codex Marianus; no in Naibbe; al
+  contrario nei Hatton Gospels.
+- **Lettura:** la grafia di sessione del Voynich (+0,045) è nell'intervallo dei generatori U2, U3 e Timm e Schinner
+  (+0,06/+0,08) e del Codex Marianus: **non distingue il Voynich**, né dai generatori né dagli scribi. Va bene come
+  dettaglio da imitare nel generatore, non come argomento nel white paper. (I valori dei testi storici non sono
+  confrontabili in grandezza: le varianti sono sbilanciate e legate a poche parole.)
