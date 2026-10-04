@@ -14715,3 +14715,21 @@ atteso stessa parola + pagina + deriva).
   *k*/*t*, *sh*/*ch*, -*ey*/-*dy* si accordano fra parole vicine della stessa riga (+0,12 – +0,15 fra parole accanto) e
   l'accordo cala lentamente (a 3 parole ne resta più della metà); nelle lingue naturali del corpus a 3 parole ne resta al
   più il 46% (Plinio) e di solito il 0–20%.
+
+## 4/10/2026 (mattina) — e3c36: la finestra di *k*/*t*, *sh*/*ch*, -*ey*/-*dy* è chiara in B, incerta in A (pochi dati)
+
+Preregistrato (`preregistrazioni/e3c36.md`). Misura dell'e3c34 con le tre classi insieme, per lingua di Currier.
+
+| gruppo | parole | K(1) | K(2) | K(3) | R0 (IC 95%) |
+|---|---|---|---|---|---|
+| ZL, A | 6.488 | +0,104 | +0,052 | +0,045 | 0,43 (−0,37 – 1,16) |
+| ZL, B | 20.641 | +0,138 | +0,085 | +0,084 | **0,60** (0,38 – 0,87) |
+| IT, A | 6.464 | +0,108 | +0,030 | +0,091 | **0,84** (0,21 – 1,98) |
+| IT, B | 20.693 | +0,143 | +0,077 | +0,092 | **0,65** (0,43 – 0,92) |
+
+- **Esito preregistrato: la finestra c'è in ZL B, IT A, IT B** (3 gruppi su 4; manca ZL A, con una stima più bassa e un
+  intervallo larghissimo).
+- In B (scribi 2 e 3, 82 pagine) la forma è chiara in tutte e due le trascrizioni: a 3 parole resta il 60–65%
+  dell'accordo fra parole accanto, con estremo basso sopra 0,38 (sopra quasi tutte le lingue naturali, mediana 0,13). In A
+  (mano 1, erbario, parole delle classi tre volte meno) l'accordo fra parole accanto c'è (+0,10), ma la forma non si può
+  stabilire.

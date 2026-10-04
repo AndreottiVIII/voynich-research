@@ -206,7 +206,8 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     soglia); con le classi automatiche (k/t, a/o, ch/e) il Voynich cala come le lingue (R0 0,07–0,26) in tutte e tre le
     trascrizioni. **e3c35:** k/t, sh/ch, -ey/-dy hanno accordo accanto +0,12–0,15 che a 3 parole resta al 56–74%; qo/o ha
     accordo solo da 2 parole in su (accanto decide il raccordo); a/o quasi niente (per questo le classi automatiche sembravano
-    da lingua). Lingue naturali: a 3 parole al più 46% (Plinio), di solito 0–20%.
+    da lingua). Lingue naturali: a 3 parole al più 46% (Plinio), di solito 0–20%. **e3c36:** la finestra (k/t, sh/ch, -ey/-dy)
+    è chiara in B (R0 0,60–0,65, IC basso 0,38–0,43) in tutte e due le trascrizioni; in A pochi dati (IT sì, ZL incerto).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
