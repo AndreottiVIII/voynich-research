@@ -55,6 +55,7 @@ class Sacco:
     ALFA = 50.0
 
     POSIZIONALE = False     # e411: il carattere distingue il primo segno, l'ultimo e quelli in mezzo
+    GAMMA = 1.0             # e413: esponente sulla frequenza delle parole del lessico (1 = frequenza cosi' com'e')
 
     def _segni(self, parole):
         import misure
@@ -96,7 +97,7 @@ class Sacco:
 
     def pesi_carattere(self, tipi, conti, delta, kappa):
         cache = self._cache_pos if self.POSIZIONALE else self._cache_segni
-        pesi = [c * math.exp(kappa * sum(delta.get(g, 0.0) * k for g, k in cache[w].items())) for w, c in zip(tipi, conti)]
+        pesi = [c ** self.GAMMA * math.exp(kappa * sum(delta.get(g, 0.0) * k for g, k in cache[w].items())) for w, c in zip(tipi, conti)]
         return list(itertools.accumulate(pesi))
 
     FORME = {}      # argomenti di parole_nuove.FormeUniche (e405: comuni, quattro, forza)
