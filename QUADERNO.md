@@ -12100,3 +12100,10 @@ Preregistrato (`preregistrazioni/e3b25.md`). Quote grezze sulle coppie di parole
   varianti di grafia). I testi "latino abbreviato" del corpus sembrano abbreviati da un programma (*geit* per *genuit*),
   non da uno scriba, e la cache non ha una trascrizione diplomatica con varianti. Sarebbe il confronto giusto per dire se
   la memoria corta è un'abitudine generica di chi scrive a mano.
+
+## 4/10/2026 (notte) — e3b26: la memoria si consuma con le lettere anche senza le parole cortissime in mezzo
+
+Preregistrato (`preregistrazioni/e3b26.md`). Coppie a distanza 2, con la parola in mezzo di 3–4 lettere ("corta", 3.047
+coppie) o di 6 o più ("lunga", 6.530): eccesso di accordo +0,058 contro +0,023; differenza **+0,035**, IC 95% +0,015 –
++0,056. **Esito preregistrato: si consuma con le lettere anche così.** La cautela dell'e3b20 (formule con parole
+cortissime come *ol*, *dy*) non spiega l'effetto.
