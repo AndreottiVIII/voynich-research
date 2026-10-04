@@ -15065,3 +15065,22 @@ volta. Tutte le classi superano la regola di ingresso (300 minoritarie nei tipi 
 - **Lettura insieme all'e3c50:** gli scribi islandesi non hanno accordo nelle forme di lettera; nel Voynich le forme
   pure (secondo GC) ne hanno poco o niente di chiaro; le scelte che cambiano la parola (gallows, finali) hanno la finestra.
   Quindi la finestra sembra legata a **quale parola si scrive**, non a **come si traccia la lettera**.
+
+## 4/10/2026 (mattina) — e3c52: in EVA, con la misura corretta, *k*/*t* e -*ey*/-*dy* hanno la finestra da sole; *sh*/*ch* al limite; *qo*/*o* solo a 2–3 parole
+
+Preregistrato (`preregistrazioni/e3c52.md`). Misura dell'e3c48 (50 rimescolamenti), una scelta per volta, ZL e IT.
+
+| scelta | K corretto 1 ZL / IT | K corretto 2 / 3 ZL | K corretto 2 / 3 IT | r ZL / IT | voce (ZL e IT) |
+|---|---|---|---|---|---|
+| *k*/*t* | +0,136 / +0,143 | +0,106 / +0,102 | +0,103 / +0,104 | 0,76 / 0,72 | **finestra** |
+| -*ey*/-*dy* | +0,176 / +0,164 | +0,141 / +0,082 | +0,123 / +0,093 | 0,63 / 0,66 | **finestra** |
+| *sh*/*ch* | +0,098 / +0,107 | +0,056 / +0,064 | +0,036 / +0,086 | 0,61 / 0,57 | accordo fra vicine senza finestra |
+| *qo*/*o* | +0,003 / +0,008 | +0,080 / +0,138 | +0,099 / +0,138 | — | accordo solo a 2–3 parole |
+
+- **Esito preregistrato: tutte e quattro le voci replicate in ZL e IT.** *k*/*t* e -*ey*/-*dy*: finestra, ciascuna da
+  sola, con intervalli lontani da 0 (K corretto 2–3: estremi bassi +0,068 – +0,072).
+- *sh*/*ch*: l'accordo accanto è chiaro (+0,10, intervalli da +0,04 – +0,05), a 2–3 parole l'estremo basso è +0,018 in
+  tutte e due le trascrizioni, appena sotto la soglia 0,02; r 0,57 – 0,61 sopra 0,53. È **al limite**, non assente. Una
+  parte dell'accordo osservato era distorsione (K nullo +0,025), come in GC (e3c51), dove però la correzione pesava di più.
+- *qo*/*o*: niente accanto (decide il raccordo), accordo **forte** a 3 parole (+0,138 in tutte e due): la forma più
+  strana delle quattro, già vista nell'e3c35 e confermata corretta.
