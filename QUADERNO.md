@@ -12820,3 +12820,25 @@ generatori in unità di 25 righe. Codice dell'e3b56 già provato; qui solo il ca
 - **Lettura:** con il metodo corretto la conclusione dell'e3b09 regge: la memoria corta delle scelte separa il Voynich
   dai generatori pubblicati. Con l'e3b56: il Voynich si comporta, per questo tratto, come uno scriba umano (Hatton
   Gospels) e non come i generatori.
+
+## 4/10/2026 (notte) — e3b58: lo scriba anglosassone ha un "raccordo", ma otto volte più debole di quello del Voynich
+
+Preregistrato (`preregistrazioni/e3b58.md`). Informazione mutua fra la scelta a inizio parola e l'ultima lettera della
+parola prima, contro il nullo che tiene ferme le parole (rimescola la scelta fra le occorrenze dello stesso tipo di
+parola nella stessa unità). Codice provato su testi finti (con raccordo effetto +0,19 bit, p < 0,005; solo preferenze
+delle parole −0,001, p 0,83).
+
+| testo, scelta | occorrenze | quota þ / qo | entropia (bit) | MI osservata | MI nullo | effetto | effetto / entropia | z | p |
+|---|---|---|---|---|---|---|---|---|---|
+| Hatton Gospels, þ/ð a inizio parola | 10.713 | 0,913 | 0,427 | 0,0100 | 0,0070 | +0,0030 | +0,007 | +3,1 | 0,002 |
+| Voynich ZL, *qo*/*o* | 8.124 | 0,497 | 1,000 | 0,0942 | 0,0362 | +0,0580 | **+0,058** | +27,2 | < 0,001 |
+
+- **Esito preregistrato: anche lo scriba anglosassone ha un raccordo** (p 0,002).
+- **Ma è piccolo:** in proporzione all'incertezza della scelta l'effetto è 0,007 contro 0,058 nel Voynich, cioè circa
+  **otto volte più debole**. Quindi un legame fra la fine di una parola e la scelta grafica all'inizio della seguente
+  può nascere dalla scrittura a mano, ma la forza del raccordo del Voynich (*qo*- dopo -*y*/-*o*/-*d*, *o*- dopo
+  -*n*/-*r*/-*s*/-*m*/-*l*) non ha paragone in questo scriba.
+- **Quadro con e3b56:** rispetto allo scriba anglosassone, la memoria corta del Voynich è della stessa grandezza, il
+  raccordo è molto più forte. Il raccordo resta un tratto proprio del sistema di scrittura del Voynich.
+- Nota: non ho verificato se la Secreta Alberti e il NT fiammingo del corpus vengano da stampe o da manoscritti (nella
+  preregistrazione dell'e3b53 avevo scritto "stampa del Cinquecento" per la Secreta Alberti senza verificarlo).
