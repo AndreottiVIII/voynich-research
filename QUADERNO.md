@@ -15528,3 +15528,18 @@ lista unica: nessun picco).
   ciclo. Il criterio non aveva previsto che la distanza 1 è speciale nel Voynich: errore di disegno, dichiarato.
 - **Lettura per l'ipotesi Tritemio:** nessun ritmo fisso da 2 a 6 parole oltre l'effetto della parola accanto; liste di
   parole a turno con ciclo corto non ci sono.
+
+## 4/10/2026 (mattina) — e3c70: nessun segnale di un messaggio a bit nelle scelte doppie (nella portata della prova)
+
+Preregistrato (`preregistrazioni/e3c70.md`; portata dichiarata prima: vede un messaggio che riparte a ogni pagina o riga,
+non uno continuo). Sequenza degli scarti delle scelte (*qo*/*o*, *k*/*t*, *sh*/*ch*, -*ey*/-*dy*) in ordine di lettura,
+pagina per pagina (ZL 36.323, IT 36.438 scelte).
+
+- **Controlli validi:** il messaggio latino in codice di Bacone dà fasi con z fino a 70,7 (dall'inizio della pagina) e
+  fino a 6,5 (dall'inizio della riga); il "solo stato" niente (|z| ≤ 0,9).
+- **Esito preregistrato: nessun segnale di un messaggio a bit nelle scelte.** Pettine: |z| ≤ 2,1; fase dall'inizio della
+  pagina: |z| ≤ 2,0; fase dall'inizio della riga: il valore più alto è P = 2 (z 3,0 ZL, 3,3 IT), sotto la soglia 3,5, e
+  si spiega con l'autocorrelazione negativa alla distanza 1 (−0,03: due scelte nella stessa parola o in parole accanto
+  si alternano un poco), non con un messaggio.
+- **Lettura:** se nelle scelte doppie ci fosse un messaggio alla Bacone che ricomincia a ogni pagina o riga, si vedrebbe
+  con grande evidenza; non c'è. Un messaggio continuo che attraversa le pagine resta fuori dalla portata della prova.
