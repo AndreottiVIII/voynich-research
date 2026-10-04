@@ -97,3 +97,22 @@ Letto attraverso un riassunto automatico della pagina, non riga per riga:
 Se la lettura a mano conferma il CC0, la strada B (codice piu' statistiche) e' aperta, citando Zandbergen e Landini.
 Decisione di Davide del 4/10 (provvisoria, poi sospesa): pubblicare la v12 con codice piu' statistiche e cifratura
 robusta; alle 6:10 ha rimandato le decisioni al mattino dopo e chiesto di continuare a migliorare la v12.
+
+## 7. Licenza riletta a mano (4/10, 8:40) e decisione di Davide
+
+Aperta la pagina https://www.voynich.nu/roadmap.html, sezione "Licences and copyright", e letto il testo (non un
+riassunto). Dice, in sostanza:
+
+- il materiale del sito si puo' usare liberamente; si chiede di citare la fonte e, se possibile, di mettere un
+  collegamento al sito;
+- le trascrizioni del testo del Voynich raccolte nelle tabelle del sito vengono da fonti diverse, sono sempre state di
+  pubblico dominio e sono messe a disposizione sul sito secondo la licenza Creative Commons CC0;
+- il font "Voynich Eva Hand 1" e' di Gabriel Landini e non va usato a fini commerciali (non ci riguarda finche' l'uscita
+  e' solo testo EVA).
+
+**Conferma: la strada "codice piu' statistiche" e' aperta.** Da fare comunque nel repo pubblico: citare Rene' Zandbergen
+e Gabriel Landini e il sito voynich.nu come fonte della trascrizione ZL (versione 3b del 13/05/2025), con il collegamento.
+Cautele: e' la dichiarazione del curatore del sito, non un parere legale; la nostra copia viene da un repo che la
+ridistribuisce (stessa impronta SHA-256 dell'originale, vedi dati/FONTI.md).
+
+**Decisione di Davide (4/10, 8:40): si pubblica la v14.**
