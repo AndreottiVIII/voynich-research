@@ -14339,3 +14339,23 @@ finte (all'inizio −0,059, verso il margine +0,042, uniforme −0,007).
   e se ne allontana scrivendo, più che di una semplificazione vicino al margine destro.
 - Va insieme a due cose già viste: all'a capo la memoria delle scelte si dimezza (e3b66) e la catena di segni riparte; la
   riga è un'unità di scrittura. Ipotesi da non dare per provata: un'abitudine che "si ricarica" a inizio riga.
+
+## 4/10/2026 (mattina) — e3c21: dopo il salto di un disegno le forme marcate non ripartono; accanto al disegno sono più rare (incerto)
+
+Preregistrato (`preregistrazioni/e3c21.md`). ZL, regressione della scelta (1 = *qo*, *k*, *sh*, -*ey*) dentro strati
+(classe, parola coperta) su x (segni prima nella riga), S (prima parola dopo un salto), E (ultima prima di un salto).
+
+| termine | coefficiente (IC 95%) |
+|---|---|
+| x, ogni 10 segni | −0,031 (−0,037 – −0,025) |
+| S, prima parola dopo il salto | **−0,051** (−0,096 – −0,002) |
+| E, ultima parola prima del salto | **−0,068** (−0,110 – −0,025) |
+
+35.287 parole, 726 prime dopo un salto (x medio 21 segni); salto atteso se la deriva ripartisse: +0,066.
+
+- **Esito preregistrato: incerto.** **Deviazione dichiarata:** la preregistrazione non prevedeva un S sotto 0. Le forme
+  marcate dopo il disegno **non ripartono** (il contrario di +0,066); anzi la prima parola dopo il salto ne ha 5 punti in
+  meno, e l'ultima prima del salto 7 punti in meno, a parità di parola e di posizione.
+- **Lettura possibile (da verificare):** le parole che toccano il disegno, da tutte e due le parti, si scrivono più
+  "semplici", come vicino a un bordo. La deriva lungo la riga invece continua oltre il disegno, come la memoria (e3b67).
+  Prossimo passo (e3c22): confrontare con i bordi veri della riga (prima e ultima parola) nella stessa regressione.
