@@ -12264,3 +12264,20 @@ Eccesso di accordo delle scelte con 10–19 lettere in mezzo (e a 0 lettere), co
   Con un contrasto con intervallo, la differenza va nella stessa direzione in tutte e due le trascrizioni ma non è
   dimostrata: le mezze vite di quelle voci erano stime senza intervallo e si sono rivelate fragili (e3b33). Resta solo
   un'indicazione. Il fatto solido è la memoria corta in sé (presente in A e in B, nelle tre trascrizioni EVA usate).
+
+## 4/10/2026 (notte) — e3b35: con Takahashi reggono tre risultati su quattro; la memoria "separata per classe" ha anche una piccola parte comune
+
+Preregistrato (`preregistrazioni/e3b35.md`). Repliche sulla IT con le stesse funzioni e soglie.
+
+| risultato | IT | esito |
+|---|---|---|
+| compressione a fine riga (e3a64) | −0,035, p 0,001 | **regge** |
+| l'a capo azzera la memoria delle scelte (e3b10) | stessa riga +0,031, a cavallo +0,003; differenza IC +0,013 – +0,043 | **regge** |
+| memoria separata per classe (e3b18) | stessa classe +0,022 (IC +0,016 – +0,029); classi diverse **+0,005 (IC +0,001 – +0,010)** | **non regge** |
+| la memoria si consuma con le lettere (e3b20) | +0,022, IC +0,007 – +0,036 | **regge** |
+
+- **Correzione della lettura dell'e3b18:** con la IT anche fra scelte di classi diverse c'è un piccolo legame a breve
+  distanza (+0,005), circa un quarto di quello dentro la stessa classe (+0,022); con la ZL era +0,003 con intervallo che
+  toccava lo zero. La memoria è **soprattutto** separata per ogni scelta, ma ha anche una piccola parte comune.
+- Di conseguenza la nota "la memoria non sembra venire dallo stato della penna" va ammorbidita: una piccola parte comune
+  c'è, e potrebbe avere anche una causa fisica; la parte principale resta per classe.

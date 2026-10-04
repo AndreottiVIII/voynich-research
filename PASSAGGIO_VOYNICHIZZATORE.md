@@ -339,3 +339,4 @@ Dettagli e numeri nel `QUADERNO.md` (e373–e3a02); tutto replicato con la trasc
   - (e3b31) Le parole uniche nascono spesso come variazione (a una modifica) di una parola delle 4 precedenti nella stessa riga: nel generatore, le forme nuove vanno create soprattutto modificando una parola appena scritta.
   - **Correzione (e3b31):** le parole uniche con una "sorella" fra le 4 precedenti sono solo il 2,6% (contro 1,5% atteso): l'effetto c'è ma riguarda poche parole uniche; non usarlo come meccanismo principale per le forme nuove.
   - **Correzione (e3b34):** che la memoria duri di più in lingua B non è dimostrato; usare la stessa durata (circa 2–4 parole, qualche decina di lettere al massimo) in A e B.
+  - (e3b35) La memoria è soprattutto per variante, con una piccola parte comune (circa un quarto): nel generatore si può aggiungere un debole stato comune.
