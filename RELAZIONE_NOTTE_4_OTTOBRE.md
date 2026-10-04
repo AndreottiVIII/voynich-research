@@ -458,3 +458,36 @@ Figura nuova: `risultati/figure/deriva_riga.png` (la quota delle forme marcate l
 ai bordi e accanto ai disegni).
 
 Correzione: nell'e3c23 avevo scritto "chi scrive lascia cadere la *q* per risparmiare spazio"; l'e3c24 lo smentisce.
+
+## Aggiunte (7:50 – 8:05): la memoria misurata nel modo più pulito è più piccola, e la forma non è dimostrata (e3c26 – e3c31)
+
+Questa è la correzione più importante della mattina, quindi la scrivo in modo semplice.
+
+**Che cosa ho fatto.** Ho rifatto la misura della memoria nel modo più pulito che conosco:
+
+- tolte la prima e l'ultima parola di ogni riga, che hanno forme proprie;
+- ogni parola confrontata con le altre volte che compare la stessa parola, non con la media generale;
+- vicine e lontane prese **dentro le stesse righe**, perché le righe lunghe e quelle corte del Voynich si comportano in
+  modo diverso;
+- le lingue tagliate in righe finte della stessa lunghezza, per confrontarle alla pari.
+
+**Che cosa resta.**
+
+1. **La memoria delle scelte c'è, ma è più piccola di quanto ti avevo scritto.** Fra parole accanto, dentro le stesse
+   righe, l'accordo delle scelte vale circa +0,09 – +0,10 (e3c31). È della **stessa grandezza** dell'accordo
+   grammaticale delle lingue (fra +0,07 e +0,34), non più forte. In punti percentuali, fra vicine e lontane, sono circa 4
+   punti in ZL e 2,5 in Takahashi (e3c27). Sta soprattutto in *qo*/*o* e -*ey*/-*dy*; in *k*/*t* è debole, in *sh*/*ch* non
+   dimostrata.
+2. **La forma "piatta" è la più alta come stima, ma non è dimostrata.** Dentro le stesse righe a 3 parole resta il
+   60–70% dell'accordo nel Voynich, contro lo 0–30% nelle lingue (e3c30, e3c31). Gli intervalli del Voynich però sono
+   larghi, e con la regola che mi ero dato la differenza non risulta dimostrata. La separazione netta che vedevo prima
+   (e3c28) veniva in parte dal mescolare righe corte e lunghe.
+3. **I generatori pubblicati non hanno questo accordo** (e3c29): resta vero.
+
+**In una frase:** il Voynich ha un piccolo accordo delle scelte di grafia fra parole vicine, simile per grandezza
+all'accordo grammaticale delle lingue, forse più lungo, e nessun generatore lo riproduce. Che sia "un'abitudine di chi
+scrive e non grammatica" è un'ipotesi che i dati favoriscono un poco, non una conclusione.
+
+**Lezione di metodo** (va nel white paper): nel Voynich la posizione nella riga e la lunghezza della riga cambiano le
+scelte. Ogni misura di "memoria" deve toglierle, altrimenti le gonfia. Io l'ho capito per gradi stanotte, e ogni passo è
+nel Quaderno.
