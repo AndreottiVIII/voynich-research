@@ -904,3 +904,6 @@ come **PDF del libro**.
 - Online: **v21** + comando `pdf` + carattere 1.1. In sospeso: prova su un altro computer, giudice indipendente, righe oltre 1,25 volte (11,6% contro 6,0%), costo di scrypt.
 - (sera) Sito: libro illustrato nel browser (disegni veri staccati dal Voynich, PDF con jsPDF, 8 MB); sito passato
   alla v21 dopo la correzione del difetto segnalato; testi con le misure della v21 su 24 chiavi. `SITO_WEB.md`, §13.
+- (sera) **Sito pubblicato** su https://andreottiviii.github.io/voynichizzatore/ (richiesta di Davide): pagina Research
+  col white paper scaricabile, Read con conferme passo per passo, didascalie col solo codice del foglio. Procedura di
+  aggiornamento in `SITO_WEB.md`, §14.
