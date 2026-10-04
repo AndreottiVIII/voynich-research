@@ -102,12 +102,13 @@ class FormeUniche:
     DECIMO, CANDIDATE, ALFA = 0.1, 6, 50.0
     COMUNE, MINIMO_CONTESTO = 0.01, 3      # e405: segni comuni (quota nel libro); contesto di tre segni visto almeno 3 volte
 
-    def __init__(self, rr, comuni=False, quattro=False, forza=1.0, unioni=0.0, unioni_valide=False):
+    def __init__(self, rr, comuni=False, quattro=False, forza=1.0, unioni=0.0, unioni_valide=False, giuntura=0.0):
         """comuni: il profilo pesa solo i segni comuni (e405, N1); quattro: modello a quattro segni con ripiego sui
         trigrammi (N2); forza: esponente del peso di profilo nella scelta fra candidate (N3)."""
         self.comuni, self.quattro, self.forza = comuni, quattro, forza
         self.unioni = unioni        # e407: probabilita' che una parola nuova di almeno 6 segni sia l'unione di due parole note della pagina
         self.unioni_valide = unioni_valide      # e413: l'unione si accetta solo se ogni terna di segni e' vista nelle parole uniche
+        self.giuntura = giuntura                # e414: probabilita' minima delle due terne di segni a cavallo della giuntura
         self.campioni = self.scartate = 0
         import math
         from disposizione import posizione
@@ -190,12 +191,27 @@ class FormeUniche:
         tab = self.tri['tutte']
         return all((a, b) in tab and c in tab[(a, b)][0] for a, b, c in zip(u, u[1:], u[2:]))
 
+    def giuntura_probabile(self, a, b):
+        """Le due terne di segni a cavallo della giuntura hanno probabilita' condizionata almeno self.giuntura nel modello
+        dei segni delle parole uniche."""
+        ua, ub = ('^', '^') + tuple(D(a)), tuple(D(b)) + ('$',)
+        tab = self.tri['tutte']
+        for ctx, c in (((ua[-2], ua[-1]), ub[0]), ((ua[-1], ub[0]), ub[1])):
+            if ctx not in tab:
+                return False
+            segni, pesi = tab[ctx]
+            if c not in segni or pesi[segni.index(c)] / sum(pesi) < self.giuntura:
+                return False
+        return True
+
     def _unione(self, per_lung, L, rnd):
         for _ in range(20):
             la = rnd.randrange(2, L - 1)
             if per_lung.get(la) and per_lung.get(L - la):
-                w = rnd.choice(per_lung[la]) + rnd.choice(per_lung[L - la])
-                if w not in self.att and w not in self.usate and (not self.unioni_valide or self.ben_formata(w)):
+                a, b = rnd.choice(per_lung[la]), rnd.choice(per_lung[L - la])
+                w = a + b
+                if (w not in self.att and w not in self.usate and (not self.unioni_valide or self.ben_formata(w))
+                        and (not self.giuntura or self.giuntura_probabile(a, b))):
                     return w
         return None
 

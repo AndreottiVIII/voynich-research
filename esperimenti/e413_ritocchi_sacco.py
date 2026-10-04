@@ -25,6 +25,10 @@ TESTO = os.path.join(QUI, '..', 'esecuzioni', 'voynichizzatore', 'isidoro_xvii_i
 CHIAVI = tuple(range(1, 13))
 STRATI = OrderedDict([('S1', 'unioni ben formate'), ('S2', 'S1, kappa sul sacco completo ed esponente sulla frequenza')])
 SEME_REGOLAZIONE, GIRI = 11, 10
+NOME = 'e413_ritocchi_sacco'        # l'e414 riusa main() cambiando NOME, TITOLO, RIFERIMENTO, STRATI e regola
+TITOLO = 'e413 — Tre ritocchi al sacco della v12'
+RIFERIMENTO = ('Riferimento, v12 sulle stesse chiavi: 0,576 ± 0,007 / 0,619 ± 0,009, pagella 15,0, cancello 11 su 12; gruppi G3 0,65, G8 0,67. '
+               'Preregistrazione: `preregistrazioni/e413.md`.')
 CANCELLO = ('S1', 'R_riga', 'A', 'scelte_per_riga', 'r_righe_consecutive')
 SEGUITE = ('G2 y+o', 'G3 fra le 100 piu frequenti', 'G9 JSD pagina-manoscritto', 'G6 coppie viste altrove', 'G4 inizio ch', 'G3 tipi su parole')
 
@@ -108,7 +112,7 @@ def main():
     import e293_banco as e293
     x1, x2, reg = regola()
     print('kappa %.3f, gamma %.3f: JSD %.4f, fra le 100 %.4f, scarto %.3f' % (reg['kappa'], reg['gamma'], reg['JSD'], reg['fra le 100'], reg['scarto']), flush=True)
-    par = {'S1': x1, 'S2': x2}
+    par = dict(zip(STRATI, (x1, x2)))
     lavori = [('V', 0, None)] + [(s, i, par[s]) for s in STRATI for i in CHIAVI]
     ris = {}
     with Pool(max(1, int(os.environ.get('PROCESSI', '1')))) as pool:
@@ -137,12 +141,12 @@ def main():
             ('seguite', OrderedDict((n, media(lambda r: r['seguite'][n])) for n in rs[0]['seguite']))])
     out = OrderedDict([('regolazione', reg), ('parametri', par), ('Voynich', voy), ('sintesi', sintesi),
                        ('per_chiave', OrderedDict(('%s|%d' % a, ris[a]) for a in ris if a[0] != 'V'))])
-    json.dump(out, open(os.path.join(RISULTATI, 'e413_ritocchi_sacco.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1, default=float)
-    gr = list(sintesi['S1']['gruppi'])
-    md = ['# e413 — Tre ritocchi al sacco della v12', '',
-          'Isidoro XVII nascosto nel sacco, 12 chiavi per strato (medie ± errore standard). Riferimento, v12 sulle stesse chiavi: 0,576 ± 0,007 / 0,619 ± 0,009, '
-          'pagella 15,0, cancello 11 su 12; gruppi G3 0,65, G8 0,67. Preregistrazione: `preregistrazioni/e413.md`.', '',
-          'Regolazione di S2 sul pannello: κ = %.3f, γ = %.3f; JSD pagina-manoscritto %.4f (Voynich %.4f); fra le 100 più frequenti %.4f (Voynich %.4f).' % (
+    json.dump(out, open(os.path.join(RISULTATI, NOME + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1, default=float)
+    primo = next(iter(sintesi.values()))
+    gr = list(primo['gruppi'])
+    md = ['# ' + TITOLO, '',
+          'Isidoro XVII nascosto nel sacco, 12 chiavi per strato (medie ± errore standard). ' + RIFERIMENTO, '',
+          'Regolazione del secondo strato sul pannello: κ = %.3f, γ = %.3f; JSD pagina-manoscritto %.4f (Voynich %.4f); fra le 100 più frequenti %.4f (Voynich %.4f).' % (
               reg['kappa'], reg['gamma'], reg['JSD'], reg['JSD_Voynich'], reg['fra le 100'], reg['cento_Voynich']), '',
           '| strato | che cosa | AUC e231 | AUC e266 (min – max) | pagella | estese | cancello | decodifica | capacità | ' + ' | '.join(gr) + ' |',
           '|---|---|---|---|---|---|---|---|---|' + '---|' * len(gr)]
@@ -151,11 +155,11 @@ def main():
             s, x['che cosa'], x['AUC_e231'], x['es_e231'], x['AUC_e266'], x['es_e266'], x['AUC_e266_min_max'][0], x['AUC_e266_min_max'][1], x['pagella_media'],
             x['estese_media'], x['chiavi_con_riga'], x['decodifica_esatta'], x['capacita_bit'], ' | '.join('%.2f' % z for z in x['gruppi'].values())))
     md += ['', '| caratteristica seguita | Voynich | ' + ' | '.join(sintesi) + ' |', '|---|---|' + '---|' * len(sintesi)]
-    md += ['| %s | %.4f | %s |' % (n, voy['pannello'].get(n, float('nan')), ' | '.join('%.4f' % x['seguite'][n] for x in sintesi.values())) for n in sintesi['S1']['seguite']]
+    md += ['| %s | %.4f | %s |' % (n, voy['pannello'].get(n, float('nan')), ' | '.join('%.4f' % x['seguite'][n] for x in sintesi.values())) for n in primo['seguite']]
     md += ['', '## Materie mancate (su 12 chiavi)', '']
     for s, x in sintesi.items():
         md += ['**%s.** %s.' % (s, ', '.join('%s (%d)' % kv for kv in x['materie_mancate'].items()) or 'nessuna'), '']
-    open(os.path.join(RISULTATI, 'e413_ritocchi_sacco.md'), 'w', encoding='utf-8').write('\n'.join(md) + '\n')
+    open(os.path.join(RISULTATI, NOME + '.md'), 'w', encoding='utf-8').write('\n'.join(md) + '\n')
     print(json.dumps({s: [round(x['AUC_e231'], 3), round(x['AUC_e266'], 3), x['pagella_media'], x['chiavi_con_riga']] for s, x in sintesi.items()}))
 
 
