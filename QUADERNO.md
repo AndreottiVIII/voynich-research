@@ -11175,3 +11175,21 @@ catene di ordine noto: ordine 1 → M1 migliore in 68 casi su 71 (96%); ordine 2
   sequenze di lettere di una lingua hanno molta struttura di ordine 2 (che la misura di ordine 1 non vede), il Voynich
   poca. Cautela: in EVA con i composti fusi alcuni gruppi (*ch*, *sh*, *iin*, *ckh*…) sono già un segno solo, e questo
   sposta struttura dall'ordine 2 all'ordine 1.
+
+## 4/10/2026 (notte) — e3a77: "quasi ordine 1" regge con Takahashi, con Glen Claston e anche in EVA semplice
+
+Preregistrato (`preregistrazioni/e3a77.md`). Profilo dell'e3a76 (stessa funzione tarata), mediana di 5 × 10.000 parole.
+
+| trascrizione | M1 | M2 | guadagno M2 − M1 | esito |
+|---|---|---|---|---|
+| ZL, EVA fuso (e3a76) | 0,581 | 0,686 | +0,105 | — |
+| IT (Takahashi), EVA fuso | 0,560 | 0,669 | +0,109 | regge |
+| GC (Glen Claston, v101) | 0,593 | 0,653 | **+0,060** | regge |
+| ZL, EVA semplice (*ch* = *c* + *h*) | 0,545 | 0,697 | +0,152 | descrittivo |
+
+Soglia: metà del guadagno delle lingue riscritte con ordine 2 (0,185).
+
+- **Esito preregistrato: regge** con IT e con GC. Con l'alfabeto di Glen Claston il guadagno è ancora più piccolo
+  (+0,06). Anche spezzando i composti dell'EVA (dove il guadagno deve crescere per costruzione) resta +0,15, sotto la
+  soglia, e la catena di ordine 1 spiega già 0,55.
+- Il meccanismo delle parole del Voynich è quasi di ordine 1 qualunque sia il modo di dividere i glifi.
