@@ -11417,3 +11417,26 @@ sensati, dichiarato). Misure dell'e3a87 su 47 testi sensati (con almeno 500 copp
   avanti (calo 1,1–5,3: non si dice "il il", e le parole tornano col discorso); nel Voynich succede il contrario, la
   ripetizione è forte a breve distanza e si spegne in 6–7 parole (0,12). È la "ripresa di memoria" dentro la riga
   (e3a86), che le lingue non hanno.
+
+## 4/10/2026 (notte) — e3a90: nessun generatore e nemmeno il gibberish umano ha la ripetizione ravvicinata del Voynich
+
+Preregistrato (`preregistrazioni/e3a90.md`). Misure dell'e3a89 su generatori e gibberish (base: catena di ordine 2
+addestrata su ciascun testo).
+
+| testo | eccesso stessa riga d 1–4 | d 7–10 | calo | esito alla lettera |
+|---|---|---|---|---|
+| **Voynich** (e3a87) | +0,0066 | +0,0010 | **0,12** | — |
+| Naibbe | +0,0002 | −0,0002 | −0,98 | "ripete subito come il Voynich" (**difetto della regola**) |
+| U2 | +0,0054 | +0,0069 | 1,28 | come le lingue |
+| U3 | +0,0034 | +0,0063 | 1,88 | come le lingue |
+| Timm e Schinner | +0,0077 | +0,0070 | 0,91 | in mezzo |
+| gibberish umano | +0,0036 | +0,0057 | 1,59 | come le lingue |
+
+- **Difetto della regola, dichiarato:** il calo è un rapporto; quando i due eccessi sono quasi zero (Naibbe: ±0,0002) il
+  rapporto non ha senso e la regola dà "come il Voynich". In realtà Naibbe non ha **nessuna** ripetizione in eccesso
+  nella riga. La regola andava scritta con una soglia sull'eccesso a d 1–4.
+- **Lettura:** nessun testo di confronto ha la firma del Voynich (ripetizione forte subito, spenta in 6–7 parole). Timm e
+  Schinner ripete quanto il Voynich a breve distanza ma non si spegne (la sua copia pesca ugualmente lontano); U2, U3 e il
+  gibberish scritto a mano fanno come le lingue (si ripete più lontano che vicino). La ripresa "di memoria corta" dentro
+  la riga è un altro tratto proprio del Voynich, da aggiungere alla lista di quelli che nessun generatore pubblicato
+  riproduce (con la giuntura e la chiusura della riga).
