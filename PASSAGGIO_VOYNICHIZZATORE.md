@@ -353,3 +353,21 @@ Dettagli e numeri nel `QUADERNO.md` (e373–e3a02); tutto replicato con la trasc
   - (e3b69, e3b70) Con intervalli onesti la memoria delle scelte del Voynich è solida (+0,086 ZL, +0,076 IT, scala normalizzata), uguale nelle mani; non è un effetto della catena (sul testo riscritto dalla catena vale circa 0). Se uno scriba vero la abbia non è dimostrato. Per il generatore non cambia nulla rispetto alle note e3b62–e3b67.
   - (e3b71) Pagine di solo testo: per la memoria delle scelte sono come le altre (passa l'a capo per circa metà). La loro particolarità è che la catena di segni non riparte all'a capo (giuntura che passa, e3a06). Nel generatore: in quelle pagine non far ripartire la catena all'a capo; la memoria delle scelte come altrove.
   - (e3b73) Alla fine del paragrafo la memoria delle scelte sembra ripartire (stima circa zero, intervallo largo); al cambio di pagina non si sa. Nel generatore: azzerare la memoria delle scelte a inizio paragrafo è compatibile con i dati.
+
+### Riassunto finale per il generatore (4/10, ore 5:30; sostituisce le note precedenti sulla memoria e sui confini)
+
+Misure con il metodo finale (vedi DOSSIER, sezione 15.13). Da imitare:
+
+1. **Memoria corta delle scelte** (*qo*/*o*, *k*/*t*, *sh*/*ch*, -*ey*/-*dy*; non il numero di *i*, non -*l*/-*r*): forza circa
+   +0,08 in scala normalizzata (vicine 2–3 parole contro 6–10), **uguale in tutte le mani e in A e B**, separata per
+   ciascuna scelta, oltre le preferenze delle singole parole. **Si consuma con le lettere scritte**, non con le parole.
+2. **Ai confini:** al salto di un disegno la memoria delle scelte **prosegue per intero**; all'a capo **si dimezza**; a
+   inizio paragrafo può ripartire da capo (stima circa zero). Le etichette ripartono da capo.
+3. **La catena di segni** (giuntura fra l'ultimo segno di una parola e il primo della seguente, regola di raccordo
+   *qo*/*o*) **riparte a ogni a capo e a ogni salto di disegno**, tranne nelle 6 pagine di solo testo (f1r, f66r, f76r,
+   f85r1, f86v5, f86v6), dove continua da una riga all'altra.
+4. **Ripetizione di parole simili** vicine: anche questa passa l'a capo, ridotta a circa un quarto.
+5. **Le scelte non hanno una grafia propria della parola** (a differenza di Naibbe e U2): decidere le scelte con i
+   segni vicini e la memoria, non con l'identità della parola.
+6. Da conservare come prima: crescita di -*ey* scendendo nella pagina, apertura del paragrafo con *p*/*f*, evitamento
+   dell'inizio uguale alla riga sopra, copia dalla riga sopra (tutte replicate con Takahashi).
