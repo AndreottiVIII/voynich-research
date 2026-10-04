@@ -14536,3 +14536,21 @@ testi finti (memoria R 0,59; solo parole accanto R 0,05).
 - Cautela: le coppie a 8–12 parole del Voynich sono poche (1.200 – 1.400) e vengono dalle righe lunghe; nelle lingue
   succede lo stesso per costruzione, quindi il confronto è alla pari, ma resta da vedere se le righe lunghe del Voynich
   abbiano qualcosa di particolare (prossimo passo).
+
+## 4/10/2026 (mattina) — e3c29: con la misura alla pari nessun generatore ha l'accordo delle scelte del Voynich
+
+Preregistrato (`preregistrazioni/e3c29.md`). Misura dell'e3c28 sui generatori.
+
+| generatore | accordo accanto (IC 95%) | R |
+|---|---|---|
+| Naibbe | +0,016 (−0,04 – +0,09) | non interpretabile |
+| U2 | +0,056 (−0,00 – +0,12) | 0,70 (−0,74 – 2,01) |
+| U3 | +0,043 (−0,00 – +0,09) | non interpretabile |
+| Timm e Schinner | −0,005 (−0,13 – +0,13) | — |
+| *Voynich (e3c28)* | *+0,170 / +0,184* | *0,85 / 0,82* |
+
+- **Esito preregistrato: nessun generatore ha l'accordo delle scelte del Voynich.** Il più vicino è U2, con un terzo del
+  Voynich e intervallo che tocca 0.
+- Con la misura più pulita il quadro è: accordo delle scelte fra parole della stessa riga +0,17 – +0,18 nel Voynich, che
+  dura quasi tutta la riga; nelle lingue un accordo anche forte ma concentrato fra parole accanto; nei generatori quasi
+  niente.

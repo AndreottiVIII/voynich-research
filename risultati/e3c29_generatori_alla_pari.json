@@ -1,0 +1,62 @@
+{
+ "generatori": {
+  "Naibbe (Greshko 2025), a capo": {
+   "R": 0.9322983538373711,
+   "R_IC95": [
+    -4.152057756545808,
+    6.3853041132905695
+   ],
+   "accanto": 0.015704369111658588,
+   "accanto_IC95": [
+    -0.04233580937938953,
+    0.09219044056035776
+   ],
+   "coppie_lontane": 1049,
+   "come_il_voynich": false
+  },
+  "U2 (Whitehatnetizen 2026)": {
+   "R": 0.7021200276745152,
+   "R_IC95": [
+    -0.7395430919716239,
+    2.0106079632123848
+   ],
+   "accanto": 0.05589986342934372,
+   "accanto_IC95": [
+    -0.0036748462134343655,
+    0.11723437294537307
+   ],
+   "coppie_lontane": 2617,
+   "come_il_voynich": false
+  },
+  "U3 (Whitehatnetizen 2026)": {
+   "R": 0.16883370988213203,
+   "R_IC95": [
+    -4.298047047580578,
+    1.2963422553939121
+   ],
+   "accanto": 0.042501661706604764,
+   "accanto_IC95": [
+    -0.004360026724086199,
+    0.08932697923034053
+   ],
+   "coppie_lontane": 2895,
+   "come_il_voynich": false
+  },
+  "Timm e Schinner, seme 1": {
+   "R": null,
+   "R_IC95": [
+    null,
+    null
+   ],
+   "accanto": -0.005314861802724613,
+   "accanto_IC95": [
+    -0.12999935290677794,
+    0.13259375069776677
+   ],
+   "coppie_lontane": 269,
+   "come_il_voynich": false
+  }
+ },
+ "riferimento_voynich_accanto": 0.17032263928470295,
+ "esito": "nessun generatore ha l'accordo delle scelte del Voynich"
+}
