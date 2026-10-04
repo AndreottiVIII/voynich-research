@@ -95,18 +95,6 @@ push. Molti risultati li ho poi rifatti con la trascrizione di Takahashi (e alcu
 divido fra **solidi** (reggono con più trascrizioni) e **indizi** (non reggono del tutto). Le correzioni sono in fondo.
 Niente di questo è una decifrazione.
 
-## La cosa più importante
-
-**Con la stessa misura, l'accordo grammaticale delle lingue sembra "memoria" quanto il Voynich (e3b91, e3b93).** In
-italiano "la casa bianca" le desinenze -*o*/-*a* di parole vicine si accordano; lo stesso in spagnolo e in latino
-(-*us*/-*a*): l'effetto è 0,6–1,1 volte quello del Voynich, e nello swahili, dove si accordano i prefissi (*m*-/*wa*-),
-quasi il triplo. Quindi la memoria delle scelte del Voynich, soprattutto per -*ey*/-*dy* (una desinenza) e *qo*/*o* (un
-inizio di parola), ha **la forma che avrebbe un accordo fra parole in una lingua**. Non è un argomento per "testo senza
-significato"; semmai il contrario. Due tratti fanno pendere verso un'abitudine di chi scrive, ma non sono decisivi: nel
-Voynich la memoria si consuma con le lettere scritte (+0,066), nell'accordo delle lingue quasi no (media +0,015, e3b92);
-e nel Voynich c'è con la stessa forza anche per scelte dentro la parola (*k*/*t*, *sh*/*ch*), dove un accordo grammaticale
-di solito non arriva. La domanda "accordo o abitudine" resta aperta.
-
 ## In breve
 
 Il testo del Voynich si descrive bene con quattro ingredienti:
@@ -240,6 +228,18 @@ Figure nuove (in `risultati/figure/`): `vocabolario.png`, `spazi.png`, `catena_s
 Questa parte è stata soprattutto un lavoro di **verifica della memoria corta**, e ha cambiato tre cose che ti avevo
 scritto nella seconda parte: la memoria non si azzera all'a capo; non è dimostrato che sia insolita per uno scriba vero;
 e soprattutto ha la stessa forma di un accordo grammaticale.
+
+## La cosa più importante
+
+**Con la stessa misura, l'accordo grammaticale delle lingue sembra "memoria" quanto il Voynich (e3b91, e3b93).** In
+italiano "la casa bianca" le desinenze -*o*/-*a* di parole vicine si accordano; lo stesso in spagnolo e in latino
+(-*us*/-*a*): l'effetto è 0,6–1,1 volte quello del Voynich, e nello swahili, dove si accordano i prefissi (*m*-/*wa*-),
+quasi il triplo. Quindi la memoria delle scelte del Voynich, soprattutto per -*ey*/-*dy* (una desinenza) e *qo*/*o* (un
+inizio di parola), ha **la forma che avrebbe un accordo fra parole in una lingua**. Non è un argomento per "testo senza
+significato"; semmai il contrario. Due tratti fanno pendere verso un'abitudine di chi scrive, ma non sono decisivi: nel
+Voynich la memoria si consuma con le lettere scritte (+0,066), nell'accordo delle lingue quasi no (media +0,015, e3b92);
+e nel Voynich c'è con la stessa forza anche per scelte dentro la parola (*k*/*t*, *sh*/*ch*), dove un accordo grammaticale
+di solito non arriva. La domanda "accordo o abitudine" resta aperta.
 
 ## In breve
 
