@@ -176,6 +176,7 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     e senza bordi (e3c15: R 0,82 ZL, 0,87 IT, estremi bassi 0,65/0,66 > 0,45 delle lingue).
     Alternanze automatiche senza la posizione (e3c16): IT +0,041, ZL +0,033 (appena), GC +0,030 (tocca 0): regge in 2 su 3;
     le lingue restano ≈ 0 tranne il Corano. Il tratto più solido contro le lingue resta la forma del calo.
+    Deriva lungo la riga (e3c17): c'è in ogni mano e in A e B; tre volte più forte in B (−0,035 ogni 10 segni) che in A (−0,011).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);

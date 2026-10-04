@@ -14269,3 +14269,21 @@ che conserva la posizione nella riga (e3c14).
 - **Lettura:** il tratto "memoria anche dentro la parola, con alternanze scelte dai dati" resta, ma più debole di come
   l'avevo presentato: chiaro con Takahashi, al limite con le altre due trascrizioni. Il tratto più solido fra quelli che
   separano il Voynich dalle lingue resta la forma del calo (e3c15).
+
+## 4/10/2026 (mattina) — e3c17: la deriva lungo la riga c'è in ogni mano, più forte in B
+
+Preregistrato (`preregistrazioni/e3c17.md`). Pendenza dell'e3c13 (quattro classi insieme, 1 = *qo*, *k*, *sh*, -*ey*) per
+gruppi di pagine. Le mani coincidono quasi con le lingue (mano 1 = A; mani 2 e 3 = B).
+
+| gruppo | pagine | ZL, ogni 10 segni (IC 95%) | IT, ogni 10 segni (IC 95%) |
+|---|---|---|---|
+| mano 1 (A) | 112 | −0,011 (−0,029 – −0,002) | −0,011 (−0,030 – −0,002) |
+| mano 2 (B) | 46 | −0,030 (−0,040 – −0,019) | −0,029 (−0,040 – −0,020) |
+| mano 3 (B) | 31 | −0,038 (−0,048 – −0,029) | −0,039 (−0,048 – −0,030) |
+| lingua A | 114 | −0,011 (−0,028 – −0,003) | −0,011 (−0,027 – −0,003) |
+| lingua B | 82 | −0,035 (−0,042 – −0,028) | −0,036 (−0,042 – −0,029) |
+
+- **Esito preregistrato: la deriva c'è in ogni mano e in tutte e due le lingue.**
+- È circa tre volte più forte in B che in A. In A le righe sono più corte (erbario, paragrafi brevi) e le parole delle
+  classi per pagina sono meno, quindi l'intervallo è largo; ma la stima puntuale è chiaramente più piccola.
+- Va con la lezione dell'e3c14: la parte della "memoria" dovuta alla posizione nella riga sarà più grande in B che in A.
