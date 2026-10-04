@@ -11933,3 +11933,18 @@ Nei profili per distanza dentro la riga, della ripetizione di parole (e3a87: +0,
 distanza, senza picchi a 2, 3 o 4 parole. Un cifrario verboso a gruppi di lunghezza fissa (per esempio due o tre parole
 del Voynich per ogni lettera, allineate all'inizio riga) lascerebbe un picco alla distanza del gruppo. Non c'è: nessun
 indizio di gruppi di parole di lunghezza fissa. Gruppi di lunghezza variabile non si vedrebbero in questo modo.
+
+## 4/10/2026 (notte) — e3b18: la memoria corta è separata per ogni scelta, non un "modo" di scrivere comune
+
+Preregistrato (`preregistrazioni/e3b18.md`; prima del commit esclusa la coppia -*ey*/-*dy* con *ee*/*e*, legata per
+costruzione). Differenza della covarianza dei residui delle scelte fra parole vicine (d 1–3) e lontane (d 6–10).
+
+| coppie di scelte | differenza vicino − lontano | IC 95% |
+|---|---|---|
+| stessa classe | +0,0227 | +0,0163 – +0,0291 |
+| classi diverse | +0,0030 | −0,0013 – +0,0074 |
+
+- **Esito preregistrato: memoria per classe.** Ogni scelta ricorda sé stessa (un *sh* richiama *sh*, un *qo* richiama
+  *qo*), ma una scelta di un tipo non spinge le scelte di un altro tipo. Non c'è un "modo elaborato" passeggero che
+  valga per tutte le varianti. Va con l'e206c (scelte quasi indipendenti).
+- **Per il voynichizzatore:** una memoria corta separata per ogni variante, non un unico stato.
