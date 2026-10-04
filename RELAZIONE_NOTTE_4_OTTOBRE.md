@@ -433,3 +433,28 @@ accordano le parole, e che nessun generatore la riproduce.
 - La memoria in *sh*/*ch* che si consuma con le lettere: abitudine o inchiostro? Senza le immagini delle pagine non
   riesco a deciderlo.
 - Il NT fiammingo *i*/*y* (+0,055 da solo, e3c04) è un indizio da guardare con dati nuovi.
+
+## Aggiunte (7:15 – 7:50): la deriva lungo la riga, i bordi e i disegni (e3c17 – e3c25)
+
+Dopo aver trovato che le varianti "marcate" (*qo*, *k*, *sh*, -*ey*) calano andando verso destra nella riga (e3c13), ne ho
+studiato la forma. È una proprietà nuova del Voynich, che nessun generatore riproduce.
+
+1. **C'è in ogni mano e in tutte e due le lingue di Currier** (e3c17), tre volte più forte in B che in A. **Nessun
+   generatore la ha** (e3c18).
+2. **Togliendo la posizione, la memoria resta in tutte le mani con la stessa grandezza** (e3c19), dimostrata nelle mani
+   2 e 3; nella mano 1, che ha paragrafi brevi e poche coppie, l'intervallo tocca lo zero.
+3. **Il calo è più ripido all'inizio della riga** (e3c20): a ogni riga si riparte dalle forme marcate e ci si allontana
+   scrivendo. Non è un "semplificare vicino al margine".
+4. **Dopo un disegno in mezzo alla riga la deriva non riparte** (e3c21): continua, come la memoria che attraversa il
+   disegno.
+5. **Ai bordi** (e3c22, e3c23): l'ultima parola della riga ha un po' meno forme marcate; a inizio riga ci sono più *qo* e
+   *sh* ma molto meno *k* (più *t*).
+6. **La *q* dopo i disegni** (e3c23 – e3c25): nella parola che comincia subito dopo un disegno *qo* è 33 punti più raro,
+   mentre nella parola prima del disegno no. Quindi non è spazio pianificato. Può essere scrittura (si riparte con *o*) o
+   lettura (la *q* attaccata al disegno non si vede). I due trascrittori non sono più in disaccordo lì che altrove, ma i
+   dati sono pochi. Senza immagini non si decide.
+
+Figura nuova: `risultati/figure/deriva_riga.png` (la quota delle forme marcate lungo la riga, in A e in B, con le parole
+ai bordi e accanto ai disegni).
+
+Correzione: nell'e3c23 avevo scritto "chi scrive lascia cadere la *q* per risparmiare spazio"; l'e3c24 lo smentisce.
