@@ -911,6 +911,6 @@ come **PDF del libro**.
 ## 4/10/2026, 18:40 — Il sito è online; attenzione al repo pubblico
 
 - Sito pubblicato dalla chat del sito su richiesta di Davide: https://andreottiviii.github.io/voynichizzatore/ (ramo `gh-pages`; usa la v21 in `docs/engine/v21`).
-- **Il ramo main del repo pubblico ora contiene anche `docs/` (il sito).** Prima di ogni push dalla copia `C:\Users\davideoynichizzatore`: `git pull`. La copia del pacchetto (`cp -r pubblico/voynichizzatore/. ...`) non tocca `docs/`; non cancellare mai quella cartella.
+- **Il ramo main del repo pubblico ora contiene anche `docs/` (il sito).** Prima di ogni push dalla copia `C:\Users\davide\voynichizzatore`: `git pull`. La copia del pacchetto (`cp -r pubblico/voynichizzatore/. ...`) non tocca `docs/`; non cancellare mai quella cartella.
 - A ogni versione nuova: avvisare la chat del sito (aggiunge la cartella del motore; se cambiano i conteggi delle parole tiene anche la vecchia per rileggere).
 - Da proporre a Davide: link al sito nel README del programma.
