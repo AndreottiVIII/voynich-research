@@ -14662,3 +14662,27 @@ deriva; K(d) per d = 1…8. Codice provato su testi finti (preferenza di riga P 
   chiaro da 0,07 a 0,36 (Volapük 0,73).
 - Questa osservazione nasce guardando i dati delle righe di almeno 11 parole: la verifica va fatta su righe non usate qui
   (5–10 parole), e3c34.
+
+## 4/10/2026 (mattina) — e3c34: la "finestra di tre parole" c'è con le classi a mano ma non con quelle automatiche (incerto)
+
+Preregistrato (`preregistrazioni/e3c34.md`; replica, non conferma su dati nuovi, come dichiarato). Righe di almeno 6
+parole senza bordi; atteso stessa parola + pagina + deriva; R0 = K(3)/K(1).
+
+| testo | K(1) / K(2) / K(3) | R0 (IC 95%) |
+|---|---|---|
+| Voynich ZL, classi a mano | +0,106 / +0,072 / +0,082 | **0,77** (0,54 – 1,03) |
+| Voynich IT, classi a mano | +0,110 / +0,067 / +0,095 | **0,86** (0,62 – 1,14) |
+| Voynich ZL, classi automatiche (*k*/*t*, *a*/*o*, *ch*/*e*) | +0,077 / +0,033 / +0,006 | 0,07 (−0,34 – 0,41) |
+| Voynich IT, classi automatiche | +0,075 / +0,031 / +0,013 | 0,17 (−0,28 – 0,57) |
+| Voynich GC, classi automatiche (*h*/*k*, *a*/*o*, *7*/*8*) | +0,071 / +0,030 / +0,019 | 0,26 (−0,17 – 0,72) |
+| Volapük (generica) | +0,094 / +0,125 / +0,067 | 0,71 (0,48 – 0,97) |
+| latino, Plinio (generica / -*us*/-*a*) | +0,093 / +0,181 | 0,46 / 0,36 |
+| le altre lingue che contano | | da −0,30 a 0,29 |
+
+- **Esito preregistrato: incerto** (soglia 0,54; sopra solo il Volapük, lingua artificiale).
+- **Fatto che ridimensiona:** con le classi automatiche, in tutte e tre le trascrizioni, il Voynich ha lo stesso calo
+  delle lingue (forte a 1 parola, poco a 2, quasi niente a 3). La forma "a finestra" non è di tutte le scelte del
+  Voynich: viene dalle classi scelte a mano, probabilmente da *qo*/*o* e -*ey*/-*dy*, dove sta la memoria (e3c27). Va
+  controllato scelta per scelta (e3c35).
+- **Bilancio:** l'accordo fra parole accanto c'è con tutte le classi (+0,07 – +0,11) e manca nei generatori; la forma più
+  lunga delle lingue riguarda solo alcune scelte.
