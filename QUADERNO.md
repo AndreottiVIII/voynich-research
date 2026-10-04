@@ -11863,3 +11863,22 @@ parole della stessa riga, per distanza.
 - **Lettura:** la memoria delle scelte c'è in A e in B, ma in B dura di più (circa 4 parole contro 1–2). Va con altri
   segni che la lingua B è "più legata" lungo la riga (giuntura doppia, e393). Cautela: in A le righe sono più corte e i
   dati a distanza grande sono pochi.
+
+## 4/10/2026 (notte) — e3b15: con la memoria corta le scelte di grafia restano libere per più del 90%
+
+Preregistrato (`preregistrazioni/e3b15.md`). Incertezza tolta sulle scelte (stima su pagine pari, prova su dispari e
+viceversa).
+
+| classe | eventi | raccordo (R) | memoria (M) | tutti e due (RM) |
+|---|---|---|---|---|
+| *qo*/*o* | 8.639 | 8,2% | 0,9% | 8,5% |
+| -*ey*/-*dy* | 9.968 | 0,7% | 3,1% | 3,6% |
+| *sh*/*ch* | 8.675 | 0,7% | 2,0% | 2,4% |
+
+- **Esito preregistrato: la memoria aggiunge poco.** La memoria corta delle scelte è reale (e3b06–e3b14) ma in bit è
+  piccola: toglie 1–3 punti di incertezza. Le scelte restano libere per più del 90% anche sapendo la parola prima e le
+  scelte appena fatte.
+- **Lettura per le ipotesi di messaggio nascosto:** come nell'e3a37, la maggior parte della scelta *qo*-/*o*-,
+  -*ey*/-*dy*, *sh*-/*ch*- non è spiegata da nessuna regola trovata. Questo lascia spazio, in principio, a
+  un'informazione nascosta in quelle scelte; non è una prova che ci sia (i tentativi di lettura dell'e279 e simili
+  hanno dato "nessuna lettura").
