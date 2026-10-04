@@ -250,6 +250,10 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     spegne poco a poco (mezza vita circa 3 parole, a 4 – 6 parole ancora +0,055: corretta la "finestra di tre parole poi
     zero") ed è separato per ogni scelta. Proposto a Davide: corpus tedesco ReF (1350 – 1650) per scribi del
     Quattrocento centro-europei.
+    **Strade di cifratura (e3c67 – e3c74):** nessun meccanismo storico riproduce il Voynich (dossier, tabella "STRADE DI
+    CIFRATURA"); l'autochiave per riga chiude la riga ma rompe ripetizioni e vocabolario; nessuna impostazione per riga;
+    c'è una componente lenta che attraversa le righe (e3c75 in corso). e3c67 non eseguito (senza potenza). DECODE
+    bloccato (account e licenza).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
