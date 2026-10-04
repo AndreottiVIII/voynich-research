@@ -1179,3 +1179,4 @@ la copia e lo spazio non lessicale, ma non il resto).
   - L'a capo azzera anche la memoria delle scelte (e3b10: +0,031 nella stessa riga, +0,002 a cavallo dell'a capo, alla stessa distanza in parole).
   - Obiezione "spazi fra sillabe" (e3b11): nel pinyin (sillabe separate) lo spazio è quasi sempre certo (circa 450 punti facoltativi ogni 10.000 sillabe, contro circa 3.300 ogni 10.000 parole nel Voynich), quindi il test non si può fare; ma lo spazio del Voynich non si comporta come un confine di sillaba di quel tipo. Il maori (scritto a parole) è lessicale (+3,2).
   - Il calo degli spazi facoltativi a fine riga resta a parità di lunghezza dei pezzi (e3b12: −0,039, p 0,001): la compressione verso il margine è reale.
+  - Per qo-/o- la memoria resta a parità di raccordo con la parola prima (e3b13: +0,043, IC +0,003 – +0,084): non è un effetto indiretto del raccordo.

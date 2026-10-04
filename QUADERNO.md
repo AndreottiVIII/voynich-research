@@ -11826,3 +11826,20 @@ riga).
   calo si riduce (da −0,109 a −0,039 su questi punti) ma resta: verso la fine della riga lo scriba mette meno spazi
   facoltativi anche a parità di segni vicini e di lunghezza della parola in corso. La compressione verso il margine
   (e3a64) è reale.
+
+## 4/10/2026 (notte) — e3b13: la memoria corta di qo-/o- resta a parità di raccordo con la parola prima
+
+Preregistrato (`preregistrazioni/e3b13.md`). Coppie di parole con *qo*-/*o*- davanti a gallows, nella stessa riga, con
+la stessa classe di raccordo della parola che le precede (V: -*y*/-*o*/-*d*; C: -*n*/-*r*/-*s*/-*m*/-*l*), atteso dalla
+pagina dentro la classe.
+
+| coppie | quante | eccesso di accordo |
+|---|---|---|
+| vicine (d 2–3) | 1.991 | +0,036 |
+| lontane (d 6–10) | 713 | −0,007 |
+
+Differenza **+0,043**, IC 95% +0,003 – +0,084. **Esito preregistrato: la memoria di qo-/o- resta a parità di raccordo.**
+
+- **Lettura:** anche quando la parola precedente spinge nello stesso modo, una scelta *qo*-/*o*- tende a ripetersi nelle
+  2–3 parole seguenti. La memoria corta è una cosa in più rispetto al raccordo. Pochi dati (intervallo largo, appena
+  sopra lo zero).

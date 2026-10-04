@@ -1,0 +1,16 @@
+{
+ "vicino": {
+  "coppie": 1991,
+  "eccesso": 0.03622901720995631
+ },
+ "lontano": {
+  "coppie": 713,
+  "eccesso": -0.006511272633253885
+ },
+ "differenza": 0.0427402898432102,
+ "IC95": [
+  0.0027297597992019737,
+  0.08397598498431098
+ ],
+ "esito": "la memoria di qo-/o- resta a parità di raccordo"
+}
