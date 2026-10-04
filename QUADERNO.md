@@ -13406,3 +13406,15 @@ parole coperte.
   *qo*- nel 55% dei casi, contro il 37% se la prima aveva *o*-: 18 punti di differenza. A 6–10 parole la differenza è
   di 8 punti (quella che viene dalle differenze fra pagine e fra parole). La memoria corta aggiunge quindi circa **10
   punti percentuali** per *qo*/*o* e -*ey*/-*dy*, **6–7 punti** per *k*/*t* e *sh*/*ch*, uguale con le due trascrizioni.
+
+## 4/10/2026 (notte) — e3b83: nei cerchi e nei raggi la stima di memoria è come nei paragrafi, ma non dimostrata
+
+Preregistrato (`preregistrazioni/e3b83.md`). Metodo finale sulle righe di cerchio e raggio della ZL (29 pagine, 225 righe).
+
+| pagine | righe | coppie vicine | M | M nullo | effetto (IC 95%) |
+|---|---|---|---|---|---|
+| 29 | 225 | 1.922 | +0,126 | +0,053 | +0,072 (−0,027 – +0,162) |
+
+- **Esito preregistrato: non dimostrata nei cerchi.** La stima (+0,072) è vicina a quella dei paragrafi (+0,086), ma con
+  29 pagine l'intervallo tocca lo zero. **Ridimensiona l'e3b37** ("memoria anche nei cerchi", misura grezza): è
+  compatibile, non dimostrata con il metodo finale.
