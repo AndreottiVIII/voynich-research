@@ -200,6 +200,9 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     stesse righe +0,09–0,10, nella media delle lingue. **e3c32:** righe corte e lunghe hanno lo stesso accordo (correzione: la
     differenza veniva dalla base 8–12 contro 5–6). Tolta la preferenza di pagina, dentro la riga l'accordo è quasi piatto a
     1, 2, 3 parole (+0,07–0,12): sembra una preferenza di riga più che una memoria che si consuma (verifica e3c33).
+    **e3c33:** non è preferenza di riga (oltre 4 parole ≈ 0). Profilo: uguale a 1, 2, 3 parole, poi crolla ("finestra" di ~3
+    parole); nelle lingue cala già fra 1 e 2 (Volapük eccezione). K(3)/K(1): Voynich 0,86–0,88, lingue 0,07–0,36. Verifica
+    su righe di 5–10 parole non usate (e3c34).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
