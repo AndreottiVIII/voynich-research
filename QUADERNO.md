@@ -11456,3 +11456,21 @@ Preregistrato (`preregistrazioni/e3a91.md`). Misure dell'e3a89 per parte, ciascu
 - **Esito preregistrato: regge in tutte e cinque le parti.** Dentro ogni parte, con la catena di base addestrata sulla
   parte, la ripetizione è un poco più bassa a breve distanza (+0,004/+0,006) e si azzera del tutto a 7–10 parole: la
   memoria corta è una proprietà di tutto il libro e di ogni scriba.
+
+## 4/10/2026 (notte) — e3a92: con l'alfabeto di Glen Claston reggono sia la sintesi della catena sia la ripetizione di memoria corta
+
+Preregistrato (`preregistrazioni/e3a92.md`). GC (v101), pagine e paragrafi della GC.
+
+| proprietà | GC vera | riscritta dalla catena | R |
+|---|---|---|---|
+| giuntura | 0,226 | 0,246 | 1,09 |
+| chiusura della riga | 0,223 | 0,247 | 1,11 |
+| catena dentro/fra le parole | 0,471 | 0,462 | 0,98 |
+| frequenza-forma | 0,610 | 0,656 | 1,08 |
+| ripresa dalla riga sopra | 0,027 | −0,001 | −0,05 |
+| margine sinistro | 0,519 | −0,046 | −0,09 |
+
+- **Esito parte 1: la sintesi regge** (stessa divisione di ZL e IT).
+- **Parte 2:** ripetizione nella stessa riga +0,0045 a d 1–4, +0,0016 a d 7–10, calo 0,36. **Esito: regge** (il calo è
+  meno netto che in EVA, 0,36 contro 0,12, ma sotto la soglia e lontano dalle lingue, 10° percentile 1,10).
+- Le due novità principali della notte valgono con tutte e tre le trascrizioni.

@@ -1,0 +1,46 @@
+{
+ "parte1": {
+  "giuntura": {
+   "vero": 0.2264133309642196,
+   "riscritto_media": 0.24635857430294386,
+   "R": 1.0880921774958394
+  },
+  "chiusura della riga": {
+   "vero": 0.2229363422907391,
+   "riscritto_media": 0.2466250330137783,
+   "R": 1.1062576450283101
+  },
+  "catena dentro/fra le parole": {
+   "vero": 0.4711101355965272,
+   "riscritto_media": 0.4624135723769605,
+   "R": 0.9815402756967753
+  },
+  "frequenza-forma": {
+   "vero": 0.6098524130215677,
+   "riscritto_media": 0.6561093968834975,
+   "R": 1.0758494725514742
+  },
+  "ripresa dalla riga sopra": {
+   "vero": 0.027237202053169617,
+   "riscritto_media": -0.001282271025137938,
+   "R": -0.047077927557860846
+  },
+  "margine sinistro": {
+   "vero": 0.5192129886460298,
+   "riscritto_media": -0.04554912005808298,
+   "R": -0.08772723536224131
+  }
+ },
+ "esito1": "la sintesi regge",
+ "parte2": {
+  "differenza": -0.0011102164054720971,
+  "stessa_d1_4": 0.004520305577920657,
+  "stessa_d7_10": 0.0016473274956336633,
+  "cavallo_d3_6": 0.004319853263430965,
+  "cavallo_d10_20": 0.003607650383825775,
+  "calo": 0.36442834831344184,
+  "piattezza": 0.8351326222966343,
+  "coppie_stessa_d7_10": 19441
+ },
+ "esito2": "regge"
+}
