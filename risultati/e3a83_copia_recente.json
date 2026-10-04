@@ -1,0 +1,29 @@
+{
+ "paragrafi": 656,
+ "parole": 23676,
+ "posizione_media_osservata": 0.5000553767261664,
+ "posizione_media_nullo": 0.4910113764946241,
+ "differenza": 0.009044000231542282,
+ "IC95": [
+  0.001933966122655728,
+  0.016046581444632446
+ ],
+ "terzi": {
+  "primo terzo": {
+   "osservate_per_parola": 0.1336796756208819,
+   "nullo_per_parola": 0.1178133975333671,
+   "eccesso": 0.0158662780875148
+  },
+  "secondo terzo": {
+   "osservate_per_parola": 0.13701638790336204,
+   "nullo_per_parola": 0.11440488258151706,
+   "eccesso": 0.022611505321844985
+  },
+  "ultimo terzo": {
+   "osservate_per_parola": 0.15078560567663457,
+   "nullo_per_parola": 0.12429042067916872,
+   "eccesso": 0.02649518499746585
+  }
+ },
+ "esito": "copia di preferenza dalla fine della riga sopra"
+}
