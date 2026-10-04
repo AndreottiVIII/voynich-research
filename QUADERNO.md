@@ -12865,3 +12865,27 @@ Mani valide (almeno 2.000 coppie vicine): 1, 2, 3. Media pesata +0,047; Q = 10,4
   d'accordo con un'abitudine personale di chi scrive (come lo scriba anglosassone), più che con una regola del sistema.
 - **Cautela:** mano e lingua sono in parte la stessa cosa (mano 1 = lingua A; mani 2 e 3 = lingua B): non si può dire
   se conti la persona o la lingua. Da rifare con Takahashi e classe per classe (e3b60).
+
+## 4/10/2026 (notte) — e3b60: con Takahashi si ritrova: memoria delle scelte nelle mani 2 e 3 (lingua B), non nella mano 1 (lingua A)
+
+Preregistrato (`preregistrazioni/e3b60.md`). Metodo dell'e3b56; pagine della IT assegnate alla mano della ZL.
+
+| trascrizione | mano | coppie vicine | effetto insieme (z, p) | *qo*/*o* | *k*/*t* | *sh*/*ch* | -*ey*/-*dy* |
+|---|---|---|---|---|---|---|---|
+| IT | 1 | 4.482 | +0,008 (+0,4; 0,36) | +0,037 | +0,029 | −0,018 | +0,025 |
+| IT | 2 | 7.184 | **+0,059** (+3,3; < 0,001) | +0,069 | +0,067 | +0,006 | **+0,096** |
+| IT | 3 | 9.232 | **+0,058** (+4,1; < 0,001) | **+0,117** | +0,037 | +0,013 | **+0,098** |
+| ZL | 1 | 4.438 | −0,007 (−0,3; 0,64) | +0,029 | −0,005 | −0,025 | +0,025 |
+| ZL | 2 | 7.114 | **+0,057** (+3,3; < 0,001) | +0,037 | +0,047 | +0,037 | **+0,106** |
+| ZL | 3 | 9.038 | **+0,069** (+5,0; < 0,001) | **+0,128** | +0,046 | +0,036 | **+0,102** |
+
+(In grassetto le classi con p < 0,01.)
+
+- **Esito preregistrato: si ritrova con Takahashi.**
+- **Lettura:** la memoria delle scelte oltre le parole è degli scribi della lingua B (mani 2 e 3), soprattutto per
+  -*ey*/-*dy* e, nella mano 3, per *qo*/*o*; nella mano 1 (lingua A, erbario) non si vede (i valori per classe sono
+  piccoli, nessuno significativo). *sh*/*ch* ha poca memoria in tutte le mani. Questo **riprende in forma nuova**
+  l'indizio "memoria più lunga in B" (e3b14, e3b21–e3b24), che con le misure grezze non era dimostrato (e3b33,
+  e3b34): con il nullo che tiene ferme le parole la differenza A/B c'è con tutte e due le trascrizioni.
+- Non si può separare la persona dalla lingua (mano 1 = A, mani 2 e 3 = B). Tutte e due le letture sono possibili:
+  abitudine personale degli scribi B, oppure una proprietà del sistema B.
