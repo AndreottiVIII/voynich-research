@@ -1304,7 +1304,11 @@ parola con più coppie minime; nel Voynich trova da sola *k*/*t*, *a*/*o*, *ch*/
 in 25 testi su 26 del corpus non c'è memoria (fra −0,014 e +0,010). L'eccezione è il Corano con le vocali (+0,064):
 alternanze -*kum*/-*hum* ecc., cioè la persona del discorso che dura per più versetti (grammatica del discorso).
 Controllo sui generatori (e3c02): U2, U3, Timm e Schinner zero; Naibbe (cifrario di un testo vero) +0,029, debole e
-senza accordo fra parole accanto: la regola automatica è un po' meno pulita delle classi scelte a mano.
+senza accordo fra parole accanto: la regola automatica è un po' meno pulita delle classi scelte a mano. **Corano e
+Naibbe non hanno la forma del Voynich (e3c03):** il Voynich ha il massimo fra parole accanto (+0,17/+0,19) e cala
+dolcemente; il Corano ha zero accanto e un picco a 2 parole (il suffisso di persona che torna); Naibbe zero accanto e
+un livello basso e piatto. Con le classi automatiche il consumo con le lettere del Voynich è circa metà (+0,035/+0,040,
+al limite).
 
 **Formula per il white paper:** il Voynich ha, oltre alla catena di segni per riga e allo spazio non lessicale, una
 memoria corta delle scelte di grafia forte e uniforme (tutte le scelte, tutte le mani, due trascrizioni), che prosegue

@@ -13831,3 +13831,39 @@ interne sui generatori, che con le classi scelte a mano non hanno memoria (e3b70
   guardare con il profilo della distanza nell'e3c03, dove Naibbe entra accanto al Corano.
 - Conseguenza per il dossier: la regola automatica è un po' meno pulita delle classi scelte a mano; un cifrario che
   porta lettere del testo in chiaro può dare una debole "memoria" a media distanza.
+
+## 4/10/2026 (mattina presto) — e3c03: Corano e Naibbe non hanno la forma della memoria del Voynich
+
+Preregistrato (`preregistrazioni/e3c03.md`). Per i due testi che con la regola automatica hanno memoria fuori dal
+Voynich (Corano, e3c01; Naibbe, e3c02), gli altri due tratti con le stesse classi, confrontati con il Voynich nella
+stessa prova.
+
+| testo | accordo fra parole accanto | R (IC 95%) | consumo con le lettere (IC 95%) |
+|---|---|---|---|
+| Voynich IT | **+0,185** (+0,138 – +0,236) | 0,55 (0,34 – 0,72) | +0,035 (−0,001 – +0,070) |
+| Voynich ZL | **+0,172** (+0,126 – +0,218) | 0,52 (0,29 – 0,70) | +0,040 (+0,006 – +0,077) |
+| Corano | +0,032 (−0,038 – +0,101) | 4,0 (non interpretabile) | +0,021 (−0,069 – +0,117) |
+| Naibbe | +0,017 (−0,028 – +0,064) | 3,7 (non interpretabile) | −0,000 (−0,035 – +0,035) |
+
+Profilo K(d) − K(8–12):
+
+| testo | d=1 | d=2 | d=3 | d=4 | d=5 | d=6 | d=7 |
+|---|---|---|---|---|---|---|---|
+| Voynich IT | +0,185 | +0,129 | +0,101 | +0,071 | +0,060 | +0,060 | +0,027 |
+| Voynich ZL | +0,172 | +0,114 | +0,090 | +0,066 | +0,042 | +0,026 | +0,033 |
+| Corano | +0,032 | **+0,197** | +0,127 | +0,033 | +0,015 | +0,043 | +0,017 |
+| Naibbe | +0,017 | +0,056 | +0,064 | +0,044 | +0,045 | +0,041 | +0,054 |
+
+- **Esito preregistrato: né il Corano né Naibbe hanno la forma del Voynich** (nessun accordo fra parole accanto).
+  Il consumo con le lettere, per regola, è **"non misurabile qui"**: con le classi automatiche il Voynich ZL lo mostra
+  (+0,040) ma il Voynich IT ha l'intervallo che tocca 0 per un soffio (−0,001), e la regola chiedeva tutti e due.
+- **Tre forme diverse.** Il Voynich: massimo fra parole accanto e calo dolce (una memoria che si consuma). Il Corano:
+  niente fra parole accanto e un picco a 2 parole (il suffisso di persona torna ogni due parole: verbo e nome con lo
+  stesso -*kum*). Naibbe: niente fra parole accanto e poi un livello piatto e basso fino a 7 parole (qualcosa che dura a
+  lungo, forse le scelte del testo in chiaro o delle tabelle). Nessuno dei due casi somiglia alla memoria del Voynich.
+- Con le classi automatiche il Voynich ha R 0,52–0,55 e consumo con le lettere +0,035/+0,040, circa metà dei valori
+  con le classi scelte a mano (0,64–0,79; +0,066): le alternanze scelte dalla regola (*a*/*o*, *ch*/*e*) sono più
+  "rumorose" di quelle scelte a mano, ma i tratti vanno nella stessa direzione.
+- Bilancio dei tre tratti con la regola automatica: memoria nelle alternanze interne (Voynich sì, 25 lingue su 26 no),
+  accordo forte fra parole accanto con calo dolce (solo Voynich fra i testi con memoria), consumo con le lettere (nel
+  Voynich metà di prima, al limite).
