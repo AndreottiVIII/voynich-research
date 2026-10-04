@@ -81,6 +81,11 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     Voynich, adattata al raccordo (e3a86–e3a97); lo spazio facoltativo dipende dai segni vicini e dalla lunghezza della
     parola in corso, non dalla parola (e3a99, e3b01–e3b05); **le "scelte di riga" dell'e206b sono memoria corta delle
     scelte di grafia** (2–3 parole, anche in parole diverse, azzerata all'a capo, assente nei generatori) (e3b06–e3b10).
+  - **e3b11–e3b24 (memoria corta):** separata per ogni scelta (e3b18); vale per qo/o, sh/ch, ee/e, -ey/-dy, k/t, non per
+    il numero di i (e3b19); si consuma con le lettere scritte (e3b20); dura di più in B e nelle sezioni a testo fitto
+    (e3b14, e3b21–e3b24); resta a parità di raccordo (e3b13); in bit è piccola, scelte libere oltre il 90% (e3b15);
+    unire le varianti non fa emergere una lingua (e3b17); la -m in mezzo alla riga non segna pause (e3b16); compressione
+    a fine riga confermata (e3b12); pinyin non utilizzabile come controllo a sillabe (e3b11).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);

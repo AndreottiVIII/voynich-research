@@ -224,3 +224,22 @@ Correzioni di questa parte:
   concordano fra parole a 2–3 di distanza e non più a 6–10; vale anche per parole diverse (non solo ripetute); si
   azzera all'a capo; nessun generatore lo fa. È la stessa memoria corta delle ripetizioni. **Per l'altra chat è
   importante:** il generatore costruito con gli interruttori di riga va rivisto (scritto nel file di passaggio).
+
+## Aggiornamento (verso le 3:15): com'è fatta la memoria corta
+
+- **È separata per ogni scelta** (e3b18): un *sh* richiama *sh*, un *qo* richiama *qo*, ma una scelta non spinge le altre.
+  Non c'è un "modo" di scrivere comune, e questo va anche contro una causa fisica unica (penna che si scarica).
+- **Quali scelte ce l'hanno** (e3b19): *qo*/*o*, *sh*/*ch*, *ee*/*e*, -*ey*/-*dy*, gallows *k*/*t*. Non il numero di *i*
+  (*ain*/*aiin*/*aiiin*), né -*l*/-*r* (che segue il raccordo).
+- **Si consuma con le lettere scritte** (e3b20): a parità di parole in mezzo, più lettere si scrivono, meno si ripete la
+  scelta. Come una memoria di lavoro di chi scrive.
+- **Dura di più in lingua B** (e3b14, e3b21: mezza vita circa 7 lettere in A, circa 20–25 in B), in tutte e tre le mani
+  di B (e3b22), soprattutto nelle sezioni a testo fitto (ricette, biologica) e meno nell'erbario B (e3b23, e3b24: stime
+  rumorose).
+- **Resta a parità di raccordo** (e3b13) e **in bit è piccola** (e3b15): le scelte restano libere per più del 90%.
+- **Unire le varianti non fa emergere una lingua** (e3b17): il testo diventa anzi ancora più "da catena".
+- **La -*m* in mezzo alla riga non segna pause** (e3b16), **nessuna periodicità** lungo la riga (nota): nessun indizio di
+  frasi o di gruppi di parole di lunghezza fissa.
+- **Compressione a fine riga confermata** a parità di lunghezza delle parole (e3b12).
+- Note di interpretazione nel Quaderno: le scelte libere con memoria corta sono compatibili sia con un testo senza
+  significato sia con un cifrario a mano con varianti equivalenti (omofoni).
