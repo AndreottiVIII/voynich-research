@@ -12512,3 +12512,22 @@ dentro gli strati, bootstrap per pagina); codice provato su coppie finte.
   vera come fatto ("righe vicine, spazi più simili") ma non come meccanismo ("si copiano gli spazi").
 - **Nota per il voynichizzatore:** invece di copiare gli spazi con le parole, basta far variare lentamente lungo la
   pagina la propensione allo spazio.
+
+## 4/10/2026 (notte) — e3b47: nessuna deriva misurabile della spaziatura lungo la pagina
+
+Preregistrato (`preregistrazioni/e3b47.md`). Residuo di spaziatura per riga (spazio osservato − probabilità della regola
+nei punti facoltativi), centrato per pagina; legame fra righe a distanza d contro l'ordine delle righe rimescolato nella
+pagina. Codice provato su pagine finte (con deriva z vicine +15,3; senza −0,9).
+
+| trascrizione | pagine | righe | z d=1 | d=2 | d=3 | d=4 | d=5 | d=6 | z vicine (1–3) | z lontane (4–6) |
+|---|---|---|---|---|---|---|---|---|---|---|
+| ZL | 177 | 2.341 | +0,7 | +0,7 | −0,0 | +2,3 | +1,8 | −1,6 | +0,9 | +1,4 |
+| IT | 190 | 2.849 | +2,5 | +2,0 | −1,3 | +1,8 | +0,1 | −1,9 | +1,9 | −0,1 |
+
+- **Esito preregistrato: nessuna deriva** (z vicine sotto 2 con tutte e due le trascrizioni).
+- **Lettura:** la propensione allo spazio di una riga non è legata in modo misurabile a quella delle righe vicine. Con
+  Takahashi le righe a distanza 1 e 2 sono un po' più simili (z +2,5 e +2,0), con ZL no: al massimo un effetto piccolo.
+- **Che cosa resta dell'e3a74/e3b46:** lo stesso tratto di segni ha lo spazio messo come nelle righe a distanza 1–2 un
+  po' più spesso che come nelle righe lontane (+0,04 circa, con tutte e due le trascrizioni). Non è specifico della
+  riga subito sopra (quindi non si può attribuire alla copia) e non si vede come deriva della riga intera. Lo lascio
+  come fatto piccolo senza spiegazione; per il white paper non è un risultato da presentare.
