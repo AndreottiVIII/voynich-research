@@ -10,6 +10,7 @@ SOURCE = ('ZL transliteration (Zandbergen-Landini) of the Voynich manuscript, ve
 
 # messaggi del nascondiglio: (italiano, inglese)
 MESSAGES = [
+    ("print('%d pagine' % (k + 1), flush=True)", "print('%d pages' % (k + 1), flush=True)"),
     ('chiave errata, o manoscritto senza messaggio', 'wrong key, or manuscript without a message'),
     ('chiave errata, o manoscritto alterato', 'wrong key, or altered manuscript'),
     ('chiave sbagliata o manoscritto senza messaggio', 'wrong key, or manuscript without a message'),
@@ -35,6 +36,7 @@ choice of the words on each page; with the key, the text comes back exactly.
     python voynichizzatore.py encode text.txt --key "a long passphrase" --out manuscript.txt
     python voynichizzatore.py decode manuscript.txt --key "a long passphrase" --out text.txt
     python voynichizzatore.py empty --key "a long passphrase" --out manuscript.txt      (a manuscript with no message)
+    python voynichizzatore.py pdf manuscript.txt --out book.pdf                         (the pages, in Voynich-like script)
 """
 import argparse, os, sys
 
@@ -45,14 +47,21 @@ ALIAS = {'codifica': 'encode', 'decodifica': 'decode', 'vuoto': 'empty'}
 
 def main():
     ap = argparse.ArgumentParser(description='Voynichizer: hide a text in a Voynich-like manuscript and read it back with the key')
-    ap.add_argument('action', choices=('encode', 'decode', 'empty', 'codifica', 'decodifica', 'vuoto'))
-    ap.add_argument('file', nargs='?', help='text to hide (encode) or manuscript to read (decode)')
-    ap.add_argument('--key', '--chiave', required=True, dest='key', help='the key (use a long passphrase)')
+    ap.add_argument('action', choices=('encode', 'decode', 'empty', 'pdf', 'codifica', 'decodifica', 'vuoto'))
+    ap.add_argument('file', nargs='?', help='text to hide (encode) or manuscript to read (decode, pdf)')
+    ap.add_argument('--key', '--chiave', dest='key', help='the key (use a long passphrase)')
     ap.add_argument('--out', '--uscita', dest='out', help='output file')
     a = ap.parse_args()
     action = ALIAS.get(a.action, a.action)
     if action != 'empty' and not a.file:
         raise SystemExit('a file is required')
+    if action == 'pdf':
+        import pagine
+        out = a.out or os.path.splitext(a.file)[0] + '.pdf'
+        print('written %%s: %%d pages' %% (out, pagine.pdf(a.file, out)))
+        return
+    if not a.key:
+        raise SystemExit('--key is required')
     import canale_sacco, v0
     if action == 'decode':
         try:
@@ -127,15 +136,18 @@ manuscript, Beinecke MS 408). With the same key, the text comes back exactly.
     python voynichizzatore.py encode text.txt --key "a long passphrase" --out manuscript.txt
     python voynichizzatore.py decode manuscript.txt --key "a long passphrase" --out text.txt
     python voynichizzatore.py empty --key "a long passphrase" --out manuscript.txt
+    python voynichizzatore.py pdf manuscript.txt --out book.pdf
 
-Requires Python 3.12 with `numpy`, `scipy` and `scikit-learn` (`pip install -r requirements.txt`). Writing a manuscript
+Requires Python 3.12 with `numpy`, `scipy`, `scikit-learn` and, for the PDF, `matplotlib` (`pip install -r requirements.txt`). Writing a manuscript
 takes a couple of minutes; reading it back takes a few seconds.
 
 ## What you get
 
 - A whole book of 207 pages and about 4,200 lines, whatever the length of the text; one line of the file per line of
   the manuscript, `<page.line> words.separated.by.dots`, with `@` in front of the lines that open a paragraph.
-- It is EVA text, not an image of the pages.
+- The manuscript is EVA text. The `pdf` command then writes it out as a book, one page per page, in a Voynich-like
+  script: the font `VoynichizzatoreEVA.ttf` was drawn for this project by a program (`carattere.py`), stroke by stroke;
+  it imitates the shapes of the Voynich signs and is not a copy of any existing font. The PDF has text only, no drawings.
 - It holds about 80,000 bits, i.e. roughly 20,000 characters of text after compression. If the text is longer, the
   program says so. If it is shorter, the rest of the book is filled so that you cannot see where the message ends.
 

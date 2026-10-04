@@ -39,7 +39,7 @@ def valuta(righe_con, chiave, versione):
 def main():
     ultima = list(versioni.VERSIONI)[-1]
     ap = argparse.ArgumentParser(description='Voynichizzatore')
-    ap.add_argument('azione', choices=('codifica', 'decodifica', 'valuta', 'versioni'))
+    ap.add_argument('azione', choices=('codifica', 'decodifica', 'valuta', 'versioni', 'pdf'))
     ap.add_argument('file', nargs='?')
     ap.add_argument('--chiave')
     ap.add_argument('--uscita')
@@ -48,6 +48,13 @@ def main():
     if a.azione == 'versioni':
         for v, d in versioni.VERSIONI.items():
             print('%s: corpo %s, %s' % (v, dict(d['corpo']), 'messaggio nel sacco' if d.get('canale') == 'sacco' else 'modello delle scelte %s' % d['modello']))
+        return
+    if a.azione == 'pdf':        # dal manoscritto in EVA alle pagine scritte col nostro carattere
+        import pagine
+        if not a.file:
+            raise SystemExit('serve il file del manoscritto')
+        uscita = a.uscita or os.path.splitext(a.file)[0] + '.pdf'
+        print('scritto %s: %d pagine' % (uscita, pagine.pdf(a.file, uscita)))
         return
     if not a.file or not a.chiave:
         raise SystemExit('servono il file e --chiave')

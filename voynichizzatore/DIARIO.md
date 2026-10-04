@@ -732,3 +732,34 @@ Decisioni di Davide: licenza MIT; GitHub suo (sito web più avanti); prova su un
 - **Pubblicata la v17.** In sospeso: esito della prova su un altro computer (poi aggiornare la frase nel README),
   descrizione del repo in inglese, giudice indipendente, sito web, uscita come immagine, miglioramenti (omogeneità,
   scelte di riga, profilo pagina).
+
+## 4/10/2026, 11:30 — Dal testo EVA alle pagine: carattere nostro e PDF del libro
+
+Richiesta di Davide: l'uscita non deve restare in lettere EVA, deve diventare una scrittura "come il Voynich". Scelte
+sue: **carattere nostro, disegnato da noi** (non il font EVA Hand 1 di Landini, che non è per uso commerciale) e uscita
+come **PDF del libro**.
+
+- `voynichizzatore/carattere.py`: ogni segno EVA è descritto a tratti (linee e archi); il programma li ingrossa come
+  una penna, ne ricava i contorni e scrive `voynichizzatore/VoynichizzatoreEVA.ttf` (fontTools). I segni composti
+  (`ch sh cth ckh cph cfh`) sono segni a sé, in codici privati; `in_segni(parola)` fa la conversione. Per rifare il
+  font servono pillow e scikit-image; per usarlo no (il file .ttf è nel repo e nel pacchetto).
+- `voynichizzatore/pagine.py`: legge il file del manoscritto e scrive un PDF, una pagina per pagina, paragrafi staccati,
+  carta color pergamena. Il corpo si adatta alla pagina; le poche righe molto più lunghe delle altre sono scritte più
+  strette. Solo testo, niente disegni. Il libro intero (207 pagine) si fa in circa 10 secondi, 0,6 MB.
+- Strumento: `python voynichizzatore/voynichizzatore.py pdf manoscritto.txt --uscita libro.pdf`; nel pacchetto pubblico
+  `python voynichizzatore.py pdf manuscript.txt --out book.pdf` (aggiunti `matplotlib` e `fonttools` ai requisiti).
+- Prova: `esecuzioni/voynichizzatore/libro_v17.pdf` (dal manoscritto di Isidoro v17). Il pacchetto pubblico ricostruito
+  (24 file) fa il PDF e rilegge ancora il manoscritto di prova.
+- **Cosa non è:** il carattere imita le forme, non è la mano dello scriba; ogni segno è sempre identico (nessuna
+  variazione di penna), niente disegni, niente etichette o testo circolare. Non è passato da nessun giudice: è solo la
+  veste grafica, le misure restano quelle sul testo EVA.
+- **Difetto notato guardando le pagine:** nel manoscritto v17 ci sono più righe "troppo lunghe" che nel Voynich vero
+  (righe oltre una volta e mezza la mediana della pagina: 5,3% contro 2,9%). Viene dall'impaginazione statistica della
+  v17. Da correggere in una prossima versione (va preregistrato: cambia il manoscritto).
+
+### Dove siamo (4/10, 11:30)
+
+- Carattere e PDF fatti e committati nel repo privato. **Il repo pubblico non è ancora aggiornato** con questo passo:
+  aspetto che Davide guardi il PDF e dica se va bene.
+- In sospeso come prima: prova su un altro computer, giudice indipendente, sito web, miglioramenti (omogeneità, scelte
+  di riga, profilo pagina, righe troppo lunghe).

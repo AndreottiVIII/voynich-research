@@ -301,6 +301,7 @@ def main():
     # 1. moduli copiati tali e quali
     for cartella, nome in (('analisi', 'misure.py'), ('voynichizzatore', 'disposizione.py'), ('voynichizzatore', 'sacco.py'), ('voynichizzatore', 'parole_nuove.py'),
                            ('voynichizzatore', 'pezzi.py'), ('voynichizzatore', 'canale_sacco.py'), ('voynichizzatore', 'v0.py'), ('voynichizzatore', 'v1.py'),
+                           ('voynichizzatore', 'carattere.py'), ('voynichizzatore', 'pagine.py'),
                            ('voynichizzatore', 'pezzi_parametri_%s.json' % VERSIONE)):
         scrivi(nome, traduci(leggi(cartella, nome)))
     # 2. i pezzi di parola e i legami fra vicine (da e249, e285 e modello.py)
@@ -325,7 +326,8 @@ def main():
         json.dump(d, f, ensure_ascii=False, separators=(',', ':'))
     scrivi('trascrizione.py', TRASCRIZIONE)
     scrivi('voynichizzatore.py', STRUMENTO)
-    scrivi('requirements.txt', 'numpy\nscipy\nscikit-learn\n')
+    scrivi('requirements.txt', 'numpy\nscipy\nscikit-learn\nmatplotlib\nfonttools\n')
+    shutil.copy(os.path.join(RADICE, 'voynichizzatore', 'VoynichizzatoreEVA.ttf'), USCITA)      # il carattere gia' fatto
     scrivi('README.md', LEGGIMI)
     scrivi('LICENSE', LICENZA)
     scrivi('.gitignore', '__pycache__/\n*.pyc\nprova/manoscritto_rifatto.txt\n')
