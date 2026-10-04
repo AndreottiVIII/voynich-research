@@ -328,3 +328,4 @@ Dettagli e numeri nel `QUADERNO.md` (e373–e3a02); tutto replicato con la trasc
   dalla fine (le parole appena scritte); la prima parola della riga copia quanto le altre (l'evitamento riguarda solo
   l'inizio uguale all'inizio della riga sopra); la copia porta un poco con sé gli spazi; la copia non cambia -*dy* in
   -*ey* (la deriva di -*ey* lungo la pagina è a parte).
+- **Correzione (e3a85):** il "po' di ordine 2" che i generatori non hanno riguarda solo quali parole sono frequenti (e3a76). Misurata direttamente sulle sequenze, la memoria di due segni del Voynich (0,23 bit per terna) è come quella di Naibbe e di Timm e Schinner; U2/U3 ne hanno meno (0,04–0,06). Sta a inizio parola e nelle serie ee/ii e attorno a o.
