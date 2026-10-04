@@ -12969,3 +12969,24 @@ Eterogeneità fra le mani 1, 2, 3: Q = 0,20, p = 0,90.
   scelte, tutte le mani, tutte e due le trascrizioni; nessun generatore la ha. Nello scriba anglosassone c'è per una
   scelta su tre. Con un solo scriba vero non si può dire se l'uniformità del Voynich sia insolita; si può dire che la
   memoria corta, da sola, non è un segno di testo artificiale.
+
+## 4/10/2026 (notte) — e3b63: col nullo largo, l'azzeramento all'a capo è confermato; nelle pagine di solo testo il passaggio della memoria resta non dimostrato
+
+Preregistrato (`preregistrazioni/e3b63.md`). Come l'e3b55 con il nullo largo dell'e3b62 (strati: le 6 pagine di solo
+testo; le altre pagine per mano). Codice provato su pagine finte con vocabolario vario (memoria continua: a cavallo
++0,151; azzerata: −0,007; senza memoria, 6 semi: p fra 0,06 e 0,92 a cavallo).
+
+| pagine | coppie | n | K osservato | K nullo | effetto | z | p |
+|---|---|---|---|---|---|---|---|
+| solo testo | stessa riga | 1.458 | +0,057 | −0,010 | +0,066 | +2,7 | 0,007 |
+| solo testo | a cavallo | 326 | +0,081 | +0,045 | +0,036 | +0,7 | 0,24 |
+| altre | stessa riga | 20.491 | +0,081 | −0,003 | **+0,084** | +11,8 | < 0,001 |
+| altre | a cavallo | 6.042 | −0,010 | −0,012 | **+0,001** | +0,1 | 0,45 |
+
+- **Esito preregistrato: non regge** (p 0,24, soglia 0,20).
+- **Lettura:** nelle pagine normali la memoria delle scelte oltre le parole c'è nella riga (+0,084) e si azzera all'a
+  capo (+0,001): è il risultato più solido sulla memoria, ora con il metodo migliore. Nelle pagine di solo testo
+  l'effetto a cavallo è positivo (+0,036, metà di quello nella riga) ma non significativo con 326 coppie; gran parte
+  dell'accordo grezzo a cavallo viene dalle parole che stanno a cavallo (nullo +0,045). Resta quindi valida la lettura
+  dell'e3b55: in quelle pagine passa l'a capo la continuità delle parole; che passi anche la memoria delle scelte è
+  possibile ma non dimostrato.
