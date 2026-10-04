@@ -769,3 +769,8 @@ come **PDF del libro**.
 - Repo pubblico aggiornato col comando `pdf`, il carattere e `pagine.py` (commit `c08394b`), su richiesta di Davide.
 - Scritta `voynichizzatore/SITO_WEB.md`: scheda autosufficiente per la chat che costruirà il sito (comandi, tempi misurati, formati, scelte tecniche, cosa si può dire e cosa no, licenze). Il sito deve offrire tutte e due le vesti: EVA e voynichese in PDF. Attenzione: si rilegge solo dal file EVA, non dal PDF.
 - Tempi misurati: encode 105 s, decode 5 s, pdf 9 s.
+
+## 4/10/2026, 13:00 — Carattere ritoccato (versione 1.1)
+
+- Davide ha visto il confronto (`esecuzioni/voynichizzatore/carattere_confronto.png`) e ha approvato: forche con gambe vicine e inclinate, cappi piccoli e tondi, barra curva; la "l" con occhiello in basso e due braccia. Font rifatto, PDF di prova rifatto, pacchetto pubblico aggiornato.
+- Righe troppo lunghe: la causa è che la v17 fissa le *parole* per riga e non lo spazio (in parole 3,8% contro 3,2% del vero; in caratteri 5,3% contro 2,9%; soglia 1,25: 18% contro 6%). Davide ha approvato un esperimento (e416): nuova regola nella disposizione che pareggia la larghezza in caratteri. Se migliora diventa v18 e va online.
