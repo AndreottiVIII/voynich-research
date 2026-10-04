@@ -1,0 +1,12 @@
+Voynich: beta 0.871 | oltre 1,25 0.060 | oltre 1,5 0.029 | parole oltre 1,5 0.032 | residui 0.1241
+w 0.0   oltre 1,25 0.167 | oltre 1,5 0.049 | residui 0.1554 | pendenza propria 1.003
+w 0.01  oltre 1,25 0.143 | oltre 1,5 0.035 | residui 0.1281 | pendenza propria 0.974
+w 0.02  oltre 1,25 0.126 | oltre 1,5 0.030 | residui 0.1085 | pendenza propria 0.943
+w 0.05  oltre 1,25 0.111 | oltre 1,5 0.026 | residui 0.0831 | pendenza propria 0.921
+w 0.1   oltre 1,25 0.104 | oltre 1,5 0.025 | residui 0.0631 | pendenza propria 0.897
+w 0.2   oltre 1,25 0.102 | oltre 1,5 0.024 | residui 0.0492 | pendenza propria 0.887
+w 0.5   oltre 1,25 0.099 | oltre 1,5 0.024 | residui 0.0326 | pendenza propria 0.883
+peso scelto: 0.01
+v17: oltre 1,25 0.167 | oltre 1,5 0.050 | residui 0.1543
+v18: oltre 1,25 0.138 | oltre 1,5 0.037 | residui 0.1252
+{'sacchi identici': 12, 'gabbia identica': 12, 'rilettura esatta': 12}
