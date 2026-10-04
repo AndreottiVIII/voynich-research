@@ -1529,7 +1529,7 @@ di Davide per scaricarli). Il Marianus (и/ꙇ) non è interpretabile con questa
 - **Raccordo negli scribi (e3c60, batteria scribi):** in 11 scelte ai bordi della parola di 5 scribi, due hanno un legame
   con la parola vicina (effetto/entropia +0,015 e +0,013, p < 0,001), le altre niente; il Voynich +0,058 (*qo*/*o* e
   -*l*/-*r*), cioè **quattro volte il caso più forte**. Il raccordo resta proprio del Voynich.
-- **Formula dopo l'e3c59 (sostituisce la "formula aggiornata" sopra):** la finestra del Voynich (uno "stato" di 2 – 3
+- **Formula dopo l'e3c59 (sostituisce la "formula aggiornata" sopra; da leggere con la correzione dell'e3c79: la finestra dello scriba viene da parole simili, quella del Voynich no):** la finestra del Voynich (uno "stato" di 2 – 3
   parole nelle scelte, non copia, non posizione) è di tutto il manoscritto, in tutte le mani e sezioni e in tre
   trascrizioni; non c'è nei generatori pubblicati né nelle lingue artificiali. **Esiste però in uno scriba vero** (s
   lunga/tonda, AM 302 fol), quindi è un comportamento possibile per chi scrive a mano; fra gli scribi provati è raro (1
@@ -1549,7 +1549,7 @@ esecuzione ogni volta.
 
 | proprietà del Voynich | Voynich | scribi veri | Copiale | verdetto |
 |---|---|---|---|---|
-| finestra (stato di 2 – 3 parole nelle scelte) | +0,13 accanto, +0,09 a 2–3 (k/t, -ey/-dy) | 1 scelta su 18 (s lunga/tonda, AM 302 fol) uguale al Voynich e supera le stesse prove; 1 al limite; 16 niente | **alterna** gli omofoni (−0,18 accanto) | possibile a mano ma raro; nel Voynich diffusa |
+| finestra (stato di 2 – 3 parole nelle scelte) | +0,13 accanto, +0,09 a 2–3 (k/t, -ey/-dy); quasi uguale fra parole simili e diverse (e3c55) | 1 scelta su 18 (s lunga/tonda, AM 302 fol) con grandezza e forma simili, che supera le stesse prove (e3c59), **ma viene da parole simili** (+0,29 contro +0,065 fra parole diverse, e3c79); 1 al limite; 16 niente | **alterna** gli omofoni (−0,18 accanto) | una finestra può nascere a mano (rara, da forme simili); uno **stato che vale anche fra parole diverse** come nel Voynich non si trova negli scribi provati |
 | raccordo (fine parola → inizio della dopo) | effetto/entropia 0,058 | 2 scelte su 11 con 0,013 – 0,015; 9 niente | — | **proprio del Voynich** (4 volte il più forte) |
 | margine sinistro (evita lo stesso inizio della riga sopra) | 5 inizi evitati (z fino a −9,8) | 0 su 72 prove | — | **proprio del Voynich** |
 | deriva lungo la riga | −0,020 – −0,034 ogni 10 segni | nessuna scelta oltre 0,0075 (abbreviazione +0,005) | — | **proprio del Voynich** (da 3 a 15 volte più forte) |

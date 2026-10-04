@@ -15746,3 +15746,21 @@ indicava CC-BY: si segue il file); in `dati/cache/ref/`, non committato. Campion
   trattino di a capo, non una forma di lettera); ripetizioni: **nessuno scriba tedesco ripete come il Voynich**.
 - **Conferma la batteria nordica con scribi dell'Europa centrale, nel secolo del Voynich, con righe della stessa
   lunghezza:** raccordo, margine, forme di bordo e ripetizioni restano proprietà del Voynich, non della scrittura a mano.
+
+## 4/10/2026 (pomeriggio) — e3c79: la finestra dello scriba di AM 302 fol viene da parole simili (copia), non è uno stato come nel Voynich
+
+Preregistrato (`preregistrazioni/e3c79.md`). Misura dell'e3c55 sulla scelta ſ/s di AM 302 fol.
+
+| | distanza 2 | distanza 3 | distanza 4 o più | differenza 2 − 4+ |
+|---|---|---|---|---|
+| AM 302 fol, ſ/s | **+0,290** (+0,118 – +0,447), 264 coppie | +0,202 | +0,065 (+0,022 – +0,107), 2.446 coppie | **+0,225 (+0,046 – +0,393)** |
+| Voynich ZL (e3c55) | +0,129 | +0,119 | +0,091 (+0,064 – +0,116) | +0,038 (−0,005 – +0,083) |
+
+- **Esito preregistrato: legato alla somiglianza (copia).** Lo scriba si accorda molto fra parole simili (forme della
+  stessa parola o parole vicine per forma) e poco fra parole diverse; nel Voynich l'accordo è quasi uguale.
+- **Correzione parziale della lettura dopo l'e3c59** (dove avevo scritto che lo scriba ha "una finestra della stessa
+  forma e grandezza del Voynich"): la grandezza e la forma lungo la riga sono simili, ma **il meccanismo no**. Fra parole
+  diverse lo scriba ha un piccolo accordo (+0,065), meno dei due terzi del Voynich (+0,091), e la parte grande della sua
+  finestra viene dal ripetere forme simili.
+- **Quadro aggiornato:** uno "stato" che vale anche fra parole molto diverse, come quello del Voynich, non si trova in
+  nessuno scriba provato (sette scribi nordici e il copista del Copiale; i tedeschi del ReF sono in corso, e3c77).
