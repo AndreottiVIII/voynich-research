@@ -1,0 +1,957 @@
+{
+ "misure": {
+  "ZL": {
+   "coppie": 4886,
+   "K_tutte": 0.06244780252849147,
+   "eterogeneita": {
+    "parole": {
+     "Q": 39.86906198239569,
+     "Q_nullo_medio": 40.0,
+     "p": 0.483
+    },
+    "segni": {
+     "Q": 21.44610866755228,
+     "Q_nullo_medio": 13.999999999999998,
+     "p": 0.117
+    }
+   },
+   "caratteristiche": [
+    {
+     "caratteristica": "contiene o",
+     "coppie": 2459,
+     "K_con": 0.022425787294340128,
+     "delta": -0.08046387744558137,
+     "z": -2.357818550949103,
+     "p_famiglia": 0.624
+    },
+    {
+     "caratteristica": "parola s",
+     "coppie": 32,
+     "K_con": -0.4275874160819347,
+     "delta": -0.4929784744637694,
+     "z": -2.2570152010650317,
+     "p_famiglia": 0.722
+    },
+    {
+     "caratteristica": "contiene sh",
+     "coppie": 684,
+     "K_con": -0.020383484171196904,
+     "delta": -0.0962093821471697,
+     "z": -2.2394554982775507,
+     "p_famiglia": 0.741
+    },
+    {
+     "caratteristica": "lunghezza ≥ 6",
+     "coppie": 1110,
+     "K_con": -0.009446329015537777,
+     "delta": -0.09348470201210793,
+     "z": -2.205105342954825,
+     "p_famiglia": 0.764
+    },
+    {
+     "caratteristica": "contiene q",
+     "coppie": 880,
+     "K_con": -0.0140283079702315,
+     "delta": -0.0939971469194709,
+     "z": -2.082029930965814,
+     "p_famiglia": 0.863
+    },
+    {
+     "caratteristica": "parola shcthy",
+     "coppie": 23,
+     "K_con": -0.34305581115525696,
+     "delta": -0.4074810868428518,
+     "z": -1.6688871483236274,
+     "p_famiglia": 0.995
+    },
+    {
+     "caratteristica": "contiene e",
+     "coppie": 1767,
+     "K_con": 0.033882194617060185,
+     "delta": -0.04460803596274063,
+     "z": -1.4771322633932762,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola qokaiin",
+     "coppie": 71,
+     "K_con": -0.14256748442428457,
+     "delta": -0.20821306270999596,
+     "z": -1.4079466416976967,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola cheol",
+     "coppie": 27,
+     "K_con": -0.16705887552361615,
+     "delta": -0.2308953649380821,
+     "z": -1.1390211334880207,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola qokain",
+     "coppie": 78,
+     "K_con": -0.09209487267655762,
+     "delta": -0.15721312242533694,
+     "z": -1.0754067773404261,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "contiene k",
+     "coppie": 1107,
+     "K_con": 0.029513515940110206,
+     "delta": -0.04290974330162005,
+     "z": -0.9942049552664723,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola dar",
+     "coppie": 70,
+     "K_con": -0.06544232093851511,
+     "delta": -0.12965952471449432,
+     "z": -0.9005611768781154,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola qokal",
+     "coppie": 42,
+     "K_con": -0.09651093256824324,
+     "delta": -0.16042578556283799,
+     "z": -0.7784929839028677,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola dol",
+     "coppie": 30,
+     "K_con": -0.11690120390833851,
+     "delta": -0.18032033248629997,
+     "z": -0.775407900085348,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola chdy",
+     "coppie": 36,
+     "K_con": -0.07871332466806297,
+     "delta": -0.14215217033730077,
+     "z": -0.7610289788313372,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola sheedy",
+     "coppie": 24,
+     "K_con": -0.10229904738266457,
+     "delta": -0.16549960095845045,
+     "z": -0.7470286221042133,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola qokeedy",
+     "coppie": 24,
+     "K_con": -0.12762100244495256,
+     "delta": -0.19108834938481645,
+     "z": -0.7146033521291607,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola chol",
+     "coppie": 47,
+     "K_con": -0.03547519472938763,
+     "delta": -0.09897731741490937,
+     "z": -0.603397815048766,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "contiene r",
+     "coppie": 820,
+     "K_con": 0.03688287405192601,
+     "delta": -0.030541215189087083,
+     "z": -0.5910216404228609,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola qokol",
+     "coppie": 29,
+     "K_con": -0.061348638616306364,
+     "delta": -0.12450219627058216,
+     "z": -0.5180158970444377,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola chckhy",
+     "coppie": 48,
+     "K_con": -0.004676718361661814,
+     "delta": -0.06769884585858241,
+     "z": -0.46402027174071925,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola lchedy",
+     "coppie": 25,
+     "K_con": -0.0230504984623982,
+     "delta": -0.08591936472295103,
+     "z": -0.427266703763022,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola sheey",
+     "coppie": 35,
+     "K_con": -0.009454068294421808,
+     "delta": -0.07244156329429852,
+     "z": -0.41166058137221107,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola qokar",
+     "coppie": 39,
+     "K_con": -0.014378110818269847,
+     "delta": -0.07747690461466755,
+     "z": -0.28939825880583314,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "contiene y",
+     "coppie": 2075,
+     "K_con": 0.06275432691761419,
+     "delta": 0.0005328429128859807,
+     "z": -0.22270269933921227,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "contiene ch",
+     "coppie": 1204,
+     "K_con": 0.06286524491996741,
+     "delta": 0.0005533170821877681,
+     "z": -0.20378667177792725,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "contiene i",
+     "coppie": 1041,
+     "K_con": 0.05220592567519454,
+     "delta": -0.01309602550549517,
+     "z": -0.17721118238808023,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola dal",
+     "coppie": 43,
+     "K_con": 0.026047227579705314,
+     "delta": -0.03674101417645874,
+     "z": -0.16217395685889624,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola ol",
+     "coppie": 97,
+     "K_con": 0.053755700941344874,
+     "delta": -0.008875505362487317,
+     "z": -0.08465002205786805,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola chy",
+     "coppie": 23,
+     "K_con": 0.07209319235692023,
+     "delta": 0.00969252323709624,
+     "z": 0.06476773374615993,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola y",
+     "coppie": 38,
+     "K_con": 0.09306177295165756,
+     "delta": 0.03086994881741143,
+     "z": 0.14920896414216853,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola al",
+     "coppie": 28,
+     "K_con": 0.11274776364628562,
+     "delta": 0.05058580930965028,
+     "z": 0.2136554986502854,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola qoky",
+     "coppie": 26,
+     "K_con": 0.10186870281488852,
+     "delta": 0.03964219534490494,
+     "z": 0.2525343083015818,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "contiene d",
+     "coppie": 1766,
+     "K_con": 0.07142373597092323,
+     "delta": 0.01399237553259361,
+     "z": 0.32502157167789536,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola shedy",
+     "coppie": 142,
+     "K_con": 0.10278699836234585,
+     "delta": 0.04152254366104916,
+     "z": 0.329950753509368,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "contiene t",
+     "coppie": 493,
+     "K_con": 0.07584214952731692,
+     "delta": 0.014879662054107498,
+     "z": 0.43887658844355115,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "contiene n",
+     "coppie": 919,
+     "K_con": 0.07363179465887963,
+     "delta": 0.013871706603196268,
+     "z": 0.45070158274891514,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola or",
+     "coppie": 41,
+     "K_con": 0.18141176870463024,
+     "delta": 0.11991878046248607,
+     "z": 0.6504998345104844,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola qol",
+     "coppie": 43,
+     "K_con": 0.16976926408383686,
+     "delta": 0.10836853763366157,
+     "z": 0.7269331234832096,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola chey",
+     "coppie": 66,
+     "K_con": 0.1754740399512709,
+     "delta": 0.11448817709263934,
+     "z": 0.7543519372046698,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola chedy",
+     "coppie": 137,
+     "K_con": 0.14333163425755485,
+     "delta": 0.08317161084043065,
+     "z": 0.7797850384723597,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "contiene a",
+     "coppie": 1810,
+     "K_con": 0.07582131265260526,
+     "delta": 0.021411607666928803,
+     "z": 0.8409163537498717,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola o",
+     "coppie": 26,
+     "K_con": 0.2873395019513162,
+     "delta": 0.22616457434140463,
+     "z": 0.8965252602241692,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "lunghezza ≤ 3",
+     "coppie": 1475,
+     "K_con": 0.08650453886521108,
+     "delta": 0.03426989433961138,
+     "z": 0.9009530952360707,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola shey",
+     "coppie": 48,
+     "K_con": 0.23524395445785637,
+     "delta": 0.17439680603608895,
+     "z": 0.9103136451017989,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola r",
+     "coppie": 23,
+     "K_con": 0.301421726115919,
+     "delta": 0.24000743367128283,
+     "z": 0.9913594903187974,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola daiin",
+     "coppie": 159,
+     "K_con": 0.15144591004317712,
+     "delta": 0.09193123662687588,
+     "z": 0.9939392924054287,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola dain",
+     "coppie": 34,
+     "K_con": 0.26759707014414785,
+     "delta": 0.20656329207911323,
+     "z": 1.0399632547142221,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "lunghezza 4–5",
+     "coppie": 2301,
+     "K_con": 0.08247801254856234,
+     "delta": 0.03786613320018213,
+     "z": 1.0432304786891096,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola sheol",
+     "coppie": 24,
+     "K_con": 0.3271986628894329,
+     "delta": 0.26593991491197444,
+     "z": 1.1059596760318513,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola qokeey",
+     "coppie": 24,
+     "K_con": 0.31922068750323435,
+     "delta": 0.2581034599956303,
+     "z": 1.1456633448405604,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola l",
+     "coppie": 39,
+     "K_con": 0.299929343290856,
+     "delta": 0.23954013862461698,
+     "z": 1.2965031077918552,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "contiene l",
+     "coppie": 1394,
+     "K_con": 0.09526149861648495,
+     "delta": 0.046313353635094236,
+     "z": 1.2984867247610776,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola chcthy",
+     "coppie": 28,
+     "K_con": 0.4381085283141612,
+     "delta": 0.37768271937276127,
+     "z": 1.6043317076523564,
+     "p_famiglia": 0.997
+    },
+    {
+     "caratteristica": "parola aiin",
+     "coppie": 47,
+     "K_con": 0.35367192514663776,
+     "delta": 0.2941908203401505,
+     "z": 1.6203777029561675,
+     "p_famiglia": 0.997
+    },
+    {
+     "caratteristica": "parola dy",
+     "coppie": 53,
+     "K_con": 0.338672651236311,
+     "delta": 0.27876085543419415,
+     "z": 1.6820211478063676,
+     "p_famiglia": 0.995
+    },
+    {
+     "caratteristica": "parola ar",
+     "coppie": 45,
+     "K_con": 0.40438357434512934,
+     "delta": 0.3454249417591737,
+     "z": 1.8074809620599026,
+     "p_famiglia": 0.98
+    }
+   ],
+   "azzera": [],
+   "rinforza": []
+  },
+  "IT": {
+   "coppie": 4932,
+   "K_tutte": 0.04530096578756376,
+   "eterogeneita": {
+    "parole": {
+     "Q": 48.22921138088368,
+     "Q_nullo_medio": 40.0,
+     "p": 0.177
+    },
+    "segni": {
+     "Q": 25.02629829178218,
+     "Q_nullo_medio": 14.000000000000007,
+     "p": 0.065
+    }
+   },
+   "caratteristiche": [
+    {
+     "caratteristica": "contiene sh",
+     "coppie": 694,
+     "K_con": -0.043405192489485794,
+     "delta": -0.10314671269483244,
+     "z": -2.6720122628103216,
+     "p_famiglia": 0.331
+    },
+    {
+     "caratteristica": "parola s",
+     "coppie": 27,
+     "K_con": -0.5463945311563185,
+     "delta": -0.5945512437485827,
+     "z": -2.463756674799901,
+     "p_famiglia": 0.526
+    },
+    {
+     "caratteristica": "contiene o",
+     "coppie": 2505,
+     "K_con": 0.0006572432871054348,
+     "delta": -0.09062756366036051,
+     "z": -2.3620655230838183,
+     "p_famiglia": 0.628
+    },
+    {
+     "caratteristica": "contiene q",
+     "coppie": 891,
+     "K_con": -0.04720963931799436,
+     "delta": -0.11362581388485243,
+     "z": -2.2878629626855975,
+     "p_famiglia": 0.7
+    },
+    {
+     "caratteristica": "parola chdy",
+     "coppie": 35,
+     "K_con": -0.35996741088794865,
+     "delta": -0.40794201026683236,
+     "z": -2.1363507774135364,
+     "p_famiglia": 0.832
+    },
+    {
+     "caratteristica": "parola qokain",
+     "coppie": 81,
+     "K_con": -0.18685229282374785,
+     "delta": -0.23619356876981845,
+     "z": -1.6187213736762103,
+     "p_famiglia": 0.998
+    },
+    {
+     "caratteristica": "parola qokol",
+     "coppie": 32,
+     "K_con": -0.3030062633648715,
+     "delta": -0.35043803642919163,
+     "z": -1.5313199054163775,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola qokaiin",
+     "coppie": 69,
+     "K_con": -0.1974972021537099,
+     "delta": -0.24646715773669226,
+     "z": -1.4946202465232419,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola shcthy",
+     "coppie": 22,
+     "K_con": -0.28806806968775883,
+     "delta": -0.3349140595986081,
+     "z": -1.4032491724208558,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "lunghezza ≥ 6",
+     "coppie": 1154,
+     "K_con": -0.0016695736663291643,
+     "delta": -0.06158360433384445,
+     "z": -1.3651193499177083,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola sheedy",
+     "coppie": 22,
+     "K_con": -0.2328593636355184,
+     "delta": -0.27928206102827585,
+     "z": -1.206148384725868,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "contiene e",
+     "coppie": 1834,
+     "K_con": 0.03195624486901424,
+     "delta": -0.021176400341864243,
+     "z": -1.0689577877497591,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola cheol",
+     "coppie": 28,
+     "K_con": -0.16671977737580973,
+     "delta": -0.21337916975340954,
+     "z": -1.0384984236009829,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola chol",
+     "coppie": 50,
+     "K_con": -0.11342026342913172,
+     "delta": -0.16043363624408716,
+     "z": -1.0215330795605249,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola dal",
+     "coppie": 45,
+     "K_con": -0.14046714669767896,
+     "delta": -0.18755970357159535,
+     "z": -1.0054883330244506,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola dol",
+     "coppie": 29,
+     "K_con": -0.11481836903646339,
+     "delta": -0.16097736268826962,
+     "z": -0.7435248983443133,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola chy",
+     "coppie": 23,
+     "K_con": -0.135501402630927,
+     "delta": -0.18167384731971847,
+     "z": -0.7085355833938687,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola qokal",
+     "coppie": 37,
+     "K_con": -0.10009799267198932,
+     "delta": -0.14652013580897258,
+     "z": -0.6034252497632012,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola qokar",
+     "coppie": 35,
+     "K_con": -0.08746727266937103,
+     "delta": -0.13374262908194873,
+     "z": -0.5411661644860485,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola qokeedy",
+     "coppie": 24,
+     "K_con": -0.08550847499281027,
+     "delta": -0.13152943737707323,
+     "z": -0.46903601787707344,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola al",
+     "coppie": 23,
+     "K_con": -0.05184381544393572,
+     "delta": -0.09760427224652879,
+     "z": -0.4030080500104399,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "contiene k",
+     "coppie": 1116,
+     "K_con": 0.02217300426925891,
+     "delta": -0.02999326233587557,
+     "z": -0.38051865470468843,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola checkhy",
+     "coppie": 22,
+     "K_con": -0.005887693677193591,
+     "delta": -0.05141645994752079,
+     "z": -0.3246645608481866,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola qol",
+     "coppie": 52,
+     "K_con": -0.028405774159775524,
+     "delta": -0.07453214361708882,
+     "z": -0.32037857748453064,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "contiene r",
+     "coppie": 832,
+     "K_con": 0.029237346738288858,
+     "delta": -0.019267614955432985,
+     "z": -0.2805513406780872,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola sheey",
+     "coppie": 33,
+     "K_con": 0.06531287713625611,
+     "delta": 0.020150691224568917,
+     "z": 0.02101017735554413,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "lunghezza ≤ 3",
+     "coppie": 1393,
+     "K_con": 0.04687707331485907,
+     "delta": 0.002187540617426445,
+     "z": 0.03959084826857294,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola dar",
+     "coppie": 74,
+     "K_con": 0.07738243095504226,
+     "delta": 0.032570935068993355,
+     "z": 0.28440765414180474,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola chckhy",
+     "coppie": 48,
+     "K_con": 0.0964832971438491,
+     "delta": 0.05163511254857359,
+     "z": 0.3083459715290229,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "contiene ch",
+     "coppie": 1252,
+     "K_con": 0.06717438145160093,
+     "delta": 0.02931066995056574,
+     "z": 0.33014893090015107,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "contiene y",
+     "coppie": 2104,
+     "K_con": 0.06087804021883195,
+     "delta": 0.027114670197200895,
+     "z": 0.34298586466757613,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola shol",
+     "coppie": 22,
+     "K_con": 0.1444507330567612,
+     "delta": 0.09961099103572271,
+     "z": 0.38792450977337456,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "contiene i",
+     "coppie": 1093,
+     "K_con": 0.05050764482921455,
+     "delta": 0.006739000845917692,
+     "z": 0.39476221727693095,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola otar",
+     "coppie": 22,
+     "K_con": 0.12112195898640296,
+     "delta": 0.07616429195993862,
+     "z": 0.3948340100948087,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola ol",
+     "coppie": 95,
+     "K_con": 0.0954004798762228,
+     "delta": 0.05113519200445261,
+     "z": 0.4031669550599756,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola shedy",
+     "coppie": 145,
+     "K_con": 0.11246185074356459,
+     "delta": 0.06916756558504907,
+     "z": 0.4393082679831195,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "contiene l",
+     "coppie": 1401,
+     "K_con": 0.05563938851239419,
+     "delta": 0.01451757251338081,
+     "z": 0.511097375525573,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola or",
+     "coppie": 38,
+     "K_con": 0.15841712203380698,
+     "delta": 0.11392050745610527,
+     "z": 0.599149439508767,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "contiene d",
+     "coppie": 1819,
+     "K_con": 0.06417624012410164,
+     "delta": 0.029829067402558765,
+     "z": 0.6213561676028396,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola qokedy",
+     "coppie": 22,
+     "K_con": 0.19150998706041972,
+     "delta": 0.14692893776044233,
+     "z": 0.6248289157912025,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola qokeey",
+     "coppie": 24,
+     "K_con": 0.19296548545010297,
+     "delta": 0.1483929206310689,
+     "z": 0.6585620109740419,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola qoky",
+     "coppie": 27,
+     "K_con": 0.17403062006335146,
+     "delta": 0.12942799317313552,
+     "z": 0.7408288149118293,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola chey",
+     "coppie": 63,
+     "K_con": 0.17554753203342385,
+     "delta": 0.13183014090420717,
+     "z": 0.7569696447251787,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "contiene t",
+     "coppie": 509,
+     "K_con": 0.07127907528656546,
+     "delta": 0.028992461173507546,
+     "z": 0.8581136107847595,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola chedy",
+     "coppie": 141,
+     "K_con": 0.1508407342983253,
+     "delta": 0.10857895389035602,
+     "z": 0.9048351435407016,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola sheol",
+     "coppie": 23,
+     "K_con": 0.3018512393617286,
+     "delta": 0.2576467198338164,
+     "z": 0.9766151098793856,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "lunghezza 4–5",
+     "coppie": 2385,
+     "K_con": 0.06745518663159095,
+     "delta": 0.04286846287883517,
+     "z": 1.1432044329056494,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "contiene n",
+     "coppie": 963,
+     "K_con": 0.07573444122805302,
+     "delta": 0.03813613514811164,
+     "z": 1.1597730142074667,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola dain",
+     "coppie": 33,
+     "K_con": 0.2978950953923029,
+     "delta": 0.25420770276848675,
+     "z": 1.2641025501565695,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola daiin",
+     "coppie": 167,
+     "K_con": 0.15644206198940017,
+     "delta": 0.11491876171824436,
+     "z": 1.2929420366948903,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola ar",
+     "coppie": 38,
+     "K_con": 0.2977328600241794,
+     "delta": 0.25458602924848267,
+     "z": 1.2975380362317885,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola shey",
+     "coppie": 49,
+     "K_con": 0.27352598102526526,
+     "delta": 0.23042386143293528,
+     "z": 1.3226664178284542,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola dy",
+     "coppie": 51,
+     "K_con": 0.26709736202500634,
+     "delta": 0.2237617574714432,
+     "z": 1.3245675918224347,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola chcthy",
+     "coppie": 29,
+     "K_con": 0.3670494109184798,
+     "delta": 0.323520140326884,
+     "z": 1.4290082846377343,
+     "p_famiglia": 1.0
+    },
+    {
+     "caratteristica": "parola chody",
+     "coppie": 25,
+     "K_con": 0.4321134368651517,
+     "delta": 0.38884683045176244,
+     "z": 1.5931611983746918,
+     "p_famiglia": 0.998
+    },
+    {
+     "caratteristica": "contiene a",
+     "coppie": 1843,
+     "K_con": 0.07032089175314789,
+     "delta": 0.04030487269324218,
+     "z": 1.6110843486818032,
+     "p_famiglia": 0.998
+    },
+    {
+     "caratteristica": "parola aiin",
+     "coppie": 45,
+     "K_con": 0.38884612864707685,
+     "delta": 0.34691816936320974,
+     "z": 1.8930545625544255,
+     "p_famiglia": 0.952
+    }
+   ],
+   "azzera": [],
+   "rinforza": []
+  }
+ },
+ "esito": "nessun segno che azzera lo stato (entro la potenza della prova)"
+}
