@@ -11237,3 +11237,21 @@ nella riga subito sopra, rispetto alle altre righe del paragrafo, per posizione 
   prima parola, quanto con le altre; quello che evita è cominciare la riga **come cominciava** la riga sopra
   (e3a25, e3a33). Sono due cose diverse: una copia "di contenuto" da tutta la riga sopra, e un evitamento "di
   allineamento" fra gli inizi delle righe. (La seconda parola si copia un poco di più, ma l'intervallo si sovrappone.)
+
+## 4/10/2026 (notte) — e3a80: la sintesi dell'e3a78 regge con la trascrizione di Takahashi
+
+Preregistrato (`preregistrazioni/e3a80.md`). Stesso metodo dell'e3a78 sulla IT.
+
+| proprietà | IT vera | riscritta | R |
+|---|---|---|---|
+| giuntura | 0,173 | 0,185 | 1,07 |
+| chiusura della riga | 0,177 | 0,185 | 1,04 |
+| ripresa dalla riga sopra | 0,030 | 0,001 | **0,02** |
+| margine sinistro | 0,478 | 0,008 | **0,02** |
+| -*m* a fine riga | 0,155 | 0,154 | 0,99 |
+| *y*/*s*/*d* a inizio riga | 0,253 | 0,255 | 1,01 |
+| catena dentro/fra le parole | 0,515 | 0,421 | 0,82 |
+| frequenza-forma | 0,608 | 0,647 | 1,06 |
+
+- **Esito preregistrato: la sintesi regge.** Stessa divisione: sei proprietà riprodotte dalla catena per riga, copia
+  dalla riga sopra e margine sinistro no.

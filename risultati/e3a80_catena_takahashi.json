@@ -1,0 +1,53 @@
+{
+ "sintesi": {
+  "giuntura": {
+   "vero": 0.17319692665130246,
+   "riscritto_media": 0.18500165694294513,
+   "R": 1.0681578508342076,
+   "esito": "la catena la riproduce"
+  },
+  "chiusura della riga": {
+   "vero": 0.17728485071907318,
+   "riscritto_media": 0.1851321484758738,
+   "R": 1.0442637807177078,
+   "esito": "la catena la riproduce"
+  },
+  "ripresa dalla riga sopra": {
+   "vero": 0.029684882483797522,
+   "riscritto_media": 0.0006512462088217729,
+   "R": 0.021938648710407842,
+   "esito": "la catena non la riproduce: serve un meccanismo in più"
+  },
+  "margine sinistro": {
+   "vero": 0.47752126366950176,
+   "riscritto_media": 0.008150414681165419,
+   "R": 0.017068171202542344,
+   "esito": "la catena non la riproduce: serve un meccanismo in più"
+  },
+  "-m a fine riga": {
+   "vero": 0.15488845697878545,
+   "riscritto_media": 0.15348317296213174,
+   "R": 0.9909271223688012,
+   "esito": "la catena la riproduce"
+  },
+  "y/s/d a inizio riga": {
+   "vero": 0.25340510860140136,
+   "riscritto_media": 0.254824051000951,
+   "R": 1.0055995019491955,
+   "esito": "la catena la riproduce"
+  },
+  "catena dentro/fra le parole": {
+   "vero": 0.515016831474858,
+   "riscritto_media": 0.4205898939644593,
+   "R": 0.8166527155239034,
+   "esito": "la catena la riproduce"
+  },
+  "frequenza-forma": {
+   "vero": 0.607982472960703,
+   "riscritto_media": 0.647146084220307,
+   "R": 1.0644156912433482,
+   "esito": "la catena la riproduce"
+  }
+ },
+ "esito": "la sintesi regge"
+}
