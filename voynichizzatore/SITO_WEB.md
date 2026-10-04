@@ -239,3 +239,17 @@ Pacchetto v17 **senza modifiche** dentro Pyodide 314.0.7 (Python 3.14.2, numpy 2
 - **Inquadramento chiesto da Davide:** il sito presenta il risultato come un "secondo Voynich" (Voynich II), fatto per
   essere indistinguibile; per ora si scrive "made to be indistinguishable" (obiettivo) e "le nostre misure quasi non lo
   distinguono" (risultato), non "indistinguishable" come fatto: decisione da confermare con Davide (vedi §8).
+- **Email di Davide nel sito (sua decisione, 4/10 sera):** nel colophon di About, scritta in due metà e ricomposta da
+  `js/top.js` (contro i raccoglitori di indirizzi). Sostituisce l'indicazione del §9 ("non va messa da nessuna parte").
+- **Nuovo PDF (decisione di Davide):** non il libro identico all'originale, ma pagine composte: pergamena, disegni veri
+  staccati dal Voynich (quello del foglio vero con lo stesso nome; scelta lasciata a Claude), testo generato intorno in
+  inchiostro bruno. Il PDF attuale (matplotlib) si toglie quando il nuovo è pronto.
+- **Libro illustrato fatto (4/10 sera):** `docs/js/book.js` compone ogni foglio su pergamena col disegno vero del
+  foglio con lo stesso nome (153 disegni ripuliti dalla scrittura in `docs/book/`, ricavati dalle foto di Yale con lo
+  script della sessione; ripieghi per sezione; stelline per le ricette), sceglie fra tre impaginazioni quella che unisce
+  scrittura leggibile e disegno grande, e fa il PDF nel browser con jsPDF 4.2.1 (copiato in `docs/js/vendor/`, MIT):
+  207 pagine, circa 8 MB, circa 25 s. L'anteprima della pagina Write usa la stessa impaginazione. Il vecchio PDF
+  (matplotlib) è tolto dal sito; il comando `pdf` del programma resta com'è.
+- **Il sito usa la v21** (commit `4b1383c`), su richiesta di Davide passata dalla chat del voynichizzatore; tolta la
+  cartella v20. Prova nel browser: manoscritti v17 e v20 (c1, c3, c4) riletti esatti dalla v21; manoscritto scritto
+  dalla v21 nel browser riletto dal programma v21; parole uguali alla v20 in 207 pagine su 207.
