@@ -15429,3 +15429,38 @@ intervallo sopra 0). Rifatta una volta con un effetto più forte: il calcolo non
 Secondo la regola (un passo fallito si rifà una volta, poi si dichiara la lacuna) l'esperimento **non si fa**; il numero
 e3c56 resta senza preregistrazione né risultati. Lacuna: non sappiamo se lo stato segue le parole o il tempo di
 scrittura.
+
+## 4/10/2026 (mattina) — e3c66: lo stato si spegne poco a poco (mezza vita circa 3 parole, a 4 – 6 parole resta +0,055) ed è separato per ogni scelta
+
+Preregistrato (`preregistrazioni/e3c66.md`; codice provato prima su testi finti con stati separati e comuni). Misura
+dell'e3c48 (50 rimescolamenti, intervalli per pagine).
+
+**A. Durata** (righe di almeno 8 parole; *k*/*t*, *sh*/*ch*, -*ey*/-*dy*):
+
+| | 1 | 2 | 3 | 4 | 5 | 6 | media 4–6 (IC) | ρ (IC) | mezza vita (IC) |
+|---|---|---|---|---|---|---|---|---|---|
+| ZL | +0,144 | +0,100 | +0,090 | +0,071 | +0,036 | +0,067 | **+0,058 (+0,032 – +0,084)** | 0,80 (0,70 – 0,90) | **3,1 parole (1,9 – 6,2)** |
+| IT | +0,147 | +0,086 | +0,104 | +0,056 | +0,032 | +0,072 | **+0,054 (+0,030 – +0,081)** | 0,80 (0,69 – 0,89) | **3,0 parole (1,9 – 5,9)** |
+
+- **Esito preregistrato A (ZL e IT): lo stato dura più di tre parole.**
+- **Correzione di una descrizione usata finora:** l'e3c33 (misura senza correzione, atteso diverso) diceva "uguale a 1,
+  2, 3 parole, poi crolla; oltre 4 parole circa 0", e da lì il nome "finestra di circa tre parole". Con la misura
+  corretta lo stato **si spegne poco a poco**: dimezza in circa 3 parole e a 4 – 6 parole vale ancora circa metà del
+  valore accanto. "Finestra" resta come nome, ma la descrizione giusta è "stato con mezza vita di circa tre parole".
+- **Cautela non preregistrata:** una parte dell'accordo a 4 – 6 parole potrebbe essere una preferenza di tutta la riga
+  (costante con la distanza) più che lo stato; i sei punti non bastano a separare le due cose (la curva con una
+  costante in più non è stata preregistrata).
+
+**B. Accoppiamento** (distanza 1 – 3; 1 = *qo*, *k*, *sh*, -*ey*):
+
+| | stessa scelta | scelte diverse |
+|---|---|---|
+| ZL | +0,101 (+0,085 – +0,115) | −0,010 (−0,018 – −0,001) |
+| IT | +0,103 (+0,088 – +0,117) | −0,008 (−0,016 – +0,000) |
+
+- **Esito preregistrato B (ZL e IT): uno stato separato per ogni scelta.** Conferma l'e3c43 con la misura corretta: non
+  c'è una "modalità marcata" generale; *k*/*t*, *sh*/*ch*, -*ey*/-*dy*, *qo*/*o* hanno ciascuna il suo stato (fra scelte
+  diverse semmai un leggerissimo segno opposto).
+- **Descrizione compatta per il white paper e per il generatore:** ogni scelta (*k*/*t*, -*ey*/-*dy*, *sh*/*ch*) ha un suo
+  stato che persiste di parola in parola con probabilità circa 0,8 (mezza vita circa 3 parole), indipendente dalle altre
+  scelte e dalla parola che si scrive.
