@@ -1,0 +1,6 @@
+C:\Users\davide\voynich\esperimenti\e3c70_bit_nascosti.py:63: RuntimeWarning: invalid value encountered in divide
+  C = s[..., 0] / s[..., 1]
+controllo: messaggio alla Bacone [] ['pagina, P=2', 'pagina, P=4', 'pagina, P=5', 'pagina, P=6', 'pagina, P=7', 'pagina, P=8', 'riga, P=4', 'riga, P=5', 'riga, P=6', 'riga, P=7', 'riga, P=8']
+controllo: solo stato [] []
+Voynich ZL [] []
+Voynich IT [] []
