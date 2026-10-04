@@ -697,9 +697,6 @@ trattato noto), un'identificazione sicura di molte piante da usare come appiglio
   - se lo stato **breve** passa l'a capo (quello lento sì).
 - **Una prova con pochi dati:** se lo stato sopravvive al salto di un disegno (la stima è positiva ma l'intervallo è
   troppo largo per dirlo).
-- **Fonti:** tutti i riferimenti sono stati verificati su pagine dell'editore, del repository o dell'archivio; restano
-  due cautele (Appendice D): il PDF di Bax non è stato riletto nella pagina del titolo, e la datazione al radiocarbonio
-  è nota da un comunicato dell'università più che da un articolo scientifico.
 - **In corso** al momento di questa bozza: lo stato breve e la deriva nei 73 scribi tedeschi (esperimento e3c77); un
   confronto fra manoscritti e libri a stampa dello stesso corpus.
 
@@ -879,7 +876,3 @@ giudicare quanto le conclusioni finali siano state messe alla prova.
   Units of Voynichese Are Not", arXiv:2608.17096.
 - L. B. Alberti, *De componendis cifris* (verso il 1466); G. Tritemio, *Polygraphiae libri sex* (1518); F. Bacon, *De
   dignitate et augmentis scientiarum* (1623), con la descrizione del cifrario biletterale.
-
-*Tutti i riferimenti sono stati verificati su pagine dell'editore, del repository o dell'archivio (ottobre 2026). Per
-Bax non è stato possibile rileggere la pagina del titolo del PDF; per la datazione al radiocarbonio la fonte è un
-comunicato dell'università, non un articolo scientifico.*
