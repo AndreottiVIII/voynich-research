@@ -14065,3 +14065,21 @@ con le lettere, non con le parole" per una memoria che cala solo con le parole (
 Il risultato del Voynich nell'e3c09 (lettere sotto 0, parole sopra 0) va nella direzione che l'errore non produce, ma la
 misura va sostituita: nell'e3c10 uso confronti dentro strati esatti (lettere a parità esatta di parole e classe; parole
 a parità esatta di lettere e classe), che non dipendono dalla forma del calo.
+
+## 4/10/2026 (mattina presto) — e3c11: il consumo con le lettere c'è in tutte e tre le mani, senza differenze trovate
+
+Preregistrato (`preregistrazioni/e3c11.md`). Pendenza per lettera a parità di parole e classe (metodo dell'e3c10), con i
+bordi, separata per mano.
+
+| mano | pagine | coppie | ZL (IC 95%) | IT (IC 95%) |
+|---|---|---|---|---|
+| 1 | 112 | 10.911 | −0,0054 (−0,0101 – −0,0008) | −0,0053 (−0,0100 – −0,0005) |
+| 2 | 46 | 18.553 | −0,0037 (−0,0073 – +0,0004) | −0,0045 (−0,0096 – +0,0002) |
+| 3 | 31 | 24.488 | −0,0035 (−0,0070 – −0,0001) | −0,0037 (−0,0074 – −0,0001) |
+
+- **Esito preregistrato: uguale fra le mani** (tutte e sei le differenze hanno intervallo che contiene 0).
+- Come scritto prima, vuol dire "nessuna differenza trovata": le differenze hanno intervalli di circa ±0,006, più larghi
+  dell'effetto stesso. Però la pendenza è negativa in tutte e sei le misure, con intervallo sotto 0 in quattro (la mano
+  2 tocca 0 per poco in tutte e due le trascrizioni): **il consumo con le lettere c'è in ogni mano**, come la memoria
+  (e3b70). È un tratto del modo di scrivere di tutto il manoscritto, non di un solo scriba.
+- Nota: la mano 1 ha più pagine ma meno coppie (paragrafi brevi dell'erbario), la mano 3 il contrario.
