@@ -13061,3 +13061,31 @@ con righe vicine simili: D +0,032, IC con lo 0; azzerata: D −0,019).
   *qo*/*o* non passa l'a capo (e393, e3b45: +0,04 contro +0,35 nella riga) e la giuntura si rompe all'a capo (e384).
 - Prossimo passo (e3b66): stessa prova con più coppie (distanza 2–4), con tutte e due le trascrizioni; il suo esito sarà
   quello che riporto, in un senso o nell'altro.
+
+## 4/10/2026 (notte) — e3b66: la memoria delle scelte passa l'a capo, in parte (correzione importante)
+
+Preregistrato (`preregistrazioni/e3b66.md`), dichiarato come ultimo passo della notte su questa domanda. Pagine normali;
+coppie a distanza 2–4; D = K(fine riga · inizio riga sotto) − media di K(fine riga · inizio riga sopra) e K(fine riga ·
+inizio due righe sotto). Codice provato su pagine finte (passa +0,096, azzerata −0,025).
+
+| trascrizione | pagine | K dentro i tratti (coppie) | K continuazione (coppie) | K riga sopra (coppie) | K due sotto (coppie) | D (IC 95%) |
+|---|---|---|---|---|---|---|
+| ZL | 200 | +0,088 (29.272) | +0,013 (7.879) | −0,035 (8.332) | −0,016 (5.897) | **+0,039** (+0,001 – +0,075) |
+| IT | 199 | +0,081 (29.364) | +0,016 (8.103) | −0,025 (8.432) | −0,026 (5.913) | **+0,041** (+0,007 – +0,079) |
+
+- **Esito preregistrato: la memoria passa l'a capo (almeno in parte).** Circa il 45% della memoria dentro la riga, con
+  tutte e due le trascrizioni; il limite inferiore dell'intervallo ZL è appena sopra lo zero.
+- **Correzioni che ne seguono:**
+  1. **"La memoria delle scelte si azzera all'a capo"** (e3b10, e3b35, e3b63, e le relazioni) **è sbagliato**: era un
+     effetto del confronto con la media della pagina, mentre fine riga e inizio riga hanno scelte diverse dalla media
+     (forme di bordo) e quindi a cavallo ci si aspetta meno accordo. Con l'atteso giusto (fine riga contro inizio di
+     un'altra riga vicina) la memoria a cavallo dell'a capo è circa metà di quella nella riga.
+  2. **Restano valide** le rotture all'a capo misurate con prove che non dipendono dalle quote: la regola di raccordo
+     *qo*/*o* non passa l'a capo (e393, e3b45) e la giuntura fra ultimo e primo segno si rompe (e384).
+  3. Le pagine di solo testo: nelle pagine normali la memoria passa già in parte; lì l'accordo grezzo a cavallo è più
+     alto (e3b38, e3b44) e la stima con il controllo della riga sopra è più grande (+0,12, e3b65) ma con un intervallo
+     largo. Che siano diverse per la memoria, oltre che per la continuità delle parole, non è dimostrato.
+  4. Da ricontrollare con lo stesso metodo: "il salto del disegno azzera la ripetizione" (e3a97) e la memoria al salto
+     (e3b65: +0,11, IC −0,02 – +0,23).
+- **Lettura:** lo scriba porta con sé le scelte anche andando a capo, un po' attenuate; quello che riparte all'a capo è
+  il legame fra segni vicini (raccordo e giuntura), cioè la catena di segni, non la memoria delle scelte.
