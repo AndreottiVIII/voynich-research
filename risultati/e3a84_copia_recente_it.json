@@ -1,0 +1,27 @@
+{
+ "paragrafi": 654,
+ "parole": 23694,
+ "differenza": 0.00923164436064583,
+ "IC95": [
+  0.0028207630168273767,
+  0.01650572980948839
+ ],
+ "terzi": {
+  "primo terzo": {
+   "osservate_per_parola": 0.13273402549168567,
+   "nullo_per_parola": 0.11832531442559299,
+   "eccesso": 0.014408711066092678
+  },
+  "secondo terzo": {
+   "osservate_per_parola": 0.13779859880138431,
+   "nullo_per_parola": 0.11492994006921577,
+   "eccesso": 0.022868658732168548
+  },
+  "ultimo terzo": {
+   "osservate_per_parola": 0.14982696041191862,
+   "nullo_per_parola": 0.12575757575757568,
+   "eccesso": 0.02406938465434294
+  }
+ },
+ "esito": "si ritrova"
+}
