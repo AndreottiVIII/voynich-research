@@ -11977,3 +11977,21 @@ di *sh* e accorcia le *e* nello stesso momento), quindi scelte di tipo diverso d
 contrario: ogni scelta ricorda solo sé stessa, le scelte diverse non si legano (+0,003, IC che contiene 0). Questo va
 contro una causa fisica unica e a favore di abitudini separate per ogni variante. (Il numero di *i*, che è un fatto di
 tratti ripetuti, non ha memoria: e3b19.) Resta da verificare sulle immagini, se un giorno si misureranno i tratti.
+
+## 4/10/2026 (notte) — e3b20: la memoria corta si consuma con le lettere scritte, non solo con le parole
+
+Preregistrato (`preregistrazioni/e3b20.md`). Scelte *qo*/*o*, -*ey*/-*dy*, *sh*/*ch*, *ee*/*e*, *k*/*t*; coppie a distanza
+2 e 3 nella stessa riga, divise secondo le lettere scritte in mezzo (sotto o sopra la mediana: 5 lettere a d 2, 11 a d 3).
+
+| distanza | poche lettere in mezzo | molte lettere in mezzo |
+|---|---|---|
+| 2 parole | +0,059 (3.854 coppie) | +0,023 (6.530) |
+| 3 parole | +0,045 (5.614) | +0,028 (3.856) |
+
+- Differenza "poche" − "molte": **+0,028**, IC 95% +0,013 – +0,042. **Esito preregistrato: la memoria si misura (anche)
+  in segni.**
+- **Lettura:** a parità di parole in mezzo, più lettere si scrivono fra due parole, meno la seconda ripete la scelta
+  della prima. La memoria si consuma con la scrittura, come una memoria di lavoro di chi scrive, non come un contatore di
+  parole.
+- **Cautela:** le parole corte in mezzo (*ol*, *dy*, *or*…) possono avere un ruolo proprio (formule come *qokeedy ol
+  qokeedy*); il test non lo separa.
