@@ -13212,3 +13212,23 @@ finte (passa per intero +0,136; azzera +0,018).
 - **Che cosa resta delle pagine di solo testo:** la giuntura fra l'ultimo segno di una riga e il primo della seguente
   (e3a06, misurata con l'informazione mutua, che non dipende da questo problema) e la continuità delle parole a cavallo
   (e3b55). Cioè: lì la **catena di segni** non riparte a ogni riga, mentre altrove sì.
+
+## 4/10/2026 (notte) — e3b72: nelle pagine di solo testo la giuntura passa l'a capo anche con Takahashi, e non è somiglianza fra righe vicine
+
+Preregistrato (`preregistrazioni/e3b72.md`). Metodo dell'e3a06 (informazione mutua fra l'ultimo segno di una riga e il
+primo della seguente, meno il nullo con abbinamenti a caso nella pagina; p esatto; taratura con insiemi di pari
+dimensione delle altre pagine), più il controllo con la riga sopra. Funzione delle coppie provata su righe finte.
+
+| trascrizione, abbinamento | coppie | E | p esatto | taratura (quota con E maggiore; mediana) |
+|---|---|---|---|---|
+| IT, riga sotto | 187 | **+0,149** | 0,0006 | 0,001; −0,000 |
+| IT, riga sopra | 186 | −0,023 | 0,69 | — |
+| ZL, riga sotto | 193 | **+0,145** | 0,0004 | (e3a06: 0,000) |
+| ZL, riga sopra | 192 | −0,004 | 0,52 | — |
+
+- **Esiti preregistrati:** **si ritrova con Takahashi**; **non è somiglianza fra righe vicine** (con la riga sopra E è
+  circa zero in tutte e due le trascrizioni).
+- **Lettura:** è la differenza solida delle 6 pagine di solo testo: lì l'ultimo segno di una riga e il primo della
+  seguente sono legati come dentro la riga (la catena di segni prosegue oltre l'a capo); nelle altre pagine questo
+  legame si rompe a ogni riga (e384). Insieme all'e3b71: la memoria delle scelte passa l'a capo per metà dappertutto; la
+  catena di segni passa l'a capo solo nelle pagine di solo testo.

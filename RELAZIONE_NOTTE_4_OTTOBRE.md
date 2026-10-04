@@ -249,7 +249,8 @@ scritto nella seconda parte. Le dico subito.
 5. **Le scelte non sono legate alla parola**: una parola del Voynich non ha una "sua" grafia (*k*/*t* e *sh*/*ch* per
    niente, *qo*/*o* e -*ey*/-*dy* al più un poco); nei generatori Naibbe e U2 sì (e3b49, e3b50, e3b61).
 6. **Le 6 pagine di solo testo** (f1r, f66r, f76r, f85r1, f86v5, f86v6): lì la catena di segni non riparte a ogni riga
-   (la giuntura fra l'ultimo segno di una riga e il primo della seguente resta, e3a06) e le parole continuano da una
+   (la giuntura fra l'ultimo segno di una riga e il primo della seguente resta, e3a06, ritrovata con Takahashi e assente
+   con la riga sopra, e3b72) e le parole continuano da una
    riga all'altra. Per la memoria delle scelte invece sono come le altre pagine (passa l'a capo per circa metà, e3b71):
    l'accordo più alto che avevo visto lì veniva dal modo di confrontare.
 7. **Le etichette ripartono da capo** nelle scelte, anche se si copiano la forma (e3b48).
