@@ -11882,3 +11882,15 @@ viceversa).
   -*ey*/-*dy*, *sh*-/*ch*- non è spiegata da nessuna regola trovata. Questo lascia spazio, in principio, a
   un'informazione nascosta in quelle scelte; non è una prova che ci sia (i tentativi di lettura dell'e279 e simili
   hanno dato "nessuna lettura").
+
+## 4/10/2026 (notte) — e3b16: una -m in mezzo alla riga non segna una pausa: dopo, si continua come dopo -n
+
+Preregistrato (`preregistrazioni/e3b16.md`). Primo segno della parola dopo una parola in -*m* in mezzo alla riga (181
+casi), confrontato con l'inizio riga e con le altre finali (divergenza di Jensen-Shannon).
+
+- Dopo -*m*: *ch* 27%, *o* 26%, *sh* 13%, *q* 12%, *y* 6%, *s* 6%.
+- Più vicina: **dopo -*n*** (0,042), poi dopo -*l* (0,087) e -*r* (0,113); inizio riga lontano (0,211: *d*, *y*, *o*, *q*,
+  *s*). Differenza inizio riga − finale più vicina +0,169, IC +0,107 – +0,216.
+- **Esito preregistrato: dopo -m è come dopo un'altra finale.** In mezzo alla riga -*m* si comporta come una finale
+  della classe di -*n* (quelle dopo cui vengono *ch*-, *o*-, *sh*-), non come un confine. Nessun indizio di "pause" o
+  frasi dentro la riga segnate da -*m*: la -*m* è una forma di fine riga, e in mezzo alla riga è una finale come le altre.

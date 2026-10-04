@@ -1182,3 +1182,4 @@ la copia e lo spazio non lessicale, ma non il resto).
   - Per qo-/o- la memoria resta a parità di raccordo con la parola prima (e3b13: +0,043, IC +0,003 – +0,084): non è un effetto indiretto del raccordo.
   - Quanto dura (e3b14): in lingua A la memoria delle scelte si dimezza dopo 2 parole, in lingua B regge circa 4 parole; in tutte e due sparisce a 6–10.
   - In bit la memoria è piccola (e3b15): per qo/o raccordo 8,2%, raccordo + memoria 8,5%; per -ey/-dy e sh/ch la memoria toglie 2–3%. Le scelte restano libere per più del 90%.
+- **Niente pause dentro la riga segnate da -m** (e3b16): dopo una -m in mezzo alla riga la parola comincia come dopo -n (ch, o, sh), non come a inizio riga (d, y, s). La -m è una forma di fine riga; in mezzo alla riga è una finale come le altre.
