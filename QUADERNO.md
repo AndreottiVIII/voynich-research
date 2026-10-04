@@ -15396,3 +15396,25 @@ una sola modifica), scribi Menota a livello facsimile, Copiale a livello del cif
   (con forme di lettera e abbreviazioni che potrebbero creare quasi-ripetizioni), stanno sotto la mediana delle lingue
   stampate; il copista del Copiale, che alterna gli omofoni (e3c61), non ripete mai.
 - Le ripetizioni di parole vicine del Voynich restano una proprietà propria, non un effetto della scrittura a mano.
+
+## 4/10/2026 (mattina) — e3c64: gli scribi veri hanno forme di bordo riga, ma da quattro a sette volte più deboli del Voynich
+
+Preregistrato (`preregistrazioni/e3c64.md`). Metodo dell'e389 (a parità del resto della parola, quanto un segno cresce al
+bordo della riga rispetto al mezzo; nullo con le etichette rimescolate, 1.000 volte); sei scribi Menota; Voynich ZL nella
+stessa esecuzione (maiuscole escluse a inizio riga negli scribi).
+
+| testo | fine riga: segno che cresce di più | inizio riga: segno che cresce di più |
+|---|---|---|
+| Voynich ZL | **-*m* +0,151 (z 26,2)** (al posto di -*r* −0,121) | ***s*- +0,098, *y*- +0,092** (al posto di *ch*-, *k*-) |
+| AM 60 4to | r +0,016 (z 8,1) | **v +0,025 (z 17,1)** (al posto di u) |
+| Holm A 10 | segno d'abbreviazione (barra) +0,022 (z 8,0) | nessuno |
+| AM 302 fol | barra +0,020, -er abbreviato +0,019 (z 7 – 8) | a +0,005 |
+| AM 242 fol | ð +0,017 (z 5,9) | nessuno |
+| AM 677 4to | trattino di a capo +0,012 | +0,005 |
+| AM 519 a 4to | c +0,012 (z 3,4) | +0,001 |
+
+- **Esito preregistrato: gli scribi hanno forme di bordo, ma più deboli della metà del Voynich** (soglie 0,075 e 0,049).
+- Le forme di bordo degli scribi sono quelle note: abbreviare di più a fine riga (per far tornare il margine) e una
+  preferenza di forma a inizio riga (v al posto di u in AM 60). Hanno la stessa natura di quelle del Voynich (una forma
+  al posto di un'altra al bordo), ma sono da 4 a 7 volte più deboli: il -*m* di fine riga e *s*-/*y*- di inizio riga del
+  Voynich restano senza paragone.
