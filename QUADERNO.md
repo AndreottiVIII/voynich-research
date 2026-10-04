@@ -11925,3 +11925,11 @@ Preregistrato (`preregistrazioni/e3b17.md`). Varianti unite su ogni parola: *sh*
   lontanissime dalle lingue.
 - **Limite:** vale per questa unione di varianti. Una codifica di altro tipo (per esempio più parole del Voynich per una
   lettera, come nei cifrari verbosi) non si scopre unendo varianti, e resta fuori da questo test.
+
+## 4/10/2026 (notte) — Osservazione dai profili già misurati (non un esperimento nuovo): nessuna periodicità
+
+Nei profili per distanza dentro la riga, della ripetizione di parole (e3a87: +0,0064, +0,0070, +0,0066, +0,0063, +0,0039,
++0,0048, +0,0010 per d = 1…7) e delle scelte di grafia (e3b14, in A e in B), l'eccesso cala in modo regolare con la
+distanza, senza picchi a 2, 3 o 4 parole. Un cifrario verboso a gruppi di lunghezza fissa (per esempio due o tre parole
+del Voynich per ogni lettera, allineate all'inizio riga) lascerebbe un picco alla distanza del gruppo. Non c'è: nessun
+indizio di gruppi di parole di lunghezza fissa. Gruppi di lunghezza variabile non si vedrebbero in questo modo.
