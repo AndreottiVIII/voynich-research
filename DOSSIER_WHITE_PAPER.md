@@ -1259,6 +1259,7 @@ accoppiata con l'inizio del tratto che lo continua, contro l'inizio di tratti vi
 | affermazione | stato | numeri chiave |
 |---|---|---|
 | Memoria corta delle scelte di grafia nel Voynich | **solida** | ZL +0,086 (IC +0,060 – +0,113), IT +0,076 (+0,049 – +0,103); *qo*/*o*, *k*/*t*, *sh*/*ch*, -*ey*/-*dy* tutte (e3b62, e3b70) |
+| In numeri semplici | descrittivo | dopo *qo*-, a 2–3 parole *qo*- nel 55% contro 37% dopo *o*-; a 6–10 parole 44% contro 36%: la memoria aggiunge circa 10 punti percentuali per *qo*/*o* e -*ey*/-*dy*, 6–7 per *k*/*t* e *sh*/*ch* (e3b82) |
 | È oltre le parole e oltre la catena di segni | **solida** | sul Voynich riscritto dalla catena di ordine 2: +0,002 (e3b69) |
 | Il metodo è specifico (non dà memoria dove non c'è) | **solida** | numero di *i* +0,010 (IC −0,093 – +0,107), -*l*/-*r* −0,002 (−0,052 – +0,053) (e3b77) |
 | Uguale in tutte le mani (A e B) | **solida** | mani 1, 2, 3: +0,089, +0,091, +0,079, intervalli sovrapposti (e3b70); la differenza A/B dell'e3b59/e3b60 era un difetto del metodo |

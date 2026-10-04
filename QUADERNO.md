@@ -13385,3 +13385,24 @@ Provando il codice su pagine finte mi sono accorto che la prova non distingue ni
 il manoscritto, il "salto" fra pagine deve valere in media meno la crescita dentro la pagina, qualunque sia il
 meccanismo (una crescita costante dentro ogni pagina senza ripartenza farebbe salire la quota senza fine). Abbandonato
 prima del commit della preregistrazione; nessun dato del Voynich guardato.
+
+## 4/10/2026 (notte) — e3b82: la memoria delle scelte in numeri semplici (descrittivo)
+
+Preregistrato (`preregistrazioni/e3b82.md`), solo descrittivo. Coppie nella stessa riga, coppie simili tolte sulle
+parole coperte.
+
+| trascrizione | scelta (variante 1) | quota generale | vicine 2–3: dopo 1 / dopo 0 | lontane 6–10: dopo 1 / dopo 0 |
+|---|---|---|---|---|
+| ZL | *qo*/*o* (*qo*) | 0,50 | 0,55 / 0,37 | 0,44 / 0,36 |
+| ZL | *k*/*t* (*k*) | 0,64 | 0,69 / 0,55 | 0,63 / 0,55 |
+| ZL | *sh*/*ch* (*sh*) | 0,30 | 0,35 / 0,22 | 0,26 / 0,20 |
+| ZL | -*ey*/-*dy* (-*ey*) | 0,38 | 0,43 / 0,26 | 0,34 / 0,27 |
+| IT | *qo*/*o* (*qo*) | 0,50 | 0,55 / 0,36 | 0,45 / 0,35 |
+| IT | *k*/*t* (*k*) | 0,64 | 0,69 / 0,55 | 0,63 / 0,54 |
+| IT | *sh*/*ch* (*sh*) | 0,30 | 0,34 / 0,22 | 0,27 / 0,19 |
+| IT | -*ey*/-*dy* (-*ey*) | 0,38 | 0,43 / 0,25 | 0,33 / 0,26 |
+
+- **Lettura in parole semplici:** dopo una parola con *qo*-, la parola della stessa classe 2–3 parole più avanti ha
+  *qo*- nel 55% dei casi, contro il 37% se la prima aveva *o*-: 18 punti di differenza. A 6–10 parole la differenza è
+  di 8 punti (quella che viene dalle differenze fra pagine e fra parole). La memoria corta aggiunge quindi circa **10
+  punti percentuali** per *qo*/*o* e -*ey*/-*dy*, **6–7 punti** per *k*/*t* e *sh*/*ch*, uguale con le due trascrizioni.
