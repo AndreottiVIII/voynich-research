@@ -13656,3 +13656,22 @@ classe (tolte dalle coppie, non dal testo). Filtro provato su un esempio.
   sbagliata: nelle lingue l'effetto resta tutto anche senza le parole più frequenti (gli articoli brevi erano già esclusi
   dalla soglia di 3 lettere, e l'accordo vive fra aggettivi e nomi). Nel Voynich ne resta il 73%. Questo tratto non
   distingue accordo e abitudine.
+
+## 4/10/2026 (notte) — e3b95: la "memoria" del Voynich cala dolcemente; l'accordo delle lingue crolla dopo la parola accanto (descrittivo)
+
+Preregistrato come descrittivo (`preregistrazioni/e3b95.md`). Accordo normalizzato a distanza d meno quello a 8–12,
+coppie simili tolte; nessun nullo né intervallo. Funzione provata su testo finto (memoria che cala: 0,68, 0,46, 0,30…).
+Figura `risultati/figure/profilo_distanza.png`.
+
+| testo | d=1 | d=2 | d=3 | d=4 | d=5 | d=6 | d=7 |
+|---|---|---|---|---|---|---|---|
+| Voynich ZL | +0,172 | +0,144 | +0,135 | +0,095 | +0,056 | +0,048 | +0,040 |
+| italiano NT | +0,334 | +0,101 | +0,042 | +0,037 | +0,021 | +0,011 | −0,001 |
+| spagnolo NT | +0,202 | +0,133 | +0,054 | +0,043 | +0,026 | +0,028 | +0,003 |
+| latino NT | +0,461 | +0,276 | +0,108 | +0,076 | +0,066 | +0,068 | +0,012 |
+| swahili NT (prefissi) | +0,642 | +0,350 | +0,211 | +0,065 | +0,093 | +0,125 | +0,085 |
+
+- **Lettura (descrittiva):** nelle lingue l'accordo è fortissimo fra parole accanto (d = 1) e crolla già a d = 3 (rapporto
+  d3/d1 fra 0,13 e 0,33): è l'accordo dentro il sintagma. Nel Voynich la curva è quasi piatta fra 1 e 3 (rapporto 0,78)
+  e poi cala dolcemente: la forma di una memoria che si consuma, non di un accordo fra parole che stanno insieme. Va
+  provato su dati non ancora guardati (e3b96).
