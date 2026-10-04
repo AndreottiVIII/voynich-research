@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Figura di sintesi (nessun dato nuovo): memoria delle scelte di grafia oltre le parole (effetto = M osservata − media del
 nullo largo dell'e3b62), con intervalli al 95% ricampionando pagine o blocchi interi (e3b70): Voynich ZL e IT e per
-mano, scriba anglosassone (þ/ð, i/y), altri testi storici (i/y), Codex Marianus senza la congiunzione (e3b76), generatori. Scrive risultati/figure/memoria_scribi.png.
+mano, scriba anglosassone (þ/ð, i/y), altri testi storici (i/y), Codex Marianus senza la congiunzione (e3b76), generatori, lingue con accordo (e3b91, e3b93). Scrive risultati/figure/memoria_scribi.png.
 """
 import json, os
 
@@ -31,7 +31,15 @@ def main():
     mar = carica('e3b76_marianus_senza_congiunzione.json')['varianti']['parole di almeno 2 segni']
     a['Codex Marianus, и/ꙇ'] = {'effetto': mar['effetto'], 'IC95': mar['IC95']}
     voce.insert(8, ('Codex Marianus, due forme\ndi i (senza congiunzione)', 'Codex Marianus, и/ꙇ', 'tab:purple'))
-    fig, ax = plt.subplots(figsize=(11.5, 4.8))
+    lin = carica('e3b91_accordo_lingue.json')['testi']
+    for nome, k in (('italiano NT,\naccordo -o/-a', 'italiano NT (Diodati)'), ('spagnolo NT,\naccordo -o/-a', 'spagnolo NT'),
+                    ('latino NT,\naccordo -us/-a', 'latino NT (Vulgata)')):
+        a[nome] = lin[k]
+        voce.append((nome, nome, 'goldenrod'))
+    sw = carica('e3b93_swahili.json')['misure']['memoria']['insieme']
+    a['swahili NT,\nprefissi m-/wa-, ki-/vi-'] = sw
+    voce.append(('swahili NT,\nprefissi m-/wa-, ki-/vi-', 'swahili NT,\nprefissi m-/wa-, ki-/vi-', 'goldenrod'))
+    fig, ax = plt.subplots(figsize=(13.5, 5))
     for i, (nome, k, col) in enumerate(voce):
         x = a[k]
         e, (lo, hi) = x['effetto'], x['IC95']
@@ -39,12 +47,12 @@ def main():
         ax.bar(i, e, color=col, alpha=0.45 if ns else 1.0, hatch='//' if ns else None, edgecolor='0.4' if ns else col)
         ax.errorbar(i, e, yerr=[[e - lo], [hi - e]], color='0.2', capsize=3)
     from matplotlib.patches import Patch
-    ax.legend(handles=[Patch(facecolor='0.85', hatch='//', edgecolor='0.4', label="intervallo che tocca lo zero")], fontsize=8, frameon=False, loc='upper right')
+    ax.legend(handles=[Patch(facecolor='0.85', hatch='//', edgecolor='0.4', label="intervallo che tocca lo zero")], fontsize=8, frameon=False, loc='upper left')
     ax.axhline(0, color='0.3', lw=0.8)
     ax.set_xticks(np.arange(len(voce)))
     ax.set_xticklabels([v[0] for v in voce], rotation=30, ha='right', fontsize=8)
     ax.set_ylabel('memoria delle scelte oltre le parole\n(normalizzata, vicine − lontane, meno il nullo)')
-    ax.set_title('Memoria corta delle scelte: solida nel Voynich (tutte le mani), assente nei generatori, incerta negli scribi veri', fontsize=10)
+    ax.set_title("Memoria corta delle scelte: solida nel Voynich, assente nei generatori, incerta negli scribi veri;\nl'accordo grammaticale delle lingue (in giallo) dà un effetto simile", fontsize=10)
     fig.tight_layout()
     os.makedirs(os.path.join(R, 'figure'), exist_ok=True)
     out = os.path.join(R, 'figure', 'memoria_scribi.png')
