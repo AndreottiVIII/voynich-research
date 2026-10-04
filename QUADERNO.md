@@ -13089,3 +13089,24 @@ inizio due righe sotto). Codice provato su pagine finte (passa +0,096, azzerata 
      (e3b65: +0,11, IC −0,02 – +0,23).
 - **Lettura:** lo scriba porta con sé le scelte anche andando a capo, un po' attenuate; quello che riparte all'a capo è
   il legame fra segni vicini (raccordo e giuntura), cioè la catena di segni, non la memoria delle scelte.
+
+## 4/10/2026 (notte) — e3b67: la memoria delle scelte passa il salto del disegno
+
+Preregistrato (`preregistrazioni/e3b67.md`). Primo tratto di una riga con salto accoppiato con il secondo tratto della
+stessa riga e con quelli delle righe con salto precedente e seguente; coppie a distanza 2–4. Codice provato su righe
+finte (passa +0,109; azzerata −0,007).
+
+| trascrizione | pagine | K dentro i tratti (coppie) | K stessa riga (coppie) | K precedente (coppie) | K seguente (coppie) | D (IC 95%) |
+|---|---|---|---|---|---|---|
+| ZL | 89 | +0,044 (1.773) | +0,067 (1.369) | +0,011 (1.199) | −0,013 (1.172) | **+0,068** (+0,009 – +0,135) |
+| IT | 92 | +0,064 (1.936) | +0,076 (1.439) | +0,017 (1.293) | −0,019 (1.238) | **+0,077** (+0,013 – +0,145) |
+
+- **Esito preregistrato: la memoria passa il salto (almeno in parte)**; a cavallo del salto l'accordo è alto quanto
+  dentro i tratti (i tratti delle righe con salto sono corti, per questo il K "dentro" ha poche coppie).
+- **Quadro con l'e3b66:** a ogni interruzione della scrittura (a capo, salto del disegno) riparte la **catena di segni**
+  (la giuntura si rompe al salto e all'a capo, e386, e384; il raccordo non passa l'a capo, e3b45); la **memoria delle
+  scelte** invece prosegue: per intero oltre il salto di un disegno, per circa metà oltre l'a capo. Le due cose sono di
+  natura diversa: la prima è legata ai segni appena scritti (si scrive di seguito), la seconda alle abitudini del
+  momento di chi scrive.
+- **Da ricontrollare** con questo metodo: "il salto del disegno azzera la ripetizione di una parola" (e3a97), misurata
+  contro la catena riscritta, che potrebbe avere lo stesso problema delle forme di bordo.

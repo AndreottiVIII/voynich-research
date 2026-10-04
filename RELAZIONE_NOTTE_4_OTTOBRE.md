@@ -291,7 +291,8 @@ La misura della memoria è cambiata quattro volte stanotte, ogni volta perché u
 Il Voynich si scrive come una catena di segni riga per riga, con spazi messi dai segni vicini e dalla lunghezza (come i
 generatori, non come le lingue), con un raccordo fra parole fortissimo, e con abitudini da scriba umano (memoria corta
 delle scelte, che all'a capo si dimezza ma non si azzera, copia dalla riga sopra, evitamento sul margine) che i
-generatori non hanno. All'a capo riparte la catena di segni (raccordo e giuntura), non la memoria delle scelte.
+generatori non hanno. All'a capo e al salto di un disegno riparte la catena di segni (raccordo e giuntura), non la
+memoria delle scelte, che passa per intero il salto e per circa metà l'a capo (e3b66, e3b67).
 Nessuna di queste cose, da sola, dice se c'è un significato.
 
 ## Lacune e proposta
