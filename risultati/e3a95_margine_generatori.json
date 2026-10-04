@@ -1,0 +1,74 @@
+{
+ "Naibbe (Greshko 2025), a capo": {
+  "primi 2 segni": {
+   "coppie": 1222,
+   "osservata": 0.05482815057283143,
+   "nullo": 0.05874631751227496,
+   "rapporto": 0.9333036162032653,
+   "z": -0.6810248881561992,
+   "esito": "non evita"
+  },
+  "primo segno": {
+   "coppie": 1222,
+   "osservata": 0.12847790507364976,
+   "nullo": 0.13550409165302782,
+   "rapporto": 0.9481477902721245,
+   "z": -0.773568125420586,
+   "esito": "non evita"
+  }
+ },
+ "U2 (Whitehatnetizen 2026)": {
+  "primi 2 segni": {
+   "coppie": 736,
+   "osservata": 0.08423913043478261,
+   "nullo": 0.06104347826086957,
+   "rapporto": 1.3799857549857548,
+   "z": 2.869149850400672,
+   "esito": "incerto"
+  },
+  "primo segno": {
+   "coppie": 736,
+   "osservata": 0.16032608695652173,
+   "nullo": 0.13928940217391306,
+   "rapporto": 1.1510286098890914,
+   "z": 1.7979715364446505,
+   "esito": "non evita"
+  }
+ },
+ "U3 (Whitehatnetizen 2026)": {
+  "primi 2 segni": {
+   "coppie": 736,
+   "osservata": 0.12635869565217392,
+   "nullo": 0.06170380434782609,
+   "rapporto": 2.047826661381953,
+   "z": 8.034714146940262,
+   "esito": "ripete"
+  },
+  "primo segno": {
+   "coppie": 736,
+   "osservata": 0.19972826086956522,
+   "nullo": 0.13435869565217393,
+   "rapporto": 1.4865302160019414,
+   "z": 5.323692277198932,
+   "esito": "ripete"
+  }
+ },
+ "Timm e Schinner, seme 1": {
+  "primi 2 segni": {
+   "coppie": 3498,
+   "osservata": 0.07089765580331618,
+   "nullo": 0.06463379073756433,
+   "rapporto": 1.0969131625156465,
+   "z": 1.7250345421309639,
+   "esito": "non evita"
+  },
+  "primo segno": {
+   "coppie": 3498,
+   "osservata": 0.15837621497998858,
+   "nullo": 0.1574299599771298,
+   "rapporto": 1.006010641195591,
+   "z": 0.17316749126979467,
+   "esito": "non evita"
+  }
+ }
+}

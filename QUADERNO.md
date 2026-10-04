@@ -11515,3 +11515,22 @@ Esempi: *chor chol daiin*, *dal dar ol*, *chor chol keol*, *chol chor chol*.
   della parola dopo si accordano; può essersi adattata la fine (sguardo avanti) o l'inizio della parola dopo. Per la
   regola -*l*/-*r* la direzione "cambia la fine della prima" era stata mostrata con l'e3a02; qui è solo coerente con
   quella. Nell'e3a93 invece la direzione è chiara (la parola ripetuta era già scritta).
+
+## 4/10/2026 (notte) — e3a95: nessun generatore evita di cominciare la riga come la precedente (U3 anzi ripete)
+
+Preregistrato (`preregistrazioni/e3a95.md`). Metodo dell'e3a35 (inizi uguali fra righe consecutive, nullo con l'ordine
+delle righe rimescolato).
+
+| testo | coppie | rapporto (primi 2 segni) | z | esito |
+|---|---|---|---|---|
+| **Voynich** (e3a35) | 2.267 | **0,51** | −8,0 | — |
+| Naibbe | 1.222 | 0,93 | −0,7 | non evita |
+| U2 | 736 | 1,38 | +2,9 | incerto |
+| U3 | 736 | 2,05 | +8,0 | ripete |
+| Timm e Schinner | 3.498 | 1,10 | +1,7 | non evita |
+
+- **Esito preregistrato:** Naibbe e Timm e Schinner non evitano; U2 incerto (tende a ripetere); **U3 ripete** (il doppio
+  delle righe che cominciano come la precedente). Nessuno evita come il Voynich.
+- L'evitamento sul margine sinistro si aggiunge alla lista dei tratti che nessun generatore pubblicato ha: giuntura,
+  chiusura della riga, ripresa di memoria corta nella riga, evitamento sul margine. Timm e Schinner ha la copia dalla
+  riga sopra, ma senza l'evitamento.
