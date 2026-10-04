@@ -1,0 +1,17 @@
+{
+ "conteggi": {
+  "distanza 1": {
+   "A_dy_sopra_ey_sotto": 118,
+   "B_ey_sopra_dy_sotto": 132,
+   "q": 0.472,
+   "p": 0.41101893973508913
+  },
+  "distanza 3-5": {
+   "A_dy_sopra_ey_sotto": 357,
+   "B_ey_sopra_dy_sotto": 327,
+   "q": 0.5219298245614035,
+   "p": 0.26748476136500865
+  }
+ },
+ "esito": "la copia non ha direzione"
+}

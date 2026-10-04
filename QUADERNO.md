@@ -11270,3 +11270,22 @@ di pagina.
   (giuntura, chiusura della riga, bordi, spazi, frequenza-forma); servono in più quattro proprietà "verticali", che
   dipendono da dove si trova la riga: copia dalla riga sopra, evitamento dell'inizio uguale alla riga sopra, apertura
   del paragrafo, crescita di -*ey* scendendo nella pagina.
+
+## 4/10/2026 (notte) — e3a82: la copia dalla riga sopra non spinge verso -ey; la crescita di -ey scendendo ha un'altra origine
+
+Preregistrato (`preregistrazioni/e3a82.md`). **Nota sulla prova del codice:** la prima prova su righe inventate dava
+(0, 0) perché avevo inventato coppie sbagliate (*chedy*/*chey* hanno radici diverse); rifatta dopo il lancio con coppie
+giuste (*chedy*/*cheey*): il conteggio è corretto (1, 0 a distanza 1; 0, 2 a distanza 2). Il codice non è cambiato.
+
+Coppie di parole uguali tranne la finale -*dy*/-*ey* (stessa radice) in righe della stessa pagina.
+
+| distanza | -*dy* sopra, -*ey* sotto | -*ey* sopra, -*dy* sotto | q | p |
+|---|---|---|---|---|
+| 1 (righe consecutive) | 118 | 132 | 0,472 | 0,41 |
+| da 3 a 5 | 357 | 327 | 0,522 | 0,27 |
+
+- **Esito preregistrato: la copia non ha direzione.** Quando una parola torna nella riga sotto con l'altra finale, il
+  cambio -*dy* → -*ey* e il cambio opposto sono ugualmente frequenti. La crescita di -*ey* scendendo nella pagina (e3a15,
+  e3a81) non nasce dalle copie: è una preferenza legata alla posizione nella pagina, che agisce su tutte le parole.
+- I quattro meccanismi verticali restano quindi distinti: copia dalla riga sopra (senza direzione), evitamento
+  dell'inizio uguale, apertura del paragrafo, deriva di -*ey* lungo la pagina.
