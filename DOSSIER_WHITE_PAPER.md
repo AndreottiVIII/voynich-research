@@ -1060,13 +1060,16 @@ Numeri già registrati nel Quaderno (esperimenti indicati). "Lingue" = 71 testi 
 | spazi prevedibili dai segni vicini, R (e397) | 0,73 | 0,28–0,86 (sopra il Voynich solo il pinyin) | 0,09 (testi piccoli) | — |
 | bordi della riga, divergenza del primo segno (e374) | **0,140** | 0,02 | 0,006 | TS 0,039 |
 | alternanza "vocale/consonante" (Sukhotin) al confine, A (e3a30) | **1,086** (z 20,8) | 0,94–1,16, mediana 1,02 | 1,011 | — |
-| inizi uguali fra righe consecutive, rapporto (e3a35) | **0,51** (z −8,0) | mediana 0,95; solo 3 su 57 sotto | 1,32 | — |
+| inizi uguali fra righe consecutive, rapporto (e3a35, e3a95) | **0,51** (z −8,0) | mediana 0,95; solo 3 su 57 sotto | 1,32 | Naibbe 0,93, TS 1,10, U2 1,38, U3 2,05 |
 | scriba che guarda avanti di una parola (e3a02, e3a34) | sì (ZL e IT) | — | — | — |
 | coppie fra parole che ricalcano le coppie dentro le parole, ρ (e3a49, e3a50) | **0,47** (IT 0,44; GC 0,50) | sotto 0,39 tutte; di solito sotto 0,2 | 0,20 | — |
 | spazio prevedibile dai due segni vicini, F1 (e3a58) | **0,86** | mediana 0,64; 90° percentile 0,72 (pinyin 0,97) | 0,28 | 0,80 – 0,88 |
 | forme probabili presenti nel vocabolario (e3a61) | **0,43** | mediana 0,04; 90° percentile 0,09 (pinyin 0,54) | 0,09 | 0,41 – 0,45 |
 | tagli sbagliati che danno parole vere (e3a67) | **0,50** | mediana 0,065; massimo 0,25 | 0,06 | 0,35 – 0,53 |
 | frequenza delle parole che segue la forma, ρ (e3a55) | **0,58** | mediana 0,11; massimo 0,28 | 0,09 | 0,41 (Naibbe) – 0,60 |
+| ripetizione nella riga che si spegne con la distanza, calo d 7–10 / d 1–4 (e3a87, e3a89, e3a90) | **0,12** | mediana 2,86; 10° percentile 1,10 | 1,59 | Naibbe nessuna ripetizione; U2 1,28, U3 1,88, TS 0,91 |
+| memoria di due segni nella parola, bit per terna (e3a85) | 0,23 | da 0,38 a 1,08 (tutte sopra) | — | Naibbe 0,23, TS 0,30, U2 0,04, U3 0,06 |
+| catena per riga: proprietà riprodotte / non riprodotte (e3a78, e3a80, e3a81, e3a92) | 6 orizzontali sì; copia, margine, apertura del paragrafo, -ey no | — | — | — |
 | regole di raccordo *qo*-/*o*-, -*l*/-*r* (e380, e388, e395, e3a16) | sì, in tutte le mani, sessioni e trascrizioni | (*sandhi*, liaison in alcune lingue) | — | — |
 
 **In una riga:** il Voynich ha un legame fra parole vicine forte come quello delle lingue più legate, fatto di regole di
