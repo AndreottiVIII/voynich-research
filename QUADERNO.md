@@ -15242,3 +15242,34 @@ Isidoro XVII nel sacco, chiavi "e409-1" … "e409-12", le tre versioni sulle ste
   è respinta, e il manoscritto è identico byte per byte a quello del repo (v15, stessa chiave). **Niente è stato
   pubblicato.**
 - **Esito secondo la preregistrazione:** v16 e v17 non sono peggiori della v15; la scelta fra le tre spetta a Davide.
+
+## 4/10/2026 (mattina) — e3c58: altri quattro scribi; 11 scelte di lettera su 12 senza accordo, ma una (ſ/s in AM 302 fol) ha una finestra come il Voynich
+
+Preregistrato (`preregistrazioni/e3c58.md`). Menota, livello facsimile: AM 60 4to (norvegese, c. 1320), AM 242 fol
+(*Codex Wormianus*, islandese, c. 1350), Holm A 10 (svedese, c. 1500 – 1550), AM 302 fol (norvegese, c. 1300). Regola di
+ingresso dell'e3c50 (12 scelte entrano); misura dell'e3c48 (50 rimescolamenti), pagine vere.
+
+| manoscritto, scelta | parole | K corretto 1 (IC 95%) | K corretto 2 / 3 (IC media) | voce |
+|---|---|---|---|---|
+| AM 60, u/v | 8.940 | +0,023 (−0,031 – +0,077) | +0,051 / +0,039 | nessun accordo chiaro |
+| AM 60, í/i | 12.448 | +0,020 (−0,020 – +0,059) | +0,026 / +0,052 (−0,000 – +0,078) | nessun accordo chiaro |
+| AM 242, ꝛ/r | 15.109 | +0,001 | +0,004 / −0,002 | nessun accordo chiaro |
+| AM 242, u/v | 11.982 | −0,002 | +0,012 / +0,007 | nessun accordo chiaro |
+| AM 242, í/i | 15.653 | +0,033 (−0,009 – +0,070) | +0,002 / −0,021 | nessun accordo chiaro |
+| Holm A 10, ꝛ/r | 10.970 | +0,056 (+0,012 – +0,102) | +0,024 / +0,082 (+0,020 – +0,090) | nessun accordo chiaro (al limite) |
+| Holm A 10, w/v | 5.622 | +0,049 (−0,058 – +0,160) | +0,062 / +0,002 | nessun accordo chiaro |
+| Holm A 10, c/k | 9.604 | +0,012 | +0,016 / +0,008 | nessun accordo chiaro |
+| AM 302, ꝛ/r | 11.025 | +0,018 | −0,013 / +0,009 | nessun accordo chiaro |
+| **AM 302, ſ/s** | 7.589 | **+0,125 (+0,062 – +0,191)** | **+0,098 / +0,066 (+0,038 – +0,125)** | **finestra** (r 0,65) |
+| AM 302, u/v | 6.977 | +0,037 | −0,012 / +0,021 | nessun accordo chiaro |
+| AM 302, í/i | 9.678 | −0,000 | +0,031 / −0,011 | nessun accordo chiaro |
+
+- **Esito preregistrato: incerto** (una sola scelta con la finestra: ſ/s in AM 302 fol). Holm A 10 ꝛ/r è al limite
+  (estremi bassi +0,012 e +0,020).
+- **Questo cambia la lettura dell'e3c50:** uno scriba vero può avere, in una scelta di forma di lettera, un accordo
+  fra parole vicine con la forma del Voynich (+0,125 / +0,098 / +0,066 contro +0,131 / +0,093 / +0,086). È una scelta su
+  18 provate in sei scribi (e3c50 + e3c58), ma c'è.
+- Come per il Voynich, una finestra così può venire da preferenze di tratti brevi (lo scriba che per qualche riga
+  preferisce ſ, per esempio un cambio di mano o di penna dentro la pagina, che questi file non segnano) o dalla
+  posizione nella riga. Il Voynich ha superato tutte e due le prove (e3c48 con blocchi di 5 righe; e3c57). **Prossimo:
+  e3c59**, le stesse prove su AM 302 ſ/s e Holm A 10 ꝛ/r.
