@@ -14083,3 +14083,34 @@ bordi, separata per mano.
   2 tocca 0 per poco in tutte e due le trascrizioni): **il consumo con le lettere c'è in ogni mano**, come la memoria
   (e3b70). È un tratto del modo di scrivere di tutto il manoscritto, non di un solo scriba.
 - Nota: la mano 1 ha più pagine ma meno coppie (paragrafi brevi dell'erbario), la mano 3 il contrario.
+
+## 4/10/2026 (mattina presto) — e3c10: pendenze dentro strati esatti; il Voynich come nell'e3c09, le lingue non calano né con le parole né con le lettere
+
+Preregistrato (`preregistrazioni/e3c10.md`). Pendenza dell'accordo in eccesso per una lettera in più a parità di parole e
+classe, e per una parola in più a parità di lettere e classe, meno il nullo largo. Codice provato su testi finti (separa
+bene memoria per lettere e per parole, senza il difetto della regressione lineare).
+
+| testo | per lettera, a parità di parole (IC 95%) | per parola, a parità di lettere (IC 95%) |
+|---|---|---|
+| Voynich ZL, senza i bordi | **−0,0032** (−0,0059 – −0,0005) | +0,010 (−0,003 – +0,023) |
+| Voynich IT, senza i bordi | −0,0027 (−0,0056 – +0,0002) | +0,009 (−0,004 – +0,023) |
+| Voynich ZL, con i bordi | **−0,0033** (−0,0055 – −0,0013) | +0,008 (−0,002 – +0,019) |
+| Voynich IT, con i bordi | **−0,0036** (−0,0060 – −0,0014) | **+0,0115** (+0,0005 – +0,023) |
+| 16 lingue, classe generica | fra −0,0005 e +0,0003, tutti con intervallo che contiene 0 (larghezza ±0,001) | fra −0,004 e +0,002, tutti con intervallo che contiene 0 |
+| italiano Diodati -*o*/-*a* | **−0,0013** (−0,0023 – −0,0003) | +0,002 |
+| altre 4 (-*o*/-*a*, -*us*/-*a*) | fra −0,0009 e +0,0003 | fra −0,007 e +0,003 |
+
+- **Esiti preregistrati: Voynich incerto** (ZL "cala con le lettere, non con le parole", IT al limite per 0,0002, come
+  nell'e3c09: con il Voynich la regressione lineare non era stata ingannata); **lingue incerto**.
+- **La mia attesa sulle lingue era sbagliata.** Avevo scritto che l'accordo delle lingue avrebbe dovuto calare con le
+  parole: nessuna delle 21 lo fa. Motivo: questa misura confronta solo coppie con lo stesso numero di lettere in mezzo,
+  e fra parole accanto non ci sono lettere in mezzo; il crollo dell'accordo delle lingue sta proprio fra d = 1 e d = 2,
+  e qui non si vede. Oltre d = 2 l'accordo delle lingue non cala più, né con le parole né con le lettere.
+- **Quello che resta, e che conta:** la pendenza per lettera. Nel Voynich −0,0027 – −0,0036 (tre stime su quattro con
+  intervallo sotto 0); nelle lingue fra −0,0013 e +0,0003, con intervalli stretti (±0,001) che contengono 0 in 20 casi su
+  21 (l'eccezione è l'italiano Diodati -*o*/-*a*, −0,0013, un terzo del Voynich). Le lingue hanno accordo a 2–3 parole
+  paragonabile al Voynich (e3b95: italiano +0,10 a d = 2), quindi avrebbero da "consumare": non lo fanno. È la terza
+  misura del consumo con le lettere (dopo e3b80/e3c07–e3c08 e e3c09) che separa il Voynich dalle lingue.
+- **Da notare, non spiegato:** nel Voynich, a parità di lettere, una parola in più in mezzo dà un poco **più** accordo
+  (+0,008 – +0,0115; significativo solo con IT e i bordi). Nelle lingue no. Potrebbe dire che le parole molto corte non
+  "consumano" come le altre; resta un'osservazione.
