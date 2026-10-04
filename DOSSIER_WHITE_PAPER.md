@@ -1299,9 +1299,13 @@ memoria corta delle scelte di grafia forte e uniforme (tutte le scelte, tutte le
 oltre i salti del disegno e, dimezzata, oltre l'a capo, mentre la catena di segni (raccordo e giuntura) riparte a ogni
 interruzione; i generatori pubblicati non hanno questa memoria. Se sia un'abitudine normale degli scribi non è stabilito (lo
 scriba anglosassone ha una stima positiva ma incerta; il Codex Marianus non è informativo): servono altri manoscritti
-trascritti in modo diplomatico (permesso di Davide per scaricarli).
+trascritti in modo diplomatico (permesso di Davide per scaricarli). Con la stessa misura l'accordo grammaticale delle
+lingue dà un effetto della stessa grandezza, ma con una forma diversa (concentrato fra parole accanto, quasi non
+legato alle lettere scritte): la memoria del Voynich somiglia più a un'abitudine di chi scrive che a un accordo fra
+parole, senza che questo dica se il testo abbia un significato.
 
 **Lezioni di metodo da riportare** (utili anche a chi legge): (1) confrontare con la media della pagina ai bordi della
 riga inganna, perché fine e inizio riga hanno forme proprie; (2) togliere le coppie "simili" guardando la parola intera
 falsa i confronti con i rimescolamenti; (3) il rimescolamento parola per parola sottostima la variabilità: servono
-intervalli per pagine intere; (4) ogni cambio di misura è stato provato prima su dati finti con memoria nota.
+intervalli per pagine intere; (4) ogni cambio di misura è stato provato prima su dati finti con memoria nota; (5) una misura di "memoria" va sempre
+confrontata anche con le lingue che hanno accordi grammaticali, che producono lo stesso segnale.
