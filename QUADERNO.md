@@ -14041,3 +14041,27 @@ riferimento la v13 sulle stesse chiavi. Risultati in `risultati/e414_giuntura_un
   Le 12 chiavi sono le stesse usate per scegliere fra J1 e J2: conferma su 12 chiavi nuove (13–24) in corso.
 - Pagella 15,2 su 17 raggiungibili (mancano sempre profilo pagina e, quasi sempre, omogeneità); materie aggiunte 6,2
   su 8 (mancano sempre le scelte di riga a 12 classi); cancello della riga con 9 chiavi su 12.
+
+## 4/10/2026 (mattina presto) — e3c08: con il metodo corretto, nessuna lingua si consuma con le lettere
+
+Preregistrato (`preregistrazioni/e3c08.md`). Le 21 misure su lingue dell'e3b92 e dell'e3b99, rifatte con la divisione
+bilanciata dell'e3c07. Riferimento Voynich (e3c07, con i bordi): +0,052 – +0,060.
+
+- **Esito preregistrato: il consumo con le lettere distingue.** Nessun testo su 21 ha l'intervallo sopra 0; mediana
+  +0,0018. I valori più alti sono Plinio -*us*/-*a* (+0,026, intervallo −0,005 – +0,055), italiano Diodati -*o*/-*a*
+  (+0,025, −0,001 – +0,051) e Vulgata -*us*/-*a* (+0,021): circa metà del Voynich, nessuno significativo. Volapük +0,002.
+- Con la divisione vecchia (e3b92, e3b99) il quadro era lo stesso (media +0,015, mediana +0,0005): la correzione di
+  metodo non cambia la conclusione sulle lingue.
+- Il consumo con le lettere resta quindi un tratto che separa la memoria del Voynich dall'accordo delle lingue del
+  corpus, con il metodo corretto da tutte e due le parti.
+
+## 4/10/2026 (mattina presto) — Limite della regressione lineare dell'e3c09 (trovato provando il codice dell'e3c10)
+
+Provando su testi finti più lunghi (blocchi di 25 righe, distanze fino a 7 parole, 275.000 coppie) la regressione
+lineare dell'e3c09, una memoria che si consuma **solo** con le lettere dà un coefficiente per parola **negativo e
+significativo** (−0,006, −0,010 – −0,002): il calo vero è curvo (esponenziale), e la retta ne attribuisce una parte alle
+parole. Quindi la regressione lineare può dare "cala anche con le parole" quando non è vero; non può invece dare "cala
+con le lettere, non con le parole" per una memoria che cala solo con le parole (nei testi finti, per lettera +0,0002).
+Il risultato del Voynich nell'e3c09 (lettere sotto 0, parole sopra 0) va nella direzione che l'errore non produce, ma la
+misura va sostituita: nell'e3c10 uso confronti dentro strati esatti (lettere a parità esatta di parole e classe; parole
+a parità esatta di lettere e classe), che non dipendono dalla forma del calo.

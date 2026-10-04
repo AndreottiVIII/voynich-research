@@ -1319,7 +1319,9 @@ una divisione bilanciata il consumo regge (+0,060 ZL, +0,052 IT; senza le parole
 al limite). L'effetto opposto dell'e3c06 ("più parole, più accordo") era questo errore. **Lettere o parole (e3c09,
 regressione su tutte le coppie):** a parità di parole ogni lettera in mezzo toglie circa 0,003 di accordo (0,016 ogni 5
 lettere); a parità di lettere una parola in più non toglie niente. Esito preregistrato incerto (IT con intervallo che
-tocca 0 per 0,0002), ma la direzione è la stessa in tutte e quattro le stime: la memoria si consuma scrivendo.
+tocca 0 per 0,0002), ma la direzione è la stessa in tutte e quattro le stime: la memoria si consuma scrivendo (cautela:
+la regressione lineare può essere ingannata dalla curvatura del calo; misura sostituita nell'e3c10). **Lingue con il
+metodo corretto (e3c08):** nessuna delle 21 misure si consuma con le lettere (mediana +0,002, nessun intervallo sopra 0).
 
 **Formula per il white paper:** il Voynich ha, oltre alla catena di segni per riga e allo spazio non lessicale, una
 memoria corta delle scelte di grafia forte e uniforme (tutte le scelte, tutte le mani, due trascrizioni), che prosegue
