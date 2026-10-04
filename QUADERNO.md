@@ -14452,3 +14452,27 @@ cui IT legge diversamente.
 - La stima non mostra un eccesso di disaccordo dopo il disegno, ma con 94 parole non si può escludere un disaccordo fino
   a 4 volte più frequente. E, come scritto prima, un errore di lettura uguale nei due trascrittori non si vedrebbe così.
   La domanda "scrittura o lettura" per la *q* dopo il disegno resta aperta: servono le immagini.
+
+## 4/10/2026 (mattina) — e3c26 (descrittivo): la memoria in punti percentuali è 4–5 punti, ma non uguale fra le classi
+
+Preregistrato (`preregistrazioni/e3c26.md`). Righe senza la prima e l'ultima parola. Memoria in punti = quanto la
+variante della prima parola sposta la seconda a 2–3 parole, meno quanto la sposta a 6–10 parole.
+
+| | quota generale (come e3b82) | quota della pagina | pagina e deriva |
+|---|---|---|---|
+| ZL, quattro classi | 5,1 (IC 2,1 – 8,0) | 5,1 (2,1 – 8,1) | **5,1** (2,1 – 8,1) |
+| IT, quattro classi | 4,3 (1,4 – 7,3) | 3,8 (0,8 – 6,8) | **3,7** (0,7 – 6,7) |
+| *qo*/*o* ZL / IT | 10,9 / 9,7 | 10,6 / 9,0 | 10,3 / 8,8 |
+| *k*/*t* | 2,8 / 2,4 | 2,5 / 1,8 | 2,4 / 1,5 |
+| *sh*/*ch* | 2,0 / −0,9 | 1,7 / −2,0 | 1,5 / −2,2 |
+| -*ey*/-*dy* | 10,1 / 11,3 | 10,7 / 11,1 | 10,4 / 10,7 |
+
+- **Descrizione:** senza i bordi della riga la memoria in punti è circa 4–5 punti percentuali, e la correzione per la
+  deriva cambia poco (come nell'e3c15: senza bordi la deriva conta poco nella differenza fra vicine e lontane). La mia
+  attesa (6–7 punti) era un po' alta.
+- **Sorpresa, da capire:** in punti la memoria sta quasi tutta in *qo*/*o* e -*ey*/-*dy* (circa 10 punti), mentre *k*/*t*
+  e *sh*/*ch* danno quasi zero. Con la misura dell'e3b62 le quattro classi erano simili (+0,08/+0,10). La differenza più
+  probabile: l'e3b62 confronta ogni parola con le altre occorrenze **della stessa parola coperta** (il nullo largo), e
+  così tiene conto di quali parole tendono a stare vicine e delle loro preferenze; questo conto semplice no. Se due
+  parole che stanno spesso vicine hanno preferenze opposte, il conto semplice vede meno memoria di quella che c'è "oltre
+  la parola". Verifica nell'e3c27 con un atteso dalla stessa parola coperta.

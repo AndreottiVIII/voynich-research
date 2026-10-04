@@ -1,0 +1,200 @@
+{
+ "ZL": {
+  "insieme": {
+   "quota generale": {
+    "memoria_punti": 5.073368092304776,
+    "vicine_punti": 14.362285283524045,
+    "lontane_punti": 9.28891719121927,
+    "IC95": [
+     2.126971244380381,
+     7.992443445102282
+    ]
+   },
+   "quota della pagina": {
+    "memoria_punti": 5.068884545917078,
+    "vicine_punti": 5.822135923536587,
+    "lontane_punti": 0.7532513776195084,
+    "IC95": [
+     2.101346180060183,
+     8.056819050031885
+    ]
+   },
+   "pagina e deriva": {
+    "memoria_punti": 5.081749205384475,
+    "vicine_punti": 5.342632866255039,
+    "lontane_punti": 0.26088366087056414,
+    "IC95": [
+     2.113447410431576,
+     8.06485068141503
+    ]
+   }
+  },
+  "qo/o": {
+   "quota generale": {
+    "memoria_punti": 10.942659844813921,
+    "vicine_punti": 17.82456794178747,
+    "lontane_punti": 6.881908096973549
+   },
+   "quota della pagina": {
+    "memoria_punti": 10.574015193611574,
+    "vicine_punti": 8.287153449051292,
+    "lontane_punti": -2.2868617445602832
+   },
+   "pagina e deriva": {
+    "memoria_punti": 10.340881387615338,
+    "vicine_punti": 8.349598330192421,
+    "lontane_punti": -1.9912830574229177
+   }
+  },
+  "k/t": {
+   "quota generale": {
+    "memoria_punti": 2.80810173343163,
+    "vicine_punti": 15.122327153042411,
+    "lontane_punti": 12.314225419610782
+   },
+   "quota della pagina": {
+    "memoria_punti": 2.54202849980251,
+    "vicine_punti": 7.256223448606802,
+    "lontane_punti": 4.714194948804292
+   },
+   "pagina e deriva": {
+    "memoria_punti": 2.3943396452257906,
+    "vicine_punti": 6.965215452838404,
+    "lontane_punti": 4.570875807612613
+   }
+  },
+  "sh/ch": {
+   "quota generale": {
+    "memoria_punti": 2.0291991925892345,
+    "vicine_punti": 11.257416932744714,
+    "lontane_punti": 9.228217740155479
+   },
+   "quota della pagina": {
+    "memoria_punti": 1.6525115692603356,
+    "vicine_punti": 3.783068009123268,
+    "lontane_punti": 2.130556439862932
+   },
+   "pagina e deriva": {
+    "memoria_punti": 1.52713190171196,
+    "vicine_punti": 3.1034424002483485,
+    "lontane_punti": 1.5763104985363887
+   }
+  },
+  "-ey/-dy": {
+   "quota generale": {
+    "memoria_punti": 10.127172413051932,
+    "vicine_punti": 18.34876963795289,
+    "lontane_punti": 8.22159722490096
+   },
+   "quota della pagina": {
+    "memoria_punti": 10.687820380879632,
+    "vicine_punti": 5.9454776646537,
+    "lontane_punti": -4.742342716225931
+   },
+   "pagina e deriva": {
+    "memoria_punti": 10.43023879085377,
+    "vicine_punti": 5.22479457422243,
+    "lontane_punti": -5.205444216631339
+   }
+  }
+ },
+ "IT": {
+  "insieme": {
+   "quota generale": {
+    "memoria_punti": 4.328115270755514,
+    "vicine_punti": 14.766879213417289,
+    "lontane_punti": 10.438763942661774,
+    "IC95": [
+     1.4109603508719544,
+     7.2549345640976926
+    ]
+   },
+   "quota della pagina": {
+    "memoria_punti": 3.770827985023136,
+    "vicine_punti": 5.9718704287613535,
+    "lontane_punti": 2.2010424437382174,
+    "IC95": [
+     0.8328206071793093,
+     6.751846885796993
+    ]
+   },
+   "pagina e deriva": {
+    "memoria_punti": 3.6525648695782946,
+    "vicine_punti": 5.521855591585663,
+    "lontane_punti": 1.8692907220073682,
+    "IC95": [
+     0.7174150972648435,
+     6.654845906339685
+    ]
+   }
+  },
+  "qo/o": {
+   "quota generale": {
+    "memoria_punti": 9.701510723787106,
+    "vicine_punti": 18.678170704117818,
+    "lontane_punti": 8.97665998033071
+   },
+   "quota della pagina": {
+    "memoria_punti": 9.016466487577919,
+    "vicine_punti": 8.717749791249604,
+    "lontane_punti": -0.2987166963283147
+   },
+   "pagina e deriva": {
+    "memoria_punti": 8.763409880479207,
+    "vicine_punti": 8.782887513400697,
+    "lontane_punti": 0.019477632921489907
+   }
+  },
+  "k/t": {
+   "quota generale": {
+    "memoria_punti": 2.3965059625953717,
+    "vicine_punti": 15.387913950485826,
+    "lontane_punti": 12.991407987890454
+   },
+   "quota della pagina": {
+    "memoria_punti": 1.7916467484794856,
+    "vicine_punti": 7.466492657680771,
+    "lontane_punti": 5.674845909201285
+   },
+   "pagina e deriva": {
+    "memoria_punti": 1.5218476892128192,
+    "vicine_punti": 7.181567840298797,
+    "lontane_punti": 5.659720151085978
+   }
+  },
+  "sh/ch": {
+   "quota generale": {
+    "memoria_punti": -0.9410650025778053,
+    "vicine_punti": 11.347086017492357,
+    "lontane_punti": 12.288151020070162
+   },
+   "quota della pagina": {
+    "memoria_punti": -1.963501953269746,
+    "vicine_punti": 3.6760195795379853,
+    "lontane_punti": 5.6395215328077315
+   },
+   "pagina e deriva": {
+    "memoria_punti": -2.224421231876685,
+    "vicine_punti": 2.983076309324396,
+    "lontane_punti": 5.207497541201081
+   }
+  },
+  "-ey/-dy": {
+   "quota generale": {
+    "memoria_punti": 11.307068613788921,
+    "vicine_punti": 18.738457661751625,
+    "lontane_punti": 7.431389047962705
+   },
+   "quota della pagina": {
+    "memoria_punti": 11.078222468304459,
+    "vicine_punti": 6.080230147704732,
+    "lontane_punti": -4.9979923205997245
+   },
+   "pagina e deriva": {
+    "memoria_punti": 10.68908223965194,
+    "vicine_punti": 5.363603948677191,
+    "lontane_punti": -5.325478290974749
+   }
+  }
+ }
+}
