@@ -15684,3 +15684,43 @@ Menota; Voynich ZL nella stessa esecuzione (righe consecutive +0,050, soglia +0,
 - **Quadro della batteria aggiornato:** proprio del Voynich: raccordo, margine sinistro, deriva lungo la riga, forze delle
   forme di bordo, ripetizioni; raro negli scribi ma presente: lo stato breve (1 scelta su 18); normale negli scribi: lo
   stato lento che attraversa le righe.
+
+## 4/10/2026 — vz: e416 ed e416b, la larghezza delle righe in caratteri (v18 e v19: nessuna delle due sostituisce la v17)
+
+Preregistrazione `preregistrazioni/e416.md` (con l'integrazione e416b). Risultati: `risultati/e416_larghezza_righe.md`,
+`risultati/e416b_larghezza_curva.md`, `risultati/e409b_messaggio_nel_sacco_v18_chiavi_1_12.md` e `..._v19_...`.
+
+**Il difetto.** La v17 fissa le parole per riga, non lo spazio: righe più larghe di 1,25 volte la mediana della pagina
+(in caratteri) 16,7% contro 6,0% del Voynich; oltre 1,5 volte 5,0% contro 2,9%. In parole la gabbia è giusta (oltre 1,25:
+11,8% contro 11,2%). Nel Voynich le righe con più parole hanno parole più corte (pendenza 0,871; nella v17 1,00).
+
+**Che cosa si è fatto.** Un termine nella disposizione che avvicina la larghezza di ogni riga a quella attesa.
+e416 (v18): attesa proporzionale a n^0,871. e416b (v19): attesa da una curva a 11 nodi misurata sul Voynich (ha un tetto:
+1,25 volte le parole → 1,12 volte la larghezza). Peso regolato sulla deviazione dei residui (0,01 in entrambi).
+
+| 12 chiavi | Voynich | v17 | v18 | v19 |
+|---|---|---|---|---|
+| righe oltre 1,25 | 6,0% | 16,7% | 13,8% | 11,4% |
+| righe oltre 1,5 | 2,9% | 5,0% | 3,7% | 2,8% |
+| giudice e231 | | 0,563 | 0,559 | 0,551 |
+| giudice e266 | | 0,601 | 0,597 | 0,596 |
+| pagella (su 18) | | 15,0 | 15,6 | 15,8 |
+| estese (su 8) | | 5,8 | 5,6 | 5,5 |
+| cancello della riga | | 11 su 12 | 8 su 12 | 4 su 12 |
+| rilettura esatta | | 12 su 12 | 12 su 12 | 12 su 12 |
+
+Sacchi di pagina e gabbia identici alla v17, 12 su 12 in entrambe: il termine tocca solo la disposizione.
+
+**Previsioni.** β fra 0,6 e 0,95: sì. Residui v17 almeno 1,5 volte il Voynich: no (1,24). e416, oltre 1,25 non più del
+10%: **no** (13,8%). e416b, ultimo nodo sotto 1,35: no (1,39); oltre 1,25 non più dell'11%: **no, di poco** (11,4%).
+Giudici entro ±0,015: sì, e nella direzione buona (la v19 è 0,012 sotto la v17 sul primo giudice). Cancello entro due
+chiavi: **no**.
+
+**Lettura, con i criteri scritti prima.** (a) calo di almeno un terzo delle righe oltre 1,25: v18 no (17%), v19 no per
+poco (32%). (b) giudici: sì. (c) rilettura: sì. (d) cancello entro due chiavi: **no** in entrambe. Quindi **nessuna
+delle due sostituisce la v17**. Il cancello cade sempre sulla stessa soglia (A ≥ 1,0): A media 1,009 (v17), 1,002
+(v18), 0,999 (v19). È uno spostamento piccolo ma sistematico: il termine di larghezza sposta le parole fra le righe e
+consuma un po' della concordanza delle scelte di grafia nella riga, che nella v17 stava appena sopra la soglia.
+Due tentativi fatti su questa strada: chiusa così. Lacuna dichiarata: righe un po' troppo larghe nella v17.
+Possibile seguito, da decidere con Davide: v19 con il peso delle scelte di riga regolato di nuovo (come nell'e410) per
+riportare A sopra 1,0; sarebbe un esperimento nuovo con criteri suoi.
