@@ -1201,3 +1201,17 @@ la copia e lo spazio non lessicale, ma non il resto).
   - Dalla riga sopra si riprendono in proporzione di più le parole rare (e3b30: eccesso relativo +31% per le parole che compaiono 2–9 volte, +15% per le frequenti): coerente con una copia a vista delle forme insolite appena scritte.
   - Anche la memoria corta nella riga favorisce le forme rare (e3b31: eccesso relativo +40% per le rare, +8% per le frequenti); le parole uniche hanno una "sorella" a una modifica fra le 4 parole appena prima il 72% più spesso del caso: molte parole uniche nascono come variazione di una parola appena scritta nella stessa riga (non dalla riga sopra, e348).
   - **Correzione:** la frase "molte parole uniche nascono come variazione di una parola appena scritta" (e3b31) era troppo forte: le parole uniche con una sorella fra le 4 precedenti sono il 2,6% contro l'1,5% atteso. L'eccesso relativo è grande, ma riguarda una piccola parte delle parole uniche.
+
+### Nota: che cosa resta dell'autocitazione di Timm e Schinner (dopo e3a83–e3b31)
+
+L'idea di fondo di Timm e Schinner, che lo scriba riusi parole già scritte modificandole, trova riscontro nel Voynich:
+ripetizioni immediate dieci volte le lingue (e3b25), ripresa dalla riga sopra (e385), varianti rare riprese di più
+(e3b30, e3b31). Ma il riuso del Voynich ha una forma diversa da quella del loro generatore:
+- **finestra corta:** dentro la riga si spegne in 6–7 parole e si consuma con le lettere scritte (e3a87, e3b20); dalla
+  riga sopra è piatto ma non va oltre 1–2 righe (e347) e non passa il paragrafo né la pagina (e3b28). Il generatore pesca
+  ugualmente lontano (e3a90, e347);
+- **adattato al raccordo:** la parola ripresa cambia l'inizio o la fine per accordarsi con le vicine (e392, e3a93, e3a94);
+- **memoria delle scelte di grafia separata per variante** (e3b06–e3b19), che nel generatore manca (e3b09);
+- **evitamento sul margine sinistro**, che nel generatore manca (e3a95).
+In una frase: "autocitazione a corto raggio, adattata al raccordo, con memoria delle varianti". Non dice nulla sul
+significato.
