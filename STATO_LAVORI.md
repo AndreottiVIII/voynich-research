@@ -92,6 +92,14 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     più lunga in B non è dimostrata (e3b33, e3b34); le forme rare riprese di più sono solo una tendenza (e3b32); la
     memoria ha una piccola parte comune fra le classi (e3b35); qo/o a parità di raccordo è solo un indizio (e3b36).
     Relazione per Davide riscritta in forma ordinata (`RELAZIONE_NOTTE_4_OTTOBRE.md`).
+  - **e3b37–e3b47 (pagine di solo testo, verifiche):** memoria corta anche nei cerchi (e3b37). **Nelle 6 pagine di
+    solo testo (f1r, f66r, f76r, f85r1, f86v5, f86v6) la memoria corta passa l'a capo**, altrove si azzera (e3b38 ZL,
+    e3b39 IT); non nelle ricette (e3b41); non viene da una pagina (e3b42); la stessa mano 2 passa l'a capo nelle sue
+    pagine di solo testo e lo azzera nelle altre (e3b42); regge con la prova per pagina, p 0,021 e mano 2 p 0,002, e
+    non dipende dalla lunghezza dei paragrafi (e3b44). Lì forme di bordo, margine e copia dalla riga sopra ci sono come
+    altrove (e3b40, e3b43); raccordo fra righe: dati insufficienti (e3b45). **Correzioni:** bootstrap per paragrafo e
+    non per pagina nelle e3b41/e3b42 (dichiarato, rifatto nell'e3b44); "la copia porta gli spazi" (e3a74) non regge
+    come meccanismo (e3b46) e non c'è deriva della spaziatura (e3b47). Figura `solo_testo.png`.
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
