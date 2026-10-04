@@ -11791,3 +11791,23 @@ Differenza +0,029, IC 95% +0,014 – +0,043. **Esito preregistrato: l'a capo azz
 - **Lettura:** a parità di distanza in parole, due parole nella stessa riga condividono le scelte di grafia, due parole a
   cavallo dell'a capo no. Come la giuntura (e384) e la ripetizione immediata (e3a87, e3a97), la memoria corta delle
   scelte vive dentro il tratto scritto di seguito e riparte a ogni riga. La riga è l'unità della scrittura anche qui.
+
+## 4/10/2026 (notte) — e3b11: l'obiezione "spazi fra sillabe" non si può provare col pinyin (troppo pochi punti facoltativi)
+
+Preregistrato (`preregistrazioni/e3b11.md`). Statistica dell'e3b05 sui due testi in pinyin (sillabe separate da spazi)
+e sul maori.
+
+| testo | punti facoltativi | scarto lessicale | z |
+|---|---|---|---|
+| pinyin, Matteo (10.000 sillabe) | 454 | n.d. | – |
+| pinyin, Voynich Wiki | 77 | n.d. | – |
+| maori, Nuovo Testamento | 13.718 | +3,18 | +27,9 |
+| (Voynich, ZL intero, e3b03) | 12.274 | +0,195 | +2,7 |
+
+- **Esito preregistrato: n.d.** Nel pinyin lo spazio fra sillabe è quasi sempre certo (sotto la soglia di 500 punti
+  facoltativi), quindi la domanda non si può porre.
+- **Quello che si vede comunque:** una scrittura a sillabe separate ha pochissimi punti in cui lo spazio è incerto
+  (circa 450 ogni 10.000 sillabe), il Voynich molti di più (circa 3.300 ogni 10.000 parole, con 12.274 sull'intero
+  testo di circa 37.000). Lo spazio del Voynich non si comporta come un confine di sillaba di una scrittura come il
+  pinyin, dove la struttura della sillaba lo decide quasi sempre. Il maori (sillabe aperte, scritto a parole) è
+  lessicale come le altre lingue.
