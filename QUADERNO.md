@@ -15342,3 +15342,18 @@ committati). Chiave ricavata allineando le righe (97,5% di coerenza). Misura del
   ogni cifrario: dice che un copista che sceglie fra omofoni nel modo di questo (alternando) lascerebbe il segno opposto.
 - Nota di metodo: il valore negativo non viene dalla correzione (il nullo rimescola le scelte fra le occorrenze della
   stessa parola e non conosce l'ordine); è un'alternanza vera nella sequenza dei simboli.
+
+## 4/10/2026 (mattina) — e3c63: nessuno scriba vero evita di cominciare la riga come quella sopra; il Voynich sì
+
+Preregistrato (`preregistrazioni/e3c63.md`). Metodo dell'e3a33 (Δ = P(stesso inizio | riga sopra con quell'inizio) −
+P(stesso inizio | riga sopra diversa), contro le righe rimescolate; 2.000 volte), primo segno della riga, i 12 inizi più
+frequenti per manoscritto; Voynich ZL rifatto nella stessa esecuzione.
+
+- **Voynich ZL:** evitati *qo*- (Δ −0,156, z −9,8), *o*- (−0,112, z −7,0), *d*- (z −3,8), *ch*- (z −3,6), *y*- (z −3,5):
+  come nell'e3a33.
+- **Sei scribi (AM 519 a, AM 677, AM 60, AM 242, Holm A 10, AM 302): nessun inizio evitato in 72 prove.** I Δ stanno fra
+  −0,025 e +0,067; l'unico esito è un inizio **ripetuto** (v- in AM 60 4to, z +5,0) e alcuni z fra +2 e +3,3 (tendenza a
+  ripetere, non a evitare).
+- **Esito preregistrato: nessuno scriba evita gli inizi ripetuti.**
+- **Lettura:** l'evitamento verticale sul margine sinistro del Voynich non è un'abitudine di chi scrive a mano (almeno
+  di questi sei scribi, tre tradizioni, 1200 – 1550). Resta una proprietà propria del Voynich, insieme al raccordo.
