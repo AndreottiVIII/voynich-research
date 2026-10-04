@@ -412,3 +412,9 @@ Misure con il metodo finale (vedi DOSSIER, sezione 15.13). Da imitare:
     righe), la memoria vale circa +0,09 – +0,10 fra parole accanto (righe di almeno 9 parole), cioè 3–4 punti percentuali
     fra vicine (2–3) e lontane (6–10); sta soprattutto in *qo*/*o* e -*ey*/-*dy*. A 3 parole ne resta circa il 60–70%. Nelle
     righe corte l'accordo misurato è più alto (forse preferenze di pagina: in verifica).
+19. (e3c32 – e3c37) **Il quadro più pulito per il generatore:** tolte le preferenze di parola, di pagina, la deriva e i
+    bordi, *k*/*t*, *sh*/*ch*, -*ey*/-*dy* si accordano fra parole vicine della stessa riga con K ≈ +0,12 – +0,15 a 1 parola,
+    +0,05 – +0,10 a 2 e 3 parole, circa 0 da 4 parole in su (una "finestra" di circa tre parole); *qo*/*o* non si accorda
+    con la parola accanto (lì decide il raccordo) ma sì a 2–3 parole (+0,06 / +0,11); *a*/*o* quasi niente. Le scelte di
+    una stessa pagina hanno inoltre una preferenza comune (circa 0,06 di accordo a ogni distanza). U3 e Timm e Schinner
+    hanno un piccolo accordo accanto ma nessuna finestra: è il tratto da imitare.
