@@ -1,0 +1,66 @@
+{
+ "Voynich": {
+  "varianza per riga": 1.1027020938077412,
+  "r righe consecutive": 0.2069891369775053,
+  "A": 1.046461112085263,
+  "somiglianza a distanza 2": 0.21981323081773183,
+  "S1": 0.5312322313378279
+ },
+ "v20": {
+  "varianza per riga": 1.1998365605610983,
+  "r righe consecutive": 0.22022830881461217,
+  "A": 1.0298155058404088,
+  "somiglianza a distanza 2": 0.22232876042005195,
+  "S1": 0.5175145302492623
+ },
+ "F1": {
+  "varianza per riga": 1.1264638455868465,
+  "r righe consecutive": 0.19642803467726455,
+  "A": 1.0332000806932202,
+  "somiglianza a distanza 2": 0.22148696810661278,
+  "S1": 0.540447842319726
+ },
+ "traccia": [
+  {
+   "giro": 0,
+   "scelte": 0.0444002933189508,
+   "scelte_sopra": 0.04841708822646948,
+   "valori": {
+    "varianza per riga": 1.1264638455868465,
+    "r righe consecutive": 0.19642803467726455,
+    "A": 1.0332000806932202,
+    "somiglianza a distanza 2": 0.22148696810661278,
+    "S1": 0.540447842319726
+   },
+   "scarto": 0.021548659345566046
+  }
+ ],
+ "migliore": {
+  "giro": 0,
+  "scelte": 0.0444002933189508,
+  "scelte_sopra": 0.04841708822646948,
+  "valori": {
+   "varianza per riga": 1.1264638455868465,
+   "r righe consecutive": 0.19642803467726455,
+   "A": 1.0332000806932202,
+   "somiglianza a distanza 2": 0.22148696810661278,
+   "S1": 0.540447842319726
+  },
+  "scarto": 0.021548659345566046
+ },
+ "converge": true,
+ "sintesi": {
+  "F1": {
+   "varianza per riga": 1.148999525078116,
+   "r righe consecutive": 0.1921433036619423,
+   "A": 1.0245465696534828,
+   "somiglianza a distanza 2": 0.22180021907338907,
+   "S1": 0.50617465411224,
+   "caratteri oltre 1,25": 0.11569180951217141,
+   "caratteri oltre 1,5": 0.02760779196740383,
+   "A almeno 1": 12,
+   "sacchi identici": 12,
+   "rilettura esatta": 12
+  }
+ }
+}

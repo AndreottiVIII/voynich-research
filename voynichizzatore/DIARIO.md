@@ -875,3 +875,21 @@ come **PDF del libro**.
 - Collaudo v20 superato in tutti e cinque i casi e in tutti i sensi (tabella in `SITO_WEB.md`, §13, e in How it works);
   trovato e corretto un difetto del sito sul libro senza messaggio (`JsNull`). Il sito presenta il libro come "un
   secondo Voynich", come chiesto da Davide.
+
+## 4/10/2026, 17:40 — e418: difetto nella disposizione corretto, v21 pronta (non ancora pubblicata)
+
+- Voce completa nel QUADERNO ("vz: e418"). Difetto mio dell'e412, trovato dalla chat del sito: conteggi delle scelte
+  di riga mai inizializzati da v12 a v20. Corretto dietro `conti_iniziali` nei pesi della disposizione.
+- v21 = v20 + `conti_iniziali` (stessi pesi; la regolazione non li cambia). Parametri
+  `voynichizzatore/pezzi_parametri_v21.json` (uguale a `_v21f1.json`), nel registro `versioni.py`.
+- 24 chiavi: 0,554 ± 0,004 / 0,601 ± 0,005 (v20: 0,560 / 0,607), pagella 16,0, cancello 24 su 24, rilettura 24 su 24.
+- Lezione: rileggere il diff quando si inserisce un blocco in mezzo a una funzione; un controllo semplice sarebbe
+  bastato (stampare i conteggi iniziali). La revisione di un'altra chat sul codice pubblico l'ha trovato in un giorno.
+- Dalla chat del sito: capienza con cinque chiavi 80.344–84.678 bit (non 81.000–83.000); collaudo v20 nel browser
+  superato (rilettura incrociata PC ↔ browser esatta).
+
+### Dove siamo (4/10, 17:40)
+
+- Online: v20. **v21 pronta nel repo privato; va pubblicata solo quando Davide dice sì** (poi avvisare la chat del
+  sito, che aggiunge `docs/engine/v21`). Da aggiornare alla pubblicazione: `VERSIONE` in
+  `strumenti/costruisci_pubblico.py`, numeri del README (0,55 / 0,60, pagella 16), capienza "about 80,000–85,000 bits".
