@@ -11843,3 +11843,23 @@ Differenza **+0,043**, IC 95% +0,003 – +0,084. **Esito preregistrato: la memor
 - **Lettura:** anche quando la parola precedente spinge nello stesso modo, una scelta *qo*-/*o*- tende a ripetersi nelle
   2–3 parole seguenti. La memoria corta è una cosa in più rispetto al raccordo. Pochi dati (intervallo largo, appena
   sopra lo zero).
+
+## 4/10/2026 (notte) — e3b14: la memoria delle scelte di grafia dura 1–2 parole in lingua A, circa 4 in lingua B
+
+Preregistrato (`preregistrazioni/e3b14.md`). Eccesso di accordo delle scelte -*ey*/-*dy*, *sh*/*ch*, *ee*/*e* fra
+parole della stessa riga, per distanza.
+
+| d | lingua A | lingua B |
+|---|---|---|
+| 1 | +0,065 | +0,059 |
+| 2 | +0,030 | +0,042 |
+| 3 | +0,021 | +0,047 |
+| 4 | +0,012 | +0,037 |
+| 5 | −0,029 | +0,010 |
+| 6–10 insieme | +0,004 (IC −0,039 – +0,051) | −0,004 (IC −0,020 – +0,011) |
+
+- **Esito preregistrato:** lingua A "memoria di breve durata" (si dimezza a 2 parole); lingua B "in mezzo" (si dimezza
+  solo a 5 parole: resta alta fino a 4 e poi cade). In tutte e due a 6–10 parole non resta niente.
+- **Lettura:** la memoria delle scelte c'è in A e in B, ma in B dura di più (circa 4 parole contro 1–2). Va con altri
+  segni che la lingua B è "più legata" lungo la riga (giuntura doppia, e393). Cautela: in A le righe sono più corte e i
+  dati a distanza grande sono pochi.
