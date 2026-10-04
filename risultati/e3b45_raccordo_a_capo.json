@@ -1,0 +1,85 @@
+{
+ "gruppi": {
+  "ZL, solo testo (T)": {
+   "pagine": 6,
+   "a_cavallo": {
+    "coppie": 29,
+    "V": 15,
+    "C": 14,
+    "differenza": 0.01904761904761898,
+    "p": 0.6162,
+    "IC95": [
+     -0.303921568627451,
+     0.36057692307692313
+    ]
+   },
+   "stessa_riga_differenza": 0.3325220053578263,
+   "stessa_riga_coppie": 526
+  },
+  "ZL, mano 2 non T": {
+   "pagine": 42,
+   "a_cavallo": {
+    "coppie": 196,
+    "V": 102,
+    "C": 94,
+    "differenza": 0.03295786399666256,
+    "p": 0.3248,
+    "IC95": [
+     -0.06981132075471697,
+     0.13350020859407596
+    ]
+   },
+   "stessa_riga_differenza": 0.43049637959535286,
+   "stessa_riga_coppie": 2286
+  },
+  "ZL, tutte le non T": {
+   "pagine": 201,
+   "a_cavallo": {
+    "coppie": 598,
+    "V": 269,
+    "C": 329,
+    "differenza": 0.0423272053423126,
+    "p": 0.1589,
+    "IC95": [
+     -0.03334574630149978,
+     0.1199197981436424
+    ]
+   },
+   "stessa_riga_differenza": 0.3504947781356494,
+   "stessa_riga_coppie": 7536
+  },
+  "IT, solo testo (T)": {
+   "pagine": 6,
+   "a_cavallo": {
+    "coppie": 29,
+    "V": 16,
+    "C": 13,
+    "differenza": 0.05769230769230771,
+    "p": 0.5161,
+    "IC95": [
+     -0.268421052631579,
+     0.3952380952380953
+    ]
+   },
+   "stessa_riga_differenza": 0.33913696060037524,
+   "stessa_riga_coppie": 530
+  },
+  "IT, tutte le non T": {
+   "pagine": 200,
+   "a_cavallo": {
+    "coppie": 587,
+    "V": 266,
+    "C": 321,
+    "differenza": 0.027428384044222764,
+    "p": 0.2687,
+    "IC95": [
+     -0.052140777733071464,
+     0.10558289219001427
+    ]
+   },
+   "stessa_riga_differenza": 0.34888777874915006,
+   "stessa_riga_coppie": 7573
+  }
+ },
+ "esito": "dati insufficienti"
+}
