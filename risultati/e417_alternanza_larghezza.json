@@ -1,0 +1,231 @@
+{
+ "Voynich": {
+  "A": 1.046461112085263,
+  "somiglianza a distanza 2": 0.21981323081773183,
+  "S1": 0.5312322313378279
+ },
+ "regolazione": {
+  "0.13240495561089888": {
+   "A": 1.001890791073311,
+   "somiglianza a distanza 2": 0.21516891125067764,
+   "S1": 0.5058416768070886
+  },
+  "0.2": {
+   "A": 1.018594169376758,
+   "somiglianza a distanza 2": 0.2178439428513273,
+   "S1": 0.5477352024863222
+  },
+  "0.3": {
+   "A": 1.0298155058404088,
+   "somiglianza a distanza 2": 0.22232876042005195,
+   "S1": 0.5175145302492623
+  },
+  "0.45": {
+   "A": 1.0651885177194906,
+   "somiglianza a distanza 2": 0.23067110386399206,
+   "S1": 0.5360066656228331
+  },
+  "0.65": {
+   "A": 1.1007672600734506,
+   "somiglianza a distanza 2": 0.23941797830037276,
+   "S1": 0.5222999323788907
+  },
+  "0.9": {
+   "A": 1.1339816755351335,
+   "somiglianza a distanza 2": 0.250554631415465,
+   "S1": 0.5240386163509116
+  }
+ },
+ "scelto": 0.3,
+ "sintesi": {
+  "A": 1.0338466344383557,
+  "A almeno 1": 12,
+  "somiglianza a distanza 2": 0.22413203556221017,
+  "caratteri oltre 1,25": 0.1154234505006237,
+  "caratteri oltre 1,5": 0.02826697658937698,
+  "sacchi identici": 12,
+  "rilettura esatta": 12
+ },
+ "per chiave": [
+  {
+   "larghezze": {
+    "righe": 4140,
+    "caratteri oltre 1,25": 0.11521739130434783,
+    "caratteri oltre 1,5": 0.029468599033816423,
+    "parole oltre 1,5": 0.03188405797101449,
+    "residui": 0.157159368351252,
+    "pendenza propria": 0.9201027050090458
+   },
+   "sacchi identici": true,
+   "rilettura esatta": true,
+   "A": 1.0320708011172837,
+   "somiglianza a distanza 2": 0.22466441637285672,
+   "S1": 0.49455490058946944
+  },
+  {
+   "larghezze": {
+    "righe": 4208,
+    "caratteri oltre 1,25": 0.11596958174904944,
+    "caratteri oltre 1,5": 0.025903041825095056,
+    "parole oltre 1,5": 0.030180608365019013,
+    "residui": 0.14788226015351758,
+    "pendenza propria": 0.91379678175015
+   },
+   "sacchi identici": true,
+   "rilettura esatta": true,
+   "A": 1.0439873268164368,
+   "somiglianza a distanza 2": 0.2215809668122252,
+   "S1": 0.5833084056236912
+  },
+  {
+   "larghezze": {
+    "righe": 4099,
+    "caratteri oltre 1,25": 0.1075872163942425,
+    "caratteri oltre 1,5": 0.027323737496950475,
+    "parole oltre 1,5": 0.03317882410343986,
+    "residui": 0.14845487357786674,
+    "pendenza propria": 0.9115423289372901
+   },
+   "sacchi identici": true,
+   "rilettura esatta": true,
+   "A": 1.0396559810891894,
+   "somiglianza a distanza 2": 0.22248800764641632,
+   "S1": 0.434652278177458
+  },
+  {
+   "larghezze": {
+    "righe": 4135,
+    "caratteri oltre 1,25": 0.10955259975816203,
+    "caratteri oltre 1,5": 0.02418379685610641,
+    "parole oltre 1,5": 0.03143893591293833,
+    "residui": 0.1424215640038371,
+    "pendenza propria": 0.9043882304999141
+   },
+   "sacchi identici": true,
+   "rilettura esatta": true,
+   "A": 1.0433804179864605,
+   "somiglianza a distanza 2": 0.22757465878312527,
+   "S1": 0.5861402259082121
+  },
+  {
+   "larghezze": {
+    "righe": 4193,
+    "caratteri oltre 1,25": 0.11447650846649177,
+    "caratteri oltre 1,5": 0.028380634390651086,
+    "parole oltre 1,5": 0.03267350345814453,
+    "residui": 0.15691902306409172,
+    "pendenza propria": 0.9289298631726071
+   },
+   "sacchi identici": true,
+   "rilettura esatta": true,
+   "A": 1.017574866660163,
+   "somiglianza a distanza 2": 0.22169185674054154,
+   "S1": 0.48246054879887423
+  },
+  {
+   "larghezze": {
+    "righe": 4241,
+    "caratteri oltre 1,25": 0.12190521103513323,
+    "caratteri oltre 1,5": 0.03088894128743221,
+    "parole oltre 1,5": 0.03513322329639236,
+    "residui": 0.16129419750653584,
+    "pendenza propria": 0.9184680238410978
+   },
+   "sacchi identici": true,
+   "rilettura esatta": true,
+   "A": 1.0254237127755588,
+   "somiglianza a distanza 2": 0.2219591234082549,
+   "S1": 0.44886307707451517
+  },
+  {
+   "larghezze": {
+    "righe": 4252,
+    "caratteri oltre 1,25": 0.11759172154280338,
+    "caratteri oltre 1,5": 0.02751646284101599,
+    "parole oltre 1,5": 0.03174976481655691,
+    "residui": 0.1544724313726034,
+    "pendenza propria": 0.9102217677943653
+   },
+   "sacchi identici": true,
+   "rilettura esatta": true,
+   "A": 1.0278674448362481,
+   "somiglianza a distanza 2": 0.22367608832061125,
+   "S1": 0.5112293144208038
+  },
+  {
+   "larghezze": {
+    "righe": 4178,
+    "caratteri oltre 1,25": 0.10698898994734322,
+    "caratteri oltre 1,5": 0.023456199138343705,
+    "parole oltre 1,5": 0.03398755385351843,
+    "residui": 0.16349317028087765,
+    "pendenza propria": 0.9241265731671304
+   },
+   "sacchi identici": true,
+   "rilettura esatta": true,
+   "A": 1.0240187467710355,
+   "somiglianza a distanza 2": 0.22413439250612452,
+   "S1": 0.4573848597141345
+  },
+  {
+   "larghezze": {
+    "righe": 4110,
+    "caratteri oltre 1,25": 0.12360097323600973,
+    "caratteri oltre 1,5": 0.031143552311435525,
+    "parole oltre 1,5": 0.0364963503649635,
+    "residui": 0.15329748960537395,
+    "pendenza propria": 0.9041846564112079
+   },
+   "sacchi identici": true,
+   "rilettura esatta": true,
+   "A": 1.0486610538270653,
+   "somiglianza a distanza 2": 0.22796055488571287,
+   "S1": 0.525657071339174
+  },
+  {
+   "larghezze": {
+    "righe": 4075,
+    "caratteri oltre 1,25": 0.11386503067484663,
+    "caratteri oltre 1,5": 0.03165644171779141,
+    "parole oltre 1,5": 0.03411042944785276,
+    "residui": 0.16200349178683815,
+    "pendenza propria": 0.9101168151870705
+   },
+   "sacchi identici": true,
+   "rilettura esatta": true,
+   "A": 1.03912202350153,
+   "somiglianza a distanza 2": 0.22497089449484983,
+   "S1": 0.511156186612576
+  },
+  {
+   "larghezze": {
+    "righe": 4107,
+    "caratteri oltre 1,25": 0.11443876308741173,
+    "caratteri oltre 1,5": 0.028731434136839543,
+    "parole oltre 1,5": 0.03092281470659849,
+    "residui": 0.15983473209398424,
+    "pendenza propria": 0.9280613957269592
+   },
+   "sacchi identici": true,
+   "rilettura esatta": true,
+   "A": 1.0274437918651536,
+   "somiglianza a distanza 2": 0.22315825314952958,
+   "S1": 0.544767502886533
+  },
+  {
+   "larghezze": {
+    "righe": 4157,
+    "caratteri oltre 1,25": 0.12388741881164302,
+    "caratteri oltre 1,5": 0.030550878037045946,
+    "parole oltre 1,5": 0.033918691363964394,
+    "residui": 0.15014285875053845,
+    "pendenza propria": 0.9115527425327278
+   },
+   "sacchi identici": true,
+   "rilettura esatta": true,
+   "A": 1.0369534460141434,
+   "somiglianza a distanza 2": 0.22572521362627423,
+   "S1": 0.536231884057971
+  }
+ ]
+}

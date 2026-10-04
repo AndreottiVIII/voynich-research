@@ -831,3 +831,22 @@ come **PDF del libro**.
 - Online: v17 + comando `pdf` + carattere 1.1. La v19 è pronta ma non pubblicata: aspetta la decisione di Davide
   (seguito possibile: regolare di nuovo il peso `scelte` sulla v19 per riportare il cancello, esperimento nuovo).
 - Scheda per il sito: `voynichizzatore/SITO_WEB.md` (il sito lo costruisce un'altra chat; il generatore resta qui).
+
+## 4/10/2026, 16:00 — e417: la v20 passa i criteri ed è la versione pubblicata
+
+- Voce completa nel QUADERNO ("vz: e417"). v20 = v17 + `larghezza` 0,01 con `larghezza_curva` (e416b) + `distanza2`
+  0,30 (e417). Parametri: `voynichizzatore/pezzi_parametri_v20.json`; nel registro `versioni.py` (la v18 e la v19 no).
+- 12 chiavi: giudici 0,554 / 0,599; pagella 15,6; estese 5,4; cancello 12 su 12; righe oltre 1,5 volte 2,8% (Voynich
+  2,9%), oltre 1,25 volte 11,5% (Voynich 6,0%, v17 16,7%); rilettura 12 su 12.
+- Correzione mia: A non è "l'accordo delle scelte di grafia" (come avevo detto a Davide) ma l'alternanza nella riga;
+  il peso che la muove è `distanza2`. Scritto nella preregistrazione.
+- Pacchetto pubblico ricostruito con `VERSIONE = 'v20'`; README aggiornato (numeri, larghezza delle righe, nota che i
+  manoscritti v17 si leggono con la v20: verificato). Pubblicato su GitHub.
+- Esempio: `esecuzioni/voynichizzatore/repo_isidoro_v20.txt` (chiave "e409-1") e `libro_v20.pdf`.
+
+### Dove siamo (4/10, 16:00)
+
+- Online: **v20** + comando `pdf` + carattere 1.1. Il sito lo costruisce un'altra chat con `SITO_WEB.md`.
+- Lacune dichiarate: righe oltre 1,25 volte ancora 11,5% (per chiuderla va cambiata la gabbia: parole per riga decise
+  dopo aver scelto le parole), profilo pagina, scelte di riga a 12 classi, omogeneità, prime righe, gradiente.
+- In sospeso: prova su un altro computer, giudice indipendente.
