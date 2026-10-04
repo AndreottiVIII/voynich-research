@@ -15357,3 +15357,25 @@ frequenti per manoscritto; Voynich ZL rifatto nella stessa esecuzione.
 - **Esito preregistrato: nessuno scriba evita gli inizi ripetuti.**
 - **Lettura:** l'evitamento verticale sul margine sinistro del Voynich non è un'abitudine di chi scrive a mano (almeno
   di questi sei scribi, tre tradizioni, 1200 – 1550). Resta una proprietà propria del Voynich, insieme al raccordo.
+
+## 4/10/2026 (mattina) — e3c62: negli scribi veri nessuna deriva lungo la riga grande come quella del Voynich
+
+Preregistrato (`preregistrazioni/e3c62.md`). Misura dell'e3c13 (pendenza della scelta sui segni scritti prima, a parità
+di parola, senza prima e ultima parola; intervalli per pagine), 17 scelte di lettera e 2 di abbreviazione in sei scribi;
+Voynich ZL nella stessa esecuzione.
+
+| testo | per 10 segni |
+|---|---|
+| Voynich ZL: *qo*/*o*, *k*/*t*, *sh*/*ch*, -*ey*/-*dy* | −0,020, −0,031, −0,034, −0,030 (tutti con intervallo lontano da 0) |
+| scribi, scelte di lettera con deriva dimostrata (4 su 17) | −0,0075 (AM 242 í/i), −0,0070 (AM 519 a u/v), +0,0042 (AM 677 u/v), +0,0022 (AM 242 ꝛ/r) |
+| scribi, le altre 13 scelte | intervalli che contengono 0 |
+| abbreviazione (AM 519 a, AM 677) | +0,0046, +0,0061 (si abbrevia di più verso fine riga) |
+
+- **Esito preregistrato: nessuna scelta di lettera degli scribi ha una deriva come il Voynich** (soglia 0,010 ogni 10
+  segni). Le derive dimostrate negli scribi sono da 3 a 15 volte più deboli.
+- Non dipende dalla lunghezza delle righe: Holm A 10 e AM 302 fol hanno righe di circa 41 – 42 segni, come il Voynich (39),
+  e nessuna deriva.
+- L'abbreviazione cresce verso fine riga (l'effetto noto: lo scriba abbrevia per far tornare il margine), ma anche così
+  vale circa un quinto della deriva del Voynich.
+- **Lettura:** la deriva lungo la riga del Voynich (le varianti marcate calano verso destra) non è un comportamento
+  normale di questi scribi; l'ipotesi "inchiostro" non trova appoggio negli scribi veri (che avrebbero la stessa penna).
