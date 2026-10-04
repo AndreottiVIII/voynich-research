@@ -11035,3 +11035,29 @@ segno della vicina). Voynich tutto con 1.000 rimescolamenti; lingue (10.000 paro
   paragrafo certe parole e certi bordi tornano insieme. Quello che resta come legame vero fra parole vicine è un filo
   (E 0,008 su tutto il libro). Con l'e3a63 (non viene dalla copia) e l'e3a07 (niente a distanza 2), il quadro fra parole
   vicine è: giuntura forte fra segni di bordo, lessico del paragrafo, e quasi niente altro.
+
+## 4/10/2026 (notte) — e3a71: con catene di ordine 1 e 3 l'e3a69 non regge alla lettera; il Voynich è stabile da ordine 2 in su, le lingue no
+
+Preregistrato (`preregistrazioni/e3a71.md`, con una nota scritta dopo la prova del codice su un testo sensato: la misura
+ρ usa essa stessa una catena di ordine 1).
+
+| misura | lingue vere | riscritte ordine 1 | ordine 2 (e3a69) | ordine 3 | Voynich vero | Voynich riscritto ord. 1 / 2 / 3 |
+|---|---|---|---|---|---|---|
+| ρ frequenza-forma | 0,110 | 0,702 | 0,294 | 0,081 | 0,60 | **0,805** / 0,613 / 0,611 |
+| riempimento | 0,043 | 0,253 | 0,155 | 0,087 | 0,43 | 0,487 / 0,441 / 0,432 |
+| F1 degli spazi | 0,639 | 0,647 | 0,667 | 0,666 | 0,86 | 0,884 / 0,866 / 0,866 |
+| tagli sbagliati | 0,065 | 0,174 | 0,183 | 0,135 | 0,49 | 0,454 / 0,469 / 0,471 |
+
+- **Esito preregistrato: l'e3a69 non regge con tutti gli ordini.** Con l'ordine 1 il ρ del Voynich riscritto sale a
+  0,81 (oltre il 25%); con l'ordine 3 le lingue riscritte passano la soglia solo in 2 misure su 4 (riempimento appena:
+  0,087 contro 0,086).
+- **Che cosa resta:**
+  - con l'ordine 1 cambia solo ρ, ed è l'effetto di costruzione previsto nella nota (una catena di ordine 1 soddisfa
+    per costruzione una misura fatta con una catena di ordine 1); le altre tre misure del Voynich non cambiano;
+  - **il Voynich riscritto con ordine 2 e con ordine 3 è identico al vero** in tutte e quattro le misure;
+  - le lingue invece dipendono molto dall'ordine: con l'ordine 1 sembrano Voynich per ρ (0,70), con l'ordine 3 tornano
+    quasi come le lingue vere (ρ 0,08), perché la catena di ordine 3 ricopia le parole vere.
+- **Lettura corretta dell'e3a69:** "le catene producono le proprietà del Voynich" vale solo per catene corte (ordine
+  1–2) addestrate su una lingua; non è una proprietà di qualunque catena. Il fatto solido è l'altro: per il Voynich
+  l'ordine non conta (da 2 in su), cioè le sue parole non hanno struttura oltre i due segni di memoria che queste misure
+  vedano; quelle delle lingue sì (le parole di una lingua non si rifanno con due segni di memoria).
