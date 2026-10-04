@@ -99,8 +99,8 @@ Non una nuova lettura, ma un insieme di **misure con controlli**:
 - ogni metodo è stato **provato prima su testi finti** in cui l'effetto cercato c'era o mancava, per vedere se lo
   ritrovava;
 - ogni proprietà del Voynich è stata **confrontata** con le stesse misure su lingue, scribi, cifrari e generatori;
-- quando una misura si è rivelata sbagliata, **lo abbiamo scritto** e l'abbiamo corretta (l'elenco delle correzioni è
-  nell'Appendice B).
+- quando una misura intermedia si è rivelata sbagliata, **lo abbiamo scritto** e l'abbiamo corretta (le verifiche
+  interne sono elencate nell'Appendice B).
 
 Il risultato è una descrizione del Voynich come **sistema di scrittura**: che cosa fa chi scrive, parola dopo parola e
 riga dopo riga. Questa descrizione è utile in due modi: dice quali spiegazioni sono escluse e fornisce una lista di
@@ -183,15 +183,15 @@ ridistribuiti.
 - **Ripresa dalla riga sopra:** quante parole hanno una parola uguale o quasi uguale nella riga sopra, oltre il caso.
 - **Margine sinistro:** quanto spesso una riga comincia come la riga sopra, rispetto alle righe rimescolate.
 
-### 3.3 Una correzione che ha cambiato le conclusioni
+### 3.3 Una correzione di metodo decisiva
 
 A metà del lavoro abbiamo scoperto che la misura dell'accordo delle scelte aveva una **distorsione** che cambiava da
 testo a testo: in alcuni testi gonfiava l'accordo fino a +0,37, in altri lo abbassava. La causa è che il "previsto"
 viene stimato dagli stessi dati. La correzione consiste nel sottrarre il valore che si ottiene rimescolando le scelte
 fra le occorrenze della stessa parola (che ha la stessa distorsione ma nessun accordo vero). Tutte le misure di accordo
-riportate qui sono corrette in questo modo. La correzione ha cambiato tre conclusioni, tutte dichiarate: lo scriba
-anglosassone non ha la "finestra" che gli avevamo attribuito; il Volapük non somiglia al Voynich; il Voynich non sta
-"fuori" dalla gamma delle lingue per la forma del suo accordo, ma in cima.
+riportate qui sono corrette in questo modo. La correzione ha cambiato tre indicazioni provvisorie del lavoro: lo
+scriba anglosassone non ha la "finestra" che una prima misura gli attribuiva; il Volapük non somiglia al Voynich; il
+Voynich non sta "fuori" dalla gamma delle lingue per la forma del suo accordo, ma in cima.
 
 ---
 
@@ -358,8 +358,8 @@ varianti si è rivelato il modo più fecondo di guardare il testo.
 
 ### 6.2 Lo "stato" delle scelte
 
-È la scoperta che ci ha impegnato di più, ed è stata corretta più volte lungo la strada (Appendice B). Questo è lo stato
-finale.
+È la scoperta che ci ha impegnato di più, e la sua descrizione è stata precisata più volte lungo la strada (Appendice B).
+Questo è lo stato finale.
 
 - **Lo stato breve.** Fra parole vicine della stessa riga lo scriba tende a fare la stessa scelta. Tolte le preferenze
   di ogni parola, della pagina e della posizione, e corretta la distorsione della misura, l'accordo vale +0,13 fra
@@ -707,39 +707,55 @@ d'autore non vi sono inclusi e vanno riscaricati dalle fonti (Appendice D).
 | Meccanismi di cifratura storici | e3c68–e3c71 | controlli finti in ogni prova |
 | Lingue artificiali, gibberish, generatori | e346, e374, e377, e382, e399, e3a95, e3c37, e3c49, e3c53 | — |
 
-## Appendice B. Correzioni e ritrattazioni
+## Appendice B. Verifiche interne: indicazioni provvisorie corrette dal metodo
 
-Le riportiamo perché fanno parte del risultato: dicono quanto sono fragili certe misure e quali conclusioni sono
-sopravvissute alla verifica.
+Nessuno dei risultati di questo lavoro è stato pubblicato prima. Durante il lavoro, però, alcune misure intermedie hanno
+dato indicazioni che le verifiche successive hanno corretto. Le riportiamo perché mostrano quali misure sono fragili e
+come i controlli le hanno corrette: chi vorrà rifare il lavoro potrà evitare gli stessi passi falsi, e chi legge può
+giudicare quanto le conclusioni finali siano state messe alla prova.
 
-1. **"Lo scriba anglosassone ha la stessa finestra del Voynich"** (e3c46): ritirato. La misura aveva una distorsione
-   verso l'alto (+0,25) per quella scelta; corretta, lo scriba ha un accordo fra parole accanto ma non a 2–3 parole
-   (e3c48).
-2. **"Il Volapük somiglia al Voynich"**: con la misura corretta è a zero (e3c49).
-3. **"La forma dell'accordo del Voynich sta fuori dalla gamma delle lingue"**: sta in cima, non fuori (e3c49).
-4. **"Finestra di tre parole, poi zero"** (e3c33): lo stato si spegne poco a poco (mezza vita circa tre parole) e c'è in
-   più una componente lenta (e3c66, e3c75).
-5. **"La finestra riguarda quale parola si scrive, non come si traccia la lettera"** (dopo e3c51): ritirato quando uno
-   scriba vero è risultato avere una finestra in una scelta di sola forma (e3c59); precisato poi che la sua finestra
-   viene da parole simili (e3c79).
-6. **"La mano 1 non ha la memoria delle scelte"** (e3b59): difetto del metodo; con la misura corretta tutte le mani
-   l'hanno uguale (e3b62, e3c81).
-7. **"Ogni riga ha una sua impostazione delle scelte"** (ipotesi dopo e3c73): no, l'accordo passa da una riga all'altra
-   (e3c74).
-8. **Un'osservazione sulle parole "neutre" in mezzo** (e3c68): era distorsione della misura (e3c72).
-9. **"La finestra manca nell'erbario"** (lettura alla lettera dell'e3c54): erano poche parole; la lingua A nel suo
-   insieme ha la finestra.
-10. **"Il salto del disegno azzera lo stato"** (lettura alla lettera dell'e3c83): l'intervallo è troppo largo per dirlo.
-11. **"La memoria delle scelte si azzera all'a capo"** (e3b10): era un effetto del confronto con la media della pagina
-    (e3b66).
-12. **"Il nullo del margine sinistro"** delle prime prove (e3a26, e3a27, e3a31) era difettoso; corretto nell'e3a33, il
-    risultato regge.
-13. **"Due terzi del legame fra parole stanno nel paragrafo"** (e3a65): effetto meccanico dei gruppi più piccoli
-    (e3a72).
-14. **Un candidato sillabico** (e217) e **un candidato tedesco** (e223): artefatti (e217b, e223b).
-15. **"Le forme rare sono riprese di più"** (e3b30, e3b31): tendenza, non regge alla lettera con la seconda trascrizione
-    (e3b32).
-16. **Data di un manoscritto di confronto** (AM 677 4to): è del 1200–1225, non del 1300 come scritto in un primo momento.
+**Correzioni dovute alla distorsione della misura dell'accordo (§3.3)**
+
+1. Una prima misura attribuiva allo scriba anglosassone degli *Hatton Gospels* la stessa "finestra" del Voynich. Per
+   quella scelta la misura era gonfiata (+0,25); corretta, lo scriba ha un accordo fra parole accanto ma non a 2–3
+   parole.
+2. Il Volapük sembrava avere un accordo simile a quello del Voynich; con la misura corretta è a zero.
+3. La forma dell'accordo del Voynich (quanto dura a 2–3 parole) sembrava fuori dalla gamma delle lingue; corretta, sta
+   in cima alla gamma, non fuori.
+4. Un'osservazione sulle parole "neutre" fra due parole che fanno la stessa scelta suggeriva che lo stato viaggiasse
+   solo sulle occorrenze della scelta; era un effetto della stessa distorsione.
+
+**Descrizioni rese più precise da misure successive**
+
+5. Lo stato delle scelte sembrava una "finestra" di tre parole che poi scende a zero; si spegne invece poco a poco
+   (mezza vita circa tre parole) e c'è in più una componente lenta che passa da una riga all'altra.
+6. L'ipotesi che ogni riga avesse una sua "impostazione" delle scelte (come una chiave per riga) non ha retto:
+   l'accordo passa da una riga all'altra.
+7. Dopo la prova sulle forme di sola lettera di Glen Claston avevamo letto lo stato come legato a "quale parola si
+   scrive, non come si traccia la lettera"; uno scriba vero con una finestra in una scelta di sola forma ha mostrato che
+   la generalizzazione era troppo ampia (e la sua finestra, a sua volta, viene da parole simili).
+8. Una misura senza correzione indicava che la mano 1 non avesse lo stato delle scelte; con la misura corretta tutte le
+   mani lo hanno uguale.
+9. Una misura indicava che la memoria delle scelte si azzerasse all'a capo; era un effetto del confronto con la media
+   della pagina (fine e inizio riga hanno forme proprie).
+10. Il primo controllo del margine sinistro usava un confronto difettoso; con il confronto corretto il risultato regge.
+11. Una misura attribuiva al paragrafo due terzi del piccolo legame fra parole intere; era un effetto meccanico dei
+    gruppi più piccoli.
+12. Le forme rare sembravano riprese più delle altre dalla riga sopra; con la seconda trascrizione resta solo una
+    tendenza.
+
+**Esiti formalmente positivi che erano artefatti**
+
+13. Un candidato di lettura "una parola = una sillaba" e un candidato tedesco in una ricerca guidata dal contenuto: il
+    primo usciva identico sul Voynich rimescolato, il secondo cambiava segno cambiando solo i punti di partenza della
+    ricerca.
+
+**Criteri formulati in modo troppo netto**
+
+14. In tre casi il criterio deciso in anticipo chiamava "assente" o "azzerato" un effetto il cui intervallo di
+    incertezza toccava lo zero (lo stato nell'erbario, al salto del disegno, in alcune sezioni). In tutti e tre la stima
+    era positiva e simile al resto: erano dati insufficienti, non assenza. Da qui la regola, che proponiamo anche ad altri,
+    di dire "manca" solo quando l'intervallo sta tutto sotto il valore di riferimento.
 
 ## Appendice C. Glossario (italiano / inglese)
 
