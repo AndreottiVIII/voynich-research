@@ -14584,3 +14584,30 @@ così vicine e lontane vengono dalle stesse righe; lontane = 7–8 parole; R78 =
   separazione netta dalle lingue (e3b96–e3c28) è in parte un effetto della lunghezza delle righe e, misurata dentro le
   stesse righe, non è dimostrata. Prossimo passo: la stessa idea con righe di almeno 9 parole e lontane a 5–6 (più dati),
   e3c31.
+
+## 4/10/2026 (mattina) — e3c31: dentro le righe di almeno 9 parole la forma è la più piatta come stima, ma non separata dalle lingue
+
+Preregistrato (`preregistrazioni/e3c31.md`; decisione presa dopo l'e3c30, dichiarata). Righe di almeno 9 parole, senza
+bordi, lontane = 5–6 parole, tutto dentro le stesse righe; R56 = [K(3) − K(5–6)] / [K(1) − K(5–6)].
+
+| testo | accordo accanto | R56 (IC 95%) |
+|---|---|---|
+| Voynich IT | +0,098 (0,06 – 0,13) | **0,73** (0,34 – 1,05) |
+| Voynich ZL | +0,092 (0,06 – 0,12) | **0,61** (0,20 – 0,93) |
+| latino Vulgata (-*us*/-*a*) | +0,292 | 0,31 (0,11 – 0,49) |
+| Plinio, Vulgata, Avicenna (generica) | +0,065 – +0,101 | 0,23 – 0,25 |
+| le altre 9 lingue che contano | +0,068 – +0,340 | da −0,09 a 0,18 |
+
+- **Esito preregistrato: "non è propria del Voynich"** (soglia 0,20; quattro lingue con R56 sopra: Vulgata due volte,
+  Plinio, Avicenna).
+- **Lettura:** come stima il Voynich resta il più piatto di tutti (0,61 – 0,73 contro al massimo 0,31), ma i suoi
+  intervalli sono larghi e la regola (estremo basso del Voynich contro le stime delle lingue) non lo separa. Due prove su
+  due (e3c30, e3c31) dicono la stessa cosa: dentro le stesse righe la differenza di forma c'è come stima e non è
+  dimostrata.
+- **Un fatto nuovo e importante:** dentro le righe di almeno 9 parole l'accordo fra parole accanto del Voynich è +0,09 –
+  +0,10, cioè nella media delle lingue con accordo chiaro (+0,07 – +0,34), non più forte. Il +0,17 – +0,18 dell'e3c28
+  veniva in parte dal mescolare righe corte e lunghe: nelle righe corte l'accordo è più alto (forse perché le righe corte
+  stanno in pagine o punti particolari: accanto ai disegni, fine paragrafo). Da capire (e3c32).
+- **Bilancio della forma, onesto:** la memoria del Voynich è, come stima, più lunga dell'accordo delle lingue (a 3 parole
+  ne resta il 60–70%, nelle lingue il 0–30%), ma con i dati che ci sono, misurata dentro le stesse righe, la differenza non
+  è dimostrata. Nel white paper va detta così.
