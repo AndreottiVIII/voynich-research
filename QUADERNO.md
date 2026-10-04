@@ -13362,3 +13362,17 @@ provata su pagine finte (con deriva +0,162; senza −0,012).
 
 - **Esiti preregistrati: si ritrovano con Takahashi** tutte e due, con intervalli per pagina ben sopra lo zero. Due
   delle quattro proprietà verticali che la catena di segni non spiega (e3a81) sono quindi solide.
+
+## 4/10/2026 (notte) — e3b80: con il metodo finale la memoria delle scelte si consuma con le lettere scritte
+
+Preregistrato (`preregistrazioni/e3b80.md`). Coppie a distanza 2–3 parole nella stessa riga, divise per lettere in mezzo
+(sotto o sopra la mediana di quella distanza); M = K(poche) − K(molte); nullo largo (e3b62), intervalli per pagina
+(e3b70). Codice provato su testo finto (consumo con le lettere +0,185; con le parole −0,041, IC con lo zero).
+
+| trascrizione | coppie con poche lettere | M | M nullo | effetto (IC 95%) |
+|---|---|---|---|---|
+| ZL | 9.388 | +0,065 | −0,001 | **+0,066** (+0,029 – +0,100) |
+| IT | 9.250 | +0,047 | −0,019 | **+0,066** (+0,035 – +0,098) |
+
+- **Esito preregistrato: si consuma con le lettere.** Conferma l'e3b20 (e e3b26, e3b35) con il metodo finale e due
+  trascrizioni. Va d'accordo con l'e3b67: al salto del disegno non si scrive nulla e la memoria passa per intero.

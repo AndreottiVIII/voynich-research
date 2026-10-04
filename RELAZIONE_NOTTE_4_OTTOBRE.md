@@ -235,7 +235,7 @@ scritto nella seconda parte. Le dico subito.
    Takahashi +0,076, intervalli ben sopra lo zero), in tutte e quattro le scelte (*qo*/*o*, *k*/*t*, *sh*/*ch*,
    -*ey*/-*dy*) e **in tutte le mani, alla pari**. Sul Voynich riscritto dalla sua catena di segni la stessa misura dà
    zero: non è un effetto dei segni vicini; e sulle variabili che non dovrebbero averla (numero di *i*, finale -*l*/-*r*)
-   la misura dà zero (e3b77). Naibbe, U2, U3 e Timm e Schinner non la hanno (e3b62, e3b69, e3b70).
+   la misura dà zero (e3b77). Si consuma con le lettere scritte, come avevo visto con la misura grezza (e3b80). Naibbe, U2, U3 e Timm e Schinner non la hanno (e3b62, e3b69, e3b70).
 2. **Correzione: all'a capo la memoria non si azzera.** Passa per circa metà (e3b66, con tutte e due le trascrizioni), e
    oltre il salto di un disegno passa per intero (e3b67). Anche la ripetizione di parole passa l'a capo, per circa un
    quarto (e3b68). Quello che riparte a ogni interruzione è la **catena di segni**: il raccordo *qo*/*o* e la giuntura fra
