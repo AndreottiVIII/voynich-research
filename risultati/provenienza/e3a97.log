@@ -1,0 +1,21 @@
+{
+ "coppie": {
+  "continuo": {
+   "coppie": 27992,
+   "simili": 1458,
+   "quota": 0.05208631037439268,
+   "attesa": 0.04740635761838415,
+   "eccesso": 0.004679952756008528,
+   "z": 4.325054704649558
+  },
+  "salto": {
+   "coppie": 665,
+   "simili": 29,
+   "quota": 0.04360902255639098,
+   "attesa": 0.048442381928437944,
+   "eccesso": -0.004833359372046965,
+   "z": -0.6117047745296345
+  }
+ },
+ "esito": "il salto azzera la ripetizione immediata"
+}
