@@ -13867,3 +13867,30 @@ Profilo K(d) − K(8–12):
 - Bilancio dei tre tratti con la regola automatica: memoria nelle alternanze interne (Voynich sì, 25 lingue su 26 no),
   accordo forte fra parole accanto con calo dolce (solo Voynich fra i testi con memoria), consumo con le lettere (nel
   Voynich metà di prima, al limite).
+
+## 4/10/2026 (mattina presto) — e3c04: nemmeno erbari e testi tecnici piccoli hanno memoria nelle alternanze interne
+
+Preregistrato (`preregistrazioni/e3c04.md`). La regola automatica dell'e3c01 sugli 8 testi in lingue naturali fra 10.000
+e 50.000 parole, fra cui gli erbari e i testi tecnici medievali. Riferimento: Voynich ZL +0,044.
+
+| testo | alternanze | occorrenze | memoria (IC 95%) |
+|---|---|---|---|
+| fiammingo, NT | *e*/*o*, *i*/*y*, *d*/*n* | 15.428 | +0,015 (−0,024 – +0,052) |
+| italiano, *Della Pittura* | *a*/*e*, *l*/*r*, *d*/*n* | 13.542 | +0,008 (−0,024 – +0,036) |
+| tedesco, erbario | *i*/*ÿ*, *a*/*e*, *r*/τ | 10.624 | +0,004 (−0,030 – +0,038) |
+| fiammingo, *Cruydeboeck* | *a*/*e*, *i*/*o*, *d*/*t* | 9.657 | −0,000 (−0,034 – +0,033) |
+| sanscrito, *Charaka Samhita* | (poche coppie minime) | 2.713 | −0,005 (−0,42 – +0,38) |
+| inglese, *Secreta Alberti* | *i*/*y*, *a*/*e*, *o*/*u* | 12.808 | −0,005 (−0,037 – +0,029) |
+| maya kaqchikel, *Annali* | *a*/*o*, *n*/*y*, *k*/*v* | 7.335 | −0,014 (−0,079 – +0,054) |
+| cinese pinyin, Matteo | toni | 6.834 | −0,046 (−0,124 – +0,040) |
+
+- **Esito preregistrato: solo nel Voynich anche fra i testi piccoli** (nessun testo sopra la soglia).
+- Gli intervalli dei testi più grandi di questo gruppo (±0,03) sono simili a quelli del Voynich: una memoria grande
+  come quella del Voynich (+0,044 – +0,056) si sarebbe vista almeno in parte. Il "no" pesa un po' meno di quello
+  dell'e3c01, come scritto prima.
+- **Le varianti di grafia degli scribi, da sole (descrittivo, senza intervallo):** *i*/*y* nei *Secreta Alberti* +0,017,
+  *i*/*ÿ* nell'erbario tedesco −0,008, *i*/*y* nel NT fiammingo **+0,055**. Quest'ultimo valore è grande quanto il
+  Voynich ma su una sola classe e senza intervallo: è il primo indizio di uno scriba vero con una memoria simile, da
+  verificare (e3c05).
+- Figura di sintesi delle alternanze automatiche: `risultati/figure/alternanze_automatiche.png` (a sinistra la memoria di
+  tutti i testi, a destra la forma per Voynich, Corano e Naibbe), script `strumenti/figura_alternanze_automatiche.py`.
