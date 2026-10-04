@@ -12179,3 +12179,22 @@ Preregistrato (`preregistrazioni/e3b30.md`). Eccesso di ripresa dalla riga sopra
   appena scritte sopra vengono riprese.
 - Le parole uniche hanno un eccesso incerto (per definizione non possono ripetersi uguali, solo a una modifica): va con
   l'e348 (le parole uniche non nascono dalla ripresa).
+
+## 4/10/2026 (notte) — e3b31: la ripetizione dentro la riga favorisce le parole rare, e le parole uniche hanno spesso una "sorella" appena prima
+
+Preregistrato (`preregistrazioni/e3b31.md`). Parola uguale o a una modifica fra le 4 parole precedenti nella stessa riga,
+contro le stesse posizioni di un'altra riga del paragrafo, per classe di frequenza.
+
+| classe | parole | eccesso per parola | eccesso relativo | IC 95% |
+|---|---|---|---|---|
+| unica (1 volta nel libro) | 2.233 | +0,011 | **+72%** | +27% – +129% |
+| rara (2–9) | 2.735 | +0,021 | +40% | +20% – +63% |
+| media (10–49) | 3.597 | +0,037 | +31% | +20% – +43% |
+| frequente (50+) | 6.426 | +0,019 | +8% | +3% – +13% |
+
+- **Esito preregistrato: anche la memoria corta favorisce le parole rare.**
+- **Una cosa nuova:** le parole che compaiono una sola volta nel libro hanno, fra le 4 parole appena prima nella stessa
+  riga, una parola a una modifica il 72% più spesso del caso. Molte parole uniche sembrano nascere come **variazione di
+  una parola appena scritta** nella stessa riga. Va con l'e348, che aveva visto che le parole uniche non nascono dalla
+  ripresa dalla riga sopra: nascono piuttosto dalla riga in corso.
+- Copia dalla riga sopra (e3b30) e memoria corta nella riga favoriscono tutte e due le forme rare, la seconda di più.
