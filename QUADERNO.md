@@ -13808,3 +13808,26 @@ finti (memoria +0,082; senza memoria +0,006).
   (0,64–0,79): ne tengo conto nel criterio dell'e3c03.
 - Lingue senza vocali segnate (arabo moderno, ebraico, Avicenna) non mostrano niente: per vedere la persona del
   discorso dentro la parola serve una scrittura che la segni in quel posto.
+
+## 4/10/2026 (mattina presto) — e3c02: la regola automatica sui generatori, esito incerto per colpa di Naibbe
+
+Preregistrato (`preregistrazioni/e3c02.md`). Controllo negativo dell'e3c01: la regola automatica delle alternanze
+interne sui generatori, che con le classi scelte a mano non hanno memoria (e3b70). Riferimento: Voynich ZL +0,044.
+
+| generatore | alternanze | memoria (IC 95%) |
+|---|---|---|
+| Naibbe (cifrario di Greshko) | *a*/*o*, *d*/*e*, *k*/*t* | **+0,029** (+0,002 – +0,057) |
+| U2 | *k*/*t*, *ch*/*e*, *a*/*o* | +0,004 (−0,029 – +0,038) |
+| U3 | *k*/*t*, *a*/*o*, *d*/*e* | −0,005 (−0,037 – +0,029) |
+| Timm e Schinner | *a*/*o*, *ch*/*sh*, *l*/*r* | −0,001 (−0,027 – +0,026) |
+
+- **Esito preregistrato: incerto** (un generatore su quattro sopra la soglia di metà del Voynich).
+- Naibbe: l'effetto è debole (due terzi del Voynich ZL, intervallo appena sopra 0) e diviso fra le tre alternanze
+  (*a*/*o* +0,029, *k*/*t* +0,032, *d*/*e* +0,022). Con le classi a mano (e3b70) era +0,011, intervallo che tocca 0.
+  Il suo accordo fra parole accanto è quasi nullo (R 3,7, non interpretabile): la memoria di Naibbe è a 2–3 parole ma
+  non a 1, diversa da quella del Voynich.
+- **Ipotesi (non provata):** Naibbe cifra un testo vero; ogni parola cifrata porta una o due lettere del testo in
+  chiaro, quindi l'alternanza vocale/consonante del testo originale può riaffiorare a due parole di distanza. Da
+  guardare con il profilo della distanza nell'e3c03, dove Naibbe entra accanto al Corano.
+- Conseguenza per il dossier: la regola automatica è un po' meno pulita delle classi scelte a mano; un cifrario che
+  porta lettere del testo in chiaro può dare una debole "memoria" a media distanza.

@@ -1303,6 +1303,8 @@ tratto, con classi scelte dai dati (e3c01):** una regola uguale per tutti scegli
 parola con più coppie minime; nel Voynich trova da sola *k*/*t*, *a*/*o*, *ch*/*e*, con memoria (+0,056 IT, +0,044 ZL);
 in 25 testi su 26 del corpus non c'è memoria (fra −0,014 e +0,010). L'eccezione è il Corano con le vocali (+0,064):
 alternanze -*kum*/-*hum* ecc., cioè la persona del discorso che dura per più versetti (grammatica del discorso).
+Controllo sui generatori (e3c02): U2, U3, Timm e Schinner zero; Naibbe (cifrario di un testo vero) +0,029, debole e
+senza accordo fra parole accanto: la regola automatica è un po' meno pulita delle classi scelte a mano.
 
 **Formula per il white paper:** il Voynich ha, oltre alla catena di segni per riga e allo spazio non lessicale, una
 memoria corta delle scelte di grafia forte e uniforme (tutte le scelte, tutte le mani, due trascrizioni), che prosegue
