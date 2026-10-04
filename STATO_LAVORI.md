@@ -228,6 +228,15 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     accordo accanto sì ma a 2–3 parole no. **e3c49 (corretto):** Voynich r 0,66–0,68, Plinio 0,57–0,60, francese 0,45–0,49:
     il Voynich sta in cima alla gamma delle lingue, non fuori (esito incerto). Nessun generatore ha la finestra (Timm e
     Schinner accanto +0,077). Volapük e molte classi generiche corrette sono a zero (era distorsione).
+    **e3c50:** due scribi islandesi veri (Menota, righe e pagine vere): nessun accordo fra parole vicine nelle forme di
+    lettera (ꝩ/v, u/v, c/k, accento) né nell'abbreviare; le loro forme di lettera sono quasi fisse per parola. **e3c51:**
+    in GC le forme pure (7/8 = due *d*, c/C = due *e*) senza accordo chiaro; gallows e finali con la finestra; *sh*/*ch* in
+    GC non più chiara dopo la correzione. **e3c52:** in EVA *k*/*t* e -*ey*/-*dy* hanno la finestra ciascuna da sola;
+    *sh*/*ch* al limite; *qo*/*o* solo a 2–3 parole (+0,138 a 3). **e3c53:** nessuna lingua artificiale (anche le piccole:
+    Interlingua, Klingon, LOLCat, Lojban) ha la finestra; gibberish dei volontari non misurabile con la misura corretta
+    (parole quasi tutte nuove). **e3c54:** finestra uguale in lingua A e B, chiara in biologia, farmacia, ricette; incerta
+    (poche parole) in erbario e astronomia. **Quadro:** la finestra è di tutto il manoscritto e riguarda quale parola si
+    scrive, non come si traccia la lettera; non si trova in scribi veri, lingue artificiali, generatori.
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);

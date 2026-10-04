@@ -1487,8 +1487,37 @@ si ripete per alcune parole come le scelte del Voynich (a differenza dell'accord
 dopo la parola accanto). Un solo scriba e una sola scelta, su righe finte: da confermare con altri manoscritti (permesso
 di Davide per scaricarli). Il Marianus (и/ꙇ) non è interpretabile con questa misura (scelta quasi fissa per parola).
 
+**Aggiunta (e3c50 – e3c54, 4/10 mattina): chi altro ha la finestra, con la misura corretta.**
+- **Scribi veri con righe e pagine vere (e3c50):** due manoscritti islandesi trascritti a livello facsimile (Menota, CC-BY-SA
+  4.0: AM 519 a 4to, *Alexanders saga*, c. 1280; AM 677 4to, c. 1300). Nelle scelte libere di forma di lettera (ꝩ/v, u/v,
+  c/k, accento í/ı) e nell'abbreviare o no **nessun accordo** fra parole vicine (K corretto fra −0,006 e +0,033, intervalli
+  quasi tutti sotto il +0,131 del Voynich; per l'abbreviazione ±0,007 attorno a 0). Inoltre in questi scribi quasi tutte
+  le forme di lettera sono fisse per parola o per posizione, mentre nel Voynich *k*/*t*, *sh*/*ch*, -*ey*/-*dy* variano
+  dentro la stessa parola coperta. **La finestra non è un'abitudine generica di chi scrive a mano** (due scribi, una
+  tradizione: limite da dichiarare).
+- **Forme pure dentro il Voynich (e3c51):** le due forme di *d* (7/8) e di *e* (c/C) che solo Glen Claston distingue non
+  hanno un accordo chiaro (+0,05 / +0,06 accanto, intervalli che toccano 0 – 0,01), mentre gallows (+0,117, r 0,88) e
+  finali (+0,139, r 0,54) nella stessa trascrizione hanno la finestra. Insieme all'e3c50: **la finestra riguarda quale
+  parola si scrive, non come si traccia la lettera** (cautela: la distinzione 7/8 e c/C è un giudizio del trascrittore).
+- **Per scelta, in EVA (e3c52):** *k*/*t* e -*ey*/-*dy* hanno la finestra ciascuna da sola in ZL e IT (K corretto
+  +0,136 – +0,176 accanto, +0,08 – +0,14 a 2–3 parole); *sh*/*ch* è al limite (accanto +0,10, a 2–3 parole estremo basso
+  +0,018); *qo*/*o* niente accanto e accordo forte a 3 parole (+0,138).
+- **Lingue artificiali (e3c53):** Esperanto, Interlingua, Klingon, LOLCat, Lojban, Neo-Quenya, Volapük: **nessuna ha la
+  finestra**, e nessuna ha nemmeno accordo fra parole accanto (tutte fra −0,03 e +0,02). Il gibberish scritto a mano
+  (Gaskell e Bowern) non è misurabile con la misura corretta (parole quasi tutte nuove: vedi lezione 6).
+- **Per sezione (e3c54):** la finestra c'è con la stessa forza in lingua A e in lingua B (+0,129 – +0,141 accanto, r 0,63
+  – 0,67) ed è chiara in biologia, farmacia e ricette; nell'erbario e nelle pagine astronomiche le stime sono simili ma
+  incerte (poche parole). **È un tratto di tutto il manoscritto, non di una sezione.**
+- **Formula aggiornata:** la finestra (accordo fra parole vicine della riga, fino a 2–3 parole, nelle scelte che cambiano
+  la parola) è di tutto il manoscritto, in tutte e due le "lingue" di Currier e in tre trascrizioni; non si trova negli
+  scribi veri provati (forme di lettera, abbreviazioni), nelle lingue artificiali, nei generatori pubblicati; nelle lingue
+  naturali c'è un accordo grammaticale di forma simile solo nei testi più "lunghi" (latino tecnico di Plinio).
+
 **Lezioni di metodo da riportare** (utili anche a chi legge): (1) confrontare con la media della pagina ai bordi della
 riga inganna, perché fine e inizio riga hanno forme proprie; (2) togliere le coppie "simili" guardando la parola intera
 falsa i confronti con i rimescolamenti; (3) il rimescolamento parola per parola sottostima la variabilità: servono
 intervalli per pagine intere; (4) ogni cambio di misura è stato provato prima su dati finti con memoria nota; (5) una misura di "memoria" va sempre
-confrontata anche con le lingue che hanno accordi grammaticali, che producono lo stesso segnale.
+confrontata anche con le lingue che hanno accordi grammaticali, che producono lo stesso segnale; (6) la misura corretta
+(e3c48) usa solo le parole coperte che si ripetono nella stessa mano: per testi brevi con parole quasi tutte nuove (il
+gibberish dei volontari) vale 0 per costruzione e non misura niente (e3c53); (7) "nessun accordo chiaro" (intervallo che
+tocca la soglia) non vuol dire "manca": per dire "manca" serve un intervallo che stia sotto il valore del Voynich (e3c54).
