@@ -1,0 +1,39 @@
+{
+ "confini": {
+  "salto del disegno": {
+   "coppie_a_cavallo": 234,
+   "K": 0.09706181393257476,
+   "nullo": 0.07056238188799623,
+   "effetto": 0.02649943204457854,
+   "z": 0.31555816028615424,
+   "p": 0.372,
+   "K_dentro_i_tratti": 0.0797790850096534,
+   "coppie_dentro": 529
+  },
+  "a capo, pagine normali": {
+   "coppie_a_cavallo": 1222,
+   "K": -0.05964587517529019,
+   "nullo": -0.06646260013786955,
+   "effetto": 0.006816724962579353,
+   "z": 0.1866640349166136,
+   "p": 0.438,
+   "K_dentro_i_tratti": 0.09121674285419125,
+   "coppie_dentro": 10204
+  },
+  "a capo, pagine di solo testo": {
+   "coppie_a_cavallo": 64,
+   "K": 0.05974686212017685,
+   "nullo": -0.06432686476314527,
+   "effetto": 0.12407372688332212,
+   "z": 0.8586053056597004,
+   "p": 0.199,
+   "K_dentro_i_tratti": 0.05957610349057963,
+   "coppie_dentro": 899
+  }
+ },
+ "esiti": {
+  "salto": "il salto del disegno azzera la memoria",
+  "a capo, pagine normali": "l'a capo azzera la memoria",
+  "a capo, pagine di solo testo": "non dimostrato"
+ }
+}
