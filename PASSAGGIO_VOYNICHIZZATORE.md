@@ -429,3 +429,13 @@ Misure con il metodo finale (vedi DOSSIER, sezione 15.13). Da imitare:
       senza passare l'a capo in modo chiaro, sopra le preferenze di parola, di pagina e la deriva lungo la riga;
     - le forme pure (due forme di *d* o di *e* in Glen Claston) non hanno un accordo chiaro: lo stato tocca le scelte
       che cambiano la parola.
+21. (e3c57 – e3c66, 4/10 mattina) **Lo stato da imitare, con la forma giusta, e cosa è proprio del Voynich:**
+    - ogni scelta (*k*/*t*, -*ey*/-*dy*, *sh*/*ch*; *qo*/*o* a parte) ha uno stato suo, indipendente dalle altre (fra
+      scelte diverse accordo −0,01): **non** usare una modalità comune;
+    - lo stato persiste di parola in parola con probabilità circa 0,8 (mezza vita circa 3 parole): valori da ottenere
+      con la misura corretta, ZL: +0,144 / +0,100 / +0,090 / +0,071 / +0,036 / +0,067 a 1 – 6 parole; correggono il
+      punto 19 ("circa 0 da 4 parole in su" era sbagliato);
+    - la finestra non viene dalla posizione nella riga (e3c57), ma la deriva lungo la riga va imitata a parte;
+    - per l'indistinguibilità: raccordo, margine sinistro che evita l'inizio della riga sopra, deriva, forme di bordo
+      e ripetizioni di parole vicine **non** si trovano negli scribi veri (batteria scribi, dossier §15.13): sono tratti
+      del Voynich da imitare con i valori del Voynich, non con quelli di uno scriba "normale".
