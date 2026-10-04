@@ -159,7 +159,7 @@ Figure nuove (in `risultati/figure/`): `vocabolario.png`, `spazi.png`, `catena_s
   ripetizione è forte entro 1–4 parole e si spegne in 6–7, al contrario delle lingue (e3a86–e3a91, e3a92).
 - **Scelte di grafia**: concordano fra parole vicine, anche diverse, e non a 6–10 parole (e3b06–e3b08). Questo
   **corregge l'e206b**: le "scelte di riga" erano memoria corta, non interruttori di riga.
-- **Si azzera all'a capo e al salto di un disegno** (e3a97, e3b10, e3b35).
+- **Si azzera all'a capo e al salto di un disegno** (e3a97, e3b10, e3b35). **(Corretto nella terza parte: non si azzera; passa l'a capo per circa metà e il salto per intero, e3b66, e3b67; la ripetizione di parole passa l'a capo per circa un quarto, e3b68.)**
 - **Si consuma con le lettere scritte** (e3b20, e3b26, e3b35).
 - **Quando una parola si ripete con l'inizio cambiato, il cambio rispetta il raccordo** (*okeey qokeey*, *qokar okar*)
   (e3a93, e3a96).
