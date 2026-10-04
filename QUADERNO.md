@@ -13252,3 +13252,25 @@ prova del cambio di pagina ha poca potenza anche lì).
   l'intervallo arriva a +0,05 e non esclude un passaggio a metà come all'a capo. Il cambio di pagina ha troppe poche
   coppie per dire qualcosa. Il quadro che va d'accordo con i numeri (ma non è dimostrato): la memoria delle scelte
   attraversa i salti del disegno, si dimezza all'a capo e riparte con il paragrafo.
+
+## 4/10/2026 (notte) — e3b74: modifiche fra etichette consecutive: dati insufficienti (descrittivo: non cadono sulle scelte)
+
+Preregistrato (`preregistrazioni/e3b74.md`). Tipo della modifica fra parole a una modifica (almeno 3 segni); 49 pagine
+con almeno 4 etichette. Classificazione provata su coppie d'esempio.
+
+| tipo di modifica | etichette consecutive | etichette non consecutive | parole vicine nella riga (descrittivo) |
+|---|---|---|---|
+| *k*/*t* | 3 | 30 | 141 |
+| *sh*/*ch* | 0 | 1 | 135 |
+| *e*/*ee* | 0 | 13 | 157 |
+| *qo*/*o* | 0 | 1 | 173 |
+| -*dy*/-*ey* | 1 | 4 | 49 |
+| numero di *i* | 0 | 2 | 88 |
+| altro | 26 | 201 | 1.698 |
+| quota "scelta" | 0,133 (30 coppie) | 0,194 (252) | 0,268 (2.441) |
+
+- **Esito preregistrato: dati insufficienti** (30 coppie consecutive, soglia 40). Differenza −0,061 (IC −0,191 –
+  +0,090).
+- **Descrittivo:** fra etichette la modifica cade poco sulle scelte di grafia (13–19%), meno che fra parole vicine nel
+  testo (27%); quasi sempre su altri segni (per esempio finali -*l*/-*r*, vocali *a*/*o*). Non c'è segno che le
+  etichette vengano "variate" cambiando le scelte libere.
