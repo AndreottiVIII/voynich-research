@@ -15379,3 +15379,20 @@ Voynich ZL nella stessa esecuzione.
   vale circa un quinto della deriva del Voynich.
 - **Lettura:** la deriva lungo la riga del Voynich (le varianti marcate calano verso destra) non è un comportamento
   normale di questi scribi; l'ipotesi "inchiostro" non trova appoggio negli scribi veri (che avrebbero la stessa penna).
+
+## 4/10/2026 (mattina) — e3c65: gli scribi veri e il copista del Copiale non ripetono quasi mai la parola vicina; il Voynich da 20 a 100 volte di più
+
+Preregistrato (`preregistrazioni/e3c65.md`). Misura dell'e3b25 (coppie di parole vicine nella stessa riga identiche, e a
+una sola modifica), scribi Menota a livello facsimile, Copiale a livello del cifrato, Voynich ZL nella stessa esecuzione.
+
+| testo | identiche | a una modifica |
+|---|---|---|
+| Voynich ZL | **1,00%** | **3,87%** |
+| sei scribi Menota (da – a) | 0,01% – 0,05% | 0,17% – 0,54% |
+| Copiale (cifrato) | 0,00% | 0,04% |
+| lingue del corpus (e3b25: mediana / massimo) | 0,10% / 0,71% | 0,23% / 2,21% |
+
+- **Esito preregistrato: nessuno scriba né il Copiale ripete come il Voynich.** Gli scribi, anche a livello del facsimile
+  (con forme di lettera e abbreviazioni che potrebbero creare quasi-ripetizioni), stanno sotto la mediana delle lingue
+  stampate; il copista del Copiale, che alterna gli omofoni (e3c61), non ripete mai.
+- Le ripetizioni di parole vicine del Voynich restano una proprietà propria, non un effetto della scrittura a mano.
