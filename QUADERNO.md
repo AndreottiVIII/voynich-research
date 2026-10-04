@@ -14851,3 +14851,21 @@ Preregistrato (`preregistrazioni/e3c43.md`). Misura pulita, parole interne, dist
   (circa −0,02 nei testi finti senza effetti, e3c32): non lo leggo come un vero effetto contrario.
 - Quadro: la deriva lungo la riga è comune a tutte le varianti marcate (e3c13), ma l'accordo fra parole vicine è separato
   per ogni scelta.
+
+## 4/10/2026 (mattina) — e3c44: nella trascrizione di Glen Claston tutte e quattro le scelte si comportano come in EVA
+
+Preregistrato (`preregistrazioni/e3c44.md`). Scelte di GC corrispondenti a EVA (ricavate allineando le righe): *4o*/*o*,
+*2*/*1*, -*c9*/-*89*. Misura dell'e3c34.
+
+| classe (GC) | K(1) (IC 95%) | K(2) | K(3) | R0 | esito |
+|---|---|---|---|---|---|
+| *qo*/*o* (*4o*/*o*) | +0,007 (−0,034 – +0,049) | +0,060 | +0,054 | — | **replicato** (niente accanto, accordo a 2–3 parole) |
+| *sh*/*ch* (*2*/*1*) | **+0,118** (+0,058 – +0,180) | +0,084 | +0,095 | **0,81** | **finestra replicata** |
+| -*ey*/-*dy* (-*c9*/-*89*) | **+0,144** (+0,098 – +0,192) | +0,062 | +0,093 | **0,65** | **finestra replicata** |
+| *gallows* (*h*/*k*, e3c38) | +0,104 | +0,074 | +0,088 | 0,85 | finestra replicata |
+
+- **Esito preregistrato: finestra replicata in GC per 2 scelte su 2 (*sh*/*ch*, -*ey*/-*dy*); *qo*/*o* replicato.** Con le
+  gallows dell'e3c38, tutte e quattro le scelte hanno in GC lo stesso comportamento che in ZL e Takahashi: un altro
+  trascrittore, con un altro alfabeto, dà gli stessi numeri (entro gli intervalli).
+- Nota curiosa dalla corrispondenza degli alfabeti: GC distingue due forme della *d* di EVA (*7* e *8*), che la regola
+  automatica dell'e3c05 aveva scelto come alternanza.

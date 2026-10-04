@@ -523,7 +523,8 @@ cambiava l'ho scritto. Ecco che cosa resta.
 1. **Le scelte di grafia del Voynich si accordano fra parole vicine della stessa riga.** *k*/*t*, *sh*/*ch*, -*ey*/-*dy*: fra
    parole accanto l'accordo vale circa +0,12 – +0,15, anche togliendo le preferenze delle singole parole, quelle della
    pagina, la deriva lungo la riga e le parole ai bordi. *qo*/*o* si accorda da due parole in su (fra parole accanto
-   decide la regola di raccordo). C'è in ZL, Takahashi e Glen Claston (e3c34, e3c35, e3c38). Non viene dalla catena di
+   decide la regola di raccordo). C'è in ZL, Takahashi e Glen Claston, con le stesse quattro scelte e gli stessi numeri
+   (e3c34, e3c35, e3c38, e3c44). Non viene dalla catena di
    segni: sul Voynich riscritto dalla sua catena, che conserva raccordo e forme di bordo, la stessa misura dà zero (e3c40).
    In numeri semplici: fra parole accanto la stessa scelta si ripete circa 13 punti percentuali più del previsto, a 2–3
    parole 7–8 punti. Segue la sequenza della scrittura: le parole una sopra l'altra, vicine sulla pagina, quasi non si

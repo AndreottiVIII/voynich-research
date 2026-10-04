@@ -1443,7 +1443,10 @@ previsto, a 2 e 3 parole circa 7–8 punti; *qo*/*o* 6–11 punti a 2–3 parole
 **Niente preferenza di paragrafo (e3c42):** a 2–4 righe di distanza l'accordo è circa zero sia nello stesso paragrafo sia
 fra paragrafi diversi (differenza +0,004 / +0,007, intervalli che contengono 0). **Separato per scelta (e3c43):** dentro la
 stessa classe +0,095 / +0,098, fra classi diverse −0,020 / −0,017 (distorsione nota del correttivo di pagina): nessun
-"modo marcato" comune; la deriva lungo la riga è comune, l'accordo fra parole vicine no.
+"modo marcato" comune; la deriva lungo la riga è comune, l'accordo fra parole vicine no. **Terza trascrizione, tutte le
+scelte (e3c38, e3c44):** in GC (v101; corrispondenze ricavate allineando le righe: *qo* = *4o*, *sh*/*ch* = *2*/*1*, -*ey*/-*dy* =
+-*c9*/-*89*) le gallows K +0,104/+0,074/+0,088, *sh*/*ch* +0,118/+0,084/+0,095, -*ey*/-*dy* +0,144/+0,062/+0,093 a 1/2/3 parole;
+*qo*/*o* +0,007/+0,060/+0,054: lo stesso comportamento di ZL e Takahashi.
 
 **Lezioni di metodo da riportare** (utili anche a chi legge): (1) confrontare con la media della pagina ai bordi della
 riga inganna, perché fine e inizio riga hanno forme proprie; (2) togliere le coppie "simili" guardando la parola intera
