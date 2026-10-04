@@ -13274,3 +13274,25 @@ con almeno 4 etichette. Classificazione provata su coppie d'esempio.
 - **Descrittivo:** fra etichette la modifica cade poco sulle scelte di grafia (13–19%), meno che fra parole vicine nel
   testo (27%); quasi sempre su altri segni (per esempio finali -*l*/-*r*, vocali *a*/*o*). Non c'è segno che le
   etichette vengano "variate" cambiando le scelte libere.
+
+## 4/10/2026 (notte) — e3b75: lo scriba del Codex Marianus non ripete la variante di "i": la alterna
+
+Preregistrato (`preregistrazioni/e3b75.md`). Secondo controllo naturale: scelta fra и e ꙇ a inizio parola nel Codex
+Marianus (antico slavo ecclesiastico, trascrizione del corpus e381 che conserva le varianti). Metodo finale (nullo largo
+dell'e3b62, intervallo per blocchi dell'e3b70); classificazione provata su parole d'esempio.
+
+| blocchi | occorrenze | quota ꙇ | coppie vicine | quota rimescolabile | M | M nullo | effetto (IC 95%) |
+|---|---|---|---|---|---|---|---|
+| 292 | 8.781 | 0,385 | 1.706 | 0,87 | −0,110 | −0,019 | **−0,090** (−0,156 – −0,031) |
+
+Voynich ZL (e3b70): +0,086 (IC +0,060 – +0,113).
+
+- **Esito preregistrato (scritto dal codice): "non si vede; meno del Voynich".** Ma la preregistrazione non prevedeva il
+  caso di un intervallo tutto **sotto** lo zero, che è quello che è successo: dichiaro la deviazione e lo descrivo per
+  quello che è. Lo scriba del Marianus, a 2–3 parole di distanza, usa la **variante opposta** più del caso (oltre le
+  preferenze delle singole parole): un'alternanza, non una memoria.
+- **Lettura:** con due scribi veri di controllo, uno ha per þ/ð una stima positiva ma incerta (+0,10, IC −0,003 – +0,206;
+  e3b70), l'altro per и/ꙇ un effetto negativo netto. Quindi **la memoria corta positiva non è un'abitudine universale
+  degli scribi**; quella del Voynich, positiva e uguale in tutte le scelte e in tutte le mani, resta un tratto da
+  spiegare. Cautela: due soli controlli, e l'alternanza del Marianus potrebbe avere una ragione propria (convenzioni
+  dello scriba o della scuola, ritmo della pagina) che non ho studiato.
