@@ -1268,7 +1268,7 @@ accoppiata con l'inizio del tratto che lo continua, contro l'inizio di tratti vi
 | Si consuma con le lettere scritte (a parità di parole) | **solida** | ZL +0,066 (IC +0,029 – +0,100), IT +0,066 (+0,035 – +0,098) (e3b80) |
 | La memoria si azzera all'a capo | **sbagliata** | passa per circa metà: D +0,039 ZL (IC +0,001 – +0,075), +0,041 IT (e3b66); senza la prima parola della riga nuova (forme di bordo) passa il 60–70% (e3b89); l'"azzeramento" veniva dalle forme di bordo |
 | La memoria si azzera al salto del disegno | **sbagliata** | passa per intero: D +0,068 ZL, +0,077 IT, IC sopra 0 (e3b67) |
-| La memoria passa la fine del paragrafo | non dimostrato | stima circa 0 (ZL −0,015, IT −0,018), IC fino a +0,05 (e3b73) |
+| La memoria passa la fine del paragrafo | non dimostrato (stima circa 0) | ZL −0,015, IT −0,018, IC fino a +0,05 (e3b73); anche senza la prima parola del paragrafo circa 0 (e3b90) |
 | La ripetizione di parole si azzera all'a capo | **sbagliata** | passa per circa un quarto (e3b68) |
 | Raccordo *qo*/*o* e giuntura riparte a ogni a capo | **solida** | raccordo +0,04 a cavallo contro +0,35 nella riga (e3b45); giuntura rotta all'a capo (e384) |
 | Raccordo più forte che in uno scriba vero e nei generatori | **solida** | effetto/entropia: Voynich 0,058; scriba anglosassone 0,007 (e3b58); Naibbe 0,000, U2 0,000, U3 0,001, Timm e Schinner −0,002 (e3b88) |
