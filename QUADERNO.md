@@ -13418,3 +13418,21 @@ Preregistrato (`preregistrazioni/e3b83.md`). Metodo finale sulle righe di cerchi
 - **Esito preregistrato: non dimostrata nei cerchi.** La stima (+0,072) è vicina a quella dei paragrafi (+0,086), ma con
   29 pagine l'intervallo tocca lo zero. **Ridimensiona l'e3b37** ("memoria anche nei cerchi", misura grezza): è
   compatibile, non dimostrata con il metodo finale.
+
+## 4/10/2026 (notte) — e3b84: la parola ripresa dalla riga sopra segue un po' più la fonte che la memoria del momento
+
+Preregistrato (`preregistrazioni/e3b84.md`). Parole della riga il cui tipo (con la scelta coperta) compare nella riga
+sopra; nei casi in cui la scelta della fonte e quella della parola della stessa classe a 2–3 parole prima nella riga
+sono diverse, quota in cui la parola segue la fonte. Codice provato su paragrafi finti (copia fedele 0,99; scelta del
+momento 0,30).
+
+| trascrizione | conflitti | segue la fonte (IC 95%) | senza conflitto: uguale a fonte e memoria (casi) |
+|---|---|---|---|
+| ZL | 667 | 0,552 (0,507 – 0,591) | 0,726 (963) |
+| IT | 670 | 0,555 (0,511 – 0,597) | 0,731 (970) |
+
+- **Esito preregistrato: tiene la grafia della fonte**, ma di poco: 55% contro 45%. La parola ripresa porta con sé la
+  scelta della fonte solo un po' più spesso di quanto prenda la scelta del momento: tutte e due le spinte contano.
+- **Limite non previsto nella preregistrazione:** una parola che compare nella riga sopra può avere la stessa scelta
+  anche solo per una sua debole preferenza, senza copia. Il controllo giusto è usare come "fonte" una riga lontana dello
+  stesso paragrafo (e3b85): se anche lì la quota è circa 55%, è preferenza della parola e non copia.

@@ -1,0 +1,25 @@
+{
+ "trascrizioni": {
+  "ZL": {
+   "conflitti": 667,
+   "segue_la_fonte": 0.5517241379310345,
+   "IC95": [
+    0.507380073800738,
+    0.5913978494623656
+   ],
+   "accordi": 963,
+   "uguale_a_fonte_e_memoria": 0.7258566978193146
+  },
+  "IT": {
+   "conflitti": 670,
+   "segue_la_fonte": 0.5552238805970149,
+   "IC95": [
+    0.5112359550561798,
+    0.5971502590673575
+   ],
+   "accordi": 970,
+   "uguale_a_fonte_e_memoria": 0.7309278350515463
+  }
+ },
+ "esito": "tiene la grafia della fonte"
+}
