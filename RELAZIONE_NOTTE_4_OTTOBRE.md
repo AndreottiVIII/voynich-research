@@ -246,7 +246,8 @@ scritto nella seconda parte. Le dico subito.
    come il Voynich, ma l'intervallo tocca lo zero; per *i*/*y* niente. Nel **Codex Marianus** (antico slavo, XI secolo,
    и/ꙇ a inizio parola) l'effetto è negativo, ma viene tutto dalla congiunzione "и", che probabilmente si scrive in un
    modo a inizio frase e in un altro dentro la frase; per le altre parole i dati sono troppo pochi (e3b51–e3b70,
-   e3b75, e3b76). La domanda resta aperta.
+   e3b75, e3b76). Anche la stima dell'anglosassone, separando le parole grammaticali più frequenti, non regge (e3b78).
+   La domanda resta aperta.
 4. **Il raccordo invece è proprio del Voynich**: lo scriba anglosassone lega appena la scelta þ/ð alla fine della parola
    prima, otto volte meno del raccordo *qo*/*o* (e3b58).
 5. **Le scelte non sono legate alla parola**: una parola del Voynich non ha una "sua" grafia (*k*/*t* e *sh*/*ch* per
