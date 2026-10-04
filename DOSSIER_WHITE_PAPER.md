@@ -1536,6 +1536,28 @@ di Davide per scaricarli). Il Marianus (и/ꙇ) non è interpretabile con questa
   scelta chiara su 18 in 6 scribi). Il Voynich è diverso per quantità (più scelte, tutte le mani), non per natura. Il
   raccordo invece non ha paragone negli scribi (quattro volte il più forte).
 
+**BATTERIA SCRIBI (e3c58 – e3c65, 4/10 mattina): quali proprietà forti del Voynich sono normali per chi scrive a mano?**
+Stesse misure del Voynich su sei scribi veri (Menota, livello facsimile, righe e pagine vere: AM 677 4to c. 1200 – 1225,
+AM 519 a 4to c. 1280, AM 302 fol c. 1300, AM 60 4to c. 1320, AM 242 fol c. 1350, Holm A 10 c. 1500 – 1550; islandesi,
+norvegesi, svedese) e sul copista del cifrario Copiale (Settecento, cifra omofonica). Voynich rifatto nella stessa
+esecuzione ogni volta.
+
+| proprietà del Voynich | Voynich | scribi veri | Copiale | verdetto |
+|---|---|---|---|---|
+| finestra (stato di 2 – 3 parole nelle scelte) | +0,13 accanto, +0,09 a 2–3 (k/t, -ey/-dy) | 1 scelta su 18 (s lunga/tonda, AM 302 fol) uguale al Voynich e supera le stesse prove; 1 al limite; 16 niente | **alterna** gli omofoni (−0,18 accanto) | possibile a mano ma raro; nel Voynich diffusa |
+| raccordo (fine parola → inizio della dopo) | effetto/entropia 0,058 | 2 scelte su 11 con 0,013 – 0,015; 9 niente | — | **proprio del Voynich** (4 volte il più forte) |
+| margine sinistro (evita lo stesso inizio della riga sopra) | 5 inizi evitati (z fino a −9,8) | 0 su 72 prove | — | **proprio del Voynich** |
+| deriva lungo la riga | −0,020 – −0,034 ogni 10 segni | nessuna scelta oltre 0,0075 (abbreviazione +0,005) | — | **proprio del Voynich** (da 3 a 15 volte più forte) |
+| forme di bordo riga | -m a fine riga +0,151; s-/y- a inizio +0,09 | abbreviare a fine riga +0,02; v- a inizio +0,025 | — | stessa natura, **4 – 7 volte più forte** nel Voynich |
+| ripetizione della parola vicina | 1,0% identiche, 3,9% a una modifica | 0,01 – 0,05%; 0,2 – 0,5% | 0,00%; 0,04% | **proprio del Voynich** (20 – 100 volte di più) |
+
+**Formula per il white paper:** di sei proprietà forti del Voynich legate al modo di scrivere, cinque non hanno paragone
+in sei scribi veri di tre secoli (né nel copista di un cifrario omofonico) e una (la finestra) si trova, rara, in uno
+scriba. Il "modo di scrivere" del Voynich non è quello di uno scriba che copia un testo in una lingua con varianti di
+forma: le sue regole fra parole vicine e ai bordi della riga sono molto più forti. Questo non dice che cosa sia il testo.
+Limiti: gli scribi sono tutti nordici; manca un confronto con scribi latini o tedeschi del Quattrocento trascritti a
+livello facsimile.
+
 **Lezioni di metodo da riportare** (utili anche a chi legge): (1) confrontare con la media della pagina ai bordi della
 riga inganna, perché fine e inizio riga hanno forme proprie; (2) togliere le coppie "simili" guardando la parola intera
 falsa i confronti con i rimescolamenti; (3) il rimescolamento parola per parola sottostima la variabilità: servono
