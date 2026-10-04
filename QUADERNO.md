@@ -12385,3 +12385,26 @@ Preregistrato (`preregistrazioni/e3b41.md`). Analisi dell'e3b38 sezione per sezi
 - **Lettura:** l'ipotesi "altrove l'a capo azzera la memoria perché chi scrive si ferma a guardare il disegno" non regge:
   le ricette non hanno disegni da guardare e azzerano lo stesso. Le 6 pagine "solo testo" sono scritte in un modo
   proprio. Prossimo controllo: se il risultato viene da una sola pagina (e3b42).
+
+## 4/10/2026 (notte) — e3b42: la memoria che passa l'a capo non viene da una pagina, e la stessa mano si comporta diversamente
+
+Preregistrato (`preregistrazioni/e3b42.md`). ZL, analisi dell'e3b38; codice provato su pagine finte.
+
+**1. Una pagina per volta fuori** (valore pieno +0,075, 303 coppie): togliendo f1r +0,071; f66r +0,093; f76r +0,081;
+f85r1 +0,068; f86v6 +0,071; f86v5 +0,070. **Esito: non dipende da una pagina.** Da sole (poche coppie, solo
+descrittivo): f1r +0,135 (21), f66r −0,009 (53), f76r +0,064 (99), f85r1 +0,113 (47), f86v6 +0,097 (47), f86v5 +0,116
+(36). La sola pagina che non va nella direzione è f66r (mano 5, in gran parte righe d'elenco).
+
+**2. Mano 2** (la stessa mano scrive 4 delle pagine T e 42 altre pagine, soprattutto biologia):
+
+| pagine della mano 2 | quante | stessa riga (coppie) | a cavallo (coppie) | IC 95% a cavallo |
+|---|---|---|---|---|
+| solo testo | 4 | +0,042 (1.136) | **+0,089** (229) | +0,018 – +0,169 |
+| altre | 42 | +0,031 (6.799) | −0,006 (2.106) | −0,030 – +0,017 |
+
+- **Esito: stessa mano, comportamento diverso.** Lo stesso scriba, nella stessa lingua B, azzera la memoria a ogni a
+  capo nelle pagine con disegni o stelline e non la azzera nelle pagine di solo testo.
+- **Lettura:** non è un'abitudine della persona ma del tipo di pagina, cioè del modo in cui quella pagina è stata
+  scritta. Con l'e3b40 (forme di bordo presenti) e l'e3b41 (le ricette azzerano): nelle pagine di solo testo chi scrive
+  va a capo senza "ripartire". Un'ipotesi da tenere aperta: nelle pagine normali ogni riga è un'unità di lavoro a sé
+  (per esempio composta guardando qualcosa all'inizio di ogni riga), nelle pagine di solo testo no.
