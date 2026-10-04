@@ -1,0 +1,51 @@
+{
+ "risultati": {
+  "IT, tutte le coppie": {
+   "vicino": 0.030518677429060562,
+   "IC_vicino": [
+    0.023224206008303706,
+    0.03792240131780773
+   ],
+   "coppie_vicino": 21770,
+   "lontano": -0.0006489964797856742,
+   "IC_lontano": [
+    -0.011525738812273797,
+    0.010281350824834463
+   ],
+   "coppie_lontano": 10974
+  },
+  "ZL, senza parole simili": {
+   "vicino": -0.008011150791983813,
+   "IC_vicino": [
+    -0.01576626730960101,
+    0.0005772864510876842
+   ],
+   "coppie_vicino": 18514,
+   "lontano": -0.03465968762952264,
+   "IC_lontano": [
+    -0.04525134822863749,
+    -0.023369738055827458
+   ],
+   "coppie_lontano": 10129
+  },
+  "IT, senza parole simili": {
+   "vicino": -0.008310055705385828,
+   "IC_vicino": [
+    -0.0161142564922651,
+    -0.0011477103940972094
+   ],
+   "coppie_vicino": 18638,
+   "lontano": -0.0338498883801604,
+   "IC_lontano": [
+    -0.04422624531916727,
+    -0.023493730902354716
+   ],
+   "coppie_lontano": 9700
+  }
+ },
+ "esito_a": "regge",
+ "esito_b": {
+  "ZL, senza parole simili": "era solo ripetizione di parole",
+  "IT, senza parole simili": "era solo ripetizione di parole"
+ }
+}

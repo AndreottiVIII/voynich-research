@@ -1173,3 +1173,4 @@ cresce con la distanza; il gibberish scritto a mano non ha giuntura, copia, evit
 pubblicato ha insieme giuntura chiusa nella riga, memoria corta nella riga ed evitamento sul margine (Timm e Schinner ha
 la copia e lo spazio non lessicale, ma non il resto).
 - **Le "scelte di grafia per riga" sono memoria corta** (e3b06): l'accordo nelle scelte facoltative (qo/o, -ey/-dy, sh/ch, ee/e) c'è fra parole a 2–3 di distanza (+0,031) e sparisce a 6–10 nella stessa riga (−0,001). Le "12 scelte di riga" dell'e206b sono la ripresa di memoria corta, non interruttori di riga. -l/-r non concorda (la decide il raccordo).
+  - Regge con Takahashi (e3b07: +0,031 vicino, −0,001 lontano). Senza le coppie di parole simili tutti gli accordi scendono (difetto del confronto con 0, dichiarato), ma il vicino resta +0,027 sopra il lontano: da verificare con l'intervallo della differenza (e3b08).

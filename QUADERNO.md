@@ -11720,3 +11720,23 @@ rispetto all'atteso dalla pagina senza la riga; vicino = 2–3 parole di distanz
 - -*l*/-*r* non concorda nemmeno da vicino: è decisa dal raccordo con la parola dopo (e3a02), non dalla memoria.
 - **Per il voynichizzatore (importante):** al posto della dozzina di interruttori di riga, una memoria corta delle
   scelte di grafia (si tende a ripetere la scelta delle ultime 2–3 parole).
+
+## 4/10/2026 (notte) — e3b07: la memoria corta delle scelte di grafia regge con Takahashi; il controllo "senza parole simili" ha un difetto
+
+Preregistrato (`preregistrazioni/e3b07.md`).
+
+| versione | eccesso vicino (d 2–3) | IC 95% | eccesso lontano (d 6–10) | IC 95% |
+|---|---|---|---|---|
+| ZL, tutte le coppie (e3b06) | +0,031 | +0,023 – +0,038 | −0,001 | −0,011 – +0,009 |
+| IT, tutte le coppie | +0,031 | +0,023 – +0,038 | −0,001 | −0,012 – +0,010 |
+| ZL, senza parole simili | −0,008 | −0,016 – +0,001 | **−0,035** | −0,045 – −0,023 |
+| IT, senza parole simili | −0,008 | −0,016 – −0,001 | **−0,034** | −0,044 – −0,024 |
+
+- **Esito (a): regge** con la IT.
+- **Esito (b) alla lettera: "era solo ripetizione di parole"** (senza le parole simili l'eccesso vicino non sta sopra 0).
+- **Difetto del criterio, dichiarato:** togliere le coppie di parole uguali o a una modifica toglie soprattutto coppie
+  che concordano, e abbassa **tutti** gli accordi sotto l'atteso: si vede dal lontano, che scende a −0,035. Il confronto
+  giusto non è con 0 ma fra vicino e lontano: senza le parole simili il vicino sta ancora +0,027 sopra il lontano, quasi
+  quanto con tutte le coppie (+0,032). Questo fa pensare che la memoria riguardi anche le scelte e non solo le parole
+  ripetute; la togliere delle coppie simili, anzi, dovrebbe penalizzare di più il vicino (dove le ripetizioni sono di
+  più). Va misurato con l'intervallo della differenza vicino − lontano (e3b08).
