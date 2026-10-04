@@ -1424,7 +1424,9 @@ preferenza di tutta la riga: oltre 4 parole l'accordo è circa zero (e3c33); (3)
 e -*ey*/-*dy* si accordano fra parole accanto (+0,12 – +0,15) e a 3 parole ne resta il 56–74% (nelle lingue naturali al più
 il 46%, di solito 0–20%); *qo*/*o* non si accorda fra parole accanto (lì decide il raccordo con la parola prima) ma a 2–3
 parole sì (+0,06 / +0,12); *a*/*o* quasi niente. Con la serie automatica (dominata da *a*/*o*) il Voynich sembra una lingua
-(e3c34): il tratto riguarda alcune scelte, non tutte.
+(e3c34): il tratto riguarda alcune scelte, non tutte. **Replica per lingua (e3c36):** con *k*/*t*, *sh*/*ch*, -*ey*/-*dy*
+insieme, in B R0 = 0,60 (ZL) e 0,65 (IT), estremi bassi 0,38 – 0,43; in A (tre volte meno parole) IT 0,84, ZL 0,43, con
+intervalli larghissimi.
 
 **Lezioni di metodo da riportare** (utili anche a chi legge): (1) confrontare con la media della pagina ai bordi della
 riga inganna, perché fine e inizio riga hanno forme proprie; (2) togliere le coppie "simili" guardando la parola intera
