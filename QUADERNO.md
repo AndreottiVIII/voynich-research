@@ -13942,3 +13942,24 @@ strato; riferimento la v12 sulle stesse chiavi. Risultati in `risultati/e413_rit
   sale a 0,771 (Voynich 0,756): con meno peso alle parole frequenti le pagine sono un po' troppo varie.
 - **Esito secondo la preregistrazione:** S2 conta e diventa la **v13** (`pezzi_parametri_v13.json`): 0,582 / 0,605,
   pagella 15,2, cancello 9 su 12. Il giudice forte è ora entro un errore standard da 0,60.
+
+## 4/10/2026 (mattina presto) — e3c06: a parità di lettere, il numero di parole conta, ma al contrario (incerto)
+
+Preregistrato (`preregistrazioni/e3c06.md`). A parità di lettere scritte in mezzo, coppie con meno parole in mezzo
+contro coppie con più parole (distanze 2–5, classi scelte a mano, metodo finale). Codice provato su testi finti
+(memoria per lettere −0,018, intervallo che tocca 0; memoria per parole +0,075).
+
+| trascrizione | coppie con meno parole | M | M nullo | effetto (IC 95%) |
+|---|---|---|---|---|
+| ZL | 3.517 | −0,036 | +0,021 | **−0,057** (−0,114 – −0,000) |
+| IT | 3.554 | −0,033 | +0,027 | **−0,060** (−0,123 – −0,001) |
+
+- **Esito preregistrato: incerto.** **Deviazione dichiarata:** la preregistrazione non prevedeva un intervallo tutto
+  sotto 0. In tutte e due le trascrizioni, a parità di lettere, le coppie con **più** parole in mezzo si accordano di
+  più, al limite della significatività.
+- **Non lo leggo ancora come un fatto.** Un sospetto concreto: a parità di lettere, "più parole" vuol dire coppie che
+  coprono più posizioni della riga, quindi più spesso con la prima parola a inizio riga e l'ultima a fine riga, dove le
+  scelte hanno forme speciali (la lezione dell'e3b66: i bordi della riga ingannano). La misura delle lettere a parità
+  di parole (e3b80) è meno esposta, perché lì la distanza in parole è la stessa nei due gruppi.
+- Prossimo passo (e3c07): le due misure (lettere a parità di parole, parole a parità di lettere) senza le coppie che
+  toccano la prima o l'ultima parola della riga.

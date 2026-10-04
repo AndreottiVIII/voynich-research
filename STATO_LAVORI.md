@@ -156,6 +156,7 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     picco a 2 parole il Corano, livello piatto Naibbe). Testi piccoli, erbari compresi (e3c04): nessuna memoria; i/y del NT
     fiammingo da solo +0,055 (da verificare). Figura `alternanze_automatiche.png`.
     Terza trascrizione GC in v101 (e3c05): la regola sceglie h/k, a/o, 7/8; memoria +0,039, stessa forma: replica.
+    A parità di lettere, più parole in mezzo danno più accordo (e3c06, −0,057/−0,060, al limite): incerto, forse bordi riga (e3c07).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
