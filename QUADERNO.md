@@ -11757,3 +11757,20 @@ Preregistrato (`preregistrazioni/e3b08.md`). Differenza fra eccesso di accordo v
   stessa riga, quasi quanto con tutte le coppie (+0,027 contro +0,031). La memoria corta non è solo ripetere parole: lo
   scriba, per 2–3 parole, tende a rifare le stesse scelte di grafia anche in parole diverse.
 - Corregge l'esito alla lettera dell'e3b07 ("era solo ripetizione di parole"), che dipendeva da un confronto sbagliato.
+
+## 4/10/2026 (notte) — e3b09: nessun generatore ha la memoria corta delle scelte di grafia
+
+Preregistrato (`preregistrazioni/e3b09.md`). Differenza vicino (d 2–3) − lontano (d 6–10) dell'accordo delle scelte
+facoltative, senza le coppie di parole simili.
+
+| testo | differenza | IC 95% | esito |
+|---|---|---|---|
+| **Voynich** (e3b08) | +0,027 | +0,014 – +0,039 | — |
+| Naibbe | +0,000 | −0,032 – +0,032 | no |
+| U2 | +0,011 | −0,017 – +0,038 | no |
+| U3 | +0,015 | −0,009 – +0,039 | no |
+| Timm e Schinner | +0,006 | −0,006 – +0,019 | no |
+
+- **Esito preregistrato: no, per tutti e quattro.** Cautela: i generatori misurati su 10.000 parole hanno intervalli
+  larghi; Timm e Schinner, misurato su tutto il suo testo, ha un intervallo stretto e sta chiaramente sotto il Voynich.
+- La memoria corta (di parole e di scelte di grafia) si aggiunge ai tratti che nessun generatore pubblicato ha.
