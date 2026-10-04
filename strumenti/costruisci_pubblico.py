@@ -12,7 +12,7 @@ import json, os, re, shutil, sys
 
 RADICE = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 sys.path.insert(0, os.path.join(RADICE, 'analisi'))
-VERSIONE = 'v20'      # v17 (cifratura robusta, gabbia statistica) + larghezza delle righe in caratteri (e416b) + alternanza nella riga (e417)
+VERSIONE = 'v21'      # v20 (larghezza delle righe, alternanza) + conteggi delle scelte di riga inizializzati (e418)
 USCITA = os.path.join(RADICE, 'pubblico', 'voynichizzatore')
 
 
