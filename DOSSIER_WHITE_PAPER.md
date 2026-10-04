@@ -1349,8 +1349,10 @@ e le parole che toccano un disegno ancora meno, da tutte e due le parti (prima �
 riga no (≈ 0). Dopo un disegno le forme marcate non ripartono (la deriva continua). Lettura possibile: dove lo spazio è
 stretto si scelgono le varianti semplici (*o*, *t*, *ch*, -*dy*). **Precisazione (e3c23):** accanto al disegno cala
 soprattutto *qo* (−0,227, cioè 23 punti; all'ultima parola della riga −0,061), mentre *k*/*t*, *sh*/*ch*, -*ey*/-*dy* insieme
-non cambiano in modo dimostrato: chi scrive, stretto contro un disegno o il margine, lascia cadere la *q*, l'unico segno
-che si risparmia. La deriva lungo la riga invece è uguale in tutte le classi (−0,03 ogni 10 segni), quindi non è spazio.
+non cambiano in modo dimostrato. **Correzione (e3c24):** la *q* cade solo nella parola che comincia dopo il disegno
+(−0,330), non in quella prima (−0,074, non dimostrato): non è spazio pianificato. Può essere scrittura (ripartendo contro
+il disegno si comincia con *o*) o lettura (la *q* attaccata al disegno non si vede o non si separa); senza immagini non si
+decide. La deriva lungo la riga invece è uguale in tutte le classi (−0,03 ogni 10 segni), quindi non è spazio.
 A inizio riga: più *qo* (+10 punti) e *sh* (+9), meno *k* (−15). Nota: l'e3a18/e3a20 ("nessuna deriva graduale" per *sh* e
 *k*) riguardavano l'altezza nella pagina e il paragrafo, non la posizione nella riga. Figura `deriva_riga.png`.
 **Correzione dei valori della memoria (e3c14):** la deriva fa accordare di più le parole vicine; con un nullo che

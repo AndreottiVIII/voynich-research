@@ -183,8 +183,9 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     Dopo un disegno non riparte; le parole che toccano il disegno hanno meno forme marcate (e3c21: −0,05/−0,07; incerto).
     Bordi (e3c22): prima parola della riga sulla deriva (≈0), ultima −0,025; accanto al disegno −0,05/−0,07 da tutte e due le
     parti: dove lo spazio è stretto, varianti semplici (lettura da verificare).
-    **e3c23:** accanto al disegno sparisce soprattutto la q (qo −0,23; altre scelte non dimostrato): spazio. La deriva invece
-    è uguale in tutte le classi (non è spazio). Figura `deriva_riga.png`.
+    **e3c23:** accanto al disegno sparisce soprattutto la q (qo −0,23; altre scelte non dimostrato). La deriva invece è uguale
+    in tutte le classi. Figura `deriva_riga.png`. **e3c24:** la q cade solo nella parola dopo il disegno (−0,33), non prima:
+    non è spazio pianificato; scrittura o lettura (q attaccata al disegno), non si decide senza immagini.
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
