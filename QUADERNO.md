@@ -12889,3 +12889,38 @@ Preregistrato (`preregistrazioni/e3b60.md`). Metodo dell'e3b56; pagine della IT 
   e3b34): con il nullo che tiene ferme le parole la differenza A/B c'è con tutte e due le trascrizioni.
 - Non si può separare la persona dalla lingua (mano 1 = A, mani 2 e 3 = B). Tutte e due le letture sono possibili:
   abitudine personale degli scribi B, oppure una proprietà del sistema B.
+
+## 4/10/2026 (notte) — e3b61: né in A né in B le scelte sono legate alla parola; B appena meno lontana
+
+Preregistrato (`preregistrazioni/e3b61.md`). Metodo dell'e3b49 per lingua, ciascuna contro 5 riscritture con la propria
+catena di ordine 2. Scarto = risparmio − massimo delle catene.
+
+| classe | A: occorrenze | A: scarto | B: occorrenze | B: scarto |
+|---|---|---|---|---|
+| *qo*/*o* | 2.028 | −0,016 | 6.700 | +0,006 |
+| *k*/*t* | 3.726 | −0,008 | 9.881 | −0,000 |
+| *sh*/*ch* | 4.721 | −0,020 | 8.530 | −0,019 |
+| -*ey*/-*dy* | 1.578 | −0,014 | 8.015 | −0,004 |
+
+- **Esito preregistrato: "in B più che in A"** (3 classi su 4 con B sopra A di almeno 0,005).
+- **Lettura:** l'ipotesi di partenza (in A scelte più proprie della parola) **non** è sostenuta. In nessuna delle due
+  lingue conoscere la parola aiuta oltre la catena (scarti negativi o circa zero); in A gli scarti sono più negativi,
+  probabilmente anche perché A ha meno dati (il modello più ricco perde di più quando i dati sono pochi).
+
+## 4/10/2026 (notte) — Verifica dopo il risultato: il nullo dell'e3b59/e3b60 è molto meno sensibile nella mano 1
+
+Il nullo che tiene ferme le parole può cambiare solo le occorrenze di parole che compaiono almeno due volte nella stessa
+pagina con tutte e due le varianti. Conteggio (classi *qo*/*o*, *k*/*t*, *sh*/*ch*, -*ey*/-*dy*, ZL):
+
+| mano | occorrenze | rimescolabili | quota |
+|---|---|---|---|
+| 1 | 11.185 | 1.824 | **0,16** |
+| 2 | 15.233 | 6.199 | 0,41 |
+| 3 | 16.785 | 6.876 | 0,41 |
+
+- Nella mano 1 (erbario, vocabolario molto vario) il nullo lascia ferme l'84% delle scelte e quindi riproduce quasi
+  tutto quello che si osserva, memoria compresa: **la prova è molto meno sensibile lì**. Quindi l'esito dell'e3b59/e3b60
+  "la mano 1 non ha memoria oltre le parole" **può essere un effetto del metodo**, non una differenza fra scribi.
+  Correzione della lettura: la differenza fra le mani non è dimostrata. Da rifare con un nullo che rimescoli fra le
+  pagine della stessa mano (e3b62): la differenza vicine − lontane è calcolata dentro la stessa riga, quindi le
+  differenze fra pagine si cancellano e il nullo può essere più largo.
