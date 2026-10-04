@@ -1402,7 +1402,8 @@ resta propria del Voynich.** L'accordo fra parole accanto, a parità di parola, 
 accordo chiaro) e resta alto fino a 6–7 parole: per questo il confronto "vicine 2–3 contro lontane 6–10" (e3b62, e3c27)
 ne vede solo una parte. **Formula per il white paper, aggiornata:** il Voynich ha un accordo delle scelte di grafia fra
 parole della stessa riga forte quanto l'accordo grammaticale delle lingue, ma che, a differenza di questo, non si
-concentra fra parole accanto e dura per quasi tutta la riga; nessun generatore pubblicato lo ha.
+concentra fra parole accanto e dura per quasi tutta la riga; nessun generatore pubblicato lo ha (e3c29: Naibbe +0,016,
+U2 +0,056, U3 +0,043, Timm e Schinner −0,005, contro +0,17 – +0,18 del Voynich).
 
 **Lezioni di metodo da riportare** (utili anche a chi legge): (1) confrontare con la media della pagina ai bordi della
 riga inganna, perché fine e inizio riga hanno forme proprie; (2) togliere le coppie "simili" guardando la parola intera
