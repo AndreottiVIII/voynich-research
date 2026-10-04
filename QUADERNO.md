@@ -13157,3 +13157,37 @@ Media delle catene +0,002: il 98% dell'effetto del Voynich sta oltre la catena.
   Voynich non cambia la sostanza (+0,086 sono quasi 5 deviazioni delle catene); per effetti piccoli o con pochi dati
   (lo scriba anglosassone, z 2,2; U3 e Timm e Schinner) sì. Rifaccio gli intervalli ricampionando le pagine intere
   (e3b70).
+
+## 4/10/2026 (notte) — e3b70: con intervalli per pagine intere, la memoria del Voynich regge; quella dello scriba vero non è dimostrata
+
+Preregistrato (`preregistrazioni/e3b70.md`). Effetto = M − media del nullo largo dell'e3b62; intervallo bootstrap
+ricampionando le unità intere (pagine; blocchi di 25 righe). Prova su pagine finte: senza memoria intervalli con lo
+zero (3 semi), con memoria +0,117 (IC +0,090 – +0,148).
+
+| gruppo | effetto | IC 95% |
+|---|---|---|
+| Voynich ZL, tutto | **+0,086** | +0,060 – +0,113 |
+| Voynich IT, tutto | **+0,076** | +0,049 – +0,103 |
+| Voynich ZL, mano 1 | +0,089 | +0,015 – +0,161 |
+| Voynich ZL, mano 2 | +0,091 | +0,046 – +0,138 |
+| Voynich ZL, mano 3 | +0,079 | +0,045 – +0,111 |
+| Hatton Gospels, þ/ð a inizio parola | +0,102 | −0,003 – +0,206 |
+| Hatton Gospels, þ/ð dentro la parola | −0,022 | −0,209 – +0,160 |
+| Hatton Gospels, i/y | +0,020 | −0,047 – +0,087 |
+| Secreta Alberti, i/y | −0,030 | −0,133 – +0,067 |
+| NT fiammingo, i/y | +0,027 | −0,205 – +0,241 |
+| varianti naturali, insieme | +0,028 | −0,022 – +0,078 |
+| Naibbe | +0,011 | −0,013 – +0,038 |
+| U2 | +0,013 | −0,021 – +0,046 |
+| U3 | +0,003 | −0,031 – +0,036 |
+| Timm e Schinner | +0,024 | −0,021 – +0,067 |
+
+- **Esiti preregistrati:** Voynich ZL e IT, **memoria oltre le parole**; mani, **differenze non dimostrate**; scriba
+  anglosassone (þ/ð a inizio parola) e insieme naturale, **non dimostrata**; generatori, **nessuna memoria** tutti.
+- **Correzione della lettura dell'e3b54–e3b62:** "uno scriba vero ha (o può avere) la stessa memoria" non è dimostrato:
+  la stima per þ/ð a inizio parola è grande quanto quella del Voynich, ma l'intervallo tocca lo zero; le varianti i/y
+  non mostrano nulla. I valori p del nullo largo erano troppo ottimisti (e3b69).
+- **Quadro finale della notte sulla memoria delle scelte:** nel Voynich c'è, solida (con due trascrizioni, in tutte e
+  quattro le scelte e in tutte le mani, oltre le parole e oltre la catena di segni), e prosegue oltre il salto del
+  disegno e, dimezzata, oltre l'a capo; nessun generatore pubblicato la ha; se uno scriba vero la abbia **non lo so**:
+  l'unico controllo naturale disponibile ha una stima simile ma troppo incerta.
