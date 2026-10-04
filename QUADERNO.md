@@ -11495,3 +11495,23 @@ Esempi più frequenti: *okeey qokeey* (9), *shedy chedy* (8), *chol shol* (7), *
   tocca la nuova, l'effetto non c'è.
 - **Lettura:** la ripresa di memoria corta e il raccordo lavorano insieme: lo scriba riscrive la parola appena scritta e
   la adatta alla giuntura, come fa con le copie dalla riga sopra (e392, e396).
+
+## 4/10/2026 (notte) — e3a94: anche la fine cambiata di una ripetizione si raccorda con la parola dopo (con una cautela sulla direzione)
+
+Preregistrato (`preregistrazioni/e3a94.md`). Quasi ripetizioni che cambiano solo la fine; Δ = raccordo della fine reale
+con la parola dopo meno quello della fine originale.
+
+| coppie | quante | Δ medio | IC 95% | quota con Δ > 0 |
+|---|---|---|---|---|
+| immediate | 100 | +0,283 | +0,126 – +0,456 | 0,62 |
+| a distanza 2 | 93 | +0,411 | +0,254 – +0,568 | 0,69 |
+
+Esempi: *chor chol daiin*, *dal dar ol*, *chor chol keol*, *chol chor chol*.
+
+- **Esito preregistrato: la ripetizione guarda avanti.** Come previsto, l'effetto c'è anche a distanza 2 (riguarda la
+  parola dopo, non la parola ripetuta). Gli esempi sono quelli della regola -*l*/-*r*: -*l* davanti a *d*, *k*; -*r*
+  davanti a *o*, *a*.
+- **Cautela, scritta subito:** questo test non stabilisce la direzione. Δ > 0 vuol dire che la fine reale e l'inizio
+  della parola dopo si accordano; può essersi adattata la fine (sguardo avanti) o l'inizio della parola dopo. Per la
+  regola -*l*/-*r* la direzione "cambia la fine della prima" era stata mostrata con l'e3a02; qui è solo coerente con
+  quella. Nell'e3a93 invece la direzione è chiara (la parola ripetuta era già scritta).
