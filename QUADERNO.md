@@ -15313,3 +15313,32 @@ parola e il segno della parola vicina; nullo che tiene ferme le parole, 1.000 vo
 - Con lo scriba anglosassone (e3b58, +0,007) il quadro è coerente: **un legame fra la forma di una lettera e la parola
   vicina può nascere dalla scrittura a mano, ma la forza del raccordo del Voynich resta senza paragone** (quattro volte
   il caso più forte fra sette scribi). Il raccordo resta una delle proprietà più proprie del Voynich.
+
+## 4/10/2026 (mattina) — e3c61: il copista del cifrario Copiale fa l'opposto del Voynich: alterna gli omofoni fra parole accanto
+
+Preregistrato (`preregistrazioni/e3c61.md`). Copiale (manoscritto cifrato tedesco del Settecento, cifra omofonica),
+trascrizione e decifrazione di Knight, Megyesi e Schaefer (2011) dal sito dell'Università di Stoccolma (download
+autorizzato da Davide: `copiale-transcription.txt`, 242.736 byte; `copiale-deciphered.txt`, 89.504 byte; non
+committati). Chiave ricavata allineando le righe (97,5% di coerenza). Misura dell'e3c48 (50 rimescolamenti), pagine vere.
+
+| lettera (omofoni) | parole | K corretto 1 (IC 95%) | K corretto 2 / 3 |
+|---|---|---|---|
+| *e* (7 simboli) | 4.078 | **−0,119** (−0,204 – −0,036) | +0,024 / +0,020 |
+| *i* (3) | 2.821 | **−0,194** (−0,306 – −0,084) | −0,081 / −0,128 |
+| *a* (3) | 1.941 | **−0,229** (−0,380 – −0,079) | −0,115 / +0,053 |
+| *r* (2) | 2.075 | **−0,267** (−0,390 – −0,147) | −0,089 / +0,012 |
+| *n* (3) | 1.769 | −0,020 (−0,140 – +0,112) | −0,048 / −0,082 |
+| *u* (2) | 1.489 | **−0,476** (−0,669 – −0,297) | −0,169 / +0,148 |
+| tutte insieme | 14.173 | **−0,182** (−0,230 – −0,134) | −0,047 / −0,005 |
+| *Voynich ZL (e3c48)* | | *+0,131 (+0,106 – +0,156)* | *+0,093 / +0,086* |
+
+- **Esito preregistrato: nessuna scelta di omofoni ha la finestra.**
+- **Ma il risultato è più forte di un "niente":** in cinque lettere su sei l'accordo fra parole accanto è **negativo** e
+  chiaro (−0,12 – −0,48; insieme −0,18). Il copista, se nella parola prima ha usato un simbolo per una lettera, nella
+  parola dopo tende a usarne **un altro**: fa girare gli omofoni, come chi cifra per non lasciare ripetizioni (è la
+  pratica che rende utile una cifra omofonica). A 2 – 3 parole l'effetto quasi sparisce.
+- **Confronto con il Voynich:** il Voynich fa il contrario (ripete la stessa scelta per 2 – 3 parole, +0,13 accanto).
+  Quindi le scelte *k*/*t*, -*ey*/-*dy* del Voynich **non si comportano come gli omofoni di questo cifrario**. Non esclude
+  ogni cifrario: dice che un copista che sceglie fra omofoni nel modo di questo (alternando) lascerebbe il segno opposto.
+- Nota di metodo: il valore negativo non viene dalla correzione (il nullo rimescola le scelte fra le occorrenze della
+  stessa parola e non conosce l'ordine); è un'alternanza vera nella sequenza dei simboli.
