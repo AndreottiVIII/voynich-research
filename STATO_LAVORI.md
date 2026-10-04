@@ -195,7 +195,9 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     Generatori con la stessa misura (e3c29): nessuno ha l'accordo del Voynich (U2 +0,056 al massimo).
     **Indebolimento (e3c30):** dentro le sole righe lunghe (vicine e lontane dalle stesse righe) il Voynich ha R78 0,71–0,76
     ma con IC 0,26–1,17: non separato dalle lingue. Le righe lunghe del Voynich si accordano meno (+0,11 contro +0,17):
-    parte della forma piatta dell'e3c28 può venire dalla lunghezza delle righe. Prossimo: e3c31 (righe ≥9 parole).
+    parte della forma piatta dell'e3c28 può venire dalla lunghezza delle righe. e3c31 (righe ≥9 parole, lontane 5–6): Voynich
+    R56 0,61–0,73 (IC fino a 0,20), lingue al massimo 0,31: più piatto come stima, non separato. Accordo accanto dentro le
+    stesse righe +0,09–0,10, nella media delle lingue: le righe corte hanno più accordo (da capire, e3c32).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);

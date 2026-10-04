@@ -1411,7 +1411,12 @@ R78 0,71 – 0,76, ancora fra i più alti, ma con intervalli 0,26 – 1,17 che n
 soglia). Nelle righe lunghe l'accordo accanto del Voynich è più basso (+0,11 contro +0,17): siccome nell'e3c28 le coppie
 lontane venivano solo dalle righe lunghe, una parte della separazione può venire dalla lunghezza delle righe. Nel white
 paper la forma piatta va presentata come "stima più alta che nelle lingue, non dimostrata dentro le stesse righe", in
-attesa dell'e3c31.
+attesa dell'e3c31. **e3c31 (righe di almeno 9 parole, lontane 5–6):** Voynich R56 0,73 (IT) e 0,61 (ZL), contro al
+massimo 0,31 nelle lingue, ma con intervalli fino a 0,20: di nuovo più piatto come stima e non separato. Dentro le stesse
+righe l'accordo fra parole accanto del Voynich è +0,09 – +0,10, nella media delle lingue con accordo chiaro. **Formula
+prudente per il white paper:** il Voynich ha un accordo delle scelte di grafia fra parole vicine della stessa grandezza
+dell'accordo grammaticale delle lingue, che come stima dura più a lungo lungo la riga (a 3 parole ne resta il 60–70%,
+nelle lingue il 0–30%) ma senza una differenza dimostrata dentro le stesse righe; nessun generatore pubblicato lo ha.
 
 **Lezioni di metodo da riportare** (utili anche a chi legge): (1) confrontare con la media della pagina ai bordi della
 riga inganna, perché fine e inizio riga hanno forme proprie; (2) togliere le coppie "simili" guardando la parola intera
