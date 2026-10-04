@@ -15764,3 +15764,26 @@ Preregistrato (`preregistrazioni/e3c79.md`). Misura dell'e3c55 sulla scelta ſ/s
   finestra viene dal ripetere forme simili.
 - **Quadro aggiornato:** uno "stato" che vale anche fra parole molto diverse, come quello del Voynich, non si trova in
   nessuno scriba provato (sette scribi nordici e il copista del Copiale; i tedeschi del ReF sono in corso, e3c77).
+
+## 4/10/2026 (pomeriggio) — e3c80: le ripetizioni di parole vicine del Voynich non vengono dal genere; il vocabolario invece è normale
+
+Preregistrato (`preregistrazioni/e3c80.md`). Misura dell'e3b25 sui cinque manoscritti tecnici del ReF (testo intero) e
+sul Voynich ZL per sezione.
+
+| testo | identiche | a una modifica | tipi su 10.000 |
+|---|---|---|---|
+| Voynich ZL, tutto | **1,00%** | **3,87%** | 2.897 |
+| Voynich erbario / biologia / farmacia / stelle-ricette | 1,03% / 1,24% / 0,94% / 0,85% | 4,79% / 3,95% / 3,04% / 3,38% | 2.907 (erbario), 2.968 (ricette) |
+| Buch der Natur (piante e animali) | 0,14% | 0,23% | 2.938 |
+| Ulmer Wundarznei (ricette di chirurgia) | 0,15% | 0,29% | 2.613 |
+| Buch aller verbotenen Künste (magia, alchimia) | 0,03% | 0,40% | 2.545 |
+| Naturlehre Mainau | 0,06% | 0,36% | — |
+| Mondbuch (astrologia) | 0,05% | 0,59% | — |
+
+- **Esito preregistrato: nessun testo tecnico ripete come il Voynich.** I testi di ricette, natura e astrologia scritti a
+  mano nel Quattrocento ripetono la parola accanto da 7 a 30 volte meno del Voynich, e le parole quasi uguali da 7 a 17
+  volte meno.
+- Nel Voynich le ripetizioni sono quasi uguali in tutte le sezioni: non dipendono dal tipo di contenuto.
+- **Dato in più:** il numero di parole diverse ogni 10.000 del Voynich (2.897) è lo stesso dei testi tecnici tedeschi
+  (2.545 – 2.938). Il Voynich non ha un vocabolario povero: ha un vocabolario di grandezza normale e, in più, ripete la
+  parola vicina (o una quasi uguale) molto più del normale.

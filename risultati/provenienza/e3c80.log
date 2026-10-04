@@ -1,0 +1,10 @@
+Voynich ZL, tutto {"ripetizione": 0.009978790723549251, "quasi": 0.038731662718696755, "coppie": 28761, "tipi_su_10000": 2897, "parole": 34863}
+Voynich ZL, erbario {"ripetizione": 0.010349432450478523, "quasi": 0.04788732394366197, "coppie": 8986, "tipi_su_10000": 2907, "parole": 11474}
+Voynich ZL, biologia {"ripetizione": 0.012376237623762377, "quasi": 0.03952657436355516, "coppie": 5252, "tipi_su_10000": null, "parole": 6240}
+Voynich ZL, farmacia {"ripetizione": 0.009389671361502348, "quasi": 0.030432136335970784, "coppie": 1917, "tipi_su_10000": null, "parole": 2306}
+Voynich ZL, stelle / ricette {"ripetizione": 0.00851063829787234, "quasi": 0.0338254097407881, "coppie": 9870, "tipi_su_10000": 2968, "parole": 11586}
+F001 Buch der Natur (c. 1350 – 75) {"ripetizione": 0.0013979171035157615, "quasi": 0.0023003929838013993, "coppie": 14307, "tipi_su_10000": 2938, "parole": 17923}
+F120 Ulmer Wundarznei (ricette di chirurgia) {"ripetizione": 0.0015183039982005287, "quasi": 0.00288, "coppie": 17783, "tipi_su_10000": 2613, "parole": 21195}
+F137 Buch aller verbotenen Künste (magia, alchimia) {"ripetizione": 0.0002752697643690817, "quasi": 0.0040339122111308625, "coppie": 18164, "tipi_su_10000": 2545, "parole": 21953}
+F088 Naturlehre Mainau {"ripetizione": 0.0005620082427875609, "quasi": 0.003612281757977122, "coppie": 5338, "tipi_su_10000": null, "parole": 6628}
+F219 Mondbuch (astrologia) {"ripetizione": 0.0004934616333580064, "quasi": 0.005860415556739478, "coppie": 8106, "tipi_su_10000": null, "parole": 8897}
