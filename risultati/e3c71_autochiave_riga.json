@@ -1,0 +1,125 @@
+{
+ "misure": {
+  "Voynich ZL": {
+   "E_riga": 0.1926380423988358,
+   "E_capo": 0.007694702831251322,
+   "Q": 0.03994383837913121,
+   "inizio_max": {
+    "segno": "y",
+    "delta": 0.09723422517325449,
+    "z": 18.9041429468963
+   },
+   "inizi_evitati": [
+    "d",
+    "y",
+    "o",
+    "q",
+    "t",
+    "p"
+   ],
+   "ripetizione": 0.009978790723549251,
+   "quasi": 0.038731662718696755,
+   "tipi_su_10000": 2897
+  },
+  "latino (Plinio), sostituzione": {
+   "E_riga": 0.0451857301792418,
+   "E_capo": 0.03923726494316511,
+   "Q": 0.8683552260308631,
+   "inizio_max": {
+    "segno": null,
+    "delta": 0.0,
+    "z": 0.0
+   },
+   "inizi_evitati": [],
+   "ripetizione": 0.00019806686737442562,
+   "quasi": 0.001253001983919808,
+   "tipi_su_10000": 4258
+  },
+  "latino (Plinio), autochiave per riga": {
+   "E_riga": 0.4890668863497554,
+   "E_capo": 0.02857816604147989,
+   "Q": 0.058434064622077606,
+   "inizio_max": {
+    "segno": "'",
+    "delta": 0.021612771182971755,
+    "z": 11.858034175722306
+   },
+   "inizi_evitati": [],
+   "ripetizione": 0.0,
+   "quasi": 0.00036545891197661064,
+   "tipi_su_10000": 6415
+  },
+  "latino (Plinio), autochiave continua": {
+   "E_riga": 0.49003962496632014,
+   "E_capo": 0.42901604934581483,
+   "Q": 0.8754721607978143,
+   "inizio_max": {
+    "segno": null,
+    "delta": 0.0,
+    "z": 0.0
+   },
+   "inizi_evitati": [],
+   "ripetizione": 3.961337347488512e-05,
+   "quasi": 0.00036545891197661064,
+   "tipi_su_10000": 5817
+  },
+  "italiano (Alberti, Della Pittura), sostituzione": {
+   "E_riga": 0.061757153806849555,
+   "E_capo": 0.042963033311311,
+   "Q": 0.6956770295095096,
+   "inizio_max": {
+    "segno": null,
+    "delta": 0.0,
+    "z": 0.0
+   },
+   "inizi_evitati": [],
+   "ripetizione": 0.0001649620587264929,
+   "quasi": 0.0014990774907749078,
+   "tipi_su_10000": 2267
+  },
+  "italiano (Alberti, Della Pittura), autochiave per riga": {
+   "E_riga": 0.31229615655333753,
+   "E_capo": -0.016467350017315863,
+   "Q": -0.05272991572825642,
+   "inizio_max": {
+    "segno": "c",
+    "delta": 0.025104138561993363,
+    "z": 7.56041399520734
+   },
+   "inizi_evitati": [],
+   "ripetizione": 0.0,
+   "quasi": 0.0005765682656826568,
+   "tipi_su_10000": 4511
+  },
+  "italiano (Alberti, Della Pittura), autochiave continua": {
+   "E_riga": 0.32366971566847613,
+   "E_capo": 0.2901476178189037,
+   "Q": 0.8964311573594732,
+   "inizio_max": {
+    "segno": null,
+    "delta": 0.0,
+    "z": 0.0
+   },
+   "inizi_evitati": [],
+   "ripetizione": 0.0,
+   "quasi": 0.0005765682656826568,
+   "tipi_su_10000": 3851
+  }
+ },
+ "chiude_la_riga": true,
+ "altri_tratti_autochiave_per_riga": {
+  "latino (Plinio)": {
+   "inizi speciali": false,
+   "margine sinistro": false,
+   "ripetizioni": false,
+   "vocabolario": false
+  },
+  "italiano (Alberti, Della Pittura)": {
+   "inizi speciali": false,
+   "margine sinistro": false,
+   "ripetizioni": false,
+   "vocabolario": false
+  }
+ },
+ "esito": "l'autochiave per riga chiude la riga come il Voynich"
+}

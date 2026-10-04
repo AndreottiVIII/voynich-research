@@ -15543,3 +15543,28 @@ pagina per pagina (ZL 36.323, IT 36.438 scelte).
   si alternano un poco), non con un messaggio.
 - **Lettura:** se nelle scelte doppie ci fosse un messaggio alla Bacone che ricomincia a ogni pagina o riga, si vedrebbe
   con grande evidenza; non c'è. Un messaggio continuo che attraversa le pagine resta fuori dalla portata della prova.
+
+## 4/10/2026 (mattina) — e3c71: un'autochiave che riparte a ogni riga chiude la riga come il Voynich, ma rompe tutto il resto
+
+Preregistrato (`preregistrazioni/e3c71.md`). Simulazione su Plinio (latino) e *Della Pittura* di Alberti (italiano),
+30.000 parole in righe con le lunghezze del Voynich; stesse misure per il Voynich ZL nella stessa esecuzione.
+
+| testo | E nella riga | Q (a capo / riga) | inizio di riga: Δ max | margine: inizi evitati | identiche / a una modifica | tipi su 10.000 |
+|---|---|---|---|---|---|---|
+| **Voynich ZL** | 0,193 | **0,04** | **y +0,097** (z 18,9) | **d, y, o, q, t, p** | **1,00% / 3,87%** | **2.897** |
+| latino, sostituzione | 0,045 | 0,87 | — | nessuno | 0,02% / 0,13% | 4.258 |
+| latino, autochiave per riga | 0,489 | **0,06** | +0,022 | nessuno | 0,00% / 0,04% | 6.415 |
+| latino, autochiave continua | 0,490 | 0,88 | — | nessuno | 0,00% / 0,04% | 5.817 |
+| italiano, sostituzione | 0,062 | 0,70 | — | nessuno | 0,02% / 0,15% | 2.267 |
+| italiano, autochiave per riga | 0,312 | **−0,05** | +0,025 | nessuno | 0,00% / 0,06% | 4.511 |
+| italiano, autochiave continua | 0,324 | 0,90 | — | nessuno | 0,00% / 0,06% | 3.851 |
+
+- **Esito preregistrato: l'autochiave per riga chiude la riga come il Voynich** (Q 0,06 / −0,05 contro 0,88 / 0,90 della
+  stessa autochiave continua: la chiusura viene proprio dal ripartire a ogni riga).
+- **Ma non riproduce nessuno degli altri quattro tratti:** inizi di riga speciali quattro volte più deboli, nessun
+  inizio evitato sul margine (l'avvio è casuale: per evitarli servirebbe una regola sugli avvii), nessuna ripetizione di
+  parole vicine (l'autochiave cifra la stessa parola in modi diversi a seconda della lettera prima), vocabolario gonfio
+  (da 4.500 a 6.400 tipi contro 2.900). La giuntura poi è troppo forte (0,31 – 0,49 contro 0,19).
+- **Lettura:** un "avvio che riparte a ogni riga" è finora l'unico meccanismo che spiega la riga chiusa; un'autochiave
+  classica però è esclusa (il Voynich ripete parole e ha un vocabolario piccolo). Se c'è un meccanismo di riga, agisce
+  sulla scelta fra poche forme (come il raccordo), non sulla cifratura di ogni lettera.
