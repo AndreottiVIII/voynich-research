@@ -43,8 +43,8 @@ def main():
         ('nella riga', a['ZL']['K']['dentro']['K'], None, 'crimson'),
         ('oltre il salto\ndel disegno', s['ZL']['D'], s['ZL']['IC95'], '#e88'),
         ("oltre l'a capo", a['ZL']['D'], a['ZL']['IC95'], '#e88'),
-        ("a capo, senza\nprima parola", pp['D'], pp['IC95'], '#e88'),
-        ("fine paragrafo,\nsenza prima parola", fp['D'], fp['IC95'], '#e88')], 'accordo in più (normalizzato)')
+        ("a capo\n(senza 1ª parola)", pp['D'], pp['IC95'], '#e88'),
+        ("fine paragrafo\n(senza 1ª parola)", fp['D'], fp['IC95'], '#e88')], 'accordo in più (normalizzato)')
     pannello(axs[1], 'Ripetizione di parole (ZL)', [
         ('nella riga', r["a capo, ZL"]['eccesso_dentro'], None, 'tab:blue'),
         ('oltre il salto\ndel disegno', r['salto, ZL']['D'], r['salto, ZL']['IC95'], '#8ac'),
