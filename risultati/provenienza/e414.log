@@ -1,0 +1,36 @@
+giro  0: kappa 0.644 gamma 0.976 | JSD 0.0389 (0.0402) | fra le 100 0.4266 (0.4244) | tipi su parole 0.7716 (0.7559) | y+o nelle nuove 41 | scarto 0.062
+giro  1: kappa 0.666 gamma 0.985 | JSD 0.0403 (0.0402) | fra le 100 0.4378 (0.4244) | tipi su parole 0.7646 (0.7559) | y+o nelle nuove 40 | scarto 0.094
+giro  2: kappa 0.664 gamma 0.983 | JSD 0.0399 (0.0402) | fra le 100 0.4310 (0.4244) | tipi su parole 0.7684 (0.7559) | y+o nelle nuove 31 | scarto 0.049
+giro  3: kappa 0.668 gamma 0.987 | JSD 0.0427 (0.0402) | fra le 100 0.4214 (0.4244) | tipi su parole 0.7702 (0.7559) | y+o nelle nuove 36 | scarto 0.062
+giro  4: kappa 0.629 gamma 0.998 | JSD 0.0424 (0.0402) | fra le 100 0.4440 (0.4244) | tipi su parole 0.7549 (0.7559) | y+o nelle nuove 37 | scarto 0.138
+giro  5: kappa 0.597 gamma 0.986 | JSD 0.0381 (0.0402) | fra le 100 0.4270 (0.4244) | tipi su parole 0.7696 (0.7559) | y+o nelle nuove 29 | scarto 0.054
+giro  6: kappa 0.630 gamma 0.994 | JSD 0.0394 (0.0402) | fra le 100 0.4263 (0.4244) | tipi su parole 0.7709 (0.7559) | y+o nelle nuove 28 | scarto 0.059
+giro  7: kappa 0.642 gamma 1.002 | JSD 0.0402 (0.0402) | fra le 100 0.4375 (0.4244) | tipi su parole 0.7600 (0.7559) | y+o nelle nuove 31 | scarto 0.092
+giro  8: kappa 0.642 gamma 0.997 | JSD 0.0404 (0.0402) | fra le 100 0.4306 (0.4244) | tipi su parole 0.7653 (0.7559) | y+o nelle nuove 37 | scarto 0.044
+giro  9: kappa 0.639 gamma 1.000 | JSD 0.0413 (0.0402) | fra le 100 0.4345 (0.4244) | tipi su parole 0.7572 (0.7559) | y+o nelle nuove 30 | scarto 0.071
+kappa 0.642, gamma 0.997: JSD 0.0404, fra le 100 0.4306, scarto 0.044
+J1 chiave 6: decodifica True | pagella 15 riga False | AUC e231 0.599 e266 0.618
+J1 chiave 1: decodifica True | pagella 15 riga True | AUC e231 0.537 e266 0.577
+J1 chiave 8: decodifica True | pagella 15 riga True | AUC e231 0.615 e266 0.631
+J1 chiave 3: decodifica True | pagella 15 riga True | AUC e231 0.565 e266 0.582
+J1 chiave 4: decodifica True | pagella 15 riga True | AUC e231 0.529 e266 0.576
+J1 chiave 5: decodifica True | pagella 15 riga True | AUC e231 0.578 e266 0.590
+J1 chiave 2: decodifica True | pagella 16 riga False | AUC e231 0.592 e266 0.626
+J1 chiave 7: decodifica True | pagella 15 riga True | AUC e231 0.510 e266 0.547
+J1 chiave 9: decodifica True | pagella 16 riga True | AUC e231 0.567 e266 0.579
+J1 chiave 10: decodifica True | pagella 15 riga True | AUC e231 0.547 e266 0.555
+J1 chiave 11: decodifica True | pagella 15 riga True | AUC e231 0.606 e266 0.640
+J2 chiave 2: decodifica True | pagella 16 riga True | AUC e231 0.554 e266 0.594
+J2 chiave 1: decodifica True | pagella 15 riga False | AUC e231 0.608 e266 0.625
+J2 chiave 3: decodifica True | pagella 16 riga True | AUC e231 0.575 e266 0.597
+J1 chiave 12: decodifica True | pagella 16 riga False | AUC e231 0.548 e266 0.577
+J2 chiave 4: decodifica True | pagella 15 riga True | AUC e231 0.623 e266 0.667
+J2 chiave 5: decodifica True | pagella 15 riga True | AUC e231 0.551 e266 0.602
+J2 chiave 6: decodifica True | pagella 15 riga True | AUC e231 0.622 e266 0.653
+J2 chiave 8: decodifica True | pagella 15 riga False | AUC e231 0.584 e266 0.652
+J2 chiave 7: decodifica True | pagella 15 riga True | AUC e231 0.517 e266 0.564
+J2 chiave 11: decodifica True | pagella 15 riga False | AUC e231 0.605 e266 0.645
+J2 chiave 9: decodifica True | pagella 14 riga True | AUC e231 0.597 e266 0.614
+J2 chiave 10: decodifica True | pagella 15 riga True | AUC e231 0.592 e266 0.626
+J2 chiave 12: decodifica True | pagella 16 riga True | AUC e231 0.586 e266 0.625
+{"J1": [0.566, 0.591, 15.25, 9], "J2": [0.584, 0.622, 15.166666666666666, 9]}

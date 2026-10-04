@@ -14016,3 +14016,28 @@ provato su testi finti (memoria per lettere: lettere −0,0036, parole ≈ 0; me
   non toglie niente (il coefficiente è anzi leggermente positivo, mai significativo). La memoria si comporta come se si
   consumasse con la scrittura e non con il passaggio da una parola all'altra.
 - Per il generatore (altra chat): la memoria va fatta calare con i segni scritti, non con le parole.
+
+## 4/10/2026 — vz: e414, unioni con la giuntura probabile: 0,566 / 0,591 su 12 chiavi (v14)
+
+Chat del voynichizzatore. Preregistrato (`preregistrazioni/e414.md`). Isidoro XVII nel sacco, 12 chiavi per strato;
+riferimento la v13 sulle stesse chiavi. Risultati in `risultati/e414_giuntura_unioni.md`. Medie ± errore standard.
+
+| | AUC e231 | AUC e266 (min – max) | pagella | materie aggiunte | cancello | *y*+*o* (0,0004) | fra le 100 (0,424) | tipi su parole (0,756) | coppie viste altrove (0,221) |
+|---|---|---|---|---|---|---|---|---|---|
+| v13 | 0,582 ± 0,006 | 0,605 ± 0,006 (0,567 – 0,631) | 15,2 | 5,8 | 9/12 | 0,0010 | 0,425 | 0,771 | 0,226 |
+| **J1, giuntura probabile (soglia 0,05)** | **0,566 ± 0,010** | **0,591 ± 0,009** (0,547 – 0,640) | 15,2 | 6,2 | 9/12 | 0,0004 | 0,425 | 0,771 | 0,226 |
+| J2, + κ e γ su tre bersagli (0,642; 0,997) | 0,584 ± 0,009 | 0,622 ± 0,009 (0,564 – 0,667) | 15,2 | 5,4 | 9/12 | 0,0005 | 0,435 | 0,762 | 0,239 |
+
+- **J1 fa quello che doveva:** la coppia *y*+*o* torna a 0,0004 (previsto ≤ 0,0007) e il giudice forte scende di 0,014
+  (previsto fra 0,59 e 0,61); l'e231 di 0,016. Decodifica esatta 12 su 12. È la correzione della diagnosi sbagliata
+  dell'e413: la causa erano sì le unioni, ma serviva giudicare la giuntura per probabilità e non per sola presenza.
+- **J2 è peggio:** con due manopole (κ, γ) non si possono avere insieme la quota delle parole frequenti, i tipi su
+  parole e la JSD; il compromesso riporta su le parole frequenti (0,435) e con esse le coppie viste altrove (0,239), e
+  i giudici risalgono (0,584 / 0,622). **Per i giudici conta più la quota delle parole frequenti che la varietà della
+  pagina.** Previsione sbagliata; non si tiene. Il difetto sui tipi su parole (0,771 contro 0,756) resta dichiarato.
+- **Esito secondo la preregistrazione:** J1 conta (caratteristica tornata, nessun giudice peggiore) e diventa la
+  **v14**: **0,566 ± 0,010 e 0,591 ± 0,009**: tutti e due i giudici sotto 0,6 nella media di 12 chiavi; il giudice forte
+  è sotto la soglia di un errore standard, quindi "a 0,6", non "nettamente sotto" (4 chiavi su 12 stanno sopra 0,60).
+  Le 12 chiavi sono le stesse usate per scegliere fra J1 e J2: conferma su 12 chiavi nuove (13–24) in corso.
+- Pagella 15,2 su 17 raggiungibili (mancano sempre profilo pagina e, quasi sempre, omogeneità); materie aggiunte 6,2
+  su 8 (mancano sempre le scelte di riga a 12 classi); cancello della riga con 9 chiavi su 12.
