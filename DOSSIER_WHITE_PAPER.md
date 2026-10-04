@@ -1143,3 +1143,4 @@ conta poco, perché la loro giuntura è quasi zero.
   - Le ripetizioni immediate con l'inizio cambiato seguono il raccordo (e3a93: Δ +0,17, IC +0,10 – +0,23; a distanza 2 nessun effetto): *okeey qokeey* (dopo -y si aggiunge q), *qokar okar* (dopo -r si toglie). La ripresa di memoria corta e il raccordo lavorano insieme.
   - Anche quando una ripetizione cambia la fine, la fine nuova si accorda con la parola dopo (e3a94: Δ +0,28 immediate, +0,41 a distanza 2; *chor chol daiin*, *dal dar ol*). Qui la direzione non è stabilita (coerente con lo sguardo avanti dell'e3a02).
 - **Nessun generatore evita l'inizio uguale sul margine sinistro** (e3a95): Naibbe 0,93, Timm e Schinner 1,10 (non evitano), U2 1,38, U3 2,05 (ripetono), contro 0,51 del Voynich. Tratti che nessun generatore pubblicato ha: giuntura, chiusura della riga, ripresa di memoria corta nella riga, evitamento sul margine.
+  - Si ritrova con Takahashi (e3a96: Δ +0,17, IC +0,11 – +0,23; a distanza 2 +0,03).

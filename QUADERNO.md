@@ -11534,3 +11534,8 @@ delle righe rimescolato).
 - L'evitamento sul margine sinistro si aggiunge alla lista dei tratti che nessun generatore pubblicato ha: giuntura,
   chiusura della riga, ripresa di memoria corta nella riga, evitamento sul margine. Timm e Schinner ha la copia dalla
   riga sopra, ma senza l'evitamento.
+
+## 4/10/2026 (notte) — e3a96: la ripetizione che si adatta al raccordo si ritrova con Takahashi
+
+Preregistrato (`preregistrazioni/e3a96.md`). Stesso metodo dell'e3a93 sulla IT: coppie immediate 428, Δ **+0,172**
+(IC +0,112 – +0,233); a distanza 2: 338, +0,030 (IC −0,042 – +0,104). **Esito preregistrato: si ritrova.**
