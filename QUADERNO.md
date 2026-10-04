@@ -15817,3 +15817,23 @@ vicine ma lontane nella sequenza di scrittura (prime parole di una riga, ultime 
 stato si azzera a capo) e fa sembrare positivo A − C in tutti e due i casi. Secondo la regola, esperimento non fatto;
 numero e3c82 senza preregistrazione né risultati. Lacuna: non sappiamo se la parte breve dello stato passa l'a capo
 (quella lenta sì, e3c74 – e3c75).
+
+## 4/10/2026 (pomeriggio) — e3c83: al salto del disegno lo stato non è dimostrato né azzerato (pochi dati); errore di criterio ripetuto
+
+Preregistrato (`preregistrazioni/e3c83.md`; prova su testi finti a parità di distanza: distingue i due casi). K corretto
+per coppie della stessa scelta a distanza 1 – 3, media delle tre distanze.
+
+| | righe con salto | A: attraverso il salto | B: stesso tratto | C: righe senza salto |
+|---|---|---|---|---|
+| ZL | 616 | +0,078 (−0,021 – +0,171) | +0,115 (+0,055 – +0,177) | +0,102 (+0,085 – +0,120) |
+| IT | 636 | +0,076 (−0,027 – +0,172) | +0,148 (+0,093 – +0,202) | +0,100 (+0,085 – +0,115) |
+
+- **Esito preregistrato, alla lettera: "il salto del disegno azzera lo stato"** (in ZL e IT l'intervallo di A contiene 0).
+- **Ma la lettura giusta è "non si sa":** la stima attraverso il salto è positiva (+0,08, circa due terzi dello stesso
+  tratto) e l'intervallo è larghissimo (da −0,02 a +0,17): contiene sia 0 sia il valore senza salto. Le coppie a cavallo
+  di un disegno sono poche.
+- **Errore di criterio ripetuto, dichiarato:** nell'e3c54 avevo scritto come lezione che "nessun accordo chiaro"
+  (intervallo che tocca 0) non vuol dire "manca", e che per dire "manca" serve un intervallo sotto il valore di
+  riferimento. Il criterio dell'e3c83 ha rifatto lo stesso sbaglio chiamando "azzera" un intervallo che contiene 0.
+  D'ora in poi ogni criterio "manca / azzera" chiederà anche che l'estremo alto stia sotto metà del riferimento.
+- La vecchia lettura dell'e3b67 ("la memoria passa il salto") non è confermata né smentita.
