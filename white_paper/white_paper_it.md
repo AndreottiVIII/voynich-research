@@ -715,6 +715,10 @@ Ogni esperimento ha:
 Rifacendo un esperimento si ottengono gli stessi numeri. Il repository è al momento privato; i dati protetti da diritto
 d'autore non vi sono inclusi e vanno riscaricati dalle fonti (Appendice D).
 
+**Calcolo impiegato.** La ricerca si è svolta in una conversazione continua con Claude, che ha elaborato circa 2,8
+miliardi di token. Quasi tutti (circa il 99% dove misurato in dettaglio) sono il contesto della conversazione, riletto a
+ogni passo; il testo e il codice effettivamente scritti sono qualche milione di token.
+
 ---
 
 ## Appendice A. Gli esperimenti dietro le scoperte principali
