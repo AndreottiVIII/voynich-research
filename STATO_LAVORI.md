@@ -237,6 +237,8 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     (parole quasi tutte nuove). **e3c54:** finestra uguale in lingua A e B, chiara in biologia, farmacia, ricette; incerta
     (poche parole) in erbario e astronomia. **Quadro:** la finestra è di tutto il manoscritto e riguarda quale parola si
     scrive, non come si traccia la lettera; non si trova in scribi veri, lingue artificiali, generatori.
+    **e3c55:** l'accordo vale quasi uguale fra parole molto diverse (+0,09) e simili (+0,13): è uno "stato" di 2 – 3 parole,
+    non copia di parole vicine (Timm e Schinner, che copia, ha accordo solo fra parole simili).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
