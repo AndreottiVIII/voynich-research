@@ -12017,3 +12017,21 @@ scritte fra le due parole.
   lettere, chi scrive in lingua A per circa 7.
 - Va con altri tratti per cui B è "più legata" lungo la riga (giuntura doppia, e393). Domanda aperta: è una differenza di
   scriba (le mani di B) o del sistema B? Le mani si possono separare dentro B (mani 2, 3, 5).
+
+## 4/10/2026 (notte) — e3b22: la mano 3 in lingua A ha troppo poco testo; le tre mani di B hanno tutte la memoria lunga
+
+Preregistrato (`preregistrazioni/e3b22.md`). Mezza vita in lettere della memoria delle scelte, per mano e lingua.
+
+| gruppo | pagine | coppie a 0 lettere | mezza vita in lettere |
+|---|---|---|---|
+| mano 1 (A) | 112 | 1.298 | 5–9 |
+| mano 2 (B) | 46 | 3.194 | 20–29 |
+| mano 3 in A | **2** | 54 | – |
+| mano 3 in B | 28 | 2.806 | 10–14 |
+| mano 5 (B) | 7 | 315 | 20–29 |
+
+- **Esito preregistrato: dati insufficienti** (la mano 3 ha solo 2 pagine in lingua A).
+- **Quello che si vede:** tutte e tre le mani che scrivono in lingua B (2, 3, 5) hanno una memoria lunga (mezza vita da 10
+  a 29 lettere), la mano 1 che scrive in A una corta (5–9). Tre scribi diversi con la stessa memoria lunga in B fanno
+  pensare a una proprietà della lingua B (o del tipo di testo) più che di un singolo scriba; ma siccome A ha una sola
+  mano, non si può escludere che sia la mano 1 a essere diversa.
