@@ -336,3 +336,4 @@ Dettagli e numeri nel `QUADERNO.md` (e373–e3a02); tutto replicato con la trasc
   - (e3b18) La memoria è separata per ogni variante: un sh richiama sh, un qo richiama qo, ma una scelta non spinge le altre. Nel generatore: una memoria per ciascuna variante, non un unico stato.
   - (e3b19) Hanno memoria corta anche le gallows k/t; non ce l'ha il numero di i (ain/aiin/aiiin), che va lasciato senza memoria.
   - (e3b20) La memoria delle scelte si consuma con le lettere scritte, non solo con le parole: nel generatore, farla decadere col numero di segni scritti.
+  - (e3b31) Le parole uniche nascono spesso come variazione (a una modifica) di una parola delle 4 precedenti nella stessa riga: nel generatore, le forme nuove vanno create soprattutto modificando una parola appena scritta.

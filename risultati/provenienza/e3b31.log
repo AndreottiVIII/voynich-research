@@ -1,0 +1,41 @@
+{
+ "classi": {
+  "unica": {
+   "parole": 2233,
+   "eccesso": 0.011016354394634595,
+   "eccesso_relativo": 0.7150923158008811,
+   "IC95_relativo": [
+    0.2664625942615204,
+    1.2904410889244633
+   ]
+  },
+  "rara": {
+   "parole": 2735,
+   "eccesso": 0.02109194586960213,
+   "eccesso_relativo": 0.40251937650009606,
+   "IC95_relativo": [
+    0.19677387639271915,
+    0.6253344019623981
+   ]
+  },
+  "media": {
+   "parole": 3597,
+   "eccesso": 0.03667313239750311,
+   "eccesso_relativo": 0.30814609296571693,
+   "IC95_relativo": [
+    0.1952348036631153,
+    0.4254683055356083
+   ]
+  },
+  "frequente": {
+   "parole": 6426,
+   "eccesso": 0.019155093029598717,
+   "eccesso_relativo": 0.07957197106757175,
+   "IC95_relativo": [
+    0.029493686432158217,
+    0.1315564676829999
+   ]
+  }
+ },
+ "esito": "anche la memoria corta favorisce le parole rare"
+}
