@@ -1291,7 +1291,8 @@ cioè un tratto da lingua. **Primo tratto che distingue (e3b92):** il consumo co
 (+0,066) e debole o assente nell'accordo grammaticale delle lingue (media +0,015, nessun intervallo sopra 0): una parte
 della memoria del Voynich sembra legata al gesto di scrivere. **Secondo tratto (e3b95 descrittivo, e3b96 su dati nuovi):**
 la forma del calo con la distanza: nelle lingue l'accordo è concentrato fra parole accanto (rapporto d3/d1 0,13–0,40),
-nel Voynich è quasi piatto fra 1 e 3 parole (0,79, IC 0,63 – 0,96, Takahashi). Figura `profilo_distanza.png`. La
+nel Voynich è quasi piatto fra 1 e 3 parole (0,79, IC 0,63 – 0,96, Takahashi; togliendo anche le parole simili a
+due modifiche, e3b97, 0,66 Takahashi e 0,64 ZL, contro 0,16 dell'italiano: è il valore prudente da citare). Figura `profilo_distanza.png`. La
 "memoria" del Voynich non si comporta come un accordo dentro il sintagma; cautela: solo quattro lingue provate.
 
 **Formula per il white paper:** il Voynich ha, oltre alla catena di segni per riga e allo spazio non lessicale, una
