@@ -12924,3 +12924,48 @@ pagina con tutte e due le varianti. Conteggio (classi *qo*/*o*, *k*/*t*, *sh*/*c
   Correzione della lettura: la differenza fra le mani non è dimostrata. Da rifare con un nullo che rimescoli fra le
   pagine della stessa mano (e3b62): la differenza vicine − lontane è calcolata dentro la stessa riga, quindi le
   differenze fra pagine si cancellano e il nullo può essere più largo.
+
+## 4/10/2026 (notte) — e3b62: con un nullo più sensibile la memoria c'è in tutte le mani, uguale; nello scriba vero solo per þ/ð a inizio parola
+
+Preregistrato (`preregistrazioni/e3b62.md`). Nullo largo: varianti rimescolate fra le occorrenze della stessa parola
+coperta in tutto lo strato (mano o testo), atteso delle unità ricalcolato a ogni rimescolamento; coppie simili decise
+sulle parole coperte. Codice provato su pagine finte con vocabolario vario (senza memoria p 0,21–0,94; con memoria
+nullo largo +0,119 contro +0,008 del nullo per pagina).
+
+| gruppo | coppie vicine | quota rimescolabile | M | M nullo | effetto (insieme) | z | p |
+|---|---|---|---|---|---|---|---|
+| Voynich ZL, mano 1 | 4.438 | 0,67 | +0,099 | +0,011 | **+0,089** | +2,9 | 0,002 |
+| Voynich ZL, mano 2 | 7.114 | 0,81 | +0,126 | +0,035 | **+0,091** | +4,2 | < 0,001 |
+| Voynich ZL, mano 3 | 9.038 | 0,74 | +0,102 | +0,023 | **+0,079** | +4,5 | < 0,001 |
+| Voynich ZL, tutto | 21.620 | 0,73 | +0,110 | +0,025 | **+0,086** | +7,1 | < 0,001 |
+| Voynich IT, tutto | 21.918 | 0,73 | +0,101 | +0,025 | **+0,076** | +6,3 | < 0,001 |
+| varianti naturali, insieme | 5.098 | 0,75 | −0,015 | −0,043 | +0,028 | +1,3 | 0,090 |
+| – Hatton, þ/ð a inizio parola | 2.090 | 0,81 | +0,124 | +0,021 | **+0,102** | +2,2 | 0,007 |
+| – Hatton, þ/ð dentro la parola | 939 | 0,10 | −0,329 | −0,307 | −0,022 | −0,6 | 0,72 |
+| – Hatton, i/y | 1.279 | 1,00 | −0,008 | −0,027 | +0,020 | +0,6 | 0,28 |
+| – Secreta Alberti, i/y | 513 | 0,99 | −0,052 | −0,022 | −0,030 | −0,6 | 0,71 |
+| – NT fiammingo, i/y | 277 | 1,00 | +0,027 | +0,001 | +0,027 | +0,2 | 0,43 |
+| Naibbe | 18.714 | 0,82 | +0,015 | +0,003 | +0,011 | +0,9 | 0,18 |
+| U2 | 10.165 | 0,64 | +0,031 | +0,018 | +0,013 | +0,9 | 0,20 |
+| U3 | 9.606 | 0,64 | +0,004 | +0,001 | +0,003 | +0,2 | 0,43 |
+| Timm e Schinner | 11.219 | 0,82 | +0,050 | +0,027 | +0,024 | +1,3 | 0,087 |
+
+Classi del Voynich ZL (tutto): *qo*/*o* +0,095, *k*/*t* +0,080, *sh*/*ch* +0,079, -*ey*/-*dy* +0,101, tutte con p ≤ 0,001.
+Eterogeneità fra le mani 1, 2, 3: Q = 0,20, p = 0,90.
+
+- **Esiti preregistrati:** mani, **in tutte le mani**; Voynich ZL e IT, **memoria oltre le parole**; varianti naturali
+  (insieme), **non si vede**; generatori, **nessuna memoria** tutti e quattro.
+- **Correzioni che ne seguono:**
+  1. **La differenza fra le mani dell'e3b59/e3b60 era un difetto del metodo** (nullo per pagina poco sensibile nella
+     mano 1, verifica dell'e3b61): con il nullo largo le tre mani hanno la stessa memoria (+0,08/+0,09). Ritiro la
+     lettura "memoria degli scribi B, non della mano 1" e la nota relativa nel passaggio al voynichizzatore.
+  2. **I numeri del Voynich dell'e3b54/e3b56 erano sottostimati** (stesso motivo): la memoria oltre le parole è circa
+     +0,08, con tutte le quattro scelte e tutte e due le trascrizioni.
+  3. **Lo scriba vero:** la sua memoria per þ/ð a inizio parola resta (+0,10, come il Voynich), ma le varianti i/y non ne
+     mostrano in nessuno dei tre testi, e l'insieme naturale non è più significativo (p 0,09). L'esito "memoria anche
+     negli scribi veri" dell'e3b54/e3b56 va quindi ridimensionato a: **uno scriba vero può avere questa memoria per una
+     sua scelta (þ/ð a inizio parola), non per tutte**.
+- **Lettura d'insieme (provvisoria):** nel Voynich la memoria corta delle scelte è forte e uniforme: tutte e quattro le
+  scelte, tutte le mani, tutte e due le trascrizioni; nessun generatore la ha. Nello scriba anglosassone c'è per una
+  scelta su tre. Con un solo scriba vero non si può dire se l'uniformità del Voynich sia insolita; si può dire che la
+  memoria corta, da sola, non è un segno di testo artificiale.
