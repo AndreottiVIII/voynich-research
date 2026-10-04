@@ -13778,3 +13778,33 @@ si consuma con le lettere +0,042; con le parole +0,008, intervallo che tocca 0).
   consumo con le lettere: i due tratti insieme restano, nel corpus, solo del Voynich.
 - Con l'e3b92 (classi scelte a mano, cinque testi, media +0,015) sono ora 21 misure su lingue, nessuna vicina al
   Voynich.
+
+## 4/10/2026 (notte) — e3c01: le alternanze dentro la parola, scelte dai dati, hanno memoria solo nel Voynich (e nel Corano)
+
+Preregistrato (`preregistrazioni/e3c01.md`). Finora le scelte del Voynich le avevo indicate io. Qui una regola uguale
+per tutti sceglie dai dati le tre alternanze di lettere **dentro** la parola (né prima né ultima lettera) con più coppie
+minime; poi la memoria finale (e3b62 + e3b70). Voynich IT e ZL e i 26 testi grandi del corpus. Codice provato su testi
+finti (memoria +0,082; senza memoria +0,006).
+
+| testo | alternanze scelte dalla regola | memoria (IC 95%) |
+|---|---|---|
+| Voynich IT | *k*/*t*, *a*/*o*, *ch*/*e* | **+0,056** (+0,027 – +0,088) |
+| Voynich ZL | *k*/*t*, *a*/*o*, *ch*/*e* | **+0,044** (+0,011 – +0,076) |
+| arabo, Corano (con le vocali) | كُ/هُ, نَ/هَ, لَ/لُ | **+0,064** (+0,018 – +0,112) |
+| greco NT | ο/ω, α/ε, ι/υ | +0,010 (+0,000 – +0,018) |
+| gli altri 23 testi | (vocali, *r*/*t*, *n*/*s*, …) | fra −0,014 e +0,005, tutti con intervallo che tocca 0 (tagalog −0,014, sotto 0) |
+
+- **Esito preregistrato: le alternanze interne hanno memoria solo nel Voynich** (un solo testo, il Corano, supera la
+  soglia; la regola ne ammetteva al più due).
+- La regola, senza sapere niente del Voynich, sceglie per prima *k*/*t*, una delle quattro scelte che avevo indicato a
+  mano, e trova memoria in tutte e due le trascrizioni. È una conferma che la memoria del Voynich non dipende da come
+  avevo scelto le classi.
+- **Il Corano è un caso da capire, non da nascondere.** Le sue alternanze sono lettere con vocale prima del suffisso
+  finale: كُم/هُم (-*kum*/-*hum*, "vostro"/"loro"), نَ/هَ. È la **persona del discorso** (si parla a "voi" o di "loro")
+  che resta la stessa per più versetti: grammatica del discorso, non abitudine di scrittura. Il suo accordo fra parole
+  accanto è quasi nullo (R 4,0, non interpretabile), cioè la memoria del Corano è a media distanza e non fra parole
+  vicine. Prossimo passo (e3c03): Corano e Voynich con gli altri due tratti, con le stesse classi.
+- Il Voynich con queste classi automatiche ha R 0,55 (IT) e 0,52 (ZL), un po' meno che con le classi scelte a mano
+  (0,64–0,79): ne tengo conto nel criterio dell'e3c03.
+- Lingue senza vocali segnate (arabo moderno, ebraico, Avicenna) non mostrano niente: per vedere la persona del
+  discorso dentro la parola serve una scrittura che la segni in quel posto.

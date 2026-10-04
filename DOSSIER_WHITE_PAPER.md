@@ -1298,7 +1298,11 @@ due modifiche, e3b97, 0,66 Takahashi e 0,64 ZL, contro 0,16 dell'italiano: è il
 Volapük (lingua artificiale, -*s* plurale) arriva a 0,62 (0,51 – 0,75) e Plinio a 0,45: la forma piatta è rara nelle
 lingue, non impossibile (una scelta che dura per tutta una frase, come il plurale, può darla). **Consumo con le lettere
 sugli stessi 16 testi (e3b99):** mediana +0,0005 contro +0,066 del Voynich, un solo testo sopra 0 (Vulgata +0,024); il
-Volapük no (−0,003). Forma piatta e consumo con le lettere insieme, nel corpus, si trovano solo nel Voynich.
+Volapük no (−0,003). Forma piatta e consumo con le lettere insieme, nel corpus, si trovano solo nel Voynich. **Terzo
+tratto, con classi scelte dai dati (e3c01):** una regola uguale per tutti sceglie le tre alternanze di lettere dentro la
+parola con più coppie minime; nel Voynich trova da sola *k*/*t*, *a*/*o*, *ch*/*e*, con memoria (+0,056 IT, +0,044 ZL);
+in 25 testi su 26 del corpus non c'è memoria (fra −0,014 e +0,010). L'eccezione è il Corano con le vocali (+0,064):
+alternanze -*kum*/-*hum* ecc., cioè la persona del discorso che dura per più versetti (grammatica del discorso).
 
 **Formula per il white paper:** il Voynich ha, oltre alla catena di segni per riga e allo spazio non lessicale, una
 memoria corta delle scelte di grafia forte e uniforme (tutte le scelte, tutte le mani, due trascrizioni), che prosegue
