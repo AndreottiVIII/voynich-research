@@ -15901,3 +15901,41 @@ peggiore (+0,010, meno di due errori standard). La v20 resta migliore su righe (
 contro 18 su 24) e pagella (15,7 contro 15,0). La regola scritta prima (tornare a discuterne se peggiore di oltre 0,015)
 non scatta. **Numeri da citare per la v20: 0,560 ± 0,005 e 0,607 ± 0,005 su 24 chiavi** (non più 0,554 / 0,599).
 README pubblico corretto di conseguenza.
+
+## 4/10/2026 — vz: e418, difetto nella disposizione (conteggi delle scelte di riga mai inizializzati, v12–v20) e v21
+
+Preregistrazione `preregistrazioni/e418.md`. Risultati: `risultati/e418_conti_scelte.md`,
+`risultati/e409b_messaggio_nel_sacco_v21f1_chiavi_1_12.md` e `..._13_24.md`.
+
+**Errore mio, trovato dalla chat del sito leggendo il codice pubblico.** Nel commit dell'e412 le tre righe che
+riempiono i conteggi delle cinque scelte di grafia per riga sono finite dopo il `return` di `cambio_meta`: mai
+eseguite. Da v12 a v20 i termini `scelte` e `scelte_sopra` della disposizione partivano da conteggi a zero. Le misure
+pubblicate di quelle versioni restano vere per quei programmi; era sbagliata la descrizione di che cosa fa il termine.
+Correzione dietro il parametro `conti_iniziali` (senza, il codice riproduce v12–v20).
+
+**Statistiche di riga** (senza messaggio, due chiavi di regolazione): varianza per riga Voynich 1,103; v20 com'è 1,200;
+corretta (F1, stessi pesi) 1,127. r fra righe consecutive: Voynich 0,207; v20 0,220; F1 0,196. Scarto massimo dai
+bersagli: v20 0,088, F1 0,022: la regolazione si ferma al giro 0, quindi **F2 coincide con F1** (i pesi dell'e410, regolati
+quando il termine funzionava, vanno ancora bene).
+
+| 24 chiavi | v20 | v21 (= F1) | differenza appaiata |
+|---|---|---|---|
+| giudice e231 | 0,560 ± 0,005 | 0,554 ± 0,004 | −0,006 ± 0,004 |
+| giudice e266 | 0,607 ± 0,005 | 0,601 ± 0,005 | −0,006 ± 0,006 |
+| pagella (su 18) | 15,7 | 16,0 | |
+| estese (su 8) | 5,5 | 5,4 | |
+| cancello della riga | 24 su 24 | 24 su 24 | |
+| rilettura esatta, chiave sbagliata respinta | 24, 24 | 24, 24 | |
+| A | 1,033 | 1,028 | |
+
+Chiavi 1–12: righe oltre 1,25 volte 11,6%, oltre 1,5 volte 2,8%; sacchi identici alla v20 12 su 12. Nella pagella
+l'omogeneità è mancata 1 volta su 24 (v20: 6 su 24).
+
+**Previsioni.** v20 con varianza per riga vicina a 1 (termine quasi spento): **no**, è 1,20: il termine rotto non era
+spento, premiava lo sbilanciamento creato dagli scambi e gonfiava la varianza oltre il Voynich. F1 con varianza più
+alta della v20: **no**, più bassa e più vicina al bersaglio. Regolazione entro il 5%: sì (già al giro 0). Giudici entro
+±0,010: sì. Cancello almeno 22: sì. A almeno 1,008: sì.
+
+**Lettura, con i criteri scritti prima.** (a) giudici non peggiori di oltre 0,010: sì (un filo meglio, dentro
+l'errore); (b) cancello 24 su 24; (c) pagella 16,0; (d) larghezze nei limiti; (e) rilettura e sacchi: sì.
+**La candidata passa: la v21 può sostituire la v20.** La pubblicazione la decide Davide.

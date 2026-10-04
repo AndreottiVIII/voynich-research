@@ -1,0 +1,5 @@
+Voynich                      varianza per riga 1.1027 | r righe consecutive 0.2070 | A 1.0465 | somiglianza a distanza 2 0.2198 | S1 0.5312
+v20 com'e'                   varianza per riga 1.1998 | r righe consecutive 0.2202 | A 1.0298 | somiglianza a distanza 2 0.2223 | S1 0.5175
+F1 (corretto, stessi pesi)   varianza per riga 1.1265 | r righe consecutive 0.1964 | A 1.0332 | somiglianza a distanza 2 0.2215 | S1 0.5404
+migliore: giro 0, scarto 0.022, converge True
+F1 {'varianza per riga': 1.148999525078116, 'r righe consecutive': 0.1921433036619423, 'A': 1.0245465696534828, 'somiglianza a distanza 2': 0.22180021907338907, 'S1': 0.50617465411224, 'caratteri oltre 1,25': 0.11569180951217141, 'caratteri oltre 1,5': 0.02760779196740383, 'A almeno 1': 12, 'sacchi identici': 12, 'rilettura esatta': 12}
