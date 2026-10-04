@@ -14114,3 +14114,23 @@ bene memoria per lettere e per parole, senza il difetto della regressione linear
 - **Da notare, non spiegato:** nel Voynich, a parità di lettere, una parola in più in mezzo dà un poco **più** accordo
   (+0,008 – +0,0115; significativo solo con IT e i bordi). Nelle lingue no. Potrebbe dire che le parole molto corte non
   "consumano" come le altre; resta un'osservazione.
+
+## 4/10/2026 — vz: la v14 su 12 chiavi nuove: 0,584 / 0,609; su 24 chiavi 0,575 / 0,600
+
+Conferma annunciata nella voce dell'e414: Isidoro XVII nel sacco con la v14, chiavi "e409-13" … "e409-24", mai usate per
+scegliere. Dati in `risultati/e409b_messaggio_nel_sacco_v14_chiavi_13_24.md`. Medie ± errore standard.
+
+| v14 | AUC e231 | AUC e266 (min – max) | chiavi con l'e266 a 0,60 o meno | pagella | cancello | decodifica |
+|---|---|---|---|---|---|---|
+| chiavi 1–12 (usate per scegliere J1) | 0,566 ± 0,010 | 0,591 ± 0,009 (0,547 – 0,640) | 8 su 12 | 15,2 | 9/12 | 12/12 |
+| **chiavi 13–24 (nuove)** | **0,584 ± 0,007** | **0,609 ± 0,005** (0,589 – 0,631) | 5 su 12 | 15,2 | 10/12 | 12/12 |
+| tutte le 24 | 0,575 ± 0,006 | 0,600 ± 0,005 | 13 su 24 | 15,2 | 19/24 | 24/24 |
+
+- **Le prime 12 chiavi erano un po' ottimiste**, come temuto: sulle chiavi nuove la v14 fa 0,584 / 0,609. La stima
+  senza effetto di scelta è quella delle chiavi nuove; quella su 24 chiavi è 0,575 / 0,600.
+- **Stato rispetto all'obiettivo dei giudici (≤ 0,6):** e231 sotto (0,58); **e266 a 0,60–0,61**, cioè sulla soglia, non
+  sotto. Una chiave su due dà un manoscritto sotto 0,60, una su due sopra.
+- Il miglioramento rispetto alla v13 (0,605 sulle chiavi 1–12) resta entro l'errore: la v14 si tiene perché toglie un
+  difetto vero (*y*+*o*), non perché abbassi il giudice in modo dimostrato.
+- Pagella 15,2 su 17 raggiungibili (mancano sempre profilo pagina e gradiente mal posto, e in 10 chiavi su 12
+  l'omogeneità); materie aggiunte 5,8 su 8; cancello della riga in 19 chiavi su 24; testo esatto 24 su 24.
