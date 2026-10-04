@@ -407,3 +407,8 @@ Misure con il metodo finale (vedi DOSSIER, sezione 15.13). Da imitare:
     (−33 punti; prima del disegno no: può anche essere un effetto di lettura), e un po' all'ultima
     parola della riga (−6); le altre scelte no. A inizio riga: più *qo* (+10) e *sh* (+9), meno *k* (−15, cioè più *t*).
     La deriva lungo la riga è uguale per tutte le scelte. Figura `risultati/figure/deriva_riga.png`.
+18. **Correzione dei valori della memoria (e3c26 – e3c31), che sostituisce i numeri dei punti 1 e 14:** misurata nel modo
+    più pulito (senza prima e ultima parola della riga, atteso dalla stessa parola, vicine e lontane dentro le stesse
+    righe), la memoria vale circa +0,09 – +0,10 fra parole accanto (righe di almeno 9 parole), cioè 3–4 punti percentuali
+    fra vicine (2–3) e lontane (6–10); sta soprattutto in *qo*/*o* e -*ey*/-*dy*. A 3 parole ne resta circa il 60–70%. Nelle
+    righe corte l'accordo misurato è più alto (forse preferenze di pagina: in verifica).
