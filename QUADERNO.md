@@ -13454,3 +13454,24 @@ preferenza della parola: 0,68 contro 0,69).
   comportamento del raccordo (la parola copiata si accorda con il vicino nuovo, e392, e394).
 - **Quadro:** la copia dalla riga sopra riguarda la **forma** della parola (che parola scrivere), non le sue **scelte**
   libere, che dipendono da chi scrive in quel momento.
+
+## 4/10/2026 (notte) — e3b86: la stessa parola si scrive allo stesso modo nella stessa sessione più che fra pagine
+
+Preregistrato (`preregistrazioni/e3b86.md`). D = accordo delle scelte fra occorrenze della stessa parola (tipo coperto)
+− accordo fra parole diverse (non a una modifica): dentro il paragrafo (righe a distanza 2 o più, così la memoria corta
+pesa poco) e fra pagine della stessa mano. Contrasto con bootstrap per pagina. Codice provato su pagine finte (grafia
+del momento: +0,17 e 0,00; preferenza fissa: +0,16 e +0,16; nessuna: 0 e 0); prima della prova corretto il calcolo fra
+pagine, che mescolava classi diverse.
+
+| trascrizione | pagine | D dentro il paragrafo | D fra pagine | contrasto (IC 95%) | coppie stessa parola dentro |
+|---|---|---|---|---|---|
+| ZL | 206 | +0,085 | +0,040 | **+0,045** (+0,015 – +0,059) | 14.981 |
+| IT | 205 | +0,085 | +0,039 | **+0,046** (+0,013 – +0,062) | 14.575 |
+
+- **Esito preregistrato: grafia della parola legata al momento.** Due occorrenze della stessa parola hanno la stessa
+  scelta 8,5 punti più spesso di due parole diverse se stanno nello stesso paragrafo, solo 4 punti più spesso se stanno in
+  pagine diverse. Metà della "grafia propria" di una parola è fissa, metà dipende dalla sessione di scrittura.
+- **Quadro delle scelte di grafia:** dipendono (1) dai segni vicini (catena, raccordo), (2) dalla memoria corta delle
+  parole appena scritte, che si consuma con le lettere, (3) da un'abitudine di sessione su come scrivere ciascuna parola,
+  (4) da una debole preferenza fissa della parola. La copia dalla riga sopra non aggiunge nulla oltre il paragrafo
+  (e3b85). Va d'accordo con l'e376 (l'inventiva è della sessione) e con la deriva del vocabolario.

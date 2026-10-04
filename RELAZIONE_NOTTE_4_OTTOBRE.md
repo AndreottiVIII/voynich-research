@@ -264,7 +264,10 @@ scritto nella seconda parte. Le dico subito.
    confrontare.
 7. **La copia dalla riga sopra riguarda la forma, non le scelte**: quando lo scriba riprende una parola dalla riga sopra,
    le scelte di grafia (*qo*/*o* ecc.) le rifà secondo la memoria del momento, non le copia dalla fonte (e3b84, e3b85).
-8. **Le etichette ripartono da capo** nelle scelte, anche se si copiano la forma (e3b48); quando un'etichetta varia la
+8. **La stessa parola si scrive allo stesso modo nella stessa sessione**: dentro un paragrafo due occorrenze della
+   stessa parola hanno la stessa scelta 8,5 punti più spesso di due parole diverse; fra pagine diverse solo 4 punti
+   (e3b86, con tutte e due le trascrizioni). Metà della "grafia propria" di una parola è un'abitudine del momento.
+9. **Le etichette ripartono da capo** nelle scelte, anche se si copiano la forma (e3b48); quando un'etichetta varia la
    precedente, la modifica cade di rado sulle scelte (pochi dati, e3b74).
 
 ## Come ci sono arrivato (con i passi sbagliati)

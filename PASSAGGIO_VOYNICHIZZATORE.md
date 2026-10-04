@@ -372,3 +372,4 @@ Misure con il metodo finale (vedi DOSSIER, sezione 15.13). Da imitare:
 6. Da conservare come prima: crescita di -*ey* scendendo nella pagina, apertura del paragrafo con *p*/*f*, evitamento
    dell'inizio uguale alla riga sopra, copia dalla riga sopra (tutte replicate con Takahashi).
 7. (e3b84, e3b85) **Quando si riprende una parola dalla riga sopra, se ne copia la forma ma non le scelte**: le scelte (qo/o, k/t, sh/ch, -ey/-dy) della parola copiata vanno rifatte con la memoria del momento (come il raccordo con il vicino nuovo).
+8. (e3b86) **Grafia di sessione:** dentro un paragrafo la stessa parola tende a ripetere la stessa scelta (8,5 punti in più rispetto a parole diverse), fra pagine molto meno (4 punti). Nel generatore: per ogni paragrafo, una piccola preferenza di grafia per ciascuna parola, tirata a sorte all'inizio del paragrafo, oltre alla memoria corta.
