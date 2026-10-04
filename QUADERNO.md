@@ -15037,3 +15037,31 @@ dichiarata). Misura dell'e3c48 (corretta per la distorsione, 50 rimescolamenti),
   parola, senza "trascinamento" fra parole vicine. La finestra del Voynich **non** è quindi un'abitudine generica di chi
   scrive a mano, almeno non di questi scribi. Limiti: due scribi, una sola tradizione (islandese), scelte di lettera con
   poche migliaia di occorrenze (intervalli larghi ±0,06 – 0,09).
+
+## 4/10/2026 (mattina) — e3c51: in Glen Claston le scelte di sola forma (due forme di *d*, due forme di *e*) non hanno un accordo chiaro; gallows e finali sì
+
+Preregistrato (`preregistrazioni/e3c51.md`). GC (v101), misura corretta dell'e3c48 (50 rimescolamenti), una classe per
+volta. Tutte le classi superano la regola di ingresso (300 minoritarie nei tipi misti).
+
+| classe (GC) | tipo | parole | K corretto 1 (IC 95%) | K corretto 2 / 3 (IC media) | r (IC 95%) | esito |
+|---|---|---|---|---|---|---|
+| 7/8 (due forme di *d*) | sola forma | 5.551 | +0,051 (−0,022 – +0,117) | +0,064 / −0,004 (−0,029 – +0,083) | 0,58 (−3,2 – 5,2) | nessun accordo chiaro |
+| c/C (due forme di *e*) | sola forma | 8.285 | +0,063 (+0,011 – +0,113) | +0,050 / +0,034 (−0,001 – +0,083) | 0,66 (−0,13 – 2,7) | nessun accordo chiaro |
+| h/k (gallows) | riferimento | 8.708 | **+0,117** (+0,069 – +0,162) | +0,098 / +0,108 (+0,065 – +0,139) | 0,88 (0,55 – 1,46) | **finestra** |
+| 2/1 (*sh*/*ch*) | riferimento | 8.907 | +0,060 (−0,002 – +0,120) | +0,057 / +0,054 (+0,010 – +0,102) | 0,92 | nessun accordo chiaro |
+| -c9/-89 (-*ey*/-*dy*) | riferimento | 7.184 | **+0,139** (+0,090 – +0,188) | +0,077 / +0,073 (+0,038 – +0,114) | 0,54 (0,27 – 0,94) | **finestra** |
+| a/o | altro | 10.890 | +0,053 (+0,017 – +0,084) | +0,034 / +0,017 | 0,48 | nessun accordo chiaro |
+| 4o/o (*qo*/*o*) | altro | 9.155 | +0,018 (−0,023 – +0,058) | **+0,080 / +0,066** (+0,044 – +0,100) | — | nessun accordo accanto, sì a 2–3 |
+
+- **Esito preregistrato sola forma: 7/8 nessun accordo chiaro; c/C nessun accordo chiaro.** Esito riferimento: **2 su 3**
+  con la finestra (gallows e finali; *sh*/*ch* no).
+- Le stime delle scelte di sola forma non sono zero (+0,05 / +0,06 accanto) ma sono più deboli di gallows e finali
+  (+0,12 / +0,14) e incerte. Va detto che la distinzione 7/8 e c/C è un giudizio del trascrittore, quindi può essere
+  rumorosa e abbassare un accordo vero: "non chiaro" non vuol dire "assente".
+- **Correzione per *sh*/*ch* in GC:** l'e3c44 (misura vecchia) la dava replicata; con la correzione metà dell'accordo
+  osservato era distorsione (K nullo +0,058) e quello che resta (+0,060) ha l'intervallo che tocca lo 0. In EVA *sh*/*ch*
+  era misurata insieme alle altre due nell'e3c48, quindi va controllata da sola con la misura corretta (prossimo passo).
+- *qo*/*o* corretto conferma la forma vista in EVA: niente accanto (decide il raccordo), accordo a 2–3 parole.
+- **Lettura insieme all'e3c50:** gli scribi islandesi non hanno accordo nelle forme di lettera; nel Voynich le forme
+  pure (secondo GC) ne hanno poco o niente di chiaro; le scelte che cambiano la parola (gallows, finali) hanno la finestra.
+  Quindi la finestra sembra legata a **quale parola si scrive**, non a **come si traccia la lettera**.
