@@ -127,3 +127,9 @@ ridistribuisce (stessa impronta SHA-256 dell'originale, vedi dati/FONTI.md).
 - Non fatto: licenza del programma; prova di rilettura su un secondo computer; giudice indipendente; uscita come
   immagine; pagina web.
 - **Niente è stato pubblicato:** creare il repo pubblico e caricarlo richiede il via esplicito di Davide.
+
+## 9. Pubblicato (4/10, 10:45)
+
+Repo pubblico: https://github.com/AndreottiVIII/voynichizzatore (v17, licenza MIT, istruzioni e messaggi in inglese).
+Copia di lavoro locale: `C:\Users\davide\voynichizzatore`. Come aggiornarlo: vedi il diario, voce delle 10:45.
+In sospeso: prova di rilettura su un altro computer; descrizione del repo in inglese; giudice indipendente; sito web.
