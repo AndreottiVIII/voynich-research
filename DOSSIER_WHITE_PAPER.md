@@ -1263,6 +1263,7 @@ accoppiata con l'inizio del tratto che lo continua, contro l'inizio di tratti vi
 | È oltre le parole e oltre la catena di segni | **solida** | sul Voynich riscritto dalla catena di ordine 2: +0,002 (e3b69) |
 | Il metodo è specifico (non dà memoria dove non c'è) | **solida** | numero di *i* +0,010 (IC −0,093 – +0,107), -*l*/-*r* −0,002 (−0,052 – +0,053) (e3b77) |
 | Uguale in tutte le mani (A e B) | **solida** | mani 1, 2, 3: +0,089, +0,091, +0,079, intervalli sovrapposti (e3b70); la differenza A/B dell'e3b59/e3b60 era un difetto del metodo |
+| **Le lingue con accordo grammaticale danno un effetto simile** | **solida, cautela importante** | desinenze -*o*/-*a* (italiano +0,061 e +0,084, spagnolo +0,053) e -*us*/-*a* (latino +0,092 e +0,053), 0,6–1,1 volte il Voynich (e3b91): la memoria delle scelte del Voynich ha la forma che avrebbe un accordo grammaticale; non è un argomento per "senza significato" |
 | Nessun generatore pubblicato la ha | **solida** | Naibbe +0,011, U2 +0,013, U3 +0,003, Timm e Schinner +0,024, tutti con IC che contiene 0 (e3b70) |
 | Uno scriba medievale vero la ha | **non stabilito** | scriba anglosassone, þ/ð a inizio parola +0,102 (IC −0,003 – +0,206); i/y nulla in tre testi (e3b70); Codex Marianus non informativo: l'effetto negativo (e3b75, −0,090) è tutto nella congiunzione di un segno (−0,260, probabilmente una convenzione di posizione nella frase), per le altre parole IC −0,203 – +0,151 (e3b76); per l'anglosassone, separando le 10 parole grammaticali più frequenti la stima non regge (+0,025, IC −0,112 – +0,151; e3b78) |
 | Si consuma con le lettere scritte (a parità di parole) | **solida** | ZL +0,066 (IC +0,029 – +0,100), IT +0,066 (+0,035 – +0,098) (e3b80) |
@@ -1282,6 +1283,10 @@ accoppiata con l'inizio del tratto che lo continua, contro l'inizio di tratti vi
 | "La copia porta con sé gli spazi" | **non regge come meccanismo** | e3b46, e3b47 |
 | Crescita di -*ey* scendendo nella pagina | **solida** | ZL +0,080 (IC +0,047 – +0,116), IT +0,084 (+0,050 – +0,119) (e3b79) |
 | Apertura del paragrafo (*p*/*f* nella prima riga) | **solida** | ZL +0,044, IT +0,043, IC stretti (e3b79) |
+
+**Cautela da mettere in testa (e3b91):** con la stessa misura l'accordo grammaticale delle lingue (desinenze -*o*/-*a*,
+-*us*/-*a*) dà un effetto della stessa grandezza: la "memoria" del Voynich potrebbe essere anche un accordo fra parole,
+cioè un tratto da lingua. Vedi e3b92 e seguenti per i tentativi di distinguere.
 
 **Formula per il white paper:** il Voynich ha, oltre alla catena di segni per riga e allo spazio non lessicale, una
 memoria corta delle scelte di grafia forte e uniforme (tutte le scelte, tutte le mani, due trascrizioni), che prosegue

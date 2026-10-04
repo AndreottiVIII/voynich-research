@@ -13550,3 +13550,32 @@ paragrafo nuovo (funzioni dell'e3b89, già provate).
 - **Lettura:** a differenza dell'a capo (senza la prima parola +0,052/+0,059, e3b89), alla fine del paragrafo la stima
   resta circa zero con tutte e due le trascrizioni. I numeri vanno verso una ripartenza della memoria a ogni paragrafo,
   ma con troppe poche coppie per dirlo.
+
+## 4/10/2026 (notte) — e3b91: con la stessa misura l'accordo grammaticale delle lingue sembra memoria corta, della stessa grandezza del Voynich (cautela importante)
+
+Preregistrato (`preregistrazioni/e3b91.md`). Metodo finale (nullo largo, intervalli per blocchi) sulle desinenze -*o*/-*a*
+(italiano, spagnolo) e -*us*/-*a* (latino) di testi del corpus di controllo. Classificazione provata su parole d'esempio.
+
+| testo | occorrenze | quota -a | coppie vicine | M | M nullo | effetto (IC 95%) | rispetto al Voynich |
+|---|---|---|---|---|---|---|---|
+| italiano NT (Diodati) | 49.992 | 0,37 | 30.069 | +0,072 | +0,011 | +0,061 (+0,044 – +0,076) | 0,70 |
+| italiano, *Della Pittura* | 5.623 | 0,42 | 3.837 | +0,085 | +0,002 | +0,084 (+0,039 – +0,129) | 0,97 |
+| spagnolo NT | 36.518 | 0,40 | 16.852 | +0,086 | +0,033 | +0,053 (+0,032 – +0,073) | 0,61 |
+| latino NT (Vulgata) | 23.517 | 0,46 | 6.027 | +0,175 | +0,083 | +0,092 (+0,056 – +0,128) | 1,07 |
+| latino, Plinio | 63.649 | 0,62 | 22.594 | +0,144 | +0,091 | +0,053 (+0,035 – +0,071) | 0,61 |
+
+Voynich ZL (e3b70): +0,086 (IC +0,060 – +0,113).
+
+- **Esito preregistrato: in tutti e cinque i testi "l'accordo sembra memoria"**, con effetti fra 0,6 e 1,1 volte quello
+  del Voynich.
+- **Lettura (preregistrata):** la memoria corta delle scelte del Voynich **non distingue** fra un'abitudine di chi scrive
+  e un **accordo grammaticale** fra parole vicine (come -*o*/-*a* in "la casa bianca", -*us*/-*a* in latino). Questo
+  corregge il modo in cui ne ho parlato: finora la confrontavo con lingue senza varianti libere (dove non si poteva
+  misurare), con i generatori e con gli scribi veri, e non con le desinenze delle lingue. Va detto chiaramente: la
+  memoria delle scelte del Voynich, in particolare per -*ey*/-*dy* (una desinenza) e *qo*/*o* (un inizio di parola), ha la
+  forma che avrebbe un accordo grammaticale. **Non è un argomento per "testo senza significato"**; semmai è un tratto che
+  un testo con una grammatica avrebbe.
+- **Come distinguere** (prossimi passi): una memoria del gesto si consuma con le lettere scritte (nel Voynich sì,
+  e3b80), un accordo grammaticale dipende dalla sintassi e non dovrebbe; e l'accordo riguarda soprattutto le desinenze
+  e le parole che stanno insieme in un sintagma, mentre nel Voynich la memoria c'è anche per *k*/*t* e *sh*/*ch* dentro la
+  parola. Primo controllo: il consumo con le lettere nelle lingue (e3b92).

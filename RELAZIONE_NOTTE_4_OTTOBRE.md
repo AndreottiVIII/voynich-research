@@ -272,6 +272,12 @@ scritto nella seconda parte. Le dico subito.
 9. **Le etichette ripartono da capo** nelle scelte, anche se si copiano la forma (e3b48); quando un'etichetta varia la
    precedente, la modifica cade di rado sulle scelte (pochi dati, e3b74).
 
+**Attenzione, scoperta delle 5:30 (e3b91):** con la stessa misura, l'**accordo grammaticale** delle lingue (italiano
+"la casa bianca", -*o*/-*a*; latino -*us*/-*a*) dà un effetto della stessa grandezza della "memoria" del Voynich (0,6–1,1
+volte). Quindi la memoria delle scelte del Voynich, soprattutto per -*ey*/-*dy* (una desinenza) e *qo*/*o* (un inizio di
+parola), ha **la forma che avrebbe un accordo fra parole** in una lingua. Non è un argomento per "testo senza
+significato"; semmai il contrario. Sto cercando un tratto che distingua accordo e abitudine (vedi sotto).
+
 ## Come ci sono arrivato (con i passi sbagliati)
 
 La misura della memoria è cambiata più volte, ogni volta perché una prova su dati finti mostrava un difetto:
