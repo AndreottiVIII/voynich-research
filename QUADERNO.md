@@ -15724,3 +15724,25 @@ consuma un po' della concordanza delle scelte di grafia nella riga, che nella v1
 Due tentativi fatti su questa strada: chiusa così. Lacuna dichiarata: righe un po' troppo larghe nella v17.
 Possibile seguito, da decidere con Davide: v19 con il peso delle scelte di riga regolato di nuovo (come nell'e410) per
 riportare A sopra 1,0; sarebbe un esperimento nuovo con criteri suoi.
+
+## 4/10/2026 (pomeriggio) — e3c78: anche 73 scribi tedeschi del 1350 – 1500 non hanno raccordo, margine, forme di bordo e ripetizioni come il Voynich
+
+Preregistrato (`preregistrazioni/e3c78.md`). Download del ReF (Referenzkorpus Frühneuhochdeutsch 1.0.2) autorizzato da
+Davide ("scarica"): `ReF-v1.0.2.tar.gz`, 143.463.482 byte, Zenodo record 5793616; licenza nel file CC-BY-SA 4.0 (Zenodo
+indicava CC-BY: si segue il file); in `dati/cache/ref/`, non committato. Campione: 73 manoscritti ("Handschrift", periodi
+14,2 – 15,2), prime 6.000 parole di ognuno (1.945 pagine, 434.454 parole); righe e pagine vere; livello diplomatico.
+
+| proprietà | Voynich ZL | scribi tedeschi (ReF) |
+|---|---|---|
+| raccordo (effetto / entropia) | +0,058 (*qo*/*o*, -*l*/-*r*) | massimo +0,005 (*i*/*j* a inizio parola, p < 0,001), poi +0,001; 11 scelte su 13 niente |
+| margine sinistro | 5 inizi evitati | nessun manoscritto con tre o più inizi evitati; 3 su 72 con uno solo |
+| forma di fine riga che cresce di più | -*m* +0,151 | "=" (trattino di a capo) +0,019 |
+| forma di inizio riga che cresce di più | *s*- +0,098 | *t* +0,012 |
+| parole vicine identiche / a una modifica | 1,00% / 3,87% | mediana 0,05% / 0,46%; massimo 0,54% / 1,20% |
+
+- **Esiti preregistrati:** raccordo **più debole della metà del Voynich** (dieci volte più debole); margine **"in parte"**
+  (alla lettera: tre manoscritti hanno un inizio evitato, nessuno un evitamento generale; con 72 manoscritti e circa 12
+  inizi ciascuno un paio di casi sono attesi per caso); bordi **più deboli della metà del Voynich** (e il più forte è il
+  trattino di a capo, non una forma di lettera); ripetizioni: **nessuno scriba tedesco ripete come il Voynich**.
+- **Conferma la batteria nordica con scribi dell'Europa centrale, nel secolo del Voynich, con righe della stessa
+  lunghezza:** raccordo, margine, forme di bordo e ripetizioni restano proprietà del Voynich, non della scrittura a mano.
