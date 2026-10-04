@@ -12430,3 +12430,41 @@ quante: è solo un'etichetta sbagliata.)
   giuntura non si azzerano all'a capo (e3b38, e3b39, e3b41, e3b42). L'ipotesi "copiate di seguito da un modello che
   andava a capo altrove" diventa meno probabile: chi scrive guarda comunque la riga sopra. Resta da escludere che conti
   la lunghezza dei paragrafi (e3b44).
+
+## 4/10/2026 (notte) — Correzione: nelle e3b41 ed e3b42 il bootstrap era per paragrafo, non per pagina
+
+Nelle e3b38, e3b39, e3b41 ed e3b42 l'intervallo bootstrap ricampiona i **paragrafi** (la funzione `analizza`
+dell'e3b38 raggruppa le coppie per `(pagina, paragrafo)`, come l'e3b10, che lo diceva nella preregistrazione). Le
+preregistrazioni dell'e3b41 e dell'e3b42 scrivevano invece "bootstrap per pagina": è una deviazione, che dichiaro qui.
+Con poche pagine T l'unità giusta per dire "è il tipo di pagina" è la pagina: l'e3b44 fa la prova a livello di pagina.
+
+## 4/10/2026 (notte) — e3b44: la memoria che passa l'a capo regge a livello di pagina e non dipende dalla lunghezza dei paragrafi
+
+Preregistrato (`preregistrazioni/e3b44.md`). ZL; codice provato su pagine finte.
+
+**1. Prova per pagina** (10.000 gruppi di pagine non T estratte a caso, fra quelle con almeno 10 coppie a cavallo):
+
+| gruppo | pagine | eccesso a cavallo (coppie) | gruppi a caso: mediana; 97,5° percentile | p |
+|---|---|---|---|---|
+| le 6 pagine T contro 143 pagine non T | 6 | +0,075 (303) | +0,001; +0,073 | **0,021** |
+| le 4 pagine T della mano 2 contro 35 pagine non T della mano 2 | 4 | +0,089 (229) | −0,003; +0,064 | **0,002** |
+
+- **Esito: regge a livello di pagina**, per le 6 pagine T (di poco: p 0,021 con soglia 0,025) e, più nettamente, a
+  parità di mano.
+
+**2. Lunghezza del paragrafo:**
+
+| pagine | paragrafi | righe | coppie a cavallo | eccesso (IC 95%) |
+|---|---|---|---|---|
+| altre | 323 | 2–4 | 1.257 | −0,004 (−0,032 – +0,025) |
+| altre | 205 | 5–7 | 1.516 | −0,004 (−0,030 – +0,021) |
+| altre | 126 | 8 o più | 2.590 | −0,001 (−0,022 – +0,020) |
+| solo testo | 8 | 2–4 | 32 | +0,139 (−0,017 – +0,301) |
+| solo testo | 14 | 5–7 | 108 | +0,058 (−0,002 – +0,147) |
+| solo testo | 8 | 8 o più | 163 | +0,074 (−0,021 – +0,176) |
+
+- **Esito: non è la lunghezza dei paragrafi.** Nelle pagine normali la memoria si azzera all'a capo in paragrafi di
+  ogni lunghezza; nelle pagine T è positiva in tutte e tre le classi (intervalli larghi, poche coppie).
+- **Lettura:** il risultato delle pagine "solo testo" (e3b38–e3b44) è il più solido che si possa avere con 6 pagine:
+  due trascrizioni, una pagina per volta fuori, prova per pagina, stessa mano, nessun effetto della lunghezza dei
+  paragrafi o della lunghezza delle righe.

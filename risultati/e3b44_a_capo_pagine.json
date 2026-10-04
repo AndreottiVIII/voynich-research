@@ -1,0 +1,79 @@
+{
+ "prova_pagine_T": {
+  "pagine": 6,
+  "eccesso": 0.0750275540181697,
+  "coppie": 303,
+  "pool": 143,
+  "p": 0.0212,
+  "mediana_gruppi": 0.0010609898621296654,
+  "q975_gruppi": 0.07260150417236742
+ },
+ "esito_1_T": "regge a livello di pagina",
+ "prova_pagine_mano2": {
+  "pagine": 4,
+  "eccesso": 0.0889499349433941,
+  "coppie": 229,
+  "pool": 35,
+  "p": 0.0023,
+  "mediana_gruppi": -0.0025261971776298726,
+  "q975_gruppi": 0.06365775370304881
+ },
+ "esito_1_mano2": "regge a livello di pagina",
+ "per_lunghezza": {
+  "altre pagine, 2-4 righe": {
+   "paragrafi": 323,
+   "coppie": 1257,
+   "eccesso": -0.00367513934167173,
+   "IC95": [
+    -0.031899186324787436,
+    0.024770136151853316
+   ]
+  },
+  "altre pagine, 5-7 righe": {
+   "paragrafi": 205,
+   "coppie": 1516,
+   "eccesso": -0.0037809367919414347,
+   "IC95": [
+    -0.029581463780431746,
+    0.02050780518892038
+   ]
+  },
+  "altre pagine, 8+ righe": {
+   "paragrafi": 126,
+   "coppie": 2590,
+   "eccesso": -0.0008491911795361149,
+   "IC95": [
+    -0.021481893079199663,
+    0.020403176821218796
+   ]
+  },
+  "solo testo (T), 2-4 righe": {
+   "paragrafi": 8,
+   "coppie": 32,
+   "eccesso": 0.13908135882463787,
+   "IC95": [
+    -0.01716148995022171,
+    0.3012180960164981
+   ]
+  },
+  "solo testo (T), 5-7 righe": {
+   "paragrafi": 14,
+   "coppie": 108,
+   "eccesso": 0.05800453748540636,
+   "IC95": [
+    -0.0015835829236119036,
+    0.14684666341163838
+   ]
+  },
+  "solo testo (T), 8+ righe": {
+   "paragrafi": 8,
+   "coppie": 163,
+   "eccesso": 0.07373162783247313,
+   "IC95": [
+    -0.021364551385723966,
+    0.17606776339709043
+   ]
+  }
+ },
+ "esito_2": "non è la lunghezza dei paragrafi"
+}
