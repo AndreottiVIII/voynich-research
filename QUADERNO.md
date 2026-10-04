@@ -15209,3 +15209,36 @@ accordo finto creato dalla posizione "a fasce", il placebo no). Tre nulli, somme
 AM 242 fol (Codex Wormianus, islandese, c. 1350), Holm A 10 (svedese, c. 1500 – 1550), AM 302 fol (norvegese, c. 1300), in
 `dati/cache/menota/` (non committati). **Holm D 4** (svedese, 198 mila parole) non è scaricabile: il server chiude la
 risposta vuota dopo 60 secondi; riprovato una volta, lacuna dichiarata.
+
+## 4/10/2026 — vz: e415, la gabbia della pagina non serve che sia quella vera: v15, v16 e v17 sono pari; cifratura robusta e pacchetto pubblico
+
+Chat del voynichizzatore. Preregistrato (`preregistrazioni/e415.md`, con un'integrazione per la v17). Idea di Davide:
+riprodurre la gabbia delle pagine in modo statistico invece di copiare quella della pagina corrispondente del Voynich.
+Isidoro XVII nel sacco, chiavi "e409-1" … "e409-12", le tre versioni sulle stesse chiavi. Dati in
+`risultati/e409b_messaggio_nel_sacco_v15_chiavi_1_12.md`, `..._v16_...`, `..._v17_...`. Medie ± errore standard.
+
+| versione | gabbia di ogni pagina | AUC e231 | AUC e266 (min – max) | pagella | materie aggiunte | cancello | decodifica |
+|---|---|---|---|---|---|---|---|
+| v15 = v14 + cifratura robusta | quella della pagina vera | 0,570 ± 0,005 | 0,601 ± 0,005 (0,585 – 0,644) | 15,2 | 5,9 | 9/12 | 12/12 |
+| v16 | di un'altra pagina vera della stessa sezione e lingua, scelta dalla chiave | 0,564 ± 0,007 | 0,598 ± 0,009 (0,544 – 0,651) | 15,3 | 6,0 | 8/12 | 12/12 |
+| v17 | estratta dalle statistiche della sezione e lingua | 0,563 ± 0,008 | 0,601 ± 0,006 (0,568 – 0,630) | 15,0 | 5,8 | 11/12 | 12/12 |
+
+- **Previsioni rispettate:** la v15 è la v14 entro l'errore (cambia solo la cifratura); v16 e v17 stanno entro 0,007 dalla
+  v15 su entrambi i giudici (previsto ±0,015 e ±0,02). Andata e ritorno esatta 36 su 36.
+- **La gabbia vera non aiutava e non serve:** nessun giudice e nessun gruppo si muove (G7, posizione nella riga, 0,56 in
+  tutte; G8, prime righe, 0,65–0,66). Controllo diretto: nella v15 207 pagine su 207 hanno la gabbia della pagina vera;
+  nella v16 nessuna (ma tutte hanno la gabbia di un'altra pagina vera); **nella v17 nessuna pagina ha la gabbia di una
+  pagina del Voynich**. Il libro della v17 ha il 5% di parole in più (36.571 contro 34.863) e 4.190 righe contro 4.130.
+- **Come è fatta la gabbia statistica (v17):** numero di righe, larghezza della pagina (mediana delle parole per riga) e
+  lunghezza dei paragrafi estratti dalle distribuzioni della sezione e lingua; le parole di ogni riga sono la larghezza
+  per un rapporto estratto secondo il ruolo della riga (prima, ultima, in mezzo). Nota sul Voynich: nel testo corrente
+  non ci sono paragrafi di una riga sola.
+- **Cifratura robusta (v15 e seguenti):** la chiave passa per scrypt; il testo compresso è cifrato con un flusso
+  SHAKE-256 e porta un'etichetta HMAC-SHA256 di 8 byte; anche i generatori casuali di pagina derivano dalla chiave
+  maestra. Chiave sbagliata respinta 12 su 12 con il messaggio "chiave errata". Non è stata verificata da un esperto.
+- **Pacchetto pubblico** (`strumenti/costruisci_pubblico.py` → `pubblico/voynichizzatore/`, 16 file): non dipende da
+  nient'altro nel repo; contiene il testo corrente del Voynich ripulito (trascrizione ZL 3b, pubblico dominio / CC0,
+  licenza riletta sul sito il 4/10) con la fonte nel file. Provato da solo: Isidoro torna esatto, la chiave sbagliata
+  è respinta, e il manoscritto è identico byte per byte a quello del repo (v15, stessa chiave). **Niente è stato
+  pubblicato.**
+- **Esito secondo la preregistrazione:** v16 e v17 non sono peggiori della v15; la scelta fra le tre spetta a Davide.

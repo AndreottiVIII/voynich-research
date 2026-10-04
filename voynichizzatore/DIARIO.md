@@ -655,3 +655,22 @@ Davide, sentendo la spiegazione, ha chiesto di **dirlo molto bene nel white pape
 
 
 La chat di ricerca può riprendere questa nota per il dossier (`DOSSIER_WHITE_PAPER.md` è suo).
+
+## 4/10/2026, 09:35 — v15 (cifratura), v16 e v17 (gabbie), pacchetto pubblico
+
+Decisioni di Davide del mattino: si pubblica la v14 (poi le sue discendenti), codice più dati; cifratura robusta; il
+giudice indipendente si valuta dopo. Licenza della trascrizione riletta sul sito: pubblico dominio, CC0, con richiesta
+di citare la fonte (`PUBBLICAZIONE.md` §7). Idea di Davide: la gabbia delle pagine non deve essere quella della pagina
+vera.
+
+Nel QUADERNO (voce "vz: e415"). Su 12 chiavi: v15 0,570 / 0,601; v16 (gabbia di un'altra pagina) 0,564 / 0,598; **v17
+(gabbia statistica) 0,563 / 0,601, cancello 11/12**. Le tre sono pari: la gabbia vera non serviva.
+
+### Dove siamo (4/10, 09:35)
+
+- Versioni: v15 = v14 + cifratura robusta; v16 = v15 + gabbia da un'altra pagina; v17 = v15 + gabbia statistica.
+  Parametri `impaginazione` ("altra pagina" o "statistica") e `cifra` ("scrypt") nei file `pezzi_parametri_vNN.json`.
+- Pacchetto pubblico: `python strumenti/costruisci_pubblico.py` (costante `VERSIONE` in testa allo script, ora v15) →
+  `pubblico/voynichizzatore/`. Mancano: README con i numeri, scelta della versione (v15, v16 o v17), eventuale prova
+  su un altro computer.
+- Nota per i white paper nel diario (voce delle 09:00): con e senza messaggio indistinguibili, come per il Voynich.
