@@ -13232,3 +13232,23 @@ dimensione delle altre pagine), più il controllo con la riga sopra. Funzione de
   seguente sono legati come dentro la riga (la catena di segni prosegue oltre l'a capo); nelle altre pagine questo
   legame si rompe a ogni riga (e384). Insieme all'e3b71: la memoria delle scelte passa l'a capo per metà dappertutto; la
   catena di segni passa l'a capo solo nelle pagine di solo testo.
+
+## 4/10/2026 (notte) — e3b73: alla fine del paragrafo e al cambio di pagina la memoria non si vede passare
+
+Preregistrato (`preregistrazioni/e3b73.md`). Metodo dell'e3b66: fine dell'ultima riga di un paragrafo con l'inizio del
+paragrafo seguente (controlli: inizi dei paragrafi p − 1 e p + 2); fine della pagina con l'inizio della pagina seguente
+(controlli: inizi delle pagine k − 1 e k + 2). Codice provato su pagine finte (memoria che passa: paragrafo +0,225; la
+prova del cambio di pagina ha poca potenza anche lì).
+
+| confine | unità | K continuazione (coppie) | K controllo 1 | K controllo 2 | D (IC 95%) |
+|---|---|---|---|---|---|
+| fine paragrafo, ZL | 159 | −0,068 (2.003) | −0,007 | −0,097 | −0,015 (−0,078 – +0,049) |
+| fine paragrafo, IT | 164 | −0,081 (2.134) | −0,009 | −0,115 | −0,018 (−0,085 – +0,047) |
+| cambio di pagina, ZL | 206 | −0,143 (597) | −0,101 | −0,127 | −0,029 (−0,181 – +0,120) |
+| cambio di pagina, IT | 205 | −0,131 (661) | −0,104 | −0,139 | −0,010 (−0,151 – +0,126) |
+
+- **Esiti preregistrati:** fine paragrafo **non dimostrato**; cambio di pagina **non dimostrato**.
+- **Lettura:** alla fine del paragrafo la stima è circa zero con tutte e due le trascrizioni (all'a capo era +0,04), ma
+  l'intervallo arriva a +0,05 e non esclude un passaggio a metà come all'a capo. Il cambio di pagina ha troppe poche
+  coppie per dire qualcosa. Il quadro che va d'accordo con i numeri (ma non è dimostrato): la memoria delle scelte
+  attraversa i salti del disegno, si dimezza all'a capo e riparte con il paragrafo.

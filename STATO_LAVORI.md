@@ -127,6 +127,7 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     del nullo largo erano troppo ottimisti.
     Pagine di solo testo: per la memoria come le altre (e3b71); resta la giuntura che passa l'a capo (e3a06), ritrovata
     con Takahashi e assente con la riga sopra (e3b72).
+    Fine paragrafo: memoria stimata circa zero, non dimostrato; cambio di pagina: troppo pochi dati (e3b73).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
