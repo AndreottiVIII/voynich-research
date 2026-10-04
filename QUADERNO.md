@@ -15613,3 +15613,24 @@ sulle righe di almeno 10 parole.
   "una preferenza di tutta la riga (circa +0,06) più uno stato breve che si spegne in poche parole". Se fosse così, ogni
   riga avrebbe una sua "impostazione" delle scelte, oltre a quella della pagina (che è già nell'atteso). Prova diretta:
   e3c74 (parole lontane nella stessa riga contro parole di righe vicine).
+
+## 4/10/2026 (mattina) — e3c74: nessuna "impostazione di riga"; c'è una componente lenta che attraversa le righe
+
+Preregistrato (`preregistrazioni/e3c74.md`; prova su testi finti: distingue impostazione di riga e stato che scorre).
+K corretto (e3c48) per coppie della stessa scelta.
+
+| | stessa riga, distanza ≥ 5 | righe consecutive | righe a due di distanza | stessa riga − righe consecutive |
+|---|---|---|---|---|
+| ZL | +0,037 (+0,013 – +0,063) | **+0,050 (+0,038 – +0,062)** | +0,034 (+0,022 – +0,045) | −0,012 (−0,036 – +0,012) |
+| IT | +0,041 (+0,015 – +0,067) | **+0,048 (+0,036 – +0,060)** | +0,033 (+0,022 – +0,044) | −0,007 (−0,031 – +0,019) |
+
+- **Esito preregistrato (ZL e IT): lo stato attraversa le righe.** Parole di righe consecutive si accordano quanto (o
+  più di) parole lontane nella stessa riga; a due righe di distanza un po' meno. Non c'è un'impostazione propria di ogni
+  riga: l'ipotesi "chiave per riga" applicata alle scelte non regge.
+- **Lettura:** oltre allo stato breve di 2 – 3 parole dentro la riga (che non passa l'a capo in modo chiaro, e3c39, e
+  che regge con blocchi di 5 righe, e3c48) c'è una **componente lenta** (+0,03 – +0,05) che va oltre la riga e cala
+  scendendo di poche righe. È la "costante" dell'e3c73. Due spiegazioni possibili: (1) una tendenza dall'alto in basso
+  nella pagina (già nota per -*ey*, che cresce scendendo, e3a15 – e3a21), che l'atteso non contiene; (2) uno stato lento
+  di chi scrive (per esempio sessioni di scrittura). Prossimo: e3c75.
+- **Nota sulle misure precedenti:** il valore "a 4 – 6 parole" dell'e3c66 (+0,055) e la costante dell'e3c73 contengono
+  questa componente lenta; la parte propria dello stato breve è quella che cala da +0,145 (accanto) verso +0,04 – +0,06.
