@@ -562,6 +562,7 @@ Utili da mettere in evidenza nel white paper:
 | `figure/confini.png` | che cosa passa il salto del disegno e l'a capo (memoria, ripetizione, raccordo) | memoria corta (stato finale, 15.13) |
 | `figure/solo_testo.png` | pagine di solo testo: giuntura a capo sì, memoria come altrove | pagine di solo testo (15.13) |
 | `figure/profilo_distanza.png` | come cala l'accordo con la distanza: Voynich contro accordo grammaticale di italiano, spagnolo, latino, swahili | memoria o accordo (15.13) |
+| `figure/deriva_riga.png` | quota delle varianti marcate (qo, k, sh, -ey) lungo la riga, in A e B, con prima e ultima parola e parole accanto ai disegni (e3c23) | deriva lungo la riga (15.13) |
 | `figure/alternanze_automatiche.png` | memoria nelle alternanze dentro la parola scelte da una regola uguale per tutti (Voynich, 34 testi, 4 generatori) e forma per Voynich, Corano, Naibbe | memoria o accordo (15.13) |
 
 Per e25–e28 ci sono solo tabelle (`.md`): conviene farne grafici nuovi. Per esempio:
@@ -1346,7 +1347,12 @@ e IT: a ogni riga si riparte dalle forme marcate e ci si allontana scrivendo, pi
 **Bordi e disegni (e3c21, e3c22):** oltre alla deriva, l'ultima parola della riga ha meno forme marcate (−0,025, ZL e IT),
 e le parole che toccano un disegno ancora meno, da tutte e due le parti (prima −0,068, dopo −0,055); la prima parola della
 riga no (≈ 0). Dopo un disegno le forme marcate non ripartono (la deriva continua). Lettura possibile: dove lo spazio è
-stretto si scelgono le varianti semplici (*o*, *t*, *ch*, -*dy*).
+stretto si scelgono le varianti semplici (*o*, *t*, *ch*, -*dy*). **Precisazione (e3c23):** accanto al disegno cala
+soprattutto *qo* (−0,227, cioè 23 punti; all'ultima parola della riga −0,061), mentre *k*/*t*, *sh*/*ch*, -*ey*/-*dy* insieme
+non cambiano in modo dimostrato: chi scrive, stretto contro un disegno o il margine, lascia cadere la *q*, l'unico segno
+che si risparmia. La deriva lungo la riga invece è uguale in tutte le classi (−0,03 ogni 10 segni), quindi non è spazio.
+A inizio riga: più *qo* (+10 punti) e *sh* (+9), meno *k* (−15). Nota: l'e3a18/e3a20 ("nessuna deriva graduale" per *sh* e
+*k*) riguardavano l'altezza nella pagina e il paragrafo, non la posizione nella riga. Figura `deriva_riga.png`.
 **Correzione dei valori della memoria (e3c14):** la deriva fa accordare di più le parole vicine; con un nullo che
 rimescola dentro fasce di posizione nella riga la memoria è **+0,062 (ZL, IC +0,035 – +0,089) e +0,051 (IT, +0,025 –
 +0,079)**, contro +0,086 e +0,076 del nullo solito: circa un terzo veniva dalla deriva. Nel white paper vanno citati i

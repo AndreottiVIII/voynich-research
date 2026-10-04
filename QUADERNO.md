@@ -14384,3 +14384,30 @@ parola coperta) con tutte le parole della riga.
   scrive usa più spesso le varianti semplici (*o*, *t*, *ch*, -*dy*). Va insieme alla compressione degli spazi a fine riga
   (e3b12). Il disegno non funziona come un nuovo inizio: la deriva continua oltre il disegno e la memoria lo attraversa
   (e3b67).
+
+## 4/10/2026 (mattina) — e3c23: accanto al disegno sparisce soprattutto la *q*: una questione di spazio
+
+Preregistrato (`preregistrazioni/e3c23.md`). ZL; regressione dentro strati (classe, parola coperta) su x, F (prima
+parola della riga), L (ultima), A (parola che tocca un disegno). Nota: l'e3a18/e3a20 ("nessuna deriva graduale" per *sh*
+e *k*) misuravano l'altezza nella pagina e la posizione nel paragrafo, non la posizione nella riga: nessuna
+contraddizione con l'e3c13.
+
+| classi | x, ogni 10 segni | F, prima parola | L, ultima parola | A, accanto al disegno |
+|---|---|---|---|---|
+| *qo*/*o* (1 = *qo*) | −0,017 (−0,030 – −0,004) | **+0,098** (+0,043 – +0,156) | **−0,061** (−0,114 – −0,012) | **−0,227** (−0,314 – −0,150) |
+| *k*/*t*, *sh*/*ch*, -*ey*/-*dy* | −0,033 (−0,041 – −0,025) | −0,030 (−0,055 – −0,004) | −0,018 (−0,039 – +0,009) | −0,023 (−0,063 – +0,014) |
+| *k*/*t* (1 = *k*) | −0,033 | **−0,152** (−0,193 – −0,112) | +0,015 | +0,014 |
+| *sh*/*ch* (1 = *sh*) | −0,034 | **+0,094** (+0,058 – +0,137) | −0,040 (−0,070 – +0,004) | −0,012 |
+| -*ey*/-*dy* (1 = -*ey*) | −0,034 | +0,025 | **−0,038** (−0,067 – −0,001) | −0,093 (−0,176 – +0,005) |
+
+- **Esito preregistrato: la semplificazione accanto al disegno sta in *qo*/*o* (larghezza).** Accanto a un disegno *qo*
+  è 23 punti più raro che altrove a parità di parola e posizione; le altre scelte insieme non cambiano in modo
+  dimostrato (-*ey*/-*dy* va nella stessa direzione, al limite). Anche all'ultima parola della riga *qo* cala (−6 punti).
+  Chi scrive, stretto contro un disegno o contro il margine, lascia cadere la *q*: l'unico segno che si può risparmiare
+  senza cambiare la parola.
+- **Bordi della riga, classe per classe (descrizione):** a inizio riga più *qo* (+10 punti) e più *sh* (+9), ma molto
+  meno *k* (−15: più *t*). La "prima parola sulla linea della deriva" dell'e3c22 era una media di effetti opposti.
+- **La deriva lungo la riga (x)**, invece, c'è in tutte le classi con la stessa forza (−0,017 per *qo*, −0,033/−0,034
+  per le altre): non è una questione di spazio, perché cambiare *k* con *t* o *sh* con *ch* non risparmia segni.
+- Figura `risultati/figure/deriva_riga.png`: scarto della quota marcata dalla media della propria parola lungo la riga, in
+  A (più piatto) e in B (calo netto da +0,065 a −0,07), con prima parola, ultima e parole accanto al disegno.
