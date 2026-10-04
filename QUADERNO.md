@@ -13756,3 +13756,25 @@ che tocca 0), in linea con l'e3b54: la memoria non sta nelle desinenze -*y*/-*n*
 - **Lettura:** la forma piatta è rara nelle lingue con la classe generica, ma non impossibile. Da sola non basta a dire
   "abitudine di chi scrive e non lingua". Il prossimo passo è il secondo tratto (consumo con le lettere) sugli stessi
   testi, Volapük e Plinio compresi (e3b99).
+
+## 4/10/2026 (notte) — e3b99: nessuna lingua del corpus si "consuma con le lettere" (Volapük compreso)
+
+Preregistrato (`preregistrazioni/e3b99.md`). La misura dell'e3b80 (accordo a 2–3 parole con poche contro molte lettere
+in mezzo) sui 16 testi che contano nell'e3b98, con la stessa classe generica. Codice provato su testi finti (memoria che
+si consuma con le lettere +0,042; con le parole +0,008, intervallo che tocca 0).
+
+| testo | R (e3b98) | effetto (IC 95%) |
+|---|---|---|
+| Volapük NT | 0,62 | −0,003 (−0,035 – +0,028) |
+| latino Vulgata | 0,20 | **+0,024** (+0,004 – +0,043) |
+| latino, Plinio | 0,45 | +0,006 (−0,010 – +0,021) |
+| italiano NT moderno / Diodati | 0,34 / 0,27 | +0,006 / +0,004 |
+| francese Martin / moderno | 0,18 / 0,18 | −0,020 / −0,024 |
+| greco, spagnolo, tedesco (2), inglese (2), anglosassone, slavo antico, Avicenna | | fra −0,007 e +0,002 |
+
+- **Esito preregistrato: il consumo con le lettere distingue.** Effetto mediano +0,0005 contro +0,066 del Voynich; un
+  solo testo su 16 con intervallo sopra 0 (Vulgata, +0,024, poco più di un terzo del Voynich).
+- **Domanda secondaria: il Volapük somiglia al Voynich anche qui? No** (−0,003). Il Volapük ha la forma piatta ma non il
+  consumo con le lettere: i due tratti insieme restano, nel corpus, solo del Voynich.
+- Con l'e3b92 (classi scelte a mano, cinque testi, media +0,015) sono ora 21 misure su lingue, nessuna vicina al
+  Voynich.

@@ -245,7 +245,9 @@ parole accanto e a tre parole ne resta poco (13–40%), nel Voynich a tre parole
 `risultati/figure/profilo_distanza.png`. Quindi la "memoria" del Voynich non si comporta come un accordo dentro la frase,
 ma come un'abitudine che si consuma scrivendo. Su tutti i 26 testi grandi del corpus (e3b98) nessuna lingua con accordo
 chiaro arriva alla forma del Voynich, ma il Volapük (lingua artificiale, con il plurale -*s* che dura per tutta la frase)
-ci va vicino (62% contro 64–66%): la forma piatta è rara nelle lingue, non impossibile.
+ci va vicino (62% contro 64–66%): la forma piatta è rara nelle lingue, non impossibile. Però il Volapük, come tutte le
+altre 15 lingue, non si consuma con le lettere (e3b99: mediana +0,0005 contro +0,066 del Voynich): i due tratti insieme,
+nel corpus, si trovano solo nel Voynich.
 
 ## In breve
 

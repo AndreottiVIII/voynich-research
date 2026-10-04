@@ -149,6 +149,7 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     **La forma del calo distingue** (e3b95, e3b96): accordo delle lingue concentrato fra parole accanto (d3/d1 0,13–0,40),
     memoria del Voynich quasi piatta fra 1 e 3 parole (0,79; 0,64–0,66 con il filtro più severo, e3b97). Figura `profilo_distanza.png`.
     Su 26 testi del corpus (e3b98, classe generica): nessuno dei 16 con accordo chiaro arriva a 0,64, ma il Volapük fa 0,62.
+    Consumo con le lettere sugli stessi 16 (e3b99): mediana +0,0005 (Voynich +0,066), Volapük −0,003: i due tratti insieme solo nel Voynich.
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
