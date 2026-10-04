@@ -12146,3 +12146,19 @@ precedente di lunghezza simile all'ultima (±1 parola).
   invece circa +0,04 per parola (e3a79).
 - Conferma con un altro metodo l'e343 (le catene di ripresa si fermano al paragrafo). Nessun segno di copia dalla pagina
   accanto: la ripresa è un fatto del paragrafo che si sta scrivendo.
+
+## 4/10/2026 (notte) — e3b29: la copia dalla riga sopra è quasi sparsa, non a raffiche
+
+Preregistrato (`preregistrazioni/e3b29.md`; prima del commit sostituito il nullo semplice con un nullo di "copia sparsa"
+alla stessa media, perché il nullo semplice ha meno copia e una coda più leggera per questo solo motivo). 2.349 righe con
+almeno 6 parole di almeno 3 segni; parole con una simile nella riga sopra: 30,5% (con un'altra riga del paragrafo:
+27,9%; copia sparsa aggiunta nel nullo: 3,6% delle parole non riprese).
+
+| misura | osservata | nullo di copia sparsa (media) | 99° percentile |
+|---|---|---|---|
+| righe con metà o più parole riprese | 0,210 | 0,194 | 0,212 |
+| varianza fra le righe | 0,0391 | 0,0385 | 0,0403 |
+
+- **Esito preregistrato: incerto** (le righe quasi copiate stanno fra il 95° e il 99° percentile del nullo; la varianza no).
+- **Lettura:** la ripresa dalla riga sopra è quasi del tutto sparsa: qualche parola qua e là in ogni riga, non righe
+  intere ricopiate. Al più un leggero eccesso di righe molto riprese.
