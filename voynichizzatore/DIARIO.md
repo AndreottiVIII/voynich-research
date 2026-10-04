@@ -601,3 +601,17 @@ cancello 9 su 12, pagella 15,2. Costo: tipi su parole 0,771 (troppo vari).
 - **v13 è la versione migliore per i giudici** (predefinita nello strumento); la v12 ha il cancello più spesso (11 su 12).
 - Prossimo (e414): giuntura delle unioni giudicata per probabilità (soglia sulla probabilità condizionata delle due
   terne di giuntura), per togliere *y*+*o*; poi tipi su parole (0,771), prime righe (G8 0,65), inizio riga con *ch*.
+
+**06:27 — e414 lanciato** (coda `vz-giuntura`). Dalla prova: con la soglia 0,05 sulla probabilità delle terne di giuntura, *y*+*o* nelle parole nuove scende da 88 a 41 (Voynich 27). Fra tipi su parole e quota fra le 100 più frequenti c'è un compromesso (due manopole, tre bersagli).
+
+## 4/10/2026, 06:50 — e414: v14 a 0,566 / 0,591 su 12 chiavi
+
+Nel QUADERNO (voce "vz: e414"). J1 (giuntura probabile, soglia 0,05) → **v14: 0,566 ± 0,010 / 0,591 ± 0,009**, pagella
+15,2, estese 6,2, cancello 9 su 12, decodifica 12 su 12. J2 (tre bersagli) peggio: non tenuto.
+
+### Dove siamo (4/10, 06:50)
+
+- **v14 è la versione migliore** (predefinita nello strumento). In corso: conferma su 12 chiavi nuove
+  (`VERSIONE=v14 CHIAVI=13,...,24 CASI=a`).
+- Restano: profilo pagina, omogeneità, scelte di riga a 12 classi, tipi su parole (0,771), cancello (9 su 12),
+  G8 prime righe (0,65), G3 (0,63).
