@@ -1176,3 +1176,4 @@ la copia e lo spazio non lessicale, ma non il resto).
   - Regge con Takahashi (e3b07: +0,031 vicino, −0,001 lontano). Senza le coppie di parole simili tutti gli accordi scendono (difetto del confronto con 0, dichiarato), ma il vicino resta +0,027 sopra il lontano: da verificare con l'intervallo della differenza (e3b08).
   - La memoria corta riguarda le scelte di grafia e non solo le parole ripetute (e3b08): tolte le coppie di parole simili, le parole a 2–3 di distanza concordano ancora più di quelle a 6–10 (+0,027, IC +0,014 – +0,039; IT +0,026). Lo scriba rifà per 2–3 parole le stesse scelte anche in parole diverse.
   - Nessun generatore ha la memoria delle scelte di grafia (e3b09: Naibbe 0,000, U2 +0,011, U3 +0,015, Timm e Schinner +0,006, tutti con intervallo che contiene 0; Voynich +0,027).
+  - L'a capo azzera anche la memoria delle scelte (e3b10: +0,031 nella stessa riga, +0,002 a cavallo dell'a capo, alla stessa distanza in parole).

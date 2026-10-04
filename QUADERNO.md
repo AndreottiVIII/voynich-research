@@ -11774,3 +11774,20 @@ facoltative, senza le coppie di parole simili.
 - **Esito preregistrato: no, per tutti e quattro.** Cautela: i generatori misurati su 10.000 parole hanno intervalli
   larghi; Timm e Schinner, misurato su tutto il suo testo, ha un intervallo stretto e sta chiaramente sotto il Voynich.
 - La memoria corta (di parole e di scelte di grafia) si aggiunge ai tratti che nessun generatore pubblicato ha.
+
+## 4/10/2026 (notte) — e3b10: l'a capo azzera anche la memoria delle scelte di grafia
+
+Preregistrato (`preregistrazioni/e3b10.md`). **Nota tecnica:** il primo tentativo di scrivere preregistrazione e codice
+con un heredoc si è rotto per gli apostrofi (nessun file scritto); riscritti con lo strumento di scrittura, come prevede
+il CLAUDE.md.
+
+| coppie a distanza 2–3 parole | quante | eccesso di accordo | IC 95% |
+|---|---|---|---|
+| nella stessa riga | 21.637 | +0,031 | +0,023 – +0,038 |
+| a cavallo dell'a capo | 5.666 | +0,002 | −0,012 – +0,016 |
+
+Differenza +0,029, IC 95% +0,014 – +0,043. **Esito preregistrato: l'a capo azzera la memoria delle scelte.**
+
+- **Lettura:** a parità di distanza in parole, due parole nella stessa riga condividono le scelte di grafia, due parole a
+  cavallo dell'a capo no. Come la giuntura (e384) e la ripetizione immediata (e3a87, e3a97), la memoria corta delle
+  scelte vive dentro il tratto scritto di seguito e riparte a ogni riga. La riga è l'unità della scrittura anche qui.
