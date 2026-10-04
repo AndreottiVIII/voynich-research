@@ -218,7 +218,9 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     **e3c42:** nessuna preferenza di paragrafo (a 2–4 righe ≈ 0 sia nello stesso paragrafo sia fra paragrafi diversi).
     **e3c43:** l'accordo sta dentro ogni scelta (+0,095/+0,098); fra scelte diverse niente (−0,02, come la distorsione nota).
     **e3c44:** in GC sh/ch (2/1) e -ey/-dy (c9/89) hanno la finestra, qo/o (4o/o) accordo solo a 2–3 parole: con le gallows
-    (e3c38) tutte e quattro le scelte replicano nella terza trascrizione.
+    (e3c38) tutte e quattro le scelte replicano nella terza trascrizione. **e3c45 (incerto):** con la misura pulita alcune
+    lingue hanno accordo accanto nelle alternanze interne (Marianus ъ/ь +0,140, Corano +0,124, greco +0,064), ma crolla a 2–3
+    parole (tranne il Corano, picco a 2): il tratto del Voynich è l'accordo che dura fino a 3 parole. Correzione dell'e3c01.
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
