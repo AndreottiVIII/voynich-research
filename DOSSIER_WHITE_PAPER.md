@@ -1189,3 +1189,4 @@ la copia e lo spazio non lessicale, ma non il resto).
   - La memoria è separata per ogni scelta (e3b18): stessa classe +0,023 (vicino − lontano), classi diverse +0,003 (IC che contiene 0). Non c'è un "modo" di scrivere comune.
   - Quali scelte hanno la memoria (e3b19): sì k/t (+0,041), qo/o, sh/ch, ee/e, -ey/-dy; no il numero di i (ain/aiin/aiiin) né -l/-r; ckh/cth e vocale iniziale con troppi pochi dati.
   - La memoria non sembra venire dallo stato della penna (nota dopo e3b18): una penna che si scarica agirebbe su tutte le scelte insieme, mentre ogni scelta ricorda solo sé stessa.
+- **Figura dei profili di memoria** (`risultati/figure/memoria_profili.png`, da `strumenti/figura_memoria_profili.py`): A) accordo delle scelte di grafia per distanza nella riga, lingua A e B (e3b14); B) ripetizione di parole per distanza, nella stessa riga e dalla riga sopra (e3a87). Nella riga la memoria si spegne in poche parole; dalla riga sopra la ripresa è piatta.
