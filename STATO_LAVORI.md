@@ -239,6 +239,11 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     scrive, non come si traccia la lettera; non si trova in scribi veri, lingue artificiali, generatori.
     **e3c55:** l'accordo vale quasi uguale fra parole molto diverse (+0,09) e simili (+0,13): è uno "stato" di 2 – 3 parole,
     non copia di parole vicine (Timm e Schinner, che copia, ha accordo solo fra parole simili).
+    **e3c57:** la finestra non viene dalla posizione nella riga (nullo con la posizione: +0,11 accanto, +0,08 a 2–3).
+    **e3c58 – e3c59:** altri quattro scribi Menota: 11 scelte su 12 senza accordo, ma la s lunga/tonda di AM 302 fol ha
+    una finestra come il Voynich e supera le stesse prove: **uno scriba vero può averla** (ritirata la lettura "quale
+    parola, non come si traccia la lettera"). **e3c60:** raccordo negli scribi in 2 scelte su 11, quattro volte più debole
+    del Voynich. In preparazione: e3c61, omofoni del copista del cifrario Copiale.
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
