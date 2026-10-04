@@ -14507,3 +14507,32 @@ errore nel primo generatore di prova trovato e corretto, vedi preregistrazione).
   alla pari (prossima voce).
 - **Da ricontrollare subito:** la forma piatta (R). Nel Voynich le coppie a 8–12 parole vengono solo dalle righe lunghe,
   mentre nelle lingue (blocchi) vengono da tutto il testo: il confronto potrebbe non essere alla pari (e3c28).
+
+## 4/10/2026 (mattina) — e3c28: alla pari, la forma piatta resta propria del Voynich
+
+Preregistrato (`preregistrazioni/e3c28.md`). Stessa misura per tutti: lingue tagliate in righe finte con le lunghezze delle
+righe del Voynich; righe senza bordi; coppie solo dentro la riga; atteso dalla stessa parola coperta. Codice provato su
+testi finti (memoria R 0,59; solo parole accanto R 0,05).
+
+| testo | accordo accanto | R (IC 95%) |
+|---|---|---|
+| Voynich IT | +0,170 (0,09 – 0,24) | **0,85** (0,61 – 1,02) |
+| Voynich ZL | +0,184 (0,11 – 0,25) | **0,82** (0,64 – 0,97) |
+| latino, Plinio (generica) | +0,080 | 0,42 (0,16 – 0,60) |
+| latino Vulgata (-*us*/-*a*) | +0,333 | 0,40 (0,15 – 0,58) |
+| latino Vulgata (generica), Avicenna, Plinio (-*us*/-*a*), francese Martin | +0,07 – +0,15 | 0,27 – 0,33 |
+| italiano, spagnolo, greco, francese moderno, *Della Pittura* | +0,08 – +0,36 | 0,07 – 0,24 |
+
+(13 lingue contano; 8 non hanno accordo accanto chiaro in righe così corte.)
+
+- **Esito preregistrato: alla pari la forma piatta resta propria del Voynich.** Nessuna lingua arriva alla soglia (0,61);
+  la più alta è Plinio, 0,42.
+- Il tratto più solido della memoria del Voynich regge anche al confronto più severo (bordi tolti, preferenze delle
+  parole tolte, coppie lontane dalle righe lunghe per tutti).
+- **Spiegazione dei 4 punti dell'e3c27:** fra parole accanto l'accordo del Voynich, a parità di parola, è forte (+0,17 –
+  +0,18, come le lingue con accordo chiaro), e resta alto fino a 6–7 parole (e3c15). Il confronto "vicine 2–3 contro
+  lontane 6–10" dell'e3b62 sottostima una memoria così lunga, perché anche le "lontane" ne hanno ancora. La grandezza
+  della memoria si legge meglio come accordo fra parole accanto oltre le coppie a 8–12 parole: circa +0,17.
+- Cautela: le coppie a 8–12 parole del Voynich sono poche (1.200 – 1.400) e vengono dalle righe lunghe; nelle lingue
+  succede lo stesso per costruzione, quindi il confronto è alla pari, ma resta da vedere se le righe lunghe del Voynich
+  abbiano qualcosa di particolare (prossimo passo).

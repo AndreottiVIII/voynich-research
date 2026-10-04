@@ -1395,6 +1395,15 @@ percentuali in ZL (IC 0,8 – 7,0) e 2,5 in IT (IC −0,5 – 5,5)**, concentrat
 Nel white paper la memoria va presentata così: piccola, chiara in *qo*/*o* e -*ey*/-*dy*, assente nei generatori. Il
 confronto della forma con le lingue è in verifica (e3c28).
 
+**Forma alla pari (e3c28):** con le lingue tagliate in righe finte della stessa lunghezza delle righe del Voynich e la
+stessa misura per tutti (bordi tolti, atteso dalla stessa parola, coppie solo dentro la riga), il Voynich ha R 0,85 (IT,
+IC 0,61 – 1,02) e 0,82 (ZL, 0,64 – 0,97); fra 13 lingue con accordo chiaro la più alta è Plinio, 0,42. **La forma piatta
+resta propria del Voynich.** L'accordo fra parole accanto, a parità di parola, è +0,17 – +0,18 (come nelle lingue con
+accordo chiaro) e resta alto fino a 6–7 parole: per questo il confronto "vicine 2–3 contro lontane 6–10" (e3b62, e3c27)
+ne vede solo una parte. **Formula per il white paper, aggiornata:** il Voynich ha un accordo delle scelte di grafia fra
+parole della stessa riga forte quanto l'accordo grammaticale delle lingue, ma che, a differenza di questo, non si
+concentra fra parole accanto e dura per quasi tutta la riga; nessun generatore pubblicato lo ha.
+
 **Lezioni di metodo da riportare** (utili anche a chi legge): (1) confrontare con la media della pagina ai bordi della
 riga inganna, perché fine e inizio riga hanno forme proprie; (2) togliere le coppie "simili" guardando la parola intera
 falsa i confronti con i rimescolamenti; (3) il rimescolamento parola per parola sottostima la variabilità: servono
