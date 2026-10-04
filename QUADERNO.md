@@ -11306,3 +11306,9 @@ dall'inizio: −0,40; nessuna copia: −0,03). 656 paragrafi, 23.676 parole.
 - **Lettura:** lo scriba riprende da tutta la riga sopra, ma l'eccesso cresce verso la fine (quasi il doppio
   nell'ultimo terzo rispetto al primo): le parole scritte per ultime, ancora "fresche", si riprendono di più. Va con
   una copia fatta (anche) a memoria, oltre che guardando. Effetto piccolo.
+
+## 4/10/2026 (notte) — e3a84: la preferenza per la fine della riga sopra si ritrova con Takahashi
+
+Preregistrato (`preregistrazioni/e3a84.md`). Stesso metodo dell'e3a83 sulla IT: 654 paragrafi, 23.694 parole.
+Differenza **+0,009**, IC 95% +0,003 – +0,017 (ZL: +0,009, IC +0,002 – +0,016). Eccesso per terzo della riga sopra:
++0,014, +0,023, +0,024. **Esito preregistrato: si ritrova.**
