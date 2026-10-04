@@ -1,0 +1,9 @@
+Voynich {"Hpos": 0.7447182489966446, "sottoinsiemi": [0.741399933572426, 0.7505313214596394, 0.7447182489966446, 0.7545586434674296, 0.7193572436250598]}
+gibberish umano {"Hpos": 1.3571565923599946}
+Naibbe (Greshko 2025), a capo {"Hpos": 0.7080384512739238}
+U2 (Whitehatnetizen 2026) {"Hpos": 0.8449795347911432}
+U3 (Whitehatnetizen 2026) {"Hpos": 0.9224213117514993}
+Timm e Schinner, seme 1 {"Hpos": 0.9603025173570138}
+rho frequenza-forma (e3a55) {"testi": 71, "coefficienti": [0.02354073132452326, 0.22887746542441867, -0.0029315087921258642], "r_con_Hpos": 0.34973642581353426, "sd_residui": 0.0889833004636587, "previsto": 0.1874879895902403, "voynich_riscritto": 0.6134740525325424, "z": 4.787258516178295, "esito": "il Voynich va ancora oltre"}
+riempimento (e3a61) {"testi": 71, "coefficienti": [0.8120760839133557, -0.18815014333221586, -0.13643930333765938], "r_con_Hpos": -0.3320862575542293, "sd_residui": 0.057753376566372173, "previsto": 0.36934042474540374, "voynich_riscritto": 0.4412280701754386, "z": 1.2447349350633912, "esito": "la rigidità di posizione spiega il Voynich"}
+tagli sbagliati che sono parole (e3a67) {"testi": 71, "coefficienti": [0.29998647159174946, 0.14747054571114845, -0.08768538711865737], "r_con_Hpos": 0.3101335229997763, "sd_residui": 0.05759915432164703, "previsto": 0.21532786338090143, "voynich_riscritto": 0.4694027116159766, "z": 4.411086433947664, "esito": "il Voynich va ancora oltre"}

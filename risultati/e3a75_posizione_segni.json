@@ -1,0 +1,154 @@
+{
+ "altri": {
+  "Voynich": {
+   "Hpos": 0.7447182489966446,
+   "sottoinsiemi": [
+    0.741399933572426,
+    0.7505313214596394,
+    0.7447182489966446,
+    0.7545586434674296,
+    0.7193572436250598
+   ]
+  },
+  "gibberish umano": {
+   "Hpos": 1.3571565923599946
+  },
+  "Naibbe (Greshko 2025), a capo": {
+   "Hpos": 0.7080384512739238
+  },
+  "U2 (Whitehatnetizen 2026)": {
+   "Hpos": 0.8449795347911432
+  },
+  "U3 (Whitehatnetizen 2026)": {
+   "Hpos": 0.9224213117514993
+  },
+  "Timm e Schinner, seme 1": {
+   "Hpos": 0.9603025173570138
+  }
+ },
+ "lingue": {
+  "minimo": 0.6199391048936161,
+  "mediana": 1.1389064331155443,
+  "massimo": 1.4049934341972181,
+  "quota_sotto_il_voynich": 0.04225352112676056
+ },
+ "esito_1": "percentile 4% fra le lingue",
+ "regressione": {
+  "rho frequenza-forma (e3a55)": {
+   "testi": 71,
+   "coefficienti": [
+    0.02354073132452326,
+    0.22887746542441867,
+    -0.0029315087921258642
+   ],
+   "r_con_Hpos": 0.34973642581353426,
+   "sd_residui": 0.0889833004636587,
+   "previsto": 0.1874879895902403,
+   "voynich_riscritto": 0.6134740525325424,
+   "z": 4.787258516178295,
+   "esito": "il Voynich va ancora oltre"
+  },
+  "riempimento (e3a61)": {
+   "testi": 71,
+   "coefficienti": [
+    0.8120760839133557,
+    -0.18815014333221586,
+    -0.13643930333765938
+   ],
+   "r_con_Hpos": -0.3320862575542293,
+   "sd_residui": 0.057753376566372173,
+   "previsto": 0.36934042474540374,
+   "voynich_riscritto": 0.4412280701754386,
+   "z": 1.2447349350633912,
+   "esito": "la rigidità di posizione spiega il Voynich"
+  },
+  "tagli sbagliati che sono parole (e3a67)": {
+   "testi": 71,
+   "coefficienti": [
+    0.29998647159174946,
+    0.14747054571114845,
+    -0.08768538711865737
+   ],
+   "r_con_Hpos": 0.3101335229997763,
+   "sd_residui": 0.05759915432164703,
+   "previsto": 0.21532786338090143,
+   "voynich_riscritto": 0.4694027116159766,
+   "z": 4.411086433947664,
+   "esito": "il Voynich va ancora oltre"
+  }
+ },
+ "voynich_fuori_intervallo": false,
+ "testi_sensati": {
+  "Modern - Chinese (Pinyin) - Literary - NT - Matthew": 0.6199391048936161,
+  "Modern - Chinese (Pinyin) - Technical - Voynich Wiki": 0.6306311619114238,
+  "Historical - Greek - Technical - De odoribus": 0.7389682370695543,
+  "Historical - Sanskrit - Technical - Charaka Samhita": 0.8448666769326973,
+  "Conlangs - Klingon - Literary - NT - Mark": 0.9588170750536349,
+  "Conlangs - Lojban - Technical - Science News": 0.9595034649726707,
+  "Modern - Turkish - Technical - Middle Ages Wiki": 0.9604198927978786,
+  "Historical - Arabic - Literary - Quran": 0.970120283034112,
+  "Historical - Sanskrit - Literary - Mahabharata": 0.972560310452289,
+  "Historical - Nahuatl - Literary - Nican Mopohua": 0.9888136500457251,
+  "Historical - Nahuatl - Technical - Florentine Codex": 0.9915559626670487,
+  "Modern - Swahili - Technical - Lung Cancer Wiki": 0.9961544763271933,
+  "Modern - Turkish - Literary - NT": 0.996854129549363,
+  "Modern - Swahili - Literary - NT": 0.9996890112936188,
+  "Conlangs - Lojban - Literary - Alice in Wonderland": 1.0338481021563004,
+  "Conlangs - Klingon - Technical - Proxima Centauri B Wikia": 1.0375332629389598,
+  "Historical - Russian - Literary - NT - Codex Marianus": 1.0411063183125646,
+  "Modern - German - Technical - Voynich Wiki": 1.0435963342000294,
+  "Historical - Italian - Technical - Della Pittura": 1.0703820587273514,
+  "Modern - Russian - Technical - Voynich Wiki": 1.0728710538849167,
+  "Historical - Greek - Literary - NT - Textus Receptus": 1.074300269117834,
+  "Historical - German - Technical - German Herbarium": 1.0757862355780208,
+  "Modern - French - Technical - Voynich Wiki": 1.0788966208309918,
+  "Historical - Flemish - Technical - Cruydeboeck": 1.079476344582716,
+  "Conlangs - Neo-Quenya - Technical - Europe-Taipei Wikia": 1.0817314021807751,
+  "Historical - Latin - Technical - Pliny's Natural History": 1.0828186588717432,
+  "Modern - Hebrew - Technical - Voynich Wiki": 1.099299169350031,
+  "Modern - Italian - Technical - Voynich Wiki": 1.1010988547809355,
+  "Conlangs - Interlingua - Technical - EU Wiki": 1.112614496643718,
+  "Conlangs - Volapuk - Technical - History Wiki": 1.1154780499564376,
+  "Historical - Flemish - Literary - NT": 1.1220861795716075,
+  "Historical - Latin - Literary - NT (Vulgate)": 1.1269717820710234,
+  "Modern - Spanish - Technical - Voynich Wiki": 1.1304482207297815,
+  "Modern - French - Literary - NT": 1.1335604657975638,
+  "Modern - German - Literary - NT": 1.1380578049463523,
+  "Conlangs - Esperanto - Technical - Voynich Wiki": 1.1389064331155443,
+  "Historical - French - Literary - NT - Martin": 1.1395220301119247,
+  "Historical - German - Literary - NT - Luther": 1.1515041247362223,
+  "Historical - Anglo-Saxon - Literary - NT - Hatton Gospels": 1.1528300411279766,
+  "Historical - Spanish - Technical - De Materia Medica": 1.1588720176917104,
+  "Conlangs - Toki Pona - Technical - Turkey-Mexico Wikia": 1.1678283259361444,
+  "Modern - English - Technical - Voynich Wiki": 1.1696277965438906,
+  "Conlangs - Esperanto - Literary - NT": 1.1711627593072946,
+  "Modern - Portuguese - Technical - Voynich Wiki": 1.1718763113658255,
+  "Modern - Tagalog - Technical - Tuberculosis Wiki": 1.1738344838473926,
+  "Modern - Arabic - Technical - Voynich Wiki": 1.1791333410697564,
+  "Modern - Italian - Literary - NT": 1.1798385550692754,
+  "Modern - Tagalog - Literary - NT - Ang Dating Biblia": 1.1831659138605395,
+  "Historical - Spanish - Literary - NT - Sagradas Escrituras": 1.1910781860645272,
+  "Historical - Arabic - Technical - Avicenna": 1.1944509758741582,
+  "Historical - Italian - Literary - NT - Diodati": 1.200847674896254,
+  "Historical - Latin (Abbreviated) - Technical - Pliny's Natural History": 1.206074026433898,
+  "Modern - Hebrew - Literary - NT": 1.206573919974025,
+  "Historical - Anglo-Saxon - Technical - Leechbook": 1.2101224725928297,
+  "Modern - Maori - Technical - Polandball Wiki": 1.21201888748458,
+  "Conlangs - Toki Pona - Literary - NT - Sermon on the Mount": 1.2124264043382367,
+  "Historical - English - Technical - Secreta Alberti": 1.214658315108134,
+  "Modern - Wolof - Technical - Senegal Wiki": 1.220288118171081,
+  "Conlangs - Neo-Quenya - Literary - NT": 1.2266016264122244,
+  "Modern - English - Literary - NT": 1.2327622155586153,
+  "Historical - English - Literary - NT (KJV)": 1.239990866505677,
+  "Historical - Portuguese - Technical - Coloquios dos simples": 1.2436494112694194,
+  "Modern - Maori - Literary - NT": 1.2574172237336028,
+  "Historical - Mayan (Kaqchikel) - Literary - Annals of the Cakchiquels": 1.2628026221796367,
+  "Conlangs - Interlingua - Literary - NT": 1.2632589573672217,
+  "Modern - Yoruba - Technical - Jupiter Wiki": 1.2915337784584027,
+  "Modern - Arabic - Literary - NT": 1.2944592533503934,
+  "Conlangs - LOLCat - Literary - NT - Matthew": 1.2962746416404884,
+  "Conlangs - Volapuk - Literary - NT": 1.3123776772333333,
+  "Historical - Mayan (Yucatec) - Technical - Chilam Balam": 1.34794200106445,
+  "Historical - Latin (Abbreviated) - Literary - NT (Vulgate)": 1.4049934341972181
+ }
+}
