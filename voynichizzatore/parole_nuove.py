@@ -102,11 +102,12 @@ class FormeUniche:
     DECIMO, CANDIDATE, ALFA = 0.1, 6, 50.0
     COMUNE, MINIMO_CONTESTO = 0.01, 3      # e405: segni comuni (quota nel libro); contesto di tre segni visto almeno 3 volte
 
-    def __init__(self, rr, comuni=False, quattro=False, forza=1.0, unioni=0.0):
+    def __init__(self, rr, comuni=False, quattro=False, forza=1.0, unioni=0.0, unioni_valide=False):
         """comuni: il profilo pesa solo i segni comuni (e405, N1); quattro: modello a quattro segni con ripiego sui
         trigrammi (N2); forza: esponente del peso di profilo nella scelta fra candidate (N3)."""
         self.comuni, self.quattro, self.forza = comuni, quattro, forza
         self.unioni = unioni        # e407: probabilita' che una parola nuova di almeno 6 segni sia l'unione di due parole note della pagina
+        self.unioni_valide = unioni_valide      # e413: l'unione si accetta solo se ogni terna di segni e' vista nelle parole uniche
         self.campioni = self.scartate = 0
         import math
         from disposizione import posizione
@@ -183,12 +184,18 @@ class FormeUniche:
                     vicina = w
         return vicina
 
+    def ben_formata(self, w):
+        """Ogni terna di segni consecutivi (inizio e fine compresi) e' stata vista nelle parole uniche."""
+        u = ('^', '^') + tuple(D(w)) + ('$',)
+        tab = self.tri['tutte']
+        return all((a, b) in tab and c in tab[(a, b)][0] for a, b, c in zip(u, u[1:], u[2:]))
+
     def _unione(self, per_lung, L, rnd):
         for _ in range(20):
             la = rnd.randrange(2, L - 1)
             if per_lung.get(la) and per_lung.get(L - la):
                 w = rnd.choice(per_lung[la]) + rnd.choice(per_lung[L - la])
-                if w not in self.att and w not in self.usate:
+                if w not in self.att and w not in self.usate and (not self.unioni_valide or self.ben_formata(w)):
                     return w
         return None
 

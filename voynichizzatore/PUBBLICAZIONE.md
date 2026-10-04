@@ -79,3 +79,21 @@ uniche, niente conteggi delle coppie per pagina (il loro peso nel modello √® gi√
 - un modulo unico senza dipendenze dagli esperimenti (oggi il generatore importa pezzi da `esperimenti/`);
 - un README con i numeri del banco, i limiti del punto 4 e le istruzioni d'uso;
 - la prova di andata e ritorno su una seconda macchina.
+
+## 6. Aggiornamento del 4/10 mattina: che cosa dice il sito sulla licenza (da ricontrollare a mano)
+
+Letto attraverso un riassunto automatico della pagina, non riga per riga:
+
+- la pagina delle trascrizioni (voynich.nu/transcr.html) non dichiara condizioni, rimanda alla pagina sul diritto
+  d'autore del sito (voynich.nu/roadmap.html, sezione "Copyright");
+- quella sezione dice che il materiale del sito si puo' usare liberamente, chiede di citare la fonte, e che le
+  trascrizioni del testo del Voynich sono messe a disposizione **secondo la licenza Creative Commons CC0** (pubblico
+  dominio: copia e opere derivate senza limiti);
+- eccezione: il font "Voynich Eva Hand 1" e' di Gabriel Landini e non si puo' usare a fini commerciali (riguarda la
+  futura uscita come immagine, non il testo EVA);
+- il repo da cui vengono le nostre copie (Krymorn/The-Voynich-Transliteration-Tool) e' sotto licenza MIT per il suo
+  codice e dice che le trascrizioni restano dei loro autori.
+
+Se la lettura a mano conferma il CC0, la strada B (codice piu' statistiche) e' aperta, citando Zandbergen e Landini.
+Decisione di Davide del 4/10 (provvisoria, poi sospesa): pubblicare la v12 con codice piu' statistiche e cifratura
+robusta; alle 6:10 ha rimandato le decisioni al mattino dopo e chiesto di continuare a migliorare la v12.
