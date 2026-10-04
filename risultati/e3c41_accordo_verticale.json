@@ -1,0 +1,60 @@
+{
+ "trascrizioni": {
+  "ZL": {
+   "stessa riga, d = 1": {
+    "K": 0.13683283645638006,
+    "IC95": [
+     0.1124834245385204,
+     0.16048086319103866
+    ],
+    "coppie": 8644
+   },
+   "riga sotto, stessa posizione": {
+    "K": 0.045205089817166005,
+    "IC95": [
+     0.020218826526719382,
+     0.07018384568649916
+    ],
+    "coppie": 7679
+   },
+   "controllo: due righe sotto": {
+    "K": 0.023834115872244516,
+    "IC95": [
+     -0.007124892968443145,
+     0.05499032773326338
+    ],
+    "coppie": 5688
+   }
+  },
+  "IT": {
+   "stessa riga, d = 1": {
+    "K": 0.14344614454858454,
+    "IC95": [
+     0.11943180762491673,
+     0.1675901327081292
+    ],
+    "coppie": 8789
+   },
+   "riga sotto, stessa posizione": {
+    "K": 0.04124473119957657,
+    "IC95": [
+     0.01574060906792711,
+     0.0666403240881936
+    ],
+    "coppie": 7786
+   },
+   "controllo: due righe sotto": {
+    "K": 0.03480444134526515,
+    "IC95": [
+     0.004001562091949412,
+     0.0635166289659468
+    ],
+    "coppie": 5777
+   }
+  }
+ },
+ "esiti": {
+  "ZL": "nessun accordo verticale: conta la sequenza della scrittura",
+  "IT": "nessun accordo verticale: conta la sequenza della scrittura"
+ }
+}

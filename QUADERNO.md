@@ -14803,3 +14803,20 @@ segni di ordine 2 (forme di bordo e raccordo sì, memoria no; e3b69).
 - Con la misura pulita il quadro è quindi: le scelte *k*/*t*, *sh*/*ch*, -*ey*/-*dy* si accordano fra parole vicine (circa
   13 punti percentuali fra parole accanto, 7–8 a 2 e 3 parole), *qo*/*o* a 2–3 parole (6–11 punti); né la catena di segni,
   né le preferenze delle parole e delle pagine, né la deriva lungo la riga lo spiegano; nessun generatore lo riproduce.
+
+## 4/10/2026 (mattina) — e3c41: l'accordo segue la sequenza della scrittura, non la vicinanza sulla pagina
+
+Preregistrato (`preregistrazioni/e3c41.md`). Misura pulita, classi *k*/*t*, *sh*/*ch*, -*ey*/-*dy*, parole interne.
+
+| | stessa riga, parole accanto | riga sotto, stessa posizione | controllo, due righe sotto |
+|---|---|---|---|
+| ZL | **+0,137** (+0,112 – +0,160) | +0,045 (+0,020 – +0,070) | +0,024 (−0,007 – +0,055) |
+| IT | **+0,143** (+0,119 – +0,168) | +0,041 (+0,016 – +0,067) | +0,035 (+0,004 – +0,064) |
+
+- **Esito preregistrato (ZL e IT): nessun accordo verticale, conta la sequenza della scrittura.** Le parole una sopra
+  l'altra, vicine sulla pagina, si accordano poco più di quelle a due righe di distanza (differenza +0,006 – +0,021, meno
+  di un terzo dell'accordo fra parole accanto).
+- Resta un piccolo accordo di fondo fra righe dello stesso paragrafo (+0,02 – +0,04 anche a due righe), oltre la
+  preferenza della pagina: forse una piccola preferenza del paragrafo.
+- **Lettura:** l'accordo delle scelte nasce nel filo della scrittura (parole scritte una dopo l'altra), non dal guardare
+  i segni vicini sulla pagina. Va con l'e3b85 (dalla riga sopra si copia la forma, non le scelte).

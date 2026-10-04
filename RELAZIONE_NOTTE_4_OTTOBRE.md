@@ -526,7 +526,8 @@ cambiava l'ho scritto. Ecco che cosa resta.
    decide la regola di raccordo). C'è in ZL, Takahashi e Glen Claston (e3c34, e3c35, e3c38). Non viene dalla catena di
    segni: sul Voynich riscritto dalla sua catena, che conserva raccordo e forme di bordo, la stessa misura dà zero (e3c40).
    In numeri semplici: fra parole accanto la stessa scelta si ripete circa 13 punti percentuali più del previsto, a 2–3
-   parole 7–8 punti.
+   parole 7–8 punti. Segue la sequenza della scrittura: le parole una sopra l'altra, vicine sulla pagina, quasi non si
+   accordano (e3c41).
 2. **Nessun generatore pubblicato lo riproduce.** U3 e Timm e Schinner hanno un piccolo accordo fra parole accanto, ma a
    due e tre parole niente (e3c29, e3c37).
 3. **Dentro la riga le varianti marcate calano verso destra** (*qo*, *k*, *sh*, -*ey*), più in fretta all'inizio della riga.
