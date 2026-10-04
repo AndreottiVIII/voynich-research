@@ -1,0 +1,88 @@
+{
+ "pieno": [
+  0.07502755401816975,
+  303
+ ],
+ "una_fuori": {
+  "f1r": {
+   "eccesso": 0.0705293979988369,
+   "coppie": 282
+  },
+  "f66r": {
+   "eccesso": 0.09285437493548272,
+   "coppie": 250
+  },
+  "f76r": {
+   "eccesso": 0.08048952370130524,
+   "coppie": 204
+  },
+  "f85r1": {
+   "eccesso": 0.06808246656689214,
+   "coppie": 256
+  },
+  "f86v6": {
+   "eccesso": 0.07094578272536212,
+   "coppie": 256
+  },
+  "f86v5": {
+   "eccesso": 0.06948601391049117,
+   "coppie": 267
+  }
+ },
+ "da_sola": {
+  "f1r": {
+   "eccesso": 0.1354313634206393,
+   "coppie": 21,
+   "mano": "1"
+  },
+  "f66r": {
+   "eccesso": -0.009061223893683952,
+   "coppie": 53,
+   "mano": "5"
+  },
+  "f76r": {
+   "eccesso": 0.0637725861862542,
+   "coppie": 99,
+   "mano": "2"
+  },
+  "f85r1": {
+   "eccesso": 0.11285611545491611,
+   "coppie": 47,
+   "mano": "2"
+  },
+  "f86v6": {
+   "eccesso": 0.09726018063431359,
+   "coppie": 47,
+   "mano": "2"
+  },
+  "f86v5": {
+   "eccesso": 0.11612730981678565,
+   "coppie": 36,
+   "mano": "2"
+  }
+ },
+ "esito_1": "non dipende da una pagina",
+ "mano2_T": {
+  "pagine": 4,
+  "stessa_riga": 0.041652225825244193,
+  "coppie_stessa": 1136,
+  "a_cavallo": 0.08894993494339412,
+  "coppie_a_cavallo": 229,
+  "IC95_a_cavallo": [
+   0.01809864038501172,
+   0.16845720476521267
+  ]
+ },
+ "mano2_altre": {
+  "pagine": 42,
+  "stessa_riga": 0.030491471705159263,
+  "coppie_stessa": 6799,
+  "a_cavallo": -0.006179108227325013,
+  "coppie_a_cavallo": 2106,
+  "IC95_a_cavallo": [
+   -0.02945362587204464,
+   0.01673226479443964
+  ]
+ },
+ "esito_2": "stessa mano, comportamento diverso"
+}
