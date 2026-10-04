@@ -1,0 +1,55 @@
+{
+ "altri": {
+  "Voynich": {
+   "ripetizione": 0.01006952769120115,
+   "quasi": 0.041257934218118866
+  },
+  "gibberish umano": {
+   "ripetizione": 0.0050565535595475716,
+   "quasi": 0.0072992700729927005,
+   "coppie": 7515
+  },
+  "Naibbe (Greshko 2025), a capo": {
+   "ripetizione": 0.0010978287387167602,
+   "quasi": 0.012418027068508442,
+   "coppie": 8198
+  },
+  "U2 (Whitehatnetizen 2026)": {
+   "ripetizione": 0.005044772354647497,
+   "quasi": 0.013320494302680147,
+   "coppie": 7929
+  },
+  "U3 (Whitehatnetizen 2026)": {
+   "ripetizione": 0.007873031742064484,
+   "quasi": 0.020527859237536656,
+   "coppie": 8002
+  },
+  "Timm e Schinner, seme 1": {
+   "ripetizione": 0.01321036889332004,
+   "quasi": 0.07137103270501047,
+   "coppie": 8024
+  }
+ },
+ "lingue": {
+  "mediana": 0.0010230179028132991,
+  "p90": 0.002916560994166878,
+  "massimo": 0.0070921985815602835,
+  "quasi_mediana": 0.002290950744558992,
+  "quasi_massimo": 0.02208835341365462,
+  "piu_ripetitive": [
+   [
+    "Conlangs - Toki Pona - Literary - NT - Sermon on the Mount",
+    0.0070921985815602835
+   ],
+   [
+    "Historical - Anglo-Saxon - Literary - NT - Hatton Gospels",
+    0.006046235921754594
+   ],
+   [
+    "Historical - Latin (Abbreviated) - Literary - NT (Vulgate)",
+    0.0055056505360765
+   ]
+  ]
+ },
+ "esito": "ripete subito più di tutte le lingue"
+}
