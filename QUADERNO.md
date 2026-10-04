@@ -12309,3 +12309,20 @@ Differenza vicino − lontano **+0,041**, IC 95% +0,016 – +0,068 (nei paragraf
 corta anche nei cerchi.** Anche l'eccesso lontano è positivo, perché l'atteso è preso da tutti i testi in cerchio insieme
 (ogni cerchio ha il suo stile); conta la differenza. La memoria corta è un fatto dell'atto di scrivere, non solo dei
 paragrafi: c'è anche quando si scrive in tondo attorno a un disegno.
+
+## 4/10/2026 (notte) — e3b38: nelle pagine "solo testo" la memoria delle scelte passa l'a capo (nelle altre no)
+
+Preregistrato (`preregistrazioni/e3b38.md`). Eccesso d'accordo delle scelte di grafia a distanza 2–3 parole.
+
+| pagine | quante | stessa riga | a cavallo dell'a capo | IC 95% a cavallo |
+|---|---|---|---|---|
+| solo testo (T) | 6 | +0,043 (1.418 coppie) | **+0,075** (303) | +0,025 – +0,133 |
+| altre pagine | 201 | +0,030 (20.219) | −0,002 (5.363) | −0,016 – +0,011 |
+
+- **Esito preregistrato: nelle pagine solo testo la memoria passa l'a capo.** Nelle altre 201 pagine l'a capo la azzera
+  (come nell'e3b10); nelle 6 pagine "solo testo" no, anzi l'accordo a cavallo è alto quanto (o più di) quello nella
+  stessa riga.
+- **Lettura:** in quelle pagine la riga non è un'unità della scrittura. Va con l'e3a06, che vi aveva trovato un legame
+  fra righe consecutive che altrove non c'è. Ipotesi: quelle pagine sono state scritte come un testo continuo, per
+  esempio copiando un modello che andava a capo in punti diversi, o di getto senza le abitudini di riga delle altre.
+- **Cautela:** sono solo 6 pagine e 303 coppie a cavallo; va replicato con Takahashi (e3b39).
