@@ -1563,6 +1563,25 @@ forma: le sue regole fra parole vicine e ai bordi della riga sono molto più for
 Limiti: gli scribi sono tutti nordici; manca un confronto con scribi latini o tedeschi del Quattrocento trascritti a
 livello facsimile.
 
+**STRADE DI CIFRATURA MAI PROVATE PRIMA (e3c67 – e3c74, 4/10 mattina, richiesta di Davide).** Tutte con controlli finti
+che mostrano che la prova vede il meccanismo cercato (o, se non lo vede, lacuna dichiarata):
+
+| ipotesi | prova | esito |
+|---|---|---|
+| unità nascoste di qualche parola (cifrario verboso): i confini degli stati coincidono fra scelte | e3c67 | **non misurabile** (la prova sui testi finti non ha potenza; lacuna) |
+| indice di cambio alfabeto alla Alberti (un segno dopo cui lo stato riparte) | e3c68 | nessun indice frequente; uno raro non è escluso |
+| messaggio a bit nelle scelte doppie alla Bacone | e3c70 | nessun segnale per messaggi che ripartono a ogni pagina o riga (il controllo dà z fino a 70); uno continuo resta fuori portata |
+| autochiave che riparte a ogni riga | e3c71 | **chiude la riga come il Voynich** (Q 0,06 / −0,05 contro 0,04), ma rompe tutto il resto: nessuna ripetizione, vocabolario gonfio (4.500 – 6.400 tipi su 10.000 contro 2.900), inizi deboli, nessun margine. Esclusa come sistema; l'idea di un "avvio per riga" resta l'unica che chiude la riga |
+| liste di parole a turno alla Tritemio | e3c69 | nessun ciclo da 2 a 6 parole (l'unico "picco" a 2 viene dalla parola accanto, criterio ingenuo dichiarato) |
+| copisti di cifrari omofonici veri (DECODE) | — | bloccata: i file richiedono un account e non c'è licenza di riuso; nessun cifrario del Quattrocento con trascrizione e chiave |
+| un'impostazione delle scelte per ogni riga (chiave per riga) | e3c73, e3c74 | **no**: l'accordo lontano nella riga (+0,04) c'è uguale fra righe consecutive (+0,05); c'è una componente lenta che attraversa le righe (e3c75 in corso) |
+
+**Lettura d'insieme:** nessuno dei meccanismi di cifratura storici provati (omofoni alla Copiale, indice alla Alberti,
+biletterale alla Bacone, liste alla Tritemio, autochiave) riproduce l'insieme delle proprietà del Voynich; l'autochiave
+per riga ne riproduce una sola (la riga chiusa) al prezzo di distruggere le altre. Lo stato del Voynich resta descritto
+così: per ogni scelta, uno stato breve che si spegne in 2 – 3 parole (non copia, non posizione, non legato alle
+occorrenze della scelta, e3c55, e3c57, e3c72), più una componente lenta che attraversa le righe.
+
 **Lezioni di metodo da riportare** (utili anche a chi legge): (1) confrontare con la media della pagina ai bordi della
 riga inganna, perché fine e inizio riga hanno forme proprie; (2) togliere le coppie "simili" guardando la parola intera
 falsa i confronti con i rimescolamenti; (3) il rimescolamento parola per parola sottostima la variabilità: servono
