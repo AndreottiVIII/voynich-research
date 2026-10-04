@@ -789,6 +789,30 @@ come **PDF del libro**.
   Numeri in `SITO_WEB.md`, §12.
 - Per la v18 (e416): il sito terrà ogni versione in una cartella sua, così la v17 resta leggibile.
 
+## 4/10/2026, pomeriggio — Sito web: prima versione funzionante (chat del sito)
+
+- **Dove:** `C:\Users\davide\voynichizzatore_sito`, worktree del repo pubblico sul ramo locale `sito`, cartella `docs/`.
+  Niente committato né pubblicato. La copia `C:\Users\davide\voynichizzatore` (quella dell'altra chat) non è toccata.
+- **Com'è fatto:** cinque pagine statiche (Write, Read, How it works, Research vuota, About). Il programma v17 è
+  copiato senza modifiche in `docs/engine/v17/` da `docs/engine/build_engine.py`, con le impronte SHA-256 e il
+  commit (`182056e`). Gira in un web worker con Pyodide 314.0.7; `scrypt` viene da `@noble/hashes` 2.4.0, copiata in
+  `docs/js/noble-hashes/`. L'avanzamento pagina per pagina si legge avvolgendo da fuori `canale_sacco.distribuzione` e
+  `Disposizione.pagina`, senza cambiare il calcolo. Fasi misurate sul PC (107 s): modello 9 s, parole 7 s,
+  disposizione 87 s, verifica 2 s.
+- **Amanuense:** una penna d'oca scrive voynichese di fantasia su un foglio; l'angolo mostra il foglio vero in lavorazione.
+- **Aspetto:** Davide ha bocciato la prima bozza ("libro miniato"). Ha chiesto di prendere l'aspetto dal Voynich vero:
+  pergamena su nero come nelle foto della Beinecke, inchiostro bruno, e un disegno vero per pagina (f9v, f67r, f88r,
+  f75r, f33v). I disegni sono tolti dallo sfondo e fusi sulla pergamena (`mix-blend-mode: multiply`). La pergamena è
+  la grana del foglio di guardia tinta col colore dei fogli. Le immagini stanno in `docs/img/` e sono fatte dallo
+  script della sessione dalle foto in `dati/cache/immagini`. **Da decidere con Davide prima di committarle:** Yale le
+  dà in open access per le opere di pubblico dominio ("may be used by anyone for any purpose"), ma il manifesto IIIF
+  riporta solo un avviso generico.
+- **Prove fatte nel browser:** scrittura completa (207 fogli, 4.260 righe, 4 min 36 s con il PC carico), verifica
+  interna passata, PDF 0,3 MB, anteprima pagina per pagina; Read: chiave sbagliata rifiutata, testo esatto con quella
+  giusta; **il manoscritto fatto dal sito si rilegge col programma da riga di comando sul PC.**
+- Da fare: How it works passo per passo; collaudo con più chiavi e testi; telefono; scelta definitiva dell'aspetto;
+  pubblicazione solo col via di Davide.
+
 ## 4/10/2026, 13:50 — e416 / e416b: righe troppo larghe, due tentativi, resta la v17
 
 - Voce completa nel QUADERNO ("vz: e416 ed e416b"). In breve: termine di larghezza nella disposizione
