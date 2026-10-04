@@ -1,0 +1,13 @@
+{
+ "con_lunghezze": {
+  "differenza": -0.03909145783409623,
+  "p": 0.0009995002498750624,
+  "punti": 7911
+ },
+ "solo_coppia_di_segni": {
+  "differenza": -0.10883591207787892,
+  "p": 0.0004997501249375312,
+  "punti": 7911
+ },
+ "esito": "il calo a fine riga resta a parità di lunghezza"
+}

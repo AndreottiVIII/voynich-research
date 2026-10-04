@@ -11811,3 +11811,18 @@ e sul maori.
   testo di circa 37.000). Lo spazio del Voynich non si comporta come un confine di sillaba di una scrittura come il
   pinyin, dove la struttura della sillaba lo decide quasi sempre. Il maori (sillabe aperte, scritto a parole) è
   lessicale come le altre lingue.
+
+## 4/10/2026 (notte) — e3b12: il calo degli spazi facoltativi a fine riga resta a parità di lunghezza dei pezzi
+
+Preregistrato (`preregistrazioni/e3b12.md`). Punti facoltativi dell'e3b03 (7.911 nel primo o nell'ultimo terzo della
+riga).
+
+| strati | differenza ultimo − primo terzo | p |
+|---|---|---|
+| 4 segni attorno × lunghezze dei pezzi | **−0,039** | 0,001 |
+| sola coppia di segni (come l'e3a64), stessi punti | −0,109 | 0,0005 |
+
+- **Esito preregistrato: il calo a fine riga resta a parità di lunghezza.** Tenendo ferme le lunghezze dei pezzi il
+  calo si riduce (da −0,109 a −0,039 su questi punti) ma resta: verso la fine della riga lo scriba mette meno spazi
+  facoltativi anche a parità di segni vicini e di lunghezza della parola in corso. La compressione verso il margine
+  (e3a64) è reale.
