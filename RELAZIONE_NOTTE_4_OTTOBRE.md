@@ -247,7 +247,10 @@ ma come un'abitudine che si consuma scrivendo. Su tutti i 26 testi grandi del co
 chiaro arriva alla forma del Voynich, ma il Volapük (lingua artificiale, con il plurale -*s* che dura per tutta la frase)
 ci va vicino (62% contro 64–66%): la forma piatta è rara nelle lingue, non impossibile. Però il Volapük, come tutte le
 altre 15 lingue, non si consuma con le lettere (e3b99: mediana +0,0005 contro +0,066 del Voynich): i due tratti insieme,
-nel corpus, si trovano solo nel Voynich.
+nel corpus, si trovano solo nel Voynich. Infine (e3c01) ho lasciato scegliere al programma, con una regola uguale per
+tutti, le lettere che si alternano **dentro** la parola: nel Voynich trova da solo *k*/*t* (come avevo scelto io), *a*/*o*
+e *ch*/*e*, e la memoria c'è; in 25 testi su 26 no. L'eccezione è il Corano scritto con le vocali, dove l'alternanza è
+-*kum*/-*hum* ("vostro"/"loro"): la persona del discorso che dura per più versetti, cioè grammatica.
 
 ## In breve
 

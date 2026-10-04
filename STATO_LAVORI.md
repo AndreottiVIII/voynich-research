@@ -150,6 +150,8 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     memoria del Voynich quasi piatta fra 1 e 3 parole (0,79; 0,64–0,66 con il filtro più severo, e3b97). Figura `profilo_distanza.png`.
     Su 26 testi del corpus (e3b98, classe generica): nessuno dei 16 con accordo chiaro arriva a 0,64, ma il Volapük fa 0,62.
     Consumo con le lettere sugli stessi 16 (e3b99): mediana +0,0005 (Voynich +0,066), Volapük −0,003: i due tratti insieme solo nel Voynich.
+    Alternanze interne scelte dai dati (e3c01): memoria nel Voynich (k/t, a/o, ch/e: +0,056/+0,044), in 25 testi su 26 no; eccezione il Corano
+    (+0,064, persona del discorso -kum/-hum). Prossimi: e3c02 (generatori), e3c03 (Corano con gli altri due tratti).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
