@@ -11740,3 +11740,20 @@ Preregistrato (`preregistrazioni/e3b07.md`).
   quanto con tutte le coppie (+0,032). Questo fa pensare che la memoria riguardi anche le scelte e non solo le parole
   ripetute; la togliere delle coppie simili, anzi, dovrebbe penalizzare di più il vicino (dove le ripetizioni sono di
   più). Va misurato con l'intervallo della differenza vicino − lontano (e3b08).
+
+## 4/10/2026 (notte) — e3b08: lo scriba ricorda per 2–3 parole le scelte di grafia, anche quando non ripete la parola
+
+Preregistrato (`preregistrazioni/e3b08.md`). Differenza fra eccesso di accordo vicino (d 2–3) e lontano (d 6–10).
+
+| versione | differenza vicino − lontano | IC 95% |
+|---|---|---|
+| ZL, tutte le coppie | +0,031 | +0,020 – +0,044 |
+| ZL, senza parole simili | **+0,027** | +0,014 – +0,039 |
+| IT, tutte le coppie | +0,031 | +0,019 – +0,043 |
+| IT, senza parole simili | **+0,026** | +0,014 – +0,039 |
+
+- **Esito preregistrato: memoria delle scelte.** Anche togliendo le coppie di parole uguali o quasi uguali, le parole
+  vicine concordano nelle scelte facoltative (*qo*/*o*, -*ey*/-*dy*, *sh*/*ch*, *ee*/*e*) più di quelle lontane nella
+  stessa riga, quasi quanto con tutte le coppie (+0,027 contro +0,031). La memoria corta non è solo ripetere parole: lo
+  scriba, per 2–3 parole, tende a rifare le stesse scelte di grafia anche in parole diverse.
+- Corregge l'esito alla lettera dell'e3b07 ("era solo ripetizione di parole"), che dipendeva da un confronto sbagliato.
