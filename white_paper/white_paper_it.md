@@ -36,10 +36,10 @@ varianti marcate **derivano** verso le forme più semplici lungo la riga. Altre 
 nuovo: la ripetizione immediata della parola precedente (1,0% delle coppie accanto; 3,9% con un segno cambiato) e una
 forte struttura di pagina, bifoglio e paragrafo.
 
-**Confronti.** Regole di raccordo, evitamento sul margine sinistro, forme di bordo riga e ripetizione immediata non
-hanno paragone nei 79 scribi (mancano o sono da quattro a cento volte più deboli). Lo stato breve e la deriva lungo la
-riga non ci sono nei sei scribi nordici (la misura sui 73 tedeschi è in corso), e il copista del Copiale fa l'opposto
-del Voynich: alterna gli omofoni fra parole accanto. Uno stato più lento, che passa da una riga all'altra, è invece
+**Confronti.** Regole di raccordo, evitamento sul margine sinistro, forme di bordo riga, deriva lungo la riga e
+ripetizione immediata non hanno paragone nei 79 scribi (mancano o sono da tre a cento volte più deboli), e lo stato breve
+delle scelte non c'è in nessuno di loro nella forma del Voynich; il copista del Copiale fa l'opposto del Voynich: alterna
+gli omofoni fra parole accanto. Uno stato più lento, che passa da una riga all'altra, è invece
 normale negli scribi veri. Nessuna lettura per sostituzione in decine di lingue, nessuna delle letture pubblicate che
 abbiamo potuto verificare (Bax, Vatne, Cheshire, Schechter, Gatta), nessuno dei meccanismi storici simulati (scelta fra
 omofoni, lettere indice di Alberti, cifrario biletterale di Bacon, tavole di parole di Tritemio, autochiave che riparte
@@ -79,10 +79,11 @@ Le prime sette sono, per quanto sappiamo, **nuove**; le altre tre rafforzano con
 6. **Le scelte fra varianti hanno uno "stato" che dura qualche parola.** Fra le forme *k*/*t*, *sh*/*ch*, -*ey*/-*dy*,
    lo scriba tende a ripetere per due-tre parole la stessa scelta, **qualunque parola stia scrivendo**. Non è copia di
    parole simili, non è la posizione nella riga, è separato per ogni scelta ed è identico in tutte le mani del
-   manoscritto: è una regola del sistema di scrittura. Nei sei scribi nordici e nel copista del cifrario Copiale non
-   l'abbiamo trovato (la verifica sui 73 scribi tedeschi è in corso, esperimento e3c77).
+   manoscritto: è una regola del sistema di scrittura. Non l'abbiamo trovato in nessuno dei 79 scribi
+   medievali (sei nordici, 73 tedeschi) né nel copista del cifrario Copiale.
 7. **Lungo la riga le varianti "marcate" calano** (*qo*, *k*, *sh*, -*ey* diventano più rare andando verso destra):
-   da tre a quindici volte più che nei sei scribi nordici (verifica sui tedeschi in corso).
+   da tre a quindici volte più che nei sei scribi nordici e circa quattro volte più che nei 73 tedeschi, le cui piccole
+   derive non vanno in una direzione comune.
 8. **Il Voynich ripete subito la parola precedente** (1% delle coppie vicine) o una quasi uguale (3,9%) più di tutte
    le lingue e di tutti gli 85 testi scritti a mano provati (di solito da 10 a 100 volte di più), pur avendo un
    vocabolario di grandezza normale.
@@ -221,6 +222,32 @@ fra le occorrenze della stessa parola (che ha la stessa distorsione ma nessun ac
 riportate qui sono corrette in questo modo. La correzione ha cambiato tre indicazioni provvisorie del lavoro: lo
 scriba anglosassone non ha la "finestra" che una prima misura gli attribuiva; il Volapük non somiglia al Voynich; il
 Voynich non sta "fuori" dalla gamma delle lingue per la forma del suo accordo, ma in cima.
+
+### 3.4 Come abbiamo lavorato
+
+Il lavoro si è svolto in una conversazione continua fra i due autori, su un repository che conserva la storia di ogni
+modifica.
+
+- **Divisione del lavoro.** Davide Caniatti ha posto le domande e dato la direzione della ricerca, ha scelto fra le
+  strade proposte, ha autorizzato ogni scaricamento di dati e ogni cambio di perimetro, e ha rivisto risultati e testo.
+  Claude ha proposto gli esperimenti, ha scritto le preregistrazioni, i programmi e le voci del quaderno, ha eseguito
+  gli esperimenti e ha steso il testo.
+- **Il ciclo di ogni esperimento**, con ogni passo in un commit a parte, così che l'ordine si possa controllare nella
+  storia del repository:
+  1. il programma si prova solo su testi finti e controlli, mai sul Voynich;
+  2. si registra la preregistrazione;
+  3. si registra il programma;
+  4. si esegue l'esperimento con uno script che annota la versione del codice e dei dati, i semi del caso e l'uscita;
+  5. si registrano risultati e voce del quaderno e si pubblica sulla copia remota del repository.
+- **Altre regole**, oltre a quelle del §3.1: mai dichiarare una decifrazione, e ogni lettura proposta deve superare
+  controlli positivi, negativi e la prova sul testo rimescolato; le deviazioni dalla preregistrazione si dichiarano; gli
+  esiti negativi e gli errori si scrivono come gli altri.
+- **Ritmo.** Gli esperimenti lunghi giravano in code staccate mentre la conversazione andava avanti, e ogni risultato
+  ha portato alla domanda successiva. Il voynichizzatore (§10.3) è stato sviluppato in una conversazione separata, sullo
+  stesso repository.
+- **Calcolo impiegato.** La conversazione di ricerca ha elaborato circa 2,8 miliardi di token. Quasi tutti (circa il 99%
+  dove misurato in dettaglio) sono il contesto della conversazione, riletto a ogni passo; il testo e il codice
+  effettivamente scritti sono qualche milione di token.
 
 ---
 
@@ -451,18 +478,20 @@ Per ogni proprietà abbiamo usato **la stessa misura** del Voynich, rifacendo il
 | margine sinistro: righe che evitano l'inizio della riga sopra | 5 inizi evitati | 0 su 72 prove | nessun manoscritto con 3 o più inizi evitati; 3 su 72 con uno solo | — | **proprio del Voynich** |
 | forme di bordo della riga (quanto cresce la forma più tipica) | fine -*m* +0,151; inizio *s-* +0,098 | +0,016–0,025 (abbreviazioni a fine riga, *v-* a inizio) | +0,019 (il trattino di a capo); +0,012 | — | stessa natura, **da 4 a 8 volte più forte** nel Voynich |
 | ripetizione della parola vicina (identica / quasi) | 1,00% / 3,87% | 0,01–0,05% / 0,2–0,5% | mediana 0,05% / 0,46% | 0,00% / 0,04% | **proprio del Voynich** |
-| deriva lungo la riga (ogni 10 segni) | da −0,020 a −0,034 | al massimo 0,0075; abbreviazione +0,005 | *[e3c77 in corso]* | — | **proprio del Voynich** (finora) |
-| stato breve delle scelte (fra parole accanto; a 2–3 parole) | +0,13; +0,09, uguale fra parole diverse | 1 scelta su 18 con una finestra simile, ma che viene da parole simili | *[e3c77 in corso]* | **alterna** gli omofoni: −0,18 | **non trovato negli scribi** nella forma del Voynich |
+| deriva lungo la riga (ogni 10 segni) | da −0,020 a −0,034 | al massimo 0,0075; abbreviazione +0,005 | al massimo 0,008, senza una direzione comune | — | **proprio del Voynich** |
+| stato breve delle scelte (fra parole accanto; a 2–3 parole) | +0,13; +0,09, uguale fra parole diverse | 1 scelta su 18 con una finestra simile, ma che viene da parole simili | nessuna finestra in 9 scelte (3 con pochi dati); *í*/*i* concorda solo fra parole accanto | **alterna** gli omofoni: −0,18 | **non trovato negli scribi** nella forma del Voynich |
 | stato lento fra righe consecutive | +0,050 | 6 scelte su 17 con accordo fra righe, 5 grandi come il Voynich | — | — | **normale per chi scrive a mano** |
 
 ### 7.2 Che cosa vuol dire
 
 - **Cinque proprietà su sette non hanno paragone** in 79 scribi di tre secoli e quattro tradizioni (islandese,
   norvegese, svedese, tedesca), né nel copista di un cifrario: raccordo, margine sinistro, ripetizioni e deriva lungo la
-  riga (quest'ultima finora misurata solo nei sei scribi nordici); le forme di bordo hanno la stessa natura (lo scriba
+  riga; le forme di bordo hanno la stessa natura (lo scriba
   vero abbrevia di più a fine riga) ma sono da quattro a otto volte più deboli.
 - **Lo stato breve** del Voynich (accordo che vale anche fra parole molto diverse) non l'abbiamo trovato in nessuno
-  degli scribi misurati finora (i sei nordici; i tedeschi sono in corso). Uno scriba norvegese (AM 302 fol, verso il 1300) ha, nella scelta fra *s* lunga e *s* tonda, una "finestra"
+  dei 79 scribi. Nei manoscritti tedeschi, misurati insieme, nessuna di nove scelte di lettera lo ha (per tre scelte rare
+  i dati sono troppo pochi per dirlo); una scelta (*í*/*i*) mostra un accordo solo fra parole accanto, senza la durata di
+  due-tre parole del Voynich. Uno scriba norvegese (AM 302 fol, verso il 1300) ha, nella scelta fra *s* lunga e *s* tonda, una "finestra"
   di grandezza e forma simili, che supera le stesse prove del Voynich (non viene da tratti brevi di pagina né dalla
   posizione); ma la sua finestra viene soprattutto da **parole simili** (+0,29 fra parole simili, +0,065 fra parole
   diverse), cioè dal ripetere forme della stessa parola: un meccanismo diverso.
@@ -686,7 +715,8 @@ trattato noto), un'identificazione sicura di molte piante da usare come appiglio
   leggono i trascrittori (per esempio la *q* che cade dopo un disegno).
 - **Scribi di confronto.** 79 scribi nordici e tedeschi; mancano scribi latini o italiani del Quattrocento trascritti
   a livello di facsimile, e scribi inglesi del Medioevo (noti per la grafia molto variabile). I manoscritti nordici e
-  tedeschi non segnano i cambi di mano.
+  tedeschi non segnano i cambi di mano; per lo stato delle scelte i 73 manoscritti tedeschi sono stati misurati insieme,
+  e la finestra di un singolo scriba potrebbe restare diluita.
 - **Cifrari storici.** Un solo cifrario vero (il Copiale, del Settecento). L'archivio DECODE, che raccoglie centinaia di
   cifrari del Quattro-Cinquecento, richiede un account e non ha una licenza di riuso; nessun cifrario del Quattrocento
   vi compare con trascrizione e chiave insieme.
@@ -697,8 +727,7 @@ trattato noto), un'identificazione sicura di molte piante da usare come appiglio
   - se lo stato **breve** passa l'a capo (quello lento sì).
 - **Una prova con pochi dati:** se lo stato sopravvive al salto di un disegno (la stima è positiva ma l'intervallo è
   troppo largo per dirlo).
-- **In corso** al momento di questa bozza: lo stato breve e la deriva nei 73 scribi tedeschi (esperimento e3c77); un
-  confronto fra manoscritti e libri a stampa dello stesso corpus.
+- **Non ancora fatto:** un confronto fra manoscritti e libri a stampa dello stesso corpus.
 
 ---
 
@@ -714,10 +743,6 @@ Ogni esperimento ha:
 
 Rifacendo un esperimento si ottengono gli stessi numeri. Il repository è al momento privato; i dati protetti da diritto
 d'autore non vi sono inclusi e vanno riscaricati dalle fonti (Appendice D).
-
-**Calcolo impiegato.** La ricerca si è svolta in una conversazione continua con Claude, che ha elaborato circa 2,8
-miliardi di token. Quasi tutti (circa il 99% dove misurato in dettaglio) sono il contesto della conversazione, riletto a
-ogni passo; il testo e il codice effettivamente scritti sono qualche milione di token.
 
 ---
 

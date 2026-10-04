@@ -8,6 +8,22 @@ La ricerca ha esaurito i suoi numeri (e307–e399). Gli esperimenti dal 400 in s
 Davide, 4/10 notte). **Dal 4/10 la ricerca usa la serie e3a01, e3a02, … e3a99, poi e3b01, …** (esegui.py la accetta,
 come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
 
+## White paper (4/10 sera)
+
+- **Italiano:** `white_paper/white_paper_it.md` (bozza di lavoro). **Inglese:** `white_paper/en/` (LaTeX, compilato con
+  Tectonic, `C:\Users\davide\tools\tectonic\tectonic.exe --keep-logs main.tex` dentro `white_paper/en`); PDF
+  `white_paper/en/main.pdf`, 23 pagine, "Preprint, version 1". Davide l'ha approvato come versione da usare.
+- Autori Davide Caniatti e Claude (affiliazioni: Independent researcher; Anthropic). Contributi: Andrea Lanterna
+  (computational setup), Giulia Gandellini (support). **Niente note su ruoli degli autori o sull'IA** (indicazione di
+  Davide); la divisione del lavoro sta nel §3.4 "How the two authors worked", chiesto da Davide.
+- Tolte su richiesta di Davide: la nota sugli autori, le note sulla verifica dei riferimenti, la datazione al
+  radiocarbonio nell'abstract (spostata nel §1.1).
+- **Pubblicazione:** scheda per Zenodo in `white_paper/zenodo/SCHEDA_ZENODO.md` (il caricamento lo fa Davide; se prenota
+  il DOI, va aggiunto nella prima pagina del PDF). Articolo LinkedIn in `white_paper/linkedin/articolo_linkedin.md`
+  (`[LINK ZENODO]` da sostituire).
+- Calcolo impiegato: circa 2,8 miliardi di token nella chat di ricerca (1,1 sul vecchio PC, stima di Davide; 1,70 su
+  questo PC, dai registri delle chat); con le chat del voynichizzatore e del sito circa 3,2.
+
 ## Ricerca della notte del 3–4/10 (e360–e399): il quadro
 
 Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). Dettagli nel QUADERNO e nel dossier
@@ -255,7 +271,8 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     c'è una componente lenta che attraversa le righe: **e3c75**, è uno stato lento (+0,05 fra righe consecutive, circa 0
     a 7 – 12 righe), non la tendenza alto-basso della pagina. **e3c76:** lo stato lento è normale negli scribi veri (5
     scelte su 17 grandi come il Voynich): non è un tratto proprio del Voynich. **ReF (scribi tedeschi 1350 – 1500, 73
-    manoscritti):** e3c78 niente raccordo, margine, bordi, ripetizioni come il Voynich; e3c77 (finestra, deriva) in corso.
+    manoscritti):** e3c78 niente raccordo, margine, bordi, ripetizioni come il Voynich; **e3c77** niente finestra (0 scelte su 9, 3 con
+    pochi dati) e niente deriva come il Voynich (al massimo 0,008 contro 0,030): batteria scribi completa.
     **e3c79:** la finestra dello scriba di AM 302 viene da parole simili (copia), non è uno stato. **e3c80:** ripetizioni
     non dovute al genere (testi tecnici tedeschi 7 – 30 volte meno). **e3c81:** stato uguale nelle mani 1, 2, 3: regola
     del sistema. e3c82 non eseguito (lacuna: lo stato breve passa l'a capo?). e3c67 non eseguito (senza potenza). DECODE

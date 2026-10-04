@@ -1605,3 +1605,13 @@ confrontata anche con le lingue che hanno accordi grammaticali, che producono lo
 (e3c48) usa solo le parole coperte che si ripetono nella stessa mano: per testi brevi con parole quasi tutte nuove (il
 gibberish dei volontari) vale 0 per costruzione e non misura niente (e3c53); (7) "nessun accordo chiaro" (intervallo che
 tocca la soglia) non vuol dire "manca": per dire "manca" serve un intervallo che stia sotto il valore del Voynich (e3c54).
+
+**Scribi tedeschi, finestra e deriva (e3c77, 4/10 sera): batteria completa.** Nei 73 manoscritti tedeschi del ReF
+(1350 – 1500, misurati insieme) nessuna di 9 scelte di lettera ha la finestra del Voynich (Voynich +0,137 accanto,
++0,099 / +0,078 a 2 – 3 parole); con la regola "manca solo se l'estremo alto sta sotto metà del Voynich" la parte a 2 – 3
+parole manca in 6 scelte su 9 e nell'abbreviazione, per *uͦ*/*u*, *z*/*cz*, *y*/*ÿ* i dati sono pochi. *í*/*i* concorda solo
+fra parole accanto (+0,052), come lo scriba degli *Hatton Gospels*. Nessuna deriva come il Voynich: al massimo 0,008 ogni
+10 segni contro 0,030, con segni misti; manca in tutte le scelte anche con la regola severa. **Quindi lo stato breve e la
+deriva lungo la riga non si trovano in nessuno dei 79 scribi** (sei nordici, 73 tedeschi). Cautela: con i manoscritti
+tedeschi insieme la finestra di un singolo scriba può restare diluita. White paper aggiornati (tabella del §7,
+sommario, scoperte 6 e 7, limiti).
