@@ -1216,3 +1216,4 @@ ripetizioni immediate dieci volte le lingue (e3b25), ripresa dalla riga sopra (e
 In una frase: "autocitazione a corto raggio, adattata al raccordo, con memoria delle varianti". Non dice nulla sul
 significato.
   - **Correzione (e3b32):** con Takahashi la preferenza per le forme rare non si ritrova alla lettera (intervalli sovrapposti); resta solo una tendenza nella stessa direzione (le frequenti hanno sempre l'eccesso relativo più basso). Le frasi su "forme rare riprese di più" (e3b30, e3b31) vanno lette come tendenza, non come risultato solido.
+  - **Prudenza (e3b33):** con Takahashi la differenza A/B della memoria non regge alla lettera (mezza vita A 5–9, B 10–14 per due decimillesimi sotto la soglia); i profili mostrano la stessa differenza della ZL. Da prendere come indizio.

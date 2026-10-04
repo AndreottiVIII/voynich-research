@@ -12225,3 +12225,23 @@ Preregistrato (`preregistrazioni/e3b32.md`). Funzioni dell'e3b30 e dell'e3b31 su
   tendenza nella stessa direzione in tutte e due le trascrizioni (le parole frequenti hanno sempre l'eccesso relativo più
   basso), ma il confronto "rare contro frequenti" dipende dalla trascrizione. Le parole uniche hanno un eccesso relativo
   alto anche nella IT (+81% dentro la riga), ma su pochi casi assoluti (vedi la correzione dell'e3b31).
+
+## 4/10/2026 (notte) — e3b33: con Takahashi la memoria più lunga in B non si ritrova alla lettera (il criterio della mezza vita è fragile)
+
+Preregistrato (`preregistrazioni/e3b33.md`). Profilo della memoria delle scelte per lettere in mezzo, IT.
+
+| lettere in mezzo | lingua A | lingua B |
+|---|---|---|
+| 0 | +0,067 | +0,059 |
+| 1–4 | +0,038 | +0,054 |
+| 5–9 | +0,028 | +0,046 |
+| 10–14 | +0,008 | +0,029 |
+| 15–19 | +0,009 | +0,035 |
+| 20–29 | −0,002 | +0,007 |
+
+- Mezza vita in lettere: A 5–9, B 10–14. **Esito preregistrato: non si ritrova** (classi vicine).
+- **Ma il criterio è fragile:** in B la classe 10–14 vale 0,0293 contro una soglia (metà del valore a 0 lettere) di
+  0,0295: per due decimillesimi la mezza vita è caduta lì invece che a 20–29. I profili dicono la stessa cosa della ZL: B
+  mantiene circa +0,03 fino a 19 lettere, A scende a circa +0,01 già da 10 lettere.
+- **Lettura prudente:** la memoria sembra più lunga in B in tutte e due le trascrizioni, ma con la misura preregistrata
+  (mezza vita) la differenza non regge alla lettera con Takahashi. Va presa come indizio, non come risultato solido.
