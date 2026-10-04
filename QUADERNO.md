@@ -12575,3 +12575,43 @@ nel prevedere la scelta conoscendo la parola intera oltre ai due segni prima e d
   parole; qui no.
 - **Da fare (e3b50):** replica con Takahashi e taratura della sensibilità (quanto legame con la parola, aggiunto al
   Voynich, la prova riesce a vedere).
+
+## 4/10/2026 (notte) — e3b50: replica con Takahashi incerta e prova poco sensibile: l'e3b49 va detto con prudenza
+
+Preregistrato (`preregistrazioni/e3b50.md`). Funzioni dell'e3b49; codice della taratura provato su un testo finto
+(dove le parole corte rendono la prova sensibile solo per -*ey*/-*dy*: +0,031 con f = 0,2).
+
+**1. Takahashi** (risparmio in bit per occorrenza, fuori campione):
+
+| classe | occorrenze | IT | catena IT: media (massimo) | IT − massimo |
+|---|---|---|---|---|
+| *qo*/*o* | 8.851 | −0,013 | −0,031 (−0,028) | **+0,015** |
+| *k*/*t* | 13.789 | −0,031 | −0,027 (−0,024) | −0,007 |
+| *sh*/*ch* | 13.456 | −0,033 | −0,030 (−0,026) | −0,008 |
+| -*ey*/-*dy* | 9.716 | −0,001 | −0,014 (−0,011) | +0,010 |
+
+- **Esito 1: incerto** (una classe sopra di 0,01, due sotto 0,005, -*ey*/-*dy* in mezzo).
+
+**2. Taratura** (ZL con una quota f di scelte rese uguali alla scelta più frequente per la parola):
+
+| classe | ZL vera | catena ZL massimo | f = 0,1 | f = 0,2 | f = 0,3 |
+|---|---|---|---|---|---|
+| *qo*/*o* | −0,021 | −0,025 | −0,010 | −0,009 | +0,004 |
+| *k*/*t* | −0,026 | −0,025 | −0,021 | −0,016 | −0,011 |
+| *sh*/*ch* | −0,037 | −0,031 | −0,036 | −0,029 | −0,023 |
+| -*ey*/-*dy* | −0,011 | −0,012 | −0,006 | +0,001 | +0,009 |
+
+- **Esito 2: poco sensibile:** con f = 0,2 il risparmio supera la catena di almeno 0,01 bit solo per *qo*/*o* (+0,016) e
+  -*ey*/-*dy* (+0,013); per *k*/*t* +0,0098, appena sotto la soglia; per *sh*/*ch* +0,003.
+- **Lettura corretta dell'e3b49:**
+  - ***k*/*t* e *sh*/*ch***: con tutte e due le trascrizioni nessun legame con la parola oltre i segni vicini. Per
+    *k*/*t* la prova vede un legame aggiunto al 20–30%; quindi, se c'è, riguarda meno di circa un quinto delle scelte.
+    Per *sh*/*ch* la prova è troppo poco sensibile per dire molto.
+  - ***qo*/*o* e -*ey*/-*dy***: con la ZL nessun legame; con Takahashi un poco (+0,015 e +0,010), dell'ordine di un
+    legame aggiunto al 10–20%. Non si può escludere un debole legame con la parola.
+  - Quindi l'e3b49 ("solo segni vicini") **vale con certezza solo per *k*/*t***, e con questo **ridimensiona l'e201**
+    (k/t "lessicalizzate"): quel legame si spiega con i segni vicini. Per le altre scelte resta aperto un legame debole.
+    Un legame **forte** con la parola, come in Naibbe e U2 per -*ey*/-*dy* (risparmio +0,046 e +0,024, contro valori negativi nel Voynich), nel Voynich
+    non c'è.
+- **Nota di metodo:** i risparmi negativi vengono dal costo del modello più ricco fuori campione; la prova va letta per
+  differenza rispetto alla catena, come preregistrato.
