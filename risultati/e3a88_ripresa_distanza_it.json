@@ -1,0 +1,296 @@
+{
+ "eccesso_medio_3_8": {
+  "stessa riga": 0.0047687332734301,
+  "a cavallo": 0.00607420516233781
+ },
+ "differenza": -0.0013054718889077103,
+ "IC95": [
+  -0.002238532847256309,
+  -0.0003830613542613699
+ ],
+ "stessa_riga_d1_4": 0.006630228221508509,
+ "stessa_riga_d7_10": 0.0014340455852756208,
+ "a_cavallo_d3_6": 0.005793362109056551,
+ "a_cavallo_d10_20": 0.00504479381963876,
+ "cala_nella_riga": true,
+ "piatta_dalla_riga_sopra": true,
+ "esito": "si ritrova",
+ "profilo": {
+  "1": {
+   "stessa riga": {
+    "coppie": 27123,
+    "eccesso": 0.00637167797895687
+   },
+   "a cavallo": {
+    "coppie": 3170,
+    "eccesso": 0.0010398840656866142
+   }
+  },
+  "2": {
+   "stessa riga": {
+    "coppie": 23473,
+    "eccesso": 0.0070893588462969245
+   },
+   "a cavallo": {
+    "coppie": 6102,
+    "eccesso": 0.0031137449520545423
+   }
+  },
+  "3": {
+   "stessa riga": {
+    "coppie": 19811,
+    "eccesso": 0.006890627412039464
+   },
+   "a cavallo": {
+    "coppie": 9050,
+    "eccesso": 0.004129478329957794
+   }
+  },
+  "4": {
+   "stessa riga": {
+    "coppie": 16299,
+    "eccesso": 0.006082753941458251
+   },
+   "a cavallo": {
+    "coppie": 11864,
+    "eccesso": 0.0056617895662838015
+   }
+  },
+  "5": {
+   "stessa riga": {
+    "coppie": 13011,
+    "eccesso": 0.003491803240931877
+   },
+   "a cavallo": {
+    "coppie": 14455,
+    "eccesso": 0.006550326894918692
+   }
+  },
+  "6": {
+   "stessa riga": {
+    "coppie": 10025,
+    "eccesso": 0.0038623313263924717
+   },
+   "a cavallo": {
+    "coppie": 16759,
+    "eccesso": 0.006132117337212314
+   }
+  },
+  "7": {
+   "stessa riga": {
+    "coppie": 7314,
+    "eccesso": 0.0007761250220679927
+   },
+   "a cavallo": {
+    "coppie": 18788,
+    "eccesso": 0.007904744391261063
+   }
+  },
+  "8": {
+   "stessa riga": {
+    "coppie": 4942,
+    "eccesso": 0.0030383984442451896
+   },
+   "a cavallo": {
+    "coppie": 20483,
+    "eccesso": 0.005109874529541607
+   }
+  },
+  "9": {
+   "stessa riga": {
+    "coppie": 3017,
+    "eccesso": 0.0012377716434093973
+   },
+   "a cavallo": {
+    "coppie": 21748,
+    "eccesso": 0.006008042403555266
+   }
+  },
+  "10": {
+   "stessa riga": {
+    "coppie": 1611,
+    "eccesso": -0.00013300739245040083
+   },
+   "a cavallo": {
+    "coppie": 22492,
+    "eccesso": 0.00647071082294832
+   }
+  },
+  "11": {
+   "stessa riga": {
+    "coppie": 785,
+    "eccesso": 0.004642994760653579
+   },
+   "a cavallo": {
+    "coppie": 22655,
+    "eccesso": 0.004246527904061466
+   }
+  },
+  "12": {
+   "stessa riga": {
+    "coppie": 365,
+    "eccesso": -0.0004670975642451624
+   },
+   "a cavallo": {
+    "coppie": 22424,
+    "eccesso": 0.005144707293674623
+   }
+  },
+  "13": {
+   "stessa riga": {
+    "coppie": 198,
+    "eccesso": 0.006797296270980482
+   },
+   "a cavallo": {
+    "coppie": 21937,
+    "eccesso": 0.005490266993251748
+   }
+  },
+  "14": {
+   "stessa riga": {
+    "coppie": 138,
+    "eccesso": 0.003971839612851625
+   },
+   "a cavallo": {
+    "coppie": 21354,
+    "eccesso": 0.0038958466117115895
+   }
+  },
+  "15": {
+   "stessa riga": {
+    "coppie": 104,
+    "eccesso": 0.005791485244315433
+   },
+   "a cavallo": {
+    "coppie": 20740,
+    "eccesso": 0.0050589205093567215
+   }
+  },
+  "16": {
+   "stessa riga": {
+    "coppie": 79,
+    "eccesso": 0.02211971056397353
+   },
+   "a cavallo": {
+    "coppie": 20126,
+    "eccesso": 0.0047987829383570905
+   }
+  },
+  "17": {
+   "stessa riga": {
+    "coppie": 62,
+    "eccesso": -0.0035494240557192606
+   },
+   "a cavallo": {
+    "coppie": 19503,
+    "eccesso": 0.005962873037386973
+   }
+  },
+  "18": {
+   "stessa riga": {
+    "coppie": 46,
+    "eccesso": 0.018794535316611356
+   },
+   "a cavallo": {
+    "coppie": 18900,
+    "eccesso": 0.004256837552296387
+   }
+  },
+  "19": {
+   "stessa riga": {
+    "coppie": 35,
+    "eccesso": -0.003237410071942446
+   },
+   "a cavallo": {
+    "coppie": 18297,
+    "eccesso": 0.0059995201329896405
+   }
+  },
+  "20": {
+   "stessa riga": {
+    "coppie": 26,
+    "eccesso": -0.0027162557459256163
+   },
+   "a cavallo": {
+    "coppie": 17711,
+    "eccesso": 0.004068647784478934
+   }
+  },
+  "21": {
+   "stessa riga": {
+    "coppie": 17,
+    "eccesso": -0.0039010118249420945
+   },
+   "a cavallo": {
+    "coppie": 17144,
+    "eccesso": 0.004845035975648459
+   }
+  },
+  "22": {
+   "stessa riga": {
+    "coppie": 12,
+    "eccesso": -0.00442604226156482
+   },
+   "a cavallo": {
+    "coppie": 16568,
+    "eccesso": 0.00467886372829583
+   }
+  },
+  "23": {
+   "stessa riga": {
+    "coppie": 5,
+    "eccesso": -0.004517316379454576
+   },
+   "a cavallo": {
+    "coppie": 15997,
+    "eccesso": 0.005138618369273446
+   }
+  },
+  "24": {
+   "stessa riga": {
+    "coppie": 2,
+    "eccesso": -0.003956478733926805
+   },
+   "a cavallo": {
+    "coppie": 15434,
+    "eccesso": 0.00587660364979746
+   }
+  },
+  "25": {
+   "a cavallo": {
+    "coppie": 14893,
+    "eccesso": 0.005140640097071391
+   }
+  },
+  "26": {
+   "a cavallo": {
+    "coppie": 14362,
+    "eccesso": 0.0046804303162226914
+   }
+  },
+  "27": {
+   "a cavallo": {
+    "coppie": 13856,
+    "eccesso": 0.004873031816951848
+   }
+  },
+  "28": {
+   "a cavallo": {
+    "coppie": 13352,
+    "eccesso": 0.0038497751004124697
+   }
+  },
+  "29": {
+   "a cavallo": {
+    "coppie": 12868,
+    "eccesso": 0.0034942910520847133
+   }
+  },
+  "30": {
+   "a cavallo": {
+    "coppie": 12406,
+    "eccesso": 0.005089645999035711
+   }
+  }
+ }
+}

@@ -11388,3 +11388,11 @@ distanza d (in parole, nello stesso paragrafo) rispetto al Voynich riscritto dal
   distanze". Non è così: nella riga c'è una ripresa di memoria che si spegne in poche parole; dalla riga sopra una
   ripresa che non dipende dalla distanza (la leggera preferenza per la fine della riga sopra dell'e3a83 resta, ma è
   piccola rispetto a questa uniformità).
+
+## 4/10/2026 (notte) — e3a88: le due riprese dell'e3a87 si ritrovano con Takahashi
+
+Preregistrato (`preregistrazioni/e3a88.md`). Stesso metodo dell'e3a87 sulla IT.
+- Differenza (stessa riga − a cavallo, d 3–8): −0,0013, IC 95% −0,0022 – −0,0004 (ZL: −0,0012).
+- Stessa riga: d 1–4 +0,0066, d 7–10 +0,0014: **cala**. A cavallo dell'a capo: d 3–6 +0,0058, d 10–20 +0,0050: **piatta**.
+- **Esito preregistrato: si ritrova.** Nella riga una ripresa di memoria che si spegne in poche parole; dalla riga sopra
+  una ripresa uniforme, come guardandola.
