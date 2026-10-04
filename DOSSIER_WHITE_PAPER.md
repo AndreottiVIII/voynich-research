@@ -1313,7 +1313,10 @@ al limite). Anche negli 8 testi piccoli (erbari e testi tecnici medievali compre
 alternanze interne; da solo, *i*/*y* del NT fiammingo dà +0,055 (una classe, senza intervallo: da verificare). Figura
 `alternanze_automatiche.png`. **Terza trascrizione (e3c05, Glen Claston, alfabeto v101):** la regola sceglie di nuovo
 le gallows (*h*/*k*) e *a*/*o*; memoria +0,039 (+0,008 – +0,070), accordo accanto +0,147, R 0,44, stesso profilo. La
-memoria regge su tre trascrizioni, due alfabeti e due modi di scegliere le classi.
+memoria regge su tre trascrizioni, due alfabeti e due modi di scegliere le classi. **Correzione di metodo (e3c07):** la
+misura del consumo con le lettere divideva le coppie alla mediana con i pareggi tolti, sbilanciando un poco i gruppi; con
+una divisione bilanciata il consumo regge (+0,060 ZL, +0,052 IT; senza le parole ai bordi della riga +0,040 e +0,037, ZL
+al limite). L'effetto opposto dell'e3c06 ("più parole, più accordo") era questo errore.
 
 **Formula per il white paper:** il Voynich ha, oltre alla catena di segni per riga e allo spazio non lessicale, una
 memoria corta delle scelte di grafia forte e uniforme (tutte le scelte, tutte le mani, due trascrizioni), che prosegue
