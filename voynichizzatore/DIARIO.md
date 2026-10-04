@@ -710,3 +710,25 @@ Decisioni di Davide: licenza MIT; GitHub suo (sito web più avanti); prova su un
 - **Non ancora pubblicato:** su questa macchina non c'è lo strumento `gh` e l'estensione di Chrome non è collegata, quindi non posso creare il repo su GitHub. Serve che Davide crei il repo pubblico vuoto `AndreottiVIII/voynichizzatore` (senza README né licenza); poi: `git -C /c/Users/davide/voynichizzatore remote add origin https://github.com/AndreottiVIII/voynichizzatore.git` e `git -C /c/Users/davide/voynichizzatore push -u origin main`.
 
 - Zip per la prova su un altro computer: `pubblico/voynichizzatore_v17.zip` (non committato). Sull'altro computer: Python 3.12, `pip install -r requirements.txt`, `python prova.py`; conta la riga 1.
+
+## 4/10/2026, 10:45 — PUBBLICATO: github.com/AndreottiVIII/voynichizzatore
+
+- Davide ha fatto l'accesso a GitHub nel browser interno dell'app; ho creato il repo pubblico vuoto
+  `AndreottiVIII/voynichizzatore` e caricato il pacchetto da `C:\Users\davide\voynichizzatore` (commit `86193ef`, poi
+  `7a802d3`).
+- Su richiesta di Davide istruzioni, comandi e messaggi sono **in inglese**: i testi stanno in
+  `strumenti/pubblico_testi.py` e li usa `strumenti/costruisci_pubblico.py`. Comandi `encode` / `decode` / `empty` con
+  `--key` e `--out` (i nomi italiani restano come alias). I commenti nel codice restano in italiano.
+- Autore dei commit pubblici: Davide Caniatti con l'indirizzo anonimo di GitHub. Licenza MIT.
+- **Per aggiornare il repo pubblico:** `python strumenti/costruisci_pubblico.py`; copiare `pubblico/voynichizzatore/.` in
+  `C:\Users\davide\voynichizzatore\` (che tiene il suo `.git`); commit e push da lì.
+- Resta in italiano la descrizione breve del repo su GitHub (non sono riuscito ad aprire la finestra di modifica dal
+  browser interno): la cambia Davide, o si riprova.
+- Prova su un altro computer: `pubblico/voynichizzatore_v17.zip` oppure il repo pubblico; `python prova.py`; conta la
+  riga 1. **Non ancora fatta.**
+
+### Dove siamo (4/10, 10:45)
+
+- **Pubblicata la v17.** In sospeso: esito della prova su un altro computer (poi aggiornare la frase nel README),
+  descrizione del repo in inglese, giudice indipendente, sito web, uscita come immagine, miglioramenti (omogeneità,
+  scelte di riga, profilo pagina).

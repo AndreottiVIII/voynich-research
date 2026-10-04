@@ -302,7 +302,7 @@ def main():
     for cartella, nome in (('analisi', 'misure.py'), ('voynichizzatore', 'disposizione.py'), ('voynichizzatore', 'sacco.py'), ('voynichizzatore', 'parole_nuove.py'),
                            ('voynichizzatore', 'pezzi.py'), ('voynichizzatore', 'canale_sacco.py'), ('voynichizzatore', 'v0.py'), ('voynichizzatore', 'v1.py'),
                            ('voynichizzatore', 'pezzi_parametri_%s.json' % VERSIONE)):
-        scrivi(nome, leggi(cartella, nome))
+        scrivi(nome, traduci(leggi(cartella, nome)))
     # 2. i pezzi di parola e i legami fra vicine (da e249, e285 e modello.py)
     e249, e285, modello = leggi('esperimenti', 'e249_pezzi_simboli.py'), leggi('esperimenti', 'e285_pezzi_contesto.py'), leggi('voynichizzatore', 'modello.py')
     legami = blocco(modello, 'def legami(')
@@ -320,6 +320,7 @@ def main():
     scrivi('e145_abitudini.py', '# -*- coding: utf-8 -*-\n"""Le cinque scelte usate nel cancello della riga (indici dell\'e135)."""\nSCELTE = (0, 1, 2, 4, 6)\n')
     # 4. il testo del Voynich e chi lo legge
     d = dati()
+    d['fonte'] = FONTE
     with open(os.path.join(USCITA, 'voynich_zl3b.json'), 'w', encoding='utf-8', newline='\n') as f:
         json.dump(d, f, ensure_ascii=False, separators=(',', ':'))
     scrivi('trascrizione.py', TRASCRIZIONE)
@@ -330,6 +331,19 @@ def main():
     scrivi('.gitignore', '__pycache__/\n*.pyc\nprova/manoscritto_rifatto.txt\n')
     prova()
     print('pacchetto in %s: %d file, %d righe di testo del Voynich' % (os.path.relpath(USCITA, RADICE), len(os.listdir(USCITA)), len(d['righe'])))
+
+
+# i testi per chi usa il pacchetto sono in inglese (richiesta di Davide del 4/10): stanno in pubblico_testi.py
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import pubblico_testi as _T
+CHIAVE_PROVA, TESTO_PROVA, FONTE = _T.TEST_KEY, _T.TEST_TEXT, _T.SOURCE
+LEGGIMI, STRUMENTO, PROVA = _T.README, _T.TOOL % VERSIONE, _T.TEST % _T.TEST_KEY
+
+
+def traduci(testo):
+    for it, en in _T.MESSAGES:
+        testo = testo.replace(it, en)
+    return testo
 
 
 if __name__ == '__main__':
