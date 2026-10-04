@@ -14975,3 +14975,31 @@ stessa parola (50 volte). Codice provato su testi finti (memoria vera: resta con
 - **Lezione di metodo (importante):** la distorsione della misura cambia da testo a testo e da scelta a scelta (qui da
   −0,07 a +0,37). Ogni confronto fatto con la misura dell'e3c34 senza correzione (lingue e3c34, e3c45; generatori e3c37;
   scribi e3c46) va rifatto con la correzione. Prossimo: e3c49.
+
+## 4/10/2026 (mattina) — e3c49: con la correzione il Voynich sta in cima alla gamma delle lingue, non fuori; nessun generatore ha la finestra
+
+Preregistrato (`preregistrazioni/e3c49.md`). Misura corretta per la distorsione (e3c48) su 21 misure di lingue (righe
+finte) e sui 4 generatori.
+
+| testo | K corretto 1 (IC 95%) | K corretto 2 / 3 | r (IC 95%) |
+|---|---|---|---|
+| *Voynich ZL / IT (e3c48)* | *+0,131 / +0,140* | *+0,093 +0,086 / +0,088 +0,097* | *0,68 / 0,66 (0,53 – 0,84)* |
+| latino, Plinio (generica) | +0,072 (+0,062 – +0,083) | +0,050 / +0,036 | **0,60** (0,47 – 0,74) |
+| latino, Plinio (-*us*/-*a*) | +0,148 | +0,104 / +0,064 | **0,57** (0,45 – 0,71) |
+| francese (Martin / moderno) | +0,057 / +0,077 | | 0,49 / 0,45 |
+| latino Vulgata (generica / -*us*/-*a*) | +0,108 / +0,272 | | 0,40 / 0,37 |
+| italiano (Diodati generica, moderno, -*o*/-*a*), spagnolo -*o*/-*a*, greco, *Della Pittura* | +0,09 – +0,32 | | 0,21 – 0,33 |
+| Volapük, Hatton, KJV, tedeschi, spagnolo generica, inglese moderno | circa 0 (la distorsione spiegava tutto) | | — |
+| Naibbe | −0,024 | | — |
+| U2 / U3 | +0,031 / +0,037 | | 0,39 / 0,49 |
+| Timm e Schinner | **+0,077** (+0,039 – +0,115) | +0,021 / +0,058 | 0,52 (0,12 – 1,09) |
+
+- **Esito preregistrato lingue: incerto** (sopra la soglia 0,53 due misure, tutte e due di Plinio). **Generatori: nessuno
+  ha la finestra** (Timm e Schinner ha un accordo fra parole accanto, ma a 2–3 parole l'intervallo non sta sopra 0,02).
+- **Lettura onesta:** con la misura corretta il Voynich ha un accordo a 2–3 parole fra i più lunghi (r 0,66 – 0,68), ma
+  Plinio gli arriva vicino (0,57 – 0,60) e il francese a metà strada. La forma del Voynich sta in cima alla gamma delle
+  lingue, non fuori. La "forma diversa dall'accordo grammaticale" non è più un tratto distintivo: resta una differenza di
+  grado.
+- Per molte misure con la classe generica (Volapük, KJV, tedesco, spagnolo, Hatton) l'accordo osservato era tutto
+  distorsione (K nullo uguale all'osservato). Il Volapük, che stanotte sembrava somigliare al Voynich, corretto è a zero.
+- Timm e Schinner, corretto, ha un accordo fra parole accanto (+0,077) più vicino al Voynich di quanto sembrasse.

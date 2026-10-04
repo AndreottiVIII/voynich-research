@@ -1473,7 +1473,12 @@ Questo non dice se il testo abbia un significato.
 **Correzione della distorsione (e3c48):** la misura ha una distorsione che cambia da testo a testo (da −0,07 a +0,37);
 togliendola (K osservato meno K con le scelte rimescolate), il Voynich con le pagine intere cambia poco (K corretto +0,131
 / +0,093 / +0,086 ZL; +0,140 / +0,088 / +0,097 IT) e la finestra regge anche togliendo le preferenze di blocchi di 5 righe
-(+0,124 / +0,080 / +0,074 ZL). I confronti con lingue, generatori e scribi vanno rifatti con la correzione (e3c49).
+(+0,124 / +0,080 / +0,074 ZL). **Confronti corretti (e3c49):** lingue r da 0,21 a 0,60 (Plinio 0,57 – 0,60, francese 0,45 –
+0,49), Voynich 0,66 – 0,68: **il Voynich sta in cima alla gamma delle lingue, non fuori**; la forma non è più un tratto
+distintivo, solo una differenza di grado. Nessun generatore ha la finestra (Timm e Schinner: accordo accanto +0,077, a 2–3
+parole non dimostrato). **Formula da usare nel white paper al posto del punto (5) della formula finale:** l'accordo delle
+scelte del Voynich ha la grandezza e, quasi, la forma dell'accordo grammaticale delle lingue più "lunghe" (latino tecnico);
+ciò che nessun generatore riproduce è l'accordo stesso.
 **RITRATTATO dall'e3c48 (la misura per þ/ð era gonfiata di +0,19 – +0,37; corretta, lo scriba ha accordo fra parole
 accanto ma non a 2–3 parole, come le lingue). Testo originale dell'aggiunta, lasciato per traccia:** **Aggiunta (e3c46): uno scriba vero ha la stessa finestra.** Lo scriba anglosassone degli Hatton Gospels, nella scelta
 libera fra þ e ð a inizio parola, con la stessa misura ha +0,584 fra parole accanto e +0,271 / +0,338 a 2 e 3 parole: lo
