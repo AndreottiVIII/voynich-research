@@ -11312,3 +11312,29 @@ dall'inizio: −0,40; nessuna copia: −0,03). 656 paragrafi, 23.676 parole.
 Preregistrato (`preregistrazioni/e3a84.md`). Stesso metodo dell'e3a83 sulla IT: 654 paragrafi, 23.694 parole.
 Differenza **+0,009**, IC 95% +0,003 – +0,017 (ZL: +0,009, IC +0,002 – +0,016). Eccesso per terzo della riga sopra:
 +0,014, +0,023, +0,024. **Esito preregistrato: si ritrova.**
+
+## 4/10/2026 (notte) — e3a85: la memoria di due segni del Voynich è come quella di Naibbe e di Timm e Schinner, molto meno delle lingue; sta a inizio parola e attorno a o, e, i
+
+Preregistrato (`preregistrazioni/e3a85.md`). Codice provato prima su un testo sensato (0,77) e su una catena di ordine 1
+simulata (0,003). Eccesso di I(a;c|b) nelle terne di segni dentro le parole rispetto a 20 simulazioni di ordine 1.
+
+| testo | eccesso (bit per terna) |
+|---|---|
+| **Voynich** (mediana di 5 × 10.000 parole) | **0,233** (0,229–0,240) |
+| Naibbe | 0,231 |
+| Timm e Schinner | 0,305 |
+| U2 / U3 | 0,044 / 0,057 |
+| testi sensati | da 0,382 a 1,078, mediana 0,771 (il Voynich sotto tutti) |
+
+- **Esito preregistrato: come i generatori** (dentro il loro intervallo).
+- **Il Voynich ha meno memoria di due segni di tutte le 71 lingue**: è il dato netto. Ne ha come Naibbe e Timm e
+  Schinner, più dei generatori a grammatica U2 e U3.
+- **Correzione della lettura dell'e3a76:** lì avevo scritto che i generatori "non hanno il po' di ordine 2" del
+  Voynich. Vale per la misura frequenza-forma (che guarda quali parole sono frequenti), non per la struttura delle
+  sequenze: misurata direttamente, Naibbe e Timm e Schinner ne hanno quanto il Voynich. Le due misure guardano cose
+  diverse.
+- **Dove sta (Voynich, testo intero, eccesso 0,233):**
+  - per segno di mezzo: *o* 41%, *e* 21%, *i* 20%, poi *d*, *k*, *a* sotto il 5%. Le serie *ee*/*eee* e *ii*/*iii* e
+    l'*o* fra due segni (*qok*-, *dor*-, *okai*-…) portano quasi tutta la memoria;
+  - per posto: più forte all'inizio della parola (0,144 dentro la classe), poi in mezzo (0,114), quasi niente alla fine
+    (0,033).
