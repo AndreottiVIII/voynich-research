@@ -15418,3 +15418,14 @@ stessa esecuzione (maiuscole escluse a inizio riga negli scribi).
   preferenza di forma a inizio riga (v al posto di u in AM 60). Hanno la stessa natura di quelle del Voynich (una forma
   al posto di un'altra al bordo), ma sono da 4 a 7 volte più deboli: il -*m* di fine riga e *s*-/*y*- di inizio riga del
   Voynich restano senza paragone.
+
+## 4/10/2026 (mattina) — e3c56 non eseguito: la prova "lo stato dura parole o segni?" non supera la prova su testi finti (lacuna dichiarata)
+
+Idea: a parità di distanza in parole (2 e 3), dividere le coppie a metà secondo i segni che separano le due parole; se lo
+stato segue il tempo di scrittura, la metà lunga avrebbe meno accordo. Prova del codice su testi finti (prima di
+qualunque preregistrazione, mai sul Voynich): con stato per parole e con stato per segni la misura non li distingue
+(differenze −0,036 e −0,019, intervalli che contengono 0) e su un testo senza niente dà un falso segnale (+0,038,
+intervallo sopra 0). Rifatta una volta con un effetto più forte: il calcolo non è finito nei 30 minuti concessi.
+Secondo la regola (un passo fallito si rifà una volta, poi si dichiara la lacuna) l'esperimento **non si fa**; il numero
+e3c56 resta senza preregistrazione né risultati. Lacuna: non sappiamo se lo stato segue le parole o il tempo di
+scrittura.
