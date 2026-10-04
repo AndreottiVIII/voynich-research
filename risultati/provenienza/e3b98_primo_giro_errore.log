@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "C:\Users\davide\voynich\esperimenti\e3b98_forma_lingue.py", line 133, in <module>
+    main()
+  File "C:\Users\davide\voynich\esperimenti\e3b98_forma_lingue.py", line 92, in main
+    x = analizza(uu, OrderedDict([('x', f)]), rng)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\davide\voynich\esperimenti\e3b98_forma_lingue.py", line 79, in analizza
+    ('R', float(r)), ('R_IC95', [float(np.percentile(bs_r, 2.5)), float(np.percentile(bs_r, 97.5))])])
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\davide\voynich\.venv\Lib\site-packages\numpy\lib\_function_base_impl.py", line 4258, in percentile
+    return _quantile_unchecked(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\davide\voynich\.venv\Lib\site-packages\numpy\lib\_function_base_impl.py", line 4522, in _quantile_unchecked
+    return _ureduce(a,
+           ^^^^^^^^^^^
+  File "C:\Users\davide\voynich\.venv\Lib\site-packages\numpy\lib\_function_base_impl.py", line 3892, in _ureduce
+    r = func(a, **kwargs)
+        ^^^^^^^^^^^^^^^^^
+  File "C:\Users\davide\voynich\.venv\Lib\site-packages\numpy\lib\_function_base_impl.py", line 4681, in _quantile_ureduce_func
+    result = _quantile(arr,
+             ^^^^^^^^^^^^^^
+  File "C:\Users\davide\voynich\.venv\Lib\site-packages\numpy\lib\_function_base_impl.py", line 4805, in _quantile
+    slices_having_nans = np.isnan(arr[-1, ...])
+                                  ~~~^^^^^^^^^
+IndexError: index -1 is out of bounds for axis 0 with size 0

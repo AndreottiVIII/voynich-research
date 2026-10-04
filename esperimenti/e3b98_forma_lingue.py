@@ -59,6 +59,15 @@ def misure(k):
     return accanto, r
 
 
+def num(x):
+    """Numero, o None se non definito (R non esiste se non c'è accordo accanto)."""
+    return float(x) if np.isfinite(x) else None
+
+
+def due(x):
+    return '—' if x is None else '%.2f' % x
+
+
 def analizza(unita, classi, rng):
     ss = [e3b96.somme_unita(u, classi) for u in unita]
     m = matrice(ss)
@@ -74,9 +83,10 @@ def analizza(unita, classi, rng):
         bs_r.append(rr)
     bs_acc, bs_r = np.concatenate(bs_acc), np.concatenate(bs_r)
     bs_r = bs_r[np.isfinite(bs_r)]
+    ic_r = [num(np.percentile(bs_r, 2.5)), num(np.percentile(bs_r, 97.5))] if len(bs_r) >= BOOT // 2 else [None, None]
     return OrderedDict([('unita', n), ('coppie_d1', int(m[:, 2].sum())), ('accanto', float(acc)),
                         ('accanto_IC95', [float(np.percentile(bs_acc, 2.5)), float(np.percentile(bs_acc, 97.5))]),
-                        ('R', float(r)), ('R_IC95', [float(np.percentile(bs_r, 2.5)), float(np.percentile(bs_r, 97.5))])])
+                        ('R', num(r)), ('R_IC95', ic_r)])
 
 
 def main():
@@ -105,7 +115,7 @@ def main():
         x['lettere'] = list(lettere)
         voy[nome] = x
         print(nome, json.dumps(x, ensure_ascii=False), flush=True)
-    contano = [k for k, x in ris.items() if x['conta']]
+    contano = [k for k, x in ris.items() if x['conta'] and x['R'] is not None]
     sopra = [k for k in contano if ris[k]['R'] >= SOGLIA_R]
     if not sopra:
         esito = 'la forma resta propria del Voynich'
@@ -121,9 +131,9 @@ def main():
           'Preregistrazione: `preregistrazioni/e3b98.md`. Classe generica: le due ultime lettere più frequenti. Voynich con le sue quattro scelte (e3b97): R 0,64–0,66.', '',
           '| testo | lettere | unità | accanto (IC 95%) | conta | R (IC 95%) |', '|---|---|---|---|---|---|']
     for k, x in list(ris.items()) + list(voy.items()):
-        md.append('| %s | %s | %d | %+.3f (%+.3f – %+.3f) | %s | %.2f (%.2f – %.2f) |' % (
+        md.append('| %s | %s | %d | %+.3f (%+.3f – %+.3f) | %s | %s (%s – %s) |' % (
             k, '/'.join(x['lettere']), x['unita'], x['accanto'], x['accanto_IC95'][0], x['accanto_IC95'][1],
-            {True: 'sì', False: 'no'}.get(x.get('conta'), 'descr.'), x['R'], x['R_IC95'][0], x['R_IC95'][1]))
+            {True: 'sì', False: 'no'}.get(x.get('conta'), 'descr.'), due(x['R']), due(x['R_IC95'][0]), due(x['R_IC95'][1])))
     md += ['', 'Testi che contano: %d. R mediano %.2f, massimo %.2f. Sopra 0,64: %s.' % (len(contano), out['R_lingue_mediana'] or float('nan'), out['R_lingue_massimo'] or float('nan'), ', '.join(sopra) or 'nessuno'),
            '', 'Esito: **%s**.' % esito]
     open(os.path.join(RISULTATI, 'e3b98_forma_lingue.md'), 'w', encoding='utf-8').write('\n'.join(md) + '\n')
