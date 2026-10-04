@@ -635,3 +635,23 @@ esatto 24 su 24. Le chiavi 1–12 erano ottimiste (effetto della scelta fra J1 e
 - **Niente è in esecuzione.** Tutto è committato e sul remoto privato. Niente è stato pubblicato. Le decisioni sulla
   pubblicazione sono rimandate da Davide al mattino (vedi `PUBBLICAZIONE.md`, con la nota sulla licenza CC0 da
   ricontrollare a mano).
+
+## 4/10/2026, 09:00 — nota per il white paper (indicazione di Davide)
+
+
+
+Davide, sentendo la spiegazione, ha chiesto di **dirlo molto bene nel white paper del generatore e anche nell'altro** (quello sul Voynich). Il punto, da scrivere con cura quando Davide dirà di scrivere i white paper:
+
+
+
+- Un manoscritto del voynichizzatore **con** un testo nascosto e uno **senza** non si distinguono fra loro (e409b: su 12 chiavi i due giudici danno 0,560 / 0,682 con il messaggio e 0,547 / 0,671 senza, differenza entro l'errore), perché il messaggio cifrato fa da dado al modello invece di essere aggiunto sopra il testo.
+
+- Senza la chiave il testo non si legge, e non c'è niente da tradurre parola per parola: le parole non corrispondono al messaggio, che sta in quante volte ogni parola compare in ogni pagina.
+
+- **È la stessa situazione del Voynich vero:** un testo con queste statistiche può portare un messaggio oppure no, e dalle statistiche non si può dire quale delle due. Il voynichizzatore è la dimostrazione costruttiva che un testo "alla Voynich" con un contenuto recuperabile e uno senza contenuto sono indistinguibili per le misure note; quindi quelle misure, da sole, non possono decidere se il Voynich ha un significato.
+
+- Cautele da scrivere insieme: vale per i due giudici e la pagella di questo progetto; il manoscritto generato si riconosce come generato (stessa impaginazione del Voynich, parole del suo lessico; giudice forte a 0,60–0,61; due materie mai prese); la capacità è circa 80.000 bit per libro, molto meno di un testo in chiaro della stessa lunghezza.
+
+
+
+La chat di ricerca può riprendere questa nota per il dossier (`DOSSIER_WHITE_PAPER.md` è suo).
