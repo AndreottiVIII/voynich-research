@@ -86,6 +86,12 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     (e3b14, e3b21–e3b24); resta a parità di raccordo (e3b13); in bit è piccola, scelte libere oltre il 90% (e3b15);
     unire le varianti non fa emergere una lingua (e3b17); la -m in mezzo alla riga non segna pause (e3b16); compressione
     a fine riga confermata (e3b12); pinyin non utilizzabile come controllo a sillabe (e3b11).
+  - **e3b25–e3b36 (controlli di solidità):** ripetizioni immediate dieci volte le lingue (e3b25); copia dalla riga sopra
+    sparsa, che non passa paragrafo né pagina (e3b27–e3b29, e3b36); repliche con Takahashi riuscite per compressione a
+    fine riga, azzeramento all'a capo, consumo con le lettere, spazi per mano (e3b35, e3b36). **Correzioni:** la memoria
+    più lunga in B non è dimostrata (e3b33, e3b34); le forme rare riprese di più sono solo una tendenza (e3b32); la
+    memoria ha una piccola parte comune fra le classi (e3b35); qo/o a parità di raccordo è solo un indizio (e3b36).
+    Relazione per Davide riscritta in forma ordinata (`RELAZIONE_NOTTE_4_OTTOBRE.md`).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
