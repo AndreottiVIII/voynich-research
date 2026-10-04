@@ -66,8 +66,8 @@ Le prime sette sono, per quanto sappiamo, **nuove**; le altre tre rafforzano con
    delle lingue).
 2. **Le parole vicine sono legate da regole di "raccordo".** *qo-* compare dopo parole che finiscono in *-y*, *-o*,
    *-d*; *o-* dopo *-n*, *-r*, *-s*, *-m*. La finale *-l* o *-r* dipende dall'inizio della parola dopo. Lo scriba
-   **conosce la parola successiva** mentre finisce quella in corso. Il legame è almeno quattro volte più forte che in
-   qualsiasi scriba medievale provato.
+   **conosce la parola successiva** mentre finisce quella in corso. Il legame è circa quattro volte più forte che nel
+   più forte degli scribi medievali provati.
 3. **La riga è un'unità chiusa.** Il legame fra parole si interrompe all'a capo e anche dove un disegno spezza la riga;
    l'inizio e la fine della riga hanno forme proprie (a fine riga *-m* prende il posto di *-r*; a inizio riga compaiono
    *s-* e *y-*).
