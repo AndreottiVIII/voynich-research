@@ -1293,7 +1293,10 @@ della memoria del Voynich sembra legata al gesto di scrivere. **Secondo tratto (
 la forma del calo con la distanza: nelle lingue l'accordo è concentrato fra parole accanto (rapporto d3/d1 0,13–0,40),
 nel Voynich è quasi piatto fra 1 e 3 parole (0,79, IC 0,63 – 0,96, Takahashi; togliendo anche le parole simili a
 due modifiche, e3b97, 0,66 Takahashi e 0,64 ZL, contro 0,16 dell'italiano: è il valore prudente da citare). Figura `profilo_distanza.png`. La
-"memoria" del Voynich non si comporta come un accordo dentro il sintagma; cautela: solo quattro lingue provate.
+"memoria" del Voynich non si comporta come un accordo dentro il sintagma. **Su tutti i testi grandi del corpus (e3b98,
+26 testi, classe generica sulle ultime lettere):** nessuno dei 16 con accordo chiaro arriva a 0,64 (mediana 0,16), ma il
+Volapük (lingua artificiale, -*s* plurale) arriva a 0,62 (0,51 – 0,75) e Plinio a 0,45: la forma piatta è rara nelle
+lingue, non impossibile (una scelta che dura per tutta una frase, come il plurale, può darla).
 
 **Formula per il white paper:** il Voynich ha, oltre alla catena di segni per riga e allo spazio non lessicale, una
 memoria corta delle scelte di grafia forte e uniforme (tutte le scelte, tutte le mani, due trascrizioni), che prosegue

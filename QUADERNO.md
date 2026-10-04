@@ -13714,3 +13714,45 @@ Qui si tolgono anche quelle (distanza di modifica ≤ 2 sulle parole coperte). C
   dalle parole simili vicine) ma resta quattro volte quella dell'italiano, con intervalli lontani. Anche ZL dà lo
   stesso valore.
 - Nel dossier e nella relazione il valore da citare con la cautela più severa è 0,64–0,66.
+
+## 4/10/2026 (notte) — e3b98: nessuna lingua del corpus raggiunge la forma piatta del Voynich, ma il Volapük ci arriva vicino
+
+Preregistrato (`preregistrazioni/e3b98.md`). La stessa misura dell'e3b96 (R = [K(3) − K(8–12)] / [K(1) − K(8–12)]) su
+tutti i 26 testi del corpus con almeno 50.000 parole, con una classe **generica** uguale per tutti: le due ultime lettere
+più frequenti di ciascun testo. Contano solo i testi con un accordo chiaro fra parole accanto.
+
+**Errore dichiarato:** il primo giro si è fermato sul primo testo (Esperanto), che non ha accordo accanto: R non esiste e
+il codice non lo prevedeva. Corretto (R "non definito"), provato di nuovo sui testi finti, rilanciato; il registro del
+primo giro è in `risultati/provenienza/e3b98_primo_giro_errore.log`. Nessun valore era stato stampato.
+
+| testo (lettere) | accordo accanto (IC 95%) | R (IC 95%) |
+|---|---|---|
+| Volapük NT (-s/-n) | +0,181 (+0,156 – +0,207) | **0,62** (0,51 – 0,75) |
+| latino, Plinio (-s/-m) | +0,112 | 0,45 (0,36 – 0,54) |
+| anglosassone, Hatton (-e/-n) | +0,077 | 0,35 (0,01 – 0,72) |
+| italiano NT moderno (-o/-e) | +0,058 | 0,34 (0,07 – 0,65) |
+| italiano Diodati (-o/-e) | +0,052 | 0,27 (−0,03 – 0,62) |
+| latino Vulgata (-s/-m) | +0,143 | 0,20 (0,10 – 0,30) |
+| francese (Martin, moderno) (-s/-e) | +0,405 / +0,407 | 0,18 / 0,18 |
+| greco NT (-ν/-ς) | +0,233 | 0,14 (0,08 – 0,21) |
+| spagnolo NT (-s/-o) | +0,395 | 0,12 (0,08 – 0,17) |
+| arabo, Avicenna | +0,300 | 0,06 (0,00 – 0,12) |
+| slavo antico, Marianus | +0,084 | 0,05 (−0,36 – 0,43) |
+| inglese KJV (-e/-d) | +0,048 | 0,03 (−0,40 – 0,47) |
+| tedesco (Lutero, moderno) (-n/-e) | +0,098 / +0,124 | −0,22 / −0,15 |
+| inglese NT moderno | +0,050 | −0,57 |
+
+Non contano (accordo accanto assente o debole): Esperanto, Neo-Quenya, Corano, sanscrito, swahili (classe generica
+-*a*/-*i*, non i prefissi), tagalog, turco (negativo); arabo NT, ebraico, maori (debole, con R alto ma instabile:
+0,63, 0,91, 1,72). Il Voynich con la stessa classe generica (-*y*/-*n*) ha un accordo accanto debole (+0,04/+0,05, intervallo
+che tocca 0), in linea con l'e3b54: la memoria non sta nelle desinenze -*y*/-*n*.
+
+- **Esito preregistrato: la forma resta propria del Voynich.** Nessuno dei 16 testi che contano ha R ≥ 0,64; mediana
+  0,16. Le lingue con accordo forte (francese, spagnolo, greco, Avicenna) hanno tutte R ≤ 0,18.
+- **Ma di poco, e va detto:** il Volapük (lingua artificiale; -*s* è il plurale, anche dei pronomi) arriva a 0,62 con
+  un accordo accanto (+0,18) simile a quello del Voynich (+0,17 nell'e3b95), e il suo intervallo si sovrappone a quello
+  del Voynich. Una scelta che resta la stessa per tutta una frase o un passo (qui, probabilmente, il plurale di chi
+  parla o di cui si parla) può dare una curva quasi piatta anche in una lingua. Anche Plinio (0,45) sta a metà strada.
+- **Lettura:** la forma piatta è rara nelle lingue con la classe generica, ma non impossibile. Da sola non basta a dire
+  "abitudine di chi scrive e non lingua". Il prossimo passo è il secondo tratto (consumo con le lettere) sugli stessi
+  testi, Volapük e Plinio compresi (e3b99).
