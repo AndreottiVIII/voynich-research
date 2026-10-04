@@ -30,6 +30,9 @@ V11 = OrderedDict([('impianto', 'pezzi'), ('parametri', 'v11')])   # e410 (G2): 
 V12 = OrderedDict([('impianto', 'pezzi'), ('parametri', 'v12')])   # e412 (M2): coppia esatta un po' evitata, differenza fra le due meta' della pagina
 V13 = OrderedDict([('impianto', 'pezzi'), ('parametri', 'v13')])   # e413 (S2): kappa sul sacco completo, esponente sulla frequenza, unioni ben formate
 V14 = OrderedDict([('impianto', 'pezzi'), ('parametri', 'v14')])   # e414 (J1): unioni con la giuntura probabile
+V15 = OrderedDict([('impianto', 'pezzi'), ('parametri', 'v15')])   # v14 con la cifratura robusta (scrypt, SHAKE-256, HMAC)
+V16 = OrderedDict([('impianto', 'pezzi'), ('parametri', 'v16')])   # v15 con la gabbia di ogni pagina presa da un'altra pagina (e415)
+V17 = OrderedDict([('impianto', 'pezzi'), ('parametri', 'v17')])   # v15 con la gabbia di ogni pagina estratta da un modello statistico (e415)
 VERSIONI = OrderedDict([
     ('v2', OrderedDict([('corpo', E288), ('modello', 'v1')])),
     ('v3', OrderedDict([('corpo', E288), ('modello', 'v3')])),
@@ -44,6 +47,9 @@ VERSIONI = OrderedDict([
     ('v12', OrderedDict([('corpo', V12), ('modello', None), ('canale', 'sacco')])),
     ('v13', OrderedDict([('corpo', V13), ('modello', None), ('canale', 'sacco')])),
     ('v14', OrderedDict([('corpo', V14), ('modello', None), ('canale', 'sacco')])),
+    ('v15', OrderedDict([('corpo', V15), ('modello', None), ('canale', 'sacco')])),
+    ('v16', OrderedDict([('corpo', V16), ('modello', None), ('canale', 'sacco')])),
+    ('v17', OrderedDict([('corpo', V17), ('modello', None), ('canale', 'sacco')])),
 ])
 
 
