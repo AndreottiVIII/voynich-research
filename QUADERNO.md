@@ -12245,3 +12245,22 @@ Preregistrato (`preregistrazioni/e3b33.md`). Profilo della memoria delle scelte 
   mantiene circa +0,03 fino a 19 lettere, A scende a circa +0,01 già da 10 lettere.
 - **Lettura prudente:** la memoria sembra più lunga in B in tutte e due le trascrizioni, ma con la misura preregistrata
   (mezza vita) la differenza non regge alla lettera con Takahashi. Va presa come indizio, non come risultato solido.
+
+## 4/10/2026 (notte) — e3b34: la differenza A/B nella durata della memoria non è dimostrata; correzione di e3b14/e3b21
+
+Preregistrato (`preregistrazioni/e3b34.md`, con la finestra 10–19 lettere scelta dopo aver visto i profili, dichiarato).
+Eccesso di accordo delle scelte con 10–19 lettere in mezzo (e a 0 lettere), contrasto B − A con intervallo.
+
+| trascrizione | lettere in mezzo | A | B | B − A | IC 95% |
+|---|---|---|---|---|---|
+| ZL | 0 | +0,065 | +0,059 | −0,006 | −0,038 – +0,023 |
+| ZL | 10–19 | +0,002 | +0,031 | +0,029 | −0,003 – +0,062 |
+| IT | 0 | +0,067 | +0,059 | −0,008 | −0,037 – +0,021 |
+| IT | 10–19 | +0,009 | +0,032 | +0,023 | −0,009 – +0,055 |
+
+- **Esito preregistrato: nessuna differenza dimostrata** (in tutte e due le trascrizioni l'intervallo contiene 0, di
+  poco).
+- **Correzione delle letture dell'e3b14, e3b21, e3b22, e3b23:** avevo scritto che la memoria "dura di più in lingua B".
+  Con un contrasto con intervallo, la differenza va nella stessa direzione in tutte e due le trascrizioni ma non è
+  dimostrata: le mezze vite di quelle voci erano stime senza intervallo e si sono rivelate fragili (e3b33). Resta solo
+  un'indicazione. Il fatto solido è la memoria corta in sé (presente in A e in B, nelle tre trascrizioni EVA usate).
