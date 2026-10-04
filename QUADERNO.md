@@ -14134,3 +14134,39 @@ scegliere. Dati in `risultati/e409b_messaggio_nel_sacco_v14_chiavi_13_24.md`. Me
   difetto vero (*y*+*o*), non perché abbassi il giudice in modo dimostrato.
 - Pagella 15,2 su 17 raggiungibili (mancano sempre profilo pagina e gradiente mal posto, e in 10 chiavi su 12
   l'omogeneità); materie aggiunte 5,8 su 8; cancello della riga in 19 chiavi su 24; testo esatto 24 su 24.
+
+## 4/10/2026 (mattina presto) — e3c12: la memoria non è un effetto di lettura, ma il consumo con le lettere sta soprattutto in *sh*/*ch*
+
+Preregistrato (`preregistrazioni/e3c12.md`). Ipotesi da escludere: che memoria e consumo con le lettere vengano dalla
+lettura di segni deboli (il trattino di *sh* che svanisce con poco inchiostro), invece che dalla scrittura.
+
+**Parte 1 — pendenza per lettera a parità di parole (e3c10), con i bordi:**
+
+| trascrizione | scelte robuste (*qo*/*o*, *k*/*t*, -*ey*/-*dy*) | *sh*/*ch* |
+|---|---|---|
+| ZL | −0,0020 (−0,0044 – +0,0005) | **−0,0058** (−0,0092 – −0,0027) |
+| IT | −0,0021 (−0,0048 – +0,0007) | **−0,0066** (−0,0100 – −0,0032) |
+
+- **Esito preregistrato parte 1: "il consumo potrebbe venire dai segni deboli".** Il consumo con le lettere è forte in
+  *sh*/*ch* e debole nelle scelte robuste (stesso segno, un terzo, intervallo che tocca 0 in tutte e due le
+  trascrizioni).
+
+**Parte 2 — righe allineate ZL–IT (23.872 parole):** le parole lette diversamente dai due trascrittori sono poche
+(*qo*/*o* 0,9%, *k*/*t* 1,8%, *sh*/*ch* 2,2%, -*ey*/-*dy* 1,6%). Memoria con tutte le parole +0,083 (+0,047 – +0,119), con
+le sole concordi +0,078 (+0,042 – +0,115); pendenza per lettera −0,0042 e −0,0046.
+
+- **Esito preregistrato parte 2: la memoria non è un effetto di lettura discorde.**
+
+**Lettura d'insieme e correzione.**
+- La **memoria** delle scelte non viene dalla lettura: c'è nelle scelte fatte di segni grandi quanto o più che in
+  *sh*/*ch* (e3b62, ZL: *qo*/*o* +0,095, -*ey*/-*dy* +0,101, *k*/*t* +0,080, *sh*/*ch* +0,079), e resta sulle parole lette
+  uguali da due trascrittori.
+- Il **consumo con le lettere**, invece, l'avevo presentato come tratto di tutta la memoria. Sta soprattutto in *sh*/*ch*;
+  nelle scelte robuste c'è al più un terzo, non dimostrato. **Correzione:** "la memoria si consuma con le lettere" va
+  ristretto a "*sh*/*ch* si consuma con le lettere; le altre scelte forse, più debolmente".
+- Per *sh*/*ch* restano due spiegazioni: un'abitudine di chi scrive che si consuma più in fretta, oppure un effetto
+  dell'inchiostro sul trattino di *sh* (che entrambi i trascrittori leggerebbero allo stesso modo, quindi la parte 2 non
+  lo toglie). Nota: ZL segna 656 letture incerte con alternative, quasi tutte *a*/*o* e *s*/*r*; *ch*/*sh* non compare fra
+  le più frequenti. Prossima prova (e3c13): se fosse l'inchiostro, la quota di *sh* dovrebbe calare lungo la riga.
+- Il confronto con le lingue (e3b92, e3b99, e3c08, e3c10) resta valido così com'è: le lingue non si consumano con le
+  lettere. Ma il tratto del Voynich che le separa poggia soprattutto su una sola scelta.

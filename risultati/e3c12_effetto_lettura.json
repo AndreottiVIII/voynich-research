@@ -1,0 +1,98 @@
+{
+ "parte1": {
+  "ZL, robuste (qo/o, k/t, -ey/-dy)": {
+   "coppie": 39597,
+   "effetto": -0.0020130653627214714,
+   "IC95": [
+    -0.004405940712857348,
+    0.0004681294149779556
+   ]
+  },
+  "ZL, sh/ch": {
+   "coppie": 17092,
+   "effetto": -0.005845498964453308,
+   "IC95": [
+    -0.009210091189412722,
+    -0.0026673753944042675
+   ]
+  },
+  "IT, robuste (qo/o, k/t, -ey/-dy)": {
+   "coppie": 40019,
+   "effetto": -0.002064900046812608,
+   "IC95": [
+    -0.004772001628940987,
+    0.0006913893613514435
+   ]
+  },
+  "IT, sh/ch": {
+   "coppie": 17230,
+   "effetto": -0.006633919284513234,
+   "IC95": [
+    -0.009974469584639368,
+    -0.003196833118529501
+   ]
+  }
+ },
+ "quote_discordi": {
+  "qo/o": {
+   "parole_ZL_in_classe": 6166,
+   "concordi": 6110,
+   "quota_discordi": 0.009082062925721668
+  },
+  "k/t": {
+   "parole_ZL_in_classe": 9498,
+   "concordi": 9324,
+   "quota_discordi": 0.01831964624131399
+  },
+  "sh/ch": {
+   "parole_ZL_in_classe": 9283,
+   "concordi": 9080,
+   "quota_discordi": 0.02186793062587522
+  },
+  "-ey/-dy": {
+   "parole_ZL_in_classe": 6748,
+   "concordi": 6639,
+   "quota_discordi": 0.016152934202726787
+  }
+ },
+ "parte2": {
+  "tutte le parole": {
+   "memoria": {
+    "coppie_vicine": 15350,
+    "effetto": 0.08263705569764701,
+    "IC95": [
+     0.047118087825366604,
+     0.11896649051704708
+    ]
+   },
+   "per_lettera": {
+    "coppie": 39758,
+    "effetto": -0.004164313867504619,
+    "IC95": [
+     -0.006664221904070487,
+     -0.001801062134684521
+    ]
+   }
+  },
+  "solo parole concordi": {
+   "memoria": {
+    "coppie_vicine": 14903,
+    "effetto": 0.078291155786975,
+    "IC95": [
+     0.04215706240399804,
+     0.11512216237419488
+    ]
+   },
+   "per_lettera": {
+    "coppie": 38558,
+    "effetto": -0.004557343974366292,
+    "IC95": [
+     -0.007328417867903923,
+     -0.001827577674610235
+    ]
+   }
+  }
+ },
+ "esito_parte1": "il consumo potrebbe venire dai segni deboli",
+ "esito_parte2": "la memoria non è un effetto di lettura discorde"
+}
