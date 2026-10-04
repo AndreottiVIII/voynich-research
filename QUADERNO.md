@@ -11219,3 +11219,21 @@ propria catena di ordine 2 (segni, spazio, inizio e fine riga), con la stessa st
   riga, più due meccanismi verticali: lo scriba guarda la riga sopra (ne copia pezzi, e ne evita l'inizio). Cautela: la
   catena è addestrata sul Voynich stesso, quindi "riproduce" vuol dire che queste proprietà sono contenute nelle
   statistiche locali dei segni, non che il Voynich sia stato prodotto così. Non dice nulla sul significato.
+
+## 4/10/2026 (notte) — e3a79: la prima parola della riga si copia dalla riga sopra quanto le altre
+
+Preregistrato (`preregistrazioni/e3a79.md`). Eccesso di parole (almeno 3 segni) con una parola uguale o a una modifica
+nella riga subito sopra, rispetto alle altre righe del paragrafo, per posizione nella riga.
+
+| posto | parole | eccesso | IC 95% |
+|---|---|---|---|
+| prima | 2.880 | +0,040 | +0,025 – +0,055 |
+| seconda | 2.658 | +0,055 | +0,038 – +0,072 |
+| in mezzo | 15.377 | +0,043 | +0,035 – +0,050 |
+| ultima | 2.658 | +0,036 | +0,022 – +0,049 |
+
+- Differenza prima − in mezzo: −0,002 (IC −0,019 – +0,014). **Esito preregistrato: come le altre.**
+- **Lettura:** l'ipotesi che univa i due meccanismi verticali non regge. Lo scriba copia dalla riga sopra anche con la
+  prima parola, quanto con le altre; quello che evita è cominciare la riga **come cominciava** la riga sopra
+  (e3a25, e3a33). Sono due cose diverse: una copia "di contenuto" da tutta la riga sopra, e un evitamento "di
+  allineamento" fra gli inizi delle righe. (La seconda parola si copia un poco di più, ma l'intervallo si sovrappone.)
