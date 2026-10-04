@@ -615,3 +615,23 @@ Nel QUADERNO (voce "vz: e414"). J1 (giuntura probabile, soglia 0,05) → **v14: 
   (`VERSIONE=v14 CHIAVI=13,...,24 CASI=a`).
 - Restano: profilo pagina, omogeneità, scelte di riga a 12 classi, tipi su parole (0,771), cancello (9 su 12),
   G8 prime righe (0,65), G3 (0,63).
+
+## 4/10/2026, 07:00 — conferma della v14 su chiavi nuove: 0,584 / 0,609
+
+Nel QUADERNO. Chiavi 13–24: **0,584 ± 0,007 / 0,609 ± 0,005**; su 24 chiavi 0,575 / 0,600; cancello 19 su 24; testo
+esatto 24 su 24. Le chiavi 1–12 erano ottimiste (effetto della scelta fra J1 e J2).
+
+### Dove siamo (4/10, 07:00) — punto di ripartenza
+
+- **Versione migliore: v14** (predefinita nello strumento). Giudice dell'e231 a 0,58 (sotto l'obiettivo), dell'e266 a
+  0,60–0,61 (sulla soglia), pagella 15,2 su 17 raggiungibili, materie aggiunte circa 6 su 8, cancello della riga in
+  circa 4 chiavi su 5, testo sempre esatto, capacità circa 82.000 bit.
+- **Catena delle versioni a pezzi:** v8 (e406) → v9 (e407: unioni, confine, verticale) → v10 (e408 R1 + messaggio nel
+  sacco) → v11 (e410: cancello) → v12 (e412: metà della pagina) → v13 (e413: κ e γ sul sacco completo) → v14 (e414:
+  giuntura delle unioni).
+- **Regola pratica:** confronti su 12 chiavi; quando si sceglie fra varianti, conferma su 12 chiavi nuove.
+- **Lacune dichiarate:** profilo pagina; scelte di riga a 12 classi; omogeneità; tipi su parole (0,771 contro 0,756);
+  prime righe come registro (G8 0,65); cancello non sempre (A appena sotto 1,0 in alcune chiavi).
+- **Niente è in esecuzione.** Tutto è committato e sul remoto privato. Niente è stato pubblicato. Le decisioni sulla
+  pubblicazione sono rimandate da Davide al mattino (vedi `PUBBLICAZIONE.md`, con la nota sulla licenza CC0 da
+  ricontrollare a mano).

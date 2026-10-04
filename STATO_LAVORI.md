@@ -241,6 +241,21 @@ Dettagli nel QUADERNO e nel dossier (§15.5–15.11).
   - la lettura A/B dell'e307 (corretta dall'e315);
   - "la riga sopra non conta" del primo modello (corretta dall'e338/e340).
 
+## vz: stato del voynichizzatore (chat del voynichizzatore, 4/10 alle 7:00)
+
+Sostituisce i numeri delle due sezioni seguenti. **Versione migliore: v14** (predefinita nello strumento).
+
+| v14, Isidoro nascosto nel sacco | AUC e231 | AUC e266 | pagella (massimo 17) | materie aggiunte | cancello della riga | testo esatto |
+|---|---|---|---|---|---|---|
+| 12 chiavi nuove, mai usate per scegliere | 0,584 ± 0,007 | 0,609 ± 0,005 | 15,2 | 5,8 su 8 | 10 su 12 | 12 su 12 |
+| tutte le 24 chiavi | 0,575 ± 0,006 | 0,600 ± 0,005 | 15,2 | 6,0 su 8 | 19 su 24 | 24 su 24 |
+| per confronto: v5 del 3/10 (3 semi) | 0,816 | 0,917 | 16,3 | 2,7 su 8 | 0 su 3 | 3 su 3 |
+
+- Giudice dell'e231 sotto l'obiettivo; giudice dell'e266 sulla soglia (0,60–0,61), non sotto; pagella non piena.
+- I numeri "al banco" a tre semi scritti sotto erano un po' favorevoli: valgono le stime a 12 e 24 chiavi.
+- Passi del 4/10 mattina: e413 (v13: κ e γ sul sacco completo; coppie viste altrove a posto), e414 (v14: giuntura delle
+  unioni). Dettagli: QUADERNO, voci "vz:"; punto di ripartenza: `voynichizzatore/DIARIO.md`, ultima sezione.
+
 ## vz: stato del voynichizzatore (chat del voynichizzatore, 4/10 all'1:10)
 
 Sostituisce la sezione seguente per i numeri; il resto di quella sezione (impianto, metodo, proprietà) resta valido.
