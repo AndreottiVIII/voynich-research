@@ -243,7 +243,9 @@ e nel Voynich c'è con la stessa forza anche per scelte dentro la parola (*k*/*t
 di solito non arriva. E soprattutto la **forma** (e3b95, e3b96 su dati nuovi): nelle lingue l'accordo è concentrato fra
 parole accanto e a tre parole ne resta poco (13–40%), nel Voynich a tre parole resta quasi tutto (79%; 64–66% anche togliendo le parole simili a due modifiche, e3b97). Figura
 `risultati/figure/profilo_distanza.png`. Quindi la "memoria" del Voynich non si comporta come un accordo dentro la frase,
-ma come un'abitudine che si consuma scrivendo. Restano da provare lingue con accordi a distanza più lunga.
+ma come un'abitudine che si consuma scrivendo. Su tutti i 26 testi grandi del corpus (e3b98) nessuna lingua con accordo
+chiaro arriva alla forma del Voynich, ma il Volapük (lingua artificiale, con il plurale -*s* che dura per tutta la frase)
+ci va vicino (62% contro 64–66%): la forma piatta è rara nelle lingue, non impossibile.
 
 ## In breve
 
