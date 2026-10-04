@@ -185,3 +185,15 @@ Pacchetto v17 **senza modifiche** dentro Pyodide 314.0.7 (Python 3.14.2, numpy 2
   pagina, in un ordine che può cambiare; si rilegge nei due sensi;
 - è una prima prova di rilettura in un ambiente diverso (versioni di Python e librerie diverse, WebAssembly), ma con
   **una sola chiave**: nel collaudo ripeterla con più chiavi e testi, nei due sensi, prima di aprire il sito.
+
+## 11. Aggiornamento del 4/10/2026 pomeriggio: la versione pubblicata è la v20
+
+- Il repo pubblico ora contiene la **v20** (non più la v17). Per il sito non cambia niente: stessi comandi, stessi
+  formati, stessi tempi. Dove questa scheda dice "v17" leggere "v20" (anche negli esempi Python: `'v20'`).
+- Che cosa cambia: le parole sono disposte in modo che la larghezza delle righe in caratteri somigli a quella del
+  Voynich (prima c'erano troppe righe molto più larghe delle altre; nel PDF si vedeva).
+- **I manoscritti scritti con la v17 si leggono con la v20** (verificato): le due versioni differiscono solo nella
+  disposizione delle parole, che non porta il messaggio.
+- Numeri aggiornati (12 chiavi): giudici 0,55 e 0,60; pagella 15–16 su 17; righe oltre 1,5 volte la mediana 2,8%
+  (Voynich 2,9%); oltre 1,25 volte 11,5% (Voynich 6,0%: difetto che resta, dichiarato nel README).
+- Il carattere è alla versione 1.1 (forche e "l" ridisegnate).

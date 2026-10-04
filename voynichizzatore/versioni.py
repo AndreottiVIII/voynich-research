@@ -33,6 +33,8 @@ V14 = OrderedDict([('impianto', 'pezzi'), ('parametri', 'v14')])   # e414 (J1): 
 V15 = OrderedDict([('impianto', 'pezzi'), ('parametri', 'v15')])   # v14 con la cifratura robusta (scrypt, SHAKE-256, HMAC)
 V16 = OrderedDict([('impianto', 'pezzi'), ('parametri', 'v16')])   # v15 con la gabbia di ogni pagina presa da un'altra pagina (e415)
 V17 = OrderedDict([('impianto', 'pezzi'), ('parametri', 'v17')])   # v15 con la gabbia di ogni pagina estratta da un modello statistico (e415)
+# v18 (e416) e v19 (e416b) hanno solo il file dei parametri: non hanno passato i criteri e non sono nel registro
+V20 = OrderedDict([('impianto', 'pezzi'), ('parametri', 'v20')])   # v17 con la larghezza delle righe in caratteri (e416b) e l'alternanza nella riga regolata di nuovo (e417)
 VERSIONI = OrderedDict([
     ('v2', OrderedDict([('corpo', E288), ('modello', 'v1')])),
     ('v3', OrderedDict([('corpo', E288), ('modello', 'v3')])),
@@ -50,6 +52,7 @@ VERSIONI = OrderedDict([
     ('v15', OrderedDict([('corpo', V15), ('modello', None), ('canale', 'sacco')])),
     ('v16', OrderedDict([('corpo', V16), ('modello', None), ('canale', 'sacco')])),
     ('v17', OrderedDict([('corpo', V17), ('modello', None), ('canale', 'sacco')])),
+    ('v20', OrderedDict([('corpo', V20), ('modello', None), ('canale', 'sacco')])),
 ])
 
 
