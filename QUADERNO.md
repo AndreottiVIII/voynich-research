@@ -12636,3 +12636,28 @@ lettera per lettera.
   0,5). In proporzione allo spazio disponibile, +0,009 su 0,16 è circa il 5%, e +0,031 su 0,5 circa il 6%: potrebbero
   essere simili. Va rifatto con una misura normalizzata (e3b52) prima di dire che lo scriba anglosassone ha meno memoria
   del Voynich.
+
+## 4/10/2026 (notte) — e3b52: in scala normalizzata la memoria corta del Voynich è compatibile con quella dello scriba anglosassone
+
+Preregistrato (`preregistrazioni/e3b52.md`). K = accordo in più come quota dello spazio disponibile (come il kappa di
+Cohen); memoria = K(vicine) − K(lontane); coppie di parole simili tolte. Codice provato su testi finti (stessa memoria
+con scelte al 50% e al 91%: 0,061 e 0,080 su molti dati; con pochi dati la stima al 91% è molto rumorosa).
+
+| testo | K vicine (coppie) | K lontane (coppie) | memoria (IC 95%) | per classe |
+|---|---|---|---|---|
+| Voynich (ZL, nella riga) | +0,000 (22.039) | −0,087 (11.588) | **+0,087** (+0,062 – +0,112) | -ey/-dy +0,135, sh/ch +0,092, k/t +0,083, qo/o +0,070, ee/e +0,051 |
+| Hatton Gospels (þ/ð) | −0,165 (3.199) | −0,226 (8.426) | +0,061 (−0,041 – +0,159) | iniziale +0,200, interna −0,334 |
+
+Contrasto Voynich − Hatton: +0,026 (IC −0,074 – +0,130). **Esito preregistrato: memoria comparabile.**
+
+- **Lettura:** con l'unico controllo naturale disponibile (uno scriba vero che sceglie fra due lettere equivalenti) non
+  si può dire che il Voynich abbia più memoria corta: il valore dello scriba anglosassone è un po' più basso ma
+  l'intervallo è larghissimo (pochi casi della lettera rara). **Questo cambia una frase della relazione e del dossier:**
+  "nessuna lingua, nessun generatore e nemmeno il gibberish ha questa firma" resta vero (le lingue non hanno scelte
+  libere da misurare, i generatori e il gibberish non hanno memoria), ma **non** è dimostrato che sia insolita per uno
+  scriba umano che sceglie fra varianti grafiche. La memoria corta potrebbe essere un'abitudine normale di chi scrive a
+  mano con varianti equivalenti.
+- I K lontani negativi vengono dal togliere le coppie simili e dall'atteso calcolato senza le due parole: per questo si
+  legge la differenza vicine − lontane, come preregistrato.
+- Prossimo: più varianti naturali (*i*/*y* nell'inglese antico, nella Secreta Alberti inglese e nel Nuovo Testamento
+  fiammingo) per stringere l'intervallo (e3b53).
