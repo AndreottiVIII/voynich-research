@@ -1535,6 +1535,11 @@ di Davide per scaricarli). Il Marianus (и/ꙇ) non è interpretabile con questa
   lunga/tonda, AM 302 fol), quindi è un comportamento possibile per chi scrive a mano; fra gli scribi provati è raro (1
   scelta chiara su 18 in 6 scribi). Il Voynich è diverso per quantità (più scelte, tutte le mani), non per natura. Il
   raccordo invece non ha paragone negli scribi (quattro volte il più forte).
+- **Forma dello stato (e3c66):** lo stato **si spegne poco a poco**: K corretto +0,144 / +0,100 / +0,090 / +0,071 /
+  +0,036 / +0,067 a 1 – 6 parole (ZL; IT uguale), persistenza ρ 0,80 (0,70 – 0,90), **mezza vita circa 3 parole** (1,9 –
+  6,2); a 4 – 6 parole resta +0,055 (intervallo sopra 0,03). **Corregge** la descrizione "finestra di tre parole, poi
+  zero" (e3c33, misura senza correzione). Ogni scelta ha **il suo** stato: fra scelte diverse l'accordo è −0,01 (stessa
+  scelta +0,10). Cautela: parte dell'accordo a 4 – 6 parole può essere una preferenza di tutta la riga.
 
 **BATTERIA SCRIBI (e3c58 – e3c65, 4/10 mattina): quali proprietà forti del Voynich sono normali per chi scrive a mano?**
 Stesse misure del Voynich su sei scribi veri (Menota, livello facsimile, righe e pagine vere: AM 677 4to c. 1200 – 1225,
