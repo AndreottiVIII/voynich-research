@@ -14322,3 +14322,20 @@ generatori.
   intervallo sotto 0.
 - La deriva orizzontale si aggiunge alle cose del Voynich che i generatori pubblicati non riproducono (memoria delle
   scelte, raccordo). Per il voynichizzatore è un tratto in più da imitare.
+
+## 4/10/2026 (mattina) — e3c20: la deriva lungo la riga è più ripida all'inizio della riga
+
+Preregistrato (`preregistrazioni/e3c20.md`). Pendenza della scelta (1 = *qo*, *k*, *sh*, -*ey*) a parità di parola, nella
+prima e nella seconda metà della riga (righe di almeno 5 parole, senza prima e ultima parola). Codice provato su derive
+finte (all'inizio −0,059, verso il margine +0,042, uniforme −0,007).
+
+| trascrizione | prima metà, ogni 10 segni | seconda metà | differenza (prima − seconda) |
+|---|---|---|---|
+| ZL | −0,036 (−0,054 – −0,022) | −0,017 (−0,031 – −0,006) | **−0,019** (−0,035 – −0,004) |
+| IT | −0,036 (−0,053 – −0,021) | −0,017 (−0,030 – −0,007) | **−0,019** (−0,035 – −0,003) |
+
+- **Esito preregistrato: la deriva è più ripida all'inizio della riga.** Il calo è doppio nella prima metà e continua,
+  più lento, nella seconda: la forma di un'abitudine che a ogni riga riparte dalle forme "marcate" (*qo*, *k*, *sh*, -*ey*)
+  e se ne allontana scrivendo, più che di una semplificazione vicino al margine destro.
+- Va insieme a due cose già viste: all'a capo la memoria delle scelte si dimezza (e3b66) e la catena di segni riparte; la
+  riga è un'unità di scrittura. Ipotesi da non dare per provata: un'abitudine che "si ricarica" a inizio riga.

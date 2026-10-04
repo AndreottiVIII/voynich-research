@@ -1340,7 +1340,9 @@ segni, classi insieme) che in A (−0,011). **Memoria per mano senza la posizion
 +0,054/+0,045 (ZL/IT, intervalli sopra 0), mano 1 +0,071/+0,051 con intervalli che toccano 0 (poche coppie); nessuna
 differenza fra mani. Nel white paper: "della stessa grandezza in tutte le mani, dimostrata nelle mani 2 e 3".
 **I generatori non hanno la deriva lungo la riga (e3c18):** Naibbe, U2, U3, Timm e Schinner fra −0,002 e +0,003 ogni
-10 segni (nessun intervallo sotto 0), contro −0,011 (A) e −0,035 (B) del Voynich.
+10 segni (nessun intervallo sotto 0), contro −0,011 (A) e −0,035 (B) del Voynich. **Dove avviene (e3c20):** più ripida
+nella prima metà della riga (−0,036 ogni 10 segni) che nella seconda (−0,017), differenza con intervallo sotto 0 in ZL
+e IT: a ogni riga si riparte dalle forme marcate e ci si allontana scrivendo, più che semplificare vicino al margine.
 **Correzione dei valori della memoria (e3c14):** la deriva fa accordare di più le parole vicine; con un nullo che
 rimescola dentro fasce di posizione nella riga la memoria è **+0,062 (ZL, IC +0,035 – +0,089) e +0,051 (IT, +0,025 –
 +0,079)**, contro +0,086 e +0,076 del nullo solito: circa un terzo veniva dalla deriva. Nel white paper vanno citati i
