@@ -20,6 +20,7 @@ import e3b62_memoria_nullo_largo as e3b62
 RISULTATI = os.path.join(QUI, '..', 'risultati')
 PERM = 1000
 MIN_SALTO = 150
+ILL = 'illeggibile'
 
 
 def tratti(ws, seps):
@@ -50,7 +51,12 @@ def confini(righe, tipo):
 
 
 def valori(seg, f):
-    return [f(w) if w else None for w in seg]
+    """(valore, coperta) per le parole della classe, None per le altre, ILL per le illeggibili."""
+    return [ILL if not w else f(w) for w in seg]
+
+
+def classe(x):
+    return x is not None and x != ILL
 
 
 def coppie_cavallo(a, b):
@@ -61,9 +67,9 @@ def coppie_cavallo(a, b):
     for i in range(n):
         for d in (2, 3):
             j = i + d
-            if j < n or j >= len(seq) or seq[i] is None or seq[j] is None:
+            if j < n or j >= len(seq) or not classe(seq[i]) or not classe(seq[j]):
                 continue
-            if any(seq[k] is None for k in range(i + 1, j)):
+            if any(seq[k] == ILL for k in range(i + 1, j)):
                 continue
             ci, cj = seq[i][1], seq[j][1]
             if ci == cj or e3a86.una_modifica(ci, cj):
@@ -77,7 +83,7 @@ def coppie_dentro(seg):
     for i in range(len(seg)):
         for d in (2, 3):
             j = i + d
-            if j >= len(seg) or seg[i] is None or seg[j] is None or any(seg[k] is None for k in range(i + 1, j)):
+            if j >= len(seg) or not classe(seg[i]) or not classe(seg[j]) or any(seg[k] == ILL for k in range(i + 1, j)):
                 continue
             if seg[i][1] == seg[j][1] or e3a86.una_modifica(seg[i][1], seg[j][1]):
                 continue
