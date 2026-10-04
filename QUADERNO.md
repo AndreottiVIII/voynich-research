@@ -15155,3 +15155,31 @@ gruppi di pagine dalla sezione illustrata e dalla lingua di Currier.
 Nella preregistrazione e3c50 e nella voce e3c50 di questo quaderno ho scritto che AM 677 4to è "c. 1300". Il catalogo
 Menota lo data **c. 1200 – 1225** (avevo letto la data della voce accanto nel catalogo). I risultati non cambiano; i due
 scribi sono quindi di circa 1200 – 1225 e 1280. Corretto anche nel dossier.
+
+## 4/10/2026 (mattina) — e3c55: la finestra non viene dal copiare parole vicine; è uno "stato" che vale anche fra parole molto diverse
+
+Preregistrato (`preregistrazioni/e3c55.md`; codice provato prima su testi finti con copia, con stato e senza niente: la
+misura distingue i tre casi). Misura dell'e3c48 con le coppie a 1 – 3 parole insieme, divise per la distanza di
+Levenshtein fra le parole coperte.
+
+| testo | distanza 2 | distanza 3 | distanza 4 o più | differenza 2 − 4+ |
+|---|---|---|---|---|
+| Voynich ZL | +0,129 (+0,091 – +0,166) | +0,119 | **+0,091 (+0,064 – +0,116)** | +0,038 (−0,005 – +0,083) |
+| Voynich IT | +0,130 (+0,093 – +0,170) | +0,112 | **+0,097 (+0,071 – +0,121)** | +0,033 (−0,013 – +0,080) |
+| Timm e Schinner (copia con modifiche) | +0,084 (+0,034 – +0,136) | +0,069 | +0,021 (−0,019 – +0,061) | **+0,063 (+0,002 – +0,126)** |
+
+Coppie: Voynich circa 5.200 / 6.400 / 9.800 per le tre classi di distanza.
+
+- **Esito preregistrato: "stato" (accordo uguale per parole simili e diverse) in ZL e IT.** Fra parole che differiscono
+  per 4 segni o più l'accordo è +0,09 / +0,10, chiaro e vicino a quello fra parole simili; la differenza (+0,03 / +0,04)
+  non è dimostrata.
+- Il generatore di Timm e Schinner, che funziona proprio copiando parole vicine con modifiche, fa l'opposto: accordo fra
+  parole simili, quasi niente fra parole diverse (+0,021, intervallo che contiene 0). Il controllo positivo funziona
+  anche su un testo vero di quel tipo.
+- **Lettura:** chi ha scritto il Voynich fa le scelte *k*/*t*, *sh*/*ch*, -*ey*/-*dy* "a periodi" di 2 – 3 parole,
+  qualunque parola stia scrivendo: è come se per qualche parola fosse in una modalità e poi passasse a un'altra. Non è
+  copiatura di parole vicine. Resta possibile un piccolo contributo in più della copia (la differenza positiva ma non
+  dimostrata, +0,03 – +0,04).
+- **Che cosa non dice:** non dice perché c'è questo stato (abitudine di scrittura, una regola del sistema, una chiave che
+  cambia ogni poche parole, un contenuto che si ripete per qualche parola): sono ipotesi da mettere alla prova, nessuna è
+  una lettura del testo.
