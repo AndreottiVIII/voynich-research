@@ -1,0 +1,248 @@
+{
+ "ZL": {
+  "insieme": {
+   "quota generale": {
+    "memoria_punti": 5.073368092304776,
+    "vicine_punti": 14.362285283524045,
+    "lontane_punti": 9.28891719121927,
+    "IC95": [
+     2.178678061949411,
+     8.15411429251924
+    ]
+   },
+   "stessa parola": {
+    "memoria_punti": 3.9565170880388036,
+    "vicine_punti": 12.264606851671438,
+    "lontane_punti": 8.308089763632633,
+    "IC95": [
+     1.1802596442105553,
+     7.044563689045806
+    ]
+   },
+   "stessa parola e deriva": {
+    "memoria_punti": 3.921539735155423,
+    "vicine_punti": 11.947624551356425,
+    "lontane_punti": 8.026084816201003,
+    "IC95": [
+     1.1254355390740356,
+     7.003416838363442
+    ]
+   },
+   "nullo largo": {
+    "memoria_punti": 3.6588826194764064,
+    "nullo_punti": 1.4144854728283691,
+    "IC95": [
+     0.7641925891210419,
+     6.739628819690871
+    ]
+   }
+  },
+  "qo/o": {
+   "quota generale": {
+    "memoria_punti": 10.942659844813921,
+    "vicine_punti": 17.82456794178747,
+    "lontane_punti": 6.881908096973549
+   },
+   "stessa parola": {
+    "memoria_punti": 8.12094714875092,
+    "vicine_punti": 16.467222744149986,
+    "lontane_punti": 8.346275595399067
+   },
+   "stessa parola e deriva": {
+    "memoria_punti": 7.846768378922377,
+    "vicine_punti": 16.527824065228792,
+    "lontane_punti": 8.681055686306415
+   },
+   "nullo largo": {
+    "memoria_punti": 10.875269160257583,
+    "nullo_punti": 0.06739068455633918
+   }
+  },
+  "k/t": {
+   "quota generale": {
+    "memoria_punti": 2.80810173343163,
+    "vicine_punti": 15.122327153042411,
+    "lontane_punti": 12.314225419610782
+   },
+   "stessa parola": {
+    "memoria_punti": 3.34361888030054,
+    "vicine_punti": 14.22817927947491,
+    "lontane_punti": 10.884560399174369
+   },
+   "stessa parola e deriva": {
+    "memoria_punti": 3.1138357552627878,
+    "vicine_punti": 13.962917849504585,
+    "lontane_punti": 10.849082094241798
+   },
+   "nullo largo": {
+    "memoria_punti": 3.1298751682305137,
+    "nullo_punti": -0.3217734347988837
+   }
+  },
+  "sh/ch": {
+   "quota generale": {
+    "memoria_punti": 2.0291991925892345,
+    "vicine_punti": 11.257416932744714,
+    "lontane_punti": 9.228217740155479
+   },
+   "stessa parola": {
+    "memoria_punti": 1.9695124771788766,
+    "vicine_punti": 11.202502480484137,
+    "lontane_punti": 9.232990003305261
+   },
+   "stessa parola e deriva": {
+    "memoria_punti": 1.8686851018807933,
+    "vicine_punti": 10.579639416209243,
+    "lontane_punti": 8.710954314328449
+   },
+   "nullo largo": {
+    "memoria_punti": 0.31070628423586943,
+    "nullo_punti": 1.718492908353365
+   }
+  },
+  "-ey/-dy": {
+   "quota generale": {
+    "memoria_punti": 10.127172413051932,
+    "vicine_punti": 18.34876963795289,
+    "lontane_punti": 8.22159722490096
+   },
+   "stessa parola": {
+    "memoria_punti": 6.757756659004246,
+    "vicine_punti": 11.38896992681836,
+    "lontane_punti": 4.631213267814113
+   },
+   "stessa parola e deriva": {
+    "memoria_punti": 6.765835855094054,
+    "vicine_punti": 10.89219016729107,
+    "lontane_punti": 4.126354312197015
+   },
+   "nullo largo": {
+    "memoria_punti": 5.913945911631541,
+    "nullo_punti": 4.213226501420391
+   }
+  }
+ },
+ "IT": {
+  "insieme": {
+   "quota generale": {
+    "memoria_punti": 4.328115270755514,
+    "vicine_punti": 14.766879213417289,
+    "lontane_punti": 10.438763942661774,
+    "IC95": [
+     1.353955415724571,
+     7.3340369452251135
+    ]
+   },
+   "stessa parola": {
+    "memoria_punti": 2.5318738325129457,
+    "vicine_punti": 12.343390147696232,
+    "lontane_punti": 9.811516315183285,
+    "IC95": [
+     -0.060985182145451844,
+     5.182677855423439
+    ]
+   },
+   "stessa parola e deriva": {
+    "memoria_punti": 2.3894145644249507,
+    "vicine_punti": 12.061016711074291,
+    "lontane_punti": 9.671602146649342,
+    "IC95": [
+     -0.23355357459892537,
+     5.077516502793635
+    ]
+   },
+   "nullo largo": {
+    "memoria_punti": 2.4702202164789604,
+    "nullo_punti": 1.857895054276554,
+    "IC95": [
+     -0.503939638551983,
+     5.4761418909485595
+    ]
+   }
+  },
+  "qo/o": {
+   "quota generale": {
+    "memoria_punti": 9.701510723787106,
+    "vicine_punti": 18.678170704117818,
+    "lontane_punti": 8.97665998033071
+   },
+   "stessa parola": {
+    "memoria_punti": 5.70449632451073,
+    "vicine_punti": 16.633719445841287,
+    "lontane_punti": 10.929223121330555
+   },
+   "stessa parola e deriva": {
+    "memoria_punti": 5.4605009111545435,
+    "vicine_punti": 16.683171019277953,
+    "lontane_punti": 11.22267010812341
+   },
+   "nullo largo": {
+    "memoria_punti": 8.951709745598984,
+    "nullo_punti": 0.7498009781881209
+   }
+  },
+  "k/t": {
+   "quota generale": {
+    "memoria_punti": 2.3965059625953717,
+    "vicine_punti": 15.387913950485826,
+    "lontane_punti": 12.991407987890454
+   },
+   "stessa parola": {
+    "memoria_punti": 1.8418662289704568,
+    "vicine_punti": 13.764008497440344,
+    "lontane_punti": 11.922142268469887
+   },
+   "stessa parola e deriva": {
+    "memoria_punti": 1.5652465322027007,
+    "vicine_punti": 13.524164004209993,
+    "lontane_punti": 11.958917472007293
+   },
+   "nullo largo": {
+    "memoria_punti": 2.267388830994587,
+    "nullo_punti": 0.12911713160078506
+   }
+  },
+  "sh/ch": {
+   "quota generale": {
+    "memoria_punti": -0.9410650025778053,
+    "vicine_punti": 11.347086017492357,
+    "lontane_punti": 12.288151020070162
+   },
+   "stessa parola": {
+    "memoria_punti": -0.5549508562559979,
+    "vicine_punti": 11.359126819112392,
+    "lontane_punti": 11.91407767536839
+   },
+   "stessa parola e deriva": {
+    "memoria_punti": -0.7604612314267913,
+    "vicine_punti": 10.746168891780863,
+    "lontane_punti": 11.506630123207655
+   },
+   "nullo largo": {
+    "memoria_punti": -1.9915898681943645,
+    "nullo_punti": 1.0505248656165591
+   }
+  },
+  "-ey/-dy": {
+   "quota generale": {
+    "memoria_punti": 11.307068613788921,
+    "vicine_punti": 18.738457661751625,
+    "lontane_punti": 7.431389047962705
+   },
+   "stessa parola": {
+    "memoria_punti": 6.207721569454196,
+    "vicine_punti": 11.885799847594813,
+    "lontane_punti": 5.6780782781406165
+   },
+   "stessa parola e deriva": {
+    "memoria_punti": 6.186739143572422,
+    "vicine_punti": 11.349501585450085,
+    "lontane_punti": 5.162762441877663
+   },
+   "nullo largo": {
+    "memoria_punti": 6.00965412099336,
+    "nullo_punti": 5.2974144927955615
+   }
+  }
+ }
+}

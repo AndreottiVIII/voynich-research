@@ -187,6 +187,9 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     in tutte le classi. Figura `deriva_riga.png`. **e3c24:** la q cade solo nella parola dopo il disegno (−0,33), non prima:
     non è spazio pianificato; scrittura o lettura (q attaccata al disegno), non si decide senza immagini. e3c25: ZL e IT non
     discordano di più dopo il disegno (1/94 contro 0,9%), ma i dati sono pochi (incerto).
+    **Correzione (e3c26, e3c27):** senza le parole ai bordi e con l'atteso dalla stessa parola la memoria vale ~4 punti in ZL
+    (IC sopra 0) e ~2,5 in IT (IC tocca 0), concentrata in qo/o e -ey/-dy; k/t debole, sh/ch non dimostrata. Parte della
+    memoria delle misure precedenti passava dai bordi. Da ricontrollare la forma piatta (e3c28).
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);

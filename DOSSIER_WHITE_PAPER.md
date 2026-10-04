@@ -1388,6 +1388,13 @@ una trascrizione e al limite nelle altre due; 25 lingue su 26 a zero, eccezione 
 Regge su tre trascrizioni (ZL, Takahashi, Glen Claston) e in tutte le mani. Resta aperto se uno scriba medievale vero
 la abbia.
 
+**Correzione successiva (e3c26, e3c27), che ridimensiona la formula sopra:** togliendo la prima e l'ultima parola di ogni
+riga (forme proprie legate alla posizione) e usando l'atteso dalla stessa parola, la memoria vale circa **4 punti
+percentuali in ZL (IC 0,8 – 7,0) e 2,5 in IT (IC −0,5 – 5,5)**, concentrata in *qo*/*o* e -*ey*/-*dy* (6–8 punti); *k*/*t*
+2–3 punti, *sh*/*ch* circa zero. La somiglianza fra le quattro classi nell'e3b62 passava in parte dalle parole ai bordi.
+Nel white paper la memoria va presentata così: piccola, chiara in *qo*/*o* e -*ey*/-*dy*, assente nei generatori. Il
+confronto della forma con le lingue è in verifica (e3c28).
+
 **Lezioni di metodo da riportare** (utili anche a chi legge): (1) confrontare con la media della pagina ai bordi della
 riga inganna, perché fine e inizio riga hanno forme proprie; (2) togliere le coppie "simili" guardando la parola intera
 falsa i confronti con i rimescolamenti; (3) il rimescolamento parola per parola sottostima la variabilità: servono
