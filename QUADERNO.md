@@ -12842,3 +12842,26 @@ delle parole −0,001, p 0,83).
   raccordo è molto più forte. Il raccordo resta un tratto proprio del sistema di scrittura del Voynich.
 - Nota: non ho verificato se la Secreta Alberti e il NT fiammingo del corpus vengano da stampe o da manoscritti (nella
   preregistrazione dell'e3b53 avevo scritto "stampa del Cinquecento" per la Secreta Alberti senza verificarlo).
+
+## 4/10/2026 (notte) — e3b59: la memoria corta delle scelte varia da scriba a scriba (la mano 1 non la ha)
+
+Preregistrato (`preregistrazioni/e3b59.md`). Metodo dell'e3b56 per le pagine di ogni mano (ZL); eterogeneità con Q
+(chi quadro). Calcolo di Q provato su "mani" finte (due uguali: p 0,33; una diversa: p < 10⁻⁹).
+
+| mano | pagine | coppie vicine | M osservata | M nullo | effetto | z | p |
+|---|---|---|---|---|---|---|---|
+| 1 | 112 | 4.438 | +0,099 | +0,107 | −0,008 | −0,4 | 0,65 |
+| 2 | 46 | 7.114 | +0,126 | +0,069 | **+0,057** | +3,3 | < 0,001 |
+| 3 | 31 | 9.038 | +0,102 | +0,033 | **+0,069** | +4,8 | < 0,001 |
+| 4 | 10 | 249 | −0,053 | −0,049 | −0,003 | −0,1 | 0,52 |
+| 5 | 7 | 781 | +0,273 | +0,158 | +0,116 | +2,4 | 0,008 |
+
+Mani valide (almeno 2.000 coppie vicine): 1, 2, 3. Media pesata +0,047; Q = 10,4, p = 0,0055.
+
+- **Esiti preregistrati:** **solo in alcune mani**; **le mani differiscono**.
+- **Lettura:** nella mano 1 (erbario, lingua A) l'accordo grezzo fra parole vicine è alto (+0,099), ma si spiega tutto
+  con quali parole stanno vicine (nullo +0,107): niente memoria delle scelte oltre le parole. Nelle mani 2 e 3 (lingua
+  B) la memoria oltre le parole c'è, +0,06/+0,07; nella mano 5 anche (pochi dati). Una differenza fra scribi va
+  d'accordo con un'abitudine personale di chi scrive (come lo scriba anglosassone), più che con una regola del sistema.
+- **Cautela:** mano e lingua sono in parte la stessa cosa (mano 1 = lingua A; mani 2 e 3 = lingua B): non si può dire
+  se conti la persona o la lingua. Da rifare con Takahashi e classe per classe (e3b60).
