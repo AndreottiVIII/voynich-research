@@ -202,7 +202,9 @@ Lavoro autonomo notturno, solo ricerca (il voynichizzatore è dell'altra chat). 
     1, 2, 3 parole (+0,07–0,12): sembra una preferenza di riga più che una memoria che si consuma (verifica e3c33).
     **e3c33:** non è preferenza di riga (oltre 4 parole ≈ 0). Profilo: uguale a 1, 2, 3 parole, poi crolla ("finestra" di ~3
     parole); nelle lingue cala già fra 1 e 2 (Volapük eccezione). K(3)/K(1): Voynich 0,86–0,88, lingue 0,07–0,36. Verifica
-    su righe di 5–10 parole non usate (e3c34).
+    su righe di 5–10 parole non usate (e3c34). **e3c34 (incerto):** con le classi a mano R0 0,77–0,86 (solo Volapük sopra la
+    soglia); con le classi automatiche (k/t, a/o, ch/e) il Voynich cala come le lingue (R0 0,07–0,26) in tutte e tre le
+    trascrizioni. La forma lunga riguarda solo alcune scelte (forse qo/o e -ey/-dy): e3c35 scelta per scelta.
 - **Aggiunte dopo la mezzanotte (e389–e397):**
   - a fine riga -*m* prende il posto di -*r* (*dar* → *dam*); a inizio riga *y*-/*s*- prendono il posto di *ch*-/*k*-
     (e389);
