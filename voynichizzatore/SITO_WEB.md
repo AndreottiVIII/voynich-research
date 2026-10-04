@@ -226,3 +226,16 @@ Pacchetto v17 **senza modifiche** dentro Pyodide 314.0.7 (Python 3.14.2, numpy 2
   cancello della riga 24 su 24; rilettura 24 su 24. Usare questi, che sono quelli del README pubblico.
 - **Chiave:** il sito deve chiedere una chiave lunga e casuale (almeno 6 parole a caso o 12 caratteri a caso), o
   generarla lui e mostrarla all'utente. Con una parola comune un attacco a tentativi riesce in poco tempo.
+- **Collaudo v20 (4/10 sera), tutto superato.** Cinque casi scritti sia dal programma sul PC sia dal sito nel
+  browser: c1 inglese corto; c2 italiano con accenti, virgolette, righe vuote, chiave accentata; c3 greco, cirillico,
+  cinese, giapponese, coreano, arabo, ebraico, emoji, tabulazioni, a capo Windows, chiave con emoji; c4 32.014
+  caratteri, 76.888 bit (91% della capienza), chiave di 264 caratteri; c5 libro senza messaggio. In tutti: rilettura
+  browser → PC e PC → browser esatta; manoscritti v17 letti con la v20, sul PC e nel browser, esatti; chiave sbagliata
+  respinta dalle due parti; parole identiche in 207 pagine su 207; capienze uguali; c1 riscritto due volte nel browser
+  identico byte per byte. Tempi nel browser 172–350 s (PC carico). Tabella pubblicata in How it works.
+- **Difetto del sito trovato dal collaudo e corretto:** il libro senza messaggio falliva nel browser (il `null` di
+  JavaScript arriva a Python come `JsNull`, non `None`). Ora il motore passa un segnale a parte. Rifatto c5: passa.
+- `docs/engine/v17` tolto: la v20 legge i manoscritti v17.
+- **Inquadramento chiesto da Davide:** il sito presenta il risultato come un "secondo Voynich" (Voynich II), fatto per
+  essere indistinguibile; per ora si scrive "made to be indistinguishable" (obiettivo) e "le nostre misure quasi non lo
+  distinguono" (risultato), non "indistinguishable" come fatto: decisione da confermare con Davide (vedi §8).

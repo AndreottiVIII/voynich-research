@@ -872,3 +872,6 @@ come **PDF del libro**.
 - Sicurezza (domanda di Davide): la chiave passa per scrypt (n = 2^15) con sale fisso; regge solo se la chiave è lunga
   e casuale (consiglio: 6 parole a caso o 12 caratteri a caso). Possibile miglioria: alzare il costo di scrypt
   (versione nuova). Da dire nel sito.
+- Collaudo v20 superato in tutti e cinque i casi e in tutti i sensi (tabella in `SITO_WEB.md`, §13, e in How it works);
+  trovato e corretto un difetto del sito sul libro senza messaggio (`JsNull`). Il sito presenta il libro come "un
+  secondo Voynich", come chiesto da Davide.
