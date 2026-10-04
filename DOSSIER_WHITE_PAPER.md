@@ -1150,3 +1150,25 @@ conta poco, perché la loro giuntura è quasi zero.
   - Si ritrova con Takahashi (e3b04: scarto lessicale +0,05, z 3,2; stessa dipendenza dalla lunghezza).
   - Nei testi di confronto (e3b05, scarto lessicale con lo stesso nullo): Naibbe +1,58, U2 +0,93, gibberish umano +0,81, U3 +0,45, Timm e Schinner +0,11 (come il Voynich, +0,20); lingue +4. Lo spazio non lessicale distingue il Voynich da lingue, Naibbe, gibberish e U2/U3, non da Timm e Schinner.
 - **Figura della memoria corta** (`risultati/figure/memoria_corta.png`, da `strumenti/figura_memoria_corta.py`): eccesso di ripetizione di una parola nella stessa riga entro 1–4 parole e a 7–10 parole (rispetto alla catena di segni), per Voynich (e3a87), lingue (mediana, e3a89), generatori e gibberish (e3a90). Solo nel Voynich la barra vicina è alta e quella lontana quasi nulla.
+
+### Sintesi aggiornata (notte del 4/10, e3a55–e3b05)
+
+Il testo del Voynich si descrive bene con quattro ingredienti; niente di questo è una decifrazione né dice se il testo
+abbia un significato.
+
+1. **Una catena di segni scritta riga per riga** (memoria quasi di un segno, un po' di due), che riparte a ogni a capo e
+   a ogni salto di disegno. Da sola riproduce giuntura, chiusura della riga, forme di inizio e fine riga, catena
+   attraverso lo spazio, frequenza che segue la forma, quantità di vocabolario e legge di Zipf (e3a76–e3a81, e3a92,
+   e3a98).
+2. **Spazi messi con i segni vicini e la lunghezza della parola in corso**, non con l'identità della parola (e3a58,
+   e3a99, e3b03–e3b05): per questo il vocabolario riempie le forme possibili e un taglio diverso dà quasi sempre parole
+   che esistono (e3a61, e3a67). Gli spazi dubbi cadono dove la regola lascia la scelta (e3a60).
+3. **Ripresa di quello che si è appena scritto**: nella stessa riga a memoria corta (spenta in 6–7 parole), adattata al
+   raccordo (e3a86–e3a93); dalla riga sopra, da tutta la riga (e3a83, e3a87).
+4. **Regole di pagina e di paragrafo**: evitare di cominciare come la riga sopra, apertura del paragrafo, deriva di
+   -*ey* lungo la pagina (e3a25–e3a35, e3a81, e3a82).
+
+Rispetto ai testi di confronto: le lingue hanno spazi lessicali, nessuna catena attraverso lo spazio, ripetizione che
+cresce con la distanza; il gibberish scritto a mano non ha giuntura, copia, evitamento sul margine; nessun generatore
+pubblicato ha insieme giuntura chiusa nella riga, memoria corta nella riga ed evitamento sul margine (Timm e Schinner ha
+la copia e lo spazio non lessicale, ma non il resto).
