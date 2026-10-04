@@ -553,6 +553,14 @@ Utili da mettere in evidenza nel white paper:
 | `e22_timm_schinner-chiaro.png` | otto proprietà su scala lingua (0) → Voynich (1): generatore e Naibbe | modello senza messaggio |
 | `e23_giunture-chiaro.png` | lo stesso con la regola delle giunture | giunture |
 | `e24_varieta-chiaro.png` | parole uniche contro somiglianza: il compromesso del generatore | vocabolario |
+| `figure/vocabolario.png` | frequenza che segue la forma, riempimento, tagli che danno parole vere: Voynich come i generatori | vocabolario (notte 4/10) |
+| `figure/spazi.png` | spazi previsti dai segni vicini, spazio non lessicale | spazi (notte 4/10) |
+| `figure/catena_spiega.png` | che cosa riproduce e che cosa no la catena di segni per riga | modello (notte 4/10) |
+| `figure/memoria_corta.png` | ripetizione nella riga vicina e lontana: Voynich, lingue, generatori | memoria corta |
+| `figure/memoria_profili.png` | profili della memoria delle scelte | memoria corta |
+| `figure/memoria_scribi.png` | memoria delle scelte oltre le parole, con intervalli: Voynich, mani, scriba anglosassone, generatori | memoria corta (stato finale, 15.13) |
+| `figure/confini.png` | che cosa passa il salto del disegno e l'a capo (memoria, ripetizione, raccordo) | memoria corta (stato finale, 15.13) |
+| `figure/solo_testo.png` | pagine di solo testo: giuntura a capo sì, memoria come altrove | pagine di solo testo (15.13) |
 
 Per e25–e28 ci sono solo tabelle (`.md`): conviene farne grafici nuovi. Per esempio:
 
@@ -1234,3 +1242,46 @@ significato.
   - **Le scelte non hanno un forte legame con la parola** (e3b49, e3b50): fuori campione, conoscere la parola intera non aiuta a prevedere *k*/*t* e *sh*/*ch* oltre i due segni prima e dopo, con ZL e Takahashi (come nel Voynich riscritto dalla sua catena); per *qo*/*o* e -*ey*/-*dy* un legame debole si vede solo con Takahashi (+0,015 e +0,010 bit sopra la catena, quanto un legame aggiunto apposta al 10–20% delle scelte). In Naibbe e U2 il legame con la parola è più forte (-*ey*/-*dy* +0,046 e +0,024). Ridimensiona l'e201 (*k*/*t* "lessicalizzate"): era un effetto dei segni vicini. Prova poco sensibile per *sh*/*ch*.
   - Non passa invece da un'etichetta alla successiva (e3b48: differenza −0,006, IC −0,041 – +0,037, anche contando le parole simili): le etichette si copiano la forma ma ogni etichetta riparte da capo nelle scelte, come il testo dopo un disegno.
 - **Le 6 pagine "solo testo" sono scritte come testo continuo** (e3b38, e3b39): lì la memoria corta delle scelte passa l'a capo (+0,075 ZL, +0,094 IT, intervalli sopra 0), come la giuntura (e3a06); nelle altre 200 pagine l'a capo la azzera. Righe di lunghezza normale. Le pagine f1r, f66r, f76r, f85r1, f86v5, f86v6 sembrano scritte in un modo diverso, per esempio copiando un modello che andava a capo altrove. Le forme di bordo della riga (-m a fine riga, y/s/d a inizio riga, evitamento dell'inizio uguale alla riga sopra) ci sono invece anche lì, della stessa forza (e3b40): bordi e azzeramento della memoria sono due cose separate; in quelle pagine l'a capo non interrompe il filo delle scelte. Non dipende dall'assenza di disegni: nelle ricette (testo fitto, solo stelline) la memoria si azzera all'a capo come in erbario e biologia (e3b41). Non viene da una pagina (togliendone una per volta resta fra +0,068 e +0,093) e **la stessa mano 2** passa l'a capo nelle sue 4 pagine di solo testo (+0,089, IC +0,018 – +0,169) e lo azzera nelle sue 42 altre pagine (−0,006) (e3b42): è una proprietà del tipo di pagina, non dello scriba. Anche lì c'è la copia dalla riga sopra, della stessa forza (rapporto 1,19 contro 1,16; e3b43): l'unica differenza trovata è il mancato azzeramento all'a capo. Regge con una prova per pagina (le 6 pagine contro gruppi di 6 pagine normali a caso: p 0,021; mano 2: p 0,002) e non dipende dalla lunghezza dei paragrafi (nelle pagine normali si azzera anche nei paragrafi di 8 righe o più) (e3b44; gli intervalli delle e3b38–e3b42 ricampionavano i paragrafi, correzione dichiarata nel Quaderno). **Correzione (e3b55):** con il nullo che tiene ferme le parole, l'accordo a cavallo dell'a capo nelle pagine di solo testo (K +0,081) si spiega quasi tutto con quali parole stanno a cavallo (nullo +0,063; effetto +0,018, p 0,33); nelle altre pagine il nullo a cavallo è −0,014. Quindi nelle pagine di solo testo la scrittura scorre da una riga all'altra quanto alle parole (e alla giuntura), ma che passi la memoria delle scelte oltre le parole non è dimostrato (poche coppie, nullo prudente). Col nullo largo (e3b63): pagine normali, memoria oltre le parole +0,084 nella riga (z 11,8) e +0,001 a cavallo dell'a capo ("azzeramento", poi corretto dall'e3b66: il nullo parola per parola non tiene conto delle forme di bordo; con l'atteso giusto la memoria passa l'a capo per circa metà); pagine di solo testo, +0,066 nella riga e +0,036 a cavallo (p 0,24): non dimostrato. **Correzione finale (e3b71):** con il controllo delle righe vicine la memoria delle scelte passa l'a capo per circa metà nelle pagine di solo testo come nelle altre (D +0,026/+0,043 contro +0,039/+0,041; contrasto circa 0): l'accordo grezzo più alto veniva dal riferimento. Delle pagine di solo testo resta la giuntura che passa l'a capo (e3a06) e la continuità delle parole: lì la catena di segni non riparte a ogni riga. La giuntura che passa l'a capo si ritrova con Takahashi (e3b72: E +0,149, p 0,0006, taratura 0,001) e non c'è con la riga sopra (E circa 0): non è somiglianza fra righe vicine.
+
+
+### 15.13 Stato finale dopo le verifiche della notte 4/10 (e3b37–e3b74): che cosa usare nel white paper
+
+Le voci delle sezioni 15.11–15.12 sulla memoria corta e sulle pagine "solo testo" contengono correzioni successive; **per
+scrivere usare questa sezione**, che riporta solo lo stato finale. Figure: `memoria_scribi.png`, `confini.png`,
+`solo_testo.png` (tutte rifatte con i numeri finali).
+
+**Metodo finale per la memoria delle scelte** (e3b56, e3b62, e3b66, e3b70): accordo normalizzato (come il kappa di Cohen)
+fra parole a 2–3 di distanza meno quello a 6–10 nella stessa riga; coppie di parole simili tolte decidendo sulla parola
+con la variante coperta; confronto con un rimescolamento delle varianti fra le occorrenze della stessa parola nella stessa
+mano; intervalli al 95% ricampionando pagine intere. Per i confini (a capo, salto del disegno, paragrafo): fine del tratto
+accoppiata con l'inizio del tratto che lo continua, contro l'inizio di tratti vicini che non lo continuano.
+
+| affermazione | stato | numeri chiave |
+|---|---|---|
+| Memoria corta delle scelte di grafia nel Voynich | **solida** | ZL +0,086 (IC +0,060 – +0,113), IT +0,076 (+0,049 – +0,103); *qo*/*o*, *k*/*t*, *sh*/*ch*, -*ey*/-*dy* tutte (e3b62, e3b70) |
+| È oltre le parole e oltre la catena di segni | **solida** | sul Voynich riscritto dalla catena di ordine 2: +0,002 (e3b69) |
+| Uguale in tutte le mani (A e B) | **solida** | mani 1, 2, 3: +0,089, +0,091, +0,079, intervalli sovrapposti (e3b70); la differenza A/B dell'e3b59/e3b60 era un difetto del metodo |
+| Nessun generatore pubblicato la ha | **solida** | Naibbe +0,011, U2 +0,013, U3 +0,003, Timm e Schinner +0,024, tutti con IC che contiene 0 (e3b70) |
+| Uno scriba medievale vero la ha | **non stabilito** | scriba anglosassone, þ/ð a inizio parola +0,102 (IC −0,003 – +0,206); i/y nulla in tre testi (e3b70) |
+| La memoria si azzera all'a capo | **sbagliata** | passa per circa metà: D +0,039 ZL (IC +0,001 – +0,075), +0,041 IT (e3b66); l'"azzeramento" veniva dalle forme di bordo |
+| La memoria si azzera al salto del disegno | **sbagliata** | passa per intero: D +0,068 ZL, +0,077 IT, IC sopra 0 (e3b67) |
+| La memoria passa la fine del paragrafo | non dimostrato | stima circa 0 (ZL −0,015, IT −0,018), IC fino a +0,05 (e3b73) |
+| La ripetizione di parole si azzera all'a capo | **sbagliata** | passa per circa un quarto (e3b68) |
+| Raccordo *qo*/*o* e giuntura riparte a ogni a capo | **solida** | raccordo +0,04 a cavallo contro +0,35 nella riga (e3b45); giuntura rotta all'a capo (e384) |
+| Raccordo più forte che in uno scriba vero | **solida (un solo controllo)** | effetto/entropia 0,058 contro 0,007 (e3b58) |
+| Le scelte non sono legate alla parola | **solida per *k*/*t* e *sh*/*ch***; debole legame possibile per *qo*/*o* e -*ey*/-*dy* | e3b49, e3b50, e3b61; Naibbe e U2 invece sì |
+| Pagine "solo testo": la memoria passa l'a capo più che altrove | **sbagliata** | D +0,026/+0,043 contro +0,039/+0,041 (e3b71) |
+| Pagine "solo testo": la giuntura (catena di segni) passa l'a capo | **solida** | E +0,145 ZL, +0,149 IT, p 0,0005; con la riga sopra circa 0 (e3a06, e3b72) |
+| Etichette: memoria delle scelte fra etichette consecutive | assente | e3b48 |
+| "La copia porta con sé gli spazi" | **non regge come meccanismo** | e3b46, e3b47 |
+
+**Formula per il white paper:** il Voynich ha, oltre alla catena di segni per riga e allo spazio non lessicale, una
+memoria corta delle scelte di grafia forte e uniforme (tutte le scelte, tutte le mani, due trascrizioni), che prosegue
+oltre i salti del disegno e, dimezzata, oltre l'a capo, mentre la catena di segni (raccordo e giuntura) riparte a ogni
+interruzione; i generatori pubblicati non hanno questa memoria. Se sia un'abitudine normale degli scribi non è stabilito:
+serve una trascrizione diplomatica di un manoscritto medievale (permesso di Davide per scaricarla).
+
+**Lezioni di metodo da riportare** (utili anche a chi legge): (1) confrontare con la media della pagina ai bordi della
+riga inganna, perché fine e inizio riga hanno forme proprie; (2) togliere le coppie "simili" guardando la parola intera
+falsa i confronti con i rimescolamenti; (3) il rimescolamento parola per parola sottostima la variabilità: servono
+intervalli per pagine intere; (4) ogni cambio di misura è stato provato prima su dati finti con memoria nota.
