@@ -8,7 +8,36 @@ La ricerca ha esaurito i suoi numeri (e307–e399). Gli esperimenti dal 400 in s
 Davide, 4/10 notte). **Dal 4/10 la ricerca usa la serie e3a01, e3a02, … e3a99, poi e3b01, …** (esegui.py la accetta,
 come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
 
-## White paper (4/10 sera)
+## White paper v2 (8/10) — LEGGERE PRIMA
+
+- **Revisione esterna** della v1 ricevuta e verificata: `white_paper/revisione/` (note del revisore, verifica punto per
+  punto, piano `PIANO_V2.md`, scheda tecnica del voynichizzatore, registro completo degli esperimenti).
+- **Decisioni di Davide (8/10):**
+  - paper centrato sul voynichizzatore (misure → pagella → generatore), generatore in primo piano;
+  - Claude non più autore: autore solo Davide, uso dell'IA descritto nel metodo (§4.5), senza frasi su responsabilità;
+  - repo da aprire;
+  - codice "letto", nessuna dichiarazione in più;
+  - solo inglese.
+- **Rianalisi fatte (e3c84–e3c92), tutte preregistrate:**
+  - confronti per lingua;
+  - nullo con la grammatica della parola: la "catena" cade, la giuntura no;
+  - intervalli per bifoglio;
+  - raccordo a parità di posizione;
+  - ripetizioni osservate/attese: "non evitata", non "oltre il caso";
+  - riga e margine a 10.000 parole;
+  - potenza negli scribi (corretta: deriva 20/29) e Holm A 10;
+  - confronti multipli.
+- **Bozza v2:** `white_paper/en/` (36 pagine; figure rifatte da `figure/genera_figure.py`; bibliografia
+  `references.bib`). Titolo "Hiding a Message in a Voynich-like Book".
+- **Mancano:**
+  - l'esito dell'**e419** (con e senza messaggio sulla v21, fatto dalla chat del voynichizzatore) nel §9;
+  - un controllo dei numeri (agente);
+  - le risposte di Davide su: email nei commit e note del revisore nel repo pubblico, download di voynich-fingerprint,
+    ritagli IIIF per il controllo sulle immagini.
+- **Dopo:** chiedere alla chat del voynichizzatore di rileggere §8–9; aggiornare la scheda Zenodo (autore, titolo,
+  abstract), il sito (chat del sito) e l'articolo LinkedIn.
+
+## White paper (4/10 sera) — versione 1, superata dalla v2
 
 - **Italiano:** `white_paper/white_paper_it.md` (bozza di lavoro). **Inglese:** `white_paper/en/` (LaTeX, compilato con
   Tectonic, `C:\Users\davide\tools\tectonic\tectonic.exe --keep-logs main.tex` dentro `white_paper/en`); PDF
