@@ -15977,3 +15977,67 @@ nella stessa esecuzione. Risultati: `risultati/e3c77_ref_finestra_deriva.md`.
 - **Lettura:** la batteria scribi è completa. Lo stato breve e la deriva lungo la riga del Voynich non si trovano né nei
   sei scribi nordici né nei 73 tedeschi. Aggiornati i due white paper (tabella del §7, sommario, limiti), il dossier e
   lo stato dei lavori.
+
+## 8/10/2026 — Revisione esterna del white paper v1: note ricevute e verificate
+
+Davide ha fatto leggere il white paper v1 a un revisore indipendente. Le note sono in `white_paper/revisione/`
+(`note_revisore_v1_EN.md`, `note_revisore_v1_IT.md`) e la verifica punto per punto è in `VERIFICA_NOTE_REVISORE.md`,
+controllata sui dati del repo e sulle fonti. Il revisore ha ragione sulla grande maggioranza dei punti.
+
+**Errori miei trovati:**
+- "71 lingue" erano 71 testi (15 in lingue artificiali);
+- i valori per testo della giuntura ("solo sei superano il Voynich") venivano da un controllo esplorativo mai salvato;
+- la §10.3 descriveva il voynichizzatore vecchio;
+- c'erano rapporti incoerenti (deriva "da 3 a 15 volte", raccordo "4" contro "4–12");
+- "nessun testo di confronto" per il calo della ripetizione, mentre l'e3a89 dava il 9% delle lingue sotto il Voynich;
+- per le scoperte 1–5 e 7 c'erano precedenti non citati.
+
+**Dove il revisore esagera:** Kinnison 2026 usa il cifrario Naibbe, già discusso nel §8.2; il 4,8% di ripetizioni di
+Bowern e Lindemann viene da campioni di Wikipedia sporchi; alcune citazioni sono imprecise (dettagli nel file).
+
+**Decisioni di Davide (8/10):**
+- paper centrato sul voynichizzatore;
+- Claude non più autore, il suo uso descritto nel metodo;
+- repo da aprire;
+- tutte le rianalisi;
+- solo versione inglese.
+
+Piano: `white_paper/revisione/PIANO_V2.md`.
+
+## 8/10/2026 — e3c84: i confronti con i testi di Gaskell e Bowern, rifatti per lingua, reggono quasi tutti
+
+Preregistrato (`preregistrazioni/e3c84.md`).
+- **Raggruppamento:** 24 lingue naturali, ognuna con il valore mediano dei suoi testi; lingue artificiali a parte.
+- **Parte B:** giuntura e ripetizioni ricalcolate testo per testo (prime 10.000 parole).
+- **Risultati:** `risultati/e3c84_confronti_per_lingua.md`.
+
+| statistica | Voynich | lingue: mediana (min – max) | lingue oltre il Voynich (per lingua / per periodo / testo più simile) |
+|---|---|---|---|
+| F1 dello spazio | 0,862 | 0,644 (0,520 – 0,951) | 1 / 1 / 1 (cinese in pinyin) |
+| riempimento delle forme | 0,434 | 0,046 (0,016 – 0,465) | 1 / 1 / 1 (cinese) |
+| attestazione dei tagli sbagliati | 0,499 | 0,065 (0,037 – 0,236) | 0 / 0 / 0 |
+| ρ dentro/fra le parole | 0,470 | 0,030 (−0,252 – 0,371) | 0 / 0 / 0 |
+| ρ frequenza–forma | 0,583 | 0,087 (−0,018 – 0,260) | 0 / 0 / 0 |
+| giuntura E | 0,191 | 0,097 (0,034 – 0,220) | 2 / 3 / 4 (sanscrito, tagalog) |
+| ripetizione esatta | 1,01% | 0,13% (0,01 – 0,40%) | 0 / 0 / 0 |
+| ripetizione quasi esatta | 4,13% | 0,25% (0,06 – 1,86%) | 0 / 0 / 0 |
+| margine sinistro (rapporto) | 0,51 | 0,97 (0,42 – 1,35) | 1 su 23 (portoghese) |
+| calo della ripetizione nella riga | 0,12 | 2,86 (−3,89 – 12,85) | 2 su 20 (cinese, spagnolo) |
+
+- **Esiti preregistrati:**
+  - **reggono** le frasi "più di tutte le lingue" (tagli sbagliati, ρ dentro/fra, ρ frequenza–forma, ripetizioni),
+    anche senza le lingue artificiali (i due "massimi" di Toki Pona non contano più);
+  - reggono anche le frasi "sopra il 90%" (spazio, riempimento);
+  - giuntura: "parte alta della gamma", **2 lingue su 24** la superano (non "sei su 71");
+  - margine e calo: **"raro nelle lingue"** (1 su 23; 2 su 20).
+- **Correzioni al paper:**
+  - la frase "nessun testo di confronto ha questa firma" (calo) è sbagliata. Nota mia, dopo l'esito: i due valori sotto
+    il Voynich sono negativi (−2,5 e −3,9), cioè rapporti instabili con un eccesso vicino a zero, non un profilo come il
+    suo; resta comunque da scrivere "2 lingue su 20";
+  - la giuntura per testo dell'e377 (sanscrito e Corano 0,46–0,47) usava un'altra divisione in segni e non era salvata;
+    con la misura salvata il sanscrito vale 0,22 e il Voynich 0,19.
+- **Descrittive:**
+  - riga chiusa (Q ≤ 0,10) solo in ebraico (−0,21); le altre lingue passano l'a capo (mediana 0,49);
+  - legame a distanza due in 22 lingue su 24.
+- **Lettura:** il confronto con le lingue, fatto per lingua, conferma quasi tutto. Vanno corretti i numeri (24 lingue
+  e 8 lingue artificiali, non 71 lingue), la giuntura e il calo.
