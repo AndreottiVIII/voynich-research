@@ -1615,3 +1615,38 @@ fra parole accanto (+0,052), come lo scriba degli *Hatton Gospels*. Nessuna deri
 deriva lungo la riga non si trovano in nessuno dei 79 scribi** (sei nordici, 73 tedeschi). Cautela: con i manoscritti
 tedeschi insieme la finestra di un singolo scriba può restare diluita. White paper aggiornati (tabella del §7,
 sommario, scoperte 6 e 7, limiti).
+
+**REVISIONE ESTERNA E RIANALISI (8/10, e3c84 – e3c92): che cosa cambia per il white paper.** Dettagli nel Quaderno e in
+`white_paper/revisione/`.
+
+- **Lingue (e3c84).**
+  - I "71 lingue" erano 71 testi: 56 in 24 lingue naturali e 15 in lingue artificiali.
+  - Per lingua reggono quasi tutti i confronti.
+  - La giuntura la superano sanscrito e tagalog (2 su 24).
+  - Il calo della ripetizione nella riga: 2 lingue su 20 sotto il Voynich.
+- **Catena di segni (e3c85).**
+  - Spazio prevedibile, tagli che danno parole e riempimento delle forme si ottengono anche con parole indipendenti:
+    vengono dalla forma delle parole (confini segnati in modo ridondante, come in Stolfi, Feaster, Rozanova e
+    Temerev).
+  - Il legame fra parole vicine e il suo ricalcare le regole interne (ρ 0,55 contro ≤ 0,13 nei nulli) restano.
+  - La frase "lo spazio è un confine debole" è ritirata.
+- **Intervalli per bifoglio (e3c86):** tutte le misure principali reggono.
+  - Stato breve accanto: 0,111 – 0,153.
+  - Giuntura: 0,163 – 0,211.
+  - Margine: 0,40 – 0,61.
+- **Raccordo e posizione (e3c87):** la giuntura e le due regole valgono a parità di posizione nella riga.
+- **Ripetizioni (e3c88):**
+  - rispetto alla composizione della riga il Voynich ripete quanto il caso (O/E 1,04); lingue e scribi evitano di
+    ripetere (lingue ≤ 0,92, scribi 0,02 – 0,79);
+  - rispetto al vocabolario intero 2,85: le parole uguali stanno nella stessa riga;
+  - la proprietà è "ripetizione non evitata e concentrata nella riga".
+- **Riga a 10.000 parole (e3c89):** riga chiusa (Q 0,02) e margine (0,53) reggono.
+- **Potenza negli scribi (e3c90, corretto; e3c91).**
+  - Deriva: nessuna scelta deriva quanto il Voynich; assente con potenza in 20 scelte su 29.
+  - Stato breve: assente con potenza in 14 su 29, senza potenza in 13, presente in 2 (AM 302 per copia; Holm A 10
+    *ꝛ*/*r* +0,05 anche fra parole diverse, incerto).
+  - Lo stato breve non è più "proprio del Voynich" in senso forte.
+- **Confronti multipli (e3c92):**
+  - con Holm reggono tutte le 23 prove principali;
+  - con Bonferroni su 715 esperimenti ne reggono 15: non reggono lo sguardo avanti, gli inizi d/ch/y sul margine e la
+    deriva delle singole scelte tranne sh/ch.
