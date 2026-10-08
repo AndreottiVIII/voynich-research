@@ -1,0 +1,16 @@
+{
+ "finestra": {
+  "potenza insufficiente": 13,
+  "assente con potenza": 14,
+  "presente": 2
+ },
+ "accanto": {
+  "assente con potenza": 17,
+  "potenza insufficiente": 9,
+  "presente": 3
+ },
+ "deriva": {
+  "assente con potenza": 28,
+  "potenza insufficiente": 1
+ }
+}

@@ -1,0 +1,839 @@
+{
+ "voynich": {
+  "K1": 0.13691288926982642,
+  "K23": 0.08854686019915484,
+  "deriva_minima_per_10_segni": 0.01981907932135083
+ },
+ "stato": {
+  "AM-519a-4to, ꝩ/v": {
+   "gruppo": "nordici",
+   "parole": 5428,
+   "K1": 0.007796741385892018,
+   "K1_IC95": [
+    -0.044693819604827864,
+    0.057247227541662955
+   ],
+   "K23": 0.016569862379635515,
+   "K23_IC95": [
+    -0.023222437730630863,
+    0.055836258131849545
+   ],
+   "effetto_minimo_K23": 0.056470497044628865,
+   "giudizio_finestra": "potenza insufficiente",
+   "giudizio_accanto": "assente con potenza"
+  },
+  "AM-519a-4to, u/v": {
+   "gruppo": "nordici",
+   "parole": 4813,
+   "K1": -0.006096401255991429,
+   "K1_IC95": [
+    -0.08772159917515232,
+    0.07104505990578344
+   ],
+   "K23": 0.033816676905087086,
+   "K23_IC95": [
+    -0.029221029048035013,
+    0.09205316720851707
+   ],
+   "effetto_minimo_K23": 0.0866244258975372,
+   "giudizio_finestra": "potenza insufficiente",
+   "giudizio_accanto": "potenza insufficiente"
+  },
+  "AM-519a-4to, c/k": {
+   "gruppo": "nordici",
+   "parole": 4861,
+   "K1": 0.03276972300800404,
+   "K1_IC95": [
+    -0.05239526742447613,
+    0.12064507453516268
+   ],
+   "K23": -0.0011858706657638394,
+   "K23_IC95": [
+    -0.05241205299168698,
+    0.052405362963358716
+   ],
+   "effetto_minimo_K23": 0.07486958282503264,
+   "giudizio_finestra": "potenza insufficiente",
+   "giudizio_accanto": "potenza insufficiente"
+  },
+  "AM-519a-4to, í/ı": {
+   "gruppo": "nordici",
+   "parole": 10368,
+   "K1": 0.025640325561287924,
+   "K1_IC95": [
+    -0.03920902912824029,
+    0.0941929935449332
+   ],
+   "K23": 0.0007324294426285655,
+   "K23_IC95": [
+    -0.048471063402611314,
+    0.05608984430934579
+   ],
+   "effetto_minimo_K23": 0.07468636265139794,
+   "giudizio_finestra": "potenza insufficiente",
+   "giudizio_accanto": "potenza insufficiente"
+  },
+  "AM-677-4to, u/v": {
+   "gruppo": "nordici",
+   "parole": 7226,
+   "K1": -0.0033219899644370207,
+   "K1_IC95": [
+    -0.06506222943962368,
+    0.05784789954221671
+   ],
+   "K23": 0.019939570182121835,
+   "K23_IC95": [
+    -0.026593809699468767,
+    0.06794310271671539
+   ],
+   "effetto_minimo_K23": 0.06752636601156012,
+   "giudizio_finestra": "potenza insufficiente",
+   "giudizio_accanto": "assente con potenza"
+  },
+  "AM-519a-4to, abbreviata o no": {
+   "gruppo": "nordici",
+   "parole": 41780,
+   "K1": 0.002525420758855826,
+   "K1_IC95": [
+    -0.004723354915662412,
+    0.00933144731168755
+   ],
+   "K23": 0.005656045792010775,
+   "K23_IC95": [
+    -0.0012666915377536497,
+    0.013157183528203017
+   ],
+   "effetto_minimo_K23": 0.010302767904254762,
+   "giudizio_finestra": "assente con potenza",
+   "giudizio_accanto": "assente con potenza"
+  },
+  "AM-677-4to, abbreviata o no": {
+   "gruppo": "nordici",
+   "parole": 44177,
+   "K1": -0.0014260138130418386,
+   "K1_IC95": [
+    -0.00718997099688216,
+    0.0042485357437705715
+   ],
+   "K23": 0.0013498873734629105,
+   "K23_IC95": [
+    -0.00351685575707306,
+    0.006174563960654013
+   ],
+   "effetto_minimo_K23": 0.0069224426555193385,
+   "giudizio_finestra": "assente con potenza",
+   "giudizio_accanto": "assente con potenza"
+  },
+  "AM-60-4to, u/v": {
+   "gruppo": "nordici",
+   "parole": 8940,
+   "K1": 0.023231532912338315,
+   "K1_IC95": [
+    -0.03133721726648626,
+    0.07687609476889841
+   ],
+   "K23": 0.04475161552740561,
+   "K23_IC95": [
+    -0.010732149310990716,
+    0.10415976292979834
+   ],
+   "effetto_minimo_K23": 0.08206565160056362,
+   "giudizio_finestra": "potenza insufficiente",
+   "giudizio_accanto": "potenza insufficiente"
+  },
+  "AM-60-4to, í/i senza accento": {
+   "gruppo": "nordici",
+   "parole": 12448,
+   "K1": 0.019928544721794235,
+   "K1_IC95": [
+    -0.020326598037363426,
+    0.059198453296235944
+   ],
+   "K23": 0.03917611758797479,
+   "K23_IC95": [
+    -0.0004566738954960482,
+    0.07804834598039731
+   ],
+   "effetto_minimo_K23": 0.05607501419706668,
+   "giudizio_finestra": "potenza insufficiente",
+   "giudizio_accanto": "assente con potenza"
+  },
+  "AM-242-fol, ꝛ/r": {
+   "gruppo": "nordici",
+   "parole": 15109,
+   "K1": 0.001113063897798472,
+   "K1_IC95": [
+    -0.027989297479302042,
+    0.032275506316756276
+   ],
+   "K23": 0.0010370723531095954,
+   "K23_IC95": [
+    -0.021983746001108844,
+    0.02408908292854263
+   ],
+   "effetto_minimo_K23": 0.032909163521179625,
+   "giudizio_finestra": "assente con potenza",
+   "giudizio_accanto": "assente con potenza"
+  },
+  "AM-242-fol, u/v": {
+   "gruppo": "nordici",
+   "parole": 11982,
+   "K1": -0.0015107610682354514,
+   "K1_IC95": [
+    -0.03457936882411828,
+    0.03337086145727454
+   ],
+   "K23": 0.009198844538082004,
+   "K23_IC95": [
+    -0.014981096300515709,
+    0.03275712451160543
+   ],
+   "effetto_minimo_K23": 0.0340987291515151,
+   "giudizio_finestra": "assente con potenza",
+   "giudizio_accanto": "assente con potenza"
+  },
+  "AM-242-fol, í/i senza accento": {
+   "gruppo": "nordici",
+   "parole": 15653,
+   "K1": 0.03277066846630546,
+   "K1_IC95": [
+    -0.008520512168065994,
+    0.06984876002263302
+   ],
+   "K23": -0.009623349672442098,
+   "K23_IC95": [
+    -0.04860011568880289,
+    0.029792943097470805
+   ],
+   "effetto_minimo_K23": 0.055995041990195504,
+   "giudizio_finestra": "assente con potenza",
+   "giudizio_accanto": "potenza insufficiente"
+  },
+  "Holm-A-10, ꝛ/r": {
+   "gruppo": "nordici",
+   "parole": 10970,
+   "K1": 0.056453463213258434,
+   "K1_IC95": [
+    0.012250518083641852,
+    0.10180633417445129
+   ],
+   "K23": 0.05296897174307616,
+   "K23_IC95": [
+    0.019566446577046714,
+    0.08959916111482068
+   ],
+   "effetto_minimo_K23": 0.0500233675269814,
+   "giudizio_finestra": "presente",
+   "giudizio_accanto": "presente"
+  },
+  "Holm-A-10, w/v": {
+   "gruppo": "nordici",
+   "parole": 5622,
+   "K1": 0.04914725183542058,
+   "K1_IC95": [
+    -0.058128729225238145,
+    0.1596276793694202
+   ],
+   "K23": 0.031933969202730714,
+   "K23_IC95": [
+    -0.03316402314902834,
+    0.09581952630563521
+   ],
+   "effetto_minimo_K23": 0.09213110675333111,
+   "giudizio_finestra": "potenza insufficiente",
+   "giudizio_accanto": "potenza insufficiente"
+  },
+  "Holm-A-10, c/k": {
+   "gruppo": "nordici",
+   "parole": 9604,
+   "K1": 0.011840523002045487,
+   "K1_IC95": [
+    -0.031168988551895514,
+    0.05220716261289842
+   ],
+   "K23": 0.012072790706576296,
+   "K23_IC95": [
+    -0.021313830429684762,
+    0.04677734174704546
+   ],
+   "effetto_minimo_K23": 0.0486365515548073,
+   "giudizio_finestra": "potenza insufficiente",
+   "giudizio_accanto": "assente con potenza"
+  },
+  "AM-302-fol, ꝛ/r": {
+   "gruppo": "nordici",
+   "parole": 11025,
+   "K1": 0.017687917157205097,
+   "K1_IC95": [
+    -0.009355932527420365,
+    0.043938233783700785
+   ],
+   "K23": -0.0020046359568015003,
+   "K23_IC95": [
+    -0.030456007405593837,
+    0.02537711570545647
+   ],
+   "effetto_minimo_K23": 0.03988080222217879,
+   "giudizio_finestra": "assente con potenza",
+   "giudizio_accanto": "assente con potenza"
+  },
+  "AM-302-fol, ſ/s": {
+   "gruppo": "nordici",
+   "parole": 7589,
+   "K1": 0.12504430020949697,
+   "K1_IC95": [
+    0.06174246794278237,
+    0.19120202492387603
+   ],
+   "K23": 0.08178087147078492,
+   "K23_IC95": [
+    0.03842443966058068,
+    0.1250125839194487
+   ],
+   "effetto_minimo_K23": 0.061848674470620014,
+   "giudizio_finestra": "presente",
+   "giudizio_accanto": "presente"
+  },
+  "AM-302-fol, u/v": {
+   "gruppo": "nordici",
+   "parole": 6977,
+   "K1": 0.03724043651849885,
+   "K1_IC95": [
+    -0.014694463053550662,
+    0.08659168616779443
+   ],
+   "K23": 0.004503933059734268,
+   "K23_IC95": [
+    -0.03023957570310222,
+    0.039043725035724924
+   ],
+   "effetto_minimo_K23": 0.049488071956305106,
+   "giudizio_finestra": "assente con potenza",
+   "giudizio_accanto": "potenza insufficiente"
+  },
+  "AM-302-fol, í/i senza accento": {
+   "gruppo": "nordici",
+   "parole": 9678,
+   "K1": -1.020050006129633e-05,
+   "K1_IC95": [
+    -0.04092674252435911,
+    0.0428590823485468
+   ],
+   "K23": 0.01009785926868194,
+   "K23_IC95": [
+    -0.02620743649426625,
+    0.04959647690044299
+   ],
+   "effetto_minimo_K23": 0.054145652424792315,
+   "giudizio_finestra": "potenza insufficiente",
+   "giudizio_accanto": "assente con potenza"
+  },
+  "ReF, ſ/s": {
+   "gruppo": "tedeschi (insieme)",
+   "parole": 60047,
+   "K1": 0.0018251631503401894,
+   "K1_IC95": [
+    -0.011384791616220066,
+    0.014763498292805115
+   ],
+   "K23": 0.0020001091482706145,
+   "K23_IC95": [
+    -0.010388094254144714,
+    0.014496401349817402
+   ],
+   "effetto_minimo_K23": 0.0177746397171158,
+   "giudizio_finestra": "assente con potenza",
+   "giudizio_accanto": "assente con potenza"
+  },
+  "ReF, u/v": {
+   "gruppo": "tedeschi (insieme)",
+   "parole": 46429,
+   "K1": 0.006100701217164814,
+   "K1_IC95": [
+    -0.013304341091316308,
+    0.026539653924542647
+   ],
+   "K23": 0.00020656289283709287,
+   "K23_IC95": [
+    -0.016738896625006012,
+    0.016573539303987462
+   ],
+   "effetto_minimo_K23": 0.023794597092138197,
+   "giudizio_finestra": "assente con potenza",
+   "giudizio_accanto": "assente con potenza"
+  },
+  "ReF, i/j": {
+   "gruppo": "tedeschi (insieme)",
+   "parole": 65676,
+   "K1": 0.014347634551790056,
+   "K1_IC95": [
+    -0.021013107385712687,
+    0.05230315265097024
+   ],
+   "K23": 0.009307090292321851,
+   "K23_IC95": [
+    -0.02391131073385064,
+    0.044230676848882246
+   ],
+   "effetto_minimo_K23": 0.048672848273380635,
+   "giudizio_finestra": "assente con potenza",
+   "giudizio_accanto": "assente con potenza"
+  },
+  "ReF, i/y": {
+   "gruppo": "tedeschi (insieme)",
+   "parole": 73169,
+   "K1": 0.01072441526117568,
+   "K1_IC95": [
+    -0.008550441965121438,
+    0.030557873550123002
+   ],
+   "K23": 0.008797260716860128,
+   "K23_IC95": [
+    -0.007359845044393106,
+    0.02623852828011177
+   ],
+   "effetto_minimo_K23": 0.023998838088932054,
+   "giudizio_finestra": "assente con potenza",
+   "giudizio_accanto": "assente con potenza"
+  },
+  "ReF, í/i": {
+   "gruppo": "tedeschi (insieme)",
+   "parole": 73756,
+   "K1": 0.05150065805485088,
+   "K1_IC95": [
+    0.020990658885308707,
+    0.08111029743152527
+   ],
+   "K23": 0.003448916554331778,
+   "K23_IC95": [
+    -0.02617990489081689,
+    0.031347707463504966
+   ],
+   "effetto_minimo_K23": 0.04109115168165847,
+   "giudizio_finestra": "assente con potenza",
+   "giudizio_accanto": "presente"
+  },
+  "ReF, w/u": {
+   "gruppo": "tedeschi (insieme)",
+   "parole": 40759,
+   "K1": -0.0019070583820084037,
+   "K1_IC95": [
+    -0.024200183099160017,
+    0.019247631278126773
+   ],
+   "K23": 0.0018950549695386319,
+   "K23_IC95": [
+    -0.015222914871842618,
+    0.019505526160014212
+   ],
+   "effetto_minimo_K23": 0.024806029308469164,
+   "giudizio_finestra": "assente con potenza",
+   "giudizio_accanto": "assente con potenza"
+  },
+  "ReF, uͦ/u": {
+   "gruppo": "tedeschi (insieme)",
+   "parole": 23639,
+   "K1": -0.03517154873852989,
+   "K1_IC95": [
+    -0.11891560343533983,
+    0.04397837579293009
+   ],
+   "K23": -0.00900617525680085,
+   "K23_IC95": [
+    -0.06583301622981359,
+    0.05187784988130754
+   ],
+   "effetto_minimo_K23": 0.08407919007937224,
+   "giudizio_finestra": "potenza insufficiente",
+   "giudizio_accanto": "assente con potenza"
+  },
+  "ReF, z/cz": {
+   "gruppo": "tedeschi (insieme)",
+   "parole": 17524,
+   "K1": 0.0016395297667465003,
+   "K1_IC95": [
+    -0.10581255704362877,
+    0.10566814644912931
+   ],
+   "K23": 0.025482146093346113,
+   "K23_IC95": [
+    -0.08159890230984071,
+    0.11611513216090018
+   ],
+   "effetto_minimo_K23": 0.1412243103362435,
+   "giudizio_finestra": "potenza insufficiente",
+   "giudizio_accanto": "potenza insufficiente"
+  },
+  "ReF, y/ÿ": {
+   "gruppo": "tedeschi (insieme)",
+   "parole": 10038,
+   "K1": 0.09487494822406428,
+   "K1_IC95": [
+    -0.15701051484757927,
+    0.3373276390716063
+   ],
+   "K23": 0.06554289673212083,
+   "K23_IC95": [
+    -0.09037306678217191,
+    0.24274034180047413
+   ],
+   "effetto_minimo_K23": 0.23793814898760432,
+   "giudizio_finestra": "potenza insufficiente",
+   "giudizio_accanto": "potenza insufficiente"
+  },
+  "ReF, abbreviata o no": {
+   "gruppo": "tedeschi (insieme)",
+   "parole": 253870,
+   "K1": 0.015203878614654092,
+   "K1_IC95": [
+    0.006640059622581595,
+    0.023740542092787243
+   ],
+   "K23": 0.00986081901989003,
+   "K23_IC95": [
+    0.0018709328572988036,
+    0.017907285249641046
+   ],
+   "effetto_minimo_K23": 0.011454537423101601,
+   "giudizio_finestra": "assente con potenza",
+   "giudizio_accanto": "assente con potenza"
+  }
+ },
+ "deriva": {
+  "ReF, ſ/s": {
+   "gruppo": "tedeschi (insieme)",
+   "parole": 73857,
+   "per_10_segni": -0.0013852846405160517,
+   "IC95_per_10_segni": [
+    -0.0024059338521973455,
+    -8.651776001898103e-06
+   ],
+   "effetto_minimo": 0.0017123443401396057,
+   "giudizio": "assente con potenza"
+  },
+  "ReF, u/v": {
+   "gruppo": "tedeschi (insieme)",
+   "parole": 57679,
+   "per_10_segni": 0.0016240039216721877,
+   "IC95_per_10_segni": [
+    0.00027909333638554865,
+    0.005643000579906784
+   ],
+   "effetto_minimo": 0.0038313623168008825,
+   "giudizio": "assente con potenza"
+  },
+  "ReF, i/j": {
+   "gruppo": "tedeschi (insieme)",
+   "parole": 80676,
+   "per_10_segni": 0.0002206851332031839,
+   "IC95_per_10_segni": [
+    -0.001452743155411074,
+    0.0010787725367345461
+   ],
+   "effetto_minimo": 0.0018082254943897287,
+   "giudizio": "assente con potenza"
+  },
+  "ReF, i/y": {
+   "gruppo": "tedeschi (insieme)",
+   "parole": 90260,
+   "per_10_segni": 0.00492851168652858,
+   "IC95_per_10_segni": [
+    0.002135741539043736,
+    0.00721729433303012
+   ],
+   "effetto_minimo": 0.0036296805671331314,
+   "giudizio": "assente con potenza"
+  },
+  "ReF, í/i": {
+   "gruppo": "tedeschi (insieme)",
+   "parole": 90568,
+   "per_10_segni": -0.0077342676652662964,
+   "IC95_per_10_segni": [
+    -0.011137844298237175,
+    -0.003787625249126569
+   ],
+   "effetto_minimo": 0.005250156463650433,
+   "giudizio": "potenza insufficiente"
+  },
+  "ReF, w/u": {
+   "gruppo": "tedeschi (insieme)",
+   "parole": 50799,
+   "per_10_segni": -0.00265689281228196,
+   "IC95_per_10_segni": [
+    -0.005106726536762262,
+    -0.0016714170702993303
+   ],
+   "effetto_minimo": 0.0024537924760449515,
+   "giudizio": "assente con potenza"
+  },
+  "ReF, uͦ/u": {
+   "gruppo": "tedeschi (insieme)",
+   "parole": 29461,
+   "per_10_segni": 0.0025780453877203018,
+   "IC95_per_10_segni": [
+    -0.0013638779695048999,
+    0.006086582546031087
+   ],
+   "effetto_minimo": 0.005321757511097134,
+   "giudizio": "assente con potenza"
+  },
+  "ReF, z/cz": {
+   "gruppo": "tedeschi (insieme)",
+   "parole": 20785,
+   "per_10_segni": 0.0018586976657512916,
+   "IC95_per_10_segni": [
+    0.00013373156809999207,
+    0.005866224554046399
+   ],
+   "effetto_minimo": 0.004094637847104576,
+   "giudizio": "assente con potenza"
+  },
+  "ReF, y/ÿ": {
+   "gruppo": "tedeschi (insieme)",
+   "parole": 12655,
+   "per_10_segni": 0.00033428093154462335,
+   "IC95_per_10_segni": [
+    -0.0027930240995831684,
+    0.002991051739702117
+   ],
+   "effetto_minimo": 0.004131482742346633,
+   "giudizio": "assente con potenza"
+  },
+  "ReF, abbreviata o no": {
+   "gruppo": "tedeschi (insieme)",
+   "parole": 308024,
+   "per_10_segni": -0.0009457012721678489,
+   "IC95_per_10_segni": [
+    -0.0027153598566140046,
+    0.0027888901039480017
+   ],
+   "effetto_minimo": 0.003931607114687148,
+   "giudizio": "assente con potenza"
+  },
+  "AM-519a-4to, ꝩ/v": {
+   "gruppo": "nordici",
+   "parole": 5428,
+   "per_10_segni": 0.00020837261916142844,
+   "IC95_per_10_segni": [
+    -0.0001651733198964353,
+    0.0002033742643126423
+   ],
+   "effetto_minimo": 0.0002632482744350554,
+   "giudizio": "assente con potenza"
+  },
+  "AM-519a-4to, u/v": {
+   "gruppo": "nordici",
+   "parole": 4813,
+   "per_10_segni": -0.0070269456063664585,
+   "IC95_per_10_segni": [
+    -0.0014384261735104768,
+    -0.00012297879703601834
+   ],
+   "effetto_minimo": 0.0009396052689103275,
+   "giudizio": "assente con potenza"
+  },
+  "AM-519a-4to, c/k": {
+   "gruppo": "nordici",
+   "parole": 4861,
+   "per_10_segni": 0.003331367414624249,
+   "IC95_per_10_segni": [
+    -4.6531663540430804e-05,
+    0.0006973478928415037
+   ],
+   "effetto_minimo": 0.0005313425402728104,
+   "giudizio": "assente con potenza"
+  },
+  "AM-519a-4to, í/ı": {
+   "gruppo": "nordici",
+   "parole": 10368,
+   "per_10_segni": -0.000574620955204103,
+   "IC95_per_10_segni": [
+    -0.0002461552414285941,
+    0.0001314025507953848
+   ],
+   "effetto_minimo": 0.00026968413730284207,
+   "giudizio": "assente con potenza"
+  },
+  "AM-677-4to, u/v": {
+   "gruppo": "nordici",
+   "parole": 7315,
+   "per_10_segni": 0.0041981944704227,
+   "IC95_per_10_segni": [
+    7.977109528270485e-05,
+    0.0007980862429305624
+   ],
+   "effetto_minimo": 0.0005130822483198983,
+   "giudizio": "assente con potenza"
+  },
+  "AM-519a-4to, abbreviata o no": {
+   "gruppo": "nordici",
+   "parole": 41780,
+   "per_10_segni": 0.0045718821783259376,
+   "IC95_per_10_segni": [
+    0.00034451433310971334,
+    0.0005628847197172817
+   ],
+   "effetto_minimo": 0.00015597884757683454,
+   "giudizio": "assente con potenza"
+  },
+  "AM-677-4to, abbreviata o no": {
+   "gruppo": "nordici",
+   "parole": 44876,
+   "per_10_segni": 0.006104722141130973,
+   "IC95_per_10_segni": [
+    0.0003530304396553781,
+    0.0008599711059906769
+   ],
+   "effetto_minimo": 0.00036210047595378487,
+   "giudizio": "assente con potenza"
+  },
+  "AM-60-4to, u/v": {
+   "gruppo": "nordici",
+   "parole": 10724,
+   "per_10_segni": 0.002897839400215467,
+   "IC95_per_10_segni": [
+    -0.0003080960449446766,
+    0.0010016015482756555
+   ],
+   "effetto_minimo": 0.0009354982808716658,
+   "giudizio": "assente con potenza"
+  },
+  "AM-60-4to, í/i senza accento": {
+   "gruppo": "nordici",
+   "parole": 14781,
+   "per_10_segni": 0.005451531902192155,
+   "IC95_per_10_segni": [
+    -0.0005479130766494519,
+    0.001838978008006017
+   ],
+   "effetto_minimo": 0.0017049222033253349,
+   "giudizio": "assente con potenza"
+  },
+  "AM-242-fol, ꝛ/r": {
+   "gruppo": "nordici",
+   "parole": 15116,
+   "per_10_segni": 0.0022397240428557916,
+   "IC95_per_10_segni": [
+    8.306056488562379e-05,
+    0.0003361399924467864
+   ],
+   "effetto_minimo": 0.00018077101968654472,
+   "giudizio": "assente con potenza"
+  },
+  "AM-242-fol, u/v": {
+   "gruppo": "nordici",
+   "parole": 11987,
+   "per_10_segni": -0.0003353950491635143,
+   "IC95_per_10_segni": [
+    -0.00020595413731560312,
+    9.966255805373085e-05
+   ],
+   "effetto_minimo": 0.0002182976395495243,
+   "giudizio": "assente con potenza"
+  },
+  "AM-242-fol, í/i senza accento": {
+   "gruppo": "nordici",
+   "parole": 15656,
+   "per_10_segni": -0.007494882285489172,
+   "IC95_per_10_segni": [
+    -0.0011761000519013715,
+    -0.00028246718492225183
+   ],
+   "effetto_minimo": 0.0006383091906993712,
+   "giudizio": "assente con potenza"
+  },
+  "Holm-A-10, ꝛ/r": {
+   "gruppo": "nordici",
+   "parole": 11005,
+   "per_10_segni": 0.004466292770096792,
+   "IC95_per_10_segni": [
+    -0.00021556099728727506,
+    0.0011240008313906378
+   ],
+   "effetto_minimo": 0.0009568298776270806,
+   "giudizio": "assente con potenza"
+  },
+  "Holm-A-10, w/v": {
+   "gruppo": "nordici",
+   "parole": 5646,
+   "per_10_segni": -0.003238330515510747,
+   "IC95_per_10_segni": [
+    -0.0011976304320550238,
+    0.0006286565575261228
+   ],
+   "effetto_minimo": 0.0013044907068436762,
+   "giudizio": "assente con potenza"
+  },
+  "Holm-A-10, c/k": {
+   "gruppo": "nordici",
+   "parole": 9629,
+   "per_10_segni": -0.0019317591569803778,
+   "IC95_per_10_segni": [
+    -0.0007876721619741341,
+    0.0004989628520573286
+   ],
+   "effetto_minimo": 0.0009190250100224733,
+   "giudizio": "assente con potenza"
+  },
+  "AM-302-fol, ꝛ/r": {
+   "gruppo": "nordici",
+   "parole": 11179,
+   "per_10_segni": 0.0003624808369082934,
+   "IC95_per_10_segni": [
+    -0.00016272472033817596,
+    0.0002652366641482521
+   ],
+   "effetto_minimo": 0.0003056867032045915,
+   "giudizio": "assente con potenza"
+  },
+  "AM-302-fol, ſ/s": {
+   "gruppo": "nordici",
+   "parole": 7699,
+   "per_10_segni": 0.0019526867113938652,
+   "IC95_per_10_segni": [
+    -0.0006976022903383189,
+    0.0010294038670137168
+   ],
+   "effetto_minimo": 0.0012335758266800254,
+   "giudizio": "assente con potenza"
+  },
+  "AM-302-fol, u/v": {
+   "gruppo": "nordici",
+   "parole": 7125,
+   "per_10_segni": 0.0007555168046178359,
+   "IC95_per_10_segni": [
+    -0.00038114032619246814,
+    0.000505899153013235
+   ],
+   "effetto_minimo": 0.0006335996280040738,
+   "giudizio": "assente con potenza"
+  },
+  "AM-302-fol, í/i senza accento": {
+   "gruppo": "nordici",
+   "parole": 9812,
+   "per_10_segni": -0.007032284249483999,
+   "IC95_per_10_segni": [
+    -0.001551352144866452,
+    0.00017901609896369373
+   ],
+   "effetto_minimo": 0.0012359773170215326,
+   "giudizio": "assente con potenza"
+  }
+ },
+ "conteggi": {
+  "finestra": {
+   "potenza insufficiente": 13,
+   "assente con potenza": 14,
+   "presente": 2
+  },
+  "accanto": {
+   "assente con potenza": 17,
+   "potenza insufficiente": 9,
+   "presente": 3
+  },
+  "deriva": {
+   "assente con potenza": 28,
+   "potenza insufficiente": 1
+  }
+ }
+}
