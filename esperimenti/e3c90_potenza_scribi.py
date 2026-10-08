@@ -59,7 +59,9 @@ def main():
     for k, x in d62.items():
         if k.startswith(('Voynich', '_')):
             continue
-        lo, hi = x['IC95']
+        # nel file dell'e3c62 l'intervallo è per segno (la stima è data anche ogni 10 segni): si porta a 10 segni
+        # (correzione dell'8/10/2026: la prima esecuzione lo leggeva come già ogni 10 segni)
+        lo, hi = 10 * x['IC95'][0], 10 * x['IC95'][1]
         deriva[k] = OrderedDict([('gruppo', 'nordici'), ('parole', x['parole']), ('per_10_segni', x['per_10_segni']),
                                  ('IC95_per_10_segni', [lo, hi]), ('effetto_minimo', Z80 * (hi - lo) / 2),
                                  ('giudizio', giudizio(max(abs(lo), abs(hi)), VD / 2))])
