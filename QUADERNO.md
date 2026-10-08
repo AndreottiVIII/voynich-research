@@ -16041,3 +16041,38 @@ Preregistrato (`preregistrazioni/e3c84.md`).
   - legame a distanza due in 22 lingue su 24.
 - **Lettura:** il confronto con le lingue, fatto per lingua, conferma quasi tutto. Vanno corretti i numeri (24 lingue
   e 8 lingue artificiali, non 71 lingue), la giuntura e il calo.
+
+## 8/10/2026 — e3c85: lo spazio prevedibile viene dalla forma delle parole; il legame fra parole invece no
+
+Preregistrato (`preregistrazioni/e3c85.md`; nota A7 del revisore). Voynich ZL, 5 sottoinsiemi di 10.000 parole. Tre
+nulli costruiti dagli stessi sottoinsiemi: N1 parole indipendenti (stesso vocabolario e frequenze), N2 parole
+rimescolate nella riga, N3 parole nuove da una catena di segni di ordine 2 dentro la parola ("grammatica della parola").
+Risultati: `risultati/e3c85_nullo_grammatica_parola.md`.
+
+| statistica | Voynich | N1 | N2 | N3 | verdetto (N1 e N3) |
+|---|---|---|---|---|---|
+| F1 dello spazio | 0,864 | 0,881 | 0,876 | 0,878 | spiegata dal nullo |
+| attestazione dei tagli sbagliati | 0,497 | 0,426 | 0,465 | 0,452 | spiegata dal nullo |
+| riempimento delle forme | 0,432 | 0,424 | 0,432 | 0,434 | spiegata dal nullo |
+| ρ frequenza–forma | 0,592 | 0,552 | 0,592 | 0,624 | spiegata (per costruzione) |
+| ρ dentro/fra le parole | 0,554 | −0,003 | 0,223 | 0,127 | **non spiegata** |
+| giuntura E | 0,191 | 0,001 | 0,002 | 0,000 | **non spiegata** |
+
+- **Esito preregistrato:** il legame fra parole **non è un effetto della grammatica della parola**. Lo spazio
+  prevedibile, i tagli che danno parole vere e il riempimento sono **spiegati dal nullo**: vengono dalla forma delle
+  parole (iniziali e finali tipiche, vocabolario concentrato), anche quando le parole sono messe in fila a caso.
+- **A parità di h2** (descrittiva; 24 lingue, h2 da 2,54 a 4,65; Voynich 2,23):
+  - attestazione, ρ dentro/fra, ρ frequenza–forma e giuntura restano fuori dalle lingue (residuo da 2,8 a 8,5
+    deviazioni standard, nessuna lingua con un residuo maggiore);
+  - spazio e riempimento hanno una lingua con un residuo maggiore.
+- **Il revisore aveva ragione su metà della scoperta 1:**
+  - "lo spazio si indovina dai segni vicini" e "i tagli diversi danno parole vere" dicono che i confini sono segnati in
+    modo ridondante dalla forma delle parole, come in Stolfi, Zattera, Feaster 2020 e Rozanova e Temerev. Non sono
+    prove di una catena;
+  - resta nostra, e regge al nullo, l'altra metà: fra parole vicine c'è un legame (giuntura), e segue le stesse
+    preferenze delle coppie di segni dentro la parola.
+- **Correzione per il paper:** la scoperta 1 si riscrive: "i confini di parola sono segnati in modo ridondante (noto);
+  oltre a questo, il legame fra parole vicine ricalca le regole dentro la parola, e non viene dalla forma delle parole".
+  Il titolo "lo spazio è un confine debole" non è più sostenuto: va tolto.
+- N2 (rimescolate nella riga) conserva un poco di ρ (0,22): una parte del rispecchiamento viene dalla composizione
+  della riga (forme di inizio e fine), non dall'ordine delle parole.

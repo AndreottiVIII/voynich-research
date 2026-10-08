@@ -1,0 +1,199 @@
+{
+ "voynich_e_nulli": {
+  "testo": {
+   "spazio": 0.8636314480372013,
+   "attestazione": 0.49723145071982283,
+   "riempimento": 0.43214148404459823,
+   "rispecchiamento": 0.5541789428621793,
+   "frequenza_forma": 0.5923375921026549,
+   "giuntura": 0.19117609601546276
+  },
+  "N1 parole indipendenti": {
+   "spazio": {
+    "valore": 0.8810572687224668,
+    "rapporto": 1.0201773809011583,
+    "verdetto": "spiegata dal nullo"
+   },
+   "attestazione": {
+    "valore": 0.4262582056892779,
+    "rapporto": 0.8572631619987037,
+    "verdetto": "spiegata dal nullo"
+   },
+   "riempimento": {
+    "valore": 0.42365815528921313,
+    "rapporto": 0.9803690942235261,
+    "verdetto": "spiegata dal nullo"
+   },
+   "rispecchiamento": {
+    "valore": -0.003168402110592091,
+    "rapporto": -0.005717290689949675,
+    "verdetto": "non spiegata"
+   },
+   "frequenza_forma": {
+    "valore": 0.5520912435697084,
+    "rapporto": 0.932055049232851,
+    "verdetto": "spiegata dal nullo"
+   },
+   "giuntura": {
+    "valore": 0.0008064004084430317,
+    "rapporto": 0.004218102708707935,
+    "verdetto": "non spiegata"
+   }
+  },
+  "N2 rimescolate nella riga": {
+   "spazio": {
+    "valore": 0.8764195056780227,
+    "rapporto": 1.0148073089161878,
+    "verdetto": "spiegata dal nullo"
+   },
+   "attestazione": {
+    "valore": 0.46459991621281943,
+    "rapporto": 0.9343735508689887,
+    "verdetto": "spiegata dal nullo"
+   },
+   "riempimento": {
+    "valore": 0.43214148404459823,
+    "rapporto": 1.0,
+    "verdetto": "spiegata dal nullo"
+   },
+   "rispecchiamento": {
+    "valore": 0.22320027421153027,
+    "rapporto": 0.4027584899901885,
+    "verdetto": "non spiegata"
+   },
+   "frequenza_forma": {
+    "valore": 0.5923375921026549,
+    "rapporto": 1.0,
+    "verdetto": "spiegata dal nullo"
+   },
+   "giuntura": {
+    "valore": 0.0016240916973489158,
+    "rapporto": 0.008495265523245938,
+    "verdetto": "non spiegata"
+   }
+  },
+  "N3 grammatica della parola": {
+   "spazio": {
+    "valore": 0.8778503372229954,
+    "rapporto": 1.016464070661287,
+    "verdetto": "spiegata dal nullo"
+   },
+   "attestazione": {
+    "valore": 0.45165394402035625,
+    "rapporto": 0.9083374419830327,
+    "verdetto": "spiegata dal nullo"
+   },
+   "riempimento": {
+    "valore": 0.4344919786096257,
+    "rapporto": 1.005439178259463,
+    "verdetto": "spiegata dal nullo"
+   },
+   "rispecchiamento": {
+    "valore": 0.12748917748917754,
+    "rapporto": 0.23005056242435265,
+    "verdetto": "non spiegata"
+   },
+   "frequenza_forma": {
+    "valore": 0.6240636169094185,
+    "rapporto": 1.0535607147507622,
+    "verdetto": "spiegata dal nullo"
+   },
+   "giuntura": {
+    "valore": -7.71510280573387e-05,
+    "rapporto": -0.00040356001438118365,
+    "verdetto": "non spiegata"
+   }
+  }
+ },
+ "h2": {
+  "h2_voynich": 2.230802354899059,
+  "h2_lingue": {
+   "Chinese": 2.5448478356466016,
+   "Maori": 2.678911321980865,
+   "Nahuatl": 2.814001630999866,
+   "Tagalog": 2.9132961586574293,
+   "Flemish": 3.029193892675364,
+   "Swahili": 3.0306926742989484,
+   "Mayan (Yucatec)": 3.0802047493332765,
+   "Mayan (Kaqchikel)": 3.097941261550521,
+   "Yoruba": 3.1357678653078236,
+   "Spanish": 3.142806875387667,
+   "German": 3.147735317443398,
+   "English": 3.167942964495844,
+   "Italian": 3.176319706751597,
+   "French": 3.1995761718352167,
+   "Greek": 3.212177266658782,
+   "Portuguese": 3.2134941802095605,
+   "Anglo-Saxon": 3.225238298045427,
+   "Wolof": 3.3554376963240187,
+   "Latin": 3.367904639158002,
+   "Turkish": 3.4324920379088493,
+   "Hebrew": 3.4786261011809083,
+   "Russian": 3.4918039003153316,
+   "Arabic": 3.578389299298518,
+   "Sanskrit": 4.650156726647934
+  },
+  "spazio": {
+   "lingue": 24,
+   "pendenza": -0.055059001837968455,
+   "r": -0.24905817574657624,
+   "previsto_al_h2_del_voynich": 0.6960340767675318,
+   "residuo_voynich": 0.16759737126966945,
+   "residuo_in_sd": 1.9522624158203186,
+   "lingue_con_residuo_maggiore": 1
+  },
+  "attestazione": {
+   "lingue": 24,
+   "pendenza": -0.03375603469765703,
+   "r": -0.2906645839106474,
+   "previsto_al_h2_del_voynich": 0.11746054880960839,
+   "residuo_voynich": 0.37977090191021445,
+   "residuo_in_sd": 8.523596119431382,
+   "lingue_con_residuo_maggiore": 0
+  },
+  "riempimento": {
+   "lingue": 24,
+   "pendenza": -0.11064416521911552,
+   "r": -0.4855993429810187,
+   "previsto_al_h2_del_voynich": 0.17702411290257958,
+   "residuo_voynich": 0.25511737114201866,
+   "residuo_in_sd": 3.1943389740485135,
+   "lingue_con_residuo_maggiore": 1
+  },
+  "rispecchiamento": {
+   "lingue": 24,
+   "pendenza": 0.059716641628058016,
+   "r": 0.1855661302381266,
+   "previsto_al_h2_del_voynich": -0.0244856719334966,
+   "residuo_voynich": 0.5786646147956759,
+   "residuo_in_sd": 4.5638615230049915,
+   "lingue_con_residuo_maggiore": 0
+  },
+  "frequenza_forma": {
+   "lingue": 24,
+   "pendenza": 0.08808562285738653,
+   "r": 0.4599731834251792,
+   "previsto_al_h2_del_voynich": 0.011912987386037133,
+   "residuo_voynich": 0.5804246047166177,
+   "residuo_in_sd": 8.513069851748142,
+   "lingue_con_residuo_maggiore": 0
+  },
+  "giuntura": {
+   "lingue": 24,
+   "pendenza": 0.034575658414189234,
+   "r": 0.2908569827312524,
+   "previsto_al_h2_del_voynich": 0.06515636933900613,
+   "residuo_voynich": 0.1260197266764566,
+   "residuo_in_sd": 2.763341702868317,
+   "lingue_con_residuo_maggiore": 0
+  }
+ },
+ "esito": {
+  "legame_fra_parole": "non è un effetto della grammatica della parola",
+  "proprieta_di_forma_sotto_N3": {
+   "spazio": "spiegata dal nullo",
+   "attestazione": "spiegata dal nullo",
+   "riempimento": "spiegata dal nullo"
+  }
+ }
+}
