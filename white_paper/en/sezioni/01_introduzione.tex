@@ -1,0 +1,117 @@
+% ---------------------------------------------------------------------------
+\section{Introduction}
+
+\subsection{The manuscript and the question}
+
+The Voynich manuscript (Yale, Beinecke MS~408) is a codex of about 240 pages with drawings of unidentified plants,
+astronomical and zodiacal diagrams, female figures in pools, pharmacy jars and a long final section of text arranged in
+short paragraphs. Its vellum has been radiocarbon-dated to 1404--1438 at 95\% probability
+\citep{uarizona2011,zyats2016}. The script has never been read. Prescott Currier showed in the 1970s that the pages fall
+into two varieties of writing, now called languages A and B, and that more than one hand wrote them
+\citep{currier1976}; Lisa Fagin Davis later distinguished five scribes \citep{davis2020}.
+
+A century of proposed readings has not produced one that the scholarly community accepts. In recent years the debate
+has narrowed to a question that statistics seems well placed to answer: is the text a meaningful message (a natural
+language, perhaps enciphered) or a meaningless product of a procedure? Some studies find the text statistically close
+to meaningless writing \citep{rugg2004,schinner2007,timmschinner2020,gaskellbowern2022}; others show that historically
+plausible ciphers can produce Voynich-like text from Latin or Italian \citep{bowerngaskell2022,greshko2025,kinnison2026}.
+
+\subsection{What statistics can decide}
+
+Every statistical study of the manuscript measures regularities. This paper asks whether regularities, however many and
+however strong, can decide the question at all. Steganography gives a precise answer in principle: if a text that
+carries a message and a text that carries none are samples of the same distribution, no test on the text can tell them
+apart \citep{cachin1998,hopper2002}. The question then becomes constructive. Can one build a book that reproduces the
+measured writing rules of the Voynich manuscript and that carries, or does not carry, a message, with the two cases
+indistinguishable by construction?
+
+\subsection{Contributions}
+
+\begin{enumerate}
+\item \textbf{The voynichizer} (Sections~\ref{sec:generator} and~\ref{sec:evaluation}). A program that turns any text
+  into a 207-folio Voynich-like book in EVA transliteration and recovers it exactly with the key
+  \citep{voynichizer}. The text is compressed, encrypted and authenticated; its bits drive an arithmetic decoder that
+  samples how many times each recurring Voynich word occurs on each page. Everything else (layout, invented words, word
+  order) follows the manuscript's statistics and carries no information. To our knowledge, no earlier tool combines a
+  cover model of a whole historical book, distribution-preserving embedding and authenticated encryption, evaluated
+  against the measured properties of that book.
+\item \textbf{A measured specification} (Sections~\ref{sec:rules}--\ref{sec:scorecard}). The scorecard and the judges
+  that the generator must satisfy come from 716 logged experiments on how the manuscript is written. Each measure is
+  compared with the same measure in 24 natural languages, constructed languages, volunteers' gibberish, published
+  generators and ciphers and, systematically, 79 medieval manuscripts transcribed at the level of letter forms. Many of
+  the regularities were observed before, and we cite them property by property (Section~\ref{sec:related}); our
+  contribution there is to quantify them with the same code against the same comparison texts and to add a few
+  properties that we have not found in the literature.
+\item \textbf{A consequence} (Section~\ref{sec:discussion}). The generated book carries an encrypted message and comes
+  close to the manuscript on the measures we know how to make. The regularities of the Voynich text therefore constrain
+  how it was written, but they cannot by themselves show whether it says anything.
+\end{enumerate}
+
+\noindent The full research record is public: preregistrations, code, results, the laboratory notebook and a log of
+all experiments with their outcomes \citep{repository}. Appendix~\ref{app:checks} lists the provisional readings that
+later checks corrected, including those prompted by an external review of the first version of this paper.
+
+% ---------------------------------------------------------------------------
+\section{Related work}
+\label{sec:related}
+
+\subsection{Statistical regularities of the script}
+
+\paragraph{Glyphs and words} The low conditional entropy of the next glyph was noted by \citet{bennett1976} and
+quantified against hundreds of texts by \citet{lindemannbowern2020}. Words follow a rigid internal grammar
+\citep{stolfi2000,zattera2022}; \citet{zattera2022} also found ``separable'' words that split into two attested words.
+\citet{feaster2020} predicted mid-line spaces from glyph adjacencies with over 95\% accuracy and observed that uncertain
+spaces fall where his rules are inconsistent; \citet{rozanova2026} describe two regimes of spaces, show that uncertain
+spaces are physically narrower in the images and predict spaces from the flanking glyph pair with AUC 0.98.
+\citet{matlach2022} revisit the positional roles of glyphs.
+
+\paragraph{Adjacent words} \citet{currier1976} noted that in language B the end of a word influences the beginning of
+the next, with \eva{qo-} words following words in \eva{-y}. Emma May Smith described the preference for \eva{o-} forms
+after words in \eva{-n} and related transformations \citep{smith2017o,smith2017lastfirst}, and \citet{smithponzi2019}
+measured the dependency between last and first glyphs across spaces (\eva{y.q} and \eva{n.o} frequent across spaces and
+almost absent within words), concluding that word breaks are real boundaries. \citet{reddy2011} found that the last
+letters of a word help predict the first letters of the next; \citet{caruana2022} and \citet{parisel2026a} studied
+dependencies between adjacent words. \citet{feaster2022} warned that part of the \eva{y.q} and \eva{n.q} anomalies might
+come from position in the line.
+
+\paragraph{The line} \citet{currier1976} called the line a functional unit, noted line-final symbols and observed no
+repeated sequence across a line break. \citet{vogt2012} measured word-length effects along the line;
+\citet{smith2015linestart,smith2016linestart} described \eva{s-} and other forms added at line start, and
+\citet{smith2016m} proposed \eva{-m} as a line-final form of \eva{-r}. \citet{feaster2021,feaster2022} defined
+rightward and downward indices of glyphs (for example \eva{qo-} lies further left than \eva{o-}, \eva{Sh} further left
+than \eva{ch}); \citet{bowernlindemann2021} summarise line and paragraph effects, and \citet{rozanova2026} find the
+link between glyphs at independence across line breaks.
+
+\paragraph{Lines above and below} \citet{timm2014} and \citet{timmschinner2020} observed that many words resemble words
+written shortly before, often in the lines just above, and built a generator on this idea. On the left margin,
+participants of the Voynich Ninja forum reported that a line-initial glyph tends to avoid the glyph directly above it
+\citep{tavie2024}.
+
+\paragraph{Paragraphs, pages, hands} Paragraph-initial gallows, especially \eva{p}, are well known
+\citep{currier1976,dimperio1978,stafford2022,feaster2022}. \citet{davis2020} identified five hands, and
+\citet{davis2025} noted that in the herbal section hands follow the bifolia, which she calls highly atypical; the
+current binding is not the original order. Currier's languages have been confirmed with modern methods
+\citep{farrugia2022,parisel2026b}. Immediate repetition of words has been measured by \citet{boxer2022} (about 1\% of
+word pairs) and \citet{bowernlindemann2021}.
+
+\subsection{Generators and ciphers}
+
+Meaningless Voynich-like text has been produced with a Cardan grille \citep{rugg2004,zandbergen2021grille}, with the
+self-citation procedure of \citet{timmschinner2020}, with Trithemius' word tables \citep{hermes2022} and with
+recent generators that target statistical fingerprints: two amateur generators \citep{whitehatnetizen2026} and
+\emph{voynich-fingerprint} \citep{sachak2026}, which reproduces 44 statistics on held-out folios. On the cipher side,
+\citet{bowerngaskell2022} show that word-level metrics are compatible with some kinds of encipherment, and the Naibbe
+cipher \citep{greshko2025} turns Latin or Italian into Voynich-like text by hand; its author presents it as a proof of
+concept, not as the method used for the manuscript. \citet{kinnison2026} shows that Naibbe ciphertext reproduces the
+manuscript's positional entropy profile.
+
+\subsection{Steganography and its evaluation}
+
+Transforming a text so that it imitates the statistics of another goes back to the mimic functions of
+\citet{wayner1992}. \citet{cachin1998} defined the security of steganography as the distance between the distributions
+of covers with and without a message, and \citet{hopper2002} gave provably secure constructions. Feeding encrypted bits
+to an arithmetic decoder in order to sample from a language model, so that the message-carrying text follows the
+model's distribution, is the method of \citet{ziegler2019}; \citet{kaptchuk2021} made it cryptographically secure.
+Training a classifier to separate two samples and reading its accuracy is a classifier two-sample test
+\citep{lopezpaz2017}. The voynichizer applies these ideas with a cover model of one specific historical book and is
+evaluated against measured properties of that book.

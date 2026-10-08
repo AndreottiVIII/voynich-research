@@ -1,0 +1,99 @@
+% ---------------------------------------------------------------------------
+\section{From measurements to a scorecard}
+\label{sec:scorecard}
+
+A generator needs a target that can be checked. The measurements were turned into four instruments, all computed on a
+whole generated book and on the real manuscript in the same way.
+
+\paragraph{The scorecard} Eighteen properties (Table~\ref{tab:scorecard}), each with a pass band around the Voynich
+value. Seventeen come from the early experiments of the project and one (the line edges) from a later one; the bands were
+chosen after seeing the results of those experiments, so they are a specification, not a test. The book is cut into
+pseudo-pages of 29 lines. Measured in exactly this way, the real manuscript passes 17 of the 18: the band of the
+``gradient'' (similarity at six lines relative to similarity within the line) was set from a different page division and
+the manuscript itself scores 0.68 against a band of 0.70--0.97. We therefore count 17 attainable properties.
+
+\paragraph{Eight extra properties} Added later from the research results (\expcode{e293}): rare words per page,
+types per token and unique words within the page, the spread of word lengths, the register of the first lines of
+paragraphs, the spelling choices that vary from line to line (at least 10 of 12 classes with excess variance), the
+agreement of word endings, and the share of word pairs seen elsewhere in the text. The manuscript passes all eight.
+
+\paragraph{The line gate} Five conditions that must hold together: a line rarely starts with the first glyph of the line
+above (ratio at most 0.7; Voynich 0.53); the junction across the line break is below a tenth of the junction inside the
+line; similarity at distance two is at least that at distance one (Voynich 1.05); at least three of the five spelling
+choices vary from line to line ($z > 3$); and the correlation between consecutive lines is $0.207 \pm 0.07$.
+
+\paragraph{Two judges} A judge is a classifier trained to tell real pages from generated ones, retrained from scratch on
+every generated book; its cross-validated area under the ROC curve (AUC) is a classifier two-sample test
+\citep{lopezpaz2017}. Each real page and the generated page with the same folio name are kept in the same fold
+(10 folds, repeated with five seeds), on the 202 pages with at least 40 legible words. The first judge
+(\expcode{e231}) is an L2-regularised logistic regression on 209 page features: frequencies of the 30 most frequent
+glyphs and of the 150 most frequent glyph pairs inside words; word length; types per token and unique words; first and
+last glyphs of lines; similarity of neighbouring words and attested joins; and vertical similarity. The second
+(\expcode{e266}) adds 19 features: pairs seen elsewhere, identical neighbours, similarity at distance two, the length and
+initials of first and last words of lines, gallows and word length in the first lines of paragraphs, and the divergence of
+a page's glyphs from the book's and between the halves of the page. No feature tests whether a word belongs to the Voynich
+vocabulary. An AUC of 0.5 means that the judge is guessing and 1 that it never errs; the project set in advance 0.6 or
+less as ``hard to tell apart'' and 0.7 or more as ``distinguishable''. Controls: Currier's languages A and B are told apart
+with AUC 1.000; random labels give 0.53 and 0.52; two earlier generators of the project give 0.97/0.99 and 0.87/0.94.
+
+\paragraph{A ladder of controls} To read an AUC, we degraded the real manuscript one level at a time and judged it
+(\expcode{e400}; Table~\ref{tab:ladder}). Shuffling the lines within each page costs nothing to the first judge and brings
+the second to 0.60; shuffling the words within each line already gives 0.98--0.99; drawing the words from other pages of
+the same section gives 1.00. The second judge's floor for any text without the real line order is thus about 0.60.
+
+\begin{table}[htbp]
+\centering\footnotesize
+\caption{The scorecard: 18 properties measured on a whole book cut into pseudo-pages of 29 lines, with the pass band and
+the value of the real manuscript. Property 7 is not attainable (the manuscript fails its band). Values of the generator
+are in Table~\ref{tab:results}.}
+\label{tab:scorecard}
+\begin{tabularx}{\linewidth}{rYll}
+\toprule
+\# & property (measure) & passes if & Voynich \\
+\midrule
+1 & conditional entropy of the next glyph, $h_2$ & $\pm 0.15$ & 2.236 \\
+2 & predictability of the space & $\pm 0.08$ & 0.664 \\
+3 & share of words occurring once (at 34{,}000 words) & $\pm 0.08$ & 0.678 \\
+4 & types per token, whole text & $\pm 0.04$ & 0.210 \\
+5 & identical neighbours, relative to the line's composition & $\pm 0.2$ & 1.009 \\
+6 & homogeneity: similarity of words within the line & $\pm 0.008$ & 0.0385 \\
+7 & gradient: similarity at six lines / within the line & 0.70--0.97 & 0.683 (fails) \\
+8 & junction: last glyph $\to$ first glyph & $\pm 0.05$ & 0.188 \\
+9 & attested joins of neighbours, relative to chance & 1.5--2.5 & 1.97 \\
+10 & flat curve of once-occurring words (1{,}000 vs 34{,}000 words) & $\le 0.10$ & 0.057 \\
+11 & vocabulary turnover between near and far blocks & $\ge 0.05$ & 0.106 \\
+12 & page profile (ratio and share) & 0.8--1.25 and 0.5--1.5$\times$ & 1.06; 0.061 \\
+13 & autocorrelation of neighbouring word lengths & $\ge 0.08$ & 0.150 \\
+14 & Zipf slope & $\pm 0.10$ & $-1.041$ \\
+15 & word shape: glyphs at the first, second, second-last and last position & $\le 1.0$ & 0 \\
+16 & vertical similarity: same position in the line above & $\ge 1.015$ & 1.028 \\
+17 & formulas: two- and three-word sequences recurring at least ten pages apart & 0.5--1.5$\times$ & 6.39 \\
+18 & line edges: divergence of line-initial and line-final glyphs & 0.5--2$\times$ & 23; 55 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[htbp]
+\centering\footnotesize
+\caption{The ladder of controls: the real manuscript, with its true layout, degraded one level at a time (means of four
+seeds; \expcode{e400}).}
+\label{tab:ladder}
+\begin{tabularx}{\linewidth}{Yrrr}
+\toprule
+text & AUC judge 1 & AUC judge 2 & scorecard (of 18) \\
+\midrule
+the manuscript as it is & 0.500 & 0.500 & 17.0 \\
+lines shuffled within each page & 0.481 & 0.595 & 17.0 \\
+words shuffled within each line & 0.984 & 0.990 & 11.5 \\
+words shuffled within the page & 0.989 & 0.998 & 11.2 \\
+words drawn from the other pages of the same section and language & 0.998 & 1.000 & 6.2 \\
+words drawn from the other pages of the book & 1.000 & 1.000 & 5.0 \\
+the manuscript with a message forced into its five spelling choices & 0.622 & 0.630 & 16.0 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\paragraph{What the instruments leave out} Some rules of Section~\ref{sec:rules} enter the instruments only indirectly
+(the drift along the line, the short state of choices, the bifolium as a unit) or not at all (closure at the gap of a
+drawing, the labels). The instruments were built by the project and the generator was tuned against them; an
+independently built judge has not been tried (Section~\ref{sec:limits}).

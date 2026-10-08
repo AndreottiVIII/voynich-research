@@ -1,4 +1,6 @@
 main.log
+main.blg
 *.aux
 *.out
 *.xdv
+anteprima.html

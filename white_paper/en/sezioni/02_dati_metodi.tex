@@ -1,0 +1,129 @@
+% ---------------------------------------------------------------------------
+\section{Data}
+\label{sec:data}
+
+\subsection{The Voynich manuscript}
+
+We use three transliterations in IVTFF format \citep{zandbergen_ivtff,zandbergen_transliterations}: Zandbergen--Landini
+(ZL3b, EVA alphabet; our reference), Takahashi (IT2a, basic EVA) and Glen Claston (GC2a, v101 alphabet, which segments
+some glyphs differently). They are three largely independent readings, but they share the locus scheme curated by
+Zandbergen: line segmentation and page metadata are the same in all three. Replicating a line-level result on the three
+files therefore does not replicate where a line ends.
+
+\paragraph{Treatment of the transliteration} We use the running paragraph text: 207 pages, about 4{,}100 lines and
+34{,}900 words; labels, circular and radial text enter only the tests that say so. Uncertain readings
+(\texttt{[a:b]}) take the first option; ligature braces are removed; rare glyphs (\texttt{@nnn;}) and illegible glyphs
+(\texttt{?}) make a word unusable, and such words (0.6\%) are dropped, so that their neighbours become adjacent (about
+1\% of adjacent pairs are affected). The uncertain space (EVA comma) counts as a space unless stated; the tests on
+uncertain spaces treat it separately. The EVA sequences \eva{ch}, \eva{sh}, \eva{cth}, \eva{ckh}, \eva{cph} and
+\eva{cfh} count as single glyphs. Pages, bifolia and quires are taken from the IVTFF page headers: 50 bifolia and 16
+quires carry text. Hands follow \citet{davis2020} and languages follow \citet{currier1976}, both as recorded in the files
+page by page.
+
+\subsection{Comparison texts}
+
+\begin{itemize}
+\item \textbf{Natural and constructed languages.} The publicly released texts of \citet{gaskellbowern2022}: 71 texts,
+  of which 56 are in 24 natural languages (usually a New Testament and a technical text per language, historical and
+  modern; Latin also in an abbreviated form) and 15 in eight constructed languages (Esperanto, Interlingua, Klingon,
+  Lojban, LOLCat, Neo-Quenya, Toki Pona, Volapük; LOLCat is a register of English rather than a constructed language).
+  Eleven of the technical texts are translations of the Wikipedia article on the manuscript; they contain at most one
+  or two EVA words each. The collection also provides the texts we cite by name (the Qur'an, Avicenna, the \emph{Hatton
+  Gospels}, Alberti's \emph{Della Pittura}, Pliny). In these files the lines are the original text cut every six to
+  eight words, not physical lines. Comparisons use the first 10{,}000 words of each text and, since
+  version~2, one value per natural language (the median of its texts), with constructed languages reported apart
+  (experiment \expcode{e3c84}).
+\item \textbf{Other texts:} the Bible in about 100 languages \citep{christodouloupoulos2015}; Latin texts of the Latin
+  Library (CLTK collection), used for the five-gram model of the cipher solvers; the Roman breviary (Divinum Officium),
+  used in the tests on prayers and litanies.
+\item \textbf{Handwritten gibberish:} the 38 released texts written by volunteers for \citet{gaskellbowern2022}.
+\item \textbf{Published generators and ciphers:} the Naibbe cipher \citep{greshko2025}; the self-citation generator of
+  \citet{timmschinner2020}; the generators U2 and U3 of \citet{whitehatnetizen2026}.
+\item \textbf{Medieval manuscripts transcribed at the level of letter forms}, with original lines and pages: six
+  Nordic manuscripts from Menota \citep{menota} (AM 519 a 4to, Icelandic, c.~1280; AM 677 4to, Icelandic, c.~1200--1225;
+  AM 60 4to, Norwegian, c.~1320; AM 242 fol, Icelandic, c.~1350; Holm A 10, Swedish, c.~1500--1550; AM 302 fol,
+  Norwegian, c.~1300) and 73 German manuscripts of 1350--1500 from the Reference Corpus of Early New High German
+  \citep{ref2021}. These are 79 manuscripts, not 79 known individual scribes: the files do not mark changes of hand.
+\item \textbf{A historical cipher:} the Copiale, a mid-eighteenth-century German homophonic cipher of 105 pages, with
+  the transcription and decipherment of \citet{knight2011,knight2012}.
+\end{itemize}
+Sources, versions and licences are listed in Appendix~\ref{app:sources}. All corpora except the Voynich
+transliterations are kept outside the repository and must be downloaded from their sources.
+
+% ---------------------------------------------------------------------------
+\section{Methods}
+\label{sec:methods}
+
+\subsection{How the work was organised}
+
+Every experiment followed the same cycle, each step in a separate commit of a version-controlled repository:
+\begin{enumerate}
+\item the program was tried only on synthetic texts and controls, never on the Voynich;
+\item a preregistration was committed: question, data, measure and the criterion that would decide the outcome;
+\item the program was committed;
+\item the experiment was run by a script that records the code version, data fingerprints, random seeds and output;
+\item results and a dated entry of the laboratory notebook, which is only ever appended to, were committed.
+\end{enumerate}
+The repository is public \citep{repository}. The preregistrations are internal: they are dated files committed before
+each run, but they carry no third-party timestamp. Appendix~\ref{app:log} summarises the log of all 716 experiments
+(e01--e3c92) with the outcome of each against its preregistered criterion; 698 were run, 670 were preregistered,
+80 declare a deviation, and 19 of these are cases in which the author read an outcome differently from the literal criterion
+(each listed with both readings).
+
+\paragraph{Exploration and confirmation} The research programme was exploratory: each question arose from earlier
+results on the same text. Confirmation on data not used to formulate a hypothesis is limited to a few cases: the
+prediction that \eva{qo-} would be almost absent from drawing labels, made before looking at them (it was already known
+from \citealt{zandbergen_labels}); the replications on the Takahashi and Glen Claston transliterations; and the
+comparisons with the 73 German manuscripts, collected after the measures had been fixed on the Nordic ones.
+
+\subsection{Controls}
+
+\begin{itemize}
+\item \textbf{Synthetic validation.} Every measure was first run on texts built with the effect present and absent. A
+  measure that did not separate the two cases was not used; three experiments were dropped for this reason and declared
+  as gaps (Section~\ref{sec:limits}).
+\item \textbf{Positive and negative controls} in every decipherment test: a known text enciphered in the same way, which
+  the method must solve, and a text in another language.
+\item \textbf{Nulls that keep what the hypothesis does not concern}: for example, word order shuffled within the line,
+  choices shuffled among occurrences of the same word, or (since version~2) nulls that keep word form or position in the
+  line (Section~\ref{sec:rules}).
+\end{itemize}
+
+\subsection{Main measures}
+
+The measures are described in words where they are used; their definitions are in Appendix~\ref{app:measures}.
+\begin{itemize}
+\item \textbf{Junction:} mutual information between the last glyph of a word and the first glyph of the next word in the
+  same line, minus its mean under a null that shuffles the words of each line.
+\item \textbf{Junction rule:} for a word that occurs in two forms (\eva{qo-}/\eva{o-}, \eva{-l}/\eva{-r}), the
+  dependence of the form on the neighbouring word.
+\item \textbf{Agreement of choices:} for binary choices between variant forms, a kappa-like agreement between nearby
+  words, corrected for the bias of the expected value by subtracting the agreement obtained when the choices are
+  shuffled among occurrences of the same word.
+\item \textbf{Copying from the line above:} excess of identical or nearly identical words in the lines above over what
+  the paragraph's vocabulary predicts.
+\item \textbf{Left margin:} ratio of observed to expected identical line starts in consecutive lines, the expectation
+  coming from shuffling the order of the lines within the paragraph.
+\end{itemize}
+
+\subsection{Uncertainty and multiplicity}
+
+Intervals are bootstrap percentiles (2{,}000 resamples). In version~1 we resampled pages; but pages of the same
+bifolium are not independent (Section~\ref{sec:book}), so the main intervals are now computed by resampling bifolia
+(experiment \expcode{e3c86}). They are 0.84 to 1.56 times as wide as the page intervals, and every main measure keeps
+its interval clear of the null value; with only 16 quires, resampling quires widens them further and one drift
+(\eva{k}/\eva{t}) touches zero. For the main tests we declared seven families (one per finding) and applied Holm's
+correction within each, and Bonferroni's correction over the 715 experiments logged before this test as a stricter reference
+(\expcode{e3c92}): all 23 tests survive Holm, 15 survive Bonferroni (Table~\ref{tab:multiplicity} in
+Appendix~\ref{app:measures}). Effect sizes are given with their intervals; $z$ values are given only as a guide.
+
+\subsection{Use of generative AI}
+
+The work was carried out in a continuous conversation with Claude, a large language model by Anthropic (mainly
+Claude Opus 5.5), used through Claude Code in September and October 2026. Claude proposed experiments, wrote the
+preregistrations, the analysis programs (Python 3.12) and the notebook entries, ran the experiments, summarised their
+outputs and drafted the text of this paper. The voynichizer was developed with the same system in a separate
+conversation on the same repository. The author set the questions and the direction of the research, chose among the
+avenues proposed, approved every data download and every change of scope, and reviewed results and text. The research
+conversation processed about 2.8 billion tokens, almost all of them the context of the conversation read again at each
+step.

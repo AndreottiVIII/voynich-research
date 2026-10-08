@@ -1,6 +1,6 @@
 # Research experiment log: summary
 
-Generated on 2026-10-08 from the `voynich` repository (read only; QUADERNO snapshot up to the 4/10/2026 entries). Full log: `registro.csv`, one row per experiment id, **715 rows** (707 compiled up to e3c83, plus e3c84–e3c91 added by hand on 8/10/2026).
+Generated on 2026-10-08 from the `voynich` repository (read only; QUADERNO snapshot up to the 4/10/2026 entries). Full log: `registro.csv`, one row per experiment id, **716 rows** (707 compiled up to e3c83, plus e3c84–e3c92 added by hand on 8/10/2026; the tables below count the first 707).
 
 ## Scope and definitions
 

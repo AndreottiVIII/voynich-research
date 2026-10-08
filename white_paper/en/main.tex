@@ -1,21 +1,27 @@
 \documentclass[11pt,a4paper]{article}
 
 % ---------------------------------------------------------------------------
-% Typesetting: Tectonic (XeTeX engine), Latin Modern fonts via fontspec
+% Typesetting: Tectonic (XeTeX engine), Latin Modern fonts via fontspec; BibTeX with natbib (author-year)
 % ---------------------------------------------------------------------------
 \usepackage[margin=2.6cm,top=2.8cm,bottom=2.8cm]{geometry}
 \usepackage{fontspec}
 % fontspec defaults to Latin Modern (Roman, Sans, Mono), loaded from the TeX bundle
+\newfontfamily\voyfont{VoynichizzatoreEVA}[Extension=.ttf, Ligatures=Common]  % font of the voynichizer (MIT)
 \usepackage{microtype}
 \usepackage{booktabs,tabularx,longtable,array,multirow}
 \usepackage{enumitem}
 \usepackage{xcolor}
 \usepackage{titlesec}
 \usepackage{caption}
+\usepackage{graphicx}
+\usepackage[section]{placeins}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,fit,calc}
 \usepackage{fancyhdr}
+\usepackage[authoryear,round,sort]{natbib}
 \usepackage[hidelinks]{hyperref}
 \usepackage{xurl}
-\usepackage{amsmath}
+\usepackage{amsmath,amssymb}
 
 \setlist{itemsep=2pt,topsep=4pt,leftmargin=*}
 \setlength{\parskip}{3pt}
@@ -23,6 +29,7 @@
 \captionsetup{font=small,labelfont=bf}
 \newcolumntype{Y}{>{\raggedright\arraybackslash}X}
 \renewcommand{\arraystretch}{1.15}
+\setlength{\bibsep}{2pt}
 
 \definecolor{accent}{RGB}{90,30,30}
 \titleformat{\section}{\large\bfseries}{\thesection.}{0.6em}{}
@@ -31,7 +38,7 @@
 
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{\small\textsc{The Voynich manuscript as a writing system}}
+\fancyhead[L]{\small\textsc{Hiding a message in a Voynich-like book}}
 \fancyhead[R]{\small Preprint, October 2026}
 \fancyfoot[C]{\small\thepage}
 \renewcommand{\headrulewidth}{0.4pt}
@@ -39,77 +46,69 @@
 \newcommand{\eva}[1]{\textit{#1}}  % EVA transliteration
 \newcommand{\expcode}[1]{\textsf{\small #1}} % experiment code
 
-\hypersetup{pdftitle={The Voynich Manuscript as a Writing System},
-            pdfauthor={Davide Caniatti and Claude (Anthropic)}}
+\hypersetup{pdftitle={Hiding a Message in a Voynich-like Book},
+            pdfauthor={Davide Caniatti}}
 
 \begin{document}
 
 \begin{center}
-{\LARGE\bfseries The Voynich Manuscript as a Writing System\par}
+{\LARGE\bfseries Hiding a Message in a Voynich-like Book\par}
 \vspace{0.4em}
-{\large Reproducible measurements against natural languages, medieval scribes,\\
-historical ciphers and text generators\par}
+{\large The manuscript's writing rules, measured against languages and medieval scribes,\\
+and reproduced by a steganographic generator\par}
 \vspace{1.2em}
-{\large Davide Caniatti\textsuperscript{1} \quad and \quad Claude\textsuperscript{2}\par}
-\vspace{0.4em}
-{\small \textsuperscript{1}Independent researcher \qquad \textsuperscript{2}Anthropic\par}
+{\large Davide Caniatti\par}
+\vspace{0.3em}
+{\small Independent researcher\par}
 \vspace{0.6em}
 {\small \textbf{Contributors:} Andrea Lanterna (computational setup), Giulia Gandellini (support)\par}
 \vspace{0.4em}
-{\small Preprint, version 1, October 2026. Not peer reviewed.\par}
+{\small Preprint, version 2, October 2026. Not peer reviewed.\par}
 \vspace{0.2em}
-{\footnotesize \textcopyright\ 2026 the authors. Licensed under Creative Commons Attribution 4.0 International
+{\footnotesize \textcopyright\ 2026 Davide Caniatti. Licensed under Creative Commons Attribution 4.0 International
 (CC~BY~4.0), \url{https://creativecommons.org/licenses/by/4.0/}.\par}
 \end{center}
 
 \vspace{0.6em}
 \begin{abstract}
-\setlength{\parskip}{0.7em}
-\noindent The Voynich manuscript (Yale, Beinecke MS~408) is written in a script
-that has never been read. We do not propose a decipherment. Instead, we describe \emph{how} the text is written, using
-more than six hundred preregistered, reproducible experiments, each first validated on synthetic texts in which the
-effect is known to be present or absent, and replicated on three independent transliterations. We then compare every
-property with the same measurement on about one hundred natural languages, eight constructed languages, handwritten
-gibberish produced by volunteers, published Voynich-like generators and ciphers, the eighteenth-century Copiale cipher,
-and---for the first time in a systematic way---79 real medieval scribes: six Nordic manuscripts (c.~1200--1550) and 73
-German manuscripts (1350--1500) transcribed at the level of letter forms, with their original lines and pages.
+\setlength{\parskip}{0.6em}
+\noindent We present the \emph{voynichizer}, a program that turns any text into a book of 207 folios written in the
+script of the Voynich manuscript (Beinecke MS~408), in EVA transliteration. The text is compressed, encrypted and
+authenticated with a key, and the resulting bits are sampled into the book through an arithmetic decoder: they decide only
+how many times each recurring Voynich word appears on each page, while layout, invented words and word order follow the
+manuscript's statistics. With the key the text is recovered exactly; without it, a book that carries a message and a book
+that carries none are samples of the same distribution.
 
-\noindent\textbf{New findings.} (1)~The text behaves as a \emph{chain of glyphs} in which the space is a weak boundary:
-spaces are predictable from the two surrounding glyphs, re-cutting the chain at other permitted points mostly yields
-words attested elsewhere, and the rules linking the end of one word to the start of the next mirror the rules inside
-words more than in any of 71 languages. (2)~Adjacent words are linked by \emph{junction rules} (\eva{qo-} after
-\eva{-y/-o/-d}, \eva{o-} after \eva{-n/-r/-s/-m}; \eva{-l/-r} chosen by the next word), applied while writing and looking
-exactly one word ahead. (3)~The \emph{line is a closed unit}: the junction stops at the line break and at the gap left
-by a drawing, and line starts and ends have their own forms. (4)~The scribe \emph{copies from the line immediately
-above}, adapting the copies to the junction rules. (5)~Each line \emph{avoids starting like the line above}. (6)~Binary
-choices between variant forms (\eva{k/t}, \eva{sh/ch}, \eva{-ey/-dy}) follow a \emph{short-lived state} that persists
-for two to three words regardless of which word is written; it is not copying, not position, separate for each choice,
-and identical across scribal hands---a rule of the system. (7)~Marked variants \emph{drift} towards simpler forms along
-the line. Two further properties are quantified anew: immediate repetition of the previous word (1.0\% of adjacent
-pairs; 3.9\% with one glyph changed) and a strong page, bifolium and paragraph structure.
+\noindent The generator is specified by a scorecard drawn from 716 logged experiments on how the manuscript is written
+(670 preregistered), each compared with the same measurement in 24 natural languages, constructed languages, volunteers'
+gibberish, published generators and ciphers, and 79 medieval manuscripts (six Nordic, 73 German). The measurements
+quantify known regularities (word boundaries redundantly marked by word form, line-edge forms, paragraph-initial gallows,
+copying from the line above) and add others: the dependency between adjacent words mirrors the glyph sequences inside
+words and survives nulls that keep word form and line position; each line avoids starting like the line above; marked
+variants drift along the line at least two and a half times as much as in any scribal choice.
 
-\noindent\textbf{Comparisons.} Junction rules, left-margin avoidance, line-edge forms, in-line drift and immediate
-repetition have no counterpart in the 79 scribes (they are absent or three to a hundred times weaker), and the short
-state of the choices was found in none of them in the Voynich's form; the Copiale copyist does the opposite of the
-Voynich, rotating homophones between adjacent words. A slower state crossing line
-breaks, by contrast, is normal in real scribes. No substitution reading in tens of languages, none of the published
-readings we could test (Bax, Vatne, Cheshire, Schechter, Gatta), none of the simulated historical mechanisms (homophone
-choice, Alberti's index letters, Bacon's biliteral cipher, Trithemius' word tables, a line-restarting autokey), no
-constructed language and no published generator reproduces these properties together.
-
-\noindent\textbf{Conclusion.} The Voynich text is the product of a writing system with rules between neighbouring words
-and at line edges far stronger than those of any scribe, language or generator we tested. These rules do not reveal what
-the text says, but they exclude many explanations and provide a checklist that any future proposal must reproduce.
+\noindent On 24 keys, two classifiers retrained on each generated book separate its pages from the real ones with AUC
+0.55 and 0.60 (0.5 is chance; the real manuscript with its lines shuffled scores 0.60), and the book passes 16 of the 17
+attainable scorecard properties. Statistical regularities of this kind, however strong, cannot by themselves decide
+whether the Voynich manuscript carries a message.
 \end{abstract}
 
 \vspace{0.5em}
-\noindent\textbf{Keywords:} Voynich manuscript; writing systems; medieval scribes; historical cryptography;
-quantitative palaeography; preregistration.
+\noindent\textbf{Keywords:} Voynich manuscript; linguistic steganography; arithmetic coding; writing systems; medieval
+scribes; historical cryptography; preregistration.
 
-\input{sezioni/01_intro}
-\input{sezioni/02_scrittura}
-\input{sezioni/03_confronti}
-\input{sezioni/04_discussione}
-\input{sezioni/05_appendici}
+\input{sezioni/01_introduzione}
+\input{sezioni/02_dati_metodi}
+\input{sezioni/03_misure}
+\input{sezioni/04_confronti}
+\input{sezioni/05_pagella}
+\input{sezioni/06_generatore}
+\input{sezioni/07_valutazione}
+\input{sezioni/08_discussione}
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\input{sezioni/09_appendici}
 
 \end{document}
