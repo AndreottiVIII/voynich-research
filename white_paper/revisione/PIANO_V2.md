@@ -38,7 +38,7 @@ Punto di ripartenza per qualunque sessione. Verifica delle note del revisore: `V
 - [ ] (con download autorizzato) voynich-fingerprint (271 KB, MIT) nelle nostre misure; Kinnison = Naibbe, già misurato: non serve
 
 ### 2. Materiale sul voynichizzatore (lavoro dell'altra chat: leggere, non modificare)
-- [x] Scheda tecnica (scratchpad della sessione: `scheda_voynichizzatore.md`). Buco: con messaggio contro senza messaggio misurato solo sulla v9 → chiesto alla chat del voynichizzatore di rifarlo sulla v21 (8/10)
+- [x] Scheda tecnica: `white_paper/revisione/scheda_voynichizzatore.md`. Buco: con messaggio contro senza messaggio misurato solo sulla v9 → chiesto alla chat del voynichizzatore di rifarlo sulla v21 (8/10)
 - [ ] Precedenti:
   - steganografia: Ziegler 2019, Meteor 2021, Cachin 1998, Hopper 2002;
   - Wayner 1992;
