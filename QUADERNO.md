@@ -16182,3 +16182,32 @@ testi di confronto. Risultati: `risultati/e3c89_riga_a_lunghezza_pari.md`.
 - **Esito preregistrato:** riga chiusa **regge** a 10.000 parole; margine **regge**.
 - Con l'e3c84 e gli esperimenti già fatti a 10.000 parole, tutti i confronti con le lingue del paper sono ora a parità
   di lunghezza.
+
+## 8/10/2026 — e3c90: la deriva manca davvero negli scribi; lo stato breve solo in metà delle scelte misurabili
+
+Preregistrato (`preregistrazioni/e3c90.md`; nota A9 del revisore). Rianalisi dei risultati salvati (e3c50, e3c58,
+e3c62, e3c77). Per ogni scelta di ogni manoscritto: intervallo, effetto minimo visibile con potenza 0,8 e giudizio
+("assente con potenza" se l'estremo alto sta sotto metà del Voynich). Risultati: `risultati/e3c90_potenza_scribi.md`.
+
+| misura | assente con potenza | potenza insufficiente | presente |
+|---|---|---|---|
+| deriva lungo la riga (29 scelte) | **28** | 1 | 0 |
+| stato, accordo fra parole accanto (29) | 17 | 9 | 3 |
+| stato, finestra a 2 – 3 parole (29) | **14** | **13** | **2** |
+
+- **Deriva:** l'assenza negli scribi è solida.
+- **Finestra dello stato breve:** in 13 scelte l'intervallo è troppo largo per dire che manca. L'effetto minimo
+  visibile va da 0,05 a 0,24, contro 0,09 del Voynich.
+- **Due scelte con lo stato presente:**
+  - AM 302 fol, *ſ*/*s*: +0,082 a 2 – 3 parole. Già noto; l'e3c79 lo attribuisce a parole simili, cioè alla copia;
+  - **Holm A 10, *ꝛ*/*r*: +0,053 (+0,020 – +0,090) a 2 – 3 parole**, +0,056 accanto. È più debole del Voynich
+    (+0,09) ma c'è. Nell'e3c58 non risultava come "finestra" perché quel criterio chiedeva l'estremo basso sopra 0,02
+    anche accanto (+0,012). Non è stato provato se venga da parole simili.
+- **Errore da correggere nel paper:** la frase "lo stato breve non si trova in nessuno scriba" è troppo forte. Va
+  riscritta così:
+  - assente con potenza sufficiente in 14 scelte su 29;
+  - non misurabile in 13;
+  - presente ma più debole in 2: una dalla copia, una non ancora spiegata.
+
+  La deriva resta propria del Voynich.
+- **Prossimo passo possibile:** la prova delle parole simili (e3c79) su Holm A 10 *ꝛ*/*r*.
