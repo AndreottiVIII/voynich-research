@@ -109,13 +109,13 @@ def main():
         sintesi[c] = x
     out = OrderedDict([('versione', VERSIONE), ('Voynich', voy), ('sintesi', sintesi), ('per_chiave', OrderedDict(('%s|%d' % a, ris[a]) for a in ris if a[0] != 'V'))])
     json.dump(out, open(os.path.join(RISULTATI, NOME + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1, default=float)
-    gr = list(sintesi['a']['gruppi'])
-    a = sintesi['a']
+    a = sintesi.get('a') or next(iter(sintesi.values()))      # senza il caso a (e419: CASI=b) il riassunto usa il primo caso
+    gr = list(a['gruppi'])
     md = ['# e409 — Il messaggio nel sacco', '',
-          'Corpo di partenza: %s. Isidoro XVII (%d bit dopo compressione e cifratura), quattro chiavi. Preregistrazione: `preregistrazioni/e409.md`.' % (VERSIONE, a['bit_messaggio']), '',
-          '- Andata e ritorno esatta: %d su %d; chiave sbagliata respinta: %d su %d.' % (a['decodifica_esatta'], len(CHIAVI), a['chiave_sbagliata_respinta'], len(CHIAVI)),
+          'Corpo di partenza: %s. Isidoro XVII (%d bit dopo compressione e cifratura), quattro chiavi. Preregistrazione: `preregistrazioni/e409.md`.' % (VERSIONE, a.get('bit_messaggio', 0)), '',
+          '- Andata e ritorno esatta: %d su %d; chiave sbagliata respinta: %d su %d.' % (a.get('decodifica_esatta', 0), len(CHIAVI), a.get('chiave_sbagliata_respinta', 0), len(CHIAVI)),
           '- Capacità del libro: %.0f bit con il messaggio, %.0f con soli bit di riempimento (servono %d); pagine usate dal messaggio %.0f su 207.' % (
-              a['capacita_bit'], sintesi['b']['capacita_bit'] if 'b' in sintesi else float('nan'), a['bit_messaggio'], a['pagine_usate']),
+              a.get('capacita_bit', 0), sintesi['b']['capacita_bit'] if 'b' in sintesi else float('nan'), a.get('bit_messaggio', 0), a.get('pagine_usate', 0)),
           ('- Nascondiglio vecchio (c): decodifica esatta %d su %d.' % (sintesi['c']['decodifica_esatta'], len(CHIAVI))) if 'c' in sintesi else '', '',
           '| caso | che cosa | AUC e231 (per chiave) | AUC e266 (per chiave) | solo sacco | pagella | estese | riga | tipi su parole (Voynich %.4f) | JSD (Voynich %.4f) | %s |' % (
               voy['tipi su parole'], voy['JSD'], ' | '.join(gr)), '|---|---|---|---|---|---|---|---|---|---|' + '---|' * len(gr)]
