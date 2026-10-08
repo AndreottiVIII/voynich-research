@@ -16131,3 +16131,54 @@ parole: indice della prima (0, 1, 2, 3, 4 o più) e se la seconda chiude la riga
   interne"** (4 classi); *-l*/*-r* **"regge"** nell'unica classe con abbastanza eventi.
 - **Lettura:** la cautela di Feaster non si applica: le regole di raccordo valgono a parità di posizione nella riga.
   *qo-* è un po' meno frequente verso la fine della riga, ma il legame con la parola precedente resta uguale.
+
+## 8/10/2026 — e3c88: la ripetizione del Voynich è "non evitata" e concentrata nella riga, non "più del caso"
+
+Preregistrato (`preregistrazioni/e3c88.md`; nota A8 del revisore). Rapporto osservato/atteso della ripetizione
+immediata:
+- **atteso nella riga** = 20 rimescolamenti delle parole dentro ogni riga, che conservano la composizione delle righe;
+- **atteso globale** = Σp².
+
+Risultati: `risultati/e3c88_ripetizioni_osservate_attese.md`.
+
+| testo | ripetizione grezza | O/E nella riga | O/E globale | quasi ripetizione, O/E nella riga |
+|---|---|---|---|---|
+| Voynich ZL | 1,00% | **1,04** | **2,85** | 1,08 |
+| lingue naturali (24, mediana per lingua): massimo | 0,40% | 0,92 (sanscrito) | 2,86 (sanscrito) | 1,61 |
+| 6 scribi nordici | 0,01 – 0,05% | 0,02 – 0,07 | 0,02 – 0,09 | 0,41 – 0,98 |
+| 73 manoscritti tedeschi: massimo | | 0,79 | 0,81 | 1,39 |
+| Copiale | 0,00% | 0,00 | 0,00 | 0,34 |
+| gibberish umano | 0,50% | 0,85 | 13,65 | 1,30 |
+| Naibbe / U2 / U3 / Timm e Schinner | 0,13 / 0,47 / 0,81 / 1,15% | 0,41 / 0,46 / 1,01 / 0,82 | | |
+
+- **Esiti preregistrati:**
+  - O/E nella riga: **regge** (Voynich 1,04; nessuna lingua né manoscritto ci arriva);
+  - O/E globale: **da riformulare** (il sanscrito arriva a 2,86);
+  - quasi ripetizione: **da riformulare** (4 lingue e 3 manoscritti ci arrivano).
+- **La lettura cambia, ed è la correzione più importante di questa giornata per la scoperta 8:**
+  - **Niente ripetizione "in eccesso" accanto.** A parità di composizione della riga, il Voynich ripete la parola
+    accanto quanto ci si aspetta dal caso (1,04). Non ha una ripetizione in eccesso.
+  - **Le lingue e gli scribi evitano** di ripetere subito la stessa parola (lingue 0,2 – 0,9; scribi medievali
+    0,02 – 0,8; il copista del Copiale 0).
+  - **La quota grezza alta viene da due cose:** il vocabolario concentrato e il fatto che la stessa parola torna nella
+    stessa riga (2,85 volte Σp²).
+  - **Il tratto proprio del Voynich** è quindi "la parola ripetuta non viene evitata, e le ripetizioni si concentrano
+    nella riga". Non "ripete più del caso".
+- **La quasi ripetizione** (una parola che differisce di un segno) non è distintiva rispetto alla riga: 1,08, con 4
+  lingue sopra.
+- **Per il paper:** la scoperta 8 va riscritta così. Il "riprende subito la parola precedente" va tolto come effetto in
+  sé. Resta il confronto con scribi e lingue, che evitano molto di più.
+
+## 8/10/2026 — e3c89: riga chiusa e margine reggono anche a 10.000 parole
+
+Preregistrato (`preregistrazioni/e3c89.md`; nota A8). Voynich ZL, 5 sottoinsiemi di pagine fino a 10.000 parole, come i
+testi di confronto. Risultati: `risultati/e3c89_riga_a_lunghezza_pari.md`.
+
+| misura | tutto il testo | sottoinsiemi (mediana; valori) | riferimento delle lingue |
+|---|---|---|---|
+| Q (giuntura a capo / nella riga) | −0,018 | 0,022 (da −0,030 a 0,043) | mediana 0,49; ≤ 0,10 solo l'ebraico |
+| margine sinistro (rapporto) | 0,51 | 0,53 (da 0,46 a 0,59) | 10° percentile 0,71 |
+
+- **Esito preregistrato:** riga chiusa **regge** a 10.000 parole; margine **regge**.
+- Con l'e3c84 e gli esperimenti già fatti a 10.000 parole, tutti i confronti con le lingue del paper sono ora a parità
+  di lunghezza.

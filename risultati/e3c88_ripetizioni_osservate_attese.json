@@ -1,0 +1,1914 @@
+{
+ "testi": {
+  "Voynich ZL": {
+   "coppie": 28761,
+   "ripetizione": 0.009978790723549251,
+   "atteso_globale": 0.003506752661417375,
+   "OE_globale": 2.8455929707674277,
+   "atteso_riga": 0.009575428319951281,
+   "OE_riga": 1.0421247374133153,
+   "quasi": 0.038731662718696755,
+   "quasi_atteso_riga": 0.035780968979079834,
+   "quasi_OE_riga": 1.0824654508753553
+  },
+  "lingua: Conlangs - Esperanto - Literary - NT": {
+   "coppie": 8598,
+   "ripetizione": 0.00023261223540358222,
+   "atteso_globale": 0.0156095889268039,
+   "OE_globale": 0.014901880920397187,
+   "atteso_riga": 0.015619911607350547,
+   "OE_riga": 0.014892032762472076,
+   "quasi": 0.006985374372407771,
+   "quasi_atteso_riga": 0.007898289938234632,
+   "quasi_OE_riga": 0.8844160479083516
+  },
+  "lingua: Conlangs - Esperanto - Technical - Voynich Wiki": {
+   "coppie": 2890,
+   "ripetizione": 0.0017301038062283738,
+   "atteso_globale": 0.018543598692998882,
+   "OE_globale": 0.09329924762023527,
+   "atteso_riga": 0.012758106726155764,
+   "OE_riga": 0.13560819354814127,
+   "quasi": 0.0026755852842809363,
+   "quasi_atteso_riga": 0.002253156559207859,
+   "quasi_OE_riga": 1.187483077173115
+  },
+  "lingua: Conlangs - Interlingua - Literary - NT": {
+   "coppie": 7228,
+   "ripetizione": 0.004427227448810182,
+   "atteso_globale": 0.012286727253651495,
+   "OE_globale": 0.36032601338118364,
+   "atteso_riga": 0.01706737926372191,
+   "OE_riga": 0.25939702753430993,
+   "quasi": 0.002271436683702442,
+   "quasi_atteso_riga": 0.003981687364904888,
+   "quasi_OE_riga": 0.5704708771771438
+  },
+  "lingua: Conlangs - Interlingua - Technical - EU Wiki": {
+   "coppie": 7730,
+   "ripetizione": 0.00038809831824062095,
+   "atteso_globale": 0.021896035661139686,
+   "OE_globale": 0.01772459290105214,
+   "atteso_riga": 0.016279200053987072,
+   "OE_riga": 0.023840134463214525,
+   "quasi": 0.0,
+   "quasi_atteso_riga": 0.0004194886134708014,
+   "quasi_OE_riga": 0.0
+  },
+  "lingua: Conlangs - Klingon - Literary - NT - Mark": {
+   "coppie": 6321,
+   "ripetizione": 0.0014238253440911248,
+   "atteso_globale": 0.005628530617104156,
+   "OE_globale": 0.25296572781613014,
+   "atteso_riga": 0.0063718803975591305,
+   "OE_riga": 0.2234544993400297,
+   "quasi": 0.005098039215686275,
+   "quasi_atteso_riga": 0.0049436411163067875,
+   "quasi_OE_riga": 1.031231656130984
+  },
+  "lingua: Conlangs - Klingon - Technical - Proxima Centauri B Wikia": {
+   "coppie": 533,
+   "ripetizione": 0.0,
+   "atteso_globale": 0.007673182441700959,
+   "OE_globale": 0.0,
+   "atteso_riga": 0.006709030969501561,
+   "OE_riga": 0.0,
+   "quasi": 0.0022471910112359553,
+   "quasi_atteso_riga": 0.0023250424988232117,
+   "quasi_OE_riga": 0.9665161012641017
+  },
+  "lingua: Conlangs - LOLCat - Literary - NT - Matthew": {
+   "coppie": 7971,
+   "ripetizione": 0.002383640697528541,
+   "atteso_globale": 0.005829409810351175,
+   "OE_globale": 0.4088991467534079,
+   "atteso_riga": 0.010610835540024932,
+   "OE_riga": 0.2246421300695176,
+   "quasi": 0.0037579113924050634,
+   "quasi_atteso_riga": 0.005889909189226347,
+   "quasi_OE_riga": 0.6380253534772534
+  },
+  "lingua: Conlangs - Lojban - Literary - Alice in Wonderland": {
+   "coppie": 7997,
+   "ripetizione": 0.001375515818431912,
+   "atteso_globale": 0.02213692937512279,
+   "OE_globale": 0.062136703565477326,
+   "atteso_riga": 0.01937940329927613,
+   "OE_riga": 0.07097823380781239,
+   "quasi": 0.0069965017491254375,
+   "quasi_atteso_riga": 0.0074383252533351775,
+   "quasi_OE_riga": 0.9406017498345295
+  },
+  "lingua: Conlangs - Lojban - Technical - Science News": {
+   "coppie": 1375,
+   "ripetizione": 0.002909090909090909,
+   "atteso_globale": 0.024525883674155664,
+   "OE_globale": 0.11861309250831951,
+   "atteso_riga": 0.017221785916856528,
+   "OE_riga": 0.1689192353879813,
+   "quasi": 0.005555555555555556,
+   "quasi_atteso_riga": 0.009263648687554277,
+   "quasi_OE_riga": 0.5997156998213298
+  },
+  "lingua: Conlangs - Neo-Quenya - Literary - NT": {
+   "coppie": 7176,
+   "ripetizione": 0.0005574136008918618,
+   "atteso_globale": 0.007796151555027483,
+   "OE_globale": 0.07149855886683014,
+   "atteso_riga": 0.011078211080587036,
+   "OE_riga": 0.0503162105178379,
+   "quasi": 0.0013876040703052729,
+   "quasi_atteso_riga": 0.002558556425473396,
+   "quasi_OE_riga": 0.5423386627279607
+  },
+  "lingua: Conlangs - Neo-Quenya - Technical - Europe-Taipei Wikia": {
+   "coppie": 586,
+   "ripetizione": 0.0017064846416382253,
+   "atteso_globale": 0.006009695198884388,
+   "OE_globale": 0.2839552731318236,
+   "atteso_riga": 0.009421035773715235,
+   "OE_riga": 0.1811355654119615,
+   "quasi": 0.0,
+   "quasi_atteso_riga": 0.0019682102048634636,
+   "quasi_OE_riga": 0.0
+  },
+  "lingua: Conlangs - Toki Pona - Literary - NT - Sermon on the Mount": {
+   "coppie": 1833,
+   "ripetizione": 0.0070921985815602835,
+   "atteso_globale": 0.03510661610605705,
+   "OE_globale": 0.2020188604944082,
+   "atteso_riga": 0.030218180143044195,
+   "OE_riga": 0.23469972539669332,
+   "quasi": 0.02208835341365462,
+   "quasi_atteso_riga": 0.01840895835228224,
+   "quasi_OE_riga": 1.1998698128901044
+  },
+  "lingua: Conlangs - Toki Pona - Technical - Turkey-Mexico Wikia": {
+   "coppie": 1210,
+   "ripetizione": 0.001652892561983471,
+   "atteso_globale": 0.04124401126724393,
+   "OE_globale": 0.04007594099597682,
+   "atteso_riga": 0.048511984920156064,
+   "OE_riga": 0.034071839457896866,
+   "quasi": 0.008968609865470852,
+   "quasi_atteso_riga": 0.007790307749885725,
+   "quasi_OE_riga": 1.1512523193454598
+  },
+  "lingua: Conlangs - Volapuk - Literary - NT": {
+   "coppie": 7624,
+   "ripetizione": 0.0027544596012591817,
+   "atteso_globale": 0.003464830630471468,
+   "OE_globale": 0.7949766943974331,
+   "atteso_riga": 0.008165728405135787,
+   "OE_riga": 0.33731952186001934,
+   "quasi": 0.0,
+   "quasi_atteso_riga": 0.0046255685790649,
+   "quasi_OE_riga": 0.0
+  },
+  "lingua: Conlangs - Volapuk - Technical - History Wiki": {
+   "coppie": 1132,
+   "ripetizione": 0.0,
+   "atteso_globale": 0.0034834424776230373,
+   "OE_globale": 0.0,
+   "atteso_riga": 0.0061334943613939605,
+   "OE_riga": 0.0,
+   "quasi": 0.0,
+   "quasi_atteso_riga": 0.004076901388256838,
+   "quasi_OE_riga": 0.0
+  },
+  "lingua: Historical - Anglo-Saxon - Literary - NT - Hatton Gospels": {
+   "coppie": 8435,
+   "ripetizione": 0.006046235921754594,
+   "atteso_globale": 0.006472505913926112,
+   "OE_globale": 0.9341414287077956,
+   "atteso_riga": 0.012145086716851331,
+   "OE_riga": 0.4978339029366855,
+   "quasi": 0.005861919235779418,
+   "quasi_atteso_riga": 0.006927388064653566,
+   "quasi_OE_riga": 0.8461947246306849
+  },
+  "lingua: Historical - Anglo-Saxon - Technical - Leechbook": {
+   "coppie": 679,
+   "ripetizione": 0.0,
+   "atteso_globale": 0.007154250328391817,
+   "OE_globale": 0.0,
+   "atteso_riga": 0.004167230850201192,
+   "OE_riga": 0.0,
+   "quasi": 0.00205761316872428,
+   "quasi_atteso_riga": 0.004267206457957897,
+   "quasi_OE_riga": 0.48219208257126744
+  },
+  "lingua: Historical - Arabic - Literary - Quran": {
+   "coppie": 8607,
+   "ripetizione": 0.0,
+   "atteso_globale": 0.00300732,
+   "OE_globale": 0.0,
+   "atteso_riga": 0.004937841291971651,
+   "OE_riga": 0.0,
+   "quasi": 0.0008302889405513118,
+   "quasi_atteso_riga": 0.005494986399825786,
+   "quasi_OE_riga": 0.15109936224366916
+  },
+  "lingua: Historical - Arabic - Technical - Avicenna": {
+   "coppie": 8693,
+   "ripetizione": 0.00011503508570113885,
+   "atteso_globale": 0.0037056886651125314,
+   "OE_globale": 0.03104283605477838,
+   "atteso_riga": 0.010269937919399489,
+   "OE_riga": 0.011201147134866543,
+   "quasi": 0.0013658869728529965,
+   "quasi_atteso_riga": 0.005290965471877784,
+   "quasi_OE_riga": 0.2581545806928575
+  },
+  "lingua: Historical - English - Literary - NT (KJV)": {
+   "coppie": 8687,
+   "ripetizione": 0.0004604581558650858,
+   "atteso_globale": 0.01273055925817204,
+   "OE_globale": 0.03616951514282509,
+   "atteso_riga": 0.016715957736335108,
+   "OE_riga": 0.027546022975650272,
+   "quasi": 0.0030997072498708455,
+   "quasi_atteso_riga": 0.009293130767103266,
+   "quasi_OE_riga": 0.3335482226122861
+  },
+  "lingua: Historical - English - Technical - Secreta Alberti": {
+   "coppie": 8386,
+   "ripetizione": 0.0009539709038874314,
+   "atteso_globale": 0.017670253517832926,
+   "OE_globale": 0.053987392027209924,
+   "atteso_riga": 0.014309168350509431,
+   "OE_riga": 0.06666850794675767,
+   "quasi": 0.0021872265966754157,
+   "quasi_atteso_riga": 0.005657153864622246,
+   "quasi_OE_riga": 0.38663021176664897
+  },
+  "lingua: Historical - Flemish - Literary - NT": {
+   "coppie": 8442,
+   "ripetizione": 0.002369106846718787,
+   "atteso_globale": 0.009878359453112433,
+   "OE_globale": 0.23982796515592864,
+   "atteso_riga": 0.01043832772932098,
+   "OE_riga": 0.22696229780791707,
+   "quasi": 0.0037296037296037296,
+   "quasi_atteso_riga": 0.007355909301100612,
+   "quasi_OE_riga": 0.5070214404418629
+  },
+  "lingua: Historical - Flemish - Technical - Cruydeboeck": {
+   "coppie": 8346,
+   "ripetizione": 0.0003594536304816679,
+   "atteso_globale": 0.009468202260707007,
+   "OE_globale": 0.037964295711488835,
+   "atteso_riga": 0.008865691194093906,
+   "OE_riga": 0.04054434365152788,
+   "quasi": 0.004012964963728971,
+   "quasi_atteso_riga": 0.004347368037182003,
+   "quasi_OE_riga": 0.9230791893870124
+  },
+  "lingua: Historical - French - Literary - NT - Martin": {
+   "coppie": 8259,
+   "ripetizione": 0.000484320135609638,
+   "atteso_globale": 0.00940505293944775,
+   "OE_globale": 0.05149573731565583,
+   "atteso_riga": 0.011230858917991063,
+   "OE_riga": 0.04312405125433376,
+   "quasi": 0.0018399264029438822,
+   "quasi_atteso_riga": 0.005102282134406523,
+   "quasi_OE_riga": 0.36060851879134576
+  },
+  "lingua: Historical - German - Literary - NT - Luther": {
+   "coppie": 8578,
+   "ripetizione": 0.002098391233387736,
+   "atteso_globale": 0.009051618214425705,
+   "OE_globale": 0.2318249824151329,
+   "atteso_riga": 0.010981069853672467,
+   "OE_riga": 0.19109169337320608,
+   "quasi": 0.004337140378776926,
+   "quasi_atteso_riga": 0.009154281121497942,
+   "quasi_OE_riga": 0.4737827385037993
+  },
+  "lingua: Historical - German - Technical - German Herbarium": {
+   "coppie": 8472,
+   "ripetizione": 0.00023607176581680832,
+   "atteso_globale": 0.008783889473760043,
+   "OE_globale": 0.02687553919274842,
+   "atteso_riga": 0.006652047505414735,
+   "OE_riga": 0.03548858687864857,
+   "quasi": 0.0035582318324893936,
+   "quasi_atteso_riga": 0.0063160567516659626,
+   "quasi_OE_riga": 0.5633628658499391
+  },
+  "lingua: Historical - Greek - Literary - NT - Textus Receptus": {
+   "coppie": 7886,
+   "ripetizione": 0.002916560994166878,
+   "atteso_globale": 0.008797267563875423,
+   "OE_globale": 0.33153032722833975,
+   "atteso_riga": 0.010678941891164046,
+   "OE_riga": 0.2731132937974028,
+   "quasi": 0.004650361694798484,
+   "quasi_atteso_riga": 0.0059901760468816095,
+   "quasi_OE_riga": 0.7763313896624772
+  },
+  "lingua: Historical - Greek - Technical - De odoribus": {
+   "coppie": 4533,
+   "ripetizione": 0.0,
+   "atteso_globale": 0.013989198037914251,
+   "OE_globale": 0.0,
+   "atteso_riga": 0.01230880288798634,
+   "OE_riga": 0.0,
+   "quasi": 0.0021015761821366026,
+   "quasi_atteso_riga": 0.002478334182557998,
+   "quasi_OE_riga": 0.8479793390766508
+  },
+  "lingua: Historical - Italian - Literary - NT - Diodati": {
+   "coppie": 6992,
+   "ripetizione": 0.0007151029748283753,
+   "atteso_globale": 0.005242030442083714,
+   "OE_globale": 0.1364171732173537,
+   "atteso_riga": 0.008943771793517297,
+   "OE_riga": 0.07995541381620476,
+   "quasi": 0.0025131942699170647,
+   "quasi_atteso_riga": 0.00416350729374556,
+   "quasi_OE_riga": 0.6036243226215543
+  },
+  "lingua: Historical - Italian - Technical - Della Pittura": {
+   "coppie": 7405,
+   "ripetizione": 0.0001350438892640108,
+   "atteso_globale": 0.004312255458419161,
+   "OE_globale": 0.031316300846777015,
+   "atteso_riga": 0.005105670760410089,
+   "OE_riga": 0.026449784093239108,
+   "quasi": 0.0015319800842589046,
+   "quasi_atteso_riga": 0.003494087520994779,
+   "quasi_OE_riga": 0.43844925894207265
+  },
+  "lingua: Historical - Latin (Abbreviated) - Literary - NT (Vulgate)": {
+   "coppie": 3451,
+   "ripetizione": 0.0055056505360765,
+   "atteso_globale": 0.002010937077087606,
+   "OE_globale": 2.737853212219951,
+   "atteso_riga": 0.006746512408945008,
+   "OE_riga": 0.8160735802956081,
+   "quasi": 0.0020273694880892043,
+   "quasi_atteso_riga": 0.003191438263486496,
+   "quasi_OE_riga": 0.6352526104874103
+  },
+  "lingua: Historical - Latin (Abbreviated) - Technical - Pliny's Natural History": {
+   "coppie": 4685,
+   "ripetizione": 0.0010672358591248667,
+   "atteso_globale": 0.0011611110385834358,
+   "OE_globale": 0.9191505580955482,
+   "atteso_riga": 0.007815765737497178,
+   "OE_riga": 0.13654911047354712,
+   "quasi": 0.0011597564511452595,
+   "quasi_atteso_riga": 0.004043258850084979,
+   "quasi_OE_riga": 0.2868370525228392
+  },
+  "lingua: Historical - Latin - Literary - NT (Vulgate)": {
+   "coppie": 8287,
+   "ripetizione": 0.0024134186074574633,
+   "atteso_globale": 0.009519012146157926,
+   "OE_globale": 0.2535366664524711,
+   "atteso_riga": 0.010631248635981694,
+   "OE_riga": 0.2270117735078827,
+   "quasi": 0.0017768301350390902,
+   "quasi_atteso_riga": 0.002581499754105169,
+   "quasi_OE_riga": 0.6882937456079661
+  },
+  "lingua: Historical - Latin - Technical - Pliny's Natural History": {
+   "coppie": 7703,
+   "ripetizione": 0.0005192782032974166,
+   "atteso_globale": 0.004722847987599524,
+   "OE_globale": 0.10995022593588694,
+   "atteso_riga": 0.017303641534075848,
+   "OE_riga": 0.030009764261170604,
+   "quasi": 0.0006952894142186686,
+   "quasi_atteso_riga": 0.0027167052181767846,
+   "quasi_OE_riga": 0.25593112184813566
+  },
+  "lingua: Historical - Mayan (Kaqchikel) - Literary - Annals of the Cakchiquels": {
+   "coppie": 7997,
+   "ripetizione": 0.001875703388770789,
+   "atteso_globale": 0.0059397645800645885,
+   "OE_globale": 0.31578749687591035,
+   "atteso_riga": 0.013415045532055397,
+   "OE_riga": 0.1398208738307131,
+   "quasi": 0.004061564771269773,
+   "quasi_atteso_riga": 0.004980844370455795,
+   "quasi_OE_riga": 0.8154369960565744
+  },
+  "lingua: Historical - Mayan (Yucatec) - Technical - Chilam Balam": {
+   "coppie": 647,
+   "ripetizione": 0.0030911901081916537,
+   "atteso_globale": 0.005386702416291615,
+   "OE_globale": 0.5738557412866575,
+   "atteso_riga": 0.005030165405106447,
+   "OE_riga": 0.6145305092857555,
+   "quasi": 0.011389521640091117,
+   "quasi_atteso_riga": 0.012207378197995382,
+   "quasi_OE_riga": 0.9330030949611631
+  },
+  "lingua: Historical - Nahuatl - Literary - Nican Mopohua": {
+   "coppie": 2647,
+   "ripetizione": 0.00037778617302606723,
+   "atteso_globale": 0.03591879964825018,
+   "OE_globale": 0.010517783910534201,
+   "atteso_riga": 0.031758318129772735,
+   "OE_riga": 0.011895660578823313,
+   "quasi": 0.0016736401673640166,
+   "quasi_atteso_riga": 0.0029131373829743416,
+   "quasi_OE_riga": 0.5745146717575035
+  },
+  "lingua: Historical - Nahuatl - Technical - Florentine Codex": {
+   "coppie": 1780,
+   "ripetizione": 0.0005617977528089888,
+   "atteso_globale": 0.026814603602208185,
+   "OE_globale": 0.020951186194776518,
+   "atteso_riga": 0.026595104574906745,
+   "OE_riga": 0.021124103920202718,
+   "quasi": 0.0,
+   "quasi_atteso_riga": 0.0010727873778048915,
+   "quasi_OE_riga": 0.0
+  },
+  "lingua: Historical - Portuguese - Technical - Coloquios dos simples": {
+   "coppie": 3414,
+   "ripetizione": 0.00029291154071470416,
+   "atteso_globale": 0.00818490130935498,
+   "OE_globale": 0.03578681399370316,
+   "atteso_riga": 0.010174044437367313,
+   "OE_riga": 0.028790078765421574,
+   "quasi": 0.0023277467411545625,
+   "quasi_atteso_riga": 0.004721517670188489,
+   "quasi_OE_riga": 0.49300816045905765
+  },
+  "lingua: Historical - Russian - Literary - NT - Codex Marianus": {
+   "coppie": 7290,
+   "ripetizione": 0.0010973936899862826,
+   "atteso_globale": 0.004285337294749584,
+   "OE_globale": 0.25608105372027884,
+   "atteso_riga": 0.005672981063248665,
+   "OE_riga": 0.19344215638150816,
+   "quasi": 0.001188212927756654,
+   "quasi_atteso_riga": 0.002866940978450916,
+   "quasi_OE_riga": 0.41445322268150664
+  },
+  "lingua: Historical - Sanskrit - Literary - Mahabharata": {
+   "coppie": 6230,
+   "ripetizione": 0.0008025682182985554,
+   "atteso_globale": 0.0007581723880676636,
+   "OE_globale": 1.0585563796962356,
+   "atteso_riga": 0.0010990398040657565,
+   "OE_riga": 0.7302449058983645,
+   "quasi": 0.00131550098662574,
+   "quasi_atteso_riga": 0.0008547736243534698,
+   "quasi_OE_riga": 1.5390051226963783
+  },
+  "lingua: Historical - Sanskrit - Technical - Charaka Samhita": {
+   "coppie": 6113,
+   "ripetizione": 0.0024537870112874205,
+   "atteso_globale": 0.0005253175304323187,
+   "OE_globale": 4.6710548746927145,
+   "atteso_riga": 0.0022048521588026266,
+   "OE_riga": 1.1129031946613515,
+   "quasi": 0.0017126953543138515,
+   "quasi_atteso_riga": 0.001632622167761975,
+   "quasi_OE_riga": 1.049045754818852
+  },
+  "lingua: Historical - Spanish - Literary - NT - Sagradas Escrituras": {
+   "coppie": 6931,
+   "ripetizione": 0.0005771172990910403,
+   "atteso_globale": 0.009395754245287614,
+   "OE_globale": 0.06142320073776835,
+   "atteso_riga": 0.012048382336511445,
+   "OE_riga": 0.04789998216956833,
+   "quasi": 0.006006006006006006,
+   "quasi_atteso_riga": 0.004308012151687685,
+   "quasi_OE_riga": 1.3941478794699136
+  },
+  "lingua: Historical - Spanish - Technical - De Materia Medica": {
+   "coppie": 954,
+   "ripetizione": 0.0,
+   "atteso_globale": 0.010514522171861093,
+   "OE_globale": 0.0,
+   "atteso_riga": 0.008360541865170127,
+   "OE_riga": 0.0,
+   "quasi": 0.003787878787878788,
+   "quasi_atteso_riga": 0.007521807351581645,
+   "quasi_OE_riga": 0.5035862540513343
+  },
+  "lingua: Modern - Arabic - Literary - NT": {
+   "coppie": 8667,
+   "ripetizione": 0.0006922810661128419,
+   "atteso_globale": 0.00300802,
+   "OE_globale": 0.23014510080147135,
+   "atteso_riga": 0.006161301488404292,
+   "OE_riga": 0.11235955056179776,
+   "quasi": 0.006136950904392765,
+   "quasi_atteso_riga": 0.0051922380737666465,
+   "quasi_OE_riga": 1.1819471328557143
+  },
+  "lingua: Modern - Arabic - Technical - Voynich Wiki": {
+   "coppie": 1788,
+   "ripetizione": 0.0011185682326621924,
+   "atteso_globale": 0.0049285888671875,
+   "OE_globale": 0.22695507026547815,
+   "atteso_riga": 0.005063855935157542,
+   "OE_riga": 0.22089258600272416,
+   "quasi": 0.0008130081300813008,
+   "quasi_atteso_riga": 0.003154037670972721,
+   "quasi_OE_riga": 0.2577674127242003
+  },
+  "lingua: Modern - Chinese (Pinyin) - Literary - NT - Matthew": {
+   "coppie": 9087,
+   "ripetizione": 0.0034114669307802356,
+   "atteso_globale": 0.00994938677617607,
+   "OE_globale": 0.3428821300775074,
+   "atteso_riga": 0.013388226140761912,
+   "OE_riga": 0.2548109730828084,
+   "quasi": 0.016296296296296295,
+   "quasi_atteso_riga": 0.020102110573367894,
+   "quasi_OE_riga": 0.810675885838888
+  },
+  "lingua: Modern - Chinese (Pinyin) - Technical - Voynich Wiki": {
+   "coppie": 1782,
+   "ripetizione": 0.004489337822671156,
+   "atteso_globale": 0.00782907024342004,
+   "OE_globale": 0.5734190246209926,
+   "atteso_riga": 0.009004610112361908,
+   "OE_riga": 0.49855993392851117,
+   "quasi": 0.02092675635276532,
+   "quasi_atteso_riga": 0.02164874425669852,
+   "quasi_OE_riga": 0.9666498945448162
+  },
+  "lingua: Modern - English - Literary - NT": {
+   "coppie": 8430,
+   "ripetizione": 0.0028469750889679717,
+   "atteso_globale": 0.012472429469926154,
+   "OE_globale": 0.22826147029595734,
+   "atteso_riga": 0.014096462237798906,
+   "OE_riga": 0.20196380062892383,
+   "quasi": 0.00533775078225658,
+   "quasi_atteso_riga": 0.009560647821510471,
+   "quasi_OE_riga": 0.558304299238718
+  },
+  "lingua: Modern - English - Technical - Voynich Wiki": {
+   "coppie": 6329,
+   "ripetizione": 0.0014220255964607362,
+   "atteso_globale": 0.011959721133040372,
+   "OE_globale": 0.11890123361925181,
+   "atteso_riga": 0.008660084945383091,
+   "OE_riga": 0.16420457829560364,
+   "quasi": 0.0014499758337361043,
+   "quasi_atteso_riga": 0.0017061301536907439,
+   "quasi_OE_riga": 0.8498623804282927
+  },
+  "lingua: Modern - French - Literary - NT": {
+   "coppie": 8259,
+   "ripetizione": 0.0018162005085361425,
+   "atteso_globale": 0.009183486047480217,
+   "OE_globale": 0.19776809145743462,
+   "atteso_riga": 0.010587010566730988,
+   "OE_riga": 0.1715498909808816,
+   "quasi": 0.0018373909049150207,
+   "quasi_atteso_riga": 0.005159471793632482,
+   "quasi_OE_riga": 0.3561199631292918
+  },
+  "lingua: Modern - French - Technical - Voynich Wiki": {
+   "coppie": 6213,
+   "ripetizione": 0.0004828585224529213,
+   "atteso_globale": 0.008695529207530679,
+   "OE_globale": 0.055529515332401656,
+   "atteso_riga": 0.007114044564488952,
+   "OE_riga": 0.06787398055716398,
+   "quasi": 0.0,
+   "quasi_atteso_riga": 0.0036771568311524815,
+   "quasi_OE_riga": 0.0
+  },
+  "lingua: Modern - German - Literary - NT": {
+   "coppie": 8575,
+   "ripetizione": 0.0026822157434402334,
+   "atteso_globale": 0.009353468464237402,
+   "OE_globale": 0.2867616172220577,
+   "atteso_riga": 0.010338192419825074,
+   "OE_riga": 0.25944726452340666,
+   "quasi": 0.004954699886749717,
+   "quasi_atteso_riga": 0.008819146842299133,
+   "quasi_OE_riga": 0.5618117007628867
+  },
+  "lingua: Modern - German - Technical - Voynich Wiki": {
+   "coppie": 4579,
+   "ripetizione": 0.0,
+   "atteso_globale": 0.005447576655828569,
+   "OE_globale": 0.0,
+   "atteso_riga": 0.0035379348838341816,
+   "OE_riga": 0.0,
+   "quasi": 0.0036325895173845357,
+   "quasi_atteso_riga": 0.006744668331561784,
+   "quasi_OE_riga": 0.5385868272255545
+  },
+  "lingua: Modern - Hebrew - Literary - NT": {
+   "coppie": 8760,
+   "ripetizione": 0.0009132420091324201,
+   "atteso_globale": 0.004077368889349504,
+   "OE_globale": 0.2239782648849604,
+   "atteso_riga": 0.0063470319634703195,
+   "OE_riga": 0.14388489208633093,
+   "quasi": 0.012403379471508179,
+   "quasi_atteso_riga": 0.008335038065452485,
+   "quasi_OE_riga": 1.4881011189281037
+  },
+  "lingua: Modern - Hebrew - Technical - Voynich Wiki": {
+   "coppie": 1234,
+   "ripetizione": 0.0008103727714748784,
+   "atteso_globale": 0.003492782053216639,
+   "OE_globale": 0.23201355227091097,
+   "atteso_riga": 0.003487366405740598,
+   "OE_riga": 0.23237385384596054,
+   "quasi": 0.002290950744558992,
+   "quasi_atteso_riga": 0.003250572302615276,
+   "quasi_OE_riga": 0.704783813827426
+  },
+  "lingua: Modern - Italian - Literary - NT": {
+   "coppie": 6994,
+   "ripetizione": 0.002430654847011724,
+   "atteso_globale": 0.004754208129981885,
+   "OE_globale": 0.5112638699351569,
+   "atteso_riga": 0.007682765376730939,
+   "OE_riga": 0.31637759684469,
+   "quasi": 0.0021433674684448677,
+   "quasi_atteso_riga": 0.004068309823881799,
+   "quasi_OE_riga": 0.5268446999446474
+  },
+  "lingua: Modern - Italian - Technical - Voynich Wiki": {
+   "coppie": 2034,
+   "ripetizione": 0.0,
+   "atteso_globale": 0.006790923098340966,
+   "OE_globale": 0.0,
+   "atteso_riga": 0.004044199738432353,
+   "OE_riga": 0.0,
+   "quasi": 0.0008032128514056225,
+   "quasi_atteso_riga": 0.001567596561372322,
+   "quasi_OE_riga": 0.5123849281108817
+  },
+  "lingua: Modern - Maori - Literary - NT": {
+   "coppie": 5822,
+   "ripetizione": 0.0013740982480247338,
+   "atteso_globale": 0.02117635363068856,
+   "OE_globale": 0.06488833120133602,
+   "atteso_riga": 0.025818600532277462,
+   "OE_riga": 0.05322125210879989,
+   "quasi": 0.004728132387706856,
+   "quasi_atteso_riga": 0.006035233431620378,
+   "quasi_OE_riga": 0.7834216259034436
+  },
+  "lingua: Modern - Maori - Technical - Polandball Wiki": {
+   "coppie": 732,
+   "ripetizione": 0.00273224043715847,
+   "atteso_globale": 0.03981964618375495,
+   "OE_globale": 0.06861538710188567,
+   "atteso_riga": 0.028030778748976744,
+   "OE_riga": 0.09747286943493176,
+   "quasi": 0.0033112582781456954,
+   "quasi_atteso_riga": 0.0013643315271043622,
+   "quasi_OE_riga": 2.427018809111201
+  },
+  "lingua: Modern - Portuguese - Technical - Voynich Wiki": {
+   "coppie": 1832,
+   "ripetizione": 0.0,
+   "atteso_globale": 0.007743665050201489,
+   "OE_globale": 0.0,
+   "atteso_riga": 0.006080709672593466,
+   "OE_riga": 0.0,
+   "quasi": 0.0009174311926605505,
+   "quasi_atteso_riga": 0.0012914115604424703,
+   "quasi_OE_riga": 0.7104096174779598
+  },
+  "lingua: Modern - Russian - Technical - Voynich Wiki": {
+   "coppie": 3910,
+   "ripetizione": 0.0010230179028132991,
+   "atteso_globale": 0.0019901414688419288,
+   "OE_globale": 0.5140428049110485,
+   "atteso_riga": 0.0019661820049607192,
+   "OE_riga": 0.5203068181034122,
+   "quasi": 0.0027924294135898233,
+   "quasi_atteso_riga": 0.0019154342728417734,
+   "quasi_OE_riga": 1.457857078774582
+  },
+  "lingua: Modern - Spanish - Technical - Voynich Wiki": {
+   "coppie": 5429,
+   "ripetizione": 0.0001841959845275373,
+   "atteso_globale": 0.012010914579826292,
+   "OE_globale": 0.015335716801859167,
+   "atteso_riga": 0.008140882360837284,
+   "OE_riga": 0.02262604670639079,
+   "quasi": 0.002128414331323164,
+   "quasi_atteso_riga": 0.0019647409823618346,
+   "quasi_OE_riga": 1.0833053061093967
+  },
+  "lingua: Modern - Swahili - Literary - NT": {
+   "coppie": 8293,
+   "ripetizione": 0.002411672494875196,
+   "atteso_globale": 0.005111250182054327,
+   "OE_globale": 0.4718361279482294,
+   "atteso_riga": 0.007066200409984324,
+   "OE_riga": 0.3412969283276451,
+   "quasi": 0.0025493945188017845,
+   "quasi_atteso_riga": 0.002522015220814703,
+   "quasi_OE_riga": 1.0108561192498422
+  },
+  "lingua: Modern - Swahili - Technical - Lung Cancer Wiki": {
+   "coppie": 3647,
+   "ripetizione": 0.0013709898546750755,
+   "atteso_globale": 0.016934786667792093,
+   "OE_globale": 0.0809570195107643,
+   "atteso_riga": 0.015419578004338998,
+   "OE_riga": 0.0889122811460395,
+   "quasi": 0.002026342451874367,
+   "quasi_atteso_riga": 0.0019412248779893237,
+   "quasi_OE_riga": 1.0438473537250388
+  },
+  "lingua: Modern - Tagalog - Literary - NT - Ang Dating Biblia": {
+   "coppie": 8505,
+   "ripetizione": 0.00023515579071134627,
+   "atteso_globale": 0.020408263767187393,
+   "OE_globale": 0.01152257700086335,
+   "atteso_riga": 0.01535267485522802,
+   "OE_riga": 0.015316926394182645,
+   "quasi": 0.0045958367126250335,
+   "quasi_atteso_riga": 0.004485464724655339,
+   "quasi_OE_riga": 1.0246065892265321
+  },
+  "lingua: Modern - Tagalog - Technical - Tuberculosis Wiki": {
+   "coppie": 5169,
+   "ripetizione": 0.0007738440704198104,
+   "atteso_globale": 0.025761177718144044,
+   "OE_globale": 0.030039157327608458,
+   "atteso_riga": 0.01573102736375919,
+   "OE_riga": 0.04919221437517654,
+   "quasi": 0.0,
+   "quasi_atteso_riga": 0.001410510887170525,
+   "quasi_OE_riga": 0.0
+  },
+  "lingua: Modern - Turkish - Literary - NT": {
+   "coppie": 8197,
+   "ripetizione": 0.000609979260705136,
+   "atteso_globale": 0.0020216835193913475,
+   "OE_globale": 0.3017184711921566,
+   "atteso_riga": 0.004409133090539488,
+   "OE_riga": 0.138344488174772,
+   "quasi": 0.0012860817376393256,
+   "quasi_atteso_riga": 0.0015092558856574932,
+   "quasi_OE_riga": 0.8521296818259921
+  },
+  "lingua: Modern - Turkish - Technical - Middle Ages Wiki": {
+   "coppie": 2573,
+   "ripetizione": 0.000777302759424796,
+   "atteso_globale": 0.004420950147897052,
+   "OE_globale": 0.175822557011764,
+   "atteso_riga": 0.002039174611195607,
+   "OE_riga": 0.3811849927697209,
+   "quasi": 0.0,
+   "quasi_atteso_riga": 0.00033823005637816767,
+   "quasi_OE_riga": 0.0
+  },
+  "lingua: Modern - Wolof - Technical - Senegal Wiki": {
+   "coppie": 3728,
+   "ripetizione": 0.002145922746781116,
+   "atteso_globale": 0.008650018516333383,
+   "OE_globale": 0.24808302349053715,
+   "atteso_riga": 0.009725601266650086,
+   "OE_riga": 0.22064679477860843,
+   "quasi": 0.0024154589371980675,
+   "quasi_atteso_riga": 0.0026743549767828715,
+   "quasi_OE_riga": 0.9031930907331366
+  },
+  "lingua: Modern - Yoruba - Technical - Jupiter Wiki": {
+   "coppie": 2598,
+   "ripetizione": 0.001539645881447267,
+   "atteso_globale": 0.008757126997615198,
+   "OE_globale": 0.17581632444825274,
+   "atteso_riga": 0.009271776137095275,
+   "OE_riga": 0.16605727518456004,
+   "quasi": 0.0037678975131876413,
+   "quasi_atteso_riga": 0.008019345696232414,
+   "quasi_OE_riga": 0.4698509898329792
+  },
+  "nordico: AM-519a-4to": {
+   "coppie": 38457,
+   "ripetizione": 0.00013001534181033363,
+   "atteso_globale": 0.00524535312240704,
+   "OE_globale": 0.024786766262682215,
+   "atteso_riga": 0.0056201519766529325,
+   "OE_riga": 0.023133776871237553,
+   "quasi": 0.0017370634485280674,
+   "quasi_atteso_riga": 0.0036698231217515403,
+   "quasi_OE_riga": 0.47333710396892326
+  },
+  "nordico: AM-677-4to": {
+   "coppie": 36001,
+   "ripetizione": 0.00036110108052554094,
+   "atteso_globale": 0.004889147907115635,
+   "OE_globale": 0.07385767159958419,
+   "atteso_riga": 0.007344100513241258,
+   "OE_riga": 0.049168864161715016,
+   "quasi": 0.0017940199335548172,
+   "quasi_atteso_riga": 0.004416149008245575,
+   "quasi_OE_riga": 0.4062408062330162
+  },
+  "nordico: AM-60-4to": {
+   "coppie": 68321,
+   "ripetizione": 0.00026346218585793533,
+   "atteso_globale": 0.006995831118151972,
+   "OE_globale": 0.037659883637604426,
+   "atteso_riga": 0.006001383249910259,
+   "OE_riga": 0.04390024347501469,
+   "quasi": 0.0027648288056582545,
+   "quasi_atteso_riga": 0.003957932979572774,
+   "quasi_OE_riga": 0.6985537198148046
+  },
+  "nordico: AM-242-fol": {
+   "coppie": 49000,
+   "ripetizione": 0.00032653061224489796,
+   "atteso_globale": 0.003745715968056693,
+   "OE_globale": 0.08717441873050097,
+   "atteso_riga": 0.006562841706535749,
+   "OE_riga": 0.04975445498246824,
+   "quasi": 0.0040740176667682,
+   "quasi_atteso_riga": 0.00413694318781268,
+   "quasi_OE_riga": 0.9847893678526074
+  },
+  "nordico: Holm-A-10": {
+   "coppie": 47689,
+   "ripetizione": 0.00048229151376627733,
+   "atteso_globale": 0.006004699731785122,
+   "OE_globale": 0.08031900599680745,
+   "atteso_riga": 0.0065156293212553056,
+   "OE_riga": 0.07402071081498521,
+   "quasi": 0.005415836653386455,
+   "quasi_atteso_riga": 0.007407066157301006,
+   "quasi_OE_riga": 0.7311716323808133
+  },
+  "nordico: AM-302-fol": {
+   "coppie": 41978,
+   "ripetizione": 0.00016675401400733717,
+   "atteso_globale": 0.006769786993771371,
+   "OE_globale": 0.024632091698123047,
+   "atteso_riga": 0.007041634429864279,
+   "OE_riga": 0.023681151821815207,
+   "quasi": 0.003258524943778971,
+   "quasi_atteso_riga": 0.004617364490602146,
+   "quasi_OE_riga": 0.7057110068765721
+  },
+  "tedesco: F001": {
+   "coppie": 4936,
+   "ripetizione": 0.0014181523500810373,
+   "atteso_globale": 0.00651668099474699,
+   "OE_globale": 0.2176188079828046,
+   "atteso_riga": 0.0049648285773684605,
+   "OE_riga": 0.2856397412280264,
+   "quasi": 0.0032458750338111983,
+   "quasi_atteso_riga": 0.006844969940466319,
+   "quasi_OE_riga": 0.4741985811540424
+  },
+  "tedesco: F002": {
+   "coppie": 5210,
+   "ripetizione": 0.0,
+   "atteso_globale": 0.006310684752829563,
+   "OE_globale": 0.0,
+   "atteso_riga": 0.007633556781712237,
+   "OE_riga": 0.0,
+   "quasi": 0.002512562814070352,
+   "quasi_atteso_riga": 0.007073909746566954,
+   "quasi_OE_riga": 0.35518728738230315
+  },
+  "tedesco: F004": {
+   "coppie": 2569,
+   "ripetizione": 0.0,
+   "atteso_globale": 0.0056704914372366555,
+   "OE_globale": 0.0,
+   "atteso_riga": 0.004340210198520825,
+   "OE_riga": 0.0,
+   "quasi": 0.0037968675842429997,
+   "quasi_atteso_riga": 0.004932121598542336,
+   "quasi_OE_riga": 0.7698244068769807
+  },
+  "tedesco: F005": {
+   "coppie": 3174,
+   "ripetizione": 0.001575299306868305,
+   "atteso_globale": 0.01227496514033082,
+   "OE_globale": 0.1283343202085745,
+   "atteso_riga": 0.013009338335665544,
+   "OE_riga": 0.12108988683533337,
+   "quasi": 0.002543450614667232,
+   "quasi_atteso_riga": 0.005626453580235295,
+   "quasi_OE_riga": 0.4520521814312856
+  },
+  "tedesco: F007": {
+   "coppie": 4111,
+   "ripetizione": 0.0007297494526879105,
+   "atteso_globale": 0.0044912476849940175,
+   "OE_globale": 0.16248256695486224,
+   "atteso_riga": 0.010922112034029857,
+   "OE_riga": 0.06681395049000059,
+   "quasi": 0.005592272496187087,
+   "quasi_atteso_riga": 0.007244016937529533,
+   "quasi_OE_riga": 0.7719850111358588
+  },
+  "tedesco: F008": {
+   "coppie": 4765,
+   "ripetizione": 0.0004197271773347324,
+   "atteso_globale": 0.005022600912719166,
+   "OE_globale": 0.08356769423424047,
+   "atteso_riga": 0.0033367255494907624,
+   "OE_riga": 0.12579014099580035,
+   "quasi": 0.0039347948285553686,
+   "quasi_atteso_riga": 0.005563254348527125,
+   "quasi_OE_riga": 0.7072829286687401
+  },
+  "tedesco: F019": {
+   "coppie": 5307,
+   "ripetizione": 0.0003768607499528924,
+   "atteso_globale": 0.005921687685402905,
+   "OE_globale": 0.06364076762809744,
+   "atteso_riga": 0.0065058765865042174,
+   "OE_riga": 0.057926206398481624,
+   "quasi": 0.002535496957403651,
+   "quasi_atteso_riga": 0.008080453274441542,
+   "quasi_OE_riga": 0.3137815257744789
+  },
+  "tedesco: F021": {
+   "coppie": 5005,
+   "ripetizione": 0.0,
+   "atteso_globale": 0.0053460960845516685,
+   "OE_globale": 0.0,
+   "atteso_riga": 0.002169038543249294,
+   "OE_riga": 0.0,
+   "quasi": 0.005770340450086555,
+   "quasi_atteso_riga": 0.007158574738132912,
+   "quasi_OE_riga": 0.8060739268877937
+  },
+  "tedesco: F022": {
+   "coppie": 5612,
+   "ripetizione": 0.0,
+   "atteso_globale": 0.009494961539121176,
+   "OE_globale": 0.0,
+   "atteso_riga": 0.009132216678545973,
+   "OE_riga": 0.0,
+   "quasi": 0.0052732502396931925,
+   "quasi_atteso_riga": 0.008281336402693797,
+   "quasi_OE_riga": 0.6367631965751183
+  },
+  "tedesco: F024": {
+   "coppie": 4889,
+   "ripetizione": 0.0010227040294538761,
+   "atteso_globale": 0.005916805231326741,
+   "OE_globale": 0.1728473372824801,
+   "atteso_riga": 0.0033655521078438987,
+   "OE_riga": 0.3038740737575623,
+   "quasi": 0.005936479667557139,
+   "quasi_atteso_riga": 0.008823637140763304,
+   "quasi_OE_riga": 0.6727928146695743
+  },
+  "tedesco: F025": {
+   "coppie": 4534,
+   "ripetizione": 0.0006616674018526688,
+   "atteso_globale": 0.006608724035613191,
+   "OE_globale": 0.10012029527743413,
+   "atteso_riga": 0.0027341601447329242,
+   "OE_riga": 0.24200023657257325,
+   "quasi": 0.0019065776930409914,
+   "quasi_atteso_riga": 0.004370153792809785,
+   "quasi_OE_riga": 0.43627244793487224
+  },
+  "tedesco: F027": {
+   "coppie": 5470,
+   "ripetizione": 0.00036563071297989033,
+   "atteso_globale": 0.0034316299530557245,
+   "OE_globale": 0.1065472437243157,
+   "atteso_riga": 0.0018743973594743393,
+   "OE_riga": 0.1950657426675146,
+   "quasi": 0.004411423264453216,
+   "quasi_atteso_riga": 0.006919399488767141,
+   "quasi_OE_riga": 0.6375442365503914
+  },
+  "tedesco: F040": {
+   "coppie": 5083,
+   "ripetizione": 0.0,
+   "atteso_globale": 0.012690834552966913,
+   "OE_globale": 0.0,
+   "atteso_riga": 0.015598429525606503,
+   "OE_riga": 0.0,
+   "quasi": 0.002669902912621359,
+   "quasi_atteso_riga": 0.006330247667898085,
+   "quasi_OE_riga": 0.42176910804942996
+  },
+  "tedesco: F045": {
+   "coppie": 5678,
+   "ripetizione": 0.0038746037337090526,
+   "atteso_globale": 0.0048037731131300035,
+   "OE_globale": 0.8065750905509502,
+   "atteso_riga": 0.006297256651170757,
+   "OE_riga": 0.6152843926074864,
+   "quasi": 0.004476657429119591,
+   "quasi_atteso_riga": 0.008588514874991062,
+   "quasi_OE_riga": 0.5212376638195261
+  },
+  "tedesco: F046": {
+   "coppie": 4900,
+   "ripetizione": 0.0008163265306122449,
+   "atteso_globale": 0.007113374597087826,
+   "OE_globale": 0.11475939014183849,
+   "atteso_riga": 0.004683673469387755,
+   "OE_riga": 0.17429193899782133,
+   "quasi": 0.0038366675801589476,
+   "quasi_atteso_riga": 0.0063513585626675285,
+   "quasi_OE_riga": 0.6040703799515253
+  },
+  "tedesco: F048": {
+   "coppie": 4902,
+   "ripetizione": 0.0006119951040391676,
+   "atteso_globale": 0.003479977702872329,
+   "OE_globale": 0.1758617888654961,
+   "atteso_riga": 0.0015503669573330317,
+   "OE_riga": 0.39474209711740266,
+   "quasi": 0.006595218466611707,
+   "quasi_atteso_riga": 0.0059444607813230336,
+   "quasi_OE_riga": 1.1094729546089859
+  },
+  "tedesco: F065": {
+   "coppie": 5520,
+   "ripetizione": 0.0005434782608695652,
+   "atteso_globale": 0.004574371965724209,
+   "OE_globale": 0.11880937207158719,
+   "atteso_riga": 0.006530795804434203,
+   "OE_riga": 0.0832177696476991,
+   "quasi": 0.010439970171513796,
+   "quasi_atteso_riga": 0.011327977417441668,
+   "quasi_OE_riga": 0.921609373570907
+  },
+  "tedesco: F067": {
+   "coppie": 5409,
+   "ripetizione": 0.001294139397300795,
+   "atteso_globale": 0.0071757810499063195,
+   "OE_globale": 0.1803482280605106,
+   "atteso_riga": 0.006277458431437303,
+   "OE_riga": 0.20615658573217913,
+   "quasi": 0.0032458750338111983,
+   "quasi_atteso_riga": 0.009455194974789775,
+   "quasi_OE_riga": 0.34329012172309714
+  },
+  "tedesco: F069": {
+   "coppie": 5006,
+   "ripetizione": 0.001797842588893328,
+   "atteso_globale": 0.003566737152377291,
+   "OE_globale": 0.5040580542064994,
+   "atteso_riga": 0.0022758302207423415,
+   "OE_riga": 0.7899721923487328,
+   "quasi": 0.005325112107623318,
+   "quasi_atteso_riga": 0.008574531225616716,
+   "quasi_OE_riga": 0.621038278071034
+  },
+  "tedesco: F070": {
+   "coppie": 5514,
+   "ripetizione": 0.000544069640914037,
+   "atteso_globale": 0.009755849922803735,
+   "OE_globale": 0.05576855376201572,
+   "atteso_riga": 0.011790313803736623,
+   "OE_riga": 0.04614547585167825,
+   "quasi": 0.005741626794258373,
+   "quasi_atteso_riga": 0.00945247817012129,
+   "quasi_OE_riga": 0.6074202649213523
+  },
+  "tedesco: F071": {
+   "coppie": 5469,
+   "ripetizione": 0.0,
+   "atteso_globale": 0.00646579978146367,
+   "OE_globale": 0.0,
+   "atteso_riga": 0.006691806323376527,
+   "OE_riga": 0.0,
+   "quasi": 0.005034965034965035,
+   "quasi_atteso_riga": 0.00935123708274816,
+   "quasi_OE_riga": 0.5384276957595164
+  },
+  "tedesco: F089": {
+   "coppie": 5203,
+   "ripetizione": 0.00019219680953296174,
+   "atteso_globale": 0.006674969269272207,
+   "OE_globale": 0.02879366207987315,
+   "atteso_riga": 0.004960466333213813,
+   "OE_riga": 0.03874571393541548,
+   "quasi": 0.003127443315089914,
+   "quasi_atteso_riga": 0.008550059462789437,
+   "quasi_OE_riga": 0.3657802999734452
+  },
+  "tedesco: F091": {
+   "coppie": 5343,
+   "ripetizione": 0.0007486430844095078,
+   "atteso_globale": 0.007305485497796301,
+   "OE_globale": 0.10247684218048697,
+   "atteso_riga": 0.009268767442805335,
+   "OE_riga": 0.08077051118491754,
+   "quasi": 0.003633720930232558,
+   "quasi_atteso_riga": 0.011298093150239599,
+   "quasi_OE_riga": 0.32162249699237944
+  },
+  "tedesco: F092": {
+   "coppie": 5419,
+   "ripetizione": 0.0009226794611551947,
+   "atteso_globale": 0.005996372799157375,
+   "OE_globale": 0.1538729315303498,
+   "atteso_riga": 0.007100896633482672,
+   "OE_riga": 0.12993844422470655,
+   "quasi": 0.002773575390821987,
+   "quasi_atteso_riga": 0.005798444448276297,
+   "quasi_OE_riga": 0.47833094126589204
+  },
+  "tedesco: F096": {
+   "coppie": 4632,
+   "ripetizione": 0.0,
+   "atteso_globale": 0.0035573431014586107,
+   "OE_globale": 0.0,
+   "atteso_riga": 0.0009939615682959858,
+   "OE_riga": 0.0,
+   "quasi": 0.009876543209876543,
+   "quasi_atteso_riga": 0.010191284219418686,
+   "quasi_OE_riga": 0.9691166488181706
+  },
+  "tedesco: F113": {
+   "coppie": 5621,
+   "ripetizione": 0.0014232342999466287,
+   "atteso_globale": 0.010691441944513198,
+   "OE_globale": 0.13311902242307236,
+   "atteso_riga": 0.013056933192582531,
+   "OE_riga": 0.10900218902514942,
+   "quasi": 0.011489173663278833,
+   "quasi_atteso_riga": 0.01595637201562557,
+   "quasi_OE_riga": 0.7200367133598946
+  },
+  "tedesco: F115": {
+   "coppie": 5606,
+   "ripetizione": 0.0007135212272565109,
+   "atteso_globale": 0.0065198825977228975,
+   "OE_globale": 0.10943774164057982,
+   "atteso_riga": 0.006252527433043405,
+   "OE_riga": 0.11411724856826512,
+   "quasi": 0.0076148366494718745,
+   "quasi_atteso_riga": 0.00794332198554487,
+   "quasi_OE_riga": 0.9586463526631845
+  },
+  "tedesco: F116": {
+   "coppie": 5152,
+   "ripetizione": 0.00019409937888198756,
+   "atteso_globale": 0.009931166850251328,
+   "OE_globale": 0.019544468621738594,
+   "atteso_riga": 0.009035326086956522,
+   "OE_riga": 0.021482277121374866,
+   "quasi": 0.003279515640766902,
+   "quasi_atteso_riga": 0.00890869260607555,
+   "quasi_OE_riga": 0.36812535641092137
+  },
+  "tedesco: F118": {
+   "coppie": 4976,
+   "ripetizione": 0.0006028938906752412,
+   "atteso_globale": 0.006305382928759553,
+   "OE_globale": 0.09561574570283038,
+   "atteso_riga": 0.0032936646138427904,
+   "OE_riga": 0.18304653368207752,
+   "quasi": 0.0033013205282112846,
+   "quasi_atteso_riga": 0.0059094352259773724,
+   "quasi_OE_riga": 0.5586524603398582
+  },
+  "tedesco: F120": {
+   "coppie": 4990,
+   "ripetizione": 0.005410821643286573,
+   "atteso_globale": 0.007980422215834691,
+   "OE_globale": 0.6780119518677173,
+   "atteso_riga": 0.010622891727725051,
+   "OE_riga": 0.5093548707801175,
+   "quasi": 0.0017386264850767893,
+   "quasi_atteso_riga": 0.005799648300722994,
+   "quasi_OE_riga": 0.29978136516658244
+  },
+  "tedesco: F133": {
+   "coppie": 5211,
+   "ripetizione": 0.00019190174630589137,
+   "atteso_globale": 0.006061899425408023,
+   "OE_globale": 0.03165703236539174,
+   "atteso_riga": 0.006758562107894158,
+   "OE_riga": 0.02839387183876666,
+   "quasi": 0.003107074569789675,
+   "quasi_atteso_riga": 0.0056771463807054,
+   "quasi_OE_riga": 0.5472951305869999
+  },
+  "tedesco: F137": {
+   "coppie": 5044,
+   "ripetizione": 0.00019825535289452815,
+   "atteso_globale": 0.006817153642510388,
+   "OE_globale": 0.02908183727270689,
+   "atteso_riga": 0.004393877409279435,
+   "OE_riga": 0.04512082027501096,
+   "quasi": 0.002465483234714004,
+   "quasi_atteso_riga": 0.007588662849561116,
+   "quasi_OE_riga": 0.32489033754564456
+  },
+  "tedesco: F138": {
+   "coppie": 4960,
+   "ripetizione": 0.0012096774193548388,
+   "atteso_globale": 0.004726172070040117,
+   "OE_globale": 0.2559528941028528,
+   "atteso_riga": 0.0018363924638648505,
+   "OE_riga": 0.6587248876032553,
+   "quasi": 0.007806191117092867,
+   "quasi_atteso_riga": 0.007868043874198894,
+   "quasi_OE_riga": 0.9921387376462331
+  },
+  "tedesco: F240": {
+   "coppie": 4010,
+   "ripetizione": 0.001745635910224439,
+   "atteso_globale": 0.003981950386058556,
+   "OE_globale": 0.4383871572926144,
+   "atteso_riga": 0.00529815816782374,
+   "OE_riga": 0.32947976540713064,
+   "quasi": 0.012043010752688172,
+   "quasi_atteso_riga": 0.008653806461063104,
+   "quasi_OE_riga": 1.391643181168245
+  },
+  "tedesco: F241": {
+   "coppie": 5176,
+   "ripetizione": 0.0,
+   "atteso_globale": 0.008498055493958998,
+   "OE_globale": 0.0,
+   "atteso_riga": 0.0066461392326248305,
+   "OE_riga": 0.0,
+   "quasi": 0.004558862965942612,
+   "quasi_atteso_riga": 0.008192028756878267,
+   "quasi_OE_riga": 0.5564998733817745
+  },
+  "tedesco: F243": {
+   "coppie": 5070,
+   "ripetizione": 0.0001972386587771203,
+   "atteso_globale": 0.003942718919328958,
+   "OE_globale": 0.05002605126380399,
+   "atteso_riga": 0.0014705846557440097,
+   "OE_riga": 0.13412261443550272,
+   "quasi": 0.008529854490717512,
+   "quasi_atteso_riga": 0.011061880529496412,
+   "quasi_OE_riga": 0.7711034726846603
+  },
+  "tedesco: F245": {
+   "coppie": 5460,
+   "ripetizione": 0.0,
+   "atteso_globale": 0.007327037985410004,
+   "OE_globale": 0.0,
+   "atteso_riga": 0.005155677655677655,
+   "OE_riga": 0.0,
+   "quasi": 0.001999428734647244,
+   "quasi_atteso_riga": 0.006928445630312147,
+   "quasi_OE_riga": 0.28858258278013843
+  },
+  "tedesco: F246": {
+   "coppie": 5420,
+   "ripetizione": 0.00036900369003690036,
+   "atteso_globale": 0.004621479943476092,
+   "OE_globale": 0.07984535139177745,
+   "atteso_riga": 0.004510699162503848,
+   "OE_riga": 0.08180631798820069,
+   "quasi": 0.003088008234688626,
+   "quasi_atteso_riga": 0.00938948907853262,
+   "quasi_OE_riga": 0.3288792615722619
+  },
+  "tedesco: F259": {
+   "coppie": 5183,
+   "ripetizione": 0.0009646922631680494,
+   "atteso_globale": 0.005570520527116979,
+   "OE_globale": 0.17317811835931346,
+   "atteso_riga": 0.006023800488877819,
+   "OE_riga": 0.16014678191105947,
+   "quasi": 0.004708652148322542,
+   "quasi_atteso_riga": 0.008067988227089089,
+   "quasi_OE_riga": 0.5836215938581523
+  },
+  "tedesco: F260": {
+   "coppie": 5116,
+   "ripetizione": 0.0017591868647380765,
+   "atteso_globale": 0.006854258921777255,
+   "OE_globale": 0.25665602726923736,
+   "atteso_riga": 0.007242331811310543,
+   "OE_riga": 0.24290337843824103,
+   "quasi": 0.0026208503203261502,
+   "quasi_atteso_riga": 0.010831750754118163,
+   "quasi_OE_riga": 0.24195999149350067
+  },
+  "tedesco: F262": {
+   "coppie": 5445,
+   "ripetizione": 0.0005509641873278236,
+   "atteso_globale": 0.007051248796383642,
+   "OE_globale": 0.07813710780002478,
+   "atteso_riga": 0.007763031802268466,
+   "OE_riga": 0.07097281079884592,
+   "quasi": 0.0038185085354896678,
+   "quasi_atteso_riga": 0.006736638382229339,
+   "quasi_OE_riga": 0.566827001663405
+  },
+  "tedesco: F264": {
+   "coppie": 5036,
+   "ripetizione": 0.0007942811755361397,
+   "atteso_globale": 0.005154985990549444,
+   "OE_globale": 0.1540801812055907,
+   "atteso_riga": 0.0029621876769299104,
+   "OE_riga": 0.26814005801258134,
+   "quasi": 0.009577970667464832,
+   "quasi_atteso_riga": 0.009098359510252868,
+   "quasi_OE_riga": 1.0527140257176575
+  },
+  "tedesco: F280": {
+   "coppie": 5207,
+   "ripetizione": 0.0003840983291722681,
+   "atteso_globale": 0.006530131132722357,
+   "OE_globale": 0.058819389896714175,
+   "atteso_riga": 0.005838715172409336,
+   "OE_riga": 0.06578473479701709,
+   "quasi": 0.0052647878600185815,
+   "quasi_atteso_riga": 0.012125198262648434,
+   "quasi_OE_riga": 0.43420220815990396
+  },
+  "tedesco: F281": {
+   "coppie": 5044,
+   "ripetizione": 0.0011895321173671688,
+   "atteso_globale": 0.008717357560262966,
+   "OE_globale": 0.13645558406248115,
+   "atteso_riga": 0.009388396465661378,
+   "OE_riga": 0.12670237369266985,
+   "quasi": 0.0014889815366289458,
+   "quasi_atteso_riga": 0.010374684429153156,
+   "quasi_OE_riga": 0.14352065807851136
+  },
+  "tedesco: F283": {
+   "coppie": 5565,
+   "ripetizione": 0.00035938903863432165,
+   "atteso_globale": 0.0043216857337890855,
+   "OE_globale": 0.08315945692775382,
+   "atteso_riga": 0.006915238240942366,
+   "OE_riga": 0.05197059394230594,
+   "quasi": 0.0015521064301552106,
+   "quasi_atteso_riga": 0.01101848200038369,
+   "quasi_OE_riga": 0.14086390757830006
+  },
+  "tedesco: F286": {
+   "coppie": 4680,
+   "ripetizione": 0.0,
+   "atteso_globale": 0.005934552188950949,
+   "OE_globale": 0.0,
+   "atteso_riga": 0.0033765457079077675,
+   "OE_riga": 0.0,
+   "quasi": 0.006791171477079796,
+   "quasi_atteso_riga": 0.007717012196047194,
+   "quasi_OE_riga": 0.8800260132488023
+  },
+  "tedesco: F304": {
+   "coppie": 4815,
+   "ripetizione": 0.0010384215991692627,
+   "atteso_globale": 0.006036302066775084,
+   "OE_globale": 0.17202942922371728,
+   "atteso_riga": 0.006642129212850701,
+   "OE_riga": 0.15633866278304273,
+   "quasi": 0.007871631849833485,
+   "quasi_atteso_riga": 0.010821910377683638,
+   "quasi_OE_riga": 0.7273791387208253
+  },
+  "tedesco: F306": {
+   "coppie": 4956,
+   "ripetizione": 0.0004035512510088781,
+   "atteso_globale": 0.0033968847150433698,
+   "OE_globale": 0.11880039649909807,
+   "atteso_riga": 0.0016858022334966293,
+   "OE_riga": 0.239382320767156,
+   "quasi": 0.003274784161952962,
+   "quasi_atteso_riga": 0.0066608279510489725,
+   "quasi_OE_riga": 0.49164821340825005
+  },
+  "tedesco: F308": {
+   "coppie": 5508,
+   "ripetizione": 0.0019970951343500363,
+   "atteso_globale": 0.008936504157681883,
+   "OE_globale": 0.2234761042027065,
+   "atteso_riga": 0.007554563102235339,
+   "OE_riga": 0.26435613910738404,
+   "quasi": 0.007872137404580152,
+   "quasi_atteso_riga": 0.01029228197292051,
+   "quasi_OE_riga": 0.7648583108480825
+  },
+  "tedesco: F309": {
+   "coppie": 2191,
+   "ripetizione": 0.00045641259698767686,
+   "atteso_globale": 0.007260267575882216,
+   "OE_globale": 0.06286443195342106,
+   "atteso_riga": 0.004841029070709461,
+   "OE_riga": 0.09428007771099561,
+   "quasi": 0.004736530491415038,
+   "quasi_atteso_riga": 0.008948488154508334,
+   "quasi_OE_riga": 0.529310695799349
+  },
+  "tedesco: F310": {
+   "coppie": 4686,
+   "ripetizione": 0.0,
+   "atteso_globale": 0.007513101541960744,
+   "OE_globale": 0.0,
+   "atteso_riga": 0.0048406861232896895,
+   "OE_riga": 0.0,
+   "quasi": 0.007636016544702514,
+   "quasi_atteso_riga": 0.008247125646989172,
+   "quasi_OE_riga": 0.9259003526265228
+  },
+  "tedesco: F312": {
+   "coppie": 4934,
+   "ripetizione": 0.00020267531414673692,
+   "atteso_globale": 0.003850059663014782,
+   "OE_globale": 0.05264212295038369,
+   "atteso_riga": 0.0010273201157357545,
+   "OE_riga": 0.1972854527447691,
+   "quasi": 0.006425233644859813,
+   "quasi_atteso_riga": 0.007198819964311518,
+   "quasi_OE_riga": 0.8925398435734196
+  },
+  "tedesco: F329": {
+   "coppie": 5050,
+   "ripetizione": 0.0,
+   "atteso_globale": 0.004638166419471285,
+   "OE_globale": 0.0,
+   "atteso_riga": 0.0030678668331708256,
+   "OE_riga": 0.0,
+   "quasi": 0.0029798857710454435,
+   "quasi_atteso_riga": 0.0052835512281843005,
+   "quasi_OE_riga": 0.5639929741098555
+  },
+  "tedesco: F332": {
+   "coppie": 5444,
+   "ripetizione": 0.0011021307861866275,
+   "atteso_globale": 0.007676034835833538,
+   "OE_globale": 0.1435807431516102,
+   "atteso_riga": 0.008264055176291384,
+   "OE_riga": 0.13336440315022496,
+   "quasi": 0.0021903139449987834,
+   "quasi_atteso_riga": 0.008158731752572292,
+   "quasi_OE_riga": 0.26846255170826266
+  },
+  "tedesco: F064": {
+   "coppie": 5107,
+   "ripetizione": 0.00019580967299784609,
+   "atteso_globale": 0.007426793126253322,
+   "OE_globale": 0.026365305949571857,
+   "atteso_riga": 0.004523493284893341,
+   "OE_riga": 0.043287269520609684,
+   "quasi": 0.004672897196261682,
+   "quasi_atteso_riga": 0.007159947298477381,
+   "quasi_OE_riga": 0.6526440770388646
+  },
+  "tedesco: F088": {
+   "coppie": 4956,
+   "ripetizione": 0.0006053268765133172,
+   "atteso_globale": 0.007147128696376509,
+   "OE_globale": 0.0846951135524129,
+   "atteso_riga": 0.006044834330495896,
+   "OE_riga": 0.10013953127871056,
+   "quasi": 0.002956636005256242,
+   "quasi_atteso_riga": 0.00871512556088984,
+   "quasi_OE_riga": 0.33925340313219315
+  },
+  "tedesco: F094": {
+   "coppie": 5719,
+   "ripetizione": 0.000699422976044763,
+   "atteso_globale": 0.009141437608568335,
+   "OE_globale": 0.07651126726382608,
+   "atteso_riga": 0.007754269943443343,
+   "OE_riga": 0.09019843017409565,
+   "quasi": 0.004939626783754116,
+   "quasi_atteso_riga": 0.007170175019550163,
+   "quasi_OE_riga": 0.6889130000712332
+  },
+  "tedesco: F112": {
+   "coppie": 5279,
+   "ripetizione": 0.00018942981625307822,
+   "atteso_globale": 0.010700524084927783,
+   "OE_globale": 0.017702854061129536,
+   "atteso_riga": 0.0077661565231153164,
+   "OE_riga": 0.02439170723500823,
+   "quasi": 0.005664877757901014,
+   "quasi_atteso_riga": 0.00767798962630942,
+   "quasi_OE_riga": 0.7378074253304183
+  },
+  "tedesco: F131": {
+   "coppie": 5852,
+   "ripetizione": 0.000683526999316473,
+   "atteso_globale": 0.0070474415766892595,
+   "OE_globale": 0.09698938144834962,
+   "atteso_riga": 0.007073763435319195,
+   "OE_riga": 0.09662847868273809,
+   "quasi": 0.005562579013906448,
+   "quasi_atteso_riga": 0.008904262251055483,
+   "quasi_OE_riga": 0.6247097016091453
+  },
+  "tedesco: F154": {
+   "coppie": 5898,
+   "ripetizione": 0.0013563919972872161,
+   "atteso_globale": 0.0077247946705360625,
+   "OE_globale": 0.17558939171040636,
+   "atteso_riga": 0.008293530348808874,
+   "OE_riga": 0.16354820447266133,
+   "quasi": 0.0037519311410284706,
+   "quasi_atteso_riga": 0.01009721872976512,
+   "quasi_OE_riga": 0.371580654182357
+  },
+  "tedesco: F155": {
+   "coppie": 4567,
+   "ripetizione": 0.0021896211955331727,
+   "atteso_globale": 0.006503749340827148,
+   "OE_globale": 0.3366706004162664,
+   "atteso_riga": 0.003823801221071334,
+   "OE_riga": 0.5726294514126692,
+   "quasi": 0.0030511060259344014,
+   "quasi_atteso_riga": 0.0063827092495513885,
+   "quasi_OE_riga": 0.4780267918594051
+  },
+  "tedesco: F159": {
+   "coppie": 5031,
+   "ripetizione": 0.00019876764062810574,
+   "atteso_globale": 0.004382806495936424,
+   "OE_globale": 0.045351680666804645,
+   "atteso_riga": 0.002395310225779403,
+   "OE_riga": 0.08298200311962904,
+   "quasi": 0.0066685190330647405,
+   "quasi_atteso_riga": 0.007691603385127217,
+   "quasi_OE_riga": 0.8669868555572233
+  },
+  "tedesco: F161": {
+   "coppie": 4818,
+   "ripetizione": 0.0010377750103777502,
+   "atteso_globale": 0.004563528405512515,
+   "OE_globale": 0.2274062782482453,
+   "atteso_riga": 0.005157244881450356,
+   "OE_riga": 0.2012266305426823,
+   "quasi": 0.006264236902050114,
+   "quasi_atteso_riga": 0.00828585133424733,
+   "quasi_OE_riga": 0.7560160868634682
+  },
+  "tedesco: F175": {
+   "coppie": 5014,
+   "ripetizione": 0.0015955325089748703,
+   "atteso_globale": 0.007617650932296202,
+   "OE_globale": 0.2094520375317232,
+   "atteso_riga": 0.006761313965301665,
+   "OE_riga": 0.23597965087303613,
+   "quasi": 0.0033444816053511705,
+   "quasi_atteso_riga": 0.005718138954903379,
+   "quasi_OE_riga": 0.5848898796842343
+  },
+  "tedesco: F181": {
+   "coppie": 3247,
+   "ripetizione": 0.0009239297813366184,
+   "atteso_globale": 0.006226201238220469,
+   "OE_globale": 0.1483938192785895,
+   "atteso_riga": 0.00679065377640219,
+   "OE_riga": 0.1360590322757013,
+   "quasi": 0.0078125,
+   "quasi_atteso_riga": 0.0070092673300040965,
+   "quasi_OE_riga": 1.1145958104005478
+  },
+  "tedesco: F201": {
+   "coppie": 5063,
+   "ripetizione": 0.0009875567845151097,
+   "atteso_globale": 0.004816226462013831,
+   "OE_globale": 0.20504782993575807,
+   "atteso_riga": 0.0017082957942043246,
+   "OE_riga": 0.578094723329273,
+   "quasi": 0.009556676400318556,
+   "quasi_atteso_riga": 0.011456431523537727,
+   "quasi_OE_riga": 0.8341756663655657
+  },
+  "tedesco: F202": {
+   "coppie": 5068,
+   "ripetizione": 0.0003946329913180742,
+   "atteso_globale": 0.004701476271210718,
+   "OE_globale": 0.08393810125866036,
+   "atteso_riga": 0.0033834271297550045,
+   "OE_riga": 0.11663705946185096,
+   "quasi": 0.0037413148049171567,
+   "quasi_atteso_riga": 0.005136597911558428,
+   "quasi_OE_riga": 0.7283643511395762
+  },
+  "tedesco: F203": {
+   "coppie": 5450,
+   "ripetizione": 0.0005504587155963303,
+   "atteso_globale": 0.0066311285993256785,
+   "OE_globale": 0.08301131660337678,
+   "atteso_riga": 0.006641596939685753,
+   "OE_riga": 0.08288047597516136,
+   "quasi": 0.0043859649122807015,
+   "quasi_atteso_riga": 0.007258884417532706,
+   "quasi_OE_riga": 0.6042202437728703
+  },
+  "tedesco: F215": {
+   "coppie": 5079,
+   "ripetizione": 0.0,
+   "atteso_globale": 0.006083067610097384,
+   "OE_globale": 0.0,
+   "atteso_riga": 0.007680957265090206,
+   "OE_riga": 0.0,
+   "quasi": 0.0037418147801683817,
+   "quasi_atteso_riga": 0.0087736688247063,
+   "quasi_OE_riga": 0.42648233651486606
+  },
+  "tedesco: F216": {
+   "coppie": 5341,
+   "ripetizione": 0.0003744617112900206,
+   "atteso_globale": 0.00428715221460548,
+   "OE_globale": 0.08734509355984693,
+   "atteso_riga": 0.003021202387805482,
+   "OE_riga": 0.12394459662863543,
+   "quasi": 0.00551844321812373,
+   "quasi_atteso_riga": 0.009506938281435381,
+   "quasi_OE_riga": 0.5804648199830894
+  },
+  "tedesco: F218": {
+   "coppie": 5996,
+   "ripetizione": 0.0001667778519012675,
+   "atteso_globale": 0.008076868720657038,
+   "OE_globale": 0.020648825388819795,
+   "atteso_riga": 0.009548032021347564,
+   "OE_riga": 0.017467248908296942,
+   "quasi": 0.010767468499427262,
+   "quasi_atteso_riga": 0.011172404380977427,
+   "quasi_OE_riga": 0.9637557084632897
+  },
+  "tedesco: F219": {
+   "coppie": 5555,
+   "ripetizione": 0.00036003600360036,
+   "atteso_globale": 0.0063943421205184415,
+   "OE_globale": 0.05630540199672159,
+   "atteso_riga": 0.00556273948029319,
+   "OE_riga": 0.06472278719430231,
+   "quasi": 0.007042253521126761,
+   "quasi_atteso_riga": 0.01587032844277664,
+   "quasi_OE_riga": 0.443737100118557
+  },
+  "tedesco: F220": {
+   "coppie": 4880,
+   "ripetizione": 0.00020491803278688525,
+   "atteso_globale": 0.007601361472986475,
+   "OE_globale": 0.02695806975041481,
+   "atteso_riga": 0.0035138132229089384,
+   "OE_riga": 0.05831785009256759,
+   "quasi": 0.009449244060475162,
+   "quasi_atteso_riga": 0.010124759765876604,
+   "quasi_OE_riga": 0.933280816431998
+  },
+  "Copiale (cifrato)": {
+   "coppie": 9032,
+   "ripetizione": 0.0,
+   "atteso_globale": 0.0006524089955156201,
+   "OE_globale": 0.0,
+   "atteso_riga": 0.0003159612243009785,
+   "OE_riga": 0.0,
+   "quasi": 0.0004013646397752358,
+   "quasi_atteso_riga": 0.0011649845092193305,
+   "quasi_OE_riga": 0.34452358516268583
+  },
+  "gibberish umano": {
+   "coppie": 7536,
+   "ripetizione": 0.0050424628450106155,
+   "atteso_globale": 0.0003693718282354974,
+   "OE_globale": 13.651454874343404,
+   "atteso_riga": 0.005935776920528657,
+   "OE_riga": 0.8495034285354376,
+   "quasi": 0.007273342354533153,
+   "quasi_atteso_riga": 0.005593926868912569,
+   "quasi_OE_riga": 1.3002212086385487
+  },
+  "generatore: Naibbe (Greshko 2025), a capo": {
+   "coppie": 29543,
+   "ripetizione": 0.0012862607047354703,
+   "atteso_globale": 0.00423791689519075,
+   "OE_globale": 0.3035124889294402,
+   "atteso_riga": 0.0031288990669244825,
+   "OE_riga": 0.41109050730734703,
+   "quasi": 0.013635134613156167,
+   "quasi_atteso_riga": 0.01598766958283011,
+   "quasi_OE_riga": 0.8528531655294879
+  },
+  "generatore: U2 (Whitehatnetizen 2026)": {
+   "coppie": 19020,
+   "ripetizione": 0.00473186119873817,
+   "atteso_globale": 0.0029416955124617,
+   "OE_globale": 1.6085489401241277,
+   "atteso_riga": 0.010313490241950947,
+   "OE_riga": 0.458803090683205,
+   "quasi": 0.01479328165374677,
+   "quasi_atteso_riga": 0.022032849683737317,
+   "quasi_OE_riga": 0.6714193518356298
+  },
+  "generatore: U3 (Whitehatnetizen 2026)": {
+   "coppie": 19061,
+   "ripetizione": 0.008079324274697026,
+   "atteso_globale": 0.0025392396258984607,
+   "OE_globale": 3.181788828550718,
+   "atteso_riga": 0.008035985244147049,
+   "OE_riga": 1.0053931197274837,
+   "quasi": 0.017195591554906388,
+   "quasi_atteso_riga": 0.01822080235856225,
+   "quasi_OE_riga": 0.9437340473003869
+  },
+  "generatore: Timm e Schinner, seme 1": {
+   "coppie": 30836,
+   "ripetizione": 0.011480088208587366,
+   "atteso_globale": 0.005651803051835317,
+   "OE_globale": 2.0312258058708226,
+   "atteso_riga": 0.014042670771811068,
+   "OE_riga": 0.8175145878683012,
+   "quasi": 0.06632935073770144,
+   "quasi_atteso_riga": 0.04947613974706906,
+   "quasi_OE_riga": 1.3406331026791707
+  }
+ },
+ "lingue": {
+  "Anglo-Saxon": {
+   "ripetizione": 0.003023117960877297,
+   "OE_globale": 0.4670707143538978,
+   "OE_riga": 0.24891695146834275,
+   "quasi_OE_riga": 0.6641934036009762
+  },
+  "Arabic": {
+   "ripetizione": 0.00040365807590699037,
+   "OE_globale": 0.12899895316012827,
+   "OE_riga": 0.06178034884833215,
+   "quasi_OE_riga": 0.2579609967085289
+  },
+  "Chinese": {
+   "ripetizione": 0.003950402376725696,
+   "OE_globale": 0.45815057734925,
+   "OE_riga": 0.3766854535056598,
+   "quasi_OE_riga": 0.8886628901918521
+  },
+  "English": {
+   "ripetizione": 0.0011879982501740837,
+   "OE_globale": 0.08644431282323087,
+   "OE_riga": 0.11543654312118065,
+   "quasi_OE_riga": 0.47246725550268354
+  },
+  "Flemish": {
+   "ripetizione": 0.0013642802386002273,
+   "OE_globale": 0.13889613043370874,
+   "OE_riga": 0.13375332072972249,
+   "quasi_OE_riga": 0.7150503149144376
+  },
+  "French": {
+   "ripetizione": 0.000484320135609638,
+   "OE_globale": 0.055529515332401656,
+   "OE_riga": 0.06787398055716398,
+   "quasi_OE_riga": 0.3561199631292918
+  },
+  "German": {
+   "ripetizione": 0.0011672314996022722,
+   "OE_globale": 0.12935026080394066,
+   "OE_riga": 0.11329014012592734,
+   "quasi_OE_riga": 0.5501992639942206
+  },
+  "Greek": {
+   "ripetizione": 0.001458280497083439,
+   "OE_globale": 0.16576516361416987,
+   "OE_riga": 0.1365566468987014,
+   "quasi_OE_riga": 0.812155364369564
+  },
+  "Hebrew": {
+   "ripetizione": 0.0008618073903036492,
+   "OE_globale": 0.22799590857793567,
+   "OE_riga": 0.18812937296614574,
+   "quasi_OE_riga": 1.096442466377765
+  },
+  "Italian": {
+   "ripetizione": 0.000425073432046193,
+   "OE_globale": 0.08386673703206535,
+   "OE_riga": 0.05320259895472193,
+   "quasi_OE_riga": 0.5196148140277645
+  },
+  "Latin": {
+   "ripetizione": 0.0017403272332911649,
+   "OE_globale": 0.5863436122740097,
+   "OE_riga": 0.1817804419907149,
+   "quasi_OE_riga": 0.46104483150512476
+  },
+  "Maori": {
+   "ripetizione": 0.002053169342591602,
+   "OE_globale": 0.06675185915161085,
+   "OE_riga": 0.07534706077186583,
+   "quasi_OE_riga": 1.6052202175073222
+  },
+  "Mayan (Kaqchikel)": {
+   "ripetizione": 0.001875703388770789,
+   "OE_globale": 0.31578749687591035,
+   "OE_riga": 0.1398208738307131,
+   "quasi_OE_riga": 0.8154369960565744
+  },
+  "Mayan (Yucatec)": {
+   "ripetizione": 0.0030911901081916537,
+   "OE_globale": 0.5738557412866575,
+   "OE_riga": 0.6145305092857555,
+   "quasi_OE_riga": 0.9330030949611631
+  },
+  "Nahuatl": {
+   "ripetizione": 0.00046979196291752805,
+   "OE_globale": 0.01573448505265536,
+   "OE_riga": 0.016509882249513014,
+   "quasi_OE_riga": 0.28725733587875174
+  },
+  "Portuguese": {
+   "ripetizione": 0.00014645577035735208,
+   "OE_globale": 0.01789340699685158,
+   "OE_riga": 0.014395039382710787,
+   "quasi_OE_riga": 0.6017088889685087
+  },
+  "Russian": {
+   "ripetizione": 0.001060205796399791,
+   "OE_globale": 0.38506192931566363,
+   "OE_riga": 0.3568744872424602,
+   "quasi_OE_riga": 0.9361551507280443
+  },
+  "Sanskrit": {
+   "ripetizione": 0.001628177614792988,
+   "OE_globale": 2.864805627194475,
+   "OE_riga": 0.921574050279858,
+   "quasi_OE_riga": 1.294025438757615
+  },
+  "Spanish": {
+   "ripetizione": 0.0001841959845275373,
+   "OE_globale": 0.015335716801859167,
+   "OE_riga": 0.02262604670639079,
+   "quasi_OE_riga": 1.0833053061093967
+  },
+  "Swahili": {
+   "ripetizione": 0.0018913311747751358,
+   "OE_globale": 0.27639657372949683,
+   "OE_riga": 0.2151046047368423,
+   "quasi_OE_riga": 1.0273517364874405
+  },
+  "Tagalog": {
+   "ripetizione": 0.0005044999305655783,
+   "OE_globale": 0.020780867164235904,
+   "OE_riga": 0.03225457038467959,
+   "quasi_OE_riga": 0.5123032946132661
+  },
+  "Turkish": {
+   "ripetizione": 0.000693641010064966,
+   "OE_globale": 0.23877051410196032,
+   "OE_riga": 0.25976474047224646,
+   "quasi_OE_riga": 0.42606484091299607
+  },
+  "Wolof": {
+   "ripetizione": 0.002145922746781116,
+   "OE_globale": 0.24808302349053715,
+   "OE_riga": 0.22064679477860843,
+   "quasi_OE_riga": 0.9031930907331366
+  },
+  "Yoruba": {
+   "ripetizione": 0.001539645881447267,
+   "OE_globale": 0.17581632444825274,
+   "OE_riga": 0.16605727518456004,
+   "quasi_OE_riga": 0.4698509898329792
+  }
+ },
+ "esiti": {
+  "OE_riga": {
+   "voynich": 1.0421247374133153,
+   "lingue_oltre": [],
+   "manoscritti_oltre": [],
+   "lingue_massimo": 0.921574050279858,
+   "manoscritti_massimo": 0.7899721923487328,
+   "esito": "regge: più di tutte le lingue e di tutti i 79 manoscritti"
+  },
+  "OE_globale": {
+   "voynich": 2.8455929707674277,
+   "lingue_oltre": [
+    "Sanskrit"
+   ],
+   "manoscritti_oltre": [],
+   "lingue_massimo": 2.864805627194475,
+   "manoscritti_massimo": 0.8065750905509502,
+   "esito": "da riformulare: 1 lingue e 0 manoscritti arrivano al Voynich"
+  },
+  "quasi_OE_riga": {
+   "voynich": 1.0824654508753553,
+   "lingue_oltre": [
+    "Hebrew",
+    "Maori",
+    "Sanskrit",
+    "Spanish"
+   ],
+   "manoscritti_oltre": [
+    "tedesco: F048",
+    "tedesco: F181",
+    "tedesco: F240"
+   ],
+   "lingue_massimo": 1.6052202175073222,
+   "manoscritti_massimo": 1.391643181168245,
+   "esito": "da riformulare: 4 lingue e 3 manoscritti arrivano al Voynich"
+  }
+ }
+}
