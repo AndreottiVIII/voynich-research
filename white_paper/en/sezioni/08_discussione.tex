@@ -1,0 +1,112 @@
+% ---------------------------------------------------------------------------
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{What the generator shows}
+
+The voynichizer is a constructive argument. Its books reproduce most of the measured writing rules of the manuscript, to
+the point that two classifiers retrained on each book separate its pages from the real ones only slightly better than
+chance, and every book carries an encrypted text that comes back exactly with the key. Two claims must be kept apart.
+\begin{itemize}
+\item \textbf{A book with a message and a book without one} are samples of the same distribution, because the message
+  enters only as encrypted bits, which are indistinguishable from the random filler that drives a book without a message.
+  No test on the text can separate them without the key. This holds by construction, whatever the judge, as long as the
+  cipher is sound; the measurement on version~21 is in Section~\ref{sec:evaluation}.
+\item \textbf{A generated book and the real manuscript} are not the same distribution. Our judges separate them a
+  little (AUC 0.55 and 0.60), several properties are not reproduced, and a stronger or independently built judge would
+  probably do better. How close the book comes is a measured fact about our instruments.
+\end{itemize}
+Together they mean that statistical regularities of the kind measured here, however strong, cannot decide by themselves
+whether the Voynich manuscript carries a message: a text written under these rules can carry one, and whether it does
+cannot be read from its statistics. This does not show that the manuscript carries a message. It shows that the debate
+between ``meaningless'' and ``enciphered'' cannot be settled by the statistics of the text alone
+\citep[compare][]{gaskellbowern2022,bowerngaskell2022,greshko2025,kinnison2026}.
+
+\subsection{What the measurements exclude and what they leave open}
+
+\paragraph{Excluded, with the controls described}
+\begin{itemize}
+\item a natural language written in an ordinary alphabet and read with a simple or homophonic substitution, in the
+  languages tested;
+\item the published readings we could test;
+\item the historical encryption mechanisms we simulated, one at a time;
+\item a text invented by hand without rules, as the volunteers' gibberish is;
+\item that the rules of the manuscript are the ordinary habits of the 79 Nordic and German manuscripts we measured
+  (with the reservations on the short state in Section~\ref{sec:scribes}).
+\end{itemize}
+
+\paragraph{Open} Four scenarios, which our data do not separate:
+\begin{enumerate}
+\item \textbf{A language written with a very artificial writing system}, in which the variant forms carry no meaning but
+  follow rules of form and spaces are placed by rules of form. The junction rules are compatible with a phonetically
+  written language: two of the 24 languages, Sanskrit and Tagalog, have a stronger junction.
+\item \textbf{A code or cipher of an untested kind}, for example with a repertory of words or a lost key book. The
+  voynichizer shows one way in which a message can hide in a text with these rules.
+\item \textbf{No message}: a text produced by a procedure that can be executed by hand. Generators of this kind
+  reproduce many basic properties, but none of those we measured reproduces the junction rules, the closed line and the
+  margin avoidance together.
+\item \textbf{A line that is a unit of content} (a verse, an entry, a recipe, a formula). It would explain at once the
+  closed line, the line-edge forms and the register of first and last lines; a herbal printed one verse per line has a
+  closed line too. It is compatible with any of the first three scenarios.
+\end{enumerate}
+
+\subsection{What would change our mind}
+
+\begin{itemize}
+\item A reading that passes the controls used here: one that works on the real text and not on shuffled text or on
+  text generated without a message, that produces meaningful sentences on pages not used to build it, and that explains
+  the junction rules, the closed line, the copying from the line above and the margin avoidance.
+\item A medieval manuscript, or a historical cipher, with the same rules; in particular Latin or Italian manuscripts of
+  the fifteenth century, which the battery lacks.
+\item A simple procedure, executable by hand, that reproduces them all together.
+\end{itemize}
+
+\noindent A reading will need an external anchor that regularities cannot give: a text of which the manuscript is a copy,
+a secure identification of many plants to use as cribs, a key found in an archive.
+
+% ---------------------------------------------------------------------------
+\section{Limitations}
+\label{sec:limits}
+
+\begin{itemize}
+\item \textbf{Preregistration and exploration.} The preregistrations are internal, dated files in a public
+  version-controlled history, without third-party timestamps. The programme was exploratory, and confirmations on data
+  not used to form a hypothesis are few (Section~\ref{sec:methods}).
+\item \textbf{Transliterations.} Everything rests on transliterations that share the line segmentation. Without checking
+  the images we cannot separate what the scribe did from what the transcribers read, for example the \eva{q} that drops
+  after a drawing; for uncertain spaces, the image measurements of \citet{rozanova2026} show that they are physically
+  narrower.
+\item \textbf{Comparison manuscripts.} Old Norse and Early New High German only; no fifteenth-century Latin or Italian
+  manuscript transcribed at the level of letter forms. The files do not mark changes of hand, and the 73 German
+  manuscripts were measured together for the state of the choices, so a single scribe's state could be diluted. For the
+  short state the power is insufficient in 13 of 29 choices.
+\item \textbf{Comparison languages.} 24 natural languages, with lines made by cutting prose; 10{,}000 words per text.
+\item \textbf{Historical ciphers.} Only one real enciphered manuscript (the Copiale); the DECODE archive of early modern
+  ciphers requires an account and has no reuse licence, and we found no fifteenth-century cipher there with both
+  transcription and key.
+\item \textbf{Gaps.} Three tests could not be run because their measures did not separate the cases on synthetic texts:
+  whether the state of the choices lasts a number of words or a span of writing (glyphs), whether the states of
+  different choices change at the same points, and whether the short state crosses the line break. Whether the state
+  survives the gap of a drawing is undecided for lack of data.
+\item \textbf{The generator.} The judges and the scorecard are the project's own, and the generator was tuned against
+  them; an independently built judge has not been tried. Keys 1--12 were used during development. The books are not
+  indistinguishable from the manuscript. The encryption has not been reviewed by a cryptographer, and the scrypt salt is
+  fixed.
+\item \textbf{Effect sizes.} Several of the properties are small in absolute terms (the short state is about 13
+  percentage points of agreement between adjacent words); the look-ahead and the drift of single choices other than
+  \eva{sh}/\eva{ch} do not survive the strictest multiplicity correction.
+\end{itemize}
+
+% ---------------------------------------------------------------------------
+\section{Availability}
+
+\begin{itemize}
+\item \textbf{Research record} \citep{repository}: preregistrations (\texttt{preregistrazioni/}), programs
+  (\texttt{esperimenti/}), results with provenance records (\texttt{risultati/}), the laboratory notebook
+  (\texttt{QUADERNO.md}, in Italian), the log of all experiments (\url{white_paper/revisione/registro_esperimenti.csv})
+  and the sources of this paper with the script that draws its figures. Re-running an experiment gives the same numbers.
+  Copyright-protected corpora are not included and must be downloaded from their sources (Appendix~\ref{app:sources}).
+\item \textbf{The voynichizer} \citep{voynichizer}: program (MIT licence), the transliteration it uses (CC0), the font, and
+  a website that runs version~21 in the browser. The example book of Figure~\ref{fig:page} and its message are in the
+  research repository (\url{white_paper/en/figure/}).
+\end{itemize}

@@ -1,0 +1,200 @@
+% ---------------------------------------------------------------------------
+\section{The writing rules of the Voynich manuscript}
+\label{sec:rules}
+
+This section describes how the text is written, from the word to the book. For each property we give the measurement,
+its interval and the comparison texts, and we say whether the property was known. Section~\ref{sec:comparisons} gathers
+the comparisons with languages, manuscripts and generators, and Section~\ref{sec:scorecard} turns the properties into
+the scorecard of the generator.
+
+\subsection{Word form and word boundaries}
+\label{sec:boundaries}
+
+The next glyph is very predictable: the conditional entropy $h_2$ of the running text (space included) is 2.23 bits,
+against 2.54--4.65 in the 24 natural languages \citep[as found by][]{bennett1976,lindemannbowern2020}. Words follow a
+rigid internal grammar \citep{stolfi2000,zattera2022}, and four properties follow from it:
+\begin{itemize}
+\item spaces are predictable from the two glyphs on either side (F1 0.86; higher than 23 of the 24 languages, the
+  exception being Chinese in pinyin), and uncertain spaces fall where this rule is uncertain
+  \citep[as observed by][]{feaster2020,rozanova2026};
+\item cutting the glyph stream at other places allowed by the rule mostly yields words attested elsewhere (50\% of the
+  wrongly cut pieces, against a median of 6.5\% in languages; compare the ``separable words'' of \citealt{zattera2022});
+\item the vocabulary fills the most probable glyph sequences (43\% of them are Voynich words; median 5\% in languages);
+\item frequent words are the most probable sequences (rank correlation 0.58 between form probability and frequency;
+  median 0.09 in languages).
+\end{itemize}
+In version~1 we read these properties as evidence that spaces are weak boundaries inside a continuous chain of glyphs.
+That reading does not hold. A null that keeps the word grammar and removes every link between words reproduces all four
+(\expcode{e3c85}): with words drawn independently from the same vocabulary, or generated one by one from a glyph model
+of order two trained on Voynich words, the F1 of the spaces is 0.88, the attested wrong cuts 43--45\%, the filling 42--43\%
+and the frequency--form correlation 0.55--0.62. These properties show that word boundaries are marked redundantly by
+the shape of the words, as \citet{stolfi2000}, \citet{feaster2020} and \citet{rozanova2026} had described, and as in
+any script with positional forms. They do not show that spaces are weak.
+
+\subsection{The junction between adjacent words}
+\label{sec:junction}
+
+\paragraph{A strong link} The last glyph of a word says a lot about the first glyph of the next: the junction is 0.188
+bits beyond the in-line shuffle (95\% interval by bifolium 0.163--0.211). Per language the median is 0.097; two
+languages of 24 exceed the Voynich, Sanskrit and Tagalog, which write phonological links between words
+(\expcode{e3c84}). The volunteers' gibberish has 0.014, and published generators between 0 and 0.08. The link was
+observed by \citet{currier1976}, \citet{smith2017lastfirst} and \citet{smithponzi2019}.
+
+\paragraph{It mirrors the rules inside words} The preferences between the last glyph of a word and the first glyph of
+the next resemble the preferences between consecutive glyphs inside a word: the rank correlation between the two tables
+of pointwise mutual information is 0.47 (median of samples of 10{,}000 words), against at most 0.37 in the 24 languages
+and 0.39 in the constructed ones. This part does not follow from word form: the nulls of \expcode{e3c85} bring it down
+to 0.13 or less (0.22 when only the order of the words within each line is shuffled), and the junction itself to
+zero. At equal $h_2$ the Voynich lies 4.6 standard deviations
+above the regression line of the languages. \citet{smithponzi2019} concluded that word breaks are real boundaries, and
+Section~\ref{sec:boundaries} agrees; what we add is that the dependency across the boundary follows the same pattern as
+the dependency inside the word, more than in any language of the sample.
+
+\paragraph{Two junction rules} (1) Before a gallows, a word begins with \eva{qo-} after a word ending in \eva{-y},
+\eva{-o} or \eva{-d} (59--64\% of the time) and with \eva{o-} after \eva{-n}, \eva{-r}, \eva{-s} or \eva{-m} (\eva{qo-}
+only 23--27\%); in part this was described by \citet{currier1976} and \citet{smith2017o}. (2) A word ends in \eva{-r}
+before a word beginning with \eva{a-} (85\%) and in \eva{-l} before \eva{k-}, \eva{t-}, \eva{d-}, \eva{l-}, \eva{s-},
+\eva{q-} (63--86\%). Both rules hold within every class of position in the line
+(\expcode{e3c87}): with a null that keeps position, the junction stays at 0.196 against 0.188, and in each interior
+position \eva{qo-} follows \eva{-y}/\eva{-o}/\eva{-d} 61--70\% of the time against 23--33\% after
+\eva{-n}/\eva{-r}/\eva{-s}/\eva{-m}. The caution of \citet{feaster2022} does not apply to these rules. They hold
+equally in the three main hands, in all sections and bifolia, and in the three transliterations. They have the shape of
+rules such as English \emph{a}/\emph{an} or French \emph{liaison}; they say nothing about the sounds behind them, and
+they are compatible with a phonetically written language.
+
+\paragraph{Looking one word ahead, and no further} When two words copied from the line above would jointly violate a
+rule, the piece that changes is the end of the first word for \eva{-l}/\eva{-r} (59\% against 21\%) and the start of the
+second for \eva{qo-}/\eva{o-} (60\% against 18\%). The pattern is compatible with writing that knows the next word while
+finishing the current one; it rests on few conflicts (37 and 60) and does not survive the strictest multiplicity
+correction. Beyond the next word there is no link: for a given middle word, the last glyph of a word says nothing about
+the first glyph of the word after next (excess 0.003 bits, $z = 1.3$), while 22 of 24 languages have such a link.
+
+\subsection{The line}
+\label{sec:line}
+
+\paragraph{The junction stops at the line break} Between the last word of a line and the first word of the next the link
+is zero ($-0.003$ bits, $z = -0.6$), against 0.19 inside the line; the ratio $Q$ of the two is $-0.02$ on the whole text
+and 0.02 on samples of the length of the comparison texts (\expcode{e3c89}). In the comparison languages, whose lines are
+prose cut every six to eight words, the median $Q$ is 0.49 and only Hebrew falls below 0.10. A herbal in verse, the
+\emph{Macer floridus} printed one verse per line, has a closed line too ($Q = -0.004$). The line is therefore a unit of
+the writing, as \citet{currier1976} and \citet{rozanova2026} found; a line that is a unit of content (a verse, an entry,
+a recipe) would produce the same closure (Section~\ref{sec:discussion}).
+
+\paragraph{And at the gap left by a drawing} Where a plant interrupts a line, the junction between the words on the two
+sides drops from 0.167 to 0.026 bits, and the word after the gap begins like a word at the start of a line.
+
+\paragraph{Line-edge forms} For the same rest of the word, at line end \eva{-m} gains 15 percentage points and \eva{-r}
+loses 12 (\eva{dar} inside a line, \eva{dam} at its end); at line start \eva{s-} and \eva{y-} gain 9--10 points in place
+of \eva{ch-} and \eva{k-} ($z$ from 13.6 to 26.7). In the last line of a paragraph, which does not reach the margin,
+\eva{-m} is rarer: it is a form tied to the margin. These forms were described by \citet{currier1976},
+\citet{smith2015linestart,smith2016m} and \citet{feaster2020,feaster2022}; we measure them for the same word and compare
+them with scribes in Section~\ref{sec:scribes}.
+
+\paragraph{Labels} In the labels of the drawings, which stand alone, \eva{qo-} before a gallows is almost absent (0--5\%
+against 30--68\% in lines). We predicted this from the junction rule before looking at the labels; the fact itself had
+been noticed by \citet{zandbergen_labels}.
+
+\subsection{The lines above}
+\label{sec:vertical}
+
+\paragraph{Copying from the line immediately above} A word has an identical or nearly identical word in the two lines
+above more often than the vocabulary of the paragraph predicts ($z = 17.4$), more than twice as much as in the generator
+of \citet{timmschinner2020}, which was built on this observation of \citet{timm2014}. What we add concerns the shape of
+the copying: it comes almost entirely from the line immediately above (in languages recurrence spreads over three or
+four lines); two neighbouring copied words come from two neighbouring words above, usually in the same order; a copied
+word takes the \eva{qo-}/\eva{o-} or \eva{-l}/\eva{-r} form that agrees with its new neighbour more than the form of its
+source (effect $+0.49$ against $+0.16$); and copying stops at the paragraph and at the page.
+
+\paragraph{Each line avoids starting like the line above} Shuffling the order of the lines within paragraphs shows that
+a line avoids beginning like the line above: identical starts are 0.51 of the expected number (95\% interval by bifolium
+0.40--0.61; 0.53 on samples of 10{,}000 words), with the strongest effects for \eva{qo-} ($z = -9.7$) and \eva{o-}
+($-7.0$). If the line above starts with \eva{qo-}, the probability that the next starts with \eva{qo-} drops by 52
+points. The effect concerns the left margin only: it is absent where lines resume to the right of a drawing, and the
+line two above, the end of the line above and the right margin do not matter. In the languages the median ratio is 0.97
+and one language of 23 falls below the Voynich (Portuguese, in two texts with artificial lines); the volunteers' gibberish
+has 1.32 and the generators 0.93--2.05. A forum study had reported vertical avoidance of the same glyph in the herbal
+pages of one scribe \citep{tavie2024}; we measure it across the manuscript and against the comparison texts.
+
+\subsection{Choices between variant forms}
+\label{sec:choices}
+
+Many Voynich words exist in pairs that differ by one glyph: \eva{qo-}/\eva{o-} at the start, \eva{k}/\eva{t} (two
+gallows), \eva{sh}/\eva{ch}, \eva{-ey}/\eva{-dy} at the end. We treat these as \emph{variant forms}: choices whose
+distribution we can measure for the same rest of the word. This is a working hypothesis, not a result. If the variants
+were morphemes, their agreement between nearby words would be a kind of grammatical agreement, which languages have;
+we therefore compare them both with grammatical agreement in languages and with allographs in medieval scribes.
+
+\paragraph{A short state} Between nearby words of the same line, the same choice is repeated more than the preferences
+of each word, page and position predict. With the bias of the measure corrected (Appendix~\ref{app:measures}), the
+agreement of \eva{k}/\eva{t}, \eva{sh}/\eva{ch} and \eva{-ey}/\eva{-dy} together is $+0.132$ between adjacent words
+(95\% interval by bifolium 0.111--0.153) and $+0.091$ at two and three words (0.069--0.113); it halves in about three
+words. It is almost the same between very different words ($+0.09$) as between similar ones ($+0.13$), unlike the
+copying generator of \citet{timmschinner2020}; it is not an effect of position in the line; it is separate for each
+choice (agreement between different choices $-0.01$); and it is the same in hands 1, 2 and 3 ($+0.12$ to $+0.15$), in
+languages A and B and in the three transliterations. Agreement of this size exists in languages as grammatical
+agreement (Italian \emph{-o}/\emph{-a}, Latin \emph{-us}/\emph{-a}); the short state alone therefore does not set the
+Voynich apart from a language with agreement. Its comparison with scribes is in Section~\ref{sec:scribes}. Local
+clustering of similar forms was noted by \citet{timm2014} and \citet{schinner2007}, and a switch of the vowel after
+\eva{ch}/\eva{sh} that holds for whole folios by \citet{parisel2026b}; we have not found the short, word-independent state
+described before.
+
+\paragraph{A slow state} Besides the short state there is a slow component that crosses the line break: words of
+consecutive lines agree ($+0.05$), at two lines less ($+0.03$), at 7--12 lines not at all. It is not a trend from the
+top to the bottom of the page, and it is normal in real scribes (Section~\ref{sec:scribes}).
+
+\paragraph{Drift along the line} Inside the line, for the same word and leaving out the first and last word, the marked
+variants \eva{qo}, \eva{k}, \eva{sh} and \eva{-ey} become rarer towards the right: from $-0.020$ to $-0.034$ per ten
+glyphs, that is about 8--13 percentage points over a line of median length (39 glyphs). The drift is clearest for
+\eva{sh}/\eva{ch} ($z = -6.3$ by bifolium); for the other three choices it has the same direction but each one alone does
+not pass the strictest multiplicity correction. It is steeper in the first half of the line, present in every hand and
+about three times stronger in language B. The rightward indices of \citet{feaster2021,feaster2022} (\eva{qo-} further left
+than \eva{o-}, \eva{Sh} further left than \eva{ch}) describe the same tendency; we measure it for the same word and compare
+it with scribes. Next to drawings the marked forms become rarer, and the \eva{q} drops in the word right after a drawing
+($-33$ points); without checking the images we cannot tell whether this is writing or transcription.
+
+\subsection{Repetition}
+\label{sec:repetition}
+
+One adjacent pair of words in a hundred is the same word repeated (\eva{chol chol}, \eva{qokeedy qokeedy}), and 3.9\% are
+nearly identical (one glyph different), as reported by \citet{boxer2022} and \citet{bowernlindemann2021}. In version~1 we
+read this as repetition beyond chance. The observed/expected ratio corrects that reading (\expcode{e3c88}):
+\begin{itemize}
+\item against the composition of each line (words shuffled within the line), the Voynich repeats the previous word as
+  often as chance (ratio 1.04), whereas every comparison text avoids it: languages 0.2--0.92 (the highest is Sanskrit),
+  the Nordic scribes 0.02--0.07, the German manuscripts at most 0.79, the Copiale copyist 0;
+\item against the whole vocabulary ($\sum p^2$), the ratio is 2.85: repeated words gather in the same line (Sanskrit
+  reaches 2.86).
+\end{itemize}
+The property of the Voynich is therefore that immediate repetition is \emph{not avoided} and that repeated words cluster
+within lines; nearly identical neighbours are not distinctive (ratio 1.08, with four languages higher). Within the line,
+repetition is strong between nearby words and fades after six or seven words, whereas in languages it grows with distance
+(median ratio far/near 2.86); two languages of 20 fall below the Voynich, both with unstable negative ratios. When a
+repeated word changes its start or end, the change follows the junction rule with its neighbour (\eva{okeey qokeey}).
+
+\subsection{Paragraphs, pages and bifolia}
+\label{sec:book}
+
+\begin{itemize}
+\item \textbf{The paragraph opens with a large sign}: 83\% of paragraph-initial words begin with a gallows, against 9\%
+  elsewhere, and \eva{p} dominates (54\%) \citep{currier1976,dimperio1978,stafford2022,feaster2022}. The opening gallows
+  is three times less tied to its word than usual: it is largely a mark of position.
+\item \textbf{First and last lines have their own register}: longer words and more \eva{p}, \eva{f}, \eva{sh} and final
+  \eva{-y} in the first line; fewer \eva{qo-} and gallows, more \eva{ch-}, \eva{s-}, \eva{y-} in the last.
+\item \textbf{\eva{-ey} grows down the page}: for the same position in the line, the share of \eva{-ey} among words in
+  \eva{-ey}/\eva{-dy} rises by 12 percentage points from top to bottom of the page (95\% interval 7--18) and by 10 points
+  from the first to the last line of a paragraph, separately; lines get shorter down the page.
+\item \textbf{Each page has a strong identity}, mainly along an axis from words in \eva{-edy}/\eva{-eey} to words in
+  \eva{-aiin}/\eva{-ain}: pages depart from the profile of their section 2.8 times more than chance.
+\item \textbf{The bifolium is a unit of identity}: the identity of a page is shared by the other side of the same leaf and
+  by the conjugate leaf of the same bifolium, which in the bound book can lie far away, and not by the facing page
+  ($z = 6.6$). The two halves of a bifolium share rare words and copy from each other. All 48 bifolia with enough text are
+  entirely in one language, and 94\% in one hand. Hands and languages are recorded page by page in the files, and
+  \citet{davis2025} had noted that in the herbal section the hands follow the bifolia; the shared rare words and the
+  copying between conjugate leaves are what we add. Davis prefers, tentatively, quires written by one scribe and later
+  bound out of order to scribes working on loose bifolia; our data do not separate the two.
+\item \textbf{Languages A and B differ in vocabulary, not in glyphs}: the best substitution of glyphs brings A closer to B
+  by only 1\% of the gap, while the same search recovers a random key every time. B is not A enciphered with another key.
+\item Consecutive pages share more words than two pages of the same section, but mostly because they are the two sides of
+  one leaf; this does not show that the present order of the leaves is the order of writing, and the binding is known not
+  to be original \citep{davis2025}.
+\end{itemize}

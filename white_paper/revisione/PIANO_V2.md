@@ -31,7 +31,7 @@ Punto di ripartenza per qualunque sessione. Verifica delle note del revisore: `V
 - [x] e3c88 ripetizioni osservato/atteso (A8): O/E nella riga 1,04 (non evitata, non in eccesso); lingue ≤ 0,92, scribi ≤ 0,79
 - [x] e3c89 riga chiusa e margine a 10.000 parole (A8): reggono
 - [x] e3c87 raccordo a parità di posizione (Feaster 2022): non viene dalla posizione
-- [x] e3c90 potenza per scriba e scelta (A9): deriva assente con potenza 28/29; finestra 14/29, 13 senza potenza, 2 presenti (e3c91: Holm A 10 incerto)
+- [x] e3c90 potenza per scriba e scelta (A9): deriva assente con potenza 20/29 (corretto: prima 28/29, errore di unità); finestra 14/29, 13 senza potenza, 2 presenti (e3c91: Holm A 10 incerto)
 - [ ] confronti multipli (Holm) per famiglie di prove (A3)
 - [ ] registro completo degli esperimenti (A2, B12) — agente in corso, da rivedere
 - [ ] controllo a campione sulle immagini (A11) — servono ritagli IIIF (download: chiedere a Davide); per gli spazi incerti citare Rozanova e Temerev
