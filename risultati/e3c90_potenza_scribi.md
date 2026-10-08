@@ -50,28 +50,28 @@ Preregistrazione: `preregistrazioni/e3c90.md`. Voynich: K accanto 0.137, K a 2�
 | ReF, z/cz | tedeschi (insieme) | 20785 | +0.0019 (+0.0001 – +0.0059) | 0.0041 | assente con potenza |
 | ReF, y/ÿ | tedeschi (insieme) | 12655 | +0.0003 (-0.0028 – +0.0030) | 0.0041 | assente con potenza |
 | ReF, abbreviata o no | tedeschi (insieme) | 308024 | -0.0009 (-0.0027 – +0.0028) | 0.0039 | assente con potenza |
-| AM-519a-4to, ꝩ/v | nordici | 5428 | +0.0002 (-0.0002 – +0.0002) | 0.0003 | assente con potenza |
-| AM-519a-4to, u/v | nordici | 4813 | -0.0070 (-0.0014 – -0.0001) | 0.0009 | assente con potenza |
-| AM-519a-4to, c/k | nordici | 4861 | +0.0033 (-0.0000 – +0.0007) | 0.0005 | assente con potenza |
-| AM-519a-4to, í/ı | nordici | 10368 | -0.0006 (-0.0002 – +0.0001) | 0.0003 | assente con potenza |
-| AM-677-4to, u/v | nordici | 7315 | +0.0042 (+0.0001 – +0.0008) | 0.0005 | assente con potenza |
-| AM-519a-4to, abbreviata o no | nordici | 41780 | +0.0046 (+0.0003 – +0.0006) | 0.0002 | assente con potenza |
-| AM-677-4to, abbreviata o no | nordici | 44876 | +0.0061 (+0.0004 – +0.0009) | 0.0004 | assente con potenza |
-| AM-60-4to, u/v | nordici | 10724 | +0.0029 (-0.0003 – +0.0010) | 0.0009 | assente con potenza |
-| AM-60-4to, í/i senza accento | nordici | 14781 | +0.0055 (-0.0005 – +0.0018) | 0.0017 | assente con potenza |
-| AM-242-fol, ꝛ/r | nordici | 15116 | +0.0022 (+0.0001 – +0.0003) | 0.0002 | assente con potenza |
-| AM-242-fol, u/v | nordici | 11987 | -0.0003 (-0.0002 – +0.0001) | 0.0002 | assente con potenza |
-| AM-242-fol, í/i senza accento | nordici | 15656 | -0.0075 (-0.0012 – -0.0003) | 0.0006 | assente con potenza |
-| Holm-A-10, ꝛ/r | nordici | 11005 | +0.0045 (-0.0002 – +0.0011) | 0.0010 | assente con potenza |
-| Holm-A-10, w/v | nordici | 5646 | -0.0032 (-0.0012 – +0.0006) | 0.0013 | assente con potenza |
-| Holm-A-10, c/k | nordici | 9629 | -0.0019 (-0.0008 – +0.0005) | 0.0009 | assente con potenza |
-| AM-302-fol, ꝛ/r | nordici | 11179 | +0.0004 (-0.0002 – +0.0003) | 0.0003 | assente con potenza |
-| AM-302-fol, ſ/s | nordici | 7699 | +0.0020 (-0.0007 – +0.0010) | 0.0012 | assente con potenza |
-| AM-302-fol, u/v | nordici | 7125 | +0.0008 (-0.0004 – +0.0005) | 0.0006 | assente con potenza |
-| AM-302-fol, í/i senza accento | nordici | 9812 | -0.0070 (-0.0016 – +0.0002) | 0.0012 | assente con potenza |
+| AM-519a-4to, ꝩ/v | nordici | 5428 | +0.0002 (-0.0017 – +0.0020) | 0.0026 | assente con potenza |
+| AM-519a-4to, u/v | nordici | 4813 | -0.0070 (-0.0144 – -0.0012) | 0.0094 | potenza insufficiente |
+| AM-519a-4to, c/k | nordici | 4861 | +0.0033 (-0.0005 – +0.0070) | 0.0053 | assente con potenza |
+| AM-519a-4to, í/ı | nordici | 10368 | -0.0006 (-0.0025 – +0.0013) | 0.0027 | assente con potenza |
+| AM-677-4to, u/v | nordici | 7315 | +0.0042 (+0.0008 – +0.0080) | 0.0051 | assente con potenza |
+| AM-519a-4to, abbreviata o no | nordici | 41780 | +0.0046 (+0.0034 – +0.0056) | 0.0016 | assente con potenza |
+| AM-677-4to, abbreviata o no | nordici | 44876 | +0.0061 (+0.0035 – +0.0086) | 0.0036 | assente con potenza |
+| AM-60-4to, u/v | nordici | 10724 | +0.0029 (-0.0031 – +0.0100) | 0.0094 | potenza insufficiente |
+| AM-60-4to, í/i senza accento | nordici | 14781 | +0.0055 (-0.0055 – +0.0184) | 0.0170 | potenza insufficiente |
+| AM-242-fol, ꝛ/r | nordici | 15116 | +0.0022 (+0.0008 – +0.0034) | 0.0018 | assente con potenza |
+| AM-242-fol, u/v | nordici | 11987 | -0.0003 (-0.0021 – +0.0010) | 0.0022 | assente con potenza |
+| AM-242-fol, í/i senza accento | nordici | 15656 | -0.0075 (-0.0118 – -0.0028) | 0.0064 | potenza insufficiente |
+| Holm-A-10, ꝛ/r | nordici | 11005 | +0.0045 (-0.0022 – +0.0112) | 0.0096 | potenza insufficiente |
+| Holm-A-10, w/v | nordici | 5646 | -0.0032 (-0.0120 – +0.0063) | 0.0130 | potenza insufficiente |
+| Holm-A-10, c/k | nordici | 9629 | -0.0019 (-0.0079 – +0.0050) | 0.0092 | assente con potenza |
+| AM-302-fol, ꝛ/r | nordici | 11179 | +0.0004 (-0.0016 – +0.0027) | 0.0031 | assente con potenza |
+| AM-302-fol, ſ/s | nordici | 7699 | +0.0020 (-0.0070 – +0.0103) | 0.0123 | potenza insufficiente |
+| AM-302-fol, u/v | nordici | 7125 | +0.0008 (-0.0038 – +0.0051) | 0.0063 | assente con potenza |
+| AM-302-fol, í/i senza accento | nordici | 9812 | -0.0070 (-0.0155 – +0.0018) | 0.0124 | potenza insufficiente |
 
 ## Conteggi
 
 - **finestra:** potenza insufficiente 13, assente con potenza 14, presente 2
 - **accanto:** assente con potenza 17, potenza insufficiente 9, presente 3
-- **deriva:** assente con potenza 28, potenza insufficiente 1
+- **deriva:** assente con potenza 20, potenza insufficiente 9

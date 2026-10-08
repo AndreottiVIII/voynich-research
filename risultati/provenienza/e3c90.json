@@ -1,6 +1,6 @@
 {
  "codice": {
-  "commit": "50c6cf0f9426bb832387b4b2097d991959e0fabf",
+  "commit": "5a9b88a58328ec4922a62780a2d4f8d1ffd4025a",
   "modifiche_non_salvate": []
  },
  "dati": {
@@ -36,13 +36,13 @@
  },
  "script": {
   "file": "esperimenti/e3c90_potenza_scribi.py",
-  "sha256": "51db1f890b3c7bfd18556e3974ce990565b9abbbd6eecb3357f89b3467c442dc"
+  "sha256": "260284731a1123b9441073d03c28f234ccea79678363c01aa1b5b3e60b068823"
  },
  "variabili": {},
  "esperimento": "e3c90",
  "argomenti": [],
  "uscita": 0,
- "inizio": "2026-10-08T18:31:07",
+ "inizio": "2026-10-08T18:54:52",
  "durata_s": 0.1,
  "file_scritti": [
   "risultati/e3c90_potenza_scribi.json",
