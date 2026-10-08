@@ -16076,3 +16076,58 @@ Risultati: `risultati/e3c85_nullo_grammatica_parola.md`.
   Il titolo "lo spazio è un confine debole" non è più sostenuto: va tolto.
 - N2 (rimescolate nella riga) conserva un poco di ρ (0,22): una parte del rispecchiamento viene dalla composizione
   della riga (forme di inizio e fine), non dall'ordine delle parole.
+
+## 8/10/2026 — e3c86: le misure principali reggono anche ricampionando bifogli e fascicoli
+
+Preregistrato (`preregistrazioni/e3c86.md`; nota A5 del revisore). Voynich ZL, contributi per pagina sommati per gruppo
+e gruppi ricampionati (2.000 volte): 206 pagine, 50 bifogli, 16 fascicoli. Per la giuntura il nullo è rifatto dentro
+ogni ricampionamento (20 versioni rimescolate per pagina), perché con il nullo fisso l'intervallo era spostato in alto
+(corretto nella prova sul latino, prima della preregistrazione). Risultati: `risultati/e3c86_intervalli_bifoglio.md`.
+
+| misura | valore | IC 95% per pagina | per bifoglio | per fascicolo | larghezza bifoglio / pagina |
+|---|---|---|---|---|---|
+| stato breve, accanto | +0,132 | +0,107 – +0,157 | +0,111 – +0,153 | +0,101 – +0,145 | 0,84 |
+| stato breve, 2–3 parole | +0,091 | +0,069 – +0,113 | +0,069 – +0,113 | +0,054 – +0,106 | 1,01 |
+| deriva qo/o (ogni 10 segni) | −0,020 | −0,033 – −0,008 | −0,034 – −0,007 | −0,035 – −0,010 | 1,07 |
+| deriva k/t | −0,030 | −0,043 – −0,018 | −0,045 – −0,014 | −0,043 – +0,001 | 1,20 |
+| deriva sh/ch | −0,034 | −0,043 – −0,024 | −0,044 – −0,023 | −0,045 – −0,014 | 1,09 |
+| deriva -ey/-dy | −0,029 | −0,046 – −0,014 | −0,051 – −0,010 | −0,055 – −0,002 | 1,27 |
+| giuntura E | +0,188 | +0,172 – +0,203 | +0,163 – +0,211 | +0,139 – +0,223 | 1,56 |
+| margine (rapporto) | 0,51 | 0,40 – 0,62 | 0,40 – 0,61 | 0,34 – 0,65 | 1,00 |
+| ripetizione esatta | 1,00% | 0,87 – 1,13% | 0,85 – 1,16% | 0,84 – 1,16% | 1,22 |
+| ripetizione quasi esatta | 3,87% | 3,58 – 4,21% | 3,49 – 4,34% | 3,52 – 4,47% | 1,36 |
+
+- **Esito preregistrato:** tutte le misure **reggono per bifoglio**; tutte reggono anche **per fascicolo** tranne la
+  deriva di *k*/*t* (l'estremo alto arriva a +0,001 con soli 16 fascicoli).
+- Il bootstrap per pagina sottostimava poco: intervalli per bifoglio da 0,84 a 1,56 volte quelli per pagina; per
+  fascicolo fino a 2,7 volte (giuntura), con pochi gruppi.
+- **Per il paper:** gli intervalli principali si danno per bifoglio. Le ripetizioni restano sopra il massimo delle
+  lingue naturali (0,40% e 1,86%) anche all'estremo basso. La copia dalla riga sopra non è stata rifatta per bifoglio
+  (lacuna dichiarata nella preregistrazione).
+
+## 8/10/2026 — e3c87: la giuntura e le regole di raccordo non vengono dalla posizione nella riga
+
+Preregistrato (`preregistrazioni/e3c87.md`; cautela di Feaster 2022). Voynich ZL. Classe di posizione di una coppia di
+parole: indice della prima (0, 1, 2, 3, 4 o più) e se la seconda chiude la riga. Risultati:
+`risultati/e3c87_raccordo_posizione.md`.
+
+- **Giuntura E:**
+  - con il nullo nella riga (e377): 0,188;
+  - con il nullo a parità di posizione (la parola seguente rimescolata fra le coppie della stessa classe, in tutto il
+    testo): **0,196**, rapporto 1,04.
+- **Regola *qo-*/*o-*,** quota di *qo-* dopo *-y*/*-o*/*-d* contro dopo *-n*/*-r*/*-s*/*-m*, nelle classi interne:
+  | classe | dopo *-y*/*-o*/*-d* | dopo *-n*/*-r*/*-s*/*-m* |
+  |---|---|---|
+  | 1 | 0,70 | 0,28 |
+  | 2 | 0,66 | 0,33 |
+  | 3 | 0,65 | 0,25 |
+  | 4+ | 0,61 | 0,23 |
+
+  Anche a inizio riga: 0,71 contro 0,28.
+- **Regola *-l*/*-r*,** quota di *-r* davanti ad *a-* contro davanti a *k t d l s q*: 0,85 contro 0,27 nella sola classe
+  interna con almeno 100 eventi per lato (4+). Nelle classi 1–3 i casi davanti ad *a-* sono 60–78 per classe, ma la
+  differenza è la stessa: da 0,75 a 0,85 contro da 0,21 a 0,27.
+- **Esito preregistrato:** giuntura **"non viene dalla posizione"**; *qo-*/*o-* **"regge in tutte le posizioni
+  interne"** (4 classi); *-l*/*-r* **"regge"** nell'unica classe con abbastanza eventi.
+- **Lettura:** la cautela di Feaster non si applica: le regole di raccordo valgono a parità di posizione nella riga.
+  *qo-* è un po' meno frequente verso la fine della riga, ma il legame con la parola precedente resta uguale.
