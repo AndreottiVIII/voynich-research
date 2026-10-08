@@ -1,0 +1,218 @@
+{
+ "famiglie": {
+  "giuntura e raccordo": [
+   {
+    "prova": "giuntura E fra parole vicine (e386)",
+    "statistica": "z = 191.7",
+    "p": 0.0,
+    "p_Holm": 0.0,
+    "regge_Holm": true,
+    "regge_Bonferroni_715": true
+   },
+   {
+    "prova": "qo-/o- davanti ai gallows secondo la parola prima (e380)",
+    "statistica": "z = 19.4",
+    "p": 7.695623593505918e-84,
+    "p_Holm": 3.0782494374023672e-83,
+    "regge_Holm": true,
+    "regge_Bonferroni_715": true
+   },
+   {
+    "prova": "-l/-r secondo la parola dopo (e380)",
+    "statistica": "z = 12.72",
+    "p": 4.522453772399342e-37,
+    "p_Holm": 1.3567361317198028e-36,
+    "regge_Holm": true,
+    "regge_Bonferroni_715": true
+   },
+   {
+    "prova": "sguardo avanti: cambia la fine della prima parola (e3a02 A)",
+    "statistica": "p = 0.0002",
+    "p": 0.0002,
+    "p_Holm": 0.0002,
+    "regge_Holm": true,
+    "regge_Bonferroni_715": false
+   },
+   {
+    "prova": "sguardo avanti: si adatta la parola dopo (e3a02 B)",
+    "statistica": "p = 0.0001",
+    "p": 0.0001,
+    "p_Holm": 0.0002,
+    "regge_Holm": true,
+    "regge_Bonferroni_715": false
+   }
+  ],
+  "bordi della riga": [
+   {
+    "prova": "-m a fine riga (e389)",
+    "statistica": "z = 26.73",
+    "p": 2.181800820781008e-157,
+    "p_Holm": 8.727203283124032e-157,
+    "regge_Holm": true,
+    "regge_Bonferroni_715": true
+   },
+   {
+    "prova": "-r cala a fine riga (e389)",
+    "statistica": "z = -13.56",
+    "p": 6.871413149869876e-42,
+    "p_Holm": 6.871413149869876e-42,
+    "regge_Holm": true,
+    "regge_Bonferroni_715": true
+   },
+   {
+    "prova": "y- a inizio riga (e389)",
+    "statistica": "z = 16.55",
+    "p": 1.5332311631164695e-61,
+    "p_Holm": 4.599693489349409e-61,
+    "regge_Holm": true,
+    "regge_Bonferroni_715": true
+   },
+   {
+    "prova": "s- a inizio riga (e389)",
+    "statistica": "z = 15.95",
+    "p": 2.6583970169963547e-57,
+    "p_Holm": 5.316794033992709e-57,
+    "regge_Holm": true,
+    "regge_Bonferroni_715": true
+   }
+  ],
+  "copia dalla riga sopra": [
+   {
+    "prova": "parola uguale o quasi nelle due righe sopra, oltre il lessico del paragrafo (e340)",
+    "statistica": "z = 17.35",
+    "p": 1.9537828536398793e-67,
+    "p_Holm": 1.9537828536398793e-67,
+    "regge_Holm": true,
+    "regge_Bonferroni_715": true
+   }
+  ],
+  "margine sinistro": [
+   {
+    "prova": "inizio qo evitato sotto lo stesso inizio (e3a33)",
+    "statistica": "z = -9.707",
+    "p": 2.8123368827153687e-22,
+    "p_Holm": 1.4061684413576843e-21,
+    "regge_Holm": true,
+    "regge_Bonferroni_715": true
+   },
+   {
+    "prova": "inizio o evitato sotto lo stesso inizio (e3a33)",
+    "statistica": "z = -6.979",
+    "p": 2.9786942188941236e-12,
+    "p_Holm": 1.1914776875576494e-11,
+    "regge_Holm": true,
+    "regge_Bonferroni_715": true
+   },
+   {
+    "prova": "inizio d evitato sotto lo stesso inizio (e3a33)",
+    "statistica": "z = -3.805",
+    "p": 0.00014166904506547346,
+    "p_Holm": 0.0004250071351964204,
+    "regge_Holm": true,
+    "regge_Bonferroni_715": false
+   },
+   {
+    "prova": "inizio ch evitato sotto lo stesso inizio (e3a33)",
+    "statistica": "z = -3.578",
+    "p": 0.00034687689023028394,
+    "p_Holm": 0.0006937537804605679,
+    "regge_Holm": true,
+    "regge_Bonferroni_715": false
+   },
+   {
+    "prova": "inizio y evitato sotto lo stesso inizio (e3a33)",
+    "statistica": "z = -3.511",
+    "p": 0.0004472374171714319,
+    "p_Holm": 0.0006937537804605679,
+    "regge_Holm": true,
+    "regge_Bonferroni_715": false
+   }
+  ],
+  "stato breve": [
+   {
+    "prova": "K accanto (e3c86, per bifoglio)",
+    "statistica": "z = 12.32",
+    "p": 7.130646813216679e-35,
+    "p_Holm": 1.4261293626433357e-34,
+    "regge_Holm": true,
+    "regge_Bonferroni_715": true
+   },
+   {
+    "prova": "K a 2–3 parole (e3c86, per bifoglio)",
+    "statistica": "z = 8.085",
+    "p": 6.209531051575056e-16,
+    "p_Holm": 6.209531051575056e-16,
+    "regge_Holm": true,
+    "regge_Bonferroni_715": true
+   }
+  ],
+  "deriva lungo la riga": [
+   {
+    "prova": "deriva qo/o (e3c86, per bifoglio)",
+    "statistica": "z = -2.954",
+    "p": 0.0031377074437200555,
+    "p_Holm": 0.006275414887440111,
+    "regge_Holm": true,
+    "regge_Bonferroni_715": false
+   },
+   {
+    "prova": "deriva k/t (e3c86, per bifoglio)",
+    "statistica": "z = -3.853",
+    "p": 0.00011679991406765103,
+    "p_Holm": 0.0003503997422029531,
+    "regge_Holm": true,
+    "regge_Bonferroni_715": false
+   },
+   {
+    "prova": "deriva sh/ch (e3c86, per bifoglio)",
+    "statistica": "z = -6.34",
+    "p": 2.293997270921972e-10,
+    "p_Holm": 9.175989083687888e-10,
+    "regge_Holm": true,
+    "regge_Bonferroni_715": true
+   },
+   {
+    "prova": "deriva -ey/-dy (e3c86, per bifoglio)",
+    "statistica": "z = -2.847",
+    "p": 0.004416366314394607,
+    "p_Holm": 0.006275414887440111,
+    "regge_Holm": true,
+    "regge_Bonferroni_715": false
+   }
+  ],
+  "struttura del libro": [
+   {
+    "prova": "identità di bifoglio (e314)",
+    "statistica": "z = 6.556",
+    "p": 5.533103996265749e-11,
+    "p_Holm": 5.533103996265749e-11,
+    "regge_Holm": true,
+    "regge_Bonferroni_715": true
+   },
+   {
+    "prova": "lingue A e B: parola chedy (e315)",
+    "statistica": "z = 13.42",
+    "p": 4.441420766658608e-41,
+    "p_Holm": 8.882841533317216e-41,
+    "regge_Holm": true,
+    "regge_Bonferroni_715": true
+   }
+  ]
+ },
+ "soglia_Bonferroni": 6.993006993006993e-05,
+ "esito": {
+  "prove": 23,
+  "reggono_Holm": 23,
+  "reggono_Bonferroni_715": 15,
+  "non_reggono_Bonferroni_715": [
+   "sguardo avanti: cambia la fine della prima parola (e3a02 A)",
+   "sguardo avanti: si adatta la parola dopo (e3a02 B)",
+   "inizio d evitato sotto lo stesso inizio (e3a33)",
+   "inizio ch evitato sotto lo stesso inizio (e3a33)",
+   "inizio y evitato sotto lo stesso inizio (e3a33)",
+   "deriva qo/o (e3c86, per bifoglio)",
+   "deriva k/t (e3c86, per bifoglio)",
+   "deriva -ey/-dy (e3c86, per bifoglio)"
+  ]
+ }
+}

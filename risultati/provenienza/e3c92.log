@@ -1,0 +1,15 @@
+{
+ "prove": 23,
+ "reggono_Holm": 23,
+ "reggono_Bonferroni_715": 15,
+ "non_reggono_Bonferroni_715": [
+  "sguardo avanti: cambia la fine della prima parola (e3a02 A)",
+  "sguardo avanti: si adatta la parola dopo (e3a02 B)",
+  "inizio d evitato sotto lo stesso inizio (e3a33)",
+  "inizio ch evitato sotto lo stesso inizio (e3a33)",
+  "inizio y evitato sotto lo stesso inizio (e3a33)",
+  "deriva qo/o (e3c86, per bifoglio)",
+  "deriva k/t (e3c86, per bifoglio)",
+  "deriva -ey/-dy (e3c86, per bifoglio)"
+ ]
+}
