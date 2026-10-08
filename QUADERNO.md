@@ -16211,3 +16211,22 @@ e3c62, e3c77). Per ogni scelta di ogni manoscritto: intervallo, effetto minimo v
 
   La deriva resta propria del Voynich.
 - **Prossimo passo possibile:** la prova delle parole simili (e3c79) su Holm A 10 *ꝛ*/*r*.
+
+## 8/10/2026 — e3c91: lo stato di Holm A 10 (ꝛ/r) vale anche fra parole diverse, ma più debole del Voynich (incerto)
+
+Preregistrato (`preregistrazioni/e3c91.md`; la prova dell'e3c79 su Holm A 10, ꝛ/r). Risultati:
+`risultati/e3c91_holm_stato_o_copia.md`.
+
+| distanza fra le parole coperte | Holm A 10, ꝛ/r: K corretto (IC 95%) | Voynich (e3c55) |
+|---|---|---|
+| 2 | +0,133 (−0,012 – +0,278), 180 coppie | +0,129 |
+| 3 | +0,076 (+0,001 – +0,150) | +0,119 |
+| 4 o più | +0,045 (+0,010 – +0,083) | +0,091 |
+| differenza 2 − 4+ | +0,088 (−0,065 – +0,234) | +0,038 |
+
+- **Esito preregistrato: incerto.** L'accordo fra parole molto diverse c'è (estremo basso +0,010) ma sta sotto la soglia
+  di 0,02, e la differenza con le parole simili ha un intervallo larghissimo.
+- **Lettura:** diversamente da AM 302 (copia), lo scriba di Holm A 10 mostra nella scelta ꝛ/r un accordo che vale anche
+  fra parole diverse, circa metà di quello del Voynich. Non basta per dire che abbia lo stesso stato. Ma la frase "lo
+  stato breve non c'è negli scribi" va scritta con questa eccezione: in uno scriba svedese del Cinquecento una scelta
+  mostra un accordo dello stesso tipo, più debole.
