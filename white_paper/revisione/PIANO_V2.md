@@ -25,20 +25,20 @@ Punto di ripartenza per qualunque sessione. Verifica delle note del revisore: `V
 - [ ] Aprire il repo, aggiornare `CLAUDE.md` (regola "il repo resta privato") e il paper (§ Riproducibilità).
 
 ### 1. Rianalisi (esperimenti nuovi, ognuno con preregistrazione, codice, esecuzione, quaderno)
-- [ ] e3c84: percentili per lingua, senza lingue artificiali (C1.1)
-- [ ] nullo con la grammatica della parola per la catena di segni (A7)
-- [ ] intervalli per bifoglio e fascicolo (A5)
-- [ ] ripetizioni: rapporto osservato/atteso (A8)
-- [ ] Voynich ridotto alla lunghezza dei testi di confronto (A8)
-- [ ] raccordo a parità di posizione nella riga (Feaster 2022)
-- [ ] confronti multipli (Holm) e potenza per scriba e scelta (A3, A9)
-- [ ] registro completo degli esperimenti (A2, B12)
-- [ ] controllo a campione sulle immagini (A11)
-- [ ] (con download autorizzato) voynich-fingerprint e testo cifrato di Kinnison nelle nostre misure
+- [x] e3c84: percentili per lingua, senza lingue artificiali (C1.1): reggono quasi tutti; giuntura 2 lingue su 24, calo 2 su 20
+- [x] e3c85 nullo con la grammatica della parola (A7): spazio prevedibile, tagli e riempimento spiegati dalla forma delle parole; giuntura e rispecchiamento no
+- [x] e3c86 intervalli per bifoglio e fascicolo (A5): tutto regge per bifoglio; per fascicolo cede solo la deriva di k/t
+- [x] e3c88 ripetizioni osservato/atteso (A8): O/E nella riga 1,04 (non evitata, non in eccesso); lingue ≤ 0,92, scribi ≤ 0,79
+- [x] e3c89 riga chiusa e margine a 10.000 parole (A8): reggono
+- [x] e3c87 raccordo a parità di posizione (Feaster 2022): non viene dalla posizione
+- [x] e3c90 potenza per scriba e scelta (A9): deriva assente con potenza 28/29; finestra 14/29, 13 senza potenza, 2 presenti (e3c91: Holm A 10 incerto)
+- [ ] confronti multipli (Holm) per famiglie di prove (A3)
+- [ ] registro completo degli esperimenti (A2, B12) — agente in corso, da rivedere
+- [ ] controllo a campione sulle immagini (A11) — servono ritagli IIIF (download: chiedere a Davide); per gli spazi incerti citare Rozanova e Temerev
+- [ ] (con download autorizzato) voynich-fingerprint (271 KB, MIT) nelle nostre misure; Kinnison = Naibbe, già misurato: non serve
 
 ### 2. Materiale sul voynichizzatore (lavoro dell'altra chat: leggere, non modificare)
-- [ ] Scheda tecnica: modello del libro, canale (conteggi delle parole per pagina), decodificatore aritmetico,
-  cifratura, impaginazione, capienza, giudici (e231, e266), pagella (18 proprietà), numeri della v21 su 24 chiavi, limiti
+- [x] Scheda tecnica (scratchpad della sessione: `scheda_voynichizzatore.md`). Buco: con messaggio contro senza messaggio misurato solo sulla v9 → chiesto alla chat del voynichizzatore di rifarlo sulla v21 (8/10)
 - [ ] Precedenti:
   - steganografia: Ziegler 2019, Meteor 2021, Cachin 1998, Hopper 2002;
   - Wayner 1992;
