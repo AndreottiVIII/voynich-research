@@ -1,0 +1,112 @@
+{
+ "E_riga": 0.1880224413150924,
+ "E_posizione": 0.19623735273912105,
+ "rapporto": 1.0436911220095366,
+ "regole_per_posizione": {
+  "(0, False)": {
+   "qo_dopo_forte": 0.7086956521739131,
+   "n_forte": 460,
+   "qo_dopo_debole": 0.2823529411764706,
+   "n_debole": 255,
+   "r_davanti_a": 0.9097744360902256,
+   "n_a": 133,
+   "r_davanti_altre": 0.34801762114537443,
+   "n_altre": 227
+  },
+  "(0, True)": {
+   "qo_dopo_forte": 1.0,
+   "n_forte": 2,
+   "qo_dopo_debole": 0.0,
+   "n_debole": 5,
+   "r_davanti_a": 1.0,
+   "n_a": 1,
+   "r_davanti_altre": 0.25,
+   "n_altre": 8
+  },
+  "(1, False)": {
+   "qo_dopo_forte": 0.6993957703927492,
+   "n_forte": 662,
+   "qo_dopo_debole": 0.27941176470588236,
+   "n_debole": 272,
+   "r_davanti_a": 0.8461538461538461,
+   "n_a": 78,
+   "r_davanti_altre": 0.2727272727272727,
+   "n_altre": 308
+  },
+  "(1, True)": {
+   "qo_dopo_forte": 0.46153846153846156,
+   "n_forte": 13,
+   "qo_dopo_debole": 0.18181818181818182,
+   "n_debole": 11,
+   "r_davanti_a": 1.0,
+   "n_a": 4,
+   "r_davanti_altre": 0.3333333333333333,
+   "n_altre": 15
+  },
+  "(2, False)": {
+   "qo_dopo_forte": 0.6575757575757576,
+   "n_forte": 660,
+   "qo_dopo_debole": 0.32867132867132864,
+   "n_debole": 286,
+   "r_davanti_a": 0.7666666666666667,
+   "n_a": 60,
+   "r_davanti_altre": 0.2669172932330827,
+   "n_altre": 266
+  },
+  "(2, True)": {
+   "qo_dopo_forte": 0.5,
+   "n_forte": 22,
+   "qo_dopo_debole": 0.125,
+   "n_debole": 16,
+   "r_davanti_a": 0.7,
+   "n_a": 10,
+   "r_davanti_altre": 0.34782608695652173,
+   "n_altre": 23
+  },
+  "(3, False)": {
+   "qo_dopo_forte": 0.6451612903225806,
+   "n_forte": 651,
+   "qo_dopo_debole": 0.2543103448275862,
+   "n_debole": 232,
+   "r_davanti_a": 0.7536231884057971,
+   "n_a": 69,
+   "r_davanti_altre": 0.21299638989169675,
+   "n_altre": 277
+  },
+  "(3, True)": {
+   "qo_dopo_forte": 0.5454545454545454,
+   "n_forte": 22,
+   "qo_dopo_debole": 0.11764705882352941,
+   "n_debole": 17,
+   "r_davanti_a": 0.7777777777777778,
+   "n_a": 9,
+   "r_davanti_altre": 0.16216216216216217,
+   "n_altre": 37
+  },
+  "(4, False)": {
+   "qo_dopo_forte": 0.6051986267778323,
+   "n_forte": 2039,
+   "qo_dopo_debole": 0.2308457711442786,
+   "n_debole": 1005,
+   "r_davanti_a": 0.8484162895927602,
+   "n_a": 442,
+   "r_davanti_altre": 0.2653061224489796,
+   "n_altre": 931
+  },
+  "(4, True)": {
+   "qo_dopo_forte": 0.5606469002695418,
+   "n_forte": 371,
+   "qo_dopo_debole": 0.14691943127962084,
+   "n_debole": 211,
+   "r_davanti_a": 0.8980891719745223,
+   "n_a": 157,
+   "r_davanti_altre": 0.28368794326241137,
+   "n_altre": 282
+  }
+ },
+ "esito": {
+  "giuntura": "non viene dalla posizione",
+  "qo/o": "regge in tutte le posizioni interne (4 classi)",
+  "-l/-r": "regge in tutte le posizioni interne (1 classi)"
+ }
+}
