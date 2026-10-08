@@ -1,0 +1,13 @@
+Voynich {"spazio": 0.8666450005416532, "attestazione": 0.4972396025027604, "riempimento": 0.4378277153558052, "rispecchiamento": 0.5294248402333983, "frequenza_forma": 0.5923375921026549, "giuntura": 0.19410861951511996}
+Voynich {"spazio": 0.8636314480372013, "attestazione": 0.49069045771916214, "riempimento": 0.4444444444444444, "rispecchiamento": 0.5527472527472527, "frequenza_forma": 0.5748985671030605, "giuntura": 0.16653417717345817}
+Voynich {"spazio": 0.859368508516826, "attestazione": 0.495970695970696, "riempimento": 0.43214148404459823, "rispecchiamento": 0.6176626123744049, "frequenza_forma": 0.579802952559459, "giuntura": 0.19173160007009787}
+Voynich {"spazio": 0.8581503810715504, "attestazione": 0.49723145071982283, "riempimento": 0.43137968693119766, "rispecchiamento": 0.58676058937525, "frequenza_forma": 0.5969688167094717, "giuntura": 0.1720584043278214}
+Voynich {"spazio": 0.8664586247713332, "attestazione": 0.5045766590389016, "riempimento": 0.4193916349809886, "rispecchiamento": 0.5541789428621793, "frequenza_forma": 0.61958097802181, "giuntura": 0.19117609601546276}
+{
+ "legame_fra_parole": "non è un effetto della grammatica della parola",
+ "proprieta_di_forma_sotto_N3": {
+  "spazio": "spiegata dal nullo",
+  "attestazione": "spiegata dal nullo",
+  "riempimento": "spiegata dal nullo"
+ }
+}
