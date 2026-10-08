@@ -16248,3 +16248,24 @@ struttura del libro). Risultati: `risultati/e3c92_confronti_multipli.md`.
   - lo sguardo avanti e la deriva delle singole scelte (tranne sh/ch) vanno presentati come effetti più deboli, con i
     loro intervalli: la direzione è la stessa in tutte e quattro le scelte, ma da sola ognuna non supera la soglia più
     severa.
+
+## 8/10/2026 — Correzione dell'e3c90: la deriva negli scribi nordici aveva intervalli letti 10 volte troppo stretti
+
+**Errore mio, trovato disegnando la figura degli scribi per il white paper.** Nel file dell'e3c62 la stima della deriva
+è data sia per segno sia ogni 10 segni, ma l'intervallo (`IC95`) è per segno. L'e3c90 lo leggeva come se fosse già ogni
+10 segni, quindi per i sei scribi nordici gli intervalli della deriva erano 10 volte troppo stretti e il giudizio "assente
+con potenza" troppo facile. Per i tedeschi (e3c77) la conversione era giusta. Codice corretto (commit a parte) ed e3c90
+rieseguito; il risultato vecchio resta nella storia del repository.
+
+| deriva lungo la riga (29 scelte) | prima (sbagliato) | dopo la correzione |
+|---|---|---|
+| assente con potenza | 28 | **20** |
+| potenza insufficiente | 1 | **9** (quasi tutte dei nordici) |
+
+- Lo stato breve non cambia (14 / 13 / 2): quelle misure non hanno unità da convertire.
+- **Lettura corretta:**
+  - nessuna scelta di nessuno scriba deriva quanto il Voynich (al massimo 0,008 ogni 10 segni contro 0,020 – 0,034);
+  - con potenza sufficiente, la deriva si può dire assente in 20 scelte su 29;
+  - nelle altre 9 l'intervallo arriva fino a metà del valore del Voynich.
+- Nel white paper le frasi "28 scelte su 29" diventano "20 su 29", con la frase sul massimo. La voce dell'e3c90 di
+  questa mattina resta com'era (il quaderno si scrive solo aggiungendo).
