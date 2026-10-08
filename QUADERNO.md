@@ -16230,3 +16230,21 @@ Preregistrato (`preregistrazioni/e3c91.md`; la prova dell'e3c79 su Holm A 10, �
   fra parole diverse, circa metà di quello del Voynich. Non basta per dire che abbia lo stesso stato. Ma la frase "lo
   stato breve non c'è negli scribi" va scritta con questa eccezione: in uno scriba svedese del Cinquecento una scelta
   mostra un accordo dello stesso tipo, più debole.
+
+## 8/10/2026 — e3c92: con Holm reggono tutte le prove principali; con Bonferroni su 715 esperimenti 15 su 23
+
+Preregistrato (`preregistrazioni/e3c92.md`; nota A3 del revisore). Rianalisi dei valori salvati: 23 prove principali
+in 7 famiglie (giuntura e raccordo, bordi della riga, copia dalla riga sopra, margine sinistro, stato breve, deriva,
+struttura del libro). Risultati: `risultati/e3c92_confronti_multipli.md`.
+
+- **Holm dentro ogni famiglia (α = 0,05): reggono 23 su 23.**
+- **Bonferroni su tutti i 715 esperimenti del registro (p < 7,0e-5, |z| > 3,97): reggono 15 su 23.** Non reggono:
+  - lo sguardo avanti (e3a02 A e B, p 0,0002 e 0,0001: pochi conflitti, 37 e 60);
+  - gli inizi d, ch, y evitati sul margine (z da −3,5 a −3,8). Reggono invece qo (−9,7) e o (−7,0);
+  - la deriva di qo/o, k/t e -ey/-dy presa scelta per scelta (z da −2,8 a −3,9 per bifoglio). Regge sh/ch (−6,3).
+- **Per il paper:**
+  - giuntura, regole di raccordo, forme di bordo, copia dalla riga sopra, evitamento di qo/o sul margine, stato breve
+    e struttura del libro reggono anche alla correzione più severa;
+  - lo sguardo avanti e la deriva delle singole scelte (tranne sh/ch) vanno presentati come effetti più deboli, con i
+    loro intervalli: la direzione è la stessa in tutte e quattro le scelte, ma da sola ognuna non supera la soglia più
+    severa.
