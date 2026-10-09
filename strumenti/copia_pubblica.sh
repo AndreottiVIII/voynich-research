@@ -27,6 +27,8 @@ rm -rf "$LAVORO"
 git clone -q --no-local --single-branch --branch main "$RADICE" "$LAVORO"
 cd "$LAVORO"
 git remote remove origin
+# i tag del repo di lavoro puntano alla storia vecchia (email originale): nella copia non vanno
+git tag -l | xargs -r git tag -d > /dev/null
 : > "$MAPPA"
 export EMAIL_PUBBLICA MAPPA
 git filter-branch -f \
@@ -43,7 +45,9 @@ test -z "$(git log --format='%ae%n%ce' | grep -v -x "$EMAIL_PUBBLICA" || true)" 
 for f in $ESCLUSI; do
   test -z "$(git log --all --format=%H -- "$f")" || { echo "ERRORE: $f ancora nella storia"; exit 1; }
 done
-test -z "$(git rev-list --objects --all | grep -i 'note_revisore' || true)" || { echo 'ERRORE: oggetti delle note ancora presenti'; exit 1; }
+test -z "$(git for-each-ref --format='%(refname)' | grep -v -x 'refs/heads/main' || true)" || { echo 'ERRORE: riferimenti oltre main'; exit 1; }
+test -z "$(git log --all --format='%ae%n%ce' | grep -v -x "$EMAIL_PUBBLICA" || true)" || { echo 'ERRORE: email non anonime in qualche riferimento'; exit 1; }
+test -z "$(git rev-list --objects --all | grep -E 'note_revisore_v1_(EN|IT)\.md$' || true)" || { echo 'ERRORE: oggetti delle note ancora presenti'; exit 1; }
 echo "commit: $(git rev-list --count main); mappa: $(wc -l < "$MAPPA") righe"
 
 rm -rf "$DEST"
