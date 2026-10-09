@@ -37,10 +37,20 @@ The working language of the project was Italian; the paper is in English.
 This is a copy of the working repository, made with `strumenti/copia_pubblica.sh`:
 
 - author and committer e-mail addresses are replaced by the GitHub no-reply address; names and dates are unchanged;
-- the notes of the external reviewer of version 1 of the paper are not included; how each point was checked is in
-  `white_paper/revisione/VERIFICA_NOTE_REVISORE.md`;
+- the notes of the external reviewer of version 1 of the paper, and our point-by-point verification of them, are not
+  included; the changes they led to are listed in Appendix C of the paper;
 - commit hashes therefore differ from those of the working repository. The provenance records in `risultati/provenienza/`
   cite the working repository's hashes; `risultati/provenienza/MAPPA_COMMIT_PUBBLICI.txt` maps each of them to the
   corresponding commit here (one line per commit: working hash, public hash).
 
 The previous Italian README (September 2026) is kept as `README_settembre_2026_it.md`.
+
+## Licence
+
+- **Code** (Python, shell and PowerShell scripts): MIT licence, see [`LICENSE`](LICENSE).
+- **Everything else written or produced by the project** (paper and its LaTeX sources, preregistrations, notebook,
+  results, figures, documentation): Creative Commons Attribution 4.0 International, see
+  [`LICENSE-CC-BY-4.0.md`](LICENSE-CC-BY-4.0.md).
+- **Third-party material keeps its own licence:** the transliterations in `dati/trascrizioni/` (public domain, from
+  [voynich.nu](https://www.voynich.nu/transcr.html)); the voynichizer snapshot in `pubblico/voynichizzatore/` and its font
+  (MIT, see the `LICENSE` there).
