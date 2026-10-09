@@ -280,3 +280,12 @@ Pacchetto v17 **senza modifiche** dentro Pyodide 314.0.7 (Python 3.14.2, numpy 2
   Research con la licenza CC BY 4.0 e il PDF nuovo (commit 1e3178c della ricerca), **senza la riga dei contributori**
   (richiesta di Davide, "per ora"). Didascalie dei fogli veri: solo il codice del foglio. `.gitattributes` del repo
   pubblico: aggiunti `*.ico` e `*.webp` come binari (il favicon era stato alterato dalla conversione degli a capo).
+- **9/10/2026, Research alla v2 del white paper** (richiesta della chat della ricerca, confermata da Davide): titolo
+  "Hiding a Message in a Voynich-like Book", autore solo Davide Caniatti, © 2026 Davide Caniatti, CC BY 4.0; abstract
+  corto della v2; pagina riscritta sul testo finale (generatore, nove gruppi di regole con "described before" e "added
+  here", tabella dei 79 manoscritti, cifrari e letture, "What it means", limiti, registro della ricerca con link a
+  https://github.com/AndreottiVIII/voynich-research, paragrafo sull'uso di Claude come nella sezione 4.5 del paper).
+  PDF `research/Caniatti_2026_Hiding_a_message_in_a_Voynich-like_book_v2.pdf` (38 pagine, SHA-256 5633426e…122b,
+  verificato identico online); la v1 resta scaricabile come "Version 1", senza "superseded". Contributori ancora fuori
+  dal sito (indicazione di Davide "per ora", da riconfermare). How it works: il repository della ricerca ora è
+  pubblico. Commit del sito 9f839f4 e bbc51f8. Manca il DOI di Zenodo: va aggiunto nella citazione.
