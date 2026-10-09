@@ -289,3 +289,9 @@ Pacchetto v17 **senza modifiche** dentro Pyodide 314.0.7 (Python 3.14.2, numpy 2
   verificato identico online); la v1 resta scaricabile come "Version 1", senza "superseded". Contributori ancora fuori
   dal sito (indicazione di Davide "per ora", da riconfermare). How it works: il repository della ricerca ora è
   pubblico. Commit del sito 9f839f4 e bbc51f8. Manca il DOI di Zenodo: va aggiunto nella citazione.
+- **9/10/2026, dominio proprio: https://voynichizer.com** (comprato da Davide su GoDaddy). DNS su GoDaddy: 4 record A
+  `@` → 185.199.108.153, .109, .110, .111 (al posto del parcheggio), CNAME `www` → `andreottiviii.github.io`, TXT
+  `_github-pages-challenge-AndreottiVIII` per la verifica; nessun inoltro. Dominio verificato nell'account GitHub
+  (Settings → Pages). Nel sito: file `docs/CNAME` (`voynichizer.com`; **non cancellarlo**, senza il dominio si stacca),
+  `og:url` e `og:image` sul nuovo indirizzo (commit a526bf1). Il vecchio indirizzo andreottiviii.github.io/voynichizzatore/
+  rimanda al nuovo con un 301. HTTPS: certificato chiesto da GitHub, poi "Enforce HTTPS" nelle impostazioni Pages del repo.

@@ -934,3 +934,6 @@ come **PDF del libro**.
   Davide, PDF finale di 38 pagine, abstract corto, link al repo pubblico voynich-research; la v1 resta come "Version 1").
   Pubblicata e verificata online. Dettagli in `SITO_WEB.md`, §14. Contributori ancora fuori dal sito, in attesa di
   conferma di Davide; DOI di Zenodo da aggiungere quando arriva.
+- Sito su dominio proprio: https://voynichizer.com (DNS su GoDaddy, dominio verificato su GitHub, file `docs/CNAME` da
+  non cancellare). Il vecchio indirizzo rimanda al nuovo. Dettagli in `SITO_WEB.md`, §14. Avvisate la chat del
+  voynichizzatore (link nel README) e quella della ricerca (scheda Zenodo, articolo, bibliografia).
