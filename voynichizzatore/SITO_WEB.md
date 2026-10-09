@@ -295,3 +295,13 @@ Pacchetto v17 **senza modifiche** dentro Pyodide 314.0.7 (Python 3.14.2, numpy 2
   (Settings → Pages). Nel sito: file `docs/CNAME` (`voynichizer.com`; **non cancellarlo**, senza il dominio si stacca),
   `og:url` e `og:image` sul nuovo indirizzo (commit a526bf1). Il vecchio indirizzo andreottiviii.github.io/voynichizzatore/
   rimanda al nuovo con un 301. HTTPS: certificato chiesto da GitHub, poi "Enforce HTTPS" nelle impostazioni Pages del repo.
+- **9/10/2026, sito allineato al white paper v2** (richiesta di Davide: "dove differiscono guida il paper", testi più
+  scorrevoli del paper). Revisione estesa di tutte le pagine (tre controlli in parallelo, poi correzioni): 207 pagine
+  con i nomi dei fogli (non "207 folios"); capacità 81.100–85.900 bit sulle 24 chiavi (dipende dalla chiave e un poco
+  dal messaggio); circa 20.000 caratteri; passphrase "sei parole o dodici caratteri a caso"; sicurezza computazionale,
+  libri gemelli con la stessa chiave, sale fisso, nessuna revisione di un crittografo, nessuna correzione d'errore;
+  How it works con principio e sue condizioni, scala dei controlli (e400), libri con e senza messaggio (e419), limiti
+  del paper, tabella delle versioni del paper; Research con i crediti e le cautele del paper. Anteprima dei link:
+  `preview.jpg` (voynichizer.com, "207 pages"). Commit del sito 3ac4af6. Segnalate alla chat della ricerca due
+  incongruenze del paper (giunzione dei generatori 0–0,08 contro 0,16–0,17 di voynich-fingerprint; larghezze "in
+  glyphs" mentre il codice conta caratteri EVA).

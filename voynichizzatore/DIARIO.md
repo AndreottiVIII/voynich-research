@@ -941,3 +941,6 @@ come **PDF del libro**.
 ## 9/10/2026 — Dominio del sito
 
 - Il sito ha il dominio https://voynichizer.com (comprato da Davide; il vecchio indirizzo rimanda). Nel repo pubblico c e `docs/CNAME`: **non toccarlo e non cancellarlo**, o il dominio si stacca. Link nel README pubblico aggiornato.
+- Sito allineato al white paper v2 (revisione estesa di tutte le pagine; dove differivano vale il paper). Nuova
+  anteprima dei link (`preview.jpg`). Il DNS di GoDaddy ha oscillato per qualche minuto dopo la modifica (alcuni server
+  davano ancora il parcheggio): ora stabile. Dettagli in `SITO_WEB.md`, §14.
