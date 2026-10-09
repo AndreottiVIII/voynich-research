@@ -77,7 +77,7 @@ script of the Voynich manuscript (Beinecke MS~408), in EVA transliteration. The 
 authenticated with a key, and the resulting bits are sampled into the book through an arithmetic decoder: they decide only
 how many times each recurring Voynich word appears on each page, while layout, invented words and word order follow the
 manuscript's statistics. With the key the text is recovered exactly; without it, a book that carries a message and a book
-that carries none are samples of the same distribution.
+that carries none are samples of the same distribution (a classifier trained to separate them scores AUC 0.51).
 
 \noindent The generator is specified by a scorecard drawn from 716 logged experiments on how the manuscript is written
 (670 preregistered), each compared with the same measurement in 24 natural languages, constructed languages, volunteers'

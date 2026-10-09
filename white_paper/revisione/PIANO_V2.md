@@ -32,14 +32,15 @@ Punto di ripartenza per qualunque sessione. Verifica delle note del revisore: `V
 - [x] e3c89 riga chiusa e margine a 10.000 parole (A8): reggono
 - [x] e3c87 raccordo a parità di posizione (Feaster 2022): non viene dalla posizione
 - [x] e3c90 potenza per scriba e scelta (A9): deriva assente con potenza 20/29 (corretto: prima 28/29, errore di unità); finestra 14/29, 13 senza potenza, 2 presenti (e3c91: Holm A 10 incerto)
-- [ ] confronti multipli (Holm) per famiglie di prove (A3)
-- [ ] registro completo degli esperimenti (A2, B12) — agente in corso, da rivedere
+- [x] e3c92 confronti multipli (A3): Holm 23 su 23; Bonferroni su 715 esperimenti 15 su 23
+- [x] registro completo degli esperimenti (A2, B12): `registro_esperimenti.csv`, 716 righe
 - [ ] controllo a campione sulle immagini (A11) — servono ritagli IIIF (download: chiedere a Davide); per gli spazi incerti citare Rozanova e Temerev
 - [ ] (con download autorizzato) voynich-fingerprint (271 KB, MIT) nelle nostre misure; Kinnison = Naibbe, già misurato: non serve
 
 ### 2. Materiale sul voynichizzatore (lavoro dell'altra chat: leggere, non modificare)
-- [x] Scheda tecnica: `white_paper/revisione/scheda_voynichizzatore.md`. Buco: con messaggio contro senza messaggio misurato solo sulla v9 → chiesto alla chat del voynichizzatore di rifarlo sulla v21 (8/10)
-- [ ] Precedenti:
+- [x] Scheda tecnica: `white_paper/revisione/scheda_voynichizzatore.md`.
+- [x] e419 (chat del voynichizzatore): con contro senza messaggio sulla v21, differenze dentro l'errore, classificatore diretto AUC 0,506; nel paper (§9)
+- [x] Precedenti (nel §2 del paper):
   - steganografia: Ziegler 2019, Meteor 2021, Cachin 1998, Hopper 2002;
   - Wayner 1992;
   - test a due campioni con classificatore (Lopez-Paz e Oquab 2017);
