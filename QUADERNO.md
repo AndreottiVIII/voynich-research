@@ -16269,3 +16269,43 @@ rieseguito; il risultato vecchio resta nella storia del repository.
   - nelle altre 9 l'intervallo arriva fino a metà del valore del Voynich.
 - Nel white paper le frasi "28 scelte su 29" diventano "20 su 29", con la frase sul massimo. La voce dell'e3c90 di
   questa mattina resta com'era (il quaderno si scrive solo aggiungendo).
+
+## 8/10/2026 — vz: e419, con messaggio contro senza messaggio sulla v21 (24 chiavi; per il white paper)
+
+Preregistrazione `preregistrazioni/e419.md` (richiesta della chat di ricerca). Risultati:
+`risultati/e419_con_senza_messaggio.md` e `.json`; caso b (senza messaggio) dell'e409:
+`risultati/e409b_messaggio_nel_sacco_v21_chiavi_1_12.json` e `_13_24.json` (il riassunto .md di quelle due corse è
+caduto perché dava per scontato il caso a: i .json sono completi; codice dell'e409 corretto dopo, dichiarato).
+
+Versione v21, chiavi e409-1 … e409-24, Isidoro XVII. Per ogni chiave due libri: con il messaggio (caso a, misurato
+come `v21f1`, parametri identici) e senza (soli bit di riempimento, stessa chiave).
+
+**1. Contro il Voynich** (giudici, pagella, cancello; differenza appaiata a − b, 24 chiavi):
+
+| | con messaggio | senza | differenza |
+|---|---|---|---|
+| giudice e231 | 0,554 | 0,563 | −0,009 ± 0,008 |
+| giudice e266 | 0,601 | 0,608 | −0,007 ± 0,010 |
+| pagella (su 18) | 16,0 | 16,0 | −0,04 ± 0,04 |
+| cancello della riga | 24 su 24 | 24 su 24 | |
+
+**2. Diretto.** Classificatore con le caratteristiche dell'e266 (regressione logistica dell'e231), pagine dei libri
+con messaggio contro pagine dei libri senza, 9.420 pagine, pieghe per chiave: **AUC 0,506**. Per gruppo: G1 0,506,
+G2 0,509, G3 0,505, G4 0,501, G5 0,500, G6 0,493, G7 0,502, G8 0,499, G9 0,498.
+
+**3. Controllo negativo** (etichette senza senso: chiavi dispari contro pari, soli libri senza messaggio): AUC 0,511;
+per gruppo da 0,38 a 0,49. Con le pieghe per chiave un singolo gruppo può scendere ben sotto 0,5 anche quando non c'è
+niente da imparare (tenendo fuori una chiave intera il classificatore impara "al contrario"): l'intervallo del
+"niente" è largo per gruppo e stretto sul totale. I gruppi del punto 2, tutti fra 0,49 e 0,51, stanno dentro.
+
+**4. Controllo positivo** (noto): gli stessi libri contro il Voynich danno 0,55 e 0,60.
+
+**Previsioni.** Differenze entro ±0,010: sì (errore standard 0,008–0,010, più grande del previsto 0,005). Diretto fra
+0,45 e 0,55 e nessun gruppo oltre 0,58: sì. Negativo fra 0,45 e 0,55: sì. Capacità uguale nei due casi: **no**, 0 su
+24: la capacità dipende dai bit (codifica aritmetica), quindi "con" e "senza" differiscono di qualche centinaio di bit
+su circa 82.000. Non è una via per distinguerli dal libro: la capacità si conosce solo con la chiave.
+
+**Lettura.** Con le nostre misure un libro con messaggio e uno senza non si distinguono: differenze contro il Voynich
+dentro un errore standard, classificatore diretto a 0,506 con tutti i gruppi fra 0,49 e 0,51. Limite dichiarato: sono
+le nostre caratteristiche (circa 220 per pagina) e il nostro classificatore; un attaccante con altre statistiche non
+è escluso da questa misura. Nessuna versione nuova.

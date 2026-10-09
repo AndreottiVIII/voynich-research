@@ -1,0 +1,7 @@
+diretto (con contro senza): AUC 0.506 | {'G1': 0.506, 'G2': 0.509, 'G3': 0.505, 'G4': 0.501, 'G5': 0.5, 'G6': 0.493, 'G7': 0.502, 'G8': 0.499, 'G9': 0.498}
+controllo negativo (dispari contro pari, senza messaggio): 0.5110129500797784
+capacita' uguale nei due casi: 0 su 24
+AUC_e231: a 0.5543 b 0.5630 differenza -0.0087 ± 0.0076
+AUC_e266: a 0.6013 b 0.6079 differenza -0.0066 ± 0.0095
+pagella: a 15.9583 b 16.0000 differenza -0.0417 ± 0.0417
+cancello: a 24, b 24 su 24
