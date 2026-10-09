@@ -3,8 +3,8 @@
 \label{sec:evaluation}
 
 \paragraph{Protocol} Version~21 was run with 24 keys on the same text (the opening of Isidore's \emph{Etymologiae}
-XVII, 38{,}304 bits). Keys 1--12 had also been used during development to choose between variants; keys 13--24 never
-were. Each book was judged by the two judges, the scorecard, the eight extra properties and the line gate, read back with
+XVII, 38{,}304 bits). Keys 1--12 had also been used during development to choose between variants; keys 13--24 were never
+used for tuning, only for confirmation runs of earlier versions. Each book was judged by the two judges, the scorecard, the eight extra properties and the line gate, read back with
 its key and with a wrong key.
 
 \begin{table}[htbp]
@@ -41,16 +41,16 @@ capacity (bits) & & & 81{,}100--85{,}900 \\
 6 & homogeneity within the line & 0.0385 & 0.0414 & 1 \\
 7 & gradient (not attainable) & 0.683 & 0.62 & 24 \\
 8 & junction & 0.188 & 0.180 & 0 \\
-9 & attested joins relative to chance & 1.97 & 2.13 & 0 \\
+9 & attested joins relative to chance & 1.96 & 2.13 & 0 \\
 10 & flat curve of once-occurring words & 0.057 & $-0.024$ & 0 \\
 11 & vocabulary turnover & 0.106 & 0.095 & 0 \\
-12 & page profile (ratio) & 1.06 & 0.66 & 24 \\
+12 & page profile (ratio) & 1.02 & 0.66 & 24 \\
 13 & autocorrelation of word lengths & 0.150 & 0.142 & 0 \\
 14 & Zipf slope & $-1.041$ & $-1.005$ & 0 \\
 15 & word shape & 0 & 0.040 & 0 \\
 16 & vertical similarity & 1.028 & 1.035 & 0 \\
-17 & formulas & 6.39 & 4.58 & 0 \\
-18 & line edges (start; end) & 23; 55 & 23.6; 54.5 & 0 \\
+17 & formulas & 5.20 & 4.58 & 0 \\
+18 & line edges (start; end) & 23.3; 55.5 & 23.6; 54.5 & 0 \\
 \bottomrule
 \end{tabularx}
 \end{table}
@@ -68,7 +68,8 @@ capacity (bits) & & & 81{,}100--85{,}900 \\
 with 0.60 (Table~\ref{tab:results}, Figure~\ref{fig:evaluation}); on the fresh keys the second judge gives 0.606. For the
 second judge this is the level of the real manuscript with its lines shuffled within each page (0.595), and far from
 the manuscript with its words shuffled within each line (0.99). The group of features that the second judge uses best
-is the register of the first lines of paragraphs (AUC 0.62 on that group alone). The books pass 16 of the 17
+is the register of the first lines of paragraphs (AUC 0.61 on that group alone over the 24 keys; on the fresh keys the
+word statistics are as informative, 0.609 against 0.605). The books pass 16 of the 17
 attainable scorecard properties: they always miss the page profile, a measure of how much each page departs from its
 section, and once the homogeneity within the line. Of the extra properties they usually miss the spelling choices that
 vary from line to line (23 of 24 keys), the register of the first lines (18 of 24) and the spread of word lengths (20 of
@@ -82,9 +83,9 @@ second, and the scorecard differs by $-0.04 \pm 0.04$; all 48 books pass the lin
 tell the pages of books with a message from the pages of books without one (the 228 features of the second judge, folds by
 key, 9{,}420 pages) scores AUC 0.506, and no group of features exceeds 0.51; as a negative control, the same classifier
 separating books of odd and even keys, all without a message, scores 0.511. These are the outcomes predicted in the
-preregistration (differences within $\pm 0.010$, direct AUC between 0.45 and 0.55, no group above 0.58). One prediction
-failed: the capacity of a book is not the same with and without a message, because the arithmetic decoder consumes a
-number of bits that depends on the bits themselves; capacity is not observable without the key. With our instruments (about 220 features
+preregistration (differences within $\pm 0.010$, direct AUC between 0.45 and 0.55, no group above 0.58), although the standard errors of the
+differences are larger than the 0.005 we expected. One prediction failed: the capacity of a book is not the same with and without a message, because the arithmetic decoder consumes a
+number of bits that depends on the bits themselves; capacity is not observable without the key. With our instruments (228 features
 per page and a logistic classifier), a book that carries a message cannot be told from one that does not. The measurement
 does not exclude other statistics; the argument that none can succeed is the construction of Section~\ref{sec:generator},
 and it holds only as long as the cipher is sound.
@@ -93,5 +94,6 @@ and it holds only as long as the cipher is sound.
 text, and no images (the website places the real drawings next to the generated folios). It does not model hands, and
 it generates pages independently, so the bifolium effects of Section~\ref{sec:book} are absent. It models copying from
 the line above by the index of the word in the line, whereas the manuscript copies by physical position. Two rules of
-Section~\ref{sec:rules} that are not in the instruments, the closure at the gap of a drawing and the drift along the
-line, were not targeted, and the short state only as agreement of the spelling choices within a line.
+Section~\ref{sec:rules} were not targeted: the closure at the gap of a drawing, which no instrument measures, and the
+drift along the line, which enters them only indirectly. The short state was targeted only as agreement of the spelling
+choices within a line.

@@ -13,8 +13,8 @@ files therefore does not replicate where a line ends.
 \paragraph{Treatment of the transliteration} We use the running paragraph text: 207 pages, about 4{,}100 lines and
 34{,}900 words; labels, circular and radial text enter only the tests that say so. Uncertain readings
 (\texttt{[a:b]}) take the first option; ligature braces are removed; rare glyphs (\texttt{@nnn;}) and illegible glyphs
-(\texttt{?}) make a word unusable, and such words (0.6\%) are dropped, so that their neighbours become adjacent (about
-1\% of adjacent pairs are affected). The uncertain space (EVA comma) counts as a space unless stated; the tests on
+(\texttt{?}) make a word unusable, and such words (0.6\%) are dropped; depending on the experiment, the pair across a
+dropped word is either skipped or counted as adjacent. The uncertain space (EVA comma) counts as a space unless stated; the tests on
 uncertain spaces treat it separately. The EVA sequences \eva{ch}, \eva{sh}, \eva{cth}, \eva{ckh}, \eva{cph} and
 \eva{cfh} count as single glyphs. Pages, bifolia and quires are taken from the IVTFF page headers: 50 bifolia and 16
 quires carry text. Hands follow \citet{davis2020} and languages follow \citet{currier1976}, both as recorded in the files
@@ -38,12 +38,14 @@ page by page.
   used in the tests on prayers and litanies.
 \item \textbf{Handwritten gibberish:} the 38 released texts written by volunteers for \citet{gaskellbowern2022}.
 \item \textbf{Published generators and ciphers:} the Naibbe cipher \citep{greshko2025}; the self-citation generator of
-  \citet{timmschinner2020}; the generators U2 and U3 of \citet{whitehatnetizen2026}.
+  \citet{timmschinner2020}; the generators U2 and U3 of \citet{whitehatnetizen2026}; the generator of
+  \emph{voynich-fingerprint} and its procedure for a scribe working by hand \citep{sachak2026}.
 \item \textbf{Medieval manuscripts transcribed at the level of letter forms}, with original lines and pages: six
   Nordic manuscripts from Menota \citep{menota} (AM 519 a 4to, Icelandic, c.~1280; AM 677 4to, Icelandic, c.~1200--1225;
   AM 60 4to, Norwegian, c.~1320; AM 242 fol, Icelandic, c.~1350; Holm A 10, Swedish, c.~1500--1550; AM 302 fol,
   Norwegian, c.~1300) and 73 German manuscripts of 1350--1500 from the Reference Corpus of Early New High German
-  \citep{ref2021}. These are 79 manuscripts, not 79 known individual scribes: the files do not mark changes of hand.
+  \citep{ref2021}. These are 79 manuscripts, not 79 known individual scribes: the files do not mark changes of hand (with one
+exception in AM 677 4to).
 \item \textbf{A historical cipher:} the Copiale, a mid-eighteenth-century German homophonic cipher of 105 pages, with
   the transcription and decipherment of \citet{knight2011,knight2012}.
 \end{itemize}
@@ -110,8 +112,9 @@ The measures are described in words where they are used; their definitions are i
 
 Intervals are bootstrap percentiles (2{,}000 resamples). In version~1 we resampled pages; but pages of the same
 bifolium are not independent (Section~\ref{sec:book}), so the main intervals are now computed by resampling bifolia
-(experiment \expcode{e3c86}). They are 0.84 to 1.56 times as wide as the page intervals, and every main measure keeps
-its interval clear of the null value; with only 16 quires, resampling quires widens them further and one drift
+(experiment \expcode{e3c86}). They are 0.84 to 1.56 times as wide as the page intervals, and each of the ten main
+measures re-run in this way keeps its interval clear of the null value (copying from the line above and the junction
+rules were not re-run); with only 16 quires, resampling quires widens most intervals further and one drift
 (\eva{k}/\eva{t}) touches zero. For the main tests we declared seven families (one per finding) and applied Holm's
 correction within each, and Bonferroni's correction over the 715 experiments logged before this test as a stricter reference
 (\expcode{e3c92}): all 23 tests survive Holm, 15 survive Bonferroni (Table~\ref{tab:multiplicity} in

@@ -29,12 +29,12 @@ every generated book; its cross-validated area under the ROC curve (AUC) is a cl
 (\expcode{e231}) is an L2-regularised logistic regression on 209 page features: frequencies of the 30 most frequent
 glyphs and of the 150 most frequent glyph pairs inside words; word length; types per token and unique words; first and
 last glyphs of lines; similarity of neighbouring words and attested joins; and vertical similarity. The second
-(\expcode{e266}) adds 19 features: pairs seen elsewhere, identical neighbours, similarity at distance two, the length and
-initials of first and last words of lines, gallows and word length in the first lines of paragraphs, and the divergence of
+(\expcode{e266}) adds 19 features: pairs seen elsewhere, identical neighbours, similarity at distance two, the length of the first,
+second and last word of each line and the glyphs that begin the first words and end the last ones, gallows and word length in the first lines of paragraphs, and the divergence of
 a page's glyphs from the book's and between the halves of the page. No feature tests whether a word belongs to the Voynich
 vocabulary. An AUC of 0.5 means that the judge is guessing and 1 that it never errs; the project set in advance 0.6 or
 less as ``hard to tell apart'' and 0.7 or more as ``distinguishable''. Controls: Currier's languages A and B are told apart
-with AUC 1.000; random labels give 0.53 and 0.52; two earlier generators of the project give 0.97/0.99 and 0.87/0.94.
+with AUC 1.000; random labels give 0.53 and 0.52; two earlier generators of the project give 0.97/0.98 and 0.87/0.94.
 
 \paragraph{A ladder of controls} To read an AUC, we degraded the real manuscript one level at a time and judged it
 (\expcode{e400}; Table~\ref{tab:ladder}). Shuffling the lines within each page costs nothing to the first judge and brings
@@ -44,7 +44,9 @@ the same section gives 1.00. The second judge's floor for any text without the r
 \begin{table}[htbp]
 \centering\footnotesize
 \caption{The scorecard: 18 properties measured on a whole book cut into pseudo-pages of 29 lines, with the pass band and
-the value of the real manuscript. Property 7 is not attainable (the manuscript fails its band). Values of the generator
+the reference value of the real manuscript to which the band applies. Property 7 is not attainable (the manuscript fails
+its band). For properties 12 and 17 the reference was fixed with the scorecard; measured directly on the transliteration
+it is 1.06; 0.051 and 6.39. Values of the generator
 are in Table~\ref{tab:results}.}
 \label{tab:scorecard}
 \begin{tabularx}{\linewidth}{rYll}
@@ -59,16 +61,16 @@ are in Table~\ref{tab:results}.}
 6 & homogeneity: similarity of words within the line & $\pm 0.008$ & 0.0385 \\
 7 & gradient: similarity at six lines / within the line & 0.70--0.97 & 0.683 (fails) \\
 8 & junction: last glyph $\to$ first glyph & $\pm 0.05$ & 0.188 \\
-9 & attested joins of neighbours, relative to chance & 1.5--2.5 & 1.97 \\
+9 & attested joins of neighbours, relative to chance & 1.5--2.5 & 1.96 \\
 10 & flat curve of once-occurring words (1{,}000 vs 34{,}000 words) & $\le 0.10$ & 0.057 \\
 11 & vocabulary turnover between near and far blocks & $\ge 0.05$ & 0.106 \\
-12 & page profile (ratio and share) & 0.8--1.25 and 0.5--1.5$\times$ & 1.06; 0.061 \\
+12 & page profile (ratio and share) & 0.8--1.25 and 0.5--1.5$\times$ & 1.02; 0.061 \\
 13 & autocorrelation of neighbouring word lengths & $\ge 0.08$ & 0.150 \\
 14 & Zipf slope & $\pm 0.10$ & $-1.041$ \\
 15 & word shape: glyphs at the first, second, second-last and last position & $\le 1.0$ & 0 \\
 16 & vertical similarity: same position in the line above & $\ge 1.015$ & 1.028 \\
-17 & formulas: two- and three-word sequences recurring at least ten pages apart & 0.5--1.5$\times$ & 6.39 \\
-18 & line edges: divergence of line-initial and line-final glyphs & 0.5--2$\times$ & 23; 55 \\
+17 & formulas: two- and three-word sequences recurring at least ten pages apart & 0.5--1.5$\times$ & 5.20 \\
+18 & line edges: divergence of line-initial and line-final glyphs & 0.5--2$\times$ & 23.3; 55.5 \\
 \bottomrule
 \end{tabularx}
 \end{table}

@@ -43,10 +43,10 @@ observed by \citet{currier1976}, \citet{smith2017lastfirst} and \citet{smithponz
 \paragraph{It mirrors the rules inside words} The preferences between the last glyph of a word and the first glyph of
 the next resemble the preferences between consecutive glyphs inside a word: the rank correlation between the two tables
 of pointwise mutual information is 0.47 (median of samples of 10{,}000 words), against at most 0.37 in the 24 languages
-and 0.39 in the constructed ones. This part does not follow from word form: the nulls of \expcode{e3c85} bring it down
-to 0.13 or less (0.22 when only the order of the words within each line is shuffled), and the junction itself to
-zero. At equal $h_2$ the Voynich lies 4.6 standard deviations
-above the regression line of the languages. \citet{smithponzi2019} concluded that word breaks are real boundaries, and
+and 0.39 in the constructed ones. This part does not follow from word form: in the samples drawn for the nulls of
+\expcode{e3c85} the Voynich has 0.55, and the nulls bring it down to 0.13 or less (0.22 when only the order of the
+words within each line is shuffled), and the junction itself to zero. At equal $h_2$ the Voynich lies 4.6 standard
+deviations above the regression line of the languages (3.9 with the value 0.47). \citet{smithponzi2019} concluded that word breaks are real boundaries, and
 Section~\ref{sec:boundaries} agrees; what we add is that the dependency across the boundary follows the same pattern as
 the dependency inside the word, more than in any language of the sample.
 
@@ -54,11 +54,13 @@ the dependency inside the word, more than in any language of the sample.
 \eva{-o} or \eva{-d} (59--64\% of the time) and with \eva{o-} after \eva{-n}, \eva{-r}, \eva{-s} or \eva{-m} (\eva{qo-}
 only 23--27\%); in part this was described by \citet{currier1976} and \citet{smith2017o}. (2) A word ends in \eva{-r}
 before a word beginning with \eva{a-} (85\%) and in \eva{-l} before \eva{k-}, \eva{t-}, \eva{d-}, \eva{l-}, \eva{s-},
-\eva{q-} (63--86\%). Both rules hold within every class of position in the line
-(\expcode{e3c87}): with a null that keeps position, the junction stays at 0.196 against 0.188, and in each interior
+\eva{q-} (63--86\%). Both rules hold for each position in the line where there are enough cases
+(\expcode{e3c87}; for \eva{-l}/\eva{-r} only the class of the fourth word onwards has enough, and the other classes go
+the same way): with a null that keeps position, the junction stays at 0.196 against 0.188, and in each interior
 position \eva{qo-} follows \eva{-y}/\eva{-o}/\eva{-d} 61--70\% of the time against 23--33\% after
-\eva{-n}/\eva{-r}/\eva{-s}/\eva{-m}. The caution of \citet{feaster2022} does not apply to these rules. They hold
-equally in the three main hands, in all sections and bifolia, and in the three transliterations. They have the shape of
+\eva{-n}/\eva{-r}/\eva{-s}/\eva{-m}. The caution of \citet{feaster2022} does not apply to these rules. They go
+the same way, with intervals above zero, in the three main hands (with a strength that varies up to twofold), in every
+section with enough data, and in the three transliterations. They have the shape of
 rules such as English \emph{a}/\emph{an} or French \emph{liaison}; they say nothing about the sounds behind them, and
 they are compatible with a phonetically written language.
 
@@ -73,7 +75,7 @@ the first glyph of the word after next (excess 0.003 bits, $z = 1.3$), while 22 
 \label{sec:line}
 
 \paragraph{The junction stops at the line break} Between the last word of a line and the first word of the next the link
-is zero ($-0.003$ bits, $z = -0.6$), against 0.19 inside the line; the ratio $Q$ of the two is $-0.02$ on the whole text
+is zero ($-0.003$ bits, $z = -0.7$), against 0.19 inside the line; the ratio $Q$ of the two is $-0.02$ on the whole text
 and 0.02 on samples of the length of the comparison texts (\expcode{e3c89}). In the comparison languages, whose lines are
 prose cut every six to eight words, the median $Q$ is 0.49 and only Hebrew falls below 0.10. A herbal in verse, the
 \emph{Macer floridus} printed one verse per line, has a closed line too ($Q = -0.004$). The line is therefore a unit of
@@ -111,7 +113,8 @@ a line avoids beginning like the line above: identical starts are 0.51 of the ex
 ($-7.0$). If the line above starts with \eva{qo-}, the probability that the next starts with \eva{qo-} drops by 52
 points. The effect concerns the left margin only: it is absent where lines resume to the right of a drawing, and the
 line two above, the end of the line above and the right margin do not matter. In the languages the median ratio is 0.97
-and one language of 23 falls below the Voynich (Portuguese, in two texts with artificial lines); the volunteers' gibberish
+and one language of 23 falls below the Voynich (Portuguese, in a text with artificial lines; two when the text of
+each language closest to the Voynich is used); the volunteers' gibberish
 has 1.32 and the generators 0.93--2.05. A forum study had reported vertical avoidance of the same glyph in the herbal
 pages of one scribe \citep{tavie2024}; we measure it across the manuscript and against the comparison texts.
 
@@ -160,7 +163,8 @@ nearly identical (one glyph different), as reported by \citet{boxer2022} and \ci
 read this as repetition beyond chance. The observed/expected ratio corrects that reading (\expcode{e3c88}):
 \begin{itemize}
 \item against the composition of each line (words shuffled within the line), the Voynich repeats the previous word as
-  often as chance (ratio 1.04), whereas every comparison text avoids it: languages 0.2--0.92 (the highest is Sanskrit),
+  often as chance (ratio 1.04), whereas every comparison language and manuscript avoids it: languages 0.01--0.92 (the
+highest is Sanskrit),
   the Nordic scribes 0.02--0.07, the German manuscripts at most 0.79, the Copiale copyist 0;
 \item against the whole vocabulary ($\sum p^2$), the ratio is 2.85: repeated words gather in the same line (Sanskrit
   reaches 2.86).
@@ -181,14 +185,15 @@ repeated word changes its start or end, the change follows the junction rule wit
 \item \textbf{First and last lines have their own register}: longer words and more \eva{p}, \eva{f}, \eva{sh} and final
   \eva{-y} in the first line; fewer \eva{qo-} and gallows, more \eva{ch-}, \eva{s-}, \eva{y-} in the last.
 \item \textbf{\eva{-ey} grows down the page}: for the same position in the line, the share of \eva{-ey} among words in
-  \eva{-ey}/\eva{-dy} rises by 12 percentage points from top to bottom of the page (95\% interval 7--18) and by 10 points
-  from the first to the last line of a paragraph, separately; lines get shorter down the page.
+  \eva{-ey}/\eva{-dy} rises by 12 percentage points from top to bottom of the page (95\% interval 7--18); an apparent rise along
+  the paragraph came from its opening lines. Lines get shorter down the page.
 \item \textbf{Each page has a strong identity}, mainly along an axis from words in \eva{-edy}/\eva{-eey} to words in
   \eva{-aiin}/\eva{-ain}: pages depart from the profile of their section 2.8 times more than chance.
 \item \textbf{The bifolium is a unit of identity}: the identity of a page is shared by the other side of the same leaf and
   by the conjugate leaf of the same bifolium, which in the bound book can lie far away, and not by the facing page
-  ($z = 6.6$). The two halves of a bifolium share rare words and copy from each other. All 48 bifolia with enough text are
-  entirely in one language, and 94\% in one hand. Hands and languages are recorded page by page in the files, and
+  ($z = 6.6$). The two halves of a bifolium share rare words and copy from each other. All 48 bifolia with at least two
+  pages labelled for language are entirely in one language, and 94\% of the 52 with at least two pages labelled for
+  hand are in one hand. Hands and languages are recorded page by page in the files, and
   \citet{davis2025} had noted that in the herbal section the hands follow the bifolia; the shared rare words and the
   copying between conjugate leaves are what we add. Davis prefers, tentatively, quires written by one scribe and later
   bound out of order to scribes working on loose bifolia; our data do not separate the two.

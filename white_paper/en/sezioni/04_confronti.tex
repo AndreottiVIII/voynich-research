@@ -18,7 +18,9 @@ says how unusual the word form is, not that the text is a chain.
 \caption{The Voynich against the 24 natural languages of \citet{gaskellbowern2022}, one value per language (median of
 its texts; first 10{,}000 words), and against the constructed languages. ``Beyond'' counts the languages further than the
 Voynich in its own direction; the sensitivity columns use language and period, and the text of each language closest to
-the Voynich. Experiment \expcode{e3c84}.}
+the Voynich. The Voynich values are computed as for the languages and can differ slightly from the whole-text values of
+Section~\ref{sec:rules} (junction 0.191 against 0.188, near-identical neighbours 4.13\% against 3.9\%). Experiment
+\expcode{e3c84}.}
 \label{tab:languages}
 \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{3.6cm}r>{\centering\arraybackslash}X>{\centering\arraybackslash}X>{\centering\arraybackslash}p{2.0cm}}
 \toprule
@@ -98,8 +100,8 @@ manuscripts are measured on the 73 manuscripts together. Data: \expcode{e3c50}, 
 \label{fig:battery}
 \end{figure}
 
-\paragraph{What it means} Junction rules, left-margin avoidance and the non-avoidance of immediate repetition have no
-counterpart in these manuscripts; line-edge forms exist in scribes but are four to eight times weaker; the drift is
+\paragraph{What it means} Left-margin avoidance and the non-avoidance of immediate repetition have no counterpart in
+these manuscripts, and the junction rules only much weaker ones (at most a quarter of the Voynich's); line-edge forms exist in scribes but are four to eight times weaker; the drift is
 smaller in every choice (at most 0.008 against 0.020--0.034 per ten glyphs) and absent with adequate power in 20 of 29.
 The short state is the property for which the comparison is weakest:
 with the data available it can be called absent in only half of the choices, and the Swedish scribe of Holm A 10 shows,
@@ -130,7 +132,7 @@ prayers and litanies take on its grain but not its anomalies.
 
 \paragraph{Substitution readings} Homophonic substitution with spaces in 14 languages recovers 69--98\% of the words of
 the controls and at most 36\% of Voynich ``words'', mostly the same three. A solver without spaces (simulated annealing
-on a five-gram model of Latin trained on nine million letters, recovering 98--100\% of the keys of its positive
+on a five-gram model of Latin trained on nine million letters, recovering 91--100\% of the keys of its positive
 controls) never reliably beats the negative controls on the Voynich, whatever the glyph inventory, the grouping or the
 reading direction. Further tests (85 languages with spaces; 16 vernaculars, historical languages and abbreviated Latin;
 a mixed nomenclator; searches guided by plant names and months; other reading orders; pieces of words as symbols) gave
@@ -167,6 +169,10 @@ properties or an agreement between adjacent word forms like the Voynich's. The v
 published generators we measured, Naibbe has neither junction nor line properties; the generator of
 \citet{timmschinner2020} copies from too far above, has no junction closed within the line, no word-independent state,
 no margin avoidance and no drift; U2 and U3 \citep{whitehatnetizen2026} do not combine the junction with a closed line.
-We have not run \emph{voynich-fingerprint} \citep{sachak2026}, whose 44 statistics, reproduced on held-out folios, include
-a cross-word junction computed without line breaks but no line-final forms, no vertical relation and no margin; our
-statement is therefore limited to the generators measured.
+\emph{voynich-fingerprint} \citep{sachak2026}, which reproduces 44 statistics on held-out folios, has the junction and
+its mirroring of within-word rules (0.16--0.17 bits, $\rho$ 0.39--0.44 over three books of its frozen configuration)
+and, in two books of three, a drift of \eva{qo-}/\eva{o-} along the line close to the manuscript's; but its lines are
+not closed (the junction crosses the line break almost as within the line), it has no margin avoidance, almost no
+line-final forms, no copying from the line above and no short state, and it repeats words within the line more than
+twice as often as chance. Its procedure for a scribe working by hand does the same (\expcode{e3c93}). Our statement
+is limited to the generators measured.

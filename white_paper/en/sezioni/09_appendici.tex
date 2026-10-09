@@ -6,7 +6,7 @@
 
 Notation: a line is a sequence of words $w_1,\dots,w_n$; a word is a sequence of glyphs (Section~\ref{sec:data}); $\ell(w)$
 and $f(w)$ are its last and first glyph. Plug-in entropies and mutual informations are in bits. Unless stated, a null is
-averaged over 50--1{,}000 permutations and $z$ is the distance of the observed value from the null mean in null standard
+averaged over 50--10{,}000 permutations and $z$ is the distance of the observed value from the null mean in null standard
 deviations.
 
 \paragraph{Junction} $I = I(\ell(w_i); f(w_{i+1}))$ over all pairs of adjacent words in the same line; $E = I -
@@ -78,7 +78,7 @@ finite-sample bias.
 \begin{table}[htbp]
 \centering\footnotesize
 \caption{The main tests corrected for multiplicity: Holm within seven families, and Bonferroni over the 715 experiments
-logged before this test ($p < 7.0\times10^{-5}$, $|z| > 3.97$). Experiment \expcode{e3c92}.}
+logged before this test ($p < 7.0\times10^{-5}$, $|z| > 3.98$). Experiment \expcode{e3c92}.}
 \label{tab:multiplicity}
 \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{2.8cm}Yrcc}
 \toprule
@@ -88,7 +88,7 @@ junction & junction between adjacent words & $z = 191.7$ & yes & yes \\
  & \eva{qo-}/\eva{o-} after the previous word & $z = 19.4$ & yes & yes \\
  & \eva{-l}/\eva{-r} before the next word & $z = 12.7$ & yes & yes \\
  & look-ahead, end of the first word changes & $p = 0.0002$ & yes & no \\
- & look-ahead, next word adapts & $p < 0.0001$ & yes & no \\
+ & look-ahead, next word adapts & $p = 0.0001$ & yes & no \\
 line edges & \eva{-m} at line end; \eva{-r} drops & $z = 26.7$; $-13.6$ & yes & yes \\
  & \eva{y-}, \eva{s-} at line start & $z = 16.6$; $16.0$ & yes & yes \\
 copying & beyond the paragraph's vocabulary & $z = 17.4$ & yes & yes \\
@@ -141,7 +141,6 @@ while the measurements show a closed line ($Q \approx 0$, against 0.49 in langua
 \section{Internal checks: provisional readings corrected by later work}
 \label{app:checks}
 
-\paragraph{During the research (before version 1)}
 \begin{enumerate}
 \item The agreement measure was biased by up to $+0.37$ (Appendix~\ref{app:measures}). Before the correction it had
   given the Anglo-Saxon scribe of the \emph{Hatton Gospels} a ``window'' like the Voynich's, made Volapük look similar to
@@ -163,16 +162,12 @@ while the measurements show a closed line ($Q \approx 0$, against 0.49 in langua
   same on the shuffled Voynich, the second changed sign with the starting points of the search.
 \item Three criteria called ``absent'' an effect whose interval only touched zero; the estimates were positive and
   similar to the rest. Since then ``absent'' requires the upper end of the interval below half the reference value.
-\end{enumerate}
-
-\paragraph{Prompted by the external review of version 1}
-\begin{enumerate}[resume]
 \item ``71 languages'' were 71 texts, 15 of them in constructed languages; per natural language almost all comparisons
   hold, but two maxima came from Toki Pona, the junction is exceeded by two languages of 24 (not ``six of 71''), and the
   per-text junction values of version~1 came from an unsaved exploratory check with a different glyph segmentation
   (\expcode{e3c84}).
 \item The ``weak space inside a chain of glyphs'' does not survive a word-grammar null: predictable spaces, attested wrong
-  cuts and form filling follow from word form (\expcode{e3c85}). The junction and its mirroring of within-word rules
+  cuts, form filling and the frequency--form correlation follow from word form (\expcode{e3c85}). The junction and its mirroring of within-word rules
   survive.
 \item ``Repeats the previous word more than chance'' becomes ``does not avoid repeating it, and repeated words cluster in
   the line'' (\expcode{e3c88}); ``no comparison text has this signature'' for the decline of repetition within the line was
@@ -229,6 +224,7 @@ Copiale & \citet{knight2011,knight2012}, project page at Stockholm University & 
 Naibbe & \citet{greshko2025}, repository greshko/naibbe-cipher & modified MIT \\
 Timm and Schinner generator & \citet{timmschinner2020} & MIT \\
 U2, U3 & \citet{whitehatnetizen2026} & MIT \\
+voynich-fingerprint & \citet{sachak2026}, commit a6d7558 & MIT \\
 readings tested & \citet{bax2014,vatne2021,cheshire2019,schechter2026,gatta2026} & as published; Schechter: none stated, local copy not redistributed \\
 \bottomrule
 \end{tabularx}
