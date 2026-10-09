@@ -1,0 +1,760 @@
+{
+ "riferimento_voynich": {
+  "pagella": 17,
+  "di_riga": 11,
+  "R_riga": 0.0073119854371132284,
+  "S1": 0.5301556420233463,
+  "bordo": [
+   23.47495091043579,
+   55.59708204586406
+  ],
+  "giuntura_E": 0.19117609601546276,
+  "rispecchiamento_rho": 0.5541789428621793,
+  "K_corretto": [
+   0.13125708390041835,
+   0.09307757904138247,
+   0.085832927017618
+  ],
+  "deriva_per_10_segni": {
+   "qo/o": -0.01981907932135083,
+   "k/t": -0.030751678677619982,
+   "sh/ch": -0.03383712343787819,
+   "-ey/-dy": -0.02953082434185205
+  },
+  "OE_riga": 1.0421247374133153
+ },
+ "testi": {
+  "voynich-fingerprint, seme 7": {
+   "parole": 37263,
+   "h2": 2.2571756639632867,
+   "lung_media": 4.623191906180393,
+   "tipi_su_parole": 0.21526666666666666,
+   "hapax": 0.666924744502942,
+   "identiche_immediate": 0.010434993629800401,
+   "identiche_vs_riga": 2.443440890575087,
+   "somiglianza_riga": -0.0004062157006279321,
+   "somiglianza_riga_sotto": -0.000650051380135519,
+   "somiglianza_6_righe": 2.9302813408960127e-05,
+   "spazio_spiegato": 0.6503659713176604,
+   "confine": 0.1667358382961579,
+   "unione_attestata": 0.048170842686404175,
+   "unione_caso": 0.032093672268397745,
+   "ordine_rispettato": 0.7553080466388369,
+   "anagrammi": 0.3124650642817216,
+   "hapax_1000": 0.7492708421101545,
+   "hapax_34000": 0.6660500853727945,
+   "V2_ricambio_k1_meno_k20": -0.0006650326797387196,
+   "V3_R": Infinity,
+   "V3_quota_media": 0.0001660355081556149,
+   "lung_media_segni": 4.623191906180393,
+   "lung_dev_segni": 1.7235177145182592,
+   "V6_autocorrelazione_lunghezze": 0.04358361390190988,
+   "V7_zipf": -1.0491171700770754,
+   "V8_forma": 0.1197049869385876,
+   "verticale": 1.0052665733220532,
+   "formule_terne": 6.435643564356436,
+   "R_riga": 0.8579307367134489,
+   "bordo_inizio": 12.006538477133937,
+   "bordo_fine": 2.0320781267016312,
+   "S1": 1.0103931007501403,
+   "copia_prima": 1.1102544652535429,
+   "copia_seconda": 1.095662293852741,
+   "e94_pos2": 1.0097396153192224,
+   "esiti": {
+    "h2": true,
+    "spazio": true,
+    "uniche": true,
+    "tipi": true,
+    "ripetizione": false,
+    "omogeneità": false,
+    "gradiente": false,
+    "legame": true,
+    "unioni": true,
+    "curva piatta": true,
+    "deriva": false,
+    "profilo pagina": false,
+    "lunghezze vicine": false,
+    "Zipf": true,
+    "forma parole": true,
+    "verticale": false,
+    "formule": true,
+    "bordo di riga": false
+   },
+   "A": 0.9499435719711068,
+   "quota_sh_per_riga": 1.0127080329030451,
+   "accordo_riga_z": -1.9093387244402886,
+   "totale": 10,
+   "di_riga": {
+    "ripetizione": false,
+    "omogeneità": false,
+    "gradiente": false,
+    "profilo pagina": false,
+    "formule": true,
+    "bordo di riga": false,
+    "legame": true,
+    "chiusura R": false,
+    "S(1)": false,
+    "copia": false,
+    "e94": false,
+    "A": false
+   },
+   "riproduce_la_riga": false,
+   "giuntura_E": 0.16105911398142556,
+   "rispecchiamento_rho": 0.4345092460881934,
+   "sottoinsiemi": 5,
+   "stato_breve": {
+    "parole": 28636,
+    "K_osservato": [
+     0.034605646224690034,
+     -0.010339772509719118,
+     0.014215432629300142
+    ],
+    "K_nullo": [
+     0.002617532774463074,
+     -0.006372716389522788,
+     -0.005075621090293263
+    ],
+    "K_corretto": [
+     0.03198811345022696,
+     -0.00396705612019633,
+     0.019291053719593405
+    ],
+    "K1_IC95": [
+     0.006896486497549187,
+     0.05811180004405701
+    ],
+    "K23_IC95": [
+     -0.010373278359589382,
+     0.0258147056433073
+    ],
+    "r": 0.2395264357062037,
+    "r_IC95": [
+     -0.5326338046213407,
+     1.3449492927344286
+    ],
+    "finestra": false
+   },
+   "deriva_riga": {
+    "qo/o": {
+     "parole": 7114,
+     "quota_1": 0.5178521225752039,
+     "per_segno": 0.00024160862380092038,
+     "per_10_segni": 0.002416086238009204,
+     "IC95": [
+      -0.0009184370775947304,
+      0.0013590493772426097
+     ],
+     "deriva": false
+    },
+    "k/t": {
+     "parole": 10849,
+     "quota_1": 0.6370172366116693,
+     "per_segno": 4.656078225550379e-05,
+     "per_10_segni": 0.0004656078225550379,
+     "IC95": [
+      -0.0007791683703576803,
+      0.0008890657700886618
+     ],
+     "deriva": false
+    },
+    "sh/ch": {
+     "parole": 11174,
+     "quota_1": 0.304635761589404,
+     "per_segno": 5.9786948950994566e-05,
+     "per_10_segni": 0.0005978694895099456,
+     "IC95": [
+      -0.0006815926759688829,
+      0.0008380912334820363
+     ],
+     "deriva": false
+    },
+    "-ey/-dy": {
+     "parole": 8250,
+     "quota_1": 0.3749090909090909,
+     "per_segno": 0.0003621256729424443,
+     "per_10_segni": 0.0036212567294244434,
+     "IC95": [
+      -0.0004917587059321,
+      0.0013166321420810124
+     ],
+     "deriva": false
+    }
+   },
+   "ripetizione_OE": {
+    "coppie": 31868,
+    "ripetizione": 0.01076314798543994,
+    "atteso_globale": 0.0031134298143467723,
+    "OE_globale": 3.4570067826302204,
+    "atteso_riga": 0.004413546598675247,
+    "OE_riga": 2.438661911640531,
+    "quasi": 0.023411371237458192,
+    "quasi_atteso_riga": 0.02039166101151192,
+    "quasi_OE_riga": 1.1480855445881297
+   },
+   "criteri": {
+    "giuntura": true,
+    "riga chiusa": false,
+    "margine": false
+   },
+   "descrittive": {
+    "bordo di riga": false,
+    "copia dalla riga sopra": false,
+    "stato breve": false,
+    "deriva come il Voynich": 0,
+    "ripetizione non evitata": true
+   },
+   "tutte_e_tre": false
+  },
+  "voynich-fingerprint, seme 21": {
+   "parole": 37622,
+   "h2": 2.260195505669777,
+   "lung_media": 4.632847801818085,
+   "tipi_su_parole": 0.21393333333333334,
+   "hapax": 0.66765347460268,
+   "identiche_immediate": 0.010368767469119106,
+   "identiche_vs_riga": 2.490491318326983,
+   "somiglianza_riga": 0.0009005327919966444,
+   "somiglianza_riga_sotto": 0.0013022138917241355,
+   "somiglianza_6_righe": 0.0026211433735103817,
+   "spazio_spiegato": 0.6526857350920738,
+   "confine": 0.16541568168461804,
+   "unione_attestata": 0.045983229645658645,
+   "unione_caso": 0.031587172782736754,
+   "ordine_rispettato": 0.7544952569729577,
+   "anagrammi": 0.3049734562727019,
+   "hapax_1000": 0.7475490735695401,
+   "hapax_34000": 0.6673810544363481,
+   "V2_ricambio_k1_meno_k20": -0.0002875816993463953,
+   "V3_R": 1.8772800555309008,
+   "V3_quota_media": 0.0007992168865620819,
+   "lung_media_segni": 4.632847801818085,
+   "lung_dev_segni": 1.7298820205344032,
+   "V6_autocorrelazione_lunghezze": 0.048086727864868256,
+   "V7_zipf": -1.037437852141572,
+   "V8_forma": 0.12942946205272812,
+   "verticale": 1.000773560991592,
+   "formule_terne": 5.786802030456854,
+   "R_riga": 0.7510610303406244,
+   "bordo_inizio": 16.53723839772129,
+   "bordo_fine": 2.0545857866760824,
+   "S1": 1.0367357823854924,
+   "copia_prima": 1.1510912786434409,
+   "copia_seconda": 0.8651381560686655,
+   "e94_pos2": 0.9692999812074095,
+   "esiti": {
+    "h2": true,
+    "spazio": true,
+    "uniche": true,
+    "tipi": true,
+    "ripetizione": false,
+    "omogeneità": false,
+    "gradiente": false,
+    "legame": true,
+    "unioni": false,
+    "curva piatta": true,
+    "deriva": false,
+    "profilo pagina": false,
+    "lunghezze vicine": false,
+    "Zipf": true,
+    "forma parole": true,
+    "verticale": false,
+    "formule": true,
+    "bordo di riga": false
+   },
+   "A": 0.9692250785039447,
+   "quota_sh_per_riga": 1.037577063647933,
+   "accordo_riga_z": -2.6013445018569867,
+   "totale": 9,
+   "di_riga": {
+    "ripetizione": false,
+    "omogeneità": false,
+    "gradiente": false,
+    "profilo pagina": false,
+    "formule": true,
+    "bordo di riga": false,
+    "legame": true,
+    "chiusura R": false,
+    "S(1)": false,
+    "copia": false,
+    "e94": false,
+    "A": false
+   },
+   "riproduce_la_riga": false,
+   "giuntura_E": 0.15491584162939123,
+   "rispecchiamento_rho": 0.411977240398293,
+   "sottoinsiemi": 5,
+   "stato_breve": {
+    "parole": 28471,
+    "K_osservato": [
+     0.027955771629703096,
+     -0.015356386903181458,
+     0.0025035906625045594
+    ],
+    "K_nullo": [
+     -0.004148633744297843,
+     -0.005817146855628896,
+     -0.010792882385142812
+    ],
+    "K_corretto": [
+     0.03210440537400094,
+     -0.009539240047552562,
+     0.013296473047647372
+    ],
+    "K1_IC95": [
+     0.007903677085198665,
+     0.053980880112378705
+    ],
+    "K23_IC95": [
+     -0.01755981900398793,
+     0.020292673770000158
+    ],
+    "r": 0.05851584784587732,
+    "r_IC95": [
+     -0.7121575337853238,
+     0.9528623972061061
+    ],
+    "finestra": false
+   },
+   "deriva_riga": {
+    "qo/o": {
+     "parole": 6995,
+     "quota_1": 0.5119370979270907,
+     "per_segno": -0.0013432425668159695,
+     "per_10_segni": -0.013432425668159696,
+     "IC95": [
+      -0.002298757267307981,
+      -0.00041996842497784984
+     ],
+     "deriva": true
+    },
+    "k/t": {
+     "parole": 10940,
+     "quota_1": 0.6349177330895796,
+     "per_segno": 0.0004135825939263157,
+     "per_10_segni": 0.004135825939263157,
+     "IC95": [
+      -0.00044681466635027256,
+      0.0012483966300398384
+     ],
+     "deriva": false
+    },
+    "sh/ch": {
+     "parole": 11134,
+     "quota_1": 0.29953296209807795,
+     "per_segno": -0.00022988747399641622,
+     "per_10_segni": -0.0022988747399641622,
+     "IC95": [
+      -0.0009357853759988278,
+      0.0006185902142955226
+     ],
+     "deriva": false
+    },
+    "-ey/-dy": {
+     "parole": 8128,
+     "quota_1": 0.3770915354330709,
+     "per_segno": -0.0004520227942745157,
+     "per_10_segni": -0.004520227942745157,
+     "IC95": [
+      -0.001300474331384187,
+      0.0003038523380796941
+     ],
+     "deriva": false
+    }
+   },
+   "ripetizione_OE": {
+    "coppie": 32140,
+    "ripetizione": 0.010640945861854387,
+    "atteso_globale": 0.0030620149669679892,
+    "OE_globale": 3.4751449541055197,
+    "atteso_riga": 0.004289030077228349,
+    "OE_riga": 2.480967880908582,
+    "quasi": 0.022736411156194028,
+    "quasi_atteso_riga": 0.01983861423257532,
+    "quasi_OE_riga": 1.146068515151652
+   },
+   "criteri": {
+    "giuntura": true,
+    "riga chiusa": false,
+    "margine": false
+   },
+   "descrittive": {
+    "bordo di riga": false,
+    "copia dalla riga sopra": false,
+    "stato breve": false,
+    "deriva come il Voynich": 1,
+    "ripetizione non evitata": true
+   },
+   "tutte_e_tre": false
+  },
+  "voynich-fingerprint, seme 44": {
+   "parole": 37059,
+   "h2": 2.2664374587094995,
+   "lung_media": 4.640006476159638,
+   "tipi_su_parole": 0.2205,
+   "hapax": 0.6730158730158731,
+   "identiche_immediate": 0.010793999268203439,
+   "identiche_vs_riga": 2.419398452015266,
+   "somiglianza_riga": -1.1138911210961666e-05,
+   "somiglianza_riga_sotto": -0.00016217829556230967,
+   "somiglianza_6_righe": -2.0915822240175075e-05,
+   "spazio_spiegato": 0.6484866084941596,
+   "confine": 0.17157193655039915,
+   "unione_attestata": 0.04787169166971582,
+   "unione_caso": 0.030430540309793877,
+   "ordine_rispettato": 0.753070003910833,
+   "anagrammi": 0.3112112522190359,
+   "hapax_1000": 0.7522266930634607,
+   "hapax_34000": 0.6706437291897891,
+   "V2_ricambio_k1_meno_k20": 0.005249999999999866,
+   "V3_R": Infinity,
+   "V3_quota_media": 0.00028712874640807217,
+   "lung_media_segni": 4.640006476159638,
+   "lung_dev_segni": 1.733929626937319,
+   "V6_autocorrelazione_lunghezze": 0.04963156416935784,
+   "V7_zipf": -1.0442423689720766,
+   "V8_forma": 0.11121726062854961,
+   "verticale": 1.0059803987505895,
+   "formule_terne": 4.04040404040404,
+   "R_riga": 0.6770893841926835,
+   "bordo_inizio": 13.171319181047403,
+   "bordo_fine": 1.4755013603632257,
+   "S1": 0.9799978059750613,
+   "copia_prima": 0.5325571321926602,
+   "copia_seconda": 0.8440299371868047,
+   "e94_pos2": 0.9442073934028755,
+   "esiti": {
+    "h2": true,
+    "spazio": true,
+    "uniche": true,
+    "tipi": true,
+    "ripetizione": false,
+    "omogeneità": false,
+    "gradiente": false,
+    "legame": true,
+    "unioni": true,
+    "curva piatta": true,
+    "deriva": false,
+    "profilo pagina": false,
+    "lunghezze vicine": false,
+    "Zipf": true,
+    "forma parole": true,
+    "verticale": false,
+    "formule": true,
+    "bordo di riga": false
+   },
+   "A": 0.9571059235867588,
+   "quota_sh_per_riga": 1.0166052580054075,
+   "accordo_riga_z": -2.9308680346440323,
+   "totale": 10,
+   "di_riga": {
+    "ripetizione": false,
+    "omogeneità": false,
+    "gradiente": false,
+    "profilo pagina": false,
+    "formule": true,
+    "bordo di riga": false,
+    "legame": true,
+    "chiusura R": false,
+    "S(1)": false,
+    "copia": false,
+    "e94": false,
+    "A": false
+   },
+   "riproduce_la_riga": false,
+   "giuntura_E": 0.17144697371031262,
+   "rispecchiamento_rho": 0.38514565654798355,
+   "sottoinsiemi": 5,
+   "stato_breve": {
+    "parole": 28371,
+    "K_osservato": [
+     0.046518446589021815,
+     0.010375146131929365,
+     -0.0001592667918765819
+    ],
+    "K_nullo": [
+     -0.005016063799622407,
+     -0.010173208504106242,
+     -0.003714090312287506
+    ],
+    "K_corretto": [
+     0.05153451038864422,
+     0.020548354636035607,
+     0.003554823520410924
+    ],
+    "K1_IC95": [
+     0.026574956545805425,
+     0.07365236761801236
+    ],
+    "K23_IC95": [
+     -0.0053407612456103865,
+     0.029539198863979394
+    ],
+    "r": 0.23385473127302417,
+    "r_IC95": [
+     -0.11522539004940446,
+     0.6718791207665556
+    ],
+    "finestra": false
+   },
+   "deriva_riga": {
+    "qo/o": {
+     "parole": 7084,
+     "quota_1": 0.5248447204968945,
+     "per_segno": -0.0015728255467140815,
+     "per_10_segni": -0.015728255467140816,
+     "IC95": [
+      -0.002505006963732114,
+      -0.0006462213462857632
+     ],
+     "deriva": true
+    },
+    "k/t": {
+     "parole": 10715,
+     "quota_1": 0.6291180587960803,
+     "per_segno": -0.0002211594103623349,
+     "per_10_segni": -0.002211594103623349,
+     "IC95": [
+      -0.0009337138359306932,
+      0.0005649965989664472
+     ],
+     "deriva": false
+    },
+    "sh/ch": {
+     "parole": 10862,
+     "quota_1": 0.2996685693242497,
+     "per_segno": -0.0005706994558682088,
+     "per_10_segni": -0.0057069945586820875,
+     "IC95": [
+      -0.0013611162928112107,
+      0.0001792089626387748
+     ],
+     "deriva": false
+    },
+    "-ey/-dy": {
+     "parole": 8272,
+     "quota_1": 0.3840667311411992,
+     "per_segno": 0.00022855283687505897,
+     "per_10_segni": 0.0022855283687505897,
+     "IC95": [
+      -0.0005609657530942166,
+      0.001078681687533793
+     ],
+     "deriva": false
+    }
+   },
+   "ripetizione_OE": {
+    "coppie": 31685,
+    "ripetizione": 0.011014675714060281,
+    "atteso_globale": 0.00308546455940051,
+    "OE_globale": 3.5698597413805255,
+    "atteso_riga": 0.004516053696310183,
+    "OE_riga": 2.4390045944448717,
+    "quasi": 0.0236734693877551,
+    "quasi_atteso_riga": 0.019342498454188634,
+    "quasi_OE_riga": 1.2239095918153526
+   },
+   "criteri": {
+    "giuntura": true,
+    "riga chiusa": false,
+    "margine": false
+   },
+   "descrittive": {
+    "bordo di riga": false,
+    "copia dalla riga sopra": false,
+    "stato breve": false,
+    "deriva come il Voynich": 1,
+    "ripetizione non evitata": true
+   },
+   "tutte_e_tre": false
+  },
+  "voynich-fingerprint, manuale a mano": {
+   "parole": 15336,
+   "h2": 2.217410866626482,
+   "lung_media": 4.829747000521649,
+   "tipi_su_parole": 0.23024256651017214,
+   "hapax": 0.6366468422543189,
+   "identiche_immediate": 0.009013745962592955,
+   "identiche_vs_riga": 1.1468240982460576,
+   "somiglianza_riga": -0.0005966253499030127,
+   "somiglianza_riga_sotto": 0.0015456644590219337,
+   "somiglianza_6_righe": 0.001016702102522915,
+   "spazio_spiegato": 0.5576856204446172,
+   "confine": 0.09784420185942473,
+   "unione_attestata": 0.019604897468639675,
+   "unione_caso": 0.016825659130173514,
+   "ordine_rispettato": 0.8073827004062162,
+   "anagrammi": 0.28664772727272725,
+   "hapax_1000": 0.6982322005666236,
+   "hapax_34000": 0.623736428304006,
+   "V2_ricambio_k1_meno_k20": 0.026142857142857134,
+   "V2_distanza": 14,
+   "V3_R": 3.2348644898359327,
+   "V3_quota_media": 0.0024188787893217605,
+   "lung_media_segni": 4.829747000521649,
+   "lung_dev_segni": 1.768679084916952,
+   "V6_autocorrelazione_lunghezze": 0.033258852656474026,
+   "V7_zipf": -0.9394594510124014,
+   "V8_forma": 1.4301438573082335,
+   "verticale": 1.0004262620059412,
+   "formule_terne": 2.857142857142857,
+   "R_riga": 1.0005721067364681,
+   "bordo_inizio": 5.748370236001786,
+   "bordo_fine": 0.9840755492257146,
+   "S1": 1.1,
+   "copia_prima": 1.6464005895760236,
+   "copia_seconda": 1.0866392951237895,
+   "e94_pos2": 0.9742007679483226,
+   "esiti": {
+    "h2": true,
+    "spazio": false,
+    "uniche": true,
+    "tipi": true,
+    "ripetizione": true,
+    "omogeneità": false,
+    "gradiente": false,
+    "legame": false,
+    "unioni": false,
+    "curva piatta": true,
+    "deriva": false,
+    "profilo pagina": false,
+    "lunghezze vicine": false,
+    "Zipf": false,
+    "forma parole": false,
+    "verticale": false,
+    "formule": true,
+    "bordo di riga": false
+   },
+   "A": 0.971571407602202,
+   "quota_sh_per_riga": 1.0779192439400056,
+   "accordo_riga_z": -0.567000814877052,
+   "totale": 6,
+   "di_riga": {
+    "ripetizione": true,
+    "omogeneità": false,
+    "gradiente": false,
+    "profilo pagina": false,
+    "formule": true,
+    "bordo di riga": false,
+    "legame": false,
+    "chiusura R": false,
+    "S(1)": false,
+    "copia": false,
+    "e94": false,
+    "A": false
+   },
+   "riproduce_la_riga": false,
+   "giuntura_E": 0.10132376787302522,
+   "rispecchiamento_rho": 0.3532334672999635,
+   "sottoinsiemi": 1,
+   "stato_breve": {
+    "parole": 9769,
+    "K_osservato": [
+     0.01720990562040592,
+     0.04412558229651839,
+     -0.03624047362922392
+    ],
+    "K_nullo": [
+     -0.005971995473025557,
+     -0.010435874045844467,
+     -0.022971120354122545
+    ],
+    "K_corretto": [
+     0.023181901093431476,
+     0.054561456342362855,
+     -0.013269353275101373
+    ],
+    "K1_IC95": [
+     -0.0149619834474067,
+     0.06364558554744336
+    ],
+    "K23_IC95": [
+     -0.017932261845625286,
+     0.058385034992635844
+    ],
+    "r": 0.8906108023850011,
+    "r_IC95": [
+     -10.152358716678085,
+     7.86978172940348
+    ],
+    "finestra": false
+   },
+   "deriva_riga": {
+    "qo/o": {
+     "parole": 1794,
+     "quota_1": 0.7279821627647715,
+     "per_segno": -0.00017996084161982776,
+     "per_10_segni": -0.0017996084161982775,
+     "IC95": [
+      -0.0017645051890171203,
+      0.0014218625671012619
+     ],
+     "deriva": false
+    },
+    "k/t": {
+     "parole": 3047,
+     "quota_1": 0.5530029537249754,
+     "per_segno": 0.0011936165864983308,
+     "per_10_segni": 0.011936165864983308,
+     "IC95": [
+      -0.0004514132755660677,
+      0.003107478431110451
+     ],
+     "deriva": false
+    },
+    "sh/ch": {
+     "parole": 3235,
+     "quota_1": 0.3313755795981453,
+     "per_segno": 0.0007129015795239311,
+     "per_10_segni": 0.007129015795239311,
+     "IC95": [
+      -0.0007564696088885276,
+      0.0020047630129162047
+     ],
+     "deriva": false
+    },
+    "-ey/-dy": {
+     "parole": 4511,
+     "quota_1": 0.3573487031700288,
+     "per_segno": 0.0007915813506482595,
+     "per_10_segni": 0.007915813506482596,
+     "IC95": [
+      -0.0003133477019276149,
+      0.0018750635749848479
+     ],
+     "deriva": false
+    }
+   },
+   "ripetizione_OE": {
+    "coppie": 12897,
+    "ripetizione": 0.008839264945336125,
+    "atteso_globale": 0.002872222435015218,
+    "OE_globale": 3.0775001398139596,
+    "atteso_riga": 0.007717462102381623,
+    "OE_riga": 1.145359034883801,
+    "quasi": 0.01768646717284502,
+    "quasi_atteso_riga": 0.015908796159650893,
+    "quasi_OE_riga": 1.1117413910741274
+   },
+   "criteri": {
+    "giuntura": true,
+    "riga chiusa": false,
+    "margine": false
+   },
+   "descrittive": {
+    "bordo di riga": false,
+    "copia dalla riga sopra": false,
+    "stato breve": false,
+    "deriva come il Voynich": 0,
+    "ripetizione non evitata": true
+   },
+   "tutte_e_tre": false
+  }
+ },
+ "generatore_2_su_3_semi": {
+  "giuntura": true,
+  "riga chiusa": false,
+  "margine": false
+ },
+ "esito": "il generatore di voynich-fingerprint non riproduce insieme le tre proprietà; mancano: riga chiusa, margine",
+ "esito_manuale": "il manuale a mano non le riproduce insieme; mancano: riga chiusa, margine"
+}
