@@ -1,0 +1,271 @@
+{
+ "A01": {
+  "pagina": "f52r",
+  "riga": 6,
+  "parola": "okchol",
+  "immagine": "52r.jpg",
+  "iiif_id": "1006176",
+  "box": [
+   900,
+   415,
+   1120,
+   480
+  ]
+ },
+ "A02": {
+  "pagina": "f56r",
+  "riga": 4,
+  "parola": "okar",
+  "immagine": "56r.jpg",
+  "iiif_id": "1006184",
+  "box": [
+   760,
+   385,
+   1020,
+   455
+  ]
+ },
+ "A03": {
+  "pagina": "f48v",
+  "riga": 6,
+  "parola": "otal",
+  "immagine": "48v.jpg",
+  "iiif_id": "1006169",
+  "box": [
+   900,
+   350,
+   1160,
+   415
+  ],
+  "primo_tentativo": {
+   "box": [
+    900,
+    390,
+    1160,
+    445
+   ],
+   "nota": "riquadro troppo basso: la riga non era nel ritaglio"
+  }
+ },
+ "A04": {
+  "pagina": "f14v",
+  "riga": 8,
+  "parola": "okshody",
+  "immagine": "14v.jpg",
+  "iiif_id": "1006101",
+  "box": [
+   560,
+   570,
+   820,
+   625
+  ]
+ },
+ "A05": {
+  "pagina": "f76v",
+  "riga": 3,
+  "parola": "oteedy",
+  "immagine": "76v.jpg",
+  "iiif_id": "1006211",
+  "box": [
+   1150,
+   185,
+   1360,
+   245
+  ]
+ },
+ "A06": {
+  "pagina": "f7r",
+  "riga": 6,
+  "parola": "otchor",
+  "immagine": "7r.jpg",
+  "iiif_id": "1006088",
+  "box": [
+   900,
+   1230,
+   1130,
+   1295
+  ]
+ },
+ "A07": {
+  "pagina": "f93r",
+  "riga": 4,
+  "parola": "otol",
+  "immagine": "93r.jpg",
+  "iiif_id": "1006238",
+  "box": [
+   880,
+   275,
+   1100,
+   325
+  ]
+ },
+ "A08": {
+  "pagina": "f9v",
+  "riga": 6,
+  "parola": "otchy",
+  "immagine": "9v.jpg",
+  "iiif_id": "1006093",
+  "box": [
+   880,
+   480,
+   1060,
+   535
+  ]
+ },
+ "A09": {
+  "pagina": "f23v",
+  "riga": 4,
+  "parola": "otchor",
+  "immagine": "23v.jpg",
+  "iiif_id": "1006119",
+  "box": [
+   1000,
+   360,
+   1230,
+   410
+  ]
+ },
+ "A10": {
+  "pagina": "f57r",
+  "riga": 7,
+  "parola": "oteeod",
+  "immagine": "57r.jpg",
+  "iiif_id": "1006186",
+  "box": [
+   730,
+   335,
+   960,
+   395
+  ]
+ },
+ "A11": {
+  "pagina": "f82r",
+  "riga": 1,
+  "parola": "okeeor",
+  "immagine": "82r.jpg",
+  "iiif_id": "1006222",
+  "box": [
+   590,
+   220,
+   800,
+   280
+  ]
+ },
+ "A12": {
+  "pagina": "f28r",
+  "riga": 4,
+  "parola": "otol",
+  "immagine": "28r.jpg",
+  "iiif_id": "1006128",
+  "box": [
+   740,
+   390,
+   930,
+   450
+  ]
+ },
+ "A13": {
+  "pagina": "f27v",
+  "riga": 7,
+  "parola": "otchdy",
+  "immagine": "27v.jpg",
+  "iiif_id": "1006127",
+  "box": [
+   1180,
+   515,
+   1400,
+   585
+  ]
+ },
+ "A14": {
+  "pagina": "f23v",
+  "riga": 2,
+  "parola": "otchol",
+  "immagine": "23v.jpg",
+  "iiif_id": "1006119",
+  "box": [
+   900,
+   275,
+   1110,
+   330
+  ]
+ },
+ "A15": {
+  "pagina": "f40r",
+  "riga": 5,
+  "parola": "okol",
+  "immagine": "40r.jpg",
+  "iiif_id": "1006152",
+  "box": [
+   560,
+   588,
+   780,
+   640
+  ]
+ },
+ "A16": {
+  "pagina": "f51v",
+  "riga": 6,
+  "parola": "otykol",
+  "immagine": "51v.jpg",
+  "iiif_id": "1006175",
+  "box": [
+   1040,
+   425,
+   1260,
+   480
+  ]
+ },
+ "B01": {
+  "pagina": "f75r",
+  "riga": 11,
+  "parola": "qokeedy",
+  "immagine": "75r.jpg",
+  "iiif_id": "1006208",
+  "box": [
+   660,
+   495,
+   850,
+   548
+  ]
+ },
+ "B02": {
+  "pagina": "f75v",
+  "riga": 15,
+  "parola": "qokar",
+  "immagine": "75v.jpg",
+  "iiif_id": "1006209",
+  "box": [
+   740,
+   455,
+   920,
+   510
+  ]
+ },
+ "B03": {
+  "pagina": "f26r",
+  "riga": 5,
+  "parola": "qokeedy",
+  "immagine": "26r.jpg",
+  "iiif_id": "1006124",
+  "box": [
+   880,
+   405,
+   1090,
+   455
+  ]
+ },
+ "B04": {
+  "pagina": "f82r",
+  "riga": 2,
+  "parola": "qokeedy",
+  "immagine": "82r.jpg",
+  "iiif_id": "1006222",
+  "box": [
+   590,
+   255,
+   800,
+   315
+  ]
+ }
+}
