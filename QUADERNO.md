@@ -16309,3 +16309,39 @@ su circa 82.000. Non è una via per distinguerli dal libro: la capacità si cono
 dentro un errore standard, classificatore diretto a 0,506 con tutti i gruppi fra 0,49 e 0,51. Limite dichiarato: sono
 le nostre caratteristiche (circa 220 per pagina) e il nostro classificatore; un attaccante con altre statistiche non
 è escluso da questa misura. Nessuna versione nuova.
+
+## 9/10/2026 (mattina) — e3c93: voynich-fingerprint ha la giuntura ma non la riga chiusa né il margine; nemmeno il suo manuale a mano
+
+Preregistrato (`preregistrazioni/e3c93.md`; codice provato prima solo sul controllo U3, la cui riga dell'e134 torna
+identica). Risponde alla nota C3 del revisore. *voynich-fingerprint* (Sachak 2026, commit a6d7558, MIT) scaricato con il
+permesso di Davide; configurazione congelata versione 3, addestrata sui fogli pari di IT2a come nel loro protocollo; tre
+libri interi (semi 7, 21, 44; circa 37.000 parole e 772 paragrafi ciascuno) e il loro campione del manuale a mano
+(15.336 parole). Valori del Voynich dai risultati già pubblicati.
+
+| testo | pagella | riga e pagina | giuntura E | ρ | R | S(1) | bordo inizio / fine | K corretto accanto | deriva come il Voynich | O/E nella riga |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Voynich (riferimento) | 17/18 | 11/12 | 0,191 | 0,554 | 0,01 | 0,53 | 23,5 / 55,6 | +0,131 | 4/4 | 1,04 |
+| generatore, seme 7 | 10/18 | 2/12 | 0,161 | 0,435 | 0,86 | 1,01 | 12,0 / 2,0 | +0,032 | 0/4 | 2,44 |
+| generatore, seme 21 | 9/18 | 2/12 | 0,155 | 0,412 | 0,75 | 1,04 | 16,5 / 2,1 | +0,032 | 1/4 (*qo*/*o*) | 2,48 |
+| generatore, seme 44 | 10/18 | 2/12 | 0,171 | 0,385 | 0,68 | 0,98 | 13,2 / 1,5 | +0,052 | 1/4 (*qo*/*o*) | 2,44 |
+| manuale a mano | 6/18 | 2/12 | 0,101 | 0,353 | 1,00 | 1,10 | 5,8 / 1,0 | +0,023 | 0/4 | 1,15 |
+
+- **Esito preregistrato:** il generatore **non riproduce insieme** le tre proprietà della frase del paper. Ha la
+  giuntura con le sue regole (E 0,16 – 0,17, ρ 0,39 – 0,44, sopra la metà del Voynich), ma non la riga chiusa (R 0,68 –
+  0,86 contro 0,01) né il margine (S(1) circa 1, cioè nessun evitamento, contro 0,53). Lo stesso per il manuale a mano.
+- È andata come la lettura attesa: il generatore sceglie l'inizio di ogni parola guardando l'ultimo segno della parola
+  prima, anche attraverso l'a capo, e niente lega una riga a quella sopra.
+- **Descrittive:**
+  - bordo di riga: inizio debole (12 – 17 contro 23,5), fine quasi assente (1,5 – 2 contro 55,6);
+  - nessuna copia dalla riga sopra; nessuno stato breve (K accanto +0,03 – +0,05, a 2 – 3 parole circa 0);
+  - la ripetizione nella riga non è evitata, ma è più del doppio del caso (O/E 2,44 – 2,48 contro 1,04); il manuale è
+    vicino al Voynich (1,15).
+- **Una sorpresa:** in due semi su tre *qo*/*o* deriva lungo la riga come nel Voynich (−0,013 e −0,016 ogni 10 segni,
+  intervalli sotto 0; Voynich −0,020). Le altre tre scelte no. Probabilmente viene dal modo in cui riempie la riga
+  (parole scelte per stare nello spazio rimasto) o dai gallows a inizio riga; non è stato indagato.
+- **Per il paper (§6.3):** la frase "nessuno dei generatori misurati riproduce insieme giuntura, riga chiusa e margine"
+  si estende a *voynich-fingerprint* e al suo manuale; va tolto "non lo abbiamo provato". Il manuale non è quindi la
+  "procedura semplice eseguibile a mano" che ci farebbe cambiare idea.
+- **Limite:** abbiamo usato la loro configurazione pubblicata, addestrata su metà del manoscritto come nel loro
+  protocollo; il generatore misura bene ciò per cui è stato regolato (44 statistiche), e la riga chiusa e il margine non
+  sono fra quelle.
