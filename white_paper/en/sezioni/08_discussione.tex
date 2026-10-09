@@ -4,9 +4,13 @@
 
 \subsection{What the generator shows}
 
-The voynichizer is a constructive argument. Its books reproduce most of the measured writing rules of the manuscript, to
-the point that two classifiers retrained on each book separate its pages from the real ones only slightly better than
-chance, and every book carries an encrypted text that comes back exactly with the key. Two claims must be kept apart.
+The voynichizer is a constructive argument, and part of it has been made before. That a Voynich-like text can carry a
+real message, recoverable with the key, was shown at the level of words by hand ciphers, most fully by the Naibbe
+cipher \citep{greshko2025}, whose Latin ciphertext also reproduces the manuscript's positional entropy
+\citep{kinnison2026}. We demonstrate the same thing again, and under two stricter conditions: our books also reproduce
+most of the line, paragraph and page rules of the manuscript, to the point that two classifiers retrained on each book
+separate its pages from the real ones only slightly better than chance; and a book with a message cannot be told from
+a book without one. Two claims must be kept apart.
 \begin{itemize}
 \item \textbf{A book with a message and a book without one} are samples of the same distribution, because the message
   enters only as encrypted bits, which are indistinguishable from the random filler that drives a book without a message.
@@ -17,11 +21,12 @@ chance, and every book carries an encrypted text that comes back exactly with th
   little (AUC 0.55 and 0.60), several properties are not reproduced, and a stronger or independently built judge would
   probably do better. How close the book comes is a measured fact about our instruments.
 \end{itemize}
-Together they mean that statistical regularities of the kind measured here, however strong, cannot decide by themselves
-whether the Voynich manuscript carries a message: a text written under these rules can carry one, and whether it does
-cannot be read from its statistics. This does not show that the manuscript carries a message. It shows that the debate
-between ``meaningless'' and ``enciphered'' cannot be settled by the statistics of the text alone
-\citep[compare][]{gaskellbowern2022,bowerngaskell2022,greshko2025,kinnison2026}.
+Together they mean that a text written under the rules measured here can carry a message, and that whether it does
+cannot be read from its statistics. This does not show that the manuscript carries a message, any more than the
+generators without a message \citep{rugg2004,timmschinner2020} show that it does not. It shows, with a construction,
+what several studies had suspected from the statistics they measured
+\citep{gaskellbowern2022,bowerngaskell2022,parisel2026a,rozanova2026}: the debate between ``meaningless'' and
+``enciphered'' will not be settled by the statistics of the text alone.
 
 \subsection{What the measurements exclude and what they leave open}
 
@@ -73,10 +78,10 @@ a secure identification of many plants to use as cribs, a key found in an archiv
 \item \textbf{Preregistration and exploration.} The preregistrations are internal, dated files in a public
   version-controlled history, without third-party timestamps. The programme was exploratory, and confirmations on data
   not used to form a hypothesis are few (Section~\ref{sec:methods}).
-\item \textbf{Transliterations.} Everything rests on transliterations that share the line segmentation. Without checking
-  the images we cannot separate what the scribe did from what the transcribers read, for example the \eva{q} that drops
-  after a drawing; for uncertain spaces, the image measurements of \citet{rozanova2026} show that they are physically
-  narrower.
+\item \textbf{Transliterations.} Everything rests on transliterations that share the line segmentation. We checked the
+  images only on a sample and for two points: 16 words after a drawing hide no untranscribed \eva{q}, and five of six
+  line-final \eva{-m} are clear on the images (\expcode{e3c94}; one reader, who knew the transcription). For uncertain
+  spaces, the image measurements of \citet{rozanova2026} show that they are physically narrower.
 \item \textbf{Comparison manuscripts.} Old Norse and Early New High German only; no fifteenth-century Latin or Italian
   manuscript transcribed at the level of letter forms. The files do not mark changes of hand, and the 73 German
   manuscripts were measured together for the state of the choices, so a single scribe's state could be diluted. For the
@@ -105,7 +110,8 @@ a secure identification of many plants to use as cribs, a key found in an archiv
 \item \textbf{Research record} \citep{repository}: preregistrations (\texttt{preregistrazioni/}), programs
   (\texttt{esperimenti/}), results with provenance records (\texttt{risultati/}), the laboratory notebook
   (\texttt{QUADERNO.md}, in Italian), the log of all experiments (\url{white_paper/revisione/registro_esperimenti.csv})
-  and the sources of this paper with the script that draws its figures. Re-running an experiment gives the same numbers.
+  and the sources of this paper with the script that draws its figures. Seeds are fixed, so re-running an experiment with the same software versions is meant to give
+  the same numbers.
   Copyright-protected corpora are not included and must be downloaded from their sources (Appendix~\ref{app:sources}).
 \item \textbf{The voynichizer} \citep{voynichizer}: program (MIT licence), the transliteration it uses (CC0), the font, and
   a website that runs version~21 in the browser. The example book of Figure~\ref{fig:page} and its message are in the
