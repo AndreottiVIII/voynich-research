@@ -937,3 +937,7 @@ come **PDF del libro**.
 - Sito su dominio proprio: https://voynichizer.com (DNS su GoDaddy, dominio verificato su GitHub, file `docs/CNAME` da
   non cancellare). Il vecchio indirizzo rimanda al nuovo. Dettagli in `SITO_WEB.md`, §14. Avvisate la chat del
   voynichizzatore (link nel README) e quella della ricerca (scheda Zenodo, articolo, bibliografia).
+
+## 9/10/2026 — Dominio del sito
+
+- Il sito ha il dominio https://voynichizer.com (comprato da Davide; il vecchio indirizzo rimanda). Nel repo pubblico c e `docs/CNAME`: **non toccarlo e non cancellarlo**, o il dominio si stacca. Link nel README pubblico aggiornato.
