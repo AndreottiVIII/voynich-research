@@ -30,7 +30,8 @@ The working language of the project was Italian; the paper is in English.
 - `python esegui.py eNN` runs experiment `eNN` with `PYTHONHASHSEED=0` and fixed seeds, and writes its provenance record.
   With the same software versions it is meant to give the same numbers.
 - Comparison corpora are not included, because of their size or their licences. `prepara.py` downloads the main ones at
-  fixed commits into `dati/cache/`; Appendix E of the paper and `dati/FONTI.md` list all sources and licences.
+  fixed commits into `dati/cache/`; the appendix "Data sources and licences" of the paper and `dati/FONTI.md` list all
+  sources and licences.
 
 ## About this public copy
 
@@ -38,7 +39,7 @@ This is a copy of the working repository, made with `strumenti/copia_pubblica.sh
 
 - author and committer e-mail addresses are replaced by the GitHub no-reply address; names and dates are unchanged;
 - the notes of the external reviewer of version 1 of the paper, and our point-by-point verification of them, are not
-  included; the changes they led to are listed in Appendix C of the paper;
+  included; the changes they led to are recorded in the laboratory notebook (`QUADERNO.md`);
 - commit hashes therefore differ from those of the working repository. The provenance records in `risultati/provenienza/`
   cite the working repository's hashes; `risultati/provenienza/MAPPA_COMMIT_PUBBLICI.txt` maps each of them to the
   corresponding commit here (one line per commit: working hash, public hash).
