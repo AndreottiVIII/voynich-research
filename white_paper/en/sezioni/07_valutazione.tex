@@ -11,7 +11,7 @@ its key and with a wrong key.
 \centering\footnotesize
 \caption{Version~21 on 24 keys: the instruments of Section~\ref{sec:scorecard} (mean $\pm$ standard error over keys).
 Lower part: each scorecard property, Voynich value, mean of the generated books, and the number of keys whose book fails
-it.}
+it; for property 7 the generated value is the ratio of the mean similarities (0.0255 / 0.0414).}
 \label{tab:results}
 \begin{tabularx}{\linewidth}{Yrrr}
 \toprule
@@ -67,14 +67,14 @@ capacity (bits) & & & 81{,}100--85{,}900 \\
 \paragraph{How close to the manuscript} The first judge separates generated from real pages with AUC 0.55, the second
 with 0.60 (Table~\ref{tab:results}, Figure~\ref{fig:evaluation}); on the fresh keys the second judge gives 0.606. For the
 second judge this is the level of the real manuscript with its lines shuffled within each page (0.595), and far from
-the manuscript with its words shuffled within each line (0.99). The group of features that the second judge uses best
-is the register of the first lines of paragraphs (AUC 0.61 on that group alone over the 24 keys; on the fresh keys the
-word statistics are as informative, 0.609 against 0.605). The books pass 16 of the 17
+the manuscript with its words shuffled within each line (0.99). The groups of features that the second judge uses best
+are the register of the first lines of paragraphs and the word statistics (AUC 0.61 each, on that group alone, over the
+24 keys). The books pass 16 of the 17
 attainable scorecard properties: they always miss the page profile, a measure of how much each page departs from its
 section, and once the homogeneity within the line. Of the extra properties they usually miss the spelling choices that
 vary from line to line (23 of 24 keys), the register of the first lines (18 of 24) and the spread of word lengths (20 of
 24). Lines are too irregular in width: 11.6\% are wider than 1.25 times the page median, against 6.0\% in the
-manuscript. About 0.4--0.5\% of the word triples of a book also occur in the manuscript.
+manuscript. Between 0.3 and 0.5\% of the word triples of a book (mean 0.43\%) also occur in the manuscript.
 
 \paragraph{With and without a message} For each of the 24 keys we also wrote a book with filler bits only, with the same
 parameters and key (\expcode{e419}). Against the manuscript, the books without a message score as the books with one:
