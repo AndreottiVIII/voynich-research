@@ -21,30 +21,36 @@ plausible ciphers can produce Voynich-like text from Latin or Italian \citep{bow
 Every statistical study of the manuscript measures regularities. This paper asks whether regularities, however many and
 however strong, can decide the question at all. Steganography gives a precise answer in principle: if a text that
 carries a message and a text that carries none are samples of the same distribution, no test on the text can tell them
-apart \citep{cachin1998,hopper2002}. The question then becomes constructive. Can one build a book that reproduces the
-measured writing rules of the Voynich manuscript and that carries, or does not carry, a message, with the two cases
-indistinguishable by construction?
+apart \citep{cachin1998,hopper2002}. The question then becomes constructive. For the statistics of words it has already been answered: hand ciphers turn
+real Latin into Voynich-like text that can be read back \citep{greshko2025}. We ask it for the whole set of measured
+writing rules and with a stronger requirement. Can one build a book that reproduces the line, paragraph and page rules
+of the Voynich manuscript as well as its word statistics, and that carries, or does not carry, a message, with the two
+cases indistinguishable by construction?
 
 \subsection{Contributions}
 
 \begin{enumerate}
 \item \textbf{The voynichizer} (Sections~\ref{sec:generator} and~\ref{sec:evaluation}). A program that turns any text
-  into a 207-folio Voynich-like book in EVA transliteration and recovers it exactly with the key
+  into a 207-page Voynich-like book in EVA transliteration and recovers it exactly with the key
   \citep{voynichizer}. The text is compressed, encrypted and authenticated; its bits drive an arithmetic decoder that
   samples how many times each recurring Voynich word occurs on each page. Everything else (layout, invented words, word
   order) follows the manuscript's statistics and carries no information. To our knowledge, no earlier tool combines a
   cover model of a whole historical book, distribution-preserving embedding and authenticated encryption, evaluated
   against the measured properties of that book.
 \item \textbf{A measured specification} (Sections~\ref{sec:rules}--\ref{sec:scorecard}). The scorecard and the judges
-  that the generator must satisfy come from 716 logged experiments on how the manuscript is written. Each measure is
-  compared with the same measure in 24 natural languages, constructed languages, volunteers' gibberish, published
-  generators and ciphers and, systematically, 79 medieval manuscripts transcribed at the level of letter forms. Many of
+  that the generator must satisfy come from a programme of 716 logged experiments on how the manuscript is written.
+  Its measures are compared with the same measures in 24 natural languages, constructed languages, volunteers'
+  gibberish, published generators and ciphers and, for the habits of scribes, 79 medieval manuscripts transcribed at
+  the level of letter forms. Many of
   the regularities were observed before, and we cite them property by property (Section~\ref{sec:related}); our
   contribution there is to quantify them with the same code against the same comparison texts and to add a few
   properties that we have not found in the literature.
-\item \textbf{A consequence} (Section~\ref{sec:discussion}). The generated book carries an encrypted message and comes
-  close to the manuscript on the measures we know how to make. The regularities of the Voynich text therefore constrain
-  how it was written, but they cannot by themselves show whether it says anything.
+\item \textbf{A constructive demonstration} (Sections~\ref{sec:evaluation} and~\ref{sec:discussion}). A Voynich-like
+  book can carry a hidden message that the key recovers exactly. This had been shown at the level of words, most fully
+  by the Naibbe cipher \citep{greshko2025}; we show it again under two stricter conditions: the book also reproduces
+  the line, paragraph and page rules measured here, and books with and without a message are samples of the same
+  distribution (a classifier trained to separate them scores AUC 0.51). The regularities of the Voynich text therefore
+  constrain how it was written, but they cannot by themselves show whether it says anything.
 \end{enumerate}
 
 \noindent The full research record is public: preregistrations, code, results, the laboratory notebook and a log of
@@ -103,7 +109,18 @@ recent generators that target statistical fingerprints: two amateur generators \
 \citet{bowerngaskell2022} show that word-level metrics are compatible with some kinds of encipherment, and the Naibbe
 cipher \citep{greshko2025} turns Latin or Italian into Voynich-like text by hand; its author presents it as a proof of
 concept, not as the method used for the manuscript. \citet{kinnison2026} shows that Naibbe ciphertext reproduces the
-manuscript's positional entropy profile.
+manuscript's positional entropy profile. Naibbe is the fullest of several constructions that carry a real message.
+\citet{rugg2004sciam} tried two ways of enciphering a real text with the tables of the grille hypothesis and found that both repeated words
+much less than the manuscript; \citet{feaster2019} designed a hand cipher whose output resembles Voynichese, with
+conventions for paragraph openings, line ends and labels, compared with the manuscript only qualitatively;
+\citet{matlach2022} proposed, without a quantitative test, a numeric homophonic code after Trithemius that would make
+the line a unit. None of these reproduces the line and page rules measured here, and in none is a text with a message
+distributed like a text without one: the word frequencies of Naibbe ciphertext follow the topic and language of the
+plaintext \citep[supplementary materials]{greshko2025}. Several authors have observed that the statistics measured so
+far cannot separate the hypotheses: \citet{gaskellbowern2022} leave open a message hidden by steganography in
+gibberish, \citet{parisel2026a} finds that the measured constraints do not discriminate natural language,
+gibberish and ciphertext, and \citet{rozanova2026} find Naibbe and the self-citation generator alike on the
+statistics they share, ``consistent with meaningless text but do not establish it''.
 
 \subsection{Steganography and its evaluation}
 
@@ -111,7 +128,8 @@ Transforming a text so that it imitates the statistics of another goes back to t
 \citet{wayner1992}. \citet{cachin1998} defined the security of steganography as the distance between the distributions
 of covers with and without a message, and \citet{hopper2002} gave provably secure constructions. Feeding encrypted bits
 to an arithmetic decoder in order to sample from a language model, so that the message-carrying text follows the
-model's distribution, is the method of \citet{ziegler2019}; \citet{kaptchuk2021} made it cryptographically secure.
+model's distribution, is the method of \citet{ziegler2019}; \citet{kaptchuk2021} made it cryptographically secure, and \citet{dewitt2023} showed how to make
+it perfectly secure in Cachin's sense.
 Training a classifier to separate two samples and reading its accuracy is a classifier two-sample test
 \citep{lopezpaz2017}. The voynichizer applies these ideas with a cover model of one specific historical book and is
 evaluated against measured properties of that book.
