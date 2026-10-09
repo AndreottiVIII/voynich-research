@@ -73,32 +73,30 @@ and reproduced by a steganographic generator\par}
 \begin{abstract}
 \setlength{\parskip}{0.6em}
 \noindent We studied how the text of the Voynich manuscript (Beinecke MS~408) is written, in 716 logged experiments,
-670 of them preregistered: hypothesis and criterion were fixed before the run, the code was tested first on synthetic
-texts, and each finding was set against the same measurement in 24 natural languages, constructed languages,
-volunteers' gibberish, published generators and ciphers and, where scribal habits were at issue, 79 medieval
-manuscripts (six Nordic, 73 German).
+670 of them preregistered (hypothesis and criterion fixed before the run, code tested first on synthetic texts), and
+compared each finding with the same measurement in 24 natural languages, constructed languages, volunteers'
+gibberish, published generators and ciphers and, for scribal habits, 79 medieval manuscripts.
 
-\noindent The measurements quantify regularities described before (word boundaries marked redundantly by word form,
-the dependency between adjacent words and its stop at the line break, line-edge forms, paragraph-initial gallows,
-copying from the line above) and add some that, to our knowledge, are new: the dependency between adjacent words
-mirrors the glyph sequences inside words; immediate repetition is not avoided, unlike in every language and manuscript
-compared; each line avoids starting like the line above, and marked variants drift along the line, both beyond
-anything in the medieval scribes measured. Eighteen of the measured properties form a scorecard.
+\noindent The measurements quantify regularities described before (word boundaries marked redundantly by word form, a
+dependency between adjacent words that stops at the line break, line-edge forms, paragraph-initial gallows, copying
+from the line above) and add two that are, to our knowledge, new: the dependency between adjacent words mirrors the
+glyph sequences inside words, and immediate repetition is not avoided, unlike in every language and manuscript
+compared. Two properties described before for parts of the manuscript, the avoidance of starting a line like the line
+above and the drift of marked variants along the line, are measured across the whole text and exceed anything found
+in the medieval scribes.
 
-\noindent From the scorecard we built the \emph{voynichizer}, which hides any text of up to about 20{,}000 characters in a Voynich-like
-book of 207 pages.
-The text is compressed, encrypted and authenticated with a key; through an arithmetic decoder its bits decide only how
-many times each recurring Voynich word appears on each page, while layout, invented words and word order follow the
-measured rules. On 24 keys, two classifiers retrained on each book separate its pages from the real ones with AUC 0.55
-and 0.60 (0.5 is chance; the second gives 0.60 also to the real manuscript with its lines shuffled), and the books
-pass 16 of the 17 attainable scorecard properties.
+\noindent From eighteen of these properties we built the \emph{voynichizer}, which hides any text of up to about
+20{,}000 characters in a Voynich-like book of 207 pages: the text is compressed, encrypted and authenticated with a key,
+and its bits decide only how many times each recurring word appears on each page. On 24 keys, two classifiers
+retrained on each book separate its pages from the real ones with AUC 0.55 and 0.60 (0.5 is chance), and the books
+pass 16 of the 17 attainable properties.
 
 \noindent That a Voynich-like text can carry a real message had been shown at the level of words, most fully by the
-Naibbe cipher (Greshko, 2025). We demonstrate it again, with a different mechanism and two stricter conditions: the
-book also follows the line, paragraph and page rules, and a book with a message is a sample of the same distribution
-as a book without one (a classifier trained to tell them apart scores AUC 0.51), while the key recovers the text
-exactly. The regularities we measured therefore describe how the manuscript was written, but they cannot tell whether it
-contains a message: a text that follows them can carry one or not, and the two cases look the same.
+Naibbe cipher (Greshko, 2025). We show it again, with a modern construction and two stricter conditions: the book also
+follows most of the line, paragraph and page rules, and a book with a message cannot be told from one without (a
+classifier trained to separate them scores AUC 0.51), while the key recovers the text exactly. The regularities we
+measured therefore describe how the manuscript was written, but they cannot tell whether it contains a message: a text
+that follows most of them can carry one or not, and the two cases look the same.
 \end{abstract}
 
 \vspace{0.5em}

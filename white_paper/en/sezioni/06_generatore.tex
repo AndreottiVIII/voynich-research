@@ -44,16 +44,19 @@ runs the arithmetic encoder on the observed counts.}
 \subsection{Design principle}
 
 Feeding uniformly random bits to an arithmetic decoder produces an exact sample of the decoder's probability model, up to
-the quantisation of the probabilities. If the bits are the ciphertext of a message under a good cipher, they are
-indistinguishable from random bits, and the book is a sample of the model whether or not it carries a message: security
-relative to the model in the sense of \citet{cachin1998}, by the method of \citet{ziegler2019}. Two consequences follow.
+the quantisation of the probabilities. If the bits are the ciphertext of a message under a good cipher, no efficient test
+can tell them from random bits, and the book is, to such tests, a sample of the model whether or not it carries a
+message. The security is therefore computational, resting on SHAKE-256 as a pseudorandom generator
+\citep{hopper2002}, and the sampling is exact up to the 16-bit quantisation of the probabilities; the method is that of
+\citet{ziegler2019}, the measure of security that of \citet{cachin1998}. Two consequences follow.
 The model, not the message, decides how close the book comes to the manuscript; and the capacity is fixed by the entropy
 of the part of the model that carries the bits, and cannot be raised without changing the statistics.
 
 \subsection{From text to bits}
 
 The text is compressed with zlib and framed as \emph{length} (4 bytes) $\|$ \emph{tag} (8 bytes) $\|$
-\emph{compressed text}, where the tag is a truncated HMAC-SHA256. The frame is XORed with a SHAKE-256 keystream; after
+\emph{compressed text}, where the tag is an HMAC-SHA256 of the compressed text truncated to 64 bits; tag
+and keystream are derived from the master key with different labels. The frame is XORed with a SHAKE-256 keystream; after
 it, the same keystream continues as filler, so that a book without a message is driven by the keystream alone. The
 master key is derived with scrypt ($n = 2^{15}$, $r = 8$, $p = 1$) from the passphrase; each random choice of the
 program has its own generator seeded from an HMAC of the master key and the use (and the page, for the choices made
@@ -117,7 +120,12 @@ the reading, and there is no error correction.
 
 The building blocks are standard, but the whole has not been reviewed by a cryptographer. The scrypt salt is fixed, so a
 dictionary of guessed passphrases can be prepared once for all books; the keystream depends only on the key, so two books
-written with the same key share it and a different key should be used for each message. A long random passphrase (six
+written with the same key share it and a different key should be used for each message. Because every random choice
+also derives from the key, two such books share their layout, the pages that lend each page its character and the places
+of invented words, and can be recognised as twins; a random nonce per book, sent through the decoder as its first bits,
+would remove this at a cost of 128 bits, and is not implemented. Reading back was tested in both directions between
+two implementations that use different mathematical libraries, CPython on Windows and Python compiled to WebAssembly
+(Pyodide) in the browser; other machines have not been tested, and the probabilities are computed in floating point. A long random passphrase (six
 random words or twelve random characters) is needed. The program hides \emph{that there is a message}, not that the
 program was used: about 86\% of the running words of a book are Voynich words (the known words; invented words never are), and a book is recognisable as the
 program's output.

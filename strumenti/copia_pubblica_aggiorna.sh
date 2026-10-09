@@ -8,6 +8,7 @@
 #
 # Uso, dalla radice del repo di lavoro:
 #   bash strumenti/copia_pubblica_aggiorna.sh [cartella della copia]
+# poi, nella copia: git push (il remote è github.com/AndreottiVIII/voynich-research)
 set -euo pipefail
 RADICE=$(cd "$(dirname "$0")/.." && pwd)
 DEST=${1:-$RADICE/../voynich-pubblico}
@@ -53,7 +54,7 @@ git gc -q --prune=now
 git reset -q --hard main
 
 # controlli, come nella copia completa
-test -z "$(git for-each-ref --format='%(refname)' | grep -v -x 'refs/heads/main' || true)" || { echo 'ERRORE: riferimenti oltre main'; exit 1; }
+test -z "$(git for-each-ref --format='%(refname)' | grep -v -x -E 'refs/heads/main|refs/remotes/origin/(main|HEAD)' || true)" || { echo 'ERRORE: riferimenti oltre main'; exit 1; }
 test -z "$(git log --all --format='%ae%n%ce' | grep -v -x "$EMAIL_PUBBLICA" || true)" || { echo 'ERRORE: email non anonime'; exit 1; }
 test -z "$(git rev-list --objects --all | grep -E '(note_revisore_v1_(EN|IT)\.md|VERIFICA_NOTE_REVISORE\.md|white_paper/(zenodo|linkedin))' || true)" || { echo 'ERRORE: file esclusi presenti'; exit 1; }
 test "$(git fsck --unreachable --no-reflogs 2>/dev/null | wc -l)" = 0 || { echo 'ERRORE: oggetti della storia privata rimasti'; exit 1; }

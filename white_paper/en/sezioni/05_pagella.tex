@@ -8,7 +8,7 @@ whole generated book and on the real manuscript in the same way.
 \paragraph{The scorecard} Eighteen properties (Table~\ref{tab:scorecard}), each with a pass band around the Voynich
 value. Seventeen come from the early experiments of the project and one (the line edges) from a later one; the bands were
 chosen after seeing the results of those experiments, so they are a specification, not a test. The book is cut into
-pseudo-pages of 29 lines. Measured in exactly this way, the real manuscript passes 17 of the 18: the band of the
+pseudo-pages of 29 lines, a convention fixed early in the project; real and generated books are cut in the same way. Measured in exactly this way, the real manuscript passes 17 of the 18: the band of the
 ``gradient'' (similarity at six lines relative to similarity within the line) was set from a different page division and
 the manuscript itself scores 0.68 against a band of 0.70--0.97. We therefore count 17 attainable properties.
 
@@ -34,7 +34,8 @@ second and last word of each line and the glyphs that begin the first words and 
 a page's glyphs from the book's and between the halves of the page. No feature tests whether a word belongs to the Voynich
 vocabulary. An AUC of 0.5 means that the judge is guessing and 1 that it never errs; the project set in advance 0.6 or
 less as ``hard to tell apart'' and 0.7 or more as ``distinguishable''. Controls: Currier's languages A and B are told apart
-with AUC 1.000; random labels give 0.53 and 0.52; two earlier generators of the project give 0.97/0.98 and 0.87/0.94.
+with AUC 1.000; random labels give 0.53 and 0.52 (one permutation each; with about 400 pages the standard error of an AUC
+near 0.5 is about 0.03); two earlier generators of the project give 0.97/0.98 and 0.87/0.94.
 
 \paragraph{A ladder of controls} To read an AUC, we degraded the real manuscript one level at a time and judged it
 (\expcode{e400}; Table~\ref{tab:ladder}). Shuffling the lines within each page costs nothing to the first judge and brings
@@ -54,10 +55,10 @@ are in Table~\ref{tab:results}.}
 \# & property (measure) & passes if & Voynich \\
 \midrule
 1 & conditional entropy of the next glyph, $h_2$ & $\pm 0.15$ & 2.236 \\
-2 & predictability of the space & $\pm 0.08$ & 0.664 \\
+2 & predictability of the space: share of its uncertainty removed by the preceding glyph & $\pm 0.08$ & 0.664 \\
 3 & share of words occurring once (at 34{,}000 words) & $\pm 0.08$ & 0.678 \\
 4 & types per token, whole text & $\pm 0.04$ & 0.210 \\
-5 & identical neighbours, relative to the line's composition & $\pm 0.2$ & 1.009 \\
+5 & identical neighbours, relative to random pairs from the same line (all words) & $\pm 0.2$ & 1.009 \\
 6 & homogeneity: similarity of words within the line & $\pm 0.008$ & 0.0385 \\
 7 & gradient: similarity at six lines / within the line & 0.70--0.97 & 0.683 (fails) \\
 8 & junction: last glyph $\to$ first glyph & $\pm 0.05$ & 0.188 \\

@@ -42,11 +42,14 @@ observed by \citet{currier1976}, \citet{smith2017lastfirst} and \citet{smithponz
 
 \paragraph{It mirrors the rules inside words} The preferences between the last glyph of a word and the first glyph of
 the next resemble the preferences between consecutive glyphs inside a word: the rank correlation between the two tables
-of pointwise mutual information is 0.47 (median of samples of 10{,}000 words), against at most 0.37 in the 24 languages
-and 0.39 in the constructed ones. This part does not follow from word form: in the samples drawn for the nulls of
-\expcode{e3c85} the Voynich has 0.55, and the nulls bring it down to 0.13 or less (0.22 when only the order of the
-words within each line is shuffled), and the junction itself to zero. At equal $h_2$ the Voynich lies 4.6 standard
-deviations above the regression line of the languages (3.9 with the value 0.47). \citet{smithponzi2019} concluded that word breaks are real boundaries, and
+of pointwise mutual information is 0.47 (median of five samples of 10{,}000 words), against at most 0.37 in the 24
+languages and 0.39 in the constructed ones; in the five samples drawn for the nulls of \expcode{e3c85} it is 0.55,
+which shows how much the value varies between samples. This part does not follow from word form: on those samples
+the nulls bring it down to 0.13 or less (0.22 when only the order of the words within each line is shuffled), and the
+junction itself to zero. At equal $h_2$ the Voynich lies 4.6 standard deviations above the regression line of the
+languages with the value 0.55, and 3.9 with 0.47. The correlation uses the cells seen at least five times in both
+tables, so it leaves out the pairs that occur across spaces but hardly inside words (\eva{y.q}, \eva{n.o}), which
+\citet{smithponzi2019} single out as marks of the boundary. \citet{smithponzi2019} concluded that word breaks are real boundaries, and
 Section~\ref{sec:boundaries} agrees; what we add is that the dependency across the boundary follows the same pattern as
 the dependency inside the word, more than in any language of the sample.
 
@@ -76,11 +79,15 @@ the first glyph of the word after next (excess 0.003 bits, $z = 1.3$), while 22 
 
 \paragraph{The junction stops at the line break} Between the last word of a line and the first word of the next the link
 is zero ($-0.003$ bits, $z = -0.7$), against 0.19 inside the line; the ratio $Q$ of the two is $-0.02$ on the whole text
-and 0.02 on samples of the length of the comparison texts (\expcode{e3c89}). In the comparison languages, whose lines are
-prose cut every six to eight words, the median $Q$ is 0.49 and only Hebrew falls below 0.10. A herbal in verse, the
+and 0.02 on samples of the length of the comparison texts (\expcode{e3c89}). In the comparison languages, whose lines follow
+the source editions and often end at a clause or a verse (Section~\ref{sec:data}), the median $Q$ is 0.49 and only
+Hebrew falls below 0.10; because those lines are not physical, the languages are a weak reference for line
+properties, and texts written in real lines are a better one. A herbal in verse, the
 \emph{Macer floridus} printed one verse per line, has a closed line too ($Q = -0.004$). The line is therefore a unit of
 the writing, as \citet{currier1976} and \citet{rozanova2026} found; a line that is a unit of content (a verse, an entry,
-a recipe) would produce the same closure (Section~\ref{sec:discussion}).
+a recipe) would produce the same closure (Section~\ref{sec:discussion}). The preregistered criterion of an earlier
+experiment (\expcode{e384}), set from short and noisy texts, read literally gave the opposite (``the junction carries
+over the line break as in prose''); \expcode{e3c89}, preregistered with its own criterion, confirms the closed line.
 
 \paragraph{And at the gap left by a drawing} Where a plant interrupts a line, the junction between the words on the two
 sides drops from 0.167 to 0.026 bits, and the word after the gap begins like a word at the start of a line.
@@ -113,8 +120,9 @@ a line avoids beginning like the line above: identical starts are 0.51 of the ex
 ($-7.0$). If the line above starts with \eva{qo-}, the probability that the next starts with \eva{qo-} drops by 52
 points. The effect concerns the left margin only: it is absent where lines resume to the right of a drawing, and the
 line two above, the end of the line above and the right margin do not matter. In the languages the median ratio is 0.97
-and one language of 23 falls below the Voynich (Portuguese, in a text with artificial lines; two when the text of
-each language closest to the Voynich is used); the volunteers' gibberish
+and one language of 23 falls below the Voynich (Portuguese; two when the text of each language closest to the
+Voynich is used), but here too the languages, without physical lines, are a weak reference; none of the 79
+manuscripts avoids the margin (Section~\ref{sec:scribes}); the volunteers' gibberish
 has 1.32 and the generators 0.93--2.05. A forum study had reported vertical avoidance of the same glyph in the herbal
 pages of one scribe \citep{tavie2024}; we measure it across the manuscript and against the comparison texts.
 
@@ -195,7 +203,8 @@ repeated word changes its start or end, the change follows the junction rule wit
   by the conjugate leaf of the same bifolium, which in the bound book can lie far away, and not by the facing page
   ($z = 6.6$). The two halves of a bifolium share rare words and copy from each other. All 48 bifolia with at least two
   pages labelled for language are entirely in one language, and 94\% of the 52 with at least two pages labelled for
-  hand are in one hand. Hands and languages are recorded page by page in the files, and
+  hand are in one hand (these counts include pages without running text, hence 52 against the 50 bifolia of
+Section~\ref{sec:data}). Hands and languages are recorded page by page in the files, and
   \citet{davis2025} had noted that in the herbal section the hands follow the bifolia; the shared rare words and the
   copying between conjugate leaves are what we add. Davis prefers, tentatively, quires written by one scribe and later
   bound out of order to scribes working on loose bifolia; our data do not separate the two.

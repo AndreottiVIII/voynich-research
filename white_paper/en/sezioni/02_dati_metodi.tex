@@ -29,8 +29,8 @@ page by page.
   Lojban, LOLCat, Neo-Quenya, Toki Pona, Volapük; LOLCat is a register of English rather than a constructed language).
   Eleven of the technical texts are translations of the Wikipedia article on the manuscript; they contain at most one
   or two EVA words each. The collection also provides the texts we cite by name (the Qur'an, Avicenna, the \emph{Hatton
-  Gospels}, Alberti's \emph{Della Pittura}, Pliny). In these files the lines are the original text cut every six to
-  eight words, not physical lines. Comparisons use the first 10{,}000 words of each text and, since
+  Gospels}, Alberti's \emph{Della Pittura}, Pliny). In these files the lines are those of the source editions (median eight
+  words; about a quarter end with punctuation, and verses or paragraphs are kept apart), not the lines of manuscripts. Comparisons use the first 10{,}000 words of each text and, since
   version~2, one value per natural language (the median of its texts), with constructed languages reported apart
   (experiment \expcode{e3c84}).
 \item \textbf{Other texts:} the Bible in about 100 languages \citep{christodouloupoulos2015}; Latin texts of the Latin
@@ -112,7 +112,8 @@ The measures are described in words where they are used; their definitions are i
 
 Intervals are bootstrap percentiles (2{,}000 resamples). In version~1 we resampled pages; but pages of the same
 bifolium are not independent (Section~\ref{sec:book}), so the main intervals are now computed by resampling bifolia
-(experiment \expcode{e3c86}). They are 0.84 to 1.56 times as wide as the page intervals, and each of the ten main
+(experiment \expcode{e3c86}). They are 0.84 to 1.56 times as wide as the page intervals (narrower in a few cases, as can
+happen with about 50 groups), and each of the ten main
 measures re-run in this way keeps its interval clear of the null value (copying from the line above and the junction
 rules were not re-run); with only 16 quires, resampling quires widens most intervals further and one drift
 (\eva{k}/\eva{t}) touches zero. For the main tests we declared seven families (one per finding) and applied Holm's

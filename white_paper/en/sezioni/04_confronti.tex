@@ -8,7 +8,8 @@ Table~\ref{tab:languages} and Figure~\ref{fig:languages} compare the Voynich wit
 per language (\expcode{e3c84}). Version~1 compared it with ``71 languages'', which were in fact 71 texts, some of them in
 constructed languages, and two of the reported maxima came from Toki Pona. Summarised per natural language, the
 statements of version~1 that the Voynich lies beyond all languages hold for the attested wrong cuts, the mirroring of
-within-word rules, the frequency--form correlation and the two repetition rates; spaces and form filling are exceeded
+within-word rules, the frequency--form correlation and the repetition of the previous word relative to the
+composition of the line (observed/expected); near-identical neighbours are not distinctive (four languages higher); spaces and form filling are exceeded
 only by Chinese in pinyin, whose words are syllables; the junction is exceeded by Sanskrit and Tagalog; margin avoidance
 by Portuguese. Section~\ref{sec:boundaries} shows that four of these properties follow from word form; the comparison
 says how unusual the word form is, not that the text is a chain.
@@ -19,7 +20,8 @@ says how unusual the word form is, not that the text is a chain.
 its texts; first 10{,}000 words), and against the constructed languages. ``Beyond'' counts the languages further than the
 Voynich in its own direction; the sensitivity columns use language and period, and the text of each language closest to
 the Voynich. The Voynich values are computed as for the languages and can differ slightly from the whole-text values of
-Section~\ref{sec:rules} (junction 0.191 against 0.188, near-identical neighbours 4.13\% against 3.9\%). Experiment
+Section~\ref{sec:rules} (junction 0.191 against 0.188). Repetition is observed/expected against the words of the same
+line shuffled (\expcode{e3c88}). Experiment
 \expcode{e3c84}.}
 \label{tab:languages}
 \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{3.6cm}r>{\centering\arraybackslash}X>{\centering\arraybackslash}X>{\centering\arraybackslash}p{2.0cm}}
@@ -32,8 +34,8 @@ attested wrong cuts & 0.499 & 0.065 (0.037--0.236) & 0 / 0 / 0 & none \\
 mirroring of within-word rules ($\rho$) & 0.470 & 0.030 ($-0.252$--0.371) & 0 / 0 / 0 & none \\
 frequency follows form ($\rho$) & 0.583 & 0.087 ($-0.018$--0.260) & 0 / 0 / 0 & none \\
 junction (bits) & 0.191 & 0.097 (0.034--0.220) & 2 / 3 / 4 & none \\
-identical neighbours & 1.01\% & 0.13\% (0.01--0.40\%) & 0 / 0 / 0 & none \\
-near-identical neighbours & 4.13\% & 0.25\% (0.06--1.86\%) & 0 / 0 / 0 & none \\
+identical neighbours (observed/expected) & 1.04 & 0.14 (0.01--0.92) & 0 / -- / -- & none \\
+near-identical neighbours (observed/expected) & 1.08 & 0.69 (0.26--1.61) & 4 / -- / -- & Esperanto, Toki Pona \\
 left margin (observed/expected) & 0.51 & 0.97 (0.42--1.35) & 1 of 23 & Lojban \\
 repetition decline within the line & 0.12 & 2.86 ($-3.89$--12.85) & 2 of 20 & Lojban, Toki Pona \\
 \bottomrule
@@ -81,7 +83,7 @@ not by the Voynich \\
 drift along the line (per 10 glyphs) & $-0.020$ to $-0.034$ & at most 0.0075 & at most 0.008, in no common direction &
 --- & no choice drifts as much; absent with power in 20 of 29 choices \\
 short state of choices, at 2--3 words & $+0.09$ & \multicolumn{2}{p{5.2cm}}{absent with power in 14 of 29 choices;
-not measurable in 13; present in 2: AM 302 fol \emph{ſ/s} ($+0.08$, from copying similar words) and Holm A 10
+power insufficient in 13; present in 2: AM 302 fol \emph{ſ/s} ($+0.08$, from copying similar words) and Holm A 10
 round/straight \emph{r} ($+0.05$, also between different words; uncertain)} & \textbf{rotates} homophones: $-0.18$ between adjacent
 words & weaker or absent in scribes; not established as unique \\
 slow state between consecutive lines & $+0.050$ & 6 of 17 choices, 5 as large as the Voynich & --- & --- & normal in
@@ -107,10 +109,10 @@ The short state is the property for which the comparison is weakest:
 with the data available it can be called absent in only half of the choices, and the Swedish scribe of Holm A 10 shows,
 in the choice between round and straight \emph{r}, an agreement half as large as the Voynich's that holds between
 different words too (\expcode{e3c91}, uncertain). The slow state is normal in handwriting. The Copiale copyist does the
-opposite of the Voynich: having used one symbol for a letter, he tends to use another in the next word (agreement
+opposite of the Voynich: having used one symbol for a letter, the copyist tends to use another in the next word (agreement
 $-0.18$, down to $-0.48$ for \emph{u}), as one would expect from someone rotating homophones. Fifteenth-century German
-herbals, recipe books and astrology texts written by hand repeat the adjacent word 7 to 30 times less than the Voynich,
-so repetition does not come from genre.
+herbals, recipe books and astrology texts written by hand avoid repeating the adjacent word (observed/expected
+0.05--0.51, against 1.04 in the Voynich; \expcode{e3c80}, \expcode{e3c88}), so repetition does not come from genre.
 
 These conclusions concern Old Norse and Early New High German manuscripts. Latin or Italian manuscripts of the fifteenth
 century transcribed at the level of letter forms, the closest in place and kind to the Voynich, are not in the battery.
