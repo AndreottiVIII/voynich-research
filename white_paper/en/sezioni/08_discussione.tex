@@ -11,7 +11,8 @@ chance, and every book carries an encrypted text that comes back exactly with th
 \item \textbf{A book with a message and a book without one} are samples of the same distribution, because the message
   enters only as encrypted bits, which are indistinguishable from the random filler that drives a book without a message.
   No test on the text can separate them without the key. This holds by construction, whatever the judge, as long as the
-  cipher is sound; the measurement on version~21 is in Section~\ref{sec:evaluation}.
+  cipher is sound, and the measurement on version~21 agrees: a classifier trained to separate them scores AUC 0.506
+  (Section~\ref{sec:evaluation}).
 \item \textbf{A generated book and the real manuscript} are not the same distribution. Our judges separate them a
   little (AUC 0.55 and 0.60), several properties are not reproduced, and a stronger or independently built judge would
   probably do better. How close the book comes is a measured fact about our instruments.

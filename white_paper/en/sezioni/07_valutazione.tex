@@ -75,8 +75,19 @@ vary from line to line (23 of 24 keys), the register of the first lines (18 of 2
 24). Lines are too irregular in width: 11.6\% are wider than 1.25 times the page median, against 6.0\% in the
 manuscript. About 0.4--0.5\% of the word triples of a book also occur in the manuscript.
 
-\paragraph{With and without a message} [e419: with 24 keys, books with the Isidore text and books with filler only;
-differences of the two judges against the manuscript, and a direct classifier between the two kinds of book.]
+\paragraph{With and without a message} For each of the 24 keys we also wrote a book with filler bits only, with the same
+parameters and key (\expcode{e419}). Against the manuscript, the books without a message score as the books with one:
+the paired differences (with minus without) are $-0.009 \pm 0.008$ for the first judge and $-0.007 \pm 0.010$ for the
+second, and the scorecard differs by $-0.04 \pm 0.04$; all 48 books pass the line gate. A classifier trained directly to
+tell the pages of books with a message from the pages of books without one (the 228 features of the second judge, folds by
+key, 9{,}420 pages) scores AUC 0.506, and no group of features exceeds 0.51; as a negative control, the same classifier
+separating books of odd and even keys, all without a message, scores 0.511. These are the outcomes predicted in the
+preregistration (differences within $\pm 0.010$, direct AUC between 0.45 and 0.55, no group above 0.58). One prediction
+failed: the capacity of a book is not the same with and without a message, because the arithmetic decoder consumes a
+number of bits that depends on the bits themselves; capacity is not observable without the key. With our instruments (about 220 features
+per page and a logistic classifier), a book that carries a message cannot be told from one that does not. The measurement
+does not exclude other statistics; the argument that none can succeed is the construction of Section~\ref{sec:generator},
+and it holds only as long as the cipher is sound.
 
 \paragraph{What the generator does not do} It writes only running paragraph text: no labels, no circular or radial
 text, and no images (the website places the real drawings next to the generated folios). It does not model hands, and
