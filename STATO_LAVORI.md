@@ -27,7 +27,7 @@ come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
   - riga e margine a 10.000 parole;
   - potenza negli scribi (corretta: deriva 20/29) e Holm A 10;
   - confronti multipli.
-- **Bozza v2:** `white_paper/en/` (37 pagine; figure rifatte da `figure/genera_figure.py`; bibliografia
+- **Bozza v2:** `white_paper/en/` (36 pagine; figure rifatte da `figure/genera_figure.py`; bibliografia
   `references.bib`). Titolo "Hiding a Message in a Voynich-like Book".
 - **Fatto il 9/10:**
   - e419 nel §9 (con e senza messaggio: classificatore diretto 0,506);
@@ -36,12 +36,16 @@ come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
     nascosta dopo il disegno);
   - abstract riscritto (procedimento, esperimenti, pagella, generatore; "può portare un messaggio" come dimostrazione
     ripetuta dopo il Naibbe di Greshko, in condizioni più strette);
-  - appendice dei controlli interni in un solo elenco (richiesta di Davide).
-- **Repo:** il repo di lavoro resta privato; la copia pubblica si prepara con `strumenti/copia_pubblica.sh` (email
-  anonima, senza note del revisore) in `../voynich-pubblico`. La pubblicazione su GitHub la fa Davide; poi va aggiornato
-  l'URL di `repository` nel paper.
-- **Dopo:** chiedere alla chat del voynichizzatore di rileggere §8–9; aggiornare la scheda Zenodo (autore, titolo,
-  abstract), il sito (chat del sito) e l'articolo LinkedIn.
+  - revisione tecnica della chat del voynichizzatore integrata (versioni v18–v20, chiavi, numeri);
+  - appendice dei controlli interni tolta (richiesta di Davide); licenze MIT (codice) e CC BY 4.0 (resto).
+- **Repo pubblico:** github.com/AndreottiVIII/voynich-research (creato da Davide il 9/10). Il repo di lavoro resta
+  privato; la copia si fa con `strumenti/copia_pubblica.sh` (email anonima; esclusi da tutta la storia: note del
+  revisore, `VERIFICA_NOTE_REVISORE.md`, `white_paper/zenodo`, `white_paper/linkedin`) in `../voynich-pubblico`; è
+  deterministica, quindi si aggiorna senza riscrivere la storia pubblicata.
+- **Materiali di pubblicazione fuori dal repo** (decisione di Davide): scheda Zenodo, articolo LinkedIn e PDF da
+  caricare in `C:\Users\davide\voynich_pubblicazione\`, consegnati a Davide il 9/10.
+- **Dopo:** DOI di Zenodo nella prima pagina del PDF (se Davide lo prenota); avvisare la chat del sito (nuovo PDF, titolo,
+  autore solo Davide).
 
 ## White paper (4/10 sera) — versione 1, superata dalla v2
 
@@ -53,8 +57,8 @@ come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
   Davide); la divisione del lavoro sta nel §3.4 "How the two authors worked", chiesto da Davide.
 - Tolte su richiesta di Davide: la nota sugli autori, le note sulla verifica dei riferimenti, la datazione al
   radiocarbonio nell'abstract (spostata nel §1.1).
-- **Pubblicazione:** scheda per Zenodo in `white_paper/zenodo/SCHEDA_ZENODO.md` (il caricamento lo fa Davide; se prenota
-  il DOI, va aggiunto nella prima pagina del PDF). Articolo LinkedIn in `white_paper/linkedin/articolo_linkedin.md`
+- **Pubblicazione (v1):** scheda per Zenodo, ora fuori dal repo (il caricamento lo fa Davide; se prenota
+  il DOI, va aggiunto nella prima pagina del PDF). Articolo LinkedIn, ora fuori dal repo
   (`[LINK ZENODO]` da sostituire).
 - **Licenza: CC BY 4.0**, confermata da Davide (4/10 sera); scritta nella prima pagina del PDF e nella scheda Zenodo.
 - Il PDF è anche sul sito pubblico, pagina Research (lo cura la chat del sito): quando cambia il PDF o arriva il DOI,
