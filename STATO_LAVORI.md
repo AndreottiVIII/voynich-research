@@ -27,13 +27,19 @@ come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
   - riga e margine a 10.000 parole;
   - potenza negli scribi (corretta: deriva 20/29) e Holm A 10;
   - confronti multipli.
-- **Bozza v2:** `white_paper/en/` (36 pagine; figure rifatte da `figure/genera_figure.py`; bibliografia
+- **Bozza v2:** `white_paper/en/` (37 pagine; figure rifatte da `figure/genera_figure.py`; bibliografia
   `references.bib`). Titolo "Hiding a Message in a Voynich-like Book".
-- **Mancano:**
-  - l'esito dell'**e419** (con e senza messaggio sulla v21, fatto dalla chat del voynichizzatore) nel §9;
-  - un controllo dei numeri (agente);
-  - le risposte di Davide su: email nei commit e note del revisore nel repo pubblico, download di voynich-fingerprint,
-    ritagli IIIF per il controllo sulle immagini.
+- **Fatto il 9/10:**
+  - e419 nel §9 (con e senza messaggio: classificatore diretto 0,506);
+  - controllo dei numeri (due agenti): 13 numeri e 24 formulazioni corretti;
+  - e3c93 voynich-fingerprint (giuntura sì, riga chiusa e margine no) e e3c94 controllo sulle immagini (nessuna q
+    nascosta dopo il disegno);
+  - abstract riscritto (procedimento, esperimenti, pagella, generatore; "può portare un messaggio" come dimostrazione
+    ripetuta dopo il Naibbe di Greshko, in condizioni più strette);
+  - appendice dei controlli interni in un solo elenco (richiesta di Davide).
+- **Repo:** il repo di lavoro resta privato; la copia pubblica si prepara con `strumenti/copia_pubblica.sh` (email
+  anonima, senza note del revisore) in `../voynich-pubblico`. La pubblicazione su GitHub la fa Davide; poi va aggiornato
+  l'URL di `repository` nel paper.
 - **Dopo:** chiedere alla chat del voynichizzatore di rileggere §8–9; aggiornare la scheda Zenodo (autore, titolo,
   abstract), il sito (chat del sito) e l'articolo LinkedIn.
 

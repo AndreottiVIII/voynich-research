@@ -17,12 +17,14 @@ Punto di ripartenza per qualunque sessione. Verifica delle note del revisore: `V
 ## Lavori
 
 ### 0. Apertura del repo
-- [ ] Controllo prima di aprire:
+- [x] Controllo prima di aprire (9/10):
   - storia git (dati protetti mai committati, chiavi o password);
   - email negli autori dei commit;
   - note del revisore;
   - licenze dei file in `dati/`.
-- [ ] Aprire il repo, aggiornare `CLAUDE.md` (regola "il repo resta privato") e il paper (§ Riproducibilità).
+- [x] Decisione di Davide (9/10): il repo di lavoro resta privato, si pubblica una **copia** (`strumenti/copia_pubblica.sh`:
+  email anonima di GitHub, senza le note del revisore, mappa degli hash in `risultati/provenienza/MAPPA_COMMIT_PUBBLICI.txt`).
+- [ ] Davide crea il repo pubblico su GitHub e lo carica; poi aggiornare l'URL di `repository` in `references.bib`.
 
 ### 1. Rianalisi (esperimenti nuovi, ognuno con preregistrazione, codice, esecuzione, quaderno)
 - [x] e3c84: percentili per lingua, senza lingue artificiali (C1.1): reggono quasi tutti; giuntura 2 lingue su 24, calo 2 su 20
@@ -34,8 +36,8 @@ Punto di ripartenza per qualunque sessione. Verifica delle note del revisore: `V
 - [x] e3c90 potenza per scriba e scelta (A9): deriva assente con potenza 20/29 (corretto: prima 28/29, errore di unità); finestra 14/29, 13 senza potenza, 2 presenti (e3c91: Holm A 10 incerto)
 - [x] e3c92 confronti multipli (A3): Holm 23 su 23; Bonferroni su 715 esperimenti 15 su 23
 - [x] registro completo degli esperimenti (A2, B12): `registro_esperimenti.csv`, 716 righe
-- [ ] controllo a campione sulle immagini (A11) — servono ritagli IIIF (download: chiedere a Davide); per gli spazi incerti citare Rozanova e Temerev
-- [ ] (con download autorizzato) voynich-fingerprint (271 KB, MIT) nelle nostre misure; Kinnison = Naibbe, già misurato: non serve
+- [x] e3c94 controllo a campione sulle immagini (A11): nessuna q nascosta dopo il disegno (0 su 16, 3 incerte); -m di fine riga 5 su 6 chiare
+- [x] e3c93 voynich-fingerprint: giuntura sì, riga chiusa e margine no (anche il manuale a mano); nel §6.3
 
 ### 2. Materiale sul voynichizzatore (lavoro dell'altra chat: leggere, non modificare)
 - [x] Scheda tecnica: `white_paper/revisione/scheda_voynichizzatore.md`.
@@ -66,3 +68,10 @@ Punto di ripartenza per qualunque sessione. Verifica delle note del revisore: `V
 - Figure: almeno 4 di misure + pagina generata accanto a pagina vera.
 - Correzioni puntuali: tutte quelle di `VERIFICA_NOTE_REVISORE.md` (B, C, D).
 - Sito e scheda Zenodo da allineare a fine lavoro (avvisare la chat del sito).
+
+### 4. Dopo la revisione (9/10)
+- [x] Controllo dei numeri del paper (due agenti): 13 numeri e 24 formulazioni corretti.
+- [x] Abstract riscritto come chiesto da Davide: procedimento, esperimenti, pagella (noto e nuovo distinti), generatore,
+  dimostrazione "può portare un messaggio" ripetuta dopo il Naibbe, senza prendersi meriti altrui.
+- [x] Precedenti con messaggio (ricerca del 9/10, `precedenti_messaggio.md` nello scratch): Naibbe, Rugg 2004 (Scientific
+  American), Feaster 2019 (Griffoynich), Matlach 2022, Rozanova e Temerev 2026, Parisel 2026, Gaskell e Bowern 2022.

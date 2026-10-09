@@ -7,8 +7,10 @@ Ricerca statistica sul manoscritto Voynich (Beinecke MS 408) per un futuro white
 
 - **Mai dichiarare una decifrazione.** Ogni "lettura" passa dai controlli (positivo, negativo, testo
   rimescolato dentro il criterio).
-- **Il repo resta privato** (github.com/AndreottiVIII/voynich). I dati in `dati/cache` sono protetti da
-  diritto d'autore: non vanno committati né ridistribuiti (sono in `.gitignore`).
+- **Il repo di lavoro resta privato** (github.com/AndreottiVIII/voynich); se ne pubblica una **copia** fatta con
+  `strumenti/copia_pubblica.sh` (email anonima, senza le note del revisore; decisione di Davide del 9/10/2026).
+- I dati in `dati/cache` sono protetti da diritto d'autore: non vanno committati né ridistribuiti (sono in
+  `.gitignore`).
 - **Ordine di lavoro**, ogni passo in un commit a parte:
   1. preregistrazione `preregistrazioni/eNN.md`;
   2. codice `esperimenti/eNN_*.py`;
