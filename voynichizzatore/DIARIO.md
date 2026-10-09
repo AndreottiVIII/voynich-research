@@ -922,3 +922,8 @@ come **PDF del libro**.
   diretto 0,506, gruppi 0,49–0,51; controllo negativo 0,511. Capacità non identica fra con e senza (dipende dai bit).
 - Corretto l'e409: il riassunto .md cadeva senza il caso a (i .json erano completi).
 - Riattivato il controllo da remoto su questa chat (Davide, 8/10).
+
+## 9/10/2026 — Revisione delle sezioni del white paper v2 sul generatore
+
+- Su richiesta della chat di ricerca: `voynichizzatore/REVISIONE_PAPER_V2.md`, 41 voci (8 correzioni, tutte integrate da loro nel paper: tabella delle versioni con la v20, chiavi di scelta e di misura, 124-131 pagine, 4% di parole in piu, terne 0,3-0,5%, fonti di v0/v1 e del gradiente, didascalia della figura con l a capo finale).
+- Fatto notare: la figura di esempio e stata fatta da `white_paper/en/figure/messaggio_esempio.txt` (con a capo finale: 1.144 bit); la stessa frase senza a capo da 1.128 bit e capacita diversa.
