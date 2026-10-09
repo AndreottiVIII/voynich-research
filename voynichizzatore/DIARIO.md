@@ -914,3 +914,11 @@ come **PDF del libro**.
 - **Il ramo main del repo pubblico ora contiene anche `docs/` (il sito).** Prima di ogni push dalla copia `C:\Users\davide\voynichizzatore`: `git pull`. La copia del pacchetto (`cp -r pubblico/voynichizzatore/. ...`) non tocca `docs/`; non cancellare mai quella cartella.
 - A ogni versione nuova: avvisare la chat del sito (aggiunge la cartella del motore; se cambiano i conteggi delle parole tiene anche la vecchia per rileggere).
 - Da proporre a Davide: link al sito nel README del programma.
+
+## 8/10/2026 — e419: con messaggio contro senza, sulla v21 (per il white paper)
+
+- Richiesta della chat di ricerca (white paper v2, centrato sul voynichizzatore, scritto da loro con i nostri numeri).
+- Esito (voce "vz: e419" nel QUADERNO): differenze contro il Voynich −0,009 ± 0,008 e −0,007 ± 0,010; classificatore
+  diretto 0,506, gruppi 0,49–0,51; controllo negativo 0,511. Capacità non identica fra con e senza (dipende dai bit).
+- Corretto l'e409: il riassunto .md cadeva senza il caso a (i .json erano completi).
+- Riattivato il controllo da remoto su questa chat (Davide, 8/10).
