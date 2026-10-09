@@ -927,3 +927,10 @@ come **PDF del libro**.
 
 - Su richiesta della chat di ricerca: `voynichizzatore/REVISIONE_PAPER_V2.md`, 41 voci (8 correzioni, tutte integrate da loro nel paper: tabella delle versioni con la v20, chiavi di scelta e di misura, 124-131 pagine, 4% di parole in piu, terne 0,3-0,5%, fonti di v0/v1 e del gradiente, didascalia della figura con l a capo finale).
 - Fatto notare: la figura di esempio e stata fatta da `white_paper/en/figure/messaggio_esempio.txt` (con a capo finale: 1.144 bit); la stessa frase senza a capo da 1.128 bit e capacita diversa.
+
+## 9/10/2026 — Sito: pagina Research alla v2 del white paper
+
+- Su richiesta della chat di ricerca, confermata da Davide: pagina Research riscritta sul white paper v2 (autore solo
+  Davide, PDF finale di 38 pagine, abstract corto, link al repo pubblico voynich-research; la v1 resta come "Version 1").
+  Pubblicata e verificata online. Dettagli in `SITO_WEB.md`, §14. Contributori ancora fuori dal sito, in attesa di
+  conferma di Davide; DOI di Zenodo da aggiungere quando arriva.
