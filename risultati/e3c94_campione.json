@@ -1,0 +1,318 @@
+{
+ "conteggi": {
+  "mezzo": {
+   "qo": 3703,
+   "o": 3438
+  },
+  "salto": {
+   "qo": 22,
+   "o": 134
+  }
+ },
+ "p_mezzo": 0.5185548242543061,
+ "p_salto": 0.14102564102564102,
+ "soglia": 0.4395115864453116,
+ "candidati": {
+  "A": 134,
+  "B": 22,
+  "C": 630
+ },
+ "saltate_senza_immagine": [
+  "A f68r1.3",
+  "A f90r1.4"
+ ],
+ "campione": {
+  "A": [
+   {
+    "pagina": "f52r",
+    "riga": 6,
+    "parola": 7,
+    "di": 8,
+    "testo_parola": "okchol",
+    "riga_trascritta": "daiin.shedaiin.qodal.dy.chokam.otchordy|okchol.do",
+    "immagine": "52r.jpg",
+    "iiif_id": "1006176",
+    "id": "A01"
+   },
+   {
+    "pagina": "f56r",
+    "riga": 4,
+    "parola": 7,
+    "di": 8,
+    "testo_parola": "okar",
+    "riga_trascritta": "qot,chor.chor.chokor.chkor,chy|okar.chdy",
+    "immagine": "56r.jpg",
+    "iiif_id": "1006184",
+    "id": "A02"
+   },
+   {
+    "pagina": "f48v",
+    "riga": 6,
+    "parola": 10,
+    "di": 15,
+    "testo_parola": "otal",
+    "riga_trascritta": "shdy.qokain.okar.otar.or.otees.ol.or.ain|otal.ok.y,tar.chedy.am",
+    "immagine": "48v.jpg",
+    "iiif_id": "1006169",
+    "id": "A03"
+   },
+   {
+    "pagina": "f14v",
+    "riga": 8,
+    "parola": 3,
+    "di": 7,
+    "testo_parola": "okshody",
+    "riga_trascritta": "chokshor.daiin|okshody.daiin|dol.dair.dam",
+    "immagine": "14v.jpg",
+    "iiif_id": "1006101",
+    "id": "A04"
+   },
+   {
+    "pagina": "f76v",
+    "riga": 3,
+    "parola": 9,
+    "di": 10,
+    "testo_parola": "oteedy",
+    "riga_trascritta": "dchedy.qokeedy.oteedy.chedaiin.chey.qokeedy.olkedy.ror|oteedy.okal",
+    "immagine": "76v.jpg",
+    "iiif_id": "1006211",
+    "id": "A05"
+   },
+   {
+    "pagina": "f7r",
+    "riga": 6,
+    "parola": 5,
+    "di": 6,
+    "testo_parola": "otchor",
+    "riga_trascritta": "ksholo,chey.qotoees.chkoldy|otchor.choaiin",
+    "immagine": "7r.jpg",
+    "iiif_id": "1006088",
+    "id": "A06"
+   },
+   {
+    "pagina": "f93r",
+    "riga": 4,
+    "parola": 7,
+    "di": 8,
+    "testo_parola": "otol",
+    "riga_trascritta": "sol.shotol.qokchodal.shody.chotol,s|otol.ytchdg",
+    "immagine": "93r.jpg",
+    "iiif_id": "1006238",
+    "id": "A07"
+   },
+   {
+    "pagina": "f9v",
+    "riga": 6,
+    "parola": 6,
+    "di": 8,
+    "testo_parola": "otchy",
+    "riga_trascritta": "odol.choy.ksheody.chody|dain|otchy.cthod|yko",
+    "immagine": "9v.jpg",
+    "iiif_id": "1006093",
+    "id": "A08"
+   },
+   {
+    "pagina": "f23v",
+    "riga": 4,
+    "parola": 6,
+    "di": 7,
+    "testo_parola": "otchor",
+    "riga_trascritta": "okchey.dair.sholol.ol,dal|otchor,dar",
+    "immagine": "23v.jpg",
+    "iiif_id": "1006119",
+    "id": "A09"
+   },
+   {
+    "pagina": "f57r",
+    "riga": 7,
+    "parola": 5,
+    "di": 8,
+    "testo_parola": "oteeod",
+    "riga_trascritta": "daiis.sheedy.qokeedy.chetey|oteeod.shekey.tedy.okaldg",
+    "immagine": "57r.jpg",
+    "iiif_id": "1006186",
+    "id": "A10"
+   },
+   {
+    "pagina": "f82r",
+    "riga": 1,
+    "parola": 5,
+    "di": 8,
+    "testo_parola": "okeeor",
+    "riga_trascritta": "qosheedy.qokeol.daiin.shckhy|okeeor.cheey.daiin.shey",
+    "immagine": "82r.jpg",
+    "iiif_id": "1006222",
+    "id": "A11"
+   },
+   {
+    "pagina": "f28r",
+    "riga": 4,
+    "parola": 6,
+    "di": 8,
+    "testo_parola": "otol",
+    "riga_trascritta": "choty.chtol.otol.chotchy.cthol|otol.choky.qoty",
+    "immagine": "28r.jpg",
+    "iiif_id": "1006128",
+    "id": "A12"
+   },
+   {
+    "pagina": "f27v",
+    "riga": 7,
+    "parola": 6,
+    "di": 6,
+    "testo_parola": "otchdy",
+    "riga_trascritta": "sho.shoykcho.shdy|dchd|chschsy|otchdy",
+    "immagine": "27v.jpg",
+    "iiif_id": "1006127",
+    "id": "A13"
+   },
+   {
+    "pagina": "f23v",
+    "riga": 2,
+    "parola": 6,
+    "di": 8,
+    "testo_parola": "otchol",
+    "riga_trascritta": "qotcotor.chy.okchaldy.qokchey.dol|otchol.chal.otchg",
+    "immagine": "23v.jpg",
+    "iiif_id": "1006119",
+    "id": "A14"
+   },
+   {
+    "pagina": "f40r",
+    "riga": 5,
+    "parola": 4,
+    "di": 11,
+    "testo_parola": "okol",
+    "riga_trascritta": "lokar.qokar.okar|okol.ol.chedy.qokchd.ar.ar.or.dag",
+    "immagine": "40r.jpg",
+    "iiif_id": "1006152",
+    "id": "A15"
+   },
+   {
+    "pagina": "f51v",
+    "riga": 6,
+    "parola": 6,
+    "di": 8,
+    "testo_parola": "otykol",
+    "riga_trascritta": "okor.ctheody.qocphy.qokal.qotaiin|otykol.chol,daiin",
+    "immagine": "51v.jpg",
+    "iiif_id": "1006175",
+    "id": "A16"
+   }
+  ],
+  "B": [
+   {
+    "pagina": "f75r",
+    "riga": 11,
+    "parola": 4,
+    "di": 10,
+    "testo_parola": "qokeedy",
+    "riga_trascritta": "qokeedy.qokair.oly|qokeedy.dy.qokal.okar.shedy.dor.chekam",
+    "immagine": "75r.jpg",
+    "iiif_id": "1006208",
+    "id": "B01"
+   },
+   {
+    "pagina": "f75v",
+    "riga": 15,
+    "parola": 7,
+    "di": 12,
+    "testo_parola": "qokar",
+    "riga_trascritta": "sal.ol.olain.olkey.olshed.qokaly|qokar.chedy.qokain.ty.lshdy,qo",
+    "immagine": "75v.jpg",
+    "iiif_id": "1006209",
+    "id": "B02"
+   },
+   {
+    "pagina": "f26r",
+    "riga": 5,
+    "parola": 9,
+    "di": 11,
+    "testo_parola": "qokeedy",
+    "riga_trascritta": "saiin.shedy.eedy.eedy.s,chy|daiin.cthedy|qokeedy.qokedy.cthey",
+    "immagine": "26r.jpg",
+    "iiif_id": "1006124",
+    "id": "B03"
+   },
+   {
+    "pagina": "f82r",
+    "riga": 2,
+    "parola": 5,
+    "di": 8,
+    "testo_parola": "qokeedy",
+    "riga_trascritta": "dchedy.qolchedy.qokain.dy|qokeedy.qokal.lcheckhy.lched",
+    "immagine": "82r.jpg",
+    "iiif_id": "1006222",
+    "id": "B04"
+   }
+  ],
+  "C": [
+   {
+    "pagina": "f108v",
+    "riga": 17,
+    "parola": 11,
+    "di": 11,
+    "testo_parola": "raram",
+    "riga_trascritta": "qokeey.lkeed.chedy.qokeeos.sheol.tedy.qopchdy.qokeshdy.kedar.otal.raram",
+    "immagine": "108v.jpg",
+    "iiif_id": "1006265",
+    "id": "C01"
+   },
+   {
+    "pagina": "f18v",
+    "riga": 8,
+    "parola": 7,
+    "di": 7,
+    "testo_parola": "ykam",
+    "riga_trascritta": "tolol.sh.cphoy.daror.ddy.ytor.ykam",
+    "immagine": "18v.jpg",
+    "iiif_id": "1006109",
+    "id": "C02"
+   },
+   {
+    "pagina": "f107r",
+    "riga": 25,
+    "parola": 11,
+    "di": 11,
+    "testo_parola": "om",
+    "riga_trascritta": "ycheain.chal.kal.chedy.qokaiin.chody.qokchdy.qokal.char.chdalal.om",
+    "immagine": "107r.jpg",
+    "iiif_id": "1006262",
+    "id": "C03"
+   },
+   {
+    "pagina": "f16r",
+    "riga": 1,
+    "parola": 10,
+    "di": 10,
+    "testo_parola": "orom",
+    "riga_trascritta": "pocheody.qopchey.sykaiin.opchy,dor.ychy|daiin.dy|chor.orom",
+    "immagine": "16r.jpg",
+    "iiif_id": "1006104",
+    "id": "C04"
+   },
+   {
+    "pagina": "f75v",
+    "riga": 1,
+    "parola": 9,
+    "di": 9,
+    "testo_parola": "qotam",
+    "riga_trascritta": "pchedar.opchedy.qokedy.opchedy.qopdy|dain.chetas.chcphhy.qotam",
+    "immagine": "75v.jpg",
+    "iiif_id": "1006209",
+    "id": "C05"
+   },
+   {
+    "pagina": "f107v",
+    "riga": 29,
+    "parola": 9,
+    "di": 9,
+    "testo_parola": "ltam",
+    "riga_trascritta": "tolkeeedy.okeol.cheody.qokeey.qokchedy.qotyshey.qcthhy.lty.ltam",
+    "immagine": "107v.jpg",
+    "iiif_id": "1006263",
+    "id": "C06"
+   }
+  ]
+ }
+}

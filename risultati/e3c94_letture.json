@@ -1,0 +1,36 @@
+{
+ "lettore": "Claude (Opus 5.5), 9/10/2026; lettura non cieca (vedi preregistrazione)",
+ "immagini": "A e B: ritagli IIIF a risoluzione piena (dati/cache/iiif_e3c94/, regioni in risultati/e3c94_ritagli.json); C: immagini a 1.500 pixel in cache",
+ "A": {
+  "A01": {"classe": "nessuna q", "nota": "fra la fine delle foglie e la o c'è pergamena pulita, più larga di un segno"},
+  "A02": {"classe": "nessuna q", "nota": "fra il bordo del fiore blu e la o pergamena pulita, più larga di un segno"},
+  "A03": {"classe": "incerta", "nota": "primo ritaglio fuori riga, rifatto. La punta di una foglia chiara finisce con un piccolo ricciolo a circa 6 pixel (sull'immagine a 1.500) dalla o: niente a forma di q, ma il tratto è attaccato alla parola"},
+  "A04": {"classe": "nessuna q", "nota": "steli sottili della pianta lontani; pergamena pulita davanti alla o"},
+  "A05": {"classe": "nessuna q", "nota": "contorno della figura umana, poi pergamena pulita davanti alla o"},
+  "A06": {"classe": "nessuna q", "nota": "foglia verde, poi pergamena pulita davanti alla o"},
+  "A07": {"classe": "nessuna q", "nota": "peli sottili del disegno a sinistra, nessun tratto a forma di q; pergamena pulita accanto alla o"},
+  "A08": {"classe": "nessuna q", "nota": "stelo verde a sinistra, pergamena pulita davanti alla o; un altro stelo attraversa la parola più avanti"},
+  "A09": {"classe": "incerta", "nota": "il petalo blu, a colore coprente, arriva a ridosso della o: fra petalo e o una q non ci starebbe, sotto il colore non si vede"},
+  "A10": {"classe": "incerta", "nota": "come A09: il fiore blu, coprente, tocca quasi la o"},
+  "A11": {"classe": "nessuna q", "nota": "contorno del recipiente, poi pergamena pulita più larga di un segno"},
+  "A12": {"classe": "nessuna q", "nota": "bocciolo disegnato solo a tratto, trasparente, vicino alla o: sotto non c'è scrittura"},
+  "A13": {"classe": "nessuna q", "nota": "raggi sottili del fiore, poi pergamena pulita davanti alla o"},
+  "A14": {"classe": "nessuna q", "nota": "petalo blu, poi circa un segno di pergamena pulita davanti alla o"},
+  "A15": {"classe": "nessuna q", "nota": "pianta verde, poi circa un segno di pergamena pulita davanti alla o"},
+  "A16": {"classe": "nessuna q", "nota": "steli sottili vicini alla o, nessun tratto a forma di q"}
+ },
+ "B": {
+  "B01": {"classe": "q visibile", "nota": "q chiara dopo il tubo verde"},
+  "B02": {"classe": "q visibile", "nota": "q chiara dopo il tubo"},
+  "B03": {"classe": "q visibile", "nota": "q chiara, con un lungo tratto d'attacco a sinistra"},
+  "B04": {"classe": "q visibile", "nota": "q chiara dopo il recipiente"}
+ },
+ "C": {
+  "C01": {"classe": "m chiara", "nota": "f108v, raram"},
+  "C02": {"classe": "m chiara", "nota": "f18v, ykam"},
+  "C03": {"classe": "m chiara", "nota": "f107r, om: coda lunga sotto il rigo"},
+  "C04": {"classe": "non chiara", "nota": "f16r, orom: a 1.500 pixel l'ultimo segno ha un occhiello in alto e una coda sotto il rigo, probabilmente m ma potrebbe essere d"},
+  "C05": {"classe": "m chiara", "nota": "f75v, qotam; dopo c'è l'etichetta s (riga 2 della trascrizione)"},
+  "C06": {"classe": "m chiara", "nota": "f107v, ltam"}
+ }
+}
