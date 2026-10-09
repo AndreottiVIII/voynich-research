@@ -26,11 +26,15 @@ cannot be read from its statistics. This does not show that the manuscript carri
 generators without a message \citep{rugg2004,timmschinner2020} show that it does not. It shows, with a construction,
 what several studies had suspected from the statistics they measured
 \citep{gaskellbowern2022,bowerngaskell2022,parisel2026a,rozanova2026}: the debate between ``meaningless'' and
-``enciphered'' will not be settled by the statistics of the text alone.
+``enciphered'' will not be settled by the statistics of the text alone. What is specific to the Voynich here is not the
+indistinguishability, which any cover would give with a good cipher, but the capacity at a given distance from the
+manuscript: about 83{,}000 bits per book at AUC 0.55 and 0.60 with these judges, a lower bound that a better model could
+raise. The construction is modern (arithmetic coding, current cryptography) and says nothing about how a
+fifteenth-century writer could have hidden a message.
 
 \subsection{What the measurements exclude and what they leave open}
 
-\paragraph{Excluded, with the controls described}
+\paragraph{Not supported, with the controls described}
 \begin{itemize}
 \item a natural language written in an ordinary alphabet and read with a simple or homophonic substitution, in the
   languages tested;
@@ -95,7 +99,8 @@ a secure identification of many plants to use as cribs, a key found in an archiv
   different choices change at the same points, and whether the short state crosses the line break. Whether the state
   survives the gap of a drawing is undecided for lack of data.
 \item \textbf{The generator.} The judges and the scorecard are the project's own, and the generator was tuned against
-  them; an independently built judge has not been tried. Keys 1--12 were used during development. The books are not
+  them; an independently built judge has not been tried. The books of the 24 keys, the keys and the code are public,
+  and we would welcome one built by others. Keys 1--12 were used during development. The books are not
   indistinguishable from the manuscript. The encryption has not been reviewed by a cryptographer, and the scrypt salt is
   fixed.
 \item \textbf{Effect sizes.} Several of the properties are small in absolute terms (the short state is about 13
