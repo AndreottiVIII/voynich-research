@@ -1,0 +1,26 @@
+{
+ "soglia": 0.4395115864453116,
+ "p_mezzo": 0.5185548242543061,
+ "p_salto": 0.14102564102564102,
+ "A": {
+  "nessuna q": 13,
+  "incerta": 3
+ },
+ "n": 16,
+ "k": 0,
+ "incerte": 3,
+ "IC95_k": [
+  0.0,
+  0.20590721420782268
+ ],
+ "IC95_k_piu_incerte": [
+  0.040473733905945886,
+  0.4564565462316117
+ ],
+ "B_q_visibile": 4,
+ "C": {
+  "m chiara": 5,
+  "non chiara": 1
+ },
+ "esito": "la caduta della q dopo il disegno non è (tutta) un effetto della trascrizione (probabile: con le incerte il limite alto supera la soglia)"
+}
