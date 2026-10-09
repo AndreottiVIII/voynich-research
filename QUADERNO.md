@@ -16345,3 +16345,31 @@ libri interi (semi 7, 21, 44; circa 37.000 parole e 772 paragrafi ciascuno) e il
 - **Limite:** abbiamo usato la loro configurazione pubblicata, addestrata su metà del manoscritto come nel loro
   protocollo; il generatore misura bene ciò per cui è stato regolato (44 statistiche), e la riga chiusa e il margine non
   sono fra quelle.
+
+## 9/10/2026 (mattina) — e3c94: sulle immagini nessuna q nascosta dopo il disegno (0 su 16, 3 incerte); le -m di fine riga sono m
+
+Preregistrato (`preregistrazioni/e3c94.md`). Risponde alla nota A11 del revisore. Campione dalla ZL con seme 3394 (e3c94),
+ritagli IIIF di Yale a risoluzione piena (scaricati con il permesso di Davide), letture in `risultati/e3c94_letture.json`,
+esito con e3c94b.
+
+- **Conteggi sullo stesso testo:** quota di *qo-* fra *qo-*/*o-* davanti a gallows 0,519 in mezzo alla riga e 0,141 dopo il
+  salto del disegno. Perché la caduta fosse tutta trascrizione, il 44% delle parole *o-* dopo il disegno dovrebbe avere
+  una *q* nascosta (soglia s = 0,440).
+- **A, 16 parole *o-* dopo il disegno:**
+  - nessuna *q* in 13;
+  - *q* non trascritta in 0;
+  - incerte 3: in A09 e A10 un fiore blu a colore coprente arriva a ridosso della *o*; in A03 la punta di una foglia
+    finisce con un ricciolo attaccato alla parola.
+  - k/n = 0/16, intervallo 0 – 0,206; con le incerte 3/16, 0,040 – 0,456.
+- **B, controllo positivo:** la *q* si vede in 4 parole *qo-* su 4 dopo il disegno; il metodo funziona.
+- **Esito preregistrato:** la caduta della *q* dopo il disegno **non è (tutta) un effetto della trascrizione**, con il
+  grado "probabile": contando le incerte il limite alto (0,456) supera di poco la soglia (0,44).
+- **C, 6 *-m* di fine riga, sulle immagini a 1.500 pixel:** 5 sono *m* chiare; in una (f16r, *orom*) l'ultimo segno è
+  probabilmente *m* ma potrebbe essere *d*.
+- **Deviazioni:**
+  - il primo ritaglio di A03 era fuori riga ed è stato rifatto (21 ritagli in tutto);
+  - la classe di A03 (incerta invece di "nessuna q") decide fra "netto" e "probabile": ho scelto la più prudente.
+- **Limiti:** un solo lettore, non cieco (per trovare la parola serve conoscerne la riga); foto e non originale; non si
+  controlla se il trascrittore ha messo il salto del disegno nel posto giusto.
+- **Per il paper:** nel §3 la frase "senza guardare le immagini non sappiamo se è scrittura o trascrizione" diventa un
+  risultato; nei Limiti si dice che un controllo a campione sulle immagini c'è stato, su due punti.
