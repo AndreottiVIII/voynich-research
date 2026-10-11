@@ -314,3 +314,6 @@ Pacchetto v17 **senza modifiche** dentro Pyodide 314.0.7 (Python 3.14.2, numpy 2
   `paper-v1-pdf` (`data-goatcounter-click`). Mai testo, chiave o manoscritto. About: privacy riscritta. Note: GoatCounter
   non conta localhost, le schede in background finché non diventano visibili, e chi lo blocca con un adblocker.
   Commit del sito 6b9be62; verificato: la prima visita compare nel cruscotto.
+- **11/10/2026, GoatCounter:** escluso dal conteggio l'IP di casa di Davide (impostazione "Ignore IPs"; se l'IP cambia,
+  va riaggiunto); cruscotto reso pubblico ("Dashboard viewable by: Anyone", salvato su richiesta di Davide) e linkato in
+  modo discreto in About ("The counts are public."). Le due visite del 11/10 (/ e /research.html) sono prove.
