@@ -944,3 +944,9 @@ come **PDF del libro**.
 - Sito allineato al white paper v2 (revisione estesa di tutte le pagine; dove differivano vale il paper). Nuova
   anteprima dei link (`preview.jpg`). Il DNS di GoDaddy ha oscillato per qualche minuto dopo la modifica (alcuni server
   davano ancora il parcheggio): ora stabile. Dettagli in `SITO_WEB.md`, §14.
+
+## 11/10/2026 — Sito: conteggio delle visite
+
+- GoatCounter (senza cookie) su tutte le pagine, con eventi anonimi per libri scritti, testi riletti e download;
+  Google Analytics provato e scartato (cookie e banner), proprietà nel cestino. Cruscotto: voynich.goatcounter.com.
+  Dettagli in `SITO_WEB.md`, §14.

@@ -305,3 +305,12 @@ Pacchetto v17 **senza modifiche** dentro Pyodide 314.0.7 (Python 3.14.2, numpy 2
   `preview.jpg` (voynichizer.com, "207 pages"). Commit del sito 3ac4af6. Segnalate alla chat della ricerca due
   incongruenze del paper (giunzione dei generatori 0–0,08 contro 0,16–0,17 di voynich-fingerprint; larghezze "in
   glyphs" mentre il codice conta caratteri EVA).
+- **11/10/2026, conteggio delle visite con GoatCounter** (scelta di Davide; Google Analytics scartato perché usa i
+  cookie e richiede il banner di consenso: la proprietà GA creata per prova è nel cestino, cancellazione definitiva il
+  15/11/2026). Account di Davide `voynich`, cruscotto https://voynich.goatcounter.com (email da verificare). Ogni
+  pagina carica `https://gc.zgo.at/count.js` con `data-goatcounter="https://voynich.goatcounter.com/count"`; eventi
+  solo col nome (`count()` in `js/common.js`): `book-written`, `book-written-empty`, `book-pdf-made`, `text-read`,
+  `read-nothing`, e i clic `download-manuscript-txt`, `download-book-pdf`, `download-read-text`, `paper-v2-pdf`,
+  `paper-v1-pdf` (`data-goatcounter-click`). Mai testo, chiave o manoscritto. About: privacy riscritta. Note: GoatCounter
+  non conta localhost, le schede in background finché non diventano visibili, e chi lo blocca con un adblocker.
+  Commit del sito 6b9be62; verificato: la prima visita compare nel cruscotto.
