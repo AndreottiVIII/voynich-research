@@ -1,0 +1,4224 @@
+{
+ "esperimento": "e3c95",
+ "parametri": {
+  "N_ADD": 40000,
+  "N_VAL": 5000,
+  "N_PROVA": 10000,
+  "PASSI": 2000,
+  "OGNI": 20,
+  "PAZIENZA": 10,
+  "SEMI": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "LUNG": 64,
+  "LOTTO": 32,
+  "EMB": 32,
+  "NASCOSTO": 128,
+  "CADUTA": 0.3,
+  "LR": 0.002,
+  "DECADIMENTO": 0.01,
+  "TAGLIO": 1.0,
+  "SOLO_CONTROLLI": false
+ },
+ "versioni": {
+  "python": "3.12.10",
+  "torch": "2.15.0+cpu",
+  "numpy": "2.5.3"
+ },
+ "sorgenti": {
+  "Anglo-Saxon": "Historical - Anglo-Saxon - Literary - NT - Hatton Gospels.txt",
+  "Anglo-Saxon, parole rimescolate nella riga": "Historical - Anglo-Saxon - Literary - NT - Hatton Gospels.txt",
+  "Arabic": "Historical - Arabic - Technical - Avicenna.txt",
+  "Arabic, parole rimescolate nella riga": "Historical - Arabic - Technical - Avicenna.txt",
+  "Arabic, letterario": "Historical - Arabic - Literary - Quran.txt",
+  "English": "Historical - English - Technical - Secreta Alberti.txt",
+  "English, parole rimescolate nella riga": "Historical - English - Technical - Secreta Alberti.txt",
+  "English, letterario": "Historical - English - Literary - NT (KJV).txt",
+  "Flemish": "Historical - Flemish - Technical - Cruydeboeck.txt",
+  "Flemish, parole rimescolate nella riga": "Historical - Flemish - Technical - Cruydeboeck.txt",
+  "Flemish, letterario": "Historical - Flemish - Literary - NT.txt",
+  "French": "Historical - French - Literary - NT - Martin.txt",
+  "French, parole rimescolate nella riga": "Historical - French - Literary - NT - Martin.txt",
+  "German": "Historical - German - Technical - German Herbarium.txt",
+  "German, parole rimescolate nella riga": "Historical - German - Technical - German Herbarium.txt",
+  "German, letterario": "Historical - German - Literary - NT - Luther.txt",
+  "Greek": "Historical - Greek - Literary - NT - Textus Receptus.txt",
+  "Greek, parole rimescolate nella riga": "Historical - Greek - Literary - NT - Textus Receptus.txt",
+  "Italian": "Historical - Italian - Technical - Della Pittura.txt",
+  "Italian, parole rimescolate nella riga": "Historical - Italian - Technical - Della Pittura.txt",
+  "Italian, letterario": "Historical - Italian - Literary - NT - Diodati.txt",
+  "Latin (Abbreviated)": "Historical - Latin (Abbreviated) - Technical - Pliny's Natural History.txt",
+  "Latin (Abbreviated), parole rimescolate nella riga": "Historical - Latin (Abbreviated) - Technical - Pliny's Natural History.txt",
+  "Latin (Abbreviated), letterario": "Historical - Latin (Abbreviated) - Literary - NT (Vulgate).txt",
+  "Latin": "Historical - Latin - Technical - Pliny's Natural History.txt",
+  "Latin, parole rimescolate nella riga": "Historical - Latin - Technical - Pliny's Natural History.txt",
+  "Latin, letterario": "Historical - Latin - Literary - NT (Vulgate).txt",
+  "Mayan (Kaqchikel)": "Historical - Mayan (Kaqchikel) - Literary - Annals of the Cakchiquels.txt",
+  "Mayan (Kaqchikel), parole rimescolate nella riga": "Historical - Mayan (Kaqchikel) - Literary - Annals of the Cakchiquels.txt",
+  "Russian": "Historical - Russian - Literary - NT - Codex Marianus.txt",
+  "Russian, parole rimescolate nella riga": "Historical - Russian - Literary - NT - Codex Marianus.txt",
+  "Sanskrit": "Historical - Sanskrit - Technical - Charaka Samhita.txt",
+  "Sanskrit, parole rimescolate nella riga": "Historical - Sanskrit - Technical - Charaka Samhita.txt",
+  "Sanskrit, letterario": "Historical - Sanskrit - Literary - Mahabharata.txt",
+  "Spanish": "Historical - Spanish - Literary - NT - Sagradas Escrituras.txt",
+  "Spanish, parole rimescolate nella riga": "Historical - Spanish - Literary - NT - Sagradas Escrituras.txt",
+  "Chinese (Pinyin)": "Modern - Chinese (Pinyin) - Literary - NT - Matthew.txt",
+  "Chinese (Pinyin), parole rimescolate nella riga": "Modern - Chinese (Pinyin) - Literary - NT - Matthew.txt",
+  "Hebrew": "Modern - Hebrew - Literary - NT.txt",
+  "Hebrew, parole rimescolate nella riga": "Modern - Hebrew - Literary - NT.txt",
+  "Maori": "Modern - Maori - Literary - NT.txt",
+  "Maori, parole rimescolate nella riga": "Modern - Maori - Literary - NT.txt",
+  "Swahili": "Modern - Swahili - Literary - NT.txt",
+  "Swahili, parole rimescolate nella riga": "Modern - Swahili - Literary - NT.txt",
+  "Tagalog": "Modern - Tagalog - Literary - NT - Ang Dating Biblia.txt",
+  "Tagalog, parole rimescolate nella riga": "Modern - Tagalog - Literary - NT - Ang Dating Biblia.txt",
+  "Turkish": "Modern - Turkish - Literary - NT.txt",
+  "Turkish, parole rimescolate nella riga": "Modern - Turkish - Literary - NT.txt"
+ },
+ "controlli": {
+  "positivo": {
+   "differenza_bpc": -0.0016039999999999388,
+   "soglia": 0.02,
+   "superato": true
+  },
+  "negativo": {
+   "G_rimescolato": 0.04790506120074687,
+   "G_voynich": 0.4978725362355869,
+   "G_min_lingue": 0.22616400303460812,
+   "superato": true
+  }
+ },
+ "testi": {
+  "Voynich": {
+   "bpc": {
+    "media": 1.981915,
+    "ds": 0.09028602146635008,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 1.973721,
+    "ds": 0.09049256586409003,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 29.2864,
+    "ds": 5.270257408851636,
+    "n": 10
+   },
+   "h1": {
+    "media": 3.946531,
+    "ds": 0.021135538502195295,
+    "n": 10
+   },
+   "G": {
+    "media": 0.4978725362355869,
+    "ds": 0.021210113229729887,
+    "n": 10
+   },
+   "E90": {
+    "media": 3.7888,
+    "ds": 0.4946389929365995,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.012683000000000045,
+    "ds": 0.109933646457003,
+    "n": 10
+   },
+   "ruolo": "voynich",
+   "V": 25,
+   "secondi": 63.91,
+   "corse_al_limite": 0,
+   "D": {
+    "media": 0.10394699999999997,
+    "ds": 0.015352021256716107,
+    "n": 10
+   },
+   "D_relativo": {
+    "media": 0.052607728859075206,
+    "ds": 0.00831467828533048,
+    "n": 10
+   }
+  },
+  "Voynich A": {
+   "bpc": {
+    "media": 2.137674,
+    "ds": 0.025060205372928024,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.132508,
+    "ds": 0.021437394534887938,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 31.5392,
+    "ds": 4.822352694599505,
+    "n": 10
+   },
+   "h1": {
+    "media": 3.967632,
+    "ds": 0.01771187912736028,
+    "n": 10
+   },
+   "G": {
+    "media": 0.4612279711941925,
+    "ds": 0.005160506018712314,
+    "n": 10
+   },
+   "E90": {
+    "media": 4.096,
+    "ds": 0.0,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.06495800000000003,
+    "ds": 0.03494910133958296,
+    "n": 10
+   },
+   "ruolo": "voynich",
+   "V": 25,
+   "secondi": 82.32,
+   "corse_al_limite": 0,
+   "D": {
+    "media": 0.09917799999999995,
+    "ds": 0.011770108844960764,
+    "n": 10
+   },
+   "D_relativo": {
+    "media": 0.04639454665939695,
+    "ds": 0.005456797619342794,
+    "n": 10
+   }
+  },
+  "Voynich B": {
+   "bpc": {
+    "media": 1.8671769999999999,
+    "ds": 0.04850320013497394,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 1.853059,
+    "ds": 0.0518014144916269,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 30.9248,
+    "ds": 3.9453172467848243,
+    "n": 10
+   },
+   "h1": {
+    "media": 3.922954,
+    "ds": 0.028219472473217218,
+    "n": 10
+   },
+   "G": {
+    "media": 0.5240485949878845,
+    "ds": 0.011372302484152056,
+    "n": 10
+   },
+   "E90": {
+    "media": 3.1744,
+    "ds": 0.32381723240124205,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.037789,
+    "ds": 0.05629681586614531,
+    "n": 10
+   },
+   "ruolo": "voynich",
+   "V": 25,
+   "secondi": 79.13,
+   "corse_al_limite": 0,
+   "D": {
+    "media": 0.11713399999999999,
+    "ds": 0.017821229038549602,
+    "n": 10
+   },
+   "D_relativo": {
+    "media": 0.06279732402175398,
+    "ds": 0.010099018113989281,
+    "n": 10
+   }
+  },
+  "Voynich, parole rimescolate nella riga": {
+   "bpc": {
+    "media": 2.085862,
+    "ds": 0.08822772930194783,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.079701,
+    "ds": 0.08897589242161175,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 30.5152,
+    "ds": 5.104046255450452,
+    "n": 10
+   },
+   "h1": {
+    "media": 3.946829,
+    "ds": 0.0211861487507496,
+    "n": 10
+   },
+   "G": {
+    "media": 0.4715768773001045,
+    "ds": 0.020453789038261627,
+    "n": 10
+   },
+   "E90": {
+    "media": 3.1744,
+    "ds": 0.32381723240124205,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.0018719999999999848,
+    "ds": 0.10493073247517999,
+    "n": 10
+   },
+   "ruolo": "rimescolato",
+   "V": 25,
+   "secondi": 63.84,
+   "corse_al_limite": 0
+  },
+  "Voynich A, parole rimescolate nella riga": {
+   "bpc": {
+    "media": 2.236852,
+    "ds": 0.02880515223975663,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.22956,
+    "ds": 0.02454710075661801,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 28.4672,
+    "ds": 4.625035178244594,
+    "n": 10
+   },
+   "h1": {
+    "media": 3.967845,
+    "ds": 0.017632394587488383,
+    "n": 10
+   },
+   "G": {
+    "media": 0.4362619394571526,
+    "ds": 0.006160890644951933,
+    "n": 10
+   },
+   "E90": {
+    "media": 3.1744,
+    "ds": 0.32381723240124205,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.043438999999999964,
+    "ds": 0.03239135428200279,
+    "n": 10
+   },
+   "ruolo": "rimescolato",
+   "V": 25,
+   "secondi": 61.19,
+   "corse_al_limite": 0
+  },
+  "Voynich B, parole rimescolate nella riga": {
+   "bpc": {
+    "media": 1.984311,
+    "ds": 0.049759167206768165,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 1.973519,
+    "ds": 0.047084215201180786,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 29.3888,
+    "ds": 6.793305148780265,
+    "n": 10
+   },
+   "h1": {
+    "media": 3.923064,
+    "ds": 0.028073435130029974,
+    "n": 10
+   },
+   "G": {
+    "media": 0.4942255343942721,
+    "ds": 0.010602430544025775,
+    "n": 10
+   },
+   "E90": {
+    "media": 3.072,
+    "ds": 0.0,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.024313999999999947,
+    "ds": 0.05977461374939108,
+    "n": 10
+   },
+   "ruolo": "rimescolato",
+   "V": 25,
+   "secondi": 62.39,
+   "corse_al_limite": 0
+  },
+  "Voynich, segni rimescolati (controllo negativo)": {
+   "bpc": {
+    "media": 3.758836,
+    "ds": 0.023291895204603317,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 3.756014,
+    "ds": 0.023258729878382286,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 14.4384,
+    "ds": 4.616209970190794,
+    "n": 10
+   },
+   "h1": {
+    "media": 3.947946,
+    "ds": 0.019747438202348047,
+    "n": 10
+   },
+   "G": {
+    "media": 0.04790506120074687,
+    "ds": 0.0018448644151612323,
+    "n": 10
+   },
+   "E90": {
+    "media": 3.8912,
+    "ds": 0.8077420930525343,
+    "n": 10
+   },
+   "scarto": {
+    "media": -0.004232000000000058,
+    "ds": 0.025453306617761514,
+    "n": 10
+   },
+   "ruolo": "controllo",
+   "V": 25,
+   "secondi": 39.66,
+   "corse_al_limite": 0
+  },
+  "Voynich in lettere EVA non fuse (sensibilità)": {
+   "bpc": {
+    "media": 1.860516,
+    "ds": 0.08300577639872754,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 1.851834,
+    "ds": 0.08221489702805289,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 30.3104,
+    "ds": 5.0903318206620325,
+    "n": 10
+   },
+   "h1": {
+    "media": 3.964519,
+    "ds": 0.011494970349389089,
+    "n": 10
+   },
+   "G": {
+    "media": 0.5307223510829147,
+    "ds": 0.02055577452662032,
+    "n": 10
+   },
+   "E90": {
+    "media": 3.3792,
+    "ds": 0.4946389929365995,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.060706999999999976,
+    "ds": 0.09888008057462556,
+    "n": 10
+   },
+   "ruolo": "sensibilita",
+   "V": 21,
+   "secondi": 63.31,
+   "corse_al_limite": 0
+  },
+  "Timm e Schinner (seme 1)": {
+   "bpc": {
+    "media": 2.190785,
+    "ds": 0.10158607595422592,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.179144,
+    "ds": 0.0969557740186501,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 28.672,
+    "ds": 4.067456098240165,
+    "n": 10
+   },
+   "h1": {
+    "media": 3.806904,
+    "ds": 0.0333276722526158,
+    "n": 10
+   },
+   "G": {
+    "media": 0.4245411837516254,
+    "ds": 0.025828968196756407,
+    "n": 10
+   },
+   "E90": {
+    "media": 3.7888,
+    "ds": 0.6911473230956062,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.178068,
+    "ds": 0.10288425133776946,
+    "n": 10
+   },
+   "ruolo": "generatore",
+   "V": 24,
+   "secondi": 62.56,
+   "corse_al_limite": 0,
+   "D": {
+    "media": 0.02884199999999999,
+    "ds": 0.014638043888747105,
+    "n": 10
+   },
+   "D_relativo": {
+    "media": 0.013370533015099708,
+    "ds": 0.006971342300724105,
+    "n": 10
+   }
+  },
+  "Timm e Schinner (seme 1), parole rimescolate nella riga": {
+   "bpc": {
+    "media": 2.219627,
+    "ds": 0.09274386329503899,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.2097919999999998,
+    "ds": 0.09475222434211131,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 27.9552,
+    "ds": 5.712618951837142,
+    "n": 10
+   },
+   "h1": {
+    "media": 3.807291,
+    "ds": 0.03328280752380523,
+    "n": 10
+   },
+   "G": {
+    "media": 0.41700867718124085,
+    "ds": 0.02383259196383705,
+    "n": 10
+   },
+   "E90": {
+    "media": 3.6864,
+    "ds": 0.7159868403508235,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.156764,
+    "ds": 0.09364747919725333,
+    "n": 10
+   },
+   "ruolo": "rimescolato",
+   "V": 24,
+   "secondi": 59.48,
+   "corse_al_limite": 0
+  },
+  "Voynichizzatore v21 (libro d'esempio)": {
+   "bpc": {
+    "media": 2.141015,
+    "ds": 0.09705173686121124,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.133134,
+    "ds": 0.09962805854220429,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 28.467200000000002,
+    "ds": 3.230968372210137,
+    "n": 10
+   },
+   "h1": {
+    "media": 3.962686,
+    "ds": 0.017665286235376335,
+    "n": 10
+   },
+   "G": {
+    "media": 0.4597423507459941,
+    "ds": 0.023449105437278427,
+    "n": 10
+   },
+   "E90": {
+    "media": 3.072,
+    "ds": 0.0,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.06031899999999994,
+    "ds": 0.09627972077349535,
+    "n": 10
+   },
+   "ruolo": "generatore",
+   "V": 25,
+   "secondi": 60.18,
+   "corse_al_limite": 0,
+   "D": {
+    "media": 0.07430300000000004,
+    "ds": 0.010786449369463514,
+    "n": 10
+   },
+   "D_relativo": {
+    "media": 0.03481665257807907,
+    "ds": 0.005566501018580844,
+    "n": 10
+   }
+  },
+  "Voynichizzatore v21 (libro d'esempio), parole rimescolate nella riga": {
+   "bpc": {
+    "media": 2.215318,
+    "ds": 0.0949693493010596,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.205902,
+    "ds": 0.09591119790954776,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 29.4912,
+    "ds": 6.823252479573067,
+    "n": 10
+   },
+   "h1": {
+    "media": 3.9627120000000002,
+    "ds": 0.0175332476550505,
+    "n": 10
+   },
+   "G": {
+    "media": 0.44099969280487944,
+    "ds": 0.022745129846693458,
+    "n": 10
+   },
+   "E90": {
+    "media": 3.072,
+    "ds": 0.0,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.05827499999999981,
+    "ds": 0.10624179468970243,
+    "n": 10
+   },
+   "ruolo": "rimescolato",
+   "V": 25,
+   "secondi": 63.62,
+   "corse_al_limite": 0
+  },
+  "Naibbe": {
+   "bpc": {
+    "media": 1.998163,
+    "ds": 0.019592945470812233,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 1.995362,
+    "ds": 0.020864093984110037,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 32.4608,
+    "ds": 4.7308849254423615,
+    "n": 10
+   },
+   "h1": {
+    "media": 3.957057,
+    "ds": 0.006705074446516845,
+    "n": 10
+   },
+   "G": {
+    "media": 0.49504141139131624,
+    "ds": 0.004481155865330335,
+    "n": 10
+   },
+   "E90": {
+    "media": 3.1744,
+    "ds": 0.32381723240124205,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.05114300000000003,
+    "ds": 0.02424974962070051,
+    "n": 10
+   },
+   "ruolo": "generatore",
+   "V": 23,
+   "secondi": 67.15,
+   "corse_al_limite": 0,
+   "D": {
+    "media": 0.006227000000000027,
+    "ds": 0.006502691835779267,
+    "n": 10
+   },
+   "D_relativo": {
+    "media": 0.0031171655788937293,
+    "ds": 0.003294380340240163,
+    "n": 10
+   }
+  },
+  "Naibbe, parole rimescolate nella riga": {
+   "bpc": {
+    "media": 2.00439,
+    "ds": 0.02053268180784529,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.001721,
+    "ds": 0.021307136754305275,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 30.3104,
+    "ds": 4.129992284092874,
+    "n": 10
+   },
+   "h1": {
+    "media": 3.957115,
+    "ds": 0.0064781002873784774,
+    "n": 10
+   },
+   "G": {
+    "media": 0.4934734649530954,
+    "ds": 0.004942778474941171,
+    "n": 10
+   },
+   "E90": {
+    "media": 3.072,
+    "ds": 0.0,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.039327,
+    "ds": 0.01693990099013434,
+    "n": 10
+   },
+   "ruolo": "rimescolato",
+   "V": 23,
+   "secondi": 62.83,
+   "corse_al_limite": 0
+  },
+  "Gibberish (Gaskell e Bowern)": {
+   "bpc": {
+    "media": 3.991731,
+    "ds": 0.09263043865574405,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 3.979774,
+    "ds": 0.09279467360193085,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 17.203200000000002,
+    "ds": 3.701539283415302,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.45329,
+    "ds": 0.04958267641021396,
+    "n": 10
+   },
+   "G": {
+    "media": 0.10371126318906496,
+    "ds": 0.01426051224826421,
+    "n": 10
+   },
+   "E90": {
+    "media": 7.3728,
+    "ds": 1.79321863325883,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.23222500000000004,
+    "ds": 0.12476255352112313,
+    "n": 10
+   },
+   "ruolo": "generatore",
+   "V": 30,
+   "secondi": 42.3,
+   "corse_al_limite": 0,
+   "D": {
+    "media": -0.008787000000000012,
+    "ds": 0.013779459794281839,
+    "n": 10
+   },
+   "D_relativo": {
+    "media": -0.002197269277509383,
+    "ds": 0.003435329597967473,
+    "n": 10
+   }
+  },
+  "Gibberish (Gaskell e Bowern), parole rimescolate nella riga": {
+   "bpc": {
+    "media": 3.982944,
+    "ds": 0.09268297053216773,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 3.9750199999999998,
+    "ds": 0.0951657301763612,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 17.408,
+    "ds": 3.4809306546126746,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.453183,
+    "ds": 0.04952172812681999,
+    "n": 10
+   },
+   "G": {
+    "media": 0.10566234308853842,
+    "ds": 0.014352998053762611,
+    "n": 10
+   },
+   "E90": {
+    "media": 7.680000000000001,
+    "ds": 1.2997586100674405,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.2088680000000001,
+    "ds": 0.06988209432083924,
+    "n": 10
+   },
+   "ruolo": "rimescolato",
+   "V": 30,
+   "secondi": 43.35,
+   "corse_al_limite": 0
+  },
+  "Anglo-Saxon": {
+   "bpc": {
+    "media": 2.4912929999999998,
+    "ds": 0.05882103989597981,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.4870769999999998,
+    "ds": 0.060873078897361856,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 31.0272,
+    "ds": 2.4160035320062487,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.226751,
+    "ds": 0.013793680074584768,
+    "n": 10
+   },
+   "G": {
+    "media": 0.41059588200394115,
+    "ds": 0.013495831895050037,
+    "n": 10
+   },
+   "E90": {
+    "media": 12.9024,
+    "ds": 0.715986840350824,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.2545559999999999,
+    "ds": 0.08135181882826387,
+    "n": 10
+   },
+   "ruolo": "lingua",
+   "V": 27,
+   "secondi": 63.96,
+   "corse_al_limite": 0,
+   "D": {
+    "media": 0.05525200000000008,
+    "ds": 0.01772452462926257,
+    "n": 10
+   },
+   "D_relativo": {
+    "media": 0.022289985234161893,
+    "ds": 0.0074240627688830635,
+    "n": 10
+   }
+  },
+  "Anglo-Saxon, parole rimescolate nella riga": {
+   "bpc": {
+    "media": 2.546545,
+    "ds": 0.048919286869064035,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.541891,
+    "ds": 0.05017537298759665,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 30.3104,
+    "ds": 2.423226279157603,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.226809,
+    "ds": 0.013613488776455053,
+    "n": 10
+   },
+   "G": {
+    "media": 0.3975283077869483,
+    "ds": 0.011271919715991115,
+    "n": 10
+   },
+   "E90": {
+    "media": 12.6976,
+    "ds": 1.1007669245676956,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.193528,
+    "ds": 0.062426626584068085,
+    "n": 10
+   },
+   "ruolo": "rimescolato",
+   "V": 27,
+   "secondi": 63.67,
+   "corse_al_limite": 0
+  },
+  "Arabic": {
+   "bpc": {
+    "media": 3.010248,
+    "ds": 0.07603772540288449,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 3.004017,
+    "ds": 0.07366905758563469,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 36.0448,
+    "ds": 2.9678339576195962,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.501529,
+    "ds": 0.016876833200837486,
+    "n": 10
+   },
+   "G": {
+    "media": 0.3312969970847295,
+    "ds": 0.016058751260789813,
+    "n": 10
+   },
+   "E90": {
+    "media": 16.9984,
+    "ds": 0.715986840350824,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.24581100000000008,
+    "ds": 0.07355972954001404,
+    "n": 10
+   },
+   "ruolo": "lingua",
+   "V": 54,
+   "secondi": 91.27000000000001,
+   "corse_al_limite": 0,
+   "D": {
+    "media": 0.05237700000000003,
+    "ds": 0.01858331572495444,
+    "n": 10
+   },
+   "D_relativo": {
+    "media": 0.017487992637192393,
+    "ds": 0.006406908898385892,
+    "n": 10
+   }
+  },
+  "Arabic, parole rimescolate nella riga": {
+   "bpc": {
+    "media": 3.062625,
+    "ds": 0.06733404261177582,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 3.055876,
+    "ds": 0.06964874812626255,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 37.1712,
+    "ds": 3.0548856607081056,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.501495,
+    "ds": 0.016844068689007476,
+    "n": 10
+   },
+   "G": {
+    "media": 0.3196547212797456,
+    "ds": 0.014085208443146055,
+    "n": 10
+   },
+   "E90": {
+    "media": 16.896,
+    "ds": 1.1060464125282754,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.217977,
+    "ds": 0.0663798925461954,
+    "n": 10
+   },
+   "ruolo": "rimescolato",
+   "V": 54,
+   "secondi": 75.19,
+   "corse_al_limite": 0
+  },
+  "Arabic, letterario": {
+   "bpc": {
+    "media": 2.066636,
+    "ds": 0.0432453738566335,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.063009,
+    "ds": 0.04337745406442282,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 48.3328,
+    "ds": 4.988607394186611,
+    "n": 10
+   },
+   "h1": {
+    "media": 3.429944,
+    "ds": 0.03481119749608033,
+    "n": 10
+   },
+   "G": {
+    "media": 0.39736077869498293,
+    "ds": 0.016537230731605897,
+    "n": 10
+   },
+   "E90": {
+    "media": 15.974400000000001,
+    "ds": 1.5416783927481983,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.07010400000000003,
+    "ds": 0.03992175881229012,
+    "n": 10
+   },
+   "ruolo": "trasferimento",
+   "V": 54,
+   "secondi": 115.9,
+   "corse_al_limite": 0
+  },
+  "English": {
+   "bpc": {
+    "media": 2.3189130000000002,
+    "ds": 0.07867860672804697,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.308237,
+    "ds": 0.07736672900327801,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 35.0208,
+    "ds": 4.773787985796326,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.139302,
+    "ds": 0.01088584585597283,
+    "n": 10
+   },
+   "G": {
+    "media": 0.4397894512956099,
+    "ds": 0.01870425280262084,
+    "n": 10
+   },
+   "E90": {
+    "media": 13.619200000000001,
+    "ds": 1.0847743032026935,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.30245300000000014,
+    "ds": 0.14544748544864344,
+    "n": 10
+   },
+   "ruolo": "lingua",
+   "V": 26,
+   "secondi": 88.94,
+   "corse_al_limite": 0,
+   "D": {
+    "media": 0.09918199999999988,
+    "ds": 0.03520020258780097,
+    "n": 10
+   },
+   "D_relativo": {
+    "media": 0.04320432647765507,
+    "ds": 0.01658648498314477,
+    "n": 10
+   }
+  },
+  "English, parole rimescolate nella riga": {
+   "bpc": {
+    "media": 2.418095,
+    "ds": 0.053263941158890764,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.413008,
+    "ds": 0.05590991221996726,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 33.1776,
+    "ds": 3.2810638924999114,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.139245,
+    "ds": 0.011008843162556885,
+    "n": 10
+   },
+   "G": {
+    "media": 0.4158134331081552,
+    "ds": 0.0127329834031716,
+    "n": 10
+   },
+   "E90": {
+    "media": 12.9024,
+    "ds": 0.8635126197366458,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.19744599999999993,
+    "ds": 0.07940164876541714,
+    "n": 10
+   },
+   "ruolo": "rimescolato",
+   "V": 26,
+   "secondi": 68.74,
+   "corse_al_limite": 0
+  },
+  "English, letterario": {
+   "bpc": {
+    "media": 2.220952,
+    "ds": 0.07299756324700166,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.215464,
+    "ds": 0.07753241332214263,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 33.792,
+    "ds": 1.9902982467738644,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.1293180000000005,
+    "ds": 0.01702993690860612,
+    "n": 10
+   },
+   "G": {
+    "media": 0.46218172353482284,
+    "ds": 0.016427138817456454,
+    "n": 10
+   },
+   "E90": {
+    "media": 14.1312,
+    "ds": 0.9409910614760255,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.23655800000000002,
+    "ds": 0.0942857760923319,
+    "n": 10
+   },
+   "ruolo": "trasferimento",
+   "V": 26,
+   "secondi": 85.42,
+   "corse_al_limite": 0
+  },
+  "Flemish": {
+   "bpc": {
+    "media": 2.148484,
+    "ds": 0.07978175413798148,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.137786,
+    "ds": 0.07429986379529908,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 40.6528,
+    "ds": 4.529584646153185,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.118136,
+    "ds": 0.02362599707478564,
+    "n": 10
+   },
+   "G": {
+    "media": 0.4783154871772976,
+    "ds": 0.018263487429318166,
+    "n": 10
+   },
+   "E90": {
+    "media": 15.1552,
+    "ds": 1.1625394425805757,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.31847400000000003,
+    "ds": 0.13364866189628183,
+    "n": 10
+   },
+   "ruolo": "lingua",
+   "V": 28,
+   "secondi": 102.25,
+   "corse_al_limite": 0,
+   "D": {
+    "media": 0.050655999999999944,
+    "ds": 0.022627237863542423,
+    "n": 10
+   },
+   "D_relativo": {
+    "media": 0.02380971225820069,
+    "ds": 0.011271232790711893,
+    "n": 10
+   }
+  },
+  "Flemish, parole rimescolate nella riga": {
+   "bpc": {
+    "media": 2.19914,
+    "ds": 0.06936481833193413,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.191294,
+    "ds": 0.06702764076607999,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 36.0448,
+    "ds": 5.216931341528486,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.117809,
+    "ds": 0.02331583222238117,
+    "n": 10
+   },
+   "G": {
+    "media": 0.46597412976037794,
+    "ds": 0.015459745481101343,
+    "n": 10
+   },
+   "E90": {
+    "media": 14.233600000000001,
+    "ds": 0.5812697212902873,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.20519399999999996,
+    "ds": 0.11108043073977221,
+    "n": 10
+   },
+   "ruolo": "rimescolato",
+   "V": 28,
+   "secondi": 73.34,
+   "corse_al_limite": 0
+  },
+  "Flemish, letterario": {
+   "bpc": {
+    "media": 2.194335,
+    "ds": 0.06705806940422764,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.189379,
+    "ds": 0.0658095448075564,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 36.1472,
+    "ds": 3.4150395735465326,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.032719,
+    "ds": 0.02665267359947208,
+    "n": 10
+   },
+   "G": {
+    "media": 0.45593299604514703,
+    "ds": 0.013506447999327023,
+    "n": 10
+   },
+   "E90": {
+    "media": 13.004800000000001,
+    "ds": 0.49463899293659996,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.268138,
+    "ds": 0.06776831098185446,
+    "n": 10
+   },
+   "ruolo": "trasferimento",
+   "V": 28,
+   "secondi": 91.92,
+   "corse_al_limite": 0
+  },
+  "French": {
+   "bpc": {
+    "media": 2.3204849999999997,
+    "ds": 0.04393880548874509,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.312199,
+    "ds": 0.04411768162791678,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 38.6048,
+    "ds": 3.3461114014795013,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.237218,
+    "ds": 0.00882089791347788,
+    "n": 10
+   },
+   "G": {
+    "media": 0.45235517608537273,
+    "ds": 0.01038330565177136,
+    "n": 10
+   },
+   "E90": {
+    "media": 15.2576,
+    "ds": 0.7555735422695647,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.3045639999999999,
+    "ds": 0.07108783646541321,
+    "n": 10
+   },
+   "ruolo": "lingua",
+   "V": 32,
+   "secondi": 76.28,
+   "corse_al_limite": 0,
+   "D": {
+    "media": 0.08420000000000014,
+    "ds": 0.011803345100248379,
+    "n": 10
+   },
+   "D_relativo": {
+    "media": 0.03633526739990056,
+    "ds": 0.005332575293478918,
+    "n": 10
+   }
+  },
+  "French, parole rimescolate nella riga": {
+   "bpc": {
+    "media": 2.404685,
+    "ds": 0.03993571758324731,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.397428,
+    "ds": 0.04101700617494597,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 35.635200000000005,
+    "ds": 3.406499826312438,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.237145,
+    "ds": 0.008797723506049158,
+    "n": 10
+   },
+   "G": {
+    "media": 0.43247138232961274,
+    "ds": 0.009606836709249179,
+    "n": 10
+   },
+   "E90": {
+    "media": 14.6432,
+    "ds": 0.9714516972037257,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.18265100000000012,
+    "ds": 0.057577484690921714,
+    "n": 10
+   },
+   "ruolo": "rimescolato",
+   "V": 32,
+   "secondi": 73.07,
+   "corse_al_limite": 0
+  },
+  "German": {
+   "bpc": {
+    "media": 2.2185420000000002,
+    "ds": 0.06438146451684168,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.215227,
+    "ds": 0.06487776627371404,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 36.352000000000004,
+    "ds": 2.5198631356131664,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.30735,
+    "ds": 0.013538453875289251,
+    "n": 10
+   },
+   "G": {
+    "media": 0.4849244503943101,
+    "ds": 0.01544296230755232,
+    "n": 10
+   },
+   "E90": {
+    "media": 14.4384,
+    "ds": 0.8966093166294143,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.296761,
+    "ds": 0.09218170985733688,
+    "n": 10
+   },
+   "ruolo": "lingua",
+   "V": 33,
+   "secondi": 91.54,
+   "corse_al_limite": 0,
+   "D": {
+    "media": 0.07453099999999994,
+    "ds": 0.02385319519710335,
+    "n": 10
+   },
+   "D_relativo": {
+    "media": 0.033839383142631796,
+    "ds": 0.011741905006986126,
+    "n": 10
+   }
+  },
+  "German, parole rimescolate nella riga": {
+   "bpc": {
+    "media": 2.293073,
+    "ds": 0.04867403118935419,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.287349,
+    "ds": 0.05054572966906076,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 34.611200000000004,
+    "ds": 2.3049479531361814,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.307374,
+    "ds": 0.013568384985366175,
+    "n": 10
+   },
+   "G": {
+    "media": 0.46762304000145327,
+    "ds": 0.01203427120572541,
+    "n": 10
+   },
+   "E90": {
+    "media": 13.4144,
+    "ds": 0.7555735422695647,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.223316,
+    "ds": 0.05175037416933975,
+    "n": 10
+   },
+   "ruolo": "rimescolato",
+   "V": 33,
+   "secondi": 69.78999999999999,
+   "corse_al_limite": 0
+  },
+  "German, letterario": {
+   "bpc": {
+    "media": 2.223582,
+    "ds": 0.0426030368766255,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.21793,
+    "ds": 0.04225132844722816,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 36.352000000000004,
+    "ds": 3.9290417265395496,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.169521,
+    "ds": 0.016468772098867795,
+    "n": 10
+   },
+   "G": {
+    "media": 0.4667056588292856,
+    "ds": 0.010023944387851532,
+    "n": 10
+   },
+   "E90": {
+    "media": 13.926400000000001,
+    "ds": 0.8635126197366451,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.218462,
+    "ds": 0.05244376476019071,
+    "n": 10
+   },
+   "ruolo": "trasferimento",
+   "V": 33,
+   "secondi": 89.31,
+   "corse_al_limite": 0
+  },
+  "Greek": {
+   "bpc": {
+    "media": 2.534796,
+    "ds": 0.027583773893762646,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.530283,
+    "ds": 0.028373397575898504,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 33.0752,
+    "ds": 2.732799167317074,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.2009,
+    "ds": 0.015870492535940358,
+    "n": 10
+   },
+   "G": {
+    "media": 0.3965996779243934,
+    "ds": 0.006852783853911013,
+    "n": 10
+   },
+   "E90": {
+    "media": 13.5168,
+    "ds": 0.6476344648024839,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.284455,
+    "ds": 0.0616541546315683,
+    "n": 10
+   },
+   "ruolo": "lingua",
+   "V": 28,
+   "secondi": 67.97,
+   "corse_al_limite": 0,
+   "D": {
+    "media": 0.028204999999999945,
+    "ds": 0.012902558962383315,
+    "n": 10
+   },
+   "D_relativo": {
+    "media": 0.011136936327328258,
+    "ds": 0.00512434217046681,
+    "n": 10
+   }
+  },
+  "Greek, parole rimescolate nella riga": {
+   "bpc": {
+    "media": 2.563001,
+    "ds": 0.028273416430751052,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.5557,
+    "ds": 0.025231829545679423,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 32.768,
+    "ds": 2.104119979680079,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.200916,
+    "ds": 0.01586803789592994,
+    "n": 10
+   },
+   "G": {
+    "media": 0.38989435839405157,
+    "ds": 0.006379633049447802,
+    "n": 10
+   },
+   "E90": {
+    "media": 13.619200000000001,
+    "ds": 0.691147323095606,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.2306230000000001,
+    "ds": 0.05029695949502757,
+    "n": 10
+   },
+   "ruolo": "rimescolato",
+   "V": 28,
+   "secondi": 67.48,
+   "corse_al_limite": 0
+  },
+  "Italian": {
+   "bpc": {
+    "media": 2.304411,
+    "ds": 0.06122261554723423,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.299612,
+    "ds": 0.06318365027617687,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 34.9184,
+    "ds": 4.192985125977274,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.1410919999999996,
+    "ds": 0.006479584691766643,
+    "n": 10
+   },
+   "G": {
+    "media": 0.44351125090090227,
+    "ds": 0.015349622500985734,
+    "n": 10
+   },
+   "E90": {
+    "media": 14.7456,
+    "ds": 0.5287913262021855,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.239873,
+    "ds": 0.09836104660890926,
+    "n": 10
+   },
+   "ruolo": "lingua",
+   "V": 30,
+   "secondi": 87.37,
+   "corse_al_limite": 0,
+   "D": {
+    "media": 0.03833799999999994,
+    "ds": 0.009495080363593998,
+    "n": 10
+   },
+   "D_relativo": {
+    "media": 0.01666479755668868,
+    "ds": 0.004265887121682256,
+    "n": 10
+   }
+  },
+  "Italian, parole rimescolate nella riga": {
+   "bpc": {
+    "media": 2.342749,
+    "ds": 0.06035733821720988,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.337157,
+    "ds": 0.05908002144925512,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 35.84,
+    "ds": 4.85125816441238,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.141087,
+    "ds": 0.006432039679949467,
+    "n": 10
+   },
+   "G": {
+    "media": 0.434252934474692,
+    "ds": 0.015148981837721091,
+    "n": 10
+   },
+   "E90": {
+    "media": 14.233600000000001,
+    "ds": 0.3238172324012418,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.2037289999999999,
+    "ds": 0.08807684970776629,
+    "n": 10
+   },
+   "ruolo": "rimescolato",
+   "V": 30,
+   "secondi": 73.01,
+   "corse_al_limite": 0
+  },
+  "Italian, letterario": {
+   "bpc": {
+    "media": 2.371651,
+    "ds": 0.06034664852150261,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.360935,
+    "ds": 0.05628802305010268,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 36.864000000000004,
+    "ds": 3.8314571640565163,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.143772,
+    "ds": 0.007064773016720315,
+    "n": 10
+   },
+   "G": {
+    "media": 0.4276629087218076,
+    "ds": 0.014355245612624632,
+    "n": 10
+   },
+   "E90": {
+    "media": 15.2576,
+    "ds": 1.3175643522129088,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.27729999999999994,
+    "ds": 0.09024730491512992,
+    "n": 10
+   },
+   "ruolo": "trasferimento",
+   "V": 30,
+   "secondi": 90.65,
+   "corse_al_limite": 0
+  },
+  "Latin (Abbreviated)": {
+   "bpc": {
+    "media": 3.125883,
+    "ds": 0.05051880575037824,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 3.12171,
+    "ds": 0.05149455872009958,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 28.979200000000002,
+    "ds": 1.9932230069802905,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.135587,
+    "ds": 0.015242871594435266,
+    "n": 10
+   },
+   "G": {
+    "media": 0.2441562726262442,
+    "ds": 0.011467023955749136,
+    "n": 10
+   },
+   "E90": {
+    "media": 12.8,
+    "ds": 1.106046412528275,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.20905600000000008,
+    "ds": 0.05407572718985027,
+    "n": 10
+   },
+   "ruolo": "lingua",
+   "V": 25,
+   "secondi": 75.55,
+   "corse_al_limite": 0,
+   "D": {
+    "media": 0.0002289999999999015,
+    "ds": 0.014376059149386748,
+    "n": 10
+   },
+   "D_relativo": {
+    "media": 0.00011491366617251337,
+    "ds": 0.004654187222596918,
+    "n": 10
+   }
+  },
+  "Latin (Abbreviated), parole rimescolate nella riga": {
+   "bpc": {
+    "media": 3.126112,
+    "ds": 0.04314128772610611,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 3.121948,
+    "ds": 0.04451255373487352,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 29.0816,
+    "ds": 1.6860622896098596,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.135618,
+    "ds": 0.015256280892362393,
+    "n": 10
+   },
+   "G": {
+    "media": 0.24410820793487964,
+    "ds": 0.009394393531455323,
+    "n": 10
+   },
+   "E90": {
+    "media": 13.312000000000001,
+    "ds": 0.9654364585800327,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.20443999999999996,
+    "ds": 0.04351066433773583,
+    "n": 10
+   },
+   "ruolo": "rimescolato",
+   "V": 25,
+   "secondi": 60.28,
+   "corse_al_limite": 0
+  },
+  "Latin (Abbreviated), letterario": {
+   "bpc": {
+    "media": 2.995142,
+    "ds": 0.0454905271701947,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.991832,
+    "ds": 0.0452582392253364,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 30.822400000000002,
+    "ds": 2.574748626349549,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.086871,
+    "ds": 0.006063635598109963,
+    "n": 10
+   },
+   "G": {
+    "media": 0.2671371238369152,
+    "ds": 0.010592634656574102,
+    "n": 10
+   },
+   "E90": {
+    "media": 15.4624,
+    "ds": 1.0182952202360356,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.25767700000000004,
+    "ds": 0.042917972420265495,
+    "n": 10
+   },
+   "ruolo": "trasferimento",
+   "V": 25,
+   "secondi": 78.73,
+   "corse_al_limite": 0
+  },
+  "Latin": {
+   "bpc": {
+    "media": 2.828597,
+    "ds": 0.053657438761503036,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.823531,
+    "ds": 0.05304947029791052,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 31.1296,
+    "ds": 2.5634110608068053,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.131307,
+    "ds": 0.012971459311375362,
+    "n": 10
+   },
+   "G": {
+    "media": 0.31533048194236923,
+    "ds": 0.012565385209229217,
+    "n": 10
+   },
+   "E90": {
+    "media": 13.4144,
+    "ds": 0.896609316629415,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.22138600000000003,
+    "ds": 0.0346344228895024,
+    "n": 10
+   },
+   "ruolo": "lingua",
+   "V": 25,
+   "secondi": 80.26,
+   "corse_al_limite": 0,
+   "D": {
+    "media": -0.002043000000000017,
+    "ds": 0.010556605146647288,
+    "n": 10
+   },
+   "D_relativo": {
+    "media": -0.0007174975770830003,
+    "ds": 0.003723950614727842,
+    "n": 10
+   }
+  },
+  "Latin, parole rimescolate nella riga": {
+   "bpc": {
+    "media": 2.826554,
+    "ds": 0.053779228786669055,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.822346,
+    "ds": 0.053111295764439605,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 30.9248,
+    "ds": 3.974738364555164,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.131665,
+    "ds": 0.012805984928930588,
+    "n": 10
+   },
+   "G": {
+    "media": 0.3158832318348612,
+    "ds": 0.012663300610779858,
+    "n": 10
+   },
+   "E90": {
+    "media": 13.7216,
+    "ds": 0.7159868403508228,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.196189,
+    "ds": 0.04770037396778627,
+    "n": 10
+   },
+   "ruolo": "rimescolato",
+   "V": 25,
+   "secondi": 64.88,
+   "corse_al_limite": 0
+  },
+  "Latin, letterario": {
+   "bpc": {
+    "media": 2.514346,
+    "ds": 0.033677486776117246,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.5084560000000002,
+    "ds": 0.030520308794127364,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 33.6896,
+    "ds": 3.289929252869868,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.078294,
+    "ds": 0.009128109454987033,
+    "n": 10
+   },
+   "G": {
+    "media": 0.3834880612522035,
+    "ds": 0.0075112387640721145,
+    "n": 10
+   },
+   "E90": {
+    "media": 14.4384,
+    "ds": 0.7555735422695641,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.24430200000000007,
+    "ds": 0.07107297310980212,
+    "n": 10
+   },
+   "ruolo": "trasferimento",
+   "V": 25,
+   "secondi": 84.97,
+   "corse_al_limite": 0
+  },
+  "Mayan (Kaqchikel)": {
+   "bpc": {
+    "media": 2.354396,
+    "ds": 0.041643771896620704,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.34839,
+    "ds": 0.04100956771833191,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 34.9184,
+    "ds": 2.9143550916111782,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.060722,
+    "ds": 0.01185512247464724,
+    "n": 10
+   },
+   "G": {
+    "media": 0.42020531119821136,
+    "ds": 0.009960683059234083,
+    "n": 10
+   },
+   "E90": {
+    "media": 14.336,
+    "ds": 0.965436458580032,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.32983199999999996,
+    "ds": 0.049142449810050524,
+    "n": 10
+   },
+   "ruolo": "lingua",
+   "V": 26,
+   "secondi": 70.74,
+   "corse_al_limite": 0,
+   "D": {
+    "media": 0.08477799999999998,
+    "ds": 0.016721195996565474,
+    "n": 10
+   },
+   "D_relativo": {
+    "media": 0.036040741936596295,
+    "ds": 0.0073250902360489445,
+    "n": 10
+   }
+  },
+  "Mayan (Kaqchikel), parole rimescolate nella riga": {
+   "bpc": {
+    "media": 2.439174,
+    "ds": 0.04186877919298715,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.430897,
+    "ds": 0.04228729991905894,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 32.870400000000004,
+    "ds": 4.220680176885659,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.060485,
+    "ds": 0.011746666903140293,
+    "n": 10
+   },
+   "G": {
+    "media": 0.39929115600583714,
+    "ds": 0.010097432111282306,
+    "n": 10
+   },
+   "E90": {
+    "media": 13.619200000000001,
+    "ds": 0.8430311448049298,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.21628000000000003,
+    "ds": 0.06433376027492183,
+    "n": 10
+   },
+   "ruolo": "rimescolato",
+   "V": 26,
+   "secondi": 68.68,
+   "corse_al_limite": 0
+  },
+  "Russian": {
+   "bpc": {
+    "media": 2.715824,
+    "ds": 0.0708633235649209,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.709004,
+    "ds": 0.07045506388235465,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 36.2496,
+    "ds": 4.455674913336174,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.638719,
+    "ds": 0.012959520267184221,
+    "n": 10
+   },
+   "G": {
+    "media": 0.41453606234271617,
+    "ds": 0.015009984427803515,
+    "n": 10
+   },
+   "E90": {
+    "media": 15.1552,
+    "ds": 0.6476344648024839,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.30235899999999993,
+    "ds": 0.10875506419370905,
+    "n": 10
+   },
+   "ruolo": "lingua",
+   "V": 43,
+   "secondi": 74.65,
+   "corse_al_limite": 0,
+   "D": {
+    "media": 0.07154799999999994,
+    "ds": 0.01480521589770899,
+    "n": 10
+   },
+   "D_relativo": {
+    "media": 0.026358449176277984,
+    "ds": 0.00547157588949681,
+    "n": 10
+   }
+  },
+  "Russian, parole rimescolate nella riga": {
+   "bpc": {
+    "media": 2.787372,
+    "ds": 0.07303701798099063,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.779448,
+    "ds": 0.06858262118706818,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 35.2256,
+    "ds": 2.7391867081712813,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.638657,
+    "ds": 0.013059544019605029,
+    "n": 10
+   },
+   "G": {
+    "media": 0.3991008847069992,
+    "ds": 0.015605960753707276,
+    "n": 10
+   },
+   "E90": {
+    "media": 14.6432,
+    "ds": 0.9714516972037258,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.23665799999999998,
+    "ds": 0.10024390918598933,
+    "n": 10
+   },
+   "ruolo": "rimescolato",
+   "V": 43,
+   "secondi": 73.77,
+   "corse_al_limite": 0
+  },
+  "Sanskrit": {
+   "bpc": {
+    "media": 4.800318,
+    "ds": 0.13269945958191892,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 4.796885,
+    "ds": 0.13327201317022416,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 33.792,
+    "ds": 2.6876613543293666,
+    "n": 10
+   },
+   "h1": {
+    "media": 6.203273,
+    "ds": 0.03246734737479421,
+    "n": 10
+   },
+   "G": {
+    "media": 0.22616400303460812,
+    "ds": 0.02099366364632836,
+    "n": 10
+   },
+   "E90": {
+    "media": 17.715200000000003,
+    "ds": 0.9714516972037263,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.6452809999999999,
+    "ds": 0.12212916445304943,
+    "n": 10
+   },
+   "ruolo": "lingua",
+   "V": 160,
+   "secondi": 90.98,
+   "corse_al_limite": 0,
+   "D": {
+    "media": 0.04273600000000002,
+    "ds": 0.02258532768561618,
+    "n": 10
+   },
+   "D_relativo": {
+    "media": 0.008995208928543786,
+    "ds": 0.004895456598609656,
+    "n": 10
+   }
+  },
+  "Sanskrit, parole rimescolate nella riga": {
+   "bpc": {
+    "media": 4.843054,
+    "ds": 0.11669565603645152,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 4.840234,
+    "ds": 0.11803190333314315,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 32.5632,
+    "ds": 2.403917395511845,
+    "n": 10
+   },
+   "h1": {
+    "media": 6.203324,
+    "ds": 0.032425521909617915,
+    "n": 10
+   },
+   "G": {
+    "media": 0.21927911336597022,
+    "ds": 0.018449851161804802,
+    "n": 10
+   },
+   "E90": {
+    "media": 17.817600000000002,
+    "ds": 0.8635126197366455,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.5898479999999999,
+    "ds": 0.1037355529753956,
+    "n": 10
+   },
+   "ruolo": "rimescolato",
+   "V": 160,
+   "secondi": 73.18,
+   "corse_al_limite": 0
+  },
+  "Sanskrit, letterario": {
+   "bpc": {
+    "media": 4.573235,
+    "ds": 0.06449434587620832,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 4.5679870000000005,
+    "ds": 0.06426510510723873,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 33.4848,
+    "ds": 2.9776320495021245,
+    "n": 10
+   },
+   "h1": {
+    "media": 6.049809,
+    "ds": 0.024810548137614605,
+    "n": 10
+   },
+   "G": {
+    "media": 0.24407828225796668,
+    "ds": 0.00946012424434538,
+    "n": 10
+   },
+   "E90": {
+    "media": 17.6128,
+    "ds": 1.3481586454617773,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.4785599999999999,
+    "ds": 0.10893059859888352,
+    "n": 10
+   },
+   "ruolo": "trasferimento",
+   "V": 160,
+   "secondi": 91.54,
+   "corse_al_limite": 0
+  },
+  "Spanish": {
+   "bpc": {
+    "media": 2.36112,
+    "ds": 0.0737717946703813,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.353867,
+    "ds": 0.07232891216135114,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 38.912,
+    "ds": 4.344464063610148,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.20196,
+    "ds": 0.012383322117536252,
+    "n": 10
+   },
+   "G": {
+    "media": 0.43811339150854295,
+    "ds": 0.016650759192315703,
+    "n": 10
+   },
+   "E90": {
+    "media": 14.9504,
+    "ds": 0.7159868403508233,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.31497499999999995,
+    "ds": 0.1021971692639066,
+    "n": 10
+   },
+   "ruolo": "lingua",
+   "V": 32,
+   "secondi": 77.12,
+   "corse_al_limite": 0,
+   "D": {
+    "media": 0.07584699999999996,
+    "ds": 0.018698969698295632,
+    "n": 10
+   },
+   "D_relativo": {
+    "media": 0.03230534314049382,
+    "ds": 0.008718718244528603,
+    "n": 10
+   }
+  },
+  "Spanish, parole rimescolate nella riga": {
+   "bpc": {
+    "media": 2.436967,
+    "ds": 0.06258468130816391,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.431901,
+    "ds": 0.0601647424346039,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 36.864000000000004,
+    "ds": 3.980596493547725,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.2019660000000005,
+    "ds": 0.012228257075769655,
+    "n": 10
+   },
+   "G": {
+    "media": 0.42005756892872115,
+    "ds": 0.014061647910895862,
+    "n": 10
+   },
+   "E90": {
+    "media": 14.5408,
+    "ds": 0.6476344648024835,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.2182249999999999,
+    "ds": 0.08720237627368749,
+    "n": 10
+   },
+   "ruolo": "rimescolato",
+   "V": 32,
+   "secondi": 73.17,
+   "corse_al_limite": 0
+  },
+  "Chinese (Pinyin)": {
+   "bpc": {
+    "media": 2.028562,
+    "ds": 0.04741011279838457,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.017793,
+    "ds": 0.045208487907569865,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 37.9904,
+    "ds": 4.220680176885658,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.664442,
+    "ds": 0.013654902090864987,
+    "n": 10
+   },
+   "G": {
+    "media": 0.565096992304152,
+    "ds": 0.010276410865222761,
+    "n": 10
+   },
+   "E90": {
+    "media": 8.704,
+    "ds": 0.5396953873354039,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.19892700000000002,
+    "ds": 0.0853654437046331,
+    "n": 10
+   },
+   "ruolo": "lingua",
+   "V": 47,
+   "secondi": 78.22,
+   "corse_al_limite": 0,
+   "D": {
+    "media": 0.20475699999999997,
+    "ds": 0.030349061142352,
+    "n": 10
+   },
+   "D_relativo": {
+    "media": 0.10124800036905689,
+    "ds": 0.01679784340731417,
+    "n": 10
+   }
+  },
+  "Chinese (Pinyin), parole rimescolate nella riga": {
+   "bpc": {
+    "media": 2.233319,
+    "ds": 0.02716865532598581,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.22861,
+    "ds": 0.025719219791173007,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 30.4128,
+    "ds": 4.209624021216148,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.664539,
+    "ds": 0.013582404017289744,
+    "n": 10
+   },
+   "G": {
+    "media": 0.5212111053046679,
+    "ds": 0.005868067444696501,
+    "n": 10
+   },
+   "E90": {
+    "media": 5.632,
+    "ds": 0.5396953873354035,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.03402399999999992,
+    "ds": 0.045461441341964545,
+    "n": 10
+   },
+   "ruolo": "rimescolato",
+   "V": 47,
+   "secondi": 64.23,
+   "corse_al_limite": 0
+  },
+  "Hebrew": {
+   "bpc": {
+    "media": 2.9260070000000002,
+    "ds": 0.031021046636831046,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.9218640000000002,
+    "ds": 0.03224197305790495,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 29.4912,
+    "ds": 2.764589292382424,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.182346,
+    "ds": 0.01190358041375236,
+    "n": 10
+   },
+   "G": {
+    "media": 0.3003831086412435,
+    "ds": 0.007957217464407015,
+    "n": 10
+   },
+   "E90": {
+    "media": 13.7216,
+    "ds": 0.9892779858731985,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.21114800000000003,
+    "ds": 0.07361183386144136,
+    "n": 10
+   },
+   "ruolo": "lingua",
+   "V": 30,
+   "secondi": 61.95,
+   "corse_al_limite": 0,
+   "D": {
+    "media": 0.057419999999999936,
+    "ds": 0.010413704645535466,
+    "n": 10
+   },
+   "D_relativo": {
+    "media": 0.019642857622713325,
+    "ds": 0.0036708387321331072,
+    "n": 10
+   }
+  },
+  "Hebrew, parole rimescolate nella riga": {
+   "bpc": {
+    "media": 2.983427,
+    "ds": 0.02730120878479757,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.979632,
+    "ds": 0.028760605309655362,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 30.4128,
+    "ds": 2.5105989015460923,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.182268,
+    "ds": 0.011882130186871991,
+    "n": 10
+   },
+   "G": {
+    "media": 0.28664283536761015,
+    "ds": 0.006897965352758527,
+    "n": 10
+   },
+   "E90": {
+    "media": 13.4144,
+    "ds": 0.5812697212902878,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.18356199999999995,
+    "ds": 0.05643206413221314,
+    "n": 10
+   },
+   "ruolo": "rimescolato",
+   "V": 30,
+   "secondi": 64.08,
+   "corse_al_limite": 0
+  },
+  "Maori": {
+   "bpc": {
+    "media": 1.829281,
+    "ds": 0.0419436620692302,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 1.824869,
+    "ds": 0.0405654939436079,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 33.4848,
+    "ds": 4.3725319590979925,
+    "n": 10
+   },
+   "h1": {
+    "media": 3.554382,
+    "ds": 0.009503431894730314,
+    "n": 10
+   },
+   "G": {
+    "media": 0.4853318256492481,
+    "ds": 0.012353513386239554,
+    "n": 10
+   },
+   "E90": {
+    "media": 12.3904,
+    "ds": 1.0182952202360358,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.13923600000000005,
+    "ds": 0.050995298737563366,
+    "n": 10
+   },
+   "ruolo": "lingua",
+   "V": 17,
+   "secondi": 66.33,
+   "corse_al_limite": 0,
+   "D": {
+    "media": 0.20944699999999997,
+    "ds": 0.020723488579119268,
+    "n": 10
+   },
+   "D_relativo": {
+    "media": 0.11466576746379395,
+    "ds": 0.013015264482620355,
+    "n": 10
+   }
+  },
+  "Maori, parole rimescolate nella riga": {
+   "bpc": {
+    "media": 2.038728,
+    "ds": 0.036799171729809316,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.035768,
+    "ds": 0.03644092869898414,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 32.153600000000004,
+    "ds": 2.2226016387208136,
+    "n": 10
+   },
+   "h1": {
+    "media": 3.554277,
+    "ds": 0.009567207940552921,
+    "n": 10
+   },
+   "G": {
+    "media": 0.4263890989092921,
+    "ds": 0.010996465379615253,
+    "n": 10
+   },
+   "E90": {
+    "media": 10.4448,
+    "ds": 0.6476344648024835,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.09077699999999997,
+    "ds": 0.031167284147180802,
+    "n": 10
+   },
+   "ruolo": "rimescolato",
+   "V": 17,
+   "secondi": 57.13,
+   "corse_al_limite": 0
+  },
+  "Swahili": {
+   "bpc": {
+    "media": 2.3214,
+    "ds": 0.040989798188763346,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.316947,
+    "ds": 0.04074440521920366,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 36.352000000000004,
+    "ds": 3.489288243244522,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.084745,
+    "ds": 0.014783374483219754,
+    "n": 10
+   },
+   "G": {
+    "media": 0.43168600628043957,
+    "ds": 0.010109263004825814,
+    "n": 10
+   },
+   "E90": {
+    "media": 15.6672,
+    "ds": 0.9714516972037265,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.2867219999999999,
+    "ds": 0.05417710110779683,
+    "n": 10
+   },
+   "ruolo": "lingua",
+   "V": 27,
+   "secondi": 56.71,
+   "corse_al_limite": 0,
+   "D": {
+    "media": 0.04513200000000004,
+    "ds": 0.013136097678618999,
+    "n": 10
+   },
+   "D_relativo": {
+    "media": 0.019495018516425273,
+    "ds": 0.005817355967620477,
+    "n": 10
+   }
+  },
+  "Swahili, parole rimescolate nella riga": {
+   "bpc": {
+    "media": 2.366532,
+    "ds": 0.03570065134793299,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.3620550000000002,
+    "ds": 0.03624055348179263,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 35.7376,
+    "ds": 4.462207206703378,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.084506,
+    "ds": 0.014610126777151563,
+    "n": 10
+   },
+   "G": {
+    "media": 0.4206021289359088,
+    "ds": 0.008904974727741691,
+    "n": 10
+   },
+   "E90": {
+    "media": 15.2576,
+    "ds": 1.317564352212909,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.21768200000000001,
+    "ds": 0.05081897257258686,
+    "n": 10
+   },
+   "ruolo": "rimescolato",
+   "V": 27,
+   "secondi": 54.99,
+   "corse_al_limite": 0
+  },
+  "Tagalog": {
+   "bpc": {
+    "media": 1.919546,
+    "ds": 0.05268509217774774,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 1.915395,
+    "ds": 0.05332003756146044,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 35.6352,
+    "ds": 3.1947049524695283,
+    "n": 10
+   },
+   "h1": {
+    "media": 3.809865,
+    "ds": 0.014307424840115542,
+    "n": 10
+   },
+   "G": {
+    "media": 0.49617030360997255,
+    "ds": 0.013456054277711975,
+    "n": 10
+   },
+   "E90": {
+    "media": 14.4384,
+    "ds": 0.3238172324012418,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.20511200000000002,
+    "ds": 0.04873129471340199,
+    "n": 10
+   },
+   "ruolo": "lingua",
+   "V": 25,
+   "secondi": 54.11,
+   "corse_al_limite": 0,
+   "D": {
+    "media": 0.156706,
+    "ds": 0.01788520195270071,
+    "n": 10
+   },
+   "D_relativo": {
+    "media": 0.08182198832635623,
+    "ds": 0.010819882679156534,
+    "n": 10
+   }
+  },
+  "Tagalog, parole rimescolate nella riga": {
+   "bpc": {
+    "media": 2.076252,
+    "ds": 0.04547060437493898,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.068633,
+    "ds": 0.04781664123387266,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 36.864000000000004,
+    "ds": 4.802985738059193,
+    "n": 10
+   },
+   "h1": {
+    "media": 3.809758,
+    "ds": 0.014334810621544906,
+    "n": 10
+   },
+   "G": {
+    "media": 0.45501748403931314,
+    "ds": 0.011750981297023575,
+    "n": 10
+   },
+   "E90": {
+    "media": 13.5168,
+    "ds": 0.9409910614760257,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.18575199999999997,
+    "ds": 0.054159948260273955,
+    "n": 10
+   },
+   "ruolo": "rimescolato",
+   "V": 25,
+   "secondi": 56.33,
+   "corse_al_limite": 0
+  },
+  "Turkish": {
+   "bpc": {
+    "media": 2.487599,
+    "ds": 0.04366480160139159,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.4818759999999997,
+    "ds": 0.044019594929733084,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 38.5024,
+    "ds": 2.6963172909235533,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.458994,
+    "ds": 0.010262122587457423,
+    "n": 10
+   },
+   "G": {
+    "media": 0.44210466923220454,
+    "ds": 0.01044211417092723,
+    "n": 10
+   },
+   "E90": {
+    "media": 14.9504,
+    "ds": 0.5287913262021855,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.339512,
+    "ds": 0.052812003643952936,
+    "n": 10
+   },
+   "ruolo": "lingua",
+   "V": 33,
+   "secondi": 57.11,
+   "corse_al_limite": 0,
+   "D": {
+    "media": 0.032558000000000045,
+    "ds": 0.01988075663661842,
+    "n": 10
+   },
+   "D_relativo": {
+    "media": 0.013170276834685723,
+    "ds": 0.008201800804036765,
+    "n": 10
+   }
+  },
+  "Turkish, parole rimescolate nella riga": {
+   "bpc": {
+    "media": 2.520157,
+    "ds": 0.034949639340056154,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.511584,
+    "ds": 0.03688769538899271,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 37.7856,
+    "ds": 4.53986165232182,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.459091,
+    "ds": 0.010353032245031722,
+    "n": 10
+   },
+   "G": {
+    "media": 0.43481347481596655,
+    "ds": 0.008771040737112613,
+    "n": 10
+   },
+   "E90": {
+    "media": 14.6432,
+    "ds": 0.6911473230956056,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.28556800000000004,
+    "ds": 0.06626037592541853,
+    "n": 10
+   },
+   "ruolo": "rimescolato",
+   "V": 33,
+   "secondi": 58.17,
+   "corse_al_limite": 0
+  },
+  "Latin, cifrato con una sostituzione (controllo positivo)": {
+   "bpc": {
+    "media": 2.826993,
+    "ds": 0.05109669331549524,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 2.8205970000000002,
+    "ds": 0.04808233379665899,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 31.846400000000003,
+    "ds": 3.9937458662819854,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.131307,
+    "ds": 0.012971459311375362,
+    "n": 10
+   },
+   "G": {
+    "media": 0.31571583822288446,
+    "ds": 0.012110117456158455,
+    "n": 10
+   },
+   "E90": {
+    "media": 13.619200000000001,
+    "ds": 0.9714516972037258,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.231989,
+    "ds": 0.0618938793330075,
+    "n": 10
+   },
+   "ruolo": "controllo",
+   "V": 25,
+   "secondi": 49.65,
+   "corse_al_limite": 0
+  },
+  "Latin, cifrato con Vigenère (periodo 7)": {
+   "bpc": {
+    "media": 3.443069,
+    "ds": 0.041072033861930375,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 3.438869,
+    "ds": 0.04002226281847537,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 31.334400000000002,
+    "ds": 2.863947361403294,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.455869,
+    "ds": 0.00711679461243295,
+    "n": 10
+   },
+   "G": {
+    "media": 0.22729487916691693,
+    "ds": 0.00921902751018293,
+    "n": 10
+   },
+   "E90": {
+    "media": 18.432000000000002,
+    "ds": 0.6826666666666661,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.15141199999999994,
+    "ds": 0.04853160363218085,
+    "n": 10
+   },
+   "ruolo": "cifrato",
+   "V": 25,
+   "secondi": 49.24,
+   "corse_al_limite": 0,
+   "D": {
+    "media": 0.4627810000000001,
+    "ds": 0.024081971795423235,
+    "n": 10
+   },
+   "D_relativo": {
+    "media": 0.1344625390111045,
+    "ds": 0.007918058283193256,
+    "n": 10
+   }
+  },
+  "Latin, cifrato con Vigenère (periodo 7), parole rimescolate nella riga": {
+   "bpc": {
+    "media": 3.90585,
+    "ds": 0.03633787678014352,
+    "n": 10
+   },
+   "bpc_min_prova": {
+    "media": 3.902684,
+    "ds": 0.03455397266113785,
+    "n": 10
+   },
+   "epoche_scelte": {
+    "media": 23.9616,
+    "ds": 1.7538024214070804,
+    "n": 10
+   },
+   "h1": {
+    "media": 4.455903,
+    "ds": 0.007084487043298661,
+    "n": 10
+   },
+   "G": {
+    "media": 0.1234421999767499,
+    "ds": 0.008211822073923233,
+    "n": 10
+   },
+   "E90": {
+    "media": 15.6672,
+    "ds": 0.49463899293659996,
+    "n": 10
+   },
+   "scarto": {
+    "media": 0.2409250000000001,
+    "ds": 0.05813296124689782,
+    "n": 10
+   },
+   "ruolo": "rimescolato",
+   "V": 25,
+   "secondi": 36.21,
+   "corse_al_limite": 0
+  }
+ },
+ "trasferimento": {
+  "Voynich A -> Voynich B": {
+   "T": {
+    "media": 0.447088,
+    "ds": 0.05834578720391427,
+    "n": 10
+   },
+   "gruppo": "Voynich A/B"
+  },
+  "Voynich B -> Voynich A": {
+   "T": {
+    "media": 0.40167,
+    "ds": 0.04008760684079583,
+    "n": 10
+   },
+   "gruppo": "Voynich A/B"
+  },
+  "Arabic -> Arabic, letterario": {
+   "T": {
+    "media": 6.627602,
+    "ds": 0.42805469174965083,
+    "n": 10
+   },
+   "gruppo": "Arabic (letterario/tecnico)"
+  },
+  "Arabic, letterario -> Arabic": {
+   "T": {
+    "media": 8.454037,
+    "ds": 0.5944130169624856,
+    "n": 10
+   },
+   "gruppo": "Arabic (letterario/tecnico)"
+  },
+  "English -> English, letterario": {
+   "T": {
+    "media": 0.714514,
+    "ds": 0.10500038425326517,
+    "n": 10
+   },
+   "gruppo": "English (letterario/tecnico)"
+  },
+  "English, letterario -> English": {
+   "T": {
+    "media": 0.7920049999999998,
+    "ds": 0.10543794860274724,
+    "n": 10
+   },
+   "gruppo": "English (letterario/tecnico)"
+  },
+  "Flemish -> Flemish, letterario": {
+   "T": {
+    "media": 1.018139,
+    "ds": 0.09159884975624233,
+    "n": 10
+   },
+   "gruppo": "Flemish (letterario/tecnico)"
+  },
+  "Flemish, letterario -> Flemish": {
+   "T": {
+    "media": 0.926233,
+    "ds": 0.1127975558295086,
+    "n": 10
+   },
+   "gruppo": "Flemish (letterario/tecnico)"
+  },
+  "German -> German, letterario": {
+   "T": {
+    "media": 1.361657,
+    "ds": 0.09632271695249842,
+    "n": 10
+   },
+   "gruppo": "German (letterario/tecnico)"
+  },
+  "German, letterario -> German": {
+   "T": {
+    "media": 1.562117,
+    "ds": 0.10438771171295333,
+    "n": 10
+   },
+   "gruppo": "German (letterario/tecnico)"
+  },
+  "Italian -> Italian, letterario": {
+   "T": {
+    "media": 0.7982380000000001,
+    "ds": 0.07267947514028057,
+    "n": 10
+   },
+   "gruppo": "Italian (letterario/tecnico)"
+  },
+  "Italian, letterario -> Italian": {
+   "T": {
+    "media": 0.696827,
+    "ds": 0.046247235605072726,
+    "n": 10
+   },
+   "gruppo": "Italian (letterario/tecnico)"
+  },
+  "Latin (Abbreviated) -> Latin (Abbreviated), letterario": {
+   "T": {
+    "media": 0.38768699999999984,
+    "ds": 0.051717195517760085,
+    "n": 10
+   },
+   "gruppo": "Latin (Abbreviated) (letterario/tecnico)"
+  },
+  "Latin (Abbreviated), letterario -> Latin (Abbreviated)": {
+   "T": {
+    "media": 0.377185,
+    "ds": 0.05965227466092326,
+    "n": 10
+   },
+   "gruppo": "Latin (Abbreviated) (letterario/tecnico)"
+  },
+  "Latin -> Latin, letterario": {
+   "T": {
+    "media": 0.43386299999999983,
+    "ds": 0.03288319802303635,
+    "n": 10
+   },
+   "gruppo": "Latin (letterario/tecnico)"
+  },
+  "Latin, letterario -> Latin": {
+   "T": {
+    "media": 0.42676400000000003,
+    "ds": 0.0364377978966287,
+    "n": 10
+   },
+   "gruppo": "Latin (letterario/tecnico)"
+  },
+  "Sanskrit -> Sanskrit, letterario": {
+   "T": {
+    "media": 0.9460250000000003,
+    "ds": 0.07502125702462964,
+    "n": 10
+   },
+   "gruppo": "Sanskrit (letterario/tecnico)"
+  },
+  "Sanskrit, letterario -> Sanskrit": {
+   "T": {
+    "media": 0.9522170000000001,
+    "ds": 0.12245533607991306,
+    "n": 10
+   },
+   "gruppo": "Sanskrit (letterario/tecnico)"
+  }
+ },
+ "confronti": {
+  "G": {
+   "Voynich": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.95,
+    "minimo": 0.22616400303460812,
+    "massimo": 0.565096992304152
+   },
+   "Voynich A": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.75,
+    "minimo": 0.22616400303460812,
+    "massimo": 0.565096992304152
+   },
+   "Voynich B": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.95,
+    "minimo": 0.22616400303460812,
+    "massimo": 0.565096992304152
+   },
+   "Voynich, segni rimescolati (controllo negativo)": {
+    "dentro": "sotto",
+    "frazione_sotto": 0.0,
+    "minimo": 0.22616400303460812,
+    "massimo": 0.565096992304152
+   },
+   "Voynich in lettere EVA non fuse (sensibilità)": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.95,
+    "minimo": 0.22616400303460812,
+    "massimo": 0.565096992304152
+   },
+   "Timm e Schinner (seme 1)": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.45,
+    "minimo": 0.22616400303460812,
+    "massimo": 0.565096992304152
+   },
+   "Voynichizzatore v21 (libro d'esempio)": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.75,
+    "minimo": 0.22616400303460812,
+    "massimo": 0.565096992304152
+   },
+   "Naibbe": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.9,
+    "minimo": 0.22616400303460812,
+    "massimo": 0.565096992304152
+   },
+   "Gibberish (Gaskell e Bowern)": {
+    "dentro": "sotto",
+    "frazione_sotto": 0.0,
+    "minimo": 0.22616400303460812,
+    "massimo": 0.565096992304152
+   },
+   "Latin, cifrato con una sostituzione (controllo positivo)": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.2,
+    "minimo": 0.22616400303460812,
+    "massimo": 0.565096992304152
+   },
+   "Latin, cifrato con Vigenère (periodo 7)": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.05,
+    "minimo": 0.22616400303460812,
+    "massimo": 0.565096992304152
+   }
+  },
+  "E90": {
+   "Voynich": {
+    "dentro": "sotto",
+    "frazione_sotto": 0.0,
+    "minimo": 8.704,
+    "massimo": 17.715200000000003
+   },
+   "Voynich A": {
+    "dentro": "sotto",
+    "frazione_sotto": 0.0,
+    "minimo": 8.704,
+    "massimo": 17.715200000000003
+   },
+   "Voynich B": {
+    "dentro": "sotto",
+    "frazione_sotto": 0.0,
+    "minimo": 8.704,
+    "massimo": 17.715200000000003
+   },
+   "Voynich, segni rimescolati (controllo negativo)": {
+    "dentro": "sotto",
+    "frazione_sotto": 0.0,
+    "minimo": 8.704,
+    "massimo": 17.715200000000003
+   },
+   "Voynich in lettere EVA non fuse (sensibilità)": {
+    "dentro": "sotto",
+    "frazione_sotto": 0.0,
+    "minimo": 8.704,
+    "massimo": 17.715200000000003
+   },
+   "Timm e Schinner (seme 1)": {
+    "dentro": "sotto",
+    "frazione_sotto": 0.0,
+    "minimo": 8.704,
+    "massimo": 17.715200000000003
+   },
+   "Voynichizzatore v21 (libro d'esempio)": {
+    "dentro": "sotto",
+    "frazione_sotto": 0.0,
+    "minimo": 8.704,
+    "massimo": 17.715200000000003
+   },
+   "Naibbe": {
+    "dentro": "sotto",
+    "frazione_sotto": 0.0,
+    "minimo": 8.704,
+    "massimo": 17.715200000000003
+   },
+   "Gibberish (Gaskell e Bowern)": {
+    "dentro": "sotto",
+    "frazione_sotto": 0.0,
+    "minimo": 8.704,
+    "massimo": 17.715200000000003
+   },
+   "Latin, cifrato con una sostituzione (controllo positivo)": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.3,
+    "minimo": 8.704,
+    "massimo": 17.715200000000003
+   },
+   "Latin, cifrato con Vigenère (periodo 7)": {
+    "dentro": "sopra",
+    "frazione_sotto": 1.0,
+    "minimo": 8.704,
+    "massimo": 17.715200000000003
+   }
+  },
+  "D": {
+   "Voynich": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.85,
+    "minimo": -0.002043000000000017,
+    "massimo": 0.20944699999999997
+   },
+   "Voynich A": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.8,
+    "minimo": -0.002043000000000017,
+    "massimo": 0.20944699999999997
+   },
+   "Voynich B": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.85,
+    "minimo": -0.002043000000000017,
+    "massimo": 0.20944699999999997
+   },
+   "Timm e Schinner (seme 1)": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.15,
+    "minimo": -0.002043000000000017,
+    "massimo": 0.20944699999999997
+   },
+   "Voynichizzatore v21 (libro d'esempio)": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.6,
+    "minimo": -0.002043000000000017,
+    "massimo": 0.20944699999999997
+   },
+   "Naibbe": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.1,
+    "minimo": -0.002043000000000017,
+    "massimo": 0.20944699999999997
+   },
+   "Gibberish (Gaskell e Bowern)": {
+    "dentro": "sotto",
+    "frazione_sotto": 0.0,
+    "minimo": -0.002043000000000017,
+    "massimo": 0.20944699999999997
+   },
+   "Latin, cifrato con Vigenère (periodo 7)": {
+    "dentro": "sopra",
+    "frazione_sotto": 1.0,
+    "minimo": -0.002043000000000017,
+    "massimo": 0.20944699999999997
+   }
+  },
+  "D_relativo": {
+   "Voynich": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.85,
+    "minimo": -0.0007174975770830003,
+    "massimo": 0.11466576746379395
+   },
+   "Voynich A": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.85,
+    "minimo": -0.0007174975770830003,
+    "massimo": 0.11466576746379395
+   },
+   "Voynich B": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.85,
+    "minimo": -0.0007174975770830003,
+    "massimo": 0.11466576746379395
+   },
+   "Timm e Schinner (seme 1)": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.25,
+    "minimo": -0.0007174975770830003,
+    "massimo": 0.11466576746379395
+   },
+   "Voynichizzatore v21 (libro d'esempio)": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.7,
+    "minimo": -0.0007174975770830003,
+    "massimo": 0.11466576746379395
+   },
+   "Naibbe": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.1,
+    "minimo": -0.0007174975770830003,
+    "massimo": 0.11466576746379395
+   },
+   "Gibberish (Gaskell e Bowern)": {
+    "dentro": "sotto",
+    "frazione_sotto": 0.0,
+    "minimo": -0.0007174975770830003,
+    "massimo": 0.11466576746379395
+   },
+   "Latin, cifrato con Vigenère (periodo 7)": {
+    "dentro": "sopra",
+    "frazione_sotto": 1.0,
+    "minimo": -0.0007174975770830003,
+    "massimo": 0.11466576746379395
+   }
+  },
+  "bpc": {
+   "Voynich": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.1,
+    "minimo": 1.829281,
+    "massimo": 4.800318
+   },
+   "Voynich A": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.15,
+    "minimo": 1.829281,
+    "massimo": 4.800318
+   },
+   "Voynich B": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.05,
+    "minimo": 1.829281,
+    "massimo": 4.800318
+   },
+   "Voynich, segni rimescolati (controllo negativo)": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.95,
+    "minimo": 1.829281,
+    "massimo": 4.800318
+   },
+   "Voynich in lettere EVA non fuse (sensibilità)": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.05,
+    "minimo": 1.829281,
+    "massimo": 4.800318
+   },
+   "Timm e Schinner (seme 1)": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.2,
+    "minimo": 1.829281,
+    "massimo": 4.800318
+   },
+   "Voynichizzatore v21 (libro d'esempio)": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.15,
+    "minimo": 1.829281,
+    "massimo": 4.800318
+   },
+   "Naibbe": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.1,
+    "minimo": 1.829281,
+    "massimo": 4.800318
+   },
+   "Gibberish (Gaskell e Bowern)": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.95,
+    "minimo": 1.829281,
+    "massimo": 4.800318
+   },
+   "Latin, cifrato con una sostituzione (controllo positivo)": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.75,
+    "minimo": 1.829281,
+    "massimo": 4.800318
+   },
+   "Latin, cifrato con Vigenère (periodo 7)": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.95,
+    "minimo": 1.829281,
+    "massimo": 4.800318
+   }
+  },
+  "h1": {
+   "Voynich": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.1,
+    "minimo": 3.554382,
+    "massimo": 6.203273
+   },
+   "Voynich A": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.1,
+    "minimo": 3.554382,
+    "massimo": 6.203273
+   },
+   "Voynich B": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.1,
+    "minimo": 3.554382,
+    "massimo": 6.203273
+   },
+   "Voynich, segni rimescolati (controllo negativo)": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.1,
+    "minimo": 3.554382,
+    "massimo": 6.203273
+   },
+   "Voynich in lettere EVA non fuse (sensibilità)": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.1,
+    "minimo": 3.554382,
+    "massimo": 6.203273
+   },
+   "Timm e Schinner (seme 1)": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.05,
+    "minimo": 3.554382,
+    "massimo": 6.203273
+   },
+   "Voynichizzatore v21 (libro d'esempio)": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.1,
+    "minimo": 3.554382,
+    "massimo": 6.203273
+   },
+   "Naibbe": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.1,
+    "minimo": 3.554382,
+    "massimo": 6.203273
+   },
+   "Gibberish (Gaskell e Bowern)": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.75,
+    "minimo": 3.554382,
+    "massimo": 6.203273
+   },
+   "Latin, cifrato con una sostituzione (controllo positivo)": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.25,
+    "minimo": 3.554382,
+    "massimo": 6.203273
+   },
+   "Latin, cifrato con Vigenère (periodo 7)": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.75,
+    "minimo": 3.554382,
+    "massimo": 6.203273
+   }
+  },
+  "scarto": {
+   "Voynich": {
+    "dentro": "sotto",
+    "frazione_sotto": 0.0,
+    "minimo": 0.13923600000000005,
+    "massimo": 0.6452809999999999
+   },
+   "Voynich A": {
+    "dentro": "sotto",
+    "frazione_sotto": 0.0,
+    "minimo": 0.13923600000000005,
+    "massimo": 0.6452809999999999
+   },
+   "Voynich B": {
+    "dentro": "sotto",
+    "frazione_sotto": 0.0,
+    "minimo": 0.13923600000000005,
+    "massimo": 0.6452809999999999
+   },
+   "Voynich, segni rimescolati (controllo negativo)": {
+    "dentro": "sotto",
+    "frazione_sotto": 0.0,
+    "minimo": 0.13923600000000005,
+    "massimo": 0.6452809999999999
+   },
+   "Voynich in lettere EVA non fuse (sensibilità)": {
+    "dentro": "sotto",
+    "frazione_sotto": 0.0,
+    "minimo": 0.13923600000000005,
+    "massimo": 0.6452809999999999
+   },
+   "Timm e Schinner (seme 1)": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.05,
+    "minimo": 0.13923600000000005,
+    "massimo": 0.6452809999999999
+   },
+   "Voynichizzatore v21 (libro d'esempio)": {
+    "dentro": "sotto",
+    "frazione_sotto": 0.0,
+    "minimo": 0.13923600000000005,
+    "massimo": 0.6452809999999999
+   },
+   "Naibbe": {
+    "dentro": "sotto",
+    "frazione_sotto": 0.0,
+    "minimo": 0.13923600000000005,
+    "massimo": 0.6452809999999999
+   },
+   "Gibberish (Gaskell e Bowern)": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.3,
+    "minimo": 0.13923600000000005,
+    "massimo": 0.6452809999999999
+   },
+   "Latin, cifrato con una sostituzione (controllo positivo)": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.3,
+    "minimo": 0.13923600000000005,
+    "massimo": 0.6452809999999999
+   },
+   "Latin, cifrato con Vigenère (periodo 7)": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.05,
+    "minimo": 0.13923600000000005,
+    "massimo": 0.6452809999999999
+   }
+  },
+  "T": {
+   "Voynich A -> Voynich B": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.25,
+    "minimo": 0.377185,
+    "massimo": 8.454037
+   },
+   "Voynich B -> Voynich A": {
+    "dentro": "dentro",
+    "frazione_sotto": 0.125,
+    "minimo": 0.377185,
+    "massimo": 8.454037
+   }
+  },
+  "G_e_alfabeto_spearman": -0.05660417660646577
+ },
+ "profili": {
+  "vicini": {
+   "Voynich": [
+    {
+     "testo": "Voynichizzatore v21 (libro d'esempio)",
+     "ruolo": "generatore",
+     "distanza": 0.7800541086450123
+    },
+    {
+     "testo": "Timm e Schinner (seme 1)",
+     "ruolo": "generatore",
+     "distanza": 1.5563220839745364
+    },
+    {
+     "testo": "Naibbe",
+     "ruolo": "generatore",
+     "distanza": 1.7306962677641147
+    },
+    {
+     "testo": "Chinese (Pinyin)",
+     "ruolo": "lingua",
+     "distanza": 3.26703518774951
+    },
+    {
+     "testo": "Maori",
+     "ruolo": "lingua",
+     "distanza": 4.982039340386633
+    },
+    {
+     "testo": "Anglo-Saxon",
+     "ruolo": "lingua",
+     "distanza": 5.079237786870425
+    },
+    {
+     "testo": "Gibberish (Gaskell e Bowern)",
+     "ruolo": "generatore",
+     "distanza": 5.320353794007592
+    },
+    {
+     "testo": "English",
+     "ruolo": "lingua",
+     "distanza": 5.334505054998306
+    },
+    {
+     "testo": "Greek",
+     "ruolo": "lingua",
+     "distanza": 5.5246655583678645
+    },
+    {
+     "testo": "German",
+     "ruolo": "lingua",
+     "distanza": 5.757122454667423
+    },
+    {
+     "testo": "Mayan (Kaqchikel)",
+     "ruolo": "lingua",
+     "distanza": 5.757449601278874
+    },
+    {
+     "testo": "Tagalog",
+     "ruolo": "lingua",
+     "distanza": 5.805339100130924
+    },
+    {
+     "testo": "Hebrew",
+     "ruolo": "lingua",
+     "distanza": 5.869220469138654
+    },
+    {
+     "testo": "Latin",
+     "ruolo": "lingua",
+     "distanza": 5.889671365005171
+    },
+    {
+     "testo": "Latin (Abbreviated)",
+     "ruolo": "lingua",
+     "distanza": 5.947490813307429
+    },
+    {
+     "testo": "Italian",
+     "ruolo": "lingua",
+     "distanza": 6.039770341087858
+    },
+    {
+     "testo": "Spanish",
+     "ruolo": "lingua",
+     "distanza": 6.067263003333116
+    },
+    {
+     "testo": "Turkish",
+     "ruolo": "lingua",
+     "distanza": 6.168566566899807
+    },
+    {
+     "testo": "Flemish",
+     "ruolo": "lingua",
+     "distanza": 6.19210062928739
+    },
+    {
+     "testo": "French",
+     "ruolo": "lingua",
+     "distanza": 6.205242602351112
+    },
+    {
+     "testo": "Russian",
+     "ruolo": "lingua",
+     "distanza": 6.219126284284297
+    },
+    {
+     "testo": "Swahili",
+     "ruolo": "lingua",
+     "distanza": 6.520073584981509
+    },
+    {
+     "testo": "Arabic",
+     "ruolo": "lingua",
+     "distanza": 7.420669424906118
+    },
+    {
+     "testo": "Sanskrit",
+     "ruolo": "lingua",
+     "distanza": 8.19653651876632
+    },
+    {
+     "testo": "Latin, cifrato con Vigenère (periodo 7)",
+     "ruolo": "cifrato",
+     "distanza": 10.526280384629192
+    }
+   ],
+   "Voynich A": [
+    {
+     "testo": "Voynichizzatore v21 (libro d'esempio)",
+     "ruolo": "generatore",
+     "distanza": 0.7007442541163943
+    },
+    {
+     "testo": "Timm e Schinner (seme 1)",
+     "ruolo": "generatore",
+     "distanza": 1.304461879535537
+    },
+    {
+     "testo": "Naibbe",
+     "ruolo": "generatore",
+     "distanza": 1.7346224796712824
+    },
+    {
+     "testo": "Chinese (Pinyin)",
+     "ruolo": "lingua",
+     "distanza": 3.3106475022132344
+    },
+    {
+     "testo": "Anglo-Saxon",
+     "ruolo": "lingua",
+     "distanza": 4.836878813492478
+    },
+    {
+     "testo": "Maori",
+     "ruolo": "lingua",
+     "distanza": 4.866649368225251
+    },
+    {
+     "testo": "Gibberish (Gaskell e Bowern)",
+     "ruolo": "generatore",
+     "distanza": 4.868220356208879
+    },
+    {
+     "testo": "English",
+     "ruolo": "lingua",
+     "distanza": 5.1320905491085895
+    },
+    {
+     "testo": "Greek",
+     "ruolo": "lingua",
+     "distanza": 5.272038887525018
+    },
+    {
+     "testo": "Mayan (Kaqchikel)",
+     "ruolo": "lingua",
+     "distanza": 5.537948867806822
+    },
+    {
+     "testo": "Hebrew",
+     "ruolo": "lingua",
+     "distanza": 5.552149478043488
+    },
+    {
+     "testo": "Latin",
+     "ruolo": "lingua",
+     "distanza": 5.576420327618194
+    },
+    {
+     "testo": "Latin (Abbreviated)",
+     "ruolo": "lingua",
+     "distanza": 5.585722161798661
+    },
+    {
+     "testo": "German",
+     "ruolo": "lingua",
+     "distanza": 5.5902321966545
+    },
+    {
+     "testo": "Tagalog",
+     "ruolo": "lingua",
+     "distanza": 5.670541134588364
+    },
+    {
+     "testo": "Italian",
+     "ruolo": "lingua",
+     "distanza": 5.832736704574925
+    },
+    {
+     "testo": "Spanish",
+     "ruolo": "lingua",
+     "distanza": 5.862804137409961
+    },
+    {
+     "testo": "Turkish",
+     "ruolo": "lingua",
+     "distanza": 5.960396596350115
+    },
+    {
+     "testo": "Russian",
+     "ruolo": "lingua",
+     "distanza": 5.996561592614983
+    },
+    {
+     "testo": "French",
+     "ruolo": "lingua",
+     "distanza": 6.014530736115351
+    },
+    {
+     "testo": "Flemish",
+     "ruolo": "lingua",
+     "distanza": 6.015585939841128
+    },
+    {
+     "testo": "Swahili",
+     "ruolo": "lingua",
+     "distanza": 6.308180884837459
+    },
+    {
+     "testo": "Arabic",
+     "ruolo": "lingua",
+     "distanza": 7.151895967958783
+    },
+    {
+     "testo": "Sanskrit",
+     "ruolo": "lingua",
+     "distanza": 7.879230865225416
+    },
+    {
+     "testo": "Latin, cifrato con Vigenère (periodo 7)",
+     "ruolo": "cifrato",
+     "distanza": 10.334189063262336
+    }
+   ],
+   "Voynich B": [
+    {
+     "testo": "Voynichizzatore v21 (libro d'esempio)",
+     "ruolo": "generatore",
+     "distanza": 1.053288850055247
+    },
+    {
+     "testo": "Timm e Schinner (seme 1)",
+     "ruolo": "generatore",
+     "distanza": 1.94591008447317
+    },
+    {
+     "testo": "Naibbe",
+     "ruolo": "generatore",
+     "distanza": 1.9566191860180926
+    },
+    {
+     "testo": "Chinese (Pinyin)",
+     "ruolo": "lingua",
+     "distanza": 3.3769429438403455
+    },
+    {
+     "testo": "Maori",
+     "ruolo": "lingua",
+     "distanza": 5.232938095937548
+    },
+    {
+     "testo": "Anglo-Saxon",
+     "ruolo": "lingua",
+     "distanza": 5.504079048260244
+    },
+    {
+     "testo": "English",
+     "ruolo": "lingua",
+     "distanza": 5.714392596110284
+    },
+    {
+     "testo": "Gibberish (Gaskell e Bowern)",
+     "ruolo": "generatore",
+     "distanza": 5.786981077691989
+    },
+    {
+     "testo": "Greek",
+     "ruolo": "lingua",
+     "distanza": 5.96240286475711
+    },
+    {
+     "testo": "Tagalog",
+     "ruolo": "lingua",
+     "distanza": 6.110524132100014
+    },
+    {
+     "testo": "German",
+     "ruolo": "lingua",
+     "distanza": 6.12489697489513
+    },
+    {
+     "testo": "Mayan (Kaqchikel)",
+     "ruolo": "lingua",
+     "distanza": 6.152433393443397
+    },
+    {
+     "testo": "Hebrew",
+     "ruolo": "lingua",
+     "distanza": 6.323669340564262
+    },
+    {
+     "testo": "Latin",
+     "ruolo": "lingua",
+     "distanza": 6.363112292483335
+    },
+    {
+     "testo": "Latin (Abbreviated)",
+     "ruolo": "lingua",
+     "distanza": 6.436948013591753
+    },
+    {
+     "testo": "Italian",
+     "ruolo": "lingua",
+     "distanza": 6.444840763254398
+    },
+    {
+     "testo": "Spanish",
+     "ruolo": "lingua",
+     "distanza": 6.456052511206773
+    },
+    {
+     "testo": "Flemish",
+     "ruolo": "lingua",
+     "distanza": 6.572948170068353
+    },
+    {
+     "testo": "Turkish",
+     "ruolo": "lingua",
+     "distanza": 6.575497079820884
+    },
+    {
+     "testo": "French",
+     "ruolo": "lingua",
+     "distanza": 6.5815828870033055
+    },
+    {
+     "testo": "Russian",
+     "ruolo": "lingua",
+     "distanza": 6.619550462615199
+    },
+    {
+     "testo": "Swahili",
+     "ruolo": "lingua",
+     "distanza": 6.9227997708751206
+    },
+    {
+     "testo": "Arabic",
+     "ruolo": "lingua",
+     "distanza": 7.848446504599205
+    },
+    {
+     "testo": "Sanskrit",
+     "ruolo": "lingua",
+     "distanza": 8.647654462383738
+    },
+    {
+     "testo": "Latin, cifrato con Vigenère (periodo 7)",
+     "ruolo": "cifrato",
+     "distanza": 10.737867072047449
+    }
+   ]
+  },
+  "rispetto_al_voynich": {
+   "Voynich, segni rimescolati (controllo negativo)": {
+    "G": {
+     "differenza": -0.44996747503484,
+     "vicino": false
+    },
+    "E90": {
+     "differenza": 0.10239999999999982,
+     "vicino": true
+    }
+   },
+   "Voynich in lettere EVA non fuse (sensibilità)": {
+    "G": {
+     "differenza": 0.03284981484732774,
+     "vicino": true
+    },
+    "E90": {
+     "differenza": -0.4096000000000002,
+     "vicino": true
+    }
+   },
+   "Timm e Schinner (seme 1)": {
+    "G": {
+     "differenza": -0.0733313524839615,
+     "vicino": false
+    },
+    "E90": {
+     "differenza": 0.0,
+     "vicino": true
+    },
+    "D": {
+     "differenza": -0.07510499999999998,
+     "vicino": false
+    }
+   },
+   "Voynichizzatore v21 (libro d'esempio)": {
+    "G": {
+     "differenza": -0.038130185489592794,
+     "vicino": false
+    },
+    "E90": {
+     "differenza": -0.7168000000000001,
+     "vicino": true
+    },
+    "D": {
+     "differenza": -0.029643999999999934,
+     "vicino": false
+    }
+   },
+   "Naibbe": {
+    "G": {
+     "differenza": -0.0028311248442706716,
+     "vicino": true
+    },
+    "E90": {
+     "differenza": -0.6144000000000003,
+     "vicino": true
+    },
+    "D": {
+     "differenza": -0.09771999999999995,
+     "vicino": false
+    }
+   },
+   "Gibberish (Gaskell e Bowern)": {
+    "G": {
+     "differenza": -0.39416127304652193,
+     "vicino": false
+    },
+    "E90": {
+     "differenza": 3.5839999999999996,
+     "vicino": false
+    },
+    "D": {
+     "differenza": -0.11273399999999999,
+     "vicino": false
+    }
+   },
+   "Latin, cifrato con una sostituzione (controllo positivo)": {
+    "G": {
+     "differenza": -0.18215669801270246,
+     "vicino": false
+    },
+    "E90": {
+     "differenza": 9.830400000000001,
+     "vicino": false
+    }
+   },
+   "Latin, cifrato con Vigenère (periodo 7)": {
+    "G": {
+     "differenza": -0.27057765706867,
+     "vicino": false
+    },
+    "E90": {
+     "differenza": 14.643200000000002,
+     "vicino": false
+    },
+    "D": {
+     "differenza": 0.35883400000000015,
+     "vicino": false
+    }
+   }
+  },
+  "ds_lingue": {
+   "G": 0.0865401065191125,
+   "E90": 1.8577837091262097,
+   "D": 0.05753348066501434
+  }
+ }
+}
