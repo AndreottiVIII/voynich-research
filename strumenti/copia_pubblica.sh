@@ -6,6 +6,7 @@
 #   - autore e committente di ogni commit hanno l'indirizzo anonimo di GitHub (EMAIL_PUBBLICA); nomi e date restano
 #     quelli originali, quindi lo script è deterministico: rieseguito più avanti dà gli stessi hash per i commit già
 #     pubblicati e la copia si aggiorna senza riscrivere la storia;
+#   - i messaggi di commit passano da strumenti/pulisci_messaggio.sh (niente firme dell'assistente);
 #   - le note del revisore esterno e la nostra verifica punto per punto (ESCLUSI) non ci sono, in nessun commit
 #     (decisione di Davide del 9/10/2026);
 #   - i materiali di pubblicazione (white_paper/zenodo, white_paper/linkedin) non ci sono (decisione di Davide, 9/10).
@@ -36,6 +37,7 @@ export EMAIL_PUBBLICA MAPPA
 git filter-branch -f \
   --env-filter 'export GIT_AUTHOR_EMAIL="$EMAIL_PUBBLICA" GIT_COMMITTER_EMAIL="$EMAIL_PUBBLICA"' \
   --index-filter "git rm -r -q --cached --ignore-unmatch $ESCLUSI" \
+  --msg-filter "bash '$RADICE/strumenti/pulisci_messaggio.sh'" \
   --commit-filter 'n=$(git commit-tree "$@"); echo "$GIT_COMMIT $n" >> "$MAPPA"; echo "$n"' \
   -- main
 git update-ref -d refs/original/refs/heads/main
@@ -43,6 +45,7 @@ git reflog expire --expire=now --all
 git gc -q --prune=now --aggressive
 
 # controlli
+test -z "$(git log --all --format=%B | grep -i -E '^Co-Authored-By:.*noreply@anthropic' || true)" || { echo 'ERRORE: firme dell assistente nei messaggi'; exit 1; }
 test -z "$(git log --format='%ae%n%ce' | grep -v -x "$EMAIL_PUBBLICA" || true)" || { echo 'ERRORE: email non anonime'; exit 1; }
 for f in $ESCLUSI; do
   test -z "$(git log --all --format=%H -- "$f")" || { echo "ERRORE: $f ancora nella storia"; exit 1; }

@@ -37,7 +37,7 @@ for c in $nuovi; do
   testa=$(git cat-file commit "$c" | sed -n '1,/^$/p')
   autore=$(echo "$testa" | sed -n 's/^author //p')
   committente=$(echo "$testa" | sed -n 's/^committer //p')
-  nuovo=$(git cat-file commit "$c" | sed -e '1,/^$/d' | \
+  nuovo=$(git cat-file commit "$c" | sed -e '1,/^$/d' | bash "$RADICE/strumenti/pulisci_messaggio.sh" | \
     GIT_AUTHOR_NAME="$(echo "$autore" | sed 's/ <.*//')" GIT_AUTHOR_EMAIL="$EMAIL_PUBBLICA" \
     GIT_AUTHOR_DATE="@$(echo "$autore" | sed 's/.*> //')" \
     GIT_COMMITTER_NAME="$(echo "$committente" | sed 's/ <.*//')" GIT_COMMITTER_EMAIL="$EMAIL_PUBBLICA" \
@@ -56,6 +56,7 @@ git reset -q --hard main
 # controlli, come nella copia completa
 test -z "$(git for-each-ref --format='%(refname)' | grep -v -x -E 'refs/heads/main|refs/remotes/origin/(main|HEAD)' || true)" || { echo 'ERRORE: riferimenti oltre main'; exit 1; }
 test -z "$(git log --all --format='%ae%n%ce' | grep -v -x "$EMAIL_PUBBLICA" || true)" || { echo 'ERRORE: email non anonime'; exit 1; }
+test -z "$(git log --all --format=%B | grep -i -E '^Co-Authored-By:.*noreply@anthropic' || true)" || { echo 'ERRORE: firme dell assistente nei messaggi'; exit 1; }
 test -z "$(git rev-list --objects --all | grep -E '(note_revisore_v1_(EN|IT)\.md|VERIFICA_NOTE_REVISORE\.md|white_paper/(zenodo|linkedin))' || true)" || { echo 'ERRORE: file esclusi presenti'; exit 1; }
 test "$(git fsck --unreachable --no-reflogs 2>/dev/null | wc -l)" = 0 || { echo 'ERRORE: oggetti della storia privata rimasti'; exit 1; }
 test -z "$(git cat-file --batch-all-objects --batch-check='%(objecttype) %(objectname)' | awk '$1 == "commit" {print $2}' | \
