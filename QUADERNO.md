@@ -16373,3 +16373,76 @@ esito con e3c94b.
   controlla se il trascrittore ha messo il salto del disegno nel posto giusto.
 - **Per il paper:** nel §3 la frase "senza guardare le immagini non sappiamo se è scrittura o trascrizione" diventa un
   risultato; nei Limiti si dice che un controllo a campione sulle immagini c'è stato, su due punti.
+
+## 17/11/2026 (pomeriggio) — e3c95: un modello minuscolo impara il Voynich in fretta e senza niente da memorizzare, come i suoi generatori; non come le lingue né come i cifrati
+
+Preregistrato (`preregistrazioni/e3c95.md`, commit 65e05aa; codice 4c114ae). Idea di Davide del 17/11: lo stesso
+modello linguistico minuscolo addestrato da zero su ogni testo. GRU a caratteri di 128 unità (circa 67.000 parametri);
+per testo e seme 40.000 segni di addestramento, 5.000 di validazione e 10.000 di prova, in blocchi diversi. Il punto
+di arresto si sceglie sulla validazione, le misure si leggono sulla prova. 67 testi × 10 semi = 670 corse, 79 minuti
+con 10 processi, nessuna arrivata al massimo dei passi. Ambiente `dati/cache/.venv_lm` (torch 2.15.0+cpu).
+
+- **Controlli, riusciti:**
+  - C+: latino cifrato con una sostituzione meno latino in chiaro, −0,0016 bit per segno (soglia 0,02). Il modello
+    non vede la sostituzione;
+  - C−: Voynich con i segni rimescolati, G 0,048, sotto la lingua più bassa (0,226) e 0,45 sotto il Voynich (ds dei
+    semi 0,002 e 0,021).
+- **Lettura 1, il Voynich fra le 20 lingue:**
+  - **G** (quanto aiuta il contesto): Voynich 0,498 (ds 0,021), dentro l'intervallo delle lingue [0,226; 0,565], con
+    il 95% delle lingue sotto (sopra c'è solo il cinese in pinyin); A 0,461 (75%), B 0,524 (95%);
+  - **E90** (letture del testo per avere il 90% del guadagno): Voynich 3,8, **sotto tutte le lingue** (8,7–17,7);
+    A 4,1, B 3,2;
+  - **D** (quanto costa rimescolare le parole nella riga): Voynich +0,104 bit (ds 0,015), dentro [−0,002; 0,209], 85%
+    delle lingue sotto; A +0,099, B +0,117; D relativo 0,053.
+- **Lettura 2, trasferimento:** A→B 0,447, B→A 0,402. Dentro l'intervallo delle 16 direzioni delle lingue
+  [0,377; 8,454], nella parte bassa: come latino tecnico↔letterario (0,43) e latino abbreviato (0,38). L'arabo
+  (Avicenna↔Corano, 6,6–8,5) allarga molto l'intervallo.
+- **Lettura 3, profilo (G, E90, D):**
+  - testi più vicini al Voynich intero: voynichizzatore v21 (distanza 0,78), Timm e Schinner (1,56), Naibbe (1,73);
+    poi la prima lingua, il cinese in pinyin (3,27);
+  - per A e B lo stesso ordine;
+  - la classe più vicina è quella dei **generatori**.
+- **Lettura 4, generatori e cifrati rispetto al Voynich** ("vicino" = entro un decimo dell'intervallo delle lingue):
+  - E90 vicino per tutti e tre i generatori in EVA;
+  - G vicino per Naibbe (−0,003); v21 appena fuori (−0,038, soglia 0,034); Timm e Schinner −0,073;
+  - **D non vicino per nessuno:** Timm e Schinner −0,075, v21 −0,030 (soglia 0,021), Naibbe −0,098. Il Voynich
+    dipende dall'ordine delle parole più di tutti i generatori; il v21 è il più vicino;
+  - gibberish lontano su tutte e tre (G 0,104, E90 7,4, D −0,009);
+  - Vigenère lontano (G 0,227, E90 18,4, D +0,463: la posizione nella chiave dipende da tutto il testo prima).
+- **Lettura 5, sensibilità:** in lettere EVA non fuse G 0,531, stessa posizione (95% delle lingue sotto) ed E90 3,4.
+  La lettura non dipende dalla fusione dei glifi.
+- **In più, descrittivo (non preregistrato come criterio):**
+  - **scarto** fra prova e addestramento nel punto scelto (quanto il modello ha imparato a memoria): Voynich 0,013,
+    **sotto tutte le lingue** (0,139–0,645); v21 0,060, Naibbe 0,051, Timm e Schinner 0,178;
+  - **lingue con G simile al Voynich:** tagalog 0,496, tedesco 0,485, maori 0,485, fiammingo 0,478; hanno E90 fra 12,4
+    e 15,2, cioè 3–4 volte più lento. Un E90 basso da solo non basta: è basso anche nei testi con poco da imparare
+    (controllo negativo 3,9, gibberish 7,4). Conta la coppia G alto con E90 basso;
+  - G e numero di segni dell'alfabeto, fra le lingue: Spearman −0,06.
+- **Lettura attesa e risultati:**
+  - G alto ed E90 piccolo: come atteso;
+  - D nelle lingue **non** è vicino a zero, come avevo scritto guardando solo il latino: i due latini (circa 0) sono
+    l'eccezione, la mediana è circa 0,06;
+  - T fra A e B: atteso più grande che fra generi della stessa lingua, invece è nella parte bassa.
+- **Che cosa vuol dire:**
+  - nel Voynich c'è circa tanta struttura prevedibile, segno per segno, quanta nelle lingue più regolari. Il modello
+    però la prende in 3–4 letture e poi non trova più niente da imparare a memoria: quello che si impara è un insieme
+    compatto di regole, uguale in addestramento e in prova;
+  - nelle lingue con G simile, dopo le regole vengono le parole: una coda lunga che il modello memorizza (scarto) e che
+    chiede 12–15 letture;
+  - è il comportamento dei testi fatti dai generatori costruiti per imitarlo. Due di loro portano un messaggio: Naibbe
+    (un testo latino) e il v21 (un messaggio cifrato). Una sostituzione semplice resta con la sua lingua; un Vigenère
+    si allontana ancora di più;
+  - **non dice se il Voynich ha un significato**: Naibbe e v21 lo hanno e si imparano allo stesso modo. È coerente con
+    la conclusione del paper;
+  - quello che resta diverso dai generatori è D: l'ordine delle parole conta più che in tutti loro.
+- **Limiti:**
+  - un'architettura e una dimensione sole; 40.000 segni per testo;
+  - una sola trascrizione (ZL), con e senza fusione dei glifi;
+  - E90 ha una risoluzione di circa 0,9 letture;
+  - i testi moderni delle lingue sono quasi tutti Nuovi Testamenti;
+  - i generatori sono costruiti sulle statistiche del Voynich, quindi la loro vicinanza è in parte voluta;
+  - il profilo pesa uguale tre misure, e la distanza è dominata da E90.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione. Lo scarto e il confronto con le lingue di G simile
+  sono letture aggiunte della tabella, dichiarate qui come tali.
+- **Per il paper:** è una misura indipendente che va nella stessa direzione del §9. Se e dove metterla lo decide
+  Davide.
