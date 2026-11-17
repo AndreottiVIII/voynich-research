@@ -42,6 +42,17 @@ come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
   privato; la copia si fa con `strumenti/copia_pubblica.sh` (email anonima; esclusi da tutta la storia: note del
   revisore, `VERIFICA_NOTE_REVISORE.md`, `white_paper/zenodo`, `white_paper/linkedin`) in `../voynich-pubblico`; è
   deterministica, quindi si aggiorna senza riscrivere la storia pubblicata.
+  - 17/11: messaggi di commit della copia senza firme dell'assistente (`strumenti/pulisci_messaggio.sh`); storia
+    pubblica sostituita una volta (decisione di Davide). Aggiornamenti normali con
+    `strumenti/copia_pubblica_aggiorna.sh`, poi push da `../voynich-pubblico`.
+  - Il repo del voynichizzatore (sito) resta com'è: il paper cita il suo commit 4b1383c (Davide, 17/11: "non toccare
+    cose vecchie").
+- **17/11, e3c95 (imparabilità, idea di Davide):** un GRU minuscolo addestrato da zero su ogni testo.
+  - Il Voynich ha G (struttura prevedibile) alto ma dentro le lingue; la impara 3–4 volte più in fretta delle lingue
+    con G simile, e senza quasi niente da memorizzare, come i generatori che lo imitano (v21, Timm e Schinner,
+    Naibbe).
+  - Non dice nulla sul significato.
+  - Ambiente PyTorch a parte in `dati/cache/.venv_lm`. Per il paper decide Davide.
 - **Materiali di pubblicazione fuori dal repo** (decisione di Davide): scheda Zenodo, articolo LinkedIn e PDF da
   caricare in `C:\Users\davide\voynich_pubblicazione\`, consegnati a Davide il 9/10.
 - **Dopo:** DOI di Zenodo nella prima pagina del PDF (se Davide lo prenota); avvisare la chat del sito (nuovo PDF, titolo,
