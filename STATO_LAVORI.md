@@ -8,6 +8,15 @@ La ricerca ha esaurito i suoi numeri (e307–e399). Gli esperimenti dal 400 in s
 Davide, 4/10 notte). **Dal 4/10 la ricerca usa la serie e3a01, e3a02, … e3a99, poi e3b01, …** (esegui.py la accetta,
 come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
 
+## Paper "Voynich e IA" (18/11) — nuovo filone
+
+- Decisione di Davide del 18/11: nuovo paper su Voynich e IA; tema preciso ancora aperto. Diario a parte:
+  `paper_ia/DIARIO.md` (decisioni, piano, stato semplice degli esperimenti).
+- Esperimenti in preparazione: e3c96 giudice neurale, e3c97 parole mai viste, e3c98 quanto contesto serve, e3c99
+  cervello di una lingua, e3d01 reti più grandi, e3d02 traduzioni dei grandi modelli, e3d03 Voynich ricreato da
+  un'IA locale (idea di Davide, con e senza messaggio).
+- **Azione per Davide:** accesso del programma `claude` da riga di comando (serve all'e3d02).
+
 ## White paper v2 (8/10) — LEGGERE PRIMA
 
 - **Revisione esterna** della v1 ricevuta e verificata: `white_paper/revisione/` (note del revisore, verifica punto per
