@@ -27,7 +27,11 @@ PROVENIENZA = os.path.join(RISULTATI, 'provenienza')
 # variabili d'ambiente che cambiano che cosa fa un esperimento: si registrano nella provenienza
 VARIABILI = ('LINGUE_SOLO', 'PROCESSI', 'RIPARTENZE', 'RIPRENDI', 'NAIBBE', 'BIBLE_CORPUS', 'LATIN_LIBRARY',
              'SEMI', 'TESTI', 'PASSI', 'RETI', 'SEMI_GRANDI', 'AVVIO', 'LR_AD', 'PASSI_AD', 'PAZIENZA_AD',
-             'MODELLI', 'RIPETIZIONI', 'SAFE_MODE', 'SOGLIE')
+             'MODELLI', 'RIPETIZIONI', 'SAFE_MODE', 'SOGLIE', 'CHIAVI', 'CHIAVI_MSG', 'FRAZIONI', 'NEG', 'SEMI_B',
+             'OGNI', 'PAZIENZA', 'NASCOSTO', 'CADUTA', 'PASSI_B', 'PAZIENZA_B', 'NASC_B', 'LUNG_B', 'LUNG', 'LOTTO',
+             'FILTRO', 'SOLO_CONTROLLI', 'PAGINE', 'RIGHE_PAGINA', 'CERVELLI', 'CAS_AVVIO_SU', 'MIN_VALUTABILI',
+             'TG_ALTO', 'MARGINE_TG', 'SOGLIA_NEG', 'PROVA', 'PROVA_RIP', 'NUOVA', 'ACCETTA_LACUNE',
+             'VERIFICA_AMMESSE', 'LIMITE_MAX_ORE', 'PROVA_SPECIALI', 'THREAD', 'FASI')
 
 
 def ambiente():

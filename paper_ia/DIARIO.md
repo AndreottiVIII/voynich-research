@@ -34,13 +34,13 @@ in fondo si allunga solo in coda; il piano e lo stato si aggiornano.
 
 | codice | nome semplice | domanda | stato |
 |---|---|---|---|
-| IA1 (ia01) | Giudice neurale | Una rete neurale separa le pagine del v21 dalle vere meglio dei giudici del paper? Trova il messaggio? | preparato, in revisione |
-| IA2 (ia02) | Parole mai viste | Quanto costa alla rete una parola mai vista rispetto a una già vista? Nelle lingue molto; in un testo fatto di regole poco | preparato, in revisione |
-| IA3 (ia03) | Quanto contesto serve | Quanti segni indietro deve guardare la rete prima di smettere di migliorare? Guadagna dalla riga sopra? | preparato, in revisione |
-| IA4 (ia04) | Il cervello di una lingua | Una rete addestrata su una lingua, a cui si lascia imparare solo l'alfabeto nuovo, riconosce un cifrato lettera per lettera di quella lingua? E sul Voynich, qualche lingua aiuta? | preparato, in revisione |
-| IA5 (ia05) | Reti più grandi | Le letture di e3c95 reggono con reti più grandi e con un piccolo transformer? | preparato, in revisione |
-| IA6 (ia06) | Le traduzioni dei grandi modelli | Haiku, Sonnet e Opus "traducono" il Voynich e pagine di controllo: le traduzioni dipendono dal testo? | preparato, in revisione (serve l'accesso del programma `claude` e una prova vera per le soglie) |
-| IA7 (ia07) | Il Voynich ricreato da un'IA locale | Una rete addestrata sul Voynich scrive un libro intero: quanto è vicino al vero rispetto al v21? E può nascondere un messaggio? | preparato, in revisione |
+| IA1 (ia01) | Giudice neurale | Una rete neurale separa le pagine del v21 dalle vere meglio dei giudici del paper? Trova il messaggio? | pronto, rivisto e corretto |
+| IA2 (ia02) | Parole mai viste | Quanto costa alla rete una parola mai vista rispetto a una già vista? Nelle lingue molto; in un testo fatto di regole poco | pronto, rivisto e corretto |
+| IA3 (ia03) | Quanto contesto serve | Quanti segni indietro deve guardare la rete prima di smettere di migliorare? Guadagna dalla riga sopra? | pronto, rivisto e corretto |
+| IA4 (ia04) | Il cervello di una lingua | Una rete addestrata su una lingua, a cui si lascia imparare solo l'alfabeto nuovo, riconosce un cifrato lettera per lettera di quella lingua? E sul Voynich, qualche lingua aiuta? | pronto, rivisto e corretto |
+| IA5 (ia05) | Reti più grandi | Le letture di e3c95 reggono con reti più grandi e con un piccolo transformer? | pronto, rivisto e corretto |
+| IA6 (ia06) | Le traduzioni dei grandi modelli | Haiku, Sonnet e Opus "traducono" il Voynich e pagine di controllo: le traduzioni dipendono dal testo? | pronto, rivisto e corretto (serve l'accesso del programma `claude` e una prova vera di 48 chiamate per le soglie) |
+| IA7 (ia07) | Il Voynich ricreato da un'IA locale | Una rete addestrata sul Voynich scrive un libro intero: quanto è vicino al vero rispetto al v21? E può nascondere un messaggio? | pronto, rivisto e corretto |
 
 ## Registro
 
@@ -67,3 +67,23 @@ in fondo si allunga solo in coda; il piano e lo stato si aggiornano.
   - IA7: GRU 2×256 condizionata da sezione, mano, lingua, tipo e lunghezza di riga; capacità del messaggio circa
     591.000 bit per libro sul latino (v21 circa 83.000).
 - Revisione indipendente in corso (tre revisori, solo lettura).
+- Revisione indipendente (tre revisori, solo lettura) e correzioni degli autori, tutte dichiarate nelle
+  preregistrazioni:
+  - IA1: l'AUC del giudice "lettore" metteva insieme i punteggi di 5 reti diverse e si gonfiava (0,649 complessiva
+    contro 0,560 per piega sul libro di prova): ora media per piega; controllo negativo del messaggio riparato; semi
+    distinti per insieme; si ferma se manca un libro.
+  - IA2: secondo controllo "solo regole" più duro (prefisso + corpo + suffisso): R_rel 0,99, riuscito.
+  - IA3: α e θ della cache scelti per ogni k sulla validazione; GR sulle sole posizioni tagliate.
+  - IA4: controllo positivo solo sui 14 cifrati dello stesso testo; cancello contro i generatori ("il metodo non
+    distingue" se anche un generatore sembra una lingua); eco delle frequenze misurata a parte; famiglie di lingue
+    fissate; sonda con omofoni e digrafi: il metodo non li tollera (TG 0,30), quindi vale solo per la sostituzione
+    semplice segno per segno.
+  - IA5: confronti sui semi comuni; soglia C+ 0,03 motivata e senza modifiche da ambiente.
+  - IA6: riservatezza rafforzata (sempre senza personalizzazioni, cartella pubblica vuota, verifica di nove voci,
+    nessun percorso personale nei risultati); soglie da fissare con una prova vera di 48 chiamate prima del commit;
+    riferimento del messaggio dallo stesso libro di Isidoro; attesa automatica se finisce il limite d'uso.
+  - IA7: libro vetrina e immagini solo in `dati/cache/ia07_vetrina/` con controllo di copia nei risultati; due serie
+    di modelli; difetto trovato nella prova (il classificatore riconosceva la serie) corretto togliendo la media per
+    serie; letture "non valide" se cade il controllo da cui dipendono.
+- Nota per il quaderno: la griglia di E90 in e3c95 è di 1,024 letture, non 0,9 come scritto nella voce del 17/11
+  (non cambia le conclusioni); da dichiarare nella prossima voce.
