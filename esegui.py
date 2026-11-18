@@ -45,11 +45,16 @@ def ambiente():
 
 
 def trova(nome):
-    codice = nome.lower().lstrip('e').zfill(2)
-    trovati = glob.glob(os.path.join(ESPERIMENTI, 'e%s_*.py' % codice))
+    nome = nome.lower()
+    if nome.startswith('ia'):
+        # serie del paper "Voynich e IA" (dal 18/11/2026): ia01, ia02, ...
+        codice = nome
+    else:
+        codice = 'e' + nome.lstrip('e').zfill(2)
+    trovati = glob.glob(os.path.join(ESPERIMENTI, '%s_*.py' % codice))
     if len(trovati) != 1:
         sys.exit('esperimento %s: trovati %d file' % (nome, len(trovati)))
-    return 'e' + codice, trovati[0]
+    return codice, trovati[0]
 
 
 def a_lf(dopo, codice):

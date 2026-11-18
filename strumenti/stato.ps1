@@ -14,10 +14,10 @@ while ($true) {
     $esperimenti = @{}
     foreach ($p in $procs) {
         $nome = $null
-        if ($p.CommandLine -match 'esperimenti[\\/](e\d+[a-z]?)_') { $nome = $Matches[1] }
+        if ($p.CommandLine -match 'esperimenti[\\/]((?:e|ia)\w+?)_') { $nome = $Matches[1] }
         elseif ($p.CommandLine -match 'multiprocessing' -and $perId.ContainsKey([int]$p.ParentProcessId)) {
             $par = $perId[[int]$p.ParentProcessId].CommandLine
-            if ($par -match 'esperimenti[\\/](e\d+[a-z]?)_') { $nome = $Matches[1] }
+            if ($par -match 'esperimenti[\\/]((?:e|ia)\w+?)_') { $nome = $Matches[1] }
         }
         if ($nome) {
             $cpu = 0
@@ -42,7 +42,7 @@ while ($true) {
     Write-Host ''
     $avviati = @()
     if (Test-Path $STATO) {
-        foreach ($riga in (Get-Content $STATO)) { if ($riga -match 'avvio (e\w+)') { $avviati += $Matches[1] } }
+        foreach ($riga in (Get-Content $STATO)) { if ($riga -match 'avvio ((?:e|ia)\w+)') { $avviati += $Matches[1] } }
     }
     $attesa = @()
     if (Test-Path $CODA) {

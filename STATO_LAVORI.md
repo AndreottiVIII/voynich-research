@@ -12,10 +12,11 @@ come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
 
 - Decisione di Davide del 18/11: nuovo paper su Voynich e IA; tema preciso ancora aperto. Diario a parte:
   `paper_ia/DIARIO.md` (decisioni, piano, stato semplice degli esperimenti).
-- Esperimenti in preparazione: e3c96 giudice neurale, e3c97 parole mai viste, e3c98 quanto contesto serve, e3c99
-  cervello di una lingua, e3d01 reti più grandi, e3d02 traduzioni dei grandi modelli, e3d03 Voynich ricreato da
-  un'IA locale (idea di Davide, con e senza messaggio).
-- **Azione per Davide:** accesso del programma `claude` da riga di comando (serve all'e3d02).
+- Esperimenti in preparazione, numerati da 1 (Davide): IA1 giudice neurale, IA2 parole mai viste, IA3 quanto
+  contesto serve, IA4 cervello di una lingua, IA5 reti più grandi, IA6 traduzioni dei grandi modelli, IA7 Voynich
+  ricreato da un'IA locale (idea di Davide, con e senza messaggio). Codici `ia01`–`ia07`. Non si lanciano finché
+  Davide non decide.
+- **Azione per Davide:** accesso del programma `claude` da riga di comando (serve all'IA6).
 
 ## White paper v2 (8/10) — LEGGERE PRIMA
 
