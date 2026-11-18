@@ -25,7 +25,9 @@ ESPERIMENTI = os.path.join(QUI, 'esperimenti')
 RISULTATI = os.path.join(QUI, 'risultati')
 PROVENIENZA = os.path.join(RISULTATI, 'provenienza')
 # variabili d'ambiente che cambiano che cosa fa un esperimento: si registrano nella provenienza
-VARIABILI = ('LINGUE_SOLO', 'PROCESSI', 'RIPARTENZE', 'RIPRENDI', 'NAIBBE', 'BIBLE_CORPUS', 'LATIN_LIBRARY')
+VARIABILI = ('LINGUE_SOLO', 'PROCESSI', 'RIPARTENZE', 'RIPRENDI', 'NAIBBE', 'BIBLE_CORPUS', 'LATIN_LIBRARY',
+             'SEMI', 'TESTI', 'PASSI', 'RETI', 'SEMI_GRANDI', 'AVVIO', 'LR_AD', 'PASSI_AD', 'PAZIENZA_AD',
+             'MODELLI', 'RIPETIZIONI', 'SAFE_MODE', 'SOGLIE')
 
 
 def ambiente():

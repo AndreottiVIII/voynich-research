@@ -34,13 +34,13 @@ in fondo si allunga solo in coda; il piano e lo stato si aggiornano.
 
 | codice | nome semplice | domanda | stato |
 |---|---|---|---|
-| IA1 (ia01) | Giudice neurale | Una rete neurale separa le pagine del v21 dalle vere meglio dei giudici del paper? Trova il messaggio? | in preparazione |
-| IA2 (ia02) | Parole mai viste | Quanto costa alla rete una parola mai vista rispetto a una già vista? Nelle lingue molto; in un testo fatto di regole poco | in preparazione |
-| IA3 (ia03) | Quanto contesto serve | Quanti segni indietro deve guardare la rete prima di smettere di migliorare? Guadagna dalla riga sopra? | in preparazione |
-| IA4 (ia04) | Il cervello di una lingua | Una rete addestrata su una lingua, a cui si lascia imparare solo l'alfabeto nuovo, riconosce un cifrato lettera per lettera di quella lingua? E sul Voynich, qualche lingua aiuta? | in preparazione |
-| IA5 (ia05) | Reti più grandi | Le letture di e3c95 reggono con reti più grandi e con un piccolo transformer? | in preparazione |
-| IA6 (ia06) | Le traduzioni dei grandi modelli | Haiku, Sonnet e Opus "traducono" il Voynich e pagine di controllo: le traduzioni dipendono dal testo? | in preparazione (serve l'accesso del programma `claude`) |
-| IA7 (ia07) | Il Voynich ricreato da un'IA locale | Una rete addestrata sul Voynich scrive un libro intero: quanto è vicino al vero rispetto al v21? E può nascondere un messaggio? | in preparazione |
+| IA1 (ia01) | Giudice neurale | Una rete neurale separa le pagine del v21 dalle vere meglio dei giudici del paper? Trova il messaggio? | preparato, in revisione |
+| IA2 (ia02) | Parole mai viste | Quanto costa alla rete una parola mai vista rispetto a una già vista? Nelle lingue molto; in un testo fatto di regole poco | preparato, in revisione |
+| IA3 (ia03) | Quanto contesto serve | Quanti segni indietro deve guardare la rete prima di smettere di migliorare? Guadagna dalla riga sopra? | preparato, in revisione |
+| IA4 (ia04) | Il cervello di una lingua | Una rete addestrata su una lingua, a cui si lascia imparare solo l'alfabeto nuovo, riconosce un cifrato lettera per lettera di quella lingua? E sul Voynich, qualche lingua aiuta? | preparato, in revisione |
+| IA5 (ia05) | Reti più grandi | Le letture di e3c95 reggono con reti più grandi e con un piccolo transformer? | preparato, in revisione |
+| IA6 (ia06) | Le traduzioni dei grandi modelli | Haiku, Sonnet e Opus "traducono" il Voynich e pagine di controllo: le traduzioni dipendono dal testo? | preparato, in revisione (serve l'accesso del programma `claude` e una prova vera per le soglie) |
+| IA7 (ia07) | Il Voynich ricreato da un'IA locale | Una rete addestrata sul Voynich scrive un libro intero: quanto è vicino al vero rispetto al v21? E può nascondere un messaggio? | preparato, in revisione |
 
 ## Registro
 
@@ -52,3 +52,18 @@ in fondo si allunga solo in coda; il piano e lo stato si aggiornano.
   progetto) c'è, ma non ha l'accesso fatto: serve un passo di Davide.
 - Numerazione cambiata in IA1–IA7 (`ia01`–`ia07`); `esegui.py` e la finestra di stato accettano i codici `ia`.
 - Davide: preparare tutto e avvisare, senza lanciare.
+- Tutti e sette preparati (preregistrazione e codice, prove solo su controlli e testi non Voynich), non committati né
+  lanciati. Cambi rispetto al piano, decisi dagli agenti o dal coordinatore e dichiarati nelle preregistrazioni:
+  - IA2: misura principale R_rel = R / R_tri (rapporto con un modello a trigrammi che non può imparare parole
+    intere), perché anche il controllo "solo regole" ha R 1,3; 20.000 parole inventate invece di 2.000.
+  - IA3: la sola GRU non usa il contesto oltre 12–24 segni e non copia nemmeno una riga ripetuta, quindi la misura
+    non distingueva niente. Aggiunta la cache neurale (Grave e altri 2017, forma a normalizzazione globale): ora copia
+    la riga ripetuta (GR 1,38) e le ripetizioni a 170 segni (GL 1,30). Letture sulla variante con cache; 10 semi.
+  - IA4: avvio per frequenza (ogni segno nuovo parte dal segno della lingua con lo stesso rango); 18 cifrati invece
+    di 20 (maya e cinese in pinyin senza testo nuovo sufficiente).
+  - IA5: semi 1–5 per le reti piccole, 1–3 per le grandi; soglia del controllo positivo 0,03 invece di 0,02.
+  - IA6: 3 ripetizioni invece di 4 (tetto di 1.000 chiamate); avvio dei modelli in modalità senza istruzioni
+    personali (`--safe-mode`).
+  - IA7: GRU 2×256 condizionata da sezione, mano, lingua, tipo e lunghezza di riga; capacità del messaggio circa
+    591.000 bit per libro sul latino (v21 circa 83.000).
+- Revisione indipendente in corso (tre revisori, solo lettura).
