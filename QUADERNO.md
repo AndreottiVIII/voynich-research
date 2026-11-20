@@ -16793,3 +16793,43 @@ decisione di Davide, prima di ogni corsa). Idea di Davide del 18/11. Corsa: coda
   0,997: probabile sovradattamento senza validazione) e non vale come prova.
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione (8 processi invece di 10). Il collegamento fra G9 e l'eco di
   ia09 è una lettura aggiunta.
+
+## 20/11/2026 (pomeriggio) — ia11 (IA11): la prova del nove non riesce. Ritoccare il v21 con eco e ordine delle famiglie lo rende più riconoscibile, non meno (giudice A 0,806, K 0,803, paper in salita); lettura "non leggibile" perché la manipolazione non riesce
+
+Preregistrato (`preregistrazioni/ia11.md`, commit cda82e6; codice e83fa64 con `rifarlo_ritocchi.py` e `rifarlo_giudici.py`).
+Corsa: coda `ia_C`, 6 processi, insieme a ia07, ia04 e ia05, 35 minuti, uscita 0. Risultati in
+`risultati/ia11_rifarlo.{md,json}` e `risultati/ia11_corse.jsonl` (solo numeri e nomi di pagina); testi ritoccati in
+`dati/cache/ia11/`.
+
+- **Domanda:** se si aggiunge ai libri v21 senza messaggio (b13–b22) ciò che ia08–ia10 dicono che manca (V1 eco della pagina,
+  V2 ordine delle famiglie, V3 entrambe, V4 + forma delle parole nuove), i giudici smettono di riconoscerlo?
+- **Validità:** riproduzione di ia01 esatta (V0a 0,7512; modelli e profili identici); V0 entro 0,001 da V0a; controlli del
+  giudice A (0,985; 0,957; negativo 0,506) e del giudice indipendente K (n-grammi con memoria di pagina: 0,982; 0,935;
+  negativo 0,509) superati; K vede V0 (0,757).
+- **Giudice A:** V0 0,750; V1 0,774; V2 0,786; **V3 0,806**; V4 0,795; N1 (ritocco a caso della stessa entità) 0,868. Tutte le
+  varianti **salgono**: la "discesa" di V3 è −0,056 (quota dell'eccesso −22%).
+- **Giudice K:** V0 0,757; V1 0,787; V2 0,779; **V3 0,803**; V4 0,853; N1 0,853. Stessa direzione.
+- **Giudici del paper:** V0 0,579 e 0,622; V3 0,657 e 0,692 (salita 0,08 e 0,07, oltre la soglia +0,03); V1 è l'unica entro la
+  soglia (+0,029 e +0,027).
+- **Pagine vere ritoccate (VR):** A 0,582, K 0,558 (soglia ≤ 0,60: riuscito): il ritocco lascia un'impronta piccola ma
+  visibile.
+- **Verifica di manipolazione: non riuscita per nessuna variante.**
+  - Eco (V1): la quantità torna (copia netta 0,114 contro 0,106 delle vere), ma **non la località** (Λ 0,08 contro 0,23):
+    l'eco aggiunta pesca da tutta la pagina, non dalle righe vicine.
+  - Ordine (V2): D con le stesse famiglie sale a metà strada (0,086 contro 0,107; frazione 0,51), ma con le famiglie di un
+    altro seme quasi niente (0,11): l'ordine imposto segue quelle famiglie, non un ordine generale. E **rompe il contatto**
+    ultimo → primo glifo (0,137 contro 0,185 di V0; vere 0,188), che il v21 aveva giusto.
+  - V3 somma i due difetti (contatto 0,129); V4 corregge la forma solo per un terzo e riduce le parole nuove (11,9%).
+- **Lettura principale (V3): "non leggibile"** come scritto prima (manipolazione non riuscita), e comunque nel verso opposto
+  alla discesa cercata.
+- **Confronto con la lettura attesa:** si attendeva una discesa di A, forse non confermata da K. Invece salgono tutti, e il
+  ritocco a caso (N1) sale ancora di più: ogni ritocco fatto dopo, sopra il testo, si vede.
+- **In parole semplici:** i tre strati della "sintassi" non si possono aggiungere uno sopra l'altro a un testo già scritto.
+  L'eco va presa dalle righe vicine, l'ordine delle famiglie va rispettato senza rompere il contatto fra le parole, e
+  tutto insieme deve nascere mentre il testo si scrive. Ritoccando dopo si guasta quello che il v21 aveva già giusto.
+- **Cosa resta utile:** tre vincoli precisi per un generatore futuro: eco locale (non di pagina), ordine fra parole che non
+  rompa il contatto ultimo → primo glifo, forma delle parole nuove; e la prova che i giudici A e K concordano (stesso verso
+  su tutte le varianti).
+- **Limiti:** ritocchi fatti dopo la generazione, non dentro il generatore; taratura su quantità (copia netta, D) e non su
+  località e contatto; un solo giudice indipendente, anch'esso "a sorpresa".
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione (6 processi invece di 10).

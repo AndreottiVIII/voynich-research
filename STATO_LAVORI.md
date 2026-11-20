@@ -37,8 +37,11 @@ come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
 - 20/11: **IA7 fatto.** Il Voynich della rete è più lontano dal vero del v21 per i giudici del paper (0,79 e 0,86: pagine
   "medie", senza vocabolario proprio), più vicino per il giudice A (0,675 contro 0,746, non conclusivo: giudice amico);
   messaggio quattro volte più grande del v21, nessuna traccia, nessuna copia. Vetrina: 0 righe copiate, 4 pagine in
-  immagine in `dati/cache/ia07_vetrina/pagine/` (pubblicazione da decidere con Davide). In corso: IA4 (priorità minima),
-  IA5, IA11; in preparazione IA12–IA15.
+  immagine in `dati/cache/ia07_vetrina/pagine/` (pubblicazione da decidere con Davide).
+- 20/11: **IA11 fatto: la prova del nove non riesce.** I ritocchi al v21 (eco, ordine delle famiglie) lo rendono più
+  riconoscibile (A 0,806, K 0,803, paper in salita); manipolazione non riuscita (eco non locale, ordine che rompe il
+  contatto fra parole): "non leggibile". I tre strati vanno costruiti dentro il generatore, non aggiunti dopo.
+  In corso: IA4 (di nuovo a priorità normale dalle 16:05), IA5; in preparazione IA12–IA15.
 - 20/11: **IA6 in standby** finché Davide non fa l'accesso (si fa solo al PC). IA4, IA5, IA7 in corso dalle 13:30.
 - **Azione per Davide:** accesso del programma `claude` da riga di comando (`strumenti/Accesso claude.bat`, serve
   all'IA6).
