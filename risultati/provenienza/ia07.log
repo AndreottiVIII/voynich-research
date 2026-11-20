@@ -1,0 +1,116 @@
+libro vero: 4130 righe, 207 pagine, 34863 parole, 31 segni (Voynich), fasce di lunghezza [23, 32, 40, 46, 52, 58, 64], riga massima 157
+pieghe: [20, 20, 20, 20, 20] fogli
+[1/20 1.8 min] lmA|1|0: {'bpc_validazione': 1.94958, 'passi': 1440, 'bpc_vere_fuori': 2.062656879425049} (96 s)
+[2/20 2.0 min] lmA|2|1: {'bpc_validazione': 1.95922, 'passi': 1420, 'bpc_vere_fuori': 2.0959651470184326} (112 s)
+[3/20 2.1 min] lmA|1|2: {'bpc_validazione': 1.89462, 'passi': 1620, 'bpc_vere_fuori': 2.0724475383758545} (115 s)
+[4/20 2.3 min] lmA|2|0: {'bpc_validazione': 2.00668, 'passi': 1240, 'bpc_vere_fuori': 2.0518035888671875} (130 s)
+[5/20 2.5 min] lmA|2|2: {'bpc_validazione': 2.03284, 'passi': 1880, 'bpc_vere_fuori': 2.0756967067718506} (143 s)
+[6/20 2.8 min] lmA|1|3: {'bpc_validazione': 1.9928, 'passi': 1720, 'bpc_vere_fuori': 2.028531789779663} (159 s)
+[7/20 3.1 min] lmA|1|4: {'bpc_validazione': 1.86466, 'passi': 1480, 'bpc_vere_fuori': 1.9455276727676392} (178 s)
+[8/20 3.8 min] lmA|2|3: {'bpc_validazione': 1.97893, 'passi': 1740, 'bpc_vere_fuori': 2.0364153385162354} (124 s)
+[9/20 3.8 min] lmA|1|1: {'bpc_validazione': 1.85046, 'passi': 1240, 'bpc_vere_fuori': 2.099076509475708} (220 s)
+[10/20 6.7 min] lmA|2|4: {'bpc_validazione': 1.96663, 'passi': 1740, 'bpc_vere_fuori': 1.9507843255996704} (282 s)
+  piega 0, epoca 10: validazione 1.9033 (migliore 1.9033), 670 s
+  piega 0, epoca 10: validazione 1.9061 (migliore 1.9061), 806 s
+  piega 1, epoca 10: validazione 1.9905 (migliore 1.9703), 799 s
+  piega 4, epoca 10: validazione 2.2530 (migliore 2.1952), 780 s
+  piega 3, epoca 10: validazione 1.9398 (migliore 1.9398), 807 s
+  piega 2, epoca 10: validazione 1.9670 (migliore 1.9660), 898 s
+  piega 1, epoca 10: validazione 1.9844 (migliore 1.9726), 973 s
+  piega 2, epoca 10: validazione 2.0023 (migliore 1.9775), 813 s
+  piega 0, epoca 20: validazione 1.9155 (migliore 1.8783), 1451 s
+  piega 4, epoca 20: validazione 2.1630 (migliore 2.1448), 1493 s
+  piega 0, epoca 20: validazione 1.9169 (migliore 1.8839), 1501 s
+  piega 3, epoca 20: validazione 1.9936 (migliore 1.9130), 1610 s
+  piega 1, epoca 20: validazione 2.0242 (migliore 1.9605), 1676 s
+[11/20 30.5 min] addestra|4|0: {'epoca_scelta': 12, 'bpc_validazione': 2.14484, 'bpc_fuori': 1.84876, 'scarto': -0.02832} (1640 s)
+  piega 2, epoca 20: validazione 1.9813 (migliore 1.9409), 1767 s
+[12/20 33.9 min] addestra|1|0: {'epoca_scelta': 12, 'bpc_validazione': 1.96048, 'bpc_fuori': 2.02405, 'scarto': 0.21278} (1895 s)
+  piega 1, epoca 20: validazione 1.9566 (migliore 1.9338), 1815 s
+  piega 2, epoca 20: validazione 1.9949 (migliore 1.9425), 1673 s
+[13/20 35.1 min] addestra|0|0: {'epoca_scelta': 15, 'bpc_validazione': 1.87828, 'bpc_fuori': 1.93805, 'scarto': 0.1652} (1983 s)
+[14/20 35.7 min] addestra|2|1: {'epoca_scelta': 11, 'bpc_validazione': 1.94255, 'bpc_fuori': 1.97113, 'scarto': 0.11} (1740 s)
+[15/20 37.6 min] addestra|2|0: {'epoca_scelta': 14, 'bpc_validazione': 1.94091, 'bpc_fuori': 1.94414, 'scarto': 0.15195} (2101 s)
+[16/20 38.1 min] addestra|3|0: {'epoca_scelta': 15, 'bpc_validazione': 1.91299, 'bpc_fuori': 1.95609, 'scarto': 0.16619} (2117 s)
+[17/20 41.0 min] addestra|0|1: {'epoca_scelta': 19, 'bpc_validazione': 1.88389, 'bpc_fuori': 1.96401, 'scarto': 0.23592} (2233 s)
+  piega 3, epoca 10: validazione 1.9984 (migliore 1.9426), 721 s
+[18/20 42.8 min] addestra|1|1: {'epoca_scelta': 18, 'bpc_validazione': 1.93376, 'bpc_fuori': 2.03034, 'scarto': 0.30214} (2339 s)
+  piega 4, epoca 10: validazione 2.2447 (migliore 2.1567), 566 s
+  piega 3, epoca 20: validazione 1.9367 (migliore 1.9106), 1203 s
+  piega 4, epoca 20: validazione 2.1852 (migliore 2.1317), 1073 s
+[19/20 52.7 min] addestra|3|1: {'epoca_scelta': 13, 'bpc_validazione': 1.91065, 'bpc_fuori': 1.96551, 'scarto': 0.15315} (1333 s)
+[20/20 54.1 min] addestra|4|1: {'epoca_scelta': 12, 'bpc_validazione': 2.13173, 'bpc_fuori': 1.83748, 'scarto': -0.00937} (1211 s)
+[1/60 18.5 min] libro|senza|6: {'AUC_e231': 0.8152372466028069, 'AUC_e266': 0.8756911957624812, 'AUC_A': 0.6907607097343397, 'capacita_bit': 344303, 'pagella': 14} (1032 s)
+[2/60 18.9 min] libro|senza|1: {'AUC_e231': 0.7669549999999999, 'AUC_e266': 0.8266450000000001, 'AUC_A': 0.6861386138613861, 'capacita_bit': 350087, 'pagella': 13} (1071 s)
+[3/60 19.2 min] libro|senza|3: {'AUC_e231': 0.803944344839777, 'AUC_e266': 0.8676043534254185, 'AUC_A': 0.6751740025487698, 'capacita_bit': 348883, 'pagella': 12} (1080 s)
+[4/60 19.7 min] libro|senza|7: {'AUC_e231': 0.8111499999999999, 'AUC_e266': 0.852985, 'AUC_A': 0.702705617096363, 'capacita_bit': 347522, 'pagella': 13} (1102 s)
+[5/60 21.7 min] libro|senza|2: {'AUC_e231': 0.7912655621997844, 'AUC_e266': 0.8309479462797764, 'AUC_A': 0.7034408391334183, 'capacita_bit': 347986, 'pagella': 13} (1234 s)
+[6/60 22.7 min] libro|senza|4: {'AUC_e231': 0.7709699999999999, 'AUC_e266': 0.841785, 'AUC_A': 0.6710175472992843, 'capacita_bit': 352168, 'pagella': 13} (1286 s)
+[7/60 22.8 min] libro|senza|5: {'AUC_e231': 0.807083983069726, 'AUC_e266': 0.8724437513922924, 'AUC_A': 0.6946965983727085, 'capacita_bit': 351326, 'pagella': 12} (1291 s)
+[8/60 24.7 min] addestra|tutto: {'epoca_scelta': 13, 'bpc_validazione': None, 'bpc_fuori': None} (1465 s)
+[9/60 33.9 min] libro|senza|9: {'AUC_e231': 0.8193015024380583, 'AUC_e266': 0.8421029182445979, 'AUC_A': 0.7238358984413292, 'capacita_bit': 345909, 'pagella': 14} (903 s)
+[10/60 34.0 min] libro|senza|11: {'AUC_e231': 0.7814757060468801, 'AUC_e266': 0.8560926709734907, 'AUC_A': 0.6550877364964218, 'capacita_bit': 349133, 'pagella': 13} (859 s)
+[11/60 36.0 min] libro|senza|12: {'AUC_e231': 0.8044100000000001, 'AUC_e266': 0.85877, 'AUC_A': 0.6569257915890598, 'capacita_bit': 349461, 'pagella': 14} (859 s)
+[12/60 36.3 min] libro|senza|8: {'AUC_e231': 0.79399, 'AUC_e266': 0.8483599999999999, 'AUC_A': 0.6925350455837662, 'capacita_bit': 348316, 'pagella': 14} (1070 s)
+[13/60 39.5 min] libro|senza|14: {'AUC_e231': 0.8114138531855255, 'AUC_e266': 0.8760788868967955, 'AUC_A': 0.6734192726203314, 'capacita_bit': 345578, 'pagella': 13} (1002 s)
+[14/60 39.5 min] libro|senza|13: {'AUC_e231': 0.8119006955273385, 'AUC_e266': 0.8666171629415114, 'AUC_A': 0.6294676992451721, 'capacita_bit': 345634, 'pagella': 13} (1008 s)
+[15/60 41.8 min] libro|senza|15: {'AUC_e231': 0.778555, 'AUC_e266': 0.862395, 'AUC_A': 0.6484756396431722, 'capacita_bit': 348940, 'pagella': 12} (1021 s)
+[16/60 41.8 min] libro|senza|10: {'AUC_e231': 0.7692187040486227, 'AUC_e266': 0.8349671600823447, 'AUC_A': 0.6948387412998727, 'capacita_bit': 349996, 'pagella': 13} (1355 s)
+[17/60 45.9 min] libro|senza|17: {'AUC_e231': 0.7399965347392391, 'AUC_e266': 0.8418801514813989, 'AUC_A': 0.6631457700225468, 'capacita_bit': 350176, 'pagella': 12} (714 s)
+[18/60 50.1 min] libro|senza|16: {'AUC_e231': 0.752255, 'AUC_e266': 0.8413450000000001, 'AUC_A': 0.6721546907165964, 'capacita_bit': 349770, 'pagella': 12} (969 s)
+[19/60 51.0 min] libro|senza|19: {'AUC_e231': 0.8335749097245019, 'AUC_e266': 0.8917047549304311, 'AUC_A': 0.6634251543966279, 'capacita_bit': 350795, 'pagella': 13} (884 s)
+[20/60 52.5 min] libro|senza|18: {'AUC_e231': 0.7781400000000002, 'AUC_e266': 0.860055, 'AUC_A': 0.6487452210567591, 'capacita_bit': 348462, 'pagella': 13} (990 s)
+[21/60 53.4 min] libro|senza|20: {'AUC_e231': 0.796565, 'AUC_e266': 0.8446750000000002, 'AUC_A': 0.6598372708557985, 'capacita_bit': 347749, 'pagella': 14} (837 s)
+[22/60 54.3 min] libro|con|1: {'AUC_e231': 0.8046907165964121, 'AUC_e266': 0.8789334378982453, 'AUC_A': 0.7075923929026565, 'capacita_bit': 347882, 'recupero_esatto': True, 'chiave_sbagliata_respinta': True, 'pagella': 13} (886 s)
+[23/60 55.0 min] libro|con|3: {'AUC_e231': 0.8008465137001559, 'AUC_e266': 0.8556223855845152, 'AUC_A': 0.6796392510538183, 'capacita_bit': 347829, 'recupero_esatto': True, 'chiave_sbagliata_respinta': True, 'pagella': 12} (791 s)
+[24/60 55.6 min] libro|con|2: {'AUC_e231': 0.7978384472110578, 'AUC_e266': 0.8557053230075482, 'AUC_A': 0.7062984021174394, 'capacita_bit': 349047, 'recupero_esatto': True, 'chiave_sbagliata_respinta': True, 'pagella': 15} (828 s)
+[25/60 58.8 min] libro|con|4: {'AUC_e231': 0.797745319086364, 'AUC_e266': 0.865875894520145, 'AUC_A': 0.6858445250465641, 'capacita_bit': 348589, 'recupero_esatto': True, 'chiave_sbagliata_respinta': True, 'pagella': 13} (771 s)
+[26/60 61.2 min] libro|con|6: {'AUC_e231': 0.8189540668164945, 'AUC_e266': 0.8694931946162976, 'AUC_A': 0.7023919223605529, 'capacita_bit': 348028, 'recupero_esatto': True, 'chiave_sbagliata_respinta': True, 'pagella': 13} (610 s)
+[27/60 61.3 min] libro|con|5: {'AUC_e231': 0.8096878790128959, 'AUC_e266': 0.8568451275958516, 'AUC_A': 0.6820409763748653, 'capacita_bit': 349757, 'recupero_esatto': True, 'chiave_sbagliata_respinta': True, 'pagella': 12} (675 s)
+[28/60 61.6 min] libro|con|7: {'AUC_e231': 0.8288746201352808, 'AUC_e266': 0.8868787373786884, 'AUC_A': 0.7020439172630135, 'capacita_bit': 345090, 'recupero_esatto': True, 'chiave_sbagliata_respinta': True, 'pagella': 13} (547 s)
+[29/60 63.0 min] libro|con|8: {'AUC_e231': 0.799757431746739, 'AUC_e266': 0.8682705873616989, 'AUC_A': 0.6695029899029507, 'capacita_bit': 348152, 'recupero_esatto': True, 'chiave_sbagliata_respinta': True, 'pagella': 13} (576 s)
+[30/60 63.2 min] libro|con|9: {'AUC_e231': 0.809062836976767, 'AUC_e266': 0.8750465640623467, 'AUC_A': 0.6563572198804039, 'capacita_bit': 350255, 'recupero_esatto': True, 'chiave_sbagliata_respinta': True, 'pagella': 13} (539 s)
+[31/60 63.9 min] libro|con|10: {'AUC_e231': 0.7906784485532536, 'AUC_e266': 0.8528056236231777, 'AUC_A': 0.6705421037153221, 'capacita_bit': 350800, 'recupero_esatto': True, 'chiave_sbagliata_respinta': True, 'pagella': 12} (532 s)
+[32/60 64.1 min] libro|con|11: {'AUC_e231': 0.80863, 'AUC_e266': 0.87781, 'AUC_A': 0.6566905205372022, 'capacita_bit': 350845, 'recupero_esatto': True, 'chiave_sbagliata_respinta': True, 'pagella': 14} (511 s)
+[33/60 68.1 min] libro|con|12: {'AUC_e231': 0.7304967698819336, 'AUC_e266': 0.8083265265711244, 'AUC_A': 0.6234633859425547, 'capacita_bit': 351599, 'recupero_esatto': True, 'chiave_sbagliata_respinta': True, 'pagella': 12} (559 s)
+[34/60 72.1 min] libro|con|15: {'AUC_e231': 0.8111461831771927, 'AUC_e266': 0.8717204111007298, 'AUC_A': 0.658342319380453, 'capacita_bit': 349710, 'recupero_esatto': True, 'chiave_sbagliata_respinta': True, 'pagella': 14} (627 s)
+[35/60 72.1 min] libro|con|14: {'AUC_e231': 0.7815895646147373, 'AUC_e266': 0.855275859508428, 'AUC_A': 0.6616851289089304, 'capacita_bit': 349564, 'recupero_esatto': True, 'chiave_sbagliata_respinta': True, 'pagella': 12} (649 s)
+[36/60 72.2 min] libro|con|13: {'AUC_e231': 0.7749250000000001, 'AUC_e266': 0.8822699999999999, 'AUC_A': 0.6390500931281247, 'capacita_bit': 348197, 'recupero_esatto': True, 'chiave_sbagliata_respinta': True, 'pagella': 12} (659 s)
+[37/60 72.9 min] O|O2|1: {'AUC_e231': 0.985128908930497, 'AUC_e266': 0.9917655131849819} (40 s)
+[38/60 73.0 min] O|O1|1: {'AUC_e231': 0.5006813057543378, 'AUC_e266': 0.6039996078815802} (56 s)
+[39/60 73.0 min] O|O1|2: {'AUC_e231': 0.47529408881482216, 'AUC_e266': 0.5985246544456426} (52 s)
+[40/60 73.1 min] caso|0: {'AUC_e231': 0.5060288207038526, 'AUC_e266': 0.5030291147926673} (8 s)
+[41/60 73.4 min] rifA|13: {'AUC_A_b': 0.7182286050387217, 'AUC_A_a': 0.7251936084697579} (25 s)
+[42/60 73.5 min] O|O2|2: {'AUC_e231': 0.9775169101068523, 'AUC_e266': 0.9844230957749239} (36 s)
+[43/60 73.5 min] rifA|14: {'AUC_A_b': 0.752833055582786, 'AUC_A_a': 0.7695961180276444} (22 s)
+[44/60 73.7 min] rifA|15: {'AUC_A_b': 0.7602587981570434, 'AUC_A_a': 0.7631849818645231} (16 s)
+[45/60 73.7 min] rifA|16: {'AUC_A_b': 0.7500539162827173, 'AUC_A_a': 0.7331732183119303} (16 s)
+[46/60 73.8 min] rifA|17: {'AUC_A_b': 0.7374865209293207, 'AUC_A_a': 0.7446720909714735} (19 s)
+[47/60 74.1 min] rifA|18: {'AUC_A_b': 0.7362954612292912, 'AUC_A_a': 0.733143809430448} (22 s)
+[48/60 74.2 min] rifA|20: {'AUC_A_b': 0.7590481325360259, 'AUC_A_a': 0.7717772767375747} (23 s)
+[49/60 74.3 min] rifA|19: {'AUC_A_b': 0.769424566218998, 'AUC_A_a': 0.7681550828350161} (34 s)
+[50/60 74.6 min] ctrlA|parole: {'AUC_A': 0.9862366434663269} (18 s)
+[51/60 74.6 min] rifA|21: {'AUC_A_b': 0.7392461523380062, 'AUC_A_a': 0.7726056268993237} (35 s)
+[52/60 74.7 min] rifA|22: {'AUC_A_b': 0.7413047740417607, 'AUC_A_a': 0.7295363199686304} (30 s)
+[53/60 74.8 min] libro|con|17: {'AUC_e231': 0.793559565357293, 'AUC_e266': 0.8943986534986758, 'AUC_A': 0.6540584256445447, 'capacita_bit': 350050, 'recupero_esatto': True, 'chiave_sbagliata_respinta': True, 'pagella': 13} (691 s)
+[54/60 74.8 min] ctrlA|righe: {'AUC_A': 0.5887560043133027} (14 s)
+[55/60 75.0 min] casoA|0: {'AUC_A': 0.48352514459366724} (17 s)
+[56/60 75.0 min] ctrlA|e192: {'AUC_A': 0.9581364572100775} (22 s)
+[57/60 75.1 min] libro|con|16: {'AUC_e231': 0.801712828890374, 'AUC_e266': 0.8478701022251925, 'AUC_A': 0.6652975198509951, 'capacita_bit': 347415, 'recupero_esatto': True, 'chiave_sbagliata_respinta': True, 'pagella': 13} (726 s)
+[58/60 75.8 min] libro|con|18: {'AUC_e231': 0.791138833197198, 'AUC_e266': 0.840875225860746, 'AUC_A': 0.6211694931869425, 'capacita_bit': 349117, 'recupero_esatto': True, 'chiave_sbagliata_respinta': True, 'pagella': 13} (718 s)
+[59/60 76.5 min] libro|con|19: {'AUC_e231': 0.7944011286849335, 'AUC_e266': 0.8721269275512983, 'AUC_A': 0.6433830016665032, 'capacita_bit': 350428, 'recupero_esatto': True, 'chiave_sbagliata_respinta': True, 'pagella': 13} (743 s)
+[60/60 79.0 min] libro|con|20: {'AUC_e231': 0.7532100000000002, 'AUC_e266': 0.87151, 'AUC_A': 0.6674149593177139, 'capacita_bit': 349138, 'recupero_esatto': True, 'chiave_sbagliata_respinta': True, 'pagella': 12} (653 s)
+[1/1 9.5 min] libro|vetrina|0: {'AUC_e231': 0.9973931231506988, 'AUC_e266': 0.997842056932966, 'capacita_bit': 280066, 'recupero_esatto': True, 'chiave_sbagliata_respinta': True, 'pagella': 13} (557 s)
+controllo positivo: riuscito (AUC 0,988, soglia 0.95)
+controllo negativo: riuscito (giudice 1 0,506, giudice 2 0,503)
+controllo recupero: riuscito (21/21 esatti, 21/21 chiave sbagliata respinta)
+controllo negativo con/senza: riuscito (AUC 0,511)
+controllo positivo giudice A: riuscito (AUC parole 0,986, e192 0,958, soglia 0.85)
+controllo negativo giudice A: riuscito (AUC 0,484)
+senza messaggio: giudice 1 0,792 ± 0,005 (più lontano dal vero del v21), giudice 2 0,855 ± 0,004 (più lontano dal vero del v21)
+senza messaggio: giudice A 0,675 ± 0,005 contro v21 0,746 (più vicino al vero del v21; giudice A vede la differenza (sopra 0,65))
+con messaggio: giudice 1 0,795 ± 0,005 (più lontano dal vero del v21 (le due repliche dei modelli differiscono più di 2 errori)), giudice 2 0,864 ± 0,004 (più lontano dal vero del v21)
+con messaggio: giudice A 0,668 ± 0,006 contro v21 0,751 (più vicino al vero del v21; giudice A vede la differenza (sopra 0,65))
+copia 5-grammi: 0,0000 contro 0,0000 naturale (copia come il testo vero)
+copia righe intere: 0,0000 contro 0,0000 naturale (copia come il testo vero)
+capacità: 349075 bit (più del v21); traccia: nessuna traccia

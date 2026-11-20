@@ -16746,3 +16746,50 @@ e `risultati/ia10_corse.jsonl` (solo numeri); gli elenchi di parole per famiglia
 - **Ciò che resta:** la rete vede più ordine di quanto spieghino i modelli semplici (1,21 bit per parola contro 0,16).
 - **Bersagli per il v21 (verso IA11):** eco della pagina (oggi a metà, mai locale), ordine delle famiglie (oggi al 59%),
   forma delle parole inventate (ia08).
+
+## 20/11/2026 (pomeriggio) — ia07 (IA7): il Voynich scritto da una rete locale è più lontano dal vero del v21 per i giudici del paper (0,79 e 0,86); più vicino per il giudice A (0,675 contro 0,746), ma non conclusivo; nasconde un messaggio quattro volte più grande, senza traccia e senza copiare
+
+Preregistrato (`preregistrazioni/ia07.md`, commit 130ed22; codice 23dd0a8 con `stego_ia07.py`; giudice A aggiunto il 20/11 su
+decisione di Davide, prima di ogni corsa). Idea di Davide del 18/11. Corsa: coda `ia_A`, 8 processi, insieme a ia04 e (da
+15:29) ia11, 144 minuti, uscita 0. Risultati in `risultati/ia07_voynich_neurale.{md,json}` e `risultati/ia07_corse.jsonl`
+(solo numeri); libri, modelli e libro vetrina in `dati/cache/ia07_*`.
+
+- **Domanda:** una rete (GRU 2×256 condizionata da sezione, mano, lingua, tipo e lunghezza di riga) addestrata sul Voynich
+  scrive un libro intero: quanto è vicino al vero rispetto al v21? Può nascondere un messaggio?
+- **Controlli:** tutti superati. Giudice 2 sulle parole rimescolate 0,988 (≥ 0,95); etichette a caso 0,506 e 0,503;
+  recupero del messaggio esatto 21 su 21 e chiave sbagliata respinta 21 su 21; con/senza su libri senza messaggio 0,511;
+  giudice A: positivo 0,986 e 0,958 (≥ 0,85), negativo 0,484. (Il C− con/senza era uscito 0,673 nella prova piccola sul
+  latino: sulla corsa vera 0,511.)
+- **Modelli:** 10 (5 pieghe per foglio × 2 repliche), 665.481 parametri, BPC fuori piega 1,84–2,03.
+- **Lettura 1, giudici del paper (libri senza messaggio, 20):** giudice 1 **0,792** ± 0,005, giudice 2 **0,855** ± 0,004:
+  **più lontano dal vero del v21** (0,554 e 0,601) per entrambi. Gruppi del giudice 2 che separano di più: G2 0,73, G3 0,73,
+  G9 0,73, G1 0,70. Caratteristiche più pesanti: G9 distanza pagina-manoscritto (vero 0,040, rete 0,026: le pagine della
+  rete sono "medie", senza un vocabolario proprio), G3 parole uniche nella pagina e parole fra le 100 più frequenti (più
+  alte nella rete), G6 coppie viste altrove. Materie mancate in tutti i libri: gradiente, deriva, coppie viste altrove,
+  profilo della pagina. Pagella 13,0 (v21 16,0/17).
+- **Lettura 1b, giudice A:** rete **0,675** ± 0,005 (0,629–0,724), v21 senza messaggio ricalcolato 0,746 ± 0,005: **più vicino
+  al vero del v21 su A**, che per la lettura asimmetrica scritta prima è **non conclusivo** (è l'esito che la circolarità
+  produce da sola; i giudici 1 e 2 non lo confermano). Lettura assoluta: A vede la differenza (sopra 0,65). Dove: picchi
+  (95° percentile +0,12) e fine/inizio riga (+0,14, +0,09); all'inizio delle parole la rete è *meno* sorprendente del vero
+  (−0,05), mentre il v21 era +0,18. Repliche 0,694 e 0,657. Coerenza: v21 con messaggio ricalcolato 0,751 come ia01.
+- **Lettura 2, copia a memoria:** 5-grammi 0,0000 e righe intere 0,0000 come il testo vero: **copia come il testo vero**.
+  Parole nuove 14,6% (vero tenuto fuori 15,3%; sul latino di prova la rete ne inventava il 52%).
+- **Lettura 3, capacità:** 349.075 bit per libro, **più del v21** (81.100–85.900): circa quattro volte (grandezze diverse,
+  vedi la preregistrazione).
+- **Lettura 4, traccia del messaggio:** con contro senza 0,496: **nessuna traccia** (tutti i gruppi 0,48–0,50).
+- **Libro vetrina** (modello su tutto il manoscritto, non è una prova onesta): giudici 0,997 e 0,998; controllo di copia:
+  0 righe di almeno 3 parole su 3.997, 0 5-grammi su 13.371, 0 pagine identiche su 207. Quattro pagine in immagine in
+  `dati/cache/ia07_vetrina/pagine/`. La pubblicazione di qualche pagina la decide Davide.
+- **Confronto con la lettura attesa:** atteso più lontano sui giudici 1 e 2, con il giudice 2 fra 0,65 e 0,95: confermato
+  (0,855); atteso il punto debole nelle parole (G3, G6): confermato in parte, ma pesa di più la pagina "media" (G9). Atteso
+  A fra 0,55 e 0,70 e sotto il v21: confermato (0,675). Copia: attesa poco sopra il naturale, invece uguale. Capacità
+  molto più del v21 e nessuna traccia: confermato.
+- **In parole semplici:** la rete scrive un Voynich credibile riga per riga, ma ogni sua pagina assomiglia alla media del
+  manoscritto: manca il vocabolario proprio di ogni pagina, cioè l'eco della pagina vista da ia09. I giudici del paper se ne
+  accorgono più che col v21. Il giudice A la trova più vicina del v21, ma è il suo "giudice amico". Come nascondiglio è
+  eccellente: quattro volte più spazio del v21, nessuna traccia, nessuna riga copiata.
+- **Limiti:** rete piccola e 70 fogli di addestramento; riceve la disposizione vera; due repliche; il confronto sui giudici 1 e
+  2 usa i numeri del paper (24 chiavi), non un ricalcolo; il libro vetrina viene da un modello che ha visto tutto (giudici
+  0,997: probabile sovradattamento senza validazione) e non vale come prova.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione (8 processi invece di 10). Il collegamento fra G9 e l'eco di
+  ia09 è una lettura aggiunta.

@@ -1,0 +1,2015 @@
+{
+ "esperimento": "ia07",
+ "solo_controlli": false,
+ "versioni": {
+  "python": "3.12.10",
+  "torch": "2.15.0+cpu",
+  "numpy": "2.5.3",
+  "sklearn": "1.9.1"
+ },
+ "parametri": {
+  "rete": "GRU 2 strati x 256, immersione 64, caduta 0.30",
+  "addestramento": "AdamW lr 0.002, decadimento 0.01, taglio 1, lotti di 8 pagine, tratti di 256 segni, al massimo 150 epoche, pazienza 10",
+  "pieghe": 5,
+  "quota_validazione": 0.125,
+  "fasce_posizione": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6,
+   9,
+   13,
+   18,
+   26
+  ],
+  "fasce_lunghezza": 8,
+  "probabilita_intere": "Q = 2^24, precisione 48 bit",
+  "libri": [
+   20,
+   20
+  ],
+  "pagella": true,
+  "giudice_A": "GRU 1 x 128, immersione 32, caduta 0.30, al massimo 4000 passi (pazienza 10 x 20 passi), semi [1, 2], pieghe di IA7"
+ },
+ "controlli": {
+  "positivo": {
+   "che cosa": "giudice 2 sul libro vero con le parole rimescolate nella riga (O2, semi [1, 2])",
+   "AUC": 0.9880943044799528,
+   "soglia": 0.95,
+   "riuscito": true
+  },
+  "negativo": {
+   "che cosa": "pagine vere con etichette a caso (pieghe per foglio, semi [1, 2, 3, 4, 5])",
+   "AUC_e231": 0.5060288207038526,
+   "AUC_e266": 0.5030291147926673,
+   "intervallo": [
+    0.45,
+    0.55
+   ],
+   "riuscito": true
+  },
+  "recupero": {
+   "che cosa": "messaggio riletto esatto e chiave sbagliata respinta, libri con messaggio",
+   "esatti": 21,
+   "respinti": 21,
+   "libri": 21,
+   "riuscito": true
+  },
+  "negativo_con_senza": {
+   "che cosa": "libri senza messaggio, semi dispari contro pari (giudice 2, pieghe per libro)",
+   "AUC": 0.5108969693143993,
+   "intervallo": [
+    0.45,
+    0.55
+   ],
+   "riuscito": true
+  },
+  "positivo_A": {
+   "che cosa": "giudice A: libro vero con le parole rimescolate nella riga (seme 396001) e generatore e192 (se manca, vale il primo, dichiarato)",
+   "AUC": {
+    "parole": 0.9862366434663269,
+    "e192": 0.9581364572100775
+   },
+   "soglia": 0.85,
+   "riuscito": true
+  },
+  "negativo_A": {
+   "che cosa": "giudice A: pagine vere con etichette a caso (media di 5 etichette)",
+   "AUC": 0.48352514459366724,
+   "AUC_etichette": [
+    0.49440250955788645,
+    0.5098127634545632,
+    0.4641309675522008,
+    0.49930398980492113,
+    0.4499754925987648
+   ],
+   "intervallo": [
+    0.45,
+    0.55
+   ],
+   "riuscito": true
+  }
+ },
+ "modelli": [
+  {
+   "lavoro": "addestra|0|0",
+   "piega": 0,
+   "replica": 0,
+   "seme": 7000,
+   "fogli": [
+    70,
+    10,
+    20
+   ],
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "segni_addestramento": 147787,
+   "parametri": 665481,
+   "epoche": 25,
+   "epoca_scelta": 15,
+   "arrivata_al_massimo": false,
+   "curva_validazione": [
+    2.22119,
+    2.12538,
+    2.08566,
+    2.01933,
+    2.03011,
+    1.96532,
+    1.94525,
+    1.97318,
+    1.96592,
+    1.90607,
+    1.88885,
+    1.8964,
+    1.96114,
+    1.89438,
+    1.87828,
+    1.89371,
+    1.95821,
+    1.88272,
+    1.88559,
+    1.91546,
+    1.94561,
+    1.89937,
+    1.91034,
+    1.90765,
+    1.95918
+   ],
+   "curva_addestramento": [
+    2.74095,
+    2.16158,
+    2.10142,
+    2.09264,
+    2.03771,
+    2.01609,
+    1.98119,
+    1.95259,
+    1.94594,
+    1.92855,
+    1.92158,
+    1.91537,
+    1.89424,
+    1.90051,
+    1.8696,
+    1.85955,
+    1.83892,
+    1.83579,
+    1.81844,
+    1.81176,
+    1.81326,
+    1.79249,
+    1.7849,
+    1.7656,
+    1.75103
+   ],
+   "bpc_addestramento": 1.77285,
+   "bpc_validazione": 1.87828,
+   "bpc_fuori": 1.93805,
+   "secondi": 1983.0,
+   "scarto": 0.1652
+  },
+  {
+   "lavoro": "addestra|1|0",
+   "piega": 1,
+   "replica": 0,
+   "seme": 7001,
+   "fogli": [
+    70,
+    10,
+    20
+   ],
+   "pagine": [
+    147,
+    20,
+    40
+   ],
+   "segni_addestramento": 159906,
+   "parametri": 665481,
+   "epoche": 22,
+   "epoca_scelta": 12,
+   "arrivata_al_massimo": false,
+   "curva_validazione": [
+    2.19506,
+    2.14036,
+    2.05468,
+    2.10477,
+    2.09586,
+    2.00523,
+    1.98733,
+    2.06281,
+    1.97031,
+    1.99052,
+    2.00796,
+    1.96048,
+    1.98837,
+    1.97423,
+    1.97046,
+    1.98476,
+    2.04015,
+    1.96636,
+    1.96966,
+    2.02425,
+    2.01523,
+    2.00059
+   ],
+   "curva_addestramento": [
+    2.53098,
+    2.16824,
+    2.09655,
+    2.0415,
+    2.01904,
+    2.00093,
+    1.98277,
+    1.93955,
+    1.95883,
+    1.912,
+    1.92403,
+    1.9153,
+    1.89333,
+    1.8887,
+    1.86633,
+    1.86035,
+    1.8394,
+    1.8456,
+    1.83559,
+    1.80098,
+    1.80429,
+    1.79323
+   ],
+   "bpc_addestramento": 1.81127,
+   "bpc_validazione": 1.96048,
+   "bpc_fuori": 2.02405,
+   "secondi": 1894.8,
+   "scarto": 0.21278
+  },
+  {
+   "lavoro": "addestra|2|0",
+   "piega": 2,
+   "replica": 0,
+   "seme": 7002,
+   "fogli": [
+    70,
+    10,
+    20
+   ],
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "segni_addestramento": 148108,
+   "parametri": 665481,
+   "epoche": 24,
+   "epoca_scelta": 14,
+   "arrivata_al_massimo": false,
+   "curva_validazione": [
+    2.37179,
+    2.1447,
+    2.10631,
+    2.13925,
+    2.07867,
+    2.0387,
+    2.03007,
+    2.06443,
+    1.966,
+    1.96699,
+    1.97878,
+    1.96914,
+    1.94576,
+    1.94091,
+    1.97193,
+    1.95134,
+    1.95024,
+    1.97615,
+    1.95384,
+    1.98134,
+    1.95297,
+    1.98897,
+    2.00325,
+    1.9939
+   ],
+   "curva_addestramento": [
+    2.77662,
+    2.18228,
+    2.1144,
+    2.07671,
+    2.05408,
+    2.01867,
+    1.99195,
+    1.97045,
+    1.95888,
+    1.94306,
+    1.93141,
+    1.89542,
+    1.88836,
+    1.87532,
+    1.87773,
+    1.86977,
+    1.84274,
+    1.82904,
+    1.82433,
+    1.81593,
+    1.79837,
+    1.78295,
+    1.78042,
+    1.76231
+   ],
+   "bpc_addestramento": 1.79219,
+   "bpc_validazione": 1.94091,
+   "bpc_fuori": 1.94414,
+   "secondi": 2101.0,
+   "scarto": 0.15195
+  },
+  {
+   "lavoro": "addestra|3|0",
+   "piega": 3,
+   "replica": 0,
+   "seme": 7003,
+   "fogli": [
+    70,
+    10,
+    20
+   ],
+   "pagine": [
+    146,
+    20,
+    41
+   ],
+   "segni_addestramento": 140172,
+   "parametri": 665481,
+   "epoche": 25,
+   "epoca_scelta": 15,
+   "arrivata_al_massimo": false,
+   "curva_validazione": [
+    2.30123,
+    2.15638,
+    2.07973,
+    2.04629,
+    2.04348,
+    2.00375,
+    2.07234,
+    1.99761,
+    1.97588,
+    1.93978,
+    1.94141,
+    1.92947,
+    1.92382,
+    1.93926,
+    1.91299,
+    1.95646,
+    1.91805,
+    1.93773,
+    1.92488,
+    1.99363,
+    1.91903,
+    1.9945,
+    1.95574,
+    1.97842,
+    1.9762
+   ],
+   "curva_addestramento": [
+    2.56539,
+    2.24083,
+    2.14022,
+    2.09397,
+    2.07214,
+    2.03752,
+    2.03095,
+    2.01409,
+    1.98971,
+    1.97763,
+    1.96489,
+    1.93411,
+    1.93751,
+    1.92065,
+    1.90246,
+    1.88354,
+    1.87013,
+    1.859,
+    1.8456,
+    1.82413,
+    1.82202,
+    1.79244,
+    1.80298,
+    1.78079,
+    1.77167
+   ],
+   "bpc_addestramento": 1.7899,
+   "bpc_validazione": 1.91299,
+   "bpc_fuori": 1.95609,
+   "secondi": 2117.1,
+   "scarto": 0.16619
+  },
+  {
+   "lavoro": "addestra|4|0",
+   "piega": 4,
+   "replica": 0,
+   "seme": 7004,
+   "fogli": [
+    70,
+    10,
+    20
+   ],
+   "pagine": [
+    148,
+    19,
+    40
+   ],
+   "segni_addestramento": 146131,
+   "parametri": 665481,
+   "epoche": 22,
+   "epoca_scelta": 12,
+   "arrivata_al_massimo": false,
+   "curva_validazione": [
+    2.57301,
+    2.55359,
+    2.25752,
+    2.30013,
+    2.3169,
+    2.30475,
+    2.19522,
+    2.20342,
+    2.23935,
+    2.25303,
+    2.16376,
+    2.14484,
+    2.23109,
+    2.16439,
+    2.1677,
+    2.17785,
+    2.20817,
+    2.16073,
+    2.15679,
+    2.16299,
+    2.16747,
+    2.20554
+   ],
+   "curva_addestramento": [
+    2.76317,
+    2.2091,
+    2.15812,
+    2.10099,
+    2.08591,
+    2.06311,
+    2.03046,
+    2.01006,
+    1.9943,
+    1.98219,
+    1.96087,
+    1.95381,
+    1.94079,
+    1.92895,
+    1.91355,
+    1.9095,
+    1.89754,
+    1.89222,
+    1.86459,
+    1.85733,
+    1.85616,
+    1.83187
+   ],
+   "bpc_addestramento": 1.87708,
+   "bpc_validazione": 2.14484,
+   "bpc_fuori": 1.84876,
+   "secondi": 1640.0,
+   "scarto": -0.02832
+  },
+  {
+   "lavoro": "addestra|0|1",
+   "piega": 0,
+   "replica": 1,
+   "seme": 7100,
+   "fogli": [
+    70,
+    10,
+    20
+   ],
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "segni_addestramento": 147787,
+   "parametri": 665481,
+   "epoche": 29,
+   "epoca_scelta": 19,
+   "arrivata_al_massimo": false,
+   "curva_validazione": [
+    2.32768,
+    2.0998,
+    2.17063,
+    2.08254,
+    2.0292,
+    1.99279,
+    1.94806,
+    1.97154,
+    1.99367,
+    1.90326,
+    2.00792,
+    1.91282,
+    1.90274,
+    1.91429,
+    1.88494,
+    1.94467,
+    1.9083,
+    1.92798,
+    1.88389,
+    1.91695,
+    1.89586,
+    1.9274,
+    1.91934,
+    1.89683,
+    1.97133,
+    1.94456,
+    1.9609,
+    1.94277,
+    1.94339
+   ],
+   "curva_addestramento": [
+    2.63774,
+    2.20666,
+    2.10291,
+    2.0849,
+    2.09001,
+    2.04589,
+    1.9999,
+    1.96371,
+    1.95221,
+    1.94293,
+    1.93081,
+    1.92145,
+    1.8982,
+    1.88758,
+    1.88094,
+    1.86861,
+    1.85844,
+    1.85923,
+    1.83937,
+    1.81971,
+    1.81252,
+    1.79758,
+    1.79176,
+    1.77584,
+    1.74949,
+    1.75973,
+    1.7492,
+    1.72633,
+    1.74123
+   ],
+   "bpc_addestramento": 1.72809,
+   "bpc_validazione": 1.88389,
+   "bpc_fuori": 1.96401,
+   "secondi": 2233.0,
+   "scarto": 0.23592
+  },
+  {
+   "lavoro": "addestra|1|1",
+   "piega": 1,
+   "replica": 1,
+   "seme": 7101,
+   "fogli": [
+    70,
+    10,
+    20
+   ],
+   "pagine": [
+    147,
+    20,
+    40
+   ],
+   "segni_addestramento": 159906,
+   "parametri": 665481,
+   "epoche": 28,
+   "epoca_scelta": 18,
+   "arrivata_al_massimo": false,
+   "curva_validazione": [
+    2.54442,
+    2.20252,
+    2.13138,
+    2.08305,
+    1.99513,
+    2.00368,
+    1.99561,
+    1.99159,
+    1.97263,
+    1.98442,
+    1.94299,
+    1.95834,
+    2.11095,
+    1.94974,
+    1.97384,
+    1.9437,
+    1.94013,
+    1.93376,
+    1.97619,
+    1.95658,
+    1.93849,
+    1.9558,
+    2.00835,
+    1.96786,
+    1.99791,
+    2.06177,
+    2.00553,
+    1.98921
+   ],
+   "curva_addestramento": [
+    2.75256,
+    2.18174,
+    2.11574,
+    2.06198,
+    2.01255,
+    1.99117,
+    1.97557,
+    1.94126,
+    1.93526,
+    1.92237,
+    1.90711,
+    1.87951,
+    1.87222,
+    1.87676,
+    1.8559,
+    1.85873,
+    1.84782,
+    1.82602,
+    1.81472,
+    1.81814,
+    1.79376,
+    1.78011,
+    1.7703,
+    1.78509,
+    1.76044,
+    1.7311,
+    1.74729,
+    1.73675
+   ],
+   "bpc_addestramento": 1.7282,
+   "bpc_validazione": 1.93376,
+   "bpc_fuori": 2.03034,
+   "secondi": 2339.1,
+   "scarto": 0.30214
+  },
+  {
+   "lavoro": "addestra|2|1",
+   "piega": 2,
+   "replica": 1,
+   "seme": 7102,
+   "fogli": [
+    70,
+    10,
+    20
+   ],
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "segni_addestramento": 148108,
+   "parametri": 665481,
+   "epoche": 21,
+   "epoca_scelta": 11,
+   "arrivata_al_massimo": false,
+   "curva_validazione": [
+    2.20781,
+    2.25811,
+    2.14911,
+    2.06729,
+    2.06345,
+    2.06476,
+    2.03194,
+    2.01701,
+    1.97754,
+    2.00225,
+    1.94255,
+    1.97447,
+    1.97889,
+    1.99241,
+    1.96397,
+    1.96173,
+    1.96565,
+    1.96826,
+    1.96917,
+    1.99493,
+    1.98027
+   ],
+   "curva_addestramento": [
+    2.81211,
+    2.20733,
+    2.13334,
+    2.08318,
+    2.04805,
+    2.03182,
+    2.00451,
+    1.97973,
+    1.9571,
+    1.94883,
+    1.9453,
+    1.91653,
+    1.90986,
+    1.90656,
+    1.88491,
+    1.88301,
+    1.87167,
+    1.85591,
+    1.83347,
+    1.82403,
+    1.81744
+   ],
+   "bpc_addestramento": 1.86113,
+   "bpc_validazione": 1.94255,
+   "bpc_fuori": 1.97113,
+   "secondi": 1740.5,
+   "scarto": 0.11
+  },
+  {
+   "lavoro": "addestra|3|1",
+   "piega": 3,
+   "replica": 1,
+   "seme": 7103,
+   "fogli": [
+    70,
+    10,
+    20
+   ],
+   "pagine": [
+    146,
+    20,
+    41
+   ],
+   "segni_addestramento": 140172,
+   "parametri": 665481,
+   "epoche": 23,
+   "epoca_scelta": 13,
+   "arrivata_al_massimo": false,
+   "curva_validazione": [
+    2.17594,
+    2.29531,
+    2.09689,
+    2.09904,
+    2.06458,
+    2.00545,
+    1.97284,
+    1.94265,
+    1.95914,
+    1.99841,
+    1.92239,
+    1.91814,
+    1.91065,
+    1.92381,
+    1.91769,
+    1.93938,
+    1.93203,
+    1.94311,
+    1.94532,
+    1.93668,
+    1.96395,
+    1.97147,
+    1.99084
+   ],
+   "curva_addestramento": [
+    2.54988,
+    2.23086,
+    2.15712,
+    2.10249,
+    2.08954,
+    2.03745,
+    2.01547,
+    1.98233,
+    1.96189,
+    1.9486,
+    1.93803,
+    1.9134,
+    1.92114,
+    1.8991,
+    1.87983,
+    1.85968,
+    1.85213,
+    1.84423,
+    1.83166,
+    1.81638,
+    1.79466,
+    1.80303,
+    1.78313
+   ],
+   "bpc_addestramento": 1.81236,
+   "bpc_validazione": 1.91065,
+   "bpc_fuori": 1.96551,
+   "secondi": 1333.0,
+   "scarto": 0.15315
+  },
+  {
+   "lavoro": "addestra|4|1",
+   "piega": 4,
+   "replica": 1,
+   "seme": 7104,
+   "fogli": [
+    70,
+    10,
+    20
+   ],
+   "pagine": [
+    148,
+    19,
+    40
+   ],
+   "segni_addestramento": 146131,
+   "parametri": 665481,
+   "epoche": 22,
+   "epoca_scelta": 12,
+   "arrivata_al_massimo": false,
+   "curva_validazione": [
+    2.36785,
+    2.59323,
+    2.35295,
+    2.36479,
+    2.39465,
+    2.26593,
+    2.19193,
+    2.15666,
+    2.16253,
+    2.24469,
+    2.15229,
+    2.13173,
+    2.1831,
+    2.20123,
+    2.14614,
+    2.15854,
+    2.15831,
+    2.17114,
+    2.15748,
+    2.18521,
+    2.18764,
+    2.2181
+   ],
+   "curva_addestramento": [
+    2.61686,
+    2.21046,
+    2.15849,
+    2.10154,
+    2.06424,
+    2.04957,
+    2.01401,
+    1.97694,
+    1.97539,
+    1.95816,
+    1.95171,
+    1.935,
+    1.91923,
+    1.91203,
+    1.9037,
+    1.8902,
+    1.88243,
+    1.86629,
+    1.84738,
+    1.82643,
+    1.82014,
+    1.81823
+   ],
+   "bpc_addestramento": 1.84685,
+   "bpc_validazione": 2.13173,
+   "bpc_fuori": 1.83748,
+   "secondi": 1210.6,
+   "scarto": -0.00937
+  }
+ ],
+ "vetrina_modello": {
+  "lavoro": "addestra|tutto",
+  "piega": "tutto",
+  "replica": 0,
+  "seme": 7099,
+  "fogli": [
+   100,
+   0,
+   0
+  ],
+  "pagine": [
+   207,
+   0,
+   0
+  ],
+  "segni_addestramento": 203596,
+  "parametri": 665481,
+  "epoche": 13,
+  "epoca_scelta": 13,
+  "arrivata_al_massimo": false,
+  "curva_validazione": [],
+  "curva_addestramento": [
+   2.58831,
+   2.14526,
+   2.11421,
+   2.0618,
+   2.02281,
+   1.99309,
+   1.9695,
+   1.95503,
+   1.94538,
+   1.92442,
+   1.91195,
+   1.89461,
+   1.88975
+  ],
+  "bpc_addestramento": 1.86264,
+  "bpc_validazione": null,
+  "bpc_fuori": null,
+  "secondi": 1465.0
+ },
+ "giudici": {
+  "senza messaggio": {
+   "libri": 20,
+   "AUC_e231": {
+    "media": 0.791870152121113,
+    "errore": 0.005394644122096845,
+    "v21": 0.554,
+    "differenza": 0.23787015212111295,
+    "errore_differenza": 0.0067158160490050686,
+    "lettura": "più lontano dal vero del v21",
+    "min_max": [
+     0.7399965347392391,
+     0.8335749097245019
+    ],
+    "per_replica": {
+     "0": [
+      0.7949116343198775,
+      0.0062631921298026754
+     ],
+     "1": [
+      0.7888286699223486,
+      0.009032863634348446
+     ]
+    },
+    "repliche_diverse": false
+   },
+   "AUC_e266": {
+    "media": 0.854657297620527,
+    "errore": 0.0038214187103857078,
+    "v21": 0.601,
+    "differenza": 0.253657297620527,
+    "errore_differenza": 0.0062931105949352245,
+    "lettura": "più lontano dal vero del v21",
+    "min_max": [
+     0.8266450000000001,
+     0.8917047549304311
+    ],
+    "per_replica": {
+     "0": [
+      0.8493532325186911,
+      0.0055230453518196046
+     ],
+     "1": [
+      0.8599613627223628,
+      0.004990220142660549
+     ]
+    },
+    "repliche_diverse": false
+   },
+   "A": {
+    "libri": 20,
+    "libri_senza_A": 0,
+    "media": 0.6752913930006862,
+    "errore": 0.005166012694219143,
+    "v21": 0.7464179982354671,
+    "differenza": -0.07112660523478087,
+    "errore_differenza": 0.006984995249004316,
+    "lettura": "più vicino al vero del v21",
+    "v21_libri": 10,
+    "min_max": [
+     0.6294676992451721,
+     0.7238358984413292
+    ],
+    "per_replica": {
+     "0": [
+      0.6935143613371237,
+      0.004726967706194659
+     ],
+     "1": [
+      0.6570684246642486,
+      0.004067226036930774
+     ]
+    },
+    "repliche_diverse": true,
+    "lettura_assoluta": "giudice A vede la differenza (sopra 0,65)",
+    "nota_circolarita": "NON conclusivo: un giudice che è una rete addestrata sullo stesso testo vede il testo della rete come atteso; si legge solo insieme ai giudici 1 e 2",
+    "diff_profilo": {
+     "bit_medi": -0.0063089851485148415,
+     "bit_sd": 0.04863430693069309,
+     "bit_p95": 0.1166626608910891,
+     "inizio_parola": -0.048743960396039614,
+     "inizio_riga": 0.0925339108910891,
+     "dentro_parola": 0.00014591584158415177,
+     "spazio": -0.023738143564356436,
+     "fine_riga": 0.13977634900990105,
+     "riga_paragrafo": -0.008810754950495043,
+     "riga_altra": -0.002331782178217829,
+     "quarto1": -0.005975767326732663,
+     "quarto2": 0.015330853960396022,
+     "quarto3": -0.009693688118811878,
+     "quarto4": -0.02474925742574257
+    }
+   },
+   "gruppi_e266": {
+    "G1": 0.6970016356280815,
+    "G2": 0.7348690947960984,
+    "G3": 0.7304706193605168,
+    "G4": 0.603157235718835,
+    "G5": 0.4819551006861497,
+    "G6": 0.6482627455432662,
+    "G7": 0.5676729814882109,
+    "G8": 0.6172040375452458,
+    "G9": 0.7282368110308485
+   },
+   "pagine_giudicate": 200.35,
+   "pagella": 13,
+   "cancello_riga": 0,
+   "estese": 5.7,
+   "materie_mancate": {
+    "gradiente": 20,
+    "deriva": 20,
+    "coppie viste altrove": 20,
+    "profilo pagina": 19,
+    "ripetizione": 16,
+    "omogeneità": 16,
+    "prime righe come registro": 16,
+    "scelte di riga": 10,
+    "verticale": 9
+   },
+   "pesanti_e266": [
+    [
+     "G9 JSD pagina-manoscritto",
+     -1.767195171809966,
+     0.03992991016046268,
+     0.02583979887369736
+    ],
+    [
+     "G3 lunghezza media",
+     -1.5765150446150094,
+     4.2931312182067245,
+     4.2545766909714295
+    ],
+    [
+     "G3 uniche nella pagina",
+     1.5310478424238163,
+     0.634103808889846,
+     0.661621371513832
+    ],
+    [
+     "G3 fra le 100 piu frequenti",
+     1.415716427653187,
+     0.42499179991088626,
+     0.4633617098145572
+    ],
+    [
+     "G4 unioni attestate",
+     -1.224109883847763,
+     0.09115932399517886,
+     0.09098180204394925
+    ],
+    [
+     "G6 coppie viste altrove",
+     1.2117090764741836,
+     0.2215087568051863,
+     0.2546734784514255
+    ],
+    [
+     "G8 lunghezza parole prime righe",
+     -1.1471847233565748,
+     4.630549571295535,
+     4.608476177373501
+    ],
+    [
+     "G3 tipi su parole",
+     1.0716755402614597,
+     0.7545775640737651,
+     0.7744427737780586
+    ]
+   ]
+  },
+  "con messaggio": {
+   "libri": 20,
+   "AUC_e231": {
+    "media": 0.7949473076819541,
+    "errore": 0.004952011710552267,
+    "v21": 0.554,
+    "differenza": 0.24094730768195405,
+    "errore_differenza": 0.006365722267068112,
+    "lettura": "più lontano dal vero del v21 (le due repliche dei modelli differiscono più di 2 errori)",
+    "min_max": [
+     0.7304967698819336,
+     0.8288746201352808
+    ],
+    "per_replica": {
+     "0": [
+      0.8058136279835421,
+      0.0035752748335890457
+     ],
+     "1": [
+      0.7840809873803662,
+      0.008032260054723205
+     ]
+    },
+    "repliche_diverse": true
+   },
+   "AUC_e266": {
+    "media": 0.8643830290982355,
+    "errore": 0.004240833757405891,
+    "v21": 0.601,
+    "differenza": 0.2633830290982355,
+    "errore_differenza": 0.006556269591616361,
+    "lettura": "più lontano dal vero del v21",
+    "min_max": [
+     0.8083265265711244,
+     0.8943986534986758
+    ],
+    "per_replica": {
+     "0": [
+      0.8665476875648515,
+      0.0036070734287764624
+     ],
+     "1": [
+      0.8622183706316194,
+      0.00786657623791794
+     ]
+    },
+    "repliche_diverse": false
+   },
+   "A": {
+    "libri": 20,
+    "libri_senza_A": 0,
+    "media": 0.6676404274090776,
+    "errore": 0.005678357289560252,
+    "v21": 0.7511038133516322,
+    "differenza": -0.08346338594255465,
+    "errore_differenza": 0.008427635153820359,
+    "lettura": "più vicino al vero del v21",
+    "v21_libri": 10,
+    "min_max": [
+     0.6211694931869425,
+     0.7075923929026565
+    ],
+    "per_replica": {
+     "0": [
+      0.6862253700617587,
+      0.005627117402507268
+     ],
+     "1": [
+      0.6490554847563964,
+      0.0052649990834544415
+     ]
+    },
+    "repliche_diverse": true,
+    "lettura_assoluta": "giudice A vede la differenza (sopra 0,65)",
+    "nota_circolarita": "NON conclusivo: un giudice che è una rete addestrata sullo stesso testo vede il testo della rete come atteso; si legge solo insieme ai giudici 1 e 2",
+    "diff_profilo": {
+     "bit_medi": -0.004555594059405933,
+     "bit_sd": 0.04907780940594061,
+     "bit_p95": 0.1195327599009901,
+     "inizio_parola": -0.04332033415841585,
+     "inizio_riga": 0.07658264851485148,
+     "dentro_parola": 0.002043886138613853,
+     "spazio": -0.02007629950495049,
+     "fine_riga": 0.13241710396039605,
+     "riga_paragrafo": -0.008313143564356433,
+     "riga_altra": -0.0005471905940594133,
+     "quarto1": -0.003263403465346529,
+     "quarto2": 0.014417883663366314,
+     "quarto3": -0.007387264851485147,
+     "quarto4": -0.021834467821782177
+    }
+   },
+   "gruppi_e266": {
+    "G1": 0.7009465967343923,
+    "G2": 0.7332754535476012,
+    "G3": 0.7355149007020282,
+    "G4": 0.6044712407121055,
+    "G5": 0.4752218203258096,
+    "G6": 0.6523801328998896,
+    "G7": 0.5800827958004077,
+    "G8": 0.6222617168056337,
+    "G9": 0.7283076573992106
+   },
+   "pagine_giudicate": 200.9,
+   "pagella": 12.85,
+   "cancello_riga": 0,
+   "estese": 5.65,
+   "materie_mancate": {
+    "gradiente": 20,
+    "deriva": 20,
+    "profilo pagina": 20,
+    "coppie viste altrove": 20,
+    "prime righe come registro": 18,
+    "ripetizione": 17,
+    "omogeneità": 17,
+    "verticale": 9,
+    "scelte di riga": 8,
+    "dispersione delle lunghezze": 1
+   },
+   "pesanti_e266": [
+    [
+     "G9 JSD pagina-manoscritto",
+     -1.9052581209403234,
+     0.040196397742557295,
+     0.02551228875055275
+    ],
+    [
+     "G3 fra le 100 piu frequenti",
+     1.4888797270784273,
+     0.42440895695381425,
+     0.46945564057732353
+    ],
+    [
+     "G3 uniche nella pagina",
+     1.4038517242620443,
+     0.6359368522910547,
+     0.6579625886457466
+    ],
+    [
+     "G3 tipi su parole",
+     1.2978622765597412,
+     0.7559315279272835,
+     0.7726654167893184
+    ],
+    [
+     "G4 unioni attestate",
+     -1.1497433406049582,
+     0.0915878666728715,
+     0.09282497355734864
+    ],
+    [
+     "G3 uniche nel testo",
+     1.108976069407368,
+     0.14605069480008964,
+     0.14508637650653194
+    ],
+    [
+     "G2 a+r",
+     -1.0888394787137392,
+     0.020980544051638114,
+     0.014559328454670712
+    ],
+    [
+     "G6 somiglianza a distanza 2",
+     -1.066579563234761,
+     0.21981323081773185,
+     0.2097431940198473
+    ]
+   ]
+  }
+ },
+ "giudice_A": {
+  "v21_senza_messaggio": [
+   0.7464179982354671,
+   0.004701326565106868
+  ],
+  "v21_con_messaggio": [
+   0.7511038133516322,
+   0.006227462788167155
+  ],
+  "v21_libri": 10,
+  "diff_profilo_v21_senza": {
+   "bit_medi": 0.13194455445544553,
+   "bit_sd": 0.1050222277227723,
+   "bit_p95": 0.4055483415841584,
+   "inizio_parola": 0.17999128712871287,
+   "inizio_riga": 0.17239121287128714,
+   "dentro_parola": 0.12818358910891087,
+   "spazio": 0.039773886138613865,
+   "fine_riga": 0.22503349009900994,
+   "riga_paragrafo": 0.13892262376237624,
+   "riga_altra": 0.12467039603960395,
+   "quarto1": 0.12041396039603963,
+   "quarto2": 0.15521784653465343,
+   "quarto3": 0.12473400990099012,
+   "quarto4": 0.1277325
+  },
+  "ia01_v21_con_messaggio": 0.751,
+  "controlli_ia01": {
+   "parole rimescolate": 0.985,
+   "e192": 0.957,
+   "negativo": 0.483,
+   "righe rimescolate": 0.576
+  },
+  "scarto_ricalcolo_da_ia01": 0.00010381335163223149,
+  "ricalcolo_coerente_con_ia01": true,
+  "righe_rimescolate_nella_pagina": 0.5887560043133027,
+  "coerenza_contesto_ia01": {
+   "pagine": [
+    202,
+    202
+   ],
+   "stesse_pagine": true,
+   "stessi_segni": true,
+   "sequenze_uguali": 202
+  },
+  "modelli_del_testo": [
+   {
+    "lavoro": "lmA|1|0",
+    "seme": 1,
+    "piega": 0,
+    "pagine": [
+     144,
+     16,
+     42
+    ],
+    "passi": 1440,
+    "bpc_validazione": 1.94958,
+    "secondi": 96.0,
+    "segni_addestramento": 137701,
+    "segni_validazione": 14400,
+    "bpc_vere_fuori": 2.062656879425049
+   },
+   {
+    "lavoro": "lmA|1|1",
+    "seme": 1,
+    "piega": 1,
+    "pagine": [
+     148,
+     16,
+     38
+    ],
+    "passi": 1240,
+    "bpc_validazione": 1.85046,
+    "secondi": 220.3,
+    "segni_addestramento": 147674,
+    "segni_validazione": 14586,
+    "bpc_vere_fuori": 2.099076509475708
+   },
+   {
+    "lavoro": "lmA|1|2",
+    "seme": 1,
+    "piega": 2,
+    "pagine": [
+     144,
+     16,
+     42
+    ],
+    "passi": 1620,
+    "bpc_validazione": 1.89462,
+    "secondi": 114.6,
+    "segni_addestramento": 138731,
+    "segni_validazione": 14747,
+    "bpc_vere_fuori": 2.0724475383758545
+   },
+   {
+    "lavoro": "lmA|1|3",
+    "seme": 1,
+    "piega": 3,
+    "pagine": [
+     145,
+     16,
+     41
+    ],
+    "passi": 1720,
+    "bpc_validazione": 1.9928,
+    "secondi": 158.6,
+    "segni_addestramento": 135181,
+    "segni_validazione": 11658,
+    "bpc_vere_fuori": 2.028531789779663
+   },
+   {
+    "lavoro": "lmA|1|4",
+    "seme": 1,
+    "piega": 4,
+    "pagine": [
+     147,
+     16,
+     39
+    ],
+    "passi": 1480,
+    "bpc_validazione": 1.86466,
+    "secondi": 177.6,
+    "segni_addestramento": 132763,
+    "segni_validazione": 13063,
+    "bpc_vere_fuori": 1.9455276727676392
+   },
+   {
+    "lavoro": "lmA|2|0",
+    "seme": 2,
+    "piega": 0,
+    "pagine": [
+     144,
+     16,
+     42
+    ],
+    "passi": 1240,
+    "bpc_validazione": 2.00668,
+    "secondi": 129.7,
+    "segni_addestramento": 134262,
+    "segni_validazione": 17839,
+    "bpc_vere_fuori": 2.0518035888671875
+   },
+   {
+    "lavoro": "lmA|2|1",
+    "seme": 2,
+    "piega": 1,
+    "pagine": [
+     148,
+     16,
+     38
+    ],
+    "passi": 1420,
+    "bpc_validazione": 1.95922,
+    "secondi": 112.3,
+    "segni_addestramento": 145716,
+    "segni_validazione": 16544,
+    "bpc_vere_fuori": 2.0959651470184326
+   },
+   {
+    "lavoro": "lmA|2|2",
+    "seme": 2,
+    "piega": 2,
+    "pagine": [
+     144,
+     16,
+     42
+    ],
+    "passi": 1880,
+    "bpc_validazione": 2.03284,
+    "secondi": 143.0,
+    "segni_addestramento": 142210,
+    "segni_validazione": 11268,
+    "bpc_vere_fuori": 2.0756967067718506
+   },
+   {
+    "lavoro": "lmA|2|3",
+    "seme": 2,
+    "piega": 3,
+    "pagine": [
+     145,
+     16,
+     41
+    ],
+    "passi": 1740,
+    "bpc_validazione": 1.97893,
+    "secondi": 123.8,
+    "segni_addestramento": 134878,
+    "segni_validazione": 11961,
+    "bpc_vere_fuori": 2.0364153385162354
+   },
+   {
+    "lavoro": "lmA|2|4",
+    "seme": 2,
+    "piega": 4,
+    "pagine": [
+     147,
+     16,
+     39
+    ],
+    "passi": 1740,
+    "bpc_validazione": 1.96663,
+    "secondi": 282.2,
+    "segni_addestramento": 125248,
+    "segni_validazione": 20578,
+    "bpc_vere_fuori": 1.9507843255996704
+   }
+  ]
+ },
+ "differenze_con_meno_senza": {
+  "AUC_e231": {
+   "differenza": 0.003077155560841094,
+   "errore": 0.007322882300400631,
+   "libri": [
+    20,
+    20
+   ]
+  },
+  "AUC_e266": {
+   "differenza": 0.009725731477708499,
+   "errore": 0.005708582303693215,
+   "libri": [
+    20,
+    20
+   ]
+  },
+  "pagella": {
+   "differenza": -0.15000000000000036,
+   "errore": 0.2436023506930052,
+   "libri": [
+    20,
+    20
+   ]
+  }
+ },
+ "scala": {
+  "O1": {
+   "AUC_e231": 0.48798769728457997,
+   "AUC_e266": 0.6012621311636115
+  },
+  "O2": {
+   "AUC_e231": 0.9813229095186746,
+   "AUC_e266": 0.9880943044799528
+  }
+ },
+ "scala_paper": {
+  "O1 righe rimescolate nella pagina": [
+   0.481,
+   0.595
+  ],
+  "O2 parole rimescolate nella riga": [
+   0.984,
+   0.99
+  ]
+ },
+ "copia": {
+  "senza messaggio": {
+   "5-grammi": [
+    2.535625538820427e-06,
+    2.535625538820427e-06
+   ],
+   "3-grammi": [
+    0.008076290026300878,
+    0.00013909914178665333
+   ],
+   "righe intere": [
+    0.0,
+    0.0
+   ],
+   "parole nuove": [
+    0.14608081520728092,
+    0.0005051663050761729
+   ]
+  },
+  "con messaggio": {
+   "5-grammi": [
+    0.0,
+    0.0
+   ],
+   "3-grammi": [
+    0.008083431461814151,
+    0.00013201183641350244
+   ],
+   "righe intere": [
+    0.0,
+    0.0
+   ],
+   "parole nuove": [
+    0.14675284989901544,
+    0.00045720954062642956
+   ]
+  }
+ },
+ "copia_riferimenti": {
+  "naturale": {
+   "5-grammi": 0.0,
+   "3-grammi": 0.008937288772061585,
+   "righe intere": 0.0,
+   "parole nuove": 0.1529988813355133
+  },
+  "v21 (libro d'esempio)": {
+   "5-grammi": 0.0,
+   "3-grammi": 0.004019037546271814,
+   "righe intere": 0.0,
+   "parole nuove": 0.1529700272479564
+  }
+ },
+ "letture_copia": {
+  "5-grammi": {
+   "generato": 2.535625538820427e-06,
+   "errore": 2.535625538820427e-06,
+   "naturale": 0.0,
+   "differenza": 2.535625538820427e-06,
+   "lettura": "copia come il testo vero"
+  },
+  "righe intere": {
+   "generato": 0.0,
+   "errore": 0.0,
+   "naturale": 0.0,
+   "differenza": 0.0,
+   "lettura": "copia come il testo vero"
+  }
+ },
+ "capacita": {
+  "con_messaggio": [
+   349074.6,
+   333.77240433375675
+  ],
+  "senza_messaggio": [
+   348609.7,
+   459.43304362980615
+  ],
+  "bit_messaggio": 38304,
+  "v21": [
+   81100,
+   85900
+  ],
+  "lettura": "più del v21"
+ },
+ "traccia": {
+  "AUC_diretta": 0.4963060225489178,
+  "per_gruppo": {
+   "G1": 0.49886588018468014,
+   "G2": 0.49896580743763996,
+   "G3": 0.500240285678087,
+   "G4": 0.4857702380545751,
+   "G5": 0.48682937003679505,
+   "G6": 0.49645617990103197,
+   "G7": 0.4824618707883691,
+   "G8": 0.4834982072445199,
+   "G9": 0.49604834347261867
+  },
+  "pagine": 8127,
+  "controllo_negativo_dispari_pari": 0.5108969693143993,
+  "centrato_per_replica": true,
+  "lettura": "nessuna traccia"
+ },
+ "vetrina": {
+  "lavoro": "libro|vetrina|0",
+  "caso": "vetrina",
+  "i": 0,
+  "replica": null,
+  "bit_usati": 280114,
+  "capacita_bit": 280066,
+  "righe": 4130,
+  "parole": 29362,
+  "segni_per_parola": 4.53347864586881,
+  "bit_messaggio": 38304,
+  "recupero_esatto": true,
+  "chiave_sbagliata_respinta": true,
+  "AUC_e231": 0.9973931231506988,
+  "gruppi_e231": {
+   "G1": 0.9726558514437302,
+   "G2": 0.9800785634118968,
+   "G3": 0.8712784409754107,
+   "G4": 0.7905060708091012,
+   "G5": 0.5093663911845729
+  },
+  "pesanti_e231": [
+   [
+    "G3 tipi su parole",
+    0.9745910069395352,
+    0.7541133787119485,
+    0.7806766344818812
+   ],
+   [
+    "G3 uniche nella pagina",
+    0.8871568011715851,
+    0.6334838602583873,
+    0.6634760050085405
+   ],
+   [
+    "G2 o+d",
+    -0.6823792446182855,
+    0.021413697760655163,
+    0.007060869476392809
+   ],
+   [
+    "G2 e+y",
+    0.5841095231522818,
+    0.026949001220048684,
+    0.054069047736874674
+   ],
+   [
+    "G1 o",
+    -0.5711952771376333,
+    0.15821323244587915,
+    0.12859140565913035
+   ],
+   [
+    "G1 d",
+    -0.5649705391512098,
+    0.07665939702354127,
+    0.05132767024968732
+   ]
+  ],
+  "AUC_e266": 0.997842056932966,
+  "gruppi_e266": {
+   "G1": 0.9726558514437302,
+   "G2": 0.9800785634118968,
+   "G3": 0.8712784409754107,
+   "G4": 0.7905060708091012,
+   "G5": 0.5093663911845729,
+   "G6": 0.6675951433527191,
+   "G7": 0.6878940924395469,
+   "G8": 0.6856851341699827,
+   "G9": 0.703009896949291
+  },
+  "pesanti_e266": [
+   [
+    "G3 tipi su parole",
+    0.9493652986606017,
+    0.7541133787119485,
+    0.7806766344818812
+   ],
+   [
+    "G3 uniche nella pagina",
+    0.8640320731466974,
+    0.6334838602583873,
+    0.6634760050085405
+   ],
+   [
+    "G2 o+d",
+    -0.5988970693173725,
+    0.021413697760655163,
+    0.007060869476392809
+   ],
+   [
+    "G1 d",
+    -0.5329858924883522,
+    0.07665939702354127,
+    0.05132767024968732
+   ],
+   [
+    "G2 k+e",
+    0.5315472966917674,
+    0.02310536100260727,
+    0.0532996701982298
+   ],
+   [
+    "G1 o",
+    -0.5312514742038771,
+    0.15821323244587915,
+    0.12859140565913035
+   ],
+   [
+    "G2 e+y",
+    0.5309744371126961,
+    0.026949001220048684,
+    0.054069047736874674
+   ],
+   [
+    "G2 e+k",
+    -0.4725590944153819,
+    0.0034553935879641025,
+    0.0019528601379607794
+   ]
+  ],
+  "pagine_giudicate": 198,
+  "copia": {
+   "5-grammi": [
+    0,
+    13371
+   ],
+   "3-grammi": [
+    210,
+    21132
+   ],
+   "righe intere": [
+    0,
+    3764
+   ],
+   "parole nuove": [
+    4235,
+    29362
+   ]
+  },
+  "controllo_copia": {
+   "totali": {
+    "righe": 3997,
+    "righe copiate": 0,
+    "righe copiate nello stesso posto": 0,
+    "5-grammi": 13371,
+    "5-grammi copiati": 0,
+    "pagina intera identica": 0
+   },
+   "pagine": 207,
+   "pagine_pulite": [
+    "f1r",
+    "f1v",
+    "f2r",
+    "f2v",
+    "f3r",
+    "f3v",
+    "f4r",
+    "f4v",
+    "f5r",
+    "f5v",
+    "f6r",
+    "f6v",
+    "f7r",
+    "f7v",
+    "f8r",
+    "f8v",
+    "f9r",
+    "f9v",
+    "f10r",
+    "f10v",
+    "f11r",
+    "f11v",
+    "f13r",
+    "f13v",
+    "f14r",
+    "f14v",
+    "f15r",
+    "f15v",
+    "f16r",
+    "f16v",
+    "f17r",
+    "f17v",
+    "f18r",
+    "f18v",
+    "f19r",
+    "f19v",
+    "f20r",
+    "f20v",
+    "f21r",
+    "f21v",
+    "f22r",
+    "f22v",
+    "f23r",
+    "f23v",
+    "f24r",
+    "f24v",
+    "f25r",
+    "f25v",
+    "f26r",
+    "f26v",
+    "f27r",
+    "f27v",
+    "f28r",
+    "f28v",
+    "f29r",
+    "f29v",
+    "f30r",
+    "f30v",
+    "f31r",
+    "f31v",
+    "f32r",
+    "f32v",
+    "f33r",
+    "f33v",
+    "f34r",
+    "f34v",
+    "f35r",
+    "f35v",
+    "f36r",
+    "f36v",
+    "f37r",
+    "f37v",
+    "f38r",
+    "f38v",
+    "f39r",
+    "f39v",
+    "f40r",
+    "f40v",
+    "f41r",
+    "f41v",
+    "f42r",
+    "f42v",
+    "f43r",
+    "f43v",
+    "f44r",
+    "f44v",
+    "f45r",
+    "f45v",
+    "f46r",
+    "f46v",
+    "f47r",
+    "f47v",
+    "f48r",
+    "f48v",
+    "f49r",
+    "f49v",
+    "f50r",
+    "f50v",
+    "f51r",
+    "f51v",
+    "f52r",
+    "f52v",
+    "f53r",
+    "f53v",
+    "f54r",
+    "f54v",
+    "f55r",
+    "f55v",
+    "f56r",
+    "f56v",
+    "f57r",
+    "f58r",
+    "f58v",
+    "f65v",
+    "f66r",
+    "f66v",
+    "f67r1",
+    "f67r2",
+    "f67v2",
+    "f68r1",
+    "f68r2",
+    "f68v3",
+    "f68v2",
+    "f69r",
+    "f70r2",
+    "f75r",
+    "f75v",
+    "f76r",
+    "f76v",
+    "f77r",
+    "f77v",
+    "f78r",
+    "f78v",
+    "f79r",
+    "f79v",
+    "f80r",
+    "f80v",
+    "f81r",
+    "f81v",
+    "f82r",
+    "f82v",
+    "f83r",
+    "f83v",
+    "f84r",
+    "f84v",
+    "f85r1",
+    "f85r2",
+    "fRos",
+    "f86v4",
+    "f86v6",
+    "f86v5",
+    "f86v3",
+    "f87r",
+    "f87v",
+    "f88r",
+    "f88v",
+    "f89r1",
+    "f89r2",
+    "f89v2",
+    "f89v1",
+    "f90r1",
+    "f90r2",
+    "f90v2",
+    "f90v1",
+    "f93r",
+    "f93v",
+    "f94r",
+    "f94v",
+    "f95r1",
+    "f95r2",
+    "f95v2",
+    "f95v1",
+    "f96r",
+    "f96v",
+    "f99r",
+    "f99v",
+    "f100r",
+    "f100v",
+    "f101r",
+    "f101v",
+    "f102r1",
+    "f102r2",
+    "f102v2",
+    "f102v1",
+    "f103r",
+    "f103v",
+    "f104r",
+    "f104v",
+    "f105r",
+    "f105v",
+    "f106r",
+    "f106v",
+    "f107r",
+    "f107v",
+    "f108r",
+    "f108v",
+    "f111r",
+    "f111v",
+    "f112r",
+    "f112v",
+    "f113r",
+    "f113v",
+    "f114r",
+    "f114v",
+    "f115r",
+    "f115v",
+    "f116r"
+   ],
+   "pagine_con_copia": {}
+  },
+  "pagella": 13,
+  "riga": false,
+  "mancano": [
+   "ripetizione",
+   "omogeneità",
+   "gradiente",
+   "profilo pagina",
+   "verticale"
+  ],
+  "estese_passate": 3,
+  "estese_mancate": [
+   "dispersione delle lunghezze",
+   "prime righe come registro",
+   "scelte di riga",
+   "concordanza delle desinenze",
+   "coppie viste altrove"
+  ],
+  "secondi": 556.8
+ },
+ "immagini": [
+  [
+   "ia07_vetrina_f1v.png",
+   91231
+  ],
+  [
+   "ia07_vetrina_f75r.png",
+   126848
+  ],
+  [
+   "ia07_vetrina_f58r.png",
+   145792
+  ],
+  [
+   "ia07_vetrina_f88r.png",
+   128524
+  ]
+ ]
+}
