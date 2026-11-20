@@ -8,15 +8,17 @@ La ricerca ha esaurito i suoi numeri (e307–e399). Gli esperimenti dal 400 in s
 Davide, 4/10 notte). **Dal 4/10 la ricerca usa la serie e3a01, e3a02, … e3a99, poi e3b01, …** (esegui.py la accetta,
 come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
 
-## Paper "Voynich e IA" (18/11) — nuovo filone
+## Paper "Voynich e IA" (18/11) — passato a una chat nuova il 20/11
 
-- Decisione di Davide del 18/11: nuovo paper su Voynich e IA; tema preciso ancora aperto. Diario a parte:
-  `paper_ia/DIARIO.md` (decisioni, piano, stato semplice degli esperimenti).
-- Esperimenti in preparazione, numerati da 1 (Davide): IA1 giudice neurale, IA2 parole mai viste, IA3 quanto
-  contesto serve, IA4 cervello di una lingua, IA5 reti più grandi, IA6 traduzioni dei grandi modelli, IA7 Voynich
-  ricreato da un'IA locale (idea di Davide, con e senza messaggio). Codici `ia01`–`ia07`. Non si lanciano finché
-  Davide non decide.
-- **Azione per Davide:** accesso del programma `claude` da riga di comando (serve all'IA6).
+- Decisione di Davide del 18/11: nuovo paper su Voynich e IA; tema preciso ancora aperto.
+- 20/11: il filone passa a una chat nuova con la sua cartella di progetto fuori dal repo (regole, diario `JOURNAL.md`,
+  messaggio di passaggio); `paper_ia/DIARIO.md` è chiuso. Gli esperimenti restano in questo repo.
+- Esperimenti numerati da 1 (Davide): IA1 giudice neurale, IA2 parole mai viste, IA3 quanto contesto serve, IA4
+  cervello di una lingua, IA5 reti più grandi, IA6 traduzioni dei grandi modelli, IA7 Voynich ricreato da un'IA
+  locale (idea di Davide, con e senza messaggio). Codici `ia01`–`ia07`. Preparati, rivisti da tre revisori e
+  corretti; preregistrazioni e codice **non ancora committati né lanciati** (Davide: aspettare).
+- **Azione per Davide:** accesso del programma `claude` da riga di comando (`strumenti/Accesso claude.bat`, serve
+  all'IA6).
 
 ## White paper v2 (8/10) — LEGGERE PRIMA
 

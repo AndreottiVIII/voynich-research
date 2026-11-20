@@ -87,3 +87,8 @@ in fondo si allunga solo in coda; il piano e lo stato si aggiornano.
     serie; letture "non valide" se cade il controllo da cui dipendono.
 - Nota per il quaderno: la griglia di E90 in e3c95 è di 1,024 letture, non 0,9 come scritto nella voce del 17/11
   (non cambia le conclusioni); da dichiarare nella prossima voce.
+
+### 20/11/2026
+
+- **Diario chiuso qui.** Il paper "Voynich e IA" passa a una chat nuova, con la sua cartella di progetto fuori dal
+  repo; il diario continua lì (`JOURNAL.md`). Gli esperimenti IA1–IA7 restano in questo repo.
