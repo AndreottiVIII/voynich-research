@@ -16446,3 +16446,61 @@ con 10 processi, nessuna arrivata al massimo dei passi. Ambiente `dati/cache/.ve
   sono letture aggiunte della tabella, dichiarate qui come tali.
 - **Per il paper:** è una misura indipendente che va nella stessa direzione del §9. Se e dove metterla lo decide
   Davide.
+
+## 20/11/2026 (mattina) — ia01 (IA1): una rete che misura la sorpresa separa le pagine v21 dalle vere con AUC 0,75 (i giudici del paper 0,55–0,60); nessuna traccia del messaggio
+
+Preregistrato (`preregistrazioni/ia01.md`, commit 48c0f34; codice d37f8b8). Primo esperimento del paper "Voynich e IA"
+(diario in `C:/Users/davide/Desktop/ClaudeTower/voynich-ia/JOURNAL.md`). Davide ha deciso di lanciare solo IA1 per
+primo, per vedere se il codice regge sul Voynich vero. Corsa: coda `ia_A`, 10 processi, 23 minuti, uscita 0, nessuna
+ripartenza. Risultati in `risultati/ia01_giudice_neurale.{md,json}` e `risultati/ia01_corse.jsonl` (solo nomi di
+pagina e punteggi).
+
+- **Domanda:** un giudice fatto con reti neurali separa le pagine del voynichizzatore v21 (chiavi 13–22, con messaggio)
+  da quelle vere meglio dei due giudici del paper v2 (AUC 0,554 e 0,601)? Separa i libri con messaggio da quelli senza
+  (paper: 0,506)?
+- **Controlli (soglie scritte prima):**
+  - giudice A "sorpresa" (GRU di e3c95 addestrata sulle pagine vere delle altre pieghe; 14 numeri del profilo di
+    sorpresa; regressione logistica): C+ parole rimescolate nella riga 0,985 e e192 0,957 (soglia 0,85) **superato**;
+    C− media di 5 etichette a caso 0,483 (0,519, 0,386, 0,437, 0,459, 0,613; banda 0,45–0,55) **superato**. Valido;
+  - giudice B "lettore" (GRU su finestre di 256 segni): C+ 0,819 sulle parole rimescolate (soglia 0,85) e 0,884 su
+    e192: **non superato**; C− 0,520 superato. **Non valido**: i suoi numeri si riportano e non si leggono; per la
+    preregistrazione cade anche B unico, che ne eredita i controlli;
+  - nota: le singole etichette a caso di A variano più del previsto (deviazione circa 0,08 invece di 0,04), quindi la
+    sua AUC ha più rumore di quanto dica la formula; 0,75 resta molto sopra il valore più alto visto col caso (0,613).
+- **Lettura 1, giudizio sui libri v21:** migliore dei validi = A, *m* = **0,751** (errore fra libri 0,007; libri da
+  0,721 a 0,775; intervallo al 95% sulle pagine 0,716–0,792, il limite basso supera 0,62). Per la soglia scritta prima
+  (*m* > 0,65): **la rete vede qualcosa che i giudici del paper non vedono**. Rispetto al giudice 2 del paper sulle
+  stesse chiavi: +0,150 (0,006). AUC appaiata 0,761. Per confronto, il Voynich con le righe rimescolate nella pagina:
+  0,576 (paper 0,595). B (non valido) 0,510; B unico (non valido) 0,606.
+- **Lettura 2, messaggio:** A con messaggio contro senza 0,518 (0,507–0,530); controllo dispari contro pari 0,524 (dentro
+  la banda); scala: con il 30% di parole sostituite 0,900 (soglia di sensibilità 0,60: superata), si vede già dal 10%
+  (0,680). Lettura valida: **nessuna traccia a questa sensibilità**. B (non valido): 0,501.
+- **Lettura 3, dove sta la differenza (descrittivo di A, generata meno vera, bit per segno):** la pagina v21 è in media
+  più sorprendente per la rete (+0,13 bit per segno), ma la differenza più leggibile sta nei **picchi**: 95° percentile
+  +0,39 (AUC della sola misura 0,733) e deviazione +0,10 (0,732). Poi l'**inizio delle parole** +0,19 (0,704); meno
+  dentro la parola (+0,13; 0,634), a inizio riga (+0,15; 0,610), a fine riga (+0,21; 0,578) e sullo spazio (+0,04;
+  0,574). Per sezione la differenza è più grande dove le pagine sono poche: astronomica e cosmologica soprattutto
+  sull'a capo (+0,99 e +0,93, 3 e 5 pagine), stellare a inizio riga (+0,38, 25 pagine); erbario +0,12 (128 pagine).
+  Lingua B un po' più di A (+0,150 contro +0,117), soprattutto a inizio parola (+0,24 contro +0,15).
+- **Confronto con la lettura attesa:** A era atteso fra 0,60 e 0,75: è al limite alto. Atteso che la differenza
+  stesse dentro la parola e sullo spazio: sta soprattutto a inizio parola e nei picchi, poco sullo spazio. Atteso che
+  B fosse simile o più basso di A: è più basso e non passa il controllo positivo. Messaggio: nessuna traccia, come
+  atteso.
+- **Perché, in parole semplici:** il v21 sceglie quasi sempre parole del manoscritto, ma ogni tanto produce un attacco di
+  parola o una parola che la rete, abituata al Voynich, non si aspetta; sono pochi segni molto sorprendenti, e una
+  pagina generata ne ha di più. I giudici del paper contavano caratteristiche medie della pagina e non vedevano questi
+  picchi. È un bersaglio per il generatore, non un difetto del manoscritto.
+- **Limiti:**
+  - reti piccole, circa 160 coppie di pagine per addestramento, una sola trascrizione (ZL);
+  - 10 chiavi invece delle 24 del paper; i libri condividono le pagine vere, quindi l'errore fra libri non è
+    indipendente (per questo si riporta l'intervallo sulle pagine);
+  - A mette insieme previsioni che vengono da 5 modelli del testo diversi (rischio di scala diversa, dichiarato prima);
+  - pieghe per pagina, non per foglio fisico, come nel paper;
+  - il giudice B non è valido: non sappiamo quanto un lettore di finestre vada oltre A.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione. La nota sul rumore delle etichette a caso di A e la
+  frase "in parole semplici" sono letture aggiunte, dichiarate qui come tali.
+- **Correzione a una voce precedente:** nella voce di e3c95 (17/11) la risoluzione di E90 è scritta "circa 0,9
+  letture"; vale 1,024 letture (20 passi × 32 × 64 / 40.000). Non cambia le conclusioni di e3c95.
+- **Per il paper e per il generatore:** la frase del paper v2 "un giudice più forte potrebbe fare meglio" ora ha una
+  risposta: sì, 0,75 contro 0,60. L'elenco della lettura 3 è quello da passare alla chat del voynichizzatore (lo decide
+  Davide). Se e come metterlo nel paper lo decide Davide.
