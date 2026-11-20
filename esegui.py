@@ -35,7 +35,8 @@ VARIABILI = ('LINGUE_SOLO', 'PROCESSI', 'RIPARTENZE', 'RIPRENDI', 'NAIBBE', 'BIB
              'PASSI_A', 'OGNI_A', 'PAZIENZA_A', 'NASCOSTO_A', 'CADUTA_A', 'EPOCHE_MAX', 'STRATI', 'N_SENZA', 'N_CON',
              'PAGELLA', 'NULLI', 'BOOT', 'FRAZ_NUOVE',
              'GENERATORI', 'RIM_TESTO', 'SCALA_COPIA', 'RIGHE_PAGINA_EN',
-             'NV', 'KS', 'GIRI', 'S_RIM', 'NULL_REP', 'PERM', 'USCITA_CACHE')
+             'NV', 'KS', 'GIRI', 'S_RIM', 'NULL_REP', 'PERM', 'USCITA_CACHE',
+             'CACHE11', 'LIBRI_TARA', 'LIBRI_MANIP', 'VARIANTI', 'NRIM_TARA')
 
 
 def ambiente():
