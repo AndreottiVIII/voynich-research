@@ -419,6 +419,20 @@ Dettagli nel QUADERNO e nel dossier (§15.5–15.11).
   - la lettura A/B dell'e307 (corretta dall'e315);
   - "la riga sopra non conta" del primo modello (corretta dall'e338/e340).
 
+## vz: bersagli per il generatore da IA1 (chat del paper "Voynich e IA", 20/11) — LEGGERE PRIMA
+
+Davide (20/11) ha chiesto di passare questo elenco alla chat del voynichizzatore. Un giudice neurale (ia01, giudice A
+"sorpresa": GRU di e3c95 addestrata sulle pagine vere, 14 misure del profilo di sorpresa, regressione logistica)
+separa le pagine v21 (chiavi 13–22) dalle vere con **AUC 0,751** (IC 0,716–0,792), contro 0,554 e 0,601 dei giudici del
+paper. Dove trova la differenza (generata meno vera, bit per segno; AUC della sola misura):
+- **picchi di sorpresa:** 95° percentile +0,39 (0,733), deviazione +0,10 (0,732): pochi segni molto inattesi per pagina;
+- **inizio parola** +0,19 (0,704); dentro la parola +0,13 (0,634); inizio riga +0,15 (0,610); fine riga +0,21
+  (0,578); spazio +0,04 (0,574);
+- per sezione: astronomica e cosmologica soprattutto sull'a capo (+0,99 e +0,93, poche pagine), stellare a inizio riga
+  (+0,38); lingua B più di A a inizio parola (+0,24 contro +0,15).
+Messaggio: nessuna traccia (0,518; la scala vede già il 10% di parole sostituite). Dettagli: QUADERNO, voce del 20/11, e
+`risultati/ia01_giudice_neurale.md`. Che cosa farne lo decide Davide.
+
 ## vz: stato del voynichizzatore (chat del voynichizzatore, 4/10 alle 9:50)
 
 **Versione corrente e scelta per la pubblicazione: v17** = v14 + cifratura robusta (scrypt, SHAKE-256, HMAC) + gabbia
