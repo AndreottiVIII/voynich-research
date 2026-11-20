@@ -19,7 +19,13 @@ come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
   corretti; preregistrazioni e codice **non ancora committati né lanciati** (Davide: aspettare).
 - 20/11: **IA1 fatto** (Davide: prima solo IA1). Giudice A "sorpresa" AUC 0,751 contro il v21 (paper 0,55–0,60):
   la rete vede picchi di sorpresa e inizi di parola che i giudici del paper non vedevano. Giudice B non valido (C+
-  0,819). Messaggio: nessuna traccia (0,518). Commit 599b225, voce nel QUADERNO. IA2–IA7 ancora fermi.
+  0,819). Messaggio: nessuna traccia (0,518). Commit 599b225, voce nel QUADERNO.
+  Verifica dopo la corsa: 0,752 dentro piega, il caso al massimo 0,626 (46cc0a7).
+- 20/11: **IA2 fatto** (uno alla volta, Davide). R_rel del Voynich 0,997: una parola mai vista costa come una vista,
+  come nei generatori (solo regole); la rete inventa parole vere del manoscritto (Q 0,081 contro 0,003–0,034 delle
+  lingue). Naibbe uguale (0,990): non esclude un significato. Commit 638485c.
+- IA7 aggiornato col giudice A (decisione di Davide), non committato; IA8 "perché la rete vede il v21" in
+  preparazione. IA3–IA7 fermi: si va uno alla volta.
 - **Azione per Davide:** accesso del programma `claude` da riga di comando (`strumenti/Accesso claude.bat`, serve
   all'IA6).
 
