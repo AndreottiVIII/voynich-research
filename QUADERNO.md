@@ -16567,3 +16567,53 @@ IA", lanciato uno alla volta su decisione di Davide. Corsa: coda `ia_A`, 10 proc
   sulle statistiche del Voynich; un solo libro d'esempio per v21 e un seme per Timm e Schinner.
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione. La nota sulle quattro lingue sotto 1,10 e le frasi "in
   parole semplici" e "cosa non dice" sono letture aggiunte, dichiarate qui.
+
+## 20/11/2026 (mattina) — ia08 (IA8): il v21 non inventa più parole, le inventa peggio; copia il legame fra ultimo e primo glifo, ma non la scelta della parola che segue
+
+Preregistrato (`preregistrazioni/ia08.md`, commit 15cce42; codice 0264d47). Nato dalla domanda di Davide sul risultato di
+ia01: "come mai l'IA capisce meglio se è fake? capiamolo". Corsa: coda `ia_B`, 5 processi, insieme a ia03, 10 minuti,
+uscita 0. Riproduzione dei modelli del testo di ia01 esatta (perdita, passi; bit medi per pagina entro 0,0001). Risultati in
+`risultati/ia08_perche_rete.{md,json}` e `risultati/ia08_corse.jsonl` (solo somme per pagina, nessuna parola).
+
+- **Controlli:** tutti superati. `ctrl:nuove` (15% di parole cambiate in parole inesistenti) mette il 143,7% della sua
+  differenza nelle parole nuove (soglia 50%) e alza la quota di parole nuove di 0,126 (soglia 0,06); `ctrl:parole` al primo
+  glifo delle note dopo una nota +0,656 (nullo 0,083); informazione mutua sul latino: legami piantati 1,408 bit (soglia
+  0,10), latino vero 0,041 (0,020–0,055; soglia 0,01), due serie di rimescolamenti −0,0019 (banda ±0,01); sensibilità:
+  differenza totale +0,143 bit per segno contro 0,065 del nullo (rapporto ≥ 2); picchi nelle vere 5,0% (4,5–5,5%).
+- **Scomposizione** della differenza v21 meno vere (+0,143 bit per segno, tutti i segni insieme): glifi di parole nuove
+  +0,052 (36,5%), primo glifo di parole note non a inizio riga +0,031 (21,4%), primo glifo a inizio riga +0,000 (0,3%),
+  interno delle parole note +0,046 (32,0%), spazi e a capo +0,014 (9,8%). Effetto quota −0,009, **effetto costo +0,153**:
+  le pagine v21 hanno gli stessi pezzi nelle stesse proporzioni, ma ogni pezzo costa di più alla rete.
+- **Lettura H2, parole nuove: ZONA GRIGIA.** Il v21 **non** ha più parole nuove: 14,5% contro 15,2% delle vere
+  (differenza −0,007; nullo 0,021); parole assenti da tutte le altre pagine 14,1% contro 13,8%. Le sue parole nuove però
+  costano di più: 3,48 contro 3,02 bit per segno (+0,47; parole assenti dal manoscritto +0,45, nullo 0,10). Portano il 36,5%
+  della differenza (18–51%), sotto la soglia del 40% per il "sì".
+- **Lettura H1, legami fra parole: ZONA GRIGIA (bracci discordi).** Braccio informazione mutua: **no**. Il legame fra
+  l'ultimo glifo di una parola e il primo della successiva, dovuto all'ordine, è 0,188 bit nelle vere e 0,185 nel v21
+  (rapporto 0,98, intervallo 0,91–1,05): il v21 lo copia. Braccio rete: **sì**. All'inizio delle parole note dopo una
+  parola nota la rete si sorprende di più nel v21: +0,203 bit (nullo 0,083; `ctrl:parole` +0,656).
+- **Lettura H3, picchi: letta.** Segni sopra la soglia: vere 5,0%, v21 6,4% (eccesso +0,0136, nullo 0,0041). Quota
+  dell'eccesso: parole nuove 49,5% (zona grigia), primo glifo di parole note 26,0% (zona grigia), interno di parole note
+  17,2%, spazi e a capo 6,0%, inizio riga 1,3% (tutte "no"). Nessuna parte da sola supera il 50%, come atteso.
+- **Descrittivi:** il legame primo glifo → primo glifo delle parole vicine è più debole nel v21 (g 0,038 contro 0,052; −0,014,
+  intervallo −0,008/−0,021), e così ultimo → ultimo (−0,009). Le parole note costano di più anche dentro la parola (+0,07 bit
+  per segno) e dopo una parola nuova. Il v21 usa la metà delle parole viste una sola volta (3,0% contro 6,1%) e più parole
+  viste 2–4 volte. Il profilo della scomposizione del v21 è più vicino a `ctrl:parole` (distanza 0,67) che a `ctrl:nuove`
+  (2,14).
+- **Confronto con la lettura attesa:** atteso H1 l'ipotesi più forte e H2 debole. Invece il legame semplice ultimo → primo
+  glifo è copiato alla perfezione, e le parole nuove contano per il costo, non per il numero. Atteso che nessuna parte
+  superasse il 50% dei picchi: confermato.
+- **Perché, in parole semplici (lettura aggiunta, non preregistrata):** la differenza ha due fonti.
+  1. **Parole inventate peggio**: tante quante nel manoscritto, ma con forme che la rete trova più strane (circa un terzo
+     della differenza, metà dei picchi).
+  2. **La fila delle parole**: il v21 rispetta la regola di contatto fra una parola e la successiva (ultimo e primo
+     glifo), ma la scelta di quale parola viene dopo è meno legata a ciò che precede. La rete se ne accorge all'inizio delle
+     parole note, e anche dentro di esse (circa due terzi della differenza). Il legame più debole fra i primi glifi di
+     parole vicine va nella stessa direzione. È una versione lieve delle parole rimescolate nella riga.
+- **Limiti:** "nuova" vuol dire assente dalle pagine di addestramento della piega; l'informazione mutua guarda solo una
+  coppia di glifi; la seconda fonte è dedotta da ciò che resta dopo la prima, ed è descritta, non misurata con un
+  controllo proprio; un solo generatore (v21) e 10 chiavi.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione (5 processi invece di 10: cambia solo il parallelismo).
+- **Per il generatore:** due bersagli, in quest'ordine. (a) forma delle parole inventate; (b) scelta della parola che segue
+  oltre il contatto fra glifi (per esempio coppie di parole, o il primo glifo della parola precedente). Aggiunti alla sezione
+  "vz" di `STATO_LAVORI.md`.

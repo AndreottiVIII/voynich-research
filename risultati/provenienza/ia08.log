@@ -1,0 +1,26 @@
+pagine vere: 202, segni 190126, vocabolario 26; pieghe 5; semi (1, 2); libri ['a13', 'a14', 'a15', 'a16', 'a17', 'a18', 'a19', 'a20', 'a21', 'a22']
+addestramento: 10 da fare, 0 gia fatti
+[1/10 3 min] ['N', 1, 3] (131 s) passi 1380
+[2/10 3 min] ['N', 1, 2] (140 s) passi 1480
+[3/10 4 min] ['N', 2, 0] (76 s) passi 980
+[4/10 4 min] ['N', 1, 4] (207 s) passi 1400
+[5/10 5 min] ['N', 1, 0] (233 s) passi 1260
+[6/10 6 min] ['N', 1, 1] (335 s) passi 2000
+[7/10 8 min] ['N', 2, 2] (223 s) passi 1700
+[8/10 8 min] ['N', 2, 4] (216 s) passi 1540
+[9/10 9 min] ['N', 2, 1] (332 s) passi 1560
+[10/10 9 min] ['N', 2, 3] (267 s) passi 1800
+# ia08 — perche' la rete se ne accorge
+
+Prima riga di lettura (soglie nella preregistrazione `preregistrazioni/ia08.md`). Le differenze sono "v21 meno vere" (media sui 10 libri), in bit per segno salvo dove detto; intervalli al 95% col bootstrap sulle pagine.
+
+**H2, parole nuove:** ZONA GRIGIA. Quota di parole nuove (per token): vere 15.2%, v21 14.5% (differenza -0.007, nullo 97,5% 0.021); la parte "glifi di parole nuove" porta 36.5% della differenza (intervallo 18.2%-50.8%).
+**H1, legami fra parole:** ZONA GRIGIA. Informazione mutua (ultimo glifo, primo della parola dopo) dovuta all'ordine: vere 0.188 bit (0.174-0.203), v21 0.185 (0.179-0.192), rapporto 0.98; sorpresa all'inizio delle parole note dopo una parola nota: +0.203 bit (nullo 0.083; ctrl:parole +0.656). Braccio informazione mutua: no; braccio rete: si.
+**H3, dove cadono i picchi:** LETTO. Segni sopra la soglia: vere 5.0%, v21 6.4% (eccesso +0.0136, nullo 0.0041).
+  - glifi di parole nuove: 49.5% dell'eccesso (42.7%-55.5%) -> zona grigia
+  - primo glifo di parole note (non a inizio riga): 26.0% dell'eccesso (22.0%-30.9%) -> zona grigia
+  - primo glifo di parole note a inizio riga: 1.3% dell'eccesso (0.2%-2.4%) -> no
+  - glifi interni di parole note: 17.2% dell'eccesso (12.8%-22.1%) -> no
+  - spazi e a capo: 6.0% dell'eccesso (3.5%-8.4%) -> no
+
+## Controlli

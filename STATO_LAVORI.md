@@ -26,6 +26,8 @@ come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
   lingue). Naibbe uguale (0,990): non esclude un significato. Commit 638485c.
 - IA7 aggiornato col giudice A (decisione di Davide), non committato; IA8 "perché la rete vede il v21" in
   preparazione. IA3–IA7 fermi: si va uno alla volta.
+- 20/11: **IA8 fatto** (perché la rete vede il v21): parole inventate peggio (non di più) e scelta della parola
+  successiva meno legata; il contatto ultimo→primo glifo è copiato. IA3 in corso dalle 11:00.
 - **Azione per Davide:** accesso del programma `claude` da riga di comando (`strumenti/Accesso claude.bat`, serve
   all'IA6).
 
@@ -438,6 +440,13 @@ paper. Dove trova la differenza (generata meno vera, bit per segno; AUC della so
   (+0,38); lingua B più di A a inizio parola (+0,24 contro +0,15).
 Messaggio: nessuna traccia (0,518; la scala vede già il 10% di parole sostituite). Dettagli: QUADERNO, voce del 20/11, e
 `risultati/ia01_giudice_neurale.md`. Che cosa farne lo decide Davide.
+**Aggiornamento da IA8 (20/11, perché la rete vede il v21):** il v21 **non** inventa più parole del manoscritto (14,5%
+contro 15,2%), ma le inventa con forme più strane (3,48 contro 3,02 bit per segno: circa un terzo della differenza, metà
+dei picchi). Copia alla perfezione il legame fra ultimo glifo di una parola e primo della successiva (0,185 contro
+0,188 bit), ma la scelta della parola che segue è meno legata a ciò che precede: la rete si sorprende all'inizio e
+dentro le parole note (circa due terzi della differenza); il legame primo glifo → primo glifo delle parole vicine è più
+debole (0,038 contro 0,052). Usa metà delle parole viste una volta sola (3,0% contro 6,1%). Bersagli: (a) forma delle
+parole inventate; (b) scelta della parola successiva oltre il contatto fra glifi. Dettagli: QUADERNO, voce ia08.
 
 ## vz: stato del voynichizzatore (chat del voynichizzatore, 4/10 alle 9:50)
 
