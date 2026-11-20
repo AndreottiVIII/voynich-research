@@ -16521,3 +16521,49 @@ addestramento; eseguito direttamente, non con `esegui.py`). Risultati in `risult
     deviazione circa 0,025, quindi la banda 0,45–0,55 era stretta ma corretta per la media. Il confronto con i libri
     non è identico (98 contro 98 pagine non appaiate nel controllo, 196 contro 196 appaiate nei libri).
 - **Conclusione:** la lettura 1 di ia01 non cambia.
+
+## 20/11/2026 (mattina) — ia02 (IA2): per la rete una parola mai vista del Voynich costa come una già vista (R_rel 0,997, come i generatori); la rete inventa parole vere del manoscritto 2–3 volte più spesso che in ogni lingua
+
+Preregistrato (`preregistrazioni/ia02.md`, commit 2f6bfd6; codice 3cdc5e9). Secondo esperimento del paper "Voynich e
+IA", lanciato uno alla volta su decisione di Davide. Corsa: coda `ia_A`, 10 processi, 41 minuti, uscita 0, 300 corse
+(30 testi × 10 semi), nessuna al massimo dei passi. Risultati in `risultati/ia02_parole_mai_viste.{md,json}` e
+`risultati/ia02_corse.jsonl` (solo numeri).
+
+- **Domanda:** quanto costa alla rete di e3c95 una parola mai vista rispetto a una già vista? In un testo fatto di parole
+  da ricordare (un lessico) molto; in un testo fatto di regole poco. Misura principale R_rel = R / R_tri (costo per segno
+  delle parole mai viste diviso quello delle viste, per la rete, diviso lo stesso rapporto per un modello a trigrammi che
+  non può ricordare parole intere).
+- **Controlli (soglie scritte prima):** C+ "solo regole" (catena di ordine 2 sul latino) R_rel 1,006 e C+2 (prefisso +
+  corpo + suffisso) 0,990, soglia 1,10: **superati**; C− "solo memoria" (lessico casuale di 3.000 parole) 1,855, sopra
+  tutte le lingue (massimo 1,524) e sopra i positivi: **superato**.
+- **Lettura 1:** Voynich R_rel **0,997** (A 1,000, B 0,972), sotto la soglia 1,10 con i controlli riusciti: per il codice,
+  lettura **"solo regole"**; sulla scala dei controlli (0 regole, 1 memoria) −0,01. Il Voynich sta dentro l'intervallo
+  delle lingue solo per il sanscrito (0,897, con copertura 0,496 sotto la soglia di avvertenza 0,5). **Avvertenza** scritta
+  dal codice: fra le lingue R_rel dipende dalla ricchezza del vocabolario (|ρ| > 0,5). Detto in chiaro, non scritto nel
+  criterio: anche quattro lingue stanno sotto 1,10 (cinese in pinyin 1,019, arabo 1,055, ebraico 1,085, latino
+  abbreviato 1,089), quindi la soglia non separa tutte le lingue dai testi a regole; le altre 15 lingue stanno fra 1,17 e
+  1,52.
+- **Lettura 2, quota di parole nuove:** Voynich 0,228, dentro le lingue (55% sotto) e uguale ai generatori (v21 0,232,
+  Naibbe 0,226, Timm e Schinner 0,205).
+- **Lettura 3, parole inventate:** fra le parole che la rete inventa (N = 0,231 del Voynich), la quota che compare davvero
+  nel resto del testo è **Q = 0,081**, contro 0,003–0,034 di tutte le 20 lingue; i generatori 0,059–0,091, C+2 0,070.
+  Q_rel (rete diviso trigrammi) 1,112, dentro le lingue (90% sotto).
+- **Lettura 4, profilo (R_rel, N, Q_rel):** i più vicini al Voynich sono Naibbe (0,30), v21 (0,40), Timm e Schinner
+  (0,89); la prima lingua è il russo (1,70). Uguale per A e per B.
+- **Lettura 5:** v21, Naibbe e Timm e Schinner "vicini" al Voynich su R_rel, quota nuove e N; Naibbe anche su Q_rel.
+- **Lettura 6:** A contro B non distinguibili (differenza 0,028, soglia 0,051).
+- **Confronto con la lettura attesa:** Voynich basso e vicino ai generatori, come atteso; non sotto tutte le lingue
+  (sanscrito). Atteso Naibbe dentro le lingue o sopra, perché nasce da un lessico latino: invece 0,990, come i testi a
+  regole. Gibberish 0,931 (atteso vicino a 1). Q piccolo per tutte le lingue, come atteso.
+- **Perché, in parole semplici:** nel Voynich una parola mai vista non è più difficile da indovinare, segno per segno,
+  di una già vista: la rete non ha bisogno di ricordare le parole, le ricostruisce dalle regole. E quando ne inventa una,
+  spesso esiste davvero da un'altra parte del manoscritto: le regole bastano a produrre il vocabolario. È la stessa
+  conclusione di e3c95, vista dalle parole.
+- **Cosa non dice:** Naibbe porta un testo latino e ha lo stesso R_rel del Voynich (0,990): un testo con significato,
+  cifrato parola per parola con regole di forma, si comporta allo stesso modo. "Niente da memorizzare" non esclude un
+  significato.
+- **Limiti:** un'architettura sola; 40.000 segni di addestramento; "mai vista" vuol dire mai vista in quei segni; R_rel
+  dipende dal vocabolario (avvertenza sopra); le lingue sono quasi tutte Nuovi Testamenti; i generatori sono costruiti
+  sulle statistiche del Voynich; un solo libro d'esempio per v21 e un seme per Timm e Schinner.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione. La nota sulle quattro lingue sotto 1,10 e le frasi "in
+  parole semplici" e "cosa non dice" sono letture aggiunte, dichiarate qui.
