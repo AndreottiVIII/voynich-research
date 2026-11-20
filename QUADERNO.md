@@ -16661,3 +16661,88 @@ uno alla volta su decisione di Davide. Corsa: coda `ia_A`, 10 processi (insieme 
   v21 e un seme per Timm e Schinner.
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione. La lettura del contesto oltre 3 segni e le frasi in
   parole semplici sono aggiunte, dichiarate qui.
+
+## 20/11/2026 (primo pomeriggio) — ia09 (IA9): nel Voynich la parola si prevede più dall'"eco" della pagina che dalla parola prima (quota di copia 0,70, "mista"); eco debole (un ottavo del generatore di Timm e Schinner) e in parte locale; il v21 ne ha la metà
+
+Preregistrato (`preregistrazioni/ia09.md`, commit 680e936; codice 57c1f31, con i moduli `sintassi_testi.py` e
+`sintassi_modelli.py`). Nato dalla richiesta di Davide di fare "reverse engineering" della sintassi vista in ia08. Corsa:
+coda `ia_A`, 10 processi, insieme a ia10, 24 minuti, uscita 0. Risultati in `risultati/ia09_dove_sta_sintassi.{md,json}` e
+`risultati/ia09_corse.jsonl` (solo numeri per pagina).
+
+- **Domanda:** quale indizio rende prevedibile la parola successiva (parola prima, suo primo/ultimo glifo, due posti prima,
+  famiglie, posizione), e la sintassi è "grammatica" o "copia" (parole uguali o a una modifica da parole scritte prima,
+  in 7 bande di distanza, al netto della stessa misura con le parole di una pagina a caso)?
+- **Controlli:** tutti superati. Negativi: cinque rimescolamenti fra pagine e tre rimescolati dei sintetici "nessuna sintassi
+  misurabile" (guadagno massimo 0,016). Positivi: quattro generatori "solo grammatica" letti "grammatica" (ρ 0,00–0,05, G0
+  sì); quattro "solo copia" letti "copia" (ρ 1,00, G0 no; `copiaM1` locale, Λ 0,51). Sensibilità: `gramD` non si legge,
+  `copiaD` sì.
+- **Lettura tipo (parola intera):** Voynich **mista**, ρ = **0,70** (0,66–0,74): copia netta sopra la grammatica +0,094 bit
+  per parola, grammatica sopra la copia +0,040. Le lingue: inglese e italiano "grammatica" (ρ 0,14 e 0,19), latino "mista"
+  (0,39). Timm e Schinner "copia" (ρ 0,98; copia netta 0,80, otto volte il Voynich). v21 "mista" (ρ 0,57).
+- **Lettura G0 (grammatica dove non c'è una parola simile vicina):** Voynich **no** (−0,017; −0,024/−0,009): con questi
+  modelli semplici, fuori dalle parole che hanno un'eco vicina non resta grammatica misurabile. Le tre lingue: sì.
+- **Lettura Λ (copia locale o di pagina):** Voynich **zona grigia**, Λ = 0,27 (0,19–0,35): circa un quarto dell'eco viene
+  da parole vicine, il resto è "tema" della pagina. La densità dell'eco per parola fonte cala con la distanza (0,0065 nella
+  parola prima, 0,0008 a 8 o più righe). Lingue "di pagina" (0,00–0,08); v21 "di pagina" (0,07); Timm e Schinner "di
+  pagina" (−0,03: la sua copia attraversa tutta la pagina).
+- **v21 contro vere (parola intera):** "meno" nella copia netta (0,051 contro 0,110, rapporto 0,47) e nel totale (0,084 contro
+  0,150); uguale nella parola prima (0,031 contro 0,043, dentro il nullo) e nelle altre bende. Sul primo glifo: "meno" per la
+  parola prima (0,80) e per il primo glifo della parola prima (0,68), uguale per l'ultimo glifo (0,98, come in ia08).
+- **Lingua A e B:** A "copia", B "mista"; G0 no per entrambe.
+- **Rete dentro il testo (descrittivo):** rimescolare le parole nella riga costa alla rete 1,21 bit per parola nel Voynich,
+  0,83–0,93 nel v21, 0,57 nel latino, 2,45 nell'inglese, 0,37 in Timm e Schinner. I modelli semplici ne spiegano una piccola
+  parte (perdita del modello migliore 0,16).
+- **Confronto con la lettura attesa:** attesa "mista" con Λ vicino a 0: è "mista" ma più spostata verso la copia (0,70) e con
+  una parte locale (0,27). Atteso per il v21 meno grammatica: invece la differenza principale è nell'eco (metà).
+  Atteso Timm e Schinner "locale": è "di pagina".
+- **In parole semplici:** nel Voynich la parola dopo si indovina meglio guardando le parole già scritte sulla pagina (uguali
+  o con una lettera diversa) che guardando la parola appena prima. È un'eco debole e diffusa, non la copia sistematica del
+  generatore di Timm e Schinner, e per un quarto viene dalle righe vicine. Il v21 ha la metà di questa eco, e mai locale.
+- **Limiti:** modelli di conteggio con un indizio alla volta; la rete vede molto più ordine di quanto spieghino; "copia"
+  include il ritorno di parole frequenti nella stessa pagina (per questo c'è il riferimento da pagina a caso e Λ); una
+  grammatica "appiccicosa" può sembrare copia (per questo G0); una trascrizione sola.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione. Le frasi in parole semplici sono aggiunte.
+
+## 20/11/2026 (primo pomeriggio) — ia10 (IA10): famiglie di parole con un ordine debole (g 0,041, zona grigia), più forte nella lingua B; il v21 segue l'ordine delle famiglie vere per il 59%
+
+Preregistrato (`preregistrazioni/ia10.md`, commit 42c30c9; codice 47a5f97, con `famiglie_classi.py` e `famiglie_testi.py`).
+Corsa: coda `ia_B`, 5 processi, insieme a ia09, 22 minuti, uscita 0. Risultati in `risultati/ia10_famiglie_parole.{md,json}`
+e `risultati/ia10_corse.jsonl` (solo numeri); gli elenchi di parole per famiglia solo in `dati/cache/ia10/uscite/`.
+
+- **Domanda:** le parole del Voynich formano famiglie (dai vicini, algoritmo di scambio di Brown; K 5/10/20 scelto sulla
+  validazione) che si susseguono con un ordine, oltre la sola composizione della riga?
+- **Controlli:** tutti superati. Inglese (Brown): informazione mutua normalizzata famiglie-categorie 0,579 contro 0,236 a caso;
+  latino UD 0,278 contro 0,130; sintetico con grammatica ritrovato (0,936; g 0,654); sintetico senza ordine g 0,001; forma e
+  stabilità dei sintetici dentro le soglie.
+- **L1, ordine fra famiglie:** **zona grigia**. g = **0,041** bit per coppia (0,030–0,054; il "sì" chiedeva il limite basso ≥ 0,03:
+  sul filo). G 0,061, G_c 0,020.
+- **L1b:** sì, le coppie vicine si distinguono da coppie a caso della stessa riga (D 0,107).
+- **L2, rispetto alle lingue:** zona grigia. Inglese 0,336, latino UD 0,075, latino di Plinio 0,020.
+- **L3, tabella concentrata:** zona grigia (informazione mutua normalizzata 0,060, rimescolato 0,041).
+- **L4, forma:** zona grigia; la forma spiega il 21% della famiglia; famiglie fatte dal solo primo glifo danno metà del
+  guadagno (0,029 su 0,061), dal solo ultimo 0,013.
+- **L5, stabilità:** zona grigia; indice di Rand fra pieghe 0,135 (testo rimescolato 0,104): famiglie poco stabili.
+- **L6:** famiglie legate alla sezione (sì, 0,045) e alla lingua A/B (sì, 0,059); posizione nella riga zona grigia.
+- **Lingua A e B:** A g 0,018 (quasi nulla), **B 0,078** (come il latino UD).
+- **Generatori:** Naibbe g 0,088 (la grammatica del latino che porta passa attraverso la cifratura), Timm e Schinner 0,006.
+- **L7, v21:** zona grigia. Il modello delle vere applicato al v21 perde col rimescolamento 0,063 contro 0,107 sulle vere
+  (rapporto **0,59**, 0,52–0,66); le famiglie imparate dal v21 stesso hanno un ordine proprio (g 1,35 volte quello delle
+  vere): non leggibile come "meno". Il v21 ha un ordine, ma non quello delle famiglie del manoscritto.
+- **In parole semplici:** c'è una grammatica in miniatura, ma debole: le famiglie si susseguono con un ordine poco più netto
+  del caso, più chiaro nella lingua B, e le famiglie stesse cambiano molto da una prova all'altra. Metà di ciò che spiegano
+  sta già nella prima lettera della parola. Il v21 rispetta l'ordine delle famiglie vere per poco più della metà.
+- **Limiti:** 1.000 parole raggruppate (il resto "rare", 25% delle parole in prova); famiglie instabili; il legame con
+  sezione e lingua può venire dal vocabolario e non dalla sintassi; una trascrizione sola.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
+
+## 20/11/2026 — ia03, ia08, ia09, ia10 insieme: com'è fatta la "sintassi" del Voynich (sintesi, non preregistrata)
+
+- **Locale:** 2–3 segni bastano per il 90% del guadagno (ia03); il contatto ultimo → primo glifo fra parole è forte e il v21
+  lo copia (ia08).
+- **Eco della pagina:** le parole tornano, uguali o quasi, dentro la pagina; un quarto dell'eco viene dalle righe vicine
+  (ia09). È un'eco debole: un terzo (ia03) o un ottavo (ia09) del generatore ad auto-citazione di Timm e Schinner.
+- **Grammatica debole:** famiglie con un ordine appena sopra il caso, più chiaro nella lingua B (ia10); fuori dall'eco, i
+  modelli semplici non trovano grammatica (ia09, G0).
+- **Ciò che resta:** la rete vede più ordine di quanto spieghino i modelli semplici (1,21 bit per parola contro 0,16).
+- **Bersagli per il v21 (verso IA11):** eco della pagina (oggi a metà, mai locale), ordine delle famiglie (oggi al 59%),
+  forma delle parole inventate (ia08).

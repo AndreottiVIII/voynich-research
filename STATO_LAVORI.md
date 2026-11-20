@@ -31,6 +31,9 @@ come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
 - 20/11: **IA3 fatto**: al Voynich bastano 2–3 segni di contesto (k90 2,3, lingue 4–54), la riga sopra non aiuta (GR
   0,029), i pezzi ripetuti a distanza aiutano poco (GL 0,049, minimo delle lingue; Timm e Schinner 0,154). In preparazione
   IA9 (dove sta la sintassi, grammatica o copia) e IA10 (famiglie di parole); IA11 (rifarlo) dopo.
+- 20/11: **IA9 e IA10 fatti.** Sintassi del Voynich = regole locali + eco della pagina (quota di copia 0,70, un quarto
+  locale, un ottavo di Timm e Schinner) + grammatica debole di famiglie (g 0,041, più netta nella lingua B). Il v21 ha
+  metà dell'eco (mai locale) e segue l'ordine delle famiglie vere al 59%. Prossimo: IA11 (rifarlo) da preparare.
 - **Azione per Davide:** accesso del programma `claude` da riga di comando (`strumenti/Accesso claude.bat`, serve
   all'IA6).
 
@@ -450,6 +453,11 @@ dei picchi). Copia alla perfezione il legame fra ultimo glifo di una parola e pr
 dentro le parole note (circa due terzi della differenza); il legame primo glifo → primo glifo delle parole vicine è più
 debole (0,038 contro 0,052). Usa metà delle parole viste una volta sola (3,0% contro 6,1%). Bersagli: (a) forma delle
 parole inventate; (b) scelta della parola successiva oltre il contatto fra glifi. Dettagli: QUADERNO, voce ia08.
+
+**Aggiornamento da IA9 e IA10 (20/11):** il bersaglio (b) si precisa. (b1) **Eco della pagina**: nel Voynich le parole
+tornano, uguali o a una modifica, dentro la pagina (copia netta 0,110 bit per parola contro 0,051 del v21), e un quarto
+dell'eco viene dalle righe vicine (nel v21 quasi nulla). (b2) **Ordine delle famiglie di parole**: il modello delle
+famiglie vere applicato al v21 vede il 59% dell'ordine. Dettagli: QUADERNO, voci ia09 e ia10.
 
 ## vz: stato del voynichizzatore (chat del voynichizzatore, 4/10 alle 9:50)
 
