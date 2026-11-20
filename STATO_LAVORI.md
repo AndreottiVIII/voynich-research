@@ -27,7 +27,10 @@ come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
 - IA7 aggiornato col giudice A (decisione di Davide), non committato; IA8 "perché la rete vede il v21" in
   preparazione. IA3–IA7 fermi: si va uno alla volta.
 - 20/11: **IA8 fatto** (perché la rete vede il v21): parole inventate peggio (non di più) e scelta della parola
-  successiva meno legata; il contatto ultimo→primo glifo è copiato. IA3 in corso dalle 11:00.
+  successiva meno legata; il contatto ultimo→primo glifo è copiato.
+- 20/11: **IA3 fatto**: al Voynich bastano 2–3 segni di contesto (k90 2,3, lingue 4–54), la riga sopra non aiuta (GR
+  0,029), i pezzi ripetuti a distanza aiutano poco (GL 0,049, minimo delle lingue; Timm e Schinner 0,154). In preparazione
+  IA9 (dove sta la sintassi, grammatica o copia) e IA10 (famiglie di parole); IA11 (rifarlo) dopo.
 - **Azione per Davide:** accesso del programma `claude` da riga di comando (`strumenti/Accesso claude.bat`, serve
   all'IA6).
 

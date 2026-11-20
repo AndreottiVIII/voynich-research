@@ -16617,3 +16617,47 @@ uscita 0. Riproduzione dei modelli del testo di ia01 esatta (perdita, passi; bit
 - **Per il generatore:** due bersagli, in quest'ordine. (a) forma delle parole inventate; (b) scelta della parola che segue
   oltre il contatto fra glifi (per esempio coppie di parole, o il primo glifo della parola precedente). Aggiunti alla sezione
   "vz" di `STATO_LAVORI.md`.
+
+## 20/11/2026 (mezzogiorno) — ia03 (IA3): al Voynich bastano 2–3 segni di contesto (lingue 4–54), la riga sopra non aiuta, e i pezzi ripetuti a distanza aiutano poco: meno che in ogni lingua e un terzo che nel generatore ad auto-citazione
+
+Preregistrato (`preregistrazioni/ia03.md`, commit 658f950; codice bc694ae). Terzo esperimento del paper "Voynich e IA",
+uno alla volta su decisione di Davide. Corsa: coda `ia_A`, 10 processi (insieme a ia08 per 10 minuti), 94 minuti, uscita 0,
+330 corse (33 testi × 10 semi), nessuna al massimo dei passi. Risultati in `risultati/ia03_contesto.{md,json}` e
+`risultati/ia03_corse.jsonl` (solo numeri). Letture sulla variante B (GRU più cache neurale), come preregistrato.
+
+- **Domanda:** quanto contesto usa la rete per indovinare il segno successivo? k90 = da quanti segni ha già il 90% del
+  guadagno; GL = BPC(32) − BPC(255), quanto aiutano i pezzi che tornano a più di 32 segni; GR = guadagno dalla riga sopra.
+- **Controlli (B):** tutti superati. Positivi: C3 (riga che comincia con gli ultimi 3 segni della riga sopra) GR − C1 0,136
+  (soglia 0,05); C2 (riga ripetuta sotto) 1,356 (soglia 0,5); C4 (riga ripetuta due righe dopo, a circa 170 segni) GL − C1
+  1,286 (soglia 0,5). Negativi: C1 (Markov di ordine 3) k90 3, GL 0,003, GR 0,000 (soglie 4, 0,02, 0,03); latino e Voynich
+  con i segni rimescolati dentro le soglie; B non peggiore di A (massimo 0,004, soglia 0,01).
+- **Lettura 1, k90:** Voynich **2,3** (A 2,4, B 2,0; interpolato 2,0), **sotto tutte le 20 lingue** (4,0–54,4). Come v21 (2,0)
+  e Naibbe (2,0); Timm e Schinner 20,4. Letto con e3c95: struttura fatta di regole locali.
+- **Lettura 2, GL:** Voynich **0,049**, oltre zero (soglia 0,02), ma **al livello più basso delle lingue** (0,049–0,211;
+  nessuna lingua sotto). v21 0,021, Naibbe 0,000, **Timm e Schinner 0,154**, gibberish 0,358.
+- **Lettura 3, GR corte:** Voynich **0,029** (≤ 0,03): la rete non ha niente da guadagnare dalla riga sopra, "il testo si
+  azzera all'a capo"; dentro le lingue (35% sotto). A 0,027, B 0,014. v21 0,010.
+- **Lettura 4, pagine di solo testo:** non distinguibile (−0,011).
+- **Lettura 5, A contro B:** non differiscono su nessuna delle tre misure.
+- **Lettura 6, profilo (k90 interpolato, GL, GR corte):** i più vicini sono tedesco (0,63), italiano, fiammingo, inglese,
+  cinese in pinyin, latino. (Sulla variante A, descrittiva: Timm e Schinner 2,68, poi latino abbreviato e v21.)
+- **Lettura 7:** v21 "vicino" al Voynich in k90 e GR corte, non in GL (−0,028); Naibbe vicino in k90; Timm e Schinner
+  lontano in tutte e tre.
+- **Confronto con la lettura attesa:** k90 corto, come atteso (anzi più corto: 2,3 invece di 3–4). Atteso GL sopra le lingue,
+  perché il Voynich ripete molto: invece è al minimo delle lingue. GR ≈ 0, come atteso. v21 vicino in k90, come atteso.
+- **Lettura aggiunta (descrittiva, non preregistrata), il contesto oltre 3 segni:** BPC(3) − BPC(255) vale 0,145 nel
+  Voynich, 0,064 nel v21, 0,060 in Naibbe, 0,292 in Timm e Schinner; nelle lingue 0,26–0,65 (latino 0,29, inglese 0,49), quindi il Voynich sta sotto tutte.
+  Il Voynich guadagna dal contesto oltre i 3 segni più del doppio del v21: va nella stessa direzione di ia08 (la scelta
+  della parola che segue dipende da ciò che precede più che nel v21).
+- **Perché, in parole semplici:** quasi tutto ciò che serve per indovinare il prossimo segno del Voynich sta nei 2–3
+  segni prima: regole di forma molto locali. Ogni riga riparte da capo. Le ripetizioni di pezzi lontani aiutano poco:
+  meno che in qualsiasi lingua, e un terzo che nel generatore di Timm e Schinner, che crea le parole copiando quelle
+  appena scritte.
+- **Cosa vuol dire per IA9:** la cache trova le ripetizioni esatte di pezzi già scritti. La firma della copia "alla Timm"
+  è forte nel suo generatore e debole nel Voynich: un primo indizio contro la copia pura, almeno di pezzi uguali. Non
+  esclude una copia con modifiche, che la cache vede poco: è la domanda di IA9.
+- **Limiti:** la cache confronta gli stati di una GRU che ricorda circa 12 segni, quindi trova ripetizioni esatte e corte,
+  non parole simili; finestre di 256 segni; 40.000 segni di addestramento; una sola trascrizione; un libro d'esempio per
+  v21 e un seme per Timm e Schinner.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione. La lettura del contesto oltre 3 segni e le frasi in
+  parole semplici sono aggiunte, dichiarate qui.
