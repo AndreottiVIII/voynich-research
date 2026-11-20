@@ -1,0 +1,104 @@
+pagine vere: 202; libri ['a13', 'a14', 'a15', 'a16', 'a17', 'a18', 'a19', 'a20', 'a21', 'a22']; riferimenti 2; spostamenti 200
+lavori: 58 da fare, 0 gia fatti
+[1/58 1 min] ['C', 'vere'] (40 s)
+[2/58 1 min] ['C', 'a13'] (42 s)
+[3/58 1 min] ['C', 'a14'] (43 s)
+[4/58 1 min] ['C', 'a15'] (43 s)
+[5/58 1 min] ['C', 'a16'] (37 s)
+[6/58 1 min] ['C', 'a17'] (38 s)
+[7/58 1 min] ['C', 'a18'] (38 s)
+[8/58 2 min] ['C', 'a19'] (44 s)
+[9/58 2 min] ['C', 'ts1'] (5 s)
+[10/58 2 min] ['C', 'ts2'] (5 s)
+[11/58 2 min] ['C', 'a20'] (42 s)
+[12/58 2 min] ['C', 'a21'] (40 s)
+[13/58 2 min] ['C', 'a22'] (40 s)
+[14/58 2 min] ['C', 'latino'] (42 s)
+[15/58 3 min] ['C', 'italiano'] (32 s)
+[16/58 3 min] ['C', 'inglese'] (36 s)
+[17/58 3 min] ['C', 'latGeom'] (50 s)
+[18/58 3 min] ['C', 'ingGeom'] (49 s)
+[19/58 3 min] ['C', 'argP1'] (37 s)
+[20/58 3 min] ['C', 'argP2'] (36 s)
+[21/58 4 min] ['C', 'argP3'] (36 s)
+[22/58 4 min] ['C', 'argPF1'] (37 s)
+[23/58 4 min] ['C', 'argPD1'] (37 s)
+[24/58 4 min] ['C', 'argR1'] (37 s)
+[25/58 4 min] ['C', 'argR2'] (40 s)
+[26/58 5 min] ['C', 'argR3'] (41 s)
+[27/58 5 min] ['C', 'argRF1'] (42 s)
+[28/58 5 min] ['C', 'argS1'] (42 s)
+[29/58 5 min] ['C', 'argSF1'] (41 s)
+[30/58 5 min] ['C', 'tecM1'] (40 s)
+[31/58 5 min] ['C', 'tecM2'] (40 s)
+[32/58 5 min] ['C', 'tecM3'] (40 s)
+[33/58 6 min] ['C', 'tecF1'] (39 s)
+[34/58 6 min] ['C', 'tecD1'] (40 s)
+[35/58 6 min] ['C', 'tecP1'] (40 s)
+[36/58 6 min] ['C', 'tecPF1'] (40 s)
+[37/58 6 min] ['C', 'tecCoda1'] (40 s)
+[38/58 7 min] ['C', 'tecTesta1'] (41 s)
+[39/58 7 min] ['C', 'vere~t1'] (41 s)
+[40/58 7 min] ['C', 'vere~t2'] (42 s)
+[41/58 7 min] ['C', 'vere~t3'] (43 s)
+[42/58 7 min] ['C', 'ts1~t'] (6 s)
+[43/58 7 min] ['C', 'vere~t5'] (43 s)
+[44/58 7 min] ['C', 'vere~t4'] (44 s)
+[45/58 7 min] ['C', 'a13~t'] (47 s)
+[46/58 8 min] ['C', 'argP1~t'] (42 s)
+[47/58 8 min] ['C', 'inglese~t'] (24 s)
+[48/58 8 min] ['C', 'tecM1~t'] (39 s)
+[49/58 8 min] ['C', 'latino~t'] (46 s)
+[50/58 8 min] ['C', 'ts1~p'] (5 s)
+[51/58 8 min] ['C', 'italiano~t'] (33 s)
+[52/58 8 min] ['C', 'vere~p'] (37 s)
+[53/58 9 min] ['C', 'a13~p'] (41 s)
+[54/58 9 min] ['C', 'argP1~p'] (39 s)
+[55/58 9 min] ['C', 'tecF1~p'] (38 s)
+[56/58 9 min] ['C', 'latino~p'] (43 s)
+[57/58 9 min] ['C', 'inglese~p'] (36 s)
+[58/58 9 min] ['C', 'italiano~p'] (34 s)
+C:\Users\davide\voynich\esperimenti\ia09_dove_sta_sintassi.py:387: RuntimeWarning: invalid value encountered in scalar divide
+  return V(num.sum() / den.sum(), (W @ num) / (W @ den))
+C:\Users\davide\voynich\esperimenti\ia09_dove_sta_sintassi.py:387: RuntimeWarning: invalid value encountered in divide
+  return V(num.sum() / den.sum(), (W @ num) / (W @ den))
+# ia15 — da dove viene l'eco della pagina
+
+Soglie nella preregistrazione `preregistrazioni/ia15.md`. "Eco" = eccesso di parole uguali o a una modifica da parole gia' scritte (stessa riga prima, righe sopra), per parola fonte, rispetto a una pagina di riferimento della stessa sezione con la stessa geometria di righe. Intervalli al 95% col bootstrap sulle pagine. Nessuna parola nei risultati.
+
+## Letture
+
+- vere: eco misurabile; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **no**; sintesi **non leggibile (un controllo non e' superato)**
+- a13: eco misurabile; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **no**; sintesi **non leggibile (un controllo non e' superato)**
+- a14: eco misurabile; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **no**; sintesi **non leggibile (un controllo non e' superato)**
+- a15: eco misurabile; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **no**; sintesi **non leggibile (un controllo non e' superato)**
+- a16: eco misurabile; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **no**; sintesi **non leggibile (un controllo non e' superato)**
+- a17: eco misurabile; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **no**; sintesi **non leggibile (un controllo non e' superato)**
+- a18: eco misurabile; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **no**; sintesi **non leggibile (un controllo non e' superato)**
+- a19: eco misurabile; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **no**; sintesi **non leggibile (un controllo non e' superato)**
+- ts1: eco misurabile; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **zona grigia**; sintesi **non leggibile (un controllo non e' superato)**
+- ts2: eco misurabile; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **zona grigia**; sintesi **non leggibile (un controllo non e' superato)**
+- a20: eco misurabile; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **no**; sintesi **non leggibile (un controllo non e' superato)**
+- a21: eco misurabile; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **no**; sintesi **non leggibile (un controllo non e' superato)**
+- a22: eco misurabile; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **no**; sintesi **non leggibile (un controllo non e' superato)**
+- latino: eco misurabile; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **si**; sintesi **non leggibile (un controllo non e' superato)**
+- italiano: eco misurabile; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **zona grigia**; sintesi **non leggibile (un controllo non e' superato)**
+- inglese: eco misurabile; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **no**; sintesi **non leggibile (un controllo non e' superato)**
+- latGeom: eco misurabile; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **si**; sintesi **non leggibile (un controllo non e' superato)**
+- ingGeom: eco misurabile; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **zona grigia**; sintesi **non leggibile (un controllo non e' superato)**
+- argP1: eco misurabile; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **no**; sintesi **non leggibile (un controllo non e' superato)**
+- argP2: eco misurabile; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **no**; sintesi **non leggibile (un controllo non e' superato)**
+- argP3: eco misurabile; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **no**; sintesi **non leggibile (un controllo non e' superato)**
+- argPF1: eco misurabile; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **no**; sintesi **non leggibile (un controllo non e' superato)**
+- argPD1: eco debole; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **no**; sintesi **non leggibile (un controllo non e' superato)**
+- argR1: eco misurabile; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **no**; sintesi **non leggibile (un controllo non e' superato)**
+- argR2: eco misurabile; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **no**; sintesi **non leggibile (un controllo non e' superato)**
+- argR3: eco misurabile; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **no**; sintesi **non leggibile (un controllo non e' superato)**
+- argRF1: eco misurabile; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **no**; sintesi **non leggibile (un controllo non e' superato)**
+- argS1: eco misurabile; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **zona grigia**; sintesi **non leggibile (un controllo non e' superato)**
+- argSF1: eco misurabile; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **si**; sintesi **non leggibile (un controllo non e' superato)**
+- tecM1: eco misurabile; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **no**; sintesi **non leggibile (un controllo non e' superato)**
+- tecM2: eco misurabile; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **no**; sintesi **non leggibile (un controllo non e' superato)**
+- tecM3: eco misurabile; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **no**; sintesi **non leggibile (un controllo non e' superato)**
+- tecF1: eco misurabile; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **no**; sintesi **non leggibile (un controllo non e' superato)**
+- tecD1: eco debole; profilo **non leggibile (un controllo non e' superato)**; varianti **non leggibile (un controllo non e' superato)**; paragrafo **non leggibile (un controllo non e' superato)**; modifiche **non leggibile (un controllo non e' superato)**; pagine vicine **no**; sintesi **non leggibile (un controllo non e' superato)**

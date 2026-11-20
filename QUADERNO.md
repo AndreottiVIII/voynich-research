@@ -16833,3 +16833,36 @@ Corsa: coda `ia_C`, 6 processi, insieme a ia07, ia04 e ia05, 35 minuti, uscita 0
 - **Limiti:** ritocchi fatti dopo la generazione, non dentro il generatore; taratura su quantità (copia netta, D) e non su
   località e contatto; un solo giudice indipendente, anch'esso "a sorpresa".
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione (6 processi invece di 10).
+
+## 20/11/2026 (sera) — ia15 (IA15): quasi tutto "non leggibile": i controlli positivi costruiti sul lessico del Voynich non reggono (la misura del paragrafo non ha forza); leggibile solo "pagine vicine": no, nessuna continuità fra pagine consecutive (latino: sì)
+
+Preregistrato (`preregistrazioni/ia15.md`, commit 1a06716; codice 2c142f9 con `eco_testi.py` ed `eco_modelli.py`). Corsa:
+coda `ia_C`, 4 processi, 10 minuti, uscita 0. Risultati in `risultati/ia15_da_dove_eco.{md,json}` e
+`risultati/ia15_corse.jsonl` (solo numeri per pagina).
+
+- **Domanda:** l'eco della pagina (ia09) è un "argomento" o una "tecnica di scrittura"?
+- **Controlli:** superati i negativi (rimescolati fra pagine e dentro la pagina; nessun falso "sì" sulle pagine vicine), i
+  positivi "argomento di pagina", "argomento che scorre", "direzione fine" e "direzione inizio". **Non superati:**
+  "tecnica" (tecM1–3, tecF1), "argomento di paragrafo" (argR1–3, argRF1), "tecnica che riparte" (tecPF1) e il negativo della
+  direzione. La causa visibile: con il lessico del Voynich l'eco dei generatori è molto piccola (eco vicina di tecM1 0,0022
+  contro 0,0084 del latino nella stessa disposizione) e la misura del paragrafo Q diventa instabile (tecM1 4,60 con
+  intervallo da −0,02 a 43,7; argR1 0,55 con intervallo 0,08–1,65). Il controllo "tecnica" chiedeva anche "il paragrafo non
+  conta", quindi è caduto con Q. L'agente aveva segnalato prima che Q ha poca forza per una tecnica di livello M.
+- **Letture:** per regola, profilo, varianti, paragrafo, modifiche e sintesi sono **non leggibili** per tutti i testi.
+  **Leggibile** (controlli superati): **pagine vicine**. Voynich **no**: il tasso di parole simili fra pagine consecutive,
+  rispetto a pagine della stessa sezione e mano in quaderni diversi, è 0,89 (0,83–0,94); stesso foglio 1,00, stesso bifoglio
+  1,01; gradiente 0,98. Latino nella disposizione **sì** (consecutive 2,13), latino 2,0; v21 no (0,84).
+- **Numeri descrittivi (non letture, perché i controlli non reggono):** eco vicina (0–3 righe) 0,0116 e lontana 0,0057
+  (H 0,49, come il latino nella disposizione 0,46 e il v21 0,50); quota di varianti nell'eco vicina 0,74 (latino nella
+  disposizione 0,30), ma **identica nel v21** (0,75): con il lessico del Voynich, fitto di parole che differiscono per una
+  lettera, la quota di varianti non distingue una tecnica. Q del Voynich 0,88 (0,69–1,11). v21 contro vere: eco vicina 0,84
+  del vero, il resto uguale.
+- **In parole semplici:** la prova pensata per distinguere "argomento" da "tecnica" non funziona con le parole del Voynich:
+  i testi di prova costruiti con quel vocabolario non danno i segnali attesi, quindi le risposte principali non si
+  leggono. Una cosa sì: nel Voynich pagine una dopo l'altra non condividono parole più di pagine lontane della stessa
+  sezione e mano. In una lingua l'argomento "scorre" da una pagina alla successiva; nel Voynich no.
+- **Limiti:** pagine consecutive secondo l'ordine attuale del manoscritto (rilegatura possibilmente alterata); la mano è
+  pareggiata ma la sezione erbario domina.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione. Una nuova versione (controlli separati per misura,
+  generatori più forti sul lessico del Voynich) sarebbe un nuovo esperimento da preregistrare dopo aver visto questi
+  numeri descrittivi: da decidere con Davide.
