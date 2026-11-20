@@ -17,6 +17,9 @@ come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
   cervello di una lingua, IA5 reti più grandi, IA6 traduzioni dei grandi modelli, IA7 Voynich ricreato da un'IA
   locale (idea di Davide, con e senza messaggio). Codici `ia01`–`ia07`. Preparati, rivisti da tre revisori e
   corretti; preregistrazioni e codice **non ancora committati né lanciati** (Davide: aspettare).
+- 20/11: **IA1 fatto** (Davide: prima solo IA1). Giudice A "sorpresa" AUC 0,751 contro il v21 (paper 0,55–0,60):
+  la rete vede picchi di sorpresa e inizi di parola che i giudici del paper non vedevano. Giudice B non valido (C+
+  0,819). Messaggio: nessuna traccia (0,518). Commit 599b225, voce nel QUADERNO. IA2–IA7 ancora fermi.
 - **Azione per Davide:** accesso del programma `claude` da riga di comando (`strumenti/Accesso claude.bat`, serve
   all'IA6).
 
