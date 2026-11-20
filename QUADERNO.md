@@ -16504,3 +16504,20 @@ pagina e punteggi).
 - **Per il paper e per il generatore:** la frase del paper v2 "un giudice più forte potrebbe fare meglio" ora ha una
   risposta: sì, 0,75 contro 0,60. L'elenco della lettura 3 è quello da passare alla chat del voynichizzatore (lo decide
   Davide). Se e come metterlo nel paper lo decide Davide.
+
+## 20/11/2026 (mattina) — ia01, verifica dopo la corsa (non preregistrata): lo 0,751 del giudice A regge; il caso arriva al massimo a 0,63
+
+Analisi aggiunta dopo la corsa, su domanda di Davide, **non preregistrata** e dichiarata come tale. Programma
+`esperimenti/verifica_ia01.py` (usa solo i profili salvati in `risultati/ia01_corse.jsonl`, nessun nuovo
+addestramento; eseguito direttamente, non con `esegui.py`). Risultati in `risultati/ia01_verifica.{md,json}`.
+
+- **Dubbio 1:** l'AUC di A mette insieme profili che vengono da 5 modelli del testo diversi. Ricalcolata dentro ogni
+  piega dei modelli del testo e poi mediata: **0,752** (messa insieme 0,751); con i profili standardizzati dentro ogni
+  piega 0,750 e 0,752. Per libro, le 5 AUC per piega vanno da 0,666 a 0,818. Nessuna distorsione.
+- **Dubbio 2:** le 5 etichette a caso della corsa variavano da 0,386 a 0,613. Rifatto il controllo negativo con 200
+  etichette a caso (stessa procedura; le prime 5 coincidono con quelle della corsa): media 0,496, deviazione 0,056,
+  95% fra 0,386 e 0,597, **massimo 0,626** (dentro piega: massimo 0,635). Lo 0,751 dei libri sta molto oltre.
+  - Il controllo negativo ha una dispersione più grande dei 0,04 stimati nella preregistrazione; la media di 5 ha
+    deviazione circa 0,025, quindi la banda 0,45–0,55 era stretta ma corretta per la media. Il confronto con i libri
+    non è identico (98 contro 98 pagine non appaiate nel controllo, 196 contro 196 appaiate nei libri).
+- **Conclusione:** la lettura 1 di ia01 non cambia.
