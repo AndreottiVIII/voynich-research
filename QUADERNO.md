@@ -16866,3 +16866,37 @@ coda `ia_C`, 4 processi, 10 minuti, uscita 0. Risultati in `risultati/ia15_da_do
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione. Una nuova versione (controlli separati per misura,
   generatori più forti sul lessico del Voynich) sarebbe un nuovo esperimento da preregistrare dopo aver visto questi
   numeri descrittivi: da decidere con Davide.
+
+## 20/11/2026 (sera) — ia13 (IA13): la rete usa soprattutto la parola prima (68% dell'ordine), e di lei le ultime due lettere (72% della sua utilità); il 60% della perdita cade sul primo glifo delle parole; i bordi della riga contano e il v21 li manca; regole leggibili: zona grigia (R² 0,19)
+
+Preregistrato (`preregistrazioni/ia13.md`, commit 46105e3; codice 7102be2 con `vedere_permutazioni.py`,
+`vedere_sintetici.py`, `vedere_regole.py`). Notte autonoma su indicazione di Davide. Corsa: coda `ia_D`, 4 processi, 105
+minuti, uscita 0. Risultati in `risultati/ia13_cosa_vede_rete.{md,json}` e `risultati/ia13_corse.jsonl` (solo numeri e codici
+anonimi); regole con glifi veri solo in `dati/cache/ia13/`.
+
+- **Domanda:** dove sta la perdita di 1,21 bit per parola che la rete paga quando le parole si rimescolano nella riga (ia09)?
+- **Controlli:** superati. Senza ordine (`senzaord`, `vere~t1`): perdita massima 0,004 bit, R² 0,002–0,010. Regole piantate
+  (`pianta1`): rete 1,146 contro oracolo 1,112, correlazioni 0,99 e 0,97, cella del contatto ritrovata. Sulla corsa vera la
+  rete vede anche la regola a distanza 2 (0,435 contro 0,463 dell'oracolo), che nella prova non vedeva.
+- **Riproduzione di ia09:** perdita del rimescolamento completo 1,208 (ia09 1,21).
+- **Lettura "dove nella parola":** **sì, inizio di parola**: 60% della perdita sul primo glifo (interno 19%, ultimo glifo 6%,
+  spazio/a capo 16%).
+- **Lettura "vicino o lontano":** **misto**: la parola prima porta il 68% della perdita dovuta all'ordine (latino 82%, inglese
+  99%: "vicino"); il contesto oltre la parola prima aggiunge poco (6%).
+- **Lettura "pezzi della parola prima"** (quota della sua utilità che resta lasciando solo un pezzo): ultime due lettere 0,72
+  e primo+ultimo 0,69 (zona grigia), ultima lettera 0,54 (zona grigia), primo glifo 0,17, lunghezza 0,15, famiglia 0,19
+  (insufficienti). Nel v21 l'ultima lettera da sola vale 0,67: il v21 dipende di più dal solo contatto, il vero usa di più il
+  resto della fine della parola.
+- **Lettura "bordi della riga":** prima parola zona grigia, ultima "più bassa" (perdita negativa all'ultimo posto, −0,58: la
+  rete trova l'ultima parola vera più difficile di una parola qualsiasi spostata lì, cioè la fine riga ha forme sue).
+- **Lettura "regole":** **zona grigia**. Un albero a 16 foglie spiega il 19% della variazione della perdita su pagine mai
+  viste (4 foglie 0,10; 8 0,14; 32 0,25); la migliore tabella è "ultime lettere della parola prima → primi due glifi".
+- **v21 contro vere:** "meno" su quasi tutto. La differenza più grande è la **prima parola della riga** (1,14 contro 0,28:
+  nel vero la prima parola dipende dall'ordine della riga, nel v21 quasi no) e l'ultima (−0,47 contro −1,30); poi
+  l'interno delle parole (quota 0,19 contro 0,14).
+- **In parole semplici:** la rete, per indovinare una parola, guarda soprattutto la parola appena prima, e di quella
+  soprattutto le ultime due lettere; il colpo cade sulla prima lettera della parola nuova. Le parole all'inizio e alla fine
+  della riga hanno regole loro, e il v21 le imita male. Regole semplici spiegano circa un quinto di ciò che la rete sa.
+- **Limiti:** una rete sola (GRU di ia09); tre libri v21 invece di dieci; le regole sono tabelle e alberi piccoli.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione (4 processi invece di 10).
+- **Per il generatore:** bordi della riga (prima e ultima parola), dipendenza dalle ultime due lettere della parola prima.
