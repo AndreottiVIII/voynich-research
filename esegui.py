@@ -54,7 +54,7 @@ VARIABILI = ('LINGUE_SOLO', 'PROCESSI', 'RIPARTENZE', 'RIPRENDI', 'NAIBBE', 'BIB
              'PASSO_VETRINA20', 'MODELLI_A20',
              'PERCORSO', 'TESTO_PROVA', 'MODELLO_PARTENZA', 'REPLICA_PARTENZA', 'CACHE21', 'N_GIRI21', 'C21',
              'CVAL21', 'PESO21', 'EPOCHE_AFFINA21', 'LR_AFFINA21', 'L_MON21', 'N_FIN21', 'N_STR21', 'EPOCHE_ES21',
-             'PAZIENZA_ES21', 'STRUTTURA21', 'GUARDIE21', 'PICCOLO21', 'RIFAI')
+             'PAZIENZA_ES21', 'STRUTTURA21', 'GUARDIE21', 'PICCOLO21', 'RIFAI', 'ETICHETTA')
 
 
 def ambiente():
@@ -110,6 +110,9 @@ def esegui(nome, argomenti, env):
     # una corsa con argomenti (--esplorativo, --naibbe...) ha la sua provenienza e non
     # sovrascrive quella della corsa principale
     etichetta = codice + ''.join('_' + a.strip('-') for a in argomenti if a.startswith('--'))
+    # ETICHETTA distingue corse parallele dello stesso esperimento (es. ia21 vero e cieco)
+    if os.environ.get('ETICHETTA'):
+        etichetta += '_' + os.environ['ETICHETTA']
     # la provenienza si fotografa prima di partire: commit e dati sono quelli con cui gira
     prov = registro.provenienza(script)
     inizio = time.time()
