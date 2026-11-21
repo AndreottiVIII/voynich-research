@@ -17178,3 +17178,46 @@ e `risultati/ia17_corse.jsonl` (solo numeri e codici anonimi).
 - **Limiti:** imitatore valido ma più lontano dal vero del v21 (ia16); le letture riguardano come lavora l'imitatore, non il
   manoscritto direttamente; controllo di sensibilità non riuscito.
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione (6 processi invece di 8).
+
+## 21/11/2026 (pomeriggio) — ia20 (IA20): l'imitatore a gradini non batte il v21 su nessun giudice del paper né su K; ogni ingrediente che porta l'eco della pagina rompe il contatto fra parole e l'ordine delle famiglie; nessun gradino arriva al vocabolario della pagina né alla forma delle parole inventate
+
+Preregistrato (`preregistrazioni/ia20.md`, commit 9ad13a5; codice aaf3fc2 con `gradini_modelli.py`; variabili in `esegui.py`
+10b0e71). Richiesta di Davide del 21/11 ("addestrare un'IA a rifarlo, così capiamo cosa non riusciamo a fare"); preparato da
+un agente, controllato e lanciato dal coordinatore. Corsa: coda `ia_I`, 8 processi, 11:29–15:18 (229 minuti), uscita 0.
+Risultati in `risultati/ia20_imitatore_gradini.{md,json}` e `risultati/ia20_corse.jsonl` (solo numeri).
+
+- **Disegno:** cinque imitatori, un ingrediente in più per gradino: M1 la GRU di ia07; M2 + attenzione sulla riga in corso e
+  su quella sopra; M3 + vocabolario della pagina (media dei vettori delle parole già scritte); M4 + posizione nella riga; M5 +
+  puntatore "copia e ritocca" una delle ultime 28 parole della riga o di quella sopra. 10 modelli e 10 libri per gradino.
+- **Controlli dei giudici:** tutti riusciti (giudice 2 sulle parole rimescolate 0,988; etichette a caso 0,506/0,503; K 0,982,
+  e192 0,935, negativo 0,499, vede il v21 0,766; A 0,986/0,484).
+- **Sensibilità degli ingredienti:** M2, M4, M5 provate (M5 impara la copia piantata: 0,599 bit sotto M1, quota di copia 0,822;
+  non inventa copia dove non c'è: 0,005). **M3 non provata** (tema piantato: 0,002 bit, soglia 0,03), come già sul latino:
+  M3 si legge con riserva.
+- **L2, M1 contro ia07:** uguale entro l'errore sui tre giudici (coerenza riuscita).
+- **Bit per segno:** quasi uguali fra i gradini (validazione 1,950–1,965; fuori piega 1,924–1,940), come ia07 (1,964/1,948).
+- **L1, contro il v21: nessun gradino lo batte.** Il gradino migliore (media dei tre giudici) è M5: e231 0,782, e266 0,799,
+  K 0,797, contro il v21 0,554 / 0,601 / 0,766: **più lontano dal vero del v21.** Su K, M1, M2 e M4 sono alla pari del v21
+  (0,760–0,774); M3 e M5 più lontani. Giudice A (riportato): M2 e M4 0,643–0,644 contro 0,746 del v21.
+- **L3, ingrediente → misure:**
+  - M2 (memoria locale) **corregge ma rompe:** avvicina copia netta, Λ (al vero: 0,179 contro 0,207), G9 e forma delle parole
+    nuove; rompe contatto (0,162 contro 0,188) e ordine delle famiglie D (0,118 contro 0,144).
+  - M3 (vocabolario della pagina, con riserva) **corregge ma rompe:** avvicina copia netta, contatto, G9; rompe Λ, bordi di fine
+    riga e K.
+  - M4 (posizione nella riga) **rompe:** contatto, D, forma; migliora solo K.
+  - M5 (copia e ritocco) **corregge ma rompe:** copia netta da 0,066 a 0,142 (oltre il vero, 0,114), Λ 0,236 (vero 0,207), G9,
+    forma, giudice 2; rompe bordi di fine riga, quota di parole nuove (0,173 contro 0,153) e K.
+- **L4, che cosa nessun gradino porta al vero:** **copia netta** (M5 la supera, gli altri restano sotto), **vocabolario della
+  pagina G9** (al massimo 0,032 contro 0,040; il v21 arriva a 0,039) e **forma delle parole inventate** (3,67–3,75 bit per glifo
+  contro 3,48). Contatto e ordine delle famiglie sono al vero **solo in M1**, che però non ha l'eco: nessun gradino ha insieme
+  eco e contatto.
+- **Copia a memoria:** nessuna (5-grammi e righe intere 0); nessun gradino "si avvita". M5 scrive il 7% delle parole copiando
+  o ritoccando una parola vicina.
+- **In parole semplici:** abbiamo costruito cinque imitatori, aggiungendo un pezzo alla volta. Il pezzo che copia e ritocca
+  le parole vicine porta l'eco della pagina (anzi ne mette troppa), ma ogni volta che l'eco entra si rompe il legame fra la fine
+  di una parola e l'inizio della successiva. Nessun imitatore impara il vocabolario proprio di ogni pagina né la forma giusta
+  delle parole che inventa, e nessuno batte il v21 davanti ai giudici del paper; davanti al giudice indipendente K i migliori
+  sono alla pari del v21.
+- **Limiti:** M3 con sensibilità non provata; 10 libri per gradino; un solo modo di realizzare ogni ingrediente; i giudici del
+  paper sono quelli su cui il v21 è stato regolato (giudice amico del v21), per questo conta anche K.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione (8 processi invece di 10).

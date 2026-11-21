@@ -1,0 +1,2972 @@
+{
+ "esperimento": "ia20",
+ "solo_controlli": false,
+ "versioni": {
+  "python": "3.12.10",
+  "torch": "2.15.0+cpu",
+  "numpy": "2.5.3",
+  "gradini": "gradini-1",
+  "sklearn": "1.9.1"
+ },
+ "errori": [],
+ "passi": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "modelli": [
+  {
+   "lavoro": "addestra|1|0|0",
+   "passo": 1,
+   "piega": 0,
+   "replica": 0,
+   "parametri": 665481,
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "epoche": 27,
+   "epoca_scelta": 17,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.75119,
+   "bpc_validazione": 1.88233,
+   "bpc_fuori": 1.9504,
+   "scarto": 0.19921,
+   "secondi": 978.4
+  },
+  {
+   "lavoro": "addestra|1|0|1",
+   "passo": 1,
+   "piega": 0,
+   "replica": 1,
+   "parametri": 665481,
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "epoche": 24,
+   "epoca_scelta": 14,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.81231,
+   "bpc_validazione": 1.88745,
+   "bpc_fuori": 1.95905,
+   "scarto": 0.14674,
+   "secondi": 949.8
+  },
+  {
+   "lavoro": "addestra|1|1|0",
+   "passo": 1,
+   "piega": 1,
+   "replica": 0,
+   "parametri": 665481,
+   "pagine": [
+    147,
+    20,
+    40
+   ],
+   "epoche": 24,
+   "epoca_scelta": 14,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.78899,
+   "bpc_validazione": 1.93818,
+   "bpc_fuori": 2.03135,
+   "scarto": 0.24236,
+   "secondi": 1083.0
+  },
+  {
+   "lavoro": "addestra|1|1|1",
+   "passo": 1,
+   "piega": 1,
+   "replica": 1,
+   "parametri": 665481,
+   "pagine": [
+    147,
+    20,
+    40
+   ],
+   "epoche": 22,
+   "epoca_scelta": 12,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.79774,
+   "bpc_validazione": 1.92795,
+   "bpc_fuori": 2.01967,
+   "scarto": 0.22193,
+   "secondi": 977.4
+  },
+  {
+   "lavoro": "addestra|1|2|0",
+   "passo": 1,
+   "piega": 2,
+   "replica": 0,
+   "parametri": 665481,
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "epoche": 24,
+   "epoca_scelta": 14,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.80864,
+   "bpc_validazione": 1.95815,
+   "bpc_fuori": 1.92881,
+   "scarto": 0.12017,
+   "secondi": 913.1
+  },
+  {
+   "lavoro": "addestra|1|2|1",
+   "passo": 1,
+   "piega": 2,
+   "replica": 1,
+   "parametri": 665481,
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "epoche": 25,
+   "epoca_scelta": 15,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.78836,
+   "bpc_validazione": 1.93232,
+   "bpc_fuori": 1.91971,
+   "scarto": 0.13135,
+   "secondi": 883.7
+  },
+  {
+   "lavoro": "addestra|1|3|0",
+   "passo": 1,
+   "piega": 3,
+   "replica": 0,
+   "parametri": 665481,
+   "pagine": [
+    146,
+    20,
+    41
+   ],
+   "epoche": 22,
+   "epoca_scelta": 12,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.83009,
+   "bpc_validazione": 1.9051,
+   "bpc_fuori": 1.95205,
+   "scarto": 0.12196,
+   "secondi": 918.5
+  },
+  {
+   "lavoro": "addestra|1|3|1",
+   "passo": 1,
+   "piega": 3,
+   "replica": 1,
+   "parametri": 665481,
+   "pagine": [
+    146,
+    20,
+    41
+   ],
+   "epoche": 26,
+   "epoca_scelta": 16,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.77494,
+   "bpc_validazione": 1.92063,
+   "bpc_fuori": 1.9448,
+   "scarto": 0.16986,
+   "secondi": 862.6
+  },
+  {
+   "lavoro": "addestra|1|4|0",
+   "passo": 1,
+   "piega": 4,
+   "replica": 0,
+   "parametri": 665481,
+   "pagine": [
+    148,
+    19,
+    40
+   ],
+   "epoche": 19,
+   "epoca_scelta": 9,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.89691,
+   "bpc_validazione": 2.1502,
+   "bpc_fuori": 1.85621,
+   "scarto": -0.0407,
+   "secondi": 820.2
+  },
+  {
+   "lavoro": "addestra|1|4|1",
+   "passo": 1,
+   "piega": 4,
+   "replica": 1,
+   "parametri": 665481,
+   "pagine": [
+    148,
+    19,
+    40
+   ],
+   "epoche": 22,
+   "epoca_scelta": 12,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.85254,
+   "bpc_validazione": 2.14596,
+   "bpc_fuori": 1.83998,
+   "scarto": -0.01256,
+   "secondi": 690.7
+  },
+  {
+   "lavoro": "addestra|2|0|0",
+   "passo": 2,
+   "piega": 0,
+   "replica": 0,
+   "parametri": 797193,
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "epoche": 24,
+   "epoca_scelta": 14,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.78987,
+   "bpc_validazione": 1.87976,
+   "bpc_fuori": 1.9337,
+   "scarto": 0.14383,
+   "secondi": 1531.2
+  },
+  {
+   "lavoro": "addestra|2|0|1",
+   "passo": 2,
+   "piega": 0,
+   "replica": 1,
+   "parametri": 797193,
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "epoche": 25,
+   "epoca_scelta": 15,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.7481,
+   "bpc_validazione": 1.85744,
+   "bpc_fuori": 1.91001,
+   "scarto": 0.16191,
+   "secondi": 1429.0
+  },
+  {
+   "lavoro": "addestra|2|1|0",
+   "passo": 2,
+   "piega": 1,
+   "replica": 0,
+   "parametri": 797193,
+   "pagine": [
+    147,
+    20,
+    40
+   ],
+   "epoche": 23,
+   "epoca_scelta": 13,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.78207,
+   "bpc_validazione": 1.9117,
+   "bpc_fuori": 2.00101,
+   "scarto": 0.21894,
+   "secondi": 1615.1
+  },
+  {
+   "lavoro": "addestra|2|1|1",
+   "passo": 2,
+   "piega": 1,
+   "replica": 1,
+   "parametri": 797193,
+   "pagine": [
+    147,
+    20,
+    40
+   ],
+   "epoche": 24,
+   "epoca_scelta": 14,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.76766,
+   "bpc_validazione": 1.93064,
+   "bpc_fuori": 2.01427,
+   "scarto": 0.24661,
+   "secondi": 1497.5
+  },
+  {
+   "lavoro": "addestra|2|2|0",
+   "passo": 2,
+   "piega": 2,
+   "replica": 0,
+   "parametri": 797193,
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "epoche": 28,
+   "epoca_scelta": 18,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.72337,
+   "bpc_validazione": 1.95296,
+   "bpc_fuori": 1.91928,
+   "scarto": 0.19591,
+   "secondi": 1716.6
+  },
+  {
+   "lavoro": "addestra|2|2|1",
+   "passo": 2,
+   "piega": 2,
+   "replica": 1,
+   "parametri": 797193,
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "epoche": 24,
+   "epoca_scelta": 14,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.7671,
+   "bpc_validazione": 1.93766,
+   "bpc_fuori": 1.91934,
+   "scarto": 0.15224,
+   "secondi": 1306.5
+  },
+  {
+   "lavoro": "addestra|2|3|0",
+   "passo": 2,
+   "piega": 3,
+   "replica": 0,
+   "parametri": 797193,
+   "pagine": [
+    146,
+    20,
+    41
+   ],
+   "epoche": 26,
+   "epoca_scelta": 16,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.76059,
+   "bpc_validazione": 1.89459,
+   "bpc_fuori": 1.93164,
+   "scarto": 0.17105,
+   "secondi": 1587.3
+  },
+  {
+   "lavoro": "addestra|2|3|1",
+   "passo": 2,
+   "piega": 3,
+   "replica": 1,
+   "parametri": 797193,
+   "pagine": [
+    146,
+    20,
+    41
+   ],
+   "epoche": 25,
+   "epoca_scelta": 15,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.75839,
+   "bpc_validazione": 1.89095,
+   "bpc_fuori": 1.93638,
+   "scarto": 0.17799,
+   "secondi": 1352.0
+  },
+  {
+   "lavoro": "addestra|2|4|0",
+   "passo": 2,
+   "piega": 4,
+   "replica": 0,
+   "parametri": 797193,
+   "pagine": [
+    148,
+    19,
+    40
+   ],
+   "epoche": 20,
+   "epoca_scelta": 10,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.88068,
+   "bpc_validazione": 2.12388,
+   "bpc_fuori": 1.84871,
+   "scarto": -0.03197,
+   "secondi": 1206.4
+  },
+  {
+   "lavoro": "addestra|2|4|1",
+   "passo": 2,
+   "piega": 4,
+   "replica": 1,
+   "parametri": 797193,
+   "pagine": [
+    148,
+    19,
+    40
+   ],
+   "epoche": 32,
+   "epoca_scelta": 22,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.69735,
+   "bpc_validazione": 2.12227,
+   "bpc_fuori": 1.83062,
+   "scarto": 0.13327,
+   "secondi": 1763.9
+  },
+  {
+   "lavoro": "addestra|3|0|0",
+   "passo": 3,
+   "piega": 0,
+   "replica": 0,
+   "parametri": 929609,
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "epoche": 25,
+   "epoca_scelta": 15,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.7141,
+   "bpc_validazione": 1.8657,
+   "bpc_fuori": 1.93128,
+   "scarto": 0.21718,
+   "secondi": 2016.1
+  },
+  {
+   "lavoro": "addestra|3|0|1",
+   "passo": 3,
+   "piega": 0,
+   "replica": 1,
+   "parametri": 929609,
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "epoche": 21,
+   "epoca_scelta": 11,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.78848,
+   "bpc_validazione": 1.87038,
+   "bpc_fuori": 1.92917,
+   "scarto": 0.14069,
+   "secondi": 1495.8
+  },
+  {
+   "lavoro": "addestra|3|1|0",
+   "passo": 3,
+   "piega": 1,
+   "replica": 0,
+   "parametri": 929609,
+   "pagine": [
+    147,
+    20,
+    40
+   ],
+   "epoche": 26,
+   "epoca_scelta": 16,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.70897,
+   "bpc_validazione": 1.92143,
+   "bpc_fuori": 1.99365,
+   "scarto": 0.28468,
+   "secondi": 2246.3
+  },
+  {
+   "lavoro": "addestra|3|1|1",
+   "passo": 3,
+   "piega": 1,
+   "replica": 1,
+   "parametri": 929609,
+   "pagine": [
+    147,
+    20,
+    40
+   ],
+   "epoche": 23,
+   "epoca_scelta": 13,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.74372,
+   "bpc_validazione": 1.93093,
+   "bpc_fuori": 2.00221,
+   "scarto": 0.25849,
+   "secondi": 1834.6
+  },
+  {
+   "lavoro": "addestra|3|2|0",
+   "passo": 3,
+   "piega": 2,
+   "replica": 0,
+   "parametri": 929609,
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "epoche": 29,
+   "epoca_scelta": 19,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.67885,
+   "bpc_validazione": 1.94168,
+   "bpc_fuori": 1.9257,
+   "scarto": 0.24685,
+   "secondi": 2185.1
+  },
+  {
+   "lavoro": "addestra|3|2|1",
+   "passo": 3,
+   "piega": 2,
+   "replica": 1,
+   "parametri": 929609,
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "epoche": 22,
+   "epoca_scelta": 12,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.83239,
+   "bpc_validazione": 1.94554,
+   "bpc_fuori": 1.96054,
+   "scarto": 0.12815,
+   "secondi": 1602.4
+  },
+  {
+   "lavoro": "addestra|3|3|0",
+   "passo": 3,
+   "piega": 3,
+   "replica": 0,
+   "parametri": 929609,
+   "pagine": [
+    146,
+    20,
+    41
+   ],
+   "epoche": 22,
+   "epoca_scelta": 12,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.78683,
+   "bpc_validazione": 1.88018,
+   "bpc_fuori": 1.92492,
+   "scarto": 0.13809,
+   "secondi": 1668.0
+  },
+  {
+   "lavoro": "addestra|3|3|1",
+   "passo": 3,
+   "piega": 3,
+   "replica": 1,
+   "parametri": 929609,
+   "pagine": [
+    146,
+    20,
+    41
+   ],
+   "epoche": 27,
+   "epoca_scelta": 17,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.74317,
+   "bpc_validazione": 1.90585,
+   "bpc_fuori": 1.96691,
+   "scarto": 0.22374,
+   "secondi": 1950.8
+  },
+  {
+   "lavoro": "addestra|3|4|0",
+   "passo": 3,
+   "piega": 4,
+   "replica": 0,
+   "parametri": 929609,
+   "pagine": [
+    148,
+    19,
+    40
+   ],
+   "epoche": 18,
+   "epoca_scelta": 8,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.85437,
+   "bpc_validazione": 2.12975,
+   "bpc_fuori": 1.81082,
+   "scarto": -0.04355,
+   "secondi": 1309.4
+  },
+  {
+   "lavoro": "addestra|3|4|1",
+   "passo": 3,
+   "piega": 4,
+   "replica": 1,
+   "parametri": 929609,
+   "pagine": [
+    148,
+    19,
+    40
+   ],
+   "epoche": 18,
+   "epoca_scelta": 8,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.88312,
+   "bpc_validazione": 2.13704,
+   "bpc_fuori": 1.8491,
+   "scarto": -0.03402,
+   "secondi": 1308.3
+  },
+  {
+   "lavoro": "addestra|4|0|0",
+   "passo": 4,
+   "piega": 0,
+   "replica": 0,
+   "parametri": 938921,
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "epoche": 17,
+   "epoca_scelta": 7,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.84494,
+   "bpc_validazione": 1.88302,
+   "bpc_fuori": 1.94768,
+   "scarto": 0.10274,
+   "secondi": 1287.4
+  },
+  {
+   "lavoro": "addestra|4|0|1",
+   "passo": 4,
+   "piega": 0,
+   "replica": 1,
+   "parametri": 938921,
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "epoche": 20,
+   "epoca_scelta": 10,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.80525,
+   "bpc_validazione": 1.8583,
+   "bpc_fuori": 1.93936,
+   "scarto": 0.13411,
+   "secondi": 1718.2
+  },
+  {
+   "lavoro": "addestra|4|1|0",
+   "passo": 4,
+   "piega": 1,
+   "replica": 0,
+   "parametri": 938921,
+   "pagine": [
+    147,
+    20,
+    40
+   ],
+   "epoche": 23,
+   "epoca_scelta": 13,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.73398,
+   "bpc_validazione": 1.93196,
+   "bpc_fuori": 2.01731,
+   "scarto": 0.28333,
+   "secondi": 2070.1
+  },
+  {
+   "lavoro": "addestra|4|1|1",
+   "passo": 4,
+   "piega": 1,
+   "replica": 1,
+   "parametri": 938921,
+   "pagine": [
+    147,
+    20,
+    40
+   ],
+   "epoche": 24,
+   "epoca_scelta": 14,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.70296,
+   "bpc_validazione": 1.92018,
+   "bpc_fuori": 2.00357,
+   "scarto": 0.30061,
+   "secondi": 2260.7
+  },
+  {
+   "lavoro": "addestra|4|2|0",
+   "passo": 4,
+   "piega": 2,
+   "replica": 0,
+   "parametri": 938921,
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "epoche": 21,
+   "epoca_scelta": 11,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.7768,
+   "bpc_validazione": 1.97404,
+   "bpc_fuori": 1.91223,
+   "scarto": 0.13543,
+   "secondi": 1738.4
+  },
+  {
+   "lavoro": "addestra|4|2|1",
+   "passo": 4,
+   "piega": 2,
+   "replica": 1,
+   "parametri": 938921,
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "epoche": 21,
+   "epoca_scelta": 11,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.77244,
+   "bpc_validazione": 1.97456,
+   "bpc_fuori": 1.9273,
+   "scarto": 0.15486,
+   "secondi": 1803.9
+  },
+  {
+   "lavoro": "addestra|4|3|0",
+   "passo": 4,
+   "piega": 3,
+   "replica": 0,
+   "parametri": 938921,
+   "pagine": [
+    146,
+    20,
+    41
+   ],
+   "epoche": 20,
+   "epoca_scelta": 10,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.79432,
+   "bpc_validazione": 1.87496,
+   "bpc_fuori": 1.92095,
+   "scarto": 0.12663,
+   "secondi": 1660.2
+  },
+  {
+   "lavoro": "addestra|4|3|1",
+   "passo": 4,
+   "piega": 3,
+   "replica": 1,
+   "parametri": 938921,
+   "pagine": [
+    146,
+    20,
+    41
+   ],
+   "epoche": 24,
+   "epoca_scelta": 14,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.75601,
+   "bpc_validazione": 1.88827,
+   "bpc_fuori": 1.92079,
+   "scarto": 0.16478,
+   "secondi": 1970.6
+  },
+  {
+   "lavoro": "addestra|4|4|0",
+   "passo": 4,
+   "piega": 4,
+   "replica": 0,
+   "parametri": 938921,
+   "pagine": [
+    148,
+    19,
+    40
+   ],
+   "epoche": 18,
+   "epoca_scelta": 8,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.89627,
+   "bpc_validazione": 2.13868,
+   "bpc_fuori": 1.86999,
+   "scarto": -0.02628,
+   "secondi": 1472.5
+  },
+  {
+   "lavoro": "addestra|4|4|1",
+   "passo": 4,
+   "piega": 4,
+   "replica": 1,
+   "parametri": 938921,
+   "pagine": [
+    148,
+    19,
+    40
+   ],
+   "epoche": 21,
+   "epoca_scelta": 11,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.78256,
+   "bpc_validazione": 2.12443,
+   "bpc_fuori": 1.78282,
+   "scarto": 0.00026,
+   "secondi": 1772.4
+  },
+  {
+   "lavoro": "addestra|5|0|0",
+   "passo": 5,
+   "piega": 0,
+   "replica": 0,
+   "parametri": 1040811,
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "epoche": 25,
+   "epoca_scelta": 15,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.71252,
+   "bpc_validazione": 1.86399,
+   "bpc_fuori": 1.92323,
+   "scarto": 0.21071,
+   "secondi": 2195.1
+  },
+  {
+   "lavoro": "addestra|5|0|1",
+   "passo": 5,
+   "piega": 0,
+   "replica": 1,
+   "parametri": 1040811,
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "epoche": 19,
+   "epoca_scelta": 9,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.81726,
+   "bpc_validazione": 1.86788,
+   "bpc_fuori": 1.94886,
+   "scarto": 0.1316,
+   "secondi": 1841.2
+  },
+  {
+   "lavoro": "addestra|5|1|0",
+   "passo": 5,
+   "piega": 1,
+   "replica": 0,
+   "parametri": 1040811,
+   "pagine": [
+    147,
+    20,
+    40
+   ],
+   "epoche": 21,
+   "epoca_scelta": 11,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.77848,
+   "bpc_validazione": 1.92813,
+   "bpc_fuori": 2.03019,
+   "scarto": 0.25171,
+   "secondi": 2134.5
+  },
+  {
+   "lavoro": "addestra|5|1|1",
+   "passo": 5,
+   "piega": 1,
+   "replica": 1,
+   "parametri": 1040811,
+   "pagine": [
+    147,
+    20,
+    40
+   ],
+   "epoche": 25,
+   "epoca_scelta": 15,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.69354,
+   "bpc_validazione": 1.92812,
+   "bpc_fuori": 2.00729,
+   "scarto": 0.31375,
+   "secondi": 2600.9
+  },
+  {
+   "lavoro": "addestra|5|2|0",
+   "passo": 5,
+   "piega": 2,
+   "replica": 0,
+   "parametri": 1040811,
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "epoche": 21,
+   "epoca_scelta": 11,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.78867,
+   "bpc_validazione": 1.97813,
+   "bpc_fuori": 1.92971,
+   "scarto": 0.14104,
+   "secondi": 2000.7
+  },
+  {
+   "lavoro": "addestra|5|2|1",
+   "passo": 5,
+   "piega": 2,
+   "replica": 1,
+   "parametri": 1040811,
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "epoche": 21,
+   "epoca_scelta": 11,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.78028,
+   "bpc_validazione": 1.96629,
+   "bpc_fuori": 1.93307,
+   "scarto": 0.15279,
+   "secondi": 2037.9
+  },
+  {
+   "lavoro": "addestra|5|3|0",
+   "passo": 5,
+   "piega": 3,
+   "replica": 0,
+   "parametri": 1040811,
+   "pagine": [
+    146,
+    20,
+    41
+   ],
+   "epoche": 25,
+   "epoca_scelta": 15,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.71324,
+   "bpc_validazione": 1.89286,
+   "bpc_fuori": 1.9256,
+   "scarto": 0.21236,
+   "secondi": 2307.4
+  },
+  {
+   "lavoro": "addestra|5|3|1",
+   "passo": 5,
+   "piega": 3,
+   "replica": 1,
+   "parametri": 1040811,
+   "pagine": [
+    146,
+    20,
+    41
+   ],
+   "epoche": 28,
+   "epoca_scelta": 18,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.66963,
+   "bpc_validazione": 1.89289,
+   "bpc_fuori": 1.93317,
+   "scarto": 0.26354,
+   "secondi": 2739.9
+  },
+  {
+   "lavoro": "addestra|5|4|0",
+   "passo": 5,
+   "piega": 4,
+   "replica": 0,
+   "parametri": 1040811,
+   "pagine": [
+    148,
+    19,
+    40
+   ],
+   "epoche": 24,
+   "epoca_scelta": 14,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.74638,
+   "bpc_validazione": 2.13416,
+   "bpc_fuori": 1.79904,
+   "scarto": 0.05266,
+   "secondi": 2212.9
+  },
+  {
+   "lavoro": "addestra|5|4|1",
+   "passo": 5,
+   "piega": 4,
+   "replica": 1,
+   "parametri": 1040811,
+   "pagine": [
+    148,
+    19,
+    40
+   ],
+   "epoche": 21,
+   "epoca_scelta": 11,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.81095,
+   "bpc_validazione": 2.14531,
+   "bpc_fuori": 1.82746,
+   "scarto": 0.01651,
+   "secondi": 2014.0
+  }
+ ],
+ "bpc": {
+  "M1": {
+   "modelli": 10,
+   "parametri": 665481,
+   "validazione": [
+    1.964827,
+    0.03138598774577243
+   ],
+   "fuori": [
+    1.940203,
+    0.019117382727071565
+   ],
+   "epoche_scelte": 13.5,
+   "al_massimo": 0,
+   "secondi_medi": 907.74
+  },
+  "M2": {
+   "modelli": 10,
+   "parametri": 797193,
+   "validazione": [
+    1.950185,
+    0.030179423389308013
+   ],
+   "fuori": [
+    1.924496,
+    0.017953829501746343
+   ],
+   "epoche_scelte": 15.1,
+   "al_massimo": 0,
+   "secondi_medi": 1500.55
+  },
+  "M3": {
+   "modelli": 10,
+   "parametri": 929609,
+   "validazione": [
+    1.9528480000000001,
+    0.03140272920906362
+   ],
+   "fuori": [
+    1.92943,
+    0.018959812293960654
+   ],
+   "epoche_scelte": 13.1,
+   "al_massimo": 0,
+   "secondi_medi": 1761.68
+  },
+  "M4": {
+   "modelli": 10,
+   "parametri": 938921,
+   "validazione": [
+    1.9568400000000001,
+    0.03167380715986001
+   ],
+   "fuori": [
+    1.9242000000000001,
+    0.020777208399804067
+   ],
+   "epoche_scelte": 10.9,
+   "al_massimo": 0,
+   "secondi_medi": 1775.44
+  },
+  "M5": {
+   "modelli": 10,
+   "parametri": 1040811,
+   "validazione": [
+    1.9597760000000002,
+    0.03228120169179992
+   ],
+   "fuori": [
+    1.925762,
+    0.022095147119270832
+   ],
+   "epoche_scelte": 13.0,
+   "al_massimo": 0,
+   "secondi_medi": 2208.45
+  }
+ },
+ "modelli_ia07": {
+  "0_0": [
+   1.87828,
+   1.93805
+  ],
+  "0_1": [
+   1.88389,
+   1.96401
+  ],
+  "1_0": [
+   1.96048,
+   2.02405
+  ],
+  "1_1": [
+   1.93376,
+   2.03034
+  ],
+  "2_0": [
+   1.94091,
+   1.94414
+  ],
+  "2_1": [
+   1.94255,
+   1.97113
+  ],
+  "3_0": [
+   1.91299,
+   1.95609
+  ],
+  "3_1": [
+   1.91065,
+   1.96551
+  ],
+  "4_0": [
+   2.14484,
+   1.84876
+  ],
+  "4_1": [
+   2.13173,
+   1.83748
+  ]
+ },
+ "controlli": {
+  "paper_positivo": {
+   "AUC": 0.9880943044799528,
+   "soglia": 0.95,
+   "riuscito": true
+  },
+  "paper_negativo": {
+   "AUC_e231": 0.5060288207038526,
+   "AUC_e266": 0.5030291147926673,
+   "banda": [
+    0.45,
+    0.55
+   ],
+   "riuscito": true
+  },
+  "A_positivo": {
+   "AUC": {
+    "parole": 0.9862366434663269,
+    "e192": 0.9581364572100775
+   },
+   "soglia": 0.85,
+   "riuscito": true
+  },
+  "A_negativo": {
+   "AUC": 0.48352514459366724,
+   "banda": [
+    0.45,
+    0.55
+   ],
+   "riuscito": true
+  },
+  "K_positivo": {
+   "AUC": {
+    "parole": 0.9820017645328889,
+    "e192": 0.9349622586020979
+   },
+   "soglia": 0.85,
+   "riuscito": true
+  },
+  "K_negativo": {
+   "AUC": 0.49913930006862073,
+   "valori": [
+    0.5709244191745908,
+    0.4305656308205078,
+    0.44319184393686895,
+    0.5487109106950299,
+    0.5023036957161062
+   ],
+   "banda": [
+    0.45,
+    0.55
+   ],
+   "riuscito": true
+  },
+  "K_vede_v21": {
+   "AUC": 0.7661552788942261,
+   "soglia": 0.65,
+   "riuscito": true
+  }
+ },
+ "sensibilita": {
+  "M2_memoria_locale": {
+   "guadagno_su_M1": 0.32857999999999965,
+   "nota": "descrittivo: l'attenzione puo' imparare da sola la copia dalla riga sopra"
+  },
+  "M3_vocabolario_pagina": {
+   "guadagno_su_M2": 0.0022700000000002163,
+   "soglia": 0.03,
+   "riuscito": false
+  },
+  "M4_posizione_riga": {
+   "guadagno_su_M3": 0.01782000000000017,
+   "soglia": -0.02,
+   "riuscito": true
+  },
+  "M5_puntatore": {
+   "guadagno_su_M1": 0.5992999999999999,
+   "guadagno_su_M2": 0.2707200000000003,
+   "soglia_guadagno": 0.1,
+   "posteriori_copiabili": 0.821674523227871,
+   "soglia_posteriori": 0.5,
+   "riuscito": true
+  },
+  "M5_negativo": {
+   "differenza_M1_M5": 0.011629999999999807,
+   "massa_media": 0.004602281610518715,
+   "soglie": [
+    0.02,
+    0.1
+   ],
+   "riuscito": true
+  }
+ },
+ "giudici": {
+  "gradini": {
+   "M1": {
+    "libri": 10,
+    "e231": [
+     0.7845824911522917,
+     0.009449150773045822
+    ],
+    "e266": [
+     0.8406518645861836,
+     0.006746481529451753
+    ],
+    "K": [
+     0.7735079894128027,
+     0.004728752413814343
+    ],
+    "A": [
+     0.6754421135182825,
+     0.008709415903050568
+    ],
+    "per_replica": {
+     "e231": [
+      [
+       0.7784179625021082,
+       0.015612209811938189
+      ],
+      [
+       0.7907470198024751,
+       0.011791828719136007
+      ]
+     ],
+     "e266": [
+      [
+       0.8507373906494748,
+       0.008100066268179792
+      ],
+      [
+       0.8305663385228922,
+       0.009399338651574548
+      ]
+     ]
+    },
+    "repliche_diverse": {
+     "e231": false,
+     "e266": false
+    },
+    "gruppi_e266": {
+     "G1": 0.6749566576169915,
+     "G2": 0.7220876010449674,
+     "G3": 0.6969084791867423,
+     "G4": 0.6427649619576297,
+     "G5": 0.49555764586806006,
+     "G6": 0.6238670977081388,
+     "G7": 0.5999847925560245,
+     "G8": 0.6134976152615271,
+     "G9": 0.7301285073132798
+    }
+   },
+   "M2": {
+    "libri": 10,
+    "e231": [
+     0.7854981533492085,
+     0.004987916567614969
+    ],
+    "e266": [
+     0.8378694511873614,
+     0.005296456230151421
+    ],
+    "K": [
+     0.7642951671404765,
+     0.005620764871671632
+    ],
+    "A": [
+     0.6434030977355161,
+     0.00800149196631591
+    ],
+    "per_replica": {
+     "e231": [
+      [
+       0.7769084407069131,
+       0.006858970275917083
+      ],
+      [
+       0.7940878659915039,
+       0.005293377721283155
+      ]
+     ],
+     "e266": [
+      [
+       0.8441509202247468,
+       0.005237363440027937
+      ],
+      [
+       0.8315879821499763,
+       0.008892559600803235
+      ]
+     ]
+    },
+    "repliche_diverse": {
+     "e231": false,
+     "e266": false
+    },
+    "gruppi_e266": {
+     "G1": 0.7146996090357217,
+     "G2": 0.7370629046008258,
+     "G3": 0.69372886316894,
+     "G4": 0.6148997738638231,
+     "G5": 0.48058903354231397,
+     "G6": 0.507147056350852,
+     "G7": 0.5727542270493668,
+     "G8": 0.5563050572586674,
+     "G9": 0.7079958869211971
+    }
+   },
+   "M3": {
+    "libri": 10,
+    "e231": [
+     0.7958863098657745,
+     0.009263858122587947
+    ],
+    "e266": [
+     0.8223943061488326,
+     0.011888414908954958
+    ],
+    "K": [
+     0.785312224291736,
+     0.007366215017250059
+    ],
+    "A": [
+     0.6724938731496912,
+     0.01335811639877161
+    ],
+    "per_replica": {
+     "e231": [
+      [
+       0.7773339792031289,
+       0.013549054187018005
+      ],
+      [
+       0.8144386405284202,
+       0.005523988328069911
+      ]
+     ],
+     "e266": [
+      [
+       0.7927324022428376,
+       0.011237274462765677
+      ],
+      [
+       0.8520562100548277,
+       0.008355491110509995
+      ]
+     ]
+    },
+    "repliche_diverse": {
+     "e231": true,
+     "e266": true
+    },
+    "gruppi_e266": {
+     "G1": 0.6931082075400943,
+     "G2": 0.739004802901746,
+     "G3": 0.6632463718032459,
+     "G4": 0.6387917474508512,
+     "G5": 0.4767000253279219,
+     "G6": 0.5719065317735383,
+     "G7": 0.600535090280663,
+     "G8": 0.5852637001610075,
+     "G9": 0.6429884433746264
+    }
+   },
+   "M4": {
+    "libri": 10,
+    "e231": [
+     0.8006058282354094,
+     0.009159463172259059
+    ],
+    "e266": [
+     0.8300270661274919,
+     0.009050660419528485
+    ],
+    "K": [
+     0.7595363199686305,
+     0.00569362448321411
+    ],
+    "A": [
+     0.6443696696402313,
+     0.007848058755101289
+    ],
+    "per_replica": {
+     "e231": [
+      [
+       0.8212075856557398,
+       0.009469280767989391
+      ],
+      [
+       0.7800040708150788,
+       0.008697554975496331
+      ]
+     ],
+     "e266": [
+      [
+       0.8520141222799833,
+       0.006679990926301328
+      ],
+      [
+       0.8080400099750007,
+       0.009070691551994083
+      ]
+     ]
+    },
+    "repliche_diverse": {
+     "e231": true,
+     "e266": true
+    },
+    "gruppi_e266": {
+     "G1": 0.7308908080530436,
+     "G2": 0.7651355495860291,
+     "G3": 0.707873654251112,
+     "G4": 0.6228480590429283,
+     "G5": 0.4864823924452118,
+     "G6": 0.5919771475678677,
+     "G7": 0.5844285707205567,
+     "G8": 0.5984631819553433,
+     "G9": 0.6521987609682398
+    }
+   },
+   "M5": {
+    "libri": 10,
+    "e231": [
+     0.7816964520324963,
+     0.007640520461775642
+    ],
+    "e266": [
+     0.7989656738723602,
+     0.007038944373469052
+    ],
+    "K": [
+     0.7970350945985688,
+     0.006969117345826173
+    ],
+    "A": [
+     0.7070326438584453,
+     0.005860273354120806
+    ],
+    "per_replica": {
+     "e231": [
+      [
+       0.7688460000000001,
+       0.006749727475980052
+      ],
+      [
+       0.7945469040649925,
+       0.011600565005675877
+      ]
+     ],
+     "e266": [
+      [
+       0.79072,
+       0.007606179560068265
+      ],
+      [
+       0.8072113477447204,
+       0.011450361750307295
+      ]
+     ]
+    },
+    "repliche_diverse": {
+     "e231": false,
+     "e266": false
+    },
+    "gruppi_e266": {
+     "G1": 0.7361542602248251,
+     "G2": 0.7365775496595399,
+     "G3": 0.641882568605555,
+     "G4": 0.6416280651383853,
+     "G5": 0.46569558337428807,
+     "G6": 0.5809921908351501,
+     "G7": 0.6032842703056976,
+     "G8": 0.566499528758937,
+     "G9": 0.6106046041466374
+    }
+   }
+  },
+  "ia07": {
+   "libri": 20,
+   "e231": [
+    0.7918701521211131,
+    0.005394644122096845
+   ],
+   "e266": [
+    0.8546572976205269,
+    0.0038214187103857078
+   ],
+   "A": [
+    0.6752913930006861,
+    0.005166012694219144
+   ],
+   "K": [
+    0.7621965983727085,
+    0.004098128565959137
+   ]
+  },
+  "v21": {
+   "libri": 10,
+   "e231": [
+    0.554,
+    0.004
+   ],
+   "e266": [
+    0.601,
+    0.005
+   ],
+   "K": [
+    0.7661552788942261,
+    0.0047914123148369734
+   ],
+   "A": [
+    0.7464179982354671,
+    0.004701326565106868
+   ]
+  }
+ },
+ "copia": {
+  "gradini": {
+   "M1": {
+    "5-grammi": [
+     1.0080386607395669e-05,
+     6.721737047887495e-06
+    ],
+    "3-grammi": [
+     0.007698643435292604,
+     0.00022209620588333956
+    ],
+    "righe intere": [
+     0.0,
+     0.0
+    ],
+    "parole nuove": [
+     0.1508188974679752,
+     0.0015680506786726598
+    ]
+   },
+   "M2": {
+    "5-grammi": [
+     4.966476285075738e-06,
+     4.966476285075738e-06
+    ],
+    "3-grammi": [
+     0.006559322682681797,
+     0.00020593791103474136
+    ],
+    "righe intere": [
+     0.0,
+     0.0
+    ],
+    "parole nuove": [
+     0.16068972887363459,
+     0.002724589336060785
+    ]
+   },
+   "M3": {
+    "5-grammi": [
+     0.0,
+     0.0
+    ],
+    "3-grammi": [
+     0.007405958940566139,
+     0.0004972850305167147
+    ],
+    "righe intere": [
+     0.0,
+     0.0
+    ],
+    "parole nuove": [
+     0.15982385572807964,
+     0.002184232370910825
+    ]
+   },
+   "M4": {
+    "5-grammi": [
+     0.0,
+     0.0
+    ],
+    "3-grammi": [
+     0.00683695273286723,
+     0.00019505275895165567
+    ],
+    "righe intere": [
+     0.0,
+     0.0
+    ],
+    "parole nuove": [
+     0.15473358435502169,
+     0.001318608548714745
+    ]
+   },
+   "M5": {
+    "5-grammi": [
+     0.0,
+     0.0
+    ],
+    "3-grammi": [
+     0.005885481616217151,
+     0.0002605794475532424
+    ],
+    "righe intere": [
+     0.0,
+     0.0
+    ],
+    "parole nuove": [
+     0.17681827373985695,
+     0.003239167928905133
+    ]
+   }
+  },
+  "naturale": {
+   "5-grammi": 0.0,
+   "3-grammi": 0.008937288772061585,
+   "righe intere": 0.0,
+   "parole nuove": 0.1529988813355133
+  },
+  "ripetizioni": {
+   "M1": {
+    "righe uguali a una precedente nella pagina (>= 4 parole)": [
+     0.0,
+     0.0
+    ],
+    "righe uguali alla riga sopra (>= 2 parole)": [
+     0.0,
+     0.0
+    ],
+    "parole uguali alla parola prima": [
+     0.009818164315485718,
+     0.0002168959894200123
+    ]
+   },
+   "M2": {
+    "righe uguali a una precedente nella pagina (>= 4 parole)": [
+     0.0,
+     0.0
+    ],
+    "righe uguali alla riga sopra (>= 2 parole)": [
+     0.0,
+     0.0
+    ],
+    "parole uguali alla parola prima": [
+     0.010511648510384887,
+     0.000264836761226567
+    ]
+   },
+   "M3": {
+    "righe uguali a una precedente nella pagina (>= 4 parole)": [
+     0.0,
+     0.0
+    ],
+    "righe uguali alla riga sopra (>= 2 parole)": [
+     0.0,
+     0.0
+    ],
+    "parole uguali alla parola prima": [
+     0.010783174852513597,
+     0.00040162770460675954
+    ]
+   },
+   "M4": {
+    "righe uguali a una precedente nella pagina (>= 4 parole)": [
+     0.0,
+     0.0
+    ],
+    "righe uguali alla riga sopra (>= 2 parole)": [
+     0.0,
+     0.0
+    ],
+    "parole uguali alla parola prima": [
+     0.011001089171403187,
+     0.00020445979689320967
+    ]
+   },
+   "M5": {
+    "righe uguali a una precedente nella pagina (>= 4 parole)": [
+     0.0,
+     0.0
+    ],
+    "righe uguali alla riga sopra (>= 2 parole)": [
+     0.0,
+     0.0
+    ],
+    "parole uguali alla parola prima": [
+     0.012163613476086249,
+     0.0004555976545530557
+    ]
+   }
+  },
+  "ripetizioni_naturali": {
+   "righe uguali a una precedente nella pagina (>= 4 parole)": 0.0,
+   "righe uguali alla riga sopra (>= 2 parole)": 0.0,
+   "parole uguali alla parola prima": 0.009371034392997754
+  },
+  "letture": {
+   "M1": {
+    "5-grammi": "nessuna copia rilevante",
+    "righe": "nessuna copia rilevante",
+    "copia": false,
+    "zona_grigia": false,
+    "si_avvita": false,
+    "parola_prima_alta": false,
+    "parole_nuove_ok": true
+   },
+   "M2": {
+    "5-grammi": "nessuna copia rilevante",
+    "righe": "nessuna copia rilevante",
+    "copia": false,
+    "zona_grigia": false,
+    "si_avvita": false,
+    "parola_prima_alta": false,
+    "parole_nuove_ok": true
+   },
+   "M3": {
+    "5-grammi": "nessuna copia rilevante",
+    "righe": "nessuna copia rilevante",
+    "copia": false,
+    "zona_grigia": false,
+    "si_avvita": false,
+    "parola_prima_alta": false,
+    "parole_nuove_ok": true
+   },
+   "M4": {
+    "5-grammi": "nessuna copia rilevante",
+    "righe": "nessuna copia rilevante",
+    "copia": false,
+    "zona_grigia": false,
+    "si_avvita": false,
+    "parola_prima_alta": false,
+    "parole_nuove_ok": true
+   },
+   "M5": {
+    "5-grammi": "nessuna copia rilevante",
+    "righe": "nessuna copia rilevante",
+    "copia": false,
+    "zona_grigia": false,
+    "si_avvita": false,
+    "parola_prima_alta": false,
+    "parole_nuove_ok": true
+   }
+  },
+  "modi_scrittura_M5": {
+   "libero": 324283,
+   "uguale": 8229,
+   "copia": 11706,
+   "cambia": 1021,
+   "toglie": 1692,
+   "aggiunge": 764
+  },
+  "v21_esempio": {
+   "5-grammi": 0.0,
+   "3-grammi": 0.004019037546271814,
+   "righe intere": 0.0,
+   "parole nuove": 0.1529700272479564
+  }
+ },
+ "vero": {
+  "copia_netta": 0.11382446086563112,
+  "lam": 0.20738768101540883,
+  "contatto": 0.18840289899986576,
+  "D": 0.14444693781914492,
+  "G9": 0.040196397742557295,
+  "bordi_inizio": 0.07898886924178307,
+  "bordi_fine": 0.04752787688488469,
+  "parole_nuove": 0.1529988813355133,
+  "costo_forma": 3.4785519611465934,
+  "intervalli": {
+   "copia_netta": [
+    0.09915200577613724,
+    0.12964590088508482
+   ],
+   "lam": [
+    0.12917663110252997,
+    0.28804400670958213
+   ],
+   "bordi": {
+    "inizio_primo": [
+     0.18034780277709792,
+     0.2245846037723821
+    ],
+    "inizio_ultimo": [
+     0.01139923152161213,
+     0.021136887675919005
+    ],
+    "inizio_lung": [
+     0.0176143932693993,
+     0.027632204540019384
+    ],
+    "fine_primo": [
+     0.04358755100006164,
+     0.05783203386556771
+    ],
+    "fine_ultimo": [
+     0.07947563352364612,
+     0.10283117455973154
+    ],
+    "fine_lung": [
+     0.003937215390098633,
+     0.008941998271566795
+    ]
+   }
+  }
+ },
+ "struttura": {
+  "M1": {
+   "copia_netta": [
+    0.03604932707711207,
+    0.0015623429076297545
+   ],
+   "lam": [
+    0.05383330946298408,
+    0.036784837480222515
+   ],
+   "contatto": [
+    0.18906707372102288,
+    0.002475019779793974
+   ],
+   "D": [
+    0.14862767998780185,
+    0.001747269615850886
+   ],
+   "G9": [
+    0.02454522305764823,
+    0.0005931193472198923
+   ],
+   "bordi_inizio": [
+    0.08366585245812405,
+    0.0015053537820714875
+   ],
+   "bordi_fine": [
+    0.045654833001181845,
+    0.00067786398573625
+   ],
+   "parole_nuove": [
+    0.14722778763862202,
+    0.001524437758794173
+   ],
+   "costo_forma": [
+    3.7459115233141986,
+    0.006171643139686109
+   ],
+   "libri": 10
+  },
+  "M2": {
+   "copia_netta": [
+    0.05153468648094465,
+    0.0010405071542899567
+   ],
+   "lam": [
+    0.17867208679072988,
+    0.023402477920861937
+   ],
+   "contatto": [
+    0.16243918699632684,
+    0.0015768072723477784
+   ],
+   "D": [
+    0.11797549318154585,
+    0.0020488733898624866
+   ],
+   "G9": [
+    0.026858458126920857,
+    0.0009122180695039576
+   ],
+   "bordi_inizio": [
+    0.07510738094639063,
+    0.0012090157219923497
+   ],
+   "bordi_fine": [
+    0.04781912591055888,
+    0.0009850882027409471
+   ],
+   "parole_nuove": [
+    0.15682087353147958,
+    0.0025300035423262567
+   ],
+   "costo_forma": [
+    3.667539798964364,
+    0.00692821367382613
+   ],
+   "libri": 10
+  },
+  "M3": {
+   "copia_netta": [
+    0.07834122389456058,
+    0.005073484424526729
+   ],
+   "lam": [
+    0.04529758319170234,
+    0.020809537295270897
+   ],
+   "contatto": [
+    0.18594034322308556,
+    0.004207248889883755
+   ],
+   "D": [
+    0.13064321121592437,
+    0.006792222552485116
+   ],
+   "G9": [
+    0.02958039627480737,
+    0.0009861850199201375
+   ],
+   "bordi_inizio": [
+    0.08415065001118072,
+    0.0026043084422870005
+   ],
+   "bordi_fine": [
+    0.043937233322072736,
+    0.0010173873089308096
+   ],
+   "parole_nuove": [
+    0.1555165536597002,
+    0.002151499962936031
+   ],
+   "costo_forma": [
+    3.680099493999569,
+    0.007115289066282327
+   ],
+   "libri": 10
+  },
+  "M4": {
+   "copia_netta": [
+    0.06558417389745028,
+    0.005134909266841066
+   ],
+   "lam": [
+    0.09321839187619503,
+    0.01763712842985344
+   ],
+   "contatto": [
+    0.15067569706192274,
+    0.0017908699650980308
+   ],
+   "D": [
+    0.10775308381204854,
+    0.002342633403308926
+   ],
+   "G9": [
+    0.029678426717237066,
+    0.0006819113031451356
+   ],
+   "bordi_inizio": [
+    0.08103310682673681,
+    0.0013260048533891157
+   ],
+   "bordi_fine": [
+    0.04400822198593478,
+    0.00032754403908292595
+   ],
+   "parole_nuove": [
+    0.15073571635430233,
+    0.0013042232341792875
+   ],
+   "costo_forma": [
+    3.7367487562892316,
+    0.004450065808622166
+   ],
+   "libri": 10
+  },
+  "M5": {
+   "copia_netta": [
+    0.1416078952488066,
+    0.005903821350086913
+   ],
+   "lam": [
+    0.23620112541950994,
+    0.011071721890194113
+   ],
+   "contatto": [
+    0.15779857032805947,
+    0.0014699487562727387
+   ],
+   "D": [
+    0.1078208849788245,
+    0.001395034909398327
+   ],
+   "G9": [
+    0.031585996196555964,
+    0.0002472817143510854
+   ],
+   "bordi_inizio": [
+    0.07596591357069213,
+    0.001712021625634522
+   ],
+   "bordi_fine": [
+    0.04168676720446406,
+    0.0005981297930979024
+   ],
+   "parole_nuove": [
+    0.17253978064868472,
+    0.002977305546823712
+   ],
+   "costo_forma": [
+    3.697111207557903,
+    0.009701120202348467
+   ],
+   "libri": 10
+  },
+  "I07": {
+   "copia_netta": [
+    0.05042478077711081,
+    0.0022103345694942994
+   ],
+   "lam": [
+    0.1018583265788667,
+    0.05081149144685775
+   ],
+   "contatto": [
+    0.18156913665762536,
+    0.0021616586753544663
+   ],
+   "D": [
+    0.15411194586176336,
+    0.001682114772861839
+   ],
+   "G9": [
+    0.02429212462121295,
+    0.00048240593845381475
+   ],
+   "bordi_inizio": [
+    0.07964626682272344,
+    0.0011607570308870287
+   ],
+   "bordi_fine": [
+    0.04391375029745922,
+    0.0009525754242995304
+   ],
+   "parole_nuove": [
+    0.14281397418266428,
+    0.0005667178756419174
+   ],
+   "costo_forma": [
+    3.709294097043995,
+    0.0039805549098044
+   ],
+   "libri": 10
+  },
+  "V21": {
+   "copia_netta": [
+    0.054823252127049804,
+    0.0015678230950060903
+   ],
+   "lam": [
+    0.09064644396819724,
+    0.017662220176517814
+   ],
+   "contatto": [
+    0.18499531172269873,
+    0.0011232005594140613
+   ],
+   "D": [
+    0.08980149851820118,
+    0.0016645952124695789
+   ],
+   "G9": [
+    0.039183585231439486,
+    0.00045810429015490247
+   ],
+   "bordi_inizio": [
+    0.07772996270459787,
+    0.0008631113892893616
+   ],
+   "bordi_fine": [
+    0.04135539095854947,
+    0.0006515534702661807
+   ],
+   "parole_nuove": [
+    0.14303675475111205,
+    0.0012444146216090636
+   ],
+   "costo_forma": [
+    3.6607988666557434,
+    0.005271189091739458
+   ],
+   "libri": 10
+  }
+ },
+ "valori": {
+  "M1": {
+   "e231": [
+    0.7845824911522917,
+    0.009449150773045822
+   ],
+   "e266": [
+    0.8406518645861836,
+    0.006746481529451753
+   ],
+   "K": [
+    0.7735079894128027,
+    0.004728752413814343
+   ],
+   "A": [
+    0.6754421135182825,
+    0.008709415903050568
+   ],
+   "copia_netta": [
+    0.03604932707711207,
+    0.0015623429076297545
+   ],
+   "lam": [
+    0.05383330946298408,
+    0.036784837480222515
+   ],
+   "contatto": [
+    0.18906707372102288,
+    0.002475019779793974
+   ],
+   "D": [
+    0.14862767998780185,
+    0.001747269615850886
+   ],
+   "G9": [
+    0.02454522305764823,
+    0.0005931193472198923
+   ],
+   "bordi_inizio": [
+    0.08366585245812405,
+    0.0015053537820714875
+   ],
+   "bordi_fine": [
+    0.045654833001181845,
+    0.00067786398573625
+   ],
+   "parole_nuove": [
+    0.14722778763862202,
+    0.001524437758794173
+   ],
+   "costo_forma": [
+    3.7459115233141986,
+    0.006171643139686109
+   ]
+  },
+  "M2": {
+   "e231": [
+    0.7854981533492085,
+    0.004987916567614969
+   ],
+   "e266": [
+    0.8378694511873614,
+    0.005296456230151421
+   ],
+   "K": [
+    0.7642951671404765,
+    0.005620764871671632
+   ],
+   "A": [
+    0.6434030977355161,
+    0.00800149196631591
+   ],
+   "copia_netta": [
+    0.05153468648094465,
+    0.0010405071542899567
+   ],
+   "lam": [
+    0.17867208679072988,
+    0.023402477920861937
+   ],
+   "contatto": [
+    0.16243918699632684,
+    0.0015768072723477784
+   ],
+   "D": [
+    0.11797549318154585,
+    0.0020488733898624866
+   ],
+   "G9": [
+    0.026858458126920857,
+    0.0009122180695039576
+   ],
+   "bordi_inizio": [
+    0.07510738094639063,
+    0.0012090157219923497
+   ],
+   "bordi_fine": [
+    0.04781912591055888,
+    0.0009850882027409471
+   ],
+   "parole_nuove": [
+    0.15682087353147958,
+    0.0025300035423262567
+   ],
+   "costo_forma": [
+    3.667539798964364,
+    0.00692821367382613
+   ]
+  },
+  "M3": {
+   "e231": [
+    0.7958863098657745,
+    0.009263858122587947
+   ],
+   "e266": [
+    0.8223943061488326,
+    0.011888414908954958
+   ],
+   "K": [
+    0.785312224291736,
+    0.007366215017250059
+   ],
+   "A": [
+    0.6724938731496912,
+    0.01335811639877161
+   ],
+   "copia_netta": [
+    0.07834122389456058,
+    0.005073484424526729
+   ],
+   "lam": [
+    0.04529758319170234,
+    0.020809537295270897
+   ],
+   "contatto": [
+    0.18594034322308556,
+    0.004207248889883755
+   ],
+   "D": [
+    0.13064321121592437,
+    0.006792222552485116
+   ],
+   "G9": [
+    0.02958039627480737,
+    0.0009861850199201375
+   ],
+   "bordi_inizio": [
+    0.08415065001118072,
+    0.0026043084422870005
+   ],
+   "bordi_fine": [
+    0.043937233322072736,
+    0.0010173873089308096
+   ],
+   "parole_nuove": [
+    0.1555165536597002,
+    0.002151499962936031
+   ],
+   "costo_forma": [
+    3.680099493999569,
+    0.007115289066282327
+   ]
+  },
+  "M4": {
+   "e231": [
+    0.8006058282354094,
+    0.009159463172259059
+   ],
+   "e266": [
+    0.8300270661274919,
+    0.009050660419528485
+   ],
+   "K": [
+    0.7595363199686305,
+    0.00569362448321411
+   ],
+   "A": [
+    0.6443696696402313,
+    0.007848058755101289
+   ],
+   "copia_netta": [
+    0.06558417389745028,
+    0.005134909266841066
+   ],
+   "lam": [
+    0.09321839187619503,
+    0.01763712842985344
+   ],
+   "contatto": [
+    0.15067569706192274,
+    0.0017908699650980308
+   ],
+   "D": [
+    0.10775308381204854,
+    0.002342633403308926
+   ],
+   "G9": [
+    0.029678426717237066,
+    0.0006819113031451356
+   ],
+   "bordi_inizio": [
+    0.08103310682673681,
+    0.0013260048533891157
+   ],
+   "bordi_fine": [
+    0.04400822198593478,
+    0.00032754403908292595
+   ],
+   "parole_nuove": [
+    0.15073571635430233,
+    0.0013042232341792875
+   ],
+   "costo_forma": [
+    3.7367487562892316,
+    0.004450065808622166
+   ]
+  },
+  "M5": {
+   "e231": [
+    0.7816964520324963,
+    0.007640520461775642
+   ],
+   "e266": [
+    0.7989656738723602,
+    0.007038944373469052
+   ],
+   "K": [
+    0.7970350945985688,
+    0.006969117345826173
+   ],
+   "A": [
+    0.7070326438584453,
+    0.005860273354120806
+   ],
+   "copia_netta": [
+    0.1416078952488066,
+    0.005903821350086913
+   ],
+   "lam": [
+    0.23620112541950994,
+    0.011071721890194113
+   ],
+   "contatto": [
+    0.15779857032805947,
+    0.0014699487562727387
+   ],
+   "D": [
+    0.1078208849788245,
+    0.001395034909398327
+   ],
+   "G9": [
+    0.031585996196555964,
+    0.0002472817143510854
+   ],
+   "bordi_inizio": [
+    0.07596591357069213,
+    0.001712021625634522
+   ],
+   "bordi_fine": [
+    0.04168676720446406,
+    0.0005981297930979024
+   ],
+   "parole_nuove": [
+    0.17253978064868472,
+    0.002977305546823712
+   ],
+   "costo_forma": [
+    3.697111207557903,
+    0.009701120202348467
+   ]
+  }
+ },
+ "letture": {
+  "validita": {
+   "paper": true,
+   "K": true,
+   "A": true,
+   "sensibilita": {
+    "M2": true,
+    "M3": false,
+    "M4": true,
+    "M5": true
+   }
+  },
+  "L1_contro_v21": {
+   "gradino_migliore": "M5",
+   "esito_migliore": "più lontano dal vero del v21",
+   "per_gradino": {
+    "M1": {
+     "esito": "più lontano dal vero del v21",
+     "giudici": {
+      "e231": {
+       "differenza": 0.23058249115229168,
+       "errore": 0.01026091859103036,
+       "lettura": "più lontano"
+      },
+      "e266": {
+       "differenza": 0.2396518645861836,
+       "errore": 0.00839732177704497,
+       "lettura": "più lontano"
+      },
+      "K": {
+       "differenza": 0.007352710518576666,
+       "errore": 0.006731918846950428,
+       "lettura": "uguale entro l'errore"
+      }
+     },
+     "media_tre": 0.7995807817170927
+    },
+    "M2": {
+     "esito": "più lontano dal vero del v21",
+     "giudici": {
+      "e231": {
+       "differenza": 0.23149815334920842,
+       "errore": 0.006393693117869194,
+       "lettura": "più lontano"
+      },
+      "e266": {
+       "differenza": 0.23686945118736147,
+       "errore": 0.007283711183037792,
+       "lettura": "più lontano"
+      },
+      "K": {
+       "differenza": -0.0018601117537495604,
+       "errore": 0.007385839810975406,
+       "lettura": "uguale entro l'errore"
+      }
+     },
+     "media_tre": 0.7958875905590155
+    },
+    "M3": {
+     "esito": "più lontano dal vero del v21",
+     "giudici": {
+      "e231": {
+       "differenza": 0.24188630986577442,
+       "errore": 0.01009054345986571,
+       "lettura": "più lontano"
+      },
+      "e266": {
+       "differenza": 0.2213943061488326,
+       "errore": 0.01289706978532188,
+       "lettura": "più lontano"
+      },
+      "K": {
+       "differenza": 0.019156945397509895,
+       "errore": 0.008787420306957651,
+       "lettura": "più lontano"
+      }
+     },
+     "media_tre": 0.8011976134354477
+    },
+    "M4": {
+     "esito": "più lontano dal vero del v21",
+     "giudici": {
+      "e231": {
+       "differenza": 0.24660582823540933,
+       "errore": 0.00999478692138907,
+       "lettura": "più lontano"
+      },
+      "e266": {
+       "differenza": 0.2290270661274919,
+       "errore": 0.010339944585423054,
+       "lettura": "più lontano"
+      },
+      "K": {
+       "differenza": -0.006618958925595608,
+       "errore": 0.007441437477169753,
+       "lettura": "uguale entro l'errore"
+      }
+     },
+     "media_tre": 0.7967230714438439
+    },
+    "M5": {
+     "esito": "più lontano dal vero del v21",
+     "giudici": {
+      "e231": {
+       "differenza": 0.22769645203249622,
+       "errore": 0.008624242165362258,
+       "lettura": "più lontano"
+      },
+      "e266": {
+       "differenza": 0.1979656738723602,
+       "errore": 0.008634045279751064,
+       "lettura": "più lontano"
+      },
+      "K": {
+       "differenza": 0.030879815704342728,
+       "errore": 0.008457318047151037,
+       "lettura": "più lontano"
+      }
+     },
+     "media_tre": 0.7925657401678085
+    }
+   }
+  },
+  "M1_contro_ia07": {
+   "e231": {
+    "differenza": -0.007287660968821386,
+    "errore": 0.01088065418694237,
+    "lettura": "uguale entro l'errore"
+   },
+   "e266": {
+    "differenza": -0.014005433034343318,
+    "errore": 0.00775359619707653,
+    "lettura": "uguale entro l'errore"
+   },
+   "K": {
+    "differenza": 0.011311391040094265,
+    "errore": 0.006257456123240919,
+    "lettura": "uguale entro l'errore"
+   }
+  },
+  "L3_ingredienti": {
+   "M2 (memoria locale (attenzione sulla riga in corso e su quella sopra))": {
+    "esito": "corregge ma rompe",
+    "bersagli": [
+     "copia_netta",
+     "lam"
+    ],
+    "bersagli_corretti": [
+     "copia_netta",
+     "lam"
+    ],
+    "corrette": [
+     "copia_netta",
+     "lam",
+     "G9",
+     "costo_forma"
+    ],
+    "rotte": [
+     "contatto",
+     "D"
+    ],
+    "ingrediente": "memoria locale (attenzione sulla riga in corso e su quella sopra)",
+    "classi": {
+     "copia_netta": "avvicina",
+     "lam": "avvicina",
+     "contatto": "peggiora",
+     "D": "peggiora",
+     "G9": "avvicina",
+     "bordi_inizio": "invariata",
+     "bordi_fine": "invariata",
+     "parole_nuove": "invariata",
+     "costo_forma": "avvicina",
+     "e231": "invariata",
+     "e266": "invariata",
+     "K": "invariata"
+    },
+    "sensibilita": "provata"
+   },
+   "M3 (vocabolario della pagina)": {
+    "esito": "corregge ma rompe",
+    "bersagli": [
+     "G9"
+    ],
+    "bersagli_corretti": [
+     "G9"
+    ],
+    "corrette": [
+     "copia_netta",
+     "contatto",
+     "G9"
+    ],
+    "rotte": [
+     "lam",
+     "bordi_fine",
+     "K"
+    ],
+    "ingrediente": "vocabolario della pagina",
+    "classi": {
+     "copia_netta": "avvicina",
+     "lam": "peggiora",
+     "contatto": "avvicina",
+     "D": "invariata",
+     "G9": "avvicina",
+     "bordi_inizio": "invariata",
+     "bordi_fine": "peggiora",
+     "parole_nuove": "invariata",
+     "costo_forma": "invariata",
+     "e231": "invariata",
+     "e266": "invariata",
+     "K": "peggiora"
+    },
+    "sensibilita": "NON provata (con riserva)"
+   },
+   "M4 (posizione nella riga)": {
+    "esito": "rompe",
+    "bersagli": [
+     "bordi_inizio",
+     "bordi_fine"
+    ],
+    "bersagli_corretti": [],
+    "corrette": [
+     "K"
+    ],
+    "rotte": [
+     "contatto",
+     "D",
+     "costo_forma"
+    ],
+    "ingrediente": "posizione nella riga",
+    "classi": {
+     "copia_netta": "invariata",
+     "lam": "invariata",
+     "contatto": "peggiora",
+     "D": "peggiora",
+     "G9": "invariata",
+     "bordi_inizio": "invariata",
+     "bordi_fine": "invariata",
+     "parole_nuove": "invariata",
+     "costo_forma": "peggiora",
+     "e231": "invariata",
+     "e266": "invariata",
+     "K": "avvicina"
+    },
+    "sensibilita": "provata"
+   },
+   "M5 (copia e ritocco (puntatore))": {
+    "esito": "corregge ma rompe",
+    "bersagli": [
+     "copia_netta",
+     "lam"
+    ],
+    "bersagli_corretti": [
+     "copia_netta",
+     "lam"
+    ],
+    "corrette": [
+     "copia_netta",
+     "lam",
+     "contatto",
+     "G9",
+     "costo_forma",
+     "e266"
+    ],
+    "rotte": [
+     "bordi_fine",
+     "parole_nuove",
+     "K"
+    ],
+    "ingrediente": "copia e ritocco (puntatore)",
+    "classi": {
+     "copia_netta": "avvicina",
+     "lam": "avvicina",
+     "contatto": "avvicina",
+     "D": "invariata",
+     "G9": "avvicina",
+     "bordi_inizio": "invariata",
+     "bordi_fine": "peggiora",
+     "parole_nuove": "peggiora",
+     "costo_forma": "avvicina",
+     "e231": "invariata",
+     "e266": "avvicina",
+     "K": "peggiora"
+    },
+    "sensibilita": "provata"
+   }
+  },
+  "L4_irriproducibile": {
+   "copia_netta": {
+    "vero": 0.11382446086563112,
+    "valori": {
+     "M1": 0.03604932707711207,
+     "M2": 0.05153468648094465,
+     "M3": 0.07834122389456058,
+     "M4": 0.06558417389745028,
+     "M5": 0.1416078952488066
+    },
+    "al_vero": {
+     "M1": false,
+     "M2": false,
+     "M3": false,
+     "M4": false,
+     "M5": false
+    },
+    "nessun_gradino_al_vero": true,
+    "migliore": "M5",
+    "distanza_migliore": 0.027783434383175473,
+    "distanza_M1": 0.07777513378851905,
+    "frazione_del_cammino": 0.6427722714213218
+   },
+   "lam": {
+    "vero": 0.20738768101540883,
+    "valori": {
+     "M1": 0.05383330946298408,
+     "M2": 0.17867208679072988,
+     "M3": 0.04529758319170234,
+     "M4": 0.09321839187619503,
+     "M5": 0.23620112541950994
+    },
+    "al_vero": {
+     "M1": false,
+     "M2": true,
+     "M3": false,
+     "M4": false,
+     "M5": false
+    },
+    "nessun_gradino_al_vero": false,
+    "migliore": "M2",
+    "distanza_migliore": 0.028715594224678953,
+    "distanza_M1": 0.15355437155242474,
+    "frazione_del_cammino": 0.8129939647151289
+   },
+   "contatto": {
+    "vero": 0.18840289899986576,
+    "valori": {
+     "M1": 0.18906707372102288,
+     "M2": 0.16243918699632684,
+     "M3": 0.18594034322308556,
+     "M4": 0.15067569706192274,
+     "M5": 0.15779857032805947
+    },
+    "al_vero": {
+     "M1": true,
+     "M2": false,
+     "M3": true,
+     "M4": false,
+     "M5": false
+    },
+    "nessun_gradino_al_vero": false,
+    "migliore": "M1",
+    "distanza_migliore": 0.0006641747211571236,
+    "distanza_M1": 0.0006641747211571236,
+    "frazione_del_cammino": 0.0
+   },
+   "D": {
+    "vero": 0.14444693781914492,
+    "valori": {
+     "M1": 0.14862767998780185,
+     "M2": 0.11797549318154585,
+     "M3": 0.13064321121592437,
+     "M4": 0.10775308381204854,
+     "M5": 0.1078208849788245
+    },
+    "al_vero": {
+     "M1": true,
+     "M2": false,
+     "M3": false,
+     "M4": false,
+     "M5": false
+    },
+    "nessun_gradino_al_vero": false,
+    "migliore": "M1",
+    "distanza_migliore": 0.004180742168656937,
+    "distanza_M1": 0.004180742168656937,
+    "frazione_del_cammino": 0.0
+   },
+   "G9": {
+    "vero": 0.040196397742557295,
+    "valori": {
+     "M1": 0.02454522305764823,
+     "M2": 0.026858458126920857,
+     "M3": 0.02958039627480737,
+     "M4": 0.029678426717237066,
+     "M5": 0.031585996196555964
+    },
+    "al_vero": {
+     "M1": false,
+     "M2": false,
+     "M3": false,
+     "M4": false,
+     "M5": false
+    },
+    "nessun_gradino_al_vero": true,
+    "migliore": "M5",
+    "distanza_migliore": 0.008610401546001331,
+    "distanza_M1": 0.015651174684909064,
+    "frazione_del_cammino": 0.4498558913725804
+   },
+   "bordi_inizio": {
+    "vero": 0.07898886924178307,
+    "valori": {
+     "M1": 0.08366585245812405,
+     "M2": 0.07510738094639063,
+     "M3": 0.08415065001118072,
+     "M4": 0.08103310682673681,
+     "M5": 0.07596591357069213
+    },
+    "al_vero": {
+     "M1": false,
+     "M2": true,
+     "M3": true,
+     "M4": true,
+     "M5": true
+    },
+    "nessun_gradino_al_vero": false,
+    "migliore": "M4",
+    "distanza_migliore": 0.0020442375849537425,
+    "distanza_M1": 0.0046769832163409825,
+    "frazione_del_cammino": 0.5629153472667274
+   },
+   "bordi_fine": {
+    "vero": 0.04752787688488469,
+    "valori": {
+     "M1": 0.045654833001181845,
+     "M2": 0.04781912591055888,
+     "M3": 0.043937233322072736,
+     "M4": 0.04400822198593478,
+     "M5": 0.04168676720446406
+    },
+    "al_vero": {
+     "M1": true,
+     "M2": true,
+     "M3": false,
+     "M4": false,
+     "M5": false
+    },
+    "nessun_gradino_al_vero": false,
+    "migliore": "M2",
+    "distanza_migliore": 0.0002912490256741923,
+    "distanza_M1": 0.0018730438837028449,
+    "frazione_del_cammino": 0.844504964241191
+   },
+   "parole_nuove": {
+    "vero": 0.1529988813355133,
+    "valori": {
+     "M1": 0.14722778763862202,
+     "M2": 0.15682087353147958,
+     "M3": 0.1555165536597002,
+     "M4": 0.15073571635430233,
+     "M5": 0.17253978064868472
+    },
+    "al_vero": {
+     "M1": true,
+     "M2": true,
+     "M3": true,
+     "M4": true,
+     "M5": false
+    },
+    "nessun_gradino_al_vero": false,
+    "migliore": "M4",
+    "distanza_migliore": 0.0022631649812109578,
+    "distanza_M1": 0.005771093696891272,
+    "frazione_del_cammino": 0.6078446997958009
+   },
+   "costo_forma": {
+    "vero": 3.4785519611465934,
+    "valori": {
+     "M1": 3.7459115233141986,
+     "M2": 3.667539798964364,
+     "M3": 3.680099493999569,
+     "M4": 3.7367487562892316,
+     "M5": 3.697111207557903
+    },
+    "al_vero": {
+     "M1": false,
+     "M2": false,
+     "M3": false,
+     "M4": false,
+     "M5": false
+    },
+    "nessun_gradino_al_vero": true,
+    "migliore": "M2",
+    "distanza_migliore": 0.18898783781777073,
+    "distanza_M1": 0.26735956216760526,
+    "frazione_del_cammino": 0.29313230360806775
+   },
+   "e231": {
+    "v21": 0.554,
+    "valori": {
+     "M1": 0.7845824911522917,
+     "M2": 0.7854981533492085,
+     "M3": 0.7958863098657745,
+     "M4": 0.8006058282354094,
+     "M5": 0.7816964520324963
+    },
+    "nessun_gradino_alla_pari_del_v21": true,
+    "sotto_v21": {
+     "M1": false,
+     "M2": false,
+     "M3": false,
+     "M4": false,
+     "M5": false
+    }
+   },
+   "e266": {
+    "v21": 0.601,
+    "valori": {
+     "M1": 0.8406518645861836,
+     "M2": 0.8378694511873614,
+     "M3": 0.8223943061488326,
+     "M4": 0.8300270661274919,
+     "M5": 0.7989656738723602
+    },
+    "nessun_gradino_alla_pari_del_v21": true,
+    "sotto_v21": {
+     "M1": false,
+     "M2": false,
+     "M3": false,
+     "M4": false,
+     "M5": false
+    }
+   },
+   "K": {
+    "v21": 0.7661552788942261,
+    "valori": {
+     "M1": 0.7735079894128027,
+     "M2": 0.7642951671404765,
+     "M3": 0.785312224291736,
+     "M4": 0.7595363199686305,
+     "M5": 0.7970350945985688
+    },
+    "nessun_gradino_alla_pari_del_v21": true,
+    "sotto_v21": {
+     "M1": false,
+     "M2": false,
+     "M3": false,
+     "M4": false,
+     "M5": false
+    }
+   }
+  },
+  "L4_elenco": [
+   "copia_netta",
+   "G9",
+   "costo_forma"
+  ]
+ },
+ "tempi_minuti": {
+  "addestra": {
+   "lavori": 50,
+   "media": 27.2,
+   "massimo": 45.7,
+   "totale": 1359.0
+  },
+  "sens": {
+   "lavori": 9,
+   "media": 17.8,
+   "massimo": 24.9,
+   "totale": 159.9
+  },
+  "libro": {
+   "lavori": 50,
+   "media": 4.3,
+   "massimo": 6.1,
+   "totale": 215.0
+  },
+  "K": {
+   "lavori": 5,
+   "media": 0.4,
+   "massimo": 0.4,
+   "totale": 1.9
+  },
+  "M": {
+   "lavori": 71,
+   "media": 0.6,
+   "massimo": 0.6,
+   "totale": 39.7
+  },
+  "D": {
+   "lavori": 5,
+   "media": 0.3,
+   "massimo": 0.3,
+   "totale": 1.4
+  }
+ },
+ "vetrina": null
+}
