@@ -56,8 +56,9 @@ come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
   Mandato per la chat del v22 in `ClaudeTower/voynich-ia/MANDATO_V22.md` (da aprire da Davide al PC).
 - 21/11 pomeriggio: **IA20** l'imitatore a gradini non batte il v21 (migliore M5: 0,78/0,80/K 0,80); l'ingrediente
   "copia e ritocca" porta l'eco (anche troppa) ma ogni ingrediente con eco rompe contatto e ordine delle famiglie; mai al
-  vero il vocabolario della pagina (G9) e la forma delle parole inventate. **IA21** (in corso) l'allievo inganna il suo
-  esaminatore (0,93 -> 0,60) ma non i giudici tenuti da parte.
+  vero il vocabolario della pagina (G9) e la forma delle parole inventate. **IA21** l'allievo inganna il suo
+  esaminatore (0,93 -> 0,60) ma non i giudici tenuti da parte, e perde l'eco della pagina; meglio del cieco; controllo
+  positivo non riuscito (latino e locale al soffitto, sintetico 0,027 su 0,03): lettura con riserva.
 - 20/11: **IA6 in standby** finché Davide non fa l'accesso (si fa solo al PC). IA4, IA5, IA7 in corso dalle 13:30.
 - **Azione per Davide:** accesso del programma `claude` da riga di comando (`strumenti/Accesso claude.bat`, serve
   all'IA6).

@@ -1,0 +1,22 @@
+testo: latino (prova sui controlli), percorso vero, partenza gru; 4130 righe, 207 pagine, 35 segni; giri 12, candidate 8, peso 1.0
+== giro 1, esaminatore e rifinitura: 5 lavori (su 5)
+[1/5 6.7 min] giro|1|3: {'AUC_prima': 0.917906008328376, 'AUC_dopo': 0.8023002181241324, 'bpc_val_dopo': 2.3419105340155957} (396 s)
+[2/5 6.9 min] giro|1|1: {'AUC_prima': 0.9081255771006463, 'AUC_dopo': 0.8497229916897507, 'bpc_val_dopo': 2.4725805543247126} (413 s)
+[3/5 7.8 min] giro|1|2: {'AUC_prima': 0.9429327286470144, 'AUC_dopo': 0.8136810279667422, 'bpc_val_dopo': 2.4349645228026127} (466 s)
+[4/5 8.0 min] giro|1|0: {'AUC_prima': 0.9383975812547242, 'AUC_dopo': 0.7360166288737717, 'bpc_val_dopo': 2.4866111659362726} (477 s)
+[5/5 10.6 min] giro|1|4: {'AUC_prima': 0.816787201402586, 'AUC_dopo': 0.7398641244795091, 'bpc_val_dopo': 2.252792716703022} (238 s)
+== giro 1, giudici tenuti da parte: 8 lavori (su 8)
+[1/8 0.0 min] K|1|mon|0: {} (2 s)
+[2/8 0.1 min] K|1|mon|1: {} (2 s)
+[3/8 0.1 min] K|1|mon|2: {} (2 s)
+[4/8 0.1 min] K|1|mon|3: {} (2 s)
+[5/8 0.1 min] K|1|mon|4: {} (2 s)
+[6/8 0.3 min] misura|1|mon|3: {'AUC_e231': 0.9883344770120577, 'AUC_e266': 0.9951034212332125, 'AUC_A': 0.7843789824527007} (16 s)
+[7/8 0.3 min] misura|1|mon|2: {'AUC_e231': 0.9821950000000002, 'AUC_e266': 0.9880150000000001, 'AUC_A': 0.8006273894716204} (16 s)
+[8/8 0.3 min] misura|1|mon|1: {'AUC_e231': 0.98138, 'AUC_e266': 0.988575, 'AUC_A': 0.7853347711008724} (16 s)
+giro 1: esaminatore AUC prima 0.905 dopo 0.788; giudici 1 0.984 2 0.991 K 0.992 A 0.790; media dei tre 0.989; ARRESTO: guardia violata: parole nuove nella fascia del vero
+L1_contro_v21: più lontano dal vero del v21
+L1b_contro_il_giro_0: nessun progresso sul giro 0 (uguale entro l'errore)
+L3_cosa_non_impara: vedi l'elenco
+C_positivo_non_Voynich: non riuscito o non leggibile
+C_negativo_cieco: non eseguito

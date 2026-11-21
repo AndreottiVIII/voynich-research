@@ -17221,3 +17221,53 @@ Risultati in `risultati/ia20_imitatore_gradini.{md,json}` e `risultati/ia20_cors
 - **Limiti:** M3 con sensibilità non provata; 10 libri per gradino; un solo modo di realizzare ogni ingrediente; i giudici del
   paper sono quelli su cui il v21 è stato regolato (giudice amico del v21), per questo conta anche K.
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione (8 processi invece di 10).
+
+## 21/11/2026 (pomeriggio) — ia21 (IA21): l'allievo che si allena contro un esaminatore impara a ingannare l'esaminatore, non a scrivere il Voynich; perde l'eco della pagina per farlo; meglio del percorso cieco, ma il controllo positivo non è riuscito: lettura con riserva
+
+Preregistrato (`preregistrazioni/ia21.md`, commit 871a65e; codice f978dc7 con `allievo_gru.py`, `esaminatore_rete.py`,
+`allievo_prove.py`; variabili in `esegui.py` 012ced2). Richiesta di Davide del 21/11 ("un'IA che si alleni da sola a prove ed
+errori finché non riesce, e da queste prove capiamo"); preparato da un agente, controllato e lanciato dal coordinatore.
+Partenza: la GRU di ia07 (predefinita), **non** il gradino migliore di ia20 come detto a Davide: ia20 non era finito e
+l'aggancio a un suo modello non era provato (il gradino migliore di ia20, M5, è risultato comunque più lontano dal v21).
+
+Corse (code `ia21_0`, `ia21_v`, `ia21_c`, `ia21_latino`, `ia21_sintetico`, `ia21_locale`, 4 processi ciascuna): fase 0 sul
+Voynich 11:43–11:51; percorso vero 11:54–13:33; cieco 11:54–15:55; controlli 15:19–16:55; sintesi finale (ETICHETTA=sintesi)
+16:57. Tutte uscita 0. **Errore del coordinatore:** i percorsi vero e cieco, lanciati la prima volta insieme alle 11:51,
+scrivevano lo stesso file di provenienza; fermati dopo 3 minuti, aggiunta a `esegui.py` la variabile `ETICHETTA` (commit
+1446fba), rilanciati con `RIPRENDI=1`. `risultati/provenienza/ia21.json` è la provenienza della fase 0; `ia21.log` è il resto
+della partenza fermata (il log completo della fase 0 è perso; i suoi numeri sono in `ia21_corse_voynich_vero.jsonl`).
+Risultati in `risultati/ia21_<testo>_<percorso>.{md,json}` e `ia21_corse_*.jsonl` (solo numeri).
+
+- **Disegno:** a ogni giro l'allievo (GRU) scrive 8 copie di ogni pagina; un esaminatore nuovo (rete a convoluzioni con
+  attenzione) impara a distinguere vere e scritte; l'allievo tiene la copia che l'esaminatore trova più vera e si rifinisce su
+  quelle e sulle vere. Giudici del paper, K e A tenuti da parte (l'allievo non li vede mai). Arresto: 12 giri, guardie, o 3 giri
+  senza miglioramento della media di e231, e266, K.
+- **Controlli dei giudici:** tutti riusciti (giudice 2 sulle parole rimescolate 0,988; etichette a caso 0,506/0,503; K 0,982,
+  negativo 0,499, vede il v21 0,766; A 0,986/0,484). Esaminatore valido (0,934 al giro 1, soglia 0,65).
+- **Percorso vero:** arresto al giro 3 (3 giri senza miglioramento). Esaminatore aggirato a ogni giro (0,934 → 0,598). Libri
+  finali (20) contro partenza (20): e231 0,805 contro 0,798, e266 0,877 contro 0,858 (più lontano), K 0,769 contro 0,760,
+  A (amico) 0,653 contro 0,693 (più vicino).
+  - **L1 contro il v21: più lontano dal vero del v21** (e231 +0,251, e266 +0,276; K uguale entro l'errore).
+  - **L1b contro il giro 0: zona grigia** (e266 più lontano, gli altri uguali).
+  - **L4: impara a ingannare l'esaminatore, non a scrivere il Voynich** (esaminatore −0,337, media dei tre giudici +0,012).
+  - **L3, che cosa non impara:** copia netta (da 0,043 a 0,023, vero 0,110) e vocabolario della pagina G9 (da 0,026 a 0,022, vero
+    0,040) **si allontanano**; Λ (0,089 → 0,147, vero 0,201) e contatto (0,176 → 0,190, vero 0,188) si chiudono almeno a metà.
+    Ancora riconoscibili per il giudice 2: G3 (frequenze delle parole) 0,78, G9 (pagina) 0,77, G2 0,67.
+- **Percorso cieco (controllo negativo): riuscito, non migliora.** Arresto al giro 4; libri finali peggiori della partenza
+  (media dei tre 0,841 contro 0,805).
+- **L5, vero contro cieco: l'esaminatore vero fa meglio** (tre giudici su tre più vicino). Il vantaggio è sul cieco, che
+  peggiora; rispetto alla partenza il vero non migliora.
+- **Controllo positivo (testi non Voynich): non riuscito.** Latino e locale: partenza sopra il soffitto (0,99 e 0,999) e arresto
+  al giro 1 per la guardia sulle parole nuove → non leggibili. Sintetico: 5 giri, media dei tre da 0,925 a 0,897 (calo 0,027,
+  soglia 0,03), solo K più vicino (0,797 → 0,724) → non riuscito per poco.
+- **Che cosa vale:** per la regola scritta prima, senza controllo positivo riuscito un esito nullo sul Voynich **non** si legge
+  come "il metodo non può funzionare". Si leggono però, come descrizione, la dinamica (l'esaminatore viene aggirato, i giudici
+  no: giudice amico) e la direzione delle misure (l'eco di pagina peggiora).
+- **In parole semplici:** l'allievo impara presto a ingannare il suo esaminatore, ma i giudici che non vede lo riconoscono come
+  prima. Per ingannare l'esaminatore rinuncia proprio a ciò che il Voynich ha di più tipico, le parole riprese e variate dalla
+  pagina. Il metodo però non ha dimostrato di funzionare nemmeno sui testi di prova, quindi questo "non ci riesce" vale con
+  riserva.
+- **Limiti:** controllo positivo non riuscito; esaminatore piccolo e facile da aggirare; allievo senza memoria della pagina
+  (GRU di ia07); arresti precoci (3–5 giri).
+- **Deviazioni dalla preregistrazione:** partenza dalla GRU di ia07 (predefinita) anziché da ia20; corse con 4 processi;
+  `ETICHETTA` aggiunta durante la corsa per separare le provenienze (non cambia i calcoli).
