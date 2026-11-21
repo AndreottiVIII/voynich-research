@@ -1,0 +1,297 @@
+{
+ "bersaglio": 0.011587,
+ "da": "eco vicina del testo vere",
+ "eco_lontana_vere": 0.005735,
+ "frazioni": {
+  "V": 1.0,
+  "M": 0.5,
+  "D": 0.25
+ },
+ "tolleranza": 0.08,
+ "passi_max": 8,
+ "famiglia_phi": 0.6,
+ "scala_copia": 10.0,
+ "famiglie": {
+  "argP": {
+   "V": {
+    "livello": 0.36236,
+    "eco_vicina": 0.011731,
+    "bersaglio": 0.011587,
+    "raggiunto": true,
+    "valutazioni": [
+     [
+      0.2,
+      0.003596
+     ],
+     [
+      0.39804,
+      0.01394
+     ],
+     [
+      0.36236,
+      0.011731
+     ]
+    ]
+   },
+   "M": {
+    "livello": 0.25418,
+    "eco_vicina": 0.005855,
+    "bersaglio": 0.005794,
+    "raggiunto": true,
+    "valutazioni": [
+     [
+      0.25418,
+      0.005855
+     ]
+    ]
+   },
+   "D": {
+    "livello": 0.18746,
+    "eco_vicina": 0.002729,
+    "bersaglio": 0.002897,
+    "raggiunto": true,
+    "valutazioni": [
+     [
+      0.17982,
+      0.002521
+     ],
+     [
+      0.18746,
+      0.002729
+     ]
+    ]
+   }
+  },
+  "argR": {
+   "V": {
+    "livello": 0.43565,
+    "eco_vicina": 0.011557,
+    "bersaglio": 0.011587,
+    "raggiunto": true,
+    "valutazioni": [
+     [
+      0.3,
+      0.005589
+     ],
+     [
+      0.46067,
+      0.012923
+     ],
+     [
+      0.43565,
+      0.011557
+     ]
+    ]
+   },
+   "M": {
+    "livello": 0.30559,
+    "eco_vicina": 0.005058,
+    "bersaglio": 0.005794,
+    "raggiunto": false,
+    "valutazioni": [
+     [
+      0.30559,
+      0.005058
+     ],
+     [
+      0.30559,
+      0.005058
+     ],
+     [
+      0.30559,
+      0.005058
+     ],
+     [
+      0.30559,
+      0.005058
+     ],
+     [
+      0.30559,
+      0.005058
+     ],
+     [
+      0.30559,
+      0.005058
+     ],
+     [
+      0.30559,
+      0.005058
+     ],
+     [
+      0.30559,
+      0.005058
+     ]
+    ]
+   }
+  },
+  "argS": {
+   "V": {
+    "livello": 0.39311,
+    "eco_vicina": 0.012208,
+    "bersaglio": 0.011587,
+    "raggiunto": true,
+    "valutazioni": [
+     [
+      0.3,
+      0.007318
+     ],
+     [
+      0.39311,
+      0.012208
+     ]
+    ]
+   }
+  },
+  "argF": {
+   "V": {
+    "livello": 0.43407,
+    "eco_vicina": 0.012432,
+    "bersaglio": 0.011587,
+    "raggiunto": true,
+    "valutazioni": [
+     [
+      0.3,
+      0.006184
+     ],
+     [
+      0.43407,
+      0.012432
+     ]
+    ]
+   },
+   "M": {
+    "livello": 0.28984,
+    "eco_vicina": 0.005625,
+    "bersaglio": 0.005794,
+    "raggiunto": true,
+    "valutazioni": [
+     [
+      0.28984,
+      0.005625
+     ]
+    ]
+   }
+  },
+  "tecM": {
+   "V": {
+    "livello": 0.27858,
+    "eco_vicina": 0.011115,
+    "bersaglio": 0.011587,
+    "raggiunto": true,
+    "valutazioni": [
+     [
+      0.1,
+      0.003106
+     ],
+     [
+      0.37311,
+      0.016868
+     ],
+     [
+      0.27858,
+      0.011115
+     ]
+    ]
+   },
+   "M": {
+    "livello": 0.16504,
+    "eco_vicina": 0.006104,
+    "bersaglio": 0.005794,
+    "raggiunto": true,
+    "valutazioni": [
+     [
+      0.16504,
+      0.006104
+     ]
+    ]
+   },
+   "D": {
+    "livello": 0.09497,
+    "eco_vicina": 0.002979,
+    "bersaglio": 0.002897,
+    "raggiunto": true,
+    "valutazioni": [
+     [
+      0.09497,
+      0.002979
+     ]
+    ]
+   }
+  },
+  "tecP": {
+   "V": {
+    "livello": 0.25478,
+    "eco_vicina": 0.011206,
+    "bersaglio": 0.011587,
+    "raggiunto": true,
+    "valutazioni": [
+     [
+      0.1,
+      0.003328
+     ],
+     [
+      0.34814,
+      0.017572
+     ],
+     [
+      0.25478,
+      0.011206
+     ]
+    ]
+   },
+   "M": {
+    "livello": 0.15326,
+    "eco_vicina": 0.006048,
+    "bersaglio": 0.005794,
+    "raggiunto": true,
+    "valutazioni": [
+     [
+      0.15326,
+      0.006048
+     ]
+    ]
+   },
+   "D": {
+    "livello": 0.094,
+    "eco_vicina": 0.00314,
+    "bersaglio": 0.002897,
+    "raggiunto": false,
+    "valutazioni": [
+     [
+      0.09055,
+      0.002494
+     ],
+     [
+      0.09534,
+      0.003209
+     ],
+     [
+      0.094,
+      0.00314
+     ],
+     [
+      0.094,
+      0.00314
+     ],
+     [
+      0.094,
+      0.00314
+     ],
+     [
+      0.094,
+      0.00314
+     ],
+     [
+      0.094,
+      0.00314
+     ],
+     [
+      0.094,
+      0.00314
+     ]
+    ]
+   }
+  }
+ },
+ "secondi": 60.5
+}

@@ -16900,3 +16900,35 @@ anonimi); regole con glifi veri solo in `dati/cache/ia13/`.
 - **Limiti:** una rete sola (GRU di ia09); tre libri v21 invece di dieci; le regole sono tabelle e alberi piccoli.
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione (4 processi invece di 10).
 - **Per il generatore:** bordi della riga (prima e ultima parola), dipendenza dalle ultime due lettere della parola prima.
+
+## 21/11/2026 (notte) — ia15b (IA15b): l'eco del Voynich è "mista": metà tema della pagina, metà eco locale fatta soprattutto di varianti (parole a una lettera di distanza); nessuna continuità fra pagine; il v21 ha gli stessi numeri
+
+Preregistrato (`preregistrazioni/ia15b.md`, commit c824622; codice ac1a554 con `eco_modelli_b.py`), come nuovo esperimento
+dopo aver visto i descrittivi di ia15 (dichiarati nella preregistrazione); soglie nuove fissate solo sui controlli non
+Voynich. Notte autonoma su indicazione di Davide. Corsa: coda `ia_C`, 4 processi, 11 minuti, uscita 0. Risultati in
+`risultati/ia15b_da_dove_eco.{md,json}`, `risultati/ia15b_taratura.json`, `risultati/ia15b_corse.jsonl` (solo numeri).
+
+- **Controlli:** superati tutti tranne quelli del **paragrafo per la tecnica** e della sintesi completa (che lo contiene).
+  Valide: profilo, varianti, direzione, pagine vicine, sintesi senza il paragrafo. Non valide: paragrafo, sintesi completa.
+  I generatori di controllo sono tarati sulla sola eco vicina del vero (0,0116).
+- **Profilo: intermedio.** H (eco lontana / vicina) 0,49 (0,41–0,58): né piatto come un tema di pagina (argP 1,00) né ripido
+  come una tecnica di copia vicina (tecM1 0,05). La parte locale (vicina meno lontana) è circa metà dell'eco vicina (0,51).
+- **Varianti: alte.** Della parte locale (0,0059), il 76% sono **varianti** a una modifica (0,0045) e il 24% parole uguali
+  (0,0014). Nel latino è il contrario (varianti 27%: tornano le stesse parole); nell'inglese la parte locale è solo di parole
+  uguali. Il controllo "famiglie di parole" (molte varianti nella pagina, nessuna copia) dà "nessuna parte locale": le
+  varianti vicine del Voynich non vengono solo dal lessico fitto.
+- **Direzione delle modifiche: nessun posto prevale** (inizio 0,47, fine 0,17, dentro 0,36; riferimento 0,48 / 0,14 / 0,38).
+- **Pagine vicine: no** (come in ia15). Latino: sì.
+- **Sintesi senza il paragrafo: mista.** Latino e inglese: "argomento che scorre"; Timm e Schinner: "argomento di pagina"
+  (la sua copia attraversa tutta la pagina, come già in ia09).
+- **v21 contro vere:** stessi valori su tutte le misure (H 0,50, varianti nella parte locale 0,74, parte locale relativa
+  0,50, pagine vicine no); solo l'eco vicina è 0,84 del vero. Nota: in ia09 il v21 aveva quasi nessuna eco "locale" in bit
+  (Λ 0,07); qui, contando parole simili, la parte locale del v21 è come quella del vero. Le due misure non dicono la stessa
+  cosa (ia09: quanto l'eco aiuta a prevedere; ia15b: quante parole simili ci sono vicino): da chiarire.
+- **In parole semplici:** nel Voynich, accanto al vocabolario proprio della pagina, c'è un'eco delle righe vicine fatta
+  soprattutto di parole quasi uguali (una lettera diversa), non di parole che si ripetono uguali come in una lingua. È la
+  firma attesa da un "copia e ritocca" leggero, mescolato a un tema di pagina. Ma il v21 ha la stessa firma: questa misura,
+  da sola, non separa il Voynich dal suo imitatore.
+- **Limiti:** il paragrafo resta non leggibile; tarare i generatori sulla sola quantità di eco non garantisce che abbiano la
+  struttura giusta; una trascrizione sola; la sezione erbario domina.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.

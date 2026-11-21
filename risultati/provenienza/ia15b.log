@@ -1,0 +1,116 @@
+pagine vere: 202; libri ['a13', 'a14', 'a15', 'a16', 'a17', 'a18', 'a19', 'a20', 'a21', 'a22']; riferimenti 2; spostamenti 200; generatori 23
+bersaglio: eco vicina 0.01159 (eco vicina del testo vere); lontana 0.00574
+taratura argS: {'V': (0.39311, 0.012208, True)} (20 s)
+taratura argF: {'V': (0.43407, 0.012432, True), 'M': (0.28984, 0.005625, True)} (24 s)
+taratura argP: {'V': (0.36236, 0.011731, True), 'M': (0.25418, 0.005855, True), 'D': (0.18746, 0.002729, True)} (31 s)
+taratura tecM: {'V': (0.27858, 0.011115, True), 'M': (0.16504, 0.006104, True), 'D': (0.09497, 0.002979, True)} (36 s)
+taratura argR: {'V': (0.43565, 0.011557, True), 'M': (0.30559, 0.005058, False)} (48 s)
+taratura tecP: {'V': (0.25478, 0.011206, True), 'M': (0.15326, 0.006048, True), 'D': (0.094, 0.00314, False)} (60 s)
+lavori: 63 da fare, 0 gia fatti
+[1/63 1 min] ['C', 'vere'] (42 s)
+[2/63 1 min] ['C', 'a13'] (44 s)
+[3/63 1 min] ['C', 'a14'] (46 s)
+[4/63 1 min] ['C', 'a15'] (46 s)
+[5/63 2 min] ['C', 'a16'] (45 s)
+[6/63 2 min] ['C', 'a17'] (42 s)
+[7/63 2 min] ['C', 'a18'] (42 s)
+[8/63 2 min] ['C', 'a19'] (46 s)
+[9/63 2 min] ['C', 'ts1'] (5 s)
+[10/63 2 min] ['C', 'ts2'] (4 s)
+[11/63 2 min] ['C', 'a21'] (39 s)
+[12/63 2 min] ['C', 'a20'] (42 s)
+[13/63 2 min] ['C', 'a22'] (41 s)
+[14/63 3 min] ['C', 'latino'] (45 s)
+[15/63 3 min] ['C', 'italiano'] (35 s)
+[16/63 3 min] ['C', 'inglese'] (38 s)
+[17/63 3 min] ['C', 'latGeom'] (52 s)
+[18/63 3 min] ['C', 'ingGeom'] (50 s)
+[19/63 3 min] ['C', 'argP1'] (36 s)
+[20/63 3 min] ['C', 'argP2'] (36 s)
+[21/63 4 min] ['C', 'argP3'] (36 s)
+[22/63 4 min] ['C', 'argR1'] (36 s)
+[23/63 4 min] ['C', 'argR2'] (36 s)
+[24/63 4 min] ['C', 'argR3'] (36 s)
+[25/63 4 min] ['C', 'argS1'] (38 s)
+[26/63 5 min] ['C', 'argF1'] (40 s)
+[27/63 5 min] ['C', 'argF2'] (39 s)
+[28/63 5 min] ['C', 'tecM1'] (39 s)
+[29/63 5 min] ['C', 'tecM2'] (37 s)
+[30/63 5 min] ['C', 'tecM3'] (37 s)
+[31/63 5 min] ['C', 'tecP1'] (37 s)
+[32/63 5 min] ['C', 'tecCoda1'] (38 s)
+[33/63 6 min] ['C', 'tecTesta1'] (38 s)
+[34/63 6 min] ['C', 'argPm1'] (35 s)
+[35/63 6 min] ['C', 'argRm1'] (36 s)
+[36/63 6 min] ['C', 'argFm1'] (36 s)
+[37/63 6 min] ['C', 'tecMm1'] (32 s)
+[38/63 6 min] ['C', 'tecPm1'] (34 s)
+[39/63 6 min] ['C', 'argPd1'] (34 s)
+[40/63 6 min] ['C', 'tecMd1'] (34 s)
+[41/63 7 min] ['C', 'tecPd1'] (35 s)
+[42/63 7 min] ['C', 'vere~t1'] (36 s)
+[43/63 7 min] ['C', 'vere~t2'] (34 s)
+[44/63 7 min] ['C', 'vere~t3'] (35 s)
+[45/63 7 min] ['C', 'ts1~t'] (4 s)
+[46/63 7 min] ['C', 'vere~t4'] (34 s)
+[47/63 8 min] ['C', 'vere~t5'] (36 s)
+[48/63 8 min] ['C', 'a13~t'] (38 s)
+[49/63 8 min] ['C', 'argP1~t'] (38 s)
+[50/63 8 min] ['C', 'tecM1~t'] (38 s)
+[51/63 8 min] ['C', 'argF1~t'] (34 s)
+[52/63 8 min] ['C', 'latino~t'] (41 s)
+[53/63 8 min] ['C', 'inglese~t'] (34 s)
+[54/63 8 min] ['C', 'ts1~p'] (4 s)
+[55/63 8 min] ['C', 'italiano~t'] (32 s)
+[56/63 9 min] ['C', 'vere~p'] (34 s)
+[57/63 9 min] ['C', 'a13~p'] (35 s)
+[58/63 9 min] ['C', 'argP1~p'] (33 s)
+[59/63 9 min] ['C', 'tecM1~p'] (32 s)
+[60/63 9 min] ['C', 'argF1~p'] (32 s)
+[61/63 9 min] ['C', 'italiano~p'] (17 s)
+[62/63 9 min] ['C', 'inglese~p'] (20 s)
+[63/63 9 min] ['C', 'latino~p'] (25 s)
+C:\Users\davide\voynich\esperimenti\ia09_dove_sta_sintassi.py:387: RuntimeWarning: invalid value encountered in scalar divide
+  return V(num.sum() / den.sum(), (W @ num) / (W @ den))
+C:\Users\davide\voynich\esperimenti\ia09_dove_sta_sintassi.py:387: RuntimeWarning: invalid value encountered in divide
+  return V(num.sum() / den.sum(), (W @ num) / (W @ den))
+# ia15b — da dove viene l'eco della pagina (seconda versione)
+
+Soglie nella preregistrazione `preregistrazioni/ia15b.md`. "Eco" = eccesso di parole uguali o a una modifica da parole gia' scritte (stessa riga prima, righe sopra), per parola fonte, rispetto a una pagina di riferimento della stessa sezione con la stessa geometria di righe. Intervalli al 95% col bootstrap sulle pagine. Nessuna parola nei risultati. Nuovo rispetto a ia15: controlli separati per lettura, generatori tarati sull'eco vicina del Voynich, varianti sulla sola parte locale dell'eco.
+
+## Taratura dei generatori (solo la quantita' di eco vicina)
+
+Bersaglio: eco vicina 0.01159 (eco vicina del testo vere). Tolleranza 8%. Livelli: {"V": 1.0, "M": 0.5, "D": 0.25}.
+
+| famiglia | livello | quota del bersaglio | livello numerico (quota tema o prob. di copia) | eco vicina ottenuta | raggiunto | valutazioni |
+|---|---|---|---|---|---|---|
+| argP | V | 1.0 | 0.3624 | 0.01173 | si | 3 |
+| argP | M | 0.5 | 0.2542 | 0.00585 | si | 1 |
+| argP | D | 0.25 | 0.1875 | 0.00273 | si | 2 |
+| argR | V | 1.0 | 0.4356 | 0.01156 | si | 3 |
+| argR | M | 0.5 | 0.3056 | 0.00506 | NO | 8 |
+| argS | V | 1.0 | 0.3931 | 0.01221 | si | 2 |
+| argF | V | 1.0 | 0.4341 | 0.01243 | si | 2 |
+| argF | M | 0.5 | 0.2898 | 0.00562 | si | 1 |
+| tecM | V | 1.0 | 0.2786 | 0.01111 | si | 3 |
+| tecM | M | 0.5 | 0.1650 | 0.00610 | si | 1 |
+| tecM | D | 0.25 | 0.0950 | 0.00298 | si | 1 |
+| tecP | V | 1.0 | 0.2548 | 0.01121 | si | 3 |
+| tecP | M | 0.5 | 0.1533 | 0.00605 | si | 1 |
+| tecP | D | 0.25 | 0.0940 | 0.00314 | NO | 8 |
+
+## Letture
+
+- vere: eco misurabile; profilo **intermedio**; varianti **alte**; paragrafo **non leggibile (i controlli di questa lettura non sono superati)**; modifiche **nessun posto prevale**; pagine vicine **no**; sintesi **mista (senza il paragrafo)**
+- a13: eco misurabile; profilo **intermedio**; varianti **alte**; paragrafo **non leggibile (i controlli di questa lettura non sono superati)**; modifiche **nessun posto prevale**; pagine vicine **no**; sintesi **mista (senza il paragrafo)**
+- a14: eco misurabile; profilo **intermedio**; varianti **alte**; paragrafo **non leggibile (i controlli di questa lettura non sono superati)**; modifiche **nessun posto prevale**; pagine vicine **no**; sintesi **mista (senza il paragrafo)**
+- a15: eco misurabile; profilo **intermedio**; varianti **alte**; paragrafo **non leggibile (i controlli di questa lettura non sono superati)**; modifiche **nessun posto prevale**; pagine vicine **no**; sintesi **mista (senza il paragrafo)**
+- a16: eco misurabile; profilo **intermedio**; varianti **alte**; paragrafo **non leggibile (i controlli di questa lettura non sono superati)**; modifiche **nessun posto prevale**; pagine vicine **no**; sintesi **mista (senza il paragrafo)**
+- a17: eco misurabile; profilo **intermedio**; varianti **alte**; paragrafo **non leggibile (i controlli di questa lettura non sono superati)**; modifiche **nessun posto prevale**; pagine vicine **no**; sintesi **mista (senza il paragrafo)**
+- a18: eco misurabile; profilo **intermedio**; varianti **alte**; paragrafo **non leggibile (i controlli di questa lettura non sono superati)**; modifiche **nessun posto prevale**; pagine vicine **no**; sintesi **mista (senza il paragrafo)**
+- a19: eco misurabile; profilo **intermedio**; varianti **alte**; paragrafo **non leggibile (i controlli di questa lettura non sono superati)**; modifiche **nessun posto prevale**; pagine vicine **no**; sintesi **mista (senza il paragrafo)**
+- ts1: eco misurabile; profilo **piatto**; varianti **nessuna parte locale**; paragrafo **non leggibile (i controlli di questa lettura non sono superati)**; modifiche **nessun posto prevale**; pagine vicine **zona grigia**; sintesi **argomento di pagina (senza il paragrafo)**
+- ts2: eco misurabile; profilo **piatto**; varianti **nessuna parte locale**; paragrafo **non leggibile (i controlli di questa lettura non sono superati)**; modifiche **nessun posto prevale**; pagine vicine **zona grigia**; sintesi **argomento di pagina (senza il paragrafo)**
+- a21: eco misurabile; profilo **intermedio**; varianti **alte**; paragrafo **non leggibile (i controlli di questa lettura non sono superati)**; modifiche **nessun posto prevale**; pagine vicine **no**; sintesi **mista (senza il paragrafo)**
+- a20: eco misurabile; profilo **intermedio**; varianti **alte**; paragrafo **non leggibile (i controlli di questa lettura non sono superati)**; modifiche **nessun posto prevale**; pagine vicine **no**; sintesi **mista (senza il paragrafo)**
+- a22: eco misurabile; profilo **intermedio**; varianti **alte**; paragrafo **non leggibile (i controlli di questa lettura non sono superati)**; modifiche **nessun posto prevale**; pagine vicine **no**; sintesi **mista (senza il paragrafo)**
