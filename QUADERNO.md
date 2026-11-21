@@ -17019,3 +17019,39 @@ Corsa: coda `ia_D`, 4 processi, 174 minuti, uscita 0. Risultati in `risultati/ia
 - **Limiti:** procedimenti in versione semplice, tre istanze per cella; il latino in chiaro esce dal campo delle lingue
   (controllo caduto), quindi la scala delle distanze va presa con cautela; nessuna combinazione di procedimenti.
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione (4 processi invece di 10).
+
+## 21/11/2026 (mattina presto) — ia16 (IA16): l'imitatore che rilegge la pagina impara il vocabolario della pagina e gran parte dell'eco, ma i giudici lo riconoscono più del v21 e più di ia07: rompe il contatto fra parole e l'eco resta poco locale
+
+Preregistrato (`preregistrazioni/ia16.md`, commit 69cc68e, con finestra 2.048 e pazienza 10 scelte prima del commit; codice
+37700f2 con `imitatore_modelli.py` e `imitatore_misure.py`). Notte autonoma. Corsa: coda `ia_E`, 6 processi, 354 minuti,
+uscita 0. Risultati in `risultati/ia16_imitatore.{md,json}` e `risultati/ia16_corse.jsonl` (solo numeri); modelli, libri e
+libro vetrina in `dati/cache/ia16/`.
+
+- **Domanda:** un piccolo transformer a caratteri che, mentre scrive, rilegge la pagina scritta fin lì (P1; P2 anche la coda
+  della pagina precedente; R: contesto limitato alla riga) impara insieme eco, vocabolario della pagina, ordine e contatto, e
+  batte il v21 sui giudici che non conosce?
+- **Controlli:** tutti superati (giudice 2 sulle parole rimescolate 0,988; etichette a caso 0,506 e 0,503; K 0,982, 0,935,
+  negativo 0,499, vede il v21 0,766; A 0,986, 0,958, negativo 0,484). Taglia scelta: P (245.000 parametri; S non migliora).
+  Nessun modello al massimo delle epoche. Nessuna copia (5-grammi e righe intere 0; parole nuove 16,0%, naturale 15,3%).
+- **L1, contro il v21: più lontano dal vero del v21.** P2: giudice 1 0,858, giudice 2 0,878 (v21 0,554 e 0,601), K 0,803 (v21
+  0,766), A 0,777 (v21 0,746).
+- **L2, contro ia07: peggio di ia07** (ia07: 0,792, 0,855, K 0,762, A 0,675). P1 (senza la pagina precedente) è meglio di P2
+  su tutti i giudici (0,810, 0,833, K 0,755); le due repliche di P2 differiscono più di 2 errori.
+- **L3, struttura, P2 contro R: la memoria della pagina avvicina al vero** su tutte le misure: copia netta 0,087 (R 0,034, vero
+  0,114), Λ 0,10 (R 0,00, vero 0,21), D 0,118 (R 0,091, vero 0,144), contatto 0,142 (R 0,120, vero 0,188), G9 0,037 (R
+  0,025, vero 0,040).
+- **L4, struttura contro ia07: zona grigia.** Più vicino al vero per copia netta (0,087 contro 0,050; frazione di cammino 0,58)
+  e soprattutto per il **vocabolario della pagina** G9 (0,037 contro 0,024; frazione 0,81); come ia07 per Λ (0,10); più
+  lontano per l'ordine delle famiglie D (0,118 contro 0,154, vero 0,144) e per il **contatto** ultimo → primo glifo (0,142
+  contro 0,182, vero 0,188).
+- **Confronto con la lettura attesa:** la memoria della pagina ha corretto il difetto di ia07 (pagine "medie": G9 quasi al
+  vero) e ha portato metà strada di eco in più; ma non ha dato un imitatore migliore per i giudici, perché ha indebolito il
+  contatto fra parole e l'ordine delle famiglie.
+- **In parole semplici:** il nuovo imitatore ha imparato che ogni pagina ha il suo vocabolario e che le parole ritornano, ma
+  ha perso in parte la regola più semplice, il legame fra la fine di una parola e l'inizio della successiva, e le sue
+  ripetizioni vengono da tutta la pagina più che dalle righe vicine. Risultato: i giudici lo riconoscono ancora meglio del
+  v21. Saper rifare il Voynich resta difficile con 38.000 parole e reti piccole.
+- **Limiti:** due taglie piccole, un'architettura sola; addestramento su processore; repliche di P2 che differiscono; il
+  corpus è corto per un transformer.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione (6 processi invece di 10). La condizione d'ingresso di ia17 è
+  soddisfatta (P2 valido: controlli riusciti, nessuna copia).
