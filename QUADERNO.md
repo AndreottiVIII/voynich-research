@@ -17055,3 +17055,33 @@ libro vetrina in `dati/cache/ia16/`.
   corpus è corto per un transformer.
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione (6 processi invece di 10). La condizione d'ingresso di ia17 è
   soddisfatta (P2 valido: controlli riusciti, nessuna copia).
+
+## 21/11/2026 (mattina) — ia04 (IA4): un "cervello" addestrato su una lingua riconosce i cifrati lettera per lettera della sua lingua (13 su 13), ma sul Voynich nessuna lingua aiuta in modo distinto; lettura formalmente "non leggibile" (il Voynich lascia troppo poco da imparare)
+
+Preregistrato (`preregistrazioni/ia04.md`, commit c507cec; codice ce0ee6c). Corsa: coda `ia_B`, 7 processi (a priorità minima
+dalle 15:00 alle 16:05 del 20/11, quasi ferma in quell'ora), 999 minuti, uscita 0. Risultati in
+`risultati/ia04_cervello_lingua.{md,json}` e `risultati/ia04_corse.jsonl` (solo numeri). Corse al massimo dei passi: 347 su
+2.394.
+
+- **Domanda:** una rete addestrata su una lingua (il "cervello", nucleo bloccato), a cui si lascia imparare solo l'alfabeto
+  nuovo, riconosce un cifrato lettera per lettera di quella lingua? E sul Voynich, qualche lingua aiuta?
+- **Controllo positivo: riuscito.** 13 cifrati su 13 (sanscrito non valutabile) hanno come cervello migliore la loro lingua,
+  con TG 1,01–1,08 contro al massimo 0,45 per i cervelli sbagliati (scarto 0,58–0,67). Sui cifrati di un altro testo della
+  stessa lingua il cervello giusto vince ancora, ma di poco (scarto 0,02–0,13). La sonda con omofoni e digrafi non è
+  riconosciuta (come già nella prova: il metodo vale solo per la sostituzione semplice).
+- **Controllo negativo: riuscito** (rimescolati: guadagno massimo −0,008 e −0,000 bit, soglia 0,03).
+- **Lettura sul Voynich: non leggibile.** La differenza fra rete casuale e rete da zero (il "margine" da spiegare) è solo 0,09
+  bit (A 0,07, B 0,07) contro 0,37–0,69 dei cifrati, e in almeno un seme scende sotto la soglia di stabilità: il TG diventa
+  instabile. Descrittivo: il cervello migliore è il latino abbreviato (TG 0,48 ± 0,13), il secondo l'ebraico (0,44), scarto
+  0,04; TG mediano dei cervelli 0,23. Lo stesso quadro per Timm e Schinner (migliore latino abbreviato 0,62, scarto 0,02),
+  Naibbe (0,60, scarto 0,04) e v21 (non leggibile).
+- **Eco delle frequenze:** sul Voynich il nucleo dei cervelli porta 0,023 bit in media (latino abbreviato 0,038), contro 0,18–0,25
+  sui cifrati di latino e spagnolo.
+- **In parole semplici:** il metodo funziona benissimo sui cifrati semplici: una rete che "conosce" il francese riconosce
+  subito un francese cifrato lettera per lettera. Sul Voynich invece nessuna lingua dà un aiuto netto; il Voynich si impara
+  così in fretta anche da zero che non resta quasi niente in cui una lingua possa aiutare. Il quadro è quello dei generatori,
+  non quello dei cifrati semplici.
+- **Cosa non dice:** non esclude un cifrato più complesso (omofoni, digrafi, verbosi), che questo metodo non riconosce
+  nemmeno sul latino; non esclude lingue fuori dalle 20.
+- **Limiti:** reti piccole; 40.000 segni; il 14% delle corse al massimo dei passi; un solo testo per lingua nel controllo.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione (7 processi invece di 10; un'ora a priorità minima).
