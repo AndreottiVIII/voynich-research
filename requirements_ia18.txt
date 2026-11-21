@@ -1,0 +1,35 @@
+# Ambiente dedicato a ia18 (dati/cache/.venv_llm, Python 3.12.10). Non tocca .venv né .venv_lm.
+# Installazione (torch dal sito di PyTorch, solo processore; il resto da PyPI):
+#   python -m venv dati/cache/.venv_llm
+#   dati/cache/.venv_llm/Scripts/python -m pip install --index-url https://download.pytorch.org/whl/cpu \
+#       --extra-index-url https://pypi.org/simple -r requirements_ia18.txt
+# Modello (Qwen2.5-0.5B, Apache 2.0): file scaricati da https://huggingface.co/Qwen/Qwen2.5-0.5B in
+# dati/cache/ia18/modelli_base/Qwen2.5-0.5B/ (impronte in dati/cache/ia18/modelli_base/sha256_Qwen2.5-0.5B.txt).
+torch==2.15.0+cpu
+transformers==4.57.6
+tokenizers==0.22.2
+safetensors==0.8.0
+huggingface_hub==0.36.2
+numpy==2.5.3
+scipy==1.18.1
+pypinyin==0.55.0
+RapidFuzz==3.14.6
+certifi==2026.10.23
+charset-normalizer==3.5.2
+colorama==0.4.6
+filelock==4.2.12
+fsspec==2026.9.0
+idna==3.20
+Jinja2==3.1.6
+MarkupSafe==3.0.4
+mpmath==1.3.0
+networkx==3.7
+packaging==26.3
+PyYAML==6.0.3
+regex==2026.11.19
+requests==2.34.2
+setuptools==84.2.1
+sympy==1.14.0
+tqdm==4.70.1
+typing_extensions==4.16.0
+urllib3==2.8.0
