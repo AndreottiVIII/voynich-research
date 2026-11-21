@@ -16932,3 +16932,29 @@ Voynich. Notte autonoma su indicazione di Davide. Corsa: coda `ia_C`, 4 processi
 - **Limiti:** il paragrafo resta non leggibile; tarare i generatori sulla sola quantità di eco non garantisce che abbiano la
   struttura giusta; una trascrizione sola; la sezione erbario domina.
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
+
+## 21/11/2026 (notte) — ia12 (IA12): le mani 2 e 3 (lingua B) non si distinguono sulla rete (contesto, riga sopra, ripetizioni lontane); le misure di conteggio non sono leggibili (il controllo negativo cade); le differenze fra mani sembrano seguire la sezione
+
+Preregistrato (`preregistrazioni/ia12.md`, commit cdb4e55; codice 8a90bca con `mani_testi.py` e `mani_stat.py`). Notte
+autonoma. Corsa: coda `ia_D`, 4 processi, 230 minuti, uscita 0. Risultati in `risultati/ia12_cinque_mani.{md,json}` e
+`risultati/ia12_corse.jsonl` (solo numeri).
+
+- **Gruppi:** mano 1 solo in lingua A (112 pagine, 10.481 parole); mano 2 in B (46 pagine, 10.806); mano 3 in B (28 pagine,
+  10.908); mani 4 e 5 e i frammenti troppo corti (non leggibili). Nessuna pagina con più mani. L'unico confronto dentro la
+  stessa lingua è 2B contro 3B; 1A contro le altre mescola mano e lingua (descrittivo).
+- **Controlli:** negativo dei conteggi **non superato** (mani finte risultano "diverse"), positivo di Λ non superato; gli
+  altri positivi e il negativo della rete superati. Valide solo le misure della rete (k90, GR); tutte le misure di conteggio
+  (copia netta, ρ, Λ, g, D) **non leggibili**.
+- **Rete, 2B contro 3B:** **nessuna differenza misurabile** in k90 interpolato (1,77 contro 1,82), GL (0,028 contro 0,026),
+  GR corte (0,015 contro 0,010); tutte sotto le mani finte.
+- **Conteggi, 2B contro 3B (descrittivo, non leggibile):** differenze con p basso dentro la lingua (copia netta p 0,002, g
+  p 0,001, D p 0,016) che **spariscono dentro lingua e sezione** (p 0,12, 0,33, 0,51): seguono la sezione, non la mano.
+- **Descrittivo, A contro B (mano e lingua insieme):** eco locale più forte in A (Λ 0,42 contro 0,16), copia netta più alta in
+  B (0,17 contro 0,10), ordine delle famiglie più netto in B (D 0,056 contro 0,029), ρ uguale (0,88).
+- **In parole semplici:** i due scribi che scrivono la lingua B si comportano allo stesso modo per quanto vede la rete.
+  Le differenze che si vedono nei conteggi sembrano dipendere da che cosa scrivono (la sezione), non da chi scrive; e il
+  controllo che doveva garantirle non ha retto. Non abbiamo prove di "stili di scrittura" diversi fra mani della stessa
+  lingua.
+- **Limiti:** un solo confronto dentro la lingua; mani e sezioni intrecciate; misure di conteggio poco robuste a questa
+  quantità di testo.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione (4 processi invece di 10).
