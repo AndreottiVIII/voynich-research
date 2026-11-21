@@ -1,0 +1,1484 @@
+libro (Voynich): 4130 righe, 207 pagine, 31 segni, riga massima 157; tipi ('E0', 'E1', 'E2', 'E3'); PICCOLO False; riferimenti cache
+== fase A: 51 lavori
+[sens senza M1]  epoca 1: addestramento 2.7247, validazione 2.2018 (migliore 2.2018), 26 s
+[sens ecocontatto M1]  epoca 1: addestramento 3.1091, validazione 2.6839 (migliore 2.6839), 28 s
+[sens ecocontatto E1]  epoca 1: addestramento 3.1994, validazione 2.6308 (migliore 2.6308), 28 s
+[sens senza E0]  epoca 1: addestramento 2.6791, validazione 2.1961 (migliore 2.1961), 36 s
+[sens ecocontatto E3]  epoca 1: addestramento 2.3816, validazione 2.0238 (migliore 2.0238), 36 s
+[sens ecocontatto E0]  epoca 1: addestramento 2.4209, validazione 2.0698 (migliore 2.0698), 36 s
+[sens ecocontatto E2]  epoca 1: addestramento 2.4007, validazione 2.0570 (migliore 2.0570), 40 s
+[sens ecocontatto M5]  epoca 1: addestramento 2.5661, validazione 2.0940 (migliore 2.0940), 48 s
+[sens senza M1]  epoca 2: addestramento 2.2214, validazione 2.1812 (migliore 2.1812), 53 s
+[sens ecocontatto M1]  epoca 2: addestramento 2.6850, validazione 2.6260 (migliore 2.6260), 54 s
+[sens ecocontatto E1]  epoca 2: addestramento 2.6212, validazione 2.5467 (migliore 2.5467), 57 s
+[sens senza E0]  epoca 2: addestramento 2.2218, validazione 2.1813 (migliore 2.1813), 71 s
+[sens ecocontatto E3]  epoca 2: addestramento 2.0511, validazione 1.9703 (migliore 1.9703), 72 s
+[sens ecocontatto E0]  epoca 2: addestramento 2.0904, validazione 2.0314 (migliore 2.0314), 72 s
+[sens senza M1]  epoca 3: addestramento 2.2035, validazione 2.1808 (migliore 2.1808), 79 s
+[sens ecocontatto M1]  epoca 3: addestramento 2.6428, validazione 2.6072 (migliore 2.6072), 80 s
+[sens ecocontatto E2]  epoca 2: addestramento 2.0889, validazione 2.0118 (migliore 2.0118), 81 s
+[sens ecocontatto E1]  epoca 3: addestramento 2.5354, validazione 2.4999 (migliore 2.4999), 84 s
+[sens ecocontatto M5]  epoca 2: addestramento 2.0977, validazione 2.0164 (migliore 2.0164), 95 s
+[sens senza M1]  epoca 4: addestramento 2.1923, validazione 2.1557 (migliore 2.1557), 105 s
+[sens ecocontatto M1]  epoca 4: addestramento 2.6192, validazione 2.6108 (migliore 2.6072), 105 s
+[sens senza E0]  epoca 3: addestramento 2.1947, validazione 2.1616 (migliore 2.1616), 106 s
+[sens ecocontatto E3]  epoca 3: addestramento 2.0159, validazione 1.9614 (migliore 1.9614), 108 s
+[sens ecocontatto E0]  epoca 3: addestramento 2.0588, validazione 1.9995 (migliore 1.9995), 108 s
+[sens ecocontatto E1]  epoca 4: addestramento 2.4728, validazione 2.4118 (migliore 2.4118), 112 s
+[sens ecocontatto E2]  epoca 3: addestramento 2.0457, validazione 2.0097 (migliore 2.0097), 122 s
+[sens ecocontatto M1]  epoca 5: addestramento 2.5922, validazione 2.5962 (migliore 2.5962), 131 s
+[sens senza M1]  epoca 5: addestramento 2.1775, validazione 2.1639 (migliore 2.1557), 132 s
+[sens senza E0]  epoca 4: addestramento 2.1788, validazione 2.1529 (migliore 2.1529), 142 s
+[sens ecocontatto E1]  epoca 5: addestramento 2.4092, validazione 2.3659 (migliore 2.3659), 139 s
+[sens ecocontatto M5]  epoca 3: addestramento 2.0455, validazione 1.9854 (migliore 1.9854), 143 s
+[sens ecocontatto E0]  epoca 4: addestramento 2.0396, validazione 1.9922 (migliore 1.9922), 144 s
+[sens ecocontatto E3]  epoca 4: addestramento 1.9897, validazione 1.9432 (migliore 1.9432), 144 s
+[sens ecocontatto M1]  epoca 6: addestramento 2.5890, validazione 2.5833 (migliore 2.5833), 158 s
+[sens senza M1]  epoca 6: addestramento 2.1717, validazione 2.1519 (migliore 2.1519), 158 s
+[sens ecocontatto E2]  epoca 4: addestramento 2.0346, validazione 1.9795 (migliore 1.9795), 163 s
+[sens ecocontatto E1]  epoca 6: addestramento 2.3548, validazione 2.3166 (migliore 2.3166), 166 s
+[sens senza E0]  epoca 5: addestramento 2.1682, validazione 2.1274 (migliore 2.1274), 178 s
+[sens ecocontatto E3]  epoca 5: addestramento 1.9777, validazione 1.9292 (migliore 1.9292), 180 s
+[sens ecocontatto E0]  epoca 5: addestramento 2.0183, validazione 2.0011 (migliore 1.9922), 180 s
+[sens senza M1]  epoca 7: addestramento 2.1610, validazione 2.1564 (migliore 2.1519), 184 s
+[sens ecocontatto M1]  epoca 7: addestramento 2.5807, validazione 2.6028 (migliore 2.5833), 184 s
+[sens ecocontatto M5]  epoca 4: addestramento 2.0220, validazione 1.9590 (migliore 1.9590), 191 s
+[sens ecocontatto E1]  epoca 7: addestramento 2.3122, validazione 2.3062 (migliore 2.3062), 193 s
+[sens ecocontatto E2]  epoca 5: addestramento 2.0245, validazione 2.0206 (migliore 1.9795), 205 s
+[sens ecocontatto M1]  epoca 8: addestramento 2.5545, validazione 2.5917 (migliore 2.5833), 210 s
+[sens senza M1]  epoca 8: addestramento 2.1575, validazione 2.1505 (migliore 2.1505), 210 s
+[sens senza E0]  epoca 6: addestramento 2.1475, validazione 2.1317 (migliore 2.1274), 215 s
+[sens ecocontatto E0]  epoca 6: addestramento 2.0057, validazione 1.9631 (migliore 1.9631), 215 s
+[sens ecocontatto E3]  epoca 6: addestramento 1.9595, validazione 1.9498 (migliore 1.9292), 216 s
+[sens ecocontatto E1]  epoca 8: addestramento 2.2796, validazione 2.2835 (migliore 2.2835), 219 s
+[sens ecocontatto M1]  epoca 9: addestramento 2.5312, validazione 2.5765 (migliore 2.5765), 236 s
+[sens senza M1]  epoca 9: addestramento 2.1517, validazione 2.1370 (migliore 2.1370), 236 s
+[sens ecocontatto M5]  epoca 5: addestramento 1.9890, validazione 1.9552 (migliore 1.9552), 239 s
+[sens ecocontatto E2]  epoca 6: addestramento 2.0094, validazione 1.9781 (migliore 1.9781), 245 s
+[sens ecocontatto E1]  epoca 9: addestramento 2.2568, validazione 2.2773 (migliore 2.2773), 246 s
+[sens senza E0]  epoca 7: addestramento 2.1416, validazione 2.1214 (migliore 2.1214), 251 s
+[sens ecocontatto E0]  epoca 7: addestramento 1.9866, validazione 1.9692 (migliore 1.9631), 251 s
+[sens ecocontatto E3]  epoca 7: addestramento 1.9527, validazione 1.9211 (migliore 1.9211), 251 s
+[sens senza M1]  epoca 10: addestramento 2.1436, validazione 2.1292 (migliore 2.1292), 262 s
+[sens ecocontatto M1]  epoca 10: addestramento 2.5174, validazione 2.5558 (migliore 2.5558), 262 s
+[sens ecocontatto E1]  epoca 10: addestramento 2.2411, validazione 2.2395 (migliore 2.2395), 273 s
+[sens ecocontatto E2]  epoca 7: addestramento 1.9903, validazione 1.9642 (migliore 1.9642), 285 s
+[sens senza E0]  epoca 8: addestramento 2.1347, validazione 2.1149 (migliore 2.1149), 286 s
+[sens ecocontatto E0]  epoca 8: addestramento 1.9737, validazione 1.9561 (migliore 1.9561), 286 s
+[sens ecocontatto E3]  epoca 8: addestramento 1.9349, validazione 1.9336 (migliore 1.9211), 286 s
+[sens senza M1]  epoca 11: addestramento 2.1433, validazione 2.1349 (migliore 2.1292), 288 s
+[sens ecocontatto M1]  epoca 11: addestramento 2.4983, validazione 2.5661 (migliore 2.5558), 288 s
+[sens ecocontatto M5]  epoca 6: addestramento 1.9879, validazione 1.9605 (migliore 1.9552), 288 s
+[sens ecocontatto E1]  epoca 11: addestramento 2.2159, validazione 2.2349 (migliore 2.2349), 300 s
+[sens senza M1]  epoca 12: addestramento 2.1197, validazione 2.1180 (migliore 2.1180), 314 s
+[sens ecocontatto M1]  epoca 12: addestramento 2.4813, validazione 2.5768 (migliore 2.5558), 315 s
+[sens senza E0]  epoca 9: addestramento 2.1299, validazione 2.1248 (migliore 2.1149), 321 s
+[sens ecocontatto E0]  epoca 9: addestramento 1.9578, validazione 1.9514 (migliore 1.9514), 321 s
+[sens ecocontatto E3]  epoca 9: addestramento 1.9163, validazione 1.9063 (migliore 1.9063), 322 s
+[sens ecocontatto E2]  epoca 8: addestramento 1.9805, validazione 1.9617 (migliore 1.9617), 326 s
+[sens ecocontatto E1]  epoca 12: addestramento 2.1949, validazione 2.2184 (migliore 2.2184), 328 s
+[sens ecocontatto M5]  epoca 7: addestramento 1.9780, validazione 1.9441 (migliore 1.9441), 337 s
+[sens senza M1]  epoca 13: addestramento 2.1107, validazione 2.1222 (migliore 2.1180), 340 s
+[sens ecocontatto M1]  epoca 13: addestramento 2.4707, validazione 2.5884 (migliore 2.5558), 340 s
+[sens senza E0]  epoca 10: addestramento 2.1253, validazione 2.1168 (migliore 2.1149), 355 s
+[sens ecocontatto E0]  epoca 10: addestramento 1.9555, validazione 1.9727 (migliore 1.9514), 356 s
+[sens ecocontatto E3]  epoca 10: addestramento 1.9154, validazione 1.9217 (migliore 1.9063), 357 s
+[sens ecocontatto E1]  epoca 13: addestramento 2.1747, validazione 2.2185 (migliore 2.2184), 356 s
+[sens senza M1]  epoca 14: addestramento 2.1168, validazione 2.1185 (migliore 2.1180), 366 s
+[sens ecocontatto E2]  epoca 9: addestramento 1.9622, validazione 1.9757 (migliore 1.9617), 366 s
+[sens ecocontatto M1]  epoca 14: addestramento 2.4634, validazione 2.5733 (migliore 2.5558), 367 s
+[sens ecocontatto E1]  epoca 14: addestramento 2.1680, validazione 2.2283 (migliore 2.2184), 383 s
+[sens ecocontatto M5]  epoca 8: addestramento 1.9515, validazione 1.9389 (migliore 1.9389), 387 s
+[sens senza E0]  epoca 11: addestramento 2.1147, validazione 2.1026 (migliore 2.1026), 390 s
+[sens ecocontatto E0]  epoca 11: addestramento 1.9417, validazione 1.9445 (migliore 1.9445), 391 s
+[sens senza M1]  epoca 15: addestramento 2.1100, validazione 2.1223 (migliore 2.1180), 392 s
+[sens ecocontatto E3]  epoca 11: addestramento 1.9046, validazione 1.9225 (migliore 1.9063), 393 s
+[sens ecocontatto M1]  epoca 15: addestramento 2.4455, validazione 2.5985 (migliore 2.5558), 393 s
+[sens ecocontatto E2]  epoca 10: addestramento 1.9491, validazione 1.9660 (migliore 1.9617), 407 s
+[sens ecocontatto E1]  epoca 15: addestramento 2.1494, validazione 2.2551 (migliore 2.2184), 411 s
+[sens senza M1]  epoca 16: addestramento 2.0988, validazione 2.1320 (migliore 2.1180), 418 s
+[sens ecocontatto M1]  epoca 16: addestramento 2.4267, validazione 2.5871 (migliore 2.5558), 418 s
+[sens senza E0]  epoca 12: addestramento 2.1116, validazione 2.1017 (migliore 2.1017), 425 s
+[sens ecocontatto E0]  epoca 12: addestramento 1.9349, validazione 1.9507 (migliore 1.9445), 426 s
+[sens ecocontatto E3]  epoca 12: addestramento 1.8935, validazione 1.9275 (migliore 1.9063), 428 s
+[sens ecocontatto M5]  epoca 9: addestramento 1.9441, validazione 1.9656 (migliore 1.9389), 437 s
+[sens ecocontatto E1]  epoca 16: addestramento 2.1431, validazione 2.2351 (migliore 2.2184), 438 s
+[sens senza M1]  epoca 17: addestramento 2.0873, validazione 2.0983 (migliore 2.0983), 444 s
+[sens ecocontatto M1]  epoca 17: addestramento 2.4020, validazione 2.6118 (migliore 2.5558), 445 s
+[sens ecocontatto E2]  epoca 11: addestramento 1.9434, validazione 1.9606 (migliore 1.9606), 447 s
+[sens senza E0]  epoca 13: addestramento 2.1019, validazione 2.1140 (migliore 2.1017), 460 s
+[sens ecocontatto E0]  epoca 13: addestramento 1.9233, validazione 1.9594 (migliore 1.9445), 461 s
+[sens ecocontatto E3]  epoca 13: addestramento 1.8904, validazione 1.9382 (migliore 1.9063), 462 s
+[sens senza M1]  epoca 18: addestramento 2.0826, validazione 2.1101 (migliore 2.0983), 470 s
+[sens ecocontatto E1]  epoca 17: addestramento 2.1275, validazione 2.2896 (migliore 2.2184), 466 s
+[sens ecocontatto M1]  epoca 18: addestramento 2.3973, validazione 2.6292 (migliore 2.5558), 472 s
+[sens ecocontatto M5]  epoca 10: addestramento 1.9440, validazione 1.9464 (migliore 1.9389), 486 s
+[sens ecocontatto E2]  epoca 12: addestramento 1.9410, validazione 2.0059 (migliore 1.9606), 487 s
+[sens senza E0]  epoca 14: addestramento 2.1041, validazione 2.1191 (migliore 2.1017), 495 s
+[sens senza M1]  epoca 19: addestramento 2.0842, validazione 2.1404 (migliore 2.0983), 496 s
+[sens ecocontatto E0]  epoca 14: addestramento 1.9141, validazione 1.9940 (migliore 1.9445), 496 s
+[sens ecocontatto E1]  epoca 18: addestramento 2.1081, validazione 2.2397 (migliore 2.2184), 493 s
+[sens ecocontatto E3]  epoca 14: addestramento 1.8835, validazione 1.9124 (migliore 1.9063), 497 s
+[sens ecocontatto M1]  epoca 19: addestramento 2.3798, validazione 2.6208 (migliore 2.5558), 498 s
+[sens senza M1]  epoca 20: addestramento 2.0728, validazione 2.1188 (migliore 2.0983), 522 s
+[sens ecocontatto M1]  epoca 20: addestramento 2.3663, validazione 2.6397 (migliore 2.5558), 524 s
+[sens ecocontatto E1]  epoca 19: addestramento 2.0976, validazione 2.2588 (migliore 2.2184), 520 s
+[sens ecocontatto E2]  epoca 13: addestramento 1.9305, validazione 1.9600 (migliore 1.9600), 527 s
+[sens senza E0]  epoca 15: addestramento 2.0996, validazione 2.1122 (migliore 2.1017), 530 s
+[sens ecocontatto E0]  epoca 15: addestramento 1.9086, validazione 1.9770 (migliore 1.9445), 531 s
+[sens ecocontatto E3]  epoca 15: addestramento 1.8765, validazione 1.9276 (migliore 1.9063), 531 s
+[sens ecocontatto M5]  epoca 11: addestramento 1.9266, validazione 1.9634 (migliore 1.9389), 535 s
+[1/51 9.0 min] sens|ecocontatto|M1: {'epoca_scelta': 10, 'bpc_validazione': 2.55578, 'bpc_fuori': 2.54976} (538 s)
+[sens senza M1]  epoca 21: addestramento 2.0650, validazione 2.1270 (migliore 2.0983), 548 s
+[sens ecocontatto E1]  epoca 20: addestramento 2.0947, validazione 2.2548 (migliore 2.2184), 547 s
+[sens senza E0]  epoca 16: addestramento 2.0910, validazione 2.1131 (migliore 2.1017), 565 s
+[sens ecocontatto E2]  epoca 14: addestramento 1.9174, validazione 1.9664 (migliore 1.9600), 566 s
+[sens ecocontatto E3]  epoca 16: addestramento 1.8509, validazione 1.9227 (migliore 1.9063), 566 s
+[sens ecocontatto E0]  epoca 16: addestramento 1.8935, validazione 2.0000 (migliore 1.9445), 567 s
+[sens senza E1]  epoca 1: addestramento 2.7588, validazione 2.2126 (migliore 2.2126), 27 s
+[sens senza M1]  epoca 22: addestramento 2.0516, validazione 2.1334 (migliore 2.0983), 574 s
+[sens ecocontatto E1]  epoca 21: addestramento 2.0693, validazione 2.2810 (migliore 2.2184), 575 s
+[sens ecocontatto M5]  epoca 12: addestramento 1.9303, validazione 1.9519 (migliore 1.9389), 584 s
+[sens senza E1]  epoca 2: addestramento 2.2308, validazione 2.1833 (migliore 2.1833), 55 s
+[sens senza E0]  epoca 17: addestramento 2.0874, validazione 2.1324 (migliore 2.1017), 600 s
+[sens senza M1]  epoca 23: addestramento 2.0503, validazione 2.1318 (migliore 2.0983), 601 s
+[sens ecocontatto E3]  epoca 17: addestramento 1.8434, validazione 1.9394 (migliore 1.9063), 602 s
+[sens ecocontatto E0]  epoca 17: addestramento 1.9051, validazione 1.9910 (migliore 1.9445), 603 s
+[sens ecocontatto E1]  epoca 22: addestramento 2.0696, validazione 2.2811 (migliore 2.2184), 603 s
+[sens ecocontatto E2]  epoca 15: addestramento 1.9112, validazione 1.9757 (migliore 1.9600), 608 s
+[sens senza E1]  epoca 3: addestramento 2.2021, validazione 2.1750 (migliore 2.1750), 82 s
+[2/51 10.5 min] sens|ecocontatto|E1: {'epoca_scelta': 12, 'bpc_validazione': 2.21843, 'bpc_fuori': 2.22769} (627 s)
+[sens senza M1]  epoca 24: addestramento 2.0431, validazione 2.1441 (migliore 2.0983), 627 s
+[sens senza E0]  epoca 18: addestramento 2.0788, validazione 2.1172 (migliore 2.1017), 635 s
+[sens ecocontatto M5]  epoca 13: addestramento 1.9139, validazione 1.9453 (migliore 1.9389), 635 s
+[sens ecocontatto E3]  epoca 18: addestramento 1.8470, validazione 1.9387 (migliore 1.9063), 637 s
+[sens ecocontatto E0]  epoca 18: addestramento 1.8939, validazione 1.9945 (migliore 1.9445), 639 s
+[sens ecocontatto E2]  epoca 16: addestramento 1.8940, validazione 1.9816 (migliore 1.9600), 649 s
+[sens senza E1]  epoca 4: addestramento 2.1844, validazione 2.1674 (migliore 2.1674), 109 s
+[sens senza M1]  epoca 25: addestramento 2.0311, validazione 2.1415 (migliore 2.0983), 654 s
+[sens senza E2]  epoca 1: addestramento 2.6415, validazione 2.1979 (migliore 2.1979), 42 s
+[sens senza E0]  epoca 19: addestramento 2.0696, validazione 2.1067 (migliore 2.1017), 670 s
+[sens ecocontatto E3]  epoca 19: addestramento 1.8278, validazione 1.9517 (migliore 1.9063), 672 s
+[sens ecocontatto E0]  epoca 19: addestramento 1.8841, validazione 1.9838 (migliore 1.9445), 674 s
+[sens senza E1]  epoca 5: addestramento 2.1872, validazione 2.1454 (migliore 2.1454), 136 s
+[sens senza M1]  epoca 26: addestramento 2.0252, validazione 2.1466 (migliore 2.0983), 681 s
+[sens ecocontatto M5]  epoca 14: addestramento 1.8998, validazione 1.9650 (migliore 1.9389), 686 s
+[sens ecocontatto E2]  epoca 17: addestramento 1.8909, validazione 2.0034 (migliore 1.9600), 691 s
+[3/51 11.7 min] sens|ecocontatto|E3: {'epoca_scelta': 9, 'bpc_validazione': 1.90628, 'bpc_fuori': 1.92287} (700 s)
+[sens senza E1]  epoca 6: addestramento 2.1714, validazione 2.1635 (migliore 2.1454), 163 s
+[sens senza E0]  epoca 20: addestramento 2.0678, validazione 2.1251 (migliore 2.1017), 706 s
+[sens senza M1]  epoca 27: addestramento 2.0046, validazione 2.1761 (migliore 2.0983), 708 s
+[sens senza E2]  epoca 2: addestramento 2.2204, validazione 2.1779 (migliore 2.1779), 83 s
+[4/51 11.9 min] sens|senza|M1: {'epoca_scelta': 17, 'bpc_validazione': 2.09833, 'bpc_fuori': 2.08556} (711 s)
+[sens ecocontatto E0]  epoca 20: addestramento 1.8628, validazione 1.9924 (migliore 1.9445), 710 s
+[sens ecocontatto E2]  epoca 18: addestramento 1.8836, validazione 1.9946 (migliore 1.9600), 732 s
+[sens senza E1]  epoca 7: addestramento 2.1647, validazione 2.1383 (migliore 2.1383), 191 s
+[sens ecocontatto M5]  epoca 15: addestramento 1.8940, validazione 1.9586 (migliore 1.9389), 736 s
+[sens senza E3]  epoca 1: addestramento 2.6837, validazione 2.2107 (migliore 2.2107), 37 s
+[sens senza E0]  epoca 21: addestramento 2.0590, validazione 2.1232 (migliore 2.1017), 742 s
+[sens ecocontatto E0]  epoca 21: addestramento 1.8636, validazione 1.9982 (migliore 1.9445), 747 s
+[sens senza E2]  epoca 3: addestramento 2.1986, validazione 2.1633 (migliore 2.1633), 125 s
+[E2 p0 r0]  epoca 1: addestramento 2.6820, validazione 2.2569 (migliore 2.2569), 41 s
+[sens senza E1]  epoca 8: addestramento 2.1595, validazione 2.1437 (migliore 2.1383), 219 s
+[sens senza E3]  epoca 2: addestramento 2.2276, validazione 2.1842 (migliore 2.1842), 72 s
+[sens ecocontatto E2]  epoca 19: addestramento 1.8695, validazione 2.0069 (migliore 1.9600), 773 s
+[5/51 13.0 min] sens|ecocontatto|E0: {'epoca_scelta': 11, 'bpc_validazione': 1.94453, 'bpc_fuori': 1.94947} (775 s)
+[sens senza E0]  epoca 22: addestramento 2.0514, validazione 2.1339 (migliore 2.1017), 777 s
+[6/51 13.2 min] sens|senza|E0: {'epoca_scelta': 12, 'bpc_validazione': 2.10174, 'bpc_fuori': 2.07926} (786 s)
+[sens ecocontatto M5]  epoca 16: addestramento 1.8768, validazione 1.9745 (migliore 1.9389), 787 s
+[sens senza E1]  epoca 9: addestramento 2.1596, validazione 2.1479 (migliore 2.1383), 247 s
+[E2 p0 r0]  epoca 2: addestramento 2.1850, validazione 2.1781 (migliore 2.1781), 82 s
+[sens senza E2]  epoca 4: addestramento 2.1902, validazione 2.1731 (migliore 2.1633), 167 s
+[sens senza E3]  epoca 3: addestramento 2.1990, validazione 2.1717 (migliore 2.1717), 108 s
+[sens ecocontatto E2]  epoca 20: addestramento 1.8606, validazione 2.0072 (migliore 1.9600), 817 s
+[sens senza E1]  epoca 10: addestramento 2.1537, validazione 2.1334 (migliore 2.1334), 276 s
+[E2 p1 r0]  epoca 1: addestramento 2.5977, validazione 2.2891 (migliore 2.2891), 46 s
+[E2 p2 r0]  epoca 1: addestramento 2.6375, validazione 2.2223 (migliore 2.2223), 42 s
+[E2 p0 r0]  epoca 3: addestramento 2.1238, validazione 2.0770 (migliore 2.0770), 125 s
+[sens senza E2]  epoca 5: addestramento 2.1738, validazione 2.1685 (migliore 2.1633), 210 s
+[sens ecocontatto M5]  epoca 17: addestramento 1.8634, validazione 1.9858 (migliore 1.9389), 840 s
+[sens senza E3]  epoca 4: addestramento 2.1823, validazione 2.1662 (migliore 2.1662), 146 s
+[sens senza E1]  epoca 11: addestramento 2.1473, validazione 2.1314 (migliore 2.1314), 304 s
+[sens ecocontatto E2]  epoca 21: addestramento 1.8454, validazione 2.0223 (migliore 1.9600), 859 s
+[E2 p1 r0]  epoca 2: addestramento 2.1350, validazione 2.3539 (migliore 2.2891), 92 s
+[E2 p2 r0]  epoca 2: addestramento 2.1308, validazione 2.1625 (migliore 2.1625), 83 s
+[sens senza E1]  epoca 12: addestramento 2.1400, validazione 2.1417 (migliore 2.1314), 332 s
+[E2 p0 r0]  epoca 4: addestramento 2.0739, validazione 2.0391 (migliore 2.0391), 166 s
+[sens senza E2]  epoca 6: addestramento 2.1711, validazione 2.1400 (migliore 2.1400), 252 s
+[sens senza E3]  epoca 5: addestramento 2.1740, validazione 2.1441 (migliore 2.1441), 182 s
+[sens ecocontatto M5]  epoca 18: addestramento 1.8605, validazione 1.9950 (migliore 1.9389), 891 s
+[sens ecocontatto E2]  epoca 22: addestramento 1.8242, validazione 2.0477 (migliore 1.9600), 901 s
+[sens senza E1]  epoca 13: addestramento 2.1324, validazione 2.1300 (migliore 2.1300), 360 s
+[E2 p2 r0]  epoca 3: addestramento 2.1034, validazione 2.0936 (migliore 2.0936), 125 s
+[E2 p1 r0]  epoca 3: addestramento 2.0652, validazione 2.1283 (migliore 2.1283), 138 s
+[E2 p0 r0]  epoca 5: addestramento 2.0497, validazione 2.0236 (migliore 2.0236), 208 s
+[sens senza E3]  epoca 6: addestramento 2.1589, validazione 2.1401 (migliore 2.1401), 219 s
+[sens senza E2]  epoca 7: addestramento 2.1611, validazione 2.1486 (migliore 2.1400), 294 s
+[sens senza E1]  epoca 14: addestramento 2.1183, validazione 2.1340 (migliore 2.1300), 387 s
+[sens ecocontatto E2]  epoca 23: addestramento 1.8224, validazione 2.0530 (migliore 1.9600), 942 s
+[7/51 15.9 min] sens|ecocontatto|M5: {'epoca_scelta': 8, 'bpc_validazione': 1.93886, 'bpc_fuori': 1.94941} (948 s)
+[E2 p2 r0]  epoca 4: addestramento 2.0837, validazione 2.1166 (migliore 2.0936), 166 s
+[sens senza E3]  epoca 7: addestramento 2.1573, validazione 2.1263 (migliore 2.1263), 255 s
+[sens senza E1]  epoca 15: addestramento 2.1138, validazione 2.1479 (migliore 2.1300), 414 s
+[E2 p1 r0]  epoca 4: addestramento 2.0672, validazione 2.1491 (migliore 2.1283), 183 s
+[E2 p0 r0]  epoca 6: addestramento 2.0367, validazione 1.9917 (migliore 1.9917), 248 s
+[sens senza E2]  epoca 8: addestramento 2.1612, validazione 2.1366 (migliore 2.1366), 336 s
+[8/51 16.4 min] sens|ecocontatto|E2: {'epoca_scelta': 13, 'bpc_validazione': 1.95997, 'bpc_fuori': 1.96636} (981 s)
+[sens senza E1]  epoca 16: addestramento 2.1054, validazione 2.1301 (migliore 2.1300), 442 s
+[E2 p3 r0]  epoca 1: addestramento 2.6866, validazione 2.2643 (migliore 2.2643), 41 s
+[sens senza E3]  epoca 8: addestramento 2.1454, validazione 2.1525 (migliore 2.1263), 291 s
+[E2 p2 r0]  epoca 5: addestramento 2.0425, validazione 2.0684 (migliore 2.0684), 207 s
+[E2 p0 r0]  epoca 7: addestramento 1.9979, validazione 1.9460 (migliore 1.9460), 289 s
+[E2 p1 r0]  epoca 5: addestramento 2.0341, validazione 2.0410 (migliore 2.0410), 229 s
+[sens senza E2]  epoca 9: addestramento 2.1494, validazione 2.1476 (migliore 2.1366), 378 s
+[sens senza E1]  epoca 17: addestramento 2.0949, validazione 2.1245 (migliore 2.1245), 471 s
+[E2 p4 r0]  epoca 1: addestramento 2.6405, validazione 2.3773 (migliore 2.3773), 42 s
+[sens senza E3]  epoca 9: addestramento 2.1425, validazione 2.1344 (migliore 2.1263), 329 s
+[E2 p3 r0]  epoca 2: addestramento 2.2234, validazione 2.0935 (migliore 2.0935), 84 s
+[E2 p2 r0]  epoca 6: addestramento 2.0180, validazione 2.0315 (migliore 2.0315), 251 s
+[sens senza E1]  epoca 18: addestramento 2.0971, validazione 2.1278 (migliore 2.1245), 500 s
+[E2 p0 r0]  epoca 8: addestramento 1.9900, validazione 1.9614 (migliore 1.9460), 332 s
+[sens senza E2]  epoca 10: addestramento 2.1417, validazione 2.1217 (migliore 2.1217), 423 s
+[E2 p1 r0]  epoca 6: addestramento 1.9978, validazione 2.0401 (migliore 2.0401), 278 s
+[E2 p4 r0]  epoca 2: addestramento 2.1922, validazione 2.2728 (migliore 2.2728), 86 s
+[sens senza E3]  epoca 10: addestramento 2.1319, validazione 2.1149 (migliore 2.1149), 368 s
+[sens senza E1]  epoca 19: addestramento 2.0885, validazione 2.1286 (migliore 2.1245), 530 s
+[E2 p3 r0]  epoca 3: addestramento 2.1380, validazione 2.0785 (migliore 2.0785), 128 s
+[E2 p2 r0]  epoca 7: addestramento 1.9924, validazione 2.0343 (migliore 2.0315), 296 s
+[E2 p0 r0]  epoca 9: addestramento 1.9546, validazione 1.9507 (migliore 1.9460), 377 s
+[sens senza E2]  epoca 11: addestramento 2.1217, validazione 2.1396 (migliore 2.1217), 470 s
+[E2 p1 r0]  epoca 7: addestramento 1.9649, validazione 2.0033 (migliore 2.0033), 328 s
+[sens senza E1]  epoca 20: addestramento 2.0810, validazione 2.1617 (migliore 2.1245), 563 s
+[sens senza E3]  epoca 11: addestramento 2.1226, validazione 2.1065 (migliore 2.1065), 410 s
+[E2 p4 r0]  epoca 3: addestramento 2.1300, validazione 2.2469 (migliore 2.2469), 134 s
+[E2 p3 r0]  epoca 4: addestramento 2.1094, validazione 2.0892 (migliore 2.0785), 177 s
+[E2 p2 r0]  epoca 8: addestramento 1.9650, validazione 1.9989 (migliore 1.9989), 345 s
+[E2 p0 r0]  epoca 10: addestramento 1.9496, validazione 1.9224 (migliore 1.9224), 424 s
+[sens senza E1]  epoca 21: addestramento 2.0718, validazione 2.1540 (migliore 2.1245), 594 s
+[sens senza E2]  epoca 12: addestramento 2.1205, validazione 2.1208 (migliore 2.1208), 516 s
+[sens senza E3]  epoca 12: addestramento 2.1177, validazione 2.0945 (migliore 2.0945), 450 s
+[E2 p1 r0]  epoca 8: addestramento 1.9510, validazione 1.9750 (migliore 1.9750), 378 s
+[E2 p4 r0]  epoca 4: addestramento 2.0901, validazione 2.1911 (migliore 2.1911), 178 s
+[sens senza E1]  epoca 22: addestramento 2.0632, validazione 2.1663 (migliore 2.1245), 623 s
+[E2 p3 r0]  epoca 5: addestramento 2.0687, validazione 2.0399 (migliore 2.0399), 220 s
+[E2 p2 r0]  epoca 9: addestramento 1.9474, validazione 2.0175 (migliore 1.9989), 388 s
+[E2 p0 r0]  epoca 11: addestramento 1.9271, validazione 1.9291 (migliore 1.9224), 466 s
+[sens senza E3]  epoca 13: addestramento 2.1075, validazione 2.1349 (migliore 2.0945), 487 s
+[sens senza E2]  epoca 13: addestramento 2.1107, validazione 2.1366 (migliore 2.1208), 560 s
+[sens senza E1]  epoca 23: addestramento 2.0428, validazione 2.1613 (migliore 2.1245), 652 s
+[E2 p1 r0]  epoca 9: addestramento 1.9246, validazione 1.9887 (migliore 1.9750), 426 s
+[E2 p4 r0]  epoca 5: addestramento 2.0839, validazione 2.3598 (migliore 2.1911), 221 s
+[E2 p3 r0]  epoca 6: addestramento 2.0295, validazione 2.0239 (migliore 2.0239), 264 s
+[E2 p2 r0]  epoca 10: addestramento 1.9344, validazione 1.9705 (migliore 1.9705), 431 s
+[E2 p0 r0]  epoca 12: addestramento 1.9159, validazione 1.9429 (migliore 1.9224), 510 s
+[sens senza E1]  epoca 24: addestramento 2.0403, validazione 2.1534 (migliore 2.1245), 682 s
+[sens senza E3]  epoca 14: addestramento 2.1029, validazione 2.1227 (migliore 2.0945), 526 s
+[sens senza E2]  epoca 14: addestramento 2.1094, validazione 2.1056 (migliore 2.1056), 604 s
+[E2 p4 r0]  epoca 6: addestramento 2.0370, validazione 2.2272 (migliore 2.1911), 265 s
+[E2 p1 r0]  epoca 10: addestramento 1.9074, validazione 1.9664 (migliore 1.9664), 473 s
+[sens senza E1]  epoca 25: addestramento 2.0296, validazione 2.1570 (migliore 2.1245), 711 s
+[E2 p3 r0]  epoca 7: addestramento 2.0055, validazione 1.9918 (migliore 1.9918), 308 s
+[E2 p2 r0]  epoca 11: addestramento 1.9230, validazione 1.9716 (migliore 1.9705), 475 s
+[sens senza E3]  epoca 15: addestramento 2.1021, validazione 2.1076 (migliore 2.0945), 564 s
+[E2 p0 r0]  epoca 13: addestramento 1.8992, validazione 1.9272 (migliore 1.9224), 554 s
+[sens senza E2]  epoca 15: addestramento 2.1146, validazione 2.1138 (migliore 2.1056), 648 s
+[sens senza E1]  epoca 26: addestramento 2.0193, validazione 2.1967 (migliore 2.1245), 741 s
+[E2 p4 r0]  epoca 7: addestramento 2.0192, validazione 2.2193 (migliore 2.1911), 309 s
+[E2 p1 r0]  epoca 11: addestramento 1.8975, validazione 1.9920 (migliore 1.9664), 521 s
+[E2 p3 r0]  epoca 8: addestramento 1.9690, validazione 1.9737 (migliore 1.9737), 351 s
+[sens senza E3]  epoca 16: addestramento 2.0870, validazione 2.1125 (migliore 2.0945), 602 s
+[E2 p2 r0]  epoca 12: addestramento 1.9122, validazione 1.9560 (migliore 1.9560), 518 s
+[E2 p0 r0]  epoca 14: addestramento 1.8962, validazione 1.9128 (migliore 1.9128), 598 s
+[sens senza E1]  epoca 27: addestramento 2.0156, validazione 2.1765 (migliore 2.1245), 770 s
+[9/51 22.0 min] sens|senza|E1: {'epoca_scelta': 17, 'bpc_validazione': 2.1245, 'bpc_fuori': 2.10567} (778 s)
+[sens senza E2]  epoca 16: addestramento 2.0930, validazione 2.1215 (migliore 2.1056), 693 s
+[E2 p4 r0]  epoca 8: addestramento 1.9940, validazione 2.2053 (migliore 2.1911), 354 s
+[sens senza E3]  epoca 17: addestramento 2.0788, validazione 2.1035 (migliore 2.0945), 642 s
+[E2 p3 r0]  epoca 9: addestramento 1.9551, validazione 1.9360 (migliore 1.9360), 398 s
+[E2 p1 r0]  epoca 12: addestramento 1.9077, validazione 1.9595 (migliore 1.9595), 572 s
+[E2 p2 r0]  epoca 13: addestramento 1.8910, validazione 1.9806 (migliore 1.9560), 565 s
+[E2 p0 r0]  epoca 15: addestramento 1.8752, validazione 1.8983 (migliore 1.8983), 645 s
+[E2 p0 r1]  epoca 1: addestramento 2.6599, validazione 2.2555 (migliore 2.2555), 47 s
+[sens senza E2]  epoca 17: addestramento 2.0893, validazione 2.1334 (migliore 2.1056), 740 s
+[E2 p4 r0]  epoca 9: addestramento 1.9842, validazione 2.1771 (migliore 2.1771), 400 s
+[sens senza E3]  epoca 18: addestramento 2.0783, validazione 2.1088 (migliore 2.0945), 683 s
+[E2 p3 r0]  epoca 10: addestramento 1.9456, validazione 1.9284 (migliore 1.9284), 442 s
+[E2 p2 r0]  epoca 14: addestramento 1.8816, validazione 2.0155 (migliore 1.9560), 610 s
+[E2 p1 r0]  epoca 13: addestramento 1.8858, validazione 1.9468 (migliore 1.9468), 622 s
+[E2 p0 r0]  epoca 16: addestramento 1.8719, validazione 1.9024 (migliore 1.8983), 690 s
+[E2 p0 r1]  epoca 2: addestramento 2.1565, validazione 2.0749 (migliore 2.0749), 92 s
+[sens senza E2]  epoca 18: addestramento 2.0776, validazione 2.1382 (migliore 2.1056), 785 s
+[sens senza E3]  epoca 19: addestramento 2.0696, validazione 2.1139 (migliore 2.0945), 722 s
+[E2 p4 r0]  epoca 10: addestramento 1.9596, validazione 2.2353 (migliore 2.1771), 444 s
+[E2 p3 r0]  epoca 11: addestramento 1.9331, validazione 1.9453 (migliore 1.9284), 486 s
+[E2 p2 r0]  epoca 15: addestramento 1.8717, validazione 2.0022 (migliore 1.9560), 654 s
+[E2 p0 r0]  epoca 17: addestramento 1.8612, validazione 1.8965 (migliore 1.8965), 734 s
+[E2 p1 r0]  epoca 14: addestramento 1.8582, validazione 1.9504 (migliore 1.9468), 671 s
+[E2 p0 r1]  epoca 3: addestramento 2.0954, validazione 2.0536 (migliore 2.0536), 135 s
+[sens senza E2]  epoca 19: addestramento 2.0707, validazione 2.1328 (migliore 2.1056), 829 s
+[sens senza E3]  epoca 20: addestramento 2.0583, validazione 2.1143 (migliore 2.0945), 760 s
+[E2 p4 r0]  epoca 11: addestramento 1.9523, validazione 2.1964 (migliore 2.1771), 487 s
+[E2 p3 r0]  epoca 12: addestramento 1.9324, validazione 1.9232 (migliore 1.9232), 530 s
+[E2 p2 r0]  epoca 16: addestramento 1.8494, validazione 2.0007 (migliore 1.9560), 698 s
+[E2 p0 r0]  epoca 18: addestramento 1.8342, validazione 1.8831 (migliore 1.8831), 777 s
+[E2 p1 r0]  epoca 15: addestramento 1.8568, validazione 1.9801 (migliore 1.9468), 718 s
+[E2 p0 r1]  epoca 4: addestramento 2.0659, validazione 2.0714 (migliore 2.0536), 178 s
+[sens senza E3]  epoca 21: addestramento 2.0603, validazione 2.1401 (migliore 2.0945), 798 s
+[sens senza E2]  epoca 20: addestramento 2.0635, validazione 2.1562 (migliore 2.1056), 873 s
+[E2 p4 r0]  epoca 12: addestramento 1.9483, validazione 2.2174 (migliore 2.1771), 531 s
+[E2 p3 r0]  epoca 13: addestramento 1.9111, validazione 1.9247 (migliore 1.9232), 575 s
+[E2 p2 r0]  epoca 17: addestramento 1.8518, validazione 1.9699 (migliore 1.9560), 744 s
+[E2 p0 r0]  epoca 19: addestramento 1.8513, validazione 1.9162 (migliore 1.8831), 822 s
+[sens senza E3]  epoca 22: addestramento 2.0487, validazione 2.1305 (migliore 2.0945), 838 s
+[E2 p0 r1]  epoca 5: addestramento 2.0392, validazione 2.0677 (migliore 2.0536), 225 s
+[E2 p1 r0]  epoca 16: addestramento 1.8341, validazione 1.9341 (migliore 1.9341), 769 s
+[sens senza E2]  epoca 21: addestramento 2.0707, validazione 2.1493 (migliore 2.1056), 919 s
+[10/51 25.9 min] sens|senza|E3: {'epoca_scelta': 12, 'bpc_validazione': 2.09448, 'bpc_fuori': 2.07289} (849 s)
+[E2 p4 r0]  epoca 13: addestramento 1.9361, validazione 2.1688 (migliore 2.1688), 576 s
+[E2 p3 r0]  epoca 14: addestramento 1.8976, validazione 1.9274 (migliore 1.9232), 621 s
+[E2 p2 r0]  epoca 18: addestramento 1.8315, validazione 1.9821 (migliore 1.9560), 788 s
+[E2 p0 r0]  epoca 20: addestramento 1.8200, validazione 1.8931 (migliore 1.8831), 867 s
+[E2 p0 r1]  epoca 6: addestramento 2.0071, validazione 1.9710 (migliore 1.9710), 269 s
+[sens senza E2]  epoca 22: addestramento 2.0526, validazione 2.1536 (migliore 2.1056), 965 s
+[E2 p1 r0]  epoca 17: addestramento 1.8320, validazione 1.9707 (migliore 1.9341), 819 s
+[E2 p1 r1]  epoca 1: addestramento 2.5784, validazione 2.1866 (migliore 2.1866), 50 s
+[E2 p4 r0]  epoca 14: addestramento 1.9049, validazione 2.1892 (migliore 2.1688), 622 s
+[E2 p3 r0]  epoca 15: addestramento 1.8845, validazione 1.9336 (migliore 1.9232), 669 s
+[E2 p2 r0]  epoca 19: addestramento 1.8329, validazione 1.9821 (migliore 1.9560), 837 s
+[E2 p0 r0]  epoca 21: addestramento 1.8012, validazione 1.9114 (migliore 1.8831), 916 s
+[E2 p0 r1]  epoca 7: addestramento 1.9750, validazione 1.9203 (migliore 1.9203), 316 s
+[sens senza E2]  epoca 23: addestramento 2.0355, validazione 2.1610 (migliore 2.1056), 1014 s
+[E2 p1 r0]  epoca 18: addestramento 1.8286, validazione 1.9927 (migliore 1.9341), 872 s
+[E2 p4 r0]  epoca 15: addestramento 1.9050, validazione 2.1859 (migliore 2.1688), 670 s
+[E2 p1 r1]  epoca 2: addestramento 2.1626, validazione 2.1416 (migliore 2.1416), 102 s
+[E2 p3 r0]  epoca 16: addestramento 1.8760, validazione 1.9875 (migliore 1.9232), 717 s
+[E2 p2 r0]  epoca 20: addestramento 1.8193, validazione 2.0128 (migliore 1.9560), 886 s
+[E2 p0 r0]  epoca 22: addestramento 1.7920, validazione 1.9144 (migliore 1.8831), 964 s
+[E2 p0 r1]  epoca 8: addestramento 1.9422, validazione 1.9782 (migliore 1.9203), 366 s
+[sens senza E2]  epoca 24: addestramento 2.0277, validazione 2.1562 (migliore 2.1056), 1066 s
+[E2 p4 r0]  epoca 16: addestramento 1.8935, validazione 2.1901 (migliore 2.1688), 723 s
+[E2 p1 r0]  epoca 19: addestramento 1.8078, validazione 1.9765 (migliore 1.9341), 929 s
+[11/51 28.5 min] sens|senza|E2: {'epoca_scelta': 14, 'bpc_validazione': 2.10555, 'bpc_fuori': 2.0938} (1081 s)
+[E2 p1 r1]  epoca 3: addestramento 2.0672, validazione 2.1209 (migliore 2.1209), 161 s
+[E2 p3 r0]  epoca 17: addestramento 1.8662, validazione 1.9518 (migliore 1.9232), 769 s
+[E2 p2 r0]  epoca 21: addestramento 1.7868, validazione 1.9723 (migliore 1.9560), 938 s
+[E2 p0 r0]  epoca 23: addestramento 1.7793, validazione 1.9157 (migliore 1.8831), 1016 s
+[E2 p0 r1]  epoca 9: addestramento 1.9413, validazione 1.9679 (migliore 1.9203), 418 s
+[E2 p4 r0]  epoca 17: addestramento 1.8808, validazione 2.1623 (migliore 2.1623), 774 s
+[E2 p2 r1]  epoca 1: addestramento 2.6360, validazione 2.2728 (migliore 2.2728), 52 s
+[E2 p1 r0]  epoca 20: addestramento 1.8077, validazione 1.9890 (migliore 1.9341), 987 s
+[E2 p1 r1]  epoca 4: addestramento 2.0450, validazione 2.0654 (migliore 2.0654), 219 s
+[E2 p3 r0]  epoca 18: addestramento 1.8522, validazione 1.9286 (migliore 1.9232), 822 s
+[E2 p2 r0]  epoca 22: addestramento 1.7889, validazione 2.0155 (migliore 1.9560), 991 s
+[E2 p0 r0]  epoca 24: addestramento 1.7718, validazione 1.9224 (migliore 1.8831), 1068 s
+[E2 p0 r1]  epoca 10: addestramento 1.9202, validazione 1.8925 (migliore 1.8925), 472 s
+[E2 p4 r0]  epoca 18: addestramento 1.8693, validazione 2.1668 (migliore 2.1623), 828 s
+[12/51 30.3 min] addestra|E2|2|0: {'epoca_scelta': 12, 'bpc_validazione': 1.95603, 'bpc_fuori': 1.94898} (1027 s)
+[E2 p2 r1]  epoca 2: addestramento 2.1646, validazione 2.1514 (migliore 2.1514), 106 s
+[E2 p1 r0]  epoca 21: addestramento 1.8104, validazione 1.9725 (migliore 1.9341), 1048 s
+[E2 p3 r0]  epoca 19: addestramento 1.8528, validazione 1.9523 (migliore 1.9232), 877 s
+[E2 p1 r1]  epoca 5: addestramento 2.0144, validazione 2.0657 (migliore 2.0654), 279 s
+[E2 p0 r0]  epoca 25: addestramento 1.7588, validazione 1.9217 (migliore 1.8831), 1124 s
+[E2 p0 r1]  epoca 11: addestramento 1.9061, validazione 1.9389 (migliore 1.8925), 528 s
+[E2 p4 r0]  epoca 19: addestramento 1.8493, validazione 2.1678 (migliore 2.1623), 884 s
+[E2 p2 r1]  epoca 3: addestramento 2.1085, validazione 2.1658 (migliore 2.1514), 161 s
+[E2 p3 r1]  epoca 1: addestramento 2.6899, validazione 2.2067 (migliore 2.2067), 56 s
+[E2 p3 r0]  epoca 20: addestramento 1.8244, validazione 1.9523 (migliore 1.9232), 931 s
+[E2 p1 r0]  epoca 22: addestramento 1.7738, validazione 2.0027 (migliore 1.9341), 1107 s
+[E2 p1 r1]  epoca 6: addestramento 1.9941, validazione 2.0702 (migliore 2.0654), 338 s
+[E2 p0 r0]  epoca 26: addestramento 1.7527, validazione 1.9553 (migliore 1.8831), 1176 s
+[E2 p0 r1]  epoca 12: addestramento 1.8922, validazione 1.9214 (migliore 1.8925), 580 s
+[E2 p4 r0]  epoca 20: addestramento 1.8265, validazione 2.1932 (migliore 2.1623), 936 s
+[E2 p2 r1]  epoca 4: addestramento 2.0717, validazione 2.0579 (migliore 2.0579), 213 s
+[E2 p3 r1]  epoca 2: addestramento 2.1817, validazione 2.1028 (migliore 2.1028), 109 s
+[E2 p3 r0]  epoca 21: addestramento 1.8050, validazione 2.0361 (migliore 1.9232), 984 s
+[E2 p0 r0]  epoca 27: addestramento 1.7410, validazione 1.9453 (migliore 1.8831), 1228 s
+[E2 p1 r0]  epoca 23: addestramento 1.7792, validazione 1.9837 (migliore 1.9341), 1164 s
+[E2 p1 r1]  epoca 7: addestramento 1.9717, validazione 1.9944 (migliore 1.9944), 396 s
+[E2 p0 r1]  epoca 13: addestramento 1.8819, validazione 1.9097 (migliore 1.8925), 633 s
+[E2 p4 r0]  epoca 21: addestramento 1.8315, validazione 2.2403 (migliore 2.1623), 989 s
+[E2 p2 r1]  epoca 5: addestramento 2.0322, validazione 2.0503 (migliore 2.0503), 268 s
+[E2 p3 r1]  epoca 3: addestramento 2.1438, validazione 2.1221 (migliore 2.1028), 164 s
+[E2 p3 r0]  epoca 22: addestramento 1.8216, validazione 2.0006 (migliore 1.9232), 1038 s
+[E2 p0 r0]  epoca 28: addestramento 1.7373, validazione 1.9355 (migliore 1.8831), 1283 s
+[E2 p1 r0]  epoca 24: addestramento 1.7557, validazione 1.9900 (migliore 1.9341), 1225 s
+[E2 p0 r1]  epoca 14: addestramento 1.8729, validazione 1.9130 (migliore 1.8925), 687 s
+[E2 p1 r1]  epoca 8: addestramento 1.9513, validazione 2.0180 (migliore 1.9944), 457 s
+[13/51 33.8 min] addestra|E2|3|0: {'epoca_scelta': 12, 'bpc_validazione': 1.92318, 'bpc_fuori': 1.97875} (1075 s)
+[E2 p4 r0]  epoca 22: addestramento 1.8095, validazione 2.2435 (migliore 2.1623), 1043 s
+[14/51 33.9 min] addestra|E2|0|0: {'epoca_scelta': 18, 'bpc_validazione': 1.88313, 'bpc_fuori': 1.96127} (1317 s)
+[E2 p2 r1]  epoca 6: addestramento 1.9960, validazione 2.0777 (migliore 2.0503), 322 s
+[E2 p3 r1]  epoca 4: addestramento 2.0802, validazione 2.0183 (migliore 2.0183), 218 s
+[E2 p0 r1]  epoca 15: addestramento 1.8650, validazione 1.9020 (migliore 1.8925), 741 s
+[E2 p1 r0]  epoca 25: addestramento 1.7500, validazione 1.9866 (migliore 1.9341), 1284 s
+[E2 p1 r1]  epoca 9: addestramento 1.9110, validazione 1.9700 (migliore 1.9700), 516 s
+[E2 p4 r1]  epoca 1: addestramento 2.6661, validazione 2.3350 (migliore 2.3350), 51 s
+[E3 p0 r0]  epoca 1: addestramento 2.5830, validazione 2.1411 (migliore 2.1411), 46 s
+[E2 p4 r0]  epoca 23: addestramento 1.8144, validazione 2.1967 (migliore 2.1623), 1096 s
+[E2 p2 r1]  epoca 7: addestramento 1.9837, validazione 2.0458 (migliore 2.0458), 373 s
+[E2 p3 r1]  epoca 5: addestramento 2.0308, validazione 2.0128 (migliore 2.0128), 270 s
+[E2 p0 r1]  epoca 16: addestramento 1.8476, validazione 1.9077 (migliore 1.8925), 792 s
+[E2 p1 r0]  epoca 26: addestramento 1.7389, validazione 2.0034 (migliore 1.9341), 1341 s
+[E3 p0 r0]  epoca 2: addestramento 2.1778, validazione 2.0510 (migliore 2.0510), 91 s
+[E2 p1 r1]  epoca 10: addestramento 1.9137, validazione 1.9792 (migliore 1.9700), 573 s
+[E2 p4 r1]  epoca 2: addestramento 2.2011, validazione 2.2914 (migliore 2.2914), 105 s
+[E2 p4 r0]  epoca 24: addestramento 1.8030, validazione 2.2052 (migliore 2.1623), 1148 s
+[E2 p2 r1]  epoca 8: addestramento 1.9635, validazione 2.0240 (migliore 2.0240), 428 s
+[E2 p3 r1]  epoca 6: addestramento 2.0012, validazione 1.9520 (migliore 1.9520), 324 s
+[15/51 35.9 min] addestra|E2|1|0: {'epoca_scelta': 16, 'bpc_validazione': 1.93405, 'bpc_fuori': 2.03199} (1377 s)
+[E2 p0 r1]  epoca 17: addestramento 1.8212, validazione 1.8998 (migliore 1.8925), 851 s
+[E3 p0 r0]  epoca 3: addestramento 2.1111, validazione 2.0589 (migliore 2.0510), 146 s
+[E2 p1 r1]  epoca 11: addestramento 1.9137, validazione 2.0075 (migliore 1.9700), 645 s
+[E2 p4 r1]  epoca 3: addestramento 2.1070, validazione 2.5911 (migliore 2.2914), 171 s
+[E2 p4 r0]  epoca 25: addestramento 1.7894, validazione 2.2370 (migliore 2.1623), 1215 s
+[E2 p2 r1]  epoca 9: addestramento 1.9521, validazione 2.0032 (migliore 2.0032), 498 s
+[E2 p3 r1]  epoca 7: addestramento 1.9705, validazione 1.9369 (migliore 1.9369), 393 s
+[E3 p1 r0]  epoca 1: addestramento 2.6223, validazione 2.2556 (migliore 2.2556), 74 s
+[E3 p0 r0]  epoca 4: addestramento 2.0720, validazione 2.0181 (migliore 2.0181), 211 s
+[E2 p0 r1]  epoca 18: addestramento 1.8191, validazione 1.9528 (migliore 1.8925), 923 s
+[E2 p4 r1]  epoca 4: addestramento 2.1060, validazione 2.3187 (migliore 2.2914), 242 s
+[E2 p4 r0]  epoca 26: addestramento 1.7693, validazione 2.2803 (migliore 2.1623), 1288 s
+[E2 p1 r1]  epoca 12: addestramento 1.8961, validazione 1.9574 (migliore 1.9574), 728 s
+[E2 p2 r1]  epoca 10: addestramento 1.9291, validazione 1.9586 (migliore 1.9586), 570 s
+[E2 p3 r1]  epoca 8: addestramento 1.9592, validazione 1.9364 (migliore 1.9364), 470 s
+[E3 p1 r0]  epoca 2: addestramento 2.1757, validazione 2.1707 (migliore 2.1707), 146 s
+[E3 p0 r0]  epoca 5: addestramento 2.0530, validazione 2.0264 (migliore 2.0181), 273 s
+[E2 p0 r1]  epoca 19: addestramento 1.8144, validazione 1.9001 (migliore 1.8925), 996 s
+[E2 p4 r1]  epoca 5: addestramento 2.0818, validazione 2.2719 (migliore 2.2719), 312 s
+[E2 p4 r0]  epoca 27: addestramento 1.7758, validazione 2.2403 (migliore 2.1623), 1358 s
+[E2 p2 r1]  epoca 11: addestramento 1.9101, validazione 1.9607 (migliore 1.9586), 638 s
+[E2 p3 r1]  epoca 9: addestramento 1.9416, validazione 1.9093 (migliore 1.9093), 539 s
+[E2 p1 r1]  epoca 13: addestramento 1.8848, validazione 1.9541 (migliore 1.9541), 806 s
+[E3 p0 r0]  epoca 6: addestramento 2.0090, validazione 1.9615 (migliore 1.9615), 335 s
+[E3 p1 r0]  epoca 3: addestramento 2.1139, validazione 2.0879 (migliore 2.0879), 212 s
+[E2 p0 r1]  epoca 20: addestramento 1.7921, validazione 1.9412 (migliore 1.8925), 1066 s
+[16/51 39.9 min] addestra|E2|4|0: {'epoca_scelta': 17, 'bpc_validazione': 2.16229, 'bpc_fuori': 1.85694} (1407 s)
+[E2 p4 r1]  epoca 6: addestramento 2.0408, validazione 2.2048 (migliore 2.2048), 381 s
+[E2 p2 r1]  epoca 12: addestramento 1.8978, validazione 1.9777 (migliore 1.9586), 713 s
+[E3 p0 r0]  epoca 7: addestramento 1.9873, validazione 1.9457 (migliore 1.9457), 397 s
+[17/51 40.5 min] addestra|E2|0|1: {'epoca_scelta': 10, 'bpc_validazione': 1.89253, 'bpc_fuori': 1.97166} (1112 s)
+[E2 p3 r1]  epoca 10: addestramento 1.9418, validazione 1.9269 (migliore 1.9093), 615 s
+[E3 p1 r0]  epoca 4: addestramento 2.0524, validazione 2.0946 (migliore 2.0879), 281 s
+[E2 p1 r1]  epoca 14: addestramento 1.8715, validazione 1.9298 (migliore 1.9298), 886 s
+[E3 p2 r0]  epoca 1: addestramento 2.6442, validazione 2.3434 (migliore 2.3434), 64 s
+[E2 p4 r1]  epoca 7: addestramento 1.9928, validazione 2.2365 (migliore 2.2048), 456 s
+[E3 p0 r0]  epoca 8: addestramento 1.9798, validazione 1.9709 (migliore 1.9457), 461 s
+[E3 p3 r0]  epoca 1: addestramento 2.5523, validazione 2.2202 (migliore 2.2202), 66 s
+[E2 p2 r1]  epoca 13: addestramento 1.8952, validazione 1.9625 (migliore 1.9586), 788 s
+[E2 p3 r1]  epoca 11: addestramento 1.9091, validazione 1.9925 (migliore 1.9093), 688 s
+[E3 p1 r0]  epoca 5: addestramento 2.0175, validazione 2.0335 (migliore 2.0335), 355 s
+[E3 p2 r0]  epoca 2: addestramento 2.1793, validazione 2.2063 (migliore 2.2063), 127 s
+[E2 p1 r1]  epoca 15: addestramento 1.8510, validazione 1.9523 (migliore 1.9298), 971 s
+[E3 p0 r0]  epoca 9: addestramento 1.9648, validazione 1.9500 (migliore 1.9457), 528 s
+[E2 p4 r1]  epoca 8: addestramento 1.9952, validazione 2.1974 (migliore 2.1974), 535 s
+[E3 p3 r0]  epoca 2: addestramento 2.1934, validazione 2.1126 (migliore 2.1126), 142 s
+[E2 p2 r1]  epoca 14: addestramento 1.9014, validazione 1.9483 (migliore 1.9483), 863 s
+[E2 p3 r1]  epoca 12: addestramento 1.9169, validazione 1.9109 (migliore 1.9093), 758 s
+[E3 p1 r0]  epoca 6: addestramento 2.0065, validazione 2.0008 (migliore 2.0008), 426 s
+[E3 p2 r0]  epoca 3: addestramento 2.1071, validazione 2.1491 (migliore 2.1491), 195 s
+[E2 p1 r1]  epoca 16: addestramento 1.8498, validazione 1.9547 (migliore 1.9298), 1046 s
+[E3 p0 r0]  epoca 10: addestramento 1.9591, validazione 1.9840 (migliore 1.9457), 594 s
+[E2 p4 r1]  epoca 9: addestramento 1.9689, validazione 2.1456 (migliore 2.1456), 609 s
+[E3 p3 r0]  epoca 3: addestramento 2.1470, validazione 2.0575 (migliore 2.0575), 211 s
+[E2 p2 r1]  epoca 15: addestramento 1.8720, validazione 1.9732 (migliore 1.9483), 940 s
+[E2 p3 r1]  epoca 13: addestramento 1.8943, validazione 1.9191 (migliore 1.9093), 836 s
+[E3 p1 r0]  epoca 7: addestramento 1.9581, validazione 1.9842 (migliore 1.9842), 498 s
+[E3 p2 r0]  epoca 4: addestramento 2.0942, validazione 2.0546 (migliore 2.0546), 264 s
+[E2 p1 r1]  epoca 17: addestramento 1.8339, validazione 1.9672 (migliore 1.9298), 1125 s
+[E3 p0 r0]  epoca 11: addestramento 1.9371, validazione 1.9552 (migliore 1.9457), 655 s
+[E3 p3 r0]  epoca 4: addestramento 2.0895, validazione 2.0401 (migliore 2.0401), 272 s
+[E2 p4 r1]  epoca 10: addestramento 1.9590, validazione 2.1636 (migliore 2.1456), 680 s
+[E3 p2 r0]  epoca 5: addestramento 2.0559, validazione 2.1101 (migliore 2.0546), 329 s
+[E2 p2 r1]  epoca 16: addestramento 1.8623, validazione 1.9528 (migliore 1.9483), 1015 s
+[E2 p3 r1]  epoca 14: addestramento 1.8921, validazione 1.9538 (migliore 1.9093), 910 s
+[E3 p1 r0]  epoca 8: addestramento 1.9409, validazione 2.0008 (migliore 1.9842), 571 s
+[E3 p0 r0]  epoca 12: addestramento 1.9121, validazione 1.9306 (migliore 1.9306), 719 s
+[E2 p1 r1]  epoca 18: addestramento 1.8072, validazione 2.0596 (migliore 1.9298), 1202 s
+[E3 p3 r0]  epoca 5: addestramento 2.0600, validazione 2.0227 (migliore 2.0227), 338 s
+[E2 p4 r1]  epoca 11: addestramento 1.9413, validazione 2.1356 (migliore 2.1356), 756 s
+[E3 p2 r0]  epoca 6: addestramento 2.0239, validazione 2.0335 (migliore 2.0335), 393 s
+[E2 p3 r1]  epoca 15: addestramento 1.8808, validazione 1.9391 (migliore 1.9093), 984 s
+[E3 p1 r0]  epoca 9: addestramento 1.9329, validazione 2.0267 (migliore 1.9842), 647 s
+[E2 p2 r1]  epoca 17: addestramento 1.8404, validazione 1.9804 (migliore 1.9483), 1096 s
+[E3 p0 r0]  epoca 13: addestramento 1.8861, validazione 1.8925 (migliore 1.8925), 784 s
+[E2 p1 r1]  epoca 19: addestramento 1.8112, validazione 2.0422 (migliore 1.9298), 1283 s
+[E3 p3 r0]  epoca 6: addestramento 2.0266, validazione 1.9883 (migliore 1.9883), 406 s
+[E3 p2 r0]  epoca 7: addestramento 1.9882, validazione 2.0106 (migliore 2.0106), 457 s
+[E2 p4 r1]  epoca 12: addestramento 1.9225, validazione 2.1687 (migliore 2.1356), 827 s
+[E2 p3 r1]  epoca 16: addestramento 1.8645, validazione 1.9375 (migliore 1.9093), 1055 s
+[E3 p1 r0]  epoca 10: addestramento 1.9174, validazione 2.0045 (migliore 1.9842), 719 s
+[E3 p0 r0]  epoca 14: addestramento 1.9087, validazione 1.8786 (migliore 1.8786), 844 s
+[E2 p2 r1]  epoca 18: addestramento 1.8290, validazione 1.9743 (migliore 1.9483), 1170 s
+[E3 p3 r0]  epoca 7: addestramento 2.0067, validazione 1.9875 (migliore 1.9875), 471 s
+[E2 p1 r1]  epoca 20: addestramento 1.8143, validazione 1.9977 (migliore 1.9298), 1356 s
+[E3 p2 r0]  epoca 8: addestramento 1.9790, validazione 2.0753 (migliore 2.0106), 520 s
+[E2 p4 r1]  epoca 13: addestramento 1.9191, validazione 2.1829 (migliore 2.1356), 891 s
+[E3 p0 r0]  epoca 15: addestramento 1.8731, validazione 1.9059 (migliore 1.8786), 898 s
+[E2 p3 r1]  epoca 17: addestramento 1.8622, validazione 1.9247 (migliore 1.9093), 1115 s
+[E3 p1 r0]  epoca 11: addestramento 1.9185, validazione 1.9595 (migliore 1.9595), 777 s
+[E2 p2 r1]  epoca 19: addestramento 1.8112, validazione 1.9942 (migliore 1.9483), 1228 s
+[E3 p3 r0]  epoca 8: addestramento 1.9939, validazione 1.9465 (migliore 1.9465), 519 s
+[E3 p2 r0]  epoca 9: addestramento 1.9546, validazione 1.9859 (migliore 1.9859), 568 s
+[E2 p1 r1]  epoca 21: addestramento 1.7868, validazione 1.9747 (migliore 1.9298), 1416 s
+[E2 p4 r1]  epoca 14: addestramento 1.9026, validazione 2.1649 (migliore 2.1356), 946 s
+[E3 p0 r0]  epoca 16: addestramento 1.8552, validazione 1.8902 (migliore 1.8786), 946 s
+[E2 p3 r1]  epoca 18: addestramento 1.8234, validazione 1.9574 (migliore 1.9093), 1173 s
+[E3 p1 r0]  epoca 12: addestramento 1.8921, validazione 2.0227 (migliore 1.9595), 833 s
+[E2 p2 r1]  epoca 20: addestramento 1.8069, validazione 1.9852 (migliore 1.9483), 1285 s
+[E3 p3 r0]  epoca 9: addestramento 1.9620, validazione 1.9357 (migliore 1.9357), 571 s
+[E3 p2 r0]  epoca 10: addestramento 1.9460, validazione 1.9695 (migliore 1.9695), 620 s
+[E3 p0 r0]  epoca 17: addestramento 1.8455, validazione 1.8936 (migliore 1.8786), 997 s
+[E2 p4 r1]  epoca 15: addestramento 1.9025, validazione 2.1432 (migliore 2.1356), 1004 s
+[E2 p1 r1]  epoca 22: addestramento 1.7720, validazione 1.9787 (migliore 1.9298), 1481 s
+[E3 p1 r0]  epoca 13: addestramento 1.8727, validazione 1.9643 (migliore 1.9595), 891 s
+[E2 p3 r1]  epoca 19: addestramento 1.8327, validazione 1.9255 (migliore 1.9093), 1231 s
+[E2 p2 r1]  epoca 21: addestramento 1.7878, validazione 1.9847 (migliore 1.9483), 1343 s
+[E3 p3 r0]  epoca 10: addestramento 1.9327, validazione 1.9370 (migliore 1.9357), 623 s
+[E3 p2 r0]  epoca 11: addestramento 1.9230, validazione 1.9616 (migliore 1.9616), 671 s
+[E3 p0 r0]  epoca 18: addestramento 1.8442, validazione 1.9208 (migliore 1.8786), 1050 s
+[18/51 51.5 min] addestra|E2|3|1: {'epoca_scelta': 9, 'bpc_validazione': 1.90927, 'bpc_fuori': 1.96331} (1272 s)
+[E2 p4 r1]  epoca 16: addestramento 1.8799, validazione 2.1754 (migliore 2.1356), 1064 s
+[E2 p1 r1]  epoca 23: addestramento 1.7641, validazione 1.9967 (migliore 1.9298), 1547 s
+[E3 p1 r0]  epoca 14: addestramento 1.8697, validazione 2.0261 (migliore 1.9595), 951 s
+[E3 p3 r0]  epoca 11: addestramento 1.9322, validazione 1.9282 (migliore 1.9282), 677 s
+[E2 p2 r1]  epoca 22: addestramento 1.7906, validazione 2.0354 (migliore 1.9483), 1404 s
+[E3 p2 r0]  epoca 12: addestramento 1.9164, validazione 1.9636 (migliore 1.9616), 724 s
+[E3 p0 r0]  epoca 19: addestramento 1.8411, validazione 1.9245 (migliore 1.8786), 1102 s
+[E3 p4 r0]  epoca 1: addestramento 2.6580, validazione 2.2925 (migliore 2.2925), 52 s
+[E2 p4 r1]  epoca 17: addestramento 1.8741, validazione 2.1663 (migliore 2.1356), 1122 s
+[E3 p3 r0]  epoca 12: addestramento 1.9155, validazione 1.9082 (migliore 1.9082), 729 s
+[E2 p1 r1]  epoca 24: addestramento 1.7455, validazione 1.9881 (migliore 1.9298), 1610 s
+[E3 p1 r0]  epoca 15: addestramento 1.8647, validazione 1.9579 (migliore 1.9579), 1007 s
+[E3 p2 r0]  epoca 13: addestramento 1.9085, validazione 1.9758 (migliore 1.9616), 775 s
+[E2 p2 r1]  epoca 23: addestramento 1.7781, validazione 2.0443 (migliore 1.9483), 1461 s
+[E3 p0 r0]  epoca 20: addestramento 1.8254, validazione 1.9075 (migliore 1.8786), 1152 s
+[E3 p4 r0]  epoca 2: addestramento 2.1683, validazione 2.4845 (migliore 2.2925), 103 s
+[19/51 53.3 min] addestra|E2|1|1: {'epoca_scelta': 14, 'bpc_validazione': 1.92976, 'bpc_fuori': 2.00535} (1646 s)
+[E2 p4 r1]  epoca 18: addestramento 1.8673, validazione 2.2307 (migliore 2.1356), 1179 s
+[E3 p3 r0]  epoca 13: addestramento 1.9165, validazione 1.9627 (migliore 1.9082), 780 s
+[E3 p2 r0]  epoca 14: addestramento 1.8969, validazione 1.9625 (migliore 1.9616), 825 s
+[E3 p1 r0]  epoca 16: addestramento 1.8411, validazione 1.9729 (migliore 1.9579), 1063 s
+[E2 p2 r1]  epoca 24: addestramento 1.7618, validazione 2.0286 (migliore 1.9483), 1517 s
+[E3 p0 r0]  epoca 21: addestramento 1.8091, validazione 1.9193 (migliore 1.8786), 1201 s
+[E3 p4 r0]  epoca 3: addestramento 2.1250, validazione 2.2574 (migliore 2.2574), 154 s
+[E3 p0 r1]  epoca 1: addestramento 2.6288, validazione 2.1964 (migliore 2.1964), 50 s
+[E2 p4 r1]  epoca 19: addestramento 1.8568, validazione 2.2200 (migliore 2.1356), 1237 s
+[E3 p3 r0]  epoca 14: addestramento 1.8890, validazione 1.9322 (migliore 1.9082), 832 s
+[20/51 54.4 min] addestra|E2|2|1: {'epoca_scelta': 14, 'bpc_validazione': 1.94834, 'bpc_fuori': 1.95653} (1555 s)
+[E3 p2 r0]  epoca 15: addestramento 1.8696, validazione 1.9751 (migliore 1.9616), 876 s
+[E3 p1 r0]  epoca 17: addestramento 1.8239, validazione 2.0478 (migliore 1.9579), 1120 s
+[E3 p0 r0]  epoca 22: addestramento 1.7888, validazione 1.9440 (migliore 1.8786), 1252 s
+[E3 p4 r0]  epoca 4: addestramento 2.0910, validazione 2.2366 (migliore 2.2366), 206 s
+[E3 p0 r1]  epoca 2: addestramento 2.1815, validazione 2.1013 (migliore 2.1013), 101 s
+[E3 p3 r0]  epoca 15: addestramento 1.8746, validazione 1.9107 (migliore 1.9082), 883 s
+[E3 p2 r0]  epoca 16: addestramento 1.8538, validazione 1.9887 (migliore 1.9616), 926 s
+[E2 p4 r1]  epoca 20: addestramento 1.8395, validazione 2.2184 (migliore 2.1356), 1294 s
+[E3 p1 r1]  epoca 1: addestramento 2.6275, validazione 2.3352 (migliore 2.3352), 56 s
+[E3 p1 r0]  epoca 18: addestramento 1.8326, validazione 1.9486 (migliore 1.9486), 1175 s
+[E3 p0 r0]  epoca 23: addestramento 1.7871, validazione 1.9414 (migliore 1.8786), 1301 s
+[E3 p4 r0]  epoca 5: addestramento 2.0514, validazione 2.1944 (migliore 2.1944), 256 s
+[E3 p0 r1]  epoca 3: addestramento 2.1142, validazione 2.0958 (migliore 2.0958), 151 s
+[E3 p3 r0]  epoca 16: addestramento 1.8723, validazione 1.9269 (migliore 1.9082), 933 s
+[E3 p2 r0]  epoca 17: addestramento 1.8446, validazione 1.9672 (migliore 1.9616), 977 s
+[E3 p1 r1]  epoca 2: addestramento 2.1698, validazione 2.1880 (migliore 2.1880), 112 s
+[E2 p4 r1]  epoca 21: addestramento 1.8272, validazione 2.2042 (migliore 2.1356), 1351 s
+[E3 p0 r0]  epoca 24: addestramento 1.7619, validazione 1.9207 (migliore 1.8786), 1351 s
+[E3 p1 r0]  epoca 19: addestramento 1.8065, validazione 1.9943 (migliore 1.9486), 1231 s
+[E3 p4 r0]  epoca 6: addestramento 2.0256, validazione 2.2296 (migliore 2.1944), 308 s
+[E3 p0 r1]  epoca 4: addestramento 2.0677, validazione 2.0399 (migliore 2.0399), 203 s
+[21/51 56.9 min] addestra|E3|0|0: {'epoca_scelta': 14, 'bpc_validazione': 1.87862, 'bpc_fuori': 1.95575} (1379 s)
+[22/51 57.0 min] addestra|E2|4|1: {'epoca_scelta': 11, 'bpc_validazione': 2.13562, 'bpc_fuori': 1.83302} (1390 s)
+[E3 p3 r0]  epoca 17: addestramento 1.8611, validazione 1.9570 (migliore 1.9082), 986 s
+[E3 p2 r0]  epoca 18: addestramento 1.8368, validazione 2.0049 (migliore 1.9616), 1027 s
+[E3 p1 r1]  epoca 3: addestramento 2.1283, validazione 2.1250 (migliore 2.1250), 168 s
+[E3 p1 r0]  epoca 20: addestramento 1.8081, validazione 1.9601 (migliore 1.9486), 1287 s
+[E3 p4 r0]  epoca 7: addestramento 2.0096, validazione 2.2664 (migliore 2.1944), 358 s
+[E3 p0 r1]  epoca 5: addestramento 2.0389, validazione 1.9944 (migliore 1.9944), 252 s
+[E3 p2 r1]  epoca 1: addestramento 2.5786, validazione 2.2332 (migliore 2.2332), 49 s
+[E3 p3 r1]  epoca 1: addestramento 2.7658, validazione 2.2288 (migliore 2.2288), 49 s
+[E3 p3 r0]  epoca 18: addestramento 1.8485, validazione 1.9728 (migliore 1.9082), 1035 s
+[E3 p2 r0]  epoca 19: addestramento 1.8287, validazione 1.9538 (migliore 1.9538), 1075 s
+[E3 p1 r1]  epoca 4: addestramento 2.0840, validazione 2.1557 (migliore 2.1250), 219 s
+[E3 p4 r0]  epoca 8: addestramento 2.0043, validazione 2.1625 (migliore 2.1625), 402 s
+[E3 p1 r0]  epoca 21: addestramento 1.7853, validazione 1.9998 (migliore 1.9486), 1337 s
+[E3 p0 r1]  epoca 6: addestramento 1.9995, validazione 1.9823 (migliore 1.9823), 296 s
+[E3 p2 r1]  epoca 2: addestramento 2.1544, validazione 2.2072 (migliore 2.2072), 92 s
+[E3 p3 r1]  epoca 2: addestramento 2.1776, validazione 2.2198 (migliore 2.2198), 91 s
+[E3 p3 r0]  epoca 19: addestramento 1.8434, validazione 1.9541 (migliore 1.9082), 1076 s
+[E3 p2 r0]  epoca 20: addestramento 1.8100, validazione 1.9880 (migliore 1.9538), 1117 s
+[E3 p1 r1]  epoca 5: addestramento 2.0332, validazione 2.0699 (migliore 2.0699), 266 s
+[E3 p4 r0]  epoca 9: addestramento 1.9657, validazione 2.2532 (migliore 2.1625), 444 s
+[E3 p0 r1]  epoca 7: addestramento 1.9813, validazione 1.9409 (migliore 1.9409), 338 s
+[E3 p1 r0]  epoca 22: addestramento 1.7930, validazione 1.9701 (migliore 1.9486), 1382 s
+[E3 p2 r1]  epoca 3: addestramento 2.1071, validazione 2.1533 (migliore 2.1533), 134 s
+[E3 p3 r1]  epoca 3: addestramento 2.1529, validazione 2.0996 (migliore 2.0996), 134 s
+[E3 p3 r0]  epoca 20: addestramento 1.8278, validazione 1.9430 (migliore 1.9082), 1119 s
+[E3 p2 r0]  epoca 21: addestramento 1.7929, validazione 2.0220 (migliore 1.9538), 1159 s
+[E3 p4 r0]  epoca 10: addestramento 1.9707, validazione 2.1877 (migliore 2.1625), 487 s
+[E3 p0 r1]  epoca 8: addestramento 1.9548, validazione 1.9126 (migliore 1.9126), 380 s
+[E3 p1 r1]  epoca 6: addestramento 1.9977, validazione 2.0702 (migliore 2.0699), 313 s
+[E3 p1 r0]  epoca 23: addestramento 1.7776, validazione 2.0019 (migliore 1.9486), 1430 s
+[E3 p2 r1]  epoca 4: addestramento 2.0463, validazione 2.0777 (migliore 2.0777), 176 s
+[E3 p3 r0]  epoca 21: addestramento 1.8086, validazione 1.9384 (migliore 1.9082), 1161 s
+[E3 p2 r0]  epoca 22: addestramento 1.7935, validazione 2.0073 (migliore 1.9538), 1202 s
+[E3 p3 r1]  epoca 4: addestramento 2.1146, validazione 2.0280 (migliore 2.0280), 178 s
+[E3 p4 r0]  epoca 11: addestramento 1.9428, validazione 2.1541 (migliore 2.1541), 534 s
+[E3 p0 r1]  epoca 9: addestramento 1.9383, validazione 1.8947 (migliore 1.8947), 427 s
+[E3 p1 r1]  epoca 7: addestramento 1.9793, validazione 1.9812 (migliore 1.9812), 365 s
+[E3 p2 r1]  epoca 5: addestramento 2.0300, validazione 2.0651 (migliore 2.0651), 225 s
+[E3 p1 r0]  epoca 24: addestramento 1.7577, validazione 1.9806 (migliore 1.9486), 1484 s
+[E3 p3 r0]  epoca 22: addestramento 1.8011, validazione 1.9513 (migliore 1.9082), 1210 s
+[E3 p2 r0]  epoca 23: addestramento 1.7710, validazione 2.0496 (migliore 1.9538), 1250 s
+[E3 p3 r1]  epoca 5: addestramento 2.0593, validazione 2.0082 (migliore 2.0082), 226 s
+[23/51 61.2 min] addestra|E3|3|0: {'epoca_scelta': 12, 'bpc_validazione': 1.90823, 'bpc_fuori': 1.96159} (1237 s)
+[E3 p4 r0]  epoca 12: addestramento 1.9294, validazione 2.1873 (migliore 2.1541), 582 s
+[E3 p0 r1]  epoca 10: addestramento 1.9321, validazione 1.9012 (migliore 1.8947), 474 s
+[E3 p1 r1]  epoca 8: addestramento 1.9396, validazione 1.9909 (migliore 1.9812), 417 s
+[E3 p2 r1]  epoca 6: addestramento 2.0141, validazione 2.0438 (migliore 2.0438), 271 s
+[E3 p2 r0]  epoca 24: addestramento 1.7836, validazione 1.9956 (migliore 1.9538), 1296 s
+[E3 p3 r1]  epoca 6: addestramento 2.0070, validazione 1.9642 (migliore 1.9642), 272 s
+[E3 p1 r0]  epoca 25: addestramento 1.7520, validazione 2.0017 (migliore 1.9486), 1535 s
+[E3 p4 r1]  epoca 1: addestramento 2.6877, validazione 2.3984 (migliore 2.3984), 43 s
+[E3 p0 r1]  epoca 11: addestramento 1.9130, validazione 1.9047 (migliore 1.8947), 517 s
+[E3 p4 r0]  epoca 13: addestramento 1.9322, validazione 2.1600 (migliore 2.1541), 626 s
+[E3 p2 r1]  epoca 7: addestramento 1.9886, validazione 2.0512 (migliore 2.0438), 316 s
+[E3 p1 r1]  epoca 9: addestramento 1.9426, validazione 1.9607 (migliore 1.9607), 465 s
+[E3 p2 r0]  epoca 25: addestramento 1.7621, validazione 2.0619 (migliore 1.9538), 1340 s
+[E3 p3 r1]  epoca 7: addestramento 1.9844, validazione 2.0697 (migliore 1.9642), 316 s
+[E3 p1 r0]  epoca 26: addestramento 1.7314, validazione 2.0454 (migliore 1.9486), 1583 s
+[E3 p4 r1]  epoca 2: addestramento 2.1774, validazione 2.4230 (migliore 2.3984), 87 s
+[E3 p0 r1]  epoca 12: addestramento 1.8966, validazione 1.8927 (migliore 1.8927), 560 s
+[E3 p4 r0]  epoca 14: addestramento 1.9107, validazione 2.1389 (migliore 2.1389), 670 s
+[E3 p2 r1]  epoca 8: addestramento 1.9733, validazione 2.0334 (migliore 2.0334), 359 s
+[E3 p2 r0]  epoca 26: addestramento 1.7508, validazione 2.0502 (migliore 1.9538), 1383 s
+[E3 p3 r1]  epoca 8: addestramento 1.9883, validazione 1.9648 (migliore 1.9642), 359 s
+[E3 p1 r1]  epoca 10: addestramento 1.9104, validazione 1.9542 (migliore 1.9542), 512 s
+[E3 p1 r0]  epoca 27: addestramento 1.7348, validazione 2.0076 (migliore 1.9486), 1630 s
+[E3 p4 r1]  epoca 3: addestramento 2.1274, validazione 2.3393 (migliore 2.3393), 129 s
+[E3 p0 r1]  epoca 13: addestramento 1.8960, validazione 1.8833 (migliore 1.8833), 601 s
+[E3 p4 r0]  epoca 15: addestramento 1.9080, validazione 2.1454 (migliore 2.1389), 712 s
+[E3 p2 r1]  epoca 9: addestramento 1.9575, validazione 2.0261 (migliore 2.0261), 401 s
+[E3 p2 r0]  epoca 27: addestramento 1.7233, validazione 2.0557 (migliore 1.9538), 1424 s
+[E3 p3 r1]  epoca 9: addestramento 1.9467, validazione 1.9439 (migliore 1.9439), 401 s
+[E3 p1 r1]  epoca 11: addestramento 1.9010, validazione 1.9895 (migliore 1.9542), 558 s
+[E3 p1 r0]  epoca 28: addestramento 1.7263, validazione 2.0132 (migliore 1.9486), 1675 s
+[E3 p4 r1]  epoca 4: addestramento 2.0910, validazione 2.3494 (migliore 2.3393), 171 s
+[E3 p0 r1]  epoca 14: addestramento 1.8837, validazione 1.8972 (migliore 1.8833), 642 s
+[E3 p4 r0]  epoca 16: addestramento 1.8910, validazione 2.1726 (migliore 2.1389), 753 s
+[24/51 64.2 min] addestra|E3|1|0: {'epoca_scelta': 18, 'bpc_validazione': 1.94865, 'bpc_fuori': 2.03351} (1697 s)
+[E3 p2 r1]  epoca 10: addestramento 1.9419, validazione 1.9720 (migliore 1.9720), 441 s
+[E3 p2 r0]  epoca 28: addestramento 1.7038, validazione 2.0633 (migliore 1.9538), 1463 s
+[E3 p3 r1]  epoca 10: addestramento 1.9320, validazione 1.9437 (migliore 1.9437), 440 s
+[E3 p1 r1]  epoca 12: addestramento 1.8893, validazione 1.9445 (migliore 1.9445), 601 s
+[E3 p0 r1]  epoca 15: addestramento 1.8583, validazione 1.9008 (migliore 1.8833), 680 s
+[E3 p4 r1]  epoca 5: addestramento 2.0412, validazione 2.2290 (migliore 2.2290), 209 s
+[E3 p4 r0]  epoca 17: addestramento 1.8839, validazione 2.1425 (migliore 2.1389), 792 s
+[E0 p0 r0]  epoca 1: addestramento 2.6316, validazione 2.2565 (migliore 2.2565), 39 s
+[E3 p2 r1]  epoca 11: addestramento 1.9311, validazione 1.9756 (migliore 1.9720), 481 s
+[E3 p2 r0]  epoca 29: addestramento 1.6975, validazione 2.0536 (migliore 1.9538), 1502 s
+[E3 p3 r1]  epoca 11: addestramento 1.9167, validazione 1.9202 (migliore 1.9202), 481 s
+[E3 p1 r1]  epoca 13: addestramento 1.8793, validazione 1.9481 (migliore 1.9445), 648 s
+[25/51 65.3 min] addestra|E3|2|0: {'epoca_scelta': 19, 'bpc_validazione': 1.9538, 'bpc_fuori': 1.94892} (1527 s)
+[E3 p4 r1]  epoca 6: addestramento 2.0187, validazione 2.2403 (migliore 2.2290), 252 s
+[E3 p0 r1]  epoca 16: addestramento 1.8483, validazione 1.8867 (migliore 1.8833), 723 s
+[E3 p4 r0]  epoca 18: addestramento 1.8788, validazione 2.1295 (migliore 2.1295), 834 s
+[E0 p0 r0]  epoca 2: addestramento 2.1667, validazione 2.0975 (migliore 2.0975), 81 s
+[E3 p2 r1]  epoca 12: addestramento 1.9143, validazione 1.9596 (migliore 1.9596), 523 s
+[E3 p3 r1]  epoca 12: addestramento 1.9156, validazione 1.9925 (migliore 1.9202), 523 s
+[E3 p1 r1]  epoca 14: addestramento 1.8622, validazione 1.9538 (migliore 1.9445), 692 s
+[E3 p0 r1]  epoca 17: addestramento 1.8292, validazione 1.8898 (migliore 1.8833), 762 s
+[E3 p4 r1]  epoca 7: addestramento 1.9933, validazione 2.2584 (migliore 2.2290), 292 s
+[E0 p1 r0]  epoca 1: addestramento 2.5299, validazione 2.2752 (migliore 2.2752), 44 s
+[E3 p4 r0]  epoca 19: addestramento 1.8580, validazione 2.1784 (migliore 2.1295), 874 s
+[E0 p0 r0]  epoca 3: addestramento 2.1101, validazione 2.0766 (migliore 2.0766), 119 s
+[E3 p2 r1]  epoca 13: addestramento 1.9007, validazione 2.0019 (migliore 1.9596), 562 s
+[E3 p3 r1]  epoca 13: addestramento 1.9142, validazione 1.9164 (migliore 1.9164), 561 s
+[E3 p0 r1]  epoca 18: addestramento 1.8331, validazione 1.9396 (migliore 1.8833), 802 s
+[E3 p4 r1]  epoca 8: addestramento 1.9996, validazione 2.2115 (migliore 2.2115), 332 s
+[E3 p1 r1]  epoca 15: addestramento 1.8535, validazione 1.9444 (migliore 1.9444), 736 s
+[E3 p4 r0]  epoca 20: addestramento 1.8648, validazione 2.1954 (migliore 2.1295), 915 s
+[E0 p1 r0]  epoca 2: addestramento 2.1450, validazione 2.1927 (migliore 2.1927), 88 s
+[E0 p0 r0]  epoca 4: addestramento 2.0757, validazione 2.0192 (migliore 2.0192), 158 s
+[E3 p2 r1]  epoca 14: addestramento 1.8906, validazione 1.9692 (migliore 1.9596), 603 s
+[E3 p3 r1]  epoca 14: addestramento 1.8937, validazione 1.9167 (migliore 1.9164), 603 s
+[E3 p0 r1]  epoca 19: addestramento 1.8273, validazione 1.9145 (migliore 1.8833), 841 s
+[E3 p4 r1]  epoca 9: addestramento 1.9653, validazione 2.2105 (migliore 2.2105), 372 s
+[E3 p4 r0]  epoca 21: addestramento 1.8291, validazione 2.1608 (migliore 2.1295), 955 s
+[E3 p1 r1]  epoca 16: addestramento 1.8474, validazione 1.9711 (migliore 1.9444), 780 s
+[E0 p1 r0]  epoca 3: addestramento 2.1110, validazione 2.1738 (migliore 2.1738), 131 s
+[E0 p0 r0]  epoca 5: addestramento 2.0556, validazione 2.0194 (migliore 2.0192), 199 s
+[E3 p2 r1]  epoca 15: addestramento 1.8797, validazione 1.9852 (migliore 1.9596), 643 s
+[E3 p3 r1]  epoca 15: addestramento 1.8890, validazione 1.9578 (migliore 1.9164), 643 s
+[E3 p0 r1]  epoca 20: addestramento 1.8132, validazione 1.9005 (migliore 1.8833), 881 s
+[E3 p4 r1]  epoca 10: addestramento 1.9620, validazione 2.1599 (migliore 2.1599), 412 s
+[E3 p4 r0]  epoca 22: addestramento 1.8203, validazione 2.1693 (migliore 2.1295), 996 s
+[E3 p1 r1]  epoca 17: addestramento 1.8286, validazione 2.0008 (migliore 1.9444), 824 s
+[E0 p0 r0]  epoca 6: addestramento 2.0292, validazione 1.9752 (migliore 1.9752), 239 s
+[E0 p1 r0]  epoca 4: addestramento 2.0469, validazione 2.1194 (migliore 2.1194), 174 s
+[E3 p2 r1]  epoca 16: addestramento 1.8755, validazione 2.0113 (migliore 1.9596), 683 s
+[E3 p3 r1]  epoca 16: addestramento 1.8673, validazione 1.9407 (migliore 1.9164), 684 s
+[E3 p0 r1]  epoca 21: addestramento 1.8100, validazione 1.9120 (migliore 1.8833), 921 s
+[E3 p4 r1]  epoca 11: addestramento 1.9430, validazione 2.1436 (migliore 2.1436), 452 s
+[E3 p4 r0]  epoca 23: addestramento 1.8091, validazione 2.1742 (migliore 2.1295), 1036 s
+[E0 p0 r0]  epoca 7: addestramento 1.9905, validazione 2.0466 (migliore 1.9752), 278 s
+[E3 p1 r1]  epoca 18: addestramento 1.8377, validazione 2.0107 (migliore 1.9444), 868 s
+[E3 p2 r1]  epoca 17: addestramento 1.8489, validazione 1.9739 (migliore 1.9596), 722 s
+[E0 p1 r0]  epoca 5: addestramento 2.0222, validazione 2.0484 (migliore 2.0484), 217 s
+[E3 p3 r1]  epoca 17: addestramento 1.8654, validazione 1.9242 (migliore 1.9164), 724 s
+[E3 p0 r1]  epoca 22: addestramento 1.7826, validazione 1.9045 (migliore 1.8833), 958 s
+[E3 p4 r1]  epoca 12: addestramento 1.9312, validazione 2.1837 (migliore 2.1436), 490 s
+[E3 p4 r0]  epoca 24: addestramento 1.8052, validazione 2.1924 (migliore 2.1295), 1076 s
+[E0 p0 r0]  epoca 8: addestramento 1.9776, validazione 1.9794 (migliore 1.9752), 318 s
+[E3 p2 r1]  epoca 18: addestramento 1.8456, validazione 1.9909 (migliore 1.9596), 763 s
+[E3 p1 r1]  epoca 19: addestramento 1.8194, validazione 1.9707 (migliore 1.9444), 913 s
+[E0 p1 r0]  epoca 6: addestramento 1.9990, validazione 2.0427 (migliore 2.0427), 263 s
+[E3 p3 r1]  epoca 18: addestramento 1.8509, validazione 1.9119 (migliore 1.9119), 765 s
+[E3 p0 r1]  epoca 23: addestramento 1.7737, validazione 1.9143 (migliore 1.8833), 1000 s
+[E3 p4 r1]  epoca 13: addestramento 1.9146, validazione 2.1917 (migliore 2.1436), 532 s
+[E3 p4 r0]  epoca 25: addestramento 1.7979, validazione 2.1841 (migliore 2.1295), 1117 s
+[E0 p0 r0]  epoca 9: addestramento 1.9518, validazione 1.9150 (migliore 1.9150), 358 s
+[E3 p2 r1]  epoca 19: addestramento 1.8303, validazione 2.0172 (migliore 1.9596), 802 s
+[26/51 70.3 min] addestra|E3|0|1: {'epoca_scelta': 13, 'bpc_validazione': 1.88333, 'bpc_fuori': 1.95955} (1022 s)
+[E3 p3 r1]  epoca 19: addestramento 1.8328, validazione 1.9324 (migliore 1.9119), 804 s
+[E3 p1 r1]  epoca 20: addestramento 1.7973, validazione 1.9970 (migliore 1.9444), 956 s
+[E0 p1 r0]  epoca 7: addestramento 1.9802, validazione 2.0322 (migliore 2.0322), 305 s
+[E3 p4 r1]  epoca 14: addestramento 1.8900, validazione 2.1842 (migliore 2.1436), 571 s
+[E3 p4 r0]  epoca 26: addestramento 1.7798, validazione 2.1761 (migliore 2.1295), 1156 s
+[E0 p0 r0]  epoca 10: addestramento 1.9571, validazione 1.8980 (migliore 1.8980), 397 s
+[E3 p2 r1]  epoca 20: addestramento 1.8278, validazione 1.9917 (migliore 1.9596), 841 s
+[E0 p2 r0]  epoca 1: addestramento 2.6385, validazione 2.2017 (migliore 2.2017), 38 s
+[E3 p3 r1]  epoca 20: addestramento 1.8259, validazione 1.9140 (migliore 1.9119), 843 s
+[E3 p1 r1]  epoca 21: addestramento 1.7932, validazione 1.9723 (migliore 1.9444), 998 s
+[E0 p1 r0]  epoca 8: addestramento 1.9535, validazione 2.0342 (migliore 2.0322), 347 s
+[E3 p4 r1]  epoca 15: addestramento 1.8955, validazione 2.2010 (migliore 2.1436), 609 s
+[E3 p4 r0]  epoca 27: addestramento 1.7538, validazione 2.2298 (migliore 2.1295), 1194 s
+[E0 p0 r0]  epoca 11: addestramento 1.9207, validazione 1.9108 (migliore 1.8980), 434 s
+[E3 p2 r1]  epoca 21: addestramento 1.7957, validazione 2.0113 (migliore 1.9596), 879 s
+[E0 p2 r0]  epoca 2: addestramento 2.1706, validazione 2.2569 (migliore 2.2017), 76 s
+[E3 p3 r1]  epoca 21: addestramento 1.8165, validazione 1.9475 (migliore 1.9119), 880 s
+[E3 p1 r1]  epoca 22: addestramento 1.7635, validazione 1.9697 (migliore 1.9444), 1040 s
+[E0 p1 r0]  epoca 9: addestramento 1.9422, validazione 1.9955 (migliore 1.9955), 388 s
+[E3 p4 r1]  epoca 16: addestramento 1.8936, validazione 2.1886 (migliore 2.1436), 647 s
+[E3 p4 r0]  epoca 28: addestramento 1.7556, validazione 2.2150 (migliore 2.1295), 1232 s
+[E0 p0 r0]  epoca 12: addestramento 1.9047, validazione 1.9242 (migliore 1.8980), 472 s
+[E3 p2 r1]  epoca 22: addestramento 1.7903, validazione 1.9928 (migliore 1.9596), 917 s
+[E0 p2 r0]  epoca 3: addestramento 2.1276, validazione 2.1671 (migliore 2.1671), 113 s
+[E3 p3 r1]  epoca 22: addestramento 1.8115, validazione 1.9293 (migliore 1.9119), 918 s
+[27/51 72.4 min] addestra|E3|4|0: {'epoca_scelta': 18, 'bpc_validazione': 2.12947, 'bpc_fuori': 1.83378} (1255 s)
+[E3 p1 r1]  epoca 23: addestramento 1.7655, validazione 2.0042 (migliore 1.9444), 1082 s
+[E0 p1 r0]  epoca 10: addestramento 1.9174, validazione 1.9901 (migliore 1.9901), 430 s
+[28/51 72.5 min] addestra|E3|2|1: {'epoca_scelta': 12, 'bpc_validazione': 1.95958, 'bpc_fuori': 1.96805} (939 s)
+[E3 p4 r1]  epoca 17: addestramento 1.8609, validazione 2.1738 (migliore 2.1436), 685 s
+[E0 p0 r0]  epoca 13: addestramento 1.9037, validazione 1.9176 (migliore 1.8980), 510 s
+[E0 p2 r0]  epoca 4: addestramento 2.0793, validazione 2.1039 (migliore 2.1039), 151 s
+[E3 p3 r1]  epoca 23: addestramento 1.7917, validazione 1.9624 (migliore 1.9119), 956 s
+[E0 p3 r0]  epoca 1: addestramento 2.6070, validazione 2.2278 (migliore 2.2278), 37 s
+[E0 p4 r0]  epoca 1: addestramento 2.5719, validazione 2.3883 (migliore 2.3883), 38 s
+[E0 p1 r0]  epoca 11: addestramento 1.9091, validazione 1.9956 (migliore 1.9901), 471 s
+[E3 p1 r1]  epoca 24: addestramento 1.7636, validazione 1.9964 (migliore 1.9444), 1124 s
+[E3 p4 r1]  epoca 18: addestramento 1.8671, validazione 2.1612 (migliore 2.1436), 722 s
+[E0 p0 r0]  epoca 14: addestramento 1.9063, validazione 1.9130 (migliore 1.8980), 547 s
+[E0 p2 r0]  epoca 5: addestramento 2.0452, validazione 2.0918 (migliore 2.0918), 188 s
+[E3 p3 r1]  epoca 24: addestramento 1.7945, validazione 1.9485 (migliore 1.9119), 994 s
+[E0 p3 r0]  epoca 2: addestramento 2.1907, validazione 2.2084 (migliore 2.2084), 76 s
+[E0 p4 r0]  epoca 2: addestramento 2.1747, validazione 2.6092 (migliore 2.3883), 76 s
+[E3 p4 r1]  epoca 19: addestramento 1.8494, validazione 2.1896 (migliore 2.1436), 760 s
+[E3 p1 r1]  epoca 25: addestramento 1.7580, validazione 1.9996 (migliore 1.9444), 1166 s
+[E0 p1 r0]  epoca 12: addestramento 1.8832, validazione 1.9487 (migliore 1.9487), 514 s
+[E0 p0 r0]  epoca 15: addestramento 1.8803, validazione 1.9422 (migliore 1.8980), 585 s
+[E0 p2 r0]  epoca 6: addestramento 2.0246, validazione 2.0633 (migliore 2.0633), 227 s
+[E3 p3 r1]  epoca 25: addestramento 1.7662, validazione 1.9871 (migliore 1.9119), 1032 s
+[29/51 74.2 min] addestra|E3|1|1: {'epoca_scelta': 15, 'bpc_validazione': 1.94438, 'bpc_fuori': 2.04038} (1188 s)
+[E0 p3 r0]  epoca 3: addestramento 2.1430, validazione 2.0931 (migliore 2.0931), 115 s
+[E0 p4 r0]  epoca 3: addestramento 2.1155, validazione 2.3888 (migliore 2.3883), 115 s
+[E3 p4 r1]  epoca 20: addestramento 1.8371, validazione 2.2076 (migliore 2.1436), 799 s
+[E0 p1 r0]  epoca 13: addestramento 1.8924, validazione 1.9390 (migliore 1.9390), 557 s
+[E0 p0 r0]  epoca 16: addestramento 1.8662, validazione 1.9411 (migliore 1.8980), 624 s
+[E0 p2 r0]  epoca 7: addestramento 2.0001, validazione 2.0360 (migliore 2.0360), 265 s
+[E3 p3 r1]  epoca 26: addestramento 1.7749, validazione 1.9512 (migliore 1.9119), 1071 s
+[E0 p0 r1]  epoca 1: addestramento 2.6611, validazione 2.1338 (migliore 2.1338), 38 s
+[E0 p3 r0]  epoca 4: addestramento 2.0783, validazione 2.0274 (migliore 2.0274), 153 s
+[E0 p4 r0]  epoca 4: addestramento 2.0962, validazione 2.3477 (migliore 2.3477), 153 s
+[E3 p4 r1]  epoca 21: addestramento 1.8243, validazione 2.2272 (migliore 2.1436), 837 s
+[E0 p0 r0]  epoca 17: addestramento 1.8602, validazione 1.9230 (migliore 1.8980), 661 s
+[E0 p1 r0]  epoca 14: addestramento 1.8729, validazione 1.9840 (migliore 1.9390), 598 s
+[E0 p2 r0]  epoca 8: addestramento 1.9824, validazione 2.0650 (migliore 2.0360), 304 s
+[E3 p3 r1]  epoca 27: addestramento 1.7545, validazione 1.9808 (migliore 1.9119), 1110 s
+[30/51 75.5 min] addestra|E3|4|1: {'epoca_scelta': 11, 'bpc_validazione': 2.14361, 'bpc_fuori': 1.85031} (860 s)
+[E0 p0 r1]  epoca 2: addestramento 2.1556, validazione 2.1417 (migliore 2.1338), 77 s
+[E0 p3 r0]  epoca 5: addestramento 2.0541, validazione 2.0060 (migliore 2.0060), 192 s
+[E0 p4 r0]  epoca 5: addestramento 2.0715, validazione 2.3855 (migliore 2.3477), 192 s
+[E0 p0 r0]  epoca 18: addestramento 1.8473, validazione 1.9207 (migliore 1.8980), 700 s
+[E0 p1 r0]  epoca 15: addestramento 1.8508, validazione 1.9422 (migliore 1.9390), 639 s
+[E0 p2 r0]  epoca 9: addestramento 1.9580, validazione 2.0612 (migliore 2.0360), 342 s
+[E3 p3 r1]  epoca 28: addestramento 1.7584, validazione 1.9768 (migliore 1.9119), 1149 s
+[E0 p0 r1]  epoca 3: addestramento 2.1037, validazione 2.0935 (migliore 2.0935), 115 s
+[E0 p1 r1]  epoca 1: addestramento 2.5808, validazione 2.2384 (migliore 2.2384), 44 s
+[E0 p3 r0]  epoca 6: addestramento 2.0193, validazione 1.9820 (migliore 1.9820), 231 s
+[E0 p4 r0]  epoca 6: addestramento 2.0456, validazione 2.3138 (migliore 2.3138), 232 s
+[31/51 76.5 min] addestra|E3|3|1: {'epoca_scelta': 18, 'bpc_validazione': 1.91191, 'bpc_fuori': 1.9483} (1172 s)
+[E0 p0 r0]  epoca 19: addestramento 1.8298, validazione 1.9435 (migliore 1.8980), 739 s
+[E0 p2 r0]  epoca 10: addestramento 1.9472, validazione 2.0185 (migliore 2.0185), 382 s
+[E0 p1 r0]  epoca 16: addestramento 1.8445, validazione 1.9810 (migliore 1.9390), 684 s
+[E0 p0 r1]  epoca 4: addestramento 2.0526, validazione 2.1051 (migliore 2.0935), 155 s
+[E0 p3 r0]  epoca 7: addestramento 2.0080, validazione 2.0040 (migliore 1.9820), 272 s
+[E0 p1 r1]  epoca 2: addestramento 2.1402, validazione 2.1156 (migliore 2.1156), 89 s
+[E0 p4 r0]  epoca 7: addestramento 2.0064, validazione 2.1910 (migliore 2.1910), 273 s
+[E0 p2 r1]  epoca 1: addestramento 2.6417, validazione 2.3676 (migliore 2.3676), 41 s
+[E0 p0 r0]  epoca 20: addestramento 1.8109, validazione 1.9024 (migliore 1.8980), 780 s
+[E0 p2 r0]  epoca 11: addestramento 1.9266, validazione 2.0465 (migliore 2.0185), 421 s
+[E0 p1 r0]  epoca 17: addestramento 1.8331, validazione 2.0667 (migliore 1.9390), 727 s
+[E0 p0 r1]  epoca 5: addestramento 2.0310, validazione 2.0057 (migliore 2.0057), 194 s
+[E0 p3 r0]  epoca 8: addestramento 1.9848, validazione 1.9745 (migliore 1.9745), 310 s
+[32/51 77.6 min] addestra|E0|0|0: {'epoca_scelta': 10, 'bpc_validazione': 1.89802, 'bpc_fuori': 1.9736} (801 s)
+[E0 p1 r1]  epoca 3: addestramento 2.1022, validazione 2.1405 (migliore 2.1156), 131 s
+[E0 p4 r0]  epoca 8: addestramento 1.9861, validazione 2.1897 (migliore 2.1897), 312 s
+[E0 p2 r1]  epoca 2: addestramento 2.1692, validazione 2.1376 (migliore 2.1376), 79 s
+[E0 p2 r0]  epoca 12: addestramento 1.9292, validazione 1.9962 (migliore 1.9962), 459 s
+[E0 p0 r1]  epoca 6: addestramento 1.9993, validazione 1.9751 (migliore 1.9751), 233 s
+[E0 p1 r0]  epoca 18: addestramento 1.8436, validazione 2.0170 (migliore 1.9390), 772 s
+[E0 p3 r0]  epoca 9: addestramento 1.9650, validazione 1.9532 (migliore 1.9532), 350 s
+[E0 p3 r1]  epoca 1: addestramento 2.5209, validazione 2.1948 (migliore 2.1948), 40 s
+[E0 p4 r0]  epoca 9: addestramento 1.9733, validazione 2.1665 (migliore 2.1665), 354 s
+[E0 p1 r1]  epoca 4: addestramento 2.0576, validazione 2.0934 (migliore 2.0934), 176 s
+[E0 p2 r1]  epoca 3: addestramento 2.1300, validazione 2.1513 (migliore 2.1376), 120 s
+[E0 p2 r0]  epoca 13: addestramento 1.8980, validazione 1.9806 (migliore 1.9806), 502 s
+[E0 p0 r1]  epoca 7: addestramento 1.9858, validazione 1.9533 (migliore 1.9533), 276 s
+[E0 p3 r0]  epoca 10: addestramento 1.9491, validazione 1.9881 (migliore 1.9532), 392 s
+[E0 p1 r0]  epoca 19: addestramento 1.8219, validazione 2.0018 (migliore 1.9390), 817 s
+[E0 p3 r1]  epoca 2: addestramento 2.1878, validazione 2.1248 (migliore 2.1248), 83 s
+[E0 p4 r0]  epoca 10: addestramento 1.9571, validazione 2.1380 (migliore 2.1380), 396 s
+[E0 p2 r1]  epoca 4: addestramento 2.0736, validazione 2.1382 (migliore 2.1376), 161 s
+[E0 p1 r1]  epoca 5: addestramento 2.0412, validazione 2.0971 (migliore 2.0934), 222 s
+[E0 p2 r0]  epoca 14: addestramento 1.9058, validazione 1.9901 (migliore 1.9806), 543 s
+[E0 p0 r1]  epoca 8: addestramento 1.9646, validazione 1.9529 (migliore 1.9529), 318 s
+[E0 p3 r0]  epoca 11: addestramento 1.9453, validazione 1.9277 (migliore 1.9277), 434 s
+[E0 p3 r1]  epoca 3: addestramento 2.1057, validazione 2.0962 (migliore 2.0962), 124 s
+[E0 p1 r0]  epoca 20: addestramento 1.7979, validazione 1.9903 (migliore 1.9390), 863 s
+[E0 p4 r0]  epoca 11: addestramento 1.9342, validazione 2.1564 (migliore 2.1380), 438 s
+[E0 p2 r1]  epoca 5: addestramento 2.0657, validazione 2.1254 (migliore 2.1254), 201 s
+[E0 p1 r1]  epoca 6: addestramento 2.0072, validazione 2.0154 (migliore 2.0154), 267 s
+[E0 p2 r0]  epoca 15: addestramento 1.8841, validazione 2.0000 (migliore 1.9806), 583 s
+[E0 p0 r1]  epoca 9: addestramento 1.9435, validazione 1.9482 (migliore 1.9482), 358 s
+[E0 p3 r0]  epoca 12: addestramento 1.9204, validazione 1.9694 (migliore 1.9277), 476 s
+[E0 p3 r1]  epoca 4: addestramento 2.1013, validazione 2.0138 (migliore 2.0138), 167 s
+[E0 p1 r0]  epoca 21: addestramento 1.7986, validazione 1.9737 (migliore 1.9390), 909 s
+[E0 p4 r0]  epoca 12: addestramento 1.9208, validazione 2.1871 (migliore 2.1380), 482 s
+[E0 p2 r1]  epoca 6: addestramento 2.0366, validazione 2.1175 (migliore 2.1175), 245 s
+[E0 p1 r1]  epoca 7: addestramento 1.9833, validazione 2.0132 (migliore 2.0132), 317 s
+[E0 p2 r0]  epoca 16: addestramento 1.8857, validazione 2.0112 (migliore 1.9806), 628 s
+[E0 p0 r1]  epoca 10: addestramento 1.9154, validazione 1.9061 (migliore 1.9061), 403 s
+[E0 p3 r0]  epoca 13: addestramento 1.9190, validazione 1.9565 (migliore 1.9277), 521 s
+[E0 p3 r1]  epoca 5: addestramento 2.0389, validazione 1.9882 (migliore 1.9882), 212 s
+[E0 p4 r0]  epoca 13: addestramento 1.9195, validazione 2.2264 (migliore 2.1380), 527 s
+[E0 p2 r1]  epoca 7: addestramento 2.0224, validazione 2.0310 (migliore 2.0310), 290 s
+[E0 p1 r0]  epoca 22: addestramento 1.7867, validazione 1.9805 (migliore 1.9390), 960 s
+[E0 p2 r0]  epoca 17: addestramento 1.8737, validazione 2.0050 (migliore 1.9806), 675 s
+[E0 p1 r1]  epoca 8: addestramento 1.9643, validazione 1.9937 (migliore 1.9937), 368 s
+[E0 p0 r1]  epoca 11: addestramento 1.9216, validazione 1.9107 (migliore 1.9061), 452 s
+[E0 p3 r0]  epoca 14: addestramento 1.8996, validazione 1.9366 (migliore 1.9277), 571 s
+[E0 p3 r1]  epoca 6: addestramento 2.0159, validazione 1.9654 (migliore 1.9654), 262 s
+[E0 p4 r0]  epoca 14: addestramento 1.9004, validazione 2.1747 (migliore 2.1380), 576 s
+[E0 p2 r1]  epoca 8: addestramento 1.9909, validazione 2.0411 (migliore 2.0310), 339 s
+[E0 p1 r0]  epoca 23: addestramento 1.7777, validazione 2.0097 (migliore 1.9390), 1014 s
+[E0 p2 r0]  epoca 18: addestramento 1.8486, validazione 1.9780 (migliore 1.9780), 724 s
+[E0 p1 r1]  epoca 9: addestramento 1.9387, validazione 2.0206 (migliore 1.9937), 423 s
+[E0 p0 r1]  epoca 12: addestramento 1.9061, validazione 1.9008 (migliore 1.9008), 500 s
+[33/51 82.6 min] addestra|E0|1|0: {'epoca_scelta': 13, 'bpc_validazione': 1.93903, 'bpc_fuori': 2.02399} (1038 s)
+[E0 p3 r0]  epoca 15: addestramento 1.8976, validazione 1.9663 (migliore 1.9277), 621 s
+[E0 p3 r1]  epoca 7: addestramento 1.9909, validazione 2.0077 (migliore 1.9654), 313 s
+[E0 p4 r0]  epoca 15: addestramento 1.8988, validazione 2.1890 (migliore 2.1380), 629 s
+[E0 p2 r1]  epoca 9: addestramento 1.9758, validazione 2.0639 (migliore 2.0310), 391 s
+[E0 p2 r0]  epoca 19: addestramento 1.8338, validazione 1.9807 (migliore 1.9780), 784 s
+[E0 p0 r1]  epoca 13: addestramento 1.8884, validazione 1.9313 (migliore 1.9008), 572 s
+[E0 p1 r1]  epoca 10: addestramento 1.9262, validazione 1.9913 (migliore 1.9913), 501 s
+[E0 p4 r1]  epoca 1: addestramento 2.6550, validazione 2.3309 (migliore 2.3309), 74 s
+[E0 p3 r0]  epoca 16: addestramento 1.8926, validazione 1.9186 (migliore 1.9186), 693 s
+[E0 p3 r1]  epoca 8: addestramento 1.9766, validazione 1.9548 (migliore 1.9548), 385 s
+[E0 p4 r0]  epoca 16: addestramento 1.8784, validazione 2.1832 (migliore 2.1380), 698 s
+[E0 p2 r1]  epoca 10: addestramento 1.9527, validazione 2.0873 (migliore 2.0310), 460 s
+[E0 p2 r0]  epoca 20: addestramento 1.8196, validazione 2.0084 (migliore 1.9780), 843 s
+[E0 p0 r1]  epoca 14: addestramento 1.9000, validazione 1.9099 (migliore 1.9008), 619 s
+[E0 p4 r1]  epoca 2: addestramento 2.1972, validazione 2.4093 (migliore 2.3309), 120 s
+[E0 p1 r1]  epoca 11: addestramento 1.9214, validazione 1.9952 (migliore 1.9913), 553 s
+[E0 p3 r0]  epoca 17: addestramento 1.8789, validazione 1.9231 (migliore 1.9186), 741 s
+[E0 p3 r1]  epoca 9: addestramento 1.9598, validazione 1.9536 (migliore 1.9536), 431 s
+[E0 p4 r0]  epoca 17: addestramento 1.8719, validazione 2.1573 (migliore 2.1380), 743 s
+[E0 p2 r1]  epoca 11: addestramento 1.9388, validazione 2.0032 (migliore 2.0032), 506 s
+[E0 p2 r0]  epoca 21: addestramento 1.8112, validazione 1.9902 (migliore 1.9780), 889 s
+[E0 p0 r1]  epoca 15: addestramento 1.8687, validazione 1.8763 (migliore 1.8763), 664 s
+[E0 p4 r1]  epoca 3: addestramento 2.1308, validazione 2.3569 (migliore 2.3309), 164 s
+[E0 p3 r0]  epoca 18: addestramento 1.8425, validazione 1.9279 (migliore 1.9186), 784 s
+[E0 p3 r1]  epoca 10: addestramento 1.9430, validazione 1.9928 (migliore 1.9536), 476 s
+[E0 p1 r1]  epoca 12: addestramento 1.9058, validazione 1.9670 (migliore 1.9670), 602 s
+[E0 p4 r0]  epoca 18: addestramento 1.8548, validazione 2.2435 (migliore 2.1380), 788 s
+[E0 p2 r1]  epoca 12: addestramento 1.9199, validazione 2.0675 (migliore 2.0032), 549 s
+[E0 p2 r0]  epoca 22: addestramento 1.8010, validazione 2.0211 (migliore 1.9780), 934 s
+[E0 p0 r1]  epoca 16: addestramento 1.8433, validazione 1.8872 (migliore 1.8763), 708 s
+[E0 p4 r1]  epoca 4: addestramento 2.1089, validazione 2.2855 (migliore 2.2855), 209 s
+[E0 p3 r0]  epoca 19: addestramento 1.8570, validazione 1.9275 (migliore 1.9186), 830 s
+[E0 p3 r1]  epoca 11: addestramento 1.9420, validazione 1.9366 (migliore 1.9366), 521 s
+[E0 p1 r1]  epoca 13: addestramento 1.8938, validazione 1.9667 (migliore 1.9667), 652 s
+[E0 p2 r1]  epoca 13: addestramento 1.9243, validazione 1.9754 (migliore 1.9754), 593 s
+[E0 p4 r0]  epoca 19: addestramento 1.8514, validazione 2.1770 (migliore 2.1380), 833 s
+[E0 p2 r0]  epoca 23: addestramento 1.7762, validazione 2.0191 (migliore 1.9780), 980 s
+[E0 p0 r1]  epoca 17: addestramento 1.8517, validazione 1.8871 (migliore 1.8763), 754 s
+[E0 p4 r1]  epoca 5: addestramento 2.0472, validazione 2.2365 (migliore 2.2365), 255 s
+[E0 p3 r0]  epoca 20: addestramento 1.8360, validazione 1.9333 (migliore 1.9186), 877 s
+[E0 p3 r1]  epoca 12: addestramento 1.9061, validazione 1.9177 (migliore 1.9177), 568 s
+[E0 p2 r1]  epoca 14: addestramento 1.8993, validazione 2.0007 (migliore 1.9754), 641 s
+[E0 p4 r0]  epoca 20: addestramento 1.8464, validazione 2.2142 (migliore 2.1380), 882 s
+[E0 p1 r1]  epoca 14: addestramento 1.8723, validazione 1.9506 (migliore 1.9506), 704 s
+[E0 p2 r0]  epoca 24: addestramento 1.7728, validazione 2.0227 (migliore 1.9780), 1028 s
+[E0 p0 r1]  epoca 18: addestramento 1.8397, validazione 1.8998 (migliore 1.8763), 803 s
+[34/51 87.6 min] addestra|E0|4|0: {'epoca_scelta': 10, 'bpc_validazione': 2.138, 'bpc_fuori': 1.84201} (907 s)
+[E0 p4 r1]  epoca 6: addestramento 2.0332, validazione 2.2603 (migliore 2.2365), 303 s
+[E0 p3 r0]  epoca 21: addestramento 1.8220, validazione 1.9464 (migliore 1.9186), 925 s
+[E0 p3 r1]  epoca 13: addestramento 1.9033, validazione 1.9343 (migliore 1.9177), 616 s
+[E0 p2 r1]  epoca 15: addestramento 1.8785, validazione 1.9737 (migliore 1.9737), 686 s
+[E0 p1 r1]  epoca 15: addestramento 1.8539, validazione 1.9977 (migliore 1.9506), 757 s
+[E0 p2 r0]  epoca 25: addestramento 1.7612, validazione 2.0390 (migliore 1.9780), 1075 s
+[E1 p0 r0]  epoca 1: addestramento 2.6709, validazione 2.1592 (migliore 2.1592), 36 s
+[E0 p0 r1]  epoca 19: addestramento 1.8335, validazione 1.9244 (migliore 1.8763), 849 s
+[E0 p4 r1]  epoca 7: addestramento 2.0208, validazione 2.2289 (migliore 2.2289), 349 s
+[E0 p3 r0]  epoca 22: addestramento 1.8186, validazione 2.0121 (migliore 1.9186), 972 s
+[E0 p3 r1]  epoca 14: addestramento 1.8830, validazione 1.9862 (migliore 1.9177), 663 s
+[E0 p2 r1]  epoca 16: addestramento 1.8632, validazione 1.9892 (migliore 1.9737), 732 s
+[E1 p0 r0]  epoca 2: addestramento 2.1578, validazione 2.1044 (migliore 2.1044), 71 s
+[E0 p1 r1]  epoca 16: addestramento 1.8571, validazione 1.9865 (migliore 1.9506), 808 s
+[E0 p2 r0]  epoca 26: addestramento 1.7472, validazione 2.0469 (migliore 1.9780), 1120 s
+[E0 p0 r1]  epoca 20: addestramento 1.8257, validazione 1.9096 (migliore 1.8763), 897 s
+[E0 p4 r1]  epoca 8: addestramento 1.9765, validazione 2.1923 (migliore 2.1923), 408 s
+[E0 p3 r0]  epoca 23: addestramento 1.8079, validazione 1.9377 (migliore 1.9186), 1043 s
+[E0 p3 r1]  epoca 15: addestramento 1.8830, validazione 1.9314 (migliore 1.9177), 733 s
+[E0 p2 r1]  epoca 17: addestramento 1.8586, validazione 2.0175 (migliore 1.9737), 802 s
+[E1 p0 r0]  epoca 3: addestramento 2.1115, validazione 2.1163 (migliore 2.1044), 134 s
+[E0 p2 r0]  epoca 27: addestramento 1.7399, validazione 2.0478 (migliore 1.9780), 1193 s
+[E0 p1 r1]  epoca 17: addestramento 1.8466, validazione 1.9644 (migliore 1.9506), 886 s
+[E0 p0 r1]  epoca 21: addestramento 1.8070, validazione 1.9359 (migliore 1.8763), 967 s
+[E0 p4 r1]  epoca 9: addestramento 1.9588, validazione 2.1838 (migliore 2.1838), 468 s
+[E1 p0 r0]  epoca 4: addestramento 2.0563, validazione 2.0351 (migliore 2.0351), 172 s
+[E0 p3 r0]  epoca 24: addestramento 1.7902, validazione 1.9536 (migliore 1.9186), 1092 s
+[E0 p3 r1]  epoca 16: addestramento 1.8728, validazione 1.9459 (migliore 1.9177), 782 s
+[E0 p2 r1]  epoca 18: addestramento 1.8521, validazione 2.0349 (migliore 1.9737), 851 s
+[E0 p2 r0]  epoca 28: addestramento 1.7390, validazione 2.0546 (migliore 1.9780), 1241 s
+[E0 p1 r1]  epoca 18: addestramento 1.8231, validazione 2.0037 (migliore 1.9506), 938 s
+[E0 p0 r1]  epoca 22: addestramento 1.8017, validazione 1.9001 (migliore 1.8763), 1015 s
+[E1 p0 r0]  epoca 5: addestramento 2.0297, validazione 2.0553 (migliore 2.0351), 209 s
+[E0 p4 r1]  epoca 10: addestramento 1.9603, validazione 2.1965 (migliore 2.1838), 516 s
+[E0 p3 r0]  epoca 25: addestramento 1.7810, validazione 1.9984 (migliore 1.9186), 1139 s
+[35/51 91.4 min] addestra|E0|2|0: {'epoca_scelta': 18, 'bpc_validazione': 1.97804, 'bpc_fuori': 1.94818} (1264 s)
+[E0 p3 r1]  epoca 17: addestramento 1.8674, validazione 1.9654 (migliore 1.9177), 829 s
+[E0 p2 r1]  epoca 19: addestramento 1.8298, validazione 2.0109 (migliore 1.9737), 897 s
+[E1 p0 r0]  epoca 6: addestramento 2.0086, validazione 1.9691 (migliore 1.9691), 245 s
+[E0 p0 r1]  epoca 23: addestramento 1.7961, validazione 1.9087 (migliore 1.8763), 1061 s
+[E0 p1 r1]  epoca 19: addestramento 1.8224, validazione 1.9684 (migliore 1.9506), 988 s
+[E0 p4 r1]  epoca 11: addestramento 1.9403, validazione 2.1815 (migliore 2.1815), 562 s
+[E0 p3 r0]  epoca 26: addestramento 1.7780, validazione 1.9605 (migliore 1.9186), 1186 s
+[E1 p1 r0]  epoca 1: addestramento 2.7779, validazione 2.3359 (migliore 2.3359), 41 s
+[E0 p3 r1]  epoca 18: addestramento 1.8409, validazione 1.9453 (migliore 1.9177), 876 s
+[E0 p2 r1]  epoca 20: addestramento 1.8105, validazione 2.0231 (migliore 1.9737), 942 s
+[E1 p0 r0]  epoca 7: addestramento 1.9811, validazione 1.9760 (migliore 1.9691), 281 s
+[36/51 92.6 min] addestra|E0|3|0: {'epoca_scelta': 16, 'bpc_validazione': 1.91857, 'bpc_fuori': 1.94654} (1210 s)
+[E0 p0 r1]  epoca 24: addestramento 1.7802, validazione 1.9397 (migliore 1.8763), 1105 s
+[E0 p4 r1]  epoca 12: addestramento 1.9394, validazione 2.1599 (migliore 2.1599), 606 s
+[E0 p1 r1]  epoca 20: addestramento 1.8066, validazione 1.9700 (migliore 1.9506), 1037 s
+[E1 p1 r0]  epoca 2: addestramento 2.1709, validazione 2.1758 (migliore 2.1758), 78 s
+[E0 p2 r1]  epoca 21: addestramento 1.8027, validazione 2.0885 (migliore 1.9737), 985 s
+[E0 p3 r1]  epoca 19: addestramento 1.8285, validazione 2.0247 (migliore 1.9177), 919 s
+[E1 p0 r0]  epoca 8: addestramento 1.9586, validazione 1.9673 (migliore 1.9673), 314 s
+[E1 p2 r0]  epoca 1: addestramento 2.7884, validazione 2.2270 (migliore 2.2270), 31 s
+[E0 p0 r1]  epoca 25: addestramento 1.7689, validazione 1.9358 (migliore 1.8763), 1146 s
+[E1 p1 r0]  epoca 3: addestramento 2.0758, validazione 2.0996 (migliore 2.0996), 113 s
+[E0 p4 r1]  epoca 13: addestramento 1.9182, validazione 2.1787 (migliore 2.1599), 647 s
+[E1 p0 r0]  epoca 9: addestramento 1.9439, validazione 1.9406 (migliore 1.9406), 345 s
+[E0 p1 r1]  epoca 21: addestramento 1.7880, validazione 1.9805 (migliore 1.9506), 1082 s
+[E0 p2 r1]  epoca 22: addestramento 1.7956, validazione 2.0035 (migliore 1.9737), 1024 s
+[E0 p3 r1]  epoca 20: addestramento 1.8210, validazione 1.9522 (migliore 1.9177), 960 s
+[37/51 93.7 min] addestra|E0|0|1: {'epoca_scelta': 15, 'bpc_validazione': 1.87634, 'bpc_fuori': 1.92798} (1169 s)
+[E1 p2 r0]  epoca 2: addestramento 2.1808, validazione 2.1353 (migliore 2.1353), 66 s
+[E1 p1 r0]  epoca 4: addestramento 2.0399, validazione 2.1018 (migliore 2.0996), 166 s
+[E1 p0 r0]  epoca 10: addestramento 1.9308, validazione 1.9204 (migliore 1.9204), 397 s
+[E0 p4 r1]  epoca 14: addestramento 1.9108, validazione 2.2054 (migliore 2.1599), 715 s
+[E1 p2 r0]  epoca 3: addestramento 2.0911, validazione 2.1120 (migliore 2.1120), 135 s
+[E0 p2 r1]  epoca 23: addestramento 1.7924, validazione 2.0248 (migliore 1.9737), 1105 s
+[E0 p3 r1]  epoca 21: addestramento 1.8242, validazione 1.9397 (migliore 1.9177), 1042 s
+[E0 p1 r1]  epoca 22: addestramento 1.8021, validazione 1.9939 (migliore 1.9506), 1170 s
+[E1 p3 r0]  epoca 1: addestramento 2.7912, validazione 2.2515 (migliore 2.2515), 71 s
+[E1 p0 r0]  epoca 11: addestramento 1.9243, validazione 1.9527 (migliore 1.9204), 461 s
+[E1 p1 r0]  epoca 5: addestramento 2.0122, validazione 2.0139 (migliore 2.0139), 241 s
+[E0 p4 r1]  epoca 15: addestramento 1.8992, validazione 2.1891 (migliore 2.1599), 789 s
+[E1 p2 r0]  epoca 4: addestramento 2.0550, validazione 2.0838 (migliore 2.0838), 189 s
+[E1 p3 r0]  epoca 2: addestramento 2.2116, validazione 2.1588 (migliore 2.1588), 126 s
+[E0 p2 r1]  epoca 24: addestramento 1.7633, validazione 2.0217 (migliore 1.9737), 1173 s
+[E0 p3 r1]  epoca 22: addestramento 1.8128, validazione 1.9560 (migliore 1.9177), 1112 s
+[E0 p1 r1]  epoca 23: addestramento 1.7843, validazione 2.0191 (migliore 1.9506), 1246 s
+[E1 p0 r0]  epoca 12: addestramento 1.9055, validazione 1.9070 (migliore 1.9070), 516 s
+[E1 p1 r0]  epoca 6: addestramento 1.9733, validazione 2.0023 (migliore 2.0023), 303 s
+[38/51 96.7 min] addestra|E0|3|1: {'epoca_scelta': 12, 'bpc_validazione': 1.9177, 'bpc_fuori': 1.9507} (1148 s)
+[E1 p2 r0]  epoca 5: addestramento 2.0260, validazione 2.0972 (migliore 2.0838), 246 s
+[E1 p3 r0]  epoca 3: addestramento 2.1284, validazione 2.0324 (migliore 2.0324), 182 s
+[E0 p4 r1]  epoca 16: addestramento 1.8778, validazione 2.2057 (migliore 2.1599), 859 s
+[E0 p2 r1]  epoca 25: addestramento 1.7492, validazione 2.0390 (migliore 1.9737), 1244 s
+[E1 p0 r0]  epoca 13: addestramento 1.8857, validazione 1.8957 (migliore 1.8957), 572 s
+[E0 p1 r1]  epoca 24: addestramento 1.7567, validazione 2.0135 (migliore 1.9506), 1326 s
+[E1 p1 r0]  epoca 7: addestramento 1.9596, validazione 1.9771 (migliore 1.9771), 367 s
+[E1 p2 r0]  epoca 6: addestramento 2.0091, validazione 2.0457 (migliore 2.0457), 302 s
+[39/51 97.8 min] addestra|E0|2|1: {'epoca_scelta': 15, 'bpc_validazione': 1.97369, 'bpc_fuori': 1.94617} (1277 s)
+[E1 p4 r0]  epoca 1: addestramento 2.9267, validazione 2.5683 (migliore 2.5683), 57 s
+[E1 p3 r0]  epoca 4: addestramento 2.0538, validazione 2.0515 (migliore 2.0324), 238 s
+[40/51 98.1 min] addestra|E0|1|1: {'epoca_scelta': 14, 'bpc_validazione': 1.95058, 'bpc_fuori': 2.02661} (1358 s)
+[E0 p4 r1]  epoca 17: addestramento 1.8684, validazione 2.2429 (migliore 2.1599), 929 s
+[E1 p0 r0]  epoca 14: addestramento 1.8760, validazione 1.9233 (migliore 1.8957), 625 s
+[E1 p2 r0]  epoca 7: addestramento 1.9799, validazione 2.0263 (migliore 2.0263), 353 s
+[E1 p1 r0]  epoca 8: addestramento 1.9330, validazione 1.9683 (migliore 1.9683), 425 s
+[E1 p4 r0]  epoca 2: addestramento 2.2413, validazione 2.4127 (migliore 2.4127), 111 s
+[E1 p3 r0]  epoca 5: addestramento 2.0321, validazione 2.0092 (migliore 2.0092), 291 s
+[E1 p0 r1]  epoca 1: addestramento 2.7863, validazione 2.2107 (migliore 2.2107), 52 s
+[E1 p0 r0]  epoca 15: addestramento 1.8739, validazione 1.8841 (migliore 1.8841), 677 s
+[E0 p4 r1]  epoca 18: addestramento 1.8534, validazione 2.1692 (migliore 2.1599), 996 s
+[E1 p1 r1]  epoca 1: addestramento 2.7430, validazione 2.3853 (migliore 2.3853), 60 s
+[E1 p2 r0]  epoca 8: addestramento 1.9674, validazione 2.0196 (migliore 2.0196), 407 s
+[E1 p1 r0]  epoca 9: addestramento 1.9200, validazione 1.9762 (migliore 1.9683), 489 s
+[E1 p4 r0]  epoca 3: addestramento 2.1684, validazione 2.3020 (migliore 2.3020), 168 s
+[E1 p3 r0]  epoca 6: addestramento 1.9928, validazione 1.9466 (migliore 1.9466), 350 s
+[E1 p0 r1]  epoca 2: addestramento 2.1760, validazione 2.1189 (migliore 2.1189), 113 s
+[E1 p0 r0]  epoca 16: addestramento 1.8567, validazione 1.9057 (migliore 1.8841), 738 s
+[E1 p1 r1]  epoca 2: addestramento 2.1544, validazione 2.1158 (migliore 2.1158), 131 s
+[E1 p2 r0]  epoca 9: addestramento 1.9520, validazione 2.0498 (migliore 2.0196), 471 s
+[E0 p4 r1]  epoca 19: addestramento 1.8421, validazione 2.1540 (migliore 2.1540), 1073 s
+[E1 p4 r0]  epoca 4: addestramento 2.1009, validazione 2.2672 (migliore 2.2672), 229 s
+[E1 p3 r0]  epoca 7: addestramento 1.9603, validazione 1.9885 (migliore 1.9466), 409 s
+[E1 p0 r1]  epoca 3: addestramento 2.0865, validazione 2.0874 (migliore 2.0874), 170 s
+[E1 p1 r0]  epoca 10: addestramento 1.9070, validazione 1.9821 (migliore 1.9683), 557 s
+[E1 p0 r0]  epoca 17: addestramento 1.8520, validazione 1.8951 (migliore 1.8841), 793 s
+[E1 p2 r0]  epoca 10: addestramento 1.9335, validazione 1.9789 (migliore 1.9789), 524 s
+[E1 p1 r1]  epoca 3: addestramento 2.0641, validazione 2.0869 (migliore 2.0869), 191 s
+[E1 p4 r0]  epoca 5: addestramento 2.0427, validazione 2.1657 (migliore 2.1657), 283 s
+[E1 p3 r0]  epoca 8: addestramento 1.9534, validazione 1.9252 (migliore 1.9252), 464 s
+[E0 p4 r1]  epoca 20: addestramento 1.8248, validazione 2.2088 (migliore 2.1540), 1140 s
+[E1 p0 r1]  epoca 4: addestramento 2.0506, validazione 1.9695 (migliore 1.9695), 225 s
+[E1 p1 r0]  epoca 11: addestramento 1.9036, validazione 1.9607 (migliore 1.9607), 617 s
+[E1 p0 r0]  epoca 18: addestramento 1.8345, validazione 1.9350 (migliore 1.8841), 846 s
+[E1 p2 r0]  epoca 11: addestramento 1.9207, validazione 1.9660 (migliore 1.9660), 579 s
+[E1 p4 r0]  epoca 6: addestramento 2.0239, validazione 2.2151 (migliore 2.1657), 336 s
+[E1 p1 r1]  epoca 4: addestramento 2.0422, validazione 2.0338 (migliore 2.0338), 251 s
+[E1 p3 r0]  epoca 9: addestramento 1.9310, validazione 1.9244 (migliore 1.9244), 518 s
+[E1 p0 r1]  epoca 5: addestramento 2.0083, validazione 2.0057 (migliore 1.9695), 279 s
+[E1 p0 r0]  epoca 19: addestramento 1.8241, validazione 1.9258 (migliore 1.8841), 897 s
+[E0 p4 r1]  epoca 21: addestramento 1.8265, validazione 2.1844 (migliore 2.1540), 1205 s
+[E1 p1 r0]  epoca 12: addestramento 1.8840, validazione 1.9705 (migliore 1.9607), 676 s
+[E1 p2 r0]  epoca 12: addestramento 1.9000, validazione 1.9432 (migliore 1.9432), 628 s
+[E1 p4 r0]  epoca 7: addestramento 1.9891, validazione 2.1844 (migliore 2.1657), 387 s
+[E1 p3 r0]  epoca 10: addestramento 1.9121, validazione 1.9486 (migliore 1.9244), 567 s
+[E1 p1 r1]  epoca 5: addestramento 2.0014, validazione 2.0472 (migliore 2.0338), 307 s
+[E1 p0 r1]  epoca 6: addestramento 2.0188, validazione 1.9669 (migliore 1.9669), 329 s
+[E1 p0 r0]  epoca 20: addestramento 1.8174, validazione 1.8953 (migliore 1.8841), 945 s
+[E1 p1 r0]  epoca 13: addestramento 1.8743, validazione 1.9433 (migliore 1.9433), 732 s
+[E0 p4 r1]  epoca 22: addestramento 1.8119, validazione 2.1737 (migliore 2.1540), 1267 s
+[E1 p2 r0]  epoca 13: addestramento 1.9131, validazione 1.9657 (migliore 1.9432), 677 s
+[E1 p4 r0]  epoca 8: addestramento 1.9949, validazione 2.1342 (migliore 2.1342), 438 s
+[E1 p3 r0]  epoca 11: addestramento 1.9249, validazione 1.9446 (migliore 1.9244), 619 s
+[E1 p0 r1]  epoca 7: addestramento 1.9722, validazione 1.9551 (migliore 1.9551), 379 s
+[E1 p0 r0]  epoca 21: addestramento 1.7988, validazione 1.9167 (migliore 1.8841), 995 s
+[E1 p1 r1]  epoca 6: addestramento 1.9833, validazione 2.0135 (migliore 2.0135), 364 s
+[E1 p1 r0]  epoca 14: addestramento 1.8599, validazione 1.9478 (migliore 1.9433), 789 s
+[E1 p2 r0]  epoca 14: addestramento 1.8774, validazione 1.9385 (migliore 1.9385), 726 s
+[E0 p4 r1]  epoca 23: addestramento 1.7934, validazione 2.2212 (migliore 2.1540), 1330 s
+[E1 p4 r0]  epoca 9: addestramento 1.9657, validazione 2.1496 (migliore 2.1342), 487 s
+[E1 p3 r0]  epoca 12: addestramento 1.9153, validazione 1.8973 (migliore 1.8973), 668 s
+[E1 p0 r1]  epoca 8: addestramento 1.9631, validazione 1.9313 (migliore 1.9313), 427 s
+[E1 p0 r0]  epoca 22: addestramento 1.7936, validazione 1.9215 (migliore 1.8841), 1043 s
+[E1 p1 r1]  epoca 7: addestramento 1.9570, validazione 1.9982 (migliore 1.9982), 418 s
+[E1 p1 r0]  epoca 15: addestramento 1.8501, validazione 1.9260 (migliore 1.9260), 842 s
+[E1 p2 r0]  epoca 15: addestramento 1.8742, validazione 1.9739 (migliore 1.9385), 773 s
+[E1 p4 r0]  epoca 10: addestramento 1.9533, validazione 2.2131 (migliore 2.1342), 536 s
+[E0 p4 r1]  epoca 24: addestramento 1.7781, validazione 2.2262 (migliore 2.1540), 1390 s
+[E1 p3 r0]  epoca 13: addestramento 1.8950, validazione 1.9138 (migliore 1.8973), 716 s
+[E1 p0 r1]  epoca 9: addestramento 1.9591, validazione 1.9071 (migliore 1.9071), 475 s
+[E1 p0 r0]  epoca 23: addestramento 1.7786, validazione 1.9250 (migliore 1.8841), 1090 s
+[E1 p1 r1]  epoca 8: addestramento 1.9362, validazione 1.9838 (migliore 1.9838), 472 s
+[E1 p2 r0]  epoca 16: addestramento 1.8734, validazione 1.9708 (migliore 1.9385), 820 s
+[E1 p1 r0]  epoca 16: addestramento 1.8312, validazione 1.9332 (migliore 1.9260), 896 s
+[E1 p4 r0]  epoca 11: addestramento 1.9460, validazione 2.1519 (migliore 2.1342), 584 s
+[E1 p3 r0]  epoca 14: addestramento 1.8749, validazione 1.9046 (migliore 1.8973), 764 s
+[E1 p0 r1]  epoca 10: addestramento 1.9297, validazione 1.9094 (migliore 1.9071), 522 s
+[E1 p0 r0]  epoca 24: addestramento 1.7627, validazione 1.9161 (migliore 1.8841), 1136 s
+[E0 p4 r1]  epoca 25: addestramento 1.7792, validazione 2.2469 (migliore 2.1540), 1449 s
+[E1 p1 r1]  epoca 9: addestramento 1.9319, validazione 1.9707 (migliore 1.9707), 524 s
+[E1 p2 r0]  epoca 17: addestramento 1.8600, validazione 1.9660 (migliore 1.9385), 865 s
+[E1 p1 r0]  epoca 17: addestramento 1.8322, validazione 1.9577 (migliore 1.9260), 945 s
+[E1 p4 r0]  epoca 12: addestramento 1.9285, validazione 2.1438 (migliore 2.1342), 627 s
+[E1 p3 r0]  epoca 15: addestramento 1.8861, validazione 1.9647 (migliore 1.8973), 805 s
+[E1 p0 r1]  epoca 11: addestramento 1.9305, validazione 1.9082 (migliore 1.9071), 564 s
+[E1 p0 r0]  epoca 25: addestramento 1.7413, validazione 1.9597 (migliore 1.8841), 1176 s
+[41/51 107.5 min] addestra|E1|0|0: {'epoca_scelta': 15, 'bpc_validazione': 1.88412, 'bpc_fuori': 1.94663} (1190 s)
+[E0 p4 r1]  epoca 26: addestramento 1.7559, validazione 2.2404 (migliore 2.1540), 1493 s
+[E1 p2 r0]  epoca 18: addestramento 1.8427, validazione 1.9821 (migliore 1.9385), 896 s
+[E1 p1 r1]  epoca 10: addestramento 1.9212, validazione 1.9859 (migliore 1.9707), 560 s
+[E1 p4 r0]  epoca 13: addestramento 1.9182, validazione 2.1378 (migliore 2.1342), 653 s
+[E1 p1 r0]  epoca 18: addestramento 1.8301, validazione 1.9628 (migliore 1.9260), 975 s
+[E1 p0 r1]  epoca 12: addestramento 1.9114, validazione 1.9559 (migliore 1.9071), 590 s
+[E1 p3 r0]  epoca 16: addestramento 1.8816, validazione 1.9592 (migliore 1.8973), 833 s
+[E1 p2 r1]  epoca 1: addestramento 2.7858, validazione 2.3181 (migliore 2.3181), 27 s
+[E1 p2 r0]  epoca 19: addestramento 1.8415, validazione 1.9715 (migliore 1.9385), 923 s
+[E0 p4 r1]  epoca 27: addestramento 1.7636, validazione 2.2292 (migliore 2.1540), 1529 s
+[E1 p1 r1]  epoca 11: addestramento 1.9078, validazione 1.9469 (migliore 1.9469), 592 s
+[E1 p4 r0]  epoca 14: addestramento 1.9094, validazione 2.1266 (migliore 2.1266), 686 s
+[E1 p0 r1]  epoca 13: addestramento 1.9024, validazione 1.8916 (migliore 1.8916), 623 s
+[E1 p3 r0]  epoca 17: addestramento 1.8600, validazione 1.9014 (migliore 1.8973), 868 s
+[E1 p1 r0]  epoca 19: addestramento 1.8192, validazione 1.9595 (migliore 1.9260), 1012 s
+[E1 p2 r1]  epoca 2: addestramento 2.1835, validazione 2.1661 (migliore 2.1661), 68 s
+[E1 p2 r0]  epoca 20: addestramento 1.8180, validazione 1.9733 (migliore 1.9385), 970 s
+[E1 p1 r1]  epoca 12: addestramento 1.8888, validazione 1.9638 (migliore 1.9469), 646 s
+[E1 p4 r0]  epoca 15: addestramento 1.8963, validazione 2.1477 (migliore 2.1266), 735 s
+[E1 p0 r1]  epoca 14: addestramento 1.8825, validazione 1.9025 (migliore 1.8916), 672 s
+[E0 p4 r1]  epoca 28: addestramento 1.7408, validazione 2.2516 (migliore 2.1540), 1588 s
+[E1 p3 r0]  epoca 18: addestramento 1.8285, validazione 1.9182 (migliore 1.8973), 919 s
+[E1 p1 r0]  epoca 20: addestramento 1.8103, validazione 1.9624 (migliore 1.9260), 1067 s
+[E1 p2 r1]  epoca 3: addestramento 2.1103, validazione 2.1227 (migliore 2.1227), 116 s
+[E1 p2 r0]  epoca 21: addestramento 1.8062, validazione 1.9760 (migliore 1.9385), 1019 s
+[E1 p0 r1]  epoca 15: addestramento 1.8842, validazione 1.8896 (migliore 1.8896), 719 s
+[E1 p4 r0]  epoca 16: addestramento 1.8794, validazione 2.1403 (migliore 2.1266), 784 s
+[E1 p1 r1]  epoca 13: addestramento 1.8832, validazione 1.9434 (migliore 1.9434), 701 s
+[E1 p3 r0]  epoca 19: addestramento 1.8205, validazione 1.9597 (migliore 1.8973), 967 s
+[E0 p4 r1]  epoca 29: addestramento 1.7336, validazione 2.2530 (migliore 2.1540), 1650 s
+[E1 p1 r0]  epoca 21: addestramento 1.7828, validazione 1.9565 (migliore 1.9260), 1122 s
+[E1 p2 r1]  epoca 4: addestramento 2.0583, validazione 2.0699 (migliore 2.0699), 165 s
+[E1 p2 r0]  epoca 22: addestramento 1.7993, validazione 1.9742 (migliore 1.9385), 1068 s
+[42/51 110.7 min] addestra|E0|4|1: {'epoca_scelta': 19, 'bpc_validazione': 2.15399, 'bpc_fuori': 1.83826} (1683 s)
+[E1 p0 r1]  epoca 16: addestramento 1.8680, validazione 1.9118 (migliore 1.8896), 768 s
+[E1 p4 r0]  epoca 17: addestramento 1.8757, validazione 2.1444 (migliore 2.1266), 833 s
+[E1 p3 r0]  epoca 20: addestramento 1.8252, validazione 1.9689 (migliore 1.8973), 1016 s
+[E1 p1 r1]  epoca 14: addestramento 1.8693, validazione 1.9581 (migliore 1.9434), 755 s
+[E1 p2 r1]  epoca 5: addestramento 2.0331, validazione 2.0586 (migliore 2.0586), 212 s
+[E1 p1 r0]  epoca 22: addestramento 1.7973, validazione 1.9483 (migliore 1.9260), 1176 s
+[E1 p2 r0]  epoca 23: addestramento 1.7874, validazione 2.0005 (migliore 1.9385), 1115 s
+[E1 p0 r1]  epoca 17: addestramento 1.8616, validazione 1.9109 (migliore 1.8896), 817 s
+[E1 p4 r0]  epoca 18: addestramento 1.8684, validazione 2.1506 (migliore 2.1266), 882 s
+[E1 p3 r1]  epoca 1: addestramento 2.8718, validazione 2.2214 (migliore 2.2214), 50 s
+[E1 p3 r0]  epoca 21: addestramento 1.8179, validazione 1.9523 (migliore 1.8973), 1067 s
+[E1 p1 r1]  epoca 15: addestramento 1.8675, validazione 1.9828 (migliore 1.9434), 810 s
+[E1 p2 r1]  epoca 6: addestramento 2.0063, validazione 2.0022 (migliore 2.0022), 261 s
+[E1 p1 r0]  epoca 23: addestramento 1.7618, validazione 1.9611 (migliore 1.9260), 1231 s
+[E1 p2 r0]  epoca 24: addestramento 1.7876, validazione 1.9870 (migliore 1.9385), 1165 s
+[43/51 112.3 min] addestra|E1|2|0: {'epoca_scelta': 14, 'bpc_validazione': 1.93849, 'bpc_fuori': 1.92766} (1182 s)
+[E1 p0 r1]  epoca 18: addestramento 1.8415, validazione 1.8930 (migliore 1.8896), 865 s
+[E1 p4 r0]  epoca 19: addestramento 1.8522, validazione 2.1518 (migliore 2.1266), 932 s
+[E1 p3 r1]  epoca 2: addestramento 2.2033, validazione 2.1222 (migliore 2.1222), 99 s
+[E1 p3 r0]  epoca 22: addestramento 1.8148, validazione 1.9244 (migliore 1.8973), 1116 s
+[E1 p2 r1]  epoca 7: addestramento 1.9755, validazione 1.9926 (migliore 1.9926), 309 s
+[E1 p1 r1]  epoca 16: addestramento 1.8562, validazione 1.9452 (migliore 1.9434), 863 s
+[44/51 112.7 min] addestra|E1|3|0: {'epoca_scelta': 12, 'bpc_validazione': 1.89725, 'bpc_fuori': 1.92031} (1139 s)
+[E1 p1 r0]  epoca 24: addestramento 1.7578, validazione 1.9556 (migliore 1.9260), 1283 s
+[E1 p4 r1]  epoca 1: addestramento 2.7583, validazione 2.4573 (migliore 2.4573), 46 s
+[E1 p0 r1]  epoca 19: addestramento 1.8294, validazione 1.9443 (migliore 1.8896), 911 s
+[E1 p4 r0]  epoca 20: addestramento 1.8524, validazione 2.1485 (migliore 2.1266), 977 s
+[E1 p3 r1]  epoca 3: addestramento 2.1284, validazione 2.0753 (migliore 2.0753), 144 s
+[E1 p2 r1]  epoca 8: addestramento 1.9612, validazione 1.9932 (migliore 1.9926), 351 s
+[E1 p1 r1]  epoca 17: addestramento 1.8308, validazione 1.9566 (migliore 1.9434), 911 s
+[E1 p1 r0]  epoca 25: addestramento 1.7466, validazione 2.0172 (migliore 1.9260), 1331 s
+[E1 p4 r1]  epoca 2: addestramento 2.1973, validazione 2.3079 (migliore 2.3079), 89 s
+[E1 p0 r1]  epoca 20: addestramento 1.8335, validazione 1.9213 (migliore 1.8896), 953 s
+[E1 p4 r0]  epoca 21: addestramento 1.8311, validazione 2.1355 (migliore 2.1266), 1020 s
+[45/51 113.9 min] addestra|E1|1|0: {'epoca_scelta': 15, 'bpc_validazione': 1.92597, 'bpc_fuori': 2.01235} (1348 s)
+[E1 p3 r1]  epoca 4: addestramento 2.0587, validazione 2.0251 (migliore 2.0251), 186 s
+[E1 p2 r1]  epoca 9: addestramento 1.9331, validazione 1.9788 (migliore 1.9788), 392 s
+[E1 p1 r1]  epoca 18: addestramento 1.8293, validazione 1.9849 (migliore 1.9434), 956 s
+[E1 p4 r1]  epoca 3: addestramento 2.1329, validazione 2.4085 (migliore 2.3079), 127 s
+[E1 p0 r1]  epoca 21: addestramento 1.8141, validazione 1.8982 (migliore 1.8896), 991 s
+[E1 p4 r0]  epoca 22: addestramento 1.8114, validazione 2.1908 (migliore 2.1266), 1059 s
+[E1 p3 r1]  epoca 5: addestramento 2.0485, validazione 1.9862 (migliore 1.9862), 224 s
+[E1 p2 r1]  epoca 10: addestramento 1.9234, validazione 1.9625 (migliore 1.9625), 428 s
+[E1 p1 r1]  epoca 19: addestramento 1.8248, validazione 1.9684 (migliore 1.9434), 994 s
+[E1 p4 r1]  epoca 4: addestramento 2.0823, validazione 2.4601 (migliore 2.3079), 158 s
+[E1 p0 r1]  epoca 22: addestramento 1.8067, validazione 1.9022 (migliore 1.8896), 1021 s
+[E1 p4 r0]  epoca 23: addestramento 1.8167, validazione 2.1772 (migliore 2.1266), 1089 s
+[E1 p3 r1]  epoca 6: addestramento 2.0022, validazione 1.9466 (migliore 1.9466), 253 s
+[E1 p2 r1]  epoca 11: addestramento 1.9194, validazione 1.9555 (migliore 1.9555), 455 s
+[E1 p1 r1]  epoca 20: addestramento 1.8043, validazione 2.0110 (migliore 1.9434), 1023 s
+[E1 p0 r1]  epoca 23: addestramento 1.7842, validazione 1.9147 (migliore 1.8896), 1047 s
+[E1 p4 r1]  epoca 5: addestramento 2.0454, validazione 2.2166 (migliore 2.2166), 184 s
+[E1 p4 r0]  epoca 24: addestramento 1.8160, validazione 2.1797 (migliore 2.1266), 1115 s
+[E1 p3 r1]  epoca 7: addestramento 1.9710, validazione 1.9672 (migliore 1.9466), 280 s
+[E1 p2 r1]  epoca 12: addestramento 1.9064, validazione 1.9571 (migliore 1.9555), 481 s
+[46/51 115.6 min] addestra|E1|4|0: {'epoca_scelta': 14, 'bpc_validazione': 2.1266, 'bpc_fuori': 1.83865} (1132 s)
+[E1 p4 r1]  epoca 6: addestramento 2.0028, validazione 2.2252 (migliore 2.2166), 207 s
+[E1 p1 r1]  epoca 21: addestramento 1.8042, validazione 1.9697 (migliore 1.9434), 1049 s
+[E1 p0 r1]  epoca 24: addestramento 1.7914, validazione 1.9453 (migliore 1.8896), 1070 s
+[E1 p3 r1]  epoca 8: addestramento 1.9628, validazione 1.9298 (migliore 1.9298), 302 s
+[E1 p2 r1]  epoca 13: addestramento 1.8936, validazione 1.9706 (migliore 1.9555), 503 s
+[E1 p0 r1]  epoca 25: addestramento 1.7723, validazione 1.9504 (migliore 1.8896), 1090 s
+[E1 p4 r1]  epoca 7: addestramento 1.9940, validazione 2.2654 (migliore 2.2166), 227 s
+[E1 p1 r1]  epoca 22: addestramento 1.7930, validazione 2.0369 (migliore 1.9434), 1072 s
+[E1 p3 r1]  epoca 9: addestramento 1.9526, validazione 1.9557 (migliore 1.9298), 322 s
+[E1 p2 r1]  epoca 14: addestramento 1.8769, validazione 1.9810 (migliore 1.9555), 522 s
+[47/51 116.2 min] addestra|E1|0|1: {'epoca_scelta': 15, 'bpc_validazione': 1.8896, 'bpc_fuori': 1.9829} (1105 s)
+[E1 p4 r1]  epoca 8: addestramento 1.9812, validazione 2.2100 (migliore 2.2100), 250 s
+[E1 p1 r1]  epoca 23: addestramento 1.7830, validazione 1.9634 (migliore 1.9434), 1097 s
+[E1 p2 r1]  epoca 15: addestramento 1.8707, validazione 1.9751 (migliore 1.9555), 545 s
+[E1 p3 r1]  epoca 10: addestramento 1.9217, validazione 1.9507 (migliore 1.9298), 345 s
+[48/51 116.7 min] addestra|E1|1|1: {'epoca_scelta': 13, 'bpc_validazione': 1.94339, 'bpc_fuori': 2.02099} (1113 s)
+[E1 p4 r1]  epoca 9: addestramento 1.9637, validazione 2.2240 (migliore 2.2100), 271 s
+[E1 p2 r1]  epoca 16: addestramento 1.8621, validazione 1.9744 (migliore 1.9555), 565 s
+[E1 p3 r1]  epoca 11: addestramento 1.9229, validazione 1.9076 (migliore 1.9076), 366 s
+[E1 p4 r1]  epoca 10: addestramento 1.9581, validazione 2.2142 (migliore 2.2100), 291 s
+[E1 p2 r1]  epoca 17: addestramento 1.8483, validazione 1.9978 (migliore 1.9555), 585 s
+[E1 p3 r1]  epoca 12: addestramento 1.9108, validazione 1.9363 (migliore 1.9076), 385 s
+[E1 p4 r1]  epoca 11: addestramento 1.9327, validazione 2.1606 (migliore 2.1606), 311 s
+[E1 p2 r1]  epoca 18: addestramento 1.8397, validazione 1.9721 (migliore 1.9555), 604 s
+[E1 p3 r1]  epoca 13: addestramento 1.9007, validazione 1.9413 (migliore 1.9076), 404 s
+[E1 p4 r1]  epoca 12: addestramento 1.9308, validazione 2.1802 (migliore 2.1606), 330 s
+[E1 p2 r1]  epoca 19: addestramento 1.8375, validazione 1.9743 (migliore 1.9555), 623 s
+[E1 p3 r1]  epoca 14: addestramento 1.8857, validazione 1.9692 (migliore 1.9076), 424 s
+[E1 p4 r1]  epoca 13: addestramento 1.9066, validazione 2.2311 (migliore 2.1606), 349 s
+[E1 p2 r1]  epoca 20: addestramento 1.8247, validazione 1.9781 (migliore 1.9555), 641 s
+[E1 p3 r1]  epoca 15: addestramento 1.8844, validazione 1.9199 (migliore 1.9076), 443 s
+[E1 p4 r1]  epoca 14: addestramento 1.8961, validazione 2.1876 (migliore 2.1606), 369 s
+[E1 p2 r1]  epoca 21: addestramento 1.8091, validazione 2.0124 (migliore 1.9555), 661 s
+[E1 p3 r1]  epoca 16: addestramento 1.8748, validazione 1.9511 (migliore 1.9076), 462 s
+[49/51 118.6 min] addestra|E1|2|1: {'epoca_scelta': 11, 'bpc_validazione': 1.95548, 'bpc_fuori': 1.94522} (668 s)
+[E1 p4 r1]  epoca 15: addestramento 1.9003, validazione 2.1594 (migliore 2.1594), 388 s
+[E1 p3 r1]  epoca 17: addestramento 1.8730, validazione 1.9611 (migliore 1.9076), 484 s
+[E1 p4 r1]  epoca 16: addestramento 1.8782, validazione 2.1484 (migliore 2.1484), 413 s
+[E1 p3 r1]  epoca 18: addestramento 1.8612, validazione 1.9765 (migliore 1.9076), 507 s
+[E1 p4 r1]  epoca 17: addestramento 1.8748, validazione 2.1921 (migliore 2.1484), 437 s
+[E1 p3 r1]  epoca 19: addestramento 1.8525, validazione 1.9189 (migliore 1.9076), 531 s
+[E1 p4 r1]  epoca 18: addestramento 1.8662, validazione 2.2217 (migliore 2.1484), 461 s
+[E1 p3 r1]  epoca 20: addestramento 1.8333, validazione 1.9603 (migliore 1.9076), 555 s
+[E1 p4 r1]  epoca 19: addestramento 1.8589, validazione 2.1866 (migliore 2.1484), 481 s
+[E1 p3 r1]  epoca 21: addestramento 1.8287, validazione 1.9301 (migliore 1.9076), 575 s
+[50/51 120.5 min] addestra|E1|3|1: {'epoca_scelta': 11, 'bpc_validazione': 1.90763, 'bpc_fuori': 1.95105} (589 s)
+[E1 p4 r1]  epoca 20: addestramento 1.8493, validazione 2.2270 (migliore 2.1484), 500 s
+[E1 p4 r1]  epoca 21: addestramento 1.8427, validazione 2.2214 (migliore 2.1484), 519 s
+[E1 p4 r1]  epoca 22: addestramento 1.8357, validazione 2.2149 (migliore 2.1484), 538 s
+[E1 p4 r1]  epoca 23: addestramento 1.8187, validazione 2.2292 (migliore 2.1484), 555 s
+[E1 p4 r1]  epoca 24: addestramento 1.7925, validazione 2.2294 (migliore 2.1484), 573 s
+[E1 p4 r1]  epoca 25: addestramento 1.7743, validazione 2.2723 (migliore 2.1484), 590 s
+[E1 p4 r1]  epoca 26: addestramento 1.7761, validazione 2.2916 (migliore 2.1484), 608 s
+[51/51 122.5 min] addestra|E1|4|1: {'epoca_scelta': 16, 'bpc_validazione': 2.14838, 'bpc_fuori': 1.83343} (616 s)
+== fase C: 60 lavori
+[1/60 0.5 min] riflibro|1|8: {'AUC_e231': 0.7452699999999999, 'AUC_e266': 0.800825, 'AUC_A': 0.6472845799431429} (26 s)
+[2/60 0.5 min] riflibro|1|4: {'AUC_e231': 0.7945300000000001, 'AUC_e266': 0.8667, 'AUC_A': 0.6614645622978139} (26 s)
+[3/60 0.6 min] riflibro|1|5: {'AUC_e231': 0.82359842578154, 'AUC_e266': 0.8706418157966388, 'AUC_A': 0.7013332026271935} (27 s)
+[4/60 0.6 min] riflibro|1|3: {'AUC_e231': 0.729425, 'AUC_e266': 0.8265250000000002, 'AUC_A': 0.7006077835506324} (27 s)
+[5/60 0.6 min] riflibro|1|2: {'AUC_e231': 0.7792682002979723, 'AUC_e266': 0.8430292164339285, 'AUC_A': 0.6954318204097637} (27 s)
+[6/60 0.6 min] riflibro|1|1: {'AUC_e231': 0.7652681864310289, 'AUC_e266': 0.8467909210168065, 'AUC_A': 0.7135133810410744} (27 s)
+[7/60 0.6 min] riflibro|1|6: {'AUC_e231': 0.796495, 'AUC_e266': 0.85122, 'AUC_A': 0.6325017155180864} (27 s)
+[8/60 0.6 min] riflibro|1|7: {'AUC_e231': 0.804039503972674, 'AUC_e266': 0.8176183757827777, 'AUC_A': 0.6722919321635134} (27 s)
+[9/60 0.8 min] riflibro|1|9: {'AUC_e231': 0.7952014508381531, 'AUC_e266': 0.8463483972159592, 'AUC_A': 0.6825164199588276} (15 s)
+[10/60 0.8 min] riflibro|1|10: {'AUC_e231': 0.8127291442015488, 'AUC_e266': 0.836819919615724, 'AUC_A': 0.6474757376727772} (15 s)
+[11/60 0.8 min] riflibro|5|2: {'AUC_e231': 0.755335, 'AUC_e266': 0.77665, 'AUC_A': 0.7062101754729928} (15 s)
+[12/60 0.8 min] riflibro|5|5: {'AUC_e231': 0.7762550000000001, 'AUC_e266': 0.7920049999999998, 'AUC_A': 0.6873639839231449} (15 s)
+[13/60 0.8 min] riflibro|5|6: {'AUC_e231': 0.7927931112850686, 'AUC_e266': 0.7968031110325497, 'AUC_A': 0.7210616606215077} (15 s)
+[14/60 0.8 min] riflibro|5|1: {'AUC_e231': 0.75053, 'AUC_e266': 0.774025, 'AUC_A': 0.725360258798157} (16 s)
+[15/60 0.8 min] riflibro|5|4: {'AUC_e231': 0.785535, 'AUC_e266': 0.8165100000000001, 'AUC_A': 0.7129301048916773} (16 s)
+[16/60 0.8 min] riflibro|5|3: {'AUC_e231': 0.776575, 'AUC_e266': 0.79441, 'AUC_A': 0.6984707381629252} (16 s)
+[17/60 1.1 min] riflibro|5|7: {'AUC_e231': 0.7523313947556372, 'AUC_e266': 0.7689215386185084, 'AUC_A': 0.7243505538672679} (15 s)
+[18/60 1.1 min] riflibro|5|8: {'AUC_e231': 0.8061550000000001, 'AUC_e266': 0.8239449999999999, 'AUC_A': 0.7115380845015195} (16 s)
+[19/60 1.1 min] riflibro|5|9: {'AUC_e231': 0.7995950000000001, 'AUC_e266': 0.8118599999999999, 'AUC_A': 0.7166307224781884} (16 s)
+[20/60 1.1 min] riflibro|5|10: {'AUC_e231': 0.8218600142842567, 'AUC_e266': 0.8345270890725436, 'AUC_A': 0.6664101558670719} (16 s)
+[21/60 3.1 min] libro|E2|2: {'AUC_e231': 0.8431799999999999, 'AUC_e266': 0.8809049999999999, 'AUC_A': 0.6938241348887364} (136 s)
+[22/60 3.1 min] libro|E2|1: {'AUC_e231': 0.8381700000000001, 'AUC_e266': 0.85382, 'AUC_A': 0.6768012939907853} (138 s)
+[23/60 3.1 min] libro|E2|3: {'AUC_e231': 0.821945, 'AUC_e266': 0.864395, 'AUC_A': 0.6542103715322026} (138 s)
+[24/60 3.1 min] libro|E2|4: {'AUC_e231': 0.8247150000000001, 'AUC_e266': 0.8602500000000001, 'AUC_A': 0.6913930006862072} (138 s)
+[25/60 3.2 min] libro|E2|6: {'AUC_e231': 0.73729, 'AUC_e266': 0.837345, 'AUC_A': 0.6927801195961181} (131 s)
+[26/60 3.3 min] libro|E2|7: {'AUC_e231': 0.7983182242872655, 'AUC_e266': 0.872669882073685, 'AUC_A': 0.7276688559945104} (133 s)
+[27/60 3.3 min] libro|E2|8: {'AUC_e231': 0.7820863109517436, 'AUC_e266': 0.8873008257367239, 'AUC_A': 0.7052445838643271} (133 s)
+[28/60 3.3 min] libro|E2|5: {'AUC_e231': 0.8350900229792177, 'AUC_e266': 0.8581803489810863, 'AUC_A': 0.6820605822958533} (136 s)
+[29/60 4.9 min] libro|E3|1: {'AUC_e231': 0.8255340214351129, 'AUC_e266': 0.8530085888963145, 'AUC_A': 0.7121850798941279} (105 s)
+[30/60 4.9 min] libro|E3|2: {'AUC_e231': 0.7502184288275549, 'AUC_e266': 0.8285548344738769, 'AUC_A': 0.6918782472306637} (106 s)
+[31/60 5.0 min] libro|E3|3: {'AUC_e231': 0.8001188089403726, 'AUC_e266': 0.8494690725477092, 'AUC_A': 0.6624105479854916} (106 s)
+[32/60 5.0 min] libro|E3|5: {'AUC_e231': 0.77675, 'AUC_e266': 0.8163449999999999, 'AUC_A': 0.6921527301244976} (105 s)
+[33/60 5.1 min] libro|E3|4: {'AUC_e231': 0.818831217049083, 'AUC_e266': 0.8457414420435139, 'AUC_A': 0.669400058817763} (106 s)
+[34/60 5.1 min] libro|E3|6: {'AUC_e231': 0.8421997755331088, 'AUC_e266': 0.8502040608101215, 'AUC_A': 0.742334084893638} (106 s)
+[35/60 5.2 min] libro|E2|9: {'AUC_e231': 0.764441474220935, 'AUC_e266': 0.8616321378183708, 'AUC_A': 0.7293647681599843} (127 s)
+[36/60 5.2 min] libro|E2|10: {'AUC_e231': 0.764235, 'AUC_e266': 0.8653150000000001, 'AUC_A': 0.6970591118517794} (128 s)
+[37/60 6.5 min] libro|E3|7: {'AUC_e231': 0.8029058686666171, 'AUC_e266': 0.8359496052077919, 'AUC_A': 0.7848593275169101} (99 s)
+[38/60 6.6 min] libro|E3|8: {'AUC_e231': 0.7934499999999999, 'AUC_e266': 0.813555, 'AUC_A': 0.7821684148612882} (102 s)
+[39/60 6.7 min] libro|E3|9: {'AUC_e231': 0.7807429105325622, 'AUC_e266': 0.8210701749955808, 'AUC_A': 0.7630330359768649} (100 s)
+[40/60 6.7 min] libro|E3|10: {'AUC_e231': 0.7940299999999999, 'AUC_e266': 0.84673, 'AUC_A': 0.7368101166552299} (101 s)
+[41/60 6.7 min] libro|E0|1: {'AUC_e231': 0.8140244053365017, 'AUC_e266': 0.8697358976262966, 'AUC_A': 0.7247230663660426} (102 s)
+[42/60 6.8 min] libro|E0|2: {'AUC_e231': 0.838137669859657, 'AUC_e266': 0.9094081829657682, 'AUC_A': 0.7338692285070091} (103 s)
+[43/60 6.9 min] libro|E0|3: {'AUC_e231': 0.834055, 'AUC_e266': 0.8990649999999999, 'AUC_A': 0.7334624056465053} (101 s)
+[44/60 6.9 min] libro|E0|4: {'AUC_e231': 0.8349949999999999, 'AUC_e266': 0.8970650000000001, 'AUC_A': 0.7156455249485344} (102 s)
+[45/60 8.2 min] libro|E0|5: {'AUC_e231': 0.8338555976337221, 'AUC_e266': 0.9070171530407662, 'AUC_A': 0.7290608763846681} (101 s)
+[46/60 8.3 min] libro|E0|6: {'AUC_e231': 0.7732432365535505, 'AUC_e266': 0.8739437142644985, 'AUC_A': 0.6595970983236937} (105 s)
+[47/60 8.4 min] libro|E0|7: {'AUC_e231': 0.7561050469047796, 'AUC_e266': 0.8450434395188238, 'AUC_A': 0.7144054504460347} (105 s)
+[48/60 8.5 min] libro|E1|1: {'AUC_e231': 0.7797025327643242, 'AUC_e266': 0.8454786495290524, 'AUC_A': 0.6626752279188315} (94 s)
+[49/60 8.5 min] libro|E0|8: {'AUC_e231': 0.7392440781168783, 'AUC_e266': 0.8192321972228409, 'AUC_A': 0.6830800901872365} (106 s)
+[50/60 8.5 min] libro|E1|2: {'AUC_e231': 0.8101765106941745, 'AUC_e266': 0.8866644781697431, 'AUC_A': 0.6752622291932162} (95 s)
+[51/60 8.5 min] libro|E0|9: {'AUC_e231': 0.7554713992227915, 'AUC_e266': 0.8148115145664712, 'AUC_A': 0.6653759435349476} (107 s)
+[52/60 8.6 min] libro|E0|10: {'AUC_e231': 0.7216500000000001, 'AUC_e266': 0.79398, 'AUC_A': 0.6798255073032056} (106 s)
+[53/60 9.8 min] libro|E1|3: {'AUC_e231': 0.7532981856884731, 'AUC_e266': 0.8280735625355806, 'AUC_A': 0.6243211449857857} (97 s)
+[54/60 9.9 min] libro|E1|4: {'AUC_e231': 0.762605, 'AUC_e266': 0.86745, 'AUC_A': 0.6697480639153024} (97 s)
+[55/60 10.0 min] libro|E1|5: {'AUC_e231': 0.7902230142818246, 'AUC_e266': 0.8447464171678918, 'AUC_A': 0.6308303107538477} (95 s)
+[56/60 10.0 min] libro|E1|6: {'AUC_e231': 0.8362399999999999, 'AUC_e266': 0.88534, 'AUC_A': 0.7362562493873149} (95 s)
+[57/60 10.1 min] libro|E1|7: {'AUC_e231': 0.8612437506376901, 'AUC_e266': 0.8753647586980919, 'AUC_A': 0.7313547691402804} (95 s)
+[58/60 10.1 min] libro|E1|8: {'AUC_e231': 0.8542309537637939, 'AUC_e266': 0.8779525769551274, 'AUC_A': 0.7284481913537888} (93 s)
+[59/60 10.1 min] libro|E1|9: {'AUC_e231': 0.894893690750229, 'AUC_e266': 0.9155070419049032, 'AUC_A': 0.7329624546613077} (95 s)
+[60/60 10.1 min] libro|E1|10: {'AUC_e231': 0.8603598920818791, 'AUC_e266': 0.8723051409618574, 'AUC_A': 0.739089304970101} (93 s)
+== fase F: 33 lavori
+[1/33 0.1 min] F0|vere: {} (1 s)
+[2/33 0.1 min] F0|M1:1: {} (1 s)
+[3/33 0.1 min] F0|M1:4: {} (1 s)
+[4/33 0.1 min] F0c|neg: {} (1 s)
+[5/33 0.1 min] F0|M1:5: {} (1 s)
+[6/33 0.1 min] F0|M1:3: {} (1 s)
+[7/33 0.1 min] F0|M1:2: {} (1 s)
+[8/33 0.1 min] F0c|pos: {} (1 s)
+[9/33 0.1 min] F0|M1:6: {} (1 s)
+[10/33 0.1 min] F0|M1:7: {} (1 s)
+[11/33 0.1 min] F0|M1:8: {} (1 s)
+[12/33 0.1 min] F0|M1:9: {} (1 s)
+[13/33 0.1 min] F0|M5:2: {} (1 s)
+[14/33 0.1 min] F0|M1:10: {} (1 s)
+[15/33 0.1 min] F0|M5:1: {} (1 s)
+[16/33 0.1 min] F0|M5:3: {} (1 s)
+[17/33 0.1 min] F0|M5:4: {} (1 s)
+[18/33 0.1 min] F0|M5:5: {} (1 s)
+[19/33 0.1 min] F0|M5:6: {} (1 s)
+[20/33 0.1 min] F0|M5:8: {} (1 s)
+[21/33 0.1 min] F0|M5:7: {} (1 s)
+[22/33 0.1 min] F0|V21:13: {} (1 s)
+[23/33 0.1 min] F0|M5:9: {} (1 s)
+[24/33 0.1 min] F0|M5:10: {} (1 s)
+[25/33 0.1 min] F0|V21:14: {} (1 s)
+[26/33 0.1 min] F0|V21:15: {} (1 s)
+[27/33 0.1 min] F0|V21:16: {} (1 s)
+[28/33 0.1 min] F0|V21:18: {} (1 s)
+[29/33 0.1 min] F0|V21:17: {} (1 s)
+[30/33 0.1 min] F0|V21:21: {} (1 s)
+[31/33 0.1 min] F0|V21:19: {} (1 s)
+[32/33 0.1 min] F0|V21:20: {} (1 s)
+[33/33 0.1 min] F0|V21:22: {} (1 s)
+== fase D: 128 lavori
+[1/128 0.2 min] caso|0: {'AUC_e231': 0.5060288207038526, 'AUC_e266': 0.5030291147926673} (5 s)
+[2/128 0.2 min] casoA|0: {'AUC_A': 0.48352514459366724} (7 s)
+[3/128 0.2 min] ctrlA|e192: {'AUC_A': 0.9581364572100775} (8 s)
+[4/128 0.2 min] ctrlA|parole: {'AUC_A': 0.9862366434663269} (8 s)
+[5/128 0.2 min] ctrlA|righe: {'AUC_A': 0.5887560043133027} (8 s)
+[6/128 0.3 min] O|O2|1: {'AUC_e231': 0.985128908930497, 'AUC_e266': 0.9917655131849819} (12 s)
+[7/128 0.3 min] O|O2|2: {'AUC_e231': 0.9775169101068523, 'AUC_e266': 0.9844230957749239} (13 s)
+[8/128 0.3 min] K|0: {} (14 s)
+[9/128 0.4 min] K|1: {} (12 s)
+[10/128 0.4 min] D|0: {} (13 s)
+[11/128 0.4 min] K|2: {} (14 s)
+[12/128 0.5 min] K|3: {} (15 s)
+[13/128 0.5 min] K|4: {} (15 s)
+[14/128 0.5 min] D|1: {} (12 s)
+[15/128 0.5 min] D|2: {} (13 s)
+[16/128 0.5 min] D|3: {} (13 s)
+[17/128 0.6 min] D|4: {} (13 s)
+[18/128 0.8 min] M|vere: {'G9': 0.040196397742557295} (25 s)
+[19/128 0.9 min] M|E0:1: {'G9': 0.022081057769992547} (27 s)
+[20/128 0.9 min] M|E0:2: {'G9': 0.021398027001531573} (27 s)
+[21/128 0.9 min] M|E0:4: {'G9': 0.021338398878482465} (25 s)
+[22/128 0.9 min] M|E0:3: {'G9': 0.02197751157820004} (27 s)
+[23/128 0.9 min] M|E0:5: {'G9': 0.02063733637859044} (25 s)
+[24/128 1.0 min] M|E0:7: {'G9': 0.024439682711236577} (26 s)
+[25/128 1.0 min] M|E0:6: {'G9': 0.02434695104157299} (27 s)
+[26/128 1.3 min] M|E0:8: {'G9': 0.024731216271302158} (25 s)
+[27/128 1.3 min] M|E0:9: {'G9': 0.0245303429450132} (25 s)
+[28/128 1.3 min] M|E1:1: {'G9': 0.02765971242979737} (24 s)
+[29/128 1.3 min] M|E0:10: {'G9': 0.025269625268076492} (25 s)
+[30/128 1.3 min] M|E1:2: {'G9': 0.02801951235718402} (25 s)
+[31/128 1.3 min] M|E1:3: {'G9': 0.02730165438568375} (25 s)
+[32/128 1.4 min] M|E1:5: {'G9': 0.02749327913463573} (24 s)
+[33/128 1.4 min] M|E1:4: {'G9': 0.029015408668659863} (24 s)
+[34/128 1.7 min] M|E1:6: {'G9': 0.028208295980368156} (24 s)
+[35/128 1.7 min] M|E1:7: {'G9': 0.028022421774803404} (24 s)
+[36/128 1.7 min] M|E1:8: {'G9': 0.02758250979295326} (25 s)
+[37/128 1.7 min] M|E2:1: {'G9': 0.028345468964405835} (23 s)
+[38/128 1.7 min] M|E1:9: {'G9': 0.02881197497147348} (24 s)
+[39/128 1.7 min] M|E1:10: {'G9': 0.02906131089126381} (24 s)
+[40/128 1.8 min] M|E2:2: {'G9': 0.027189199722867614} (23 s)
+[41/128 1.8 min] M|E2:3: {'G9': 0.028304514264454624} (24 s)
+[42/128 2.0 min] M|E2:4: {'G9': 0.02840351652983589} (23 s)
+[43/128 2.1 min] M|E2:5: {'G9': 0.0265126815601235} (24 s)
+[44/128 2.1 min] M|E2:6: {'G9': 0.02576694922579934} (23 s)
+[45/128 2.1 min] M|E2:8: {'G9': 0.023892994754265144} (23 s)
+[46/128 2.1 min] M|E2:7: {'G9': 0.02333027097974712} (24 s)
+[47/128 2.1 min] M|E2:9: {'G9': 0.02423887055001954} (24 s)
+[48/128 2.2 min] M|E2:10: {'G9': 0.023310570988428543} (24 s)
+[49/128 2.2 min] M|E3:1: {'G9': 0.027794823449587357} (23 s)
+[50/128 2.4 min] M|E3:2: {'G9': 0.027250791216312596} (23 s)
+[51/128 2.5 min] M|E3:5: {'G9': 0.026796105114049028} (22 s)
+[52/128 2.5 min] M|E3:4: {'G9': 0.028967734464226808} (23 s)
+[53/128 2.5 min] M|E3:3: {'G9': 0.028397793393895802} (23 s)
+[54/128 2.5 min] M|E3:7: {'G9': 0.02472283109105511} (23 s)
+[55/128 2.5 min] M|E3:6: {'G9': 0.024657792806965517} (24 s)
+[56/128 2.6 min] M|E3:9: {'G9': 0.024662482337072144} (24 s)
+[57/128 2.6 min] M|E3:8: {'G9': 0.023978105495555988} (24 s)
+[58/128 2.8 min] M|E3:10: {'G9': 0.024495595564590283} (24 s)
+[59/128 2.9 min] M|M1:2: {'G9': 0.022244199967569656} (24 s)
+[60/128 2.9 min] M|M1:1: {'G9': 0.023303046491793822} (26 s)
+[61/128 2.9 min] M|M1:3: {'G9': 0.022703800755055084} (26 s)
+[62/128 2.9 min] M|M1:4: {'G9': 0.02264698015119033} (26 s)
+[63/128 3.0 min] M|M1:5: {'G9': 0.02360351570009859} (26 s)
+[64/128 3.0 min] M|M1:6: {'G9': 0.025116965569580808} (25 s)
+[65/128 3.0 min] M|M1:7: {'G9': 0.026507304798664668} (25 s)
+[66/128 3.3 min] M|M1:8: {'G9': 0.025363543927756273} (25 s)
+[67/128 3.3 min] M|M1:9: {'G9': 0.02664536420298817} (24 s)
+[68/128 3.3 min] M|M5:1: {'G9': 0.03275978473863392} (23 s)
+[69/128 3.3 min] M|M1:10: {'G9': 0.027317509011784907} (26 s)
+[70/128 3.3 min] M|M5:3: {'G9': 0.03192518829681966} (24 s)
+[71/128 3.4 min] M|M5:2: {'G9': 0.031047267124986545} (24 s)
+[72/128 3.4 min] M|M5:4: {'G9': 0.030681104260426376} (24 s)
+[73/128 3.4 min] M|M5:5: {'G9': 0.031701358078835416} (24 s)
+[74/128 3.6 min] M|M5:6: {'G9': 0.032713358021671184} (23 s)
+[75/128 3.7 min] M|M5:7: {'G9': 0.031572241452095334} (23 s)
+[76/128 3.7 min] M|M5:8: {'G9': 0.031574161700314275} (24 s)
+[77/128 3.7 min] M|M5:9: {'G9': 0.030314522642784548} (24 s)
+[78/128 3.7 min] M|M5:10: {'G9': 0.03157097564899239} (24 s)
+[79/128 3.8 min] M|V21:13: {'G9': 0.040136311319989466} (27 s)
+[80/128 3.8 min] M|V21:14: {'G9': 0.03829678128771585} (25 s)
+[81/128 3.8 min] M|V21:15: {'G9': 0.04052392522182556} (26 s)
+[82/128 3.9 min] F0|E0:1: {} (1 s)
+[83/128 3.9 min] F0|E0:2: {} (1 s)
+[84/128 3.9 min] F0|E0:3: {} (1 s)
+[85/128 3.9 min] F0|E0:4: {} (1 s)
+[86/128 3.9 min] F0|E0:5: {} (1 s)
+[87/128 3.9 min] F0|E0:6: {} (1 s)
+[88/128 3.9 min] F0|E0:7: {} (1 s)
+[89/128 3.9 min] F0|E0:8: {} (1 s)
+[90/128 4.0 min] F0|E0:9: {} (1 s)
+[91/128 4.0 min] F0|E0:10: {} (1 s)
+[92/128 4.0 min] F0|E1:1: {} (1 s)
+[93/128 4.0 min] F0|E1:2: {} (1 s)
+[94/128 4.0 min] F0|E1:3: {} (1 s)
+[95/128 4.0 min] F0|E1:4: {} (1 s)
+[96/128 4.0 min] F0|E1:5: {} (1 s)
+[97/128 4.0 min] F0|E1:6: {} (1 s)
+[98/128 4.1 min] F0|E1:7: {} (1 s)
+[99/128 4.1 min] M|V21:16: {'G9': 0.03692012751539789} (25 s)
+[100/128 4.1 min] F0|E1:8: {} (1 s)
+[101/128 4.1 min] F0|E1:9: {} (1 s)
+[102/128 4.1 min] F0|E1:10: {} (1 s)
+[103/128 4.1 min] F0|E2:1: {} (1 s)
+[104/128 4.1 min] F0|E2:2: {} (1 s)
+[105/128 4.1 min] F0|E2:3: {} (1 s)
+[106/128 4.1 min] F0|E2:4: {} (1 s)
+[107/128 4.1 min] F0|E2:5: {} (1 s)
+[108/128 4.1 min] F0|E2:7: {} (1 s)
+[109/128 4.1 min] F0|E2:6: {} (1 s)
+[110/128 4.1 min] M|V21:17: {'G9': 0.04089330766767386} (26 s)
+[111/128 4.1 min] F0|E2:8: {} (1 s)
+[112/128 4.1 min] F0|E2:9: {} (1 s)
+[113/128 4.1 min] M|V21:18: {'G9': 0.03865217817623497} (26 s)
+[114/128 4.1 min] F0|E2:10: {} (1 s)
+[115/128 4.1 min] F0|E3:1: {} (1 s)
+[116/128 4.1 min] F0|E3:2: {} (1 s)
+[117/128 4.1 min] F0|E3:3: {} (1 s)
+[118/128 4.1 min] F0|E3:4: {} (1 s)
+[119/128 4.2 min] F0|E3:5: {} (1 s)
+[120/128 4.2 min] F0|E3:6: {} (1 s)
+[121/128 4.2 min] F0|E3:7: {} (1 s)
+[122/128 4.2 min] F0|E3:8: {} (1 s)
+[123/128 4.2 min] F0|E3:9: {} (1 s)
+[124/128 4.2 min] F0|E3:10: {} (1 s)
+[125/128 4.2 min] M|V21:20: {'G9': 0.03843999370705701} (27 s)
+[126/128 4.2 min] M|V21:19: {'G9': 0.04082928633686752} (27 s)
+[127/128 4.2 min] M|V21:21: {'G9': 0.0398086088250994} (25 s)
+[128/128 4.2 min] M|V21:22: {'G9': 0.03733533225653342} (25 s)
+L1: eco e legame tutti al vero: nessuno

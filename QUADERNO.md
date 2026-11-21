@@ -17271,3 +17271,38 @@ Risultati in `risultati/ia21_<testo>_<percorso>.{md,json}` e `ia21_corse_*.jsonl
   (GRU di ia07); arresti precoci (3–5 giri).
 - **Deviazioni dalla preregistrazione:** partenza dalla GRU di ia07 (predefinita) anziché da ia20; corse con 4 processi;
   `ETICHETTA` aggiunta durante la corsa per separare le provenienze (non cambia i calcoli).
+
+## 21/11/2026 (sera) — ia22 (IA22): nessun imitatore ha eco e legame tutti al vero; E2 tiene insieme copia netta, contatto e ordine delle famiglie, ma l'eco di tutti gli imitatori è troppo locale (Λ quasi doppio del vero); nel Voynich le varianti d'eco non cambiano l'inizio per accordarsi alla parola prima
+
+Preregistrato (`preregistrazioni/ia22.md`, commit 203b8f1; codice cc7d43d con `echi_modelli.py` e `echi_fase0.py`; variabili in
+`esegui.py` 7f38170). Scelta di Davide dopo IA20 e IA21 ("eco + legame insieme"); preparato da un agente, controllato e lanciato
+dal coordinatore. Corsa: coda `ia_J`, 8 processi, 18:40–20:58 (138 minuti), uscita 0. Risultati in
+`risultati/ia22_eco_e_legame.{md,json}` e `risultati/ia22_corse.jsonl` (solo numeri).
+
+- **Disegno:** quattro imitatori sulla GRU di M1 (l'unico gradino di ia20 con contatto e D al vero): E0 il puntatore di M5 su M1;
+  E1 l'eco come spinta sui segni (prodotto di esperti, normalizzazione esatta per segno); E2 il puntatore con la copia pesata dalla
+  probabilità che la GRU dà ai primi due glifi dopo la parola prima; E3 il puntatore con l'inizio della parola copiata riscritto
+  dalla GRU. M1 e M5 di ia20 come riferimenti (libri dalla cache). 10 modelli e 10 libri per tipo. Fase 0 descrittiva.
+- **Controlli:** giudici tutti riusciti (come ia20). Sensibilità provata per E0–E3 (sul sintetico eco+contatto: eco scritta/piantata
+  0,89–1,05; nessun guadagno dal nulla). **Scambio visto nel sintetico** solo per E0 (e per M5): E1, E2, E3 imparano l'eco tenendo
+  il legame piantato. Controlli della fase 0 riusciti (positivo "presente" 1,094 ± 0,070; negativo "assente").
+- **L1: nessun imitatore ha copia netta, Λ, contatto e D tutti al vero.** Il più vicino è **E2**: copia netta 0,113 (vero 0,114),
+  contatto 0,180 (vero 0,188), D 0,143 (vero 0,144) al vero, ma **Λ 0,360 contro 0,207**. Tutti gli E hanno Λ fra 0,360 e 0,410:
+  quasi il doppio del vero. E3: copia netta e D al vero, contatto 0,176 no.
+- **L2:** ogni E contro M1 e contro M5 "corregge ma rompe". Contro M1 aggiungono la copia netta e costano contatto o giudici;
+  contro M5 recuperano contatto e D ma peggiorano Λ, G9, forma e giudice 2.
+- **L3, contro il v21:** tutti più lontani (e231 0,790–0,820, e266 0,836–0,870 contro 0,554/0,601; K 0,777–0,797 contro 0,766).
+- **L4, fase 0: regola assente nel vero.** Le varianti d'eco del Voynich (9.314) cambiano il primo glifo nel 49% dei casi (atteso a
+  posto uniforme 29%), ma **quanto le varianti per caso prese da righe lontane** (50%), e non si accordano col contatto della parola
+  prima più di queste (differenza −0,012 ± 0,048). Lo stesso in v21, M1, M5 ed E0–E3. **L'ipotesi "le varianti cambiano l'inizio per
+  agganciarsi alla parola prima" cade.**
+- **Che cosa resta (descrittivo):** G9 (vocabolario della pagina) mai al vero (0,023–0,028 contro 0,040; v21 0,039) e forma delle
+  parole nuove (3,72–3,82 contro 3,48).
+- **Copia a memoria:** nessuna; nessun "si avvita".
+- **In parole semplici:** il legame fra parole e la quantità di eco si possono avere insieme (E2 ci arriva), ma l'eco dei nostri
+  imitatori viene tutta dalle righe vicinissime, mentre nel Voynich viene da più lontano nella pagina: per questo resta fuori anche il
+  vocabolario della pagina. E il "trucco" che avevamo supposto (cambiare la prima lettera per agganciarsi alla parola prima) nel
+  Voynich non c'è.
+- **Limiti:** candidati all'eco solo nella riga in corso e in quella sopra (come ia20); un solo modo per tipo; 10 libri per tipo;
+  Λ è una misura di ia09 che dipende dalla distanza delle riprese.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
