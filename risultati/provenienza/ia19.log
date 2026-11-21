@@ -1,0 +1,266 @@
+variabili d'ambiente attive: nessuna
+testi nuovi: 48; testi di controllo da rifare: 0
+prova del codice dei procedimenti combinati: {'VE_senza_eco_identico_al_verboso_di_ia14': True, 'deterministico': True, 'istanze_diverse': True, 'decifrabile_tolte_le_nulle': True, 'parole_nulle_e_numero_giusto': True, 'quota_eco_giusta': True, 'scarto_quota_eco_massimo': 0.0025666818093322066, 'modulo_senza_caricatori_del_voynich': True, 'superato': True}
+lavori: 192 da fare, 0 gia fatti
+[1/192 1 min] ['R', 'VE_0p02_i1', 1] (60 s)
+[2/192 1 min] ['R', 'VE_0p02_i2', 2] (66 s)
+[3/192 2 min] ['K', 'VE_0p02_i1', 1] (116 s)
+[4/192 2 min] ['K', 'VE_0p02_i2', 2] (124 s)
+[5/192 2 min] ['R', 'VE_0p02_i3', 3] (69 s)
+[6/192 3 min] ['R', 'VE_0p05_i1', 1] (67 s)
+[7/192 3 min] ['K', 'VE_0p02_i3', 3] (121 s)
+[8/192 3 min] ['R', 'VE_0p05_i2', 2] (68 s)
+[9/192 4 min] ['K', 'VE_0p05_i1', 1] (116 s)
+[10/192 4 min] ['R', 'VE_0p05_i3', 3] (55 s)
+[11/192 5 min] ['K', 'VE_0p05_i2', 2] (110 s)
+[12/192 5 min] ['R', 'VE_0p1_i1', 1] (58 s)
+[13/192 5 min] ['K', 'VE_0p05_i3', 3] (116 s)
+[14/192 6 min] ['K', 'VE_0p1_i1', 1] (110 s)
+[15/192 6 min] ['R', 'VE_0p1_i2', 2] (61 s)
+[16/192 6 min] ['R', 'VE_0p1_i3', 3] (57 s)
+[17/192 7 min] ['K', 'VE_0p1_i2', 2] (116 s)
+[18/192 7 min] ['R', 'VE_0p05_T6_i1', 1] (62 s)
+[19/192 8 min] ['K', 'VE_0p1_i3', 3] (115 s)
+[20/192 8 min] ['R', 'VE_0p05_T6_i2', 2] (57 s)
+[21/192 8 min] ['K', 'VE_0p05_T6_i1', 1] (116 s)
+[22/192 9 min] ['R', 'VE_0p05_T6_i3', 3] (63 s)
+[23/192 9 min] ['K', 'VE_0p05_T6_i2', 2] (114 s)
+[24/192 9 min] ['R', 'VA_8_i1', 1] (59 s)
+[25/192 10 min] ['K', 'VE_0p05_T6_i3', 3] (120 s)
+[26/192 10 min] ['R', 'VA_8_i2', 2] (66 s)
+[27/192 11 min] ['K', 'VA_8_i1', 1] (115 s)
+[28/192 11 min] ['K', 'VA_8_i2', 2] (107 s)
+[29/192 11 min] ['R', 'VA_8_i3', 3] (62 s)
+[30/192 12 min] ['R', 'VA_12_i1', 1] (59 s)
+[31/192 12 min] ['R', 'VA_12_i2', 2] (58 s)
+[32/192 12 min] ['K', 'VA_8_i3', 3] (119 s)
+[33/192 13 min] ['R', 'VA_12_i3', 3] (61 s)
+[34/192 13 min] ['K', 'VA_12_i1', 1] (127 s)
+[35/192 14 min] ['K', 'VA_12_i2', 2] (113 s)
+[36/192 14 min] ['R', 'VA_16_i1', 1] (73 s)
+[37/192 14 min] ['K', 'VA_12_i3', 3] (135 s)
+[38/192 15 min] ['R', 'VA_16_i2', 2] (60 s)
+[39/192 15 min] ['K', 'VA_16_i1', 1] (121 s)
+[40/192 15 min] ['R', 'VA_16_i3', 3] (59 s)
+[41/192 16 min] ['K', 'VA_16_i2', 2] (108 s)
+[42/192 16 min] ['R', 'NV_30_i1', 1] (69 s)
+[43/192 17 min] ['K', 'VA_16_i3', 3] (115 s)
+[44/192 17 min] ['K', 'NV_30_i1', 1] (110 s)
+[45/192 17 min] ['R', 'NV_30_i2', 2] (74 s)
+[46/192 18 min] ['R', 'NV_30_i3', 3] (62 s)
+[47/192 18 min] ['K', 'NV_30_i2', 2] (113 s)
+[48/192 18 min] ['R', 'NV_150_i1', 1] (61 s)
+[49/192 19 min] ['K', 'NV_30_i3', 3] (118 s)
+[50/192 19 min] ['R', 'NV_150_i2', 2] (67 s)
+[51/192 19 min] ['K', 'NV_150_i1', 1] (108 s)
+[52/192 20 min] ['R', 'NV_150_i3', 3] (53 s)
+[53/192 20 min] ['K', 'NV_150_i2', 2] (117 s)
+[54/192 20 min] ['R', 'NV_600_i1', 1] (55 s)
+[55/192 21 min] ['R', 'NV_600_i2', 2] (64 s)
+[56/192 21 min] ['K', 'NV_150_i3', 3] (127 s)
+[57/192 22 min] ['K', 'NV_600_i1', 1] (107 s)
+[58/192 22 min] ['R', 'NV_600_i3', 3] (62 s)
+[59/192 22 min] ['K', 'NV_600_i2', 2] (112 s)
+[60/192 23 min] ['R', 'VB_0p5_i1', 1] (74 s)
+[61/192 23 min] ['R', 'VB_0p5_i2', 2] (61 s)
+[62/192 23 min] ['K', 'NV_600_i3', 3] (122 s)
+[63/192 24 min] ['K', 'VB_0p5_i1', 1] (115 s)
+[64/192 24 min] ['R', 'VB_0p5_i3', 3] (64 s)
+[65/192 25 min] ['K', 'VB_0p5_i2', 2] (108 s)
+[66/192 25 min] ['R', 'VB_0p8_i1', 1] (71 s)
+[67/192 25 min] ['K', 'VB_0p5_i3', 3] (124 s)
+[68/192 26 min] ['R', 'VB_0p8_i2', 2] (62 s)
+[69/192 26 min] ['K', 'VB_0p8_i1', 1] (116 s)
+[70/192 27 min] ['R', 'VB_0p8_i3', 3] (63 s)
+[71/192 27 min] ['K', 'VB_0p8_i2', 2] (118 s)
+[72/192 27 min] ['R', 'VB_1p0_i1', 1] (67 s)
+[73/192 28 min] ['K', 'VB_0p8_i3', 3] (131 s)
+[74/192 29 min] ['R', 'VB_1p0_i2', 2] (72 s)
+[75/192 29 min] ['K', 'VB_1p0_i1', 1] (124 s)
+[76/192 29 min] ['R', 'VB_1p0_i3', 3] (59 s)
+[77/192 29 min] ['K', 'VB_1p0_i2', 2] (115 s)
+[78/192 30 min] ['R', 'VT_2_i1', 1] (67 s)
+[79/192 30 min] ['R', 'VT_2_i2', 2] (65 s)
+[80/192 31 min] ['K', 'VB_1p0_i3', 3] (127 s)
+[81/192 31 min] ['K', 'VT_2_i1', 1] (111 s)
+[82/192 31 min] ['R', 'VT_2_i3', 3] (54 s)
+[83/192 31 min] ['K', 'VT_2_i2', 2] (106 s)
+[84/192 32 min] ['R', 'VT_3_i1', 1] (69 s)
+[85/192 33 min] ['R', 'VT_3_i2', 2] (71 s)
+[86/192 33 min] ['K', 'VT_2_i3', 3] (123 s)
+[87/192 33 min] ['K', 'VT_3_i1', 1] (122 s)
+[88/192 34 min] ['R', 'VT_3_i3', 3] (68 s)
+[89/192 34 min] ['K', 'VT_3_i2', 2] (115 s)
+[90/192 34 min] ['R', 'VT_4_i1', 1] (66 s)
+[91/192 35 min] ['K', 'VT_3_i3', 3] (127 s)
+[92/192 35 min] ['R', 'VT_4_i2', 2] (62 s)
+[93/192 36 min] ['K', 'VT_4_i1', 1] (109 s)
+[94/192 36 min] ['R', 'VT_4_i3', 3] (65 s)
+[95/192 36 min] ['K', 'VT_4_i2', 2] (107 s)
+[96/192 37 min] ['K', 'VT_4_i3', 3] (117 s)
+[97/192 37 min] ['S10', 'VE_0p02_i1', None] (113 s)
+[98/192 38 min] ['S10', 'VE_0p02_i2', None] (120 s)
+[99/192 38 min] ['S10', 'VE_0p02_i3', None] (120 s)
+[100/192 39 min] ['S10', 'VE_0p05_i1', None] (119 s)
+[101/192 39 min] ['S10', 'VE_0p05_i2', None] (112 s)
+[102/192 40 min] ['S10', 'VE_0p05_i3', None] (112 s)
+[103/192 40 min] ['S10', 'VE_0p1_i1', None] (112 s)
+[104/192 41 min] ['S10', 'VE_0p1_i2', None] (115 s)
+[105/192 41 min] ['S10', 'VE_0p1_i3', None] (110 s)
+[106/192 41 min] ['S10', 'VE_0p05_T6_i1', None] (105 s)
+[107/192 42 min] ['S10', 'VE_0p05_T6_i2', None] (103 s)
+[108/192 42 min] ['S10', 'VE_0p05_T6_i3', None] (102 s)
+[109/192 43 min] ['S10', 'VA_8_i1', None] (124 s)
+[110/192 43 min] ['S10', 'VA_8_i2', None] (110 s)
+[111/192 44 min] ['S10', 'VA_8_i3', None] (108 s)
+[112/192 44 min] ['S10', 'VA_12_i1', None] (115 s)
+[113/192 45 min] ['S10', 'VA_12_i2', None] (109 s)
+[114/192 45 min] ['S10', 'VA_12_i3', None] (108 s)
+[115/192 45 min] ['S10', 'VA_16_i1', None] (112 s)
+[116/192 46 min] ['S10', 'VA_16_i2', None] (112 s)
+[117/192 47 min] ['S10', 'VA_16_i3', None] (113 s)
+[118/192 47 min] ['S10', 'NV_30_i1', None] (116 s)
+[119/192 47 min] ['S10', 'NV_30_i2', None] (115 s)
+[120/192 48 min] ['S10', 'NV_30_i3', None] (120 s)
+[121/192 49 min] ['S10', 'NV_150_i1', None] (120 s)
+[122/192 49 min] ['S10', 'NV_150_i2', None] (123 s)
+[123/192 49 min] ['S10', 'NV_150_i3', None] (115 s)
+[124/192 50 min] ['S10', 'NV_600_i1', None] (110 s)
+[125/192 51 min] ['S10', 'NV_600_i2', None] (120 s)
+[126/192 51 min] ['S10', 'NV_600_i3', None] (116 s)
+[127/192 51 min] ['S10', 'VB_0p5_i1', None] (106 s)
+[128/192 52 min] ['S10', 'VB_0p5_i2', None] (108 s)
+[129/192 53 min] ['S10', 'VB_0p5_i3', None] (110 s)
+[130/192 53 min] ['S10', 'VB_0p8_i1', None] (109 s)
+[131/192 53 min] ['S10', 'VB_0p8_i2', None] (111 s)
+[132/192 54 min] ['S10', 'VB_0p8_i3', None] (120 s)
+[133/192 55 min] ['S10', 'VB_1p0_i1', None] (113 s)
+[134/192 55 min] ['S10', 'VB_1p0_i3', None] (106 s)
+[135/192 55 min] ['S10', 'VB_1p0_i2', None] (116 s)
+[136/192 56 min] ['S10', 'VT_2_i1', None] (105 s)
+[137/192 56 min] ['S10', 'VT_2_i3', None] (108 s)
+[138/192 57 min] ['S10', 'VT_2_i2', None] (110 s)
+[139/192 57 min] ['S10', 'VT_3_i1', None] (114 s)
+[140/192 57 min] ['S10', 'VT_3_i2', None] (109 s)
+[141/192 58 min] ['S10', 'VT_3_i3', None] (110 s)
+[142/192 59 min] ['S10', 'VT_4_i2', None] (110 s)
+[143/192 59 min] ['S10', 'VT_4_i1', None] (122 s)
+[144/192 59 min] ['S9', 'VE_0p02_i1', None] (33 s)
+[145/192 59 min] ['S9', 'VE_0p02_i2', None] (34 s)
+[146/192 59 min] ['S9', 'VE_0p02_i3', None] (34 s)
+[147/192 59 min] ['S10', 'VT_4_i3', None] (114 s)
+[148/192 59 min] ['S9', 'VE_0p05_i1', None] (33 s)
+[149/192 60 min] ['S9', 'VE_0p05_i2', None] (33 s)
+[150/192 60 min] ['S9', 'VE_0p05_i3', None] (33 s)
+[151/192 60 min] ['S9', 'VE_0p1_i1', None] (30 s)
+[152/192 60 min] ['S9', 'VE_0p1_i2', None] (31 s)
+[153/192 60 min] ['S9', 'VE_0p1_i3', None] (30 s)
+[154/192 60 min] ['S9', 'VE_0p05_T6_i1', None] (34 s)
+[155/192 60 min] ['S9', 'VE_0p05_T6_i2', None] (36 s)
+[156/192 61 min] ['S9', 'VE_0p05_T6_i3', None] (35 s)
+[157/192 61 min] ['S9', 'VA_8_i1', None] (35 s)
+[158/192 61 min] ['S9', 'VA_8_i2', None] (35 s)
+[159/192 61 min] ['S9', 'VA_8_i3', None] (34 s)
+[160/192 61 min] ['S9', 'VA_12_i1', None] (34 s)
+[161/192 61 min] ['S9', 'VA_12_i2', None] (34 s)
+[162/192 61 min] ['S9', 'VA_12_i3', None] (34 s)
+[163/192 62 min] ['S9', 'VA_16_i1', None] (34 s)
+[164/192 62 min] ['S9', 'VA_16_i2', None] (35 s)
+[165/192 62 min] ['S9', 'VA_16_i3', None] (34 s)
+[166/192 62 min] ['S9', 'NV_30_i1', None] (32 s)
+[167/192 62 min] ['S9', 'NV_30_i2', None] (33 s)
+[168/192 62 min] ['S9', 'NV_30_i3', None] (34 s)
+[169/192 62 min] ['S9', 'NV_150_i1', None] (34 s)
+[170/192 62 min] ['S9', 'NV_150_i2', None] (32 s)
+[171/192 63 min] ['S9', 'NV_150_i3', None] (33 s)
+[172/192 63 min] ['S9', 'NV_600_i1', None] (34 s)
+[173/192 63 min] ['S9', 'NV_600_i2', None] (35 s)
+[174/192 63 min] ['S9', 'NV_600_i3', None] (33 s)
+[175/192 63 min] ['S9', 'VB_0p5_i1', None] (37 s)
+[176/192 63 min] ['S9', 'VB_0p5_i2', None] (37 s)
+[177/192 64 min] ['S9', 'VB_0p5_i3', None] (36 s)
+[178/192 64 min] ['S9', 'VB_0p8_i1', None] (36 s)
+[179/192 64 min] ['S9', 'VB_0p8_i2', None] (36 s)
+[180/192 64 min] ['S9', 'VB_0p8_i3', None] (35 s)
+[181/192 64 min] ['S9', 'VB_1p0_i1', None] (36 s)
+[182/192 64 min] ['S9', 'VB_1p0_i2', None] (37 s)
+[183/192 64 min] ['S9', 'VB_1p0_i3', None] (37 s)
+[184/192 65 min] ['S9', 'VT_2_i1', None] (33 s)
+[185/192 65 min] ['S9', 'VT_2_i2', None] (34 s)
+[186/192 65 min] ['S9', 'VT_2_i3', None] (34 s)
+[187/192 65 min] ['S9', 'VT_3_i1', None] (34 s)
+[188/192 65 min] ['S9', 'VT_3_i2', None] (34 s)
+[189/192 65 min] ['S9', 'VT_3_i3', None] (34 s)
+[190/192 65 min] ['S9', 'VT_4_i1', None] (33 s)
+[191/192 66 min] ['S9', 'VT_4_i2', None] (32 s)
+[192/192 66 min] ['S9', 'VT_4_i3', None] (30 s)
+# ia19 - procedimenti combinati e le firme del Voynich
+
+Non e' una decifrazione: si confrontano procedimenti. Tutti i numeri; nessun testo. Preregistrazione: `preregistrazioni/ia19.md`.
+
+## Controlli
+
+- riproduzione_rete: eseguito True, superato True
+- riproduzione_sintassi: eseguito True, superato True
+- latino_in_chiaro_corretto: eseguito True, superato True
+- separazione_in_lettura: eseguito True, superato True
+- negativo_rimescolato: eseguito True, superato True
+- eco_misurabile: eseguito True, superato True
+- scala_coerente_con_ia14: eseguito True, superato True
+- latino in chiaro, misure leggibili: k90, GR, R_rel, Q, rho, lambda, E, g; non leggibili: GL
+- codice (ia14): verboso_reversibile True, sostituzione_reversibile True, polialfabetico_reversibile True, modulo_senza_caricatori_del_voynich True, superato True
+- codice (ia19): VE_senza_eco_identico_al_verboso_di_ia14 True, deterministico True, istanze_diverse True, decifrabile_tolte_le_nulle True, parole_nulle_e_numero_giusto True, quota_eco_giusta True, scarto_quota_eco_massimo 0.0025666818093322066, modulo_senza_caricatori_del_voynich True, superato True
+- letture leggibili: True (riproduzione True, latino_in_chiaro True, separazione True, negativo True, codice True, scala True); controllo dell'eco True
+
+## Riferimenti e misure in lettura (k90, GR, R_rel, Q, rho, lambda, E, g)
+
+| misura | Voynich | A | B | sd Voynich | scala | tolleranza |
+|---|---|---|---|---|---|---|
+| k90 (segni di contesto, interpolato) | 2.005 | 2.063 | 1.819 | 0.158 | 8.814 | 0.317 |
+| GL (guadagno lungo, bit per segno) | 0.049 | 0.033 | 0.042 | 0.013 | 0.035 | 0.025 |
+| GR (riga sopra, parole corte, bit) | 0.029 | 0.027 | 0.014 | 0.006 | 0.020 | 0.015 |
+| R_rel (mai viste / viste) | 0.997 | 1.000 | 0.972 | 0.031 | 0.166 | 0.061 |
+| Q (inventate vere) | 0.081 | 0.081 | 0.078 | 0.009 | 0.009 | 0.017 |
+| rho (quota di copia) | 0.700 | 0.872 | 0.622 | 0.019 | 0.145 | 0.173 |
+| Lambda (quota locale) | 0.272 | - | - | 0.039 | 0.050 | 0.079 |
+| E (eco netta, bit per parola) | 0.105 | 0.117 | 0.100 | 0.007 | 0.067 | 0.015 |
+| g (ordine fra famiglie, bit per coppia) | 0.041 | 0.018 | 0.078 | 0.006 | 0.310 | 0.037 |
+
+Raggio epsilon 0.47 (A dal Voynich 0.46, B 0.38, A contro B 0.72, rumore del Voynich da se' 0.47).
+
+## Celle: distanza dal Voynich (unita' di scala) e firme raggiunte (su 8 misure in lettura)
+
+| cella | tipo | d | classe | stabile | firme | larghe | mancate |
+|---|---|---|---|---|---|---|---|
+| V_1 | verboso omofonico a bigrammi (ia14) | 3.70 | lontano | True | 1/8 | 2/8 | k90,R_rel,Q,rho,lambda,E,g |
+| V_3 | verboso omofonico a bigrammi (ia14) | 2.85 | lontano | True | 1/8 | 3/8 | k90,GR,Q,rho,lambda,E,g |
+| V_6 | verboso omofonico a bigrammi (ia14) | 2.45 | lontano | True | 1/8 | 5/8 | k90,GR,R_rel,Q,rho,lambda,E |
+| V_3_italiano | verboso omofonico a bigrammi (ia14) | 3.02 | lontano | True | 1/8 | 2/8 | k90,GR,Q,rho,lambda,E,g |
+| V_3_tedesco | verboso omofonico a bigrammi (ia14) | 2.64 | lontano | True | 3/8 | 3/8 | k90,rho,lambda,E,g |
+| S_1 | sillabario con omofoni (ia14) | 3.95 | lontano | True | 1/8 | 2/8 | k90,R_rel,Q,rho,lambda,E,g |
+| S_2 | sillabario con omofoni (ia14) | 3.73 | lontano | True | 0/8 | 2/8 | k90,GR,R_rel,Q,rho,lambda,E,g |
+| S_4 | sillabario con omofoni (ia14) | 3.79 | lontano | True | 0/8 | 2/8 | k90,GR,R_rel,Q,rho,lambda,E,g |
+| N_30 | nomenclatore (ia14) | 3.49 | lontano | True | 1/8 | 3/8 | k90,GR,R_rel,Q,rho,lambda,E |
+| N_150 | nomenclatore (ia14) | 3.60 | lontano | True | 1/8 | 3/8 | k90,GR,R_rel,Q,rho,lambda,E |
+| N_600 | nomenclatore (ia14) | 3.92 | lontano | True | 0/8 | 3/8 | k90,GR,R_rel,Q,rho,lambda,E,g |
+| C_4 | auto-citazione (ia14) | 89.09 | lontano | True | 0/8 | 4/8 | k90,GR,R_rel,Q,rho,lambda,E,g |
+| C_16 | auto-citazione (ia14) | 76.50 | lontano | True | 1/8 | 4/8 | k90,GR,R_rel,Q,rho,E,g |
+| C_64 | auto-citazione (ia14) | 71.39 | lontano | True | 1/8 | 4/8 | k90,GR,R_rel,Q,rho,E,g |
+| R_6 | tabella a griglia (ia14) | 7.11 | lontano | True | 0/8 | 1/8 | k90,GR,Q,rho,lambda,E,g |
+| R_12 | tabella a griglia (ia14) | 9.61 | lontano | True | 0/8 | 0/8 | k90,GR,Q,rho,lambda,E,g |
+| R_24 | tabella a griglia (ia14) | 14.20 | lontano | True | 0/8 | 0/8 | k90,GR,R_rel,Q,rho,lambda,E,g |
+| F_3p5 | sostituzione con spazi riscritti (ia14) | 2.60 | lontano | True | 3/8 | 4/8 | k90,GR,rho,lambda,E |
+| F_5p0 | sostituzione con spazi riscritti (ia14) | 3.26 | lontano | True | 1/8 | 3/8 | k90,R_rel,Q,rho,lambda,E,g |
+| F_7p0 | sostituzione con spazi riscritti (ia14) | 3.74 | lontano | True | 1/8 | 3/8 | k90,R_rel,Q,rho,lambda,E,g |
+| P_1 | polialfabetico a cambio periodico (ia14) | 3.98 | lontano | True | 1/8 | 3/8 | k90,GR,Q,rho,lambda,E,g |
+| P_5 | polialfabetico a cambio periodico (ia14) | 3.94 | lontano | True | 1/8 | 3/8 | k90,GR,Q,rho,lambda,E,g |
+| P_25 | polialfabetico a cambio periodico (ia14) | 3.86 | lontano | True | 1/8 | 3/8 | k90,GR,Q,rho,lambda,E,g |
+| T0 | latino in chiaro | 3.78 | lontano | True | 3/8 | 3/8 | k90,R_rel,Q,rho,lambda |
+| VE_0p02 | combinazione verboso + eco leggera di pagina | 2.41 | lontano | True | 1/8 | 4/8 | k90,GR,Q,rho,lambda,E,g |
+| VE_0p05 | combinazione verboso + eco leggera di pagina | 2.07 | lontano | True | 3/8 | 4/8 | k90,Q,lambda,E,g |
+| VE_0p1 | combinazione verboso + eco leggera di pagina | 2.21 | lontano | True | 1/8 | 5/8 | k90,GR,Q,rho,lambda,E,g |
+| VE_0p05_T6 | combinazione verboso + eco leggera di pagina | 1.66 | lontano | True | 1/8 | 6/8 | k90,GR,R_rel,Q,rho,lambda,E |
+| VA_8 | combinazione verboso con alfabeto ridotto | 3.09 | lontano | True | 0/8 | 1/8 | k90,GR,R_rel,Q,rho,lambda,E,g |
+| VA_12 | combinazione verboso con alfabeto ridotto | 2.95 | lontano | True | 0/8 | 2/8 | k90,GR,R_rel,Q,rho,lambda,E,g |
+| VA_16 | combinazione verboso con alfabeto ridotto | 2.86 | lontano | True | 0/8 | 3/8 | k90,GR,R_rel,Q,rho,lambda,E,g |
+| NV_30 | combinazione nomenclatore + verboso | 3.12 | lontano | True | 1/8 | 2/8 | k90,R_rel,Q,rho,lambda,E,g |

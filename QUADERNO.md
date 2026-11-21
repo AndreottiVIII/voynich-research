@@ -17085,3 +17085,31 @@ dalle 15:00 alle 16:05 del 20/11, quasi ferma in quell'ora), 999 minuti, uscita 
   nemmeno sul latino; non esclude lingue fuori dalle 20.
 - **Limiti:** reti piccole; 40.000 segni; il 14% delle corse al massimo dei passi; un solo testo per lingua nel controllo.
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione (7 processi invece di 10; un'ora a priorità minima).
+
+## 21/11/2026 (mattina) — ia19 (IA19): combinare i procedimenti avvicina al Voynich (il verboso con un'eco leggera raggiunge per la prima volta la quota di copia), ma nessuna combinazione arriva vicina; il contesto di 2 segni resta irraggiungibile
+
+Preregistrato (`preregistrazioni/ia19.md`, commit 81aed85; codice 93172a7 con `combinati_procedimenti.py`). Preparato e
+lanciato in autonomia su indicazione di Davide. Corsa: coda `ia_G`, 4 processi, 66 minuti, uscita 0. Risultati in
+`risultati/ia19_procedimenti_combinati.{md,json}` e `risultati/ia19_corse.jsonl` (solo numeri).
+
+- **Domanda:** una combinazione di procedimenti riproduce insieme le firme del Voynich che nessun procedimento semplice di
+  ia14 raggiunge?
+- **Combinazioni** (un parametro, tre valori fissati prima, verboso a 3 tavole; 6 tavole solo come sensibilità): VE verboso +
+  eco leggera di pagina (0,02 / 0,05 / 0,10); VA verboso con alfabeto ridotto (8 / 12 / 16 segni); NV nomenclatore + verboso;
+  VB verboso con regole di bordo riga; VT tutto insieme a gradini.
+- **Controlli:** tutti superati, compreso il controllo del latino in chiaro corretto per misura (dichiarato come modifica
+  dopo ia14): letture su 8 misure su 9 (GL esclusa). Eco misurabile, scala coerente con ia14, codice delle combinazioni
+  (decifrabile tolte le parole nulle; quota d'eco entro 0,003 dal valore scelto).
+- **Letture:** per tutte e cinque le famiglie **no**: tutte le celle sono "lontane" (raggio del Voynich 0,46). Le più vicine:
+  VE con eco 0,05 (2,07) e VT a due ingredienti (2,30); con 6 tavole VE arriva a 1,66, contro 2,45 del miglior procedimento
+  semplice.
+- **Firme nuove:** la **quota di copia ρ** è raggiunta per la prima volta (VE, VT: 3 celle su 16; i semplici 0 su 23) e l'**eco E**
+  da una cella (VT). **Mai raggiunte**: il contesto k90 (0 su 16, come 0 su 23) e la quota di parole inventate vere Q.
+- **Contributo degli ingredienti:** l'eco leggera avvicina di 0,45–0,79 e cambia ρ, Λ, E e g; l'alfabeto ridotto non aiuta (VA_16
+  uguale a V_3; VA_8 peggiora); il nomenclatore aiuta un poco.
+- **In parole semplici:** mettere un'eco leggera dentro un cifrario verboso porta il testo più vicino al Voynich: compare la
+  giusta quota di "parole riprese". Ma resta lontano su un punto decisivo: nel Voynich bastano 2 segni per indovinare il
+  successivo, e nessuna combinazione provata è così prevedibile da vicino.
+- **Limiti:** combinazioni in versione semplice, parole d'eco "nulle"; letture su 8 misure; controlli di riproduzione letti da
+  ia14 e non rifatti.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
