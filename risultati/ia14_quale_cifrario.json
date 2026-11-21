@@ -1,0 +1,3820 @@
+{
+ "esperimento": "ia14",
+ "versioni": {
+  "python": "3.12.10",
+  "torch": "2.15.0+cpu",
+  "numpy": "2.5.3",
+  "sklearn": "1.9.1",
+  "scipy": "1.18.1"
+ },
+ "parametri": {
+  "ISTANZE": 3,
+  "PROCEDIMENTI": [
+   "V",
+   "S",
+   "N",
+   "C",
+   "R",
+   "F",
+   "P"
+  ],
+  "LINGUE14": [
+   "latino",
+   "latino_nt",
+   "italiano",
+   "inglese",
+   "francese",
+   "tedesco",
+   "spagnolo",
+   "maori"
+  ],
+  "NATIVI": true,
+  "BOOT": 200,
+  "SOLO_CONTROLLI": false,
+  "griglia": {
+   "V": {
+    "nome": "verboso omofonico a bigrammi",
+    "parametro": "T",
+    "valori": [
+     1,
+     3,
+     6
+    ],
+    "chiaro": "latino"
+   },
+   "S": {
+    "nome": "sillabario con omofoni",
+    "parametro": "h",
+    "valori": [
+     1,
+     2,
+     4
+    ],
+    "chiaro": "italiano"
+   },
+   "N": {
+    "nome": "nomenclatore",
+    "parametro": "n",
+    "valori": [
+     30,
+     150,
+     600
+    ],
+    "chiaro": "latino"
+   },
+   "C": {
+    "nome": "auto-citazione",
+    "parametro": "W",
+    "valori": [
+     4,
+     16,
+     64
+    ],
+    "chiaro": null
+   },
+   "R": {
+    "nome": "tabella a griglia",
+    "parametro": "M",
+    "valori": [
+     6,
+     12,
+     24
+    ],
+    "chiaro": null
+   },
+   "F": {
+    "nome": "sostituzione con spazi riscritti",
+    "parametro": "L",
+    "valori": [
+     3.5,
+     5.0,
+     7.0
+    ],
+    "chiaro": "latino"
+   },
+   "P": {
+    "nome": "polialfabetico a cambio periodico",
+    "parametro": "m",
+    "valori": [
+     1,
+     5,
+     25
+    ],
+    "chiaro": "latino"
+   }
+  },
+  "varianti_chiaro": [
+   [
+    "V",
+    3,
+    "italiano"
+   ],
+   [
+    "V",
+    3,
+    "tedesco"
+   ]
+  ],
+  "soglie": {
+   "CLASSE_DENTRO": 1.0,
+   "CLASSE_VICINO": 3.0,
+   "SEPARAZIONE_MIN": 2.0,
+   "ALLARGA_RANGE": 0.1,
+   "SOGLIA_SINTASSI": 0.03,
+   "RHO_NEUTRO": 0.5,
+   "TOLLERANZA_RIPRODUZIONE": {
+    "frazione_scala": 0.25,
+    "k90": 0.5,
+    "rho": 0.02,
+    "lambda_": 0.03,
+    "E": 0.02,
+    "g": 0.01,
+    "D": 0.02
+   },
+   "SOGLIA_NEGATIVO_E": 0.03,
+   "SOGLIA_NEGATIVO_G": 0.02
+  }
+ },
+ "riferimenti": {
+  "Voynich": {
+   "k90": 2.0046814262987036,
+   "GL": 0.049218000000000005,
+   "GR": 0.028662682074275664,
+   "R_rel": 0.997472237794202,
+   "Q": 0.0813219639616647,
+   "rho": 0.6997912072247334,
+   "E": 0.10521188357713773,
+   "g": 0.04135959960777905,
+   "lambda": 0.27209887337671734
+  },
+  "Voynich_A": {
+   "k90": 2.062997810564595,
+   "GL": 0.03298499999999995,
+   "GR": 0.02707144960705912,
+   "R_rel": 0.999612067923702,
+   "Q": 0.08090027138893181,
+   "rho": 0.8724636087980141,
+   "E": 0.11739044805514524,
+   "g": 0.01756263696506101
+  },
+  "Voynich_B": {
+   "k90": 1.819406014623743,
+   "GL": 0.042079999999999965,
+   "GR": 0.013999292945841254,
+   "R_rel": 0.9720722019355924,
+   "Q": 0.07824917076912424,
+   "rho": 0.6223010305248718,
+   "E": 0.09990732568402477,
+   "g": 0.07812835034013606
+  },
+  "sd_voynich": {
+   "k90": 0.15847761291222082,
+   "GL": 0.012609649567780372,
+   "GR": 0.006452458729013791,
+   "R_rel": 0.03055353985745881,
+   "Q": 0.008677978817365452,
+   "rho": 0.019386921960855258,
+   "E": 0.007470218795438155,
+   "g": 0.006073277279368363,
+   "lambda": 0.039384848760614044
+  },
+  "scala": {
+   "k90": 8.814490754768002,
+   "GL": 0.03541166744613688,
+   "GR": 0.02004073310808396,
+   "R_rel": 0.16573203636337464,
+   "Q": 0.008677978817365452,
+   "rho": 0.14536762344987897,
+   "lambda": 0.04998205199052766,
+   "E": 0.06707466604917556,
+   "g": 0.3099005452411754
+  },
+  "tolleranza_firma": {
+   "k90": 0.31695522582444163,
+   "GL": 0.025219299135560744,
+   "GR": 0.01466338912843441,
+   "R_rel": 0.06110707971491762,
+   "Q": 0.017355957634730905,
+   "rho": 0.17267240157328068,
+   "lambda": 0.07876969752122809,
+   "E": 0.01494043759087631,
+   "g": 0.036768750732357004
+  },
+  "raggi": {
+   "d_A": 0.45673074114491496,
+   "d_B": 0.3587799937367296,
+   "d_AB": 0.6783026983348568,
+   "d_seme": 0.46142981489175144,
+   "epsilon": 0.46142981489175144
+  },
+  "impronte": {
+   "ia02_parole_mai_viste.json": "5bea0458",
+   "ia03_contesto.json": "bd0152ec",
+   "ia09_dove_sta_sintassi.json": "fcce1316",
+   "ia10_famiglie_parole.json": "3e2ae7c0",
+   "ia02_corse.jsonl": "a9ca62b9",
+   "ia03_corse.jsonl": "22b0f26d"
+  },
+  "lingue_gru": {
+   "k90": {
+    "n": 20,
+    "minimo": 3.421194634385112,
+    "massimo": 44.90818553529701,
+    "ds": 8.814490754768002
+   },
+   "GL": {
+    "n": 20,
+    "minimo": 0.049331000000000014,
+    "massimo": 0.21072499999999997,
+    "ds": 0.03541166744613688
+   },
+   "GR": {
+    "n": 20,
+    "minimo": 0.0070783386040011945,
+    "massimo": 0.10179781449825367,
+    "ds": 0.02004073310808396
+   },
+   "R_rel": {
+    "n": 20,
+    "minimo": 0.8971444458006116,
+    "massimo": 1.5238215179980903,
+    "ds": 0.16573203636337464
+   },
+   "Q": {
+    "n": 20,
+    "minimo": 0.0032854899027339197,
+    "massimo": 0.03403978930845458,
+    "ds": 0.006740057248343066
+   }
+  }
+ },
+ "celle": {
+  "V_1": {
+   "descr": {
+    "tipo": "cella",
+    "cod": "V",
+    "valore": 1,
+    "chiaro": null,
+    "cella": "V_1"
+   },
+   "istanze": 3,
+   "medio": {
+    "k90": 3.2728647866236393,
+    "GL": 0.0011433333333334221,
+    "GR": 0.022086624312400202,
+    "R_rel": 0.9105254557006347,
+    "Q": 0.018121816604331906,
+    "rho": 0.0002993664194982239,
+    "lambda": 0.0,
+    "E": 0.0006465842256069516,
+    "g": 0.37152778939913933
+   },
+   "sd_istanze": {
+    "k90": 0.30769156476017795,
+    "GL": 0.0014395948504122287,
+    "GR": 0.002790326737524287,
+    "R_rel": 0.05056089805585114,
+    "Q": 0.005689779486300929,
+    "rho": 0.000518517848650902,
+    "lambda": 0.0,
+    "E": 6.69595426619625e-05,
+    "g": 0.0031425088895778836
+   },
+   "z": {
+    "k90": 0.1438748301640614,
+    "GL": -1.3575939833895379,
+    "GR": -0.32813459100569703,
+    "R_rel": -0.5246226619875276,
+    "Q": -7.282818809244309,
+    "rho": -4.811881932199378,
+    "lambda": -5.443931622260809,
+    "E": -1.5589387992609474,
+    "g": 1.065400480449016
+   },
+   "componenti_misurate": 9,
+   "distanza": 3.5220271947798354,
+   "distanza_per_istanza": [
+    3.595952874271453,
+    3.3652677607580976,
+    3.6165324912991346
+   ],
+   "sd_distanza": 0.13950693354784413,
+   "classe": "lontano",
+   "classi_per_istanza": [
+    "lontano",
+    "lontano",
+    "lontano"
+   ],
+   "stabile": true,
+   "firme_raggiunte": 1,
+   "firme": {
+    "k90": false,
+    "GL": false,
+    "GR": true,
+    "R_rel": false,
+    "Q": false,
+    "rho": false,
+    "lambda": false,
+    "E": false,
+    "g": false
+   },
+   "firme_raggiunte_larghe": 3,
+   "firme_larghe": {
+    "k90": false,
+    "GL": true,
+    "GR": true,
+    "R_rel": true,
+    "Q": false,
+    "rho": false,
+    "lambda": false,
+    "E": false,
+    "g": false
+   },
+   "mancate": [
+    "k90",
+    "GL",
+    "R_rel",
+    "Q",
+    "rho",
+    "lambda",
+    "E",
+    "g"
+   ],
+   "avvertenze": [
+    "lambda_zero"
+   ],
+   "flag_conteggio": 3
+  },
+  "V_3": {
+   "descr": {
+    "tipo": "cella",
+    "cod": "V",
+    "valore": 3,
+    "chiaro": null,
+    "cella": "V_3"
+   },
+   "istanze": 3,
+   "medio": {
+    "k90": 3.6793921298724857,
+    "GL": 0.00498333333333334,
+    "GR": 0.009262215240805229,
+    "R_rel": 1.0477459035119638,
+    "Q": 0.05548830231888224,
+    "rho": 0.004151691090253911,
+    "lambda": 0.0,
+    "E": 0.0006281103905896656,
+    "g": 0.1921089012365855
+   },
+   "sd_istanze": {
+    "k90": 0.06951056966156269,
+    "GL": 0.00043085186936262393,
+    "GR": 0.00015015029970599032,
+    "R_rel": 0.020329507868131067,
+    "Q": 0.006192446474106156,
+    "rho": 0.006163799011911372,
+    "lambda": 0.0,
+    "E": 0.0005284882013843129,
+    "g": 0.009066514627188367
+   },
+   "z": {
+    "k90": 0.1899951738752332,
+    "GL": -1.2491551473522127,
+    "GR": -0.9680517538375253,
+    "R_rel": 0.30334307609383765,
+    "Q": -2.9769214913370003,
+    "rho": -4.785381363645445,
+    "lambda": -5.443931622260809,
+    "E": -1.5592142212064515,
+    "g": 0.4864441316535539
+   },
+   "componenti_misurate": 9,
+   "distanza": 2.7221668803030075,
+   "distanza_per_istanza": [
+    2.813276975421473,
+    2.740569430095058,
+    2.6310627403301514
+   ],
+   "sd_distanza": 0.09172434220766737,
+   "classe": "lontano",
+   "classi_per_istanza": [
+    "lontano",
+    "lontano",
+    "lontano"
+   ],
+   "stabile": true,
+   "firme_raggiunte": 1,
+   "firme": {
+    "k90": false,
+    "GL": false,
+    "GR": false,
+    "R_rel": true,
+    "Q": false,
+    "rho": false,
+    "lambda": false,
+    "E": false,
+    "g": false
+   },
+   "firme_raggiunte_larghe": 4,
+   "firme_larghe": {
+    "k90": false,
+    "GL": true,
+    "GR": true,
+    "R_rel": true,
+    "Q": true,
+    "rho": false,
+    "lambda": false,
+    "E": false,
+    "g": false
+   },
+   "mancate": [
+    "k90",
+    "GL",
+    "GR",
+    "Q",
+    "rho",
+    "lambda",
+    "E",
+    "g"
+   ],
+   "avvertenze": [
+    "lambda_zero"
+   ],
+   "flag_conteggio": 3
+  },
+  "V_6": {
+   "descr": {
+    "tipo": "cella",
+    "cod": "V",
+    "valore": 6,
+    "chiaro": null,
+    "cella": "V_6"
+   },
+   "istanze": 3,
+   "medio": {
+    "k90": 3.8762278793805143,
+    "GL": 0.0028599999999997885,
+    "GR": 0.004903360170732742,
+    "R_rel": 1.081179483736334,
+    "Q": 0.05043338839686447,
+    "rho": 0.5,
+    "lambda": 0.0,
+    "E": 0.0035214648368773285,
+    "g": 0.06317461622269435
+   },
+   "sd_istanze": {
+    "k90": 0.05685107609995223,
+    "GL": 0.005769740028805521,
+    "GR": 0.002911442059390392,
+    "R_rel": 0.018085204721640474,
+    "Q": 0.005742812805344071,
+    "rho": 0.0,
+    "lambda": 0.0,
+    "E": 0.000535700929854519,
+    "g": 0.009996640246684984
+   },
+   "z": {
+    "k90": 0.21232610086628537,
+    "GL": -1.3091165523485535,
+    "GR": -1.1855515352359525,
+    "R_rel": 0.5050758307138653,
+    "Q": -3.5594204842940256,
+    "rho": -1.374385867246561,
+    "lambda": -5.443931622260809,
+    "E": -1.5160778984081176,
+    "g": 0.07039360514173376
+   },
+   "componenti_misurate": 9,
+   "distanza": 2.3550832072078163,
+   "distanza_per_istanza": [
+    2.2467687628143027,
+    2.466433682982874,
+    2.3703998559181296
+   ],
+   "sd_distanza": 0.11012100940587528,
+   "classe": "lontano",
+   "classi_per_istanza": [
+    "lontano",
+    "lontano",
+    "lontano"
+   ],
+   "stabile": true,
+   "firme_raggiunte": 1,
+   "firme": {
+    "k90": false,
+    "GL": false,
+    "GR": false,
+    "R_rel": false,
+    "Q": false,
+    "rho": false,
+    "lambda": false,
+    "E": false,
+    "g": true
+   },
+   "firme_raggiunte_larghe": 6,
+   "firme_larghe": {
+    "k90": false,
+    "GL": true,
+    "GR": true,
+    "R_rel": true,
+    "Q": true,
+    "rho": true,
+    "lambda": false,
+    "E": false,
+    "g": true
+   },
+   "mancate": [
+    "k90",
+    "GL",
+    "GR",
+    "R_rel",
+    "Q",
+    "rho",
+    "lambda",
+    "E"
+   ],
+   "avvertenze": [
+    "lambda_zero",
+    "rho_neutro"
+   ],
+   "flag_conteggio": 6
+  },
+  "V_3_italiano": {
+   "descr": {
+    "tipo": "cella",
+    "cod": "V",
+    "valore": 3,
+    "chiaro": "italiano",
+    "cella": "V_3_italiano"
+   },
+   "istanze": 3,
+   "medio": {
+    "k90": 3.72225135894702,
+    "GL": 0.005236666666666556,
+    "GR": 0.011170968685115459,
+    "R_rel": 1.013458236817875,
+    "Q": 0.04459859130489049,
+    "rho": 0.018739837917850135,
+    "lambda": 0.0,
+    "E": 0.003790403659578739,
+    "g": 0.2439451070436346
+   },
+   "sd_istanze": {
+    "k90": 0.09095025121202978,
+    "GL": 0.003435714384714338,
+    "GR": 0.002507147472453554,
+    "R_rel": 0.007622742384255689,
+    "Q": 0.009070369113191637,
+    "rho": 0.01249961794728536,
+    "lambda": 0.0,
+    "E": 0.0016877364959974955,
+    "g": 0.017819834721645854
+   },
+   "z": {
+    "k90": 0.1948575340803705,
+    "GL": -1.2420011963636424,
+    "GR": -0.8728080602053653,
+    "R_rel": 0.09645690341137814,
+    "Q": -4.231788695230194,
+    "rho": -4.685027884092098,
+    "lambda": -5.443931622260809,
+    "E": -1.5120683544395463,
+    "g": 0.6537113617473518
+   },
+   "componenti_misurate": 9,
+   "distanza": 2.878256356259938,
+   "distanza_per_istanza": [
+    2.8111197568179827,
+    3.105025930873407,
+    2.749700634783364
+   ],
+   "sd_distanza": 0.1899163033816378,
+   "classe": "lontano",
+   "classi_per_istanza": [
+    "lontano",
+    "lontano",
+    "lontano"
+   ],
+   "stabile": true,
+   "firme_raggiunte": 1,
+   "firme": {
+    "k90": false,
+    "GL": false,
+    "GR": false,
+    "R_rel": true,
+    "Q": false,
+    "rho": false,
+    "lambda": false,
+    "E": false,
+    "g": false
+   },
+   "firme_raggiunte_larghe": 3,
+   "firme_larghe": {
+    "k90": false,
+    "GL": true,
+    "GR": true,
+    "R_rel": true,
+    "Q": false,
+    "rho": false,
+    "lambda": false,
+    "E": false,
+    "g": false
+   },
+   "mancate": [
+    "k90",
+    "GL",
+    "GR",
+    "Q",
+    "rho",
+    "lambda",
+    "E",
+    "g"
+   ],
+   "avvertenze": [
+    "lambda_zero"
+   ],
+   "flag_conteggio": 3
+  },
+  "V_3_tedesco": {
+   "descr": {
+    "tipo": "cella",
+    "cod": "V",
+    "valore": 3,
+    "chiaro": "tedesco",
+    "cella": "V_3_tedesco"
+   },
+   "istanze": 3,
+   "medio": {
+    "k90": 3.764645814006232,
+    "GL": 0.005833333333333431,
+    "GR": 0.018170256112992958,
+    "R_rel": 1.0449097362924875,
+    "Q": 0.07456053420823325,
+    "rho": 0.01489381490452651,
+    "lambda": 0.0,
+    "E": 0.0027654199969838404,
+    "g": 0.2908461028490494
+   },
+   "sd_istanze": {
+    "k90": 0.08990549368760535,
+    "GL": 0.0037044612743733774,
+    "GR": 0.007783093237691149,
+    "R_rel": 0.024707383230442772,
+    "Q": 0.004877888706754705,
+    "rho": 0.009853495313373905,
+    "lambda": 0.0,
+    "E": 0.0014364741618234256,
+    "g": 0.012845953593905323
+   },
+   "z": {
+    "k90": 0.19966716588312433,
+    "GL": -1.2251517591668641,
+    "GR": -0.5235549969502018,
+    "R_rel": 0.28623010697990053,
+    "Q": -0.7791479900712823,
+    "rho": -4.71148510284583,
+    "lambda": -5.443931622260809,
+    "E": -1.5273495883683659,
+    "g": 0.8050534504452429
+   },
+   "componenti_misurate": 9,
+   "distanza": 2.523651765792293,
+   "distanza_per_istanza": [
+    2.537520746881974,
+    2.5179058389313846,
+    2.5377591346879687
+   ],
+   "sd_distanza": 0.01139411247863365,
+   "classe": "lontano",
+   "classi_per_istanza": [
+    "lontano",
+    "lontano",
+    "lontano"
+   ],
+   "stabile": true,
+   "firme_raggiunte": 3,
+   "firme": {
+    "k90": false,
+    "GL": false,
+    "GR": true,
+    "R_rel": true,
+    "Q": true,
+    "rho": false,
+    "lambda": false,
+    "E": false,
+    "g": false
+   },
+   "firme_raggiunte_larghe": 4,
+   "firme_larghe": {
+    "k90": false,
+    "GL": true,
+    "GR": true,
+    "R_rel": true,
+    "Q": true,
+    "rho": false,
+    "lambda": false,
+    "E": false,
+    "g": false
+   },
+   "mancate": [
+    "k90",
+    "GL",
+    "rho",
+    "lambda",
+    "E",
+    "g"
+   ],
+   "avvertenze": [
+    "lambda_zero"
+   ],
+   "flag_conteggio": 3
+  },
+  "S_1": {
+   "descr": {
+    "tipo": "cella",
+    "cod": "S",
+    "valore": 1,
+    "chiaro": null,
+    "cella": "S_1"
+   },
+   "istanze": 3,
+   "medio": {
+    "k90": 5.913305523002815,
+    "GL": 0.07595000000000003,
+    "GR": 0.0232710350515249,
+    "R_rel": 1.5836261212815874,
+    "Q": 0.0035178226237163237,
+    "rho": 0.19230267235755014,
+    "lambda": 0.13266516162912625,
+    "E": 0.30265658774443266,
+    "g": 0.5890036901454486
+   },
+   "sd_istanze": {
+    "k90": 0.33506499696293024,
+    "GL": 0.023004393058718195,
+    "GR": 0.009338344939416498,
+    "R_rel": 0.022221940728114137,
+    "Q": 0.001174438949895895,
+    "rho": 0.04106649393136962,
+    "lambda": 0.03350093363794585,
+    "E": 0.04031692268384587,
+    "g": 0.007192196144830356
+   },
+   "z": {
+    "k90": 0.4434316406299284,
+    "GL": 0.7548924387890203,
+    "GR": -0.26903442073064177,
+    "R_rel": 3.536756660626662,
+    "Q": -8.96569846221046,
+    "rho": -3.4910699014224393,
+    "lambda": -2.7896756174399533,
+    "E": 2.94365541861273,
+    "g": 1.7671607841524575
+   },
+   "componenti_misurate": 9,
+   "distanza": 3.7340638257517713,
+   "distanza_per_istanza": [
+    3.6927181500167823,
+    3.767514805407901,
+    3.787843081327063
+   ],
+   "sd_distanza": 0.05009412975643781,
+   "classe": "lontano",
+   "classi_per_istanza": [
+    "lontano",
+    "lontano",
+    "lontano"
+   ],
+   "stabile": true,
+   "firme_raggiunte": 1,
+   "firme": {
+    "k90": false,
+    "GL": false,
+    "GR": true,
+    "R_rel": false,
+    "Q": false,
+    "rho": false,
+    "lambda": false,
+    "E": false,
+    "g": false
+   },
+   "firme_raggiunte_larghe": 3,
+   "firme_larghe": {
+    "k90": false,
+    "GL": true,
+    "GR": true,
+    "R_rel": false,
+    "Q": false,
+    "rho": false,
+    "lambda": true,
+    "E": false,
+    "g": false
+   },
+   "mancate": [
+    "k90",
+    "GL",
+    "R_rel",
+    "Q",
+    "rho",
+    "lambda",
+    "E",
+    "g"
+   ],
+   "avvertenze": [],
+   "flag_conteggio": 0
+  },
+  "S_2": {
+   "descr": {
+    "tipo": "cella",
+    "cod": "S",
+    "valore": 2,
+    "chiaro": null,
+    "cella": "S_2"
+   },
+   "istanze": 3,
+   "medio": {
+    "k90": 5.192471203835484,
+    "GL": 0.03049999999999997,
+    "GR": 0.008206881648103185,
+    "R_rel": 1.2914800376615874,
+    "Q": 0.003574258183969889,
+    "rho": 0.20127108371500493,
+    "lambda": 0.08897291969518828,
+    "E": 0.08568692504901211,
+    "g": 0.410957624339489
+   },
+   "sd_istanze": {
+    "k90": 0.2221513763902925,
+    "GL": 0.006854020717797488,
+    "GR": 0.003358976228779812,
+    "R_rel": 0.030485589886228178,
+    "Q": 0.001085070763417816,
+    "rho": 0.03249034207510223,
+    "lambda": 0.05708874714196218,
+    "E": 0.012835697251613177,
+    "g": 0.02842630676725771
+   },
+   "z": {
+    "k90": 0.361653312281531,
+    "GL": -0.5285828471215357,
+    "GR": -1.020711184358874,
+    "R_rel": 1.7739949759789384,
+    "Q": -8.959195155226046,
+    "rho": -3.42937520528161,
+    "lambda": -3.6638342442650043,
+    "E": -0.2910928921183292,
+    "g": 1.1926343157740362
+   },
+   "componenti_misurate": 9,
+   "distanza": 3.5206957586014447,
+   "distanza_per_istanza": [
+    3.4133454691561833,
+    3.7066944263507677,
+    3.483116984449146
+   ],
+   "sd_distanza": 0.1532473749425523,
+   "classe": "lontano",
+   "classi_per_istanza": [
+    "lontano",
+    "lontano",
+    "lontano"
+   ],
+   "stabile": true,
+   "firme_raggiunte": 1,
+   "firme": {
+    "k90": false,
+    "GL": true,
+    "GR": false,
+    "R_rel": false,
+    "Q": false,
+    "rho": false,
+    "lambda": false,
+    "E": false,
+    "g": false
+   },
+   "firme_raggiunte_larghe": 3,
+   "firme_larghe": {
+    "k90": false,
+    "GL": true,
+    "GR": true,
+    "R_rel": false,
+    "Q": false,
+    "rho": false,
+    "lambda": false,
+    "E": true,
+    "g": false
+   },
+   "mancate": [
+    "k90",
+    "GR",
+    "R_rel",
+    "Q",
+    "rho",
+    "lambda",
+    "E",
+    "g"
+   ],
+   "avvertenze": [],
+   "flag_conteggio": 0
+  },
+  "S_4": {
+   "descr": {
+    "tipo": "cella",
+    "cod": "S",
+    "valore": 4,
+    "chiaro": null,
+    "cella": "S_4"
+   },
+   "istanze": 3,
+   "medio": {
+    "k90": 4.232493370494446,
+    "GL": 0.017893333333333466,
+    "GR": -0.0011975773675462265,
+    "R_rel": 1.101765980347063,
+    "Q": 0.0027451430298444405,
+    "rho": 0.4711711544242159,
+    "lambda": 0.015362217554447222,
+    "E": 0.02837304579500326,
+    "g": 0.1956076809936264
+   },
+   "sd_istanze": {
+    "k90": 0.19364164057363156,
+    "GL": 0.005996952003587606,
+    "GR": 0.008217416841410401,
+    "R_rel": 0.025327806033821197,
+    "Q": 0.0009874949721588207,
+    "rho": 0.04473810850112181,
+    "lambda": 0.05781187638021192,
+    "E": 0.006554223150354295,
+    "g": 0.037123503239501386
+   },
+   "z": {
+    "k90": 0.25274426012536877,
+    "GL": -0.884586039737132,
+    "GR": -1.4899783995315503,
+    "R_rel": 0.6292913841002498,
+    "Q": -9.05473758181809,
+    "rho": -1.5727026924901402,
+    "lambda": -5.136576943077998,
+    "E": -1.145571678669266,
+    "g": 0.49773414004743405
+   },
+   "componenti_misurate": 9,
+   "distanza": 3.588075594889126,
+   "distanza_per_istanza": [
+    3.7988910655604258,
+    3.4165481029001645,
+    3.5908289825955477
+   ],
+   "sd_distanza": 0.19142004270317253,
+   "classe": "lontano",
+   "classi_per_istanza": [
+    "lontano",
+    "lontano",
+    "lontano"
+   ],
+   "stabile": true,
+   "firme_raggiunte": 0,
+   "firme": {
+    "k90": false,
+    "GL": false,
+    "GR": false,
+    "R_rel": false,
+    "Q": false,
+    "rho": false,
+    "lambda": false,
+    "E": false,
+    "g": false
+   },
+   "firme_raggiunte_larghe": 3,
+   "firme_larghe": {
+    "k90": false,
+    "GL": true,
+    "GR": false,
+    "R_rel": true,
+    "Q": false,
+    "rho": true,
+    "lambda": false,
+    "E": false,
+    "g": false
+   },
+   "mancate": [
+    "k90",
+    "GL",
+    "GR",
+    "R_rel",
+    "Q",
+    "rho",
+    "lambda",
+    "E",
+    "g"
+   ],
+   "avvertenze": [
+    "lambda_zero",
+    "rho_neutro"
+   ],
+   "flag_conteggio": 2
+  },
+  "N_30": {
+   "descr": {
+    "tipo": "cella",
+    "cod": "N",
+    "valore": 30,
+    "chiaro": null,
+    "cella": "N_30"
+   },
+   "istanze": 3,
+   "medio": {
+    "k90": 4.4675794926232175,
+    "GL": 0.03102999999999989,
+    "GR": 0.0007832711909499131,
+    "R_rel": 1.2580642878051669,
+    "Q": 0.004597868085610527,
+    "rho": 0.3203503809495482,
+    "lambda": 0.13246204006043524,
+    "E": 0.13931747348313483,
+    "g": 0.0553189894862995
+   },
+   "sd_istanze": {
+    "k90": 0.612074853094852,
+    "GL": 0.023260242905008464,
+    "GR": 0.0022612492250344896,
+    "R_rel": 0.024279441355678832,
+    "Q": 0.0004821942455671906,
+    "rho": 0.2775721203297094,
+    "lambda": 0.06586076094653846,
+    "E": 0.017293550712095512,
+    "g": 0.0270706209232927
+   },
+   "z": {
+    "k90": 0.2794146746358846,
+    "GL": -0.5136160286059693,
+    "GR": -1.3911372769132808,
+    "R_rel": 1.5723698068827536,
+    "Q": -8.841240280803872,
+    "rho": -2.610215516153168,
+    "lambda": -2.793739507588551,
+    "E": 0.5084720046312673,
+    "g": 0.04504474126580437
+   },
+   "componenti_misurate": 9,
+   "distanza": 3.2963918272054724,
+   "distanza_per_istanza": [
+    3.343805951759746,
+    3.2935171149423654,
+    3.447908517782058
+   ],
+   "sd_distanza": 0.07874327128045425,
+   "classe": "lontano",
+   "classi_per_istanza": [
+    "lontano",
+    "lontano",
+    "lontano"
+   ],
+   "stabile": true,
+   "firme_raggiunte": 2,
+   "firme": {
+    "k90": false,
+    "GL": true,
+    "GR": false,
+    "R_rel": false,
+    "Q": false,
+    "rho": false,
+    "lambda": false,
+    "E": false,
+    "g": true
+   },
+   "firme_raggiunte_larghe": 4,
+   "firme_larghe": {
+    "k90": false,
+    "GL": true,
+    "GR": true,
+    "R_rel": false,
+    "Q": false,
+    "rho": false,
+    "lambda": true,
+    "E": false,
+    "g": true
+   },
+   "mancate": [
+    "k90",
+    "GR",
+    "R_rel",
+    "Q",
+    "rho",
+    "lambda",
+    "E"
+   ],
+   "avvertenze": [],
+   "flag_conteggio": 0
+  },
+  "N_150": {
+   "descr": {
+    "tipo": "cella",
+    "cod": "N",
+    "valore": 150,
+    "chiaro": null,
+    "cella": "N_150"
+   },
+   "istanze": 3,
+   "medio": {
+    "k90": 4.7897519101471575,
+    "GL": 0.0461699999999999,
+    "GR": 0.0081567920695005,
+    "R_rel": 1.224516123700705,
+    "Q": 0.004023303123993652,
+    "rho": 0.40470155309633604,
+    "lambda": 0.06947192042875412,
+    "E": 0.17211971547780633,
+    "g": 0.0696115988451272
+   },
+   "sd_istanze": {
+    "k90": 0.8501343536827942,
+    "GL": 0.032401177447741,
+    "GR": 0.006987252100585444,
+    "R_rel": 0.02887142481810515,
+    "Q": 0.0007281154547523638,
+    "rho": 0.12075234134341054,
+    "lambda": 0.02316084764424058,
+    "E": 0.03563796924165484,
+    "g": 0.01162998871034014
+   },
+   "z": {
+    "k90": 0.3159649900752272,
+    "GL": -0.0860733261046316,
+    "GR": -1.0232105728958374,
+    "R_rel": 1.3699456718717884,
+    "Q": -8.907449818037025,
+    "rho": -2.0299544501402735,
+    "lambda": -4.053994281514574,
+    "E": 0.9975127099643755,
+    "g": 0.09116472904351124
+   },
+   "componenti_misurate": 9,
+   "distanza": 3.3982437145644817,
+   "distanza_per_istanza": [
+    3.4933287165718565,
+    3.427833619785785,
+    3.3433999270486234
+   ],
+   "sd_distanza": 0.07516348637043589,
+   "classe": "lontano",
+   "classi_per_istanza": [
+    "lontano",
+    "lontano",
+    "lontano"
+   ],
+   "stabile": true,
+   "firme_raggiunte": 2,
+   "firme": {
+    "k90": false,
+    "GL": true,
+    "GR": false,
+    "R_rel": false,
+    "Q": false,
+    "rho": false,
+    "lambda": false,
+    "E": false,
+    "g": true
+   },
+   "firme_raggiunte_larghe": 4,
+   "firme_larghe": {
+    "k90": false,
+    "GL": true,
+    "GR": true,
+    "R_rel": false,
+    "Q": false,
+    "rho": true,
+    "lambda": false,
+    "E": false,
+    "g": true
+   },
+   "mancate": [
+    "k90",
+    "GR",
+    "R_rel",
+    "Q",
+    "rho",
+    "lambda",
+    "E"
+   ],
+   "avvertenze": [],
+   "flag_conteggio": 0
+  },
+  "N_600": {
+   "descr": {
+    "tipo": "cella",
+    "cod": "N",
+    "valore": 600,
+    "chiaro": null,
+    "cella": "N_600"
+   },
+   "istanze": 3,
+   "medio": {
+    "k90": 4.3490164007005125,
+    "GL": 0.026583333333333254,
+    "GR": 0.0016063379315592599,
+    "R_rel": 1.1381286277121692,
+    "Q": 0.004809946715423713,
+    "rho": 0.274703932883118,
+    "lambda": -0.018717679384841295,
+    "E": 0.12254649876841095,
+    "g": 0.08408767718036717
+   },
+   "sd_istanze": {
+    "k90": 0.09925383677255177,
+    "GL": 0.007062133766315642,
+    "GR": 0.006467589102990898,
+    "R_rel": 0.021099533930335552,
+    "Q": 0.0009675803972545562,
+    "rho": 0.05166822085836237,
+    "lambda": 0.09617017362514871,
+    "E": 0.025839164463381074,
+    "g": 0.028154384693892243
+   },
+   "z": {
+    "k90": 0.2659637453398761,
+    "GL": -0.6391866946422486,
+    "GR": -1.3500675846934218,
+    "R_rel": 0.8486976507642249,
+    "Q": -8.816801568256105,
+    "rho": -2.9242224936571275,
+    "lambda": -5.818419636246081,
+    "E": 0.25843759219858664,
+    "g": 0.13787674216363716
+   },
+   "componenti_misurate": 9,
+   "distanza": 3.7005876510067695,
+   "distanza_per_istanza": [
+    4.030552394706955,
+    3.77575718037944,
+    3.391947917908828
+   ],
+   "sd_distanza": 0.32146690575885856,
+   "classe": "lontano",
+   "classi_per_istanza": [
+    "lontano",
+    "lontano",
+    "lontano"
+   ],
+   "stabile": true,
+   "firme_raggiunte": 1,
+   "firme": {
+    "k90": false,
+    "GL": true,
+    "GR": false,
+    "R_rel": false,
+    "Q": false,
+    "rho": false,
+    "lambda": false,
+    "E": false,
+    "g": false
+   },
+   "firme_raggiunte_larghe": 4,
+   "firme_larghe": {
+    "k90": false,
+    "GL": true,
+    "GR": true,
+    "R_rel": false,
+    "Q": false,
+    "rho": false,
+    "lambda": false,
+    "E": true,
+    "g": true
+   },
+   "mancate": [
+    "k90",
+    "GR",
+    "R_rel",
+    "Q",
+    "rho",
+    "lambda",
+    "E",
+    "g"
+   ],
+   "avvertenze": [],
+   "flag_conteggio": 0
+  },
+  "C_4": {
+   "descr": {
+    "tipo": "cella",
+    "cod": "C",
+    "valore": 4,
+    "chiaro": null,
+    "cella": "C_4"
+   },
+   "istanze": 3,
+   "medio": {
+    "k90": 34.70041636665991,
+    "GL": 0.22434666666666678,
+    "GR": 0.5828693392219003,
+    "R_rel": 0.9331417940037117,
+    "Q": 0.015688623075093465,
+    "rho": 0.99998892304943,
+    "lambda": 0.39149708133449235,
+    "E": 16.89377482028854,
+    "g": 0.0034665893119790736
+   },
+   "sd_istanze": {
+    "k90": 3.5499914314492313,
+    "GL": 0.05568501623716514,
+    "GR": 0.03407245666297059,
+    "R_rel": 0.008775785301147426,
+    "Q": 0.006894891253973438,
+    "rho": 7.618798041165667e-06,
+    "lambda": 0.006193670306898074,
+    "E": 0.33912485951600185,
+    "g": 0.0031314881256724572
+   },
+   "z": {
+    "k90": 3.709316380265664,
+    "GL": 4.945507492214176,
+    "GR": 27.654011166092058,
+    "R_rel": -0.38815937583390986,
+    "Q": -7.563205933993841,
+    "rho": 2.065093372928403,
+    "lambda": 2.3888216510279077,
+    "E": 250.29663098736754,
+    "g": -0.12227474548749284
+   },
+   "componenti_misurate": 9,
+   "distanza": 84.00972408788229,
+   "distanza_per_istanza": [
+    85.81881030708388,
+    82.56496220594805,
+    83.65472379248011
+   ],
+   "sd_distanza": 1.656219501527299,
+   "classe": "lontano",
+   "classi_per_istanza": [
+    "lontano",
+    "lontano",
+    "lontano"
+   ],
+   "stabile": true,
+   "firme_raggiunte": 0,
+   "firme": {
+    "k90": false,
+    "GL": false,
+    "GR": false,
+    "R_rel": false,
+    "Q": false,
+    "rho": false,
+    "lambda": false,
+    "E": false,
+    "g": false
+   },
+   "firme_raggiunte_larghe": 4,
+   "firme_larghe": {
+    "k90": false,
+    "GL": false,
+    "GR": false,
+    "R_rel": true,
+    "Q": false,
+    "rho": true,
+    "lambda": true,
+    "E": false,
+    "g": true
+   },
+   "mancate": [
+    "k90",
+    "GL",
+    "GR",
+    "R_rel",
+    "Q",
+    "rho",
+    "lambda",
+    "E",
+    "g"
+   ],
+   "avvertenze": [],
+   "flag_conteggio": 0
+  },
+  "C_16": {
+   "descr": {
+    "tipo": "cella",
+    "cod": "C",
+    "valore": 16,
+    "chiaro": null,
+    "cella": "C_16"
+   },
+   "istanze": 3,
+   "medio": {
+    "k90": 99.70312875707631,
+    "GL": 0.86725,
+    "GR": 0.6092449415141653,
+    "R_rel": 0.9362502082413328,
+    "Q": 0.015989436841424155,
+    "rho": 1.0,
+    "lambda": 0.32557912120073057,
+    "E": 14.459535515005278,
+    "g": 0.00033252764612954136
+   },
+   "sd_istanze": {
+    "k90": 14.24383641443321,
+    "GL": 0.12043075354742244,
+    "GR": 0.048029945552727486,
+    "R_rel": 0.014896249777230893,
+    "Q": 0.0045331903869084795,
+    "rho": 0.0,
+    "lambda": 0.005276373339383082,
+    "E": 0.5209097067127021,
+    "g": 0.0037110844931675766
+   },
+   "z": {
+    "k90": 11.083844778886382,
+    "GL": 23.10063487533515,
+    "GR": 28.970110839193623,
+    "R_rel": -0.3694037127416773,
+    "Q": -7.528541898431926,
+    "rho": 2.0651695724995807,
+    "lambda": 1.0699890399487506,
+    "E": 214.00514496642174,
+    "g": -0.13238786633860491
+   },
+   "componenti_misurate": 9,
+   "distanza": 72.53826811608992,
+   "distanza_per_istanza": [
+    71.64046552070172,
+    75.24057926597936,
+    70.77990247506195
+   ],
+   "sd_distanza": 2.366397584497271,
+   "classe": "lontano",
+   "classi_per_istanza": [
+    "lontano",
+    "lontano",
+    "lontano"
+   ],
+   "stabile": true,
+   "firme_raggiunte": 1,
+   "firme": {
+    "k90": false,
+    "GL": false,
+    "GR": false,
+    "R_rel": false,
+    "Q": false,
+    "rho": false,
+    "lambda": true,
+    "E": false,
+    "g": false
+   },
+   "firme_raggiunte_larghe": 4,
+   "firme_larghe": {
+    "k90": false,
+    "GL": false,
+    "GR": false,
+    "R_rel": true,
+    "Q": false,
+    "rho": true,
+    "lambda": true,
+    "E": false,
+    "g": true
+   },
+   "mancate": [
+    "k90",
+    "GL",
+    "GR",
+    "R_rel",
+    "Q",
+    "rho",
+    "E",
+    "g"
+   ],
+   "avvertenze": [],
+   "flag_conteggio": 0
+  },
+  "C_64": {
+   "descr": {
+    "tipo": "cella",
+    "cod": "C",
+    "valore": 64,
+    "chiaro": null,
+    "cella": "C_64"
+   },
+   "istanze": 3,
+   "medio": {
+    "k90": 183.456443134365,
+    "GL": 0.8024,
+    "GR": 0.3841088742487799,
+    "R_rel": 0.9124161070641107,
+    "Q": 0.013155599191804524,
+    "rho": 1.0,
+    "lambda": 0.2558409105447678,
+    "E": 13.514782586839592,
+    "g": 0.0010900947867298573
+   },
+   "sd_istanze": {
+    "k90": 16.04327615239668,
+    "GL": 0.12951331167104016,
+    "GR": 0.04025639205323409,
+    "R_rel": 0.007072716148879125,
+    "Q": 0.007978808644369301,
+    "rho": 0.0,
+    "lambda": 0.002090032306822041,
+    "E": 0.4248776943237806,
+    "g": 0.0006145400078229506
+   },
+   "z": {
+    "k90": 20.58562051470915,
+    "GL": 21.269317553194348,
+    "GR": 17.73618710740305,
+    "R_rel": -0.5132147808984987,
+    "Q": -7.855096930341991,
+    "rho": 2.0651695724995807,
+    "lambda": -0.3252760177799553,
+    "E": 199.92005168436134,
+    "g": -0.12994331710423443
+   },
+   "componenti_misurate": 9,
+   "distanza": 67.67988753606835,
+   "distanza_per_istanza": [
+    68.12958495508913,
+    65.31001491252724,
+    69.6302643625811
+   ],
+   "sd_distanza": 2.1934208146057173,
+   "classe": "lontano",
+   "classi_per_istanza": [
+    "lontano",
+    "lontano",
+    "lontano"
+   ],
+   "stabile": true,
+   "firme_raggiunte": 1,
+   "firme": {
+    "k90": false,
+    "GL": false,
+    "GR": false,
+    "R_rel": false,
+    "Q": false,
+    "rho": false,
+    "lambda": true,
+    "E": false,
+    "g": false
+   },
+   "firme_raggiunte_larghe": 4,
+   "firme_larghe": {
+    "k90": false,
+    "GL": false,
+    "GR": false,
+    "R_rel": true,
+    "Q": false,
+    "rho": true,
+    "lambda": true,
+    "E": false,
+    "g": true
+   },
+   "mancate": [
+    "k90",
+    "GL",
+    "GR",
+    "R_rel",
+    "Q",
+    "rho",
+    "E",
+    "g"
+   ],
+   "avvertenze": [],
+   "flag_conteggio": 0
+  },
+  "R_6": {
+   "descr": {
+    "tipo": "cella",
+    "cod": "R",
+    "valore": 6,
+    "chiaro": null,
+    "cella": "R_6"
+   },
+   "istanze": 3,
+   "medio": {
+    "k90": 3.410016778825478,
+    "GL": 0.0009000000000000119,
+    "GR": 0.044538081137243564,
+    "R_rel": null,
+    "Q": 0.0,
+    "rho": 0.0,
+    "lambda": 0.9429758771722861,
+    "E": 0.626711657366913,
+    "g": 0.4699974434820504
+   },
+   "sd_istanze": {
+    "k90": 0.028124673644747796,
+    "GL": 0.00030049958402635226,
+    "GR": 0.0025030154367833178,
+    "R_rel": 0.0,
+    "Q": 0.0,
+    "rho": 0.0,
+    "lambda": 0.0029587134869975937,
+    "E": 0.009296413520605675,
+    "g": 0.008791768339913839
+   },
+   "z": {
+    "k90": 0.15943466181147103,
+    "GL": -1.364465541575933,
+    "GR": 0.7921566031216761,
+    "R_rel": null,
+    "Q": -9.37107195962864,
+    "rho": -4.813941306992703,
+    "lambda": 13.422358168142235,
+    "E": 7.774914203932667,
+    "g": 1.3831464657175432
+   },
+   "componenti_misurate": 8,
+   "distanza": 6.671092508981836,
+   "distanza_per_istanza": [
+    6.6604976725802505,
+    6.651341091030893,
+    6.702063722979746
+   ],
+   "sd_distanza": 0.027031971574730473,
+   "classe": "lontano",
+   "classi_per_istanza": [
+    "lontano",
+    "lontano",
+    "lontano"
+   ],
+   "stabile": true,
+   "firme_raggiunte": 0,
+   "firme": {
+    "k90": false,
+    "GL": false,
+    "GR": false,
+    "R_rel": null,
+    "Q": false,
+    "rho": false,
+    "lambda": false,
+    "E": false,
+    "g": false
+   },
+   "firme_raggiunte_larghe": 2,
+   "firme_larghe": {
+    "k90": false,
+    "GL": true,
+    "GR": true,
+    "R_rel": null,
+    "Q": false,
+    "rho": false,
+    "lambda": false,
+    "E": false,
+    "g": false
+   },
+   "mancate": [
+    "k90",
+    "GL",
+    "GR",
+    "Q",
+    "rho",
+    "lambda",
+    "E",
+    "g"
+   ],
+   "avvertenze": [],
+   "flag_conteggio": 0
+  },
+  "R_12": {
+   "descr": {
+    "tipo": "cella",
+    "cod": "R",
+    "valore": 12,
+    "chiaro": null,
+    "cella": "R_12"
+   },
+   "istanze": 3,
+   "medio": {
+    "k90": 5.913041370174698,
+    "GL": 0.007586666666666704,
+    "GR": 0.09557500124522604,
+    "R_rel": null,
+    "Q": 0.0,
+    "rho": 2.2940882337444977e-05,
+    "lambda": 0.798114448928498,
+    "E": 1.4687625043985322,
+    "g": 0.1626821697445117
+   },
+   "sd_istanze": {
+    "k90": 0.05204606841361315,
+    "GL": 0.0015702335282795274,
+    "GR": 0.011809280496731706,
+    "R_rel": 0.0,
+    "Q": 0.0,
+    "rho": 3.973477377891417e-05,
+    "lambda": 0.00448005197419344,
+    "E": 0.005205413822003485,
+    "g": 0.00862329214221538
+   },
+   "z": {
+    "k90": 0.4434016726107352,
+    "GL": -1.1756388878512112,
+    "GR": 3.338815941017623,
+    "R_rel": null,
+    "Q": -9.37107195962864,
+    "rho": -4.81378349411943,
+    "lambda": 10.524089240102997,
+    "E": 20.328846957235864,
+    "g": 0.3914887275926385
+   },
+   "componenti_misurate": 8,
+   "distanza": 8.999219836289226,
+   "distanza_per_istanza": [
+    9.029426577093732,
+    8.979047861891136,
+    8.99416723382473
+   ],
+   "sd_distanza": 0.025851600984890578,
+   "classe": "lontano",
+   "classi_per_istanza": [
+    "lontano",
+    "lontano",
+    "lontano"
+   ],
+   "stabile": true,
+   "firme_raggiunte": 0,
+   "firme": {
+    "k90": false,
+    "GL": false,
+    "GR": false,
+    "R_rel": null,
+    "Q": false,
+    "rho": false,
+    "lambda": false,
+    "E": false,
+    "g": false
+   },
+   "firme_raggiunte_larghe": 1,
+   "firme_larghe": {
+    "k90": false,
+    "GL": true,
+    "GR": false,
+    "R_rel": null,
+    "Q": false,
+    "rho": false,
+    "lambda": false,
+    "E": false,
+    "g": false
+   },
+   "mancate": [
+    "k90",
+    "GL",
+    "GR",
+    "Q",
+    "rho",
+    "lambda",
+    "E",
+    "g"
+   ],
+   "avvertenze": [],
+   "flag_conteggio": 0
+  },
+  "R_24": {
+   "descr": {
+    "tipo": "cella",
+    "cod": "R",
+    "valore": 24,
+    "chiaro": null,
+    "cella": "R_24"
+   },
+   "istanze": 3,
+   "medio": {
+    "k90": 26.26796829565022,
+    "GL": 0.20954666666666663,
+    "GR": 0.1299391970822722,
+    "R_rel": 2.321788782618361,
+    "Q": 0.0,
+    "rho": 0.009071792946946974,
+    "lambda": 0.5750091436641891,
+    "E": 2.5870909365103305,
+    "g": -0.22729473116522314
+   },
+   "sd_istanze": {
+    "k90": 17.080596863393836,
+    "GL": 0.07375108835355122,
+    "GR": 0.029463968833543148,
+    "R_rel": 0.8721403130062699,
+    "Q": 0.0,
+    "rho": 0.000367023524752453,
+    "lambda": 0.0030125873687221506,
+    "E": 0.0045849047802088575,
+    "g": 0.036418224634656396
+   },
+   "z": {
+    "k90": 2.7526589504024193,
+    "GL": 4.527566144986973,
+    "GR": 5.053533444200401,
+    "R_rel": 7.990709423979669,
+    "Q": -9.37107195962864,
+    "rho": -4.751535437434859,
+    "lambda": 6.060380841204314,
+    "E": 37.00173551536748,
+    "g": -0.8669049954846839
+   },
+   "componenti_misurate": 9,
+   "distanza": 13.476184235371877,
+   "distanza_per_istanza": [
+    13.768123174306249,
+    13.882156736934151,
+    13.499101828446562
+   ],
+   "sd_distanza": 0.19668384141823633,
+   "classe": "lontano",
+   "classi_per_istanza": [
+    "lontano",
+    "lontano",
+    "lontano"
+   ],
+   "stabile": true,
+   "firme_raggiunte": 0,
+   "firme": {
+    "k90": false,
+    "GL": false,
+    "GR": false,
+    "R_rel": false,
+    "Q": false,
+    "rho": false,
+    "lambda": false,
+    "E": false,
+    "g": false
+   },
+   "firme_raggiunte_larghe": 0,
+   "firme_larghe": {
+    "k90": false,
+    "GL": false,
+    "GR": false,
+    "R_rel": false,
+    "Q": false,
+    "rho": false,
+    "lambda": false,
+    "E": false,
+    "g": false
+   },
+   "mancate": [
+    "k90",
+    "GL",
+    "GR",
+    "R_rel",
+    "Q",
+    "rho",
+    "lambda",
+    "E",
+    "g"
+   ],
+   "avvertenze": [],
+   "flag_conteggio": 0
+  },
+  "F_3p5": {
+   "descr": {
+    "tipo": "cella",
+    "cod": "F",
+    "valore": 3.5,
+    "chiaro": null,
+    "cella": "F_3p5"
+   },
+   "istanze": 3,
+   "medio": {
+    "k90": 3.76120952434488,
+    "GL": 0.01041333333333346,
+    "GR": 0.045600581767397425,
+    "R_rel": 1.0336295524403023,
+    "Q": 0.06587781688655521,
+    "rho": 0.07705298940523052,
+    "lambda": 0.0,
+    "E": 0.009671492484793634,
+    "g": 0.010786474914201665
+   },
+   "sd_istanze": {
+    "k90": 0.1524792765312287,
+    "GL": 0.0026391728502191537,
+    "GR": 0.011347064240063114,
+    "R_rel": 0.01222000473531013,
+    "Q": 0.00938542092038462,
+    "rho": 0.03392007625709829,
+    "lambda": 0.0,
+    "E": 0.0030112254860962485,
+    "g": 0.004694072531507439
+   },
+   "z": {
+    "k90": 0.19927732037111975,
+    "GL": -1.095815855768176,
+    "GR": 0.8451736571597478,
+    "R_rel": 0.2181673226220657,
+    "Q": -1.7796940278540783,
+    "rho": -4.283885249277778,
+    "lambda": -5.443931622260809,
+    "E": -1.424388621216526,
+    "g": -0.09865463343984865
+   },
+   "componenti_misurate": 9,
+   "distanza": 2.476476667950856,
+   "distanza_per_istanza": [
+    2.5477269214247333,
+    2.465655739284309,
+    2.4848979969011187
+   ],
+   "sd_distanza": 0.04292127905230008,
+   "classe": "lontano",
+   "classi_per_istanza": [
+    "lontano",
+    "lontano",
+    "lontano"
+   ],
+   "stabile": true,
+   "firme_raggiunte": 3,
+   "firme": {
+    "k90": false,
+    "GL": false,
+    "GR": false,
+    "R_rel": true,
+    "Q": true,
+    "rho": false,
+    "lambda": false,
+    "E": false,
+    "g": true
+   },
+   "firme_raggiunte_larghe": 5,
+   "firme_larghe": {
+    "k90": false,
+    "GL": true,
+    "GR": true,
+    "R_rel": true,
+    "Q": true,
+    "rho": false,
+    "lambda": false,
+    "E": false,
+    "g": true
+   },
+   "mancate": [
+    "k90",
+    "GL",
+    "GR",
+    "rho",
+    "lambda",
+    "E"
+   ],
+   "avvertenze": [
+    "lambda_zero"
+   ],
+   "flag_conteggio": 3
+  },
+  "F_5p0": {
+   "descr": {
+    "tipo": "cella",
+    "cod": "F",
+    "valore": 5.0,
+    "chiaro": null,
+    "cella": "F_5p0"
+   },
+   "istanze": 3,
+   "medio": {
+    "k90": 4.2735286895443725,
+    "GL": 0.01701666666666653,
+    "GR": 0.031691217133662,
+    "R_rel": 1.0709540271301838,
+    "Q": 0.029473497908394222,
+    "rho": 0.09784878856166575,
+    "lambda": 0.0,
+    "E": 0.005319333433871199,
+    "g": 0.0045264547584027886
+   },
+   "sd_istanze": {
+    "k90": 0.38819219962647733,
+    "GL": 0.005909190581909944,
+    "GR": 0.00458806633977073,
+    "R_rel": 0.008704760700051379,
+    "Q": 0.001533704304091025,
+    "rho": 0.027534740445260605,
+    "lambda": 0.0,
+    "E": 0.0009420124432674397,
+    "g": 0.004079286298451263
+   },
+   "z": {
+    "k90": 0.25739969856096184,
+    "GL": -0.9093424753949668,
+    "GR": 0.1511189756907992,
+    "R_rel": 0.44337709804560554,
+    "Q": -5.974716825710247,
+    "rho": -4.140828641053007,
+    "lambda": -5.443931622260809,
+    "E": -1.489273909616347,
+    "g": -0.11885472747623411
+   },
+   "componenti_misurate": 9,
+   "distanza": 3.088054696050763,
+   "distanza_per_istanza": [
+    3.0760085272485953,
+    3.089802634454975,
+    3.1037738675747675
+   ],
+   "sd_distanza": 0.01388276432569564,
+   "classe": "lontano",
+   "classi_per_istanza": [
+    "lontano",
+    "lontano",
+    "lontano"
+   ],
+   "stabile": true,
+   "firme_raggiunte": 1,
+   "firme": {
+    "k90": false,
+    "GL": false,
+    "GR": true,
+    "R_rel": false,
+    "Q": false,
+    "rho": false,
+    "lambda": false,
+    "E": false,
+    "g": false
+   },
+   "firme_raggiunte_larghe": 4,
+   "firme_larghe": {
+    "k90": false,
+    "GL": true,
+    "GR": true,
+    "R_rel": true,
+    "Q": false,
+    "rho": false,
+    "lambda": false,
+    "E": false,
+    "g": true
+   },
+   "mancate": [
+    "k90",
+    "GL",
+    "R_rel",
+    "Q",
+    "rho",
+    "lambda",
+    "E",
+    "g"
+   ],
+   "avvertenze": [
+    "lambda_zero"
+   ],
+   "flag_conteggio": 3
+  },
+  "F_7p0": {
+   "descr": {
+    "tipo": "cella",
+    "cod": "F",
+    "valore": 7.0,
+    "chiaro": null,
+    "cella": "F_7p0"
+   },
+   "istanze": 3,
+   "medio": {
+    "k90": 5.200692290869182,
+    "GL": 0.024406666666666688,
+    "GR": 0.037006043369930866,
+    "R_rel": 1.1264473817318774,
+    "Q": 0.004934013203678119,
+    "rho": 0.5,
+    "lambda": 0.0,
+    "E": 0.0054384708188808676,
+    "g": -4.442065697009311e-05
+   },
+   "sd_istanze": {
+    "k90": 0.41108881071772496,
+    "GL": 0.007369249170257045,
+    "GR": 0.006417887783488176,
+    "R_rel": 0.08513872029970515,
+    "Q": 0.0007297549604618726,
+    "rho": 0.0,
+    "lambda": 0.0,
+    "E": 0.0005060828536717474,
+    "g": 0.0004338068032798633
+   },
+   "z": {
+    "k90": 0.3625859908970541,
+    "GL": -0.7006541945835434,
+    "GR": 0.41632016407072886,
+    "R_rel": 0.7782149231238059,
+    "Q": -8.802504864972372,
+    "rho": -1.374385867246561,
+    "lambda": -5.443931622260809,
+    "E": -1.487497719110645,
+    "g": -0.13360421883907012
+   },
+   "componenti_misurate": 9,
+   "distanza": 3.5377526657504275,
+   "distanza_per_istanza": [
+    3.556459373989,
+    3.546286600600762,
+    3.7227574725888477
+   ],
+   "sd_distanza": 0.09907952325999597,
+   "classe": "lontano",
+   "classi_per_istanza": [
+    "lontano",
+    "lontano",
+    "lontano"
+   ],
+   "stabile": true,
+   "firme_raggiunte": 2,
+   "firme": {
+    "k90": false,
+    "GL": true,
+    "GR": true,
+    "R_rel": false,
+    "Q": false,
+    "rho": false,
+    "lambda": false,
+    "E": false,
+    "g": false
+   },
+   "firme_raggiunte_larghe": 4,
+   "firme_larghe": {
+    "k90": false,
+    "GL": true,
+    "GR": true,
+    "R_rel": false,
+    "Q": false,
+    "rho": true,
+    "lambda": false,
+    "E": false,
+    "g": true
+   },
+   "mancate": [
+    "k90",
+    "R_rel",
+    "Q",
+    "rho",
+    "lambda",
+    "E",
+    "g"
+   ],
+   "avvertenze": [
+    "lambda_zero",
+    "rho_neutro"
+   ],
+   "flag_conteggio": 6
+  },
+  "P_1": {
+   "descr": {
+    "tipo": "cella",
+    "cod": "P",
+    "valore": 1,
+    "chiaro": null,
+    "cella": "P_1"
+   },
+   "istanze": 3,
+   "medio": {
+    "k90": 22.859112362971118,
+    "GL": 0.03358000000000002,
+    "GR": 0.13723920764787773,
+    "R_rel": 1.0047621192827743,
+    "Q": 0.01540871874868524,
+    "rho": 0.5,
+    "lambda": 0.0,
+    "E": 0.002255441612627606,
+    "g": 0.0015433235278095557
+   },
+   "sd_istanze": {
+    "k90": 0.7704372369685154,
+    "GL": 0.006654795263567313,
+    "GR": 0.017271793256123515,
+    "R_rel": 0.001183991636850476,
+    "Q": 0.002014252373082165,
+    "rho": 0.0,
+    "lambda": 0.0,
+    "E": 0.001345953811572371,
+    "g": 0.002164025167679083
+   },
+   "z": {
+    "k90": 2.3659257825407187,
+    "GL": -0.4416058640499281,
+    "GR": 5.417792103114474,
+    "R_rel": 0.04398595255650427,
+    "Q": -7.595460486845261,
+    "rho": -1.374385867246561,
+    "lambda": -5.443931622260809,
+    "E": -1.5349527329592363,
+    "g": -0.1284808197061515
+   },
+   "componenti_misurate": 9,
+   "distanza": 3.752568924896108,
+   "distanza_per_istanza": [
+    3.5470864260652704,
+    3.886893430856314,
+    3.8395631516038478
+   ],
+   "sd_distanza": 0.1840523434700688,
+   "classe": "lontano",
+   "classi_per_istanza": [
+    "lontano",
+    "lontano",
+    "lontano"
+   ],
+   "stabile": true,
+   "firme_raggiunte": 2,
+   "firme": {
+    "k90": false,
+    "GL": true,
+    "GR": false,
+    "R_rel": true,
+    "Q": false,
+    "rho": false,
+    "lambda": false,
+    "E": false,
+    "g": false
+   },
+   "firme_raggiunte_larghe": 4,
+   "firme_larghe": {
+    "k90": false,
+    "GL": true,
+    "GR": false,
+    "R_rel": true,
+    "Q": false,
+    "rho": true,
+    "lambda": false,
+    "E": false,
+    "g": true
+   },
+   "mancate": [
+    "k90",
+    "GR",
+    "Q",
+    "rho",
+    "lambda",
+    "E",
+    "g"
+   ],
+   "avvertenze": [
+    "lambda_zero",
+    "rho_neutro"
+   ],
+   "flag_conteggio": 6
+  },
+  "P_5": {
+   "descr": {
+    "tipo": "cella",
+    "cod": "P",
+    "valore": 5,
+    "chiaro": null,
+    "cella": "P_5"
+   },
+   "istanze": 3,
+   "medio": {
+    "k90": 34.65052038054605,
+    "GL": 0.05595666666666658,
+    "GR": 0.10293658679077881,
+    "R_rel": 0.9693506866785597,
+    "Q": 0.012598766056479013,
+    "rho": 0.5,
+    "lambda": 0.0,
+    "E": 0.0009385210878198069,
+    "g": -0.0004026927057798127
+   },
+   "sd_istanze": {
+    "k90": 4.001079534507012,
+    "GL": 0.006704254867868054,
+    "GR": 0.017313234349290624,
+    "R_rel": 0.023577631789658646,
+    "Q": 0.0022182993387896716,
+    "rho": 0.0,
+    "lambda": 0.0,
+    "E": 0.0005579113835426623,
+    "g": 0.0008897788703733891
+   },
+   "z": {
+    "k90": 3.703655703148626,
+    "GL": 0.19029509629605726,
+    "GR": 3.7061470913228622,
+    "R_rel": -0.16968083982257107,
+    "Q": -7.91926315464888,
+    "rho": -1.374385867246561,
+    "lambda": -5.443931622260809,
+    "E": -1.554586383074502,
+    "g": -0.13476030602352765
+   },
+   "componenti_misurate": 9,
+   "distanza": 3.7147237333511582,
+   "distanza_per_istanza": [
+    3.700110016222228,
+    3.727662543860331,
+    3.748316130912062
+   ],
+   "sd_distanza": 0.024185194957663997,
+   "classe": "lontano",
+   "classi_per_istanza": [
+    "lontano",
+    "lontano",
+    "lontano"
+   ],
+   "stabile": true,
+   "firme_raggiunte": 2,
+   "firme": {
+    "k90": false,
+    "GL": true,
+    "GR": false,
+    "R_rel": true,
+    "Q": false,
+    "rho": false,
+    "lambda": false,
+    "E": false,
+    "g": false
+   },
+   "firme_raggiunte_larghe": 4,
+   "firme_larghe": {
+    "k90": false,
+    "GL": true,
+    "GR": false,
+    "R_rel": true,
+    "Q": false,
+    "rho": true,
+    "lambda": false,
+    "E": false,
+    "g": true
+   },
+   "mancate": [
+    "k90",
+    "GR",
+    "Q",
+    "rho",
+    "lambda",
+    "E",
+    "g"
+   ],
+   "avvertenze": [
+    "lambda_zero",
+    "rho_neutro"
+   ],
+   "flag_conteggio": 6
+  },
+  "P_25": {
+   "descr": {
+    "tipo": "cella",
+    "cod": "P",
+    "valore": 25,
+    "chiaro": null,
+    "cella": "P_25"
+   },
+   "istanze": 3,
+   "medio": {
+    "k90": 30.02754608535554,
+    "GL": 0.055773333333333376,
+    "GR": 0.10769915243135286,
+    "R_rel": 0.9950830728550764,
+    "Q": 0.014199814405586,
+    "rho": 0.5,
+    "lambda": 0.0,
+    "E": 0.0013189312823605457,
+    "g": -0.00202565560821485
+   },
+   "sd_istanze": {
+    "k90": 2.098282127046105,
+    "GL": 0.010311480656692124,
+    "GR": 0.04894636302670895,
+    "R_rel": 0.016665776119059693,
+    "Q": 0.0010295266856751503,
+    "rho": 0.0,
+    "lambda": 0.0,
+    "E": 0.0009388109914302886,
+    "g": 0.001035589321039015
+   },
+   "z": {
+    "k90": 3.17918135473663,
+    "GL": 0.18511789492275108,
+    "GR": 3.9437913738393005,
+    "R_rel": -0.01441583046676213,
+    "Q": -7.734767619132806,
+    "rho": -1.374385867246561,
+    "lambda": -5.443931622260809,
+    "E": -1.548914939339518,
+    "g": -0.13999735038294298
+   },
+   "componenti_misurate": 9,
+   "distanza": 3.64334790828451,
+   "distanza_per_istanza": [
+    3.5160223812939857,
+    4.1016745175050096,
+    3.463845556548397
+   ],
+   "sd_distanza": 0.3541507751236421,
+   "classe": "lontano",
+   "classi_per_istanza": [
+    "lontano",
+    "lontano",
+    "lontano"
+   ],
+   "stabile": true,
+   "firme_raggiunte": 2,
+   "firme": {
+    "k90": false,
+    "GL": true,
+    "GR": false,
+    "R_rel": true,
+    "Q": false,
+    "rho": false,
+    "lambda": false,
+    "E": false,
+    "g": false
+   },
+   "firme_raggiunte_larghe": 4,
+   "firme_larghe": {
+    "k90": false,
+    "GL": true,
+    "GR": false,
+    "R_rel": true,
+    "Q": false,
+    "rho": true,
+    "lambda": false,
+    "E": false,
+    "g": true
+   },
+   "mancate": [
+    "k90",
+    "GR",
+    "Q",
+    "rho",
+    "lambda",
+    "E",
+    "g"
+   ],
+   "avvertenze": [
+    "lambda_zero",
+    "rho_neutro"
+   ],
+   "flag_conteggio": 6
+  },
+  "T0": {
+   "descr": {
+    "tipo": "chiaro",
+    "cella": "T0"
+   },
+   "istanze": 3,
+   "medio": {
+    "k90": 4.834066263776688,
+    "GL": 0.024849999999999966,
+    "GR": 0.017102757538012464,
+    "R_rel": 1.2505147457578736,
+    "Q": 0.004798199340304676,
+    "rho": 0.27722746217489963,
+    "lambda": 0.020380644993398533,
+    "E": 0.11487533303171964,
+    "g": 0.0585873541428338
+   },
+   "sd_istanze": {
+    "k90": 0.6786706289465374,
+    "GL": 0.008845269922393543,
+    "GR": 0.004914705832666864,
+    "R_rel": 0.054917444265676976,
+    "Q": 0.0012523187978270842,
+    "rho": 0.27805215031340796,
+    "lambda": 0.0747663201369055,
+    "E": 0.051672471452987576,
+    "g": 0.030602015887863758
+   },
+   "z": {
+    "k90": 0.32099243350473666,
+    "GL": -0.688134780353541,
+    "GR": -0.5768214403094963,
+    "R_rel": 1.5268171049854535,
+    "Q": -8.818155267702286,
+    "rho": -2.906862855851315,
+    "lambda": -5.036172353048313,
+    "E": 0.14407003454176245,
+    "g": 0.05559123660672333
+   },
+   "componenti_misurate": 9,
+   "distanza": 3.5720683641345596,
+   "distanza_per_istanza": [
+    3.87449414455108,
+    3.638814080575924,
+    3.395326460488281
+   ],
+   "sd_distanza": 0.23959444315390677,
+   "classe": "lontano",
+   "classi_per_istanza": [
+    "lontano",
+    "lontano",
+    "lontano"
+   ],
+   "stabile": true,
+   "firme_raggiunte": 4,
+   "firme": {
+    "k90": false,
+    "GL": true,
+    "GR": true,
+    "R_rel": false,
+    "Q": false,
+    "rho": false,
+    "lambda": false,
+    "E": true,
+    "g": true
+   },
+   "firme_raggiunte_larghe": 4,
+   "firme_larghe": {
+    "k90": false,
+    "GL": true,
+    "GR": true,
+    "R_rel": false,
+    "Q": false,
+    "rho": false,
+    "lambda": false,
+    "E": true,
+    "g": true
+   },
+   "mancate": [
+    "k90",
+    "R_rel",
+    "Q",
+    "rho",
+    "lambda"
+   ],
+   "avvertenze": [],
+   "flag_conteggio": 0
+  }
+ },
+ "altri": {
+  "Tneg_i1": {
+   "tipo": "negativo",
+   "medio": {
+    "k90": null,
+    "GL": null,
+    "GR": null,
+    "R_rel": null,
+    "Q": null,
+    "rho": 0.5,
+    "lambda": 0.0,
+    "E": 0.004436359523450308,
+    "g": -0.0004108220297434073
+   },
+   "sd_istanze": {
+    "k90": 0.0,
+    "GL": 0.0,
+    "GR": 0.0,
+    "R_rel": 0.0,
+    "Q": 0.0,
+    "rho": 0.0,
+    "lambda": 0.0,
+    "E": 0.0,
+    "g": 0.0
+   },
+   "distanza": 2.9069234268262254,
+   "componenti_misurate": 4,
+   "classe": "lontano",
+   "firme_raggiunte": 0
+  },
+  "LG_latino": {
+   "tipo": "lingua",
+   "medio": {
+    "k90": null,
+    "GL": null,
+    "GR": null,
+    "R_rel": null,
+    "Q": null,
+    "rho": 0.27167649166319735,
+    "lambda": 0.041670625563243746,
+    "E": 0.13094518172221392,
+    "g": 0.09053941003431934
+   },
+   "sd_istanze": {
+    "k90": 0.0,
+    "GL": 0.0,
+    "GR": 0.0,
+    "R_rel": 0.0,
+    "Q": 0.0,
+    "rho": 0.0,
+    "lambda": 0.0,
+    "E": 0.0,
+    "g": 0.0
+   },
+   "distanza": 2.7431647314326537,
+   "componenti_misurate": 4,
+   "classe": "lontano",
+   "firme_raggiunte": 0
+  },
+  "LG_latino_nt": {
+   "tipo": "lingua",
+   "medio": {
+    "k90": null,
+    "GL": null,
+    "GR": null,
+    "R_rel": null,
+    "Q": null,
+    "rho": 0.5340383765523338,
+    "lambda": 0.1297968926787545,
+    "E": 0.27323933041773496,
+    "g": 0.19746365582611536
+   },
+   "sd_istanze": {
+    "k90": 0.0,
+    "GL": 0.0,
+    "GR": 0.0,
+    "R_rel": 0.0,
+    "Q": 0.0,
+    "rho": 0.0,
+    "lambda": 0.0,
+    "E": 0.0,
+    "g": 0.0
+   },
+   "distanza": 1.9959368030069964,
+   "componenti_misurate": 4,
+   "classe": "lontano",
+   "firme_raggiunte": 1
+  },
+  "LG_italiano": {
+   "tipo": "lingua",
+   "medio": {
+    "k90": null,
+    "GL": null,
+    "GR": null,
+    "R_rel": null,
+    "Q": null,
+    "rho": 0.11836653624098593,
+    "lambda": 0.1325378265810947,
+    "E": 0.22458113406725985,
+    "g": 0.6758309200849811
+   },
+   "sd_istanze": {
+    "k90": 0.0,
+    "GL": 0.0,
+    "GR": 0.0,
+    "R_rel": 0.0,
+    "Q": 0.0,
+    "rho": 0.0,
+    "lambda": 0.0,
+    "E": 0.0,
+    "g": 0.0
+   },
+   "distanza": 2.7907314686463223,
+   "componenti_misurate": 4,
+   "classe": "lontano",
+   "firme_raggiunte": 0
+  },
+  "LG_inglese": {
+   "tipo": "lingua",
+   "medio": {
+    "k90": null,
+    "GL": null,
+    "GR": null,
+    "R_rel": null,
+    "Q": null,
+    "rho": 0.11398571755977525,
+    "lambda": 0.10957707278282336,
+    "E": 0.2161936359523451,
+    "g": 0.7469077055074359
+   },
+   "sd_istanze": {
+    "k90": 0.0,
+    "GL": 0.0,
+    "GR": 0.0,
+    "R_rel": 0.0,
+    "Q": 0.0,
+    "rho": 0.0,
+    "lambda": 0.0,
+    "E": 0.0,
+    "g": 0.0
+   },
+   "distanza": 2.946752804439407,
+   "componenti_misurate": 4,
+   "classe": "lontano",
+   "firme_raggiunte": 0
+  },
+  "LG_francese": {
+   "tipo": "lingua",
+   "medio": {
+    "k90": null,
+    "GL": null,
+    "GR": null,
+    "R_rel": null,
+    "Q": null,
+    "rho": 0.1819706437302556,
+    "lambda": 0.19701435406698564,
+    "E": 0.3250358166189112,
+    "g": 0.8444362673639484
+   },
+   "sd_istanze": {
+    "k90": 0.0,
+    "GL": 0.0,
+    "GR": 0.0,
+    "R_rel": 0.0,
+    "Q": 0.0,
+    "rho": 0.0,
+    "lambda": 0.0,
+    "E": 0.0,
+    "g": 0.0
+   },
+   "distanza": 2.846121919471396,
+   "componenti_misurate": 4,
+   "classe": "lontano",
+   "firme_raggiunte": 1
+  },
+  "LG_tedesco": {
+   "tipo": "lingua",
+   "medio": {
+    "k90": null,
+    "GL": null,
+    "GR": null,
+    "R_rel": null,
+    "Q": null,
+    "rho": 0.20192563224233448,
+    "lambda": 0.08794865804152929,
+    "E": 0.2581888101342181,
+    "g": 0.46893239091354794
+   },
+   "sd_istanze": {
+    "k90": 0.0,
+    "GL": 0.0,
+    "GR": 0.0,
+    "R_rel": 0.0,
+    "Q": 0.0,
+    "rho": 0.0,
+    "lambda": 0.0,
+    "E": 0.0,
+    "g": 0.0
+   },
+   "distanza": 2.8464534604590774,
+   "componenti_misurate": 4,
+   "classe": "lontano",
+   "firme_raggiunte": 0
+  },
+  "LG_spagnolo": {
+   "tipo": "lingua",
+   "medio": {
+    "k90": null,
+    "GL": null,
+    "GR": null,
+    "R_rel": null,
+    "Q": null,
+    "rho": 0.19344008409054014,
+    "lambda": 0.11632205670511031,
+    "E": 0.29391381390438837,
+    "g": 0.7745796224873346
+   },
+   "sd_istanze": {
+    "k90": 0.0,
+    "GL": 0.0,
+    "GR": 0.0,
+    "R_rel": 0.0,
+    "Q": 0.0,
+    "rho": 0.0,
+    "lambda": 0.0,
+    "E": 0.0,
+    "g": 0.0
+   },
+   "distanza": 2.9731777909529624,
+   "componenti_misurate": 4,
+   "classe": "lontano",
+   "firme_raggiunte": 0
+  },
+  "LG_maori": {
+   "tipo": "lingua",
+   "medio": {
+    "k90": null,
+    "GL": null,
+    "GR": null,
+    "R_rel": null,
+    "Q": null,
+    "rho": 0.06724938847946432,
+    "lambda": 0.18493152366293897,
+    "E": 0.15358430101040577,
+    "g": 0.9411698774309528
+   },
+   "sd_istanze": {
+    "k90": 0.0,
+    "GL": 0.0,
+    "GR": 0.0,
+    "R_rel": 0.0,
+    "Q": 0.0,
+    "rho": 0.0,
+    "lambda": 0.0,
+    "E": 0.0,
+    "g": 0.0
+   },
+   "distanza": 2.7805637588425642,
+   "componenti_misurate": 4,
+   "classe": "lontano",
+   "firme_raggiunte": 0
+  },
+  "nat_naibbe": {
+   "tipo": "nativo",
+   "medio": {
+    "k90": 1.7217148187047984,
+    "GL": -0.00027999999999990993,
+    "GR": 0.003247482953365035,
+    "R_rel": 0.992724330870245,
+    "Q": 0.08684427588863818,
+    "rho": 0.5,
+    "lambda": 0.0,
+    "E": 0.002151151191093762,
+    "g": 0.08829362855321005
+   },
+   "sd_istanze": {
+    "k90": 0.024010231583586793,
+    "GL": 0.00048497422611912965,
+    "GR": 0.004702033983033488,
+    "R_rel": 0.007731269769729357,
+    "Q": 0.01085723608667167,
+    "rho": 0.0,
+    "lambda": 0.0,
+    "E": 0.0,
+    "g": 0.0
+   },
+   "distanza": 2.0515037516507153,
+   "componenti_misurate": 9,
+   "classe": "lontano",
+   "firme_raggiunte": 3
+  },
+  "nat_ts": {
+   "tipo": "nativo",
+   "medio": {
+    "k90": 5.515040817130766,
+    "GL": 0.1147766666666666,
+    "GR": 0.046486708008908806,
+    "R_rel": 0.9989797626363741,
+    "Q": 0.06759985274286257,
+    "rho": 0.9791151315581433,
+    "lambda": -0.02470324865734086,
+    "E": 0.8139457295373665,
+    "g": 0.006052568926077534
+   },
+   "sd_istanze": {
+    "k90": 3.749736692628727,
+    "GL": 0.019524359998047063,
+    "GR": 0.010793954882727391,
+    "R_rel": 0.01804933337217241,
+    "Q": 0.004761245047882027,
+    "rho": 0.0,
+    "lambda": 0.0,
+    "E": 0.0,
+    "g": 0.0
+   },
+   "distanza": 4.183195550119183,
+   "componenti_misurate": 9,
+   "classe": "lontano",
+   "firme_raggiunte": 3
+  },
+  "nat_latino": {
+   "tipo": "nativo",
+   "medio": {
+    "k90": 4.378928375335846,
+    "GL": 0.041839999999999954,
+    "GR": 0.010161831414468634,
+    "R_rel": 1.1655049452092965,
+    "Q": 0.004924012510163744,
+    "rho": 0.3868315583639037,
+    "lambda": 0.07526639564824955,
+    "E": 0.33652549456673164,
+    "g": 0.019616784079691307
+   },
+   "sd_istanze": {
+    "k90": 0.5423273004344058,
+    "GL": 0.013176630828857571,
+    "GR": 0.004297842684468855,
+    "R_rel": 0.04532512448896906,
+    "Q": 0.001004870129277107,
+    "rho": 0.0,
+    "lambda": 0.0,
+    "E": 0.0,
+    "g": 0.0
+   },
+   "distanza": 3.520440900014276,
+   "componenti_misurate": 9,
+   "classe": "lontano",
+   "firme_raggiunte": 2
+  }
+ },
+ "errori": [],
+ "controlli": {
+  "riproduzione_rete": {
+   "dettaglio": {
+    "nat_naibbe": {
+     "k90": {
+      "nuovo": 1.7217148187047984,
+      "originale": 1.7217148187047984,
+      "differenza": 0.0,
+      "tolleranza": 0.5,
+      "superato": true
+     },
+     "GL": {
+      "nuovo": -0.00027999999999990993,
+      "originale": -0.00027999999999990993,
+      "differenza": 0.0,
+      "tolleranza": 0.00885291686153422,
+      "superato": true
+     },
+     "GR": {
+      "nuovo": 0.003247482953365035,
+      "originale": 0.003247482953365035,
+      "differenza": 0.0,
+      "tolleranza": 0.00501018327702099,
+      "superato": true
+     },
+     "R_rel": {
+      "nuovo": 0.992724330870245,
+      "originale": 0.992724330870245,
+      "differenza": 0.0,
+      "tolleranza": 0.04143300909084366,
+      "superato": true
+     },
+     "Q": {
+      "nuovo": 0.08684427588863818,
+      "originale": 0.08684427588863818,
+      "differenza": 0.0,
+      "tolleranza": 0.002169494704341363,
+      "superato": true
+     }
+    },
+    "nat_ts": {
+     "k90": {
+      "nuovo": 5.515040817130766,
+      "originale": 5.515040817130766,
+      "differenza": 0.0,
+      "tolleranza": 0.5,
+      "superato": true
+     },
+     "GL": {
+      "nuovo": 0.1147766666666666,
+      "originale": 0.1147766666666666,
+      "differenza": 0.0,
+      "tolleranza": 0.00885291686153422,
+      "superato": true
+     },
+     "GR": {
+      "nuovo": 0.046486708008908806,
+      "originale": 0.046486708008908806,
+      "differenza": 0.0,
+      "tolleranza": 0.00501018327702099,
+      "superato": true
+     },
+     "R_rel": {
+      "nuovo": 0.9989797626363741,
+      "originale": 0.9989797626363741,
+      "differenza": 0.0,
+      "tolleranza": 0.04143300909084366,
+      "superato": true
+     },
+     "Q": {
+      "nuovo": 0.06759985274286257,
+      "originale": 0.06759985274286257,
+      "differenza": 0.0,
+      "tolleranza": 0.002169494704341363,
+      "superato": true
+     }
+    },
+    "nat_latino": {
+     "k90": {
+      "nuovo": 4.378928375335846,
+      "originale": 4.378928375335846,
+      "differenza": 0.0,
+      "tolleranza": 0.5,
+      "superato": true
+     },
+     "GL": {
+      "nuovo": 0.041839999999999954,
+      "originale": 0.041839999999999954,
+      "differenza": 0.0,
+      "tolleranza": 0.00885291686153422,
+      "superato": true
+     },
+     "GR": {
+      "nuovo": 0.010161831414468634,
+      "originale": 0.010161831414468634,
+      "differenza": 0.0,
+      "tolleranza": 0.00501018327702099,
+      "superato": true
+     },
+     "R_rel": {
+      "nuovo": 1.1655049452092965,
+      "originale": 1.1655049452092965,
+      "differenza": 0.0,
+      "tolleranza": 0.04143300909084366,
+      "superato": true
+     },
+     "Q": {
+      "nuovo": 0.004924012510163744,
+      "originale": 0.004924012510163744,
+      "differenza": 0.0,
+      "tolleranza": 0.002169494704341363,
+      "superato": true
+     }
+    }
+   },
+   "superato": true,
+   "eseguito": true
+  },
+  "riproduzione_sintassi": {
+   "dettaglio": {
+    "nat_ts_rho": {
+     "nuovo": 0.9791151315581433,
+     "originale": 0.9791151315581433,
+     "superato": true
+    },
+    "nat_ts_E": {
+     "nuovo": 0.8139457295373665,
+     "originale": 0.8139457295373665,
+     "superato": true
+    },
+    "nat_ts_Lambda": {
+     "nuovo": -0.02470324865734086,
+     "originale": -0.02470324865734086,
+     "superato": true
+    },
+    "nat_latino_rho": {
+     "nuovo": 0.3868315583639037,
+     "originale": 0.3868315583639037,
+     "superato": true
+    },
+    "nat_latino_E": {
+     "nuovo": 0.33652549456673164,
+     "originale": 0.33652549456673164,
+     "superato": true
+    },
+    "nat_latino_Lambda": {
+     "nuovo": 0.07526639564824955,
+     "originale": 0.07526639564824955,
+     "superato": true
+    },
+    "nat_ts_g": {
+     "nuovo": 0.006052568926077534,
+     "originale": 0.006052568926077534,
+     "superato": true
+    },
+    "nat_ts_D": {
+     "nuovo": 0.017411019142788343,
+     "originale": 0.017411019142788343,
+     "superato": true
+    },
+    "nat_naibbe_g": {
+     "nuovo": 0.08829362855321005,
+     "originale": 0.08829362855321005,
+     "superato": true
+    },
+    "nat_naibbe_D": {
+     "nuovo": 0.17783915494848476,
+     "originale": 0.17783915494848476,
+     "superato": true
+    },
+    "nat_latino_g": {
+     "nuovo": 0.019616784079691307,
+     "originale": 0.019616784079691307,
+     "superato": true
+    },
+    "nat_latino_D": {
+     "nuovo": 0.23371309342187924,
+     "originale": 0.23371309342187924,
+     "superato": true
+    }
+   },
+   "superato": true,
+   "eseguito": true
+  },
+  "latino_in_chiaro_tra_le_lingue": {
+   "dettaglio": {
+    "k90": {
+     "valore": 4.834066263776688,
+     "minimo": 3.421194634385112,
+     "massimo": 44.90818553529701,
+     "superato": true
+    },
+    "GL": {
+     "valore": 0.024849999999999966,
+     "minimo": 0.049331000000000014,
+     "massimo": 0.21072499999999997,
+     "superato": false
+    },
+    "GR": {
+     "valore": 0.017102757538012464,
+     "minimo": 0.0070783386040011945,
+     "massimo": 0.10179781449825367,
+     "superato": true
+    },
+    "R_rel": {
+     "valore": 1.2505147457578736,
+     "minimo": 0.8971444458006116,
+     "massimo": 1.5238215179980903,
+     "superato": true
+    },
+    "Q": {
+     "valore": 0.004798199340304676,
+     "minimo": 0.0032854899027339197,
+     "massimo": 0.03403978930845458,
+     "superato": true
+    },
+    "rho": {
+     "valore": 0.27722746217489963,
+     "minimo": 0.06724938847946432,
+     "massimo": 0.5340383765523338,
+     "superato": true
+    },
+    "lambda": {
+     "valore": 0.020380644993398533,
+     "minimo": 0.041670625563243746,
+     "massimo": 0.19701435406698564,
+     "superato": false
+    },
+    "E": {
+     "valore": 0.11487533303171964,
+     "minimo": 0.13094518172221392,
+     "massimo": 0.3250358166189112,
+     "superato": true
+    },
+    "g": {
+     "valore": 0.0585873541428338,
+     "minimo": 0.09053941003431934,
+     "massimo": 0.9411698774309528,
+     "superato": true
+    }
+   },
+   "eseguito": true,
+   "superato": false
+  },
+  "separazione": {
+   "distanza_latino_in_chiaro": 3.5720683641345596,
+   "epsilon": 0.46142981489175144,
+   "rapporto": 7.741303766798304,
+   "soglia": 2.0,
+   "eseguito": true,
+   "superato": true
+  },
+  "negativo_rimescolato": {
+   "E": 0.004436359523450308,
+   "A_gram": -4.07178404464156e-05,
+   "A_cn": 0.004385462222892331,
+   "g": -0.0004108220297434073,
+   "eseguito": true,
+   "superato": true
+  },
+  "codice": {
+   "verboso_reversibile": true,
+   "sostituzione_reversibile": true,
+   "polialfabetico_reversibile": true,
+   "modulo_senza_caricatori_del_voynich": true,
+   "superato": true
+  }
+ },
+ "letture": {
+  "valide": {
+   "riproduzione": true,
+   "lingue": false,
+   "separazione": true,
+   "negativo": true,
+   "codice": true
+  },
+  "leggibile": false,
+  "L1_distanza": {
+   "V_1": {
+    "distanza": 3.5220271947798354,
+    "classe": "lontano",
+    "stabile": true
+   },
+   "V_3": {
+    "distanza": 2.7221668803030075,
+    "classe": "lontano",
+    "stabile": true
+   },
+   "V_6": {
+    "distanza": 2.3550832072078163,
+    "classe": "lontano",
+    "stabile": true
+   },
+   "V_3_italiano": {
+    "distanza": 2.878256356259938,
+    "classe": "lontano",
+    "stabile": true
+   },
+   "V_3_tedesco": {
+    "distanza": 2.523651765792293,
+    "classe": "lontano",
+    "stabile": true
+   },
+   "S_1": {
+    "distanza": 3.7340638257517713,
+    "classe": "lontano",
+    "stabile": true
+   },
+   "S_2": {
+    "distanza": 3.5206957586014447,
+    "classe": "lontano",
+    "stabile": true
+   },
+   "S_4": {
+    "distanza": 3.588075594889126,
+    "classe": "lontano",
+    "stabile": true
+   },
+   "N_30": {
+    "distanza": 3.2963918272054724,
+    "classe": "lontano",
+    "stabile": true
+   },
+   "N_150": {
+    "distanza": 3.3982437145644817,
+    "classe": "lontano",
+    "stabile": true
+   },
+   "N_600": {
+    "distanza": 3.7005876510067695,
+    "classe": "lontano",
+    "stabile": true
+   },
+   "C_4": {
+    "distanza": 84.00972408788229,
+    "classe": "lontano",
+    "stabile": true
+   },
+   "C_16": {
+    "distanza": 72.53826811608992,
+    "classe": "lontano",
+    "stabile": true
+   },
+   "C_64": {
+    "distanza": 67.67988753606835,
+    "classe": "lontano",
+    "stabile": true
+   },
+   "R_6": {
+    "distanza": 6.671092508981836,
+    "classe": "lontano",
+    "stabile": true
+   },
+   "R_12": {
+    "distanza": 8.999219836289226,
+    "classe": "lontano",
+    "stabile": true
+   },
+   "R_24": {
+    "distanza": 13.476184235371877,
+    "classe": "lontano",
+    "stabile": true
+   },
+   "F_3p5": {
+    "distanza": 2.476476667950856,
+    "classe": "lontano",
+    "stabile": true
+   },
+   "F_5p0": {
+    "distanza": 3.088054696050763,
+    "classe": "lontano",
+    "stabile": true
+   },
+   "F_7p0": {
+    "distanza": 3.5377526657504275,
+    "classe": "lontano",
+    "stabile": true
+   },
+   "P_1": {
+    "distanza": 3.752568924896108,
+    "classe": "lontano",
+    "stabile": true
+   },
+   "P_5": {
+    "distanza": 3.7147237333511582,
+    "classe": "lontano",
+    "stabile": true
+   },
+   "P_25": {
+    "distanza": 3.64334790828451,
+    "classe": "lontano",
+    "stabile": true
+   }
+  },
+  "L2_firme": {
+   "V_1": {
+    "raggiunte": 1,
+    "larghe": 3,
+    "mancate": [
+     "k90",
+     "GL",
+     "R_rel",
+     "Q",
+     "rho",
+     "lambda",
+     "E",
+     "g"
+    ],
+    "insieme": "no"
+   },
+   "V_3": {
+    "raggiunte": 1,
+    "larghe": 4,
+    "mancate": [
+     "k90",
+     "GL",
+     "GR",
+     "Q",
+     "rho",
+     "lambda",
+     "E",
+     "g"
+    ],
+    "insieme": "no"
+   },
+   "V_6": {
+    "raggiunte": 1,
+    "larghe": 6,
+    "mancate": [
+     "k90",
+     "GL",
+     "GR",
+     "R_rel",
+     "Q",
+     "rho",
+     "lambda",
+     "E"
+    ],
+    "insieme": "no"
+   },
+   "V_3_italiano": {
+    "raggiunte": 1,
+    "larghe": 3,
+    "mancate": [
+     "k90",
+     "GL",
+     "GR",
+     "Q",
+     "rho",
+     "lambda",
+     "E",
+     "g"
+    ],
+    "insieme": "no"
+   },
+   "V_3_tedesco": {
+    "raggiunte": 3,
+    "larghe": 4,
+    "mancate": [
+     "k90",
+     "GL",
+     "rho",
+     "lambda",
+     "E",
+     "g"
+    ],
+    "insieme": "no"
+   },
+   "S_1": {
+    "raggiunte": 1,
+    "larghe": 3,
+    "mancate": [
+     "k90",
+     "GL",
+     "R_rel",
+     "Q",
+     "rho",
+     "lambda",
+     "E",
+     "g"
+    ],
+    "insieme": "no"
+   },
+   "S_2": {
+    "raggiunte": 1,
+    "larghe": 3,
+    "mancate": [
+     "k90",
+     "GR",
+     "R_rel",
+     "Q",
+     "rho",
+     "lambda",
+     "E",
+     "g"
+    ],
+    "insieme": "no"
+   },
+   "S_4": {
+    "raggiunte": 0,
+    "larghe": 3,
+    "mancate": [
+     "k90",
+     "GL",
+     "GR",
+     "R_rel",
+     "Q",
+     "rho",
+     "lambda",
+     "E",
+     "g"
+    ],
+    "insieme": "no"
+   },
+   "N_30": {
+    "raggiunte": 2,
+    "larghe": 4,
+    "mancate": [
+     "k90",
+     "GR",
+     "R_rel",
+     "Q",
+     "rho",
+     "lambda",
+     "E"
+    ],
+    "insieme": "no"
+   },
+   "N_150": {
+    "raggiunte": 2,
+    "larghe": 4,
+    "mancate": [
+     "k90",
+     "GR",
+     "R_rel",
+     "Q",
+     "rho",
+     "lambda",
+     "E"
+    ],
+    "insieme": "no"
+   },
+   "N_600": {
+    "raggiunte": 1,
+    "larghe": 4,
+    "mancate": [
+     "k90",
+     "GR",
+     "R_rel",
+     "Q",
+     "rho",
+     "lambda",
+     "E",
+     "g"
+    ],
+    "insieme": "no"
+   },
+   "C_4": {
+    "raggiunte": 0,
+    "larghe": 4,
+    "mancate": [
+     "k90",
+     "GL",
+     "GR",
+     "R_rel",
+     "Q",
+     "rho",
+     "lambda",
+     "E",
+     "g"
+    ],
+    "insieme": "no"
+   },
+   "C_16": {
+    "raggiunte": 1,
+    "larghe": 4,
+    "mancate": [
+     "k90",
+     "GL",
+     "GR",
+     "R_rel",
+     "Q",
+     "rho",
+     "E",
+     "g"
+    ],
+    "insieme": "no"
+   },
+   "C_64": {
+    "raggiunte": 1,
+    "larghe": 4,
+    "mancate": [
+     "k90",
+     "GL",
+     "GR",
+     "R_rel",
+     "Q",
+     "rho",
+     "E",
+     "g"
+    ],
+    "insieme": "no"
+   },
+   "R_6": {
+    "raggiunte": 0,
+    "larghe": 2,
+    "mancate": [
+     "k90",
+     "GL",
+     "GR",
+     "Q",
+     "rho",
+     "lambda",
+     "E",
+     "g"
+    ],
+    "insieme": "no"
+   },
+   "R_12": {
+    "raggiunte": 0,
+    "larghe": 1,
+    "mancate": [
+     "k90",
+     "GL",
+     "GR",
+     "Q",
+     "rho",
+     "lambda",
+     "E",
+     "g"
+    ],
+    "insieme": "no"
+   },
+   "R_24": {
+    "raggiunte": 0,
+    "larghe": 0,
+    "mancate": [
+     "k90",
+     "GL",
+     "GR",
+     "R_rel",
+     "Q",
+     "rho",
+     "lambda",
+     "E",
+     "g"
+    ],
+    "insieme": "no"
+   },
+   "F_3p5": {
+    "raggiunte": 3,
+    "larghe": 5,
+    "mancate": [
+     "k90",
+     "GL",
+     "GR",
+     "rho",
+     "lambda",
+     "E"
+    ],
+    "insieme": "no"
+   },
+   "F_5p0": {
+    "raggiunte": 1,
+    "larghe": 4,
+    "mancate": [
+     "k90",
+     "GL",
+     "R_rel",
+     "Q",
+     "rho",
+     "lambda",
+     "E",
+     "g"
+    ],
+    "insieme": "no"
+   },
+   "F_7p0": {
+    "raggiunte": 2,
+    "larghe": 4,
+    "mancate": [
+     "k90",
+     "R_rel",
+     "Q",
+     "rho",
+     "lambda",
+     "E",
+     "g"
+    ],
+    "insieme": "no"
+   },
+   "P_1": {
+    "raggiunte": 2,
+    "larghe": 4,
+    "mancate": [
+     "k90",
+     "GR",
+     "Q",
+     "rho",
+     "lambda",
+     "E",
+     "g"
+    ],
+    "insieme": "no"
+   },
+   "P_5": {
+    "raggiunte": 2,
+    "larghe": 4,
+    "mancate": [
+     "k90",
+     "GR",
+     "Q",
+     "rho",
+     "lambda",
+     "E",
+     "g"
+    ],
+    "insieme": "no"
+   },
+   "P_25": {
+    "raggiunte": 2,
+    "larghe": 4,
+    "mancate": [
+     "k90",
+     "GR",
+     "Q",
+     "rho",
+     "lambda",
+     "E",
+     "g"
+    ],
+    "insieme": "no"
+   }
+  },
+  "L3_per_procedimento": {
+   "V": {
+    "nome": "verboso omofonico a bigrammi",
+    "distanza_minima": 2.3550832072078163,
+    "cella_piu_vicina": "V_6",
+    "distanza_massima": 3.5220271947798354,
+    "classi": [
+     "lontano",
+     "lontano",
+     "lontano"
+    ],
+    "firme_massime": 1,
+    "qualche_cella_dentro": false,
+    "qualche_cella_9_su_9": false
+   },
+   "S": {
+    "nome": "sillabario con omofoni",
+    "distanza_minima": 3.5206957586014447,
+    "cella_piu_vicina": "S_2",
+    "distanza_massima": 3.7340638257517713,
+    "classi": [
+     "lontano",
+     "lontano",
+     "lontano"
+    ],
+    "firme_massime": 1,
+    "qualche_cella_dentro": false,
+    "qualche_cella_9_su_9": false
+   },
+   "N": {
+    "nome": "nomenclatore",
+    "distanza_minima": 3.2963918272054724,
+    "cella_piu_vicina": "N_30",
+    "distanza_massima": 3.7005876510067695,
+    "classi": [
+     "lontano",
+     "lontano",
+     "lontano"
+    ],
+    "firme_massime": 2,
+    "qualche_cella_dentro": false,
+    "qualche_cella_9_su_9": false
+   },
+   "C": {
+    "nome": "auto-citazione",
+    "distanza_minima": 67.67988753606835,
+    "cella_piu_vicina": "C_64",
+    "distanza_massima": 84.00972408788229,
+    "classi": [
+     "lontano",
+     "lontano",
+     "lontano"
+    ],
+    "firme_massime": 1,
+    "qualche_cella_dentro": false,
+    "qualche_cella_9_su_9": false
+   },
+   "R": {
+    "nome": "tabella a griglia",
+    "distanza_minima": 6.671092508981836,
+    "cella_piu_vicina": "R_6",
+    "distanza_massima": 13.476184235371877,
+    "classi": [
+     "lontano",
+     "lontano",
+     "lontano"
+    ],
+    "firme_massime": 0,
+    "qualche_cella_dentro": false,
+    "qualche_cella_9_su_9": false
+   },
+   "F": {
+    "nome": "sostituzione con spazi riscritti",
+    "distanza_minima": 2.476476667950856,
+    "cella_piu_vicina": "F_3p5",
+    "distanza_massima": 3.5377526657504275,
+    "classi": [
+     "lontano",
+     "lontano",
+     "lontano"
+    ],
+    "firme_massime": 3,
+    "qualche_cella_dentro": false,
+    "qualche_cella_9_su_9": false
+   },
+   "P": {
+    "nome": "polialfabetico a cambio periodico",
+    "distanza_minima": 3.64334790828451,
+    "cella_piu_vicina": "P_25",
+    "distanza_massima": 3.752568924896108,
+    "classi": [
+     "lontano",
+     "lontano",
+     "lontano"
+    ],
+    "firme_massime": 2,
+    "qualche_cella_dentro": false,
+    "qualche_cella_9_su_9": false
+   }
+  },
+  "L4_per_firma": {
+   "k90": {
+    "procedimenti_che_la_raggiungono": [],
+    "celle_che_la_raggiungono": 0,
+    "celle_totali": 23
+   },
+   "GL": {
+    "procedimenti_che_la_raggiungono": [
+     "F",
+     "N",
+     "P",
+     "S"
+    ],
+    "celle_che_la_raggiungono": 9,
+    "celle_totali": 23
+   },
+   "GR": {
+    "procedimenti_che_la_raggiungono": [
+     "F",
+     "S",
+     "V"
+    ],
+    "celle_che_la_raggiungono": 6,
+    "celle_totali": 23
+   },
+   "R_rel": {
+    "procedimenti_che_la_raggiungono": [
+     "F",
+     "P",
+     "V"
+    ],
+    "celle_che_la_raggiungono": 7,
+    "celle_totali": 23
+   },
+   "Q": {
+    "procedimenti_che_la_raggiungono": [
+     "F",
+     "V"
+    ],
+    "celle_che_la_raggiungono": 2,
+    "celle_totali": 23
+   },
+   "rho": {
+    "procedimenti_che_la_raggiungono": [],
+    "celle_che_la_raggiungono": 0,
+    "celle_totali": 23
+   },
+   "lambda": {
+    "procedimenti_che_la_raggiungono": [
+     "C"
+    ],
+    "celle_che_la_raggiungono": 2,
+    "celle_totali": 23
+   },
+   "E": {
+    "procedimenti_che_la_raggiungono": [],
+    "celle_che_la_raggiungono": 1,
+    "celle_totali": 23
+   },
+   "g": {
+    "procedimenti_che_la_raggiungono": [
+     "F",
+     "N",
+     "V"
+    ],
+    "celle_che_la_raggiungono": 5,
+    "celle_totali": 23
+   }
+  },
+  "L5_testo_in_chiaro": {
+   "italiano": {
+    "distanza": 2.878256356259938,
+    "distanza_latino": 2.7221668803030075,
+    "differenza_per_misura": {
+     "k90": 0.04285922907453443,
+     "GL": 0.0002533333333332166,
+     "GR": 0.0019087534443102301,
+     "R_rel": -0.03428766669408878,
+     "Q": -0.010889711013991756,
+     "rho": 0.014588146827596224,
+     "lambda": 0.0,
+     "E": 0.0031622932689890737,
+     "g": 0.05183620580704909
+    },
+    "piu_di_2_sd": [
+     "g"
+    ]
+   },
+   "tedesco": {
+    "distanza": 2.523651765792293,
+    "distanza_latino": 2.7221668803030075,
+    "differenza_per_misura": {
+     "k90": 0.08525368413374634,
+     "GL": 0.0008500000000000911,
+     "GR": 0.008908040872187729,
+     "R_rel": -0.0028361672194763266,
+     "Q": 0.019072231889351005,
+     "rho": 0.010742123814272598,
+     "lambda": 0.0,
+     "E": 0.002137309606394175,
+     "g": 0.09873720161246388
+    },
+    "piu_di_2_sd": [
+     "Q",
+     "g"
+    ]
+   }
+  }
+ }
+}

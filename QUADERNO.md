@@ -16990,3 +16990,32 @@ condiviso), uscita 0. Risultati in `risultati/ia05_reti_grandi.{md,json}` e `ris
   statistiche del Voynich; tre semi per le reti grandi.
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione (8 processi invece di 10). La nota sulla correzione di E90 di
   e3c95 è già nella voce di ia01.
+
+## 21/11/2026 (mattina presto) — ia14 (IA14): nessuno dei sette procedimenti semplici riproduce le firme del Voynich (tutti "lontani"); letture formalmente non leggibili perché il latino in chiaro esce dal campo delle lingue
+
+Preregistrato (`preregistrazioni/ia14.md`, commit 18d4606; codice f8a877e con `cifrari_procedimenti.py`). Notte autonoma.
+Corsa: coda `ia_D`, 4 processi, 174 minuti, uscita 0. Risultati in `risultati/ia14_quale_cifrario.{md,json}` e
+`risultati/ia14_corse.jsonl` (solo numeri).
+
+- **Domanda:** quali procedimenti (verboso omofonico tipo Naibbe, sillabario con omofoni, nomenclatore, auto-citazione tipo
+  Timm, griglia tipo Rugg, sostituzione con spazi riscritti, polialfabetico), applicati a testi in chiaro o senza testo,
+  riproducono insieme le nove firme del Voynich (k90, GL, GR, R_rel, Q da ia02/ia03; ρ, Λ, E da ia09; g da ia10)?
+- **Controlli:** riproduzione delle misure di rete e di sintassi su Naibbe, Timm e Schinner e latino **superata** (la
+  correzione dei semi legati al nome del testo, non provata dall'agente, ha funzionato); separazione, negativo rimescolato e
+  codice dei procedimenti superati. **Non superato:** il latino in chiaro nella disposizione del Voynich non cade dentro il
+  campo delle lingue su tutte le nove misure. Per la regola scritta prima, le letture sono **non leggibili**; i numeri si
+  riportano come descrizione.
+- **Descrizione:** raggio del Voynich ε = 0,46 (distanza fra A, B e l'intero). Tutte le 23 celle sono **lontane**: le più
+  vicine sono il verboso a 6 tavole (2,36), la sostituzione con parole corte (2,48) e il verboso su tedesco (2,52); il latino
+  in chiaro 3,57; l'auto-citazione è lontanissima (68–84) perché copia troppo (eco 13–17 bit per parola contro 0,105); la
+  griglia 6,7–13,5. Nessuna cella raggiunge più di 3 firme su 9.
+- **Firme mai raggiunte:** **k90** (contesto di 2 segni: nessun procedimento scende così; i verbosi arrivano a 3,3–3,9) e **ρ**
+  (quota di copia 0,70: i procedimenti stanno a 0 o a 1, oppure a 0,5 quando ρ non è definito). L'eco E (0,105) la raggiunge
+  una sola cella.
+- **In parole semplici:** nessuno dei procedimenti classici, nella loro forma semplice, produce un testo con il contesto
+  cortissimo, l'eco della pagina e la quota di "copia" del Voynich tutti insieme. I verbosi alla Naibbe vanno più vicino sulle
+  misure di rete ma non hanno l'eco; l'auto-citazione ha un'eco enorme ma non il resto. Servirebbe una combinazione (per
+  esempio verboso più un'eco leggera), che qui non è stata provata.
+- **Limiti:** procedimenti in versione semplice, tre istanze per cella; il latino in chiaro esce dal campo delle lingue
+  (controllo caduto), quindi la scala delle distanze va presa con cautela; nessuna combinazione di procedimenti.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione (4 processi invece di 10).
