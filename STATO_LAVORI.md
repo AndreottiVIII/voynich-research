@@ -49,8 +49,10 @@ come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
   varianti), uguale nel v21; nessuna continuità fra pagine. **IA14** nessun procedimento semplice si avvicina; **IA19** le
   combinazioni avvicinano (verboso + eco raggiunge ρ) ma restano lontane, k90 mai. **IA16** l'imitatore con memoria della
   pagina impara il vocabolario della pagina ma i giudici lo riconoscono più del v21 (contatto indebolito).
-- In corso dal 21/11 mattina: **IA18** (modello linguistico locale Qwen2.5-0.5B, scala ridotta). Pronto: **IA17** (aprire
-  l'imitatore; manca la prova a taglia vera del controllo positivo). IA6 in standby (accesso del programma claude al PC).
+- 21/11 mattina: **IA18** cancello non passato (vantaggio del preaddestramento generico: aiuta anche il testo
+  rimescolato), Voynich non eseguito. **IA17** l'imitatore usa le parole simili già scritte (soprattutto varianti a una
+  lettera) e la sua memoria utile sta nella riga sopra; mappe di attenzione senza eco (con riserva: sensibilità non provata).
+  IA6 in standby (accesso del programma claude al PC).
   Mandato per la chat del v22 in `ClaudeTower/voynich-ia/MANDATO_V22.md` (da aprire da Davide al PC).
 - 20/11: **IA6 in standby** finché Davide non fa l'accesso (si fa solo al PC). IA4, IA5, IA7 in corso dalle 13:30.
 - **Azione per Davide:** accesso del programma `claude` da riga di comando (`strumenti/Accesso claude.bat`, serve

@@ -17144,3 +17144,37 @@ variabili nell'ambiente. Corsa: coda `ia_F`, 1 processo, 8 thread, 161 minuti, u
   scheda video.
 - **Limiti:** scala ridotta (una lettura, un seme in fase 1); un solo modello piccolo; testi ridotti a 29 segni.
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione (scala ridotta scelta prima di partire, come previsto).
+
+## 21/11/2026 (mattina) — ia17 (IA17): l'imitatore usa davvero le parole simili già scritte (soprattutto varianti a una lettera), e la sua memoria utile sta tutta nella riga sopra; la pagina precedente non serve; le mappe di attenzione non mostrano l'eco, ma lo strumento non ha passato il controllo di sensibilità
+
+Preregistrato (`preregistrazioni/ia17.md`, commit e921fca; codice bd97276 con `aprire_*.py`). Preparato e lanciato in autonomia
+su indicazione di Davide, dopo una prova a taglia vera del controllo positivo (riuscita su latino con la versione più forte
+dell'eco piantata). Corsa: coda `ia_H`, 6 processi, 76 minuti, uscita 0. Risultati in `risultati/ia17_aprire_imitatore.{md,json}`
+e `risultati/ia17_corse.jsonl` (solo numeri e codici anonimi).
+
+- **Condizione d'ingresso:** P2, P1 e R di ia16 validi. Modo: imitatore valido.
+- **Controlli:** coerenza scrittura/maschera (differenza 0,00001 bit) e riproduzione di ia16 (libro identico) riusciti; strumento
+  sulle pagine vere con la parola sbagliata nella banda (0,99–1,01) **riuscito**. **Non riusciti:** il controllo positivo con
+  l'eco piantata (nella corsa vera, con altri semi, il modello di controllo non ha imparato la copia come nella prova:
+  sollevamento a 2 righe 2,07, soglia 3,0; caduta per eco 0,09, soglia 0,30) e il negativo sulle regole di eco (R² 0,26,
+  soglia 0,03). Quindi: **specificità** di attenzione e maschere sì (si può leggere un "c'è"); **sensibilità** no (un "non c'è"
+  si legge con riserva).
+- **A, dove guarda:** sull'eco il sollevamento dell'attenzione è 1,09–1,21 a tutte le distanze ("come il caso", **con riserva**):
+  le mappe non mostrano un'attenzione speciale sulle parole simili.
+- **B, che cosa succede ai bit (letture "c'è" valide):**
+  - **caduta per eco: conta.** Togliere dal contesto le parole uguali o a una modifica già scritte costa 0,134 bit per parola in
+    più che togliere altrettante parole non simili (0,192 contro 0,058); togliere solo le parole **uguali** costa poco (0,027,
+    zona grigia): l'imitatore usa soprattutto le **varianti a una lettera**. L'80% delle parole ha un'eco già scritta.
+  - **memoria entro una riga:** con la riga in corso più la riga sopra si tiene il 97% del risparmio; togliere le righe da due in
+    su costa 0,013 bit per parola, da quattro in su 0,003; la pagina precedente 0,002 ("non dipende").
+- **Libri scritti con memoria ridotta:** con la riga più la riga sopra (K1) l'eco "cala ma resta" (copia netta 0,075 contro 0,087);
+  con la sola riga (K0) cala di più (0,067) e calano ordine e contatto; senza pagina precedente (SP) non cambia niente.
+- **C, regole:** le tabelle di pezzi spiegano come in ia13 (albero a 16 foglie 0,17, "come ia13"; migliore tabella "ultime lettere
+  della parola prima → primi due glifi" 0,175); le regole di eco spiegano poco (0,05, con riserva).
+- **In parole semplici:** aprendo l'imitatore si vede che, per scrivere una parola, si appoggia davvero alle parole quasi uguali
+  già scritte, soprattutto a quelle che differiscono per una lettera, e che tutto ciò che gli serve sta nella riga in corso e
+  in quella sopra. La pagina precedente non conta. Le "mappe di attenzione" non lo mostrano, ma il controllo che doveva provare
+  che lo strumento sa vedere un'eco non ha retto, quindi questo "non lo mostrano" non vale come prova.
+- **Limiti:** imitatore valido ma più lontano dal vero del v21 (ia16); le letture riguardano come lavora l'imitatore, non il
+  manoscritto direttamente; controllo di sensibilità non riuscito.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione (6 processi invece di 8).

@@ -1,0 +1,183 @@
+ingresso: P2: valida; P1: valida; R: valida
+== fasi KBA: 39 lavori
+[1/39 3.9 min] libro|SP|2 (225 s)
+[2/39 3.9 min] libro|SP|3 (229 s)
+[3/39 4.0 min] libro|SP|1 (231 s)
+[4/39 4.4 min] libro|RIPR|1 (258 s)
+[sint senza_eco]   epoca 1: addestramento 2.4537, validazione 2.1963 (migliore 2.1963), 278 s
+[sint eco_d2]   epoca 1: addestramento 3.0829, validazione 2.6731 (migliore 2.6731), 279 s
+[5/39 5.6 min] libro|K0|1 (97 s)
+[6/39 6.1 min] libro|K0|2 (100 s)
+[7/39 7.2 min] libro|K0|3 (100 s)
+[8/39 7.6 min] libro|SP|4 (221 s)
+[9/39 7.6 min] libro|SP|5 (220 s)
+[10/39 7.7 min] libro|K0|4 (100 s)
+[11/39 9.0 min] libro|K0|5 (103 s)
+[sint eco_d2]   epoca 2: addestramento 2.8041, validazione 2.6116 (migliore 2.6116), 556 s
+[sint senza_eco]   epoca 2: addestramento 2.1702, validazione 2.1623 (migliore 2.1623), 561 s
+[12/39 10.2 min] libro|K1|1 (162 s)
+[13/39 10.3 min] libro|K1|2 (161 s)
+[14/39 10.4 min] libro|K1|3 (158 s)
+[15/39 11.6 min] libro|K1|4 (161 s)
+[16/39 12.9 min] libro|K1|5 (160 s)
+[17/39 13.2 min] libro|K3|1 (174 s)
+[18/39 13.3 min] libro|K3|2 (175 s)
+[19/39 13.4 min] coerenza (4 s)
+[leggi P2 r0 p0]   10/43 pagine, 6 s
+[leggi P2 r0 p0]   20/43 pagine, 13 s
+[leggi P2 r0 p0]   30/43 pagine, 28 s
+[sint eco_d2]   epoca 3: addestramento 2.7522, validazione 2.5637 (migliore 2.5637), 843 s
+[sint senza_eco]   epoca 3: addestramento 2.1339, validazione 2.1795 (migliore 2.1623), 846 s
+[leggi P2 r0 p0]   40/43 pagine, 58 s
+[20/39 14.6 min] libro|K3|3 (176 s)
+[21/39 14.7 min] leggi|P2|0|0 (78 s)
+[leggi P2 r0 p1]   10/40 pagine, 7 s
+[leggi P2 r0 p2]   10/43 pagine, 6 s
+[leggi P2 r0 p1]   20/40 pagine, 12 s
+[leggi P2 r0 p2]   20/43 pagine, 14 s
+[leggi P2 r0 p1]   30/40 pagine, 22 s
+[leggi P2 r0 p2]   30/43 pagine, 37 s
+[leggi P2 r0 p1]   40/40 pagine, 53 s
+[22/39 15.5 min] leggi|P2|0|1 (54 s)
+[leggi P2 r0 p3]   10/41 pagine, 4 s
+[leggi P2 r0 p2]   40/43 pagine, 54 s
+[leggi P2 r0 p3]   20/41 pagine, 12 s
+[23/39 15.8 min] libro|K3|4 (176 s)
+[24/39 15.9 min] leggi|P2|0|2 (75 s)
+[leggi P2 r0 p4]   10/40 pagine, 7 s
+[leggi P2 r1 p0]   10/43 pagine, 7 s
+[leggi P2 r0 p4]   20/40 pagine, 15 s
+[leggi P2 r1 p0]   20/43 pagine, 15 s
+[25/39 16.2 min] libro|K3|5 (179 s)
+[leggi P2 r0 p3]   30/41 pagine, 46 s
+[leggi P2 r1 p1]   10/40 pagine, 8 s
+[leggi P2 r1 p1]   20/40 pagine, 14 s
+[leggi P2 r1 p0]   30/43 pagine, 34 s
+[leggi P2 r1 p1]   30/40 pagine, 26 s
+[leggi P2 r0 p4]   30/40 pagine, 61 s
+[leggi P2 r0 p3]   40/41 pagine, 98 s
+[leggi P2 r1 p0]   40/43 pagine, 74 s
+[26/39 17.3 min] leggi|P2|0|3 (108 s)
+[leggi P2 r1 p1]   40/40 pagine, 65 s
+[27/39 17.3 min] leggi|P2|1|1 (65 s)
+[leggi P2 r1 p2]   10/43 pagine, 7 s
+[leggi P2 r1 p3]   10/41 pagine, 8 s
+[leggi P2 r1 p2]   20/43 pagine, 17 s
+[leggi P2 r1 p3]   20/41 pagine, 17 s
+[28/39 17.6 min] leggi|P2|1|0 (99 s)
+[leggi P2 r1 p4]   10/40 pagine, 8 s
+[leggi P2 r1 p4]   20/40 pagine, 17 s
+[leggi P2 r0 p4]   40/40 pagine, 126 s
+[29/39 18.0 min] leggi|P2|0|4 (127 s)
+[leggi P2 r1 p2]   30/43 pagine, 46 s
+[leggi P1 r0 p0]   10/43 pagine, 4 s
+[leggi P1 r0 p0]   20/43 pagine, 10 s
+[leggi P2 r1 p3]   30/41 pagine, 58 s
+[leggi P1 r0 p0]   30/43 pagine, 23 s
+[leggi P2 r1 p2]   40/43 pagine, 70 s
+[leggi P2 r1 p4]   30/40 pagine, 64 s
+[leggi P1 r0 p0]   40/43 pagine, 53 s
+[30/39 18.9 min] leggi|P2|1|2 (97 s)
+[leggi P1 r0 p1]   10/40 pagine, 4 s
+[leggi P1 r0 p1]   20/40 pagine, 8 s
+[leggi P2 r1 p3]   40/41 pagine, 111 s
+[leggi P1 r0 p1]   30/40 pagine, 17 s
+[31/39 19.2 min] leggi|P1|0|0 (75 s)
+[32/39 19.3 min] leggi|P2|1|3 (120 s)
+[leggi P1 r0 p2]   10/43 pagine, 4 s
+[leggi P1 r0 p3]   10/41 pagine, 4 s
+[leggi P1 r0 p2]   20/43 pagine, 9 s
+[leggi P1 r0 p3]   20/41 pagine, 10 s
+[leggi P1 r0 p1]   40/40 pagine, 45 s
+[33/39 19.6 min] leggi|P1|0|1 (45 s)
+[sint eco_d2]   epoca 4: addestramento 2.7223, validazione 2.5720 (migliore 2.5637), 1171 s
+[leggi P1 r0 p2]   30/43 pagine, 30 s
+[leggi P1 r0 p4]   10/40 pagine, 5 s
+[leggi P2 r1 p4]   40/40 pagine, 129 s
+[34/39 19.7 min] leggi|P2|1|4 (129 s)
+[leggi P1 r0 p4]   20/40 pagine, 9 s
+[sint senza_eco]   epoca 4: addestramento 2.1196, validazione 2.1326 (migliore 2.1326), 1178 s
+[leggi P1 r0 p3]   30/41 pagine, 38 s
+[leggi P1 r0 p2]   40/43 pagine, 45 s
+[35/39 20.3 min] leggi|P1|0|2 (64 s)
+[leggi P1 r0 p4]   30/40 pagine, 41 s
+[leggi P1 r0 p3]   40/41 pagine, 73 s
+[36/39 20.6 min] leggi|P1|0|3 (80 s)
+[leggi P1 r0 p4]   40/40 pagine, 77 s
+[37/39 20.9 min] leggi|P1|0|4 (77 s)
+[sint eco_d2]   epoca 5: addestramento 2.7038, validazione 2.5839 (migliore 2.5637), 1409 s
+[sint senza_eco]   epoca 5: addestramento 2.1090, validazione 2.1585 (migliore 2.1326), 1412 s
+[sint eco_d2]   epoca 6: addestramento 2.6913, validazione 2.5581 (migliore 2.5581), 1622 s
+[sint senza_eco]   epoca 6: addestramento 2.1023, validazione 2.1079 (migliore 2.1079), 1626 s
+[sint eco_d2]   epoca 7: addestramento 2.6817, validazione 2.5686 (migliore 2.5581), 1840 s
+[sint senza_eco]   epoca 7: addestramento 2.0972, validazione 2.1237 (migliore 2.1079), 1843 s
+[sint eco_d2]   epoca 8: addestramento 2.6749, validazione 2.5642 (migliore 2.5581), 2058 s
+[sint senza_eco]   epoca 8: addestramento 2.0924, validazione 2.1357 (migliore 2.1079), 2060 s
+[sint senza_eco]   epoca 9: addestramento 2.0875, validazione 2.1305 (migliore 2.1079), 2272 s
+[sint eco_d2]   epoca 9: addestramento 2.6688, validazione 2.5444 (migliore 2.5444), 2285 s
+[sint senza_eco]   epoca 10: addestramento 2.0828, validazione 2.1118 (migliore 2.1079), 2488 s
+[sint eco_d2]   epoca 10: addestramento 2.6610, validazione 2.5099 (migliore 2.5099), 2547 s
+[sint senza_eco]   epoca 11: addestramento 2.0788, validazione 2.1099 (migliore 2.1079), 2701 s
+[sint eco_d2]   epoca 11: addestramento 2.6558, validazione 2.6025 (migliore 2.5099), 2826 s
+[sint senza_eco]   epoca 12: addestramento 2.0749, validazione 2.1338 (migliore 2.1079), 2908 s
+[sint senza_eco]   epoca 13: addestramento 2.0716, validazione 2.1383 (migliore 2.1079), 3119 s
+[sint eco_d2]   epoca 12: addestramento 2.6486, validazione 2.5467 (migliore 2.5099), 3126 s
+[sint senza_eco]   epoca 14: addestramento 2.0689, validazione 2.1641 (migliore 2.1079), 3334 s
+[sint senza_eco]   10/43 pagine, 3 s
+[sint senza_eco]   20/43 pagine, 6 s
+[sint senza_eco]   30/43 pagine, 14 s
+[sint senza_eco]   40/43 pagine, 27 s
+[sint eco_d2]   epoca 13: addestramento 2.6432, validazione 2.5309 (migliore 2.5099), 3408 s
+[38/39 57.1 min] sint|senza_eco (3419 s)
+[sint eco_d2]   epoca 14: addestramento 2.6370, validazione 2.5127 (migliore 2.5099), 3591 s
+[sint eco_d2]   epoca 15: addestramento 2.6298, validazione 2.5234 (migliore 2.5099), 3770 s
+[sint eco_d2]   epoca 16: addestramento 2.6247, validazione 2.5335 (migliore 2.5099), 3944 s
+[sint eco_d2]   epoca 17: addestramento 2.6185, validazione 2.5144 (migliore 2.5099), 4114 s
+[sint eco_d2]   epoca 18: addestramento 2.6131, validazione 2.5179 (migliore 2.5099), 4283 s
+[sint eco_d2]   10/43 pagine, 2 s
+[sint eco_d2]   20/43 pagine, 4 s
+[sint eco_d2]   30/43 pagine, 8 s
+[sint eco_d2]   40/43 pagine, 17 s
+[39/39 72.6 min] sint|eco_d2 (4352 s)
+== fase M: 31 lavori
+[1/31 0.4 min] M|vere (19 s)
+[2/31 0.5 min] M|P2:2 (25 s)
+[3/31 0.5 min] M|P2:3 (26 s)
+[4/31 0.5 min] M|P2:5 (26 s)
+[5/31 0.5 min] M|P2:4 (26 s)
+[6/31 0.5 min] M|P2:1 (26 s)
+[7/31 0.8 min] M|K0:1 (16 s)
+[8/31 0.8 min] M|SP:1 (24 s)
+[9/31 0.9 min] M|SP:2 (24 s)
+[10/31 0.9 min] M|SP:5 (24 s)
+[11/31 0.9 min] M|SP:3 (24 s)
+[12/31 0.9 min] M|SP:4 (25 s)
+[13/31 1.0 min] M|K0:2 (16 s)
+[14/31 1.1 min] M|K0:3 (16 s)
+[15/31 1.1 min] M|K0:4 (16 s)
+[16/31 1.2 min] M|K0:5 (16 s)
+[17/31 1.3 min] M|K1:1 (23 s)
+[18/31 1.3 min] M|K1:2 (23 s)
+[19/31 1.4 min] M|K1:3 (23 s)
+[20/31 1.4 min] M|K1:4 (23 s)
+[21/31 1.5 min] M|K1:5 (23 s)
+[22/31 1.6 min] M|K3:1 (24 s)
+[23/31 1.6 min] D|0 (6 s)
+[24/31 1.7 min] D|1 (6 s)
+[25/31 1.7 min] M|K3:2 (24 s)
+[26/31 1.7 min] M|K3:3 (24 s)
+[27/31 1.8 min] D|2 (7 s)
+[28/31 1.8 min] D|3 (7 s)
+[29/31 1.8 min] D|4 (7 s)
+[30/31 1.8 min] M|K3:4 (23 s)
+[31/31 1.8 min] M|K3:5 (24 s)
+== fase R: 2 lavori
+[1/2 0.6 min] regole|P1 (33 s)
+[2/2 0.7 min] regole|P2 (40 s)
+A_dove_guarda_eco: {"stessa riga": "come il caso (con riserva: sensibilità dello strumento non provata, il controllo con l eco piantata non è riuscito)", "1-3 righe sopra": "come il caso (con riserva: sensibilità dello strumento non provata, il controllo con l eco piantata non è riuscito)", "vicina (stessa riga e 1-3 sopra)": "come il caso (con riserva: sensibilità dello strumento non provata, il controllo con l eco piantata non è riuscito)", "lontana (4 o piu' righe sopra)": "come il caso (con riserva: sensibilità dello strumento non provata, il controllo con l eco piantata non è riuscito)", "pagina precedente"
+A_mappa: {"inizio parola (si indovina il primo glifo)": {"coda pagina precedente": "meno del caso", "testa di pagina": "meno del caso", "testa di riga": "piu' del caso", "stessa riga: parola da scrivere (segni gia' scritti)": "zona grigia", "stessa riga: parola prima": "piu' del caso", "stessa riga: seconda prima": "piu' del caso", "stessa riga: altre": "piu' del caso", "1 riga sopra": "piu' del caso", "2 righe sopra": "piu' del caso", "3 righe sopra": "come il caso", "4-5 righe sopra": "zona grigia", "6-9 righe sopra": "meno del caso", "10-19 righe sopra": "meno del caso", "20+ righe sopra": "meno del
+B_bit: {"senza_prec": "non dipende (maschera sulle righe: include l effetto di un contesto mai visto)", "k0": "dipende (maschera sulle righe: include l effetto di un contesto mai visto)", "k1": "dipende (maschera sulle righe: include l effetto di un contesto mai visto)", "k2": "non dipende (maschera sulle righe: include l effetto di un contesto mai visto)", "k4": "non dipende (maschera sulle righe: include l effetto di un contesto mai visto)", "k8": "non dipende (maschera sulle righe: include l effetto di un contesto mai visto)", "eco_via": "conta", "eco_uguale_via": "conta"}
+B_caduta_per_eco: "conta"
+B_memoria_entro_k_righe: 1
+B_libri: {"K0": "l'eco cala ma resta", "K1": "l'eco cala ma resta", "K3": "l'eco non cambia", "SP": "l'eco non cambia"}
+C_regole: {"P2 ordine": {"albero16_pezzi": "zona grigia", "albero16_pezzi_contro_ia13": "come ia13 (entro 0,05)", "albero16_eco": "poco (con riserva: sensibilità dello strumento non provata, il controllo con l eco piantata non è riuscito)", "albero16_pezzi_e_eco": "zona grigia", "migliore_tabella_pezzi": "zona grigia", "migliore_tabella_pezzi_contro_ia13": "meno spiegabile di ia13 (con riserva: sensibilità dello strumento non provata, il controllo con l eco piantata non è riuscito)", "migliore_tabella_eco": "poco (con riserva: sensibilità dello strumento non provata, il controllo con l eco piantata non 
