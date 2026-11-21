@@ -41,7 +41,17 @@ come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
 - 20/11: **IA11 fatto: la prova del nove non riesce.** I ritocchi al v21 (eco, ordine delle famiglie) lo rendono più
   riconoscibile (A 0,806, K 0,803, paper in salita); manipolazione non riuscita (eco non locale, ordine che rompe il
   contatto fra parole): "non leggibile". I tre strati vanno costruiti dentro il generatore, non aggiunti dopo.
-  In corso: IA4 (di nuovo a priorità normale dalle 16:05), IA5; in preparazione IA12–IA15.
+  (Seguono gli esiti della notte 20–21/11, notte autonoma su indicazione di Davide.)
+- 21/11: **IA5** le letture di e3c95 reggono con tutte le reti e col transformer. **IA4** il cervello giusto riconosce i
+  cifrati semplici (13/13); sul Voynich nessuna lingua aiuta in modo distinto (non leggibile). **IA13** la rete usa la parola
+  prima (68%) e le sue ultime due lettere; bordi della riga con regole loro, mancati dal v21. **IA12** mani 2 e 3 (B)
+  indistinguibili sulla rete. **IA15** quasi tutto non leggibile; **IA15b** eco mista (tema di pagina + eco locale di
+  varianti), uguale nel v21; nessuna continuità fra pagine. **IA14** nessun procedimento semplice si avvicina; **IA19** le
+  combinazioni avvicinano (verboso + eco raggiunge ρ) ma restano lontane, k90 mai. **IA16** l'imitatore con memoria della
+  pagina impara il vocabolario della pagina ma i giudici lo riconoscono più del v21 (contatto indebolito).
+- In corso dal 21/11 mattina: **IA18** (modello linguistico locale Qwen2.5-0.5B, scala ridotta). Pronto: **IA17** (aprire
+  l'imitatore; manca la prova a taglia vera del controllo positivo). IA6 in standby (accesso del programma claude al PC).
+  Mandato per la chat del v22 in `ClaudeTower/voynich-ia/MANDATO_V22.md` (da aprire da Davide al PC).
 - 20/11: **IA6 in standby** finché Davide non fa l'accesso (si fa solo al PC). IA4, IA5, IA7 in corso dalle 13:30.
 - **Azione per Davide:** accesso del programma `claude` da riga di comando (`strumenti/Accesso claude.bat`, serve
   all'IA6).
