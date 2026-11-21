@@ -16958,3 +16958,35 @@ autonoma. Corsa: coda `ia_D`, 4 processi, 230 minuti, uscita 0. Risultati in `ri
 - **Limiti:** un solo confronto dentro la lingua; mani e sezioni intrecciate; misure di conteggio poco robuste a questa
   quantità di testo.
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione (4 processi invece di 10).
+
+## 21/11/2026 (notte) — ia05 (IA5): le letture di e3c95 reggono con tutte le reti, da 21.000 a 850.000 parametri e con un piccolo transformer: il Voynich si impara più in fretta di ogni lingua, quasi senza niente da memorizzare, e resta vicino ai generatori
+
+Preregistrato (`preregistrazioni/ia05.md`, commit f1c4152; codice caff4da). Corsa: coda `ia_A`, 8 processi, 648 minuti (PC
+condiviso), uscita 0. Risultati in `risultati/ia05_reti_grandi.{md,json}` e `risultati/ia05_corse.jsonl` (solo numeri).
+
+- **Domanda:** le letture di e3c95 (rete GRU minuscola, 67.000 parametri) reggono con reti più grandi e con un transformer?
+- **Reti:** GRU con 64, 128, 256, 512 unità, GRU 2×256, transformer (21.241–852.281 parametri); semi 1–5 per le piccole, 1–3
+  per le grandi. Corse al limite dei passi: 23 su 270 per gru64, 2 su 87 per il transformer, 0 per le altre.
+- **Controlli:** superati per tutte le reti (positivo: differenze di BPC fra ripetizioni 0,000–0,015, soglia 0,03; negativo:
+  il Voynich rimescolato G 0,044–0,048 contro 0,488–0,493 del Voynich e minimo delle lingue 0,198–0,224).
+- **Verifica interna:** gru128 riproduce e3c95 esattamente (270 corse, curve identiche).
+- **Lettura 1, crescita di G con la grandezza:** le lingue guadagnano regola con reti più grandi (mediana +0,015; 17 su 20
+  positive); il Voynich no (−0,001; A −0,001, B +0,005): **il Voynich cresce meno delle lingue**, come v21 (+0,003) e Timm e
+  Schinner (+0,001). G del Voynich 0,487–0,493 per tutte le reti.
+- **Lettura 2, profilo (G, E90, D):** per **tutte** le reti i tre testi più vicini al Voynich sono i tre generatori (v21,
+  Timm e Schinner, Naibbe); la prima lingua è il cinese in pinyin. Il transformer dice lo stesso (Naibbe 0,30, v21 0,57, Timm
+  0,88, pinyin 1,31).
+- **Lettura 3, E90 e scarto:** per tutte le reti il Voynich (intero, A, B) sta **sotto tutte le lingue** sia in E90 (letture
+  per arrivare al 90%: per esempio gru512 2,0 contro 4,4–8,5) sia nello scarto (quanto si memorizza: gru512 0,10 contro
+  0,24–1,00).
+- **Lettura 4, il transformer dice lo stesso:** sì (G dentro le lingue, E90 sotto tutte, generatori più vicini, controlli
+  riusciti, 2,3% di corse al limite).
+- **In parole semplici:** non era un effetto della rete piccola. Con reti dieci volte più grandi e con un transformer il
+  Voynich si impara sempre più in fretta di ogni lingua e non lascia quasi niente da memorizzare; reti più grandi non ci
+  trovano nuova regola, mentre nelle lingue sì. Resta vicino ai generatori costruiti per imitarlo, non alle lingue.
+- **Cosa non dice:** Naibbe (che porta un testo latino) è il più vicino al Voynich in vari profili: questo comportamento non
+  esclude un significato nascosto con un procedimento simile.
+- **Limiti:** 40.000 segni per testo; i testi moderni sono quasi tutti Nuovi Testamenti; i generatori sono costruiti sulle
+  statistiche del Voynich; tre semi per le reti grandi.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione (8 processi invece di 10). La nota sulla correzione di E90 di
+  e3c95 è già nella voce di ia01.
