@@ -1,0 +1,35 @@
+testi: 8; semi (1, 2); bracci ['pre', 'cas']; assegnazioni ['letterale', 'frequenza']
+  Latino in chiaro                                               controllo_chiaro   priorità 1
+  Latino cifrato (sostituzione semplice)                         controllo_cifrato  priorità 1
+  Latino, lettere rimescolate (controllo negativo)               controllo_negativo priorità 1
+  Gibberish (Gaskell e Bowern)                                   generatore         priorità 1
+  Voynich                                                        voynich            priorità 1
+  Voynich, lettere rimescolate (controllo negativo)              controllo_negativo priorità 1
+  Timm e Schinner (seme 1)                                       generatore         priorità 1
+  Voynichizzatore v21 (libro d'esempio)                          generatore         priorità 1
+fase 0: taratura del passo di apprendimento (latino cifrato, seme 0, 1 lettura)
+  6 corse da fare, 0 già fatte
+  [1/6, 10 min] Latino cifrato (sostituzione semplice) | seme 0 | preaddestrato | letterale | passo 5e-05: validazione 3.010, prova – (156 passi, 626 s)
+  [2/6, 21 min] Latino cifrato (sostituzione semplice) | seme 0 | preaddestrato | letterale | passo 0.0001: validazione 3.158, prova – (156 passi, 642 s)
+  [3/6, 32 min] Latino cifrato (sostituzione semplice) | seme 0 | preaddestrato | letterale | passo 0.0002: validazione 3.100, prova – (156 passi, 642 s)
+  [4/6, 42 min] Latino cifrato (sostituzione semplice) | seme 0 | pesi casuali | letterale | passo 0.0002: validazione 3.420, prova – (156 passi, 616 s)
+  [5/6, 52 min] Latino cifrato (sostituzione semplice) | seme 0 | pesi casuali | letterale | passo 0.0005: validazione 3.532, prova – (156 passi, 565 s)
+  [6/6, 61 min] Latino cifrato (sostituzione semplice) | seme 0 | pesi casuali | letterale | passo 0.001: validazione 3.619, prova – (156 passi, 566 s)
+  passi scelti: {'pre': 5e-05, 'cas': 0.0002}
+fase 1: controlli del latino, seme 1, assegnazione letterale
+  6 corse da fare, 0 già fatte
+  [1/6, 71 min] Latino in chiaro | seme 1 | preaddestrato | letterale | passo 5e-05: validazione 2.789, prova 2.797 (156 passi, 597 s)
+  [2/6, 80 min] Latino in chiaro | seme 1 | pesi casuali | letterale | passo 0.0002: validazione 3.370, prova 3.356 (156 passi, 546 s)
+  [3/6, 89 min] Latino cifrato (sostituzione semplice) | seme 1 | preaddestrato | letterale | passo 5e-05: validazione 2.857, prova 2.860 (156 passi, 550 s)
+  [4/6, 98 min] Latino cifrato (sostituzione semplice) | seme 1 | pesi casuali | letterale | passo 0.0002: validazione 3.426, prova 3.405 (156 passi, 548 s)
+  [5/6, 108 min] Latino, lettere rimescolate (controllo negativo) | seme 1 | preaddestrato | letterale | passo 5e-05: validazione 4.012, prova 4.009 (156 passi, 586 s)
+  [6/6, 120 min] Latino, lettere rimescolate (controllo negativo) | seme 1 | pesi casuali | letterale | passo 0.0002: validazione 4.096, prova 4.096 (156 passi, 687 s)
+  cancello (letterale): NON passato; G {'Latino in chiaro': 0.559, 'Latino cifrato (sostituzione semplice)': 0.545, 'Latino, lettere rimescolate (controllo negativo)': 0.087}
+fase 1: controlli del latino, seme 1, assegnazione frequenza
+  4 corse da fare, 2 già fatte
+  [1/4, 131 min] Latino cifrato (sostituzione semplice) | seme 1 | preaddestrato | frequenza | passo 5e-05: validazione 2.844, prova 2.838 (156 passi, 676 s)
+  [2/4, 141 min] Latino cifrato (sostituzione semplice) | seme 1 | pesi casuali | frequenza | passo 0.0002: validazione 3.426, prova 3.405 (156 passi, 592 s)
+  [3/4, 151 min] Latino, lettere rimescolate (controllo negativo) | seme 1 | preaddestrato | frequenza | passo 5e-05: validazione 4.028, prova 4.029 (156 passi, 591 s)
+  [4/4, 160 min] Latino, lettere rimescolate (controllo negativo) | seme 1 | pesi casuali | frequenza | passo 0.0002: validazione 4.096, prova 4.096 (156 passi, 588 s)
+  cancello (frequenza): NON passato; G {'Latino in chiaro': 0.559, 'Latino cifrato (sostituzione semplice)': 0.567, 'Latino, lettere rimescolate (controllo negativo)': 0.068}
+CANCELLO: i controlli del latino non passano con nessuna assegnazione; il resto non parte (FORZA=1 per ignorarlo).

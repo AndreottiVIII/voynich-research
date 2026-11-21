@@ -1,0 +1,536 @@
+{
+ "esperimento": "ia18",
+ "modello": "Qwen2.5-0.5B (Apache 2.0), vocabolario ridotto a 30 token",
+ "assegnazione": "letterale",
+ "parametri": {
+  "LUNG": 128,
+  "LOTTO": 2,
+  "EPOCHE_MAX": 1.0,
+  "PASSI": 156,
+  "PASSI_PER_LETTURA": 156.25,
+  "PUNTI_EPOCHE": [
+   0.1,
+   0.25,
+   0.5,
+   0.75,
+   1.0
+  ],
+  "LR": {
+   "pre": 5e-05,
+   "cas": 0.0002
+  },
+  "LR_EMB": 0.001,
+  "RISCALDA": 10,
+  "DECADIMENTO": 0.01,
+  "TAGLIO": 1.0,
+  "BETA2": 0.95,
+  "SEMI": [
+   1,
+   2
+  ],
+  "THREAD": 8,
+  "SOLO_CONTROLLI": false,
+  "N_ADD": 40000,
+  "N_VAL": 5000,
+  "N_PROVA": 10000,
+  "SOGLIA_CIFRATO_BIT": 0.15,
+  "SOGLIA_CHIARO_BIT": 0.5,
+  "MARGINE_CHIARO": 0.1,
+  "SOGLIA_NEG_BIT": 0.05,
+  "S_ALTO": 0.75,
+  "S_BASSO": 0.25,
+  "S_VICINO": 0.15,
+  "SOGLIA_AREA_MIN": 0.25,
+  "SCALA_MIN": 0.1,
+  "GRIGLIA": {
+   "pre": [
+    5e-05,
+    0.0001,
+    0.0002
+   ],
+   "cas": [
+    0.0002,
+    0.0005,
+    0.001
+   ]
+  },
+  "ORDINE_RIF": "etaoinshrdlcumwfgypbvkjxqz",
+  "MODELLO": "Qwen2.5-0.5B",
+  "BRACCI": [
+   "pre",
+   "cas"
+  ],
+  "ASSEGNE": [
+   "letterale",
+   "frequenza"
+  ],
+  "PRIORITA_MAX": 1
+ },
+ "versioni": {
+  "python": "3.12.10",
+  "torch": "2.15.0+cpu",
+  "numpy": "2.5.3",
+  "transformers": "4.57.6",
+  "modello_sha256": "88c142557820ccad55bb59756bfcfcf891de9cc6202816bd346445188a0ed342"
+ },
+ "testi": {
+  "Latino in chiaro": {
+   "ruolo": "controllo_chiaro",
+   "priorita": 1,
+   "segni_usati": 23,
+   "h1": 4.11711198533062,
+   "token_naturali_per_carattere": 0.3343
+  },
+  "Latino cifrato (sostituzione semplice)": {
+   "ruolo": "controllo_cifrato",
+   "priorita": 1,
+   "segni_usati": 23,
+   "h1": 4.11711198533062,
+   "token_naturali_per_carattere": 0.489575
+  },
+  "Latino, lettere rimescolate (controllo negativo)": {
+   "ruolo": "controllo_negativo",
+   "priorita": 1,
+   "segni_usati": 23,
+   "h1": 4.117773087836593,
+   "token_naturali_per_carattere": 0.452425
+  },
+  "Gibberish (Gaskell e Bowern)": {
+   "ruolo": "generatore",
+   "priorita": 1,
+   "segni_usati": 29,
+   "h1": 4.411626945615552,
+   "token_naturali_per_carattere": 0.40655
+  },
+  "Voynich": {
+   "ruolo": "voynich",
+   "priorita": 1,
+   "segni_usati": 21,
+   "h1": 3.973673448170923,
+   "token_naturali_per_carattere": 0.417575
+  },
+  "Voynich, lettere rimescolate (controllo negativo)": {
+   "ruolo": "controllo_negativo",
+   "priorita": 1,
+   "segni_usati": 21,
+   "h1": 3.9669453636861363,
+   "token_naturali_per_carattere": 0.470225
+  },
+  "Timm e Schinner (seme 1)": {
+   "ruolo": "generatore",
+   "priorita": 1,
+   "segni_usati": 21.5,
+   "h1": 3.8208436822110334,
+   "token_naturali_per_carattere": 0.396625
+  },
+  "Voynichizzatore v21 (libro d'esempio)": {
+   "ruolo": "generatore",
+   "priorita": 1,
+   "segni_usati": 21,
+   "h1": 3.951099416064886,
+   "token_naturali_per_carattere": 0.414575
+  }
+ },
+ "taratura": {
+  "scelto": {
+   "pre": 5e-05,
+   "cas": 0.0002
+  },
+  "corse": [
+   {
+    "braccio": "pre",
+    "lr": 5e-05,
+    "bpc_val": 3.01008,
+    "diverso": false
+   },
+   {
+    "braccio": "pre",
+    "lr": 0.0001,
+    "bpc_val": 3.15771,
+    "diverso": false
+   },
+   {
+    "braccio": "pre",
+    "lr": 0.0002,
+    "bpc_val": 3.10037,
+    "diverso": false
+   },
+   {
+    "braccio": "cas",
+    "lr": 0.0002,
+    "bpc_val": 3.42038,
+    "diverso": false
+   },
+   {
+    "braccio": "cas",
+    "lr": 0.0005,
+    "bpc_val": 3.53218,
+    "diverso": false
+   },
+   {
+    "braccio": "cas",
+    "lr": 0.001,
+    "bpc_val": 3.61851,
+    "diverso": false
+   }
+  ]
+ },
+ "cancelli": [
+  {
+   "assegna": "letterale",
+   "completo": true,
+   "superato": false,
+   "controlli": {
+    "cifrato": {
+     "G": 0.54461,
+     "G_minimo_fra_semi": 0.54461,
+     "soglia": 0.15,
+     "superato": true
+    },
+    "chiaro": {
+     "G": 0.5592999999999999,
+     "G_minimo_fra_semi": 0.5592999999999999,
+     "soglia": 0.5,
+     "margine_sul_cifrato": 0.01468999999999987,
+     "soglia_margine": 0.1,
+     "superato": false
+    },
+    "negativo": {
+     "G": {
+      "Latino, lettere rimescolate (controllo negativo)": 0.08716999999999953
+     },
+     "soglia": 0.05,
+     "superato": false
+    },
+    "tutti_superati": false
+   },
+   "G": {
+    "Latino in chiaro": 0.5592999999999999,
+    "Latino cifrato (sostituzione semplice)": 0.54461,
+    "Latino, lettere rimescolate (controllo negativo)": 0.08716999999999953
+   }
+  },
+  {
+   "assegna": "frequenza",
+   "completo": true,
+   "superato": false,
+   "controlli": {
+    "cifrato": {
+     "G": 0.56656,
+     "G_minimo_fra_semi": 0.56656,
+     "soglia": 0.15,
+     "superato": true
+    },
+    "chiaro": {
+     "G": 0.5592999999999999,
+     "G_minimo_fra_semi": 0.5592999999999999,
+     "soglia": 0.5,
+     "margine_sul_cifrato": -0.007260000000000044,
+     "soglia_margine": 0.1,
+     "superato": false
+    },
+    "negativo": {
+     "G": {
+      "Latino, lettere rimescolate (controllo negativo)": 0.0677500000000002
+     },
+     "soglia": 0.05,
+     "superato": false
+    },
+    "tutti_superati": false
+   },
+   "G": {
+    "Latino in chiaro": 0.5592999999999999,
+    "Latino cifrato (sostituzione semplice)": 0.56656,
+    "Latino, lettere rimescolate (controllo negativo)": 0.0677500000000002
+   }
+  }
+ ],
+ "controlli": {
+  "cifrato": {
+   "G": 0.54461,
+   "G_minimo_fra_semi": 0.54461,
+   "soglia": 0.15,
+   "superato": true
+  },
+  "chiaro": {
+   "G": 0.5592999999999999,
+   "G_minimo_fra_semi": 0.5592999999999999,
+   "soglia": 0.5,
+   "margine_sul_cifrato": 0.01468999999999987,
+   "soglia_margine": 0.1,
+   "superato": false
+  },
+  "negativo": {
+   "G": {
+    "Latino, lettere rimescolate (controllo negativo)": 0.08716999999999953
+   },
+   "soglia": 0.05,
+   "superato": false
+  },
+  "tutti_superati": false
+ },
+ "scala": {
+  "Latino in chiaro": {
+   "s": 1.032113501224204,
+   "s_ds": 0.0
+  },
+  "Latino cifrato (sostituzione semplice)": {
+   "s": 1.0,
+   "s_ds": 0.0
+  },
+  "Latino, lettere rimescolate (controllo negativo)": {
+   "s": 0.0,
+   "s_ds": 0.0
+  }
+ },
+ "scala_per_area": {
+  "Latino in chiaro": {
+   "s": 1.1217134006534488,
+   "s_ds": 0.0
+  },
+  "Latino cifrato (sostituzione semplice)": {
+   "s": 1.0,
+   "s_ds": 0.0
+  },
+  "Latino, lettere rimescolate (controllo negativo)": {
+   "s": 0.0,
+   "s_ds": 0.0
+  }
+ },
+ "letture": {},
+ "bersagli": {
+  "Latino in chiaro": {
+   "semi": [
+    1
+   ],
+   "G": {
+    "media": 0.5592999999999999,
+    "ds": 0.0,
+    "n": 1
+   },
+   "G_val": {
+    "media": 0.5809599999999997,
+    "ds": 0.0,
+    "n": 1
+   },
+   "area": {
+    "media": 0.6870060354503206,
+    "ds": 0.0,
+    "n": 1
+   },
+   "g_relativo": {
+    "media": 0.16664680293188724,
+    "ds": 0.0,
+    "n": 1
+   },
+   "quota_di_H1": {
+    "media": 0.4236062196572068,
+    "ds": 0.0,
+    "n": 1
+   },
+   "bpc_pre": {
+    "media": 2.7969,
+    "ds": 0.0,
+    "n": 1
+   },
+   "bpc_cas": {
+    "media": 3.3562,
+    "ds": 0.0,
+    "n": 1
+   },
+   "h1": {
+    "media": 4.11723,
+    "ds": 0.0,
+    "n": 1
+   },
+   "letture_pre": {
+    "media": 0.10197252154211008,
+    "ds": 0.0,
+    "n": 1
+   },
+   "letture_cas": {
+    "media": 0.8853884816753922,
+    "ds": 0.0,
+    "n": 1
+   },
+   "letture_pre_non_raggiunte": 0,
+   "letture_cas_non_raggiunte": 0,
+   "divergenze": 0,
+   "per_seme": [
+    {
+     "seme": 1,
+     "h1": 4.11723,
+     "bpc_pre": 2.7969,
+     "bpc_cas": 3.3562,
+     "G": 0.5592999999999999,
+     "G_val": 0.5809599999999997,
+     "area": 0.6870060354503206,
+     "g_relativo": 0.16664680293188724,
+     "quota_di_H1": 0.4236062196572068,
+     "letture_pre": 0.10197252154211008,
+     "letture_cas": 0.8853884816753922,
+     "soglia_bit": 3.45325,
+     "val0_pre": 13.05227,
+     "val0_cas": 5.04912,
+     "diverso": false,
+     "secondi": 1142.4
+    }
+   ],
+   "ruolo": "controllo_chiaro"
+  },
+  "Latino cifrato (sostituzione semplice)": {
+   "semi": [
+    1
+   ],
+   "G": {
+    "media": 0.54461,
+    "ds": 0.0,
+    "n": 1
+   },
+   "G_val": {
+    "media": 0.56928,
+    "ds": 0.0,
+    "n": 1
+   },
+   "area": {
+    "media": 0.6223454945721155,
+    "ds": 0.0,
+    "n": 1
+   },
+   "g_relativo": {
+    "media": 0.15994795766126665,
+    "ds": 0.0,
+    "n": 1
+   },
+   "quota_di_H1": {
+    "media": 0.4332893103777488,
+    "ds": 0.0,
+    "n": 1
+   },
+   "bpc_pre": {
+    "media": 2.86031,
+    "ds": 0.0,
+    "n": 1
+   },
+   "bpc_cas": {
+    "media": 3.40492,
+    "ds": 0.0,
+    "n": 1
+   },
+   "h1": {
+    "media": 4.11723,
+    "ds": 0.0,
+    "n": 1
+   },
+   "letture_pre": {
+    "media": 0.1780861965454455,
+    "ds": 0.0,
+    "n": 1
+   },
+   "letture_cas": {
+    "media": 0.9215574193548386,
+    "ds": 0.0,
+    "n": 1
+   },
+   "letture_pre_non_raggiunte": 0,
+   "letture_cas_non_raggiunte": 0,
+   "divergenze": 0,
+   "per_seme": [
+    {
+     "seme": 1,
+     "h1": 4.11723,
+     "bpc_pre": 2.86031,
+     "bpc_cas": 3.40492,
+     "G": 0.54461,
+     "G_val": 0.56928,
+     "area": 0.6223454945721155,
+     "g_relativo": 0.15994795766126665,
+     "quota_di_H1": 0.4332893103777488,
+     "letture_pre": 0.1780861965454455,
+     "letture_cas": 0.9215574193548386,
+     "soglia_bit": 3.48687,
+     "val0_pre": 11.92176,
+     "val0_cas": 5.07443,
+     "diverso": false,
+     "secondi": 1097.6999999999998
+    }
+   ],
+   "ruolo": "controllo_cifrato"
+  },
+  "Latino, lettere rimescolate (controllo negativo)": {
+   "semi": [
+    1
+   ],
+   "G": {
+    "media": 0.08716999999999953,
+    "ds": 0.0,
+    "n": 1
+   },
+   "G_val": {
+    "media": 0.08331,
+    "ds": 0.0,
+    "n": 1
+   },
+   "area": {
+    "media": 0.0910930562123398,
+    "ds": 0.0,
+    "n": 1
+   },
+   "g_relativo": {
+    "media": 0.02128012772470822,
+    "ds": 0.0,
+    "n": 1
+   },
+   "quota_di_H1": {
+    "media": 0.8108837209302286,
+    "ds": 0.0,
+    "n": 1
+   },
+   "bpc_pre": {
+    "media": 4.00914,
+    "ds": 0.0,
+    "n": 1
+   },
+   "bpc_cas": {
+    "media": 4.09631,
+    "ds": 0.0,
+    "n": 1
+   },
+   "h1": {
+    "media": 4.11664,
+    "ds": 0.0,
+    "n": 1
+   },
+   "letture_pre": {
+    "media": 0.5959572647329026,
+    "ds": 0.0,
+    "n": 1
+   },
+   "letture_cas": null,
+   "letture_pre_non_raggiunte": 0,
+   "letture_cas_non_raggiunte": 1,
+   "divergenze": 0,
+   "per_seme": [
+    {
+     "seme": 1,
+     "h1": 4.11664,
+     "bpc_pre": 4.00914,
+     "bpc_cas": 4.09631,
+     "G": 0.08716999999999953,
+     "G_val": 0.08331,
+     "area": 0.0910930562123398,
+     "g_relativo": 0.02128012772470822,
+     "quota_di_H1": 0.8108837209302286,
+     "letture_pre": 0.5959572647329026,
+     "letture_cas": null,
+     "soglia_bit": 4.064555,
+     "val0_pre": 13.02856,
+     "val0_cas": 5.04611,
+     "diverso": false,
+     "secondi": 1273.6
+    }
+   ],
+   "ruolo": "controllo_negativo"
+  }
+ }
+}

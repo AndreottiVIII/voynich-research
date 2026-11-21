@@ -17113,3 +17113,34 @@ lanciato in autonomia su indicazione di Davide. Corsa: coda `ia_G`, 4 processi, 
 - **Limiti:** combinazioni in versione semplice, parole d'eco "nulle"; letture su 8 misure; controlli di riproduzione letti da
   ia14 e non rifatti.
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
+
+## 21/11/2026 (mattina) — ia18 (IA18): il cancello dei controlli sul latino non passa: il modello linguistico preaddestrato aiuta il latino cifrato quanto quello in chiaro, e aiuta anche le lettere rimescolate; per regola il Voynich non è stato eseguito
+
+Preregistrato (`preregistrazioni/ia18.md`, commit aa3e1c3; codice d5f1008 e `requirements_ia18.txt`). Idea di Davide del
+20/11 ("un modello anche locale che reimpara il Voynich"); lanciato in autonomia a PC libero, nella **scala ridotta** prevista
+dalla preregistrazione (una lettura, semi 1 e 2, solo priorità 1). Una prima partenza alle 06:10 è fallita all'avvio per un
+errore del coordinatore nel passare le impostazioni alla coda (virgole nei valori), senza calcoli; rilanciata subito con le
+variabili nell'ambiente. Corsa: coda `ia_F`, 1 processo, 8 thread, 161 minuti, uscita 3 (cancello). Risultati in
+`risultati/ia18_modello_lingue.{md,json}`, `risultati/ia18_corse.jsonl`, `risultati/ia18_taratura.jsonl` (solo numeri).
+
+- **Disegno:** Qwen2.5-0.5B (Apache 2.0) contro lo stesso modello a pesi casuali, fine-tuning completo, testi ridotti a 29 segni
+  con 1 token = 1 carattere; G = bit per carattere guadagnati dal preaddestramento.
+- **Fase 0 (taratura, latino cifrato, seme 0):** passo scelto 5·10⁻⁵ per il preaddestrato, 2·10⁻⁴ per i pesi casuali.
+- **Fase 1, cancello (seme 1), assegnazione letterale:** G latino in chiaro **0,559**, latino cifrato **0,545**, latino con le
+  lettere rimescolate **0,087**. Il cifrato supera la sua soglia (0,15); il chiaro supera 0,50 ma **non** il cifrato di almeno
+  0,10 (scarto 0,015); il negativo **supera** il massimo ammesso (0,05). **Non passato.**
+- **Assegnazione "frequenza"** (rimedio preregistrato): cifrato 0,567, negativo 0,068: **non passato.**
+- **Esito:** per la regola scritta prima, il resto (Voynich, generatori, rimescolati del Voynich) **non è partito**. Letture sul
+  Voynich: nessuna.
+- **Che cosa dicono i controlli (descrittivo):** in una lettura il preaddestramento porta circa mezzo bit per carattere sia al
+  latino in chiaro sia al latino cifrato, e qualcosa anche a un testo di lettere rimescolate: il vantaggio misurato è in gran
+  parte generico (un modello preaddestrato impara meglio qualsiasi sequenza), non la conoscenza della lingua. Con questo
+  formato il disegno non separa "conosce la lingua" da "impara meglio in generale".
+- **In parole semplici:** il modello che conosce le lingue impara più in fretta di uno che parte da zero, ma lo fa allo stesso
+  modo per il latino vero, per il latino cifrato e perfino per lettere messe a caso. Quindi la prova non può dire se conoscere
+  le lingue aiuta col Voynich: il controllo che doveva garantirlo non ha retto, e per regola il Voynich non è stato toccato.
+- **Possibili strade (da decidere con Davide):** scala completa (più letture, dove il vantaggio specifico potrebbe separarsi
+  da quello generico), misura che sottragga il vantaggio generico (G del testo meno G del suo rimescolato), modello più grande o
+  scheda video.
+- **Limiti:** scala ridotta (una lettura, un seme in fase 1); un solo modello piccolo; testi ridotti a 29 segni.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione (scala ridotta scelta prima di partire, come previsto).
