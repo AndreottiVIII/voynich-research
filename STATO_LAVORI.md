@@ -67,6 +67,10 @@ come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
 - 22/11 mattina: **IA24** nessun imitatore porta al vero la forma delle parole nuove (migliore W1 3,67, vero 3,48); le
   parole nuove vere non sono piu' ritocchi del lessico di quelle della rete; lo scarto sta nel secondo e terzo glifo; W1 fa
   scendere solo K (0,664: giudice amico).
+- 22/11 pomeriggio: **IA25** (verifiche della revisione esterna): scarto di forma delle parole nuove = effetto della
+  temperatura 1; Naibbe vero (anche con eco) raggiunge k90, distanza dominata da Lambda (correzione di ia14/ia19); k90 regge
+  a tutte le trascrizioni, copia/Lambda/contatto no con Claston; vero contro vero: 34 verdetti 'al vero' di ia20-ia24
+  diventano si'; parte sulla sezione non leggibile. In corso IA26 e IA28; in coda IA27, IA30, poi IA29, IA31.
 - 20/11: **IA6 in standby** finché Davide non fa l'accesso (si fa solo al PC). IA4, IA5, IA7 in corso dalle 13:30.
 - **Azione per Davide:** accesso del programma `claude` da riga di comando (`strumenti/Accesso claude.bat`, serve
   all'IA6).

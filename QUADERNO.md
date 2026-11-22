@@ -17374,3 +17374,46 @@ Corsa: coda `ia_L`, 8 processi, 03:23–05:44 (141 minuti), uscita 0. Risultati 
   più regolari, più prevedibili.
 - **Limiti:** W1 e W3 con sensibilità non provata; la misura di forma è quella di ia20 (un solo modello di forma); 10 libri per tipo.
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
+
+## 22/11/2026 (pomeriggio) — ia25 (IA25): le verifiche rapide chieste dalla revisione: lo scarto di forma delle parole nuove è in gran parte un effetto della temperatura di scrittura; il Naibbe vero (anche con l'eco) arriva al contesto di 2 segni e la sua distanza è dominata da Λ; k90 regge a tutte le trascrizioni, copia, Λ e contatto no; il vero varia da sé più di quanto ammetteva la regola "al vero" (34 verdetti cambiano); la parte sulla sezione non è leggibile
+
+Preregistrato (`preregistrazioni/ia25.md`, commit 785d2fc; codice f5ed196 con `verifiche_*.py`; variabili in `esegui.py` fc9aaf7).
+Nasce dalla revisione esterna (`ClaudeTower/voynich-ia/REVIEW_FABLE.md`, parti A e D) chiesta da Davide il 22/11; preparato da un
+agente, controllato e lanciato dal coordinatore. Corsa: coda `ia_M`, 8 processi, 11:41–14:32 (171 minuti), uscita 0. Risultati in
+`risultati/ia25_verifiche_rapide.{md,json}` e `risultati/ia25_corse.jsonl`. Soglie dei controlli della parte 1 fissate dopo la prova
+sul latino (dichiarato).
+
+- **Parte 1, copia netta con riferimento di sezione: letture non valide** (controllo positivo "solo vocabolario di sezione" non
+  riuscito: quota 0,81 e 0,67 fuori dalle soglie scritte; negativo e separazione riusciti). Descrittivo: con una pagina della stessa
+  sezione, lingua e mano come riferimento la copia netta del vero scende di circa il 15% (quota 0,151, intervallo 0,101–0,199); con la
+  calibrazione sui due controlli la quota stimata è vicina a zero (−0,07). Riproduzione di ia20/ia22 esatta.
+- **Parte 2, v21 e Naibbe vero + eco nella metrica di ia14 (letture valide; controlli riusciti).**
+  - Il Naibbe vero raggiunge k90 in tutte le versioni (nativo 1,72; con eco 1,72–1,75); il v21 no (1,69 in questa impaginazione, ma
+    fuori tolleranza su k90).
+  - Distanza dal Voynich: v21 1,52 "lontano" (0,998 "vicino" senza Λ); Naibbe nativo 2,05 (1,01 senza Λ); Naibbe con eco 0,05: 1,55
+    (1,05 senza Λ), più vicino della migliore cella semplificata di ia19 (1,60). Peso di Λ: 0,62 per il v21, 0,78 per il Naibbe nativo,
+    mediana 0,34 sulle 40 celle di ia14/ia19 (dominante in 8). Testo rimescolato 2,91, latino 3,57.
+  - **Correzione di ia14/ia19:** "il contesto di 2 segni è irraggiungibile" vale per i procedimenti costruiti nel repo, non per il
+    Naibbe vero; e "lontano" dipende in gran parte da Λ.
+- **Parte 3, temperatura (letture valide).** A temperatura 0,9 il costo di forma delle parole nuove di M1 scende a 3,525 (vero 3,479;
+  a 1,0 3,746), ma le parole nuove scendono a 0,102 (vero 0,148; fuori dalla guardia) e i giudici peggiorano (e231 0,900). Il controllo
+  del processo noto (M1 addestrato su un libro del v21) mostra lo stesso eccesso a T=1 (+0,131) chiuso a T=0,9. **Lettura: lo scarto
+  di forma di ia20–ia24 è in gran parte un effetto della scrittura a temperatura 1, non una proprietà mancata del Voynich.** Nessuna
+  temperatura porta insieme forma e parole nuove al vero.
+- **Parte 4, trascrizioni e alfabeti (letture valide).** k90 resta sotto tutte le 20 lingue in tutte le varianti (ZL 2,15; EVA non
+  fuso 1,90; Takahashi 2,23; Claston v101 2,27; 6 digrammi fusi 2,36; virgola non spazio 1,97; lingue ≥ 3,47) e R_rel regge ovunque.
+  Copia netta, Λ e contatto reggono con Takahashi, con l'EVA non fuso e con i digrammi fusi, ma **non** con Claston (copia netta
+  0,091, Λ −0,014, contatto 0,227) né contando le virgole come spazi (ZLc).
+- **Parte 5, vero contro vero (controlli riusciti).** Variabilità del vero (σ, il maggiore fra divisioni a metà, ricampionamento di
+  pagine e di fogli): copia netta 0,0098, **Λ 0,039 (intervallo 0,129–0,286)**, contatto 0,0097, D 0,0122, G9 0,0019, bordi 0,0048 e
+  0,0025, parole nuove 0,0051, forma 0,034. Due metà del vero non sono mai "al vero" fra loro su tutte e nove le misure con la regola del
+  5% di ia20. Rilette con l'intervallo del vero, **34 delle 133 celle "al vero" di ia20–ia24 cambiano da no a sì** (nessuna da sì a no):
+  per esempio Λ di M5, contatto di E1 ed E3, D di M3 e W1. Le letture principali L1 di ia22–ia23 non cambiano (nessun imitatore ha
+  copia netta, Λ, contatto e D insieme entro l'intervallo: Λ di E2 0,360 e copia netta di P2 0,174 restano fuori).
+- **In parole semplici:** tre correzioni al quadro di ieri. La forma "sbagliata" delle parole inventate dagli imitatori dipende quasi
+  tutta da quanto azzardano nello scegliere le lettere, non da qualcosa che non capiscono. Il Naibbe, un generatore pubblicato, è
+  prevedibile da vicino come il Voynich: la nostra misura lo dava "lontano" soprattutto per una misura dell'eco (Λ) molto variabile. E
+  il Voynich varia da una sua metà all'altra più di quanto la regola "al vero" ammetteva: molti "non arriva al vero" erano troppo
+  severi. Resta solido che il Voynich è più prevedibile da vicino di ogni lingua, con ogni trascrizione.
+- **Limiti:** parte 1 non leggibile; parte 4 con 3 semi per k90; Claston cambia anche la divisione delle parole; parte 5 senza giudici.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
