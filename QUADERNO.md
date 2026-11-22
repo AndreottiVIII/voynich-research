@@ -17417,3 +17417,35 @@ sul latino (dichiarato).
   severi. Resta solido che il Voynich è più prevedibile da vicino di ogni lingua, con ogni trascrizione.
 - **Limiti:** parte 1 non leggibile; parte 4 con 3 semi per k90; Claston cambia anche la divisione delle parole; parte 5 senza giudici.
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
+
+## 22/11/2026 (pomeriggio) — ia28 (IA28): nessuna delle tre famiglie di procedimenti "da scriba" è compatibile con il Voynich; il Naibbe vero ha bisogno dell'eco (p_eco 0,13) e, con l'eco, porta al vero il 76% delle misure tenute fuori, ma non eco, copia e famiglie; i giudici riconoscono tutti i libri delle famiglie
+
+Preregistrato (`preregistrazioni/ia28.md`, commit 672706c; codice 382b701 con `abc_*.py`; variabili in `esegui.py` 35da825). Nasce dalla
+revisione esterna (proposta C3) e dalla proposta 3 del coordinatore; preparato da un agente, controllato e lanciato dal
+coordinatore. Corsa: coda `ia_N`, 6 processi, 11:41–15:24 (223 minuti), uscita 0. Risultati in `risultati/ia28_abc_procedimenti.{md,json}`.
+Aggancio al righello di IA26 non usato (più moduli `righello_*`: il codice lo salta per costruzione).
+
+- **Disegno:** tre famiglie con a priori fissati: CV copia e varia (autocitazione alla Timm–Schinner generalizzata, 8 parametri), NB il
+  Naibbe vero più eco di pagina (3), VT verboso più eco più bordi (5). ABC con foreste casuali (scelta della famiglia e parametri) su 29
+  statistiche classiche di quarti del libro, 20.000 testi per famiglia; verifica predittiva; 21 misure tenute fuori e giudici su libri
+  interi scritti dalla posteriore.
+- **Controlli:** C1, C2, C3 riusciti per tutte le famiglie (famiglia ritrovata 1,00; coperture 0,86–0,95); negativi riusciti (latino e
+  testo rimescolato: una famiglia è preferita ma non compatibile). Parametro non stimabile: b_pos di CV. **Giudici:** e231 ed e266 validi;
+  **K non valido** (negativo 0,571, fuori banda): la colonna K non si legge.
+- **L1: nessuna famiglia compatibile.** Il NB è preferito (probabilità 0,86, 4 quarti su 4) ma non passa la verifica predittiva in
+  nessun quarto (mancate: lunghezza media e dispersione delle parole, ultimo glifo, contatto, vicini, bordi); il più vicino in scarto
+  medio è VT (rms z 13,9; NB 32,3; CV 18,7).
+- **L2, parametri** (mediana e intervallo al 90%): CV: parola nuova 0,114, scala della sorgente 1,5 righe (1,1–1,9), copia lontana 0,30
+  (al bordo dell'a priori), ritocco 0,50, peso del contatto 2,4; NB: eco 0,129 (0,065–0,170), quota di tema 0,44; VT: 3 tavole, eco
+  0,20, tema 0,21.
+- **L5: il Naibbe vero ha bisogno dell'eco** (limite basso di p_eco 0,065, sopra 0,05).
+- **L3, misure tenute fuori al vero:** NB 76% (16 su 21; mancate copia netta, Λ, ρ, G9, D); VT 48%; CV 19% (mancano anche k90, GL, GR, R_rel).
+- **L4, contro il v21:** NB più vicino su 3 misure, uguale su 10, più lontano su 8; VT 1/8/12; CV 0/5/16.
+- **L6, giudici:** e231 ed e266 riconoscono tutti i libri delle famiglie (AUC 1,000), mentre il v21 regge (0,552/0,601).
+- **In parole semplici:** abbiamo provato tre "ricette da scriba" regolandone i numeri per somigliare al Voynich. Nessuna ci riesce
+  davvero: la più vicina, il Naibbe con un po' di eco, rifà bene la prevedibilità da vicino e molte statistiche, ma non l'eco della
+  pagina, le famiglie di parole e la lunghezza delle parole, e i giudici la riconoscono sempre. Un'indicazione utile: l'eco serve, perché
+  il Naibbe senza eco è escluso.
+- **Limiti:** famiglie omogenee contro un testo eterogeneo (lingue, sezioni, mani); statistiche di sintesi e misure tenute fuori
+  imparentate per l'eco; K non valido in questa corsa.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione (6 processi invece di 8).
