@@ -525,7 +525,8 @@ def letture_parte1(V):
                 x, y = np.array(medie[a]), np.array(medie[b])
                 ok = ~(np.isnan(x) | np.isnan(y))
                 B4['%s~%s' % (a, b)] = float(spearmanr(x[ok], y[ok])[0]) if ok.sum() > 3 else None
-    nuovi = [B4.get('K~N'), B4.get('KN~K')]
+    # correzione del 22/11 dopo la preregistrazione: la chiave e' 'K~KN' (prima si cercava 'KN~K', che non esiste)
+    nuovi = [B4.get('K~N', B4.get('N~K')), B4.get('K~KN', B4.get('KN~K'))]
     B4['concordano_con_K'] = bool(all(x is not None and x >= 0.7 for x in nuovi))
     B4['gruppi'] = len(gruppi)
     return OrderedDict(B3=B3, B4=B4)
