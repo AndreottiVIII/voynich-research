@@ -17339,3 +17339,38 @@ sull'eco locale resta 0,70 anche se P1 nella prova stava a 0,55 (P1 si legge con
   aggiungere l'eco o ne mette troppo o rompe il legame: il Voynich dosa le due cose in un modo che nessuno dei nostri imitatori trova.
 - **Limiti:** P1 con sensibilità non provata; fase 0 con controlli non riusciti; candidati senza limite di numero; 10 libri per tipo.
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
+
+## 22/11/2026 (mattina presto) — ia24 (IA24): nessun imitatore porta al vero la forma delle parole nuove; le parole nuove del Voynich non sono più "ritocchi del lessico" di quelle degli imitatori; lo scarto sta nel secondo e terzo glifo, più regolari nel vero
+
+Preregistrato (`preregistrazioni/ia24.md`, commit 57bdb8e; codice b058f36 con `nuove_modelli.py`, `nuove_fase0.py`,
+`nuove_prove.py`; variabili in `esegui.py` 6ad74d8). Deciso dal coordinatore nella notte autonoma (Davide: "fai il passo dopo in
+autonomia"), perché la forma delle parole nuove non era mai al vero in IA20–IA23; preparato da un agente, controllato e lanciato.
+Corsa: coda `ia_L`, 8 processi, 03:23–05:44 (141 minuti), uscita 0. Risultati in `risultati/ia24_parole_nuove.{md,json}` e
+`risultati/ia24_corse.jsonl`.
+
+- **Disegno:** imitatori sulla GRU di M1: W1 la parola nuova come ritocco (1 o 2 modifiche) di una parola del lessico di
+  addestramento, scelta con la frequenza e col contatto (come E2); W2 = W1 + il puntatore di pagina di E2; W3 la GRU con un esperto a
+  caselle (8 caselle, porta imparata). Riferimenti M1, M5 (ia20), E2 (ia22) dalla cache. Fase 0 sulle parole nuove (fogli tenuti fuori
+  contro il lessico dei fogli di addestramento).
+- **Controlli:** giudici riusciti. Sensibilità: **W2 provata**; **W1 non provata** (guadagno sulle parole piantate 0,097, soglia 0,100;
+  nella prova sul latino 0,18); **W3 non provata** (sul testo a caselle peggio di M1 di 0,068). Controlli della fase 0 riusciti
+  (ritocco 0,792 ± 0,007, caselle 1,858 ± 0,020: "presente"). Criteri di sensibilità fissati dopo le prove su testi non Voynich
+  (dichiarato).
+- **L1: nessun imitatore porta il costo di forma al vero** (vero 3,479; W1 3,671, W2 3,745, W3 3,755, M5 3,697, M1 3,746, E2 3,817; v21
+  3,661). Nessuno con forma, contatto, D e parole nuove insieme al vero.
+- **L2:** W1 "corregge ma rompe" (avvicina la forma e K; rompe contatto 0,161, D 0,133, quota di parole nuove 0,130, copia netta); W2
+  "corregge ma rompe" (copia netta e parole nuove; rompe contatto, D, bordi, K); W3 "rompe".
+- **L3, contro il v21:** tutti più lontani sui giudici del paper. **W1: "solo K scende"** (K 0,664 contro 0,766 del v21, il valore più
+  basso finora di un imitatore; A 0,602): possibile giudice amico (K e W1 si appoggiano alle parole già viste), non vale come sì.
+- **L4, fase 0: esito "zona grigia".** Ipotesi "ritocco del lessico" **assente**: le parole nuove del vero sono a una modifica da una
+  parola nota nell'83% dei casi, come quelle di M1 (84%) ed E2 (85%); il v21 meno (74%). Ipotesi "caselle": zona grigia (0,055 ±
+  0,020). **Dove nasce lo scarto** (costo di forma scomposto, vero contro M1): primo glifo 0,662 contro 0,690, **secondo 0,523 contro
+  0,607, terzo 0,620 contro 0,698**, dal quarto 1,552 contro 1,620, fine parola 0,121 contro 0,131: circa tre quinti dello scarto (0,16 bit su 0,27) stanno
+  nel secondo e terzo glifo, più regolari nelle parole nuove vere.
+- **Copia a memoria:** nessuna.
+- **In parole semplici:** abbiamo provato a far nascere le parole nuove ritoccando parole già note, o seguendo una "griglia" di
+  caselle. Nessuna delle due strade dà parole nuove con la forma giusta. E guardando il Voynich vero si vede che le sue parole nuove
+  non sono più "ritocchi" di quelle inventate dalla rete: la differenza sta nelle lettere subito dopo la prima, che nel Voynich sono
+  più regolari, più prevedibili.
+- **Limiti:** W1 e W3 con sensibilità non provata; la misura di forma è quella di ia20 (un solo modello di forma); 10 libri per tipo.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.

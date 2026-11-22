@@ -64,6 +64,9 @@ come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
   varianti d'eco non cambiano l'inizio per agganciarsi alla parola prima (fase 0: regola assente).
 - 22/11 notte: **IA23** riprendere da tutta la pagina porta Lambda al vero (P2) o il tema di pagina (P1, P3), ma la copia
   supera il vero e il contatto si rompe; nessuno con eco, legame e G9 insieme; K riconosce i P piu' degli E.
+- 22/11 mattina: **IA24** nessun imitatore porta al vero la forma delle parole nuove (migliore W1 3,67, vero 3,48); le
+  parole nuove vere non sono piu' ritocchi del lessico di quelle della rete; lo scarto sta nel secondo e terzo glifo; W1 fa
+  scendere solo K (0,664: giudice amico).
 - 20/11: **IA6 in standby** finché Davide non fa l'accesso (si fa solo al PC). IA4, IA5, IA7 in corso dalle 13:30.
 - **Azione per Davide:** accesso del programma `claude` da riga di comando (`strumenti/Accesso claude.bat`, serve
   all'IA6).
