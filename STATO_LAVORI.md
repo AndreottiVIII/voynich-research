@@ -79,6 +79,9 @@ come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
 - 22/11 pomeriggio: **IA29** lettura preregistrata 'legame presente' fra disegni e vocabolario (r 0,045, doppio di un
   erbario vero), ma fragile: cornice vuota p 0,063, immagini IIIF non significative, erbario da solo no: dipendenza residua
   di origine non stabilita, non contenuto.
+- 22/11 sera: **IA30** negli imitatori il contatto passa dalle ultime due lettere (circa 80%), l'eco da quali parole sono
+  nella riga sopra; negativo 'senza regola' non riuscito (sensibilita' generica). **IA31** la macchina minima delle parole del
+  Voynich ha 16-24 stati, come lingue e cifrari; le caselle non bastano. In corso: IA26 (mondi tec e calibrato, poi sintesi).
 - 20/11: **IA6 in standby** finché Davide non fa l'accesso (si fa solo al PC). IA4, IA5, IA7 in corso dalle 13:30.
 - **Azione per Davide:** accesso del programma `claude` da riga di comando (`strumenti/Accesso claude.bat`, serve
   all'IA6).

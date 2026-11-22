@@ -17522,3 +17522,60 @@ Risultati in `risultati/ia29_immagini_vocabolario.{md,json}` (solo numeri). Alcu
 - **Limiti:** 178 pagine (potenza del 53% per un legame alla forza dell'erbario); zodiaco ed etichette esclusi; un solo tipo di legame
   piantato; licenza delle immagini Beinecke da ricontrollare (uso di ricerca, mai ridistribuite).
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione (fasi in due tappe come previsto; VS con 4 processi).
+
+## 22/11/2026 (sera) — ia30 (IA30): dentro gli imitatori il contatto passa dalle ultime lettere della parola prima (circa 80% dell'effetto della parola intera), l'eco dalle parole della riga sopra (non dal loro ordine), la fine riga dalla posizione; ma anche i modelli senza regola piantata reagiscono all'ultima lettera: "causale" vale per l'imitatore, il legame col Voynich è indiretto
+
+Preregistrato (`preregistrazioni/ia30.md`, commit 971145a; codice 74c100f con `interventi_*.py`; variabili in `esegui.py` a5b1de3). Nasce
+dalla revisione esterna (proposta C5) e dalla proposta 2 del coordinatore; preparato da un agente, controllato e lanciato dal
+coordinatore. Soglie cambiate dopo la prova a taglia vera sul latino (dichiarato). Corsa: coda `ia_R`, 8 processi, 16:21–20:41 (260
+minuti), uscita 0. Risultati in `risultati/ia30_interventi_causali.{md,json}` e `risultati/ia30_corse.jsonl`.
+
+- **Disegno:** imitatori già addestrati (M1, M5 di ia20; E2 di ia22), mai riaddestrati. Interventi con coppie minime di parole vere
+  (ultima lettera, ultime due, penultima, terzultima, interna, prima, parola intera), sulla riga sopra (rimescolata, di un'altra riga
+  della pagina, di un'altra pagina, lontana) e sulla testa di riga; scambio di stati; libri scritti sotto intervento.
+- **Controlli positivi** (testo sintetico a regole note alla forza del vero, 5 semi): per M1 validate tutte le coppie del contatto e
+  della fine riga, **non** quelle dell'eco (M1 non impara l'eco, come in ia20: "non leggibile"); per E2 validate quasi tutte (penultima
+  lettera no, 3/5). Intervento nullo: zero esatto, libro identico. **Controllo negativo sui modelli senza regola: non riuscito** (l'ultima
+  lettera risulta "causale" anche dove non è stata piantata: rapporto 0,90–0,92): la sensibilità all'ultima lettera è in parte generica.
+- **L1, contatto:** in M1, E2 e M5 cambiano la previsione l'ultima lettera e le ultime due (causale), non la prima, l'interna o la
+  terzultima (non causale); la parola due posti prima e il riempimento no. **L1b:** le ultime due lettere portano l'81% (M1), il 77% (E2) e
+  l'80% (M5) dell'effetto della parola intera, la prima lettera il 16–17%: "zona grigia" sulla sufficienza.
+- **L2, eco (E2; M5 senza controllo):** cambiare **quali** parole stanno nella riga sopra (riga di un'altra pagina o della stessa) conta
+  (causale); rimescolarne l'ordine o cambiare una riga lontana no.
+- **L3, bordi:** la posizione nella riga decide la fine riga (causale in tutti).
+- **L4, ordine delle famiglie nei libri:** sparisce cambiando la parola prima; cala in parte cambiando le ultime due lettere; resta
+  cambiando la prima lettera (M1).
+- **L5, dove sta l'informazione:** nel secondo strato della GRU (76–80% dell'effetto della parola prima), diffusa sulle dimensioni come
+  nel controllo; per l'eco di E2 lo stato porta poco (58%) e passa dai candidati del puntatore.
+- **In parole semplici:** aprendo gli imitatori si vede che, per scrivere l'inizio di una parola, guardano soprattutto le ultime due
+  lettere della parola prima; per l'eco guardano quali parole ci sono nella riga sopra, non il loro ordine. Però un imitatore reagisce
+  all'ultima lettera anche quando nel testo di prova non c'era nessuna regola: questo dice come funzionano gli imitatori, e solo
+  indirettamente come funziona il Voynich.
+- **Limiti:** negativo "senza regola" non riuscito; M5 senza controlli; eco di M1 non leggibile; l'imitatore non è il manoscritto.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
+
+## 22/11/2026 (sera) — ia31 (IA31): la "macchina" più piccola che genera le parole del Voynich ha 16–24 stati, come quelle delle lingue e della maggior parte dei cifrari; una grammatica a caselle non basta; metà dello scarto del secondo e terzo glifo degli imitatori sta dentro la grammatica del vero
+
+Preregistrato (`preregistrazioni/ia31.md`, commit 75f8729; codice 030ec38 con `automa_*.py`; variabili in `esegui.py` a25289f). Nasce dalla
+revisione esterna (proposta C4) e dalla proposta 4 del coordinatore; preparato da un agente, controllato e lanciato dal
+coordinatore. Soglie e disegno rivisti dopo le prove su testi non Voynich (dichiarato). Nota: IA25 aveva già mostrato che lo scarto di
+forma degli imitatori è in gran parte un effetto della temperatura. Corsa: coda `ia_R`, 8 processi, 20:41–21:53 (72 minuti), uscita 0.
+Risultati in `risultati/ia31_automa_minimo.{md,json}` e `risultati/ia31_corse.jsonl`.
+
+- **Disegno:** automi probabilistici (HMM) sulle parole, liberi e "a caselle", stimati con EM sulle pieghe di ia07, taglia scelta con
+  il BIC; due pesi (P = frequenza nel testo, D = una volta per parola distinta).
+- **Controlli (tutti riusciti):** positivo di taglia 8/8; negativo con glifi rimescolati (il guadagno sulle parole nuove crolla); positivo
+  dello scarto.
+- **L1, taglia del vero:** 24 stati (peso P) e 16 (peso D), con un pianoro della curva fuori piega; costo delle parole nuove 3,455 (P),
+  come il trigramma (3,479). **Le caselle non bastano** (servono 32 stati e il costo peggiora con P).
+- **L2, scarto del secondo e terzo glifo:** per M1 ed E2 l'automa del vero spiega circa metà dello scarto visto dal trigramma (rapporto
+  0,48–0,62, "in parte"); per v21 e W1 il trigramma non vede scarto.
+- **L3, il Voynich è più piccolo?** **No:** taglia simile (entro l'errore) a lingue, cifrari nel complesso, Naibbe, Timm–Schinner, v21 e
+  imitatori; più grande dei cifrari C e P.
+- **L4, parole nuove fuori grammatica:** 6–8% delle parole nuove dei libri sopra il 95° percentile del vero (v21, M1, E2, W1): zona grigia.
+- **In parole semplici:** la "macchina" più piccola capace di produrre le parole del Voynich non è più semplice di quella di una lingua
+  vera: ha più o meno lo stesso numero di stati. Uno schema a caselle fisse non basta a descriverla. La regolarità delle parole del
+  Voynich non viene da una grammatica di parola particolarmente piccola.
+- **Limiti:** confronto fra alfabeti di dimensione diversa non normalizzato; pavimento di fattore 2 tarato su un solo caso; grammatiche
+  pubblicate non riprodotte.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
