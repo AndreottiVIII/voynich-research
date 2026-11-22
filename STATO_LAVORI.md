@@ -73,6 +73,9 @@ come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
   diventano si'; parte sulla sezione non leggibile. In corso IA26 e IA28; in coda IA27, IA30, poi IA29, IA31.
 - 22/11 pomeriggio: **IA28** nessuna famiglia di procedimenti compatibile; il Naibbe vero ha bisogno dell'eco e con l'eco
   porta al vero il 76% delle misure tenute fuori (non eco, copia, famiglie); giudici del paper li vedono tutti (AUC 1).
+- 22/11 pomeriggio: **IA27** modello a cinque sorgenti peggio delle reti di 0,13-0,15 bit/segno; sorgenti: sezione 40%,
+  inventate 28%, lessico 22%, ricopiate al piu' 8-11%; contatto e sezione contano piu' della ricopiatura; si ricopiano parole
+  frequenti, appena scritte o circa nella stessa posizione della riga sopra; libri del modello riconosciuti da tutti.
 - 20/11: **IA6 in standby** finché Davide non fa l'accesso (si fa solo al PC). IA4, IA5, IA7 in corso dalle 13:30.
 - **Azione per Davide:** accesso del programma `claude` da riga di comando (`strumenti/Accesso claude.bat`, serve
   all'IA6).

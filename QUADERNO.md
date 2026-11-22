@@ -17449,3 +17449,39 @@ Aggancio al righello di IA26 non usato (più moduli `righello_*`: il codice lo s
 - **Limiti:** famiglie omogenee contro un testo eterogeneo (lingue, sezioni, mani); statistiche di sintesi e misure tenute fuori
   imparentate per l'eco; K non valido in questa corsa.
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione (6 processi invece di 8).
+
+## 22/11/2026 (pomeriggio) — ia27 (IA27): un modello esplicito a cinque sorgenti spiega il Voynich peggio delle reti di 0,13–0,15 bit per segno; il vocabolario di sezione e il contatto contano, la ricopiatura poco (R+P al più 8–11% delle parole); si ricopiano parole frequenti, soprattutto dalle parole subito prima e da circa la stessa posizione della riga sopra; i libri del modello sono riconosciuti da tutti i giudici
+
+Preregistrato (`preregistrazioni/ia27.md`, commit 3dca371; codice 23772e9 con `sorgenti_*.py`; variabili in `esegui.py` 6ccf3eb). Nasce dalla
+revisione esterna (proposta C2) e dalla proposta 3 del coordinatore; preparato da un agente, controllato e lanciato dal
+coordinatore. Dichiarati nella preregistrazione: un'occhiata involontaria dell'agente a una curva di validazione di M1 prima della
+soglia L7; autocoerenza fallita già sul latino. Corsa: coda `ia_O`, 8 processi, 15:25–16:02 (37 minuti), uscita 0. Risultati in
+`risultati/ia27_modello_sorgenti.{md,json}` e `risultati/ia27_corse.jsonl`.
+
+- **Disegno:** ogni parola viene da una sorgente nascosta: L lessico generale, S lessico di sezione e lingua, F parola inventata dal
+  modello di forma, R riga in corso o riga sopra (con ritocco), P resto della pagina; contatto sul primo glifo per le sorgenti fresche.
+  EM sui fogli di addestramento con le pieghe di ia07; circa 1.450 parametri (1.260 nella tabella del contatto). Versioni che tolgono un
+  pezzo alla volta; libri scritti dal modello.
+- **Controlli dello strumento:** negativo (parole rimescolate fra pagine) riuscito; positivi a forza debole, media e forte riusciti
+  (4/5, 5/5, 5/5); latino riuscito; **autocoerenza non riuscita** (il modello, rileggendo i propri libri, trova 7–8 volte più
+  guadagno di copia del vero): le quote di copia sono **limiti alti**. Giudici validi (paper e K).
+- **Bit per segno fuori piega:** modello pieno 2,078 contro le reti 1,92–1,95 (ia07 1,948; M1 1,940; E2 1,951): **peggio di 0,13–0,15**, oltre
+  la soglia 0,10. Bigramma di parole 2,231. Togliendo un pezzo: senza contatto +0,047, senza sezione +0,028, senza ricopiatura +0,013,
+  senza R +0,004, senza P +0,008, solo lessico +0,098.
+- **Quote delle sorgenti** (intervallo al 95%): L 0,22 [0,19; 0,26], **S 0,40 [0,35; 0,46]**, F 0,28 [0,26; 0,29], **R 0,034 [0,030; 0,039], P
+  0,062 [0,054; 0,071]** (R+P 0,084–0,109, limite alto). Lingua A e B simili (R 0,045 e 0,029). Togliere la sorgente di sezione cambia
+  R+P di 0,037: **parte dell'"eco" era vocabolario di sezione**.
+- **Come si ricopia:** il 64% delle ricopiature dalla riga è una parola uguale; i ritocchi più frequenti tolgono un glifo (19%). Le
+  distanze più usate sono **1–2 parole prima nella stessa riga** e **6–12 parole prima nella riga sopra** (cioè all'incirca la stessa
+  posizione della riga sopra); dal resto della pagina il 44% viene da 7 o più righe sopra. **Si ricopiano soprattutto parole frequenti**
+  (rapporto rare/frequenti 0,14).
+- **Libri del modello:** tutti i giudici li riconoscono (e231 0,996, e266 1,000, K 0,945); copia netta 0,41 contro 0,11 (il modello
+  ricopia troppo, come detto dall'autocoerenza), D 0,048 contro 0,144, G9 0,013 contro 0,040, bordi lontani. Forma delle parole nuove
+  al vero (3,488 contro 3,479). **Nessuna versione ha eco e legame insieme al vero.** Tutte più lontane del v21.
+- **In parole semplici:** un modello scritto in chiaro, con poche regole, descrive il Voynich peggio delle reti, ma dice in numeri da
+  dove vengono le parole: circa due su cinque dal vocabolario tipico della sezione, una su quattro inventate, e al massimo una su dieci
+  ricopiate dalla stessa pagina. Quando ricopia, lo scriba (o il procedimento) riprende soprattutto parole comuni, appena scritte o
+  scritte più o meno nello stesso punto della riga sopra. Il legame fra parole conta più della ricopiatura. Come generatore, però, il
+  modello è pessimo: ricopia troppo e i giudici lo riconoscono sempre.
+- **Limiti:** autocoerenza fallita (quote di copia come limiti alti); L, S, F poco separabili fra loro; libri non realistici.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
