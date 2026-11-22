@@ -76,6 +76,9 @@ come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
 - 22/11 pomeriggio: **IA27** modello a cinque sorgenti peggio delle reti di 0,13-0,15 bit/segno; sorgenti: sezione 40%,
   inventate 28%, lessico 22%, ricopiate al piu' 8-11%; contatto e sezione contano piu' della ricopiatura; si ricopiano parole
   frequenti, appena scritte o circa nella stessa posizione della riga sopra; libri del modello riconosciuti da tutti.
+- 22/11 pomeriggio: **IA29** lettura preregistrata 'legame presente' fra disegni e vocabolario (r 0,045, doppio di un
+  erbario vero), ma fragile: cornice vuota p 0,063, immagini IIIF non significative, erbario da solo no: dipendenza residua
+  di origine non stabilita, non contenuto.
 - 20/11: **IA6 in standby** finché Davide non fa l'accesso (si fa solo al PC). IA4, IA5, IA7 in corso dalle 13:30.
 - **Azione per Davide:** accesso del programma `claude` da riga di comando (`strumenti/Accesso claude.bat`, serve
   all'IA6).

@@ -17485,3 +17485,40 @@ soglia L7; autocoerenza fallita già sul latino. Corsa: coda `ia_O`, 8 processi,
   modello è pessimo: ricopia troppo e i giudici lo riconoscono sempre.
 - **Limiti:** autocoerenza fallita (quote di copia come limiti alti); L, S, F poco separabili fra loro; libri non realistici.
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
+
+## 22/11/2026 (pomeriggio) — ia29 (IA29): lettura preregistrata "legame presente" fra disegni e vocabolario delle pagine (r 0,045, circa il doppio di un erbario vero), ma fragile: i soli margini delle pagine ne mostrano quasi metà (p 0,063, appena sopra la soglia), con le immagini IIIF non è significativo e dentro il solo erbario nemmeno; si legge come "dipendenza residua", non come contenuto
+
+Preregistrato (`preregistrazioni/ia29.md`, commit d8934dd; codice b906803 con `immagini_*.py` e `requirements_ia29.txt`; variabili in
+`esegui.py` ec70b28). Nasce dalla revisione esterna (proposta C6) e dalla proposta 6 del coordinatore; preparato da un agente,
+controllato e lanciato dal coordinatore a due tappe come previsto: fasi E, K, N, P (coda `ia_R`, 16:02–16:21, uscita 0, ETICHETTA eknp),
+poi, letti i controlli, fasi V e S (coda `ia_S`, 16:22–16:23, uscita 0, ETICHETTA vs). Ambiente a parte `dati/cache/.venv_immagini`.
+Risultati in `risultati/ia29_immagini_vocabolario.{md,json}` (solo numeri). Alcune scelte fissate dopo le prove su testi non Voynich
+(dichiarate nella preregistrazione).
+
+- **Disegno:** 178 pagine con immagine e riquadri delle parole (erbario 116, ricette 25, biologia 19, farmacia 14, cosmologia 3,
+  astronomia 1); vettore visivo DINOv2 small in grigio con il testo coperto; vocabolario come distanza tf-idf; correlazione parziale
+  fra le due distanze sulle coppie di pagine dopo effetti fissi di sezione, lingua, mano, fascicolo, stesso bifoglio, posizione e
+  lunghezze; significatività per permutazioni cicliche dentro (fascicolo, sezione, lingua, mano).
+- **Controlli (tutti riusciti):** K positivo sull'erbario di Fuchs (1542, latino, pubblico dominio): rilevazione 0,93 a 240 unità, r
+  0,025; legame rilevato al 53% a 178 unità (la taglia del Voynich). N1 etichette rimescolate: rifiuti 0,06–0,07 (soglia 0,09). N2
+  latino nella disposizione del Voynich con i veri vettori: 1 rifiuto su 20.
+- **Potenza (P):** sul testo vero, legami piantati da q = 0,02 in su sono visti al 100%; già a q = 0 r = 0,045 (è il legame osservato).
+- **V, lettura principale:** **r = 0,045, p ciclica 0,0001** (libera 0,002), positivo togliendo una sezione alla volta (0,035–0,047);
+  **lettura preregistrata: "legame presente"**.
+  - Varianti: DINOv2 a colori 0,037 (p 0,003), DINOv2 a riquadri 0,038 (p 0,001), CLIP 0,036 (p 0,007): concordi.
+  - **Cornice vuota** (solo i margini, centro coperto): r 0,019, **p 0,063**: sopra la soglia 0,05 per poco; quasi metà del legame
+    passa anche dai margini (pergamena, macchie, scansione).
+  - **Immagini IIIF della Beinecke** (149 pagine, altra scansione): r 0,025, p 0,07: non significativo.
+  - **Dentro una sola sezione:** erbario (116 pagine) r 0,021, p 0,153; farmacia (25) r 0,019, p 0,52: non significativo.
+- **Come si legge:** la regola scritta prima dice "presente", ma l'agente aveva già scritto nella preregistrazione che nessun test su
+  covariate osservate separa una causa comune nascosta (sessione di scrittura, conservazione, scansione) da un legame di contenuto, e
+  che nella prova sintetica una deriva lenta residua faceva rifiutare nel 50% dei casi anche senza legame. Con la cornice vuota al
+  limite, la variante IIIF non significativa e l'erbario da solo non significativo, l'esito va letto come **dipendenza residua fra
+  aspetto della pagina e vocabolario, di origine non stabilita**. Non è una decifrazione e non dice che cosa significano le parole.
+- **In parole semplici:** pagine che si somigliano nell'aspetto tendono a usare parole un po' più simili, anche tenendo conto di
+  sezione, mano e fascicolo, e più di quanto faccia un erbario vero. Ma una parte di questa somiglianza c'è anche guardando solo i
+  bordi delle pagine, con un'altra scansione sparisce, e dentro l'erbario da solo non si vede: può venire da come e quando le pagine
+  sono state scritte o conservate, non dai disegni.
+- **Limiti:** 178 pagine (potenza del 53% per un legame alla forza dell'erbario); zodiaco ed etichette esclusi; un solo tipo di legame
+  piantato; licenza delle immagini Beinecke da ricontrollare (uso di ricerca, mai ridistribuite).
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione (fasi in due tappe come previsto; VS con 4 processi).

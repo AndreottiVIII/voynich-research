@@ -1,0 +1,28 @@
+16:02:06 ia29 Voynich fasi EKNP processi 8
+16:03:11 pagine del campione 178 unita del controllo 326
+16:05:19 K dino_grigio_cls OrderedDict({'n': 240, 'r_mediana': 0.025094023235626005, 'rilevazioni_libera_001': 0.9333333333333333, 'rilevazioni_ciclica_001': 0.9, 'rilevazioni_libera_005': 1.0})
+16:05:42 K dino_colore_cls OrderedDict({'n': 240, 'r_mediana': 0.02504968843508805, 'rilevazioni_libera_001': 0.9333333333333333, 'rilevazioni_ciclica_001': 0.9, 'rilevazioni_libera_005': 1.0})
+16:06:04 K dino_grigio_patch OrderedDict({'n': 240, 'r_mediana': 0.02116051888200001, 'rilevazioni_libera_001': 0.8666666666666667, 'rilevazioni_ciclica_001': 0.8666666666666667, 'rilevazioni_libera_005': 0.9666666666666667})
+16:06:26 K clip_grigio_proj OrderedDict({'n': 240, 'r_mediana': 0.02731182085710551, 'rilevazioni_libera_001': 0.9666666666666667, 'rilevazioni_ciclica_001': 0.9666666666666667, 'rilevazioni_libera_005': 1.0})
+16:06:48 K puro OrderedDict({'r_mediana': 0.02311076789110713, 'rilevazioni_libera_001': 0.9666666666666667, 'rilevazioni_ciclica_001': 0.9666666666666667})
+16:07:14 K diluito 0,3 OrderedDict({'r_mediana': 0.017390340815965494, 'rilevazioni_libera_001': 0.7, 'rilevazioni_ciclica_001': 0.6666666666666666})
+16:07:39 K diluito 0,6 OrderedDict({'r_mediana': 0.005966655508947446, 'rilevazioni_libera_001': 0.06666666666666667, 'rilevazioni_ciclica_001': 0.1})
+16:08:05 K diluito 0,85 OrderedDict({'r_mediana': 0.0013201007353474056, 'rilevazioni_libera_001': 0.06666666666666667, 'rilevazioni_ciclica_001': 0.03333333333333333})
+16:08:29 K omofoni 3 OrderedDict({'r_mediana': 0.012685019195974707, 'rilevazioni_libera_001': 0.4, 'rilevazioni_ciclica_001': 0.36666666666666664})
+16:08:58 K omofoni 3 e diluito 0,5 OrderedDict({'r_mediana': 0.004808979672562573, 'rilevazioni_libera_001': 0.1, 'rilevazioni_ciclica_001': 0.13333333333333333})
+16:09:00 K N 60 OrderedDict({'r_mediana': 0.013482439929657378, 'rilevazioni_libera_001': 0.0, 'sottocampioni': 30})
+16:09:04 K N 120 OrderedDict({'r_mediana': 0.023108414660492505, 'rilevazioni_libera_001': 0.26666666666666666, 'sottocampioni': 30})
+16:09:15 K N 178 OrderedDict({'r_mediana': 0.020276670413935764, 'rilevazioni_libera_001': 0.5333333333333333, 'sottocampioni': 30})
+16:09:44 K N 240 OrderedDict({'r_mediana': 0.0224255833694686, 'rilevazioni_libera_001': 0.9, 'sottocampioni': 30})
+16:09:58 K N 326 OrderedDict({'r_mediana': 0.02404978405116546, 'rilevazioni_libera_001': 1.0, 'sottocampioni': 7})
+16:13:10 N1 fuchs OrderedDict({'repliche': 200, 'rifiuti_005_ciclica': 0.07, 'rifiuti_005_libera': 0.065, 'rifiuti_001_ciclica': 0.015, 'r_media': 0.00013195514416135829})
+16:15:41 N1 voynich OrderedDict({'repliche': 200, 'rifiuti_005_ciclica': 0.06, 'rifiuti_005_libera': 0.055, 'rifiuti_001_ciclica': 0.02, 'r_media': 0.00036747266701940513})
+16:18:13 N2 latino OrderedDict({'repliche': 20, 'rifiuti_005': 1, 'rifiuti_001': 0, 'r_media': -0.002582313179548928})
+16:21:52 P 0.0 {'repliche': 100, 'r_mediana': 0.04459324643635998, 'potenza_001': 1.0, 'potenza_005': 1.0}
+16:21:52 P 0.02 {'repliche': 100, 'r_mediana': 0.046867965725000515, 'potenza_001': 1.0, 'potenza_005': 1.0}
+16:21:52 P 0.03 {'repliche': 100, 'r_mediana': 0.04991678330613708, 'potenza_001': 1.0, 'potenza_005': 1.0}
+16:21:52 P 0.05 {'repliche': 100, 'r_mediana': 0.057355028813694676, 'potenza_001': 1.0, 'potenza_005': 1.0}
+16:21:52 P 0.1 {'repliche': 100, 'r_mediana': 0.08896201945916296, 'potenza_001': 1.0, 'potenza_005': 1.0}
+16:21:52 P 0.2 {'repliche': 100, 'r_mediana': 0.16969845675233486, 'potenza_001': 1.0, 'potenza_005': 1.0}
+16:21:52 P 0.4 {'repliche': 100, 'r_mediana': 0.33147744119029543, 'potenza_001': 1.0, 'potenza_005': 1.0}
+16:21:52 fatto in 1186 s

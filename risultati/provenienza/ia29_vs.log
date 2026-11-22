@@ -1,0 +1,9 @@
+16:22:34 ia29 Voynich fasi VS processi 4
+16:22:43 pagine del campione 178 unita del controllo 326
+16:22:54 V dino_grigio_cls OrderedDict({'pagine': 178, 'coppie': 15753, 'r': 0.04459324643635998, 'p_ciclica': 0.0001, 'p_libera': 0.002, 'nulla_media': 0.0031882460426692293, 'nulla_sd': 0.011270390086414369})
+16:22:56 V dino_colore_cls OrderedDict({'pagine': 178, 'coppie': 15753, 'r': 0.03702743545713924, 'p_ciclica': 0.003, 'p_libera': 0.002, 'nulla_media': 0.002360689031889025, 'nulla_sd': 0.012017744948783413})
+16:22:59 V dino_grigio_patch OrderedDict({'pagine': 178, 'coppie': 15753, 'r': 0.03846521513537325, 'p_ciclica': 0.001, 'p_libera': 0.001, 'nulla_media': -0.00327888599649228, 'nulla_sd': 0.012168024439874612})
+16:23:01 V clip_grigio_proj OrderedDict({'pagine': 178, 'coppie': 15753, 'r': 0.03575563866248562, 'p_ciclica': 0.007, 'p_libera': 0.008, 'nulla_media': 0.006596652475940723, 'nulla_sd': 0.011916539200513403})
+16:23:04 V cornice OrderedDict({'pagine': 178, 'coppie': 15753, 'r': 0.019341788075676224, 'p_ciclica': 0.063, 'p_libera': 0.064, 'nulla_media': 0.0032333286825415313, 'nulla_sd': 0.010673251434801839})
+16:23:54 V iiif OrderedDict({'pagine': 149, 'r': 0.02476098598296882, 'p_ciclica': 0.07})
+16:23:56 fatto in 82 s
