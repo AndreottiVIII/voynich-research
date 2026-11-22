@@ -17579,3 +17579,38 @@ Risultati in `risultati/ia31_automa_minimo.{md,json}` e `risultati/ia31_corse.js
 - **Limiti:** confronto fra alfabeti di dimensione diversa non normalizzato; pavimento di fattore 2 tarato su un solo caso; grammatiche
   pubblicate non riprodotte.
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
+
+## 23/11/2026 (notte) — ia26 (IA26): sul righello comune il v21 è il testo più vicino al Voynich per tutti i giudici, anche i due nuovi; gli imitatori neurali restano "lontani" sui processi noti quanto sul Voynich (rapporto 1,05–1,32): molti verdetti di ia16–ia24 descrivono i limiti degli imitatori, non il Voynich; lettura formale non valida (controllo positivo su markov2 non riuscito)
+
+Preregistrato (`preregistrazioni/ia26.md`, commit 2b5955e; codice a032358 con `righello_*.py`; variabili in `esegui.py` becc99d). Nasce
+dalla revisione esterna (proposta C1) e dalla proposta 1 del coordinatore; preparato da un agente, controllato e lanciato dal
+coordinatore a tappe. Corse: tappa BC (coda `ia_Q`, 14:32–16:40, ETICHETTA bc); tappa T lanciata con `MONDI26=14`, **fermata dopo un
+minuto** dal coordinatore perché la calibrazione non era riuscita e la preregistrazione sposta allora la lettura principale sul mondo
+`tec`, che non era incluso; rilanciata con `MONDI26=134` (coda `ia_Q2`, 16:41–21:10, ETICHETTA t); sintesi (21:10–21:13, ETICHETTA s).
+Tutte uscita 0. Risultati in `risultati/ia26_righello_taratura.{md,json}` e `risultati/ia26_corse_*.jsonl`.
+**Deviazione dichiarata:** il 22/11, guardando una sintesi provvisoria in una cartella temporanea, il coordinatore ha trovato un errore
+nella lettura descrittiva B4 (cercava la chiave `KN~K` invece di `K~KN`: "non concordano" con ρ 0,89 e 0,99) e l'ha corretto prima della
+sintesi finale (commit 990b9f9). Nessun'altra lettura ne dipende.
+
+- **Banco:** 11 misure (copia netta, Λ, contatto, D, G9, bordi, parole nuove, forma, k90, R_rel) e 6 giudici (e231, e266, K, A e i due
+  nuovi N e KN, mai usati da nessun generatore); 144 testi nella disposizione del vero; metro vero-contro-vero; distanza = media di
+  min(|z|, 6).
+- **Controlli:** negativi del catalogo riusciti; metro disponibile; gemelli dei tre mondi indistinguibili (fuori fascia 0,00, AUC
+  0,42–0,53). **Calibrazione non riuscita** (G9 lontano del 73%): mondo primario `tec`. **Controllo positivo non riuscito:** M1
+  addestrata su una catena di Markov di ordine 2 è riconosciuta dai giudici (e231 0,755, e266 0,754, K 0,850; soglia 0,60).
+- **Parte 1, catalogo (distanza dal vero):** **v21 1,90**; imitatori neurali 2,64–3,38 (ia16_P1 2,64, ia20_M3 2,67, ia24_W1 2,88 i
+  più vicini); Timm–Schinner 4,98; Naibbe 5,38; cifrari 5,11–5,93; lingue 5,59. Giudici nuovi: v21 N 0,599, KN 0,677; imitatori N
+  0,77–0,96, KN 0,68–0,85. Tutti i giudici mettono i testi quasi nello stesso ordine (ρ fra 0,87 e 0,99; **N e KN concordano con K**).
+- **B3, affermazioni precedenti rilette con la fascia:** "G9 mai al vero" e "forma mai al vero" non reggono per tutti (ia16_P1 e P2 dentro
+  la fascia); Λ fuori fascia solo per E0, E1, E3; nessun imitatore ha z più piccolo del v21 su e231 ed e266.
+- **Parte 2, taratura:** nei mondi di regola nota gli imitatori sono lontani quanto sul Voynich (rapporto mondo/Voynich: M1 1,05 su
+  markov2, 1,32 su tec; M5 1,19; E2 1,11; nel mondo calibrato 1,10–1,22). Tutti i giudici, nuovi compresi, li vedono in tutti i mondi
+  (z 2–10). **Esito formale: lettura non valida** (controllo positivo); descrittivo: "imitatori lontani nel mondo noto quanto sul
+  Voynich: M1, M5, E2; al vero nel mondo noto e lontani sul Voynich: nessuno".
+- **In parole semplici:** con un metro unico per tutti, il v21 resta il testo artificiale più simile al Voynich, anche per giudici mai
+  usati prima: non era solo questione di "giudici amici". E gli imitatori neurali vengono riconosciuti anche quando imitano testi di
+  cui conosciamo la regola, quanto quando imitano il Voynich: il difetto è nel modo in cui le reti imparano e scrivono, non in qualcosa
+  di speciale del Voynich.
+- **Limiti:** controllo positivo non riuscito (le letture della taratura non valgono formalmente); calibrazione non riuscita; pochi libri
+  per mondo (4); k90 e R_rel con poche divisioni.
+- **Deviazioni:** tappa T rilanciata con il mondo `tec` (come da preregistrazione dopo la calibrazione fallita); correzione B4.
