@@ -17306,3 +17306,36 @@ dal coordinatore. Corsa: coda `ia_J`, 8 processi, 18:40–20:58 (138 minuti), us
 - **Limiti:** candidati all'eco solo nella riga in corso e in quella sopra (come ia20); un solo modo per tipo; 10 libri per tipo;
   Λ è una misura di ia09 che dipende dalla distanza delle riprese.
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
+
+## 22/11/2026 (notte) — ia23 (IA23): riprendere parole da tutta la pagina porta al vero la quota locale dell'eco (P2) o il tema di pagina (P1, P3), ma la copia supera il vero e il contatto si rompe; nessun imitatore ha eco, legame e vocabolario della pagina insieme; K li riconosce più degli E
+
+Preregistrato (`preregistrazioni/ia23.md`, commit fcd3ad6; codice ec007c1 con `pagina_modelli.py`, `pagina_fase0.py`,
+`pagina_prove.py`; variabili in `esegui.py` 50bfa10). Scelta di Davide dopo IA22 ("Sì, prepara IA23"); preparato da un agente,
+controllato e lanciato dal coordinatore nella notte autonoma. Decisione del coordinatore prima del commit: la soglia di sensibilità
+sull'eco locale resta 0,70 anche se P1 nella prova stava a 0,55 (P1 si legge con riserva). Corsa: coda `ia_K`, 8 processi,
+23:46–01:40 (114 minuti), uscita 0. Risultati in `risultati/ia23_pagina_intera.{md,json}` e `risultati/ia23_corse.jsonl`.
+
+- **Disegno:** tre imitatori sulla GRU di M1 con candidati = tutti i tipi di parola già scritti nella pagina (pesi imparati per
+  distanza dell'ultima occorrenza, numero di occorrenze, frequenza nel manoscritto): P1 spinta sui segni (come E1), P2 puntatore
+  pesato dal contatto (come E2), P3 puntatore con inizio riscritto (come E3). Riferimenti M1, M5 (ia20), E1–E3 (ia22) dalla cache.
+- **Controlli:** giudici riusciti (come ia20). Sensibilità **provata per P2 e P3** (sul sintetico tema+eco+contatto imparano tema ed
+  eco senza perdere il contatto; E1–E3 non imparano il tema: il controllo vede la differenza); **P1 non provata** (eco locale 0,615,
+  soglia 0,70). **Controlli della fase 0 non riusciti** (testo "nulla": eccesso di tema 0,011 ± 0,003, zona grigia invece di
+  "assente"): le letture della fase 0 sul vero sono "non valide" (numeri descrittivi).
+- **L1: nessun imitatore con copia netta, Λ, contatto e D tutti al vero. L1b (anche G9): nessuno.**
+  - P2: **Λ al vero (0,207)**, ma copia netta 0,174 (vero 0,114), contatto 0,160, D 0,127, G9 0,023.
+  - P1 (con riserva): contatto 0,187 e D 0,140 al vero, G9 0,034 (il più alto fra gli imitatori, vero 0,040), ma copia netta 0,146 e
+    Λ 0,101.
+  - P3: contatto al vero (0,186), copia netta 0,228, Λ 0,240, D 0,132.
+- **L2, ogni P contro l'E di ia22:** tutti "corregge ma rompe": Λ si corregge in tutti; la copia netta va oltre il vero; P2 rompe anche
+  contatto e G9; tutti peggiorano su K.
+- **L3, contro il v21:** tutti più lontani; su K i P sono più riconoscibili degli E (0,811–0,829 contro 0,787–0,797; v21 0,766).
+- **L4, profilo di distanza (descrittivo; controlli falliti):** nel vero il 36% delle parole ha una ripresa a 0–1 righe e il 33% a 2
+  righe o più; eccesso di tema sul caso 0,068, eccesso locale 0,030. Il v21 ha un tema simile (0,064); M1 ed E0–E3 metà tema
+  (0,027–0,039); P1 e P3 lo raggiungono (0,072 e 0,070), P2 quasi (0,062).
+- **Copia a memoria:** nessuna.
+- **In parole semplici:** lasciando all'imitatore tutta la pagina da cui riprendere, l'eco arriva alla distanza giusta e compare il
+  "tema" di pagina, ma l'imitatore riprende troppo e, quando riprende, perde il legame fra parole. Ogni modo provato finora di
+  aggiungere l'eco o ne mette troppo o rompe il legame: il Voynich dosa le due cose in un modo che nessuno dei nostri imitatori trova.
+- **Limiti:** P1 con sensibilità non provata; fase 0 con controlli non riusciti; candidati senza limite di numero; 10 libri per tipo.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.

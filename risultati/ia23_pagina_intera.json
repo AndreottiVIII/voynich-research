@@ -1,0 +1,6379 @@
+{
+ "esperimento": "ia23",
+ "solo_controlli": false,
+ "versioni": {
+  "python": "3.12.10",
+  "torch": "2.15.0+cpu",
+  "numpy": "2.5.3",
+  "pagina": "pagina-1",
+  "echi": "echi-1",
+  "gradini": "gradini-1",
+  "sklearn": "1.9.1"
+ },
+ "errori": [],
+ "tipi": [
+  "P1",
+  "P2",
+  "P3"
+ ],
+ "modelli": [
+  {
+   "lavoro": "addestra|P1|0|0",
+   "tipo": "P1",
+   "piega": 0,
+   "replica": 0,
+   "parametri": 665518,
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "epoche": 25,
+   "epoca_scelta": 15,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.77696,
+   "bpc_validazione": 1.87812,
+   "bpc_fuori": 1.94944,
+   "scarto": 0.17248,
+   "appresi": {
+    "distanza": [
+     1.4477,
+     1.7363,
+     1.8813,
+     1.4984,
+     0.9416,
+     0.0602
+    ],
+    "occorrenze": [
+     -0.1028,
+     0.9464,
+     1.2226,
+     1.4949
+    ],
+    "frequenza": [
+     0.0,
+     0.4136,
+     0.6903,
+     0.7329,
+     0.2738,
+     0.612,
+     0.3699
+    ],
+    "beta": [
+     [
+      0.603,
+      0.4279,
+      0.3848,
+      0.0
+     ],
+     [
+      0.0,
+      0.2328,
+      0.3845,
+      0.0
+     ],
+     [
+      0.0527,
+      0.024,
+      0.0857,
+      0.0
+     ],
+     [
+      0.0,
+      0.2941,
+      0.1694,
+      0.0
+     ],
+     [
+      0.0,
+      0.0611,
+      0.1553,
+      0.0
+     ]
+    ]
+   },
+   "secondi": 1005.5
+  },
+  {
+   "lavoro": "addestra|P1|0|1",
+   "tipo": "P1",
+   "piega": 0,
+   "replica": 1,
+   "parametri": 665518,
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "epoche": 31,
+   "epoca_scelta": 21,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.6941,
+   "bpc_validazione": 1.88645,
+   "bpc_fuori": 1.94749,
+   "scarto": 0.25339,
+   "appresi": {
+    "distanza": [
+     1.4882,
+     1.7669,
+     1.9418,
+     1.5405,
+     0.8901,
+     0.0164
+    ],
+    "occorrenze": [
+     -0.2965,
+     0.9499,
+     1.3024,
+     1.8946
+    ],
+    "frequenza": [
+     0.0,
+     0.4011,
+     0.741,
+     0.7955,
+     0.1918,
+     0.6217,
+     0.2761
+    ],
+    "beta": [
+     [
+      0.6094,
+      0.4249,
+      0.3654,
+      0.0
+     ],
+     [
+      0.0,
+      0.249,
+      0.3722,
+      0.0
+     ],
+     [
+      0.0703,
+      0.0268,
+      0.0784,
+      0.0
+     ],
+     [
+      0.0,
+      0.3138,
+      0.1551,
+      0.0
+     ],
+     [
+      0.0,
+      0.073,
+      0.1725,
+      0.0
+     ]
+    ]
+   },
+   "secondi": 1026.3
+  },
+  {
+   "lavoro": "addestra|P1|1|0",
+   "tipo": "P1",
+   "piega": 1,
+   "replica": 0,
+   "parametri": 665518,
+   "pagine": [
+    147,
+    20,
+    40
+   ],
+   "epoche": 26,
+   "epoca_scelta": 16,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.73105,
+   "bpc_validazione": 1.92259,
+   "bpc_fuori": 1.994,
+   "scarto": 0.26295,
+   "appresi": {
+    "distanza": [
+     1.6107,
+     1.9561,
+     2.0461,
+     1.5558,
+     0.936,
+     -0.0775
+    ],
+    "occorrenze": [
+     -0.115,
+     0.8751,
+     1.1163,
+     1.6568
+    ],
+    "frequenza": [
+     0.0,
+     0.2537,
+     0.9021,
+     0.5105,
+     0.6073,
+     0.5547,
+     0.2879
+    ],
+    "beta": [
+     [
+      0.6034,
+      0.4396,
+      0.3633,
+      0.0
+     ],
+     [
+      0.0,
+      0.2632,
+      0.3547,
+      0.0
+     ],
+     [
+      0.0662,
+      0.0342,
+      0.0632,
+      0.0
+     ],
+     [
+      0.0,
+      0.3143,
+      0.1445,
+      0.0
+     ],
+     [
+      0.0,
+      0.07,
+      0.1592,
+      0.0
+     ]
+    ]
+   },
+   "secondi": 1109.0
+  },
+  {
+   "lavoro": "addestra|P1|1|1",
+   "tipo": "P1",
+   "piega": 1,
+   "replica": 1,
+   "parametri": 665518,
+   "pagine": [
+    147,
+    20,
+    40
+   ],
+   "epoche": 23,
+   "epoca_scelta": 13,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.78212,
+   "bpc_validazione": 1.93926,
+   "bpc_fuori": 2.00793,
+   "scarto": 0.22581,
+   "appresi": {
+    "distanza": [
+     1.6002,
+     1.9048,
+     2.0235,
+     1.6078,
+     1.0578,
+     0.0596
+    ],
+    "occorrenze": [
+     0.0439,
+     0.9537,
+     1.1681,
+     1.4497
+    ],
+    "frequenza": [
+     0.0,
+     0.28,
+     0.9105,
+     0.5255,
+     0.6294,
+     0.6279,
+     0.4004
+    ],
+    "beta": [
+     [
+      0.6057,
+      0.4301,
+      0.3693,
+      0.0
+     ],
+     [
+      0.0,
+      0.2348,
+      0.3631,
+      0.0
+     ],
+     [
+      0.0562,
+      0.0366,
+      0.0556,
+      0.0
+     ],
+     [
+      0.0,
+      0.2439,
+      0.1669,
+      0.0
+     ],
+     [
+      0.0,
+      0.0135,
+      0.1844,
+      0.0
+     ]
+    ]
+   },
+   "secondi": 906.4
+  },
+  {
+   "lavoro": "addestra|P1|2|0",
+   "tipo": "P1",
+   "piega": 2,
+   "replica": 0,
+   "parametri": 665518,
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "epoche": 22,
+   "epoca_scelta": 12,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.81759,
+   "bpc_validazione": 1.92103,
+   "bpc_fuori": 1.90545,
+   "scarto": 0.08786,
+   "appresi": {
+    "distanza": [
+     1.6641,
+     1.7632,
+     1.8265,
+     1.4385,
+     1.0336,
+     0.1946
+    ],
+    "occorrenze": [
+     0.1661,
+     1.022,
+     1.1243,
+     1.2389
+    ],
+    "frequenza": [
+     0.0,
+     0.3746,
+     0.6725,
+     0.6317,
+     0.6903,
+     0.675,
+     0.4102
+    ],
+    "beta": [
+     [
+      0.5511,
+      0.4002,
+      0.3669,
+      0.0
+     ],
+     [
+      0.0,
+      0.2602,
+      0.354,
+      0.0
+     ],
+     [
+      0.0647,
+      0.0066,
+      0.0679,
+      0.0
+     ],
+     [
+      0.0,
+      0.2628,
+      0.1693,
+      0.0
+     ],
+     [
+      0.0,
+      0.0368,
+      0.1577,
+      0.0
+     ]
+    ]
+   },
+   "secondi": 842.7
+  },
+  {
+   "lavoro": "addestra|P1|2|1",
+   "tipo": "P1",
+   "piega": 2,
+   "replica": 1,
+   "parametri": 665518,
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "epoche": 20,
+   "epoca_scelta": 10,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.83471,
+   "bpc_validazione": 1.93404,
+   "bpc_fuori": 1.91507,
+   "scarto": 0.08036,
+   "appresi": {
+    "distanza": [
+     1.6014,
+     1.6827,
+     1.7059,
+     1.3774,
+     1.075,
+     0.3622
+    ],
+    "occorrenze": [
+     0.269,
+     0.9591,
+     0.9841,
+     1.1294
+    ],
+    "frequenza": [
+     0.0,
+     0.3836,
+     0.6515,
+     0.6692,
+     0.6446,
+     0.6691,
+     0.4709
+    ],
+    "beta": [
+     [
+      0.5507,
+      0.389,
+      0.3825,
+      0.0
+     ],
+     [
+      0.0,
+      0.2581,
+      0.3622,
+      0.0
+     ],
+     [
+      0.072,
+      0.0288,
+      0.0812,
+      0.0
+     ],
+     [
+      0.0,
+      0.2412,
+      0.1771,
+      0.0
+     ],
+     [
+      0.0,
+      0.004,
+      0.1504,
+      0.0
+     ]
+    ]
+   },
+   "secondi": 730.1
+  },
+  {
+   "lavoro": "addestra|P1|3|0",
+   "tipo": "P1",
+   "piega": 3,
+   "replica": 0,
+   "parametri": 665518,
+   "pagine": [
+    146,
+    20,
+    41
+   ],
+   "epoche": 22,
+   "epoca_scelta": 12,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.80145,
+   "bpc_validazione": 1.89143,
+   "bpc_fuori": 1.90303,
+   "scarto": 0.10158,
+   "appresi": {
+    "distanza": [
+     1.6576,
+     1.7103,
+     1.8486,
+     1.5657,
+     1.0316,
+     0.1562
+    ],
+    "occorrenze": [
+     0.1703,
+     0.9312,
+     0.9482,
+     1.2919
+    ],
+    "frequenza": [
+     0.0,
+     0.2636,
+     0.7825,
+     0.5191,
+     0.3877,
+     0.7076,
+     0.5342
+    ],
+    "beta": [
+     [
+      0.5413,
+      0.4018,
+      0.3391,
+      0.0
+     ],
+     [
+      0.0,
+      0.2387,
+      0.338,
+      0.0
+     ],
+     [
+      0.0634,
+      0.0072,
+      0.0452,
+      0.0
+     ],
+     [
+      0.0,
+      0.2706,
+      0.1941,
+      0.0
+     ],
+     [
+      0.0,
+      0.0505,
+      0.1746,
+      0.0
+     ]
+    ]
+   },
+   "secondi": 854.3
+  },
+  {
+   "lavoro": "addestra|P1|3|1",
+   "tipo": "P1",
+   "piega": 3,
+   "replica": 1,
+   "parametri": 665518,
+   "pagine": [
+    146,
+    20,
+    41
+   ],
+   "epoche": 25,
+   "epoca_scelta": 15,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.76016,
+   "bpc_validazione": 1.89833,
+   "bpc_fuori": 1.91425,
+   "scarto": 0.15409,
+   "appresi": {
+    "distanza": [
+     1.5918,
+     1.8409,
+     1.9718,
+     1.6526,
+     1.0285,
+     0.0188
+    ],
+    "occorrenze": [
+     0.034,
+     0.9478,
+     0.9968,
+     1.4722
+    ],
+    "frequenza": [
+     0.0,
+     0.1767,
+     0.8012,
+     0.498,
+     0.3325,
+     0.755,
+     0.4289
+    ],
+    "beta": [
+     [
+      0.5568,
+      0.3951,
+      0.3418,
+      0.0
+     ],
+     [
+      0.0,
+      0.2454,
+      0.3397,
+      0.0
+     ],
+     [
+      0.0663,
+      0.0059,
+      0.034,
+      0.0
+     ],
+     [
+      0.0,
+      0.2929,
+      0.1739,
+      0.0
+     ],
+     [
+      0.0,
+      0.0809,
+      0.1715,
+      0.0
+     ]
+    ]
+   },
+   "secondi": 771.9
+  },
+  {
+   "lavoro": "addestra|P1|4|0",
+   "tipo": "P1",
+   "piega": 4,
+   "replica": 0,
+   "parametri": 665518,
+   "pagine": [
+    148,
+    19,
+    40
+   ],
+   "epoche": 22,
+   "epoca_scelta": 12,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.82681,
+   "bpc_validazione": 2.11669,
+   "bpc_fuori": 1.80289,
+   "scarto": -0.02392,
+   "appresi": {
+    "distanza": [
+     1.4977,
+     1.7966,
+     1.8346,
+     1.5908,
+     1.1431,
+     0.2242
+    ],
+    "occorrenze": [
+     0.2215,
+     0.9631,
+     1.0743,
+     1.2428
+    ],
+    "frequenza": [
+     0.0,
+     0.4063,
+     0.5106,
+     0.6982,
+     0.5455,
+     0.7292,
+     0.524
+    ],
+    "beta": [
+     [
+      0.5476,
+      0.3814,
+      0.3437,
+      0.0
+     ],
+     [
+      0.0,
+      0.2271,
+      0.3104,
+      0.0
+     ],
+     [
+      0.0754,
+      0.0279,
+      0.0616,
+      0.0
+     ],
+     [
+      0.0,
+      0.2366,
+      0.1762,
+      0.0
+     ],
+     [
+      0.0,
+      0.0709,
+      0.1534,
+      0.0
+     ]
+    ]
+   },
+   "secondi": 823.3
+  },
+  {
+   "lavoro": "addestra|P1|4|1",
+   "tipo": "P1",
+   "piega": 4,
+   "replica": 1,
+   "parametri": 665518,
+   "pagine": [
+    148,
+    19,
+    40
+   ],
+   "epoche": 26,
+   "epoca_scelta": 16,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.78413,
+   "bpc_validazione": 2.14125,
+   "bpc_fuori": 1.81775,
+   "scarto": 0.03362,
+   "appresi": {
+    "distanza": [
+     1.3853,
+     1.9437,
+     1.9505,
+     1.6594,
+     0.9492,
+     0.0101
+    ],
+    "occorrenze": [
+     -0.0647,
+     1.005,
+     1.1823,
+     1.6014
+    ],
+    "frequenza": [
+     0.0,
+     0.3257,
+     0.5395,
+     0.6716,
+     0.4805,
+     0.6676,
+     0.4186
+    ],
+    "beta": [
+     [
+      0.587,
+      0.4323,
+      0.3554,
+      0.0
+     ],
+     [
+      0.0,
+      0.2576,
+      0.3234,
+      0.0
+     ],
+     [
+      0.0705,
+      0.0442,
+      0.0686,
+      0.0
+     ],
+     [
+      0.0,
+      0.2875,
+      0.1725,
+      0.0
+     ],
+     [
+      0.0,
+      0.1325,
+      0.1576,
+      0.0
+     ]
+    ]
+   },
+   "secondi": 603.5
+  },
+  {
+   "lavoro": "addestra|P2|0|0",
+   "tipo": "P2",
+   "piega": 0,
+   "replica": 0,
+   "parametri": 767361,
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "epoche": 28,
+   "epoca_scelta": 18,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.72746,
+   "bpc_validazione": 1.8874,
+   "bpc_fuori": 1.96569,
+   "scarto": 0.23823,
+   "appresi": {
+    "distanza": [
+     0.2562,
+     0.4054,
+     0.2663,
+     0.2394,
+     -0.0019,
+     -0.4185
+    ],
+    "occorrenze": [
+     -0.5772,
+     -0.0817,
+     0.166,
+     0.6541
+    ],
+    "frequenza": [
+     0.0,
+     -0.7064,
+     -0.4069,
+     0.1336,
+     0.3923,
+     0.1003,
+     0.0778
+    ],
+    "beta": [
+     -1.8675,
+     -4.9416,
+     -5.1057,
+     -4.2191
+    ],
+    "gamma": 0.174
+   },
+   "puntatore": {
+    "massa_media": 0.15225150252223066,
+    "posteriori_copiabili": 0.22116602318424336,
+    "posteriori_altre": 0.0,
+    "quota_copiabili": 0.6795294792712667,
+    "parole": 6971
+   },
+   "secondi": 1270.6
+  },
+  {
+   "lavoro": "addestra|P2|0|1",
+   "tipo": "P2",
+   "piega": 0,
+   "replica": 1,
+   "parametri": 767361,
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "epoche": 20,
+   "epoca_scelta": 10,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.83823,
+   "bpc_validazione": 1.89151,
+   "bpc_fuori": 1.96509,
+   "scarto": 0.12686,
+   "appresi": {
+    "distanza": [
+     0.316,
+     0.4497,
+     0.3142,
+     0.2304,
+     -0.0607,
+     -0.4481
+    ],
+    "occorrenze": [
+     -0.4241,
+     -0.0429,
+     0.1757,
+     0.5469
+    ],
+    "frequenza": [
+     0.0,
+     -0.4596,
+     -0.2392,
+     0.0812,
+     0.2791,
+     0.023,
+     0.0821
+    ],
+    "beta": [
+     -2.1846,
+     -4.6633,
+     -4.7877,
+     -4.1087
+    ],
+    "gamma": 0.1185
+   },
+   "puntatore": {
+    "massa_media": 0.12549029707720522,
+    "posteriori_copiabili": 0.20656138667184318,
+    "posteriori_altre": 0.0,
+    "quota_copiabili": 0.6795294792712667,
+    "parole": 6971
+   },
+   "secondi": 1033.6
+  },
+  {
+   "lavoro": "addestra|P2|1|0",
+   "tipo": "P2",
+   "piega": 1,
+   "replica": 0,
+   "parametri": 767361,
+   "pagine": [
+    147,
+    20,
+    40
+   ],
+   "epoche": 23,
+   "epoca_scelta": 13,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.77486,
+   "bpc_validazione": 1.93488,
+   "bpc_fuori": 2.01468,
+   "scarto": 0.23982,
+   "appresi": {
+    "distanza": [
+     0.3579,
+     0.4555,
+     0.3312,
+     0.2804,
+     -0.0283,
+     -0.5143
+    ],
+    "occorrenze": [
+     -0.5078,
+     -0.124,
+     0.1945,
+     0.6307
+    ],
+    "frequenza": [
+     0.0,
+     -0.5635,
+     -0.3555,
+     0.0723,
+     0.415,
+     0.0374,
+     0.0769
+    ],
+    "beta": [
+     -1.94,
+     -4.8934,
+     -5.0131,
+     -4.1823
+    ],
+    "gamma": 0.1578
+   },
+   "puntatore": {
+    "massa_media": 0.16998120480797085,
+    "posteriori_copiabili": 0.2373191766727482,
+    "posteriori_altre": 0.0,
+    "quota_copiabili": 0.6539688496903734,
+    "parole": 5329
+   },
+   "secondi": 1161.3
+  },
+  {
+   "lavoro": "addestra|P2|1|1",
+   "tipo": "P2",
+   "piega": 1,
+   "replica": 1,
+   "parametri": 767361,
+   "pagine": [
+    147,
+    20,
+    40
+   ],
+   "epoche": 24,
+   "epoca_scelta": 14,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.76588,
+   "bpc_validazione": 1.93206,
+   "bpc_fuori": 2.00733,
+   "scarto": 0.24145,
+   "appresi": {
+    "distanza": [
+     0.3145,
+     0.4274,
+     0.2557,
+     0.269,
+     -0.0735,
+     -0.4715
+    ],
+    "occorrenze": [
+     -0.512,
+     -0.1032,
+     0.1867,
+     0.6475
+    ],
+    "frequenza": [
+     0.0,
+     -0.6561,
+     -0.4369,
+     0.0658,
+     0.5097,
+     0.066,
+     0.0854
+    ],
+    "beta": [
+     -1.9239,
+     -4.9129,
+     -5.0608,
+     -4.1915
+    ],
+    "gamma": 0.1802
+   },
+   "puntatore": {
+    "massa_media": 0.12183817340276729,
+    "posteriori_copiabili": 0.19228253621043723,
+    "posteriori_altre": 0.0,
+    "quota_copiabili": 0.6539688496903734,
+    "parole": 5329
+   },
+   "secondi": 1483.2
+  },
+  {
+   "lavoro": "addestra|P2|2|0",
+   "tipo": "P2",
+   "piega": 2,
+   "replica": 0,
+   "parametri": 767361,
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "epoche": 22,
+   "epoca_scelta": 12,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.81109,
+   "bpc_validazione": 1.94665,
+   "bpc_fuori": 1.92761,
+   "scarto": 0.11652,
+   "appresi": {
+    "distanza": [
+     0.3327,
+     0.3706,
+     0.2725,
+     0.2545,
+     -0.0842,
+     -0.467
+    ],
+    "occorrenze": [
+     -0.4439,
+     -0.0657,
+     0.1841,
+     0.5792
+    ],
+    "frequenza": [
+     0.0,
+     -0.5303,
+     -0.353,
+     0.0686,
+     0.5478,
+     0.0756,
+     0.0512
+    ],
+    "beta": [
+     -2.0873,
+     -4.7991,
+     -4.9145,
+     -4.1602
+    ],
+    "gamma": 0.1569
+   },
+   "puntatore": {
+    "massa_media": 0.17531266706950796,
+    "posteriori_copiabili": 0.2535151105185306,
+    "posteriori_altre": 0.0,
+    "quota_copiabili": 0.6893360752056404,
+    "parole": 6808
+   },
+   "secondi": 992.6
+  },
+  {
+   "lavoro": "addestra|P2|2|1",
+   "tipo": "P2",
+   "piega": 2,
+   "replica": 1,
+   "parametri": 767361,
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "epoche": 21,
+   "epoca_scelta": 11,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.82492,
+   "bpc_validazione": 1.95399,
+   "bpc_fuori": 1.92704,
+   "scarto": 0.10212,
+   "appresi": {
+    "distanza": [
+     0.3543,
+     0.4274,
+     0.3184,
+     0.2023,
+     -0.0858,
+     -0.4384
+    ],
+    "occorrenze": [
+     -0.433,
+     -0.0406,
+     0.2053,
+     0.671
+    ],
+    "frequenza": [
+     0.0,
+     -0.4352,
+     -0.3008,
+     0.0857,
+     0.5039,
+     0.0833,
+     0.0558
+    ],
+    "beta": [
+     -2.1279,
+     -4.6685,
+     -4.8204,
+     -4.1513
+    ],
+    "gamma": 0.1353
+   },
+   "puntatore": {
+    "massa_media": 0.17282602901009078,
+    "posteriori_copiabili": 0.26562119249701016,
+    "posteriori_altre": 0.0,
+    "quota_copiabili": 0.6893360752056404,
+    "parole": 6808
+   },
+   "secondi": 1233.8
+  },
+  {
+   "lavoro": "addestra|P2|3|0",
+   "tipo": "P2",
+   "piega": 3,
+   "replica": 0,
+   "parametri": 767361,
+   "pagine": [
+    146,
+    20,
+    41
+   ],
+   "epoche": 25,
+   "epoca_scelta": 15,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.75039,
+   "bpc_validazione": 1.90253,
+   "bpc_fuori": 1.94065,
+   "scarto": 0.19026,
+   "appresi": {
+    "distanza": [
+     0.3601,
+     0.4426,
+     0.307,
+     0.2356,
+     -0.0482,
+     -0.4652
+    ],
+    "occorrenze": [
+     -0.516,
+     -0.0701,
+     0.1886,
+     0.651
+    ],
+    "frequenza": [
+     0.0,
+     -0.6184,
+     -0.3555,
+     0.1254,
+     0.4215,
+     0.0592,
+     0.0723
+    ],
+    "beta": [
+     -1.9015,
+     -4.8875,
+     -5.0212,
+     -4.0939
+    ],
+    "gamma": 0.1538
+   },
+   "puntatore": {
+    "massa_media": 0.15186761613527688,
+    "posteriori_copiabili": 0.217016792434576,
+    "posteriori_altre": 0.0,
+    "quota_copiabili": 0.6845146379044684,
+    "parole": 7788
+   },
+   "secondi": 1186.0
+  },
+  {
+   "lavoro": "addestra|P2|3|1",
+   "tipo": "P2",
+   "piega": 3,
+   "replica": 1,
+   "parametri": 767361,
+   "pagine": [
+    146,
+    20,
+    41
+   ],
+   "epoche": 22,
+   "epoca_scelta": 12,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.80173,
+   "bpc_validazione": 1.89696,
+   "bpc_fuori": 1.91804,
+   "scarto": 0.11631,
+   "appresi": {
+    "distanza": [
+     0.3711,
+     0.5097,
+     0.2958,
+     0.2365,
+     -0.0463,
+     -0.488
+    ],
+    "occorrenze": [
+     -0.4685,
+     -0.1045,
+     0.166,
+     0.5795
+    ],
+    "frequenza": [
+     0.0,
+     -0.5092,
+     -0.3257,
+     0.062,
+     0.37,
+     0.0596,
+     0.0798
+    ],
+    "beta": [
+     -2.0499,
+     -4.7767,
+     -4.9467,
+     -4.0944
+    ],
+    "gamma": 0.1429
+   },
+   "puntatore": {
+    "massa_media": 0.1910728769282163,
+    "posteriori_copiabili": 0.23657041784098026,
+    "posteriori_altre": 0.0,
+    "quota_copiabili": 0.6845146379044684,
+    "parole": 7788
+   },
+   "secondi": 1308.2
+  },
+  {
+   "lavoro": "addestra|P2|4|0",
+   "tipo": "P2",
+   "piega": 4,
+   "replica": 0,
+   "parametri": 767361,
+   "pagine": [
+    148,
+    19,
+    40
+   ],
+   "epoche": 23,
+   "epoca_scelta": 13,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.82017,
+   "bpc_validazione": 2.16974,
+   "bpc_fuori": 1.82737,
+   "scarto": 0.0072,
+   "appresi": {
+    "distanza": [
+     0.1255,
+     0.4862,
+     0.3714,
+     0.2272,
+     0.0081,
+     -0.4692
+    ],
+    "occorrenze": [
+     -0.4779,
+     -0.0244,
+     0.215,
+     0.5389
+    ],
+    "frequenza": [
+     0.0,
+     -0.6233,
+     -0.4504,
+     0.0149,
+     0.468,
+     0.1052,
+     0.0621
+    ],
+    "beta": [
+     -2.033,
+     -4.8595,
+     -4.9381,
+     -4.132
+    ],
+    "gamma": 0.1511
+   },
+   "puntatore": {
+    "massa_media": 0.26820282089496267,
+    "posteriori_copiabili": 0.32869616143402597,
+    "posteriori_altre": 0.0,
+    "quota_copiabili": 0.7271243881009163,
+    "parole": 7967
+   },
+   "secondi": 1169.4
+  },
+  {
+   "lavoro": "addestra|P2|4|1",
+   "tipo": "P2",
+   "piega": 4,
+   "replica": 1,
+   "parametri": 767361,
+   "pagine": [
+    148,
+    19,
+    40
+   ],
+   "epoche": 21,
+   "epoca_scelta": 11,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.85671,
+   "bpc_validazione": 2.14464,
+   "bpc_fuori": 1.85138,
+   "scarto": -0.00533,
+   "appresi": {
+    "distanza": [
+     0.1172,
+     0.4726,
+     0.3499,
+     0.2289,
+     0.0176,
+     -0.4509
+    ],
+    "occorrenze": [
+     -0.4262,
+     0.001,
+     0.2619,
+     0.5257
+    ],
+    "frequenza": [
+     0.0,
+     -0.469,
+     -0.2941,
+     0.0565,
+     0.4323,
+     0.0687,
+     0.0773
+    ],
+    "beta": [
+     -2.0818,
+     -4.7312,
+     -4.8675,
+     -4.1527
+    ],
+    "gamma": 0.1371
+   },
+   "puntatore": {
+    "massa_media": 0.15185485864592357,
+    "posteriori_copiabili": 0.2547691106161176,
+    "posteriori_altre": 0.0,
+    "quota_copiabili": 0.7271243881009163,
+    "parole": 7967
+   },
+   "secondi": 1252.0
+  },
+  {
+   "lavoro": "addestra|P3|0|0",
+   "tipo": "P3",
+   "piega": 0,
+   "replica": 0,
+   "parametri": 767363,
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "epoche": 24,
+   "epoca_scelta": 14,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.77643,
+   "bpc_validazione": 1.87357,
+   "bpc_fuori": 1.94785,
+   "scarto": 0.17142,
+   "appresi": {
+    "distanza": [
+     0.3916,
+     0.4723,
+     0.3461,
+     0.2878,
+     -0.0829,
+     -0.49
+    ],
+    "occorrenze": [
+     -0.5325,
+     -0.0585,
+     0.1838,
+     0.6812
+    ],
+    "frequenza": [
+     0.0,
+     -0.5588,
+     -0.2238,
+     0.1546,
+     0.3629,
+     0.0452,
+     0.0627
+    ],
+    "beta": [
+     -1.8303,
+     -4.887,
+     -4.9295,
+     -3.9613,
+     -4.5399,
+     -4.8771,
+     -4.5928
+    ]
+   },
+   "puntatore": {
+    "massa_media": 0.18272299134497014,
+    "posteriori_copiabili": 0.2328729906671907,
+    "posteriori_altre": 0.0,
+    "quota_copiabili": 0.728302969444843,
+    "parole": 6971
+   },
+   "secondi": 1058.9
+  },
+  {
+   "lavoro": "addestra|P3|0|1",
+   "tipo": "P3",
+   "piega": 0,
+   "replica": 1,
+   "parametri": 767363,
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "epoche": 22,
+   "epoca_scelta": 12,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.81972,
+   "bpc_validazione": 1.89211,
+   "bpc_fuori": 1.95318,
+   "scarto": 0.13346,
+   "appresi": {
+    "distanza": [
+     0.358,
+     0.4441,
+     0.371,
+     0.2494,
+     -0.0685,
+     -0.487
+    ],
+    "occorrenze": [
+     -0.5076,
+     -0.0257,
+     0.1623,
+     0.6248
+    ],
+    "frequenza": [
+     0.0,
+     -0.468,
+     -0.2689,
+     0.1433,
+     0.3325,
+     0.0395,
+     0.0735
+    ],
+    "beta": [
+     -1.9031,
+     -4.7866,
+     -4.8414,
+     -3.9296,
+     -4.505,
+     -4.8046,
+     -4.4994
+    ]
+   },
+   "puntatore": {
+    "massa_media": 0.14152948841989135,
+    "posteriori_copiabili": 0.20566840424849284,
+    "posteriori_altre": 0.0,
+    "quota_copiabili": 0.728302969444843,
+    "parole": 6971
+   },
+   "secondi": 964.7
+  },
+  {
+   "lavoro": "addestra|P3|1|0",
+   "tipo": "P3",
+   "piega": 1,
+   "replica": 0,
+   "parametri": 767363,
+   "pagine": [
+    147,
+    20,
+    40
+   ],
+   "epoche": 21,
+   "epoca_scelta": 11,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.8123,
+   "bpc_validazione": 1.94357,
+   "bpc_fuori": 2.03742,
+   "scarto": 0.22512,
+   "appresi": {
+    "distanza": [
+     0.4356,
+     0.4814,
+     0.3662,
+     0.2681,
+     -0.0419,
+     -0.5002
+    ],
+    "occorrenze": [
+     -0.482,
+     -0.0674,
+     0.2114,
+     0.6114
+    ],
+    "frequenza": [
+     0.0,
+     -0.5086,
+     -0.3209,
+     0.0867,
+     0.3868,
+     0.0648,
+     0.0575
+    ],
+    "beta": [
+     -1.8773,
+     -4.7598,
+     -4.8587,
+     -3.9269,
+     -4.5361,
+     -4.8021,
+     -4.5766
+    ]
+   },
+   "puntatore": {
+    "massa_media": 0.14586874461795896,
+    "posteriori_copiabili": 0.2214468436349262,
+    "posteriori_altre": 0.0,
+    "quota_copiabili": 0.7080127603677988,
+    "parole": 5329
+   },
+   "secondi": 1067.8
+  },
+  {
+   "lavoro": "addestra|P3|1|1",
+   "tipo": "P3",
+   "piega": 1,
+   "replica": 1,
+   "parametri": 767363,
+   "pagine": [
+    147,
+    20,
+    40
+   ],
+   "epoche": 19,
+   "epoca_scelta": 9,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.8358,
+   "bpc_validazione": 1.94626,
+   "bpc_fuori": 2.02264,
+   "scarto": 0.18684,
+   "appresi": {
+    "distanza": [
+     0.3882,
+     0.4666,
+     0.3706,
+     0.2924,
+     -0.0154,
+     -0.5111
+    ],
+    "occorrenze": [
+     -0.4142,
+     -0.0275,
+     0.1822,
+     0.6027
+    ],
+    "frequenza": [
+     0.0,
+     -0.4336,
+     -0.2745,
+     0.0451,
+     0.4145,
+     0.0321,
+     0.0717
+    ],
+    "beta": [
+     -1.9393,
+     -4.6817,
+     -4.7788,
+     -3.9019,
+     -4.4633,
+     -4.7214,
+     -4.5346
+    ]
+   },
+   "puntatore": {
+    "massa_media": 0.21721573164772195,
+    "posteriori_copiabili": 0.25549927564999275,
+    "posteriori_altre": 0.0,
+    "quota_copiabili": 0.7080127603677988,
+    "parole": 5329
+   },
+   "secondi": 926.3
+  },
+  {
+   "lavoro": "addestra|P3|2|0",
+   "tipo": "P3",
+   "piega": 2,
+   "replica": 0,
+   "parametri": 767363,
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "epoche": 21,
+   "epoca_scelta": 11,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.82304,
+   "bpc_validazione": 1.94362,
+   "bpc_fuori": 1.93327,
+   "scarto": 0.11023,
+   "appresi": {
+    "distanza": [
+     0.3507,
+     0.4568,
+     0.3405,
+     0.2685,
+     -0.0509,
+     -0.4724
+    ],
+    "occorrenze": [
+     -0.4582,
+     -0.0207,
+     0.2302,
+     0.5733
+    ],
+    "frequenza": [
+     0.0,
+     -0.4323,
+     -0.3183,
+     0.1126,
+     0.4633,
+     0.0591,
+     0.0581
+    ],
+    "beta": [
+     -1.9579,
+     -4.7835,
+     -4.809,
+     -3.9068,
+     -4.5135,
+     -4.7579,
+     -4.4595
+    ]
+   },
+   "puntatore": {
+    "massa_media": 0.19856859720831893,
+    "posteriori_copiabili": 0.2616691241748583,
+    "posteriori_altre": 0.0,
+    "quota_copiabili": 0.7373678025851939,
+    "parole": 6808
+   },
+   "secondi": 966.8
+  },
+  {
+   "lavoro": "addestra|P3|2|1",
+   "tipo": "P3",
+   "piega": 2,
+   "replica": 1,
+   "parametri": 767363,
+   "pagine": [
+    144,
+    20,
+    43
+   ],
+   "epoche": 24,
+   "epoca_scelta": 14,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.77985,
+   "bpc_validazione": 1.94549,
+   "bpc_fuori": 1.92389,
+   "scarto": 0.14404,
+   "appresi": {
+    "distanza": [
+     0.3378,
+     0.4323,
+     0.2773,
+     0.2393,
+     -0.1094,
+     -0.4624
+    ],
+    "occorrenze": [
+     -0.4968,
+     -0.0528,
+     0.2083,
+     0.6806
+    ],
+    "frequenza": [
+     0.0,
+     -0.5709,
+     -0.3968,
+     0.1773,
+     0.5085,
+     0.0661,
+     0.0466
+    ],
+    "beta": [
+     -1.8053,
+     -4.8535,
+     -4.9319,
+     -3.9865,
+     -4.6376,
+     -4.8712,
+     -4.6149
+    ]
+   },
+   "puntatore": {
+    "massa_media": 0.24122304198814756,
+    "posteriori_copiabili": 0.2857632103560345,
+    "posteriori_altre": 0.0,
+    "quota_copiabili": 0.7373678025851939,
+    "parole": 6808
+   },
+   "secondi": 1009.5
+  },
+  {
+   "lavoro": "addestra|P3|3|0",
+   "tipo": "P3",
+   "piega": 3,
+   "replica": 0,
+   "parametri": 767363,
+   "pagine": [
+    146,
+    20,
+    41
+   ],
+   "epoche": 27,
+   "epoca_scelta": 17,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.75428,
+   "bpc_validazione": 1.92381,
+   "bpc_fuori": 1.93852,
+   "scarto": 0.18424,
+   "appresi": {
+    "distanza": [
+     0.4156,
+     0.5484,
+     0.3191,
+     0.2394,
+     -0.0483,
+     -0.524
+    ],
+    "occorrenze": [
+     -0.5832,
+     -0.1271,
+     0.179,
+     0.6762
+    ],
+    "frequenza": [
+     0.0,
+     -0.7667,
+     -0.3553,
+     0.1488,
+     0.4692,
+     0.0457,
+     0.0538
+    ],
+    "beta": [
+     -1.6744,
+     -4.9714,
+     -5.0653,
+     -3.904,
+     -4.6755,
+     -5.0317,
+     -4.7934
+    ]
+   },
+   "puntatore": {
+    "massa_media": 0.16352014637752624,
+    "posteriori_copiabili": 0.2106455499097194,
+    "posteriori_altre": 0.0,
+    "quota_copiabili": 0.7326656394453005,
+    "parole": 7788
+   },
+   "secondi": 1264.0
+  },
+  {
+   "lavoro": "addestra|P3|3|1",
+   "tipo": "P3",
+   "piega": 3,
+   "replica": 1,
+   "parametri": 767363,
+   "pagine": [
+    146,
+    20,
+    41
+   ],
+   "epoche": 21,
+   "epoca_scelta": 11,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.8238,
+   "bpc_validazione": 1.90071,
+   "bpc_fuori": 1.93335,
+   "scarto": 0.10955,
+   "appresi": {
+    "distanza": [
+     0.3874,
+     0.4584,
+     0.3191,
+     0.2129,
+     -0.0548,
+     -0.5048
+    ],
+    "occorrenze": [
+     -0.4612,
+     -0.033,
+     0.1605,
+     0.5232
+    ],
+    "frequenza": [
+     0.0,
+     -0.4965,
+     -0.2638,
+     0.1245,
+     0.3757,
+     0.0425,
+     0.0472
+    ],
+    "beta": [
+     -2.0061,
+     -4.7578,
+     -4.8221,
+     -3.858,
+     -4.5217,
+     -4.7507,
+     -4.5047
+    ]
+   },
+   "puntatore": {
+    "massa_media": 0.2083590342316434,
+    "posteriori_copiabili": 0.23945242721226168,
+    "posteriori_altre": 0.0,
+    "quota_copiabili": 0.7326656394453005,
+    "parole": 7788
+   },
+   "secondi": 909.3
+  },
+  {
+   "lavoro": "addestra|P3|4|0",
+   "tipo": "P3",
+   "piega": 4,
+   "replica": 0,
+   "parametri": 767363,
+   "pagine": [
+    148,
+    19,
+    40
+   ],
+   "epoche": 24,
+   "epoca_scelta": 14,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.80532,
+   "bpc_validazione": 2.14324,
+   "bpc_fuori": 1.83711,
+   "scarto": 0.03179,
+   "appresi": {
+    "distanza": [
+     0.1944,
+     0.5229,
+     0.3797,
+     0.2568,
+     -0.0091,
+     -0.5194
+    ],
+    "occorrenze": [
+     -0.4956,
+     -0.0593,
+     0.265,
+     0.6342
+    ],
+    "frequenza": [
+     0.0,
+     -0.6238,
+     -0.3942,
+     0.0554,
+     0.5151,
+     0.0678,
+     0.071
+    ],
+    "beta": [
+     -1.7723,
+     -4.9633,
+     -4.9835,
+     -4.0127,
+     -4.4619,
+     -4.8643,
+     -4.7133
+    ]
+   },
+   "puntatore": {
+    "massa_media": 0.16323266973366204,
+    "posteriori_copiabili": 0.23137470876561814,
+    "posteriori_altre": 0.0,
+    "quota_copiabili": 0.7699259445211497,
+    "parole": 7967
+   },
+   "secondi": 1058.3
+  },
+  {
+   "lavoro": "addestra|P3|4|1",
+   "tipo": "P3",
+   "piega": 4,
+   "replica": 1,
+   "parametri": 767363,
+   "pagine": [
+    148,
+    19,
+    40
+   ],
+   "epoche": 21,
+   "epoca_scelta": 11,
+   "arrivata_al_massimo": false,
+   "bpc_addestramento": 1.85785,
+   "bpc_validazione": 2.14332,
+   "bpc_fuori": 1.8484,
+   "scarto": -0.00945,
+   "appresi": {
+    "distanza": [
+     0.2718,
+     0.4951,
+     0.4098,
+     0.2338,
+     0.007,
+     -0.4771
+    ],
+    "occorrenze": [
+     -0.4435,
+     0.0066,
+     0.2353,
+     0.5489
+    ],
+    "frequenza": [
+     0.0,
+     -0.4631,
+     -0.2874,
+     0.0427,
+     0.4224,
+     0.0968,
+     0.0476
+    ],
+    "beta": [
+     -1.9638,
+     -4.7858,
+     -4.8435,
+     -3.9867,
+     -4.462,
+     -4.7186,
+     -4.5771
+    ]
+   },
+   "puntatore": {
+    "massa_media": 0.20999892118271313,
+    "posteriori_copiabili": 0.27599160770793035,
+    "posteriori_altre": 0.0,
+    "quota_copiabili": 0.7699259445211497,
+    "parole": 7967
+   },
+   "secondi": 909.0
+  }
+ ],
+ "bpc": {
+  "P1": {
+   "modelli": 10,
+   "parametri": 665518,
+   "validazione": [
+    1.952919,
+    0.030100410091337074
+   ],
+   "fuori": [
+    1.9157300000000004,
+    0.020916403716806673
+   ],
+   "epoche_scelte": 14.2,
+   "al_massimo": 0,
+   "secondi_medi": 867.3
+  },
+  "P2": {
+   "modelli": 10,
+   "parametri": 767361,
+   "validazione": [
+    1.9660359999999997,
+    0.03275887452957509
+   ],
+   "fuori": [
+    1.934488,
+    0.01898515594411123
+   ],
+   "epoche_scelte": 12.9,
+   "al_massimo": 0,
+   "secondi_medi": 1209.07,
+   "massa_copia_media": 0.16806980464941523
+  },
+  "P3": {
+   "modelli": 10,
+   "parametri": 767363,
+   "validazione": [
+    1.9655699999999996,
+    0.03068018998927123
+   ],
+   "fuori": [
+    1.9375630000000001,
+    0.01995108496353574
+   ],
+   "epoche_scelte": 12.4,
+   "al_massimo": 0,
+   "secondi_medi": 1013.46,
+   "massa_copia_media": 0.1872239366752554
+  }
+ },
+ "bpc_riferimenti": {
+  "M1": {
+   "modelli": 10,
+   "validazione": [
+    1.964827,
+    0.03138598774577243
+   ],
+   "fuori": [
+    1.940203,
+    0.019117382727071565
+   ]
+  },
+  "M5": {
+   "modelli": 10,
+   "validazione": [
+    1.9597760000000002,
+    0.03228120169179992
+   ],
+   "fuori": [
+    1.925762,
+    0.022095147119270832
+   ]
+  },
+  "E1": {
+   "modelli": 10,
+   "validazione": [
+    1.961691,
+    0.030281117491855455
+   ],
+   "fuori": [
+    1.9379190000000002,
+    0.019987016310595247
+   ]
+  },
+  "E2": {
+   "modelli": 10,
+   "validazione": [
+    1.96742,
+    0.031152507336221474
+   ],
+   "fuori": [
+    1.9507800000000004,
+    0.01937006596673215
+   ]
+  },
+  "E3": {
+   "modelli": 10,
+   "validazione": [
+    1.966158,
+    0.02980654308481052
+   ],
+   "fuori": [
+    1.9500140000000001,
+    0.020863604418540283
+   ]
+  }
+ },
+ "appresi": {
+  "P1": {
+   "distanza": [
+    1.554,
+    1.81,
+    1.903,
+    1.549,
+    1.009,
+    0.102
+   ],
+   "occorrenze": [
+    0.033,
+    0.955,
+    1.112,
+    1.447
+   ],
+   "frequenza": [
+    0.0,
+    0.328,
+    0.72,
+    0.625,
+    0.478,
+    0.662,
+    0.412
+   ],
+   "beta": [
+    [
+     0.576,
+     0.412,
+     0.361,
+     0.0
+    ],
+    [
+     0.0,
+     0.247,
+     0.35,
+     0.0
+    ],
+    [
+     0.066,
+     0.024,
+     0.064,
+     0.0
+    ],
+    [
+     0.0,
+     0.276,
+     0.17,
+     0.0
+    ],
+    [
+     0.0,
+     0.059,
+     0.164,
+     0.0
+    ]
+   ]
+  },
+  "P2": {
+   "distanza": [
+    0.291,
+    0.445,
+    0.308,
+    0.24,
+    -0.04,
+    -0.463
+   ],
+   "occorrenze": [
+    -0.479,
+    -0.066,
+    0.194,
+    0.602
+   ],
+   "frequenza": [
+    0.0,
+    -0.557,
+    -0.352,
+    0.077,
+    0.434,
+    0.068,
+    0.072
+   ],
+   "beta": [
+    -2.02,
+    -4.813,
+    -4.948,
+    -4.149
+   ],
+   "gamma": [
+    0.15075999999999998,
+    0.0058037574036136266
+   ]
+  },
+  "P3": {
+   "distanza": [
+    0.353,
+    0.478,
+    0.35,
+    0.255,
+    -0.047,
+    -0.495
+   ],
+   "occorrenze": [
+    -0.487,
+    -0.047,
+    0.202,
+    0.616
+   ],
+   "frequenza": [
+    0.0,
+    -0.532,
+    -0.31,
+    0.109,
+    0.425,
+    0.056,
+    0.059
+   ],
+   "beta": [
+    -1.873,
+    -4.823,
+    -4.886,
+    -3.937,
+    -4.532,
+    -4.82,
+    -4.587
+   ]
+  }
+ },
+ "controlli": {
+  "paper_positivo": {
+   "AUC": 0.9880943044799528,
+   "soglia": 0.95,
+   "riuscito": true
+  },
+  "paper_negativo": {
+   "AUC_e231": 0.5060288207038526,
+   "AUC_e266": 0.5030291147926673,
+   "banda": [
+    0.45,
+    0.55
+   ],
+   "riuscito": true
+  },
+  "A_positivo": {
+   "AUC": {
+    "parole": 0.9862366434663269,
+    "e192": 0.9581364572100775
+   },
+   "soglia": 0.85,
+   "riuscito": true
+  },
+  "A_negativo": {
+   "AUC": 0.48352514459366724,
+   "banda": [
+    0.45,
+    0.55
+   ],
+   "riuscito": true
+  },
+  "K_positivo": {
+   "AUC": {
+    "parole": 0.9820017645328889,
+    "e192": 0.9349622586020979
+   },
+   "soglia": 0.85,
+   "riuscito": true
+  },
+  "K_negativo": {
+   "AUC": 0.49913930006862073,
+   "valori": [
+    0.5709244191745908,
+    0.4305656308205078,
+    0.44319184393686895,
+    0.5487109106950299,
+    0.5023036957161062
+   ],
+   "banda": [
+    0.45,
+    0.55
+   ],
+   "riuscito": true
+  },
+  "K_vede_v21": {
+   "AUC": 0.7661552788942261,
+   "soglia": 0.65,
+   "riuscito": true
+  }
+ },
+ "sensibilita": {
+  "tec": {
+   "piantato": {
+    "tasso_eco": 0.33739779084779803,
+    "quota_preferito": 0.41640637843169487,
+    "contatto": 0.6275144358746646,
+    "tema_cond": 0.16065573770491803,
+    "tema_cond_righe_rimescolate": 0.05899920943987351,
+    "eccesso_tema": 0.10165652826504452
+   },
+   "M1": {
+    "bpc_validazione": 2.60361,
+    "guadagno_su_M1": 0.0,
+    "epoca_scelta": 11,
+    "tasso_eco": 0.10511463844797178,
+    "eco_rapporto": 0.31154512951565105,
+    "eccesso_tema": 0.0027452885530975524,
+    "tema_rapporto": 0.027005531272324038,
+    "quota_preferito": 0.3920178547984771,
+    "contatto_rapporto_pref": 0.9414309556806697,
+    "contatto": 0.552332854884808,
+    "contatto_rapporto": 0.8801914717944865,
+    "eco_ok": false,
+    "tema_ok": false,
+    "legame_ok": true,
+    "riuscito": false
+   },
+   "E1": {
+    "bpc_validazione": 2.41151,
+    "guadagno_su_M1": 0.19210000000000038,
+    "epoca_scelta": 12,
+    "tasso_eco": 0.25174400970579314,
+    "eco_rapporto": 0.7461341376101547,
+    "eccesso_tema": -0.007596988319201803,
+    "tema_rapporto": -0.07473192768687235,
+    "quota_preferito": 0.43480546792849634,
+    "contatto_rapporto_pref": 1.044185417058446,
+    "contatto": 0.6286494514227444,
+    "contatto_rapporto": 1.0018087481071216,
+    "eco_ok": true,
+    "tema_ok": false,
+    "legame_ok": true,
+    "riuscito": false
+   },
+   "E2": {
+    "bpc_validazione": 2.20708,
+    "guadagno_su_M1": 0.39653000000000027,
+    "epoca_scelta": 8,
+    "tasso_eco": 0.2750382848392037,
+    "eco_rapporto": 0.8151751205842214,
+    "eccesso_tema": 0.0014657188753214034,
+    "tema_rapporto": 0.014418344796311558,
+    "quota_preferito": 0.48777029422190715,
+    "contatto_rapporto_pref": 1.1713804578570317,
+    "contatto": 0.7704565148026851,
+    "contatto_rapporto": 1.2277909013021826,
+    "eco_ok": true,
+    "tema_ok": false,
+    "legame_ok": true,
+    "riuscito": false
+   },
+   "E3": {
+    "bpc_validazione": 2.2018,
+    "guadagno_su_M1": 0.4018100000000002,
+    "epoca_scelta": 6,
+    "tasso_eco": 0.3552924791086351,
+    "eco_rapporto": 1.0530373604873704,
+    "eccesso_tema": -0.0020591121309024712,
+    "tema_rapporto": -0.020255581870097315,
+    "quota_preferito": 0.39383343928798475,
+    "contatto_rapporto_pref": 0.9457910821906085,
+    "contatto": 0.5377354208948739,
+    "contatto_rapporto": 0.8569291639408236,
+    "eco_ok": true,
+    "tema_ok": false,
+    "legame_ok": true,
+    "riuscito": false
+   },
+   "P1": {
+    "bpc_validazione": 2.35244,
+    "guadagno_su_M1": 0.2511700000000001,
+    "epoca_scelta": 13,
+    "tasso_eco": 0.2074624772057792,
+    "eco_rapporto": 0.6148898505958702,
+    "eccesso_tema": 0.0929469734867607,
+    "tema_rapporto": 0.9143237042723337,
+    "quota_preferito": 0.3555519948726166,
+    "contatto_rapporto_pref": 0.8538581858705593,
+    "contatto": 0.5409686768603826,
+    "contatto_rapporto": 0.8620816445542808,
+    "eco_ok": false,
+    "tema_ok": true,
+    "legame_ok": true,
+    "riuscito": false
+   },
+   "P2": {
+    "bpc_validazione": 2.10649,
+    "guadagno_su_M1": 0.49712000000000023,
+    "epoca_scelta": 9,
+    "tasso_eco": 0.2917312297506691,
+    "eco_rapporto": 0.8646506813741133,
+    "eccesso_tema": 0.10453245041310344,
+    "tema_rapporto": 1.0282905800261115,
+    "quota_preferito": 0.4768958299790694,
+    "contatto_rapporto_pref": 1.1452654298312985,
+    "contatto": 0.6177164653807186,
+    "contatto_rapporto": 0.9843860635966262,
+    "eco_ok": true,
+    "tema_ok": true,
+    "legame_ok": true,
+    "riuscito": true
+   },
+   "P3": {
+    "bpc_validazione": 2.09426,
+    "guadagno_su_M1": 0.5093500000000004,
+    "epoca_scelta": 7,
+    "tasso_eco": 0.2674022612723062,
+    "eco_rapporto": 0.7925430116195776,
+    "eccesso_tema": 0.11632441002033024,
+    "tema_rapporto": 1.144288635522185,
+    "quota_preferito": 0.432202076553541,
+    "contatto_rapporto_pref": 1.0379333721575956,
+    "contatto": 0.6154961182101553,
+    "contatto_rapporto": 0.9808477431315862,
+    "eco_ok": true,
+    "tema_ok": true,
+    "legame_ok": true,
+    "riuscito": true
+   }
+  },
+  "senza": {
+   "E2": {
+    "guadagno_su_M1": -0.0022799999999998377,
+    "massa_media": 0.008400924150031602,
+    "riuscito": true
+   },
+   "P1": {
+    "guadagno_su_M1": 0.014600000000000168,
+    "massa_media": null,
+    "riuscito": true
+   },
+   "P2": {
+    "guadagno_su_M1": -0.005479999999999929,
+    "massa_media": 0.03725565307503912,
+    "riuscito": true
+   },
+   "P3": {
+    "guadagno_su_M1": 0.018899999999999917,
+    "massa_media": 0.015276073605749875,
+    "riuscito": true
+   }
+  },
+  "vede_la_differenza_sul_tema": true
+ },
+ "giudici": {
+  "tipi": {
+   "M1": {
+    "libri": 10,
+    "e231": [
+     0.7845824911522917,
+     0.009449150773045822
+    ],
+    "e266": [
+     0.8406518645861836,
+     0.006746481529451753
+    ],
+    "K": [
+     0.7735079894128027,
+     0.004728752413814343
+    ],
+    "A": [
+     0.6754421135182825,
+     0.008709415903050568
+    ],
+    "per_replica": {
+     "e231": [
+      [
+       0.7784179625021082,
+       0.015612209811938189
+      ],
+      [
+       0.7907470198024751,
+       0.011791828719136007
+      ]
+     ],
+     "e266": [
+      [
+       0.8507373906494748,
+       0.008100066268179792
+      ],
+      [
+       0.8305663385228922,
+       0.009399338651574548
+      ]
+     ]
+    },
+    "repliche_diverse": {
+     "e231": false,
+     "e266": false
+    },
+    "gruppi_e266": {
+     "G1": 0.6749566576169915,
+     "G2": 0.7220876010449674,
+     "G3": 0.6969084791867423,
+     "G4": 0.6427649619576297,
+     "G5": 0.49555764586806006,
+     "G6": 0.6238670977081388,
+     "G7": 0.5999847925560245,
+     "G8": 0.6134976152615271,
+     "G9": 0.7301285073132798
+    }
+   },
+   "E1": {
+    "libri": 10,
+    "e231": [
+     0.8202973530662389,
+     0.015174546714993449
+    ],
+    "e266": [
+     0.8698882625922248,
+     0.007947391582795905
+    ],
+    "K": [
+     0.7866233702578178,
+     0.006308037141920766
+    ],
+    "A": [
+     0.6930947946279775,
+     0.014405487336338967
+    ],
+    "per_replica": {
+     "e231": [
+      [
+       0.7792010486857593,
+       0.01006876755604416
+      ],
+      [
+       0.8613936574467184,
+       0.009506193195000533
+      ]
+     ],
+     "e266": [
+      [
+       0.8544826214804535,
+       0.01019099697112728
+      ],
+      [
+       0.885293903703996,
+       0.007855020055254833
+      ]
+     ]
+    },
+    "repliche_diverse": {
+     "e231": true,
+     "e266": true
+    },
+    "gruppi_e266": {
+     "G1": 0.7240619263009127,
+     "G2": 0.7792608188099103,
+     "G3": 0.6997682437951779,
+     "G4": 0.6375456914400388,
+     "G5": 0.49416413737637027,
+     "G6": 0.6268479699710867,
+     "G7": 0.6056482692439776,
+     "G8": 0.6270374290240688,
+     "G9": 0.6936646907743808
+    }
+   },
+   "E2": {
+    "libri": 10,
+    "e231": [
+     0.8009471032439162,
+     0.011754919500920861
+    ],
+    "e266": [
+     0.8641813194609866,
+     0.0044385807003397715
+    ],
+    "K": [
+     0.796895892559553,
+     0.007489359597455748
+    ],
+    "A": [
+     0.6950406822860504,
+     0.007101723206891565
+    ],
+    "per_replica": {
+     "e231": [
+      [
+       0.8326200045958435,
+       0.004030271476698284
+      ],
+      [
+       0.7692742018919889,
+       0.010196674356315098
+      ]
+     ],
+     "e266": [
+      [
+       0.8635100697962173,
+       0.004670643049725847
+      ],
+      [
+       0.8648525691257559,
+       0.008161758345862141
+      ]
+     ]
+    },
+    "repliche_diverse": {
+     "e231": true,
+     "e266": false
+    },
+    "gruppi_e266": {
+     "G1": 0.7028132649921536,
+     "G2": 0.7488251110460606,
+     "G3": 0.6868733997238003,
+     "G4": 0.6532558989296062,
+     "G5": 0.49459279934242506,
+     "G6": 0.6131412246417979,
+     "G7": 0.5700682724103319,
+     "G8": 0.6117689978989965,
+     "G9": 0.7134157623534599
+    }
+   },
+   "E3": {
+    "libri": 10,
+    "e231": [
+     0.7984781030984411,
+     0.008327240940217811
+    ],
+    "e266": [
+     0.8360627778974908,
+     0.004773633942453483
+    ],
+    "K": [
+     0.7940280364670131,
+     0.007693134494211995
+    ],
+    "A": [
+     0.7237231643956474,
+     0.014169816756481128
+    ],
+    "per_replica": {
+     "e231": [
+      [
+       0.7942904952504246,
+       0.013896744596726414
+      ],
+      [
+       0.8026657109464577,
+       0.010495508439944633
+      ]
+     ],
+     "e266": [
+      [
+       0.8386237875922828,
+       0.0069747111506166136
+      ],
+      [
+       0.8335017682026988,
+       0.007114642198417488
+      ]
+     ]
+    },
+    "repliche_diverse": {
+     "e231": false,
+     "e266": false
+    },
+    "gruppi_e266": {
+     "G1": 0.679038333040483,
+     "G2": 0.736221708580165,
+     "G3": 0.6905522089725956,
+     "G4": 0.6185377555712964,
+     "G5": 0.46901058691566244,
+     "G6": 0.5664128136956724,
+     "G7": 0.551522761464755,
+     "G8": 0.5705767500753497,
+     "G9": 0.7027023584400569
+    }
+   },
+   "M5": {
+    "libri": 10,
+    "e231": [
+     0.7816964520324963,
+     0.007640520461775642
+    ],
+    "e266": [
+     0.7989656738723602,
+     0.007038944373469052
+    ],
+    "K": [
+     0.7970350945985688,
+     0.006969117345826173
+    ],
+    "A": [
+     0.7070326438584453,
+     0.005860273354120806
+    ],
+    "per_replica": {
+     "e231": [
+      [
+       0.7688460000000001,
+       0.006749727475980052
+      ],
+      [
+       0.7945469040649925,
+       0.011600565005675877
+      ]
+     ],
+     "e266": [
+      [
+       0.79072,
+       0.007606179560068265
+      ],
+      [
+       0.8072113477447204,
+       0.011450361750307295
+      ]
+     ]
+    },
+    "repliche_diverse": {
+     "e231": false,
+     "e266": false
+    },
+    "gruppi_e266": {
+     "G1": 0.7361542602248251,
+     "G2": 0.7365775496595399,
+     "G3": 0.641882568605555,
+     "G4": 0.6416280651383853,
+     "G5": 0.46569558337428807,
+     "G6": 0.5809921908351501,
+     "G7": 0.6032842703056976,
+     "G8": 0.566499528758937,
+     "G9": 0.6106046041466374
+    }
+   },
+   "P1": {
+    "libri": 10,
+    "e231": [
+     0.8054395386279273,
+     0.006584707701824842
+    ],
+    "e266": [
+     0.8199715213241447,
+     0.0056529864278942275
+    ],
+    "K": [
+     0.8109950004901479,
+     0.00714615431630874
+    ],
+    "A": [
+     0.7714577002254682,
+     0.003200997586323408
+    ],
+    "per_replica": {
+     "e231": [
+      [
+       0.8008351591631252,
+       0.007675610965057511
+      ],
+      [
+       0.8100439180927292,
+       0.011207030428185029
+      ]
+     ],
+     "e266": [
+      [
+       0.8187690352802758,
+       0.008877658396217679
+      ],
+      [
+       0.8211740073680135,
+       0.00801669165242244
+      ]
+     ]
+    },
+    "repliche_diverse": {
+     "e231": false,
+     "e266": false
+    },
+    "gruppi_e266": {
+     "G1": 0.6962952135324099,
+     "G2": 0.7693184075986319,
+     "G3": 0.6638880107936915,
+     "G4": 0.6588360807670733,
+     "G5": 0.48442712867336835,
+     "G6": 0.5547690916336164,
+     "G7": 0.6387665798280138,
+     "G8": 0.5777188854635127,
+     "G9": 0.5730078980948727
+    }
+   },
+   "P2": {
+    "libri": 10,
+    "e231": [
+     0.791093703823035,
+     0.005420782007476163
+    ],
+    "e266": [
+     0.859513832540383,
+     0.007329624438914365
+    ],
+    "K": [
+     0.8289628467797275,
+     0.005530198829527511
+    ],
+    "A": [
+     0.7694564258406038,
+     0.009467532501629756
+    ],
+    "per_replica": {
+     "e231": [
+      [
+       0.7958549291460597,
+       0.007892529907210066
+      ],
+      [
+       0.7863324785000103,
+       0.0076554090323173755
+      ]
+     ],
+     "e266": [
+      [
+       0.8407008912238357,
+       0.003476743112212351
+      ],
+      [
+       0.8783267738569306,
+       0.007259762510691613
+      ]
+     ]
+    },
+    "repliche_diverse": {
+     "e231": false,
+     "e266": true
+    },
+    "gruppi_e266": {
+     "G1": 0.7145081111400045,
+     "G2": 0.7411511762318955,
+     "G3": 0.64564422778918,
+     "G4": 0.6836922484783988,
+     "G5": 0.4881995919285623,
+     "G6": 0.6131310722255978,
+     "G7": 0.5997108773070139,
+     "G8": 0.6102613232756792,
+     "G9": 0.7569698510507988
+    }
+   },
+   "P3": {
+    "libri": 10,
+    "e231": [
+     0.8029290588132113,
+     0.00793638432188011
+    ],
+    "e266": [
+     0.837405145684101,
+     0.006513258464683127
+    ],
+    "K": [
+     0.8228654053524165,
+     0.009209300266101932
+    ],
+    "A": [
+     0.764596608175669,
+     0.009107101281620757
+    ],
+    "per_replica": {
+     "e231": [
+      [
+       0.8025961121067573,
+       0.011503256654049934
+      ],
+      [
+       0.8032620055196652,
+       0.01229054685793177
+      ]
+     ],
+     "e266": [
+      [
+       0.836173647101971,
+       0.010532743955873546
+      ],
+      [
+       0.838636644266231,
+       0.008899686601564346
+      ]
+     ]
+    },
+    "repliche_diverse": {
+     "e231": false,
+     "e266": false
+    },
+    "gruppi_e266": {
+     "G1": 0.7035651412431472,
+     "G2": 0.7417758307558047,
+     "G3": 0.6700294921451359,
+     "G4": 0.6682815949495495,
+     "G5": 0.4886104691298978,
+     "G6": 0.6091826396381427,
+     "G7": 0.5988768229937809,
+     "G8": 0.6055255695883249,
+     "G9": 0.7030301223924446
+    }
+   }
+  },
+  "v21": {
+   "libri": 10,
+   "e231": [
+    0.554,
+    0.004
+   ],
+   "e266": [
+    0.601,
+    0.005
+   ],
+   "K": [
+    0.7661552788942261,
+    0.0047914123148369734
+   ],
+   "A": [
+    0.7464179982354671,
+    0.004701326565106868
+   ]
+  }
+ },
+ "copia": {
+  "tipi": {
+   "M1": {
+    "5-grammi": [
+     1.0080386607395669e-05,
+     6.721737047887495e-06
+    ],
+    "3-grammi": [
+     0.007698643435292604,
+     0.00022209620588333956
+    ],
+    "righe intere": [
+     0.0,
+     0.0
+    ],
+    "parole nuove": [
+     0.1508188974679752,
+     0.0015680506786726598
+    ]
+   },
+   "E1": {
+    "5-grammi": [
+     0.0,
+     0.0
+    ],
+    "3-grammi": [
+     0.008428773738477278,
+     0.0004945552478686264
+    ],
+    "righe intere": [
+     0.0,
+     0.0
+    ],
+    "parole nuove": [
+     0.14465347721123,
+     0.0007202902339983169
+    ]
+   },
+   "E2": {
+    "5-grammi": [
+     0.0,
+     0.0
+    ],
+    "3-grammi": [
+     0.007689025145208405,
+     0.0005090554325158848
+    ],
+    "righe intere": [
+     0.0,
+     0.0
+    ],
+    "parole nuove": [
+     0.1500159369462651,
+     0.0023732861560253706
+    ]
+   },
+   "E3": {
+    "5-grammi": [
+     1.683947666581187e-05,
+     8.575530645759604e-06
+    ],
+    "3-grammi": [
+     0.008512609654041855,
+     0.0005300371642639878
+    ],
+    "righe intere": [
+     0.0,
+     0.0
+    ],
+    "parole nuove": [
+     0.15653153977044426,
+     0.0025594776898388107
+    ]
+   },
+   "M5": {
+    "5-grammi": [
+     0.0,
+     0.0
+    ],
+    "3-grammi": [
+     0.005885481616217151,
+     0.0002605794475532424
+    ],
+    "righe intere": [
+     0.0,
+     0.0
+    ],
+    "parole nuove": [
+     0.17681827373985695,
+     0.003239167928905133
+    ]
+   },
+   "P1": {
+    "5-grammi": [
+     5.578489345085351e-06,
+     5.57848934508535e-06
+    ],
+    "3-grammi": [
+     0.00668812094008531,
+     0.00038629960995363995
+    ],
+    "righe intere": [
+     0.0,
+     0.0
+    ],
+    "parole nuove": [
+     0.1563437909590069,
+     0.0011342653766680912
+    ]
+   },
+   "P2": {
+    "5-grammi": [
+     0.0,
+     0.0
+    ],
+    "3-grammi": [
+     0.005867822257813582,
+     0.0003570414336095014
+    ],
+    "righe intere": [
+     0.0,
+     0.0
+    ],
+    "parole nuove": [
+     0.170086199955869,
+     0.0005908073752442404
+    ]
+   },
+   "P3": {
+    "5-grammi": [
+     5.207790855119258e-06,
+     5.207790855119258e-06
+    ],
+    "3-grammi": [
+     0.005790287514247991,
+     0.00023988744368132293
+    ],
+    "righe intere": [
+     2.5853154084798348e-05,
+     2.585315408479834e-05
+    ],
+    "parole nuove": [
+     0.17414973756488467,
+     0.0018093261569355633
+    ]
+   }
+  },
+  "naturale": {
+   "5-grammi": 0.0,
+   "3-grammi": 0.008937288772061585,
+   "righe intere": 0.0,
+   "parole nuove": 0.1529988813355133
+  },
+  "ripetizioni": {
+   "M1": {
+    "righe uguali a una precedente nella pagina (>= 4 parole)": [
+     0.0,
+     0.0
+    ],
+    "righe uguali alla riga sopra (>= 2 parole)": [
+     0.0,
+     0.0
+    ],
+    "parole uguali alla parola prima": [
+     0.009818164315485718,
+     0.0002168959894200123
+    ]
+   },
+   "E1": {
+    "righe uguali a una precedente nella pagina (>= 4 parole)": [
+     0.0,
+     0.0
+    ],
+    "righe uguali alla riga sopra (>= 2 parole)": [
+     0.0,
+     0.0
+    ],
+    "parole uguali alla parola prima": [
+     0.01751730793511588,
+     0.00046440765151001663
+    ]
+   },
+   "E2": {
+    "righe uguali a una precedente nella pagina (>= 4 parole)": [
+     0.0,
+     0.0
+    ],
+    "righe uguali alla riga sopra (>= 2 parole)": [
+     0.0,
+     0.0
+    ],
+    "parole uguali alla parola prima": [
+     0.013207444385790754,
+     0.0006200198258182174
+    ]
+   },
+   "E3": {
+    "righe uguali a una precedente nella pagina (>= 4 parole)": [
+     0.0,
+     0.0
+    ],
+    "righe uguali alla riga sopra (>= 2 parole)": [
+     0.0,
+     0.0
+    ],
+    "parole uguali alla parola prima": [
+     0.013120039980471444,
+     0.00046953189376505006
+    ]
+   },
+   "M5": {
+    "righe uguali a una precedente nella pagina (>= 4 parole)": [
+     0.0,
+     0.0
+    ],
+    "righe uguali alla riga sopra (>= 2 parole)": [
+     0.0,
+     0.0
+    ],
+    "parole uguali alla parola prima": [
+     0.012163613476086249,
+     0.0004555976545530557
+    ]
+   },
+   "P1": {
+    "righe uguali a una precedente nella pagina (>= 4 parole)": [
+     0.0,
+     0.0
+    ],
+    "righe uguali alla riga sopra (>= 2 parole)": [
+     0.0,
+     0.0
+    ],
+    "parole uguali alla parola prima": [
+     0.011784107303157838,
+     0.000539562133322371
+    ]
+   },
+   "P2": {
+    "righe uguali a una precedente nella pagina (>= 4 parole)": [
+     0.0,
+     0.0
+    ],
+    "righe uguali alla riga sopra (>= 2 parole)": [
+     0.0,
+     0.0
+    ],
+    "parole uguali alla parola prima": [
+     0.010602715834980412,
+     0.0003743909863934445
+    ]
+   },
+   "P3": {
+    "righe uguali a una precedente nella pagina (>= 4 parole)": [
+     0.0,
+     0.0
+    ],
+    "righe uguali alla riga sopra (>= 2 parole)": [
+     0.0,
+     0.0
+    ],
+    "parole uguali alla parola prima": [
+     0.011039473584366124,
+     0.0005057043343266666
+    ]
+   }
+  },
+  "ripetizioni_naturali": {
+   "righe uguali a una precedente nella pagina (>= 4 parole)": 0.0,
+   "righe uguali alla riga sopra (>= 2 parole)": 0.0,
+   "parole uguali alla parola prima": 0.009371034392997754
+  },
+  "letture": {
+   "M1": {
+    "5-grammi": "nessuna copia rilevante",
+    "righe": "nessuna copia rilevante",
+    "copia": false,
+    "zona_grigia": false,
+    "si_avvita": false,
+    "parola_prima_alta": false,
+    "parole_nuove_ok": true
+   },
+   "E1": {
+    "5-grammi": "nessuna copia rilevante",
+    "righe": "nessuna copia rilevante",
+    "copia": false,
+    "zona_grigia": false,
+    "si_avvita": false,
+    "parola_prima_alta": false,
+    "parole_nuove_ok": true
+   },
+   "E2": {
+    "5-grammi": "nessuna copia rilevante",
+    "righe": "nessuna copia rilevante",
+    "copia": false,
+    "zona_grigia": false,
+    "si_avvita": false,
+    "parola_prima_alta": false,
+    "parole_nuove_ok": true
+   },
+   "E3": {
+    "5-grammi": "nessuna copia rilevante",
+    "righe": "nessuna copia rilevante",
+    "copia": false,
+    "zona_grigia": false,
+    "si_avvita": false,
+    "parola_prima_alta": false,
+    "parole_nuove_ok": true
+   },
+   "M5": {
+    "5-grammi": "nessuna copia rilevante",
+    "righe": "nessuna copia rilevante",
+    "copia": false,
+    "zona_grigia": false,
+    "si_avvita": false,
+    "parola_prima_alta": false,
+    "parole_nuove_ok": true
+   },
+   "P1": {
+    "5-grammi": "nessuna copia rilevante",
+    "righe": "nessuna copia rilevante",
+    "copia": false,
+    "zona_grigia": false,
+    "si_avvita": false,
+    "parola_prima_alta": false,
+    "parole_nuove_ok": true
+   },
+   "P2": {
+    "5-grammi": "nessuna copia rilevante",
+    "righe": "nessuna copia rilevante",
+    "copia": false,
+    "zona_grigia": false,
+    "si_avvita": false,
+    "parola_prima_alta": false,
+    "parole_nuove_ok": true
+   },
+   "P3": {
+    "5-grammi": "nessuna copia rilevante",
+    "righe": "nessuna copia rilevante",
+    "copia": false,
+    "zona_grigia": false,
+    "si_avvita": false,
+    "parola_prima_alta": false,
+    "parole_nuove_ok": true
+   }
+  },
+  "modi_scrittura": {
+   "P2": {
+    "libero": 286919,
+    "uguale": 46313,
+    "copia": 57295,
+    "toglie": 5513,
+    "aggiunge": 2527,
+    "cambia": 2942
+   },
+   "P3": {
+    "libero": 277206,
+    "primo_riscritto": 3164,
+    "copia": 61982,
+    "due_riscritti": 2876,
+    "uguale": 43630,
+    "cambia": 2277,
+    "toglie": 5530,
+    "glifo_davanti": 2332,
+    "aggiunge": 2173
+   }
+  }
+ },
+ "fase0": {
+  "vero": {
+   "misure": {
+    "parole": 34690.0,
+    "q_0": 0.1626981839146728,
+    "q_1": 0.19910637071202075,
+    "q_2": 0.0968002306140098,
+    "q_3-5": 0.12796194868838281,
+    "q_6+": 0.10518881522052465,
+    "senza_ripresa": 0.30824445085038915,
+    "locale": 0.3618045546266936,
+    "lontana": 0.32995099452291726,
+    "ripresa": 0.6917555491496108,
+    "tema_cond": 0.24831532104259377,
+    "quota_tema": 0.025991668176055062,
+    "tema_lontano": 0.006370712020755261
+   },
+   "nullo_righe": {
+    "parole": 34689.99999999999,
+    "q_0": 0.1626981839146729,
+    "q_1": 0.11919861631594124,
+    "q_2": 0.08292303257422888,
+    "q_3-5": 0.13656961660420863,
+    "q_6+": 0.1272066878062843,
+    "senza_ripresa": 0.37140386278466436,
+    "locale": 0.28189680023061414,
+    "lontana": 0.3466993369847218,
+    "ripresa": 0.6285961372153359,
+    "tema_cond": 0.1803949016429677,
+    "quota_tema": 0.0044298728601461605,
+    "tema_lontano": 0.0007379648313635053
+   },
+   "nullo_parole": {
+    "parole": 34690.0,
+    "q_0": 0.13617757278754683,
+    "q_1": 0.19549726145863353,
+    "q_2": 0.10724127990775434,
+    "q_3-5": 0.13962525223407318,
+    "q_6+": 0.11214759296627265,
+    "senza_ripresa": 0.3093110406457193,
+    "locale": 0.33167483424618033,
+    "lontana": 0.3590141251081001,
+    "ripresa": 0.6906889593542804,
+    "tema_cond": 0.26001489482874074,
+    "quota_tema": 0.025991668176055072,
+    "tema_lontano": 0.006872297492072643
+   },
+   "eccesso_tema": {
+    "differenza": 0.06792041939962606,
+    "errore": 0.006771121171889242
+   },
+   "eccesso_locale": {
+    "differenza": 0.03012972038051326,
+    "errore": 0.00211635998712939
+   },
+   "lettura_tema": "lettura non valida (controllo della fase 0 fallito)",
+   "lettura_locale": "lettura non valida (controllo della fase 0 fallito)"
+  },
+  "insiemi": {
+   "V21": {
+    "q_0": [
+     0.1552474800883601,
+     0.0017352036648660123
+    ],
+    "q_1": [
+     0.17749529568123648,
+     0.000945945012698109
+    ],
+    "q_2": [
+     0.09352614381106676,
+     0.0005130508424216091
+    ],
+    "q_3-5": [
+     0.13003914174343453,
+     0.00046073929272354467
+    ],
+    "q_6+": [
+     0.11008051195946104,
+     0.0005230194100387635
+    ],
+    "senza_ripresa": [
+     0.33361142671644106,
+     0.001605041993242472
+    ],
+    "locale": [
+     0.33274277576959654,
+     0.0020737129217848873
+    ],
+    "lontana": [
+     0.33364579751396234,
+     0.0008611307561711733
+    ],
+    "ripresa": [
+     0.6663885732835588,
+     0.001605041993242476
+    ],
+    "tema_cond": [
+     0.24695088629751943,
+     0.0014305403224559553
+    ],
+    "quota_tema": [
+     0.024250552479779856,
+     0.0006952588301519158
+    ],
+    "tema_lontano": [
+     0.006205340489453965,
+     0.00018047350287857302
+    ],
+    "eccesso_tema": [
+     0.06410934361049697,
+     0.0004872453088684603
+    ],
+    "eccesso_locale": [
+     0.01865565625318716,
+     0.0008008706776416021
+    ],
+    "libri": 10
+   },
+   "M1": {
+    "q_0": [
+     0.15834627141222773,
+     0.0013196933436176721
+    ],
+    "q_1": [
+     0.17991978371663833,
+     0.0014565670346516572
+    ],
+    "q_2": [
+     0.09894388891432804,
+     0.0005955208212112224
+    ],
+    "q_3-5": [
+     0.13428770883359942,
+     0.0006841959256624404
+    ],
+    "q_6+": [
+     0.10797156399907915,
+     0.0005428935037333839
+    ],
+    "senza_ripresa": [
+     0.32053078312412736,
+     0.0022081057810644953
+    ],
+    "locale": [
+     0.3382660551288661,
+     0.002601487340481074
+    ],
+    "lontana": [
+     0.34120316174700666,
+     0.0007901808734694514
+    ],
+    "ripresa": [
+     0.6794692168758727,
+     0.002208105781064496
+    ],
+    "tema_cond": [
+     0.24146569881846597,
+     0.001385508662714277
+    ],
+    "quota_tema": [
+     0.009373362104856429,
+     0.0007459855200151889
+    ],
+    "tema_lontano": [
+     0.0023783532531829253,
+     0.00018863166960426966
+    ],
+    "eccesso_tema": [
+     0.039270235307319885,
+     0.0005532177087882614
+    ],
+    "eccesso_locale": [
+     0.015361645065057434,
+     0.0006234128025091308
+    ],
+    "libri": 10
+   },
+   "M5": {
+    "q_0": [
+     0.15115703050169738,
+     0.0015311926704623354
+    ],
+    "q_1": [
+     0.18504170635343886,
+     0.0011186480827588372
+    ],
+    "q_2": [
+     0.08777798675259099,
+     0.000867635366714457
+    ],
+    "q_3-5": [
+     0.1256356474802385,
+     0.0014118707526516899
+    ],
+    "q_6+": [
+     0.11237875259779743,
+     0.0011603757726148167
+    ],
+    "senza_ripresa": [
+     0.3380088763142369,
+     0.002337560642043988
+    ],
+    "locale": [
+     0.33619873685513624,
+     0.0018635255777702823
+    ],
+    "lontana": [
+     0.32579238683062683,
+     0.003007694972025602
+    ],
+    "ripresa": [
+     0.6619911236857632,
+     0.0023375606420439877
+    ],
+    "tema_cond": [
+     0.21496890550615358,
+     0.0017730506807587493
+    ],
+    "quota_tema": [
+     0.01780676254236977,
+     0.0006729367344119839
+    ],
+    "tema_lontano": [
+     0.004003922289843516,
+     0.00013398536128627988
+    ],
+    "eccesso_tema": [
+     0.047259558330468424,
+     0.0006929823080907906
+    ],
+    "eccesso_locale": [
+     0.032867046580771546,
+     0.0008624948385302077
+    ],
+    "libri": 10
+   },
+   "E0": {
+    "q_0": [
+     0.1548056410645521,
+     0.00047233819924554865
+    ],
+    "q_1": [
+     0.18026511054684327,
+     0.0006762329711829348
+    ],
+    "q_2": [
+     0.08979479173595967,
+     0.0006009340549372804
+    ],
+    "q_3-5": [
+     0.1313133857785294,
+     0.0005447360297985276
+    ],
+    "q_6+": [
+     0.11295645289472345,
+     0.000626332204713539
+    ],
+    "senza_ripresa": [
+     0.3308646179793922,
+     0.0008183401144940922
+    ],
+    "locale": [
+     0.3350707516113954,
+     0.0007917941606980299
+    ],
+    "lontana": [
+     0.3340646304092126,
+     0.0006201721096499955
+    ],
+    "ripresa": [
+     0.6691353820206078,
+     0.0008183401144940927
+    ],
+    "tema_cond": [
+     0.21607038368172876,
+     0.0013737347091272382
+    ],
+    "quota_tema": [
+     0.009938405216447224,
+     0.0004389358100490206
+    ],
+    "tema_lontano": [
+     0.00203910631019573,
+     8.463697535622613e-05
+    ],
+    "eccesso_tema": [
+     0.027443072582254847,
+     0.0019054577228450043
+    ],
+    "eccesso_locale": [
+     0.03375063085286696,
+     0.0007335259653832664
+    ],
+    "libri": 10
+   },
+   "E1": {
+    "q_0": [
+     0.1997162485774488,
+     0.001990564733627271
+    ],
+    "q_1": [
+     0.20565984111458308,
+     0.0010652642603495917
+    ],
+    "q_2": [
+     0.07555286063670345,
+     0.0005145784570395869
+    ],
+    "q_3-5": [
+     0.11176178841195902,
+     0.0007267081201802276
+    ],
+    "q_6+": [
+     0.10294344104197173,
+     0.0007170674302474812
+    ],
+    "senza_ripresa": [
+     0.30436582021733394,
+     0.00145794084386586
+    ],
+    "locale": [
+     0.40537608969203187,
+     0.0027006453492649405
+    ],
+    "lontana": [
+     0.29025809009063425,
+     0.0015163208345862725
+    ],
+    "ripresa": [
+     0.6956341797826662,
+     0.0014579408438658524
+    ],
+    "tema_cond": [
+     0.22623270620243727,
+     0.0007284620160374312
+    ],
+    "quota_tema": [
+     0.009736882027011649,
+     0.00044351583578475153
+    ],
+    "tema_lontano": [
+     0.002240457595444746,
+     0.00013084607514205276
+    ],
+    "eccesso_tema": [
+     0.02859561914312212,
+     0.0010177491277585265
+    ],
+    "eccesso_locale": [
+     0.061505080681414956,
+     0.0006659343431530691
+    ],
+    "libri": 10
+   },
+   "E2": {
+    "q_0": [
+     0.1607008871152201,
+     0.0038579901075846104
+    ],
+    "q_1": [
+     0.1868709004403783,
+     0.0020794737742326
+    ],
+    "q_2": [
+     0.09221027315949237,
+     0.0005502649148556264
+    ],
+    "q_3-5": [
+     0.1326169155353401,
+     0.0011061096918991442
+    ],
+    "q_6+": [
+     0.11072458458028392,
+     0.0017829537925700175
+    ],
+    "senza_ripresa": [
+     0.3168764391692852,
+     0.003294153238526761
+    ],
+    "locale": [
+     0.3475717875555984,
+     0.005862883439381602
+    ],
+    "lontana": [
+     0.33555177327511637,
+     0.002681788983145217
+    ],
+    "ripresa": [
+     0.6831235608307147,
+     0.003294153238526761
+    ],
+    "tema_cond": [
+     0.22748081349716048,
+     0.003674707495731617
+    ],
+    "quota_tema": [
+     0.010398025297809203,
+     0.0005398547907664701
+    ],
+    "tema_lontano": [
+     0.0023438463309751376,
+     0.0001030431140537205
+    ],
+    "eccesso_tema": [
+     0.035904084640486764,
+     0.0017287029113993795
+    ],
+    "eccesso_locale": [
+     0.031846303902381905,
+     0.0004949338679117652
+    ],
+    "libri": 10
+   },
+   "E3": {
+    "q_0": [
+     0.15888026123990845,
+     0.002471382901913819
+    ],
+    "q_1": [
+     0.18538528965314632,
+     0.001524000599676929
+    ],
+    "q_2": [
+     0.08953076046266004,
+     0.0005526101928811061
+    ],
+    "q_3-5": [
+     0.12959472044908382,
+     0.0007036248894840179
+    ],
+    "q_6+": [
+     0.11094192252701021,
+     0.000997313428291918
+    ],
+    "senza_ripresa": [
+     0.32566704566819116,
+     0.00267925293136327
+    ],
+    "locale": [
+     0.3442655508930548,
+     0.0039055221671072263
+    ],
+    "lontana": [
+     0.33006740343875407,
+     0.0013826988730875817
+    ],
+    "ripresa": [
+     0.6743329543318088,
+     0.002679252931363271
+    ],
+    "tema_cond": [
+     0.22200281695435659,
+     0.0016231240169791953
+    ],
+    "quota_tema": [
+     0.009647282807586434,
+     0.0007794379819075506
+    ],
+    "tema_lontano": [
+     0.0020915597800478915,
+     0.0001728230377760809
+    ],
+    "eccesso_tema": [
+     0.03302988022185874,
+     0.0008806064685804427
+    ],
+    "eccesso_locale": [
+     0.03274047633502245,
+     0.0007673432085283959
+    ],
+    "libri": 10
+   },
+   "P1": {
+    "q_0": [
+     0.1696442899311936,
+     0.0015327403943247284
+    ],
+    "q_1": [
+     0.19817602307199925,
+     0.0006341696531158376
+    ],
+    "q_2": [
+     0.10256295625643422,
+     0.000581323868831153
+    ],
+    "q_3-5": [
+     0.13138668084070354,
+     0.0007841812074703735
+    ],
+    "q_6+": [
+     0.09888560153999786,
+     0.0007029991773146632
+    ],
+    "senza_ripresa": [
+     0.2993444483596715,
+     0.000895288871354107
+    ],
+    "locale": [
+     0.3678203130031929,
+     0.0017912048273112267
+    ],
+    "lontana": [
+     0.33283523863713566,
+     0.0014694447718892687
+    ],
+    "ripresa": [
+     0.7006555516403286,
+     0.0008952888713541069
+    ],
+    "tema_cond": [
+     0.2590523457592768,
+     0.0010623680828376304
+    ],
+    "quota_tema": [
+     0.023981075519072897,
+     0.0008891636389993234
+    ],
+    "tema_lontano": [
+     0.0064249748449169445,
+     0.0002550898471049497
+    ],
+    "eccesso_tema": [
+     0.07159422012810217,
+     0.0010047029545470583
+    ],
+    "eccesso_locale": [
+     0.02881446250783793,
+     0.0005923050606423824
+    ],
+    "libri": 10
+   },
+   "P2": {
+    "q_0": [
+     0.14316470891416716,
+     0.0005301439022177255
+    ],
+    "q_1": [
+     0.17428397126284298,
+     0.0005430204549243689
+    ],
+    "q_2": [
+     0.09764927441095056,
+     0.0006234503628488124
+    ],
+    "q_3-5": [
+     0.1341819040200191,
+     0.0010440813618801767
+    ],
+    "q_6+": [
+     0.11251644791265106,
+     0.0006734664592431123
+    ],
+    "senza_ripresa": [
+     0.3382036934793692,
+     0.0016146713775343096
+    ],
+    "locale": [
+     0.31744868017701017,
+     0.0008596208083166713
+    ],
+    "lontana": [
+     0.3443476263436207,
+     0.0019274463815071572
+    ],
+    "ripresa": [
+     0.6617963065206307,
+     0.0016146713775343096
+    ],
+    "tema_cond": [
+     0.24384856573621727,
+     0.0009757916191696082
+    ],
+    "quota_tema": [
+     0.018205918944249302,
+     0.0007367355584355901
+    ],
+    "tema_lontano": [
+     0.004567906450197741,
+     0.00015813825183732142
+    ],
+    "eccesso_tema": [
+     0.061593307765296215,
+     0.0019687009179078807
+    ],
+    "eccesso_locale": [
+     0.018954007013334422,
+     0.0008008157844457717
+    ],
+    "libri": 10
+   },
+   "P3": {
+    "q_0": [
+     0.1422304740230737,
+     0.005284660616297477
+    ],
+    "q_1": [
+     0.17529388916726446,
+     0.0032931645353338206
+    ],
+    "q_2": [
+     0.09988466282170594,
+     0.0010453281909940766
+    ],
+    "q_3-5": [
+     0.13596489937045148,
+     0.0007698403500538904
+    ],
+    "q_6+": [
+     0.11326397492872528,
+     0.001984627303789071
+    ],
+    "senza_ripresa": [
+     0.33336209968877917,
+     0.00689222745930927
+    ],
+    "locale": [
+     0.31752436319033817,
+     0.008493433257113821
+    ],
+    "lontana": [
+     0.3491135371208827,
+     0.0016641759087900974
+    ],
+    "ripresa": [
+     0.6666379003112208,
+     0.006892227459309267
+    ],
+    "tema_cond": [
+     0.2459671721796141,
+     0.004452438094537512
+    ],
+    "quota_tema": [
+     0.02028919745493283,
+     0.0009086151706306844
+    ],
+    "tema_lontano": [
+     0.005061852324874086,
+     0.0001902856534606621
+    ],
+    "eccesso_tema": [
+     0.07015953000045227,
+     0.0007909575772805054
+    ],
+    "eccesso_locale": [
+     0.0198537174040405,
+     0.00042927703945116916
+    ],
+    "libri": 10
+   }
+  },
+  "vero_valori": {
+   "q_0": 0.1626981839146728,
+   "q_1": 0.19910637071202075,
+   "q_2": 0.0968002306140098,
+   "q_3-5": 0.12796194868838281,
+   "q_6+": 0.10518881522052465,
+   "senza_ripresa": 0.30824445085038915,
+   "locale": 0.3618045546266936,
+   "lontana": 0.32995099452291726,
+   "ripresa": 0.6917555491496108,
+   "tema_cond": 0.24831532104259377,
+   "quota_tema": 0.025991668176055062,
+   "tema_lontano": 0.006370712020755261,
+   "eccesso_tema": 0.06792041939962606,
+   "eccesso_locale": 0.03012972038051326
+  },
+  "al_vero": {
+   "V21": {
+    "locale": false,
+    "lontana": true,
+    "tema_cond": true,
+    "quota_tema": false,
+    "eccesso_tema": false,
+    "eccesso_locale": false
+   },
+   "M1": {
+    "locale": false,
+    "lontana": true,
+    "tema_cond": true,
+    "quota_tema": false,
+    "eccesso_tema": false,
+    "eccesso_locale": false
+   },
+   "M5": {
+    "locale": false,
+    "lontana": true,
+    "tema_cond": false,
+    "quota_tema": false,
+    "eccesso_tema": false,
+    "eccesso_locale": false
+   },
+   "E0": {
+    "locale": false,
+    "lontana": true,
+    "tema_cond": false,
+    "quota_tema": false,
+    "eccesso_tema": false,
+    "eccesso_locale": false
+   },
+   "E1": {
+    "locale": false,
+    "lontana": false,
+    "tema_cond": false,
+    "quota_tema": false,
+    "eccesso_tema": false,
+    "eccesso_locale": false
+   },
+   "E2": {
+    "locale": true,
+    "lontana": true,
+    "tema_cond": false,
+    "quota_tema": false,
+    "eccesso_tema": false,
+    "eccesso_locale": false
+   },
+   "E3": {
+    "locale": true,
+    "lontana": true,
+    "tema_cond": false,
+    "quota_tema": false,
+    "eccesso_tema": false,
+    "eccesso_locale": false
+   },
+   "P1": {
+    "locale": true,
+    "lontana": true,
+    "tema_cond": true,
+    "quota_tema": false,
+    "eccesso_tema": false,
+    "eccesso_locale": true
+   },
+   "P2": {
+    "locale": false,
+    "lontana": true,
+    "tema_cond": true,
+    "quota_tema": false,
+    "eccesso_tema": false,
+    "eccesso_locale": false
+   },
+   "P3": {
+    "locale": false,
+    "lontana": false,
+    "tema_cond": true,
+    "quota_tema": false,
+    "eccesso_tema": true,
+    "eccesso_locale": false
+   }
+  },
+  "controlli": {
+   "tema_eco": {
+    "piantato": {
+     "eco": 0.25,
+     "tema": 0.3
+    },
+    "eccesso_tema": {
+     "differenza": 0.11613261509242975,
+     "errore": 0.005235284386742947
+    },
+    "eccesso_locale": {
+     "differenza": 0.1597117324877486,
+     "errore": 0.0034365540043693
+    },
+    "lettura_tema": "presente",
+    "lettura_locale": "presente",
+    "atteso": [
+     "presente",
+     "presente"
+    ],
+    "tema_cond": 0.2135731206833272,
+    "locale": 0.364427788988181
+   },
+   "solo_eco": {
+    "piantato": {
+     "eco": 0.25,
+     "tema": 0.0
+    },
+    "eccesso_tema": {
+     "differenza": 0.0008160400455886896,
+     "errore": 0.0027658911659460936
+    },
+    "eccesso_locale": {
+     "differenza": 0.1589737676563852,
+     "errore": 0.003297697214541668
+    },
+    "lettura_tema": "assente",
+    "lettura_locale": "presente",
+    "atteso": [
+     "assente",
+     "presente"
+    ],
+    "tema_cond": 0.1562828947368421,
+    "locale": 0.40368982415681753
+   },
+   "solo_tema": {
+    "piantato": {
+     "eco": 0.0,
+     "tema": 0.3
+    },
+    "eccesso_tema": {
+     "differenza": 0.16076191831440473,
+     "errore": 0.0064701769145723625
+    },
+    "eccesso_locale": {
+     "differenza": 0.0016373594695877347,
+     "errore": 0.0019218541376698451
+    },
+    "lettura_tema": "presente",
+    "lettura_locale": "assente",
+    "atteso": [
+     "presente",
+     "assente"
+    ],
+    "tema_cond": 0.28109491076107396,
+    "locale": 0.19541654655520324
+   },
+   "nulla": {
+    "piantato": {
+     "eco": 0.0,
+     "tema": 0.0
+    },
+    "eccesso_tema": {
+     "differenza": 0.011464053184935707,
+     "errore": 0.0030867471111515276
+    },
+    "eccesso_locale": {
+     "differenza": -0.0026347650619775453,
+     "errore": 0.001559102216931909
+    },
+    "lettura_tema": "zona grigia",
+    "lettura_locale": "assente",
+    "atteso": [
+     "assente",
+     "assente"
+    ],
+    "tema_cond": 0.20375327057832848,
+    "locale": 0.24586336119919286
+   }
+  },
+  "controlli_ok": false
+ },
+ "vero": {
+  "copia_netta": 0.11382446086563112,
+  "lam": 0.20738768101540883,
+  "contatto": 0.18840289899986576,
+  "D": 0.14444693781914492,
+  "G9": 0.040196397742557295,
+  "bordi_inizio": 0.07898886924178307,
+  "bordi_fine": 0.04752787688488469,
+  "parole_nuove": 0.1529988813355133,
+  "costo_forma": 3.4785519611465934,
+  "intervalli": {
+   "copia_netta": [
+    0.09915200577613724,
+    0.12964590088508482
+   ],
+   "lam": [
+    0.12917663110252997,
+    0.28804400670958213
+   ],
+   "bordi": {
+    "inizio_primo": [
+     0.1810586514105274,
+     0.22270584370392912
+    ],
+    "inizio_ultimo": [
+     0.011840573209733063,
+     0.020919829768810145
+    ],
+    "inizio_lung": [
+     0.01694726961941227,
+     0.027417539168690677
+    ],
+    "fine_primo": [
+     0.04269996364152965,
+     0.05630571431548779
+    ],
+    "fine_ultimo": [
+     0.07832016199690744,
+     0.09946997386359412
+    ],
+    "fine_lung": [
+     0.003958401372216949,
+     0.008747292885329693
+    ]
+   }
+  }
+ },
+ "struttura": {
+  "P1": {
+   "copia_netta": [
+    0.14560383328838017,
+    0.008193507634817115
+   ],
+   "lam": [
+    0.10080409575020247,
+    0.010600394674623695
+   ],
+   "contatto": [
+    0.18666982350769054,
+    0.004560813842250465
+   ],
+   "D": [
+    0.13948482237165138,
+    0.0028887494644890726
+   ],
+   "G9": [
+    0.03387613650780318,
+    0.0005943953084323238
+   ],
+   "bordi_inizio": [
+    0.08410783365807516,
+    0.0012720886350914796
+   ],
+   "bordi_fine": [
+    0.046897066619506565,
+    0.00045884698498444346
+   ],
+   "parole_nuove": [
+    0.15236062525189872,
+    0.0011937154935817479
+   ],
+   "costo_forma": [
+    3.7796717103460495,
+    0.01044362401624542
+   ],
+   "libri": 10
+  },
+  "P2": {
+   "copia_netta": [
+    0.17412328454295395,
+    0.008176364093858473
+   ],
+   "lam": [
+    0.20735170929564398,
+    0.010618832739115455
+   ],
+   "contatto": [
+    0.16002998899890028,
+    0.0037857282388011363
+   ],
+   "D": [
+    0.1271048420101774,
+    0.005227759388114536
+   ],
+   "G9": [
+    0.02315480892596853,
+    0.000759301845511888
+   ],
+   "bordi_inizio": [
+    0.08150237592585656,
+    0.0006997674828661587
+   ],
+   "bordi_fine": [
+    0.047662416050746295,
+    0.0010366843823370981
+   ],
+   "parole_nuove": [
+    0.16591940189033666,
+    0.000623714426198735
+   ],
+   "costo_forma": [
+    3.806906407439482,
+    0.0266960506427923
+   ],
+   "libri": 10
+  },
+  "P3": {
+   "copia_netta": [
+    0.22795251489927218,
+    0.007486855155770322
+   ],
+   "lam": [
+    0.23958163927323178,
+    0.00600573107022402
+   ],
+   "contatto": [
+    0.18606587733062457,
+    0.00529085742094864
+   ],
+   "D": [
+    0.1319800243142761,
+    0.0017055653645937357
+   ],
+   "G9": [
+    0.025753863779221963,
+    0.00023367830701403488
+   ],
+   "bordi_inizio": [
+    0.08152094330143368,
+    0.001550255821869427
+   ],
+   "bordi_fine": [
+    0.04532811727010453,
+    0.0014429907831013343
+   ],
+   "parole_nuove": [
+    0.17019327022139755,
+    0.0017840494011700189
+   ],
+   "costo_forma": [
+    3.7988875801855047,
+    0.04247148468679278
+   ],
+   "libri": 10
+  },
+  "M1": {
+   "copia_netta": [
+    0.03604932707711207,
+    0.0015623429076297545
+   ],
+   "lam": [
+    0.05383330946298408,
+    0.036784837480222515
+   ],
+   "contatto": [
+    0.18906707372102288,
+    0.002475019779793974
+   ],
+   "D": [
+    0.14862767998780188,
+    0.001747269615850886
+   ],
+   "G9": [
+    0.02454522305764823,
+    0.0005931193472198923
+   ],
+   "bordi_inizio": [
+    0.08366585245812405,
+    0.0015053537820714875
+   ],
+   "bordi_fine": [
+    0.04565483300118185,
+    0.00067786398573625
+   ],
+   "parole_nuove": [
+    0.14722778763862202,
+    0.001524437758794173
+   ],
+   "costo_forma": [
+    3.7459115233141986,
+    0.006171643139686107
+   ],
+   "libri": 10
+  },
+  "M5": {
+   "copia_netta": [
+    0.14160789524880663,
+    0.005903821350086913
+   ],
+   "lam": [
+    0.23620112541950994,
+    0.01107172189019411
+   ],
+   "contatto": [
+    0.15779857032805947,
+    0.0014699487562727387
+   ],
+   "D": [
+    0.1078208849788245,
+    0.001395034909398327
+   ],
+   "G9": [
+    0.031585996196555964,
+    0.0002472817143510854
+   ],
+   "bordi_inizio": [
+    0.07596591357069213,
+    0.001712021625634522
+   ],
+   "bordi_fine": [
+    0.041686767204464056,
+    0.0005981297930979024
+   ],
+   "parole_nuove": [
+    0.17253978064868467,
+    0.0029773055468237126
+   ],
+   "costo_forma": [
+    3.697111207557904,
+    0.009701120202348467
+   ],
+   "libri": 10
+  },
+  "E1": {
+   "copia_netta": [
+    0.10139127497972808,
+    0.004517481293527302
+   ],
+   "lam": [
+    0.37989587901568517,
+    0.025019529839603868
+   ],
+   "contatto": [
+    0.17320478150228355,
+    0.0032986884766625932
+   ],
+   "D": [
+    0.14880598528172423,
+    0.001491571390192157
+   ],
+   "G9": [
+    0.028117608038682285,
+    0.00020432108278468458
+   ],
+   "bordi_inizio": [
+    0.08151686724294831,
+    0.0017346910118537866
+   ],
+   "bordi_fine": [
+    0.04537372669257153,
+    0.0019334125488847202
+   ],
+   "parole_nuove": [
+    0.14107426544348575,
+    0.0007523566552548637
+   ],
+   "costo_forma": [
+    3.7234527318875026,
+    0.006108082296976101
+   ],
+   "libri": 10
+  },
+  "E2": {
+   "copia_netta": [
+    0.1133756257251108,
+    0.00791060325481783
+   ],
+   "lam": [
+    0.36048555399050375,
+    0.014952541666843615
+   ],
+   "contatto": [
+    0.1796172567654809,
+    0.008313425850732567
+   ],
+   "D": [
+    0.14318900813672614,
+    0.008113776989409745
+   ],
+   "G9": [
+    0.025929503753994713,
+    0.0006680991749531045
+   ],
+   "bordi_inizio": [
+    0.08025505591145209,
+    0.0012167290058835206
+   ],
+   "bordi_fine": [
+    0.0449279427885733,
+    0.0005978214221629561
+   ],
+   "parole_nuove": [
+    0.14599358779738664,
+    0.0023325929886292888
+   ],
+   "costo_forma": [
+    3.8169749863144817,
+    0.013616149889516328
+   ],
+   "libri": 10
+  },
+  "E3": {
+   "copia_netta": [
+    0.11034157170982259,
+    0.003354037644876958
+   ],
+   "lam": [
+    0.410122930639202,
+    0.018271869097482418
+   ],
+   "contatto": [
+    0.17611483873550512,
+    0.00162065165391451
+   ],
+   "D": [
+    0.1490231136044227,
+    0.002914221186131874
+   ],
+   "G9": [
+    0.026172405493331063,
+    0.0005892764100083102
+   ],
+   "bordi_inizio": [
+    0.07764362781704649,
+    0.0011787174639561163
+   ],
+   "bordi_fine": [
+    0.042987532378722014,
+    0.0007639907205753668
+   ],
+   "parole_nuove": [
+    0.1531151518806001,
+    0.0026213742672352297
+   ],
+   "costo_forma": [
+    3.746942317962813,
+    0.004186774035800161
+   ],
+   "libri": 10
+  },
+  "V21": {
+   "copia_netta": [
+    0.054823252127049804,
+    0.0015678230950060903
+   ],
+   "lam": [
+    0.09064644396819724,
+    0.017662220176517814
+   ],
+   "contatto": [
+    0.18499531172269873,
+    0.0011232005594140613
+   ],
+   "D": [
+    0.08980149851820118,
+    0.0016645952124695789
+   ],
+   "G9": [
+    0.039183585231439486,
+    0.00045810429015490247
+   ],
+   "bordi_inizio": [
+    0.07772996270459787,
+    0.0008631113892893616
+   ],
+   "bordi_fine": [
+    0.04135539095854947,
+    0.0006515534702661807
+   ],
+   "parole_nuove": [
+    0.14303675475111205,
+    0.0012444146216090636
+   ],
+   "costo_forma": [
+    3.6607988666557434,
+    0.005271189091739458
+   ],
+   "libri": 10
+  }
+ },
+ "valori": {
+  "M1": {
+   "e231": [
+    0.7845824911522917,
+    0.009449150773045822
+   ],
+   "e266": [
+    0.8406518645861836,
+    0.006746481529451753
+   ],
+   "K": [
+    0.7735079894128027,
+    0.004728752413814343
+   ],
+   "A": [
+    0.6754421135182825,
+    0.008709415903050568
+   ],
+   "copia_netta": [
+    0.03604932707711207,
+    0.0015623429076297545
+   ],
+   "lam": [
+    0.05383330946298408,
+    0.036784837480222515
+   ],
+   "contatto": [
+    0.18906707372102288,
+    0.002475019779793974
+   ],
+   "D": [
+    0.14862767998780188,
+    0.001747269615850886
+   ],
+   "G9": [
+    0.02454522305764823,
+    0.0005931193472198923
+   ],
+   "bordi_inizio": [
+    0.08366585245812405,
+    0.0015053537820714875
+   ],
+   "bordi_fine": [
+    0.04565483300118185,
+    0.00067786398573625
+   ],
+   "parole_nuove": [
+    0.14722778763862202,
+    0.001524437758794173
+   ],
+   "costo_forma": [
+    3.7459115233141986,
+    0.006171643139686107
+   ]
+  },
+  "E1": {
+   "e231": [
+    0.8202973530662389,
+    0.015174546714993449
+   ],
+   "e266": [
+    0.8698882625922248,
+    0.007947391582795905
+   ],
+   "K": [
+    0.7866233702578178,
+    0.006308037141920766
+   ],
+   "A": [
+    0.6930947946279775,
+    0.014405487336338967
+   ],
+   "copia_netta": [
+    0.10139127497972808,
+    0.004517481293527302
+   ],
+   "lam": [
+    0.37989587901568517,
+    0.025019529839603868
+   ],
+   "contatto": [
+    0.17320478150228355,
+    0.0032986884766625932
+   ],
+   "D": [
+    0.14880598528172423,
+    0.001491571390192157
+   ],
+   "G9": [
+    0.028117608038682285,
+    0.00020432108278468458
+   ],
+   "bordi_inizio": [
+    0.08151686724294831,
+    0.0017346910118537866
+   ],
+   "bordi_fine": [
+    0.04537372669257153,
+    0.0019334125488847202
+   ],
+   "parole_nuove": [
+    0.14107426544348575,
+    0.0007523566552548637
+   ],
+   "costo_forma": [
+    3.7234527318875026,
+    0.006108082296976101
+   ]
+  },
+  "E2": {
+   "e231": [
+    0.8009471032439162,
+    0.011754919500920861
+   ],
+   "e266": [
+    0.8641813194609866,
+    0.0044385807003397715
+   ],
+   "K": [
+    0.796895892559553,
+    0.007489359597455748
+   ],
+   "A": [
+    0.6950406822860504,
+    0.007101723206891565
+   ],
+   "copia_netta": [
+    0.1133756257251108,
+    0.00791060325481783
+   ],
+   "lam": [
+    0.36048555399050375,
+    0.014952541666843615
+   ],
+   "contatto": [
+    0.1796172567654809,
+    0.008313425850732567
+   ],
+   "D": [
+    0.14318900813672614,
+    0.008113776989409745
+   ],
+   "G9": [
+    0.025929503753994713,
+    0.0006680991749531045
+   ],
+   "bordi_inizio": [
+    0.08025505591145209,
+    0.0012167290058835206
+   ],
+   "bordi_fine": [
+    0.0449279427885733,
+    0.0005978214221629561
+   ],
+   "parole_nuove": [
+    0.14599358779738664,
+    0.0023325929886292888
+   ],
+   "costo_forma": [
+    3.8169749863144817,
+    0.013616149889516328
+   ]
+  },
+  "E3": {
+   "e231": [
+    0.7984781030984411,
+    0.008327240940217811
+   ],
+   "e266": [
+    0.8360627778974908,
+    0.004773633942453483
+   ],
+   "K": [
+    0.7940280364670131,
+    0.007693134494211995
+   ],
+   "A": [
+    0.7237231643956474,
+    0.014169816756481128
+   ],
+   "copia_netta": [
+    0.11034157170982259,
+    0.003354037644876958
+   ],
+   "lam": [
+    0.410122930639202,
+    0.018271869097482418
+   ],
+   "contatto": [
+    0.17611483873550512,
+    0.00162065165391451
+   ],
+   "D": [
+    0.1490231136044227,
+    0.002914221186131874
+   ],
+   "G9": [
+    0.026172405493331063,
+    0.0005892764100083102
+   ],
+   "bordi_inizio": [
+    0.07764362781704649,
+    0.0011787174639561163
+   ],
+   "bordi_fine": [
+    0.042987532378722014,
+    0.0007639907205753668
+   ],
+   "parole_nuove": [
+    0.1531151518806001,
+    0.0026213742672352297
+   ],
+   "costo_forma": [
+    3.746942317962813,
+    0.004186774035800161
+   ]
+  },
+  "M5": {
+   "e231": [
+    0.7816964520324963,
+    0.007640520461775642
+   ],
+   "e266": [
+    0.7989656738723602,
+    0.007038944373469052
+   ],
+   "K": [
+    0.7970350945985688,
+    0.006969117345826173
+   ],
+   "A": [
+    0.7070326438584453,
+    0.005860273354120806
+   ],
+   "copia_netta": [
+    0.14160789524880663,
+    0.005903821350086913
+   ],
+   "lam": [
+    0.23620112541950994,
+    0.01107172189019411
+   ],
+   "contatto": [
+    0.15779857032805947,
+    0.0014699487562727387
+   ],
+   "D": [
+    0.1078208849788245,
+    0.001395034909398327
+   ],
+   "G9": [
+    0.031585996196555964,
+    0.0002472817143510854
+   ],
+   "bordi_inizio": [
+    0.07596591357069213,
+    0.001712021625634522
+   ],
+   "bordi_fine": [
+    0.041686767204464056,
+    0.0005981297930979024
+   ],
+   "parole_nuove": [
+    0.17253978064868467,
+    0.0029773055468237126
+   ],
+   "costo_forma": [
+    3.697111207557904,
+    0.009701120202348467
+   ]
+  },
+  "P1": {
+   "e231": [
+    0.8054395386279273,
+    0.006584707701824842
+   ],
+   "e266": [
+    0.8199715213241447,
+    0.0056529864278942275
+   ],
+   "K": [
+    0.8109950004901479,
+    0.00714615431630874
+   ],
+   "A": [
+    0.7714577002254682,
+    0.003200997586323408
+   ],
+   "copia_netta": [
+    0.14560383328838017,
+    0.008193507634817115
+   ],
+   "lam": [
+    0.10080409575020247,
+    0.010600394674623695
+   ],
+   "contatto": [
+    0.18666982350769054,
+    0.004560813842250465
+   ],
+   "D": [
+    0.13948482237165138,
+    0.0028887494644890726
+   ],
+   "G9": [
+    0.03387613650780318,
+    0.0005943953084323238
+   ],
+   "bordi_inizio": [
+    0.08410783365807516,
+    0.0012720886350914796
+   ],
+   "bordi_fine": [
+    0.046897066619506565,
+    0.00045884698498444346
+   ],
+   "parole_nuove": [
+    0.15236062525189872,
+    0.0011937154935817479
+   ],
+   "costo_forma": [
+    3.7796717103460495,
+    0.01044362401624542
+   ]
+  },
+  "P2": {
+   "e231": [
+    0.791093703823035,
+    0.005420782007476163
+   ],
+   "e266": [
+    0.859513832540383,
+    0.007329624438914365
+   ],
+   "K": [
+    0.8289628467797275,
+    0.005530198829527511
+   ],
+   "A": [
+    0.7694564258406038,
+    0.009467532501629756
+   ],
+   "copia_netta": [
+    0.17412328454295395,
+    0.008176364093858473
+   ],
+   "lam": [
+    0.20735170929564398,
+    0.010618832739115455
+   ],
+   "contatto": [
+    0.16002998899890028,
+    0.0037857282388011363
+   ],
+   "D": [
+    0.1271048420101774,
+    0.005227759388114536
+   ],
+   "G9": [
+    0.02315480892596853,
+    0.000759301845511888
+   ],
+   "bordi_inizio": [
+    0.08150237592585656,
+    0.0006997674828661587
+   ],
+   "bordi_fine": [
+    0.047662416050746295,
+    0.0010366843823370981
+   ],
+   "parole_nuove": [
+    0.16591940189033666,
+    0.000623714426198735
+   ],
+   "costo_forma": [
+    3.806906407439482,
+    0.0266960506427923
+   ]
+  },
+  "P3": {
+   "e231": [
+    0.8029290588132113,
+    0.00793638432188011
+   ],
+   "e266": [
+    0.837405145684101,
+    0.006513258464683127
+   ],
+   "K": [
+    0.8228654053524165,
+    0.009209300266101932
+   ],
+   "A": [
+    0.764596608175669,
+    0.009107101281620757
+   ],
+   "copia_netta": [
+    0.22795251489927218,
+    0.007486855155770322
+   ],
+   "lam": [
+    0.23958163927323178,
+    0.00600573107022402
+   ],
+   "contatto": [
+    0.18606587733062457,
+    0.00529085742094864
+   ],
+   "D": [
+    0.1319800243142761,
+    0.0017055653645937357
+   ],
+   "G9": [
+    0.025753863779221963,
+    0.00023367830701403488
+   ],
+   "bordi_inizio": [
+    0.08152094330143368,
+    0.001550255821869427
+   ],
+   "bordi_fine": [
+    0.04532811727010453,
+    0.0014429907831013343
+   ],
+   "parole_nuove": [
+    0.17019327022139755,
+    0.0017840494011700189
+   ],
+   "costo_forma": [
+    3.7988875801855047,
+    0.04247148468679278
+   ]
+  }
+ },
+ "letture": {
+  "validita": {
+   "paper": true,
+   "K": true,
+   "A": true,
+   "sensibilita": {
+    "P1": false,
+    "P2": true,
+    "P3": true
+   },
+   "controllo_vede_la_differenza_sul_tema": true,
+   "scambio_visto_nel_sintetico": {
+    "P1": false,
+    "P2": false,
+    "P3": false
+   },
+   "fase0": false
+  },
+  "L1_eco_e_legame": {
+   "per_tipo": {
+    "M1": {
+     "al_vero": {
+      "copia_netta": false,
+      "lam": false,
+      "contatto": true,
+      "D": true,
+      "G9": false
+     },
+     "distanza_relativa": {
+      "copia_netta": 0.6832901574674004,
+      "lam": 0.7404218553416184,
+      "contatto": 0.0035252892852651744,
+      "D": 0.028943100018440485,
+      "G9": 0.38936759420953365
+     },
+     "eco_al_vero": false,
+     "legame_al_vero": true,
+     "tutti_al_vero": false,
+     "con_G9_al_vero": false,
+     "valori": {
+      "copia_netta": 0.03604932707711207,
+      "lam": 0.05383330946298408,
+      "contatto": 0.18906707372102288,
+      "D": 0.14862767998780188,
+      "G9": 0.02454522305764823
+     }
+    },
+    "E1": {
+     "al_vero": {
+      "copia_netta": false,
+      "lam": false,
+      "contatto": false,
+      "D": true,
+      "G9": false
+     },
+     "distanza_relativa": {
+      "copia_netta": 0.10923123018856484,
+      "lam": 0.8318150680679005,
+      "contatto": 0.08066817218981878,
+      "D": 0.030177499976060878,
+      "G9": 0.3004943323835903
+     },
+     "eco_al_vero": false,
+     "legame_al_vero": false,
+     "tutti_al_vero": false,
+     "con_G9_al_vero": false,
+     "valori": {
+      "copia_netta": 0.10139127497972808,
+      "lam": 0.37989587901568517,
+      "contatto": 0.17320478150228355,
+      "D": 0.14880598528172423,
+      "G9": 0.028117608038682285
+     }
+    },
+    "E2": {
+     "al_vero": {
+      "copia_netta": true,
+      "lam": false,
+      "contatto": true,
+      "D": true,
+      "G9": false
+     },
+     "distanza_relativa": {
+      "copia_netta": 0.003943222195887864,
+      "lam": 0.7382206707047358,
+      "contatto": 0.0466322030129224,
+      "D": 0.008708593628989025,
+      "G9": 0.3549296650893106
+     },
+     "eco_al_vero": false,
+     "legame_al_vero": true,
+     "tutti_al_vero": false,
+     "con_G9_al_vero": false,
+     "valori": {
+      "copia_netta": 0.1133756257251108,
+      "lam": 0.36048555399050375,
+      "contatto": 0.1796172567654809,
+      "D": 0.14318900813672614,
+      "G9": 0.025929503753994713
+     }
+    },
+    "E3": {
+     "al_vero": {
+      "copia_netta": true,
+      "lam": false,
+      "contatto": false,
+      "D": true,
+      "G9": false
+     },
+     "distanza_relativa": {
+      "copia_netta": 0.03059877577562224,
+      "lam": 0.9775665007254217,
+      "contatto": 0.06522224620529533,
+      "D": 0.03168067010882145,
+      "G9": 0.3488867917728497
+     },
+     "eco_al_vero": false,
+     "legame_al_vero": false,
+     "tutti_al_vero": false,
+     "con_G9_al_vero": false,
+     "valori": {
+      "copia_netta": 0.11034157170982259,
+      "lam": 0.410122930639202,
+      "contatto": 0.17611483873550512,
+      "D": 0.1490231136044227,
+      "G9": 0.026172405493331063
+     }
+    },
+    "M5": {
+     "al_vero": {
+      "copia_netta": false,
+      "lam": false,
+      "contatto": false,
+      "D": false,
+      "G9": false
+     },
+     "distanza_relativa": {
+      "copia_netta": 0.2440901909122471,
+      "lam": 0.13893517813124243,
+      "contatto": 0.1624408585763221,
+      "D": 0.25356060428347843,
+      "G9": 0.2142082880448067
+     },
+     "eco_al_vero": false,
+     "legame_al_vero": false,
+     "tutti_al_vero": false,
+     "con_G9_al_vero": false,
+     "valori": {
+      "copia_netta": 0.14160789524880663,
+      "lam": 0.23620112541950994,
+      "contatto": 0.15779857032805947,
+      "D": 0.1078208849788245,
+      "G9": 0.031585996196555964
+     }
+    },
+    "P1": {
+     "al_vero": {
+      "copia_netta": false,
+      "lam": false,
+      "contatto": true,
+      "D": true,
+      "G9": false
+     },
+     "distanza_relativa": {
+      "copia_netta": 0.27919633601659966,
+      "lam": 0.513934023194402,
+      "contatto": 0.009198772956123423,
+      "D": 0.03435251395710692,
+      "G9": 0.1572345182579044
+     },
+     "eco_al_vero": false,
+     "legame_al_vero": true,
+     "tutti_al_vero": false,
+     "con_G9_al_vero": false,
+     "valori": {
+      "copia_netta": 0.14560383328838017,
+      "lam": 0.10080409575020247,
+      "contatto": 0.18666982350769054,
+      "D": 0.13948482237165138,
+      "G9": 0.03387613650780318
+     }
+    },
+    "P2": {
+     "al_vero": {
+      "copia_netta": false,
+      "lam": true,
+      "contatto": false,
+      "D": false,
+      "G9": false
+     },
+     "distanza_relativa": {
+      "copia_netta": 0.5297527721084935,
+      "lam": 0.00017345157431111782,
+      "contatto": 0.15059699267677243,
+      "D": 0.12005859086248483,
+      "G9": 0.4239581100210444
+     },
+     "eco_al_vero": false,
+     "legame_al_vero": false,
+     "tutti_al_vero": false,
+     "con_G9_al_vero": false,
+     "valori": {
+      "copia_netta": 0.17412328454295395,
+      "lam": 0.20735170929564398,
+      "contatto": 0.16002998899890028,
+      "D": 0.1271048420101774,
+      "G9": 0.02315480892596853
+     }
+    },
+    "P3": {
+     "al_vero": {
+      "copia_netta": false,
+      "lam": false,
+      "contatto": true,
+      "D": false,
+      "G9": false
+     },
+     "distanza_relativa": {
+      "copia_netta": 1.0026672049724736,
+      "lam": 0.1552356345381525,
+      "contatto": 0.012404382743828428,
+      "D": 0.08630791135550436,
+      "G9": 0.35929921023854655
+     },
+     "eco_al_vero": false,
+     "legame_al_vero": false,
+     "tutti_al_vero": false,
+     "con_G9_al_vero": false,
+     "valori": {
+      "copia_netta": 0.22795251489927218,
+      "lam": 0.23958163927323178,
+      "contatto": 0.18606587733062457,
+      "D": 0.1319800243142761,
+      "G9": 0.025753863779221963
+     }
+    }
+   },
+   "esiste": [],
+   "esiste_con_G9": [],
+   "vero": {
+    "copia_netta": 0.11382446086563112,
+    "lam": 0.20738768101540883,
+    "contatto": 0.18840289899986576,
+    "D": 0.14444693781914492,
+    "G9": 0.040196397742557295
+   }
+  },
+  "L2_contro_E": {
+   "P1 contro E1": {
+    "esito": "corregge ma rompe",
+    "bersagli": [
+     "lam",
+     "G9"
+    ],
+    "bersagli_corretti": [
+     "lam",
+     "G9"
+    ],
+    "corrette": [
+     "lam",
+     "contatto",
+     "G9",
+     "parole_nuove",
+     "e266"
+    ],
+    "rotte": [
+     "copia_netta",
+     "costo_forma",
+     "K"
+    ],
+    "classi": {
+     "copia_netta": "peggiora",
+     "lam": "avvicina",
+     "contatto": "avvicina",
+     "D": "invariata",
+     "G9": "avvicina",
+     "bordi_inizio": "invariata",
+     "bordi_fine": "invariata",
+     "parole_nuove": "avvicina",
+     "costo_forma": "peggiora",
+     "e231": "invariata",
+     "e266": "avvicina",
+     "K": "peggiora"
+    },
+    "sensibilita": "NON provata (con riserva)"
+   },
+   "P2 contro E2": {
+    "esito": "corregge ma rompe",
+    "bersagli": [
+     "lam",
+     "G9"
+    ],
+    "bersagli_corretti": [
+     "lam"
+    ],
+    "corrette": [
+     "lam",
+     "bordi_fine"
+    ],
+    "rotte": [
+     "copia_netta",
+     "contatto",
+     "G9",
+     "parole_nuove",
+     "K"
+    ],
+    "classi": {
+     "copia_netta": "peggiora",
+     "lam": "avvicina",
+     "contatto": "peggiora",
+     "D": "invariata",
+     "G9": "peggiora",
+     "bordi_inizio": "invariata",
+     "bordi_fine": "avvicina",
+     "parole_nuove": "peggiora",
+     "costo_forma": "invariata",
+     "e231": "invariata",
+     "e266": "invariata",
+     "K": "peggiora"
+    },
+    "sensibilita": "provata"
+   },
+   "P3 contro E3": {
+    "esito": "corregge ma rompe",
+    "bersagli": [
+     "lam",
+     "G9"
+    ],
+    "bersagli_corretti": [
+     "lam"
+    ],
+    "corrette": [
+     "lam"
+    ],
+    "rotte": [
+     "copia_netta",
+     "D",
+     "parole_nuove",
+     "K"
+    ],
+    "classi": {
+     "copia_netta": "peggiora",
+     "lam": "avvicina",
+     "contatto": "invariata",
+     "D": "peggiora",
+     "G9": "invariata",
+     "bordi_inizio": "invariata",
+     "bordi_fine": "invariata",
+     "parole_nuove": "peggiora",
+     "costo_forma": "invariata",
+     "e231": "invariata",
+     "e266": "invariata",
+     "K": "peggiora"
+    },
+    "sensibilita": "provata"
+   }
+  },
+  "L3_contro_v21": {
+   "migliore": "M5",
+   "per_tipo": {
+    "M1": {
+     "esito": "più lontano dal vero del v21",
+     "giudici": {
+      "e231": {
+       "differenza": 0.23058249115229168,
+       "errore": 0.01026091859103036,
+       "lettura": "più lontano"
+      },
+      "e266": {
+       "differenza": 0.2396518645861836,
+       "errore": 0.00839732177704497,
+       "lettura": "più lontano"
+      },
+      "K": {
+       "differenza": 0.007352710518576666,
+       "errore": 0.006731918846950428,
+       "lettura": "uguale entro l'errore"
+      }
+     },
+     "media_tre": 0.7995807817170927
+    },
+    "E1": {
+     "esito": "più lontano dal vero del v21",
+     "giudici": {
+      "e231": {
+       "differenza": 0.2662973530662388,
+       "errore": 0.015692892276617413,
+       "lettura": "più lontano"
+      },
+      "e266": {
+       "differenza": 0.26888826259222487,
+       "errore": 0.009389410682800876,
+       "lettura": "più lontano"
+      },
+      "K": {
+       "differenza": 0.020468091363591734,
+       "errore": 0.007921424401875165,
+       "lettura": "più lontano"
+      }
+     },
+     "media_tre": 0.8256029953054271
+    },
+    "E2": {
+     "esito": "più lontano dal vero del v21",
+     "giudici": {
+      "e231": {
+       "differenza": 0.2469471032439161,
+       "errore": 0.012416848733601032,
+       "lettura": "più lontano"
+      },
+      "e266": {
+       "differenza": 0.26318131946098666,
+       "errore": 0.0066858805428626,
+       "lettura": "più lontano"
+      },
+      "K": {
+       "differenza": 0.030740613665326877,
+       "errore": 0.00889090204370591,
+       "lettura": "più lontano"
+      }
+     },
+     "media_tre": 0.8206747717548186
+    },
+    "E3": {
+     "esito": "più lontano dal vero del v21",
+     "giudici": {
+      "e231": {
+       "differenza": 0.2444781030984411,
+       "errore": 0.009238124359221389,
+       "lettura": "più lontano"
+      },
+      "e266": {
+       "differenza": 0.23506277789749086,
+       "errore": 0.006912856212633384,
+       "lettura": "più lontano"
+      },
+      "K": {
+       "differenza": 0.027872757572787066,
+       "errore": 0.009063219644078248,
+       "lettura": "più lontano"
+      }
+     },
+     "media_tre": 0.8095229724876484
+    },
+    "M5": {
+     "esito": "più lontano dal vero del v21",
+     "giudici": {
+      "e231": {
+       "differenza": 0.22769645203249622,
+       "errore": 0.008624242165362258,
+       "lettura": "più lontano"
+      },
+      "e266": {
+       "differenza": 0.1979656738723602,
+       "errore": 0.008634045279751064,
+       "lettura": "più lontano"
+      },
+      "K": {
+       "differenza": 0.030879815704342728,
+       "errore": 0.008457318047151037,
+       "lettura": "più lontano"
+      }
+     },
+     "media_tre": 0.7925657401678085
+    },
+    "P1": {
+     "esito": "più lontano dal vero del v21",
+     "giudici": {
+      "e231": {
+       "differenza": 0.25143953862792723,
+       "errore": 0.007704438689383633,
+       "lettura": "più lontano"
+      },
+      "e266": {
+       "differenza": 0.21897152132414477,
+       "errore": 0.007546936832513992,
+       "lettura": "più lontano"
+      },
+      "K": {
+       "differenza": 0.044839721595921866,
+       "errore": 0.008603787159342648,
+       "lettura": "più lontano"
+      }
+     },
+     "media_tre": 0.81213535348074
+    },
+    "P2": {
+     "esito": "più lontano dal vero del v21",
+     "giudici": {
+      "e231": {
+       "differenza": 0.23709370382303496,
+       "errore": 0.006736829934960307,
+       "lettura": "più lontano"
+      },
+      "e266": {
+       "differenza": 0.25851383254038307,
+       "errore": 0.008872620493153684,
+       "lettura": "più lontano"
+      },
+      "K": {
+       "differenza": 0.06280756788550146,
+       "errore": 0.007317153207694839,
+       "lettura": "più lontano"
+      }
+     },
+     "media_tre": 0.8265234610477152
+    },
+    "P3": {
+     "esito": "più lontano dal vero del v21",
+     "giudici": {
+      "e231": {
+       "differenza": 0.24892905881321126,
+       "errore": 0.008887417853605422,
+       "lettura": "più lontano"
+      },
+      "e266": {
+       "differenza": 0.23640514568410098,
+       "errore": 0.008211122689849812,
+       "lettura": "più lontano"
+      },
+      "K": {
+       "differenza": 0.0567101264581904,
+       "errore": 0.01038117735914364,
+       "lettura": "più lontano"
+      }
+     },
+     "media_tre": 0.8210665366165762
+    }
+   }
+  },
+  "L4_profilo_di_distanza": {
+   "vero": {
+    "misure": {
+     "parole": 34690.0,
+     "q_0": 0.1626981839146728,
+     "q_1": 0.19910637071202075,
+     "q_2": 0.0968002306140098,
+     "q_3-5": 0.12796194868838281,
+     "q_6+": 0.10518881522052465,
+     "senza_ripresa": 0.30824445085038915,
+     "locale": 0.3618045546266936,
+     "lontana": 0.32995099452291726,
+     "ripresa": 0.6917555491496108,
+     "tema_cond": 0.24831532104259377,
+     "quota_tema": 0.025991668176055062,
+     "tema_lontano": 0.006370712020755261
+    },
+    "nullo_righe": {
+     "parole": 34689.99999999999,
+     "q_0": 0.1626981839146729,
+     "q_1": 0.11919861631594124,
+     "q_2": 0.08292303257422888,
+     "q_3-5": 0.13656961660420863,
+     "q_6+": 0.1272066878062843,
+     "senza_ripresa": 0.37140386278466436,
+     "locale": 0.28189680023061414,
+     "lontana": 0.3466993369847218,
+     "ripresa": 0.6285961372153359,
+     "tema_cond": 0.1803949016429677,
+     "quota_tema": 0.0044298728601461605,
+     "tema_lontano": 0.0007379648313635053
+    },
+    "nullo_parole": {
+     "parole": 34690.0,
+     "q_0": 0.13617757278754683,
+     "q_1": 0.19549726145863353,
+     "q_2": 0.10724127990775434,
+     "q_3-5": 0.13962525223407318,
+     "q_6+": 0.11214759296627265,
+     "senza_ripresa": 0.3093110406457193,
+     "locale": 0.33167483424618033,
+     "lontana": 0.3590141251081001,
+     "ripresa": 0.6906889593542804,
+     "tema_cond": 0.26001489482874074,
+     "quota_tema": 0.025991668176055072,
+     "tema_lontano": 0.006872297492072643
+    },
+    "eccesso_tema": {
+     "differenza": 0.06792041939962606,
+     "errore": 0.006771121171889242
+    },
+    "eccesso_locale": {
+     "differenza": 0.03012972038051326,
+     "errore": 0.00211635998712939
+    },
+    "lettura_tema": "lettura non valida (controllo della fase 0 fallito)",
+    "lettura_locale": "lettura non valida (controllo della fase 0 fallito)"
+   },
+   "insiemi": {
+    "V21": {
+     "q_0": [
+      0.1552474800883601,
+      0.0017352036648660123
+     ],
+     "q_1": [
+      0.17749529568123648,
+      0.000945945012698109
+     ],
+     "q_2": [
+      0.09352614381106676,
+      0.0005130508424216091
+     ],
+     "q_3-5": [
+      0.13003914174343453,
+      0.00046073929272354467
+     ],
+     "q_6+": [
+      0.11008051195946104,
+      0.0005230194100387635
+     ],
+     "senza_ripresa": [
+      0.33361142671644106,
+      0.001605041993242472
+     ],
+     "locale": [
+      0.33274277576959654,
+      0.0020737129217848873
+     ],
+     "lontana": [
+      0.33364579751396234,
+      0.0008611307561711733
+     ],
+     "ripresa": [
+      0.6663885732835588,
+      0.001605041993242476
+     ],
+     "tema_cond": [
+      0.24695088629751943,
+      0.0014305403224559553
+     ],
+     "quota_tema": [
+      0.024250552479779856,
+      0.0006952588301519158
+     ],
+     "tema_lontano": [
+      0.006205340489453965,
+      0.00018047350287857302
+     ],
+     "eccesso_tema": [
+      0.06410934361049697,
+      0.0004872453088684603
+     ],
+     "eccesso_locale": [
+      0.01865565625318716,
+      0.0008008706776416021
+     ],
+     "libri": 10
+    },
+    "M1": {
+     "q_0": [
+      0.15834627141222773,
+      0.0013196933436176721
+     ],
+     "q_1": [
+      0.17991978371663833,
+      0.0014565670346516572
+     ],
+     "q_2": [
+      0.09894388891432804,
+      0.0005955208212112224
+     ],
+     "q_3-5": [
+      0.13428770883359942,
+      0.0006841959256624404
+     ],
+     "q_6+": [
+      0.10797156399907915,
+      0.0005428935037333839
+     ],
+     "senza_ripresa": [
+      0.32053078312412736,
+      0.0022081057810644953
+     ],
+     "locale": [
+      0.3382660551288661,
+      0.002601487340481074
+     ],
+     "lontana": [
+      0.34120316174700666,
+      0.0007901808734694514
+     ],
+     "ripresa": [
+      0.6794692168758727,
+      0.002208105781064496
+     ],
+     "tema_cond": [
+      0.24146569881846597,
+      0.001385508662714277
+     ],
+     "quota_tema": [
+      0.009373362104856429,
+      0.0007459855200151889
+     ],
+     "tema_lontano": [
+      0.0023783532531829253,
+      0.00018863166960426966
+     ],
+     "eccesso_tema": [
+      0.039270235307319885,
+      0.0005532177087882614
+     ],
+     "eccesso_locale": [
+      0.015361645065057434,
+      0.0006234128025091308
+     ],
+     "libri": 10
+    },
+    "M5": {
+     "q_0": [
+      0.15115703050169738,
+      0.0015311926704623354
+     ],
+     "q_1": [
+      0.18504170635343886,
+      0.0011186480827588372
+     ],
+     "q_2": [
+      0.08777798675259099,
+      0.000867635366714457
+     ],
+     "q_3-5": [
+      0.1256356474802385,
+      0.0014118707526516899
+     ],
+     "q_6+": [
+      0.11237875259779743,
+      0.0011603757726148167
+     ],
+     "senza_ripresa": [
+      0.3380088763142369,
+      0.002337560642043988
+     ],
+     "locale": [
+      0.33619873685513624,
+      0.0018635255777702823
+     ],
+     "lontana": [
+      0.32579238683062683,
+      0.003007694972025602
+     ],
+     "ripresa": [
+      0.6619911236857632,
+      0.0023375606420439877
+     ],
+     "tema_cond": [
+      0.21496890550615358,
+      0.0017730506807587493
+     ],
+     "quota_tema": [
+      0.01780676254236977,
+      0.0006729367344119839
+     ],
+     "tema_lontano": [
+      0.004003922289843516,
+      0.00013398536128627988
+     ],
+     "eccesso_tema": [
+      0.047259558330468424,
+      0.0006929823080907906
+     ],
+     "eccesso_locale": [
+      0.032867046580771546,
+      0.0008624948385302077
+     ],
+     "libri": 10
+    },
+    "E0": {
+     "q_0": [
+      0.1548056410645521,
+      0.00047233819924554865
+     ],
+     "q_1": [
+      0.18026511054684327,
+      0.0006762329711829348
+     ],
+     "q_2": [
+      0.08979479173595967,
+      0.0006009340549372804
+     ],
+     "q_3-5": [
+      0.1313133857785294,
+      0.0005447360297985276
+     ],
+     "q_6+": [
+      0.11295645289472345,
+      0.000626332204713539
+     ],
+     "senza_ripresa": [
+      0.3308646179793922,
+      0.0008183401144940922
+     ],
+     "locale": [
+      0.3350707516113954,
+      0.0007917941606980299
+     ],
+     "lontana": [
+      0.3340646304092126,
+      0.0006201721096499955
+     ],
+     "ripresa": [
+      0.6691353820206078,
+      0.0008183401144940927
+     ],
+     "tema_cond": [
+      0.21607038368172876,
+      0.0013737347091272382
+     ],
+     "quota_tema": [
+      0.009938405216447224,
+      0.0004389358100490206
+     ],
+     "tema_lontano": [
+      0.00203910631019573,
+      8.463697535622613e-05
+     ],
+     "eccesso_tema": [
+      0.027443072582254847,
+      0.0019054577228450043
+     ],
+     "eccesso_locale": [
+      0.03375063085286696,
+      0.0007335259653832664
+     ],
+     "libri": 10
+    },
+    "E1": {
+     "q_0": [
+      0.1997162485774488,
+      0.001990564733627271
+     ],
+     "q_1": [
+      0.20565984111458308,
+      0.0010652642603495917
+     ],
+     "q_2": [
+      0.07555286063670345,
+      0.0005145784570395869
+     ],
+     "q_3-5": [
+      0.11176178841195902,
+      0.0007267081201802276
+     ],
+     "q_6+": [
+      0.10294344104197173,
+      0.0007170674302474812
+     ],
+     "senza_ripresa": [
+      0.30436582021733394,
+      0.00145794084386586
+     ],
+     "locale": [
+      0.40537608969203187,
+      0.0027006453492649405
+     ],
+     "lontana": [
+      0.29025809009063425,
+      0.0015163208345862725
+     ],
+     "ripresa": [
+      0.6956341797826662,
+      0.0014579408438658524
+     ],
+     "tema_cond": [
+      0.22623270620243727,
+      0.0007284620160374312
+     ],
+     "quota_tema": [
+      0.009736882027011649,
+      0.00044351583578475153
+     ],
+     "tema_lontano": [
+      0.002240457595444746,
+      0.00013084607514205276
+     ],
+     "eccesso_tema": [
+      0.02859561914312212,
+      0.0010177491277585265
+     ],
+     "eccesso_locale": [
+      0.061505080681414956,
+      0.0006659343431530691
+     ],
+     "libri": 10
+    },
+    "E2": {
+     "q_0": [
+      0.1607008871152201,
+      0.0038579901075846104
+     ],
+     "q_1": [
+      0.1868709004403783,
+      0.0020794737742326
+     ],
+     "q_2": [
+      0.09221027315949237,
+      0.0005502649148556264
+     ],
+     "q_3-5": [
+      0.1326169155353401,
+      0.0011061096918991442
+     ],
+     "q_6+": [
+      0.11072458458028392,
+      0.0017829537925700175
+     ],
+     "senza_ripresa": [
+      0.3168764391692852,
+      0.003294153238526761
+     ],
+     "locale": [
+      0.3475717875555984,
+      0.005862883439381602
+     ],
+     "lontana": [
+      0.33555177327511637,
+      0.002681788983145217
+     ],
+     "ripresa": [
+      0.6831235608307147,
+      0.003294153238526761
+     ],
+     "tema_cond": [
+      0.22748081349716048,
+      0.003674707495731617
+     ],
+     "quota_tema": [
+      0.010398025297809203,
+      0.0005398547907664701
+     ],
+     "tema_lontano": [
+      0.0023438463309751376,
+      0.0001030431140537205
+     ],
+     "eccesso_tema": [
+      0.035904084640486764,
+      0.0017287029113993795
+     ],
+     "eccesso_locale": [
+      0.031846303902381905,
+      0.0004949338679117652
+     ],
+     "libri": 10
+    },
+    "E3": {
+     "q_0": [
+      0.15888026123990845,
+      0.002471382901913819
+     ],
+     "q_1": [
+      0.18538528965314632,
+      0.001524000599676929
+     ],
+     "q_2": [
+      0.08953076046266004,
+      0.0005526101928811061
+     ],
+     "q_3-5": [
+      0.12959472044908382,
+      0.0007036248894840179
+     ],
+     "q_6+": [
+      0.11094192252701021,
+      0.000997313428291918
+     ],
+     "senza_ripresa": [
+      0.32566704566819116,
+      0.00267925293136327
+     ],
+     "locale": [
+      0.3442655508930548,
+      0.0039055221671072263
+     ],
+     "lontana": [
+      0.33006740343875407,
+      0.0013826988730875817
+     ],
+     "ripresa": [
+      0.6743329543318088,
+      0.002679252931363271
+     ],
+     "tema_cond": [
+      0.22200281695435659,
+      0.0016231240169791953
+     ],
+     "quota_tema": [
+      0.009647282807586434,
+      0.0007794379819075506
+     ],
+     "tema_lontano": [
+      0.0020915597800478915,
+      0.0001728230377760809
+     ],
+     "eccesso_tema": [
+      0.03302988022185874,
+      0.0008806064685804427
+     ],
+     "eccesso_locale": [
+      0.03274047633502245,
+      0.0007673432085283959
+     ],
+     "libri": 10
+    },
+    "P1": {
+     "q_0": [
+      0.1696442899311936,
+      0.0015327403943247284
+     ],
+     "q_1": [
+      0.19817602307199925,
+      0.0006341696531158376
+     ],
+     "q_2": [
+      0.10256295625643422,
+      0.000581323868831153
+     ],
+     "q_3-5": [
+      0.13138668084070354,
+      0.0007841812074703735
+     ],
+     "q_6+": [
+      0.09888560153999786,
+      0.0007029991773146632
+     ],
+     "senza_ripresa": [
+      0.2993444483596715,
+      0.000895288871354107
+     ],
+     "locale": [
+      0.3678203130031929,
+      0.0017912048273112267
+     ],
+     "lontana": [
+      0.33283523863713566,
+      0.0014694447718892687
+     ],
+     "ripresa": [
+      0.7006555516403286,
+      0.0008952888713541069
+     ],
+     "tema_cond": [
+      0.2590523457592768,
+      0.0010623680828376304
+     ],
+     "quota_tema": [
+      0.023981075519072897,
+      0.0008891636389993234
+     ],
+     "tema_lontano": [
+      0.0064249748449169445,
+      0.0002550898471049497
+     ],
+     "eccesso_tema": [
+      0.07159422012810217,
+      0.0010047029545470583
+     ],
+     "eccesso_locale": [
+      0.02881446250783793,
+      0.0005923050606423824
+     ],
+     "libri": 10
+    },
+    "P2": {
+     "q_0": [
+      0.14316470891416716,
+      0.0005301439022177255
+     ],
+     "q_1": [
+      0.17428397126284298,
+      0.0005430204549243689
+     ],
+     "q_2": [
+      0.09764927441095056,
+      0.0006234503628488124
+     ],
+     "q_3-5": [
+      0.1341819040200191,
+      0.0010440813618801767
+     ],
+     "q_6+": [
+      0.11251644791265106,
+      0.0006734664592431123
+     ],
+     "senza_ripresa": [
+      0.3382036934793692,
+      0.0016146713775343096
+     ],
+     "locale": [
+      0.31744868017701017,
+      0.0008596208083166713
+     ],
+     "lontana": [
+      0.3443476263436207,
+      0.0019274463815071572
+     ],
+     "ripresa": [
+      0.6617963065206307,
+      0.0016146713775343096
+     ],
+     "tema_cond": [
+      0.24384856573621727,
+      0.0009757916191696082
+     ],
+     "quota_tema": [
+      0.018205918944249302,
+      0.0007367355584355901
+     ],
+     "tema_lontano": [
+      0.004567906450197741,
+      0.00015813825183732142
+     ],
+     "eccesso_tema": [
+      0.061593307765296215,
+      0.0019687009179078807
+     ],
+     "eccesso_locale": [
+      0.018954007013334422,
+      0.0008008157844457717
+     ],
+     "libri": 10
+    },
+    "P3": {
+     "q_0": [
+      0.1422304740230737,
+      0.005284660616297477
+     ],
+     "q_1": [
+      0.17529388916726446,
+      0.0032931645353338206
+     ],
+     "q_2": [
+      0.09988466282170594,
+      0.0010453281909940766
+     ],
+     "q_3-5": [
+      0.13596489937045148,
+      0.0007698403500538904
+     ],
+     "q_6+": [
+      0.11326397492872528,
+      0.001984627303789071
+     ],
+     "senza_ripresa": [
+      0.33336209968877917,
+      0.00689222745930927
+     ],
+     "locale": [
+      0.31752436319033817,
+      0.008493433257113821
+     ],
+     "lontana": [
+      0.3491135371208827,
+      0.0016641759087900974
+     ],
+     "ripresa": [
+      0.6666379003112208,
+      0.006892227459309267
+     ],
+     "tema_cond": [
+      0.2459671721796141,
+      0.004452438094537512
+     ],
+     "quota_tema": [
+      0.02028919745493283,
+      0.0009086151706306844
+     ],
+     "tema_lontano": [
+      0.005061852324874086,
+      0.0001902856534606621
+     ],
+     "eccesso_tema": [
+      0.07015953000045227,
+      0.0007909575772805054
+     ],
+     "eccesso_locale": [
+      0.0198537174040405,
+      0.00042927703945116916
+     ],
+     "libri": 10
+    }
+   },
+   "vero_valori": {
+    "q_0": 0.1626981839146728,
+    "q_1": 0.19910637071202075,
+    "q_2": 0.0968002306140098,
+    "q_3-5": 0.12796194868838281,
+    "q_6+": 0.10518881522052465,
+    "senza_ripresa": 0.30824445085038915,
+    "locale": 0.3618045546266936,
+    "lontana": 0.32995099452291726,
+    "ripresa": 0.6917555491496108,
+    "tema_cond": 0.24831532104259377,
+    "quota_tema": 0.025991668176055062,
+    "tema_lontano": 0.006370712020755261,
+    "eccesso_tema": 0.06792041939962606,
+    "eccesso_locale": 0.03012972038051326
+   },
+   "al_vero": {
+    "V21": {
+     "locale": false,
+     "lontana": true,
+     "tema_cond": true,
+     "quota_tema": false,
+     "eccesso_tema": false,
+     "eccesso_locale": false
+    },
+    "M1": {
+     "locale": false,
+     "lontana": true,
+     "tema_cond": true,
+     "quota_tema": false,
+     "eccesso_tema": false,
+     "eccesso_locale": false
+    },
+    "M5": {
+     "locale": false,
+     "lontana": true,
+     "tema_cond": false,
+     "quota_tema": false,
+     "eccesso_tema": false,
+     "eccesso_locale": false
+    },
+    "E0": {
+     "locale": false,
+     "lontana": true,
+     "tema_cond": false,
+     "quota_tema": false,
+     "eccesso_tema": false,
+     "eccesso_locale": false
+    },
+    "E1": {
+     "locale": false,
+     "lontana": false,
+     "tema_cond": false,
+     "quota_tema": false,
+     "eccesso_tema": false,
+     "eccesso_locale": false
+    },
+    "E2": {
+     "locale": true,
+     "lontana": true,
+     "tema_cond": false,
+     "quota_tema": false,
+     "eccesso_tema": false,
+     "eccesso_locale": false
+    },
+    "E3": {
+     "locale": true,
+     "lontana": true,
+     "tema_cond": false,
+     "quota_tema": false,
+     "eccesso_tema": false,
+     "eccesso_locale": false
+    },
+    "P1": {
+     "locale": true,
+     "lontana": true,
+     "tema_cond": true,
+     "quota_tema": false,
+     "eccesso_tema": false,
+     "eccesso_locale": true
+    },
+    "P2": {
+     "locale": false,
+     "lontana": true,
+     "tema_cond": true,
+     "quota_tema": false,
+     "eccesso_tema": false,
+     "eccesso_locale": false
+    },
+    "P3": {
+     "locale": false,
+     "lontana": false,
+     "tema_cond": true,
+     "quota_tema": false,
+     "eccesso_tema": true,
+     "eccesso_locale": false
+    }
+   },
+   "controlli": {
+    "tema_eco": {
+     "piantato": {
+      "eco": 0.25,
+      "tema": 0.3
+     },
+     "eccesso_tema": {
+      "differenza": 0.11613261509242975,
+      "errore": 0.005235284386742947
+     },
+     "eccesso_locale": {
+      "differenza": 0.1597117324877486,
+      "errore": 0.0034365540043693
+     },
+     "lettura_tema": "presente",
+     "lettura_locale": "presente",
+     "atteso": [
+      "presente",
+      "presente"
+     ],
+     "tema_cond": 0.2135731206833272,
+     "locale": 0.364427788988181
+    },
+    "solo_eco": {
+     "piantato": {
+      "eco": 0.25,
+      "tema": 0.0
+     },
+     "eccesso_tema": {
+      "differenza": 0.0008160400455886896,
+      "errore": 0.0027658911659460936
+     },
+     "eccesso_locale": {
+      "differenza": 0.1589737676563852,
+      "errore": 0.003297697214541668
+     },
+     "lettura_tema": "assente",
+     "lettura_locale": "presente",
+     "atteso": [
+      "assente",
+      "presente"
+     ],
+     "tema_cond": 0.1562828947368421,
+     "locale": 0.40368982415681753
+    },
+    "solo_tema": {
+     "piantato": {
+      "eco": 0.0,
+      "tema": 0.3
+     },
+     "eccesso_tema": {
+      "differenza": 0.16076191831440473,
+      "errore": 0.0064701769145723625
+     },
+     "eccesso_locale": {
+      "differenza": 0.0016373594695877347,
+      "errore": 0.0019218541376698451
+     },
+     "lettura_tema": "presente",
+     "lettura_locale": "assente",
+     "atteso": [
+      "presente",
+      "assente"
+     ],
+     "tema_cond": 0.28109491076107396,
+     "locale": 0.19541654655520324
+    },
+    "nulla": {
+     "piantato": {
+      "eco": 0.0,
+      "tema": 0.0
+     },
+     "eccesso_tema": {
+      "differenza": 0.011464053184935707,
+      "errore": 0.0030867471111515276
+     },
+     "eccesso_locale": {
+      "differenza": -0.0026347650619775453,
+      "errore": 0.001559102216931909
+     },
+     "lettura_tema": "zona grigia",
+     "lettura_locale": "assente",
+     "atteso": [
+      "assente",
+      "assente"
+     ],
+     "tema_cond": 0.20375327057832848,
+     "locale": 0.24586336119919286
+    }
+   },
+   "controlli_ok": false
+  }
+ },
+ "tempi_minuti": {
+  "addestra": {
+   "lavori": 30,
+   "media": 17.2,
+   "massimo": 24.7,
+   "totale": 515.0
+  },
+  "sens": {
+   "lavori": 12,
+   "media": 13.4,
+   "massimo": 20.5,
+   "totale": 160.2
+  },
+  "libro": {
+   "lavori": 30,
+   "media": 3.1,
+   "massimo": 4.1,
+   "totale": 94.2
+  },
+  "riflibro": {
+   "lavori": 50,
+   "media": 0.3,
+   "massimo": 0.5,
+   "totale": 17.4
+  },
+  "K": {
+   "lavori": 5,
+   "media": 0.3,
+   "massimo": 0.3,
+   "totale": 1.6
+  },
+  "M": {
+   "lavori": 91,
+   "media": 0.5,
+   "massimo": 0.6,
+   "totale": 48.6
+  },
+  "D": {
+   "lavori": 5,
+   "media": 0.3,
+   "massimo": 0.3,
+   "totale": 1.4
+  },
+  "F0": {
+   "lavori": 101,
+   "media": 0.0,
+   "massimo": 0.1,
+   "totale": 4.8
+  },
+  "F0c": {
+   "lavori": 4,
+   "media": 0.1,
+   "massimo": 0.1,
+   "totale": 0.2
+  }
+ }
+}

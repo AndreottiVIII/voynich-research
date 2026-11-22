@@ -62,6 +62,8 @@ come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
 - 21/11 sera: **IA22** nessun imitatore con eco e legame tutti al vero; E2 (copia pesata dal contatto) tiene copia netta,
   contatto e D, ma l'eco di tutti e' troppo locale (Lambda 0,36-0,41 contro 0,21); G9 e forma mai al vero; nel Voynich le
   varianti d'eco non cambiano l'inizio per agganciarsi alla parola prima (fase 0: regola assente).
+- 22/11 notte: **IA23** riprendere da tutta la pagina porta Lambda al vero (P2) o il tema di pagina (P1, P3), ma la copia
+  supera il vero e il contatto si rompe; nessuno con eco, legame e G9 insieme; K riconosce i P piu' degli E.
 - 20/11: **IA6 in standby** finché Davide non fa l'accesso (si fa solo al PC). IA4, IA5, IA7 in corso dalle 13:30.
 - **Azione per Davide:** accesso del programma `claude` da riga di comando (`strumenti/Accesso claude.bat`, serve
   all'IA6).
