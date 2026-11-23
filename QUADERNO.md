@@ -17657,3 +17657,20 @@ prima del commit ha portato le generazioni del ciclo da 10 a 20 (dichiarato nell
 - **Limiti:** controllo positivo non riuscito; manopola dei trigrammi al limite superiore (l'ottimizzatore ne voleva di più); un solo
   modello pieno per mondo; giudice b con circa 30 pagine vere.
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione (generazioni 20, come scritto prima del commit).
+
+## 23/11/2026 (mattina) — correzione a ia32 (IA32): il giudice b e il riferimento "naturale" della copia del mondo `vero` furono calcolati sul testo di `markov2`; i valori del giudice b di IA32 non vanno letti
+
+Trovato dall'agente che ha preparato IA33 e confermato dal coordinatore leggendo il codice. Nel processo principale di
+`ia32_rifare_il_voynich.py` il mondo veniva attivato più volte (`attiva_main` in ogni fase) e il mondo `vero` veniva dopo `markov2`.
+`righello_testi.attiva_mondo` costruisce il mondo dal libro che trova in `ia07._C` e per `vero` non fa niente: nel mondo `vero` il
+processo principale lavorava quindi ancora sul testo di `markov2`, e nel mondo `markov2` le attivazioni successive alla prima davano un
+mondo "di seconda generazione".
+
+- **Non valgono:** il giudice b di IA32 (0,979 per il migliore, 0,921 per il v21, 0,996 per il neutro, e la sua validità) in entrambi i
+  mondi; il riferimento "naturale" della copia per `vero` (le soglie anti-copia applicate al Voynich sono state quindi quelle severe,
+  senza il rialzo di 1,25 volte il naturale: più severe, non più larghe).
+- **Restano validi** (calcolati nei processi figli, che attivano il mondo una volta sola): N, KN, e231, e266, K, tutte le misure,
+  l'obiettivo del ciclo, il modello pieno e le manopole scelte. L'esito "non riuscito" di IA32 non cambia (N 0,608 e KN 0,754 bastano;
+  le misure fuori restano fuori).
+- IA26 non ha il difetto (ogni mondo gira in processi `spawn` nuovi). IA33 lo corregge (un solo mondo per processo, il giudice b e il
+  riferimento naturale si ricalcolano).

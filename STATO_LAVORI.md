@@ -87,6 +87,7 @@ come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
   valida (positivo markov2). In preparazione **IA32**: un'IA che si allena a prove ed errori finche' non rifa' il Voynich.
 - 23/11 mattina: **IA32** l'IA che si allena a prove ed errori non riesce, ma sul giudice nuovo N arriva al livello del v21
   (0,608 contro 0,599); fuori parole nuove, copia, G9, Lambda, D; controllo positivo (markov2) non riuscito.
+- 23/11: **IA33 in corsa** (coda ia_U dalle 08:59; oracolo su markov2 e IA più libera); **correzione a IA32**: il giudice b non vale (calcolato sul testo di markov2), il resto sì.
 - 20/11: **IA6 in standby** finché Davide non fa l'accesso (si fa solo al PC). IA4, IA5, IA7 in corso dalle 13:30.
 - **Azione per Davide:** accesso del programma `claude` da riga di comando (`strumenti/Accesso claude.bat`, serve
   all'IA6).
