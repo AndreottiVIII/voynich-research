@@ -17674,3 +17674,49 @@ mondo "di seconda generazione".
   le misure fuori restano fuori).
 - IA26 non ha il difetto (ogni mondo gira in processi `spawn` nuovi). IA33 lo corregge (un solo mondo per processo, il giudice b e il
   riferimento naturale si ricalcolano).
+
+## 23/11/2026 (pomeriggio) — ia33 (IA33): con il testo di un solo libro anche l'imitatore "perfetto" di un processo noto viene riconosciuto (oracolo «irraggiungibile»; con 4 volte il testo non più); l'IA più libera arriva al livello dell'oracolo sul processo noto (primo controllo positivo riuscito) e, sul Voynich, sta al livello dell'oracolo su tutti e tre i giudici mai visti (b 0,564, dentro 0,40-0,60), ma tre misure tenute fuori su cinque restano oltre 2σ (Λ, bordi di fine, k90): non riuscito
+
+Preregistrato (`preregistrazioni/ia33.md`, commit bfc3c6a; codice ba9fa2a con `oracolo_*.py`; variabili in `esegui.py` a906690). Richiesta di
+Davide del 23/11 ("Sì, IA33"); preparato da un agente, controllato e lanciato dal coordinatore, che ha accettato senza cambiarle le
+scelte dichiarate dopo la prova sul latino (fascia 0,40-0,60 a due lati; "al livello dell'oracolo" come distanza da 0,5; "batte il v21"
+di almeno 2 errori). Corregge l'errore di IA32 sul giudice b (voce precedente). Corsa: coda `ia_U`, 8 processi, 08:59–13:52 (293
+minuti), uscita 0. Risultati in `risultati/ia33_oracolo.{md,json}` e `risultati/ia33_corse_*.jsonl`.
+
+- **Parte O, l'oracolo (mondo `markov2`):** catena di ordine 2 stimata con Kneser-Ney dagli stessi 78 fogli. AUC dei giudici mai visti:
+  N 0,271, KN 0,605, b 0,653 → **«irraggiungibile»** (pavimento valido: gemello 0,51 / 0,51 / 0,46; giudice b vede il neutro). Con 2
+  volte il testo 0,381 / 0,542 / 0,592; con 4 volte 0,451 / 0,510 / 0,540. Conteggi grezzi come il Kneser-Ney. N sotto 0,5 = il modello
+  "ricorda" le pagine su cui è stimato (N le confronta tutte). Stima descrittiva: per b sotto 0,55 servirebbe circa 3,4 volte il testo.
+- **Controllo positivo, ciclo L su `markov2`: riuscito «al livello dell'oracolo»** (N 0,131, KN 0,553, b 0,650; misure tenute fuori
+  tutte entro 2σ); batte le manopole di IA32 (N 0,967, KN 0,865, b 0,940). Controllo negativo (4 insiemi a caso) retto. **La lettura sul
+  Voynich è quindi valida.**
+- **Parte V, baseline classico sul Voynich (Kneser-Ney sui glifi, senza rete):** N 0,913, KN 0,991, b 0,726. I soli conteggi non
+  bastano: il progresso di IA32 viene dalla rete più le correzioni, non dalle correzioni da sole.
+- **Voynich, ciclo L:** 14 manopole, 24 generazioni dal punto di IA32; obiettivo da 5,88 (neutro) e 3,30 (IA32) a 2,21. Scelte:
+  quadrigrammi 7,46 e trigrammi 6,27 (correzioni forti ai conteggi di glifi), parole intere 0,92, bonus parole nuove 0,58, ripresa dalla
+  pagina 0,22, temperatura interna 0,71, top-p 0,76. Allenamento: parole nuove 0,132 contro 0,148 (IA32 0,109), contatto, bordi d'inizio
+  al vero; copia netta sopra (z 3,7), G9 sotto (z −3,3), e231/e266/K ancora lontani (z 3–5,5).
+- **Voynich, l'esame:**
+
+  | giudice | IA33 | oracolo (markov2) | v21 | manopole IA32 | neutro |
+  |---|---|---|---|---|---|
+  | N | 0,332 | 0,271 | 0,599 | 0,606 | 0,983 |
+  | KN | 0,750 | 0,605 | 0,677 | 0,754 | 0,882 |
+  | b | **0,564** | 0,653 | 0,658 | 0,688 | 0,968 |
+
+  Tutti e tre i giudici **al livello dell'oracolo** (KN al margine: distanza 0,250 contro limite 0,260). Misure tenute fuori: D (z 1,7) e
+  R_rel (−0,3) entro 2σ; **fuori Λ (z 2,1), bordi di fine (2,7), k90 (3,0; con le manopole di IA32 era 0,3)**: quota 0,40 contro 0,80
+  richiesto. Nessuna copia oltre soglia. Non batte il v21 (più lontano su N e KN). **Esito: non riuscito.**
+- **Il giudice b corretto per IA32:** le manopole di IA32 nello scrittore nuovo danno b 0,688 (il valore 0,979 di IA32 era sbagliato).
+- **Lettura descrittiva:** la richiesta "ingannare giudici mai visti" con un solo libro di testo non è raggiungibile in assoluto neppure
+  per il processo vero di un testo noto; il traguardo onesto è il livello dell'oracolo. Sul Voynich l'IA lo raggiunge per i giudici, e
+  sul giudice b fresco fa meglio del v21; manca la struttura su scala più larga (quanto il vocabolario si concentra fra le parti, k90;
+  il legame fra righe vicine, Λ; la chiusura delle righe). Spingere i conteggi di glifi ha avvicinato i giudici e allontanato k90.
+- **In parole semplici:** abbiamo prima dimostrato che, con le sole 200 pagine del Voynich, nemmeno una copia perfetta di un testo di
+  regola nota inganna i giudici: per riuscirci servirebbe circa quattro volte più testo. Poi l'IA, allenandosi da sola, ha raggiunto
+  quella copia perfetta sul testo di prova; sul Voynich inganna i giudici quanto la copia perfetta (uno dei tre non la distingue più dal
+  vero), ma tre misure di struttura del libro restano sbagliate: come si distribuiscono le parole fra le sezioni, come si legano le righe
+  vicine e come finiscono le righe.
+- **Limiti:** l'oracolo del Voynich non esiste (si usa quello di markov2, traguardo ottimistico per una sola famiglia di processi); N
+  premia il "ricordare" le pagine di addestramento; giudice b con circa 30 pagine (errore circa 0,06); KN al margine; un solo ciclo.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
