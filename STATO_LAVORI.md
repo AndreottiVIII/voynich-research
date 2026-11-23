@@ -88,6 +88,7 @@ come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
 - 23/11 mattina: **IA32** l'IA che si allena a prove ed errori non riesce, ma sul giudice nuovo N arriva al livello del v21
   (0,608 contro 0,599); fuori parole nuove, copia, G9, Lambda, D; controllo positivo (markov2) non riuscito.
 - 23/11: **IA33 finita**: oracolo irraggiungibile con un solo libro (con 4× testo sì); controllo positivo riuscito; sul Voynich giudici al livello dell'oracolo (b 0,564), fuori Λ, bordi di fine, k90: non riuscito. Correzione a IA32: giudice b non valido (corretto 0,688).
+- 23/11: **IA34 in corsa** (coda ia_V dalle 15:27; il piano del libro: vocabolario di sezione, legame fra righe, fine riga; 6 misure nuove tenute fuori).
 - 20/11: **IA6 in standby** finché Davide non fa l'accesso (si fa solo al PC). IA4, IA5, IA7 in corso dalle 13:30.
 - **Azione per Davide:** accesso del programma `claude` da riga di comando (`strumenti/Accesso claude.bat`, serve
   all'IA6).
