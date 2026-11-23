@@ -17720,3 +17720,40 @@ minuti), uscita 0. Risultati in `risultati/ia33_oracolo.{md,json}` e `risultati/
 - **Limiti:** l'oracolo del Voynich non esiste (si usa quello di markov2, traguardo ottimistico per una sola famiglia di processi); N
   premia il "ricordare" le pagine di addestramento; giudice b con circa 30 pagine (errore circa 0,06); KN al margine; un solo ciclo.
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
+
+## 23/11/2026 (sera) — ia34 (IA34): il "piano del libro" non viene usato: l'ottimizzatore spegne il vocabolario di sezione in entrambi i mondi e sul Voynich sceglie il punto di IA33 (manopole nuove a zero); controllo positivo non riuscito e oracolo del mondo `struttura` non valido; sulle sei misure nuove il punto di IA33 è al vero su 5 di 8 tenute fuori, fuori restano la somiglianza di vocabolario fra pagine della stessa sezione (z −5,0), il glifo d'inizio paragrafo (−3,1) e, di poco, le righe a distanza 2-3 (2,1): non riuscito
+
+Preregistrato (`preregistrazioni/ia34.md`, commit c363f4b; codice cfca447 con `piano_*.py`; variabili in `esegui.py` 5244d05). Scelta di
+Davide del 23/11 ("IA34 sulla struttura"); preparato dallo stesso agente di IA33, controllato e lanciato dal coordinatore senza cambi.
+Corsa: coda `ia_V`, 8 processi, 15:27–20:56 (329 minuti), uscita 0. Risultati in `risultati/ia34_piano.{md,json}` e
+`risultati/ia34_corse_*.jsonl`.
+
+- **Disegno:** scrittore di IA33 più tre manopole del "piano del libro" (`m_sez` parole estratte dal vocabolario della sezione e lingua,
+  `w_riga` ripresa dalla riga sopra in posizione vicina, `w_fine` chiusura delle righe); obiettivo a 12 grandezze (le 9 di IA33 più Λ,
+  bordi di fine, k90); 12 generazioni dal punto di IA33. Esame con giudici mai visti N, KN, b e **otto misure tenute fuori**: D, R_rel e
+  sei nuove mai usate da nessuno (`heaps` crescita del vocabolario, `burst` dispersione delle parole fra pagine, `riga_cv` variazione della
+  lunghezza di riga, `sezione` somiglianza di vocabolario fra pagine della stessa sezione rispetto a sezioni diverse, `lag23` righe a
+  distanza 2-3, `ini_par` glifo d'inizio paragrafo). Controllo positivo nel mondo `struttura` (regola nota con vocabolario di sezione,
+  eco dalla riga sopra, parole di tema per pagina, chiusure e aperture piantate).
+- **Oracolo del mondo `struttura`: non valido** (il gemello sta fuori fascia sul giudice b: 0,392). L'oracolo è comunque riconosciuto
+  nettamente (N 0,746, KN 0,791, b 0,728), anche con 2 volte il testo (0,827 / 0,849 / 0,685): una regola con parole di tema per pagina non
+  si stima dai soli fogli d'addestramento.
+- **Controllo positivo (`struttura`): non riuscito.** Obiettivo da 5,75 a 3,39; scelte `m_sez` 0 (spento), `w_riga` 0,80 (al limite),
+  `w_fine` 1,30. Giudici N 0,231, KN 0,736, b 0,509; misure tenute fuori al vero 3 su 8 (neutro 5 su 8): `sezione` −11,4, `lag23` +9,3,
+  `burst` −8,5, R_rel, `ini_par` fuori. L'ottimizzatore guadagna sull'obiettivo e peggiora la struttura tenuta fuori.
+- **Voynich:** nel ciclo nessun candidato batte il punto di IA33, che vince la rivalutazione (2,04 contro 2,26–2,48): **scelto IA33, manopole
+  del piano a zero**. Esame (`best`): N 0,325, KN 0,751, b 0,572 (lo stesso punto riscritto come `ia33k` dà b 0,722: il giudice b oscilla
+  di circa 0,15 fra due gruppi di libri dello stesso scrittore). Misure tenute fuori al vero: D 1,7, R_rel 0,2, heaps 1,2, burst −1,7,
+  riga_cv 0,3; **fuori: sezione −5,0, ini_par −3,1, lag23 2,1**: quota 0,62 contro 0,80. Non batte il v21. **Esito: non riuscito.**
+- **Lettura descrittiva:** in nessuno dei due mondi l'ottimizzatore usa il vocabolario di sezione: estrarre parole intere dal vocabolario
+  della sezione costa sui giudici e sulle misure di glifi più di quanto rende su k90 (peso piccolo nell'obiettivo). Le misure nuove dicono
+  dove resta lo scarto dell'IA sul Voynich: **le pagine della stessa sezione condividono più parole di quanto l'IA riesca a fare**, e il
+  primo glifo dei paragrafi è più vario nell'IA che nel vero (z −3,1 sull'entropia: nel vero è più prevedibile). Le altre quattro misure
+  nuove sono al vero già con IA33.
+- **In parole semplici:** abbiamo dato all'IA tre regole per organizzare il libro, ma allenandosi da sola ha deciso di non usarle: sul
+  Voynich è tornata esattamente alla versione di IA33. Anche sul testo di prova, dove sapevamo che le sezioni c'erano, ha spento la regola
+  delle sezioni. L'esame con misure mai viste dice dove resta la differenza: nel Voynich le pagine della stessa sezione si somigliano nel
+  vocabolario più di quanto l'IA sappia fare, e i paragrafi cominciano in modo più regolare.
+- **Limiti:** oracolo non valido e controllo positivo non riuscito (le letture formali non valgono); 12 generazioni con 17 manopole; k90 con
+  peso piccolo; giudice b rumoroso (errore effettivo più grande di quello dichiarato).
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
