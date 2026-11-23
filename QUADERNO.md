@@ -17614,3 +17614,46 @@ sintesi finale (commit 990b9f9). Nessun'altra lettura ne dipende.
 - **Limiti:** controllo positivo non riuscito (le letture della taratura non valgono formalmente); calibrazione non riuscita; pochi libri
   per mondo (4); k90 e R_rel con poche divisioni.
 - **Deviazioni:** tappa T rilanciata con il mondo `tec` (come da preregistrazione dopo la calibrazione fallita); correzione B4.
+
+## 23/11/2026 (mattina) — ia32 (IA32): l'IA che si allena a prove ed errori non riesce a rifare il Voynich, ma si avvicina molto: sul giudice nuovo N arriva al livello del v21 (0,608 contro 0,599; neutro 0,984); restano fuori le parole nuove (troppo poche), la copia e il vocabolario della pagina, Λ e D; il controllo positivo sul processo noto non riesce, quindi l'esito formale non si legge come proprietà del Voynich
+
+Preregistrato (`preregistrazioni/ia32.md`, commit c09e99a; codice eadc4f1 con `rifare_*.py`; variabili in `esegui.py` f7d204d). Richiesta di
+Davide del 22/11 sera ("voglio un'IA locale che riesca a rifarlo"); preparato da un agente, controllato e lanciato dal coordinatore, che
+prima del commit ha portato le generazioni del ciclo da 10 a 20 (dichiarato nella preregistrazione). Corsa: coda `ia_T`, 8 processi,
+00:51–05:37 (286 minuti), uscita 0. Risultati in `risultati/ia32_rifare_il_voynich.{md,json}` e `risultati/ia32_corse_*.jsonl`.
+
+- **Disegno:** un imitatore "pieno" (GRU 2×256 addestrata su 78 fogli su 100, 15 tenuti fuori, due istantanee mescolabili); 9 manopole di
+  scrittura (temperature per posto nella parola e nella riga, top-p, correzioni a conteggi sui bigrammi e trigrammi di glifi del libro,
+  mescolanza delle istantanee); CMA-ES, 12 candidati × 20 generazioni, obiettivo = distanza del righello su giudici e misure di
+  allenamento (e231, e266, K; copia netta, contatto, G9, bordi d'inizio, forma); esame finale con libri nuovi, giudici mai visti (N e KN
+  ricalcolati, giudice b nuovo addestrato dopo il ciclo) e misure tenute fuori (Λ, D, bordi di fine, parole nuove, k90, R_rel); guardia
+  anti-copia. Controllo positivo: stesso percorso sul mondo `markov2` di IA26.
+- **Controllo positivo (markov2): non riuscito.** Obiettivo da 5,25 a 4,43; giudici mai visti N 0,965, KN 0,869, b 0,986 (soglia 0,60);
+  parole nuove fuori (z −11). Il giudice b è valido (vede il neutro) e il controllo negativo (manopole a caso) regge. **Per la regola
+  scritta prima, l'esito sul Voynich non si legge come proprietà del Voynich.**
+- **Voynich, il ciclo:** obiettivo da 6,46 (neutro) a 3,08. Manopole scelte: temperatura interna 0,80, primo glifo 1,10, fine parola
+  1,20, inizio riga 1,34; **correzione a conteggi forte** (bigrammi 1,51; trigrammi 2,40, al limite superiore dell'intervallo);
+  istantanea più addestrata (0,98). Grandezze di allenamento: contatto, bordi d'inizio e forma al vero (z 0,5–0,7); e231 ed e266 da z 9
+  a 5; K da 6,5 a 3,5; copia netta (z −4,5) e G9 (z −5) ancora sotto.
+- **Voynich, l'esame (giudici mai visti, AUC):**
+
+  | giudice | IA32 | neutro | v21 |
+  |---|---|---|---|
+  | N | **0,608** | 0,984 | 0,599 |
+  | KN | 0,754 | 0,884 | 0,677 |
+  | b | 0,979 | 0,996 | 0,921 |
+
+  Misure tenute fuori entro 2σ: bordi di fine, k90 (2,20 contro 2,15), R_rel; fuori: Λ (z 3,3), D (z 2,6), **parole nuove 0,109 contro
+  0,148 (z −6,4)**. Quota entro 2σ 0,50. Nessuna copia oltre le soglie. **Esito: non riuscito**; non "in parte" (non migliora il v21 su
+  tutti e tre i giudici mai visti).
+- **Lettura descrittiva:** l'ottimizzatore ha spinto verso la correzione sui conteggi esatti del libro (al limite dell'intervallo
+  permesso), cioè verso il modo di lavorare del v21; così un'IA arriva per la prima volta al livello del v21 su un giudice mai visto (N).
+  Il giudice b, nuovo e addestrato dopo, riconosce però tutto, v21 compreso (0,92). Il fallimento anche sul processo noto suggerisce che
+  un modello stimato su circa 150.000 segni resti distinguibile da giudici addestrati su libri interi, qualunque sia il testo.
+- **In parole semplici:** l'IA ha imparato da sola a scrivere molto più simile al Voynich di prima: su uno dei giudici nuovi è ormai
+  difficile da distinguere quanto il v21. Ma non inganna tutti: inventa troppe poche parole nuove, ripete poco le parole della pagina e
+  un giudice nuovo la riconosce ancora. E non riesce nemmeno sul testo di prova di regola nota: il limite sembra stare in quanto testo
+  c'è per imparare, non nel Voynich.
+- **Limiti:** controllo positivo non riuscito; manopola dei trigrammi al limite superiore (l'ottimizzatore ne voleva di più); un solo
+  modello pieno per mondo; giudice b con circa 30 pagine vere.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione (generazioni 20, come scritto prima del commit).

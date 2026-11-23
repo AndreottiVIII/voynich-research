@@ -85,6 +85,8 @@ come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
 - 23/11 notte: **IA26** righello: v21 il piu' vicino per tutti i giudici, anche nuovi (distanza 1,90; imitatori 2,6-3,4;
   cifrari e lingue oltre 5); imitatori lontani sui processi noti quanto sul Voynich: limite degli imitatori. Lettura formale non
   valida (positivo markov2). In preparazione **IA32**: un'IA che si allena a prove ed errori finche' non rifa' il Voynich.
+- 23/11 mattina: **IA32** l'IA che si allena a prove ed errori non riesce, ma sul giudice nuovo N arriva al livello del v21
+  (0,608 contro 0,599); fuori parole nuove, copia, G9, Lambda, D; controllo positivo (markov2) non riuscito.
 - 20/11: **IA6 in standby** finché Davide non fa l'accesso (si fa solo al PC). IA4, IA5, IA7 in corso dalle 13:30.
 - **Azione per Davide:** accesso del programma `claude` da riga di comando (`strumenti/Accesso claude.bat`, serve
   all'IA6).
