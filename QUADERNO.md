@@ -17757,3 +17757,43 @@ Corsa: coda `ia_V`, 8 processi, 15:27–20:56 (329 minuti), uscita 0. Risultati 
 - **Limiti:** oracolo non valido e controllo positivo non riuscito (le letture formali non valgono); 12 generazioni con 17 manopole; k90 con
   peso piccolo; giudice b rumoroso (errore effettivo più grande di quello dichiarato).
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
+
+## 24/11/2026 (pomeriggio) — ia35 (IA35): la rete che "sa la sezione" predice un po' meglio (2,03 contro 2,09 bit per segno fuori piega) ma non impara il vocabolario di sezione (z −5,4 contro −5,0 dell'ablazione); sul Voynich l'IA arriva per la prima volta a 8 misure tenute fuori su 10 al vero, al livello dell'oracolo sui tre giudici; il controllo positivo non riesce, quindi l'esito formale non si legge come proprietà del Voynich
+
+Preregistrato (`preregistrazioni/ia35.md`, commit d8d0f81; codice 38592c4 con `sezione_*.py`; variabili in `esegui.py` 833b591). Scelta di
+Davide del 24/11 ("IA35: rete che sa la sezione"); griglia di tre varianti scelta sulla validazione chiesta dal coordinatore prima di ogni
+numero sul Voynich (prova sul latino: la rete condizionata originale sovra-adattava). Corsa: coda `ia_W`, 8 processi, 10:36–16:02
+(326 minuti), uscita 0. Risultati in `risultati/ia35_sezione.{md,json}` e `risultati/ia35_corse_*.jsonl`.
+
+- **Disegno:** rete GRU 2×256 condizionata a ogni passo su sezione, mano, lingua, tipo di riga, posizione nella riga e nella pagina, fascia
+  di lunghezza, con due bias d'uscita; ablazione = stessa rete, stesso seme e addestramento, con le sole teste nel flusso (come IA32-IA34).
+  Tre varianti condizionate (`Ca`, `Cb`, `Cc`) scelte sui 7 fogli di validazione, mai sui 15 tenuti fuori. Sopra la rete lo scrittore di
+  IA33 (14 manopole), CMA-ES 12 × 10 generazioni dal punto di IA33, obiettivo a 12 grandezze di IA34. Esame con N, KN, b (b mediato su
+  8 divisioni) e **dieci misure tenute fuori** (D, R_rel, heaps, burst, riga_cv, sezione, lag23, ini_par, ttr_pagina, hapax).
+- **Oracolo del mondo `struttura2`: valido, irraggiungibile** (gemello in fascia: 0,506 / 0,486 / 0,465). L'oracolo è riconosciuto da
+  tutti e tre i giudici (N 0,749, KN 0,794, b 0,788) anche con 2 volte il testo; non rifà R_rel, ini_par, hapax.
+- **Controllo positivo (`struttura2`): non riuscito.** Scelta `Cb`, che **non** batte l'ablazione in validazione (2,404 contro 2,396 bit
+  per segno). Obiettivo da 5,41 a 4,19; il ciclo spinge le manopole agli estremi (`w_cont` 5,6, `b_nuove` −2, `s` 1, `w_pag` 0,8). Giudici
+  al livello dell'oracolo (N 0,252, KN 0,639, b 0,644), ma misure tenute fuori al vero 2 su 10 (richieste 7): burst −22,1, lag23 +19,3,
+  sezione −10,0, ttr_pagina −9,9, R_rel −5,9, hapax, heaps, ini_par fuori. Come in IA34: l'ottimizzatore guadagna sull'obiettivo e rovina
+  la struttura che non vede.
+- **Voynich:** scelta `Cb` (validazione 1,927 contro 1,952 dell'ablazione: batte l'ablazione; fuori piega 1,934 contro 1,946). Ciclo:
+  obiettivo da 3,76 (neutro) a 1,70 (IA33 sulla rete nuova 1,91); il punto scelto si sposta da IA33 (`T_eol` 1,21, `top_p` 0,95,
+  `T_int` 0,84). Esame (`best`): N 0,298, KN 0,651, b 0,632 (v21: 0,599 / 0,677 / 0,609): **al livello dell'oracolo su tutti e tre**
+  (N sotto 0,40: il libro sembra al giudice N "più Voynich del Voynich", come in IA32-IA34). Misure tenute fuori: D 0,6, R_rel −1,7,
+  heaps 1,3, burst 1,6, riga_cv 0,8, lag23 −1,6, **ini_par 1,6** (era −3,1 in IA34), ttr_pagina −1,5; **fuori: sezione −5,4, hapax 2,2**:
+  quota 0,80 = richiesta. Guardia anti-copia rispettata. Esito del codice: **al livello dell'oracolo**; per la preregistrazione (L1) **non si
+  legge** perché il controllo positivo non è riuscito.
+- **Lettura descrittiva (condizionamento, L2):** la rete condizionata predice meglio dell'ablazione fuori piega sul Voynich (2,029 contro
+  2,087 bit per segno, circa il 3%) e in `struttura2` (2,412 contro 2,456). Allo stesso punto di manopole, però, giudici e misure sono alla
+  pari entro l'errore: `best`/`bestA` N 0,298 / 0,323, KN 0,651 / 0,701, b 0,632 / 0,621; **sezione −5,4 / −5,0**, ini_par 1,6 / 1,7. Il
+  miglioramento di ini_par viene dal nuovo punto del ciclo, non dal condizionamento (al punto di IA33 resta −3,3 / −2,9). **Previsione
+  smentita su `sezione`:** la rete che sa la sezione non scrive pagine della stessa sezione più simili fra loro.
+- **In parole semplici:** abbiamo detto alla rete in quale sezione, con quale mano e in quale punto della pagina sta scrivendo. Indovina
+  un po' meglio il segno successivo, ma non usa questa informazione per dare alle pagine della stessa sezione un vocabolario comune: quello
+  resta il difetto principale. Allenandosi, l'IA ha comunque trovato un punto migliore: sul Voynich 8 misure mai viste su 10 sono al vero
+  (prima 5 su 8) e gli inizi di paragrafo ora tornano. Ma sul testo di prova, dove conosciamo la regola, lo stesso allenamento rovina le
+  misure che non controlla; finché non funziona lì, il buon risultato sul Voynich non si può certificare.
+- **Limiti:** controllo positivo non riuscito (L1 non si legge); scelta fra tre varianti sulla validazione (può favorire `C` per
+  selezione); ablazione valutata al punto di manopole scelto per la rete condizionata; giudice b rumoroso; 10 generazioni.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
