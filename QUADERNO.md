@@ -17797,3 +17797,41 @@ numero sul Voynich (prova sul latino: la rete condizionata originale sovra-adatt
 - **Limiti:** controllo positivo non riuscito (L1 non si legge); scelta fra tre varianti sulla validazione (può favorire `C` per
   selezione); ablazione valutata al punto di manopole scelto per la rete condizionata; giudice b rumoroso; 10 generazioni.
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
+
+## 25/11/2026 (notte) — ia36 (IA36): le guardie nuove riconoscono il crollo di IA35 nel mondo di prova (penalità 2,25) e la scelta prudente lo evita, ma il controllo positivo non riesce ancora (5 misure tenute fuori su 10, ne servono 7); la memoria di sezione resta quasi spenta e non sposta `sezione` (−4,2 contro −4,4 senza); sul Voynich la scelta prudente arriva a 7 su 10 contro gli 8 del punto di IA35: non riuscito
+
+Preregistrato (`preregistrazioni/ia36.md`, commit 84fe831 con nota del coordinatore; codice d36993b con `prudente_*.py`; variabili in
+`esegui.py` 197733a). Scelta di Davide del 24/11 ("IA36: prova + sezione"); preparato da un agente nuovo (Sonnet), controllato dal
+coordinatore (verificato a parte il caricamento del punto di IA35 a 16 manopole). Corsa: coda `ia_X`, 8 processi, 19:28–00:32
+(304 minuti), uscita 0. Risultati in `risultati/ia36_prudente.{md,json}` e `risultati/ia36_corse_*.jsonl`.
+
+- **Disegno:** reti `Cb` di IA35 riusate dalla cache; scrittore di IA33 + memoria di sezione (`w_sez` peso, `t_sez` decadimento in pagine:
+  riprende parole già scritte nelle pagine precedenti della stessa sezione del libro che si sta generando); obiettivo = 12 grandezze di
+  IA34 + `riuso_sez`. **Scelta prudente:** cinque guardie nuove, diverse dalle 10 misure d'esame (parole per riga, lunghezza delle parole,
+  novità rispetto alle 3 pagine precedenti, coppie ripetute, pendenza di Zipf), permesso per guardia dal neutro, penalità nell'obiettivo
+  (× 2), finalisti prudenti se penalità ≤ 0,25 anche sul libro intero. Tarata sul mondo di sviluppo `struttura3`, mai su `struttura2` né
+  sul Voynich. Esame come IA35 (N, KN, b, 10 misure tenute fuori).
+- **Oracolo di `struttura2`: valido, irraggiungibile** (gemello 0,506 / 0,470 / 0,455; oracolo 0,748 / 0,790 / 0,794).
+- **Controllo positivo (`struttura2`): non riuscito.** Le guardie **vedono** il punto di IA35: penalità 2,25 (novità fra pagine z 11,0,
+  coppie ripetute −4,6), che lo scarta; si parte dal neutro. Vincitore `media_finale` (obiettivo 4,28, penalità 0,05; `w_cont` 4,3,
+  `s` 0,28, `b_nuove` −0,77, `w_sez` 0,13). Giudici al livello dell'oracolo (N 0,761, KN 0,767, b 0,745), misure al vero **5 su 10**
+  (richieste 7): fuori burst 10,2, ttr_pagina 11,0, hapax 16,8, lag23 −4,2, sezione −3,3. Meglio del punto di IA35 (2 su 10: burst
+  −22,5, lag23 19,4 non più), ma non abbastanza.
+- **Voynich:** il punto di IA35 è al limite (penalità 0,25) ed è la partenza. Vincitore `media_finale` (obiettivo 1,92 contro 1,70 del
+  punto di IA35, penalità 0,00; `w_cont` 0, `w_tri` 2,5, `w_sez` 0,03). Esame (`best`): N 0,395, KN 0,652, b 0,647; misure al vero **7 su
+  10**: fuori burst 4,4, sezione −4,2, lag23 −3,3. Il punto di IA35 riscritto come `ia35C` dà di nuovo 8 su 10 (fuori sezione −5,2 e
+  hapax 2,4; N 0,294, KN 0,649, b 0,600): il risultato di IA35 si ripete. Non batte il v21 di 2 errori. **Esito: non riuscito.**
+- **Memoria di sezione (L2):** il ciclo la tiene quasi spenta (`w_sez` 0,13 nel mondo di prova, 0,03 sul Voynich). Allo stesso punto,
+  con e senza memoria: sul Voynich `sezione` −4,2 / −4,4, `riuso_sez` 0,1 / 0,0, giudici uguali; nel mondo di prova `sezione` −3,3 / −3,4.
+  **Previsione smentita:** riprendere parole dalle pagine precedenti della stessa sezione non crea la somiglianza fra pagine misurata da
+  `sezione`. È il terzo tentativo sul vocabolario di sezione che non riesce (IA34 parole estratte dalla sezione, IA35 rete condizionata,
+  IA36 memoria).
+- **Protezione (lettura 6):** funziona come guardia (scarta il punto patologico di IA35 in `struttura2`), ma sul Voynich costa: scarta
+  un punto con 8 misure su 10 per uno con 7 su 10. Le guardie non bastano a portare il ciclo dove l'oracolo arriva nel mondo di prova.
+- **In parole semplici:** il nuovo "freno" ha fatto il suo lavoro sul testo di prova: ha riconosciuto la regolazione sbagliata di IA35 e
+  l'ha scartata. Ma anche ripartendo pulita l'IA non arriva al livello richiesto su quel testo, quindi la prova non è ancora superata. La
+  memoria di sezione non serve: l'IA la usa pochissimo e le pagine della stessa sezione non diventano più simili. Sul Voynich il freno ha
+  scelto una regolazione un po' peggiore di quella di IA35, che rifatta da capo conferma il suo 8 su 10.
+- **Limiti:** controllo positivo non riuscito (L1 non si legge); guardie tarate su un mondo dove il crollo non si era riprodotto;
+  `riuso_sez` nell'obiettivo tocca la materia di `sezione`; 10 generazioni.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
