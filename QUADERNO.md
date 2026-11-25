@@ -17947,3 +17947,22 @@ Idea A della revisione di Fable del 25/11 (`REVIEW_FABLE_2.md`), scelta di David
   della stessa sezione si somigliano quasi come nel Voynich, e intanto il giudice più pulito la distingue dal vero solo il 58% delle volte
   (prima 63%). Non c'era un vero compromesso: era l'allenamento automatico che non provava mai quella regolazione.
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione (quelle dichiarate prima della corsa sono nella preregistrazione).
+
+## 26/11/2026 (notte) — precisazioni a ia40 e ia38 dopo la revisione di Fable (`voynich-ia/REVIEW_FABLE_3.md`): due frasi della voce di IA40 erano troppo forti
+
+- **"b dentro 0,40-0,60" non si può dire.** b di s100k30 è 0,582 con errore 0,029 e vota sulle stesse 30 pagine (15 fogli) da IA33: si può dire
+  soltanto "più basso del punto di IA35" (0,63; v21 0,61). L'effetto di `a_sez` su b è coerente: 0,56–0,59 nelle 7 righe con `a_sez`
+  acceso contro 0,62–0,64 nelle 4 senza.
+- **"Non c'era compromesso" è troppo forte.** Con `a_sez` 1 escono di poco, in tutte e quattro le righe, bordi d'inizio riga (−1,4 → −2,7) e
+  parole nuove (−0,6 → +2,1), e in tre su quattro l'inizio di paragrafo (1,5 → 2,4): un prezzo piccolo c'è. `sezione` migliora in modo
+  ordinato con K (−2,7 / −2,0 / −1,2 a piena dose), quindi non è una scelta fortunata, ma è ormai una misura insegnata.
+- **K 30 è tirato:** in validazione predice un po' peggio di K 300 (2,257 contro 2,246 bit per segno); tre sezioni hanno 4–6 pagine studiate,
+  dove il finto riprende il vocabolario di poche pagine (la guardia anti-copia, che guarda frasi uguali, non lo vede; quote di copia a 0).
+  Le tabelle sono per sezione e non per lingua di Currier.
+- **N a 0,345 non è un buon voto** (scende sotto 0,5 con la dose del termostato): N e KN, che usano come "vero" anche le pagine studiate,
+  restano fuori dal verdetto.
+- La riga migliore (s100k30) non è stata rifatta con altri semi, come la preregistrazione lasciava intendere.
+- **IA38 va riletta:** i punti della sua frontiera con le sezioni migliori hanno `a_sez` 0–0,3 e K 300: è la curva del solo termostato
+  globale (le righe t025–t100 di IA40), non un compromesso "giudici contro sezioni" del Voynich.
+- Prossimo passo concordato fra revisione e coordinatore: **IA41, esame sigillato** su divisioni nuove dei fogli con giudici e misure nuovi e
+  la riga s100k30 fissata prima.
