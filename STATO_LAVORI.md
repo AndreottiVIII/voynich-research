@@ -94,6 +94,7 @@ come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
 - 25/11: **IA37 finita**: frequenze per sezione utili nel mondo di prova (`sezione` da −5,0 a −2,2) ma spente dal ciclo sul Voynich; la rete da sola ha quasi la differenza fra sezioni del vero, le correzioni per i giudici la tagliano del 40%; controllo positivo non riuscito, Voynich 6 su 10: non riuscito.
 - 25/11: **IA38 finita**: con la differenza fra sezioni nell’obiettivo il ciclo sul Voynich sceglie di nuovo il punto di IA37; frontiera giudici/sezioni (compromesso sui candidati); controllo positivo non riuscito: non riuscito. **IA39** (rete a premio) in pausa. **IA40** (tavola a dosi forzate) in corsa dalle 21:31. Regola di fine: al massimo due corse lunghe, poi la tabella per il paper; revisione di Fable dopo ogni esperimento.
 - 25/11: **IA40 finita** (tavola a dosi forzate): al punto di IA35 con `a_sez` 1 e ripiego K 30 `sezione` −1,2 e giudice b 0,58, 8 delle altre 9 misure al vero (ripetuta con K 100). Nessun compromesso: il freno era l’ottimizzatore. Da confermare con un esame sigillato nuovo.
+- 25/11: **IA41 in corsa** (coda ia_AB dalle 23:50; esame sigillato su 4 divisioni nuove dei fogli, riga s100k30 fissata, giudici e misure nuovi; corsa breve).
 - 20/11: **IA6 in standby** finché Davide non fa l'accesso (si fa solo al PC). IA4, IA5, IA7 in corso dalle 13:30.
 - **Azione per Davide:** accesso del programma `claude` da riga di comando (`strumenti/Accesso claude.bat`, serve
   all'IA6).
