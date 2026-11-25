@@ -17918,3 +17918,32 @@ prove di altri agenti sullo stesso PC), uscita 0. Risultati in `risultati/ia38_s
 - **Limiti:** controllo positivo non riuscito (L1 non si legge); `sezione` in parte insegnata; frontiera dai candidati di un ciclo rumoroso,
   non da punti misurati con più libri; corsa in parte con il PC condiviso con prove di altri agenti.
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
+
+## 25/11/2026 (notte) — ia40 (IA40): la tavola a dosi forzate trova una regolazione buona che il ciclo non aveva mai provato: al punto di IA35 con le frequenze per sezione a piena dose e ripiego debole (`a_sez` 1, K 30) `sezione` passa da −5,3 a −1,2 e il giudice b scende da 0,63 a 0,58 (dentro 0,40-0,60), con 8 delle altre 9 misure al vero; ripetuta con altri semi (K 100: −2,0 e 0,59 due volte). Non c'era compromesso: il freno era l'ottimizzatore
+
+Preregistrato (`preregistrazioni/ia40.md`, commit 9df02f3 con nota del coordinatore; codice b947555 `ia40_dosi.py`; variabili caccde2).
+Idea A della revisione di Fable del 25/11 (`REVIEW_FABLE_2.md`), scelta di Davide. Preparato dallo stesso agente di IA36-IA38. Corsa: coda
+`ia_AA`, 8 processi, 21:31–22:43 (72 minuti), uscita 0. Risultati in `risultati/ia40_dosi.{md,json}` e `risultati/ia40_corse_vero.jsonl`.
+
+- **Disegno:** niente ottimizzatore. Rete `Cb` di IA35, scrittore di IA37; punto base = punto di IA35 sul Voynich. 16 righe a dosi fisse,
+  8 libri interi ciascuna: termostato globale (le correzioni a conteggi `w_cont`, `w_tri`, `w_quad`, `w_uni`, `w_bi` moltiplicate insieme)
+  a 0, 0,25, 0,5, 0,75, 1; frequenze per sezione `a_sez` 0,5 e 1 con ripiego K 30, 100, 300; memoria di sezione `w_sez` 0,2 e 0,5; rete
+  con manopole neutre; due righe ripetute con altri semi (t100, s100k100). `sezione` non più tenuta fuori (riportata a parte). Riga buona
+  scritta prima: `sezione` |z| ≤ 2, b ≤ 0,65, almeno 7 delle altre 9 misure entro 2σ, guardia anti-copia rispettata.
+- **Rumore:** righe ripetute |Δb| 0,015 e 0,001, |Δz `sezione`| 0,1 e 0,0, al più una misura cambia di stato.
+- **Termostato globale (dose-risposta):** a 0 tutto crolla (b 0,99, `sezione` +9,9, lag23 25); a 0,25 `sezione` −1,9 ma b 0,72 e tre misure
+  fuori; da 0,5 a 1 b 0,62–0,64, `sezione` da −4,1 a −5,3. Il termostato globale da solo dà il compromesso visto in IA37-IA38.
+- **Frequenze per sezione (la scoperta):** con `a_sez` 1 il compromesso sparisce. **s100k30:** N 0,345, KN 0,607, **b 0,582**, `sezione`
+  **−1,2**, altre 9: 8 al vero (fuori ini_par 2,4), divergenza fra sezioni 0,060 / 0,183 (vero 0,068 / 0,208; IA35 0,043 / 0,110).
+  **s100k100:** b 0,587, `sezione` −2,0, 7 su 9; ripetuta (`s100k100r`): b 0,589, `sezione` −2,0, 8 su 9. Con `a_sez` 0,5 b scende già
+  (0,56–0,59) ma `sezione` resta fra −2,8 e −4,0; con K 300 (il valore scelto sulla validazione in IA37) l'effetto è debole.
+- **Memoria di sezione:** peggiora (w_sez 0,5: b 0,71, ini_par 7,1).
+- **Perché il ciclo non l'aveva trovata:** in IA37 il ripiego era fissato a K 300 (scelto sulla perplessità di validazione), dove l'effetto
+  è debole, e l'ottimizzatore partiva da `a_sez` 0 con valutazioni rumorose; non ha mai visto la zona `a_sez` 1, K 30.
+- **Che cosa NON si può dire:** la riga è stata scelta fra 16 guardando `sezione` e b; `sezione` non è più tenuta fuori; N a 0,345 è fuori
+  fascia dal basso; la tavola è solo sul Voynich (nessun controllo positivo). Per dire "riuscito" serve un esame nuovo, sigillato, su
+  libri nuovi e con giudici e misure mai usati (idea E della revisione), con la riga scelta prima.
+- **In parole semplici:** accendendo a mano, al massimo, le frequenze calcolate sezione per sezione, l'IA scrive un libro in cui le pagine
+  della stessa sezione si somigliano quasi come nel Voynich, e intanto il giudice più pulito la distingue dal vero solo il 58% delle volte
+  (prima 63%). Non c'era un vero compromesso: era l'allenamento automatico che non provava mai quella regolazione.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione (quelle dichiarate prima della corsa sono nella preregistrazione).
