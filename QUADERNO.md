@@ -17886,3 +17886,35 @@ misure. Aggregati con lo stesso calcolo di `ia35_sezione.riassunto_insieme` (`an
   strada concreta.
 - **Limiti:** lettura fatta dopo aver visto i risultati di IA35-IA37 (non preregistrata); i libri v21 non usano lo stesso scrittore né
   necessariamente la stessa disposizione dei libri dell'IA.
+
+## 25/11/2026 (sera) — ia38 (IA38): con la differenza fra sezioni nell'obiettivo, sul Voynich il ciclo sceglie di nuovo il punto di IA37 (nessun cambiamento); la frontiera dei candidati mostra il compromesso fra parte "giudici" e parte "sezioni" (J da 3,35 a 6,14 mentre S scende da 2,29 a 0,46); controllo positivo non riuscito: non riuscito
+
+Preregistrato (`preregistrazioni/ia38.md`, commit 8bbd7c2 con nota del coordinatore; codice a181bff con `sezobi_*.py`; variabili in
+`esegui.py` 4bf49ba). Scelta di Davide del 25/11 ("IA38: chiedergli entrambe"); preparato dallo stesso agente di IA36-IA37, controllato dal
+coordinatore (verificato a parte il caricamento del punto di IA37). Corsa: coda `ia_Z`, 8 processi, 15:52–21:31 (339 minuti; in parte con
+prove di altri agenti sullo stesso PC), uscita 0. Risultati in `risultati/ia38_sezioni.{md,json}`, `risultati/ia38_corse_*.jsonl`,
+`risultati/ia38_compromesso_{struttura2,vero}.png`.
+
+- **Disegno:** come IA37, più due grandezze nell'obiettivo (peso 1 ciascuna): divergenza fra sezioni dei bigrammi di glifi (`div_bigr`) e
+  delle 300 parole più frequenti (`div_par`), con riferimento sui soli fogli d'addestramento. `sezione` all'esame in parte insegnata
+  (riportata a parte). Lettura nuova: frontiera fra la parte giudici J (e231, e266, K) e la parte sezioni S dei candidati del ciclo.
+- **Oracolo di `struttura2`: valido, irraggiungibile** (0,750 / 0,792 / 0,805).
+- **Controllo positivo (`struttura2`): non riuscito**, e peggio di IA37. Scelto `migliore_ultima`: `a_sez` 0,73, `w_cont` 7,5 (al massimo),
+  `s` 0,72, `w_pag` 0,50. Giudici N 0,782, KN 0,760, b 0,806; misure 3 su 10: burst −14,9, lag23 14,0, hapax 17,5, ttr_pagina −5,9,
+  sezione −3,2 (insegnata), heaps, ini_par fuori. La divergenza fra sezioni delle parole sale (0,193 contro 0,168 di IA37; vero 0,229), ma
+  il resto della struttura peggiora.
+- **Voynich:** vince la rivalutazione il **punto di IA37** (`ia37_C`, `a_sez` 0): stessi valori di IA37 entro il caso. Esame (`best`):
+  N 0,387, KN 0,668, b 0,656; misure 5 su 10 (fuori burst 3,5, sezione −4,6, lag23 −2,5, ini_par −2,0, hapax 2,3). Divergenza fra sezioni
+  0,049 / 0,125 (vero 0,068 / 0,208; rete con manopole neutre 0,063 / 0,200). `ia35C` 8 su 10 (quarta volta). **Esito: non riuscito.**
+- **Frontiera (Voynich, 149 candidati):** dai finalisti (J 3,35–3,67, S 2,0–2,3) ai candidati del ciclo con S più bassa (J 3,83 → S 1,73;
+  J 4,57 → 1,47; J 5,05 → 1,21; J 6,14 → 0,46). Per avvicinare la differenza fra sezioni al vero, la parte giudici dell'obiettivo
+  peggiora molto; l'obiettivo totale preferisce i giudici. Nel mondo di prova la stessa forma (J 5,47 → S 2,23 fino a J 7,31 → S 0,70).
+- **Lettura:** il compromesso si vede sui candidati esplorati dal ciclo, ma la revisione indipendente del 25/11 (`REVIEW_FABLE_2.md`)
+  avverte che il ciclo è rumoroso (stesso punto rivalutato: ±0,2–0,4) e parte sempre dal punto precedente: la frontiera è una stima
+  grezza. La misura a dosi fisse (IA40, in corsa) è la verifica diretta.
+- **In parole semplici:** anche chiedendo all'IA di tenere le sezioni diverse, sul Voynich ha scelto di nuovo la regolazione di prima. I
+  tentativi fatti durante l'allenamento mostrano il motivo: quelli con sezioni più vicine al vero si fanno riconoscere molto di più dai
+  giudici di allenamento. Sul testo di prova la richiesta ha alzato la differenza fra sezioni, ma ha rovinato altre misure.
+- **Limiti:** controllo positivo non riuscito (L1 non si legge); `sezione` in parte insegnata; frontiera dai candidati di un ciclo rumoroso,
+  non da punti misurati con più libri; corsa in parte con il PC condiviso con prove di altri agenti.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
