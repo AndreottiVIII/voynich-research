@@ -17869,3 +17869,20 @@ coordinatore (verificata a parte la conversione dei punti di IA36 e IA35 a 15 ma
 - **Limiti:** controllo positivo non riuscito (L1 non si legge); K al massimo della griglia; il ciclo non vede `sezione` né la divergenza
   fra sezioni; 10 generazioni.
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
+
+## 25/11/2026 (sera) — lettura aggiunta su IA35: le dieci misure tenute fuori del voynichizzatore v21; ha giusta la somiglianza fra pagine della stessa sezione (`sezione` +0,9), che nessuna versione dell'IA ottiene, ma sbaglia altre cinque misure (5 su 10)
+
+Chiesta da Davide ("partire dalla pagella di là"). Nessun calcolo nuovo sul Voynich: i 10 libri v21 (V21:13-22, quelli di IA26) erano già
+stati misurati nella corsa di IA35 (lavori `M|` e `NM|` in `risultati/ia35_corse_vero.jsonl`), ma la tabella di IA35 non riportava le loro
+misure. Aggregati con lo stesso calcolo di `ia35_sezione.riassunto_insieme` (`analisi/ia35_misure_v21.py`).
+
+- **z delle misure tenute fuori, v21 (10 libri):** D −3,55, R_rel −0,1, heaps 1,0, burst 3,3, riga_cv 2,0, **sezione 0,9**, lag23 −3,4,
+  ini_par 3,4, ttr_pagina 0,9, hapax 10,0: **5 su 10** entro 2σ. Giudici (già in IA35): N 0,599, KN 0,677, b 0,609.
+- **Confronto con l'IA (IA35, `best`):** l'IA ha 8 su 10 e sbaglia `sezione` (−5,4) e di poco `hapax`; il v21, con regole a mano per il tema
+  di pagina e il vocabolario di sezione, ha giusta `sezione` e sbaglia D, burst, lag23, ini_par, hapax. **I due imitatori sbagliano in
+  punti diversi.**
+- **In parole semplici:** il programma a regole fatto a mano riesce proprio dove l'IA fallisce (le pagine della stessa sezione si
+  somigliano come nel vero) e fallisce dove l'IA riesce. Un ibrido (regole del v21 per l'ossatura del libro, rete per la pagina) è una
+  strada concreta.
+- **Limiti:** lettura fatta dopo aver visto i risultati di IA35-IA37 (non preregistrata); i libri v21 non usano lo stesso scrittore né
+  necessariamente la stessa disposizione dei libri dell'IA.
