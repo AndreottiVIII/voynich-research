@@ -17999,3 +17999,26 @@ lanciare (Davide via, regola del 25/11). Preparato dallo stesso agente di IA36-I
 - **Limiti:** 28-32 pagine tenute fuori per divisione; manopole non riadattate alle reti nuove; due sorprese e `lingua` non vedono il loro
   difetto; il v21 non è "pulito" rispetto alle pagine tenute fuori.
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
+
+## 26/11/2026 (mattina) — precisazioni a ia41 dopo la revisione di Fable (`voynich-ia/REVIEW_FABLE_4.md`)
+
+- **Criterio 5 calcolato male dal codice.** Per la preregistrazione le due sorprese (che non vedono il loro difetto) escono dal verdetto;
+  `ia41_sigillato.py` (righe 578–581) le conta invece come bocciate. Con la regola scritta l'indovina-sezione **passa** (differenza 0,090,
+  errore 0,063: 1,4 errori su 2; nel json `c5.indovina_ok: true`). L'esito formale non cambia (cade il criterio 1).
+- **"Il finto esagera il profilo di sezione" va tolto.** La differenza viene dalla sola divisione 4 (finto − vero per divisione: +0,02,
+  +0,09, −0,02, +0,27), e `neu` dà lo stesso valore (0,885): K 30 non c'entra. Il troppo facile da attribuire è il v21 (0,92–1,00 contro
+  0,61–0,93 del vero in 5 divisioni su 5).
+- **"`sezione` regge" va precisato:** media −1,5, ma per divisione −4,2, −2,2, −1,4, +1,6 (due su quattro fuori da 2σ); è il livello della
+  rete da sola (−1,3) ed è una misura insegnata. Il guadagno rispetto a `t100` c'è in tutte e cinque le divisioni (+2,3 / +3,3 σ).
+- **"Il compromesso torna" non descrive i dati:** `s100k30` ha lo stesso b di `t100` (+0,011 ± 0,02) e sezioni migliori; ha solo perso il
+  vantaggio su b che aveva sulla divisione originale.
+- **Manopole di IA35 su reti nuove:** pesano poco su b (`neu`, senza manopole, peggiora quanto `t100`: da 0,81 a 0,89); la frase "anche
+  `t100` peggiora" come segno delle manopole va tolta. Il dato scomodo: rispetto al v21 l'IA è migliore di 0,05–0,11 sulla divisione
+  originale e peggiore di 0,06–0,14 sulle quattro nuove. **I voti b letti da IA33 a IA40, tutti sulle stesse 30 pagine, erano ottimisti
+  di circa 0,1.** Rumore onesto di b sulle quattro nuove: `s100k30` 0,66 ± 0,03, `t100` 0,65 ± 0,03, v21 0,555 ± 0,03.
+- **Il v21 non è pulito, verificato nel codice** (`voynichizzatore/pezzi.py`, `sacco.py`): sacco e disposizione costruiti sull'intera
+  trascrizione; il lessico di ogni pagina viene da tutte le altre pagine della stessa sezione e lingua (esclusa la pagina stessa); usa le
+  lingue A e B. Lo stesso vantaggio c'era sulla divisione originale, dove il v21 perdeva.
+- **"7 su 7" vale meno di "8 su 10" di IA35:** il metro di IA41 (rumore di campionamento dei fogli) è molto più largo.
+- Prossimo passo concordato fra revisione e coordinatore: **IA42, controllo B** (un libro v21 come "vero"), poi ci si ferma e si scrive la
+  tabella finale.
