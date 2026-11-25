@@ -17966,3 +17966,36 @@ Idea A della revisione di Fable del 25/11 (`REVIEW_FABLE_2.md`), scelta di David
   globale (le righe t025–t100 di IA40), non un compromesso "giudici contro sezioni" del Voynich.
 - Prossimo passo concordato fra revisione e coordinatore: **IA41, esame sigillato** su divisioni nuove dei fogli con giudici e misure nuovi e
   la riga s100k30 fissata prima.
+
+## 26/11/2026 (notte) — ia41 (IA41): esame sigillato su quattro divisioni nuove dei fogli; il guadagno sulle sezioni regge su pagine mai viste (`sezione` −1,5 contro −4,3), quello sul giudice b no (0,663 contro 0,652 del punto di IA35; v21 0,555); le pagine finte sono più facili da attribuire alla loro sezione del vero (0,90 contro 0,81): esito preregistrato «IA40 legata alla prima divisione»
+
+Preregistrato (`preregistrazioni/ia41.md`, commit 1d3074d con nota del coordinatore sul criterio 5; codice 364fad3 con `sigillo_*.py`;
+variabili cf22800). Disegno della revisione di Fable del 26/11 (`voynich-ia/REVIEW_FABLE_3.md`), revisione e coordinatore d'accordo a
+lanciare (Davide via, regola del 25/11). Preparato dallo stesso agente di IA36-IA40. Corsa: coda `ia_AB`, 8 processi, 23:50–00:45
+(55 minuti), uscita 0. Risultati in `risultati/ia41_sigillato.{md,json}` e `risultati/ia41_corse_div*_vero.jsonl`.
+
+- **Disegno:** 4 divisioni nuove dei fogli (semi 4101-4104) più l'originale con semi nuovi; per ogni divisione rete `Cb` e tabelle per
+  sezione rifatte sui soli fogli d'addestramento di quella divisione, **manopole identiche** (punto di IA35; `s100k30` = `a_sez` 1, K 30).
+  Righe fissate prima: `s100k30`, `t100`, `neu`, `dif` (metà righe di `neu`, difetto piantato) e i 10 libri v21. 8 libri per riga e
+  divisione. Strumenti con "vero" = solo le pagine tenute fuori (28-32 per divisione): b mediato, sorpresa in avanti e al contrario
+  (Kneser-Ney), indovina-sezione (naive Bayes sulle 600 parole più frequenti); 7 misure vecchie più `sezione`, 6 nuove; unità = rumore di
+  campionamento dei fogli. Difetti piantati: pagine rimescolate, metà righe di `neu`.
+- **Validità:** `neu` b 0,891 (valido). Strumenti che vedono il loro difetto: `sezione`, `vicine`, indovina-sezione, b sì; **`lingua`, le
+  due sorprese no** (escono dal verdetto).
+- **Criteri (media sulle 4 divisioni nuove):** (1) b di `s100k30` sotto `t100` in almeno 3 su 4 e di 0,02: **no** (2 su 4, differenza
+  media −0,011: `s100k30` 0,682 / 0,718 / 0,576 / 0,677; `t100` 0,624 / 0,740 / 0,597 / 0,648); (2) b in 0,40-0,60: **no** (0,663; non pari
+  col v21, che fa 0,555); (3) `sezione` entro 2σ: **sì** (−1,5; `t100` −4,3; v21 0,1); (4) almeno 5 delle altre 7 misure vecchie: **sì** (7 su
+  7); (5) indovina-sezione del finto 0,899 contro 0,809 del vero (differenza 0,090, errore 0,063): **no** (le sorprese escono dal verdetto);
+  (6) misure nuove: **no** (dentro lunghezza, doppie, testa; fuori dispersione −2,2 e vicine −2,2; `lingua` fuori dal verdetto, z 1,4).
+- **Divisione originale con semi nuovi:** `s100k30` b 0,532 contro `t100` 0,588 (ripete IA40); sulle divisioni nuove il vantaggio sparisce.
+- **Lettura:** il guadagno su `sezione` delle frequenze per sezione è vero anche su pagine mai viste; quello sul giudice b era legato alla
+  divisione su cui le manopole erano state scelte (le manopole di IA35 sono state regolate sulla rete della divisione originale e qui sono
+  applicate a reti nuove: anche `t100` peggiora, 0,62-0,74). Con K 30 il finto esagera il profilo di sezione (indovina-sezione 0,90 contro
+  0,81): le pagine somigliano alla loro sezione più del vero. Il v21 sta meglio dell'IA su b in 3 divisioni su 4, ma le sue statistiche sono
+  state stimate sull'intero manoscritto, comprese le pagine che qui sono "tenute fuori": il confronto lo favorisce.
+- **In parole semplici:** l'esame su pagine nuove conferma che l'IA ora sa dare alle pagine della stessa sezione un vocabolario comune, ma
+  non conferma che sia diventata più difficile da smascherare: su quel punto il risultato di IA40 dipendeva dalle pagine su cui era stato
+  trovato. E adesso esagera un po': le sue pagine "sanno di sezione" più di quelle vere.
+- **Limiti:** 28-32 pagine tenute fuori per divisione; manopole non riadattate alle reti nuove; due sorprese e `lingua` non vedono il loro
+  difetto; il v21 non è "pulito" rispetto alle pagine tenute fuori.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
