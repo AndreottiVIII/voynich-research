@@ -91,7 +91,7 @@ come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
 - 23/11: **IA34 finita**: piano del libro non usato (vocabolario di sezione spento in entrambi i mondi, sul Voynich vince IA33); controllo positivo non riuscito; scarto residuo: vocabolario condiviso fra pagine della stessa sezione, inizio paragrafo.
 - 24/11: **IA35 finita**: la rete che sa la sezione predice un po’ meglio ma non impara il vocabolario di sezione (z −5,4); sul Voynich 8 misure tenute fuori su 10 al vero e giudici al livello dell’oracolo, ma controllo positivo non riuscito (esito formale non leggibile).
 - 25/11: **IA36 finita**: le guardie nuove scartano il punto patologico di IA35 nel mondo di prova, ma il controllo positivo non riesce (5 su 10); memoria di sezione quasi spenta, `sezione` non migliora (terzo tentativo); sul Voynich 7 su 10, il punto di IA35 rifatto conferma 8 su 10: non riuscito.
-- 25/11: **IA37 in corsa** (coda ia_Y dalle 08:54; conteggi dello scrittore per sezione con ripiego, manopola a_sez; resto come IA36).
+- 25/11: **IA37 finita**: frequenze per sezione utili nel mondo di prova (`sezione` da −5,0 a −2,2) ma spente dal ciclo sul Voynich; la rete da sola ha quasi la differenza fra sezioni del vero, le correzioni per i giudici la tagliano del 40%; controllo positivo non riuscito, Voynich 6 su 10: non riuscito.
 - 20/11: **IA6 in standby** finché Davide non fa l'accesso (si fa solo al PC). IA4, IA5, IA7 in corso dalle 13:30.
 - **Azione per Davide:** accesso del programma `claude` da riga di comando (`strumenti/Accesso claude.bat`, serve
   all'IA6).

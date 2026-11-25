@@ -17835,3 +17835,37 @@ coordinatore (verificato a parte il caricamento del punto di IA35 a 16 manopole)
 - **Limiti:** controllo positivo non riuscito (L1 non si legge); guardie tarate su un mondo dove il crollo non si era riprodotto;
   `riuso_sez` nell'obiettivo tocca la materia di `sezione`; 10 generazioni.
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
+
+## 25/11/2026 (pomeriggio) — ia37 (IA37): le frequenze per sezione funzionano nel mondo di prova (`sezione` da −5,0 a −2,2 allo stesso punto), ma sul Voynich il ciclo le spegne (`a_sez` 0); la diagnosi si sposta: la rete da sola ha quasi la differenza fra sezioni del vero (bigrammi 0,063 contro 0,068 bit, parole 0,201 contro 0,208), le correzioni che servono ai giudici la tagliano di circa il 40%; controllo positivo non riuscito, Voynich 6 su 10: non riuscito
+
+Preregistrato (`preregistrazioni/ia37.md`, commit be971b5 con nota del coordinatore; codice 0dd6826 con `freqsez_*.py`; variabili in
+`esegui.py` 61bff2b). Scelta di Davide del 25/11 ("IA37: frequenze per sezione"); preparato dallo stesso agente di IA36, controllato dal
+coordinatore (verificata a parte la conversione dei punti di IA36 e IA35 a 15 manopole). Corsa: coda `ia_Y`, 8 processi, 08:54–14:23
+(329 minuti), uscita 0. Risultati in `risultati/ia37_frequenze.{md,json}` e `risultati/ia37_corse_*.jsonl`.
+
+- **Disegno:** come IA36 (reti `Cb` di IA35, scelta prudente con le stesse soglie, `riuso_sez` nell'obiettivo), memoria di sezione spenta;
+  unica novità i **conteggi dello scrittore per sezione** (bigrammi, trigrammi, quadrigrammi di segni, alberi di parole; contati per pagina
+  d'addestramento in 7 sezioni) con ripiego bayesiano sui globali (K scelto sulla validazione: 300 in entrambi i mondi) e manopola `a_sez`
+  (0 = globali, identico a IA36 senza memoria). Ablazione `bestG` = stesso punto con `a_sez` 0. Diagnosi descrittiva: divergenza fra
+  sezioni (bit) di bigrammi di glifi e di parole per ogni insieme.
+- **Oracolo di `struttura2`: valido, irraggiungibile** (gemello 0,502 / 0,462 / 0,466; oracolo 0,751 / 0,796 / 0,786; 8 misure su 10).
+- **Controllo positivo (`struttura2`): non riuscito.** Partenza dal punto di IA36; il punto di IA35 di nuovo scartato dalle guardie
+  (penalità 2,04). Vincitore `media_finale`: **`a_sez` 0,54**, `w_cont` 6,3, `w_bi` 2,4. Giudici N 0,888, KN 0,808, b 0,796 (N oltre il
+  livello dell'oracolo), misure al vero 5 su 10 (richieste 8): fuori hapax 13,1, heaps −4,2, ttr_pagina 3,1, lag23 2,8, sezione −2,2.
+  **Allo stesso punto con e senza frequenze per sezione: `sezione` −2,2 / −5,0**, R_rel 0,3 / −1,1, ma heaps −4,2 / −1,0.
+- **Voynich:** partenza dal punto di IA36; vincitore `migliore_di_sempre` (obiettivo 1,82) con **`a_sez` 0**: il ciclo non usa le frequenze
+  per sezione. Esame (`best`): N 0,390, KN 0,663, b 0,666; misure al vero 6 su 10: fuori burst 3,6, sezione −4,6, lag23 −2,5, hapax 2,1.
+  `bestG` (stesso punto, identico a meno del caso) 7 su 10. `ia35C` di nuovo 8 su 10 (terza volta). Non batte il v21. **Esito: non riuscito.**
+- **Diagnosi (divergenza fra sezioni, bit, bigrammi / parole).** Voynich vero 0,068 / 0,208; **rete con manopole neutre (`neuC`) 0,063 /
+  0,201**; punti scelti dal ciclo 0,043–0,050 / 0,112–0,126 (IA35, IA36, IA37). Nel mondo di prova: vero 0,074 / 0,229, neutro 0,060 /
+  0,177, scelti 0,047–0,051 / 0,14–0,17. La rete da sola conserva quasi tutta la differenza fra sezioni (e con le manopole neutre la misura
+  d'esame `sezione` è al vero: +1,3 sul Voynich), ma i giudici la riconoscono (N 0,94); le correzioni che portano i giudici al livello
+  dell'oracolo tagliano circa il 40% della differenza fra sezioni. Le frequenze per sezione con K 300 restituiscono poco sul Voynich e il
+  ciclo, che non vede `sezione`, non ha motivo di accenderle.
+- **In parole semplici:** sul testo di prova la novità fa quello che doveva: le pagine della stessa sezione tornano simili. Sul Voynich
+  l'IA ha deciso di non usarla. Guardando dentro abbiamo capito il vero nodo: la rete, da sola, scrive sezioni diverse tra loro quasi
+  quanto il Voynich, ma il suo testo si riconosce subito come falso. Le correzioni che servono a ingannare i giudici appiattiscono le
+  sezioni. Finora l'IA può avere una cosa o l'altra, non tutte e due.
+- **Limiti:** controllo positivo non riuscito (L1 non si legge); K al massimo della griglia; il ciclo non vede `sezione` né la divergenza
+  fra sezioni; 10 generazioni.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
