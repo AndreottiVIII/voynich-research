@@ -18106,3 +18106,29 @@ Strada 2 di `voynich-ia/PROPOSTE_DECIFRARE_FABLE.md`, scelta di Davide del 26/11
 - **Limiti:** erbario B escluso dal cancello; schemi in meno dell'80% delle pagine invisibili; una sola tradizione di tavole dei gradi;
   rotazione unica per tutti i segni.
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
+
+## 26/11/2026 (sera) — ia44 (IA44): precisazione dopo la revisione di Fable (REVIEW_FABLE_6): "non trovato" resta, ma vale "assente a questo livello" e il livello è più alto di come scritto sopra
+
+- **Esito invariato:** nessun trovato, nessuna deviazione. Cambia solo quanto pesa.
+- **Erbario A, livello:** per la regola preregistrata (quota più bassa vista in almeno il 90% delle prove) il livello è "schema in tutte le
+  pagine" (QGq100, 10 su 10). All'80% lo strumento vede 6 volte su 10 (QGd), al 60% mai; fra 80% e 100% nessun punto provato.
+- **Lo schema piantato è stilizzato:** una parola fissa per valore, una volta per pagina, gruppi di al più 4 parole. Macer e Isidoro sono
+  tagliati sulle lunghezze delle pagine (una pagina non è una pianta): lo schema naturale di un erbario vero non è stato provato. Forme
+  flesse o due alternative per valore portano le quattro qualità oltre le 4 parole. "Dovrebbe lasciare" va letto "lascerebbe, se
+  scritto a scheda fissa".
+- **p 0,015 con Takahashi:** fra i 101 negativi dell'erbario A, p ≤ 0,015 capita 2 volte (due latini) e p ≤ 0,017 4 volte: evento da
+  2-4%, il più piccolo di sei p riportati, 4,5 volte sopra la soglia. Il gruppo che lo produce (solo in `dati/cache/ia44/`) è una coppia
+  a inizio pagina in cui una delle due è una "parola" di un solo segno; con ZL la stessa variante sceglie altre coppie ed è ordinaria
+  (33 pagine esatte su 95 contro 44). Lettura più probabile, non provata: dipende da come la trascrizione divide le parole. I positivi
+  piantano solo parole di almeno 3 segni.
+- **Nulli:** rimescolano dentro fascicolo e mano, quindi cancellano anche le abitudini per bifoglio: può creare falsi "trovato", non
+  nasconderne; per un esito negativo bastano. Il negativo `rimesc` è un campione del nullo stesso. Un "trovato" futuro chiederebbe un
+  nullo dentro il bifoglio.
+- **Zodiaco, limiti che mancavano:** (b) usa etichette e tutto il testo dei fogli (36 e 140 parole in 2-6 segni; il massimo è su tutto
+  il testo) e vede solo divisioni massicce: 20 parole per classe al cancello (60-80 in tutto), con 5 per classe 8 su 10; una parola
+  per classe non si vedrebbe. (c) vede lo schema solo con metà delle righe marcate (30%: 5 su 10; 20%: mai) e sul Voynich poggia su 8
+  parole (6 con Takahashi); il p 0,15 è un gradino di un nullo con pochi valori (l'osservato coincide con il suo 95° percentile).
+- **Che cosa cade davvero:** "erbario A a scheda fissa: una parola di qualità o di grado, sempre la stessa, una volta in ogni pagina";
+  "vocabolario dello zodiaco diviso in massa per elemento, modalità o pianeta"; "etichette che per metà dicono il carattere del grado
+  secondo Lilly, con rotazione comune". Nulla sull'erbario B; poco su "erbario o trattato astrologico cifrato parola per parola" in
+  generale.
