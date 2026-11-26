@@ -18075,3 +18075,34 @@ uscita 0. Risultati in `risultati/ia42_controllob.{md,json}` e `risultati/ia42_c
 - **Peso del limite:** per il giudice b il v21 è già quasi il Voynich (0,555 in IA41), quindi «stesso voto» era l'esito più probabile
   per costruzione; le manopole scelte sul Voynich sfavoriscono il mondo v21 (4 misure fuori contro 2). Nulla su un testo qualunque.
 - Serie chiusa (regola di fine del 25/11): tabella finale in `voynich-ia/TABELLA_FINALE.md`.
+
+## 26/11/2026 (pomeriggio) — ia44 (IA44): schemi noti in anticipo; nessuno dei tre schemi cercati c'è nel Voynich (erbario A "una e una sola per pagina": p 0,41 con ZL, 0,015 con Takahashi, soglia 1/300; zodiaco per segno: p 0,88 / 0,83; zodiaco per grado contro le tavole di Lilly: p 0,89 / 0,15), con strumenti che ritrovano gli schemi piantati al 100% e zero falsi allarmi: non trovato
+
+Preregistrato (`preregistrazioni/ia44.md`, commit cc9235c con nota del coordinatore; codice 46509c2 con `schemi_*.py`; variabili e90f4e7).
+Strada 2 di `voynich-ia/PROPOSTE_DECIFRARE_FABLE.md`, scelta di Davide del 26/11. Preparato da un agente nuovo (Sonnet). Corsa: coda
+`ia_AD`, 8 processi, 13:19–13:50 (31 minuti; in parte con prove di IA43 sullo stesso PC), uscita 0. Risultati in
+`risultati/ia44_schemi.{md,json}`; eventuali parole candidate solo in `dati/cache/ia44/` (mai in `risultati/`).
+
+- **Disegno:** tre ricerche con schemi scritti prima. (a) Erbario: gruppi di 2-4 parole "esattamente una per pagina" (18 varianti, due modi
+  di ricerca, due nulli rimescolati dentro fascicolo e mano, si prende il p peggiore). (b) Zodiaco per segno: parole presenti in 2-6 segni
+  contro elemento, modalità, pianeta (tolte prima caldo/freddo, secco/umido e stagioni, invisibili nei controlli). (c) Zodiaco per grado:
+  etichette contro le tavole tradizionali di Lilly 1647 (maschile/femminile anche con varianti di al-Biruni, chiaro/scuro, chiaro/non
+  chiaro, fossati, fortuna crescente), tutte le rotazioni e due versi. Soglia "trovato": p ≤ 1/300 per ricerca con **entrambe** le
+  trascrizioni (ZL e Takahashi). Cancello: una parte entra sul Voynich solo se i positivi sono visti ≥ 90% e i falsi allarmi ≤ 5%.
+- **Controlli (testi non Voynich: 24 v21 senza messaggio, 8 Naibbe, 5 Timm e Schinner, latino cifrato parola per parola con e senza
+  riempitivo, v21 rimescolati, 80 zodiaci finti):** erbario A ammesso (falsi allarmi 0 su 101; positivi Q4, QG, CS al 100%; uno schema
+  presente in meno dell'80% delle pagine non si vede: QGq60-25 a 0%); erbario B **non ammesso** (QG 85%); zodiaco per segno ammesso nelle
+  tre divisioni (100% con 20 parole per classe; falsi allarmi 0 su 80); zodiaco per grado ammesso per G1, G2, L2, P1 (100% con metà righe
+  marcate; 0% con una rotazione diversa per ogni segno), non ammessi L1 e F1.
+- **Voynich:** (a) erbario A p 0,408 (ZL), 0,015 (IT); (b) segni p 0,876 / 0,831; (c) gradi p 0,895 / 0,149. **Nessun trovato.** Il p 0,015
+  dell'erbario con Takahashi è nella norma dei controlli (il latino con temi veri dà p ≤ 0,05 in 6 casi su 20) e non si ripete con ZL.
+- **Lettura:** nell'erbario A non c'è un gruppo di parole che marchi ogni pagina con una qualità o un grado, presente in almeno l'80% delle
+  pagine; nelle etichette dello zodiaco non c'è una corrispondenza con elemento, modalità, pianeta né con le tavole dei gradi di Lilly
+  (con la stessa rotazione per tutti i segni). Non esclude schemi più radi, cifrati in modo che una qualità non sia una parola fissa, o
+  tavole diverse da quelle provate.
+- **In parole semplici:** abbiamo cercato nel Voynich tre "impronte" che un erbario o un trattato di astrologia dell'epoca dovrebbe
+  lasciare, scritte prima di guardare. Gli strumenti le ritrovano sempre quando le piantiamo apposta in un testo finto, e non vedono niente
+  dove non ci sono. Nel Voynich non c'è nessuna delle tre.
+- **Limiti:** erbario B escluso dal cancello; schemi in meno dell'80% delle pagine invisibili; una sola tradizione di tavole dei gradi;
+  rotazione unica per tutti i segni.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
