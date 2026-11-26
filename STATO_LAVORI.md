@@ -95,7 +95,7 @@ come per e300b). Nessun esperimento di ricerca usa numeri da 400 in su.
 - 25/11: **IA38 finita**: con la differenza fra sezioni nell’obiettivo il ciclo sul Voynich sceglie di nuovo il punto di IA37; frontiera giudici/sezioni (compromesso sui candidati); controllo positivo non riuscito: non riuscito. **IA39** (rete a premio) in pausa. **IA40** (tavola a dosi forzate) in corsa dalle 21:31. Regola di fine: al massimo due corse lunghe, poi la tabella per il paper; revisione di Fable dopo ogni esperimento.
 - 25/11: **IA40 finita** (tavola a dosi forzate): al punto di IA35 con `a_sez` 1 e ripiego K 30 `sezione` −1,2 e giudice b 0,58, 8 delle altre 9 misure al vero (ripetuta con K 100). Nessun compromesso: il freno era l’ottimizzatore. Da confermare con un esame sigillato nuovo.
 - 26/11: **IA41 finita** (esame sigillato, 4 divisioni nuove): `sezione` regge su pagine mai viste (−1,5 contro −4,3), il guadagno sul giudice b no (0,663 contro 0,652; v21 0,555); il finto esagera il profilo di sezione. Esito: IA40 legata alla prima divisione per b.
-- 26/11: **IA42 in corsa** (coda ia_AC dalle 01:26; controllo B: libro v21 n. 13 come vero, stesse 4 divisioni di IA41; ultimo esperimento della serie, poi la tabella finale).
+- 26/11: **IA42 finita** (controllo B): sul libro v21 come vero l’imitatore prende lo stesso b che sul Voynich (0,633 contro 0,66; gemelli 0,50): limite del metodo, non del Voynich; resta solo la dispersione fra pagine (−2,2 sul Voynich, −1,3 sul v21). Fine della serie: si scrive la tabella finale.
 - 20/11: **IA6 in standby** finché Davide non fa l'accesso (si fa solo al PC). IA4, IA5, IA7 in corso dalle 13:30.
 - **Azione per Davide:** accesso del programma `claude` da riga di comando (`strumenti/Accesso claude.bat`, serve
   all'IA6).

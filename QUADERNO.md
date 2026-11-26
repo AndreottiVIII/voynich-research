@@ -18022,3 +18022,36 @@ lanciare (Davide via, regola del 25/11). Preparato dallo stesso agente di IA36-I
 - **"7 su 7" vale meno di "8 su 10" di IA35:** il metro di IA41 (rumore di campionamento dei fogli) è molto più largo.
 - Prossimo passo concordato fra revisione e coordinatore: **IA42, controllo B** (un libro v21 come "vero"), poi ci si ferma e si scrive la
   tabella finale.
+
+## 26/11/2026 (notte) — ia42 (IA42): controllo B; con un libro v21 (regola nota) al posto del Voynich l'imitatore prende lo stesso voto del giudice b (0,633 contro 0,66 sul Voynich; gemelli 0,499): il voto b dell'IA sul Voynich è un limite del metodo con così poco testo, non una proprietà del Voynich; `dispersione` è dentro sul v21 (−1,3) e di poco fuori sul Voynich (−2,2): esito preregistrato «stesso voto»
+
+Preregistrato (`preregistrazioni/ia42.md`, commit e65bb9b con nota del coordinatore; codice 46a6da6 `ia42_controllob.py`; variabili
+dd17c4f). Disegno della revisione di Fable del 26/11 (`voynich-ia/REVIEW_FABLE_4.md`), revisione e coordinatore d'accordo a lanciare
+(Davide via, regola del 25/11). Preparato dallo stesso agente di IA36-IA41. Corsa: coda `ia_AC`, 8 processi, 01:26–02:09 (43 minuti),
+uscita 0. Risultati in `risultati/ia42_controllob.{md,json}` e `risultati/ia42_corse_div*_v21w.jsonl`. **Ultimo esperimento della serie.**
+
+- **Disegno:** lo stesso programma di IA41 con il libro v21 n. 13 come "vero" (mondo `v21w`: righe e paragrafi dal v21, foglio, sezione,
+  lingua e mano dal Voynich); stesse quattro divisioni nuove (semi 4101-4104), rete `Cb` e tabelle per sezione rifatte per divisione,
+  manopole identiche (punto di IA35). Righe `s100k30`, `t100`, `neu`; gemelli = i libri v21 14-22. Strumenti: b, indovina-sezione, `sezione`,
+  le misure di IA41 senza sorprese né `lingua`; corretto l'errore del criterio 5 di IA41 (chi non vede il proprio difetto esce davvero dal
+  verdetto).
+- **Validità:** gemelli b 0,499 (0,566 / 0,521 / 0,391 / 0,519); pagine rimescolate viste da `sezione` (−3,9) e indovina-sezione (0,94 →
+  0,38), non da `vicine` (fuori dal verdetto). Controllo valido.
+- **b dell'imitatore sul libro v21:** `s100k30` 0,661 (0,686 / 0,695 / 0,629 / 0,634), `t100` 0,606, `neu` 0,968. Media di `t100` e
+  `s100k30` **0,633** contro 0,66 sul Voynich in IA41: dentro la fascia "stesso voto" (0,61-0,71) scritta prima. Previsione di Fable
+  (0,61-0,68) confermata. Qui `s100k30` ha b peggiore di `t100` (sul Voynich erano pari).
+- **Misure (`s100k30`, z):** `sezione` −1,3 (Voynich −1,5; `t100` −4,4): le frequenze per sezione funzionano anche sul testo a regola nota;
+  `dispersione` −1,3 (Voynich −2,2; gemelli 0,0): dentro qui, di poco fuori sul Voynich, quindi per la regola scritta «proprio del Voynich»
+  (con la cautela che `dispersione` non ha un suo difetto piantato e che −2,2 è a un soffio dalla soglia); fuori da 2σ qui: burst −2,4,
+  ini_par 2,2, hapax 3,3, doppie 2,5 (sul Voynich erano dentro: il metodo sbaglia anche cose che sul Voynich azzecca).
+- **Lettura:** sul punto principale, il giudice su pagine mai viste, l'imitatore non trova il Voynich più difficile di un testo costruito
+  con una regola nota e con le stesse parole e impaginazione: il voto 0,63-0,66 è il limite di questo imitatore con un libro di testo (in
+  accordo con il tetto dei dati di IA33). L'unica traccia di qualcosa di proprio del Voynich è la dispersione fra pagine (pagine dell'IA
+  troppo uguali alla media), al limite della soglia.
+- **In parole semplici:** abbiamo fatto copiare all'IA un libro finto di cui conosciamo la regola, con le stesse parole e la stessa
+  impaginazione del Voynich. I giudici la smascherano quanto la smascherano sul Voynich. Quindi non è il Voynich a essere speciale: è che
+  con così poco testo questa IA non riesce a non lasciare tracce. L'unica differenza che resta è che nel Voynich le pagine variano fra loro
+  un po' più di quanto l'IA riesca a fare.
+- **Limiti:** il v21 è costruito con parole e impaginazione del Voynich (e con statistiche dell'intero manoscritto); manopole scelte sul
+  Voynich, applicate a entrambi i mondi; 26-33 pagine tenute fuori per divisione; `dispersione` senza difetto piantato.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.

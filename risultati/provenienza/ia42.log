@@ -1,0 +1,275 @@
+ia42: divisioni [1, 2, 3, 4], processi 8, libro v21 n. 13
+ia42, divisione 4: mondo v21w (libro v21 n. 13), fasi R, libro (Voynich: layout; testo = v21)
+ia42, divisione 2: mondo v21w (libro v21 n. 13), fasi R, libro (Voynich: layout; testo = v21)
+ia42, divisione 1: mondo v21w (libro v21 n. 13), fasi R, libro (Voynich: layout; testo = v21)
+ia42, divisione 3: mondo v21w (libro v21 n. 13), fasi R, libro (Voynich: layout; testo = v21)
+divisione 2: addestro la rete Cb sui 78 fogli d'addestramento del libro v21 n. 13 (validazione 7, tenuti fuori 15)
+divisione 3: addestro la rete Cb sui 78 fogli d'addestramento del libro v21 n. 13 (validazione 7, tenuti fuori 15)
+divisione 4: addestro la rete Cb sui 78 fogli d'addestramento del libro v21 n. 13 (validazione 7, tenuti fuori 15)
+divisione 1: addestro la rete Cb sui 78 fogli d'addestramento del libro v21 n. 13 (validazione 7, tenuti fuori 15)
+[addestra] epoca 1: addestramento 2.7353, validazione 2.3833 (migliore 2.3833 all'epoca 1), 25 s
+[addestra] epoca 1: addestramento 2.7708, validazione 2.3199 (migliore 2.3199 all'epoca 1), 25 s
+[addestra] epoca 1: addestramento 2.7347, validazione 2.2435 (migliore 2.2435 all'epoca 1), 25 s
+[addestra] epoca 1: addestramento 2.5721, validazione 2.2259 (migliore 2.2259 all'epoca 1), 25 s
+[addestra] epoca 2: addestramento 2.1807, validazione 2.2224 (migliore 2.2224 all'epoca 2), 46 s
+[addestra] epoca 2: addestramento 2.1963, validazione 2.1194 (migliore 2.1194 all'epoca 2), 46 s
+[addestra] epoca 2: addestramento 2.1439, validazione 2.3374 (migliore 2.3374 all'epoca 2), 46 s
+[addestra] epoca 2: addestramento 2.1587, validazione 2.1846 (migliore 2.1846 all'epoca 2), 47 s
+[addestra] epoca 3: addestramento 2.1145, validazione 2.1938 (migliore 2.1938 all'epoca 3), 67 s
+[addestra] epoca 3: addestramento 2.1308, validazione 2.1116 (migliore 2.1116 all'epoca 3), 67 s
+[addestra] epoca 3: addestramento 2.1040, validazione 2.2708 (migliore 2.2708 all'epoca 3), 68 s
+[addestra] epoca 3: addestramento 2.0976, validazione 2.1576 (migliore 2.1576 all'epoca 3), 68 s
+[addestra] epoca 4: addestramento 2.0905, validazione 2.1776 (migliore 2.1776 all'epoca 4), 88 s
+[addestra] epoca 4: addestramento 2.0985, validazione 2.1037 (migliore 2.1037 all'epoca 4), 88 s
+[addestra] epoca 4: addestramento 2.0674, validazione 2.2908 (migliore 2.2708 all'epoca 3), 89 s
+[addestra] epoca 4: addestramento 2.0735, validazione 2.1349 (migliore 2.1349 all'epoca 4), 90 s
+[addestra] epoca 5: addestramento 2.0675, validazione 2.1513 (migliore 2.1513 all'epoca 5), 110 s
+[addestra] epoca 5: addestramento 2.0602, validazione 2.0856 (migliore 2.0856 all'epoca 5), 110 s
+[addestra] epoca 5: addestramento 2.0339, validazione 2.2502 (migliore 2.2502 all'epoca 5), 110 s
+[addestra] epoca 5: addestramento 2.0459, validazione 2.1512 (migliore 2.1349 all'epoca 4), 112 s
+[addestra] epoca 6: addestramento 2.0463, validazione 2.0838 (migliore 2.0838 all'epoca 6), 131 s
+[addestra] epoca 6: addestramento 2.0436, validazione 2.1469 (migliore 2.1469 all'epoca 6), 131 s
+[addestra] epoca 6: addestramento 2.0265, validazione 2.2385 (migliore 2.2385 all'epoca 6), 132 s
+[addestra] epoca 6: addestramento 2.0384, validazione 2.1139 (migliore 2.1139 all'epoca 6), 134 s
+[addestra] epoca 7: addestramento 2.0374, validazione 2.0647 (migliore 2.0647 all'epoca 7), 152 s
+[addestra] epoca 7: addestramento 2.0303, validazione 2.2139 (migliore 2.1469 all'epoca 6), 152 s
+[addestra] epoca 7: addestramento 2.0040, validazione 2.2526 (migliore 2.2385 all'epoca 6), 154 s
+[addestra] epoca 7: addestramento 2.0162, validazione 2.0889 (migliore 2.0889 all'epoca 7), 156 s
+[addestra] epoca 8: addestramento 2.0321, validazione 2.1221 (migliore 2.1221 all'epoca 8), 173 s
+[addestra] epoca 8: addestramento 2.0168, validazione 2.0918 (migliore 2.0647 all'epoca 7), 174 s
+[addestra] epoca 8: addestramento 1.9954, validazione 2.2219 (migliore 2.2219 all'epoca 8), 175 s
+[addestra] epoca 8: addestramento 2.0004, validazione 2.1507 (migliore 2.0889 all'epoca 7), 178 s
+[addestra] epoca 9: addestramento 2.0017, validazione 2.1380 (migliore 2.1221 all'epoca 8), 194 s
+[addestra] epoca 9: addestramento 2.0289, validazione 2.0856 (migliore 2.0647 all'epoca 7), 195 s
+[addestra] epoca 9: addestramento 1.9866, validazione 2.2464 (migliore 2.2219 all'epoca 8), 196 s
+[addestra] epoca 9: addestramento 1.9972, validazione 2.1005 (migliore 2.0889 all'epoca 7), 200 s
+[addestra] epoca 10: addestramento 1.9990, validazione 2.1174 (migliore 2.1174 all'epoca 10), 215 s
+[addestra] epoca 10: addestramento 2.0051, validazione 2.0493 (migliore 2.0493 all'epoca 10), 216 s
+[addestra] epoca 10: addestramento 1.9810, validazione 2.2210 (migliore 2.2210 all'epoca 10), 218 s
+[addestra] epoca 10: addestramento 1.9831, validazione 2.0909 (migliore 2.0889 all'epoca 7), 221 s
+[addestra] epoca 11: addestramento 1.9808, validazione 2.1077 (migliore 2.1077 all'epoca 11), 236 s
+[addestra] epoca 11: addestramento 1.9896, validazione 2.0539 (migliore 2.0493 all'epoca 10), 237 s
+[addestra] epoca 11: addestramento 1.9605, validazione 2.2198 (migliore 2.2198 all'epoca 11), 239 s
+[addestra] epoca 11: addestramento 1.9638, validazione 2.0906 (migliore 2.0889 all'epoca 7), 243 s
+[addestra] epoca 12: addestramento 1.9743, validazione 2.1113 (migliore 2.1077 all'epoca 11), 257 s
+[addestra] epoca 12: addestramento 1.9767, validazione 2.0252 (migliore 2.0252 all'epoca 12), 259 s
+[addestra] epoca 12: addestramento 1.9430, validazione 2.2494 (migliore 2.2198 all'epoca 11), 261 s
+[addestra] epoca 12: addestramento 1.9652, validazione 2.1006 (migliore 2.0889 all'epoca 7), 265 s
+[addestra] epoca 13: addestramento 1.9677, validazione 2.1443 (migliore 2.1077 all'epoca 11), 278 s
+[addestra] epoca 13: addestramento 1.9669, validazione 2.0626 (migliore 2.0252 all'epoca 12), 280 s
+[addestra] epoca 13: addestramento 1.9392, validazione 2.2424 (migliore 2.2198 all'epoca 11), 282 s
+[addestra] epoca 13: addestramento 1.9627, validazione 2.0973 (migliore 2.0889 all'epoca 7), 287 s
+[addestra] epoca 14: addestramento 1.9664, validazione 2.1465 (migliore 2.1077 all'epoca 11), 299 s
+[addestra] epoca 14: addestramento 1.9616, validazione 2.0666 (migliore 2.0252 all'epoca 12), 301 s
+[addestra] epoca 14: addestramento 1.9309, validazione 2.2251 (migliore 2.2198 all'epoca 11), 304 s
+[addestra] epoca 14: addestramento 1.9452, validazione 2.1083 (migliore 2.0889 all'epoca 7), 308 s
+[addestra] epoca 15: addestramento 1.9505, validazione 2.1343 (migliore 2.1077 all'epoca 11), 320 s
+[addestra] epoca 15: addestramento 1.9540, validazione 2.0470 (migliore 2.0252 all'epoca 12), 323 s
+[addestra] epoca 15: addestramento 1.9204, validazione 2.2507 (migliore 2.2198 all'epoca 11), 325 s
+[addestra] epoca 15: addestramento 1.9455, validazione 2.1206 (migliore 2.0889 all'epoca 7), 331 s
+[addestra] epoca 16: addestramento 1.9399, validazione 2.1268 (migliore 2.1077 all'epoca 11), 341 s
+[addestra] epoca 16: addestramento 1.9519, validazione 2.0517 (migliore 2.0252 all'epoca 12), 344 s
+[addestra] epoca 16: addestramento 1.9132, validazione 2.2257 (migliore 2.2198 all'epoca 11), 347 s
+[addestra] epoca 16: addestramento 1.9263, validazione 2.1255 (migliore 2.0889 all'epoca 7), 353 s
+[addestra] epoca 17: addestramento 1.9330, validazione 2.1263 (migliore 2.1077 all'epoca 11), 363 s
+[addestra] epoca 17: addestramento 1.9417, validazione 2.0701 (migliore 2.0252 all'epoca 12), 366 s
+[addestra] epoca 17: addestramento 1.9090, validazione 2.2509 (migliore 2.2198 all'epoca 11), 369 s
+[addestra] epoca 17: addestramento 1.9224, validazione 2.1063 (migliore 2.0889 all'epoca 7), 375 s
+[addestra] epoca 18: addestramento 1.9334, validazione 2.1393 (migliore 2.1077 all'epoca 11), 384 s
+[addestra] epoca 18: addestramento 1.9279, validazione 2.0585 (migliore 2.0252 all'epoca 12), 387 s
+[addestra] epoca 18: addestramento 1.8923, validazione 2.2418 (migliore 2.2198 all'epoca 11), 391 s
+[addestra] epoca 18: addestramento 1.9049, validazione 2.1210 (migliore 2.0889 all'epoca 7), 397 s
+[addestra] epoca 19: addestramento 1.9202, validazione 2.1513 (migliore 2.1077 all'epoca 11), 405 s
+[addestra] epoca 19: addestramento 1.9188, validazione 2.0890 (migliore 2.0252 all'epoca 12), 409 s
+[addestra] epoca 19: addestramento 1.8862, validazione 2.2413 (migliore 2.2198 all'epoca 11), 413 s
+[addestra] epoca 19: addestramento 1.8963, validazione 2.1240 (migliore 2.0889 all'epoca 7), 419 s
+[addestra] epoca 20: addestramento 1.9112, validazione 2.1600 (migliore 2.1077 all'epoca 11), 426 s
+[addestra] epoca 20: addestramento 1.9208, validazione 2.0883 (migliore 2.0252 all'epoca 12), 430 s
+[addestra] epoca 20: addestramento 1.8763, validazione 2.2439 (migliore 2.2198 all'epoca 11), 434 s
+[addestra] epoca 20 (extra 1/6): addestramento 1.8897, validazione 2.1315, 441 s
+[addestra] epoca 21: addestramento 1.9037, validazione 2.1625 (migliore 2.1077 all'epoca 11), 446 s
+[addestra] epoca 21: addestramento 1.9076, validazione 2.0738 (migliore 2.0252 all'epoca 12), 451 s
+[addestra] epoca 21: addestramento 1.8607, validazione 2.2761 (migliore 2.2198 all'epoca 11), 456 s
+[addestra] epoca 21 (extra 2/6): addestramento 1.8849, validazione 2.1241, 462 s
+[addestra] epoca 22: addestramento 1.8885, validazione 2.1383 (migliore 2.1077 all'epoca 11), 467 s
+[addestra] epoca 22: addestramento 1.9000, validazione 2.0857 (migliore 2.0252 all'epoca 12), 472 s
+[addestra] epoca 22: addestramento 1.8623, validazione 2.2782 (migliore 2.2198 all'epoca 11), 477 s
+[addestra] epoca 22 (extra 3/6): addestramento 1.8675, validazione 2.1351, 483 s
+[addestra] epoca 23: addestramento 1.8737, validazione 2.1914 (migliore 2.1077 all'epoca 11), 488 s
+[addestra] epoca 23: addestramento 1.8875, validazione 2.0803 (migliore 2.0252 all'epoca 12), 493 s
+[addestra] epoca 23: addestramento 1.8470, validazione 2.2666 (migliore 2.2198 all'epoca 11), 498 s
+[addestra] epoca 23 (extra 4/6): addestramento 1.8530, validazione 2.1478, 505 s
+[addestra] epoca 24 (extra 1/6): addestramento 1.8633, validazione 2.1688, 509 s
+[addestra] epoca 24: addestramento 1.8852, validazione 2.1102 (migliore 2.0252 all'epoca 12), 515 s
+[addestra] epoca 24 (extra 1/6): addestramento 1.8372, validazione 2.2736, 520 s
+[addestra] epoca 24 (extra 5/6): addestramento 1.8659, validazione 2.1348, 527 s
+[addestra] epoca 25 (extra 2/6): addestramento 1.8605, validazione 2.1727, 530 s
+[addestra] epoca 25 (extra 1/6): addestramento 1.8854, validazione 2.0963, 536 s
+[addestra] epoca 25 (extra 2/6): addestramento 1.8383, validazione 2.3055, 541 s
+[addestra] epoca 25 (extra 6/6): addestramento 1.8381, validazione 2.1636, 548 s
+divisione 2: seme fogli 4102, fogli [78, 7, 15]; la rete ha esattamente questi fogli
+[addestra] epoca 26 (extra 3/6): addestramento 1.8662, validazione 2.2009, 551 s
+[addestra] epoca 26 (extra 2/6): addestramento 1.8628, validazione 2.1210, 556 s
+[addestra] epoca 26 (extra 3/6): addestramento 1.8321, validazione 2.2898, 562 s
+[addestra] epoca 27 (extra 4/6): addestramento 1.8501, validazione 2.1813, 570 s
+[addestra] epoca 27 (extra 3/6): addestramento 1.8573, validazione 2.1029, 576 s
+[addestra] epoca 27 (extra 4/6): addestramento 1.8243, validazione 2.2710, 582 s
+[addestra] epoca 28 (extra 5/6): addestramento 1.8401, validazione 2.1759, 590 s
+[addestra] epoca 28 (extra 4/6): addestramento 1.8416, validazione 2.0913, 596 s
+[addestra] epoca 28 (extra 5/6): addestramento 1.8030, validazione 2.3299, 602 s
+[addestra] epoca 29 (extra 6/6): addestramento 1.8308, validazione 2.1934, 609 s
+divisione 4: seme fogli 4104, fogli [78, 7, 15]; la rete ha esattamente questi fogli
+[addestra] epoca 29 (extra 5/6): addestramento 1.8498, validazione 2.0893, 616 s
+[addestra] epoca 29 (extra 6/6): addestramento 1.8073, validazione 2.2913, 622 s
+divisione 3: seme fogli 4103, fogli [78, 7, 15]; la rete ha esattamente questi fogli
+[addestra] epoca 30 (extra 6/6): addestramento 1.8398, validazione 2.1256, 634 s
+divisione 1: seme fogli 4101, fogli [78, 7, 15]; la rete ha esattamente questi fogli
+ia42, divisione 1: mondo v21w (libro v21 n. 13), fasi E, libro (Voynich: layout; testo = v21)
+== divisione 1: 24 libri da scrivere
+[v21w 1/24 2.6 min] libro|s100k30|5: {} (148 s)
+[v21w 2/24 2.6 min] libro|s100k30|8: {} (149 s)
+[v21w 3/24 2.6 min] libro|s100k30|2: {} (150 s)
+[v21w 4/24 2.6 min] libro|s100k30|3: {} (150 s)
+[v21w 5/24 2.6 min] libro|s100k30|7: {} (149 s)
+[v21w 6/24 2.6 min] libro|s100k30|6: {} (150 s)
+[v21w 7/24 2.6 min] libro|s100k30|4: {} (150 s)
+[v21w 8/24 2.7 min] libro|s100k30|1: {} (152 s)
+[v21w 9/24 5.0 min] libro|t100|1: {} (145 s)
+[v21w 10/24 5.0 min] libro|t100|6: {} (143 s)
+[v21w 11/24 5.0 min] libro|t100|7: {} (143 s)
+[v21w 12/24 5.0 min] libro|t100|5: {} (144 s)
+[v21w 13/24 5.0 min] libro|t100|2: {} (146 s)
+[v21w 14/24 5.0 min] libro|t100|4: {} (145 s)
+[v21w 15/24 5.1 min] libro|t100|3: {} (146 s)
+[v21w 16/24 5.1 min] libro|t100|8: {} (145 s)
+[v21w 17/24 7.0 min] libro|neu|2: {} (118 s)
+[v21w 18/24 7.0 min] libro|neu|6: {} (118 s)
+[v21w 19/24 7.0 min] libro|neu|8: {} (116 s)
+[v21w 20/24 7.0 min] libro|neu|5: {} (118 s)
+[v21w 21/24 7.0 min] libro|neu|4: {} (119 s)
+[v21w 22/24 7.0 min] libro|neu|3: {} (120 s)
+[v21w 23/24 7.0 min] libro|neu|7: {} (118 s)
+[v21w 24/24 7.0 min] libro|neu|1: {} (121 s)
+== divisione 1: 10 lavori del banco
+[v21w 1/10 0.2 min] SIG|gem: {} (1 s)
+[v21w 2/10 0.2 min] DEFA: {} (1 s)
+[v21w 3/10 0.3 min] SIG|s100k30: {} (2 s)
+[v21w 4/10 0.3 min] SIG|t100: {} (2 s)
+[v21w 5/10 0.3 min] SIG|neu: {} (2 s)
+[v21w 6/10 0.3 min] RUM: {} (3 s)
+[v21w 7/10 0.9 min] B35|s100k30: {} (43 s)
+[v21w 8/10 1.0 min] B35|t100: {} (43 s)
+[v21w 9/10 1.0 min] B35|neu: {} (44 s)
+[v21w 10/10 1.0 min] B35|gem: {} (48 s)
+ia42, divisione 2: mondo v21w (libro v21 n. 13), fasi E, libro (Voynich: layout; testo = v21)
+== divisione 2: 24 libri da scrivere
+[v21w 1/24 2.8 min] libro|s100k30|1: {} (163 s)
+[v21w 2/24 2.9 min] libro|s100k30|7: {} (165 s)
+[v21w 3/24 2.9 min] libro|s100k30|5: {} (167 s)
+[v21w 4/24 2.9 min] libro|s100k30|3: {} (168 s)
+[v21w 5/24 2.9 min] libro|s100k30|2: {} (168 s)
+[v21w 6/24 3.0 min] libro|s100k30|4: {} (170 s)
+[v21w 7/24 3.0 min] libro|s100k30|6: {} (170 s)
+[v21w 8/24 3.0 min] libro|s100k30|8: {} (170 s)
+[v21w 9/24 5.4 min] libro|t100|1: {} (153 s)
+[v21w 10/24 5.5 min] libro|t100|2: {} (155 s)
+[v21w 11/24 5.5 min] libro|t100|3: {} (154 s)
+[v21w 12/24 5.5 min] libro|t100|4: {} (157 s)
+[v21w 13/24 5.6 min] libro|t100|6: {} (157 s)
+[v21w 14/24 5.6 min] libro|t100|7: {} (158 s)
+[v21w 15/24 5.6 min] libro|t100|5: {} (160 s)
+[v21w 16/24 5.6 min] libro|t100|8: {} (159 s)
+[v21w 17/24 7.0 min] libro|neu|1: {} (96 s)
+[v21w 18/24 7.1 min] libro|neu|2: {} (98 s)
+[v21w 19/24 7.1 min] libro|neu|3: {} (97 s)
+[v21w 20/24 7.2 min] libro|neu|4: {} (97 s)
+[v21w 21/24 7.2 min] libro|neu|5: {} (96 s)
+[v21w 22/24 7.2 min] libro|neu|6: {} (95 s)
+[v21w 23/24 7.2 min] libro|neu|7: {} (96 s)
+[v21w 24/24 7.2 min] libro|neu|8: {} (95 s)
+== divisione 2: 10 lavori del banco
+[v21w 1/10 0.2 min] SIG|gem: {} (1 s)
+[v21w 2/10 0.2 min] DEFA: {} (1 s)
+[v21w 3/10 0.2 min] SIG|s100k30: {} (2 s)
+[v21w 4/10 0.2 min] SIG|neu: {} (2 s)
+[v21w 5/10 0.2 min] SIG|t100: {} (2 s)
+[v21w 6/10 0.2 min] RUM: {} (3 s)
+[v21w 7/10 0.9 min] B35|neu: {} (44 s)
+[v21w 8/10 1.0 min] B35|gem: {} (49 s)
+[v21w 9/10 1.0 min] B35|t100: {} (50 s)
+[v21w 10/10 1.0 min] B35|s100k30: {} (51 s)
+ia42, divisione 3: mondo v21w (libro v21 n. 13), fasi E, libro (Voynich: layout; testo = v21)
+== divisione 3: 24 libri da scrivere
+[v21w 1/24 2.7 min] libro|s100k30|1: {} (155 s)
+[v21w 2/24 2.8 min] libro|s100k30|4: {} (158 s)
+[v21w 3/24 2.8 min] libro|s100k30|8: {} (158 s)
+[v21w 4/24 2.8 min] libro|s100k30|7: {} (159 s)
+[v21w 5/24 2.8 min] libro|s100k30|5: {} (160 s)
+[v21w 6/24 2.8 min] libro|s100k30|3: {} (160 s)
+[v21w 7/24 2.8 min] libro|s100k30|6: {} (161 s)
+[v21w 8/24 2.8 min] libro|s100k30|2: {} (162 s)
+[v21w 9/24 5.2 min] libro|t100|1: {} (149 s)
+[v21w 10/24 5.2 min] libro|t100|3: {} (148 s)
+[v21w 11/24 5.3 min] libro|t100|4: {} (148 s)
+[v21w 12/24 5.3 min] libro|t100|2: {} (152 s)
+[v21w 13/24 5.3 min] libro|t100|5: {} (150 s)
+[v21w 14/24 5.3 min] libro|t100|7: {} (149 s)
+[v21w 15/24 5.3 min] libro|t100|6: {} (152 s)
+[v21w 16/24 5.3 min] libro|t100|8: {} (151 s)
+[v21w 17/24 7.2 min] libro|neu|1: {} (121 s)
+[v21w 18/24 7.3 min] libro|neu|3: {} (122 s)
+[v21w 19/24 7.3 min] libro|neu|4: {} (120 s)
+[v21w 20/24 7.3 min] libro|neu|7: {} (120 s)
+[v21w 21/24 7.3 min] libro|neu|2: {} (125 s)
+[v21w 22/24 7.3 min] libro|neu|5: {} (122 s)
+[v21w 23/24 7.3 min] libro|neu|6: {} (122 s)
+[v21w 24/24 7.4 min] libro|neu|8: {} (122 s)
+== divisione 3: 10 lavori del banco
+[v21w 1/10 0.2 min] SIG|gem: {} (1 s)
+[v21w 2/10 0.2 min] DEFA: {} (2 s)
+[v21w 3/10 0.2 min] SIG|s100k30: {} (2 s)
+[v21w 4/10 0.2 min] SIG|t100: {} (2 s)
+[v21w 5/10 0.2 min] SIG|neu: {} (2 s)
+[v21w 6/10 0.2 min] RUM: {} (3 s)
+[v21w 7/10 0.9 min] B35|s100k30: {} (44 s)
+[v21w 8/10 0.9 min] B35|t100: {} (45 s)
+[v21w 9/10 1.0 min] B35|neu: {} (48 s)
+[v21w 10/10 1.0 min] B35|gem: {} (48 s)
+ia42, divisione 4: mondo v21w (libro v21 n. 13), fasi E, libro (Voynich: layout; testo = v21)
+== divisione 4: 24 libri da scrivere
+[v21w 1/24 2.7 min] libro|s100k30|6: {} (155 s)
+[v21w 2/24 2.7 min] libro|s100k30|1: {} (156 s)
+[v21w 3/24 2.8 min] libro|s100k30|3: {} (158 s)
+[v21w 4/24 2.8 min] libro|s100k30|4: {} (158 s)
+[v21w 5/24 2.8 min] libro|s100k30|8: {} (159 s)
+[v21w 6/24 2.8 min] libro|s100k30|5: {} (160 s)
+[v21w 7/24 2.8 min] libro|s100k30|2: {} (161 s)
+[v21w 8/24 2.8 min] libro|s100k30|7: {} (161 s)
+[v21w 9/24 5.1 min] libro|t100|2: {} (145 s)
+[v21w 10/24 5.2 min] libro|t100|1: {} (146 s)
+[v21w 11/24 5.2 min] libro|t100|3: {} (147 s)
+[v21w 12/24 5.3 min] libro|t100|7: {} (148 s)
+[v21w 13/24 5.3 min] libro|t100|4: {} (150 s)
+[v21w 14/24 5.3 min] libro|t100|6: {} (150 s)
+[v21w 15/24 5.3 min] libro|t100|8: {} (149 s)
+[v21w 16/24 5.3 min] libro|t100|5: {} (152 s)
+[v21w 17/24 6.8 min] libro|neu|1: {} (99 s)
+[v21w 18/24 6.9 min] libro|neu|2: {} (103 s)
+[v21w 19/24 6.9 min] libro|neu|3: {} (100 s)
+[v21w 20/24 7.0 min] libro|neu|5: {} (101 s)
+[v21w 21/24 7.0 min] libro|neu|6: {} (99 s)
+[v21w 22/24 7.0 min] libro|neu|4: {} (102 s)
+[v21w 23/24 7.0 min] libro|neu|7: {} (100 s)
+[v21w 24/24 7.0 min] libro|neu|8: {} (100 s)
+== divisione 4: 10 lavori del banco
+[v21w 1/10 0.2 min] DEFA: {} (1 s)
+[v21w 2/10 0.2 min] SIG|gem: {} (2 s)
+[v21w 3/10 0.2 min] SIG|s100k30: {} (2 s)
+[v21w 4/10 0.2 min] SIG|t100: {} (2 s)
+[v21w 5/10 0.2 min] SIG|neu: {} (2 s)
+[v21w 6/10 0.2 min] RUM: {} (3 s)
+[v21w 7/10 0.9 min] B35|neu: {} (42 s)
+[v21w 8/10 0.9 min] B35|s100k30: {} (44 s)
+[v21w 9/10 0.9 min] B35|t100: {} (44 s)
+[v21w 10/10 1.0 min] B35|gem: {} (51 s)
+esito: STESSO VOTO: sul libro v21 (regola nota) l'imitatore prende lo stesso b che sul Voynich (0,66): limite del metodo con cosi' poco testo, niente di proprio del Voynich
