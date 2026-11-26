@@ -18055,3 +18055,23 @@ uscita 0. Risultati in `risultati/ia42_controllob.{md,json}` e `risultati/ia42_c
 - **Limiti:** il v21 è costruito con parole e impaginazione del Voynich (e con statistiche dell'intero manoscritto); manopole scelte sul
   Voynich, applicate a entrambi i mondi; 26-33 pagine tenute fuori per divisione; `dispersione` senza difetto piantato.
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
+
+## 26/11/2026 (notte) — precisazioni a ia42 dopo la revisione di Fable (`voynich-ia/REVIEW_FABLE_5.md`)
+
+- **L'esito «stesso voto» resta**, ma è la media di due righe diverse: `s100k30` 0,661 contro 0,663 sul Voynich (uguale); `t100` 0,606
+  contro 0,652 (più basso sul v21 di circa un errore). Differenza fra i due mondi, per divisione: −0,025 con errore 0,025. Si scrive
+  "non c'è prova che il Voynich sia più difficile da imitare del suo rifacimento a regole", non "il Voynich non è speciale".
+- **La prova più solida del limite del metodo sono i gemelli:** sulle stesse pagine la regola vera prende 0,499 e l'imitatore 0,633;
+  in IA33 lo stesso scarto (gemello 0,46, copia perfetta 0,653).
+- **`dispersione` «proprio del Voynich» va tolto.** È negativa in tutte le righe e nei due mondi (Voynich / v21: `s100k30` −2,2 / −1,3;
+  `t100` −2,8 / −2,2; `neu` −3,3 / −2,4; gemelli 0,0); per divisione `s100k30` è fuori da 2σ in due su quattro in entrambi (−3,4 −1,1
+  −2,9 −1,6 contro −2,2 −2,2 −0,1 −0,8); differenza fra i mondi 0,9 con errore 0,8. Lettura: pagine troppo uguali fra loro anche sul
+  testo a regola nota, cioè difetto del metodo, forse un po' più forte sul Voynich; non deciso. La frase "l'unica differenza che resta"
+  va tolta. La previsione di Fable ("fuori anche qui") è smentita per `s100k30`, confermata per `t100`.
+- **`vicine` resta aperta:** fuori sul Voynich (−2,2, strumento valido in IA41); qui −0,8, ma lo strumento non vede il suo difetto.
+- **Sul v21 le frequenze per sezione costano su b:** `s100k30` − `t100` = +0,055 con errore 0,025 (+0,11 / +0,04 / −0,01 / +0,08; sul
+  Voynich +0,011) e `burst` passa da −0,8 a −2,4, mentre migliorano `sezione` e l'indovina-sezione (0,66 → 0,92; vero 0,94). Ipotesi non
+  provata: il v21 sceglie le parole per sezione e lingua, le tabelle sono solo per sezione.
+- **Peso del limite:** per il giudice b il v21 è già quasi il Voynich (0,555 in IA41), quindi «stesso voto» era l'esito più probabile
+  per costruzione; le manopole scelte sul Voynich sfavoriscono il mondo v21 (4 misure fuori contro 2). Nulla su un testo qualunque.
+- Serie chiusa (regola di fine del 25/11): tabella finale in `voynich-ia/TABELLA_FINALE.md`.
