@@ -18197,3 +18197,29 @@ Numeri letti da `risultati/ia43_tetto.json` e `ia43_corse.jsonl` (medie su 12 o 
 - **Difetti del v21 su 24 libri** (Voynich ZL meno media dei v21, in deviazioni standard dei v21): hapax −10,7; lag23 +6,9; vicine
   +6,2; T4r +5,5; ini_par −5,4; burst −4,9; dispersione +3,5; riga_cv −3,3; doppie +2,9; ttr_pagina −2,8.
 - *Nota del coordinatore:* le medie per dose citate qui sono state ricavate dalla revisione leggendo `risultati/ia43_corse.jsonl` con un conto a parte, non con uno script del repo; vanno ricontrollate con uno script in `analisi/` prima di usarle nel paper.
+
+## 27/11/2026 (notte) — ia45 (IA45): le colonne di segni singoli a margine di f49v e f66r non sono né un elenco convenzionale condiviso né i segni d'inizio delle righe accanto; sono fatte dello stesso genere di segni che aprono le righe (confermato in due trascrizioni); l'anello di f57v ripete una sequenza con passo 16-17: lettura «nessuna delle due»
+
+Preregistrato (`preregistrazioni/ia45.md`, commit 4f93ad7 con nota del coordinatore; codice 9a590c4 con `colonne_*.py`; variabili 941acd6).
+Strada 1 di `voynich-ia/PROPOSTE_NON_IA_FABLE.md` (senza modelli), scelta di Davide del 26/11. Preparato da un agente nuovo (Sonnet).
+Corsa: coda `ia_AF`, 4 processi, 02:57–02:59, uscita 0. Risultati in `risultati/ia45_colonne.{md,json}` (solo numeri).
+
+- **Conteggi (ZL; IT e GC quasi uguali):** f49v 26 segni (12 distinti) su 26 righe, uno per riga; f66r 33 segni (15 distinti) su 32 righe, non
+  allineabili; f76r 9 segni su 47 righe; anello di f57v 64 segni (17 distinti). Tutte le colonne ripetono segni: "ogni segno una volta"
+  (alfabeto in senso stretto) è falso già dai conteggi; l'ipotesi A è stata letta come sequenza convenzionale ripetuta.
+- **Disegno:** 13 test a permutazione (20.000 rimescolamenti), soglia 0,01/13 = 0,00077, confermato solo se sotto soglia in ZL e in IT o GC.
+  A1: coppie di segni consecutivi in comune fra colonne; A2: periodicità dentro una colonna; B1: segno uguale alla prima unità della riga
+  accanto (dopo o prima); B2: i segni sono del genere che apre le righe. Cancello per parte (positivi ≥ 90%, falsi allarmi ≤ 5%) su mondi
+  latini con la forma delle pagine e su righe vere di altre pagine (N4).
+- **Cancello:** A e B2 ammesse; **B1 non ammessa** (falsi allarmi 25% sul controllo N4b fatto con righe vere di altre pagine). B2 dà 1,0 anche
+  sui controlli N2, N3 e N4b, cioè vede qualunque serie di segni d'inizio riga: dice "genere di segno", non "adiacenza".
+- **Esiti:** A1 no in tutte le coppie (p 0,93–1,0; nessuna sequenza condivisa fra le colonne); A2 f49v p 0,0026 / 0,021 / 0,0015 (passo 7:
+  sopra soglia in ZL), f66r no; **A2 anello f57v confermato** (p 0,00005 in tutte e tre; passo 16-17); B1 no anche dove calcolato (p 0,56–1,0);
+  **B2 confermato per f49v e f66r** (p ≤ 0,0001 in ZL e IT), non per f76r.
+- **Lettura preregistrata:** «nessuna delle due»; i segni delle colonne hanno la composizione dei segni che aprono le righe. L'anello di
+  f57v contiene una sequenza ripetuta più volte (passo 16-17), ma per la preregistrazione l'anello da solo non conta per la lettura.
+- **In parole semplici:** le colonne di segni isolati non sono un alfabeto condiviso da una pagina all'altra, e non ripetono i segni con cui
+  cominciano le righe vicine. Però sono fatte proprio di quei segni "da inizio riga". L'anello della pagina f57v invece ripete più volte la
+  stessa serie di circa 17 segni.
+- **Limiti:** pochi segni (f76r quasi senza potenza); B1 fuori dal verdetto per falsi allarmi sul testo vero; nessuna lettura dei segni.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.

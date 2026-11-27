@@ -1,0 +1,497 @@
+{
+ "esperimento": "ia45",
+ "alfa": 0.0007692307692307692,
+ "n_test": 13,
+ "K": 20000,
+ "controlli": {
+  "A": {
+   "n": 200,
+   "A": 1.0,
+   "B1": 0.0,
+   "B2": 0.0
+  },
+  "B": {
+   "n": 200,
+   "A": 0.0,
+   "B1": 1.0,
+   "B2": 1.0
+  },
+  "Bs": {
+   "n": 200,
+   "A": 0.005,
+   "B1": 0.005,
+   "B2": 1.0
+  },
+  "N1": {
+   "n": 200,
+   "A": 0.005,
+   "B1": 0.0,
+   "B2": 0.015
+  },
+  "N2": {
+   "n": 200,
+   "A": 0.0,
+   "B1": 0.005,
+   "B2": 1.0
+  },
+  "N3": {
+   "n": 200,
+   "A": 0.0,
+   "B1": 0.0,
+   "B2": 0.99
+  },
+  "N4a": {
+   "n": 200,
+   "A": 0.0,
+   "B1": 0.005,
+   "B2": 0.005
+  },
+  "N4b": {
+   "n": 200,
+   "A": 0.005,
+   "B1": 0.25,
+   "B2": 1.0
+  }
+ },
+ "cancello": {
+  "A": {
+   "positivo": "A",
+   "tasso_positivo": 1.0,
+   "falsi_allarmi": {
+    "N1": 0.005,
+    "N2": 0.0,
+    "N3": 0.0,
+    "B": 0.0,
+    "N4a": 0.0,
+    "N4b": 0.005
+   },
+   "ammessa": true
+  },
+  "B1": {
+   "positivo": "B",
+   "tasso_positivo": 1.0,
+   "falsi_allarmi": {
+    "N1": 0.0,
+    "N2": 0.005,
+    "N3": 0.0,
+    "A": 0.0,
+    "N4a": 0.005,
+    "N4b": 0.25
+   },
+   "ammessa": false
+  },
+  "B2": {
+   "positivo": "Bs",
+   "tasso_positivo": 1.0,
+   "falsi_allarmi": {
+    "N1": 0.015,
+    "A": 0.0,
+    "N4a": 0.005
+   },
+   "ammessa": true
+  }
+ },
+ "voynich": {
+  "ZL": {
+   "conteggi": {
+    "f49v": {
+     "segni": 26,
+     "distinti": 12,
+     "rari": 6,
+     "illeggibili": 0,
+     "righe": 26
+    },
+    "f66r": {
+     "segni": 33,
+     "distinti": 15,
+     "rari": 3,
+     "illeggibili": 0,
+     "righe": 32
+    },
+    "f76r": {
+     "segni": 9,
+     "distinti": 7,
+     "rari": 0,
+     "illeggibili": 0,
+     "righe": 47
+    },
+    "f57v": {
+     "segni": 64,
+     "distinti": 17,
+     "rari": 12,
+     "illeggibili": 0,
+     "righe": 0
+    }
+   },
+   "test": {
+    "A1 f49v-f66r": {
+     "osservato": 0.0,
+     "p": 1.0,
+     "comuni": 7
+    },
+    "A1 f49v-f57v": {
+     "osservato": 0.0,
+     "p": 1.0,
+     "comuni": 7
+    },
+    "A1 f66r-f57v": {
+     "osservato": 1.0,
+     "p": 0.9912504374781261,
+     "comuni": 11
+    },
+    "A2 f49v": {
+     "osservato": 0.368421,
+     "p": 0.0025498725063746812,
+     "ritardo": 7
+    },
+    "A2 f66r": {
+     "osservato": 0.178571,
+     "p": 0.29158542072896354,
+     "ritardo": 5
+    },
+    "A2 f57v": {
+     "osservato": 0.958333,
+     "p": 4.999750012499375e-05,
+     "ritardo": 16
+    },
+    "B1 f49v dopo": {
+     "osservato": 1.0,
+     "p": 0.6518674066296685,
+     "segni": 26
+    },
+    "B1 f49v prima": {
+     "osservato": 1.0,
+     "p": 0.5728713564321783,
+     "segni": 26
+    },
+    "B1 f76r dopo": {
+     "osservato": 1.0,
+     "p": 0.6237188140592971,
+     "segni": 9
+    },
+    "B1 f76r prima": {
+     "osservato": 0.0,
+     "p": 1.0,
+     "segni": 9
+    },
+    "B2 f49v": {
+     "osservato": 0.150792,
+     "p": 4.999750012499375e-05
+    },
+    "B2 f66r": {
+     "osservato": 0.404201,
+     "p": 4.999750012499375e-05
+    },
+    "B2 f76r": {
+     "osservato": 0.055336,
+     "p": 0.03949802509874506
+    }
+   }
+  },
+  "IT": {
+   "conteggi": {
+    "f49v": {
+     "segni": 26,
+     "distinti": 10,
+     "rari": 0,
+     "illeggibili": 6,
+     "righe": 26
+    },
+    "f66r": {
+     "segni": 33,
+     "distinti": 13,
+     "rari": 0,
+     "illeggibili": 2,
+     "righe": 32
+    },
+    "f76r": {
+     "segni": 9,
+     "distinti": 7,
+     "rari": 0,
+     "illeggibili": 0,
+     "righe": 47
+    },
+    "f57v": {
+     "segni": 69,
+     "distinti": 15,
+     "rari": 0,
+     "illeggibili": 15,
+     "righe": 0
+    }
+   },
+   "test": {
+    "A1 f49v-f66r": {
+     "osservato": 0.0,
+     "p": 1.0,
+     "comuni": 7
+    },
+    "A1 f49v-f57v": {
+     "osservato": 0.0,
+     "p": 1.0,
+     "comuni": 7
+    },
+    "A1 f66r-f57v": {
+     "osservato": 2.0,
+     "p": 0.9734013299335034,
+     "comuni": 10
+    },
+    "A2 f49v": {
+     "osservato": 0.263158,
+     "p": 0.0207989600519974,
+     "ritardo": 7
+    },
+    "A2 f66r": {
+     "osservato": 0.178571,
+     "p": 0.3544822758862057,
+     "ritardo": 5
+    },
+    "A2 f57v": {
+     "osservato": 0.692308,
+     "p": 4.999750012499375e-05,
+     "ritardo": 17
+    },
+    "B1 f49v dopo": {
+     "osservato": 1.0,
+     "p": 0.6529673516324184,
+     "segni": 26
+    },
+    "B1 f49v prima": {
+     "osservato": 1.0,
+     "p": 0.575821208939553,
+     "segni": 26
+    },
+    "B1 f76r dopo": {
+     "osservato": 1.0,
+     "p": 0.6275686215689216,
+     "segni": 9
+    },
+    "B1 f76r prima": {
+     "osservato": 0.0,
+     "p": 1.0,
+     "segni": 9
+    },
+    "B2 f49v": {
+     "osservato": 0.446992,
+     "p": 4.999750012499375e-05
+    },
+    "B2 f66r": {
+     "osservato": 0.3042,
+     "p": 9.99950002499875e-05
+    },
+    "B2 f76r": {
+     "osservato": 0.097458,
+     "p": 0.056297185140742965
+    }
+   }
+  },
+  "GC": {
+   "conteggi": {
+    "f49v": {
+     "segni": 26,
+     "distinti": 10,
+     "rari": 5,
+     "illeggibili": 0,
+     "righe": 26
+    },
+    "f66r": {
+     "segni": 33,
+     "distinti": 19,
+     "rari": 4,
+     "illeggibili": 0,
+     "righe": 32
+    },
+    "f76r": {
+     "segni": 9,
+     "distinti": 8,
+     "rari": 0,
+     "illeggibili": 0,
+     "righe": 47
+    },
+    "f57v": {
+     "segni": 66,
+     "distinti": 22,
+     "rari": 17,
+     "illeggibili": 0,
+     "righe": 0
+    }
+   },
+   "test": {
+    "A1 f49v-f66r": {
+     "osservato": null,
+     "p": null,
+     "comuni": 5,
+     "nota": "troppo poco"
+    },
+    "A1 f49v-f57v": {
+     "osservato": 0.0,
+     "p": 1.0,
+     "comuni": 6
+    },
+    "A1 f66r-f57v": {
+     "osservato": 1.0,
+     "p": 0.9264036798160092,
+     "comuni": 10
+    },
+    "A2 f49v": {
+     "osservato": 0.421053,
+     "p": 0.0014999250037498126,
+     "ritardo": 7
+    },
+    "A2 f66r": {
+     "osservato": 0.178571,
+     "p": 0.10659467026648668,
+     "ritardo": 5
+    },
+    "A2 f57v": {
+     "osservato": 0.571429,
+     "p": 4.999750012499375e-05,
+     "ritardo": 17
+    },
+    "B1 f49v dopo": {
+     "osservato": 1.0,
+     "p": 0.6438678066096695,
+     "segni": 26
+    },
+    "B1 f49v prima": {
+     "osservato": 1.0,
+     "p": 0.5623218839058047,
+     "segni": 26
+    },
+    "B1 f76r dopo": {
+     "osservato": 1.0,
+     "p": 0.5731713414329284,
+     "segni": 9
+    },
+    "B1 f76r prima": {
+     "osservato": 0.0,
+     "p": 1.0,
+     "segni": 9
+    },
+    "B2 f49v": {
+     "osservato": 0.350416,
+     "p": 4.999750012499375e-05
+    },
+    "B2 f66r": {
+     "osservato": 0.077829,
+     "p": 0.003749812509374531
+    },
+    "B2 f76r": {
+     "osservato": -0.088425,
+     "p": 0.15269236538173092
+    }
+   }
+  }
+ },
+ "confermati": {
+  "A1 f49v-f66r": {
+   "p": [
+    1.0,
+    1.0,
+    null
+   ],
+   "confermato": false
+  },
+  "A1 f49v-f57v": {
+   "p": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "confermato": false
+  },
+  "A1 f66r-f57v": {
+   "p": [
+    0.9912504374781261,
+    0.9734013299335034,
+    0.9264036798160092
+   ],
+   "confermato": false
+  },
+  "A2 f49v": {
+   "p": [
+    0.0025498725063746812,
+    0.0207989600519974,
+    0.0014999250037498126
+   ],
+   "confermato": false
+  },
+  "A2 f66r": {
+   "p": [
+    0.29158542072896354,
+    0.3544822758862057,
+    0.10659467026648668
+   ],
+   "confermato": false
+  },
+  "A2 f57v": {
+   "p": [
+    4.999750012499375e-05,
+    4.999750012499375e-05,
+    4.999750012499375e-05
+   ],
+   "confermato": true
+  },
+  "B1 f49v dopo": {
+   "p": [
+    0.6518674066296685,
+    0.6529673516324184,
+    0.6438678066096695
+   ],
+   "confermato": false
+  },
+  "B1 f49v prima": {
+   "p": [
+    0.5728713564321783,
+    0.575821208939553,
+    0.5623218839058047
+   ],
+   "confermato": false
+  },
+  "B1 f76r dopo": {
+   "p": [
+    0.6237188140592971,
+    0.6275686215689216,
+    0.5731713414329284
+   ],
+   "confermato": false
+  },
+  "B1 f76r prima": {
+   "p": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "confermato": false
+  },
+  "B2 f49v": {
+   "p": [
+    4.999750012499375e-05,
+    4.999750012499375e-05,
+    4.999750012499375e-05
+   ],
+   "confermato": true
+  },
+  "B2 f66r": {
+   "p": [
+    4.999750012499375e-05,
+    9.99950002499875e-05,
+    0.003749812509374531
+   ],
+   "confermato": true
+  },
+  "B2 f76r": {
+   "p": [
+    0.03949802509874506,
+    0.056297185140742965,
+    0.15269236538173092
+   ],
+   "confermato": false
+  }
+ },
+ "lettura": {
+  "A": false,
+  "B1": false,
+  "B2": true,
+  "testo": "nessuna delle due"
+ }
+}

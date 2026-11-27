@@ -1,0 +1,25 @@
+fase C: 1200 lavori (0 gia fatti), 4 processi, K=20000
+  100/1200 (16 s)
+  200/1200 (30 s)
+  300/1200 (43 s)
+  400/1200 (56 s)
+  500/1200 (64 s)
+  600/1200 (74 s)
+  700/1200 (88 s)
+  800/1200 (102 s)
+  900/1200 (115 s)
+  1000/1200 (127 s)
+  1100/1200 (142 s)
+  1200/1200 (155 s)
+fase C finita in 155 s
+fase C2: 400 lavori
+fase C2 finita in 14 s
+parte A   positivo (A) 1.000 | falsi allarmi {'N1': 0.005, 'N2': 0.0, 'N3': 0.0, 'B': 0.0, 'N4a': 0.0, 'N4b': 0.005} -> AMMESSA
+parte B1  positivo (B) 1.000 | falsi allarmi {'N1': 0.0, 'N2': 0.005, 'N3': 0.0, 'A': 0.0, 'N4a': 0.005, 'N4b': 0.25} -> non ammessa
+parte B2  positivo (Bs) 1.000 | falsi allarmi {'N1': 0.015, 'A': 0.0, 'N4a': 0.005} -> AMMESSA
+descrittivo: Bs visto da B1 0.005 | B visto da B2 1.000
+manoscritto, altre pagine, N4a: A 0.000 B1 0.005 B2 0.005 (200 prove)
+manoscritto, altre pagine, N4b: A 0.005 B1 0.250 B2 1.000 (200 prove)
+V ZL fatto
+V IT fatto
+V GC fatto
