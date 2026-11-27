@@ -18132,3 +18132,37 @@ Strada 2 di `voynich-ia/PROPOSTE_DECIFRARE_FABLE.md`, scelta di Davide del 26/11
   "vocabolario dello zodiaco diviso in massa per elemento, modalità o pianeta"; "etichette che per metà dicono il carattere del grado
   secondo Lilly, con rotazione comune". Nulla sull'erbario B; poco su "erbario o trattato astrologico cifrato parola per parola" in
   generale.
+
+## 26/11/2026 (sera) — ia43 (IA43): il tetto al messaggio; nel v21 la batteria vede un messaggio in chiaro già al 5% dei posti di parola, in tutte e tre le forme, ma vede allo stesso modo le stesse parole rimescolate senza messaggio (controllo z): misura la sostituzione di parole, non il messaggio; il Voynich esce dalla fascia dei v21 senza messaggio su 4-7 misure, cosa attesa perché il v21 non è il Voynich: nessun indizio di messaggio, tetto non trasferibile al Voynich
+
+Preregistrato (`preregistrazioni/ia43.md`, commit 5a2961d con nota del coordinatore; codice 15fdbf8 con `tetto_*.py`; variabili 0052c23).
+Strada 1 di `voynich-ia/PROPOSTE_DECIFRARE_FABLE.md`, scelta di Davide del 26/11. Preparato da un agente nuovo (Sonnet). Corsa: coda
+`ia_AE`, 8 processi, 13:50–19:50 (360 minuti), uscita 0. **Prima delle due corse lunghe** ammesse. Risultati in `risultati/ia43_tetto.{md,json}`
+e `risultati/ia43_corse.jsonl`.
+
+- **Disegno:** 24 v21 senza messaggio, 6 di calibrazione; nei posti di parola di 12 libri si sostituisce una quota (1-100%) con un testo
+  latino vero in chiaro (Macer floridus + Isidoro XVII, pubblici), in tre forme: (a) parola per parola, (b) lettera per lettera con le
+  tavole del Naibbe, (c) solo l'insieme di parole della pagina (ordine rimescolato); 1, 3 o 10 alternative (Naibbe: 1, 3, 6 tavole); più
+  il controllo (z): le parole di (a) rimescolate su tutto il libro. Batteria di 30 misure e giudici esistenti (14 di struttura IA35-41, 8
+  dell'e160, e375, e3a07, e211, e334, e231, e266, N, b); un libro è "visto" se almeno k misure valide superano la soglia dei libri senza
+  messaggio; tetto = dose più bassa da cui in su ≥ 11 libri su 12 sono visti.
+- **Controlli:** positivo (a, 1 alternativa, 100%) 12 su 12; recupero con la chiave 0,992 (sbagliata 0,000); falsi allarmi 0 in tutte le
+  forme; k = 4.
+- **Tetto: 5% in tutte le nove celle** (a, b, c con 1, 3, 10 alternative); al 2% 5-9 libri su 12; con le sole misure M 5-10%.
+- **Controllo di sostituzione (z):** visto 7 su 12 al 2% e 12 su 12 dal 5%, **come i messaggi**. Quindi la batteria rivela che una parte delle
+  parole è stata sostituita con parole di un altro testo, non che c'è un messaggio: il "tetto" è un tetto alla quota di parole estranee in
+  un testo come il v21.
+- **Voynich:** oltre la soglia dei v21 senza messaggio su 5 misure M (heaps, sezione, hapax, T4g, T4r; forma b anche ttr_pagina, doppie);
+  con Takahashi 4-6: "visto" per la regola. Ma il Voynich non è un v21: già in IA35 il v21 era lontano dal Voynich su hapax (+10σ), D, burst,
+  lag23, ini_par. Il "visto" dice che il Voynich sta fuori dalla fascia dei libri v21, non che contenga un messaggio; il controllo z ha la
+  stessa firma. **Nessun indizio di messaggio.**
+- **Lettura:** in un testo costruito come il v21 basta sostituire il 5% delle parole con parole di un altro testo, in chiaro, cifrato alla
+  Naibbe o rimescolato, perché le misure se ne accorgano. Il tetto non si trasferisce al Voynich, perché il Voynich non sta nella fascia del
+  suo imitatore senza messaggio: per un tetto sul Voynich servirebbe un imitatore senza messaggio che il Voynich non distingua da sé su
+  queste misure.
+- **In parole semplici:** abbiamo nascosto un vero testo latino dentro libri finti del Voynich. Le nostre misure se ne accorgono già quando
+  il testo nascosto è il 5% delle parole. Ma se ne accorgono allo stesso modo se mettiamo le stesse parole a caso, senza alcun messaggio:
+  vedono le parole "estranee", non il significato. E il Voynich vero risulta "diverso" dai libri finti, ma solo perché i libri finti non
+  gli somigliano abbastanza. Quindi niente indizi di un messaggio, e niente tetto applicabile al Voynich.
+- **Limiti:** un solo testo in chiaro (latino); il v21 come base; batteria senza K, KN, A e reti per libro.
+- **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.

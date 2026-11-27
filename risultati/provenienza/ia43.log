@@ -1,0 +1,79 @@
+IA43: cache C:\Users\davide\voynich\esperimenti\..\dati\cache\ia43, uscita C:\Users\davide\voynich\esperimenti\..\risultati, 8 processi
+[fase 0, libri di partenza] 30 lavori da fare su 30
+[fase 0, libri di partenza] 25/30, 507 s
+[fase 0, libri di partenza] fatto in 531 s
+[fase 1, misure M] 842 lavori da fare su 842
+[fase 1, misure M] 25/842, 680 s
+[fase 1, misure M] 50/842, 1210 s
+[fase 1, misure M] 75/842, 1731 s
+[fase 1, misure M] 100/842, 2248 s
+[fase 1, misure M] 125/842, 2775 s
+[fase 1, misure M] 150/842, 3294 s
+[fase 1, misure M] 175/842, 3815 s
+[fase 1, misure M] 200/842, 4339 s
+[fase 1, misure M] 225/842, 4974 s
+[fase 1, misure M] 250/842, 5489 s
+[fase 1, misure M] 275/842, 5997 s
+[fase 1, misure M] 300/842, 6516 s
+[fase 1, misure M] 325/842, 7033 s
+[fase 1, misure M] 350/842, 7595 s
+[fase 1, misure M] 375/842, 8122 s
+[fase 1, misure M] 400/842, 8636 s
+[fase 1, misure M] 425/842, 9283 s
+[fase 1, misure M] 450/842, 9794 s
+[fase 1, misure M] 475/842, 10314 s
+[fase 1, misure M] 500/842, 10823 s
+[fase 1, misure M] 525/842, 11315 s
+[fase 1, misure M] 550/842, 11828 s
+[fase 1, misure M] 575/842, 12348 s
+[fase 1, misure M] 600/842, 12876 s
+[fase 1, misure M] 625/842, 13506 s
+[fase 1, misure M] 650/842, 14024 s
+[fase 1, misure M] 675/842, 14545 s
+[fase 1, misure M] 700/842, 15053 s
+[fase 1, misure M] 725/842, 15570 s
+[fase 1, misure M] 750/842, 16080 s
+[fase 1, misure M] 775/842, 16576 s
+[fase 1, misure M] 800/842, 17097 s
+[fase 1, misure M] 825/842, 17728 s
+[fase 1, misure M] fatto in 18042 s
+[fase 2, giudici e b] 911 lavori da fare su 911
+[fase 2, giudici e b] 25/911, 73 s
+[fase 2, giudici e b] 50/911, 114 s
+[fase 2, giudici e b] 75/911, 158 s
+[fase 2, giudici e b] 100/911, 207 s
+[fase 2, giudici e b] 125/911, 250 s
+[fase 2, giudici e b] 150/911, 296 s
+[fase 2, giudici e b] 175/911, 340 s
+[fase 2, giudici e b] 200/911, 382 s
+[fase 2, giudici e b] 225/911, 429 s
+[fase 2, giudici e b] 250/911, 483 s
+[fase 2, giudici e b] 275/911, 526 s
+[fase 2, giudici e b] 300/911, 572 s
+[fase 2, giudici e b] 325/911, 621 s
+[fase 2, giudici e b] 350/911, 664 s
+[fase 2, giudici e b] 375/911, 702 s
+[fase 2, giudici e b] 400/911, 751 s
+[fase 2, giudici e b] 425/911, 803 s
+[fase 2, giudici e b] 450/911, 847 s
+[fase 2, giudici e b] 475/911, 901 s
+[fase 2, giudici e b] 500/911, 953 s
+[fase 2, giudici e b] 525/911, 994 s
+[fase 2, giudici e b] 550/911, 1045 s
+[fase 2, giudici e b] 575/911, 1092 s
+[fase 2, giudici e b] 600/911, 1138 s
+[fase 2, giudici e b] 625/911, 1186 s
+[fase 2, giudici e b] 650/911, 1235 s
+[fase 2, giudici e b] 675/911, 1283 s
+[fase 2, giudici e b] 700/911, 1330 s
+[fase 2, giudici e b] 725/911, 1384 s
+[fase 2, giudici e b] 750/911, 1433 s
+[fase 2, giudici e b] 775/911, 1476 s
+[fase 2, giudici e b] 800/911, 1524 s
+[fase 2, giudici e b] 825/911, 1572 s
+[fase 2, giudici e b] 850/911, 1849 s
+[fase 2, giudici e b] 875/911, 2358 s
+[fase 2, giudici e b] 900/911, 2839 s
+[fase 2, giudici e b] fatto in 3003 s
+k_B {'a': 4, 'b': 4, 'c': 4, 'z': 4}, k_M {'a': 4, 'b': 4, 'c': 4, 'z': 4}
+fatto: C:\Users\davide\voynich\esperimenti\..\risultati\ia43_tetto.md
