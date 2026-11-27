@@ -18166,3 +18166,34 @@ e `risultati/ia43_corse.jsonl`.
   gli somigliano abbastanza. Quindi niente indizi di un messaggio, e niente tetto applicabile al Voynich.
 - **Limiti:** un solo testo in chiaro (latino); il v21 come base; batteria senza K, KN, A e reti per libro.
 - **Deviazioni dalla preregistrazione:** nessuna nell'esecuzione.
+
+## 27/11/2026 — ia43 (IA43): precisazione dopo la revisione di Fable (REVIEW_FABLE_7): esito invariato; il messaggio in sé si vede solo dal 70% dei posti; il Voynich è fuori dalla fascia del v21 soprattutto dal lato opposto a quello del messaggio
+
+Numeri letti da `risultati/ia43_tetto.json` e `ia43_corse.jsonl` (medie su 12 o 24 libri; nessuna corsa nuova).
+
+- **Esito invariato:** nessun indizio di messaggio, tetto non trasferibile al Voynich.
+- **Sostituzione e messaggio:** fino al 10% i libri a e z hanno gli stessi valori misura per misura (5%: hapax 0,686 e 0,686; e375 2,4
+  e 2,2). Si separano solo le misure d'ordine, e tardi: e375 4,0 contro 0,8 al 40% (soglia 4,4), 142,6 contro 0,3 al 100%; T2g 12,8
+  contro −0,5 al 100%. Tetto per misura nella cella a1: e375 ed e211 70%, T2 e T3 100%. "Misura la sostituzione, non il messaggio"
+  vale sotto il 40%.
+- **Perché così tardi:** i posti sono scelti a caso, quindi due parole consecutive del messaggio restano vicine solo se cadono in due
+  posti vicini (al 20%: una coppia su 25). Un messaggio in righe o pagine intere non è provato (limite 3 della preregistrazione).
+- **Voynich e fascia dei 24 v21, tutte le 26 misure M:** fuori fascia con entrambe le trascrizioni 12 misure. Nel verso del messaggio
+  (forma a) 3: hapax, T4r, heaps (heaps di 0,0004, cioè 0,03 deviazioni standard). Nel verso opposto 7: burst, riga_cv, lag23,
+  ini_par, ttr_pagina, dispersione, doppie. Non valide 2: vicine, T1r. Fuori con una sola trascrizione: sezione e T4g (ZL), lunghezza
+  ed e334 (Takahashi). Dentro con entrambe 10: lingua, testa, T1g, T2g, T3g, T2r, T3r, e375, e3a07, e211.
+- **Nessuna dose rifà il Voynich:** sulla curva della cella a1 il valore del Voynich corrisponde al 5-6% per hapax e heaps, al 50-55%
+  per T4r, a "meno di zero" per le sette misure del verso opposto. Il 5-6% di hapax non è un indizio: è il difetto del v21 già
+  misurato in IA35.
+- **Correzioni alla voce:** "il controllo z ha la stessa firma" non è una prova (per z il programma usa direzioni e soglie della
+  forma a); delle misure di IA35 citate solo hapax è fra quelle del "visto", burst, lag23 e ini_par stanno dal lato opposto; "5% in
+  tutte le nove celle" va letto "fra 2 e 5%" per le tre celle con 1 alternativa e "al più 5%" per le altre sei (dose più bassa
+  provata); "falsi allarmi 0" è 0 su 24 (con k = 3: 8-21%).
+- **Il solo tetto che si può portare al Voynich** (lettura fatta dopo, non preregistrata; una misura sola, sotto la regola delle due
+  concordi): sulle misure in cui il Voynich sta dentro la fascia e che distinguono a da z (e375, T2, T3, e211), un messaggio sparso
+  parola per parola si vede dal 70% (a con 1 o 3 alternative, c con 1), dal 100% (a con 10 alternative, b con 1 tavola), mai (b con
+  3 o 6 tavole, c con 3 o 10 alternative). Conferma l'esclusione già nota del codice parola per parola su quasi tutto il testo;
+  sotto il 70% non dice niente.
+- **Difetti del v21 su 24 libri** (Voynich ZL meno media dei v21, in deviazioni standard dei v21): hapax −10,7; lag23 +6,9; vicine
+  +6,2; T4r +5,5; ini_par −5,4; burst −4,9; dispersione +3,5; riga_cv −3,3; doppie +2,9; ttr_pagina −2,8.
+- *Nota del coordinatore:* le medie per dose citate qui sono state ricavate dalla revisione leggendo `risultati/ia43_corse.jsonl` con un conto a parte, non con uno script del repo; vanno ricontrollate con uno script in `analisi/` prima di usarle nel paper.
